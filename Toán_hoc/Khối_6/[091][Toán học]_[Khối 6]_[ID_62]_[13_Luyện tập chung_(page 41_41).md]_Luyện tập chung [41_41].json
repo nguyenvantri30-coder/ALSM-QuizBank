@@ -1,0 +1,416 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 16,
+    "total": 16,
+    "types_used": {
+      "multichoice": 7,
+      "numerical": 2,
+      "truefalse": 2,
+      "shortanswer": 1,
+      "gapselect": 2,
+      "matching": 1,
+      "calculatedsimple": 1
+    },
+    "metadata_used": {
+      "YCCD_TOAN6_078": 4,
+      "YCCD_TOAN6_079": 4,
+      "Phương pháp tổng hợp các phép tính về số thập phân và tỉ số": 4,
+      "tỉ số phần trăm": 2,
+      "Giải bài toán thực tế liên quan đến giá cả": 2,
+      "YCCD_TOAN6_086": 4,
+      "NLT_TOAN_C2_01_05": 1,
+      "NLT_TOAN_C2_03_04": 1,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_CHAMCHI_HAMHOC_C2_03": 1,
+      "SUB_TCTH_TUHOC_C2_01": 1,
+      "SUB_GQVD_DEXUAT_C2_01": 1
+    }
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN6_078",
+        "reason": "Đo lường việc vận dụng các tính chất giao hoán, kết hợp, phân phối trong tính toán với số thập phân."
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_079",
+        "reason": "Đo lường việc vận dụng quy tắc dấu ngoặc với số thập phân."
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_086",
+        "reason": "Đo lường việc giải quyết bài toán thực tiễn về số thập phân và tỉ số phần trăm."
+      },
+      {
+        "metadata_code": "Phương pháp tổng hợp các phép tính về số thập phân và tỉ số",
+        "reason": "Đo lường phương pháp tổng hợp các phép tính về số thập phân và ước lượng kết quả."
+      },
+      {
+        "metadata_code": "Giải bài toán thực tế liên quan đến giá cả",
+        "reason": "Đo lường kỹ năng giải bài toán thực tế liên quan đến giá cả và tính toán tiền hàng."
+      },
+      {
+        "metadata_code": "tỉ số phần trăm",
+        "reason": "Đo lường kỹ năng tính tỉ số phần trăm quá tải trọng."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "lãi suất",
+        "reason": "Nội dung SGK Tiết 1 không đề cập đến bài toán lãi suất."
+      },
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học Luyện tập chung (Tiết 1) tập trung vào tính toán số thập phân và tỉ số phần trăm bằng tay/ước lượng, không đề cập đến việc sử dụng phần mềm hay công cụ tin học."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung SGK Tiết 1 không chứa bối cảnh ứng dụng trí tuệ nhân tạo (AI) nên không đủ cơ sở để thiết kế câu hỏi đo lường Năng lực AI một cách tự nhiên."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_078",
+      "questiontext": "Tính một cách hợp lý giá trị của biểu thức \\(A = 2,5 \\cdot (-0,124) + 10,124 \\cdot 2,5\\).",
+      "generalfeedback": "Áp dụng tính chất phân phối của phép nhân đối với phép cộng:\n\\(A = 2,5 \\cdot [(-0,124) + 10,124] = 2,5 \\cdot 10 = 25\\).",
+      "answers": [
+        {
+          "text": "25",
+          "fraction": 100
+        },
+        {
+          "text": "250",
+          "fraction": 0
+        },
+        {
+          "text": "-25",
+          "fraction": 0
+        },
+        {
+          "text": "2,5",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_079",
+      "questiontext": "Thực hiện bỏ dấu ngoặc rồi tính hợp lý biểu thức \\(B = (2,7 - 51,4) - (48,6 - 7,3)\\). Kết quả đúng là:",
+      "generalfeedback": "Bỏ dấu ngoặc có dấu '-' đằng trước:\n\\(B = 2,7 - 51,4 - 48,6 + 7,3 = (2,7 + 7,3) - (51,4 + 48,6) = 10 - 100 = -90\\).",
+      "answers": [
+        {
+          "text": "-90",
+          "fraction": 100
+        },
+        {
+          "text": "90",
+          "fraction": 0
+        },
+        {
+          "text": "-100",
+          "fraction": 0
+        },
+        {
+          "text": "10",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_079",
+      "questiontext": "Tính giá trị của biểu thức \\(C = 7,05 - (a + 3,5 + 0,85)\\) khi \\(a = -7,2\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Thay \\(a = -7,2\\) vào biểu thức:\n\\(C = 7,05 - (-7,2 + 3,5 + 0,85) = 7,05 - (-2,85) = 7,05 + 2,85 = 9,9\\).",
+      "answers": [
+        {
+          "text": "9.9",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Phương pháp tổng hợp các phép tính về số thập phân và tỉ số",
+      "questiontext": "Một học sinh thực hiện phép tính \\(601 \\cdot 212\\) được kết quả là \\(117\\,412\\). Bằng cách ước lượng \\(600 \\cdot 200 = 120\\,000\\), ta kết luận kết quả của học sinh đó là SAI. Khẳng định này Đúng hay Sai?",
+      "generalfeedback": "Vì \\(601 > 600\\) và \\(212 > 200\\) nên \\(601 \\cdot 212 > 600 \\cdot 200 = 120\\,000\\). Do đó kết quả \\(117\\,412 < 120\\,000\\) chắc chắn là sai.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "tỉ số phần trăm",
+      "questiontext": "Một xe ô tô có tải trọng quy định là 8 tấn nhưng lại chở 9,2 tấn hàng hóa. Hỏi xe đó đã chở quá tải bao nhiêu phần trăm? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị hay ký hiệu %)",
+      "generalfeedback": "Khối lượng quá tải là: 9,2 - 8 = 1,2 (tấn).\nTỉ lệ quá tải là: (1,2 : 8) . 100% = 15%.",
+      "answers": [
+        {
+          "text": "15",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán thực tế liên quan đến giá cả",
+      "questiontext": "Cường mua 3,5 kg khoai tây với giá 18 nghìn đồng/kg và 4 kg củ cải với giá 15,6 nghìn đồng/kg (giá chưa tính thuế). Tổng số tiền hàng chưa tính thuế của Cường là bao nhiêu?",
+      "generalfeedback": "Số tiền mua khoai tây: \\(3,5 \\cdot 18 = 63\\) (nghìn đồng).\nSố tiền mua củ cải: \\(4 \\cdot 15,6 = 62,4\\) (nghìn đồng).\nTổng số tiền hàng chưa thuế: \\(63 + 62,4 = 125,4\\) (nghìn đồng) hay 125 400 đồng.",
+      "answers": [
+        {
+          "text": "125,4 nghìn đồng",
+          "fraction": 100
+        },
+        {
+          "text": "118,4 nghìn đồng",
+          "fraction": 0
+        },
+        {
+          "text": "137,94 nghìn đồng",
+          "fraction": 0
+        },
+        {
+          "text": "134,4 nghìn đồng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_086",
+      "questiontext": "Năm 2019, Việt Nam sản xuất khoảng 201 nghìn tấn hạt tiêu, chiếm khoảng 30% sản lượng hạt tiêu toàn thế giới. Sản lượng hạt tiêu toàn thế giới năm 2019 là bao nhiêu nghìn tấn? (Chỉ ghi giá trị số)",
+      "generalfeedback": "Sản lượng hạt tiêu toàn thế giới năm 2019 là: \\(201 : 30\\% = 201 : 0,3 = 670\\) (nghìn tấn).",
+      "answers": [
+        {
+          "text": "670",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_078",
+      "questiontext": "Để tính hợp lý biểu thức \\(5,3 - (-5,1) + (-5,3) + 4,9\\), ta nhóm các số hạng như sau:\n\\([5,3 +\\) [[1]] \\(] + [5,1 +\\) [[2]] \\(] = 0 + 10 = 10\\).",
+      "generalfeedback": "Ta áp dụng tính chất giao hoán và kết hợp:\n\\(5,3 - (-5,1) + (-5,3) + 4,9 = [5,3 + (-5,3)] + [5,1 + 4,9] = 0 + 10 = 10\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "(-5,3)"
+        },
+        {
+          "group": 1,
+          "text": "4,9"
+        },
+        {
+          "group": 1,
+          "text": "5,1"
+        },
+        {
+          "group": 1,
+          "text": "(-5,1)"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Phương pháp tổng hợp các phép tính về số thập phân và tỉ số",
+      "questiontext": "Ghép mỗi phép tính về số thập phân ở cột bên trái với kết quả tương ứng ở cột bên phải:",
+      "generalfeedback": "a) \\(5,3 - (-5,1) + (-5,3) + 4,9 = 10\\).\nb) \\((2,7 - 51,4) - (48,6 - 7,3) = -90\\).\nc) \\(2,5 \\cdot (-0,124) + 10,124 \\cdot 2,5 = 25\\).",
+      "subquestions": [
+        {
+          "question": "\\(5,3 - (-5,1) + (-5,3) + 4,9\\)",
+          "answer": "10"
+        },
+        {
+          "question": "\\((2,7 - 51,4) - (48,6 - 7,3)\\)",
+          "answer": "-90"
+        },
+        {
+          "question": "\\(2,5 \\cdot (-0,124) + 10,124 \\cdot 2,5\\)",
+          "answer": "25"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_086",
+      "questiontext": "Trong 100 g gạo tẻ có chứa khoảng 1,3 g chất béo (tương ứng 1,3%). Hỏi trong m kg gạo tẻ có chứa bao nhiêu gram chất béo? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Khối lượng chất béo trong {m} kg (tức {m} nhân 1000 g) gạo là: {m} nhân 1000 nhân 1,3% = {m} nhân 13 (g).",
+      "wildcards": [
+        {
+          "name": "m",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 1
+        }
+      ],
+      "answers": [
+        {
+          "text": "{m}*13",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_05",
+      "questiontext": "Một học sinh thực hiện ước lượng phép tính \\(39,8 \\cdot 20,4\\) bằng cách lấy \\(40 \\cdot 20 = 800\\). Khẳng định nào sau đây thể hiện lập luận hợp lý nhất về kết quả ước lượng?",
+      "generalfeedback": "Lập luận hợp lý: Làm tròn \\(39,8 \\approx 40\\) (làm tròn lên) và \\(20,4 \\approx 20\\) (làm tròn xuống). Vì một thừa số được làm tròn lên và một thừa số được làm tròn xuống nên tích ước lượng 800 xấp xỉ gần đúng với tích thực tế.",
+      "answers": [
+        {
+          "text": "Tích ước lượng 800 xấp xỉ gần đúng với tích thực tế vì một thừa số được làm tròn lên và một thừa số được làm tròn xuống.",
+          "fraction": 100
+        },
+        {
+          "text": "Tích ước lượng 800 chắc chắn lớn hơn tích thực tế vì 40 lớn hơn 39,8.",
+          "fraction": 0
+        },
+        {
+          "text": "Tích ước lượng 800 chắc chắn nhỏ hơn tích thực tế vì 20 nhỏ hơn 20,4.",
+          "fraction": 0
+        },
+        {
+          "text": "Không thể dùng phương pháp ước lượng để kiểm tra tính hợp lý của phép nhân số thập phân.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_04",
+      "questiontext": "Một cửa hàng thực phẩm niêm yết giá chưa thuế VAT của 1 kg thịt lợn là 120 nghìn đồng. Khi thanh toán, người mua phải trả thêm 8% thuế VAT. Để tính tổng số tiền phải trả cho 2,5 kg thịt lợn (bao gồm cả thuế VAT), mô hình tính toán nào sau đây là đúng và thuận tiện nhất?",
+      "generalfeedback": "Mô hình tính toán đúng: Tiền chưa thuế là \\(2,5 \\cdot 120\\) (nghìn đồng). Tổng tiền cả thuế VAT (8%) là \\(2,5 \\cdot 120 \\cdot (1 + 8\\%) = 2,5 \\cdot 120 \\cdot 1,08 = 324\\) (nghìn đồng).",
+      "answers": [
+        {
+          "text": "\\(2,5 \\cdot 120 \\cdot 1,08 = 324\\) (nghìn đồng)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(2,5 \\cdot 120 \\cdot 0,08 = 24\\) (nghìn đồng)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2,5 \\cdot 120 + 8 = 308\\) (nghìn đồng)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2,5 \\cdot (120 + 8) = 320\\) (nghìn đồng)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi giải bài toán tính giá trị biểu thức số thập phân có nhiều dấu ngoặc phức tạp và dễ nhầm lẫn, bạn Nam đã chủ động thực hiện tính toán bằng hai phương pháp khác nhau (tính theo thứ tự thực hiện phép tính và dùng quy tắc bỏ dấu ngoặc) để đối chiếu kết quả. Hành vi của Nam thể hiện tinh thần trách nhiệm, cẩn thận và nỗ lực vươn lên đạt kết quả tốt trong học tập. Khẳng định này Đúng hay Sai?",
+      "generalfeedback": "Khẳng định Đúng. Việc Nam tự giác thử nghiệm nhiều phương pháp và kiểm tra đối chiếu kết quả thể hiện thái độ học tập tích cực, cẩn thận và kiên trì vươn lên học tốt.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_03",
+      "questiontext": "Gia đình bạn An dự định chở 1,2 tấn hàng bằng một xe tải nhỏ có tải trọng tối đa theo quy định là 1 tấn. An biết rằng chở quá tải sẽ gây nguy hiểm khi tham gia giao thông và bị vi phạm pháp luật. Vận dụng kiến thức về tỉ số phần trăm quá tải trọng đã học, An nên xử lý tình huống này như thế nào?",
+      "generalfeedback": "An tính tỉ lệ quá tải: \\((1,2 - 1) : 1 \\cdot 100\\% = 20\\%\\). Vì xe chở quá tải 20% là vi phạm quy định an toàn giao thông, An nên giải thích với gia đình bớt lượng hàng chở (hoặc chia làm 2 chuyến) để đảm bảo tải trọng không vượt quá 1 tấn.",
+      "answers": [
+        {
+          "text": "Giải thích cho gia đình biết xe đang chở quá tải 20% và đề xuất giảm bớt hàng hóa hoặc chia làm 2 chuyến để đảm bảo an toàn giao thông.",
+          "fraction": 100
+        },
+        {
+          "text": "Khuyên gia đình cứ chở hết 1,2 tấn vì vượt quá 0,2 tấn là rất ít không đáng kể.",
+          "fraction": 0
+        },
+        {
+          "text": "Không quan tâm vì việc chở hàng là của người lớn, kiến thức toán học không liên quan đến đời sống.",
+          "fraction": 0
+        },
+        {
+          "text": "Tính tỉ lệ quá tải là 120% rồi khuyên gia đình thuê xe chở hàng lớn hơn gấp 10 lần.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Để nâng cao kỹ năng tính nhẩm và ước lượng kết quả các phép tính với số thập phân trong bài 'Luyện tập chung', mục tiêu học tập nào sau đây là cụ thể và phù hợp nhất mà học sinh nên tự đặt ra?",
+      "generalfeedback": "Mục tiêu cụ thể, rõ ràng và đo lường được: 'Mỗi ngày luyện tập 5 bài tập về tính hợp lý và ước lượng tích/thương số thập phân để thành thạo quy tắc trong 1 tuần'.",
+      "answers": [
+        {
+          "text": "Mỗi ngày rèn luyện 5 bài tập về tính hợp lý và ước lượng kết quả phép tính số thập phân để thành thạo quy tắc trong 1 tuần.",
+          "fraction": 100
+        },
+        {
+          "text": "Học thuộc lòng toàn bộ bảng số liệu trong sách giáo khoa mà không cần làm bài tập.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ làm bài tập khi cô giáo yêu cầu kiểm tra 1 tiết.",
+          "fraction": 0
+        },
+        {
+          "text": "Cố gắng đạt điểm tối đa môn Toán mà không cần có kế hoạch ôn tập cụ thể.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_01",
+      "questiontext": "Để giải bài toán tính tổng chi phí mua sắm nông sản khi đi siêu thị (bao gồm giá niêm yết chưa thuế và thuế VAT 10%), học sinh cần thu thập thông tin theo các bước:\n- Bước 1: Xác định khối lượng và [[1]] của từng loại nông sản.\n- Bước 2: Tìm hiểu mức [[2]] áp dụng cho hóa đơn thanh toán.",
+      "generalfeedback": "Thông tin cần xác định: Bước 1 tìm đơn giá (giá niêm yết) của từng loại nông sản; Bước 2 tìm hiểu mức thuế VAT áp dụng.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "đơn giá"
+        },
+        {
+          "group": 1,
+          "text": "thuế VAT"
+        },
+        {
+          "group": 1,
+          "text": "tải trọng"
+        },
+        {
+          "group": 1,
+          "text": "hạn sử dụng"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,868 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 35,
+    "metadata_used": {
+      "Dấu hiệu chia hết cho 9 (tổng các chữ số chia hết cho 9)": 2,
+      "Dấu hiệu chia hết cho 3 (tổng các chữ số chia hết cho 3)": 2,
+      "Nhận biết số chia hết cho 9": 3,
+      "Nhận biết số chia hết cho 3": 4,
+      "Tìm chữ số còn thiếu để số chia hết cho 3 hoặc 9": 5,
+      "YCCD_TOAN6_025": 4,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_TCTH_TUHOC_C2_04": 1,
+      "SUB_GTHT_XACDINHMD_C2_03": 1,
+      "NLT_TOAN_C2_01_01": 1,
+      "NLT_TOAN_C2_04_02": 1
+    },
+    "types_used": {
+      "truefalse": 4,
+      "multichoice": 21,
+      "shortanswer": 3,
+      "gapselect": 1,
+      "matching": 2,
+      "ddwtos": 2,
+      "numerical": 2
+    },
+    "total": 35
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "Dấu hiệu chia hết cho 9 (tổng các chữ số chia hết cho 9)",
+        "reason": "Đo lường phát biểu kiến thức về dấu hiệu chia hết cho 9."
+      },
+      {
+        "metadata_code": "Dấu hiệu chia hết cho 3 (tổng các chữ số chia hết cho 3)",
+        "reason": "Đo lường phát biểu kiến thức về dấu hiệu chia hết cho 3."
+      },
+      {
+        "metadata_code": "Nhận biết số chia hết cho 9",
+        "reason": "Đo lường kỹ năng nhận biết số chia hết cho 9."
+      },
+      {
+        "metadata_code": "Nhận biết số chia hết cho 3",
+        "reason": "Đo lường kỹ năng nhận biết số chia hết cho 3."
+      },
+      {
+        "metadata_code": "Tìm chữ số còn thiếu để số chia hết cho 3 hoặc 9",
+        "reason": "Đo lường kỹ năng tìm chữ số còn thiếu để số chia hết cho 3 hoặc 9."
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_025",
+        "reason": "Đo lường khả năng vận dụng dấu hiệu chia hết để giải bài toán thực tế / xác định tính chia hết."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đo lường phẩm chất kiên trì vươn lên qua bài toán tìm chữ số chưa biết."
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+        "reason": "Đo lường năng lực tóm tắt, chọn lọc thông tin từ khóa cho sơ đồ tư duy."
+      },
+      {
+        "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+        "reason": "Đo lường năng lực tiếp nhận, xử lý thông tin biểu đồ/sơ đồ đường đi."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_01",
+        "reason": "Đo lường thao tác tư duy so sánh, phân tích mối liên hệ toán học."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_04_02",
+        "reason": "Đo lường năng lực đọc hiểu văn bản giải thích toán học."
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Dấu hiệu chia hết cho 9 (tổng các chữ số chia hết cho 9)",
+      "questiontext": "Khẳng định sau đây đúng hay sai?\n\"Các số có tổng các chữ số chia hết cho 9 thì chia hết cho 9 và chỉ những số đó mới chia hết cho 9.\"",
+      "generalfeedback": "Theo phát biểu SGK: Các số có tổng các chữ số chia hết cho 9 thì chia hết cho 9 và chỉ những số đó mới chia hết cho 9.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Dấu hiệu chia hết cho 3 (tổng các chữ số chia hết cho 3)",
+      "questiontext": "Phát biểu nào sau đây là đúng về dấu hiệu chia hết cho 3?",
+      "generalfeedback": "Số chia hết cho 3 là số có tổng các chữ số chia hết cho 3.",
+      "answers": [
+        {
+          "text": "Các số có tổng các chữ số chia hết cho 3 thì chia hết cho 3.",
+          "fraction": 100
+        },
+        {
+          "text": "Các số có chữ số tận cùng là 3 thì chia hết cho 3.",
+          "fraction": 0
+        },
+        {
+          "text": "Các số có chữ số tận cùng là 0; 3; 6; 9 thì chia hết cho 3.",
+          "fraction": 0
+        },
+        {
+          "text": "Các số có tổng các chữ số là số chẵn thì chia hết cho 3.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết số chia hết cho 9",
+      "questiontext": "Trong các số sau, số nào chia hết cho 9?",
+      "generalfeedback": "Số 2 025 có tổng các chữ số là \\(2 + 0 + 2 + 5 = 9\\) chia hết cho 9 nên 2 025 chia hết cho 9.",
+      "answers": [
+        {
+          "text": "2 025",
+          "fraction": 100
+        },
+        {
+          "text": "123",
+          "fraction": 0
+        },
+        {
+          "text": "2 019",
+          "fraction": 0
+        },
+        {
+          "text": "82",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết số chia hết cho 3",
+      "questiontext": "Trong các số 42; 80; 191; 234, những số nào chia hết cho 3?",
+      "generalfeedback": "Số 42 có tổng các chữ số \\(4 + 2 = 6\\) chia hết cho 3. Số 234 có tổng các chữ số \\(2 + 3 + 4 = 9\\) chia hết cho 3.",
+      "answers": [
+        {
+          "text": "42 và 234",
+          "fraction": 100
+        },
+        {
+          "text": "80 và 191",
+          "fraction": 0
+        },
+        {
+          "text": "42 và 80",
+          "fraction": 0
+        },
+        {
+          "text": "191 và 234",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm chữ số còn thiếu để số chia hết cho 3 hoặc 9",
+      "questiontext": "Thay dấu \\(*\\) bởi chữ số thích hợp để được số \\(\\overline{12^*}\\) chia hết cho 9.",
+      "generalfeedback": "Để \\(\\overline{12^*}\\) chia hết cho 9 thì tổng \\(1 + 2 + * = 3 + *\\) phải chia hết cho 9. Do \\(*\\) là chữ số nên \\(* = 6\\).",
+      "answers": [
+        {
+          "text": "6",
+          "fraction": 100
+        },
+        {
+          "text": "3",
+          "fraction": 0
+        },
+        {
+          "text": "0",
+          "fraction": 0
+        },
+        {
+          "text": "9",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_025",
+      "imgs": [
+        "_page_2_Picture_2.jpeg"
+      ],
+      "questiontext": "Trên một bờ đất dài 108 m [img:_page_2_Picture_2.jpeg], bác nông dân kế hoạch trồng cây dừa thành một hàng sao cho hai cây cách đều nhau 9 m và luôn có cây ở vị trí đầu và cuối bờ đất. Bác nông dân có trồng được như vậy không? Nếu được thì cần bao nhiêu cây?",
+      "generalfeedback": "Vì tổng các chữ số của 108 là \\(1 + 0 + 8 = 9\\) chia hết cho 9 nên 108 chia hết cho 9. Do đó bác nông dân trồng được. Số khoảng cách 9 m là \\(108 : 9 = 12\\). Vì có cây ở cả đầu và cuối bờ nên số cây dừa cần trồng là \\(12 + 1 = 13\\) cây.",
+      "answers": [
+        {
+          "text": "Trồng được và cần 13 cây dừa",
+          "fraction": 100
+        },
+        {
+          "text": "Không trồng được vì 108 không chia hết cho 9",
+          "fraction": 0
+        },
+        {
+          "text": "Trồng được và cần 12 cây dừa",
+          "fraction": 0
+        },
+        {
+          "text": "Trồng được và cần 14 cây dừa",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm chữ số còn thiếu để số chia hết cho 3 hoặc 9",
+      "questiontext": "Tìm chữ số \\(*\\) nhỏ nhất để số \\(\\overline{345^*}\\) chia hết cho 3.",
+      "generalfeedback": "Tổng các chữ số là \\(3 + 4 + 5 + * = 12 + *\\). Để chia hết cho 3 thì \\(*\\) nhận các giá trị 0; 3; 6; 9. Chữ số nhỏ nhất là 0.",
+      "answers": [
+        {
+          "text": "0",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết số chia hết cho 9",
+      "questiontext": "Số 71 001 chia hết cho 9. Đúng hay sai?",
+      "generalfeedback": "Tổng các chữ số của 71 001 là \\(7 + 1 + 0 + 0 + 1 = 9\\) chia hết cho 9 nên 71 001 chia hết cho 9.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết số chia hết cho 3",
+      "questiontext": "Trong các số 4 683 và 4 321, số [[1]] chia hết cho 3 vì có tổng các chữ số bằng 21 chia hết cho 3; còn số [[2]] không chia hết cho 3.",
+      "generalfeedback": "4 683 có tổng các chữ số là 21 chia hết cho 3. 4 321 có tổng các chữ số là 10 không chia hết cho 3.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "4 683"
+        },
+        {
+          "group": 1,
+          "text": "4 321"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_025",
+      "questiontext": "Khối lớp 6 của một trường có 290 học sinh đi dã ngoại. Cô phụ trách muốn chia đều số học sinh của khối 6 thành 9 nhóm. Hỏi cô có chia nhóm được như vậy không?",
+      "generalfeedback": "Tổng các chữ số của 290 là \\(2 + 9 + 0 = 11\\). Vì 11 không chia hết cho 9 nên 290 không chia hết cho 9. Do đó cô không thể chia đều thành 9 nhóm được.",
+      "answers": [
+        {
+          "text": "Không chia nhóm được như vậy vì 290 không chia hết cho 9",
+          "fraction": 100
+        },
+        {
+          "text": "Chia được vì 290 chia hết cho 9",
+          "fraction": 0
+        },
+        {
+          "text": "Chia được và mỗi nhóm có 32 học sinh",
+          "fraction": 0
+        },
+        {
+          "text": "Không chia được vì 290 không chia hết cho 2",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm chữ số còn thiếu để số chia hết cho 3 hoặc 9",
+      "questiontext": "Thay dấu \\(*\\) bởi chữ số thích hợp để được số \\(\\overline{12^*5}\\) chia hết cho 3. Chữ số \\(*\\) có thể nhận các giá trị nào?",
+      "generalfeedback": "Để số \\(\\overline{12^*5}\\) chia hết cho 3 thì tổng các chữ số \\(1 + 2 + * + 5 = 8 + *\\) phải chia hết cho 3. Do đó \\(* \\in \\{1; 4; 7\\}\\).",
+      "answers": [
+        {
+          "text": "1; 4; 7",
+          "fraction": 100
+        },
+        {
+          "text": "2; 5; 8",
+          "fraction": 0
+        },
+        {
+          "text": "0; 3; 6; 9",
+          "fraction": 0
+        },
+        {
+          "text": "3; 6; 9",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_025",
+      "questiontext": "Có 162 học sinh tham gia chương trình đào tạo bóng đá, được chia thành các đội sao cho mỗi đội có đúng 9 học sinh. Hỏi có đội nào không có đủ 9 học sinh hay không?",
+      "generalfeedback": "Số 162 có tổng các chữ số là \\(1 + 6 + 2 = 9\\) chia hết cho 9, nên 162 chia hết cho 9. Vì vậy, các học sinh được chia vừa đủ thành 18 đội, không có đội nào bị thiếu học sinh.",
+      "answers": [
+        {
+          "text": "Không, vì 162 chia hết cho 9 nên các đội đều có đủ 9 học sinh.",
+          "fraction": 100
+        },
+        {
+          "text": "Có, dư 2 học sinh không đủ lập đội.",
+          "fraction": 0
+        },
+        {
+          "text": "Có, dư 3 học sinh không đủ lập đội.",
+          "fraction": 0
+        },
+        {
+          "text": "Có, dư 5 học sinh không đủ lập đội.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết số chia hết cho 9",
+      "questiontext": "Ghép mỗi số sau với tính chất chia hết cho 9 tương ứng:",
+      "generalfeedback": "450 có tổng các chữ số là 9 (chia hết cho 9). 2 025 có tổng các chữ số là 9 (chia hết cho 9). 123 có tổng các chữ số là 6 (không chia hết cho 9). 2 019 có tổng các chữ số là 12 (không chia hết cho 9).",
+      "subquestions": [
+        {
+          "question": "450",
+          "answer": "Chia hết cho 9"
+        },
+        {
+          "question": "123",
+          "answer": "Không chia hết cho 9"
+        },
+        {
+          "question": "2 019",
+          "answer": "Không chia hết cho 9"
+        },
+        {
+          "question": "2 025",
+          "answer": "Chia hết cho 9"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm chữ số còn thiếu để số chia hết cho 3 hoặc 9",
+      "questiontext": "Thay dấu \\(*\\) bởi chữ số thích hợp để số \\(\\overline{345^*}\\) chia hết cho 9. Chữ số \\(*\\) thích hợp là [[1]].",
+      "generalfeedback": "Tổng các chữ số là \\(3 + 4 + 5 + * = 12 + *\\). Để chia hết cho 9 thì \\(12 + *\\) phải chia hết cho 9, suy ra \\(* = 6\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "6"
+        },
+        {
+          "group": 1,
+          "text": "3"
+        },
+        {
+          "group": 1,
+          "text": "0"
+        },
+        {
+          "group": 1,
+          "text": "9"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Dấu hiệu chia hết cho 9 (tổng các chữ số chia hết cho 9)",
+      "questiontext": "Điền số thích hợp vào chỗ trống: \"Một số tự nhiên luôn viết được thành tổng các chữ số của nó và một số chia hết cho ...\"",
+      "generalfeedback": "Theo mục \"Em có biết?\", một số tự nhiên luôn viết được thành tổng các chữ số của nó và một số chia hết cho 9.",
+      "answers": [
+        {
+          "text": "9",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_025",
+      "imgs": [
+        "_page_2_Figure_17.jpeg"
+      ],
+      "questiontext": "Bạn Hà cần tìm đường đến siêu thị [img:_page_2_Figure_17.jpeg]. Biết rằng Hà chỉ có thể đi qua ô có chứa số chia hết cho 2 hoặc chia hết cho 3 và mỗi ô chỉ đi qua một lần. Ở ô xuất phát chứa số 14 (chia hết cho 2), ô tiếp theo Hà có thể đi qua chứa số nào sau đây?",
+      "generalfeedback": "Số 15 có tổng các chữ số \\(1 + 5 = 6\\) chia hết cho 3 nên 15 chia hết cho 3. Do đó Hà có thể đi qua ô chứa số 15.",
+      "answers": [
+        {
+          "text": "15",
+          "fraction": 100
+        },
+        {
+          "text": "25",
+          "fraction": 0
+        },
+        {
+          "text": "35",
+          "fraction": 0
+        },
+        {
+          "text": "49",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết số chia hết cho 3",
+      "questiontext": "Từ các chữ số 5; 0; 4; 2, số nào sau đây là số tự nhiên có ba chữ số khác nhau chia hết cho 3?",
+      "generalfeedback": "Số 504 có ba chữ số khác nhau được lập từ các chữ số cho trước và tổng các chữ số \\(5 + 0 + 4 = 9\\) chia hết cho 3.",
+      "answers": [
+        {
+          "text": "504",
+          "fraction": 100
+        },
+        {
+          "text": "502",
+          "fraction": 0
+        },
+        {
+          "text": "425",
+          "fraction": 0
+        },
+        {
+          "text": "205",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Dấu hiệu chia hết cho 3 (tổng các chữ số chia hết cho 3)",
+      "questiontext": "Khẳng định sau đây đúng hay sai?\n\"Số có chữ số tận cùng là 3 thì luôn chia hết cho 3.\"",
+      "generalfeedback": "Sai. Dấu hiệu chia hết cho 3 phụ thuộc vào tổng các chữ số chứ không phụ thuộc vào chữ số tận cùng. Ví dụ số 13 có chữ số tận cùng là 3 nhưng không chia hết cho 3.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết số chia hết cho 3",
+      "questiontext": "Tính tổng các chữ số của số 4 683 để kiểm tra tính chia hết cho 3. (Chỉ điền số)",
+      "generalfeedback": "Tổng các chữ số của 4 683 là \\(4 + 6 + 8 + 3 = 21\\). Vì 21 chia hết cho 3 nên 4 683 chia hết cho 3.",
+      "answers": [
+        {
+          "text": "21",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm chữ số còn thiếu để số chia hết cho 3 hoặc 9",
+      "questiontext": "Thay dấu \\(*\\) bởi chữ số thích hợp để số \\(\\overline{12^*0}\\) chia hết cho cả 3 và 9.",
+      "generalfeedback": "Tổng các chữ số là \\(1 + 2 + * + 0 = 3 + *\\). Để chia hết cho 9 thì \\(3 + *\\) phải chia hết cho 9, suy ra \\(* = 6\\). Khi \\(* = 6\\), tổng các chữ số là 9 cũng chia hết cho 3.",
+      "answers": [
+        {
+          "text": "6",
+          "fraction": 100
+        },
+        {
+          "text": "3",
+          "fraction": 0
+        },
+        {
+          "text": "0",
+          "fraction": 0
+        },
+        {
+          "text": "9",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm chữ số còn thiếu để số chia hết cho 3 hoặc 9",
+      "questiontext": "Thay dấu \\(*\\) bởi chữ số thích hợp để được số \\(\\overline{12^*5}\\) chia hết cho 3. Chữ số \\(*\\) có thể nhận các giá trị nào?",
+      "generalfeedback": "Để số \\(\\overline{12^*5}\\) chia hết cho 3 thì tổng các chữ số \\(1 + 2 + * + 5 = 8 + *\\) phải chia hết cho 3. Do đó \\(* \\in \\{1; 4; 7\\}\\).",
+      "answers": [
+        {
+          "text": "1; 4; 7",
+          "fraction": 100
+        },
+        {
+          "text": "2; 5; 8",
+          "fraction": 0
+        },
+        {
+          "text": "0; 3; 6; 9",
+          "fraction": 0
+        },
+        {
+          "text": "3; 6; 9",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_025",
+      "questiontext": "Có 162 học sinh tham gia chương trình đào tạo bóng đá, được chia thành các đội sao cho mỗi đội có đúng 9 học sinh. Hỏi có đội nào không có đủ 9 học sinh hay không?",
+      "generalfeedback": "Số 162 có tổng các chữ số là \\(1 + 6 + 2 = 9\\) chia hết cho 9, nên 162 chia hết cho 9. Vì vậy, các học sinh được chia vừa đủ thành 18 đội, không có đội nào bị thiếu học sinh.",
+      "answers": [
+        {
+          "text": "Không, vì 162 chia hết cho 9 nên các đội đều có đủ 9 học sinh.",
+          "fraction": 100
+        },
+        {
+          "text": "Có, dư 2 học sinh không đủ lập đội.",
+          "fraction": 0
+        },
+        {
+          "text": "Có, dư 3 học sinh không đủ lập đội.",
+          "fraction": 0
+        },
+        {
+          "text": "Có, dư 5 học sinh không đủ lập đội.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết số chia hết cho 9",
+      "questiontext": "Ghép mỗi số sau với tính chất chia hết cho 9 tương ứng:",
+      "generalfeedback": "450 có tổng các chữ số là 9 (chia hết cho 9). 2 025 có tổng các chữ số là 9 (chia hết cho 9). 123 có tổng các chữ số là 6 (không chia hết cho 9). 2 019 có tổng các chữ số là 12 (không chia hết cho 9).",
+      "subquestions": [
+        {
+          "question": "450",
+          "answer": "Chia hết cho 9"
+        },
+        {
+          "question": "123",
+          "answer": "Không chia hết cho 9"
+        },
+        {
+          "question": "2 019",
+          "answer": "Không chia hết cho 9"
+        },
+        {
+          "question": "2 025",
+          "answer": "Chia hết cho 9"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm chữ số còn thiếu để số chia hết cho 3 hoặc 9",
+      "questiontext": "Thay dấu \\(*\\) bởi chữ số thích hợp để số \\(\\overline{345^*}\\) chia hết cho 9. Chữ số \\(*\\) thích hợp là [[1]].",
+      "generalfeedback": "Tổng các chữ số là \\(3 + 4 + 5 + * = 12 + *\\). Để chia hết cho 9 thì \\(12 + *\\) phải chia hết cho 9, suy ra \\(* = 6\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "6"
+        },
+        {
+          "group": 1,
+          "text": "3"
+        },
+        {
+          "group": 1,
+          "text": "0"
+        },
+        {
+          "group": 1,
+          "text": "9"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Dấu hiệu chia hết cho 9 (tổng các chữ số chia hết cho 9)",
+      "questiontext": "Điền số thích hợp vào chỗ trống: \"Một số tự nhiên luôn viết được thành tổng các chữ số của nó và một số chia hết cho ...\"",
+      "generalfeedback": "Theo mục \"Em có biết?\", một số tự nhiên luôn viết được thành tổng các chữ số của nó và một số chia hết cho 9.",
+      "answers": [
+        {
+          "text": "9",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_025",
+      "imgs": [
+        "_page_2_Figure_17.jpeg"
+      ],
+      "questiontext": "Bạn Hà cần tìm đường đến siêu thị [img:_page_2_Figure_17.jpeg]. Biết rằng Hà chỉ có thể đi qua ô có chứa số chia hết cho 2 hoặc chia hết cho 3 và mỗi ô chỉ đi qua một lần. Ở ô xuất phát chứa số 14 (chia hết cho 2), ô tiếp theo Hà có thể đi qua chứa số nào sau đây?",
+      "generalfeedback": "Số 15 có tổng các chữ số \\(1 + 5 = 6\\) chia hết cho 3 nên 15 chia hết cho 3. Do đó Hà có thể đi qua ô chứa số 15.",
+      "answers": [
+        {
+          "text": "15",
+          "fraction": 100
+        },
+        {
+          "text": "25",
+          "fraction": 0
+        },
+        {
+          "text": "35",
+          "fraction": 0
+        },
+        {
+          "text": "49",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết số chia hết cho 3",
+      "questiontext": "Từ các chữ số 5; 0; 4; 2, số nào sau đây là số tự nhiên có ba chữ số khác nhau chia hết cho 3?",
+      "generalfeedback": "Số 504 có ba chữ số khác nhau được lập từ các chữ số cho trước và tổng các chữ số \\(5 + 0 + 4 = 9\\) chia hết cho 3.",
+      "answers": [
+        {
+          "text": "504",
+          "fraction": 100
+        },
+        {
+          "text": "502",
+          "fraction": 0
+        },
+        {
+          "text": "425",
+          "fraction": 0
+        },
+        {
+          "text": "205",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Dấu hiệu chia hết cho 3 (tổng các chữ số chia hết cho 3)",
+      "questiontext": "Khẳng định sau đây đúng hay sai?\n\"Số có chữ số tận cùng là 3 thì luôn chia hết cho 3.\"",
+      "generalfeedback": "Sai. Dấu hiệu chia hết cho 3 phụ thuộc vào tổng các chữ số chứ không phụ thuộc vào chữ số tận cùng. Ví dụ số 13 có chữ số tận cùng là 3 nhưng không chia hết cho 3.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết số chia hết cho 3",
+      "questiontext": "Tính tổng các chữ số của số 4 683 để kiểm tra tính chia hết cho 3. (Chỉ điền số)",
+      "generalfeedback": "Tổng các chữ số của 4 683 là \\(4 + 6 + 8 + 3 = 21\\). Vì 21 chia hết cho 3 nên 4 683 chia hết cho 3.",
+      "answers": [
+        {
+          "text": "21",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm chữ số còn thiếu để số chia hết cho 3 hoặc 9",
+      "questiontext": "Thay dấu \\(*\\) bởi chữ số thích hợp để số \\(\\overline{12^*0}\\) chia hết cho cả 3 và 9.",
+      "generalfeedback": "Tổng các chữ số là \\(1 + 2 + * + 0 = 3 + *\\). Để chia hết cho 9 thì \\(3 + *\\) phải chia hết cho 9, suy ra \\(* = 6\\). Khi \\(* = 6\\), tổng các chữ số là 9 cũng chia hết cho 3.",
+      "answers": [
+        {
+          "text": "6",
+          "fraction": 100
+        },
+        {
+          "text": "3",
+          "fraction": 0
+        },
+        {
+          "text": "0",
+          "fraction": 0
+        },
+        {
+          "text": "9",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ học Toán về \"Dấu hiệu chia hết cho 9, cho 3\", khi gặp một bài toán tìm chữ số chưa biết khó và phức tạp, bạn Nam đã không bỏ cuộc mà kiên trì áp dụng quy tắc tổng các chữ số để thử từng trường hợp cho đến khi tìm ra đáp án đúng. Hành vi của bạn Nam thể hiện phẩm chất nào?",
+      "generalfeedback": "Hành vi kiên trì, không nản lòng trước bài tập khó để tìm ra kết quả đúng thể hiện phẩm chất luôn cố gắng vươn lên đạt kết quả tốt trong học tập.",
+      "answers": [
+        {
+          "text": "Luôn cố gắng vươn lên đạt kết quả tốt trong học tập.",
+          "fraction": 100
+        },
+        {
+          "text": "Trung thực trong việc làm bài kiểm tra.",
+          "fraction": 0
+        },
+        {
+          "text": "Yêu nước và tự hào về truyền thống dân tộc.",
+          "fraction": 0
+        },
+        {
+          "text": "Tự giác tham gia các hoạt động lao động công ích.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Bạn An muốn tóm tắt kiến thức Tiết 2 \"Dấu hiệu chia hết cho 9, cho 3\" dưới dạng bản đồ khái niệm ngắn gọn. Để lưu giữ thông tin có chọn lọc và chính xác nhất, tại nhánh \"Dấu hiệu chia hết cho 9\", từ khóa trọng tâm nào An BẮT BUỘC phải ghi nhận?",
+      "generalfeedback": "Từ khóa cốt lõi của dấu hiệu chia hết cho 9 là \"Tổng các chữ số chia hết cho 9\".",
+      "answers": [
+        {
+          "text": "Tổng các chữ số chia hết cho 9",
+          "fraction": 100
+        },
+        {
+          "text": "Chữ số tận cùng là 9",
+          "fraction": 0
+        },
+        {
+          "text": "Chữ số tận cùng là số chẵn",
+          "fraction": 0
+        },
+        {
+          "text": "Tích các chữ số chia hết cho 9",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "imgs": [
+        "_page_2_Figure_17.jpeg"
+      ],
+      "questiontext": "Quan sát sơ đồ trò chơi \"Tìm đường đến siêu thị\" [img:_page_2_Figure_17.jpeg]. Học sinh tiếp nhận thông tin từ sơ đồ: Bạn Hà chỉ đi qua các ô chứa số chia hết cho 2 hoặc chia hết cho 3. Hãy phân tích sơ đồ và cho biết dãy số nào sau đây thể hiện một đường đi hợp lệ giúp Hà đến được siêu thị?",
+      "generalfeedback": "Đường đi \\(14 \\rightarrow 21 \\rightarrow 15 \\rightarrow 54 \\rightarrow 77\\) là hợp lệ vì: 14 chia hết cho 2; 21 chia hết cho 3 \\((2+1=3)\\); 15 chia hết cho 3 \\((1+5=6)\\); 54 chia hết cho 2 và 3 \\((5+4=9)\\); 77 đi tiếp tới siêu thị.",
+      "answers": [
+        {
+          "text": "14 -> 21 -> 15 -> 54 -> 77",
+          "fraction": 100
+        },
+        {
+          "text": "14 -> 5 -> 17 -> 72 -> 123",
+          "fraction": 0
+        },
+        {
+          "text": "14 -> 12 -> 19 -> 65 -> 77",
+          "fraction": 0
+        },
+        {
+          "text": "14 -> 21 -> 2020 -> 65 -> 1245",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Thực hiện thao tác tư duy so sánh giữa \"Dấu hiệu chia hết cho 3\" và \"Dấu hiệu chia hết cho 9\", phát biểu nào sau đây phân tích đúng mối liên hệ giữa hai dấu hiệu này?",
+      "generalfeedback": "Cả hai dấu hiệu đều dựa trên thao tác xét tổng các chữ số của số đó. Một số chia hết cho 9 thì luôn chia hết cho 3 (vì tổng chia hết cho 9 thì chắc chắn chia hết cho 3), nhưng số chia hết cho 3 chưa chắc chia hết cho 9.",
+      "answers": [
+        {
+          "text": "Cả hai dấu hiệu đều căn cứ vào tổng các chữ số, và mọi số chia hết cho 9 thì đều chia hết cho 3.",
+          "fraction": 100
+        },
+        {
+          "text": "Cả hai dấu hiệu đều căn cứ vào chữ số tận cùng của số đó.",
+          "fraction": 0
+        },
+        {
+          "text": "Mọi số chia hết cho 3 thì đều chia hết cho 9.",
+          "fraction": 0
+        },
+        {
+          "text": "Dấu hiệu chia hết cho 3 dựa vào chữ số tận cùng, còn dấu hiệu chia hết cho 9 dựa vào tổng các chữ số.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04_02",
+      "questiontext": "Đọc hiểu văn bản toán học sau trong mục \"Em có biết?\":\n\"Xét số \\(234 = 2 \\cdot 100 + 3 \\cdot 10 + 4 = 2(99 + 1) + 3(9 + 1) + 4 = (2 + 3 + 4) + (2 \\cdot 9 \\cdot 11 + 3 \\cdot 9)\\).\"\nThông tin toán học trọng tâm nào được rút ra từ văn bản giải thích trên?",
+      "generalfeedback": "Văn bản giải thích rằng một số tự nhiên luôn viết được thành tổng các chữ số của nó cộng với một số chia hết cho 9, từ đó suy ra dấu hiệu chia hết cho 9 và cho 3.",
+      "answers": [
+        {
+          "text": "Một số tự nhiên luôn viết được thành tổng các chữ số của nó và một số chia hết cho 9.",
+          "fraction": 100
+        },
+        {
+          "text": "Mọi số tự nhiên đều là bội số của 99 và 9.",
+          "fraction": 0
+        },
+        {
+          "text": "Số 234 là số duy nhất có tổng các chữ số chia hết cho 9.",
+          "fraction": 0
+        },
+        {
+          "text": "Phép nhân với 100 luôn cho kết quả chia hết cho 3.",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

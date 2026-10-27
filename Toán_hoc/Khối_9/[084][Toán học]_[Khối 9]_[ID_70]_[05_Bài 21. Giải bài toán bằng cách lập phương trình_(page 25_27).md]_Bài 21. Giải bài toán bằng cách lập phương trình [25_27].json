@@ -1,0 +1,745 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 28,
+    "metadata_used": {
+      "Mô hình hóa toán học các bài toán thực tế dạng hình học": 4,
+      "chuyển động": 4,
+      "năng suất": 2,
+      "Lập phương trình bậc hai biểu diễn mối quan hệ giữa các đại lượng": 3,
+      "Giải phương trình bậc hai và đối chiếu điều kiện thực tế": 4,
+      "YCCD_TOAN9_035": 3,
+      "SUB_CHAMCHI_HAMHOC_C2_03": 1,
+      "SUB_TRACHNHIEM_BANTHAN_C2_05": 1,
+      "SUB_GQVD_DEXUAT_C2_01": 1,
+      "SUB_GTHT_XACDINHMD_C2_04": 1,
+      "NLT_TOAN_C2_02_05": 1,
+      "NLT_TOAN_C2_02_08": 1,
+      "1.1TC2a_K9": 1,
+      "9.A3.1_2": 1
+    },
+    "types_used": {
+      "multichoice": 14,
+      "matching": 3,
+      "gapselect": 2,
+      "truefalse": 3,
+      "numerical": 2,
+      "ddwtos": 1,
+      "calculated": 1,
+      "calculatedsimple": 1,
+      "calculatedmulti": 1
+    }
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "Mô hình hóa toán học các bài toán thực tế dạng hình học",
+        "reason": "Đo lường K1"
+      },
+      {
+        "metadata_code": "chuyển động",
+        "reason": "Đo lường K2"
+      },
+      {
+        "metadata_code": "năng suất",
+        "reason": "Đo lường K3"
+      },
+      {
+        "metadata_code": "Lập phương trình bậc hai biểu diễn mối quan hệ giữa các đại lượng",
+        "reason": "Đo lường S1"
+      },
+      {
+        "metadata_code": "Giải phương trình bậc hai và đối chiếu điều kiện thực tế",
+        "reason": "Đo lường S2"
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_035",
+        "reason": "Đo lường Y1"
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_03",
+        "reason": "Đo lường Q1"
+      },
+      {
+        "metadata_code": "SUB_TRACHNHIEM_BANTHAN_C2_05",
+        "reason": "Đo lường Q2"
+      },
+      {
+        "metadata_code": "SUB_GQVD_DEXUAT_C2_01",
+        "reason": "Đo lường G1"
+      },
+      {
+        "metadata_code": "SUB_GTHT_XACDINHMD_C2_04",
+        "reason": "Đo lường G2"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_02_05",
+        "reason": "Đo lường D1"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_02_08",
+        "reason": "Đo lường D2"
+      },
+      {
+        "metadata_code": "1.1TC2a_K9",
+        "reason": "Đo lường N1"
+      },
+      {
+        "metadata_code": "9.A3.1_2",
+        "reason": "Đo lường A1"
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Mô hình hóa toán học các bài toán thực tế dạng hình học",
+      "questiontext": "Một mảnh đất hình chữ nhật có chiều rộng là x (m) với x > 0. Biết chiều dài hơn chiều rộng 30 m. Biểu thức biểu diễn diện tích của mảnh đất theo x là:",
+      "generalfeedback": "Chiều rộng là x (m), chiều dài là \\(x + 30\\) (m). Diện tích mảnh đất là \\(x(x + 30)\\) \\(m^2\\).",
+      "answers": [
+        {
+          "text": "\\(x(x + 30)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x + (x + 30)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2(x + x + 30)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x(x - 30)\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Mô hình hóa toán học các bài toán thực tế dạng hình học",
+      "questiontext": "Một mảnh đất hình chữ nhật có diện tích 360 \\(m^2\\). Gọi x (m) là chiều rộng của mảnh đất (x > 0). Ghép nối các đại lượng ở cột trái với biểu thức tương ứng ở cột phải:",
+      "generalfeedback": "Chiều rộng là x (m). Chiều dài ban đầu là \\(\\frac{360}{x}\\) (m). Chiều rộng mới khi tăng 3 m là \\(x + 3\\) (m). Chiều dài mới khi giảm 4 m là \\(\\frac{360}{x} - 4\\) (m).",
+      "subquestions": [
+        {
+          "question": "Chiều dài ban đầu của mảnh đất (m)",
+          "answer": "\\(\\frac{360}{x}\\)"
+        },
+        {
+          "question": "Chiều rộng mới sau khi tăng 3 m (m)",
+          "answer": "\\(x + 3\\)"
+        },
+        {
+          "question": "Chiều dài mới sau khi giảm 4 m (m)",
+          "answer": "\\(\\frac{360}{x} - 4\\)"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "chuyển động",
+      "questiontext": "Một tàu du lịch đi xuôi dòng sông với vận tốc thực của tàu là x (km/h) và vận tốc dòng nước là 3 km/h (điều kiện x > 3). Vận tốc của tàu khi xuôi dòng là [[1]] km/h, và vận tốc của tàu khi ngược dòng là [[2]] km/h.",
+      "generalfeedback": "Vận tốc xuôi dòng bằng vận tốc thực cộng vận tốc dòng nước: \\(x + 3\\). Vận tốc ngược dòng bằng vận tốc thực trừ vận tốc dòng nước: \\(x - 3\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "x + 3"
+        },
+        {
+          "group": 1,
+          "text": "x - 3"
+        },
+        {
+          "group": 1,
+          "text": "3x"
+        },
+        {
+          "group": 1,
+          "text": "x / 3"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "chuyển động",
+      "questiontext": "Khoảng cách giữa hai bến sông A và B là 36 km. Tàu du lịch đi từ A đến B với vận tốc xuôi dòng là x + 3 (km/h) và từ B về A với vận tốc ngược dòng là x - 3 (km/h) (x > 3). Tàu nghỉ 30 phút (0,5 giờ) ở bến B. Tổng thời gian hành trình là 5,5 giờ. Phương trình biểu diễn mối quan hệ này là:",
+      "generalfeedback": "Thời gian xuôi dòng là \\(\\frac{36}{x+3}\\) giờ, thời gian nghỉ là 0,5 giờ, thời gian ngược dòng là \\(\\frac{36}{x-3}\\) giờ. Tổng thời gian: \\(\\frac{36}{x+3} + 0,5 + \\frac{36}{x-3} = 5,5 \\Leftrightarrow \\frac{36}{x+3} + \\frac{36}{x-3} = 5\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{36}{x+3} + \\frac{36}{x-3} = 5\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{36}{x+3} + \\frac{36}{x-3} = 5,5\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{36}{x+3} - \\frac{36}{x-3} = 0,5\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(36(x+3) + 36(x-3) = 5\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "năng suất",
+      "questiontext": "Một xưởng may phải may N chiếc áo theo kế hoạch trong x ngày. Năng suất may một ngày theo kế hoạch được biểu diễn bởi biểu thức \\(\\frac{N}{x}\\).",
+      "generalfeedback": "Năng suất trung bình một ngày bằng tổng số sản phẩm N chia cho số ngày x, tức là \\(\\frac{N}{x}\\). Mệnh đề này đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Lập phương trình bậc hai biểu diễn mối quan hệ giữa các đại lượng",
+      "questiontext": "Một xưởng may phải may 1500 chiếc áo. Gọi x là số áo xưởng may trong một ngày theo kế hoạch (x > 0). Biểu thức biểu diễn thời gian (số ngày) xưởng hoàn thành 1500 chiếc áo theo kế hoạch là:",
+      "generalfeedback": "Số ngày làm theo kế hoạch bằng tổng số áo chia cho số áo làm trong một ngày, tức là \\(\\frac{1500}{x}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{1500}{x}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(1500x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{x}{1500}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(1500 - x\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Lập phương trình bậc hai biểu diễn mối quan hệ giữa các đại lượng",
+      "questiontext": "Một đội xe tải cần chở 120 tấn hàng. Gọi x là số xe ban đầu (x > 2, x nguyên). Do 2 xe chuyển đi nơi khác nên mỗi xe còn lại phải chở thêm 3 tấn. Phương trình biểu thị mối quan hệ giữa số hàng mỗi xe chở thực tế và kế hoạch là:",
+      "generalfeedback": "Số hàng mỗi xe chở theo kế hoạch là \\(\\frac{120}{x}\\) tấn, thực tế mỗi xe chở \\(\\frac{120}{x-2}\\) tấn. Phương trình là \\(\\frac{120}{x-2} - \\frac{120}{x} = 3\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{120}{x-2} - \\frac{120}{x} = 3\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{120}{x} - \\frac{120}{x-2} = 3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{120}{x-2} + \\frac{120}{x} = 3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(120(x-2) - 120x = 3\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Giải phương trình bậc hai và đối chiếu điều kiện thực tế",
+      "questiontext": "Một sân bóng đá hình chữ nhật có chiều rộng kém chiều dài 30 m và diện tích bằng 1800 \\(m^2\\). Tính chiều rộng của sân bóng đá đó (đơn vị: mét). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Gọi chiều rộng x > 0 (m). Ta có \\(x(x+30) = 1800 \\Leftrightarrow x^2 + 30x - 1800 = 0\\). Giải ra được \\(x_1 = 30\\) (thỏa mãn) và \\(x_2 = -60\\) (loại). Vậy chiều rộng là 30 mét.",
+      "answers": [
+        {
+          "text": "30",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Giải phương trình bậc hai và đối chiếu điều kiện thực tế",
+      "questiontext": "Khi giải phương trình \\(5x^2 - 72x - 45 = 0\\) để tìm vận tốc thực x (km/h) của tàu du lịch (điều kiện x > 3), ta tìm được hai nghiệm \\(x_1 = -0,6\\) và \\(x_2 = 15\\). Giá trị vận tốc thực của tàu là:",
+      "generalfeedback": "Vì điều kiện vận tốc x > 3 nên loại nghiệm \\(x_1 = -0,6\\) và nhận nghiệm \\(x_2 = 15\\). Vận tốc thực của tàu là 15 km/h.",
+      "answers": [
+        {
+          "text": "15 km/h",
+          "fraction": 100
+        },
+        {
+          "text": "-0,6 km/h",
+          "fraction": 0
+        },
+        {
+          "text": "39 km/h",
+          "fraction": 0
+        },
+        {
+          "text": "36 km/h",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_035",
+      "questiontext": "Các bước giải bài toán bằng cách lập phương trình: Bước 1. Lập phương trình: Chọn [[1]] và đặt điều kiện thích hợp; Biểu diễn các đại lượng chưa biết theo ẩn và các đại lượng đã biết; Lập phương trình. Bước 2. [[2]] phương trình. Bước 3. Trả lời: Kiểm tra nghiệm và kết luận.",
+      "generalfeedback": "Thứ tự các bước: Bước 1 Chọn ẩn số và đặt điều kiện; Bước 2 Giải phương trình; Bước 3 Kiểm tra nghiệm và kết luận.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "ẩn số"
+        },
+        {
+          "group": 1,
+          "text": "Giải"
+        },
+        {
+          "group": 1,
+          "text": "hệ số"
+        },
+        {
+          "group": 1,
+          "text": "Rút gọn"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Lập phương trình bậc hai biểu diễn mối quan hệ giữa các đại lượng",
+      "questiontext": "Một mảnh đất hình chữ nhật có diện tích 360 \\(m^2\\). Nếu tăng chiều rộng {a} m và giảm chiều dài 4 m thì diện tích mảnh đất không đổi. Chiều rộng ban đầu x (m) thỏa mãn phương trình nào sau đây?",
+      "generalfeedback": "Chiều rộng ban đầu là x (m), chiều dài ban đầu là \\(\\frac{360}{x}\\) (m). Theo đề bài: \\((x + {a})(\\frac{360}{x} - 4) = 360\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 5.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "(x+{a})*(360/x - 4)",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Giải phương trình bậc hai và đối chiếu điều kiện thực tế",
+      "questiontext": "Sau hai năm, số dân của một thành phố tăng từ {p0} người lên {p2} người với tỉ lệ tăng dân số hàng năm không đổi là x (dưới dạng số thập phân). Phương trình biểu diễn số dân sau 2 năm là {p0}*(1+x)^2 = {p2}. Hãy xác định phương trình bậc hai thu được theo x.",
+      "generalfeedback": "Phương trình có dạng \\({p0}(1+x)^2 = {p2}\\).",
+      "wildcards": [
+        {
+          "name": "p0",
+          "min": 1000000.0,
+          "max": 1500000.0,
+          "decimals": 0
+        },
+        {
+          "name": "p2",
+          "min": 1200000.0,
+          "max": 1800000.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{p0}*pow(1+x, 2) - {p2}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "thong_hieu",
+      "metadata_code": "chuyển động",
+      "questiontext": "Một máy bay bay từ A đến B dài s km với vận tốc x (km/h). Thời gian bay là bao nhiêu giờ?",
+      "generalfeedback": "Thời gian bay bằng quãng đường chia cho vận tốc: \\(\\frac{{s}}{x}\\).",
+      "wildcards": [
+        {
+          "name": "s",
+          "min": 1000.0,
+          "max": 1500.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{s}/x",
+          "fraction": 100
+        },
+        {
+          "text": "{s}*x",
+          "fraction": 0
+        },
+        {
+          "text": "x/{s}",
+          "fraction": 0
+        },
+        {
+          "text": "{s}+x",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Mô hình hóa toán học các bài toán thực tế dạng hình học",
+      "questiontext": "Một thanh sô cô la dạng hình hộp chữ nhật có chiều dài 12 cm, chiều rộng 7 cm, độ dày 3 cm. Thể tích ban đầu của thanh sô cô la là:",
+      "generalfeedback": "Thể tích hình hộp chữ nhật là \\(V = 12 \\times 7 \\times 3 = 252\\) \\(cm^3\\).",
+      "answers": [
+        {
+          "text": "252 \\(cm^3\\)",
+          "fraction": 100
+        },
+        {
+          "text": "84 \\(cm^3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "126 \\(cm^3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "504 \\(cm^3\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Giải phương trình bậc hai và đối chiếu điều kiện thực tế",
+      "questiontext": "Một ô tô khách đi từ Hà Nội đến Hải Phòng dài 120 km. Sau 30 phút (0,5 giờ), một ô tô con xuất phát từ Hà Nội đi Hải Phòng với vận tốc lớn hơn ô tô khách 20 km/h và đến Hải Phòng cùng lúc với ô tô khách. Tính vận tốc của ô tô khách (km/h). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Gọi vận tốc ô tô khách là x > 0 (km/h). Vận tốc ô tô con là \\(x + 20\\) (km/h). Thời gian ô tô khách đi là \\(\\frac{120}{x}\\), ô tô con đi là \\(\\frac{120}{x+20}\\). Ta có phương trình \\(\\frac{120}{x} - \\frac{120}{x+20} = 0,5 \\Leftrightarrow x^2 + 20x - 4800 = 0\\). Giải phương trình được \\(x = 60\\) (km/h).",
+      "answers": [
+        {
+          "text": "60",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "năng suất",
+      "questiontext": "Một xưởng may phải may 1500 chiếc áo trong thời gian quy định. Thực tế mỗi ngày may nhiều hơn 10 chiếc so với kế hoạch x chiếc/ngày (x > 0). Hãy ghép các đại lượng ở cột trái với biểu thức tương ứng ở cột phải:",
+      "generalfeedback": "Số áo may thực tế mỗi ngày là \\(x + 10\\). Thời gian theo kế hoạch là \\(\\frac{1500}{x}\\) ngày. Thời gian thực tế may 1320 áo là \\(\\frac{1320}{x+10}\\) ngày.",
+      "subquestions": [
+        {
+          "question": "Số áo may thực tế mỗi ngày (chiếc)",
+          "answer": "\\(x + 10\\)"
+        },
+        {
+          "question": "Thời gian hoàn thành 1500 áo theo kế hoạch (ngày)",
+          "answer": "\\(\\frac{1500}{x}\\)"
+        },
+        {
+          "question": "Thời gian may 1320 áo thực tế (ngày)",
+          "answer": "\\(\\frac{1320}{x+10}\\)"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_035",
+      "questiontext": "Trong bài toán chọn ẩn số x cho chiều dài mảnh đất (đơn vị mét), điều kiện của x phải là [[1]] 0. Nếu x biểu thị số xe tải thì x phải thuộc tập hợp số [[2]].",
+      "generalfeedback": "Chiều dài mảnh đất x > 0. Số xe tải x phải là số nguyên dương (hoặc số tự nhiên khác 0).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "lớn hơn"
+        },
+        {
+          "group": 1,
+          "text": "nguyên dương"
+        },
+        {
+          "group": 1,
+          "text": "nhỏ hơn"
+        },
+        {
+          "group": 1,
+          "text": "âm"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Mô hình hóa toán học các bài toán thực tế dạng hình học",
+      "questiontext": "Nếu một bài toán yêu cầu tìm kích thước mảnh đất hình chữ nhật khi biết diện tích và mối liên hệ giữa chiều dài, chiều rộng thì ta có thể lập phương trình bậc hai một ẩn để giải bài toán đó.",
+      "generalfeedback": "Diện tích hình chữ nhật bằng chiều dài nhân chiều rộng. Nếu biểu diễn một chiều theo ẩn x thì chiều còn lại nhân x sẽ tạo thành phương trình bậc hai. Do đó nhận định này là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "chuyển động",
+      "questiontext": "Một tàu hỏa đi từ A đến B dài 300 km với vận tốc x (km/h) (x > 0). Biểu thức biểu diễn thời gian tàu hỏa đi từ A đến B theo x là:",
+      "generalfeedback": "Thời gian đi bằng quãng đường chia cho vận tốc, tức là \\(\\frac{300}{x}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{300}{x}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(300x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{x}{300}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(300 - x\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_035",
+      "questiontext": "Bác Lan gửi tiết kiệm 100 triệu đồng kì hạn 12 tháng lãi kép. Sau 2 năm nhận được 118,81 triệu đồng cả vốn lẫn lãi. Lãi suất gửi tiết kiệm hàng năm là x (dưới dạng số thập phân). Phương trình tìm x là:",
+      "generalfeedback": "Sau 1 năm số tiền là \\(100(1+x)\\). Sau 2 năm số tiền là \\(100(1+x)^2 = 118,81\\).",
+      "answers": [
+        {
+          "text": "\\(100(1+x)^2 = 118,81\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(100(1+2x) = 118,81\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(100 + 2x = 118,81\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(100(1+x) = 118,81\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_03",
+      "questiontext": "Bạn An muốn tính lãi suất gửi tiết kiệm thực tế của gia đình sau 2 năm gửi ngân hàng theo thể thức lãi kép, khi biết số tiền gửi ban đầu và số tiền nhận được cuối kỳ. Hành vi nào sau đây thể hiện ý thức vận dụng kiến thức toán học vào đời sống của An?",
+      "generalfeedback": "Chủ động vận dụng kiến thức bài học (lập phương trình bậc hai biểu diễn tiền gửi lãi kép) vào giải quyết bài toán tài chính thực tế của gia đình thể hiện ý thức học đi đôi với hành.",
+      "answers": [
+        {
+          "text": "Chủ động mô hình hóa tình huống bằng phương trình bậc hai đã học ở trường để tính chính xác lãi suất hàng năm.",
+          "fraction": 100
+        },
+        {
+          "text": "Ước lượng đại khái và cho rằng kiến thức toán học trên lớp không ứng dụng được vào thực tế.",
+          "fraction": 0
+        },
+        {
+          "text": "Nhờ người khác tính hộ mà không tìm hiểu cách lập phương trình biểu thị mối quan hệ giữa các đại lượng.",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua không tính toán vì cho rằng việc quản lý tiền tiết kiệm là trách nhiệm riêng của ngân hàng.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "SUB_TRACHNHIEM_BANTHAN_C2_05",
+      "questiontext": "Để hoàn thành kế hoạch 15 bài tập về giải bài toán bằng cách lập phương trình trong 3 ngày, việc phân chia đều 5 bài mỗi ngày kết hợp nghỉ ngơi hợp lý là thể hiện việc xây dựng chế độ học tập, sinh hoạt hợp lý.",
+      "generalfeedback": "Phân chia thời gian và khối lượng công việc đều đặn, khoa học giúp nâng cao hiệu quả học tập và giữ gìn sức khỏe.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_01",
+      "questiontext": "Cho bài toán: 'Một tàu du lịch đi từ bến A đến bến B dài 36 km, nghỉ 30 phút ở bến B rồi quay về bến A. Tổng thời gian là 5,5 giờ. Vận tốc dòng nước là 3 km/h.' Để xác định đúng các thông tin liên quan đến vấn đề tìm vận tốc thực của tàu, thông tin cốt lõi nào cần thu thập và xử lý?",
+      "generalfeedback": "Xác định đúng các đại lượng toán học cốt lõi: quãng đường (36 km), vận tốc dòng nước (3 km/h), thời gian nghỉ (0,5 giờ) và thời gian di chuyển thực tế (5 giờ).",
+      "answers": [
+        {
+          "text": "Quãng đường (36 km), vận tốc dòng nước (3 km/h), thời gian di chuyển thực tế (5 giờ) và thời gian nghỉ (0,5 giờ).",
+          "fraction": 100
+        },
+        {
+          "text": "Tên hai bến sông A và B, loại tàu du lịch và phong cảnh hai bên bờ sông.",
+          "fraction": 0
+        },
+        {
+          "text": "Thời điểm xuất phát trong ngày và số lượng hành khách đi trên tàu du lịch.",
+          "fraction": 0
+        },
+        {
+          "text": "Giá vé của tàu du lịch và lượng nhiên liệu tàu đã tiêu thụ trong suốt hành trình.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_04",
+      "questiontext": "Khi trình bày lời giải bài toán chuyển động xuôi dòng và ngược dòng, học sinh kết hợp bảng tóm tắt đại lượng để thảo luận ý tưởng. Hãy ghép các cột của bảng tóm tắt với nội dung biểu thức tương ứng theo ẩn x (x > 3, vận tốc thực của tàu):",
+      "generalfeedback": "Sử dụng bảng tóm tắt và ký hiệu toán học giúp trình bày thông tin bài toán một cách mạch lạc, có cấu trúc rõ ràng.",
+      "subquestions": [
+        {
+          "question": "Vận tốc xuôi dòng (km/h)",
+          "answer": "\\(x + 3\\)"
+        },
+        {
+          "question": "Thời gian xuôi dòng 36 km (giờ)",
+          "answer": "\\(\\frac{36}{x+3}\\)"
+        },
+        {
+          "question": "Thời gian ngược dòng 36 km (giờ)",
+          "answer": "\\(\\frac{36}{x-3}\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_02_05",
+      "questiontext": "Một xưởng may phải may 1500 chiếc áo theo kế hoạch. Nhờ cải tiến kỹ thuật, mỗi ngày xưởng may tăng thêm 10 chiếc áo nên hoàn thành trước 3 ngày. Thao tác tư duy mô hình hóa toán học thể hiện qua việc chọn ẩn x (số áo may mỗi ngày theo kế hoạch, x > 0) và lập phương trình là:",
+      "generalfeedback": "Mô hình hóa bài toán thực tiễn về năng suất bằng phương trình biểu diễn chênh lệch thời gian giữa kế hoạch và thực tế: \\(\\frac{1500}{x} - \\frac{1320}{x+10} = 3\\) (hoặc tương đương).",
+      "answers": [
+        {
+          "text": "Biểu diễn thời gian kế hoạch \\(\\frac{1500}{x}\\) và thời gian thực tế, sau đó lập phương trình biểu diễn mối quan hệ thời gian.",
+          "fraction": 100
+        },
+        {
+          "text": "Lấy tổng số áo 1500 cộng với 10 rồi chia trực tiếp cho 3 ngày.",
+          "fraction": 0
+        },
+        {
+          "text": "Giả định số áo may mỗi ngày thực tế bằng số áo may theo kế hoạch.",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua yếu tố thời gian và chỉ so sánh tổng số lượng áo.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_02_08",
+      "questiontext": "Khi giải phương trình bậc hai \\(x^2 + 30x - 1800 = 0\\) mô hình hóa chiều rộng x (m) của sân bóng đá, ta thu được hai nghiệm \\(x_1 = 30\\) và \\(x_2 = -60\\). Để thể hiện lời giải toán học vào ngữ cảnh thực tiễn, kết luận nào sau đây là đúng?",
+      "generalfeedback": "Trong ngữ cảnh thực tiễn, kích thước chiều rộng hình học phải là số dương (x > 0). Do đó loại nghiệm âm \\(x_2 = -60\\) và chọn nghiệm \\(x_1 = 30\\) m.",
+      "answers": [
+        {
+          "text": "Chiều rộng sân bóng là 30 m vì chiều rộng độ dài thực tế phải lớn hơn 0 (x > 0), loại nghiệm \\(x = -60\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Chiều rộng sân bóng có thể nhận giá trị -60 m tùy thuộc vào gốc tọa độ được chọn.",
+          "fraction": 0
+        },
+        {
+          "text": "Lấy giá trị tuyệt đối của nghiệm âm để suy ra chiều rộng sân bóng là 60 m.",
+          "fraction": 0
+        },
+        {
+          "text": "Kết luận bài toán vô nghiệm vì xuất hiện một nghiệm âm trong quá trình giải.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "1.1TC2a_K9",
+      "questiontext": "Khi cần tìm kiếm thông tin trên môi trường số để minh họa cho bài toán thực tế về bài tập 6.31 (vận tốc máy bay chặng Hà Nội - TP. Hồ Chí Minh dài khoảng 1200 km), học sinh sử dụng từ khóa tìm kiếm nào để thu được dữ liệu thực tế chính xác và hiệu quả nhất?",
+      "generalfeedback": "Sử dụng từ khóa tìm kiếm chính xác, rõ ràng giúp tìm kiếm dữ liệu tin cậy trên môi trường số.",
+      "answers": [
+        {
+          "text": "\"Quảng đường bay Hà Nội TPHCM km vận tốc máy bay thương mại\"",
+          "fraction": 100
+        },
+        {
+          "text": "\"Máy bay đẹp nhất thế giới\"",
+          "fraction": 0
+        },
+        {
+          "text": "\"Giải bài tập toán lớp 9 bài 21\"",
+          "fraction": 0
+        },
+        {
+          "text": "\"Vé máy bay giá rẻ hôm nay\"",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "9.A3.1_2",
+      "questiontext": "Học sinh sử dụng công cụ Trợ lý AI (Chatbot) để kiểm tra lời giải bài toán lập phương trình. AI đưa ra kết quả và chấp nhận cả nghiệm âm \\(x = -60\\) m cho chiều rộng sân bóng mà không loại nghiệm. Học sinh thể hiện tư duy phản biện đối với thông tin do AI cung cấp như thế nào?",
+      "generalfeedback": "Phát triển tư duy phản biện đòi hỏi học sinh không tin tưởng mù quáng vào AI mà biết phân tích, đánh giá kết quả AI đưa ra so với điều kiện thực tế của bài toán.",
+      "answers": [
+        {
+          "text": "Phân tích điều kiện thực tế (kích thước chiều rộng phải dương) để phát hiện sai sót của AI và loại nghiệm âm.",
+          "fraction": 100
+        },
+        {
+          "text": "Chép nguyên văn kết quả của AI vào bài làm vì tin rằng AI luôn luôn chính xác 100%.",
+          "fraction": 0
+        },
+        {
+          "text": "Cho rằng đề bài toán bị sai nên AI mới đưa ra nghiệm âm.",
+          "fraction": 0
+        },
+        {
+          "text": "Loại bỏ hoàn toàn công cụ AI và không bao giờ sử dụng AI để tham khảo nữa.",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

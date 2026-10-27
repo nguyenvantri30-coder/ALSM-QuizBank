@@ -1,0 +1,654 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 26,
+    "metadata_used": {
+      "Khái niệm thừa số và tích": 3,
+      "Tính chất giao hoán, kết hợp và phân phối của phép nhân": 3,
+      "Thực hiện phép nhân hai số tự nhiên": 3,
+      "Vận dụng tính chất phân phối của phép nhân đối với phép cộng để tính hợp lí": 4,
+      "YCCD_TOAN6_011": 2,
+      "YCCD_TOAN6_014": 3,
+      "YCCD_TOAN6_015": 2,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_TCTH_TUHOC_C2_04": 1,
+      "SUB_GTHT_XACDINHMD_C2_03": 1,
+      "NLT_TOAN_C2_01_01": 1,
+      "NLT_TOAN_C2_03_05": 1,
+      "2.1TC1a_K6": 1
+    },
+    "types_used": {
+      "multichoice": 8,
+      "matching": 3,
+      "truefalse": 2,
+      "shortanswer": 2,
+      "numerical": 3,
+      "gapselect": 3,
+      "ddwtos": 2,
+      "calculatedsimple": 2,
+      "calculated": 1
+    }
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN6_011",
+        "reason": "Thực hiện được phép nhân trong tập hợp số tự nhiên."
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_013",
+        "reason": "Vận dụng được tính chất giao hoán của phép tính trong tính toán."
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_014",
+        "reason": "Vận dụng được tính chất kết hợp của phép tính trong tính toán."
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_015",
+        "reason": "Vận dụng được tính chất phân phối của phép nhân đối với phép cộng trong tính toán."
+      },
+      {
+        "metadata_code": "Khái niệm thừa số và tích",
+        "reason": "Khái niệm thừa số và tích."
+      },
+      {
+        "metadata_code": "Tính chất giao hoán, kết hợp và phân phối của phép nhân",
+        "reason": "Tính chất giao hoán, kết hợp và phân phối của phép nhân."
+      },
+      {
+        "metadata_code": "Thực hiện phép nhân hai số tự nhiên",
+        "reason": "Thực hiện phép nhân hai số tự nhiên."
+      },
+      {
+        "metadata_code": "Vận dụng tính chất phân phối của phép nhân đối với phép cộng để tính hợp lí",
+        "reason": "Vận dụng tính chất phân phối của phép nhân đối với phép cộng để tính hợp lí."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Luôn cố gắng vươn lên đạt kết quả tốt trong học tập."
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+        "reason": "Lưu giữ thông tin có chọn lọc bằng ghi tóm tắt, bằng bản đồ khái niệm, bảng, các từ khoá."
+      },
+      {
+        "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+        "reason": "Tiếp nhận được các văn bản về những vấn đề đơn giản của đời sống... có sử dụng ngôn ngữ kết hợp với biểu đồ, số liệu..."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_01",
+        "reason": "Thực hiện được các thao tác tư duy."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_05",
+        "reason": "Sử dụng được các kĩ năng toán học tương thích để giải quyết vấn đề."
+      },
+      {
+        "metadata_code": "2.1TC1a_K6",
+        "reason": "Với các vấn đề đơn giản, học sinh có thể tự mình thực hiện được các tương tác được xác định rõ ràng..."
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm thừa số và tích",
+      "questiontext": "Trong phép tính nhân \\(a \\cdot b = c\\), các đại lượng \\(a\\) và \\(b\\) được gọi là gì?",
+      "generalfeedback": "Trong phép nhân \\(a \\cdot b = c\\), \\(a\\) và \\(b\\) được gọi là thừa số, \\(c\\) được gọi là tích.",
+      "answers": [
+        {
+          "text": "Thừa số",
+          "fraction": 100
+        },
+        {
+          "text": "Số bị chia",
+          "fraction": 0
+        },
+        {
+          "text": "Tích",
+          "fraction": 0
+        },
+        {
+          "text": "Thương",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Tính chất giao hoán, kết hợp và phân phối của phép nhân",
+      "questiontext": "Hãy ghép mỗi tên tính chất của phép nhân với công thức tương ứng.",
+      "generalfeedback": "Tính chất giao hoán: \\(ab = ba\\); Tính chất kết hợp: \\((ab)c = a(bc)\\); Tính chất phân phối của phép nhân đối với phép cộng: \\(a(b + c) = ab + ac\\).",
+      "subquestions": [
+        {
+          "question": "Tính chất giao hoán",
+          "answer": "\\(ab = ba\\)"
+        },
+        {
+          "question": "Tính chất kết hợp",
+          "answer": "\\((ab)c = a(bc)\\)"
+        },
+        {
+          "question": "Tính chất phân phối của phép nhân đối với phép cộng",
+          "answer": "\\(a(b + c) = ab + ac\\)"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Tính chất giao hoán, kết hợp và phân phối của phép nhân",
+      "questiontext": "Khẳng định sau đây đúng hay sai: \"Với mọi số tự nhiên \\(a\\), ta luôn có \\(a \\cdot 0 = 0\\) và \\(a \\cdot 1 = a\\)\"?",
+      "generalfeedback": "Theo chú ý về tính chất phép nhân: với mọi số tự nhiên \\(a\\), ta có \\(a \\cdot 1 = 1 \\cdot a = a\\) và \\(a \\cdot 0 = 0 \\cdot a = 0\\). Khẳng định trên là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép nhân hai số tự nhiên",
+      "questiontext": "Viết tổng \\(5 + 5 + 5 + 5\\) thành dạng tích của hai số tự nhiên.",
+      "generalfeedback": "Tổng \\(5 + 5 + 5 + 5\\) gồm 4 số hạng 5 nên viết thành tích là \\(5 \\cdot 4\\).",
+      "answers": [
+        {
+          "text": "\\(5 \\cdot 4\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(5 + 4\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(5^4\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(4 + 4 + 4 + 4 + 4\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện phép nhân hai số tự nhiên",
+      "questiontext": "Tính kết quả của phép nhân: \\(834 \\cdot 57\\). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Thực hiện đặt tính nhân: \\(834 \\cdot 57 = 47538\\).",
+      "answers": [
+        {
+          "text": "47538",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_014",
+      "questiontext": "Khi tính nhẩm tích \\(24 \\cdot 25\\), ta biến đổi: \\(24 \\cdot 25 = (6 \\cdot 4) \\cdot 25 = 6 \\cdot (4 \\cdot 25) = 6 \\cdot\\) [[1]] \\(=\\) [[2]].",
+      "generalfeedback": "Sử dụng tính chất kết hợp, ta tính \\(4 \\cdot 25 = 100\\), sau đó lấy \\(6 \\cdot 100 = 600\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "100"
+        },
+        {
+          "group": 1,
+          "text": "600"
+        },
+        {
+          "group": 1,
+          "text": "10"
+        },
+        {
+          "group": 1,
+          "text": "1000"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng tính chất phân phối của phép nhân đối với phép cộng để tính hợp lí",
+      "questiontext": "Để tính nhẩm \\(125 \\cdot 101\\), ta viết \\(101 = 100 + 1\\) rồi áp dụng tính chất [[1]] của phép nhân đối với phép cộng: \\(125 \\cdot 101 = 125 \\cdot (100 + 1) = 125 \\cdot 100 + 125 \\cdot 1 =\\) [[2]].",
+      "generalfeedback": "Áp dụng tính chất phân phối: \\(125 \\cdot (100 + 1) = 12500 + 125 = 12625\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "phân phối"
+        },
+        {
+          "group": 1,
+          "text": "12625"
+        },
+        {
+          "group": 1,
+          "text": "giao hoán"
+        },
+        {
+          "group": 1,
+          "text": "kết hợp"
+        },
+        {
+          "group": 1,
+          "text": "12500"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_011",
+      "questiontext": "Giá tiền in một trang giấy khổ A4 là 350 đồng. Hỏi phải trả bao nhiêu đồng nếu in một tập tài liệu khổ A4 dày {n} trang? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Số tiền cần trả là \\(350 \\cdot {n}\\) đồng.",
+      "wildcards": [
+        {
+          "name": "n",
+          "min": 100.0,
+          "max": 500.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{n} * 350",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm thừa số và tích",
+      "questiontext": "Trong phép tính nhân hai số tự nhiên \\(a \\times b = c\\), kết quả \\(c\\) đại diện cho thành phần nào?",
+      "generalfeedback": "Trong phép nhân \\(a \\times b = c\\), \\(a\\) và \\(b\\) là các thừa số, còn \\(c\\) là tích.",
+      "answers": [
+        {
+          "text": "Tích",
+          "fraction": 100
+        },
+        {
+          "text": "Thừa số",
+          "fraction": 0
+        },
+        {
+          "text": "Số bị chia",
+          "fraction": 0
+        },
+        {
+          "text": "Thương",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_014",
+      "questiontext": "Tính giá trị của biểu thức \\(A = 8 \\cdot\\) {a} \\(\\cdot 125\\). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Sử dụng tính chất giao hoán và kết hợp: \\(A = (8 \\cdot 125) \\cdot {a} = 1000 \\cdot {a}\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 11.0,
+          "max": 99.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a} * 1000",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_015",
+      "questiontext": "Biểu thức nào sau đây thể hiện đúng tính chất phân phối của phép nhân đối với phép cộng?",
+      "generalfeedback": "Tính chất phân phối của phép nhân đối với phép cộng có dạng: \\(a \\cdot (b + c) = a \\cdot b + a \\cdot c\\).",
+      "answers": [
+        {
+          "text": "\\(a \\cdot (b + c) = a \\cdot b + a \\cdot c\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(a \\cdot (b + c) = a \\cdot b + c\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a \\cdot (b + c) = (a + b) \\cdot (a + c)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a \\cdot (b + c) = a + b + c\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng tính chất phân phối của phép nhân đối với phép cộng để tính hợp lí",
+      "questiontext": "Tính hợp lí giá trị của biểu thức: \\(37 \\cdot 25 + 37 \\cdot 75\\).",
+      "generalfeedback": "Áp dụng tính chất phân phối của phép nhân đối với phép cộng: \\(37 \\cdot 25 + 37 \\cdot 75 = 37 \\cdot (25 + 75) = 37 \\cdot 100 = 3700\\).",
+      "answers": [
+        {
+          "text": "3700",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_011",
+      "questiontext": "Một chiếc ô tô di chuyển với vận tốc 60 km/h. Hỏi trong 4 giờ chiếc ô tô đó đi được quãng đường bao nhiêu ki-lô-mét? (Chỉ điền số)",
+      "generalfeedback": "Quãng đường ô tô đi được là: \\(60 \\cdot 4 = 240\\) (km).",
+      "answers": [
+        {
+          "text": "240",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Tính chất giao hoán, kết hợp và phân phối của phép nhân",
+      "questiontext": "Khẳng định sau đây đúng hay sai: \"Tích của một số tự nhiên bất kỳ với số 0 luôn bằng 0\"?",
+      "generalfeedback": "Theo tính chất phép nhân, với mọi số tự nhiên \\(a\\), ta luôn có \\(a \\cdot 0 = 0\\). Do đó khẳng định trên là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_014",
+      "questiontext": "Tính nhẩm tích \\(125 \\cdot 32\\) bằng cách tách \\(32 = 8 \\cdot 4\\): \\(125 \\cdot 32 = 125 \\cdot (8 \\cdot 4) = (125 \\cdot 8) \\cdot 4 =\\) [[1]] \\(\\cdot 4 =\\) [[2]].",
+      "generalfeedback": "Ta có \\(125 \\cdot 8 = 1000\\), do đó \\(1000 \\cdot 4 = 4000\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "1000"
+        },
+        {
+          "group": 1,
+          "text": "4000"
+        },
+        {
+          "group": 1,
+          "text": "100"
+        },
+        {
+          "group": 1,
+          "text": "3200"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_015",
+      "questiontext": "Để tính nhẩm \\(28 \\cdot 99\\), ta viết \\(99 = 100 - 1\\) rồi áp dụng tính chất [[1]]: \\(28 \\cdot (100 - 1) = 28 \\cdot 100 - 28 \\cdot 1 = 2800 - 28 =\\) [[2]].",
+      "generalfeedback": "Áp dụng tính chất phân phối của phép nhân đối với phép trừ: \\(2800 - 28 = 2772\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "phân phối"
+        },
+        {
+          "group": 1,
+          "text": "2772"
+        },
+        {
+          "group": 1,
+          "text": "giao hoán"
+        },
+        {
+          "group": 1,
+          "text": "2800"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện phép nhân hai số tự nhiên",
+      "questiontext": "Một đoàn tàu gồm m toa, mỗi toa chở được 45 tấn hàng. Hỏi đoàn tàu đó chở được tất cả bao nhiêu tấn hàng? (Chỉ điền số)",
+      "generalfeedback": "Số tấn hàng đoàn tàu chở được là: \\(45 \\cdot {m}\\) tấn.",
+      "wildcards": [
+        {
+          "name": "m",
+          "min": 10.0,
+          "max": 30.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{m} * 45",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm thừa số và tích",
+      "questiontext": "Trong phép nhân hai số tự nhiên, nếu một trong hai thừa số bằng 0 thì tích bằng bao nhiêu?",
+      "generalfeedback": "Nếu một thừa số bằng 0 thì tích bằng 0.",
+      "answers": [
+        {
+          "text": "0",
+          "fraction": 100
+        },
+        {
+          "text": "1",
+          "fraction": 0
+        },
+        {
+          "text": "Chính thừa số còn lại",
+          "fraction": 0
+        },
+        {
+          "text": "Không xác định",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Vận dụng tính chất phân phối của phép nhân đối với phép cộng để tính hợp lí",
+      "questiontext": "Nối mỗi phép tính ở cột bên trái với phương pháp tính hợp lí ở cột bên phải.",
+      "generalfeedback": "Nối phép tính với tính chất tương ứng được sử dụng để tính hợp lí.",
+      "subquestions": [
+        {
+          "question": "\\(15 \\cdot 2 \\cdot 5\\)",
+          "answer": "Sử dụng tính chất kết hợp \\(2 \\cdot 5 = 10\\)"
+        },
+        {
+          "question": "\\(43 \\cdot 11 - 43 \\cdot 1\\)",
+          "answer": "Sử dụng tính chất phân phối"
+        },
+        {
+          "question": "\\(25 \\cdot 17 \\cdot 4\\)",
+          "answer": "Sử dụng tính chất giao hoán và kết hợp \\(25 \\cdot 4 = 100\\)"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng tính chất phân phối của phép nhân đối với phép cộng để tính hợp lí",
+      "questiontext": "Tính nhanh giá trị biểu thức: \\(4 \\cdot 37 \\cdot 25\\). (Chỉ điền số)",
+      "generalfeedback": "\\(4 \\cdot 37 \\cdot 25 = (4 \\cdot 25) \\cdot 37 = 100 \\cdot 37 = 3700\\).",
+      "answers": [
+        {
+          "text": "3700",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi gặp một bài toán tính nhanh phép nhân khó như \\(125 \\cdot 1998 \\cdot 8\\), bạn Nam đã kiên trì thử áp dụng các tính chất đã học thay vì bỏ cuộc hay chép lời giải của bạn khác. Hành vi của bạn Nam thể hiện phẩm chất nào sau đây?",
+      "generalfeedback": "Hành vi kiên trì tìm tòi, áp dụng kiến thức tính chất giao hoán và kết hợp để tự giải bài toán khó thể hiện phẩm chất luôn cố gắng vươn lên đạt kết quả tốt trong học tập.",
+      "answers": [
+        {
+          "text": "Luôn cố gắng vươn lên đạt kết quả tốt trong học tập",
+          "fraction": 100
+        },
+        {
+          "text": "Trung thực trong việc giữ gìn của công",
+          "fraction": 0
+        },
+        {
+          "text": "Yêu nước và tự hào dân tộc",
+          "fraction": 0
+        },
+        {
+          "text": "Tôn trọng sự khác biệt của người khác",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Để hoàn thiện sơ đồ tư duy tóm tắt kiến thức về các tính chất của phép nhân số tự nhiên, hãy ghép mỗi tên tính chất ở cột bên trái với từ khóa biểu thức tương ứng ở cột bên phải.",
+      "generalfeedback": "Ghép đúng giúp ghi nhớ và tóm tắt kiến thức cốt lõi của bài học một cách hệ thống.",
+      "subquestions": [
+        {
+          "question": "Tính chất giao hoán",
+          "answer": "\\(a \\cdot b = b \\cdot a\\)"
+        },
+        {
+          "question": "Tính chất kết hợp",
+          "answer": "\\((a \\cdot b) \\cdot c = a \\cdot (b \\cdot c)\\)"
+        },
+        {
+          "question": "Tính chất phân phối đối với phép cộng",
+          "answer": "\\(a \\cdot (b + c) = a \\cdot b + a \\cdot c\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "questiontext": "Dựa vào thông tin bảng giá thiết bị điện dưới đây:\n- Bóng đèn LED: 96 000 đồng/bóng\n- Quạt trần: 1 200 000 đồng/chiếc\nNếu nhà trường cần mua 8 bóng đèn LED cho mỗi phòng trong số 32 phòng học, biểu thức nào thể hiện đúng tổng số tiền mua bóng đèn LED?",
+      "generalfeedback": "Từ thông tin bảng biểu, tổng số bóng đèn LED cần mua là \\(32 \\cdot 8\\) bóng. Tổng số tiền mua bóng đèn LED là \\(96000 \\cdot (32 \\cdot 8)\\) đồng (hoặc \\(96000 \\cdot 32 \\cdot 8\\)).",
+      "answers": [
+        {
+          "text": "\\(96000 \\cdot 32 \\cdot 8\\) (đồng)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(1200000 \\cdot 32 \\cdot 8\\) (đồng)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(96000 + 32 + 8\\) (đồng)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(96000 \\cdot (32 + 8)\\) (đồng)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Phân tích cách tính nhẩm của hai bạn:\n- Bạn An tính \\(25 \\cdot 16 = 25 \\cdot (4 \\cdot 4) = (25 \\cdot 4) \\cdot 4 = 100 \\cdot 4 = 400\\).\n- Bạn Bình tính \\(25 \\cdot 16 = 25 \\cdot (10 + 6) = 25 \\cdot 10 + 25 \\cdot 6 = 250 + 150 = 400\\).\nNhận xét nào sau đây phản ánh đúng thao tác tư duy biến đổi của hai bạn?",
+      "generalfeedback": "Bạn An đã sử dụng thao tác tách số \\(16 = 4 \\cdot 4\\) rồi dùng tính chất kết hợp. Bạn Bình sử dụng thao tác tách số \\(16 = 10 + 6\\) rồi dùng tính chất phân phối. Cả hai cách biến đổi đều đúng và thể hiện tư duy linh hoạt.",
+      "answers": [
+        {
+          "text": "Cả hai bạn đều biến đổi đúng: An dùng tính chất kết hợp, Bình dùng tính chất phân phối.",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ có bạn An đúng, bạn Bình áp dụng sai tính chất phân phối.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ có bạn Bình đúng, bạn An áp dụng sai tính chất kết hợp.",
+          "fraction": 0
+        },
+        {
+          "text": "Cả hai bạn đều làm sai kết quả phép nhân.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Một xưởng sản xuất đóng gói 125 thùng hàng, mỗi thùng chứa 8 hộp sản phẩm, mỗi hộp có giá 50 nghìn đồng. Áp dụng kỹ năng tính nhanh phép nhân \\((125 \\cdot 8) \\cdot 50\\), hãy tính tổng giá trị của toàn bộ số hàng đó theo đơn vị triệu đồng. (Chỉ điền số)",
+      "generalfeedback": "Số hộp sản phẩm là \\(125 \\cdot 8 = 1000\\) hộp. Tổng giá trị là \\(1000 \\cdot 50 = 50000\\) nghìn đồng, tức là 50 triệu đồng.",
+      "answers": [
+        {
+          "text": "50",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "2.1TC1a_K6",
+      "questiontext": "Khi sử dụng phần mềm bảng tính (như Excel) để tính tích của hai số tự nhiên trong ô A1 và B1, công thức gõ vào ô C1 cần bắt đầu bằng dấu [[1]] và sử dụng toán tử phép nhân là dấu [[2]].",
+      "generalfeedback": "Trong các phần mềm bảng tính, công thức bắt đầu bằng dấu '=' và phép nhân được biểu diễn bằng ký tự '*'.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "="
+        },
+        {
+          "group": 1,
+          "text": "*"
+        },
+        {
+          "group": 1,
+          "text": "x"
+        },
+        {
+          "group": 1,
+          "text": ":"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 10,
+    "metadata_used": {
+      "Cấu trúc biểu đồ tần số tương đối dạng cột": 6,
+      "Công thức tính số đo góc hình quạt n_i = 360 * f_i / 100": 2,
+      "Vẽ biểu đồ tần số tương đối dạng cột": 1,
+      "Vẽ biểu đồ tần số tương đối dạng quạt tròn": 4,
+      "YCCD_TOAN9_117": 3,
+      "YCCD_TOAN9_118": 4,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_TCTH_TUHOC_C2_01": 1,
+      "SUB_GTHT_XACDINHMD_C2_04": 1,
+      "NLT_TOAN_C2_02_03": 1,
+      "NLT_TOAN_C2_05_01": 1,
+      "3.1TC2a_K9": 1
+    },
+    "types_used": {
+      "multichoice": 4,
+      "calculated": 1,
+      "numerical": 2,
+      "matching": 1,
+      "gapselect": 1,
+      "truefalse": 1
+    },
+    "total": 10
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "Cấu trúc biểu đồ tần số tương đối dạng cột",
+        "reason": "Nhận biết và hiểu cấu trúc, đặc điểm biểu đồ tần số tương đối dạng cột và hình quạt."
+      },
+      {
+        "metadata_code": "Công thức tính số đo góc hình quạt n_i = 360 * f_i / 100",
+        "reason": "Nhận biết và áp dụng công thức tính số đo góc ở tâm của hình quạt tròn."
+      },
+      {
+        "metadata_code": "Vẽ biểu đồ tần số tương đối dạng cột",
+        "reason": "Nhận biết các yếu tố và quy tắc khi thiết lập/đọc biểu đồ cột."
+      },
+      {
+        "metadata_code": "Vẽ biểu đồ tần số tương đối dạng quạt tròn",
+        "reason": "Tính toán góc ở tâm và thiết lập các phần của biểu đồ quạt tròn."
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_117",
+        "reason": "Đánh giá khả năng lựa chọn và thiết lập biểu đồ cột phù hợp với dữ liệu."
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_118",
+        "reason": "Thực hiện quy trình các bước vẽ và thiết lập biểu đồ quạt tròn."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đánh giá tinh thần nỗ lực vươn lên trong học tập."
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+        "reason": "Đánh giá khả năng tự đặt mục tiêu học tập cá nhân."
+      },
+      {
+        "metadata_code": "SUB_GTHT_XACDINHMD_C2_04",
+        "reason": "Đánh giá khả năng kết hợp ngôn ngữ, số liệu và biểu đồ để trình bày thông tin."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_02_03",
+        "reason": "Đánh giá khả năng sử dụng mô hình toán học (bảng biểu) để mô tả tình huống."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_05_01",
+        "reason": "Đánh giá khả năng nhận biết tên gọi và công dụng của các công cụ học toán."
+      },
+      {
+        "metadata_code": "3.1TC2a_K9",
+        "reason": "Đánh giá lựa chọn phương án tạo nội dung số phù hợp."
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Cấu trúc biểu đồ tần số tương đối dạng cột",
+      "questiontext": "Hai dạng biểu đồ thường gặp nhất để biểu diễn bảng tần số tương đối là những dạng biểu đồ nào?",
+      "generalfeedback": "Dạng thường gặp của biểu đồ tần số tương đối là biểu đồ cột và biểu đồ hình quạt tròn.",
+      "answers": [
+        {
+          "text": "Biểu đồ cột và biểu đồ hình quạt tròn",
+          "fraction": 100
+        },
+        {
+          "text": "Biểu đồ đoạn thẳng và biểu đồ tranh",
+          "fraction": 0
+        },
+        {
+          "text": "Biểu đồ đường và biểu đồ hình vuông",
+          "fraction": 0
+        },
+        {
+          "text": "Biểu đồ cột đôi và biểu đồ tranh",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức tính số đo góc hình quạt n_i = 360 * f_i / 100",
+      "questiontext": "Công thức xác định số đo cung tương ứng \\(n_i\\) (tính theo độ) của hình quạt biểu diễn tần số tương đối \\(f_i\\) (tính theo %) là gì?",
+      "generalfeedback": "Số đo cung tương ứng của hình quạt biểu diễn tần số tương đối \\(f_i\\) (%) được tính theo công thức \\(n_i = 360^\\circ \\cdot \\frac{f_i}{100}\\).",
+      "answers": [
+        {
+          "text": "\\(n_i = 360^\\circ \\cdot \\frac{f_i}{100}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(n_i = 180^\\circ \\cdot \\frac{f_i}{100}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(n_i = 100^\\circ \\cdot \\frac{f_i}{360}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(n_i = 360^\\circ \\cdot \\frac{100}{f_i}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "thong_hieu",
+      "metadata_code": "Vẽ biểu đồ tần số tương đối dạng quạt tròn",
+      "questiontext": "Cho biết tần số tương đối của một giá trị là {f}%. Hãy tính số đo cung tương ứng (theo độ) của hình quạt tròn biểu diễn giá trị đó.",
+      "generalfeedback": "Số đo cung tương ứng của hình quạt tròn là \\(360^\\circ \\cdot \\frac{f}{100}\\).",
+      "wildcards": [
+        {
+          "name": "f",
+          "min": 10.0,
+          "max": 90.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "360*{f}/100",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Vẽ biểu đồ tần số tương đối dạng quạt tròn",
+      "questiontext": "Trong một cuộc khảo sát, loại phim Hài được 50% học sinh yêu thích. Số đo góc ở tâm của hình quạt tròn biểu diễn tỉ lệ học sinh yêu thích phim Hài là bao nhiêu độ? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Số đo góc ở tâm là \\(360^\\circ \\cdot 50\\% = 180^\\circ\\).",
+      "answers": [
+        {
+          "text": "180",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_118",
+      "questiontext": "Hãy ghép mỗi bước vẽ biểu đồ hình quạt tròn biểu diễn bảng tần số tương đối với nội dung thực hiện tương ứng.",
+      "generalfeedback": "Quy trình vẽ biểu đồ hình quạt tròn gồm 3 bước chuẩn SGK.",
+      "subquestions": [
+        {
+          "question": "Bước 1",
+          "answer": "Xác định số đo cung tương ứng của các hình quạt dùng để biểu diễn tần số tương đối."
+        },
+        {
+          "question": "Bước 2",
+          "answer": "Vẽ hình tròn và chia hình tròn thành các hình quạt có số đo cung tương ứng."
+        },
+        {
+          "question": "Bước 3",
+          "answer": "Định dạng các hình quạt tròn, ghi tần số tương đối, chú giải và tiêu đề."
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_117",
+      "questiontext": "Trong hoạt động Tranh luận, bạn Bình thu được tỉ lệ chọn địa điểm dã ngoại: Ba Vì (70%), Cát Bà (30%), Cúc Phương (50%). Vì sao KHÔNG THỂ dùng biểu đồ hình quạt tròn để biểu diễn bảng thống kê này?",
+      "generalfeedback": "Do mỗi học sinh có thể chọn nhiều hơn 1 địa điểm nên tổng các tần số tương đối là 70% + 30% + 50% = 150% (lớn hơn 100%). Do đó không thể biểu diễn bằng biểu đồ hình quạt tròn mà phải dùng biểu đồ cột.",
+      "answers": [
+        {
+          "text": "Vì tổng các tần số tương đối bằng 150%, vượt quá 100%",
+          "fraction": 100
+        },
+        {
+          "text": "Vì số lượng địa điểm quá ít",
+          "fraction": 0
+        },
+        {
+          "text": "Vì dữ liệu địa điểm là dữ liệu định tính",
+          "fraction": 0
+        },
+        {
+          "text": "Vì các tần số tương đối đều là số chẵn",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Cấu trúc biểu đồ tần số tương đối dạng cột",
+      "questiontext": "Trục đứng của biểu đồ tần số tương đối dạng cột biểu diễn [[1]], còn trục ngang biểu diễn [[2]].",
+      "generalfeedback": "Trục đứng biểu diễn tần số tương đối (thường theo %), trục ngang biểu diễn các giá trị.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "Tần số tương đối (%)"
+        },
+        {
+          "group": 1,
+          "text": "Các giá trị của dữ liệu"
+        },
+        {
+          "group": 1,
+          "text": "Tần số tuyệt đối"
+        },
+        {
+          "group": 1,
+          "text": "Tên bài học"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Cấu trúc biểu đồ tần số tương đối dạng cột",
+      "questiontext": "Tổng các tần số tương đối của tất cả các giá trị trong một bảng tần số tương đối biểu diễn thành phần của một tổng thể luôn bằng 100%.",
+      "generalfeedback": "Tổng tần số tương đối của tất cả các giá trị trong một tổng thể luôn bằng 100% (hay 1).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_118",
+      "questiontext": "Trong Luyện tập 2, tỉ lệ học sinh đánh giá đề thi môn Toán ở mức 'Khó' là 25%. Tính số đo góc của hình quạt tròn biểu diễn mức độ 'Khó'. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Số đo góc hình quạt là \\(360^\\circ \\cdot 25\\% = 90^\\circ\\).",
+      "answers": [
+        {
+          "text": "90",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Cấu trúc biểu đồ tần số tương đối dạng cột",
+      "imgs": [
+        "_page_2_Figure_0.jpeg"
+      ],
+      "questiontext": "Quan sát Hình 7.9 [img:_page_2_Figure_0.jpeg] biểu diễn tỉ lệ ủng hộ các phương án thi đấu bóng đá. Phương án nào có tỉ lệ ủng hộ cao nhất và chiếm bao nhiêu phần trăm?",
+      "generalfeedback": "Dựa vào biểu đồ cột Hình 7.9, Phương án 1 có tỉ lệ ủng hộ cao nhất là 61%.",
+      "answers": [
+        {
+          "text": "Phương án 1, chiếm 61%",
+          "fraction": 100
+        },
+        {
+          "text": "Phương án 2, chiếm 28%",
+          "fraction": 0
+        },
+        {
+          "text": "Phương án 3, chiếm 11%",
+          "fraction": 0
+        },
+        {
+          "text": "Phương án 1, chiếm 50%",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,794 @@
+{
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_035",
+      "questiontext": "Giá trị tuyệt đối của một số thực \\(x\\), ký hiệu là \\(|x|\\), được định nghĩa là khoảng cách từ điểm \\(x\\) đến điểm nào trên trục số?",
+      "generalfeedback": "Giá trị tuyệt đối của một số thực \\(x\\) là khoảng cách từ điểm \\(x\\) đến điểm gốc \\(0\\) trên trục số.",
+      "answers": [
+        {
+          "text": "Điểm gốc \\(0\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Điểm \\(1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Điểm \\(-1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Điểm \\(x\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm giá trị tuyệt đối của số thực",
+      "questiontext": "Giá trị tuyệt đối của một số thực âm luôn là một số dương.",
+      "generalfeedback": "Đúng. Với mọi số thực \\(x < 0\\), ta có \\(|x| = -x > 0\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "nhan_biet",
+      "metadata_code": "Tính giá trị tuyệt đối của một số thực",
+      "questiontext": "Tính giá trị tuyệt đối của số \\(-7.5\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Ta có \\(|-7.5| = 7.5\\).",
+      "answers": [
+        {
+          "text": "7.5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tính chất giá trị tuyệt đối",
+      "questiontext": "Mệnh đề nào sau đây là **sai** khi nói về tính chất của giá trị tuyệt đối của số thực \\(x\\)?",
+      "generalfeedback": "Giá trị tuyệt đối của mọi số thực luôn không âm, nghĩa là \\(|x| \\ge 0\\) với mọi \\(x \\in \\mathbb{R}\\). Khẳng định \\(|x| < 0\\) là sai.",
+      "answers": [
+        {
+          "text": "\\(|x| < 0\\) với mọi \\(x < 0\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(|x| \\ge 0\\) với mọi \\(x \\in \\mathbb{R}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(|x| = |-x|\\) với mọi \\(x \\in \\mathbb{R}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(|x| = 0\\) khi và chỉ khi \\(x = 0\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Tính giá trị tuyệt đối của một số thực",
+      "questiontext": "Ghép mỗi số thực ở cột bên trái với giá trị tuyệt đối tương ứng ở cột bên phải:",
+      "generalfeedback": "Áp dụng định nghĩa giá trị tuyệt đối: \\(|3.2| = 3.2\\), \\(|-3.2| = 3.2\\), \\(|0| = 0\\), \\(|-\\sqrt{2}| = \\sqrt{2}\\).",
+      "subquestions": [
+        {
+          "question": "Giá trị tuyệt đối của \\(3.2\\)",
+          "answer": "3.2"
+        },
+        {
+          "question": "Giá trị tuyệt đối của \\(-3.2\\)",
+          "answer": "3.2"
+        },
+        {
+          "question": "Giá trị tuyệt đối của \\(0\\)",
+          "answer": "0"
+        },
+        {
+          "question": "Giá trị tuyệt đối của \\(-\\sqrt{2}\\)",
+          "answer": "\\(\\sqrt{2}\\)"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Giải bài toán chứa dấu giá trị tuyệt đối",
+      "questiontext": "Tìm giá trị của \\(x\\) thỏa mãn \\(|x| = 0\\).",
+      "generalfeedback": "Giá trị tuyệt đối của một số bằng \\(0\\) khi và chỉ khi số đó bằng \\(0\\). Vậy \\(x = 0\\).",
+      "answers": [
+        {
+          "text": "0",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm giá trị tuyệt đối của số thực",
+      "questiontext": "Với mọi số thực \\(x\\), nếu \\(x > 0\\) thì \\(|x| =\\) [[1]]; nếu \\(x = 0\\) thì \\(|x| =\\) [[2]]; nếu \\(x < 0\\) thì \\(|x| =\\) [[3]].",
+      "generalfeedback": "Theo định nghĩa giá trị tuyệt đối của số thực: Nếu \\(x > 0\\) thì \\(|x| = x\\); nếu \\(x = 0\\) thì \\(|x| = 0\\); nếu \\(x < 0\\) thì \\(|x| = -x\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "x"
+        },
+        {
+          "group": 1,
+          "text": "0"
+        },
+        {
+          "group": 1,
+          "text": "-x"
+        },
+        {
+          "group": 1,
+          "text": "1"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "nhan_biet",
+      "metadata_code": "Tính giá trị tuyệt đối của một số thực",
+      "questiontext": "Tính giá trị của biểu thức \\(A = |\\){a}\\(| + 5\\) với {a} là một số dương.",
+      "generalfeedback": "Vì {a} > 0 nên \\(|{a}| = {a}\\). Do đó \\(A = {a} + 5\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 20.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}+5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán chứa dấu giá trị tuyệt đối",
+      "questiontext": "Tìm tất cả các giá trị thực của \\(x\\) thỏa mãn đẳng thức \\(|x - 2| = 5\\).",
+      "generalfeedback": "Ta có \\(|x - 2| = 5 \\Rightarrow x - 2 = 5\\) hoặc \\(x - 2 = -5\\).\n- Trường hợp 1: \\(x - 2 = 5 \\Rightarrow x = 7\\).\n- Trường hợp 2: \\(x - 2 = -5 \\Rightarrow x = -3\\).\nVậy \\(x = 7\\) hoặc \\(x = -3\\).",
+      "answers": [
+        {
+          "text": "\\(x = 7\\) hoặc \\(x = -3\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x = 7\\) hoặc \\(x = 3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x = 3\\) hoặc \\(x = -7\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x = 7\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Tính chất giá trị tuyệt đối",
+      "questiontext": "Điền từ thích hợp vào chỗ trống: Hai số thực đối nhau thì có giá trị tuyệt đối [[1]]. Khoảng cách từ điểm \\(x\\) và điểm \\(-x\\) đến gốc \\(0\\) trên trục số là [[2]].",
+      "generalfeedback": "Hai số thực đối nhau \\(x\\) và \\(-x\\) có khoảng cách đến gốc \\(0\\) bằng nhau, do đó có giá trị tuyệt đối bằng nhau.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "bằng nhau"
+        },
+        {
+          "group": 1,
+          "text": "khác nhau"
+        },
+        {
+          "group": 1,
+          "text": "đối nhau"
+        },
+        {
+          "group": 1,
+          "text": "bằng 0"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tính giá trị tuyệt đối của một số thực",
+      "questiontext": "Tính giá trị của biểu thức \\(B = |-3.5| + |2.1|\\).",
+      "generalfeedback": "Ta có \\(|-3.5| = 3.5\\) và \\(|2.1| = 2.1\\). Do đó \\(B = 3.5 + 2.1 = 5.6\\).",
+      "answers": [
+        {
+          "text": "5.6",
+          "fraction": 100
+        },
+        {
+          "text": "-1.4",
+          "fraction": 0
+        },
+        {
+          "text": "1.4",
+          "fraction": 0
+        },
+        {
+          "text": "-5.6",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Tính chất giá trị tuyệt đối",
+      "questiontext": "Nếu \\(|x| = |y|\\) thì \\(x = y\\) hoặc \\(x = -y\\).",
+      "generalfeedback": "Đúng. Hai số có giá trị tuyệt đối bằng nhau thì hai số đó bằng nhau hoặc đối nhau.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Tính giá trị tuyệt đối của một số thực",
+      "questiontext": "Tính giá trị tuyệt đối của \\(-\\frac{3}{4}\\) dưới dạng số thập phân. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Ta có \\(|-\\frac{3}{4}| = \\frac{3}{4} = 0.75\\).",
+      "answers": [
+        {
+          "text": "0.75",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán chứa dấu giá trị tuyệt đối",
+      "questiontext": "Có bao nhiêu số thực \\(x\\) thỏa mãn \\(|x| = 2.5\\)?",
+      "generalfeedback": "Vì \\(2.5 > 0\\) nên có đúng 2 giá trị của \\(x\\) thỏa mãn là \\(x = 2.5\\) và \\(x = -2.5\\).",
+      "answers": [
+        {
+          "text": "2",
+          "fraction": 100
+        },
+        {
+          "text": "1",
+          "fraction": 0
+        },
+        {
+          "text": "0",
+          "fraction": 0
+        },
+        {
+          "text": "Vô số",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán chứa dấu giá trị tuyệt đối",
+      "questiontext": "Tìm giá trị lớn nhất của biểu thức \\(P = 10 - |x - 3|\\).",
+      "generalfeedback": "Vì \\(|x - 3| \\ge 0\\) với mọi \\(x\\) nên \\(-|x - 3| \\le 0\\). Do đó \\(P = 10 - |x - 3| \\le 10\\). Dấu '=' xảy ra khi \\(x = 3\\). Vậy giá trị lớn nhất của P là 10.",
+      "answers": [
+        {
+          "text": "10",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Khái niệm giá trị tuyệt đối của số thực",
+      "questiontext": "Khoảng cách từ điểm \\(-5\\) đến gốc \\(0\\) trên trục số bằng [[1]]. Do đó, giá trị tuyệt đối của \\(-5\\) là [[2]].",
+      "generalfeedback": "Khoảng cách từ điểm \\(-5\\) đến gốc \\(0\\) bằng 5, do đó \\(|-5| = 5\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "5"
+        },
+        {
+          "group": 1,
+          "text": "-5"
+        },
+        {
+          "group": 1,
+          "text": "0"
+        },
+        {
+          "group": 1,
+          "text": "10"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Tính giá trị tuyệt đối của một số thực",
+      "questiontext": "Tính giá trị tuyệt đối của số âm \\(-{x}\\) biết {x} là số nguyên dương.",
+      "generalfeedback": "Vì {x} > 0 nên \\(-{x} < 0\\). Do đó \\(|-{x}| = {x}\\).",
+      "wildcards": [
+        {
+          "name": "x",
+          "min": 2.0,
+          "max": 50.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{x}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_035",
+      "questiontext": "Khẳng định nào sau đây là đúng về giá trị tuyệt đối của số \\(\\pi\\)?",
+      "generalfeedback": "Vì \\(\\pi > 0\\) nên \\(|\\pi| = \\pi\\).",
+      "answers": [
+        {
+          "text": "\\(|\\pi| = \\pi\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(|\\pi| = -\\pi\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(|\\pi| = 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(|\\pi| = 1\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Giải bài toán chứa dấu giá trị tuyệt đối",
+      "questiontext": "Ghép mỗi phương trình chứa dấu giá trị tuyệt đối ở cột bên trái với tập nghiệm tương ứng ở cột bên phải:",
+      "generalfeedback": "- \\(|x| = 3 \\Rightarrow x = 3\\) hoặc \\(x = -3\\).\n- \\(|x| = 0 \\Rightarrow x = 0\\).\n- \\(|x| = -2\\): Vô nghiệm vì giá trị tuyệt đối không âm.",
+      "subquestions": [
+        {
+          "question": "\\(|x| = 3\\)",
+          "answer": "\\(x = 3\\) hoặc \\(x = -3\\)"
+        },
+        {
+          "question": "\\(|x| = 0\\)",
+          "answer": "\\(x = 0\\)"
+        },
+        {
+          "question": "\\(|x| = -2\\)",
+          "answer": "Vô nghiệm"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán chứa dấu giá trị tuyệt đối",
+      "questiontext": "Để giải bài toán tìm \\(x\\) biết \\(|x - 1| = 4\\), ta chia làm hai trường hợp: Trường hợp 1 là \\(x - 1 =\\) [[1]]; Trường hợp 2 là \\(x - 1 =\\) [[2]].",
+      "generalfeedback": "Vì \\(4 > 0\\), \\(|x - 1| = 4\\) tương đương với \\(x - 1 = 4\\) hoặc \\(x - 1 = -4\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "4"
+        },
+        {
+          "group": 1,
+          "text": "-4"
+        },
+        {
+          "group": 1,
+          "text": "0"
+        },
+        {
+          "group": 1,
+          "text": "1"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tính giá trị tuyệt đối của một số thực",
+      "questiontext": "Tính giá trị của biểu thức \\(B = |-3.5| + |2.1|\\).",
+      "generalfeedback": "Ta có \\(|-3.5| = 3.5\\) và \\(|2.1| = 2.1\\). Do đó \\(B = 3.5 + 2.1 = 5.6\\).",
+      "answers": [
+        {
+          "text": "5.6",
+          "fraction": 100
+        },
+        {
+          "text": "-1.4",
+          "fraction": 0
+        },
+        {
+          "text": "1.4",
+          "fraction": 0
+        },
+        {
+          "text": "-5.6",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Tính chất giá trị tuyệt đối",
+      "questiontext": "Nếu \\(|x| = |y|\\) thì \\(x = y\\) hoặc \\(x = -y\\).",
+      "generalfeedback": "Đúng. Hai số có giá trị tuyệt đối bằng nhau thì hai số đó bằng nhau hoặc đối nhau.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Tính giá trị tuyệt đối của một số thực",
+      "questiontext": "Tính giá trị tuyệt đối của \\(-\\frac{3}{4}\\) dưới dạng số thập phân. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Ta có \\(|-\\frac{3}{4}| = \\frac{3}{4} = 0.75\\).",
+      "answers": [
+        {
+          "text": "0.75",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán chứa dấu giá trị tuyệt đối",
+      "questiontext": "Có bao nhiêu số thực \\(x\\) thỏa mãn \\(|x| = 2.5\\)?",
+      "generalfeedback": "Vì \\(2.5 > 0\\) nên có đúng 2 giá trị của \\(x\\) thỏa mãn là \\(x = 2.5\\) và \\(x = -2.5\\).",
+      "answers": [
+        {
+          "text": "2",
+          "fraction": 100
+        },
+        {
+          "text": "1",
+          "fraction": 0
+        },
+        {
+          "text": "0",
+          "fraction": 0
+        },
+        {
+          "text": "Vô số",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán chứa dấu giá trị tuyệt đối",
+      "questiontext": "Tìm giá trị lớn nhất của biểu thức \\(P = 10 - |x - 3|\\).",
+      "generalfeedback": "Vì \\(|x - 3| \\ge 0\\) với mọi \\(x\\) nên \\(-|x - 3| \\le 0\\). Do đó \\(P = 10 - |x - 3| \\le 10\\). Dấu '=' xảy ra khi \\(x = 3\\). Vậy giá trị lớn nhất của P là 10.",
+      "answers": [
+        {
+          "text": "10",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Khái niệm giá trị tuyệt đối của số thực",
+      "questiontext": "Khoảng cách từ điểm \\(-5\\) đến gốc \\(0\\) trên trục số bằng [[1]]. Do đó, giá trị tuyệt đối của \\(-5\\) là [[2]].",
+      "generalfeedback": "Khoảng cách từ điểm \\(-5\\) đến gốc \\(0\\) bằng 5, do đó \\(|-5| = 5\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "5"
+        },
+        {
+          "group": 1,
+          "text": "-5"
+        },
+        {
+          "group": 1,
+          "text": "0"
+        },
+        {
+          "group": 1,
+          "text": "10"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Tính giá trị tuyệt đối của một số thực",
+      "questiontext": "Tính giá trị tuyệt đối của số âm \\(-{x}\\) biết {x} là số nguyên dương.",
+      "generalfeedback": "Vì {x} > 0 nên \\(-{x} < 0\\). Do đó \\(|-{x}| = {x}\\).",
+      "wildcards": [
+        {
+          "name": "x",
+          "min": 2.0,
+          "max": 50.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{x}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_035",
+      "questiontext": "Khẳng định nào sau đây là đúng về giá trị tuyệt đối của số \\(\\pi\\)?",
+      "generalfeedback": "Vì \\(\\pi > 0\\) nên \\(|\\pi| = \\pi\\).",
+      "answers": [
+        {
+          "text": "\\(|\\pi| = \\pi\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(|\\pi| = -\\pi\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(|\\pi| = 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(|\\pi| = 1\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Giải bài toán chứa dấu giá trị tuyệt đối",
+      "questiontext": "Ghép mỗi phương trình chứa dấu giá trị tuyệt đối ở cột bên trái với tập nghiệm tương ứng ở cột bên phải:",
+      "generalfeedback": "- \\(|x| = 3 \\Rightarrow x = 3\\) hoặc \\(x = -3\\).\n- \\(|x| = 0 \\Rightarrow x = 0\\).\n- \\(|x| = -2\\): Vô nghiệm vì giá trị tuyệt đối không âm.",
+      "subquestions": [
+        {
+          "question": "\\(|x| = 3\\)",
+          "answer": "\\(x = 3\\) hoặc \\(x = -3\\)"
+        },
+        {
+          "question": "\\(|x| = 0\\)",
+          "answer": "\\(x = 0\\)"
+        },
+        {
+          "question": "\\(|x| = -2\\)",
+          "answer": "Vô nghiệm"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán chứa dấu giá trị tuyệt đối",
+      "questiontext": "Để giải bài toán tìm \\(x\\) biết \\(|x - 1| = 4\\), ta chia làm hai trường hợp: Trường hợp 1 là \\(x - 1 =\\) [[1]]; Trường hợp 2 là \\(x - 1 =\\) [[2]].",
+      "generalfeedback": "Vì \\(4 > 0\\), \\(|x - 1| = 4\\) tương đương với \\(x - 1 = 4\\) hoặc \\(x - 1 = -4\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "4"
+        },
+        {
+          "group": 1,
+          "text": "-4"
+        },
+        {
+          "group": 1,
+          "text": "0"
+        },
+        {
+          "group": 1,
+          "text": "1"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Trong giờ học Toán về Giá trị tuyệt đối của một số thực, bạn An gặp một bài toán khó tìm \\(x\\) thỏa mãn \\(|x - 1.5| = 3.2\\). An đã kiên trì thử các trường hợp, kiểm tra lại kết quả nhiều lần cho đến khi tìm ra đáp án đúng. Hành động của An thể hiện phẩm chất nào?",
+      "generalfeedback": "Hành động kiên trì, không nản lòng trước bài toán khó và cẩn thận kiểm tra lại kết quả thể hiện phẩm chất Chăm chỉ (Q1).",
+      "answers": [
+        {
+          "text": "Chăm chỉ",
+          "fraction": 100
+        },
+        {
+          "text": "Trung thực",
+          "fraction": 0
+        },
+        {
+          "text": "Tiết kiệm",
+          "fraction": 0
+        },
+        {
+          "text": "Yêu nước",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Khi làm bài kiểm tra về Tính giá trị tuyệt đối của một số thực, Bình tính ra \\(|-4.2| = -4.2\\). Khi tự chấm lại theo đáp án của giáo viên (đáp án đúng là \\(4.2\\)), Bình nhận ra lỗi sai của mình và tự giác ghi lại lời giải đúng để rút kinh nghiệm chứ không sửa kết quả trong bài làm để lấy điểm cao. Việc làm của Bình thể hiện phẩm chất nào?",
+      "generalfeedback": "Tự giác nhận lỗi sai, không gian dối để thay đổi điểm số thể hiện phẩm chất Trung thực (Q2).",
+      "answers": [
+        {
+          "text": "Trung thực",
+          "fraction": 100
+        },
+        {
+          "text": "Dũng cảm",
+          "fraction": 0
+        },
+        {
+          "text": "Khiêm tốn",
+          "fraction": 0
+        },
+        {
+          "text": "Hòa đồng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Để tự học hiệu quả nội dung \"Giá trị tuyệt đối của một số thực\", quy trình tự học nào sau đây thể hiện tính tự chủ và khoa học nhất?",
+      "generalfeedback": "Quy trình tự học tự chủ hiệu quả là: Đọc định nghĩa và tính chất trong SGK -> Xem ví dụ mẫu -> Tự giải bài tập củng cố -> Kiểm tra và rút kinh nghiệm lỗi sai.",
+      "answers": [
+        {
+          "text": "Đọc SGK để nắm định nghĩa và tính chất \\(|x|\\) -> Xem ví dụ mẫu -> Tự giải bài tập -> Đối chiếu đáp án và sửa sai",
+          "fraction": 100
+        },
+        {
+          "text": "Chép ngay lời giải bài tập từ sách giải -> Học thuộc lòng kết quả",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ làm bài tập mà không cần đọc định nghĩa hay tính chất trong SGK",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua các ví dụ mẫu và chỉ chờ giáo viên chữa bài trên lớp",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_GIAOTIEP",
+      "questiontext": "Trong thảo luận nhóm, bạn Minh giải thích cho bạn Lan về lý do vì sao \\(|-2.5| = 2.5\\) như sau: \"Vì giá trị tuyệt đối của số thực \\(x\\) là khoảng cách từ điểm \\(x\\) đến điểm \\(0\\) trên trục số, mà khoảng cách từ điểm \\(-2.5\\) đến điểm \\(0\\) là \\(2.5\\) đơn vị nên \\(|-2.5| = 2.5|\". Em đánh giá lời giải thích của Minh như thế nào?",
+      "generalfeedback": "Lời giải thích của Minh rất chính xác, dựa đúng trên khái niệm khoảng cách trên trục số, giúp bạn trong nhóm dễ dàng hiểu bài.",
+      "answers": [
+        {
+          "text": "Giải thích đúng, rõ ràng và bám sát định nghĩa khoảng cách trên trục số",
+          "fraction": 100
+        },
+        {
+          "text": "Giải thích sai vì giá trị tuyệt đối phải luôn là số âm",
+          "fraction": 0
+        },
+        {
+          "text": "Giải thích đúng nhưng không liên quan đến trục số",
+          "fraction": 0
+        },
+        {
+          "text": "Giải thích sai vì khoảng cách từ \\(-2.5\\) đến \\(0\\) phải bằng \\(-2.5\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Bạn Hoa lập luận: \"Vì \\(|x| \\ge 0\\) với mọi số thực \\(x\\), nên phương trình \\(|x + 3| = -2\\) không thể có nghiệm số thực nào\". Lập luận của Hoa là đúng hay sai và vì sao?",
+      "generalfeedback": "Lập luận của Hoa hoàn toàn chính xác. Do vế trái \\(|x + 3| \\ge 0\\) với mọi \\(x\\), còn vế phải là \\(-2 < 0\\), nên không tồn tại giá trị \\(x\\) nào thỏa mãn.",
+      "answers": [
+        {
+          "text": "Đúng, vì giá trị tuyệt đối của một số thực luôn không âm, không thể bằng \\(-2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Sai, vì \\(|x + 3| = -2 \\Rightarrow x + 3 = -2 \\Rightarrow x = -5\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Sai, vì phương trình chứa dấu giá trị tuyệt đối luôn có 2 nghiệm",
+          "fraction": 0
+        },
+        {
+          "text": "Sai, vì giá trị tuyệt đối của số âm có thể là số âm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "questiontext": "Khoảng cách giữa hai điểm đại diện cho hai số thực \\(a\\) và \\(b\\) trên trục số được tính theo công thức \\(d = |a - b|\\). Nhiệt độ tại Sa Pa vào buổi sáng là \\(-1.5^\\circ\\text{C}\\) và buổi trưa là \\(8.5^\\circ\\text{C}\\). Hãy sử dụng công thức giá trị tuyệt đối để tính độ chênh lệch nhiệt độ giữa buổi trưa và buổi sáng.",
+      "generalfeedback": "Độ chênh lệch nhiệt độ được tính bằng \\(|8.5 - (-1.5)| = |8.5 + 1.5| = |10| = 10^\\circ\\text{C}\\).",
+      "answers": [
+        {
+          "text": "\\(10^\\circ\\text{C}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(7^\\circ\\text{C}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-10^\\circ\\text{C}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(8.5^\\circ\\text{C}\\)",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

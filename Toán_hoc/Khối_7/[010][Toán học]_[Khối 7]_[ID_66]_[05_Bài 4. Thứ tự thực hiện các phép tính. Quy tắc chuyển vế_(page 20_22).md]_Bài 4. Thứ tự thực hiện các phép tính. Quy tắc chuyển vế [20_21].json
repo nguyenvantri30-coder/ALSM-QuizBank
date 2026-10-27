@@ -1,0 +1,702 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 27,
+    "metadata_used": {
+      "Thứ tự ưu tiên các phép tính trong biểu thức chứa ngoặc và không chứa ngoặc": 6,
+      "YCCD_TOAN7_016": 4,
+      "Thực hiện đúng thứ tự các phép tính với số hữu tỉ": 10,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_TUCHUTUHOC": 1,
+      "NLC_GIAOTIEP": 1,
+      "NLT_TOAN_C2_01": 1,
+      "NLT_TOAN_C2_03": 2
+    },
+    "types_used": {
+      "multichoice": 13,
+      "truefalse": 2,
+      "gapselect": 2,
+      "ddwtos": 2,
+      "matching": 2,
+      "numerical": 2,
+      "shortanswer": 2,
+      "calculatedsimple": 2
+    },
+    "total": 27
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_016",
+        "reason": "Mô tả được thứ tự thực hiện các phép tính trong tập hợp số hữu tỉ"
+      },
+      {
+        "metadata_code": "Thứ tự ưu tiên các phép tính trong biểu thức chứa ngoặc và không chứa ngoặc",
+        "reason": "Thứ tự ưu tiên các phép tính trong biểu thức chứa ngoặc và không chứa ngoặc"
+      },
+      {
+        "metadata_code": "Thực hiện đúng thứ tự các phép tính với số hữu tỉ",
+        "reason": "Thực hiện đúng thứ tự các phép tính với số hữu tỉ"
+      },
+      {
+        "metadata_code": "PC_CHAMCHI",
+        "reason": "Thể hiện phẩm chất chăm chỉ, kiên trì vượt khó trong giải toán"
+      },
+      {
+        "metadata_code": "PC_TRUNGTHUC",
+        "reason": "Thể hiện phẩm chất trung thực trong học tập và đánh giá"
+      },
+      {
+        "metadata_code": "NLC_TUCHUTUHOC",
+        "reason": "Năng lực tự chủ và tự học thông qua việc hệ thống hóa kiến thức"
+      },
+      {
+        "metadata_code": "NLC_GIAOTIEP",
+        "reason": "Năng lực giao tiếp và hợp tác trong thảo luận nhóm"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01",
+        "reason": "Năng lực tư duy và lập luận toán học qua phân tích phát hiện sai lầm"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03",
+        "reason": "Năng lực giải quyết vấn đề toán học qua mô hình hóa tình huống thực tế"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_017",
+        "reason": "Mô tả được quy tắc dấu ngoặc thuộc nội dung Tiết 2 của bài học."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_022",
+        "reason": "Vận dụng quy tắc dấu ngoặc thuộc nội dung Tiết 2 của bài học."
+      },
+      {
+        "metadata_code": "Bỏ dấu ngoặc đúng quy tắc",
+        "reason": "Kỹ năng bỏ dấu ngoặc thuộc nội dung Tiết 2 của bài học."
+      },
+      {
+        "metadata_code": "N1",
+        "reason": "Nội dung bài học thuần túy là lý thuyết và tính toán tay, không chứa yếu tố thực hành tin học."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học không liên quan tự nhiên đến các hệ thống Trí tuệ nhân tạo."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Thứ tự ưu tiên các phép tính trong biểu thức chứa ngoặc và không chứa ngoặc",
+      "questiontext": "Đối với biểu thức không có dấu ngoặc và chỉ chứa các phép tính cộng, trừ, thứ tự thực hiện các phép tính là:",
+      "generalfeedback": "Với các biểu thức chỉ có phép cộng và phép trừ, ta thực hiện các phép tính từ trái sang phải.",
+      "answers": [
+        {
+          "text": "Từ trái sang phải",
+          "fraction": 100
+        },
+        {
+          "text": "Từ phải sang trái",
+          "fraction": 0
+        },
+        {
+          "text": "Thực hiện phép cộng trước, phép trừ sau",
+          "fraction": 0
+        },
+        {
+          "text": "Thực hiện phép trừ trước, phép cộng sau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Thứ tự ưu tiên các phép tính trong biểu thức chứa ngoặc và không chứa ngoặc",
+      "questiontext": "Đối với biểu thức không có dấu ngoặc gồm các phép tính cộng, trừ, nhân, chia, nâng lên lũy thừa, thứ tự thực hiện đúng là:",
+      "generalfeedback": "Thứ tự thực hiện các phép tính đối với biểu thức không có dấu ngoặc là: Lũy thừa \\(\\rightarrow\\) Nhân và chia \\(\\rightarrow\\) Cộng và trừ.",
+      "answers": [
+        {
+          "text": "Lũy thừa \\(\\rightarrow\\) Nhân và chia \\(\\rightarrow\\) Cộng và trừ",
+          "fraction": 100
+        },
+        {
+          "text": "Nhân và chia \\(\\rightarrow\\) Lũy thừa \\(\\rightarrow\\) Cộng và trừ",
+          "fraction": 0
+        },
+        {
+          "text": "Cộng và trừ \\(\\rightarrow\\) Nhân và chia \\(\\rightarrow\\) Lũy thừa",
+          "fraction": 0
+        },
+        {
+          "text": "Lũy thừa \\(\\rightarrow\\) Cộng và trừ \\(\\rightarrow\\) Nhân và chia",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Thứ tự ưu tiên các phép tính trong biểu thức chứa ngoặc và không chứa ngoặc",
+      "questiontext": "Đối với biểu thức có các dấu ngoặc tròn \\((\\)\\), ngoặc vuông \\([\\]\\), ngoặc nhọn \\(\\{\\}\\), thứ tự thực hiện các phép tính là:",
+      "generalfeedback": "Thứ tự thực hiện các phép tính trong biểu thức có dấu ngoặc là: ngoặc tròn \\((\\)\\) \\(\\rightarrow\\) ngoặc vuông \\([\\]\\) \\(\\rightarrow\\) ngoặc nhọn \\(\\{\\}\\).",
+      "answers": [
+        {
+          "text": "\\((\\)\\) \\(\\rightarrow\\) \\([\\]\\) \\(\\rightarrow\\) \\(\\{\\}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\{\\}\\) \\(\\rightarrow\\) \\([\\]\\) \\(\\rightarrow\\) \\((\\)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\([\\]\\) \\(\\rightarrow\\) \\((\\)\\) \\(\\rightarrow\\) \\(\\{\\}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((\\)\\) \\(\\rightarrow\\) \\(\\{\\}\\) \\(\\rightarrow\\) \\([\\]\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_016",
+      "questiontext": "Thứ tự thực hiện các phép tính đối với các số hữu tỉ cũng tương tự như thứ tự thực hiện các phép tính đối với các số tự nhiên. Phát biểu trên đúng hay sai?",
+      "generalfeedback": "Đúng. Thứ tự thực hiện phép tính đối với các số tự nhiên vẫn đúng đối với các số hữu tỉ.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_016",
+      "questiontext": "Trong biểu thức không có dấu ngoặc, ta thực hiện phép tính [[1]] trước, sau đó đến [[2]], cuối cùng là [[3]].",
+      "generalfeedback": "Thứ tự thực hiện các phép tính: Lũy thừa -> Nhân và chia -> Cộng và trừ.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "lũy thừa"
+        },
+        {
+          "group": 1,
+          "text": "nhân và chia"
+        },
+        {
+          "group": 1,
+          "text": "cộng và trừ"
+        },
+        {
+          "group": 1,
+          "text": "ngoặc tròn"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Thứ tự ưu tiên các phép tính trong biểu thức chứa ngoặc và không chứa ngoặc",
+      "questiontext": "Khi tính giá trị biểu thức có chứa ngoặc, thứ tự ưu tiên là: ngoặc [[1]] trước, rồi đến ngoặc [[2]], cuối cùng là ngoặc [[3]].",
+      "generalfeedback": "Thứ tự đúng là: ngoặc tròn -> ngoặc vuông -> ngoặc nhọn.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "tròn"
+        },
+        {
+          "group": 1,
+          "text": "vuông"
+        },
+        {
+          "group": 1,
+          "text": "nhọn"
+        },
+        {
+          "group": 1,
+          "text": "kép"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_016",
+      "questiontext": "Hãy ghép mỗi loại biểu thức ở cột bên trái với thứ tự thực hiện phép tính tương ứng ở cột bên phải:",
+      "generalfeedback": "Nắm vững thứ tự thực hiện phép tính cho từng dạng biểu thức.",
+      "subquestions": [
+        {
+          "question": "Biểu thức chỉ có phép cộng và phép trừ",
+          "answer": "Thực hiện từ trái sang phải"
+        },
+        {
+          "question": "Biểu thức không ngoặc có cộng, trừ, nhân, chia, lũy thừa",
+          "answer": "Lũy thừa -> Nhân và chia -> Cộng và trừ"
+        },
+        {
+          "question": "Biểu thức có các loại dấu ngoặc",
+          "answer": "Ngoặc tròn -> Ngoặc vuông -> Ngoặc nhọn"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện đúng thứ tự các phép tính với số hữu tỉ",
+      "questiontext": "Tính giá trị của biểu thức: \\(1,2 - 3^2 + 7,5 : 3\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "\\(1,2 - 3^2 + 7,5 : 3 = 1,2 - 9 + 2,5 = -7,8 + 2,5 = -5,3\\).",
+      "answers": [
+        {
+          "text": "-5.3",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện đúng thứ tự các phép tính với số hữu tỉ",
+      "questiontext": "Thực hiện phép tính: \\(10 + 36 : 2 \\cdot 3\\). Kết quả bằng bao nhiêu?",
+      "generalfeedback": "Thực hiện nhân chia từ trái sang phải: \\(36 : 2 \\cdot 3 = 18 \\cdot 3 = 54\\). Sau đó cộng: \\(10 + 54 = 64\\).",
+      "answers": [
+        {
+          "text": "64",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện đúng thứ tự các phép tính với số hữu tỉ",
+      "questiontext": "Tính giá trị biểu thức A = {a} + {b} . 2 với {a} và {b} là các số tự nhiên.",
+      "generalfeedback": "Thực hiện phép nhân trước: {b} . 2, sau đó cộng với {a}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}+{b}*2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện đúng thứ tự các phép tính với số hữu tỉ",
+      "questiontext": "Kết quả của phép tính \\(9,8 + 1,5 \\cdot 6 + (6,8 - 2) : 3\\) là:",
+      "generalfeedback": "Thực hiện trong ngoặc trước: \\(6,8 - 2 = 4,8\\). Sau đó thực hiện nhân và chia: \\(1,5 \\cdot 6 = 9\\) và \\(4,8 : 3 = 1,6\\). Cuối cùng thực hiện cộng từ trái sang phải: \\(9,8 + 9 + 1,6 = 20,4\\).",
+      "answers": [
+        {
+          "text": "20,4",
+          "fraction": 100
+        },
+        {
+          "text": "18,8",
+          "fraction": 0
+        },
+        {
+          "text": "22,1",
+          "fraction": 0
+        },
+        {
+          "text": "19,6",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện đúng thứ tự các phép tính với số hữu tỉ",
+      "questiontext": "Tính giá trị biểu thức \\(A = \\left(\\frac{2}{3} + \\frac{1}{6}\\right) : \\frac{5}{4}\\):",
+      "generalfeedback": "Tính trong ngoặc: \\(\\frac{2}{3} + \\frac{1}{6} = \\frac{4}{6} + \\frac{1}{6} = \\frac{5}{6}\\). Thực hiện phép chia: \\(\\frac{5}{6} : \\frac{5}{4} = \\frac{5}{6} \\cdot \\frac{4}{5} = \\frac{2}{3}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{2}{3}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{25}{24}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{5}{6}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{3}{2}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện đúng thứ tự các phép tính với số hữu tỉ",
+      "questiontext": "Tính giá trị của biểu thức \\([5 + 2 \\cdot (9 - 2^3)] : 7\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Tính lũy thừa trước: \\(2^3 = 8\\). Trong ngoặc tròn: \\(9 - 8 = 1\\). Trong ngoặc vuông: \\(5 + 2 \\cdot 1 = 7\\). Thực hiện phép chia: \\(7 : 7 = 1\\).",
+      "answers": [
+        {
+          "text": "1",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện đúng thứ tự các phép tính với số hữu tỉ",
+      "questiontext": "Kết quả của phép tính \\(\\left(\\frac{1}{4} + \\frac{3}{8}\\right) : \\frac{5}{2}\\) viết dưới dạng phân số tối giản là a/b. Tính a + b.",
+      "generalfeedback": "Trong ngoặc: \\(\\frac{1}{4} + \\frac{3}{8} = \\frac{5}{8}\\). Chia: \\(\\frac{5}{8} : \\frac{5}{2} = \\frac{5}{8} \\cdot \\frac{2}{5} = \\frac{1}{4}\\). Phân số tối giản là 1/4 nên a = 1, b = 4. Vậy a + b = 5.",
+      "answers": [
+        {
+          "text": "5",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Thứ tự ưu tiên các phép tính trong biểu thức chứa ngoặc và không chứa ngoặc",
+      "questiontext": "Với biểu thức chỉ chứa phép nhân và phép chia, ta thực hiện phép tính từ [[1]] sang [[2]].",
+      "generalfeedback": "Thứ tự thực hiện phép tính: từ trái sang phải.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "trái"
+        },
+        {
+          "group": 1,
+          "text": "phải"
+        },
+        {
+          "group": 1,
+          "text": "trên"
+        },
+        {
+          "group": 1,
+          "text": "dưới"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Thứ tự ưu tiên các phép tính trong biểu thức chứa ngoặc và không chứa ngoặc",
+      "questiontext": "Trong một biểu thức có cả các phép tính nâng lên lũy thừa, nhân, chia, cộng, trừ; phép tính [[1]] được thực hiện đầu tiên, sau đó đến [[2]], cuối cùng là [[3]].",
+      "generalfeedback": "Thứ tự đúng: nâng lên lũy thừa -> nhân và chia -> cộng và trừ.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "nâng lên lũy thừa"
+        },
+        {
+          "group": 1,
+          "text": "nhân và chia"
+        },
+        {
+          "group": 1,
+          "text": "cộng và trừ"
+        },
+        {
+          "group": 1,
+          "text": "ngoặc vuông"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_016",
+      "questiontext": "Biểu thức \\(2,5 + 1,5 \\cdot 4\\) có giá trị bằng 16. Phát biểu trên đúng hay sai?",
+      "generalfeedback": "Sai. Nhân trước cộng sau: \\(1,5 \\cdot 4 = 6\\), sau đó \\(2,5 + 6 = 8,5\\), không phải 16.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện đúng thứ tự các phép tính với số hữu tỉ",
+      "questiontext": "Hãy ghép mỗi loại biểu thức ở cột bên trái với thứ tự thực hiện phép tính tương ứng ở cột bên phải:",
+      "generalfeedback": "Thực hiện phép tính theo đúng thứ tự ưu tiên.",
+      "subquestions": [
+        {
+          "question": "\\(2^3 + 3 \\cdot 4\\)",
+          "answer": "20"
+        },
+        {
+          "question": "\\((2^3 + 3) \\cdot 4\\)",
+          "answer": "44"
+        },
+        {
+          "question": "\\(2^3 \\cdot (3 + 4)\\)",
+          "answer": "56"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện đúng thứ tự các phép tính với số hữu tỉ",
+      "questiontext": "Tính giá trị của biểu thức B = ({a} + {b}) . 3 với {a} và {b} là các số tự nhiên.",
+      "generalfeedback": "Thực hiện phép cộng trong ngoặc trước: {a} + {b}, sau đó nhân với 3.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "({a}+{b})*3",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện đúng thứ tự các phép tính với số hữu tỉ",
+      "questiontext": "Giá trị của biểu thức \\(\\frac{5}{9} : \\left(\\frac{1}{11} - \\frac{5}{22}\\right)\\) là:",
+      "generalfeedback": "Thực hiện trong ngoặc: \\(\\frac{1}{11} - \\frac{5}{22} = \\frac{2}{22} - \\frac{5}{22} = -\\frac{3}{22}\\). Chia: \\(\\frac{5}{9} : \\left(-\\frac{3}{22}\\right) = \\frac{5}{9} \\cdot \\left(-\\frac{22}{3}\\right) = -\\frac{110}{27}\\).",
+      "answers": [
+        {
+          "text": "-\\(\\frac{110}{27}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{110}{27}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "-\\(\\frac{55}{27}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{55}{27}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Trong giờ ôn tập Toán, khi gặp một bài toán phức tạp chứa nhiều dấu ngoặc và phép tính với số hữu tỉ, bạn An cảm thấy nản lòng và muốn bỏ qua để làm bài khác dễ hơn. Để thể hiện phẩm chất chăm chỉ và kiên trì trong học tập, bạn An nên thực hiện hành động nào?",
+      "generalfeedback": "Phẩm chất chăm chỉ đòi hỏi học sinh kiên trì vượt khó, xem xét lại thứ tự thực hiện phép tính và giải từng bước thay vì bỏ cuộc hay chép bài.",
+      "answers": [
+        {
+          "text": "Kiên nhẫn xem xét lại thứ tự ưu tiên các phép tính (trong ngoặc trước, ngoài ngoặc sau; lũy thừa -> nhân chia -> cộng trừ) và thực hiện từng bước một cách cẩn thận.",
+          "fraction": 100
+        },
+        {
+          "text": "Chép ngay đáp án của bạn bên cạnh để tiết kiệm thời gian và hoàn thành bài tập nhanh chóng.",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua câu toán phức tạp đó và chỉ làm các câu tính toán đơn giản.",
+          "fraction": 0
+        },
+        {
+          "text": "Nhờ bạn khác làm hộ toàn bộ bài toán rồi ghi kết quả vào vở.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Khi làm bài kiểm tra 1 tiết về Thứ tự thực hiện các phép tính, Nam phát hiện ra mình đã tính sai kết quả ở bước bỏ dấu ngoặc nhưng thầy giáo chưa phát hiện ra và vẫn chấm điểm tối đa. Để thể hiện phẩm chất trung thực, Nam nên ứng xử như thế nào?",
+      "generalfeedback": "Trung thực thể hiện ở việc dũng cảm nhận lỗi sai trong tính toán và báo cho thầy giáo sửa đúng thực chất điểm số.",
+      "answers": [
+        {
+          "text": "Chủ động báo với thầy giáo về sai sót trong bước bỏ dấu ngoặc của mình để thầy sửa lại điểm cho đúng thực chất.",
+          "fraction": 100
+        },
+        {
+          "text": "Giữ yên lặng vì điểm số đã được ghi vào sổ điểm và thầy giáo không hỏi lại.",
+          "fraction": 0
+        },
+        {
+          "text": "Tẩy xóa chỗ làm sai trong bài kiểm tra rồi sửa lại cho đúng với đáp án của thầy.",
+          "fraction": 0
+        },
+        {
+          "text": "Nói với các bạn trong lớp là mình làm đúng hết để giữ uy tín.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Khi tự học bài 'Thứ tự thực hiện các phép tính', bạn Bình muốn lập sơ đồ tư duy để ghi nhớ thứ tự ưu tiên các phép tính đối với biểu thức không có dấu ngoặc. Cấu trúc thứ tự ưu tiên nào sau đây là chính xác và khoa học nhất?",
+      "generalfeedback": "Năng lực tự chủ và tự học giúp học sinh hệ thống hóa kiến thức bài học theo sơ đồ: Lũy thừa -> Nhân và chia -> Cộng và trừ.",
+      "answers": [
+        {
+          "text": "Lũy thừa \\(\\rightarrow\\) Nhân và chia \\(\\rightarrow\\) Cộng và trừ",
+          "fraction": 100
+        },
+        {
+          "text": "Cộng và trừ \\(\\rightarrow\\) Nhân và chia \\(\\rightarrow\\) Lũy thừa",
+          "fraction": 0
+        },
+        {
+          "text": "Nhân và chia \\(\\rightarrow\\) Lũy thừa \\(\\rightarrow\\) Cộng và trừ",
+          "fraction": 0
+        },
+        {
+          "text": "Cộng và trừ \\(\\rightarrow\\) Lũy thừa \\(\\rightarrow\\) Nhân và chia",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_GIAOTIEP",
+      "questiontext": "Trong thảo luận nhóm về cách tính giá trị biểu thức \\(A = 1,2 - 3^2 + 7,5 : 3\\), bạn Mai cho rằng cần thực hiện phép trừ \\(1,2 - 3^2\\) trước, còn bạn Lan cho rằng phải tính lũy thừa \\(3^2\\) và phép chia \\(7,5 : 3\\) trước. Để hợp tác hiệu quả và giải thích cho bạn Mai hiểu, nhóm nên đưa ra lập luận nào?",
+      "generalfeedback": "Giao tiếp toán học đòi hỏi giải thích dựa trên quy tắc: phép nâng lên lũy thừa và phép chia có độ ưu tiên cao hơn phép trừ.",
+      "answers": [
+        {
+          "text": "Theo quy tắc thứ tự phép tính không có ngoặc, phép nâng lên lũy thừa và phép chia có độ ưu tiên cao hơn phép trừ, nên cần tính \\(3^2 = 9\\) và \\(7,5 : 3 = 2,5\\) trước.",
+          "fraction": 100
+        },
+        {
+          "text": "Phải làm từ trái sang phải trong mọi trường hợp, nên ý kiến của bạn Mai là đúng.",
+          "fraction": 0
+        },
+        {
+          "text": "Thực hiện phép trừ trước phép chia vì phép trừ đứng ở đầu biểu thức.",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua tranh luận và chọn ngẫu nhiên một trong hai cách tính.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Một học sinh thực hiện tính giá trị biểu thức \\(M = 10 + 36 : 2 \\cdot 3\\) như sau:\nBước 1: \\(36 : 2 \\cdot 3 = 36 : 6 = 6\\)\nBước 2: \\(M = 10 + 6 = 16\\)\nEm hãy phân tích lời giải trên và chỉ ra sai lầm trong lập luận của học sinh đó.",
+      "generalfeedback": "Phân tích tư duy toán học: Với biểu thức chỉ chứa phép nhân và chia, phải thực hiện lần lượt từ trái sang phải: \\(36 : 2 = 18\\), sau đó \\(18 \\cdot 3 = 54\\). Lời giải trên đã sai khi thực hiện phép nhân trước phép chia.",
+      "answers": [
+        {
+          "text": "Học sinh sai ở Bước 1 vì đối với biểu thức chỉ có phép nhân và chia, phải thực hiện từ trái sang phải (tính \\(36 : 2 = 18\\) rồi lấy \\(18 \\cdot 3 = 54\\)).",
+          "fraction": 100
+        },
+        {
+          "text": "Học sinh sai ở Bước 2 vì chưa thực hiện phép cộng trước phép nhân.",
+          "fraction": 0
+        },
+        {
+          "text": "Lời giải của học sinh hoàn toàn đúng, không có lỗi sai.",
+          "fraction": 0
+        },
+        {
+          "text": "Học sinh sai ở Bước 1 vì phải tính \\(10 + 36\\) trước.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "questiontext": "[img:_page_0_Picture_9.jpeg] Biết chiếc cân đĩa ở Hình 1.13 đang ở trạng thái cân bằng. Đĩa cân bên trái gồm quả sầu riêng nặng \\(5,1\\text{ kg}\\) và quả bưởi nặng \\(x\\text{ kg}\\). Đĩa cân bên phải là quả mít nặng \\(7\\text{ kg}\\). Mô hình hóa tình huống trên thành đẳng thức toán học và tìm khối lượng \\(x\\) của quả bưởi.",
+      "generalfeedback": "Mô hình hóa toán học: Đĩa trái bằng đĩa phải nên \\(5,1 + x = 7\\). Áp dụng quy tắc chuyển vế: \\(x = 7 - 5,1 = 1,9\\text{ kg}\\).",
+      "answers": [
+        {
+          "text": "Đẳng thức \\(5,1 + x = 7\\), suy ra \\(x = 7 - 5,1 = 1,9\\text{ kg}\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Đẳng thức \\(5,1 - x = 7\\), suy ra \\(x = 5,1 + 7 = 12,1\\text{ kg}\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Đẳng thức \\(x - 5,1 = 7\\), suy ra \\(x = 7 + 5,1 = 12,1\\text{ kg}\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Đẳng thức \\(5,1 \\cdot x = 7\\), suy ra \\(x = 7 : 5,1 \\approx 1,37\\text{ kg}\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "questiontext": "Vào dịp tết Nguyên đán, bà của An gói bánh chưng. Mỗi cái bánh chưng sau khi gói nặng khoảng \\(0,8\\text{ kg}\\) gồm \\(0,5\\text{ kg}\\) gạo nếp, \\(0,125\\text{ kg}\\) đậu xanh, \\(0,04\\text{ kg}\\) lá dong, còn lại là thịt. Hãy lập biểu thức toán học và tính khối lượng thịt trong mỗi cái bánh chưng.",
+      "generalfeedback": "Giải quyết vấn đề toán học thực tế: Khối lượng thịt = Tổng khối lượng - (gạo nếp + đậu xanh + lá dong) = \\(0,8 - (0,5 + 0,125 + 0,04) = 0,135\\text{ kg}\\).",
+      "answers": [
+        {
+          "text": "\\(0,8 - (0,5 + 0,125 + 0,04) = 0,135\\text{ kg}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(0,8 + 0,5 + 0,125 + 0,04 = 1,465\\text{ kg}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(0,8 - 0,5 + 0,125 - 0,04 = 0,385\\text{ kg}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(0,5 + 0,125 + 0,04 = 0,665\\text{ kg}\\)",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

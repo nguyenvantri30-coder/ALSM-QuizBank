@@ -1,0 +1,659 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 26,
+    "metadata_used": {
+      "Mô hình tam giác vuông xác định khoảng cách khi có vật cản": 7,
+      "Đo chiều dài khoảng cách mốc và góc nhìn bằng giác kế": 6,
+      "Áp dụng TSLG tính khoảng cách giữa hai điểm không đo trực tiếp được": 10,
+      "YCCD_TOAN9_136": 7,
+      "SUB_CHAMCHI_HAMHOC_C2_03": 1,
+      "SUB_TRACHNHIEM_NTRUONGXH_C2_02": 1,
+      "SUB_GQVD_DEXUAT_C2_01": 1,
+      "SUB_GTHT_XACDINHMD_C2_04": 1,
+      "NLT_TOAN_C2_02_04": 1,
+      "NLT_TOAN_C2_05_01": 1
+    },
+    "types_used": {
+      "multichoice": 8,
+      "truefalse": 2,
+      "gapselect": 3,
+      "ddwtos": 2,
+      "numerical": 2,
+      "matching": 4,
+      "calculatedsimple": 2,
+      "calculatedmulti": 2,
+      "shortanswer": 1
+    },
+    "total": 26
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "Mô hình tam giác vuông xác định khoảng cách khi có vật cản",
+        "reason": "Mô hình tam giác vuông xác định khoảng cách khi có vật cản được thể hiện qua sơ đồ tam giác vuông ABC tại A trong SGK."
+      },
+      {
+        "metadata_code": "Đo chiều dài khoảng cách mốc và góc nhìn bằng giác kế",
+        "reason": "Kỹ năng đo chiều dài khoảng cách mốc và góc nhìn bằng giác kế được trình bày trong Bước 1 của Nhiệm vụ 2."
+      },
+      {
+        "metadata_code": "Áp dụng TSLG tính khoảng cách giữa hai điểm không đo trực tiếp được",
+        "reason": "Kỹ năng áp dụng tỉ số lượng giác (tan) tính khoảng cách giữa hai điểm được trình bày trong Bước 2 của Nhiệm vụ 2."
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_136",
+        "reason": "Yêu cầu cần đạt về vận dụng tỉ số lượng giác trong thực tiễn để đo khoảng cách giữa hai vị trí có vật cản."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "1.1TC2a_K9",
+        "reason": "Nội dung bài học SGK 'Tính chiều cao và xác định khoảng cách' (Tiết 2) tập trung vào hoạt động thực địa sử dụng dụng cụ đo truyền thống (giác kế, thước cuộn), không chứa nội dung tìm kiếm dữ liệu hay tổ chức thông tin trong môi trường số."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Mô hình tam giác vuông xác định khoảng cách khi có vật cản",
+      "questiontext": "Trong phương pháp xác định khoảng cách giữa hai điểm \\(A\\) và \\(B\\) có vật cản (Nhiệm vụ 2 trong SGK), mô hình hình học được thiết lập là tam giác nào?",
+      "generalfeedback": "Theo SGK Nhiệm vụ 2, để xác định khoảng cách giữa hai điểm \\(A\\) và \\(B\\), ta kẻ tia \\(Ax \\perp AB\\) và lấy điểm \\(C\\) trên \\(Ax\\), tạo thành tam giác \\(ABC\\) vuông tại \\(A\\).",
+      "answers": [
+        {
+          "text": "Tam giác \\(ABC\\) vuông tại \\(A\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Tam giác \\(ABC\\) vuông tại \\(B\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Tam giác \\(ABC\\) cân tại \\(A\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Tam giác \\(ABC\\) đều",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Đo chiều dài khoảng cách mốc và góc nhìn bằng giác kế",
+      "questiontext": "Để đọc số đo góc \\(\\alpha = \\widehat{ACB}\\) trong quy trình đo khoảng cách giữa hai điểm \\(A\\) và \\(B\\), người ta đặt giác kế tại vị trí điểm \\(C\\) và quay ống ngắm hướng tới điểm \\(B\\).",
+      "generalfeedback": "Đúng. Theo Bước 1 của Nhiệm vụ 2 trong SGK, tại vị trí điểm \\(C\\), ta sử dụng giác kế ngắm tới điểm \\(B\\) để đọc số đo góc \\(\\alpha\\) của góc \\(ACB\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Áp dụng TSLG tính khoảng cách giữa hai điểm không đo trực tiếp được",
+      "questiontext": "Trong tam giác \\(ABC\\) vuông tại \\(A\\) với \\(AC = a\\) và \\(\\widehat{ACB} = \\alpha\\), công thức nào sau đây dùng để tính khoảng cách \\(AB\\) giữa hai điểm?",
+      "generalfeedback": "Theo hệ thức giữa cạnh và góc trong tam giác vuông \\(ABC\\) vuông tại \\(A\\), ta có \\(AB = AC \\cdot \\tan \\alpha = a \\tan \\alpha\\).",
+      "answers": [
+        {
+          "text": "\\(AB = a \\cdot \\tan \\alpha\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(AB = a \\cdot \\sin \\alpha\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(AB = a \\cdot \\cos \\alpha\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(AB = \\frac{a}{\\tan \\alpha}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Mô hình tam giác vuông xác định khoảng cách khi có vật cản",
+      "questiontext": "Để xác định khoảng cách giữa hai điểm \\(A\\) và \\(B\\) có vật cản, từ điểm \\(A\\) kẻ tia \\(Ax\\) [[1]] với \\(AB\\). Trên tia \\(Ax\\) lấy điểm \\(C\\) sao cho \\(AC = a\\) mét. Tại \\(C\\) dùng giác kế ngắm tới điểm \\(B\\) để đọc số đo góc [[3]] của góc \\(ACB\\).",
+      "generalfeedback": "Theo Bước 1 của Nhiệm vụ 2, tia \\(Ax\\) được kẻ vuông góc với \\(AB\\) và tại \\(C\\) đọc số đo góc \\(\\alpha\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "vuông góc"
+        },
+        {
+          "group": 1,
+          "text": "song song"
+        },
+        {
+          "group": 1,
+          "text": "alpha"
+        },
+        {
+          "group": 1,
+          "text": "beta"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Đo chiều dài khoảng cách mốc và góc nhìn bằng giác kế",
+      "imgs": [
+        "_page_1_Picture_11.jpeg"
+      ],
+      "questiontext": "Quan sát sơ đồ đo khoảng cách trong hình dưới đây:\n[img:_page_1_Picture_11.jpeg]\nTrong sơ đồ này, đoạn thẳng [[1]] biểu diễn khoảng cách giữa hai điểm không đo trực tiếp được, còn đoạn thẳng [[2]] biểu diễn khoảng cách mốc được đo trực tiếp bằng thước cuộn.",
+      "generalfeedback": "Trong sơ đồ Nhiệm vụ 2 (SGK trang 117), đoạn \\(AB\\) là khoảng cách không đo trực tiếp được (qua sông/vật cản), còn đoạn \\(AC\\) là khoảng cách mốc được kẻ vuông góc và đo trực tiếp.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "AB"
+        },
+        {
+          "group": 1,
+          "text": "AC"
+        },
+        {
+          "group": 1,
+          "text": "BC"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Áp dụng TSLG tính khoảng cách giữa hai điểm không đo trực tiếp được",
+      "questiontext": "Để đo khoảng cách giữa hai điểm \\(A\\) và \\(B\\) ở hai bờ sông, người ta kẻ tia \\(Ax \\perp AB\\) và lấy điểm \\(C\\) trên \\(Ax\\) sao cho \\(AC = 20\\text{ m}\\). Dùng giác kế tại \\(C\\) đo được \\(\\widehat{ACB} = 60^\\circ\\). Tính khoảng cách \\(AB\\) theo mét (làm tròn đến hàng phần mười). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Ta có \\(AB = AC \\cdot \\tan 60^\\circ = 20 \\cdot \\sqrt{3} \\approx 20 \\cdot 1.73205 = 34.641 \\approx 34.6\\text{ m}\\).",
+      "answers": [
+        {
+          "text": "34.6",
+          "fraction": 100,
+          "tolerance": 0.1
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Mô hình tam giác vuông xác định khoảng cách khi có vật cản",
+      "questiontext": "Ghép mỗi bước thực hiện trong Nhiệm vụ 2 (Xác định khoảng cách) với nội dung công việc tương ứng:",
+      "generalfeedback": "Nhiệm vụ 2 gồm Bước 1 (đo đạc thực địa), Bước 2 (tính toán bằng hệ thức lượng) và Báo cáo kết quả.",
+      "subquestions": [
+        {
+          "question": "Bước 1 (Đo đạc thực địa)",
+          "answer": "Kẻ Ax vuông góc AB, chọn C trên Ax với AC = a, đo góc ACB = alpha"
+        },
+        {
+          "question": "Bước 2 (Tính toán)",
+          "answer": "Tính AB = a * tan(alpha) bằng hệ thức lượng và máy tính cầm tay"
+        },
+        {
+          "question": "Báo cáo kết quả",
+          "answer": "Trình bày trước lớp và tổ chức đánh giá nhiệm vụ"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Áp dụng TSLG tính khoảng cách giữa hai điểm không đo trực tiếp được",
+      "questiontext": "Để tính khoảng cách giữa hai điểm \\(A\\) và \\(B\\) có vật cản, học sinh đo đoạn mốc \\(AC = {a}\\text{ m}\\) (với \\(Ax \\perp AB\\)) và dùng giác kế đo góc \\(\\angle ACB = 45^\\circ\\). Khoảng cách \\(AB\\) (mét) được tính theo công thức nào?",
+      "generalfeedback": "Vì \\(\\tan 45^\\circ = 1\\) nên \\(AB = {a} \\cdot \\tan 45^\\circ = {a}\\text{ m}\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 10.0,
+          "max": 50.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*1",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_136",
+      "imgs": [
+        "_page_1_Picture_11.jpeg"
+      ],
+      "questiontext": "Một nhóm học sinh áp dụng quy trình trong SGK để đo khoảng cách giữa hai vị trí \\(A\\) và \\(B\\) bên hai bờ sông như hình vẽ:\n[img:_page_1_Picture_11.jpeg]\nCác bạn đo được khoảng cách mốc \\(AC = 15\\text{ m}\\) và góc \\(\\widehat{ACB} = 50^\\circ\\). Công thức nào sau đây cho kết quả chính xác độ dài khoảng cách \\(AB\\)?",
+      "generalfeedback": "Trong tam giác \\(ABC\\) vuông tại \\(A\\), cạnh đối \\(AB = AC \\cdot \\tan \\widehat{ACB} = 15 \\cdot \\tan 50^\\circ\\).",
+      "answers": [
+        {
+          "text": "\\(AB = 15 \\cdot \\tan 50^\\circ\\text{ (m)}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(AB = 15 \\cdot \\sin 50^\\circ\\text{ (m)}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(AB = 15 \\cdot \\cos 50^\\circ\\text{ (m)}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(AB = \\frac{15}{\\tan 50^\\circ}\\text{ (m)}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "Áp dụng TSLG tính khoảng cách giữa hai điểm không đo trực tiếp được",
+      "questiontext": "Trong phương pháp đo khoảng cách giữa hai điểm \\(A, B\\) có vật cản, nếu đoạn mốc \\(AC = {a}\\text{ m}\\) và chọn góc \\(\\angle ACB = 30^\\circ\\), công thức toán học nào xác định đúng khoảng cách \\(AB\\)?",
+      "generalfeedback": "Ta có \\(AB = AC \\cdot \\tan 30^\\circ = {a} \\cdot \\frac{1}{\\sqrt{3}} = \\frac{{a}}{\\sqrt{3}}\\). Trong Moodle, biểu thức tính toán là {a}/sqrt(3).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 12.0,
+          "max": 60.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}/sqrt(3)",
+          "fraction": 100
+        },
+        {
+          "text": "{a}*sqrt(3)",
+          "fraction": 0
+        },
+        {
+          "text": "{a}/2",
+          "fraction": 0
+        },
+        {
+          "text": "{a}*2",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Mô hình tam giác vuông xác định khoảng cách khi có vật cản",
+      "questiontext": "Để xác định khoảng cách giữa hai điểm \\(A\\) và \\(B\\) có vật cản bằng tỉ số lượng giác (Nhiệm vụ 2 trong SGK), dụng cụ nào sau đây BẮT BUỘC phải dùng để đo góc \\(\\widehat{ACB}\\)?",
+      "generalfeedback": "Theo SGK trang 117, tại vị trí điểm \\(C\\), ta sử dụng giác kế ngắm tới điểm \\(B\\) để đọc số đo góc \\(\\alpha\\) của góc \\(ACB\\).",
+      "answers": [
+        {
+          "text": "Giác kế",
+          "fraction": 100
+        },
+        {
+          "text": "Thước cuộn",
+          "fraction": 0
+        },
+        {
+          "text": "Máy tính bỏ túi",
+          "fraction": 0
+        },
+        {
+          "text": "Êke góc vuông",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Đo chiều dài khoảng cách mốc và góc nhìn bằng giác kế",
+      "questiontext": "Trong quy trình đo khoảng cách giữa hai vị trí \\(A\\) và \\(B\\) (Nhiệm vụ 2 trong SGK), đoạn thẳng \\(AC = a\\) mét được kẻ vuông góc với \\(AB\\) có thể đo trực tiếp bằng thước cuộn.",
+      "generalfeedback": "Đúng. Trên tia \\(Ax \\perp AB\\), ta lấy điểm \\(C\\) sao cho \\(AC = a\\) mét, đây là khoảng cách mốc đo trực tiếp được bằng thước cuộn.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Đo chiều dài khoảng cách mốc và góc nhìn bằng giác kế",
+      "questiontext": "Trong Nhiệm vụ 2 (Xác định khoảng cách), dụng cụ nào được liệt kê trong phần chuẩn bị dùng để đo trực tiếp độ dài đoạn mốc \\(AC = a\\) mét?",
+      "generalfeedback": "Theo phần Chuẩn bị và Bước 1 của Nhiệm vụ 2 trong SGK, thước cuộn dùng để đo độ dài đoạn \\(AC = a\\) mét.",
+      "answers": [
+        {
+          "text": "thước cuộn",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Áp dụng TSLG tính khoảng cách giữa hai điểm không đo trực tiếp được",
+      "questiontext": "Để tính độ dài cạnh \\(AB\\) trong tam giác \\(ABC\\) vuông tại \\(A\\), biết độ dài cạnh kề \\(AC = a\\) mét và góc nhọn \\(\\widehat{ACB} = \\alpha\\), ta dùng tỉ số lượng giác [[1]] của góc \\(\\alpha\\) nhân với [[3]].",
+      "generalfeedback": "Theo hệ thức giữa cạnh và góc trong tam giác vuông \\(ABC\\), cạnh đối \\(AB = AC \\cdot \\tan \\alpha\\). do đó ta dùng tỉ số tang nhân với cạnh AC.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "tang"
+        },
+        {
+          "group": 1,
+          "text": "sin"
+        },
+        {
+          "group": 1,
+          "text": "cạnh AC"
+        },
+        {
+          "group": 1,
+          "text": "cạnh BC"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Mô hình tam giác vuông xác định khoảng cách khi có vật cản",
+      "questiontext": "Nhiệm vụ 2 trong SGK yêu cầu xác định khoảng cách giữa hai điểm giả định trên sân trường, ví dụ như hai điểm bên hai [[1]] sông mà giữa chúng có [[2]].",
+      "generalfeedback": "Theo Mục tiêu Nhiệm vụ 2 (SGK trang 117): 'Xác định khoảng cách giữa hai vị trí giả định trên sân trường (như hai điểm bên hai bờ sông)... giữa hai điểm này có vật cản'.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "bờ"
+        },
+        {
+          "group": 1,
+          "text": "vật cản"
+        },
+        {
+          "group": 1,
+          "text": "đỉnh"
+        },
+        {
+          "group": 1,
+          "text": "chiều cao"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Áp dụng TSLG tính khoảng cách giữa hai điểm không đo trực tiếp được",
+      "questiontext": "Để xác định khoảng cách giữa hai điểm \\(A\\) và \\(B\\) không đo trực tiếp được, một nhóm học sinh kẻ \\(Ax \\perp AB\\), trên \\(Ax\\) lấy điểm \\(C\\) sao cho \\(AC = 30\\text{ m}\\). Sử dụng giác kế đo được \\(\\widehat{ACB} = 40^\\circ\\). Tính khoảng cách \\(AB\\) theo mét (làm tròn đến hàng phần mười). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Ta có \\(AB = AC \\cdot \\tan 40^\\circ = 30 \\cdot \\tan 40^\\circ \\approx 30 \\cdot 0.8391 = 25.173 \\approx 25.2\\text{ m}\\).",
+      "answers": [
+        {
+          "text": "25.2",
+          "fraction": 100,
+          "tolerance": 0.1
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_136",
+      "questiontext": "Nối mỗi giả thiết trong bài toán đo khoảng cách hai bờ sông (mô hình tam giác \\(ABC\\) vuông tại \\(A\\)) với kết quả khoảng cách \\(AB\\) tương ứng:",
+      "generalfeedback": "Áp dụng công thức \\(AB = AC \\cdot \\tan \\alpha\\): với \\(\\alpha = 45^\\circ\\) thì \\(\\tan 45^\\circ = 1\\); với \\(\\alpha = 30^\\circ\\) thì \\(\\tan 30^\\circ = 1/\\sqrt{3}\\); với \\(\\alpha = 60^\\circ\\) thì \\(\\tan 60^\\circ = \\sqrt{3}\\).",
+      "subquestions": [
+        {
+          "question": "AC = 10 m, góc ACB = 45 độ",
+          "answer": "10 m"
+        },
+        {
+          "question": "AC = 10 m, góc ACB = 30 độ",
+          "answer": "10/sqrt(3) m"
+        },
+        {
+          "question": "AC = 10 m, góc ACB = 60 độ",
+          "answer": "10*sqrt(3) m"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Áp dụng TSLG tính khoảng cách giữa hai điểm không đo trực tiếp được",
+      "questiontext": "Cho tam giác \\(ABC\\) vuông tại \\(A\\) mô tả sơ đồ đo khoảng cách giữa hai điểm \\(A, B\\). Biết cạnh AC = {a} m và góc \\(\\angle ACB = 60^\\circ\\). Công thức tính độ dài \\(AB\\) (mét) là:",
+      "generalfeedback": "Ta có \\(AB = AC \\cdot \\tan 60^\\circ = {a} \\cdot \\sqrt{3}\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 5.0,
+          "max": 40.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*sqrt(3)",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_136",
+      "questiontext": "Một nhóm học sinh đo khoảng cách giữa hai điểm \\(A\\) và \\(B\\) bị ngăn cách bởi một hồ nước. Biết đoạn mốc AC = {a} m (với \\(Ax \\perp AB\\)) và góc ngắm \\(\\angle ACB = 45^\\circ\\). Phương án nào biểu diễn đúng công thức tính khoảng cách \\(AB\\)?",
+      "generalfeedback": "Vì \\(\\tan 45^\\circ = 1\\) nên \\(AB = {a} \\cdot 1 = {a}\\text{ m}\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 10.0,
+          "max": 100.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*1",
+          "fraction": 100
+        },
+        {
+          "text": "{a}*2",
+          "fraction": 0
+        },
+        {
+          "text": "{a}/2",
+          "fraction": 0
+        },
+        {
+          "text": "{a}+1",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_136",
+      "imgs": [
+        "_page_1_Picture_11.jpeg"
+      ],
+      "questiontext": "Quan sát sơ đồ đo khoảng cách giữa hai vị trí \\(A\\) và \\(B\\) có vật cản:\n[img:_page_1_Picture_11.jpeg]\nNếu góc đo \\(\\alpha = \\widehat{ACB}\\) tăng lên trong khi độ dài đoạn mốc \\(AC\\) giữ không đổi, thì khoảng cách \\(AB\\) thay đổi như thế nào?",
+      "generalfeedback": "Theo công thức \\(AB = AC \\cdot \\tan \\alpha\\), vì hàm số \\(y = \\tan \\alpha\\) đồng biến trên khoảng \\((0^\\circ; 90^\\circ)\\) nên khi \\(\\alpha\\) tăng thì \\(\\tan \\alpha\\) tăng, dẫn đến \\(AB\\) tăng lên.",
+      "answers": [
+        {
+          "text": "Tăng lên vì \\(\\tan \\alpha\\) tăng khi \\(\\alpha\\) tăng (với \\(0^\\circ < \\alpha < 90^\\circ\\))",
+          "fraction": 100
+        },
+        {
+          "text": "Giảm đi vì \\(\\tan \\alpha\\) giảm khi \\(\\alpha\\) tăng",
+          "fraction": 0
+        },
+        {
+          "text": "Không thay đổi vì \\(AC\\) giữ nguyên",
+          "fraction": 0
+        },
+        {
+          "text": "Giảm đi một nửa",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_03",
+      "questiontext": "Bạn An muốn xác định chiều rộng của một con kênh gần nhà mà không thể bơi qua để đo trực tiếp. Sau khi học bài 'Tính chiều cao và xác định khoảng cách' ở trường, An đã dùng cọc gỗ đánh dấu đường vuông góc \\(Ax \\perp AB\\), dùng thước cuộn đo đoạn mốc \\(AC\\) trên bờ và dùng giác kế tự làm để đo góc \\(\\widehat{ACB}\\), rồi áp dụng công thức \\(AB = AC \\cdot \\tan \\widehat{ACB}\\). Hành vi của An thể hiện phẩm chất nào sau đây?",
+      "generalfeedback": "Hành động của An thể hiện ý thức chủ động vận dụng kiến thức, kỹ năng toán học đã học ở nhà trường vào giải quyết một tình huống thực tiễn trong đời sống hằng ngày một cách an toàn và khoa học.",
+      "answers": [
+        {
+          "text": "Có ý thức chủ động vận dụng kiến thức, kỹ năng học được ở nhà trường vào đời sống hằng ngày",
+          "fraction": 100
+        },
+        {
+          "text": "Tích cực tham gia các hoạt động thể dục thể thao ở cộng đồng",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ làm bài tập khi có sự yêu cầu và giám sát của thầy cô giáo",
+          "fraction": 0
+        },
+        {
+          "text": "Sử dụng công cụ số để tìm kiếm thông tin giải trí trên mạng xã hội",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_TRACHNHIEM_NTRUONGXH_C2_02",
+      "questiontext": "Trong tiết học trải nghiệm ngoài trời 'Xác định khoảng cách' (Nhiệm vụ 2 trong SGK), lớp 9A được chia thành 4 nhóm. Khi nhóm 1 thực hiện đo khoảng cách giữa hai điểm giả định trên sân trường, bạn Bình được phân công cầm thước cuộn đo đoạn mốc \\(AC\\). Bình không những hoàn thành tốt phần việc của mình mà còn chủ động hỗ trợ bạn ghi chép số đo góc và giúp nhóm tổng hợp báo cáo. Việc làm của Bình thể hiện phẩm chất gì?",
+      "generalfeedback": "Hành vi của Bình thể hiện sự tích cực, trách nhiệm và tinh thần hợp tác khi tham gia các hoạt động tập thể của lớp học.",
+      "answers": [
+        {
+          "text": "Tích cực, có trách nhiệm và tinh thần hợp tác trong hoạt động tập thể",
+          "fraction": 100
+        },
+        {
+          "text": "Thích làm việc độc lập và không muốn phụ thuộc vào nhóm",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ chú trọng đến kết quả cá nhân mà bỏ qua công việc chung",
+          "fraction": 0
+        },
+        {
+          "text": "Ý thức tự bảo vệ môi trường trong sinh hoạt hằng ngày",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_01",
+      "questiontext": "Để thực hiện dự án đo khoảng cách giữa hai vị trí \\(A\\) và \\(B\\) có vật cản (Nhiệm vụ 2), nhóm học sinh cần xác định và tìm hiểu các thông tin liên quan. Hãy ghép mỗi yêu cầu thông tin với bước thu thập dữ liệu tương ứng:",
+      "generalfeedback": "Việc xác định đúng loại thông tin cần tìm hiểu và công cụ/thao tác tương ứng là biểu hiện của năng lực tự chủ và tự học (xác định và tìm hiểu thông tin liên quan đến vấn đề).",
+      "subquestions": [
+        {
+          "question": "Xác định vị trí mốc và phương vuông góc",
+          "answer": "Kẻ tia Ax vuông góc với AB từ điểm A"
+        },
+        {
+          "question": "Thu thập dữ liệu độ dài đoạn mốc AC = a",
+          "answer": "Dùng thước cuộn đo trực tiếp khoảng cách AC trên thực địa"
+        },
+        {
+          "question": "Thu thập dữ liệu số đo góc nhọn alpha",
+          "answer": "Đặt giác kế tại C, ngắm đến B và đọc số đo góc ACB"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_04",
+      "questiontext": "Khi đại diện nhóm trình trình bày kết quả dự án 'Xác định khoảng cách' trước lớp, học sinh kết hợp sơ đồ tam giác vuông \\(ABC\\), số liệu đo đạc \\(AC = 20\\text{ m}\\), \\(\\widehat{ACB} = 50^\\circ\\) và công thức toán học. Trong báo cáo, học sinh trình bày: 'Dựa trên sơ đồ tam giác \\(ABC\\) vuông tại [[1]], áp dụng công thức \\(AB = AC \\cdot \\tan \\widehat{ACB}\\), nhóm tính được khoảng cách \\(AB \\approx 20 \\cdot \\tan 50^\\circ \\approx\\) [[3]] m'.",
+      "generalfeedback": "Báo cáo thể hiện việc kết hợp ngôn ngữ nói/viết với sơ đồ hình học, số liệu đo thực địa và công thức toán học để trình bày thông tin một cách rõ ràng, thuyết phục.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "A"
+        },
+        {
+          "group": 1,
+          "text": "B"
+        },
+        {
+          "group": 1,
+          "text": "23.8"
+        },
+        {
+          "group": 1,
+          "text": "15.3"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_02_04",
+      "imgs": [
+        "_page_1_Picture_11.jpeg"
+      ],
+      "questiontext": "Quan sát mô hình toán học giải quyết tình huống thực tiễn trong hình vẽ dưới đây:\n[img:_page_1_Picture_11.jpeg]\nNêu cách chuyển đổi các yếu tố thực tế (khoảng cách giữa hai điểm \\(A, B\\) có vật cản) sang các yếu tố trong mô hình tam giác vuông \\(ABC\\):",
+      "generalfeedback": "Mô hình hóa toán học giúp chuyển đổi tình huống thực tế (đo khoảng cách qua sông/vật cản) thành bài toán giải tam giác vuông ABC vuông tại A.",
+      "answers": [
+        {
+          "text": "Khoảng cách cần đo AB là cạnh góc vuông đối diện góc C; đoạn mốc AC là cạnh góc vuông kề góc C",
+          "fraction": 100
+        },
+        {
+          "text": "Khoảng cách cần đo AB là cạnh huyền; đoạn mốc AC là cạnh góc vuông",
+          "fraction": 0
+        },
+        {
+          "text": "Khoảng cách cần đo AB là đường cao; đoạn mốc AC là cạnh huyền",
+          "fraction": 0
+        },
+        {
+          "text": "Khoảng cách cần đo AB là cạnh kề góc C; đoạn mốc AC là cạnh đối góc C",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "NLT_TOAN_C2_05_01",
+      "questiontext": "Hãy ghép tên mỗi công cụ, phương tiện học toán được sử dụng trong bài trải nghiệm 'Tính chiều cao và xác định khoảng cách' với công dụng tương ứng của nó:",
+      "generalfeedback": "Nhận biết đúng tên gọi và công dụng của các phương tiện học toán là một thành tố của năng lực sử dụng công cụ, phương tiện học toán.",
+      "subquestions": [
+        {
+          "question": "Giác kế",
+          "answer": "Đo số đo góc nhìn (góc alpha) tại vị trí quan sát"
+        },
+        {
+          "question": "Thước cuộn",
+          "answer": "Đo độ dài khoảng cách mốc (đoạn AC = a mét) trên thực địa"
+        },
+        {
+          "question": "Máy tính bỏ túi (MTCT)",
+          "answer": "Tính giá trị tỉ số lượng giác tan(alpha) và thực hiện phép tính nhân"
+        }
+      ]
+    }
+  ]
+}

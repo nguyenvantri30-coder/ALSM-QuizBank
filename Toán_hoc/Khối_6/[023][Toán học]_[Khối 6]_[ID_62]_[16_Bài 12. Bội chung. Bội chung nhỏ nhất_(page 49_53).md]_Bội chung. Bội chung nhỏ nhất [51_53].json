@@ -1,0 +1,687 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 30,
+    "metadata_used": {
+      "Quy tắc tìm BCNN bằng cách phân tích ra thừa số nguyên tố": 3,
+      "Mối liên hệ giữa bội chung và BCNN": 2,
+      "YCCD_TOAN6_032": 7,
+      "Tìm BCNN bằng cách phân tích ra thừa số nguyên tố": 3,
+      "Tìm bội chung thông qua BCNN": 5,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TUHOC_C2_04": 2,
+      "SUB_GTHT_XACDINHMD_C2_03": 2,
+      "NLT_TOAN_C2_01_01": 2,
+      "NLT_TOAN_C2_04_02": 2
+    },
+    "types_used": {
+      "multichoice": 11,
+      "truefalse": 4,
+      "gapselect": 4,
+      "numerical": 4,
+      "shortanswer": 4,
+      "matching": 3
+    },
+    "total": 30
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN6_032",
+        "reason": "Xác định được bội chung nhỏ nhất của hai hoặc ba số tự nhiên."
+      },
+      {
+        "metadata_code": "Quy tắc tìm BCNN bằng cách phân tích ra thừa số nguyên tố",
+        "reason": "Quy tắc tìm BCNN bằng cách phân tích ra thừa số nguyên tố."
+      },
+      {
+        "metadata_code": "Mối liên hệ giữa bội chung và BCNN",
+        "reason": "Mối liên hệ giữa bội chung và BCNN."
+      },
+      {
+        "metadata_code": "Tìm BCNN bằng cách phân tích ra thừa số nguyên tố",
+        "reason": "Tìm BCNN bằng cách phân tích ra thừa số nguyên tố."
+      },
+      {
+        "metadata_code": "Tìm bội chung thông qua BCNN",
+        "reason": "Tìm bội chung thông qua BCNN."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Nội dung bài học về Bội chung và BCNN trong SGK Toán 6 (Tiết 2) tập trung vào quy tắc tính toán bằng tay và bài toán thực tế cơ bản, không có dữ liệu hay yêu cầu sử dụng phần mềm/công cụ số."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học là kiến thức toán học cơ bản lớp 6, không tích hợp tự nhiên với các khái niệm hoặc ứng dụng của trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc tìm BCNN bằng cách phân tích ra thừa số nguyên tố",
+      "questiontext": "Bước cuối cùng trong quy tắc tìm bội chung nhỏ nhất (BCNN) của hai hay nhiều số lớn hơn 1 bằng cách phân tích ra thừa số nguyên tố là gì?",
+      "generalfeedback": "Quy tắc tìm BCNN: Bước 1: Phân tích mỗi số ra thừa số nguyên tố; Bước 2: Chọn ra các thừa số nguyên tố chung và riêng; Bước 3: Lập tích các thừa số đã chọn, mỗi thừa số lấy với số mũ lớn nhất.",
+      "answers": [
+        {
+          "text": "Lập tích các thừa số đã chọn, mỗi thừa số lấy với số mũ lớn nhất",
+          "fraction": 100
+        },
+        {
+          "text": "Lập tích các thừa số nguyên tố chung, mỗi thừa số lấy với số mũ nhỏ nhất",
+          "fraction": 0
+        },
+        {
+          "text": "Lập tích các thừa số nguyên tố riêng, mỗi thừa số lấy với số mũ lớn nhất",
+          "fraction": 0
+        },
+        {
+          "text": "Lập tổng các thừa số nguyên tố chung và riêng, mỗi thừa số lấy với số mũ lớn nhất",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Mối liên hệ giữa bội chung và BCNN",
+      "questiontext": "Tất cả các bội chung của hai hay nhiều số đều là bội của bội chung nhỏ nhất (BCNN) của các số đó.",
+      "generalfeedback": "Đúng. Theo kiến thức trong SGK, tất cả các số là bội chung của hai hay nhiều số đều là bội của BCNN của chúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc tìm BCNN bằng cách phân tích ra thừa số nguyên tố",
+      "questiontext": "Để tìm BCNN bằng cách phân tích ra thừa số nguyên tố, ta chọn các thừa số nguyên tố [[1]] và [[2]], mỗi thừa số lấy với số mũ [[3]].",
+      "generalfeedback": "Khi tìm BCNN bằng cách phân tích ra thừa số nguyên tố, ta chọn các thừa số nguyên tố chung và riêng, với số mũ lớn nhất của mỗi thừa số.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "chung"
+        },
+        {
+          "group": 1,
+          "text": "riêng"
+        },
+        {
+          "group": 1,
+          "text": "lớn nhất"
+        },
+        {
+          "group": 1,
+          "text": "nhỏ nhất"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_032",
+      "questiontext": "Biết \\(9 = 3^2\\) và \\(15 = 3 \\cdot 5\\). BCNN của 9 và 15 là bao nhiêu?",
+      "generalfeedback": "Thừa số chung và riêng là 3 và 5. Số mũ lớn nhất của 3 là 2, của 5 là 1. Do đó \\(\\text{BCNN}(9, 15) = 3^2 \\cdot 5 = 45\\).",
+      "answers": [
+        {
+          "text": "\\(45\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(15\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(135\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(3\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm BCNN bằng cách phân tích ra thừa số nguyên tố",
+      "questiontext": "Tìm BCNN của 30 và 45 bằng cách phân tích ra thừa số nguyên tố. Giá trị BCNN(30, 45) là bao nhiêu?",
+      "generalfeedback": "Phân tích: \\(30 = 2 \\cdot 3 \\cdot 5\\), \\(45 = 3^2 \\cdot 5\\). Thừa số chung và riêng: 2, 3, 5. So mũ lớn nhất của 2 là 1, của 3 là 2, của 5 là 1. Do đó \\(\\text{BCNN}(30, 45) = 2 \\cdot 3^2 \\cdot 5 = 90\\).",
+      "answers": [
+        {
+          "text": "90",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm bội chung thông qua BCNN",
+      "questiontext": "Biết BCNN của 8 và 6 là 24. Hãy tìm số tự nhiên nhỏ nhất khác 0 vừa là bội của 8 vừa là bội của 6.",
+      "generalfeedback": "Số tự nhiên nhỏ nhất khác 0 vừa là bội của 8 vừa là bội của 6 chính là \\(\\text{BCNN}(8, 6) = 24\\).",
+      "answers": [
+        {
+          "text": "24",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm BCNN bằng cách phân tích ra thừa số nguyên tố",
+      "questiontext": "Hãy ghép cặp mỗi tích thừa số nguyên tố dưới đây với BCNN tương ứng của chúng:",
+      "generalfeedback": "Phân tích thừa số nguyên tố và chọn số mũ lớn nhất của các thừa số nguyên tố chung và riêng.",
+      "subquestions": [
+        {
+          "question": "BCNN của \\(2 \\cdot 3^3\\) và \\(3 \\cdot 5\\)",
+          "answer": "\\(2 \\cdot 3^3 \\cdot 5 = 270\\)"
+        },
+        {
+          "question": "BCNN của \\(2 \\cdot 5 \\cdot 7^2\\) và \\(3 \\cdot 5^2 \\cdot 7\\)",
+          "answer": "\\(2 \\cdot 3 \\cdot 5^2 \\cdot 7^2 = 7350\\)"
+        },
+        {
+          "question": "BCNN của \\(2^2 \\cdot 3\\) và \\(2 \\cdot 3^2\\)",
+          "answer": "\\(2^2 \\cdot 3^2 = 36\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Tìm bội chung thông qua BCNN",
+      "questiontext": "Biết \\(\\text{BCNN}(18, 24, 40) = 360\\). Tập hợp các bội chung nhỏ hơn 900 của 18, 24 và 40 là:",
+      "generalfeedback": "Bội chung của 18, 24, 40 là các bội của 360, tức là \\(\\{0; 360; 720; 1080; ...\\}\\). Các bội chung nhỏ hơn 900 là 0; 360; 720.",
+      "answers": [
+        {
+          "text": "\\(\\{0; 360; 720\\}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\{360; 720\\}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\{0; 180; 360; 720\\}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\{0; 360; 720; 1080\\}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_032",
+      "questiontext": "Học sinh lớp 6A khi xếp thành 3 hàng, 4 hàng hay 9 hàng đều vừa đủ. Biết số học sinh của lớp trong khoảng từ 30 đến 40. Lớp 6A có bao nhiêu học sinh?",
+      "generalfeedback": "Số học sinh là bội chung của 3, 4, 9. Ta có \\(\\text{BCNN}(3, 4, 9) = 36\\). Các bội của 36 là \\(0, 36, 72, ...\\). Vì số học sinh trong khoảng từ 30 đến 40 nên số học sinh lớp 6A là 36.",
+      "answers": [
+        {
+          "text": "36",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_032",
+      "questiontext": "Cứ 2 ngày, Hà đi dạo cùng bạn cún. Cứ 7 ngày, Hà lại tắm cho cún. Hôm nay, cún vừa được đi dạo, vừa được tắm. Hỏi sau ít nhất bao nhiêu ngày nữa thì cún lại vừa được đi dạo, vừa được tắm?",
+      "generalfeedback": "Số ngày ít nhất để cún lại vừa được đi dạo vừa được tắm là \\(\\text{BCNN}(2, 7) = 14\\) ngày.",
+      "answers": [
+        {
+          "text": "14",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc tìm BCNN bằng cách phân tích ra thừa số nguyên tố",
+      "questiontext": "Khi tìm BCNN của hai hay nhiều số bằng cách phân tích ra thừa số nguyên tố, với mỗi thừa số nguyên tố chung và riêng ta chọn với số mũ như thế nào?",
+      "generalfeedback": "Quy tắc tìm BCNN: Lập tích các thừa số nguyên tố chung và riêng, mỗi thừa số lấy với số mũ lớn nhất.",
+      "answers": [
+        {
+          "text": "Số mũ lớn nhất",
+          "fraction": 100
+        },
+        {
+          "text": "Số mũ nhỏ nhất",
+          "fraction": 0
+        },
+        {
+          "text": "Số mũ bằng 1",
+          "fraction": 0
+        },
+        {
+          "text": "Tổng các số mũ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Mối liên hệ giữa bội chung và BCNN",
+      "questiontext": "Để tìm bội chung của các số đã cho, ta có thể tìm các bội của BCNN của các số đó.",
+      "generalfeedback": "Đúng. Ta tìm BCNN của các số, sau đó tìm các bội của BCNN đó để được tập hợp các bội chung.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm bội chung thông qua BCNN",
+      "questiontext": "Để tìm bội chung của các số thông qua BCNN, trước hết ta tìm [[1]] của các số đó, sau đó tìm các [[2]] của BCNN vừa tìm được.",
+      "generalfeedback": "Cách tìm bội chung từ BCNN: 1. Tìm BCNN của các số. 2. Tìm các bội của BCNN đó.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "BCNN"
+        },
+        {
+          "group": 1,
+          "text": "bội"
+        },
+        {
+          "group": 1,
+          "text": "ƯCLN"
+        },
+        {
+          "group": 1,
+          "text": "ước"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm BCNN bằng cách phân tích ra thừa số nguyên tố",
+      "questiontext": "Tìm BCNN của 15 và 54 bằng cách phân tích các số ra thừa số nguyên tố. Giá trị BCNN(15, 54) là bao nhiêu?",
+      "generalfeedback": "Phân tích: \\(15 = 3 \\cdot 5\\), \\(54 = 2 \\cdot 3^3\\). Khi đó \\(\\text{BCNN}(15, 54) = 2 \\cdot 3^3 \\cdot 5 = 270\\).",
+      "answers": [
+        {
+          "text": "270",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_032",
+      "questiontext": "Tìm BCNN của hai số 18 và 27.",
+      "generalfeedback": "Phân tích: \\(18 = 2 \\cdot 3^2\\), \\(27 = 3^3\\). Do đó \\(\\text{BCNN}(18, 27) = 2 \\cdot 3^3 = 54\\).",
+      "answers": [
+        {
+          "text": "54",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm bội chung thông qua BCNN",
+      "questiontext": "Cho biết \\(\\text{BCNN}(a, b) = 12\\). Hãy ghép mỗi tập hợp bội chung tương ứng với mô tả của nó:",
+      "generalfeedback": "Các bội chung của a và b là các bội của 12: 0, 12, 24, 36, 48,...",
+      "subquestions": [
+        {
+          "question": "Tập hợp tất cả các bội chung của a và b",
+          "answer": "\\(\\{0; 12; 24; 36; ...\\}\\)"
+        },
+        {
+          "question": "Tập hợp các bội chung nhỏ hơn 30 của a và b",
+          "answer": "\\(\\{0; 12; 24\\}\\)"
+        },
+        {
+          "question": "Tập hợp các bội chung khác 0 và nhỏ hơn 40 của a và b",
+          "answer": "\\(\\{12; 24; 36\\}\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_032",
+      "questiontext": "Tìm số tự nhiên \\(a\\) nhỏ nhất khác 0, biết rằng \\(a \\vdots 28\\) và \\(a \\vdots 32\\).",
+      "generalfeedback": "Vì \\(a \\vdots 28\\), \\(a \\vdots 32\\) và \\(a\\) nhỏ nhất khác 0 nên \\(a = \\text{BCNN}(28, 32)\\). Phân tích: \\(28 = 2^2 \\cdot 7\\), \\(32 = 2^5\\). Do đó \\(a = 2^5 \\cdot 7 = 224\\).",
+      "answers": [
+        {
+          "text": "\\(224\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(896\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(112\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(56\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Tìm bội chung thông qua BCNN",
+      "questiontext": "Biết BCNN của 15 và 54 là 270. Hãy liệt kê các bội chung nhỏ hơn 1000 của 15 và 54 (viết các số theo thứ tự tăng dần, cách nhau bởi dấu chấm phẩy).",
+      "generalfeedback": "Các bội chung của 15 và 54 là các bội của 270: 0; 270; 540; 810; 1080... Các bội chung nhỏ hơn 1000 là: 0; 270; 540; 810.",
+      "answers": [
+        {
+          "text": "0; 270; 540; 810",
+          "fraction": 100
+        },
+        {
+          "text": "0;270;540;810",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_032",
+      "questiontext": "Hai đội công nhân trồng được một số cây như nhau. Mỗi công nhân đội I đã trồng 8 cây, mỗi công nhân đội II đã trồng 11 cây. Tính số cây mỗi đội đã trồng, biết rằng số cây đó trong khoảng từ 100 đến 200 cây.",
+      "generalfeedback": "Gọi số cây là \\(x\\). Ta có \\(x \\vdots 8\\) và \\(x \\vdots 11\\) nên \\(x \\in \\text{BC}(8, 11)\\). Vì \\(\\text{BCNN}(8, 11) = 88\\) nên \\(x \\in \\{0, 88, 176, 264, ...\\}\\). Do \\(100 \\le x \\le 200\\) nên \\(x = 176\\).",
+      "answers": [
+        {
+          "text": "176 cây",
+          "fraction": 100
+        },
+        {
+          "text": "88 cây",
+          "fraction": 0
+        },
+        {
+          "text": "132 cây",
+          "fraction": 0
+        },
+        {
+          "text": "198 cây",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_032",
+      "questiontext": "Theo Lịch Can Chi, tên của các năm âm lịch (như năm Giáp Tí) cứ sau bao nhiêu năm lại được lặp lại? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Cứ sau 60 năm (60 là BCNN của 10 can và 12 chi), tên của các năm âm lịch lại được lặp lại.",
+      "answers": [
+        {
+          "text": "60",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi làm bài tập tìm BCNN của hai số lớn \\(75\\) và \\(90\\), bạn Nam thấy phép tính phân tích ra thừa số nguyên tố có nhiều bước dễ nhầm lẫn. Hành vi nào dưới đây thể hiện sự cố gắng vươn lên đạt kết quả tốt trong học tập của Nam?",
+      "generalfeedback": "Thể hiện tinh thần kiên trì, tự giác vượt khó trong học tập toán học để đạt kết quả tốt.",
+      "answers": [
+        {
+          "text": "Kiên nhẫn kiểm tra lại từng bước phân tích thừa số nguyên tố và chọn số mũ lớn nhất để tìm ra BCNN đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài tập này và chờ đến lớp chép đáp án của bạn",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ ghi kết quả ước lượng bừa mà không thực hiện các bước tính toán",
+          "fraction": 0
+        },
+        {
+          "text": "Nhờ bạn làm hộ toàn bộ bài tập để nộp cho thầy cô",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi gặp bài toán ứng dụng BCNN để quy đồng mẫu các phân số phức tạp, bạn An đã chủ động ôn lại quy tắc tìm BCNN bằng cách phân tích ra thừa số nguyên tố để tự giải bài tập thay vì bỏ cuộc. Hành vi của An thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập.",
+      "generalfeedback": "Tự giác ôn tập kiến thức và kiên trì giải bài tập thể hiện ý thức vươn lên trong học tập.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Bạn Mai lập sơ đồ tóm tắt các bước tìm BCNN của hai hay nhiều số lớn hơn 1 bằng cách phân tích ra thừa số nguyên tố như sau:\nBước 1: Phân tích mỗi số ra thừa số [[1]].\nBước 2: Chọn ra các thừa số nguyên tố [[2]].\nBước 3: Lập tích các thừa số đã chọn, mỗi thừa số lấy với số mũ [[3]].",
+      "generalfeedback": "Sơ đồ tóm tắt giúp lưu giữ thông tin cốt lõi của quy tắc tìm BCNN: 1. Phân tích ra thừa số nguyên tố; 2. Chọn thừa số nguyên tố chung và riêng; 3. Lấy số mũ lớn nhất.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "nguyên tố"
+        },
+        {
+          "group": 1,
+          "text": "chung và riêng"
+        },
+        {
+          "group": 1,
+          "text": "lớn nhất"
+        },
+        {
+          "group": 1,
+          "text": "nhỏ nhất"
+        },
+        {
+          "group": 1,
+          "text": "hợp số"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Hãy ghép mỗi bước trong quy tắc tìm BCNN của hai hay nhiều số lớn hơn 1 với nội dung tóm tắt tương ứng:",
+      "generalfeedback": "Việc phân loại và ghép nối đúng thể hiện khả năng lưu giữ và tóm tắt quy tắc toán học có hệ thống.",
+      "subquestions": [
+        {
+          "question": "Bước 1",
+          "answer": "Phân tích mỗi số ra thừa số nguyên tố"
+        },
+        {
+          "question": "Bước 2",
+          "answer": "Chọn ra các thừa số nguyên tố chung và riêng"
+        },
+        {
+          "question": "Bước 3",
+          "answer": "Lập tích các thừa số đã chọn, mỗi thừa số lấy với số mũ lớn nhất"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "questiontext": "Bảng dưới đây cho biết lịch xuất bến của một số tuyến xe buýt tại bến xe Mỹ Đình:\n- Xe 16: 15 phút/chuyến\n- Xe 34: 9 phút/chuyến\n- Xe 30: 10 phút/chuyến\nGiả sử cả 3 xe buýt cùng xuất bến lúc 10 giờ 35 phút. Đọc và phân tích số liệu từ bảng trên, khoảng thời gian ngắn nhất (tính theo phút) để cả 3 xe buýt này lại cùng xuất bến lần tiếp theo là bao nhiêu?",
+      "generalfeedback": "Khoảng thời gian ngắn nhất là \\(\\text{BCNN}(15, 9, 10)\\). Phân tích ra thừa số nguyên tố: \\(15 = 3 \\cdot 5\\), \\(9 = 3^2\\), \\(10 = 2 \\cdot 5\\). Do đó \\(\\text{BCNN}(15, 9, 10) = 2 \\cdot 3^2 \\cdot 5 = 90\\) phút.",
+      "answers": [
+        {
+          "text": "90 phút",
+          "fraction": 100
+        },
+        {
+          "text": "45 phút",
+          "fraction": 0
+        },
+        {
+          "text": "30 phút",
+          "fraction": 0
+        },
+        {
+          "text": "150 phút",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "questiontext": "Đoạn văn bản \"Lịch Can Chi\" trong SGK cho biết: Tên năm âm lịch được ghép từ 10 Can và 12 Chi. Cứ 10 năm Can Giáp lại lặp lại, cứ 12 năm Chi Tí lại lặp lại. Dựa vào thông tin và bảng số liệu Can Chi, sau bao nhiêu năm thì tên năm Giáp Tí mới lại được lặp lại?",
+      "generalfeedback": "Việc lặp lại đồng thời Can và Chi ứng với bội chung nhỏ nhất của 10 và 12, tức là \\(\\text{BCNN}(10, 12) = 60\\) năm.",
+      "answers": [
+        {
+          "text": "60 năm, vì 60 là BCNN(10, 12)",
+          "fraction": 100
+        },
+        {
+          "text": "120 năm, vì 120 là tích của 10 và 12",
+          "fraction": 0
+        },
+        {
+          "text": "22 năm, vì 22 là tổng của 10 và 12",
+          "fraction": 0
+        },
+        {
+          "text": "30 năm, vì 30 là bội của 10",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Khi so sánh quy tắc tìm BCNN và ƯCLN của hai số lớn hơn 1 bằng cách phân tích ra thừa số nguyên tố, điểm KHÁC BIỆT cốt lõi ở Bước 2 và Bước 3 khi tìm BCNN so với ƯCLN là gì?",
+      "generalfeedback": "Thao tác so sánh giúp làm rõ sự khác biệt giữa BCNN (thừa số chung và riêng, số mũ lớn nhất) và ƯCLN (chỉ thừa số chung, số mũ nhỏ nhất).",
+      "answers": [
+        {
+          "text": "Khi tìm BCNN ta chọn các thừa số nguyên tố chung và riêng với số mũ lớn nhất, còn khi tìm ƯCLN ta chỉ chọn các thừa số nguyên tố chung với số mũ nhỏ nhất.",
+          "fraction": 100
+        },
+        {
+          "text": "Khi tìm BCNN ta chọn thừa số nguyên tố chung với số mũ nhỏ nhất, còn khi tìm ƯCLN ta chọn thừa số nguyên tố riêng với số mũ lớn nhất.",
+          "fraction": 0
+        },
+        {
+          "text": "Khi tìm BCNN không cần phân tích ra thừa số nguyên tố, còn ƯCLN bắt buộc phải phân tích.",
+          "fraction": 0
+        },
+        {
+          "text": "Cả hai cách tìm đều chọn tất cả thừa số nguyên tố chung và riêng với số mũ bằng nhau.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Khi thực hiện thao tác tư duy lập luận tìm các bội chung nhỏ hơn 100 của 6 và 8, ta có thể suy luận: BCNN(6, 8) = 24, do đó các bội chung nhỏ hơn 100 của 6 và 8 chính là các bội của 24 nhỏ hơn 100 (gồm 0; 24; 48; 72; 96). Khẳng định này đúng hay sai?",
+      "generalfeedback": "Lập luận đúng dựa trên quy tắc: Mọi bội chung của hai số đều là bội của BCNN của hai số đó.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "NLT_TOAN_C2_04_02",
+      "imgs": [
+        "_page_0_Picture_8.jpeg"
+      ],
+      "questiontext": "Đọc hiểu tình huống thực tế trong SGK: Mai cần mua đĩa giấy, cốc giấy để chuẩn bị cho tiệc sinh nhật. Đĩa đóng gói 4 cái/gói, cốc đóng gói 6 cái/gói. Cửa hàng không bán lẻ. [img:_page_0_Picture_8.jpeg] Thông tin toán học trọng tâm cần xác định để Mai mua được số đĩa và cốc bằng nhau với số lượng ít nhất là gì?",
+      "generalfeedback": "Đọc hiểu tình huống thực tế để xác định thông tin toán học cốt lõi: Số đĩa và cốc bằng nhau và ít nhất chính là bội chung nhỏ nhất khác 0 của 4 và 6, tức \\(\\text{BCNN}(4, 6) = 12\\).",
+      "answers": [
+        {
+          "text": "Tìm BCNN(4, 6)",
+          "fraction": 100
+        },
+        {
+          "text": "Tìm ƯCLN(4, 6)",
+          "fraction": 0
+        },
+        {
+          "text": "Tính tổng 4 + 6 = 10",
+          "fraction": 0
+        },
+        {
+          "text": "Tính hiệu 6 - 4 = 2",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04_02",
+      "questiontext": "Đọc hiểu quy tắc tìm bội chung từ BCNN trong văn bản SGK: \"Để tìm bội chung của các số đã cho, trước hết ta tìm [[1]] của các số đó, sau đó tìm các [[2]] của BCNN vừa tìm được.\"",
+      "generalfeedback": "Nắm vững thông tin trọng tâm trong văn bản SGK để thực hiện đúng quy tắc tìm bội chung thông qua BCNN.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "BCNN"
+        },
+        {
+          "group": 1,
+          "text": "bội"
+        },
+        {
+          "group": 1,
+          "text": "ƯCLN"
+        },
+        {
+          "group": 1,
+          "text": "ước"
+        }
+      ]
+    }
+  ]
+}

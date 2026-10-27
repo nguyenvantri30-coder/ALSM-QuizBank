@@ -1,0 +1,665 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 26,
+    "metadata_used": {
+      "Điều kiện xác định của phương trình chứa ẩn ở mẫu": 4,
+      "Tìm điều kiện xác định của phương trình chứa ẩn ở mẫu": 4,
+      "Quy đồng mẫu thức hai vế và khử mẫu giải phương trình": 4,
+      "Đối chiếu nghiệm với điều kiện xác định": 4,
+      "YCCD_TOAN9_022": 4,
+      "SUB_TRUNGTHUC_CHUNG_C2_05": 1,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_TCTH_TUHOC_C2_01": 1,
+      "SUB_GQVD_DEXUAT_C2_02": 1,
+      "NLT_TOAN_C2_01_05": 1,
+      "NLT_TOAN_C2_03_05": 1
+    },
+    "types_used": {
+      "multichoice": 16,
+      "truefalse": 2,
+      "gapselect": 2,
+      "matching": 2,
+      "calculatedsimple": 1,
+      "ddwtos": 1,
+      "shortanswer": 1,
+      "numerical": 1
+    },
+    "total": 26
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "Điều kiện xác định của phương trình chứa ẩn ở mẫu",
+        "reason": "Có đủ cơ sở đo lường qua phần lý thuyết và ví dụ về ĐKXĐ trong SGK"
+      },
+      {
+        "metadata_code": "Tìm điều kiện xác định của phương trình chứa ẩn ở mẫu",
+        "reason": "Có đủ cơ sở đo lường qua các bài tập và luyện tập tìm ĐKXĐ"
+      },
+      {
+        "metadata_code": "Quy đồng mẫu thức hai vế và khử mẫu giải phương trình",
+        "reason": "Có đủ cơ sở đo lường qua các bước quy đồng và khử mẫu"
+      },
+      {
+        "metadata_code": "Đối chiếu nghiệm với điều kiện xác định",
+        "reason": "Có đủ cơ sở đo lường qua phần thử và đối chiếu nghiệm với ĐKXĐ"
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_022",
+        "reason": "Có đủ cơ sở đo lường qua các bài tập giải phương trình hoàn chỉnh trong SGK"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học Toán 9 về phương trình chứa ẩn ở mẫu không chứa nội dung thao tác với công cụ phần mềm / hạ tầng tin học trực tiếp"
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học không liên quan tự nhiên đến nguyên lý hay ứng dụng công cụ AI"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Điều kiện xác định của phương trình chứa ẩn ở mẫu",
+      "questiontext": "Đối với phương trình chứa ẩn ở mẫu, điều kiện xác định (ĐKXĐ) của phương trình là điều kiện cho ẩn để:",
+      "generalfeedback": "Đối với phương trình chứa ẩn ở mẫu, ta thường đặt điều kiện cho ẩn để tất cả các mẫu thức trong phương trình đều khác 0 và gọi đó là điều kiện xác định của phương trình.",
+      "answers": [
+        {
+          "text": "tất cả các mẫu thức trong phương trình đều khác 0",
+          "fraction": 100
+        },
+        {
+          "text": "tất cả các tử thức trong phương trình đều khác 0",
+          "fraction": 0
+        },
+        {
+          "text": "tất cả các tử thức và mẫu thức đều bằng 0",
+          "fraction": 0
+        },
+        {
+          "text": "ít nhất một mẫu thức trong phương trình bằng 0",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Điều kiện xác định của phương trình chứa ẩn ở mẫu",
+      "questiontext": "ĐKXĐ của phương trình \\(\\frac{5x+2}{x-1} = 0\\) là \\(x \\neq 1\\). Khẳng định này Đúng hay Sai?",
+      "generalfeedback": "Mẫu thức của phương trình là \\(x-1\\). Để mẫu thức khác 0 thì \\(x - 1 \\neq 0 \\Leftrightarrow x \\neq 1\\). Do đó khẳng định trên là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Điều kiện xác định của phương trình chứa ẩn ở mẫu",
+      "questiontext": "Đối với phương trình chứa ẩn ở mẫu, ta thường đặt điều kiện cho ẩn để tất cả các [[1]] trong phương trình đều [[2]].",
+      "generalfeedback": "Theo định nghĩa SGK, điều kiện xác định của phương trình chứa ẩn ở mẫu là điều kiện cho ẩn để tất cả các mẫu thức trong phương trình đều khác 0.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "mẫu thức"
+        },
+        {
+          "group": 1,
+          "text": "khác 0"
+        },
+        {
+          "group": 1,
+          "text": "tử thức"
+        },
+        {
+          "group": 1,
+          "text": "bằng 0"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Điều kiện xác định của phương trình chứa ẩn ở mẫu",
+      "questiontext": "Ghép mỗi phương trình ở cột bên trái với điều kiện cần và đủ của các mẫu thức để phương trình xác định ở cột bên phải:",
+      "generalfeedback": "Để tìm ĐKXĐ, ta cho tất cả các mẫu thức trong phương trình khác 0.",
+      "subquestions": [
+        {
+          "question": "Phương trình \\(\\frac{1}{x-3} = 2\\)",
+          "answer": "Mẫu thức \\(x-3 \\neq 0\\)"
+        },
+        {
+          "question": "Phương trình \\(\\frac{2x}{x+5} = 1\\)",
+          "answer": "Mẫu thức \\(x+5 \\neq 0\\)"
+        },
+        {
+          "question": "Phương trình \\(\\frac{1}{x+1} = \\frac{1}{x-2}\\)",
+          "answer": "Cả hai mẫu thức \\(x+1 \\neq 0\\) và \\(x-2 \\neq 0\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm điều kiện xác định của phương trình chứa ẩn ở mẫu",
+      "questiontext": "Điều kiện xác định của phương trình \\(\\frac{1}{x+1} = 1 + \\frac{1}{x-2}\\) là:",
+      "generalfeedback": "Phương trình có hai mẫu thức là \\(x+1\\) và \\(x-2\\). Để các mẫu thức khác 0 thì \\(x + 1 \\neq 0 \\Leftrightarrow x \\neq -1\\) và \\(x - 2 \\neq 0 \\Leftrightarrow x \\neq 2\\). Vậy ĐKXĐ là \\(x \\neq -1\\) và \\(x \\neq 2\\).",
+      "answers": [
+        {
+          "text": "\\(x \\neq -1\\) và \\(x \\neq 2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x \\neq 1\\) và \\(x \\neq -2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x \\neq -1\\) và \\(x \\neq -2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x \\neq 1\\) và \\(x \\neq 2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm điều kiện xác định của phương trình chứa ẩn ở mẫu",
+      "questiontext": "Điều kiện xác định của phương trình \\(\\frac{3x+1}{2x-1} = 1\\) là:",
+      "generalfeedback": "Mẫu thức là \\(2x - 1\\). Điều kiện xác định: \\(2x - 1 \\neq 0 \\Leftrightarrow 2x \\neq 1 \\Leftrightarrow x \\neq \\frac{1}{2}\\).",
+      "answers": [
+        {
+          "text": "\\(x \\neq \\frac{1}{2}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x \\neq -\\frac{1}{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x \\neq -\\frac{1}{3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x \\neq 1\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm điều kiện xác định của phương trình chứa ẩn ở mẫu",
+      "questiontext": "Cho phương trình có mẫu thức dạng x - a với a nhận giá trị bằng {a}. Giá trị của x làm cho mẫu thức bằng 0 (phương trình không xác định) là bao nhiêu?",
+      "generalfeedback": "Mẫu thức là \\(x - a\\) với \\(a = {a}\\). Mẫu thức bằng 0 khi \\(x - {a} = 0 \\Leftrightarrow x = {a}\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 9.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm điều kiện xác định của phương trình chứa ẩn ở mẫu",
+      "questiontext": "ĐKXĐ của phương trình \\(\\frac{x}{x-1} + \\frac{x+1}{x} = 2\\) là \\(x \\neq\\) [[1]] và \\(x \\neq\\) [[2]].",
+      "generalfeedback": "Hai mẫu thức là \\(x-1\\) và \\(x\\). Ta có \\(x - 1 \\neq 0 \\Leftrightarrow x \\neq 1\\) và \\(x \\neq 0\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "1"
+        },
+        {
+          "group": 1,
+          "text": "0"
+        },
+        {
+          "group": 1,
+          "text": "-1"
+        },
+        {
+          "group": 1,
+          "text": "2"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Quy đồng mẫu thức hai vế và khử mẫu giải phương trình",
+      "questiontext": "Ghép thứ tự bước giải phương trình chứa ẩn ở mẫu với nội dung công việc tương ứng:",
+      "generalfeedback": "Quy trình giải phương trình chứa ẩn ở mẫu gồm 4 bước: Bước 1: Tìm ĐKXĐ; Bước 2: Quy đồng mẫu hai vế rồi khử mẫu; Bước 3: Giải phương trình vừa tìm được; Bước 4: Kết luận nghiệm (đối chiếu ĐKXĐ).",
+      "subquestions": [
+        {
+          "question": "Bước 1",
+          "answer": "Tìm điều kiện xác định của phương trình"
+        },
+        {
+          "question": "Bước 2",
+          "answer": "Quy đồng mẫu hai vế của phương trình rồi khử mẫu"
+        },
+        {
+          "question": "Bước 3",
+          "answer": "Giải phương trình vừa tìm được"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Quy đồng mẫu thức hai vế và khử mẫu giải phương trình",
+      "questiontext": "Sau khi quy đồng mẫu hai vế của phương trình \\(\\frac{x+3}{x} = \\frac{x+9}{x-3}\\) với ĐKXĐ \\(x \\neq 0\\) và \\(x \\neq 3\\), phương trình thu được sau khi khử mẫu là:",
+      "generalfeedback": "Quy đồng hai vế với mẫu chung là \\(x(x-3)\\): \\(\\frac{(x+3)(x-3)}{x(x-3)} = \\frac{x(x+9)}{x(x-3)}\\). Khử mẫu ta được: \\((x+3)(x-3) = x(x+9)\\).",
+      "answers": [
+        {
+          "text": "\\((x+3)(x-3) = x(x+9)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\((x+3)x = (x+9)(x-3)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((x+3)(x+9) = x(x-3)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x+3 = x+9\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Quy đồng mẫu thức hai vế và khử mẫu giải phương trình",
+      "questiontext": "Cho phương trình \\(\\frac{2}{x+1} + \\frac{1}{x-2} = \\frac{3}{(x+1)(x-2)}\\). Sau khi quy đồng mẫu hai vế và khử mẫu, phương trình thu được là:",
+      "generalfeedback": "Quy đồng mẫu chung là \\((x+1)(x-2)\\), khử mẫu ta được: \\(2(x-2) + 1(x+1) = 3\\).",
+      "answers": [
+        {
+          "text": "\\(2(x-2) + (x+1) = 3\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(2(x+1) + (x-2) = 3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2(x-2) + (x+1) = 3(x+1)(x-2)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2 + 1 = 3\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Quy đồng mẫu thức hai vế và khử mẫu giải phương trình",
+      "questiontext": "Các bước giải phương trình chứa ẩn ở mẫu gồm: Bước 1. Tìm điều kiện xác định. Bước 2. Quy đồng mẫu hai vế rồi [[1]]. Bước 3. Giải phương trình vừa tìm được. Bước 4. [[2]] nghiệm.",
+      "generalfeedback": "Theo SGK, bước 2 là quy đồng mẫu hai vế rồi khử mẫu. Bước 4 là kết luận nghiệm (đối chiếu giá trị tìm được với điều kiện xác định).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "khử mẫu"
+        },
+        {
+          "group": 1,
+          "text": "Đối chiếu và kết luận"
+        },
+        {
+          "group": 1,
+          "text": "bỏ tử"
+        },
+        {
+          "group": 1,
+          "text": "Thử lại"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Đối chiếu nghiệm với điều kiện xác định",
+      "questiontext": "Khi giải phương trình \\(\\frac{2}{x+1} + \\frac{1}{x-2} = \\frac{3}{(x+1)(x-2)}\\), sau khi khử mẫu và giải ta tìm được \\(x = 2\\). Vì \\(x = 2\\) không thỏa mãn ĐKXĐ (\\(x \\neq -1\\) và \\(x \\neq 2\\)) nên phương trình vô nghiệm. Khẳng định này Đúng hay Sai?",
+      "generalfeedback": "Giá trị \\(x = 2\\) vi phạm điều kiện xác định \\(x \\neq 2\\) nên bị loại, do đó phương trình vô nghiệm. Khẳng định này là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Đối chiếu nghiệm với điều kiện xác định",
+      "questiontext": "Cho phương trình \\(\\frac{x+1}{x-1} = 2\\) có ĐKXĐ là \\(x \\neq 1\\). Giải phương trình sau khi khử mẫu được \\(x = 3\\). Việc đối chiếu nghiệm với ĐKXĐ cho kết luận nào sau đây?",
+      "generalfeedback": "Giá trị \\(x = 3\\) thỏa mãn điều kiện \\(x \\neq 1\\), vậy \\(x = 3\\) là nghiệm của phương trình.",
+      "answers": [
+        {
+          "text": "\\(x = 3\\) thỏa mãn ĐKXĐ nên là nghiệm của phương trình",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x = 3\\) không thỏa mãn ĐKXĐ nên bị loại",
+          "fraction": 0
+        },
+        {
+          "text": "Phương trình vô nghiệm",
+          "fraction": 0
+        },
+        {
+          "text": "Phương trình có nghiệm \\(x = 1\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Đối chiếu nghiệm với điều kiện xác định",
+      "questiontext": "Giá trị x = -1 có là nghiệm của phương trình \\(x + \\frac{1}{x+1} = -1 + \\frac{1}{x+1}\\) hay không? (Trả lời: Có hoặc Không)",
+      "generalfeedback": "ĐKXĐ của phương trình là \\(x \\neq -1\\). Do đó \\(x = -1\\) làm mẫu thức bằng 0 nên không là nghiệm của phương trình. Đáp án: Không.",
+      "answers": [
+        {
+          "text": "Không",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Đối chiếu nghiệm với điều kiện xác định",
+      "questiontext": "Tại sao khi kết luận nghiệm của phương trình chứa ẩn ở mẫu, ta bắt buộc phải đối chiếu các giá trị tìm được ở Bước 3 với điều kiện xác định?",
+      "generalfeedback": "Việc đối chiếu với ĐKXĐ nhằm loại bỏ các giá trị của ẩn làm cho mẫu thức bằng 0 (nghiệm ngoại đạo), đảm bảo nghiệm tìm được làm cho tất cả các biểu thức trong phương trình có nghĩa.",
+      "answers": [
+        {
+          "text": "Để loại bỏ các giá trị làm cho mẫu thức bằng 0",
+          "fraction": 100
+        },
+        {
+          "text": "Để loại bỏ các giá trị làm cho tử thức bằng 0",
+          "fraction": 0
+        },
+        {
+          "text": "Vì quy đồng mẫu luôn làm tăng số nghiệm của phương trình",
+          "fraction": 0
+        },
+        {
+          "text": "Vì tất cả các giá trị tìm được đều không là nghiệm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_022",
+      "questiontext": "Tập nghiệm của phương trình \\(\\frac{5x+2}{x-1} = 0\\) là:",
+      "generalfeedback": "ĐKXĐ: \\(x \\neq 1\\). Khử mẫu: \\(5x + 2 = 0 \\Leftrightarrow 5x = -2 \\Leftrightarrow x = -\\frac{2}{5}\\) (thỏa mãn ĐKXĐ). Vậy nghiệm của phương trình là \\(x = -\\frac{2}{5}\\).",
+      "answers": [
+        {
+          "text": "\\(S = \\left\\{-\\frac{2}{5}\\right\\}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(S = \\left\\{\\frac{2}{5}\\right\\}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(S = \\{1\\}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(S = \\varnothing\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_022",
+      "questiontext": "Nghiệm của phương trình \\(\\frac{x+3}{x} = \\frac{x+9}{x-3}\\) là:",
+      "generalfeedback": "ĐKXĐ: \\(x \\neq 0\\) và \\(x \\neq 3\\). Khử mẫu: \\((x+3)(x-3) = x(x+9) \\Leftrightarrow x^2 - 9 = x^2 + 9x \\Leftrightarrow 9x = -9 \\Leftrightarrow x = -1\\) (thỏa mãn ĐKXĐ).",
+      "answers": [
+        {
+          "text": "\\(x = -1\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x = 1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x = 3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x = -3\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_022",
+      "questiontext": "Giải phương trình \\(\\frac{3x+1}{2x-1} = 1\\). Tìm giá trị của x. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "ĐKXĐ: \\(x \\neq \\frac{1}{2}\\). Khử mẫu: \\(3x + 1 = 2x - 1 \\Leftrightarrow 3x - 2x = -1 - 1 \\Leftrightarrow x = -2\\) (thỏa mãn ĐKXĐ).",
+      "answers": [
+        {
+          "text": "-2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_022",
+      "questiontext": "Số nghiệm của phương trình \\(\\frac{2}{x+1} + \\frac{1}{x-2} = \\frac{3}{(x+1)(x-2)}\\) là:",
+      "generalfeedback": "ĐKXĐ: \\(x \\neq -1\\) và \\(x \\neq 2\\). Sau khi khử mẫu ta được \\(2(x-2) + (x+1) = 3 \\Leftrightarrow 3x - 3 = 3 \\Leftrightarrow 3x = 6 \\Leftrightarrow x = 2\\). Vì \\(x = 2\\) không thỏa mãn ĐKXĐ nên phương trình vô nghiệm. Số nghiệm của phương trình là 0.",
+      "answers": [
+        {
+          "text": "0",
+          "fraction": 100
+        },
+        {
+          "text": "1",
+          "fraction": 0
+        },
+        {
+          "text": "2",
+          "fraction": 0
+        },
+        {
+          "text": "Vô số",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_TRUNGTHUC_CHUNG_C2_05",
+      "questiontext": "Trong giờ học Đại số, khi giải phương trình \\(\\frac{x+2}{x-1} = \\frac{3}{x-1}\\), bạn An cho rằng phương trình có nghiệm \\(x = 1\\) vì sau khi khử mẫu thu được \\(x + 2 = 3 \\Leftrightarrow x = 1\\). Bạn Bình chỉ ra rằng \\(x = 1\\) làm mẫu thức bằng 0 nên không thỏa mãn ĐKXĐ. Để thể hiện sự công bằng và khách quan trong nhận thức, An nên có thái độ như thế nào?",
+      "generalfeedback": "Thái độ công bằng, khách quan trong học tập đòi hỏi học sinh biết lắng nghe góp ý đúng đắn, tôn trọng sự thật khoa học và thừa nhận sai sót của bản thân khi được chỉ ra điểm chưa hợp lý trong lập luận.",
+      "answers": [
+        {
+          "text": "Tôn trọng ý kiến phản biện của Bình, kiểm tra lại ĐKXĐ và thừa nhận phương trình vô nghiệm",
+          "fraction": 100
+        },
+        {
+          "text": "Bảo thủ giữ nguyên ý kiến vì phương trình sau khi khử mẫu đã giải đúng ra \\(x = 1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Tỏ ra khó chịu và cho rằng Bình đang cố tình bắt lỗi nhỏ không quan trọng",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua ý kiến của Bình và không tiếp tục tham gia thảo luận bài học",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi gặp bài toán giải phương trình chứa ẩn ở mẫu có biểu thức phức tạp \\(\\frac{1}{x-1} - \\frac{4x}{x^3-1} = \\frac{x}{x^2+x+1}\\), bạn Minh cảm thấy lúng túng vì chưa phân tích được mẫu thức thành nhân tử. Để thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập, Minh nên chọn hướng xử lý nào?",
+      "generalfeedback": "Tinh thần cố gắng vươn lên trong học tập thể hiện ở việc chủ động xem lại kiến thức cũ (hằng đẳng thức hiệu hai lập phương), kiên trì phân tích và tìm sự hỗ trợ phù hợp thay vì bỏ cuộc.",
+      "answers": [
+        {
+          "text": "Chủ động ôn lại hằng đẳng thức \\(x^3 - 1 = (x-1)(x^2+x+1)\\) để tìm mẫu thức chung và kiên trì hoàn thành bài tập",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài toán khó và chỉ làm các bài tập đơn giản đã biết cách giải",
+          "fraction": 0
+        },
+        {
+          "text": "Chép ngay đáp án của bạn khác để nộp cho thầy cô mà không cần hiểu cách giải",
+          "fraction": 0
+        },
+        {
+          "text": "Đợi thầy cô chữa bài rồi chép lại vào vở chứ không tự tìm hiểu",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Để nâng cao năng lực giải phương trình quy về phương trình bậc nhất, em đặt mục tiêu trong tuần này làm chủ dạng bài \"Phương trình chứa ẩn ở mẫu\". Kế hoạch học tập nào sau đây phản ánh việc tự đặt mục tiêu và nỗ lực thực hiện hợp lý nhất?",
+      "generalfeedback": "Tự đặt mục tiêu học tập hợp lý cần có các bước cụ thể: nắm chắc định nghĩa ĐKXĐ, rèn luyện kỹ năng quy đồng/khử mẫu và luôn đối chiếu điều kiện để tránh nghiệm ngoại đạo.",
+      "answers": [
+        {
+          "text": "Lập danh sách các bước giải, luyện tập tìm ĐKXĐ hàng ngày và tự kiểm tra lại các bài giải để tránh sót bước thử điều kiện",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ đọc lướt qua các bài giải mẫu trong sách giáo khoa mà không cần tự tay giải bài tập",
+          "fraction": 0
+        },
+        {
+          "text": "Đặt mục tiêu giải 100 bài tập trong 1 ngày mà không cần hiểu rõ bản chất quy đồng khử mẫu",
+          "fraction": 0
+        },
+        {
+          "text": "Học thuộc lòng nghiệm của các bài tập ví dụ trong SGK để làm bài kiểm tra",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Hai người cùng làm chung một công việc thì xong trong 8 giờ. Nếu gọi thời gian người thứ nhất làm một mình xong công việc là \\(x\\) (giờ, \\(x > 8\\)), ta lập được phương trình chứa ẩn ở mẫu biểu thị công việc. Để giải quyết vấn đề thực tế này, đề xuất giải pháp nào sau đây là hợp lý nhất?",
+      "generalfeedback": "Năng lực đề xuất giải pháp giải quyết vấn đề đòi hỏi việc chuyển đổi bài toán thực tế thành bài toán toán học: biểu thị khối lượng công việc trong 1 giờ của mỗi người theo \\(x\\), từ đó lập phương trình chứa ẩn ở mẫu và giải.",
+      "answers": [
+        {
+          "text": "Biểu thị năng suất 1 giờ của mỗi người theo \\(x\\), lập phương trình chứa ẩn ở mẫu, tìm ĐKXĐ và giải phương trình",
+          "fraction": 100
+        },
+        {
+          "text": "Đo đạc thời gian thực tế của hai người mà không cần lập phương trình toán học",
+          "fraction": 0
+        },
+        {
+          "text": "Đoán ngẫu nhiên một giá trị của \\(x\\) rồi thay vào thử lại xem có đúng 8 giờ không",
+          "fraction": 0
+        },
+        {
+          "text": "Chuyển bài toán thực tế thành phương trình bậc hai không chứa ẩn ở mẫu",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_05",
+      "questiontext": "Trong bài toán thực tế (Bài 2.4 SGK), Bác An có mảnh đất hình chữ nhật dài 14 m, rộng 12 m. Bác xây nhà diện tích 100 m² và dành phần đất thừa làm sân vườn xung quanh rộng \\(x\\) (m). Lập luận toán học nào sau đây là hợp lý để tìm \\(x\\)?",
+      "generalfeedback": "Lập luận hợp lý: Chiều dài phần đất làm nhà là \\(14 - 2x\\), chiều rộng là \\(12 - 2x\\). Diện tích đất làm nhà là \\((14-2x)(12-2x) = 100\\) (với điều kiện \\(0 < x < 6\\)).",
+      "answers": [
+        {
+          "text": "Kích thước căn nhà là \\(14 - 2x\\) và \\(12 - 2x\\), suy ra diện tích nhà là \\((14 - 2x)(12 - 2x) = 100\\) với \\(0 < x < 6\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Kích thước căn nhà là \\(14 - x\\) và \\(12 - x\\), suy ra diện tích nhà là \\((14 - x)(12 - x) = 100\\) với \\(x > 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Diện tích mảnh đất là \\(14 \\times 12 = 168\\), suy ra diện tích sân là \\(168 - 100 = 68\\) nên \\(x = 68\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Chiều rộng lối đi \\(x\\) bằng hiệu của chiều dài và chiều rộng chia đôi: \\(x = (14 - 12)/2 = 1\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Để giải phương trình chứa ẩn ở mẫu \\(\\frac{1}{x+1} - \\frac{x}{x^2 - x + 1} = \\frac{3x}{x^3 + 1}\\), kĩ năng toán học tương thích nào cần được sử dụng phối hợp?",
+      "generalfeedback": "Sử dụng kĩ năng phân tích đa thức thành nhân tử (hằng đẳng thức tổng hai lập phương \\(x^3+1 = (x+1)(x^2-x+1)\\)), quy đồng mẫu thức, khử mẫu và giải phương trình bậc nhất.",
+      "answers": [
+        {
+          "text": "Phân tích \\(x^3+1\\) thành nhân tử bằng hằng đẳng thức, quy đồng khử mẫu và giải phương trình bậc nhất thu được",
+          "fraction": 100
+        },
+        {
+          "text": "Sử dụng công thức nghiệm thu gọn của phương trình bậc hai",
+          "fraction": 0
+        },
+        {
+          "text": "Vẽ đồ thị hàm số bậc nhất trên mặt phẳng tọa độ Oxy",
+          "fraction": 0
+        },
+        {
+          "text": "Áp dụng định lý Pythagore trong tam giác vuông",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

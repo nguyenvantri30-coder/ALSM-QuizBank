@@ -1,0 +1,656 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 25,
+    "metadata_used": {
+      "Khái niệm phép khai căn bậc hai của một thương": 2,
+      "Công thức sqrt(a/b) = sqrt(a)/sqrt(b) với a >= 0, b > 0": 2,
+      "Khai căn bậc hai của một thương": 2,
+      "Chia hai căn bậc hai số học": 2,
+      "YCCD_TOAN9_007": 8,
+      "YCCD_TOAN9_014": 4,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_TCTH_TUHOC_C2_01": 1,
+      "SUB_GQVD_DEXUAT_C2_02": 1,
+      "NLT_TOAN_C2_01_01": 1,
+      "NLT_TOAN_C2_03_05": 1
+    },
+    "types_used": {
+      "multichoice": 13,
+      "truefalse": 3,
+      "numerical": 3,
+      "matching": 1,
+      "gapselect": 1,
+      "ddwtos": 1,
+      "calculated": 1,
+      "calculatedsimple": 1,
+      "calculatedmulti": 1
+    },
+    "total": 25
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN9_007",
+        "reason": "Đánh giá qua các bài tập tính giá trị căn bậc hai của một thương và phép chia hai căn bậc hai số học."
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_014",
+        "reason": "Đánh giá qua các bài tập biến đổi, rút gọn biểu thức chứa căn thức bậc hai của một thương."
+      },
+      {
+        "metadata_code": "Khái niệm phép khai căn bậc hai của một thương",
+        "reason": "Đánh giá qua việc nhận biết khái niệm phép khai căn bậc hai của một thương."
+      },
+      {
+        "metadata_code": "Công thức sqrt(a/b) = sqrt(a)/sqrt(b) với a >= 0, b > 0",
+        "reason": "Đánh giá qua việc nhận biết và áp dụng công thức khai căn bậc hai của một thương."
+      },
+      {
+        "metadata_code": "Khai căn bậc hai của một thương",
+        "reason": "Đánh giá kỹ năng khai căn bậc hai của một thương số cụ thể hoặc biểu thức thập phân."
+      },
+      {
+        "metadata_code": "Chia hai căn bậc hai số học",
+        "reason": "Đánh giá kỹ năng thực hiện phép chia hai căn bậc hai số học."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đánh giá phẩm chất chăm chỉ, nỗ lực qua tình huống làm bài tập biến đổi căn thức phức tạp."
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+        "reason": "Đánh giá năng lực tự chủ, tự học qua việc lập kế hoạch cá nhân nắm vững bài học."
+      },
+      {
+        "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+        "reason": "Đánh giá năng lực giải quyết vấn đề qua bài toán tính kích thước màn hình tivi."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_01",
+        "reason": "Đánh giá thao tác tư duy so sánh, phân tích qua hai cách tính phép chia căn bậc hai."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_05",
+        "reason": "Đánh giá việc áp dụng công thức toán học vào bài toán thực tế mạch điện một chiều."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Nội dung bài học về khai căn bậc hai với phép chia là toán đại số thuần túy, không có dữ liệu tự nhiên liên quan đến kỹ năng tin học/công cụ số."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học không trực tiếp liên quan đến nguyên lý hay ứng dụng của trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm phép khai căn bậc hai của một thương",
+      "questiontext": "Khái niệm phép khai căn bậc hai của một thương là phép toán nào dưới đây?",
+      "generalfeedback": "Phép khai căn bậc hai của một thương là phép tìm căn bậc hai số học của thương hai biểu thức không âm (với mẫu thức dương).",
+      "answers": [
+        {
+          "text": "Phép tìm căn bậc hai số học của một thương hai biểu thức không âm (mẫu thức dương)",
+          "fraction": 100
+        },
+        {
+          "text": "Phép nhân hai căn bậc hai số học với nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Phép bình phương thương của hai số bất kỳ",
+          "fraction": 0
+        },
+        {
+          "text": "Phép cộng hai căn bậc hai số học với nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức sqrt(a/b) = sqrt(a)/sqrt(b) với a >= 0, b > 0",
+      "questiontext": "Với biểu thức \\(A \\ge 0\\) và \\(B > 0\\), khẳng định nào sau đây là đúng?",
+      "generalfeedback": "Theo quy tắc khai căn bậc hai của một thương, với \\(A \\ge 0\\) và \\(B > 0\\), ta có \\(\\sqrt{\\frac{A}{B}} = \\frac{\\sqrt{A}}{\\sqrt{B}}\\).",
+      "answers": [
+        {
+          "text": "\\(\\sqrt{\\frac{A}{B}} = \\frac{\\sqrt{A}}{\\sqrt{B}}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\sqrt{\\frac{A}{B}} = \\frac{A}{B}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\sqrt{\\frac{A}{B}} = \\sqrt{A} \\cdot \\sqrt{B}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\sqrt{\\frac{A}{B}} = \\frac{\\sqrt{A}}{B}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Công thức sqrt(a/b) = sqrt(a)/sqrt(b) với a >= 0, b > 0",
+      "questiontext": "Đẳng thức \\(\\frac{\\sqrt{A}}{\\sqrt{B}} = \\sqrt{\\frac{A}{B}}\\) đúng với mọi biểu thức \\(A, B\\) thỏa mãn \\(A \\ge 0\\) và \\(B > 0\\).",
+      "generalfeedback": "Đúng. Đây là quy tắc chia hai căn bậc hai số học.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Khai căn bậc hai của một thương",
+      "questiontext": "Tính giá trị của biểu thức \\(\\sqrt{\\frac{16}{25}}\\).",
+      "generalfeedback": "\\(\\sqrt{\\frac{16}{25}} = \\frac{\\sqrt{16}}{\\sqrt{25}} = \\frac{4}{5} = 0,8\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{4}{5}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{16}{25}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{4}{25}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{16}{5}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Chia hai căn bậc hai số học",
+      "questiontext": "Tính giá trị của phép chia \\(\\sqrt{18} : \\sqrt{2}\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "\\(\\sqrt{18} : \\sqrt{2} = \\sqrt{\\frac{18}{2}} = \\sqrt{9} = 3\\).",
+      "answers": [
+        {
+          "text": "3",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm phép khai căn bậc hai của một thương",
+      "questiontext": "Hãy ghép mỗi phép tính căn bậc hai ở cột bên trái với kết quả tương ứng ở cột bên phải:",
+      "generalfeedback": "Áp dụng quy tắc khai căn bậc hai của một thương và quy tắc chia hai căn bậc hai.",
+      "subquestions": [
+        {
+          "question": "\\(\\sqrt{81 : 9}\\)",
+          "answer": "3"
+        },
+        {
+          "question": "\\(\\sqrt{100} : \\sqrt{4}\\)",
+          "answer": "5"
+        },
+        {
+          "question": "\\(\\sqrt{\\frac{144}{16}}\\)",
+          "answer": "3"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Khai căn bậc hai của một thương",
+      "questiontext": "Để tính \\(\\sqrt{1,69}\\), ta viết \\(1,69 = \\frac{169}{100}\\). Khi đó \\(\\sqrt{1,69} = \\frac{\\sqrt{169}}{\\sqrt{100}} =\\) 13 / [[1]] = [[2]].",
+      "generalfeedback": "\\(\\sqrt{1,69} = \\sqrt{\\frac{169}{100}} = \\frac{13}{10} = 1,3\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "10"
+        },
+        {
+          "group": 1,
+          "text": "1,3"
+        },
+        {
+          "group": 1,
+          "text": "100"
+        },
+        {
+          "group": 1,
+          "text": "13"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Chia hai căn bậc hai số học",
+      "questiontext": "Muốn chia căn bậc hai của số \\(A \\ge 0\\) cho căn bậc hai của số \\(B > 0\\), ta có thể chia số \\(A\\) cho số \\(B\\) rồi [[1]] kết quả đó.",
+      "generalfeedback": "Quy tắc chia hai căn bậc hai số học: Muốn chia căn bậc hai của số A không âm cho căn bậc hai của số B dương, ta có thể chia số A cho số B rồi khai căn bậc hai kết quả đó.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "khai căn bậc hai"
+        },
+        {
+          "group": 1,
+          "text": "bình phương"
+        },
+        {
+          "group": 1,
+          "text": "nhân đôi"
+        },
+        {
+          "group": 1,
+          "text": "chia đôi"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_007",
+      "questiontext": "Tính giá trị của phép chia căn bậc hai của {a} cho căn bậc hai của 2.",
+      "generalfeedback": "Thực hiện phép chia hai căn bậc hai: căn bậc hai của {a} chia cho căn bậc hai của 2 bằng căn bậc hai của ({a}/2).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 8.0,
+          "max": 50.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "sqrt({a}/2)",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_007",
+      "questiontext": "Tính giá trị của phép chia căn bậc hai của 100 cho căn bậc hai của {b}. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Căn bậc hai của 100 chia cho căn bậc hai của {b} bằng 10 chia cho căn bậc hai của {b}.",
+      "wildcards": [
+        {
+          "name": "b",
+          "min": 4.0,
+          "max": 25.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "10/sqrt({b})",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_007",
+      "questiontext": "Tính giá trị của biểu thức \\(\\sqrt{52a^3} : \\sqrt{13a}\\) với \\(a > 0\\).",
+      "generalfeedback": "Ta có \\(\\sqrt{52a^3} : \\sqrt{13a} = \\sqrt{\\frac{52a^3}{13a}} = \\sqrt{4a^2} = \\sqrt{(2a)^2} = |2a| = 2a\\) (do \\(a > 0\\)).",
+      "answers": [
+        {
+          "text": "\\(2a\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(4a\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2a^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(4a^2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_014",
+      "questiontext": "Rút gọn biểu thức \\((a^2 - 1) \\cdot \\sqrt{\\frac{5}{(a-1)^2}}\\) với \\(a > 1\\).",
+      "generalfeedback": "Do \\(a > 1\\) nên \\(a - 1 > 0\\), suy ra \\(\\sqrt{(a-1)^2} = a - 1\\). Biểu thức bằng \\((a^2 - 1) \\cdot \\frac{\\sqrt{5}}{a - 1} = (a - 1)(a + 1) \\cdot \\frac{\\sqrt{5}}{a - 1} = (a + 1)\\sqrt{5}\\).",
+      "answers": [
+        {
+          "text": "\\((a + 1)\\sqrt{5}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\((a - 1)\\sqrt{5}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((a^2 - 1)\\sqrt{5}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\sqrt{5}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_007",
+      "questiontext": "Giá trị của biểu thức \\(\\sqrt{1815} : \\sqrt{15}\\) bằng \\(11\\).",
+      "generalfeedback": "Đúng. Ta có \\(\\sqrt{1815} : \\sqrt{15} = \\sqrt{\\frac{1815}{15}} = \\sqrt{121} = 11\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_014",
+      "questiontext": "Rút gọn biểu thức \\(a \\cdot \\sqrt{\\frac{2}{a^2}}\\) với \\(a > 0\\).",
+      "generalfeedback": "Do \\(a > 0\\) nên \\(\\sqrt{a^2} = a\\). Biểu thức bằng \\(a \\cdot \\frac{\\sqrt{2}}{a} = \\sqrt{2}\\).",
+      "answers": [
+        {
+          "text": "\\(\\sqrt{2}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2a\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\sqrt{2a}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_007",
+      "questiontext": "Tính giá trị của biểu thức \\(\\sqrt{99} : \\sqrt{11}\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "\\(\\sqrt{99} : \\sqrt{11} = \\sqrt{\\frac{99}{11}} = \\sqrt{9} = 3\\).",
+      "answers": [
+        {
+          "text": "3",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_014",
+      "questiontext": "Rút gọn biểu thức \\(\\sqrt{16ab^2} : \\sqrt{4a}\\) với \\(a > 0, b < 0\\).",
+      "generalfeedback": "\\(\\sqrt{16ab^2} : \\sqrt{4a} = \\sqrt{\\frac{16ab^2}{4a}} = \\sqrt{4b^2} = \\sqrt{(2b)^2} = |2b| = -2b\\) (vì \\(b < 0\\)).",
+      "answers": [
+        {
+          "text": "\\(-2b\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(2b\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-2ab\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2ab\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_007",
+      "questiontext": "Viết số dưới dấu căn thành phân số thập phân rồi tính giá trị của \\(\\sqrt{7,84}\\).",
+      "generalfeedback": "\\(7,84 = \\frac{784}{100} = \\frac{28^2}{10^2}\\) nên \\(\\sqrt{7,84} = \\sqrt{\\frac{784}{100}} = \\frac{28}{10} = 2,8\\).",
+      "answers": [
+        {
+          "text": "2,8",
+          "fraction": 100
+        },
+        {
+          "text": "2,6",
+          "fraction": 0
+        },
+        {
+          "text": "3,2",
+          "fraction": 0
+        },
+        {
+          "text": "1,8",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_014",
+      "questiontext": "Kết quả rút gọn của biểu thức \\(\\frac{-3\\sqrt{16a} + 5a\\sqrt{16ab^2}}{2\\sqrt{a}}\\) (với \\(a > 0, b > 0\\)) là \\(-6 + 10a\\sqrt{b}\\).",
+      "generalfeedback": "Đúng. \\(\\frac{-3\\cdot 4\\sqrt{a} + 5a \\cdot 4b\\sqrt{a}}{2\\sqrt{a}} = \\frac{-12\\sqrt{a} + 20ab\\sqrt{a}}{2\\sqrt{a}} = -6 + 10ab\\). Chú ý: \\(\\sqrt{16ab^2} = 4b\\sqrt{a}\\) khi \\(b > 0\\), do đó kết quả đúng là \\(-6 + 10ab\\), nên mệnh đề đề bài cho \\(-6 + 10a\\sqrt{b}\\) là Sai.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_007",
+      "questiontext": "Tính giá trị của biểu thức \\(\\sqrt{6,25}\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "\\(\\sqrt{6,25} = \\sqrt{\\frac{625}{100}} = \\frac{25}{10} = 2.5\\).",
+      "answers": [
+        {
+          "text": "2.5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_007",
+      "questiontext": "Tính giá trị phép chia căn bậc hai của {a} cho căn bậc hai của 3.",
+      "generalfeedback": "\\(\\sqrt{\\text{{a}}} : \\sqrt{3} = \\sqrt{\\text{{a}}/3}\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 12.0,
+          "max": 75.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "sqrt({a}/3)",
+          "fraction": 100
+        },
+        {
+          "text": "{a}/3",
+          "fraction": 0
+        },
+        {
+          "text": "sqrt({a})*3",
+          "fraction": 0
+        },
+        {
+          "text": "{a}*3",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ bài tập Toán về khai căn bậc hai của một thương, khi gặp bài toán thực tế tính tỉ số hiệu điện thế \\(U = \\sqrt{PR}\\) đòi hỏi nhiều bước biến đổi căn thức phức tạp, bạn Nam cảm thấy khó và có ý định bỏ qua. Để thể hiện ý thức luôn cố gắng vươn lên đạt kết quả tốt trong học tập, Nam nên chọn cách xử lý nào dưới đây?",
+      "generalfeedback": "Thái độ tích cực, luôn nỗ lực vươn lên trong học tập được thể hiện qua việc kiên trì học hỏi quy tắc toán học, không tự ý bỏ cuộc hay chép bài người khác.",
+      "answers": [
+        {
+          "text": "Kiên trì đọc lại quy tắc \\(\\sqrt{\\frac{A}{B}} = \\frac{\\sqrt{A}}{\\sqrt{B}}\\), chia nhỏ các bước tính toán và chủ động nhờ thầy cô hoặc bạn bè hướng dẫn nếu chưa hiểu",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài toán đó và chỉ làm các bài tập trắc nghiệm lý thuyết dễ hơn",
+          "fraction": 0
+        },
+        {
+          "text": "Chép luôn lời giải của bạn khác vào vở để nộp cho thầy cô đúng hạn",
+          "fraction": 0
+        },
+        {
+          "text": "Đề nghị thầy cô loại bỏ các bài toán thực tế ra khỏi nội dung kiểm tra",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Để chủ động nắm vững kiến thức bài 'Khai căn bậc hai với phép chia', bạn An tự lập kế hoạch học tập cá nhân. Kế hoạch nào dưới đây thể hiện sự tự đặt mục tiêu học tập đúng đắn và có tính khả thi?",
+      "generalfeedback": "Tự đặt mục tiêu học tập đòi hỏi học sinh xác định rõ kết quả cần đạt (hiểu quy tắc, vận dụng được công thức) và có lộ trình luyện tập cụ thể.",
+      "answers": [
+        {
+          "text": "Nắm chắc công thức \\(\\sqrt{\\frac{A}{B}} = \\frac{\\sqrt{A}}{\\sqrt{B}}\\) (với \\(A \\ge 0, B > 0\\)), tự hoàn thành bài tập SGK và giải thêm các bài tập rút gọn biểu thức chứa căn",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ thuộc lòng phát biểu quy tắc bằng lời mà không làm các bài tập tính toán",
+          "fraction": 0
+        },
+        {
+          "text": "Chờ đến khi thầy cô chữa bài trên lớp rồi mới ghi chép đáp án vào vở",
+          "fraction": 0
+        },
+        {
+          "text": "Đặt mục tiêu giải ngay các bài toán nâng cao phức tạp mà không cần ôn lại kiến thức căn bản",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Một tivi màn hình chữ nhật có tỉ lệ chiều rộng và chiều dài là \\(3 : 4\\) và độ dài đường chéo là \\(40\\) inch. Để tính chiều rộng và chiều dài của tivi theo centimét (biết \\(1\\text{ inch} \\approx 2,54\\text{ cm}\\)), giải pháp nào dưới đây là hợp lý và đúng đắn nhất?",
+      "generalfeedback": "Giải pháp hiệu quả: Đặt chiều rộng \\(3x\\), chiều dài \\(4x\\) (inch). Theo định lý Pythagore, đường chéo \\(d = \\sqrt{(3x)^2 + (4x)^2} = \\sqrt{25x^2} = 5x\\). Do \\(d = 40\\) inch nên \\(5x = 40 \\Rightarrow x = 8\\). Chiều rộng là \\(24\\) inch (\\(\\approx 60,96\\) cm), chiều dài là \\(32\\) inch (\\(\\approx 81,28\\) cm).",
+      "answers": [
+        {
+          "text": "Đặt chiều rộng là \\(3x\\), chiều dài là \\(4x\\), áp dụng định lý Pythagore tính đường chéo \\(d = \\sqrt{9x^2 + 16x^2} = 5x = 40\\) inch để tìm \\(x\\), sau đó đổi sang cm",
+          "fraction": 100
+        },
+        {
+          "text": "Lấy độ dài đường chéo \\(40\\) inch chia trực tiếp cho \\(3\\) để ra chiều rộng và chia cho \\(4\\) để ra chiều dài",
+          "fraction": 0
+        },
+        {
+          "text": "Đo ngẫu nhiên kích thước một tivi khác rồi áp đặt kết quả cho tivi 40 inch",
+          "fraction": 0
+        },
+        {
+          "text": "Cộng chiều rộng và chiều dài bằng đường chéo \\(40\\) inch rồi giải hệ phương trình",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Khi so sánh hai cách tính: Cách 1 tính \\(\\sqrt{100} : \\sqrt{4} = 10 : 2 = 5\\) và Cách 2 tính \\(\\sqrt{100 : 4} = \\sqrt{25} = 5\\), bạn Bình rút ra kết luận: 'Phép chia hai căn bậc hai số học cho cùng kết quả với phép khai căn bậc hai của một thương'. Thao tác tư duy toán học chính mà Bình đã sử dụng ở đây là gì?",
+      "generalfeedback": "Bình đã thực hiện thao tác so sánh hai kết quả cụ thể, phân tích mối liên hệ và tổng quát hóa thành quy tắc biến đổi toán học.",
+      "answers": [
+        {
+          "text": "So sánh, phân tích các trường hợp cụ thể để khái quát hóa thành quy tắc toán học",
+          "fraction": 100
+        },
+        {
+          "text": "Thử sai ngẫu nhiên các giá trị không có căn cứ",
+          "fraction": 0
+        },
+        {
+          "text": "Tưởng tượng hình học không gian ba chiều",
+          "fraction": 0
+        },
+        {
+          "text": "Thống kê thực nghiệm số liệu xã hội",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Trong mạch điện một chiều, hiệu điện thế \\(U\\) (V), công suất \\(P\\) (W) và điện trở \\(R\\) (\\(\\Omega\\)) liên hệ theo công thức \\(U = \\sqrt{PR}\\). Nếu công suất tăng gấp \\(8\\) lần và điện trở giảm \\(2\\) lần thì hiệu điện thế mới \\(U'\\) gấp bao nhiêu lần hiệu điện thế ban đầu \\(U\\)?",
+      "generalfeedback": "Ta có \\(U' = \\sqrt{(8P) \\cdot \\left(\\frac{R}{2}\\right)} = \\sqrt{4PR} = \\sqrt{4} \\cdot \\sqrt{PR} = 2U\\). Vậy hiệu điện thế mới gấp 2 lần hiệu điện thế ban đầu.",
+      "answers": [
+        {
+          "text": "\\(2\\) lần",
+          "fraction": 100
+        },
+        {
+          "text": "\\(4\\) lần",
+          "fraction": 0
+        },
+        {
+          "text": "\\(16\\) lần",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\sqrt{2}\\) lần",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

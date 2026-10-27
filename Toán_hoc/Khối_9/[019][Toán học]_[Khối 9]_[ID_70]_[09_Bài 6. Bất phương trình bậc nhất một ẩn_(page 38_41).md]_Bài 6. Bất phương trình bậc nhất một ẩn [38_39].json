@@ -1,0 +1,926 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 38,
+    "metadata_used": {
+      "YCCD_TOAN9_041": 2,
+      "Dạng tổng quát bất phương trình bậc nhất một ẩn ax + b < 0 (hoặc >, <=, >=) với a khác 0": 3,
+      "Nhận biết bất phương trình bậc nhất một ẩn": 4,
+      "Khái niệm nghiệm của bất phương trình bậc nhất một ẩn": 2,
+      "YCCD_TOAN9_042": 3,
+      "Kiểm tra một số có là nghiệm của bất phương trình bậc nhất một ẩn hay không": 6,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TUHOC_C2_01": 2,
+      "NLT_TOAN_C2_01_01": 2,
+      "NLT_TOAN_C2_04_12": 2
+    },
+    "types_used": {
+      "multichoice": 16,
+      "truefalse": 5,
+      "gapselect": 5,
+      "matching": 4,
+      "ddwtos": 2,
+      "shortanswer": 2,
+      "numerical": 2,
+      "calculatedsimple": 2
+    },
+    "total": 38
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN9_041",
+        "reason": "Khái niệm bất phương trình bậc nhất một ẩn"
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_042",
+        "reason": "Khái niệm nghiệm của bất phương trình bậc nhất một ẩn"
+      },
+      {
+        "metadata_code": "Dạng tổng quát bất phương trình bậc nhất một ẩn ax + b < 0 (hoặc >, <=, >=) với a khác 0",
+        "reason": "Dạng tổng quát bất phương trình bậc nhất một ẩn"
+      },
+      {
+        "metadata_code": "Khái niệm nghiệm của bất phương trình bậc nhất một ẩn",
+        "reason": "Định nghĩa nghiệm và giải bất phương trình"
+      },
+      {
+        "metadata_code": "Nhận biết bất phương trình bậc nhất một ẩn",
+        "reason": "Nhận biết bất phương trình bậc nhất một ẩn"
+      },
+      {
+        "metadata_code": "Kiểm tra một số có là nghiệm của bất phương trình bậc nhất một ẩn hay không",
+        "reason": "Kiểm tra một số có là nghiệm hay không"
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Tình huống thể hiện phẩm chất nỗ lực trong học tập"
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+        "reason": "Đặt mục tiêu và kế hoạch cá nhân bài học"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_01",
+        "reason": "So sánh và phân loại bất phương trình"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_04_12",
+        "reason": "Biểu đạt tình huống thực tế bằng ngôn ngữ toán học"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Nội dung Tiết 1 bài học thuần túy về lý thuyết khái niệm, không chứa hoạt động công nghệ/số."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Bài học không chứa thành tố tương tác tự nhiên với hệ thống trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_041",
+      "questiontext": "Bất phương trình nào sau đây là bất phương trình bậc nhất một ẩn \\(x\\)?",
+      "generalfeedback": "Bất phương trình bậc nhất một ẩn x có dạng \\(ax + b < 0\\) (hoặc \\(>\\), \\(\\le\\), \\(\\ge\\)) với \\(a \\ne 0\\). Do đó \\(3x + 16 \\le 0\\) là bất phương trình bậc nhất một ẩn x.",
+      "answers": [
+        {
+          "text": "\\(3x + 16 \\le 0\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x^2 - 4 > 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(0x + 5 < 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x + y \\ge 0\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Dạng tổng quát bất phương trình bậc nhất một ẩn ax + b < 0 (hoặc >, <=, >=) với a khác 0",
+      "questiontext": "Dạng tổng quát của bất phương trình bậc nhất một ẩn \\(x\\) là hệ thức nào sau đây (với \\(a, b\\) là hai số đã cho)?",
+      "generalfeedback": "Bất phương trình dạng \\(ax + b < 0\\) (hoặc \\(>\\), \\(\\le\\), \\(\\ge\\)) trong đó \\(a, b\\) là hai số đã cho, \\(a \\ne 0\\) được gọi là bất phương trình bậc nhất một ẩn \\(x\\).",
+      "answers": [
+        {
+          "text": "\\(ax + b < 0\\) (với \\(a \\ne 0\\))",
+          "fraction": 100
+        },
+        {
+          "text": "\\(ax^2 + b < 0\\) (với \\(a \\ne 0\\))",
+          "fraction": 0
+        },
+        {
+          "text": "\\(ax + b = 0\\) (với \\(a \\ne 0\\))",
+          "fraction": 0
+        },
+        {
+          "text": "\\(0x + b < 0\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết bất phương trình bậc nhất một ẩn",
+      "questiontext": "Bất phương trình \\(-5x + 5 > 0\\) là bất phương trình bậc nhất một ẩn \\(x\\).",
+      "generalfeedback": "Bất phương trình \\(-5x + 5 > 0\\) có dạng \\(ax + b > 0\\) với \\(a = -5 \\ne 0\\) và \\(b = 5\\), nên đây là bất phương trình bậc nhất một ẩn \\(x\\). Khẳng định trên là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết bất phương trình bậc nhất một ẩn",
+      "questiontext": "Trong các bất phương trình sau, bất phương trình nào KHÔNG PHẢI là bất phương trình bậc nhất một ẩn \\(x\\)?",
+      "generalfeedback": "Bất phương trình \\(x^3 > 0\\) không phải là bất phương trình bậc nhất một ẩn vì vế trái là đa thức bậc ba.",
+      "answers": [
+        {
+          "text": "\\(x^3 > 0\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(-3x + 7 \\le 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(4x - \\frac{3}{2} > 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-3x < 0\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm nghiệm của bất phương trình bậc nhất một ẩn",
+      "questiontext": "Số \\(x_0\\) là một nghiệm của bất phương trình \\(A(x) < B(x)\\) nếu \\(A(x_0) < B(x_0)\\) là khẳng định [[1]]. Giải một bất phương trình là tìm [[3]] các nghiệm của bất phương trình đó.",
+      "generalfeedback": "Theo SGK, số \\(x_0\\) là nghiệm nếu thay vào được khẳng định đúng. Giải bất phương trình là tìm tất cả các nghiệm của bất phương trình đó.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "đúng"
+        },
+        {
+          "group": 1,
+          "text": "sai"
+        },
+        {
+          "group": 1,
+          "text": "tất cả"
+        },
+        {
+          "group": 1,
+          "text": "một vài"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_042",
+      "questiontext": "Cho bất phương trình \\(3x + 8 < 20\\). Giá trị nào sau đây là một nghiệm của bất phương trình?",
+      "generalfeedback": "Thay \\(x = \\frac{4}{3}\\) vào bất phương trình ta được \\(3 \\cdot \\frac{4}{3} + 8 = 4 + 8 = 12 < 20\\) là khẳng định đúng, nên \\(x = \\frac{4}{3}\\) là một nghiệm.",
+      "answers": [
+        {
+          "text": "\\(x = \\frac{4}{3}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x = 5\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x = 6\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x = 10\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Kiểm tra một số có là nghiệm của bất phương trình bậc nhất một ẩn hay không",
+      "questiontext": "Trong các số \\(-2; 0; 5\\), những số nào là nghiệm của bất phương trình \\(2x - 10 < 0\\)?",
+      "generalfeedback": "Thay \\(x = -2\\): \\(2(-2) - 10 = -14 < 0\\) (đúng). Thay \\(x = 0\\): \\(2(0) - 10 = -10 < 0\\) (đúng). Thay \\(x = 5\\): \\(2(5) - 10 = 0 < 0\\) (sai). Do đó cả hai số \\(-2\\) và \\(0\\) là nghiệm.",
+      "answers": [
+        {
+          "text": "Cả hai số \\(-2\\) và \\(0\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ số \\(5\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ số \\(0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Cả ba số \\(-2; 0; 5\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Kiểm tra một số có là nghiệm của bất phương trình bậc nhất một ẩn hay không",
+      "questiontext": "Số \\(x = 5\\) là một nghiệm của bất phương trình \\(3x + 8 < 20\\).",
+      "generalfeedback": "Thay \\(x = 5\\) vào bất phương trình ta được \\(3 \\cdot 5 + 8 = 23 < 20\\) là khẳng định sai. Vậy \\(x = 5\\) không phải là nghiệm. Khẳng định trên là Sai.",
+      "answers": [
+        {
+          "text": "Sai",
+          "fraction": 100
+        },
+        {
+          "text": "Đúng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Dạng tổng quát bất phương trình bậc nhất một ẩn ax + b < 0 (hoặc >, <=, >=) với a khác 0",
+      "questiontext": "Hãy ghép mỗi thành phần ở cột trái với tên gọi tương ứng ở cột phải đối với bất phương trình \\(7x + 18 \\le 100\\):",
+      "generalfeedback": "Trong bất phương trình \\(7x + 18 \\le 100\\), \\(7x + 18\\) là vế trái, \\(100\\) là vế phải và \\(x\\) là ẩn.",
+      "subquestions": [
+        {
+          "question": "\\(7x + 18\\)",
+          "answer": "Vế trái của bất phương trình"
+        },
+        {
+          "question": "\\(100\\)",
+          "answer": "Vế phải của bất phương trình"
+        },
+        {
+          "question": "\\(x\\)",
+          "answer": "Ẩn của bất phương trình"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết bất phương trình bậc nhất một ẩn",
+      "questiontext": "Vế trái của bất phương trình bậc nhất một ẩn \\(3x + 16 \\le 0\\) là biểu thức nào?",
+      "generalfeedback": "Trong bất phương trình \\(3x + 16 \\le 0\\), biểu thức ở vế trái là \\(3x + 16\\).",
+      "answers": [
+        {
+          "text": "\\(3x + 16\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(3x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(16\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_041",
+      "questiontext": "Vế trái của bất phương trình \\(4x - \\frac{3}{2} > 0\\) là biểu thức nào?",
+      "generalfeedback": "Trong bất phương trình \\(4x - \\frac{3}{2} > 0\\), vế trái là \\(4x - \\frac{3}{2}\\).",
+      "answers": [
+        {
+          "text": "\\(4x - \\frac{3}{2}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(4x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-\\frac{3}{2}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Dạng tổng quát bất phương trình bậc nhất một ẩn ax + b < 0 (hoặc >, <=, >=) với a khác 0",
+      "questiontext": "Bất phương trình dạng \\(ax + b < 0\\) (hoặc \\(>\\), \\(\\le\\), \\(\\ge\\)) trong đó \\(a, b\\) là hai số đã cho, \\(a \\ne 0\\) được gọi là bất phương trình [[1]] một ẩn \\(x\\). Bất phương trình \\(x^2 - 4 > 0\\) không phải là bất phương trình bậc nhất một ẩn vì \\(x^2 - 4\\) là một đa thức bậc [[2]].",
+      "generalfeedback": "Bất phương trình bậc nhất một ẩn có dạng ax + b < 0 (a khác 0). Biểu thức x^2 - 4 có bậc bằng 2 nên không phải bậc nhất.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "bậc nhất"
+        },
+        {
+          "group": 1,
+          "text": "bậc hai"
+        },
+        {
+          "group": 1,
+          "text": "bậc ba"
+        },
+        {
+          "group": 1,
+          "text": "bậc không"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_042",
+      "questiontext": "Khẳng định: \"Số \\(0\\) là một nghiệm của bất phương trình \\(2x - 10 < 0\\)\" là Đúng hay Sai?",
+      "generalfeedback": "Thay \\(x = 0\\) vào bất phương trình \\(2x - 10 < 0\\) ta được \\(2(0) - 10 = -10 < 0\\) là một khẳng định đúng. Do đó số 0 là một nghiệm.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Kiểm tra một số có là nghiệm của bất phương trình bậc nhất một ẩn hay không",
+      "questiontext": "Kiểm tra các giá trị \\(x\\) cho ở cột trái xem có phải là nghiệm của bất phương trình \\(3x + 8 < 20\\) hay không và ghép với kết luận tương ứng ở cột phải:",
+      "generalfeedback": "Với x = 4/3: 3*(4/3) + 8 = 12 < 20 (Đúng -> Là nghiệm). Với x = 5: 3*5 + 8 = 23 < 20 (Sai -> Không là nghiệm). Với x = 0: 3*0 + 8 = 8 < 20 (Đúng -> Là nghiệm).",
+      "subquestions": [
+        {
+          "question": "Giá trị \\(x = \\frac{4}{3}\\)",
+          "answer": "Là một nghiệm"
+        },
+        {
+          "question": "Giá trị \\(x = 5\\)",
+          "answer": "Không phải là nghiệm"
+        },
+        {
+          "question": "Giá trị \\(x = 0\\)",
+          "answer": "Là một nghiệm"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm nghiệm của bất phương trình bậc nhất một ẩn",
+      "questiontext": "Điền từ còn thiếu vào chỗ trống: \"Giải một bất phương trình là tìm ... các nghiệm của bất phương trình đó.\"",
+      "generalfeedback": "Cụm từ chính xác theo SGK là \"tất cả\".",
+      "answers": [
+        {
+          "text": "tất cả",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Kiểm tra một số có là nghiệm của bất phương trình bậc nhất một ẩn hay không",
+      "questiontext": "Cho bất phương trình \\(7x + 18 \\le 100\\). Khi thay \\(x = 10\\) vào vế trái \\(7x + 18\\), giá trị thu được bằng bao nhiêu? (Chỉ điền số)",
+      "generalfeedback": "Thay x = 10 vào vế trái: 7*10 + 18 = 70 + 18 = 88.",
+      "answers": [
+        {
+          "text": "88",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "thong_hieu",
+      "metadata_code": "Kiểm tra một số có là nghiệm của bất phương trình bậc nhất một ẩn hay không",
+      "questiontext": "Cho bất phương trình \\(x - a \\ge 0\\). Với giá trị \\(a =\\) {a}, khi thay giá trị \\(x =\\) {a} + 5 vào vế trái \\(x - a\\), giá trị của vế trái bằng bao nhiêu?",
+      "generalfeedback": "Thay x = {a} + 5 vào vế trái x - a thu được ({a} + 5) - {a} = 5.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}+5-{a}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết bất phương trình bậc nhất một ẩn",
+      "questiontext": "Bất phương trình nào sau đây tương đương với việc chuyển vế trong bất phương trình \\(7x + 18 \\le 100\\) về dạng \\(ax + b \\le 0\\)?",
+      "generalfeedback": "Chuyển 100 sang vế trái: 7x + 18 - 100 <= 0 hay 7x - 82 <= 0.",
+      "answers": [
+        {
+          "text": "\\(7x - 82 \\le 0\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(7x + 118 \\le 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(7x - 100 \\le 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(7x + 82 \\le 0\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_042",
+      "questiontext": "Thay giá trị \\(x = 5\\) vào bất phương trình \\(3x + 8 < 20\\), ta được \\(3 \\cdot 5 + 8 < 20\\) là một khẳng định [[1]]. Ta nói số 5 [[2]] là nghiệm của bất phương trình.",
+      "generalfeedback": "3*5 + 8 = 23 < 20 là khẳng định sai, nên 5 không phải là nghiệm.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "sai"
+        },
+        {
+          "group": 1,
+          "text": "đúng"
+        },
+        {
+          "group": 1,
+          "text": "không phải"
+        },
+        {
+          "group": 1,
+          "text": "chắc chắn"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Kiểm tra một số có là nghiệm của bất phương trình bậc nhất một ẩn hay không",
+      "questiontext": "Trong các số sau, số nào KHÔNG PHẢI là nghiệm của bất phương trình \\(2x - 10 < 0\\)?",
+      "generalfeedback": "Thay x = 5 vào vế trái: 2(5) - 10 = 0 < 0 là khẳng định sai. Vậy x = 5 không phải là nghiệm.",
+      "answers": [
+        {
+          "text": "\\(5\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(-2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(1\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_041",
+      "questiontext": "Vế trái của bất phương trình \\(4x - \\frac{3}{2} > 0\\) là biểu thức nào?",
+      "generalfeedback": "Trong bất phương trình \\(4x - \\frac{3}{2} > 0\\), vế trái là \\(4x - \\frac{3}{2}\\).",
+      "answers": [
+        {
+          "text": "\\(4x - \\frac{3}{2}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(4x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-\\frac{3}{2}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Dạng tổng quát bất phương trình bậc nhất một ẩn ax + b < 0 (hoặc >, <=, >=) với a khác 0",
+      "questiontext": "Bất phương trình dạng \\(ax + b < 0\\) (hoặc \\(>\\), \\(\\le\\), \\(\\ge\\)) trong đó \\(a, b\\) là hai số đã cho, \\(a \\ne 0\\) được gọi là bất phương trình [[1]] một ẩn \\(x\\). Bất phương trình \\(x^2 - 4 > 0\\) không phải là bất phương trình bậc nhất một ẩn vì \\(x^2 - 4\\) là một đa thức bậc [[2]].",
+      "generalfeedback": "Bất phương trình bậc nhất một ẩn có dạng ax + b < 0 (a khác 0). Biểu thức x^2 - 4 có bậc bằng 2 nên không phải bậc nhất.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "bậc nhất"
+        },
+        {
+          "group": 1,
+          "text": "bậc hai"
+        },
+        {
+          "group": 1,
+          "text": "bậc ba"
+        },
+        {
+          "group": 1,
+          "text": "bậc không"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_042",
+      "questiontext": "Khẳng định: \"Số \\(0\\) là một nghiệm của bất phương trình \\(2x - 10 < 0\\)\" là Đúng hay Sai?",
+      "generalfeedback": "Thay \\(x = 0\\) vào bất phương trình \\(2x - 10 < 0\\) ta được \\(2(0) - 10 = -10 < 0\\) là một khẳng định đúng. Do đó số 0 là một nghiệm.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Kiểm tra một số có là nghiệm của bất phương trình bậc nhất một ẩn hay không",
+      "questiontext": "Kiểm tra các giá trị \\(x\\) cho ở cột trái xem có phải là nghiệm của bất phương trình \\(3x + 8 < 20\\) hay không và ghép với kết luận tương ứng ở cột phải:",
+      "generalfeedback": "Với x = 4/3: 3*(4/3) + 8 = 12 < 20 (Đúng -> Là nghiệm). Với x = 5: 3*5 + 8 = 23 < 20 (Sai -> Không là nghiệm). Với x = 0: 3*0 + 8 = 8 < 20 (Đúng -> Là nghiệm).",
+      "subquestions": [
+        {
+          "question": "Giá trị \\(x = \\frac{4}{3}\\)",
+          "answer": "Là một nghiệm"
+        },
+        {
+          "question": "Giá trị \\(x = 5\\)",
+          "answer": "Không phải là nghiệm"
+        },
+        {
+          "question": "Giá trị \\(x = 0\\)",
+          "answer": "Là một nghiệm"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm nghiệm của bất phương trình bậc nhất một ẩn",
+      "questiontext": "Điền từ còn thiếu vào chỗ trống: \"Giải một bất phương trình là tìm ... các nghiệm của bất phương trình đó.\"",
+      "generalfeedback": "Cụm từ chính xác theo SGK là \"tất cả\".",
+      "answers": [
+        {
+          "text": "tất cả",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Kiểm tra một số có là nghiệm của bất phương trình bậc nhất một ẩn hay không",
+      "questiontext": "Cho bất phương trình \\(7x + 18 \\le 100\\). Khi thay \\(x = 10\\) vào vế trái \\(7x + 18\\), giá trị thu được bằng bao nhiêu? (Chỉ điền số)",
+      "generalfeedback": "Thay x = 10 vào vế trái: 7*10 + 18 = 70 + 18 = 88.",
+      "answers": [
+        {
+          "text": "88",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "thong_hieu",
+      "metadata_code": "Kiểm tra một số có là nghiệm của bất phương trình bậc nhất một ẩn hay không",
+      "questiontext": "Cho bất phương trình \\(x - a \\ge 0\\). Với giá trị \\(a =\\) {a}, khi thay giá trị \\(x =\\) {a} + 5 vào vế trái \\(x - a\\), giá trị của vế trái bằng bao nhiêu?",
+      "generalfeedback": "Thay x = {a} + 5 vào vế trái x - a thu được ({a} + 5) - {a} = 5.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}+5-{a}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết bất phương trình bậc nhất một ẩn",
+      "questiontext": "Bất phương trình nào sau đây tương đương với việc chuyển vế trong bất phương trình \\(7x + 18 \\le 100\\) về dạng \\(ax + b \\le 0\\)?",
+      "generalfeedback": "Chuyển 100 sang vế trái: 7x + 18 - 100 <= 0 hay 7x - 82 <= 0.",
+      "answers": [
+        {
+          "text": "\\(7x - 82 \\le 0\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(7x + 118 \\le 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(7x - 100 \\le 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(7x + 82 \\le 0\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_042",
+      "questiontext": "Thay giá trị \\(x = 5\\) vào bất phương trình \\(3x + 8 < 20\\), ta được \\(3 \\cdot 5 + 8 < 20\\) là một khẳng định [[1]]. Ta nói số 5 [[2]] là nghiệm của bất phương trình.",
+      "generalfeedback": "3*5 + 8 = 23 < 20 là khẳng định sai, nên 5 không phải là nghiệm.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "sai"
+        },
+        {
+          "group": 1,
+          "text": "đúng"
+        },
+        {
+          "group": 1,
+          "text": "không phải"
+        },
+        {
+          "group": 1,
+          "text": "chắc chắn"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Kiểm tra một số có là nghiệm của bất phương trình bậc nhất một ẩn hay không",
+      "questiontext": "Trong các số sau, số nào KHÔNG PHẢI là nghiệm của bất phương trình \\(2x - 10 < 0\\)?",
+      "generalfeedback": "Thay x = 5 vào vế trái: 2(5) - 10 = 0 < 0 là khẳng định sai. Vậy x = 5 không phải là nghiệm.",
+      "answers": [
+        {
+          "text": "\\(5\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(-2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(1\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Bạn Thanh gặp bài toán: \"Thanh có 100 nghìn đồng, mua một cái bút giá 18 nghìn đồng và \\(x\\) quyển vở giá 7 nghìn đồng/quyển. Tìm số vở nhiều nhất Thanh mua được.\" Khi thấy việc nhẩm bất phương trình \\(7x + 18 \\le 100\\) hơi phức tạp, Thanh nên chọn thái độ và hành động nào dưới đây để thể hiện sự nỗ lực vươn lên đạt kết quả tốt trong học tập?",
+      "generalfeedback": "Để thể hiện phẩm chất luôn cố gắng vươn lên trong học tập, học sinh cần kiên trì tự suy nghĩ, thử các giá trị hoặc từng bước biến đổi bất phương trình để tìm ra đáp số chính xác thay vì bỏ cuộc hay chép bài.",
+      "answers": [
+        {
+          "text": "Kiên trì thử các giá trị của \\(x\\) hoặc từng bước biến đổi bất phương trình để tìm đáp số chính xác.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua không làm bài toán vì thấy nội dung phức tạp.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép ngay đáp án của bạn bên cạnh để nộp cho kịp giờ.",
+          "fraction": 0
+        },
+        {
+          "text": "Đoán đại một số bất kỳ mà không cần kiểm tra lại.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Hành vi: \"Khi làm bài tập kiểm tra nghiệm của bất phương trình \\(2x - 10 < 0\\), học sinh tự giác thay từng số vào vế trái và tính toán cẩn thận để tìm ra đáp án đúng thay vì chọn bừa\" là biểu hiện của phẩm chất luôn cố gắng vươn lên đạt kết quả tốt trong học tập.",
+      "generalfeedback": "Tự giác, cẩn thận tính toán và kiên trì tìm lời giải đúng thể hiện thái độ học tập nghiêm túc, luôn nỗ lực vươn lên.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Để đạt mục tiêu học tập làm chủ kiến thức \"Khái niệm bất phương trình bậc nhất một ẩn\" trong tuần này, bạn An lập kế hoạch cá nhân. Phương án nào dưới đây thể hiện việc đặt mục tiêu và kế hoạch hành động hợp lý nhất của An?",
+      "generalfeedback": "Mục tiêu học tập hợp lý cần cụ thể, gắn liền với các yêu cầu cần đạt của bài học (nhận biết dạng tổng quát, kiểm tra nghiệm) và có kế hoạch luyện tập cẩn thận.",
+      "answers": [
+        {
+          "text": "Đặt mục tiêu nhận biết chính xác dạng tổng quát \\(ax + b < 0\\) (\\(a \\ne 0\\)) và luyện tập kiểm tra nghiệm qua các bài tập SGK.",
+          "fraction": 100
+        },
+        {
+          "text": "Đặt mục tiêu học thuộc lòng định nghĩa mà không cần làm bài tập vận dụng.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ tập trung giải các bài toán nâng cao khó khi chưa nắm vững khái niệm vế trái, vế phải.",
+          "fraction": 0
+        },
+        {
+          "text": "Để đến sát ngày kiểm tra mới bắt đầu mở sách giáo khoa ra xem.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Khi tự đặt mục tiêu học tập cho bài Bất phương trình bậc nhất một ẩn, bạn Bình đặt ra hai nhiệm vụ: Thứ nhất, nhận biết đúng dạng tổng quát [[1]] với \\(a \\ne 0\\). Thứ hai, biết kiểm tra một số có phải là [[2]] của bất phương trình hay không.",
+      "generalfeedback": "Hai nhiệm vụ cốt lõi phù hợp với mục tiêu bài học là nhận biết dạng tổng quát ax + b < 0 (hoặc >, <=, >=) và kiểm tra nghiệm.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(ax + b < 0\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(ax^2 + b = 0\\)"
+        },
+        {
+          "group": 1,
+          "text": "nghiệm"
+        },
+        {
+          "group": 1,
+          "text": "ẩn số"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Khi thực hiện thao tác tư duy so sánh giữa phương trình bậc nhất một ẩn \\(3x + 16 = 0\\) và bất phương trình bậc nhất một ẩn \\(3x + 16 \\le 0\\), nhận xét nào dưới đây chỉ ra điểm khác biệt cốt lõi về quan hệ giữa hai vế?",
+      "generalfeedback": "Phương trình sử dụng dấu bằng \\(=\\) thể hiện quan hệ bằng nhau giữa hai vế, trong khi bất phương trình sử dụng dấu bất đẳng thức \\(\\le\\) thể hiện quan hệ thứ tự.",
+      "answers": [
+        {
+          "text": "Phương trình dùng dấu đẳng thức \\(=\\), còn bất phương trình dùng dấu bất đẳng thức \\(\\le\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Phương trình có vế trái là \\(3x + 16\\), còn bất phương trình không có vế trái.",
+          "fraction": 0
+        },
+        {
+          "text": "Phương trình có chứa ẩn \\(x\\), còn bất phương trình không chứa ẩn \\(x\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Phương trình luôn có vô số nghiệm, còn bất phương trình luôn chỉ có một nghiệm duy nhất.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Thực hiện thao tác tư duy phân loại các hệ thức sau vào đúng nhóm tương ứng:",
+      "generalfeedback": "Bất phương trình bậc nhất một ẩn có dạng ax + b < 0 (hoặc >, <=, >=) với a khác 0. Các hệ thức chứa x^2 hoặc x^3 không thuộc dạng bậc nhất một ẩn.",
+      "subquestions": [
+        {
+          "question": "\\(-3x + 7 \\le 0\\)",
+          "answer": "Bất phương trình bậc nhất một ẩn x"
+        },
+        {
+          "question": "\\(x^2 - 4 > 0\\)",
+          "answer": "Không phải bất phương trình bậc nhất một ẩn x"
+        },
+        {
+          "question": "\\(4x - \\frac{3}{2} > 0\\)",
+          "answer": "Bất phương trình bậc nhất một ẩn x"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_04_12",
+      "questiontext": "Tình huống thực tế: \"Bạn Thanh có 100 nghìn đồng. Bạn muốn mua một cái bút giá 18 nghìn đồng và \\(x\\) quyển vở với giá 7 nghìn đồng mỗi quyển sao cho tổng số tiền không vượt quá số tiền Thanh có.\" Hãy dùng ngôn ngữ toán học để biểu đạt tình huống trên dưới dạng một bất phương trình bậc nhất một ẩn \\(x\\).",
+      "generalfeedback": "Tổng số tiền mua vở và bút là \\(7x + 18\\). Điều kiện \"không vượt quá 100 nghìn đồng\" được biểu đạt bằng ngôn ngữ toán học là \\(7x + 18 \\le 100\\).",
+      "answers": [
+        {
+          "text": "\\(7x + 18 \\le 100\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(7x + 18 = 100\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(7x + 18 > 100\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(18x + 7 \\le 100\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04_12",
+      "questiontext": "Khi chuyển đổi từ ngôn ngữ thông thường sang ngôn ngữ toán học: Cụm từ \"giá trị vế trái nhỏ hơn hoặc bằng vế phải\" được biểu đạt bằng ký hiệu [[1]]. Cụm từ \"giá trị vế trái lớn hơn vế phải\" được biểu đạt bằng ký hiệu [[2]].",
+      "generalfeedback": "Ký hiệu \"nhỏ hơn hoặc bằng\" là <=, ký hiệu \"lớn hơn\" là >.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(\\le\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(>\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(=\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\ge\\)"
+        }
+      ]
+    }
+  ]
+}

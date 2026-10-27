@@ -1,0 +1,658 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 25,
+    "metadata_used": {
+      "Khái niệm góc ở tâm và cung bị chắn": 3,
+      "YCCD_TOAN9_075": 2,
+      "Mối liên hệ giữa số đo của cung và số đo góc ở tâm": 3,
+      "YCCD_TOAN9_077": 3,
+      "Tính số đo cung bị chắn bởi góc ở tâm": 5,
+      "So sánh hai cung dựa vào hai dây tương ứng": 4,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_TCTH_TUHOC_C2_01": 1,
+      "SUB_GTHT_XACDINHMD_C2_04": 1,
+      "NLT_TOAN_C2_01_03": 1,
+      "NLT_TOAN_C2_04_12": 1
+    },
+    "types_used": {
+      "multichoice": 10,
+      "truefalse": 2,
+      "gapselect": 3,
+      "ddwtos": 1,
+      "numerical": 2,
+      "calculated": 1,
+      "shortanswer": 2,
+      "matching": 2,
+      "calculatedsimple": 1,
+      "calculatedmulti": 1
+    },
+    "total": 25
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN9_075",
+        "reason": "Đo lường khả năng nhận biết góc ở tâm."
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_077",
+        "reason": "Đo lường việc giải thích mối liên hệ giữa số đo cung và số đo góc ở tâm."
+      },
+      {
+        "metadata_code": "Khái niệm góc ở tâm và cung bị chắn",
+        "reason": "Đo lường khái niệm góc ở tâm và cung bị chắn."
+      },
+      {
+        "metadata_code": "Mối liên hệ giữa số đo của cung và số đo góc ở tâm",
+        "reason": "Đo lường kiến thức về mối liên hệ giữa số đo của cung và số đo góc ở tâm."
+      },
+      {
+        "metadata_code": "Tính số đo cung bị chắn bởi góc ở tâm",
+        "reason": "Đo lường kỹ năng tính số đo cung bị chắn bởi góc ở tâm."
+      },
+      {
+        "metadata_code": "So sánh hai cung dựa vào hai dây tương ứng",
+        "reason": "Đo lường kỹ năng so sánh hai cung dựa vào hai dây tương ứng hoặc số đo cung."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đo lường ý chí cố gắng vươn lên trong học tập qua tình huống giải bài toán góc ở tâm."
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+        "reason": "Đo lường khả năng tự đặt mục tiêu học tập có kế hoạch qua việc ôn tập chủ đề cung và dây."
+      },
+      {
+        "metadata_code": "SUB_GTHT_XACDINHMD_C2_04",
+        "reason": "Đo lường kỹ năng sử dụng ngôn ngữ, công thức toán học để trình bày ý tưởng chia mặt đồng hồ."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_03",
+        "reason": "Đo lường khả năng giải thích sự tương đồng và khác biệt giữa cung nhỏ và cung lớn."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_04_12",
+        "reason": "Đo lường kỹ năng sử dụng ngôn ngữ toán học biểu đạt các nội dung toán học về số đo cung."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N",
+        "reason": "Mạch kiến thức hình học thuần túy về cung và dây đường tròn không chứa yếu tố tự nhiên liên quan đến công cụ hay năng lực tin học/số."
+      },
+      {
+        "metadata_code": "A",
+        "reason": "Nội dung bài học không chứa mạch kiến thức tự nhiên liên quan đến ứng dụng hay nguyên lý của trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm góc ở tâm và cung bị chắn",
+      "questiontext": "Góc ở tâm là góc có đỉnh nằm ở vị trí nào so với đường tròn?",
+      "generalfeedback": "Góc ở tâm là góc có đỉnh trùng với tâm của đường tròn.",
+      "answers": [
+        {
+          "text": "Trùng với tâm của đường tròn",
+          "fraction": 100
+        },
+        {
+          "text": "Nằm trên đường tròn",
+          "fraction": 0
+        },
+        {
+          "text": "Nằm ngoài đường tròn",
+          "fraction": 0
+        },
+        {
+          "text": "Nằm trong đường tròn nhưng không trùng với tâm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_075",
+      "imgs": [
+        "_page_1_Picture_14.jpeg"
+      ],
+      "questiontext": "Quan sát Hình 5.9 [img:_page_1_Picture_14.jpeg]. Cho đường tròn \\( (O) \\) với hai điểm \\( A, B \\) thuộc đường tròn. Góc \\( \\widehat{AOB} \\) có đỉnh \\( O \\) trùng với tâm đường tròn được gọi là góc ở tâm.",
+      "generalfeedback": "Đúng. Đỉnh O của góc \\( \\widehat{AOB} \\) trùng với tâm đường tròn nên \\( \\widehat{AOB} \\) là góc ở tâm.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm góc ở tâm và cung bị chắn",
+      "questiontext": "Trong một đường tròn, hai điểm \\( A \\) và \\( B \\) chia đường tròn thành hai phần, mỗi phần gọi là một [[1]]. Góc có đỉnh trùng với tâm đường tròn gọi là [[2]].",
+      "generalfeedback": "Mỗi phần đường tròn chia bởi hai điểm A, B được gọi là một cung tròn. Góc có đỉnh trùng với tâm đường tròn gọi là góc ở tâm.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "cung tròn"
+        },
+        {
+          "group": 1,
+          "text": "góc ở tâm"
+        },
+        {
+          "group": 1,
+          "text": "đường kính"
+        },
+        {
+          "group": 1,
+          "text": "dây cung"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_075",
+      "questiontext": "Cho đường tròn \\( (O) \\) và các điểm \\( A, B, C \\) nằm trên đường tròn đó. Góc nào sau đây KHÔNG PHẢI là góc ở tâm của đường tròn \\( (O) \\)?",
+      "generalfeedback": "Góc \\( \\widehat{ABC} \\) có đỉnh B nằm trên đường tròn (không trùng với tâm O) nên không phải là góc ở tâm.",
+      "answers": [
+        {
+          "text": "\\( \\widehat{ABC} \\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\( \\widehat{AOB} \\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\( \\widehat{BOC} \\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\( \\widehat{AOC} \\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Mối liên hệ giữa số đo của cung và số đo góc ở tâm",
+      "questiontext": "Khẳng định nào sau đây mô tả ĐÚNG mối liên hệ giữa số đo của cung nhỏ và số đo của góc ở tâm chắn cung đó?",
+      "generalfeedback": "Theo quy định về số đo cung, số đo của cung nhỏ bằng số đo của góc ở tâm chắn cung đó.",
+      "answers": [
+        {
+          "text": "Số đo của cung nhỏ bằng số đo của góc ở tâm chắn cung đó",
+          "fraction": 100
+        },
+        {
+          "text": "Số đo của cung nhỏ gấp đôi số đo của góc ở tâm chắn cung đó",
+          "fraction": 0
+        },
+        {
+          "text": "Số đo của cung nhỏ bằng một nửa số đo của góc ở tâm chắn cung đó",
+          "fraction": 0
+        },
+        {
+          "text": "Số đo của cung nhỏ bằng hiệu giữa \\( 180^\\circ \\) và số đo góc ở tâm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_077",
+      "questiontext": "Số đo của nửa đường tròn bằng [[1]]. Số đo của cung lớn bằng hiệu giữa [[2]] và số đo của cung nhỏ có chung hai mút.",
+      "generalfeedback": "Số đo của nửa đường tròn bằng 180°. Số đo cung lớn bằng 360° trừ đi số đo cung nhỏ.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\( 180^\\circ \\)"
+        },
+        {
+          "group": 1,
+          "text": "\\( 360^\\circ \\)"
+        },
+        {
+          "group": 1,
+          "text": "\\( 90^\\circ \\)"
+        },
+        {
+          "group": 1,
+          "text": "\\( 270^\\circ \\)"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính số đo cung bị chắn bởi góc ở tâm",
+      "questiontext": "Cho góc ở tâm \\( \\widehat{AOB} = 75^\\circ \\) chắn cung nhỏ \\( AB \\) trên đường tròn \\( (O) \\). Tính số đo của cung nhỏ \\( AB \\). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Số đo của cung nhỏ bằng số đo của góc ở tâm chắn cung đó, nên sđ AB = 75.",
+      "answers": [
+        {
+          "text": "75",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Tính số đo cung bị chắn bởi góc ở tâm",
+      "questiontext": "Cho góc ở tâm \\( \\widehat AOB \\) có số đo bằng {x} độ chắn cung nhỏ \\( AB \\) của đường tròn \\( (O) \\). Số đo của cung lớn \\( AB \\) bằng bao nhiêu độ? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Số đo cung lớn bằng 360° trừ đi số đo cung nhỏ, nên sđ cung lớn = 360 - {x}.",
+      "wildcards": [
+        {
+          "name": "x",
+          "min": 30.0,
+          "max": 150.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "360-{x}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Mối liên hệ giữa số đo của cung và số đo góc ở tâm",
+      "questiontext": "Hai cung trên cùng một đường tròn được gọi là bằng nhau nếu chúng có cùng yếu tố nào?",
+      "generalfeedback": "Hai cung trên một đường tròn gọi là bằng nhau nếu chúng có cùng số đo.",
+      "answers": [
+        {
+          "text": "số đo",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "So sánh hai cung dựa vào hai dây tương ứng",
+      "questiontext": "Cho đường tròn \\( (O) \\) với góc ở tâm \\( \\widehat{AOB} = 60^\\circ \\) chắn cung nhỏ \\( AB \\) và góc ở tâm \\( \\widehat{COD} = 120^\\circ \\) chắn cung nhỏ \\( CD \\). Hãy ghép mỗi cung ở cột bên trái với số đo tương ứng ở cột bên phải:",
+      "generalfeedback": "sđ cung nhỏ AB = 60°; sđ cung lớn AB = 360° - 60° = 300°; sđ cung nhỏ CD = 120°; sđ cung lớn CD = 360° - 120° = 240°.",
+      "subquestions": [
+        {
+          "question": "Số đo cung nhỏ AB",
+          "answer": "60°"
+        },
+        {
+          "question": "Số đo cung lớn AB",
+          "answer": "300°"
+        },
+        {
+          "question": "Số đo cung nhỏ CD",
+          "answer": "120°"
+        },
+        {
+          "question": "Số đo cung lớn CD",
+          "answer": "240°"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính số đo cung bị chắn bởi góc ở tâm",
+      "questiontext": "Cho góc ở tâm \\( \\widehat{AOB} = 120^\\circ \\) chắn cung nhỏ \\( AB \\) của đường tròn \\( (O) \\). Tính số đo của cung lớn \\( AB \\). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Số đo cung lớn AB = 360° - sđ cung nhỏ AB = 360° - 120° = 240°.",
+      "answers": [
+        {
+          "text": "240",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_077",
+      "questiontext": "Nếu góc ở tâm \\( \\widehat{AOB} \\) là góc bẹt thì mỗi cung \\( AB \\) được gọi là gì?",
+      "generalfeedback": "Khi góc AOB bẹt, hai điểm A và B chia đường tròn thành hai phần bằng nhau, mỗi phần được gọi là một nửa đường tròn.",
+      "answers": [
+        {
+          "text": "Nửa đường tròn",
+          "fraction": 100
+        },
+        {
+          "text": "Cung nhỏ",
+          "fraction": 0
+        },
+        {
+          "text": "Cung lớn",
+          "fraction": 0
+        },
+        {
+          "text": "Đường kính",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm góc ở tâm và cung bị chắn",
+      "questiontext": "Hãy ghép mỗi khái niệm ở cột bên trái với mô tả tương ứng ở cột bên phải:",
+      "generalfeedback": "Góc ở tâm có đỉnh trùng với tâm đường tròn; Cung bị chắn nằm bên trong góc ở tâm; Nửa đường tròn tạo bởi hai mút khi góc ở tâm là góc bẹt.",
+      "subquestions": [
+        {
+          "question": "Góc ở tâm",
+          "answer": "Góc có đỉnh trùng với tâm của đường tròn"
+        },
+        {
+          "question": "Cung bị chắn",
+          "answer": "Cung nằm bên trong góc ở tâm"
+        },
+        {
+          "question": "Nửa đường tròn",
+          "answer": "Cung tạo bởi hai mút khi góc ở tâm bẹt"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "So sánh hai cung dựa vào hai dây tương ứng",
+      "questiontext": "Trên cùng một đường tròn \\( (O) \\), cho hai cung nhỏ \\( AB \\) và \\( CD \\) có số đo lần lượt là \\( 80^\\circ \\) và \\( 100^\\circ \\). Khẳng định nào sau đây là ĐÚNG?",
+      "generalfeedback": "Vì sđ AB = 80° < sđ CD = 100° nên cung nhỏ AB nhỏ hơn cung nhỏ CD.",
+      "answers": [
+        {
+          "text": "Cung \\( AB \\) nhỏ hơn cung \\( CD \\)",
+          "fraction": 100
+        },
+        {
+          "text": "Cung \\( AB \\) bằng cung \\( CD \\)",
+          "fraction": 0
+        },
+        {
+          "text": "Cung \\( AB \\) lớn hơn cung \\( CD \\)",
+          "fraction": 0
+        },
+        {
+          "text": "Không so sánh được hai cung",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Tính số đo cung bị chắn bởi góc ở tâm",
+      "questiontext": "Cho điểm \\( C \\) thuộc cung lớn \\( AB \\) của đường tròn \\( (O) \\). Biết số đo của cung nhỏ \\( AB \\) bằng {a} độ. Số đo của cung lớn \\( ACB \\) bằng bao nhiêu độ? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Số đo cung lớn ACB = 360° - sđ cung nhỏ AB = 360 - {a}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 40.0,
+          "max": 140.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "360-{a}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_077",
+      "questiontext": "Cho ba điểm \\( A, B, C \\) thuộc đường tròn \\( (O) \\) sao cho \\( B \\) nằm trên cung \\( AC \\). Khi đó, số đo của cung \\( BAC \\) bằng [[1]] số đo của cung \\( BA \\) và số đo của cung [[2]].",
+      "generalfeedback": "Nếu A là một điểm thuộc cung BAC thì sđ BAC = sđ BA + sđ AC.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "tổng"
+        },
+        {
+          "group": 1,
+          "text": "AC"
+        },
+        {
+          "group": 1,
+          "text": "hiệu"
+        },
+        {
+          "group": 1,
+          "text": "BC"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Mối liên hệ giữa số đo của cung và số đo góc ở tâm",
+      "questiontext": "Trong một đường tròn, hai cung được gọi là bằng nhau nếu chúng có cùng số đo.",
+      "generalfeedback": "Đúng. Theo định nghĩa, hai cung trên một đường tròn gọi là bằng nhau nếu chúng có cùng số đo.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "So sánh hai cung dựa vào hai dây tương ứng",
+      "questiontext": "Cho hai cung \\( AB \\) và \\( CD \\) trên cùng một đường tròn có số đo lần lượt là \\( 90^\\circ \\) và \\( 90^\\circ \\). Quan hệ giữa hai cung này là gì?",
+      "generalfeedback": "Hai cung trên cùng một đường tròn có cùng số đo 90° nên hai cung đó bằng nhau.",
+      "answers": [
+        {
+          "text": "bằng nhau",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "Tính số đo cung bị chắn bởi góc ở tâm",
+      "questiontext": "Cho đường tròn \\( (O) \\) có góc ở tâm \\( \\widehat AOB = {a} \\) độ. Số đo của cung lớn \\( AB \\) bằng bao nhiêu độ?",
+      "generalfeedback": "Số đo cung lớn bằng 360° trừ số đo góc ở tâm chắn cung nhỏ tương ứng: 360 - {a}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 50.0,
+          "max": 130.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "360-{a}",
+          "fraction": 100
+        },
+        {
+          "text": "180-{a}",
+          "fraction": 0
+        },
+        {
+          "text": "{a}",
+          "fraction": 0
+        },
+        {
+          "text": "360-2*{a}",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "So sánh hai cung dựa vào hai dây tương ứng",
+      "imgs": [
+        "_page_2_Picture_28.jpeg"
+      ],
+      "questiontext": "Cho Hình 5.11 [img:_page_2_Picture_28.jpeg] với tam giác \\( ABC \\) vuông cân tại \\( A \\) nội tiếp đường tròn \\( (O) \\). So sánh số đo của hai cung nhỏ \\( AB \\) và \\( AC \\).",
+      "generalfeedback": "Do tam giác ABC vuông cân tại A nên AO là đường cao đồng thời là đường trung tuyến, suy ra \\( \\widehat{AOB} = \\widehat{AOC} = 90^\\circ \\). Do đó sđ AB = sđ AC = 90°, nên hai cung nhỏ AB và AC bằng nhau.",
+      "answers": [
+        {
+          "text": "Số đo cung nhỏ \\( AB \\) bằng số đo cung nhỏ \\( AC \\)",
+          "fraction": 100
+        },
+        {
+          "text": "Số đo cung nhỏ \\( AB \\) lớn hơn số đo cung nhỏ \\( AC \\)",
+          "fraction": 0
+        },
+        {
+          "text": "Số đo cung nhỏ \\( AB \\) nhỏ hơn số đo cung nhỏ \\( AC \\)",
+          "fraction": 0
+        },
+        {
+          "text": "Không so sánh được",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ học hình học, khi gặp bài toán tìm số đo cung lớn từ góc ở tâm chưa tìm được cách giải ngay, bạn Nam cảm thấy khó khăn và định bỏ qua. Để thể hiện ý chí luôn cố gắng vươn lên đạt kết quả tốt trong học tập, bạn Nam nên thực hiện hành động nào sau đây?",
+      "generalfeedback": "Thể hiện ý chí vươn lên trong học tập là kiên nhẫn suy nghĩ, xem lại kiến thức nền tảng (góc ở tâm, mối liên hệ với số đo cung) và thử lại nhiều lần thay vì từ bỏ hoặc chép bài.",
+      "answers": [
+        {
+          "text": "Kiên nhẫn xem lại khái niệm mối liên hệ giữa số đo góc ở tâm và số đo cung, vẽ lại hình cẩn thận để tìm hướng giải mới.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua ngay bài toán đó để làm các việc riêng khác trong giờ học.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép luôn đáp số từ bài làm của bạn bên cạnh mà không cần tìm hiểu cách làm.",
+          "fraction": 0
+        },
+        {
+          "text": "Chờ thầy cô chữa bài rồi chép vào vở mà không cần tự suy nghĩ trước.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Để chuẩn bị tốt cho bài kiểm tra chủ đề 'Cung và dây của một đường tròn', bạn Hoa lập kế hoạch tự học ở nhà. Mục tiêu học tập nào sau đây thể hiện rõ nét năng lực tự đặt mục tiêu học tập có kế hoạch và nỗ lực phấn đấu?",
+      "generalfeedback": "Đặt mục tiêu học tập hiệu quả cần cụ thể, rõ ràng, tập trung vào việc hiểu kiến thức cốt lõi và luyện tập chủ động.",
+      "answers": [
+        {
+          "text": "Đặt mục tiêu chủ động ôn lại khái niệm góc ở tâm, mối liên hệ giữa số đo cung với góc ở tâm và tự giải thành công 100% các bài tập trong SGK trước buổi học.",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ đặt mục tiêu học thuộc lòng các đáp án bài tập mà không cần hiểu cách tính số đo cung.",
+          "fraction": 0
+        },
+        {
+          "text": "Đặt mục tiêu cầu mong đề kiểm tra ra câu hỏi giống hệt ví dụ trong sách để khoanh đáp án.",
+          "fraction": 0
+        },
+        {
+          "text": "Không cần đặt mục tiêu gì vì chỉ cần đến lớp nghe giảng là đủ.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_04",
+      "questiontext": "Trong buổi thảo luận nhóm về mô hình mặt đồng hồ tròn, bạn Minh muốn trình bày ý tưởng chia mặt đồng hồ thành 12 phần bằng nhau bằng ngôn ngữ toán học kết hợp với ký hiệu và công thức. Cách trình bày nào sau đây là chuẩn xác nhất?",
+      "generalfeedback": "Mặt đồng hồ tròn ứng với đường tròn \\( 360^\\circ \\). Chia thành 12 phần bằng nhau tương ứng với 12 góc ở tâm bằng nhau, mỗi góc có số đo \\( 360^\\circ : 12 = 30^\\circ \\) chắn các cung \\( 30^\\circ \\).",
+      "answers": [
+        {
+          "text": "Cả mặt đồng hồ là đường tròn \\( 360^\\circ \\); chia thành 12 cung bằng nhau thì mỗi góc ở tâm chắn một cung có số đo \\( sđ = 360^\\circ : 12 = 30^\\circ \\).",
+          "fraction": 100
+        },
+        {
+          "text": "Mặt đồng hồ chia thành 12 phần, mỗi phần là một đoạn thẳng có độ dài 12 cm.",
+          "fraction": 0
+        },
+        {
+          "text": "Vẽ 12 đường thẳng song song cắt đường tròn thành các phần không bằng nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Mỗi khoảng giờ tương ứng với một góc ở tâm là góc bẹt \\( 180^\\circ \\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_03",
+      "questiontext": "Xét hai cung \\( AmB \\) (cung nhỏ) và \\( AnB \\) (cung lớn) tạo bởi hai điểm \\( A, B \\) trên đường tròn \\( (O) \\) với góc ở tâm \\( \\widehat{AOB} \\) không bẹt. Khi so sánh sự tương đồng và khác biệt giữa hai cung này, khẳng định nào sau đây là ĐÚNG?",
+      "generalfeedback": "Sự tương đồng: Cả hai cung đều có chung hai đầu mút A và B. Khác biệt: Số đo cung nhỏ bằng số đo góc ở tâm \\( \\widehat{AOB} \\) (không vượt quá \\( 180^\\circ \\)), còn số đo cung lớn bằng \\( 360^\\circ - sđ AmB \\) (luôn lớn hơn \\( 180^\\circ \\)).",
+      "answers": [
+        {
+          "text": "Tương đồng: Có chung hai đầu mút \\( A \\) và \\( B \\). Khác biệt: Số đo cung nhỏ bằng góc ở tâm \\( \\widehat{AOB} \\) (\\( \\le 180^\\circ \\)), số đo cung lớn bằng \\( 360^\\circ - sđ AmB \\) (\\( > 180^\\circ \\)).",
+          "fraction": 100
+        },
+        {
+          "text": "Tương đồng: Có cùng số đo độ. Khác biệt: Cung nhỏ có hai đầu mút, cung lớn không có đầu mút.",
+          "fraction": 0
+        },
+        {
+          "text": "Tương đồng: Đều là nửa đường tròn. Khác biệt: Cung nhỏ nằm trong tâm, cung lớn nằm ngoài tâm.",
+          "fraction": 0
+        },
+        {
+          "text": "Tương đồng: Đều bị chắn bởi góc bẹt. Khác biệt: Cung lớn là đường kính.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04_12",
+      "questiontext": "Để biểu đạt nội dung toán học về số đo cung bằng ngôn ngữ chuẩn xác: Cho góc ở tâm \\( \\widehat{AOB} \\) [[1]] cung nhỏ \\( AB \\). Ký hiệu số đo của cung nhỏ \\( AB \\) là [[2]], và số đo này đúng bằng số đo của góc ở tâm \\( \\widehat{AOB} \\).",
+      "generalfeedback": "Góc ở tâm \\( \\widehat{AOB} \\) chắn cung nhỏ AB. Ký hiệu số đo cung nhỏ AB là sđ AB.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "chắn"
+        },
+        {
+          "group": 1,
+          "text": "sđ AB"
+        },
+        {
+          "group": 1,
+          "text": "cắt"
+        },
+        {
+          "group": 1,
+          "text": "độ dài AB"
+        }
+      ]
+    }
+  ]
+}

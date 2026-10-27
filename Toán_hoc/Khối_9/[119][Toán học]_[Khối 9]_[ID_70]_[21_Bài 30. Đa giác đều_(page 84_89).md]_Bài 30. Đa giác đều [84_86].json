@@ -1,0 +1,418 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 15,
+    "metadata_used": {
+      "Định nghĩa đa giác đều (các cạnh bằng nhau và các góc bằng nhau)": 3,
+      "Công thức tính góc của n-giác đều": 2,
+      "Nhận dạng đa giác đều (tam giác đều, hình vuông, ngũ giác đều, lục giác đều)": 4,
+      "Tính số đo góc của n-giác đều": 4,
+      "YCCD_TOAN9_095": 2,
+      "YCCD_TOAN9_098": 3,
+      "YCCD_TOAN9_099": 2,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_TCTH_TUHOC_C2_01": 1,
+      "SUB_GTHT_XACDINHMD_C2_03": 1,
+      "NLT_TOAN_C2_01_03": 1,
+      "NLT_TOAN_C2_04_12": 1
+    },
+    "types_used": {
+      "multichoice": 8,
+      "truefalse": 1,
+      "gapselect": 1,
+      "calculatedsimple": 1,
+      "matching": 1,
+      "numerical": 1,
+      "shortanswer": 1,
+      "calculated": 1
+    },
+    "total": 15
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "Định nghĩa đa giác đều (các cạnh bằng nhau và các góc bằng nhau)",
+        "reason": "Đo lường định nghĩa đa giác đều, đường tròn ngoại tiếp, tâm đa giác"
+      },
+      {
+        "metadata_code": "Công thức tính góc của n-giác đều",
+        "reason": "Đo lường công thức tính góc của n-giác đều"
+      },
+      {
+        "metadata_code": "Nhận dạng đa giác đều (tam giác đều, hình vuông, ngũ giác đều, lục giác đều)",
+        "reason": "Đo lường kỹ năng nhận dạng các đa giác đều qua hình vẽ, mô tả"
+      },
+      {
+        "metadata_code": "Tính số đo góc của n-giác đều",
+        "reason": "Đo lường kỹ năng tính số đo góc của n-giác đều và góc ở tâm"
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_095",
+        "reason": "Đo lường yêu cầu nhận dạng đa giác đều trong bài toán thực tế, tổng hợp"
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_098",
+        "reason": "Đo lường yêu cầu nhận biết hình phẳng đều trong tự nhiên, kiến trúc, công nghệ"
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_099",
+        "reason": "Đo lường yêu cầu nhận biết vẻ đẹp và tính tối ưu của đa giác đều trong tự nhiên"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N",
+        "reason": "Bài học không thuộc lĩnh vực Công nghệ / Tin học nên không đo lường Năng lực tin học (N)."
+      },
+      {
+        "metadata_code": "A",
+        "reason": "Bài học thuần lý thuyết hình học cổ điển, không liên quan đến Năng lực AI (A)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Định nghĩa đa giác đều (các cạnh bằng nhau và các góc bằng nhau)",
+      "questiontext": "Đa giác đều là một đa giác lồi có đặc điểm nào sau đây?",
+      "generalfeedback": "Định nghĩa đa giác đều: Đa giác đều là một đa giác lồi có các cạnh bằng nhau và các góc bằng nhau.",
+      "answers": [
+        {
+          "text": "Các cạnh bằng nhau và các góc bằng nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Các cạnh bằng nhau nhưng các góc không bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Các góc bằng nhau nhưng các cạnh không bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Có các đường chéo bằng nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Định nghĩa đa giác đều (các cạnh bằng nhau và các góc bằng nhau)",
+      "questiontext": "Mọi đa giác có tất cả các cạnh bằng nhau đều là đa giác đều. Khẳng định này Đúng hay Sai?",
+      "generalfeedback": "Khẳng định này sai vì đa giác đều phải vừa có các cạnh bằng nhau vừa có các góc bằng nhau. Ví dụ hình thoi có các cạnh bằng nhau nhưng các góc không bằng nhau nên không phải đa giác đều.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Định nghĩa đa giác đều (các cạnh bằng nhau và các góc bằng nhau)",
+      "questiontext": "Các đỉnh của mỗi đa giác đều luôn cùng nằm trên một [[1]], đường tròn này được gọi là đường tròn [[2]] đa giác.",
+      "generalfeedback": "Theo SGK, các đỉnh của mỗi đa giác đều luôn cùng nằm trên một đường tròn, gọi là đường tròn ngoại tiếp đa giác.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "đường tròn"
+        },
+        {
+          "group": 1,
+          "text": "ngoại tiếp"
+        },
+        {
+          "group": 1,
+          "text": "nội tiếp"
+        },
+        {
+          "group": 1,
+          "text": "đường thẳng"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Công thức tính góc của n-giác đều",
+      "questiontext": "Công thức tính số đo mỗi góc của một \\(n\\)-giác đều (với \\(n \\ge 3\\)) là:",
+      "generalfeedback": "Tổng các góc trong của \\(n\\)-giác lồi là \\((n - 2) \\times 180^\\circ\\). Do \\(n\\)-giác đều có \\(n\\) góc bằng nhau nên số đo mỗi góc là \\(\\frac{(n - 2) \\times 180^\\circ}{n}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{(n - 2) \\times 180^\\circ}{n}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{n \\times 180^\\circ}{n - 2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{(n - 1) \\times 180^\\circ}{n}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{360^\\circ}{n}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Công thức tính góc của n-giác đều",
+      "questiontext": "Số đo mỗi góc của một đa giác đều có {n} cạnh được tính theo công thức nào?",
+      "generalfeedback": "Công thức tính số đo mỗi góc của đa giác đều {n} cạnh là ({n}-2)*180/{n} độ.",
+      "wildcards": [
+        {
+          "name": "n",
+          "min": 5.0,
+          "max": 12.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "({n}-2)*180/{n}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận dạng đa giác đều (tam giác đều, hình vuông, ngũ giác đều, lục giác đều)",
+      "imgs": [
+        "_page_2_Picture_1.jpeg"
+      ],
+      "questiontext": "Quan sát hình vẽ sau đây:\n[img:_page_2_Picture_1.jpeg]\nTrong các hình a, b, c, d trên, hình nào là đa giác đều?",
+      "generalfeedback": "Hình a không phải đa giác lồi, hình b (hình thoi) có các góc không bằng nhau, hình c có các cạnh không bằng nhau. Chỉ có hình d (hình vuông) có các cạnh bằng nhau và các góc bằng nhau nên là đa giác đều.",
+      "answers": [
+        {
+          "text": "Hình d",
+          "fraction": 100
+        },
+        {
+          "text": "Hình a",
+          "fraction": 0
+        },
+        {
+          "text": "Hình b",
+          "fraction": 0
+        },
+        {
+          "text": "Hình c",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận dạng đa giác đều (tam giác đều, hình vuông, ngũ giác đều, lục giác đều)",
+      "questiontext": "Hãy ghép mỗi đa giác đều sau đây với số cạnh tương ứng của nó:",
+      "generalfeedback": "Tam giác đều có 3 cạnh, hình vuông có 4 cạnh, ngũ giác đều có 5 cạnh, lục giác đều có 6 cạnh, bát giác đều có 8 cạnh.",
+      "subquestions": [
+        {
+          "question": "Tam giác đều",
+          "answer": "3 cạnh"
+        },
+        {
+          "question": "Hình vuông",
+          "answer": "4 cạnh"
+        },
+        {
+          "question": "Ngũ giác đều",
+          "answer": "5 cạnh"
+        },
+        {
+          "question": "Lục giác đều",
+          "answer": "6 cạnh"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Tính số đo góc của n-giác đều",
+      "questiontext": "Số đo mỗi góc của một ngũ giác đều bằng bao nhiêu độ? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Số đo mỗi góc của ngũ giác đều là \\(\\frac{(5 - 2) \\times 180^\\circ}{5} = \\frac{3 \\times 180^\\circ}{5} = 108^\\circ\\).",
+      "answers": [
+        {
+          "text": "108",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Tính số đo góc của n-giác đều",
+      "questiontext": "Số đo mỗi góc của một lục giác đều bằng bao nhiêu độ? (Chỉ điền số)",
+      "generalfeedback": "Số đo mỗi góc của lục giác đều là \\(\\frac{(6 - 2) \\times 180^\\circ}{6} = 120^\\circ\\).",
+      "answers": [
+        {
+          "text": "120",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Tính số đo góc của n-giác đều",
+      "questiontext": "Một đa giác đều có {n} cạnh nội tiếp đường tròn tâm O. Tính số đo góc ở tâm tạo bởi hai đỉnh liên tiếp của đa giác đều đó (theo đơn vị độ). (Chỉ điền số)",
+      "generalfeedback": "Góc ở tâm tạo bởi hai đỉnh liên tiếp của đa giác đều {n} cạnh có số đo bằng 360/{n} độ.",
+      "wildcards": [
+        {
+          "name": "n",
+          "min": 3.0,
+          "max": 12.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "360/{n}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi gặp một bài toán khó về tính góc của đa giác đều 12 cạnh, bạn Nam thử làm một lần nhưng không ra kết quả và cảm thấy nản lòng. Nếu là Nam, em nên thể hiện thái độ học tập tích cực như thế nào để vượt qua khó khăn?",
+      "generalfeedback": "Thái độ cố gắng vươn lên trong học tập biểu hiện qua việc không nản lòng trước bài toán khó, biết kiên trì xem lại công thức \\(\\frac{(n-2) \\times 180^\\circ}{n}\\) và trao đổi với thầy cô, bạn bè.",
+      "answers": [
+        {
+          "text": "Kiên trì xem lại công thức tính góc đa giác đều, thử phân tích lại bài toán và hỏi giáo viên hoặc bạn bè nếu chưa hiểu",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài toán đó và chép đáp án của bạn khác để nộp cho xong",
+          "fraction": 0
+        },
+        {
+          "text": "Đóng sách lại và không tiếp tục học phần đa giác đều nữa vì quá khó",
+          "fraction": 0
+        },
+        {
+          "text": "Cho rằng bài toán nằm ngoài chương trình nên không cần nỗ lực làm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Để chủ động nắm vững kiến thức bài 'Đa giác đều' trong 2 tiết học, kế hoạch đặt mục tiêu cá nhân nào sau đây là cụ thể và phù hợp nhất?",
+      "generalfeedback": "Đặt mục tiêu học tập hiệu quả cần rõ ràng, có các tiêu chí đo lường cụ thể gắn liền với YCCĐ của bài học (như định nghĩa, nhận dạng trong thực tế và tính được góc của đa giác đều).",
+      "answers": [
+        {
+          "text": "Mục tiêu 1: Nắm chắc định nghĩa đa giác đều và nhận dạng được các hình phẳng đều trong thực tế; Mục tiêu 2: Thành thạo công thức tính góc của n-giác đều",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ cần đến lớp nghe giảng đầy đủ mà không cần tự ôn tập hay làm bài tập",
+          "fraction": 0
+        },
+        {
+          "text": "Đọc qua SGK một lần và không cần làm bài tập vận dụng",
+          "fraction": 0
+        },
+        {
+          "text": "Đặt mục tiêu học thuộc lòng toàn bộ SGK trong 5 phút mà không cần hiểu bản chất",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "imgs": [
+        "_page_1_Picture_25.jpeg"
+      ],
+      "questiontext": "Đọc thông tin và quan sát hình ảnh sau:\n[img:_page_1_Picture_25.jpeg]\n'Trong xây dựng và nội thất, gạch lát sàn hình vuông được sử dụng rất phổ biến vì các viên gạch hình vuông có thể ghép sát nhau phủ kín mặt phẳng mà không tạo ra khoảng trống.'\nThông tin trên thể hiện sự kết hợp giữa kiến thức đa giác đều và ứng dụng nào trong đời sống?",
+      "generalfeedback": "Văn bản kết hợp hình ảnh minh họa về gạch lát sàn hình vuông (một đa giác đều 4 cạnh) cho thấy tính ứng dụng của đa giác đều trong việc sắp xếp tối ưu và phủ kín mặt phẳng trong kiến trúc/xây dựng.",
+      "answers": [
+        {
+          "text": "Ứng dụng tính chất ghép sát phủ kín mặt phẳng của đa giác đều trong kiến trúc và xây dựng",
+          "fraction": 100
+        },
+        {
+          "text": "Ứng dụng tính toán khối lượng nguyên vật liệu trong công nghiệp luyện kim",
+          "fraction": 0
+        },
+        {
+          "text": "Ứng dụng phép quay để làm cho gạch di chuyển trên sàn nhà",
+          "fraction": 0
+        },
+        {
+          "text": "Ứng dụng tính số đo góc để đo nhiệt độ phòng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_03",
+      "questiontext": "So sánh hình thoi (chưa phải hình vuông) và hình vuông, điểm khác biệt cốt lõi khiến hình thoi không phải là đa giác đều là gì?",
+      "generalfeedback": "Cả hình thoi và hình vuông đều có 4 cạnh bằng nhau, nhưng hình thoi (chưa là hình vuông) có các góc không bằng nhau. Đa giác đều bắt buộc phải có cả các cạnh bằng nhau và các góc bằng nhau.",
+      "answers": [
+        {
+          "text": "Hình thoi có các cạnh bằng nhau nhưng các góc không bằng nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Hình thoi có các góc bằng nhau nhưng các cạnh không bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Hình thoi không phải là đa giác lồi",
+          "fraction": 0
+        },
+        {
+          "text": "Hình thoi có các đường chéo không cắt nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_04_12",
+      "questiontext": "Cách diễn đạt nào sau đây kết hợp chính xác giữa ngôn ngữ thông thường và ngôn ngữ toán học để giải thích vì sao tam giác ABC đều là một đa giác đều?",
+      "generalfeedback": "Tam giác ABC đều có 3 cạnh bằng nhau (\\(AB = BC = CA\\)) và 3 góc bằng nhau (\\(\\widehat{A} = \\widehat{B} = \\widehat{C} = 60^\\circ\\)), đồng thời là đa giác lồi nên theo định nghĩa đây là một đa giác đều.",
+      "answers": [
+        {
+          "text": "Tam giác ABC là đa giác lồi có ba cạnh bằng nhau (\\(AB = BC = CA\\)) và ba góc bằng nhau (\\(\\widehat{A} = \\widehat{B} = \\widehat{C} = 60^\\circ\\)) nên là đa giác đều",
+          "fraction": 100
+        },
+        {
+          "text": "Tam giác ABC có 3 góc nhọn nên đương nhiên là đa giác đều",
+          "fraction": 0
+        },
+        {
+          "text": "Tam giác ABC nội tiếp đường tròn nên mọi tam giác nội tiếp đều là đa giác đều",
+          "fraction": 0
+        },
+        {
+          "text": "Tam giác ABC có ba đỉnh A, B, C nằm trên mặt phẳng nên là đa giác đều",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

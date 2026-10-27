@@ -1,0 +1,915 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 38,
+    "metadata_used": {
+      "Công thức nồng độ phần trăm C% = (m_ct / m_dd) * 100%": 5,
+      "Nguyên tắc cân bằng khối lượng chất tan trong bài toán trộn dung dịch": 3,
+      "Lập hệ phương trình bậc nhất hai ẩn cho bài toán pha chế dung dịch": 4,
+      "Tính khối lượng chất tan và dung môi cần lấy": 5,
+      "YCCD_TOAN9_134": 3,
+      "SUB_CHAMCHI_HAMHOC_C2_03": 1,
+      "SUB_TRACHNHIEM_BANTHAN_C2_05": 1,
+      "SUB_GQVD_DEXUAT_C2_01": 1,
+      "SUB_TCTH_THICHUNG_C2_01": 1,
+      "NLT_TOAN_C2_02_05": 1,
+      "NLT_TOAN_C2_02_08": 1,
+      "1.1TC2a_K9": 1,
+      "9.A3.1_2": 1
+    },
+    "types_used": {
+      "multichoice": 17,
+      "truefalse": 4,
+      "shortanswer": 3,
+      "numerical": 3,
+      "gapselect": 3,
+      "calculated": 1,
+      "matching": 3,
+      "calculatedsimple": 2,
+      "calculatedmulti": 2
+    },
+    "total": 38
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN9_134",
+        "reason": "Đo lường việc vận dụng kiến thức hệ phương trình bậc nhất hai ẩn để cân bằng phương trình hóa học"
+      },
+      {
+        "metadata_code": "Công thức nồng độ phần trăm C% = (m_ct / m_dd) * 100%",
+        "reason": "Đo lường kiến thức về công thức nồng độ phần trăm C%"
+      },
+      {
+        "metadata_code": "Nguyên tắc cân bằng khối lượng chất tan trong bài toán trộn dung dịch",
+        "reason": "Đo lường kiến thức về nguyên tắc bảo toàn khối lượng chất tan trong bài toán trộn dung dịch"
+      },
+      {
+        "metadata_code": "Lập hệ phương trình bậc nhất hai ẩn cho bài toán pha chế dung dịch",
+        "reason": "Đo lường kĩ năng lập hệ phương trình bậc nhất hai ẩn cho bài toán pha chế dung dịch"
+      },
+      {
+        "metadata_code": "Tính khối lượng chất tan và dung môi cần lấy",
+        "reason": "Đo lường kĩ năng tính khối lượng chất tan và dung môi cần lấy"
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức nồng độ phần trăm C% = (m_ct / m_dd) * 100%",
+      "questiontext": "Công thức tính nồng độ phần trăm \\(C\\%\\) của dung dịch là:",
+      "generalfeedback": "Công thức tính nồng độ phần trăm là \\(C\\% = \\frac{m_{ct}}{m_{dd}} \\times 100\\%\\), trong đó \\(m_{ct}\\) là khối lượng chất tan và \\(m_{dd}\\) là khối lượng dung dịch.",
+      "answers": [
+        {
+          "text": "\\(C\\% = \\frac{m_{ct}}{m_{dd}} \\times 100\\%\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(C\\% = \\frac{m_{dd}}{m_{ct}} \\times 100\\%\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(C\\% = \\frac{m_{ct}}{m_{dm}} \\times 100\\%\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(C\\% = \\frac{m_{dm}}{m_{dd}} \\times 100\\%\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức nồng độ phần trăm C% = (m_ct / m_dd) * 100%",
+      "questiontext": "Khối lượng dung dịch \\(m_{dd}\\) bằng tổng khối lượng chất tan \\(m_{ct}\\) và khối lượng dung môi \\(m_{dm}\\).",
+      "generalfeedback": "Đúng. Công thức tính khối lượng dung dịch là \\(m_{dd} = m_{ct} + m_{dm}\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Nguyên tắc cân bằng khối lượng chất tan trong bài toán trộn dung dịch",
+      "questiontext": "Khi trộn hai dung dịch cùng chất tan có khối lượng và nồng độ phần trăm lần lượt là \\(m_1, C_1\\%\\) và \\(m_2, C_2\\%\\) thu được dung dịch mới có khối lượng \\(m\\) và nồng độ \\(C\\%\\). Nguyên tắc bảo toàn khối lượng chất tan được biểu diễn bằng công thức nào?",
+      "generalfeedback": "Khối lượng chất tan trong dung dịch mới bằng tổng khối lượng chất tan của hai dung dịch ban đầu: \\(m_1 \\cdot C_1\\% + m_2 \\cdot C_2\\% = (m_1 + m_2) \\cdot C\\%\\).",
+      "answers": [
+        {
+          "text": "\\(m_1 \\cdot C_1\\% + m_2 \\cdot C_2\\% = (m_1 + m_2) \\cdot C\\%\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(m_1 \\cdot C_1\\% - m_2 \\cdot C_2\\% = (m_1 + m_2) \\cdot C\\%\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(m_1 \\cdot C_2\\% + m_2 \\cdot C_1\\% = (m_1 + m_2) \\cdot C\\%\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{m_1}{C_1\\%} + \\frac{m_2}{C_2\\%} = \\frac{m_1 + m_2}{C\\%}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Nguyên tắc cân bằng khối lượng chất tan trong bài toán trộn dung dịch",
+      "questiontext": "Hòa tan 20 g đường vào 80 g nước tinh khiết. Khối lượng dung dịch đường thu được là bao nhiêu gam? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Khối lượng dung dịch bằng khối lượng chất tan cộng khối lượng dung môi: \\(m_{dd} = 20 + 80 = 100\\) g.",
+      "answers": [
+        {
+          "text": "100",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Lập hệ phương trình bậc nhất hai ẩn cho bài toán pha chế dung dịch",
+      "questiontext": "Cần pha trộn bao nhiêu gam dung dịch muối 10% (gọi khối lượng là \\(x\\) gam) và bao nhiêu gam dung dịch muối 30% (gọi khối lượng là \\(y\\) gam) để thu được 200 g dung dịch muối 15%? Hệ phương trình bậc nhất hai ẩn biểu thị bài toán là:",
+      "generalfeedback": "Khối lượng dung dịch: \\(x + y = 200\\). Khối lượng chất tan: \\(10\\%x + 30\\%y = 15\\% \\times 200 \\Leftrightarrow 0,1x + 0,3y = 30\\).",
+      "answers": [
+        {
+          "text": "\\(\\begin{cases} x + y = 200 \\\\ 0,1x + 0,3y = 30 \\end{cases}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\begin{cases} x + y = 200 \\\\ 10x + 30y = 15 \\end{cases}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\begin{cases} x + y = 200 \\\\ 0,1x + 0,3y = 15 \\end{cases}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\begin{cases} x - y = 200 \\\\ 0,1x + 0,3y = 30 \\end{cases}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính khối lượng chất tan và dung môi cần lấy",
+      "questiontext": "Tính khối lượng đường (gam) cần lấy để pha chế 150 g dung dịch đường nồng độ 12%. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Khối lượng đường cần lấy: \\(m_{ct} = \\frac{150 \\times 12}{100} = 18\\) g.",
+      "answers": [
+        {
+          "text": "18",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_134",
+      "questiontext": "Dùng hệ phương trình bậc nhất hai ẩn để cân bằng phương trình hóa học sau: \\(x Fe + y O_2 \\rightarrow Fe_3O_4\\). Tỷ lệ \\(x : y\\) thu được là:",
+      "generalfeedback": "Cân bằng Fe: \\(x = 3\\). Cân bằng O: \\(2y = 4 \\Rightarrow y = 2\\). Vậy tỷ lệ \\(x : y = 3 : 2\\).",
+      "answers": [
+        {
+          "text": "3 : 2",
+          "fraction": 100
+        },
+        {
+          "text": "1 : 2",
+          "fraction": 0
+        },
+        {
+          "text": "2 : 3",
+          "fraction": 0
+        },
+        {
+          "text": "3 : 4",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "van_dung",
+      "metadata_code": "Lập hệ phương trình bậc nhất hai ẩn cho bài toán pha chế dung dịch",
+      "questiontext": "Khi lập hệ phương trình cho bài toán trộn hai dung dịch cùng chất tan, phương trình thứ nhất biểu diễn sự bảo toàn [[1]], phương trình thứ hai biểu diễn sự bảo toàn [[2]].",
+      "generalfeedback": "Phương trình thứ nhất thể hiện sự bảo toàn khối lượng dung dịch, phương trình thứ hai thể hiện sự bảo toàn khối lượng chất tan.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "khối lượng dung dịch"
+        },
+        {
+          "group": 1,
+          "text": "khối lượng chất tan"
+        },
+        {
+          "group": 1,
+          "text": "nồng độ phần trăm"
+        },
+        {
+          "group": 1,
+          "text": "thể tích dung môi"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Tính khối lượng chất tan và dung môi cần lấy",
+      "questiontext": "Muốn pha chế m g dung dịch muối nồng độ 10%, cần lấy bao nhiêu gam muối tinh khiết? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Khối lượng muối cần lấy là \\(m_{ct} = \\frac{{m} \\times 10}{100} = {m} \\times 0.1\\) gam.",
+      "wildcards": [
+        {
+          "name": "m",
+          "min": 100.0,
+          "max": 500.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{m}*0.1",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_134",
+      "questiontext": "Hãy ghép cặp mỗi phương trình hóa học chưa cân bằng với hệ số cân bằng \\((x, y)\\) tương ứng khi viết dưới dạng \\(x A + y B \\rightarrow ...\\):",
+      "generalfeedback": "Cân bằng số nguyên tử của mỗi nguyên tố ở hai thế của phương trình hóa học để tìm các hệ số \\(x, y\\).",
+      "subquestions": [
+        {
+          "question": "\\(x H_2 + y O_2 \\rightarrow 2 H_2O\\)",
+          "answer": "x = 2, y = 1"
+        },
+        {
+          "question": "\\(x N_2 + y H_2 \\rightarrow 2 NH_3\\)",
+          "answer": "x = 1, y = 3"
+        },
+        {
+          "question": "\\(x Al + y O_2 \\rightarrow 2 Al_2O_3\\)",
+          "answer": "x = 4, y = 3"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Công thức nồng độ phần trăm C% = (m_ct / m_dd) * 100%",
+      "questiontext": "Một dung dịch chứa 15 g đường hòa tan trong 135 g nước. Nồng độ phần trăm của dung dịch đường này là bao nhiêu?",
+      "generalfeedback": "Khối lượng dung dịch \\(m_{dd} = 15 + 135 = 150\\) g. Nồng độ phần trăm \\(C\\% = \\frac{15}{150} \\times 100\\% = 10\\%\\).",
+      "answers": [
+        {
+          "text": "10%",
+          "fraction": 100
+        },
+        {
+          "text": "11,1%",
+          "fraction": 0
+        },
+        {
+          "text": "15%",
+          "fraction": 0
+        },
+        {
+          "text": "12%",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Nguyên tắc cân bằng khối lượng chất tan trong bài toán trộn dung dịch",
+      "questiontext": "Trong bài toán pha trộn hai dung dịch cùng chất tan, tổng khối lượng chất tan trong hai dung dịch ban đầu luôn bằng khối lượng chất tan trong dung dịch thu được.",
+      "generalfeedback": "Đúng. Đây là nguyên tắc bảo toàn khối lượng chất tan.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Tính khối lượng chất tan và dung môi cần lấy",
+      "questiontext": "Cần thêm bao nhiêu gam nước tinh khiết vào 50 g muối tinh khiết để pha thành dung dịch muối 20%? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Khối lượng dung dịch \\(m_{dd} = \\frac{50 \\times 100}{20} = 250\\) g. Khối lượng nước cần dùng \\(m_{dm} = 250 - 50 = 200\\) g.",
+      "answers": [
+        {
+          "text": "200",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Lập hệ phương trình bậc nhất hai ẩn cho bài toán pha chế dung dịch",
+      "questiontext": "Muốn pha 300 g dung dịch đường 20% từ hai dung dịch đường 10% (khối lượng \\(x\\) gam) và 25% (khối lượng \\(y\\) gam), ta lập được hệ phương trình nào sau đây?",
+      "generalfeedback": "Khối lượng dung dịch: \\(x + y = 300\\). Khối lượng chất tan: \\(0,1x + 0,25y = 0,2 \\times 300 = 60\\).",
+      "answers": [
+        {
+          "text": "\\(\\begin{cases} x + y = 300 \\\\ 0,1x + 0,25y = 60 \\end{cases}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\begin{cases} x + y = 300 \\\\ 10x + 25y = 20 \\end{cases}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\begin{cases} x + y = 300 \\\\ 0,1x + 0,25y = 20 \\end{cases}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\begin{cases} x + y = 60 \\\\ 0,1x + 0,25y = 300 \\end{cases}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính khối lượng chất tan và dung môi cần lấy",
+      "questiontext": "Pha trộn 100 g dung dịch muối 10% với 300 g dung dịch muối 20%. Nồng độ phần trăm của dung dịch mới thu được là bao nhiêu %? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Tổng khối lượng chất tan: \\(100 \\times 0,1 + 300 \\times 0,2 = 10 + 60 = 70\\) g. Tổng khối lượng dung dịch: \\(100 + 300 = 400\\) g. Nồng độ mới: \\(C\\% = \\frac{70}{400} \\times 100\\% = 17,5\\%\\).",
+      "answers": [
+        {
+          "text": "17.5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_134",
+      "questiontext": "Cho phương trình hóa học chưa cân bằng: \\(x KClO_3 \\rightarrow y KCl + z O_2\\). Cặp hệ số \\((x, y, z)\\) cân bằng đúng là:",
+      "generalfeedback": "Cân bằng O: \\(3x = 2z \\Rightarrow x = 2, z = 3\\). Cân bằng K và Cl: \\(y = x = 2\\). Vậy \\((x, y, z) = (2, 2, 3)\\).",
+      "answers": [
+        {
+          "text": "(2, 2, 3)",
+          "fraction": 100
+        },
+        {
+          "text": "(1, 1, 1)",
+          "fraction": 0
+        },
+        {
+          "text": "(2, 2, 1)",
+          "fraction": 0
+        },
+        {
+          "text": "(1, 1, 3)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Tính khối lượng chất tan và dung môi cần lấy",
+      "questiontext": "Để pha chế {a} g dung dịch đường 15%, cần lấy bao nhiêu gam nước tinh khiết? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Khối lượng đường: \\({a} \\times 0.15\\) g. Khối lượng nước: \\({a} - {a} \\times 0.15 = {a} \\times 0.85\\) g.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 100.0,
+          "max": 400.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*0.85",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Công thức nồng độ phần trăm C% = (m_ct / m_dd) * 100%",
+      "questiontext": "Để tăng nồng độ phần trăm của một dung dịch muối, ta có thể thêm vào dung dịch đó [[1]] hoặc làm bay hơi bớt [[2]].",
+      "generalfeedback": "Thêm chất tan (muối) hoặc làm bay hơi dung môi (nước) đều làm tăng nồng độ phần trăm của dung dịch.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "muối tinh khiết"
+        },
+        {
+          "group": 1,
+          "text": "dung môi (nước)"
+        },
+        {
+          "group": 1,
+          "text": "không khí"
+        },
+        {
+          "group": 1,
+          "text": "chất béo"
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "Lập hệ phương trình bậc nhất hai ẩn cho bài toán pha chế dung dịch",
+      "questiontext": "Trộn {m1} g dung dịch 10% với {m2} g dung dịch 20%. Tổng khối lượng chất tan thu được trong dung dịch mới biểu diễn theo công thức nào?",
+      "generalfeedback": "Khối lượng chất tan = \\(0,1 \\times {m1} + 0,2 \\times {m2}\\).",
+      "wildcards": [
+        {
+          "name": "m1",
+          "min": 50.0,
+          "max": 200.0,
+          "decimals": 0
+        },
+        {
+          "name": "m2",
+          "min": 50.0,
+          "max": 200.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "0.1*{m1}+0.2*{m2}",
+          "fraction": 100
+        },
+        {
+          "text": "{m1}+{m2}",
+          "fraction": 0
+        },
+        {
+          "text": "0.1*({m1}+{m2})",
+          "fraction": 0
+        },
+        {
+          "text": "0.2*({m1}+{m2})",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức nồng độ phần trăm C% = (m_ct / m_dd) * 100%",
+      "questiontext": "Hãy ghép các đại lượng trong công thức nồng độ phần trăm \\(C\\% = \\frac{m_{ct}}{m_{dd}} \\times 100\\%\\) với ý nghĩa tương ứng:",
+      "generalfeedback": "m_ct là khối lượng chất tan, m_dd là khối lượng dung dịch, C% là nồng độ phần trăm.",
+      "subquestions": [
+        {
+          "question": "\\(m_{ct}\\)",
+          "answer": "Khối lượng chất tan (gam)"
+        },
+        {
+          "question": "\\(m_{dd}\\)",
+          "answer": "Khối lượng dung dịch (gam)"
+        },
+        {
+          "question": "\\(C\\%\\)",
+          "answer": "Nồng độ phần trăm (%)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Công thức nồng độ phần trăm C% = (m_ct / m_dd) * 100%",
+      "questiontext": "Một dung dịch chứa 15 g đường hòa tan trong 135 g nước. Nồng độ phần trăm của dung dịch đường này là bao nhiêu?",
+      "generalfeedback": "Khối lượng dung dịch \\(m_{dd} = 15 + 135 = 150\\) g. Nồng độ phần trăm \\(C\\% = \\frac{15}{150} \\times 100\\% = 10\\%\\).",
+      "answers": [
+        {
+          "text": "10%",
+          "fraction": 100
+        },
+        {
+          "text": "11,1%",
+          "fraction": 0
+        },
+        {
+          "text": "15%",
+          "fraction": 0
+        },
+        {
+          "text": "12%",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Nguyên tắc cân bằng khối lượng chất tan trong bài toán trộn dung dịch",
+      "questiontext": "Trong bài toán pha trộn hai dung dịch cùng chất tan, tổng khối lượng chất tan trong hai dung dịch ban đầu luôn bằng khối lượng chất tan trong dung dịch thu được.",
+      "generalfeedback": "Đúng. Đây là nguyên tắc bảo toàn khối lượng chất tan.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Tính khối lượng chất tan và dung môi cần lấy",
+      "questiontext": "Cần thêm bao nhiêu gam nước tinh khiết vào 50 g muối tinh khiết để pha thành dung dịch muối 20%? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Khối lượng dung dịch \\(m_{dd} = \\frac{50 \\times 100}{20} = 250\\) g. Khối lượng nước cần dùng \\(m_{dm} = 250 - 50 = 200\\) g.",
+      "answers": [
+        {
+          "text": "200",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Lập hệ phương trình bậc nhất hai ẩn cho bài toán pha chế dung dịch",
+      "questiontext": "Muốn pha 300 g dung dịch đường 20% từ hai dung dịch đường 10% (khối lượng \\(x\\) gam) và 25% (khối lượng \\(y\\) gam), ta lập được hệ phương trình nào sau đây?",
+      "generalfeedback": "Khối lượng dung dịch: \\(x + y = 300\\). Khối lượng chất tan: \\(0,1x + 0,25y = 0,2 \\times 300 = 60\\).",
+      "answers": [
+        {
+          "text": "\\(\\begin{cases} x + y = 300 \\\\ 0,1x + 0,25y = 60 \\end{cases}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\begin{cases} x + y = 300 \\\\ 10x + 25y = 20 \\end{cases}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\begin{cases} x + y = 300 \\\\ 0,1x + 0,25y = 20 \\end{cases}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\begin{cases} x + y = 60 \\\\ 0,1x + 0,25y = 300 \\end{cases}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính khối lượng chất tan và dung môi cần lấy",
+      "questiontext": "Pha trộn 100 g dung dịch muối 10% với 300 g dung dịch muối 20%. Nồng độ phần trăm của dung dịch mới thu được là bao nhiêu %? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Tổng khối lượng chất tan: \\(100 \\times 0,1 + 300 \\times 0,2 = 10 + 60 = 70\\) g. Tổng khối lượng dung dịch: \\(100 + 300 = 400\\) g. Nồng độ mới: \\(C\\% = \\frac{70}{400} \\times 100\\% = 17,5\\%\\).",
+      "answers": [
+        {
+          "text": "17.5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_134",
+      "questiontext": "Cho phương trình hóa học chưa cân bằng: \\(x KClO_3 \\rightarrow y KCl + z O_2\\). Cặp hệ số \\((x, y, z)\\) cân bằng đúng là:",
+      "generalfeedback": "Cân bằng O: \\(3x = 2z \\Rightarrow x = 2, z = 3\\). Cân bằng K và Cl: \\(y = x = 2\\). Vậy \\((x, y, z) = (2, 2, 3)\\).",
+      "answers": [
+        {
+          "text": "(2, 2, 3)",
+          "fraction": 100
+        },
+        {
+          "text": "(1, 1, 1)",
+          "fraction": 0
+        },
+        {
+          "text": "(2, 2, 1)",
+          "fraction": 0
+        },
+        {
+          "text": "(1, 1, 3)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Tính khối lượng chất tan và dung môi cần lấy",
+      "questiontext": "Để pha chế {a} g dung dịch đường 15%, cần lấy bao nhiêu gam nước tinh khiết? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Khối lượng đường: \\({a} \\times 0.15\\) g. Khối lượng nước: \\({a} - {a} \\times 0.15 = {a} \\times 0.85\\) g.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 100.0,
+          "max": 400.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*0.85",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Công thức nồng độ phần trăm C% = (m_ct / m_dd) * 100%",
+      "questiontext": "Để tăng nồng độ phần trăm của một dung dịch muối, ta có thể thêm vào dung dịch đó [[1]] hoặc làm bay hơi bớt [[2]].",
+      "generalfeedback": "Thêm chất tan (muối) hoặc làm bay hơi dung môi (nước) đều làm tăng nồng độ phần trăm của dung dịch.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "muối tinh khiết"
+        },
+        {
+          "group": 1,
+          "text": "dung môi (nước)"
+        },
+        {
+          "group": 1,
+          "text": "không khí"
+        },
+        {
+          "group": 1,
+          "text": "chất béo"
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "Lập hệ phương trình bậc nhất hai ẩn cho bài toán pha chế dung dịch",
+      "questiontext": "Trộn {m1} g dung dịch 10% với {m2} g dung dịch 20%. Tổng khối lượng chất tan thu được trong dung dịch mới biểu diễn theo công thức nào?",
+      "generalfeedback": "Khối lượng chất tan = \\(0,1 \\times {m1} + 0,2 \\times {m2}\\).",
+      "wildcards": [
+        {
+          "name": "m1",
+          "min": 50.0,
+          "max": 200.0,
+          "decimals": 0
+        },
+        {
+          "name": "m2",
+          "min": 50.0,
+          "max": 200.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "0.1*{m1}+0.2*{m2}",
+          "fraction": 100
+        },
+        {
+          "text": "{m1}+{m2}",
+          "fraction": 0
+        },
+        {
+          "text": "0.1*({m1}+{m2})",
+          "fraction": 0
+        },
+        {
+          "text": "0.2*({m1}+{m2})",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức nồng độ phần trăm C% = (m_ct / m_dd) * 100%",
+      "questiontext": "Hãy ghép các đại lượng trong công thức nồng độ phần trăm \\(C\\% = \\frac{m_{ct}}{m_{dd}} \\times 100\\%\\) với ý nghĩa tương ứng:",
+      "generalfeedback": "m_ct là khối lượng chất tan, m_dd là khối lượng dung dịch, C% là nồng độ phần trăm.",
+      "subquestions": [
+        {
+          "question": "\\(m_{ct}\\)",
+          "answer": "Khối lượng chất tan (gam)"
+        },
+        {
+          "question": "\\(m_{dd}\\)",
+          "answer": "Khối lượng dung dịch (gam)"
+        },
+        {
+          "question": "\\(C\\%\\)",
+          "answer": "Nồng độ phần trăm (%)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_03",
+      "questiontext": "Để rửa mắt và súc miệng hàng ngày phòng ngừa viêm họng, bạn An muốn tự pha \\(500\\text{ g}\\) dung dịch nước muối sinh lý có nồng độ \\(0{,}9\\%\\). Để đảm bảo an toàn cho sức khỏe, hành vi nào sau đây thể hiện ý thức vận dụng đúng đắn kiến thức đã học và nguồn tin cậy?",
+      "generalfeedback": "Việc tra cứu từ nguồn uy tín (sách y tế/SGK) và sử dụng công thức \\(m_{ct} = \\frac{m_{dd} \\times C\\%}{100\\%}\\) để tính chính xác \\(4{,}5\\text{ g}\\) muối tinh khiết pha với \\(495{,}5\\text{ g}\\) nước cất thể hiện ý thức vận dụng kiến thức chuẩn xác vào đời sống, đảm bảo an toàn sức khỏe.",
+      "answers": [
+        {
+          "text": "Tra cứu nồng độ chuẩn từ nguồn y tế uy tín và dùng công thức đã học để tính chính xác khối lượng muối (4,5 g) và nước (495,5 g) cần lấy.",
+          "fraction": 100
+        },
+        {
+          "text": "Ước lượng ngẫu nhiên 2 thìa muối hòa vào một tô nước mà không cần tính toán vì nồng độ không quan trọng.",
+          "fraction": 0
+        },
+        {
+          "text": "Pha thật đậm đặc với nồng độ 10% để tăng khả năng diệt khuẩn vì nồng độ càng cao càng tốt.",
+          "fraction": 0
+        },
+        {
+          "text": "Tìm kiếm các mẹo dân gian chưa kiểm chứng trên mạng xã hội và pha theo cảm tính.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TRACHNHIEM_BANTHAN_C2_05",
+      "questiontext": "Trong giờ thực hành 'Pha chế dung dịch theo nồng độ yêu cầu', nhóm của Nam phân công công việc: 1 bạn chuẩn bị dụng cụ và cân muối, 1 bạn tính toán khối lượng theo công thức toán học, 1 bạn nhập dữ liệu vào bảng tính Excel, sau đó cả nhóm cùng đối chiếu kết quả và vệ sinh dụng cụ. Việc phân công và thực hiện kế hoạch hợp lý này giúp nhóm hoàn thành bài học đúng thời gian mà không gây căng thẳng.",
+      "generalfeedback": "Đúng. Xây dựng và thực hiện kế hoạch học tập nhóm hợp lý giúp nâng cao hiệu quả công việc và duy trì chế độ sinh hoạt, học tập khoa học.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_01",
+      "questiontext": "Một xưởng sản xuất cần pha chế \\(200\\text{ kg}\\) dung dịch giấm ăn \\(5\\%\\) từ hai loại dung dịch giấm sẵn có là \\(3\\%\\) và \\(8\\%\\). Để giải quyết vấn đề này, thông tin cốt lõi nào sau đây CẦN XÁC ĐỊNH ĐẦU TIÊN?",
+      "generalfeedback": "Để giải quyết bài toán thực tế, trước hết cần xác định rõ đại lượng cần tìm (khối lượng mỗi loại dung dịch giấm ban đầu) và các dữ kiện về khối lượng tổng (\\(200\\text{ kg}\\)) cùng nồng độ mục tiêu (\\(5\\%\\)).",
+      "answers": [
+        {
+          "text": "Khối lượng tổng dung dịch cần thu được (200 kg), nồng độ các dung dịch thành phần (3% và 8%) và nồng độ mục tiêu (5%).",
+          "fraction": 100
+        },
+        {
+          "text": "Giá tiền của từng loại giấm ăn trên thị trường.",
+          "fraction": 0
+        },
+        {
+          "text": "Nhiệt độ sôi của dung dịch giấm ăn.",
+          "fraction": 0
+        },
+        {
+          "text": "Tên thương hiệu của các loại giấm ăn.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_TCTH_THICHUNG_C2_01",
+      "questiontext": "Bạn Linh đã học cách pha chế dung dịch nước muối trong môn Toán. Khi phụ mẹ làm bếp, Linh gặp tình huống: Cần pha \\(400\\text{ g}\\) nước đường \\(15\\%\\) để làm bánh, nhưng trong bếp chỉ có xiro đường \\(60\\%\\) và nước lọc (\\(0\\%\\) đường). Linh đã vận dụng linh hoạt nguyên tắc bảo toàn chất tan để tính khối lượng xiro đường cần lấy. Khối lượng xiro đường Linh cần dùng là bao nhiêu?",
+      "generalfeedback": "Khối lượng đường trong \\(400\\text{ g}\\) dung dịch \\(15\\%\\) là \\(400 \\times 15\\% = 60\\text{ g}\\). Do nước lọc không chứa đường nên toàn bộ \\(60\\text{ g}\\) đường do xiro đường \\(60\\%\\) cung cấp. Khối lượng xiro đường cần lấy là \\(60 : 60\\% = 100\\text{ g}\\).",
+      "answers": [
+        {
+          "text": "100 g",
+          "fraction": 100
+        },
+        {
+          "text": "60 g",
+          "fraction": 0
+        },
+        {
+          "text": "150 g",
+          "fraction": 0
+        },
+        {
+          "text": "240 g",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_02_05",
+      "questiontext": "Để mô tả tình huống thực tiễn: 'Trộn \\(x\\text{ kg}\\) dung dịch phân bón \\(10\\%\\) với \\(y\\text{ kg}\\) dung dịch phân bón \\(25\\%\\) để thu được \\(50\\text{ kg}\\) dung dịch phân bón \\(16\\%\\) phục vụ tưới cây', mô hình toán học (hệ phương trình bậc nhất hai ẩn) nào sau đây là phù hợp?",
+      "generalfeedback": "Phương trình khối lượng dung dịch: \\(x + y = 50\\). Phương trình khối lượng chất tan: \\(10\\%x + 25\\%y = 16\\% \\times 50 \\Leftrightarrow 0,1x + 0,25y = 8\\).",
+      "answers": [
+        {
+          "text": "\\(\\begin{cases} x + y = 50 \\\\ 0,1x + 0,25y = 8 \\end{cases}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\begin{cases} x + y = 50 \\\\ 10x + 25y = 16 \\end{cases}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\begin{cases} x + y = 16 \\\\ 0,1x + 0,25y = 50 \\end{cases}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\begin{cases} x - y = 50 \\\\ 0,1x + 0,25y = 8 \\end{cases}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_02_08",
+      "questiontext": "Giải hệ phương trình mô tả bài toán trộn dung dịch thu được nghiệm duy nhất \\((x; y) = (30; 20)\\), trong đó \\(x\\) là khối lượng dung dịch nước muối \\(5\\%\\) (gam) và \\(y\\) là khối lượng dung dịch nước muối \\(20\\%\\) (gam). Cách thể hiện nghiệm toán học này vào ngữ cảnh thực tiễn pha chế là:",
+      "generalfeedback": "Nghiệm \\((x; y) = (30; 20)\\) biểu thị trong thực tế cần lấy đúng \\(30\\text{ g}\\) dung dịch nước muối \\(5\\%\\) trộn với \\(20\\text{ g}\\) dung dịch nước muối \\(20\\%\\) để thu được dung dịch có nồng độ theo yêu cầu.",
+      "answers": [
+        {
+          "text": "Cần cân đúng 30 g dung dịch nước muối 5% và 20 g dung dịch nước muối 20% rồi trộn đều với nhau.",
+          "fraction": 100
+        },
+        {
+          "text": "Cần lấy 30 g muối tinh khiết và 20 g nước cất để hòa tan.",
+          "fraction": 0
+        },
+        {
+          "text": "Trộn 30 lit dung dịch 5% với 20 lit dung dịch 20%.",
+          "fraction": 0
+        },
+        {
+          "text": "Tỷ lệ dung dịch muối là 30% và nước là 20%.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "1.1TC2a_K9",
+      "questiontext": "Khi thiết kế bảng tính Excel để tự động hóa việc tính khối lượng chất tan \\(m_{ct}\\) (ô C2) từ khối lượng dung dịch \\(m_{dd}\\) (ô A2) và nồng độ phần trăm \\(C\\%\\) (ô B2, nhập dạng số thường ví dụ 15 cho 15%), công thức Excel nào sau đây được đặt tại ô C2 là đúng?",
+      "generalfeedback": "Công thức tính khối lượng chất tan là \\(m_{ct} = \\frac{m_{dd} \\times C\\%}{100}\\). Trong Excel, công thức đặt tại ô C2 sẽ là `=A2*B2/100`.",
+      "answers": [
+        {
+          "text": "=A2*B2/100",
+          "fraction": 100
+        },
+        {
+          "text": "=A2+B2/100",
+          "fraction": 0
+        },
+        {
+          "text": "=A2/B2*100",
+          "fraction": 0
+        },
+        {
+          "text": "=SUM(A2:B2)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "9.A3.1_2",
+      "questiontext": "Một học sinh nhập câu hỏi vào công cụ AI: 'Tính khối lượng đường và nước để pha 200 g dung dịch đường 10%'. AI trả lời: 'Cần 20 g đường và 200 g nước'. Sử dụng tư duy phản biện phân tích câu trả lời của AI, em đánh giá như thế nào?",
+      "generalfeedback": "Khối lượng dung dịch \\(m_{dd} = m_{ct} + m_{dm} = 20 + 200 = 220\\text{ g}\\) (sai so với \\(200\\text{ g}\\) đề bài yêu cầu). AI đã nhầm lẫn giữa khối lượng dung dịch và khối lượng dung môi. Khối lượng nước đúng phải là \\(200 - 20 = 180\\text{ g}\\).",
+      "answers": [
+        {
+          "text": "AI tính sai khối lượng nước. Lấy 20 g đường và 200 g nước sẽ tạo ra 220 g dung dịch, làm nồng độ bị loãng hơn 10%. Khối lượng nước đúng là 180 g.",
+          "fraction": 100
+        },
+        {
+          "text": "AI trả lời hoàn toàn chính xác vì công cụ AI luôn tính toán đúng.",
+          "fraction": 0
+        },
+        {
+          "text": "AI tính sai khối lượng đường. Khối lượng đường đúng phải là 10 g.",
+          "fraction": 0
+        },
+        {
+          "text": "AI tính đúng khối lượng nước nhưng tính sai nồng độ phần trăm.",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

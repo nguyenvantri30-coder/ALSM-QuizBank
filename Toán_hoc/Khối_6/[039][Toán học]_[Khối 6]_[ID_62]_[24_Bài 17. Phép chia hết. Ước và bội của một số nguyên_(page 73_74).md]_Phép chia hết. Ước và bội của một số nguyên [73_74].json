@@ -1,0 +1,423 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 16,
+    "metadata_used": {
+      "Khái niệm phép chia hết trong tập hợp số nguyên Z": 4,
+      "Quy tắc xác định dấu của thương hai số nguyên": 4,
+      "YCCD_TOAN6_049": 3,
+      "YCCD_TOAN6_052": 3,
+      "Thực hiện phép chia hết hai số nguyên": 4,
+      "Tìm thương của hai số nguyên khác dấu hoặc cùng dấu": 4,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TUHOC_C2_04": 1,
+      "SUB_GTHT_XACDINHMD_C2_03": 1,
+      "NLT_TOAN_C2_01_01": 1,
+      "NLT_TOAN_C2_03_05": 1
+    },
+    "types_used": {
+      "multichoice": 6,
+      "truefalse": 2,
+      "gapselect": 1,
+      "shortanswer": 2,
+      "numerical": 1,
+      "matching": 2,
+      "ddwtos": 1,
+      "calculated": 1
+    },
+    "total": 16
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN6_049",
+        "reason": "Đo lường khả năng thực hiện phép chia (chia hết) trong tập hợp các số nguyên."
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_052",
+        "reason": "Đo lường khả năng nhận biết quan hệ chia hết trong tập hợp các số nguyên."
+      },
+      {
+        "metadata_code": "Khái niệm phép chia hết trong tập hợp số nguyên Z",
+        "reason": "Đo lường kiến thức về khái niệm phép chia hết trong tập hợp số nguyên Z."
+      },
+      {
+        "metadata_code": "Quy tắc xác định dấu của thương hai số nguyên",
+        "reason": "Đo lường kiến thức về quy tắc xác định dấu của thương hai số nguyên."
+      },
+      {
+        "metadata_code": "Thực hiện phép chia hết hai số nguyên",
+        "reason": "Đo lường kỹ năng thực hiện phép chia hết hai số nguyên."
+      },
+      {
+        "metadata_code": "Tìm thương của hai số nguyên khác dấu hoặc cùng dấu",
+        "reason": "Đo lường kỹ năng tìm thương của hai số nguyên khác dấu hoặc cùng dấu."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đo lường phẩm chất chăm chỉ, vươn lên trong học tập thông qua tình huống xử lý kết quả phép chia số nguyên."
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+        "reason": "Đo lường năng lực tự học, tóm tắt thông tin quy tắc dấu bằng kí hiệu toán học."
+      },
+      {
+        "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+        "reason": "Đo lường năng lực giao tiếp, tiếp nhận văn bản báo cáo có chứa phép chia số nguyên."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_01",
+        "reason": "Đo lường năng lực tư duy toán học thông qua phân tích và so sánh dấu của thương."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_05",
+        "reason": "Đo lường năng lực giải quyết vấn đề thực tiễn bằng kĩ năng chia số nguyên."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Nội dung bài học Tiết 1 - Phép chia hết hai số nguyên là kiến thức toán học thuần lý thuyết, không có bối cảnh tự nhiên để đo lường năng lực tin học/số."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học không tích hợp bối cảnh ứng dụng hoặc tương tác với công cụ AI một cách tự nhiên."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm phép chia hết trong tập hợp số nguyên Z",
+      "questiontext": "Cho \\(a, b \\in \\mathbb{Z}\\) với \\(b \\neq 0\\). Nếu có số nguyên \\(q\\) sao cho \\(a = bq\\) thì ta nói:",
+      "generalfeedback": "Nếu có số nguyên \\(q\\) sao cho \\(a = bq\\) thì ta nói \\(a\\) chia hết cho \\(b\\), kí hiệu là \\(a \\vdots b\\).",
+      "answers": [
+        {
+          "text": "\\(a\\) chia hết cho \\(b\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(b\\) chia hết cho \\(a\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a\\) là thương của \\(b\\) và \\(q\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(b\\) là bội của \\(a\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc xác định dấu của thương hai số nguyên",
+      "questiontext": "Thương của hai số nguyên cùng dấu luôn là một số nguyên âm. Phát biểu trên là Đúng hay Sai?",
+      "generalfeedback": "Theo quy tắc dấu của thương: \\((+) : (+) \\to (+)\\) và \\((-): (-) \\to (+)\\). Vậy thương của hai số nguyên cùng dấu luôn là một số nguyên dương.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc xác định dấu của thương hai số nguyên",
+      "questiontext": "Khi chia hai số nguyên khác dấu, thương mang dấu [[1]]. Khi chia hai số nguyên cùng dấu, thương mang dấu [[2]].",
+      "generalfeedback": "Quy tắc dấu của thương: chia hai số nguyên khác dấu thu được thương mang dấu âm, chia hai số nguyên cùng dấu thu được thương mang dấu dương.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "âm"
+        },
+        {
+          "group": 1,
+          "text": "dương"
+        },
+        {
+          "group": 1,
+          "text": "không"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_052",
+      "questiontext": "Biết \\(135 : 9 = 15\\). Khẳng định nào sau đây là đúng về thương của phép chia \\(135 : (-9)\\)?",
+      "generalfeedback": "Vì \\(135\\) và \\(-9\\) là hai số nguyên khác dấu nên thương mang dấu âm. Do đó \\(135 : (-9) = -15\\).",
+      "answers": [
+        {
+          "text": "\\(135 : (-9) = -15\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(135 : (-9) = 15\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(135 : (-9) = -9\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(135 : (-9) = 9\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện phép chia hết hai số nguyên",
+      "questiontext": "Tính kết quả của phép chia \\((-63) : 9\\).",
+      "generalfeedback": "Ta có \\((-63) : 9 = -7\\) vì \\(-63 = 9 \\cdot (-7)\\).",
+      "answers": [
+        {
+          "text": "-7",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện phép chia hết hai số nguyên",
+      "questiontext": "Tính giá trị của thương \\((-24) : (-8)\\). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Ta có \\((-24) : (-8) = 3\\) vì chia hai số nguyên cùng dấu thu được số nguyên dương.",
+      "answers": [
+        {
+          "text": "3",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "Tìm thương của hai số nguyên khác dấu hoặc cùng dấu",
+      "questiontext": "Hãy ghép mỗi phép chia số nguyên ở cột bên trái với thương tương ứng ở cột bên phải.",
+      "generalfeedback": "\\(297 : (-3) = -99\\); \\((-396) : (-12) = 33\\); \\((-600) : 15 = -40\\).",
+      "subquestions": [
+        {
+          "question": "\\(297 : (-3)\\)",
+          "answer": "\\(-99\\)"
+        },
+        {
+          "question": "\\((-396) : (-12)\\)",
+          "answer": "\\(33\\)"
+        },
+        {
+          "question": "\\((-600) : 15\\)",
+          "answer": "\\(-40\\)"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm phép chia hết trong tập hợp số nguyên Z",
+      "questiontext": "Trong phép chia hết \\(a : b = q\\) (với \\(a, b \\in \\mathbb{Z}, b \\neq 0\\)), số \\(a\\) được gọi là [[1]], số \\(b\\) được gọi là [[2]], và \\(q\\) được gọi là [[3]].",
+      "generalfeedback": "Trong phép chia \\(a : b = q\\), \\(a\\) là số bị chia, \\(b\\) là số chia, \\(q\\) là thương.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "số bị chia"
+        },
+        {
+          "group": 1,
+          "text": "số chia"
+        },
+        {
+          "group": 1,
+          "text": "thương"
+        },
+        {
+          "group": 1,
+          "text": "số hạng"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Tìm thương của hai số nguyên khác dấu hoặc cùng dấu",
+      "questiontext": "Tính thương của phép chia \\((-100 \\times {a}) : {a}\\) với {a} là số nguyên dương.",
+      "generalfeedback": "Ta có \\((-100 \\times {a}) : {a} = -100\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "-100",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_052",
+      "questiontext": "Từ phép chia hết \\(12 : 3 = 4\\), ta suy ra phép chia nào sau đây có thương bằng \\(4\\)?",
+      "generalfeedback": "Từ \\(12 : 3 = 4\\), ta suy ra \\((-12) : (-3) = 4\\) vì hai số âm chia nhau ra kết quả dương.",
+      "answers": [
+        {
+          "text": "\\((-12) : (-3)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "12 : (-3)",
+          "fraction": 0
+        },
+        {
+          "text": "(-12) : 3",
+          "fraction": 0
+        },
+        {
+          "text": "(-12) : 12",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ học Toán về phép chia hết hai số nguyên, bạn An làm chưa đúng câu hỏi tính thương \\((-45) : (-9)\\) do nhầm lẫn quy tắc dấu. Để thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập, An nên thực hiện hành động nào sau đây?",
+      "generalfeedback": "Hành vi tích cực, thể hiện tinh thần chủ động vươn lên trong học tập là tự kiểm tra lại lý thuyết quy tắc dấu của thương hai số nguyên cùng dấu \\((-) : (-) \\to (+)\\), sửa lại kết quả đúng là 5 và luyện tập thêm bài tập tương tự.",
+      "answers": [
+        {
+          "text": "Chủ động xem lại quy tắc dấu của thương hai số nguyên cùng dấu, tự sửa lại đáp án đúng và làm thêm bài tập rèn luyện.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài tập đó và không cần tìm hiểu lại lý thuyết vì cho rằng phép chia số nguyên âm quá rắc rối.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép ngay kết quả của bạn bên cạnh vào vở để nộp cho thầy cô mà không cần hiểu cách làm.",
+          "fraction": 0
+        },
+        {
+          "text": "Đổ lỗi cho đề bài khó và ngưng làm các bài tập Toán tiếp theo.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Để lưu giữ thông tin quy tắc xác định dấu của thương hai số nguyên một cách có chọn lọc và ngắn gọn bằng kí hiệu toán học, hãy ghép mỗi quy tắc phát biểu bằng lời ở cột trái với dạng biểu diễn tóm tắt tương ứng ở cột phải.",
+      "generalfeedback": "Tóm tắt ngắn gọn quy tắc dấu bằng kí hiệu: Dương chia Dương ra Dương \\((+):(+) \\to (+)\\); Âm chia Âm ra Dương \\((-):(-) \\to (+)\\); Dương chia Âm ra Âm \\((+):(-) \\to (-)\\); Âm chia Dương ra Âm \\((-):(+) \\to (-)\\).",
+      "subquestions": [
+        {
+          "question": "Thương của hai số nguyên cùng dấu dương",
+          "answer": "\\((+) : (+) \\to (+)\\)"
+        },
+        {
+          "question": "Thương của hai số nguyên cùng dấu âm",
+          "answer": "\\((-): (-) \\to (+)\\)"
+        },
+        {
+          "question": "Thương của hai số nguyên khác dấu",
+          "answer": "\\((+) : (-) \\to (-)\\) hoặc \\((-): (+) \\to (-)\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "questiontext": "Một báo cáo tài chính ngắn ghi nhận: 'Một cửa hàng bị lỗ tổng cộng 60 triệu đồng trong 3 tháng hè do ảnh hưởng thời tiết. Lợi nhuận trung bình mỗi tháng được biểu diễn bởi phép chia \\((-60) : 3\\)'. Đọc và tiếp nhận thông tin từ văn bản trên, em hãy xác định nhận xét nào sau đây là đúng?",
+      "generalfeedback": "Phép tính \\((-60) : 3 = -20\\) cho biết lợi nhuận trung bình mỗi tháng của cửa hàng là \\(-20\\) triệu đồng, tức là trung bình mỗi tháng cửa hàng bị lỗ 20 triệu đồng.",
+      "answers": [
+        {
+          "text": "Lợi nhuận trung bình mỗi tháng của cửa hàng là \\(-20\\) triệu đồng (nghĩa là trung bình mỗi tháng lỗ 20 triệu đồng).",
+          "fraction": 100
+        },
+        {
+          "text": "Lợi nhuận trung bình mỗi tháng của cửa hàng là \\(20\\) triệu đồng (nghĩa là trung bình mỗi tháng lãi 20 triệu đồng).",
+          "fraction": 0
+        },
+        {
+          "text": "Lợi nhuận trung bình mỗi tháng của cửa hàng là \\(-180\\) triệu đồng.",
+          "fraction": 0
+        },
+        {
+          "text": "Cửa hàng không bị lỗ vì phép chia có số chia là số nguyên dương.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Thực hiện thao tác phân tích và so sánh hai phép tính: \\(24 : (-6) = -4\\) và \\((-24) : (-6) = 4\\). Sự khác biệt về dấu của thương trong hai phép tính trên phản ánh quy luật tư duy nào?",
+      "generalfeedback": "Khi giữ nguyên số chia \\((-6)\\), nếu đổi dấu số bị chia từ dương \\(24\\) sang âm \\((-24)\\) thì thương đổi dấu từ âm \\((-4)\\) sang dương \\(4\\). Điều này phản ánh quy tắc: Thương của hai số khác dấu mang dấu âm, thương của hai số cùng dấu mang dấu dương.",
+      "answers": [
+        {
+          "text": "Giữ nguyên số chia âm, khi thay đổi dấu của số bị chia thì dấu của thương cũng thay đổi tương ứng theo quy tắc dấu.",
+          "fraction": 100
+        },
+        {
+          "text": "Số chia mang dấu âm thì thương luôn luôn mang dấu âm trong mọi trường hợp.",
+          "fraction": 0
+        },
+        {
+          "text": "Kết quả của phép chia hai số nguyên chỉ phụ thuộc vào giá trị tuyệt đối, không phụ thuộc vào dấu.",
+          "fraction": 0
+        },
+        {
+          "text": "Dấu của thương luôn trùng với dấu của số bị chia.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Mặt nước biển được quy ước ở mức \\(0\\) m. Một tàu ngầm lặn từ mặt nước biển xuống độ sâu \\(-150\\) m trong vòng 5 phút với tốc độ đều. Sử dụng kĩ năng toán học về phép chia số nguyên, hãy tính tốc độ di chuyển trung bình của tàu ngầm trong 1 phút (tính theo m/phút).",
+      "generalfeedback": "Tốc độ trung bình mỗi phút lặn xuống là \\((-150) : 5 = -30\\) (m/phút), tương ứng lặn xuống 30 m mỗi phút. Đáp án trả lời ngắn gọn là -30.",
+      "answers": [
+        {
+          "text": "-30",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi làm bài tập nhóm về phép chia số nguyên, nếu thấy bạn trong nhóm tính sai kết quả phép chia \\((-36) : 4 = -9\\) thành \\(9\\), em kiên nhẫn giải thích lại quy tắc chia hai số nguyên khác dấu cho bạn hiểu thay vì tranh cãi hay chê bai bạn. Việc làm này thể hiện thái độ học tập tích cực và văn minh. Phát biểu này Đúng hay Sai?",
+      "generalfeedback": "Thái độ hợp tác, kiên nhẫn giúp đỡ bạn học hiểu đúng quy tắc chia hai số nguyên khác dấu thể hiện phẩm chất và thái độ học tập tích cực, giúp cả nhóm cùng tiến bộ.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

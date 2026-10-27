@@ -1,0 +1,726 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 28,
+    "metadata_used": {
+      "YCCD_TOAN7_087": 6,
+      "YCCD_TOAN7_108": 4,
+      "Ứng dụng bất đẳng thức tam giác trong hình học thực tiễn": 5,
+      "Giải các bài toán chứng minh và tối ưu độ dài dựa vào bất đẳng thức tam giác": 5,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_TUCHUTUHOC": 1,
+      "NLC_GIAOTIEP": 1,
+      "NLT_TOAN_C2_01": 2,
+      "NLT_TOAN_C2_04": 2
+    },
+    "types_used": {
+      "multichoice": 10,
+      "truefalse": 3,
+      "gapselect": 3,
+      "matching": 3,
+      "shortanswer": 2,
+      "ddwtos": 3,
+      "calculated": 1,
+      "numerical": 1,
+      "calculatedsimple": 1,
+      "calculatedmulti": 1
+    }
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_087",
+        "reason": "Đo lường việc nhận biết liên hệ độ dài ba cạnh trong tam giác"
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_108",
+        "reason": "Đo lường việc giải quyết các vấn đề thực tiễn liên quan đến tam giác"
+      },
+      {
+        "metadata_code": "Ứng dụng bất đẳng thức tam giác trong hình học thực tiễn",
+        "reason": "Đo lường ứng dụng bất đẳng thức tam giác trong hình học thực tiễn"
+      },
+      {
+        "metadata_code": "Giải các bài toán chứng minh và tối ưu độ dài dựa vào bất đẳng thức tam giác",
+        "reason": "Đo lường việc giải các bài toán chứng minh và tối ưu độ dài"
+      },
+      {
+        "metadata_code": "PC_CHAMCHI",
+        "reason": "Đo lường phẩm chất chăm chỉ, cẩn thận trong kiểm tra điều kiện hình học"
+      },
+      {
+        "metadata_code": "PC_TRUNGTHUC",
+        "reason": "Đo lường phẩm chất trung thực trong đo đạc và ghi chép số liệu"
+      },
+      {
+        "metadata_code": "NLC_TUCHUTUHOC",
+        "reason": "Đo lường năng lực tự chủ và tự học qua việc lập quy trình kiểm tra"
+      },
+      {
+        "metadata_code": "NLC_GIAOTIEP",
+        "reason": "Đo lường năng lực giao tiếp và hợp tác qua thảo luận nhóm"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01",
+        "reason": "Đo lường năng lực tư duy và lập luận toán học qua chứng minh BĐT"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_04",
+        "reason": "Đo lường năng lực giao tiếp toán học qua việc chuyển đổi ngôn ngữ"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học thuộc phạm vi môn Toán hình học lý thuyết và thực hành thủ công, không chứa các nội dung hay công cụ thuộc lĩnh vực Tin học/Năng lực số."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Bài học thuần túy về bất đẳng thức tam giác, không liên quan đến ứng dụng hay nguyên lý của Trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_087",
+      "questiontext": "Cho tam giác \\(ABC\\). Bất đẳng thức nào sau đây đúng về liên hệ giữa độ dài ba cạnh của tam giác?",
+      "generalfeedback": "Trong một tam giác, độ dài một cạnh luôn nhỏ hơn tổng độ dài hai cạnh còn lại. Do đó \\(AB < AC + BC\\).",
+      "answers": [
+        {
+          "text": "\\(AB < AC + BC\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(AB > AC + BC\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(AB = AC + BC\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(AB + AC < BC\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_087",
+      "questiontext": "Trong một tam giác, độ dài của một cạnh bất kỳ luôn lớn hơn hiệu độ dài hai cạnh còn lại. Phát biểu này đúng hay sai?",
+      "generalfeedback": "Đúng. Theo hệ quả của bất đẳng thức tam giác, độ dài một cạnh luôn lớn hơn hiệu độ dài hai cạnh còn lại.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_087",
+      "questiontext": "Trong tam giác \\(MNP\\), độ dài cạnh \\(MN\\) luôn [[1]] tổng độ dài hai cạnh \\(MP\\) và \\(NP\\), đồng thời luôn [[2]] hiệu độ dài hai cạnh đó.",
+      "generalfeedback": "Theo bất đẳng thức tam giác, độ dài một cạnh luôn nhỏ hơn tổng và lớn hơn hiệu độ dài hai cạnh còn lại.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "nhỏ hơn"
+        },
+        {
+          "group": 1,
+          "text": "lớn hơn"
+        },
+        {
+          "group": 1,
+          "text": "bằng"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_087",
+      "questiontext": "Bộ ba độ dài nào sau đây CÓ THỂ là độ dài ba cạnh của một tam giác?",
+      "generalfeedback": "Bộ ba \\(3\\text{ cm}, 4\\text{ cm}, 5\\text{ cm}\\) thỏa mãn bất đẳng thức tam giác vì \\(3 + 4 = 7 > 5\\). Các bộ còn lại không thỏa mãn vì tổng hai cạnh nhỏ không lớn hơn cạnh lớn nhất.",
+      "answers": [
+        {
+          "text": "\\(3\\text{ cm}, 4\\text{ cm}, 5\\text{ cm}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(2\\text{ cm}, 3\\text{ cm}, 6\\text{ cm}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(3\\text{ cm}, 4\\text{ cm}, 7\\text{ cm}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(1\\text{ cm}, 2\\text{ cm}, 4\\text{ cm}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_087",
+      "questiontext": "Hãy ghép mỗi bộ ba độ dài cạnh với kết luận tương ứng về khả năng tạo thành tam giác:",
+      "generalfeedback": "Kiểm tra bất đẳng thức tam giác: tổng độ dài hai cạnh nhỏ hơn phải lớn hơn độ dài cạnh lớn nhất.",
+      "subquestions": [
+        {
+          "question": "\\(2\\text{ cm}, 4\\text{ cm}, 5\\text{ cm}\\)",
+          "answer": "Tạo thành một tam giác"
+        },
+        {
+          "question": "\\(1\\text{ cm}, 3\\text{ cm}, 4\\text{ cm}\\)",
+          "answer": "Không tạo thành tam giác do tổng bằng cạnh thứ ba"
+        },
+        {
+          "question": "\\(2\\text{ cm}, 3\\text{ cm}, 6\\text{ cm}\\)",
+          "answer": "Không tạo thành tam giác do tổng nhỏ hơn cạnh thứ ba"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_108",
+      "questiontext": "Một người thợ muốn làm một khung giàn hình tam giác bằng ba thanh sắt. Người đó đã có hai thanh sắt dài \\(60\\text{ cm}\\) và \\(80\\text{ cm}\\). Thanh sắt thứ ba CÓ THỂ có độ dài nào sau đây?",
+      "generalfeedback": "Gọi độ dài thanh thứ ba là \\(x\\text{ cm}\\). Ta có \\(80 - 60 < x < 80 + 60\\), tức là \\(20 < x < 140\\). Trong các phương án, chỉ có \\(100\\text{ cm}\\) thỏa mãn.",
+      "answers": [
+        {
+          "text": "\\(100\\text{ cm}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(20\\text{ cm}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(140\\text{ cm}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(150\\text{ cm}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_087",
+      "questiontext": "Để kiểm tra xem ba đoạn thẳng có tạo thành một tam giác hay không, ta so sánh độ dài cạnh lớn nhất với tổng độ dài của hai cạnh nào?",
+      "generalfeedback": "Ta so sánh độ dài cạnh lớn nhất với tổng độ dài của hai cạnh còn lại.",
+      "answers": [
+        {
+          "text": "hai cạnh còn lại",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_108",
+      "questiontext": "Bạn Nam có hai que tính dài \\(5\\text{ cm}\\) và \\(9\\text{ cm}\\). Để ghép thành một tam giác, que tính thứ ba phải có độ dài lớn hơn [[1]] cm và nhỏ hơn [[2]] cm.",
+      "generalfeedback": "Hiệu hai cạnh là \\(9 - 5 = 4\\text{ cm}\\), tổng hai cạnh là \\(9 + 5 = 14\\text{ cm}\\). Do đó que thứ ba phải có độ dài lớn hơn 4 cm và nhỏ hơn 14 cm.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "4"
+        },
+        {
+          "group": 1,
+          "text": "14"
+        },
+        {
+          "group": 1,
+          "text": "5"
+        },
+        {
+          "group": 1,
+          "text": "9"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_108",
+      "questiontext": "Một thanh gỗ dài {a} cm và một thanh gỗ dài {b} cm (với {b} lớn hơn {a}). Giá trị nguyên nhỏ nhất (tính theo cm) của thanh gỗ thứ ba để ba thanh gỗ tạo thành một tam giác là bao nhiêu? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Độ dài thanh gỗ thứ ba phải lớn hơn \\(b - a\\). Giá trị nguyên nhỏ nhất là \\((b - a) + 1\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 3.0,
+          "max": 8.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 10.0,
+          "max": 20.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{b}-{a}+1",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_108",
+      "questiontext": "Cho hai đoạn thẳng có độ dài lần lượt là \\(7\\text{ cm}\\) và \\(10\\text{ cm}\\). Độ dài nguyên lớn nhất (tính theo cm) của đoạn thẳng thứ ba để tạo thành một tam giác là bao nhiêu? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Độ dài cạnh thứ ba \\(x\\) phải thỏa mãn \\(x < 7 + 10 = 17\\). Do đó giá trị nguyên lớn nhất là 16.",
+      "answers": [
+        {
+          "text": "16",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Ứng dụng bất đẳng thức tam giác trong hình học thực tiễn",
+      "questiontext": "Ba vị trí \\(A\\), \\(B\\), \\(C\\) trên bản đồ tạo thành ba đỉnh của một tam giác. Đi từ \\(A\\) đến \\(B\\) theo đường thẳng luôn ngắn hơn đi từ \\(A\\) đến \\(C\\) rồi từ \\(C\\) đến \\(B\\). Bất đẳng thức hình học nào giải thích cho thực tế này?",
+      "generalfeedback": "Đường thẳng \\(AB\\) là khoảng cách ngắn nhất giữa hai điểm \\(A\\) và \\(B\\). Theo bất đẳng thức tam giác trong tam giác \\(ABC\\), ta có \\(AB < AC + CB\\).",
+      "answers": [
+        {
+          "text": "\\(AB < AC + CB\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(AB > AC + CB\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(AB = AC + CB\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(AC < AB - CB\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Ứng dụng bất đẳng thức tam giác trong hình học thực tiễn",
+      "questiontext": "Trong thực tế, khi đi từ địa điểm \\(A\\) đến địa điểm \\(B\\), quãng đường đi thẳng từ \\(A\\) đến \\(B\\) luôn nhỏ hơn hoặc bằng tổng quãng đường đi qua một điểm \\(C\\) bất kỳ. Phát biểu này đúng hay sai?",
+      "generalfeedback": "Đúng. Khi \\(A, B, C\\) tạo thành một tam giác thì \\(AB < AC + CB\\). Nếu \\(C\\) nằm trên đoạn thẳng \\(AB\\) thì \\(AB = AC + CB\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Ứng dụng bất đẳng thức tam giác trong hình học thực tiễn",
+      "questiontext": "Một học sinh đi từ nhà đến trường qua bưu điện. Nếu bưu điện không nằm trên đường đi thẳng từ nhà đến trường thì tổng quãng đường đi qua bưu điện sẽ [[1]] quãng đường đi thẳng trực tiếp vì trong tam giác tạo bởi ba địa điểm, tổng độ dài hai cạnh luôn [[2]] cạnh còn lại.",
+      "generalfeedback": "Theo bất đẳng thức tam giác, tổng độ dài hai cạnh của tam giác luôn lớn hơn cạnh còn lại. Do đó đi qua bưu điện sẽ dài hơn.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "dài hơn"
+        },
+        {
+          "group": 1,
+          "text": "ngắn hơn"
+        },
+        {
+          "group": 1,
+          "text": "lớn hơn"
+        },
+        {
+          "group": 1,
+          "text": "nhỏ hơn"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Ứng dụng bất đẳng thức tam giác trong hình học thực tiễn",
+      "questiontext": "Ba ngôi nhà của An, Bình, Cường nằm ở ba vị trí \\(A, B, C\\) không thẳng hàng. Khoảng cách từ nhà An đến nhà Bình là \\(4\\text{ km}\\), từ nhà Bình đến nhà Cường là \\(7\\text{ km}\\). Khoảng cách từ nhà An đến nhà Cường CÓ THỂ là giá trị nào sau đây?",
+      "generalfeedback": "Theo bất đẳng thức tam giác, khoảng cách \\(AC\\) thỏa mãn \\(7 - 4 < AC < 7 + 4\\), tức là \\(3\\text{ km} < AC < 11\\text{ km}\\). Do đó \\(8\\text{ km}\\) là giá trị thỏa mãn.",
+      "answers": [
+        {
+          "text": "\\(8\\text{ km}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(2\\text{ km}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(11\\text{ km}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(12\\text{ km}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "Ứng dụng bất đẳng thức tam giác trong hình học thực tiễn",
+      "questiontext": "Hãy ghép mỗi biểu thức bất đẳng thức tam giác với ý nghĩa hình học tương ứng:",
+      "generalfeedback": "Bất đẳng thức tam giác khẳng định trong một tam giác, độ dài một cạnh luôn nhỏ hơn tổng và lớn hơn hiệu độ dài hai cạnh còn lại.",
+      "subquestions": [
+        {
+          "question": "\\(AB < AC + BC\\)",
+          "answer": "Độ dài một cạnh nhỏ hơn tổng hai cạnh còn lại"
+        },
+        {
+          "question": "\\(AB > AC - BC\\)",
+          "answer": "Độ dài một cạnh lớn hơn hiệu hai cạnh còn lại"
+        },
+        {
+          "question": "\\(AC - BC < AB < AC + BC\\)",
+          "answer": "Độ dài một cạnh nằm giữa hiệu và tổng hai cạnh còn lại"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Giải các bài toán chứng minh và tối ưu độ dài dựa vào bất đẳng thức tam giác",
+      "questiontext": "Cho tam giác \\(ABC\\) cân tại \\(A\\) có \\(AB = 8\\text{ cm}\\), \\(BC = 3\\text{ cm}\\). Độ dài cạnh \\(AC\\) bằng bao nhiêu?",
+      "generalfeedback": "Vì tam giác \\(ABC\\) cân tại \\(A\\) nên \\(AC = AB = 8\\text{ cm}\\). Kiểm tra bất đẳng thức tam giác: \\(8 - 8 < 3 < 8 + 8\\) (thỏa mãn).",
+      "answers": [
+        {
+          "text": "\\(8\\text{ cm}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(3\\text{ cm}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(5\\text{ cm}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(11\\text{ cm}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Giải các bài toán chứng minh và tối ưu độ dài dựa vào bất đẳng thức tam giác",
+      "questiontext": "Cho tam giác \\(ABC\\) cân có hai cạnh dài \\(4\\text{ cm}\\) và \\(9\\text{ cm}\\). Độ dài cạnh thứ ba của tam giác đó bằng bao nhiêu cm? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Nếu cạnh thứ ba bằng 4 cm thì bộ ba (4, 4, 9) không thỏa mãn bất đẳng thức tam giác vì \\(4 + 4 = 8 < 9\\). Do đó cạnh thứ ba phải bằng 9 cm vì \\(4 + 9 = 13 > 9\\).",
+      "answers": [
+        {
+          "text": "9",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "Giải các bài toán chứng minh và tối ưu độ dài dựa vào bất đẳng thức tam giác",
+      "questiontext": "Cho tam giác \\(ABC\\) có \\(AB = 4\\text{ cm}\\), \\(AC = 10\\text{ cm}\\). Độ dài cạnh \\(BC\\) thỏa mãn [[1]] cm < \\(BC\\) < [[2]] cm.",
+      "generalfeedback": "Theo bất đẳng thức tam giác, \\(10 - 4 < BC < 10 + 4\\), tức là \\(6\\text{ cm} < BC < 14\\text{ cm}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "6"
+        },
+        {
+          "group": 1,
+          "text": "14"
+        },
+        {
+          "group": 1,
+          "text": "4"
+        },
+        {
+          "group": 1,
+          "text": "10"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Giải các bài toán chứng minh và tối ưu độ dài dựa vào bất đẳng thức tam giác",
+      "questiontext": "Cho tam giác \\(ABC\\) có độ dài cạnh \\(AB = \\) {a} cm và \\(AC = \\) {b} cm (với {b} lớn hơn {a}). Giá trị nguyên lớn nhất của độ dài cạnh \\(BC\\) (tính theo cm) là bao nhiêu? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Độ dài cạnh \\(BC\\) nhỏ hơn tổng hai cạnh \\(AB + AC = {a} + {b}\\). Giá trị nguyên lớn nhất là \\(a + b - 1\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 6.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 8.0,
+          "max": 15.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}+{b}-1",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "Giải các bài toán chứng minh và tối ưu độ dài dựa vào bất đẳng thức tam giác",
+      "questiontext": "Cho tam giác \\(ABC\\) có độ dài cạnh \\(AB = \\) {a} cm và \\(AC = \\) {b} cm. Công thức tính tổng độ dài hai cạnh \\(AB + AC\\) là gì?",
+      "generalfeedback": "Tổng độ dài hai cạnh là {a} + {b}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 3.0,
+          "max": 7.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 8.0,
+          "max": 12.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}+{b}",
+          "fraction": 100
+        },
+        {
+          "text": "{b}-{a}",
+          "fraction": 0
+        },
+        {
+          "text": "{a}*{b}",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Trong giờ luyện tập về bất đẳng thức tam giác, bạn Minh được giao bài tập kiểm tra tính khả thi của một tam giác có độ dài ba cạnh là \\(5\\text{ cm}\\), \\(7\\text{ cm}\\) và \\(13\\text{ cm}\\). Minh vội vàng kết luận dựng được tam giác vì thấy \\(5 + 13 > 7\\). Để thể hiện phẩm chất chăm chỉ và thái độ học tập cẩn thận, Minh nên thực hiện hành động nào sau đây?",
+      "generalfeedback": "Phẩm chất chăm chỉ thể hiện qua sự kiên trì, cẩn thận kiểm tra đầy đủ các điều kiện toán học. Với ba độ dài \\(5\\text{ cm}, 7\\text{ cm}, 13\\text{ cm}\\), vì \\(5 + 7 = 12 < 13\\) nên không thỏa mãn bất đẳng thức tam giác.",
+      "answers": [
+        {
+          "text": "Kiên trì kiểm tra đầy đủ cả ba bất đẳng thức tam giác (hoặc so sánh tổng hai cạnh nhỏ \\(5 + 7 = 12 < 13\\)) để phát hiện ra không thể dựng được tam giác và sửa lại bài làm.",
+          "fraction": 100
+        },
+        {
+          "text": "Giữ nguyên kết luận và chuyển sang bài tập khác mà không cần kiểm tra lại các trường hợp còn lại.",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua bài tập này và chờ thầy cô sửa bài trên lớp.",
+          "fraction": 0
+        },
+        {
+          "text": "Sửa ngẫu nhiên độ dài các cạnh mà không tính toán lại để có kết luận dựng được tam giác.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Khi thực hành đo độ dài ba que tính để kiểm tra điều kiện tạo thành tam giác, bạn An đo được độ dài thực tế lần lượt là \\(4\\text{ cm}\\), \\(5\\text{ cm}\\) và \\(10\\text{ cm}\\). Thấy ba que tính không ghép thành tam giác được, An ghi đúng số liệu đo thực tế vào phiếu học tập và kết luận không tạo thành tam giác. Hành động của An đã thể hiện phẩm chất trung thực trong học tập. Phát biểu này đúng hay sai?",
+      "generalfeedback": "Đúng. Phẩm chất trung thực đòi hỏi ghi chép chính xác kết quả thực nghiệm và lập luận trung thực dựa trên kiến thức toán học (vì \\(4 + 5 = 9 < 10\\) nên không tạo thành tam giác).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "van_dung",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Để tự học hiệu quả chủ đề Bất đẳng thức tam giác, khi kiểm tra bộ ba độ dài \\(a, b, c\\) (với \\(c\\) là độ dài lớn nhất), một học sinh tự chủ nên xây dựng quy trình tự kiểm tra nhanh gồm 2 bước: Bước 1 là xác định cạnh [[1]], Bước 2 là so sánh độ dài cạnh đó với [[2]] hai cạnh còn lại.",
+      "generalfeedback": "Năng lực tự chủ và tự học thể hiện qua việc tự đúc kết quy trình tư duy tối ưu: chỉ cần xác định cạnh lớn nhất và so sánh nó với tổng hai cạnh còn lại.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "lớn nhất"
+        },
+        {
+          "group": 1,
+          "text": "nhỏ nhất"
+        },
+        {
+          "group": 1,
+          "text": "tổng độ dài"
+        },
+        {
+          "group": 1,
+          "text": "hiệu độ dài"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_GIAOTIEP",
+      "questiontext": "Trong giờ hoạt động nhóm, bạn Hà khẳng định: 'Tam giác cân có hai cạnh \\(3\\text{ cm}\\) và \\(7\\text{ cm}\\) thì chu vi chắc chắn bằng \\(17\\text{ cm}\\).' Bạn Bình không đồng ý và cho rằng chu vi có thể bằng \\(13\\text{ cm}\\). Để hợp tác nhóm hiệu quả và giúp bạn nhận ra sai sót, em nên giải thích cho Bình như thế nào?",
+      "generalfeedback": "Năng lực giao tiếp và hợp tác thể hiện qua lắng nghe, tôn trọng lắng nghe và dùng lập luận toán học lịch sự, thuyết phục để giúp bạn sửa sai.",
+      "answers": [
+        {
+          "text": "Tôn trọng ý kiến của Bình và cùng giải thích rằng nếu cạnh bên bằng \\(3\\text{ cm}\\) thì bộ ba \\(3\\text{ cm}, 3\\text{ cm}, 7\\text{ cm}\\) vi phạm bất đẳng thức tam giác (vì \\(3 + 3 = 6 < 7\\)), do đó cạnh bên bắt buộc phải bằng \\(7\\text{ cm}\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Chê bai ý kiến của Bình là sai cơ bản và yêu cầu Bình không được phát biểu nữa.",
+          "fraction": 0
+        },
+        {
+          "text": "Đồng ý ngay với Bình để tránh mâu thuẫn trong nhóm mà không cần kiểm tra bất đẳng thức tam giác.",
+          "fraction": 0
+        },
+        {
+          "text": "Báo với thầy cô rằng Bình không chịu hợp tác làm bài.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Cho điểm \\(M\\) nằm bên trong tam giác \\(ABC\\). Bằng tư duy và lập luận toán học dựa vào bất đẳng thức tam giác, phát biểu nào sau đây đúng khi so sánh tổng \\(MA + MB\\) với tổng \\(AC + BC\\)?",
+      "generalfeedback": "Gọi \\(D\\) là giao điểm của \\(AM\\) và \\(BC\\). Trong \\(\\triangle ADC\\), ta có \\(AD < AC + CD \\Rightarrow MA + MD < AC + CD\\). Trong \\(\\triangle MBD\\), ta có \\(MB < MD + DB\\). Cộng hai bất đẳng thức ta được \\(MA + MB + MD < AC + CD + MD + DB = AC + BC \\Rightarrow MA + MB < AC + BC\\).",
+      "answers": [
+        {
+          "text": "\\(MA + MB < AC + BC\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(MA + MB > AC + BC\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(MA + MB = AC + BC\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(MA + MB = 2(AC + BC)\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04",
+      "questiontext": "Hãy ghép mỗi phát biểu bằng ngôn ngữ tự nhiên với diễn đạt bằng ngôn ngữ toán học tương ứng đối với tam giác \\(ABC\\):",
+      "generalfeedback": "Năng lực giao tiếp toán học đòi hỏi học sinh chuyển đổi chính xác giữa ngôn ngữ tự nhiên và ký hiệu, biểu thức bất đẳng thức toán học.",
+      "subquestions": [
+        {
+          "question": "Độ dài một cạnh luôn nhỏ hơn tổng độ dài hai cạnh còn lại",
+          "answer": "\\(AB < AC + BC\\)"
+        },
+        {
+          "question": "Độ dài một cạnh luôn lớn hơn hiệu độ dài hai cạnh còn lại",
+          "answer": "\\(AB > |AC - BC|\\)"
+        },
+        {
+          "question": "Độ dài một cạnh luôn lớn hơn hiệu và nhỏ hơn tổng độ dài hai cạnh còn lại",
+          "answer": "\\(|AC - BC| < AB < AC + BC\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Cho tam giác \\(ABC\\) có chu vi bằng \\(2p\\) (với \\(p\\) là nửa chu vi). Bằng lập luận toán học sử dụng bất đẳng thức tam giác, khẳng định nào sau đây đúng về độ dài cạnh \\(AB\\)?",
+      "generalfeedback": "Theo bất đẳng thức tam giác, \\(AB < AC + BC\\). Cộng \\(AB\\) vào hai vế ta được \\(2AB < AB + AC + BC = 2p \\Rightarrow AB < p\\). Vậy độ dài mỗi cạnh của tam giác luôn nhỏ hơn nửa chu vi của nó.",
+      "answers": [
+        {
+          "text": "\\(AB < p\\) (độ dài mỗi cạnh luôn nhỏ hơn nửa chu vi)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(AB > p\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(AB = p\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(AB \\ge 2p\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04",
+      "questiontext": "Khi trình bày lời giải bài toán ứng dụng thực tế, để khẳng định ba vị trí \\(A, B, C\\) không thẳng hàng tạo thành một tam giác, học sinh cần dùng biểu thức toán học biểu diễn mối quan hệ: độ dài đoạn thẳng \\(AB\\) phải [[1]] tổng \\(AC + BC\\) và [[2]] hiệu \\(|AC - BC|\\).",
+      "generalfeedback": "Biểu diễn ngôn ngữ toán học chuẩn xác: \\(|AC - BC| < AB < AC + BC\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "nhỏ hơn"
+        },
+        {
+          "group": 1,
+          "text": "lớn hơn"
+        },
+        {
+          "group": 1,
+          "text": "bằng"
+        },
+        {
+          "group": 1,
+          "text": "gấp đôi"
+        }
+      ]
+    }
+  ]
+}

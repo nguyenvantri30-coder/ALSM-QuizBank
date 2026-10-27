@@ -1,0 +1,752 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 28,
+    "metadata_used": {
+      "YCCD_TOAN8_079": 3,
+      "Mối quan hệ giữa các hình tứ giác: tứ giác": 1,
+      "hình thang": 1,
+      "hình bình hành": 1,
+      "hình chữ nhật": 2,
+      "hình thoi": 2,
+      "hình vuông": 2,
+      "Vận dụng tổng hợp kiến thức về các hình tứ giác để giải bài tập chứng minh hình học": 3,
+      "Tính độ dài đoạn thẳng và số đo góc": 5,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_GQVD_PHATHIEN_C2_01": 2,
+      "NLT_TOAN_C2_01_05": 2,
+      "NLT_TOAN_C2_03_05": 2
+    },
+    "types_used": {
+      "multichoice": 14,
+      "truefalse": 3,
+      "gapselect": 2,
+      "matching": 2,
+      "shortanswer": 2,
+      "numerical": 1,
+      "calculatedsimple": 1,
+      "calculated": 1,
+      "ddwtos": 1,
+      "calculatedmulti": 1
+    },
+    "total": 28
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN8_079",
+        "reason": "Đo lường dấu hiệu nhận biết hình chữ nhật là hình vuông."
+      },
+      {
+        "metadata_code": "Mối quan hệ giữa các hình tứ giác: tứ giác",
+        "reason": "Đo lường mối quan hệ giữa các hình tứ giác."
+      },
+      {
+        "metadata_code": "hình thang",
+        "reason": "Đo lường kiến thức về hình thang và hình thang cân."
+      },
+      {
+        "metadata_code": "hình bình hành",
+        "reason": "Đo lường kiến thức về hình bình hành."
+      },
+      {
+        "metadata_code": "hình chữ nhật",
+        "reason": "Đo lường kiến thức và tính chất hình chữ nhật."
+      },
+      {
+        "metadata_code": "hình thoi",
+        "reason": "Đo lường kiến thức và tính chất hình thoi."
+      },
+      {
+        "metadata_code": "hình vuông",
+        "reason": "Đo lường kiến thức và tính chất hình vuông."
+      },
+      {
+        "metadata_code": "Vận dụng tổng hợp kiến thức về các hình tứ giác để giải bài tập chứng minh hình học",
+        "reason": "Đo lường kỹ năng vận dụng tổng hợp chứng minh hình học."
+      },
+      {
+        "metadata_code": "Tính độ dài đoạn thẳng và số đo góc",
+        "reason": "Đo lường kỹ năng tính độ dài đoạn thẳng và số đo góc."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Nội dung bài học Luyện tập chung về hình tứ giác thuần túy hình học phẳng, không có yếu tố xử lý dữ liệu số hay công cụ phần mềm tin học tự nhiên."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học hình học lớp 8 không trực tiếp liên quan đến nguyên lý hay ứng dụng công nghệ Trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_079",
+      "questiontext": "Dấu hiệu nào sau đây nhận biết một hình chữ nhật là hình vuông?",
+      "generalfeedback": "Hình chữ nhật có hai cạnh kề bằng nhau là hình vuông.",
+      "answers": [
+        {
+          "text": "Hình chữ nhật có hai cạnh kề bằng nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Hình chữ nhật có hai đường chéo bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Hình chữ nhật có bốn góc vuông",
+          "fraction": 0
+        },
+        {
+          "text": "Hình chữ nhật có các cạnh đối song song",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_079",
+      "questiontext": "Hình chữ nhật có hai đường chéo vuông góc với nhau là hình vuông.",
+      "generalfeedback": "Đúng. Hai đường chéo vuông góc là một dấu hiệu nhận biết hình vuông từ hình chữ nhật.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Mối quan hệ giữa các hình tứ giác: tứ giác",
+      "questiontext": "Hình thang là tứ giác có hai cạnh đối [[1]]. Hình bình hành là hình thang có hai cạnh bên [[2]].",
+      "generalfeedback": "Hình thang có 2 cạnh đối song song; hình bình hành có các cạnh đối song song.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "song song"
+        },
+        {
+          "group": 1,
+          "text": "bằng nhau"
+        },
+        {
+          "group": 1,
+          "text": "vuông góc"
+        },
+        {
+          "group": 1,
+          "text": "cắt nhau"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "hình thang",
+      "questiontext": "Hình thang cân là hình thang có hai góc kề một đáy bằng nhau.",
+      "generalfeedback": "Đúng. Theo định nghĩa, hình thang cân có hai góc kề một đáy bằng nhau.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "hình bình hành",
+      "questiontext": "Một khung tre hình chữ nhật có lắp đinh vít tại bốn đỉnh (Bài 3.36). Khi khung tre bị xô lệch làm các góc không còn vuông nữa thì khung tre đó trở thành hình gì?",
+      "generalfeedback": "Khi bị xô lệch, độ dài các cạnh không đổi và các cặp cạnh đối vẫn song song nên khung trở thành hình bình hành.",
+      "answers": [
+        {
+          "text": "Hình bình hành",
+          "fraction": 100
+        },
+        {
+          "text": "Hình thang vuông",
+          "fraction": 0
+        },
+        {
+          "text": "Hình thoi",
+          "fraction": 0
+        },
+        {
+          "text": "Hình vuông",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "hình chữ nhật",
+      "questiontext": "Ghép mỗi loại tứ giác với tính chất đặc trưng tương ứng của hai đường chéo:",
+      "generalfeedback": "Hình chữ nhật: 2 đường chéo bằng nhau. Hình thoi: 2 đường chéo vuông góc. Hình vuông: 2 đường chéo bằng nhau và vuông góc.",
+      "subquestions": [
+        {
+          "question": "Hình chữ nhật",
+          "answer": "Hai đường chéo bằng nhau và cắt nhau tại trung điểm mỗi đường"
+        },
+        {
+          "question": "Hình thoi",
+          "answer": "Hai đường chéo vuông góc với nhau tại trung điểm mỗi đường"
+        },
+        {
+          "question": "Hình vuông",
+          "answer": "Hai đường chéo bằng nhau và vuông góc với nhau tại trung điểm mỗi đường"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "hình thoi",
+      "questiontext": "Cho tam giác \\(ABC\\); \\(M\\) và \\(N\\) lần lượt là trung điểm của \\(AB\\) và \\(AC\\). Lấy điểm \\(P\\) sao cho \\(N\\) là trung điểm của \\(MP\\) (Bài 3.34). Điều kiện của tam giác \\(ABC\\) để tứ giác \\(AMCP\\) là hình thoi là gì?",
+      "generalfeedback": "Tứ giác \\(AMCP\\) là hình bình hành. Để \\(AMCP\\) là hình thoi thì hai đường chéo \\(AC \\perp MP\\). Vì \\(MP // BC\\) nên \\(AC \\perp BC\\), do đó tam giác \\(ABC\\) vuông tại \\(C\\).",
+      "answers": [
+        {
+          "text": "Tam giác \\(ABC\\) vuông tại \\(C\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Tam giác \\(ABC\\) cân tại \\(A\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Tam giác \\(ABC\\) vuông tại \\(A\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Tam giác \\(ABC\\) đều",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "hình vuông",
+      "questiontext": "[img:_page_0_Picture_7.jpeg]\nTrong Ví dụ trang 73, hai đường tròn tâm \\(B\\) và tâm \\(D\\) cùng đi qua \\(A\\) và cắt nhau tại \\(C\\). Tứ giác \\(ABCD\\) là hình vuông vì lý do nào sau đây?",
+      "generalfeedback": "Tứ giác \\(ABCD\\) có 4 cạnh bằng nhau \\(AB = BC = CD = DA\\) nên là hình thoi. Lại có góc \\(A\\) vuông nên hình thoi \\(ABCD\\) là hình vuông.",
+      "answers": [
+        {
+          "text": "\\(ABCD\\) có 4 cạnh bằng nhau và có góc \\(A\\) vuông",
+          "fraction": 100
+        },
+        {
+          "text": "\\(ABCD\\) có hai đường chéo bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "\\(ABCD\\) có các góc đối bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "\\(ABCD\\) có hai đường chéo song song",
+          "fraction": 0
+        }
+      ],
+      "imgs": [
+        "_page_0_Picture_7.jpeg"
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng tổng hợp kiến thức về các hình tứ giác để giải bài tập chứng minh hình học",
+      "questiontext": "[img:_page_0_Picture_14.jpeg]\nCho hình bình hành \\(ABCD\\). Các tia phân giác của các góc \\(A, B, C, D\\) cắt nhau tạo thành tứ giác \\(EFGH\\) (Bài 3.35). Tứ giác \\(EFGH\\) là hình gì?",
+      "generalfeedback": "Tứ giác \\(EFGH\\) có 4 góc vuông (do tổng hai góc kề một cạnh của hình bình hành bằng \\(180^\\circ\\)) nên \\(EFGH\\) là hình chữ nhật.",
+      "answers": [
+        {
+          "text": "Hình chữ nhật",
+          "fraction": 100
+        },
+        {
+          "text": "Hình bình hành",
+          "fraction": 0
+        },
+        {
+          "text": "Hình thoi",
+          "fraction": 0
+        },
+        {
+          "text": "Hình vuông",
+          "fraction": 0
+        }
+      ],
+      "imgs": [
+        "_page_0_Picture_14.jpeg"
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Tính độ dài đoạn thẳng và số đo góc",
+      "questiontext": "Cho hình chữ nhật \\(ABCD\\) có độ dài hai cạnh kề là \\(AB = 6\\text{ cm}\\) và \\(BC = 8\\text{ cm}\\). Tính độ dài đường chéo \\(AC\\) của hình chữ nhật.",
+      "generalfeedback": "Áp dụng định lý Pythagore trong tam giác vuông \\(ABC\\): \\(AC = \\sqrt{6^2 + 8^2} = 10\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "10 cm",
+          "fraction": 100
+        },
+        {
+          "text": "10",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính độ dài đoạn thẳng và số đo góc",
+      "questiontext": "Cho hình vuông \\(ABCD\\) có cạnh bằng \\(5\\text{ cm}\\). Tính độ dài đường chéo \\(AC\\) của hình vuông đó (làm tròn đến hàng phần mười). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "\\(AC = \\sqrt{5^2 + 5^2} = \\sqrt{50} \\approx 7.1\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "7.1",
+          "fraction": 100,
+          "tolerance": 0.1
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Tính độ dài đoạn thẳng và số đo góc",
+      "questiontext": "Cho hình chữ nhật \\(ABCD\\) có độ dài cạnh \\(AB = {a}\\text{ cm}\\) và \\(BC = {b}\\text{ cm}\\). Tính chu vi của hình chữ nhật \\(ABCD\\). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Chu vi hình chữ nhật bằng \\((AB + BC) \\times 2 = ({a} + {b}) \\times 2\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 2.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "({a}+{b})*2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Tính độ dài đoạn thẳng và số đo góc",
+      "questiontext": "Cho hình vuông \\(ABCD\\) có độ dài cạnh là {a} cm. Tính diện tích của hình vuông \\(ABCD\\). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Diện tích hình vuông bằng \\(a^2 = {a} \\times {a}\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 3.0,
+          "max": 12.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*{a}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "hình vuông",
+      "questiontext": "Hình vuông là hình chữ nhật có hai cạnh kề [[1]] và là hình thoi có một góc [[2]].",
+      "generalfeedback": "Hình vuông vừa là hình chữ nhật có 2 cạnh kề bằng nhau, vừa là hình thoi có 1 góc vuông.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "bằng nhau"
+        },
+        {
+          "group": 1,
+          "text": "vuông"
+        },
+        {
+          "group": 1,
+          "text": "song song"
+        },
+        {
+          "group": 1,
+          "text": "bằng 60°"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Vận dụng tổng hợp kiến thức về các hình tứ giác để giải bài tập chứng minh hình học",
+      "questiontext": "Cho tia \\(Ou\\) và \\(Ov\\) lần lượt là hai tia phân giác của hai góc kề bù \\(\\widehat{xOy}\\) và \\(\\widehat{x'Oy}\\); \\(A\\) là một điểm trên \\(Ox\\). Gọi \\(B, C\\) là chân đường vuông góc hạ từ \\(A\\) xuống \\(Ou, Ov\\) (Bài 3.37). Tứ giác \\(OBAC\\) là hình gì?",
+      "generalfeedback": "Vì \\(Ou \\perp Ov\\) nên \\(\\widehat{BOC} = 90^\\circ\\). Lại có \\(\\widehat{OBA} = 90^\\circ\\) và \\(\\widehat{OCA} = 90^\\circ\\). Tứ giác \\(OBAC\\) có 3 góc vuông nên là hình chữ nhật.",
+      "answers": [
+        {
+          "text": "Hình chữ nhật",
+          "fraction": 100
+        },
+        {
+          "text": "Hình bình hành",
+          "fraction": 0
+        },
+        {
+          "text": "Hình thoi",
+          "fraction": 0
+        },
+        {
+          "text": "Hình vuông",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng tổng hợp kiến thức về các hình tứ giác để giải bài tập chứng minh hình học",
+      "questiontext": "Cho hình vuông \\(ABCD\\). Lấy điểm \\(E\\) trên cạnh \\(CD\\). Tia phân giác của góc \\(DAE\\) cắt \\(DC\\) tại \\(M\\). Đường thẳng qua \\(M\\) vuông góc với \\(AE\\) cắt \\(BC\\) tại \\(N\\) (Bài 3.38). Đẳng thức nào sau đây đúng?",
+      "generalfeedback": "Bằng cách chứng minh các tam giác bằng nhau, ta chứng minh được \\(DM + BN = MN\\).",
+      "answers": [
+        {
+          "text": "\\(DM + BN = MN\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(DM + MN = BN\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(BN + MN = DM\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(DM^2 + BN^2 = MN^2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "Tính độ dài đoạn thẳng và số đo góc",
+      "questiontext": "Cho hình thoi có độ dài hai đường chéo lần lượt là {a} cm và {b} cm. Công thức tính diện tích hình thoi đó là gì?",
+      "generalfeedback": "Diện tích hình thoi bằng một nửa tích độ dài hai đường chéo: \\(S = \\frac{1}{2} d_1 d_2\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 4.0,
+          "max": 20.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 4.0,
+          "max": 20.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*{b}/2",
+          "fraction": 100
+        },
+        {
+          "text": "{a}*{b}",
+          "fraction": 0
+        },
+        {
+          "text": "({a}+{b})*2",
+          "fraction": 0
+        },
+        {
+          "text": "{a}*{b}/4",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "hình chữ nhật",
+      "questiontext": "Cho hình chữ nhật \\(ABCD\\) có hai đường chéo cắt nhau tại \\(O\\). Cho \\(AC = 12\\text{ cm}\\). Tính độ dài đoạn thẳng \\(OB\\).",
+      "generalfeedback": "Trong hình chữ nhật, hai đường chéo bằng nhau và cắt nhau tại trung điểm mỗi đường. Nên \\(BD = AC = 12\\text{ cm}\\) và \\(OB = \\frac{1}{2} BD = 6\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "6 cm",
+          "fraction": 100
+        },
+        {
+          "text": "6",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_079",
+      "questiontext": "Khẳng định nào sau đây là ĐÚNG khi nói về hình chữ nhật và hình vuông?",
+      "generalfeedback": "Hình vuông có 4 góc vuông nên hình vuông là một trường hợp đặc biệt của hình chữ nhật.",
+      "answers": [
+        {
+          "text": "Mọi hình vuông đều là hình chữ nhật",
+          "fraction": 100
+        },
+        {
+          "text": "Mọi hình chữ nhật đều là hình vuông",
+          "fraction": 0
+        },
+        {
+          "text": "Hình chữ nhật không thể là hình vuông",
+          "fraction": 0
+        },
+        {
+          "text": "Hình vuông không phải là hình chữ nhật",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "hình thoi",
+      "questiontext": "Hình thoi có thêm điều kiện nào sau đây thì trở thành hình vuông?",
+      "generalfeedback": "Hình thoi có một góc vuông (hoặc hai đường chéo bằng nhau) là hình vuông.",
+      "answers": [
+        {
+          "text": "Có một góc vuông",
+          "fraction": 100
+        },
+        {
+          "text": "Có hai đường chéo vuông góc",
+          "fraction": 0
+        },
+        {
+          "text": "Có 4 cạnh bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Có các góc đối bằng nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ học luyện tập về các hình tứ giác đặc biệt, khi gặp bài toán khó (như Bài 3.38 chứng minh \\(DM + BN = MN\\)), bạn Nam cảm thấy chưa tìm ra hướng giải ngay. Hành động nào sau đây thể hiện tinh thần kiên trì và luôn cố gắng vươn lên trong học tập của Nam?",
+      "generalfeedback": "Kiên trì phân tích giả thiết, vẽ hình phụ hoặc tham khảo gợi ý để tự hoàn thành bài tập thể hiện thái độ nỗ lực vươn lên đạt kết quả tốt trong học tập.",
+      "answers": [
+        {
+          "text": "Chủ động xem lại các tính chất hình vuông, vẽ thêm hình phụ và kiên trì phân tích các tam giác bằng nhau để tìm ra lời giải",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài toán khó và chờ đến giờ chữa bài để chép lời giải của thầy cô",
+          "fraction": 0
+        },
+        {
+          "text": "Mượn ngay vở bài tập của bạn để chép cho xong mà không cần hiểu cách làm",
+          "fraction": 0
+        },
+        {
+          "text": "Đóng sách vở lại và cho rằng bài toán hình học này vượt quá khả năng của mình",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi làm bài tập về mối quan hệ giữa các hình tứ giác, nếu bị giải sai một câu, việc tự giác phân tích nguyên nhân sai sót để rút kinh nghiệm cho lần sau là biểu hiện của tinh thần luôn cố gắng vươn lên trong học tập.",
+      "generalfeedback": "Đúng. Tự giác nhận diện và khắc phục sai sót trong học tập giúp học sinh tiến bộ và đạt kết quả tốt hơn.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GQVD_PHATHIEN_C2_01",
+      "questiontext": "[img:_page_0_Picture_7.jpeg]\nKhi chứng minh tứ giác \\(ABCD\\) là hình vuông trong Ví dụ trang 73, bạn Minh đã phân tích tình huống học tập theo các bước:\n- Bước 1: Chứng minh \\(ABCD\\) có 4 cạnh bằng nhau \\(AB = BC = CD = DA\\) để suy ra \\(ABCD\\) là hình thoi.\n- Bước 2: Chỉ ra hình thoi \\(ABCD\\) có góc \\(A\\) vuông nên \\(ABCD\\) là hình vuông.\nEm hãy đánh giá tiến trình phân tích tình huống của bạn Minh.",
+      "generalfeedback": "Tiến trình phân tích của Minh hoàn toàn chính xác và logic theo sơ đồ cây nhận thức các hình tứ giác.",
+      "answers": [
+        {
+          "text": "Tiến trình phân tích logic, chính xác và bám sát dấu hiệu nhận biết hình vuông từ hình thoi",
+          "fraction": 100
+        },
+        {
+          "text": "Phân tích sai vì tứ giác có 4 cạnh bằng nhau chưa chắc là hình thoi",
+          "fraction": 0
+        },
+        {
+          "text": "Phân tích thiếu vì bắt buộc phải chứng minh \\(ABCD\\) là hình chữ nhật trước",
+          "fraction": 0
+        },
+        {
+          "text": "Phân tích sai vì hình thoi có góc vuông thì trở thành hình bình hành",
+          "fraction": 0
+        }
+      ],
+      "imgs": [
+        "_page_0_Picture_7.jpeg"
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GQVD_PHATHIEN_C2_01",
+      "questiontext": "Hãy ghép mỗi tình huống lập luận trong học tập với đánh giá tương ứng về tính đúng đắn của sơ đồ tư duy phân tích:",
+      "generalfeedback": "Hình thoi + 1 góc vuông = Hình vuông. Hình bình hành + 2 đường chéo bằng nhau = Hình chữ nhật. Hình thang + 2 góc kề 1 đáy bằng nhau = Hình thang cân.",
+      "subquestions": [
+        {
+          "question": "Phân tích: Hình thoi có một góc vuông",
+          "answer": "Kết luận đúng là Hình vuông"
+        },
+        {
+          "question": "Phân tích: Hình bình hành có hai đường chéo bằng nhau",
+          "answer": "Kết luận đúng là Hình chữ nhật"
+        },
+        {
+          "question": "Phân tích: Hình thang có hai góc kề một đáy bằng nhau",
+          "answer": "Kết luận đúng là Hình thang cân"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_05",
+      "questiontext": "Trong Bài 3.36, khi khung tre hình chữ nhật bị xô lệch làm các góc không còn vuông, bạn An lập luận: \"Do độ dài các cạnh khung tre không đổi và các cặp cạnh đối vẫn song song nên khung tre trở thành hình bình hành. Khi nẹp thêm một đường chéo thì tạo thành các tam giác có độ dài 3 cạnh cố định, do đó khung không bị xô lệch nữa.\" Lập luận của An có hợp lý không?",
+      "generalfeedback": "Lập luận của An hoàn toàn hợp lý dựa trên tính chất hình bình hành và tính cố định dạng của tam giác (tính cứng của tam giác).",
+      "answers": [
+        {
+          "text": "Lập luận hoàn toàn hợp lý dựa trên tính chất cạnh đối và tính vững chắc của tam giác",
+          "fraction": 100
+        },
+        {
+          "text": "Lập luận chưa hợp lý vì nẹp đường chéo không làm tăng độ vững chắc của khung",
+          "fraction": 0
+        },
+        {
+          "text": "Lập luận sai vì khi xô lệch khung tre trở thành hình thoi",
+          "fraction": 0
+        },
+        {
+          "text": "Lập luận sai vì các góc không vuông thì khung tre trở thành hình thang",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_05",
+      "questiontext": "Để lập luận chứng minh tứ giác \\(OBAC\\) là hình chữ nhật (Bài 3.37), ta thực hiện chuỗi logic: Hai tia phân giác của hai góc kề bù vuông góc với nhau nên góc \\(BOC = 90^\\circ\\) [[1]]. Do \\(B, C\\) là chân đường vuông góc nên \\(\\widehat{OBA} = 90^\\circ\\) và \\(\\widehat{OCA} = 90^\\circ\\) [[2]]. Tứ giác có 3 góc vuông là hình chữ nhật.",
+      "generalfeedback": "Chuỗi lập luận logic gồm xác định các góc vuông và sử dụng dấu hiệu nhận biết hình chữ nhật.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "góc vuông thứ nhất"
+        },
+        {
+          "group": 1,
+          "text": "hai góc vuông tiếp theo"
+        },
+        {
+          "group": 1,
+          "text": "cạnh bằng nhau"
+        },
+        {
+          "group": 1,
+          "text": "đường chéo song song"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Để giải quyết bài toán thực tế: \"Làm thế nào để kiểm tra một mặt bàn hình chữ nhật có đúng là hình vuông hay không bằng một sợi dây?\", kĩ năng toán học nào sau đây là tương thích và hiệu quả nhất?",
+      "generalfeedback": "Dùng sợi dây đo 2 cạnh kề (kiểm tra bằng nhau) và đo 2 đường chéo (kiểm tra bằng nhau hoặc vuông góc) là kỹ năng toán học thực hành trực quan.",
+      "answers": [
+        {
+          "text": "Dùng dây đo hai cạnh kề xem có bằng nhau không, sau đó đo hai đường chéo xem có bằng nhau không",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ dùng dây đo chu vi mặt bàn xem có chia hết cho 4 hay không",
+          "fraction": 0
+        },
+        {
+          "text": "Dùng dây đo một đường chéo rồi kết luận ngay",
+          "fraction": 0
+        },
+        {
+          "text": "Gập đôi sợi dây lại rồi đặt ngẫu nhiên lên mặt bàn",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "[img:_page_0_Picture_14.jpeg]\nTrong Bài 3.35, để chứng minh tứ giác \\(EFGH\\) tạo bởi các tia phân giác của hình bình hành \\(ABCD\\) là hình chữ nhật, kĩ năng toán học nào đã được sử dụng tương thích nhất?",
+      "generalfeedback": "Sử dụng tính chất hai góc kề một cạnh của hình bình hành bù nhau (tổng bằng 180°) để tính số đo các góc của tứ giác EFGH bằng 90°.",
+      "answers": [
+        {
+          "text": "Vận dụng tính chất hai góc kề một cạnh bù nhau của hình bình hành kết hợp với tia phân giác để tính các góc của tứ giác \\(EFGH\\) bằng \\(90^\\circ\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Sử dụng công thức tính diện tích hình bình hành để so sánh độ dài các đoạn thẳng",
+          "fraction": 0
+        },
+        {
+          "text": "Đo đạc trực tiếp các góc trên hình vẽ rồi kết luận",
+          "fraction": 0
+        },
+        {
+          "text": "Sử dụng định lý Pythagore cho các tam giác vuông xung quanh",
+          "fraction": 0
+        }
+      ],
+      "imgs": [
+        "_page_0_Picture_14.jpeg"
+      ]
+    }
+  ]
+}

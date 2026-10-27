@@ -1,0 +1,846 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 30,
+    "metadata_used": {
+      "YCCD_TOAN7_001": 1,
+      "YCCD_TOAN7_003": 1,
+      "Tập hợp số hữu tỉ Q": 1,
+      "Viết số hữu tỉ dưới dạng phân số": 2,
+      "YCCD_TOAN7_005": 2,
+      "Tìm số đối của số hữu tỉ": 2,
+      "Khái niệm số hữu tỉ": 2,
+      "Khái niệm số đối của số hữu tỉ": 2,
+      "Nhận biết số hữu tỉ": 2,
+      "YCCD_TOAN7_004": 3,
+      "YCCD_TOAN7_002": 1,
+      "Phân số bằng nhau": 1,
+      "Biểu diễn số hữu tỉ trên trục số": 2,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_TUCHUTUHOC": 1,
+      "NLC_GIAOTIEP": 1,
+      "NLT_TOAN_C2_01": 1,
+      "NLT_TOAN_C2_03": 1,
+      "1.3TC1a_K7": 1,
+      "7.A1.2_1": 1
+    },
+    "types_used": {
+      "multichoice": 22,
+      "truefalse": 2,
+      "matching": 2,
+      "gapselect": 2,
+      "shortanswer": 2
+    },
+    "total": 30
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_001",
+        "reason": "Nhận biết khái niệm số hữu tỉ a/b."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_002",
+        "reason": "Nhận biết các ví dụ không phải số hữu tỉ."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_003",
+        "reason": "Nhận biết ký hiệu tập hợp Q."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_004",
+        "reason": "Xác định điểm biểu diễn số hữu tỉ trên trục số."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_005",
+        "reason": "Nhận biết số đối của số hữu tỉ và vị trí trên trục số."
+      },
+      {
+        "metadata_code": "Khái niệm số hữu tỉ",
+        "reason": "Viết các số dưới dạng phân số a/b và giải thích tính hữu tỉ."
+      },
+      {
+        "metadata_code": "Phân số bằng nhau",
+        "reason": "Nhận biết dãy phân số bằng nhau."
+      },
+      {
+        "metadata_code": "Tập hợp số hữu tỉ Q",
+        "reason": "Mối quan hệ giữa Z và Q."
+      },
+      {
+        "metadata_code": "Khái niệm số đối của số hữu tỉ",
+        "reason": "Khái niệm và tính chất số đối."
+      },
+      {
+        "metadata_code": "Nhận biết số hữu tỉ",
+        "reason": "Xác định các số hữu tỉ trong tập hợp."
+      },
+      {
+        "metadata_code": "Viết số hữu tỉ dưới dạng phân số",
+        "reason": "Viết số thập phân dưới dạng phân số."
+      },
+      {
+        "metadata_code": "Biểu diễn số hữu tỉ trên trục số",
+        "reason": "Biểu diễn và ghép nối số hữu tỉ trên trục số."
+      },
+      {
+        "metadata_code": "Tìm số đối của số hữu tỉ",
+        "reason": "Tìm số đối của hỗn số và số thập phân."
+      },
+      {
+        "metadata_code": "PC_CHAMCHI",
+        "reason": "Đo lường phẩm chất chăm chỉ trong tình huống học tập."
+      },
+      {
+        "metadata_code": "PC_TRUNGTHUC",
+        "reason": "Đo lường phẩm chất trung thực trong kiểm tra."
+      },
+      {
+        "metadata_code": "NLC_TUCHUTUHOC",
+        "reason": "Đo lường năng lực tự chủ và tự học."
+      },
+      {
+        "metadata_code": "NLC_GIAOTIEP",
+        "reason": "Đo lường năng lực giao tiếp và hợp tác."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01",
+        "reason": "Đo lường năng lực tư duy và lập luận toán học."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03",
+        "reason": "Đo lường năng lực giải quyết vấn đề toán học với chỉ số WHtR."
+      },
+      {
+        "metadata_code": "1.3TC1a_K7",
+        "reason": "Đo lường năng lực tin học qua lập công thức bảng tính."
+      },
+      {
+        "metadata_code": "7.A1.2_1",
+        "reason": "Đo lường năng lực xác thực kết quả do AI cung cấp."
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_001",
+      "questiontext": "Số hữu tỉ là số được viết dưới dạng phân số \\(a/b\\) với điều kiện nào của \\(a\\) và \\(b\\)?",
+      "generalfeedback": "Số hữu tỉ là số viết được dưới dạng phân số \\(\\frac{a}{b}\\) với \\(a, b \\in \\mathbb{Z}, b \\neq 0\\).",
+      "answers": [
+        {
+          "text": "\\(a, b \\in \\mathbb{Z}, b \\neq 0\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(a, b \\in \\mathbb{N}, b \\neq 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a, b \\in \\mathbb{Z}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a \\in \\mathbb{N}, b \\in \\mathbb{Z}, b \\neq 0\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_003",
+      "questiontext": "Tập hợp các số hữu tỉ được ký hiệu là gì?",
+      "generalfeedback": "Tập hợp các số hữu tỉ được kí hiệu là \\(\\mathbb{Q}\\).",
+      "answers": [
+        {
+          "text": "\\(\\mathbb{Q}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\mathbb{N}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\mathbb{Z}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\mathbb{R}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Tập hợp số hữu tỉ Q",
+      "questiontext": "Khẳng định sau đây đúng hay sai: \"Mọi số nguyên đều là số hữu tỉ\"?",
+      "generalfeedback": "Đúng. Mỗi số nguyên \\(a\\) đều có thể viết dưới dạng phân số \\(\\frac{a}{1}\\) nên số nguyên cũng là số hữu tỉ.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Viết số hữu tỉ dưới dạng phân số",
+      "questiontext": "Số thập phân \\(0{,}6\\) được viết dưới dạng phân số tối giản là:",
+      "generalfeedback": "Ta có \\(0{,}6 = \\frac{6}{10} = \\frac{3}{5}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{3}{5}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{6}{10}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{6}{1}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{1}{6}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_005",
+      "questiontext": "Số đối của số hữu tỉ \\(\\frac{3}{5}\\) là:",
+      "generalfeedback": "Số đối của số hữu tỉ \\(m\\) là \\(-m\\). Do đó số đối của \\(\\frac{3}{5}\\) là \\(-\\frac{3}{5}\\).",
+      "answers": [
+        {
+          "text": "\\(-\\frac{3}{5}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{5}{3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-\\frac{5}{3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{3}{5}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm số đối của số hữu tỉ",
+      "questiontext": "Số đối của hỗn số \\(1\\frac{4}{5}\\) khi viết dưới dạng phân số tối giản là:",
+      "generalfeedback": "Ta có \\(1\\frac{4}{5} = \\frac{9}{5}\\), do đó số đối của \\(1\\frac{4}{5}\\) là \\(-\\frac{9}{5}\\).",
+      "answers": [
+        {
+          "text": "\\(-\\frac{9}{5}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{9}{5}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-\\frac{5}{9}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-\\frac{1}{5}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm số hữu tỉ",
+      "questiontext": "Hãy ghép mỗi số ở cột bên trái với dạng phân số \\(\\frac{a}{b}\\) tương ứng của nó ở cột bên phải:",
+      "generalfeedback": "Chuyển đổi các số về dạng phân số \\(\\frac{a}{b}\\): \\(-7 = \\frac{-7}{1}\\); \\(-1{,}2 = \\frac{-12}{10}\\); \\(0{,}6 = \\frac{6}{10}\\).",
+      "subquestions": [
+        {
+          "question": "Số \\(-7\\)",
+          "answer": "\\(\\frac{-7}{1}\\)"
+        },
+        {
+          "question": "Số \\(-1{,}2\\)",
+          "answer": "\\(\\frac{-12}{10}\\)"
+        },
+        {
+          "question": "Số \\(0{,}6\\)",
+          "answer": "\\(\\frac{6}{10}\\)"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm số đối của số hữu tỉ",
+      "questiontext": "Mỗi số hữu tỉ đều có một [[1]]. Số đối của số hữu tỉ \\(m\\) là [[2]].",
+      "generalfeedback": "Mỗi số hữu tỉ đều có một số đối. Số đối của số hữu tỉ m là -m.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "số đối"
+        },
+        {
+          "group": 1,
+          "text": "-m"
+        },
+        {
+          "group": 1,
+          "text": "số nghịch đảo"
+        },
+        {
+          "group": 1,
+          "text": "m"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết số hữu tỉ",
+      "questiontext": "Trong các số sau đây: \\(-7\\); \\(0{,}6\\); \\(-1{,}2\\); \\(1\\frac{4}{5}\\), có bao nhiêu số là số hữu tỉ?",
+      "generalfeedback": "Tất cả 4 số đều viết được dưới dạng phân số nên cả 4 số đều là số hữu tỉ.",
+      "answers": [
+        {
+          "text": "4",
+          "fraction": 100
+        },
+        {
+          "text": "3",
+          "fraction": 0
+        },
+        {
+          "text": "2",
+          "fraction": 0
+        },
+        {
+          "text": "1",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_004",
+      "imgs": [
+        "_page_2_Figure_12.jpeg"
+      ],
+      "questiontext": "Cho trục số như hình bên dưới: [img:_page_2_Figure_12.jpeg] Mỗi đoạn đơn vị cũ (từ 0 đến 1) được chia thành 4 đoạn bằng nhau. Điểm \\(A\\) trên trục số biểu diễn số hữu tỉ nào?",
+      "generalfeedback": "Đoạn đơn vị từ 0 đến 1 được chia thành 4 phần bằng nhau nên mỗi đoạn nhỏ là \\(\\frac{1}{4}\\). Điểm A nằm bên phải gốc O và cách O một khoảng 7 đoạn nhỏ, do đó điểm A biểu diễn số hữu tỉ \\(\\frac{7}{4}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{7}{4}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{3}{4}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{5}{4}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-\\frac{7}{4}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_002",
+      "questiontext": "Số nào sau đây KHÔNG phải là một số hữu tỉ?",
+      "generalfeedback": "Số hữu tỉ có dạng a/b với b khác 0. Phân số \\(\\frac{5}{0}\\) có mẫu số bằng 0 nên không phải số hữu tỉ.",
+      "answers": [
+        {
+          "text": "\\(\\frac{5}{0}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(-3{,}3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "0",
+          "fraction": 0
+        },
+        {
+          "text": "1\\(\\frac{4}{5}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Phân số bằng nhau",
+      "questiontext": "Dãy các phân số nào sau đây cùng biểu diễn số hữu tỉ \\(1{,}5\\)?",
+      "generalfeedback": "Ta có \\(1{,}5 = \\frac{3}{2} = \\frac{6}{4} = \\frac{9}{6}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{3}{2}; \\frac{6}{4}; \\frac{9}{6}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{3}{2}; \\frac{5}{4}; \\frac{7}{6}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{2}{3}; \\frac{4}{6}; \\frac{6}{9}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{3}{2}; \\frac{6}{3}; \\frac{9}{4}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Biểu diễn số hữu tỉ trên trục số",
+      "questiontext": "Để biểu diễn số hữu tỉ \\(\\frac{3}{2}\\) trên trục số, ta chia đoạn thẳng đơn vị thành 2 đoạn bằng nhau, lấy 1 đoạn làm đơn vị mới. Điểm \\(M\\) biểu diễn số \\(\\frac{3}{2}\\) nằm sau gốc \\(O\\) và cách gốc \\(O\\) bao nhiêu đơn vị mới?",
+      "generalfeedback": "Số hữu tỉ \\(\\frac{3}{2}\\) được biểu diễn bởi điểm \\(M\\) cách gốc \\(O\\) một đoạn bằng 3 đơn vị mới.",
+      "answers": [
+        {
+          "text": "3 đơn vị mới",
+          "fraction": 100
+        },
+        {
+          "text": "2 đơn vị mới",
+          "fraction": 0
+        },
+        {
+          "text": "1 đơn vị mới",
+          "fraction": 0
+        },
+        {
+          "text": "6 đơn vị mới",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_004",
+      "imgs": [
+        "_page_2_Figure_12.jpeg"
+      ],
+      "questiontext": "Cho trục số như hình bên dưới: [img:_page_2_Figure_12.jpeg] Điểm \\(C\\) trên trục số biểu diễn số hữu tỉ nào?",
+      "generalfeedback": "Điểm C nằm bên phải gốc O và cách O một khoảng bằng 3 đơn vị mới (mỗi đơn vị mới là 1/2), do đó điểm C biểu diễn số hữu tỉ \\(\\frac{3}{2}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{3}{2}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "1",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{1}{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "2",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm số đối của số hữu tỉ",
+      "questiontext": "Tìm số đối của số hữu tỉ \\(-3{,}3\\). (Chỉ ghi giá trị dưới dạng số thập phân, dùng dấu phẩy hoặc chấm)",
+      "generalfeedback": "Số đối của \\(-3{,}3\\) là \\(3{,}3\\).",
+      "answers": [
+        {
+          "text": "3,3",
+          "fraction": 100
+        },
+        {
+          "text": "3.3",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Biểu diễn số hữu tỉ trên trục số",
+      "questiontext": "Khi chia đoạn đơn vị trên trục số thành 2 phần bằng nhau để chọn đơn vị mới, hãy ghép mỗi điểm sau với số hữu tỉ mà nó biểu diễn:",
+      "generalfeedback": "Điểm N nằm trước gốc O cách O 3 đơn vị mới biểu diễn -3/2; điểm M nằm sau O cách O 3 đơn vị mới biểu diễn 3/2; gốc O biểu diễn số 0.",
+      "subquestions": [
+        {
+          "question": "Điểm N (nằm trước gốc O, cách O 3 đơn vị mới)",
+          "answer": "\\(-\\frac{3}{2}\\)"
+        },
+        {
+          "question": "Điểm M (nằm sau gốc O, cách O 3 đơn vị mới)",
+          "answer": "\\(\\frac{3}{2}\\)"
+        },
+        {
+          "question": "Gốc O",
+          "answer": "0"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Khái niệm số hữu tỉ",
+      "questiontext": "Chỉ số WHtR của ông An (chiều cao 180 cm, vòng bụng 108 cm) được tính bằng tỉ số \\(\\frac{108}{180}\\). Tỉ số này có phải là một số hữu tỉ không? Vì sao?",
+      "generalfeedback": "Tỉ số \\(\\frac{108}{180}\\) là một số hữu tỉ vì nó có dạng \\(\\frac{a}{b}\\) với \\(a = 108, b = 180 \\in \\mathbb{Z}\\) và \\(b \\neq 0\\).",
+      "answers": [
+        {
+          "text": "Có, vì \\(108\\) và \\(180\\) đều là các số nguyên và \\(180 \\neq 0\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Không, vì chỉ số này phải viết dưới dạng số thập phân",
+          "fraction": 0
+        },
+        {
+          "text": "Không, vì \\(108\\) nhỏ hơn \\(180\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Có, nhưng chỉ khi rút gọn về phân số tối giản",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_005",
+      "questiontext": "Khẳng định sau đây đúng hay sai: \"Trên trục số, hai điểm biểu diễn của hai số hữu tỉ đối nhau \\(a\\) và \\(-a\\) nằm về hai phía khác nhau so với điểm \\(O\\) và có cùng khoảng cách đến \\(O\\)\"?",
+      "generalfeedback": "Đúng. Đây là tính chất hai điểm biểu diễn hai số hữu tỉ đối nhau trên trục số.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm số đối của số hữu tỉ",
+      "questiontext": "Hai số hữu tỉ đối nhau nằm về hai phía khác nhau so với điểm O và có [[1]] khoảng cách đến [[2]].",
+      "generalfeedback": "Hai số hữu tỉ đối nhau có cùng khoảng cách đến điểm O trên trục số.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "cùng"
+        },
+        {
+          "group": 1,
+          "text": "điểm O"
+        },
+        {
+          "group": 1,
+          "text": "khác"
+        },
+        {
+          "group": 1,
+          "text": "điểm 1"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Viết số hữu tỉ dưới dạng phân số",
+      "questiontext": "Phân số nào sau đây biểu diễn số hữu tỉ \\(-0{,}625\\)?",
+      "generalfeedback": "Ta có \\(-0{,}625 = -\\frac{625}{1000} = \\frac{5}{-8} = \\frac{-25}{40}\\). Trong các đáp án cho, \\(\\frac{5}{-8}\\) biểu diễn số \\(-0{,}625\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{5}{-8}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{10}{16}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{-10}{16}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{35}{-48}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_004",
+      "imgs": [
+        "_page_2_Figure_12.jpeg"
+      ],
+      "questiontext": "Cho trục số như hình bên dưới: [img:_page_2_Figure_12.jpeg] Điểm \\(B\\) trên trục số biểu diễn số hữu tỉ nào?",
+      "generalfeedback": "Điểm B nằm bên trái gốc O và cách O một khoảng 3 đơn vị mới (mỗi đơn vị mới là 1/2), do đó điểm B biểu diễn số hữu tỉ \\(-\\frac{3}{2}\\).",
+      "answers": [
+        {
+          "text": "\\(-\\frac{3}{2}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(-\\frac{1}{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "-1",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{3}{2}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết số hữu tỉ",
+      "questiontext": "Khẳng định \"-\\(\\frac{6}{7} \\in \\mathbb{Q}\\)\" là Đúng hay Sai?",
+      "generalfeedback": "Khẳng định này Đúng vì -6/7 là một phân số có mẫu số khác 0 nên nó thuộc tập hợp các số hữu tỉ Q.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Đúng",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Bạn Bình gặp bài toán biểu diễn số hữu tỉ \\(-\\frac{3}{2}\\) trên trục số nhưng chưa hiểu rõ cách chia đoạn đơn vị mới. Hành vi nào sau đây thể hiện phẩm chất chăm chỉ của Bình?",
+      "generalfeedback": "Thái độ chăm chỉ thể hiện qua việc chủ động đọc lại kiến thức SGK, kiên trì tự thực hiện các bước và học hỏi khi gặp khó khăn.",
+      "answers": [
+        {
+          "text": "Đọc kỹ lại hướng dẫn chia đoạn đơn vị trong SGK, kiên trì tự vẽ lại trục số và nhờ thầy cô giải thích phần chưa rõ",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài toán và đợi đến lớp chép đáp án của các bạn khác",
+          "fraction": 0
+        },
+        {
+          "text": "Nhờ bạn làm hộ toàn bộ bài tập để nộp cho kịp giờ",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ làm các câu dễ, bỏ qua các câu liên quan đến số hữu tỉ âm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Trong giờ kiểm tra Toán về chủ đề số hữu tỉ, Nam tính ra kết quả viết số thập phân \\(-1{,}2\\) dưới dạng phân số là \\(-\\frac{12}{10}\\). Nhìn sang bài bạn bên cạnh thấy bạn viết \\(-\\frac{6}{5}\\), Nam định sửa theo bạn dù chưa tự rút gọn. Hành vi nào thể hiện tính trung thực của Nam?",
+      "generalfeedback": "Tính trung thực đòi hỏi học sinh tự giác làm bài bằng năng lực của bản thân, không nhìn chép hay sao chép bài của người khác.",
+      "answers": [
+        {
+          "text": "Giữ nguyên bài làm của mình, tự kiểm tra lại phép rút gọn phân số bằng năng lực của bản thân",
+          "fraction": 100
+        },
+        {
+          "text": "Chép ngay kết quả của bạn vào bài làm của mình để đạt điểm cao",
+          "fraction": 0
+        },
+        {
+          "text": "Sửa kết quả theo bạn và báo với thầy cô là hai người cùng làm chung",
+          "fraction": 0
+        },
+        {
+          "text": "Hỏi bạn cách làm ngay trong giờ kiểm tra để chép vào bài",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Để tự học hiệu quả nội dung \"Biểu diễn số hữu tỉ trên trục số\", một học sinh nên sắp xếp thứ tự các bước tự học như thế nào?",
+      "generalfeedback": "Tiến trình tự học tự chủ: Đọc lý thuyết SGK -> Quan sát ví dụ mẫu -> Thực hành bài tập -> Tự kiểm tra đánh giá.",
+      "answers": [
+        {
+          "text": "Đọc định nghĩa SGK \\(\\rightarrow\\) Quan sát ví dụ mẫu \\(\\rightarrow\\) Thực hành làm bài tập \\(\\rightarrow\\) Tự kiểm tra và sửa sai",
+          "fraction": 100
+        },
+        {
+          "text": "Làm bài tập ngay \\(\\rightarrow\\) Xem đáp án \\(\\rightarrow\\) Đọc lại SGK khi làm sai",
+          "fraction": 0
+        },
+        {
+          "text": "Xem đáp án trước \\(\\rightarrow\\) Chép lại bài giải \\(\\rightarrow\\) Đọc lướt qua SGK",
+          "fraction": 0
+        },
+        {
+          "text": "Đọc SGK \\(\\rightarrow\\) Bỏ qua bài tập thực hành \\(\\rightarrow\\) Chờ giáo viên sửa bài",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_GIAOTIEP",
+      "questiontext": "Khi thảo luận nhóm về cách tính chỉ số WHtR của ông An (chiều cao 180 cm, vòng bụng 108 cm), hai bạn trong nhóm tranh luận về việc tỉ số \\(\\frac{108}{180}\\) có phải số hữu tỉ không. Cách giao tiếp và hợp tác nào sau đây là tích cực nhất?",
+      "generalfeedback": "Giao tiếp hợp tác hiệu quả dựa trên sự tôn trọng, lắng nghe và bám sát kiến thức SGK để giải thích thuyết phục.",
+      "answers": [
+        {
+          "text": "Tôn trọng ý kiến của bạn, cùng mở SGK tra cứu định nghĩa số hữu tỉ \\(\\frac{a}{b}\\) (với \\(a,b \\in \\mathbb{Z}, b \\neq 0\\)) để giải thích rõ ràng",
+          "fraction": 100
+        },
+        {
+          "text": "Phủ nhận ngay ý kiến của bạn và áp đặt suy nghĩ của mình",
+          "fraction": 0
+        },
+        {
+          "text": "Mặc kệ tranh luận và không tham gia đóng góp ý kiến cho nhóm",
+          "fraction": 0
+        },
+        {
+          "text": "Báo cáo giáo viên phạt bạn vì có ý kiến khác với mình",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Bạn An khẳng định: \"Mọi số nguyên đều là số hữu tỉ\". Lập luận toán học nào sau đây là ĐÚNG để giải thích cho khẳng định của An?",
+      "generalfeedback": "Vì mọi số nguyên a đều có thể viết dưới dạng phân số a/1 với a, 1 đều là số nguyên và mẫu số 1 khác 0.",
+      "answers": [
+        {
+          "text": "Vì mọi số nguyên \\(a\\) đều viết được dưới dạng phân số \\(\\frac{a}{1}\\) với \\(a, 1 \\in \\mathbb{Z}\\) và \\(1 \\neq 0\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Vì số nguyên và số hữu tỉ là hai tên gọi khác nhau của cùng một tập hợp số",
+          "fraction": 0
+        },
+        {
+          "text": "Vì mọi số nguyên đều lớn hơn 0 nên là số hữu tỉ",
+          "fraction": 0
+        },
+        {
+          "text": "Vì số nguyên không thể biểu diễn được trên trục số",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "questiontext": "Ông An có chiều cao 180 cm, vòng bụng 108 cm. Chỉ số WHtR của ông An được tính bằng tỉ số \\(\\frac{108}{180} = 0{,}6\\). Dựa vào bảng đánh giá chỉ số WHtR trong bài học, mức độ nguy cơ thừa cân, béo phì của ông An thuộc loại nào?",
+      "generalfeedback": "Theo bảng WHtR trong SGK: Chỉ số WHtR lớn hơn 0,57 và nhỏ hơn hoặc bằng 0,63 là \"Thừa cân\". Do 0,6 thuộc khoảng này nên ông An thuộc mức \"Thừa cân\".",
+      "answers": [
+        {
+          "text": "Thừa cân",
+          "fraction": 100
+        },
+        {
+          "text": "Tốt",
+          "fraction": 0
+        },
+        {
+          "text": "Hơi béo",
+          "fraction": 0
+        },
+        {
+          "text": "Béo phì",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "1.3TC1a_K7",
+      "questiontext": "Em muốn lập bảng tính tự động trên máy tính để tính chỉ số WHtR (bằng tỉ số giữa Vòng bụng và Chiều cao). Nếu cột A ghi Chiều cao (cm) và cột B ghi Vòng bụng (cm), công thức tại ô C2 (Chỉ số WHtR) của dòng 2 phải nhập thế nào?",
+      "generalfeedback": "Chỉ số WHtR = Vòng bụng / Chiều cao, nên tại dòng 2 công thức tính trong bảng tính là =B2/A2.",
+      "answers": [
+        {
+          "text": "=B2/A2",
+          "fraction": 100
+        },
+        {
+          "text": "=A2/B2",
+          "fraction": 0
+        },
+        {
+          "text": "=A2*B2",
+          "fraction": 0
+        },
+        {
+          "text": "=B2-A2",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "7.A1.2_1",
+      "questiontext": "Một học sinh dùng phần mềm AI để tìm số đối của số hữu tỉ \\(-3{,}3\\). AI trả về kết quả là \\(-\\frac{1}{3{,}3}\\). Hậu quả nào xảy ra nếu học sinh sử dụng ngay kết quả này mà không xác thực lại?",
+      "generalfeedback": "AI có thể đưa ra kết quả sai do hiểu nhầm khái niệm (nhầm số đối với số nghịch đảo). Học sinh không xác thực sẽ chép sai bài do số đối của -3,3 là 3,3.",
+      "answers": [
+        {
+          "text": "Học sinh bị sai kiến thức vì số đối của \\(-3{,}3\\) phải là \\(3{,}3\\), AI đã nhầm sang số nghịch đảo và phân số chưa đúng dạng \\(a/b\\) với \\(a,b \\in \\mathbb{Z}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Học sinh vẫn làm đúng vì kết quả của AI luôn luôn chính xác 100%",
+          "fraction": 0
+        },
+        {
+          "text": "Học sinh chỉ bị trừ điểm trình bày chứ kết quả toán học vẫn đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Không có hậu quả gì vì máy tính tự động sửa bài trên hệ thống",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

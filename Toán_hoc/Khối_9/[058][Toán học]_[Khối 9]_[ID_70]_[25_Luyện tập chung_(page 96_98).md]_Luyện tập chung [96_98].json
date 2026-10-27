@@ -1,0 +1,747 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 27,
+    "metadata_used": {
+      "Mô hình toán học các vật thể tròn phẳng trong thực tế": 12,
+      "YCCD_TOAN9_094": 6,
+      "Giải bài toán thực tế gắn với độ dài cung tròn và diện tích hình quạt tròn": 12,
+      "SUB_CHAMCHI_HAMHOC_C2_03": 1,
+      "SUB_TRACHNHIEM_MOITRUONG_C2_01": 1,
+      "SUB_GQVD_DEXUAT_C2_01": 1,
+      "SUB_GTHT_XACDINHMD_C2_04": 1,
+      "NLT_TOAN_C2_02_04": 1,
+      "NLT_TOAN_C2_02_08": 1,
+      "1.1TC2a_K9": 1
+    },
+    "types_used": {
+      "multichoice": 12,
+      "truefalse": 2,
+      "numerical": 2,
+      "calculatedsimple": 1,
+      "matching": 2,
+      "gapselect": 3,
+      "ddwtos": 2,
+      "calculatedmulti": 1,
+      "shortanswer": 1,
+      "calculated": 1
+    },
+    "total": 27
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN9_094",
+        "reason": "Giải quyết bài toán thực tế về guồng nước, chuyển động xe đạp và đường tròn."
+      },
+      {
+        "metadata_code": "Mô hình toán học các vật thể tròn phẳng trong thực tế",
+        "reason": "Nhận biết và mô tả mô hình toán học vật thể tròn phẳng trong thực tế."
+      },
+      {
+        "metadata_code": "Giải bài toán thực tế gắn với độ dài cung tròn và diện tích hình quạt tròn",
+        "reason": "Tính độ dài cung tròn, diện tích hình quạt tròn và hình viên phân."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_03",
+        "reason": "Ý thức vận dụng kiến thức từ nguồn tin cậy vào đời sống."
+      },
+      {
+        "metadata_code": "SUB_TRACHNHIEM_MOITRUONG_C2_01",
+        "reason": "Sống hoà hợp, trân trọng thiên nhiên qua ứng dụng guồng nước."
+      },
+      {
+        "metadata_code": "SUB_GQVD_DEXUAT_C2_01",
+        "reason": "Xác định và thu thập thông tin toán học liên quan đến bài toán thực tế."
+      },
+      {
+        "metadata_code": "SUB_GTHT_XACDINHMD_C2_04",
+        "reason": "Sử dụng ngôn ngữ và biểu thức toán học để trình bày công thức."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_02_04",
+        "reason": "Sử dụng mô hình toán học để mô tả tình huống truyền động xe đạp."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_02_08",
+        "reason": "Thể hiện lời giải toán học vào ngữ cảnh thực tiễn bài toán guồng nước."
+      },
+      {
+        "metadata_code": "1.1TC2a_K9",
+        "reason": "Tự tìm kiếm và lưu trữ dữ liệu mô phỏng trong môi trường số."
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Mô hình toán học các vật thể tròn phẳng trong thực tế",
+      "questiontext": "Hình giới hạn bởi một cung nhỏ của một đường tròn và dây căng cung đó được gọi là gì?",
+      "generalfeedback": "Theo định nghĩa trong SGK, hình giới hạn bởi một cung nhỏ của một đường tròn và dây căng cung đó gọi là hình viên phân.",
+      "answers": [
+        {
+          "text": "Hình viên phân",
+          "fraction": 100
+        },
+        {
+          "text": "Hình quạt tròn",
+          "fraction": 0
+        },
+        {
+          "text": "Hình vành khăn",
+          "fraction": 0
+        },
+        {
+          "text": "Hình tròn",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Mô hình toán học các vật thể tròn phẳng trong thực tế",
+      "questiontext": "Trong một đường tròn, hai tam giác vuông chung cạnh huyền có các đỉnh đối diện với cạnh huyền cùng nằm trên đường tròn đường kính là cạnh huyền đó.",
+      "generalfeedback": "Đúng. Cung đường tròn đường kính là cạnh huyền đi qua đỉnh góc vuông của các tam giác vuông đó.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Mô hình toán học các vật thể tròn phẳng trong thực tế",
+      "questiontext": "Cho đường tròn bán kính \\(R\\). Công thức tính diện tích hình quạt tròn ứng với cung \\(90^\\circ\\) theo \\(R\\) là gì?",
+      "generalfeedback": "Diện tích hình quạt tròn ứng với cung \\(90^\\circ\\) là \\(S_q = \\frac{90}{360}\\pi R^2 = \\frac{1}{4}\\pi R^2\\).",
+      "answers": [
+        {
+          "text": "\\(S_q = \\frac{1}{4}\\pi R^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(S_q = \\frac{1}{2}\\pi R^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(S_q = \\pi R^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(S_q = \\frac{1}{4}\\pi R\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_094",
+      "imgs": [
+        "_page_1_Picture_11.jpeg"
+      ],
+      "questiontext": "[img:_page_1_Picture_11.jpeg]\nMột guồng nước có ngấn nước biểu thị bởi cung ứng với một dây dài \\(4\\text{ m}\\) và điểm ngập sâu nhất là \\(0,5\\text{ m}\\). Tính bán kính (theo đơn vị mét) của guồng nước. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Gọi \\(R\\) là bán kính guồng nước. Khoảng cách từ tâm đến dây là \\(R - 0,5\\). Áp dụng định lý Pythagoras: \\(R^2 = (R - 0,5)^2 + 2^2 \\Rightarrow R = 4,25\\text{ m}\\).",
+      "answers": [
+        {
+          "text": "4.25",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán thực tế gắn với độ dài cung tròn và diện tích hình quạt tròn",
+      "questiontext": "Tính diện tích hình quạt tròn ứng với cung {n} độ của đường tròn có bán kính {r} cm (lấy \\(\\pi \\approx 3.14\\)). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Công thức diện tích hình quạt tròn: \\(S = \\frac{n}{360} \\cdot \\pi \\cdot r^2\\).",
+      "wildcards": [
+        {
+          "name": "n",
+          "min": 30.0,
+          "max": 120.0,
+          "decimals": 0
+        },
+        {
+          "name": "r",
+          "min": 2.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "({n}/360)*3.14*pow({r}, 2)",
+          "fraction": 100,
+          "tolerance": 0.1
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Mô hình toán học các vật thể tròn phẳng trong thực tế",
+      "questiontext": "Hãy ghép mỗi công thức/khái niệm ở cột trái với ý nghĩa tương ứng ở cột phải đối với đường tròn bán kính \\(R\\):",
+      "generalfeedback": "Ghép đúng các công thức cơ bản liên quan đến đường tròn và hình quạt tròn.",
+      "subquestions": [
+        {
+          "question": "Diện tích hình quạt tròn ứng với cung n độ",
+          "answer": "\\(S = \\frac{n}{360}\\pi R^2\\)"
+        },
+        {
+          "question": "Độ dài cung tròn n độ",
+          "answer": "\\(l = \\frac{n}{180}\\pi R\\)"
+        },
+        {
+          "question": "Diện tích tam giác vuông cân có hai cạnh góc vuông bằng R",
+          "answer": "\\(S = \\frac{1}{2}R^2\\)"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Mô hình toán học các vật thể tròn phẳng trong thực tế",
+      "questiontext": "Diện tích hình viên phân ứng với cung \\(90^\\circ\\) của đường tròn bán kính \\(R\\) bằng diện tích hình quạt tròn [[1]] diện tích tam giác vuông OAB.",
+      "generalfeedback": "Diện tích hình viên phân ứng với cung 90 độ bằng diện tích hình quạt tròn trừ đi diện tích tam giác vuông OAB.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "trừ đi"
+        },
+        {
+          "group": 1,
+          "text": "cộng với"
+        },
+        {
+          "group": 1,
+          "text": "nhân với"
+        },
+        {
+          "group": 1,
+          "text": "chia cho"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Mô hình toán học các vật thể tròn phẳng trong thực tế",
+      "questiontext": "Guồng nước (cọn nước) có dạng [[1]] quay được nhờ sức nước chảy, dùng để đưa nước lên [[2]] hoặc giã gạo.",
+      "generalfeedback": "Theo SGK, guồng nước có dạng hình tròn, quay nhờ sức nước chảy để đưa nước lên ruộng cao.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "hình tròn"
+        },
+        {
+          "group": 1,
+          "text": "ruộng cao"
+        },
+        {
+          "group": 1,
+          "text": "hình vuông"
+        },
+        {
+          "group": 1,
+          "text": "kênh đào"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_094",
+      "imgs": [
+        "_page_2_Picture_6.jpeg"
+      ],
+      "questiontext": "[img:_page_2_Picture_6.jpeg]\nBa bộ phận truyền chuyển động của chiếc xe đạp gồm giò đĩa bán kính \\(15\\text{ cm}\\), líp bán kính \\(4\\text{ cm}\\) và bánh xe đường kính \\(65\\text{ cm}\\). Hỏi khi người đi xe đạp quay bàn đạp 1 vòng thì líp quay được bao nhiêu vòng?",
+      "generalfeedback": "Khi giò đĩa quay 1 vòng, chu vi giò đĩa di chuyển là \\(2\\pi \\times 15 = 30\\pi\\text{ cm}\\). Số vòng líp quay là \\(30\\pi / (2\\pi \\times 4) = 15/4 = 3,75\\) vòng.",
+      "answers": [
+        {
+          "text": "3,75 vòng",
+          "fraction": 100
+        },
+        {
+          "text": "2,5 vòng",
+          "fraction": 0
+        },
+        {
+          "text": "4,25 vòng",
+          "fraction": 0
+        },
+        {
+          "text": "3,25 vòng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán thực tế gắn với độ dài cung tròn và diện tích hình quạt tròn",
+      "questiontext": "Cho đường tròn bán kính {R} cm. Độ dài cung {a} độ của đường tròn này là bao nhiêu cm? (Lấy \\(\\pi \\approx 3.14\\))",
+      "generalfeedback": "Công thức tính độ dài cung tròn: \\(l = \\frac{a}{180} \\cdot \\pi \\cdot R\\).",
+      "wildcards": [
+        {
+          "name": "R",
+          "min": 3.0,
+          "max": 12.0,
+          "decimals": 0
+        },
+        {
+          "name": "a",
+          "min": 30.0,
+          "max": 150.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "({a}/180)*3.14*{R}",
+          "fraction": 100
+        },
+        {
+          "text": "({a}/360)*3.14*{R}",
+          "fraction": 0
+        },
+        {
+          "text": "({a}/180)*3.14*pow({R}, 2)",
+          "fraction": 0
+        },
+        {
+          "text": "({a}/360)*3.14*pow({R}, 2)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Giải bài toán thực tế gắn với độ dài cung tròn và diện tích hình quạt tròn",
+      "imgs": [
+        "_page_2_Picture_11.jpeg"
+      ],
+      "questiontext": "[img:_page_2_Picture_11.jpeg]\nCho tam giác đều \\(ABC\\) có \\(AB = 2\\sqrt{3}\\text{ cm}\\). Nửa đường tròn đường kính \\(BC\\) cắt hai cạnh \\(AB\\) và \\(AC\\) lần lượt tại \\(D\\) và \\(E\\). Số đo của mỗi cung nhỏ \\(BD\\), \\(DE\\), \\(EC\\) là bao nhiêu?",
+      "generalfeedback": "Tam giác \\(ABC\\) đều nên góc \\(A = 60^\\circ\\). Nửa đường tròn đường kính \\(BC\\) chia thành 3 cung nhỏ bằng nhau \\(BD = DE = EC\\) có số đo bằng \\(60^\\circ\\).",
+      "answers": [
+        {
+          "text": "60°",
+          "fraction": 100
+        },
+        {
+          "text": "30°",
+          "fraction": 0
+        },
+        {
+          "text": "45°",
+          "fraction": 0
+        },
+        {
+          "text": "90°",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán thực tế gắn với độ dài cung tròn và diện tích hình quạt tròn",
+      "imgs": [
+        "_page_2_Picture_11.jpeg"
+      ],
+      "questiontext": "[img:_page_2_Picture_11.jpeg]\nCho tam giác đều \\(ABC\\) có \\(AB = 2\\sqrt{3}\\text{ cm}\\). Nửa đường tròn đường kính \\(BC\\) có bán kính \\(R = \\sqrt{3}\\text{ cm}\\). Tính diện tích hình viên phân (theo \\(\\text{cm}^2\\)) giới hạn bởi dây \\(BD\\) và cung nhỏ \\(BD\\) (làm tròn đến hàng phần trăm, lấy \\(\\pi \\approx 3,14\\)). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Bán kính \\(R = \\sqrt{3}\\text{ cm}\\). Diện tích hình quạt ứng với cung \\(60^\\circ\\) là \\(S_q = \\frac{60}{360} \\pi R^2 = \\frac{1}{6} \\pi (3) = 0,5 \\pi \\approx 1,57\\text{ cm}^2\\). Tam giác \\(OBD\\) đều cạnh \\(\\sqrt{3}\\) có diện tích \\(S_t = \\frac{(\\sqrt{3})^2 \\sqrt{3}}{4} = \\frac{3\\sqrt{3}}{4} \\approx 1,30\\text{ cm}^2\\). Diện tích hình viên phân \\(S = S_q - S_t = 1,57 - 1,30 = 0,27\\text{ cm}^2\\).",
+      "answers": [
+        {
+          "text": "0.27",
+          "fraction": 100,
+          "tolerance": 0.02
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Mô hình toán học các vật thể tròn phẳng trong thực tế",
+      "imgs": [
+        "_page_0_Picture_8.jpeg"
+      ],
+      "questiontext": "[img:_page_0_Picture_8.jpeg]\nCho tam giác nhọn \\(ABC\\) cân tại \\(A\\) có hai đường cao \\(BH\\) và \\(CK\\). Bốn điểm \\(B, C, H, K\\) cùng thuộc đường tròn đường kính \\(BC\\).",
+      "generalfeedback": "Đúng. Hai tam giác vuông \\(HBC\\) và \\(KCB\\) có chung cạnh huyền \\(BC\\) nên hai đỉnh góc vuông \\(H\\) và \\(K\\) cùng thuộc đường tròn đường kính \\(BC\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán thực tế gắn với độ dài cung tròn và diện tích hình quạt tròn",
+      "imgs": [
+        "_page_0_Picture_8.jpeg"
+      ],
+      "questiontext": "[img:_page_0_Picture_8.jpeg]\nCho tam giác nhọn \\(ABC\\) cân tại \\(A\\) có đường cao \\(BH, CK\\). Biết \\(\\widehat{BAC} = 40^\\circ\\). Số đo của cung nhỏ \\(KH\\) thuộc đường tròn đường kính \\(BC\\) bằng bao nhiêu độ? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Ta có \\(\\widehat{BOK} = \\widehat{HOC} = \\widehat{BAC} = 40^\\circ\\). Do đó \\(\\widehat{KOH} = 180^\\circ - 40^\\circ - 40^\\circ = 100^\\circ\\). Tức là số đo cung nhỏ \\(KH\\) bằng \\(100^\\circ\\).",
+      "answers": [
+        {
+          "text": "100",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Giải bài toán thực tế gắn với độ dài cung tròn và diện tích hình quạt tròn",
+      "questiontext": "Cho đường tròn \\((O; 5\\text{ cm})\\). Khoảng cách từ tâm \\(O\\) đến dây \\(AB\\) bằng \\(2,5\\text{ cm}\\). Số đo của cung nhỏ \\(AB\\) là bao nhiêu?",
+      "generalfeedback": "Gọi \\(H\\) là trung điểm \\(AB\\), ta có \\(\\cos \\widehat{AOH} = \\frac{OH}{OA} = \\frac{2,5}{5} = \\frac{1}{2} \\Rightarrow \\widehat{AOH} = 60^\\circ\\). Do đó \\(\\widehat{AOB} = 120^\\circ\\), suy ra số đo cung nhỏ \\(AB\\) bằng \\(120^\\circ\\).",
+      "answers": [
+        {
+          "text": "120°",
+          "fraction": 100
+        },
+        {
+          "text": "60°",
+          "fraction": 0
+        },
+        {
+          "text": "90°",
+          "fraction": 0
+        },
+        {
+          "text": "150°",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán thực tế gắn với độ dài cung tròn và diện tích hình quạt tròn",
+      "questiontext": "Một đường tròn có bán kính {R} cm. Độ dài dây AB cách tâm một khoảng {d} cm (với {d} < {R}) được tính theo công thức nào?",
+      "generalfeedback": "Áp dụng định lý Pythagoras trong tam giác vuông tạo bởi tâm, trung điểm dây và một đầu dây: \\(AB = 2\\sqrt{R^2 - d^2}\\).",
+      "wildcards": [
+        {
+          "name": "R",
+          "min": 5.0,
+          "max": 15.0,
+          "decimals": 0
+        },
+        {
+          "name": "d",
+          "min": 1.0,
+          "max": 4.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "2*sqrt(pow({R}, 2) - pow({d}, 2))",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Mô hình toán học các vật thể tròn phẳng trong thực tế",
+      "questiontext": "Ghép các yếu tố của bài toán xe đạp với bán kính/đường kính tương ứng trong SGK (Bài 5.18):",
+      "generalfeedback": "Theo SGK Bài 5.18: giò đĩa có bán kính 15 cm, líp có bán kính 4 cm, bánh xe có đường kính 65 cm.",
+      "subquestions": [
+        {
+          "question": "Giò đĩa",
+          "answer": "Bán kính 15 cm"
+        },
+        {
+          "question": "Líp xe đạp",
+          "answer": "Bán kính 4 cm"
+        },
+        {
+          "question": "Bánh xe",
+          "answer": "Đường kính 65 cm"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Mô hình toán học các vật thể tròn phẳng trong thực tế",
+      "questiontext": "Trong bài toán xe đạp, giò đĩa có bán kính [[1]] cm, líp có bán kính [[2]] cm và bánh xe có đường kính [[3]] cm.",
+      "generalfeedback": "Giò đĩa bán kính 15 cm, líp bán kính 4 cm, bánh xe đường kính 65 cm.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "15"
+        },
+        {
+          "group": 1,
+          "text": "4"
+        },
+        {
+          "group": 1,
+          "text": "65"
+        },
+        {
+          "group": 1,
+          "text": "30"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_094",
+      "imgs": [
+        "_page_0_Picture_20.jpeg"
+      ],
+      "questiontext": "[img:_page_0_Picture_20.jpeg]\nĐể tính diện tích hình viên phân giới hạn bởi cung \\(90^\\circ\\) và dây căng cung, ta lấy diện tích [[1]] trừ đi diện tích [[2]].",
+      "generalfeedback": "Diện tích hình viên phân = Diện tích hình quạt tròn - Diện tích hình tam giác.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "hình quạt tròn"
+        },
+        {
+          "group": 1,
+          "text": "hình tam giác"
+        },
+        {
+          "group": 1,
+          "text": "hình tròn"
+        },
+        {
+          "group": 1,
+          "text": "hình vuông"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_094",
+      "imgs": [
+        "_page_2_Picture_6.jpeg"
+      ],
+      "questiontext": "[img:_page_2_Picture_6.jpeg]\nBiết giò đĩa xe đạp có bán kính \\(15\\text{ cm}\\), líp có bán kính \\(4\\text{ cm}\\) và bánh xe có đường kính \\(65\\text{ cm}\\). Khi người đi xe đạp một vòng (bàn đạp quay 1 vòng) thì xe chạy được quãng đường dài bao nhiêu mét (làm tròn đến hàng phần chục, lấy \\(\\pi \\approx 3,14\\))?",
+      "generalfeedback": "Líp quay được \\(3,75\\) vòng. Bánh xe quay 3,75 vòng. Chu vi bánh xe là \\(\\pi \\times 0,65 \\approx 3,14 \\times 0,65 = 2,041\\text{ m}\\). Quãng đường xe chạy được là \\(3,75 \\times 2,041 = 7,65375 \\approx 7,7\\text{ m}\\).",
+      "answers": [
+        {
+          "text": "7,7 m",
+          "fraction": 100
+        },
+        {
+          "text": "2,0 m",
+          "fraction": 0
+        },
+        {
+          "text": "15,3 m",
+          "fraction": 0
+        },
+        {
+          "text": "5,4 m",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_03",
+      "questiontext": "Bạn An muốn tìm hiểu cách tính diện tích hình viên phân và độ dài cung tròn để ứng dụng thiết kế một bồn hoa hình quạt tròn ở trường. Để thể hiện ý thức vận dụng kiến thức từ nguồn tin cậy, bạn An nên làm gì?",
+      "generalfeedback": "Ý thức vận dụng kiến thức từ nguồn tin cậy đòi hỏi học sinh tham khảo từ sách giáo khoa và tài liệu chuẩn mực, kiểm chứng trước khi áp dụng vào thực tế.",
+      "answers": [
+        {
+          "text": "Tham khảo công thức từ Sách giáo khoa Toán 9 và tài liệu học tập chính thống, sau đó thảo luận với thầy cô trước khi thi công.",
+          "fraction": 100
+        },
+        {
+          "text": "Tìm kiếm sơ xài trên mạng xã hội và sử dụng ngay công thức chưa qua kiểm chứng.",
+          "fraction": 0
+        },
+        {
+          "text": "Ước lượng bằng mắt và làm theo cảm tính, không cần sử dụng công thức toán học.",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua việc tính toán, làm bồn hoa theo ý thích cá nhân mà không cần kế hoạch.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TRACHNHIEM_MOITRUONG_C2_01",
+      "imgs": [
+        "_page_1_Picture_11.jpeg"
+      ],
+      "questiontext": "[img:_page_1_Picture_11.jpeg]\nKhi tìm hiểu về guồng nước (cọn nước) - công cụ truyền thống đưa nước lên ruộng cao bằng sức nước tự nhiên ở vùng miền núi (Bài 5.16 SGK), hành vi nào thể hiện thái độ sống hoà hợp và trân trọng thiên nhiên?",
+      "generalfeedback": "Sống hoà hợp với thiên nhiên thể hiện qua việc trân trọng, học hỏi các ứng dụng thân thiện với môi trường của người dân và nâng cao ý thức bảo vệ nguồn nước.",
+      "answers": [
+        {
+          "text": "Tìm hiểu cơ chế hoạt động bằng sức nước tự nhiên của guồng nước và có ý thức giữ gìn, bảo vệ nguồn nước sạch dòng sông.",
+          "fraction": 100
+        },
+        {
+          "text": "Xả rác thải sinh hoạt xuống dòng sông làm cản trở dòng chảy của guồng nước.",
+          "fraction": 0
+        },
+        {
+          "text": "Tự ý làm hư hỏng guồng nước vì cho rằng công cụ truyền thống không còn tác dụng.",
+          "fraction": 0
+        },
+        {
+          "text": "Không quan tâm đến cảnh quan tự nhiên và môi trường sông nước xung quanh.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_01",
+      "imgs": [
+        "_page_1_Picture_11.jpeg"
+      ],
+      "questiontext": "[img:_page_1_Picture_11.jpeg]\nĐể xác định và tìm hiểu các thông tin liên quan đến bài toán tính bán kính guồng nước có dây ngấn nước \\(AB = 4\\text{ m}\\) và điểm ngập sâu nhất \\(HC = 0,5\\text{ m}\\), bước xử lý thông tin đầu tiên học sinh cần thực hiện là gì?",
+      "generalfeedback": "Năng lực G1 thể hiện qua việc thu thập, phân tích và xác định đúng các dữ kiện toán học liên quan (tâm, bán kính, dây, khoảng cách) từ mô hình thực tế.",
+      "answers": [
+        {
+          "text": "Chuyển mô hình guồng nước thành đường tròn tâm \\(O\\), dây \\(AB = 4\\text{ m}\\), đoạn \\(HC = 0,5\\text{ m}\\) trên đường kính vuông góc với \\(AB\\), rồi biểu diễn bán kính \\(R\\) theo đoạn \\(OH\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Lấy ngẫu nhiên công thức tính diện tích hình quạt tròn để tính bán kính.",
+          "fraction": 0
+        },
+        {
+          "text": "Đo trực tiếp guồng nước thực tế mà không chuyển đổi sang ngôn ngữ và mô hình toán học.",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua dữ kiện ngập sâu \\(HC = 0,5\\text{ m}\\) và giả định bán kính bằng một nửa dây \\(AB\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_04",
+      "questiontext": "Để sử dụng ngôn ngữ toán học trình bày công thức tính diện tích hình viên phân \\(S\\) ứng với cung \\(90^\\circ\\) bán kính \\(R\\) cho nhóm học tập, học sinh cần điền các biểu thức thích hợp: Diện tích hình quạt tròn là [[1]], diện tích tam giác vuông là [[2]], suy ra diện tích hình viên phân là [[3]].",
+      "generalfeedback": "Năng lực G2 yêu cầu trình bày thông tin, công thức toán học một cách chính xác và mạch lạc.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(\\frac{1}{4}\\pi R^2\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{1}{2}R^2\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(R^2\\left(\\frac{\\pi}{4} - \\frac{1}{2}\\right)\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\pi R^2\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_02_04",
+      "imgs": [
+        "_page_2_Picture_6.jpeg"
+      ],
+      "questiontext": "[img:_page_2_Picture_6.jpeg]\nTrong Bài 5.18, tình huống thực tế \"Bộ truyền chuyển động của xe đạp gồm giò đĩa, líp và bánh xe\" được mô tả bằng mô hình toán học nào sau đây để tính quãng đường xe chạy khi đạp 1 vòng?",
+      "generalfeedback": "Năng lực D1 thể hiện ở việc dùng mô hình các đường tròn đồng tâm/truyền động qua xích (tỉ lệ chu vi/bán kính) để mô tả bài toán thực tế xe đạp.",
+      "answers": [
+        {
+          "text": "Mô tả giò đĩa, líp và bánh xe thành các đường tròn có bán kính lần lượt là \\(15\\text{ cm}\\), \\(4\\text{ cm}\\) và bánh xe có đường kính \\(65\\text{ cm}\\), từ đó lập tỉ số chu vi để tính số vòng quay và quãng đường.",
+          "fraction": 100
+        },
+        {
+          "text": "Mô tả các bánh răng thành các tam giác vuông đồng dạng để tính diện tích xếp chồng.",
+          "fraction": 0
+        },
+        {
+          "text": "Mô tả xe đạp thành hình chữ nhật có chiều dài bằng tổng bán kính các bánh răng.",
+          "fraction": 0
+        },
+        {
+          "text": "Mô tả bánh xe thành hình cầu và tính thể tích khối cầu di chuyển trên đường.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_02_08",
+      "questiontext": "Sau khi tính toán được bán kính guồng nước \\(R = 4,25\\text{ m}\\) từ bài toán thực tế (Bài 5.16 SGK), cách thể hiện kết quả toán học vào ngữ cảnh thực tiễn nào dưới đây là đầy đủ và ý nghĩa nhất?",
+      "generalfeedback": "Năng lực D2 yêu cầu thể hiện lời giải toán học gắn chặt với ngữ cảnh thực tiễn (nêu rõ đối tượng guồng nước, kích thước đường kính/bán kính và đơn vị đo).",
+      "answers": [
+        {
+          "text": "Guồng nước có dạng hình tròn với bán kính \\(4,25\\text{ m}\\), nghĩa là đường kính toàn bộ guồng nước bằng \\(8,5\\text{ m}\\) để đảm bảo lắp đặt phù hợp với dòng sông.",
+          "fraction": 100
+        },
+        {
+          "text": "Bán kính bằng \\(4,25\\), không cần ghi đơn vị đo hay giải thích ý nghĩa thực tế.",
+          "fraction": 0
+        },
+        {
+          "text": "Diện tích guồng nước bằng \\(4,25\\text{ m}^2\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Vận tốc guồng nước quay là \\(4,25\\text{ m/s}\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "1.1TC2a_K9",
+      "questiontext": "Để tự tìm kiếm dữ liệu và công cụ trực tuyến mô phỏng sự thay đổi của diện tích hình viên phân khi thay đổi bán kính \\(R\\) và góc ở tâm, học sinh nên tổ chức việc tìm kiếm thông tin trong môi trường số như thế nào?",
+      "generalfeedback": "Năng lực N1 thể hiện ở khả năng tự xác định nhu cầu thông tin, chọn từ khóa tìm kiếm chuẩn và lưu trữ kết quả trên môi trường số.",
+      "answers": [
+        {
+          "text": "Sử dụng từ khóa tìm kiếm chính xác như \"mô phỏng hình viên phân GeoGebra\", truy cập nền tảng uy tín và lưu bài tập vào thư mục học tập môn Toán.",
+          "fraction": 100
+        },
+        {
+          "text": "Gõ từ khóa chung chung như \"hình vẽ đẹp\" trên các mạng xã hội giải trí.",
+          "fraction": 0
+        },
+        {
+          "text": "Tải về các tệp không rõ nguồn gốc từ những trang web quảng cáo không an toàn.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ đọc lướt qua thông tin trên diễn đàn và không lưu lại dữ liệu.",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,312 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 10,
+    "metadata_used": {
+      "YCCD_TOAN7_133": 7,
+      "YCCD_TOAN7_134": 4,
+      "YCCD_TOAN7_135": 8,
+      "Mối liên hệ giữa biến cố và xác suất": 3,
+      "Luyện tập nhận biết loại biến cố và tính xác suất trong các mô hình thực nghiệm": 8,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_GIAOTIEP": 1,
+      "NLC_GIAIQUYETVD": 1,
+      "NLT_TOAN_C2_02": 1,
+      "NLT_TOAN_C2_03": 1
+    },
+    "types_used": {
+      "multichoice": 2,
+      "truefalse": 1,
+      "gapselect": 1,
+      "shortanswer": 1,
+      "numerical": 1,
+      "calculated": 1,
+      "matching": 1,
+      "ddwtos": 1,
+      "calculatedmulti": 1
+    },
+    "total": 10
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_133",
+        "reason": "Làm quen với khái niệm biến cố ngẫu nhiên, chắc chắn, không thể trong ví dụ đơn giản SGK."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_134",
+        "reason": "Làm quen với khái niệm xác suất của biến cố trong các ví dụ đơn giản SGK."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_135",
+        "reason": "Nhận biết xác suất của biến cố ngẫu nhiên trong một số ví dụ đơn giản SGK."
+      },
+      {
+        "metadata_code": "Mối liên hệ giữa biến cố và xác suất",
+        "reason": "Mối liên hệ giữa loại biến cố và giá trị xác suất (0, 0.5, 1)."
+      },
+      {
+        "metadata_code": "Luyện tập nhận biết loại biến cố và tính xác suất trong các mô hình thực nghiệm",
+        "reason": "Luyện tập nhận biết loại biến cố và tính xác suất trong mô hình thực nghiệm."
+      },
+      {
+        "metadata_code": "PC_CHAMCHI",
+        "reason": "Chăm chỉ trong học tập và thực nghiệm toán học."
+      },
+      {
+        "metadata_code": "PC_TRUNGTHUC",
+        "reason": "Trung thực trong báo cáo kết quả thực nghiệm."
+      },
+      {
+        "metadata_code": "NLC_GIAOTIEP",
+        "reason": "Giao tiếp và hợp tác trong làm việc nhóm."
+      },
+      {
+        "metadata_code": "NLC_GIAIQUYETVD",
+        "reason": "Giải quyết vấn đề và sáng tạo trong tạo lập bài toán."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_02",
+        "reason": "Mô hình hóa toán học các tình huống thực tế."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03",
+        "reason": "Giải quyết vấn đề toán học qua các bước phân tích, thực hiện và đánh giá."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học thuộc phần Luyện tập chung về xác suất trong SGK Toán 7 thuần lý thuyết và bài tập thực nghiệm thủ công (xúc xắc, tấm bìa, thẻ số), không có nội dung thực hành hay ứng dụng công cụ tin học/số."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học không đề cập đến nguyên lý, thuật toán hay ứng dụng trí tuệ nhân tạo (AI), không đủ cơ sở để sinh câu hỏi đo lường năng lực AI một cách tự nhiên."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_133",
+      "imgs": [
+        "_page_0_Picture_9.jpeg"
+      ],
+      "questiontext": "Cho tấm bìa cứng hình tròn được chia làm 6 phần bằng nhau, ghi các số từ 1 đến 6 như hình vẽ: [img:_page_0_Picture_9.jpeg]\nBạn Nam quay tấm bìa. Xét biến cố A: \"Mũi tên dừng ở hình quạt ghi số bé hơn 7\". Biến cố A thuộc loại biến cố nào?",
+      "generalfeedback": "Vì các số trên tấm bìa là 1, 2, 3, 4, 5, 6 đều bé hơn 7 nên mũi tên chắc chắn dừng ở ô ghi số bé hơn 7. Do đó A là biến cố chắc chắn.",
+      "answers": [
+        {
+          "text": "Biến cố chắc chắn",
+          "fraction": 100
+        },
+        {
+          "text": "Biến cố không thể",
+          "fraction": 0
+        },
+        {
+          "text": "Biến cố ngẫu nhiên",
+          "fraction": 0
+        },
+        {
+          "text": "Biến cố đồng khả năng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_133",
+      "questiontext": "Trong trò chơi gieo một con xúc xắc cân đối, biến cố \"Số chấm xuất hiện trên con xúc xắc lớn hơn 6\" là một biến cố không thể.",
+      "generalfeedback": "Con xúc xắc cân đối chỉ có các mặt từ 1 đến 6 chấm, do đó không bao giờ xuất hiện mặt lớn hơn 6 chấm. Đây là biến cố không thể.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_133",
+      "questiontext": "Một túi đựng các tấm thẻ ghi các số 9; 12; 15; 18; 21; 24. Rút ngẫu nhiên một tấm thẻ trong túi.\n- Biến cố \"Rút được thẻ ghi số chia hết cho 3\" là biến cố [[1]].\n- Biến cố \"Rút được thẻ ghi số chia hết cho 10\" là biến cố [[2]].\n- Biến cố \"Rút được thẻ ghi số là số chẵn\" là biến cố [[3]].",
+      "generalfeedback": "Tất cả các số 9, 12, 15, 18, 21, 24 đều chia hết cho 3 nên biến cố chia hết cho 3 là chắc chắn. Không có số nào chia hết cho 10 nên biến cố chia hết cho 10 là không thể. Các số chẵn là 12, 18, 24 nên rút được số chẵn là biến cố ngẫu nhiên.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "chắc chắn"
+        },
+        {
+          "group": 1,
+          "text": "không thể"
+        },
+        {
+          "group": 1,
+          "text": "ngẫu nhiên"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_134",
+      "questiontext": "Phát biểu nào sau đây về xác suất của biến cố là ĐÚNG?",
+      "generalfeedback": "Biến cố chắc chắn có xác suất bằng 1, biến cố không thể có xác suất bằng 0.",
+      "answers": [
+        {
+          "text": "Xác suất của biến cố chắc chắn bằng 1 và xác suất của biến cố không thể bằng 0",
+          "fraction": 100
+        },
+        {
+          "text": "Xác suất của biến cố chắc chắn bằng 0 và xác suất của biến cố không thể bằng 1",
+          "fraction": 0
+        },
+        {
+          "text": "Xác suất của mọi biến cố ngẫu nhiên đều bằng 1",
+          "fraction": 0
+        },
+        {
+          "text": "Xác suất của biến cố không thể luôn lớn hơn 0",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_134",
+      "imgs": [
+        "_page_1_Picture_8.jpeg"
+      ],
+      "questiontext": "Vuông và Tròn mỗi người gieo một con xúc xắc cân đối 6 mặt như hình vẽ: [img:_page_1_Picture_8.jpeg]\nXác suất của biến cố \"Hiệu giữa số chấm xuất hiện trên hai con xúc xắc bằng 6\" bằng bao nhiêu?",
+      "generalfeedback": "Số chấm trên mỗi con xúc xắc từ 1 đến 6. Hiệu lớn nhất có thể đạt được là \\(6 - 1 = 5\\). Do đó hiệu bằng 6 là biến cố không thể, có xác suất bằng 0.",
+      "answers": [
+        {
+          "text": "0",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_135",
+      "questiontext": "Trong một chiếc hộp có 15 quả cầu màu xanh và 15 quả cầu màu đỏ có kích thước và khối lượng như nhau. Lấy ngẫu nhiên một quả cầu từ trong hộp. Tính xác suất của biến cố \"Lấy được quả cầu màu đỏ\". (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Tổng số quả cầu trong hộp là \\(15 + 15 = 30\\) quả. Số quả màu đỏ là 15. Vì lấy ngẫu nhiên nên xác suất lấy được quả màu đỏ là \\(\\frac{15}{30} = 0.5\\).",
+      "answers": [
+        {
+          "text": "0.5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_135",
+      "questiontext": "Một chiếc hộp chứa {n} quả cầu màu đỏ và {n} quả cầu màu xanh có kích thước giống hệt nhau. Rút ngẫu nhiên 1 quả cầu từ hộp. Tính xác suất rút được quả cầu màu xanh.",
+      "generalfeedback": "Vì số quả cầu màu xanh và đỏ bằng nhau (đều bằng {n}), nên hai biến cố rút được quả xanh và quả đỏ là đồng khả năng. Tổng số quả là \\(2 \\times {n}\\), do đó xác suất rút được quả màu xanh luôn là \\(\\frac{{n}}{2 \\times {n}} = 0.5\\).",
+      "wildcards": [
+        {
+          "name": "n",
+          "min": 5.0,
+          "max": 50.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "0.5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Mối liên hệ giữa biến cố và xác suất",
+      "questiontext": "Ghép mỗi biến cố sau khi chọn ngẫu nhiên 1 số trong tập hợp \\(\\{11; 12; 13; 14\\}\\) với xác suất tương ứng của nó:",
+      "generalfeedback": "- Chọn được số chia hết cho 5: Tập hợp không có số nào chia hết cho 5 -> Xác suất bằng 0.\n- Chọn được số có hai chữ số: Cả 4 số đều có 2 chữ số -> Xác suất bằng 1.\n- Chọn được số nguyên tố: Có 2 số nguyên tố (11, 13) trong 4 số -> Xác suất bằng 2/4 = 0.5.",
+      "subquestions": [
+        {
+          "question": "Biến cố A: \"Chọn được số chia hết cho 5\"",
+          "answer": "0"
+        },
+        {
+          "question": "Biến cố B: \"Chọn được số có hai chữ số\"",
+          "answer": "1"
+        },
+        {
+          "question": "Biến cố C: \"Chọn được số nguyên tố\"",
+          "answer": "0.5"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Luyện tập nhận biết loại biến cố và tính xác suất trong các mô hình thực nghiệm",
+      "questiontext": "Một tấm bìa tròn chia làm 6 hình quạt bằng nhau đánh số từ 1 đến 6. Nam quay tấm bìa.\n- Biến cố E: \"Nam nhận được 100 điểm\" khi dừng ở số 1 hoặc 2.\n- Biến cố F: \"Nam nhận được 200 điểm\" khi dừng ở số 3 hoặc 4.\n- Biến cố G: \"Nam nhận được 300 điểm\" khi dừng ở số 5 hoặc 6.\nCác biến cố E, F, G là các biến cố [[1]] và xác suất của mỗi biến cố này bằng [[2]].",
+      "generalfeedback": "Mỗi biến cố E, F, G tương ứng với 2 hình quạt tròn có diện tích bằng nhau nên E, F, G là đồng khả năng. Vì luôn xảy ra duy nhất 1 trong 3 biến cố nên xác suất của mỗi biến cố bằng 1/3.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "đồng khả năng"
+        },
+        {
+          "group": 1,
+          "text": "1/3"
+        },
+        {
+          "group": 1,
+          "text": "không thể"
+        },
+        {
+          "group": 1,
+          "text": "1/6"
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "Luyện tập nhận biết loại biến cố và tính xác suất trong các mô hình thực nghiệm",
+      "questiontext": "Một túi đựng {a} tấm thẻ được đánh số từ 1 đến {a}. Rút ngẫu nhiên một tấm thẻ trong túi. Chọn công thức đúng tính xác suất của biến cố \"Rút được tấm thẻ ghi số 1\":",
+      "generalfeedback": "Vì có {a} tấm thẻ đồng khả năng và chỉ có 1 tấm thẻ ghi số 1 nên xác suất rút được thẻ số 1 là 1/{a}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 4.0,
+          "max": 20.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "1/{a}",
+          "fraction": 100
+        },
+        {
+          "text": "{a}",
+          "fraction": 0
+        },
+        {
+          "text": "1/2",
+          "fraction": 0
+        },
+        {
+          "text": "({a}-1)/{a}",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

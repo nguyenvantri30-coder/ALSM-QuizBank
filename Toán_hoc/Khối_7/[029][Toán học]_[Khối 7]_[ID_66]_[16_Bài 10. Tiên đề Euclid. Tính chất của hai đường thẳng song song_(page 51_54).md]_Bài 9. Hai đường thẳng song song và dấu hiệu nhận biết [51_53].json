@@ -1,0 +1,735 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 28,
+    "metadata_used": {
+      "Khái niệm cặp góc so le trong": 3,
+      "Khái niệm cặp góc đồng vị": 3,
+      "Nhận biết cặp góc so le trong": 3,
+      "Nhận biết cặp góc đồng vị trên hình vẽ": 3,
+      "YCCD_TOAN7_081": 4,
+      "YCCD_TOAN7_082": 4,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_TUCHUTUHOC": 1,
+      "NLC_GIAOTIEP": 1,
+      "NLT_TOAN_C2_01": 2,
+      "NLT_TOAN_C2_04": 2
+    },
+    "types_used": {
+      "multichoice": 12,
+      "truefalse": 4,
+      "shortanswer": 4,
+      "gapselect": 5,
+      "matching": 3
+    },
+    "total": 28
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "Khái niệm cặp góc so le trong",
+        "reason": "Khái niệm cặp góc so le trong."
+      },
+      {
+        "metadata_code": "Khái niệm cặp góc đồng vị",
+        "reason": "Khái niệm cặp góc đồng vị."
+      },
+      {
+        "metadata_code": "Nhận biết cặp góc so le trong",
+        "reason": "Nhận biết cặp góc so le trong."
+      },
+      {
+        "metadata_code": "Nhận biết cặp góc đồng vị trên hình vẽ",
+        "reason": "Nhận biết cặp góc đồng vị trên hình vẽ."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_081",
+        "reason": "Mô tả được dấu hiệu song song của hai đường thẳng thông qua cặp góc đồng vị."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_082",
+        "reason": "Mô tả được dấu hiệu song song của hai đường thẳng thông qua cặp góc so le trong."
+      },
+      {
+        "metadata_code": "PC_CHAMCHI",
+        "reason": "Chăm chỉ."
+      },
+      {
+        "metadata_code": "PC_TRUNGTHUC",
+        "reason": "Trung thực."
+      },
+      {
+        "metadata_code": "NLC_TUCHUTUHOC",
+        "reason": "Năng lực tự chủ và tự học."
+      },
+      {
+        "metadata_code": "NLC_GIAOTIEP",
+        "reason": "Năng lực giao tiếp và hợp tác."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01",
+        "reason": "Năng lực tư duy và lập luận toán học."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_04",
+        "reason": "Năng lực giao tiếp toán học."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học về đường thẳng song song trong hình học lớp 7 không chứa nội dung hay công cụ phần mềm tin học để đo lường Năng lực tin học/số một cách tự nhiên."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học thuần túy về hình học phẳng cơ bản, không liên quan trực tiếp đến công cụ hay nguyên lý trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm cặp góc so le trong",
+      "questiontext": "Nếu một đường thẳng cắt hai đường thẳng song song thì hai góc so le trong có mối quan hệ như thế nào?",
+      "generalfeedback": "Theo tính chất của hai đường thẳng song song, nếu một đường thẳng cắt hai đường thẳng song song thì hai góc so le trong bằng nhau.",
+      "answers": [
+        {
+          "text": "Bằng nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Kề bù nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Phụ nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Bằng 180 độ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm cặp góc đồng vị",
+      "questiontext": "Cho một đường thẳng cắt hai đường thẳng song song. Khẳng định nào sau đây là đúng về cặp góc đồng vị?",
+      "generalfeedback": "Nếu một đường thẳng cắt hai đường thẳng song song thì hai góc đồng vị bằng nhau.",
+      "answers": [
+        {
+          "text": "Hai góc đồng vị bằng nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Hai góc đồng vị bù nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Hai góc đồng vị phụ nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Hai góc đồng vị có tổng bằng 90 độ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm cặp góc so le trong",
+      "questiontext": "Hai góc so le trong tạo bởi một đường thẳng cắt hai đường thẳng song song luôn có số đo bằng nhau.",
+      "generalfeedback": "Đúng. Đây là tính chất cơ bản của hai đường thẳng song song.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm cặp góc đồng vị",
+      "questiontext": "Hai góc đồng vị tạo bởi một đường thẳng cắt hai đường thẳng không song song luôn luôn bằng nhau.",
+      "generalfeedback": "Sai. Hai góc đồng vị chỉ bằng nhau khi hai đường thẳng đó song song.",
+      "answers": [
+        {
+          "text": "Sai",
+          "fraction": 100
+        },
+        {
+          "text": "Đúng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết cặp góc so le trong",
+      "imgs": [
+        "_page_1_Figure_24.jpeg"
+      ],
+      "questiontext": "Cho Hình 3.35 [img:_page_1_Figure_24.jpeg], biết \\(xy // x'y'\\) và \\(\\widehat{BAy} = 50^\\circ\\). Góc so le trong với góc \\(\\widehat{BAy}\\) là góc nào?",
+      "generalfeedback": "Góc so le trong với \\(\\widehat{BAy}\\) là góc \\(\\widehat{ABx'}\\).",
+      "answers": [
+        {
+          "text": "ABx'",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết cặp góc đồng vị trên hình vẽ",
+      "imgs": [
+        "_page_1_Figure_24.jpeg"
+      ],
+      "questiontext": "Cho Hình 3.35 [img:_page_1_Figure_24.jpeg], biết \\(xy // x'y'\\) và \\(\\widehat{BAy} = 50^\\circ\\). Góc đồng vị với góc \\(\\widehat{BAy}\\) là góc nào?",
+      "generalfeedback": "Góc đồng vị với góc \\(\\widehat{BAy}\\) là góc \\(\\widehat{y'Bz'}\\).",
+      "answers": [
+        {
+          "text": "y'Bz'",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_081",
+      "questiontext": "Nếu một đường thẳng cắt hai đường thẳng sao cho có một cặp góc đồng vị [[1]] thì hai đường thẳng đó [[2]] với nhau.",
+      "generalfeedback": "Dấu hiệu nhận biết hai đường thẳng song song: Nếu một đường thẳng cắt hai đường thẳng tạo thành một cặp góc đồng vị bằng nhau thì hai đường thẳng đó song song.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "bằng nhau"
+        },
+        {
+          "group": 1,
+          "text": "song song"
+        },
+        {
+          "group": 1,
+          "text": "bù nhau"
+        },
+        {
+          "group": 1,
+          "text": "vuông góc"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_082",
+      "questiontext": "Nếu một đường thẳng cắt hai đường thẳng sao cho có một cặp góc so le trong [[1]] thì hai đường thẳng đó [[2]] với nhau.",
+      "generalfeedback": "Dấu hiệu nhận biết hai đường thẳng song song thông qua cặp góc so le trong: Nếu hai góc so le trong bằng nhau thì hai đường thẳng song song.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "bằng nhau"
+        },
+        {
+          "group": 1,
+          "text": "song song"
+        },
+        {
+          "group": 1,
+          "text": "kề bù"
+        },
+        {
+          "group": 1,
+          "text": "cắt nhau"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết cặp góc so le trong",
+      "questiontext": "Ghép các khái niệm/tính chất ở cột bên trái với nội dung tương ứng ở cột bên phải khi có một đường thẳng cắt hai đường thẳng song song:",
+      "generalfeedback": "Nắm vững tính chất các cặp góc tạo bởi một đường thẳng cắt hai đường thẳng song song.",
+      "subquestions": [
+        {
+          "question": "Hai góc so le trong",
+          "answer": "Có số đo bằng nhau"
+        },
+        {
+          "question": "Hai góc đồng vị",
+          "answer": "Có số đo bằng nhau"
+        },
+        {
+          "question": "Hai góc kề bù",
+          "answer": "Có tổng số đo bằng 180 độ"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_081",
+      "imgs": [
+        "_page_1_Figure_24.jpeg"
+      ],
+      "questiontext": "Cho Hình 3.35 [img:_page_1_Figure_24.jpeg], biết \\(xy // x'y'\\) và \\(\\widehat{BAy} = 50^\\circ\\). Số đo của góc đồng vị \\(\\widehat{y'Bz'}\\) bằng bao nhiêu?",
+      "generalfeedback": "Vì \\(xy // x'y'\\) nên góc \\(\\widehat{y'Bz'}\\) và góc \\(\\widehat{BAy}\\) là hai góc đồng vị, do đó \\(\\widehat{y'Bz'} = \\widehat{BAy} = 50^\\circ\\).",
+      "answers": [
+        {
+          "text": "50 độ",
+          "fraction": 100
+        },
+        {
+          "text": "130 độ",
+          "fraction": 0
+        },
+        {
+          "text": "40 độ",
+          "fraction": 0
+        },
+        {
+          "text": "100 độ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm cặp góc so le trong",
+      "imgs": [
+        "_page_1_Figure_24.jpeg"
+      ],
+      "questiontext": "Cho Hình 3.35 [img:_page_1_Figure_24.jpeg]. Cặp góc nào sau đây là cặp góc so le trong?",
+      "generalfeedback": "Cặp góc \\(\\widehat{ABx'}\\) và \\(\\widehat{BAy}\\) nằm ở vị trí so le trong.",
+      "answers": [
+        {
+          "text": "Góc ABx' và góc BAy",
+          "fraction": 100
+        },
+        {
+          "text": "Góc ABx' và góc y'Bz'",
+          "fraction": 0
+        },
+        {
+          "text": "Góc BAy và góc y'Bz'",
+          "fraction": 0
+        },
+        {
+          "text": "Góc xAB và góc y'Bz'",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm cặp góc đồng vị",
+      "imgs": [
+        "_page_1_Figure_24.jpeg"
+      ],
+      "questiontext": "Cho Hình 3.35 [img:_page_1_Figure_24.jpeg]. Cặp góc nào sau đây là cặp góc đồng vị?",
+      "generalfeedback": "Góc \\(\\widehat{BAy}\\) và góc \\(\\widehat{y'Bz'}\\) ở vị trí đồng vị.",
+      "answers": [
+        {
+          "text": "Góc BAy và góc y'Bz'",
+          "fraction": 100
+        },
+        {
+          "text": "Góc ABx' và góc BAy",
+          "fraction": 0
+        },
+        {
+          "text": "Góc ABx' và góc ABx",
+          "fraction": 0
+        },
+        {
+          "text": "Góc BAx và góc y'Bz'",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_081",
+      "imgs": [
+        "_page_2_Figure_5.jpeg"
+      ],
+      "questiontext": "Cho Hình 3.36 [img:_page_2_Figure_5.jpeg]. Nếu \\(MN // BC\\) thì góc \\(\\widehat{AMN}\\) và góc \\(\\widehat{ABC}\\) bằng nhau vì là hai góc đồng vị.",
+      "generalfeedback": "Đúng. Hai đường thẳng song song bị cắt bởi một đường thẳng thì hai góc đồng vị bằng nhau.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_082",
+      "imgs": [
+        "_page_2_Figure_5.jpeg"
+      ],
+      "questiontext": "Cho Hình 3.36 [img:_page_2_Figure_5.jpeg]. Nếu \\(MN // BC\\) thì góc \\(\\widehat{BMN}\\) và góc \\(\\widehat{MBC}\\) bằng nhau vì là hai góc so le trong.",
+      "generalfeedback": "Đúng. Hai đường thẳng song song bị cắt bởi một đường thẳng thì hai góc so le trong bằng nhau.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_082",
+      "imgs": [
+        "_page_1_Figure_24.jpeg"
+      ],
+      "questiontext": "Cho Hình 3.35 [img:_page_1_Figure_24.jpeg], biết \\(xy // x'y'\\) và góc \\(\\widehat{BAy} = 50^\\circ\\). Số đo góc \\(\\widehat{ABx'}\\) là bao nhiêu độ? (Chỉ điền số)",
+      "generalfeedback": "Vì \\(xy // x'y'\\) nên góc \\(\\widehat{ABx'} = \\widehat{BAy} = 50^\\circ\\) (hai góc so le trong).",
+      "answers": [
+        {
+          "text": "50",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_081",
+      "imgs": [
+        "_page_1_Figure_24.jpeg"
+      ],
+      "questiontext": "Cho Hình 3.35 [img:_page_1_Figure_24.jpeg], biết \\(xy // x'y'\\) và góc \\(\\widehat{BAy} = 50^\\circ\\). Số đo góc \\(\\widehat{y'Bz'}\\) là bao nhiêu độ? (Chỉ điền số)",
+      "generalfeedback": "Vì \\(xy // x'y'\\) nên góc \\(\\widehat{y'Bz'} = \\widehat{BAy} = 50^\\circ\\) (hai góc đồng vị).",
+      "answers": [
+        {
+          "text": "50",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết cặp góc so le trong",
+      "questiontext": "Khi một đường thẳng cắt hai đường thẳng, cặp góc nằm ở phía [[1]] đường thẳng cắt và nằm [[2]] hai đường thẳng gọi là cặp góc so le trong.",
+      "generalfeedback": "Cặp góc so le trong nằm về hai phía đối nhau của đường cắt và nằm giữa hai đường thẳng.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "trái phía"
+        },
+        {
+          "group": 1,
+          "text": "trong"
+        },
+        {
+          "group": 1,
+          "text": "cùng phía"
+        },
+        {
+          "group": 1,
+          "text": "ngoài"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết cặp góc đồng vị trên hình vẽ",
+      "questiontext": "Khi một đường thẳng cắt hai đường thẳng, hai góc nằm ở [[1]] của đường thẳng cắt và ở vị trí [[2]] so với hai đường thẳng được gọi là hai góc đồng vị.",
+      "generalfeedback": "Hai góc đồng vị nằm cùng một phía đối với đường thẳng cắt và có vị trí tương ứng giống nhau đối với hai đường thẳng.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "cùng phía"
+        },
+        {
+          "group": 1,
+          "text": "tương ứng"
+        },
+        {
+          "group": 1,
+          "text": "khác phía"
+        },
+        {
+          "group": 1,
+          "text": "đối nhau"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết cặp góc đồng vị trên hình vẽ",
+      "questiontext": "Nối từng khẳng định ở cột bên trái với vị trí tương ứng ở cột bên phải khi có đường thẳng \\(c\\) cắt hai đường thẳng \\(a\\) và \\(b\\):",
+      "generalfeedback": "Nhận biết vị trí tương đối của các cặp góc so le trong, đồng vị.",
+      "subquestions": [
+        {
+          "question": "Hai góc nằm ở hai phía đối nhau của đường thẳng c và nằm phía trong hai đường thẳng a, b",
+          "answer": "Cặp góc so le trong"
+        },
+        {
+          "question": "Hai góc nằm cùng phía đối với đường thẳng c và ở vị trí tương ứng giống nhau",
+          "answer": "Cặp góc đồng vị"
+        },
+        {
+          "question": "Hai góc có chung một cạnh, hai cạnh còn lại là hai tia đối nhau",
+          "answer": "Cặp góc kề bù"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_082",
+      "imgs": [
+        "_page_2_Figure_5.jpeg"
+      ],
+      "questiontext": "Cho Hình 3.36 [img:_page_2_Figure_5.jpeg], biết \\(MN // BC\\) và góc \\(\\widehat{ABC} = 60^\\circ\\). Số đo góc \\(\\widehat{BMN}\\) bằng bao nhiêu?",
+      "generalfeedback": "Góc \\(\\widehat{BMN}\\) và góc \\(\\widehat{ABC}\\) là hai góc trong cùng phía bù nhau, hoặc từ \\(\\widehat{AMN} = \\widehat{ABC} = 60^\\circ\\) suy ra \\(\\widehat{BMN} = 180^\\circ - 60^\\circ = 120^\\circ\\).",
+      "answers": [
+        {
+          "text": "120 độ",
+          "fraction": 100
+        },
+        {
+          "text": "60 độ",
+          "fraction": 0
+        },
+        {
+          "text": "150 độ",
+          "fraction": 0
+        },
+        {
+          "text": "30 độ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Khi học bài \"Các góc tạo bởi một đường thẳng cắt hai đường thẳng\", bạn An gặp một bài tập phức tạp yêu cầu tìm tất cả các cặp góc so le trong và đồng vị trên hình vẽ. Bạn An nên thực hiện hành động nào sau đây để thể hiện tính chăm chỉ và đạt hiệu quả học tập cao nhất?",
+      "generalfeedback": "Tính chăm chỉ thể hiện qua sự kiên nhẫn, cẩn thận tự mình hoàn thành bài tập thay vì bỏ cuộc hoặc chép lời giải.",
+      "answers": [
+        {
+          "text": "Kiên nhẫn quan sát hình vẽ, vẽ lại hình ra giấy nháp, cẩn thận liệt kê từng cặp góc và kiểm tra lại dựa trên định nghĩa",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài tập đó và chờ đến lớp chép lời giải của thầy cô hoặc bạn bè",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ liệt kê một cặp góc bất kỳ rồi đoán bừa các cặp góc còn lại cho nhanh",
+          "fraction": 0
+        },
+        {
+          "text": "Mượn ngay vở của bạn học giỏi để chép đáp án cho xong bài tập về nhà",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Trong giờ thực hành đo góc tạo bởi một đường thẳng cắt hai đường thẳng song song, bạn Bình đo được một cặp góc so le trong là \\(59^\\circ\\) và \\(61^\\circ\\) do thao tác đặt thước bị lệch nhẹ. Để thể hiện tính trung thực trong học tập, Bình nên xử lý như thế nào?",
+      "generalfeedback": "Tính trung thực trong học tập toán học đòi hỏi ghi nhận đúng số liệu thực tế đo được, đồng thời trung thực tìm nguyên nhân sai số và đo lại.",
+      "answers": [
+        {
+          "text": "Ghi đúng số đo đo được, trung thực báo cáo với thầy cô và kiểm tra lại thao tác đo để tìm nguyên nhân sai số",
+          "fraction": 100
+        },
+        {
+          "text": "Tự ý sửa cả hai số đo thành 60 độ trong bài làm mà không thực hiện đo lại",
+          "fraction": 0
+        },
+        {
+          "text": "Xóa kết quả đo được và chép lại số đo từ bài làm của bạn bên cạnh",
+          "fraction": 0
+        },
+        {
+          "text": "Giấu kết quả đo sai và không nộp bài thực hành cho giáo viên",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Để tự học và ghi nhớ bền vững kiến thức về các cặp góc so le trong và góc đồng vị, phương pháp nào sau đây thể hiện rõ nhất năng lực tự chủ và tự học của học sinh?",
+      "generalfeedback": "Năng lực tự chủ và tự học thể hiện qua việc tự giác chủ động lập sơ đồ, vẽ hình minh họa và tự luyện tập ứng dụng kiến thức.",
+      "answers": [
+        {
+          "text": "Chủ động vẽ các hình vẽ khác nhau, đánh dấu các cặp góc, tự hệ thống hóa kiến thức vào sơ đồ tư duy và làm bài tập tự luyện",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ học thuộc lòng định nghĩa trong sách giáo khoa mà không cần vẽ hình minh họa",
+          "fraction": 0
+        },
+        {
+          "text": "Chờ đến khi giáo viên nhắc nhở và giao bài tập bắt buộc mới mở sách ra xem",
+          "fraction": 0
+        },
+        {
+          "text": "Chép lại toàn bộ các bài giải mẫu trong sách bài tập vào vở học",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_GIAOTIEP",
+      "questiontext": "Trong hoạt động thảo luận nhóm về cách xác định cặp góc so le trong trên một hình vẽ phức tạp, các thành viên trong nhóm đưa ra các ý kiến trái ngược nhau. Để giao tiếp và hợp tác hiệu quả, em nên làm gì?",
+      "generalfeedback": "Giao tiếp và hợp tác hiệu quả đòi hỏi biết tôn trọng, lắng nghe ý kiến của bạn, cùng thảo luận dựa trên căn cứ kiến thức toán học.",
+      "answers": [
+        {
+          "text": "Lắng nghe cẩn thận ý kiến của các bạn, cùng đối chiếu với khái niệm trong sách giáo khoa và phân tích logic để đi đến thống nhất",
+          "fraction": 100
+        },
+        {
+          "text": "Khăng khăng giữ ý kiến của mình và không cho các bạn khác phát biểu",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ mặc thảo luận nhóm và tự làm theo ý mình mà không trao đổi với ai",
+          "fraction": 0
+        },
+        {
+          "text": "Tranh cãi gay gắt dựa trên cảm tính mà không cần đưa ra căn cứ toán học",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Cho đường thẳng \\(c\\) cắt hai đường thẳng \\(a\\) và \\(b\\) tại \\(A\\) và \\(B\\). Bạn Nam đưa ra phát biểu: \"Vì góc \\(\\widehat{A_1}\\) và góc \\(\\widehat{B_1}\\) là hai góc đồng vị nên \\(\\widehat{A_1} = \\widehat{B_1}\\)\". Theo em, lập luận của Nam thiếu điều kiện quan trọng nào?",
+      "generalfeedback": "Theo tính chất, hai góc đồng vị chỉ bằng nhau KHI hai đường thẳng a và b song song với nhau.",
+      "answers": [
+        {
+          "text": "Thiếu điều kiện hai đường thẳng a và b song song với nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Thiếu điều kiện đường thẳng c phải vuông góc với đường thẳng a",
+          "fraction": 0
+        },
+        {
+          "text": "Thiếu điều kiện hai góc A1 và B1 phải là góc nhọn",
+          "fraction": 0
+        },
+        {
+          "text": "Thiếu điều kiện đường thẳng c phải đi qua trung điểm của đoạn AB",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04",
+      "imgs": [
+        "_page_1_Figure_24.jpeg"
+      ],
+      "questiontext": "Cho Hình 3.35 [img:_page_1_Figure_24.jpeg], biết \\(xy // x'y'\\) và \\(\\widehat{BAy} = 50^\\circ\\). Để trình bày lời giải toán học chính xác, ta điền các cụm từ thích hợp vào chỗ trống: \"Vì \\(xy // x'y'\\) nên \\(\\widehat{ABx'} = \\widehat{BAy} = 50^\\circ\\) (hai góc [[1]]). Cũng từ \\(xy // x'y'\\) suy ra \\(\\widehat{y'Bz'} = \\widehat{BAy} = 50^\\circ\\) (hai góc [[2]])\".",
+      "generalfeedback": "Nắm vững thuật ngữ giao tiếp toán học: ABx' và BAy là hai góc so le trong; y'Bz' và BAy là hai góc đồng vị.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "so le trong"
+        },
+        {
+          "group": 1,
+          "text": "đồng vị"
+        },
+        {
+          "group": 1,
+          "text": "kề bù"
+        },
+        {
+          "group": 1,
+          "text": "đối đỉnh"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "imgs": [
+        "_page_2_Figure_5.jpeg"
+      ],
+      "questiontext": "Cho Hình 3.36 [img:_page_2_Figure_5.jpeg], biết \\(MN // BC\\) và \\(\\widehat{ABC} = 60^\\circ\\). Lập luận toán học nào sau đây là đúng để tính số đo góc \\(\\widehat{AMN}\\)?",
+      "generalfeedback": "Vì MN // BC nên góc AMN và góc ABC là hai góc đồng vị, do đó góc AMN = góc ABC = 60 độ.",
+      "answers": [
+        {
+          "text": "Vì MN // BC nên góc AMN = góc ABC = 60 độ (hai góc đồng vị)",
+          "fraction": 100
+        },
+        {
+          "text": "Vì MN // BC nên góc AMN + góc ABC = 180 độ (hai góc so le trong)",
+          "fraction": 0
+        },
+        {
+          "text": "Vì MN // BC nên góc AMN = 180 độ - 60 độ = 120 độ (hai góc so le trong)",
+          "fraction": 0
+        },
+        {
+          "text": "Vì MN // BC nên góc AMN = 90 độ (hai góc vuông góc)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04",
+      "questiontext": "Hãy ghép kí hiệu biểu diễn toán học ở cột bên trái với ý nghĩa diễn đạt bằng ngôn ngữ thông thường ở cột bên phải:",
+      "generalfeedback": "Hiểu và chuyển đổi thành thạo giữa kí hiệu toán học và ngôn ngữ diễn đạt.",
+      "subquestions": [
+        {
+          "question": "a // b",
+          "answer": "Đường thẳng a song song với đường thẳng b"
+        },
+        {
+          "question": "a \\perp b",
+          "answer": "Đường thẳng a vuông góc với đường thẳng b"
+        },
+        {
+          "question": "\\widehat{A_1} = \\widehat{B_1} \\text{ (so le trong)}",
+          "answer": "Hai góc A1 và B1 ở vị trí so le trong có số đo bằng nhau"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,662 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 25,
+    "metadata_used": {
+      "Khái niệm hình cầu, mặt cầu tâm O bán kính R": 3,
+      "YCCD_TOAN9_048": 2,
+      "Nhận biết hình cầu và mặt cầu": 2,
+      "YCCD_TOAN9_049": 2,
+      "Xác định tâm, bán kính của hình cầu": 4,
+      "Nhận biết mặt cắt hình cầu qua tâm là hình tròn": 3,
+      "YCCD_TOAN9_050": 2,
+      "Nhận biết phần chung của mặt phẳng và hình cầu": 2,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_TCTH_TUHOC_C2_01": 1,
+      "SUB_GTHT_XACDINHMD_C2_03": 1,
+      "NLT_TOAN_C2_01_02": 1,
+      "NLT_TOAN_C2_04_12": 1
+    },
+    "types_used": {
+      "multichoice": 10,
+      "truefalse": 4,
+      "matching": 2,
+      "gapselect": 2,
+      "shortanswer": 2,
+      "ddwtos": 1,
+      "calculatedsimple": 1,
+      "numerical": 1,
+      "calculated": 1,
+      "calculatedmulti": 1
+    },
+    "total": 25
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN9_048",
+        "reason": "Mô tả tâm, bán kính của hình cầu, mặt cầu."
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_049",
+        "reason": "Mô tả cách tạo lập hình cầu, mặt cầu."
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_050",
+        "reason": "Nhận biết phần chung của mặt phẳng và hình cầu."
+      },
+      {
+        "metadata_code": "Khái niệm hình cầu, mặt cầu tâm O bán kính R",
+        "reason": "Khái niệm hình cầu, mặt cầu tâm O bán kính R."
+      },
+      {
+        "metadata_code": "Nhận biết mặt cắt hình cầu qua tâm là hình tròn",
+        "reason": "Nhận biết mặt cắt hình cầu qua tâm là hình tròn."
+      },
+      {
+        "metadata_code": "Nhận biết hình cầu và mặt cầu",
+        "reason": "Phân biệt, nhận biết hình cầu và mặt cầu trong thực tế."
+      },
+      {
+        "metadata_code": "Xác định tâm, bán kính của hình cầu",
+        "reason": "Xác định tâm, bán kính của hình cầu."
+      },
+      {
+        "metadata_code": "Nhận biết phần chung của mặt phẳng và hình cầu",
+        "reason": "Nhận biết phần chung của mặt phẳng và hình cầu."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đánh giá thái độ vươn lên đạt kết quả tốt trong học tập."
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+        "reason": "Đánh giá năng lực tự đặt mục tiêu học tập và phấn đấu."
+      },
+      {
+        "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+        "reason": "Đánh giá năng lực tiếp nhận văn bản, số liệu toán học."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_02",
+        "reason": "Đánh giá năng lực quan sát mô hình và thực tế."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_04_12",
+        "reason": "Đánh giá năng lực sử dụng ngôn ngữ toán học kết hợp ngôn ngữ thông thường."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N",
+        "reason": "Nội dung bài học không liên quan tự nhiên đến năng lực tin học/số."
+      },
+      {
+        "metadata_code": "A",
+        "reason": "Nội dung bài học không liên quan tự nhiên đến năng lực AI."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm hình cầu, mặt cầu tâm O bán kính R",
+      "questiontext": "Khi quay nửa đường tròn đường kính \\(AB\\) cố định quanh đoạn thẳng \\(AB\\), hình tạo thành là gì?",
+      "generalfeedback": "Khi quay nửa đường tròn quanh đường kính \\(AB\\) cố định của nó, ta được một mặt cầu. Còn khi quay nửa hình tròn thì ta mới được một hình cầu.",
+      "answers": [
+        {
+          "text": "Mặt cầu",
+          "fraction": 100
+        },
+        {
+          "text": "Hình cầu",
+          "fraction": 0
+        },
+        {
+          "text": "Hình tròn",
+          "fraction": 0
+        },
+        {
+          "text": "Hình trụ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm hình cầu, mặt cầu tâm O bán kính R",
+      "questiontext": "Hình cầu bao gồm cả mặt cầu và toàn bộ phần không gian bên trong mặt cầu đó. Phát biểu này đúng hay sai?",
+      "generalfeedback": "Đúng. Khi quay nửa hình tròn quanh đường kính cố định, ta nhận được hình cầu bao gồm mặt cầu (ranh giới) và toàn bộ phần bên trong.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_048",
+      "questiontext": "Hãy ghép các yếu tố của hình cầu, mặt cầu với mô tả tương ứng:",
+      "generalfeedback": "Tâm của nửa đường tròn (hình tròn) tạo thành chính là tâm của mặt cầu (hình cầu). Bán kính của nửa đường tròn chính là bán kính mặt cầu (hình cầu).",
+      "subquestions": [
+        {
+          "question": "Tâm của mặt cầu",
+          "answer": "Tâm của nửa đường tròn quay tạo nên mặt cầu"
+        },
+        {
+          "question": "Bán kính của mặt cầu",
+          "answer": "Khoảng cách từ tâm đến một điểm bất kỳ trên mặt cầu"
+        },
+        {
+          "question": "Đường kính của mặt cầu",
+          "answer": "Đoạn thẳng nối hai điểm trên mặt cầu và đi qua tâm"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết hình cầu và mặt cầu",
+      "questiontext": "Vật thể nào sau đây trong thực tế có hình dạng là một hình cầu?",
+      "generalfeedback": "Quả bóng đá căng tròn có dạng hình cầu trong thực tế. Tờ giấy hay cái đĩa dạng hình tròn, cái vòng tay dạng đường tròn.",
+      "answers": [
+        {
+          "text": "Quả bóng đá",
+          "fraction": 100
+        },
+        {
+          "text": "Chiếc đĩa ăn tròn",
+          "fraction": 0
+        },
+        {
+          "text": "Chiếc vòng đeo tay",
+          "fraction": 0
+        },
+        {
+          "text": "Tờ giấy A4",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_049",
+      "questiontext": "Khi quay nửa đường tròn quanh đường kính \\(AB\\) cố định, ta được một [[1]]. Khi quay nửa hình tròn quanh đường kính \\(AB\\) cố định, ta được một [[2]].",
+      "generalfeedback": "Quay nửa đường tròn tạo nên mặt cầu (chỉ có bề mặt), quay nửa hình tròn tạo nên hình cầu (gồm cả phần ruột bên trong).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "mặt cầu"
+        },
+        {
+          "group": 1,
+          "text": "hình cầu"
+        },
+        {
+          "group": 1,
+          "text": "hình tròn"
+        },
+        {
+          "group": 1,
+          "text": "đường tròn"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Xác định tâm, bán kính của hình cầu",
+      "imgs": [
+        "_page_1_Picture_11.jpeg"
+      ],
+      "questiontext": "[img:_page_1_Picture_11.jpeg]\nCho mặt cầu tâm \\(O\\) như trong hình vẽ trên. Đoạn thẳng \\(OP\\) nối từ tâm \\(O\\) đến điểm \\(P\\) nằm trên mặt cầu được gọi là gì của mặt cầu?",
+      "generalfeedback": "Đoạn thẳng nối tâm \\(O\\) đến một điểm \\(P\\) bất kỳ nằm trên mặt cầu được gọi là bán kính của mặt cầu.",
+      "answers": [
+        {
+          "text": "bán kính",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết mặt cắt hình cầu qua tâm là hình tròn",
+      "questiontext": "Nếu cắt một hình cầu bởi một mặt phẳng đi qua tâm của hình cầu đó, phần chung (mặt cắt) nhận được là hình gì?",
+      "generalfeedback": "Khi cắt một hình cầu bởi một mặt phẳng đi qua tâm, mặt cắt thu được là một hình tròn có bán kính bằng bán kính của hình cầu (được gọi là hình tròn lớn).",
+      "answers": [
+        {
+          "text": "Hình tròn có bán kính bằng bán kính hình cầu",
+          "fraction": 100
+        },
+        {
+          "text": "Hình tròn có bán kính nhỏ hơn bán kính hình cầu",
+          "fraction": 0
+        },
+        {
+          "text": "Đường tròn có bán kính lớn hơn bán kính hình cầu",
+          "fraction": 0
+        },
+        {
+          "text": "Hình elip có tiêu điểm tại tâm hình cầu",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_050",
+      "questiontext": "Nếu cắt một mặt cầu bán kính \\(R\\) bởi một mặt phẳng không đi qua tâm, phần chung của mặt phẳng và mặt cầu là một đường tròn có bán kính nhỏ hơn \\(R\\). Phát biểu này đúng hay sai?",
+      "generalfeedback": "Đúng. Cắt mặt cầu bởi mặt phẳng không đi qua tâm cho phần chung là một đường tròn có bán kính \\(r < R\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết phần chung của mặt phẳng và hình cầu",
+      "questiontext": "Khi cắt một hình cầu bởi một mặt phẳng, phần chung thu được là một [[1]]. Khi cắt một mặt cầu bởi một mặt phẳng, phần chung thu được là một [[2]].",
+      "generalfeedback": "Cắt hình cầu (khối đặc) thu được mặt cắt là hình tròn (phần mặt phẳng phẳng đặc). Cắt mặt cầu (vỏ rỗng) thu được phần chung là đường tròn.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "hình tròn"
+        },
+        {
+          "group": 1,
+          "text": "đường tròn"
+        },
+        {
+          "group": 1,
+          "text": "hình cầu"
+        },
+        {
+          "group": 1,
+          "text": "mặt cầu"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Xác định tâm, bán kính của hình cầu",
+      "questiontext": "Một hình cầu có đường kính bằng {d} cm. Hỏi bán kính của hình cầu đó bằng bao nhiêu cm? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Bán kính hình cầu bằng một nửa đường kính: \\(R = \\frac{d}{2}\\).",
+      "wildcards": [
+        {
+          "name": "d",
+          "min": 10.0,
+          "max": 50.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{d}/2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm hình cầu, mặt cầu tâm O bán kính R",
+      "questiontext": "Khái niệm mặt cầu tâm \\(O\\) bán kính \\(R\\) là tập hợp tất cả những điểm trong không gian cách điểm \\(O\\) một khoảng bằng bao nhiêu?",
+      "generalfeedback": "Mặt cầu tâm \\(O\\) bán kính \\(R\\) gồm tất cả các điểm cách \\(O\\) một khoảng đúng bằng \\(R\\).",
+      "answers": [
+        {
+          "text": "\\(R\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(2R\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{R}{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(R^2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_048",
+      "questiontext": "Cho hình cầu tâm \\(O\\) có đường kính \\(AB = 12\\text{ cm}\\). Bán kính \\(R\\) của hình cầu này bằng bao nhiêu cm? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Bán kính hình cầu bằng một nửa đường kính: \\(R = 12 / 2 = 6\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "6",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Xác định tâm, bán kính của hình cầu",
+      "questiontext": "Mọi điểm nằm trên mặt cầu tâm \\(O\\) bán kính \\(R\\) đều có khoảng cách đến tâm \\(O\\) bằng đúng \\(R\\). Phát biểu này đúng hay sai?",
+      "generalfeedback": "Đúng. Theo định nghĩa, mặt cầu tâm \\(O\\) bán kính \\(R\\) là tập hợp các điểm cách \\(O\\) một khoảng bằng \\(R\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết mặt cắt hình cầu qua tâm là hình tròn",
+      "questiontext": "Đường tròn lớn của một mặt cầu bán kính \\(R\\) là đường tròn giao tuyến của mặt cầu với mặt phẳng đi qua vị trí nào?",
+      "generalfeedback": "Khi mặt phẳng đi qua tâm của mặt cầu thì giao tuyến (đường tròn) thu được có bán kính \\(R\\) và được gọi là đường tròn lớn.",
+      "answers": [
+        {
+          "text": "Tâm của mặt cầu",
+          "fraction": 100
+        },
+        {
+          "text": "Điểm nằm ngoài mặt cầu",
+          "fraction": 0
+        },
+        {
+          "text": "Điểm bất kỳ không qua tâm",
+          "fraction": 0
+        },
+        {
+          "text": "Một tiếp tuyến bất kỳ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_049",
+      "questiontext": "Hãy ghép phép quay của hình phẳng quanh trục cố định với hình khối tròn xoay tương ứng thu được:",
+      "generalfeedback": "Quay nửa đường tròn quanh đường kính thu được mặt cầu; quay nửa hình tròn thu được hình cầu; quay hình chữ nhật quanh 1 cạnh thu được hình trụ.",
+      "subquestions": [
+        {
+          "question": "Quay nửa đường tròn quanh đường kính AB",
+          "answer": "Mặt cầu"
+        },
+        {
+          "question": "Quay nửa hình tròn quanh đường kính AB",
+          "answer": "Hình cầu"
+        },
+        {
+          "question": "Quay hình chữ nhật quanh một cạnh cố định",
+          "answer": "Hình trụ"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết hình cầu và mặt cầu",
+      "imgs": [
+        "_page_0_Picture_12.jpeg"
+      ],
+      "questiontext": "[img:_page_0_Picture_12.jpeg]\nHình ảnh quả bóng trong hình trên mô phỏng hình dạng của hình nào trong hình học không gian?",
+      "generalfeedback": "Quả bóng trong thực tế có hình dạng mô phỏng một hình cầu.",
+      "answers": [
+        {
+          "text": "Hình cầu",
+          "fraction": 100
+        },
+        {
+          "text": "Hình trụ",
+          "fraction": 0
+        },
+        {
+          "text": "Hình nón",
+          "fraction": 0
+        },
+        {
+          "text": "Hình lập phương",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết phần chung của mặt phẳng và hình cầu",
+      "questiontext": "Khi cắt một hình cầu bán kính \\(R\\) bởi một mặt phẳng đi qua tâm, diện tích của mặt cắt thu được bằng diện tích của hình tròn bán kính \\(R\\). Phát biểu này đúng hay sai?",
+      "generalfeedback": "Đúng. Mặt cắt qua tâm của hình cầu là một hình tròn có bán kính \\(R\\), nên diện tích mặt cắt đúng bằng diện tích hình tròn bán kính \\(R\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Nhận biết mặt cắt hình cầu qua tâm là hình tròn",
+      "questiontext": "Một hình cầu có bán kính \\(R = 5\\text{ cm}\\). Cắt hình cầu này bởi một mặt phẳng đi qua tâm, ta thu được mặt cắt là một hình tròn. Tính diện tích mặt cắt đó theo \\(\\pi\\) (chỉ điền số hệ số trước \\(\\pi\\), không ghi đơn vị).",
+      "generalfeedback": "Mặt cắt qua tâm là hình tròn bán kính \\(R = 5\\text{ cm}\\). Diện tích hình tròn là \\(S = \\pi R^2 = 25\\pi\\text{ (cm}^2\\)\\). Hệ số trước \\(\\pi\\) là 25.",
+      "answers": [
+        {
+          "text": "25",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_050",
+      "questiontext": "Cho mặt cầu bán kính \\(R = {r}\\text{ cm}\\). Khi cắt mặt cầu bởi mặt phẳng đi qua tâm, chu vi của đường tròn lớn thu được bằng bao nhiêu \\(\\pi\\text{ cm}\\)? (Chỉ tính hệ số của \\(\\pi\\))",
+      "generalfeedback": "Chu vi đường tròn lớn là \\(C = 2\\pi R = 2\\pi \\cdot {r} = (2 \\cdot {r})\\pi\\). Hệ số của \\(\\pi\\) là 2*{r}.",
+      "wildcards": [
+        {
+          "name": "r",
+          "min": 2.0,
+          "max": 20.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "2*{r}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "Xác định tâm, bán kính của hình cầu",
+      "questiontext": "Cho mặt cầu tâm \\(O\\) có đường kính bằng {d} cm. Công thức nào sau đây xác định đúng bán kính \\(R\\) của mặt cầu theo {d}?",
+      "generalfeedback": "Bán kính \\(R\\) bằng một nửa đường kính: \\(R = {d} / 2\\).",
+      "wildcards": [
+        {
+          "name": "d",
+          "min": 4.0,
+          "max": 40.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{d}/2",
+          "fraction": 100
+        },
+        {
+          "text": "{d}*2",
+          "fraction": 0
+        },
+        {
+          "text": "{d}+2",
+          "fraction": 0
+        },
+        {
+          "text": "{d}-2",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ học môn Toán bài \"Hình cầu\", bạn Nam gặp khó khăn khi làm bài tập phân biệt giữa \"mặt cầu\" và \"hình cầu\" nên liên tục chọn sai đáp án. Để vươn lên đạt kết quả tốt trong học tập, bạn Nam nên thực hiện hành động nào sau đây?",
+      "generalfeedback": "Để vươn lên đạt kết quả tốt trong học tập (Q1), học sinh cần chủ động, kiên trì học hỏi, xem lại định nghĩa cốt lõi trong SGK và nhờ sự trợ giúp khi gặp khó khăn, thay vì bỏ cuộc hoặc đối phó.",
+      "answers": [
+        {
+          "text": "Chủ động xem lại định nghĩa trong SGK, ghi chép điểm khác biệt giữa hình cầu và mặt cầu, đồng thời nhờ thầy cô hoặc bạn bè giải thích lại chỗ chưa hiểu.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua các bài tập về hình cầu và chỉ tập trung làm các bài toán đại số dễ hơn.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép lại toàn bộ lời giải bài tập của bạn bên cạnh để nộp cho thầy cô mà không cần hiểu.",
+          "fraction": 0
+        },
+        {
+          "text": "Cho rằng kiến thức hình học không quan trọng nên không cần cố gắng học thêm.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Để chuẩn bị tốt cho tiết học \"Hình cầu\", bạn An lập kế hoạch tự học ở nhà. Hành động nào sau đây thể hiện đúng nhất năng lực tự đặt mục tiêu học tập và nỗ lực phấn đấu thực hiện (G1) của bạn An?",
+      "generalfeedback": "Năng lực G1 thể hiện qua việc tự xác định mục tiêu học tập rõ ràng, cụ thể (đọc trước bài, chủ động làm bài tập) và lập kế hoạch kiên trì thực hiện.",
+      "answers": [
+        {
+          "text": "Tự đặt mục tiêu đọc trước lý thuyết SGK, làm các bài tập Luyện tập và tự kiểm tra lại kết quả trước khi đến lớp.",
+          "fraction": 100
+        },
+        {
+          "text": "Chờ khi thầy cô giao bài tập về nhà mới mở sách ra và làm đối phó cho đủ số lượng.",
+          "fraction": 0
+        },
+        {
+          "text": "Đặt mục tiêu đạt điểm cao nhưng không lập kế hoạch ôn tập hay làm bài tập cụ thể.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ học thuộc lòng các công thức mà không quan tâm đến bản chất khái niệm.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "questiontext": "Đọc đoạn văn bản sau: \"Trái Đất có dạng hình cầu với đường Xích đạo là một đường tròn lớn dài khoảng \\(40\\text{ }075\\text{ km}\\). Nếu gọi \\(R\\) là bán kính Trái Đất thì độ dài đường Xích đạo được tính theo công thức \\(2\\pi R \\approx 40\\text{ }075\\text{ km}\\)\". Dựa trên văn bản và công thức toán học được cung cấp, công thức nào sau đây xác định đúng đường kính \\(2R\\) của Trái Đất?",
+      "generalfeedback": "Từ văn bản ta có độ dài đường Xích đạo là \\(2\\pi R \\approx 40\\text{ }075\\text{ km}\\). Do đó đường kính \\(2R \\approx 40\\text{ }075 : \\pi\\text{ (km)}\\).",
+      "answers": [
+        {
+          "text": "\\(2R \\approx 40\\text{ }075 : \\pi\\text{ (km)}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(2R \\approx 40\\text{ }075 \\cdot \\pi\\text{ (km)}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2R \\approx 40\\text{ }075 : (2\\pi)\\text{ (km)}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2R \\approx 40\\text{ }075 \\cdot 2\\pi\\text{ (km)}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "NLT_TOAN_C2_01_02",
+      "imgs": [
+        "_page_0_Picture_12.jpeg"
+      ],
+      "questiontext": "[img:_page_0_Picture_12.jpeg]\nKhi quan sát quả bóng đá trong hình ảnh trên và sơ đồ hình cầu trong SGK, quan sát nào sau đây phản ánh chính xác điểm chung về hình dạng giữa vật thể thực tế và mô hình toán học?",
+      "generalfeedback": "Quan sát thực tế và mô hình hình học giúp học sinh nhận biết quả bóng đá có dạng hình cầu với ranh giới bề mặt tương ứng với mặt cầu.",
+      "answers": [
+        {
+          "text": "Quả bóng đá trong thực tế có dạng hình cầu, ranh giới vỏ ngoài tương ứng với mặt cầu tâm \\(O\\) bán kính \\(R\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Quả bóng đá trong thực tế là một hình trụ có hai đáy là hình tròn bán kính \\(R\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Quả bóng đá trong thực tế chỉ có đường tròn lớn mà không có tâm.",
+          "fraction": 0
+        },
+        {
+          "text": "Quả bóng đá có mặt cắt đi qua tâm là một hình elip bất kỳ.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "NLT_TOAN_C2_04_12",
+      "questiontext": "Để diễn đạt khái niệm mặt cầu bằng ngôn ngữ toán học kết hợp ngôn ngữ thông thường: \"Mặt cầu tâm \\(O\\) bán kính \\(R\\) là tập hợp tất cả các điểm trong không gian cách điểm \\(O\\) một khoảng [[1]] \\(R\\)\". Khi cắt mặt cầu bởi một mặt phẳng đi qua tâm \\(O\\), phần chung thu được là một [[2]] có bán kính bằng \\(R\\).",
+      "generalfeedback": "Dùng ngôn ngữ toán học chuẩn xác: khoảng cách bằng đúng \\(R\\), và mặt cắt của mặt cầu với mặt phẳng qua tâm là một đường tròn lớn.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "bằng"
+        },
+        {
+          "group": 1,
+          "text": "đường tròn"
+        },
+        {
+          "group": 1,
+          "text": "nhỏ hơn"
+        },
+        {
+          "group": 1,
+          "text": "hình tròn"
+        }
+      ]
+    }
+  ]
+}

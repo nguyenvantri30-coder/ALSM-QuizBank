@@ -1,0 +1,294 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 10,
+    "metadata_used": {
+      "Khái niệm sự kiện trong trò chơi / thí nghiệm": 1,
+      "Sự kiện xảy ra hoặc không xảy ra": 2,
+      "Nhận biết sự kiện xảy ra hay không xảy ra ứng với kết quả thí nghiệm": 4,
+      "YCCD_TOAN6_148": 2,
+      "YCCD_TOAN6_149": 1
+    },
+    "types_used": {
+      "multichoice": 5,
+      "truefalse": 1,
+      "shortanswer": 1,
+      "matching": 1,
+      "gapselect": 1,
+      "ddwtos": 1
+    },
+    "total": 10
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN6_148",
+        "reason": "Phù hợp với nội dung làm quen mô hình xác suất trong trò chơi, thí nghiệm đơn giản."
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_149",
+        "reason": "Phù hợp với nội dung mô tả khả năng xảy ra của sự kiện qua nhiều lần chơi."
+      },
+      {
+        "metadata_code": "Khái niệm sự kiện trong trò chơi / thí nghiệm",
+        "reason": "Phù hợp với nội dung nhận biết khái niệm sự kiện trong trò chơi, thí nghiệm."
+      },
+      {
+        "metadata_code": "Sự kiện xảy ra hoặc không xảy ra",
+        "reason": "Phù hợp với nội dung nhận biết sự kiện xảy ra hoặc không xảy ra."
+      },
+      {
+        "metadata_code": "Nhận biết sự kiện xảy ra hay không xảy ra ứng với kết quả thí nghiệm",
+        "reason": "Phù hợp với nội dung kỹ năng xác định sự kiện xảy ra hay không xảy ra ứng với kết quả cụ thể."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "SUB_TRUNGTHUC_CHUNG_C2_01",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "SUB_GQVD_PHATHIEN_C2_01",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_02",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_02_03",
+        "reason": "Sẽ xử lý ở bước riêng"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm sự kiện trong trò chơi / thí nghiệm",
+      "questiontext": "Khi thực hiện một trò chơi hoặc thí nghiệm, một sự kiện có đặc điểm nào sau đây?",
+      "generalfeedback": "Theo SGK, khi thực hiện trò chơi hoặc thí nghiệm, một sự kiện có thể xảy ra hoặc không xảy ra tuỳ thuộc vào kết quả của trò chơi, thí nghiệm đó.",
+      "answers": [
+        {
+          "text": "Có thể xảy ra hoặc không xảy ra tuỳ thuộc vào kết quả của trò chơi, thí nghiệm đó.",
+          "fraction": 100
+        },
+        {
+          "text": "Luôn luôn xảy ra trong mọi lần thực hiện.",
+          "fraction": 0
+        },
+        {
+          "text": "Không bao giờ xảy ra trong bất kỳ lần thực hiện nào.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ xảy ra khi người chơi chọn trước kết quả.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Sự kiện xảy ra hoặc không xảy ra",
+      "questiontext": "Gieo một con xúc xắc 6 mặt cân đối. Nếu mặt xuất hiện là mặt 5 chấm thì sự kiện 'Số chấm xuất hiện không phải là 6' xảy ra. Phát biểu này đúng hay sai?",
+      "generalfeedback": "Vì mặt xuất hiện là 5 chấm (khác 6) nên sự kiện 'Số chấm xuất hiện không phải là 6' đã xảy ra.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết sự kiện xảy ra hay không xảy ra ứng với kết quả thí nghiệm",
+      "questiontext": "Trong hộp có 10 tấm thẻ ghi các số 2; 2; 3; 3; 3; 5; 5; 5; 5; 5. Bạn An rút ngẫu nhiên một tấm thẻ từ trong hộp và rút được thẻ ghi số 3. Sự kiện nào sau đây xảy ra?",
+      "generalfeedback": "Vì số 3 là số lẻ nên sự kiện 'Rút được thẻ ghi số lẻ' đã xảy ra.",
+      "answers": [
+        {
+          "text": "Rút được thẻ ghi số lẻ",
+          "fraction": 100
+        },
+        {
+          "text": "Rút được thẻ ghi số 2",
+          "fraction": 0
+        },
+        {
+          "text": "Rút được thẻ ghi số 5",
+          "fraction": 0
+        },
+        {
+          "text": "Rút được thẻ ghi số chẵn lớn hơn 2",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết sự kiện xảy ra hay không xảy ra ứng với kết quả thí nghiệm",
+      "questiontext": "Minh quay tấm bìa hình tròn và thấy mũi tên chỉ vào ô số 3. Cho biết sự kiện 'Mũi tên chỉ vào ô ghi số 4' có xảy ra hay không? (Chỉ điền 'xảy ra' hoặc 'không xảy ra')",
+      "generalfeedback": "Mũi tên chỉ vào ô số 3 nên sự kiện 'Mũi tên chỉ vào ô ghi số 4' không xảy ra.",
+      "answers": [
+        {
+          "text": "không xảy ra",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_148",
+      "questiontext": "Cho thí nghiệm gieo một con xúc xắc 6 mặt (số chấm từ 1 đến 6). Hãy ghép kết quả xuất hiện của mặt xúc xắc với trạng thái tương ứng của sự kiện 'Số chấm xuất hiện là số chẵn'.",
+      "generalfeedback": "Mặt 2 chấm và 6 chấm là số chẵn nên sự kiện xảy ra; mặt 5 chấm là số lẻ nên sự kiện không xảy ra.",
+      "subquestions": [
+        {
+          "question": "Mặt xuất hiện là 2 chấm",
+          "answer": "Sự kiện xảy ra"
+        },
+        {
+          "question": "Mặt xuất hiện là 5 chấm",
+          "answer": "Sự kiện không xảy ra"
+        },
+        {
+          "question": "Mặt xuất hiện là 6 chấm",
+          "answer": "Sự kiện xảy ra"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_149",
+      "questiontext": "Tú và Quân chơi trò tung đồng thời hai đồng xu trong 10 lượt. Nếu cả hai đồng xu ra mặt ngửa thì được 1 điểm, ngược lại được 0 điểm. Kết quả Tú được 6 điểm, Quân được 5 điểm. Sự kiện nào sau đây xảy ra?",
+      "generalfeedback": "Tú được 6 điểm nhiều hơn Quân (5 điểm) nên sự kiện 'Tú thắng' xảy ra.",
+      "answers": [
+        {
+          "text": "Tú thắng",
+          "fraction": 100
+        },
+        {
+          "text": "Quân thắng",
+          "fraction": 0
+        },
+        {
+          "text": "Tú và Quân hòa nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Cả hai cùng thua",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Sự kiện xảy ra hoặc không xảy ra",
+      "questiontext": "Khi thực hiện một trò chơi hoặc thí nghiệm, một sự kiện có thể [[1]] hoặc [[2]] tuỳ thuộc vào kết quả của trò chơi, thí nghiệm đó.",
+      "generalfeedback": "Định nghĩa trong SGK: Một sự kiện có thể xảy ra hoặc không xảy ra tuỳ thuộc vào kết quả của trò chơi, thí nghiệm đó.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "xảy ra"
+        },
+        {
+          "group": 1,
+          "text": "không xảy ra"
+        },
+        {
+          "group": 1,
+          "text": "chắc chắn xảy ra"
+        },
+        {
+          "group": 1,
+          "text": "luôn đúng"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết sự kiện xảy ra hay không xảy ra ứng với kết quả thí nghiệm",
+      "questiontext": "Gieo đồng thời hai con xúc xắc. Nếu tổng số chấm xuất hiện trên hai con xúc xắc là 8 thì sự kiện 'Tổng số chấm là số chẵn' [[1]] và sự kiện 'Tổng số chấm nhỏ hơn 5' [[2]].",
+      "generalfeedback": "Tổng bằng 8 là số chẵn nên sự kiện 'Tổng số chấm là số chẵn' xảy ra. Vì 8 > 5 nên sự kiện 'Tổng số chấm nhỏ hơn 5' không xảy ra.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "xảy ra"
+        },
+        {
+          "group": 1,
+          "text": "không xảy ra"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_148",
+      "questiontext": "Gieo một con xúc xắc 6 mặt cân đối. Liệt kê tất cả các kết quả có thể để sự kiện 'Số chấm xuất hiện là số nguyên tố' xảy ra.",
+      "generalfeedback": "Các số nguyên tố từ 1 đến 6 là 2, 3, 5. Do đó các kết quả có thể để sự kiện xảy ra là mặt 2 chấm, mặt 3 chấm, mặt 5 chấm.",
+      "answers": [
+        {
+          "text": "Mặt 2 chấm, mặt 3 chấm, mặt 5 chấm",
+          "fraction": 100
+        },
+        {
+          "text": "Mặt 1 chấm, mặt 2 chấm, mặt 3 chấm, mặt 5 chấm",
+          "fraction": 0
+        },
+        {
+          "text": "Mặt 2 chấm, mặt 4 chấm, mặt 6 chấm",
+          "fraction": 0
+        },
+        {
+          "text": "Mặt 3 chấm, mặt 5 chấm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết sự kiện xảy ra hay không xảy ra ứng với kết quả thí nghiệm",
+      "questiontext": "Quay tấm bìa như hình vẽ [img:_page_4_Figure_5.jpeg] và thấy mũi tên chỉ vào ô Nai. Sự kiện 'Mũi tên chỉ vào ô Gấu hoặc Nai' có xảy ra hay không?",
+      "imgs": [
+        "_page_4_Figure_5.jpeg"
+      ],
+      "generalfeedback": "Vì mũi tên chỉ vào ô Nai nên sự kiện 'Mũi tên chỉ vào ô Gấu hoặc Nai' có xảy ra.",
+      "answers": [
+        {
+          "text": "Có xảy ra",
+          "fraction": 100
+        },
+        {
+          "text": "Không xảy ra",
+          "fraction": 0
+        },
+        {
+          "text": "Không xác định được",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ xảy ra khi chỉ vào ô Gấu",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

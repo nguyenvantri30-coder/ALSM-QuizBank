@@ -1,0 +1,632 @@
+{
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Điều kiện hệ phương trình bậc nhất hai ẩn có nghiệm duy nhất",
+      "questiontext": "Cho hai đường thẳng \\(d_1: ax + by = c\\) và \\(d_2: a'x + b'y = c'\\) (với các hệ số khác \\(0\\)). Hệ phương trình \\(\\begin{cases} ax + by = c \\\\ a'x + b'y = c' \\end{cases}\\) có nghiệm duy nhất khi nào về mặt hình học?",
+      "generalfeedback": "Hệ hai phương trình bậc nhất hai ẩn có nghiệm duy nhất khi và chỉ khi hai đường thẳng biểu diễn hai phương trình đó cắt nhau tại một điểm duy nhất.",
+      "answers": [
+        {
+          "text": "Hai đường thẳng cắt nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Hai đường thẳng song song với nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Hai đường thẳng trùng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Hai đường thẳng vuông góc với nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "vô nghiệm",
+      "questiontext": "Khi giải hệ phương trình \\(\\begin{cases} x - y = -2 \\\\ 2x - 2y = 8 \\end{cases}\\) bằng phương pháp thế, ta thu được phương trình \\(0y - 4 = 8\\) (hay \\(0y = 12\\)). Phương trình này vô nghiệm, suy ra hệ phương trình đã cho vô nghiệm. Phát biểu trên đúng hay sai?",
+      "generalfeedback": "Do không có giá trị nào của \\(y\\) thỏa mãn \\(0y = 12\\), phương trình vô nghiệm nên hệ phương trình đã cho vô nghiệm.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "vô số nghiệm",
+      "questiontext": "Khi biến đổi một hệ hai phương trình bậc nhất hai ẩn bằng phương pháp thế hoặc cộng đại số mà thu được một phương trình có dạng \\(0x = 0\\), thì hệ phương trình đã cho có bao nhiêu nghiệm?",
+      "generalfeedback": "Phương trình \\(0x = 0\\) thỏa mãn với mọi \\(x \\in \\mathbb{R}\\), do đó hệ phương trình đã cho có vô số nghiệm.",
+      "answers": [
+        {
+          "text": "vô số nghiệm",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Lựa chọn phương pháp thế hoặc cộng đại số thích hợp để giải hệ phương trình",
+      "questiontext": "Để giải hệ phương trình \\(\\begin{cases} x - 3y = 2 \\\\ -2x + 5y = 1 \\end{cases}\\), từ phương trình thứ nhất ta biểu diễn ẩn \\(x\\) theo \\(y\\) là \\(x =\\) [[1]] rồi [[2]] vào phương trình thứ hai.",
+      "generalfeedback": "Từ phương trình \\(x - 3y = 2\\), ta có \\(x = 3y + 2\\). Sau đó thế biểu thức này vào phương trình còn lại để giải.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(3y + 2\\)"
+        },
+        {
+          "group": 1,
+          "text": "thế"
+        },
+        {
+          "group": 1,
+          "text": "\\(2 - 3y\\)"
+        },
+        {
+          "group": 1,
+          "text": "cộng"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Lựa chọn phương pháp thế hoặc cộng đại số thích hợp để giải hệ phương trình",
+      "questiontext": "Hãy ghép mỗi hệ phương trình ở cột bên trái với đặc điểm phương pháp giải thích hợp nhất ở cột bên phải:",
+      "generalfeedback": "Quan sát hệ số của các ẩn để chọn phương pháp thế hoặc cộng đại số tối ưu.",
+      "subquestions": [
+        {
+          "question": "\\(\\begin{cases} x - 3y = 2 \\\\ -2x + 5y = 1 \\end{cases}\\)",
+          "answer": "Dùng phương pháp thế do hệ số của x là 1"
+        },
+        {
+          "question": "\\(\\begin{cases} -2x + 5y = 12 \\\\ 2x + 3y = 4 \\end{cases}\\)",
+          "answer": "Dùng cộng đại số do hệ số của x đối nhau"
+        },
+        {
+          "question": "\\(\\begin{cases} 5x - 7y = 9 \\\\ 5x - 3y = 1 \\end{cases}\\)",
+          "answer": "Dùng cộng đại số do hệ số của x bằng nhau"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_026",
+      "questiontext": "Dùng máy tính cầm tay hoặc giải hệ phương trình \\(\\begin{cases} 2x + 3y = -4 \\\\ -3x - 7y = 13 \\end{cases}\\). Giá trị của nghiệm \\(x\\) là bao nhiêu? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Giải hệ phương trình ta tìm được x = 2.2 và y = -2.8.",
+      "answers": [
+        {
+          "text": "2.2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "thong_hieu",
+      "metadata_code": "Biện luận số nghiệm của hệ phương trình chứa tham số đơn giản",
+      "questiontext": "Cho hệ hai phương trình \\(x + y = {a}\\) và \\(2x - y = 1\\). Cộng từng vế hai phương trình ta được \\(3x = {a} + 1\\). Công thức tính \\(x\\) theo biến {a} là:",
+      "generalfeedback": "Cộng vế với vế ta được 3x = a + 1, suy ra x = (a + 1)/3.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 20.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "({a}+1)/3",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Lựa chọn phương pháp thế hoặc cộng đại số thích hợp để giải hệ phương trình",
+      "questiontext": "Hãy kéo thả từ thích hợp vào chỗ trống: Khi giải hệ phương trình bằng phương pháp cộng đại số, nếu hệ số của cùng một ẩn trong hai phương trình đối nhau thì ta [[1]] từng vế của hai phương trình; nếu bằng nhau thì ta [[2]] từng vế của hai phương trình.",
+      "generalfeedback": "Hệ số đối nhau thì cộng từng vế, hệ số bằng nhau thì trừ từng vế.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "cộng"
+        },
+        {
+          "group": 1,
+          "text": "trừ"
+        },
+        {
+          "group": 1,
+          "text": "nhân"
+        },
+        {
+          "group": 1,
+          "text": "chia"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Điều kiện hệ phương trình bậc nhất hai ẩn có nghiệm duy nhất",
+      "imgs": [
+        "_page_7_Figure_5.jpeg"
+      ],
+      "questiontext": "Cho hình vẽ biểu diễn hai đường thẳng \\(d_1: 2x - y = 3\\) và \\(d_2: x + 2y = 4\\) trên mặt phẳng tọa độ Oxy dưới đây: [img:_page_7_Figure_5.jpeg] Dựa vào hình vẽ, số nghiệm của hệ phương trình \\(\\begin{cases} 2x - y = 3 \\\\ x + 2y = 4 \\end{cases}\\) là bao nhiêu?",
+      "generalfeedback": "Hai đường thẳng cắt nhau tại 1 điểm duy nhất M(2; 1) nên hệ phương trình có 1 nghiệm duy nhất.",
+      "answers": [
+        {
+          "text": "Có 1 nghiệm duy nhất",
+          "fraction": 100
+        },
+        {
+          "text": "Vô nghiệm",
+          "fraction": 0
+        },
+        {
+          "text": "Vô số nghiệm",
+          "fraction": 0
+        },
+        {
+          "text": "Có 2 nghiệm phân biệt",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_026",
+      "questiontext": "Cho bài toán: Tổng hai số x và y bằng {a}, hiệu x - y bằng 4. Viết công thức tính số lớn x theo biến {a}.",
+      "generalfeedback": "Hệ phương trình: x + y = a và x - y = 4. Cộng vế thu được 2x = a + 4 suy ra x = (a + 4)/2.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 10.0,
+          "max": 50.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "({a}+4)/2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "vô nghiệm",
+      "imgs": [
+        "_page_7_Figure_11.jpeg"
+      ],
+      "questiontext": "Cho hình vẽ biểu diễn hai đường thẳng \\(d_1: -x + y = 2\\) và \\(d_2: -2x + 2y = 8\\) trên mặt phẳng tọa độ Oxy: [img:_page_7_Figure_11.jpeg] Hai đường thẳng này song song với nhau. Hỏi hệ phương trình \\(\\begin{cases} -x + y = 2 \\\\ -2x + 2y = 8 \\end{cases}\\) có bao nhiêu nghiệm?",
+      "generalfeedback": "Hai đường thẳng song song không có điểm chung nên hệ phương trình vô nghiệm.",
+      "answers": [
+        {
+          "text": "Vô nghiệm",
+          "fraction": 100
+        },
+        {
+          "text": "Có 1 nghiệm duy nhất",
+          "fraction": 0
+        },
+        {
+          "text": "Vô số nghiệm",
+          "fraction": 0
+        },
+        {
+          "text": "Có 2 nghiệm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "vô số nghiệm",
+      "questiontext": "Nếu hai đường thẳng \\(\\Delta: ax + by = c\\) và \\(\\Delta': a'x + b'y = c'\\) trùng nhau thì hệ phương trình \\(\\begin{cases} ax + by = c \\\\ a'x + b'y = c' \\end{cases}\\) có vô số nghiệm. Phát biểu trên đúng hay sai?",
+      "generalfeedback": "Mỗi điểm thuộc đường thẳng trùng nhau đều là điểm chung, do đó hệ phương trình có vô số nghiệm.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Lựa chọn phương pháp thế hoặc cộng đại số thích hợp để giải hệ phương trình",
+      "questiontext": "Để khử ẩn \\(x\\) trong hệ phương trình \\(\\begin{cases} -2x + 5y = 12 \\\\ 2x + 3y = 4 \\end{cases}\\) bằng phương pháp cộng đại số, ta thực hiện phép tính gì từng vế của hai phương trình?",
+      "generalfeedback": "Do hệ số của x trong hai phương trình là -2 và 2 (đối nhau), ta cộng từng vế hai phương trình để khử x.",
+      "answers": [
+        {
+          "text": "cộng",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_026",
+      "questiontext": "Khi giải hệ phương trình \\(\\begin{cases} 3x - 5y = 2 \\\\ -6x + 10y = -4 \\end{cases}\\) bằng phương pháp cộng đại số, chia hai vế phương trình thứ hai cho 2 ta được hệ mới có dạng \\(\\begin{cases} 3x - 5y = 2 \\\\ -3x + 5y = -2 \\end{cases}\\). Cộng từng vế hai phương trình ta được [[1]], chứng tỏ hệ phương trình có [[2]].",
+      "generalfeedback": "Cộng hai vế ta được 0x + 0y = 0 (đúng với mọi x, y), do đó hệ phương trình có vô số nghiệm.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(0x + 0y = 0\\)"
+        },
+        {
+          "group": 1,
+          "text": "vô số nghiệm"
+        },
+        {
+          "group": 1,
+          "text": "\\(0x = 5\\)"
+        },
+        {
+          "group": 1,
+          "text": "vô nghiệm"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_026",
+      "questiontext": "Hãy ghép mỗi hệ phương trình ở cột bên trái với đặc điểm phương pháp giải thích hợp nhất ở cột bên phải:",
+      "generalfeedback": "Sử dụng kiến thức xét tỉ số hệ số hoặc phương pháp biến đổi để xác định số nghiệm.",
+      "subquestions": [
+        {
+          "question": "\\(\\begin{cases} x - y = 3 \\\\ 3x - 4y = 2 \\end{cases}\\)",
+          "answer": "Có 1 nghiệm duy nhất"
+        },
+        {
+          "question": "\\(\\begin{cases} x + 3y = -1 \\\\ 3x + 9y = -3 \\end{cases}\\)",
+          "answer": "Vô số nghiệm"
+        },
+        {
+          "question": "\\(\\begin{cases} -2x + y = 3 \\\\ 4x - 2y = -4 \\end{cases}\\)",
+          "answer": "Vô nghiệm"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_026",
+      "questiontext": "Dùng phương pháp thế hoặc cộng đại số để giải hệ phương trình \\(\\begin{cases} 3x + 2y = 6 \\\\ 2x - 2y = 14 \\end{cases}\\). Tìm giá trị nghiệm \\(x\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Cộng vế với vế hai phương trình: 5x = 20 => x = 4.",
+      "answers": [
+        {
+          "text": "4",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Biện luận số nghiệm của hệ phương trình chứa tham số đơn giản",
+      "questiontext": "Cho hệ hai phương trình \\(x - y = 3\\) và \\({a}x - 4y = 2\\). Từ phương trình thứ nhất có \\(y = x - 3\\). Thế vào phương trình thứ hai ta được phương trình ẩn \\(x\\): \\(({a} - 4)x + 12 = 2\\) hay \\(({a} - 4)x = -10\\). Để hệ có nghiệm duy nhất thì hệ số \\(({a} - 4)\\) phải khác 0. Vậy giá trị của {a} phải khác bao nhiêu?",
+      "generalfeedback": "Để hệ có nghiệm duy nhất thì a - 4 khác 0 hay a khác 4.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "4",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_026",
+      "questiontext": "Để giải hệ hai phương trình \\(a_1x + b_1y = c_1\\) và \\(a_2x + b_2y = c_2\\) bằng máy tính cầm tay, ở Bước 1 ta bấm phím chọn chức năng giải hệ. Ở Bước 2 ta nhập lần lượt các hệ số [[1]]. Sau đó bấm phím '=' để đọc giá trị nghiệm [[2]].",
+      "generalfeedback": "Quy trình bấm máy tính cầm tay để tìm nghiệm của hệ phương trình bậc nhất hai ẩn.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "a1, b1, c1, a2, b2, c2"
+        },
+        {
+          "group": 1,
+          "text": "x và y"
+        },
+        {
+          "group": 1,
+          "text": "MODE"
+        },
+        {
+          "group": 1,
+          "text": "AC"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Biện luận số nghiệm của hệ phương trình chứa tham số đơn giản",
+      "questiontext": "Với giá trị nào của tham số \\(m\\) thì hệ phương trình \\(\\begin{cases} 2x - y = -3 \\\\ -2m^2x + 9y = 3(m+3) \\end{cases}\\) có nghiệm duy nhất?",
+      "generalfeedback": "Hệ có nghiệm duy nhất khi 2/(-2m^2) != -1/9 <=> m^2 != 9 <=> m != 3 và m != -3.",
+      "answers": [
+        {
+          "text": "\\(m \\neq 3\\) và \\(m \\neq -3\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(m = 3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(m = -3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Với mọi \\(m \\in \\mathbb{R}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_026",
+      "questiontext": "Cho hai phương trình \\({a}x + y = 5\\) và \\(2x + y = 3\\) (với {a} khác 2). Trừ từng vế hai phương trình ta thu được phương trình ẩn \\(x\\) chứa biến {a}. Hãy chọn biểu thức đúng của \\(x\\) theo {a}:",
+      "generalfeedback": "Trừ vế với vế: (a - 2)x = 2 suy ra x = 2 / (a - 2).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 3.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "2/({a}-2)",
+          "fraction": 100
+        },
+        {
+          "text": "2/({a}+2)",
+          "fraction": 0
+        },
+        {
+          "text": "8/({a}-2)",
+          "fraction": 0
+        },
+        {
+          "text": "({a}-2)/2",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi gặp một hệ phương trình bậc nhất hai ẩn phức tạp có chứa số thập phân như \\(\\begin{cases} 0,5x - 1,5y = 1 \\\\ -x + 3y = 2 \\end{cases}\\), bạn An thấy khó nên định bỏ qua không làm. Nếu muốn thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập, An nên chọn thái độ và hành động nào sau đây?",
+      "generalfeedback": "Tinh thần vượt khó và ý thức tự học đòi hỏi học sinh kiên trì tìm tòi các phương pháp biến đổi (như nhân cả hai vế với 10 để làm gọn hệ số) thay vì bỏ cuộc hoặc chép bài.",
+      "answers": [
+        {
+          "text": "Kiên trì biến đổi đơn giản hệ số (nhân hai vế với 10) và thử áp dụng phương pháp đã học để giải bài toán",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài tập này và chờ thầy cô giải sẵn trên lớp để chép lại",
+          "fraction": 0
+        },
+        {
+          "text": "Mượn ngay bài làm của bạn khác để chép đáp số cho xong nhiệm vụ",
+          "fraction": 0
+        },
+        {
+          "text": "Cho rằng đề bài bị sai nên không cần tốn thời gian suy nghĩ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ luyện tập giải hệ phương trình, bạn Bình tự rút ra kinh nghiệm: 'Để đạt kết quả tốt, mình nên thử giải bài toán bằng cả hai phương pháp (thế và cộng đại số) rồi so sánh để chọn ra cách làm nhanh và ít nhầm lẫn nhất'. Ý kiến của Bình phản ánh thái độ học tập tích cực, luôn cố gắng vươn lên đạt kết quả tốt. Phát biểu trên Đúng hay Sai?",
+      "generalfeedback": "Chủ động thử nghiệm, so sánh các phương pháp để tối ưu hóa cách giải là biểu hiện rõ nét của ý thức vươn lên học tốt.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GQVD_HINHTHANH_C2_04",
+      "questiontext": "Cho hệ phương trình \\(\\begin{cases} 4x + y = -1 \\\\ 7x + 2y = -3 \\end{cases}\\). Hai bạn đề xuất hai giải pháp:\n- Bạn Nam: Biểu diễn \\(y = -1 - 4x\\) từ phương trình thứ nhất rồi thế vào phương trình thứ hai.\n- Bạn Minh: Nhân hai vế của phương trình thứ nhất với 2 được \\(8x + 2y = -2\\), rồi trừ từng vế cho phương trình thứ hai.\nKhi so sánh và bình luận về hai giải pháp trên, nhận xét nào sau đây là hợp lý nhất?",
+      "generalfeedback": "Cả hai giải pháp đều đúng về mặt toán học và có độ phức tạp tính toán tương đương nhau, giúp học sinh linh hoạt lựa chọn.",
+      "answers": [
+        {
+          "text": "Cả hai giải pháp đều chính xác và có độ tiện lợi tương đương vì hệ số của y ở phương trình thứ nhất là 1.",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ có giải pháp của bạn Nam đúng, giải pháp của bạn Minh bị sai nguyên tắc.",
+          "fraction": 0
+        },
+        {
+          "text": "Giải pháp của bạn Minh tối ưu hơn hẳn vì phương pháp thế luôn làm tăng bậc của phương trình.",
+          "fraction": 0
+        },
+        {
+          "text": "Cả hai giải pháp đều không giải được hệ phương trình đã cho.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GQVD_HINHTHANH_C2_04",
+      "questiontext": "Hãy ghép mỗi hệ phương trình ở cột bên trái với đánh giá/bình luận về giải pháp giải thích hợp nhất ở cột bên phải:",
+      "generalfeedback": "Việc lựa chọn đúng phương pháp giúp bài toán giải nhanh chóng và hạn chế sai sót tính toán.",
+      "subquestions": [
+        {
+          "question": "\\(\\begin{cases} 2x + 5y = 12 \\\\ -2x + 3y = 4 \\end{cases}\\)",
+          "answer": "Nên cộng từng vế hai phương trình vì hệ số của x đối nhau"
+        },
+        {
+          "question": "\\(\\begin{cases} 5x - 7y = 9 \\\\ 5x - 3y = 1 \\end{cases}\\)",
+          "answer": "Nên trừ từng vế hai phương trình vì hệ số của x bằng nhau"
+        },
+        {
+          "question": "\\(\\begin{cases} x - 3y = 2 \\\\ -2x + 5y = 1 \\end{cases}\\)",
+          "answer": "Nên rút x từ phương trình thứ nhất để thế vào phương trình thứ hai"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Một phòng thí nghiệm cần pha chế 2 lít dung dịch acid HCl nồng độ 10% từ hai loại dung dịch acid HCl nồng độ 20% và 5%. Để giải quyết bài toán này, giải pháp đề xuất nào sau đây là đúng đắn nhất?",
+      "generalfeedback": "Để giải quyết bài toán thực tế về pha chế dung dịch, giải pháp tối ưu là chọn thể tích mỗi loại dung dịch làm ẩn, lập hệ phương trình gồm phương trình tổng thể tích và phương trình tổng khối lượng acid nguyên chất.",
+      "answers": [
+        {
+          "text": "Gọi \\(x, y\\) (ml) là thể tích hai dung dịch cần lấy, lập hệ phương trình gồm: phương trình tổng thể tích dung dịch và phương trình tổng lượng acid HCl nguyên chất.",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ cần lấy trung bình cộng nồng độ hai dung dịch để chia đều thể tích.",
+          "fraction": 0
+        },
+        {
+          "text": "Thử ngẫu nhiên các thể tích khác nhau cho đến khi đo được nồng độ 10%.",
+          "fraction": 0
+        },
+        {
+          "text": "Gọi \\(x\\) là nồng độ acid, lập một phương trình bậc nhất một ẩn duy nhất.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_05",
+      "questiontext": "Khi được hỏi 'Tại sao hệ phương trình \\(\\begin{cases} -2x + y = 3 \\\\ 4x - 2y = -4 \\end{cases}\\) lại vô nghiệm?', bạn An lập luận như sau:\n'Nếu thế \\(y = 2x + 3\\) từ phương trình thứ nhất vào phương trình thứ hai, ta thu được \\(4x - 2(2x + 3) = -4\\) hay \\(0x - 6 = -4\\) tức \\(0x = 2\\). Vì không có giá trị nào của \\(x\\) thỏa mãn \\(0x = 2\\) nên hệ vô nghiệm.'\nLập luận của bạn An là:",
+      "generalfeedback": "Lập luận của An hoàn toàn hợp lý, dựa trên logic toán học suy diễn từ phương trình biến đổi thu được phương trình vô nghiệm 0x = 2.",
+      "answers": [
+        {
+          "text": "Hoàn toàn hợp lý và chính xác về mặt logic toán học.",
+          "fraction": 100
+        },
+        {
+          "text": "Sai vì phương trình \\(0x = 2\\) có vô số nghiệm \\(x\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Sai vì An đã biến đổi nhầm dấu khi thế y vào phương trình thứ hai.",
+          "fraction": 0
+        },
+        {
+          "text": "Chưa hợp lý vì phải vẽ hình mới kết luận được hệ vô nghiệm.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_05",
+      "questiontext": "Để chứng minh hai đường thẳng \\(d_1: 3x - 5y = 2\\) và \\(d_2: -6x + 10y = -4\\) trùng nhau, bạn Hà lập luận: Chia hai vế của phương trình thứ hai cho -2 ta được \\(3x - 5y = 2\\), đúng bằng phương trình thứ nhất. Do đó mọi điểm thuộc \\(d_1\\) đều thuộc \\(d_2\\), suy ra hệ có vô số nghiệm. Lập luận của Hà là chặt chẽ và đúng đắn. Đúng hay Sai?",
+      "generalfeedback": "Lập luận của Hà hoàn toàn chính xác do hai phương trình biến đổi về dạng giống hệt nhau.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_03",
+      "questiontext": "Để xác định nghiệm của hệ hai phương trình bậc nhất hai ẩn biểu diễn hai đường thẳng song song trên mặt phẳng tọa độ Oxy, giải pháp xử lý chính xác nhất là gì?",
+      "generalfeedback": "Hai đường thẳng song song không có điểm chung nào trên mặt phẳng tọa độ, tương ứng với hệ phương trình vô nghiệm.",
+      "answers": [
+        {
+          "text": "Kết luận ngay hệ phương trình vô nghiệm vì hai đường thẳng không có điểm chung.",
+          "fraction": 100
+        },
+        {
+          "text": "Kết luận hệ có 1 nghiệm duy nhất là gốc tọa độ O(0; 0).",
+          "fraction": 0
+        },
+        {
+          "text": "Kết luận hệ có vô số nghiệm chạy dọc theo khoảng cách giữa hai đường thẳng.",
+          "fraction": 0
+        },
+        {
+          "text": "Kéo dài hai đường thẳng cho đến khi chúng cắt nhau để tìm nghiệm.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "NLT_TOAN_C2_03_03",
+      "questiontext": "Khi giải hệ hai phương trình bậc nhất hai ẩn có hệ số phức tạp bằng công nghệ, công cụ tính toán cầm tay nào được xác định là giải pháp hỗ trợ nhanh và chính xác nhất cho học sinh Lớp 9?",
+      "generalfeedback": "Máy tính cầm tay (MTCT) có chức năng giải hệ hai phương trình bậc nhất hai ẩn (phím MODE) là công cụ hỗ trợ tính toán phổ biến.",
+      "answers": [
+        {
+          "text": "máy tính cầm tay",
+          "fraction": 100
+        }
+      ]
+    }
+  ]
+}

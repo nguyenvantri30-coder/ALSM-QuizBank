@@ -1,0 +1,474 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 17,
+    "metadata_used": {
+      "Khái niệm đa thức thu gọn": 2,
+      "YCCD_TOAN7_049": 3,
+      "YCCD_TOAN7_050": 5,
+      "Sắp xếp đa thức một biến theo số mũ giảm dần hoặc tăng dần": 2,
+      "Thu gọn đa thức một biến": 4,
+      "Sắp xếp các hạng tử của đa thức một biến": 4,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_TUCHUTUHOC": 1,
+      "NLC_GIAOTIEP": 1,
+      "NLT_TOAN_C2_01": 1,
+      "NLT_TOAN_C2_03": 2
+    },
+    "types_used": {
+      "multichoice": 10,
+      "truefalse": 2,
+      "shortanswer": 1,
+      "numerical": 1,
+      "gapselect": 2,
+      "matching": 1
+    },
+    "total": 17
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_049",
+        "reason": "Nhận biết được cách biểu diễn đa thức một biến"
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_050",
+        "reason": "Xác định được bậc của đa thức một biến"
+      },
+      {
+        "metadata_code": "Khái niệm đa thức thu gọn",
+        "reason": "Khái niệm đa thức thu gọn"
+      },
+      {
+        "metadata_code": "Sắp xếp đa thức một biến theo số mũ giảm dần hoặc tăng dần",
+        "reason": "Sắp xếp đa thức một biến theo số mũ giảm dần hoặc tăng dần"
+      },
+      {
+        "metadata_code": "Thu gọn đa thức một biến",
+        "reason": "Thu gọn đa thức một biến"
+      },
+      {
+        "metadata_code": "Sắp xếp các hạng tử của đa thức một biến",
+        "reason": "Sắp xếp các hạng tử của đa thức một biến"
+      },
+      {
+        "metadata_code": "PC_CHAMCHI",
+        "reason": "Chăm chỉ trong học tập và rèn luyện"
+      },
+      {
+        "metadata_code": "PC_TRUNGTHUC",
+        "reason": "Trung thực trong kiểm tra, đánh giá"
+      },
+      {
+        "metadata_code": "NLC_TUCHUTUHOC",
+        "reason": "Năng lực tự chủ và tự học"
+      },
+      {
+        "metadata_code": "NLC_GIAOTIEP",
+        "reason": "Năng lực giao tiếp và hợp tác"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01",
+        "reason": "Năng lực tư duy và lập luận toán học"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03",
+        "reason": "Năng lực giải quyết vấn đề toán học"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "1.3TC1a_K7",
+        "reason": "Nội dung bài học về Đa thức một biến thu gọn và Sắp xếp đa thức không chứa ngữ cảnh tự nhiên để đo lường việc tổ chức dữ liệu trong môi trường số."
+      },
+      {
+        "metadata_code": "7.C5.2_1",
+        "reason": "Bài học thuần túy về đại số cơ bản, không có bối cảnh phù hợp để tích hợp kiến thức về cơ chế học của trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm đa thức thu gọn",
+      "questiontext": "Đa thức thu gọn là đa thức một biến thỏa mãn điều kiện nào sau đây?",
+      "generalfeedback": "Theo định nghĩa trong SGK, đa thức không chứa hai đơn thức nào cùng bậc là đa thức thu gọn.",
+      "answers": [
+        {
+          "text": "Không chứa hai đơn thức nào cùng bậc",
+          "fraction": 100
+        },
+        {
+          "text": "Có chứa các đơn thức cùng bậc",
+          "fraction": 0
+        },
+        {
+          "text": "Đã được sắp xếp theo lũy thừa giảm dần của biến",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ gồm các đơn thức có hệ số dương",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm đa thức thu gọn",
+      "questiontext": "Đa thức \\(B = 2x^4 - 3x^2 + x + 1\\) là một đa thức thu gọn.",
+      "generalfeedback": "Đa thức \\(B = 2x^4 - 3x^2 + x + 1\\) không chứa hai đơn thức nào cùng bậc nên là đa thức thu gọn.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_049",
+      "questiontext": "Biểu thức nào sau đây là một đa thức một biến \\(x\\)?",
+      "generalfeedback": "\\(P(x) = -3x^4 + 5x^2 - 2x + 1\\) là biểu thức biểu diễn đa thức một biến \\(x\\).",
+      "answers": [
+        {
+          "text": "\\(P(x) = -3x^4 + 5x^2 - 2x + 1\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(Q(x, y) = 2x^2y - 3xy + 1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(R(x) = \\frac{2}{x} + 3x - 1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(H(x) = \\sqrt{x} + 2x^2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_050",
+      "questiontext": "Cho đa thức thu gọn \\(P(x) = -3x^4 + 5x^2 - 2x + 1\\). Bậc của đa thức \\(P(x)\\) là bao nhiêu?",
+      "generalfeedback": "Hạng tử có số mũ cao nhất của biến \\(x\\) là \\(-3x^4\\) (bậc 4), do đó bậc của đa thức \\(P(x)\\) là 4.",
+      "answers": [
+        {
+          "text": "4",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_050",
+      "questiontext": "Xác định bậc của đa thức thu gọn \\(A(x) = 2x^3 - 5x^2 + 7\\). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Đa thức \\(A(x)\\) có bậc bằng 3 vì số mũ lớn nhất của biến \\(x\\) là 3.",
+      "answers": [
+        {
+          "text": "3",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Sắp xếp đa thức một biến theo số mũ giảm dần hoặc tăng dần",
+      "questiontext": "Để sắp xếp đa thức một biến, người ta thường viết đa thức dưới dạng [[1]] và sắp xếp các hạng tử của nó theo lũy thừa [[2]] của biến.",
+      "generalfeedback": "Trong SGK nêu: Người ta thường viết đa thức dưới dạng thu gọn và sắp xếp các hạng tử của nó theo lũy thừa giảm của biến.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "thu gọn"
+        },
+        {
+          "group": 1,
+          "text": "chưa thu gọn"
+        },
+        {
+          "group": 1,
+          "text": "giảm"
+        },
+        {
+          "group": 1,
+          "text": "tăng"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Thu gọn đa thức một biến",
+      "questiontext": "Thu gọn đa thức \\(A = 6x^3 - 5x^2 - 4x^3 + 7\\), ta được kết quả là:",
+      "generalfeedback": "Ta nhóm các đơn thức cùng bậc: \\(A = (6x^3 - 4x^3) - 5x^2 + 7 = 2x^3 - 5x^2 + 7\\).",
+      "answers": [
+        {
+          "text": "\\(2x^3 - 5x^2 + 7\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(10x^3 - 5x^2 + 7\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2x^3 + 5x^2 + 7\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-2x^3 - 5x^2 + 7\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Thu gọn đa thức một biến",
+      "questiontext": "Thu gọn đa thức \\(P = 2x^3 - 5x^2 + 4x^3 + 4x + 9 + x\\), ta được kết quả thu gọn là:",
+      "generalfeedback": "Ta nhóm: \\(P = (2x^3 + 4x^3) - 5x^2 + (4x + x) + 9 = 6x^3 - 5x^2 + 5x + 9\\).",
+      "answers": [
+        {
+          "text": "\\(6x^3 - 5x^2 + 5x + 9\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(6x^3 - 5x^2 + 4x + 9\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2x^3 - 5x^2 + 5x + 9\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(6x^3 + 5x^2 + 5x + 9\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Sắp xếp các hạng tử của đa thức một biến",
+      "questiontext": "Sắp xếp các hạng tử của đa thức \\(A = 3x - 4x^4 + x^3\\) theo lũy thừa giảm của biến ta được:",
+      "generalfeedback": "Sắp xếp theo lũy thừa giảm của biến \\(x\\): số mũ 4 -> số mũ 3 -> số mũ 1, ta được \\(A = -4x^4 + x^3 + 3x\\).",
+      "answers": [
+        {
+          "text": "\\(A = -4x^4 + x^3 + 3x\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(A = 4x^4 + x^3 + 3x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(A = 3x + x^3 - 4x^4\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(A = -4x^4 + 3x + x^3\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Sắp xếp các hạng tử của đa thức một biến",
+      "questiontext": "Hãy ghép mỗi đa thức ở cột trái với dạng sắp xếp theo lũy thừa giảm của biến tương ứng ở cột phải:",
+      "generalfeedback": "Sắp xếp các hạng tử từ lũy thừa cao nhất đến thấp nhất của biến.",
+      "subquestions": [
+        {
+          "question": "\\(P = 5x^2 - 2x + 1 - 3x^4\\)",
+          "answer": "\\(-3x^4 + 5x^2 - 2x + 1\\)"
+        },
+        {
+          "question": "\\(A = 3x - 4x^4 + x^3\\)",
+          "answer": "\\(-4x^4 + x^3 + 3x\\)"
+        },
+        {
+          "question": "\\(B = 1 - 2x + 5x^2\\)",
+          "answer": "\\(5x^2 - 2x + 1\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Trong giờ học Toán, khi làm bài tập thu gọn đa thức \\(P = 2x^3 - 5x^2 + 4x^3 + 4x + 9 + x\\), thái độ học tập nào sau đây thể hiện phẩm chất chăm chỉ?",
+      "generalfeedback": "Thể hiện phẩm chất chăm chỉ là kiên trì tự mình thực hiện từng bước nhóm các hạng tử đồng dạng và thu gọn đa thức cẩn thận.",
+      "answers": [
+        {
+          "text": "Kiên trì tự thực hiện từng bước đổi chỗ, nhóm các hạng tử cùng bậc và tính toán cẩn thận để tìm ra kết quả đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua các bước trung gian, chép ngay đáp án của bạn bên cạnh cho nhanh",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ làm câu dễ, bỏ qua câu cần thu gọn nhiều hạng tử vì ngại tính toán",
+          "fraction": 0
+        },
+        {
+          "text": "Đợi thầy cô chữa bài rồi chép lại vào vở mà không tự suy nghĩ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Khi tự kiểm tra bài làm thu gọn đa thức của mình và phát hiện ra một tính toán bị sai, bạn Nam đã tự giác gạch đi làm lại thay vì giấu lỗi hay sửa điểm. Việc làm của Nam thể hiện phẩm chất trung thực.",
+      "generalfeedback": "Tự nhận ra và sửa chữa lỗi sai trong quá trình học tập là biểu hiện của phẩm chất trung thực.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Để tự học hiệu quả nội dung 'Sắp xếp đa thức một biến' trong SGK, học sinh nên thực hiện quy trình tự học nào sau đây?",
+      "generalfeedback": "Năng lực tự chủ và tự học thể hiện qua việc đọc hiểu lý thuyết trong SGK, phân tích ví dụ mẫu rồi tự áp dụng làm bài tập Luyện tập.",
+      "answers": [
+        {
+          "text": "Đọc kĩ phần lý thuyết và Ví dụ trong SGK, sau đó tự làm bài Luyện tập rồi đối chiếu kết quả",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ đọc phần Bài tập, tìm lời giải trên mạng để chép vào vở",
+          "fraction": 0
+        },
+        {
+          "text": "Chờ giáo viên giảng xong mới mở sách ra đọc",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ học thuộc lòng định nghĩa đa thức thu gọn mà không luyện tập sắp xếp",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_GIAOTIEP",
+      "questiontext": "Khi thảo luận nhóm về cách sắp xếp đa thức \\(P = 5x^2 - 2x + 1 - 3x^4\\), bạn An muốn sắp xếp theo lũy thừa giảm, bạn Bình muốn sắp xếp theo lũy thừa tăng. Để thể hiện năng lực giao tiếp và hợp tác, hai bạn nên [[1]] ý kiến của nhau và nhận thấy cả hai cách sắp xếp đều [[2]].",
+      "generalfeedback": "Năng lực giao tiếp và hợp tác đòi hỏi học sinh biết lắng nghe, tôn trọng ý kiến khác biệt và cùng thống nhất kết quả đúng.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "lắng nghe và tôn trọng"
+        },
+        {
+          "group": 1,
+          "text": "bác bỏ hoàn toàn"
+        },
+        {
+          "group": 1,
+          "text": "chính xác"
+        },
+        {
+          "group": 1,
+          "text": "sai quy tắc"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Bạn Hoa thực hiện thu gọn đa thức \\(A = 6x^3 - 5x^2 - 4x^3 + 7\\) như sau:\nBước 1: \\(A = (6x^3 - 4x^3) - 5x^2 + 7\\)\nBước 2: \\(A = (6 - 4)x^3 - 5x^2 + 7\\)\nBước 3: \\(A = 2x^3 - 5x^2 + 7\\)\nLập luận nào sau đây giải thích đúng cơ sở toán học của Bước 1?",
+      "generalfeedback": "Bước 1 đổi chỗ và nhóm các hạng tử cùng bậc \\(6x^3\\) và \\(-4x^3\\) dựa trên tính chất giao hoán và kết hợp của phép cộng.",
+      "answers": [
+        {
+          "text": "Dựa trên tính chất giao hoán và kết hợp để nhóm các đơn thức cùng bậc",
+          "fraction": 100
+        },
+        {
+          "text": "Dựa trên tính chất phân phối của phép nhân đối với phép cộng",
+          "fraction": 0
+        },
+        {
+          "text": "Dựa trên quy tắc chuyển tế đổi dấu trong bất đẳng thức",
+          "fraction": 0
+        },
+        {
+          "text": "Dựa trên định nghĩa về bậc của đa thức",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "questiontext": "Hai máy bơm cùng bơm nước vào một bể. Máy I bơm được \\(22\\text{ m}^3/\\text{h}\\), máy II bơm được \\(16\\text{ m}^3/\\text{h}\\). Cả hai máy cùng chạy trong \\(x\\) giờ, sau đó tắt máy I và máy II chạy thêm \\(0{,}5\\) giờ nữa thì bể đầy. Biết ban đầu bể có sẵn \\(1{,}5\\text{ m}^3\\) nước. Đa thức (biến \\(x\\)) biểu thị dung tích của bể là:",
+      "generalfeedback": "Dung tích bể = Lượng nước có sẵn + Lượng nước máy I bơm + Lượng nước máy II bơm = \\(1{,}5 + 22x + 16(x + 0{,}5) = 1{,}5 + 22x + 16x + 8 = 38x + 9{,}5\\) (m³).",
+      "answers": [
+        {
+          "text": "\\(38x + 9{,}5\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(38x + 1{,}5\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(22x + 16x + 0{,}5\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(38x + 8\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "questiontext": "Quỳnh có 100 nghìn đồng. Quỳnh mua một bộ dụng cụ học tập giá 37 nghìn đồng và một cuốn sách tham khảo môn Toán giá \\(x\\) (nghìn đồng). Đa thức (biến \\(x\\)) biểu thị số tiền Quỳnh còn lại (đơn vị: nghìn đồng) là:",
+      "generalfeedback": "Số tiền còn lại = \\(100 - (37 + x) = 100 - 37 - x = 63 - x\\) (nghìn đồng).",
+      "answers": [
+        {
+          "text": "\\(63 - x\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(100 - x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(37 + x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(63 + x\\)",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

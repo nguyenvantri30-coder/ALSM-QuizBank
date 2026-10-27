@@ -1,0 +1,680 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 26,
+    "metadata_used": {
+      "YCCD_TOAN7_039": 4,
+      "YCCD_TOAN7_040": 3,
+      "Tính chất cơ bản của tỉ lệ thức: ad = bc": 3,
+      "Tính chất đổi chỗ các ngoại tỉ và trung tỉ": 3,
+      "Vận dụng tính chất tỉ lệ thức để tìm x": 4,
+      "Lập các tỉ lệ thức từ một đẳng thức tích": 3,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_TUCHUTUHOC": 1,
+      "NLC_GIAOTIEP": 1,
+      "NLT_TOAN_C2_01": 1,
+      "NLT_TOAN_C2_03": 1
+    },
+    "types_used": {
+      "multichoice": 15,
+      "truefalse": 2,
+      "matching": 1,
+      "numerical": 3,
+      "gapselect": 2,
+      "calculatedsimple": 2,
+      "ddwtos": 1
+    }
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_039",
+        "reason": "Đo lường việc nhận biết các tính chất của tỉ lệ thức trong SGK"
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_040",
+        "reason": "Đo lường vận dụng tính chất của tỉ lệ thức trong giải toán"
+      },
+      {
+        "metadata_code": "Tính chất cơ bản của tỉ lệ thức: ad = bc",
+        "reason": "Đo lường kiến thức tính chất cơ bản ad = bc"
+      },
+      {
+        "metadata_code": "Tính chất đổi chỗ các ngoại tỉ và trung tỉ",
+        "reason": "Đo lường kiến thức tính chất đổi chỗ các ngoại tỉ và trung tỉ"
+      },
+      {
+        "metadata_code": "Vận dụng tính chất tỉ lệ thức để tìm x",
+        "reason": "Đo lường kỹ năng vận dụng tính chất tỉ lệ thức để tìm x"
+      },
+      {
+        "metadata_code": "Lập các tỉ lệ thức từ một đẳng thức tích",
+        "reason": "Đo lường kỹ năng lập các tỉ lệ thức từ một đẳng thức tích"
+      },
+      {
+        "metadata_code": "PC_CHAMCHI",
+        "reason": "Đo lường phẩm chất chăm chỉ trong học tập Toán"
+      },
+      {
+        "metadata_code": "PC_TRUNGTHUC",
+        "reason": "Đo lường phẩm chất trung thực khi kiểm tra bài Toán"
+      },
+      {
+        "metadata_code": "NLC_TUCHUTUHOC",
+        "reason": "Đo lường năng lực tự chủ và tự học khi lập bảng tỉ lệ thức"
+      },
+      {
+        "metadata_code": "NLC_GIAOTIEP",
+        "reason": "Đo lường năng lực giao tiếp và hợp tác khi thảo luận nhóm"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01",
+        "reason": "Đo lường năng lực tư duy và lập luận toán học"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03",
+        "reason": "Đo lường năng lực giải quyết vấn đề toán học"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Nội dung bài học không chứa thành tố liên quan trực tiếp đến công cụ tin học/xử lý số liệu công nghệ một cách tự nhiên."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung thuần lý thuyết và bài tập toán 7 không phù hợp để lồng ghép các khái niệm AI mà không gây gượng ép."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_039",
+      "questiontext": "Từ tỉ lệ thức \\(\\frac{a}{b} = \\frac{c}{d}\\) (với \\(a, b, c, d \\neq 0\\)), theo tính chất của tỉ lệ thức ta suy ra đẳng thức nào sau đây?",
+      "generalfeedback": "Nếu \\(\\frac{a}{b} = \\frac{c}{d}\\) thì tích các ngoại tỉ bằng tích các trung tỉ, tức là \\(ad = bc\\).",
+      "answers": [
+        {
+          "text": "\\(ad = bc\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(ac = bd\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(ab = cd\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a + d = b + c\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Tính chất cơ bản của tỉ lệ thức: ad = bc",
+      "questiontext": "Phát biểu sau đây Đúng hay Sai: \"Nếu \\(ad = bc\\) (với \\(a, b, c, d \\neq 0\\)) thì ta có tỉ lệ thức \\(\\frac{a}{b} = \\frac{c}{d}\\)\".",
+      "generalfeedback": "Đó là tính chất cơ bản của tỉ lệ thức: Nếu \\(ad = bc\\) (với \\(a, b, c, d \\neq 0\\)) thì ta có tỉ lệ thức \\(\\frac{a}{b} = \\frac{c}{d}\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Tính chất đổi chỗ các ngoại tỉ và trung tỉ",
+      "questiontext": "Hãy ghép mỗi thao tác đổi chỗ các thành phần từ tỉ lệ thức ban đầu \\(\\frac{a}{b} = \\frac{c}{d}\\) với tỉ lệ thức mới tương ứng thu được:",
+      "generalfeedback": "Áp dụng tính chất đổi chỗ các ngoại tỉ và trung tỉ:\n- Đổi chỗ hai ngoại tỉ \\(a\\) và \\(d\\) ta được \\(\\frac{d}{b} = \\frac{c}{a}\\).\n- Đổi chỗ hai trung tỉ \\(b\\) và \\(c\\) ta được \\(\\frac{a}{c} = \\frac{b}{d}\\).\n- Đổi chỗ cả hai ngoại tỉ và hai trung tỉ ta được \\(\\frac{d}{c} = \\frac{b}{a}\\).",
+      "subquestions": [
+        {
+          "question": "Đổi chỗ hai ngoại tỉ \\(a\\) và \\(d\\)",
+          "answer": "\\(\\frac{d}{b} = \\frac{c}{a}\\)"
+        },
+        {
+          "question": "Đổi chỗ hai trung tỉ \\(b\\) và \\(c\\)",
+          "answer": "\\(\\frac{a}{c} = \\frac{b}{d}\\)"
+        },
+        {
+          "question": "Đổi chỗ cả hai ngoại tỉ và hai trung tỉ",
+          "answer": "\\(\\frac{d}{c} = \\frac{b}{a}\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng tính chất tỉ lệ thức để tìm x",
+      "questiontext": "Giá trị của \\(x\\) trong tỉ lệ thức \\(\\frac{x}{6} = \\frac{-3}{4}\\) bằng bao nhiêu?",
+      "generalfeedback": "Từ \\(\\frac{x}{6} = \\frac{-3}{4}\\) suy ra \\(4x = 6 \\cdot (-3) = -18 \\Rightarrow x = \\frac{-18}{4} = -4,5\\).",
+      "answers": [
+        {
+          "text": "\\(x = -4,5\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x = 4,5\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x = -8\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x = 2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Lập các tỉ lệ thức từ một đẳng thức tích",
+      "questiontext": "Từ đẳng thức \\(2 \\cdot 6 = 3 \\cdot 4\\), tỉ lệ thức nào sau đây là **sai**?",
+      "generalfeedback": "Từ đẳng thức \\(2 \\cdot 6 = 3 \\cdot 4\\), các tỉ lệ thức đúng lập được là: \\(\\frac{2}{3} = \\frac{4}{6}\\), \\(\\frac{2}{4} = \\frac{3}{6}\\), \\(\\frac{6}{3} = \\frac{4}{2}\\), \\(\\frac{6}{4} = \\frac{3}{2}\\). Tỉ lệ thức \\(\\frac{2}{6} = \\frac{4}{3}\\) suy ra \\(2 \\cdot 3 = 6 \\cdot 4\\) (khác \\(2 \\cdot 6 = 3 \\cdot 4\\)) nên sai.",
+      "answers": [
+        {
+          "text": "\\(\\frac{2}{6} = \\frac{4}{3}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{2}{3} = \\frac{4}{6}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{2}{4} = \\frac{3}{6}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{6}{3} = \\frac{4}{2}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_040",
+      "questiontext": "Để gói 10 chiếc bánh chưng, bà Nam cần 5 kg gạo nếp. Hỏi nếu bà muốn gói 45 chiếc bánh chưng cùng loại thì cần bao nhiêu kilôgam gạo nếp? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Gọi \\(x\\) (kg) là số gạo nếp cần dùng. Ta có tỉ lệ thức \\(\\frac{10}{45} = \\frac{5}{x} \\Rightarrow x = \\frac{45 \\cdot 5}{10} = 22,5\\) (kg).",
+      "answers": [
+        {
+          "text": "22.5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Tính chất cơ bản của tỉ lệ thức: ad = bc",
+      "questiontext": "Nếu \\(\\frac{a}{b} = \\frac{c}{d}\\) thì [[1]] = [[2]].",
+      "generalfeedback": "Theo tính chất cơ bản của tỉ lệ thức, từ \\(\\frac{a}{b} = \\frac{c}{d}\\) ta có tích chéo \\(ad = bc\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "ad"
+        },
+        {
+          "group": 1,
+          "text": "bc"
+        },
+        {
+          "group": 1,
+          "text": "ab"
+        },
+        {
+          "group": 1,
+          "text": "cd"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng tính chất tỉ lệ thức để tìm x",
+      "questiontext": "Cho tỉ lệ thức có dạng tử số thứ nhất là {a}, mẫu số thứ nhất là \\(x\\), bằng tử số thứ hai là \\(15\\) và mẫu số thứ hai là \\(-20\\). Giá trị của \\(x\\) bằng bao nhiêu?",
+      "generalfeedback": "Từ tỉ lệ thức \\(\\frac{{a}}{x} = \\frac{15}{-20}\\) suy ra \\(x = \\frac{{a} \\cdot (-20)}{15} = \\frac{-4 \\cdot {a}}{3}\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 3.0,
+          "max": 15.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "(-20*{a})/15",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Lập các tỉ lệ thức từ một đẳng thức tích",
+      "questiontext": "Từ đẳng thức \\(0,2 \\cdot 4,5 = 0,6 \\cdot 1,5\\), ta lập được tỉ lệ thức có vế trái là \\(\\frac{0,2}{0,6}\\), vế phải có tử số là [[1]] và mẫu số là [[2]].",
+      "generalfeedback": "Từ \\(0,2 \\cdot 4,5 = 0,6 \\cdot 1,5\\), chia cả hai vế cho \\(0,6 \\cdot 4,5\\) ta được \\(\\frac{0,2}{0,6} = \\frac{1,5}{4,5}\\). Tương ứng vế phải có tử số là 1,5 và mẫu số là 4,5.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "1,5"
+        },
+        {
+          "group": 1,
+          "text": "4,5"
+        },
+        {
+          "group": 1,
+          "text": "0,6"
+        },
+        {
+          "group": 1,
+          "text": "0,2"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_039",
+      "questiontext": "Từ tỉ lệ thức \\(\\frac{a}{b} = \\frac{c}{d}\\) (với \\(a, b, c, d \\neq 0\\)), công thức nào sau đây để tính \\(a\\) là đúng?",
+      "generalfeedback": "Từ \\(\\frac{a}{b} = \\frac{c}{d} \\Rightarrow ad = bc \\Rightarrow a = \\frac{bc}{d}\\).",
+      "answers": [
+        {
+          "text": "\\(a = \\frac{bc}{d}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(a = \\frac{ad}{c}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a = \\frac{bd}{c}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a = \\frac{cd}{b}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Vận dụng tính chất tỉ lệ thức để tìm x",
+      "questiontext": "Tìm \\(x\\) trong tỉ lệ thức \\(\\frac{5}{x} = \\frac{15}{-20}\\).",
+      "generalfeedback": "Từ \\(\\frac{5}{x} = \\frac{15}{-20} \\Rightarrow 15x = 5 \\cdot (-20) = -100 \\Rightarrow x = \\frac{-100}{15} = -\\frac{20}{3}\\). Theo tính chất: \\(x = \\frac{5 \\cdot (-20)}{15} = -\\frac{20}{3}\\).",
+      "answers": [
+        {
+          "text": "\\(x = -\\frac{20}{3}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x = \\frac{20}{3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x = -15\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x = -6\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Lập các tỉ lệ thức từ một đẳng thức tích",
+      "questiontext": "Từ đẳng thức \\(14 \\cdot (-15) = (-10) \\cdot 21\\), tỉ lệ thức nào sau đây được lập đúng?",
+      "generalfeedback": "Từ \\(14 \\cdot (-15) = (-10) \\cdot 21\\), chia vế cho tích \\(21 \\cdot (-15)\\) ta được \\(\\frac{14}{21} = \\frac{-10}{-15}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{14}{21} = \\frac{-10}{-15}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{14}{-10} = \\frac{-15}{21}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{14}{21} = \\frac{-15}{-10}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{21}{14} = \\frac{-10}{-15}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng tính chất tỉ lệ thức để tìm x",
+      "questiontext": "Để pha nước muối sinh lí theo đúng tỉ lệ, biết rằng cứ 3 lít nước tinh khiết thì pha với 27 g muối. Hỏi nếu có 45 g muối thì cần pha với bao nhiêu lít nước tinh khiết? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Gọi \\(x\\) (lít) là số lít nước tinh khiết cần dùng. Ta có tỉ lệ thức \\(\\frac{3}{x} = \\frac{27}{45} \\Rightarrow x = \\frac{3 \\cdot 45}{27} = 5\\) (lít).",
+      "answers": [
+        {
+          "text": "5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Tính chất đổi chỗ các ngoại tỉ và trung tỉ",
+      "questiontext": "Phát biểu sau đây Đúng hay Sai: \"Từ tỉ lệ thức \\(\\frac{a}{b} = \\frac{c}{d}\\), nếu đổi chỗ hai trung tỉ \\(b\\) và \\(c\\) cho nhau ta được tỉ lệ thức mới là \\(\\frac{a}{c} = \\frac{b}{d}\\)\".",
+      "generalfeedback": "Đúng. Đổi chỗ hai trung tỉ \\(b\\) và \\(c\\) trong tỉ lệ thức \\(\\frac{a}{b} = \\frac{c}{d}\\) ta được tỉ lệ thức \\(\\frac{a}{c} = \\frac{b}{d}\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_039",
+      "questiontext": "Từ tỉ lệ thức \\(\\frac{a}{b} = \\frac{c}{d}\\) (với \\(a, b, c, d \\neq 0\\)), công thức suy ra nào sau đây là **sai**?",
+      "generalfeedback": "Các công thức đúng suy ra từ \\(\\frac{a}{b} = \\frac{c}{d}\\) là: \\(a = \\frac{bc}{d}\\), \\(b = \\frac{ad}{c}\\), \\(c = \\frac{ad}{b}\\), \\(d = \\frac{bc}{a}\\). Công thức \\(b = \\frac{ac}{d}\\) là sai.",
+      "answers": [
+        {
+          "text": "\\(b = \\frac{ac}{d}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(a = \\frac{bc}{d}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(c = \\frac{ad}{b}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(d = \\frac{bc}{a}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Tính chất đổi chỗ các ngoại tỉ và trung tỉ",
+      "questiontext": "Từ tỉ lệ thức \\(\\frac{a}{b} = \\frac{c}{d}\\), nếu đổi chỗ hai ngoại tỉ \\(a\\) và \\(d\\) ta được tỉ lệ thức [[1]] = [[2]].",
+      "generalfeedback": "Đổi chỗ hai ngoại tỉ \\(a\\) và \\(d\\) ta được tỉ lệ thức \\(\\frac{d}{b} = \\frac{c}{a}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(\\frac{d}{b}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{c}{a}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{a}{c}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{b}{d}\\)"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_040",
+      "questiontext": "Phương cùng các bạn dự định làm lá quốc kì Việt Nam hình chữ nhật có tỉ lệ chiều rộng và chiều dài là 2 : 3. Nếu chiều rộng là 14 cm thì chiều dài của lá cờ là bao nhiêu centimet? (Chỉ điền số)",
+      "generalfeedback": "Gọi \\(x\\) (cm) là chiều dài. Ta có tỉ lệ thức \\(\\frac{14}{x} = \\frac{2}{3} \\Rightarrow x = \\frac{14 \\cdot 3}{2} = 21\\) (cm).",
+      "answers": [
+        {
+          "text": "21",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_040",
+      "questiontext": "Để làm {a} chiếc bánh chưng cần 5 kg gạo nếp. Hỏi nếu muốn làm {b} chiếc bánh chưng cùng loại thì cần bao nhiêu kilôgam gạo nếp?",
+      "generalfeedback": "Gọi \\(x\\) (kg) là số gạo nếp cần dùng. Ta có \\(\\frac{{a}}{{b}} = \\frac{5}{x} \\Rightarrow x = \\frac{5 \\cdot {b}}{{a}}\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 5.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 20.0,
+          "max": 50.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "(5*{b})/{a}",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Tính chất cơ bản của tỉ lệ thức: ad = bc",
+      "questiontext": "Trong tỉ lệ thức \\(\\frac{a}{b} = \\frac{c}{d}\\), hai số \\(a\\) và \\(d\\) được gọi là các [[1]], hai số \\(b\\) và \\(c\\) được gọi là các [[2]].",
+      "generalfeedback": "Trong tỉ lệ thức \\(\\frac{a}{b} = \\frac{c}{d}\\), \\(a\\) và \\(d\\) là các ngoại tỉ, \\(b\\) và \\(c\\) là các trung tỉ.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "ngoại tỉ"
+        },
+        {
+          "group": 1,
+          "text": "trung tỉ"
+        },
+        {
+          "group": 1,
+          "text": "tỉ số"
+        },
+        {
+          "group": 1,
+          "text": "đẳng thức"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Vận dụng tính chất tỉ lệ thức để tìm x",
+      "questiontext": "Cho tỉ lệ thức \\(\\frac{x}{2} = \\frac{8}{x}\\) (với \\(x > 0\\)). Giá trị của \\(x\\) là bao nhiêu?",
+      "generalfeedback": "Áp dụng tính chất cơ bản của tỉ lệ thức: \\(\\frac{x}{2} = \\frac{8}{x} \\Rightarrow x^2 = 16\\). Vì \\(x > 0\\) nên \\(x = 4\\).",
+      "answers": [
+        {
+          "text": "\\(x = 4\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x = 8\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x = 16\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x = 2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Trong giờ học Toán về tỉ lệ thức, khi gặp một bài toán tìm \\(x\\) dưới dạng \\(\\frac{0,2}{x} = \\frac{1,5}{4,5}\\), bạn An cảm thấy lúng túng. Để thể hiện tinh thần chăm chỉ và kiên trì trong học tập, bạn An nên thực hiện hành động nào sau đây?",
+      "generalfeedback": "Thể hiện sự chăm chỉ, kiên trì là chủ động ôn lại kiến thức SGK về tính chất tỉ lệ thức và tự giác biến đổi tích chéo để tìm ra đáp số.",
+      "answers": [
+        {
+          "text": "Chủ động xem lại tính chất cơ bản \\(ad = bc\\) trong SGK và tự thực hiện biến đổi tích chéo để tìm \\(x\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài toán và chờ giáo viên chữa bài trên bảng để chép vào vở.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép ngay kết quả của bạn bên cạnh mà không cần suy nghĩ cách làm.",
+          "fraction": 0
+        },
+        {
+          "text": "Gấp sách vở lại và không tiếp tục làm bài tập.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Phát biểu sau đây thể hiện hành vi trung thực trong học tập Toán: \"Khi tự kiểm tra kết quả lập tỉ lệ thức từ đẳng thức \\(2 \\cdot 6 = 3 \\cdot 4\\), nếu phát hiện mình viết nhầm tỉ lệ thức sai \\(\\frac{2}{6} = \\frac{4}{3}\\), học sinh cần tự giác nhận sai, gạch bỏ câu sai và biến đổi lại đúng theo tính chất \\(ad = bc\\)\".",
+      "generalfeedback": "Đúng. Tự giác nhận ra sai sót và sửa lại bằng chính năng lực của mình dựa trên tính chất toán học là biểu hiện của tính trung thực trong học tập.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Để tự học hiệu quả bài 'Tính chất của tỉ lệ thức', bạn Mai lập bảng hệ thống hóa các tỉ lệ thức suy ra từ đẳng thức tích \\(ad = bc\\) (với \\(a, b, c, d \\neq 0\\)). Phương án nào sau đây thể hiện sự sắp xếp thông tin có cấu trúc và chính xác nhất?",
+      "generalfeedback": "Từ đẳng thức \\(ad = bc\\), ta lập được 4 tỉ lệ thức chuẩn: \\(\\frac{a}{b} = \\frac{c}{d}\\), \\(\\frac{a}{c} = \\frac{b}{d}\\), \\(\\frac{d}{b} = \\frac{c}{a}\\), \\(\\frac{d}{c} = \\frac{b}{a}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{a}{b} = \\frac{c}{d}\\); đổi chỗ hai trung tỉ được \\(\\frac{a}{c} = \\frac{b}{d}\\); đổi chỗ hai ngoại tỉ được \\(\\frac{d}{b} = \\frac{c}{a}\\); đổi chỗ cả hai được \\(\\frac{d}{c} = \\frac{b}{a}\\).",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{a}{b} = \\frac{c}{d}\\); đổi chỗ hai trung tỉ được \\(\\frac{a}{d} = \\frac{c}{b}\\); đổi chỗ hai ngoại tỉ được \\(\\frac{b}{a} = \\frac{d}{c}\\).",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{a}{b} = \\frac{c}{d}\\); cộng hai vế với 1 được \\(\\frac{a+1}{b} = \\frac{c+1}{d}\\).",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{a}{b} = \\frac{c}{d}\\); nhân hai vế với 2 được \\(\\frac{2a}{b} = \\frac{c}{2d}\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLC_GIAOTIEP",
+      "questiontext": "Trong thảo luận nhóm giải bài toán: 'Dùng 5 kg gạo nếp gói được 10 chiếc bánh chưng. Hỏi gói 45 chiếc bánh chưng cùng loại gửi cho người dân vùng lũ thì cần bao nhiêu kg gạo nếp?', bạn Hoa trình bày ý kiến. Cách giải thích nào sau đây thể hiện năng lực giao tiếp toán học hiệu quả và hợp tác tốt với các bạn?",
+      "generalfeedback": "Trình bày rõ ràng căn cứ toán học (tỉ lệ thức) và kết quả tính toán, đồng thời cởi mở trao đổi là biểu hiện của giao tiếp và hợp tác toán học hiệu quả.",
+      "answers": [
+        {
+          "text": "Nêu rõ lập luận: 'Gọi \\(x\\) là số kg gạo nếp, ta có tỉ lệ thức \\(\\frac{10}{45} = \\frac{5}{x}\\), suy ra \\(x = \\frac{45 \\cdot 5}{10} = 22,5\\) kg', sau đó lắng nghe góp ý của nhóm.",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ đưa ra đáp số 22,5 kg và không giải thích cách lập tỉ lệ thức khi các bạn hỏi.",
+          "fraction": 0
+        },
+        {
+          "text": "Khẳng định bài toán quá dễ và không muốn thảo luận thêm với các bạn trong nhóm.",
+          "fraction": 0
+        },
+        {
+          "text": "Đồng ý với mọi ý kiến của các bạn dù đúng hay sai mà không đưa ra chính kiến.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Để chứng minh rằng từ đẳng thức \\(3 \\cdot x = 5 \\cdot y\\) (với \\(x, y \\neq 0\\)) ta có thể suy ra tỉ lệ thức \\(\\frac{x}{5} = \\frac{y}{3}\\), lập luận nào sau đây thể hiện tư duy toán học đúng đắn nhất?",
+      "generalfeedback": "Chia cả hai vế của đẳng thức \\(3x = 5y\\) cho tích \\(3 \\cdot 5 = 15\\), ta được \\(\\frac{3x}{15} = \\frac{5y}{15}\\), rút gọn được \\(\\frac{x}{5} = \\frac{y}{3}\\).",
+      "answers": [
+        {
+          "text": "Chia cả hai vế của đẳng thức \\(3 \\cdot x = 5 \\cdot y\\) cho tích \\(3 \\cdot 5\\), ta được \\(\\frac{3x}{15} = \\frac{5y}{15}\\), từ đó rút gọn thành \\(\\frac{x}{5} = \\frac{y}{3}\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Chuyển số 3 từ vế trái sang vế phải thành \\(-3\\) và số 5 từ vế phải sang vế trái thành \\(-5\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Lấy căn bậc hai hai vế của đẳng thức \\(3x = 5y\\) rồi chuyển vế các ẩn.",
+          "fraction": 0
+        },
+        {
+          "text": "Cộng hai vế của đẳng thức với cùng một số rồi chia cho \\(x \\cdot y\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "questiontext": "Bài toán thực tế: 'Để pha nước muối sinh lí, người ta cần pha theo đúng tỉ lệ. Biết rằng cứ 3 lít nước tinh khiết thì pha với 27 g muối. Hỏi nếu có 45 g muối thì cần pha với bao nhiêu lít nước tinh khiết?'. Bước nào sau đây đóng vai trò quyết định trong quá trình giải quyết vấn đề toán học này?",
+      "generalfeedback": "Lập mô hình toán học dưới dạng tỉ lệ thức \\(\\frac{3}{x} = \\frac{27}{45}\\) là bước cốt lõi để chuyển bài toán thực tế thành bài toán toán học và giải quyết nó.",
+      "answers": [
+        {
+          "text": "Mô hình hóa tình huống thực tế thành tỉ lệ thức \\(\\frac{3}{x} = \\frac{27}{45}\\) và áp dụng tính chất \\(x = \\frac{3 \\cdot 45}{27}\\) để tìm đáp số.",
+          "fraction": 100
+        },
+        {
+          "text": "Đo thử nghiệm ngẫu nhiên các lượng nước khác nhau cho đến khi nếm thấy vừa vị.",
+          "fraction": 0
+        },
+        {
+          "text": "Cộng trực tiếp 3 lít nước với 45 g muối để ra 48.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ học thuộc lòng định nghĩa tỉ lệ thức mà không biểu diễn các đại lượng trong bài toán.",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

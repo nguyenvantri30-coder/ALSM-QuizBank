@@ -1,0 +1,1070 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 45,
+    "metadata_used": {
+      "YCCD_TOAN8_073": 2,
+      "Dấu hiệu nhận biết hình bình hành theo góc đối và hai đường chéo cắt nhau tại trung điểm mỗi đường": 2,
+      "Chứng minh tứ giác là hình bình hành bằng dấu hiệu các góc đối bằng nhau": 1,
+      "Chứng minh tứ giác là hình bình hành bằng dấu hiệu hai đường chéo cắt nhau tại trung điểm của mỗi đường": 4,
+      "Vận dụng dấu hiệu nhận biết hình bình hành để giải bài toán thực tế": 1
+    },
+    "types_used": {
+      "multichoice": 20,
+      "truefalse": 4,
+      "gapselect": 4,
+      "shortanswer": 4,
+      "matching": 5,
+      "numerical": 4,
+      "calculated": 1,
+      "calculatedsimple": 3
+    },
+    "total": 45
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN8_073",
+        "reason": "Nhận biết được dấu hiệu để một tứ giác là hình bình hành."
+      },
+      {
+        "metadata_code": "Dấu hiệu nhận biết hình bình hành theo góc đối và hai đường chéo cắt nhau tại trung điểm mỗi đường",
+        "reason": "Dấu hiệu nhận biết hình bình hành theo góc đối và hai đường chéo cắt nhau tại trung điểm mỗi đường"
+      },
+      {
+        "metadata_code": "Chứng minh tứ giác là hình bình hành bằng dấu hiệu các góc đối bằng nhau",
+        "reason": "Chứng minh tứ giác là hình bình hành bằng dấu hiệu các góc đối bằng nhau"
+      },
+      {
+        "metadata_code": "Chứng minh tứ giác là hình bình hành bằng dấu hiệu hai đường chéo cắt nhau tại trung điểm của mỗi đường",
+        "reason": "Chứng minh tứ giác là hình bình hành bằng dấu hiệu hai đường chéo cắt nhau tại trung điểm của mỗi đường"
+      },
+      {
+        "metadata_code": "Vận dụng dấu hiệu nhận biết hình bình hành để giải bài toán thực tế",
+        "reason": "Vận dụng dấu hiệu nhận biết hình bình hành để giải bài toán thực tế"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học Toán 8 về Dấu hiệu nhận biết hình bình hành theo góc và đường chéo không chứa nội dung hay bối cảnh tự nhiên liên quan đến Năng lực tin học/số"
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Bài học Toán 8 về Dấu hiệu nhận biết hình bình hành theo góc và đường chéo không chứa nội dung hay bối cảnh tự nhiên liên quan đến Năng lực AI"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_073",
+      "questiontext": "Theo dấu hiệu nhận biết về góc, tứ giác nào sau đây là hình bình hành?",
+      "generalfeedback": "Theo Định lí 3a, tứ giác có các góc đối bằng nhau là một hình bình hành.",
+      "answers": [
+        {
+          "text": "Tứ giác có các góc đối bằng nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Tứ giác có hai góc kề bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Tứ giác có tổng bốn góc bằng \\(360^\\circ\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Tứ giác có hai góc đối bù nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_073",
+      "questiontext": "Tứ giác có hai đường chéo cắt nhau tại trung điểm của mỗi đường là một hình bình hành. Khẳng định này Đúng hay Sai?",
+      "generalfeedback": "Theo Định lí 3b, tứ giác có hai đường chéo cắt nhau tại trung điểm của mỗi đường là một hình bình hành.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Dấu hiệu nhận biết hình bình hành theo góc đối và hai đường chéo cắt nhau tại trung điểm mỗi đường",
+      "questiontext": "Điền từ thích hợp vào chỗ trống để hoàn thành Định lí 3:\na) Tứ giác có các [[1]] bằng nhau là một hình bình hành.\nb) Tứ giác có hai đường chéo cắt nhau tại [[2]] của mỗi đường là một hình bình hành.",
+      "generalfeedback": "Định lí 3 phát biểu: Tứ giác có các góc đối bằng nhau là một hình bình hành; Tứ giác có hai đường chéo cắt nhau tại trung điểm của mỗi đường là một hình bình hành.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "góc đối"
+        },
+        {
+          "group": 1,
+          "text": "trung điểm"
+        },
+        {
+          "group": 1,
+          "text": "góc kề"
+        },
+        {
+          "group": 1,
+          "text": "trọng tâm"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Dấu hiệu nhận biết hình bình hành theo góc đối và hai đường chéo cắt nhau tại trung điểm mỗi đường",
+      "questiontext": "Quan sát hình vẽ dưới đây:\n[img:_page_3_Picture_19.jpeg]\nTứ giác trong hình là hình bình hành vì lý do nào sau đây?",
+      "generalfeedback": "Trong hình, hai đường chéo của tứ giác cắt nhau tại trung điểm của mỗi đường (được đánh dấu các đoạn thẳng bằng nhau tương ứng), nên theo Định lí 3b tứ giác đó là hình bình hành.",
+      "answers": [
+        {
+          "text": "Hai đường chéo cắt nhau tại trung điểm của mỗi đường",
+          "fraction": 100
+        },
+        {
+          "text": "Có các cạnh đối song song",
+          "fraction": 0
+        },
+        {
+          "text": "Có các góc đối bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Có một cặp cạnh đối vừa song song vừa bằng nhau",
+          "fraction": 0
+        }
+      ],
+      "imgs": [
+        "_page_3_Picture_19.jpeg"
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh tứ giác là hình bình hành bằng dấu hiệu các góc đối bằng nhau",
+      "questiontext": "Cho tứ giác trong hình vẽ dưới đây:\n[img:_page_3_Picture_18.jpeg]\nTứ giác này có phải là hình bình hành hay không? Vì sao?",
+      "generalfeedback": "Tứ giác này không là hình bình hành vì hai góc đối \\(A\\) và \\(C\\) không bằng nhau (\\(\\widehat{A} \\neq \\widehat{C}\\)).",
+      "answers": [
+        {
+          "text": "Không là hình bình hành vì hai góc đối \\(A\\) và \\(C\\) không bằng nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Là hình bình hành vì có hai góc kề bù nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Là hình bình hành vì tổng bốn góc bằng \\(360^\\circ\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Không là hình bình hành vì hai đường chéo vuông góc",
+          "fraction": 0
+        }
+      ],
+      "imgs": [
+        "_page_3_Picture_18.jpeg"
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh tứ giác là hình bình hành bằng dấu hiệu hai đường chéo cắt nhau tại trung điểm của mỗi đường",
+      "questiontext": "Cho tứ giác \\(ABCD\\) có hai đường chéo \\(AC\\) và \\(BD\\) cắt nhau tại \\(O\\). Biết \\(OA = OC = 3\\text{ cm}\\) và \\(OB = OD = 4\\text{ cm}\\). Tứ giác \\(ABCD\\) là hình gì?",
+      "generalfeedback": "Vì \\(OA = OC\\) và \\(OB = OD\\) nên \\(O\\) là trung điểm của cả hai đường chéo \\(AC\\) và \\(BD\\). Theo dấu hiệu nhận biết (Định lí 3b), tứ giác \\(ABCD\\) là hình bình hành.",
+      "answers": [
+        {
+          "text": "Hình bình hành",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh tứ giác là hình bình hành bằng dấu hiệu hai đường chéo cắt nhau tại trung điểm của mỗi đường",
+      "questiontext": "Hãy ghép mỗi dữ kiện về tứ giác \\(ABCD\\) có hai đường chéo \\(AC\\) và \\(BD\\) cắt nhau tại \\(O\\) ở cột bên trái với kết luận tương ứng ở cột bên phải:",
+      "generalfeedback": "Áp dụng định nghĩa và các dấu hiệu nhận biết hình bình hành (Định lí 3b) để xác định tính chất của tứ giác.",
+      "subquestions": [
+        {
+          "question": "\\(OA = OC\\) và \\(OB = OD\\)",
+          "answer": "\\(ABCD\\) là hình bình hành"
+        },
+        {
+          "question": "\\(OA = OC\\) nhưng \\(OB \\neq OD\\)",
+          "answer": "\\(ABCD\\) không phải là hình bình hành"
+        },
+        {
+          "question": "\\(ABCD\\) là hình bình hành",
+          "answer": "\\(O\\) là trung điểm của \\(AC\\) và \\(BD\\)"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh tứ giác là hình bình hành bằng dấu hiệu hai đường chéo cắt nhau tại trung điểm của mỗi đường",
+      "questiontext": "Cho tứ giác \\(ABCD\\) có hai đường chéo \\(AC\\) và \\(BD\\) cắt nhau tại \\(O\\). Biết \\(OA = 5\\text{ cm}\\), \\(OB = 7\\text{ cm}\\), \\(OD = 7\\text{ cm}\\). Để tứ giác \\(ABCD\\) là hình bình hành thì độ dài đoạn thẳng \\(OC\\) phải bằng bao nhiêu xentimét? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Để tứ giác \\(ABCD\\) là hình bình hành theo dấu hiệu hai đường chéo cắt nhau tại trung điểm của mỗi đường, ta phải có \\(OA = OC = 5\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng dấu hiệu nhận biết hình bình hành để giải bài toán thực tế",
+      "questiontext": "Xét bài toán thực tế trong hình vẽ:\n[img:_page_0_Picture_9.jpeg]\nHai con đường thẳng \\(a\\) và \\(b\\) cắt nhau, bên trong góc tạo bởi hai con đường có điểm dân cư \\(O\\). Để mở một con đường thẳng đi qua \\(O\\) cắt \\(a\\) tại \\(A\\) và cắt \\(b\\) tại \\(B\\) sao cho \\(OA = OB\\), ta áp dụng kiến thức hình học nào?",
+      "generalfeedback": "Con đường cần mở là đường chéo \\(AB\\) của hình bình hành nhận \\(O\\) làm giao điểm hai đường chéo (trung điểm của \\(AB\\)), dựa trên dấu hiệu hai đường chéo cắt nhau tại trung điểm của mỗi đường.",
+      "answers": [
+        {
+          "text": "Dựng hình bình hành có hai cạnh nằm trên \\(a, b\\) và nhận \\(O\\) làm trung điểm đường chéo",
+          "fraction": 100
+        },
+        {
+          "text": "Dựng tam giác đều có một đỉnh là \\(O\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Kẻ đường vuông góc từ \\(O\\) đến hai con đường \\(a\\) và \\(b\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Dựng đường tròn tâm \\(O\\) bán kính bất kỳ cắt \\(a\\) và \\(b\\)",
+          "fraction": 0
+        }
+      ],
+      "imgs": [
+        "_page_0_Picture_9.jpeg"
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Chứng minh tứ giác là hình bình hành bằng dấu hiệu hai đường chéo cắt nhau tại trung điểm của mỗi đường",
+      "questiontext": "Cho hai đường thẳng cắt nhau tại điểm O. Trên đường thẳng thứ nhất lấy hai điểm A và C sao cho OA = OC = {a} cm. Trên đường thẳng thứ hai lấy hai điểm B và D sao cho OB = OD = {b} cm. Độ dài đường chéo AC của hình bình hành ABCD bằng bao nhiêu cm? (Chỉ điền số)",
+      "generalfeedback": "Vì O là trung điểm của AC nên độ dài AC = OA + OC = {a} + {a} = 2*{a} cm.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 3.0,
+          "max": 12.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_073",
+      "questiontext": "Tứ giác nào sau đây chắc chắn KHÔNG PHẢI là hình bình hành?",
+      "generalfeedback": "Theo Định lí 3a, tứ giác có các góc đối bằng nhau là hình bình hành. Nếu tứ giác có các góc đối không bằng nhau thì không thỏa mãn dấu hiệu này.",
+      "answers": [
+        {
+          "text": "Tứ giác có các góc đối không bằng nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Tứ giác có các góc đối bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Tứ giác có hai đường chéo cắt nhau tại trung điểm của mỗi đường",
+          "fraction": 0
+        },
+        {
+          "text": "Tứ giác có các cạnh đối bằng nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh tứ giác là hình bình hành bằng dấu hiệu các góc đối bằng nhau",
+      "questiontext": "Cho tứ giác \\(ABCD\\) có \\(\\widehat{A} = \\widehat{C} = 100^\\circ\\) và \\(\\widehat{B} = \\widehat{D} = 80^\\circ\\). Tứ giác \\(ABCD\\) là hình bình hành. Khẳng định này Đúng hay Sai?",
+      "generalfeedback": "Tứ giác \\(ABCD\\) có các góc đối bằng nhau (\\(\\widehat{A} = \\widehat{C}\\) và \\(\\widehat{B} = \\widehat{D}\\)) nên theo Định lí 3a, tứ giác \\(ABCD\\) là hình bình hành.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh tứ giác là hình bình hành bằng dấu hiệu hai đường chéo cắt nhau tại trung điểm của mỗi đường",
+      "questiontext": "Quan sát hình vẽ dưới đây:\n[img:_page_3_Picture_17.jpeg]\nTứ giác \\(ABCD\\) trong hình là hình bình hành vì lý do nào sau đây?",
+      "generalfeedback": "Hình 3.34a có kí hiệu các cạnh đối bằng nhau (\\(AB = CD\\) và \\(AD = BC\\)), nên theo Định lí 2a tứ giác đó là hình bình hành.",
+      "answers": [
+        {
+          "text": "Có các cạnh đối bằng nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Có các góc đối bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Có hai đường chéo cắt nhau tại trung điểm của mỗi đường",
+          "fraction": 0
+        },
+        {
+          "text": "Có hai đường chéo vuông góc với nhau",
+          "fraction": 0
+        }
+      ],
+      "imgs": [
+        "_page_3_Picture_17.jpeg"
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Dấu hiệu nhận biết hình bình hành theo góc đối và hai đường chéo cắt nhau tại trung điểm mỗi đường",
+      "questiontext": "Theo Định lí 3a, tứ giác có các góc đối như thế nào thì là hình bình hành?",
+      "generalfeedback": "Định lí 3a khẳng định: Tứ giác có các góc đối bằng nhau là một hình bình hành.",
+      "answers": [
+        {
+          "text": "bằng nhau",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh tứ giác là hình bình hành bằng dấu hiệu hai đường chéo cắt nhau tại trung điểm của mỗi đường",
+      "questiontext": "Cho hai điểm \\(A, B\\) phân biệt và điểm \\(O\\) không nằm trên đường thẳng \\(AB\\). Lấy các điểm \\(A', B'\\) sao cho \\(O\\) là trung điểm của \\(AA'\\) và \\(BB'\\). Tứ giác \\(ABA'B'\\) là hình gì?",
+      "generalfeedback": "Vì \\(O\\) là trung điểm của cả hai đường chéo \\(AA'\\) và \\(BB'\\) nên theo Định lí 3b, tứ giác \\(ABA'B'\\) là hình bình hành.",
+      "answers": [
+        {
+          "text": "Hình bình hành",
+          "fraction": 100
+        },
+        {
+          "text": "Hình thang cân",
+          "fraction": 0
+        },
+        {
+          "text": "Hình chữ nhật",
+          "fraction": 0
+        },
+        {
+          "text": "Hình thoi",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh tứ giác là hình bình hành bằng dấu hiệu các góc đối bằng nhau",
+      "questiontext": "Tứ giác \\(MNPQ\\) có \\(\\widehat{M} = \\widehat{P}\\) và \\(\\widehat{N} = \\widehat{Q}\\). Theo dấu hiệu nhận biết hình bình hành theo góc, tứ giác \\(MNPQ\\) có các góc đối [[1]], do đó \\(MNPQ\\) là [[2]].",
+      "generalfeedback": "Tứ giác có các góc đối bằng nhau thì là hình bình hành (theo Định lí 3a).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "bằng nhau"
+        },
+        {
+          "group": 1,
+          "text": "hình bình hành"
+        },
+        {
+          "group": 1,
+          "text": "bù nhau"
+        },
+        {
+          "group": 1,
+          "text": "hình thang"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh tứ giác là hình bình hành bằng dấu hiệu hai đường chéo cắt nhau tại trung điểm của mỗi đường",
+      "questiontext": "Cho hình bình hành \\(ABCD\\) có hai đường chéo \\(AC\\) và \\(BD\\) cắt nhau tại \\(O\\). Nếu \\(AC = 12\\text{ cm}\\) thì độ dài đoạn thẳng \\(OA\\) bằng bao nhiêu xentimét? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Trong hình bình hành, hai đường chéo cắt nhau tại trung điểm của mỗi đường. Do đó \\(OA = \\frac{AC}{2} = \\frac{12}{2} = 6\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "6",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Chứng minh tứ giác là hình bình hành bằng dấu hiệu hai đường chéo cắt nhau tại trung điểm của mỗi đường",
+      "questiontext": "Cho tứ giác \\(MNPQ\\) có hai đường chéo \\(MP\\) và \\(NQ\\) cắt nhau tại \\(I\\). Biết IM = {x} cm, IP = {x} cm và IN = {y} cm, IQ = {y} cm. Độ dài đường chéo MP bằng bao nhiêu cm? (Chỉ điền số)",
+      "generalfeedback": "Vì \\(I\\) là trung điểm của \\(MP\\) nên \\(MP = IM + IP = {x} + {x} = 2*{x}\\text{ cm}\\).",
+      "wildcards": [
+        {
+          "name": "x",
+          "min": 3.0,
+          "max": 15.0,
+          "decimals": 0
+        },
+        {
+          "name": "y",
+          "min": 3.0,
+          "max": 15.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{x}*2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_073",
+      "questiontext": "Hãy ghép mỗi mô tả ở cột bên trái với kết luận về tứ giác tương ứng ở cột bên phải:",
+      "generalfeedback": "Căn cứ vào Định lí 3 (dấu hiệu nhận biết hình bình hành theo góc và đường chéo).",
+      "subquestions": [
+        {
+          "question": "Tứ giác có các góc đối bằng nhau",
+          "answer": "Là hình bình hành"
+        },
+        {
+          "question": "Tứ giác có hai đường chéo cắt nhau tại trung điểm mỗi đường",
+          "answer": "Là hình bình hành"
+        },
+        {
+          "question": "Tứ giác chỉ có một cặp góc đối bằng nhau, cặp góc đối còn lại không bằng nhau",
+          "answer": "Không phải là hình bình hành"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng dấu hiệu nhận biết hình bình hành để giải bài toán thực tế",
+      "questiontext": "Trong một mô hình kĩ thuật, hai thanh gạt \\(AB\\) và \\(A'B'\\) quay quanh trung điểm chung \\(O\\) cố định (tức là \\(O\\) là trung điểm của cả \\(AA'\\) và \\(BB'\\)). Nhận xét nào sau đây về đoạn thẳng \\(A'B'\\) và \\(AB\\) luôn đúng trong quá trình quay?",
+      "generalfeedback": "Vì \\(O\\) là trung điểm của cả \\(AA'\\) và \\(BB'\\) nên tứ giác \\(ABA'B'\\) luôn là hình bình hành. Theo tính chất hình bình hành, ta có \\(A'B' = AB\\) và đường thẳng \\(A'B'\\) song song với đường thẳng \\(AB\\).",
+      "answers": [
+        {
+          "text": "\\(A'B' = AB\\) và đường thẳng \\(A'B'\\) song song với đường thẳng \\(AB\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(A'B' > AB\\) và đường thẳng \\(A'B'\\) vuông góc với đường thẳng \\(AB\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(A'B' < AB\\) và đường thẳng \\(A'B'\\) cắt đường thẳng \\(AB\\) tại \\(O\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(A'B' = AB\\) và đường thẳng \\(A'B'\\) vuông góc với đường thẳng \\(AB\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_073",
+      "questiontext": "Tứ giác nào sau đây chắc chắn KHÔNG PHẢI là hình bình hành?",
+      "generalfeedback": "Theo Định lí 3a, tứ giác có các góc đối bằng nhau là hình bình hành. Nếu tứ giác có các góc đối không bằng nhau thì không thỏa mãn dấu hiệu này.",
+      "answers": [
+        {
+          "text": "Tứ giác có các góc đối không bằng nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Tứ giác có các góc đối bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Tứ giác có hai đường chéo cắt nhau tại trung điểm của mỗi đường",
+          "fraction": 0
+        },
+        {
+          "text": "Tứ giác có các cạnh đối bằng nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh tứ giác là hình bình hành bằng dấu hiệu các góc đối bằng nhau",
+      "questiontext": "Cho tứ giác \\(ABCD\\) có \\(\\widehat{A} = \\widehat{C} = 100^\\circ\\) và \\(\\widehat{B} = \\widehat{D} = 80^\\circ\\). Tứ giác \\(ABCD\\) là hình bình hành. Khẳng định này Đúng hay Sai?",
+      "generalfeedback": "Tứ giác \\(ABCD\\) có các góc đối bằng nhau (\\(\\widehat{A} = \\widehat{C}\\) và \\(\\widehat{B} = \\widehat{D}\\)) nên theo Định lí 3a, tứ giác \\(ABCD\\) là hình bình hành.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh tứ giác là hình bình hành bằng dấu hiệu hai đường chéo cắt nhau tại trung điểm của mỗi đường",
+      "questiontext": "Quan sát hình vẽ dưới đây:\n[img:_page_3_Picture_17.jpeg]\nTứ giác \\(ABCD\\) trong hình là hình bình hành vì lý do nào sau đây?",
+      "generalfeedback": "Hình 3.34a có kí hiệu các cạnh đối bằng nhau (\\(AB = CD\\) và \\(AD = BC\\)), nên theo Định lí 2a tứ giác đó là hình bình hành.",
+      "answers": [
+        {
+          "text": "Có các cạnh đối bằng nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Có các góc đối bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Có hai đường chéo cắt nhau tại trung điểm của mỗi đường",
+          "fraction": 0
+        },
+        {
+          "text": "Có hai đường chéo vuông góc với nhau",
+          "fraction": 0
+        }
+      ],
+      "imgs": [
+        "_page_3_Picture_17.jpeg"
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Dấu hiệu nhận biết hình bình hành theo góc đối và hai đường chéo cắt nhau tại trung điểm mỗi đường",
+      "questiontext": "Theo Định lí 3a, tứ giác có các góc đối như thế nào thì là hình bình hành?",
+      "generalfeedback": "Định lí 3a khẳng định: Tứ giác có các góc đối bằng nhau là một hình bình hành.",
+      "answers": [
+        {
+          "text": "bằng nhau",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh tứ giác là hình bình hành bằng dấu hiệu hai đường chéo cắt nhau tại trung điểm của mỗi đường",
+      "questiontext": "Cho hai điểm \\(A, B\\) phân biệt và điểm \\(O\\) không nằm trên đường thẳng \\(AB\\). Lấy các điểm \\(A', B'\\) sao cho \\(O\\) là trung điểm của \\(AA'\\) và \\(BB'\\). Tứ giác \\(ABA'B'\\) là hình gì?",
+      "generalfeedback": "Vì \\(O\\) là trung điểm của cả hai đường chéo \\(AA'\\) và \\(BB'\\) nên theo Định lí 3b, tứ giác \\(ABA'B'\\) là hình bình hành.",
+      "answers": [
+        {
+          "text": "Hình bình hành",
+          "fraction": 100
+        },
+        {
+          "text": "Hình thang cân",
+          "fraction": 0
+        },
+        {
+          "text": "Hình chữ nhật",
+          "fraction": 0
+        },
+        {
+          "text": "Hình thoi",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh tứ giác là hình bình hành bằng dấu hiệu các góc đối bằng nhau",
+      "questiontext": "Tứ giác \\(MNPQ\\) có \\(\\widehat{M} = \\widehat{P}\\) và \\(\\widehat{N} = \\widehat{Q}\\). Theo dấu hiệu nhận biết hình bình hành theo góc, tứ giác \\(MNPQ\\) có các góc đối [[1]], do đó \\(MNPQ\\) là [[2]].",
+      "generalfeedback": "Tứ giác có các góc đối bằng nhau thì là hình bình hành (theo Định lí 3a).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "bằng nhau"
+        },
+        {
+          "group": 1,
+          "text": "hình bình hành"
+        },
+        {
+          "group": 1,
+          "text": "bù nhau"
+        },
+        {
+          "group": 1,
+          "text": "hình thang"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh tứ giác là hình bình hành bằng dấu hiệu hai đường chéo cắt nhau tại trung điểm của mỗi đường",
+      "questiontext": "Cho hình bình hành \\(ABCD\\) có hai đường chéo \\(AC\\) và \\(BD\\) cắt nhau tại \\(O\\). Nếu \\(AC = 12\\text{ cm}\\) thì độ dài đoạn thẳng \\(OA\\) bằng bao nhiêu xentimét? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Trong hình bình hành, hai đường chéo cắt nhau tại trung điểm của mỗi đường. Do đó \\(OA = \\frac{AC}{2} = \\frac{12}{2} = 6\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "6",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Chứng minh tứ giác là hình bình hành bằng dấu hiệu hai đường chéo cắt nhau tại trung điểm của mỗi đường",
+      "questiontext": "Cho tứ giác \\(MNPQ\\) có hai đường chéo \\(MP\\) và \\(NQ\\) cắt nhau tại \\(I\\). Biết IM = {x} cm, IP = {x} cm và IN = {y} cm, IQ = {y} cm. Độ dài đường chéo \\(MP\\) bằng bao nhiêu cm? (Chỉ điền số)",
+      "generalfeedback": "Vì \\(I\\) là trung điểm của \\(MP\\) nên \\(MP = IM + IP = {x} + {x} = 2*{x}\\text{ cm}\\).",
+      "wildcards": [
+        {
+          "name": "x",
+          "min": 3.0,
+          "max": 15.0,
+          "decimals": 0
+        },
+        {
+          "name": "y",
+          "min": 3.0,
+          "max": 15.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{x}*2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_073",
+      "questiontext": "Hãy ghép mỗi mô tả ở cột bên trái với kết luận về tứ giác tương ứng ở cột bên phải:",
+      "generalfeedback": "Căn cứ vào Định lí 3 (dấu hiệu nhận biết hình bình hành theo góc và đường chéo).",
+      "subquestions": [
+        {
+          "question": "Tứ giác có các góc đối bằng nhau",
+          "answer": "Là hình bình hành"
+        },
+        {
+          "question": "Tứ giác có hai đường chéo cắt nhau tại trung điểm mỗi đường",
+          "answer": "Là hình bình hành"
+        },
+        {
+          "question": "Tứ giác chỉ có một cặp góc đối bằng nhau, cặp góc đối còn lại không bằng nhau",
+          "answer": "Không phải là hình bình hành"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng dấu hiệu nhận biết hình bình hành để giải bài toán thực tế",
+      "questiontext": "Trong một mô hình kĩ thuật, hai thanh gạt \\(AB\\) và \\(A'B'\\) quay quanh trung điểm chung \\(O\\) cố định (tức là \\(O\\) là trung điểm của cả \\(AA'\\) và \\(BB'\\)). Nhận xét nào sau đây về đoạn thẳng \\(A'B'\\) và \\(AB\\) luôn đúng trong quá trình quay?",
+      "generalfeedback": "Vì \\(O\\) là trung điểm của cả \\(AA'\\) và \\(BB'\\) nên tứ giác \\(ABA'B'\\) luôn là hình bình hành. Theo tính chất hình bình hành, ta có \\(A'B' = AB\\) và đường thẳng \\(A'B'\\) song song với đường thẳng \\(AB\\).",
+      "answers": [
+        {
+          "text": "\\(A'B' = AB\\) và đường thẳng \\(A'B'\\) song song với đường thẳng \\(AB\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(A'B' > AB\\) và đường thẳng \\(A'B'\\) vuông góc với đường thẳng \\(AB\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(A'B' < AB\\) và đường thẳng \\(A'B'\\) cắt đường thẳng \\(AB\\) tại \\(O\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(A'B' = AB\\) và đường thẳng \\(A'B'\\) vuông góc với đường thẳng \\(AB\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_073",
+      "questiontext": "Tứ giác nào sau đây chắc chắn KHÔNG PHẢI là hình bình hành?",
+      "generalfeedback": "Theo Định lí 3a, tứ giác có các góc đối bằng nhau là hình bình hành. Nếu tứ giác có các góc đối không bằng nhau thì không thỏa mãn dấu hiệu này.",
+      "answers": [
+        {
+          "text": "Tứ giác có các góc đối không bằng nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Tứ giác có các góc đối bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Tứ giác có hai đường chéo cắt nhau tại trung điểm của mỗi đường",
+          "fraction": 0
+        },
+        {
+          "text": "Tứ giác có các cạnh đối bằng nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh tứ giác là hình bình hành bằng dấu hiệu các góc đối bằng nhau",
+      "questiontext": "Cho tứ giác \\(ABCD\\) có \\(\\widehat{A} = \\widehat{C} = 100^\\circ\\) và \\(\\widehat{B} = \\widehat{D} = 80^\\circ\\). Tứ giác \\(ABCD\\) là hình bình hành. Khẳng định này Đúng hay Sai?",
+      "generalfeedback": "Tứ giác \\(ABCD\\) có các góc đối bằng nhau (\\(\\widehat{A} = \\widehat{C}\\) và \\(\\widehat{B} = \\widehat{D}\\)) nên theo Định lí 3a, tứ giác \\(ABCD\\) là hình bình hành.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh tứ giác là hình bình hành bằng dấu hiệu hai đường chéo cắt nhau tại trung điểm của mỗi đường",
+      "questiontext": "Quan sát hình vẽ dưới đây:\n[img:_page_3_Picture_17.jpeg]\nTứ giác \\(ABCD\\) trong hình là hình bình hành vì lý do nào sau đây?",
+      "generalfeedback": "Hình 3.34a có kí hiệu các cạnh đối bằng nhau (\\(AB = CD\\) và \\(AD = BC\\)), nên theo Định lí 2a tứ giác đó là hình bình hành.",
+      "answers": [
+        {
+          "text": "Có các cạnh đối bằng nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Có các góc đối bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Có hai đường chéo cắt nhau tại trung điểm của mỗi đường",
+          "fraction": 0
+        },
+        {
+          "text": "Có hai đường chéo vuông góc với nhau",
+          "fraction": 0
+        }
+      ],
+      "imgs": [
+        "_page_3_Picture_17.jpeg"
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Dấu hiệu nhận biết hình bình hành theo góc đối và hai đường chéo cắt nhau tại trung điểm mỗi đường",
+      "questiontext": "Theo Định lí 3a, tứ giác có các góc đối như thế nào thì là hình bình hành?",
+      "generalfeedback": "Định lí 3a khẳng định: Tứ giác có các góc đối bằng nhau là một hình bình hành.",
+      "answers": [
+        {
+          "text": "bằng nhau",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh tứ giác là hình bình hành bằng dấu hiệu hai đường chéo cắt nhau tại trung điểm của mỗi đường",
+      "questiontext": "Cho hai điểm \\(A, B\\) phân biệt và điểm \\(O\\) không nằm trên đường thẳng \\(AB\\). Lấy các điểm \\(A', B'\\) sao cho \\(O\\) là trung điểm của \\(AA'\\) và \\(BB'\\). Tứ giác \\(ABA'B'\\) là hình gì?",
+      "generalfeedback": "Vì \\(O\\) là trung điểm của cả hai đường chéo \\(AA'\\) và \\(BB'\\) nên theo Định lí 3b, tứ giác \\(ABA'B'\\) là hình bình hành.",
+      "answers": [
+        {
+          "text": "Hình bình hành",
+          "fraction": 100
+        },
+        {
+          "text": "Hình thang cân",
+          "fraction": 0
+        },
+        {
+          "text": "Hình chữ nhật",
+          "fraction": 0
+        },
+        {
+          "text": "Hình thoi",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh tứ giác là hình bình hành bằng dấu hiệu các góc đối bằng nhau",
+      "questiontext": "Tứ giác \\(MNPQ\\) có \\(\\widehat{M} = \\widehat{P}\\) và \\(\\widehat{N} = \\widehat{Q}\\). Theo dấu hiệu nhận biết hình bình hành theo góc, tứ giác \\(MNPQ\\) có các góc đối [[1]], do đó \\(MNPQ\\) là [[2]].",
+      "generalfeedback": "Tứ giác có các góc đối bằng nhau thì là hình bình hành (theo Định lí 3a).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "bằng nhau"
+        },
+        {
+          "group": 1,
+          "text": "hình bình hành"
+        },
+        {
+          "group": 1,
+          "text": "bù nhau"
+        },
+        {
+          "group": 1,
+          "text": "hình thang"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh tứ giác là hình bình hành bằng dấu hiệu hai đường chéo cắt nhau tại trung điểm của mỗi đường",
+      "questiontext": "Cho hình bình hành \\(ABCD\\) có hai đường chéo \\(AC\\) và \\(BD\\) cắt nhau tại \\(O\\). Nếu \\(AC = 12\\text{ cm}\\) thì độ dài đoạn thẳng \\(OA\\) bằng bao nhiêu xentimét? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Trong hình bình hành, hai đường chéo cắt nhau tại trung điểm của mỗi đường. Do đó \\(OA = \\frac{AC}{2} = \\frac{12}{2} = 6\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "6",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Chứng minh tứ giác là hình bình hành bằng dấu hiệu hai đường chéo cắt nhau tại trung điểm của mỗi đường",
+      "questiontext": "Cho tứ giác \\(MNPQ\\) có hai đường chéo \\(MP\\) và \\(NQ\\) cắt nhau tại \\(I\\). Biết IM = {x} cm, IP = {x} cm và IN = {y} cm, IQ = {y} cm. Độ dài đường chéo \\(MP\\) bằng bao nhiêu cm? (Chỉ điền số)",
+      "generalfeedback": "Vì \\(I\\) là trung điểm của \\(MP\\) nên \\(MP = IM + IP = {x} + {x} = 2*{x}\\text{ cm}\\).",
+      "wildcards": [
+        {
+          "name": "x",
+          "min": 3.0,
+          "max": 15.0,
+          "decimals": 0
+        },
+        {
+          "name": "y",
+          "min": 3.0,
+          "max": 15.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{x}*2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_073",
+      "questiontext": "Hãy ghép mỗi mô tả ở cột bên trái với kết luận về tứ giác tương ứng ở cột bên phải:",
+      "generalfeedback": "Căn cứ vào Định lí 3 (dấu hiệu nhận biết hình bình hành theo góc và đường chéo).",
+      "subquestions": [
+        {
+          "question": "Tứ giác có các góc đối bằng nhau",
+          "answer": "Là hình bình hành"
+        },
+        {
+          "question": "Tứ giác có hai đường chéo cắt nhau tại trung điểm mỗi đường",
+          "answer": "Là hình bình hành"
+        },
+        {
+          "question": "Tứ giác chỉ có một cặp góc đối bằng nhau, cặp góc đối còn lại không bằng nhau",
+          "answer": "Không phải là hình bình hành"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng dấu hiệu nhận biết hình bình hành để giải bài toán thực tế",
+      "questiontext": "Trong một mô hình kĩ thuật, hai thanh gạt \\(AB\\) và \\(A'B'\\) quay quanh trung điểm chung \\(O\\) cố định (tức là \\(O\\) là trung điểm của cả \\(AA'\\) và \\(BB'\\)). Nhận xét nào sau đây về đoạn thẳng \\(A'B'\\) và \\(AB\\) luôn đúng trong quá trình quay?",
+      "generalfeedback": "Vì \\(O\\) là trung điểm của cả \\(AA'\\) và \\(BB'\\) nên tứ giác \\(ABA'B'\\) luôn là hình bình hành. Theo tính chất hình bình hành, ta có \\(A'B' = AB\\) và đường thẳng \\(A'B'\\) song song với đường thẳng \\(AB\\).",
+      "answers": [
+        {
+          "text": "\\(A'B' = AB\\) và đường thẳng \\(A'B'\\) song song với đường thẳng \\(AB\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(A'B' > AB\\) và đường thẳng \\(A'B'\\) vuông góc với đường thẳng \\(AB\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(A'B' < AB\\) và đường thẳng \\(A'B'\\) cắt đường thẳng \\(AB\\) tại \\(O\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(A'B' = AB\\) và đường thẳng \\(A'B'\\) vuông góc với đường thẳng \\(AB\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ học nhóm về chủ đề 'Dấu hiệu nhận biết hình bình hành theo góc và đường chéo', bạn Nam gặp một bài tập chứng minh khó và chưa tìm ra cách giải. Để thể hiện sự nỗ lực vươn lên đạt kết quả tốt trong học tập (Q1), bạn Nam nên thực hiện hành động nào sau đây?",
+      "generalfeedback": "Để đạt kết quả tốt trong học tập, học sinh cần chủ động suy nghĩ, kiên trì tra cứu kiến thức về định lí dấu hiệu nhận biết hình bình hành theo góc và đường chéo, kết hợp thảo luận cùng các bạn để tự mình hiểu rõ bài toán chứ không nên bỏ qua hay chép lời giải thụ động.",
+      "answers": [
+        {
+          "text": "Chủ động xem lại các định lí về dấu hiệu nhận biết hình bình hành theo góc và đường chéo, kiên trì phân tích giả thiết và thảo luận cùng nhóm để hiểu rõ bài toán",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài tập khó đó và sao chép toàn bộ bài làm của bạn khác vào vở để kịp nộp cho giáo viên",
+          "fraction": 0
+        },
+        {
+          "text": "Nhờ bạn khác làm hộ bài tập mà không cần tìm hiểu các bước chứng minh",
+          "fraction": 0
+        },
+        {
+          "text": "Cho rằng bài toán quá khó vượt khả năng của mình nên dừng lại không tiếp tục suy nghĩ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GQVD_PHATHIEN_C2_01",
+      "questiontext": "Bạn Minh tổng hợp các dấu hiệu nhận biết hình bình hành đã học trong tiết 2 thành danh sách sau:\n(1) Tứ giác có các góc đối bằng nhau.\n(2) Tứ giác có hai đường chéo cắt nhau tại trung điểm của mỗi đường.\n(3) Tứ giác có hai góc kề bù nhau.\nKhi phân tích các thông tin trên để sắp xếp kiến thức học tập (G1), em đánh giá nhận xét nào sau đây là đúng nhất?",
+      "generalfeedback": "Khẳng định (1) và (2) là các dấu hiệu nhận biết hình bình hành đúng theo Định lí 3. Khẳng định (3) không phải là dấu hiệu nhận biết vì hai góc kề bù nhau chưa đủ điều kiện để tứ giác là hình bình hành.",
+      "answers": [
+        {
+          "text": "Khẳng định (1) và (2) đúng theo Định lí 3; khẳng định (3) không phải là dấu hiệu nhận biết hình bình hành",
+          "fraction": 100
+        },
+        {
+          "text": "Cả ba khẳng định (1), (2), (3) đều là dấu hiệu nhận biết hình bình hành đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ có khẳng định (1) đúng, khẳng định (2) và (3) đều sai",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ có khẳng định (2) đúng, khẳng định (1) và (3) đều sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_05",
+      "questiontext": "Để giải quyết bài toán chứng minh tứ giác \\(ABCD\\) có hai đường chéo \\(AC\\) và \\(BD\\) cắt nhau tại \\(O\\) là hình bình hành, bạn Hoa lập luận theo các bước:\n- Bước 1: Chứng minh \\(OA = OC\\) (\\(O\\) là trung điểm \\(AC\\)).\n- Bước 2: Chứng minh \\(OB = OD\\) (\\(O\\) là trung điểm \\(BD\\)).\n- Bước 3: Kết luận tứ giác \\(ABCD\\) là hình bình hành.\nPhân tích quy trình lập luận (D1) trên, nhận xét nào sau đây là chính xác?",
+      "generalfeedback": "Lập luận của bạn Hoa hoàn toàn hợp lý và chính xác vì dựa trên Định lí 3b: Tứ giác có hai đường chéo cắt nhau tại trung điểm của mỗi đường là một hình bình hành.",
+      "answers": [
+        {
+          "text": "Lập luận hoàn toàn hợp lý vì dựa trên dấu hiệu hai đường chéo cắt nhau tại trung điểm của mỗi đường (Định lí 3b)",
+          "fraction": 100
+        },
+        {
+          "text": "Lập luận chưa hợp lý vì thiếu bước chứng minh các cạnh đối song song",
+          "fraction": 0
+        },
+        {
+          "text": "Lập luận chưa hợp lý vì phải chứng minh các góc đối bằng nhau trước",
+          "fraction": 0
+        },
+        {
+          "text": "Lập luận sai vì hai đường chéo cắt nhau tại trung điểm không đủ để kết luận hình bình hành",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_08",
+      "questiontext": "Cho hai điểm \\(A, B\\) phân biệt và điểm \\(O\\) không nằm trên đường thẳng \\(AB\\). Gọi \\(A', B'\\) là các điểm sao cho \\(O\\) là trung điểm của \\(AA'\\) và \\(BB'\\). Lập luận nào sau đây chứng minh mệnh đề toán học (D2) '\\(A'B' = AB\\) và \\(A'B' // AB\\)' một cách ngắn gọn và chính xác nhất?",
+      "generalfeedback": "Vì \\(O\\) là trung điểm của cả \\(AA'\\) và \\(BB'\\) nên tứ giác \\(ABA'B'\\) có hai đường chéo cắt nhau tại trung điểm mỗi đường. Do đó \\(ABA'B'\\) là hình bình hành, suy ra các cạnh đối \\(A'B' = AB\\) và \\(A'B' // AB\\).",
+      "answers": [
+        {
+          "text": "Tứ giác \\(ABA'B'\\) có hai đường chéo \\(AA'\\) và \\(BB'\\) cắt nhau tại trung điểm \\(O\\) của mỗi đường nên là hình bình hành, suy ra \\(A'B' = AB\\) và \\(A'B' // AB\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Do \\(O\\) là trung điểm của \\(AA'\\) nên suy ra ngay \\(A'B' = AB\\) và \\(A'B' // AB\\) theo tính chất trung điểm",
+          "fraction": 0
+        },
+        {
+          "text": "Hai tam giác \\(OAB\\) và \\(OA'B'\\) có \\(OA = OA'\\) nên suy ra hai đường thẳng \\(A'B'\\) và \\(AB\\) song song nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Tứ giác \\(ABA'B'\\) có các góc đối bằng nhau nên các cạnh đối bằng nhau mà không cần xét đường chéo",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_05",
+      "questiontext": "Hãy nối mỗi bước lập luận giải quyết bài toán (D1) chứng minh tứ giác \\(ABCD\\) là hình bình hành theo dấu hiệu về góc ở cột bên trái với căn cứ lý thuyết tương ứng ở cột bên phải:",
+      "generalfeedback": "Căn cứ vào Định lí 3a và tổng các góc trong tứ giác để thiết lập lập luận logic chứng minh tứ giác là hình bình hành.",
+      "subquestions": [
+        {
+          "question": "Bước 1: Tính số đo các góc \\(\\widehat{A}, \\widehat{B}, \\widehat{C}, \\widehat{D}\\)",
+          "answer": "Dựa vào tính chất tổng bốn góc trong một tứ giác bằng 360 độ"
+        },
+        {
+          "question": "Bước 2: So sánh để chỉ ra \\(\\widehat{A} = \\widehat{C}\\) và \\(\\widehat{B} = \\widehat{D}\\)",
+          "answer": "Dựa vào giả thiết hoặc kết quả tính toán số đo các góc"
+        },
+        {
+          "question": "Bước 3: Kết luận \\(ABCD\\) là hình bình hành",
+          "answer": "Dựa vào Định lí 3a: Tứ giác có các góc đối bằng nhau là hình bình hành"
+        }
+      ]
+    }
+  ]
+}

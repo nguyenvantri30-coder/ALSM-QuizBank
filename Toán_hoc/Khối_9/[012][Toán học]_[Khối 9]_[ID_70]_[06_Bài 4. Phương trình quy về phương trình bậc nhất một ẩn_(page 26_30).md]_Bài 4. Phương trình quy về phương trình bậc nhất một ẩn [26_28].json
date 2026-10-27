@@ -1,0 +1,699 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 28,
+    "metadata_used": {
+      "Dạng tổng quát phương trình tích (a1x + b1)(a2x + b2) = 0": 3,
+      "Điều kiện tích bằng 0": 4,
+      "Biến đổi phương trình tích về hai phương trình bậc nhất một ẩn": 4,
+      "YCCD_TOAN9_021": 11,
+      "Phân tích đa thức thành nhân tử để giải phương trình tích": 8,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TUHOC_C2_01": 1,
+      "SUB_GQVD_DEXUAT_C2_02": 2,
+      "NLT_TOAN_C2_01_01": 1,
+      "NLT_TOAN_C2_03_05": 2
+    },
+    "types_used": {
+      "multichoice": 12,
+      "truefalse": 3,
+      "gapselect": 3,
+      "matching": 2,
+      "ddwtos": 1,
+      "numerical": 3,
+      "shortanswer": 3,
+      "calculatedsimple": 1
+    },
+    "total": 28
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN9_021",
+        "reason": "Giải phương trình tích dạng (a1x + b1)(a2x + b2) = 0"
+      },
+      {
+        "metadata_code": "Dạng tổng quát phương trình tích (a1x + b1)(a2x + b2) = 0",
+        "reason": "Dạng tổng quát phương trình tích"
+      },
+      {
+        "metadata_code": "Điều kiện tích bằng 0",
+        "reason": "Điều kiện tích bằng 0"
+      },
+      {
+        "metadata_code": "Biến đổi phương trình tích về hai phương trình bậc nhất một ẩn",
+        "reason": "Biến đổi phương trình tích về hai phương trình bậc nhất một ẩn"
+      },
+      {
+        "metadata_code": "Phân tích đa thức thành nhân tử để giải phương trình tích",
+        "reason": "Phân tích đa thức thành nhân tử để giải phương trình tích"
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Luôn cố gắng vươn lên đạt kết quả tốt trong học tập"
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+        "reason": "Tự đặt được mục tiêu học tập để nỗ lực phấn đấu thực hiện"
+      },
+      {
+        "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+        "reason": "Đề xuất được giải pháp giải quyết vấn đề"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_01",
+        "reason": "Thực hiện được các thao tác tư duy"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_05",
+        "reason": "Sử dụng được các kĩ năng toán học tương thích để giải quyết vấn đề"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N",
+        "reason": "Bài học đại số thuần túy, không có trong danh mục metadata gốc và không có ngữ cảnh công cụ số tự nhiên."
+      },
+      {
+        "metadata_code": "A",
+        "reason": "Nội dung bài học không có trong danh mục metadata gốc và không tích hợp ứng dụng AI tự nhiên."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Dạng tổng quát phương trình tích (a1x + b1)(a2x + b2) = 0",
+      "questiontext": "Phương trình nào sau đây có dạng tổng quát của phương trình tích \\((a_1x + b_1)(a_2x + b_2) = 0\\)?",
+      "generalfeedback": "Phương trình tích là phương trình có vế trái là tích của các đa thức bậc nhất, vế phải bằng 0. Do đó phương trình \\((2x + 1)(3x - 1) = 0\\) có dạng tổng quát của phương trình tích.",
+      "answers": [
+        {
+          "text": "\\((2x + 1)(3x - 1) = 0\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(2x + 1 = 3x - 1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{2x + 1}{3x - 1} = 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x^2 + 2x + 1 = 5\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Điều kiện tích bằng 0",
+      "questiontext": "Tích của hai thừa số bằng 0 khi và chỉ khi cả hai thừa số đó đồng thời bằng 0.",
+      "generalfeedback": "Tích của hai thừa số bằng 0 khi và chỉ khi ít nhất một trong hai thừa số đó bằng 0 (tức là \\(A \\cdot B = 0 \\Leftrightarrow A = 0\\) hoặc \\(B = 0\\)), do đó khẳng định trên là Sai.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Điều kiện tích bằng 0",
+      "questiontext": "Để giải phương trình tích \\((ax + b)(cx + d) = 0\\), ta giải hai phương trình \\(ax + b = 0\\) [[1]] \\(cx + d = 0\\), sau đó lấy [[3]] các nghiệm của chúng.",
+      "generalfeedback": "Quy tắc giải phương trình tích: Giải hai phương trình \\(ax + b = 0\\) hoặc \\(cx + d = 0\\), sau đó lấy tất cả các nghiệm của chúng.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "hoặc"
+        },
+        {
+          "group": 1,
+          "text": "và"
+        },
+        {
+          "group": 1,
+          "text": "tất cả"
+        },
+        {
+          "group": 1,
+          "text": "tích"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Biến đổi phương trình tích về hai phương trình bậc nhất một ẩn",
+      "questiontext": "Hãy ghép mỗi phương trình tích ở cột bên trái với hai phương trình bậc nhất tương ứng ở cột bên phải.",
+      "generalfeedback": "Phương trình tích \\(A \\cdot B = 0\\) biến đổi về hai phương trình bậc nhất một ẩn là \\(A = 0\\) hoặc \\(B = 0\\).",
+      "subquestions": [
+        {
+          "question": "\\((2x + 1)(3x - 1) = 0\\)",
+          "answer": "\\(2x + 1 = 0\\) hoặc \\(3x - 1 = 0\\)"
+        },
+        {
+          "question": "\\((3x + 1)(2 - 4x) = 0\\)",
+          "answer": "\\(3x + 1 = 0\\) hoặc \\(2 - 4x = 0\\)"
+        },
+        {
+          "question": "\\(x(x - 2) = 0\\)",
+          "answer": "\\(x = 0\\) hoặc \\(x - 2 = 0\\)"
+        },
+        {
+          "question": "\\((x + 2)(x - 1) = 0\\)",
+          "answer": "\\(x + 2 = 0\\) hoặc \\(x - 1 = 0\\)"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Biến đổi phương trình tích về hai phương trình bậc nhất một ẩn",
+      "questiontext": "Khi giải phương trình tích \\((3x + 1)(2 - 4x) = 0\\), ta đưa về hai phương trình bậc nhất là \\(3x + 1 = 0\\) (có nghiệm \\(x =\\) [[1]]) và \\(2 - 4x = 0\\) (có nghiệm \\(x =\\) [[2]]).",
+      "generalfeedback": "Phương trình \\(3x + 1 = 0 \\Leftrightarrow x = -\\frac{1}{3}\\). Phương trình \\(2 - 4x = 0 \\Leftrightarrow 4x = 2 \\Leftrightarrow x = \\frac{1}{2}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(-\\frac{1}{3}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{1}{2}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{1}{3}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(-\\frac{1}{2}\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_021",
+      "questiontext": "Tập nghiệm \\(S\\) của phương trình \\((2x + 1)(3x - 2) = 0\\) là:",
+      "generalfeedback": "Giải \\(2x + 1 = 0 \\Leftrightarrow x = -\\frac{1}{2}\\); giải \\(3x - 2 = 0 \\Leftrightarrow x = \\frac{2}{3}\\). Vậy \\(S = \\left\\{-\\frac{1}{2}; \\frac{2}{3}\\right\\}\\).",
+      "answers": [
+        {
+          "text": "\\(S = \\left\\{-\\frac{1}{2}; \\frac{2}{3}\\right\\}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(S = \\left\\{\\frac{1}{2}; -\\frac{2}{3}\\right\\}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(S = \\left\\{-\\frac{1}{2}; -\\frac{2}{3}\\right\\}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(S = \\left\\{\\frac{1}{2}; \\frac{2}{3}\\right\\}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Phân tích đa thức thành nhân tử để giải phương trình tích",
+      "questiontext": "Biến đổi phương trình \\(x^2 - x = -2x + 2\\) về dạng phương trình tích ta được phương trình nào sau đây?",
+      "generalfeedback": "Ta có: \\(x^2 - x = -2x + 2 \\Leftrightarrow x^2 - x + 2x - 2 = 0 \\Leftrightarrow x(x - 1) + 2(x - 1) = 0 \\Leftrightarrow (x + 2)(x - 1) = 0\\).",
+      "answers": [
+        {
+          "text": "\\((x + 2)(x - 1) = 0\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\((x - 2)(x - 1) = 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((x + 2)(x + 1) = 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x(x - 1) = 0\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_021",
+      "questiontext": "Tìm nghiệm dương của phương trình \\((2x + 1)^2 - 9x^2 = 0\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Biến đổi phương trình: \\((2x + 1)^2 - (3x)^2 = 0 \\Leftrightarrow (2x + 1 - 3x)(2x + 1 + 3x) = 0 \\Leftrightarrow (1 - x)(5x + 1) = 0\\). Do đó \\(x = 1\\) hoặc \\(x = -0.2\\). Nghiệm dương của phương trình là 1.",
+      "answers": [
+        {
+          "text": "1",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_021",
+      "imgs": [
+        "_page_0_Figure_15.jpeg"
+      ],
+      "questiontext": "[img:_page_0_Figure_15.jpeg]\nTrong một khu vườn hình vuông có cạnh bằng 15 m, người ta làm một lối đi xung quanh vườn có bề rộng là \\(x\\) (m). Để diện tích phần đất còn lại là 169 \\(m^2\\), bề rộng \\(x\\) của lối đi phải thỏa mãn phương trình tích nào dưới đây?",
+      "generalfeedback": "Chiều dài cạnh đất còn lại là \\(15 - 2x\\) (m). Diện tích phần đất còn lại: \\((15 - 2x)^2 = 169 \\Leftrightarrow (15 - 2x)^2 - 13^2 = 0 \\Leftrightarrow (15 - 2x - 13)(15 - 2x + 13) = 0 \\Leftrightarrow (2 - 2x)(28 - 2x) = 0\\).",
+      "answers": [
+        {
+          "text": "\\((2 - 2x)(28 - 2x) = 0\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\((15 - x)^2 = 169\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((15 - 2x)(15 + 2x) = 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((2 - x)(28 - x) = 0\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Phân tích đa thức thành nhân tử để giải phương trình tích",
+      "questiontext": "Cho phương trình \\(x^2 - 3x = 2x - 6\\). Khi phân tích đa thức hai vế thành nhân tử và chuyển vế để đưa về phương trình tích \\((x - 3)(x - a) = 0\\), giá trị của \\(a\\) là bao nhiêu?",
+      "generalfeedback": "Ta có: \\(x^2 - 3x = 2x - 6 \\Leftrightarrow x(x - 3) = 2(x - 3) \\Leftrightarrow x(x - 3) - 2(x - 3) = 0 \\Leftrightarrow (x - 3)(x - 2) = 0\\). Suy ra \\(a = 2\\).",
+      "answers": [
+        {
+          "text": "2",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Dạng tổng quát phương trình tích (a1x + b1)(a2x + b2) = 0",
+      "questiontext": "Phương trình nào sau đây KHÔNG phải là phương trình tích?",
+      "generalfeedback": "Phương trình \\(x + 1 = 0\\) là phương trình bậc nhất một ẩn, không phải là tích của các thừa số đa thức.",
+      "answers": [
+        {
+          "text": "\\(x + 1 = 0\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\((x - 1)(x + 2) = 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x(2x - 3) = 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((3x + 1)(2 - 4x) = 0\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_021",
+      "questiontext": "Tính tổng các nghiệm của phương trình \\((x - 3)(x + 5) = 0\\).",
+      "generalfeedback": "Phương trình có hai nghiệm là \\(x = 3\\) và \\(x = -5\\). Tổng các nghiệm là \\(3 + (-5) = -2\\).",
+      "answers": [
+        {
+          "text": "-2",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_021",
+      "questiontext": "Tìm nghiệm nguyên dương của phương trình \\((x^2 - 4) + x(x - 2) = 0\\). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Biến đổi phương trình: \\((x - 2)(x + 2) + x(x - 2) = 0 \\Leftrightarrow (x - 2)(2x + 2) = 0 \\Leftrightarrow x = 2\\) hoặc \\(x = -1\\). Nghiệm nguyên dương duy nhất là 2.",
+      "answers": [
+        {
+          "text": "2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_021",
+      "imgs": [
+        "_page_4_Figure_11.jpeg"
+      ],
+      "questiontext": "[img:_page_4_Figure_11.jpeg]\nBác An có một mảnh đất hình chữ nhật với chiều dài 14 m và chiều rộng 12 m. Bác dự định xây nhà trên mảnh đất đó và dành một phần diện tích đất để làm sân vườn như hình vẽ. Biết diện tích đất làm nhà là 100 \\(m^2\\). Giá trị của \\(x\\) (mét) là bao nhiêu?",
+      "generalfeedback": "Diện tích đất làm nhà là \\((14 - x)(12 - x) = 100 \\Leftrightarrow 168 - 26x + x^2 = 100 \\Leftrightarrow x^2 - 26x + 68 = 0 \\Leftrightarrow (x - 2)(x - 24) = 0\\). Vì \\(x < 12\\) nên \\(x = 2\\).",
+      "answers": [
+        {
+          "text": "2",
+          "fraction": 100
+        },
+        {
+          "text": "4",
+          "fraction": 0
+        },
+        {
+          "text": "3",
+          "fraction": 0
+        },
+        {
+          "text": "1",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Biến đổi phương trình tích về hai phương trình bậc nhất một ẩn",
+      "questiontext": "Để giải phương trình \\((2x + 1)(3x - 1) = 0\\), ta giải hai phương trình bậc nhất là \\(2x + 1 = 0\\) (thu được \\(x =\\) [[1]]) và \\(3x - 1 = 0\\) (thu được \\(x =\\) [[2]]).",
+      "generalfeedback": "Giải \\(2x + 1 = 0 \\Rightarrow x = -\\frac{1}{2}\\); giải \\(3x - 1 = 0 \\Rightarrow x = \\frac{1}{3}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(-\\frac{1}{2}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{1}{3}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{1}{2}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(-\\frac{1}{3}\\)"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Điều kiện tích bằng 0",
+      "questiontext": "Phương trình \\((x - 5)(x^2 + 1) = 0\\) có hai nghiệm thực phân biệt.",
+      "generalfeedback": "Ta có \\((x - 5)(x^2 + 1) = 0 \\Leftrightarrow x - 5 = 0\\) hoặc \\(x^2 + 1 = 0\\). Vì \\(x^2 + 1 > 0\\) với mọi \\(x\\) nên phương trình chỉ có 1 nghiệm duy nhất là \\(x = 5\\). Khẳng định trên là Sai.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Phân tích đa thức thành nhân tử để giải phương trình tích",
+      "questiontext": "Số nghiệm của phương trình \\(x(x - 2) = 0\\) là bao nhiêu?",
+      "generalfeedback": "Phương trình \\(x(x - 2) = 0\\) có hai nghiệm phân biệt là \\(x = 0\\) và \\(x = 2\\). Vậy số nghiệm là 2.",
+      "answers": [
+        {
+          "text": "2",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Phân tích đa thức thành nhân tử để giải phương trình tích",
+      "questiontext": "Giải phương trình \\(x^2 - 3x = 2x - 6\\). Tập nghiệm \\(S\\) của phương trình là:",
+      "generalfeedback": "\\(x^2 - 3x = 2x - 6 \\Leftrightarrow x(x - 3) - 2(x - 3) = 0 \\Leftrightarrow (x - 2)(x - 3) = 0 \\Leftrightarrow x = 2\\) hoặc \\(x = 3\\). Vậy \\(S = \\{2; 3\\}\\).",
+      "answers": [
+        {
+          "text": "\\(S = \\{2; 3\\}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(S = \\{-2; 3\\}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(S = \\{2; -3\\}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(S = \\{-2; -3\\}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_021",
+      "questiontext": "Cho phương trình tích \\((x - {a})(x + {b}) = 0\\) với {a} và {b} là các số nguyên dương. Tích hai nghiệm của phương trình bằng bao nhiêu?",
+      "generalfeedback": "Phương trình có hai nghiệm \\(x = {a}\\) và \\(x = -{b}\\). Tích hai nghiệm là \\({a} \\cdot (-{b}) = -{a} \\cdot {b}\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "-1*{a}*{b}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Phân tích đa thức thành nhân tử để giải phương trình tích",
+      "questiontext": "Tìm nghiệm lớn nhất của phương trình \\(x(x - 2) + 3(x - 2) = 0\\). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "\\(x(x - 2) + 3(x - 2) = 0 \\Leftrightarrow (x + 3)(x - 2) = 0 \\Leftrightarrow x = -3\\) hoặc \\(x = 2\\). Nghiệm lớn nhất là 2.",
+      "answers": [
+        {
+          "text": "2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi gặp bài toán giải phương trình \\(x^2 - x = -2x + 2\\), bạn Nam chưa tìm ra cách giải ngay do phương trình chưa ở dạng tích. Bạn Nam nên thực hiện hành động nào sau đây để thể hiện tinh thần kiên trì, vươn lên vượt khó trong học tập?",
+      "generalfeedback": "Hành vi thể hiện tinh thần kiên trì và tự học là chủ động ôn lại kiến thức phân tích đa thức thành nhân tử để đưa phương trình về dạng tích \\((x + 2)(x - 1) = 0\\) rồi tiếp tục giải.",
+      "answers": [
+        {
+          "text": "Chủ động xem lại phương pháp phân tích đa thức thành nhân tử để biến đổi phương trình về dạng tích \\((x + 2)(x - 1) = 0\\) và tiếp tục giải.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua không làm bài vì cho rằng vế phải không bằng 0 nên đề bài bị sai.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép ngay lời giải của bạn khác vào vở để kịp nộp bài cho giáo viên.",
+          "fraction": 0
+        },
+        {
+          "text": "Chờ đến giờ sửa bài trên lớp để chép đáp án mà không tự mình suy nghĩ.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Để nâng cao kết quả học tập môn Toán phần Phương trình tích (Bài 4 - Tiết 1), mục tiêu học tập nào sau đây do học sinh tự đặt ra là phù hợp và đúng trọng tâm nhất?",
+      "generalfeedback": "Mục tiêu phù hợp và thiết thực là nắm chắc cách đưa phương trình về dạng tích \\((a_1x + b_1)(a_2x + b_2) = 0\\) và giải thành thạo các phương trình đó.",
+      "answers": [
+        {
+          "text": "Nắm vững quy tắc và luyện giải thành thạo các phương trình tích dạng \\((a_1x + b_1)(a_2x + b_2) = 0\\) thông qua phân tích đa thức thành nhân tử.",
+          "fraction": 100
+        },
+        {
+          "text": "Học thuộc lòng nghiệm của tất cả các bài tập phương trình tích có trong sách giáo khoa.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ tập trung học giải phương trình chứa ẩn ở mẫu mà bỏ qua phần phương trình tích.",
+          "fraction": 0
+        },
+        {
+          "text": "Cố gắng giải bài tập thật nhanh mà không cần kiểm tra lại các bước biến đổi.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Khi giải phương trình \\((2x + 1)^2 - 9x^2 = 0\\), bạn Bình lúng túng vì vế trái là hiệu của hai bình phương. Đề xuất giải pháp nào dưới đây giúp xử lý vấn đề một cách hiệu quả nhất?",
+      "generalfeedback": "Sử dụng hằng đẳng thức hiệu hai bình phương \\(A^2 - B^2 = (A - B)(A + B)\\) với \\(A = 2x + 1\\) và \\(B = 3x\\) giúp phân tích vế trái thành tích \\((1 - x)(5x + 1) = 0\\).",
+      "answers": [
+        {
+          "text": "Áp dụng hằng đẳng thức hiệu hai bình phương \\(A^2 - B^2 = (A - B)(A + B)\\) để đưa vế trái về dạng tích \\((1 - x)(5x + 1) = 0\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Khai triển vế trái thành \\(4x^2 + 4x + 1 - 9x^2 = 0\\) rồi chia cả hai vế cho \\(x\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Chuyển \\(9x^2\\) sang vế phải rồi lấy căn bậc hai hai vế mà không xét trường hợp âm.",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ bớt hạng tử \\(9x^2\\) để phương trình trở thành phương trình bậc nhất đơn giản.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Khi quan sát hai lời giải cho phương trình \\((x - 2)(x + 3) = 0\\):\n- Lời giải 1: \\(x - 2 = 0\\) hoặc \\(x + 3 = 0\\), suy ra \\(x = 2\\) hoặc \\(x = -3\\).\n- Lời giải 2: \\(x - 2 = 0\\) và \\(x + 3 = 0\\), suy ra \\(x = 2\\) và \\(x = -3\\).\nSử dụng thao tác tư duy phân tích lập luận toán học, nhận xét nào sau đây là đúng?",
+      "generalfeedback": "Tích hai thừa số bằng 0 khi ít nhất một trong hai thừa số bằng 0 (dùng từ nối 'hoặc'). Lời giải 2 dùng từ 'và' là sai logic toán học vì ẩn \\(x\\) không thể đồng thời nhận hai giá trị khác nhau.",
+      "answers": [
+        {
+          "text": "Lời giải 1 đúng, Lời giải 2 sai vì điều kiện tích bằng 0 chỉ cần ít nhất một thừa số bằng 0 (dùng liên từ 'hoặc').",
+          "fraction": 100
+        },
+        {
+          "text": "Lời giải 2 đúng, Lời giải 1 sai vì hai thừa số phải đồng thời bằng 0 thì tích mới bằng 0.",
+          "fraction": 0
+        },
+        {
+          "text": "Cả hai lời giải đều đúng vì kết quả cuối cùng đều tìm ra hai số 2 và -3.",
+          "fraction": 0
+        },
+        {
+          "text": "Cả hai lời giải đều sai vì chưa nhân phá ngoặc vế trái thành \\(x^2 + x - 6 = 0\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "imgs": [
+        "_page_0_Figure_15.jpeg"
+      ],
+      "questiontext": "[img:_page_0_Figure_15.jpeg]\nTrong tình huống mở đầu: Một khu vườn hình vuông cạnh 15 m có lối đi xung quanh rộng \\(x\\) (m) sao cho diện tích phần đất còn lại là 169 \\(m^2\\). Kĩ năng mô hình hóa toán học nào sau đây mô tả đúng cách lập phương trình tìm \\(x\\)?",
+      "generalfeedback": "Cạnh phần đất còn lại là \\(15 - 2x\\) (m) với \\(0 < x < 7.5\\). Diện tích còn lại là \\((15 - 2x)^2 = 169\\), biến đổi thành phương trình tích \\((2 - 2x)(28 - 2x) = 0\\).",
+      "answers": [
+        {
+          "text": "Xác định chiều dài cạnh còn lại là \\(15 - 2x\\) (m), lập phương trình diện tích \\((15 - 2x)^2 = 169\\) và đưa về phương trình tích.",
+          "fraction": 100
+        },
+        {
+          "text": "Xác định chu vi phần đất còn lại và lập phương trình \\(4(15 - 2x) = 169\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Lấy diện tích toàn bộ khu vườn trừ đi \\(x\\) để có phương trình \\(225 - x = 169\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Coi bề rộng lối đi là \\(x\\) và lập phương trình bậc nhất \\(15 - x = 13\\) không cần điều kiện.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Quy trình ứng dụng kĩ năng giải quyết vấn đề toán học để giải bài toán thực tế bằng phương trình tích gồm các bước:\n- Bước 1: Chọn ẩn số và đặt [[1]] phù hợp cho ẩn.\n- Bước 2: Biểu diễn các đại lượng và lập phương trình, sau đó biến đổi về phương trình [[2]].\n- Bước 3: Giải phương trình và [[3]] nghiệm tìm được với điều kiện ban đầu.",
+      "generalfeedback": "Các bước giải bài toán thực tế: Đặt điều kiện cho ẩn -> Lập phương trình tích -> Giải và đối chiếu nghiệm.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "điều kiện"
+        },
+        {
+          "group": 1,
+          "text": "tích"
+        },
+        {
+          "group": 1,
+          "text": "đối chiếu"
+        },
+        {
+          "group": 1,
+          "text": "đơn vị"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi gặp các bài toán giải phương trình đòi hỏi biến đổi phức tạp về dạng tích, học sinh có tinh thần vươn lên trong học tập nên tự giác tìm tòi, thử nghiệm các phương pháp phân tích nhân tử thay vì từ bỏ hoặc chờ chép bài của người khác.",
+      "generalfeedback": "Chủ động tìm tòi giải quyết bài tập khó thể hiện phẩm chất chăm chỉ, tự giác và ý thức vượt khó vươn lên trong học tập.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Hãy ghép mỗi dạng phương trình ở cột bên trái với giải pháp biến đổi thích hợp ở cột bên phải để đưa về phương trình tích.",
+      "generalfeedback": "Lựa chọn đúng giải pháp phân tích nhân tử tương ứng giúp giải quyết các dạng phương trình quy về phương trình tích một cách hiệu quả.",
+      "subquestions": [
+        {
+          "question": "\\(x^2 - x = -2x + 2\\)",
+          "answer": "Chuyển vế và nhóm hạng tử \\(x(x-1) + 2(x-1) = 0\\)"
+        },
+        {
+          "question": "\\((2x+1)^2 - 9x^2 = 0\\)",
+          "answer": "Sử dụng hằng đẳng thức hiệu hai bình phương \\(A^2 - B^2 = 0\\)"
+        },
+        {
+          "question": "\\(x(x-2) + 3(x-2) = 0\\)",
+          "answer": "Đặt nhân tử chung \\((x-2)\\)"
+        }
+      ]
+    }
+  ]
+}

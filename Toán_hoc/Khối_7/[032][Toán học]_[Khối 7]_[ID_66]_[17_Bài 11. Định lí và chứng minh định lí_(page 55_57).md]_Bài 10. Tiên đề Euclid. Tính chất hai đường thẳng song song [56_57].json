@@ -1,0 +1,651 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 26,
+    "metadata_used": {
+      "Nội dung Tiên đề Euclid về đường thẳng song song": 4,
+      "Tính duy nhất của đường thẳng song song qua 1 điểm": 4,
+      "Nhận biết và phát biểu đúng Tiên đề Euclid": 4,
+      "YCCD_TOAN7_083": 4,
+      "Vẽ đường thẳng song song qua điểm ngoài đường thẳng": 2,
+      "YCCD_TOAN7_144": 2,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_TUCHUTUHOC": 1,
+      "NLC_GIAOTIEP": 1,
+      "NLT_TOAN_C2_01": 1,
+      "NLT_TOAN_C2_04": 1
+    },
+    "types_used": {
+      "multichoice": 14,
+      "truefalse": 4,
+      "gapselect": 2,
+      "numerical": 1,
+      "matching": 1,
+      "shortanswer": 2,
+      "ddwtos": 2
+    }
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_083",
+        "reason": "Bám sát định nghĩa và tính chất rút ra từ Tiên đề Euclid trong SGK"
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_144",
+        "reason": "Bám sát yêu cầu vẽ và tạo dựng đường thẳng song song"
+      },
+      {
+        "metadata_code": "Nội dung Tiên đề Euclid về đường thẳng song song",
+        "reason": "Bám sát nội dung phát biểu Tiên đề Euclid trong SGK"
+      },
+      {
+        "metadata_code": "Tính duy nhất của đường thẳng song song qua 1 điểm",
+        "reason": "Bám sát tính duy nhất của đường thẳng song song qua một điểm ngoài đường thẳng"
+      },
+      {
+        "metadata_code": "Nhận biết và phát biểu đúng Tiên đề Euclid",
+        "reason": "Bám sát kỹ năng nhận biết và phát biểu đúng Tiên đề Euclid"
+      },
+      {
+        "metadata_code": "Vẽ đường thẳng song song qua điểm ngoài đường thẳng",
+        "reason": "Bám sát kỹ năng thao tác vẽ đường thẳng song song qua điểm cho trước"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Mã không có trong METADATA_DICTIONARY của bài học và nội dung Tiên đề Euclid thuần lý thuyết hình học cổ điển, không có ngữ cảnh công cụ số tự nhiên."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Mã không có trong METADATA_DICTIONARY của bài học và nội dung bài học là định lý lý thuyết hình học, không liên quan đến ứng dụng AI."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Nội dung Tiên đề Euclid về đường thẳng song song",
+      "questiontext": "Phát biểu nào sau đây thể hiện đúng nội dung Tiên đề Euclid về đường thẳng song song?",
+      "generalfeedback": "Tiên đề Euclid khẳng định: Qua một điểm ở ngoài một đường thẳng chỉ có một đường thẳng song song với đường thẳng đó.",
+      "answers": [
+        {
+          "text": "Qua một điểm ở ngoài một đường thẳng chỉ có một đường thẳng song song với đường thẳng đó.",
+          "fraction": 100
+        },
+        {
+          "text": "Qua một điểm ở ngoài một đường thẳng có vô số đường thẳng song song với đường thẳng đó.",
+          "fraction": 0
+        },
+        {
+          "text": "Qua một điểm ở ngoài một đường thẳng có ít nhất hai đường thẳng song song với đường thẳng đó.",
+          "fraction": 0
+        },
+        {
+          "text": "Qua một điểm nằm trên một đường thẳng có duy nhất một đường thẳng song song với đường thẳng đó.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Tính duy nhất của đường thẳng song song qua 1 điểm",
+      "questiontext": "Cho điểm \\(M\\) nằm ngoài đường thẳng \\(a\\). Nếu có hai đường thẳng \\(b\\) và \\(c\\) cùng đi qua \\(M\\) và cùng song song với \\(a\\) thì đường thẳng \\(b\\) và đường thẳng \\(c\\) phải trùng nhau.",
+      "generalfeedback": "Theo Tiên đề Euclid, qua một điểm nằm ngoài một đường thẳng chỉ có duy nhất một đường thẳng song song với đường thẳng đó. Do đó đường thẳng \\(b\\) và \\(c\\) phải trùng nhau.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết và phát biểu đúng Tiên đề Euclid",
+      "questiontext": "Điền từ thích hợp vào chỗ trống để hoàn thành phát biểu Tiên đề Euclid: Qua một điểm ở [[1]] một đường thẳng chỉ có [[2]] đường thẳng song song với đường thẳng đó.",
+      "generalfeedback": "Phát biểu chính xác của Tiên đề Euclid: Qua một điểm ở ngoài một đường thẳng chỉ có một đường thẳng song song với đường thẳng đó.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "ngoài"
+        },
+        {
+          "group": 1,
+          "text": "trên"
+        },
+        {
+          "group": 1,
+          "text": "một"
+        },
+        {
+          "group": 1,
+          "text": "hai"
+        },
+        {
+          "group": 1,
+          "text": "vô số"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Tính duy nhất của đường thẳng song song qua 1 điểm",
+      "questiontext": "Qua một điểm \\(A\\) cho trước nằm ngoài đường thẳng \\(d\\), vẽ được bao nhiêu đường thẳng song song với đường thẳng \\(d\\)? (Chỉ điền số)",
+      "generalfeedback": "Theo Tiên đề Euclid, qua điểm \\(A\\) nằm ngoài đường thẳng \\(d\\) chỉ vẽ được duy nhất 1 đường thẳng song song với \\(d\\).",
+      "answers": [
+        {
+          "text": "1",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_083",
+      "questiontext": "Hãy ghép mỗi giả thiết/điều kiện ở cột bên trái với kết luận tương ứng ở cột bên phải:",
+      "generalfeedback": "Dựa vào Tiên đề Euclid và các tính chất suy ra từ Tiên đề Euclid:",
+      "subquestions": [
+        {
+          "question": "Cho điểm \\(A\\) nằm ngoài đường thẳng \\(m\\)",
+          "answer": "Chỉ có một đường thẳng qua \\(A\\) song song với \\(m\\)"
+        },
+        {
+          "question": "Đường thẳng \\(a // c\\) và \\(b // c\\) (với \\(a, b, c\\) phân biệt)",
+          "answer": "Đường thẳng \\(a\\) song song với đường thẳng \\(b\\)"
+        },
+        {
+          "question": "Cho \\(a // b\\) và đường thẳng \\(c\\) cắt đường thẳng \\(a\\)",
+          "answer": "Đường thẳng \\(c\\) cắt đường thẳng \\(b\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Vẽ đường thẳng song song qua điểm ngoài đường thẳng",
+      "questiontext": "Để vẽ đường thẳng \\(b\\) đi qua điểm \\(P\\) cho trước và song song với đường thẳng \\(a\\) (với \\(P \\notin a\\)) bằng thước và êke, ta thực hiện như thế nào?",
+      "generalfeedback": "Ta vẽ đường thẳng \\(b\\) đi qua \\(P\\) sao cho tạo với một đường thẳng cắt cả \\(a\\) và \\(b\\) hai góc đồng vị bằng nhau (hoặc hai góc so le trong bằng nhau).",
+      "answers": [
+        {
+          "text": "Vẽ đường thẳng \\(b\\) đi qua \\(P\\) sao cho tạo với một đường thẳng cắt cả \\(a\\) và \\(b\\) hai góc đồng vị bằng nhau.",
+          "fraction": 100
+        },
+        {
+          "text": "Vẽ đường thẳng \\(b\\) đi qua \\(P\\) sao cho cắt đường thẳng \\(a\\) tại một điểm bất kỳ.",
+          "fraction": 0
+        },
+        {
+          "text": "Vẽ đường thẳng \\(b\\) vuông góc với đường thẳng \\(a\\) tại điểm \\(P\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Vẽ hai đường thẳng bất kỳ cùng đi qua \\(P\\) và cắt đường thẳng \\(a\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết và phát biểu đúng Tiên đề Euclid",
+      "questiontext": "Từ còn thiếu trong phát biểu của Tiên đề Euclid: 'Qua một điểm ở ngoài một đường thẳng chỉ có ... đường thẳng song song với đường thẳng đó' là gì?",
+      "generalfeedback": "Từ cần điền là 'một'.",
+      "answers": [
+        {
+          "text": "một",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_144",
+      "questiontext": "Cho điểm \\(O\\) nằm ngoài đường thẳng \\(xy\\). Bạn Nam phát biểu rằng bạn ấy vẽ được hai đường thẳng phân biệt \\(m\\) và \\(n\\) cùng đi qua \\(O\\) và cùng song song với \\(xy\\). Phát biểu của Nam là đúng hay sai?",
+      "generalfeedback": "Phát biểu của Nam là Sai vì theo Tiên đề Euclid qua điểm \\(O\\) ngoài đường thẳng \\(xy\\) chỉ vẽ được duy nhất một đường thẳng song song với \\(xy\\).",
+      "answers": [
+        {
+          "text": "Sai",
+          "fraction": 100
+        },
+        {
+          "text": "Đúng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Nội dung Tiên đề Euclid về đường thẳng song song",
+      "questiontext": "Nếu hai đường thẳng phân biệt \\(a\\) và \\(b\\) cùng song song với đường thẳng \\(c\\) thì đường thẳng \\(a\\) [[1]] với đường thẳng \\(b\\). Nếu đường thẳng \\(d\\) cắt đường thẳng \\(a\\) thì đường thẳng \\(d\\) cũng [[2]] đường thẳng \\(b\\).",
+      "generalfeedback": "Tính chất suy ra từ Tiên đề Euclid: Hai đường thẳng phân biệt cùng song song với đường thẳng thứ ba thì song song với nhau. Một đường thẳng cắt một trong hai đường thẳng song song thì nó cũng cắt đường thẳng còn lại.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "song song"
+        },
+        {
+          "group": 1,
+          "text": "cắt"
+        },
+        {
+          "group": 1,
+          "text": "trùng"
+        },
+        {
+          "group": 1,
+          "text": "vuông góc"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_083",
+      "questiontext": "Cho ba đường thẳng phân biệt \\(a, b, c\\). Biết \\(a // b\\) và đường thẳng \\(c\\) cắt đường thẳng \\(a\\). Khẳng định nào sau đây là đúng?",
+      "generalfeedback": "Theo tính chất rút ra từ Tiên đề Euclid, nếu một đường thẳng cắt một trong hai đường thẳng song song thì nó cũng cắt đường thẳng còn lại.",
+      "answers": [
+        {
+          "text": "Đường thẳng \\(c\\) cắt đường thẳng \\(b\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Đường thẳng \\(c\\) song song với đường thẳng \\(b\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Đường thẳng \\(c\\) trùng với đường thẳng \\(b\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Đường thẳng \\(c\\) không cắt đường thẳng \\(b\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Nội dung Tiên đề Euclid về đường thẳng song song",
+      "questiontext": "Tiên đề Euclid khẳng định tính chất nào về đường thẳng song song?",
+      "generalfeedback": "Tiên đề Euclid khẳng định qua một điểm ở ngoài một đường thẳng chỉ có một đường thẳng song song với đường thẳng đó.",
+      "answers": [
+        {
+          "text": "Tính duy nhất của đường thẳng song song đi qua một điểm nằm ngoài đường thẳng cho trước.",
+          "fraction": 100
+        },
+        {
+          "text": "Tính chất hai đường thẳng vuông góc với nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Sự tồn tại của vô số đường thẳng song song đi qua một điểm.",
+          "fraction": 0
+        },
+        {
+          "text": "Tính chất hai góc so le trong bù nhau.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết và phát biểu đúng Tiên đề Euclid",
+      "questiontext": "Phát biểu sau đây đúng hay sai: 'Qua điểm \\(A\\) nằm ngoài đường thẳng \\(d\\), ta vẽ được nhiều hơn một đường thẳng song song với \\(d\\)'?",
+      "generalfeedback": "Phát biểu trên là Sai vì theo Tiên đề Euclid chỉ vẽ được duy nhất một đường thẳng song song với \\(d\\).",
+      "answers": [
+        {
+          "text": "Sai",
+          "fraction": 100
+        },
+        {
+          "text": "Đúng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tính duy nhất của đường thẳng song song qua 1 điểm",
+      "questiontext": "Cho điểm \\(A\\) không thuộc đường thẳng \\(m\\). Đường thẳng \\(n\\) đi qua \\(A\\) và song song với \\(m\\). Nếu đường thẳng \\(p\\) cũng đi qua \\(A\\) và song song với \\(m\\) thì mối quan hệ giữa \\(n\\) và \\(p\\) là gì?",
+      "generalfeedback": "Theo Tiên đề Euclid, qua điểm \\(A\\) nằm ngoài đường thẳng \\(m\\) chỉ có một đường thẳng song song với \\(m\\). Do đó đường thẳng \\(p\\) phải trùng với đường thẳng \\(n\\).",
+      "answers": [
+        {
+          "text": "Đường thẳng \\(p\\) trùng với đường thẳng \\(n\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Đường thẳng \\(p\\) cắt đường thẳng \\(n\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Đường thẳng \\(p\\) song song với đường thẳng \\(n\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Đường thẳng \\(p\\) vuông góc với đường thẳng \\(n\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_083",
+      "questiontext": "Nếu hai đường thẳng phân biệt \\(x\\) và \\(y\\) cùng song song với đường thẳng \\(z\\) thì \\(x\\) và \\(y\\) [[1]] với nhau. Nếu đường thẳng \\(t\\) cắt \\(x\\) thì \\(t\\) cũng [[2]] \\(y\\).",
+      "generalfeedback": "Từ Tiên đề Euclid ta suy ra hai đường thẳng phân biệt cùng song song với đường thẳng thứ ba thì song song với nhau, và một đường thẳng cắt một trong hai đường thẳng song song thì cắt đường thẳng còn lại.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "song song"
+        },
+        {
+          "group": 1,
+          "text": "cắt"
+        },
+        {
+          "group": 1,
+          "text": "vuông góc"
+        },
+        {
+          "group": 1,
+          "text": "trùng"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Vẽ đường thẳng song song qua điểm ngoài đường thẳng",
+      "questiontext": "Cho đường thẳng \\(a\\) và điểm \\(M\\) nằm ngoài \\(a\\). Để dựng đường thẳng \\(b\\) qua \\(M\\) song song với \\(a\\), ta có thể vẽ đường thẳng \\(c\\) đi qua \\(M\\) cắt \\(a\\) tại \\(N\\), rồi vẽ đường thẳng \\(b\\) qua \\(M\\) sao cho cặp góc so le trong \\(\\widehat{M}_1\\) và \\(\\widehat{N}_1\\) như thế nào?",
+      "generalfeedback": "Ta vẽ đường thẳng \\(b\\) sao cho cặp góc so le trong bằng nhau (\\(\\widehat{M}_1 = \\widehat{N}_1\\)), khi đó \\(b // a\\) theo dấu hiệu nhận biết hai đường thẳng song song.",
+      "answers": [
+        {
+          "text": "Bằng nhau.",
+          "fraction": 100
+        },
+        {
+          "text": "Bù nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Phụ nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Khác nhau.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Tính duy nhất của đường thẳng song song qua 1 điểm",
+      "questiontext": "Số đường thẳng đi qua một điểm cho trước nằm ngoài một đường thẳng và song song với đường thẳng đó là bao nhiêu?",
+      "generalfeedback": "Số đường thẳng là 1.",
+      "answers": [
+        {
+          "text": "1",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_083",
+      "questiontext": "Hai đường thẳng phân biệt cùng song song với đường thẳng thứ ba thì cắt nhau.",
+      "generalfeedback": "Phát biểu này là Sai vì hai đường thẳng phân biệt cùng song song với đường thẳng thứ ba thì song song với nhau.",
+      "answers": [
+        {
+          "text": "Sai",
+          "fraction": 100
+        },
+        {
+          "text": "Đúng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết và phát biểu đúng Tiên đề Euclid",
+      "questiontext": "Trong các khẳng định sau, khẳng định nào đúng khi nói về Tiên đề Euclid?",
+      "generalfeedback": "Khẳng định đúng: Qua một điểm ở ngoài một đường thẳng chỉ có một đường thẳng song song với đường thẳng đó.",
+      "answers": [
+        {
+          "text": "Qua một điểm ở ngoài một đường thẳng chỉ có một đường thẳng song song với đường thẳng đó.",
+          "fraction": 100
+        },
+        {
+          "text": "Qua một điểm nằm trên một đường thẳng có duy nhất một đường thẳng song song với đường thẳng đó.",
+          "fraction": 0
+        },
+        {
+          "text": "Nếu hai đường thẳng song song thì chúng cắt nhau tại một điểm.",
+          "fraction": 0
+        },
+        {
+          "text": "Qua một điểm ở ngoài một đường thẳng vẽ được hai đường thẳng song song với đường thẳng đó.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_144",
+      "questiontext": "Cho điểm \\(B\\) không thuộc đường thẳng \\(d\\). Bằng cách sử dụng êke, ta vẽ đường thẳng \\(d'\\) đi qua \\(B\\) sao cho \\(d'\\) tạo với một đường thẳng cắt cả \\(d\\) và \\(d'\\) hai góc đồng vị [[1]]. Theo Tiên đề Euclid, đường thẳng \\(d'\\) vừa dựng là [[2]] song song với \\(d\\) đi qua \\(B\\).",
+      "generalfeedback": "Ta vẽ hai góc đồng vị bằng nhau để có hai đường thẳng song song. Đường thẳng \\(d'\\) đó là đường thẳng duy nhất đi qua \\(B\\) và song song với \\(d\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "bằng nhau"
+        },
+        {
+          "group": 1,
+          "text": "bù nhau"
+        },
+        {
+          "group": 1,
+          "text": "duy nhất"
+        },
+        {
+          "group": 1,
+          "text": "một trong vô số"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Nội dung Tiên đề Euclid về đường thẳng song song",
+      "questiontext": "Cho đường thẳng \\(a\\) và hai điểm \\(A, B\\) cùng nằm ngoài \\(a\\). Biết đường thẳng qua \\(A\\) song song với \\(a\\) ký hiệu là \\(d_1\\), đường thẳng qua \\(B\\) song song với \\(a\\) ký hiệu là \\(d_2\\). Nếu \\(A, B\\) và \\(d_1, d_2\\) nằm sao cho \\(d_1\\) đi qua cả \\(A\\) và \\(B\\) thì mối quan hệ giữa \\(d_1\\) và \\(d_2\\) là gì?",
+      "generalfeedback": "Do \\(d_1\\) đi qua \\(B\\) và \\(d_1 // a\\), mà qua \\(B\\) chỉ có một đường thẳng song song với \\(a\\) (là \\(d_2\\)), nên \\(d_1\\) và \\(d_2\\) phải trùng nhau.",
+      "answers": [
+        {
+          "text": "Trùng nhau.",
+          "fraction": 100
+        },
+        {
+          "text": "Cắt nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Song song nhưng không trùng nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Vuông góc với nhau.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Bạn An gặp một bài toán hình học khó yêu cầu chứng minh ba điểm thẳng hàng dựa trên Tiên đề Euclid và chưa tìm ra lời giải ngay. Hành vi nào sau đây của An thể hiện đúng phẩm chất chăm chỉ?",
+      "generalfeedback": "Phẩm chất chăm chỉ được thể hiện qua sự kiên trì, tự giác đọc lại lý thuyết SGK, vẽ lại hình cẩn thận và suy nghĩ tìm lời giải trước khi nhờ sự hỗ trợ.",
+      "answers": [
+        {
+          "text": "Kiên trì đọc lại phát biểu Tiên đề Euclid trong SGK, vẽ lại hình cẩn thận và thử các hướng suy luận trước khi nhờ giáo viên hoặc bạn bè gợi ý.",
+          "fraction": 100
+        },
+        {
+          "text": "Chép ngay lời giải từ các trang giải bài tập trên mạng để nhanh chóng hoàn thành bài tập nộp cho thầy cô.",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua bài toán đó không làm nữa vì cho rằng bài quá khó so với khả năng của mình.",
+          "fraction": 0
+        },
+        {
+          "text": "Nhờ bạn học giỏi trong lớp làm hộ hoàn toàn bài toán đó để lấy điểm cao.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Trong giờ thực hành vẽ hình, khi vẽ đường thẳng đi qua điểm \\(M\\) nằm ngoài đường thẳng \\(a\\) và song song với \\(a\\), bạn Bình lỡ tay vẽ đường thẳng bị lệch cắt \\(a\\). Tuy nhiên Bình vẫn khẳng định trong bài làm là 'Đã vẽ \\(b // a\\) hoàn toàn chính xác'. Để thể hiện phẩm chất trung thực, Bình nên làm gì?",
+      "generalfeedback": "Thực hiện trung thực là nhận ra sai sót trong thực hành, không giấu giếm hay gian dối kết quả, thẳng thắn vẽ lại hình đúng quy tắc.",
+      "answers": [
+        {
+          "text": "Thẳng thắn thừa nhận hình vẽ chưa chính xác và dùng thước, êke vẽ lại đường thẳng song song đúng kĩ thuật.",
+          "fraction": 100
+        },
+        {
+          "text": "Giữ nguyên hình vẽ sai và tẩy xóa kí hiệu giao điểm để người chấm không phát hiện ra.",
+          "fraction": 0
+        },
+        {
+          "text": "Nhìn bài hình vẽ của bạn bên cạnh rồi chép lại mà không tự thực hiện lại thao tác vẽ.",
+          "fraction": 0
+        },
+        {
+          "text": "Đổ lỗi cho thước kẻ bị hỏng nên không cần phải vẽ lại hình.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Để tự học hiệu quả nội dung 'Tiên đề Euclid về đường thẳng song song', bạn Chi muốn lập kế hoạch hệ thống hóa kiến thức. Thứ tự các bước tự học nào sau đây là logic và thể hiện tính tự chủ, tự học tốt nhất?",
+      "generalfeedback": "Năng lực tự chủ và tự học được thể hiện qua việc tự sắp xếp tiến trình học tập logic: từ đọc hiểu định nghĩa/tiên đề cốt lõi -> nắm vững tính chất duy nhất -> vận dụng vào giải bài tập và suy luận.",
+      "answers": [
+        {
+          "text": "Bước 1: Đọc kĩ phát biểu Tiên đề Euclid trong SGK; Bước 2: Khắc sâu tính chất duy nhất của đường thẳng song song qua 1 điểm; Bước 3: Luyện tập vẽ hình và giải các bài tập vận dụng.",
+          "fraction": 100
+        },
+        {
+          "text": "Bước 1: Làm ngay bài tập nâng cao; Bước 2: Khi không làm được mới mở SGK đọc phát biểu Tiên đề Euclid; Bước 3: Học thuộc lòng đáp án.",
+          "fraction": 0
+        },
+        {
+          "text": "Bước 1: Chép tóm tắt bài của bạn; Bước 2: Học thuộc phát biểu Tiên đề Euclid mà không cần vẽ hình minh họa; Bước 3: Bỏ qua phần bài tập.",
+          "fraction": 0
+        },
+        {
+          "text": "Bước 1: Tìm lời giải bài tập trên mạng; Bước 2: Đọc thuộc phát biểu Tiên đề Euclid; Bước 3: Không cần ôn tập lại.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_GIAOTIEP",
+      "questiontext": "Khi thảo luận nhóm về câu hỏi: 'Cho điểm \\(P\\) nằm ngoài đường thẳng \\(d\\), có thể vẽ được bao nhiêu đường thẳng song song với \\(d\\)?', hai bạn trong nhóm đưa ra ý kiến trái chiều. Để thể hiện năng lực giao tiếp và hợp tác, em nên ứng xử như thế nào?",
+      "generalfeedback": "Năng lực giao tiếp và hợp tác thể hiện qua việc tôn trọng ý kiến tranh luận, dùng căn cứ lý thuyết chính xác (Tiên đề Euclid) để giải thích tôn trọng và thuyết phục các thành viên.",
+      "answers": [
+        {
+          "text": "Lắng nghe ý kiến các bạn, dùng phát biểu Tiên đề Euclid trong SGK và hình vẽ minh họa để giải thích rõ ràng rằng chỉ có duy nhất 1 đường thẳng song song.",
+          "fraction": 100
+        },
+        {
+          "text": "Cắt lời bạn và khẳng định ý kiến của mình đúng mà không cần đưa ra căn cứ toán học nào.",
+          "fraction": 0
+        },
+        {
+          "text": "Im lặng không tham gia thảo luận vì không muốn xảy ra tranh cãi với các bạn trong nhóm.",
+          "fraction": 0
+        },
+        {
+          "text": "Bắt các bạn phải nghe theo ý kiến của mình nếu không sẽ báo với giáo viên.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Cho điểm \\(M\\) nằm ngoài đường thẳng \\(a\\). Bạn An vẽ đường thẳng \\(b\\) đi qua \\(M\\) và \\(b // a\\). Bạn Bình cũng vẽ đường thẳng \\(c\\) đi qua \\(M\\) và \\(c // a\\). Bạn An khẳng định: 'Đường thẳng \\(b\\) và đường thẳng \\(c\\) phải trùng nhau'. Khẳng định của An dựa trên căn cứ tư duy và lập luận toán học nào?",
+      "generalfeedback": "Khẳng định hai đường thẳng song song cùng đi qua 1 điểm nằm ngoài đường thẳng cho trước phải trùng nhau là lập luận dựa trên tính duy nhất trong Tiên đề Euclid.",
+      "answers": [
+        {
+          "text": "Tiên đề Euclid về tính duy nhất của đường thẳng song song đi qua một điểm nằm ngoài đường thẳng.",
+          "fraction": 100
+        },
+        {
+          "text": "Định nghĩa hai góc kề bù có tổng số đo bằng \\(180^\\circ\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Dấu hiệu nhận biết hai đường thẳng vuông góc.",
+          "fraction": 0
+        },
+        {
+          "text": "Kết quả đo đạc bằng thước đo độ trong trường hợp cụ thể.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_04",
+      "questiontext": "Để diễn đạt chính xác phát biểu Tiên đề Euclid bằng ngôn ngữ toán học và ký hiệu toán học dưới dạng Giả thiết (GT) - Kết luận (KL), cách biểu diễn nào sau đây là chuẩn xác nhất?",
+      "generalfeedback": "Giao tiếp toán học đòi hỏi sử dụng đúng ký hiệu tập hợp, quan hệ thuộc/không thuộc và quan hệ song song giữa các đường thẳng.",
+      "answers": [
+        {
+          "text": "GT: Đường thẳng \\(a\\), điểm \\(M \\notin a\\); KL: Tồn tại duy nhất đường thẳng \\(b\\) đi qua \\(M\\) sao cho \\(b // a\\).",
+          "fraction": 100
+        },
+        {
+          "text": "GT: Đường thẳng \\(a\\), điểm \\(M \\in a\\); KL: Có vô số đường thẳng \\(b\\) đi qua \\(M\\) và \\(b // a\\).",
+          "fraction": 0
+        },
+        {
+          "text": "GT: \\(a // b\\); KL: Điểm \\(M \\in a\\) và \\(M \\in b\\).",
+          "fraction": 0
+        },
+        {
+          "text": "GT: Đường thẳng \\(a\\) và \\(b\\) cắt nhau tại \\(M\\); KL: \\(a // b\\).",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

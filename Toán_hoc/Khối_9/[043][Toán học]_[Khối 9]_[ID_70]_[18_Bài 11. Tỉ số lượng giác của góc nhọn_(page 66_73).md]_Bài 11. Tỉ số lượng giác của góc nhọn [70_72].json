@@ -1,0 +1,605 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 25,
+    "metadata_used": {
+      "Quy trình sử dụng MTCT để tính TSLG của góc nhọn và tìm góc nhọn khi biết TSLG": 5,
+      "Sử dụng MTCT tính giá trị TSLG của góc nhọn": 4,
+      "Sử dụng MTCT tìm số đo góc nhọn khi biết tỉ số lượng giác": 6,
+      "YCCD_TOAN9_064": 5,
+      "SUB_CHAMCHI_HAMHOC_C2_03": 1,
+      "SUB_TCTH_TUHOC_C2_01": 1,
+      "NLT_TOAN_C2_05_07": 2,
+      "5.2TC2b_K9": 1
+    },
+    "types_used": {
+      "multichoice": 8,
+      "truefalse": 3,
+      "gapselect": 1,
+      "ddwtos": 1,
+      "matching": 3,
+      "shortanswer": 2,
+      "numerical": 4,
+      "calculatedsimple": 1,
+      "calculatedmulti": 1,
+      "calculated": 1
+    },
+    "total": 25
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "Quy trình sử dụng MTCT để tính TSLG của góc nhọn và tìm góc nhọn khi biết TSLG",
+        "reason": "Đo lường quy trình sử dụng MTCT để tính TSLG và tìm góc nhọn khi biết TSLG"
+      },
+      {
+        "metadata_code": "Sử dụng MTCT tính giá trị TSLG của góc nhọn",
+        "reason": "Đo lường kĩ năng sử dụng MTCT tính giá trị TSLG của góc nhọn"
+      },
+      {
+        "metadata_code": "Sử dụng MTCT tìm số đo góc nhọn khi biết tỉ số lượng giác",
+        "reason": "Đo lường kĩ năng sử dụng MTCT tìm số đo góc nhọn khi biết TSLG"
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_064",
+        "reason": "Đo lường YCCĐ về tính giá trị TSLG bằng MTCT và vận dụng vào thực tế"
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_03",
+        "reason": "Đo lường ý thức vận dụng kiến thức, kĩ năng đã học vào đời sống một cách trách nhiệm và chuẩn xác"
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+        "reason": "Đo lường năng lực tự đặt mục tiêu học tập và kế hoạch nỗ lực phấn đấu"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_05_07",
+        "reason": "Đo lường năng lực sử dụng máy tính cầm tay hỗ trợ học tập và giải toán"
+      },
+      {
+        "metadata_code": "5.2TC2b_K9",
+        "reason": "Đo lường năng lực tự lựa chọn công cụ số và giải pháp công nghệ để giải quyết nhu cầu thực tế"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "A1",
+        "reason": "Không có mã metadata nhóm A trong METADATA_DICTIONARY và nội dung học thuần thao tác MTCT không đủ cơ sở để đo lường tự nhiên năng lực AI."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Quy trình sử dụng MTCT để tính TSLG của góc nhọn và tìm góc nhọn khi biết TSLG",
+      "questiontext": "Để tính \\(\\cot 35^\\circ 23'\\) trên máy tính cầm tay theo hướng dẫn trong SGK, quy trình bấm phím nào sau đây là đúng?",
+      "generalfeedback": "Theo SGK, để tính \\(\\cot 35^\\circ 23'\\), ta bấm \\(\\tan 35^\\circ 23'\\) rồi bấm phím nghịch đảo \\(x^{-1}\\) (hoặc tính \\(\\tan 54^\\circ 37'\\)).",
+      "answers": [
+        {
+          "text": "Bấm tan 3 5 °'\" 2 3 °'\" = sau đó bấm x⁻¹ =",
+          "fraction": 100
+        },
+        {
+          "text": "Bấm cos 3 5 °'\" 2 3 °'\" = sau đó bấm x⁻¹ =",
+          "fraction": 0
+        },
+        {
+          "text": "Bấm sin 3 5 °'\" 2 3 °'\" = sau đó bấm x⁻¹ =",
+          "fraction": 0
+        },
+        {
+          "text": "Bấm SHIFT tan 3 5 °'\" 2 3 °'\" =",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Quy trình sử dụng MTCT để tính TSLG của góc nhọn và tìm góc nhọn khi biết TSLG",
+      "questiontext": "Khi sử dụng máy tính cầm tay để tìm số đo góc nhọn \\(\\alpha\\) khi biết \\(\\sin \\alpha = 0,3214\\), thao tác đầu tiên cần thực hiện là bấm phím SHIFT rồi bấm phím sin.",
+      "generalfeedback": "Đúng. Để tìm góc khi biết tỉ số lượng giác sin, ta sử dụng phím SHIFT sin (tương ứng với \\(\\sin^{-1}\\)).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Quy trình sử dụng MTCT để tính TSLG của góc nhọn và tìm góc nhọn khi biết TSLG",
+      "questiontext": "Để tính \\(\\cot \\alpha\\) bằng máy tính cầm tay, ta có thể tính trực tiếp \\(\\tan \\alpha\\) rồi lấy [[1]] hoặc tính \\(\\tan\\) của góc [[2]] với góc \\(\\alpha\\).",
+      "generalfeedback": "Ta có \\(\\cot \\alpha = \\frac{1}{\\tan \\alpha}\\) (nghịch đảo) hoặc \\(\\cot \\alpha = \\tan(90^\\circ - \\alpha)\\) (sử dụng góc phụ nhau).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "nghịch đảo"
+        },
+        {
+          "group": 1,
+          "text": "phụ"
+        },
+        {
+          "group": 1,
+          "text": "bù"
+        },
+        {
+          "group": 1,
+          "text": "đối"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Quy trình sử dụng MTCT để tính TSLG của góc nhọn và tìm góc nhọn khi biết TSLG",
+      "questiontext": "Để chuyển kết quả hiển thị dạng số thập phân sang độ, phút, giây trên máy tính cầm tay, ta bấm phím [[1]]. Để tìm góc \\(\\alpha\\) biết \\(\\cos \\alpha = 0,4321\\), ta bấm phím [[2]].",
+      "generalfeedback": "Phím °'\" dùng để đổi sang độ, phút, giây. Phím SHIFT cos dùng để tìm góc khi biết giá trị côsin.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "°'\""
+        },
+        {
+          "group": 1,
+          "text": "SHIFT cos"
+        },
+        {
+          "group": 1,
+          "text": "SHIFT tan"
+        },
+        {
+          "group": 1,
+          "text": "x⁻¹"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Quy trình sử dụng MTCT để tính TSLG của góc nhọn và tìm góc nhọn khi biết TSLG",
+      "questiontext": "Ghép các phím chức năng trên máy tính cầm tay (MTCT) với công dụng tương ứng trong bài học:",
+      "generalfeedback": "Mỗi phím trên MTCT có chức năng tương ứng để tính TSLG hoặc tìm góc nhọn.",
+      "subquestions": [
+        {
+          "question": "Phím sin",
+          "answer": "Tính sin của một góc nhọn"
+        },
+        {
+          "question": "Phím SHIFT cos",
+          "answer": "Tìm số đo góc khi biết giá trị côsin"
+        },
+        {
+          "question": "Phím °'\"",
+          "answer": "Nhập hoặc hiển thị đơn vị độ, phút, giây"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Sử dụng MTCT tính giá trị TSLG của góc nhọn",
+      "questiontext": "Sử dụng máy tính cầm tay, hãy tính \\(\\sin 40^\\circ 54'\\) và làm tròn kết quả đến chữ số thập phân thứ ba.",
+      "generalfeedback": "Bấm sin 4 0 °'\" 5 4 °'\" = thu được 0,6547... Làm tròn đến chữ số thập phân thứ ba ta được 0,655.",
+      "answers": [
+        {
+          "text": "0,655",
+          "fraction": 100
+        },
+        {
+          "text": "0.655",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Sử dụng MTCT tính giá trị TSLG của góc nhọn",
+      "questiontext": "Dùng máy tính cầm tay tính giá trị \\(\\cos 52^\\circ 15'\\) (làm tròn đến chữ số thập phân thứ ba). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Bấm cos 52°15' = 0,6122... làm tròn thành 0.612.",
+      "answers": [
+        {
+          "text": "0.612",
+          "fraction": 100,
+          "tolerance": 0.001
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Sử dụng MTCT tính giá trị TSLG của góc nhọn",
+      "questiontext": "Dùng máy tính cầm tay tính \\(\\tan 69^\\circ 36'\\) và \\(\\cot 25^\\circ 18'\\) (làm tròn đến chữ số thập phân thứ ba). Kết quả thu được lần lượt là:",
+      "generalfeedback": "\\(\\tan 69^\\circ 36' \\approx 2,689\\) và \\(\\cot 25^\\circ 18' = \\frac{1}{\\tan 25^\\circ 18'} \\approx 2,116\\).",
+      "answers": [
+        {
+          "text": "2,689 và 2,116",
+          "fraction": 100
+        },
+        {
+          "text": "2,689 và 0,473",
+          "fraction": 0
+        },
+        {
+          "text": "0,372 và 2,116",
+          "fraction": 0
+        },
+        {
+          "text": "2,689 và 2,154",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Sử dụng MTCT tính giá trị TSLG của góc nhọn",
+      "questiontext": "Dùng máy tính cầm tay tính giá trị biểu thức \\(A = \\sin 27^\\circ + \\cos 32^\\circ 15' - \\tan 52^\\circ 12'\\) (làm tròn kết quả đến chữ số thập phân thứ ba). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "\\(\\sin 27^\\circ \\approx 0,454\\); \\(\\cos 32^\\circ 15' \\approx 0,846\\); \\(\\tan 52^\\circ 12' \\approx 1,289\\). Do đó \\(A \\approx 0,454 + 0,846 - 1,289 = 0,011\\).",
+      "answers": [
+        {
+          "text": "0.011",
+          "fraction": 100,
+          "tolerance": 0.002
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "thong_hieu",
+      "metadata_code": "Sử dụng MTCT tìm số đo góc nhọn khi biết tỉ số lượng giác",
+      "questiontext": "Khi dùng máy tính cầm tay tìm góc nhọn \\(\\alpha\\) biết \\(\\cot \\alpha = k\\), nếu máy tính cho kết quả số đo góc phụ \\(90^\\circ - \\alpha\\) bằng {a}°, thì số đo góc \\(\\alpha\\) bằng bao nhiêu độ?",
+      "generalfeedback": "Vì hai góc phụ nhau có tổng số đo bằng \\(90^\\circ\\), nên số đo góc \\(\\alpha = 90^\\circ - {a}^\\circ\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 15.0,
+          "max": 75.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "90 - {a}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Sử dụng MTCT tìm số đo góc nhọn khi biết tỉ số lượng giác",
+      "questiontext": "Sử dụng máy tính cầm tay, tìm số đo góc nhọn \\(\\alpha\\) (làm tròn đến phút) biết \\(\\sin \\alpha = 0,3782\\).",
+      "generalfeedback": "Bấm SHIFT sin 0 • 3 7 8 2 = thu được 22,2222... Bấm phím °'\" thu được 22°13'27,6\". Làm tròn đến phút ta được 22°13'.",
+      "answers": [
+        {
+          "text": "22°13'",
+          "fraction": 100
+        },
+        {
+          "text": "22°13",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Sử dụng MTCT tìm số đo góc nhọn khi biết tỉ số lượng giác",
+      "questiontext": "Dùng máy tính cầm tay tìm số đo góc nhọn \\(\\alpha\\) theo đơn vị độ (viết dưới dạng số thập phân, làm tròn đến 2 chữ số thập phân) biết \\(\\cos \\alpha = 0,6251\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Bấm SHIFT cos 0 • 6 2 5 1 = thu được 51,3105... Làm tròn đến 2 chữ số thập phân ta được 51.31.",
+      "answers": [
+        {
+          "text": "51.31",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Sử dụng MTCT tìm số đo góc nhọn khi biết tỉ số lượng giác",
+      "questiontext": "Dùng máy tính cầm tay tìm các góc nhọn \\(\\alpha\\) và \\(\\beta\\) (làm tròn đến phút), biết \\(\\tan \\alpha = 2,154\\) và \\(\\cot \\beta = 3,253\\). Kết quả thu được lần lượt là:",
+      "generalfeedback": "Bấm SHIFT tan 2 • 1 5 4 = thu được \\(\\alpha \\approx 65^\\circ 6'\\). Bấm SHIFT tan ( 1 ÷ 3 • 2 5 3 ) = thu được \\(\\beta \\approx 17^\\circ 5'\\).",
+      "answers": [
+        {
+          "text": "65°6' và 17°5'",
+          "fraction": 100
+        },
+        {
+          "text": "65°6' và 72°55'",
+          "fraction": 0
+        },
+        {
+          "text": "24°54' và 17°5'",
+          "fraction": 0
+        },
+        {
+          "text": "65°6' và 17°55'",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Sử dụng MTCT tìm số đo góc nhọn khi biết tỉ số lượng giác",
+      "questiontext": "Để tìm góc nhọn \\(\\alpha\\) khi biết \\(\\cot \\alpha = 3,253\\) bằng máy tính cầm tay, ta có thể tìm góc phụ \\(90^\\circ - \\alpha\\) bằng cách bấm SHIFT tan 3 • 2 5 3 = rồi lấy \\(90^\\circ\\) trừ đi kết quả đó.",
+      "generalfeedback": "Đúng. Vì \\(\\tan(90^\\circ - \\alpha) = \\cot \\alpha = 3,253\\), ta bấm SHIFT tan 3 • 2 5 3 = để được góc phụ \\(90^\\circ - \\alpha\\), từ đó suy ra góc \\(\\alpha\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "thong_hieu",
+      "metadata_code": "Sử dụng MTCT tìm số đo góc nhọn khi biết tỉ số lượng giác",
+      "questiontext": "Trong một tam giác vuông, nếu biết tỉ số lượng giác sin của góc nhọn alpha bằng {a}/10 với {a} là biến số, công thức tính số đo góc phụ 90° - alpha (theo đơn vị radian) là:",
+      "generalfeedback": "Góc phụ \\(\\beta = 90^\\circ - \\alpha\\) có \\(\\cos \\beta = \\sin \\alpha = {a}/10\\), do đó \\(\\beta = \\arccos({a}/10)\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 9.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "asin({a}/10)",
+          "fraction": 0
+        },
+        {
+          "text": "acos({a}/10)",
+          "fraction": 100
+        },
+        {
+          "text": "atan({a}/10)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_064",
+      "questiontext": "Trong một tòa nhà chung cư, đoạn dốc vào sảnh dài \\(4\\text{ m}\\), độ cao của đỉnh dốc so với mặt đường nằm ngang là \\(0,4\\text{ m}\\). Sử dụng máy tính cầm tay tính góc dốc \\(\\alpha\\) (làm tròn đến phút) và cho biết góc dốc đó có đạt tiêu chuẩn bé hơn \\(6^\\circ\\) cho người đi xe lăn hay không?",
+      "generalfeedback": "Ta có \\(\\sin \\alpha = \\frac{0,4}{4} = 0,1\\). Dùng MTCT bấm SHIFT sin 0 • 1 = thu được \\(\\alpha \\approx 5^\\circ 44'\\). Vì \\(5^\\circ 44' < 6^\\circ\\) nên dốc đạt đúng tiêu chuẩn.",
+      "answers": [
+        {
+          "text": "Góc dốc bằng 5°44', đạt đúng tiêu chuẩn cho người đi xe lăn.",
+          "fraction": 100
+        },
+        {
+          "text": "Góc dốc bằng 5°44', không đạt tiêu chuẩn cho người đi xe lăn.",
+          "fraction": 0
+        },
+        {
+          "text": "Góc dốc bằng 6°15', không đạt tiêu chuẩn cho người đi xe lăn.",
+          "fraction": 0
+        },
+        {
+          "text": "Góc dốc bằng 5°30', đạt đúng tiêu chuẩn cho người đi xe lăn.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_064",
+      "questiontext": "Để tính khoảng cách giữa hai điểm A và B ở hai bên bờ sông, người ta chọn điểm C sao cho tam giác ABC vuông tại B, đo được \\(\\widehat{ACB} = 55^\\circ\\) và \\(BC = 70\\text{ m}\\). Sử dụng máy tính cầm tay, tính khoảng cách AB (làm tròn đến chữ số thập phân thứ nhất). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Xét tam giác ABC vuông tại B, ta có \\(AB = BC \\cdot \\tan C = 70 \\cdot \\tan 55^\\circ \\approx 70 \\cdot 1,42815 = 99,97... \\approx 100.0\\text{ m}\\).",
+      "answers": [
+        {
+          "text": "100.0",
+          "fraction": 100,
+          "tolerance": 0.2
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_064",
+      "questiontext": "Một đoạn dốc có chiều dài {a} m và góc dốc là {b}°. Công thức tính độ cao h của đỉnh dốc (theo đơn vị mét) là:",
+      "generalfeedback": "Độ cao đỉnh dốc \\(h = {a} \\cdot \\sin({b}^\\circ)\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 3.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 4.0,
+          "max": 12.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*sin({b}*pi/180)",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_064",
+      "questiontext": "Ghép bài toán thực tế với tỉ số lượng giác phù hợp cần dùng MTCT để tính toán:",
+      "generalfeedback": "Mỗi bối cảnh thực tế gắn với việc lựa chọn tỉ số lượng giác tương ứng để giải bài toán.",
+      "subquestions": [
+        {
+          "question": "Tính góc dốc khi biết độ dài dốc (cạnh huyền) và độ cao đỉnh dốc (cạnh đối)",
+          "answer": "Sử dụng sin của góc dốc"
+        },
+        {
+          "question": "Tính khoảng cách AB qua sông khi biết cạnh kề BC và góc ACB",
+          "answer": "Sử dụng tan của góc ACB"
+        },
+        {
+          "question": "Tính cạnh kề khi biết cạnh huyền và góc nhọn",
+          "answer": "Sử dụng cos của góc nhọn"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_064",
+      "questiontext": "Trong tình huống mở đầu SGK, nếu biết độ dài dốc là \\(a = 4\\text{ m}\\) và độ cao đỉnh dốc là \\(h = 0,4\\text{ m}\\), ta có thể tìm được góc dốc \\(\\alpha\\) bằng máy tính cầm tay thông qua tỉ số \\(\\sin \\alpha = \\frac{h}{a} = 0,1\\).",
+      "generalfeedback": "Đúng. Tỉ số giữa cạnh đối (độ cao h) và cạnh huyền (độ dài dốc a) là sin của góc dốc.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_03",
+      "questiontext": "Khi đo đạc thực tế để kiểm tra góc dốc đường xe lăn tại chung cư, bạn Nam dự định chỉ nhìn bằng mắt mà không dùng máy tính cầm tay để tính góc. Để thể hiện ý thức vận dụng kiến thức, kĩ năng đã học vào đời sống một cách trách nhiệm và chuẩn xác, em nên khuyên Nam như thế nào?",
+      "generalfeedback": "Vận dụng kiến thức toán học và công cụ máy tính cầm tay để tính toán chính xác góc dốc \\(\\sin \\alpha = h/a\\) giúp đảm bảo an toàn và đúng tiêu chuẩn kĩ thuật (bé hơn \\(6^\\circ\\)) trong đời sống thực tế.",
+      "answers": [
+        {
+          "text": "Khuyên Nam dùng thước đo độ dài dốc, độ cao đỉnh dốc và dùng máy tính cầm tay tính chính xác góc dốc để so sánh với tiêu chuẩn an toàn.",
+          "fraction": 100
+        },
+        {
+          "text": "Đồng ý với Nam vì ước lượng bằng mắt nhanh hơn và không cần chính xác tuyệt đối.",
+          "fraction": 0
+        },
+        {
+          "text": "Khuyên Nam bỏ qua việc kiểm tra vì công trình đã xây xong không thể thay đổi.",
+          "fraction": 0
+        },
+        {
+          "text": "Khuyên Nam chỉ cần dùng máy tính cầm tay tính tỉ số mà không cần tìm số đo góc.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Để làm chủ kĩ năng sử dụng máy tính cầm tay (MTCT) tính tỉ số lượng giác và tìm góc nhọn trong Bài 11 (Tiết 3), mục tiêu học tập nào sau đây thể hiện rõ tinh thần tự đặt mục tiêu và kế hoạch nỗ lực phấn đấu phù hợp?",
+      "generalfeedback": "Đặt mục tiêu học tập rõ ràng, cụ thể và có kế hoạch luyện tập chủ động giúp học sinh nâng cao hiệu quả tự học.",
+      "answers": [
+        {
+          "text": "Thành thạo quy trình bấm phím tính sin, cos, tan, cot và tìm góc trên MTCT, đồng thời tự luyện tập giải lại các bài tập thực tế trong SGK.",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ cần ghi nhớ đáp án của các bài tập SGK mà không cần tự thực hành bấm máy tính.",
+          "fraction": 0
+        },
+        {
+          "text": "Chờ thầy cô giải sẵn bài tập trên lớp rồi chép vào vở mà không cần đặt mục tiêu cá nhân.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ đặt mục tiêu học thuộc công thức lí thuyết, không cần biết sử dụng máy tính cầm tay.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_05_07",
+      "questiontext": "Khi tính tỉ số lượng giác \\(\\cot 35^\\circ 23'\\) bằng máy tính cầm tay, do trên bàn phím không có phím \"cot\", học sinh cần áp dụng kiến thức toán học nào để hỗ trợ máy tính tính toán đúng?",
+      "generalfeedback": "Vì \\(\\cot \\alpha = \\frac{1}{\\tan \\alpha}\\), học sinh vận dụng định nghĩa tỉ số lượng giác nghịch đảo để tính cot bằng phím tan trên MTCT.",
+      "answers": [
+        {
+          "text": "Sử dụng công thức \\(\\cot \\alpha = \\frac{1}{\\tan \\alpha}\\) (bấm tan rồi lấy nghịch đảo x⁻¹) hoặc tính \\(\\tan(90^\\circ - \\alpha)\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Sử dụng phím cos chia cho phím sin trực tiếp trên máy tính.",
+          "fraction": 0
+        },
+        {
+          "text": "Bấm phím SHIFT tan để máy tính tự đổi sang cot.",
+          "fraction": 0
+        },
+        {
+          "text": "Bấm phím sin rồi lấy nghịch đảo.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_05_07",
+      "questiontext": "Hãy ghép nối nhu cầu tính toán lượng giác bằng máy tính cầm tay (MTCT) với thao tác kĩ thuật tương ứng để hỗ trợ giải toán hiệu quả:",
+      "generalfeedback": "Mỗi nhu cầu toán học tương ứng với một chuỗi thao tác bấm phím chuẩn trên máy tính cầm tay.",
+      "subquestions": [
+        {
+          "question": "Tính giá trị \\(\\cos 32^\\circ 15'\\)",
+          "answer": "Bấm phím cos, nhập 32 °'\" 15 °'\" rồi bấm phím ="
+        },
+        {
+          "question": "Tìm góc nhọn \\(\\alpha\\) biết \\(\\sin \\alpha = 0,3214\\)",
+          "answer": "Bấm SHIFT sin, nhập 0.3214 rồi bấm phím ="
+        },
+        {
+          "question": "Đổi kết quả góc từ số thập phân sang độ, phút, giây",
+          "answer": "Bấm phím °'\" sau khi máy hiển thị kết quả"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "5.2TC2b_K9",
+      "questiontext": "Trong một dự án khảo sát độ an toàn dốc xe lăn cho các công trình công cộng, nhóm học sinh cần thu thập số liệu chiều dài dốc \\(a\\) và chiều cao \\(h\\) của 50 công trình, sau đó tự động tính góc dốc \\(\\sin \\alpha = h/a\\) và kiểm tra điều kiện \\(\\alpha < 6^\\circ\\). Giải pháp công nghệ nào sau đây là phù hợp và tối ưu nhất để tự động hóa công việc này?",
+      "generalfeedback": "Sử dụng bảng tính điện tử (như Excel/Google Sheets) với công thức toán học lập sẵn giúp tự động hóa việc tính toán lượng giác và kiểm tra điều kiện cho dữ liệu lớn.",
+      "answers": [
+        {
+          "text": "Lập bảng tính điện tử (Excel/Google Sheets) sử dụng hàm ASIN và DEGREES để tự động tính góc và dùng hàm IF kiểm tra tiêu chuẩn.",
+          "fraction": 100
+        },
+        {
+          "text": "Nhập thủ công từng số liệu vào máy tính cầm tay rồi chép kết quả ra giấy.",
+          "fraction": 0
+        },
+        {
+          "text": "Dùng phần mềm soạn thảo văn bản Word để tính toán góc dốc.",
+          "fraction": 0
+        },
+        {
+          "text": "Chụp ảnh các công trình rồi gửi lên mạng xã hội nhờ người khác tính hộ.",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,735 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 29,
+    "metadata_used": {
+      "YCCD_TOAN8_013": 2,
+      "Hệ thống 7 hằng đẳng thức đáng nhớ": 2,
+      "Nhận dạng và phân biệt 7 hằng đẳng thức đáng nhớ": 4,
+      "Khai triển và thu gọn biểu thức bằng hằng đẳng thức": 12,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TUHOC_C2_04": 1,
+      "NLT_TOAN_C2_01_01": 2,
+      "NLT_TOAN_C2_03_05": 1,
+      "2.1TC2a_K8": 1,
+      "8.A1.2_2": 1,
+      "8.A3.3_3": 1
+    },
+    "types_used": {
+      "multichoice": 11,
+      "truefalse": 4,
+      "matching": 3,
+      "gapselect": 3,
+      "ddwtos": 1,
+      "numerical": 2,
+      "calculated": 2,
+      "calculatedsimple": 1,
+      "calculatedmulti": 1,
+      "shortanswer": 1
+    }
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN8_013",
+        "reason": "Đo lường nhận biết khái niệm hằng đẳng thức."
+      },
+      {
+        "metadata_code": "Hệ thống 7 hằng đẳng thức đáng nhớ",
+        "reason": "Đo lường kiến thức hệ thống 7 hằng đẳng thức đáng nhớ."
+      },
+      {
+        "metadata_code": "Nhận dạng và phân biệt 7 hằng đẳng thức đáng nhớ",
+        "reason": "Đo lường kỹ năng nhận dạng và phân biệt các hằng đẳng thức."
+      },
+      {
+        "metadata_code": "Khai triển và thu gọn biểu thức bằng hằng đẳng thức",
+        "reason": "Đo lường kỹ năng khai triển, rút gọn biểu thức và tính giá trị."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đo lường tinh thần cố gắng, kiên trì vươn lên trong học tập khi giải toán."
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+        "reason": "Đo lường khả năng lưu giữ, hệ thống hóa thông tin có chọn lọc bằng bảng tóm tắt."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_01",
+        "reason": "Đo lường khả năng thực hiện các thao tác tư duy (phân tích, tổng quát hóa)."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_05",
+        "reason": "Đo lường khả năng sử dụng kĩ năng toán học để giải quyết vấn đề thực tế."
+      },
+      {
+        "metadata_code": "2.1TC2a_K8",
+        "reason": "Đo lường khả năng lựa chọn công cụ công nghệ số để kiểm tra đại số và mô phỏng."
+      },
+      {
+        "metadata_code": "8.A1.2_2",
+        "reason": "Đo lường nhận thức về sự cần thiết phải kiểm chứng thông tin từ AI tạo sinh."
+      },
+      {
+        "metadata_code": "8.A3.3_3",
+        "reason": "Đo lường ý thức trách nhiệm giải trình khi sử dụng AI tạo sinh trong học tập."
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_013",
+      "questiontext": "Đẳng thức nào sau đây là một hằng đẳng thức?",
+      "generalfeedback": "Hằng đẳng thức là đẳng thức mà hai vế luôn bằng nhau với mọi giá trị của các biến. \\((a + b)^2 = a^2 + 2ab + b^2\\) là bình phương của một tổng.",
+      "answers": [
+        {
+          "text": "\\((a + b)^2 = a^2 + 2ab + b^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(2x + 1 = 5\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x^2 - 3x + 2 = 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a + 1 = 2a\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_013",
+      "questiontext": "Đẳng thức \\(A^2 - B^2 = (A - B)(A + B)\\) đúng với mọi giá trị của các biến \\(A\\) và \\(B\\) nên đây là một hằng đẳng thức.",
+      "generalfeedback": "Đúng. Đẳng thức hiệu hai bình phương đúng với mọi giá trị của biến nên là một hằng đẳng thức.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống 7 hằng đẳng thức đáng nhớ",
+      "questiontext": "Ghép mỗi vế trái của hằng đẳng thức ở cột bên trái với vế phải tương ứng ở cột bên phải:",
+      "generalfeedback": "Dựa vào hệ thống 7 hằng đẳng thức đáng nhớ để ghép cặp chính xác.",
+      "subquestions": [
+        {
+          "question": "\\((A + B)^2\\)",
+          "answer": "\\(A^2 + 2AB + B^2\\)"
+        },
+        {
+          "question": "\\((A - B)^2\\)",
+          "answer": "\\(A^2 - 2AB + B^2\\)"
+        },
+        {
+          "question": "\\(A^2 - B^2\\)",
+          "answer": "\\((A - B)(A + B)\\)"
+        },
+        {
+          "question": "\\((A + B)^3\\)",
+          "answer": "\\(A^3 + 3A^2B + 3AB^2 + B^3\\)"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống 7 hằng đẳng thức đáng nhớ",
+      "questiontext": "Lựa chọn biểu thức thích hợp điền vào chỗ trống để hoàn thành hằng đẳng thức lập phương của một hiệu: \\((A - B)^3 = A^3 - 3A^2B +\\) [[1]] \\(-\\) [[2]]",
+      "generalfeedback": "Theo hằng đẳng thức lập phương của một hiệu: \\((A - B)^3 = A^3 - 3A^2B + 3AB^2 - B^3\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(3AB^2\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(B^3\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(3A^2B\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(B^2\\)"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận dạng và phân biệt 7 hằng đẳng thức đáng nhớ",
+      "questiontext": "Kéo thả các biểu thức thích hợp vào chỗ trống để hoàn thành khai triển tổng hai lập phương: \\(A^3 + B^3 = (A + B)(\\) [[1]] \\(-\\) [[2]] \\(+ B^2)\\)",
+      "generalfeedback": "Theo hằng đẳng thức tổng hai lập phương: \\(A^3 + B^3 = (A + B)(A^2 - AB + B^2)\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(A^2\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(AB\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(2AB\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(B^2\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận dạng và phân biệt 7 hằng đẳng thức đáng nhớ",
+      "questiontext": "Cho biểu thức \\(x^2 + 6x + 9\\). Dạng bình phương của một tổng của biểu thức này là:",
+      "generalfeedback": "Ta có \\(x^2 + 6x + 9 = x^2 + 2 \\cdot x \\cdot 3 + 3^2 = (x + 3)^2\\).",
+      "answers": [
+        {
+          "text": "\\((x + 3)^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\((x - 3)^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((x + 9)^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((3x + 1)^2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Khai triển và thu gọn biểu thức bằng hằng đẳng thức",
+      "questiontext": "Tính nhanh giá trị của biểu thức \\(x^2 + \\frac{1}{2}x + \\frac{1}{16}\\) tại \\(x = 99,75\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Ta có \\(x^2 + \\frac{1}{2}x + \\frac{1}{16} = (x + \\frac{1}{4})^2 = (x + 0,25)^2\\). Thay \\(x = 99,75\\) vào biểu thức ta được \\((99,75 + 0,25)^2 = 100^2 = 10000\\).",
+      "answers": [
+        {
+          "text": "10000",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Khai triển và thu gọn biểu thức bằng hằng đẳng thức",
+      "questiontext": "Tính giá trị của biểu thức \\((x + 1)^3\\) khi \\(x =\\) {a}. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Giá trị của biểu thức được tính bằng \\(({a} + 1)^3\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 9.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "pow({a}+1, 3)",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Khai triển và thu gọn biểu thức bằng hằng đẳng thức",
+      "questiontext": "Mẹ của Mai gửi vào ngân hàng {a} triệu đồng theo thể thức lãi kép với lãi suất \\(x\\)/năm. Biểu thức \\(S =\\) {a}\\((1 + x)^3\\) (triệu đồng) biểu thị số tiền nhận được sau 3 năm. Khi khai triển \\(S\\) thành đa thức theo \\(x\\), hệ số của \\(x^2\\) trong đa thức khai triển là bao nhiêu? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Ta có \\(S = {a}(1 + x)^3 = {a}(1 + 3x + 3x^2 + x^3) = {a} + 3{a}x + 3{a}x^2 + {a}x^3\\). Hệ số của \\(x^2\\) là \\(3 \\times {a}\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 100.0,
+          "max": 500.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "3*{a}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "Khai triển và thu gọn biểu thức bằng hằng đẳng thức",
+      "questiontext": "Cho biểu thức \\(A = (\\){a}\\(x + 1)^2 - (\\){a}\\(x - 1)^2\\). Kết quả rút gọn của biểu thức \\(A\\) bằng công thức nào dưới đây?",
+      "generalfeedback": "Áp dụng hằng đẳng thức hiệu hai bình phương: \\(A = [({a}x + 1) - ({a}x - 1)][({a}x + 1) + ({a}x - 1)] = 2 \\cdot 2{a}x = 4{a}x\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "4*{a}*x",
+          "fraction": 100
+        },
+        {
+          "text": "2*{a}*x",
+          "fraction": 0
+        },
+        {
+          "text": "4*{a}",
+          "fraction": 0
+        },
+        {
+          "text": "{a}*x",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Khai triển và thu gọn biểu thức bằng hằng đẳng thức",
+      "questiontext": "Rút gọn biểu thức \\(A = (2x + y)^2 + (x - 2y)^2\\).",
+      "generalfeedback": "Khai triển các bình phương: \\((2x + y)^2 + (x - 2y)^2 = (4x^2 + 4xy + y^2) + (x^2 - 4xy + 4y^2) = 5x^2 + 5y^2\\).",
+      "answers": [
+        {
+          "text": "\\(5x^2 + 5y^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(5x^2 - 5y^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(3x^2 + 3y^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(5x^2 + 4xy + 5y^2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Khai triển và thu gọn biểu thức bằng hằng đẳng thức",
+      "questiontext": "Tính nhanh giá trị của biểu thức \\(x^3 + 3x^2 + 3x + 1\\) tại \\(x = 99\\). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Biểu thức \\(x^3 + 3x^2 + 3x + 1 = (x + 1)^3\\). Thay \\(x = 99\\) vào ta được \\((99 + 1)^3 = 100^3 = 1000000\\).",
+      "answers": [
+        {
+          "text": "1000000",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Khai triển và thu gọn biểu thức bằng hằng đẳng thức",
+      "questiontext": "Tính nhanh giá trị của biểu thức \\(x^3 - 3x^2y + 3xy^2 - y^3\\) tại \\(x = 88\\) và \\(y = -12\\).",
+      "generalfeedback": "Viết biểu thức dưới dạng \\((x - y)^3\\). Thay \\(x = 88\\) và \\(y = -12\\) vào ta được \\((88 - (-12))^3 = 100^3 = 1000000\\).",
+      "answers": [
+        {
+          "text": "1000000",
+          "fraction": 100
+        },
+        {
+          "text": "100000",
+          "fraction": 0
+        },
+        {
+          "text": "512000",
+          "fraction": 0
+        },
+        {
+          "text": "729000",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Khai triển và thu gọn biểu thức bằng hằng đẳng thức",
+      "questiontext": "Tính giá trị của \\(a^3 + b^3\\) biết \\(a + b = 4\\) và \\(ab = 3\\). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Sử dụng hằng đẳng thức \\(a^3 + b^3 = (a + b)^3 - 3ab(a + b)\\). Thay \\(a + b = 4\\) và \\(ab = 3\\) vào ta được \\(4^3 - 3 \\cdot 3 \\cdot 4 = 64 - 36 = 28\\).",
+      "answers": [
+        {
+          "text": "28",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận dạng và phân biệt 7 hằng đẳng thức đáng nhớ",
+      "questiontext": "Từ đẳng thức \\((10a + 5)^2 = 100a(a + 1) + 25\\), quy tắc tính nhẩm bình phương của một số có tận cùng là 5 là: Lấy số chỉ số hàng chục nhân với số liền sau nó, rồi viết thêm 25 vào bên phải kết quả đó.",
+      "generalfeedback": "Đúng. Đẳng thức \\(100a(a + 1) + 25\\) cho thấy giá trị gồm \\(a(a + 1)\\) trăm cộng với 25, tương ứng với quy tắc tính nhẩm trên.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Khai triển và thu gọn biểu thức bằng hằng đẳng thức",
+      "questiontext": "Rút gọn biểu thức \\(B = (x - 1)^3 + (x + 1)^3 - 2x(x - 1)(x + 1)\\).",
+      "generalfeedback": "Ta có \\((x - 1)^3 + (x + 1)^3 = 2x^3 + 6x\\) và \\(2x(x - 1)(x + 1) = 2x(x^2 - 1) = 2x^3 - 2x\\). Do đó \\(B = 2x^3 + 6x - (2x^3 - 2x) = 8x\\).",
+      "answers": [
+        {
+          "text": "\\(8x\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(6x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2x^3 + 8x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(4x\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "Khai triển và thu gọn biểu thức bằng hằng đẳng thức",
+      "questiontext": "Ghép mỗi tích hoặc tổng các lập phương ở cột bên trái với kết quả thu gọn tương ứng ở cột bên phải:",
+      "generalfeedback": "Sử dụng các hằng đẳng thức tổng/hiệu hai lập phương và lập phương của một tổng/hiệu để khai triển và thu gọn.",
+      "subquestions": [
+        {
+          "question": "\\((x + 3y)(x^2 - 3xy + 9y^2)\\)",
+          "answer": "\\(x^3 + 27y^3\\)"
+        },
+        {
+          "question": "\\((3x - y)(9x^2 + 3xy + y^2)\\)",
+          "answer": "\\(27x^3 - y^3\\)"
+        },
+        {
+          "question": "\\((2x - y)^3 + (2x + y)^3\\)",
+          "answer": "\\(16x^3 + 12xy^2\\)"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Khai triển và thu gọn biểu thức bằng hằng đẳng thức",
+      "questiontext": "Bác Tùng gửi vào ngân hàng {a} triệu đồng theo thể thức lãi kép với lãi suất 5%/năm. Số tiền bác Tùng nhận được sau 3 năm biểu thị bởi biểu thức \\(S =\\) {a}\\((1 + 0.05)^3\\) triệu đồng. Tính số tiền bác Tùng nhận được sau 3 năm. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Số tiền nhận được sau 3 năm tính theo công thức \\(S = {a} \\times 1.05^3 = {a} \\times 1.157625\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 100.0,
+          "max": 300.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*1.157625",
+          "fraction": 100,
+          "tolerance": 0.001
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận dạng và phân biệt 7 hằng đẳng thức đáng nhớ",
+      "questiontext": "Chọn biểu thức thích hợp điền vào chỗ trống để khai triển hằng đẳng thức lập phương của một tổng: \\((a + b)^3 =\\) [[1]] \\(+ 3a^2b + 3ab^2 +\\) [[2]]",
+      "generalfeedback": "Theo hằng đẳng thức lập phương của một tổng: \\((a + b)^3 = a^3 + 3a^2b + 3ab^2 + b^3\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(a^3\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(b^3\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(a^2\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(b^2\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Khai triển và thu gọn biểu thức bằng hằng đẳng thức",
+      "questiontext": "Áp dụng quy tắc tính nhẩm bình phương của một số có tận cùng là 5: \\((10a + 5)^2 = 100a(a + 1) + 25\\), kết quả của \\(35^2\\) bằng bao nhiêu?",
+      "generalfeedback": "Với \\(35 = 10 \\cdot 3 + 5\\), ta có \\(a = 3\\). Tính \\(3 \\cdot (3 + 1) = 12\\), viết thêm 25 vào bên phải ta được 1225.",
+      "answers": [
+        {
+          "text": "1225",
+          "fraction": 100
+        },
+        {
+          "text": "1125",
+          "fraction": 0
+        },
+        {
+          "text": "1205",
+          "fraction": 0
+        },
+        {
+          "text": "2025",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ học luyện tập hằng đẳng thức, khi gặp một bài toán rút gọn biểu thức phức tạp như \\((x-1)^3 + (x+1)^3 - 2x(x-1)(x+1)\\), bạn An cảm thấy khó và định bỏ qua không làm. Nếu là bạn thân của An, em nên khuyên An thế nào để thể hiện tinh thần luôn cố gắng vươn lên trong học tập?",
+      "generalfeedback": "Hành vi thể hiện sự cố gắng vươn lên trong học tập là kiên trì phân tích bài toán thành từng phần nhỏ (khai triển từng hằng đẳng thức), chủ động tìm tòi hoặc nhờ thầy cô, bạn bè hướng dẫn chứ không bỏ cuộc.",
+      "answers": [
+        {
+          "text": "Khuyên An kiên trì phân tích biểu thức thành các hằng đẳng thức đã học, khai triển từng phần rồi rút gọn dần, nếu chưa hiểu có thể hỏi thầy cô hoặc bạn bè.",
+          "fraction": 100
+        },
+        {
+          "text": "Khuyên An bỏ qua bài này để làm các bài dễ hơn vì bài phức tạp không cần thiết phải làm.",
+          "fraction": 0
+        },
+        {
+          "text": "Khuyên An chép ngay đáp án của bạn bên cạnh để nhanh chóng hoàn thành bài tập.",
+          "fraction": 0
+        },
+        {
+          "text": "Khuyên An chờ thầy cô chữa bài rồi chép lời giải vào vở mà không cần tự suy nghĩ.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Để hệ thống hóa và lưu giữ thông tin có chọn lọc về 7 hằng đẳng thức đáng nhớ, em hãy ghép từng tên hằng đẳng thức ở cột bên trái với dạng tổng quát tương ứng ở cột bên phải:",
+      "generalfeedback": "Việc hệ thống hóa 7 hằng đẳng thức vào bảng tóm tắt giúp ghi nhớ và tra cứu thông tin hiệu quả trong quá trình học tập.",
+      "subquestions": [
+        {
+          "question": "Bình phương của một tổng",
+          "answer": "\\((A + B)^2 = A^2 + 2AB + B^2\\)"
+        },
+        {
+          "question": "Hiệu hai bình phương",
+          "answer": "\\(A^2 - B^2 = (A - B)(A + B)\\)"
+        },
+        {
+          "question": "Lập phương của một hiệu",
+          "answer": "\\((A - B)^3 = A^3 - 3A^2B + 3AB^2 - B^3\\)"
+        },
+        {
+          "question": "Tổng hai lập phương",
+          "answer": "\\(A^3 + B^3 = (A + B)(A^2 - AB + B^2)\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Khi chứng minh đẳng thức \\((10a + 5)^2 = 100a(a + 1) + 25\\), thao tác tư duy nào giúp ta biến đổi vế trái \\((10a + 5)^2\\) thành vế phải?",
+      "generalfeedback": "Thao tác tư duy bao gồm: Phân tích \\((10a + 5)^2\\) theo hằng đẳng thức bình phương của một tổng thành \\((10a)^2 + 2 \\cdot 10a \\cdot 5 + 5^2 = 100a^2 + 100a + 25\\), sau đó đặt nhân tử chung \\(100a\\) cho hai hạng tử đầu để thu được \\(100a(a + 1) + 25\\).",
+      "answers": [
+        {
+          "text": "Áp dụng hằng đẳng thức bình phương của một tổng khai triển vế trái, sau đó nhóm hai hạng tử đầu và đặt nhân tử chung \\(100a\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Thực hiện phép tính cộng \\(10a + 5 = 15a\\) rồi bình phương lên.",
+          "fraction": 0
+        },
+        {
+          "text": "Khai triển vế trái thành \\(100a^2 + 25\\) rồi cộng thêm \\(100a\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Áp dụng hằng đẳng thức hiệu hai bình phương cho vế trái.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Mẹ của Mai gửi tiết kiệm 150 triệu đồng theo thể thức lãi kép kì hạn 1 năm với lãi suất \\(x = 5\\%/năm\\). Số tiền nhận được sau 3 năm được tính theo công thức \\(S = 150(1 + x)^3\\) (triệu đồng). Để giải quyết bài toán tính số tiền này sau 3 năm, Mai cần sử dụng kĩ năng toán học nào?",
+      "generalfeedback": "Kĩ năng toán học cần dùng là đổi lãi suất từ phần trăm sang số thập phân (\\(x = 5\\% = 0,05\\)), thay \\(x\\) vào công thức \\(S = 150(1 + 0,05)^3\\), rồi thực hiện tính toán số mũ hoặc dùng hằng đẳng thức khai triển \\((1+x)^3\\) để tính giá trị.",
+      "answers": [
+        {
+          "text": "Đổi lãi suất \\(x = 5\\% = 0,05\\) và thực hiện tính giá trị biểu thức \\(S = 150 \\cdot (1,05)^3\\) hoặc khai triển đa thức \\(S = 150(1 + 3x + 3x^2 + x^3)\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Tính lãi đơn bằng cách lấy \\(150 \\cdot 5\\% \\cdot 3\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Giải phương trình bậc nhất \\(150(1 + x) = 3\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Áp dụng hằng đẳng thức hiệu hai bình phương để tính lãi suất.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "2.1TC2a_K8",
+      "questiontext": "Để kiểm tra tính đúng đắn của việc rút gọn biểu thức đại số \\((2x + y)^2 + (x - 2y)^2 = 5x^2 + 5y^2\\) hoặc vẽ đồ thị mô phỏng sự thay đổi số tiền lãi kép \\(S = 150(1 + x)^3\\) theo lãi suất \\(x\\), học sinh có thể chủ động lựa chọn công cụ công nghệ số nào phù hợp nhất?",
+      "generalfeedback": "Học sinh có thể tự chọn phần mềm toán học học đường như GeoGebra/Casio CAS hoặc bảng tính điện tử (Excel/Google Sheets) để lập bảng giá trị, kiểm tra biểu thức đại số và vẽ đồ thị biểu diễn mô hình toán học.",
+      "answers": [
+        {
+          "text": "Sử dụng phần mềm toán học động (như GeoGebra) hoặc bảng tính điện tử (như Excel/Google Sheets) để lập bảng giá trị, kiểm tra biểu thức đại số và vẽ đồ thị.",
+          "fraction": 100
+        },
+        {
+          "text": "Sử dụng phần mềm chỉnh sửa ảnh Photoshop để vẽ đồ thị bằng tay.",
+          "fraction": 0
+        },
+        {
+          "text": "Sử dụng phần mềm soạn thảo văn bản Word không tích hợp công cụ tính toán.",
+          "fraction": 0
+        },
+        {
+          "text": "Sử dụng trình duyệt web chỉ để tìm kiếm đáp án bài giải có sẵn.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "8.A1.2_2",
+      "questiontext": "Khi sử dụng chatbot AI tạo sinh để giải bài toán rút gọn biểu thức \\((x+3y)(x^2-3xy+9y^2) + (3x-y)(9x^2+3xy+y^2)\\), AI đưa ra kết quả là \\(28x^3 - 26y^3\\). Bạn Nam cần kiểm chứng lại bằng hằng đẳng thức vì AI có thể đưa ra kết quả sai. Phát biểu này đúng hay sai?",
+      "generalfeedback": "Đúng. AI có thể mắc lỗi ảo giác hoặc tính toán sai dấu. Kết quả chính xác là \\((x^3 + 27y^3) + (27x^3 - y^3) = 28x^3 + 26y^3\\). Do đó học sinh cần kiểm chứng lại thông tin do AI tạo ra.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "8.A3.3_3",
+      "questiontext": "Trong bài tập lớn về ứng dụng hằng đẳng thức tính lãi kép \\(S = 200(1 + x)^3\\), bạn Bình đã sử dụng AI để gợi ý các bước khai triển đa thức và trình bày báo cáo. Việc làm nào sau đây thể hiện trách nhiệm giải trình của Bình khi sử dụng AI tạo sinh?",
+      "generalfeedback": "Trách nhiệm giải trình thể hiện qua việc tự mình kiểm tra tính chính xác của các bước tính toán do AI tạo ra, nêu rõ việc sử dụng AI làm công cụ hỗ trợ và sẵn sàng giải thích các bước giải toán.",
+      "answers": [
+        {
+          "text": "Tự kiểm tra lại từng bước tính toán của AI, công khai việc sử dụng AI làm công cụ hỗ trợ và sẵn sàng giải thích chi tiết các bước khai triển hằng đẳng thức trong báo cáo.",
+          "fraction": 100
+        },
+        {
+          "text": "Sao chép toàn bộ nội dung do AI tạo ra vào bài nộp và khẳng định đó là bài làm hoàn toàn tự lực của mình.",
+          "fraction": 0
+        },
+        {
+          "text": "Đổ lỗi cho AI nếu thầy cô phát hiện ra bài báo cáo có sai sót về công thức toán học.",
+          "fraction": 0
+        },
+        {
+          "text": "Không cần kiểm tra lại bài làm vì tin tưởng AI luôn trả lời chính xác 100%.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Chọn cụm từ thích hợp điền vào chỗ trống để thể hiện thao tác tư duy tổng quát hóa khi tính nhẩm bình phương số có tận cùng là 5:\nĐẳng thức \\((10a + 5)^2 = 100a(a + 1) + 25\\) cho phép ta [[1]] quy tắc tính nhẩm \\((10a+5)^2\\) bằng cách lấy số hàng chục \\(a\\) nhân với [[2]] rồi viết thêm 25 vào bên phải.",
+      "generalfeedback": "Thao tác tư duy tổng quát hóa giúp chuyển từ đẳng thức đại số \\((10a+5)^2 = 100a(a+1) + 25\\) thành quy tắc tính nhẩm cho mọi số có tận cùng là 5: lấy \\(a \\cdot (a+1)\\) rồi ghép 25.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "tổng quát hóa"
+        },
+        {
+          "group": 1,
+          "text": "số liền sau \\((a+1)\\)"
+        },
+        {
+          "group": 1,
+          "text": "đặc biệt hóa"
+        },
+        {
+          "group": 1,
+          "text": "số liền trước \\((a-1)\\)"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi làm bài tập rút gọn biểu thức \\((x+y+z)^2 - (x+y-z)^2\\), nếu lần đầu tính toán bị nhầm lẫn dấu dẫn đến kết quả sai, hành vi thể hiện tính kiên trì và trách nhiệm học tập là tự kiểm tra lại từng bước biến đổi hằng đẳng thức hiệu hai bình phương để tìm ra chỗ sai và sửa lại.",
+      "generalfeedback": "Đúng. Tự phát hiện và sửa chữa sai sót trong quá trình làm toán là biểu hiện rõ nét của phẩm chất kiên trì và trách nhiệm trong học tập.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

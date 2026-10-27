@@ -1,0 +1,2640 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 78,
+    "metadata_used": {
+      "Hệ thống công thức chu vi và diện tích các hình phẳng chương IV": 5,
+      "Giải bài toán hình học thực tế tổng hợp chương IV": 5,
+      "YCCD_TOAN6_103": 10,
+      "YCCD_TOAN6_104": 10,
+      "Q1": 1,
+      "G1": 1,
+      "D1": 2,
+      "N1": 2,
+      "A1": 2
+    },
+    "types_used": {
+      "multichoice": 20,
+      "matching": 3,
+      "truefalse": 8,
+      "gapselect": 1,
+      "shortanswer": 7,
+      "numerical": 8,
+      "ddwtos": 1,
+      "calculatedsimple": 12,
+      "calculated": 6,
+      "calculatedmulti": 12
+    },
+    "total": 78
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "Hệ thống công thức chu vi và diện tích các hình phẳng chương IV",
+        "reason": "Đo lường kiến thức hệ thống công thức chu vi và diện tích các hình phẳng chương IV trong SGK"
+      },
+      {
+        "metadata_code": "Giải bài toán hình học thực tế tổng hợp chương IV",
+        "reason": "Đo lường kỹ năng giải bài toán hình học thực tế tổng hợp chương IV"
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_103",
+        "reason": "Đo lường khả năng giải quyết một số vấn đề thực tiễn gắn với việc tính chu vi"
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_104",
+        "reason": "Đo lường khả năng giải quyết một số vấn đề thực tiễn gắn với việc tính diện tích"
+      },
+      {
+        "metadata_code": "Q1",
+        "reason": "Đo lường ý thức trách nhiệm và tiết kiệm trong công việc nhóm"
+      },
+      {
+        "metadata_code": "G1",
+        "reason": "Đo lường năng lực giao tiếp và hợp tác qua việc hệ thống hóa kiến thức"
+      },
+      {
+        "metadata_code": "D1",
+        "reason": "Đo lường năng lực mô hình hóa toán học thông qua giải quyết tình huống thực tế"
+      },
+      {
+        "metadata_code": "N1",
+        "reason": "Đo lường năng lực ứng dụng công nghệ thông tin (bảng tính Excel) trong tính toán hình học"
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Đo lường năng lực đánh giá và tương tác hiệu quả với công cụ Trợ lý AI"
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống công thức chu vi và diện tích các hình phẳng chương IV",
+      "questiontext": "Công thức tính diện tích hình chữ nhật có chiều dài \\(a\\) và chiều rộng \\(b\\) (cùng đơn vị đo) là:",
+      "generalfeedback": "Diện tích hình chữ nhật bằng tích của chiều dài và chiều rộng: \\(S = a \\times b\\).",
+      "answers": [
+        {
+          "text": "\\(S = a \\times b\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(S = (a + b) \\times 2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(S = a + b\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(S = a \\times a\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống công thức chu vi và diện tích các hình phẳng chương IV",
+      "questiontext": "Hãy ghép mỗi hình phẳng sau với công thức tính diện tích \\(S\\) tương ứng (với \\(a, b\\) là độ dài các cạnh, \\(h\\) là chiều cao, \\(m, n\\) là độ dài hai đường chéo):",
+      "generalfeedback": "Diện tích hình vuông là \\(a \\times a\\), hình chữ nhật là \\(a \\times b\\), hình thoi là \\(\\frac{1}{2} m \\times n\\), hình bình hành là \\(a \\times h\\).",
+      "subquestions": [
+        {
+          "question": "Hình vuông cạnh \\(a\\)",
+          "answer": "\\(S = a \\times a\\)"
+        },
+        {
+          "question": "Hình chữ nhật có hai kích thước \\(a, b\\)",
+          "answer": "\\(S = a \\times b\\)"
+        },
+        {
+          "question": "Hình thoi có hai đường chéo \\(m, n\\)",
+          "answer": "\\(S = \\frac{1}{2} m \\times n\\)"
+        },
+        {
+          "question": "Hình bình hành có cạnh \\(a\\) và chiều cao tương ứng \\(h\\)",
+          "answer": "\\(S = a \\times h\\)"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống công thức chu vi và diện tích các hình phẳng chương IV",
+      "questiontext": "Chu vi của hình vuông có cạnh độ dài \\(a\\) được tính theo công thức \\(C = 4 \\times a\\). Đúng hay sai?",
+      "generalfeedback": "Chu vi hình vuông bằng độ dài một cạnh nhân với 4: \\(C = 4 \\times a\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống công thức chu vi và diện tích các hình phẳng chương IV",
+      "questiontext": "Cho hình thang cân có độ dài hai đáy lần lượt là \\(a\\) và \\(b\\), chiều cao là \\(h\\). Diện tích hình thang cân được tính bằng công thức \\(S = \\) [[1]] \\(\\times h \\div 2\\). Chu vi hình thang cân có độ dài hai đáy \\(a, b\\) và hai cạnh bên bằng \\(c\\) là \\(C = \\) [[2]].",
+      "generalfeedback": "Diện tích hình thang là \\((a + b) \\times h \\div 2\\), chu vi hình thang cân là \\(a + b + 2 \\times c\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(a + b\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(a + b + 2 \\times c\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(a \\times b\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(a + b + c\\)"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống công thức chu vi và diện tích các hình phẳng chương IV",
+      "questiontext": "Muốn tính diện tích hình thoi, ta lấy tích độ dài hai đường chéo chia cho mấy?",
+      "generalfeedback": "Diện tích hình thoi bằng tích độ dài hai đường chéo chia cho 2.",
+      "answers": [
+        {
+          "text": "2",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Giải bài toán hình học thực tế tổng hợp chương IV",
+      "imgs": [
+        "_page_0_Picture_2.jpeg"
+      ],
+      "questiontext": "[img:_page_0_Picture_2.jpeg] Hãy đếm xem trong hình bên có bao nhiêu hình vuông (gồm cả hình vuông nhỏ và hình vuông lớn)?",
+      "generalfeedback": "Hình gồm 4 hình vuông nhỏ và 1 hình vuông lớn bao quanh, tổng cộng có \\(4 + 1 = 5\\) hình vuông.",
+      "answers": [
+        {
+          "text": "5 hình vuông",
+          "fraction": 100
+        },
+        {
+          "text": "4 hình vuông",
+          "fraction": 0
+        },
+        {
+          "text": "6 hình vuông",
+          "fraction": 0
+        },
+        {
+          "text": "8 hình vuông",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Giải bài toán hình học thực tế tổng hợp chương IV",
+      "imgs": [
+        "_page_0_Picture_4.jpeg"
+      ],
+      "questiontext": "[img:_page_0_Picture_4.jpeg] Quan sát hình vẽ bên và hãy ghép mỗi loại hình với số lượng tương ứng có trong hình:",
+      "generalfeedback": "Trong hình có 5 hình tam giác đều (4 nhỏ, 1 lớn), 3 hình thang cân và 3 hình thoi.",
+      "subquestions": [
+        {
+          "question": "Số hình tam giác đều",
+          "answer": "5"
+        },
+        {
+          "question": "Số hình thang cân",
+          "answer": "3"
+        },
+        {
+          "question": "Số hình thoi",
+          "answer": "3"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán hình học thực tế tổng hợp chương IV",
+      "imgs": [
+        "_page_0_Picture_13.jpeg"
+      ],
+      "questiontext": "[img:_page_0_Picture_13.jpeg] Cho hình lục giác đều \\(ABCDEF\\) như hình vẽ, biết \\(OA = 6\\text{ cm}\\) và \\(BF = 10{,}4\\text{ cm}\\). Tính diện tích hình thoi \\(ABOF\\) theo đơn vị \\(\\text{cm}^2\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Hình thoi \\(ABOF\\) có hai đường chéo là \\(OA = 6\\text{ cm}\\) và \\(BF = 10{,}4\\text{ cm}\\). Diện tích hình thoi \\(ABOF\\) là \\(S = \\frac{1}{2} \\times 6 \\times 10{,}4 = 31{,}2\\text{ cm}^2\\).",
+      "answers": [
+        {
+          "text": "31.2",
+          "fraction": 100,
+          "tolerance": 0.1
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán hình học thực tế tổng hợp chương IV",
+      "imgs": [
+        "_page_0_Picture_13.jpeg"
+      ],
+      "questiontext": "[img:_page_0_Picture_13.jpeg] Cho hình lục giác đều \\(ABCDEF\\) như hình vẽ, biết \\(OA = 6\\text{ cm}\\) và \\(BF = 10{,}4\\text{ cm}\\). Tính diện tích hình lục giác đều \\(ABCDEF\\) theo đơn vị \\(\\text{cm}^2\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Hình lục giác đều \\(ABCDEF\\) gồm 3 hình thoi bằng hình thoi \\(ABOF\\). Diện tích lục giác đều là \\(3 \\times 31{,}2 = 93{,}6\\text{ cm}^2\\).",
+      "answers": [
+        {
+          "text": "93.6",
+          "fraction": 100,
+          "tolerance": 0.1
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán hình học thực tế tổng hợp chương IV",
+      "questiontext": "Bạn An vẽ hình vuông có cạnh 6 cm thì chu vi của hình vuông đó là [[1]] cm và diện tích là [[2]] \\(\\text{cm}^2\\).",
+      "generalfeedback": "Chu vi hình vuông là \\(6 \\times 4 = 24\\text{ cm}\\). Diện tích hình vuông là \\(6 \\times 6 = 36\\text{ cm}^2\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "24"
+        },
+        {
+          "group": 1,
+          "text": "36"
+        },
+        {
+          "group": 1,
+          "text": "12"
+        },
+        {
+          "group": 1,
+          "text": "18"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_103",
+      "questiontext": "Một khu vườn hình chữ nhật có chiều dài 15 m và chiều rộng 10 m. Người ta muốn làm hàng rào bao quanh khu vườn đó (có để một lối đi rộng 2 m). Độ dài hàng rào cần làm là:",
+      "generalfeedback": "Chu vi khu vườn là \\((15 + 10) \\times 2 = 50\\text{ m}\\). Độ dài hàng rào là \\(50 - 2 = 48\\text{ m}\\).",
+      "answers": [
+        {
+          "text": "48 m",
+          "fraction": 100
+        },
+        {
+          "text": "50 m",
+          "fraction": 0
+        },
+        {
+          "text": "52 m",
+          "fraction": 0
+        },
+        {
+          "text": "150 m",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_103",
+      "questiontext": "Một mảnh đất hình thoi có độ dài cạnh là 12 m. Người ta rào xung quanh mảnh đất đó bằng dây thép gai. Hỏi cần bao nhiêu mét dây thép gai để rào hết 1 vòng mảnh đất?",
+      "generalfeedback": "Chu vi mảnh đất hình thoi là \\(12 \\times 4 = 48\\text{ m}\\). Số mét dây thép gai cần dùng là 48 m.",
+      "answers": [
+        {
+          "text": "48",
+          "fraction": 100
+        },
+        {
+          "text": "48 m",
+          "fraction": 100
+        },
+        {
+          "text": "48m",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_103",
+      "questiontext": "Bác Bình muốn làm khung gỗ hình chữ nhật cho bức tranh có chiều dài {a} cm và chiều rộng {b} cm. Hãy tính tổng độ dài thanh gỗ bác Bình cần dùng (coi mối nối không đáng kể).",
+      "generalfeedback": "Độ dài thanh gỗ chính là chu vi hình chữ nhật: ({a} + {b}) * 2 cm.",
+      "dataset_definitions": [
+        {
+          "name": "a",
+          "type": "number",
+          "min": 50,
+          "max": 100,
+          "step": 5
+        },
+        {
+          "name": "b",
+          "type": "number",
+          "min": 30,
+          "max": 60,
+          "step": 5
+        }
+      ],
+      "answers": [
+        {
+          "text": "({a} + {b}) * 2",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ],
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_103",
+      "questiontext": "Một sân thể thao hình vuông có cạnh độ dài {a} m. Một vận động viên chạy xung quanh sân đó {n} vòng. Hỏi vận động viên đó đã chạy được quãng đường tổng cộng bao nhiêu mét?",
+      "generalfeedback": "Chu vi sân hình vuông là {a} * 4 m. Quãng đường vận động viên chạy là {a} * 4 * {n} m.",
+      "dataset_definitions": [
+        {
+          "name": "a",
+          "type": "number",
+          "min": 25,
+          "max": 50,
+          "step": 5
+        },
+        {
+          "name": "n",
+          "type": "number",
+          "min": 3,
+          "max": 10,
+          "step": 1
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a} * 4 * {n}",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ],
+      "wildcards": [
+        {
+          "name": "n",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_103",
+      "questiontext": "Một khung dây thép hình tam giác đều có cạnh 15 cm được uốn lại thành một khung dây thép hình vuông. Cạnh của hình vuông đó có độ dài là 12 cm. Khẳng định trên Đúng hay Sai?",
+      "generalfeedback": "Độ dài dây thép (chu vi tam giác đều) là \\(15 \\times 3 = 45\\text{ cm}\\). Cạnh hình vuông thu được phải là \\(45 \\div 4 = 11{,}25\\text{ cm}\\), nên khẳng định trên là Sai.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_104",
+      "questiontext": "Một căn phòng hình chữ nhật có chiều dài 8 m và chiều rộng 6 m. Người ta dùng các viên gạch vuông cạnh 40 cm để lát nền. Hỏi cần bao nhiêu viên gạch để lát kín nền căn phòng đó (coi mạch vữa không đáng kể)?",
+      "generalfeedback": "Diện tích căn phòng là \\(8 \\times 6 = 48\\text{ m}^2 = 480000\\text{ cm}^2\\). Diện tích 1 viên gạch là \\(40 \\times 40 = 1600\\text{ cm}^2\\). Số viên gạch cần dùng là \\(480000 \\div 1600 = 300\\) viên.",
+      "answers": [
+        {
+          "text": "300 viên",
+          "fraction": 100
+        },
+        {
+          "text": "30 viên",
+          "fraction": 0
+        },
+        {
+          "text": "3000 viên",
+          "fraction": 0
+        },
+        {
+          "text": "120 viên",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_104",
+      "questiontext": "Một thửa ruộng hình thang có đáy lớn 25 m, đáy nhỏ 15 m và chiều cao 10 m. Tính diện tích thửa ruộng đó theo đơn vị m\\(^2\\). (Chỉ điền số)",
+      "generalfeedback": "Diện tích thửa ruộng hình thang là \\(S = (25 + 15) \\times 10 \\div 2 = 200\\text{ m}^2\\).",
+      "answers": [
+        {
+          "text": "200",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_104",
+      "questiontext": "Một bức tường hình chữ nhật có chiều dài {length} m và chiều rộng {width} m. Chi phí sơn mỗi mét vuông tường là 50000 đồng. Tính tổng chi phí để sơn toàn bộ bức tường đó (theo đơn vị đồng).",
+      "generalfeedback": "Diện tích bức tường là {length} * {width} m2. Tổng chi phí sơn là {length} * {width} * 50000 đồng.",
+      "dataset_definitions": [
+        {
+          "name": "length",
+          "type": "number",
+          "min": 4,
+          "max": 10,
+          "step": 1
+        },
+        {
+          "name": "width",
+          "type": "number",
+          "min": 3,
+          "max": 6,
+          "step": 1
+        }
+      ],
+      "answers": [
+        {
+          "text": "{length} * {width} * 50000",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ],
+      "wildcards": [
+        {
+          "name": "width",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "length",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_104",
+      "questiontext": "Một khu vườn hình bình hành có độ dài một cạnh là {a} m và chiều cao tương ứng là h m. Biểu thức đúng để tính diện tích khu vườn đó (theo m2) là:",
+      "generalfeedback": "Diện tích hình bình hành bằng độ dài cạnh nhân với chiều cao tương ứng: S = {a} * {h}.",
+      "dataset_definitions": [
+        {
+          "name": "a",
+          "type": "number",
+          "min": 10,
+          "max": 30,
+          "step": 2
+        },
+        {
+          "name": "h",
+          "type": "number",
+          "min": 5,
+          "max": 15,
+          "step": 1
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a} * {h}",
+          "fraction": 100,
+          "tolerance": 0.01
+        },
+        {
+          "text": "({a} + {h}) * 2",
+          "fraction": 0,
+          "tolerance": 0.01
+        },
+        {
+          "text": "({a} * {h}) / 2",
+          "fraction": 0,
+          "tolerance": 0.01
+        },
+        {
+          "text": "{a} * 2 + {h} * 2",
+          "fraction": 0,
+          "tolerance": 0.01
+        }
+      ],
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_104",
+      "questiontext": "Một lối đi trong vườn hình chữ nhật được lát gạch. Lối đi có chiều dài {L} m và chiều rộng {W} m. Mỗi viên gạch lát hình vuông cạnh 0.5 m có giá {P} đồng. Tính tổng số tiền mua gạch để lát kín lối đi.",
+      "generalfeedback": "Diện tích lối đi là {L} * {W} m2. Diện tích 1 viên gạch là 0.5 * 0.5 = 0.25 m2. Số viên gạch là ({L} * {W}) / 0.25 = {L} * {W} * 4. Tổng số tiền là {L} * {W} * 4 * {P} đồng.",
+      "dataset_definitions": [
+        {
+          "name": "L",
+          "type": "number",
+          "min": 10,
+          "max": 20,
+          "step": 2
+        },
+        {
+          "name": "W",
+          "type": "number",
+          "min": 2,
+          "max": 4,
+          "step": 1
+        },
+        {
+          "name": "P",
+          "type": "number",
+          "min": 20000,
+          "max": 40000,
+          "step": 5000
+        }
+      ],
+      "answers": [
+        {
+          "text": "{L} * {W} * 4 * {P}",
+          "fraction": 100,
+          "tolerance": 0.01
+        },
+        {
+          "text": "{L} * {W} * {P}",
+          "fraction": 0,
+          "tolerance": 0.01
+        },
+        {
+          "text": "({L} + {W}) * 2 * {P}",
+          "fraction": 0,
+          "tolerance": 0.01
+        },
+        {
+          "text": "{L} * {W} * 2 * {P}",
+          "fraction": 0,
+          "tolerance": 0.01
+        }
+      ],
+      "wildcards": [
+        {
+          "name": "W",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "P",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "L",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_103",
+      "questiontext": "Một khu vườn hình chữ nhật có chiều dài 15 m và chiều rộng 10 m. Người ta muốn làm hàng rào bao quanh khu vườn đó (có để một lối đi rộng 2 m). Độ dài hàng rào cần làm là:",
+      "generalfeedback": "Chu vi khu vườn là \\((15 + 10) \\times 2 = 50\\text{ m}\\). Độ dài hàng rào là \\(50 - 2 = 48\\text{ m}\\).",
+      "answers": [
+        {
+          "text": "48 m",
+          "fraction": 100
+        },
+        {
+          "text": "50 m",
+          "fraction": 0
+        },
+        {
+          "text": "52 m",
+          "fraction": 0
+        },
+        {
+          "text": "150 m",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_103",
+      "questiontext": "Một mảnh đất hình thoi có độ dài cạnh là 12 m. Người ta rào xung quanh mảnh đất đó bằng dây thép gai. Hỏi cần bao nhiêu mét dây thép gai để rào hết 1 vòng mảnh đất?",
+      "generalfeedback": "Chu vi mảnh đất hình thoi là \\(12 \\times 4 = 48\\text{ m}\\). Số mét dây thép gai cần dùng là 48 m.",
+      "answers": [
+        {
+          "text": "48",
+          "fraction": 100
+        },
+        {
+          "text": "48 m",
+          "fraction": 100
+        },
+        {
+          "text": "48m",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_103",
+      "questiontext": "Bác Bình muốn làm khung gỗ hình chữ nhật cho bức tranh có chiều dài {a} cm và chiều rộng {b} cm. Hãy tính tổng độ dài thanh gỗ bác Bình cần dùng (coi mối nối không đáng kể).",
+      "generalfeedback": "Độ dài thanh gỗ chính là chu vi hình chữ nhật: ({a} + {b}) * 2 cm.",
+      "dataset_definitions": [
+        {
+          "name": "a",
+          "type": "number",
+          "min": 50,
+          "max": 100,
+          "step": 5
+        },
+        {
+          "name": "b",
+          "type": "number",
+          "min": 30,
+          "max": 60,
+          "step": 5
+        }
+      ],
+      "answers": [
+        {
+          "text": "({a} + {b}) * 2",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ],
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_103",
+      "questiontext": "Một sân thể thao hình vuông có cạnh độ dài {a} m. Một vận động viên chạy xung quanh sân đó {n} vòng. Hỏi vận động viên đó đã chạy được quãng đường tổng cộng bao nhiêu mét?",
+      "generalfeedback": "Chu vi sân hình vuông là {a} * 4 m. Quãng đường vận động viên chạy là {a} * 4 * {n} m.",
+      "dataset_definitions": [
+        {
+          "name": "a",
+          "type": "number",
+          "min": 25,
+          "max": 50,
+          "step": 5
+        },
+        {
+          "name": "n",
+          "type": "number",
+          "min": 3,
+          "max": 10,
+          "step": 1
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a} * 4 * {n}",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ],
+      "wildcards": [
+        {
+          "name": "n",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_103",
+      "questiontext": "Một khung dây thép hình tam giác đều có cạnh 15 cm được uốn lại thành một khung dây thép hình vuông. Cạnh của hình vuông đó có độ dài là 12 cm. Khẳng định trên Đúng hay Sai?",
+      "generalfeedback": "Độ dài dây thép (chu vi tam giác đều) là \\(15 \\times 3 = 45\\text{ cm}\\). Cạnh hình vuông thu được phải là \\(45 \\div 4 = 11{,}25\\text{ cm}\\), nên khẳng định trên là Sai.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_104",
+      "questiontext": "Một căn phòng hình chữ nhật có chiều dài 8 m và chiều rộng 6 m. Người ta dùng các viên gạch vuông cạnh 40 cm để lát nền. Hỏi cần bao nhiêu viên gạch để lát kín nền căn phòng đó (coi mạch vữa không đáng kể)?",
+      "generalfeedback": "Diện tích căn phòng là \\(8 \\times 6 = 48\\text{ m}^2 = 480000\\text{ cm}^2\\). Diện tích 1 viên gạch là \\(40 \\times 40 = 1600\\text{ cm}^2\\). Số viên gạch cần dùng là \\(480000 \\div 1600 = 300\\) viên.",
+      "answers": [
+        {
+          "text": "300 viên",
+          "fraction": 100
+        },
+        {
+          "text": "30 viên",
+          "fraction": 0
+        },
+        {
+          "text": "3000 viên",
+          "fraction": 0
+        },
+        {
+          "text": "120 viên",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_104",
+      "questiontext": "Một thửa ruộng hình thang có đáy lớn 25 m, đáy nhỏ 15 m và chiều cao 10 m. Tính diện tích thửa ruộng đó theo đơn vị m\\(^2\\). (Chỉ điền số)",
+      "generalfeedback": "Diện tích thửa ruộng hình thang là \\(S = (25 + 15) \\times 10 \\div 2 = 200\\text{ m}^2\\).",
+      "answers": [
+        {
+          "text": "200",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_104",
+      "questiontext": "Một bức tường hình chữ nhật có chiều dài {length} m và chiều rộng {width} m. Chi phí sơn mỗi mét vuông tường là 50000 đồng. Tính tổng chi phí để sơn toàn bộ bức tường đó (theo đơn vị đồng).",
+      "generalfeedback": "Diện tích bức tường là {length} * {width} m2. Tổng chi phí sơn là {length} * {width} * 50000 đồng.",
+      "dataset_definitions": [
+        {
+          "name": "length",
+          "type": "number",
+          "min": 4,
+          "max": 10,
+          "step": 1
+        },
+        {
+          "name": "width",
+          "type": "number",
+          "min": 3,
+          "max": 6,
+          "step": 1
+        }
+      ],
+      "answers": [
+        {
+          "text": "{length} * {width} * 50000",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ],
+      "wildcards": [
+        {
+          "name": "width",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "length",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_104",
+      "questiontext": "Một khu vườn hình bình hành có độ dài một cạnh là {a} m và chiều cao tương ứng là h m. Biểu thức đúng để tính diện tích khu vườn đó (theo m2) là:",
+      "generalfeedback": "Diện tích hình bình hành bằng độ dài cạnh nhân với chiều cao tương ứng: S = {a} * {h}.",
+      "dataset_definitions": [
+        {
+          "name": "a",
+          "type": "number",
+          "min": 10,
+          "max": 30,
+          "step": 2
+        },
+        {
+          "name": "h",
+          "type": "number",
+          "min": 5,
+          "max": 15,
+          "step": 1
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a} * {h}",
+          "fraction": 100,
+          "tolerance": 0.01
+        },
+        {
+          "text": "({a} + {h}) * 2",
+          "fraction": 0,
+          "tolerance": 0.01
+        },
+        {
+          "text": "({a} * {h}) / 2",
+          "fraction": 0,
+          "tolerance": 0.01
+        },
+        {
+          "text": "{a} * 2 + {h} * 2",
+          "fraction": 0,
+          "tolerance": 0.01
+        }
+      ],
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_104",
+      "questiontext": "Một lối đi trong vườn hình chữ nhật được lát gạch. Lối đi có chiều dài {L} m và chiều rộng {W} m. Mỗi viên gạch lát hình vuông cạnh 0.5 m có giá {P} đồng. Tính tổng số tiền mua gạch để lát kín lối đi.",
+      "generalfeedback": "Diện tích lối đi là {L} * {W} m2. Diện tích 1 viên gạch là 0.5 * 0.5 = 0.25 m2. Số viên gạch là ({L} * {W}) / 0.25 = {L} * {W} * 4. Tổng số tiền là {L} * {W} * 4 * {P} đồng.",
+      "dataset_definitions": [
+        {
+          "name": "L",
+          "type": "number",
+          "min": 10,
+          "max": 20,
+          "step": 2
+        },
+        {
+          "name": "W",
+          "type": "number",
+          "min": 2,
+          "max": 4,
+          "step": 1
+        },
+        {
+          "name": "P",
+          "type": "number",
+          "min": 20000,
+          "max": 40000,
+          "step": 5000
+        }
+      ],
+      "answers": [
+        {
+          "text": "{L} * {W} * 4 * {P}",
+          "fraction": 100,
+          "tolerance": 0.01
+        },
+        {
+          "text": "{L} * {W} * {P}",
+          "fraction": 0,
+          "tolerance": 0.01
+        },
+        {
+          "text": "({L} + {W}) * 2 * {P}",
+          "fraction": 0,
+          "tolerance": 0.01
+        },
+        {
+          "text": "{L} * {W} * 2 * {P}",
+          "fraction": 0,
+          "tolerance": 0.01
+        }
+      ],
+      "wildcards": [
+        {
+          "name": "W",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "P",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "L",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_103",
+      "questiontext": "Một khu vườn hình chữ nhật có chiều dài 15 m và chiều rộng 10 m. Người ta muốn làm hàng rào bao quanh khu vườn đó (có để một lối đi rộng 2 m). Độ dài hàng rào cần làm là:",
+      "generalfeedback": "Chu vi khu vườn là \\((15 + 10) \\times 2 = 50\\text{ m}\\). Độ dài hàng rào là \\(50 - 2 = 48\\text{ m}\\).",
+      "answers": [
+        {
+          "text": "48 m",
+          "fraction": 100
+        },
+        {
+          "text": "50 m",
+          "fraction": 0
+        },
+        {
+          "text": "52 m",
+          "fraction": 0
+        },
+        {
+          "text": "150 m",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_103",
+      "questiontext": "Một mảnh đất hình thoi có độ dài cạnh là 12 m. Người ta rào xung quanh mảnh đất đó bằng dây thép gai. Hỏi cần bao nhiêu mét dây thép gai để rào hết 1 vòng mảnh đất?",
+      "generalfeedback": "Chu vi mảnh đất hình thoi là \\(12 \\times 4 = 48\\text{ m}\\). Số mét dây thép gai cần dùng là 48 m.",
+      "answers": [
+        {
+          "text": "48",
+          "fraction": 100
+        },
+        {
+          "text": "48 m",
+          "fraction": 100
+        },
+        {
+          "text": "48m",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_103",
+      "questiontext": "Bác Bình muốn làm khung gỗ hình chữ nhật cho bức tranh có chiều dài {a} cm và chiều rộng {b} cm. Hãy tính tổng độ dài thanh gỗ bác Bình cần dùng (coi mối nối không đáng kể).",
+      "generalfeedback": "Độ dài thanh gỗ chính là chu vi hình chữ nhật: ({a} + {b}) * 2 cm.",
+      "dataset_definitions": [
+        {
+          "name": "a",
+          "type": "number",
+          "min": 50,
+          "max": 100,
+          "step": 5
+        },
+        {
+          "name": "b",
+          "type": "number",
+          "min": 30,
+          "max": 60,
+          "step": 5
+        }
+      ],
+      "answers": [
+        {
+          "text": "({a} + {b}) * 2",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ],
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_103",
+      "questiontext": "Một sân thể thao hình vuông có cạnh độ dài {a} m. Một vận động viên chạy xung quanh sân đó {n} vòng. Hỏi vận động viên đó đã chạy được quãng đường tổng cộng bao nhiêu mét?",
+      "generalfeedback": "Chu vi sân hình vuông là {a} * 4 m. Quãng đường vận động viên chạy là {a} * 4 * {n} m.",
+      "dataset_definitions": [
+        {
+          "name": "a",
+          "type": "number",
+          "min": 25,
+          "max": 50,
+          "step": 5
+        },
+        {
+          "name": "n",
+          "type": "number",
+          "min": 3,
+          "max": 10,
+          "step": 1
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a} * 4 * {n}",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ],
+      "wildcards": [
+        {
+          "name": "n",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_103",
+      "questiontext": "Một khung dây thép hình tam giác đều có cạnh 15 cm được uốn lại thành một khung dây thép hình vuông. Cạnh của hình vuông đó có độ dài là 12 cm. Khẳng định trên Đúng hay Sai?",
+      "generalfeedback": "Độ dài dây thép (chu vi tam giác đều) là \\(15 \\times 3 = 45\\text{ cm}\\). Cạnh hình vuông thu được phải là \\(45 \\div 4 = 11{,}25\\text{ cm}\\), nên khẳng định trên là Sai.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_104",
+      "questiontext": "Một căn phòng hình chữ nhật có chiều dài 8 m và chiều rộng 6 m. Người ta dùng các viên gạch vuông cạnh 40 cm để lát nền. Hỏi cần bao nhiêu viên gạch để lát kín nền căn phòng đó (coi mạch vữa không đáng kể)?",
+      "generalfeedback": "Diện tích căn phòng là \\(8 \\times 6 = 48\\text{ m}^2 = 480000\\text{ cm}^2\\). Diện tích 1 viên gạch là \\(40 \\times 40 = 1600\\text{ cm}^2\\). Số viên gạch cần dùng là \\(480000 \\div 1600 = 300\\) viên.",
+      "answers": [
+        {
+          "text": "300 viên",
+          "fraction": 100
+        },
+        {
+          "text": "30 viên",
+          "fraction": 0
+        },
+        {
+          "text": "3000 viên",
+          "fraction": 0
+        },
+        {
+          "text": "120 viên",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_104",
+      "questiontext": "Một thửa ruộng hình thang có đáy lớn 25 m, đáy nhỏ 15 m và chiều cao 10 m. Tính diện tích thửa ruộng đó theo đơn vị m\\(^2\\). (Chỉ điền số)",
+      "generalfeedback": "Diện tích thửa ruộng hình thang là \\(S = (25 + 15) \\times 10 \\div 2 = 200\\text{ m}^2\\).",
+      "answers": [
+        {
+          "text": "200",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_104",
+      "questiontext": "Một bức tường hình chữ nhật có chiều dài {length} m và chiều rộng {width} m. Chi phí sơn mỗi mét vuông tường là 50000 đồng. Tính tổng chi phí để sơn toàn bộ bức tường đó (theo đơn vị đồng).",
+      "generalfeedback": "Diện tích bức tường là {length} * {width} m2. Tổng chi phí sơn là {length} * {width} * 50000 đồng.",
+      "dataset_definitions": [
+        {
+          "name": "length",
+          "type": "number",
+          "min": 4,
+          "max": 10,
+          "step": 1
+        },
+        {
+          "name": "width",
+          "type": "number",
+          "min": 3,
+          "max": 6,
+          "step": 1
+        }
+      ],
+      "answers": [
+        {
+          "text": "{length} * {width} * 50000",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ],
+      "wildcards": [
+        {
+          "name": "width",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "length",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_104",
+      "questiontext": "Một khu vườn hình bình hành có độ dài một cạnh là {a} m và chiều cao tương ứng là h m. Biểu thức đúng để tính diện tích khu vườn đó (theo m2) là:",
+      "generalfeedback": "Diện tích hình bình hành bằng độ dài cạnh nhân với chiều cao tương ứng: S = {a} * {h}.",
+      "dataset_definitions": [
+        {
+          "name": "a",
+          "type": "number",
+          "min": 10,
+          "max": 30,
+          "step": 2
+        },
+        {
+          "name": "h",
+          "type": "number",
+          "min": 5,
+          "max": 15,
+          "step": 1
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a} * {h}",
+          "fraction": 100,
+          "tolerance": 0.01
+        },
+        {
+          "text": "({a} + {h}) * 2",
+          "fraction": 0,
+          "tolerance": 0.01
+        },
+        {
+          "text": "({a} * {h}) / 2",
+          "fraction": 0,
+          "tolerance": 0.01
+        },
+        {
+          "text": "{a} * 2 + {h} * 2",
+          "fraction": 0,
+          "tolerance": 0.01
+        }
+      ],
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_104",
+      "questiontext": "Một lối đi trong vườn hình chữ nhật được lát gạch. Lối đi có chiều dài {L} m và chiều rộng {W} m. Mỗi viên gạch lát hình vuông cạnh 0.5 m có giá {P} đồng. Tính tổng số tiền mua gạch để lát kín lối đi.",
+      "generalfeedback": "Diện tích lối đi là {L} * {W} m2. Diện tích 1 viên gạch là 0.5 * 0.5 = 0.25 m2. Số viên gạch là ({L} * {W}) / 0.25 = {L} * {W} * 4. Tổng số tiền là {L} * {W} * 4 * {P} đồng.",
+      "dataset_definitions": [
+        {
+          "name": "L",
+          "type": "number",
+          "min": 10,
+          "max": 20,
+          "step": 2
+        },
+        {
+          "name": "W",
+          "type": "number",
+          "min": 2,
+          "max": 4,
+          "step": 1
+        },
+        {
+          "name": "P",
+          "type": "number",
+          "min": 20000,
+          "max": 40000,
+          "step": 5000
+        }
+      ],
+      "answers": [
+        {
+          "text": "{L} * {W} * 4 * {P}",
+          "fraction": 100,
+          "tolerance": 0.01
+        },
+        {
+          "text": "{L} * {W} * {P}",
+          "fraction": 0,
+          "tolerance": 0.01
+        },
+        {
+          "text": "({L} + {W}) * 2 * {P}",
+          "fraction": 0,
+          "tolerance": 0.01
+        },
+        {
+          "text": "{L} * {W} * 2 * {P}",
+          "fraction": 0,
+          "tolerance": 0.01
+        }
+      ],
+      "wildcards": [
+        {
+          "name": "W",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "P",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "L",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_103",
+      "questiontext": "Một khu vườn hình chữ nhật có chiều dài 15 m và chiều rộng 10 m. Người ta muốn làm hàng rào bao quanh khu vườn đó (có để một lối đi rộng 2 m). Độ dài hàng rào cần làm là:",
+      "generalfeedback": "Chu vi khu vườn là \\((15 + 10) \\times 2 = 50\\text{ m}\\). Độ dài hàng rào là \\(50 - 2 = 48\\text{ m}\\).",
+      "answers": [
+        {
+          "text": "48 m",
+          "fraction": 100
+        },
+        {
+          "text": "50 m",
+          "fraction": 0
+        },
+        {
+          "text": "52 m",
+          "fraction": 0
+        },
+        {
+          "text": "150 m",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_103",
+      "questiontext": "Một mảnh đất hình thoi có độ dài cạnh là 12 m. Người ta rào xung quanh mảnh đất đó bằng dây thép gai. Hỏi cần bao nhiêu mét dây thép gai để rào hết 1 vòng mảnh đất?",
+      "generalfeedback": "Chu vi mảnh đất hình thoi là \\(12 \\times 4 = 48\\text{ m}\\). Số mét dây thép gai cần dùng là 48 m.",
+      "answers": [
+        {
+          "text": "48",
+          "fraction": 100
+        },
+        {
+          "text": "48 m",
+          "fraction": 100
+        },
+        {
+          "text": "48m",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_103",
+      "questiontext": "Bác Bình muốn làm khung gỗ hình chữ nhật cho bức tranh có chiều dài {a} cm và chiều rộng {b} cm. Hãy tính tổng độ dài thanh gỗ bác Bình cần dùng (coi mối nối không đáng kể).",
+      "generalfeedback": "Độ dài thanh gỗ chính là chu vi hình chữ nhật: ({a} + {b}) * 2 cm.",
+      "dataset_definitions": [
+        {
+          "name": "a",
+          "type": "number",
+          "min": 50,
+          "max": 100,
+          "step": 5
+        },
+        {
+          "name": "b",
+          "type": "number",
+          "min": 30,
+          "max": 60,
+          "step": 5
+        }
+      ],
+      "answers": [
+        {
+          "text": "({a} + {b}) * 2",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ],
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_103",
+      "questiontext": "Một sân thể thao hình vuông có cạnh độ dài {a} m. Một vận động viên chạy xung quanh sân đó {n} vòng. Hỏi vận động viên đó đã chạy được quãng đường tổng cộng bao nhiêu mét?",
+      "generalfeedback": "Chu vi sân hình vuông là {a} * 4 m. Quãng đường vận động viên chạy là {a} * 4 * {n} m.",
+      "dataset_definitions": [
+        {
+          "name": "a",
+          "type": "number",
+          "min": 25,
+          "max": 50,
+          "step": 5
+        },
+        {
+          "name": "n",
+          "type": "number",
+          "min": 3,
+          "max": 10,
+          "step": 1
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a} * 4 * {n}",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ],
+      "wildcards": [
+        {
+          "name": "n",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_103",
+      "questiontext": "Một khung dây thép hình tam giác đều có cạnh 15 cm được uốn lại thành một khung dây thép hình vuông. Cạnh của hình vuông đó có độ dài là 12 cm. Khẳng định trên Đúng hay Sai?",
+      "generalfeedback": "Độ dài dây thép (chu vi tam giác đều) là \\(15 \\times 3 = 45\\text{ cm}\\). Cạnh hình vuông thu được phải là \\(45 \\div 4 = 11{,}25\\text{ cm}\\), nên khẳng định trên là Sai.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_104",
+      "questiontext": "Một căn phòng hình chữ nhật có chiều dài 8 m và chiều rộng 6 m. Người ta dùng các viên gạch vuông cạnh 40 cm để lát nền. Hỏi cần bao nhiêu viên gạch để lát kín nền căn phòng đó (coi mạch vữa không đáng kể)?",
+      "generalfeedback": "Diện tích căn phòng là \\(8 \\times 6 = 48\\text{ m}^2 = 480000\\text{ cm}^2\\). Diện tích 1 viên gạch là \\(40 \\times 40 = 1600\\text{ cm}^2\\). Số viên gạch cần dùng là \\(480000 \\div 1600 = 300\\) viên.",
+      "answers": [
+        {
+          "text": "300 viên",
+          "fraction": 100
+        },
+        {
+          "text": "30 viên",
+          "fraction": 0
+        },
+        {
+          "text": "3000 viên",
+          "fraction": 0
+        },
+        {
+          "text": "120 viên",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_104",
+      "questiontext": "Một thửa ruộng hình thang có đáy lớn 25 m, đáy nhỏ 15 m và chiều cao 10 m. Tính diện tích thửa ruộng đó theo đơn vị m\\(^2\\). (Chỉ điền số)",
+      "generalfeedback": "Diện tích thửa ruộng hình thang là \\(S = (25 + 15) \\times 10 \\div 2 = 200\\text{ m}^2\\).",
+      "answers": [
+        {
+          "text": "200",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_104",
+      "questiontext": "Một bức tường hình chữ nhật có chiều dài {length} m và chiều rộng {width} m. Chi phí sơn mỗi mét vuông tường là 50000 đồng. Tính tổng chi phí để sơn toàn bộ bức tường đó (theo đơn vị đồng).",
+      "generalfeedback": "Diện tích bức tường là {length} * {width} m2. Tổng chi phí sơn là {length} * {width} * 50000 đồng.",
+      "dataset_definitions": [
+        {
+          "name": "length",
+          "type": "number",
+          "min": 4,
+          "max": 10,
+          "step": 1
+        },
+        {
+          "name": "width",
+          "type": "number",
+          "min": 3,
+          "max": 6,
+          "step": 1
+        }
+      ],
+      "answers": [
+        {
+          "text": "{length} * {width} * 50000",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ],
+      "wildcards": [
+        {
+          "name": "width",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "length",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_104",
+      "questiontext": "Một khu vườn hình bình hành có độ dài một cạnh là {a} m và chiều cao tương ứng là h m. Biểu thức đúng để tính diện tích khu vườn đó (theo m2) là:",
+      "generalfeedback": "Diện tích hình bình hành bằng độ dài cạnh nhân với chiều cao tương ứng: S = {a} * {h}.",
+      "dataset_definitions": [
+        {
+          "name": "a",
+          "type": "number",
+          "min": 10,
+          "max": 30,
+          "step": 2
+        },
+        {
+          "name": "h",
+          "type": "number",
+          "min": 5,
+          "max": 15,
+          "step": 1
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a} * {h}",
+          "fraction": 100,
+          "tolerance": 0.01
+        },
+        {
+          "text": "({a} + {h}) * 2",
+          "fraction": 0,
+          "tolerance": 0.01
+        },
+        {
+          "text": "({a} * {h}) / 2",
+          "fraction": 0,
+          "tolerance": 0.01
+        },
+        {
+          "text": "{a} * 2 + {h} * 2",
+          "fraction": 0,
+          "tolerance": 0.01
+        }
+      ],
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_104",
+      "questiontext": "Một lối đi trong vườn hình chữ nhật được lát gạch. Lối đi có chiều dài {L} m và chiều rộng {W} m. Mỗi viên gạch lát hình vuông cạnh 0.5 m có giá {P} đồng. Tính tổng số tiền mua gạch để lát kín lối đi.",
+      "generalfeedback": "Diện tích lối đi là {L} * {W} m2. Diện tích 1 viên gạch là 0.5 * 0.5 = 0.25 m2. Số viên gạch là ({L} * {W}) / 0.25 = {L} * {W} * 4. Tổng số tiền là {L} * {W} * 4 * {P} đồng.",
+      "dataset_definitions": [
+        {
+          "name": "L",
+          "type": "number",
+          "min": 10,
+          "max": 20,
+          "step": 2
+        },
+        {
+          "name": "W",
+          "type": "number",
+          "min": 2,
+          "max": 4,
+          "step": 1
+        },
+        {
+          "name": "P",
+          "type": "number",
+          "min": 20000,
+          "max": 40000,
+          "step": 5000
+        }
+      ],
+      "answers": [
+        {
+          "text": "{L} * {W} * 4 * {P}",
+          "fraction": 100,
+          "tolerance": 0.01
+        },
+        {
+          "text": "{L} * {W} * {P}",
+          "fraction": 0,
+          "tolerance": 0.01
+        },
+        {
+          "text": "({L} + {W}) * 2 * {P}",
+          "fraction": 0,
+          "tolerance": 0.01
+        },
+        {
+          "text": "{L} * {W} * 2 * {P}",
+          "fraction": 0,
+          "tolerance": 0.01
+        }
+      ],
+      "wildcards": [
+        {
+          "name": "W",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "P",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "L",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_103",
+      "questiontext": "Một khu vườn hình chữ nhật có chiều dài 15 m và chiều rộng 10 m. Người ta muốn làm hàng rào bao quanh khu vườn đó (có để một lối đi rộng 2 m). Độ dài hàng rào cần làm là:",
+      "generalfeedback": "Chu vi khu vườn là \\((15 + 10) \\times 2 = 50\\text{ m}\\). Độ dài hàng rào là \\(50 - 2 = 48\\text{ m}\\).",
+      "answers": [
+        {
+          "text": "48 m",
+          "fraction": 100
+        },
+        {
+          "text": "50 m",
+          "fraction": 0
+        },
+        {
+          "text": "52 m",
+          "fraction": 0
+        },
+        {
+          "text": "150 m",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_103",
+      "questiontext": "Một mảnh đất hình thoi có độ dài cạnh là 12 m. Người ta rào xung quanh mảnh đất đó bằng dây thép gai. Hỏi cần bao nhiêu mét dây thép gai để rào hết 1 vòng mảnh đất?",
+      "generalfeedback": "Chu vi mảnh đất hình thoi là \\(12 \\times 4 = 48\\text{ m}\\). Số mét dây thép gai cần dùng là 48 m.",
+      "answers": [
+        {
+          "text": "48",
+          "fraction": 100
+        },
+        {
+          "text": "48 m",
+          "fraction": 100
+        },
+        {
+          "text": "48m",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_103",
+      "questiontext": "Bác Bình muốn làm khung gỗ hình chữ nhật cho bức tranh có chiều dài {a} cm và chiều rộng {b} cm. Hãy tính tổng độ dài thanh gỗ bác Bình cần dùng (coi mối nối không đáng kể).",
+      "generalfeedback": "Độ dài thanh gỗ chính là chu vi hình chữ nhật: ({a} + {b}) * 2 cm.",
+      "dataset_definitions": [
+        {
+          "name": "a",
+          "type": "number",
+          "min": 50,
+          "max": 100,
+          "step": 5
+        },
+        {
+          "name": "b",
+          "type": "number",
+          "min": 30,
+          "max": 60,
+          "step": 5
+        }
+      ],
+      "answers": [
+        {
+          "text": "({a} + {b}) * 2",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ],
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_103",
+      "questiontext": "Một sân thể thao hình vuông có cạnh độ dài {a} m. Một vận động viên chạy xung quanh sân đó {n} vòng. Hỏi vận động viên đó đã chạy được quãng đường tổng cộng bao nhiêu mét?",
+      "generalfeedback": "Chu vi sân hình vuông là {a} * 4 m. Quãng đường vận động viên chạy là {a} * 4 * {n} m.",
+      "dataset_definitions": [
+        {
+          "name": "a",
+          "type": "number",
+          "min": 25,
+          "max": 50,
+          "step": 5
+        },
+        {
+          "name": "n",
+          "type": "number",
+          "min": 3,
+          "max": 10,
+          "step": 1
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a} * 4 * {n}",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ],
+      "wildcards": [
+        {
+          "name": "n",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_103",
+      "questiontext": "Một khung dây thép hình tam giác đều có cạnh 15 cm được uốn lại thành một khung dây thép hình vuông. Cạnh của hình vuông đó có độ dài là 12 cm. Khẳng định trên Đúng hay Sai?",
+      "generalfeedback": "Độ dài dây thép (chu vi tam giác đều) là \\(15 \\times 3 = 45\\text{ cm}\\). Cạnh hình vuông thu được phải là \\(45 \\div 4 = 11{,}25\\text{ cm}\\), nên khẳng định trên là Sai.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_104",
+      "questiontext": "Một căn phòng hình chữ nhật có chiều dài 8 m và chiều rộng 6 m. Người ta dùng các viên gạch vuông cạnh 40 cm để lát nền. Hỏi cần bao nhiêu viên gạch để lát kín nền căn phòng đó (coi mạch vữa không đáng kể)?",
+      "generalfeedback": "Diện tích căn phòng là \\(8 \\times 6 = 48\\text{ m}^2 = 480000\\text{ cm}^2\\). Diện tích 1 viên gạch là \\(40 \\times 40 = 1600\\text{ cm}^2\\). Số viên gạch cần dùng là \\(480000 \\div 1600 = 300\\) viên.",
+      "answers": [
+        {
+          "text": "300 viên",
+          "fraction": 100
+        },
+        {
+          "text": "30 viên",
+          "fraction": 0
+        },
+        {
+          "text": "3000 viên",
+          "fraction": 0
+        },
+        {
+          "text": "120 viên",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_104",
+      "questiontext": "Một thửa ruộng hình thang có đáy lớn 25 m, đáy nhỏ 15 m và chiều cao 10 m. Tính diện tích thửa ruộng đó theo đơn vị m\\(^2\\). (Chỉ điền số)",
+      "generalfeedback": "Diện tích thửa ruộng hình thang là \\(S = (25 + 15) \\times 10 \\div 2 = 200\\text{ m}^2\\).",
+      "answers": [
+        {
+          "text": "200",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_104",
+      "questiontext": "Một bức tường hình chữ nhật có chiều dài {length} m và chiều rộng {width} m. Chi phí sơn mỗi mét vuông tường là 50000 đồng. Tính tổng chi phí để sơn toàn bộ bức tường đó (theo đơn vị đồng).",
+      "generalfeedback": "Diện tích bức tường là {length} * {width} m2. Tổng chi phí sơn là {length} * {width} * 50000 đồng.",
+      "dataset_definitions": [
+        {
+          "name": "length",
+          "type": "number",
+          "min": 4,
+          "max": 10,
+          "step": 1
+        },
+        {
+          "name": "width",
+          "type": "number",
+          "min": 3,
+          "max": 6,
+          "step": 1
+        }
+      ],
+      "answers": [
+        {
+          "text": "{length} * {width} * 50000",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ],
+      "wildcards": [
+        {
+          "name": "width",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "length",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_104",
+      "questiontext": "Một khu vườn hình bình hành có độ dài một cạnh là {a} m và chiều cao tương ứng là h m. Biểu thức đúng để tính diện tích khu vườn đó (theo m2) là:",
+      "generalfeedback": "Diện tích hình bình hành bằng độ dài cạnh nhân với chiều cao tương ứng: S = {a} * {h}.",
+      "dataset_definitions": [
+        {
+          "name": "a",
+          "type": "number",
+          "min": 10,
+          "max": 30,
+          "step": 2
+        },
+        {
+          "name": "h",
+          "type": "number",
+          "min": 5,
+          "max": 15,
+          "step": 1
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a} * {h}",
+          "fraction": 100,
+          "tolerance": 0.01
+        },
+        {
+          "text": "({a} + {h}) * 2",
+          "fraction": 0,
+          "tolerance": 0.01
+        },
+        {
+          "text": "({a} * {h}) / 2",
+          "fraction": 0,
+          "tolerance": 0.01
+        },
+        {
+          "text": "{a} * 2 + {h} * 2",
+          "fraction": 0,
+          "tolerance": 0.01
+        }
+      ],
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_104",
+      "questiontext": "Một lối đi trong vườn hình chữ nhật được lát gạch. Lối đi có chiều dài {L} m và chiều rộng {W} m. Mỗi viên gạch lát hình vuông cạnh 0.5 m có giá {P} đồng. Tính tổng số tiền mua gạch để lát kín lối đi.",
+      "generalfeedback": "Diện tích lối đi là {L} * {W} m2. Diện tích 1 viên gạch là 0.5 * 0.5 = 0.25 m2. Số viên gạch là ({L} * {W}) / 0.25 = {L} * {W} * 4. Tổng số tiền là {L} * {W} * 4 * {P} đồng.",
+      "dataset_definitions": [
+        {
+          "name": "L",
+          "type": "number",
+          "min": 10,
+          "max": 20,
+          "step": 2
+        },
+        {
+          "name": "W",
+          "type": "number",
+          "min": 2,
+          "max": 4,
+          "step": 1
+        },
+        {
+          "name": "P",
+          "type": "number",
+          "min": 20000,
+          "max": 40000,
+          "step": 5000
+        }
+      ],
+      "answers": [
+        {
+          "text": "{L} * {W} * 4 * {P}",
+          "fraction": 100,
+          "tolerance": 0.01
+        },
+        {
+          "text": "{L} * {W} * {P}",
+          "fraction": 0,
+          "tolerance": 0.01
+        },
+        {
+          "text": "({L} + {W}) * 2 * {P}",
+          "fraction": 0,
+          "tolerance": 0.01
+        },
+        {
+          "text": "{L} * {W} * 2 * {P}",
+          "fraction": 0,
+          "tolerance": 0.01
+        }
+      ],
+      "wildcards": [
+        {
+          "name": "W",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "P",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "L",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_103",
+      "questiontext": "Một khu vườn hình chữ nhật có chiều dài 15 m và chiều rộng 10 m. Người ta muốn làm hàng rào bao quanh khu vườn đó (có để một lối đi rộng 2 m). Độ dài hàng rào cần làm là:",
+      "generalfeedback": "Chu vi khu vườn là \\((15 + 10) \\times 2 = 50\\text{ m}\\). Độ dài hàng rào là \\(50 - 2 = 48\\text{ m}\\).",
+      "answers": [
+        {
+          "text": "48 m",
+          "fraction": 100
+        },
+        {
+          "text": "50 m",
+          "fraction": 0
+        },
+        {
+          "text": "52 m",
+          "fraction": 0
+        },
+        {
+          "text": "150 m",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_103",
+      "questiontext": "Một mảnh đất hình thoi có độ dài cạnh là 12 m. Người ta rào xung quanh mảnh đất đó bằng dây thép gai. Hỏi cần bao nhiêu mét dây thép gai để rào hết 1 vòng mảnh đất?",
+      "generalfeedback": "Chu vi mảnh đất hình thoi là \\(12 \\times 4 = 48\\text{ m}\\). Số mét dây thép gai cần dùng là 48 m.",
+      "answers": [
+        {
+          "text": "48",
+          "fraction": 100
+        },
+        {
+          "text": "48 m",
+          "fraction": 100
+        },
+        {
+          "text": "48m",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_103",
+      "questiontext": "Bác Bình muốn làm khung gỗ hình chữ nhật cho bức tranh có chiều dài {a} cm và chiều rộng {b} cm. Hãy tính tổng độ dài thanh gỗ bác Bình cần dùng (coi mối nối không đáng kể).",
+      "generalfeedback": "Độ dài thanh gỗ chính là chu vi hình chữ nhật: ({a} + {b}) * 2 cm.",
+      "dataset_definitions": [
+        {
+          "name": "a",
+          "type": "number",
+          "min": 50,
+          "max": 100,
+          "step": 5
+        },
+        {
+          "name": "b",
+          "type": "number",
+          "min": 30,
+          "max": 60,
+          "step": 5
+        }
+      ],
+      "answers": [
+        {
+          "text": "({a} + {b}) * 2",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ],
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_103",
+      "questiontext": "Một sân thể thao hình vuông có cạnh độ dài {a} m. Một vận động viên chạy xung quanh sân đó {n} vòng. Hỏi vận động viên đó đã chạy được quãng đường tổng cộng bao nhiêu mét?",
+      "generalfeedback": "Chu vi sân hình vuông là {a} * 4 m. Quãng đường vận động viên chạy là {a} * 4 * {n} m.",
+      "dataset_definitions": [
+        {
+          "name": "a",
+          "type": "number",
+          "min": 25,
+          "max": 50,
+          "step": 5
+        },
+        {
+          "name": "n",
+          "type": "number",
+          "min": 3,
+          "max": 10,
+          "step": 1
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a} * 4 * {n}",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ],
+      "wildcards": [
+        {
+          "name": "n",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_103",
+      "questiontext": "Một khung dây thép hình tam giác đều có cạnh 15 cm được uốn lại thành một khung dây thép hình vuông. Cạnh của hình vuông đó có độ dài là 12 cm. Khẳng định trên Đúng hay Sai?",
+      "generalfeedback": "Độ dài dây thép (chu vi tam giác đều) là \\(15 \\times 3 = 45\\text{ cm}\\). Cạnh hình vuông thu được phải là \\(45 \\div 4 = 11{,}25\\text{ cm}\\), nên khẳng định trên là Sai.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_104",
+      "questiontext": "Một căn phòng hình chữ nhật có chiều dài 8 m và chiều rộng 6 m. Người ta dùng các viên gạch vuông cạnh 40 cm để lát nền. Hỏi cần bao nhiêu viên gạch để lát kín nền căn phòng đó (coi mạch vữa không đáng kể)?",
+      "generalfeedback": "Diện tích căn phòng là \\(8 \\times 6 = 48\\text{ m}^2 = 480000\\text{ cm}^2\\). Diện tích 1 viên gạch là \\(40 \\times 40 = 1600\\text{ cm}^2\\). Số viên gạch cần dùng là \\(480000 \\div 1600 = 300\\) viên.",
+      "answers": [
+        {
+          "text": "300 viên",
+          "fraction": 100
+        },
+        {
+          "text": "30 viên",
+          "fraction": 0
+        },
+        {
+          "text": "3000 viên",
+          "fraction": 0
+        },
+        {
+          "text": "120 viên",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_104",
+      "questiontext": "Một thửa ruộng hình thang có đáy lớn 25 m, đáy nhỏ 15 m và chiều cao 10 m. Tính diện tích thửa ruộng đó theo đơn vị m\\(^2\\). (Chỉ điền số)",
+      "generalfeedback": "Diện tích thửa ruộng hình thang là \\(S = (25 + 15) \\times 10 \\div 2 = 200\\text{ m}^2\\).",
+      "answers": [
+        {
+          "text": "200",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_104",
+      "questiontext": "Một bức tường hình chữ nhật có chiều dài {length} m và chiều rộng {width} m. Chi phí sơn mỗi mét vuông tường là 50000 đồng. Tính tổng chi phí để sơn toàn bộ bức tường đó (theo đơn vị đồng).",
+      "generalfeedback": "Diện tích bức tường là {length} * {width} m2. Tổng chi phí sơn là {length} * {width} * 50000 đồng.",
+      "dataset_definitions": [
+        {
+          "name": "length",
+          "type": "number",
+          "min": 4,
+          "max": 10,
+          "step": 1
+        },
+        {
+          "name": "width",
+          "type": "number",
+          "min": 3,
+          "max": 6,
+          "step": 1
+        }
+      ],
+      "answers": [
+        {
+          "text": "{length} * {width} * 50000",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ],
+      "wildcards": [
+        {
+          "name": "width",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "length",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_104",
+      "questiontext": "Một khu vườn hình bình hành có độ dài một cạnh là {a} m và chiều cao tương ứng là h m. Biểu thức đúng để tính diện tích khu vườn đó (theo m2) là:",
+      "generalfeedback": "Diện tích hình bình hành bằng độ dài cạnh nhân với chiều cao tương ứng: S = {a} * {h}.",
+      "dataset_definitions": [
+        {
+          "name": "a",
+          "type": "number",
+          "min": 10,
+          "max": 30,
+          "step": 2
+        },
+        {
+          "name": "h",
+          "type": "number",
+          "min": 5,
+          "max": 15,
+          "step": 1
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a} * {h}",
+          "fraction": 100,
+          "tolerance": 0.01
+        },
+        {
+          "text": "({a} + {h}) * 2",
+          "fraction": 0,
+          "tolerance": 0.01
+        },
+        {
+          "text": "({a} * {h}) / 2",
+          "fraction": 0,
+          "tolerance": 0.01
+        },
+        {
+          "text": "{a} * 2 + {h} * 2",
+          "fraction": 0,
+          "tolerance": 0.01
+        }
+      ],
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_104",
+      "questiontext": "Một lối đi trong vườn hình chữ nhật được lát gạch. Lối đi có chiều dài {L} m và chiều rộng {W} m. Mỗi viên gạch lát hình vuông cạnh 0.5 m có giá {P} đồng. Tính tổng số tiền mua gạch để lát kín lối đi.",
+      "generalfeedback": "Diện tích lối đi là {L} * {W} m2. Diện tích 1 viên gạch là 0.5 * 0.5 = 0.25 m2. Số viên gạch là ({L} * {W}) / 0.25 = {L} * {W} * 4. Tổng số tiền là {L} * {W} * 4 * {P} đồng.",
+      "dataset_definitions": [
+        {
+          "name": "L",
+          "type": "number",
+          "min": 10,
+          "max": 20,
+          "step": 2
+        },
+        {
+          "name": "W",
+          "type": "number",
+          "min": 2,
+          "max": 4,
+          "step": 1
+        },
+        {
+          "name": "P",
+          "type": "number",
+          "min": 20000,
+          "max": 40000,
+          "step": 5000
+        }
+      ],
+      "answers": [
+        {
+          "text": "{L} * {W} * 4 * {P}",
+          "fraction": 100,
+          "tolerance": 0.01
+        },
+        {
+          "text": "{L} * {W} * {P}",
+          "fraction": 0,
+          "tolerance": 0.01
+        },
+        {
+          "text": "({L} + {W}) * 2 * {P}",
+          "fraction": 0,
+          "tolerance": 0.01
+        },
+        {
+          "text": "{L} * {W} * 2 * {P}",
+          "fraction": 0,
+          "tolerance": 0.01
+        }
+      ],
+      "wildcards": [
+        {
+          "name": "W",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "P",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "L",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Q1",
+      "questiontext": "Trong buổi trang trí lớp học, nhóm của Nam cần dán dây ruy-băng trang trí xung quanh mép một bảng từ hình chữ nhật có chiều dài 3 m và chiều rộng 1{,}2 m. Nam đề xuất mua đại 10 m dây ruy-băng cho nhanh mà không cần đo tính. Em hãy chọn phương án thể hiện tinh thần trách nhiệm và tiết kiệm nhất:",
+      "generalfeedback": "Thực hiện trách nhiệm và tiết kiệm: Cần tính chính xác chu vi bảng \\((3 + 1{,}2) \\times 2 = 8{,}4\\text{ m}\\) để mua vừa đủ dây ruy-băng, tránh lãng phí.",
+      "answers": [
+        {
+          "text": "Không đồng ý với Nam. Cần tính chính xác chu vi bảng \\((3 + 1{,}2) \\times 2 = 8{,}4\\text{ m}\\) để mua vừa đủ dây ruy-băng, tránh lãng phí.",
+          "fraction": 100
+        },
+        {
+          "text": "Đồng ý với Nam vì mua thừa hay thiếu ruy-băng một chút không quan trọng.",
+          "fraction": 0
+        },
+        {
+          "text": "Đề xuất mua 20 m ruy-băng để dự phòng cho chắc chắn.",
+          "fraction": 0
+        },
+        {
+          "text": "Đồng ý với Nam và không tham gia tính toán cùng nhóm nữa.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "G1",
+      "questiontext": "Để chuẩn bị bài thuyết trình nhóm về chủ đề 'Hệ thống công thức hình học chương IV', hãy ghép mỗi đại lượng ở Cột A với biểu thức toán học tương ứng ở Cột B để bảng tóm tắt hoàn chỉnh và rõ ràng:",
+      "generalfeedback": "Chu vi hình chữ nhật là \\((a + b) \\times 2\\), diện tích hình thoi là \\(\\frac{1}{2} m \\times n\\), diện tích hình bình hành là \\(a \\times h\\), diện tích hình thang là \\((a + b) \\times h \\div 2\\).",
+      "subquestions": [
+        {
+          "question": "Chu vi hình chữ nhật chiều dài \\(a\\), chiều rộng \\(b\\)",
+          "answer": "\\((a + b) \\times 2\\)"
+        },
+        {
+          "question": "Diện tích hình thoi có hai đường chéo \\(m, n\\)",
+          "answer": "\\(\\frac{1}{2} m \\times n\\)"
+        },
+        {
+          "question": "Diện tích hình bình hành cạnh \\(a\\), chiều cao \\(h\\)",
+          "answer": "\\(a \\times h\\)"
+        },
+        {
+          "question": "Diện tích hình thang đáy \\(a, b\\), chiều cao \\(h\\)",
+          "answer": "\\((a + b) \\times h \\div 2\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "D1",
+      "imgs": [
+        "_page_0_Picture_17.jpeg"
+      ],
+      "questiontext": "[img:_page_0_Picture_17.jpeg] Quan sát sơ đồ mảnh vườn hình phức hợp trong hình vẽ bên. Để lập mô hình toán học tính diện tích mảnh vườn này, cách chia mảnh vườn thành hai hình chữ nhật nào sau đây là hợp lý và dễ tính toán nhất?",
+      "generalfeedback": "Mảnh vườn có thể chia thành 1 hình chữ nhật nằm ngang kích thước \\(6\\text{ m} \\times 5\\text{ m}\\) (hoặc tổng chiều dài) và 1 hình chữ nhật phía trên/dưới phù hợp với các kích thước đã cho.",
+      "answers": [
+        {
+          "text": "Chia thành 2 hình chữ nhật không chồng lấn có kích thước phù hợp với các số đo 6 m, 3 m, 7 m, 5 m, 2 m đã cho.",
+          "fraction": 100
+        },
+        {
+          "text": "Chia thành 3 hình tam giác đều bằng nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Chia thành 2 hình thoi có đường chéo bằng 5 m.",
+          "fraction": 0
+        },
+        {
+          "text": "Không thể chia mảnh vườn thành các hình chữ nhật nhỏ hơn.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "D1",
+      "imgs": [
+        "_page_0_Picture_21.jpeg"
+      ],
+      "questiontext": "[img:_page_0_Picture_21.jpeg] Quan sát sơ đồ hiên nhà hình thang cân trong hình vẽ bên với hai đáy 54 dm, 72 dm và chiều cao 45 dm. Mô hình toán học đúng để tính diện tích hiên nhà \\(S\\) (theo dm2) là:",
+      "generalfeedback": "Diện tích hình thang cân bằng tổng hai đáy nhân chiều cao chia 2: \\(S = (54 + 72) \\times 45 \\div 2\\).",
+      "answers": [
+        {
+          "text": "\\(S = (54 + 72) \\times 45 \\div 2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(S = (54 + 72) \\times 45\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(S = 54 \\times 72 \\times 45\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(S = 54 \\times 45 \\div 2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "N1",
+      "questiontext": "Một học sinh nhập dữ liệu kích thước hình chữ nhật vào phần mềm bảng tính Excel: ô A2 nhập chiều dài (6), ô B2 nhập chiều rộng (5). Để tính diện tích hình chữ nhật tại ô C2, công thức Excel nào sau đây là đúng?",
+      "generalfeedback": "Trong Excel, diện tích hình chữ nhật bằng tích chiều dài và chiều rộng, dùng công thức `=A2*B2`.",
+      "answers": [
+        {
+          "text": "=A2*B2",
+          "fraction": 100
+        },
+        {
+          "text": "=(A2+B2)*2",
+          "fraction": 0
+        },
+        {
+          "text": "=A2+B2",
+          "fraction": 0
+        },
+        {
+          "text": "=SUM(A2:B2)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "N1",
+      "questiontext": "Trong phần mềm bảng tính, nếu ô A1 chứa độ dài đường chéo thứ nhất và ô B1 chứa độ dài đường chéo thứ hai của một hình thoi, công thức `=A1*B1/2` dùng để tính diện tích hình thoi đó. Khẳng định trên Đúng hay Sai?",
+      "generalfeedback": "Công thức diện tích hình thoi là tích hai đường chéo chia 2. Do đó công thức `=A1*B1/2` trong phần mềm bảng tính là chính xác.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "A1",
+      "questiontext": "Bạn Học sinh hỏi Chatbot AI: 'Tính diện tích hình thoi có hai đường chéo 8 cm và 6 cm'. Chatbot AI trả lời: 'Diện tích hình thoi là \\(8 \\times 6 = 48\\text{ cm}^2\\)'. Em hãy đánh giá câu trả lời của AI và chọn nhận xét đúng nhất:",
+      "generalfeedback": "AI tính sai vì quên chia cho 2. Diện tích hình thoi đúng phải là \\(8 \\times 6 \\div 2 = 24\\text{ cm}^2\\).",
+      "answers": [
+        {
+          "text": "AI trả lời sai vì quên chia cho 2. Kết quả đúng phải là \\(8 \\times 6 \\div 2 = 24\\text{ cm}^2\\).",
+          "fraction": 100
+        },
+        {
+          "text": "AI trả lời đúng vì diện tích hình thoi bằng tích hai đường chéo.",
+          "fraction": 0
+        },
+        {
+          "text": "AI trả lời sai vì phải lấy \\((8 + 6) \\times 2 = 28\\text{ cm}^2\\).",
+          "fraction": 0
+        },
+        {
+          "text": "AI trả lời sai vì hình thoi không thể tính diện tích khi biết hai đường chéo.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "A1",
+      "questiontext": "Để yêu cầu một Trợ lý AI tạo bài toán thực tế tính chi phí sơn tường hình chữ nhật có chiều dài 6 m và chiều rộng 4 m, câu lệnh (prompt) nào dưới đây là đầy đủ dữ kiện và rõ ràng nhất?",
+      "generalfeedback": "Câu lệnh cần đầy đủ hình dạng, kích thước và đơn giá để AI có thể tạo ra bài toán thực tế hoàn chỉnh.",
+      "answers": [
+        {
+          "text": "'Hãy tạo bài toán thực tế tính chi phí sơn bức tường hình chữ nhật dài 6 m, rộng 4 m với đơn giá sơn mỗi mét vuông là 50.000 đồng.'",
+          "fraction": 100
+        },
+        {
+          "text": "'Tính sơn tường hình chữ nhật 6 m và 4 m.'",
+          "fraction": 0
+        },
+        {
+          "text": "'Vẽ bức tường hình chữ nhật dài 6 m rộng 4 m.'",
+          "fraction": 0
+        },
+        {
+          "text": "'Sơn tường tốn bao nhiêu tiền?'",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

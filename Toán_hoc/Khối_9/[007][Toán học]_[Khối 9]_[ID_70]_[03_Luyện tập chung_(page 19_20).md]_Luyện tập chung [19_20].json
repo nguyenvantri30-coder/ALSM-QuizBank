@@ -1,0 +1,695 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 28,
+    "metadata_used": {
+      "YCCD_TOAN9_026": 7,
+      "Tổng hợp phương pháp thế": 4,
+      "cộng đại số và ý nghĩa hình học của hệ PT bậc nhất hai ẩn": 4,
+      "Giải bài tập tổng hợp củng cố kĩ năng giải hệ phương trình bậc nhất hai ẩn": 5,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_TCTH_TUHOC_C2_06": 2,
+      "SUB_GQVD_PHATHIEN_C2_01": 1,
+      "NLT_TOAN_C2_03_04": 2,
+      "NLT_TOAN_C2_03_05": 2
+    },
+    "types_used": {
+      "multichoice": 11,
+      "truefalse": 3,
+      "shortanswer": 2,
+      "numerical": 2,
+      "matching": 3,
+      "gapselect": 3,
+      "ddwtos": 2,
+      "calculatedsimple": 1,
+      "calculatedmulti": 1
+    },
+    "total": 28
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN9_026",
+        "reason": "Đo lường khả năng giải được hệ hai phương trình bậc nhất hai ẩn."
+      },
+      {
+        "metadata_code": "Tổng hợp phương pháp thế",
+        "reason": "Đo lường kiến thức tổng hợp phương pháp thế."
+      },
+      {
+        "metadata_code": "cộng đại số và ý nghĩa hình học của hệ PT bậc nhất hai ẩn",
+        "reason": "Đo lường kiến thức phương pháp cộng đại số và ý nghĩa hình học của hệ phương trình bậc nhất hai ẩn."
+      },
+      {
+        "metadata_code": "Giải bài tập tổng hợp củng cố kĩ năng giải hệ phương trình bậc nhất hai ẩn",
+        "reason": "Đo lường kỹ năng giải bài tập tổng hợp củng cố kỹ năng giải hệ phương trình bậc nhất hai ẩn."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Mã metadata N1 không có trong METADATA_DICTIONARY và nội dung bài học SGK Toán 9 (Luyện tập chung hệ phương trình) không chứa ngữ cảnh tự nhiên để đo lường năng lực tin học/số."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Mã metadata A1 không có trong METADATA_DICTIONARY và nội dung bài học SGK Toán 9 không liên quan trực tiếp đến ứng dụng năng lực AI."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_026",
+      "questiontext": "Cặp số nào sau đây là nghiệm của hệ phương trình \\(\\begin{cases} 2x - y = 1 \\\\ x - 2y = -1 \\end{cases}\\)?",
+      "generalfeedback": "Biến đổi từ phương trình thứ hai ta có \\(x = 2y - 1\\). Thế vào phương trình thứ nhất: \\(2(2y - 1) - y = 1 \\Rightarrow 3y = 3 \\Rightarrow y = 1\\). Suy ra \\(x = 1\\). Vậy nghiệm của hệ là \\((1; 1)\\).",
+      "answers": [
+        {
+          "text": "\\((1; 1)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\((1; -1)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((-1; 1)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((2; 1)\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tổng hợp phương pháp thế",
+      "questiontext": "Khi giải hệ phương trình \\(\\begin{cases} x + 3y = -2 \\\\ 5x - 4y = 28 \\end{cases}\\) bằng phương pháp thế, nếu biểu diễn \\(x\\) theo \\(y\\) từ phương trình thứ nhất ta được biểu thức nào?",
+      "generalfeedback": "Từ phương trình thứ nhất \\(x + 3y = -2\\), chuyển \\(3y\\) sang vế phải ta được \\(x = -2 - 3y\\).",
+      "answers": [
+        {
+          "text": "\\(x = -2 - 3y\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x = 2 + 3y\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x = 3y - 2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x = -2 + 3y\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "cộng đại số và ý nghĩa hình học của hệ PT bậc nhất hai ẩn",
+      "questiontext": "Để giải hệ phương trình \\(\\begin{cases} 5x + 7y = -1 \\\\ 3x + 2y = -5 \\end{cases}\\) bằng phương pháp cộng đại số làm triệt tiêu ẩn \\(y\\), ta nhân hai vế của phương trình thứ nhất với 2 và nhân hai vế của phương trình thứ hai với số nào sau đây?",
+      "generalfeedback": "Hệ số của \\(y\\) ở hai phương trình lần lượt là 7 và 2. Nhân phương trình thứ nhất với 2 ta được hệ số \\(y\\) là 14. Nhân phương trình thứ hai với 7 ta được hệ số \\(y\\) là 14, sau đó trừ hai phương trình cho nhau.",
+      "answers": [
+        {
+          "text": "7",
+          "fraction": 100
+        },
+        {
+          "text": "3",
+          "fraction": 0
+        },
+        {
+          "text": "5",
+          "fraction": 0
+        },
+        {
+          "text": "2",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "cộng đại số và ý nghĩa hình học của hệ PT bậc nhất hai ẩn",
+      "questiontext": "Hệ phương trình \\(\\begin{cases} 2x - 3y = 11 \\\\ -0,8x + 1,2y = 1 \\end{cases}\\) là hệ phương trình vô nghiệm.",
+      "generalfeedback": "Đúng. Nhân phương trình thứ hai với 2,5 ta được \\(-2x + 3y = 2,5\\). Cộng với phương trình thứ nhất \\(2x - 3y = 11\\) ta được \\(0 = 13,5\\) (vô lý). Do đó hệ vô nghiệm.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Giải bài tập tổng hợp củng cố kĩ năng giải hệ phương trình bậc nhất hai ẩn",
+      "questiontext": "Tìm giá trị của hệ số \\(x\\) trong phản ứng hóa học đã được cân bằng sau: \\(3\\text{Fe} + x\\text{O}_2 \\rightarrow y\\text{Fe}_3\\text{O}_4\\).",
+      "generalfeedback": "Số nguyên tử Fe: \\(3 = 3y \\Rightarrow y = 1\\). Số nguyên tử O: \\(2x = 4y \\Rightarrow 2x = 4(1) = 4 \\Rightarrow x = 2\\).",
+      "answers": [
+        {
+          "text": "2",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Giải bài tập tổng hợp củng cố kĩ năng giải hệ phương trình bậc nhất hai ẩn",
+      "questiontext": "Tìm giá trị của \\(a\\) để đường thẳng \\(y = ax + b\\) đi qua hai điểm \\(A(-2; -1)\\) và \\(B(2; 3)\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Đường thẳng đi qua \\(A(-2; -1)\\) nên \\(-2a + b = -1\\). Đi qua \\(B(2; 3)\\) nên \\(2a + b = 3\\). Cộng hai phương trình ta được \\(2b = 2 \\Rightarrow b = 1\\). Thay \\(b = 1\\) ta có \\(2a + 1 = 3 \\Rightarrow a = 1\\).",
+      "answers": [
+        {
+          "text": "1",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Tổng hợp phương pháp thế",
+      "questiontext": "Ghép mỗi hệ phương trình sau với nghiệm tương ứng của nó:",
+      "generalfeedback": "Giải từng hệ phương trình bằng phương pháp thế hoặc cộng đại số để tìm cặp nghiệm tương ứng.",
+      "subquestions": [
+        {
+          "question": "\\(\\begin{cases} 2x - y = 1 \\\\ x - 2y = -1 \\end{cases}\\)",
+          "answer": "\\((1; 1)\\)"
+        },
+        {
+          "question": "\\(\\begin{cases} x + 3y = -2 \\\\ 5x - 4y = 28 \\end{cases}\\)",
+          "answer": "\\((4; -2)\\)"
+        },
+        {
+          "question": "\\(\\begin{cases} 5x + 7y = -1 \\\\ 3x + 2y = -5 \\end{cases}\\)",
+          "answer": "\\((-3; 2)\\)"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "cộng đại số và ý nghĩa hình học của hệ PT bậc nhất hai ẩn",
+      "questiontext": "Để giải hệ phương trình bằng phương pháp cộng đại số, ta nhân hai vế của mỗi phương trình với một số thích hợp (nếu cần) sao cho các hệ số của cùng một ẩn trong hai phương trình [[1]] hoặc [[2]] với nhau.",
+      "generalfeedback": "Theo quy tắc cộng đại số, ta làm cho các hệ số của cùng một ẩn bằng nhau hoặc đối nhau.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "bằng nhau"
+        },
+        {
+          "group": 1,
+          "text": "đối nhau"
+        },
+        {
+          "group": 1,
+          "text": "ngược dấu"
+        },
+        {
+          "group": 1,
+          "text": "bằng 0"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_026",
+      "questiontext": "Trong các cặp số cho trước, cặp số [[1]] là nghiệm của phương trình \\(-2x + 5y = 7\\), còn cặp số [[2]] là nghiệm chung của cả hai phương trình \\(-2x + 5y = 7\\) và \\(4x - 3y = 7\\).",
+      "generalfeedback": "Cặp số \\((-1; 1)\\) thỏa mãn \\(-2(-1) + 5(1) = 7\\). Cặp số \\((4; 3)\\) thỏa mãn cả hai phương trình nên là nghiệm của hệ.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\((-1; 1)\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\((4; 3)\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\((2; 0)\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\((1; -1)\\)"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_026",
+      "questiontext": "Cho hệ phương trình \\(x - y = a\\) và \\(x + y = b\\) với a = {a} và b = {b}. Giá trị của nghiệm x là bao nhiêu?",
+      "generalfeedback": "Cộng hai phương trình theo vế ta được \\(2x = a + b \\Rightarrow x = (a + b)/2\\). Với a = {a} và b = {b}, ta có x = ({a} + {b})/2.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 2.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "({a}+{b})/2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_026",
+      "questiontext": "Giải hệ phương trình \\(\\begin{cases} 4x - 3y = 6 \\\\ 0,4x + 0,2y = 0,8 \\end{cases}\\) bằng phương pháp cộng đại số. Nghiệm của hệ phương trình là cặp số nào?",
+      "generalfeedback": "Nhân phương trình thứ hai với 10 ta được \\(4x + 2y = 8\\). Trừ phương trình này cho phương trình thứ nhất: \\((4x + 2y) - (4x - 3y) = 8 - 6 \\Rightarrow 5y = 2 \\Rightarrow y = 0,4\\). Thay \\(y = 0,4\\) vào \\(4x + 2(0,4) = 8 \\Rightarrow 4x = 7,2 \\Rightarrow x = 1,8\\). Vậy nghiệm của hệ là \\((1,8; 0,4)\\).",
+      "answers": [
+        {
+          "text": "\\((1,8; 0,4)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\((2; 0,4)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((1,8; 0,5)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((2; 1)\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Giải bài tập tổng hợp củng cố kĩ năng giải hệ phương trình bậc nhất hai ẩn",
+      "questiontext": "Tìm các hệ số \\(x, y\\) trong phản ứng hóa học đã được cân bằng sau: \\(4\\text{Al} + x\\text{O}_2 \\rightarrow y\\text{Al}_2\\text{O}_3\\).",
+      "generalfeedback": "Cân bằng số nguyên tử Al: \\(4 = 2y \\Rightarrow y = 2\\). Cân bằng số nguyên tử O: \\(2x = 3y = 3 \\cdot 2 = 6 \\Rightarrow x = 3\\). Vậy \\(x = 3, y = 2\\).",
+      "answers": [
+        {
+          "text": "\\(x = 3, y = 2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x = 2, y = 3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x = 3, y = 1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x = 4, y = 2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Giải bài tập tổng hợp củng cố kĩ năng giải hệ phương trình bậc nhất hai ẩn",
+      "questiontext": "Tìm \\(a\\) và \\(b\\) sao cho hệ phương trình \\(\\begin{cases} ax + by = 1 \\\\ ax + (2 - b)y = 3 \\end{cases}\\) có nghiệm là \\((1; -2)\\).",
+      "generalfeedback": "Thế \\(x = 1, y = -2\\) vào hệ ta được: \\(\\begin{cases} a - 2b = 1 \\\\ a - 2(2 - b) = 3 \\end{cases} \\Leftrightarrow \\begin{cases} a - 2b = 1 \\\\ a + 2b = 7 \\end{cases}\\). Cộng hai phương trình ta được \\(2a = 8 \\Rightarrow a = 4\\). Thay vào \\(4 - 2b = 1 \\Rightarrow b = 1,5\\).",
+      "answers": [
+        {
+          "text": "\\(a = 4; b = 1,5\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(a = 4; b = 2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a = 2; b = 1,5\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a = 1; b = 3\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Tổng hợp phương pháp thế",
+      "questiontext": "Hệ phương trình \\(\\begin{cases} 0,5x - 0,5y = 0,5 \\\\ 1,2x - 1,2y = 1,2 \\end{cases}\\) có vô số nghiệm.",
+      "generalfeedback": "Đúng. Chia hai vế của phương trình thứ nhất cho 0,5 ta được \\(x - y = 1\\). Chia hai vế của phương trình thứ hai cho 1,2 ta cũng được \\(x - y = 1\\). Hai phương trình này trùng nhau nên hệ có vô số nghiệm.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_026",
+      "questiontext": "Nghiệm của hệ phương trình \\(\\begin{cases} 0,5x + 0,6y = 0,4 \\\\ 0,4x - 0,9y = 1,7 \\end{cases}\\) là cặp số nào?",
+      "generalfeedback": "Nhân hai vế của mỗi phương trình với 10 ta được hệ: \\(\\begin{cases} 5x + 6y = 4 \\\\ 4x - 9y = 17 \\end{cases}\\). Nhân phương trình 1 với 3 và phương trình 2 với 2: \\(\\begin{cases} 15x + 18y = 12 \\\\ 8x - 18y = 34 \\end{cases}\\). Cộng từng vế thu được \\(23x = 46 \\Rightarrow x = 2\\). Thế \\(x = 2\\) tính được \\(y = -1\\). Đáp án: (2; -1).",
+      "answers": [
+        {
+          "text": "(2; -1)",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_026",
+      "questiontext": "Giải hệ phương trình \\(\\begin{cases} x + 3y = -2 \\\\ 5x - 4y = 28 \\end{cases}\\). Giá trị của tung độ \\(y\\) trong nghiệm của hệ phương trình là bao nhiêu? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Từ phương trình thứ nhất có \\(x = -2 - 3y\\). Thế vào phương trình thứ hai: \\(5(-2 - 3y) - 4y = 28 \\Leftrightarrow -10 - 15y - 4y = 28 \\Leftrightarrow -19y = 38 \\Rightarrow y = -2\\).",
+      "answers": [
+        {
+          "text": "-2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "cộng đại số và ý nghĩa hình học của hệ PT bậc nhất hai ẩn",
+      "questiontext": "Ghép mỗi hệ phương trình sau với số nghiệm tương ứng của nó:",
+      "generalfeedback": "Hệ thứ nhất có nghiệm duy nhất (1; 1). Hệ thứ hai vô nghiệm do 0x + 0y = 13,5. Hệ thứ ba có vô số nghiệm do hai phương trình trùng nhau.",
+      "subquestions": [
+        {
+          "question": "\\(\\begin{cases} 2x - y = 1 \\\\ x - 2y = -1 \\end{cases}\\)",
+          "answer": "Có nghiệm duy nhất"
+        },
+        {
+          "question": "\\(\\begin{cases} 2x - 3y = 11 \\\\ -0,8x + 1,2y = 1 \\end{cases}\\)",
+          "answer": "Vô nghiệm"
+        },
+        {
+          "question": "\\(\\begin{cases} 0,5x - 0,5y = 0,5 \\\\ 1,2x - 1,2y = 1,2 \\end{cases}\\)",
+          "answer": "Vô số nghiệm"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Tổng hợp phương pháp thế",
+      "questiontext": "Khi giải hệ phương trình bằng phương pháp thế, từ một phương trình của hệ ta biểu diễn ẩn này theo ẩn kia rồi [[1]] vào phương trình còn lại để được phương trình [[2]] ẩn.",
+      "generalfeedback": "Quy tắc thế gồm hai bước: thế biểu thức vào phương trình còn lại để thu được phương trình một ẩn.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "thế"
+        },
+        {
+          "group": 1,
+          "text": "một"
+        },
+        {
+          "group": 1,
+          "text": "cộng"
+        },
+        {
+          "group": 1,
+          "text": "hai"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "Giải bài tập tổng hợp củng cố kĩ năng giải hệ phương trình bậc nhất hai ẩn",
+      "questiontext": "Đường thẳng \\(y = ax + b\\) đi qua hai điểm \\(A(-2; -1)\\) và \\(B(2; 3)\\) có hệ số góc \\(a = \\) [[1]] và tung độ gốc \\(b = \\) [[2]].",
+      "generalfeedback": "Ta có hệ phương trình \\(\\begin{cases} -2a + b = -1 \\\\ 2a + b = 3 \\end{cases}\\). Giải hệ ta được \\(a = 1\\) và \\(b = 1\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "1"
+        },
+        {
+          "group": 1,
+          "text": "-1"
+        },
+        {
+          "group": 1,
+          "text": "2"
+        },
+        {
+          "group": 1,
+          "text": "0"
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_026",
+      "questiontext": "Cho hệ phương trình \\(x + y =\\) {a} và \\(x - y =\\) {b}. Biểu thức tính nghiệm x theo {a} và {b} là:",
+      "generalfeedback": "Cộng vế theo vế hai phương trình ta được \\(2x = {a} + {b} \\Rightarrow x = ({a} + {b})/2\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 2.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "({a}+{b})/2",
+          "fraction": 100
+        },
+        {
+          "text": "({a}-{b})/2",
+          "fraction": 0
+        },
+        {
+          "text": "{a}+{b}",
+          "fraction": 0
+        },
+        {
+          "text": "{a}*{b}",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ làm bài tập Toán về giải hệ phương trình bậc nhất hai ẩn bằng phương pháp cộng đại số, bạn Nam gặp một bài toán có hệ số chưa đối nhau hoặc bằng nhau. Thay vì bỏ cuộc hoặc chép bài của bạn, Nam nên thực hiện hành động nào sau đây để thể hiện tinh thần luôn cố gắng vươn lên trong học tập?",
+      "generalfeedback": "Hành vi kiên trì tìm cách nhân hai vế của phương trình với số thích hợp để đưa về hệ số đối nhau hoặc bằng nhau thể hiện sự chủ động, vượt khó và cố gắng vươn lên trong học tập.",
+      "answers": [
+        {
+          "text": "Kiên trì biến đổi nhân hai vế của các phương trình với số thích hợp để làm xuất hiện các hệ số bằng nhau hoặc đối nhau rồi tiếp tục giải.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài toán này và chỉ làm những bài toán cơ bản đơn giản hơn.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép ngay đáp số từ bài của bạn bên cạnh để kịp nộp bài cho giáo viên.",
+          "fraction": 0
+        },
+        {
+          "text": "Nhờ bạn làm hộ toàn bộ bài tập và không cần tìm hiểu lại cách giải.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_06",
+      "questiontext": "Khi giải hệ phương trình \\(\\begin{cases} x + 3y = -2 \\\\ 5x - 4y = 28 \\end{cases}\\), bạn An rút \\(x = 3y - 2\\) từ phương trình thứ nhất. Được bạn Bình góp ý rằng việc chuyển vế \\(3y\\) sang vế phải bị sai dấu, An nên nhận ra lỗi sai và điều chỉnh như thế nào?",
+      "generalfeedback": "Khi chuyển vế \\(3y\\) từ vế trái sang vế phải của phương trình \\(x + 3y = -2\\), ta phải đổi dấu thành \\(-3y\\), do đó \\(x = -2 - 3y\\). Lắng nghe và điều chỉnh lại bài làm đúng quy tắc thể hiện năng lực tự điều chỉnh bản thân.",
+      "answers": [
+        {
+          "text": "Lắng nghe góp ý, nhận ra khi chuyển vế \\(3y\\) phải đổi dấu thành \\(-3y\\) và sửa lại thành \\(x = -2 - 3y\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Giữ nguyên kết quả \\(x = 3y - 2\\) vì cho rằng chuyển vế không cần đổi dấu.",
+          "fraction": 0
+        },
+        {
+          "text": "Khẳng định bạn Bình sai và không kiểm tra lại các bước biến đổi của mình.",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ toàn bộ bài làm và chuyển sang bài tập khác mà không tìm hiểu nguyên nhân sai.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_PHATHIEN_C2_01",
+      "questiontext": "Cho hai phương pháp giải hệ phương trình \\(\\begin{cases} 5x + 7y = -1 \\\\ 3x + 2y = -5 \\end{cases}\\): Phương pháp A (thế \\(x\\) theo \\(y\\) từ phương trình thứ nhất) và Phương pháp B (nhân phương trình thứ nhất với 2, phương trình thứ hai với 7 để khử \\(y\\) bằng cộng đại số). Phân tích nào sau đây đánh giá đúng về ưu điểm của Phương pháp B trong tình huống học tập này?",
+      "generalfeedback": "Trong hệ này các hệ số đều khác 1 và -1. Nếu dùng phương pháp thế sẽ xuất hiện các phân số gây phức tạp trong tính toán, trong khi phương pháp cộng đại số đưa về các hệ số nguyên giúp tính toán thuận tiện và ít sai sót hơn.",
+      "answers": [
+        {
+          "text": "Phương pháp B giúp tránh được việc biến đổi xuất hiện phân số phức tạp, làm cho quá trình tính toán đơn giản và hạn chế sai sót hơn.",
+          "fraction": 100
+        },
+        {
+          "text": "Phương pháp A nhanh hơn vì không cần thực hiện bất kỳ phép nhân nào.",
+          "fraction": 0
+        },
+        {
+          "text": "Cả hai phương pháp đều bắt buộc phải đưa về phương trình bậc hai.",
+          "fraction": 0
+        },
+        {
+          "text": "Phương pháp B chỉ áp dụng được khi các hệ số của ẩn là số tự nhiên.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_06",
+      "questiontext": "Khi giáo viên chỉ ra lỗi sai trong bài làm giải hệ phương trình bằng phương pháp cộng đại số (do quên nhân vế phải của phương trình với hệ số), thái độ học tập đúng đắn của học sinh là tiếp thu ý kiến, tìm hiểu nguyên nhân và thực hiện lại phép nhân cho cả hai vế.",
+      "generalfeedback": "Đúng. Đây là biểu hiện của việc nhận ra và điều chỉnh sai sót của bản thân khi được giáo viên góp ý.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_04",
+      "questiontext": "Để cân bằng phương trình phản ứng hóa học \\(3\\text{Fe} + x\\text{O}_2 \\rightarrow y\\text{Fe}_3\\text{O}_4\\), kiến thức toán học tương thích nào cần được sử dụng để lập và giải hệ phương trình tìm \\(x, y\\)?",
+      "generalfeedback": "Sử dụng nguyên tắc bảo toàn số nguyên tử Fe và O để lập hệ phương trình bậc nhất hai ẩn: \\(\\begin{cases} 3y = 3 \\\\ 2x = 4y \\end{cases}\\). Giải hệ này ta tìm được \\(x = 2, y = 1\\).",
+      "answers": [
+        {
+          "text": "Sử dụng nguyên tắc bảo toàn số nguyên tử ở hai vế để lập hệ hai phương trình bậc nhất hai ẩn \\(\\begin{cases} 3y = 3 \\\\ 2x = 4y \\end{cases}\\) rồi giải ra \\(x = 2, y = 1\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Sử dụng công thức tính diện tích tam giác để tìm mối liên hệ giữa \\(x\\) và \\(y\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Sử dụng phương trình bậc hai một ẩn để giải trực tiếp.",
+          "fraction": 0
+        },
+        {
+          "text": "Sử dụng bất phương trình bậc nhất hai ẩn để chặn khoảng giá trị của \\(x\\) và \\(y\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Bài toán yêu cầu tìm hai hệ số \\(a\\) và \\(b\\) để đường thẳng \\(y = ax + b\\) đi qua hai điểm \\(A(-2; -1)\\) và \\(B(2; 3)\\). Kỹ năng toán học nào là then chốt để chuyển bài toán hình học này về bài toán đại số?",
+      "generalfeedback": "Kỹ năng thế tọa độ \\((x; y)\\) của từng điểm vào phương trình đường thẳng \\(y = ax + b\\) giúp chuyển bài toán hình học thành việc giải hệ hai phương trình bậc nhất ẩn \\(a, b\\): \\(\\begin{cases} -2a + b = -1 \\\\ 2a + b = 3 \\end{cases}\\).",
+      "answers": [
+        {
+          "text": "Kỹ năng thế tọa độ \\(x, y\\) của mỗi điểm vào phương trình \\(y = ax + b\\) để lập hệ hai phương trình bậc nhất ẩn \\(a, b\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Kỹ năng đo độ dài đoạn thẳng AB bằng thước chia độ.",
+          "fraction": 0
+        },
+        {
+          "text": "Kỹ năng tính khoảng cách từ gốc tọa độ đến đường thẳng.",
+          "fraction": 0
+        },
+        {
+          "text": "Kỹ năng vẽ đồ thị hàm số bậc hai.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_03_04",
+      "questiontext": "Khi mô hình hóa bài toán tìm hai số \\(a\\) và \\(b\\) sao cho hệ phương trình \\(\\begin{cases} ax + by = 1 \\\\ ax + (2 - b)y = 3 \\end{cases}\\) có nghiệm \\((1; -2)\\), ta thay \\(x = 1\\) và \\(y = -2\\) vào hệ để thu được hệ phương trình bậc nhất ẩn \\(a, b\\) là [[1]] và giải ra kết quả [[2]].",
+      "generalfeedback": "Thay \\(x = 1, y = -2\\) vào hệ ta được \\(\\begin{cases} a - 2b = 1 \\\\ a - 2(2 - b) = 3 \\end{cases} \\Leftrightarrow \\begin{cases} a - 2b = 1 \\\\ a + 2b = 7 \\end{cases}\\). Cộng từng vế ta có \\(2a = 8 \\Rightarrow a = 4, b = 1,5\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "a - 2b = 1 và a + 2b = 7"
+        },
+        {
+          "group": 1,
+          "text": "a = 4; b = 1,5"
+        },
+        {
+          "group": 1,
+          "text": "a + 2b = 1 và a - 2b = 7"
+        },
+        {
+          "group": 1,
+          "text": "a = 2; b = 3"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Ghép các bài toán thực tế / ứng dụng sau với hệ phương trình bậc nhất hai ẩn tương ứng dùng để giải quyết:",
+      "generalfeedback": "Mỗi bài toán ứng dụng được mô hình hóa thành một hệ phương trình bậc nhất hai ẩn tương ứng.",
+      "subquestions": [
+        {
+          "question": "Cân bằng phản ứng: \\(3\\text{Fe} + x\\text{O}_2 \\rightarrow y\\text{Fe}_3\\text{O}_4\\)",
+          "answer": "\\(\\begin{cases} 3y = 3 \\\\ 2x = 4y \\end{cases}\\)"
+        },
+        {
+          "question": "Tìm hệ số đường thẳng \\(y = ax + b\\) đi qua \\(A(-2; -1)\\) và \\(B(2; 3)\\)",
+          "answer": "\\(\\begin{cases} -2a + b = -1 \\\\ 2a + b = 3 \\end{cases}\\)"
+        },
+        {
+          "question": "Cân bằng phản ứng: \\(4\\text{Al} + x\\text{O}_2 \\rightarrow y\\text{Al}_2\\text{O}_3\\)",
+          "answer": "\\(\\begin{cases} 2y = 4 \\\\ 2x = 3y \\end{cases}\\)"
+        }
+      ]
+    }
+  ]
+}

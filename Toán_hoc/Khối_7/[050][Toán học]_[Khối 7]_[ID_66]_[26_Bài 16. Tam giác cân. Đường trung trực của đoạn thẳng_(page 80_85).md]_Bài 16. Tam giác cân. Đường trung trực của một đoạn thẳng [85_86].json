@@ -1,0 +1,668 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 26,
+    "metadata_used": {
+      "Khái niệm đường trung trực của đoạn thẳng": 3,
+      "YCCD_TOAN7_097": 2,
+      "Nhận biết đường trung trực": 2,
+      "Tính chất các điểm thuộc đường trung trực": 6,
+      "YCCD_TOAN7_098": 1,
+      "Vẽ đường trung trực của đoạn thẳng bằng thước và compa": 2,
+      "Chứng minh điểm thuộc đường trung trực": 4,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_TUCHUTUHOC": 1,
+      "NLC_GIAOTIEP": 1,
+      "NLT_TOAN_C2_01": 1,
+      "NLT_TOAN_C2_04": 1
+    },
+    "types_used": {
+      "multichoice": 11,
+      "truefalse": 4,
+      "shortanswer": 2,
+      "gapselect": 3,
+      "numerical": 1,
+      "calculated": 1,
+      "matching": 1,
+      "ddwtos": 1,
+      "calculatedsimple": 1,
+      "calculatedmulti": 1
+    },
+    "total": 26
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_097",
+        "reason": "Đo lường nhận biết khái niệm đường trung trực của đoạn thẳng"
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_098",
+        "reason": "Đo lường nhận biết tính chất cơ bản của đường trung trực"
+      },
+      {
+        "metadata_code": "Khái niệm đường trung trực của đoạn thẳng",
+        "reason": "Đo lường kiến thức về định nghĩa đường trung trực của đoạn thẳng"
+      },
+      {
+        "metadata_code": "Tính chất các điểm thuộc đường trung trực",
+        "reason": "Đo lường kiến thức về tính chất các điểm thuộc đường trung trực"
+      },
+      {
+        "metadata_code": "Nhận biết đường trung trực",
+        "reason": "Đo lường kỹ năng nhận biết đường trung trực trong hình vẽ"
+      },
+      {
+        "metadata_code": "Vẽ đường trung trực của đoạn thẳng bằng thước và compa",
+        "reason": "Đo lường kỹ năng hiểu quy trình vẽ đường trung trực bằng thước và compa"
+      },
+      {
+        "metadata_code": "Chứng minh điểm thuộc đường trung trực",
+        "reason": "Đo lường kỹ năng chứng minh điểm thuộc đường trung trực và ứng dụng"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học thuần lý thuyết hình học học đường, không chứa nội dung thao tác với phần mềm hay công cụ số."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Bài học không có ngữ cảnh tự nhiên liên quan đến công nghệ Trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm đường trung trực của đoạn thẳng",
+      "questiontext": "Đường thẳng như thế nào với một đoạn thẳng tại trung điểm của nó được gọi là đường trung trực của đoạn thẳng đó?",
+      "generalfeedback": "Định nghĩa: Đường thẳng vuông góc với một đoạn thẳng tại trung điểm của nó được gọi là đường trung trực của đoạn thẳng đó.",
+      "answers": [
+        {
+          "text": "Vuông góc",
+          "fraction": 100
+        },
+        {
+          "text": "Song song",
+          "fraction": 0
+        },
+        {
+          "text": "Cắt nhau nhưng không vuông góc",
+          "fraction": 0
+        },
+        {
+          "text": "Trùng với đoạn thẳng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_097",
+      "questiontext": "Đường trung trực của một đoạn thẳng cũng là trục đối xứng của đoạn thẳng đó. Khẳng định trên đúng hay sai?",
+      "generalfeedback": "Theo SGK, đường trung trực của một đoạn thẳng cũng là trục đối xứng của đoạn thẳng đó.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm đường trung trực của đoạn thẳng",
+      "questiontext": "Đường thẳng vuông góc với đoạn thẳng \\(AB\\) tại trung điểm \\(O\\) của \\(AB\\) được gọi là đường gì của đoạn thẳng \\(AB\\)?",
+      "generalfeedback": "Đó là đường trung trực của đoạn thẳng AB.",
+      "answers": [
+        {
+          "text": "đường trung trực",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_097",
+      "questiontext": "Đường thẳng [[1]] với một đoạn thẳng tại [[2]] của nó được gọi là đường trung trực của đoạn thẳng đó.",
+      "generalfeedback": "Định nghĩa đường trung trực: Đường thẳng vuông góc với một đoạn thẳng tại trung điểm của nó.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "vuông góc"
+        },
+        {
+          "group": 1,
+          "text": "trung điểm"
+        },
+        {
+          "group": 1,
+          "text": "song song"
+        },
+        {
+          "group": 1,
+          "text": "thủ điểm"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết đường trung trực",
+      "imgs": [
+        "_page_2_Picture_9.jpeg"
+      ],
+      "questiontext": "Quan sát Hình 4.64 bên dưới:\n[img:_page_2_Picture_9.jpeg]\nTrong Hình 4.64, bạn Lan vẽ đường trung trực của các đoạn thẳng. Cho biết hình nào bạn Lan đã vẽ đúng?",
+      "generalfeedback": "Đường trung trực phải vừa đi qua trung điểm vừa vuông góc với đoạn thẳng.",
+      "answers": [
+        {
+          "text": "Hình b",
+          "fraction": 100
+        },
+        {
+          "text": "Hình a",
+          "fraction": 0
+        },
+        {
+          "text": "Hình c",
+          "fraction": 0
+        },
+        {
+          "text": "Cả ba hình a, b, c đều đúng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Tính chất các điểm thuộc đường trung trực",
+      "questiontext": "Điểm nằm trên đường trung trực của một đoạn thẳng thì cách đều hai mút của đoạn thẳng đó. Khẳng định trên đúng hay sai?",
+      "generalfeedback": "Tính chất đường trung trực: Điểm nằm trên đường trung trực của một đoạn thẳng thì cách đều hai mút của đoạn thẳng đó.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Tính chất các điểm thuộc đường trung trực",
+      "questiontext": "Cho điểm \\(M\\) nằm trên đường trung trực của đoạn thẳng \\(AB\\). Biết \\(MA = 5\\text{ cm}\\). Độ dài đoạn thẳng \\(MB\\) bằng bao nhiêu cm? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Vì M thuộc đường trung trực của AB nên MA = MB = 5 cm.",
+      "answers": [
+        {
+          "text": "5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Tính chất các điểm thuộc đường trung trực",
+      "questiontext": "Cho điểm \\(M\\) nằm trên đường trung trực của đoạn thẳng \\(AB\\). Biết độ dài \\(MA\\) = {a} cm. Độ dài đoạn thẳng \\(MB\\) bằng bao nhiêu cm? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Điểm nằm trên đường trung trực của một đoạn thẳng thì cách đều hai mút của đoạn thẳng đó, do đó MB = MA = {a} cm.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 20.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_098",
+      "questiontext": "Hãy ghép mỗi dữ kiện ở cột bên trái với dữ kiện tương ứng ở cột bên phải để được khẳng định đúng về đường trung trực của đoạn thẳng \\(AB\\):",
+      "generalfeedback": "Kiến thức về đường trung trực của đoạn thẳng AB: vuông góc tại trung điểm, chứa các điểm cách đều A và B, và là trục đối xứng.",
+      "subquestions": [
+        {
+          "question": "Đường trung trực của đoạn thẳng AB vuông góc với AB tại",
+          "answer": "trung điểm của AB"
+        },
+        {
+          "question": "Nếu M nằm trên đường trung trực của AB thì",
+          "answer": "MA = MB"
+        },
+        {
+          "question": "Đường trung trực của đoạn thẳng AB là",
+          "answer": "trục đối xứng của đoạn thẳng AB"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Vẽ đường trung trực của đoạn thẳng bằng thước và compa",
+      "questiontext": "Để vẽ đường trung trực của đoạn thẳng \\(AB\\) bằng thước và compa:\n1. Vẽ đoạn thẳng \\(AB\\).\n2. Lấy \\(A\\) làm tâm, vẽ cung tròn bán kính lớn hơn [[1]], sau đó lấy \\(B\\) làm tâm vẽ cung tròn có cùng bán kính cắt cung tròn cũ tại hai điểm \\(M\\) và \\(N\\).\n3. Dùng thước thẳng vẽ đường thẳng \\(MN\\). Khi đó \\(MN\\) là [[2]] của đoạn thẳng \\(AB\\).",
+      "generalfeedback": "Các bước sử dụng thước và compa để vẽ đường trung trực của đoạn thẳng AB theo hướng dẫn SGK.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "AB/2"
+        },
+        {
+          "group": 1,
+          "text": "đường trung trực"
+        },
+        {
+          "group": 1,
+          "text": "AB"
+        },
+        {
+          "group": 1,
+          "text": "đường phân giác"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Chứng minh điểm thuộc đường trung trực",
+      "questiontext": "Cho tam giác \\(ABC\\) cân tại \\(A\\). Biết đường cao \\(AD\\) có độ dài bằng {d} cm. Khẳng định nào sau đây đúng về khoảng cách từ \\(A\\) đến đường trung trực của đoạn thẳng \\(BC\\)? Nhập khoảng cách từ điểm \\(A\\) đến đường trung trực của đoạn thẳng \\(BC\\) (đơn vị cm, chỉ điền số):",
+      "generalfeedback": "Vì tam giác ABC cân tại A nên đường cao AD xuất phát từ đỉnh A đồng thời là đường trung trực của đoạn thẳng BC. Do đó điểm A nằm trên đường trung trực của BC, khoảng cách từ A đến đường trung trực này bằng 0 cm.",
+      "wildcards": [
+        {
+          "name": "d",
+          "min": 3.0,
+          "max": 15.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "0",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "thong_hieu",
+      "metadata_code": "Tính chất các điểm thuộc đường trung trực",
+      "questiontext": "Cho điểm \\(M\\) thuộc đường trung trực của đoạn thẳng \\(AB\\). Cho biết độ dài \\(MA\\) = {x} cm. Công thức biểu diễn độ dài đoạn thẳng \\(MB\\) theo {x} là gì?",
+      "generalfeedback": "Vì M thuộc đường trung trực của đoạn thẳng AB nên M cách đều hai mút A và B, tức là MB = MA = {x}.",
+      "wildcards": [
+        {
+          "name": "x",
+          "min": 1.0,
+          "max": 20.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{x}",
+          "fraction": 100
+        },
+        {
+          "text": "{x}*2",
+          "fraction": 0
+        },
+        {
+          "text": "{x}/2",
+          "fraction": 0
+        },
+        {
+          "text": "{x}+2",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh điểm thuộc đường trung trực",
+      "questiontext": "Cho đoạn thẳng \\(AB\\) và điểm \\(M\\) không thuộc đoạn thẳng \\(AB\\) sao cho \\(MA = MB\\). Khẳng định nào sau đây là đúng?",
+      "generalfeedback": "Theo ví dụ trong SGK, nếu MA = MB thì điểm M thuộc đường trung trực của đoạn thẳng AB.",
+      "answers": [
+        {
+          "text": "M thuộc đường trung trực của đoạn thẳng AB",
+          "fraction": 100
+        },
+        {
+          "text": "M là trung điểm của đoạn thẳng AB",
+          "fraction": 0
+        },
+        {
+          "text": "M trùng với điểm A",
+          "fraction": 0
+        },
+        {
+          "text": "Đường thẳng MA vuông góc với AB",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Vẽ đường trung trực của đoạn thẳng bằng thước và compa",
+      "questiontext": "Để vẽ đường trung trực của đoạn thẳng \\(AB\\) bằng thước và compa, ta vẽ hai cung tròn cùng bán kính có tâm lần lượt là hai điểm nào?",
+      "generalfeedback": "Theo hướng dẫn thực hành trong SGK, ta lấy A và B làm tâm để vẽ hai cung tròn có cùng bán kính (bán kính lớn hơn AB/2).",
+      "answers": [
+        {
+          "text": "Hai điểm A và B",
+          "fraction": 100
+        },
+        {
+          "text": "Trung điểm O và điểm A",
+          "fraction": 0
+        },
+        {
+          "text": "Trung điểm O và điểm B",
+          "fraction": 0
+        },
+        {
+          "text": "Một điểm M bất kỳ ngoài AB",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh điểm thuộc đường trung trực",
+      "questiontext": "Cho tam giác \\(ABC\\) cân tại \\(A\\) có đường cao \\(AD\\). Khi đó đường thẳng \\(AD\\) là đường trung trực của đoạn thẳng \\(BC\\). Khẳng định trên đúng hay sai?",
+      "generalfeedback": "Theo Bài tập 4.28 trong SGK, đường cao AD trong tam giác ABC cân tại A đồng thời là đường trung trực của đoạn thẳng BC.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Tính chất các điểm thuộc đường trung trực",
+      "questiontext": "Điểm nằm trên đường trung trực của một đoạn thẳng thì [[1]] hai [[2]] của đoạn thẳng đó.",
+      "generalfeedback": "Tính chất: Điểm nằm trên đường trung trực của một đoạn thẳng thì cách đều hai mút của đoạn thẳng đó.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "cách đều"
+        },
+        {
+          "group": 1,
+          "text": "mút"
+        },
+        {
+          "group": 1,
+          "text": "song song"
+        },
+        {
+          "group": 1,
+          "text": "đỉnh"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh điểm thuộc đường trung trực",
+      "questiontext": "Cho tam giác \\(ABC\\) cân tại \\(A\\), \\(M\\) là trung điểm của \\(BC\\). Góc tạo bởi đường thẳng \\(AM\\) và đoạn thẳng \\(BC\\) có số đo bằng bao nhiêu độ?",
+      "generalfeedback": "Theo Bài tập 4.24, trong tam giác ABC cân tại A, đường trung tuyến AM vuông góc với BC, nên góc giữa AM và BC có số đo 90 độ.",
+      "answers": [
+        {
+          "text": "90",
+          "fraction": 100
+        },
+        {
+          "text": "90 độ",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tính chất các điểm thuộc đường trung trực",
+      "imgs": [
+        "_page_3_Picture_12.jpeg"
+      ],
+      "questiontext": "Cho \\(M\\) là một điểm nằm trên đường trung trực của đoạn thẳng \\(AB\\). Biết \\(AM = 3\\text{ cm}\\) và \\(\\widehat{MAB} = 60^\\circ\\) (xem hình bên dưới):\n[img:_page_3_Picture_12.jpeg]\nSố đo góc \\(\\widehat{MBA}\\) bằng bao nhiêu?",
+      "generalfeedback": "Vì M thuộc đường trung trực của AB nên MA = MB = 3 cm. Do đó tam giác MAB cân tại M, suy ra góc MBA = góc MAB = 60 độ.",
+      "answers": [
+        {
+          "text": "60°",
+          "fraction": 100
+        },
+        {
+          "text": "30°",
+          "fraction": 0
+        },
+        {
+          "text": "90°",
+          "fraction": 0
+        },
+        {
+          "text": "45°",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết đường trung trực",
+      "questiontext": "Cho đoạn thẳng \\(MN = 6\\text{ cm}\\). Đường thẳng \\(d\\) là đường trung trực của \\(MN\\), cắt \\(MN\\) tại \\(I\\). Độ dài đoạn thẳng \\(MI\\) bằng bao nhiêu?",
+      "generalfeedback": "Đường trung trực d đi qua trung điểm I của đoạn thẳng MN, nên MI = MN / 2 = 6 / 2 = 3 cm.",
+      "answers": [
+        {
+          "text": "3 cm",
+          "fraction": 100
+        },
+        {
+          "text": "6 cm",
+          "fraction": 0
+        },
+        {
+          "text": "12 cm",
+          "fraction": 0
+        },
+        {
+          "text": "2 cm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm đường trung trực của đoạn thẳng",
+      "questiontext": "Nếu đường thẳng \\(d\\) vuông góc với đoạn thẳng \\(AB\\) nhưng không đi qua trung điểm của \\(AB\\) thì \\(d\\) không phải là đường trung trực của đoạn thẳng \\(AB\\). Khẳng định trên đúng hay sai?",
+      "generalfeedback": "Đúng, vì đường trung trực phải đồng thời vuông góc và đi qua trung điểm của đoạn thẳng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Trong giờ thực hành Toán 7, khi được yêu cầu vẽ đường trung trực của đoạn thẳng \\(AB\\) bằng thước và compa, bạn An thực hiện đầy đủ các bước: quay hai cung tròn cùng bán kính lớn hơn \\(\\frac{AB}{2}\\) từ hai tâm \\(A, B\\), xác định hai giao điểm \\(M, N\\), và cẩn thận dùng thước nối \\(MN\\) rồi kiểm tra lại bằng thước đo góc. Hành vi của bạn An thể hiện phẩm chất nào sau đây?",
+      "generalfeedback": "An đã thực hiện đầy đủ, cẩn thận từng bước và kiểm tra lại kết quả thực hành, thể hiện phẩm chất chăm chỉ và có trách nhiệm trong học tập.",
+      "answers": [
+        {
+          "text": "Chăm chỉ và có trách nhiệm trong học tập",
+          "fraction": 100
+        },
+        {
+          "text": "Trung thực trong thi cử",
+          "fraction": 0
+        },
+        {
+          "text": "Yêu nước và nhân ái",
+          "fraction": 0
+        },
+        {
+          "text": "Dũng cảm nhận lỗi",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Khi đo độ dài hai đoạn thẳng \\(MA\\) và \\(MB\\) (với \\(M\\) nằm trên đường trung trực của \\(AB\\)), do thước chia vạch bị lệch nhẹ nên bạn Bình đo được \\(MA = 4{,}1\\text{ cm}\\) và \\(MB = 4{,}0\\text{ cm}\\). Bạn Bình nên xử lý thế nào để thể hiện tính trung thực trong học tập?",
+      "generalfeedback": "Trung thực trong học tập thể hiện ở việc ghi nhận đúng số liệu thực tế đo được, sau đó tìm hiểu nguyên nhân (do thao tác hoặc công cụ đo) thay vì tự ý sửa số liệu cho giống lý thuyết.",
+      "answers": [
+        {
+          "text": "Ghi đúng số liệu đo được và báo cáo giáo viên để kiểm tra lại thao tác và dụng cụ đo",
+          "fraction": 100
+        },
+        {
+          "text": "Tự ý sửa số liệu MB thành 4,1 cm cho đúng với lý thuyết học trên lớp",
+          "fraction": 0
+        },
+        {
+          "text": "Tự ý sửa số liệu MA thành 4,0 cm mà không kiểm tra lại",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua không ghi kết quả đo vào bài báo cáo",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Để tự học và ghi nhớ quy trình vẽ đường trung trực của đoạn thẳng \\(AB\\) bằng thước và compa, bạn Hoa lập một danh sách các bước thực hiện. Hãy chỉ ra trình tự các bước đúng nhất mà bạn Hoa nên sắp xếp:",
+      "generalfeedback": "Quy trình vẽ chuẩn: (1) Vẽ đoạn thẳng AB -> (2) Lấy A và B làm tâm vẽ 2 cung tròn cùng bán kính lớn hơn AB/2 cắt nhau tại M và N -> (3) Vẽ đường thẳng đi qua M và N.",
+      "answers": [
+        {
+          "text": "Vẽ đoạn thẳng AB -> Bán kính cung tròn lớn hơn AB/2 từ tâm A và B -> Nối giao điểm M, N của hai cung tròn",
+          "fraction": 100
+        },
+        {
+          "text": "Bán kính cung tròn từ A và B -> Vẽ đoạn thẳng AB -> Nối M và N",
+          "fraction": 0
+        },
+        {
+          "text": "Vẽ đường thẳng MN -> Xác định hai điểm A và B -> Vẽ cung tròn",
+          "fraction": 0
+        },
+        {
+          "text": "Vẽ trung điểm O của AB -> Vẽ đường thẳng song song với AB qua O",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_GIAOTIEP",
+      "questiontext": "Trong thảo luận nhóm về chủ đề \"Đường trung trực của một đoạn thẳng\", hai bạn Nam và Minh có ý kiến khác nhau. Nam cho rằng \"Mọi đường thẳng vuông góc với AB đều là đường trung trực của AB\". Để hợp tác hiệu quả và làm rõ vấn đề, bạn Minh nên phản hồi như thế nào?",
+      "generalfeedback": "Giao tiếp toán học hợp tác hiệu quả thể hiện qua việc lắng nghe, đưa ra phản biện lịch sự kèm dẫn chứng lý thuyết rõ ràng (đường trung trực phải vuông góc TẠI TRUNG ĐIỂM của đoạn thẳng).",
+      "answers": [
+        {
+          "text": "Nhắc lại định nghĩa SGK: Đường trung trực phải vuông góc với AB tại trung điểm của AB, rồi cùng Nam kiểm tra lại các trường hợp hình vẽ",
+          "fraction": 100
+        },
+        {
+          "text": "Chê bai ý kiến của Nam là sai và không giải thích gì thêm",
+          "fraction": 0
+        },
+        {
+          "text": "Đồng ý ngay với Nam để tránh tranh luận trong nhóm",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua ý kiến của Nam và tự làm bài một mình",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Cho tam giác \\(ABC\\) cân tại \\(A\\). Bạn Linh lập luận: \"Vì \\(AB = AC\\) nên điểm \\(A\\) cách đều hai điểm \\(B\\) và \\(C\\). Do đó, điểm \\(A\\) phải nằm trên đường trung trực của đoạn thẳng \\(BC\\)\". Lập luận của bạn Linh là đúng hay sai và dựa trên căn cứ toán học nào?",
+      "generalfeedback": "Lập luận của bạn Linh là ĐÚNG. Căn cứ vào tính chất: Điểm cách đều hai mút của một đoạn thẳng thì nằm trên đường trung trực của đoạn thẳng đó (Ví dụ SGK).",
+      "answers": [
+        {
+          "text": "Đúng, vì điểm cách đều hai mút của đoạn thẳng thì nằm trên đường trung trực của đoạn thẳng đó",
+          "fraction": 100
+        },
+        {
+          "text": "Sai, vì điểm A là đỉnh của tam giác nên không thể nằm trên đường trung trực",
+          "fraction": 0
+        },
+        {
+          "text": "Sai, vì đường trung trực chỉ đi qua trung điểm của BC chứ không đi qua A",
+          "fraction": 0
+        },
+        {
+          "text": "Đúng, vì mọi tam giác đều có đường trung trực đi qua đỉnh A",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04",
+      "questiontext": "Để diễn đạt chính xác tính chất đường trung trực bằng ký hiệu toán học: Cho đường thẳng \\(d\\) là đường trung trực của đoạn thẳng \\(AB\\) cắt \\(AB\\) tại \\(I\\). Khi đó \\(d \\perp\\) [[1]] tại [[2]] và với mọi điểm \\(M \\in d\\) thì \\(MA =\\) [[3]].",
+      "generalfeedback": "Sử dụng ngôn ngữ và ký hiệu toán học chính xác: d vuông góc với AB tại trung điểm I và MA = MB.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "AB"
+        },
+        {
+          "group": 1,
+          "text": "I"
+        },
+        {
+          "group": 1,
+          "text": "MB"
+        },
+        {
+          "group": 1,
+          "text": "MI"
+        }
+      ]
+    }
+  ]
+}

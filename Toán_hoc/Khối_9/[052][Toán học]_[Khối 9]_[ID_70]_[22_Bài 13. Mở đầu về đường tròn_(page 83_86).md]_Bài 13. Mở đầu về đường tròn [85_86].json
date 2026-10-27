@@ -1,0 +1,311 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 10,
+    "metadata_used": {
+      "Tâm đối xứng của đường tròn": 2,
+      "Trục đối xứng của đường tròn": 3,
+      "YCCD_TOAN9_069": 2,
+      "Xác định tâm đối xứng và trục đối xứng của đường tròn": 7,
+      "Chứng minh tính chất đối xứng trong đường tròn": 6,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_TCTH_TUHOC_C2_01": 1,
+      "SUB_GQVD_DEXUAT_C2_02": 2,
+      "NLT_TOAN_C2_01_03": 2,
+      "NLT_TOAN_C2_01_08": 1
+    },
+    "types_used": {
+      "multichoice": 5,
+      "truefalse": 1,
+      "shortanswer": 1,
+      "gapselect": 1,
+      "matching": 1,
+      "ddwtos": 1
+    },
+    "total": 10
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN9_069",
+        "reason": "Đo lường khả năng nhận biết trục đối xứng của đường tròn."
+      },
+      {
+        "metadata_code": "Tâm đối xứng của đường tròn",
+        "reason": "Đo lường kiến thức về tâm đối xứng của đường tròn."
+      },
+      {
+        "metadata_code": "Trục đối xứng của đường tròn",
+        "reason": "Đo lường kiến thức về trục đối xứng của đường tròn."
+      },
+      {
+        "metadata_code": "Xác định tâm đối xứng và trục đối xứng của đường tròn",
+        "reason": "Đo lường kỹ năng xác định tâm đối xứng và trục đối xứng."
+      },
+      {
+        "metadata_code": "Chứng minh tính chất đối xứng trong đường tròn",
+        "reason": "Đo lường kỹ năng chứng minh tính chất đối xứng trong đường tròn."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đo lường phẩm chất kiên trì vươn lên đạt kết quả tốt trong học tập qua tình huống toán học."
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+        "reason": "Đo lường năng lực tự đặt mục tiêu học tập để nỗ lực phấn đấu thực hiện."
+      },
+      {
+        "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+        "reason": "Đo lường năng lực đề xuất và đánh giá giải pháp giải quyết vấn đề thực tế."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_03",
+        "reason": "Đo lường năng lực giải thích sự tương đồng và khác biệt trong các tình huống hình học."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_08",
+        "reason": "Đo lường năng lực chứng minh và đánh giá chuỗi lập luận mệnh đề toán học."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N",
+        "reason": "Bài học thuộc phần Toán hình học thuần túy (Tính đối xứng của đường tròn), nội dung SGK không chứa yếu tố công nghệ, phần mềm hay kỹ năng số, việc ép tạo câu hỏi sẽ không tự nhiên."
+      },
+      {
+        "metadata_code": "A",
+        "reason": "Nội dung bài học không liên quan đến ứng dụng hay nguyên lý Trí tuệ nhân tạo (AI), không đủ cơ sở để đo lường tự nhiên."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Tâm đối xứng của đường tròn",
+      "questiontext": "Tâm đối xứng của một đường tròn \\((O)\\) là điểm nào dưới đây?",
+      "generalfeedback": "Đường tròn là hình có tâm đối xứng, và tâm của đường tròn chính là tâm đối xứng duy nhất của nó.",
+      "answers": [
+        {
+          "text": "Chính tâm \\(O\\) của đường tròn",
+          "fraction": 100
+        },
+        {
+          "text": "Một điểm bất kỳ nằm trên đường tròn",
+          "fraction": 0
+        },
+        {
+          "text": "Một điểm bất kỳ nằm ngoài đường tròn",
+          "fraction": 0
+        },
+        {
+          "text": "Đường tròn không có tâm đối xứng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Trục đối xứng của đường tròn",
+      "questiontext": "Mọi đường thẳng đi qua tâm của đường tròn đều là một trục đối xứng của đường tròn đó.",
+      "generalfeedback": "Đúng. Đường tròn có vô số trục đối xứng, và mỗi đường thẳng đi qua tâm của đường tròn là một trục đối xứng của nó.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_069",
+      "questiontext": "Đường tròn \\((O; R)\\) có bao nhiêu trục đối xứng?",
+      "generalfeedback": "Đường tròn có vô số trục đối xứng, mỗi trục đối xứng là một đường thẳng đi qua tâm \\(O\\).",
+      "answers": [
+        {
+          "text": "Vô số",
+          "fraction": 100
+        },
+        {
+          "text": "1",
+          "fraction": 0
+        },
+        {
+          "text": "2",
+          "fraction": 0
+        },
+        {
+          "text": "4",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Tâm đối xứng của đường tròn",
+      "questiontext": "Một đường tròn có bao nhiêu tâm đối xứng?",
+      "generalfeedback": "Đường tròn chỉ có duy nhất 1 tâm đối xứng, đó là tâm của đường tròn.",
+      "answers": [
+        {
+          "text": "1",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Xác định tâm đối xứng và trục đối xứng của đường tròn",
+      "questiontext": "Cho điểm \\(M\\) nằm trên đường tròn \\((O)\\) đường kính \\(AB\\) như hình vẽ [img:_page_3_Picture_7.jpeg]. Điểm \\(N\\) đối xứng với điểm \\(M\\) qua tâm \\(O\\) được xác định như thế nào?",
+      "generalfeedback": "Do \\(O\\) là tâm đối xứng của \\((O)\\), điểm \\(N\\) đối xứng với \\(M\\) qua \\(O\\) phải vừa thuộc \\((O)\\), vừa thuộc đường thẳng \\(OM\\). Do đó \\(N\\) là giao điểm (khác \\(M\\)) của \\((O)\\) với đường thẳng \\(OM\\).",
+      "imgs": [
+        "_page_3_Picture_7.jpeg"
+      ],
+      "answers": [
+        {
+          "text": "Là giao điểm khác \\(M\\) của \\((O)\\) với đường thẳng \\(OM\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Là trung điểm của đoạn thẳng \\(AB\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Là giao điểm khác \\(M\\) của \\((O)\\) với đường vuông góc hạ từ \\(M\\) xuống \\(AB\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Là hình chiếu vuông góc của \\(M\\) trên đường thẳng \\(AB\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Xác định tâm đối xứng và trục đối xứng của đường tròn",
+      "questiontext": "Hai điểm \\(M\\) và \\(M'\\) gọi là đối xứng với nhau qua điểm \\(I\\) nếu \\(I\\) là [[1]] của đoạn thẳng \\(MM'\\). Hai điểm \\(M\\) và \\(M'\\) gọi là đối xứng với nhau qua đường thẳng \\(d\\) nếu \\(d\\) là [[2]] của đoạn thẳng \\(MM'\\).",
+      "generalfeedback": "Định nghĩa đối xứng tâm: I là trung điểm của MM'. Định nghĩa đối xứng trục: d là đường trung trực của MM'.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "trung điểm"
+        },
+        {
+          "group": 1,
+          "text": "đường trung trực"
+        },
+        {
+          "group": 1,
+          "text": "đường cao"
+        },
+        {
+          "group": 1,
+          "text": "trung điểm vuông góc"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Chứng minh tính chất đối xứng trong đường tròn",
+      "questiontext": "Ghép mỗi khái niệm/tính chất ở cột bên trái với mô tả tương ứng ở cột bên phải:",
+      "generalfeedback": "Tâm đối xứng của đường tròn là tâm O. Trục đối xứng của đường tròn là đường thẳng đi qua O. Hai điểm đối xứng qua I khi I là trung điểm.",
+      "subquestions": [
+        {
+          "question": "Tâm đối xứng của đường tròn \\((O)\\)",
+          "answer": "Tâm \\(O\\) của đường tròn"
+        },
+        {
+          "question": "Trục đối xứng của đường tròn \\((O)\\)",
+          "answer": "Đường thẳng bất kỳ đi qua \\(O\\)"
+        },
+        {
+          "question": "Hai điểm đối xứng nhau qua tâm \\(I\\)",
+          "answer": "\\(I\\) là trung điểm của đoạn thẳng nối hai điểm đó"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Xác định tâm đối xứng và trục đối xứng của đường tròn",
+      "questiontext": "Cho điểm \\(M\\) nằm trên đường tròn \\((O)\\) đường kính \\(AB\\). Điểm \\(P\\) đối xứng với điểm \\(M\\) qua đường thẳng \\(AB\\) được xác định như thế nào?",
+      "generalfeedback": "Do \\(AB\\) đi qua tâm \\(O\\) nên \\(AB\\) là trục đối xứng của \\((O)\\). Điểm \\(P\\) đối xứng với \\(M\\) qua \\(AB\\) là giao điểm khác \\(M\\) của \\((O)\\) với đường thẳng đi qua \\(M\\) và vuông góc với \\(AB\\).",
+      "answers": [
+        {
+          "text": "Giao điểm khác \\(M\\) của \\((O)\\) với đường thẳng đi qua \\(M\\) và vuông góc với \\(AB\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Giao điểm khác \\(M\\) của \\((O)\\) với đường thẳng \\(OM\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Trung điểm của đoạn thẳng \\(OM\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Điểm đối xứng của \\(O\\) qua điểm \\(M\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Chứng minh tính chất đối xứng trong đường tròn",
+      "questiontext": "Cho đường tròn \\((O)\\) và hai điểm \\(A, B\\) thuộc \\((O)\\). Gọi \\(d\\) là đường trung trực của đoạn thẳng \\(AB\\). Khẳng định nào sau đây là đúng?",
+      "generalfeedback": "Vì \\(A, B \\in (O)\\) nên \\(OA = OB = R\\). Do đó \\(O\\) thuộc đường trung trực \\(d\\) của \\(AB\\). Vì \\(d\\) đi qua tâm \\(O\\) nên \\(d\\) là một trục đối xứng của \\((O)\\).",
+      "answers": [
+        {
+          "text": "\\(d\\) đi qua tâm \\(O\\) nên \\(d\\) là một trục đối xứng của \\((O)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(d\\) không đi qua tâm \\(O\\) nên \\(d\\) không phải là trục đối xứng của \\((O)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(d\\) là tâm đối xứng duy nhất của đường tròn \\((O)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(d\\) vuông góc với mọi bán kính của đường tròn \\((O)\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Xác định tâm đối xứng và trục đối xứng của đường tròn",
+      "questiontext": "Đường tròn là hình có [[1]] tâm đối xứng và có [[2]] trục đối xứng.",
+      "generalfeedback": "Đường tròn có duy nhất 1 tâm đối xứng (chính là tâm O) và có vô số trục đối xứng (mọi đường thẳng qua O).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "một"
+        },
+        {
+          "group": 1,
+          "text": "vô số"
+        },
+        {
+          "group": 1,
+          "text": "hai"
+        },
+        {
+          "group": 1,
+          "text": "không có"
+        }
+      ]
+    }
+  ]
+}

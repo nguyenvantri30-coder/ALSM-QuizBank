@@ -1,0 +1,714 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 28,
+    "metadata_used": {
+      "Khái niệm chương trình máy tính": 2,
+      "Mối quan hệ giữa thuật toán và chương trình máy tính": 1,
+      "YCCD_TH8_055": 1,
+      "Khái niệm ngôn ngữ lập trình trực quan và môi trường lập trình": 2,
+      "Phân biệt giữa thuật toán dạng ngôn ngữ tự nhiên/sơ đồ khối và chương trình máy tính": 2,
+      "YCCD_TH8_053": 2,
+      "Mô tả kịch bản đơn giản dưới dạng thuật toán": 7,
+      "Hiểu nguyên lý máy tính thực hiện từng lệnh theo thứ tự": 3,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_CHAMCHI_HAMHOC_C2_03": 1,
+      "SUB_TCTH_TUHOC_C2_01": 1,
+      "SUB_GQVD_PHATHIEN_C2_01": 1,
+      "NLT_TIN_TIN_C2_03_06": 1,
+      "NLT_TIN_TIN_C2_03_07": 1,
+      "3.4TC2a_K8": 1,
+      "5.3TC2a_K8": 1
+    },
+    "types_used": {
+      "multichoice": 14,
+      "truefalse": 3,
+      "gapselect": 2,
+      "matching": 2,
+      "shortanswer": 2,
+      "ddwtos": 1,
+      "numerical": 2,
+      "calculatedsimple": 1,
+      "calculated": 1
+    },
+    "total": 28
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TH8_053",
+        "reason": "Đo lường khả năng mô tả kịch bản dưới dạng thuật toán qua các câu hỏi di chuyển hình học."
+      },
+      {
+        "metadata_code": "YCCD_TH8_055",
+        "reason": "Đo lường mức độ hiểu chương trình là dãy lệnh điều khiển máy tính thực hiện thuật toán."
+      },
+      {
+        "metadata_code": "Khái niệm chương trình máy tính",
+        "reason": "Đo lường khả năng nhận biết khái niệm chương trình máy tính."
+      },
+      {
+        "metadata_code": "Mối quan hệ giữa thuật toán và chương trình máy tính",
+        "reason": "Đo lường khả năng hiểu mối quan hệ giữa thuật toán và chương trình máy tính."
+      },
+      {
+        "metadata_code": "Khái niệm ngôn ngữ lập trình trực quan và môi trường lập trình",
+        "reason": "Đo lường nhận thức về khái niệm ngôn ngữ lập trình trực quan Scratch."
+      },
+      {
+        "metadata_code": "Mô tả kịch bản đơn giản dưới dạng thuật toán",
+        "reason": "Đo lường kỹ năng mô tả kịch bản và xác định các tham số thuật toán."
+      },
+      {
+        "metadata_code": "Phân biệt giữa thuật toán dạng ngôn ngữ tự nhiên/sơ đồ khối và chương trình máy tính",
+        "reason": "Đo lường kỹ năng phân biệt giữa thuật toán (sơ đồ khối/ngôn ngữ tự nhiên) và chương trình."
+      },
+      {
+        "metadata_code": "Hiểu nguyên lý máy tính thực hiện từng lệnh theo thứ tự",
+        "reason": "Đo lường mức độ hiểu nguyên lý máy tính thực hiện từng lệnh theo thứ tự."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung Bài 12 Tiết 1 chưa đề cập đến khái niệm hay công cụ Trí tuệ nhân tạo (AI), không đủ cơ sở để thiết kế câu hỏi đánh giá Năng lực AI tự nhiên."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm chương trình máy tính",
+      "questiontext": "Theo nội dung bài học, chương trình máy tính được định nghĩa là gì?",
+      "generalfeedback": "Chương trình là dãy các lệnh điều khiển máy tính thực hiện một thuật toán.",
+      "answers": [
+        {
+          "text": "Dãy các lệnh điều khiển máy tính thực hiện một thuật toán",
+          "fraction": 100
+        },
+        {
+          "text": "Sơ đồ khối mô tả các bước giải quyết công việc bằng ngôn ngữ tự nhiên",
+          "fraction": 0
+        },
+        {
+          "text": "Tập hợp các hình ảnh và nhân vật được thiết kế trên máy tính",
+          "fraction": 0
+        },
+        {
+          "text": "Văn bản mô tả kịch bản dưới dạng ngôn ngữ tự nhiên",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Mối quan hệ giữa thuật toán và chương trình máy tính",
+      "questiontext": "Mỗi bước của thuật toán được mô tả ở sơ đồ khối có thể được thực hiện bằng một lệnh tương ứng trong chương trình.",
+      "generalfeedback": "Đúng. Trong bài học, mỗi bước của thuật toán trong sơ đồ khối được thực hiện bằng một lệnh tương ứng của ngôn ngữ lập trình Scratch.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TH8_055",
+      "questiontext": "Chương trình là dãy các [[1]] điều khiển máy tính thực hiện một [[2]].",
+      "generalfeedback": "Chương trình là dãy các lệnh điều khiển máy tính thực hiện một thuật toán.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "lệnh"
+        },
+        {
+          "group": 1,
+          "text": "thuật toán"
+        },
+        {
+          "group": 1,
+          "text": "sơ đồ khối"
+        },
+        {
+          "group": 1,
+          "text": "kịch bản"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Khái niệm ngôn ngữ lập trình trực quan và môi trường lập trình",
+      "questiontext": "Trong môi trường lập trình trực quan Scratch, người lập trình tạo ra chương trình bằng cách nào?",
+      "generalfeedback": "Trong Scratch, chương trình được tạo bằng cách lắp ghép các khối lệnh tương ứng với từng bước của thuật toán.",
+      "answers": [
+        {
+          "text": "Lắp ghép các khối lệnh tương ứng với từng bước của thuật toán",
+          "fraction": 100
+        },
+        {
+          "text": "Gõ trực tiếp văn bản các câu lệnh bằng tiếng Anh",
+          "fraction": 0
+        },
+        {
+          "text": "Vẽ sơ đồ khối các bước trên màn hình",
+          "fraction": 0
+        },
+        {
+          "text": "Soạn thảo văn bản mô tả các bước bằng ngôn ngữ tự nhiên",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Phân biệt giữa thuật toán dạng ngôn ngữ tự nhiên/sơ đồ khối và chương trình máy tính",
+      "questiontext": "Hãy ghép nối từng hình thức thể hiện thuật toán ở cột bên trái với đặc điểm tương ứng ở cột bên phải.",
+      "generalfeedback": "Mỗi hình thức biểu diễn có đặc điểm riêng: Ngôn ngữ tự nhiên dùng lời văn, sơ đồ khối dùng các hình khối, chương trình dùng dãy lệnh để máy tính thực hiện.",
+      "subquestions": [
+        {
+          "question": "Ngôn ngữ tự nhiên",
+          "answer": "Liệt kê các bước bằng lời văn tiếng Việt"
+        },
+        {
+          "question": "Sơ đồ khối",
+          "answer": "Sử dụng các hình khối chuẩn và mũi tên chỉ hướng"
+        },
+        {
+          "question": "Chương trình máy tính",
+          "answer": "Dãy các lệnh được viết bằng ngôn ngữ lập trình để máy tính thực hiện"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm chương trình máy tính",
+      "questiontext": "Điền từ còn thiếu vào chỗ trống: Chương trình là dãy các ______ điều khiển máy tính thực hiện một thuật toán.",
+      "generalfeedback": "Đáp án đúng là 'lệnh'.",
+      "answers": [
+        {
+          "text": "lệnh",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TH8_053",
+      "questiontext": "Để nhân vật di chuyển theo đường đi là hình vuông có độ dài cạnh 80 bước, thuật toán lặp lại [[1]] lần việc: di chuyển về phía trước 80 bước, sau đó quay [[2]] độ.",
+      "generalfeedback": "Thuật toán điều khiển nhân vật đi theo hình vuông lặp 4 lần việc di chuyển 80 bước và quay 90 độ.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "4"
+        },
+        {
+          "group": 1,
+          "text": "90"
+        },
+        {
+          "group": 1,
+          "text": "3"
+        },
+        {
+          "group": 1,
+          "text": "60"
+        },
+        {
+          "group": 1,
+          "text": "120"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "nhan_biet",
+      "metadata_code": "Mô tả kịch bản đơn giản dưới dạng thuật toán",
+      "questiontext": "Khi điều khiển nhân vật di chuyển theo đường đi là một tam giác đều, góc quay (theo độ) của nhân vật khi đi hết một cạnh là bao nhiêu? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Góc quay của nhân vật khi đi hết một cạnh tam giác đều là 120 độ.",
+      "answers": [
+        {
+          "text": "120",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Hiểu nguyên lý máy tính thực hiện từng lệnh theo thứ tự",
+      "questiontext": "Quan sát sơ đồ khối và chương trình Scratch điều khiển nhân vật vẽ hình tam giác đều [img:_page_1_Figure_3.jpeg], máy tính thực hiện các lệnh trong vòng lặp theo thứ tự nào?",
+      "generalfeedback": "Máy tính thực hiện lần lượt từng lệnh theo thứ tự từ trên xuống dưới trong vòng lặp: di chuyển 60 bước trước, sau đó quay 120 độ.",
+      "answers": [
+        {
+          "text": "Thực hiện lệnh di chuyển 60 bước trước, rồi thực hiện lệnh quay 120 độ sau",
+          "fraction": 100
+        },
+        {
+          "text": "Thực hiện lệnh quay 120 độ trước, rồi thực hiện lệnh di chuyển 60 bước sau",
+          "fraction": 0
+        },
+        {
+          "text": "Thực hiện đồng thời cả hai lệnh di chuyển 60 bước và quay 120 độ",
+          "fraction": 0
+        },
+        {
+          "text": "Thực hiện ngẫu nhiên một trong hai lệnh trước",
+          "fraction": 0
+        }
+      ],
+      "imgs": [
+        "_page_1_Figure_3.jpeg"
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Hiểu nguyên lý máy tính thực hiện từng lệnh theo thứ tự",
+      "questiontext": "Nếu thay đổi thứ tự các lệnh trong vòng lặp của chương trình Scratch (ví dụ đưa lệnh quay 120 độ lên trước lệnh di chuyển 60 bước) thì hướng di chuyển ban đầu của nhân vật vẫn không thay đổi.",
+      "generalfeedback": "Sai. Máy tính thực hiện các lệnh tuần tự theo đúng thứ tự. Nếu quay trước khi di chuyển, hướng di chuyển ban đầu của nhân vật sẽ thay đổi.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Mô tả kịch bản đơn giản dưới dạng thuật toán",
+      "questiontext": "Thuật toán vẽ hình tam giác đều sử dụng cấu trúc tuần tự và cấu trúc lặp, trong đó số bước lặp bằng [[1]] (bằng số cạnh của tam giác đều). Khi thực hiện đủ [[2]] lần thì vòng lặp kết thúc.",
+      "generalfeedback": "Thuật toán vẽ tam giác đều lặp lại 3 lần việc di chuyển và quay góc.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "3"
+        },
+        {
+          "group": 1,
+          "text": "4"
+        },
+        {
+          "group": 1,
+          "text": "60"
+        },
+        {
+          "group": 1,
+          "text": "120"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Mô tả kịch bản đơn giản dưới dạng thuật toán",
+      "questiontext": "Khi nhân vật di chuyển theo đường đi là một hình vuông, số lần lặp lại của khối lệnh di chuyển và quay góc trong thuật toán là bao nhiêu? (Chỉ điền số)",
+      "generalfeedback": "Hình vuông có 4 cạnh nên số lần lặp là 4.",
+      "answers": [
+        {
+          "text": "4",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Phân biệt giữa thuật toán dạng ngôn ngữ tự nhiên/sơ đồ khối và chương trình máy tính",
+      "questiontext": "Điểm khác biệt cơ bản giữa sơ đồ khối của thuật toán và chương trình Scratch [img:_page_1_Figure_3.jpeg] là gì?",
+      "generalfeedback": "Sơ đồ khối mô tả thuật toán bằng hình khối trực quan cho con người đọc hiểu, còn chương trình Scratch được tạo bằng các câu lệnh lập trình để máy tính thực hiện.",
+      "answers": [
+        {
+          "text": "Sơ đồ khối dùng các khối hình học mô tả các bước thuật toán, còn chương trình Scratch dùng các lệnh lập trình trực quan để máy tính thực hiện",
+          "fraction": 100
+        },
+        {
+          "text": "Sơ đồ khối có thể chạy trực tiếp trên máy tính, còn chương trình Scratch chỉ dùng để vẽ hình",
+          "fraction": 0
+        },
+        {
+          "text": "Sơ đồ khối chỉ dành cho hình vuông, còn chương trình Scratch chỉ dành cho tam giác",
+          "fraction": 0
+        },
+        {
+          "text": "Sơ đồ khối không có cấu trúc lặp, còn chương trình Scratch luôn có cấu trúc lặp",
+          "fraction": 0
+        }
+      ],
+      "imgs": [
+        "_page_1_Figure_3.jpeg"
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Mô tả kịch bản đơn giản dưới dạng thuật toán",
+      "questiontext": "Bạn An vẽ một đa giác đều có {n} cạnh. Góc quay của nhân vật tại mỗi đỉnh được tính bằng công thức \\(360 / {n}\\). Hỏi với {n} cạnh thì góc quay mỗi lần là bao nhiêu độ? (Chỉ điền số)",
+      "generalfeedback": "Góc quay được tính bằng 360 chia cho số cạnh n.",
+      "wildcards": [
+        {
+          "name": "n",
+          "min": 3.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "360/{n}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Mô tả kịch bản đơn giản dưới dạng thuật toán",
+      "questiontext": "Hình vuông có 4 cạnh bằng nhau. Nếu mỗi cạnh có độ dài {a} bước, tổng quãng đường nhân vật di chuyển khi đi hết hình vuông là bao nhiêu bước? (Chỉ điền số)",
+      "generalfeedback": "Tổng quãng đường = 4 * {a}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 20.0,
+          "max": 100.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*4",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TH8_053",
+      "questiontext": "Quan sát sơ đồ khối trong Hình 12.6 [img:_page_2_Picture_19.jpeg] mô tả kịch bản xe ô tô chạy trên đường: 'Khi xe cách hòn đá nhỏ hơn 120 bước, xe sẽ dừng lại'. Nội dung cần điền vào ô điều kiện số 1 là gì?",
+      "generalfeedback": "Ô số 1 trong sơ đồ khối là ô hình thoi kiểm tra điều kiện 'Cách hòn đá < 120 bước?'.",
+      "answers": [
+        {
+          "text": "Cách hòn đá < 120 bước?",
+          "fraction": 100
+        },
+        {
+          "text": "Di chuyển 5 bước",
+          "fraction": 0
+        },
+        {
+          "text": "Dừng xe lại",
+          "fraction": 0
+        },
+        {
+          "text": "Quay góc 90 độ",
+          "fraction": 0
+        }
+      ],
+      "imgs": [
+        "_page_2_Picture_19.jpeg"
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "Mô tả kịch bản đơn giản dưới dạng thuật toán",
+      "questiontext": "Hãy ghép nối từng loại hình vuông/tam giác với giá trị góc quay tương ứng của nhân vật khi di chuyển hết một cạnh.",
+      "generalfeedback": "Hình tam giác đều góc quay là 120 độ (360/3), hình vuông góc quay là 90 độ (360/4), hình lục giác đều góc quay là 60 độ (360/6).",
+      "subquestions": [
+        {
+          "question": "Hình tam giác đều",
+          "answer": "120 độ"
+        },
+        {
+          "question": "Hình vuông",
+          "answer": "90 độ"
+        },
+        {
+          "question": "Hình lục giác đều",
+          "answer": "60 độ"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm ngôn ngữ lập trình trực quan và môi trường lập trình",
+      "questiontext": "Ngôn ngữ lập trình trực quan Scratch cho phép người học lắp ghép các khối lệnh có hình dạng và màu sắc khác nhau để tạo thành chương trình.",
+      "generalfeedback": "Đúng. Scratch là ngôn ngữ lập trình trực quan dựa trên việc lắp ghép các khối lệnh.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Hiểu nguyên lý máy tính thực hiện từng lệnh theo thứ tự",
+      "questiontext": "Bạn An muốn bổ sung lệnh 'đợi 1 giây' để nhân vật dừng lại 1 giây sau khi đi hết mỗi cạnh của tam giác trong chương trình Scratch ở Hình 12.3b [img:_page_1_Figure_3.jpeg]. Lệnh 'đợi 1 giây' cần được đặt ở vị trí nào?",
+      "generalfeedback": "Lệnh 'đợi 1 giây' cần được bổ sung vào bên trong vòng lặp 'lặp lại 3 lần', đặt ngay sau lệnh quay 120 độ (hoặc giữa lệnh di chuyển và lệnh quay) để nhân vật dừng lại sau khi đi xong mỗi cạnh.",
+      "answers": [
+        {
+          "text": "Nằm bên trong vòng lặp 'lặp lại 3 lần', ngay sau câu lệnh quay góc (hoặc di chuyển)",
+          "fraction": 100
+        },
+        {
+          "text": "Nằm phía trên cùng, trước khi bắt đầu vòng lặp",
+          "fraction": 0
+        },
+        {
+          "text": "Nằm ngoài vòng lặp, ở ngay sau khi vòng lặp kết thúc",
+          "fraction": 0
+        },
+        {
+          "text": "Thay thế hoàn toàn cho câu lệnh di chuyển 60 bước",
+          "fraction": 0
+        }
+      ],
+      "imgs": [
+        "_page_1_Figure_3.jpeg"
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Mô tả kịch bản đơn giản dưới dạng thuật toán",
+      "questiontext": "Khi điều khiển nhân vật di chuyển theo đường đi là một hình vuông, góc quay (theo độ) của nhân vật khi đi hết một cạnh là bao nhiêu? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Góc quay của nhân vật khi di chuyển theo đường đi hình vuông là 90 độ (360/4 = 90).",
+      "answers": [
+        {
+          "text": "90",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi lập trình Scratch điều khiển nhân vật vẽ hình vuông, nhân vật chạy không đúng hình mong muốn do tính sai góc quay. Hành động nào sau đây thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập?",
+      "generalfeedback": "Nỗ lực tìm nguyên nhân, kiểm tra lại thuật toán (góc quay = 360/4 = 90 độ) và kiên trì sửa lỗi thể hiện ý thức vượt khó và vươn lên trong học tập.",
+      "answers": [
+        {
+          "text": "Kiểm tra lại sơ đồ khối, tính lại góc quay bằng 360/4 = 90 độ và kiên trì thử lại chương trình cho đến khi đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài tập và chuyển sang làm việc khác vì chương trình quá khó",
+          "fraction": 0
+        },
+        {
+          "text": "Chép ngay bài làm của bạn khác mà không cần tìm hiểu nguyên nhân chương trình bị sai",
+          "fraction": 0
+        },
+        {
+          "text": "Đổ lỗi cho phần mềm Scratch bị lỗi và không tiếp tục làm bài",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_03",
+      "questiontext": "Bạn Bình quan sát hệ thống cửa tự động ở siêu thị và nhận thấy cửa tự động mở khi có người đến gần. Để vận dụng kiến thức bài học vào đời sống, Bình nên thực hiện hành động nào để mô tả hoạt động của cửa tự động?",
+      "generalfeedback": "Vận dụng kiến thức bài học bằng cách xây dựng kịch bản, vẽ sơ đồ khối kiểm tra khoảng cách và viết chương trình Scratch mô phỏng hoạt động cửa tự động.",
+      "answers": [
+        {
+          "text": "Mô tả kịch bản dưới dạng thuật toán (sơ đồ khối) và viết chương trình Scratch mô phỏng hoạt động của cửa",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ ghi chép lại hiện tượng mà không tìm cách mô tả thành thuật toán hay chương trình",
+          "fraction": 0
+        },
+        {
+          "text": "Tìm mua bộ cửa tự động thật về nhà tháo ra xem cấu tạo cơ khí",
+          "fraction": 0
+        },
+        {
+          "text": "Hỏi người bảo vệ siêu thị xem cửa tự động mua ở đâu",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Để tự học nâng cao kỹ năng lập trình điều khiển nhân vật vẽ các hình đa giác đều trong Scratch, kế hoạch nào dưới đây thể hiện việc tự đặt mục tiêu học tập rõ ràng và nỗ lực thực hiện?",
+      "generalfeedback": "Đặt mục tiêu cụ thể theo lộ trình từ dễ đến khó (tam giác -> hình vuông -> hình lục giác) và lập kịch bản/chương trình thử nghiệm thể hiện kế hoạch tự học hiệu quả.",
+      "answers": [
+        {
+          "text": "Xác định mục tiêu vẽ lần lượt tam giác đều, hình vuông, lục giác đều và chủ động xây dựng sơ đồ khối, viết chương trình cho từng hình",
+          "fraction": 100
+        },
+        {
+          "text": "Chờ thầy cô giao bài tập về nhà mới bắt đầu mở Scratch ra xem",
+          "fraction": 0
+        },
+        {
+          "text": "Đặt mục tiêu vẽ hình phức tạp ngay lập tức mà không cần học từ các hình cơ bản",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ đọc sách lý thuyết mà không mở phần mềm Scratch ra thực hành",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_PHATHIEN_C2_01",
+      "questiontext": "Một học sinh phân tích chương trình xe ô tô dừng lại khi gặp hòn đá [img:_page_2_Picture_19.jpeg]: Kịch bản yêu cầu xe dừng lại khi khoảng cách < 120 bước. Tuy nhiên, trong sơ đồ khối ô kiểm tra điều kiện lại ghi \"Cách hòn đá > 120 bước?\". Phân tích nào sau đây chỉ ra chính xác nguyên nhân chương trình chạy sai?",
+      "generalfeedback": "Điều kiện kiểm tra trong sơ đồ khối bị ngược so với kịch bản (ghi > 120 thay vì < 120), dẫn đến xe bị dừng sai thời điểm.",
+      "answers": [
+        {
+          "text": "Điều kiện kiểm tra bị sai phép so sánh (dùng dấu > thay vì dấu <), dẫn đến logic điều khiển bị ngược với kịch bản",
+          "fraction": 100
+        },
+        {
+          "text": "Hình vẽ chiếc xe ô tô bị sai kích thước",
+          "fraction": 0
+        },
+        {
+          "text": "Khối lệnh di chuyển 5 bước bị thừa trong vòng lặp",
+          "fraction": 0
+        },
+        {
+          "text": "Thuật toán không thể sử dụng cấu trúc rẽ nhánh điều kiện",
+          "fraction": 0
+        }
+      ],
+      "imgs": [
+        "_page_2_Picture_19.jpeg"
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TIN_TIN_C2_03_06",
+      "questiontext": "Khi thiết kế hệ thống mô phỏng nhân vật di chuyển theo một đường đi khép kín (như hình vuông hay tam giác đều), tư duy thiết kế hệ thống đòi hỏi học sinh phải xác định được các yếu tố cốt lõi nào?",
+      "generalfeedback": "Tư duy thiết kế hệ thống yêu cầu xác định số lần lặp (số cạnh), độ dài bước di chuyển (độ dài cạnh) và góc quay tại mỗi đỉnh.",
+      "answers": [
+        {
+          "text": "Số lần lặp lại (số cạnh), độ dài bước di chuyển và góc quay tại mỗi đỉnh",
+          "fraction": 100
+        },
+        {
+          "text": "Màu sắc trang phục của nhân vật và âm thanh nền",
+          "fraction": 0
+        },
+        {
+          "text": "Tốc độ mạng internet và cấu hình phần cứng máy tính",
+          "fraction": 0
+        },
+        {
+          "text": "Tên gọi của tập tin lưu chương trình trên đĩa cứng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TIN_TIN_C2_03_07",
+      "questiontext": "Để điều khiển nhân vật di chuyển tuần tự qua 3 cạnh của tam giác đều trong Scratch, khối lệnh điều khiển nào thể hiện đúng tư duy điều khiển lặp cấu trúc?",
+      "generalfeedback": "Khối lệnh \"lặp lại 3\" chứa lệnh di chuyển và lệnh quay 120 độ bên trong là cấu trúc điều khiển chuẩn xác.",
+      "answers": [
+        {
+          "text": "Khối lệnh lặp lại 3 lần, bên trong chứa câu lệnh di chuyển và câu lệnh quay 120 độ",
+          "fraction": 100
+        },
+        {
+          "text": "Khối lệnh liên tiếp ghép 10 câu lệnh di chuyển không có câu lệnh quay",
+          "fraction": 0
+        },
+        {
+          "text": "Khối lệnh nếu ... thì ... không đặt trong vòng lặp",
+          "fraction": 0
+        },
+        {
+          "text": "Khối lệnh dừng lại tất cả ngay khi bắt đầu chương trình",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "3.4TC2a_K8",
+      "questiontext": "Để giải quyết nhiệm vụ điều khiển xe robot tự động dừng lại khi cách vật cản dưới 120 bước, học sinh cần tự liệt kê danh sách các hướng dẫn (các bước thuật toán) nào cho hệ thống?",
+      "generalfeedback": "Hướng dẫn chuẩn gồm: Di chuyển tiến lên -> Kiểm tra khoảng cách đến vật cản -> Nếu khoảng cách < 120 bước thì Dừng lại, ngược lại tiếp tục di chuyển.",
+      "answers": [
+        {
+          "text": "Liên tục cho xe di chuyển 5 bước; Kiểm tra nếu khoảng cách đến vật cản < 120 bước thì dừng xe lại",
+          "fraction": 100
+        },
+        {
+          "text": "Cho xe di chuyển 120 bước rồi quay quay 90 độ không cần kiểm tra vật cản",
+          "fraction": 0
+        },
+        {
+          "text": "Dừng xe lại ngay lập tức mà không cho xe di chuyển bước nào",
+          "fraction": 0
+        },
+        {
+          "text": "Quay xe ngẫu nhiên các hướng mà không kiểm tra khoảng cách",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "5.3TC2a_K8",
+      "questiontext": "So với việc mô tả kịch bản bằng ngôn ngữ tự nhiên, việc sử dụng môi trường lập trình trực quan Scratch mang lại ưu điểm gì vượt trội trong quá trình tạo ra sản phẩm công nghệ số?",
+      "generalfeedback": "Môi trường lập trình trực quan giúp chuyển đổi thuật toán thành các lệnh máy tính có thể chạy và kiểm thử trực tiếp sản phẩm.",
+      "answers": [
+        {
+          "text": "Cho phép trực quan hóa thuật toán thành các khối lệnh có thể thực thi và mô phỏng trực tiếp trên máy tính",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ dùng để viết văn bản báo cáo mà không chạy được mô phỏng",
+          "fraction": 0
+        },
+        {
+          "text": "Bắt buộc người dùng phải nhớ và gõ chính xác các mã lệnh văn bản phức tạp",
+          "fraction": 0
+        },
+        {
+          "text": "Tự động sửa mọi lỗi logic mà người lập trình mắc phải",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

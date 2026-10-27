@@ -1,0 +1,928 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 38,
+    "metadata_used": {
+      "Dạng khuyết b (ax^2 + c = 0) và dạng khuyết c (ax^2 + bx = 0)": 4,
+      "Phương pháp biến đổi biến khuyết c thành phương trình tích": 2,
+      "Giải phương trình bậc hai khuyết c bằng đặt nhân tử chung": 5,
+      "Giải phương trình bậc hai khuyết b bằng biến đổi x^2 = m": 6,
+      "YCCD_TOAN9_030": 3,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TUHOC_C2_01": 1,
+      "SUB_GQVD_DEXUAT_C2_02": 2,
+      "NLT_TOAN_C2_01_01": 1,
+      "NLT_TOAN_C2_03_05": 2
+    },
+    "types_used": {
+      "multichoice": 13,
+      "truefalse": 4,
+      "shortanswer": 3,
+      "gapselect": 4,
+      "matching": 4,
+      "numerical": 3,
+      "ddwtos": 3,
+      "calculatedsimple": 1,
+      "calculatedmulti": 1,
+      "calculated": 2
+    },
+    "total": 38
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN9_030",
+        "reason": "Đo lường khả năng giải phương trình bậc hai một ẩn dạng đặc biệt."
+      },
+      {
+        "metadata_code": "Dạng khuyết b (ax^2 + c = 0) và dạng khuyết c (ax^2 + bx = 0)",
+        "reason": "Đo lường nhận biết phương trình bậc hai dạng khuyết b và khuyết c."
+      },
+      {
+        "metadata_code": "Phương pháp biến đổi biến khuyết c thành phương trình tích",
+        "reason": "Đo lường hiểu và áp dụng phương pháp biến đổi phương trình khuyết c về phương trình tích."
+      },
+      {
+        "metadata_code": "Giải phương trình bậc hai khuyết c bằng đặt nhân tử chung",
+        "reason": "Đo lường kỹ năng giải phương trình bậc hai khuyết c bằng đặt nhân tử chung."
+      },
+      {
+        "metadata_code": "Giải phương trình bậc hai khuyết b bằng biến đổi x^2 = m",
+        "reason": "Đo lường kỹ năng giải phương trình bậc hai khuyết b bằng biến đổi x^2 = m."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đo lường phẩm chất cố gắng vươn lên trong học tập thông qua tình huống học tập môn Toán."
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+        "reason": "Đo lường năng lực tự đặt mục tiêu học tập thông qua kế hoạch rèn luyện cá nhân."
+      },
+      {
+        "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+        "reason": "Đo lường năng lực đề xuất giải pháp giải quyết vấn đề trong thảo luận toán học."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_01",
+        "reason": "Đo lường năng lực tư duy toán học thông qua thao tác so sánh, phân tích phương pháp giải."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_05",
+        "reason": "Đo lường năng lực sử dụng kĩ năng toán học tương thích trong mô hình hóa bài toán thực tế."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N",
+        "reason": "Bài học thuần túy về giải phương trình bậc hai dạng đặc biệt bằng phương pháp đại số, không chứa nội dung dạy về công nghệ/tin học/máy tính để đo lường năng lực số một cách tự nhiên."
+      },
+      {
+        "metadata_code": "A",
+        "reason": "Bài học không có nội dung liên quan đến trí tuệ nhân tạo (AI), việc cố gán ghép câu hỏi AI vào bài học toán cơ bản này sẽ gây gượng ép, không đảm bảo tính tự nhiên theo nguyên tắc ECD."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Dạng khuyết b (ax^2 + c = 0) và dạng khuyết c (ax^2 + bx = 0)",
+      "questiontext": "Phương trình bậc hai một ẩn dạng khuyết c là phương trình có dạng nào sau đây (với \\(a \\neq 0\\))?",
+      "generalfeedback": "Phương trình bậc hai một ẩn có dạng tổng quát \\(ax^2 + bx + c = 0\\) (\\(a \\neq 0\\)). Khi khuyết hệ số tự do \\(c\\) (tức là \\(c = 0\\)), phương trình có dạng \\(ax^2 + bx = 0\\).",
+      "answers": [
+        {
+          "text": "\\(ax^2 + bx = 0\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(ax^2 + c = 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(bx + c = 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(ax^2 = 0\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Dạng khuyết b (ax^2 + c = 0) và dạng khuyết c (ax^2 + bx = 0)",
+      "questiontext": "Phương trình \\(3x^2 - 12 = 0\\) là một phương trình bậc hai khuyết hệ số \\(b\\). Đúng hay sai?",
+      "generalfeedback": "Phương trình \\(3x^2 - 12 = 0\\) có hệ số \\(a = 3\\), \\(b = 0\\), \\(c = -12\\). Vì \\(b = 0\\) nên đây là phương trình bậc hai khuyết \\(b\\). Do đó khẳng định trên là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Phương pháp biến đổi biến khuyết c thành phương trình tích",
+      "questiontext": "Khi biến đổi phương trình bậc hai khuyết \\(c\\) dạng \\(2x^2 - 4x = 0\\) về phương trình tích, ta đặt nhân tử chung là biểu thức nào?",
+      "generalfeedback": "Ta có \\(2x^2 - 4x = 0 \\Leftrightarrow 2x(x - 2) = 0\\). Nhân tử chung được đặt ra là \\(2x\\) (hoặc \\(x\\)).",
+      "answers": [
+        {
+          "text": "2x",
+          "fraction": 100
+        },
+        {
+          "text": "x",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Phương pháp biến đổi biến khuyết c thành phương trình tích",
+      "questiontext": "Để giải phương trình bậc hai khuyết \\(c\\) dạng \\(ax^2 + bx = 0\\) (\\(a \\neq 0\\)), ta đưa về phương trình tích [[1]] = 0. Khi đó phương trình có hai nghiệm là \\(x = 0\\) và \\(x =\\) [[2]].",
+      "generalfeedback": "Ta có \\(ax^2 + bx = 0 \\Leftrightarrow x(ax + b) = 0 \\Leftrightarrow x = 0\\) hoặc \\(x = -\\frac{b}{a}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "x(ax + b)"
+        },
+        {
+          "group": 1,
+          "text": "-\\frac{b}{a}"
+        },
+        {
+          "group": 1,
+          "text": "x(ax - b)"
+        },
+        {
+          "group": 1,
+          "text": "\\frac{b}{a}"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Dạng khuyết b (ax^2 + c = 0) và dạng khuyết c (ax^2 + bx = 0)",
+      "questiontext": "Ghép mỗi phương trình bậc hai sau với dạng tương ứng của nó:",
+      "generalfeedback": "Phương trình \\(2x^2 - 5x = 0\\) khuyết \\(c\\); \\(3x^2 - 27 = 0\\) khuyết \\(b\\); \\(-4x^2 = 0\\) khuyết cả \\(b\\) và \\(c\\).",
+      "subquestions": [
+        {
+          "question": "\\(2x^2 - 5x = 0\\)",
+          "answer": "Phương trình khuyết c"
+        },
+        {
+          "question": "\\(3x^2 - 27 = 0\\)",
+          "answer": "Phương trình khuyết b"
+        },
+        {
+          "question": "\\(-4x^2 = 0\\)",
+          "answer": "Phương trình khuyết cả b và c"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Giải phương trình bậc hai khuyết c bằng đặt nhân tử chung",
+      "questiontext": "Nghiệm của phương trình \\(3x^2 + 8x = 0\\) là:",
+      "generalfeedback": "Ta có \\(3x^2 + 8x = 0 \\Leftrightarrow x(3x + 8) = 0 \\Leftrightarrow x = 0\\) hoặc \\(x = -\\frac{8}{3}\\).",
+      "answers": [
+        {
+          "text": "\\(x_1 = 0; x_2 = -\\frac{8}{3}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x_1 = 0; x_2 = \\frac{8}{3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x_1 = 0; x_2 = -\\frac{3}{8}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x = -\\frac{8}{3}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Giải phương trình bậc hai khuyết b bằng biến đổi x^2 = m",
+      "questiontext": "Tìm nghiệm dương của phương trình \\(x^2 - 25 = 0\\). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Ta có \\(x^2 - 25 = 0 \\Leftrightarrow x^2 = 25 \\Leftrightarrow x = 5\\) hoặc \\(x = -5\\). Nghiệm dương là 5.",
+      "answers": [
+        {
+          "text": "5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "Giải phương trình bậc hai khuyết c bằng đặt nhân tử chung",
+      "questiontext": "Giải phương trình \\(2x^2 + 6x = 0\\):\nBước 1: Đặt nhân tử chung [[1]] = 0.\nBước 2: Suy ra \\(x = 0\\) hoặc \\(x =\\) [[2]].",
+      "generalfeedback": "Ta có \\(2x^2 + 6x = 0 \\Leftrightarrow 2x(x + 3) = 0 \\Leftrightarrow x = 0\\) hoặc \\(x = -3\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "2x(x + 3)"
+        },
+        {
+          "group": 1,
+          "text": "-3"
+        },
+        {
+          "group": 1,
+          "text": "2x(x - 3)"
+        },
+        {
+          "group": 1,
+          "text": "3"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Giải phương trình bậc hai khuyết b bằng biến đổi x^2 = m",
+      "questiontext": "Giải phương trình khuyết \\(b\\) dạng \\(x^2 -\\) {a} \\(= 0\\) với {a} > 0. Giá trị của nghiệm dương là bao nhiêu? (Tính theo công thức)",
+      "generalfeedback": "Phương trình \\(x^2 - {a} = 0 \\Leftrightarrow x^2 = {a}\\). Vì \\({a} > 0\\) nên nghiệm dương là \\(\\sqrt{{a}}\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 4.0,
+          "max": 100.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "sqrt({a})",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "Giải phương trình bậc hai khuyết c bằng đặt nhân tử chung",
+      "questiontext": "Phương trình {a}\\(x^2 +\\) {b}\\(x = 0\\) (với {a} và {b} khác 0) có hai nghiệm là:",
+      "generalfeedback": "Ta có \\({a}x^2 + {b}x = 0 \\Leftrightarrow x({a}x + {b}) = 0 \\Leftrightarrow x = 0\\) hoặc \\(x = -\\frac{{b}}{{a}}\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 9.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 3.0,
+          "max": 15.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "0 và -{b}/{a}",
+          "fraction": 100
+        },
+        {
+          "text": "0 và {b}/{a}",
+          "fraction": 0
+        },
+        {
+          "text": "1 và -{b}/{a}",
+          "fraction": 0
+        },
+        {
+          "text": "0 và -{a}/{b}",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Dạng khuyết b (ax^2 + c = 0) và dạng khuyết c (ax^2 + bx = 0)",
+      "questiontext": "Phương trình nào sau đây là phương trình bậc hai một ẩn khuyết cả hệ số \\(b\\) và hệ số \\(c\\)?",
+      "generalfeedback": "Phương trình bậc hai khuyết cả \\(b\\) và \\(c\\) có dạng \\(ax^2 = 0\\) (với \\(a \\neq 0\\)).",
+      "answers": [
+        {
+          "text": "\\(-5x^2 = 0\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(2x^2 - 3x = 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x^2 - 3 = 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2x^2 - 3x + 1 = 0\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Giải phương trình bậc hai khuyết b bằng biến đổi x^2 = m",
+      "questiontext": "Phương trình \\(x^2 + 9 = 0\\) có hai nghiệm phân biệt là \\(x = 3\\) và \\(x = -3\\). Đúng hay sai?",
+      "generalfeedback": "Ta có \\(x^2 + 9 = 0 \\Leftrightarrow x^2 = -9\\). Vì \\(x^2 \\ge 0\\) với mọi \\(x\\) nên phương trình \\(x^2 = -9\\) vô nghiệm. Do đó khẳng định trên là Sai.",
+      "answers": [
+        {
+          "text": "Sai",
+          "fraction": 100
+        },
+        {
+          "text": "Đúng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Giải phương trình bậc hai khuyết b bằng biến đổi x^2 = m",
+      "questiontext": "Tìm nghiệm âm của phương trình \\(x^2 - 9 = 0\\). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Ta có \\(x^2 - 9 = 0 \\Leftrightarrow x^2 = 9 \\Leftrightarrow x = 3\\) hoặc \\(x = -3\\). Nghiệm âm của phương trình là -3.",
+      "answers": [
+        {
+          "text": "-3",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Giải phương trình bậc hai khuyết c bằng đặt nhân tử chung",
+      "questiontext": "Số nghiệm của phương trình \\(5x^2 + 11x = 0\\) là bao nhiêu? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Ta có \\(5x^2 + 11x = 0 \\Leftrightarrow x(5x + 11) = 0 \\Leftrightarrow x = 0\\) hoặc \\(x = -\\frac{11}{5}\\). Phương trình có 2 nghiệm.",
+      "answers": [
+        {
+          "text": "2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Giải phương trình bậc hai khuyết b bằng biến đổi x^2 = m",
+      "questiontext": "Ghép mỗi phương trình khuyết \\(b\\) với tập nghiệm tương ứng của nó:",
+      "generalfeedback": "1) \\(x^2 - 16 = 0 \\Leftrightarrow x = \\pm 4\\); 2) \\(x^2 - 3 = 0 \\Leftrightarrow x = \\pm \\sqrt{3}\\); 3) \\(x^2 + 4 = 0\\) vô nghiệm.",
+      "subquestions": [
+        {
+          "question": "\\(x^2 - 16 = 0\\)",
+          "answer": "\\(x = 4\\) hoặc \\(x = -4\\)"
+        },
+        {
+          "question": "\\(x^2 - 3 = 0\\)",
+          "answer": "\\(x = \\sqrt{3}\\) hoặc \\(x = -\\sqrt{3}\\)"
+        },
+        {
+          "question": "\\(x^2 + 4 = 0\\)",
+          "answer": "Vô nghiệm"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_030",
+      "questiontext": "Để giải phương trình \\((x + 1)^2 = 3\\), ta lấy căn bậc hai hai vế thu được \\(x + 1 =\\) [[1]] hoặc \\(x + 1 =\\) [[2]]. Do đó nghiệm của phương trình là \\(x = -1 + \\sqrt{3}\\) và \\(x = -1 - \\sqrt{3}\\).",
+      "generalfeedback": "Phương trình \\((x + 1)^2 = 3 \\Leftrightarrow x + 1 = \\sqrt{3}\\) hoặc \\(x + 1 = -\\sqrt{3}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\sqrt{3}"
+        },
+        {
+          "group": 1,
+          "text": "-\\sqrt{3}"
+        },
+        {
+          "group": 1,
+          "text": "3"
+        },
+        {
+          "group": 1,
+          "text": "-3"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "Giải phương trình bậc hai khuyết b bằng biến đổi x^2 = m",
+      "questiontext": "Giải phương trình \\((x + 3)^2 = 5\\):\nBước 1: Suy ra \\(x + 3 =\\) [[1]] hoặc \\(x + 3 =\\) [[2]].\nBước 2: Tìm được hai nghiệm là \\(x = -3 + \\sqrt{5}\\) và \\(x = -3 - \\sqrt{5}\\).",
+      "generalfeedback": "Ta có \\((x + 3)^2 = 5 \\Leftrightarrow x + 3 = \\sqrt{5}\\) hoặc \\(x + 3 = -\\sqrt{5}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\sqrt{5}"
+        },
+        {
+          "group": 1,
+          "text": "-\\sqrt{5}"
+        },
+        {
+          "group": 1,
+          "text": "5"
+        },
+        {
+          "group": 1,
+          "text": "-5"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_030",
+      "questiontext": "Phương trình \\(x^2 =\\) m (với m > 0) có tổng hai nghiệm bằng bao nhiêu?",
+      "generalfeedback": "Phương trình \\(x^2 = {m}\\) có hai nghiệm là \\(x_1 = \\sqrt{{m}}\\) và \\(x_2 = -\\sqrt{{m}}\\). Tổng hai nghiệm là \\(\\sqrt{{m}} + (-\\\\sqrt{{m}}) = 0\\).",
+      "wildcards": [
+        {
+          "name": "m",
+          "min": 1.0,
+          "max": 50.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "0",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_030",
+      "questiontext": "Biến đổi phương trình \\(x^2 - 4x = 1\\) về dạng vế trái là một bình phương bằng cách cộng thêm số nào vào cả hai vế?",
+      "generalfeedback": "Ta có \\(x^2 - 4x + 4 = 1 + 4 \\Leftrightarrow (x - 2)^2 = 5\\). Do đó số cần cộng thêm vào cả hai vế là 4.",
+      "answers": [
+        {
+          "text": "4",
+          "fraction": 100
+        },
+        {
+          "text": "2",
+          "fraction": 0
+        },
+        {
+          "text": "1",
+          "fraction": 0
+        },
+        {
+          "text": "16",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Giải phương trình bậc hai khuyết c bằng đặt nhân tử chung",
+      "questiontext": "Phương trình \\(2x^2 + \\frac{1}{3}x = 0\\) có tập nghiệm là:",
+      "generalfeedback": "Ta có \\(2x^2 + \\frac{1}{3}x = 0 \\Leftrightarrow x\\left(2x + \\frac{1}{3}\\right) = 0 \\Leftrightarrow x = 0\\) hoặc \\(x = -\\frac{1}{6}\\).",
+      "answers": [
+        {
+          "text": "\\(\\{0; -\\frac{1}{6}\\}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\{0; \\frac{1}{6}\\}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\{0; -\\frac{1}{3}\\}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\{0; -6\\}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Dạng khuyết b (ax^2 + c = 0) và dạng khuyết c (ax^2 + bx = 0)",
+      "questiontext": "Phương trình nào sau đây là phương trình bậc hai một ẩn khuyết cả hệ số \\(b\\) và hệ số \\(c\\)?",
+      "generalfeedback": "Phương trình bậc hai khuyết cả \\(b\\) và \\(c\\) có dạng \\(ax^2 = 0\\) (với \\(a \\neq 0\\)).",
+      "answers": [
+        {
+          "text": "\\(-5x^2 = 0\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(2x^2 - 3x = 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x^2 - 3 = 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2x^2 - 3x + 1 = 0\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Giải phương trình bậc hai khuyết b bằng biến đổi x^2 = m",
+      "questiontext": "Phương trình \\(x^2 + 9 = 0\\) có hai nghiệm phân biệt là \\(x = 3\\) và \\(x = -3\\). Đúng hay sai?",
+      "generalfeedback": "Ta có \\(x^2 + 9 = 0 \\Leftrightarrow x^2 = -9\\). Vì \\(x^2 \\ge 0\\) với mọi \\(x\\) nên phương trình \\(x^2 = -9\\) vô nghiệm. Do đó khẳng định trên là Sai.",
+      "answers": [
+        {
+          "text": "Sai",
+          "fraction": 100
+        },
+        {
+          "text": "Đúng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Giải phương trình bậc hai khuyết b bằng biến đổi x^2 = m",
+      "questiontext": "Tìm nghiệm âm của phương trình \\(x^2 - 9 = 0\\). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Ta có \\(x^2 - 9 = 0 \\Leftrightarrow x^2 = 9 \\Leftrightarrow x = 3\\) hoặc \\(x = -3\\). Nghiệm âm của phương trình là -3.",
+      "answers": [
+        {
+          "text": "-3",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Giải phương trình bậc hai khuyết c bằng đặt nhân tử chung",
+      "questiontext": "Số nghiệm của phương trình \\(5x^2 + 11x = 0\\) là bao nhiêu? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Ta có \\(5x^2 + 11x = 0 \\Leftrightarrow x(5x + 11) = 0 \\Leftrightarrow x = 0\\) hoặc \\(x = -\\frac{11}{5}\\). Phương trình có 2 nghiệm.",
+      "answers": [
+        {
+          "text": "2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Giải phương trình bậc hai khuyết b bằng biến đổi x^2 = m",
+      "questiontext": "Ghép mỗi phương trình khuyết \\(b\\) với tập nghiệm tương ứng của nó:",
+      "generalfeedback": "1) \\(x^2 - 16 = 0 \\Leftrightarrow x = \\pm 4\\); 2) \\(x^2 - 3 = 0 \\Leftrightarrow x = \\pm \\sqrt{3}\\); 3) \\(x^2 + 4 = 0\\) vô nghiệm.",
+      "subquestions": [
+        {
+          "question": "\\(x^2 - 16 = 0\\)",
+          "answer": "\\(x = 4\\) hoặc \\(x = -4\\)"
+        },
+        {
+          "question": "\\(x^2 - 3 = 0\\)",
+          "answer": "\\(x = \\sqrt{3}\\) hoặc \\(x = -\\sqrt{3}\\)"
+        },
+        {
+          "question": "\\(x^2 + 4 = 0\\)",
+          "answer": "Vô nghiệm"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_030",
+      "questiontext": "Để giải phương trình \\((x + 1)^2 = 3\\), ta lấy căn bậc hai hai vế thu được \\(x + 1 =\\) [[1]] hoặc \\(x + 1 =\\) [[2]]. Do đó nghiệm của phương trình là \\(x = -1 + \\sqrt{3}\\) và \\(x = -1 - \\sqrt{3}\\).",
+      "generalfeedback": "Phương trình \\((x + 1)^2 = 3 \\Leftrightarrow x + 1 = \\sqrt{3}\\) hoặc \\(x + 1 = -\\sqrt{3}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\sqrt{3}"
+        },
+        {
+          "group": 1,
+          "text": "-\\sqrt{3}"
+        },
+        {
+          "group": 1,
+          "text": "3"
+        },
+        {
+          "group": 1,
+          "text": "-3"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "Giải phương trình bậc hai khuyết b bằng biến đổi x^2 = m",
+      "questiontext": "Giải phương trình \\((x + 3)^2 = 5\\):\nBước 1: Suy ra \\(x + 3 =\\) [[1]] hoặc \\(x + 3 =\\) [[2]].\nBước 2: Tìm được hai nghiệm là \\(x = -3 + \\sqrt{5}\\) và \\(x = -3 - \\sqrt{5}\\).",
+      "generalfeedback": "Ta có \\((x + 3)^2 = 5 \\Leftrightarrow x + 3 = \\sqrt{5}\\) hoặc \\(x + 3 = -\\sqrt{5}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\sqrt{5}"
+        },
+        {
+          "group": 1,
+          "text": "-\\sqrt{5}"
+        },
+        {
+          "group": 1,
+          "text": "5"
+        },
+        {
+          "group": 1,
+          "text": "-5"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_030",
+      "questiontext": "Phương trình \\(x^2 = m\\) (với m > 0) có tổng hai nghiệm bằng bao nhiêu?",
+      "generalfeedback": "Phương trình \\(x^2 = {m}\\) có hai nghiệm là \\(x_1 = \\sqrt{{m}}\\) và \\(x_2 = -\\sqrt{{m}}\\). Tổng hai nghiệm là \\(\\sqrt{{m}} + (-\\\\sqrt{{m}}) = 0\\).",
+      "wildcards": [
+        {
+          "name": "m",
+          "min": 1.0,
+          "max": 50.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "0",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_030",
+      "questiontext": "Biến đổi phương trình \\(x^2 - 4x = 1\\) về dạng vế trái là một bình phương bằng cách cộng thêm số nào vào cả hai vế?",
+      "generalfeedback": "Ta có \\(x^2 - 4x + 4 = 1 + 4 \\Leftrightarrow (x - 2)^2 = 5\\). Do đó số cần cộng thêm vào cả hai vế là 4.",
+      "answers": [
+        {
+          "text": "4",
+          "fraction": 100
+        },
+        {
+          "text": "2",
+          "fraction": 0
+        },
+        {
+          "text": "1",
+          "fraction": 0
+        },
+        {
+          "text": "16",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Giải phương trình bậc hai khuyết c bằng đặt nhân tử chung",
+      "questiontext": "Phương trình \\(2x^2 + \\frac{1}{3}x = 0\\) có tập nghiệm là:",
+      "generalfeedback": "Ta có \\(2x^2 + \\frac{1}{3}x = 0 \\Leftrightarrow x\\left(2x + \\frac{1}{3}\\right) = 0 \\Leftrightarrow x = 0\\) hoặc \\(x = -\\frac{1}{6}\\).",
+      "answers": [
+        {
+          "text": "\\(\\{0; -\\frac{1}{6}\\}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\{0; \\frac{1}{6}\\}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\{0; -\\frac{1}{3}\\}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\{0; -6\\}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi gặp bài toán giải phương trình bậc hai khuyết c \\(3x^2 - 6x = 0\\), bạn An chưa nhớ công thức tổng quát nhưng vẫn kiên trì tìm cách biến đổi đưa về phương trình tích \\(3x(x - 2) = 0\\) để giải ra nghiệm. Hành động của bạn An thể hiện phẩm chất nào sau đây?",
+      "generalfeedback": "Bạn An không bỏ cuộc khi chưa nhớ công thức tổng quát mà chủ động tìm tòi phương pháp phân tích thành nhân tử chung để giải bài toán, thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập.",
+      "answers": [
+        {
+          "text": "Luôn cố gắng vươn lên đạt kết quả tốt trong học tập",
+          "fraction": 100
+        },
+        {
+          "text": "Ích kỷ, không muốn hỏi đáp cùng các bạn xung quanh",
+          "fraction": 0
+        },
+        {
+          "text": "Thiếu kiên nhẫn khi làm bài tập toán học",
+          "fraction": 0
+        },
+        {
+          "text": "Chờ đợi giáo viên đưa ra lời giải mẫu",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Để học tốt bài 'Phương trình bậc hai một ẩn dạng đặc biệt', bạn Bình lập kế hoạch tự học: 'Mỗi ngày làm 5 bài tập về giải phương trình khuyết b và khuyết c, sau đó tự kiểm tra đáp án'. Việc làm của bạn Bình thể hiện năng lực nào?",
+      "generalfeedback": "Bạn Bình đã tự mình đặt ra mục tiêu học tập cụ thể (mỗi ngày giải 5 bài) và kế hoạch thực hiện để phấn đấu hoàn thành, thể hiện năng lực tự đặt mục tiêu học tập và nỗ lực phấn đấu.",
+      "answers": [
+        {
+          "text": "Tự đặt được mục tiêu học tập để nỗ lực phấn đấu thực hiện",
+          "fraction": 100
+        },
+        {
+          "text": "Giao tiếp và hợp tác nhóm trong học tập",
+          "fraction": 0
+        },
+        {
+          "text": "Sử dụng công nghệ thông tin nâng cao",
+          "fraction": 0
+        },
+        {
+          "text": "Thực hiện thí nghiệm khoa học tự nhiên",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Trong buổi thảo luận nhóm, các bạn lúng túng khi giải phương trình khuyết b dạng \\(x^2 - 7 = 0\\) vì \\(7\\) không phải là số chính phương. Em sẽ đề xuất giải pháp nào giúp nhóm giải quyết bài toán nhanh và chính xác nhất?",
+      "generalfeedback": "Đề xuất chuyển hạng tử tự do sang vế phải \\(x^2 = 7\\) rồi dùng kiến thức căn bậc hai suy ra \\(x = \\sqrt{7}\\) hoặc \\(x = -\\sqrt{7}\\) là giải pháp hợp lý và tối ưu.",
+      "answers": [
+        {
+          "text": "Biến đổi \\(x^2 = 7\\) rồi suy ra hai nghiệm \\(x = \\sqrt{7}\\) hoặc \\(x = -\\sqrt{7}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài toán vì 7 không phải số chính phương",
+          "fraction": 0
+        },
+        {
+          "text": "Kết luận ngay phương trình vô nghiệm vì vế trái không phân tích được thành nhân tử nguyên",
+          "fraction": 0
+        },
+        {
+          "text": "Làm tròn \\(7 \\approx 9\\) để dễ tính căn bậc hai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Khi so sánh hai phương trình bậc hai khuyết \\(2x^2 - 8 = 0\\) và \\(2x^2 - 8x = 0\\), thao tác tư duy phân tích giúp em chỉ ra điểm khác biệt cốt lõi về phương pháp giải giữa hai phương trình này là gì?",
+      "generalfeedback": "Phương trình \\(2x^2 - 8 = 0\\) là dạng khuyết b nên biến đổi về \\(x^2 = 4\\); còn \\(2x^2 - 8x = 0\\) là dạng khuyết c nên đặt nhân tử chung đưa về phương trình tích \\(2x(x - 4) = 0\\).",
+      "answers": [
+        {
+          "text": "Phương trình thứ nhất đưa về dạng \\(x^2 = m\\), phương trình thứ hai đặt nhân tử chung đưa về phương trình tích",
+          "fraction": 100
+        },
+        {
+          "text": "Cả hai phương trình đều giải bằng cách đặt nhân tử chung \\(2x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Cả hai phương trình đều chuyển số hạng sang vế phải rồi lấy căn bậc hai",
+          "fraction": 0
+        },
+        {
+          "text": "Cả hai phương trình đều vô nghiệm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Một hình chữ nhật có chiều dài gấp 3 lần chiều rộng và diện tích bằng \\(75 \\text{ m}^2\\). Gọi chiều rộng là \\(x\\text{ (m)}\\) (với \\(x > 0\\)). Kĩ năng toán học tương thích cần sử dụng để tìm chiều rộng \\(x\\) là lập và giải phương trình bậc hai nào?",
+      "generalfeedback": "Chiều dài là \\(3x\\), diện tích là \\(x \\cdot 3x = 3x^2 = 75 \\Leftrightarrow x^2 = 25 \\Leftrightarrow x = 5\\) (do \\(x > 0\\)). Kĩ năng toán học tương thích là lập phương trình \\(3x^2 = 75\\) và giải phương trình khuyết b.",
+      "answers": [
+        {
+          "text": "\\(3x^2 = 75\\) dẫn đến \\(x^2 = 25\\) và tìm được \\(x = 5\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x^2 + 3x = 75\\) dẫn đến phương trình tích",
+          "fraction": 0
+        },
+        {
+          "text": "\\(3x + x = 75\\) dẫn đến \\(4x = 75\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(6x = 75\\) dẫn đến \\(x = 12.5\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Học sinh chủ động làm thêm các bài tập giải phương trình bậc hai khuyết số hạng trong sách giáo khoa để củng cố kiến thức và nâng cao kĩ năng giải toán là thể hiện thái độ tích cực, cố gắng vươn lên trong học tập. Đúng hay sai?",
+      "generalfeedback": "Việc chủ động làm thêm bài tập củng cố kiến thức là minh chứng rõ ràng cho tinh thần tự giác và luôn cố gắng vươn lên đạt kết quả tốt trong học tập.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Khi đối mặt với bài toán thực tế yêu cầu tính kích thước của một khu vườn hình vuông có diện tích \\(144 \\text{ m}^2\\), em đề xuất quy trình giải quyết vấn đề gồm 2 bước:\nBước 1: Lập phương trình bậc hai khuyết \\(b\\) là [[1]] = 144 (với \\(x > 0\\)).\nBước 2: Giải phương trình tìm được chiều dài cạnh khu vườn là [[2]] m.",
+      "generalfeedback": "Diện tích hình vuông cạnh \\(x\\) là \\(x^2 = 144\\). Vì \\(x > 0\\) nên \\(x = 12\\) m.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "x^2"
+        },
+        {
+          "group": 1,
+          "text": "12"
+        },
+        {
+          "group": 1,
+          "text": "4x"
+        },
+        {
+          "group": 1,
+          "text": "144"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Ghép mỗi bài toán thực tế với phương trình bậc hai tương ứng để giải quyết bài toán đó:",
+      "generalfeedback": "1) Hình vuông diện tích 36 m2 có phương trình x^2 = 36; 2) Hình chữ nhật dài gấp 2 rộng diện tích 50 m2 có phương trình 2x^2 = 50; 3) Tam giác vuông cân diện tích 8 m2 có phương trình (1/2)x^2 = 8.",
+      "subquestions": [
+        {
+          "question": "Tính cạnh hình vuông có diện tích \\(36 \\text{ m}^2\\)",
+          "answer": "\\(x^2 = 36\\)"
+        },
+        {
+          "question": "Tính chiều rộng \\(x\\) hình chữ nhật có chiều dài gấp đôi chiều rộng và diện tích \\(50 \\text{ m}^2\\)",
+          "answer": "\\(2x^2 = 50\\)"
+        },
+        {
+          "question": "Tính cạnh góc vuông \\(x\\) của tam giác vuông cân có diện tích \\(8 \\text{ m}^2\\)",
+          "answer": "\\(\\frac{1}{2}x^2 = 8\\)"
+        }
+      ]
+    }
+  ]
+}

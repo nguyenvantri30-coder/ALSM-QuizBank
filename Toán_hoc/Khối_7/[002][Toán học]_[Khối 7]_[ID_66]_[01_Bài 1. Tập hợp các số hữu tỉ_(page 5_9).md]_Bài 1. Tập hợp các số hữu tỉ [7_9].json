@@ -1,0 +1,694 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 26,
+    "metadata_used": {
+      "YCCD_TOAN7_005": 3,
+      "Quy tắc so sánh hai số hữu tỉ": 2,
+      "Thứ tự trên trục số thực": 3,
+      "YCCD_TOAN7_006": 2,
+      "YCCD_TOAN7_007": 2,
+      "So sánh hai số hữu tỉ": 4,
+      "Sắp xếp các số hữu tỉ theo thứ tự": 4,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_TUCHUTUHOC": 1,
+      "NLC_GIAOTIEP": 1,
+      "NLT_TOAN_C2_01": 1,
+      "NLT_TOAN_C2_03": 1,
+      "1.3TC1a_K7": 1,
+      "7.A1.2_1": 1
+    },
+    "types_used": {
+      "multichoice": 16,
+      "gapselect": 1,
+      "truefalse": 2,
+      "ddwtos": 1,
+      "matching": 3,
+      "shortanswer": 2,
+      "numerical": 1
+    },
+    "total": 26
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_005",
+        "reason": "Đo lường khả năng nhận biết và tìm số đối của một số hữu tỉ."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_006",
+        "reason": "Đo lường khả năng nhận biết thứ tự trong tập hợp các số hữu tỉ."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_007",
+        "reason": "Đo lường khả năng so sánh hai số hữu tỉ."
+      },
+      {
+        "metadata_code": "Quy tắc so sánh hai số hữu tỉ",
+        "reason": "Đo lường kiến thức về quy tắc so sánh hai số hữu tỉ."
+      },
+      {
+        "metadata_code": "Thứ tự trên trục số thực",
+        "reason": "Đo lường kiến thức về thứ tự trên trục số thực."
+      },
+      {
+        "metadata_code": "So sánh hai số hữu tỉ",
+        "reason": "Đo lường kĩ năng so sánh hai số hữu tỉ và giải quyết bài toán thực tế."
+      },
+      {
+        "metadata_code": "Sắp xếp các số hữu tỉ theo thứ tự",
+        "reason": "Đo lường kĩ năng sắp xếp các số hữu tỉ theo thứ tự."
+      },
+      {
+        "metadata_code": "PC_CHAMCHI",
+        "reason": "Đo lường phẩm chất chăm chỉ, tinh thần kiên trì vượt khó khi giải bài tập về số hữu tỉ."
+      },
+      {
+        "metadata_code": "PC_TRUNGTHUC",
+        "reason": "Đo lường phẩm chất trung thực trong học tập và kiểm tra đánh giá."
+      },
+      {
+        "metadata_code": "NLC_TUCHUTUHOC",
+        "reason": "Đo lường năng lực tự chủ và tự học qua việc hệ thống hoá các phương pháp so sánh số hữu tỉ."
+      },
+      {
+        "metadata_code": "NLC_GIAOTIEP",
+        "reason": "Đo lường năng lực giao tiếp và hợp tác qua thảo luận và giải quyết bất đồng khi làm việc nhóm."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01",
+        "reason": "Đo lường năng lực tư duy và lập luận toán học qua lựa chọn công cụ so sánh tối ưu (tính chất bắc cầu qua 0)."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03",
+        "reason": "Đo lường năng lực giải quyết vấn đề toán học qua bài toán thực tế về chỉ số sức khỏe WHtR."
+      },
+      {
+        "metadata_code": "1.3TC1a_K7",
+        "reason": "Đo lường năng lực tin học và tổ chức dữ liệu trong môi trường số."
+      },
+      {
+        "metadata_code": "7.A1.2_1",
+        "reason": "Đo lường năng lực nhận thức về AI qua việc nêu ví dụ hậu quả thực tế khi không có sự xác thực của con người."
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_005",
+      "questiontext": "Số đối của số hữu tỉ \\(6\\frac{1}{5}\\) là:",
+      "generalfeedback": "Số đối của số hữu tỉ \\(a\\) là số \\(-a\\), thoả mãn \\(a + (-a) = 0\\). Do đó, số đối của \\(6\\frac{1}{5}\\) là \\(-6\\frac{1}{5}\\) (hay \\(-\\frac{31}{5}\\)).",
+      "answers": [
+        {
+          "text": "\\(-6\\frac{1}{5}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(6\\frac{1}{5}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{5}{31}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-\\frac{5}{31}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc so sánh hai số hữu tỉ",
+      "questiontext": "Chọn từ thích hợp điền vào chỗ trống: Cho ba số hữu tỉ \\(a, b, c\\). Nếu \\(a < b\\) và \\(b < c\\) thì \\(a < c\\), đây được gọi là tính chất [[1]]. Trên trục số nằm ngang, nếu \\(a < b\\) thì điểm \\(a\\) nằm [[2]] điểm \\(b\\).",
+      "generalfeedback": "Theo SGK: 'Cho ba số hữu tỉ a, b, c. Nếu a < b và b < c thì a < c (tính chất bắc cầu).' và 'Trên trục số, nếu a < b thì điểm a nằm trước điểm b.'",
+      "choices": [
+        {
+          "group": 1,
+          "text": "bắc cầu"
+        },
+        {
+          "group": 1,
+          "text": "trước"
+        },
+        {
+          "group": 1,
+          "text": "giao hoán"
+        },
+        {
+          "group": 1,
+          "text": "sau"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Thứ tự trên trục số thực",
+      "questiontext": "Trên trục số nằm ngang, các điểm nằm trước gốc \\(O\\) biểu diễn số hữu tỉ âm, các điểm nằm sau gốc \\(O\\) biểu diễn số hữu tỉ dương.",
+      "generalfeedback": "Khẳng định này là ĐÚNG. Theo phần Chú ý trong SGK: Trên trục số, các điểm nằm trước gốc O biểu diễn số hữu tỉ âm (nhỏ hơn 0); các điểm nằm sau gốc O biểu diễn số hữu tỉ dương (lớn hơn 0).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_006",
+      "questiontext": "Kéo thả từ thích hợp vào chỗ trống: Số 0 không là số hữu tỉ [[1]], cũng không là số hữu tỉ [[2]].",
+      "generalfeedback": "Theo SGK: 'Số 0 không là số hữu tỉ dương, cũng không là số hữu tỉ âm.'",
+      "choices": [
+        {
+          "group": 1,
+          "text": "dương"
+        },
+        {
+          "group": 1,
+          "text": "âm"
+        },
+        {
+          "group": 1,
+          "text": "lớn"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_007",
+      "questiontext": "Hãy ghép mỗi phép so sánh hai số hữu tỉ ở cột bên trái với khẳng định đúng ở cột bên phải:",
+      "generalfeedback": "Giải thích chi tiết:\n- So sánh \\(-1,5\\) và \\(\\frac{5}{2}\\): Vì \\(-1,5 < 0\\) và \\(\\frac{5}{2} > 0\\) nên \\(-1,5 < \\frac{5}{2}\\).\n- So sánh \\(-0,375\\) và \\(-\\frac{5}{8}\\): Ta có \\(-0,375 = -\\frac{3}{8}\\). Vì \\(-3 > -5\\) nên \\(-\\frac{3}{8} > -\\frac{5}{8}\\), tức \\(-0,375 > -\\frac{5}{8}\\).\n- So sánh \\(0,7\\) và \\(\\frac{6}{5}\\): Ta có \\(0,7 = \\frac{7}{10} < 1\\) và \\(\\frac{6}{5} = \\frac{12}{10} > 1\\) nên \\(0,7 < \\frac{6}{5}\\).",
+      "subquestions": [
+        {
+          "question": "So sánh \\(-1,5\\) và \\(\\frac{5}{2}\\)",
+          "answer": "\\(-1,5 < \\frac{5}{2}\\)"
+        },
+        {
+          "question": "So sánh \\(-0,375\\) và \\(-\\frac{5}{8}\\)",
+          "answer": "\\(-0,375 > -\\frac{5}{8}\\)"
+        },
+        {
+          "question": "So sánh \\(0,7\\) và \\(\\frac{6}{5}\\)",
+          "answer": "\\(0,7 < \\frac{6}{5}\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "So sánh hai số hữu tỉ",
+      "questiontext": "Khẳng định nào sau đây là đúng khi so sánh hai số hữu tỉ \\(-0,375\\) và \\(-\\frac{5}{8}\\)?",
+      "generalfeedback": "Ta viết \\(-0,375\\) dưới dạng phân số tối giản: \\(-0,375 = -\\frac{375}{1000} = -\\frac{3}{8}\\). So sánh hai phân số cùng mẫu số dương \\(-\\frac{3}{8}\\) và \\(-\\frac{5}{8}\\), vì tử số \\(-3 > -5\\) nên \\(-\\frac{3}{8} > -\\frac{5}{8}\\). Vậy \\(-0,375 > -\\frac{5}{8}\\).",
+      "answers": [
+        {
+          "text": "\\(-0,375 > -\\frac{5}{8}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(-0,375 < -\\frac{5}{8}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-0,375 = -\\frac{5}{8}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-0,375 \\le -\\frac{5}{8}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Sắp xếp các số hữu tỉ theo thứ tự",
+      "questiontext": "Sắp xếp các số hữu tỉ sau theo thứ tự từ nhỏ đến lớn: \\(5\\frac{1}{4}; -2; 3,125; -\\frac{3}{2}\\).",
+      "generalfeedback": "Phân loại các số:\n- Các số hữu tỉ âm: \\(-2\\) và \\(-\\frac{3}{2} = -1,5\\). Do \\(-2 < -1,5\\) nên \\(-2 < -\\frac{3}{2}\\).\n- Các số hữu tỉ dương: \\(3,125\\) và \\(5\\frac{1}{4} = 5,25\\). Do \\(3,125 < 5,25\\) nên \\(3,125 < 5\\frac{1}{4}\\).\nVì mọi số âm đều nhỏ hơn mọi số dương nên thứ tự từ nhỏ đến lớn là: \\(-2 < -\\frac{3}{2} < 3,125 < 5\\frac{1}{4}\\).",
+      "answers": [
+        {
+          "text": "\\(-2 < -\\frac{3}{2} < 3,125 < 5\\frac{1}{4}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(-\\frac{3}{2} < -2 < 3,125 < 5\\frac{1}{4}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-2 < -\\frac{3}{2} < 5\\frac{1}{4} < 3,125\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(5\\frac{1}{4} < 3,125 < -\\frac{3}{2} < -2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_005",
+      "questiontext": "Số đối của số hữu tỉ \\(-0,625\\) viết dưới dạng số thập phân là:",
+      "generalfeedback": "Số đối của một số hữu tỉ \\(x\\) là \\(-x\\). Do đó, số đối của \\(-0,625\\) là \\(-(-0,625) = 0,625\\).",
+      "answers": [
+        {
+          "text": "0,625",
+          "fraction": 100
+        },
+        {
+          "text": "0.625",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "So sánh hai số hữu tỉ",
+      "questiontext": "Chỉ số WHtR được tính bằng tỉ số giữa chu vi vòng bụng và chiều cao (cùng đơn vị). Ông An cao 180 cm, vòng bụng 108 cm. Ông Chung cao 160 cm, vòng bụng 70 cm. Biết chỉ số WHtR ở mức 'Tốt' nếu lớn hơn 0,42 và nhỏ hơn hoặc bằng 0,52; ở mức 'Thừa cân' nếu lớn hơn 0,57 và nhỏ hơn hoặc bằng 0,63. Khẳng định nào sau đây là đúng?",
+      "generalfeedback": "- Chỉ số WHtR của ông An: \\(\\frac{108}{180} = 0,6\\). Vì \\(0,57 < 0,6 \\le 0,63\\) nên ông An ở mức 'Thừa cân'.\n- Chỉ số WHtR của ông Chung: \\(\\frac{70}{160} = 0,4375\\). Vì \\(0,42 < 0,4375 \\le 0,52\\) nên ông Chung ở mức 'Tốt'.\nDo mức 'Tốt' có sức khoẻ tốt hơn mức 'Thừa cân' nên sức khoẻ của ông Chung tốt hơn ông An.",
+      "answers": [
+        {
+          "text": "Chỉ số WHtR của ông Chung là 0,4375 (mức Tốt), sức khoẻ của ông Chung tốt hơn ông An",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ số WHtR của ông An là 0,6 (mức Tốt), sức khoẻ của ông An tốt hơn ông Chung",
+          "fraction": 0
+        },
+        {
+          "text": "Cả hai người đều có chỉ số WHtR ở mức Thừa cân",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ số WHtR của ông Chung là 0,6 và của ông An là 0,4375",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "Sắp xếp các số hữu tỉ theo thứ tự",
+      "questiontext": "Bảng sau cho biết tuổi thọ trung bình dự kiến của người sinh năm 2019: Mỹ: \\(78\\frac{1}{2}\\) tuổi; Anh: \\(81\\frac{2}{5}\\) tuổi; Pháp: 82,5 tuổi; Tây Ban Nha: \\(83\\frac{1}{5}\\) tuổi. Hãy ghép mỗi quốc gia với vị trí tương ứng khi sắp xếp theo thứ tự tuổi thọ trung bình dự kiến từ nhỏ đến lớn (Vị trí 1 là thấp nhất, Vị trí 4 là cao nhất):",
+      "generalfeedback": "Đổi các số sang dạng số thập phân:\n- Mỹ: \\(78\\frac{1}{2} = 78,5\\)\n- Anh: \\(81\\frac{2}{5} = 81,4\\)\n- Pháp: 82,5\n- Tây Ban Nha: \\(83\\frac{1}{5} = 83,2\\)\nVì \\(78,5 < 81,4 < 82,5 < 83,2\\) nên thứ tự từ nhỏ đến lớn là: Mỹ (Vị trí 1) < Anh (Vị trí 2) < Pháp (Vị trí 3) < Tây Ban Nha (Vị trí 4).",
+      "subquestions": [
+        {
+          "question": "Mỹ (\\(78\\frac{1}{2}\\) tuổi)",
+          "answer": "Vị trí 1 (thấp nhất)"
+        },
+        {
+          "question": "Anh (\\(81\\frac{2}{5}\\) tuổi)",
+          "answer": "Vị trí 2"
+        },
+        {
+          "question": "Pháp (82,5 tuổi)",
+          "answer": "Vị trí 3"
+        },
+        {
+          "question": "Tây Ban Nha (\\(83\\frac{1}{5}\\) tuổi)",
+          "answer": "Vị trí 4 (cao nhất)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc so sánh hai số hữu tỉ",
+      "questiontext": "Khi so sánh hai số hữu tỉ được viết dưới dạng số thập phân, khẳng định nào sau đây là đúng theo SGK?",
+      "generalfeedback": "Theo SGK: 'Nếu hai số hữu tỉ được viết dưới dạng số thập phân thì ta so sánh trực tiếp, không cần đưa về dạng phân số.'",
+      "answers": [
+        {
+          "text": "Ta so sánh trực tiếp như số thập phân, không cần đưa về dạng phân số",
+          "fraction": 100
+        },
+        {
+          "text": "Bắt buộc phải đưa cả hai số về dạng phân số có mẫu số dương rồi mới so sánh",
+          "fraction": 0
+        },
+        {
+          "text": "Bắt buộc phải vẽ trục số và biểu diễn hai số đó rồi mới so sánh",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ so sánh phần nguyên, nếu phần nguyên bằng nhau thì kết luận hai số bằng nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_007",
+      "questiontext": "So sánh hai số hữu tỉ \\(-\\frac{1}{10000}\\) và \\(\\frac{1}{23456}\\), khẳng định: '\\(-\\frac{1}{10000} < \\frac{1}{23456}\\)' là đúng hay sai?",
+      "generalfeedback": "Khẳng định này là ĐÚNG. Vì \\(-\\frac{1}{10000}\\) là số hữu tỉ âm (nhỏ hơn 0) và \\(\\frac{1}{23456}\\) là số hữu tỉ dương (lớn hơn 0), mà mọi số hữu tỉ âm đều nhỏ hơn mọi số hữu tỉ dương.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Thứ tự trên trục số thực",
+      "questiontext": "Cho hai số hữu tỉ \\(a = -1,5\\) và \\(b = \\frac{5}{2}\\). Khẳng định nào sau đây là đúng về vị trí của hai điểm \\(a\\) và \\(b\\) trên trục số nằm ngang?",
+      "generalfeedback": "Vì \\(-1,5 < 0 < \\frac{5}{2}\\) nên \\(-1,5 < \\frac{5}{2}\\). Theo quy tắc thứ tự trên trục số: nếu \\(a < b\\) thì điểm \\(a\\) nằm trước điểm \\(b\\). Do đó điểm \\(-1,5\\) nằm trước điểm \\(\\frac{5}{2}\\).",
+      "answers": [
+        {
+          "text": "Điểm \\(-1,5\\) nằm trước điểm \\(\\frac{5}{2}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Điểm \\(-1,5\\) nằm sau điểm \\(\\frac{5}{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Điểm \\(-1,5\\) trùng với điểm \\(\\frac{5}{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Cả hai điểm đều nằm sau gốc \\(O\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "So sánh hai số hữu tỉ",
+      "questiontext": "Để so sánh hai số hữu tỉ \\(0,7\\) và \\(\\frac{6}{5}\\) bằng cách sử dụng tính chất bắc cầu qua số trung gian là số 1, cách lập luận nào sau đây là đúng?",
+      "generalfeedback": "Theo SGK: Ta có thể sử dụng tính chất bắc cầu để so sánh \\(0,7\\) và \\(\\frac{6}{5}\\) bằng cách: Vì \\(0,7 < 1\\) và \\(1 < \\frac{6}{5}\\) nên \\(0,7 < \\frac{6}{5}\\).",
+      "answers": [
+        {
+          "text": "Vì \\(0,7 < 1\\) và \\(1 < \\frac{6}{5}\\) nên \\(0,7 < \\frac{6}{5}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Vì \\(0,7 > 1\\) và \\(1 > \\frac{6}{5}\\) nên \\(0,7 > \\frac{6}{5}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Vì \\(0,7 < 1\\) và \\(1 > \\frac{6}{5}\\) nên \\(0,7 > \\frac{6}{5}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Vì \\(0,7 = 1\\) và \\(1 < \\frac{6}{5}\\) nên \\(0,7 < \\frac{6}{5}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_005",
+      "questiontext": "Hãy ghép mỗi số hữu tỉ ở cột bên trái với số đối của nó ở cột bên phải:",
+      "generalfeedback": "Số đối của số hữu tỉ \\(x\\) là \\(-x\\):\n- Số đối của \\(-\\frac{2}{3}\\) là \\(\\frac{2}{3}\\).\n- Số đối của \\(1,25\\) là \\(-1,25\\).\n- Số đối của 0 là chính nó (0).\n- Số đối của \\(-3\\frac{1}{2}\\) là \\(3\\frac{1}{2}\\).",
+      "subquestions": [
+        {
+          "question": "Số đối của \\(-\\frac{2}{3}\\)",
+          "answer": "\\(\\frac{2}{3}\\)"
+        },
+        {
+          "question": "Số đối của \\(1,25\\)",
+          "answer": "\\(-1,25\\)"
+        },
+        {
+          "question": "Số đối của 0",
+          "answer": "0"
+        },
+        {
+          "question": "Số đối của \\(-3\\frac{1}{2}\\)",
+          "answer": "\\(3\\frac{1}{2}\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Sắp xếp các số hữu tỉ theo thứ tự",
+      "questiontext": "Bảng sau cho biết tuổi thọ trung bình dự kiến của người sinh năm 2019: Mỹ: \\(78\\frac{1}{2}\\) tuổi; Anh: \\(81\\frac{2}{5}\\) tuổi; Pháp: 82,5 tuổi; Australia: 83 tuổi; Tây Ban Nha: \\(83\\frac{1}{5}\\) tuổi. Thứ tự sắp xếp các quốc gia theo tuổi thọ trung bình dự kiến từ nhỏ đến lớn là:",
+      "generalfeedback": "Đổi các số sang dạng số thập phân:\n- Mỹ: \\(78\\frac{1}{2} = 78,5\\)\n- Anh: \\(81\\frac{2}{5} = 81,4\\)\n- Pháp: 82,5\n- Australia: 83\n- Tây Ban Nha: \\(83\\frac{1}{5} = 83,2\\)\nVì \\(78,5 < 81,4 < 82,5 < 83 < 83,2\\) nên thứ tự từ nhỏ đến lớn là: Mỹ < Anh < Pháp < Australia < Tây Ban Nha.",
+      "answers": [
+        {
+          "text": "Mỹ < Anh < Pháp < Australia < Tây Ban Nha",
+          "fraction": 100
+        },
+        {
+          "text": "Mỹ < Anh < Australia < Pháp < Tây Ban Nha",
+          "fraction": 0
+        },
+        {
+          "text": "Tây Ban Nha < Australia < Pháp < Anh < Mỹ",
+          "fraction": 0
+        },
+        {
+          "text": "Anh < Mỹ < Pháp < Tây Ban Nha < Australia",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "So sánh hai số hữu tỉ",
+      "questiontext": "Chỉ số WHtR của một người được tính bằng tỉ số giữa chu vi vòng bụng và chiều cao (cùng đơn vị đo). Tính chỉ số WHtR của ông An biết ông cao 180 cm và có vòng bụng 108 cm. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Chỉ số WHtR của ông An là: \\(\\frac{108}{180} = 0,6\\).",
+      "answers": [
+        {
+          "text": "0.6",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Sắp xếp các số hữu tỉ theo thứ tự",
+      "questiontext": "Trong các số hữu tỉ: \\(5\\frac{1}{4}\\); \\(-2\\); \\(3,125\\); \\(-\\frac{3}{2}\\), số hữu tỉ có giá trị nhỏ nhất là:",
+      "generalfeedback": "So sánh các số hữu tỉ:\n- Ta có \\(-2 < -\\frac{3}{2} = -1,5 < 3,125 < 5\\frac{1}{4} = 5,25\\).\nDo đó, số hữu tỉ có giá trị nhỏ nhất trong các số đã cho là -2.",
+      "answers": [
+        {
+          "text": "-2",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Trong giờ tự học môn Toán, khi gặp bài tập yêu cầu sắp xếp một dãy các số hữu tỉ bao gồm cả hỗn số, số thập phân âm và phân số như \\(5\\frac{1}{4}; -2; 3,125; -\\frac{3}{2}\\), để thể hiện tính chăm chỉ và tinh thần vượt khó trong học tập, bạn Nam nên thực hiện hành động nào sau đây?",
+      "generalfeedback": "Để rèn luyện phẩm chất chăm chỉ, học sinh cần có tính kiên trì, không ngại khó khi gặp các bài toán đòi hỏi nhiều bước tính toán, chủ động vận dụng quy tắc đưa các số hữu tỉ về cùng một dạng (phân số hoặc số thập phân) để so sánh và sắp xếp chính xác.",
+      "answers": [
+        {
+          "text": "Kiên trì đổi các số về cùng dạng phân số hoặc số thập phân, phân loại số âm và số dương để đối chiếu cẩn thận từng bước",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài tập này vì có nhiều số phức tạp, chỉ chọn làm các bài tập đơn giản hơn",
+          "fraction": 0
+        },
+        {
+          "text": "Chép ngay đáp án của bạn khác vào vở để nhanh chóng hoàn thành đủ số lượng bài tập",
+          "fraction": 0
+        },
+        {
+          "text": "Đoán mò thứ tự các số và ghi kết quả mà không cần tính toán hay chuyển đổi trung gian",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Trong một bài kiểm tra Toán về chủ đề so sánh số hữu tỉ, khi tính chỉ số \\(WHtR\\) để đánh giá sức khỏe của một người cao 180 cm và có vòng bụng 108 cm, bạn An tính ra kết quả là 0,6 (mức Thừa cân). Khi nhìn sang bài của bạn bên cạnh thấy bạn ấy ghi nhầm là 0,55 (mức Hơi béo) và bạn ấy bảo An sửa theo để cả hai cùng điểm. Hành vi nào sau đây thể hiện rõ nhất phẩm chất trung thực của bạn An?",
+      "generalfeedback": "Phẩm chất trung thực đòi hỏi học sinh phải tôn trọng sự thật, tin tưởng vào quá trình tư duy và kết quả tính toán độc lập của bản thân, không gian dối hay sao chép bài của người khác trong kiểm tra, đánh giá.",
+      "answers": [
+        {
+          "text": "Giữ nguyên kết quả tính toán đúng của mình (0,6), không sửa theo bạn và nhắc bạn kiểm tra lại phép chia \\(\\frac{108}{180}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Sửa ngay kết quả của mình thành 0,55 để bài làm giống bạn",
+          "fraction": 0
+        },
+        {
+          "text": "Lén nhìn thêm bài của một bạn khác nữa để xem ai chiếm đa số thì chép theo",
+          "fraction": 0
+        },
+        {
+          "text": "Xóa bài làm của mình và để trống không nộp câu này",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Để tự học và hệ thống hóa kiến thức bài 'Thứ tự trong tập hợp các số hữu tỉ' tại nhà một cách chủ động và hiệu quả, bạn Hoa nên lập sơ đồ tóm tắt các phương pháp so sánh hai số hữu tỉ bất kì \\(a\\) và \\(b\\) theo cách nào sau đây?",
+      "generalfeedback": "Năng lực tự chủ và tự học được thể hiện qua việc học sinh biết chủ động xây dựng kế hoạch, tự hệ thống hoá kiến thức bài học thành các phương pháp có cấu trúc logic (quy đồng mẫu số, so sánh trực tiếp số thập phân, so sánh bắc cầu, quan sát trên trục số) để dễ dàng vận dụng khi giải toán.",
+      "answers": [
+        {
+          "text": "Phân chia thành các nhánh phương pháp rõ ràng: (1) Viết dưới dạng phân số cùng mẫu dương; (2) So sánh trực tiếp dưới dạng số thập phân; (3) So sánh bắc cầu qua số trung gian (như số 0 hoặc số 1); (4) Biểu diễn trên trục số",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ ghi chép lại các công thức định nghĩa số hữu tỉ mà không cần phân loại các phương pháp so sánh hay các trường hợp áp dụng",
+          "fraction": 0
+        },
+        {
+          "text": "Chép nguyên văn toàn bộ các bài tập đã có lời giải trong sách giáo khoa vào vở tự học mà không khái quát thành quy tắc",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ đọc lướt qua sách giáo khoa một lần và không cần ghi chép hay tự giải lại các ví dụ minh họa",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLC_GIAOTIEP",
+      "questiontext": "Khi làm việc nhóm giải bài tập sắp xếp tuổi thọ trung bình dự kiến của người sinh năm 2019 ở 5 quốc gia: Mỹ (\\(78\\frac{1}{2}\\)), Anh (\\(81\\frac{2}{5}\\)), Pháp (82,5), Australia (83), Tây Ban Nha (\\(83\\frac{1}{5}\\)), hai bạn trong nhóm đưa ra hai thứ tự sắp xếp khác nhau. Để thể hiện năng lực giao tiếp và hợp tác hiệu quả, các thành viên trong nhóm nên xử lý như thế nào?",
+      "generalfeedback": "Năng lực giao tiếp và hợp tác thể hiện ở tinh thần tôn trọng, lắng nghe ý kiến của các thành viên trong nhóm, biết sử dụng ngôn ngữ toán học và lập luận logic để trao đổi, đối chiếu các bước quy đổi số hữu tỉ, từ đó đạt được sự đồng thuận chung của cả nhóm.",
+      "answers": [
+        {
+          "text": "Lắng nghe ý kiến của cả hai bạn, cùng nhau đối chiếu từng bước quy đổi các hỗn số sang số thập phân và thống nhất kết quả dựa trên lập luận toán học",
+          "fraction": 100
+        },
+        {
+          "text": "Biểu quyết theo số đông thành viên trong nhóm mà không cần kiểm tra lại các bước tính toán",
+          "fraction": 0
+        },
+        {
+          "text": "Chọn luôn kết quả của bạn nhóm trưởng vì cho rằng nhóm trưởng luôn luôn đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Tranh cãi gay gắt và mỗi bạn tự nộp một bản kết quả riêng cho giáo viên",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Để so sánh hai số hữu tỉ \\(a = -\\frac{2021}{2022}\\) và \\(b = \\frac{1}{2023}\\) một cách nhanh chóng mà không cần quy đồng mẫu số, học sinh cần sử dụng thao tác tư duy và lập luận toán học nào sau đây?",
+      "generalfeedback": "Năng lực tư duy và lập luận toán học thể hiện qua khả năng lựa chọn công cụ tư duy tối ưu (so sánh qua số trung gian 0 theo tính chất bắc cầu: số hữu tỉ âm luôn nhỏ hơn 0 và số hữu tỉ dương luôn lớn hơn 0) thay vì thực hiện các phép tính quy đồng cồng kềnh.",
+      "answers": [
+        {
+          "text": "Sử dụng tính chất bắc cầu qua số trung gian là số 0: vì \\(-\\frac{2021}{2022} < 0\\) và \\(0 < \\frac{1}{2023}\\) nên \\(-\\frac{2021}{2022} < \\frac{1}{2023}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "So sánh trực tiếp các mẫu số: vì \\(2022 < 2023\\) nên \\(-\\frac{2021}{2022} < \\frac{1}{2023}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "So sánh trực tiếp các tử số: vì \\(-2021 < 1\\) nên kết luận mà không cần xét dấu của mẫu số",
+          "fraction": 0
+        },
+        {
+          "text": "Quy đồng mẫu số chung là \\(2022 \\times 2023\\) rồi mới so sánh hai tử số sau quy đồng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "questiontext": "Chỉ số \\(WHtR\\) của một người trưởng thành bằng tỉ số giữa chu vi vòng bụng và chiều cao (cùng đơn vị). Mức 'Tốt' có chỉ số \\(WHtR\\) lớn hơn 0,42 và nhỏ hơn hoặc bằng 0,52; mức 'Thừa cân' có chỉ số lớn hơn 0,57 và nhỏ hơn hoặc bằng 0,63. Một người đàn ông cao 160 cm hiện có vòng bụng 96 cm (chỉ số \\(WHtR = 0,6\\) thuộc mức Thừa cân). Để chỉ số \\(WHtR\\) giảm xuống mức Tốt (\\(WHtR \\le 0,52\\)), người đó cần thực hiện chế độ luyện tập và dinh dưỡng để giảm chu vi vòng bụng tối thiểu là bao nhiêu xăng-ti-mét?",
+      "generalfeedback": "Để giải quyết vấn đề thực tế này, ta lập mô hình toán học:\n- Để \\(WHtR \\le 0,52\\) với chiều cao 160 cm, chu vi vòng bụng tối đa cho phép ở mức Tốt là: \\(160 \\times 0,52 = 83,2\\) cm.\n- Chu vi vòng bụng hiện tại là 96 cm, do đó số xăng-ti-mét vòng bụng cần giảm tối thiểu là: \\(96 - 83,2 = 12,8\\) cm.",
+      "answers": [
+        {
+          "text": "12,8 cm",
+          "fraction": 100
+        },
+        {
+          "text": "10,5 cm",
+          "fraction": 0
+        },
+        {
+          "text": "14,4 cm",
+          "fraction": 0
+        },
+        {
+          "text": "8,2 cm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "1.3TC1a_K7",
+      "questiontext": "Để theo dõi định kỳ và phân loại tình trạng sức khỏe theo chỉ số \\(WHtR\\) của 40 học sinh trong lớp trên môi trường số, học sinh nên lựa chọn công cụ công nghệ và cách tổ chức dữ liệu nào sau đây để việc tính toán và sắp xếp được tự động hóa hiệu quả nhất?",
+      "generalfeedback": "Năng lực ứng dụng công nghệ và tổ chức dữ liệu trong môi trường số thể hiện qua việc biết lựa chọn phần mềm bảng tính, thiết lập cấu trúc bảng hợp lý (các cột dữ liệu thô) và sử dụng công thức tính tự động cùng tính năng sắp xếp (Sort) để xử lý dữ liệu nhanh chóng, chính xác.",
+      "answers": [
+        {
+          "text": "Tạo bảng trong phần mềm bảng tính (như Excel hoặc Google Sheets), nhập chiều cao và vòng bụng vào các cột, dùng công thức chia để tính chỉ số \\(WHtR\\) và dùng tính năng Sort để sắp xếp theo thứ tự",
+          "fraction": 100
+        },
+        {
+          "text": "Sử dụng phần mềm vẽ (Paint) để vẽ từng hình người kèm ghi chú số đo bên cạnh rồi lưu thành tệp hình ảnh",
+          "fraction": 0
+        },
+        {
+          "text": "Ghi danh sách tên và số đo vào một tệp văn bản thô dạng ghi chú (.txt) không có bảng biểu hay công thức",
+          "fraction": 0
+        },
+        {
+          "text": "Tạo một bài thuyết trình nhiều trang (PowerPoint), mỗi trang ghi thông tin của một học sinh và tự tính nhẩm bằng tay",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "7.A1.2_1",
+      "questiontext": "Một ứng dụng y tế thông minh sử dụng trí tuệ nhân tạo (AI) để phân tích chỉ số sức khỏe \\(WHtR\\). Do sai sót trong nhận diện đơn vị đo khi người dùng nhập dữ liệu, hệ thống AI đã tính toán nhầm và đưa ra kết luận một người có chỉ số \\(WHtR = 0,65\\) (mức Béo phì) thuộc mức 'Gầy' (\\(WHtR \\le 0,42\\)). Hậu quả nào sau đây có thể xảy ra trong thực tế nếu người dùng hoàn toàn tin tưởng vào kết quả của AI mà không có sự kiểm tra, xác thực của bác sĩ hay chuyên gia y tế?",
+      "generalfeedback": "Đây là ví dụ điển hình về hậu quả thực tế khi không có sự xác thực của con người đối với kết quả do AI cung cấp. Kết luận sai lệch về chỉ số y tế nếu không được bác sĩ hay con người kiểm chứng có thể dẫn đến việc chủ quan, không can thiệp kịp thời đối với các nguy cơ bệnh tật nghiêm trọng.",
+      "answers": [
+        {
+          "text": "Người đó chủ quan không thực hiện chế độ giảm cân hay tầm soát sức khỏe, dẫn đến tăng nguy cơ mắc các bệnh tim mạch, cao huyết áp và tiểu đường do béo phì",
+          "fraction": 100
+        },
+        {
+          "text": "Hệ thống AI sẽ tự động điều chỉnh số đo thực tế trên cơ thể người dùng để phù hợp với kết luận 'Gầy'",
+          "fraction": 0
+        },
+        {
+          "text": "Người dùng sẽ lập tức được tự động cấp chứng chỉ thể lực xuất sắc trên hệ thống bảo hiểm y tế",
+          "fraction": 0
+        },
+        {
+          "text": "Toàn bộ dữ liệu trong điện thoại thông minh của người dùng sẽ bị xóa sạch do kết luận sai của AI",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

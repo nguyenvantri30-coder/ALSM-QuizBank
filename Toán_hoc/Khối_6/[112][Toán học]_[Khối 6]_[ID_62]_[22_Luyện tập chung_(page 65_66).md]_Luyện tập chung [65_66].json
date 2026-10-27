@@ -1,0 +1,658 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 27,
+    "metadata_used": {
+      "YCCD_TOAN6_124": 5,
+      "YCCD_TOAN6_128": 5,
+      "Phương pháp đo và so sánh góc trong hình học thực tế": 5,
+      "Đo góc và giải bài toán thực tế liên quan đến góc": 5,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TUHOC_C2_04": 1,
+      "SUB_GTHT_XACDINHMD_C2_03": 1,
+      "NLT_TOAN_C2_01_02": 1,
+      "NLT_TOAN_C2_05_01": 2
+    },
+    "types_used": {
+      "multichoice": 8,
+      "truefalse": 4,
+      "shortanswer": 3,
+      "gapselect": 3,
+      "matching": 3,
+      "numerical": 2,
+      "ddwtos": 1,
+      "calculated": 1,
+      "calculatedsimple": 1,
+      "calculatedmulti": 1
+    },
+    "total": 27
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN6_124",
+        "reason": "Nhận biết được góc vuông trong hình vẽ và thực tế."
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_128",
+        "reason": "Nhận biết được khái niệm số đo góc, đơn vị đo góc và ý nghĩa của số đo góc."
+      },
+      {
+        "metadata_code": "Phương pháp đo và so sánh góc trong hình học thực tế",
+        "reason": "Nắm vững phương pháp đo và so sánh số đo các góc."
+      },
+      {
+        "metadata_code": "Đo góc và giải bài toán thực tế liên quan đến góc",
+        "reason": "Thực hành đo góc, so sánh góc và giải bài toán thực tế liên quan đến góc."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học Luyện tập chung về góc không chứa nội dung liên quan trực tiếp đến Năng lực tin học/số."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Bài học Luyện tập chung về góc không chứa nội dung liên quan trực tiếp đến Năng lực AI."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_124",
+      "imgs": [
+        "_page_0_Picture_15.jpeg"
+      ],
+      "questiontext": "Quan sát Hình 8.54 [img:_page_0_Picture_15.jpeg], góc nào sau đây là góc vuông?",
+      "generalfeedback": "Theo Ví dụ 2 trong SGK, các góc vuông trong Hình 8.54 là \\(\\widehat{AHt}\\) và \\(\\widehat{tHz}\\).",
+      "answers": [
+        {
+          "text": "\\(\\widehat{AHt}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\widehat{xAy}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\widehat{xAz}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\widehat{AMy}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_124",
+      "questiontext": "Góc vuông là góc có số đo bằng \\(90^{\\circ}\\). Khẳng định này Đúng hay Sai?",
+      "generalfeedback": "Theo khái niệm cơ bản về góc, góc vuông có số đo đúng bằng \\(90^{\\circ}\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_124",
+      "questiontext": "Dụng cụ học tập nào thường được dùng để kiểm tra trực tiếp một góc có phải là góc vuông hay không?",
+      "generalfeedback": "Ê ke là dụng cụ dùng để kiểm tra góc vuông.",
+      "answers": [
+        {
+          "text": "ê ke",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_124",
+      "questiontext": "Góc vuông có số đo bằng [[1]], còn góc nhọn có số đo [[2]] \\(90^{\\circ}\\).",
+      "generalfeedback": "Góc vuông có số đo bằng \\(90^{\\circ}\\), góc nhọn có số đo nhỏ hơn \\(90^{\\circ}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(90^{\\circ}\\)"
+        },
+        {
+          "group": 1,
+          "text": "nhỏ hơn"
+        },
+        {
+          "group": 1,
+          "text": "lớn hơn"
+        },
+        {
+          "group": 1,
+          "text": "\\(180^{\\circ}\\)"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_124",
+      "questiontext": "Hãy ghép mỗi loại góc với đặc điểm số đo tương ứng:",
+      "generalfeedback": "Góc nhọn < \\(90^{\\circ}\\), góc vuông = \\(90^{\\circ}\\), góc tù > \\(90^{\\circ}\\) và < \\(180^{\\circ}\\), góc bẹt = \\(180^{\\circ}\\).",
+      "subquestions": [
+        {
+          "question": "Góc vuông",
+          "answer": "Có số đo bằng \\(90^{\\circ}\\)"
+        },
+        {
+          "question": "Góc nhọn",
+          "answer": "Có số đo nhỏ hơn \\(90^{\\circ}\\)"
+        },
+        {
+          "question": "Góc bẹt",
+          "answer": "Có số đo bằng \\(180^{\\circ}\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_128",
+      "imgs": [
+        "_page_0_Picture_3.jpeg"
+      ],
+      "questiontext": "Quan sát các góc trong hình [img:_page_0_Picture_3.jpeg]. Số đo của góc \\(\\widehat{xAy}\\) bằng bao nhiêu?",
+      "generalfeedback": "Theo Ví dụ 1 trong SGK, số đo góc \\(\\widehat{xAy} = 50^{\\circ}\\).",
+      "answers": [
+        {
+          "text": "\\(50^{\\circ}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(30^{\\circ}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(110^{\\circ}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(90^{\\circ}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_128",
+      "imgs": [
+        "_page_0_Picture_3.jpeg"
+      ],
+      "questiontext": "Quan sát hình vẽ [img:_page_0_Picture_3.jpeg], cho biết số đo của góc \\(\\widehat{EOF}\\) là bao nhiêu độ? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Theo Ví dụ 1, góc \\(\\widehat{EOF}\\) có số đo là 30 độ.",
+      "answers": [
+        {
+          "text": "30",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_128",
+      "questiontext": "Mỗi góc có một số đo, và số đo của góc bẹt là \\(180^{\\circ}\\). Khẳng định này Đúng hay Sai?",
+      "generalfeedback": "Số đo góc bẹt đúng bằng \\(180^{\\circ}\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_128",
+      "questiontext": "Dụng cụ dùng để đo số đo góc là [[1]]. Đơn vị đo góc thường dùng là [[2]].",
+      "generalfeedback": "Thước đo góc dùng để đo số đo góc, đơn vị đo góc là độ.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "thước đo góc"
+        },
+        {
+          "group": 1,
+          "text": "độ"
+        },
+        {
+          "group": 1,
+          "text": "thước thẳng"
+        },
+        {
+          "group": 1,
+          "text": "cm"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_128",
+      "questiontext": "Ký hiệu đơn vị dùng để đo góc trong chương trình Toán 6 là gì?",
+      "generalfeedback": "Đơn vị đo góc thường dùng là độ.",
+      "answers": [
+        {
+          "text": "độ",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Phương pháp đo và so sánh góc trong hình học thực tế",
+      "imgs": [
+        "_page_0_Picture_3.jpeg"
+      ],
+      "questiontext": "Cho ba góc trong hình [img:_page_0_Picture_3.jpeg]: \\(\\widehat{xAy} = 50^{\\circ}\\), \\(\\widehat{EOF} = 30^{\\circ}\\), \\(\\widehat{mHn} = 110^{\\circ}\\). Thứ tự sắp xếp các góc theo số đo tăng dần là:",
+      "generalfeedback": "Theo Ví dụ 1 trong SGK, sắp xếp các góc theo thứ tự tăng dần số đo là \\(\\widehat{EOF} < \\widehat{xAy} < \\widehat{mHn}\\) (vì \\(30^{\\circ} < 50^{\\circ} < 110^{\\circ}\\)).",
+      "answers": [
+        {
+          "text": "\\(\\widehat{EOF} < \\widehat{xAy} < \\widehat{mHn}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\widehat{mHn} < \\widehat{xAy} < \\widehat{EOF}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\widehat{xAy} < \\widehat{EOF} < \\widehat{mHn}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\widehat{EOF} < \\widehat{mHn} < \\widehat{xAy}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Phương pháp đo và so sánh góc trong hình học thực tế",
+      "questiontext": "Nếu góc \\(A\\) có số đo bằng \\(45^{\\circ}\\) và góc \\(B\\) có số đo bằng \\(60^{\\circ}\\) thì góc \\(A\\) lớn hơn góc \\(B\\). Khẳng định này Đúng hay Sai?",
+      "generalfeedback": "Vì \\(45^{\\circ} < 60^{\\circ}\\) nên góc \\(A\\) nhỏ hơn góc \\(B\\). Khẳng định góc \\(A\\) lớn hơn góc \\(B\\) là Sai.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Phương pháp đo và so sánh góc trong hình học thực tế",
+      "questiontext": "Khi so sánh hai góc, góc nào có số đo lớn hơn thì [[1]] hơn, hai góc bằng nhau thì có số đo [[2]].",
+      "generalfeedback": "Góc có số đo lớn hơn thì lớn hơn, hai góc bằng nhau thì có số đo bằng nhau.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "lớn"
+        },
+        {
+          "group": 1,
+          "text": "bằng nhau"
+        },
+        {
+          "group": 1,
+          "text": "nhỏ"
+        },
+        {
+          "group": 1,
+          "text": "khác nhau"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Phương pháp đo và so sánh góc trong hình học thực tế",
+      "questiontext": "Hãy ghép các cặp góc với kết quả so sánh đúng dựa trên số đo góc:",
+      "generalfeedback": "So sánh số đo các góc: \\(30^{\\circ} < 50^{\\circ}\\), \\(90^{\\circ} = 90^{\\circ}\\), \\(120^{\\circ} > 85^{\\circ}\\).",
+      "subquestions": [
+        {
+          "question": "Góc \\(30^{\\circ}\\) và góc \\(50^{\\circ}\\)",
+          "answer": "Góc \\(30^{\\circ}\\) nhỏ hơn góc \\(50^{\\circ}\\)"
+        },
+        {
+          "question": "Góc \\(90^{\\circ}\\) và góc \\(90^{\\circ}\\)",
+          "answer": "Hai góc bằng nhau"
+        },
+        {
+          "question": "Góc \\(120^{\\circ}\\) và góc \\(85^{\\circ}\\)",
+          "answer": "Góc \\(120^{\\circ}\\) lớn hơn góc \\(85^{\\circ}\\)"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Phương pháp đo và so sánh góc trong hình học thực tế",
+      "questiontext": "Khi dùng thước đo góc để đo một góc, tâm của thước phải được đặt trùng với vị trí nào của góc?",
+      "generalfeedback": "Để đo góc, tâm của thước phải trùng với đỉnh của góc.",
+      "answers": [
+        {
+          "text": "đỉnh của góc",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Đo góc và giải bài toán thực tế liên quan đến góc",
+      "imgs": [
+        "_page_1_Picture_14.jpeg"
+      ],
+      "questiontext": "Trong Bài 8.38 [img:_page_1_Picture_14.jpeg], góc nghiêng an toàn khi đặt thang là khoảng \\(75^{\\circ}\\). Nếu qua đo đạc thu được số đo góc nghiêng \\(xOy = 75^{\\circ}\\) thì chiếc thang đã đảm bảo an toàn chưa?",
+      "generalfeedback": "Góc nghiêng đo được bằng \\(75^{\\circ}\\), đúng bằng góc nghiêng an toàn tiêu chuẩn nên chiếc thang đã đảm bảo an toàn.",
+      "answers": [
+        {
+          "text": "Đã đảm bảo an toàn",
+          "fraction": 100
+        },
+        {
+          "text": "Chưa đảm bảo an toàn",
+          "fraction": 0
+        },
+        {
+          "text": "Không thể đo được góc",
+          "fraction": 0
+        },
+        {
+          "text": "Góc nghiêng quá lớn gây nguy hiểm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Đo góc và giải bài toán thực tế liên quan đến góc",
+      "imgs": [
+        "_page_1_Picture_4.jpeg"
+      ],
+      "questiontext": "Quan sát Hình [img:_page_1_Picture_4.jpeg], cho tam giác đều \\(ABC\\) có góc \\(\\widehat{ABC} = 60^{\\circ}\\) và góc \\(\\widehat{DBC} = 20^{\\circ}\\). Dự đoán số đo của góc \\(\\widehat{ABD}\\) theo độ. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Số đo góc \\(\\widehat{ABD} = \\widehat{ABC} - \\widehat{DBC} = 60^{\\circ} - 20^{\\circ} = 40^{\\circ}\\).",
+      "answers": [
+        {
+          "text": "40",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Đo góc và giải bài toán thực tế liên quan đến góc",
+      "questiontext": "Một học sinh thực hành đo góc \\(A\\) được {a} độ và góc \\(B\\) được {b} độ. Hỏi tổng số đo của hai góc \\(A\\) và \\(B\\) bằng bao nhiêu độ?",
+      "generalfeedback": "Tổng số đo hai góc là {a} + {b}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 10.0,
+          "max": 80.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 10.0,
+          "max": 80.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}+{b}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Đo góc và giải bài toán thực tế liên quan đến góc",
+      "questiontext": "Cho góc \\(xOy\\) có số đo bằng {a} độ. Hỏi góc \\(xOy\\) cần tăng thêm bao nhiêu độ nữa để tạo thành một góc vuông \\(90^{\\circ}\\)?",
+      "generalfeedback": "Số độ cần tăng thêm là 90 - {a}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 10.0,
+          "max": 80.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "90-{a}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "Đo góc và giải bài toán thực tế liên quan đến góc",
+      "questiontext": "Biết góc \\(M\\) có số đo là {a} độ, góc \\(N\\) có số đo gấp 2 lần góc \\(M\\). Hãy chọn công thức đúng tính số đo góc \\(N\\):",
+      "generalfeedback": "Số đo góc N gấp 2 lần góc M nên bằng {a} * 2.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 15.0,
+          "max": 75.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*2",
+          "fraction": 100
+        },
+        {
+          "text": "{a}+2",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ học Toán 6 bài Luyện tập chung về góc, bạn An gặp một bài tập khó về đo và so sánh góc. Thay vì bỏ cuộc hoặc chép đáp án của bạn, An đã kiên nhẫn dùng thước đo góc đo lại nhiều lần để tìm ra kết quả chính xác. Việc làm của An thể hiện phẩm chất nào sau đây?",
+      "generalfeedback": "Hành vi kiên nhẫn tự mình vượt qua khó khăn trong học tập để đạt kết quả tốt thể hiện tinh thần luôn cố gắng vươn lên trong học tập.",
+      "answers": [
+        {
+          "text": "Luôn cố gắng vươn lên đạt kết quả tốt trong học tập",
+          "fraction": 100
+        },
+        {
+          "text": "Ích kỷ không muốn chia sẻ bài làm với bạn",
+          "fraction": 0
+        },
+        {
+          "text": "Thiếu tự tin vào khả năng của bản thân",
+          "fraction": 0
+        },
+        {
+          "text": "Gây mất thời gian làm bài của lớp",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Để lưu giữ thông tin bài học về góc một cách chọn lọc và có hệ thống, em hãy ghép mỗi loại góc với đặc điểm số đo tương ứng trong bảng tóm tắt kiến thức:",
+      "generalfeedback": "Bảng tóm tắt kiến thức giúp hệ thống hóa thông tin: Góc nhọn < \\(90^{\\circ}\\), Góc vuông = \\(90^{\\circ}\\), Góc tù > \\(90^{\\circ}\\) và < \\(180^{\\circ}\\).",
+      "subquestions": [
+        {
+          "question": "Góc nhọn",
+          "answer": "Số đo nhỏ hơn \\(90^{\\circ}\\)"
+        },
+        {
+          "question": "Góc vuông",
+          "answer": "Số đo bằng \\(90^{\\circ}\\)"
+        },
+        {
+          "question": "Góc tù",
+          "answer": "Số đo lớn hơn \\(90^{\\circ}\\) và nhỏ hơn \\(180^{\\circ}\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "imgs": [
+        "_page_1_Picture_14.jpeg"
+      ],
+      "questiontext": "Đọc đoạn văn bản hướng dẫn an toàn sau: 'Trong thực tế, góc nghiêng \\(xOy\\) khi đặt thang đảm bảo an toàn là khoảng \\(75^{\\circ}\\)'. Quan sát Hình 8.38 [img:_page_1_Picture_14.jpeg], người thợ đặt thang tạo với mặt đất góc \\(xOy = 75^{\\circ}\\). Thông tin nào sau đây là chính xác khi tiếp nhận văn bản và hình ảnh trên?",
+      "generalfeedback": "Tiếp nhận thông tin từ văn bản kết hợp hình ảnh: góc nghiêng thực tế \\(75^{\\circ}\\) bằng góc an toàn tiêu chuẩn \\(75^{\\circ}\\) nên vị trí đặt thang đảm bảo an toàn.",
+      "answers": [
+        {
+          "text": "Chiếc thang được đặt ở vị trí đảm bảo an toàn vì góc nghiêng bằng \\(75^{\\circ}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Chiếc thang đặt quá dốc gây nguy hiểm cho người sử dụng",
+          "fraction": 0
+        },
+        {
+          "text": "Góc nghiêng của thang không liên quan đến an toàn lao động",
+          "fraction": 0
+        },
+        {
+          "text": "Chiếc thang bị nghiêng quá thấp so với mặt đất",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "NLT_TOAN_C2_01_02",
+      "imgs": [
+        "_page_0_Picture_15.jpeg"
+      ],
+      "questiontext": "Quan sát kỹ Hình 8.54 [img:_page_0_Picture_15.jpeg], điểm M nằm ở vị trí nào đối với góc \\(xAz\\)?",
+      "generalfeedback": "Bằng năng lực quan sát hình học, ta nhận thấy điểm M nằm trong góc \\(xAz\\).",
+      "answers": [
+        {
+          "text": "Điểm M nằm trong góc \\(xAz\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Điểm M nằm ngoài góc \\(xAz\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Điểm M nằm trên cạnh Ax",
+          "fraction": 0
+        },
+        {
+          "text": "Điểm M trùng với đỉnh A",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "NLT_TOAN_C2_05_01",
+      "questiontext": "Công cụ dùng để kiểm tra góc vuông là [[1]], còn dụng cụ dùng để đo số đo của một góc theo đơn vị độ là [[2]].",
+      "generalfeedback": "Ê ke dùng để kiểm tra góc vuông, thước đo góc dùng để đo số đo góc.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "ê ke"
+        },
+        {
+          "group": 1,
+          "text": "thước đo góc"
+        },
+        {
+          "group": 1,
+          "text": "thước dây"
+        },
+        {
+          "group": 1,
+          "text": "com pa"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi đo góc trong bài tập thực tế, nếu số đo đo được lần đầu khác với dự đoán, học sinh nên kiên trì đo lại cẩn thận thay vì tự ý sửa số liệu cho giống bạn. Khẳng định này Đúng hay Sai?",
+      "generalfeedback": "Kiên trì và trung thực trong học tập là biểu hiện của phẩm chất cố gắng vươn lên đạt kết quả tốt.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "NLT_TOAN_C2_05_01",
+      "questiontext": "Khi đặt thước đo góc để đo góc \\(xOy\\), thao tác nào sau đây là đúng quy cách sử dụng phương tiện học toán?",
+      "generalfeedback": "Đặt tâm của thước trùng với đỉnh O của góc, một cạnh của góc đi qua vạch 0 của thước.",
+      "answers": [
+        {
+          "text": "Đặt tâm của thước trùng với đỉnh O và một cạnh của góc đi qua vạch \\(0^{\\circ}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Đặt mép thẳng của thước tùy ý lên trên góc",
+          "fraction": 0
+        },
+        {
+          "text": "Đặt tâm của thước nằm ngoài góc \\(xOy\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Đặt vạch \\(90^{\\circ}\\) trùng với đỉnh O của góc",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

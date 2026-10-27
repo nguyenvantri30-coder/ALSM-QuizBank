@@ -1,0 +1,927 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 38,
+    "metadata_used": {
+      "Quy tắc tìm giá trị phân số m/n của số a (lấy a . m/n)": 4,
+      "Quy tắc tìm một số biết giá trị phân số m/n của nó là b (lấy b : m/n)": 3,
+      "Tính giá trị phân số của một số cho trước": 9,
+      "YCCD_TOAN6_068": 3,
+      "Tìm một số khi biết giá trị phân số của nó": 6,
+      "YCCD_TOAN6_070": 3,
+      "YCCD_TOAN6_069": 2,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TUHOC_C2_04": 1,
+      "SUB_GTHT_XACDINHMD_C2_03": 2,
+      "NLT_TOAN_C2_01_01": 2,
+      "NLT_TOAN_C2_04_02": 1
+    },
+    "types_used": {
+      "multichoice": 17,
+      "truefalse": 4,
+      "gapselect": 2,
+      "numerical": 4,
+      "calculated": 1,
+      "shortanswer": 3,
+      "matching": 3,
+      "calculatedsimple": 2,
+      "ddwtos": 2
+    },
+    "total": 38
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN6_068",
+        "reason": "Bám sát YCCĐ Tính được giá trị phân số của một số cho trước"
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_069",
+        "reason": "Bám sát YCCĐ Tính được một số biết giá trị phân số của số đó"
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_070",
+        "reason": "Bám sát YCCĐ Giải quyết được một số vấn đề thực tiễn gắn với các phép tính về phân số"
+      },
+      {
+        "metadata_code": "Quy tắc tìm giá trị phân số m/n của số a (lấy a . m/n)",
+        "reason": "Bám sát Quy tắc tìm giá trị phân số m/n của số a"
+      },
+      {
+        "metadata_code": "Quy tắc tìm một số biết giá trị phân số m/n của nó là b (lấy b : m/n)",
+        "reason": "Bám sát Quy tắc tìm một số biết giá trị phân số m/n của nó là b"
+      },
+      {
+        "metadata_code": "Tính giá trị phân số của một số cho trước",
+        "reason": "Bám sát Kỹ năng tính giá trị phân số của một số cho trước"
+      },
+      {
+        "metadata_code": "Tìm một số khi biết giá trị phân số của nó",
+        "reason": "Bám sát Kỹ năng tìm một số khi biết giá trị phân số của nó"
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Bám sát phẩm chất Luôn cố gắng vươn lên đạt kết quả tốt trong học tập"
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+        "reason": "Bám sát NLC Lưu giữ thông tin có chọn lọc bằng ghi tóm tắt, sơ đồ, từ khóa"
+      },
+      {
+        "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+        "reason": "Bám sát NLC Tiếp nhận văn bản có sử dụng ngôn ngữ kết hợp biểu đồ, số liệu, hình ảnh"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_01",
+        "reason": "Bám sát NLĐT Thực hiện được các thao tác tư duy (phân tích, so sánh, tổng hợp)"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_04_02",
+        "reason": "Bám sát NLĐT Đọc hiểu được các thông tin toán học cơ bản trong văn bản"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N",
+        "reason": "Bài học thuần toán học đại số phân số, không chứa nội dung thao tác tin học hay công cụ số trực tiếp."
+      },
+      {
+        "metadata_code": "A",
+        "reason": "Bài học thuần toán học đại số phân số, không liên quan trực tiếp đến nguyên lý hay ứng dụng AI."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc tìm giá trị phân số m/n của số a (lấy a . m/n)",
+      "questiontext": "Muốn tìm \\(\\frac{m}{n}\\) của một số \\(a\\) cho trước (với \\(m \\in \\mathbb{N}, n \\in \\mathbb{N}^*\\)), ta làm như thế nào?",
+      "generalfeedback": "Theo quy tắc, muốn tìm \\(\\frac{m}{n}\\) của một số \\(a\\) cho trước ta tính \\(a \\cdot \\frac{m}{n}\\).",
+      "answers": [
+        {
+          "text": "Tính \\(a \\cdot \\frac{m}{n}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Tính \\(a : \\frac{m}{n}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Tính \\(\\frac{m}{n} : a\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Tính \\(a + \\frac{m}{n}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc tìm một số biết giá trị phân số m/n của nó là b (lấy b : m/n)",
+      "questiontext": "Muốn tìm một số biết \\(\\frac{m}{n}\\) của số đó bằng \\(b\\) (với \\(m, n \\in \\mathbb{N}^*\\)), ta tính \\(b : \\frac{m}{n}\\). Khẳng định này đúng hay sai?",
+      "generalfeedback": "Khẳng định trên là đúng. Theo quy tắc: Muốn tìm một số biết \\(\\frac{m}{n}\\) của số đó bằng \\(b\\), ta tính \\(b : \\frac{m}{n}\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc tìm giá trị phân số m/n của số a (lấy a . m/n)",
+      "questiontext": "Điền từ thích hợp vào chỗ trống: Muốn tìm giá trị phân số \\(\\frac{m}{n}\\) của số \\(a\\) cho trước, ta lấy số \\(a\\) [[1]] với phân số \\(\\frac{m}{n}\\). Muốn tìm một số biết \\(\\frac{m}{n}\\) của nó bằng \\(b\\), ta lấy \\(b\\) [[2]] cho \\(\\frac{m}{n}\\).",
+      "generalfeedback": "Để tìm giá trị phân số của một số cho trước ta thực hiện phép nhân. Để tìm một số khi biết giá trị phân số của nó ta thực hiện phép chia.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "nhân"
+        },
+        {
+          "group": 1,
+          "text": "chia"
+        },
+        {
+          "group": 1,
+          "text": "cộng"
+        },
+        {
+          "group": 1,
+          "text": "trừ"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Tính giá trị phân số của một số cho trước",
+      "questiontext": "Tính \\(\\frac{4}{5}\\) của \\(100\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Giá trị \\(\\frac{4}{5}\\) của \\(100\\) là: \\(100 \\cdot \\frac{4}{5} = 80\\).",
+      "answers": [
+        {
+          "text": "80",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tính giá trị phân số của một số cho trước",
+      "imgs": [
+        "_page_0_Picture_7.jpeg"
+      ],
+      "questiontext": "[img:_page_0_Picture_7.jpeg]\nBáo Cheetah có tốc độ chạy tối đa lên tới \\(120\\text{ km/h}\\). Tốc độ chạy tối đa của sư tử bằng khoảng \\(\\frac{2}{3}\\) tốc độ chạy tối đa của báo Cheetah. Tốc độ chạy tối đa của sư tử là bao nhiêu?",
+      "generalfeedback": "Tốc độ chạy tối đa của sư tử là: \\(120 \\cdot \\frac{2}{3} = 80\\text{ (km/h)}\\).",
+      "answers": [
+        {
+          "text": "\\(80\\text{ km/h}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(180\\text{ km/h}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(60\\text{ km/h}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(90\\text{ km/h}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_068",
+      "questiontext": "Một vận động viên tham gia chạy marathon. Khi còn cách đích một khoảng bằng phân số 1/{a} của đường chạy dài 40000 m, anh thấy bạn mình gặp sự cố nên dừng lại dìu bạn cùng về đích. Hỏi quãng đường hai bạn cùng nhau về đích dài bao nhiêu mét? (Tính với biến {a})",
+      "generalfeedback": "Chiều dài quãng đường hai bạn cùng về đích là: 40000 . 1/{a} = 40000/{a} (m).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 20.0,
+          "max": 100.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "40000/{a}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Tính giá trị phân số của một số cho trước",
+      "questiontext": "Đổi \\(\\frac{3}{4}\\) giờ sang đơn vị phút.",
+      "generalfeedback": "\\(\\frac{3}{4}\\) giờ bằng: \\(60 \\cdot \\frac{3}{4} = 45\\) phút.",
+      "answers": [
+        {
+          "text": "45",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm một số khi biết giá trị phân số của nó",
+      "imgs": [
+        "_page_1_Figure_18.jpeg"
+      ],
+      "questiontext": "[img:_page_1_Figure_18.jpeg]\nNga mua quà biếu ông bà hết \\(400\\) nghìn đồng. Số tiền này bằng \\(\\frac{4}{5}\\) số tiền Nga đã tiết kiệm được. Hỏi Nga đã tiết kiệm được bao nhiêu nghìn đồng?",
+      "generalfeedback": "Số tiền Nga đã tiết kiệm được là: \\(400 : \\frac{4}{5} = 400 \\cdot \\frac{5}{4} = 500\\) (nghìn đồng).",
+      "answers": [
+        {
+          "text": "\\(500\\) nghìn đồng",
+          "fraction": 100
+        },
+        {
+          "text": "\\(320\\) nghìn đồng",
+          "fraction": 0
+        },
+        {
+          "text": "\\(450\\) nghìn đồng",
+          "fraction": 0
+        },
+        {
+          "text": "\\(600\\) nghìn đồng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm một số khi biết giá trị phân số của nó",
+      "questiontext": "Tìm một số, biết \\(-115\\) là \\(\\frac{1}{4}\\) của số đó. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Số cần tìm là: \\(-115 : \\frac{1}{4} = -115 \\cdot 4 = -460\\).",
+      "answers": [
+        {
+          "text": "-460",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_070",
+      "imgs": [
+        "_page_2_Picture_7.jpeg"
+      ],
+      "questiontext": "[img:_page_2_Picture_7.jpeg]\nTrong ngày siêu khuyến mại Black Friday, \\(\\frac{3}{4}\\) số mặt hàng trong một siêu thị được giảm giá, tương ứng với khoảng \\(6000\\) mặt hàng. Hỏi siêu thị đó có khoảng bao nhiêu mặt hàng?",
+      "generalfeedback": "Số mặt hàng siêu thị có khoảng: \\(6000 : \\frac{3}{4} = 6000 \\cdot \\frac{4}{3} = 8000\\) (mặt hàng).",
+      "answers": [
+        {
+          "text": "\\(8000\\) mặt hàng",
+          "fraction": 100
+        },
+        {
+          "text": "\\(4500\\) mặt hàng",
+          "fraction": 0
+        },
+        {
+          "text": "\\(7500\\) mặt hàng",
+          "fraction": 0
+        },
+        {
+          "text": "\\(9000\\) mặt hàng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tính giá trị phân số của một số cho trước",
+      "questiontext": "Tính \\(\\frac{3}{100}\\) của \\(200\\).",
+      "generalfeedback": "Tính \\(\\frac{3}{100}\\) của \\(200\\) ta lấy \\(200 \\cdot \\frac{3}{100} = 6\\).",
+      "answers": [
+        {
+          "text": "\\(6\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(60\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{3}{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(150\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc tìm giá trị phân số m/n của số a (lấy a . m/n)",
+      "questiontext": "Ghép mỗi phép tính ở cột bên trái với giá trị phân số tương ứng ở cột bên phải:",
+      "generalfeedback": "Dựa vào quy tắc tìm giá trị phân số của một số cho trước ta thực hiện phép nhân số đó với phân số.",
+      "subquestions": [
+        {
+          "question": "\\(\\frac{1}{2}\\) của \\(10\\)",
+          "answer": "\\(5\\)"
+        },
+        {
+          "question": "\\(\\frac{2}{5}\\) của \\(20\\)",
+          "answer": "\\(8\\)"
+        },
+        {
+          "question": "\\(\\frac{3}{4}\\) của \\(100\\)",
+          "answer": "\\(75\\)"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm một số khi biết giá trị phân số của nó",
+      "questiontext": "Tìm một số biết \\(\\frac{2}{7}\\) của số đó là \\(145\\).",
+      "generalfeedback": "Số cần tìm là \\(145 : \\frac{2}{7} = 145 \\cdot \\frac{7}{2} = 507.5\\).",
+      "answers": [
+        {
+          "text": "507.5",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm một số khi biết giá trị phân số của nó",
+      "questiontext": "Tìm một số biết \\(-36\\) là \\(\\frac{3}{8}\\) của số đó.",
+      "generalfeedback": "Số cần tìm là \\(-36 : \\frac{3}{8} = -36 \\cdot \\frac{8}{3} = -96\\).",
+      "answers": [
+        {
+          "text": "\\(-96\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(-13.5\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(96\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-288\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_069",
+      "questiontext": "Một xưởng mộc nợ sau tháng thứ nhất còn {a} triệu đồng và số nợ này bằng 3/7 số nợ ban đầu. Hỏi người chủ xưởng mộc đã vay bao nhiêu triệu đồng? (Tính với biến {a})",
+      "generalfeedback": "Số tiền vay ban đầu là: {a} : (3/7) = {a} * 7 / 3 (triệu đồng).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 30.0,
+          "max": 120.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*7/3",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc tìm một số biết giá trị phân số m/n của nó là b (lấy b : m/n)",
+      "questiontext": "Kéo thả từ thích hợp vào chỗ trống: Muốn tìm một số biết \\(\\frac{m}{n}\\) của số đó bằng \\(b\\), ta lấy \\(b\\) [[1]] cho \\(\\frac{m}{n}\\). Ngược lại, muốn tìm \\(\\frac{m}{n}\\) của số \\(a\\) cho trước, ta lấy \\(a\\) [[2]] với \\(\\frac{m}{n}\\).",
+      "generalfeedback": "Tìm một số biết giá trị phân số của nó dùng phép chia; tìm giá trị phân số của một số dùng phép nhân.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "chia"
+        },
+        {
+          "group": 1,
+          "text": "nhân"
+        },
+        {
+          "group": 1,
+          "text": "cộng"
+        },
+        {
+          "group": 1,
+          "text": "trừ"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_068",
+      "questiontext": "Tàu ngầm lặn sâu tối đa \\(300\\text{ m}\\). Khi lặn tới độ sâu bằng \\(\\frac{2}{5}\\) độ sâu tối đa thì tàu cách mực nước biển \\(120\\text{ m}\\). Khẳng định này đúng hay sai?",
+      "generalfeedback": "Độ sâu khi đó là \\(300 \\cdot \\frac{2}{5} = 120\\text{ (m)}\\). Do đó khẳng định này là đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tính giá trị phân số của một số cho trước",
+      "questiontext": "Tính diện tích khu đất theo mét vuông, biết diện tích khu đất đó là \\(\\frac{3}{4}\\text{ ha}\\) (cho biết \\(1\\text{ ha} = 10000\\text{ m}^2\\)).",
+      "generalfeedback": "Đổi \\(\\frac{3}{4}\\text{ ha}\\) sang \\(\\text{m}^2\\): \\(10000 \\cdot \\frac{3}{4} = 7500\\text{ (m}^2\\)\\).",
+      "answers": [
+        {
+          "text": "\\(7500\\text{ m}^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(750\\text{ m}^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(3000\\text{ m}^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(4000\\text{ m}^2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Tính giá trị phân số của một số cho trước",
+      "questiontext": "Hỏi \\(\\frac{2}{3}\\) của \\(30\\text{ m}\\) là bao nhiêu mét? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "\\(\\frac{2}{3}\\) của \\(30\\text{ m}\\) là: \\(30 \\cdot \\frac{2}{3} = 20\\text{ (m)}\\).",
+      "answers": [
+        {
+          "text": "20",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_070",
+      "questiontext": "Một lớp học có \\(40\\) học sinh, trong đó số học sinh giỏi chiếm \\(\\frac{2}{5}\\) tổng số học sinh cả lớp. Hỏi lớp học đó có bao nhiêu học sinh giỏi?",
+      "generalfeedback": "Số học sinh giỏi của lớp là: \\(40 \\cdot \\frac{2}{5} = 16\\) (học sinh).",
+      "answers": [
+        {
+          "text": "\\(16\\) học sinh",
+          "fraction": 100
+        },
+        {
+          "text": "\\(20\\) học sinh",
+          "fraction": 0
+        },
+        {
+          "text": "\\(25\\) học sinh",
+          "fraction": 0
+        },
+        {
+          "text": "\\(10\\) học sinh",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tính giá trị phân số của một số cho trước",
+      "questiontext": "Tính \\(\\frac{3}{100}\\) của \\(200\\).",
+      "generalfeedback": "Tính \\(\\frac{3}{100}\\) của \\(200\\) ta lấy \\(200 \\cdot \\frac{3}{100} = 6\\).",
+      "answers": [
+        {
+          "text": "\\(6\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(60\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{3}{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(150\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc tìm giá trị phân số m/n của số a (lấy a . m/n)",
+      "questiontext": "Ghép mỗi phép tính ở cột bên trái với giá trị phân số tương ứng ở cột bên phải:",
+      "generalfeedback": "Dựa vào quy tắc tìm giá trị phân số của một số cho trước ta thực hiện phép nhân số đó với phân số.",
+      "subquestions": [
+        {
+          "question": "\\(\\frac{1}{2}\\) của \\(10\\)",
+          "answer": "\\(5\\)"
+        },
+        {
+          "question": "\\(\\frac{2}{5}\\) của \\(20\\)",
+          "answer": "\\(8\\)"
+        },
+        {
+          "question": "\\(\\frac{3}{4}\\) của \\(100\\)",
+          "answer": "\\(75\\)"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm một số khi biết giá trị phân số của nó",
+      "questiontext": "Tìm một số biết \\(\\frac{2}{7}\\) của số đó là \\(145\\).",
+      "generalfeedback": "Số cần tìm là \\(145 : \\frac{2}{7} = 145 \\cdot \\frac{7}{2} = 507.5\\).",
+      "answers": [
+        {
+          "text": "507.5",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm một số khi biết giá trị phân số của nó",
+      "questiontext": "Tìm một số biết \\(-36\\) là \\(\\frac{3}{8}\\) của số đó.",
+      "generalfeedback": "Số cần tìm là \\(-36 : \\frac{3}{8} = -36 \\cdot \\frac{8}{3} = -96\\).",
+      "answers": [
+        {
+          "text": "\\(-96\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(-13.5\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(96\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-288\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_069",
+      "questiontext": "Một xưởng mộc nợ sau tháng thứ nhất còn {a} triệu đồng và số nợ này bằng 3/7 số nợ ban đầu. Hỏi người chủ xưởng mộc đã vay bao nhiêu triệu đồng? (Tính với biến {a})",
+      "generalfeedback": "Số tiền vay ban đầu là: {a} : (3/7) = {a} * 7 / 3 (triệu đồng).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 30.0,
+          "max": 120.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*7/3",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc tìm một số biết giá trị phân số m/n của nó là b (lấy b : m/n)",
+      "questiontext": "Kéo thả từ thích hợp vào chỗ trống: Muốn tìm một số biết \\(\\frac{m}{n}\\) của số đó bằng \\(b\\), ta lấy \\(b\\) [[1]] cho \\(\\frac{m}{n}\\). Ngược lại, muốn tìm \\(\\frac{m}{n}\\) của số \\(a\\) cho trước, ta lấy \\(a\\) [[2]] với \\(\\frac{m}{n}\\).",
+      "generalfeedback": "Tìm một số biết giá trị phân số của nó dùng phép chia; tìm giá trị phân số của một số dùng phép nhân.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "chia"
+        },
+        {
+          "group": 1,
+          "text": "nhân"
+        },
+        {
+          "group": 1,
+          "text": "cộng"
+        },
+        {
+          "group": 1,
+          "text": "trừ"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_068",
+      "questiontext": "Tàu ngầm lặn sâu tối đa \\(300\\text{ m}\\). Khi lặn tới độ sâu bằng \\(\\frac{2}{5}\\) độ sâu tối đa thì tàu cách mực nước biển \\(120\\text{ m}\\). Khẳng định này đúng hay sai?",
+      "generalfeedback": "Độ sâu khi đó là \\(300 \\cdot \\frac{2}{5} = 120\\text{ (m)}\\). Do đó khẳng định này là đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tính giá trị phân số của một số cho trước",
+      "questiontext": "Tính diện tích khu đất theo mét vuông, biết diện tích khu đất đó là \\(\\frac{3}{4}\\text{ ha}\\) (cho biết \\(1\\text{ ha} = 10000\\text{ m}^2\\)).",
+      "generalfeedback": "Đổi \\(\\frac{3}{4}\\text{ ha}\\) sang \\(\\text{m}^2\\): \\(10000 \\cdot \\frac{3}{4} = 7500\\text{ (m}^2\\)\\).",
+      "answers": [
+        {
+          "text": "\\(7500\\text{ m}^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(750\\text{ m}^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(3000\\text{ m}^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(4000\\text{ m}^2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Tính giá trị phân số của một số cho trước",
+      "questiontext": "Hỏi \\(\\frac{2}{3}\\) của \\(30\\text{ m}\\) là bao nhiêu mét? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "\\(\\frac{2}{3}\\) của \\(30\\text{ m}\\) là: \\(30 \\cdot \\frac{2}{3} = 20\\text{ (m)}\\).",
+      "answers": [
+        {
+          "text": "20",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_070",
+      "questiontext": "Một lớp học có \\(40\\) học sinh, trong đó số học sinh giỏi chiếm \\(\\frac{2}{5}\\) tổng số học sinh cả lớp. Hỏi lớp học đó có bao nhiêu học sinh giỏi?",
+      "generalfeedback": "Số học sinh giỏi của lớp là: \\(40 \\cdot \\frac{2}{5} = 16\\) (học sinh).",
+      "answers": [
+        {
+          "text": "\\(16\\) học sinh",
+          "fraction": 100
+        },
+        {
+          "text": "\\(20\\) học sinh",
+          "fraction": 0
+        },
+        {
+          "text": "\\(25\\) học sinh",
+          "fraction": 0
+        },
+        {
+          "text": "\\(10\\) học sinh",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi giải bài toán 'Tìm một số biết \\(\\frac{3}{8}\\) của số đó là \\(-36\\)', Nam giải lần thứ nhất bị sai do nhầm lẫn giữa phép nhân và phép chia phân số. Hành động nào sau đây thể hiện thái độ luôn cố gắng vươn lên đạt kết quả tốt trong học tập của Nam?",
+      "generalfeedback": "Thái độ cố gắng vươn lên trong học tập thể hiện qua việc tự giác nhận ra lỗi sai, kiểm tra lại quy tắc toán học và tự mình giải lại bài toán cho đúng.",
+      "answers": [
+        {
+          "text": "Kiểm tra lại quy tắc, xác định đúng phép chia \\((-36) : \\frac{3}{8}\\) và tự tính lại để tìm ra đáp án đúng.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua câu hỏi đó và không làm tiếp vì thấy bài toán phân số quá khó.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép ngay lời giải của bạn khác vào bài làm mà không cần hiểu cách giải.",
+          "fraction": 0
+        },
+        {
+          "text": "Cho rằng đề bài bị sai nên không cần làm lại nữa.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Để tóm tắt và phân loại hai bài toán về phân số một cách chọn lọc, hãy ghép mỗi bài toán ở cột bên trái với dạng tóm tắt tương ứng ở cột bên phải:",
+      "generalfeedback": "Phân loại chọn lọc giúp phân biệt rõ dạng bài tìm giá trị phân số của một số (dùng phép nhân) và dạng bài tìm một số biết giá trị phân số của nó (dùng phép chia).",
+      "subquestions": [
+        {
+          "question": "Tìm \\(\\frac{2}{3}\\) của \\(120\\text{ km/h}\\)",
+          "answer": "Bài toán 1: Tìm giá trị phân số của một số cho trước (Tính \\(120 \\cdot \\frac{2}{3}\\))"
+        },
+        {
+          "question": "Biết \\(\\frac{4}{5}\\) số tiền là \\(400\\) nghìn đồng, tìm số tiền ban đầu",
+          "answer": "Bài toán 2: Tìm một số biết giá trị phân số của nó (Tính \\(400 : \\frac{4}{5}\\))"
+        },
+        {
+          "question": "Biết \\(\\frac{3}{4}\\) số mặt hàng là \\(6000\\), tìm tổng số mặt hàng",
+          "answer": "Bài toán 2: Tìm một số biết giá trị phân số của nó (Tính \\(6000 : \\frac{3}{4}\\))"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "imgs": [
+        "_page_0_Picture_11.jpeg"
+      ],
+      "questiontext": "[img:_page_0_Picture_11.jpeg]\nDựa vào sơ đồ đoạn thẳng mô tả Bài toán 1 trong SGK, đoạn thẳng biểu diễn số \\(120\\) được chia thành bao nhiêu phần bằng nhau và số phần cần tìm là bao nhiêu?",
+      "generalfeedback": "Sơ đồ đoạn thẳng thể hiện số 120 được chia thành 3 phần bằng nhau, và giá trị cần tìm tương ứng với 2 phần trong đó.",
+      "answers": [
+        {
+          "text": "Chia thành \\(3\\) phần bằng nhau, số phần cần tìm là \\(2\\) phần.",
+          "fraction": 100
+        },
+        {
+          "text": "Chia thành \\(2\\) phần bằng nhau, số phần cần tìm là \\(3\\) phần.",
+          "fraction": 0
+        },
+        {
+          "text": "Chia thành \\(5\\) phần bằng nhau, số phần cần tìm là \\(2\\) phần.",
+          "fraction": 0
+        },
+        {
+          "text": "Chia thành \\(3\\) phần bằng nhau, số phần cần tìm là \\(1\\) phần.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Phân tích và so sánh phương pháp giải hai bài toán về phân số: Để tìm giá trị phân số \\(\\frac{m}{n}\\) của số \\(a\\) cho trước, thao tác tư duy quan trọng là thực hiện phép [[1]]. Ngược lại, để tìm một số khi biết \\(\\frac{m}{n}\\) của số đó bằng \\(b\\), thao tác tư duy quan trọng là thực hiện phép [[2]].",
+      "generalfeedback": "Thao tác tư duy bản chất: Bài toán 1 tìm giá trị phân số dùng phép nhân, Bài toán 2 tìm một số khi biết giá trị phân số dùng phép chia.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "nhân"
+        },
+        {
+          "group": 1,
+          "text": "chia"
+        },
+        {
+          "group": 1,
+          "text": "cộng"
+        },
+        {
+          "group": 1,
+          "text": "trừ"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04_02",
+      "questiontext": "Đọc đoạn văn bản sau trong bài học: 'Tàu ngầm lớp Kilo 636 có thể lặn sâu tối đa tới \\(300\\text{ m}\\). Để thực hiện nhiệm vụ, tàu cần lặn tới độ sâu bằng \\(\\frac{2}{5}\\) độ sâu tối đa.' Yếu tố đóng vai trò là 'số \\(a\\) cho trước' trong bài toán này là gì?",
+      "generalfeedback": "Trong văn bản bài toán, 'số a cho trước' là độ sâu lặn tối đa của tàu ngầm (300 m), từ đó cần tìm 2/5 của 300 m.",
+      "answers": [
+        {
+          "text": "Độ sâu tối đa \\(300\\text{ m}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Độ sâu lặn thực tế \\(120\\text{ m}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Phân số \\(\\frac{2}{5}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Tên tàu ngầm Kilo 636",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi học bài 'Hai bài toán về phân số', việc chủ động tóm tắt bài toán, rèn luyện giải nhiều dạng bài tập thực tế và tự sửa lỗi sai thể hiện phẩm chất luôn cố gắng vươn lên đạt kết quả tốt trong học tập. Khẳng định này đúng hay sai?",
+      "generalfeedback": "Khẳng định trên là đúng. Tinh thần chủ động, kiên trì vượt khó và học hỏi từ sai lầm là biểu hiện rõ nét của phẩm chất luôn cố gắng vươn lên đạt kết quả tốt trong học tập.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Một bài toán đặt ra: 'Một cửa hàng bán được \\(240\\text{ kg}\\) gạo, bằng \\(\\frac{3}{4}\\) tổng số gạo cửa hàng có. Hỏi cửa hàng có tất cả bao nhiêu kilôgam gạo?'. Qua thao tác phân tích dữ kiện, bài toán này thuộc dạng nào và sử dụng phép tính gì?",
+      "generalfeedback": "Bài toán cho biết giá trị phân số (240 kg tương ứng với 3/4) và yêu cầu tìm tổng số gạo (số ban đầu). Do đó bài toán thuộc dạng tìm một số biết giá trị phân số của nó, thực hiện phép chia: 240 : (3/4).",
+      "answers": [
+        {
+          "text": "Dạng tìm một số biết giá trị phân số của nó, sử dụng phép tính \\(240 : \\frac{3}{4}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Dạng tìm giá trị phân số của một số cho trước, sử dụng phép tính \\(240 \\cdot \\frac{3}{4}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Dạng tìm giá trị phân số của một số cho trước, sử dụng phép tính \\(240 : \\frac{3}{4}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Dạng tìm một số biết giá trị phân số của nó, sử dụng phép tính \\(240 \\cdot \\frac{3}{4}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "imgs": [
+        "_page_1_Figure_18.jpeg"
+      ],
+      "questiontext": "[img:_page_1_Figure_18.jpeg]\nĐọc hiểu sơ đồ đoạn thẳng H.6.4 biểu diễn bài toán Nga tiết kiệm tiền: Đoạn thẳng biểu diễn tổng số tiền tiết kiệm được chia làm bao nhiêu phần bằng nhau, và số tiền \\(400\\) nghìn đồng ứng với mấy phần trong đó?",
+      "generalfeedback": "Sơ đồ đoạn thẳng H.6.4 biểu diễn tổng số tiền tiết kiệm gồm 5 phần bằng nhau, và số tiền 400 nghìn đồng chiếm 4 phần.",
+      "answers": [
+        {
+          "text": "Tổng số tiền chia làm \\(5\\) phần bằng nhau, \\(400\\) nghìn đồng ứng với \\(4\\) phần.",
+          "fraction": 100
+        },
+        {
+          "text": "Tổng số tiền chia làm \\(4\\) phần bằng nhau, \\(400\\) nghìn đồng ứng với \\(5\\) phần.",
+          "fraction": 0
+        },
+        {
+          "text": "Tổng số tiền chia làm \\(5\\) phần bằng nhau, \\(400\\) nghìn đồng ứng với \\(1\\) phần.",
+          "fraction": 0
+        },
+        {
+          "text": "Tổng số tiền chia làm \\(10\\) phần bằng nhau, \\(400\\) nghìn đồng ứng với \\(4\\) phần.",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,703 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 26,
+    "metadata_used": {
+      "YCCD_TOAN7_029": 3,
+      "Tập hợp số thực R": 2,
+      "YCCD_TOAN7_030": 2,
+      "Nhận biết số thực": 4,
+      "Khái niệm số thực": 2,
+      "YCCD_TOAN7_031": 2,
+      "Trục số thực": 1,
+      "YCCD_TOAN7_032": 2,
+      "Biểu diễn số thực trên trục số trong trường hợp thuận lợi": 2,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_TUCHUTUHOC": 1,
+      "NLC_GIAOTIEP": 1,
+      "NLT_TOAN_C2_01": 1,
+      "NLT_TOAN_C2_03": 1
+    },
+    "types_used": {
+      "multichoice": 17,
+      "truefalse": 2,
+      "gapselect": 2,
+      "matching": 2,
+      "shortanswer": 3
+    },
+    "total": 26
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_029",
+        "reason": "Nhận biết số thực"
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_030",
+        "reason": "Nhận biết tập hợp số thực R"
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_031",
+        "reason": "Nhận biết trục số thực"
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_032",
+        "reason": "Biểu diễn số thực trên trục số"
+      },
+      {
+        "metadata_code": "Khái niệm số thực",
+        "reason": "Khái niệm số thực"
+      },
+      {
+        "metadata_code": "Tập hợp số thực R",
+        "reason": "Tập hợp số thực R"
+      },
+      {
+        "metadata_code": "Trục số thực",
+        "reason": "Trục số thực"
+      },
+      {
+        "metadata_code": "Nhận biết số thực",
+        "reason": "Nhận biết số thực"
+      },
+      {
+        "metadata_code": "Biểu diễn số thực trên trục số trong trường hợp thuận lợi",
+        "reason": "Biểu diễn số thực trên trục số"
+      },
+      {
+        "metadata_code": "PC_CHAMCHI",
+        "reason": "Phẩm chất chăm chỉ trong học tập"
+      },
+      {
+        "metadata_code": "PC_TRUNGTHUC",
+        "reason": "Phẩm chất trung thực trong kiểm tra"
+      },
+      {
+        "metadata_code": "NLC_TUCHUTUHOC",
+        "reason": "Năng lực tự chủ và tự học"
+      },
+      {
+        "metadata_code": "NLC_GIAOTIEP",
+        "reason": "Năng lực giao tiếp và hợp tác"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01",
+        "reason": "Năng lực tư duy và lập luận toán học"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03",
+        "reason": "Năng lực giải quyết vấn đề toán học"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học thuộc Tiết 1 thuần lý thuyết số thực và trục số, không có nội dung thực hành công cụ tin học/số."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Bài học không chứa ngữ cảnh tự nhiên để tích hợp các khái niệm hoặc ứng dụng AI."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_029",
+      "questiontext": "Số hữu tỉ và số vô tỉ được gọi chung là gì?",
+      "generalfeedback": "Số hữu tỉ và số vô tỉ được gọi chung là số thực.",
+      "answers": [
+        {
+          "text": "Số thực",
+          "fraction": 100
+        },
+        {
+          "text": "Số nguyên",
+          "fraction": 0
+        },
+        {
+          "text": "Số tự nhiên",
+          "fraction": 0
+        },
+        {
+          "text": "Số vô tỉ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Tập hợp số thực R",
+      "questiontext": "Tập hợp các số thực được kí hiệu là gì?",
+      "generalfeedback": "Tập hợp các số thực được kí hiệu là \\(\\mathbb{R}\\).",
+      "answers": [
+        {
+          "text": "\\(\\mathbb{R}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\mathbb{Q}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\mathbb{I}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\mathbb{Z}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_030",
+      "questiontext": "Mọi số hữu tỉ đều là số thực. Đúng hay Sai?",
+      "generalfeedback": "Đúng, vì tập hợp số thực bao gồm cả số hữu tỉ và số vô tỉ.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết số thực",
+      "questiontext": "Khẳng định nào sau đây là đúng?",
+      "generalfeedback": "\\(\\pi\\) là số vô tỉ nên \\(\\pi \\in \\mathbb{I}\\) và \\(\\pi \\in \\mathbb{R}\\). Cách viết \\(\\pi \\in \\mathbb{I}\\) là đúng.",
+      "answers": [
+        {
+          "text": "\\(\\pi \\in \\mathbb{I}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\sqrt{2} \\in \\mathbb{Q}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\sqrt{3} \\in \\mathbb{Z}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\pi \\in \\mathbb{N}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm số thực",
+      "questiontext": "Số đối của số thực \\(-\\sqrt{5}\\) là số nào?",
+      "generalfeedback": "Số đối của \\(-\\sqrt{5}\\) là \\(\\sqrt{5}\\).",
+      "answers": [
+        {
+          "text": "\\(\\sqrt{5}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(-\\sqrt{5}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{1}{\\sqrt{5}}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-5\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_031",
+      "questiontext": "Mỗi số thực đều được biểu diễn bởi một điểm trên [[1]] số. Ngược lại, mỗi điểm trên trục số đều biểu diễn một [[2]] thực.",
+      "generalfeedback": "Mỗi số thực được biểu diễn bởi một điểm trên trục số và ngược lại.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "trục"
+        },
+        {
+          "group": 1,
+          "text": "số"
+        },
+        {
+          "group": 1,
+          "text": "đường"
+        },
+        {
+          "group": 1,
+          "text": "đoạn"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Trục số thực",
+      "questiontext": "Vì sao trục số còn được gọi là trục số thực?",
+      "generalfeedback": "Vì các điểm biểu diễn số thực lấp đầy trục số nên trục số còn được gọi là trục số thực.",
+      "answers": [
+        {
+          "text": "Vì các điểm biểu diễn số thực lấp đầy trục số",
+          "fraction": 100
+        },
+        {
+          "text": "Vì trên trục số chỉ biểu diễn được số tự nhiên",
+          "fraction": 0
+        },
+        {
+          "text": "Vì trục số chỉ biểu diễn các số hữu tỉ dương",
+          "fraction": 0
+        },
+        {
+          "text": "Vì số vô tỉ không biểu diễn được trên trục số",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết số thực",
+      "questiontext": "Hãy ghép mỗi số với số đối tương ứng của nó.",
+      "generalfeedback": "Số đối của \\(a\\) là \\(-a\\).",
+      "subquestions": [
+        {
+          "question": "Số đối của \\(5,08(299)\\)",
+          "answer": "\\(-5,08(299)\\)"
+        },
+        {
+          "question": "Số đối của \\(-\\sqrt{5}\\)",
+          "answer": "\\(\\sqrt{5}\\)"
+        },
+        {
+          "question": "Số đối của \\(0\\)",
+          "answer": "\\(0\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_032",
+      "imgs": [
+        "_page_1_Figure_9.jpeg"
+      ],
+      "questiontext": "Quan sát Hình 2.4 [img:_page_1_Figure_9.jpeg]. Điểm nào trên trục số biểu diễn số \\(-\\sqrt{2}\\)?",
+      "generalfeedback": "Trong Hình 2.4, điểm \\(N\\) nằm ở vị trí \\(-\\sqrt{2}\\).",
+      "answers": [
+        {
+          "text": "Điểm \\(N\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Điểm \\(M\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Điểm \\(O\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Điểm khác",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Biểu diễn số thực trên trục số trong trường hợp thuận lợi",
+      "questiontext": "Cho tập hợp \\(A = \\{7,1; -2,(61); 0; 5,14; \\frac{4}{7}; \\sqrt{15}; -\\sqrt{81}\\}\\). Hãy cho biết trong tập hợp \\(A\\) có bao nhiêu số vô tỉ?",
+      "generalfeedback": "Chỉ có \\(\\sqrt{15}\\) là số vô tỉ (vì \\(-\\sqrt{81} = -9\\) là số hữu tỉ). Do đó có 1 số vô tỉ.",
+      "answers": [
+        {
+          "text": "1",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết số thực",
+      "questiontext": "Khẳng định nào sau đây là **sai**?",
+      "generalfeedback": "Số -5,123... là số thập phân vô hạn không tuần hoàn nên là số vô tỉ chứ không phải số hữu tỉ. Vì vậy khẳng định \\(-5,123... \\in \\mathbb{Q}\\) là sai.",
+      "answers": [
+        {
+          "text": "\\(-5,123... \\in \\mathbb{Q}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{2}{3} \\in \\mathbb{R}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(0 \\in \\mathbb{R}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\sqrt{2} \\in \\mathbb{R}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_029",
+      "questiontext": "Tập hợp các số thực bao gồm những tập hợp số nào?",
+      "generalfeedback": "Tập hợp các số thực bao gồm tập hợp số hữu tỉ và tập hợp số vô tỉ.",
+      "answers": [
+        {
+          "text": "Tập hợp số hữu tỉ và tập hợp số vô tỉ",
+          "fraction": 100
+        },
+        {
+          "text": "Tập hợp số nguyên và tập hợp số tự nhiên",
+          "fraction": 0
+        },
+        {
+          "text": "Tập hợp số nguyên âm và tập hợp số nguyên dương",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ gồm các số vô tỉ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_030",
+      "questiontext": "Nếu một số là số vô tỉ thì số đó cũng là số thực. Đúng hay Sai?",
+      "generalfeedback": "Đúng, vì tập hợp số thực bao gồm cả số hữu tỉ và số vô tỉ nên mọi số vô tỉ đều là số thực.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết số thực",
+      "questiontext": "Tính giá trị tuyệt đối của số thực \\(-\\sqrt{16}\\).",
+      "generalfeedback": "Ta có \\(-\\sqrt{16} = -4\\. Giá trị tuyệt đối của \\(-4\\) là \\(|-4| = 4\\).",
+      "answers": [
+        {
+          "text": "4",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm số thực",
+      "questiontext": "Giá trị tuyệt đối của một số thực \\(a\\) bất kỳ luôn thỏa mãn điều kiện nào sau đây?",
+      "generalfeedback": "Giá trị tuyệt đối của một số thực luôn không âm: \\(|a| \\ge 0\\) với mọi \\(a \\in \\mathbb{R}\\).",
+      "answers": [
+        {
+          "text": "\\(|a| \\ge 0\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(|a| < 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(|a| \\le 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(|a| > 0\\) với mọi \\(a\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_031",
+      "questiontext": "Mỗi điểm trên trục số biểu diễn [[1]] số thực, và ngược lại mỗi số thực được biểu diễn bởi [[2]] điểm trên trục số.",
+      "generalfeedback": "Mỗi điểm trên trục số biểu diễn duy nhất một số thực và ngược lại.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "một"
+        },
+        {
+          "group": 1,
+          "text": "hai"
+        },
+        {
+          "group": 1,
+          "text": "vô số"
+        },
+        {
+          "group": 1,
+          "text": "không có"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Biểu diễn số thực trên trục số trong trường hợp thuận lợi",
+      "questiontext": "So sánh hai số thực \\(-\\sqrt{3}\\) và \\(-1,732\\).",
+      "generalfeedback": "Ta có \\(\\sqrt{3} \\approx 1,73205... > 1,732\\), do đó \\(-\\sqrt{3} < -1,732\\).",
+      "answers": [
+        {
+          "text": "\\(-\\sqrt{3} < -1,732\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(-\\sqrt{3} > -1,732\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-\\sqrt{3} = -1,732\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Không so sánh được",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Tập hợp số thực R",
+      "questiontext": "Tập hợp các số vô tỉ được kí hiệu là gì?",
+      "generalfeedback": "Tập hợp các số vô tỉ được kí hiệu là \\(\\mathbb{I}\\).",
+      "answers": [
+        {
+          "text": "\\(\\mathbb{I}\\)",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_029",
+      "questiontext": "Hãy nối mỗi kí hiệu tập hợp số ở cột bên trái với tên gọi tương ứng ở cột bên phải.",
+      "generalfeedback": "N là tập hợp số tự nhiên, Z là tập hợp số nguyên, Q là tập hợp số hữu tỉ, R là tập hợp số thực.",
+      "subquestions": [
+        {
+          "question": "\\(\\mathbb{N}\\)",
+          "answer": "Tập hợp số tự nhiên"
+        },
+        {
+          "question": "\\(\\mathbb{Z}\\)",
+          "answer": "Tập hợp số nguyên"
+        },
+        {
+          "question": "\\(\\mathbb{Q}\\)",
+          "answer": "Tập hợp số hữu tỉ"
+        },
+        {
+          "question": "\\(\\mathbb{R}\\)",
+          "answer": "Tập hợp số thực"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_032",
+      "questiontext": "Cho hai điểm \\(A\\) và \\(B\\) trên trục số nằm ngang lần lượt biểu diễn hai số \\(\\sqrt{2}\\) và \\(\\sqrt{5}\\). Khẳng định nào sau đây đúng?",
+      "generalfeedback": "Vì \\(2 < 5\\) nên \\(\\sqrt{2} < \\sqrt{5}\\). Do đó điểm \\(A\\) nằm bên trái điểm \\(B\\) trên trục số.",
+      "answers": [
+        {
+          "text": "Điểm \\(A\\) nằm bên trái điểm \\(B\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Điểm \\(A\\) nằm bên phải điểm \\(B\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Điểm \\(A\\) trùng với điểm \\(B\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Điểm \\(A\\) nằm ở gốc tọa độ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Trong giờ học Toán về tập hợp các số thực, khi gặp bài tập biểu diễn số vô tỉ \\(\\sqrt{2}\\) trên trục số mà chưa hiểu rõ cách vẽ hình vuông và đường tròn, An nên làm gì để thể hiện tính chăm chỉ?",
+      "generalfeedback": "Tính chăm chỉ được thể hiện qua việc kiên trì, chủ động học hỏi và tìm cách giải quyết khó khăn trong học tập.",
+      "answers": [
+        {
+          "text": "Chủ động đọc lại SGK, xem kỹ các bước dựng hình và hỏi lại thầy cô, bạn bè đến khi hiểu rõ cách làm.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài tập này và chờ thầy cô sửa bài để chép lời giải vào vở.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép ngay lời giải của bạn bên cạnh mà không cần tìm hiểu cách làm.",
+          "fraction": 0
+        },
+        {
+          "text": "Gập sách lại và không tiếp tục làm bài tập nữa.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Khi làm bài kiểm tra về so sánh các số thực, Nam tính sai giá trị \\(|-3,5|\\) thành \\(-3,5\\) dẫn đến kết quả sai, nhưng thầy giáo chấm sót và vẫn cho điểm tối đa. Nam nên làm gì để thể hiện tính trung thực?",
+      "generalfeedback": "Tính trung thực thể hiện ở việc tôn trọng sự thật, thẳng thắn nhận lỗi và báo lại giáo viên khi điểm số không đúng với thực chất bài làm.",
+      "answers": [
+        {
+          "text": "Báo lại với thầy giáo về sai sót trong bài làm của mình để thầy chấm lại điểm.",
+          "fraction": 100
+        },
+        {
+          "text": "Giữ im lặng để bảo toàn điểm số tối đa của mình.",
+          "fraction": 0
+        },
+        {
+          "text": "Tẩy xóa chỗ sai trong bài rồi khẳng định với thầy là mình làm đúng.",
+          "fraction": 0
+        },
+        {
+          "text": "Khoe với các bạn rằng mình được điểm tối đa dù làm sai.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Để tự hệ thống hóa kiến thức về các tập hợp số đã học (Số tự nhiên \\(\\mathbb{N}\\), Số nguyên \\(\\mathbb{Z}\\), Số hữu tỉ \\(\\mathbb{Q}\\), Số vô tỉ \\(\\mathbb{I}\\), Số thực \\(\\mathbb{R}\\)), học sinh nên lập sơ đồ biểu diễn mối quan hệ giữa các tập hợp như thế nào cho chính xác?",
+      "generalfeedback": "Năng lực tự chủ và tự học thể hiện qua việc biết tự hệ thống hóa kiến thức logic: \\(\\mathbb{N} \\subset \\mathbb{Z} \\subset \\mathbb{Q} \\subset \\mathbb{R}\\) và \\(\\mathbb{I} \\subset \\mathbb{R}\\).",
+      "answers": [
+        {
+          "text": "Biểu diễn quan hệ bao hàm \\(\\mathbb{N} \\subset \\mathbb{Z} \\subset \\mathbb{Q} \\subset \\mathbb{R}\\) và \\(\\mathbb{I} \\subset \\mathbb{R}\\) (với \\(\\mathbb{Q} \\cap \\mathbb{I} = \\emptyset\\)).",
+          "fraction": 100
+        },
+        {
+          "text": "Liệt kê ngẫu nhiên các tập hợp mà không chỉ ra mối quan hệ giữa chúng.",
+          "fraction": 0
+        },
+        {
+          "text": "Xếp số vô tỉ \\(\\mathbb{I}\\) là một tập hợp con của số hữu tỉ \\(\\mathbb{Q}\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Xem tập hợp số tự nhiên \\(\\mathbb{N}\\) chứa tất cả các tập hợp số còn lại.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_GIAOTIEP",
+      "questiontext": "Khi thảo luận nhóm để giải bài tập 'So sánh \\(-\\sqrt{3}\\) và \\(-1,732\\)', hai bạn trong nhóm đưa ra kết quả trái ngược nhau. Để thể hiện năng lực giao tiếp và hợp tác, em nên ứng xử như thế nào?",
+      "generalfeedback": "Tôn trọng ý kiến khác biệt, cùng thảo luận dựa trên căn cứ khoa học (\\(\\sqrt{3} \\approx 1,73205... > 1,732 \\Rightarrow -\\sqrt{3} < -1,732\\)) là biểu hiện của giao tiếp và hợp tác hiệu quả.",
+      "answers": [
+        {
+          "text": "Lắng nghe lập luận của từng bạn, cùng đối chiếu giá trị thập phân \\(\\sqrt{3} \\approx 1,73205...\\) để đưa ra kết luận chung chính xác.",
+          "fraction": 100
+        },
+        {
+          "text": "Áp đặt kết quả của mình và không cho các bạn khác giải thích.",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ mặc cuộc thảo luận và làm việc riêng.",
+          "fraction": 0
+        },
+        {
+          "text": "Yêu cầu giáo viên loại bạn có ý kiến khác ra khỏi nhóm.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Xét lập luận toán học sau: 'Vì \\(2 < 5\\) nên \\(\\sqrt{2} < \\sqrt{5}\\), từ đó ta suy ra \\(-\\sqrt{2} > -\\sqrt{5}\\)'. Khẳng định nào sau đây đánh giá đúng về lập luận trên?",
+      "generalfeedback": "Lập luận chính xác: Vì \\(2 < 5 \\Rightarrow \\sqrt{2} < \\sqrt{5}\\). Khi nhân cả hai vế với \\(-1\\) (lấy số đối), bất đẳng thức đổi chiều nên \\(-\\sqrt{2} > -\\sqrt{5}\\).",
+      "answers": [
+        {
+          "text": "Lập luận đúng hoàn toàn vì vận dụng đúng tính chất so sánh căn bậc hai số học và quy tắc so sánh hai số đối nhau.",
+          "fraction": 100
+        },
+        {
+          "text": "Lập luận sai ở bước so sánh \\(\\sqrt{2} < \\sqrt{5}\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Lập luận sai ở bước đổi chiều bất đẳng thức khi lấy số đối.",
+          "fraction": 0
+        },
+        {
+          "text": "Lập luận sai vì không thể so sánh hai số vô tỉ.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "questiontext": "Một hình vuông có diện tích bằng \\(10\\text{ cm}^2\\). Người ta muốn xác định điểm biểu diễn độ dài cạnh của hình vuông này trên trục số. Các bước giải quyết vấn đề nào sau đây là đúng?",
+      "generalfeedback": "Độ dài cạnh hình vuông là \\(\\sqrt{10}\\text{ cm}\\). Theo bài học, ta biểu diễn điểm \\(\\sqrt{10}\\) bằng cách dựng tam giác vuông có hai cạnh góc vuông bằng 1 và 3 (vì \\(1^2 + 3^2 = 10\\)), từ đó đường chéo/cạnh huyền bằng \\(\\sqrt{10}\\).",
+      "answers": [
+        {
+          "text": "Xác định độ dài cạnh là \\(\\sqrt{10}\\text{ cm}\\), sau đó dựng tam giác vuông có hai cạnh góc vuông bằng 1 và 3 để có cạnh huyền bằng \\(\\sqrt{10}\\) rồi dùng compa quay lên trục số.",
+          "fraction": 100
+        },
+        {
+          "text": "Tính cạnh hình vuông bằng cách lấy \\(10 : 4 = 2,5\\text{ cm}\\) rồi biểu diễn điểm \\(2,5\\) trên trục số.",
+          "fraction": 0
+        },
+        {
+          "text": "Lấy điểm \\(10\\) trên trục số rồi chia đôi đoạn thẳng từ 0 đến 10.",
+          "fraction": 0
+        },
+        {
+          "text": "Khẳng định không thể biểu diễn được vì cạnh hình vuông là số vô tỉ.",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

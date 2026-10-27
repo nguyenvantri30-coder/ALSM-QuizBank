@@ -1,0 +1,731 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 26,
+    "metadata_used": {
+      "Cấu trúc biểu đồ cột (trục đứng": 3,
+      "trục ngang": 2,
+      "cột hình chữ nhật)": 3,
+      "Vẽ biểu đồ cột từ bảng thống kê cho trước": 5,
+      "YCCD_TOAN6_140": 7,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_TRUNGTHUC_CHUNG_C2_01": 1,
+      "SUB_GTHT_XACDINHMD_C2_03": 1,
+      "SUB_GTHT_XACDINHMD_C2_04": 1,
+      "NLT_TOAN_C2_02_03": 1,
+      "NLT_TOAN_C2_04_04": 1
+    },
+    "types_used": {
+      "multichoice": 11,
+      "truefalse": 2,
+      "gapselect": 2,
+      "shortanswer": 2,
+      "matching": 2,
+      "ddwtos": 2,
+      "numerical": 2,
+      "calculated": 1,
+      "calculatedmulti": 1,
+      "calculatedsimple": 1
+    },
+    "total": 26
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN6_140",
+        "reason": "Đo lường khả năng lựa chọn và biểu diễn dữ liệu vào biểu đồ dạng cột."
+      },
+      {
+        "metadata_code": "Cấu trúc biểu đồ cột (trục đứng",
+        "reason": "Đo lường hiểu biết về cấu trúc biểu đồ cột (trục đứng)."
+      },
+      {
+        "metadata_code": "trục ngang",
+        "reason": "Đo lường hiểu biết về cấu trúc biểu đồ cột (trục ngang)."
+      },
+      {
+        "metadata_code": "cột hình chữ nhật)",
+        "reason": "Đo lường hiểu biết về cấu trúc biểu đồ cột (cột hình chữ nhật)."
+      },
+      {
+        "metadata_code": "Vẽ biểu đồ cột từ bảng thống kê cho trước",
+        "reason": "Đo lường kỹ năng vẽ biểu đồ cột từ bảng thống kê cho trước."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đo lường phẩm chất luôn cố gắng vươn lên đạt kết quả tốt trong học tập."
+      },
+      {
+        "metadata_code": "SUB_TRUNGTHUC_CHUNG_C2_01",
+        "reason": "Đo lường phẩm chất thống nhất giữa lời nói với việc làm."
+      },
+      {
+        "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+        "reason": "Đo lường năng lực tiếp nhận văn bản kết hợp với biểu đồ, số liệu."
+      },
+      {
+        "metadata_code": "SUB_GTHT_XACDINHMD_C2_04",
+        "reason": "Đo lường năng lực sử dụng ngôn ngữ kết hợp với biểu đồ để trình bày thông tin."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_02_03",
+        "reason": "Đo lường năng lực sử dụng mô hình toán học (bảng biểu) để mô tả tình huống thực tiễn."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_04_04",
+        "reason": "Đo lường năng lực phân tích thông tin toán học cần thiết từ văn bản."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "3.1TC1a_K6",
+        "reason": "Nội dung Tiết 1 bài Biểu đồ cột tập trung vào quy trình vẽ và cấu trúc cơ bản của biểu đồ cột trên giấy, không đủ cơ sở để đo lường kỹ năng tạo nội dung bằng định dạng tin học/số."
+      },
+      {
+        "metadata_code": "1.1TC1a_K6",
+        "reason": "Nội dung bài học thuần túy về biểu đồ cột toán học cơ bản, không có tình huống thực tế đủ sâu để đánh giá việc giải thích nhu cầu thông tin trong môi trường số."
+      },
+      {
+        "metadata_code": "1.1TC1b_K6",
+        "reason": "Bài học không yêu cầu thực hiện quy trình tìm kiếm dữ liệu trong môi trường số."
+      },
+      {
+        "metadata_code": "1.1TC1c_K6",
+        "reason": "Bài học không đề cập đến việc truy cập hay giải thích kết quả tìm kiếm số."
+      },
+      {
+        "metadata_code": "6.C1.MR3_1",
+        "reason": "Nội dung kiến thức môn Toán lớp 6 về biểu đồ cột không chứa yếu tố tích hợp hoặc tác động của công cụ AI."
+      },
+      {
+        "metadata_code": "6.C3.MR1_1",
+        "reason": "Bài học không đề cập đến các tính năng AI trong các ứng dụng thường gặp."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Cấu trúc biểu đồ cột (trục đứng",
+      "questiontext": "Trong biểu đồ cột thẳng đứng, trục đứng (trục tung) dùng để biểu diễn yếu tố nào sau đây?",
+      "generalfeedback": "Trục đứng trong biểu đồ cột được dùng để biểu diễn số lượng (hoặc giá trị số) của các đối tượng thống kê.",
+      "answers": [
+        {
+          "text": "Số lượng (giá trị) của các đối tượng thống kê",
+          "fraction": 100
+        },
+        {
+          "text": "Tên của các đối tượng thống kê",
+          "fraction": 0
+        },
+        {
+          "text": "Tên tác giả vẽ biểu đồ",
+          "fraction": 0
+        },
+        {
+          "text": "Thời gian thực hiện vẽ biểu đồ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "trục ngang",
+      "questiontext": "Khi vẽ biểu đồ cột thẳng đứng biểu diễn danh sách các lớp và số lượng phong bao lì xì bán được, trục ngang được dùng để biểu diễn:",
+      "generalfeedback": "Trục ngang biểu diễn tên các đối tượng thống kê (ở đây là tên các lớp của khối 6).",
+      "answers": [
+        {
+          "text": "Tên các lớp của khối 6",
+          "fraction": 100
+        },
+        {
+          "text": "Số lượng phong bao lì xì bán được",
+          "fraction": 0
+        },
+        {
+          "text": "Tổng số học sinh toàn trường",
+          "fraction": 0
+        },
+        {
+          "text": "Số tiền thu được từ việc bán lì xì",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "cột hình chữ nhật)",
+      "questiontext": "Trong một biểu đồ cột, chiều rộng của tất cả các hình chữ nhật (cột) biểu diễn các đối tượng phải bằng nhau.",
+      "generalfeedback": "Đúng. Theo quy tắc vẽ biểu đồ cột, các hình chữ nhật phải có chiều rộng bằng nhau và khoảng cách giữa các cột phải đều nhau.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Vẽ biểu đồ cột từ bảng thống kê cho trước",
+      "questiontext": "Để vẽ biểu đồ cột biểu diễn dữ liệu từ bảng thống kê, bước 1 ta vẽ trục ngang biểu diễn [[1]] và trục đứng biểu diễn [[2]].",
+      "generalfeedback": "Bước 1 trong quy trình vẽ biểu đồ cột là vẽ trục ngang biểu diễn các đối tượng thống kê và trục đứng biểu diễn số liệu.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "các đối tượng thống kê"
+        },
+        {
+          "group": 1,
+          "text": "số liệu (số lượng)"
+        },
+        {
+          "group": 1,
+          "text": "tên người lập bảng"
+        },
+        {
+          "group": 1,
+          "text": "tên trường học"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_140",
+      "questiontext": "Cho bảng thống kê số cánh hoa của các loài hoa: Sen (8 cánh), Tulip (6 cánh), Mai (5 cánh), Dã quỳ (13 cánh). Khi vẽ biểu đồ cột, cột đại diện cho loài hoa nào có chiều cao cao nhất?",
+      "generalfeedback": "Hoa Dã quỳ có 13 cánh (lớn nhất) nên cột biểu diễn hoa Dã quỳ sẽ có chiều cao cao nhất.",
+      "answers": [
+        {
+          "text": "Dã quỳ",
+          "fraction": 100
+        },
+        {
+          "text": "Hoa dã quỳ",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Vẽ biểu đồ cột từ bảng thống kê cho trước",
+      "questiontext": "Hãy ghép từng bước ở cột bên trái với nội dung thực hiện tương ứng ở cột bên phải trong quy trình vẽ biểu đồ cột:",
+      "generalfeedback": "Quy trình vẽ biểu đồ cột gồm 3 bước: Bước 1 vẽ trục; Bước 2 vẽ hình chữ nhật; Bước 3 hoàn thiện tên, chú thích, màu sắc.",
+      "subquestions": [
+        {
+          "question": "Bước 1",
+          "answer": "Vẽ trục ngang biểu diễn các đối tượng và trục đứng biểu diễn số liệu"
+        },
+        {
+          "question": "Bước 2",
+          "answer": "Vẽ các hình chữ nhật có chiều cao bằng số liệu tương ứng"
+        },
+        {
+          "question": "Bước 3",
+          "answer": "Đặt tên cho biểu đồ, ghi chú thích và tô màu nếu cần"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "cột hình chữ nhật)",
+      "questiontext": "Với mỗi đối tượng trên trục ngang của biểu đồ cột, ta vẽ một hình chữ nhật có chiều cao biểu diễn [[1]] tương ứng, còn chiều rộng của các hình chữ nhật phải [[2]].",
+      "generalfeedback": "Chiều cao hình chữ nhật thể hiện số liệu của đối tượng, chiều rộng của các hình chữ nhật phải bằng nhau.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "số liệu (số lượng)"
+        },
+        {
+          "group": 1,
+          "text": "bằng nhau"
+        },
+        {
+          "group": 1,
+          "text": "khác nhau"
+        },
+        {
+          "group": 1,
+          "text": "tỉ lệ nghịch"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_140",
+      "questiontext": "Bảng thống kê số phong bao lì xì các lớp bán được: 6A (32 bao), 6B (27 bao), 6C (35 bao), 6D (30 bao). Khi vẽ biểu đồ cột biểu diễn bảng này, tổng chiều cao đại diện của 4 cột tương ứng với bao nhiêu phong bao lì xì? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Tổng số phong bao lì xì của cả 4 lớp là \\(32 + 27 + 35 + 30 = 124\\).",
+      "answers": [
+        {
+          "text": "124",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Cấu trúc biểu đồ cột (trục đứng",
+      "questiontext": "Trong biểu đồ cột biểu diễn số lượng sách quyên góp, cột của lớp A có chiều cao biểu diễn {a} cuốn sách, cột của lớp B có chiều cao biểu diễn {b} cuốn sách. Tổng chiều cao của hai cột này biểu diễn bao nhiêu cuốn sách?",
+      "generalfeedback": "Tổng số sách hai lớp quyên góp tương ứng với tổng chiều cao hai cột là {a} + {b} cuốn sách.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 10.0,
+          "max": 50.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 10.0,
+          "max": 50.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}+{b}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_140",
+      "imgs": [
+        "_page_0_Figure_22.jpeg"
+      ],
+      "questiontext": "Quan sát Hình 9.4 [img:_page_0_Figure_22.jpeg] biểu diễn số phong bao lì xì bán được của các lớp 6A, 6B, 6C, 6D. Cho biết vạch chia trên trục đứng thể hiện khoảng cách là bao nhiêu phong bao lì xì giữa mỗi vạch chính?",
+      "generalfeedback": "Các vạch trên trục đứng được chia cách đều nhau 10 đơn vị (0, 10, 20, 30...).",
+      "answers": [
+        {
+          "text": "10 phong bao lì xì",
+          "fraction": 100
+        },
+        {
+          "text": "5 phong bao lì xì",
+          "fraction": 0
+        },
+        {
+          "text": "1 phong bao lì xì",
+          "fraction": 0
+        },
+        {
+          "text": "20 phong bao lì xì",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Vẽ biểu đồ cột từ bảng thống kê cho trước",
+      "questiontext": "Cho bảng thống kê số lượng bạn yêu thích các thể loại phim: Hành động (6 bạn), Khoa học viễn tưởng (5 bạn), Hoạt hình (12 bạn), Hài (8 bạn). Khi vẽ biểu đồ cột biểu diễn bảng này, cột nào có chiều cao lớn nhất?",
+      "generalfeedback": "Thể loại phim Hoạt hình có số lượng bạn yêu thích nhiều nhất là 12 bạn, do đó cột biểu diễn phim Hoạt hình sẽ có chiều cao lớn nhất (12 đơn vị).",
+      "answers": [
+        {
+          "text": "Hoạt hình",
+          "fraction": 100
+        },
+        {
+          "text": "Hành động",
+          "fraction": 0
+        },
+        {
+          "text": "Hài",
+          "fraction": 0
+        },
+        {
+          "text": "Khoa học viễn tưởng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "cột hình chữ nhật)",
+      "questiontext": "Trên một số biểu đồ cột, khoảng cách từ gốc 0 đến vạch chia đầu tiên có thể [[1]] bằng số đơn vị độ dài tương ứng. Việc vẽ này giúp thu gọn khoảng không gian thừa khi các số liệu đều [[2]].",
+      "generalfeedback": "Chú ý trong SGK: khoảng cách từ gốc 0 đến vạch chia đầu tiên (ví dụ vạch 20) có thể không bằng 20 đơn vị độ dài thực tế, nhằm giúp biểu đồ gọn gàng khi các số liệu đều lớn.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "không"
+        },
+        {
+          "group": 1,
+          "text": "nhỏ"
+        },
+        {
+          "group": 1,
+          "text": "luôn luôn"
+        },
+        {
+          "group": 1,
+          "text": "bằng"
+        },
+        {
+          "group": 1,
+          "text": "lớn"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_140",
+      "questiontext": "Cho bảng thống kê số lượng bạn yêu thích các thể loại phim: Hành động (6 bạn), Khoa học viễn tưởng (5 bạn), Hoạt hình (12 bạn), Hài (8 bạn). Tổng chiều cao của tất cả các cột trong biểu đồ biểu diễn cho bao nhiêu bạn? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Tổng số bạn yêu thích các thể loại phim là \\(6 + 5 + 12 + 8 = 31\\) bạn.",
+      "answers": [
+        {
+          "text": "31",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "thong_hieu",
+      "metadata_code": "Vẽ biểu đồ cột từ bảng thống kê cho trước",
+      "questiontext": "Lớp 6A quyên góp được {a} kg giấy vụn, lớp 6B quyên góp được {b} kg giấy vụn (với {a} > {b}). Khi vẽ biểu đồ cột, độ chênh lệch chiều cao giữa cột lớp 6A và cột lớp 6B biểu diễn bao nhiêu kg giấy vụn?",
+      "generalfeedback": "Độ chênh lệch chiều cao giữa hai cột bằng hiệu số kg giấy vụn của hai lớp: {a} - {b}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 20.0,
+          "max": 50.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 5.0,
+          "max": 19.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}-{b}",
+          "fraction": 100
+        },
+        {
+          "text": "{a}+{b}",
+          "fraction": 0
+        },
+        {
+          "text": "{a}*{b}",
+          "fraction": 0
+        },
+        {
+          "text": "{a}/{b}",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_140",
+      "questiontext": "Cho Bảng 9.4 về số cánh hoa: Sen (8 cánh), Tulip (6 cánh), Mai (5 cánh), Dã quỳ (13 cánh). Hãy ghép tên loài hoa với chiều cao tương ứng của cột biểu diễn số cánh hoa:",
+      "generalfeedback": "Chiều cao của mỗi cột trên biểu đồ tương ứng đúng với số cánh hoa của loài hoa đó trong bảng thống kê.",
+      "subquestions": [
+        {
+          "question": "Hoa Sen",
+          "answer": "8 đơn vị độ dài"
+        },
+        {
+          "question": "Hoa Tulip",
+          "answer": "6 đơn vị độ dài"
+        },
+        {
+          "question": "Hoa Mai",
+          "answer": "5 đơn vị độ dài"
+        },
+        {
+          "question": "Hoa Dã quỳ",
+          "answer": "13 đơn vị độ dài"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_140",
+      "questiontext": "Theo bảng thống kê thể loại phim yêu thích: Hành động (6 bạn), Khoa học viễn tưởng (5 bạn), Hoạt hình (12 bạn), Hài (8 bạn). Cột biểu diễn phim Hoạt hình cao hơn cột biểu diễn phim Khoa học viễn tưởng bao nhiêu đơn vị? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Chênh lệch giữa cột phim Hoạt hình và Khoa học viễn tưởng là \\(12 - 5 = 7\\) đơn vị.",
+      "answers": [
+        {
+          "text": "7",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Cấu trúc biểu đồ cột (trục đứng",
+      "imgs": [
+        "_page_1_Figure_5.jpeg"
+      ],
+      "questiontext": "Trong biểu đồ thanh ngang Hình 9.5 [img:_page_1_Figure_5.jpeg], các thanh hình chữ nhật biểu diễn số phong bao lì xì được đặt theo hướng nào?",
+      "generalfeedback": "Trong biểu đồ thanh ngang, các thanh hình chữ nhật được đặt nằm ngang.",
+      "answers": [
+        {
+          "text": "Nằm ngang",
+          "fraction": 100
+        },
+        {
+          "text": "Thẳng đứng",
+          "fraction": 0
+        },
+        {
+          "text": "Xiên chéo",
+          "fraction": 0
+        },
+        {
+          "text": "Gãy khúc",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Vẽ biểu đồ cột từ bảng thống kê cho trước",
+      "questiontext": "Khi hoàn thiện biểu đồ cột, bước cuối cùng ta cần đặt [[1]] cho biểu đồ, ghi [[2]] trên các trục và tô màu cho các cột.",
+      "generalfeedback": "Bước 3 của quy trình vẽ biểu đồ cột: Đặt tên cho biểu đồ, ghi chú thích và tô màu cho các cột.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "tên"
+        },
+        {
+          "group": 1,
+          "text": "chú thích"
+        },
+        {
+          "group": 1,
+          "text": "công thức"
+        },
+        {
+          "group": 1,
+          "text": "đơn vị đo"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_140",
+      "questiontext": "Một biểu đồ cột biểu diễn số học sinh tham gia 3 câu lạc bộ: Thể thao ({a} học sinh), Nghệ thuật ({b} học sinh) và Tiếng Anh ({c} học sinh). Tổng số học sinh được biểu diễn trên biểu đồ cột là bao nhiêu?",
+      "generalfeedback": "Tổng số học sinh biểu diễn trên biểu đồ là \\({a} + {b} + {c}\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 10.0,
+          "max": 30.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 10.0,
+          "max": 30.0,
+          "decimals": 0
+        },
+        {
+          "name": "c",
+          "min": 10.0,
+          "max": 30.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}+{b}+{c}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "trục ngang",
+      "questiontext": "Trong một biểu đồ cột chuẩn, khoảng cách giữa các cột hình chữ nhật không cần phải bằng nhau.",
+      "generalfeedback": "Sai. Khoảng cách giữa các cột hình chữ nhật trong biểu đồ cột bắt buộc phải bằng nhau.",
+      "answers": [
+        {
+          "text": "Sai",
+          "fraction": 100
+        },
+        {
+          "text": "Đúng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi tập vẽ biểu đồ cột biểu diễn số liệu từ bảng thống kê ở bài tập về nhà nhưng hình vẽ chưa được cân đối và đẹp mắt, hành vi nào dưới đây thể hiện phẩm chất luôn cố gắng vươn lên đạt kết quả tốt trong học tập?",
+      "generalfeedback": "Phẩm chất luôn cố gắng vươn lên được thể hiện qua việc chủ động học hỏi lại quy trình, kiên trì luyện tập để hoàn thiện sản phẩm học tập đạt kết quả tốt nhất.",
+      "answers": [
+        {
+          "text": "Xem lại hướng dẫn các bước vẽ trong SGK và kiên trì thực hành vẽ lại cho chính xác, đẹp mắt",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua không vẽ nữa vì thấy bài tập mất nhiều thời gian",
+          "fraction": 0
+        },
+        {
+          "text": "Sao chép nguyên văn biểu đồ của bạn khác để nộp cho cô giáo",
+          "fraction": 0
+        },
+        {
+          "text": "Nhờ người khác vẽ hộ rồi nhận đó là sản phẩm của mình",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_TRUNGTHUC_CHUNG_C2_01",
+      "questiontext": "An cam kết với nhóm sẽ thu thập chính xác số lượng phong bao lì xì các bạn bán được và hoàn thành biểu đồ cột đúng hạn. Trong quá trình làm, An phát hiện thiếu số liệu của một bạn. Để giữ đúng lời hứa và thống nhất giữa lời nói với việc làm, An nên xử lý như thế nào?",
+      "generalfeedback": "Sự thống nhất giữa lời nói và việc làm thể hiện ở hành vi trung thực, trách nhiệm, chủ động liên hệ thu thập đúng số liệu thực tế chứ không bịa đặt hay làm qua loa.",
+      "answers": [
+        {
+          "text": "Chủ động liên hệ với bạn đó để lấy đúng số liệu thực tế rồi mới vẽ biểu đồ và nộp đúng hạn",
+          "fraction": 100
+        },
+        {
+          "text": "Tự bịa ra một số bất kỳ cho xong để kịp hoàn thiện biểu đồ",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua tên của bạn đó và không biểu diễn trên biểu đồ",
+          "fraction": 0
+        },
+        {
+          "text": "Nộp biểu đồ gạch xóa dở dang và đổ lỗi cho bạn chưa gửi số liệu",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "questiontext": "Đọc văn bản sau: 'Bảng thống kê số bạn yêu thích các thể loại văn học dân gian gồm: Thần thoại (8 bạn), Truyền thuyết (10 bạn), Cổ tích (12 bạn).' Để tiếp nhận và biểu diễn thông tin văn bản này dưới dạng biểu đồ cột, cấu trúc nào sau đây là phù hợp nhất?",
+      "generalfeedback": "Để chuyển đổi văn bản thông tin sang biểu đồ cột, trục ngang biểu diễn các thể loại văn học dân gian và trục đứng biểu diễn số lượng học sinh yêu thích tương ứng với chiều cao các cột.",
+      "answers": [
+        {
+          "text": "Trục ngang biểu diễn các thể loại (Thần thoại, Truyền thuyết, Cổ tích), trục đứng biểu diễn số học sinh với chiều cao các cột lần lượt là 8, 10, 12",
+          "fraction": 100
+        },
+        {
+          "text": "Trục ngang biểu diễn số học sinh (8, 10, 12), trục đứng biểu diễn tên tác giả các câu chuyện",
+          "fraction": 0
+        },
+        {
+          "text": "Vẽ 3 hình chữ nhật có chiều rộng khác nhau để thể hiện các thể loại văn học",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ vẽ 1 cột duy nhất ghi tổng số 30 học sinh",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_04",
+      "questiontext": "Để thảo luận và trình bày báo cáo trước lớp về kết quả khảo sát 'Số cánh hoa của một số loài hoa' (Sen: 8, Tulip: 6, Mai: 5, Dã quỳ: 13), nhóm của Bình nên kết hợp ngôn ngữ nói và biểu đồ cột như thế nào để truyền tải thông tin hiệu quả nhất?",
+      "generalfeedback": "Năng lực trình bày thông tin kết hợp biểu đồ thể hiện qua việc vừa thuyết trình ngôn ngữ vừa minh họa bằng biểu đồ cột, giúp người nghe dễ so sánh và đối chiếu số liệu.",
+      "answers": [
+        {
+          "text": "Trình chiếu biểu đồ cột kết hợp thuyết trình giải thích ý nghĩa các cột, so sánh loài hoa có số cánh nhiều nhất và ít nhất",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ đọc danh sách số liệu trong bảng mà không đưa biểu đồ cột ra minh họa",
+          "fraction": 0
+        },
+        {
+          "text": "Đưa biểu đồ cột lên màn hình nhưng không giải thích hay phân tích số liệu",
+          "fraction": 0
+        },
+        {
+          "text": "Mô tả vẻ đẹp của các loài hoa mà bỏ qua các số liệu thống kê về số cánh hoa",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_02_03",
+      "questiontext": "Một cửa hàng muốn mô tả trực quan số lượng áo phông bán được trong 4 ngày đầu tuần để dễ dàng so sánh và theo dõi diễn biến kinh doanh. Mô hình toán học nào sau đây là phù hợp nhất để giải quyết bài toán thực tiễn này?",
+      "generalfeedback": "Mô hình biểu đồ cột giúp mô tả và so sánh trực quan các giá trị định lượng giữa các đối tượng (các ngày trong tuần) trong bài toán thực tiễn.",
+      "answers": [
+        {
+          "text": "Biểu đồ cột với trục ngang ghi các ngày trong tuần và trục đứng ghi số lượng áo bán được",
+          "fraction": 100
+        },
+        {
+          "text": "Sơ đồ hình học mô tả các góc và cạnh của chiếc áo phông",
+          "fraction": 0
+        },
+        {
+          "text": "Một công thức đại số chứa các biến số không rõ giá trị",
+          "fraction": 0
+        },
+        {
+          "text": "Một danh sách liệt kê địa chỉ của các khách hàng mua áo",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04_04",
+      "questiontext": "Đọc đoạn văn sau: 'Trong ngày đầu tiên bán phong bao lì xì gây quỹ từ thiện, lớp 6A bán được 32 bao, lớp 6B bán được 27 bao, lớp 6C bán được 35 bao và lớp 6D bán được 30 bao.' Thông tin toán học cần thiết nào được phân tích từ đoạn văn để xác định chiều cao cột của lớp 6C khi vẽ biểu đồ cột?",
+      "generalfeedback": "Phân tích thông tin toán học từ văn bản giúp trích xuất giá trị số tương ứng với đối tượng lớp 6C là 35 bao, từ đó xác định chiều cao cột biểu diễn.",
+      "answers": [
+        {
+          "text": "Số lượng phong bao lì xì lớp 6C bán được là 35 bao",
+          "fraction": 100
+        },
+        {
+          "text": "Mục đích của việc bán phong bao lì xì là để gây quỹ từ thiện",
+          "fraction": 0
+        },
+        {
+          "text": "Thời gian bán phong bao lì xì là vào dịp Tết Nguyên đán",
+          "fraction": 0
+        },
+        {
+          "text": "Tổng số lớp tham gia của trường trung học là 4 lớp",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,524 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 18,
+    "metadata_used": {
+      "Khái niệm hình nón": 2,
+      "Nhận biết hình nón": 2,
+      "Các yếu tố đỉnh, đường sinh l, chiều cao h, bán kính đáy r": 2,
+      "YCCD_TOAN9_046": 2,
+      "Hệ thức l^2 = h^2 + r^2": 6,
+      "Xác định đỉnh, đường sinh, chiều cao, bán kính đáy của hình nón": 3,
+      "YCCD_TOAN9_047": 3,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TUHOC_C2_01": 2,
+      "SUB_GTHT_XACDINHMD_C2_03": 1,
+      "NLT_TOAN_C2_01_02": 1,
+      "NLT_TOAN_C2_04_12": 2
+    },
+    "types_used": {
+      "multichoice": 9,
+      "truefalse": 2,
+      "matching": 2,
+      "gapselect": 2,
+      "numerical": 1,
+      "ddwtos": 1,
+      "calculated": 1
+    },
+    "total": 18
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN9_046",
+        "reason": "Mô tả đỉnh, đường sinh, chiều cao, bán kính đáy của hình nón."
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_047",
+        "reason": "Tạo lập được hình nón từ hình khai triển."
+      },
+      {
+        "metadata_code": "Khái niệm hình nón",
+        "reason": "Nhận biết khái niệm hình nón."
+      },
+      {
+        "metadata_code": "Các yếu tố đỉnh, đường sinh l, chiều cao h, bán kính đáy r",
+        "reason": "Xác định các yếu tố đỉnh, đường sinh l, chiều cao h, bán kính đáy r."
+      },
+      {
+        "metadata_code": "Hệ thức l^2 = h^2 + r^2",
+        "reason": "Áp dụng hệ thức l^2 = h^2 + r^2 trong hình nón."
+      },
+      {
+        "metadata_code": "Nhận biết hình nón",
+        "reason": "Nhận biết hình nón trong thực tiễn và hình học."
+      },
+      {
+        "metadata_code": "Xác định đỉnh, đường sinh, chiều cao, bán kính đáy của hình nón",
+        "reason": "Xác định các yếu tố cụ thể của hình nón trên hình vẽ/mô hình."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Luôn cố gắng vươn lên đạt kết quả tốt trong học tập."
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+        "reason": "Tự đặt được mục tiêu học tập để nỗ lực phấn đấu thực hiện."
+      },
+      {
+        "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+        "reason": "Tiếp nhận được các văn bản về những vấn đề đơn giản của đời sống..."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_02",
+        "reason": "Biết quan sát trong nhiều tình huống."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_04_12",
+        "reason": "Sử dụng được ngôn ngữ toán học kết hợp với ngôn ngữ thông thường..."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N",
+        "reason": "Bài học thuộc phần Toán hình học lớp 9 thuần túy (Hình nón), không có mã N trong METADATA_DICTIONARY."
+      },
+      {
+        "metadata_code": "A",
+        "reason": "Bài học thuộc phần Toán hình học lớp 9 thuần túy (Hình nón), không có mã A trong METADATA_DICTIONARY."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm hình nón",
+      "questiontext": "Khi quay một tam giác vuông quanh một cạnh góc vuông cố định một vòng, hình tạo thành là hình gì?",
+      "generalfeedback": "Khi quay tam giác vuông \\(SOA\\) (vuông tại \\(O\\)) một vòng quanh cạnh góc vuông \\(SO\\) cố định, ta được một hình nón.",
+      "answers": [
+        {
+          "text": "Hình nón",
+          "fraction": 100
+        },
+        {
+          "text": "Hình trụ",
+          "fraction": 0
+        },
+        {
+          "text": "Hình cầu",
+          "fraction": 0
+        },
+        {
+          "text": "Hình lăng trụ đứng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết hình nón",
+      "questiontext": "Vật dụng nào sau đây trong đời sống thường có dạng hình nón?",
+      "generalfeedback": "Chiếc nón lá, kem ốc quế, xô chú hề... có dạng hình nón.",
+      "answers": [
+        {
+          "text": "Chiếc nón lá",
+          "fraction": 100
+        },
+        {
+          "text": "Hộp sữa ông Thọ",
+          "fraction": 0
+        },
+        {
+          "text": "Quả bóng đá",
+          "fraction": 0
+        },
+        {
+          "text": "Thùng nước hình trụ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Các yếu tố đỉnh, đường sinh l, chiều cao h, bán kính đáy r",
+      "questiontext": "Hình nón có vô số đường sinh và tất cả các đường sinh của hình nón đều bằng nhau.",
+      "generalfeedback": "Hình nón có vô số đường sinh và độ dài của các đường sinh đều bằng nhau.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_046",
+      "questiontext": "Cho tam giác vuông \\(SOA\\) vuông tại \\(O\\). Ghép mỗi yếu tố của tam giác khi quay quanh cạnh \\(SO\\) cố định với yếu tố tương ứng của hình nón tạo thành:",
+      "generalfeedback": "Khi quay tam giác vuông \\(SOA\\) quanh \\(SO\\): điểm \\(S\\) là đỉnh, đoạn \\(SO\\) là chiều cao, đoạn \\(OA\\) là bán kính đáy, đoạn \\(SA\\) là đường sinh.",
+      "subquestions": [
+        {
+          "question": "Điểm \\(S\\)",
+          "answer": "Đỉnh của hình nón"
+        },
+        {
+          "question": "Đoạn thẳng \\(SO\\)",
+          "answer": "Chiều cao của hình nón"
+        },
+        {
+          "question": "Đoạn thẳng \\(OA\\)",
+          "answer": "Bán kính đáy của hình nón"
+        },
+        {
+          "question": "Đoạn thẳng \\(SA\\)",
+          "answer": "Đường sinh của hình nón"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thức l^2 = h^2 + r^2",
+      "questiontext": "Cho hình nón có chiều cao \\(h\\), bán kính đáy \\(r\\) và độ dài đường sinh \\(l\\). Hệ thức nào sau đây đúng?",
+      "generalfeedback": "Trong hình nón, tam giác tạo bởi chiều cao \\(h\\), bán kính đáy \\(r\\) và đường sinh \\(l\\) là tam giác vuông tại tâm đáy, do đó theo định lí Pythagore ta có \\(l^2 = h^2 + r^2\\).",
+      "answers": [
+        {
+          "text": "\\(l^2 = h^2 + r^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(h^2 = l^2 + r^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(r^2 = l^2 + h^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(l = h + r\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Xác định đỉnh, đường sinh, chiều cao, bán kính đáy của hình nón",
+      "imgs": [
+        "_page_4_Picture_23.jpeg"
+      ],
+      "questiontext": "Cho hình nón như hình vẽ dưới đây: [img:_page_4_Picture_23.jpeg] Hãy cho biết đỉnh và chiều cao của hình nón này.",
+      "generalfeedback": "Đỉnh của hình nón là điểm \\(S\\) và chiều cao là độ dài đoạn thẳng \\(SO\\).",
+      "answers": [
+        {
+          "text": "Đỉnh \\(S\\), chiều cao \\(SO\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Đỉnh \\(O\\), chiều cao \\(OM\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Đỉnh \\(S\\), chiều cao \\(SM\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Đỉnh \\(M\\), chiều cao \\(EF\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_047",
+      "questiontext": "Hình khai triển mặt xung quanh của một hình nón là một hình [[1]], còn mặt đáy của hình nón là một hình [[2]].",
+      "generalfeedback": "Khi cắt mặt xung quanh của hình nón theo một đường sinh rồi trải phẳng, ta được một hình quạt tròn. Mặt đáy của hình nón là hình tròn.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "quạt tròn"
+        },
+        {
+          "group": 1,
+          "text": "tròn"
+        },
+        {
+          "group": 1,
+          "text": "tam giác vuông"
+        },
+        {
+          "group": 1,
+          "text": "chữ nhật"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Hệ thức l^2 = h^2 + r^2",
+      "questiontext": "Một hình nón có bán kính đáy \\(r = 3\\text{ cm}\\) và chiều cao \\(h = 4\\text{ cm}\\). Tính độ dài đường sinh \\(l\\) của hình nón đó theo đơn vị cm. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Áp dụng công thức \\(l = \\sqrt{h^2 + r^2} = \\sqrt{4^2 + 3^2} = \\sqrt{25} = 5\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_047",
+      "imgs": [
+        "_page_5_Picture_7.jpeg"
+      ],
+      "questiontext": "Quan sát hình vẽ tạo lập hình nón từ nửa hình tròn đường kính \\(AB = 20\\text{ cm}\\) có tâm \\(S\\): [img:_page_5_Picture_7.jpeg] Khi cuộn nửa hình tròn đó lại để \\(SA\\) và \\(SB\\) sát vào nhau, ta được hình nón có độ dài đường sinh là [[1]] cm và chu vi đáy là [[2]] cm.",
+      "generalfeedback": "Bán kính của nửa hình tròn là \\(SA = SB = 20 / 2 = 10\\text{ cm}\\), đó chính là độ dài đường sinh \\(l\\) của hình nón. Độ dài cung của nửa hình tròn là \\(\\pi \\cdot R_{tròn} = 10\\pi\\text{ cm}\\), đó chính là chu vi đáy của hình nón.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "10"
+        },
+        {
+          "group": 1,
+          "text": "\\(10\\pi\\)"
+        },
+        {
+          "group": 1,
+          "text": "20"
+        },
+        {
+          "group": 1,
+          "text": "\\(20\\pi\\)"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Hệ thức l^2 = h^2 + r^2",
+      "questiontext": "Cho hình nón có bán kính đáy \\(r =\\) {r} cm và chiều cao \\(h =\\) h cm. Tính độ dài đường sinh \\(l\\) của hình nón. (Chỉ điền số, dùng dấu chấm cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Độ dài đường sinh của hình nón được tính theo công thức \\(l = \\sqrt{r^2 + h^2}\\).",
+      "wildcards": [
+        {
+          "name": "r",
+          "min": 5.0,
+          "max": 12.0,
+          "decimals": 0
+        },
+        {
+          "name": "h",
+          "min": 5.0,
+          "max": 12.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "sqrt(pow({r},2)+pow({h},2))",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ học Toán về chủ đề Hình nón, bạn An gặp khó khăn khi giải bài tập tính độ dài đường sinh từ chiều cao và bán kính đáy. Hành động nào sau đây của An thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập?",
+      "generalfeedback": "Thái độ cố gắng vươn lên trong học tập thể hiện qua việc tự giác ôn lại kiến thức, kiên trì thực hành và chủ động hỏi thầy cô, bạn bè khi gặp vướng mắc.",
+      "answers": [
+        {
+          "text": "Chủ động ôn lại hệ thức \\(l^2 = h^2 + r^2\\), tự làm lại các ví dụ trong SGK và nhờ thầy cô hướng dẫn thêm chỗ chưa hiểu.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua không làm bài tập này và chờ đến khi thầy cô chữa bài để chép lời giải vào vở.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép vội đáp án của bạn bên cạnh để nhanh chóng hoàn thành bài tập mà không cần hiểu cách làm.",
+          "fraction": 0
+        },
+        {
+          "text": "Tự trách bản thân không có năng khiếu học Toán nên dừng lại không tiếp tục giải bài.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Để chuẩn bị tốt cho bài kiểm tra về chủ đề Hình nón, bạn Nam tự đặt mục tiêu học tập nào sau đây là phù hợp và thể hiện sự nỗ lực phấn đấu?",
+      "generalfeedback": "Mục tiêu học tập phù hợp cần gắn liền với các kết quả cụ thể (nắm vững kiến thức, làm thành thạo bài tập) và kèm theo kế hoạch ôn luyện thực tế.",
+      "answers": [
+        {
+          "text": "Xác định mục tiêu nắm vững khái niệm, thuộc công thức mối liên hệ \\(l^2 = h^2 + r^2\\) và tự giải thành thạo các bài tập xác định yếu tố của hình nón.",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ cần học thuộc vẹt các câu định nghĩa trong sách mà không cần làm bất kỳ bài tập thực hành nào.",
+          "fraction": 0
+        },
+        {
+          "text": "Đặt mục tiêu đạt điểm tối đa nhưng không lập kế hoạch hay dành thời gian học tập cụ thể.",
+          "fraction": 0
+        },
+        {
+          "text": "Chờ đến sát giờ kiểm tra mới mở sách giáo khoa ra đọc lướt qua các trang bài học.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "imgs": [
+        "_page_4_Picture_23.jpeg"
+      ],
+      "questiontext": "Đọc thông tin và quan sát sơ đồ dưới đây: [img:_page_4_Picture_23.jpeg] Hình vẽ thể hiện một hình nón với các ký hiệu đỉnh \\(S\\), đường cao \\(SO\\), bán kính đáy \\(OM\\) và đường sinh \\(SM\\). Thông tin nào sau đây mô tả chính xác kết quả tiếp nhận từ hình vẽ?",
+      "generalfeedback": "Hình vẽ minh họa rõ các thành phần cơ bản của hình nón: S là đỉnh, SO là đường cao (vuông góc với mặt đáy tại O), OM là bán kính đáy và SM là một đường sinh.",
+      "answers": [
+        {
+          "text": "Điểm \\(S\\) là đỉnh, đoạn \\(SO\\) là đường cao, đoạn \\(OM\\) là bán kính đáy và đoạn \\(SM\\) là đường sinh.",
+          "fraction": 100
+        },
+        {
+          "text": "Điểm \\(O\\) là đỉnh, đoạn \\(SO\\) là đường sinh, đoạn \\(OM\\) là chiều cao.",
+          "fraction": 0
+        },
+        {
+          "text": "Điểm \\(S\\) là đỉnh, đoạn \\(SM\\) là đường cao, đoạn \\(SO\\) là bán kính đáy.",
+          "fraction": 0
+        },
+        {
+          "text": "Điểm \\(M\\) là đỉnh, đoạn \\(SO\\) là đường sinh, đoạn \\(OM\\) là đường cao.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "NLT_TOAN_C2_01_02",
+      "questiontext": "Khi quan sát các đồ vật xung quanh trong đời sống hằng ngày, vật dụng nào sau đây giúp em nhận biết trực quan dạng hình nón?",
+      "generalfeedback": "Qua quan sát thực tế, chiếc nón lá hay chiếc kem ốc quế có cấu trúc một đầu nhọn (đỉnh) và đáy hình tròn, là hình ảnh thực tế của hình nón.",
+      "answers": [
+        {
+          "text": "Chiếc nón lá truyền thống hoặc chiếc kem ốc quế.",
+          "fraction": 100
+        },
+        {
+          "text": "Hộp sữa đặc hình trụ.",
+          "fraction": 0
+        },
+        {
+          "text": "Quả bóng chuyền.",
+          "fraction": 0
+        },
+        {
+          "text": "Khối rubik hình lập phương.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04_12",
+      "questiontext": "Để diễn đạt quá trình tạo thành hình nón bằng ngôn ngữ toán học, ta nói: Khi quay tam giác [[1]] \\(SOA\\) một vòng quanh cạnh góc vuông \\(SO\\) cố định, cạnh huyền \\(SA\\) quét nên mặt [[2]] của hình nón.",
+      "generalfeedback": "Sử dụng ngôn ngữ toán học: Tam giác vuông SOA quay quanh cạnh góc vuông SO cố định tạo nên hình nón, cạnh huyền SA tạo nên mặt xung quanh với các đường sinh bằng nhau.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "vuông"
+        },
+        {
+          "group": 1,
+          "text": "xung quanh"
+        },
+        {
+          "group": 1,
+          "text": "cân"
+        },
+        {
+          "group": 1,
+          "text": "đáy"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi gặp một bài toán thực tế phức tạp về hình nón, việc kiên trì thử nhiều cách giải và thảo luận tích cực với bạn bè là biểu hiện của tinh thần luôn cố gắng vươn lên trong học tập.",
+      "generalfeedback": "Thái độ không ngại khó, kiên trì suy nghĩ và hợp tác học tập là biểu hiện rõ nét của tinh thần cố gắng vươn lên đạt kết quả tốt.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Hãy ghép mỗi mục tiêu học tập về chủ đề Hình nón với hành động tương ứng thể hiện nỗ lực phấn đấu đạt mục tiêu đó:",
+      "generalfeedback": "Xác định mục tiêu học tập gắn liền với kế hoạch hành động cụ thể giúp học sinh chủ động và đạt hiệu quả cao.",
+      "subquestions": [
+        {
+          "question": "Nắm chắc các yếu tố đỉnh, đường sinh, chiều cao, bán kính đáy",
+          "answer": "Đọc SGK, vẽ hình nón và ghi chú đầy đủ tên gọi các yếu tố"
+        },
+        {
+          "question": "Hiểu và áp dụng thành thạo hệ thức \\(l^2 = h^2 + r^2\\)",
+          "answer": "Tự làm các bài tập tính đường sinh khi biết chiều cao và bán kính đáy"
+        },
+        {
+          "question": "Tạo lập được mô hình hình nón từ giấy cứng",
+          "answer": "Thực hành cắt nửa hình tròn và cuộn dán hai bán kính sát vào nhau"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_04_12",
+      "questiontext": "Một bạn học sinh diễn đạt bằng ngôn ngữ thông thường: 'Em lấy một miếng bìa hình nửa đường tròn rồi cuộn hai mép thẳng lại với nhau để làm chiếc mũ chú hề'. Hãy dùng ngôn ngữ toán học để biểu đạt lại chính xác thao tác này:",
+      "generalfeedback": "Bằng ngôn ngữ toán học, việc cuộn nửa hình tròn sao cho hai bán kính sát vào nhau chính là tạo lập mặt xung quanh của hình nón có độ dài đường sinh \\(l\\) bằng bán kính của nửa hình tròn.",
+      "answers": [
+        {
+          "text": "Gấp dán một hình quạt tròn (nửa hình tròn bán kính \\(R\\)) sao cho hai bán kính trùng nhau để tạo thành mặt xung quanh của hình nón có đường sinh \\(l = R\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Quay một nửa hình tròn quanh đường kính một vòng để tạo thành hình nón.",
+          "fraction": 0
+        },
+        {
+          "text": "Cuộn một hình chữ nhật sao cho hai cạnh đối diện sát vào nhau để tạo thành hình nón.",
+          "fraction": 0
+        },
+        {
+          "text": "Xoay một tam giác đều quanh đường cao một vòng để tạo thành hình nón.",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

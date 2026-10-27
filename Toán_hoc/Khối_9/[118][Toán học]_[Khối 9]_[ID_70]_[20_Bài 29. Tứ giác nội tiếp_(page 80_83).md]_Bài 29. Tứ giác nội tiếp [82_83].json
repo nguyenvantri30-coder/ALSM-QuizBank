@@ -1,0 +1,637 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 26,
+    "metadata_used": {
+      "YCCD_TOAN9_088": 5,
+      "Dấu hiệu nhận biết tứ giác nội tiếp (tổng góc đối bằng 180 độ": 5,
+      "góc ngoài bằng góc đối trong)": 4,
+      "Chứng minh một tứ giác là tứ giác nội tiếp đường tròn": 6,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_TCTH_TUHOC_C2_01": 1,
+      "SUB_GQVD_DEXUAT_C2_02": 1,
+      "NLT_TOAN_C2_01_05": 2,
+      "NLT_TOAN_C2_01_08": 2
+    },
+    "types_used": {
+      "multichoice": 10,
+      "truefalse": 4,
+      "shortanswer": 3,
+      "numerical": 2,
+      "gapselect": 3,
+      "ddwtos": 1,
+      "matching": 2,
+      "calculated": 1
+    },
+    "total": 26
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN9_088",
+        "reason": "Giải thích được định lí về tổng hai góc đối của tứ giác nội tiếp bằng 180°"
+      },
+      {
+        "metadata_code": "Dấu hiệu nhận biết tứ giác nội tiếp (tổng góc đối bằng 180 độ",
+        "reason": "Nhận biết dấu hiệu tứ giác nội tiếp (tổng góc đối bằng 180°)"
+      },
+      {
+        "metadata_code": "góc ngoài bằng góc đối trong)",
+        "reason": "Nhận biết dấu hiệu góc ngoài bằng góc đối trong"
+      },
+      {
+        "metadata_code": "Chứng minh một tứ giác là tứ giác nội tiếp đường tròn",
+        "reason": "Chứng minh một tứ giác là tứ giác nội tiếp đường tròn"
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Luôn cố gắng vươn lên đạt kết quả tốt trong học tập"
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+        "reason": "Tự đặt được mục tiêu học tập để nỗ lực phấn đấu thực hiện"
+      },
+      {
+        "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+        "reason": "Đề xuất được giải pháp giải quyết vấn đề"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_05",
+        "reason": "Thực hiện được việc lập luận hợp lý khi giải quyết vấn đề"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_08",
+        "reason": "Chứng minh được mệnh đề toán học không quá phức tạp"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Nội dung bài học thuần lý thuyết và luyện tập hình học phẳng, không chứa bối cảnh ứng dụng công cụ tin học/số một cách tự nhiên."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học không có bối cảnh kết nối tự nhiên với nguyên lý hoặc ứng dụng trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_088",
+      "questiontext": "Cho tứ giác \\(ABCD\\) nội tiếp đường tròn \\((O)\\). Khẳng định nào sau đây là ĐÚNG về tổng số đo các góc đối nhau của tứ giác?",
+      "generalfeedback": "Theo định lí về tứ giác nội tiếp, trong một tứ giác nội tiếp, tổng số đo hai góc đối nhau bằng \\(180^\\circ\\). Do đó \\(\\widehat{A} + \\widehat{C} = 180^\\circ\\) và \\(\\widehat{B} + \\widehat{D} = 180^\\circ\\).",
+      "answers": [
+        {
+          "text": "\\(\\widehat{A} + \\widehat{C} = 180^\\circ\\) và \\(\\widehat{B} + \\widehat{D} = 180^\\circ\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\widehat{A} + \\widehat{B} = 180^\\circ\\) và \\(\\widehat{C} + \\widehat{D} = 180^\\circ\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\widehat{A} + \\widehat{C} = 90^\\circ\\) và \\(\\widehat{B} + \\widehat{D} = 90^\\circ\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\widehat{A} + \\widehat{B} + \\widehat{C} + \\widehat{D} = 180^\\circ\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_088",
+      "questiontext": "Cho tứ giác \\(MNPQ\\) nội tiếp một đường tròn. Biết số đo góc \\(\\widehat{M} = 75^\\circ\\). Góc đối diện với góc \\(M\\) là góc \\(P\\) có số đo bằng \\(105^\\circ\\). Khẳng định này Đúng hay Sai?",
+      "generalfeedback": "Vì tứ giác \\(MNPQ\\) nội tiếp nên hai góc đối nhau \\(M\\) và \\(P\\) có tổng số đo bằng \\(180^\\circ\\). Ta có \\(\\widehat{P} = 180^\\circ - \\widehat{M} = 180^\\circ - 75^\\circ = 105^\\circ\\). Do đó khẳng định trên là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_088",
+      "questiontext": "Cho tứ giác \\(ABCD\\) nội tiếp đường tròn. Biết \\(\\widehat{A} = 2 \\widehat{C}\\). Tính số đo góc \\(\\widehat{C}\\) (chỉ ghi giá trị số theo đơn vị độ, không ghi ký hiệu độ).",
+      "generalfeedback": "Vì tứ giác \\(ABCD\\) nội tiếp nên \\(\\widehat{A} + \\widehat{C} = 180^\\circ\\). Thay \\(\\widehat{A} = 2 \\widehat{C}\\) vào ta có \\(2 \\widehat{C} + \\widehat{C} = 180^\\circ \\Rightarrow 3 \\widehat{C} = 180^\\circ \\Rightarrow \\widehat{C} = 60^\\circ\\).",
+      "answers": [
+        {
+          "text": "60",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_088",
+      "questiontext": "Cho tứ giác \\(ABCD\\) nội tiếp đường tròn. Số đo các góc \\(A, B, C, D\\) tỉ lệ với các số \\(2; 3; 4; 3\\). Tính số đo góc \\(A\\). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Gọi số đo các góc \\(A, B, C, D\\) lần lượt là \\(2x, 3x, 4x, 3x\\). Vì tứ giác nội tiếp nên góc \\(A\\) và góc \\(C\\) đối nhau, ta có \\(\\widehat{A} + \\widehat{C} = 180^\\circ \\Rightarrow 2x + 4x = 180^\\circ \\Rightarrow 6x = 180^\\circ \\Rightarrow x = 30^\\circ\\). Do đó \\(\\widehat{A} = 2 \\times 30^\\circ = 60^\\circ\\).",
+      "answers": [
+        {
+          "text": "60",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Dấu hiệu nhận biết tứ giác nội tiếp (tổng góc đối bằng 180 độ",
+      "questiontext": "Dấu hiệu nào sau đây là dấu hiệu nhận biết một tứ giác là tứ giác nội tiếp đường tròn?",
+      "generalfeedback": "Một trong các dấu hiệu nhận biết tứ giác nội tiếp là: Tứ giác có tổng hai góc đối bằng \\(180^\\circ\\).",
+      "answers": [
+        {
+          "text": "Tứ giác có tổng hai góc đối bằng \\(180^\\circ\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Tứ giác có hai góc kề một cạnh bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Tứ giác có hai đường chéo vuông góc với nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Tứ giác có hai cạnh đối song song",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Dấu hiệu nhận biết tứ giác nội tiếp (tổng góc đối bằng 180 độ",
+      "questiontext": "Hình chữ nhật có tổng hai góc đối bằng [[1]] nên hình chữ nhật là tứ giác [[2]].",
+      "generalfeedback": "Hình chữ nhật có bốn góc vuông, nên tổng hai góc đối nhau là \\(90^\\circ + 90^\\circ = 180^\\circ\\). Do đó hình chữ nhật luôn là tứ giác nội tiếp.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "180°"
+        },
+        {
+          "group": 1,
+          "text": "nội tiếp"
+        },
+        {
+          "group": 1,
+          "text": "360°"
+        },
+        {
+          "group": 1,
+          "text": "ngoại tiếp"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Dấu hiệu nhận biết tứ giác nội tiếp (tổng góc đối bằng 180 độ",
+      "questiontext": "Mọi hình bình hành đều là tứ giác nội tiếp đường tròn. Khẳng định này Đúng hay Sai?",
+      "generalfeedback": "Khẳng định này Sai. Một hình bình hành chỉ nội tiếp đường tròn khi tổng hai góc đối bằng \\(180^\\circ\\). Vì hai góc đối của hình bình hành bằng nhau nên mỗi góc phải bằng \\(90^\\circ\\), nghĩa là hình bình hành đó phải là hình chữ nhật.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Dấu hiệu nhận biết tứ giác nội tiếp (tổng góc đối bằng 180 độ",
+      "questiontext": "Hình chữ nhật và hình vuông là các tứ giác [[1]]. Đường tròn ngoại tiếp của chúng có tâm là giao điểm của hai [[2]] và bán kính bằng một nửa độ dài đường chéo.",
+      "generalfeedback": "Theo SGK, Hình chữ nhật và hình vuông là các tứ giác nội tiếp. Đường tròn ngoại tiếp của chúng có tâm là giao điểm của hai đường chéo và bán kính bằng một nửa độ dài đường chéo.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "nội tiếp"
+        },
+        {
+          "group": 1,
+          "text": "đường chéo"
+        },
+        {
+          "group": 1,
+          "text": "ngoại tiếp"
+        },
+        {
+          "group": 1,
+          "text": "đường trung trực"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Dấu hiệu nhận biết tứ giác nội tiếp (tổng góc đối bằng 180 độ",
+      "questiontext": "Hãy ghép mỗi hình tứ giác ở cột bên trái với tính chất nội tiếp tương ứng ở cột bên phải:",
+      "generalfeedback": "Hình chữ nhật và hình vuông luôn nội tiếp đường tròn. Hình thang cân luôn nội tiếp đường tròn. Hình thoi thông thường (không phải hình vuông) không nội tiếp đường tròn.",
+      "subquestions": [
+        {
+          "question": "Hình chữ nhật",
+          "answer": "Luôn nội tiếp đường tròn"
+        },
+        {
+          "question": "Hình thang cân",
+          "answer": "Luôn nội tiếp đường tròn"
+        },
+        {
+          "question": "Hình thoi không phải hình vuông",
+          "answer": "Không nội tiếp đường tròn"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "góc ngoài bằng góc đối trong)",
+      "questiontext": "Cho tứ giác \\(ABCD\\) nội tiếp đường tròn \\((O)\\). Gọi \\(x\\) là điểm trên tia đối của tia \\(AB\\). Khẳng định nào sau đây là ĐÚNG về mối quan hệ giữa góc ngoài \\(\\widehat{CBx}\\) và góc trong đối diện \\(\\widehat{ADC}\\)?",
+      "generalfeedback": "Trong một tứ giác nội tiếp, góc ngoài tại một đỉnh bằng góc trong tại đỉnh đối diện. Do đó \\(\\widehat{CBx} = \\widehat{ADC}\\).",
+      "answers": [
+        {
+          "text": "\\(\\widehat{CBx} = \\widehat{ADC}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\widehat{CBx} + \\widehat{ADC} = 180^\\circ\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\widehat{CBx} + \\widehat{ADC} = 90^\\circ\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\widehat{CBx} = 2 \\widehat{ADC}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "góc ngoài bằng góc đối trong)",
+      "questiontext": "Nếu một tứ giác có góc ngoài tại một đỉnh bằng góc trong tại đỉnh [[1]] thì tứ giác đó là tứ giác [[2]].",
+      "generalfeedback": "Theo dấu hiệu nhận biết tứ giác nội tiếp, nếu tứ giác có góc ngoài tại một đỉnh bằng góc trong tại đỉnh đối diện thì tứ giác đó nội tiếp đường tròn.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "đối diện"
+        },
+        {
+          "group": 1,
+          "text": "nội tiếp"
+        },
+        {
+          "group": 1,
+          "text": "kề bù"
+        },
+        {
+          "group": 1,
+          "text": "ngoại tiếp"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "góc ngoài bằng góc đối trong)",
+      "questiontext": "Cho tứ giác \\(ABCD\\) nội tiếp đường tròn. Gọi \\(Ax\\) là tia đối của tia \\(AB\\). Biết góc ngoài \\(\\widehat{DAx} = 85^\\circ\\). Tính số đo góc trong đối diện \\(\\widehat{BCD}\\). (Chỉ điền giá trị số, không ghi đơn vị)",
+      "generalfeedback": "Vì tứ giác \\(ABCD\\) nội tiếp nên góc ngoài tại đỉnh \\(A\\) bằng góc trong tại đỉnh đối diện \\(C\\). Do đó \\(\\widehat{BCD} = \\widehat{DAx} = 85^\\circ\\).",
+      "answers": [
+        {
+          "text": "85",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "góc ngoài bằng góc đối trong)",
+      "questiontext": "Cho tứ giác \\(ABCD\\) có góc ngoài tại đỉnh \\(B\\) bằng \\(110^\\circ\\) và góc đối diện \\(\\widehat{ADC} = 110^\\circ\\). Tứ giác \\(ABCD\\) là tứ giác nội tiếp đường tròn. Khẳng định này Đúng hay Sai?",
+      "generalfeedback": "Vì góc ngoài tại đỉnh \\(B\\) bằng góc trong tại đỉnh đối diện \\(D\\) (cùng bằng \\(110^\\circ\\)) nên tứ giác \\(ABCD\\) là tứ giác nội tiếp. Do đó khẳng định trên là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh một tứ giác là tứ giác nội tiếp đường tròn",
+      "questiontext": "Cho tam giác \\(ABC\\) nhọn có các đường cao \\(BE\\) và \\(CF\\) cắt nhau tại \\(H\\). Tứ giác \\(AEHF\\) là tứ giác nội tiếp vì lí do nào sau đây?",
+      "generalfeedback": "Vì \\(BE \\perp AC\\) nên \\(\\widehat{AEH} = 90^\\circ\\); vì \\(CF \\perp AB\\) nên \\(\\widehat{AFH} = 90^\\circ\\). Tứ giác \\(AEHF\\) có \\(\\widehat{AEH} + \\widehat{AFH} = 180^\\circ\\) nên là tứ giác nội tiếp.",
+      "answers": [
+        {
+          "text": "Có tổng hai góc đối \\(\\widehat{AEH} + \\widehat{AFH} = 90^\\circ + 90^\\circ = 180^\\circ\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Có hai đường chéo \\(AH\\) và \\(EF\\) bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Có bốn cạnh bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Có hai góc kề một cạnh bằng nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh một tứ giác là tứ giác nội tiếp đường tròn",
+      "questiontext": "Cho tam giác \\(ABC\\) nhọn với các đường cao \\(AD, BE, CF\\) cắt nhau tại \\(H\\). Hãy ghép mỗi tứ giác ở cột bên trái với lí do chứng minh tứ giác đó nội tiếp ở cột bên phải:",
+      "generalfeedback": "Dựa vào tính chất đường cao vuông góc với cạnh đối diện, ta suy ra các góc vuông và sử dụng dấu hiệu nhận biết tứ giác nội tiếp.",
+      "subquestions": [
+        {
+          "question": "Tứ giác \\(AEHF\\)",
+          "answer": "Có tổng hai góc đối \\(\\widehat{AEH} + \\widehat{AFH} = 180^\\circ\\)"
+        },
+        {
+          "question": "Tứ giác \\(BCEF\\)",
+          "answer": "Có hai đỉnh \\(E, F\\) cùng nhìn cạnh \\(BC\\) dưới một góc \\(90^\\circ\\)"
+        },
+        {
+          "question": "Tứ giác \\(CDHE\\)",
+          "answer": "Có tổng hai góc đối \\(\\widehat{CDH} + \\widehat{CEH} = 180^\\circ\\)"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Chứng minh một tứ giác là tứ giác nội tiếp đường tròn",
+      "questiontext": "Cho hình chữ nhật \\(ABCD\\) có chiều dài \\(AB =\\) {a} cm và chiều rộng \\(AD =\\) {b} cm. Bán kính \\(R\\) của đường tròn ngoại tiếp hình chữ nhật \\(ABCD\\) được tính theo công thức nào dưới đây?",
+      "generalfeedback": "Đường chéo của hình chữ nhật là \\(BD = \\sqrt{AB^2 + AD^2} = \\sqrt{{a}^2 + {b}^2}\\). Bán kính đường tròn ngoại tiếp bằng nửa đường chéo: \\(R = \\frac{\\sqrt{{a}^2 + {b}^2}}{2}\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 3.0,
+          "max": 12.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 4.0,
+          "max": 16.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "sqrt(pow({a},2)+pow({b},2))/2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Chứng minh một tứ giác là tứ giác nội tiếp đường tròn",
+      "questiontext": "Cho hình chữ nhật \\(ABCD\\) có \\(AB = 6\\) cm và \\(AD = 8\\) cm. Tính bán kính \\(R\\) (theo cm) của đường tròn ngoại tiếp hình chữ nhật \\(ABCD\\). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Đường chéo \\(BD = \\sqrt{AB^2 + AD^2} = \\sqrt{6^2 + 8^2} = 10\\) cm. Bán kính đường tròn ngoại tiếp \\(R = BD / 2 = 10 / 2 = 5\\) cm.",
+      "answers": [
+        {
+          "text": "5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Chứng minh một tứ giác là tứ giác nội tiếp đường tròn",
+      "questiontext": "[img:_page_1_Figure_16.jpeg] Cho tứ giác \\(ABCD\\) nội tiếp đường tròn \\((O)\\) như hình vẽ. Hai đường thẳng \\(AB\\) và \\(DC\\) cắt nhau tại \\(X\\). Biết \\(\\widehat{DAB} = 70^\\circ\\) và \\(\\widehat{ABC} = 130^\\circ\\). Tính số đo góc \\(\\widehat{BXC}\\).",
+      "imgs": [
+        "_page_1_Figure_16.jpeg"
+      ],
+      "generalfeedback": "Vì \\(ABCD\\) nội tiếp nên \\(\\widehat{BCD} = 180^\\circ - \\widehat{DAB} = 110^\\circ\\) và \\(\\widehat{CDA} = 180^\\circ - \\widehat{ABC} = 50^\\circ\\). Trong tam giác \\(AXD\\), \\(\\widehat{BXC} = \\widehat{AXD} = 180^\\circ - \\widehat{DAB} - \\widehat{CDA} = 180^\\circ - 70^\\circ - 50^\\circ = 60^\\circ\\).",
+      "answers": [
+        {
+          "text": "\\(60^\\circ\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(50^\\circ\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(70^\\circ\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(110^\\circ\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Chứng minh một tứ giác là tứ giác nội tiếp đường tròn",
+      "questiontext": "Cho khung cổng hình chữ nhật rộng 4 m và cao 3 m, bên ngoài bao bởi một khung thép dạng nửa đường tròn. Bán kính của nửa đường tròn đó bằng bao nhiêu mét? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Bán kính nửa đường tròn bằng một nửa đường chéo của khung cổng hình chữ nhật: \\(R = \\frac{\\sqrt{4^2 + 3^2}}{2} = \\frac{5}{2} = 2.5\\) m.",
+      "answers": [
+        {
+          "text": "2.5",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong tiết luyện tập về Tứ giác nội tiếp, Nam gặp một bài toán khó về chứng minh tứ giác nội tiếp và chưa tìm ra lời giải ngay. Để thể hiện phẩm chất luôn cố gắng vươn lên đạt kết quả tốt trong học tập, Nam nên chọn hành động nào sau đây?",
+      "generalfeedback": "Hành động tự giác suy nghĩ, xem lại định lí, dấu hiệu nhận biết tứ giác nội tiếp trong SGK và chủ động trao đổi với bạn bè, thầy cô thể hiện tinh thần nỗ lực vươn lên và trách nhiệm với việc học của bản thân.",
+      "answers": [
+        {
+          "text": "Chủ động xem lại định lí, dấu hiệu nhận biết tứ giác nội tiếp trong SGK và trao đổi với bạn bè, thầy cô để tìm hướng giải.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài toán khó và chép lời giải của bạn khác để nộp cho kịp giờ.",
+          "fraction": 0
+        },
+        {
+          "text": "Chờ thầy cô chữa bài rồi chép vào vở mà không cần suy nghĩ thêm.",
+          "fraction": 0
+        },
+        {
+          "text": "Tự trách bản thân không có năng khiếu hình học và bỏ không làm bài tập nữa.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Để học tốt chủ đề Tứ giác nội tiếp trong Tiết 3 - Luyện tập, bạn An tự đặt mục tiêu học tập cho cá nhân mình. Phương án nào sau đây thể hiện mục tiêu học tập đúng đắn và có kế hoạch nỗ lực phấn đấu thực hiện?",
+      "generalfeedback": "Đặt mục tiêu cụ thể (tự giải các bài tập chứng minh tứ giác nội tiếp trong SGK) kèm theo kế hoạch kiên trì rèn luyện là biểu hiện của năng lực tự đặt mục tiêu và nỗ lực thực hiện.",
+      "answers": [
+        {
+          "text": "Tự đặt mục tiêu tự giải thành công các bài tập trong SGK và lập kế hoạch ôn tập kiên trì mỗi ngày.",
+          "fraction": 100
+        },
+        {
+          "text": "Đặt mục tiêu đạt điểm tối đa nhưng không lập kế hoạch làm bài tập hay luyện tập.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ làm bài tập khi có sự giám sát và nhắc nhở từ gia đình hoặc thầy cô.",
+          "fraction": 0
+        },
+        {
+          "text": "Mục tiêu chỉ cần học thuộc lòng câu chữ định nghĩa mà không cần luyện kỹ năng chứng minh.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Khi giải bài toán: Cho tam giác \\(ABC\\) nhọn có các đường cao \\(BE\\) và \\(CF\\) cắt nhau tại \\(H\\). Đề xuất giải pháp nào sau đây là hợp lý nhất để chứng minh tứ giác \\(AEHF\\) nội tiếp?",
+      "generalfeedback": "Giải pháp phân tích các góc vuông \\(\\widehat{AEH} = 90^\\circ\\) và \\(\\widehat{AFH} = 90^\\circ\\) rồi tính tổng hai góc đối \\(\\widehat{AEH} + \\widehat{AFH} = 180^\\circ\\) là giải pháp logic và đúng đắn nhất.",
+      "answers": [
+        {
+          "text": "Nhận biết hai góc vuông \\(\\widehat{AEH} = 90^\\circ\\) và \\(\\widehat{AFH} = 90^\\circ\\), tính tổng hai góc đối bằng \\(180^\\circ\\) để kết luận tứ giác nội tiếp.",
+          "fraction": 100
+        },
+        {
+          "text": "Dùng thước đo độ dài các cạnh \\(AE, EH, HF, FA\\) rồi so sánh.",
+          "fraction": 0
+        },
+        {
+          "text": "Chứng minh hai đường chéo \\(AH\\) và \\(EF\\) bằng nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Giả sử tứ giác \\(AEHF\\) là hình vuông để suy ra tính chất nội tiếp.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_05",
+      "questiontext": "Cho tứ giác \\(ABCD\\) có góc ngoài tại đỉnh \\(A\\) là \\(\\widehat{DAx} = 80^\\circ\\) và góc trong đối diện \\(\\widehat{BCD} = 80^\\circ\\). Lập luận nào sau đây là ĐÚNG và HỢP LÝ để kết luận tứ giác \\(ABCD\\) nội tiếp?",
+      "generalfeedback": "Vì tứ giác có góc ngoài tại một đỉnh bằng góc trong tại đỉnh đối diện (cùng bằng \\(80^\\circ\\)) nên theo dấu hiệu nhận biết, tứ giác \\(ABCD\\) nội tiếp đường tròn.",
+      "answers": [
+        {
+          "text": "Vì góc ngoài tại đỉnh \\(A\\) bằng góc trong tại đỉnh đối diện \\(C\\) (cùng bằng \\(80^\\circ\\)) nên tứ giác \\(ABCD\\) nội tiếp.",
+          "fraction": 100
+        },
+        {
+          "text": "Vì hai góc \\(\\widehat{DAx}\\) và \\(\\widehat{BCD}\\) ở vị trí kề bù nên tứ giác \\(ABCD\\) nội tiếp.",
+          "fraction": 0
+        },
+        {
+          "text": "Vì tổng hai góc \\(\\widehat{DAx} + \\widehat{BCD} = 160^\\circ\\) nên tứ giác \\(ABCD\\) nội tiếp.",
+          "fraction": 0
+        },
+        {
+          "text": "Vì mọi tứ giác có 4 đỉnh đều tự động nội tiếp đường tròn.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_05",
+      "questiontext": "Để lập luận chứng minh hình thang \\(ABCD\\) (\\(AB // CD\\)) nội tiếp đường tròn là hình thang cân, ta thực hiện lập luận: Vì \\(ABCD\\) nội tiếp nên \\(\\widehat{A} + \\widehat{C} = 180^\\circ\\). Mặt khác vì \\(AB // CD\\) nên \\(\\widehat{A} + \\widehat{D} = 180^\\circ\\). Suy ra \\(\\widehat{C} =\\) [[1]]. Hình thang \\(ABCD\\) có hai góc kề một đáy bằng nhau nên là hình thang [[2]].",
+      "generalfeedback": "Từ \\(\\widehat{A} + \\widehat{C} = 180^\\circ\\) và \\(\\widehat{A} + \\widehat{D} = 180^\\circ\\) suy ra \\(\\widehat{C} = \\widehat{D}\\). Hình thang có hai góc kề một đáy bằng nhau là hình thang cân.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(\\widehat{D}\\)"
+        },
+        {
+          "group": 1,
+          "text": "cân"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\widehat{B}\\)"
+        },
+        {
+          "group": 1,
+          "text": "vuông"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_08",
+      "questiontext": "Khẳng định nào sau đây diễn đạt ĐÚNG các bước chứng minh mệnh đề toán học: \"Cho tam giác \\(ABC\\) nhọn có các đường cao \\(BE\\) và \\(CF\\). Tứ giác \\(BCEF\\) là tứ giác nội tiếp\"?",
+      "generalfeedback": "Vì \\(BE \\perp AC \\Rightarrow \\widehat{BEC} = 90^\\circ\\) và \\(CF \\perp AB \\Rightarrow \\widehat{BFC} = 90^\\circ\\). Hai đỉnh \\(E, F\\) cùng nhìn cạnh \\(BC\\) dưới góc \\(90^\\circ\\) nên tứ giác \\(BCEF\\) nội tiếp đường tròn đường kính \\(BC\\).",
+      "answers": [
+        {
+          "text": "Ta có \\(\\widehat{BEC} = 90^\\circ\\) và \\(\\widehat{BFC} = 90^\\circ\\). Hai đỉnh \\(E\\) và \\(F\\) cùng nhìn đoạn \\(BC\\) dưới một góc \\(90^\\circ\\) nên tứ giác \\(BCEF\\) nội tiếp.",
+          "fraction": 100
+        },
+        {
+          "text": "Ta có \\(\\widehat{BEC} + \\widehat{BFC} = 180^\\circ\\) là hai góc đối nhau nên tứ giác \\(BCEF\\) nội tiếp.",
+          "fraction": 0
+        },
+        {
+          "text": "Vì hai đường cao \\(BE\\) và \\(CF\\) cắt nhau nên tứ giác \\(BCEF\\) tự động nội tiếp.",
+          "fraction": 0
+        },
+        {
+          "text": "Vì tam giác \\(ABC\\) nhọn nên tứ giác \\(BCEF\\) là hình chữ nhật, do đó nội tiếp.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_08",
+      "questiontext": "Cho hình thoi \\(ABCD\\) có các cạnh bằng 3 cm. Gọi \\(M, N, P, Q\\) lần lượt là trung điểm của \\(AB, BC, CD, DA\\). Mệnh đề: \"Tứ giác \\(MNPQ\\) là tứ giác nội tiếp\" là mệnh đề ĐÚNG. Khẳng định này Đúng hay Sai?",
+      "generalfeedback": "Mệnh đề này Đúng. Tứ giác \\(MNPQ\\) có các cạnh song song với hai đường chéo \\(AC \\perp BD\\) của hình thoi nên \\(MNPQ\\) có 4 góc vuông, tức là hình chữ nhật. Mọi hình chữ nhật đều là tứ giác nội tiếp.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

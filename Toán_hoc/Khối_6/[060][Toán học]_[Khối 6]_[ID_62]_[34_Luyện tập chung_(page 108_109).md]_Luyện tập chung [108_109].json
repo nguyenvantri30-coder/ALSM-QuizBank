@@ -1,0 +1,714 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 26,
+    "metadata_used": {
+      "YCCD_TOAN6_105": 4,
+      "YCCD_TOAN6_107": 2,
+      "Phân biệt hình có trục đối xứng và hình có tâm đối xứng": 6,
+      "Kiểm tra tính đối xứng trục và đối xứng tâm của các hình phẳng": 8,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TUHOC_C2_04": 1,
+      "SUB_GTHT_XACDINHMD_C2_03": 1,
+      "NLT_TOAN_C2_01_02": 1,
+      "NLT_TOAN_C2_05_01": 1
+    },
+    "types_used": {
+      "multichoice": 13,
+      "truefalse": 4,
+      "numerical": 2,
+      "matching": 1,
+      "shortanswer": 2,
+      "gapselect": 2,
+      "ddwtos": 2
+    },
+    "total": 26
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN6_105",
+        "reason": "Đo lường khả năng nhận biết trục đối xứng của hình phẳng."
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_107",
+        "reason": "Đo lường khả năng nhận biết tâm đối xứng của hình phẳng."
+      },
+      {
+        "metadata_code": "Phân biệt hình có trục đối xứng và hình có tâm đối xứng",
+        "reason": "Đo lường khả năng phân biệt hình có trục đối xứng và hình có tâm đối xứng."
+      },
+      {
+        "metadata_code": "Kiểm tra tính đối xứng trục và đối xứng tâm của các hình phẳng",
+        "reason": "Đo lường kỹ năng kiểm tra, đếm số trục đối xứng, xác định điểm đối xứng và phân tích đặc điểm đối xứng."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đo lường phẩm chất kiên trì, nỗ lực vươn lên đạt kết quả tốt qua tình huống học tập."
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+        "reason": "Đo lường năng lực lưu giữ thông tin có chọn lọc qua bảng tóm tắt đặc điểm đối xứng."
+      },
+      {
+        "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+        "reason": "Đo lường năng lực tiếp nhận văn bản kết hợp hình ảnh biểu tượng logo."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_02",
+        "reason": "Đo lường năng lực quan sát đặc điểm đối xứng trong nhiều tình huống thực tế."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_05_01",
+        "reason": "Đo lường việc nhận biết các công cụ, phương tiện học toán về hình đối xứng."
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_105",
+      "imgs": [
+        "_page_0_Picture_14.jpeg"
+      ],
+      "questiontext": "Trong các hình dưới đây [img:_page_0_Picture_14.jpeg], hình nào **không** có trục đối xứng?",
+      "generalfeedback": "Hình tam giác đều có 3 trục đối xứng, hình trái tim có 1 trục đối xứng, hình cánh diều có 1 trục đối xứng. Hình cánh quạt chỉ có tâm đối xứng, không có trục đối xứng.",
+      "answers": [
+        {
+          "text": "Cánh quạt",
+          "fraction": 100
+        },
+        {
+          "text": "Tam giác đều",
+          "fraction": 0
+        },
+        {
+          "text": "Trái tim",
+          "fraction": 0
+        },
+        {
+          "text": "Cánh diều",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_107",
+      "imgs": [
+        "_page_0_Picture_14.jpeg"
+      ],
+      "questiontext": "Cho các hình phẳng sau [img:_page_0_Picture_14.jpeg]: Tam giác đều, Cánh quạt, Trái tim, Cánh diều. Hình nào có tâm đối xứng?",
+      "generalfeedback": "Hình cánh quạt có tâm đối xứng là giao điểm của các cánh quạt. Tam giác đều, trái tim và cánh diều không có tâm đối xứng.",
+      "answers": [
+        {
+          "text": "Cánh quạt",
+          "fraction": 100
+        },
+        {
+          "text": "Tam giác đều",
+          "fraction": 0
+        },
+        {
+          "text": "Trái tim",
+          "fraction": 0
+        },
+        {
+          "text": "Cánh diều",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Phân biệt hình có trục đối xứng và hình có tâm đối xứng",
+      "imgs": [
+        "_page_1_Picture_13.jpeg"
+      ],
+      "questiontext": "Xét biểu tượng chữ \"SOS\" trong hình dưới đây [img:_page_1_Picture_13.jpeg]. Khẳng định sau đây đúng hay sai: \"Hình chữ SOS có tâm đối xứng nhưng không có trục đối xứng.\"",
+      "generalfeedback": "Khẳng định này đúng. Chữ S có tâm đối xứng (quay 180 độ trùng với chính nó) nhưng không có trục đối xứng. Chữ O có cả tâm đối xứng và trục đối xứng. Khi ghép lại thành từ \"SOS\", tổng thể hình có tâm đối xứng tại tâm chữ O và không có trục đối xứng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Phân biệt hình có trục đối xứng và hình có tâm đối xứng",
+      "imgs": [
+        "_page_1_Picture_14.jpeg"
+      ],
+      "questiontext": "Biểu tượng chữ \"VTV\" trong hình [img:_page_1_Picture_14.jpeg] có đặc điểm đối xứng nào sau đây?",
+      "generalfeedback": "Biểu tượng VTV có 1 trục đối xứng thẳng đứng đi qua trung điểm của chữ T, và không có tâm đối xứng.",
+      "answers": [
+        {
+          "text": "Có trục đối xứng nhưng không có tâm đối xứng",
+          "fraction": 100
+        },
+        {
+          "text": "Có tâm đối xứng nhưng không có trục đối xứng",
+          "fraction": 0
+        },
+        {
+          "text": "Vừa có trục đối xứng vừa có tâm đối xứng",
+          "fraction": 0
+        },
+        {
+          "text": "Không có trục đối xứng và không có tâm đối xứng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "nhan_biet",
+      "metadata_code": "Kiểm tra tính đối xứng trục và đối xứng tâm của các hình phẳng",
+      "imgs": [
+        "_page_0_Picture_3.jpeg"
+      ],
+      "questiontext": "Hình ngôi sao bốn cánh dưới đây [img:_page_0_Picture_3.jpeg] có bao nhiêu trục đối xứng? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Hình ngôi sao bốn cánh có 4 trục đối xứng (2 đường thẳng đi qua các đỉnh đối diện và 2 đường thẳng đi qua các góc lõm đối diện).",
+      "answers": [
+        {
+          "text": "4",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Kiểm tra tính đối xứng trục và đối xứng tâm của các hình phẳng",
+      "imgs": [
+        "_page_1_Picture_1.jpeg",
+        "_page_1_Picture_3.jpeg",
+        "_page_1_Picture_5.jpeg"
+      ],
+      "questiontext": "Hãy ghép mỗi biểu tượng dưới đây với đặc điểm đối xứng tương ứng của nó:\n- Biểu tượng WFP [img:_page_1_Picture_1.jpeg]\n- Biểu tượng SEA Games [img:_page_1_Picture_3.jpeg]\n- Biểu tượng UNESCO [img:_page_1_Picture_5.jpeg]",
+      "generalfeedback": "Biểu tượng WFP không có trục và không có tâm đối xứng. Biểu tượng SEA Games có tâm đối xứng và có các trục đối xứng. Biểu tượng UNESCO có trục đối xứng thẳng đứng và không có tâm đối xứng.",
+      "subquestions": [
+        {
+          "question": "Biểu tượng WFP (Lương thực thế giới)",
+          "answer": "Không có trục đối xứng và không có tâm đối xứng"
+        },
+        {
+          "question": "Biểu tượng SEA Games (Thể thao Đông Nam Á)",
+          "answer": "Có cả trục đối xứng và tâm đối xứng"
+        },
+        {
+          "question": "Biểu tượng UNESCO (Di sản thế giới)",
+          "answer": "Có trục đối xứng nhưng không có tâm đối xứng"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_105",
+      "imgs": [
+        "_page_0_Picture_14.jpeg"
+      ],
+      "questiontext": "Trong hình [img:_page_0_Picture_14.jpeg], tam giác đều có bao nhiêu trục đối xứng?",
+      "generalfeedback": "Tam giác đều có 3 trục đối xứng là 3 đường trung trực của 3 cạnh.",
+      "answers": [
+        {
+          "text": "3",
+          "fraction": 100
+        },
+        {
+          "text": "ba",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Phân biệt hình có trục đối xứng và hình có tâm đối xứng",
+      "imgs": [
+        "_page_0_Picture_7.jpeg"
+      ],
+      "questiontext": "Hình ngôi sao 4 cánh [img:_page_0_Picture_7.jpeg] là hình [[1]] và cũng là hình [[2]].",
+      "generalfeedback": "Hình ngôi sao 4 cánh vừa có 4 trục đối xứng vừa có 1 tâm đối xứng (là giao điểm của các trục đối xứng).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "có trục đối xứng"
+        },
+        {
+          "group": 1,
+          "text": "có tâm đối xứng"
+        },
+        {
+          "group": 1,
+          "text": "không có đối xứng"
+        },
+        {
+          "group": 1,
+          "text": "chỉ có 1 đỉnh"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "Kiểm tra tính đối xứng trục và đối xứng tâm của các hình phẳng",
+      "imgs": [
+        "_page_0_Picture_9.jpeg"
+      ],
+      "questiontext": "Quan sát quy trình gấp và cắt giấy tạo hình ngôi sao 4 cánh [img:_page_0_Picture_9.jpeg]:\nKhi gấp tờ giấy hình vuông theo 2 trục đối xứng [[1]] và trục đối xứng [[2]], ta thu được một hình nhỏ hơn. Sau khi cắt 1 nhát cắt thẳng và mở ra, ta được hình ngôi sao 4 cánh.",
+      "generalfeedback": "Tờ giấy hình vuông ban đầu được gấp theo hai đường trung trực của các cạnh (thẳng đứng và nằm ngang) và các đường chéo để tận dụng tính đối xứng trục.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "thẳng đứng"
+        },
+        {
+          "group": 1,
+          "text": "nằm ngang"
+        },
+        {
+          "group": 1,
+          "text": "hình tròn"
+        },
+        {
+          "group": 1,
+          "text": "bất kỳ"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Kiểm tra tính đối xứng trục và đối xứng tâm của các hình phẳng",
+      "imgs": [
+        "_page_1_Picture_11.jpeg"
+      ],
+      "questiontext": "Cho hình vẽ trên giấy kẻ ô vuông [img:_page_1_Picture_11.jpeg]. Để hoàn thiện hình nhận điểm \\(O\\) làm tâm đối xứng, điểm đối ứng qua \\(O\\) của mỗi điểm trên hình ban đầu được xác định như thế nào?",
+      "generalfeedback": "Điểm \\(A'\\) đối xứng với điểm \\(A\\) qua tâm \\(O\\) sao cho \\(O\\) là trung điểm của đoạn thẳng \\(AA'\\). Do đó \\(OA' = OA\\) và ba điểm \\(A, O, A'\\) thẳng hàng.",
+      "answers": [
+        {
+          "text": "Lấy điểm đối diện sao cho \\(O\\) là trung điểm của đoạn thẳng nối hai điểm đó",
+          "fraction": 100
+        },
+        {
+          "text": "Lấy điểm đối diện qua đường thẳng đi qua \\(O\\) vuông góc với bán kính",
+          "fraction": 0
+        },
+        {
+          "text": "Tịnh tiến hình ban đầu sang bên phải điểm \\(O\\) 5 ô vuông",
+          "fraction": 0
+        },
+        {
+          "text": "Gấp hình theo đường nằm ngang đi qua điểm \\(O\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_105",
+      "imgs": [],
+      "questiontext": "Trong các hình sau đây: Hình chữ nhật, Hình bình hành (không phải hình chữ nhật), Hình thoi (không phải hình vuông), Hình thang cân. Hình nào **không** có trục đối xứng?",
+      "generalfeedback": "Hình bình hành nói chung không có trục đối xứng. Hình chữ nhật có 2 trục đối xứng, hình thoi có 2 trục đối xứng, hình thang cân có 1 trục đối xứng.",
+      "answers": [
+        {
+          "text": "Hình bình hành",
+          "fraction": 100
+        },
+        {
+          "text": "Hình chữ nhật",
+          "fraction": 0
+        },
+        {
+          "text": "Hình thoi",
+          "fraction": 0
+        },
+        {
+          "text": "Hình thang cân",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_107",
+      "imgs": [],
+      "questiontext": "Khẳng định sau đây đúng hay sai: \"Hình lục giác đều vừa có trục đối xứng vừa có tâm đối xứng.\"",
+      "generalfeedback": "Hình lục giác đều có 6 trục đối xứng và 1 tâm đối xứng (là giao điểm của các đường chéo chính).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Kiểm tra tính đối xứng trục và đối xứng tâm của các hình phẳng",
+      "imgs": [
+        "_page_0_Picture_7.jpeg"
+      ],
+      "questiontext": "Quan sát hình ngôi sao 4 cánh [img:_page_0_Picture_7.jpeg]. Nếu quay hình này xung quanh tâm đối xứng của nó một góc \\(90^\\circ\\) theo chiều kim đồng hồ thì hình thu được trùng với hình ban đầu. Trong một vòng quay toàn phần (\\(360^\\circ\\)), có bao nhiêu vị trí góc quay (tính cả \\(0^\\circ\\)) mà hình ngôi sao trùng khớp hoàn toàn với vị trí ban đầu? (Điền số tự nhiên)",
+      "generalfeedback": "Hình ngôi sao 4 cánh có tính đối xứng quay cấp 4, tương ứng với các góc quay 0°, 90°, 180°, 270°. Do đó có 4 vị trí trùng khớp.",
+      "answers": [
+        {
+          "text": "4",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Phân biệt hình có trục đối xứng và hình có tâm đối xứng",
+      "imgs": [
+        "_page_1_Picture_5.jpeg"
+      ],
+      "questiontext": "Biểu tượng Di sản Thế giới UNESCO [img:_page_1_Picture_5.jpeg] gợi liên tưởng đến hình vuông bên trong hình tròn. Biểu tượng này có đặc điểm đối xứng nào sau đây?",
+      "generalfeedback": "Biểu tượng UNESCO có 1 trục đối xứng thẳng đứng chia đôi biểu tượng và không có tâm đối xứng.",
+      "answers": [
+        {
+          "text": "Có 1 trục đối xứng thẳng đứng và không có tâm đối xứng",
+          "fraction": 100
+        },
+        {
+          "text": "Có tâm đối xứng và 4 trục đối xứng",
+          "fraction": 0
+        },
+        {
+          "text": "Không có trục đối xứng nhưng có tâm đối xứng",
+          "fraction": 0
+        },
+        {
+          "text": "Không có trục đối xứng và không có tâm đối xứng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Kiểm tra tính đối xứng trục và đối xứng tâm của các hình phẳng",
+      "imgs": [],
+      "questiontext": "Hình tròn có bao nhiêu trục đối xứng?",
+      "generalfeedback": "Mọi đường thẳng đi qua tâm của hình tròn đều là trục đối xứng của hình tròn đó, do đó hình tròn có vô số trục đối xứng.",
+      "answers": [
+        {
+          "text": "vô số",
+          "fraction": 100
+        },
+        {
+          "text": "vo so",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Phân biệt hình có trục đối xứng và hình có tâm đối xứng",
+      "imgs": [
+        "_page_1_Picture_3.jpeg"
+      ],
+      "questiontext": "Biểu tượng Đại hội Thể thao Đông Nam Á (SEA Games) [img:_page_1_Picture_3.jpeg] gồm các vòng tròn lồng vào nhau tạo thành một hình có [[1]] tại tâm của biểu tượng và có các [[2]] đi qua tâm.",
+      "generalfeedback": "Biểu tượng SEA Games gồm các vòng tròn xếp đối xứng xung quanh một tâm, tạo nên cả tâm đối xứng và các trục đối xứng.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "tâm đối xứng"
+        },
+        {
+          "group": 1,
+          "text": "trục đối xứng"
+        },
+        {
+          "group": 1,
+          "text": "bán kính"
+        },
+        {
+          "group": 1,
+          "text": "đường chéo"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "Kiểm tra tính đối xứng trục và đối xứng tâm của các hình phẳng",
+      "imgs": [
+        "_page_1_Picture_11.jpeg"
+      ],
+      "questiontext": "Để hoàn thiện hình vẽ trên giấy kẻ ô vuông [img:_page_1_Picture_11.jpeg] sao cho hình nhận điểm \\(O\\) làm tâm đối xứng, nếu điểm \\(A\\) nằm ở vị trí trên cùng bên trái (cách \\(O\\) 3 ô sang trái và 2 ô lên trên), thì điểm \\(A'\\) đối xứng với \\(A\\) qua \\(O\\) sẽ nằm ở vị trí cách \\(O\\) [[1]] ô sang phải và [[2]] ô xuống dưới.",
+      "generalfeedback": "Điểm đối xứng qua tâm O sẽ đổi hướng cả theo chiều ngang và chiều đứng: 3 ô sang trái chuyển thành 3 ô sang phải; 2 ô lên trên chuyển thành 2 ô xuống dưới.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "3"
+        },
+        {
+          "group": 1,
+          "text": "2"
+        },
+        {
+          "group": 1,
+          "text": "5"
+        },
+        {
+          "group": 1,
+          "text": "0"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_105",
+      "imgs": [],
+      "questiontext": "Trong các chữ cái in hoa sau đây: **A, H, M, Y**, chữ cái nào vừa có trục đối xứng thẳng đứng vừa có tâm đối xứng?",
+      "generalfeedback": "Chữ H in hoa nét chuẩn có 1 trục đối xứng thẳng đứng, 1 trục đối xứng nằm ngang và 1 tâm đối xứng. Các chữ A, M, Y chỉ có 1 trục đối xứng thẳng đứng, không có tâm đối xứng.",
+      "answers": [
+        {
+          "text": "H",
+          "fraction": 100
+        },
+        {
+          "text": "A",
+          "fraction": 0
+        },
+        {
+          "text": "M",
+          "fraction": 0
+        },
+        {
+          "text": "Y",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Phân biệt hình có trục đối xứng và hình có tâm đối xứng",
+      "imgs": [],
+      "questiontext": "Khẳng định sau đây đúng hay sai: \"Giao điểm hai đường chéo của hình chữ nhật là tâm đối xứng của hình chữ nhật đó.\"",
+      "generalfeedback": "Khẳng định đúng. Giao điểm của hai đường chéo hình chữ nhật chia mỗi đường chéo thành hai phần bằng nhau, do đó là tâm đối xứng của hình chữ nhật.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Kiểm tra tính đối xứng trục và đối xứng tâm của các hình phẳng",
+      "imgs": [
+        "_page_0_Picture_9.jpeg"
+      ],
+      "questiontext": "Trong hoạt động thực hành gấp và cắt giấy tạo hình ngôi sao 4 cánh [img:_page_0_Picture_9.jpeg], sau khi đã gấp tờ giấy làm tư theo các trục đối xứng, đường cắt thẳng được thực hiện nối hai điểm trên hai cạnh gấp. Tính chất đối xứng nào giúp tạo ra 4 cánh ngôi sao giống hệt nhau chỉ với 1 nhát cắt?",
+      "generalfeedback": "Khi gấp tờ giấy làm 4 theo hai trục đối xứng vuông góc, nhát cắt qua cả 4 lớp giấy sẽ tạo ra 4 vết cắt đối xứng với nhau qua hai trục, cho ra hình ngôi sao 4 cánh hoàn chỉnh khi mở ra.",
+      "answers": [
+        {
+          "text": "Đối xứng trục qua 2 đường gấp vuông góc nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Đối xứng tịnh tiến theo phương nằm ngang",
+          "fraction": 0
+        },
+        {
+          "text": "Phép quay góc 45 độ quanh tâm tờ giấy",
+          "fraction": 0
+        },
+        {
+          "text": "Tính chất không đối xứng của hình vuông",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "imgs": [
+        "_page_0_Picture_9.jpeg"
+      ],
+      "questiontext": "Khi thực hành gấp và cắt giấy tạo hình ngôi sao 4 cánh theo hướng dẫn [img:_page_0_Picture_9.jpeg], bạn An gấp giấy chưa miết kỹ các nếp gấp làm cho sản phẩm khi cắt ra bị lệch, các cánh ngôi sao không đối xứng. Để thể hiện sự kiên nhẫn và nỗ lực vươn lên đạt kết quả tốt trong học tập, bạn An nên xử lý như thế nào?",
+      "generalfeedback": "Thái độ tích cực, vươn lên trong học tập thể hiện qua việc không nản lòng khi gặp thất bại, biết phân tích nguyên nhân (xác định các trục đối xứng và miết phẳng nếp gấp) để làm lại sản phẩm hoàn chỉnh hơn.",
+      "answers": [
+        {
+          "text": "Xem lại các trục đối xứng, miết phẳng cẩn thận từng nếp gấp và thực hành cắt lại từ đầu để có sản phẩm đối xứng hoàn chỉnh",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua lỗi lệch và nộp ngay sản phẩm chưa đối xứng cho giáo viên",
+          "fraction": 0
+        },
+        {
+          "text": "Mượn ngay sản phẩm của bạn bên cạnh để nộp lấy điểm cao",
+          "fraction": 0
+        },
+        {
+          "text": "Dừng không làm bài nữa vì cho rằng việc gấp giấy đối xứng quá khó",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "imgs": [
+        "_page_0_Picture_14.jpeg"
+      ],
+      "questiontext": "Để lưu giữ thông tin học tập bài 'Luyện tập chung' một cách có chọn lọc và ngắn gọn, bạn Bình lập bảng tóm tắt đặc điểm đối xứng của các hình phẳng trong SGK [img:_page_0_Picture_14.jpeg]. Cách ghi tóm tắt nào sau đây là khoa học và chính xác nhất?",
+      "generalfeedback": "Lưu giữ thông tin có chọn lọc bằng bản tóm tắt từ khóa/số liệu giúp cô đọng kiến thức cốt lõi: Tam giác đều (3 trục ĐX, 0 tâm ĐX), Cánh quạt (0 trục ĐX, 1 tâm ĐX), Trái tim (1 trục ĐX, 0 tâm ĐX), Cánh diều (1 trục ĐX, 0 tâm ĐX).",
+      "answers": [
+        {
+          "text": "Tam giác đều (3 trục ĐX, 0 tâm ĐX); Cánh quạt (0 trục ĐX, 1 tâm ĐX); Trái tim (1 trục ĐX, 0 tâm ĐX); Cánh diều (1 trục ĐX, 0 tâm ĐX)",
+          "fraction": 100
+        },
+        {
+          "text": "Tất cả các hình trên đều có cả trục đối xứng và tâm đối xứng",
+          "fraction": 0
+        },
+        {
+          "text": "Tam giác đều và Cánh quạt có cùng số trục đối xứng; Trái tim và Cánh diều có cùng tâm đối xứng",
+          "fraction": 0
+        },
+        {
+          "text": "Cánh quạt có 4 trục đối xứng; Tam giác đều có 1 tâm đối xứng tại đỉnh",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "imgs": [
+        "_page_1_Picture_1.jpeg",
+        "_page_1_Picture_3.jpeg",
+        "_page_1_Picture_5.jpeg"
+      ],
+      "questiontext": "Đọc đoạn văn bản thông tin sau kết hợp quan sát hình ảnh các logo [img:_page_1_Picture_1.jpeg] [img:_page_1_Picture_3.jpeg] [img:_page_1_Picture_5.jpeg]:\n'Các tổ chức và sự kiện quốc tế thường dùng biểu tượng (logo) mang tính đối xứng để thể hiện thông điệp. Biểu tượng WFP [img:_page_1_Picture_1.jpeg] mang hình bông lúa và bàn tay; biểu tượng SEA Games [img:_page_1_Picture_3.jpeg] gồm các vòng tròn liên kết xoay tròn; biểu tượng UNESCO [img:_page_1_Picture_5.jpeg] có dạng kiến trúc cân đối.'\nDựa vào việc tiếp nhận thông tin kết hợp giữa văn bản và hình ảnh, biểu tượng nào thể hiện tính đối xứng tâm đại diện cho sự gắn kết xoay tròn liên tục?",
+      "generalfeedback": "Quan sát và tiếp nhận thông tin kết hợp cho thấy biểu tượng SEA Games [img:_page_1_Picture_3.jpeg] được thiết kế từ các vòng tròn đối xứng quay quanh một tâm, thể hiện sự đoàn kết liên tục.",
+      "answers": [
+        {
+          "text": "Biểu tượng Đại hội Thể thao Đông Nam Á (SEA Games)",
+          "fraction": 100
+        },
+        {
+          "text": "Biểu tượng Chương trình Lương thực Thế giới (WFP)",
+          "fraction": 0
+        },
+        {
+          "text": "Biểu tượng Di sản Thế giới (UNESCO)",
+          "fraction": 0
+        },
+        {
+          "text": "Cả ba biểu tượng WFP, SEA Games và UNESCO",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_02",
+      "imgs": [
+        "_page_1_Picture_13.jpeg",
+        "_page_1_Picture_14.jpeg"
+      ],
+      "questiontext": "Quan sát hai biểu tượng truyền thông thực tế là chữ 'SOS' [img:_page_1_Picture_13.jpeg] và chữ 'VTV' [img:_page_1_Picture_14.jpeg]. Kết quả phân tích quan sát nào sau đây thể hiện đúng nhất sự khác biệt về tính đối xứng giữa hai biểu tượng này?",
+      "generalfeedback": "Kỹ năng quan sát trong nhiều tình huống giúp nhận ra: Biểu tượng SOS có tâm đối xứng (quay 180 độ trùng chính nó) nhưng không có trục đối xứng. Biểu tượng VTV có 1 trục đối xứng thẳng đứng nhưng không có tâm đối xứng.",
+      "answers": [
+        {
+          "text": "Chữ SOS có tâm đối xứng nhưng không có trục đối xứng; chữ VTV có trục đối xứng thẳng đứng nhưng không có tâm đối xứng",
+          "fraction": 100
+        },
+        {
+          "text": "Chữ SOS chỉ có trục đối xứng nằm ngang; chữ VTV chỉ có tâm đối xứng",
+          "fraction": 0
+        },
+        {
+          "text": "Cả hai chữ SOS và VTV đều vừa có trục đối xứng vừa có tâm đối xứng",
+          "fraction": 0
+        },
+        {
+          "text": "Cả hai chữ SOS và VTV đều không có tính đối xứng nào",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "NLT_TOAN_C2_05_01",
+      "imgs": [],
+      "questiontext": "Để thực hiện các hoạt động học tập trong bài 'Luyện tập chung' về tính đối xứng (gấp cắt giấy tạo hình ngôi sao, vẽ hình đối xứng qua trục và qua tâm), học sinh cần sử dụng nhóm công cụ và phương tiện học toán nào sau đây?",
+      "generalfeedback": "Các phương tiện học toán cần thiết cho bài học đối xứng gồm: Giấy kẻ ô vuông (dùng để vẽ hình đối xứng), thước thẳng (dùng để xác định trục đối xứng và khoảng cách), kéo và giấy màu (dùng thực hành gấp cắt hình đối xứng).",
+      "answers": [
+        {
+          "text": "Giấy kẻ ô vuông, thước thẳng, kéo cắt giấy và mô hình/hình ảnh phẳng",
+          "fraction": 100
+        },
+        {
+          "text": "Compa, thước đo góc và máy tính cầm tay",
+          "fraction": 0
+        },
+        {
+          "text": "Thước cuộn, cân đĩa và đồng hồ bấm giờ",
+          "fraction": 0
+        },
+        {
+          "text": "Quả địa cầu, kính hiển vi và ống nghiệm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "imgs": [],
+      "questiontext": "Khẳng định sau đây về thái độ học tập đúng hay sai: 'Khi vẽ hình đối xứng qua tâm \\(O\\) trên giấy kẻ ô vuông bị sai lệch ô, bạn Nam quyết định tẩy đi, đếm lại số ô vuông cẩn thận từ tâm \\(O\\) đến từng đỉnh để hoàn thành bài vẽ chính xác. Đây là biểu hiện của phẩm chất luôn cố gắng vươn lên đạt kết quả tốt trong học tập.'",
+      "generalfeedback": "Khẳng định này ĐÚNG. Sự cẩn thận, kiên trì sửa sai và kiểm tra lại theo đúng phương pháp toán học là biểu hiện rõ nét của phẩm chất luôn cố gắng vươn lên đạt kết quả tốt.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

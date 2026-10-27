@@ -1,0 +1,736 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 30,
+    "metadata_used": {
+      "YCCD_TOAN6_120": 3,
+      "Định nghĩa trung điểm M của đoạn thẳng AB (M nằm giữa A": 3,
+      "B và MA = MB = AB/2)": 1,
+      "Nhận biết trung điểm của đoạn thẳng": 3,
+      "Tính độ dài đoạn thẳng dựa vào trung điểm": 10,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TUHOC_C2_04": 2,
+      "SUB_GTHT_XACDINHMD_C2_03": 2,
+      "NLT_TOAN_C2_01_02": 2,
+      "NLT_TOAN_C2_05_01": 2
+    },
+    "types_used": {
+      "multichoice": 10,
+      "truefalse": 4,
+      "gapselect": 3,
+      "numerical": 6,
+      "ddwtos": 1,
+      "matching": 2,
+      "calculated": 1,
+      "calculatedsimple": 1,
+      "calculatedmulti": 1,
+      "shortanswer": 1
+    },
+    "total": 30
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN6_120",
+        "reason": "Nhận biết được khái niệm trung điểm của đoạn thẳng"
+      },
+      {
+        "metadata_code": "Định nghĩa trung điểm M của đoạn thẳng AB (M nằm giữa A",
+        "reason": "Định nghĩa trung điểm M của đoạn thẳng AB (M nằm giữa A, B và MA = MB)"
+      },
+      {
+        "metadata_code": "B và MA = MB = AB/2)",
+        "reason": "Công thức MA = MB = AB/2"
+      },
+      {
+        "metadata_code": "Nhận biết trung điểm của đoạn thẳng",
+        "reason": "Nhận biết trung điểm của đoạn thẳng"
+      },
+      {
+        "metadata_code": "Tính độ dài đoạn thẳng dựa vào trung điểm",
+        "reason": "Tính độ dài đoạn thẳng dựa vào trung điểm"
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Luôn cố gắng vươn lên đạt kết quả tốt trong học tập"
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+        "reason": "Lưu giữ thông tin có chọn lọc bằng ghi tóm tắt, bằng bản đồ khái niệm, bảng, các từ khoá"
+      },
+      {
+        "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+        "reason": "Tiếp nhận được các văn bản về những vấn đề đơn giản của đời sống, khoa học, nghệ thuật, có sử dụng ngôn ngữ kết hợp với biểu đồ, số liệu, công thức, kí hiệu, hình ảnh"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_02",
+        "reason": "Biết quan sát trong nhiều tình huống"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_05_01",
+        "reason": "Nhận biết được tên gọi của các công cụ, phương tiện học toán"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Nội dung bài học 'Trung điểm của đoạn thẳng' ở Lớp 6 thuần túy là hình học trực quan cơ bản, không chứa nội dung sử dụng phần mềm tin học hay công cụ số để không gượng ép."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học mang tính nền tảng hình học Lớp 6, không liên quan tự nhiên đến các thuật toán hay ứng dụng Trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_120",
+      "questiontext": "Nếu điểm \\(I\\) nằm giữa hai điểm \\(A\\) và \\(B\\) sao cho \\(IA = IB\\) thì điểm \\(I\\) được gọi là gì của đoạn thẳng \\(AB\\)?",
+      "generalfeedback": "Theo định nghĩa trong SGK, nếu điểm \\(I\\) nằm giữa hai điểm \\(A\\) và \\(B\\) sao cho \\(IA = IB\\) thì \\(I\\) được gọi là trung điểm của đoạn thẳng \\(AB\\).",
+      "answers": [
+        {
+          "text": "Trung điểm của đoạn thẳng \\(AB\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Điểm bất kỳ của đoạn thẳng \\(AB\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Đầu mút của đoạn thẳng \\(AB\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Trung trực của đường thẳng \\(AB\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Định nghĩa trung điểm M của đoạn thẳng AB (M nằm giữa A",
+      "questiontext": "Điểm \\(M\\) là trung điểm của đoạn thẳng \\(AB\\) khi và chỉ khi \\(M\\) nằm giữa hai điểm \\(A, B\\) và \\(MA = MB\\). Đúng hay Sai?",
+      "generalfeedback": "Đúng. Đây là định nghĩa trung điểm của đoạn thẳng được nêu trong bài học.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Định nghĩa trung điểm M của đoạn thẳng AB (M nằm giữa A",
+      "questiontext": "Nếu điểm \\(I\\) là trung điểm của đoạn thẳng \\(AB\\) thì điểm \\(I\\) [[1]] hai điểm \\(A\\) và \\(B\\), đồng thời khoảng cách \\(IA\\) [[2]] khoảng cách \\(IB\\).",
+      "generalfeedback": "Trung điểm \\(I\\) của đoạn thẳng \\(AB\\) nằm giữa hai điểm \\(A, B\\) và cách đều hai điểm đó (\\(IA = IB\\)).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "nằm giữa"
+        },
+        {
+          "group": 1,
+          "text": "nằm ngoài"
+        },
+        {
+          "group": 1,
+          "text": "bằng"
+        },
+        {
+          "group": 1,
+          "text": "gấp đôi"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "B và MA = MB = AB/2)",
+      "questiontext": "Nếu \\(M\\) là trung điểm của đoạn thẳng \\(AB\\), công thức nào sau đây thể hiện đúng mối quan hệ giữa các độ dài \\(AM\\), \\(MB\\) và \\(AB\\)?",
+      "generalfeedback": "Công thức tính độ dài các đoạn thẳng do trung điểm \\(M\\) tạo ra là \\(AM = MB = AB/2\\).",
+      "answers": [
+        {
+          "text": "\\(AM = MB = \\frac{AB}{2}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(AM = MB = 2AB\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(AM = MB = AB - 2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(AM = MB = AB + 2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết trung điểm của đoạn thẳng",
+      "imgs": [
+        "_page_0_Figure_23.jpeg"
+      ],
+      "questiontext": "[img:_page_0_Figure_23.jpeg]\nQuan sát Hình 8.39 (SGK), khẳng định nào sau đây là đúng về các điểm \\(I, J, K\\)?",
+      "generalfeedback": "Dùng thước đo ta thấy điểm \\(I\\) nằm giữa \\(A, B\\) và \\(IA = IB\\) nên \\(I\\) là trung điểm của \\(AB\\). Điểm \\(J\\) và \\(K\\) không chia đều đoạn thẳng tương ứng.",
+      "answers": [
+        {
+          "text": "Điểm \\(I\\) là trung điểm của đoạn thẳng \\(AB\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Điểm \\(J\\) là trung điểm của đoạn thẳng \\(CD\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Điểm \\(K\\) là trung điểm của đoạn thẳng \\(EF\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Cả ba điểm \\(I, J, K\\) đều là trung điểm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính độ dài đoạn thẳng dựa vào trung điểm",
+      "imgs": [
+        "_page_1_Picture_2.jpeg"
+      ],
+      "questiontext": "[img:_page_1_Picture_2.jpeg]\nCho đoạn thẳng \\(AB\\) dài \\(4\\text{ cm}\\) như Hình 8.40. Gọi \\(M\\) là trung điểm của đoạn thẳng \\(AB\\). Tính độ dài đoạn thẳng \\(AM\\) theo đơn vị cm. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Vì \\(M\\) là trung điểm của \\(AB\\) nên \\(AM = AB / 2 = 4 / 2 = 2\\text{ (cm)}\\).",
+      "answers": [
+        {
+          "text": "2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính độ dài đoạn thẳng dựa vào trung điểm",
+      "questiontext": "Cho đoạn thẳng \\(PQ\\) dài \\(12\\) đơn vị. Gọi \\(E\\) là trung điểm của đoạn thẳng \\(PQ\\) và \\(F\\) là trung điểm của đoạn thẳng \\(PE\\). Tính độ dài đoạn thẳng \\(EF\\). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Vì \\(E\\) là trung điểm \\(PQ\\) nên \\(PE = PQ / 2 = 12 / 2 = 6\\). Vì \\(F\\) là trung điểm \\(PE\\) nên \\(EF = PE / 2 = 6 / 2 = 3\\).",
+      "answers": [
+        {
+          "text": "3",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "Tính độ dài đoạn thẳng dựa vào trung điểm",
+      "questiontext": "Cho đoạn thẳng \\(AB\\) dài \\(10\\text{ cm}\\). Nếu \\(I\\) là trung điểm của \\(AB\\) thì độ dài đoạn thẳng \\(AI\\) bằng [[1]] cm và độ dài đoạn thẳng \\(IB\\) bằng [[1]] cm.",
+      "generalfeedback": "Vì \\(I\\) là trung điểm của \\(AB\\) nên \\(AI = IB = AB / 2 = 10 / 2 = 5\\text{ cm}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "5"
+        },
+        {
+          "group": 1,
+          "text": "10"
+        },
+        {
+          "group": 1,
+          "text": "2.5"
+        },
+        {
+          "group": 1,
+          "text": "20"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_120",
+      "questiontext": "Ghép mỗi tình huống/điều kiện ở cột trái với thông tin/kết luận tương ứng ở cột phải:",
+      "generalfeedback": "Thanh gỗ 3 m gắn trục chính giữa có điểm gắn cách 2 đầu 1,5 m; I nằm giữa A và B với IA = IB thì I là trung điểm của AB; M là trung điểm AB dài 8 cm thì AM = MB = 4 cm.",
+      "subquestions": [
+        {
+          "question": "Điểm gắn trục ở chính giữa thanh gỗ bập bênh dài 3 m",
+          "answer": "Cách hai đầu thanh gỗ 1,5 m"
+        },
+        {
+          "question": "Điểm I nằm giữa A và B sao cho IA = IB",
+          "answer": "I là trung điểm của đoạn thẳng AB"
+        },
+        {
+          "question": "M là trung điểm của đoạn thẳng AB dài 8 cm",
+          "answer": "AM = MB = 4 cm"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Tính độ dài đoạn thẳng dựa vào trung điểm",
+      "questiontext": "Cho đoạn thẳng \\(AB\\) có độ dài bằng {a} cm. Gọi \\(M\\) là trung điểm của đoạn thẳng \\(AB\\). Tính độ dài đoạn thẳng \\(AM\\) theo đơn vị cm. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Độ dài đoạn thẳng \\(AM\\) được tính bằng công thức \\(AM = AB / 2 = {a} / 2\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 20.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}/2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Tính độ dài đoạn thẳng dựa vào trung điểm",
+      "questiontext": "Cho điểm \\(M\\) là trung điểm của đoạn thẳng \\(AB\\). Biết \\(AM =\\) {a} cm. Tính độ dài đoạn thẳng \\(AB\\) theo đơn vị cm. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Vì \\(M\\) là trung điểm của \\(AB\\) nên \\(AB = 2 \\times AM = 2 \\times {a}\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 15.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "Tính độ dài đoạn thẳng dựa vào trung điểm",
+      "questiontext": "Cho đoạn thẳng \\(AB =\\) {a} cm và điểm \\(I\\) là trung điểm của \\(AB\\). Khẳng định nào sau đây là đúng về độ dài \\(AI\\)?",
+      "generalfeedback": "Độ dài đoạn thẳng \\(AI = AB / 2 = {a} / 2\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 4.0,
+          "max": 20.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}/2",
+          "fraction": 100
+        },
+        {
+          "text": "{a}*2",
+          "fraction": 0
+        },
+        {
+          "text": "{a}+2",
+          "fraction": 0
+        },
+        {
+          "text": "{a}-2",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_120",
+      "questiontext": "Một sợi dây dài \\(120\\text{ cm}\\) được gấp đôi lại sao cho hai đầu sợi dây trùng nhau. Đánh dấu điểm \\(A\\) là chỗ bị gấp. Điểm \\(A\\) đóng vai trò gì đối với sợi dây?",
+      "generalfeedback": "Khi gấp đôi sợi dây sao cho hai đầu trùng nhau, điểm gấp \\(A\\) cách đều hai đầu sợi dây và nằm ở giữa, do đó \\(A\\) là trung điểm của sợi dây.",
+      "answers": [
+        {
+          "text": "Là trung điểm của sợi dây",
+          "fraction": 100
+        },
+        {
+          "text": "Là một đầu mút của sợi dây",
+          "fraction": 0
+        },
+        {
+          "text": "Là điểm nằm ngoài sợi dây",
+          "fraction": 0
+        },
+        {
+          "text": "Là điểm chia sợi dây thành hai phần không bằng nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính độ dài đoạn thẳng dựa vào trung điểm",
+      "questiontext": "Một sợi dây dài \\(120\\text{ cm}\\). Gấp đôi sợi dây lại để hai đầu sợi dây trùng nhau và đánh dấu điểm \\(A\\) tại chỗ bị gấp. Khoảng cách từ điểm \\(A\\) đến mỗi đầu sợi dây là bao nhiêu cm? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Khoảng cách từ điểm \\(A\\) đến mỗi đầu sợi dây bằng \\(120 / 2 = 60\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "60",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính độ dài đoạn thẳng dựa vào trung điểm",
+      "questiontext": "Vòng quay mặt trời trong một khu vui chơi có điểm cao nhất là \\(60\\text{ m}\\), điểm thấp nhất là \\(6\\text{ m}\\) (so với mặt đất). Trục của vòng quay nằm ở độ cao bao nhiêu mét so với mặt đất? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Trục của vòng quay là trung điểm của khoảng cách giữa điểm cao nhất và điểm thấp nhất. Độ cao của trục so với mặt đất là \\((60 + 6) / 2 = 66 / 2 = 33\\text{ m}\\).",
+      "answers": [
+        {
+          "text": "33",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết trung điểm của đoạn thẳng",
+      "imgs": [
+        "_page_1_Picture_17.jpeg"
+      ],
+      "questiontext": "[img:_page_1_Picture_17.jpeg]\nQuan sát hình vẽ (Bài 8.15 SGK). Dùng thước kiểm tra, hãy cho biết điểm \\(E\\) có phải là trung điểm của đoạn thẳng \\(AC\\) hay không? (Trả lời \"Có\" hoặc \"Không\")",
+      "generalfeedback": "Dùng thước đo ta thấy điểm \\(E\\) nằm giữa \\(A, C\\) và \\(EA = EC\\) nên \\(E\\) là trung điểm của đoạn thẳng \\(AC\\). Đáp án đúng là \"Có\".",
+      "answers": [
+        {
+          "text": "Có",
+          "fraction": 100
+        },
+        {
+          "text": "có",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính độ dài đoạn thẳng dựa vào trung điểm",
+      "questiontext": "Cho đoạn thẳng \\(AB\\) có trung điểm \\(I\\) nằm cách mút \\(A\\) một khoảng bằng \\(4,5\\text{ cm}\\). Tính độ dài của đoạn thẳng \\(AB\\) theo đơn vị cm. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Vì \\(I\\) là trung điểm của \\(AB\\) nên \\(AB = 2 \\times IA = 2 \\times 4,5 = 9\\text{ (cm)}\\).",
+      "answers": [
+        {
+          "text": "9",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính độ dài đoạn thẳng dựa vào trung điểm",
+      "imgs": [
+        "_page_1_Picture_22.jpeg"
+      ],
+      "questiontext": "[img:_page_1_Picture_22.jpeg]\nCho hình vẽ. Biết \\(C\\) là trung điểm của đoạn thẳng \\(AB\\), \\(D\\) là trung điểm của đoạn thẳng \\(AC\\). Biết rằng \\(CD = 2\\text{ cm}\\), hãy tính độ dài đoạn thẳng \\(AB\\) theo đơn vị cm. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Vì \\(D\\) là trung điểm của \\(AC\\) nên \\(AC = 2 \\times CD = 2 \\times 2 = 4\\text{ cm}\\). Vì \\(C\\) là trung điểm của \\(AB\\) nên \\(AB = 2 \\times AC = 2 \\times 4 = 8\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "8",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết trung điểm của đoạn thẳng",
+      "questiontext": "Để tìm điểm chính giữa (trung điểm) của một cây gậy bằng một sợi dây đủ dài, ta có thể dùng sợi dây đo chiều dài cây gậy rồi gấp đôi đoạn dây đó lại để xác định trung điểm. Đúng hay Sai?",
+      "generalfeedback": "Đúng. Việc gấp đôi đoạn dây có chiều dài bằng cây gậy sẽ cho ta vị trí trung điểm của cây gậy.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Định nghĩa trung điểm M của đoạn thẳng AB (M nằm giữa A",
+      "questiontext": "Nếu thanh gỗ bập bênh dài \\(3\\text{ m}\\) gắn trục ở vị trí chính giữa thì điểm gắn trục cách hai đầu thanh gỗ một khoảng là bao nhiêu?",
+      "generalfeedback": "Điểm gắn trục ở chính giữa thanh gỗ đóng vai trò là trung điểm của thanh gỗ, nên khoảng cách tới hai đầu thanh gỗ là \\(3 / 2 = 1,5\\text{ m}\\).",
+      "answers": [
+        {
+          "text": "1,5 m",
+          "fraction": 100
+        },
+        {
+          "text": "3 m",
+          "fraction": 0
+        },
+        {
+          "text": "1 m",
+          "fraction": 0
+        },
+        {
+          "text": "2 m",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ học Toán bài 'Trung điểm của đoạn thẳng', khi gặp bài toán thực tế tính độ dài các đoạn thẳng phức tạp mà chưa tìm ra đáp số ngay, hành động nào sau đây thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập?",
+      "generalfeedback": "Kiên nhẫn đọc kỹ đề bài, phân tích định nghĩa trung điểm và thử vẽ sơ đồ đoạn thẳng thể hiện sự nỗ lực, chủ động tìm giải pháp vượt qua khó khăn trong học tập.",
+      "answers": [
+        {
+          "text": "Kiên nhẫn đọc kỹ đề bài, ghi tóm tắt các dữ kiện và vẽ sơ đồ đoạn thẳng để tìm hướng giải",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài toán khó và chỉ chọn làm các bài tập đơn giản",
+          "fraction": 0
+        },
+        {
+          "text": "Đợi giáo viên sửa bài rồi chép lời giải vào vở mà không cần suy nghĩ",
+          "fraction": 0
+        },
+        {
+          "text": "Tự cho rằng mình không có năng khiếu học Toán nên không cố gắng suy nghĩ thêm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi làm bài tập về nhà chủ đề trung điểm của đoạn thẳng, việc tự giác kiểm tra lại các bước tính toán và đo đạc kĩ lưỡng trước khi nộp bài là biểu hiện của ý thức luôn cố gắng đạt kết quả tốt trong học tập. Đúng hay Sai?",
+      "generalfeedback": "Đúng. Tự giác kiểm tra lại bài làm giúp hạn chế sai sót và thể hiện tinh thần trách nhiệm, cố gắng vươn lên trong học tập.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Để ghi tóm tắt kiến thức cốt lõi của bài 'Trung điểm của đoạn thẳng' vào sổ tay học tập một cách ngắn gọn, chọn lọc và dễ tra cứu, cách trình bày nào sau đây là tối ưu nhất?",
+      "generalfeedback": "Ghi từ khóa 'Trung điểm M của đoạn thẳng AB', bám sát 2 điều kiện: \\(M\\) nằm giữa \\(A, B\\) và công thức \\(MA = MB = \\frac{AB}{2}\\) là cách lưu giữ thông tin chọn lọc và khoa học.",
+      "answers": [
+        {
+          "text": "Ghi khái niệm cốt lõi: '\\(M\\) là trung điểm của \\(AB \\Leftrightarrow M\\) nằm giữa \\(A, B\\) và \\(MA = MB = \\frac{AB}{2}\\'",
+          "fraction": 100
+        },
+        {
+          "text": "Chép lại toàn bộ nội dung lời văn và ví dụ trong SGK từ đầu đến cuối",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ vẽ hình minh họa mà không ghi kí hiệu hay công thức toán học nào",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ ghi tên tiêu đề bài học và số trang trong sách giáo khoa",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Khi tóm tắt kiến thức bài học bằng sơ đồ, điều kiện cần để điểm \\(I\\) là trung điểm của đoạn thẳng \\(AB\\) gồm hai ý chính: điểm \\(I\\) phải [[1]] hai điểm \\(A, B\\) và khoảng cách \\(IA\\) [[3]] khoảng cách \\(IB\\).",
+      "generalfeedback": "Khi tóm tắt định nghĩa trung điểm, cần chọn lọc hai từ khóa kiến thức cốt lõi: 'nằm giữa' và 'bằng'.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "nằm giữa"
+        },
+        {
+          "group": 1,
+          "text": "nằm ngoài"
+        },
+        {
+          "group": 1,
+          "text": "bằng"
+        },
+        {
+          "group": 1,
+          "text": "gấp đôi"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "questiontext": "Đọc thông tin thực tế sau: 'Vòng quay mặt trời có điểm cao nhất là 60 m, điểm thấp nhất là 6 m so với mặt đất. Trục của vòng quay nằm ở chính giữa khoảng cách giữa điểm cao nhất và điểm thấp nhất'. Sự kết hợp thông tin thực tế và mô hình toán học nào sau đây mô tả đúng độ cao của trục?",
+      "generalfeedback": "Tiếp nhận văn bản thực tế kết hợp với mô hình trung điểm đoạn thẳng: Trục nằm ở trung điểm nên độ cao so với mặt đất là \\(\\frac{60 + 6}{2} = 33\\text{ m}\\).",
+      "answers": [
+        {
+          "text": "Trục đóng vai trò là trung điểm của đoạn nối hai điểm cao/thấp nhất, ở độ cao \\(\\frac{60 + 6}{2} = 33\\text{ m}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Trục đóng vai trò là điểm cao nhất của vòng quay, ở độ cao \\(60\\text{ m}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Trục nằm ở độ cao trung bình bằng \\(60 - 6 = 54\\text{ m}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Trục đóng vai trò là điểm thấp nhất của vòng quay, ở độ cao \\(6\\text{ m}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "questiontext": "Hãy ghép mô tả tình huống thực tế kết hợp hình ảnh/số liệu ở cột trái với mô hình toán học tương ứng ở cột phải:",
+      "generalfeedback": "Mỗi tình huống thực tế mang thông tin có thể tiếp nhận và chuyển hóa thành kí hiệu toán học về trung điểm.",
+      "subquestions": [
+        {
+          "question": "Thanh gỗ bập bênh dài 3 m đặt trên trục ở chính giữa",
+          "answer": "Trục chia thanh gỗ thành 2 đoạn bằng nhau, mỗi đoạn dài 1,5 m"
+        },
+        {
+          "question": "Gấp đôi sợi dây dài 120 cm để hai đầu trùng nhau tại điểm A",
+          "answer": "A là trung điểm sợi dây, cách mỗi đầu 60 cm"
+        },
+        {
+          "question": "Xe ô tô chạy vận tốc không đổi trên quãng đường 100 km trong 2 giờ",
+          "answer": "Vị trí xe sau 1 giờ là trung điểm quãng đường, cách mỗi đầu 50 km"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_02",
+      "questiontext": "Quan sát ba hình ảnh thực tế trong bài học (thanh gỗ bập bênh, sợi dây gấp đôi, quãng đường xe chạy sau 1 giờ), thao tác quan sát nào giúp em nhận ra đặc điểm chung của các điểm chính giữa trong các tình huống đó?",
+      "generalfeedback": "Quan sát và phân tích vị trí cho thấy các điểm này đều nằm giữa hai đầu mút và chia đoạn thẳng thành hai phần có độ dài bằng nhau.",
+      "answers": [
+        {
+          "text": "Nhận xét các điểm đều nằm giữa hai mút và chia khoảng cách/đoạn thẳng thành hai phần bằng nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Nhận xét các điểm đều nằm ở vị trí đầu mút bên trái của đối tượng",
+          "fraction": 0
+        },
+        {
+          "text": "Nhận xét các điểm đều nằm ngoài phạm vi quan sát của đoạn thẳng",
+          "fraction": 0
+        },
+        {
+          "text": "Nhận xét các điểm luôn thay đổi vị trí liên tục theo thời gian",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "NLT_TOAN_C2_01_02",
+      "questiontext": "Khi quan sát hình vẽ đoạn thẳng \\(AB\\) trên giấy kẻ ô vuông, nếu thấy điểm \\(M\\) nằm giữa \\(A, B\\) và đếm số ô từ \\(A\\) đến \\(M\\) bằng số ô từ \\(M\\) đến \\(B\\), ta có thể kết luận \\(M\\) là trung điểm của \\(AB\\). Đúng hay Sai?",
+      "generalfeedback": "Đúng. Quan sát lưới ô vuông giúp xác định vị trí nằm giữa và so sánh độ dài hai đoạn thẳng bằng nhau.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "NLT_TOAN_C2_05_01",
+      "questiontext": "Để vẽ đoạn thẳng \\(AB\\) dài \\(8\\text{ cm}\\) và xác định chính xác vị trí trung điểm \\(M\\) của đoạn thẳng đó trên mặt giấy, công cụ học tập nào sau đây là cần thiết và trực tiếp nhất?",
+      "generalfeedback": "Thước thẳng có vạch chia centimet là công cụ trực tiếp dùng để đo độ dài đoạn thẳng và đánh dấu trung điểm.",
+      "answers": [
+        {
+          "text": "Thước thẳng có vạch chia centimet",
+          "fraction": 100
+        },
+        {
+          "text": "Thước đo góc (thước đo độ)",
+          "fraction": 0
+        },
+        {
+          "text": "Compa không có vạch đo độ dài",
+          "fraction": 0
+        },
+        {
+          "text": "Mô hình khối đa diện",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "NLT_TOAN_C2_05_01",
+      "questiontext": "Khi thực hành tìm trung điểm của một cây gậy trong thực tế mà không có thước đo độ dài, em có thể sử dụng phương tiện hỗ trợ là một [[1]] đủ dài bằng cách đo cây gậy rồi [[3]] lại.",
+      "generalfeedback": "Sử dụng phương tiện sợi dây và thao tác gấp đôi giúp xác định trung điểm mà không cần thước chia độ dài.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "sợi dây"
+        },
+        {
+          "group": 1,
+          "text": "thước đo góc"
+        },
+        {
+          "group": 1,
+          "text": "gấp đôi"
+        },
+        {
+          "group": 1,
+          "text": "kéo giãn"
+        }
+      ]
+    }
+  ]
+}

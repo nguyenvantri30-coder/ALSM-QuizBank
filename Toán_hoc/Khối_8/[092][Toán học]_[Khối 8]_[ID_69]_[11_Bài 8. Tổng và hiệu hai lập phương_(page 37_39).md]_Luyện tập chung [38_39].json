@@ -1,0 +1,780 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 30,
+    "metadata_used": {
+      "YCCD_TOAN8_047": 6,
+      "Phân tích bài toán thực tế đa đại lượng": 6,
+      "Giải các bài toán hình học, tài chính, chuyển động bằng cách lập phương trình": 4,
+      "Các dạng toán thực tế phức hợp giải bằng cách lập phương trình": 4,
+      "SUB_CHAMCHI_HAMHOC_C2_03": 2,
+      "SUB_GQVD_DEXUAT_C2_02": 2,
+      "NLT_TOAN_C2_02_05": 2,
+      "NLT_TOAN_C2_02_08": 2,
+      "8.A1.2_2": 1,
+      "8.A3.3_3": 1
+    },
+    "types_used": {
+      "multichoice": 15,
+      "truefalse": 3,
+      "numerical": 2,
+      "matching": 2,
+      "gapselect": 2,
+      "ddwtos": 1,
+      "calculated": 1,
+      "calculatedsimple": 1,
+      "calculatedmulti": 1,
+      "shortanswer": 2
+    },
+    "total": 30
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN8_047",
+        "reason": "Đo lường năng lực giải quyết vấn đề thực tiễn thông qua lập phương trình bậc nhất."
+      },
+      {
+        "metadata_code": "Các dạng toán thực tế phức hợp giải bằng cách lập phương trình",
+        "reason": "Đo lường kiến thức về các dạng toán thực tế giải bằng cách lập phương trình."
+      },
+      {
+        "metadata_code": "Phân tích bài toán thực tế đa đại lượng",
+        "reason": "Đo lường kỹ năng phân tích bài toán thực tế đa đại lượng."
+      },
+      {
+        "metadata_code": "Giải các bài toán hình học, tài chính, chuyển động bằng cách lập phương trình",
+        "reason": "Đo lường kỹ năng giải toán hình học, tài chính, chuyển động bằng lập phương trình."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_03",
+        "reason": "Đo lường ý thức chủ động vận dụng kiến thức toán học vào đời sống."
+      },
+      {
+        "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+        "reason": "Đo lường năng lực đề xuất giải pháp giải quyết vấn đề thực tiễn."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_02_05",
+        "reason": "Đo lường năng lực sử dụng mô hình phương trình toán học."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_02_08",
+        "reason": "Đo lường năng lực thể hiện lời giải toán học vào ngữ cảnh thực tiễn."
+      },
+      {
+        "metadata_code": "8.A1.2_2",
+        "reason": "Đo lường năng lực kiểm chứng thông tin từ AI tạo sinh."
+      },
+      {
+        "metadata_code": "8.A3.3_3",
+        "reason": "Đo lường năng lực thể hiện trách nhiệm giải trình khi dùng AI."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "1.1TC2a_K8",
+        "reason": "Nội dung bài học Toán 8 về Luyện tập chung giải bài toán bằng cách lập phương trình không trực tiếp chứa các hoạt động hay yêu cầu kỹ năng tổ chức tìm kiếm dữ liệu trong môi trường số một cách tự nhiên."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_047",
+      "questiontext": "Một xưởng sản xuất theo kế hoạch mỗi ngày phải làm \\(x\\) sản phẩm. Sau khi cải tiến kỹ thuật, mỗi ngày xưởng làm được nhiều hơn kế hoạch 5 sản phẩm. Biết rằng trong 4 ngày thực tế xưởng đã sản xuất được 100 sản phẩm. Giá trị của \\(x\\) là:",
+      "generalfeedback": "Số sản phẩm làm được trong một ngày thực tế là \\(x + 5\\). Theo bài ra ta có phương trình \\(4(x + 5) = 100 \\Leftrightarrow x + 5 = 25 \\Leftrightarrow x = 20\\).",
+      "answers": [
+        {
+          "text": "20",
+          "fraction": 100
+        },
+        {
+          "text": "15",
+          "fraction": 0
+        },
+        {
+          "text": "25",
+          "fraction": 0
+        },
+        {
+          "text": "30",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Phân tích bài toán thực tế đa đại lượng",
+      "questiontext": "Một ô tô đi từ A đến B với vận tốc 50 km/h. Nếu gọi thời gian ô tô đi từ A đến B là \\(t\\) (giờ), \\(t > 0\\), thì quãng đường AB được biểu diễn qua \\(t\\) là \\(50t\\) (km). Khẳng định này đúng hay sai?",
+      "generalfeedback": "Theo công thức quãng đường \\(S = v \\cdot t\\), với vận tốc \\(v = 50\\) km/h và thời gian \\(t\\) giờ thì quãng đường AB là \\(50t\\) (km).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Giải các bài toán hình học, tài chính, chuyển động bằng cách lập phương trình",
+      "questiontext": "Một người gửi tiết kiệm \\(x\\) triệu đồng với lãi suất 6%/năm. Sau 1 năm, người đó nhận được cả tiền gốc và tiền lãi tổng cộng là 106 triệu đồng. Giá trị của \\(x\\) là:",
+      "generalfeedback": "Số tiền lãi sau 1 năm là \\(0,06x\\) triệu đồng. Tổng số tiền nhận được là \\(x + 0,06x = 1,06x\\) triệu đồng. Ta có phương trình \\(1,06x = 106 \\Leftrightarrow x = 100\\).",
+      "answers": [
+        {
+          "text": "100",
+          "fraction": 100
+        },
+        {
+          "text": "90",
+          "fraction": 0
+        },
+        {
+          "text": "95",
+          "fraction": 0
+        },
+        {
+          "text": "105",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_047",
+      "questiontext": "Một hình chữ nhật có chiều dài lớn hơn chiều rộng 4 m. Nếu gọi chiều rộng là \\(x\\) (m) thì chu vi hình chữ nhật bằng 36 m. Tìm giá trị của \\(x\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Chiều dài là \\(x + 4\\) (m). Chu vi hình chữ nhật là \\(2(x + x + 4) = 36 \\Leftrightarrow 4x + 8 = 36 \\Leftrightarrow 4x = 28 \\Leftrightarrow x = 7\\).",
+      "answers": [
+        {
+          "text": "7",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Phân tích bài toán thực tế đa đại lượng",
+      "questiontext": "Một mảnh vườn hình chữ nhật có chiều dài \\(x\\) (m), chiều rộng kém chiều dài 5 m. Ghép các đại lượng sau với biểu thức tương ứng:",
+      "generalfeedback": "Chiều rộng là \\(x - 5\\). Chu vi là \\(2(x + x - 5) = 4x - 10\\). Diện tích là \\(x(x - 5) = x^2 - 5x\\).",
+      "subquestions": [
+        {
+          "question": "Chiều rộng mảnh vườn (m)",
+          "answer": "\\(x - 5\\)"
+        },
+        {
+          "question": "Chu vi mảnh vườn (m)",
+          "answer": "\\(4x - 10\\)"
+        },
+        {
+          "question": "Diện tích mảnh vườn (m²)",
+          "answer": "\\(x(x - 5)\\)"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Các dạng toán thực tế phức hợp giải bằng cách lập phương trình",
+      "questiontext": "Khi giải bài toán bằng cách lập phương trình, ta thực hiện theo 3 bước: Bước 1 là [[1]] phương trình; Bước 2 là [[2]] phương trình; Bước 3 là trả lời và kiểm tra điều kiện.",
+      "generalfeedback": "Các bước giải bài toán bằng cách lập phương trình: Bước 1 là lập phương trình; Bước 2 là giải phương trình.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "Lập"
+        },
+        {
+          "group": 1,
+          "text": "Giải"
+        },
+        {
+          "group": 1,
+          "text": "Biến đổi"
+        },
+        {
+          "group": 1,
+          "text": "Rút gọn"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Phân tích bài toán thực tế đa đại lượng",
+      "questiontext": "Một xe máy đi từ A đến B với vận tốc 40 km/h, rồi quay về A với vận tốc 30 km/h. Nếu gọi quãng đường AB là \\(x\\) (km), \\(x > 0\\), thì thời gian lúc đi là [[1]] (giờ) và thời gian lúc về là [[2]] (giờ).",
+      "generalfeedback": "Thời gian lúc đi là \\(\\frac{x}{40}\\) giờ, thời gian lúc về là \\(\\frac{x}{30}\\) giờ.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(\\frac{x}{40}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{x}{30}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(40x\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(30x\\)"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Giải các bài toán hình học, tài chính, chuyển động bằng cách lập phương trình",
+      "questiontext": "Một người đi xe đạp từ A đến B với vận tốc {v} km/h. Quãng đường AB dài s km. Tính thời gian người đó đi hết quãng đường AB (tính bằng giờ). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Thời gian đi là \\(t = \\frac{s}{v} = \\frac{\\{s\\}}{\\{v\\}}\\) (giờ).",
+      "wildcards": [
+        {
+          "name": "v",
+          "min": 10.0,
+          "max": 20.0,
+          "decimals": 0
+        },
+        {
+          "name": "s",
+          "min": 30.0,
+          "max": 60.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{s}/{v}",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_047",
+      "questiontext": "Hai rổ cam có tổng cộng {n} quả. Biết rổ thứ nhất có nhiều hơn rổ thứ hai {k} quả. Số quả cam ở rổ thứ hai là bao nhiêu?",
+      "generalfeedback": "Gọi số cam ở rổ thứ hai là \\(x\\). Ta có phương trình \\(x + (x + \\{k\\}) = \\{n\\} \\Rightarrow 2x = \\{n\\} - \\{k\\} \\Rightarrow x = (\\{n\\} - \\{k\\}) / 2\\).",
+      "wildcards": [
+        {
+          "name": "n",
+          "min": 50.0,
+          "max": 100.0,
+          "decimals": 0
+        },
+        {
+          "name": "k",
+          "min": 2.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "({n}-{k})/2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "Các dạng toán thực tế phức hợp giải bằng cách lập phương trình",
+      "questiontext": "Một công nhân dự định làm một số sản phẩm trong {d} ngày. Do cải tiến năng suất, mỗi ngày công nhân làm thêm được m sản phẩm. Biểu thức tính tổng số sản phẩm công nhân làm được nếu mỗi ngày theo dự định làm {x} sản phẩm là:",
+      "generalfeedback": "Mỗi ngày làm được \\(x + m\\) sản phẩm, trong \\(d\\) ngày sẽ làm được \\(d \\cdot (x + m)\\) sản phẩm.",
+      "wildcards": [
+        {
+          "name": "d",
+          "min": 3.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "m",
+          "min": 2.0,
+          "max": 8.0,
+          "decimals": 0
+        },
+        {
+          "name": "x",
+          "min": 10.0,
+          "max": 30.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{d}*({x}+{m})",
+          "fraction": 100
+        },
+        {
+          "text": "{d}*{x}+{m}",
+          "fraction": 0
+        },
+        {
+          "text": "{d}*({x}-{m})",
+          "fraction": 0
+        },
+        {
+          "text": "{x}+{m}",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Phân tích bài toán thực tế đa đại lượng",
+      "questiontext": "Một canô đi xuôi dòng từ A đến B với vận tốc thực của canô là \\(x\\) (km/h), vận tốc dòng nước là 3 km/h (\\(x > 3\\)). Vận tốc của canô khi đi xuôi dòng là:",
+      "generalfeedback": "Vận tốc xuôi dòng bằng vận tốc thực cộng vận tốc dòng nước: \\(x + 3\\) (km/h).",
+      "answers": [
+        {
+          "text": "\\(x + 3\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x - 3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(3x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{x}{3}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Phân tích bài toán thực tế đa đại lượng",
+      "questiontext": "Một mảnh đất hình chữ nhật có chu vi 50 m. Nếu gọi chiều rộng của mảnh đất là \\(x\\) (m), \\(0 < x < 25\\), thì diện tích của mảnh đất được biểu diễn theo \\(x\\) là:",
+      "generalfeedback": "Nửa chu vi là \\(50 : 2 = 25\\) m. Chiều dài là \\(25 - x\\) (m). Diện tích mảnh đất là \\(x(25 - x)\\) (m²).",
+      "answers": [
+        {
+          "text": "\\(x(25 - x)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x(50 - x)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(25x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x^2 - 25x\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Các dạng toán thực tế phức hợp giải bằng cách lập phương trình",
+      "questiontext": "Bác An mua hai loại hàng và phải trả tổng cộng 2,1 triệu đồng tính cả thuế giá trị gia tăng (VAT). Biết thuế VAT cho loại hàng thứ nhất là 10%, loại hàng thứ hai là 8%. Nếu gọi số tiền bác An phải trả cho loại hàng thứ nhất (chưa thuế) là \\(x\\) (triệu đồng), biểu thức biểu diễn tiền thuế VAT của loại hàng thứ nhất là:",
+      "generalfeedback": "Tiền thuế VAT loại hàng thứ nhất bằng 10% giá chưa thuế, tức là \\(0,1x\\) (triệu đồng).",
+      "answers": [
+        {
+          "text": "\\(0,1x\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(1,1x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(0,08x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(10x\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_047",
+      "questiontext": "Năm nay tuổi của cha gấp 3 lần tuổi của con. Biết rằng sau 12 năm nữa, tuổi của cha chỉ còn gấp 2 lần tuổi của con. Gọi tuổi con hiện nay là \\(x\\) (tuổi, \\(x \\in \\mathbb{N}^*\\)). Phương trình tìm \\(x\\) là:",
+      "generalfeedback": "Tuổi cha hiện nay là \\(3x\\). Sau 12 năm, tuổi con là \\(x + 12\\), tuổi cha là \\(3x + 12\\). Ta có phương trình \\(3x + 12 = 2(x + 12)\\).",
+      "answers": [
+        {
+          "text": "\\(3x + 12 = 2(x + 12)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(3x = 2(x + 12)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(3x + 12 = 2x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x + 12 = 2(3x + 12)\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Các dạng toán thực tế phức hợp giải bằng cách lập phương trình",
+      "questiontext": "Trong bài toán chuyển động, nếu gọi \\(s\\) là quãng đường (km), \\(v\\) là vận tốc (km/h) và \\(t\\) là thời gian (giờ), thì mối liên hệ giữa ba đại lượng này là \\(t = \\frac{s}{v}\\) (với \\(v > 0\\)). Khẳng định này đúng hay sai?",
+      "generalfeedback": "Theo công thức chuyển động cơ bản, thời gian bằng quãng đường chia cho vận tốc: \\(t = \\frac{s}{v}\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_047",
+      "questiontext": "Tổng của hai số bằng 80. Số thứ nhất gấp 3 lần số thứ hai. Tìm số thứ hai.",
+      "generalfeedback": "Gọi số thứ hai là \\(x\\). Số thứ nhất là \\(3x\\). Ta có \\(x + 3x = 80 \\Leftrightarrow 4x = 80 \\Leftrightarrow x = 20\\).",
+      "answers": [
+        {
+          "text": "20",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Giải các bài toán hình học, tài chính, chuyển động bằng cách lập phương trình",
+      "questiontext": "Một tam giác vuông có một cạnh góc vuông dài 6 cm, cạnh huyền dài hơn cạnh góc vuông còn lại 2 cm. Tính độ dài cạnh góc vuông còn lại (theo cm). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Gọi cạnh góc vuông còn lại là \\(x\\) (cm), \\(x > 0\\). Cạnh huyền là \\(x + 2\\) (cm). Áp dụng định lý Pythagore: \\(x^2 + 6^2 = (x+2)^2 \\Leftrightarrow x^2 + 36 = x^2 + 4x + 4 \\Leftrightarrow 4x = 32 \\Leftrightarrow x = 8\\).",
+      "answers": [
+        {
+          "text": "8",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Phân tích bài toán thực tế đa đại lượng",
+      "questiontext": "Một lớp học có 40 học sinh gồm nam và nữ. Số học sinh nam nhiều hơn số học sinh nữ là 6 em. Nếu gọi số học sinh nữ là \\(x\\) (học sinh, \\(x \\in \\mathbb{N}^*\\)), phương trình lập được là:",
+      "generalfeedback": "Số học sinh nam là \\(x + 6\\). Tổng số học sinh là \\(x + (x + 6) = 40\\) hay \\(2x + 6 = 40\\).",
+      "answers": [
+        {
+          "text": "\\(2x + 6 = 40\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(2x - 6 = 40\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x + 6 = 40\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x - 6 = 40\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Giải các bài toán hình học, tài chính, chuyển động bằng cách lập phương trình",
+      "questiontext": "Hai người cùng làm chung một công việc thì sau 6 giờ sẽ hoàn thành. Nếu người thứ nhất làm một mình trong 2 giờ và người thứ hai làm một mình trong 3 giờ thì cả hai làm được 5/12 công việc. Gọi thời gian người thứ nhất làm riêng xong công việc là \\(x\\) (giờ, \\(x > 6\\)). Trong 1 giờ, người thứ nhất làm được bao nhiêu phần công việc?",
+      "generalfeedback": "Trong 1 giờ người thứ nhất làm được \\(\\frac{1}{x}\\) công việc.",
+      "answers": [
+        {
+          "text": "\\(\\frac{1}{x}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{x}{6}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{6}{x}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_047",
+      "questiontext": "Một siêu thị niêm yết giá một chiếc tivi là \\(x\\) triệu đồng. Nhân dịp khuyến mãi, siêu thị giảm giá 15%. Giá tiền chiếc tivi sau khi giảm là:",
+      "generalfeedback": "Giá tiền sau khi giảm 15% bằng 85% giá ban đầu, tức là \\((1 - 0,15)x = 0,85x\\) (triệu đồng).",
+      "answers": [
+        {
+          "text": "\\(0,85x\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(0,15x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(1,15x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x - 15\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_03",
+      "questiontext": "Bạn Minh nhận thấy bác nông dân hàng xóm gặp khó khăn trong việc tính toán lượng phân bón và chi phí cho từng sào ruộng sao cho tiết kiệm nhất. Minh đã chủ động dùng kiến thức giải bài toán bằng cách lập phương trình đã học ở trường để giúp bác lập bảng tính toán cụ thể. Hành vi của Minh thể hiện thái độ/phẩm chất nào?",
+      "generalfeedback": "Hành vi của Minh thể hiện ý thức tự giác và trách nhiệm vận dụng kiến thức, kỹ năng toán học học được ở nhà trường vào giải quyết các vấn đề thực tiễn đời sống hằng ngày.",
+      "answers": [
+        {
+          "text": "Có ý thức chủ động vận dụng kiến thức, kỹ năng toán học vào đời sống hằng ngày để hỗ trợ người khác.",
+          "fraction": 100
+        },
+        {
+          "text": "Thích thể hiện trình độ toán học của mình với người xung quanh.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ làm bài tập khi có sự yêu cầu và nhắc nhở từ thầy cô giáo.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ quan tâm đến việc đạt điểm cao trong các bài kiểm tra trên lớp.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_03",
+      "questiontext": "Khi gặp một bài toán thực tế về quản lý chi tiêu gia đình, học sinh nên chủ động tìm hiểu các dữ liệu thực tế, phân tích các đại lượng và lập phương trình để tìm phương án tài chính hợp lý. Khẳng định này thể hiện đúng tinh thần vận dụng kiến thức toán học vào đời sống hằng ngày. Đúng hay Sai?",
+      "generalfeedback": "Khẳng định này thể hiện đúng ý thức và phẩm chất chủ động vận dụng kiến thức toán học đã học vào thực tiễn đời sống.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Để giải quyết bài toán thực tế: 'Một đội công nhân phải vận chuyển 120 tấn hàng. Do được bổ sung thêm xe, mỗi xe chở thêm được 2 tấn nên số xe giảm đi 3 xe. Tìm số xe ban đầu.' Bước đề xuất giải pháp giải quyết vấn đề hiệu quả nhất là:",
+      "generalfeedback": "Đề xuất giải pháp giải quyết vấn đề toán thực tế bao gồm việc xác định ẩn số (số xe ban đầu), biểu diễn các đại lượng chưa biết (sức chở mỗi xe) qua ẩn và lập phương trình mối liên hệ.",
+      "answers": [
+        {
+          "text": "Chọn ẩn là số xe ban đầu \\(x\\) (xe, \\(x \\in \\mathbb{N}^*, x > 3\\)), biểu diễn sức chở của mỗi xe lúc đầu và lúc sau theo \\(x\\), từ đó lập phương trình.",
+          "fraction": 100
+        },
+        {
+          "text": "Thử từng số nguyên bất kỳ từ 1 đến 100 cho đến khi tìm được số phù hợp.",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua các điều kiện thực tế và giải một phương trình không có ẩn số.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ tính tổng số hàng chia cho số xe giảm đi mà không lập phương trình.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Khi đề xuất giải pháp giải một bài toán thực tế bằng cách lập phương trình, hãy ghép mỗi bước trong tiến trình giải quyết vấn đề với nội dung tương ứng:",
+      "generalfeedback": "Tiến trình giải quyết vấn đề gồm: Phân tích tình huống -> Đề xuất giải pháp toán học -> Thực thi và đánh giá kết quả.",
+      "subquestions": [
+        {
+          "question": "Phân tích tình huống thực tiễn",
+          "answer": "Xác định các đại lượng đã biết, đại lượng chưa biết và mối quan hệ giữa chúng"
+        },
+        {
+          "question": "Đề xuất mô hình toán học",
+          "answer": "Chọn ẩn số, đặt điều kiện cho ẩn và lập phương trình biểu diễn mối liên hệ"
+        },
+        {
+          "question": "Đánh giá và kết luận",
+          "answer": "Giải phương trình, đối chiếu nghiệm với điều kiện thực tế và trả lời"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_02_05",
+      "questiontext": "Một mảnh đất hình chữ nhật có chiều dài gấp 3 lần chiều rộng. Nếu tăng chiều rộng thêm 2 m và giảm chiều dài đi 4 m thì diện tích mảnh đất tăng thêm 28 m². Nếu sử dụng mô hình phương trình toán học với ẩn \\(x\\) (m) là chiều rộng ban đầu (\\(x > 0\\)), phương trình mô tả tình huống thực tiễn này là:",
+      "generalfeedback": "Chiều dài ban đầu là \\(3x\\), diện tích ban đầu là \\(3x^2\\). Chiều rộng mới là \\(x + 2\\), chiều dài mới là \\(3x - 4\\), diện tích mới là \\((x + 2)(3x - 4)\\). Phương trình mô tả tình huống: \\((x + 2)(3x - 4) - 3x^2 = 28\\).",
+      "answers": [
+        {
+          "text": "\\((x + 2)(3x - 4) - 3x^2 = 28\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\((x - 2)(3x + 4) - 3x^2 = 28\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((x + 2) + (3x - 4) = 28\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(3x(x + 2) = 28\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_02_05",
+      "questiontext": "Để mô hình hóa bài toán chuyển động: 'Một ô tô đi từ A đến B dài 120 km với vận tốc \\(x\\) km/h (\\(x > 0\\))', ta sử dụng mô hình toán học là biểu thức biểu diễn thời gian đi là [[1]] giờ. Nếu ô tô tăng vận tốc thêm 10 km/h thì thời gian đi lúc sau là [[2]] giờ.",
+      "generalfeedback": "Mô hình toán học cho thời gian là \\(t = \\frac{S}{v}\\). Lúc đầu thời gian là \\(\\frac{120}{x}\\), lúc sau vận tốc là \\(x + 10\\) nên thời gian là \\(\\frac{120}{x + 10}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(\\frac{120}{x}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{120}{x + 10}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(120x\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(120(x + 10)\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_02_08",
+      "questiontext": "Khi giải bài toán thực tế tìm số sản phẩm một tổ công nhân làm trong một ngày, học sinh lập được phương trình và giải ra hai nghiệm toán học là \\(x_1 = 15\\) và \\(x_2 = -4\\). Thể hiện lời giải toán học vào ngữ cảnh thực tiễn, học sinh cần kết luận như thế nào?",
+      "generalfeedback": "Trong ngữ cảnh thực tiễn, số sản phẩm sản xuất trong một ngày phải là số nguyên dương. Do đó nghiệm \\(x_2 = -4\\) bị loại, chỉ nhận \\(x_1 = 15\\).",
+      "answers": [
+        {
+          "text": "Loại \\(x_2 = -4\\) vì số sản phẩm phải là số nguyên dương; kết luận mỗi ngày tổ làm được 15 sản phẩm.",
+          "fraction": 100
+        },
+        {
+          "text": "Chấp nhận cả hai nghiệm vì phương trình có hai nghiệm.",
+          "fraction": 0
+        },
+        {
+          "text": "Lấy giá trị tuyệt đối của \\(x_2\\) để kết luận mỗi ngày làm được 4 hoặc 15 sản phẩm.",
+          "fraction": 0
+        },
+        {
+          "text": "Kết luận bài toán vô nghiệm vì có một nghiệm âm.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_02_08",
+      "questiontext": "Giải phương trình tìm số xe của một đội xe chở hàng ta được nghiệm \\(x = 8,5\\). Trong ngữ cảnh thực tiễn số xe phải là số nguyên, em kết luận số xe của đội là có hợp lý hay không? (Trả lời 'Hợp lý' hoặc 'Không hợp lý')",
+      "generalfeedback": "Số xe trong thực tế bắt buộc phải là số nguyên dương, do đó nghiệm \\(x = 8,5\\) không hợp lý trong ngữ cảnh thực tiễn.",
+      "answers": [
+        {
+          "text": "Không hợp lý",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "8.A1.2_2",
+      "questiontext": "Bạn An dùng một công cụ AI tạo sinh để giải bài toán thực tế về năng suất. AI đưa ra phương trình và kết quả nghiệm \\(x = -5\\) rồi kết luận 'Năng suất làm việc là -5 sản phẩm/ngày'. An cần làm gì để thể hiện việc kiểm chứng nguồn thông tin do AI tạo ra?",
+      "generalfeedback": "Sử dụng AI tạo sinh cần kiểm chứng tính chính xác và hợp lý của kết quả theo điều kiện thực tế (năng suất không thể âm) trước khi ghi nhận kết quả.",
+      "answers": [
+        {
+          "text": "Kiểm tra lại câu lệnh đầu vào, đối chiếu nghiệm toán học với điều kiện thực tế (năng suất phải dương) và tự giải lại để xác minh.",
+          "fraction": 100
+        },
+        {
+          "text": "Chép nguyên văn kết quả của AI vào bài làm vì AI luôn luôn chính xác tuyệt đối.",
+          "fraction": 0
+        },
+        {
+          "text": "Tự động đổi dấu nghiệm âm thành dương mà không cần kiểm tra lại các bước lập phương trình.",
+          "fraction": 0
+        },
+        {
+          "text": "Hỏi tiếp AI một câu khác và tin tưởng ngay kết quả mới mà không suy nghĩ.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "8.A3.3_3",
+      "questiontext": "Khi sử dụng phần mềm AI để hỗ trợ lập phương trình giải bài toán thực tế cho bài tập nhóm, việc thể hiện trách nhiệm giải trình của học sinh được thể hiện rõ nhất qua hành động nào?",
+      "generalfeedback": "Trách nhiệm giải trình khi sử dụng AI đòi hỏi học sinh phải chủ động kiểm tra, chịu trách nhiệm về tính chính xác của nội dung do AI tạo ra trước khi sử dụng và nộp sản phẩm.",
+      "answers": [
+        {
+          "text": "Chịu trách nhiệm kiểm tra tính chính xác của phương trình và lời giải do AI tạo ra trước khi đưa vào sản phẩm chung của nhóm.",
+          "fraction": 100
+        },
+        {
+          "text": "Đổ lỗi hoàn toàn cho phần mềm AI nếu bài giải nhóm bị chấm điểm sai.",
+          "fraction": 0
+        },
+        {
+          "text": "Giấu không cho các bạn trong nhóm biết mình đã sử dụng AI.",
+          "fraction": 0
+        },
+        {
+          "text": "Giao toàn bộ việc thuyết trình bài giải cho AI mà không cần hiểu lời giải.",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

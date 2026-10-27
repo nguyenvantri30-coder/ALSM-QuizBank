@@ -1,0 +1,484 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 16,
+    "metadata_used": {
+      "Quy tắc nhân đa thức với đa thức một biến (hàng ngang và đặt tính)": 2,
+      "Thực hiện phép nhân đa thức với đa thức một biến": 4,
+      "Rút gọn biểu thức chứa phép nhân đa thức": 1,
+      "YCCD_TOAN7_055": 1,
+      "YCCD_TOAN7_057": 2,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_TUCHUTUHOC": 1,
+      "NLC_GIAOTIEP": 1,
+      "NLT_TOAN_C2_01": 1,
+      "NLT_TOAN_C2_03": 1
+    },
+    "types_used": {
+      "multichoice": 6,
+      "gapselect": 2,
+      "matching": 2,
+      "shortanswer": 1,
+      "truefalse": 2,
+      "calculated": 1,
+      "numerical": 1,
+      "ddwtos": 1
+    },
+    "total": 16
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "Quy tắc nhân đa thức với đa thức một biến (hàng ngang và đặt tính)",
+        "reason": "Kiểm tra kiến thức quy tắc nhân đa thức với đa thức một biến."
+      },
+      {
+        "metadata_code": "Thực hiện phép nhân đa thức với đa thức một biến",
+        "reason": "Kiểm tra kỹ năng thực hiện phép nhân đa thức với đa thức một biến."
+      },
+      {
+        "metadata_code": "Rút gọn biểu thức chứa phép nhân đa thức",
+        "reason": "Kiểm tra kỹ năng rút gọn biểu thức chứa phép nhân đa thức."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_055",
+        "reason": "Đánh giá khả năng thực hiện phép nhân trong tập hợp đa thức một biến."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_057",
+        "reason": "Đánh giá khả năng vận dụng tính chất của phép tính đa thức một biến trong tính toán."
+      },
+      {
+        "metadata_code": "PC_CHAMCHI",
+        "reason": "Đánh giá phẩm chất chăm chỉ, thái độ kiên trì vượt khó trong giải toán."
+      },
+      {
+        "metadata_code": "PC_TRUNGTHUC",
+        "reason": "Đánh giá phẩm chất trung thực trong học tập và làm bài kiểm tra."
+      },
+      {
+        "metadata_code": "NLC_TUCHUTUHOC",
+        "reason": "Đánh giá năng lực tự chủ và tự học thông qua việc tự lập quy trình thực hiện."
+      },
+      {
+        "metadata_code": "NLC_GIAOTIEP",
+        "reason": "Đánh giá năng lực giao tiếp và hợp tác trong thảo luận nhóm."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01",
+        "reason": "Đánh giá năng lực tư duy và lập luận toán học."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03",
+        "reason": "Đánh giá năng lực giải quyết vấn đề toán học qua mô hình hóa thực tế."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N",
+        "reason": "Nội dung bài học SGK về Phép nhân đa thức một biến không chứa yếu tố thực hành trực tiếp công nghệ thông tin hay phần mềm máy tính."
+      },
+      {
+        "metadata_code": "A",
+        "reason": "Nội dung bài học thuộc phạm vi Đại số thuần túy lớp 7, không tích hợp tự nhiên ứng dụng hay nguyên lý Trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc nhân đa thức với đa thức một biến (hàng ngang và đặt tính)",
+      "questiontext": "Quy tắc nhân một đa thức với một đa thức được phát biểu như thế nào?",
+      "generalfeedback": "Muốn nhân một đa thức với một đa thức, ta nhân mỗi hạng tử của đa thức này với từng hạng tử của đa thức kia rồi cộng các tích với nhau.",
+      "answers": [
+        {
+          "text": "Nhân mỗi hạng tử của đa thức này với từng hạng tử của đa thức kia rồi cộng các tích với nhau.",
+          "fraction": 100
+        },
+        {
+          "text": "Nhân mỗi hạng tử của đa thức này với hạng tử đầu tiên của đa thức kia rồi cộng các tích lại.",
+          "fraction": 0
+        },
+        {
+          "text": "Cộng các hạng tử cùng bậc của hai đa thức rồi nhân với nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Nhân các hệ số của hai đa thức với nhau và giữ nguyên các biến.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc nhân đa thức với đa thức một biến (hàng ngang và đặt tính)",
+      "questiontext": "Khi đặt tính nhân hai đa thức, ta nên nhân các hạng tử ở dòng dưới với đa thức ở dòng trên theo thứ tự từ bậc [[1]] đến bậc [[2]]. Viết các dòng sao cho các hạng tử cùng bậc [[3]] với nhau.",
+      "generalfeedback": "Theo chú ý SGK trang 37: Nhân các hạng tử từ bậc thấp đến bậc cao và viết các dòng sao cho các hạng tử cùng bậc thẳng cột với nhau.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "thấp"
+        },
+        {
+          "group": 1,
+          "text": "cao"
+        },
+        {
+          "group": 1,
+          "text": "thẳng cột"
+        },
+        {
+          "group": 1,
+          "text": "bằng nhau"
+        }
+      ],
+      "answers": [
+        {
+          "text": "thấp",
+          "fraction": 100
+        },
+        {
+          "text": "cao",
+          "fraction": 100
+        },
+        {
+          "text": "thẳng cột",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_057",
+      "questiontext": "Ghép mỗi tên tính chất của phép nhân đa thức ở cột bên trái với công thức tương ứng ở cột bên phải (với \\(A, B, C\\) là các đa thức):",
+      "generalfeedback": "Giao hoán: \\(A \\cdot B = B \\cdot A\\); Kết hợp: \\((A \\cdot B) \\cdot C = A \\cdot (B \\cdot C)\\); Phân phối: \\(A \\cdot (B + C) = A \\cdot B + A \\cdot C\\).",
+      "subquestions": [
+        {
+          "question": "Tính chất giao hoán",
+          "answer": "\\(A \\cdot B = B \\cdot A\\)"
+        },
+        {
+          "question": "Tính chất kết hợp",
+          "answer": "\\((A \\cdot B) \\cdot C = A \\cdot (B \\cdot C)\\)"
+        },
+        {
+          "question": "Tính chất phân phối đối với phép cộng",
+          "answer": "\\(A \\cdot (B + C) = A \\cdot B + A \\cdot C\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện phép nhân đa thức với đa thức một biến",
+      "questiontext": "Kết quả của phép nhân hai đa thức \\((x + 3)(2x^2 - 3x - 5)\\) là:",
+      "generalfeedback": "\\((x + 3)(2x^2 - 3x - 5) = x(2x^2 - 3x - 5) + 3(2x^2 - 3x - 5) = 2x^3 - 3x^2 - 5x + 6x^2 - 9x - 15 = 2x^3 + 3x^2 - 14x - 15\\).",
+      "answers": [
+        {
+          "text": "\\(2x^3 + 3x^2 - 14x - 15\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(2x^3 - 3x^2 - 14x - 15\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2x^3 + 3x^2 + 14x - 15\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2x^3 - 9x^2 - 14x - 15\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép nhân đa thức với đa thức một biến",
+      "questiontext": "Hệ số tự do của đa thức tích khi thực hiện phép nhân \\((x^2 - 2x + 5)(x - 2)\\) là bao nhiêu?",
+      "generalfeedback": "Hệ số tự do thu được từ phép nhân hai hệ số tự do: \\(5 \\cdot (-2) = -10\\). Phép nhân đầy đủ cho kết quả \\(x^3 - 4x^2 + 9x - 10\\).",
+      "answers": [
+        {
+          "text": "-10",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép nhân đa thức với đa thức một biến",
+      "questiontext": "Cho hai đa thức \\(P(x) = x^2 - 2x + 5\\) và \\(Q(x) = x - 2\\). Phát biểu sau đây Đúng hay Sai: \"Kết quả của phép nhân \\(P(x) \\cdot (2 - x)\\) là \\(-x^3 + 4x^2 - 9x + 10\\)\".",
+      "generalfeedback": "Vì \\(2 - x = -(x - 2)\\), nên \\(P(x) \\cdot (2 - x) = -(x^2 - 2x + 5)(x - 2) = -(x^3 - 4x^2 + 9x - 10) = -x^3 + 4x^2 - 9x + 10\\). Phát biểu này là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_055",
+      "questiontext": "Cho đa thức \\(A(x) = x + \\) {a} và \\(B(x) = x - \\) {a}. Bậc của đa thức tích \\(A(x) \\cdot B(x)\\) là bao nhiêu?",
+      "generalfeedback": "\\(A(x) \\cdot B(x) = (x + \\) {a} \\()(x - \\) {a} \\() = x^2 - \\) {a} \\(^2\\). Đa thức tích có bậc là 2.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Rút gọn biểu thức chứa phép nhân đa thức",
+      "questiontext": "Rút gọn biểu thức \\(A = (x - 2)(2x^3 - x^2 + 1) + (x - 2)x^2(1 - 2x)\\) ta được kết quả là:",
+      "generalfeedback": "Áp dụng tính chất phân phối: \\(A = (x - 2)[(2x^3 - x^2 + 1) + x^2(1 - 2x)] = (x - 2)[2x^3 - x^2 + 1 + x^2 - 2x^3] = (x - 2) \\cdot 1 = x - 2\\).",
+      "answers": [
+        {
+          "text": "\\(x - 2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(2x - 4\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x^2 - 2x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(1\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện phép nhân đa thức với đa thức một biến",
+      "questiontext": "Cho hình hộp chữ nhật có ba kích thước lần lượt là \\(x\\), \\(x + 1\\), \\(x - 1\\) (cm) với \\(x > 1\\). Tính thể tích của hình hộp chữ nhật đó tại \\(x = 3\\) cm. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Đa thức biểu thị thể tích là \\(V(x) = x(x + 1)(x - 1) = x(x^2 - 1) = x^3 - x\\). Tại \\(x = 3\\), \\(V(3) = 3^3 - 3 = 27 - 3 = 24\\).",
+      "answers": [
+        {
+          "text": "24",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_057",
+      "questiontext": "Trong bài toán đoán tuổi của anh Pi: Kết quả thứ nhất biểu thị bởi đa thức [[1]], kết quả thứ hai biểu thị bởi đa thức [[2]]. Đa thức biểu thị kết quả cuối cùng (kết quả 1 trừ kết quả 2) là [[3]]. [img:_page_0_Picture_8.jpeg]",
+      "imgs": [
+        "_page_0_Picture_8.jpeg"
+      ],
+      "generalfeedback": "Gọi x là tuổi. Kết quả 1 = \\((x+1)^2 = x^2 + 2x + 1\\). Kết quả 2 = \\((x-1)^2 = x^2 - 2x + 1\\). Kết quả cuối cùng = \\((x^2 + 2x + 1) - (x^2 - 2x + 1) = 4x\\). Anh Pi chỉ cần lấy kết quả chia cho 4 là ra tuổi x.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\((x+1)^2\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\((x-1)^2\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(4x\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(2x\\)"
+        }
+      ],
+      "answers": [
+        {
+          "text": "\\((x+1)^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\((x-1)^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(4x\\)",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Trong giờ học Toán, khi gặp bài tập nhân hai đa thức phức tạp \\((2x^2 - 3x + 1)(x^2 + 4x - 5)\\), bạn An cảm thấy lúng túng vì phép tính dài và dễ nhầm lẫn. Hành động nào sau đây thể hiện phẩm chất chăm chỉ và thái độ học tập tích cực của An?",
+      "generalfeedback": "Thái độ chăm chỉ thể hiện ở sự kiên trì, không ngại khó khăn, kiên nhẫn chia nhỏ các bước nhân từng hạng tử và kiểm tra kỹ lưỡng kết quả thay vì bỏ cuộc hay chép bài.",
+      "answers": [
+        {
+          "text": "Kiên nhẫn thực hiện từng bước nhân đơn thức với đa thức, nhóm các hạng tử cùng bậc và kiểm tra kỹ lại phép tính.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua câu hỏi vì bài quá dài và đợi giáo viên chữa bài trên bảng.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép ngay kết quả của bạn bên cạnh để nhanh chóng hoàn thành bài tập.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ làm phần nhân hạng tử đầu tiên rồi đoán kết quả các hạng tử còn lại.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Trong bài kiểm tra, khi tính tích \\((x - 2)(2x^3 - x^2 + 1)\\), bạn Bình lỡ tính sai một dấu dẫn đến kết quả khác với đáp án của bạn bên cạnh. Bình đã tự kiểm tra lại từng bước biến đổi của mình và giữ nguyên bài làm thực chất thay vì sửa theo đáp án của bạn. Phát biểu: \"Hành động của Bình thể hiện sự trung thực trong học tập\" là Đúng hay Sai?",
+      "generalfeedback": "Hành động tự giác, trung thực đối với kết quả làm bài của bản thân, không gian lận hay chép bài người khác chính là biểu hiện của phẩm chất trung thực.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Để tự học và làm chủ quy tắc nhân đa thức với đa thức, bạn Hoa lập danh sách các bước thực hiện. Hãy xác định thứ tự sắp xếp hợp lý nhất thể hiện năng lực tự chủ và tự học của Hoa:\n(1) Nhân mỗi hạng tử của đa thức thứ nhất với từng hạng tử của đa thức thứ hai.\n(2) Nhóm các hạng tử cùng bậc và thu gọn đa thức tích.\n(3) Kiểm tra lại bậc của đa thức tích xem có bằng tổng bậc của hai đa thức ban đầu hay không.",
+      "generalfeedback": "Quy tắc tự học và thực hành nhân đa thức gồm: Thực hiện phép nhân từng hạng tử (1) -> Nhóm và thu gọn hạng tử cùng bậc (2) -> Kiểm tra tính hợp lý của bậc đa thức tích (3).",
+      "answers": [
+        {
+          "text": "(1) -> (2) -> (3)",
+          "fraction": 100
+        },
+        {
+          "text": "(2) -> (1) -> (3)",
+          "fraction": 0
+        },
+        {
+          "text": "(3) -> (1) -> (2)",
+          "fraction": 0
+        },
+        {
+          "text": "(1) -> (3) -> (2)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_GIAOTIEP",
+      "questiontext": "Trong hoạt động thảo luận nhóm về các phương pháp trình bày phép nhân đa thức \\((x + 3)(2x^2 - 3x - 5)\\), các bạn học sinh đưa ra các ý kiến trao đổi. Ghép mỗi vai trò/ý kiến ở cột bên trái với đánh giá giao tiếp hợp tác tương ứng ở cột bên phải:",
+      "generalfeedback": "Giao tiếp và hợp tác đòi hỏi sự lắng nghe tôn trọng, phản biện có căn cứ toán học và giải thích rõ ràng cách làm cho đồng đội.",
+      "subquestions": [
+        {
+          "question": "Lắng nghe bạn giải thích cách đặt tính nhân theo cột dọc",
+          "answer": "Tôn trọng ý kiến và tiếp thu phương pháp học tập mới"
+        },
+        {
+          "question": "Chỉ ra chỗ sai dấu của bạn khi thực hiện nhân hàng ngang",
+          "answer": "Phản biện góp ý tích cực dựa trên quy tắc toán học"
+        },
+        {
+          "question": "Trình bày các bước thu gọn đa thức tích cho cả nhóm cùng soát",
+          "answer": "Chia sẻ và truyền đạt thông tin rõ ràng trong làm việc nhóm"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Một học sinh thực hiện phép nhân hai đa thức một biến có bậc lần lượt là \\(m\\) và \\(n\\) (với \\(m, n \\ge 1\\)). Bằng lập luận toán học, học sinh đó khẳng định hạng tử có bậc cao nhất của đa thức tích có bậc là bao nhiêu?",
+      "generalfeedback": "Hạng tử có bậc cao nhất của đa thức tích được tạo thành từ tích của hai hạng tử có bậc cao nhất của hai đa thức thành phần: \\(a x^m \\cdot b x^n = a b x^{m+n}\\). Do đó bậc của đa thức tích là \\(m + n\\).",
+      "answers": [
+        {
+          "text": "\\(m + n\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(m \\cdot n\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\max(m, n)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(m + n + 1\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "questiontext": "Mô hình hóa bài toán thực tế: Người ta rào một mảnh vườn hình chữ nhật có số cọc rào chiều dài nhiều hơn chiều rộng 20 chiếc, cọc cắm cách nhau 0,1 m. Gọi x là số cọc chiều rộng. Để tìm diện tích mảnh vườn, ta mô hình hóa chiều rộng là [[1]] m, chiều dài là [[2]] m và diện tích biểu thị bởi đa thức [[3]] \\(m^2\\).",
+      "generalfeedback": "Chiều rộng = 0,1x (m). Chiều dài = 0,1(x + 20) = 0,1x + 2 (m). Diện tích S = 0,1x(0,1x + 2) = 0,01x^2 + 0,2x (m^2). Sự chuyển đổi từ tình huống thực tế sang biểu thức đại số là năng lực giải quyết vấn đề toán học.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(0,1x\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(0,1x + 2\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(0,01x^2 + 0,2x\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(0,1x + 20\\)"
+        }
+      ],
+      "answers": [
+        {
+          "text": "\\(0,1x\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(0,1x + 2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(0,01x^2 + 0,2x\\)",
+          "fraction": 100
+        }
+      ]
+    }
+  ]
+}

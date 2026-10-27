@@ -1,0 +1,645 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 27,
+    "metadata_used": {
+      "Khái niệm điểm, đường thẳng": 4,
+      "Quan hệ điểm thuộc đường thẳng (A in d) và không thuộc đường thẳng (B notin d)": 4,
+      "YCCD_TOAN6_111": 4,
+      "Nhận biết điểm thuộc hoặc không thuộc đường thẳng": 4,
+      "Vẽ điểm và đường thẳng theo kí hiệu": 4,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TUHOC_C2_04": 2,
+      "SUB_GTHT_XACDINHMD_C2_03": 1,
+      "NLT_TOAN_C2_01_02": 1,
+      "NLT_TOAN_C2_05_01": 1
+    },
+    "types_used": {
+      "multichoice": 13,
+      "truefalse": 5,
+      "gapselect": 3,
+      "matching": 3,
+      "shortanswer": 3
+    },
+    "total": 27
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN6_111",
+        "reason": "Nội dung bài học cung cấp đầy đủ khái niệm và ví dụ về quan hệ điểm thuộc, không thuộc đường thẳng."
+      },
+      {
+        "metadata_code": "Khái niệm điểm, đường thẳng",
+        "reason": "Nội dung bài học mô tả cụ thể về hình ảnh và cách đặt tên điểm, đường thẳng."
+      },
+      {
+        "metadata_code": "Quan hệ điểm thuộc đường thẳng (A in d) và không thuộc đường thẳng (B notin d)",
+        "reason": "Nội dung bài học có quy định rõ ràng về kí hiệu thuộc (\\in) và không thuộc (\\notin)."
+      },
+      {
+        "metadata_code": "Nhận biết điểm thuộc hoặc không thuộc đường thẳng",
+        "reason": "Có hình vẽ và kí hiệu để rèn luyện kỹ năng xác định điểm thuộc/không thuộc đường thẳng."
+      },
+      {
+        "metadata_code": "Vẽ điểm và đường thẳng theo kí hiệu",
+        "reason": "Có hướng dẫn chi tiết cách biểu diễn và vẽ điểm, đường thẳng theo kí hiệu."
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm điểm, đường thẳng",
+      "questiontext": "Để đặt tên cho đường thẳng, người ta thường dùng kí hiệu nào sau đây?",
+      "generalfeedback": "Theo quy ước trong SGK, người ta thường dùng chữ cái in thường (a, b, c, d,...) hoặc hai chữ cái in thường (xy, yx) hoặc hai chữ cái in hoa chỉ hai điểm thuộc đường thẳng (AB, BA) để đặt tên cho đường thẳng.",
+      "answers": [
+        {
+          "text": "Chữ cái in thường (a, b, c, d,...)",
+          "fraction": 100
+        },
+        {
+          "text": "Chữ cái in hoa (A, B, C, D,...)",
+          "fraction": 0
+        },
+        {
+          "text": "Chữ số La Mã (I, II, III,...)",
+          "fraction": 0
+        },
+        {
+          "text": "Các kí hiệu hình học (\\(\\triangle, \\bigcirc\\))",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Quan hệ điểm thuộc đường thẳng (A in d) và không thuộc đường thẳng (B notin d)",
+      "questiontext": "Cho điểm \\(M\\) nằm trên đường thẳng \\(d\\). Kí hiệu nào sau đây diễn đạt đúng quan hệ điểm \\(M\\) thuộc đường thẳng \\(d\\)?",
+      "generalfeedback": "Kí hiệu điểm \\(M\\) thuộc đường thẳng \\(d\\) là \\(M \\in d\\).",
+      "answers": [
+        {
+          "text": "\\(M \\in d\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(M \\notin d\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(d \\in M\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(M \\subset d\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_111",
+      "questiontext": "Khẳng định sau đây đúng hay sai: \"Hình ảnh một dấu chấm nhỏ từ đầu bút chì cho ta hình ảnh của một điểm, còn một vạch thẳng vẽ bằng thước cho ta hình ảnh của một đường thẳng.\"",
+      "generalfeedback": "Đây là phát biểu đúng theo định nghĩa ban đầu về hình ảnh của điểm và đường thẳng trong SGK.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Quan hệ điểm thuộc đường thẳng (A in d) và không thuộc đường thẳng (B notin d)",
+      "questiontext": "Để kí hiệu \"Điểm \\(N\\) không thuộc đường thẳng \\(d\\)\", ta viết như thế nào?",
+      "generalfeedback": "Kí hiệu điểm \\(N\\) không thuộc đường thẳng \\(d\\) là \\(N \\notin d\\).",
+      "answers": [
+        {
+          "text": "\\(N \\notin d\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(N \\in d\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(d \\notin N\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(N \\subset d\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết điểm thuộc hoặc không thuộc đường thẳng",
+      "questiontext": "Khi điểm \\(A\\) thuộc đường thẳng \\(m\\), ta còn nói điểm \\(A\\) nằm [[1]] đường thẳng \\(m\\), hay đường thẳng \\(m\\) đi [[2]] điểm \\(A\\).",
+      "generalfeedback": "Các cách diễn đạt tương đương: Điểm \\(A\\) thuộc đường thẳng \\(m\\), điểm \\(A\\) nằm trên đường thẳng \\(m\\), đường thẳng \\(m\\) đi qua điểm \\(A\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "trên"
+        },
+        {
+          "group": 1,
+          "text": "qua"
+        },
+        {
+          "group": 1,
+          "text": "ngoài"
+        },
+        {
+          "group": 1,
+          "text": "dưới"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Vẽ điểm và đường thẳng theo kí hiệu",
+      "questiontext": "Có bao nhiêu đường thẳng đi qua hai điểm phân biệt \\(A\\) và \\(B\\)?",
+      "generalfeedback": "Có một đường thẳng và chỉ một đường thẳng đi qua hai điểm phân biệt.",
+      "answers": [
+        {
+          "text": "Đúng 1 đường thẳng",
+          "fraction": 100
+        },
+        {
+          "text": "Có 2 đường thẳng",
+          "fraction": 0
+        },
+        {
+          "text": "Có vô số đường thẳng",
+          "fraction": 0
+        },
+        {
+          "text": "Không có đường thẳng nào",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết điểm thuộc hoặc không thuộc đường thẳng",
+      "questiontext": "Ghép mỗi kí hiệu hoặc cách diễn đạt ở cột bên trái với ý nghĩa tương ứng ở cột bên phải.",
+      "generalfeedback": "Cần nhớ rõ quy ước ký hiệu thuộc (\\(\\in\\)) và không thuộc (\\(\\notin\\)).",
+      "subquestions": [
+        {
+          "question": "\\(A \\in d\\)",
+          "answer": "Điểm A thuộc đường thẳng d"
+        },
+        {
+          "question": "\\(B \\notin d\\)",
+          "answer": "Điểm B không thuộc đường thẳng d"
+        },
+        {
+          "question": "Đường thẳng AB",
+          "answer": "Đường thẳng đi qua hai điểm phân biệt A và B"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_111",
+      "imgs": [
+        "_page_1_Picture_2.jpeg"
+      ],
+      "questiontext": "Quan sát hình ảnh quả bóng nằm trên vạch vôi sân bóng đá dưới đây:\n[img:_page_1_Picture_2.jpeg]\nHình ảnh này minh họa cho quan hệ hình học nào sau đây?",
+      "generalfeedback": "Quả bóng đại diện cho một điểm, vạch vôi đại diện cho một đường thẳng. Quả bóng nằm trên vạch vôi minh họa cho quan hệ điểm thuộc đường thẳng.",
+      "answers": [
+        {
+          "text": "Điểm thuộc đường thẳng",
+          "fraction": 100
+        },
+        {
+          "text": "Điểm không thuộc đường thẳng",
+          "fraction": 0
+        },
+        {
+          "text": "Hai đường thẳng song song",
+          "fraction": 0
+        },
+        {
+          "text": "Hai đường thẳng cắt nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Vẽ điểm và đường thẳng theo kí hiệu",
+      "questiontext": "Cho hai điểm phân biệt \\(M\\) và \\(N\\). Đường thẳng đi qua hai điểm \\(M\\) và \\(N\\) có thể gọi là đường thẳng \\(MN\\) hoặc đường thẳng \\(NM\\). Khẳng định này đúng hay sai?",
+      "generalfeedback": "Đường thẳng đi qua hai điểm phân biệt M, N được gọi là đường thẳng MN hoặc đường thẳng NM.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm điểm, đường thẳng",
+      "questiontext": "Người ta thường dùng chữ cái in thường hay chữ cái in hoa để đặt tên cho điểm?",
+      "generalfeedback": "Người ta thường dùng chữ cái in hoa để đặt tên điểm.",
+      "answers": [
+        {
+          "text": "Chữ cái in hoa",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Quan hệ điểm thuộc đường thẳng (A in d) và không thuộc đường thẳng (B notin d)",
+      "questiontext": "Cho điểm \\(A\\) không thuộc đường thẳng \\(m\\). Cách viết nào sau đây diễn đạt đúng quan hệ này?",
+      "generalfeedback": "Kí hiệu điểm \\(A\\) không thuộc đường thẳng \\(m\\) là \\(A \\notin m\\).",
+      "answers": [
+        {
+          "text": "\\(A \\notin m\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(A \\in m\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(m \\notin A\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(A \\subset m\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết điểm thuộc hoặc không thuộc đường thẳng",
+      "questiontext": "Cho điểm \\(P\\) nằm trên đường thẳng \\(a\\). Khẳng định \"Đường thẳng \\(a\\) không đi qua điểm \\(P\\)\" là đúng hay sai?",
+      "generalfeedback": "Khi điểm \\(P\\) nằm trên đường thẳng \\(a\\), ta còn nói đường thẳng \\(a\\) đi qua điểm \\(P\\). Do đó khẳng định trên là sai.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm điểm, đường thẳng",
+      "questiontext": "Người ta thường dùng các chữ cái in [[1]] để đặt tên cho điểm và các chữ cái in [[2]] để đặt tên cho đường thẳng.",
+      "generalfeedback": "Theo quy ước SGK, dùng chữ cái in hoa đặt tên điểm và chữ cái in thường đặt tên đường thẳng.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "hoa"
+        },
+        {
+          "group": 1,
+          "text": "thường"
+        },
+        {
+          "group": 1,
+          "text": "số"
+        },
+        {
+          "group": 1,
+          "text": "La Mã"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Vẽ điểm và đường thẳng theo kí hiệu",
+      "questiontext": "Qua hai điểm phân biệt \\(X\\) và \\(Y\\), ta vẽ được bao nhiêu đường thẳng?",
+      "generalfeedback": "Có một đường thẳng và chỉ một đường thẳng đi qua hai điểm phân biệt.",
+      "answers": [
+        {
+          "text": "Chỉ 1 đường thẳng",
+          "fraction": 100
+        },
+        {
+          "text": "Đúng 2 đường thẳng",
+          "fraction": 0
+        },
+        {
+          "text": "Vô số đường thẳng",
+          "fraction": 0
+        },
+        {
+          "text": "Không vẽ được đường thẳng nào",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_111",
+      "questiontext": "Cho điểm \\(E\\) và đường thẳng \\(d\\). Nếu điểm \\(E\\) nằm trên đường thẳng \\(d\\), ta nói điểm \\(E\\) [...] đường thẳng \\(d\\). (Điền một từ thích hợp vào chỗ trống)",
+      "generalfeedback": "Nếu điểm E nằm trên đường thẳng d, ta nói điểm E thuộc đường thẳng d.",
+      "answers": [
+        {
+          "text": "thuộc",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết điểm thuộc hoặc không thuộc đường thẳng",
+      "questiontext": "Cho kí hiệu \\(H \\in k\\). Phát biểu nào sau đây là **SAI**?",
+      "generalfeedback": "\\(H \\in k\\) có nghĩa là điểm H thuộc đường thẳng k, nằm trên đường thẳng k, và đường thẳng k đi qua điểm H. Do đó phát biểu 'Điểm H không thuộc đường thẳng k' là sai.",
+      "answers": [
+        {
+          "text": "Điểm \\(H\\) không thuộc đường thẳng \\(k\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Điểm \\(H\\) thuộc đường thẳng \\(k\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Điểm \\(H\\) nằm trên đường thẳng \\(k\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Đường thẳng \\(k\\) đi qua điểm \\(H\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm điểm, đường thẳng",
+      "questiontext": "Để nhấn mạnh hai phía của đường thẳng, người ta còn dùng hai chữ cái in thường để đặt tên cho đường thẳng (chẳng hạn đường thẳng \\(xy\\)). Khẳng định này đúng hay sai?",
+      "generalfeedback": "SGK nêu rõ: Để nhấn mạnh hai phía của đường thẳng, người ta còn dùng hai chữ cái thường để đặt tên, chẳng hạn đường thẳng xy.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Vẽ điểm và đường thẳng theo kí hiệu",
+      "questiontext": "Ghép các cách đặt tên đường thẳng ở cột bên trái với ví dụ hoặc mô tả tương ứng ở cột bên phải.",
+      "generalfeedback": "Nắm vững các cách đặt tên đường thẳng: 1 chữ cái in thường, 2 chữ cái in thường, hoặc tên 2 điểm phân biệt thuộc đường thẳng.",
+      "subquestions": [
+        {
+          "question": "Đường thẳng đi qua hai điểm A và B",
+          "answer": "Đường thẳng AB"
+        },
+        {
+          "question": "Đặt tên bằng một chữ cái in thường",
+          "answer": "Đường thẳng d"
+        },
+        {
+          "question": "Đặt tên bằng hai chữ cái in thường",
+          "answer": "Đường thẳng xy"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_111",
+      "questiontext": "Trong các hình ảnh thực tế sau đây, hình ảnh nào minh họa cho quan hệ một điểm nằm trên một đường thẳng?",
+      "generalfeedback": "Quả bóng nằm trên vạch vôi của sân bóng đá cho ta hình ảnh một điểm nằm trên một đường thẳng.",
+      "answers": [
+        {
+          "text": "Quả bóng nằm trên vạch vôi sân bóng đá",
+          "fraction": 100
+        },
+        {
+          "text": "Hai thanh ray đường tàu hỏa",
+          "fraction": 0
+        },
+        {
+          "text": "Hai con đường giao nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Mặt bảng lớp học",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Quan hệ điểm thuộc đường thẳng (A in d) và không thuộc đường thẳng (B notin d)",
+      "questiontext": "Viết kí hiệu toán học diễn đạt câu: \"Điểm \\(B\\) không thuộc đường thẳng \\(a\\)\".",
+      "generalfeedback": "Kí hiệu điểm \\(B\\) không thuộc đường thẳng \\(a\\) được viết là \\(B \\notin a\\).",
+      "answers": [
+        {
+          "text": "\\(B \\notin a\\)",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ học Toán về \"Điểm và đường thẳng\", khi gặp một bài tập khó yêu cầu xác định điểm thuộc hoặc không thuộc đường thẳng, bạn An chưa làm được ngay. Để thể hiện ý thức luôn cố gắng vươn lên đạt kết quả tốt trong học tập, bạn An nên chọn cách xử lý nào sau đây?",
+      "generalfeedback": "Để vươn lên đạt kết quả tốt trong học tập (Q1), khi gặp bài tập khó, học sinh cần chủ động suy nghĩ, tìm hiểu lại kiến thức trong sách giáo khoa, trao đổi với thầy cô hoặc bạn bè để hiểu rõ và tự làm bài.",
+      "answers": [
+        {
+          "text": "Tự suy nghĩ, đọc lại lý thuyết trong SGK và nhờ giáo viên hoặc bạn bè giảng lại chỗ chưa hiểu để tự hoàn thành bài",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài tập khó và chờ đến khi giáo viên sửa bài thì chép đáp án vào vở",
+          "fraction": 0
+        },
+        {
+          "text": "Mượn ngay vở của bạn để chép đáp án cho nhanh nhằm đủ bài nộp",
+          "fraction": 0
+        },
+        {
+          "text": "Không làm bài và cho rằng mình không có năng khiếu học môn Toán",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Để lưu giữ thông tin có chọn lọc bằng bảng tóm tắt khi học bài \"Điểm và đường thẳng\", em hãy ghép mỗi kí hiệu toán học ở cột bên trái với ý nghĩa tóm tắt tương ứng ở cột bên phải.",
+      "generalfeedback": "Lưu giữ thông tin có chọn lọc (G1): Việc hệ thống hóa kí hiệu và ý nghĩa tương ứng giúp ghi tóm tắt kiến thức cốt lõi một cách ngắn gọn, khoa học.",
+      "subquestions": [
+        {
+          "question": "\\(M \\in d\\)",
+          "answer": "Điểm M thuộc đường thẳng d (M nằm trên d)"
+        },
+        {
+          "question": "\\(N \\notin d\\)",
+          "answer": "Điểm N không thuộc đường thẳng d (N nằm ngoài d)"
+        },
+        {
+          "question": "Đường thẳng AB",
+          "answer": "Đường thẳng đi qua hai điểm phân biệt A và B"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "questiontext": "Một bản tin thể thao mô tả tình huống trên sân cỏ: \"Trọng tài đặt quả bóng \\(B\\) đúng trên vạch vôi \\(d\\) trước khi cầu thủ thực hiện quả sút phạt\". Mô tả này sử dụng ngôn ngữ đời sống kết hợp với mô hình đường thẳng trong toán học. Kí hiệu toán học nào sau đây thể hiện đúng nhất mối quan hệ giữa quả bóng \\(B\\) và vạch vôi \\(d\\)?",
+      "generalfeedback": "Tiếp nhận văn bản đời sống kết hợp kí hiệu toán học (G2): Quả bóng B đặt trên vạch vôi d minh họa cho quan hệ điểm thuộc đường thẳng, kí hiệu là \\(B \\in d\\).",
+      "answers": [
+        {
+          "text": "\\(B \\in d\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(B \\notin d\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(d \\in B\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(B = d\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_02",
+      "imgs": [
+        "_page_1_Figure_17.jpeg"
+      ],
+      "questiontext": "Quan sát hình ảnh thực hành dùng thước thẳng và bút vẽ đường thẳng đi qua hai điểm \\(A\\) và \\(B\\) dưới đây:\n[img:_page_1_Figure_17.jpeg]\nBằng năng lực quan sát tình huống thực hành trên, em hãy rút ra kết luận đúng về số đường thẳng có thể vẽ được đi qua hai điểm phân biệt \\(A\\) và \\(B\\).",
+      "generalfeedback": "Năng lực quan sát tình huống (D1): Qua quan sát thao tác vẽ bằng thước và bút, ta nhận thấy có một và chỉ một đường thẳng đi qua hai điểm phân biệt A và B.",
+      "answers": [
+        {
+          "text": "Có một và chỉ một đường thẳng đi qua hai điểm phân biệt \\(A\\) và \\(B\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Có đúng hai đường thẳng phân biệt đi qua hai điểm \\(A\\) và \\(B\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Có vô số đường thẳng đi qua hai điểm \\(A\\) và \\(B\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Không vẽ được đường thẳng nào đi qua hai điểm \\(A\\) và \\(B\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "NLT_TOAN_C2_05_01",
+      "questiontext": "Trong các phương tiện và công cụ học toán sau đây, công cụ nào được sử dụng trực tiếp để vẽ đường thẳng và kiểm tra tính thẳng hàng của các điểm trong bài học?",
+      "generalfeedback": "Nhận biết tên gọi phương tiện học toán (D2): Thước thẳng là công cụ cơ bản dùng để vẽ vạch thẳng (hình ảnh đường thẳng) và kiểm tra các điểm thẳng hàng.",
+      "answers": [
+        {
+          "text": "Thước thẳng",
+          "fraction": 100
+        },
+        {
+          "text": "Com-pa",
+          "fraction": 0
+        },
+        {
+          "text": "Thước đo góc (ê-ke)",
+          "fraction": 0
+        },
+        {
+          "text": "Mô hình hình học không gian",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong hoạt động nhóm, bạn Bình chủ động nhận phần việc vẽ hình toán học phức tạp và kiên trì thử lại nhiều lần bằng thước thẳng khi vẽ chưa chuẩn. Khẳng định: \"Hành động của bạn Bình thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập\" là đúng hay sai?",
+      "generalfeedback": "Ý thức vươn lên trong học tập (Q1) thể hiện qua việc không ngại khó khăn, kiên trì luyện tập và hoàn thiện kĩ năng học tập.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Để lập bản đồ khái niệm tóm tắt về mối quan hệ giữa điểm và đường thẳng, ta điền các từ khoá thích hợp: Khi điểm \\(A\\) nằm trên đường thẳng \\(d\\), ta tóm tắt là điểm \\(A\\) [[1]] đường thẳng \\(d\\); khi điểm \\(B\\) nằm ngoài đường thẳng \\(d\\), ta tóm tắt là điểm \\(B\\) [[2]] đường thẳng \\(d\\).",
+      "generalfeedback": "Ghi tóm tắt bằng bản đồ khái niệm (G1): Sử dụng các từ khoá cốt lõi \"thuộc\" và \"không thuộc\" để cô đọng mối quan hệ hình học.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "thuộc"
+        },
+        {
+          "group": 1,
+          "text": "không thuộc"
+        },
+        {
+          "group": 1,
+          "text": "song song"
+        },
+        {
+          "group": 1,
+          "text": "cắt"
+        }
+      ]
+    }
+  ]
+}

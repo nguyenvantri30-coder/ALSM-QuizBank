@@ -1,0 +1,282 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 10,
+    "metadata_used": {
+      "Bảng giá trị tỉ số lượng giác của các góc nhọn đặc biệt (30": 3,
+      "YCCD_TOAN9_062": 2,
+      "60 độ)": 2,
+      "Tính giá trị biểu thức chứa tỉ số lượng giác của các góc đặc biệt": 2,
+      "Giải bài tập tổng hợp về tỉ số lượng giác": 1
+    },
+    "types_used": {
+      "multichoice": 3,
+      "truefalse": 1,
+      "shortanswer": 0,
+      "numerical": 1,
+      "matching": 1,
+      "gapselect": 1,
+      "ddwtos": 1,
+      "calculated": 1,
+      "calculatedsimple": 1,
+      "calculatedmulti": 0
+    },
+    "total": 10
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN9_062",
+        "reason": "Có đầy đủ dữ kiện trong SGK để đo lường"
+      },
+      {
+        "metadata_code": "Bảng giá trị tỉ số lượng giác của các góc nhọn đặc biệt (30",
+        "reason": "Có đầy đủ dữ kiện trong SGK để đo lường"
+      },
+      {
+        "metadata_code": "60 độ)",
+        "reason": "Có đầy đủ dữ kiện trong SGK để đo lường"
+      },
+      {
+        "metadata_code": "Tính giá trị biểu thức chứa tỉ số lượng giác của các góc đặc biệt",
+        "reason": "Có đầy đủ dữ kiện trong SGK để đo lường"
+      },
+      {
+        "metadata_code": "Giải bài tập tổng hợp về tỉ số lượng giác",
+        "reason": "Có đầy đủ dữ kiện trong SGK để đo lường"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học Toán 9 về tỉ số lượng giác không chứa nội dung tự nhiên về năng lực tin học/số."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Bài học Toán 9 về tỉ số lượng giác không chứa nội dung tự nhiên về ứng dụng AI."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Bảng giá trị tỉ số lượng giác của các góc nhọn đặc biệt (30",
+      "questiontext": "Giá trị của \\(\\sin 30^\\circ\\) bằng bao nhiêu?",
+      "generalfeedback": "Theo bảng giá trị tỉ số lượng giác của các góc đặc biệt, \\(\\sin 30^\\circ = \\frac{1}{2}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{1}{2}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{\\sqrt{3}}{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{\\sqrt{2}}{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{\\sqrt{3}}{3}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_062",
+      "questiontext": "Xét tam giác \\(ABC\\) vuông cân tại \\(A\\). Hãy giải thích vì sao \\(\\sin 45^\\circ = \\frac{\\sqrt{2}}{2}\\).",
+      "generalfeedback": "Trong tam giác \\(ABC\\) vuông cân tại \\(A\\) có \\(AB = AC = a\\), theo định lí Pythagore ta có \\(BC = a\\sqrt{2}\\). Khi đó \\(\\sin 45^\\circ = \\frac{AC}{BC} = \\frac{a}{a\\sqrt{2}} = \\frac{1}{\\sqrt{2}} = \\frac{\\sqrt{2}}{2}\\).",
+      "answers": [
+        {
+          "text": "Vì tam giác vuông cân có cạnh huyền gấp \\(\\sqrt{2}\\) lần cạnh góc vuông, do đó tỷ số giữa cạnh đối và cạnh huyền bằng \\(\\frac{1}{\\sqrt{2}} = \\frac{\\sqrt{2}}{2}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Vì tam giác vuông cân có hai cạnh góc vuông bằng nhau và bằng cạnh huyền",
+          "fraction": 0
+        },
+        {
+          "text": "Vì góc \\(45^\\circ\\) bằng một nửa góc vuông nên tỉ số lượng giác bằng \\(\\frac{1}{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Vì đường cao ứng với cạnh huyền bằng một nửa cạnh huyền nên tỉ số bằng \\(\\frac{\\sqrt{3}}{2}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Bảng giá trị tỉ số lượng giác của các góc nhọn đặc biệt (30",
+      "questiontext": "Khẳng định sau đây đúng hay sai: \"Giá trị của \\(\\tan 45^\\circ\\) bằng \\(1\\)\".",
+      "generalfeedback": "Theo bảng giá trị tỉ số lượng giác các góc đặc biệt, \\(\\tan 45^\\circ = 1\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "60 độ)",
+      "questiontext": "Giá trị của \\(\\cos 60^\\circ\\) bằng bao nhiêu?",
+      "generalfeedback": "Theo bảng giá trị tỉ số lượng giác của các góc đặc biệt, \\(\\cos 60^\\circ = \\frac{1}{2}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{1}{2}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{\\sqrt{3}}{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{\\sqrt{2}}{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "1",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính giá trị biểu thức chứa tỉ số lượng giác của các góc đặc biệt",
+      "questiontext": "Tính giá trị của biểu thức \\(A = \\sin 30^\\circ + \\cos 60^\\circ\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "\\(A = \\sin 30^\\circ + \\cos 60^\\circ = \\frac{1}{2} + \\frac{1}{2} = 1\\).",
+      "answers": [
+        {
+          "text": "1",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Bảng giá trị tỉ số lượng giác của các góc nhọn đặc biệt (30",
+      "questiontext": "Hãy ghép mỗi tỉ số lượng giác ở cột bên trái với giá trị tương ứng ở cột bên phải:",
+      "generalfeedback": "Theo bảng giá trị tỉ số lượng giác các góc đặc biệt: \\(\\sin 60^\\circ = \\frac{\\sqrt{3}}{2}\\), \\(\\tan 30^\\circ = \\frac{\\sqrt{3}}{3}\\), \\(\\cot 45^\\circ = 1\\).",
+      "subquestions": [
+        {
+          "question": "\\(\\sin 60^\\circ\\)",
+          "answer": "\\(\\frac{\\sqrt{3}}{2}\\)"
+        },
+        {
+          "question": "\\(\\tan 30^\\circ\\)",
+          "answer": "\\(\\frac{\\sqrt{3}}{3}\\)"
+        },
+        {
+          "question": "\\(\\cot 45^\\circ\\)",
+          "answer": "1"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "60 độ)",
+      "questiontext": "Trong bảng tỉ số lượng giác của góc nhọn đặc biệt, giá trị của \\(\\sin 45^\\circ\\) là [[1]] và giá trị của \\(\\cot 30^\\circ\\) là [[2]].",
+      "generalfeedback": "\\(\\sin 45^\\circ = \\frac{\\sqrt{2}}{2}\\) và \\(\\cot 30^\\circ = \\sqrt{3}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(\\frac{\\sqrt{2}}{2}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\sqrt{3}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{1}{2}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{\\sqrt{3}}{3}\\)"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_062",
+      "questiontext": "Xét tam giác đều \\(ABC\\) cạnh \\(2a\\) có đường cao \\(AH\\). Ta có góc \\(\\widehat{BAH} = 30^\\circ\\). Độ dài \\(BH = a\\) và \\(AH =\\) [[1]]. Do đó \\(\\cos 30^\\circ = \\frac{AH}{AB} =\\) [[2]].",
+      "generalfeedback": "Theo định lí Pythagore trong tam giác vuông \\(ABH\\), \\(AH = \\sqrt{(2a)^2 - a^2} = a\\sqrt{3}\\). Do đó \\(\\cos 30^\\circ = \\frac{a\\sqrt{3}}{2a} = \\frac{\\sqrt{3}}{2}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(a\\sqrt{3}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{\\sqrt{3}}{2}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(a\\sqrt{2}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{1}{2}\\)"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Giải bài tập tổng hợp về tỉ số lượng giác",
+      "questiontext": "Cho tam giác \\(ABC\\) vuông tại \\(A\\) có góc \\(C = 30^\\circ\\) và cạnh huyền \\(BC =\\) {a} cm. Hãy tính độ dài cạnh \\(AB\\) theo cm.",
+      "generalfeedback": "Trong tam giác \\(ABC\\) vuông tại \\(A\\), ta có \\(AB = BC \\cdot \\sin C = {a} \\cdot \\sin 30^\\circ = {a} \\cdot 0.5 = 0.5*{a}\\) cm.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 20.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "0.5*{a}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Tính giá trị biểu thức chứa tỉ số lượng giác của các góc đặc biệt",
+      "questiontext": "Cho biểu thức \\(B =\\) {k} \\(\\cdot \\tan 45^\\circ + 2 \\cdot \\cos 60^\\circ\\). Tính giá trị của biểu thức \\(B\\) với số nguyên {k}.",
+      "generalfeedback": "Vì \\(\\tan 45^\\circ = 1\\) và \\(\\cos 60^\\circ = \\frac{1}{2}\\), ta có \\(B = {k} \\cdot 1 + 2 \\cdot \\frac{1}{2} = {k} + 1\\).",
+      "wildcards": [
+        {
+          "name": "k",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{k}+1",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    }
+  ]
+}

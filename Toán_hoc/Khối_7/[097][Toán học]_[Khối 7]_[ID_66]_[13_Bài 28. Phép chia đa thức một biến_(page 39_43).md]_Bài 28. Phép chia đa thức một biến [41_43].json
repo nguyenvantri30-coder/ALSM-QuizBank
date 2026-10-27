@@ -1,0 +1,470 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 16,
+    "metadata_used": {
+      "Đẳng thức A = B.Q + R với bậc R < bậc B": 4,
+      "Thuật toán chia đa thức trường hợp chia có dư": 3,
+      "Viết kết quả phép chia dưới dạng A = B.Q + R": 4,
+      "YCCD_TOAN7_056": 3,
+      "Thực hiện phép chia đa thức có dư": 5,
+      "YCCD_TOAN7_057": 1,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_TUCHUTUHOC": 1,
+      "NLC_GIAOTIEP": 1,
+      "NLT_TOAN_C2_01": 1,
+      "NLT_TOAN_C2_03": 1
+    },
+    "types_used": {
+      "multichoice": 11,
+      "truefalse": 1,
+      "shortanswer": 1,
+      "gapselect": 1,
+      "matching": 1,
+      "ddwtos": 1
+    },
+    "total": 16
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_056",
+        "reason": "Thực hiện được phép chia trong tập hợp các đa thức một biến"
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_057",
+        "reason": "Vận dụng được những tính chất của các phép tính đa thức một biến trong tính toán"
+      },
+      {
+        "metadata_code": "Thuật toán chia đa thức trường hợp chia có dư",
+        "reason": "Thuật toán chia đa thức trường hợp chia có dư"
+      },
+      {
+        "metadata_code": "Đẳng thức A = B.Q + R với bậc R < bậc B",
+        "reason": "Đẳng thức A = B.Q + R với bậc R < bậc B"
+      },
+      {
+        "metadata_code": "Thực hiện phép chia đa thức có dư",
+        "reason": "Thực hiện phép chia đa thức có dư"
+      },
+      {
+        "metadata_code": "Viết kết quả phép chia dưới dạng A = B.Q + R",
+        "reason": "Viết kết quả phép chia dưới dạng A = B.Q + R"
+      },
+      {
+        "metadata_code": "PC_CHAMCHI",
+        "reason": "Chăm chỉ"
+      },
+      {
+        "metadata_code": "PC_TRUNGTHUC",
+        "reason": "Trung thực"
+      },
+      {
+        "metadata_code": "NLC_TUCHUTUHOC",
+        "reason": "Năng lực tự chủ và tự học"
+      },
+      {
+        "metadata_code": "NLC_GIAOTIEP",
+        "reason": "Năng lực giao tiếp và hợp tác"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01",
+        "reason": "Năng lực tư duy và lập luận toán học"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03",
+        "reason": "Năng lực giải quyết vấn đề toán học"
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Đẳng thức A = B.Q + R với bậc R < bậc B",
+      "questiontext": "Khi chia đa thức \\(A\\) cho đa thức \\(B\\) khác 0, nếu dư là \\(R\\) khác 0 thì bậc của \\(R\\) phải thỏa mãn điều kiện nào sau đây?",
+      "generalfeedback": "Theo lý thuyết SGK, trong phép chia đa thức có dư, đa thức dư \\(R\\) phải bằng 0 hoặc có bậc nhỏ hơn bậc của đa thức chia \\(B\\).",
+      "answers": [
+        {
+          "text": "Bậc của \\(R\\) nhỏ hơn bậc của \\(B\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Bậc của \\(R\\) bằng bậc của \\(B\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Bậc của \\(R\\) lớn hơn bậc của \\(B\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Bậc của \\(R\\) lớn hơn hoặc bằng bậc của \\(B\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Đẳng thức A = B.Q + R với bậc R < bậc B",
+      "questiontext": "Trong phép chia đa thức \\(A\\) cho đa thức \\(B\\) (với \\(B \\neq 0\\)), nếu thương là \\(Q\\) và dư là \\(R\\) thì ta luôn có đẳng thức \\(A = B \\cdot Q + R\\).",
+      "generalfeedback": "Đẳng thức \\(A = B \\cdot Q + R\\) đúng với mọi phép chia đa thức một biến có thương \\(Q\\) và dư \\(R\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Thuật toán chia đa thức trường hợp chia có dư",
+      "imgs": [
+        "_page_3_Picture_1.jpeg"
+      ],
+      "questiontext": "Quan sát sơ đồ phép chia đa thức [img:_page_3_Picture_1.jpeg] trong SGK khi chia \\(D = 5x^3 - 3x^2 - x + 7\\) cho \\(E = x^2 + 1\\). Dư thứ hai \\(G = -6x + 10\\) có bậc bằng mấy?",
+      "generalfeedback": "Đa thức dư \\(G = -6x + 10\\) là đa thức bậc 1.",
+      "answers": [
+        {
+          "text": "Bậc 1",
+          "fraction": 100
+        },
+        {
+          "text": "Bậc 2",
+          "fraction": 0
+        },
+        {
+          "text": "Bậc 3",
+          "fraction": 0
+        },
+        {
+          "text": "Bậc 0",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Thuật toán chia đa thức trường hợp chia có dư",
+      "questiontext": "Khi chia đa thức \\(D = 5x^3 - 3x^2 - x + 7\\) cho đa thức \\(E = x^2 + 1\\), thu được dư thứ hai là \\(G = -6x + 10\\). Vì bậc của \\(G\\) nhỏ hơn bậc của \\(E\\) nên phép chia này có tiếp tục được không?",
+      "generalfeedback": "Vì bậc của dư \\(G\\) (bậc 1) nhỏ hơn bậc của đa thức chia \\(E\\) (bậc 2) nên phép chia dừng lại, không thể tiếp tục.",
+      "answers": [
+        {
+          "text": "không",
+          "fraction": 100
+        },
+        {
+          "text": "không thể",
+          "fraction": 100
+        },
+        {
+          "text": "Không",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Viết kết quả phép chia dưới dạng A = B.Q + R",
+      "questiontext": "Cho phép chia đa thức \\(D = 5x^3 - 3x^2 - x + 7\\) cho \\(E = x^2 + 1\\) có thương là \\(5x - 3\\) và dư là \\(G = -6x + 10\\). Đẳng thức biểu diễn \\(D\\) theo \\(E\\) là: \\(D = (x^2 + 1) \\cdot\\) [[1]] + ([[2]]).",
+      "generalfeedback": "Theo công thức \\(A = B \\cdot Q + R\\), ta có \\(D = E \\cdot (5x - 3) + G\\), với thương \\(Q = 5x - 3\\) và dư \\(R = -6x + 10\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(5x - 3\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(-6x + 10\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(5x + 3\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(6x - 10\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Đẳng thức A = B.Q + R với bậc R < bậc B",
+      "questiontext": "Trong phép chia đa thức \\(A = 3x^4 - 6x - 5\\) cho đa thức \\(B = x^2 + 3x - 1\\) (Luyện tập 3), bậc của đa thức dư \\(R\\) tối đa có thể bằng bao nhiêu?",
+      "generalfeedback": "Đa thức chia \\(B = x^2 + 3x - 1\\) có bậc bằng 2. Do đó đa thức dư \\(R\\) phải có bậc nhỏ hơn 2, tức là bậc của \\(R\\) tối đa bằng 1.",
+      "answers": [
+        {
+          "text": "1",
+          "fraction": 100
+        },
+        {
+          "text": "2",
+          "fraction": 0
+        },
+        {
+          "text": "3",
+          "fraction": 0
+        },
+        {
+          "text": "0",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_056",
+      "questiontext": "Hãy ghép mỗi phép chia đa thức sau với kết quả thương tương ứng:",
+      "generalfeedback": "Thực hiện phép chia các đa thức đơn giản bằng cách chia từng hạng tử.",
+      "subquestions": [
+        {
+          "question": "\\((8x^5) : (4x^3)\\)",
+          "answer": "\\(2x^2\\)"
+        },
+        {
+          "question": "\\((120x^7) : (-24x^5)\\)",
+          "answer": "\\(-5x^2\\)"
+        },
+        {
+          "question": "\\((-3,72x^4) : (-4x^2)\\)",
+          "answer": "\\(0,93x^2\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện phép chia đa thức có dư",
+      "questiontext": "Thực hiện phép chia đa thức \\(x^3 - 3x^2 + x - 1\\) cho đa thức \\(x^2 - 3x\\) (Thử thách nhỏ). Đa thức dư \\(R\\) thu được là:",
+      "generalfeedback": "Ta có: \\(x^3 - 3x^2 + x - 1 = x(x^2 - 3x) + (x - 1)\\). Vì bậc của \\(x - 1\\) (bậc 1) nhỏ hơn bậc của \\(x^2 - 3x\\) (bậc 2) nên đa thức dư là \\(x - 1\\).",
+      "answers": [
+        {
+          "text": "\\(x - 1\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x + 1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-x - 1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(1 - x\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Viết kết quả phép chia dưới dạng A = B.Q + R",
+      "questiontext": "Cho phép chia đa thức \\(21x - 4\\) cho \\(3x^2\\) (Bài 7.35). Vì bậc của \\(21x - 4\\) (bậc 1) nhỏ hơn bậc của \\(3x^2\\) (bậc 2) nên thương \\(Q(x) =\\) [[1]] và dư \\(R(x) =\\) [[2]].",
+      "generalfeedback": "Khi chia đa thức có bậc nhỏ hơn đa thức chia, ta có thương bằng 0 và dư chính là đa thức bị chia \\(21x - 4\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "0"
+        },
+        {
+          "group": 1,
+          "text": "\\(21x - 4\\)"
+        },
+        {
+          "group": 1,
+          "text": "7"
+        },
+        {
+          "group": 1,
+          "text": "-4"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện phép chia đa thức có dư",
+      "questiontext": "Cho đa thức \\(F(x) = 6x^4 - 3x^3 + 15x^2 + 2x - 1\\) và \\(G(x) = 3x^2\\) (Bài 7.34a). Thực hiện phép chia \\(F(x)\\) cho \\(G(x)\\), ta được thương \\(Q(x)\\) và dư \\(R(x)\\) lần lượt là:",
+      "generalfeedback": "Chia từng hạng tử của \\(6x^4 - 3x^3 + 15x^2\\) cho \\(3x^2\\) ta được thương \\(2x^2 - x + 5\\) và phần dư còn lại là \\(2x - 1\\) (do bậc 1 < bậc 2).",
+      "answers": [
+        {
+          "text": "\\(Q(x) = 2x^2 - x + 5\\) và \\(R(x) = 2x - 1\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(Q(x) = 2x^2 - x + 5\\) và \\(R(x) = 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(Q(x) = 2x^2 + x + 5\\) và \\(R(x) = 2x + 1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(Q(x) = 6x^2 - 3x + 15\\) và \\(R(x) = 2x - 1\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Bạn Nam gặp một bài toán chia đa thức có dư phức tạp: chia \\(5x^3 - 3x^2 - x + 7\\) cho \\(x^2 + 1\\). Dù làm lần đầu bị nhầm dấu ở bước tìm dư thứ hai, Nam vẫn kiên nhẫn rà soát lại từng bước đặt tính chia và thử lại đẳng thức \\(D = E \\cdot Q + G\\) để tìm ra kết quả đúng. Hành vi của Nam thể hiện phẩm chất nào?",
+      "generalfeedback": "Sự kiên nhẫn, rà soát lại bài làm khi gặp khó khăn thể hiện phẩm chất chăm chỉ.",
+      "answers": [
+        {
+          "text": "Chăm chỉ",
+          "fraction": 100
+        },
+        {
+          "text": "Trung thực",
+          "fraction": 0
+        },
+        {
+          "text": "Trách nhiệm",
+          "fraction": 0
+        },
+        {
+          "text": "Yêu nước",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Trong giờ kiểm tra, khi tìm dư và thương của phép chia \\(3x^4 - 6x - 5\\) cho \\(x^2 + 3x - 1\\), bạn Hà làm ra kết quả dư là \\(-96x + 25\\). Quan sát thấy bạn bên cạnh ra kết quả khác, Hà nên thực hiện hành động nào sau đây để thể hiện tính trung thực?",
+      "generalfeedback": "Thể hiện tính trung thực trong học tập bằng cách giữ nguyên tính độc lập, tự kiểm tra lại bài làm của mình thay vì chép bài bạn.",
+      "answers": [
+        {
+          "text": "Tự rà soát lại phép đặt tính chia của mình và giữ nguyên bài làm độc lập",
+          "fraction": 100
+        },
+        {
+          "text": "Sửa ngay kết quả của mình theo bài của bạn",
+          "fraction": 0
+        },
+        {
+          "text": "Hỏi bạn cách làm ngay trong giờ kiểm tra",
+          "fraction": 0
+        },
+        {
+          "text": "Tẩy xóa kết quả và để trống câu hỏi",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Để tự học và hệ thống hóa thuật toán chia đa thức có dư (cho đa thức \\(A\\) cho đa thức \\(B\\)), bạn An muốn lập sơ đồ các bước thực hiện. Trình tự logic nào sau đây giúp An hoàn thiện sơ đồ tự học hiệu quả nhất?",
+      "generalfeedback": "Sơ đồ tự học đúng quy trình: 1. Đặt tính chia -> 2. Chia hạng tử bậc cao nhất và trừ dần đến khi bậc của dư \\(R\\) nhỏ hơn bậc của \\(B\\) -> 3. Biểu diễn \\(A = B \\cdot Q + R\\).",
+      "answers": [
+        {
+          "text": "1. Đặt tính chia -> 2. Chia hạng tử bậc cao nhất và trừ dần đến khi bậc của dư \\(R\\) nhỏ hơn bậc của \\(B\\) -> 3. Biểu diễn \\(A = B \\cdot Q + R\\)",
+          "fraction": 100
+        },
+        {
+          "text": "1. Viết ngay \\(A = B \\cdot Q + R\\) -> 2. Đặt tính chia -> 3. So sánh bậc của \\(R\\) và \\(B\\)",
+          "fraction": 0
+        },
+        {
+          "text": "1. Chia tự do các hạng tử -> 2. Biểu diễn \\(A = B \\cdot Q + R\\) -> 3. Dừng lại khi dư bằng 0",
+          "fraction": 0
+        },
+        {
+          "text": "1. Đặt tính chia -> 2. Biểu diễn \\(A = B \\cdot Q + R\\) -> 3. Tiếp tục chia khi bậc của \\(R\\) nhỏ hơn bậc của \\(B\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_GIAOTIEP",
+      "questiontext": "Khi thảo luận nhóm bài toán \"Thử thách nhỏ\": Chia \\(x^3 - 3x^2 + x - 1\\) cho \\(x^2 - 3x\\), bạn Vuông nhận xét nhanh dư là \\(x - 1\\). Để giải thích cho các bạn trong nhóm hiểu rõ và hợp tác hiệu quả, Vuông nên trình bày như thế nào?",
+      "generalfeedback": "Giao tiếp toán học hiệu quả đòi hỏi giải thích rõ ràng dựa trên phân tích cấu trúc: \\(x^3 - 3x^2 + x - 1 = x(x^2 - 3x) + (x - 1)\\), do bậc của \\(x - 1\\) (bậc 1) nhỏ hơn bậc của \\(x^2 - 3x\\) (bậc 2) nên dư là \\(x - 1\\).",
+      "answers": [
+        {
+          "text": "Phân tích \\(x^3 - 3x^2 + x - 1 = x(x^2 - 3x) + (x - 1)\\) và chỉ ra bậc của \\(x - 1\\) nhỏ hơn bậc của \\(x^2 - 3x\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Khẳng định mình đoán đúng mà không cần giải thích chi tiết",
+          "fraction": 0
+        },
+        {
+          "text": "Nói các bạn tự đặt tính chia ra nháp chứ không cần thảo luận",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua phần phân tích và chỉ đưa ra đáp số cuối cùng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Xét bài toán 7.35: Bạn Tâm lúng túng khi muốn tìm thương và dư trong phép chia đa thức \\(21x - 4\\) cho \\(3x^2\\). Bằng lập luận toán học, khẳng định nào sau đây phân tích ĐÚNG bản chất của phép chia này?",
+      "generalfeedback": "Vì đa thức bị chia \\(21x - 4\\) có bậc bằng 1, nhỏ hơn bậc của đa thức chia \\(3x^2\\) (bậc 2), do đó theo định nghĩa phép chia đa thức, phép chia không thể thực hiện tiếp, thương bằng 0 và dư chính là \\(21x - 4\\).",
+      "answers": [
+        {
+          "text": "Vì bậc của \\(21x - 4\\) (bậc 1) nhỏ hơn bậc của \\(3x^2\\) (bậc 2) nên thương \\(Q(x) = 0\\) và dư \\(R(x) = 21x - 4\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Vì bậc của \\(21x - 4\\) nhỏ hơn bậc của \\(3x^2\\) nên không tồn tại phép chia đa thức",
+          "fraction": 0
+        },
+        {
+          "text": "Phép chia có thương là \\(7\\) và dư là \\(-4\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Phép chia là phép chia hết vì có thể chia \\(21x\\) cho \\(3x^2\\) được \\(\\frac{7}{x}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "questiontext": "Cho đa thức \\(F(x) = 6x^4 - 3x^3 + 15x^2 + 2x - 1\\) và \\(G(x) = 3x^2\\) (Bài 7.34a). Biết phép chia \\(F(x)\\) cho \\(G(x)\\) có dư là \\(R(x) = 2x - 1\\). Để giải quyết bài toán: \"Tìm đa thức \\(M(x)\\) có bậc nhỏ hơn 2 sao cho \\(F(x) - M(x)\\) chia hết cho \\(G(x)\\)\", em sẽ chọn \\(M(x)\\) bằng bao nhiêu?",
+      "generalfeedback": "Vì \\(F(x) = G(x) \\cdot Q(x) + R(x)\\), suy ra \\(F(x) - R(x) = G(x) \\cdot Q(x)\\) chia hết cho \\(G(x)\\). Do đó \\(M(x) = R(x) = 2x - 1\\).",
+      "answers": [
+        {
+          "text": "\\(M(x) = 2x - 1\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(M(x) = -2x + 1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(M(x) = 2x^2 - x + 5\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(M(x) = 0\\)",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

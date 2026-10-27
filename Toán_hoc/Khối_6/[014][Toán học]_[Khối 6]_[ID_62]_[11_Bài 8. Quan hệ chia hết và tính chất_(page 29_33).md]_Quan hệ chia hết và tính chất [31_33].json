@@ -1,0 +1,617 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 26,
+    "metadata_used": {
+      "YCCD_TOAN6_023": 2,
+      "Tính chất chia hết của một tổng a chia hết cho m và b chia hết cho m -> (a+b) chia hết cho m": 4,
+      "Tính chất không chia hết của một tổng": 2,
+      "Xác định tính chia hết của một tổng hoặc hiệu mà không cần tính giá trị": 12,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_TCTH_TUHOC_C2_04": 1,
+      "SUB_GTHT_XACDINHMD_C2_03": 1,
+      "NLT_TOAN_C2_01_01": 2,
+      "NLT_TOAN_C2_03_05": 1
+    },
+    "types_used": {
+      "multichoice": 11,
+      "truefalse": 4,
+      "shortanswer": 3,
+      "gapselect": 3,
+      "matching": 3,
+      "ddwtos": 2
+    },
+    "total": 26
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN6_023",
+        "reason": "Nhận biết được quan hệ chia hết"
+      },
+      {
+        "metadata_code": "Tính chất chia hết của một tổng a chia hết cho m và b chia hết cho m -> (a+b) chia hết cho m",
+        "reason": "Tính chất chia hết của một tổng (tất cả số hạng chia hết)"
+      },
+      {
+        "metadata_code": "Tính chất không chia hết của một tổng",
+        "reason": "Tính chất không chia hết của một tổng (có một số hạng không chia hết)"
+      },
+      {
+        "metadata_code": "Xác định tính chia hết của một tổng hoặc hiệu mà không cần tính giá trị",
+        "reason": "Xác định tính chia hết của một tổng hoặc hiệu mà không cần tính giá trị"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "4.2TC1a_K6",
+        "reason": "Nội dung bài học là toán học thuần túy về tính chất chia hết, không chứa dữ liệu hay bối cảnh về bảo vệ dữ liệu cá nhân và quyền riêng tư trong môi trường số."
+      },
+      {
+        "metadata_code": "4.2TC1b_K6",
+        "reason": "Nội dung bài học không đề cập đến thông tin định danh cá nhân hay kỹ năng an toàn thông tin số."
+      },
+      {
+        "metadata_code": "6.A3.3_2",
+        "reason": "Bài học toán 6 không tích hợp khái niệm về quyền sở hữu hay chia sẻ dữ liệu cá nhân trong môi trường AI."
+      },
+      {
+        "metadata_code": "6.A3.4_2",
+        "reason": "Bài học không đề cập đến tác hại của việc sử dụng sai mục đích dữ liệu cá nhân."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_023",
+      "questiontext": "Cho hai số tự nhiên \\(a\\) và \\(b\\) (với \\(b \\neq 0\\)). Kí hiệu nào sau đây thể hiện \"\\(a\\) chia hết cho \\(b\\)\"?",
+      "generalfeedback": "Kí hiệu \\(a \\vdots b\\) thể hiện \\(a\\) chia hết cho \\(b\\). Kí hiệu \\(a \\not\\vdots b\\) thể hiện \\(a\\) không chia hết cho \\(b\\).",
+      "answers": [
+        {
+          "text": "\\(a \\vdots b\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(a \\not\\vdots b\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a \\in b\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a \\subset b\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Tính chất chia hết của một tổng a chia hết cho m và b chia hết cho m -> (a+b) chia hết cho m",
+      "questiontext": "Nếu tất cả các số hạng của một tổng đều chia hết cho cùng một số thì tổng đó chia hết cho số đó. Phát biểu này đúng hay sai?",
+      "generalfeedback": "Theo Tính chất 1 về tính chất chia hết của một tổng: Nếu tất cả các số hạng của một tổng đều chia hết cho cùng một số thì tổng chia hết cho số đó.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Tính chất chia hết của một tổng a chia hết cho m và b chia hết cho m -> (a+b) chia hết cho m",
+      "questiontext": "Cho \\(a \\vdots m\\) và \\(b \\vdots m\\) (với \\(a, b, m \\in \\mathbb{N}, m \\neq 0\\)). Khẳng định nào sau đây là đúng?",
+      "generalfeedback": "Theo tính chất chia hết của một tổng, nếu \\(a \\vdots m\\) và \\(b \\vdots m\\) thì \\((a + b) \\vdots m\\). Tính chất này cũng đúng với một hiệu \\((a - b) \\vdots m\\) (với \\(a \\ge b\\)).",
+      "answers": [
+        {
+          "text": "\\((a + b) \\vdots m\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\((a + b) \\not\\vdots m\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((a \\cdot b) \\not\\vdots m\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((a - b) \\not\\vdots m\\) (với \\(a \\ge b\\))",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Tính chất không chia hết của một tổng",
+      "questiontext": "Nếu tổng có một số hạng không chia hết cho \\(m\\), các số hạng còn lại đều chia hết cho \\(m\\) thì tổng đó không chia hết cho \\(m\\). Khẳng định này đúng hay sai?",
+      "generalfeedback": "Theo Tính chất 2: Nếu có một số hạng của một tổng không chia hết cho một số đã cho, các số hạng còn lại đều chia hết cho số đó thì tổng không chia hết cho số đã cho.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Xác định tính chia hết của một tổng hoặc hiệu mà không cần tính giá trị",
+      "questiontext": "Không thực hiện phép tính, hãy cho biết tổng \\(15 + 1975 + 2019\\) có chia hết cho 5 hay không?",
+      "generalfeedback": "Ta có \\(15 \\vdots 5\\) và \\(1975 \\vdots 5\\), nhưng \\(2019 \\not\\vdots 5\\). Do đó, theo tính chất không chia hết của một tổng, \\((15 + 1975 + 2019) \\not\\vdots 5\\).",
+      "answers": [
+        {
+          "text": "Không chia hết cho 5 vì 2019 không chia hết cho 5",
+          "fraction": 100
+        },
+        {
+          "text": "Chia hết cho 5 vì 15 và 1975 chia hết cho 5",
+          "fraction": 0
+        },
+        {
+          "text": "Chia hết cho 5 vì đây là tổng của ba số tự nhiên",
+          "fraction": 0
+        },
+        {
+          "text": "Không chia hết cho 5 vì cả ba số hạng đều không chia hết cho 5",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Xác định tính chia hết của một tổng hoặc hiệu mà không cần tính giá trị",
+      "questiontext": "Không thực hiện phép tính, tổng \\(20 + 90 + 2025 + 2050\\) chia hết cho số nào sau đây: 5 hay 7?",
+      "generalfeedback": "Vì cả bốn số 20, 90, 2025, 2050 đều có chữ số tận cùng là 0 hoặc 5 nên chúng đều chia hết cho 5. Vậy tổng chia hết cho 5.",
+      "answers": [
+        {
+          "text": "5",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Tính chất chia hết của một tổng a chia hết cho m và b chia hết cho m -> (a+b) chia hết cho m",
+      "questiontext": "Nếu tất cả các số hạng của một tổng đều chia hết cho cùng một số thì tổng [[1]] cho số đó. Nếu có một số hạng không chia hết cho số đã cho và các số hạng còn lại đều chia hết cho số đó thì tổng [[2]] cho số đó.",
+      "generalfeedback": "Điền \"chia hết\" vào ô [[1]] (Tính chất 1) và \"không chia hết\" vào ô [[2]] (Tính chất 2).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "chia hết"
+        },
+        {
+          "group": 1,
+          "text": "không chia hết"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Xác định tính chia hết của một tổng hoặc hiệu mà không cần tính giá trị",
+      "questiontext": "Ghép mỗi biểu thức ở cột bên trái với khẳng định tương ứng về tính chia hết ở cột bên phải:",
+      "generalfeedback": "Áp dụng Tính chất 1 và Tính chất 2 về tính chia hết của một tổng/hiệu để xét từng biểu thức.",
+      "subquestions": [
+        {
+          "question": "Tổng \\(24 + 48\\) đối với 4",
+          "answer": "Chia hết cho 4"
+        },
+        {
+          "question": "Tổng \\(20 + 81\\) đối với 5",
+          "answer": "Không chia hết cho 5"
+        },
+        {
+          "question": "Hiệu \\(80 - 16\\) đối với 8",
+          "answer": "Chia hết cho 8"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "Xác định tính chia hết của một tổng hoặc hiệu mà không cần tính giá trị",
+      "questiontext": "Cho tập hợp \\(A = \\{1; 14; 16; 22; 28\\}\\). Để tổng \\(21 + x\\) chia hết cho 7 thì \\(x\\) có thể nhận giá trị là [[1]] hoặc [[2]].",
+      "generalfeedback": "Vì \\(21 \\vdots 7\\), để \\((21 + x) \\vdots 7\\) thì \\(x\\) phải chia hết cho 7. Trong tập hợp A, các số chia hết cho 7 là 14 và 28.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "14"
+        },
+        {
+          "group": 1,
+          "text": "28"
+        },
+        {
+          "group": 1,
+          "text": "16"
+        },
+        {
+          "group": 1,
+          "text": "22"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Xác định tính chia hết của một tổng hoặc hiệu mà không cần tính giá trị",
+      "imgs": [
+        "_page_3_Picture_25.jpeg"
+      ],
+      "questiontext": "Trong đợt tổng kết học kỳ I, lớp 6A được thưởng 50 cái bút và thêm 4 hộp bút (mỗi hộp có số bút như nhau) [img:_page_3_Picture_25.jpeg]. Vì sao số bút này không thể chia đều cho 4 tổ?",
+      "generalfeedback": "Tổng số bút trong 4 hộp bút luôn chia hết cho 4 (vì số bút mỗi hộp bằng nhau). Tuy nhiên, 50 không chia hết cho 4. Theo Tính chất 2, tổng số bút không chia hết cho 4, do đó không thể chia đều cho 4 tổ.",
+      "answers": [
+        {
+          "text": "Vì 50 không chia hết cho 4, còn tổng số bút trong 4 hộp chia hết cho 4",
+          "fraction": 100
+        },
+        {
+          "text": "Vì cả 50 và 4 hộp bút đều không chia hết cho 4",
+          "fraction": 0
+        },
+        {
+          "text": "Vì số bút trong mỗi hộp không bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Vì 50 chia hết cho 4 nhưng 4 hộp bút không chia hết cho 4",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Xác định tính chia hết của một tổng hoặc hiệu mà không cần tính giá trị",
+      "questiontext": "Không thực hiện phép tính, hãy cho biết hiệu \\(100 - 40\\) có chia hết cho 8 hay không?",
+      "generalfeedback": "Vì 100 không chia hết cho 8 (100 chia 8 dư 4) còn 40 chia hết cho 8, nên theo tính chất không chia hết của một hiệu, \\((100 - 40) \\not\\vdots 8\\).",
+      "answers": [
+        {
+          "text": "Không chia hết cho 8",
+          "fraction": 100
+        },
+        {
+          "text": "Chia hết cho 8",
+          "fraction": 0
+        },
+        {
+          "text": "Chia hết cho 10",
+          "fraction": 0
+        },
+        {
+          "text": "Không xác định được",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Xác định tính chia hết của một tổng hoặc hiệu mà không cần tính giá trị",
+      "questiontext": "Không thực hiện phép tính, hiệu \\(80 - 16\\) chia hết cho số nào trong hai số sau: 8 hay 9?",
+      "generalfeedback": "Vì \\(80 \\vdots 8\\) và \\(16 \\vdots 8\\) nên theo tính chất chia hết của một hiệu, \\((80 - 16) \\vdots 8\\).",
+      "answers": [
+        {
+          "text": "8",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Xác định tính chia hết của một tổng hoặc hiệu mà không cần tính giá trị",
+      "questiontext": "Khẳng định: \"Tích \\(219 \\cdot 7 + 8\\) chia hết cho 7\" là đúng hay sai?",
+      "generalfeedback": "Ta có \\(219 \\cdot 7 \\vdots 7\\), nhưng \\(8 \\not\\vdots 7\\). Theo Tính chất 2, tổng \\((219 \\cdot 7 + 8) \\not\\vdots 7\\). Do đó khẳng định trên là sai.",
+      "answers": [
+        {
+          "text": "Sai",
+          "fraction": 100
+        },
+        {
+          "text": "Đúng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Xác định tính chia hết của một tổng hoặc hiệu mà không cần tính giá trị",
+      "questiontext": "Khẳng định nào sau đây là đúng khi xét tính chia hết của biểu thức \\(8 \\cdot 12 + 9\\) cho 3?",
+      "generalfeedback": "Vì \\(12 \\vdots 3\\) nên \\((8 \\cdot 12) \\vdots 3\\); lại có \\(9 \\vdots 3\\). Do đó theo Tính chất 1, \\((8 \\cdot 12 + 9) \\vdots 3\\).",
+      "answers": [
+        {
+          "text": "Biểu thức chia hết cho 3 vì cả hai số hạng \\(8 \\cdot 12\\) và 9 đều chia hết cho 3",
+          "fraction": 100
+        },
+        {
+          "text": "Biểu thức không chia hết cho 3 vì 8 không chia hết cho 3",
+          "fraction": 0
+        },
+        {
+          "text": "Biểu thức không chia hết cho 3 vì 9 không chia hết cho 12",
+          "fraction": 0
+        },
+        {
+          "text": "Biểu thức chia hết cho 3 vì 8 chia hết cho 3",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Xác định tính chia hết của một tổng hoặc hiệu mà không cần tính giá trị",
+      "questiontext": "Tìm \\(x\\) thuộc tập \\(\\{23; 24; 25; 26\\}\\), biết \\((56 + x)\\) chia hết cho 8.",
+      "generalfeedback": "Vì \\(56 \\vdots 8\\), để \\((56 + x) \\vdots 8\\) thì \\(x\\) phải chia hết cho 8. Trong tập hợp đã cho, chỉ có số 24 chia hết cho 8.",
+      "answers": [
+        {
+          "text": "24",
+          "fraction": 100
+        },
+        {
+          "text": "23",
+          "fraction": 0
+        },
+        {
+          "text": "25",
+          "fraction": 0
+        },
+        {
+          "text": "26",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Xác định tính chia hết của một tổng hoặc hiệu mà không cần tính giá trị",
+      "questiontext": "Tìm số \\(x\\) thuộc tập \\(\\{24; 45; 48; 54\\}\\), biết tổng \\(60 + x\\) không chia hết cho 6.",
+      "generalfeedback": "Vì \\(60 \\vdots 6\\), để \\((60 + x)\\) không chia hết cho 6 thì \\(x\\) không chia hết cho 6. Trong tập hợp \\(\\{24; 45; 48; 54\\}\\), chỉ có 45 không chia hết cho 6. Vậy \\(x = 45\\).",
+      "answers": [
+        {
+          "text": "45",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Tính chất chia hết của một tổng a chia hết cho m và b chia hết cho m -> (a+b) chia hết cho m",
+      "questiontext": "Tính chất chia hết của một tổng cũng đúng với một [[1]], chẳng hạn vì \\(30 \\vdots 3\\) và \\(18 \\vdots 3\\) nên \\((30 - 18) \\vdots 3\\). Khẳng định này thể hiện tính chất chia hết của một [[2]].",
+      "generalfeedback": "Điền \"hiệu\" vào ô [[1]] và \"hiệu\" vào ô [[2]].",
+      "choices": [
+        {
+          "group": 1,
+          "text": "hiệu"
+        },
+        {
+          "group": 1,
+          "text": "tích"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "Xác định tính chia hết của một tổng hoặc hiệu mà không cần tính giá trị",
+      "questiontext": "Cho tập hợp \\(B = \\{5; 25; 39; 54\\}\\). Để tổng \\(20 + 45 + x\\) không chia hết cho 5 thì \\(x\\) phải bằng [[1]].",
+      "generalfeedback": "Vì \\(20 \\vdots 5\\) và \\(45 \\vdots 5\\), để tổng không chia hết cho 5 thì \\(x\\) không chia hết cho 5. Trong tập B, chỉ có 39 không chia hết cho 5.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "39"
+        },
+        {
+          "group": 1,
+          "text": "5"
+        },
+        {
+          "group": 1,
+          "text": "25"
+        },
+        {
+          "group": 1,
+          "text": "54"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Tính chất không chia hết của một tổng",
+      "questiontext": "Cho ba số \\(a, b, c\\). Nếu \\(a \\vdots m\\), \\(b \\vdots m\\) và \\(c \\not\\vdots m\\) thì tổng \\((a + b + c) \\not\\vdots m\\). Khẳng định này đúng hay sai?",
+      "generalfeedback": "Theo Tính chất 2, nếu có đúng một số hạng không chia hết cho \\(m\\) và các số hạng còn lại đều chia hết cho \\(m\\) thì tổng không chia hết cho \\(m\\). Do đó khẳng định là đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_023",
+      "questiontext": "Nối mỗi tổng/hiệu ở cột trái với kết quả xét tính chia hết tương ứng ở cột phải:",
+      "generalfeedback": "Xét từng số hạng của tổng/hiệu đối với số chia tương ứng để kết luận.",
+      "subquestions": [
+        {
+          "question": "Tổng \\(6 + 15 + 30\\) đối với 3",
+          "answer": "Chia hết cho 3"
+        },
+        {
+          "question": "Tổng \\(5 + 45 + 2019\\) đối với 5",
+          "answer": "Không chia hết cho 5"
+        },
+        {
+          "question": "Hiệu \\(45 - 7\\) đối với 5",
+          "answer": "Không chia hết cho 5"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ học Toán về tính chất chia hết của một tổng, bạn An gặp một bài toán khó đòi hỏi xét tính chia hết của biểu thức gồm 4 số hạng. An đã chủ động đọc lại Tính chất 1 và Tính chất 2 trong SGK, thử chia nhỏ từng số hạng và kiên trì hoàn thành bài tập. Hành động của bạn An thể hiện phẩm chất nào?",
+      "generalfeedback": "Hành động kiên trì tự đọc lại sách, không bỏ cuộc trước bài toán khó thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập.",
+      "answers": [
+        {
+          "text": "Luôn cố gắng vươn lên, kiên trì vượt khó để đạt kết quả tốt trong học tập",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ làm những bài toán dễ và bỏ qua các bài toán phức tạp",
+          "fraction": 0
+        },
+        {
+          "text": "Dựa dẫm hoàn toàn vào bài giải của các bạn khác trong lớp",
+          "fraction": 0
+        },
+        {
+          "text": "Chờ đợi cô giáo chữa bài chứ không tự mình suy nghĩ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Khi lập bản đồ khái niệm tóm tắt bài \"Tính chất chia hết của một tổng\", bạn Bình hệ thống hóa hai tính chất cốt lõi như sau: \n- Tính chất 1: Nếu tất cả các số hạng của tổng đều chia hết cho \\(m\\) thì tổng [[1]] cho \\(m\\).\n- Tính chất 2: Nếu có đúng một số hạng của tổng không chia hết cho \\(m\\) và các số hạng còn lại đều chia hết cho \\(m\\) thì tổng [[2]] cho \\(m\\).",
+      "generalfeedback": "Bản đồ khái niệm tóm tắt ngắn gọn hai tính chất trọng tâm: Tính chất 1 thể hiện tổng chia hết, Tính chất 2 thể hiện tổng không chia hết.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "chia hết"
+        },
+        {
+          "group": 1,
+          "text": "không chia hết"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "imgs": [
+        "_page_3_Picture_25.jpeg"
+      ],
+      "questiontext": "Quan sát sơ đồ thưởng bút của lớp 6A [img:_page_3_Picture_25.jpeg] và thông tin: \"Lớp được thưởng 50 cái bút rời và 4 hộp bút (số bút trong mỗi hộp bằng nhau)\". Khi tiếp nhận văn bản kết hợp hình ảnh và ký hiệu toán học, khẳng định nào sau đây tổng hợp đúng dữ liệu để giải thích vì sao số bút không chia đều được cho 4 tổ?",
+      "generalfeedback": "Số bút trong 4 hộp bút là \\(4 \\cdot k \\vdots 4\\), nhưng số bút lẻ 50 không chia hết cho 4 (\\(50 \\not\\vdots 4\\)). Theo Tính chất 2, tổng số bút \\((4 \\cdot k + 50) \\not\\vdots 4\\).",
+      "answers": [
+        {
+          "text": "Tổng số bút trong 4 hộp chia hết cho 4, nhưng 50 không chia hết cho 4 nên tổng không chia hết cho 4",
+          "fraction": 100
+        },
+        {
+          "text": "Cả 50 cái bút và 4 hộp bút đều không chia hết cho 4",
+          "fraction": 0
+        },
+        {
+          "text": "Vì 50 cái bút chia hết cho 4 nên 4 hộp bút còn lại bị dư",
+          "fraction": 0
+        },
+        {
+          "text": "Không thể kết luận vì hình ảnh không thể hiện số lượng bút trong mỗi hộp",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Thao tác tư duy phân tích: Xét biểu thức \\(A = 12 \\cdot 15 + 35\\). Khi phân tích tính chia hết của \\(A\\) cho 5, lập luận nào sau đây là đúng?",
+      "generalfeedback": "Thao tác phân tích từng số hạng: \\(12 \\cdot 15\\) có thừa số \\(15 \\vdots 5\\) nên \\((12 \\cdot 15) \\vdots 5\\); số hạng còn lại \\(35 \\vdots 5\\). Do tất cả các số hạng đều chia hết cho 5 nên \\(A \\vdots 5\\).",
+      "answers": [
+        {
+          "text": "Tích \\(12 \\cdot 15 \\vdots 5\\) (vì \\(15 \\vdots 5\\)) và \\(35 \\vdots 5\\), nên theo Tính chất 1 thì \\(A \\vdots 5\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Tích \\(12 \\cdot 15 \\not\\vdots 5\\) vì 12 không chia hết cho 5, do đó \\(A \\not\\vdots 5\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Biểu thức \\(A\\) không chia hết cho 5 vì 12 là số chẵn",
+          "fraction": 0
+        },
+        {
+          "text": "Phải tính ra giá trị cụ thể của \\(A = 215\\) mới kết luận được",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Vận dụng kỹ năng toán học giải quyết vấn đề thực tế (Bài 2.8 SGK): Đội thể thao trường có 45 vận động viên. Huấn luyện viên muốn chia đều thành các nhóm tập luyện sao cho mỗi nhóm có từ 2 đến 10 người. Số nhóm có thể chia là bao nhiêu?",
+      "generalfeedback": "Số người ở mỗi nhóm phải là ước của 45 và nằm trong khoảng từ 2 đến 10. Các ước của 45 là 1, 3, 5, 9, 15, 45. Các giá trị thỏa mãn từ 2 đến 10 là 3, 5, 9 người/nhóm. Tương ứng số nhóm có thể là 45:3 = 15 nhóm, 45:5 = 9 nhóm, hoặc 45:9 = 5 nhóm.",
+      "answers": [
+        {
+          "text": "5 nhóm, 9 nhóm hoặc 15 nhóm",
+          "fraction": 100
+        },
+        {
+          "text": "2 nhóm, 4 nhóm hoặc 6 nhóm",
+          "fraction": 0
+        },
+        {
+          "text": "4 nhóm, 8 nhóm hoặc 10 nhóm",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ có duy nhất 1 cách chia thành 5 nhóm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Sử dụng thao tác tư duy so sánh và phân tích, hãy ghép từng tổng/hiệu ở cột bên trái với căn cứ lý luận tương ứng ở cột bên phải khi xét tính chia hết cho 6:",
+      "generalfeedback": "Áp dụng Tính chất 1 và Tính chất 2 về tính chia hết của một tổng/hiệu để phân tích.",
+      "subquestions": [
+        {
+          "question": "Tổng \\(18 + 24 + 36\\) chia hết cho 6",
+          "answer": "Vì tất cả các số hạng 18, 24, 36 đều chia hết cho 6"
+        },
+        {
+          "question": "Tổng \\(12 + 30 + 15\\) không chia hết cho 6",
+          "answer": "Vì 12 và 30 chia hết cho 6, nhưng 15 không chia hết cho 6"
+        },
+        {
+          "question": "Hiệu \\(60 - 14\\) không chia hết cho 6",
+          "answer": "Vì 60 chia hết cho 6, nhưng 14 không chia hết cho 6"
+        }
+      ]
+    }
+  ]
+}

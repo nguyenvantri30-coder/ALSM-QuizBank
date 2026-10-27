@@ -1,0 +1,533 @@
+{
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Ứng dụng của hàm số bậc nhất và đồ thị hàm số bậc nhất trong giải quyết vấn đề thực tế (tài chính",
+      "questiontext": "Một dịch vụ gửi tiết kiệm trực tuyến quy định số tiền ban đầu trong tài khoản là \\(2\\,000\\,000\\) đồng và mỗi tháng khách hàng gửi thêm \\(500\\,000\\) đồng. Hàm số bậc nhất biểu diễn tổng số tiền \\(y\\) (đồng) có trong tài khoản sau \\(x\\) tháng là:",
+      "generalfeedback": "Số tiền ban đầu là hằng số cố định \\(2\\,000\\,000\\) đồng, mỗi tháng tăng thêm \\(500\\,000x\\) đồng. Do đó hàm số bậc nhất biểu diễn là \\(y = 500\\,000x + 2\\,000\\,000\\).",
+      "answers": [
+        {
+          "text": "\\(y = 500\\,000x + 2\\,000\\,000\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(y = 2\\,000\\,000x + 500\\,000\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(y = 500\\,000x - 2\\,000\\,000\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(y = 2\\,500\\,000x\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "cước phí",
+      "questiontext": "Hãng taxi X quy định giá cước gồm tiền mở cửa cố định là \\(15\\,000\\) đồng và giá cước cho mỗi ki-lô-mét di chuyển tiếp theo là \\(12\\,000\\) đồng. Viết công thức tính tổng số tiền cước \\(y\\) (đồng) khi hành khách đi quãng đường {x} km.",
+      "generalfeedback": "Tổng tiền cước taxi bằng tiền cước quãng đường đi được cộng với tiền mở cửa cố định: \\(12\\,000 \\times {x} + 15\\,000\\) đồng.",
+      "wildcards": [
+        {
+          "name": "x",
+          "min": 2.0,
+          "max": 20.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{x}*12000+15000",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "quãng đường - thời gian)",
+      "questiontext": "Một ô tô di chuyển trên đường cao tốc với vận tốc không đổi \\(80\\) km/h. Khoảng cách \\(y\\) (km) từ ô tô đến điểm xuất phát O sau \\(x\\) (giờ) được biểu diễn bởi hàm số bậc nhất \\(y = 80x + 15\\) (trong đó \\(15\\) km là khoảng cách ban đầu từ vị trí đỗ xe đến O). Tính khoảng cách từ ô tô đến điểm O sau \\(2,5\\) giờ. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Thay \\(x = 2,5\\) vào công thức \\(y = 80x + 15\\), ta được \\(y = 80 \\times 2,5 + 15 = 200 + 15 = 215\\) (km).",
+      "answers": [
+        {
+          "text": "215",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Biểu diễn mối quan hệ thực tế dưới dạng hàm số bậc nhất",
+      "questiontext": "Một công ty viễn thông cung cấp dịch vụ internet với phí cố định hằng tháng là \\(180\\,000\\) đồng và cước phí phát sinh là \\(10\\,000\\) đồng cho mỗi giờ sử dụng vượt định mức. Gọi \\(y\\) (đồng) là tổng tiền cước trong tháng, \\(x\\) (giờ) là số giờ vượt định mức. Mối quan hệ được biểu diễn dưới dạng hàm số bậc nhất \\(y =\\) [[1]]\\(x\\) + [[2]].",
+      "generalfeedback": "Hệ số góc của hàm số tương ứng với cước phí mỗi giờ vượt định mức (\\(10\\,000\\) đồng) và tung độ gốc là phí cố định hằng tháng (\\(180\\,000\\) đồng).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "10000"
+        },
+        {
+          "group": 1,
+          "text": "180000"
+        },
+        {
+          "group": 1,
+          "text": "170000"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Đọc và phân tích đồ thị hàm số bậc nhất trong bài toán thực tế",
+      "questiontext": "Đồ thị của hàm số bậc nhất \\(y = ax + b\\) (\\(a \\neq 0\\)) biểu diễn tiền cước taxi \\(y\\) (đồng) theo quãng đường di chuyển \\(x\\) (km). Đồ thị cắt trục tung tại điểm \\(A(0; 12\\,000)\\). Giá trị tung độ gốc \\(b = 12\\,000\\) đại diện cho thông tin nào trong thực tế?",
+      "generalfeedback": "Tung độ gốc \\(b = 12\\,000\\) ứng với giá trị \\(y\\) khi \\(x = 0\\), nghĩa là tiền mở cửa cố định ban đầu khi khách hàng bắt đầu lên xe taxi.",
+      "answers": [
+        {
+          "text": "Giá tiền mở cửa cố định ban đầu của xe taxi",
+          "fraction": 100
+        },
+        {
+          "text": "Giá cước cho mỗi ki-lô-mét xe chạy",
+          "fraction": 0
+        },
+        {
+          "text": "Tổng số tiền cước khi đi được 12 km",
+          "fraction": 0
+        },
+        {
+          "text": "Số ki-lô-mét xe taxi chạy miễn phí",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Đưa ra dự đoán và giải quyết bài toán thực tiễn",
+      "questiontext": "Nhiệt độ \\(T\\) (độ C) ở độ cao \\(h\\) (km) so với mực nước biển được tính theo công thức hàm số bậc nhất \\(T = -6,5h + 20\\). Hãy xác định độ cao \\(h\\) (km) khi nhiệt độ đo được tại đó là \\(0,5\\) độ C. (Nhập đáp số dưới dạng số thập phân sử dụng dấu chấm, không ghi đơn vị)",
+      "generalfeedback": "Thay \\(T = 0,5\\) vào công thức: \\(0,5 = -6,5h + 20 \\Rightarrow 6,5h = 19,5 \\Rightarrow h = 3\\) (km).",
+      "answers": [
+        {
+          "text": "3",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_044",
+      "questiontext": "Trong bài toán cước phí dịch vụ gia đình, mối quan hệ giữa tổng chi phí \\(y\\) (đồng) và lượng tài nguyên tiêu thụ \\(x\\) được mô hình hóa bởi hàm số bậc nhất \\(y = 15\\,000x + 45\\,000\\). Khẳng định: 'Nếu lượng tài nguyên tiêu thụ tăng thêm \\(1\\) đơn vị thì tổng chi phí \\(y\\) sẽ tăng thêm \\(15\\,000\\) đồng' là đúng hay sai?",
+      "generalfeedback": "Khẳng định trên là Đúng. Hệ số góc \\(a = 15\\,000\\) biểu thị tốc độ thay đổi của tổng chi phí \\(y\\) khi biến số \\(x\\) tăng thêm \\(1\\) đơn vị.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Ứng dụng của hàm số bậc nhất và đồ thị hàm số bậc nhất trong giải quyết vấn đề thực tế (tài chính",
+      "questiontext": "Hãy ghép mỗi thành phần trong công thức hàm số bậc nhất \\(y = ax + b\\) biểu diễn mô hình chi phí kinh doanh thực tế với ý nghĩa tương ứng:",
+      "generalfeedback": "Trong mô hình chi phí \\(y = ax + b\\), \\(b\\) đại diện cho chi phí cố định (mặt bằng, máy móc), \\(a\\) là chi phí sản xuất mỗi sản phẩm, \\(x\\) là số lượng sản phẩm và \\(y\\) là tổng chi phí.",
+      "subquestions": [
+        {
+          "question": "Tung độ gốc \\(b\\)",
+          "answer": "Chi phí cố định ban đầu"
+        },
+        {
+          "question": "Hệ số góc \\(a\\)",
+          "answer": "Chi phí sản xuất cho một đơn vị sản phẩm"
+        },
+        {
+          "question": "Biến số độc lập \\(x\\)",
+          "answer": "Số lượng sản phẩm sản xuất"
+        },
+        {
+          "question": "Biến số phụ thuộc \\(y\\)",
+          "answer": "Tổng chi phí sản xuất tương ứng"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "cước phí",
+      "questiontext": "Cước phí dịch vụ giao hàng tận nhà được tính theo công thức hàm số bậc nhất \\(y = 6\\,000x + 20\\,000\\) (đồng), trong đó \\(x\\) (km) là khoảng cách giao hàng. Trong công thức này, phí phụ thu cố định cho dịch vụ là [[1]] đồng và cước phí cho mỗi ki-lô-mét vận chuyển là [[2]] đồng.",
+      "generalfeedback": "Phí phụ thu cố định ban đầu tương ứng với tung độ gốc \\(b = 20\\,000\\) đồng, cước phí trên mỗi km vận chuyển tương ứng với hệ số góc \\(a = 6\\,000\\) đồng.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "20000"
+        },
+        {
+          "group": 1,
+          "text": "6000"
+        },
+        {
+          "group": 1,
+          "text": "26000"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Ứng dụng của hàm số bậc nhất và đồ thị hàm số bậc nhất trong giải quyết vấn đề thực tế (tài chính",
+      "questiontext": "Một công ty áp dụng công thức hàm số bậc nhất \\(y = 150x + 500\\) để tính tổng chi phí \\(y\\) (nghìn đồng) khi sản xuất \\(x\\) sản phẩm. Trong công thức này, chi phí cố định không phụ thuộc vào số lượng sản phẩm \\(x\\) là bao nhiêu?",
+      "generalfeedback": "Chi phí cố định tương ứng với tung độ gốc \\(b = 500\\) nghìn đồng (khi \\(x = 0\\)).",
+      "answers": [
+        {
+          "text": "\\(500\\) nghìn đồng",
+          "fraction": 100
+        },
+        {
+          "text": "\\(150\\) nghìn đồng",
+          "fraction": 0
+        },
+        {
+          "text": "\\(650\\) nghìn đồng",
+          "fraction": 0
+        },
+        {
+          "text": "\\(350\\) nghìn đồng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "cước phí",
+      "questiontext": "Một công ty giao hàng quy định phí dịch vụ là \\(15\\,000\\) đồng cộng với {a} nghìn đồng cho mỗi ki-lô-mét vận chuyển. Viết công thức tính tổng chi phí \\(y\\) (đồng) khi giao hàng trên quãng đường dài {x} km.",
+      "generalfeedback": "Tổng chi phí \\(y\\) (đồng) bằng phí cố định \\(15\\,000\\) cộng với chi phí vận chuyển {x} km nhân với {a} \\(\\times 1000\\): \\(15000 + {x} * {a} * 1000\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 5.0,
+          "max": 15.0,
+          "decimals": 0
+        },
+        {
+          "name": "x",
+          "min": 2.0,
+          "max": 25.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "15000+{x}*{a}*1000",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "quãng đường - thời gian)",
+      "questiontext": "Một đoàn tàu hỏa khởi hành từ ga A chuyển động thẳng đều hướng về ga B với vận tốc \\(60\\) km/h. Khoảng cách từ vị trí đỗ tàu ban đầu đến ga A là \\(10\\) km. Khoảng cách \\(y\\) (km) từ đoàn tàu đến ga A sau \\(t\\) (giờ) được mô tả bởi hàm số \\(y = 60t + 10\\). Hỏi sau bao nhiêu giờ thì đoàn tàu cách ga A đúng \\(190\\) km? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Thay \\(y = 190\\) vào công thức: \\(190 = 60t + 10 \\Rightarrow 60t = 180 \\Rightarrow t = 3\\) (giờ).",
+      "answers": [
+        {
+          "text": "3",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Biểu diễn mối quan hệ thực tế dưới dạng hàm số bậc nhất",
+      "questiontext": "Số tiền \\(y\\) (nghìn đồng) phải trả khi thuê một chiếc xe máy trong \\(x\\) ngày được cho bởi hàm số bậc nhất \\(y = ax + b\\). Biết tiền thuê cố định là \\(100\\) nghìn đồng và giá thuê mỗi ngày là \\(150\\) nghìn đồng. Công thức hàm số biểu diễn \\(y\\) theo \\(x\\) là:",
+      "generalfeedback": "Công thức hàm số biểu diễn số tiền phải trả là \\(y = 150x + 100\\).",
+      "answers": [
+        {
+          "text": "\\(y = 150x + 100\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(y = 100x + 150\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(y = 150x - 100\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(y = 250x\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Đọc và phân tích đồ thị hàm số bậc nhất trong bài toán thực tế",
+      "questiontext": "Đồ thị của hàm số bậc nhất \\(y = 20x + 50\\) biểu diễn dung lượng pin còn lại \\(y\\) (%) của một thiết bị sau \\(x\\) giờ sạc. Điểm \\((0; 50)\\) thuộc đồ thị hàm số có ý nghĩa gì?",
+      "generalfeedback": "Tại \\(x = 0\\) (thời điểm bắt đầu sạc), \\(y = 50\\), nghĩa là dung lượng pin ban đầu của thiết bị trước khi sạc là \\(50\\)%.",
+      "answers": [
+        {
+          "text": "Dung lượng pin ban đầu trước khi sạc là \\(50\\)%",
+          "fraction": 100
+        },
+        {
+          "text": "Sau \\(50\\) giờ sạc thì pin đầy \\(100\\)%",
+          "fraction": 0
+        },
+        {
+          "text": "Tốc độ sạc pin là \\(50\\)% mỗi giờ",
+          "fraction": 0
+        },
+        {
+          "text": "Thiết bị mất \\(50\\) phút để sạc xong",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "van_dung",
+      "metadata_code": "Đưa ra dự đoán và giải quyết bài toán thực tiễn",
+      "questiontext": "Một hồ nước đang chứa \\(120\\) m3 nước. Người ta mở một vòi xả nước ra khỏi hồ với tốc độ không đổi \\(15\\) m3/giờ. Hàm số biểu diễn lượng nước còn lại trong hồ \\(y\\) (m3) sau \\(x\\) (giờ) là \\(y = 120 - 15x\\). Khẳng định: 'Sau \\(8\\) giờ xả liên tục thì hồ nước sẽ cạn hết nước' là đúng hay sai?",
+      "generalfeedback": "Cho \\(y = 0 \\Rightarrow 120 - 15x = 0 \\Rightarrow 15x = 120 \\Rightarrow x = 8\\) (giờ). Vậy khẳng định là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_044",
+      "questiontext": "Ghép mỗi tình huống thực tế ứng dụng hàm số bậc nhất \\(y = ax + b\\) ở cột bên trái với ý nghĩa tương ứng của đại lượng \\(y\\) ở cột bên phải:",
+      "generalfeedback": "Mỗi bài toán thực tế có đại lượng phụ thuộc \\(y\\) được xác định theo ngữ cảnh cụ thể.",
+      "subquestions": [
+        {
+          "question": "Tính cước taxi theo số ki-lô-mét \\(x\\)",
+          "answer": "Tổng số tiền cước phải trả"
+        },
+        {
+          "question": "Độ cao của máy bay theo thời gian hạ cánh \\(x\\)",
+          "answer": "Độ cao hiện tại của máy bay"
+        },
+        {
+          "question": "Mâm nhiệt đun nước nóng theo thời gian \\(x\\)",
+          "answer": "Nhiệt độ hiện tại của nước"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Biểu diễn mối quan hệ thực tế dưới dạng hàm số bậc nhất",
+      "questiontext": "Một cửa hàng cho thuê xe đạp tính phí cố định là \\(20\\,000\\) đồng và phí thuê theo giờ là {k} nghìn đồng/giờ. Công thức tính tổng chi phí \\(y\\) (đồng) cho {t} giờ thuê xe là:",
+      "generalfeedback": "Tổng chi phí \\(y = 20000 + {t} * {k} * 1000\\) đồng.",
+      "wildcards": [
+        {
+          "name": "k",
+          "min": 10.0,
+          "max": 30.0,
+          "decimals": 0
+        },
+        {
+          "name": "t",
+          "min": 1.0,
+          "max": 8.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "20000+{t}*{k}*1000",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_03",
+      "questiontext": "Bạn An muốn lập kế hoạch quản lý tiền điện sinh hoạt hằng tháng của gia đình. An đã chủ động tra cứu bảng giá điện chính thức trên Cổng thông tin của Tập đoàn Điện lực Việt Nam (EVN) và áp dụng kiến thức hàm số bậc nhất học ở trường để biểu diễn số tiền điện phải trả theo lượng điện tiêu thụ. Việc làm của An thể hiện thái độ/hành vi nào dưới đây?",
+      "generalfeedback": "Hành động chủ động tra cứu thông tin từ nguồn tin cậy (EVN) và áp dụng kiến thức hàm số bậc nhất để quản lý chi tiêu gia đình thể hiện rõ ý thức vận dụng kiến thức vào đời sống hằng ngày.",
+      "answers": [
+        {
+          "text": "Có ý thức tự giác vận dụng kiến thức đã học và chủ động tìm kiếm thông tin từ nguồn tin cậy vào đời sống",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ làm bài tập khi được giáo viên giao và không quan tâm đến ứng dụng thực tế",
+          "fraction": 0
+        },
+        {
+          "text": "Sử dụng các công thức tính toán ngẫu nhiên trên mạng xã hội không rõ nguồn gốc",
+          "fraction": 0
+        },
+        {
+          "text": "Lập biểu đồ toán học phức tạp nhưng không liên hệ với chi phí điện thực tế",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Một trung tâm gia sư đưa ra hai phương án trả lương hằng tháng cho người dạy:\n- Phương án A: Lương cố định \\(3\\,000\\,000\\) đồng cộng với \\(100\\,000\\) đồng cho mỗi giờ dạy.\n- Phương án B: Không có lương cố định, nhận \\(160\\,000\\) đồng cho mỗi giờ dạy.\nMột sinh viên dự kiến sẽ dạy \\(60\\) giờ mỗi tháng. Để đạt thu nhập cao hơn, sinh viên đó nên đề xuất lựa chọn phương án nào và giải pháp đó dựa trên căn cứ toán học nào?",
+      "generalfeedback": "Thu nhập phương án A: \\(y_A = 100\\,000 \\times 60 + 3\\,000\\,000 = 9\\,000\\,000\\) đồng. Thu nhập phương án B: \\(y_B = 160\\,000 \\times 60 = 9\\,600\\,000\\) đồng. Do \\(y_B > y_A\\) nên đề xuất chọn Phương án B là tối ưu.",
+      "answers": [
+        {
+          "text": "Chọn Phương án B, vì thu nhập tính theo hàm số \\(y_B = 160\\,000 \\times 60 = 9\\,600\\,000\\) đồng lớn hơn Phương án A (\\(y_A = 100\\,000 \\times 60 + 3\\,000\\,000 = 9\\,000\\,000\\) đồng)",
+          "fraction": 100
+        },
+        {
+          "text": "Chọn Phương án A, vì có lương cố định \\(3\\,000\\,000\\) đồng đảm bảo an toàn tài chính",
+          "fraction": 0
+        },
+        {
+          "text": "Chọn Phương án A, vì tổng thu nhập \\(y_A = 100\\,000 \\times 60 + 3\\,000\\,000 = 9\\,000\\,000\\) đồng cao hơn Phương án B",
+          "fraction": 0
+        },
+        {
+          "text": "Chọn Phương án nào cũng được vì hai phương án cho thu nhập bằng nhau tại \\(60\\) giờ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_02_01",
+      "questiontext": "Một bể chứa nước ban đầu có \\(80\\) lít nước. Người ta mở một vòi nước chảy vào bể với tốc độ không đổi \\(20\\) lít/phút. Để mô hình hóa tình huống này bằng công thức toán học, ta gọi \\(y\\) (lít) là tổng lượng nước trong bể sau \\(x\\) (phút). Mô hình hàm số bậc nhất mô tả tình huống trên là \\(y =\\) [[1]] \\(x +\\) [[2]].",
+      "generalfeedback": "Tốc độ nước chảy \\(20\\) lít/phút đóng vai trò là hệ số góc \\(a = 20\\), lượng nước ban đầu \\(80\\) lít là tung độ gốc \\(b = 80\\). Mô hình toán học thu được là \\(y = 20x + 80\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "20"
+        },
+        {
+          "group": 1,
+          "text": "80"
+        },
+        {
+          "group": 1,
+          "text": "100"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_02_08",
+      "questiontext": "Khi giải bài toán so sánh chi phí sử dụng dịch vụ của hai hãng taxi, học sinh lập phương trình toán học \\(12x + 15 = 15x + 3\\) (trong đó \\(x\\) tính bằng km, chi phí tính bằng nghìn đồng) và tìm được nghiệm \\(x = 4\\). Lời giải toán học \\(x = 4\\) biểu thị ý nghĩa nào trong ngữ cảnh thực tiễn?",
+      "generalfeedback": "Nghiệm \\(x = 4\\) của phương trình cân bằng chi phí \\(y_1 = y_2\\) cho biết tại mốc quãng đường \\(4\\) km, giá cước của hai hãng taxi bằng nhau (đều là \\(63\\) nghìn đồng).",
+      "answers": [
+        {
+          "text": "Quãng đường di chuyển là \\(4\\) km thì số tiền cước phải trả cho hai hãng taxi là bằng nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Chi phí tiền cước taxi của cả hai hãng đều bằng \\(4\\) nghìn đồng",
+          "fraction": 0
+        },
+        {
+          "text": "Hành khách chỉ nên đi taxi khi quãng đường vượt quá \\(4\\) km",
+          "fraction": 0
+        },
+        {
+          "text": "Sau \\(4\\) giờ di chuyển thì hai xe taxi gặp nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "1.1TC2a_K8",
+      "questiontext": "Nhóm học sinh cần tìm hiểu mô hình cước phí vận chuyển của các hãng giao hàng công nghệ để xây dựng bài toán hàm số bậc nhất thực tế. Quy trình tổ chức tìm kiếm dữ liệu trong môi trường số nào sau đây là hợp lý và hiệu quả nhất?",
+      "generalfeedback": "Tìm kiếm dữ liệu trong môi trường số đòi hỏi học sinh phải biết xác định nguồn thông tin chính thống (website/ứng dụng chính thức), thu thập các thông số định lượng phù hợp (giá mở cửa, giá theo km) và tổ chức lưu trữ dữ liệu để phục vụ việc mô hình hóa toán học.",
+      "answers": [
+        {
+          "text": "Truy cập website chính thức hoặc ứng dụng của các hãng giao hàng, thu thập bảng giá cước mở cửa và cước phí theo km, sau đó lưu trữ và phân loại dữ liệu thu được",
+          "fraction": 100
+        },
+        {
+          "text": "Gửi câu hỏi lên mạng xã hội hỏi bất kỳ ai và sử dụng ngay các con số comment không qua kiểm chứng",
+          "fraction": 0
+        },
+        {
+          "text": "Tự nghĩ ra các con số giá cước ngẫu nhiên mà không cần tra cứu dữ liệu trên internet",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ tìm kiếm một hình ảnh minh họa xe giao hàng trên mạng rồi dừng lại",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "8.A1.2_2",
+      "questiontext": "Khi học sinh sử dụng công cụ AI tạo sinh (như Chatbot) để hỗ trợ tìm công thức hàm số bậc nhất tính giá cước điện thoại hiện hành, công cụ AI đã đưa ra công thức \\(y = 1\\,000x + 20\\,000\\). Học sinh BẮT BUỘC phải kiểm chứng lại thông tin này với bảng giá cước chính thức của nhà mạng trước khi đưa vào bài tập. Khẳng định trên là Đúng hay Sai?",
+      "generalfeedback": "Khẳng định trên là Đúng. AI tạo sinh có thể cung cấp thông tin cũ, không chính xác hoặc suy diễn ngẫu nhiên. Do đó, việc kiểm chứng lại với nguồn thông tin chính thống là bắt buộc khi sử dụng AI trong học tập.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "8.A3.3_3",
+      "questiontext": "Học sinh Minh sử dụng AI để vẽ đồ thị hàm số bậc nhất \\(y = 2x + 50\\) biểu diễn chi phí sản xuất trong bài báo cáo dự án Toán học. Khi giáo viên chỉ ra một điểm trên đồ thị do AI vẽ bị sai tọa độ, Minh trả lời: 'Do AI vẽ sai nên em không có lỗi'. Hành vi của Minh thể hiện điều gì?",
+      "generalfeedback": "Sử dụng AI trong học tập đòi hỏi học sinh phải có trách nhiệm giải trình. Người học tự chịu trách nhiệm kiểm tra, xác minh tính chính xác của toàn bộ nội dung/sản phẩm do AI tạo ra trước khi công bố hoặc nộp cho giáo viên.",
+      "answers": [
+        {
+          "text": "Thiếu trách nhiệm giải trình vì người học phải chịu trách nhiệm kiểm tra tính chính xác của sản phẩm trước khi sử dụng và nộp bài",
+          "fraction": 100
+        },
+        {
+          "text": "Đúng đắn vì AI là công cụ tự động nên lỗi hoàn toàn thuộc về phần mềm",
+          "fraction": 0
+        },
+        {
+          "text": "Thể hiện tinh thần trung thực vì đã khai báo rõ ràng là do AI làm",
+          "fraction": 0
+        },
+        {
+          "text": "Chấp nhận được vì đồ thị toán học do AI tạo ra luôn được mặc định là đúng",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

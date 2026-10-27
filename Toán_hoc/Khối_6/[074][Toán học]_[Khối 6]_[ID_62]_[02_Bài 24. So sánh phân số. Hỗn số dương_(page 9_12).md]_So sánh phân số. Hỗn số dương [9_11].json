@@ -1,0 +1,632 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 26,
+    "metadata_used": {
+      "Quy tắc quy đồng mẫu nhiều phân số với mẫu dương": 4,
+      "Quy tắc so sánh hai phân số cùng mẫu hoặc khác mẫu": 4,
+      "Quy đồng mẫu các phân số": 4,
+      "So sánh hai phân số có tử hoặc mẫu âm": 4,
+      "YCCD_TOAN6_059": 4,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_TCTH_TUHOC_C2_04": 1,
+      "SUB_GTHT_XACDINHMD_C2_03": 1,
+      "NLT_TOAN_C2_01_01": 2,
+      "NLT_TOAN_C2_04_02": 2
+    },
+    "types_used": {
+      "multichoice": 16,
+      "gapselect": 1,
+      "truefalse": 5,
+      "numerical": 1,
+      "matching": 2,
+      "shortanswer": 1
+    },
+    "total": 26
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN6_059",
+        "reason": "Đo lường khả năng so sánh hai phân số cho trước."
+      },
+      {
+        "metadata_code": "Quy tắc quy đồng mẫu nhiều phân số với mẫu dương",
+        "reason": "Đo lường kiến thức về quy tắc quy đồng mẫu nhiều phân số với mẫu dương."
+      },
+      {
+        "metadata_code": "Quy tắc so sánh hai phân số cùng mẫu hoặc khác mẫu",
+        "reason": "Đo lường kiến thức về quy tắc so sánh hai phân số cùng mẫu hoặc khác mẫu."
+      },
+      {
+        "metadata_code": "Quy đồng mẫu các phân số",
+        "reason": "Đo lường kỹ năng quy đồng mẫu các phân số."
+      },
+      {
+        "metadata_code": "So sánh hai phân số có tử hoặc mẫu âm",
+        "reason": "Đo lường kỹ năng so sánh hai phân số có tử hoặc mẫu âm."
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc quy đồng mẫu nhiều phân số với mẫu dương",
+      "questiontext": "Muốn quy đồng mẫu nhiều phân số có mẫu dương, bước đầu tiên ta cần làm là gì?",
+      "generalfeedback": "Để quy đồng mẫu nhiều phân số có mẫu dương, bước 1 là tìm một bội chung (thường là BCNN) của các mẫu để làm mẫu chung.",
+      "answers": [
+        {
+          "text": "Tìm một bội chung (thường là BCNN) của các mẫu để làm mẫu chung",
+          "fraction": 100
+        },
+        {
+          "text": "Tìm thừa số phụ của từng mẫu số",
+          "fraction": 0
+        },
+        {
+          "text": "Nhân cả tử và mẫu với thừa số phụ tương ứng",
+          "fraction": 0
+        },
+        {
+          "text": "Cộng các mẫu số lại với nhau để làm mẫu chung",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc quy đồng mẫu nhiều phân số với mẫu dương",
+      "questiontext": "Để tìm thừa số phụ của mỗi mẫu, ta lấy mẫu chung [[1]] cho từng mẫu. Sau đó, ta nhân cả tử và mẫu của mỗi phân số với [[2]] tương ứng.",
+      "generalfeedback": "Theo quy tắc quy đồng mẫu: Thừa số phụ = Mẫu chung : Mẫu số; sau đó nhân cả tử và mẫu với thừa số phụ tương ứng.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "chia"
+        },
+        {
+          "group": 1,
+          "text": "thừa số phụ"
+        },
+        {
+          "group": 1,
+          "text": "nhân"
+        },
+        {
+          "group": 1,
+          "text": "mẫu chung"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc so sánh hai phân số cùng mẫu hoặc khác mẫu",
+      "questiontext": "Trong hai phân số có cùng một mẫu dương, phân số nào có tử lớn hơn thì phân số đó lớn hơn.",
+      "generalfeedback": "Đây là phát biểu đúng theo quy tắc so sánh hai phân số có cùng mẫu dương.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc so sánh hai phân số cùng mẫu hoặc khác mẫu",
+      "questiontext": "Muốn so sánh hai phân số không cùng mẫu, ta thực hiện như thế nào?",
+      "generalfeedback": "Muốn so sánh hai phân số không cùng mẫu, ta viết chúng dưới dạng hai phân số có cùng một mẫu dương rồi so sánh các tử với nhau.",
+      "answers": [
+        {
+          "text": "Viết chúng dưới dạng hai phân số có cùng một mẫu dương rồi so sánh các tử với nhau",
+          "fraction": 100
+        },
+        {
+          "text": "So sánh trực tiếp hai tử số với nhau mà không cần quy đồng",
+          "fraction": 0
+        },
+        {
+          "text": "So sánh hai mẫu số với nhau, phân số nào có mẫu lớn hơn thì lớn hơn",
+          "fraction": 0
+        },
+        {
+          "text": "Cộng tử với mẫu rồi so sánh các kết quả",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Quy đồng mẫu các phân số",
+      "questiontext": "Tìm mẫu chung nhỏ nhất (BCNN của các mẫu) khi quy đồng mẫu các phân số \\(\\frac{-3}{4}\\), \\(\\frac{5}{9}\\) và \\(\\frac{2}{3}\\). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Mẫu chung nhỏ nhất chính là BCNN(4, 9, 3) = 36.",
+      "answers": [
+        {
+          "text": "36",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "Quy đồng mẫu các phân số",
+      "questiontext": "Ghép mỗi phân số sau với phân số tương đương có mẫu chung là 24:",
+      "generalfeedback": "Ta có: \\(\\frac{5}{6} = \\frac{20}{24}\\); \\(\\frac{-3}{8} = \\frac{-9}{24}\\); \\(\\frac{7}{4} = \\frac{42}{24}\\).",
+      "subquestions": [
+        {
+          "question": "Phân số \\(\\frac{5}{6}\\)",
+          "answer": "\\(\\frac{20}{24}\\)"
+        },
+        {
+          "question": "Phân số \\(\\frac{-3}{8}\\)",
+          "answer": "\\(\\frac{-9}{24}\\)"
+        },
+        {
+          "question": "Phân số \\(\\frac{7}{4}\\)",
+          "answer": "\\(\\frac{42}{24}\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "So sánh hai phân số có tử hoặc mẫu âm",
+      "questiontext": "Khi viết phân số \\(\\frac{3}{-8}\\) thành phân số có mẫu dương, ta được phân số nào sau đây?",
+      "generalfeedback": "Ta có \\(\\frac{3}{-8} = \\frac{-3}{8}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{-3}{8}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{3}{8}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{-8}{3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{8}{3}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "So sánh hai phân số có tử hoặc mẫu âm",
+      "questiontext": "So sánh hai phân số \\(\\frac{-5}{7}\\) và \\(\\frac{3}{7}\\), kết luận nào sau đây là đúng?",
+      "generalfeedback": "Hai phân số có cùng mẫu dương 7, vì \\(-5 < 3\\) nên \\(\\frac{-5}{7} < \\frac{3}{7}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{-5}{7} < \\frac{3}{7}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{-5}{7} > \\frac{3}{7}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{-5}{7} = \\frac{3}{7}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Không so sánh được",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_059",
+      "questiontext": "So sánh hai phân số \\(\\frac{7}{10}\\) và \\(\\frac{11}{15}\\). Khẳng định nào sau đây là đúng?",
+      "generalfeedback": "BCNN(10, 15) = 30. Ta có \\(\\frac{7}{10} = \\frac{21}{30}\\) và \\(\\frac{11}{15} = \\frac{22}{30}\\). Vì 21 < 22 nên \\(\\frac{7}{10} < \\frac{11}{15}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{7}{10} < \\frac{11}{15}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{7}{10} > \\frac{11}{15}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{7}{10} = \\frac{11}{15}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Không thể so sánh hai phân số này",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_059",
+      "questiontext": "Khẳng định sau đây Đúng hay Sai: \"Vì \\(\\frac{-15}{81} < 0\\) và \\(0 < \\frac{7}{90}\\) nên \\(\\frac{-15}{81} < \\frac{7}{90}\\)\".",
+      "generalfeedback": "Khẳng định trên là Đúng vì phân số âm luôn nhỏ hơn 0, và phân số dương luôn lớn hơn 0.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc quy đồng mẫu nhiều phân số với mẫu dương",
+      "questiontext": "Bước thứ ba trong quy tắc quy đồng mẫu nhiều phân số có mẫu dương là gì?",
+      "generalfeedback": "Ba bước quy đồng mẫu nhiều phân số có mẫu dương: 1. Tìm BCNN của các mẫu; 2. Tìm thừa số phụ; 3. Nhân tử và mẫu của mỗi phân số với thừa số phụ tương ứng.",
+      "answers": [
+        {
+          "text": "Nhân tử và mẫu của mỗi phân số với thừa số phụ tương ứng",
+          "fraction": 100
+        },
+        {
+          "text": "Chia cả tử và mẫu cho thừa số phụ",
+          "fraction": 0
+        },
+        {
+          "text": "Tìm bội chung nhỏ nhất của các mẫu",
+          "fraction": 0
+        },
+        {
+          "text": "Rút gọn các phân số về dạng tối giản",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc quy đồng mẫu nhiều phân số với mẫu dương",
+      "questiontext": "Viết phân số \\(\\frac{5}{-6}\\) thành phân số bằng nó nhưng có mẫu dương:",
+      "generalfeedback": "Với phân số có mẫu âm, ta đổi dấu cả tử và mẫu: \\(\\frac{5}{-6} = \\frac{-5}{6}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{-5}{6}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{5}{6}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{-6}{5}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{6}{5}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc so sánh hai phân số cùng mẫu hoặc khác mẫu",
+      "questiontext": "Khi so sánh hai phân số có cùng mẫu dương, phân số nào có tử số nhỏ hơn thì lớn hơn.",
+      "generalfeedback": "Khẳng định này Sai. Theo quy tắc: Trong hai phân số có cùng một mẫu dương, phân số nào có tử lớn hơn thì phân số đó lớn hơn.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "Quy đồng mẫu các phân số",
+      "questiontext": "Ghép mỗi cặp phân số sau với mẫu chung nhỏ nhất (BCNN của hai mẫu số) tương ứng:",
+      "generalfeedback": "BCNN(3, 7) = 21; BCNN(12, 18) = 36; BCNN(20, 15) = 60.",
+      "subquestions": [
+        {
+          "question": "Cặp phân số \\(\\frac{2}{3}\\) và \\(\\frac{-6}{7}\\)",
+          "answer": "21"
+        },
+        {
+          "question": "Cặp phân số \\(\\frac{-7}{12}\\) và \\(\\frac{-11}{18}\\)",
+          "answer": "36"
+        },
+        {
+          "question": "Cặp phân số \\(\\frac{3}{20}\\) và \\(\\frac{6}{15}\\)",
+          "answer": "60"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Quy đồng mẫu các phân số",
+      "questiontext": "Quy đồng mẫu hai phân số \\(\\frac{-3}{5}\\) và \\(\\frac{-1}{2}\\) ta được hai phân số có mẫu chung là 10 lần lượt là:",
+      "generalfeedback": "\\(\\frac{-3}{5} = \\frac{(-3) \\cdot 2}{5 \\cdot 2} = \\frac{-6}{10}\\) và \\(\\frac{-1}{2} = \\frac{(-1) \\cdot 5}{2 \\cdot 5} = \\frac{-5}{10}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{-6}{10}\\) và \\(\\frac{-5}{10}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{-3}{10}\\) và \\(\\frac{-1}{10}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{-6}{10}\\) và \\(\\frac{-2}{10}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{-5}{10}\\) và \\(\\frac{-6}{10}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "So sánh hai phân số có tử hoặc mẫu âm",
+      "questiontext": "So sánh hai phân số \\(\\frac{-7}{21}\\) và \\(\\frac{-11}{21}\\). Kết luận nào sau đây là đúng?",
+      "generalfeedback": "Vì -7 > -11 và hai phân số có cùng mẫu dương 21 nên \\(\\frac{-7}{21} > \\frac{-11}{21}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{-7}{21} > \\frac{-11}{21}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{-7}{21} < \\frac{-11}{21}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{-7}{21} = \\frac{-11}{21}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Không so sánh được",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "So sánh hai phân số có tử hoặc mẫu âm",
+      "questiontext": "So sánh hai phân số \\(\\frac{-1}{8}\\) và \\(\\frac{-5}{24}\\). Điền dấu thích hợp (>, < hoặc =) vào kết quả.",
+      "generalfeedback": "Ta có \\(\\frac{-1}{8} = \\frac{-3}{24}\\). Vì -3 > -5 nên \\(\\frac{-3}{24} > \\frac{-5}{24}\\), do đó \\(\\frac{-1}{8} > \\frac{-5}{24}\\).",
+      "answers": [
+        {
+          "text": ">",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_059",
+      "questiontext": "So sánh hai phân số \\(\\frac{3}{20}\\) và \\(\\frac{6}{15}\\). Khẳng định nào sau đây đúng?",
+      "generalfeedback": "Quy đồng mẫu số: BCNN(20, 15) = 60. Ta có \\(\\frac{3}{20} = \\frac{9}{60}\\) và \\(\\frac{6}{15} = \\frac{24}{60}\\). Vì 9 < 24 nên \\(\\frac{3}{20} < \\frac{6}{15}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{3}{20} < \\frac{6}{15}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{3}{20} > \\frac{6}{15}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{3}{20} = \\frac{6}{15}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Không thể so sánh",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_059",
+      "questiontext": "Không cần quy đồng mẫu số, ta có thể kết luận phân số \\(\\frac{31}{32}\\) lớn hơn phân số \\(\\frac{-5}{57}\\). Đúng hay Sai?",
+      "generalfeedback": "Đúng, vì \\(\\frac{31}{32} > 0\\) và \\(\\frac{-5}{57} < 0\\), do đó phân số dương luôn lớn hơn phân số âm.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ học Toán bài \"So sánh phân số\", khi gặp bài toán so sánh hai phân số khác mẫu khó và dài, bạn Nam làm chưa ra kết quả. Theo em, bạn Nam nên chọn cách xử lý nào thể hiện tinh thần luôn cố gắng vươn lên trong học tập?",
+      "generalfeedback": "Khi gặp bài toán khó, thái độ kiên trì, tự mình xem lại quy tắc quy đồng mẫu và thử lại nhiều lần thể hiện sự nỗ lực vươn lên đạt kết quả tốt.",
+      "answers": [
+        {
+          "text": "Kiên trì xem lại quy tắc quy đồng mẫu trong SGK, kiên nhẫn tính toán và thử lại để tìm ra đáp án đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua không làm câu hỏi này nữa để làm bài khác dễ hơn",
+          "fraction": 0
+        },
+        {
+          "text": "Chờ thầy cô giải đáp án rồi chép lại mà không cần suy nghĩ",
+          "fraction": 0
+        },
+        {
+          "text": "Xem đáp án của bạn bên cạnh để chép ngay kết quả vào vở",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Bạn Hoa muốn lập bảng tóm tắt từ khóa về các bước quy đồng mẫu nhiều phân số có mẫu dương để dễ ghi nhớ. Những từ khóa trọng tâm nào sau đây mô tả đúng 3 bước theo thứ tự?",
+      "generalfeedback": "Tóm tắt từ khóa 3 bước quy đồng mẫu phân số có mẫu dương: 1. BCNN các mẫu (Mẫu chung) -> 2. Thừa số phụ -> 3. Nhân tử và mẫu với thừa số phụ.",
+      "answers": [
+        {
+          "text": "1. Tìm BCNN của các mẫu -> 2. Tìm thừa số phụ -> 3. Nhân tử và mẫu với thừa số phụ",
+          "fraction": 100
+        },
+        {
+          "text": "1. Cộng các mẫu -> 2. Tìm UCLN -> 3. Chia tử cho mẫu",
+          "fraction": 0
+        },
+        {
+          "text": "1. Đổi dấu mẫu -> 2. So sánh tử số -> 3. Rút gọn phân số",
+          "fraction": 0
+        },
+        {
+          "text": "1. Tìm tử chung -> 2. Nhân hai mẫu số -> 3. Bớt tử số",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "questiontext": "Quan sát bảng số liệu về chiều dài (đơn vị feet) của một số động vật nhỏ nhất thế giới:\n- Chuột chũi châu Âu: \\(\\frac{5}{12}\\) feet\n- Dơi Kitti: \\(\\frac{83}{100}\\) feet\n- Chuột túi có gai: \\(\\frac{1}{4}\\) feet\n- Sóc chuột phương Đông: \\(\\frac{1}{3}\\) feet\n\nHỏi loài động vật nào có chiều dài ngắn nhất?",
+      "generalfeedback": "Quy đồng mẫu số các phân số với mẫu chung 300 (hoặc so sánh): 1/4 = 75/300, 1/3 = 100/300, 5/12 = 125/300, 83/100 = 249/300. Do 75/300 nhỏ nhất nên Chuột túi có gai ngắn nhất.",
+      "answers": [
+        {
+          "text": "Chuột túi có gai",
+          "fraction": 100
+        },
+        {
+          "text": "Chuột chũi châu Âu",
+          "fraction": 0
+        },
+        {
+          "text": "Dơi Kitti",
+          "fraction": 0
+        },
+        {
+          "text": "Sóc chuột phương Đông",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Để so sánh hai phân số âm \\(\\frac{-7}{12}\\) và \\(\\frac{-11}{18}\\), thao tác phân tích tư duy nào sau đây giúp ta thực hiện đúng quy tắc?",
+      "generalfeedback": "Để so sánh hai phân số khác mẫu, ta thực hiện phân tích: đưa hai phân số về cùng mẫu dương (BCNN(12, 18) = 36) rồi so sánh hai tử số âm với nhau.",
+      "answers": [
+        {
+          "text": "Quy đồng đưa hai phân số về cùng mẫu dương 36, rồi so sánh hai tử số âm -21 và -22",
+          "fraction": 100
+        },
+        {
+          "text": "So sánh trực tiếp hai mẫu số 12 và 18, mẫu nào lớn hơn thì phân số đó lớn hơn",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ đi dấu âm ở tử số rồi so sánh hai phân số dương thu được",
+          "fraction": 0
+        },
+        {
+          "text": "Lấy tử số của phân số này cộng với mẫu số của phân số kia",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Sử dụng tư duy so sánh trung gian qua số 0, hãy cho biết kết luận nào sau đây đúng khi so sánh \\(\\frac{-15}{81}\\) và \\(\\frac{7}{90}\\)?",
+      "generalfeedback": "Tư duy lập luận trung gian qua 0: Vì \\(\\frac{-15}{81} < 0\\) và \\(0 < \\frac{7}{90}\\) nên \\(\\frac{-15}{81} < \\frac{7}{90}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{-15}{81} < \\frac{7}{90}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{-15}{81} > \\frac{7}{90}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{-15}{81} = \\frac{7}{90}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Không so sánh được vì hai phân số khác mẫu",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04_02",
+      "questiontext": "Đọc đoạn văn bản sau trong SGK: \"Muốn so sánh hai phân số không cùng mẫu, ta viết chúng dưới dạng hai phân số có cùng một mẫu dương rồi so sánh các tử với nhau: phân số nào có tử lớn hơn thì phân số đó lớn hơn.\" Thông tin toán học trọng tâm được rút ra từ văn bản trên là gì?",
+      "generalfeedback": "Nội dung trọng tâm của văn bản là quy tắc so sánh hai phân số không cùng mẫu bằng cách đưa về cùng mẫu dương rồi so sánh các tử số.",
+      "answers": [
+        {
+          "text": "Quy tắc so sánh hai phân số không cùng mẫu thông qua quy đồng về cùng mẫu dương",
+          "fraction": 100
+        },
+        {
+          "text": "Cách chuyển phân số có mẫu âm thành phân số có mẫu dương",
+          "fraction": 0
+        },
+        {
+          "text": "Quy tắc tìm bội chung nhỏ nhất của hai số tự nhiên",
+          "fraction": 0
+        },
+        {
+          "text": "Định nghĩa về phân số tối giản và hỗn số dương",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04_02",
+      "questiontext": "Đọc tình huống: \"Lớp 6A có \\(\\frac{4}{5}\\) số học sinh thích bóng bàn, \\(\\frac{7}{10}\\) số học sinh thích bóng đá và \\(\\frac{1}{2}\\) số học sinh thích bóng chuyền.\" Để biết môn thể thao nào được yêu thích nhất, ta cần so sánh ba phân số \\(\\frac{4}{5}\\), \\(\\frac{7}{10}\\) và \\(\\frac{1}{2}\\). Khẳng định này Đúng hay Sai?",
+      "generalfeedback": "Đúng, để xác định môn thể thao được yêu thích nhất, ta phải so sánh tỉ lệ học sinh thích từng môn thể thao.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,679 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 27,
+    "metadata_used": {
+      "YCCD_TOAN8_115": 3,
+      "Phương pháp ước lượng xác suất của biến cố bằng xác suất thực nghiệm khi không thể tính trực tiếp xác suất lý thuyết": 2,
+      "Ước lượng xác suất xảy ra biến cố dựa vào dữ liệu thực nghiệm thu được": 10,
+      "Đưa ra đánh giá về khả năng xảy ra biến cố trong thực tế": 5,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_GQVD_PHATHIEN_C2_01": 1,
+      "NLT_TOAN_C2_02_03": 1,
+      "NLT_TOAN_C2_02_08": 1,
+      "1.2TC2e_K8": 1,
+      "8.A1.2_2": 1,
+      "8.A3.3_3": 1
+    },
+    "types_used": {
+      "multichoice": 15,
+      "numerical": 4,
+      "calculatedsimple": 1,
+      "gapselect": 1,
+      "shortanswer": 1,
+      "truefalse": 2,
+      "matching": 1,
+      "calculatedmulti": 1,
+      "ddwtos": 1
+    },
+    "total": 27
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN8_115",
+        "reason": "Nhận biết mối liên hệ giữa xác suất thực nghiệm và xác suất biến cố"
+      },
+      {
+        "metadata_code": "Phương pháp ước lượng xác suất của biến cố bằng xác suất thực nghiệm khi không thể tính trực tiếp xác suất lý thuyết",
+        "reason": "Phương pháp ước lượng xác suất của biến cố bằng xác suất thực nghiệm"
+      },
+      {
+        "metadata_code": "Ước lượng xác suất xảy ra biến cố dựa vào dữ liệu thực nghiệm thu được",
+        "reason": "Ước lượng xác suất xảy ra biến cố dựa vào dữ liệu thực nghiệm thu được"
+      },
+      {
+        "metadata_code": "Đưa ra đánh giá về khả năng xảy ra biến cố trong thực tế",
+        "reason": "Đưa ra đánh giá, dự báo về khả năng xảy ra biến cố trong thực tế"
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_115",
+      "questiontext": "Khi không thể tính trực tiếp xác suất lý thuyết của một biến cố \\(E\\), người ta thường ước lượng xác suất của biến cố \\(E\\) thông qua giá trị nào sau đây?",
+      "generalfeedback": "Xác suất của một biến cố \\(E\\) có thể được ước lượng bằng xác suất thực nghiệm của biến cố đó qua nhiều lần theo dõi, thực nghiệm.",
+      "answers": [
+        {
+          "text": "Xác suất thực nghiệm của biến cố \\(E\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Tổng số lần thực hiện thực nghiệm",
+          "fraction": 0
+        },
+        {
+          "text": "Số lần biến cố \\(E\\) không xảy ra",
+          "fraction": 0
+        },
+        {
+          "text": "Tích giữa số lần xảy ra và số lần thực nghiệm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Phương pháp ước lượng xác suất của biến cố bằng xác suất thực nghiệm khi không thể tính trực tiếp xác suất lý thuyết",
+      "questiontext": "Giả sử trong \\(n\\) lần theo dõi một hiện tượng, biến cố \\(E\\) xảy ra \\(k\\) lần. Công thức ước lượng xác suất của biến cố \\(E\\) là:",
+      "generalfeedback": "Công thức ước lượng xác suất của biến cố \\(E\\) bằng xác suất thực nghiệm là \\(P(E) \\approx \\frac{k}{n}\\).",
+      "answers": [
+        {
+          "text": "\\(P(E) \\approx \\frac{k}{n}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(P(E) \\approx \\frac{n}{k}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(P(E) \\approx \\frac{k}{n - k}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(P(E) \\approx k \\cdot n\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Ước lượng xác suất xảy ra biến cố dựa vào dữ liệu thực nghiệm thu được",
+      "imgs": [
+        "_page_0_Picture_9.jpeg"
+      ],
+      "questiontext": "[img:_page_0_Picture_9.jpeg]\nTheo dõi camera quan sát tại đường Nguyễn Trãi trong 365 ngày, người ta ghi nhận được 217 ngày bị tắc đường vào giờ cao điểm buổi chiều. Hãy ước lượng xác suất của biến cố \\(E\\): \"Tắc đường vào giờ cao điểm buổi chiều ở đường Nguyễn Trãi\". Làm tròn kết quả đến chữ số thập phân thứ tư. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Xác suất của biến cố \\(E\\) được ước lượng bằng xác suất thực nghiệm: \\(P(E) \\approx \\frac{217}{365} \\approx 0.5945\\).",
+      "answers": [
+        {
+          "text": "0.5945",
+          "fraction": 100,
+          "tolerance": 0.0001
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Ước lượng xác suất xảy ra biến cố dựa vào dữ liệu thực nghiệm thu được",
+      "questiontext": "Kiểm tra ngẫu nhiên 500 chiếc ti vi do nhà máy X sản xuất thấy có 4 chiếc không đạt chất lượng. Xác suất của biến cố \"Một ti vi do nhà máy X sản xuất không đạt chất lượng\" được ước lượng là bao nhiêu?",
+      "generalfeedback": "Xác suất thực nghiệm là \\(\\frac{4}{500} = 0,008 = 0,8\\%\\). Vậy xác suất biến cố được ước lượng là 0,8%.",
+      "answers": [
+        {
+          "text": "0,8%",
+          "fraction": 100
+        },
+        {
+          "text": "0,08%",
+          "fraction": 0
+        },
+        {
+          "text": "8%",
+          "fraction": 0
+        },
+        {
+          "text": "4%",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Ước lượng xác suất xảy ra biến cố dựa vào dữ liệu thực nghiệm thu được",
+      "questiontext": "Một xưởng sản xuất kiểm tra ngẫu nhiên 1000 sản phẩm thì phát hiện có {k} sản phẩm bị lỗi. Công thức tính xác suất thực nghiệm để ước lượng xác suất một sản phẩm bị lỗi là:",
+      "generalfeedback": "Xác suất thực nghiệm bằng số sản phẩm lỗi chia cho tổng số sản phẩm kiểm tra: \\(\\frac{k}{1000}\\).",
+      "wildcards": [
+        {
+          "name": "k",
+          "min": 5.0,
+          "max": 50.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{k}/1000",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_115",
+      "questiontext": "Trong nhiều tình huống thực tế, khi không thể tính trực tiếp xác suất lý thuyết, người ta ước lượng xác suất của một biến cố nhờ xác suất [[1]]. Số lần thực nghiệm càng [[2]] thì giá trị ước lượng càng tin cậy.",
+      "generalfeedback": "Xác suất của biến cố được ước lượng bằng xác suất thực nghiệm. Số lần thực nghiệm càng lớn thì xác suất thực nghiệm càng gần với xác suất của biến cố.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "thực nghiệm"
+        },
+        {
+          "group": 1,
+          "text": "lý thuyết"
+        },
+        {
+          "group": 1,
+          "text": "lớn"
+        },
+        {
+          "group": 1,
+          "text": "nhỏ"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Đưa ra đánh giá về khả năng xảy ra biến cố trong thực tế",
+      "questiontext": "Một nhà máy có tỉ lệ sản phẩm lỗi ước lượng là 3%. Nếu kiểm tra ngẫu nhiên 200 sản phẩm, dự đoán có bao nhiêu sản phẩm bị lỗi?",
+      "generalfeedback": "Số sản phẩm lỗi dự đoán là \\(200 \\times 3\\% = 200 \\times 0,03 = 6\\) sản phẩm.",
+      "answers": [
+        {
+          "text": "6",
+          "fraction": 100
+        },
+        {
+          "text": "6 sản phẩm",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Ước lượng xác suất xảy ra biến cố dựa vào dữ liệu thực nghiệm thu được",
+      "imgs": [
+        "_page_2_Picture_10.jpeg"
+      ],
+      "questiontext": "[img:_page_2_Picture_10.jpeg]\nThống kê đến ngày 26-12-2021, toàn thế giới có 279 830 788 người nhiễm Covid-19, trong đó có 5 413 126 người tử vong. Xác suất một người nhiễm Covid-19 bị tử vong được ước lượng khoảng bao nhiêu phần trăm (làm tròn đến hai chữ số thập phân)?",
+      "generalfeedback": "Xác suất được ước lượng bằng \\(\\frac{5\\ 413\\ 126}{279\\ 830\\ 788} \\approx 0,0193 = 1,93\\%\\).",
+      "answers": [
+        {
+          "text": "1,93%",
+          "fraction": 100
+        },
+        {
+          "text": "2,15%",
+          "fraction": 0
+        },
+        {
+          "text": "0,19%",
+          "fraction": 0
+        },
+        {
+          "text": "5,41%",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_115",
+      "questiontext": "Xác suất thực nghiệm của một biến cố luôn luôn bằng chính xác xác suất lý thuyết của biến cố đó trong mọi trường hợp thực nghiệm.",
+      "generalfeedback": "Phát biểu này SAI. Xác suất thực nghiệm chỉ dùng để ước lượng xác suất của biến cố, giá trị này phụ thuộc vào kết quả thực nghiệm và xấp xỉ xác suất lý thuyết khi số lần thực nghiệm đủ lớn.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Đưa ra đánh giá về khả năng xảy ra biến cố trong thực tế",
+      "questiontext": "Thống kê trong 240 000 trẻ sơ sinh chào đời có 123 120 bé trai. Nếu có 10 000 trẻ sơ sinh chào đời tiếp theo, dự đoán có khoảng bao nhiêu bé gái? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Số bé gái trong 240 000 trẻ là \\(240\\ 000 - 123\\ 120 = 116\\ 880\\). Xác suất sinh bé gái ước lượng là \\(\\frac{116\\ 880}{240\\ 000} = 0,487\\). Dự đoán số bé gái trong 10 000 trẻ là \\(10\\ 000 \\times 0,487 = 4870\\).",
+      "answers": [
+        {
+          "text": "4870",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Ước lượng xác suất xảy ra biến cố dựa vào dữ liệu thực nghiệm thu được",
+      "questiontext": "Một cửa hàng thống kê số lượng điện thoại bán được trong năm qua: Loại A bán được 712 chiếc, loại B bán được 1 035 chiếc, loại C bán được 1 085 chiếc. Xác suất thực nghiệm của biến cố \"Chiếc điện thoại loại A được bán ra\" là bao nhiêu (viết dưới dạng phân số tối giản)?",
+      "generalfeedback": "Tổng số điện thoại bán được là \\(712 + 1035 + 1085 = 2832\\) chiếc. Xác suất thực nghiệm bán loại A là \\(\\frac{712}{2832} = \\frac{89}{354}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{89}{354}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{712}{2832}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{89}{355}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{1}{3}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Phương pháp ước lượng xác suất của biến cố bằng xác suất thực nghiệm khi không thể tính trực tiếp xác suất lý thuyết",
+      "questiontext": "Hãy ghép các khái niệm/ký hiệu ở cột trái với ý nghĩa tương ứng ở cột phải trong bài toán ước lượng xác suất thực nghiệm:",
+      "generalfeedback": "Trong mô hình ước lượng xác suất thực nghiệm, \\(n\\) là tổng số lần theo dõi/thực nghiệm, \\(k\\) là số lần biến cố \\(E\\) xảy ra, và \\(\\frac{k}{n}\\) là xác suất thực nghiệm.",
+      "subquestions": [
+        {
+          "question": "Số lần biến cố \\(E\\) xảy ra",
+          "answer": "\\(k\\)"
+        },
+        {
+          "question": "Tổng số lần theo dõi hoặc thực nghiệm",
+          "answer": "\\(n\\)"
+        },
+        {
+          "question": "Xác suất thực nghiệm của biến cố \\(E\\)",
+          "answer": "\\(\\frac{k}{n}\\)"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Ước lượng xác suất xảy ra biến cố dựa vào dữ liệu thực nghiệm thu được",
+      "questiontext": "Tung một chiếc kẹp giấy 145 lần xuống sàn nhà lát gạch vuông. Quan sát thấy có 113 lần chiếc kẹp nằm hoàn toàn bên trong hình vuông và 32 lần nằm trên cạnh hình vuông. Hãy tính xác suất thực nghiệm của biến cố F: \"Chiếc kẹp giấy nằm trên cạnh của hình vuông\" (làm tròn kết quả đến 4 chữ số thập phân). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Xác suất thực nghiệm của biến cố F là \\(\\frac{32}{145} \\approx 0.2207\\).",
+      "answers": [
+        {
+          "text": "0.2207",
+          "fraction": 100,
+          "tolerance": 0.0001
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Ước lượng xác suất xảy ra biến cố dựa vào dữ liệu thực nghiệm thu được",
+      "imgs": [
+        "_page_4_Picture_17.jpeg"
+      ],
+      "questiontext": "[img:_page_4_Picture_17.jpeg]\nNhân viên kiểm tra chất lượng sản phẩm ghi lại số phế phẩm trong 20 ngày: 0 phế phẩm (14 ngày), 1 phế phẩm (3 ngày), 2 phế phẩm (1 ngày), 3 phế phẩm (1 ngày), từ 4 phế phẩm trở lên (1 ngày). Xác suất thực nghiệm của biến cố K: \"Trong một ngày nhà máy đó có ít nhất 2 phế phẩm\" là:",
+      "generalfeedback": "Số ngày có ít nhất 2 phế phẩm là \\(1 + 1 + 1 = 3\\) ngày. Xác suất thực nghiệm là \\(\\frac{3}{20} = 0,15 = 15\\%\\).",
+      "answers": [
+        {
+          "text": "15%",
+          "fraction": 100
+        },
+        {
+          "text": "5%",
+          "fraction": 0
+        },
+        {
+          "text": "10%",
+          "fraction": 0
+        },
+        {
+          "text": "30%",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Ước lượng xác suất xảy ra biến cố dựa vào dữ liệu thực nghiệm thu được",
+      "questiontext": "Thống kê thời gian của 78 chương trình quảng cáo trên đài truyền hình: 17 chương trình (0 - 19s), 38 chương trình (20 - 39s), 19 chương trình (40 - 59s), 4 chương trình (trên 60s). Xác suất thực nghiệm của biến cố \"Chương trình quảng cáo kéo dài trên 1 phút\" là bao nhiêu (viết dưới dạng phân số tối giản)?",
+      "generalfeedback": "Số chương trình kéo dài trên 1 phút (trên 60s) là 4. Xác suất thực nghiệm là \\(\\frac{4}{78} = \\frac{2}{39}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{2}{39}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{4}{78}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{1}{19}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{17}{78}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Ước lượng xác suất xảy ra biến cố dựa vào dữ liệu thực nghiệm thu được",
+      "questiontext": "Thống kê dịch bệnh EBOLA cho thấy có 34 453 người nhiễm và 15 158 người tử vong. Căn cứ vào số liệu trên, hãy ước lượng xác suất một người tử vong khi nhiễm bệnh EBOLA (làm tròn đến hai chữ số thập phân dưới dạng phần trăm).",
+      "generalfeedback": "Xác suất tử vong ước lượng là \\(\\frac{15\\ 158}{34\\ 453} \\approx 0,43997 = 44,00\\%\\).",
+      "answers": [
+        {
+          "text": "44,00%",
+          "fraction": 100
+        },
+        {
+          "text": "15,16%",
+          "fraction": 0
+        },
+        {
+          "text": "34,45%",
+          "fraction": 0
+        },
+        {
+          "text": "50,00%",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Đưa ra đánh giá về khả năng xảy ra biến cố trong thực tế",
+      "questiontext": "Kiểm tra chất lượng 600 chiếc điều hòa thấy có 5 chiếc bị lỗi. Trong một lô hàng có 1 500 chiếc điều hòa, hãy dự đoán xem có khoảng bao nhiêu chiếc điều hòa không bị lỗi. (Chỉ điền số nguyên, không ghi đơn vị)",
+      "generalfeedback": "Số điều hòa không bị lỗi trong 600 chiếc là \\(600 - 5 = 595\\) chiếc. Xác suất thực nghiệm điều hòa không bị lỗi là \\(\\frac{595}{600}\\). Dự đoán trong 1 500 chiếc có khoảng \\(1500 \\times \\frac{595}{600} = 1487,5 \\approx 1488\\) chiếc.",
+      "answers": [
+        {
+          "text": "1488",
+          "fraction": 100,
+          "tolerance": 1
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "thong_hieu",
+      "metadata_code": "Ước lượng xác suất xảy ra biến cố dựa vào dữ liệu thực nghiệm thu được",
+      "questiontext": "Khi gieo một đồng xu {n} lần, người ta quan sát thấy mặt ngửa xuất hiện {k} lần. Công thức biểu diễn xác suất thực nghiệm của biến cố \"Xuất hiện mặt ngửa\" là:",
+      "generalfeedback": "Xác suất thực nghiệm bằng tỉ số giữa số lần xuất hiện mặt ngửa {k} và tổng số lần gieo {n}: \\(\\frac{k}{n}\\).",
+      "wildcards": [
+        {
+          "name": "n",
+          "min": 100.0,
+          "max": 200.0,
+          "decimals": 0
+        },
+        {
+          "name": "k",
+          "min": 40.0,
+          "max": 60.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{k}/{n}",
+          "fraction": 100
+        },
+        {
+          "text": "{n}/{k}",
+          "fraction": 0
+        },
+        {
+          "text": "({n}-{k})/{n}",
+          "fraction": 0
+        },
+        {
+          "text": "({k}+1)/{n}",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Đưa ra đánh giá về khả năng xảy ra biến cố trong thực tế",
+      "questiontext": "Để dự đoán số lần xảy ra của một sự kiện trong [[1]], ta có thể lấy tổng số lần thực hiện dự kiến nhân với [[2]] của sự kiện đó thu được từ các thực nghiệm trước.",
+      "generalfeedback": "Ứng dụng của xác suất thực nghiệm là giúp dự báo/dự đoán số lần xảy ra sự kiện trong tương lai bằng cách nhân số lần thử với xác suất thực nghiệm.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "tương lai"
+        },
+        {
+          "group": 1,
+          "text": "quá khứ"
+        },
+        {
+          "group": 1,
+          "text": "xác suất thực nghiệm"
+        },
+        {
+          "group": 1,
+          "text": "xác suất lý thuyết"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Đưa ra đánh giá về khả năng xảy ra biến cố trong thực tế",
+      "questiontext": "Mai gieo hai con xúc xắc 100 lần và thu được tổng số chấm là số chẵn ở 51 lần. Trước khi Việt thực hiện gieo 120 lần, hãy dự đoán xem có khoảng bao nhiêu lần số điểm Việt nhận được là một số chẵn?",
+      "generalfeedback": "Xác suất thực nghiệm thu được tổng số chấm là số chẵn từ kết quả của Mai là \\(\\frac{51}{100} = 0,51\\). Dự đoán cho Việt khi gieo 120 lần là \\(120 \\times 0,51 = 61,2 \\approx 61\\) lần.",
+      "answers": [
+        {
+          "text": "61 lần",
+          "fraction": 100
+        },
+        {
+          "text": "51 lần",
+          "fraction": 0
+        },
+        {
+          "text": "60 lần",
+          "fraction": 0
+        },
+        {
+          "text": "72 lần",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Bạn An thực hiện thí nghiệm tung kẹp giấy 30 lần để ước lượng xác suất kẹp giấy rơi vào trong hình vuông, nhưng thấy kết quả thu được khác nhiều so với kết quả của các bạn trong lớp. Để đạt kết quả học tập tốt và tìm ra xác suất thực nghiệm tin cậy hơn, bạn An nên làm gì?",
+      "generalfeedback": "Số lần thực nghiệm càng lớn thì xác suất thực nghiệm càng phản ánh chính xác khả năng xảy ra của biến cố. Thể hiện sự cố gắng vươn lên trong học tập, An nên kiên trì lặp lại thí nghiệm với số lần tung nhiều hơn (ví dụ 100 - 150 lần).",
+      "answers": [
+        {
+          "text": "Kiên trì tiếp tục thực hiện thí nghiệm với số lần tung lớn hơn (như 100 - 150 lần) để thu được kết quả ước lượng chính xác và tin cậy hơn.",
+          "fraction": 100
+        },
+        {
+          "text": "Chép lại ngay kết quả của bạn khác vào bài làm của mình để có số liệu đẹp.",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua bài tập này vì cho rằng thực nghiệm ngẫu nhiên không có giá trị.",
+          "fraction": 0
+        },
+        {
+          "text": "Tự thay đổi số liệu thu được 30 lần sao cho giống hệt kết quả của các bạn.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GQVD_PHATHIEN_C2_01",
+      "imgs": [
+        "_page_0_Picture_9.jpeg"
+      ],
+      "questiontext": "[img:_page_0_Picture_9.jpeg]\nĐể phân tích tình huống giao thông tại đường Nguyễn Trãi phục vụ cho bài học xác suất, học sinh cần thu thập và tổ chức dữ liệu từ camera quan sát. Cách sắp xếp dữ liệu nào sau đây giúp việc tính xác suất thực nghiệm tắc đường diễn ra thuận lợi nhất?",
+      "generalfeedback": "Việc phân tích tình huống học tập đòi hỏi học sinh tổ chức dữ liệu thô thành bảng thống kê phân loại rõ ràng: số ngày quan sát (n) và số ngày xảy ra biến cố tắc đường (k).",
+      "answers": [
+        {
+          "text": "Lập bảng thống kê ghi rõ tổng số ngày quan sát \\(n = 365\\) và số ngày ghi nhận tắc đường vào giờ cao điểm \\(k = 217\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ ghi lại danh sách tên các loại xe lưu thông trên đường Nguyễn Trãi.",
+          "fraction": 0
+        },
+        {
+          "text": "Liệt kê chiều dài của đường Nguyễn Trãi qua các thời kỳ.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ ghi nhận thời tiết của các ngày tắc đường mà không ghi tổng số ngày theo dõi.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_02_03",
+      "questiontext": "Một cửa hàng thống kê số lượng điện thoại bán được trong năm qua: loại A bán được 712 chiếc, loại B bán được 1 035 chiếc, loại C bán được 1 085 chiếc. Để mô tả tình huống thực tiễn này bằng mô hình toán học nhằm ước lượng xác suất bán được điện thoại loại A, học sinh sử dụng mô hình nào sau đây?",
+      "generalfeedback": "Mô hình bảng biểu thống kê tần số giúp mô tả bài toán thực tiễn và tính xác suất thực nghiệm \\(P(E) = \\frac{712}{712 + 1035 + 1085} = \\frac{712}{2832}\\).",
+      "answers": [
+        {
+          "text": "Sử dụng bảng thống kê số lượng bán của từng loại điện thoại và tỉ số giữa số điện thoại loại A bán được với tổng số điện thoại bán ra.",
+          "fraction": 100
+        },
+        {
+          "text": "Sử dụng công thức tính diện tích hình tam giác.",
+          "fraction": 0
+        },
+        {
+          "text": "Sử dụng phương trình đường thẳng trong hệ tọa độ.",
+          "fraction": 0
+        },
+        {
+          "text": "Sử dụng mô hình hình học không gian 3D.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_02_08",
+      "questiontext": "Khi kiểm tra chất lượng 600 chiếc điều hòa do nhà máy sản xuất, người ta thấy có 5 chiếc bị lỗi. Kết quả tính toán xác suất thực nghiệm là \\(P(E) \\approx \\frac{5}{600} \\approx 0,83\\%\\). Lời giải toán học này thể hiện ý nghĩa gì trong ngữ cảnh thực tiễn sản xuất của nhà máy?",
+      "generalfeedback": "Thể hiện lời giải toán học vào thực tiễn có nghĩa là diễn giải con số xác suất thành dự báo thực tế: trong một lô hàng lớn, trung bình cứ 100 chiếc điều hòa thì có khoảng 0,83 chiếc (hoặc trong 1000 chiếc có khoảng 8 chiếc) bị lỗi.",
+      "answers": [
+        {
+          "text": "Trong thực tế sản xuất, dự đoán trung bình cứ khoảng 1 000 chiếc điều hòa xuất xưởng thì có khoảng 8 đến 9 chiếc bị lỗi.",
+          "fraction": 100
+        },
+        {
+          "text": "Chắc chắn trong 600 chiếc điều hòa tiếp theo sẽ có đúng 5 chiếc bị lỗi.",
+          "fraction": 0
+        },
+        {
+          "text": "Nhà máy sẽ phải bỏ đi 83% số điều hòa sản xuất ra.",
+          "fraction": 0
+        },
+        {
+          "text": "Mọi chiếc điều hòa do nhà máy sản xuất ra đều đạt chất lượng 100%.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "1.2TC2e_K8",
+      "questiontext": "Học sinh truy cập vào cổng thông tin điện tử mở để khai thác dữ liệu số về thời gian 78 chương trình quảng cáo trên đài truyền hình. Để diễn giải nội dung số này nhằm ước lượng xác suất chương trình kéo dài từ 20 đến 39 giây, học sinh cần thực hiện thao tác nào trên dữ liệu số?",
+      "generalfeedback": "Năng lực tin học/số thể hiện qua việc lọc, trích xuất dữ liệu số từ bảng dữ liệu: lấy số chương trình trong khoảng 20-39 giây (38) chia cho tổng số chương trình số hóa (78).",
+      "answers": [
+        {
+          "text": "Trích xuất số lượng chương trình có thời lượng từ 20 đến 39 giây (38 chương trình) từ tập dữ liệu số và chia cho tổng số 78 chương trình.",
+          "fraction": 100
+        },
+        {
+          "text": "Xóa toàn bộ các dòng dữ liệu chứa thời gian quảng cáo dưới 20 giây.",
+          "fraction": 0
+        },
+        {
+          "text": "Thay đổi số liệu thời gian quảng cáo thành các số nguyên ngẫu nhiên.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ xem hình ảnh minh họa trên trang web mà không đọc dữ liệu bảng.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "8.A1.2_2",
+      "questiontext": "Khi sử dụng một trợ lý AI tạo sinh để giải bài toán ước lượng xác suất tử vong của người nhiễm bệnh Covid-19 dựa trên dữ liệu SGK (279 830 788 người nhiễm, 5 413 126 người tử vong), AI đưa ra kết quả: \"Xác suất tử vong là 15,3%\". Tại sao học sinh cần phải kiểm chứng lại thông tin này trước khi dùng?",
+      "generalfeedback": "AI tạo sinh có thể gặp hiện tượng 'ảo giác' hoặc tính toán sai. Kiểm chứng bằng phép chia thực tế \\(\\frac{5\\ 413\\ 126}{279\\ 830\\ 788} \\approx 1,93\\%\\) cho thấy kết quả của AI là hoàn toàn sai.",
+      "answers": [
+        {
+          "text": "Vì AI tạo sinh có thể tính toán sai hoặc bị lỗi ảo giác (hallucination), cần kiểm tra lại bằng công thức \\(P(E) = \\frac{k}{n}\\) với dữ liệu gốc.",
+          "fraction": 100
+        },
+        {
+          "text": "Vì AI luôn luôn đúng nên không cần kiểm tra, kết quả 15,3% là do SGK viết sai.",
+          "fraction": 0
+        },
+        {
+          "text": "Vì thông tin toán học trên internet không bao giờ tuân theo các quy tắc đại số.",
+          "fraction": 0
+        },
+        {
+          "text": "Vì AI không thể xử lý được các số có nhiều hơn 3 chữ số.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "8.A3.3_3",
+      "questiontext": "Bạn Minh dùng AI để tự động tạo báo cáo dự đoán số linh kiện điện tử bị lỗi trong lô hàng 120 sản phẩm. Minh copy nguyên văn kết quả do AI tính ra vào bài nộp nhóm mà không kiểm tra lại tính chính xác của các con số. Phát biểu: \"Bạn Minh đã thể hiện đúng trách nhiệm giải trình khi sử dụng AI trong học tập\" là Đúng hay Sai?",
+      "generalfeedback": "Phát biểu SAI. Trách nhiệm giải trình đòi hỏi người sử dụng AI phải tự mình kiểm tra, xác minh lại tính chính xác của nội dung và số liệu do AI tạo ra trước khi sử dụng hoặc nộp sản phẩm.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    }
+  ]
+}

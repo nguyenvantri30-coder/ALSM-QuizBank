@@ -1,0 +1,715 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 27,
+    "metadata_used": {
+      "Khái niệm đường trung trực của tam giác": 3,
+      "Tính chất sự đồng quy của ba đường trung trực": 2,
+      "Điểm cách đều ba đỉnh": 3,
+      "YCCD_TOAN7_102": 2,
+      "YCCD_TOAN7_106": 2,
+      "Nhận biết đường trung trực trong tam giác": 2,
+      "Vận dụng tính chất ba đường trung trực đồng quy": 6,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_TUCHUTUHOC": 1,
+      "NLC_GIAOTIEP": 1,
+      "NLT_TOAN_C2_01": 2,
+      "NLT_TOAN_C2_04": 1
+    },
+    "types_used": {
+      "multichoice": 13,
+      "truefalse": 4,
+      "gapselect": 3,
+      "numerical": 2,
+      "ddwtos": 2,
+      "matching": 3
+    },
+    "total": 27
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "Khái niệm đường trung trực của tam giác",
+        "reason": "Đo lường hiểu biết khái niệm đường trung trực của tam giác"
+      },
+      {
+        "metadata_code": "Tính chất sự đồng quy của ba đường trung trực",
+        "reason": "Đo lường tính chất sự đồng quy của ba đường trung trực"
+      },
+      {
+        "metadata_code": "Điểm cách đều ba đỉnh",
+        "reason": "Đo lường kiến thức điểm cách đều ba đỉnh của tam giác"
+      },
+      {
+        "metadata_code": "Nhận biết đường trung trực trong tam giác",
+        "reason": "Đo lường kỹ năng nhận biết đường trung trực trong tam giác"
+      },
+      {
+        "metadata_code": "Vận dụng tính chất ba đường trung trực đồng quy",
+        "reason": "Đo lường kỹ năng vận dụng tính chất ba đường trung trực đồng quy"
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_102",
+        "reason": "Đo lường YCCĐ nhận biết được đường trung trực trong tam giác"
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_106",
+        "reason": "Đo lường YCCĐ nhận biết được sự đồng quy của ba đường trung trực trong tam giác"
+      },
+      {
+        "metadata_code": "PC_CHAMCHI",
+        "reason": "Đo lường phẩm chất chăm chỉ trong học tập hình học"
+      },
+      {
+        "metadata_code": "PC_TRUNGTHUC",
+        "reason": "Đo lường phẩm chất trung thực trong thực hành vẽ hình"
+      },
+      {
+        "metadata_code": "NLC_TUCHUTUHOC",
+        "reason": "Đo lường năng lực tự chủ và tự học có hệ thống"
+      },
+      {
+        "metadata_code": "NLC_GIAOTIEP",
+        "reason": "Đo lường năng lực giao tiếp và hợp tác trong thảo luận nhóm"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01",
+        "reason": "Đo lường năng lực tư duy và lập luận toán học"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_04",
+        "reason": "Đo lường năng lực giao tiếp toán học qua ký hiệu"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Nội dung bài học thuần lý thuyết hình học SGK Lớp 7 không có dữ liệu thực hành tin học/công cụ số trực tiếp trong METADATA_DICTIONARY."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Bài học thuộc mạch hình học thuần túy, không có mã AI trong METADATA_DICTIONARY và không đủ cơ sở đo lường tự nhiên năng lực AI."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm đường trung trực của tam giác",
+      "questiontext": "Trong một tam giác, đường trung trực của mỗi cạnh được gọi là gì?",
+      "generalfeedback": "Trong một tam giác, đường trung trực của mỗi cạnh gọi là đường trung trực của tam giác.",
+      "answers": [
+        {
+          "text": "Đường trung trực của tam giác",
+          "fraction": 100
+        },
+        {
+          "text": "Đường trung tuyến của tam giác",
+          "fraction": 0
+        },
+        {
+          "text": "Đường cao của tam giác",
+          "fraction": 0
+        },
+        {
+          "text": "Đường phân giác của tam giác",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm đường trung trực của tam giác",
+      "questiontext": "Mỗi tam giác có đúng 3 đường trung trực.",
+      "generalfeedback": "Vì một tam giác có 3 cạnh nên mỗi tam giác có đúng 3 đường trung trực.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Tính chất sự đồng quy của ba đường trung trực",
+      "questiontext": "Ba đường trung trực của một tam giác đồng quy tại bao nhiêu điểm?",
+      "generalfeedback": "Theo Định lí 1, ba đường trung trực của một tam giác đồng quy tại một điểm.",
+      "answers": [
+        {
+          "text": "1 điểm",
+          "fraction": 100
+        },
+        {
+          "text": "2 điểm",
+          "fraction": 0
+        },
+        {
+          "text": "3 điểm",
+          "fraction": 0
+        },
+        {
+          "text": "Không đồng quy",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Điểm cách đều ba đỉnh",
+      "questiontext": "Giao điểm ba đường trung trực của tam giác \\(ABC\\) có tính chất nào sau đây?",
+      "generalfeedback": "Giao điểm của ba đường trung trực trong một tam giác cách đều ba đỉnh của tam giác đó.",
+      "answers": [
+        {
+          "text": "Cách đều ba đỉnh \\(A, B, C\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Cách đều ba cạnh \\(AB, BC, CA\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Trùng với trọng tâm của tam giác",
+          "fraction": 0
+        },
+        {
+          "text": "Trùng với trung điểm của cạnh \\(BC\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_102",
+      "questiontext": "Đường thẳng vuông góc với cạnh \\(BC\\) tại trung điểm của \\(BC\\) là đường [[1]] ứng với cạnh \\(BC\\) của tam giác \\(ABC\\).",
+      "generalfeedback": "Đường trung trực của một đoạn thẳng là đường thẳng vuông góc với đoạn thẳng đó tại trung điểm của nó.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "trung trực"
+        },
+        {
+          "group": 1,
+          "text": "trung tuyến"
+        },
+        {
+          "group": 1,
+          "text": "phân giác"
+        },
+        {
+          "group": 1,
+          "text": "đường cao"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_106",
+      "questiontext": "Nếu điểm \\(O\\) là giao điểm hai đường trung trực của cạnh \\(AB\\) và \\(AC\\) trong tam giác \\(ABC\\) thì \\(O\\) cũng nằm trên đường trung trực của cạnh \\(BC\\).",
+      "generalfeedback": "Vì ba đường trung trực của tam giác đồng quy tại một điểm nên giao điểm của hai đường trung trực cũng thuộc đường trung trực thứ ba.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết đường trung trực trong tam giác",
+      "imgs": [
+        "_page_0_Picture_16.jpeg"
+      ],
+      "questiontext": "Cho hình vẽ [img:_page_0_Picture_16.jpeg]. Trong tam giác \\(ABC\\), đường thẳng \\(d\\) đi qua đỉnh \\(A\\) khi tam giác \\(ABC\\) có đặc điểm gì?",
+      "generalfeedback": "Trong tam giác ABC, đường trung trực d của cạnh BC đi qua đỉnh A khi tam giác ABC cân tại A.",
+      "answers": [
+        {
+          "text": "Tam giác \\(ABC\\) cân tại \\(A\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Tam giác \\(ABC\\) vuông tại \\(B\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Tam giác \\(ABC\\) tù tại \\(C\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Tam giác \\(ABC\\) vuông cân tại \\(B\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng tính chất ba đường trung trực đồng quy",
+      "questiontext": "Cho tam giác \\(ABC\\) có giao điểm ba đường trung trực là \\(O\\). Biết \\(OA = 6\\text{ cm}\\). Độ dài đoạn thẳng \\(OB\\) bằng bao nhiêu xentimét? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Vì O là giao điểm ba đường trung trực của tam giác ABC nên OA = OB = OC = 6 cm.",
+      "answers": [
+        {
+          "text": "6",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Điểm cách đều ba đỉnh",
+      "imgs": [
+        "_page_1_Picture_18.jpeg"
+      ],
+      "questiontext": "Cho hình vẽ [img:_page_1_Picture_18.jpeg]. Vì giao điểm \\(O\\) của ba đường trung trực trong tam giác \\(ABC\\) cách đều ba đỉnh nên có một đường tròn tâm [[1]] đi qua ba đỉnh [[2]] của tam giác.",
+      "generalfeedback": "Vì OA = OB = OC nên đường tròn tâm O bán kính OA đi qua cả ba đỉnh A, B, C.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "O"
+        },
+        {
+          "group": 1,
+          "text": "A, B, C"
+        },
+        {
+          "group": 1,
+          "text": "I"
+        },
+        {
+          "group": 1,
+          "text": "AB, BC, CA"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Điểm cách đều ba đỉnh",
+      "questiontext": "Cho tam giác \\(ABC\\) có \\(O\\) là giao điểm ba đường trung trực. Ghép mỗi khẳng định ở cột trái với thông tin tương ứng ở cột phải:",
+      "generalfeedback": "Giao điểm O của ba đường trung trực cách đều ba đỉnh A, B, C nên OA = OB = OC.",
+      "subquestions": [
+        {
+          "question": "Khoảng cách \\(OA\\)",
+          "answer": "Bằng khoảng cách \\(OB\\)"
+        },
+        {
+          "question": "Khoảng cách \\(OB\\)",
+          "answer": "Bằng khoảng cách \\(OC\\)"
+        },
+        {
+          "question": "Điểm \\(O\\)",
+          "answer": "Cách đều ba đỉnh \\(A, B, C\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Vận dụng tính chất ba đường trung trực đồng quy",
+      "questiontext": "Trong tam giác \\(ABC\\) cân tại \\(A\\), đường trung tuyến \\(AI\\) đồng thời là đường nào sau đây?",
+      "generalfeedback": "Trong tam giác ABC cân tại A, đường trung tuyến AI xuất phát từ đỉnh cân cũng đồng thời là đường trung trực của cạnh BC.",
+      "answers": [
+        {
+          "text": "Đường trung trực của cạnh \\(BC\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Đường cao ứng với cạnh \\(AB\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Đường trung trực của cạnh \\(AB\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Đường trung tuyến ứng với cạnh \\(AC\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Tính chất sự đồng quy của ba đường trung trực",
+      "questiontext": "Ba đường trung trực của một tam giác [[1]] tại một điểm. Điểm này [[2]] ba đỉnh của tam giác.",
+      "generalfeedback": "Định lí 1: Ba đường trung trực của một tam giác đồng quy tại một điểm. Điểm này cách đều ba đỉnh của tam giác.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "đồng quy"
+        },
+        {
+          "group": 1,
+          "text": "cách đều"
+        },
+        {
+          "group": 1,
+          "text": "song song"
+        },
+        {
+          "group": 1,
+          "text": "vuông góc"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết đường trung trực trong tam giác",
+      "questiontext": "Trong tam giác đều, giao điểm của ba đường trung trực trùng với trọng tâm của tam giác đó.",
+      "generalfeedback": "Đúng. Trong tam giác đều, ba đường trung trực cũng là ba đường trung tuyến, nên giao điểm ba đường trung trực trùng với trọng tâm.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Vận dụng tính chất ba đường trung trực đồng quy",
+      "imgs": [
+        "_page_0_Picture_10.jpeg"
+      ],
+      "questiontext": "Ba ngôi nhà của ba anh em tạo thành ba đỉnh \\(A, B, C\\) của một tam giác không tù [img:_page_0_Picture_10.jpeg]. Để chọn địa điểm khoan một giếng chung cách đều ba ngôi nhà, họ cần tìm giao điểm các đường [[1]] của tam giác \\(ABC\\).",
+      "generalfeedback": "Địa điểm khoan giếng cách đều ba ngôi nhà A, B, C chính là giao điểm ba đường trung trực của tam giác ABC.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "trung trực"
+        },
+        {
+          "group": 1,
+          "text": "trung tuyến"
+        },
+        {
+          "group": 1,
+          "text": "phân giác"
+        },
+        {
+          "group": 1,
+          "text": "đường cao"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng tính chất ba đường trung trực đồng quy",
+      "questiontext": "Nếu điểm \\(Q\\) cách đều ba đỉnh của tam giác \\(ABC\\) thì điểm \\(Q\\) là giao điểm của các đường nào trong tam giác \\(ABC\\)?",
+      "generalfeedback": "Theo tính chất đường trung trực, điểm cách đều ba đỉnh của tam giác là giao điểm ba đường trung trực của tam giác đó.",
+      "answers": [
+        {
+          "text": "Ba đường trung trực",
+          "fraction": 100
+        },
+        {
+          "text": "Ba đường trung tuyến",
+          "fraction": 0
+        },
+        {
+          "text": "Ba đường phân giác",
+          "fraction": 0
+        },
+        {
+          "text": "Ba đường cao",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng tính chất ba đường trung trực đồng quy",
+      "questiontext": "Cho tam giác \\(ABC\\) có giao điểm ba đường trung trực là \\(O\\). Biết \\(OA + OB + OC = 15\\text{ cm}\\). Tính độ dài đoạn thẳng \\(OA\\) theo xentimét. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Vì O là giao điểm ba đường trung trực nên OA = OB = OC. Ta có OA + OB + OC = 3*OA = 15 cm => OA = 5 cm.",
+      "answers": [
+        {
+          "text": "5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_106",
+      "questiontext": "Cho tam giác \\(ABC\\) có đường trung trực của cạnh \\(AB\\) cắt đường trung trực của cạnh \\(AC\\) tại \\(O\\). Khẳng định nào sau đây là SAI?",
+      "generalfeedback": "Giao điểm O của ba đường trung trực cách đều ba đỉnh A, B, C (OA = OB = OC), chứ KHÔNG PHẢI cách đều ba cạnh.",
+      "answers": [
+        {
+          "text": "\\(O\\) cách đều ba cạnh \\(AB, BC, CA\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(OA = OB\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(OB = OC\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(O\\) thuộc đường trung trực của cạnh \\(BC\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Khái niệm đường trung trực của tam giác",
+      "questiontext": "Hãy ghép mỗi loại tam giác ở cột trái với vị trí của giao điểm ba đường trung trực tương ứng ở cột phải:",
+      "generalfeedback": "Giao điểm ba đường trung trực trong tam giác cân tại A nằm trên trung tuyến AI; trong tam giác đều trùng với trọng tâm; trong tam giác nhọn nằm trong tam giác.",
+      "subquestions": [
+        {
+          "question": "Tam giác cân tại \\(A\\)",
+          "answer": "Nằm trên đường trung tuyến xuất phát từ đỉnh \\(A\\)"
+        },
+        {
+          "question": "Tam giác đều",
+          "answer": "Trùng với trọng tâm của tam giác"
+        },
+        {
+          "question": "Tam giác nhọn",
+          "answer": "Nằm bên trong tam giác"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_102",
+      "questiontext": "Đường trung trực của một cạnh trong tam giác luôn đi qua đỉnh đối diện với cạnh đó.",
+      "generalfeedback": "Sai. Đường trung trực của một cạnh chỉ đi qua đỉnh đối diện khi tam giác đó cân tại đỉnh đó.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Vận dụng tính chất ba đường trung trực đồng quy",
+      "questiontext": "Vì giao điểm \\(O\\) của ba đường trung trực trong tam giác \\(ABC\\) cách đều ba đỉnh nên điểm \\(O\\) là tâm của [[1]] đi qua ba đỉnh \\(A, B, C\\).",
+      "generalfeedback": "Vì OA = OB = OC nên O là tâm đường tròn đi qua ba đỉnh A, B, C.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "đường tròn"
+        },
+        {
+          "group": 1,
+          "text": "đoạn thẳng"
+        },
+        {
+          "group": 1,
+          "text": "tam giác"
+        },
+        {
+          "group": 1,
+          "text": "góc"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Trong giờ học về sự đồng quy của ba đường trung trực, bạn An gặp bài toán phức tạp yêu cầu tìm vị trí khoan giếng cách đều ba ngôi nhà. Hành vi nào sau đây của An thể hiện phẩm chất chăm chỉ?",
+      "generalfeedback": "Phẩm chất chăm chỉ thể hiện qua sự kiên trì, tự giác vẽ hình, suy nghĩ và thử nghiệm lời giải thay vì bỏ cuộc hay chép bài.",
+      "answers": [
+        {
+          "text": "Kiên trì vẽ hình chính xác, dựng các đường trung trực và chủ động lập luận để tìm ra đáp án.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua câu hỏi vì việc vẽ hình tốn thời gian và chờ giáo viên sửa bài.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép ngay kết quả của bạn bên cạnh mà không cần tự thực hành vẽ hình.",
+          "fraction": 0
+        },
+        {
+          "text": "Nhờ bạn làm hộ toàn bộ bài tập để hoàn thành nhanh chóng.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Khi làm bài tập hình học, Nam nhận ra mình vẽ sai đường trung trực của cạnh \\(BC\\) nhưng hình vẽ ngẫu nhiên lại đi qua giao điểm của hai đường trung trực kia. Để thể hiện phẩm chất trung thực, Nam nên làm gì?",
+      "generalfeedback": "Trung thực trong học tập là tự giác nhận ra sai sót trong quá trình thực hành và sửa chữa đúng nguyên tắc khoa học.",
+      "answers": [
+        {
+          "text": "Chủ động kiểm tra, vẽ lại chính xác đường trung trực của cạnh \\(BC\\) đúng định nghĩa rồi mới tiếp tục bài làm.",
+          "fraction": 100
+        },
+        {
+          "text": "Giữ nguyên hình vẽ sai và kết luận ba đường đồng quy như SGK để lấy điểm.",
+          "fraction": 0
+        },
+        {
+          "text": "Tẩy xóa số liệu trong đề bài cho phù hợp với hình vẽ sai của mình.",
+          "fraction": 0
+        },
+        {
+          "text": "Nhìn bài bạn để chép hình đúng mà không tự thực hiện lại các thao tác dựng hình.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Để tự học hiệu quả nội dung 'Sự đồng quy của ba đường trung trực trong một tam giác', việc sắp xếp các bước học tập nào sau đây thể hiện năng lực tự chủ và tự học có hệ thống nhất?",
+      "generalfeedback": "Năng lực tự chủ, tự học đòi hỏi HS biết xây dựng tiến trình học tập logic: từ khái niệm ban đầu -> định lý đồng quy -> ứng dụng/nhận xét.",
+      "answers": [
+        {
+          "text": "Ôn lại khái niệm đường trung trực -> Thực hành vẽ ba đường trung trực -> Rút ra định lý đồng quy và tính chất cách đều ba đỉnh.",
+          "fraction": 100
+        },
+        {
+          "text": "Học thuộc định lý đồng quy -> Học khái niệm đường trung trực -> Thực hành vẽ hình.",
+          "fraction": 0
+        },
+        {
+          "text": "Làm bài tập ứng dụng trước -> Đọc định lý -> Xem lại khái niệm cơ bản.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ đọc phần nhận xét về đường tròn -> Bỏ qua phần hoạt động vẽ hình và chứng minh định lý.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLC_GIAOTIEP",
+      "questiontext": "Trong thảo luận nhóm về bài toán tìm điểm cách đều ba ngôi nhà \\(A, B, C\\), một bạn khẳng định: 'Chỉ cần tìm trung điểm của đoạn thẳng \\(AB\\) là xong'. Để giao tiếp và hợp tác tích cực, em nên phản hồi như thế nào?",
+      "generalfeedback": "Giao tiếp toán học trong hợp tác cần thái độ tôn trọng, giải thích rõ ràng dựa trên căn cứ khoa học.",
+      "answers": [
+        {
+          "text": "Lịch sự giải thích: 'Trung điểm \\(AB\\) chỉ cách đều \\(A\\) và \\(B\\). Để cách đều cả \\(C\\), chúng ta phải tìm giao điểm ba đường trung trực của tam giác \\(ABC\\)'.",
+          "fraction": 100
+        },
+        {
+          "text": "Chê bai bạn trước nhóm vì bạn không nhớ kiến thức toán học.",
+          "fraction": 0
+        },
+        {
+          "text": "Im lặng không có ý kiến để tránh tranh luận làm mất thời gian thảo luận.",
+          "fraction": 0
+        },
+        {
+          "text": "Đồng ý ngay với ý kiến của bạn để nhóm nộp bài sớm nhất.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Cho tam giác \\(ABC\\) có \\(O\\) là giao điểm hai đường trung trực của cạnh \\(AB\\) và \\(AC\\). Lập luận toán học nào sau đây là đúng để chứng minh \\(O\\) thuộc đường trung trực của cạnh \\(BC\\)?",
+      "generalfeedback": "Lập luận toán học dựa trên tính chất đường trung trực: O thuộc trung trực AB => OA = OB; O thuộc trung trực AC => OA = OC => OB = OC => O thuộc trung trực BC.",
+      "answers": [
+        {
+          "text": "Vì \\(O\\) thuộc trung trực \\(AB\\) nên \\(OA = OB\\); vì \\(O\\) thuộc trung trực \\(AC\\) nên \\(OA = OC\\). Suy ra \\(OB = OC\\), do đó \\(O\\) thuộc trung trực \\(BC\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Vì \\(OA = OB\\) và \\(AB = BC\\) nên \\(O\\) thuộc đường trung trực của cạnh \\(BC\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Vì \\(O\\) là trung điểm của \\(BC\\) nên \\(O\\) đương nhiên thuộc đường trung trực của \\(BC\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Vì tam giác \\(ABC\\) vuông tại \\(A\\) nên \\(O\\) luôn nằm trên cạnh \\(BC\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04",
+      "questiontext": "Biểu diễn bằng ký hiệu toán học nào sau đây diễn đạt đúng nhất nội dung: 'Trong tam giác \\(ABC\\), ba đường trung trực \\(d, m, n\\) lần lượt của các cạnh \\(BC, CA, AB\\) cùng đi qua điểm \\(O\\) và điểm \\(O\\) cách đều ba đỉnh \\(A, B, C\\)'?",
+      "generalfeedback": "Năng lực giao tiếp toán học thể hiện qua việc chuyển đổi chính xác ngôn ngữ tự nhiên sang ngôn ngữ ký hiệu toán học chuẩn xác.",
+      "answers": [
+        {
+          "text": "\\(d \\cap m \\cap n = \\{O\\}\\) và \\(OA = OB = OC\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(d // m // n\\) và \\(OA + OB = OC\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(d \\perp m \\perp n\\) và \\(AB = BC = CA\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(d = m = n = O\\) và \\(OA = OB\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Hãy ghép mỗi bước suy luận ở cột trái với căn cứ toán học tương ứng ở cột phải trong chứng minh: 'Giao điểm \\(O\\) của hai đường trung trực của \\(AB\\) và \\(AC\\) cũng nằm trên đường trung trực của \\(BC\\)':",
+      "generalfeedback": "Năng lực tư duy và lập luận toán học thể hiện ở việc nhận biết đúng căn cứ lý thuyết cho từng bước suy luận.",
+      "subquestions": [
+        {
+          "question": "Từ \\(O\\) thuộc trung trực \\(AB\\) suy ra \\(OA = OB\\)",
+          "answer": "Tính chất các điểm nằm trên đường trung trực của đoạn thẳng"
+        },
+        {
+          "question": "Từ \\(OA = OB\\) và \\(OA = OC\\) suy ra \\(OB = OC\\)",
+          "answer": "Tính chất bắc cầu của đẳng thức"
+        },
+        {
+          "question": "Từ \\(OB = OC\\) suy ra \\(O\\) thuộc trung trực \\(BC\\)",
+          "answer": "Tính chất điểm cách đều hai đầu mút của đoạn thẳng"
+        }
+      ]
+    }
+  ]
+}

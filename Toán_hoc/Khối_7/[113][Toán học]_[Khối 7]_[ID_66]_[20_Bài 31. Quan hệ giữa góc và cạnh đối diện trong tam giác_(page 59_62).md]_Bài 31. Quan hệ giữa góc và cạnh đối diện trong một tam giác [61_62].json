@@ -1,0 +1,485 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 16,
+    "metadata_used": {
+      "Định lí đảo: Trong một tam giác": 2,
+      "cạnh đối diện với góc lớn hơn là cạnh lớn hơn": 1,
+      "So sánh hai cạnh của một tam giác dựa vào số đo hai góc đối diện": 9,
+      "Nhận biết cạnh lớn nhất trong tam giác vuông, tam giác tù": 4,
+      "YCCD_TOAN7_087": 4,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_TUCHUTUHOC": 1,
+      "NLC_GIAOTIEP": 1,
+      "NLT_TOAN_C2_01": 1,
+      "NLT_TOAN_C2_04": 1
+    },
+    "types_used": {
+      "multichoice": 8,
+      "truefalse": 1,
+      "gapselect": 3,
+      "matching": 1,
+      "shortanswer": 1,
+      "calculatedmulti": 1,
+      "ddwtos": 1
+    },
+    "total": 16
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "Định lí đảo: Trong một tam giác",
+        "reason": "Đo lường nhận biết định lí 2 về cạnh đối diện với góc lớn hơn"
+      },
+      {
+        "metadata_code": "cạnh đối diện với góc lớn hơn là cạnh lớn hơn",
+        "reason": "Đo lường sự hiểu biết về quan hệ giữa góc lớn nhất và cạnh lớn nhất"
+      },
+      {
+        "metadata_code": "So sánh hai cạnh của một tam giác dựa vào số đo hai góc đối diện",
+        "reason": "Đo lường kỹ năng so sánh hai cạnh dựa trên số đo góc đối diện"
+      },
+      {
+        "metadata_code": "Nhận biết cạnh lớn nhất trong tam giác vuông, tam giác tù",
+        "reason": "Đo lường kỹ năng nhận biết cạnh lớn nhất trong tam giác vuông, tam giác tù"
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_087",
+        "reason": "Đo lường YCCĐ về liên hệ độ dài giữa các cạnh trong tam giác"
+      },
+      {
+        "metadata_code": "PC_CHAMCHI",
+        "reason": "Đo lường phẩm chất chăm chỉ thông qua thái độ học tập và tự kiểm tra"
+      },
+      {
+        "metadata_code": "PC_TRUNGTHUC",
+        "reason": "Đo lường phẩm chất trung thực trong làm bài và tự tin vào lập luận"
+      },
+      {
+        "metadata_code": "NLC_TUCHUTUHOC",
+        "reason": "Đo lường năng lực tự chủ và tự học qua lập quy trình giải bài toán"
+      },
+      {
+        "metadata_code": "NLC_GIAOTIEP",
+        "reason": "Đo lường năng lực giao tiếp và hợp tác qua thảo luận nhóm"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01",
+        "reason": "Đo lường năng lực tư duy và lập luận toán học qua chuỗi suy luận hình học"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_04",
+        "reason": "Đo lường năng lực giao tiếp toán học qua chuẩn mực trình bày lời giải"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_096",
+        "reason": "Nội dung đường vuông góc và đường xiên thuộc Bài 32, không thuộc Tiết 2 Bài 31"
+      },
+      {
+        "metadata_code": "N1",
+        "reason": "Nội dung Bài 31 Tiết 2 là lý thuyết hình học thuần túy, không tích hợp thực hành công cụ tin học/số trong SGK."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung Bài 31 Tiết 2 không có tình huống ứng dụng AI tự nhiên trong phạm vi bài học."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Định lí đảo: Trong một tam giác",
+      "questiontext": "Cho \\(\\triangle ABC\\). Định lí 2 về quan hệ giữa góc và cạnh đối diện trong một tam giác phát biểu rằng:",
+      "generalfeedback": "Định lí 2 phát biểu: Trong một tam giác, cạnh đối diện với góc lớn hơn là cạnh lớn hơn.",
+      "answers": [
+        {
+          "text": "Cạnh đối diện với góc lớn hơn là cạnh lớn hơn.",
+          "fraction": 100
+        },
+        {
+          "text": "Cạnh đối diện với góc lớn hơn là cạnh nhỏ hơn.",
+          "fraction": 0
+        },
+        {
+          "text": "Góc đối diện với cạnh lớn hơn là góc nhỏ hơn.",
+          "fraction": 0
+        },
+        {
+          "text": "Cạnh đối diện với góc nhỏ hơn là cạnh lớn hơn.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "cạnh đối diện với góc lớn hơn là cạnh lớn hơn",
+      "questiontext": "Trong một tam giác, cạnh đối diện với góc lớn nhất luôn là cạnh có độ dài lớn nhất.",
+      "generalfeedback": "Đúng. Theo định lí 2, góc lớn nhất có cạnh đối diện lớn nhất trong tam giác.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "So sánh hai cạnh của một tam giác dựa vào số đo hai góc đối diện",
+      "questiontext": "Cho \\(\\triangle ABC\\) có \\(\\widehat{B} = 80^\\circ\\) và \\(\\widehat{C} = 45^\\circ\\). So sánh độ dài hai cạnh \\(AC\\) và \\(AB\\).",
+      "generalfeedback": "Trong \\(\\triangle ABC\\), cạnh đối diện với góc \\(B\\) là \\(AC\\), cạnh đối diện với góc \\(C\\) là \\(AB\\). Vì \\(\\widehat{B} > \\widehat{C}\\) (\\(80^\\circ > 45^\\circ\\)) nên \\(AC > AB\\).",
+      "answers": [
+        {
+          "text": "\\(AC > AB\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(AC < AB\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(AC = AB\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(AB = 2AC\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết cạnh lớn nhất trong tam giác vuông, tam giác tù",
+      "questiontext": "Trong một tam giác vuông, cạnh nào là cạnh có độ dài lớn nhất?",
+      "generalfeedback": "Trong tam giác vuông, góc vuông là góc lớn nhất (\\(90^\\circ\\)), do đó cạnh đối diện với góc vuông (cạnh huyền) là cạnh lớn nhất.",
+      "answers": [
+        {
+          "text": "Cạnh huyền",
+          "fraction": 100
+        },
+        {
+          "text": "Cạnh góc vuông kề góc nhọn",
+          "fraction": 0
+        },
+        {
+          "text": "Cạnh góc vuông nhỏ hơn",
+          "fraction": 0
+        },
+        {
+          "text": "Không xác định được",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "So sánh hai cạnh của một tam giác dựa vào số đo hai góc đối diện",
+      "questiontext": "Cho \\(\\triangle MNP\\) có \\(\\widehat{M} = 47^\\circ\\) và \\(\\widehat{N} = 53^\\circ\\). Góc \\(P\\) có số đo bằng [[1]] và cạnh lớn nhất của tam giác là [[2]].",
+      "generalfeedback": "Tổng ba góc trong tam giác bằng \\(180^\\circ\\) nên \\(\\widehat{P} = 180^\\circ - (47^\\circ + 53^\\circ) = 80^\\circ\\). Do \\(\\widehat{P} = 80^\\circ\\) là góc lớn nhất nên cạnh đối diện với góc \\(P\\) (cạnh \\(MN\\)) là cạnh lớn nhất.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(80^\\circ\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(90^\\circ\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(MN\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(NP\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(MP\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết cạnh lớn nhất trong tam giác vuông, tam giác tù",
+      "questiontext": "Cho tam giác \\(ABC\\) có góc \\(A\\) là góc tù (\\(\\widehat{A} > 90^\\circ\\)). Khẳng định nào sau đây là đúng?",
+      "generalfeedback": "Trong tam giác tù, góc tù là góc lớn nhất nên cạnh đối diện góc tù (cạnh \\(BC\\)) là cạnh lớn nhất.",
+      "answers": [
+        {
+          "text": "Cạnh \\(BC\\) là cạnh lớn nhất trong tam giác \\(ABC\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Cạnh \\(AB\\) là cạnh lớn nhất trong tam giác \\(ABC\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Cạnh \\(AC\\) là cạnh lớn nhất trong tam giác \\(ABC\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Ba cạnh \\(AB, AC, BC\\) bằng nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "So sánh hai cạnh của một tam giác dựa vào số đo hai góc đối diện",
+      "questiontext": "Cho \\(\\triangle ABC\\) có số đo ba góc \\(\\widehat{A} = 105^\\circ\\), \\(\\widehat{B} = 35^\\circ\\), \\(\\widehat{C} = 40^\\circ\\). Hãy ghép mỗi góc với cạnh đối diện tương ứng của nó:",
+      "generalfeedback": "Góc A đối diện cạnh BC; Góc B đối diện cạnh AC; Góc C đối diện cạnh AB.",
+      "subquestions": [
+        {
+          "question": "Góc \\(A\\) (\\(105^\\circ\\))",
+          "answer": "Cạnh \\(BC\\)"
+        },
+        {
+          "question": "Góc \\(B\\) (\\(35^\\circ\\))",
+          "answer": "Cạnh \\(AC\\)"
+        },
+        {
+          "question": "Góc \\(C\\) (\\(40^\\circ\\))",
+          "answer": "Cạnh \\(AB\\)"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_087",
+      "questiontext": "Cho \\(\\triangle ABC\\) có \\(\\widehat{A} = 105^\\circ\\) và \\(\\widehat{B} = 35^\\circ\\). Tên cạnh có độ dài lớn nhất của tam giác \\(ABC\\) là gì?",
+      "generalfeedback": "Góc A = 105 độ là góc tù (góc lớn nhất tam giác). Cạnh đối diện góc A là BC, do đó BC là cạnh lớn nhất.",
+      "answers": [
+        {
+          "text": "BC",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "So sánh hai cạnh của một tam giác dựa vào số đo hai góc đối diện",
+      "questiontext": "Cho tam giác \\(ABC\\) có \\(\\widehat B = {b}^\\circ\\) và \\(\\widehat C = {c}^\\circ\\) với \\({b} > {c}\\). Công thức tính số đo góc \\(A\\) là gì?",
+      "generalfeedback": "Tổng ba góc trong tam giác là \\(180^\\circ\\), nên số đo góc A là \\(180 - (b + c) = 180 - {b} - {c}\\).",
+      "wildcards": [
+        {
+          "name": "b",
+          "min": 60.0,
+          "max": 80.0,
+          "decimals": 0
+        },
+        {
+          "name": "c",
+          "min": 30.0,
+          "max": 50.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "180-{b}-{c}",
+          "fraction": 100
+        },
+        {
+          "text": "180-{b}+{c}",
+          "fraction": 0
+        },
+        {
+          "text": "{b}+{c}",
+          "fraction": 0
+        },
+        {
+          "text": "{b}-{c}",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_087",
+      "questiontext": "Quan sát sơ đồ ba con đường \\(AD, BD, CD\\) [img:_page_3_Picture_17.jpeg]. Biết ba điểm \\(A, B, C\\) thẳng hàng, \\(B\\) nằm giữa \\(A\\) và \\(C\\), góc \\(ACD\\) là góc tù. Đoạn đường dài nhất là [[1]] và đoạn đường ngắn nhất là [[2]].",
+      "generalfeedback": "Trong \\(\\triangle BCD\\), góc \\(BCD\\) (tức góc \\(ACD\\)) là góc tù nên cạnh đối diện \\(BD\\) lớn hơn \\(CD\\) (\\(BD > CD\\)). Trong \\(\\triangle ABD\\), góc \\(ABD\\) là góc tù (kề bù với góc nhọn \\(DBC\\)) nên cạnh đối diện \\(AD\\) lớn hơn \\(BD\\) (\\(AD > BD\\)). Vậy \\(AD > BD > CD\\), do đó \\(AD\\) dài nhất và \\(CD\\) ngắn nhất.",
+      "imgs": [
+        "_page_3_Picture_17.jpeg"
+      ],
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(AD\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(CD\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(BD\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Trong giờ ôn tập môn Toán, bạn Nam dành thời gian tự vẽ các tam giác có số đo góc khác nhau để kiểm tra lại Định lí 2 (cạnh đối diện với góc lớn hơn là cạnh lớn hơn) trước khi làm bài tập, thay vì khoanh bừa đáp án. Hành vi của Nam thể hiện phẩm chất nào và mang lại lợi ích gì?",
+      "generalfeedback": "Hành vi của Nam thể hiện tính chăm chỉ trong học tập, kiên trì tự kiểm tra kiến thức giúp hiểu sâu bài học và làm bài chính xác.",
+      "answers": [
+        {
+          "text": "Thể hiện tính chăm chỉ, giúp nắm chắc kiến thức và tự tin giải đúng bài tập.",
+          "fraction": 100
+        },
+        {
+          "text": "Thể hiện tính trung thực, giúp không bị thầy cô phát hiện làm sai.",
+          "fraction": 0
+        },
+        {
+          "text": "Thể hiện năng lực giao tiếp, giúp chia sẻ kết quả cho các bạn khác.",
+          "fraction": 0
+        },
+        {
+          "text": "Thể hiện sự tiết kiệm, giúp không lãng phí thời gian khi làm bài.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Trong bài kiểm tra 15 phút về so sánh các cạnh trong tam giác, bạn Bình thấy bạn bên cạnh vẽ tam giác và chọn đáp án khác mình. Bình không chép bài của bạn mà tự kiểm tra lại tính toán của mình dựa vào Định lí 2 để giữ nguyên đáp án đúng. Hành động của Bình thể hiện phẩm chất nào?",
+      "generalfeedback": "Hành động không chép bài bạn, tự tin vào lập luận toán học đúng đắn của bản thân thể hiện tính trung thực trong học tập và kiểm tra.",
+      "answers": [
+        {
+          "text": "Trung thực trong kiểm tra, đánh giá và tự tin vào kiến thức của bản thân.",
+          "fraction": 100
+        },
+        {
+          "text": "Chăm chỉ tìm kiếm nhiều lời giải khác nhau từ bạn bè.",
+          "fraction": 0
+        },
+        {
+          "text": "Giao tiếp và hợp tác hiệu quả trong làm bài kiểm tra.",
+          "fraction": 0
+        },
+        {
+          "text": "Tự chủ trong việc chuẩn bị đồ dùng học tập.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Để tự học và giải bài toán 'So sánh ba cạnh của \\(\\triangle ABC\\) khi biết \\(\\widehat{A} = 100^\\circ\\) và \\(\\widehat{B} = 40^\\circ\\)', bạn Mai lập quy trình tự học. Hãy chọn từ thích hợp để hoàn thiện quy trình: Bước 1 là [[1]] tổng số đo ba góc bằng \\(180^\\circ\\) để tìm số đo góc \\(C\\); Bước 2 là [[2]] số đo ba góc; Bước 3 là [[3]] Định lí 2 để kết luận thứ tự độ dài ba cạnh.",
+      "generalfeedback": "Quy trình tự học toán gồm: Vận dụng kiến thức tổng ba góc để tính góc C (100 + 40 = 140 -> C = 40 deg), so sánh ba góc, và vận dụng định lí 2 để so sánh ba cạnh.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "Vận dụng"
+        },
+        {
+          "group": 1,
+          "text": "So sánh"
+        },
+        {
+          "group": 1,
+          "text": "Áp dụng"
+        },
+        {
+          "group": 1,
+          "text": "Bỏ qua"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_GIAOTIEP",
+      "questiontext": "Trong thảo luận nhóm về bài tập 'Tranh luận' (SGK trang 61), bạn An cho rằng trong \\(\\triangle ABC\\) có góc \\(A\\) tù thì cạnh \\(AB\\) lớn nhất, còn bạn Bình cho rằng cạnh \\(BC\\) lớn nhất. Để hợp tác nhóm hiệu quả và giải thích thuyết phục cho bạn An, bạn Bình nên nói như thế nào?",
+      "generalfeedback": "Để giao tiếp và hợp tác hiệu quả, Bình cần đưa ra lập luận toán học rõ ràng: góc A tù là góc lớn nhất tam giác, cạnh đối diện góc A là BC nên theo Định lí 2, BC là cạnh lớn nhất.",
+      "answers": [
+        {
+          "text": "Giải thích nhẹ nhàng rằng góc \\(A\\) tù là góc lớn nhất trong tam giác, cạnh đối diện với góc \\(A\\) là \\(BC\\) nên theo Định lí 2, \\(BC\\) mới là cạnh lớn nhất.",
+          "fraction": 100
+        },
+        {
+          "text": "Khẳng định An làm sai và yêu cầu An phải chép theo lời giải của mình mà không cần giải thích.",
+          "fraction": 0
+        },
+        {
+          "text": "Đồng ý với An để nhóm đỡ mất thời gian tranh luận.",
+          "fraction": 0
+        },
+        {
+          "text": "Báo với giáo viên rằng An không chịu hợp tác với nhóm.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Cho \\(\\triangle ABC\\) có góc \\(A\\) tù. Trên cạnh \\(AC\\) lấy điểm \\(D\\) (D khác A và C). Thực hiện thao tác tư duy lập luận toán học để so sánh độ dài \\(BD\\) và \\(BC\\): Trong \\(\\triangle ABD\\), góc \\(BAD\\) là góc tù nên cạnh lớn nhất là [[1]]. Trong \\(\\triangle BCD\\), góc \\(BDC\\) là góc tù (kề bù góc nhọn \\(ADB\\)) nên cạnh đối diện [[2]] lớn hơn \\(BD\\). Từ đó suy ra \\(BD <\\) [[3]].",
+      "generalfeedback": "Lập luận tư duy: Trong triangle ABD góc A tù -> BD > AB. Góc BDC kề bù góc nhọn ADB nên góc BDC tù -> trong triangle BCD, cạnh đối diện góc BDC là BC -> BC > BD. Vậy BD < BC.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(BD\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(BC\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(AC\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(AB\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04",
+      "questiontext": "Bạn Hoa muốn trình bày bài giải bài toán: 'So sánh cạnh \\(AC\\) và \\(AB\\) trong \\(\\triangle ABC\\) biết \\(\\widehat{B} = 80^\\circ, \\widehat{C} = 45^\\circ\\)'. Cách thể hiện nào dưới đây đảm bảo chuẩn mực ngôn ngữ và giao tiếp toán học?",
+      "generalfeedback": "Trình bày giao tiếp toán học chuẩn mực cần có căn cứ hình học rõ ràng: Nêu xét tam giác, so sánh số đo góc kèm giá trị cụ thể, dẫn chiếu Định lí 2 và đưa ra kết luận.",
+      "answers": [
+        {
+          "text": "Trong \\(\\triangle ABC\\), có \\(\\widehat{B} = 80^\\circ\\) và \\(\\widehat{C} = 45^\\circ\\). Vì \\(\\widehat{B} > \\widehat{C}\\) (do \\(80^\\circ > 45^\\circ\\)) nên theo Định lí 2, ta có \\(AC > AB\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Ta có góc B lớn hơn góc C nên suy ra AB dài hơn AC.",
+          "fraction": 0
+        },
+        {
+          "text": "Vì \\(80 > 45\\) nên \\(AC = AB\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Do tổng các góc bằng 180 độ nên cạnh AC nhỏ hơn cạnh AB.",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

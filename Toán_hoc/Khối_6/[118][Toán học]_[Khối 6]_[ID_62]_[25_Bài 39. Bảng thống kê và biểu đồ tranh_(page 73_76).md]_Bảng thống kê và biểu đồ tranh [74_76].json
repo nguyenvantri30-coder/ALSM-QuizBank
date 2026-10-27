@@ -1,0 +1,497 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 20,
+    "metadata_used": {
+      "Cấu trúc biểu đồ tranh": 3,
+      "Ý nghĩa của biểu tượng/hình ảnh thay thế cho một số lượng đối tượng": 2,
+      "Đọc và mô tả dữ liệu từ biểu đồ tranh": 4,
+      "Biểu diễn dữ liệu vào biểu đồ tranh": 2,
+      "YCCD_TOAN6_136": 2,
+      "YCCD_TOAN6_139": 2,
+      "YCCD_TOAN6_142": 2,
+      "YCCD_TOAN6_145": 3
+    },
+    "types_used": {
+      "multichoice": 4,
+      "truefalse": 2,
+      "numerical": 4,
+      "shortanswer": 2,
+      "calculated": 2,
+      "matching": 2,
+      "gapselect": 2,
+      "ddwtos": 2
+    }
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN6_136",
+        "reason": "Đánh giá khả năng đọc và mô tả dữ liệu ở dạng biểu đồ tranh."
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_139",
+        "reason": "Đánh giá khả năng lựa chọn và biểu diễn dữ liệu vào biểu đồ tranh."
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_142",
+        "reason": "Đánh giá khả năng nhận ra vấn đề hoặc quy luật đơn giản từ biểu đồ tranh."
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_145",
+        "reason": "Đánh giá khả năng giải quyết vấn đề đơn giản liên quan đến biểu đồ tranh."
+      },
+      {
+        "metadata_code": "Cấu trúc biểu đồ tranh",
+        "reason": "Đánh giá kiến thức về cấu trúc biểu đồ tranh."
+      },
+      {
+        "metadata_code": "Ý nghĩa của biểu tượng/hình ảnh thay thế cho một số lượng đối tượng",
+        "reason": "Đánh giá kiến thức về ý nghĩa của biểu tượng/hình ảnh thay thế."
+      },
+      {
+        "metadata_code": "Đọc và mô tả dữ liệu từ biểu đồ tranh",
+        "reason": "Đánh giá kỹ năng đọc và mô tả dữ liệu từ biểu đồ tranh."
+      },
+      {
+        "metadata_code": "Biểu diễn dữ liệu vào biểu đồ tranh",
+        "reason": "Đánh giá kỹ năng biểu diễn dữ liệu vào biểu đồ tranh."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "SUB_TRUNGTHUC_CHUNG_C2_01",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "SUB_GTHT_XACDINHMD_C2_04",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_02_03",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_04_04",
+        "reason": "Sẽ xử lý ở bước riêng"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Cấu trúc biểu đồ tranh",
+      "questiontext": "Trong một biểu đồ tranh, thông tin nào sau đây BẮT BUỘC phải có để người đọc biết được số lượng tương ứng với mỗi biểu tượng?",
+      "generalfeedback": "Biểu đồ tranh bắt buộc phải có phần chú giải để người đọc biết một biểu tượng (hoặc hình ảnh) thay thế cho bao nhiêu đối tượng.",
+      "answers": [
+        {
+          "text": "Ghi chú giải thích mỗi biểu tượng biểu diễn cho bao nhiêu đối tượng",
+          "fraction": 100
+        },
+        {
+          "text": "Tên của tác giả vẽ biểu đồ tranh",
+          "fraction": 0
+        },
+        {
+          "text": "Bảng phân tích số liệu thống kê chi tiết bằng công thức toán học",
+          "fraction": 0
+        },
+        {
+          "text": "Hình ảnh minh họa cho toàn bộ trường học",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Ý nghĩa của biểu tượng/hình ảnh thay thế cho một số lượng đối tượng",
+      "questiontext": "Trong biểu đồ tranh, một biểu tượng chỉ được dùng để biểu diễn duy nhất 1 đối tượng và không thể biểu diễn cho nhiều đối tượng.",
+      "generalfeedback": "Trong biểu đồ tranh, một biểu tượng có thể biểu diễn cho một hoặc nhiều đối tượng (ví dụ: 1 biểu tượng biểu diễn 2 bông hoa, 3 bàn thắng, 5 chiếc áo...).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Đọc và mô tả dữ liệu từ biểu đồ tranh",
+      "questiontext": "Biểu đồ tranh biểu diễn số bàn thắng của các bạn trong giải bóng đá trường. Biết mỗi biểu tượng quả bóng biểu diễn 3 bàn thắng. Bạn Tùng có 3 biểu tượng quả bóng trên biểu đồ. Hỏi bạn Tùng đã ghi được bao nhiêu bàn thắng? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Số bàn thắng của bạn Tùng là: \\(3 \\times 3 = 9\\) (bàn thắng).",
+      "answers": [
+        {
+          "text": "9",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_136",
+      "questiontext": "Cho biểu đồ tranh biểu diễn số bông hoa các bạn đã làm. Biết mỗi biểu tượng ngôi sao biểu diễn 2 bông hoa. Bạn Giang có 5 biểu tượng ngôi sao. Hỏi bạn Giang đã làm được bao nhiêu bông hoa?",
+      "generalfeedback": "Số bông hoa bạn Giang làm được là \\(5 \\times 2 = 10\\) bông hoa.",
+      "answers": [
+        {
+          "text": "10",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "thong_hieu",
+      "metadata_code": "Biểu diễn dữ liệu vào biểu đồ tranh",
+      "questiontext": "Một cửa hàng bán được {a} chiếc áo cỡ M. Cửa hàng dùng mỗi biểu tượng áo biểu diễn cho 5 chiếc áo bán ra. Hỏi cần bao nhiêu biểu tượng áo để biểu diễn số áo cỡ M bán được?",
+      "generalfeedback": "Số biểu tượng cần dùng là {a} : 5.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 10.0,
+          "max": 50.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}/5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_139",
+      "questiontext": "Hãy ghép mỗi số lượng học sinh yêu thích món ăn sáng sau đây với số biểu tượng mặt cười tương ứng trong biểu đồ tranh, biết mỗi biểu tượng mặt cười biểu diễn cho 5 học sinh.",
+      "generalfeedback": "Lấy số học sinh chia cho 5 để được số biểu tượng tương ứng: 10 : 5 = 2; 20 : 5 = 4; 5 : 5 = 1.",
+      "subquestions": [
+        {
+          "question": "10 học sinh thích Phở",
+          "answer": "2 biểu tượng"
+        },
+        {
+          "question": "20 học sinh thích Bánh mì",
+          "answer": "4 biểu tượng"
+        },
+        {
+          "question": "5 học sinh thích Bún",
+          "answer": "1 biểu tượng"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_142",
+      "questiontext": "Quan sát biểu đồ tranh về món ăn sáng yêu thích của học sinh (mỗi biểu tượng mặt cười ứng với 5 học sinh): Phở có 2 biểu tượng, Bánh mì có 4 biểu tượng, Bún có 1 biểu tượng. Món ăn được nhiều học sinh yêu thích nhất là [[1]] và món ăn ít học sinh yêu thích nhất là [[2]].",
+      "generalfeedback": "Bánh mì có 4 biểu tượng (nhiều nhất) nên được yêu thích nhất. Bún có 1 biểu tượng (ít nhất) nên ít được yêu thích nhất.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "Bánh mì"
+        },
+        {
+          "group": 1,
+          "text": "Bún"
+        },
+        {
+          "group": 1,
+          "text": "Phở"
+        },
+        {
+          "group": 1,
+          "text": "Xôi"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_145",
+      "questiontext": "Kết quả điều tra về thói quen rửa tay của 90 học sinh: 50 học sinh có sử dụng xà phòng, 30 học sinh chỉ rửa bằng nước sạch, 10 học sinh không rửa tay trước khi ăn. Khi vẽ biểu đồ tranh, người ta dùng 1 biểu tượng mặt cười biểu diễn cho 10 học sinh. Hỏi tổng cộng cần bao nhiêu biểu tượng mặt cười để biểu diễn toàn bộ 90 học sinh trên? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Tổng số biểu tượng mặt cười cần dùng là: \\(90 : 10 = 9\\) biểu tượng.",
+      "answers": [
+        {
+          "text": "9",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Ý nghĩa của biểu tượng/hình ảnh thay thế cho một số lượng đối tượng",
+      "questiontext": "Trong biểu đồ tranh về số lượt ô tô gửi tại bãi đỗ xe vào các ngày trong tuần, nếu mỗi biểu tượng ô tô ứng với 3 chiếc ô tô thì 5 biểu tượng ô tô biểu diễn cho [[1]] chiếc ô tô và để biểu diễn 21 chiếc ô tô cần [[2]] biểu tượng ô tô.",
+      "generalfeedback": "5 biểu tượng biểu diễn: \\(5 \\times 3 = 15\\) chiếc ô tô. Để biểu diễn 21 chiếc ô tô cần: \\(21 : 3 = 7\\) biểu tượng.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "15"
+        },
+        {
+          "group": 1,
+          "text": "7"
+        },
+        {
+          "group": 1,
+          "text": "18"
+        },
+        {
+          "group": 1,
+          "text": "9"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Đọc và mô tả dữ liệu từ biểu đồ tranh",
+      "questiontext": "Một biểu đồ tranh cho biết số tin nhắn một người nhận được từ Thứ Hai đến Thứ Sáu. Biết mỗi biểu tượng ⊠ biểu diễn 2 tin nhắn. Thứ Hai có 3 biểu tượng ⊠, Thứ Ba có 2 biểu tượng ⊠. Hỏi vào Thứ Hai người đó nhận được nhiều hơn Thứ Ba bao nhiêu tin nhắn?",
+      "generalfeedback": "Thứ Hai nhận được \\(3 \\times 2 = 6\\) tin nhắn. Thứ Ba nhận được \\(2 \\times 2 = 4\\) tin nhắn. Thứ Hai nhận nhiều hơn Thứ Ba: \\(6 - 4 = 2\\) tin nhắn.",
+      "answers": [
+        {
+          "text": "2 tin nhắn",
+          "fraction": 100
+        },
+        {
+          "text": "1 tin nhắn",
+          "fraction": 0
+        },
+        {
+          "text": "4 tin nhắn",
+          "fraction": 0
+        },
+        {
+          "text": "6 tin nhắn",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Cấu trúc biểu đồ tranh",
+      "questiontext": "Trong bảng thống kê, các thông tin, dữ liệu thu thập được thường được sắp xếp như thế nào?",
+      "generalfeedback": "Bảng thống kê trình bày thông tin, dữ liệu thu thập được theo các hàng và các cột.",
+      "answers": [
+        {
+          "text": "Theo các hàng và các cột",
+          "fraction": 100
+        },
+        {
+          "text": "Theo dạng sơ đồ tư duy hình cây",
+          "fraction": 0
+        },
+        {
+          "text": "Xếp ngẫu nhiên không theo quy luật",
+          "fraction": 0
+        },
+        {
+          "text": "Viết thành một đoạn văn xuôi dài",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Đọc và mô tả dữ liệu từ biểu đồ tranh",
+      "questiontext": "Dựa vào bảng thống kê số lượng đăng ký tham gia các câu lạc bộ (Toán: 15, Tiếng Anh: 12, Âm nhạc: 18, Thể thao: 20), câu lạc bộ Thể thao có số lượng đăng ký nhiều nhất.",
+      "generalfeedback": "Đúng, vì 20 > 18 > 15 > 12.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Đọc và mô tả dữ liệu từ biểu đồ tranh",
+      "questiontext": "Cho bảng thống kê số điểm 10 đạt được của các tổ trong tháng 9: Tổ 1 có 8 điểm; Tổ 2 có 12 điểm; Tổ 3 có 10 điểm; Tổ 4 có 15 điểm. Hỏi cả 4 tổ đạt được tổng cộng bao nhiêu điểm 10? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Tổng số điểm 10 của cả 4 tổ là: \\(8 + 12 + 10 + 15 = 45\\) điểm 10.",
+      "answers": [
+        {
+          "text": "45",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_136",
+      "questiontext": "Một biểu đồ tranh sử dụng biểu tượng 🌟 để biểu diễn 4 học sinh đạt danh hiệu Học sinh Giỏi. Nếu trong biểu đồ có 7 biểu tượng 🌟 cho lớp 6A, hỏi lớp 6A có bao nhiêu học sinh đạt danh hiệu Học sinh Giỏi?",
+      "generalfeedback": "Số học sinh Giỏi của lớp 6A là: \\(7 \\times 4 = 28\\) học sinh.",
+      "answers": [
+        {
+          "text": "28",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_145",
+      "questiontext": "Khối 6 có hai lớp: Lớp 6A có {a} học sinh thích môn Toán, lớp 6B có {b} học sinh thích môn Toán. Người ta lập biểu đồ tranh trong đó mỗi biểu tượng quyển sách đại diện cho 4 học sinh. Hỏi tổng số biểu tượng quyển sách cần dùng để biểu diễn học sinh thích môn Toán của cả hai lớp là bao nhiêu?",
+      "generalfeedback": "Tổng số học sinh thích môn Toán của hai lớp là {a} + {b}. Số biểu tượng cần dùng là ({a} + {b})/4.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 12.0,
+          "max": 24.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 8.0,
+          "max": 20.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "({a}+{b})/4",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_139",
+      "questiontext": "Hãy ghép các số lượng cây trồng sau đây với số biểu tượng cây 🌳 tương ứng trong biểu đồ tranh, biết rằng mỗi biểu tượng 🌳 đại diện cho 10 cây trồng.",
+      "generalfeedback": "Lấy số cây trồng chia cho 10 để được số biểu tượng tương ứng.",
+      "subquestions": [
+        {
+          "question": "30 cây hoa cúc",
+          "answer": "3 biểu tượng"
+        },
+        {
+          "question": "50 cây hoa hồng",
+          "answer": "5 biểu tượng"
+        },
+        {
+          "question": "80 cây hoa mười giờ",
+          "answer": "8 biểu tượng"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Cấu trúc biểu đồ tranh",
+      "questiontext": "Trong bảng thống kê, tiêu đề ở trên cùng thường ghi tên [[1]] của bảng, tiêu đề của các cột và hàng dùng để mô tả [[2]] dữ liệu.",
+      "generalfeedback": "Tiêu đề ghi tên bảng, tiêu đề cột và hàng mô tả loại/đặc điểm của dữ liệu.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "chủ đề"
+        },
+        {
+          "group": 1,
+          "text": "kích thước"
+        },
+        {
+          "group": 1,
+          "text": "đặc điểm"
+        },
+        {
+          "group": 1,
+          "text": "màu sắc"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Biểu diễn dữ liệu vào biểu đồ tranh",
+      "questiontext": "Khi chuyển dữ liệu từ bảng thống kê sang biểu đồ tranh, nếu một biểu tượng ⚽ đại diện cho 5 bàn thắng thì để biểu diễn 15 bàn thắng ta cần [[1]] biểu tượng ⚽ và để biểu diễn 25 bàn thắng ta cần [[3]] biểu tượng ⚽.",
+      "generalfeedback": "15 : 5 = 3 biểu tượng; 25 : 5 = 5 biểu tượng.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "3"
+        },
+        {
+          "group": 1,
+          "text": "5"
+        },
+        {
+          "group": 1,
+          "text": "15"
+        },
+        {
+          "group": 1,
+          "text": "25"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_142",
+      "questiontext": "Quan sát bảng thống kê số ly trà sữa bán được trong các ngày trong tuần: Thứ Hai (20 ly), Thứ Ba (15 ly), Thứ Tư (25 ly), Thứ Năm (30 ly), Thứ Sáu (40 ly), Thứ Bảy (50 ly), Chủ Nhật (60 ly). Khẳng định nào sau đây là SAI?",
+      "generalfeedback": "Thứ Bảy bán được 50 ly, Thứ Sáu bán được 40 ly, do đó Thứ Bảy bán được NHIỀU HƠN Thứ Sáu, nên khẳng định 'Thứ Bảy bán được ít hơn Thứ Sáu' là sai.",
+      "answers": [
+        {
+          "text": "Thứ Bảy bán được ít hơn Thứ Sáu",
+          "fraction": 100
+        },
+        {
+          "text": "Chủ Nhật là ngày bán được nhiều ly trà sữa nhất",
+          "fraction": 0
+        },
+        {
+          "text": "Thứ Ba là ngày bán được ít ly trà sữa nhất",
+          "fraction": 0
+        },
+        {
+          "text": "Thứ Bảy bán được số ly trà sữa gấp đôi Thứ Tư",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_145",
+      "questiontext": "Một biểu đồ tranh biểu diễn số cây trồng được của các lớp khối 6. Mỗi biểu tượng 🌳 ứng với 5 cây. Lớp 6A1 có 6 biểu tượng, Lớp 6A2 có 4 biểu tượng, Lớp 6A3 có 5 biểu tượng. Hỏi trung bình mỗi lớp trồng được bao nhiêu cây? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Lớp 6A1: \\(6 \\times 5 = 30\\) cây; Lớp 6A2: \\(4 \\times 5 = 20\\) cây; Lớp 6A3: \\(5 \\times 5 = 25\\) cây. Tổng số cây của 3 lớp: \\(30 + 20 + 25 = 75\\) cây. Trung bình mỗi lớp trồng được: \\(75 : 3 = 25\\) cây.",
+      "answers": [
+        {
+          "text": "25",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    }
+  ]
+}

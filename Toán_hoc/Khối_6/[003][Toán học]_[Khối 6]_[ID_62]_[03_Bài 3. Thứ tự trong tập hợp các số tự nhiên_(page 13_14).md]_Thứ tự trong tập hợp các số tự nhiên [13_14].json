@@ -1,0 +1,721 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 28,
+    "metadata_used": {
+      "YCCD_TOAN6_004": 2,
+      "Thứ tự trên tập hợp số tự nhiên": 2,
+      "Biểu diễn số tự nhiên trên tia số": 2,
+      "Khái niệm số liền trước và số liền sau": 4,
+      "YCCD_TOAN6_007": 1,
+      "Kí hiệu nhỏ hơn hoặc bằng và lớn hơn hoặc bằng": 3,
+      "So sánh hai số tự nhiên": 2,
+      "So sánh ba số tự nhiên bằng tính chất bắc cầu": 2,
+      "YCCD_TOAN6_008": 2,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TUHOC_C2_04": 1,
+      "SUB_GTHT_XACDINHMD_C2_03": 1,
+      "NLT_TOAN_C2_01_01": 2,
+      "NLT_TOAN_C2_04_02": 2
+    },
+    "types_used": {
+      "multichoice": 13,
+      "truefalse": 3,
+      "shortanswer": 2,
+      "numerical": 2,
+      "gapselect": 3,
+      "matching": 3,
+      "ddwtos": 2
+    },
+    "total": 28
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN6_004",
+        "reason": "Đo lường nhận biết tập hợp các số tự nhiên."
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_007",
+        "reason": "Đo lường nhận biết quan hệ thứ tự trong tập hợp các số tự nhiên."
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_008",
+        "reason": "Đo lường so sánh hai số tự nhiên cho trước."
+      },
+      {
+        "metadata_code": "Thứ tự trên tập hợp số tự nhiên",
+        "reason": "Đo lường kiến thức về thứ tự trên tập hợp số tự nhiên."
+      },
+      {
+        "metadata_code": "Khái niệm số liền trước và số liền sau",
+        "reason": "Đo lường kiến thức về số liền trước và số liền sau."
+      },
+      {
+        "metadata_code": "Kí hiệu nhỏ hơn hoặc bằng và lớn hơn hoặc bằng",
+        "reason": "Đo lường kiến thức về kí hiệu nhỏ hơn hoặc bằng và lớn hơn hoặc bằng."
+      },
+      {
+        "metadata_code": "Biểu diễn số tự nhiên trên tia số",
+        "reason": "Đo lường kĩ năng biểu diễn số tự nhiên trên tia số."
+      },
+      {
+        "metadata_code": "So sánh hai số tự nhiên",
+        "reason": "Đo lường kĩ năng so sánh hai số tự nhiên."
+      },
+      {
+        "metadata_code": "So sánh ba số tự nhiên bằng tính chất bắc cầu",
+        "reason": "Đo lường kĩ năng so sánh ba số tự nhiên bằng tính chất bắc cầu."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đo lường phẩm chất luôn cố gắng vươn lên đạt kết quả tốt trong học tập."
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+        "reason": "Đo lường năng lực lưu giữ thông tin có chọn lọc bằng ghi tóm tắt."
+      },
+      {
+        "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+        "reason": "Đo lường năng lực tiếp nhận văn bản đời sống kết hợp ngôn ngữ, hình ảnh."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_01",
+        "reason": "Đo lường năng lực thực hiện các thao tác tư duy toán học."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_04_02",
+        "reason": "Đo lường năng lực đọc hiểu các thông tin toán học cơ bản, trọng tâm trong văn bản."
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_004",
+      "questiontext": "Tập hợp tất cả các số tự nhiên được kí hiệu là gì?",
+      "generalfeedback": "Tập hợp tất cả các số tự nhiên được kí hiệu là \\(\\mathbb{N}\\), nghĩa là \\(\\mathbb{N} = \\{0; 1; 2; 3;...\\}\\).",
+      "answers": [
+        {
+          "text": "\\(\\mathbb{N}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\mathbb{N}^*\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\mathbb{Z}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\mathbb{Q}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Thứ tự trên tập hợp số tự nhiên",
+      "questiontext": "Số 0 là số tự nhiên nhỏ nhất và không có số tự nhiên liền trước.",
+      "generalfeedback": "Theo SGK, số 0 không có số tự nhiên liền trước và là số tự nhiên nhỏ nhất.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Biểu diễn số tự nhiên trên tia số",
+      "imgs": [
+        "_page_0_Figure_12.jpeg"
+      ],
+      "questiontext": "Quan sát tia số dưới đây:\n[img:_page_0_Figure_12.jpeg]\nTrong hai điểm 5 và 8 trên tia số nằm ngang, khẳng định nào sau đây là đúng?",
+      "generalfeedback": "Vì \\(5 < 8\\) nên trên tia số nằm ngang, điểm 5 nằm bên trái điểm 8 (hay điểm 5 nằm trước điểm 8).",
+      "answers": [
+        {
+          "text": "Điểm 5 nằm bên trái điểm 8",
+          "fraction": 100
+        },
+        {
+          "text": "Điểm 5 nằm bên phải điểm 8",
+          "fraction": 0
+        },
+        {
+          "text": "Điểm 8 nằm bên trái điểm 5",
+          "fraction": 0
+        },
+        {
+          "text": "Điểm 8 và điểm 5 trùng nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm số liền trước và số liền sau",
+      "questiontext": "Số tự nhiên liền sau của số 2 023 là số nào?",
+      "generalfeedback": "Số tự nhiên liền sau của số 2 023 là \\(2\\,023 + 1 = 2\\,024\\).",
+      "answers": [
+        {
+          "text": "2024",
+          "fraction": 100
+        },
+        {
+          "text": "2 024",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm số liền trước và số liền sau",
+      "questiontext": "Tìm số tự nhiên liền trước của số 3 530.",
+      "generalfeedback": "Số tự nhiên liền trước của 3 530 là 3 529.",
+      "answers": [
+        {
+          "text": "3529",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_007",
+      "questiontext": "Trong hai số tự nhiên khác nhau, luôn có một số nhỏ hơn số kia. Nếu số \\(a\\) nhỏ hơn số \\(b\\) thì trên tia số nằm ngang điểm \\(a\\) nằm [[1]] điểm \\(b\\). Khi đó ta còn nói: điểm \\(a\\) nằm [[2]] điểm \\(b\\).",
+      "generalfeedback": "Nếu số a nhỏ hơn số b thì trên tia số nằm ngang điểm a nằm bên trái điểm b. Khi đó ta còn nói: điểm a nằm trước điểm b.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "bên trái"
+        },
+        {
+          "group": 1,
+          "text": "trước"
+        },
+        {
+          "group": 1,
+          "text": "bên phải"
+        },
+        {
+          "group": 1,
+          "text": "sau"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Kí hiệu nhỏ hơn hoặc bằng và lớn hơn hoặc bằng",
+      "questiontext": "Cho tập hợp \\(M = \\{x \\in \\mathbb{N} \\mid x \\le 4\\}\\). Viết tập hợp \\(M\\) bằng cách liệt kê các phần tử.",
+      "generalfeedback": "Kí hiệu \\(x \\le 4\\) nghĩa là \\(x < 4\\) hoặc \\(x = 4\\). Vì \\(x \\in \\mathbb{N}\\) nên \\(M = \\{0; 1; 2; 3; 4\\}\\).",
+      "answers": [
+        {
+          "text": "\\(M = \\{0; 1; 2; 3; 4\\}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(M = \\{1; 2; 3; 4\\}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(M = \\{0; 1; 2; 3\\}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(M = \\{1; 2; 3\\}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "So sánh hai số tự nhiên",
+      "questiontext": "Ghép mỗi cặp số tự nhiên ở cột bên trái với quan hệ thứ tự đúng ở cột bên phải:",
+      "generalfeedback": "So sánh các cặp chữ số ở cùng một hàng kể từ trái sang phải để xác định quan hệ thứ tự.",
+      "subquestions": [
+        {
+          "question": "So sánh 12 036 001 và 12 035 987",
+          "answer": "12 036 001 > 12 035 987"
+        },
+        {
+          "question": "So sánh 3 529 và 3 532",
+          "answer": "3 529 < 3 532"
+        },
+        {
+          "question": "So sánh 99 999 và 100 000",
+          "answer": "99 999 < 100 000"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "So sánh ba số tự nhiên bằng tính chất bắc cầu",
+      "questiontext": "Theo dõi kết quả bán hàng trong ngày của một cửa hàng: Số tiền thu được vào buổi sáng nhiều hơn vào buổi chiều; Số tiền thu được vào buổi tối ít hơn vào buổi chiều. Gọi số tiền thu được vào buổi sáng, buổi chiều, buổi tối lần lượt là \\(a, b, c\\) (đều là các số tự nhiên khác nhau). Khẳng định nào sau đây đúng khi so sánh số tiền thu được vào buổi sáng và buổi tối?",
+      "generalfeedback": "Theo đề bài: số tiền buổi sáng nhiều hơn buổi chiều nên \\(a > b\\); số tiền buổi tối ít hơn buổi chiều nên \\(c < b\\) (hay \\(b > c\\)). Áp dụng tính chất bắc cầu: vì \\(a > b\\) và \\(b > c\\) nên \\(a > c\\). Do đó số tiền thu được vào buổi sáng nhiều hơn buổi tối.",
+      "answers": [
+        {
+          "text": "Số tiền buổi sáng nhiều hơn buổi tối (\\(a > c\\))",
+          "fraction": 100
+        },
+        {
+          "text": "Số tiền buổi sáng ít hơn buổi tối (\\(a < c\\))",
+          "fraction": 0
+        },
+        {
+          "text": "Số tiền buổi sáng bằng buổi tối (\\(a = c\\))",
+          "fraction": 0
+        },
+        {
+          "text": "Không thể so sánh được",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_008",
+      "questiontext": "Chọn kí hiệu thích hợp để điền vào chỗ trống: 2 024 [[1]] 2 023 và 15 [[2]] 20.",
+      "generalfeedback": "Vì 2 024 lớn hơn 2 023 nên ta điền \">\"; vì 15 nhỏ hơn 20 nên ta điền \"<\".",
+      "choices": [
+        {
+          "group": 1,
+          "text": ">"
+        },
+        {
+          "group": 1,
+          "text": "<"
+        },
+        {
+          "group": 1,
+          "text": "="
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Thứ tự trên tập hợp số tự nhiên",
+      "imgs": [
+        "_page_0_Picture_8.jpeg"
+      ],
+      "questiontext": "Quan sát hình ảnh dòng người xếp hàng mua vé dưới đây:\n[img:_page_0_Picture_8.jpeg]\nNgười ta dùng các số tự nhiên 1; 2; 3;... để đánh số thứ tự cho từng người xếp hàng (người thứ nhất, người thứ hai,...). Nếu bạn Bình đứng ngay sau người thứ 4 thì bạn Bình là người thứ mấy?",
+      "generalfeedback": "Người đứng ngay sau người thứ 4 mang số thứ tự liền sau của 4, tức là \\(4 + 1 = 5\\) (người thứ 5).",
+      "answers": [
+        {
+          "text": "Người thứ 5",
+          "fraction": 100
+        },
+        {
+          "text": "Người thứ 3",
+          "fraction": 0
+        },
+        {
+          "text": "Người thứ 6",
+          "fraction": 0
+        },
+        {
+          "text": "Người thứ 4",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_004",
+      "questiontext": "Tập hợp \\(\\mathbb{N}^*\\) là tập hợp các số tự nhiên khác 0, nghĩa là \\(\\mathbb{N}^* = \\{1; 2; 3; 4;...\\}\\). Số 0 thuộc tập hợp \\(\\mathbb{N}\\) nhưng không thuộc tập hợp \\(\\mathbb{N}^*\\).",
+      "generalfeedback": "Tập hợp \\(\\mathbb{N} = \\{0; 1; 2; 3;...\\}\\) chứa số 0, còn tập hợp \\(\\mathbb{N}^* = \\{1; 2; 3; 4;...\\}\\) không chứa số 0.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm số liền trước và số liền sau",
+      "questiontext": "Trong các khẳng định sau về số tự nhiên liền trước và số liền sau, khẳng định nào sau đây là đúng?",
+      "generalfeedback": "Hai số tự nhiên liên tiếp hơn kém nhau 1 đơn vị. Số 0 là số tự nhiên nhỏ nhất và không có số tự nhiên liền trước. Mỗi số tự nhiên có đúng một số liền sau.",
+      "answers": [
+        {
+          "text": "Hai số tự nhiên liên tiếp hơn kém nhau 1 đơn vị",
+          "fraction": 100
+        },
+        {
+          "text": "Số 0 có số tự nhiên liền trước là 1",
+          "fraction": 0
+        },
+        {
+          "text": "Mỗi số tự nhiên có hai số liền sau",
+          "fraction": 0
+        },
+        {
+          "text": "Mọi số tự nhiên đều có số tự nhiên liền trước",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Biểu diễn số tự nhiên trên tia số",
+      "questiontext": "Trên tia số nằm ngang có gốc O, điểm biểu diễn số tự nhiên nào nằm ngay bên trái điểm 8?",
+      "generalfeedback": "Trên tia số nằm ngang, điểm biểu diễn số tự nhiên nằm ngay bên trái điểm 8 là điểm 7 (vì 7 là số liền trước của 8).",
+      "answers": [
+        {
+          "text": "7",
+          "fraction": 100
+        },
+        {
+          "text": "Điểm 7",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Kí hiệu nhỏ hơn hoặc bằng và lớn hơn hoặc bằng",
+      "questiontext": "Liệt kê các phần tử của tập hợp \\(K = \\{x \\in \\mathbb{N}^* \\mid x \\le 3\\}\\):",
+      "generalfeedback": "Vì \\(x \\in \\mathbb{N}^*\\) (số tự nhiên khác 0) và \\(x \\le 3\\) nên \\(x\\) nhận các giá trị 1; 2; 3. Do đó \\(K = \\{1; 2; 3\\}\\).",
+      "answers": [
+        {
+          "text": "\\(K = \\{1; 2; 3\\}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(K = \\{0; 1; 2; 3\\}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(K = \\{1; 2\\}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(K = \\{0; 1; 2\\}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_008",
+      "questiontext": "Cho tập hợp \\(M = \\{x \\in \\mathbb{N} \\mid 10 \\le x < 15\\}\\). Tập hợp \\(M\\) có bao nhiêu phần tử? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Các phần tử của tập hợp \\(M\\) là 10; 11; 12; 13; 14. Vậy tập hợp \\(M\\) có tất cả 5 phần tử.",
+      "answers": [
+        {
+          "text": "5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "So sánh ba số tự nhiên bằng tính chất bắc cầu",
+      "questiontext": "Cho ba số tự nhiên \\(a, b, c\\), trong đó \\(a\\) là số nhỏ nhất. Biết rằng trên tia số nằm ngang, điểm \\(b\\) nằm giữa hai điểm \\(a\\) và \\(c\\). Khi đó điểm \\(a\\) nằm bên trái điểm \\(b\\) nên ta có \\(a\\) [[1]] \\(b\\); điểm \\(c\\) nằm bên phải điểm \\(b\\) nên ta có \\(c\\) [[2]] \\(b\\). Do đó \\(a < b < c\\).",
+      "generalfeedback": "Vì điểm a nằm bên trái điểm b nên \\(a < b\\); điểm c nằm bên phải điểm b nên \\(c > b\\). Theo tính chất bắc cầu ta có \\(a < b < c\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "<"
+        },
+        {
+          "group": 1,
+          "text": ">"
+        },
+        {
+          "group": 1,
+          "text": "="
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Kí hiệu nhỏ hơn hoặc bằng và lớn hơn hoặc bằng",
+      "questiontext": "Ghép mỗi kí hiệu hoặc cách viết ở cột bên trái với ý nghĩa tương ứng ở cột bên phải:",
+      "generalfeedback": "Kí hiệu \\(a \\le b\\) nghĩa là \\(a < b\\) hoặc \\(a = b\\); kí hiệu \\(a \\ge b\\) nghĩa là \\(a > b\\) hoặc \\(a = b\\); viết \\(a < b < c\\) nghĩa là \\(a < b\\) và \\(b < c\\).",
+      "subquestions": [
+        {
+          "question": "Kí hiệu \\(a \\le b\\)",
+          "answer": "\\(a < b\\) hoặc \\(a = b\\)"
+        },
+        {
+          "question": "Kí hiệu \\(a \\ge b\\)",
+          "answer": "\\(a > b\\) hoặc \\(a = b\\)"
+        },
+        {
+          "question": "Viết \\(a < b < c\\)",
+          "answer": "\\(a < b\\) và \\(b < c\\)"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Khái niệm số liền trước và số liền sau",
+      "questiontext": "Số liền trước của 3 529 là [[1]], số liền sau của 3 532 là [[2]].",
+      "generalfeedback": "Số liền trước của 3 529 là \\(3\\,529 - 1 = 3\\,528\\); số liền sau của 3 532 là \\(3\\,532 + 1 = 3\\,533\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "3 528"
+        },
+        {
+          "group": 1,
+          "text": "3 533"
+        },
+        {
+          "group": 1,
+          "text": "3 530"
+        },
+        {
+          "group": 1,
+          "text": "3 531"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "So sánh hai số tự nhiên",
+      "questiontext": "Ba bạn An, Bắc, Cường dựng cố định một cây sào thẳng đứng rồi đánh dấu chiều cao của ba bạn lên đó bởi ba điểm. Thứ tự từ dưới lên trên lần lượt là ba điểm A, B, C. Biết bạn An cao 150 cm, bạn Bắc cao 153 cm, bạn Cường cao 148 cm. Để các điểm tương ứng đúng với chiều cao của mỗi bạn, thứ tự các bạn tương ứng với các điểm A, B, C từ dưới lên trên là:",
+      "generalfeedback": "So sánh chiều cao: 148 cm < 150 cm < 153 cm. Do sào dựng thẳng đứng và các điểm đánh dấu theo thứ tự từ dưới lên trên nên điểm thấp nhất A ứng với Cường (148 cm), điểm giữa B ứng với An (150 cm), điểm cao nhất C ứng với Bắc (153 cm).",
+      "answers": [
+        {
+          "text": "Điểm A ứng với Cường, điểm B ứng với An, điểm C ứng với Bắc",
+          "fraction": 100
+        },
+        {
+          "text": "Điểm A ứng với An, điểm B ứng với Bắc, điểm C ứng với Cường",
+          "fraction": 0
+        },
+        {
+          "text": "Điểm A ứng với Cường, điểm B ứng với Bắc, điểm C ứng với An",
+          "fraction": 0
+        },
+        {
+          "text": "Điểm A ứng với Bắc, điểm B ứng với An, điểm C ứng với Cường",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ tự học Toán, bạn Nam gặp bài toán so sánh hai số tự nhiên có nhiều chữ số: \\(m = 12\\,036\\,001\\) và \\(n = 12\\,035\\,987\\). Do các số có nhiều chữ số, Nam cảm thấy lúng túng và chưa tìm ra kết quả ngay. Để rèn luyện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập, bạn Nam nên chọn hành động nào?",
+      "generalfeedback": "Hành động kiên trì đọc lại kiến thức SGK, tự đặt bút đối chiếu từng hàng chữ số từ trái sang phải và chủ động hỏi thầy cô hoặc bạn bè khi chưa hiểu thể hiện tinh thần vượt khó, tự giác và nỗ lực vươn lên trong học tập.",
+      "answers": [
+        {
+          "text": "Kiên trì đọc lại phần hướng dẫn trong SGK, tự đặt bút so sánh từng cặp chữ số cùng hàng từ trái sang phải và hỏi thầy cô hoặc bạn bè nếu còn vướng mắc",
+          "fraction": 100
+        },
+        {
+          "text": "Chép ngay kết quả so sánh từ vở của bạn bên cạnh để kịp nộp bài",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua bài toán này không làm vì cho rằng bài quá dài và phức tạp",
+          "fraction": 0
+        },
+        {
+          "text": "Đoán bừa một dấu so sánh để điền vào vở cho xong bài tập",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi gặp bài toán khó về so sánh ba số tự nhiên bằng tính chất bắc cầu, học sinh chủ động ghi lại phần mình chưa hiểu, tự tìm tòi ví dụ tương tự trong SGK và tích cực trao đổi với thầy cô là biểu hiện của người luôn cố gắng vươn lên đạt kết quả tốt trong học tập.",
+      "generalfeedback": "Chủ động tìm tòi, kiên trì vượt khó và tích cực học hỏi khi gặp bài tập chưa hiểu là biểu hiện rõ nét của phẩm chất chăm chỉ, luôn cố gắng vươn lên đạt kết quả tốt trong học tập.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Để hoàn thành bảng ghi tóm tắt có chọn lọc các thuật ngữ và kí hiệu cốt lõi của bài học \"Thứ tự trong tập hợp các số tự nhiên\", em hãy ghép mỗi thuật ngữ/kí hiệu ở cột bên trái với nội dung tóm tắt ngắn gọn tương ứng ở cột bên phải:",
+      "generalfeedback": "Ghép nối chính xác các thuật ngữ và kí hiệu với nội dung cốt lõi giúp hệ thống hóa và lưu giữ thông tin bài học một cách khoa học, chọn lọc.",
+      "subquestions": [
+        {
+          "question": "Hai số tự nhiên liên tiếp",
+          "answer": "Hai số hơn kém nhau 1 đơn vị, chẳng hạn 8 và 9"
+        },
+        {
+          "question": "Tính chất bắc cầu",
+          "answer": "Nếu \\(a < b\\) và \\(b < c\\) thì \\(a < c\\)"
+        },
+        {
+          "question": "Kí hiệu \\(a \\le b\\)",
+          "answer": "Có nghĩa là \\(a < b\\) hoặc \\(a = b\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "imgs": [
+        "_page_0_Picture_8.jpeg"
+      ],
+      "questiontext": "Quan sát hình ảnh dòng người xếp hàng tại điểm bán vé dưới đây:\n[img:_page_0_Picture_8.jpeg]\nSGK nêu nhận xét: \"Trong tình huống ban đầu, ta có thể dùng số tự nhiên 1, 2, 3,... để đánh số thứ tự người xếp hàng: người thứ nhất, người thứ hai, người thứ ba,...\". Khi tiếp nhận thông tin kết hợp giữa hình ảnh và văn bản trên, thông tin nào sau đây được rút ra chính xác nhất về ứng dụng của số tự nhiên trong đời sống?",
+      "generalfeedback": "Hình ảnh trực quan kết hợp với lời văn giúp người đọc tiếp nhận thông tin: thứ tự của các số tự nhiên được dùng để mô hình hóa vị trí trước - sau của từng người xếp hàng trong đời sống thực tế một cách trật tự và công bằng.",
+      "answers": [
+        {
+          "text": "Thứ tự tăng dần của các số tự nhiên được ứng dụng để xác định vị trí trước - sau của người xếp hàng trong đời sống một cách trật tự",
+          "fraction": 100
+        },
+        {
+          "text": "Số người xếp hàng không thể mô tả được bằng dãy số tự nhiên",
+          "fraction": 0
+        },
+        {
+          "text": "Người đến sau luôn được gắn số thứ tự nhỏ hơn người đến trước",
+          "fraction": 0
+        },
+        {
+          "text": "Việc đánh số thứ tự trong đời sống chỉ được phép dùng các số tự nhiên chẵn",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Để so sánh hai số tự nhiên \\(m = 12\\,036\\,001\\) và \\(n = 12\\,035\\,987\\), học sinh thực hiện các bước:\n- Bước 1: Đếm số chữ số và thấy cả hai số đều có 8 chữ số.\n- Bước 2: Lần lượt đối chiếu các chữ số ở cùng một hàng từ trái sang phải: hàng triệu (1 = 1), hàng trăm nghìn (2 = 2), hàng chục nghìn (0 = 0), hàng nghìn (3 = 3).\n- Bước 3: Đến hàng trăm, thấy 6 > 5.\n- Bước 4: Kết luận \\(m > n\\).\nThao tác tư duy chủ đạo được thực hiện lặp lại từ Bước 2 đến Bước 3 là thao tác nào?",
+      "generalfeedback": "Học sinh đã thực hiện thao tác tư duy so sánh và đối chiếu từng cặp chữ số ở cùng một hàng kể từ trái sang phải để phát hiện sự khác biệt đầu tiên ở hàng trăm (6 > 5).",
+      "answers": [
+        {
+          "text": "So sánh và đối chiếu từng cặp thành phần tương ứng ở cùng một hàng",
+          "fraction": 100
+        },
+        {
+          "text": "Ước lượng và làm tròn các chữ số",
+          "fraction": 0
+        },
+        {
+          "text": "Khái quát hóa quy tắc chung cho mọi tập hợp số",
+          "fraction": 0
+        },
+        {
+          "text": "Quy nạp toán học",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Trong một đợt kiểm tra thể lực, kết quả bật xa của bốn bạn An, Bình, Cường, Dũng lần lượt là các số tự nhiên \\(a, b, c, d\\) (tính theo cm) thỏa mãn: \\(a > b\\), \\(b \\ge c\\) và \\(c > d\\). Thao tác tư duy lập luận nào sau đây cho phép rút ra kết luận chắc chắn nhất về mối quan hệ giữa kết quả của An (\\(a\\)) và Dũng (\\(d\\))?",
+      "generalfeedback": "Áp dụng thao tác tư duy lập luận dựa trên tính chất bắc cầu: vì \\(a > b\\), \\(b \\ge c\\) và \\(c > d\\) nên suy ra \\(a > d\\).",
+      "answers": [
+        {
+          "text": "Lập luận dựa trên tính chất bắc cầu: vì \\(a > b\\), \\(b \\ge c\\) và \\(c > d\\) nên suy ra \\(a > d\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Lấy tổng kết quả của bốn bạn để suy ra kết quả của An",
+          "fraction": 0
+        },
+        {
+          "text": "Ước lượng trung bình cộng kết quả của bốn bạn",
+          "fraction": 0
+        },
+        {
+          "text": "Quy nạp từ kết quả của bạn Bình để khẳng định An kém hơn Dũng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04_02",
+      "questiontext": "Đọc đoạn văn bản toán học sau đây trong SGK:\n\"Trong hai số tự nhiên khác nhau, luôn có một số nhỏ hơn số kia. Nếu số \\(a\\) nhỏ hơn số \\(b\\) thì trên tia số nằm ngang điểm \\(a\\) nằm bên trái điểm \\(b\\). Khi đó, ta viết \\(a < b\\) hoặc \\(b > a\\). Ta còn nói: điểm \\(a\\) nằm trước điểm \\(b\\), hoặc điểm \\(b\\) nằm sau điểm \\(a\\).\"\nThông tin toán học trọng tâm nào được diễn đạt chính trong đoạn văn bản trên?",
+      "generalfeedback": "Đoạn văn bản trọng tâm trình bày mối liên hệ giữa quan hệ thứ tự của hai số tự nhiên (\\(a < b\\)) với vị trí tương đối của hai điểm biểu diễn chúng trên tia số nằm ngang (điểm a nằm bên trái hay nằm trước điểm b).",
+      "answers": [
+        {
+          "text": "Mối liên hệ giữa quan hệ thứ tự của hai số tự nhiên và vị trí tương đối của hai điểm biểu diễn chúng trên tia số nằm ngang",
+          "fraction": 100
+        },
+        {
+          "text": "Quy tắc tìm số liền trước và số liền sau của số 0",
+          "fraction": 0
+        },
+        {
+          "text": "Cách thức tính tổng của hai số tự nhiên liên tiếp",
+          "fraction": 0
+        },
+        {
+          "text": "Tính chất bắc cầu khi so sánh ba số tự nhiên",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04_02",
+      "questiontext": "Đọc đoạn văn bản toán học sau: \"Kí hiệu \\(a \\le b\\) có nghĩa là \\(a < b\\) hoặc \\(a = b\\). Tương tự, kí hiệu \\(a \\ge b\\) có nghĩa là [[1]]. Tính chất bắc cầu còn có thể viết: nếu \\(a \\le b\\) và \\(b \\le c\\) thì [[2]].\"\nChọn cụm từ toán học chính xác để hoàn thiện việc đọc hiểu văn bản:",
+      "generalfeedback": "Theo SGK: kí hiệu \\(a \\ge b\\) có nghĩa là \\(a > b\\) hoặc \\(a = b\\); tính chất bắc cầu: nếu \\(a \\le b\\) và \\(b \\le c\\) thì \\(a \\le c\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(a > b\\) hoặc \\(a = b\\)"
+        },
+        {
+          "group": 2,
+          "text": "\\(a \\le c\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(a < b\\) và \\(a = b\\)"
+        },
+        {
+          "group": 2,
+          "text": "\\(a \\ge c\\)"
+        }
+      ]
+    }
+  ]
+}

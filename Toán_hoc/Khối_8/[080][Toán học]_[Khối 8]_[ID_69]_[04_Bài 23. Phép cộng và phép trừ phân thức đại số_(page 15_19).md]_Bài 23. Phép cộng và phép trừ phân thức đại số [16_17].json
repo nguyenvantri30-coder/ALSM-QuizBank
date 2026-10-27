@@ -1,0 +1,707 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 28,
+    "metadata_used": {
+      "Khái niệm Phân thức đối": 4,
+      "Quy tắc trừ hai phân thức đại số (A/B - C/D = A/B + (-C/D))": 3,
+      "Xác định phân thức đối của phân thức cho trước": 4,
+      "Thực hiện phép trừ hai phân thức đại số": 6,
+      "YCCD_TOAN8_029": 3,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TUHOC_C2_04": 2,
+      "NLT_TOAN_C2_01_01": 2,
+      "NLT_TOAN_C2_03_05": 2
+    },
+    "types_used": {
+      "multichoice": 14,
+      "truefalse": 3,
+      "shortanswer": 3,
+      "matching": 3,
+      "gapselect": 3,
+      "calculated": 2
+    },
+    "total": 28
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN8_029",
+        "reason": "Thực hiện được phép trừ đối với hai phân thức đại số."
+      },
+      {
+        "metadata_code": "Khái niệm Phân thức đối",
+        "reason": "Khái niệm Phân thức đối"
+      },
+      {
+        "metadata_code": "Quy tắc trừ hai phân thức đại số (A/B - C/D = A/B + (-C/D))",
+        "reason": "Quy tắc trừ hai phân thức đại số"
+      },
+      {
+        "metadata_code": "Xác định phân thức đối của phân thức cho trước",
+        "reason": "Xác định phân thức đối của phân thức cho trước"
+      },
+      {
+        "metadata_code": "Thực hiện phép trừ hai phân thức đại số",
+        "reason": "Thực hiện phép trừ hai phân thức đại số"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học thuộc mảng toán học thuần túy (phép trừ phân thức đại số), không chứa nội dung thực hành hay ngữ cảnh công nghệ/tin học tự nhiên để đo lường năng lực tin học/số."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học không có bối cảnh ứng dụng trực tiếp hoặc tự nhiên với hệ thống trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm Phân thức đối",
+      "questiontext": "Phân thức đối của phân thức \\(\\frac{A}{B}\\) (với \\(B \\neq 0\\)) là phân thức nào sau đây?",
+      "generalfeedback": "Phân thức đối của phân thức \\(\\frac{A}{B}\\) là \\(-\\frac{A}{B}\\) hay \\(\\frac{-A}{B}\\).",
+      "answers": [
+        {
+          "text": "\\(-\\frac{A}{B}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{B}{A}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-\\frac{B}{A}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{-A}{-B}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm Phân thức đối",
+      "questiontext": "Tổng của một phân thức đại số bất kỳ và phân thức đối của nó luôn bằng \\(0\\). Đúng hay sai?",
+      "generalfeedback": "Theo định nghĩa, tổng của một phân thức và phân thức đối của nó bằng 0: \\(\\frac{A}{B} + \\left(-\\frac{A}{B}\\right) = 0\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc trừ hai phân thức đại số (A/B - C/D = A/B + (-C/D))",
+      "questiontext": "Theo quy tắc trừ hai phân thức đại số, phép trừ \\(\\frac{A}{B} - \\frac{C}{D}\\) được chuyển thành phép cộng nào dưới đây?",
+      "generalfeedback": "Phép trừ hai phân thức đại số được chuyển thành phép cộng với phân thức đối: \\(\\frac{A}{B} - \\frac{C}{D} = \\frac{A}{B} + \\frac{-C}{D}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{A}{B} + \\frac{-C}{D}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{A}{B} + \\frac{C}{D}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{-A}{B} + \\frac{C}{D}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{-A}{B} + \\frac{-C}{D}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Xác định phân thức đối của phân thức cho trước",
+      "questiontext": "Phân thức đối của phân thức \\(\\frac{3-2x}{x+1}\\) là phân thức nào dưới đây?",
+      "generalfeedback": "Phân thức đối của \\(\\frac{3-2x}{x+1}\\) là \\(-\\frac{3-2x}{x+1} = \\frac{-(3-2x)}{x+1} = \\frac{2x-3}{x+1}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{2x-3}{x+1}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{3-2x}{-x+1}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{2x+3}{x+1}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{-3-2x}{x+1}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép trừ hai phân thức đại số",
+      "questiontext": "Thực hiện phép trừ hai phân thức cùng mẫu \\(\\frac{3x+1}{x-2} - \\frac{x+5}{x-2}\\) ta được kết quả thu gọn là:",
+      "generalfeedback": "Ta có: \\(\\frac{3x+1}{x-2} - \\frac{x+5}{x-2} = \\frac{(3x+1) - (x+5)}{x-2} = \\frac{2x-4}{x-2} = \\frac{2(x-2)}{x-2} = 2\\).",
+      "answers": [
+        {
+          "text": "\\(2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{2x+6}{x-2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{4x-4}{x-2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(4\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Xác định phân thức đối của phân thức cho trước",
+      "questiontext": "Điền phân thức đối của phân thức \\(\\frac{x-y}{x+y}\\) dưới dạng có mẫu thức là \\(x+y\\):",
+      "generalfeedback": "Phân thức đối của \\(\\frac{x-y}{x+y}\\) là \\(-\\frac{x-y}{x+y} = \\frac{y-x}{x+y}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{y-x}{x+y}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{y+x}{x+y}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2\\frac{y-x}{x+y}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-2\\frac{y-x}{x+y}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Xác định phân thức đối của phân thức cho trước",
+      "questiontext": "Ghép mỗi phân thức ở cột bên trái với phân thức đối tương ứng của nó ở cột bên phải:",
+      "generalfeedback": "Phân thức đối của \\(\\frac{A}{B}\\) là \\(\\frac{-A}{B}\\).",
+      "subquestions": [
+        {
+          "question": "\\(\\frac{x}{x-1}\\)",
+          "answer": "\\(\\frac{-x}{x-1}\\)"
+        },
+        {
+          "question": "\\(\\frac{1}{2x+3}\\)",
+          "answer": "\\(\\frac{-1}{2x+3}\\)"
+        },
+        {
+          "question": "\\(\\frac{x-2}{x+2}\\)",
+          "answer": "\\(\\frac{2-x}{x+2}\\)"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc trừ hai phân thức đại số (A/B - C/D = A/B + (-C/D))",
+      "questiontext": "Muốn trừ hai phân thức có cùng mẫu thức, ta trừ các [[1]] và giữ nguyên [[2]].",
+      "generalfeedback": "Muốn trừ hai phân thức có cùng mẫu thức, ta trừ các tử thức và giữ nguyên mẫu thức.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "tử thức"
+        },
+        {
+          "group": 1,
+          "text": "mẫu thức"
+        },
+        {
+          "group": 1,
+          "text": "hằng số"
+        },
+        {
+          "group": 1,
+          "text": "biểu thức"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_029",
+      "questiontext": "Thực hiện phép tính \\(\\frac{1}{x-1} - \\frac{1}{x+1}\\) thu được kết quả thu gọn là:",
+      "generalfeedback": "Quy đồng mẫu thức chung \\((x-1)(x+1) = x^2 - 1\\):\n\\(\\frac{1}{x-1} - \\frac{1}{x+1} = \\frac{x+1 - (x-1)}{(x-1)(x+1)} = \\frac{2}{x^2-1}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{2}{x^2-1}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{0}{x^2-1}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{2x}{x^2-1}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{-2}{x^2-1}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép trừ hai phân thức đại số",
+      "questiontext": "Cho biểu thức P = ({a}x + 5)/(x+2) - (2x + 1)/(x+2). Khi thực hiện phép trừ và thu gọn tử thức, tử thức có dạng Bx + 4. Giá trị của B tính theo {a} là:",
+      "generalfeedback": "Ta có ({a}x + 5)/(x+2) - (2x + 1)/(x+2) = (({a}-2)x + 4)/(x+2). Do đó B = {a} - 2.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 3.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}-2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép trừ hai phân thức đại số",
+      "questiontext": "Kết quả của phép trừ \\( \\frac{x^2+1}{x(x-1)} - \\frac{2}{x(x-1)} \\) sau khi rút gọn là:",
+      "generalfeedback": "Ta có: \\( \\frac{x^2+1 - 2}{x(x-1)} = \\frac{x^2-1}{x(x-1)} = \\frac{(x-1)(x+1)}{x(x-1)} = \\frac{x+1}{x} \\).",
+      "answers": [
+        {
+          "text": "\\( \\frac{x+1}{x} \\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\( \\frac{x-1}{x} \\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\( \\frac{x^2-1}{x} \\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\( \\frac{1}{x} \\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Quy tắc trừ hai phân thức đại số (A/B - C/D = A/B + (-C/D))",
+      "questiontext": "Muốn trừ phân thức \\( \\frac{A}{B} \\) cho phân thức \\( \\frac{C}{D} \\), ta cộng \\( \\frac{A}{B} \\) với phân thức đối của \\( \\frac{C}{D} \\). Phát biểu này đúng hay sai?",
+      "generalfeedback": "Đúng, theo quy tắc phép trừ hai phân thức đại số: \\( \\frac{A}{B} - \\frac{C}{D} = \\frac{A}{B} + \\left(-\\frac{C}{D}\\right) \\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_029",
+      "questiontext": "Thực hiện phép tính \\( \\frac{x+3}{x^2-1} - \\frac{1}{x^2+x} \\) ta được kết quả thu gọn là:",
+      "generalfeedback": "Mẫu thức chung là \\( x(x-1)(x+1) \\).\n\\( \\frac{x+3}{(x-1)(x+1)} - \\frac{1}{x(x+1)} = \\frac{x(x+3) - (x-1)}{x(x-1)(x+1)} = \\frac{x^2+3x-x+1}{x(x-1)(x+1)} = \\frac{x^2+2x+1}{x(x-1)(x+1)} = \\frac{(x+1)^2}{x(x-1)(x+1)} = \\frac{x+1}{x(x-1)} \\).",
+      "answers": [
+        {
+          "text": "\\( \\frac{x+1}{x(x-1)} \\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\( \\frac{x-1}{x(x+1)} \\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\( \\frac{x+2}{x^2-1} \\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\( \\frac{1}{x-1} \\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm Phân thức đối",
+      "questiontext": "Ký hiệu phân thức đối của phân thức \\( \\frac{A}{B} \\) là gì?",
+      "generalfeedback": "Phân thức đối của \\( \\frac{A}{B} \\) được ký hiệu là \\( -\\frac{A}{B} \\).",
+      "answers": [
+        {
+          "text": "\\(-\\frac{A}{B}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(+\\frac{A}{B}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2-\\frac{A}{B}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-2-\\frac{A}{B}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép trừ hai phân thức đại số",
+      "questiontext": "Nối các phép trừ phân thức đại số ở cột bên trái với kết quả thu gọn tương ứng ở cột bên phải:",
+      "generalfeedback": "Thực hiện phép trừ và rút gọn phân thức thu được kết quả tương ứng.",
+      "subquestions": [
+        {
+          "question": "\\( \\frac{5x+1}{y} - \\frac{2x+1}{y} \\)",
+          "answer": "\\( \\frac{3x}{y} \\)"
+        },
+        {
+          "question": "\\( \\frac{x^2}{x-1} - \\frac{1}{x-1} \\)",
+          "answer": "\\( x+1 \\)"
+        },
+        {
+          "question": "\\( \\frac{1}{x} - \\frac{1}{2x} \\)",
+          "answer": "\\( \\frac{1}{2x} \\)"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm Phân thức đối",
+      "questiontext": "Hai phân thức được gọi là đối nhau nếu tổng của chúng bằng [[1]].",
+      "generalfeedback": "Hai phân thức đối nhau có tổng bằng 0.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "0"
+        },
+        {
+          "group": 1,
+          "text": "1"
+        },
+        {
+          "group": 1,
+          "text": "-1"
+        },
+        {
+          "group": 1,
+          "text": "mẫu thức chung"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_029",
+      "questiontext": "Rút gọn biểu thức \\( P = \\frac{1}{x-y} - \\frac{1}{x+y} - \\frac{2y}{x^2-y^2} \\) ta được kết quả là:",
+      "generalfeedback": "\\( \\frac{1}{x-y} - \\frac{1}{x+y} = \\frac{(x+y)-(x-y)}{x^2-y^2} = \\frac{2y}{x^2-y^2} \\).\nDo đó \\( P = \\frac{2y}{x^2-y^2} - \\frac{2y}{x^2-y^2} = 0 \\).",
+      "answers": [
+        {
+          "text": "\\( 0 \\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\( \\frac{4y}{x^2-y^2} \\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\( \\frac{2x}{x^2-y^2} \\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\( 1 \\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép trừ hai phân thức đại số",
+      "questiontext": "Tính giá trị của biểu thức \\( A = \\frac{x+5}{x-1} - \\frac{6}{x-1} \\) tại \\( x = 10 \\):",
+      "generalfeedback": "Thu gọn \\( A = \\frac{x+5-6}{x-1} = \\frac{x-1}{x-1} = 1 \\) với mọi \\( x \\neq 1 \\). Với \\( x = 10 \\), \\( A = 1 \\).",
+      "answers": [
+        {
+          "text": "1",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Xác định phân thức đối của phân thức cho trước",
+      "questiontext": "Phân thức đối của phân thức \\( -\\frac{x-3}{2x} \\) là:",
+      "generalfeedback": "Phân thức đối của \\( -\\frac{x-3}{2x} \\) là \\( \\frac{x-3}{2x} \\).",
+      "answers": [
+        {
+          "text": "\\( \\frac{x-3}{2x} \\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\( \\frac{3-x}{2x} \\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\( -\\frac{3-x}{2x} \\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\( \\frac{x-3}{-2x} \\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện phép trừ hai phân thức đại số",
+      "questiontext": "Cho biểu thức Q = ({k}x + 3)/(x-1) - (3x + 3)/(x-1). Để Q nhận giá trị là hằng số với mọi x khác 1 thì k phải bằng bao nhiêu?",
+      "generalfeedback": "Ta có Q = (({k}-3)x)/(x-1). Để Q không phụ thuộc vào x hay thu gọn triệt tiêu tử mẫu hoặc thành hằng số, k phải bằng 3 (khi đó Q = 0).",
+      "wildcards": [
+        {
+          "name": "k",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "3",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ học Toán bài \"Phép trừ phân thức đại số\", Nam gặp một bài toán quy đồng và trừ hai phân thức phức tạp chưa làm được ngay. Để thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập, Nam nên chọn thái độ và hành động nào sau đây?",
+      "generalfeedback": "Thái độ kiên trì, không nản lòng trước bài toán khó và chủ động tìm tòi lời giải thể hiện tinh thần luôn cố gắng vươn lên trong học tập.",
+      "answers": [
+        {
+          "text": "Kiên trì phân tích mẫu thức thành nhân tử, tìm mẫu thức chung và thực hiện từng bước quy đồng theo hướng dẫn.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài toán và chờ giáo viên chữa bài để chép lời giải.",
+          "fraction": 0
+        },
+        {
+          "text": "Nhờ bạn làm hộ toàn bộ bài tập để kịp nộp đúng giờ.",
+          "fraction": 0
+        },
+        {
+          "text": "Than phiền bài toán quá khó và dừng không tiếp tục suy nghĩ nữa.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi làm bài tập về phép trừ hai phân thức khác mẫu, việc tự giác rà soát kỹ lại bước đổi dấu tử thức khi bỏ ngoặc trước dấu trừ để tránh sai sót là biểu hiện của tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập. Phát biểu này đúng hay sai?",
+      "generalfeedback": "Đúng. Tự giác kiểm tra, rà soát tỉ mỉ lời giải để đảm bảo tính chính xác thể hiện ý thức trách nhiệm và nỗ lực đạt kết quả tốt trong học tập.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Để lưu giữ thông tin có chọn lọc và tóm tắt ngắn gọn quy tắc trừ hai phân thức đại số \\( \\frac{A}{B} - \\frac{C}{D} \\), cách trình bày sơ đồ/từ khóa nào dưới đây là chính xác và khoa học nhất?",
+      "generalfeedback": "Quy tắc trừ hai phân thức đại số được tóm tắt ngắn gọn bằng cách chuyển thành phép cộng với phân thức đối: \\( \\frac{A}{B} - \\frac{C}{D} = \\frac{A}{B} + \\left(-\\frac{C}{D}\\right) \\).",
+      "answers": [
+        {
+          "text": "\\( \\frac{A}{B} - \\frac{C}{D} = \\frac{A}{B} + \\left(-\\frac{C}{D}\\right) \\) (Trừ hai phân thức = Cộng với phân thức đối)",
+          "fraction": 100
+        },
+        {
+          "text": "\\( \\frac{A}{B} - \\frac{C}{D} = \\frac{A-C}{B-D} \\) (Trừ tử cho tử, trừ mẫu cho mẫu)",
+          "fraction": 0
+        },
+        {
+          "text": "\\( \\frac{A}{B} - \\frac{C}{D} = \\frac{A \\cdot D - C \\cdot B}{B \\cdot C} \\) (Nhân chéo tử và mẫu)",
+          "fraction": 0
+        },
+        {
+          "text": "\\( \\frac{A}{B} - \\frac{C}{D} = \\frac{A+C}{-B-D} \\) (Cộng tử với tử, đổi dấu mẫu)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Bạn An lập bảng tóm tắt kiến thức cốt lõi của bài \"Phép trừ phân thức đại số\". Hãy ghép mỗi khái niệm/quy tắc ở cột bên trái với công thức tóm tắt tương ứng ở cột bên phải:",
+      "generalfeedback": "Tóm tắt thông tin giúp cô đọng kiến thức cốt lõi một cách hệ thống.",
+      "subquestions": [
+        {
+          "question": "Phân thức đối của \\( \\frac{A}{B} \\)",
+          "answer": "\\( -\\frac{A}{B} \\)"
+        },
+        {
+          "question": "Quy tắc trừ hai phân thức cùng mẫu",
+          "answer": "\\( \\frac{A}{M} - \\frac{B}{M} = \\frac{A-B}{M} \\)"
+        },
+        {
+          "question": "Chuyển phép trừ thành phép cộng",
+          "answer": "\\( \\frac{A}{B} - \\frac{C}{D} = \\frac{A}{B} + \\frac{-C}{D} \\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Khi thực hiện phép tính \\( \\frac{x-1}{x+1} - \\frac{2x+3}{x+1} \\), một học sinh giải như sau:\n\\( \\frac{x-1}{x+1} - \\frac{2x+3}{x+1} = \\frac{x-1 - 2x + 3}{x+1} = \\frac{-x+2}{x+1} \\).\nThao tác tư duy phân tích nào dưới đây chỉ ra chính xác sai lầm trong lời giải trên?",
+      "generalfeedback": "Khi trừ hai phân thức cùng mẫu, phải trừ toàn bộ tử thức thứ hai: \\( (x-1) - (2x+3) = x - 1 - 2x - 3 = -x - 4 \\). Học sinh đã quên đặt dấu ngoặc cho \\( 2x+3 \\) dẫn đến sai dấu của số 3.",
+      "answers": [
+        {
+          "text": "Học sinh không đặt dấu ngoặc cho tử thức thứ hai \\( (2x+3) \\) khi thực hiện phép trừ, dẫn đến việc đổi dấu sai thành \\( +3 \\) thay vì \\( -3 \\).",
+          "fraction": 100
+        },
+        {
+          "text": "Học sinh đã quy đồng mẫu thức sai.",
+          "fraction": 0
+        },
+        {
+          "text": "Học sinh lấy mẫu thức thứ nhất trừ cho mẫu thức thứ hai.",
+          "fraction": 0
+        },
+        {
+          "text": "Học sinh rút gọn sai phân thức ở bước cuối cùng.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "So sánh hai biểu thức \\( P = \\frac{1}{x-1} - \\frac{1}{x+1} \\) và \\( Q = \\frac{2}{x^2-1} \\) (với \\( x \\neq \\pm 1 \\)). Bằng thao tác tư duy lập luận và biến đổi đại số, kết luận nào sau đây đúng?",
+      "generalfeedback": "Quy đồng \\( P = \\frac{(x+1) - (x-1)}{(x-1)(x+1)} = \\frac{2}{x^2-1} = Q \\). Do đó \\( P = Q \\) với mọi \\( x \\neq \\pm 1 \\).",
+      "answers": [
+        {
+          "text": "\\( P = Q \\) với mọi \\( x \\neq \\pm 1 \\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\( P > Q \\) với mọi \\( x > 1 \\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\( P = -Q \\) với mọi \\( x \\neq \\pm 1 \\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\( P < Q \\) với mọi \\( x < -1 \\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Một ô tô đi từ A đến B với vận tốc \\( x \\) (km/h) (\\( x > 0 \\)). Khi từ B về A, xe tăng vận tốc thêm \\( 10 \\) km/h. Quãng đường AB dài \\( 120 \\) km. Kỹ năng mô hình hóa toán học nào dưới đây biểu thị chính xác thời gian lượt đi nhiều hơn thời gian lượt về của ô tô?",
+      "generalfeedback": "Thời gian đi là \\( \\frac{120}{x} \\) (giờ), thời gian về là \\( \\frac{120}{x+10} \\) (giờ). Thời gian lượt đi nhiều hơn lượt về là \\( \\frac{120}{x} - \\frac{120}{x+10} \\) (giờ).",
+      "answers": [
+        {
+          "text": "\\( \\frac{120}{x} - \\frac{120}{x+10} \\) (giờ)",
+          "fraction": 100
+        },
+        {
+          "text": "\\( \\frac{120}{x+10} - \\frac{120}{x} \\) (giờ)",
+          "fraction": 0
+        },
+        {
+          "text": "\\( \\frac{120}{x} + \\frac{120}{x+10} \\) (giờ)",
+          "fraction": 0
+        },
+        {
+          "text": "\\( \\frac{120x}{x+10} \\) (giờ)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Một tàu du lịch chạy xuôi dòng \\( 15 \\) km, sau đó quay ngược dòng \\( 15 \\) km. Biết vận tốc thực của tàu là \\( 10 \\) km/h và vận tốc dòng nước là \\( x \\) km/h (\\( 0 < x < 10 \\)). Sử dụng kỹ năng lập phân thức, phân thức biểu thị thời gian ngược dòng là [[1]] và phân thức biểu thị tổng thời gian cả chuyến đi là [[2]].",
+      "generalfeedback": "Vận tốc ngược dòng là \\( 10-x \\) km/h nên thời gian ngược dòng là \\( \\frac{15}{10-x} \\). Vận tốc xuôi dòng là \\( 10+x \\) km/h. Tổng thời gian là \\( \\frac{15}{10+x} + \\frac{15}{10-x} \\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\( \\frac{15}{10-x} \\)"
+        },
+        {
+          "group": 1,
+          "text": "\\( \\frac{15}{10+x} + \\frac{15}{10-x} \\)"
+        },
+        {
+          "group": 1,
+          "text": "\\( \\frac{15}{10+x} \\)"
+        },
+        {
+          "group": 1,
+          "text": "\\( \\frac{15}{x} \\)"
+        }
+      ]
+    }
+  ]
+}

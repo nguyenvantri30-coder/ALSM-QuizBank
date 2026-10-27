@@ -1,0 +1,428 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 16,
+    "metadata_used": {
+      "YCCD_TOAN8_022": 9,
+      "Ứng dụng phân tích đa thức thành nhân tử trong giải toán": 6,
+      "Giải bài toán tìm x sử dụng phân tích đa thức thành nhân tử": 3,
+      "Vận dụng phân tích nhân tử vào bài toán chia hết đơn giản": 2,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_GQVD_DEXUAT_C2_02": 1,
+      "NLT_TOAN_C2_02_01": 1,
+      "NLT_TOAN_C2_03_04": 1,
+      "8.A1.2_2": 1,
+      "8.A3.3_3": 1
+    },
+    "types_used": {
+      "multichoice": 8,
+      "truefalse": 3,
+      "matching": 1,
+      "gapselect": 1,
+      "ddwtos": 1,
+      "shortanswer": 1,
+      "numerical": 1
+    },
+    "total": 16
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN8_022",
+        "reason": "Vận dụng hằng đẳng thức phân tích đa thức thành nhân tử trong SGK"
+      },
+      {
+        "metadata_code": "Ứng dụng phân tích đa thức thành nhân tử trong giải toán",
+        "reason": "Ứng dụng phân tích đa thức thành nhân tử và Định lí Bézout trong SGK"
+      },
+      {
+        "metadata_code": "Giải bài toán tìm x sử dụng phân tích đa thức thành nhân tử",
+        "reason": "Giải bài toán tìm x bằng phân tích nhân tử trong SGK"
+      },
+      {
+        "metadata_code": "Vận dụng phân tích nhân tử vào bài toán chia hết đơn giản",
+        "reason": "Vận dụng phân tích nhân tử vào bài toán chia hết đơn giản trong SGK"
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Thể hiện tinh thần kiên trì vươn lên khi giải bài toán phân tích đa thức phức tạp"
+      },
+      {
+        "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+        "reason": "Đề xuất giải pháp tối ưu để nhóm các hạng tử phân tích đa thức thành nhân tử"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_02_01",
+        "reason": "Sử dụng mô hình toán học mô tả diện tích phần sân còn lại xung quanh bồn hoa"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_04",
+        "reason": "Áp dụng phân tích nhân tử tính nhanh diện tích chi tiết máy hình vành khăn"
+      },
+      {
+        "metadata_code": "8.A1.2_2",
+        "reason": "Nêu sự cần thiết kiểm chứng kết quả biến đổi đại số do AI tạo ra"
+      },
+      {
+        "metadata_code": "8.A3.3_3",
+        "reason": "Nêu trách nhiệm giải trình khi sử dụng AI hỗ trợ học tập môn Toán"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "1.1TC2a_K8",
+        "reason": "Nội dung bài học 'Luyện tập chung: Phân tích đa thức thành nhân tử' thuộc phạm vi thuần toán học đại số, không có hoạt động tìm kiếm dữ liệu/thông tin trong môi trường số nên không đủ cơ sở để đo lường tự nhiên."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_022",
+      "questiontext": "Phân tích đa thức \\(x^2 - 6x + 9 - y^2\\) thành nhân tử bằng cách nhóm các hạng tử ta thu được kết quả nào sau đây?",
+      "generalfeedback": "Ta có: \\(x^2 - 6x + 9 - y^2 = (x - 3)^2 - y^2 = (x - 3 - y)(x - 3 + y)\\).",
+      "answers": [
+        {
+          "text": "\\((x - 3 - y)(x - 3 + y)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\((x + 3 - y)(x - 3 + y)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((x - 3 - y)(x + 3 + y)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((x + 3 + y)(x - 3 - y)\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_022",
+      "questiontext": "Đa thức \\(xy + z^2 + xz + yz\\) sau khi nhóm các hạng tử thích hợp được phân tích thành nhân tử là \\((x + z)(y + z)\\). Đẳng thức này đúng hay sai?",
+      "generalfeedback": "Ta có: \\(xy + z^2 + xz + yz = (xy + xz) + (z^2 + yz) = x(y + z) + z(y + z) = (x + z)(y + z)\\). Do đó phát biểu trên là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_022",
+      "questiontext": "Hãy ghép mỗi đa thức ở cột bên trái với kết quả phân tích thành nhân tử tương ứng ở cột bên phải:",
+      "generalfeedback": "Sử dụng các phương pháp nhóm hạng tử và dùng hằng đẳng thức để phân tích từng đa thức.",
+      "subquestions": [
+        {
+          "question": "\\(x^3 + y^3 + x + y\\)",
+          "answer": "\\((x + y)(x^2 - xy + y^2 + 1)\\)"
+        },
+        {
+          "question": "\\(x^3 - y^3 + x - y\\)",
+          "answer": "\\((x - y)(x^2 + xy + y^2 + 1)\\)"
+        },
+        {
+          "question": "\\(x^2 - 4xy + 4y^2 + xz - 2yz\\)",
+          "answer": "\\((x - 2y)(x - 2y + z)\\)"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_022",
+      "questiontext": "Khi phân tích đa thức \\(4x^2 - 4x + 1 - 4y^2\\) thành nhân tử, ta nhóm ba hạng tử đầu thành hằng đẳng thức [[1]], sau đó áp dụng hiệu hai bình phương thu được kết quả là [[2]].",
+      "generalfeedback": "Ta có: \\(4x^2 - 4x + 1 - 4y^2 = (2x - 1)^2 - (2y)^2 = (2x - 1 - 2y)(2x - 1 + 2y)\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\((2x - 1)^2\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\((2x - 1 - 2y)(2x - 1 + 2y)\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\((2x + 1)^2\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\((2x + 1 - 2y)(2x + 1 + 2y)\\)"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_022",
+      "questiontext": "Biến đổi đa thức \\(x^2 - x + 2y - 4y^2\\): Nhóm hạng tử \\((x^2 - 4y^2) - (x - 2y) = (x - 2y)\\) [[1]] \\(- (x - 2y) = (x - 2y)\\) [[2]].",
+      "generalfeedback": "Ta nhóm: \\(x^2 - x + 2y - 4y^2 = (x^2 - 4y^2) - (x - 2y) = (x - 2y)(x + 2y) - (x - 2y) = (x - 2y)(x + 2y - 1)\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\((x + 2y)\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\((x + 2y - 1)\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\((x - 2y)\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\((x + 2y + 1)\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Ứng dụng phân tích đa thức thành nhân tử trong giải toán",
+      "questiontext": "Theo Định lí Bézout, nếu đa thức \\(f(x) = 2x^3 + x^2 - 3x - 14\\) nhận \\(x = 2\\) làm nghiệm thì \\(f(x)\\) phân tích thành nhân tử có dạng nào sau đây?",
+      "generalfeedback": "Theo Định lí Bézout, vì \\(f(x)\\) có nghiệm \\(x = 2\\) nên \\(f(x) = (x - 2)g(x)\\). Thực hiện phép chia đa thức cho \\(x - 2\\) thu được thương \\(g(x) = 2x^2 + 5x + 7\\), do đó \\(f(x) = (x - 2)(2x^2 + 5x + 7)\\).",
+      "answers": [
+        {
+          "text": "\\((x - 2)(2x^2 + 5x + 7)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\((x + 2)(2x^2 + 5x + 7)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((x - 2)(2x^2 - 5x + 7)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((x + 2)(2x^2 - 5x - 7)\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Ứng dụng phân tích đa thức thành nhân tử trong giải toán",
+      "questiontext": "Nếu đa thức \\(f(x)\\) có nghiệm \\(x = a\\) thì theo Định lí Bézout, \\(f(x)\\) chia hết cho đa thức nào?",
+      "generalfeedback": "Theo Định lí Bézout, nếu \\(f(x)\\) có nghiệm \\(x = a\\) thì \\(f(x)\\) phân tích được thành \\(f(x) = (x - a)g(x)\\), nghĩa là \\(f(x)\\) chia hết cho \\(x - a\\).",
+      "answers": [
+        {
+          "text": "x - a",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Ứng dụng phân tích đa thức thành nhân tử trong giải toán",
+      "questiontext": "Tính giá trị của biểu thức \\(A = x^2 - 6x + 9 - y^2\\) tại \\(x = 103\\) và \\(y = 100\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Phân tích \\(A = (x - 3)^2 - y^2 = (x - 3 - y)(x - 3 + y)\\). Thay \\(x = 103, y = 100\\): \\(A = (103 - 3 - 100)(103 - 3 + 100) = 0 \\times 200 = 0\\).",
+      "answers": [
+        {
+          "text": "0",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán tìm x sử dụng phân tích đa thức thành nhân tử",
+      "questiontext": "Tìm tất cả các giá trị của \\(x\\) thỏa mãn đẳng thức \\(x^2 - 6x + 9 - 4 = 0\\).",
+      "generalfeedback": "Ta có: \\(x^2 - 6x + 9 - 4 = (x - 3)^2 - 2^2 = (x - 3 - 2)(x - 3 + 2) = (x - 5)(x - 1) = 0\\). Suy ra \\(x = 5\\) hoặc \\(x = 1\\).",
+      "answers": [
+        {
+          "text": "\\(x = 1\\) hoặc \\(x = 5\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x = -1\\) hoặc \\(x = 5\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x = 1\\) hoặc \\(x = -5\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x = -1\\) hoặc \\(x = -5\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng phân tích nhân tử vào bài toán chia hết đơn giản",
+      "questiontext": "Biểu thức \\(B = (x - y)^3 + (x + y)^3\\) sau khi phân tích thành nhân tử ta được \\(2x(x^2 + 3y^2)\\). Từ đó suy ra \\(B\\) luôn chia hết cho \\(2x\\) với mọi số nguyên \\(x, y\\). Đẳng thức và kết luận này đúng hay sai?",
+      "generalfeedback": "Ta có \\((x - y)^3 + (x + y)^3 = 2x(x^2 + 3y^2)\\). Do có chứa nhân tử \\(2x\\) nên biểu thức luôn chia hết cho \\(2x\\). Khẳng định là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi gặp bài toán phân tích đa thức thành nhân tử phức tạp \\(8x^3 - 27y^3 - 27y^2 - 9y - 1\\), bạn Nam đã thử nhóm hai hạng tử đầu \\(8x^3 - 27y^3\\) nhưng không xuất hiện nhân tử chung với các hạng tử còn lại. Hành động nào sau đây thể hiện tinh thần kiên trì và cố gắng vươn lên trong học tập của Nam?",
+      "generalfeedback": "Thể hiện tinh thần kiên trì, không bỏ cuộc khi gặp bài toán khó mà chủ động thay đổi cách nhóm các hạng tử: nhóm ba hạng tử cuối \\(-(27y^3 + 27y^2 + 9y + 1) = -(3y + 1)^3\\) để biến đổi về dạng hiệu hai lập phương \\((2x)^3 - (3y + 1)^3\\).",
+      "answers": [
+        {
+          "text": "Kiên trì thử nghiệm phương án nhóm khác: nhóm bốn hạng tử cuối thành hằng đẳng thức \\(-(3y + 1)^3\\) để tiếp tục giải bài toán",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua câu hỏi và chép ngay lời giải của bạn khác mà không cần suy nghĩ tiếp",
+          "fraction": 0
+        },
+        {
+          "text": "Cho rằng bài toán sai đề và dừng lại không làm nữa",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ làm các câu dễ và bỏ hẳn các bài toán phân tích đa thức dạng vận dụng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Để phân tích đa thức \\(x^2 - 4xy + 4y^2 + xz - 2yz\\) thành nhân tử, nhóm của bạn An đang thảo luận tìm giải pháp. Giải pháp nào sau đây là tối ưu nhất để giải quyết vấn đề?",
+      "generalfeedback": "Giải pháp tối ưu là nhóm ba hạng tử đầu \\((x^2 - 4xy + 4y^2) = (x - 2y)^2\\) và nhóm hai hạng tử cuối \\((xz - 2yz) = z(x - 2y)\\), từ đó xuất hiện nhân tử chung \\((x - 2y)\\).",
+      "answers": [
+        {
+          "text": "Nhóm ba hạng tử đầu thành bình phương của một hiệu \\((x - 2y)^2\\), hai hạng tử cuối đặt \\(z\\) làm nhân tử chung",
+          "fraction": 100
+        },
+        {
+          "text": "Nhóm hai hạng tử đầu \\(x^2 - 4xy\\) và ba hạng tử cuối \\(4y^2 + xz - 2yz\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Đặt nhân tử chung \\(x\\) cho tất cả các hạng tử trong đa thức",
+          "fraction": 0
+        },
+        {
+          "text": "Nhóm hạng tử thứ nhất với hạng tử cuối \\(x^2 - 2yz\\) và ba hạng tử còn lại",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_02_01",
+      "questiontext": "Một mảnh sân hình vuông có độ dài cạnh là \\(x\\) (m). Người ta làm một bồn hoa hình vuông ở chính giữa có độ dài cạnh là \\(y\\) (m) (với \\(x > y\\)). Biểu thức mô tả diện tích phần sân còn lại xung quanh bồn hoa sau khi được phân tích thành nhân tử là:",
+      "generalfeedback": "Diện tích phần sân còn lại là hiệu diện tích mảnh sân và bồn hoa: \\(S = x^2 - y^2\\). Phân tích thành nhân tử sử dụng hằng đẳng thức hiệu hai bình phương ta được \\(S = (x - y)(x + y)\\).",
+      "answers": [
+        {
+          "text": "\\((x - y)(x + y)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\((x - y)^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((x + y)^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x^2 + y^2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_04",
+      "questiontext": "Bác Hùng muốn tính nhanh diện tích của một chi tiết máy hình vành khăn giới hạn bởi hai đường tròn đồng tâm có bán kính lần lượt là \\(R = 105\\text{ cm}\\) và \\(r = 95\\text{ cm}\\). Công thức diện tích là \\(S = \\pi R^2 - \\pi r^2\\). Bác Hùng nên áp dụng kiến thức toán học nào sau đây để tính nhanh kết quả?",
+      "generalfeedback": "Bác Hùng đặt \\(\\pi\\) làm nhân tử chung rồi dùng hằng đẳng thức hiệu hai bình phương: \\(S = \\pi(R^2 - r^2) = \\pi(R - r)(R + r) = \\pi(105 - 95)(105 + 95) = \\pi \\cdot 10 \\cdot 200 = 2000\\pi\\text{ cm}^2\\).",
+      "answers": [
+        {
+          "text": "Đặt nhân tử chung \\(\\pi\\) và áp dụng hằng đẳng thức hiệu hai bình phương \\(R^2 - r^2 = (R - r)(R + r)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Tính trực tiếp \\(105^2\\) và \\(95^2\\) rồi thực hiện phép trừ",
+          "fraction": 0
+        },
+        {
+          "text": "Áp dụng hằng đẳng thức bình phương của một tổng \\((R + r)^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Áp dụng hằng đẳng thức lập phương của một hiệu \\((R - r)^3\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "8.A1.2_2",
+      "questiontext": "Khi sử dụng phần mềm AI tạo sinh để hỗ trợ phân tích đa thức \\(4x^2 - 4x + 1 - 4y^2\\) thành nhân tử, AI trả về kết quả \\((2x - 1 - y)(2x - 1 + y)\\). Việc học sinh tự kiểm tra lại bằng cách nhân các nhân tử hoặc thay số cụ thể để đối chiếu trước khi sử dụng kết quả này là rất cần thiết vì AI tạo sinh có thể mắc lỗi ảo giác (hallucination). Phát biểu này đúng hay sai?",
+      "generalfeedback": "Phát biểu trên là Đúng. AI tạo sinh có thể sinh ra câu trả lời trông có vẻ hợp lí nhưng bị sai biến đổi đại số (ở đây AI quên nhân hệ số 2 cho \\(y\\), kết quả đúng phải là \\((2x - 1 - 2y)(2x - 1 + 2y)\\)). Việc kiểm chứng là bắt buộc.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "8.A3.3_3",
+      "questiontext": "Trong quá trình làm sản phẩm học tập môn Toán về \"Ứng dụng Định lí Bézout\", bạn Bình đã dùng AI tạo sinh để tìm lời giải mẫu. Để thể hiện trách nhiệm giải trình khi sử dụng AI, hành động nào sau đây của Bình là phù hợp nhất?",
+      "generalfeedback": "Trách nhiệm giải trình đòi hỏi người sử dụng AI phải tự mình kiểm tra tính chính xác của nội dung, hiểu rõ bản chất lời giải và chịu trách nhiệm hoàn toàn về sản phẩm mình nộp.",
+      "answers": [
+        {
+          "text": "Tự mình kiểm tra lại độ chính xác của các bước biến đổi toán học do AI tạo ra và chịu trách nhiệm về nội dung bài làm của mình",
+          "fraction": 100
+        },
+        {
+          "text": "Sao chép nguyên văn lời giải của AI và đổ lỗi cho AI nếu kết quả bài tập bị sai",
+          "fraction": 0
+        },
+        {
+          "text": "Giấu không cho giáo viên và các bạn biết việc mình đã sử dụng AI hỗ trợ",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ sử dụng AI để chép đáp án mà không cần hiểu các bước giải toán",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

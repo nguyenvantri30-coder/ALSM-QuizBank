@@ -1,0 +1,692 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 25,
+    "metadata_used": {
+      "Định lí số đo góc nội tiếp bằng nửa số đo cung bị chắn": 2,
+      "Các hệ quả về góc nội tiếp chắn nửa đường tròn và góc nội tiếp cùng chắn một cung": 4,
+      "YCCD_TOAN9_078": 1,
+      "Tính số đo góc nội tiếp và số đo cung bị chắn": 9,
+      "YCCD_TOAN9_079": 1,
+      "Chứng minh các góc bằng nhau dựa vào góc nội tiếp": 3,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_TCTH_TUHOC_C2_01": 1,
+      "SUB_GQVD_DEXUAT_C2_02": 1,
+      "NLT_TOAN_C2_01_05": 1,
+      "NLT_TOAN_C2_01_08": 1
+    },
+    "types_used": {
+      "multichoice": 9,
+      "truefalse": 2,
+      "shortanswer": 2,
+      "numerical": 2,
+      "matching": 2,
+      "gapselect": 2,
+      "ddwtos": 2,
+      "calculatedsimple": 2,
+      "calculatedmulti": 2
+    },
+    "total": 25
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN9_078",
+        "reason": "Giải thích mối liên hệ giữa số đo cung bị chắn và số đo góc nội tiếp."
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_079",
+        "reason": "Giải thích mối liên hệ giữa số đo góc nội tiếp và số đo góc ở tâm cùng chắn một cung."
+      },
+      {
+        "metadata_code": "Định lí số đo góc nội tiếp bằng nửa số đo cung bị chắn",
+        "reason": "Nắm vững định lí số đo góc nội tiếp bằng nửa số đo cung bị chắn."
+      },
+      {
+        "metadata_code": "Các hệ quả về góc nội tiếp chắn nửa đường tròn và góc nội tiếp cùng chắn một cung",
+        "reason": "Nhận biết các hệ quả về góc nội tiếp chắn nửa đường tròn và góc nội tiếp cùng chắn một cung."
+      },
+      {
+        "metadata_code": "Tính số đo góc nội tiếp và số đo cung bị chắn",
+        "reason": "Tính số đo góc nội tiếp và số đo cung bị chắn trong các bài toán cụ thể."
+      },
+      {
+        "metadata_code": "Chứng minh các góc bằng nhau dựa vào góc nội tiếp",
+        "reason": "Chứng minh các góc bằng nhau dựa vào tính chất góc nội tiếp cùng chắn một cung."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đánh giá thái độ nỗ lực vươn lên trong giải bài tập về góc nội tiếp."
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+        "reason": "Đánh giá năng lực tự đặt mục tiêu học tập đối với kiến thức góc nội tiếp."
+      },
+      {
+        "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+        "reason": "Đề xuất giải pháp toán học dựa trên góc nội tiếp giải quyết vấn đề góc sút trong thực tế."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_05",
+        "reason": "Lập luận toán học chứng minh tam giác vuông nội tiếp đường tròn đường kính BC."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_08",
+        "reason": "Chứng minh mệnh đề hai tam giác đồng dạng dựa trên góc nội tiếp chắn cùng cung."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học Toán 9 về Góc nội tiếp thuần lý thuyết hình học không thuộc phạm vi tích hợp năng lực tin học/số."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Bài học không thuộc phạm vi tích hợp năng lực ứng dụng AI."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Định lí số đo góc nội tiếp bằng nửa số đo cung bị chắn",
+      "questiontext": "Trong một đường tròn, phát biểu nào sau đây đúng về định lí góc nội tiếp?",
+      "generalfeedback": "Theo định lí góc nội tiếp trong SGK: Trong một đường tròn, số đo của góc nội tiếp bằng nửa số đo của cung bị chắn.",
+      "answers": [
+        {
+          "text": "Số đo của góc nội tiếp bằng nửa số đo của cung bị chắn.",
+          "fraction": 100
+        },
+        {
+          "text": "Số đo của góc nội tiếp bằng số đo của cung bị chắn.",
+          "fraction": 0
+        },
+        {
+          "text": "Số đo của góc nội tiếp bằng hai lần số đo của cung bị chắn.",
+          "fraction": 0
+        },
+        {
+          "text": "Số đo của góc nội tiếp bằng một phần ba số đo của cung bị chắn.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Các hệ quả về góc nội tiếp chắn nửa đường tròn và góc nội tiếp cùng chắn một cung",
+      "questiontext": "Khẳng định sau đây đúng hay sai: \"Trong một đường tròn, góc nội tiếp chắn nửa đường tròn là góc vuông.\"",
+      "generalfeedback": "Theo hệ quả của định lí góc nội tiếp: Góc nội tiếp chắn nửa đường tròn là góc vuông (có số đo bằng \\(90^\\circ\\)). Khẳng định trên là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_078",
+      "questiontext": "Nếu góc nội tiếp \\(\\widehat{ACB}\\) chắn cung nhỏ \\(AB\\) có số đo bằng \\(80^\\circ\\) thì số đo của góc nội tiếp \\(\\widehat{ACB}\\) bằng bao nhiêu độ?",
+      "generalfeedback": "Số đo góc nội tiếp bằng nửa số đo của cung bị chắn: \\(\\widehat{ACB} = \\frac{1}{2} \\text{sđ}\\widehat{AB} = \\frac{1}{2} \\cdot 80^\\circ = 40^\\circ\\).",
+      "answers": [
+        {
+          "text": "40 độ",
+          "fraction": 100
+        },
+        {
+          "text": "40",
+          "fraction": 100
+        },
+        {
+          "text": "40°",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Tính số đo góc nội tiếp và số đo cung bị chắn",
+      "questiontext": "Cho đường tròn \\((O)\\) và góc ở tâm \\(\\widehat{AOB} = 110^\\circ\\) chắn cung nhỏ \\(AB\\). Tính số đo của góc nội tiếp \\(\\widehat{ACB}\\) cùng chắn cung nhỏ \\(AB\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Số đo góc nội tiếp chắn cung nhỏ bằng nửa số đo góc ở tâm cùng chắn cung đó: \\(\\widehat{ACB} = \\frac{1}{2} \\widehat{AOB} = \\frac{1}{2} \\cdot 110^\\circ = 55^\\circ\\). Giá trị điền vào là 55.",
+      "answers": [
+        {
+          "text": "55",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Các hệ quả về góc nội tiếp chắn nửa đường tròn và góc nội tiếp cùng chắn một cung",
+      "questiontext": "Ghép mỗi khẳng định ở cột bên trái với mối liên hệ góc / cung phù hợp ở cột bên phải đối với các góc nội tiếp trong cùng một đường tròn:",
+      "generalfeedback": "Dựa vào định lí và các nhận xét hệ quả về góc nội tiếp:\n- Các góc nội tiếp cùng chắn một cung thì bằng nhau.\n- Góc nội tiếp chắn nửa đường tròn thì có số đo bằng 90°.\n- Góc nội tiếp chắn cung nhỏ có số đo bằng nửa số đo của góc ở tâm chắn cùng cung.",
+      "subquestions": [
+        {
+          "question": "Các góc nội tiếp cùng chắn một cung",
+          "answer": "bằng nhau"
+        },
+        {
+          "question": "Góc nội tiếp chắn nửa đường tròn",
+          "answer": "là góc vuông"
+        },
+        {
+          "question": "Góc nội tiếp chắn cung nhỏ",
+          "answer": "bằng nửa số đo góc ở tâm chắn cùng cung"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_079",
+      "questiontext": "Trong một đường tròn, số đo của góc nội tiếp chắn cung nhỏ bằng [[1]] số đo của góc ở tâm cùng chắn một cung. Do đó, nếu góc ở tâm chắn cung nhỏ có số đo là \\(120^\\circ\\) thì góc nội tiếp cùng chắn cung đó có số đo là [[2]].",
+      "generalfeedback": "Số đo góc nội tiếp bằng nửa số đo góc ở tâm cùng chắn cung nhỏ, nên góc nội tiếp bằng \\(120^\\circ / 2 = 60^\\circ\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "một nửa"
+        },
+        {
+          "group": 1,
+          "text": "hai lần"
+        },
+        {
+          "group": 1,
+          "text": "60°"
+        },
+        {
+          "group": 1,
+          "text": "120°"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Định lí số đo góc nội tiếp bằng nửa số đo cung bị chắn",
+      "questiontext": "Trong đường tròn \\((O)\\), góc nội tiếp \\(\\widehat{ACB}\\) có đỉnh \\(C\\) nằm trên đường tròn và hai cạnh chứa hai [[1]] của đường tròn đó. Số đo của góc \\(\\widehat{ACB}\\) bằng nửa số đo của [[2]].",
+      "generalfeedback": "Theo định nghĩa và định lí góc nội tiếp: Góc nội tiếp có đỉnh nằm trên đường tròn và hai cạnh chứa hai dây cung của đường tròn. Số đo góc nội tiếp bằng nửa số đo của cung bị chắn.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "dây cung"
+        },
+        {
+          "group": 1,
+          "text": "bán kính"
+        },
+        {
+          "group": 1,
+          "text": "cung bị chắn"
+        },
+        {
+          "group": 1,
+          "text": "đường kính"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Tính số đo góc nội tiếp và số đo cung bị chắn",
+      "questiontext": "Cho đường tròn (O). Cho biết số đo của góc ở tâm AOB chắn cung nhỏ AB là {a} độ. Tính số đo của góc nội tiếp ACB chắn cùng cung nhỏ AB. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Góc nội tiếp chắn cung nhỏ bằng nửa số đo góc ở tâm chắn cùng cung đó. Số đo góc nội tiếp bằng {a} / 2.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 20.0,
+          "max": 160.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}/2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "Tính số đo góc nội tiếp và số đo cung bị chắn",
+      "questiontext": "Cho đường tròn (O) có góc nội tiếp ACB chắn cung nhỏ AB với số đo bằng {x} độ. Chọn công thức tính số đo góc ở tâm AOB chắn cùng cung nhỏ AB.",
+      "generalfeedback": "Góc ở tâm có số đo gấp hai lần số đo góc nội tiếp cùng chắn một cung: góc AOB = 2 * {x}.",
+      "wildcards": [
+        {
+          "name": "x",
+          "min": 10.0,
+          "max": 80.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "2*{x}",
+          "fraction": 100
+        },
+        {
+          "text": "{x}/2",
+          "fraction": 0
+        },
+        {
+          "text": "{x}",
+          "fraction": 0
+        },
+        {
+          "text": "{x}+90",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Chứng minh các góc bằng nhau dựa vào góc nội tiếp",
+      "imgs": [
+        "_page_3_Picture_6.jpeg"
+      ],
+      "questiontext": "[img:_page_3_Picture_6.jpeg] Cho đường tròn \\((O)\\) và các điểm \\(A, B, C, D\\) trên \\((O)\\) như trong hình. Biết rằng \\(\\widehat{BAC} = 60^\\circ\\). Số đo của góc \\(\\widehat{BDC}\\) và góc ở tâm \\(\\widehat{BOC}\\) lần lượt là bao nhiêu?",
+      "generalfeedback": "Vì hai góc nội tiếp \\(\\widehat{BDC}\\) và \\(\\widehat{BAC}\\) cùng chắn cung nhỏ \\(BC\\) nên \\(\\widehat{BDC} = \\widehat{BAC} = 60^\\circ\\).\nVì góc nội tiếp \\(\\widehat{BAC}\\) và góc ở tâm \\(\\widehat{BOC}\\) cùng chắn cung nhỏ \\(BC\\) nên \\(\\widehat{BOC} = 2\\widehat{BAC} = 120^\\circ\\).",
+      "answers": [
+        {
+          "text": "\\(\\widehat{BDC} = 60^\\circ\\) và \\(\\widehat{BOC} = 120^\\circ\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\widehat{BDC} = 120^\\circ\\) và \\(\\widehat{BOC} = 60^\\circ\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\widehat{BDC} = 60^\\circ\\) và \\(\\widehat{BOC} = 60^\\circ\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\widehat{BDC} = 30^\\circ\\) và \\(\\widehat{BOC} = 120^\\circ\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Các hệ quả về góc nội tiếp chắn nửa đường tròn và góc nội tiếp cùng chắn một cung",
+      "questiontext": "Khẳng định sau đây đúng hay sai: \"Hai góc nội tiếp bằng nhau trong một đường tròn thì chắn hai cung bằng nhau.\"",
+      "generalfeedback": "Theo nhận xét từ định lí góc nội tiếp: Trong một đường tròn hoặc hai đường tròn bằng nhau, các góc nội tiếp bằng nhau chắn các cung bằng nhau. Do đó khẳng định này là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Các hệ quả về góc nội tiếp chắn nửa đường tròn và góc nội tiếp cùng chắn một cung",
+      "questiontext": "Khẳng định nào sau đây là SAI khi nói về các góc nội tiếp trong cùng một đường tròn?",
+      "generalfeedback": "Góc nội tiếp chắn cung nhỏ có số đo bằng NỬA số đo của góc ở tâm chắn cùng một cung, chứ không bằng số đo góc ở tâm. Vì vậy khẳng định 'Góc nội tiếp chắn cung nhỏ có số đo bằng số đo của góc ở tâm chắn cùng một cung' là sai.",
+      "answers": [
+        {
+          "text": "Góc nội tiếp chắn cung nhỏ có số đo bằng số đo của góc ở tâm chắn cùng một cung.",
+          "fraction": 100
+        },
+        {
+          "text": "Các góc nội tiếp cùng chắn một cung thì bằng nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Góc nội tiếp chắn nửa đường tròn là góc vuông.",
+          "fraction": 0
+        },
+        {
+          "text": "Các góc nội tiếp bằng nhau thì chắn các cung bằng nhau.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Tính số đo góc nội tiếp và số đo cung bị chắn",
+      "imgs": [
+        "_page_4_Picture_1.jpeg"
+      ],
+      "questiontext": "[img:_page_4_Picture_1.jpeg] Cho đường tròn \\((O)\\) và ba điểm \\(A, B, C\\) nằm trên \\((O)\\) như hình vẽ. Biết \\(\\widehat{AOB} = 120^\\circ\\) và \\(\\widehat{BOC} = 80^\\circ\\). Tính số đo góc \\(\\widehat{ACB}\\).",
+      "generalfeedback": "Vì góc nội tiếp \\(\\widehat{ACB}\\) chắn cung nhỏ \\(AB\\) và góc ở tâm \\(\\widehat{AOB} = 120^\\circ\\) cùng chắn cung nhỏ \\(AB\\) nên \\(\\widehat{ACB} = \\frac{1}{2}\\widehat{AOB} = \\frac{1}{2} \\cdot 120^\\circ = 60^\\circ\\).",
+      "answers": [
+        {
+          "text": "60 độ",
+          "fraction": 100
+        },
+        {
+          "text": "60",
+          "fraction": 100
+        },
+        {
+          "text": "60°",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính số đo góc nội tiếp và số đo cung bị chắn",
+      "imgs": [
+        "_page_4_Picture_1.jpeg"
+      ],
+      "questiontext": "[img:_page_4_Picture_1.jpeg] Cho đường tròn \\((O)\\) và ba điểm \\(A, B, C\\) nằm trên \\((O)\\) như hình vẽ. Biết \\(\\widehat{AOB} = 120^\\circ\\) và \\(\\widehat{BOC} = 80^\\circ\\). Tính số đo góc \\(\\widehat{BAC}\\). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Góc nội tiếp \\(\\widehat{BAC}\\) chắn cung nhỏ \\(BC\\), mà góc ở tâm \\(\\widehat{BOC} = 80^\\circ\\) cùng chắn cung nhỏ \\(BC\\). Do đó \\(\\widehat{BAC} = \\frac{1}{2}\\widehat{BOC} = \\frac{1}{2} \\cdot 80^\\circ = 40^\\circ\\).",
+      "answers": [
+        {
+          "text": "40",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Tính số đo góc nội tiếp và số đo cung bị chắn",
+      "imgs": [
+        "_page_4_Picture_3.jpeg"
+      ],
+      "questiontext": "[img:_page_4_Picture_3.jpeg] Cho đường tròn \\((O)\\) và hai dây cung \\(AC, BD\\) cắt nhau tại \\(X\\). Biết \\(\\widehat{ADB} = 30^\\circ\\) và \\(\\widehat{DBC} = 50^\\circ\\). Tính số đo góc \\(\\widehat{AXB}\\).",
+      "generalfeedback": "Trong \\(\\triangle DXB\\), góc \\(\\widehat{AXB}\\) là góc ngoài tại đỉnh \\(X\\) nên \\(\\widehat{AXB} = \\widehat{XDB} + \\widehat{XBD} = \\widehat{ADB} + \\widehat{DBC} = 30^\\circ + 50^\\circ = 80^\\circ\\).",
+      "answers": [
+        {
+          "text": "80°",
+          "fraction": 100
+        },
+        {
+          "text": "20°",
+          "fraction": 0
+        },
+        {
+          "text": "100°",
+          "fraction": 0
+        },
+        {
+          "text": "150°",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh các góc bằng nhau dựa vào góc nội tiếp",
+      "imgs": [
+        "_page_3_Picture_12.jpeg"
+      ],
+      "questiontext": "[img:_page_3_Picture_12.jpeg] Cho đường tròn \\((O)\\) và hai dây cung \\(AB, CD\\) cắt nhau tại điểm \\(X\\) nằm bên trong đường tròn. Hãy ghép mỗi góc ở tam giác \\(\\triangle AXC\\) với góc bằng nó ở tam giác \\(\\triangle DXB\\):",
+      "generalfeedback": "- \\(\\widehat{CAX} = \\widehat{BDX}\\) (hai góc nội tiếp cùng chắn cung \\(BC\\)).\n- \\(\\widehat{ACX} = \\widehat{DBX}\\) (hai góc nội tiếp cùng chắn cung \\(AD\\)).\n- \\(\\widehat{AXC} = \\widehat{DXB}\\) (hai góc đối đỉnh).",
+      "subquestions": [
+        {
+          "question": "Góc CAX",
+          "answer": "bằng góc BDX (cùng chắn cung BC)"
+        },
+        {
+          "question": "Góc ACX",
+          "answer": "bằng góc DBX (cùng chắn cung AD)"
+        },
+        {
+          "question": "Góc AXC",
+          "answer": "bằng góc DXB (hai góc đối đỉnh)"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "van_dung",
+      "metadata_code": "Chứng minh các góc bằng nhau dựa vào góc nội tiếp",
+      "imgs": [
+        "_page_4_Picture_11.jpeg"
+      ],
+      "questiontext": "[img:_page_4_Picture_11.jpeg] Cho đường tròn \\((O)\\) đường kính \\(AB\\). Gọi \\(M, N\\) là hai điểm trên \\((O)\\) sao cho \\(AN\\) cắt \\(BM\\) tại \\(P\\). Ta có \\(\\widehat{AMB} =\\) [[1]] và \\(\\widehat{ANB} =\\) [[2]] vì đây là các góc nội tiếp chắn nửa đường tròn.",
+      "generalfeedback": "Góc nội tiếp chắn nửa đường tròn là góc vuông nên \\(\\widehat{AMB} = 90^\\circ\\) và \\(\\widehat{ANB} = 90^\\circ\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "90°"
+        },
+        {
+          "group": 1,
+          "text": "60°"
+        },
+        {
+          "group": 1,
+          "text": "180°"
+        },
+        {
+          "group": 1,
+          "text": "45°"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "Tính số đo góc nội tiếp và số đo cung bị chắn",
+      "questiontext": "Cho đường tròn \\((O)\\) bán kính \\(R = 2\\text{ cm}\\) và dây cung \\(BC = 2\\sqrt{2}\\text{ cm}\\). Tam giác \\(BOC\\) vuông tại [[1]] vì \\(OB^2 + OC^2 = 2^2 + 2^2 = 8 = BC^2\\). Do đó số đo góc ở tâm \\(\\widehat{BOC} =\\) [[2]].",
+      "generalfeedback": "Tam giác BOC có OB = OC = 2 cm, BC = 2√2 cm. Áp dụng định lí Pitago đảo: OB^2 + OC^2 = 8 = BC^2 nên tam giác BOC vuông tại O, góc BOC = 90°.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "O"
+        },
+        {
+          "group": 1,
+          "text": "B"
+        },
+        {
+          "group": 1,
+          "text": "90°"
+        },
+        {
+          "group": 1,
+          "text": "180°"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Tính số đo góc nội tiếp và số đo cung bị chắn",
+      "questiontext": "Cho góc ở tâm AOB có số đo là {b} độ. Góc nội tiếp ACB cùng chắn cung nhỏ AB sẽ có số đo là bao nhiêu độ? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Số đo góc nội tiếp chắn cung nhỏ bằng một nửa số đo góc ở tâm cùng chắn cung đó: {b} / 2.",
+      "wildcards": [
+        {
+          "name": "b",
+          "min": 30.0,
+          "max": 170.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{b}/2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "Tính số đo góc nội tiếp và số đo cung bị chắn",
+      "questiontext": "Cho góc nội tiếp ACB chắn cung nhỏ AB với số đo bằng {y} độ. Chọn biểu thức tính số đo cung bị chắn AB.",
+      "generalfeedback": "Số đo cung bị chắn gấp 2 lần số đo góc nội tiếp chắn cung đó: 2 * {y}.",
+      "wildcards": [
+        {
+          "name": "y",
+          "min": 15.0,
+          "max": 85.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "2*{y}",
+          "fraction": 100
+        },
+        {
+          "text": "{y}/2",
+          "fraction": 0
+        },
+        {
+          "text": "{y}",
+          "fraction": 0
+        },
+        {
+          "text": "{y}+180",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ học hình học về \"Góc nội tiếp\", khi gặp bài toán chứng minh hai góc nội tiếp bằng nhau cùng chắn một cung nhưng chưa tìm ra hướng giải ngay, hành vi nào sau đây thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập?",
+      "generalfeedback": "Hành vi kiên trì, chủ động xem lại kiến thức định lí và hệ quả góc nội tiếp trong SGK để suy luận, kết hợp trao đổi thảo luận thể hiện sự nỗ lực vươn lên và thái độ học tập tích cực (Q1).",
+      "answers": [
+        {
+          "text": "Chủ động xem lại định lí và các hệ quả về góc nội tiếp trong SGK, kiên trì suy luận và trao đổi thảo luận với bạn bè để tìm cách giải.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài toán đó và chờ giáo viên sửa bài để chép vào vở.",
+          "fraction": 0
+        },
+        {
+          "text": "Mượn ngay bài làm của bạn khác để chép cho xong nhiệm vụ.",
+          "fraction": 0
+        },
+        {
+          "text": "Đóng sách vở lại và không tiếp tục suy nghĩ về bài toán nữa.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Để nắm vững và vận dụng thành thạo kiến thức bài \"Góc nội tiếp\", học sinh nào sau đây đã tự đặt mục tiêu học tập cụ thể và phù hợp nhất?",
+      "generalfeedback": "Xác định mục tiêu học tập cụ thể gồm nắm vững lý thuyết (định nghĩa, định lí, hệ quả) và luyện tập tự giải bài tập vận dụng thể hiện năng lực tự đặt mục tiêu học tập (G1).",
+      "answers": [
+        {
+          "text": "Đặt mục tiêu hiểu rõ định nghĩa góc nội tiếp, thuộc định lí và 4 hệ quả, sau đó tự giải các bài tập vận dụng tính số đo góc và chứng minh hình học.",
+          "fraction": 100
+        },
+        {
+          "text": "Đặt mục tiêu chỉ thuộc lòng định nghĩa góc nội tiếp để trả lời kiểm tra miệng mà không cần làm bài tập.",
+          "fraction": 0
+        },
+        {
+          "text": "Đặt mục tiêu chép đủ lời giải các bài tập trong SGK từ sách giải mà không cần hiểu cách chứng minh.",
+          "fraction": 0
+        },
+        {
+          "text": "Đặt mục tiêu đạt điểm tối đa trong kì thi nhưng không lập kế hoạch học tập hay ôn luyện bài tập.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Trong bài toán thực tế (Hình 9.11 SGK), quả bóng đặt tại điểm phạt đền có góc sút bằng \\(36^\\circ\\) hướng vào khung thành. Một cầu thủ muốn tìm các vị trí khác trên sân cũng có cùng góc sút \\(36^\\circ\\) hướng vào khung thành đó. Giải pháp toán học nào sau đây giúp giải quyết vấn đề trên?",
+      "generalfeedback": "Áp dụng tính chất 'các góc nội tiếp cùng chắn một cung thì bằng nhau', các điểm nằm trên cung chứa góc \\(36^\\circ\\) dựng trên đoạn thẳng nối hai cọc gôn (đi qua điểm phạt đền) đều cho góc sút \\(36^\\circ\\). Đây là giải pháp đề xuất dựa trên kiến thức góc nội tiếp (G2).",
+      "answers": [
+        {
+          "text": "Xác định đường tròn đi qua hai cọc gôn và điểm phạt đền; khi đó các điểm nằm trên cung chứa góc đi qua điểm phạt đền đều có góc sút \\(36^\\circ\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Chọn bất kỳ vị trí nào trên sân bóng miễn là khoảng cách từ đó đến hai cọc gôn bằng nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Lấy các điểm nằm trên đường thẳng đi qua điểm phạt đền và song song với đường biên ngang.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ có duy nhất điểm phạt đền mới có góc sút \\(36^\\circ\\), không có vị trí nào khác trên sân.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_05",
+      "questiontext": "Cho tam giác \\(ABC\\) nội tiếp đường tròn \\((O)\\) có cạnh \\(BC\\) là đường kính của đường tròn. Lập luận nào sau đây là đúng và chặt chẽ nhất để chứng minh tam giác \\(ABC\\) vuông tại \\(A\\)?",
+      "generalfeedback": "Lập luận dựa trên hệ quả định lí góc nội tiếp: Góc nội tiếp \\(\\widehat{BAC}\\) chắn nửa đường tròn (đường kính \\(BC\\)) nên \\(\\widehat{BAC} = 90^\\circ\\), suy ra tam giác \\(ABC\\) vuông tại \\(A\\) (D1).",
+      "answers": [
+        {
+          "text": "Vì \\(\\widehat{BAC}\\) là góc nội tiếp chắn nửa đường tròn \\((O)\\) nên \\(\\widehat{BAC} = 90^\\circ\\), suy ra tam giác \\(ABC\\) vuông tại \\(A\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Vì \\(BC\\) là đường kính nên điểm \\(A\\) nằm ngoài đường tròn, suy ra góc \\(A\\) bằng \\(90^\\circ\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Vì tam giác \\(ABC\\) nội tiếp đường tròn nên ba góc của tam giác luôn có số đo bằng \\(60^\\circ\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Vì \\(O\\) là trung điểm của \\(BC\\) nên \\(OA = OB = OC\\), suy ra góc \\(B\\) và góc \\(C\\) đều bằng \\(90^\\circ\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_08",
+      "imgs": [
+        "_page_3_Picture_12.jpeg"
+      ],
+      "questiontext": "[img:_page_3_Picture_12.jpeg] Cho đường tròn \\((O)\\) và hai dây cung \\(AB, CD\\) cắt nhau tại điểm \\(X\\) nằm bên trong đường tròn. Để chứng minh hai tam giác \\(\\triangle AXC\\) và \\(\\triangle DXB\\) đồng dạng, chuỗi chứng minh nào sau đây là hoàn chỉnh và chính xác?",
+      "generalfeedback": "Xét \\(\\triangle AXC\\) và \\(\\triangle DXB\\): có \\(\\widehat{CAX} = \\widehat{BDX}\\) (hai góc nội tiếp cùng chắn cung \\(BC\\)) và \\(\\widehat{ACX} = \\widehat{DBX}\\) (hai góc nội tiếp cùng chắn cung \\(AD\\)). Do đó \\(\\triangle AXC \\sim \\triangle DXB\\) (g.g). Đây là lập luận chứng minh mệnh đề toán học (D2).",
+      "answers": [
+        {
+          "text": "Ta có \\(\\widehat{CAX} = \\widehat{BDX}\\) (cùng chắn cung \\(BC\\)) và \\(\\widehat{ACX} = \\widehat{DBX}\\) (cùng chắn cung \\(AD\\)), suy ra \\(\\triangle AXC \\sim \\triangle DXB\\) (g.g).",
+          "fraction": 100
+        },
+        {
+          "text": "Ta có \\(AX = DX\\) và \\(CX = BX\\) nên \\(\\triangle AXC \\sim \\triangle DXB\\) (c.g.c).",
+          "fraction": 0
+        },
+        {
+          "text": "Ta có \\(\\widehat{AXC} = \\widehat{DXB}\\) (hai góc đối đỉnh) và \\(AC = BD\\) nên \\(\\triangle AXC \\sim \\triangle DXB\\) (c.g.c).",
+          "fraction": 0
+        },
+        {
+          "text": "Ta có \\(O\\) là giao điểm hai đường chéo nên \\(AX = XB\\) và \\(CX = XD\\), suy ra hai tam giác bằng nhau.",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

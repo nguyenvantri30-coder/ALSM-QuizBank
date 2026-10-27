@@ -1,0 +1,447 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 17,
+    "metadata_used": {
+      "Điều kiện hai đường thẳng y = ax + b và y = a'x + b' song song với nhau (a = a', b khác b')": 2,
+      "Điều kiện hai đường thẳng trùng nhau (a = a', b = b')": 1,
+      "Điều kiện hai đường thẳng cắt nhau (a khác a')": 1,
+      "Nhận biết vị trí tương đối giữa hai đường thẳng (song song, trùng nhau, cắt nhau)": 4,
+      "Tìm điều kiện của tham số để hai đường thẳng song song hoặc cắt nhau": 6,
+      "Xác định tọa độ giao điểm của hai đường thẳng cắt nhau": 2,
+      "YCCD_TOAN8_042": 2,
+      "YCCD_TOAN8_043": 2
+    },
+    "types_used": {
+      "multichoice": 7,
+      "truefalse": 2,
+      "matching": 2,
+      "gapselect": 1,
+      "shortanswer": 2,
+      "numerical": 2,
+      "ddwtos": 1
+    },
+    "total": 17
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN8_042",
+        "reason": "Được đo lường qua câu hỏi điền khuyết nhận biết sự song song của hai đường thẳng bằng hệ số góc."
+      },
+      {
+        "metadata_code": "YCCD_TOAN8_043",
+        "reason": "Được đo lường qua câu hỏi trắc nghiệm giải thích lý do hai đường thẳng cắt nhau."
+      },
+      {
+        "metadata_code": "Điều kiện hai đường thẳng y = ax + b và y = a'x + b' song song với nhau (a = a', b khác b')",
+        "reason": "Được đo lường qua câu hỏi trắc nghiệm về điều kiện hai đường thẳng song song."
+      },
+      {
+        "metadata_code": "Điều kiện hai đường thẳng trùng nhau (a = a', b = b')",
+        "reason": "Được đo lường qua câu hỏi Đúng/Sai về điều kiện hai đường thẳng trùng nhau."
+      },
+      {
+        "metadata_code": "Điều kiện hai đường thẳng cắt nhau (a khác a')",
+        "reason": "Được đo lường qua câu hỏi trắc nghiệm về điều kiện hai đường thẳng cắt nhau."
+      },
+      {
+        "metadata_code": "Nhận biết vị trí tương đối giữa hai đường thẳng (song song, trùng nhau, cắt nhau)",
+        "reason": "Được đo lường qua câu hỏi ghép đôi và kéo thả chữ xác định vị trí tương đối giữa các cặp đường thẳng."
+      },
+      {
+        "metadata_code": "Tìm điều kiện của tham số để hai đường thẳng song song hoặc cắt nhau",
+        "reason": "Được đo lường qua các câu hỏi trả lời ngắn tìm tham số m để hai đường thẳng song song hoặc cắt nhau."
+      },
+      {
+        "metadata_code": "Xác định tọa độ giao điểm của hai đường thẳng cắt nhau",
+        "reason": "Được đo lường qua câu hỏi dạng số tìm hoành độ giao điểm của hai đường thẳng cắt nhau."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "SUB_GQVD_PHATHIEN_C2_01",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_05",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_05",
+        "reason": "Sẽ xử lý ở bước riêng"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Điều kiện hai đường thẳng y = ax + b và y = a'x + b' song song với nhau (a = a', b khác b')",
+      "questiontext": "Hai đường thẳng \\(y = ax + b\\) \\((a \\neq 0)\\) và \\(y = a'x + b'\\) \\((a' \\neq 0)\\) song song với nhau khi và chỉ khi:",
+      "generalfeedback": "Theo lý thuyết, hai đường thẳng \\(y = ax + b\\) \\((a \\neq 0)\\) và \\(y = a'x + b'\\) \\((a' \\neq 0)\\) song song với nhau khi \\(a = a'\\) và \\(b \\neq b'\\).",
+      "answers": [
+        {
+          "text": "\\(a = a'\\) và \\(b \\neq b'\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(a = a'\\) và \\(b = b'\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a \\neq a'\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a \\neq a'\\) và \\(b = b'\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Điều kiện hai đường thẳng cắt nhau (a khác a')",
+      "questiontext": "Hai đường thẳng \\(y = ax + b\\) \\((a \\neq 0)\\) và \\(y = a'x + b'\\) \\((a' \\neq 0)\\) cắt nhau khi và chỉ khi:",
+      "generalfeedback": "Hai đường thẳng \\(y = ax + b\\) \\((a \\neq 0)\\) và \\(y = a'x + b'\\) \\((a' \\neq 0)\\) cắt nhau khi và chỉ khi \\(a \\neq a'\\).",
+      "answers": [
+        {
+          "text": "\\(a \\neq a'\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(a = a'\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a = a'\\) và \\(b \\neq b'\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a = a'\\) và \\(b = b'\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Điều kiện hai đường thẳng trùng nhau (a = a', b = b')",
+      "questiontext": "Hai đường thẳng \\(y = ax + b\\) \\((a \\neq 0)\\) và \\(y = a'x + b'\\) \\((a' \\neq 0)\\) trùng nhau khi \\(a = a'\\) và \\(b = b'\\).",
+      "generalfeedback": "Đúng. Hai đường thẳng trùng nhau khi và chỉ khi hệ số góc bằng nhau (\\(a = a'\\)) và tung độ gốc bằng nhau (\\(b = b'\\)).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết vị trí tương đối giữa hai đường thẳng (song song, trùng nhau, cắt nhau)",
+      "questiontext": "Ghép mỗi cặp đường thẳng ở cột bên trái với vị trí tương đối tương ứng ở cột bên phải:",
+      "generalfeedback": "Cặp 1 có \\(a = a' = 2\\) và \\(1 \\neq -3\\) nên song song. Cặp 2 có \\(a = 2 \\neq a' = -1\\) nên cắt nhau. Cặp 3 có \\(a = a' = 2\\) và \\(b = b' = 1\\) nên trùng nhau.",
+      "subquestions": [
+        {
+          "question": "\\(y = 2x + 1\\) và \\(y = 2x - 3\\)",
+          "answer": "Song song với nhau"
+        },
+        {
+          "question": "\\(y = 2x + 1\\) và \\(y = -x + 1\\)",
+          "answer": "Cắt nhau"
+        },
+        {
+          "question": "\\(y = 2x + 1\\) và \\(y = 2x + 1\\)",
+          "answer": "Trùng nhau"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_042",
+      "questiontext": "Đường thẳng \\(y = 2x + 1\\) và đường thẳng \\(y = 2x - 5\\) [[1]] với nhau vì có hệ số góc bằng nhau và tung độ gốc [[2]].",
+      "generalfeedback": "Hai đường thẳng có hệ số góc bằng nhau (\\(a = a' = 2\\)) và tung độ gốc khác nhau (\\(1 \\neq -5\\)) thì song song với nhau.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "song song"
+        },
+        {
+          "group": 1,
+          "text": "cắt nhau"
+        },
+        {
+          "group": 1,
+          "text": "khác nhau"
+        },
+        {
+          "group": 1,
+          "text": "bằng nhau"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm điều kiện của tham số để hai đường thẳng song song hoặc cắt nhau",
+      "questiontext": "Tìm giá trị của \\(m\\) để đường thẳng \\(y = (m + 1)x + 2\\) \\((m \\neq -1)\\) song song với đường thẳng \\(y = -2x + 1\\).",
+      "generalfeedback": "Hai đường thẳng song song khi \\(m + 1 = -2 \\Leftrightarrow m = -3\\) (thỏa mãn \\(m \\neq -1\\)).",
+      "answers": [
+        {
+          "text": "m = -3",
+          "fraction": 100
+        },
+        {
+          "text": "-3",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_043",
+      "questiontext": "Vì sao hai đường thẳng \\(y = -x + 1\\) và \\(y = -2x + 1\\) cắt nhau?",
+      "generalfeedback": "Hai đường thẳng \\(y = ax + b\\) và \\(y = a'x + b'\\) cắt nhau vì hệ số góc \\(a \\neq a'\\) (ở đây \\(-1 \\neq -2\\)).",
+      "answers": [
+        {
+          "text": "Vì hệ số góc của hai đường thẳng khác nhau (\\(-1 \\neq -2\\)).",
+          "fraction": 100
+        },
+        {
+          "text": "Vì hai đường thẳng có cùng tung độ gốc bằng 1.",
+          "fraction": 0
+        },
+        {
+          "text": "Vì hệ số góc của hai đường thẳng bằng nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Vì hai đường thẳng cùng đi qua gốc tọa độ.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Xác định tọa độ giao điểm của hai đường thẳng cắt nhau",
+      "questiontext": "Cho hai đường thẳng \\(y = x\\) và \\(y = -x + 2\\). Tìm hoành độ giao điểm \\(x\\) của hai đường thẳng đó. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Phương trình hoành độ giao điểm: \\(x = -x + 2 \\Leftrightarrow 2x = 2 \\Leftrightarrow x = 1\\).",
+      "answers": [
+        {
+          "text": "1",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết vị trí tương đối giữa hai đường thẳng (song song, trùng nhau, cắt nhau)",
+      "imgs": [
+        "_page_2_Figure_6.jpeg"
+      ],
+      "questiontext": "Cho hình vẽ minh họa vị trí tương đối của hai đường thẳng [img:_page_2_Figure_6.jpeg]. Trong hình vẽ, hai đường thẳng \\(y = a'x + b'\\) và \\(y = ax + b\\) là hai đường thẳng [[1]] với nhau vì chúng có cùng [[2]].",
+      "generalfeedback": "Quan sát Hình 7.16, hai đường thẳng tạo với trục Ox các góc bằng nhau, tức là có cùng hệ số góc và tung độ gốc khác nhau, nên hai đường thẳng song song với nhau.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "song song"
+        },
+        {
+          "group": 1,
+          "text": "cắt nhau"
+        },
+        {
+          "group": 1,
+          "text": "hệ số góc"
+        },
+        {
+          "group": 1,
+          "text": "tung độ gốc"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm điều kiện của tham số để hai đường thẳng song song hoặc cắt nhau",
+      "questiontext": "Cho hai hàm số bậc nhất \\(y = 2mx + 1\\) và \\(y = (m - 1)x + 2\\). Giá trị của \\(m\\) để đồ thị của hai hàm số là hai đường thẳng song song với nhau là:",
+      "generalfeedback": "Hai đường thẳng song song khi \\(2m = m - 1 \\Leftrightarrow m = -1\\). Với \\(m = -1\\), các hệ số góc bằng \\(-2 \\neq 0\\) và \\(m - 1 = -2 \\neq 0\\), thỏa mãn điều kiện hàm số bậc nhất.",
+      "answers": [
+        {
+          "text": "\\(m = -1\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(m = 1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(m = 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(m = -2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm điều kiện của tham số để hai đường thẳng song song hoặc cắt nhau",
+      "questiontext": "Cho hai hàm số bậc nhất \\(y = 2mx + 1\\) và \\(y = (m - 1)x + 2\\). Điều kiện của \\(m\\) để đồ thị của hai hàm số là hai đường thẳng cắt nhau là:",
+      "generalfeedback": "Hai đường thẳng cắt nhau khi \\(2m \\neq m - 1 \\Leftrightarrow m \\neq -1\\). Đồng thời để là hàm số bậc nhất thì \\(2m \\neq 0 \\Leftrightarrow m \\neq 0\\) và \\(m - 1 \\neq 0 \\Leftrightarrow m \\neq 1\\). Do đó \\(m \\neq 0\\), \\(m \\neq 1\\) và \\(m \\neq -1\\).",
+      "answers": [
+        {
+          "text": "\\(m \\neq 0\\), \\(m \\neq 1\\) và \\(m \\neq -1\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(m \\neq -1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(m \\neq 0\\) và \\(m \\neq 1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(m = -1\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Tìm điều kiện của tham số để hai đường thẳng song song hoặc cắt nhau",
+      "questiontext": "Tìm hệ số góc \\(a\\) của hàm số bậc nhất \\(y = ax + b\\) có đồ thị song song với đường thẳng \\(y = -3x + 1\\).",
+      "generalfeedback": "Hai đường thẳng song song có hệ số góc bằng nhau nên \\(a = -3\\).",
+      "answers": [
+        {
+          "text": "-3",
+          "fraction": 100
+        },
+        {
+          "text": "a = -3",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_042",
+      "questiontext": "Hai đường thẳng \\(y = -3x + 1\\) và \\(y = -3x + 6\\) song song với nhau.",
+      "generalfeedback": "Đúng. Hai đường thẳng có hệ số góc bằng nhau (\\(a = a' = -3\\)) và tung độ gốc khác nhau (\\(1 \\neq 6\\)) nên song song với nhau.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Xác định tọa độ giao điểm của hai đường thẳng cắt nhau",
+      "questiontext": "Tìm tung độ giao điểm \\(y\\) của hai đường thẳng \\(y = x\\) và \\(y = -x + 2\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Hoành độ giao điểm là nghiệm của phương trình \\(x = -x + 2 \\Leftrightarrow 2x = 2 \\Leftrightarrow x = 1\\). Thay \\(x = 1\\) vào \\(y = x\\) ta được \\(y = 1\\).",
+      "answers": [
+        {
+          "text": "1",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết vị trí tương đối giữa hai đường thẳng (song song, trùng nhau, cắt nhau)",
+      "questiontext": "Ghép mỗi đường thẳng ở cột bên trái với đường thẳng song song tương ứng ở cột bên phải:",
+      "generalfeedback": "Các đường thẳng song song có cùng hệ số góc và tung độ gốc khác nhau.",
+      "subquestions": [
+        {
+          "question": "\\(y = -x + 1\\)",
+          "answer": "\\(y = -x\\)"
+        },
+        {
+          "question": "\\(y = -2x + 1\\)",
+          "answer": "\\(y = -2x + 2\\)"
+        },
+        {
+          "question": "\\(y = 3x - 1\\)",
+          "answer": "\\(y = 3x + 4\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm điều kiện của tham số để hai đường thẳng song song hoặc cắt nhau",
+      "questiontext": "Cho hai hàm số bậc nhất \\(y = mx - 5\\) và \\(y = (2m + 1)x + 3\\). Giá trị của \\(m\\) để đồ thị của hai hàm số là hai đường thẳng song song với nhau là:",
+      "generalfeedback": "Hai đường thẳng song song khi \\(m = 2m + 1 \\Leftrightarrow m = -1\\). Kiểm tra điều kiện hàm số bậc nhất: \\(m = -1 \\neq 0\\) và \\(2m + 1 = -1 \\neq 0\\) (thỏa mãn).",
+      "answers": [
+        {
+          "text": "\\(m = -1\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(m = 1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(m = -0,5\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(m = 0\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Điều kiện hai đường thẳng y = ax + b và y = a'x + b' song song với nhau (a = a', b khác b')",
+      "questiontext": "Hai đường thẳng phân biệt có cùng hệ số góc \\(a = a'\\) thì:",
+      "generalfeedback": "Hai đường thẳng phân biệt cùng hệ số góc là hai đường thẳng song song. Hai đường thẳng song song thì không cắt nhau tại bất kỳ điểm nào, nên không thể có cùng giao điểm với trục Ox hay Oy.",
+      "answers": [
+        {
+          "text": "Không thể cùng giao điểm với trục Ox và không thể cùng giao điểm với trục Oy.",
+          "fraction": 100
+        },
+        {
+          "text": "Cùng giao điểm với trục Ox nhưng khác giao điểm với trục Oy.",
+          "fraction": 0
+        },
+        {
+          "text": "Cùng giao điểm với trục Oy nhưng khác giao điểm với trục Ox.",
+          "fraction": 0
+        },
+        {
+          "text": "Có cùng giao điểm với cả trục Ox và trục Oy.",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

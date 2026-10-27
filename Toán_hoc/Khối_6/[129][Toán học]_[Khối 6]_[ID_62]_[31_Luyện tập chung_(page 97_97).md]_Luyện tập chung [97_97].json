@@ -1,0 +1,830 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 36,
+    "metadata_used": {
+      "YCCD_TOAN6_149": 6,
+      "YCCD_TOAN6_150": 4,
+      "Ứng dụng xác suất thực nghiệm trong dự đoán": 4,
+      "Tính xác suất thực nghiệm và giải bài toán ứng dụng thực tế": 6,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_TRUNGTHUC_CHUNG_C2_01": 1,
+      "SUB_TCTH_TUHOC_C2_04": 1,
+      "SUB_GQVD_PHATHIEN_C2_01": 1,
+      "NLT_TOAN_C2_01_02": 1,
+      "NLT_TOAN_C2_02_03": 1
+    },
+    "types_used": {
+      "multichoice": 16,
+      "truefalse": 7,
+      "numerical": 3,
+      "shortanswer": 3,
+      "gapselect": 2,
+      "matching": 3,
+      "ddwtos": 2
+    },
+    "total": 36
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN6_149",
+        "reason": "Làm quen với việc mô tả xác suất thực nghiệm qua trò chơi gieo hai con xúc xắc"
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_150",
+        "reason": "Sử dụng phân số/số thập phân mô tả xác suất thực nghiệm thông qua kết quả kiểm đếm"
+      },
+      {
+        "metadata_code": "Ứng dụng xác suất thực nghiệm trong dự đoán",
+        "reason": "Ứng dụng xác suất thực nghiệm để dự đoán người có khả năng thắng cao hơn"
+      },
+      {
+        "metadata_code": "Tính xác suất thực nghiệm và giải bài toán ứng dụng thực tế",
+        "reason": "Tính xác suất thực nghiệm và giải bài toán ứng dụng thực tế trò chơi xúc xắc"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học 'Luyện tập chung - Trò chơi xúc xắc' là hoạt động thực hành gieo xúc xắc trực tiếp trên lớp, không chứa nội dung sử dụng phần mềm CNTT hay công cụ số."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học thuộc phạm vi xác suất thực nghiệm cơ bản bằng mô hình trò chơi thủ công, không liên quan tự nhiên đến các hệ thống trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_149",
+      "questiontext": "Trong trò chơi gieo hai con xúc xắc, người chơi E nhận được 1 điểm khi tích số chấm xuất hiện trên hai con xúc xắc là số nào?",
+      "generalfeedback": "Theo luật chơi trong SGK: 'Ở mỗi lần gieo, nếu tích số chấm xuất hiện trên hai con xúc xắc là số lẻ thì O được 1 điểm, là số chẵn thì E được 1 điểm'. Do đó E nhận điểm khi tích số chấm là số chẵn.",
+      "answers": [
+        {
+          "text": "Số chẵn",
+          "fraction": 100
+        },
+        {
+          "text": "Số lẻ",
+          "fraction": 0
+        },
+        {
+          "text": "Số nguyên tố",
+          "fraction": 0
+        },
+        {
+          "text": "Số chia hết cho 5",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_149",
+      "questiontext": "Trong trò chơi xúc xắc, khi hai con xúc xắc xuất hiện số chấm là 5 và 3 thì người chơi O nhận được 1 điểm.",
+      "generalfeedback": "Tích số chấm là \\(5 \\times 3 = 15\\) (là số lẻ). Theo quy tắc, nếu tích số chấm là số lẻ thì người chơi O nhận được 1 điểm. Vậy phát biểu trên là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_150",
+      "questiontext": "Trong Bảng 9.9 của SGK, sau 25 lần tung xúc xắc, E thắng 20 lần và O thắng 5 lần. Xác suất thực nghiệm của sự kiện 'E thắng' được viết dưới dạng phân số tối giản là:",
+      "generalfeedback": "Xác suất thực nghiệm của sự kiện 'E thắng' là \\(\\frac{20}{25} = \\frac{4}{5}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{4}{5}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{1}{5}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{20}{25}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{3}{4}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_150",
+      "questiontext": "Một cặp học sinh thực hiện trò chơi xúc xắc 20 lần gieo, kết quả thu được có 15 lần tích số chấm là số chẵn. Xác suất thực nghiệm của sự kiện tích số chấm xuất hiện là số chẵn bằng bao nhiêu? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Xác suất thực nghiệm là \\(\\frac{15}{20} = 0.75\\).",
+      "answers": [
+        {
+          "text": "0.75",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Ứng dụng xác suất thực nghiệm trong dự đoán",
+      "questiontext": "Dựa vào phân tích luật chơi gieo hai con xúc xắc, tích của hai số chấm chỉ là số lẻ khi cả hai con xúc xắc đều xuất hiện mặt lẻ. Trong hai người chơi E và O, người nào có khả năng thắng cuộc cao hơn?",
+      "generalfeedback": "Trong 36 khả năng có thể xảy ra khi gieo 2 con xúc xắc, chỉ có 9 khả năng cho tích lẻ (O ghi điểm) và 27 khả năng cho tích chẵn (E ghi điểm). Do đó người chơi E có khả năng thắng cuộc cao hơn hẳn.",
+      "answers": [
+        {
+          "text": "Người chơi E",
+          "fraction": 100
+        },
+        {
+          "text": "Người chơi O",
+          "fraction": 0
+        },
+        {
+          "text": "Cả hai người có cơ hội ngang nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Không thể dự đoán được",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Ứng dụng xác suất thực nghiệm trong dự đoán",
+      "questiontext": "Để tổng hợp kết quả chơi trò chơi xúc xắc của cả lớp, học sinh sử dụng bảng biểu nào theo SGK?",
+      "generalfeedback": "Theo SGK, kết quả chơi của cả lớp được tổng hợp theo mẫu Bảng 9.10.",
+      "answers": [
+        {
+          "text": "Bảng 9.10",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "van_dung",
+      "metadata_code": "Tính xác suất thực nghiệm và giải bài toán ứng dụng thực tế",
+      "questiontext": "Khi tổng hợp kết quả chơi của 30 cặp học sinh trong lớp, có 24 cặp thu được kết quả E thắng và 6 cặp O thắng. Xác suất thực nghiệm của sự kiện E thắng là [[1]], còn xác suất thực nghiệm của sự kiện O thắng là [[2]].",
+      "generalfeedback": "Xác suất E thắng là \\(\\frac{24}{30} = \\frac{4}{5}\\). Xác suất O thắng là \\(\\frac{6}{30} = \\frac{1}{5}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "4/5"
+        },
+        {
+          "group": 1,
+          "text": "1/5"
+        },
+        {
+          "group": 1,
+          "text": "2/3"
+        },
+        {
+          "group": 1,
+          "text": "1/3"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "Tính xác suất thực nghiệm và giải bài toán ứng dụng thực tế",
+      "questiontext": "Hãy ghép kết quả thực nghiệm gieo hai con xúc xắc với giá trị xác suất thực nghiệm tương ứng của sự kiện E thắng:",
+      "generalfeedback": "Tính xác suất thực nghiệm bằng cách lấy số lần sự kiện xảy ra chia cho tổng số lần thử: \\(\\frac{20}{25} = \\frac{4}{5}\\), \\(\\frac{15}{20} = \\frac{3}{4}\\), \\(\\frac{38}{50} = \\frac{19}{25}\\).",
+      "subquestions": [
+        {
+          "question": "Gieo 25 lần: E thắng 20 lần, O thắng 5 lần",
+          "answer": "Xác suất E thắng là \\(\\frac{4}{5}\\)"
+        },
+        {
+          "question": "Gieo 20 lần: E thắng 15 lần, O thắng 5 lần",
+          "answer": "Xác suất E thắng là \\(\\frac{3}{4}\\)"
+        },
+        {
+          "question": "Gieo 50 lần: E thắng 38 lần, O thắng 12 lần",
+          "answer": "Xác suất E thắng là \\(\\frac{19}{25}\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_149",
+      "questiontext": "Điều kiện để người chơi O giành chiến thắng chung cuộc trong trò chơi xúc xắc là gì?",
+      "generalfeedback": "Theo SGK: 'Ai được 20 điểm trước là người thắng'. Như vậy người chơi O thắng khi đạt 20 điểm trước.",
+      "answers": [
+        {
+          "text": "Đạt 20 điểm trước",
+          "fraction": 100
+        },
+        {
+          "text": "Đạt 10 điểm trước",
+          "fraction": 0
+        },
+        {
+          "text": "Gieo được 25 lần",
+          "fraction": 0
+        },
+        {
+          "text": "Có số lần gieo số lẻ nhiều hơn 15 lần",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "van_dung",
+      "metadata_code": "Tính xác suất thực nghiệm và giải bài toán ứng dụng thực tế",
+      "questiontext": "Trong một ván chơi gồm 25 lần gieo, nếu xác suất thực nghiệm của sự kiện E thắng là \\(\\frac{4}{5}\\) thì số điểm E đạt được là 20 điểm.",
+      "generalfeedback": "Số điểm E đạt được là \\(25 \\times \\frac{4}{5} = 20\\) điểm. Phát biểu này là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_149",
+      "questiontext": "Trong trò chơi gieo hai con xúc xắc, người chơi O nhận được 1 điểm khi tích số chấm xuất hiện trên hai con xúc xắc là số nào?",
+      "generalfeedback": "Theo luật chơi trong SGK: 'Ở mỗi lần gieo, nếu tích số chấm xuất hiện trên hai con xúc xắc là số lẻ thì O được 1 điểm, là số chẵn thì E được 1 điểm'. Do đó O nhận điểm khi tích số chấm là số lẻ.",
+      "answers": [
+        {
+          "text": "Số lẻ",
+          "fraction": 100
+        },
+        {
+          "text": "Số chẵn",
+          "fraction": 0
+        },
+        {
+          "text": "Số tròn chục",
+          "fraction": 0
+        },
+        {
+          "text": "Số chia hết cho 10",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_150",
+      "questiontext": "Khi gieo đồng thời hai con xúc xắc 10 lần, nếu có 3 lần thu được tích số chấm là số lẻ thì xác suất thực nghiệm của sự kiện tích số chấm là số lẻ bằng \\(\\frac{3}{10}\\).",
+      "generalfeedback": "Xác suất thực nghiệm bằng số lần xuất hiện sự kiện chia cho tổng số lần gieo, tức là \\(\\frac{3}{10}\\). Vậy phát biểu này là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính xác suất thực nghiệm và giải bài toán ứng dụng thực tế",
+      "questiontext": "Trong một tiết học, cặp học sinh gieo hai con xúc xắc tổng cộng 40 lần. Kết quả có 10 lần người chơi O ghi điểm. Xác suất thực nghiệm của sự kiện O ghi điểm viết dưới dạng số thập phân bằng bao nhiêu? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Xác suất thực nghiệm của sự kiện O ghi điểm là \\(\\frac{10}{40} = 0.25\\).",
+      "answers": [
+        {
+          "text": "0.25",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_149",
+      "questiontext": "Hai con xúc xắc được sử dụng trong hoạt động trò chơi của SGK có những màu sắc nào?",
+      "generalfeedback": "Theo SGK phần Chuẩn bị: 'Hai con xúc xắc xanh và đỏ'.",
+      "answers": [
+        {
+          "text": "xanh và đỏ",
+          "fraction": 100
+        },
+        {
+          "text": "xanh, đỏ",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Ứng dụng xác suất thực nghiệm trong dự đoán",
+      "questiontext": "Khi gieo đồng thời hai con xúc xắc, tích số chấm xuất hiện là số lẻ trong trường hợp nào sau đây?",
+      "generalfeedback": "Tích của hai số là số lẻ khi và chỉ khi cả hai số đó đều là số lẻ.",
+      "answers": [
+        {
+          "text": "Cả hai con xúc xắc đều xuất hiện mặt số lẻ",
+          "fraction": 100
+        },
+        {
+          "text": "Cả hai con xúc xắc đều xuất hiện mặt số chẵn",
+          "fraction": 0
+        },
+        {
+          "text": "Một con xúc xắc mặt chẵn và một con xúc xắc mặt lẻ",
+          "fraction": 0
+        },
+        {
+          "text": "Ít nhất một con xúc xắc xuất hiện mặt số chẵn",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "Tính xác suất thực nghiệm và giải bài toán ứng dụng thực tế",
+      "questiontext": "Thực hiện gieo hai con xúc xắc 50 lần, người chơi E ghi điểm 38 lần. Xác suất thực nghiệm của sự kiện E ghi điểm là [[1]], còn xác suất thực nghiệm của sự kiện O ghi điểm là [[2]].",
+      "generalfeedback": "Xác suất E ghi điểm là \\(\\frac{38}{50} = \\frac{19}{25}\\). Xác suất O ghi điểm là \\(\\frac{50 - 38}{50} = \\frac{12}{50} = \\frac{6}{25}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "19/25"
+        },
+        {
+          "group": 1,
+          "text": "6/25"
+        },
+        {
+          "group": 1,
+          "text": "1/2"
+        },
+        {
+          "group": 1,
+          "text": "3/5"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_149",
+      "questiontext": "Hãy ghép cặp giữa ký hiệu tên người chơi trong trò chơi xúc xắc với ý nghĩa tên gọi tương ứng:",
+      "generalfeedback": "E đại diện cho Even number (số chẵn), O đại diện cho Odd number (số lẻ).",
+      "subquestions": [
+        {
+          "question": "Người chơi E",
+          "answer": "Even number (số chẵn)"
+        },
+        {
+          "question": "Người chơi O",
+          "answer": "Odd number (số lẻ)"
+        },
+        {
+          "question": "Mục tiêu đạt được để chiến thắng",
+          "answer": "20 điểm trước"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Ứng dụng xác suất thực nghiệm trong dự đoán",
+      "questiontext": "Trong Bảng 9.10 của cả lớp có 25 cặp chơi. Kết quả ghi nhận có 20 cặp E thắng và 5 cặp O thắng. Xác suất thực nghiệm của sự kiện 'Cặp chơi có E thắng' là bao nhiêu?",
+      "generalfeedback": "Xác suất thực nghiệm là \\(\\frac{20}{25} = \\frac{4}{5} = 80\\%\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{4}{5}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{1}{5}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{1}{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{2}{3}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_150",
+      "questiontext": "Trong trò chơi gieo hai con xúc xắc, kết quả của mỗi lần gieo được ghi chép lại theo mẫu Bảng 9.9 trong SGK.",
+      "generalfeedback": "Theo SGK mục 2: 'Mỗi cặp chơi một ván... và ghi lại kết quả theo mẫu Bảng 9.9'. Phát biểu này là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tính xác suất thực nghiệm và giải bài toán ứng dụng thực tế",
+      "questiontext": "Một cặp học sinh chơi trò chơi xúc xắc. Khi người chơi E đạt 20 điểm thì người chơi O đang có 8 điểm. Tổng số lần hai bạn đã gieo xúc xắc trong ván chơi đó là bao nhiêu?",
+      "generalfeedback": "Mỗi lần gieo xúc xắc thì đúng một người chơi (E hoặc O) nhận được 1 điểm. Do đó tổng số lần gieo bằng tổng số điểm hai người đạt được: \\(20 + 8 = 28\\) lần.",
+      "answers": [
+        {
+          "text": "28 lần",
+          "fraction": 100
+        },
+        {
+          "text": "20 lần",
+          "fraction": 0
+        },
+        {
+          "text": "12 lần",
+          "fraction": 0
+        },
+        {
+          "text": "40 lần",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_149",
+      "questiontext": "Trong trò chơi gieo hai con xúc xắc, người chơi O nhận được 1 điểm khi tích số chấm xuất hiện trên hai con xúc xắc là số nào?",
+      "generalfeedback": "Theo luật chơi trong SGK: 'Ở mỗi lần gieo, nếu tích số chấm xuất hiện trên hai con xúc xắc là số lẻ thì O được 1 điểm, là số chẵn thì E được 1 điểm'. Do đó O nhận điểm khi tích số chấm là số lẻ.",
+      "answers": [
+        {
+          "text": "Số lẻ",
+          "fraction": 100
+        },
+        {
+          "text": "Số chẵn",
+          "fraction": 0
+        },
+        {
+          "text": "Số tròn chục",
+          "fraction": 0
+        },
+        {
+          "text": "Số chia hết cho 10",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_150",
+      "questiontext": "Khi gieo đồng thời hai con xúc xắc 10 lần, nếu có 3 lần thu được tích số chấm là số lẻ thì xác suất thực nghiệm của sự kiện tích số chấm là số lẻ bằng \\(\\frac{3}{10}\\).",
+      "generalfeedback": "Xác suất thực nghiệm bằng số lần xuất hiện sự kiện chia cho tổng số lần gieo, tức là \\(\\frac{3}{10}\\). Vậy phát biểu này là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính xác suất thực nghiệm và giải bài toán ứng dụng thực tế",
+      "questiontext": "Trong một tiết học, cặp học sinh gieo hai con xúc xắc tổng cộng 40 lần. Kết quả có 10 lần người chơi O ghi điểm. Xác suất thực nghiệm của sự kiện O ghi điểm viết dưới dạng số thập phân bằng bao nhiêu? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Xác suất thực nghiệm của sự kiện O ghi điểm là \\(\\frac{10}{40} = 0.25\\).",
+      "answers": [
+        {
+          "text": "0.25",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_149",
+      "questiontext": "Hai con xúc xắc được sử dụng trong hoạt động trò chơi của SGK có những màu sắc nào?",
+      "generalfeedback": "Theo SGK phần Chuẩn bị: 'Hai con xúc xắc xanh và đỏ'.",
+      "answers": [
+        {
+          "text": "xanh và đỏ",
+          "fraction": 100
+        },
+        {
+          "text": "xanh, đỏ",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Ứng dụng xác suất thực nghiệm trong dự đoán",
+      "questiontext": "Khi gieo đồng thời hai con xúc xắc, tích số chấm xuất hiện là số lẻ trong trường hợp nào sau đây?",
+      "generalfeedback": "Tích của hai số là số lẻ khi và chỉ khi cả hai số đó đều là số lẻ.",
+      "answers": [
+        {
+          "text": "Cả hai con xúc xắc đều xuất hiện mặt số lẻ",
+          "fraction": 100
+        },
+        {
+          "text": "Cả hai con xúc xắc đều xuất hiện mặt số chẵn",
+          "fraction": 0
+        },
+        {
+          "text": "Một con xúc xắc mặt chẵn và một con xúc xắc mặt lẻ",
+          "fraction": 0
+        },
+        {
+          "text": "Ít nhất một con xúc xắc xuất hiện mặt số chẵn",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "Tính xác suất thực nghiệm và giải bài toán ứng dụng thực tế",
+      "questiontext": "Thực hiện gieo hai con xúc xắc 50 lần, người chơi E ghi điểm 38 lần. Xác suất thực nghiệm của sự kiện E ghi điểm là [[1]], còn xác suất thực nghiệm của sự kiện O ghi điểm là [[2]].",
+      "generalfeedback": "Xác suất E ghi điểm là \\(\\frac{38}{50} = \\frac{19}{25}\\). Xác suất O ghi điểm là \\(\\frac{50 - 38}{50} = \\frac{12}{50} = \\frac{6}{25}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "19/25"
+        },
+        {
+          "group": 1,
+          "text": "6/25"
+        },
+        {
+          "group": 1,
+          "text": "1/2"
+        },
+        {
+          "group": 1,
+          "text": "3/5"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_149",
+      "questiontext": "Hãy ghép cặp giữa ký hiệu tên người chơi trong trò chơi xúc xắc với ý nghĩa tên gọi tương ứng:",
+      "generalfeedback": "E đại diện cho Even number (số chẵn), O đại diện cho Odd number (số lẻ).",
+      "subquestions": [
+        {
+          "question": "Người chơi E",
+          "answer": "Even number (số chẵn)"
+        },
+        {
+          "question": "Người chơi O",
+          "answer": "Odd number (số lẻ)"
+        },
+        {
+          "question": "Mục tiêu đạt được để chiến thắng",
+          "answer": "20 điểm trước"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Ứng dụng xác suất thực nghiệm trong dự đoán",
+      "questiontext": "Trong Bảng 9.10 của cả lớp có 25 cặp chơi. Kết quả ghi nhận có 20 cặp E thắng và 5 cặp O thắng. Xác suất thực nghiệm của sự kiện 'Cặp chơi có E thắng' là bao nhiêu?",
+      "generalfeedback": "Xác suất thực nghiệm là \\(\\frac{20}{25} = \\frac{4}{5} = 80\\%\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{4}{5}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{1}{5}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{1}{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{2}{3}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_150",
+      "questiontext": "Trong trò chơi gieo hai con xúc xắc, kết quả của mỗi lần gieo được ghi chép lại theo mẫu Bảng 9.9 trong SGK.",
+      "generalfeedback": "Theo SGK mục 2: 'Mỗi cặp chơi một ván... và ghi lại kết quả theo mẫu Bảng 9.9'. Phát biểu này là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tính xác suất thực nghiệm và giải bài toán ứng dụng thực tế",
+      "questiontext": "Một cặp học sinh chơi trò chơi xúc xắc. Khi người chơi E đạt 20 điểm thì người chơi O đang có 8 điểm. Tổng số lần hai bạn đã gieo xúc xắc trong ván chơi đó là bao nhiêu?",
+      "generalfeedback": "Mỗi lần gieo xúc xắc thì đúng một người chơi (E hoặc O) nhận được 1 điểm. Do đó tổng số lần gieo bằng tổng số điểm hai người đạt được: \\(20 + 8 = 28\\) lần.",
+      "answers": [
+        {
+          "text": "28 lần",
+          "fraction": 100
+        },
+        {
+          "text": "20 lần",
+          "fraction": 0
+        },
+        {
+          "text": "12 lần",
+          "fraction": 0
+        },
+        {
+          "text": "40 lần",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong trò chơi gieo hai con xúc xắc, sau 10 lần gieo đầu tiên, bạn Nam (mang tên O) chưa ghi được điểm nào vì tích số chấm xuất hiện toàn là số chẵn. Nam thấy chán nản và muốn bỏ cuộc. Nếu là bạn của Nam, em nên khuyên Nam điều gì để thể hiện tinh thần kiên trì và vươn lên trong học tập?",
+      "generalfeedback": "Trong trò chơi xác suất thực nghiệm, số lần thực hiện càng nhiều thì kết quả kiểm đếm mới phản ánh đúng khả năng xảy ra. Kiên trì hoàn thành ván chơi thể hiện tinh thần vượt khó, nỗ lực đạt kết quả tốt trong học tập.",
+      "answers": [
+        {
+          "text": "Khuyên Nam kiên trì gieo tiếp vì xác suất thực nghiệm cần số lần thử đủ lớn, đồng thời giữ vững tinh thần vượt khó trong học tập.",
+          "fraction": 100
+        },
+        {
+          "text": "Đồng ý với Nam dừng chơi vì người chơi O không có cơ hội thắng.",
+          "fraction": 0
+        },
+        {
+          "text": "Khuyên Nam tự ý sửa luật chơi để dễ giành điểm hơn.",
+          "fraction": 0
+        },
+        {
+          "text": "Khuyên Nam bỏ học tiết Toán để chơi trò chơi khác.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TRUNGTHUC_CHUNG_C2_01",
+      "questiontext": "Khi thực hiện trò chơi gieo hai con xúc xắc và ghi kết quả vào Bảng 9.9, bạn An thấy mình (mang tên O) đang bị dẫn điểm nên đã cố tình ghi sai kết quả của một lần gieo từ tích chẵn thành tích lẻ. Phát biểu: 'Hành vi của An thể hiện sự trung thực và thống nhất giữa lời nói với việc làm' là Đúng hay Sai?",
+      "generalfeedback": "Hành vi gian lận kết quả kiểm đếm là sai trái, vi phạm nguyên tắc trung thực và không thống nhất giữa lời nói với việc làm trong học tập.",
+      "answers": [
+        {
+          "text": "Sai",
+          "fraction": 100
+        },
+        {
+          "text": "Đúng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Một nhóm học sinh ghi chép thô kết quả 5 lần gieo xúc xắc như sau: Lần 1 (2 và 4), Lần 2 (3 và 5), Lần 3 (1 và 6), Lần 4 (5 và 1), Lần 5 (4 và 4). Để lưu giữ thông tin có chọn lọc và tóm tắt ngắn gọn điểm số của hai người chơi E (tích chẵn) và O (tích lẻ), cách ghi nào sau đây là chuẩn xác nhất?",
+      "generalfeedback": "Tích các lần gieo: Lần 1 (8-chẵn -> E), Lần 2 (15-lẻ -> O), Lần 3 (6-chẵn -> E), Lần 4 (5-lẻ -> O), Lần 5 (16-chẵn -> E). Tóm tắt ngắn gọn: E nhận 3 điểm, O nhận 2 điểm.",
+      "answers": [
+        {
+          "text": "Người chơi E: 3 điểm; Người chơi O: 2 điểm",
+          "fraction": 100
+        },
+        {
+          "text": "Người chơi E: 2 điểm; Người chơi O: 3 điểm",
+          "fraction": 0
+        },
+        {
+          "text": "Người chơi E: 5 điểm; Người chơi O: 0 điểm",
+          "fraction": 0
+        },
+        {
+          "text": "Người chơi E: 0 điểm; Người chơi O: 5 điểm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GQVD_PHATHIEN_C2_01",
+      "questiontext": "Hai bạn Bình và Chi cùng chơi trò gieo xúc xắc. Sau 20 lần gieo, E thắng 15 lần và O thắng 5 lần. Chi cho rằng con xúc xắc bị chế tạo lỗi nên kết quả bị lệch. Phân tích tình huống học tập này dưới góc độ toán học, em đánh giá ý kiến của Chi như thế nào?",
+      "generalfeedback": "Ý kiến của Chi là không chính xác vì theo phân tích số học, có 27/36 khả năng cho tích chẵn (E thắng) và 9/36 khả năng cho tích lẻ (O thắng). Khả năng E thắng cao gấp 3 lần O là do luật chơi chứ không phải do xúc xắc lỗi.",
+      "answers": [
+        {
+          "text": "Chi chưa chính xác, vì quy luật số học của trò chơi làm cho khả năng xuất hiện tích chẵn cao hơn hẳn tích lẻ.",
+          "fraction": 100
+        },
+        {
+          "text": "Chi đúng, vì xúc xắc chuẩn bắt buộc phải cho số lần thắng của E và O bằng nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Chi đúng, vì người chơi O luôn gieo được nhiều điểm hơn người chơi E.",
+          "fraction": 0
+        },
+        {
+          "text": "Chi chưa chính xác, vì người chơi O đã vi phạm luật chơi.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "NLT_TOAN_C2_01_02",
+      "questiontext": "Khi quan sát mẫu Bảng 9.9 trong SGK ghi lại kết quả ván chơi gieo hai con xúc xắc, ở dòng cuối cùng (Lần tung 25, số chấm xuất hiện 2; 1, số điểm E: 20, O: 5), thông tin quan sát trực tiếp nào chứng tỏ ván chơi kết thúc?",
+      "generalfeedback": "Theo luật chơi trong SGK: 'Ai được 20 điểm trước là người thắng'. Quan sát Bảng 9.9 thấy ở lần tung thứ 25, E đã đạt 20 điểm nên ván chơi kết thúc với chiến thắng thuộc về E.",
+      "answers": [
+        {
+          "text": "Số điểm của người chơi E đã đạt mốc 20 điểm.",
+          "fraction": 100
+        },
+        {
+          "text": "Số điểm của người chơi O đã đạt mốc 20 điểm.",
+          "fraction": 0
+        },
+        {
+          "text": "Hai người chơi đã gieo đủ 100 lần.",
+          "fraction": 0
+        },
+        {
+          "text": "Tổng số điểm của cả hai người chơi bằng 25.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_02_03",
+      "questiontext": "Để sử dụng mô hình bảng biểu mô tả kết quả trò chơi xúc xắc của 30 cặp học sinh trong lớp, Bảng 9.10 được thiết kế gồm 3 cột: Cột 1 thể hiện [[1]], Cột 2 đánh dấu trường hợp [[2]], và Cột 3 đánh dấu trường hợp [[3]].",
+      "generalfeedback": "Theo Bảng 9.10 trong SGK: Cột 1 ghi 'Cặp chơi số', Cột 2 ghi 'E thắng', Cột 3 ghi 'O thắng'.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "Cặp chơi số"
+        },
+        {
+          "group": 1,
+          "text": "E thắng"
+        },
+        {
+          "group": 1,
+          "text": "O thắng"
+        },
+        {
+          "group": 1,
+          "text": "Số điểm đạt được"
+        }
+      ]
+    }
+  ]
+}

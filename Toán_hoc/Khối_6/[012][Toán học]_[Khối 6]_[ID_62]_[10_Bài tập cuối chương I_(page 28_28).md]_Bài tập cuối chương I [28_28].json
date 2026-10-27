@@ -1,0 +1,614 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 26,
+    "metadata_used": {
+      "Hệ thống kiến thức chương I về số tự nhiên và các phép tính": 9,
+      "Giải bài toán tổng hợp chương I": 3,
+      "YCCD_TOAN6_021": 2,
+      "YCCD_TOAN6_022": 4,
+      "YCCD_TOAN6_020": 2,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_CHAMCHI_HAMHOC_C2_03": 1,
+      "SUB_TCTH_TUHOC_C2_01": 1,
+      "SUB_GQVD_DEXUAT_C2_01": 1,
+      "NLT_TOAN_C2_01_05": 1,
+      "NLT_TOAN_C2_03_04": 1
+    },
+    "types_used": {
+      "multichoice": 9,
+      "shortanswer": 3,
+      "matching": 1,
+      "truefalse": 1,
+      "gapselect": 1,
+      "numerical": 8,
+      "calculatedsimple": 1,
+      "calculatedmulti": 1,
+      "ddwtos": 1
+    }
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN6_020",
+        "reason": "Đo lường khả năng vận dụng tính chất phép tính để tính nhẩm một cách hợp lí."
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_021",
+        "reason": "Đo lường khả năng vận dụng tính chất phép tính để tính nhanh một cách hợp lí."
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_022",
+        "reason": "Đo lường khả năng giải quyết các vấn đề thực tiễn gắn với thực hiện các phép tính."
+      },
+      {
+        "metadata_code": "Hệ thống kiến thức chương I về số tự nhiên và các phép tính",
+        "reason": "Đo lường hệ thống kiến thức chương I về số tự nhiên và các phép tính."
+      },
+      {
+        "metadata_code": "Giải bài toán tổng hợp chương I",
+        "reason": "Đo lường kỹ năng giải bài toán tổng hợp chương I."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đo lường phẩm chất chăm chỉ, luôn cố gắng vươn lên trong học tập."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_03",
+        "reason": "Đo lường phẩm chất trách nhiệm, vận dụng kiến thức vào đời sống."
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+        "reason": "Đo lường năng lực tự chủ và tự học, tự đặt mục tiêu học tập."
+      },
+      {
+        "metadata_code": "SUB_GQVD_DEXUAT_C2_01",
+        "reason": "Đo lường năng lực giải quyết vấn đề, xác định thông tin liên quan."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_05",
+        "reason": "Đo lường năng lực tư duy và lập luận toán học."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_04",
+        "reason": "Đo lường năng lực sử dụng công cụ/mô hình toán học."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học thuộc phần Bài tập cuối chương I môn Toán lớp 6 thuần túy luyện tập số học, không có nội dung thực hành hay xử lý thông tin trên công cụ số/máy tính."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học không tích hợp hay liên quan trực tiếp đến ứng dụng trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống kiến thức chương I về số tự nhiên và các phép tính",
+      "questiontext": "Số tự nhiên \\(a = 15\\ 267\\ 021\\ 908\\) có bao nhiêu chữ số?",
+      "generalfeedback": "Số \\(15\\ 267\\ 021\\ 908\\) được viết bởi 11 chữ số.",
+      "answers": [
+        {
+          "text": "11 chữ số",
+          "fraction": 100
+        },
+        {
+          "text": "10 chữ số",
+          "fraction": 0
+        },
+        {
+          "text": "12 chữ số",
+          "fraction": 0
+        },
+        {
+          "text": "9 chữ số",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Hệ thống kiến thức chương I về số tự nhiên và các phép tính",
+      "questiontext": "Viết tập hợp \\(A\\) các chữ số xuất hiện trong số tự nhiên \\(a = 15\\ 267\\ 021\\ 908\\).",
+      "generalfeedback": "Tập hợp các chữ số cấu tạo nên số \\(a\\) gồm các phần tử khác nhau: 0, 1, 2, 5, 6, 7, 8, 9. Do đó \\(A = \\{0; 1; 2; 5; 6; 7; 8; 9\\}\\).",
+      "answers": [
+        {
+          "text": "\\(A = \\{0; 1; 2; 5; 6; 7; 8; 9\\}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(A = \\{1; 5; 2; 6; 7; 0; 2; 1; 9; 0; 8\\}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(A = \\{0; 1; 2; 3; 4; 5; 6; 7; 8; 9\\}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(A = \\{1; 2; 5; 6; 7; 8; 9\\}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống kiến thức chương I về số tự nhiên và các phép tính",
+      "questiontext": "Trong số tự nhiên \\(a = 15\\ 267\\ 021\\ 908\\), chữ số ở hàng triệu là chữ số nào?",
+      "generalfeedback": "Xác định các hàng từ phải sang trái: 8 (đơn vị), 0 (chục), 9 (trăm), 1 (nghìn), 2 (chục nghìn), 0 (trăm nghìn), 7 (triệu). Vậy chữ số hàng triệu là 7.",
+      "answers": [
+        {
+          "text": "7",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống kiến thức chương I về số tự nhiên và các phép tính",
+      "questiontext": "Trong số tự nhiên \\(a = 15\\ 267\\ 021\\ 908\\), hãy ghép mỗi vị trí chữ số 1 với hàng và giá trị tương ứng của nó.",
+      "generalfeedback": "Chữ số 1 thứ nhất (từ trái sang) thuộc hàng chục tỉ, có giá trị \\(10\\ 000\\ 000\\ 000\\). Chữ số 1 thứ hai thuộc hàng nghìn, có giá trị \\(1\\ 000\\).",
+      "subquestions": [
+        {
+          "question": "Chữ số 1 đứng đầu tiên từ trái sang",
+          "answer": "Hàng chục tỉ, giá trị 10 000 000 000"
+        },
+        {
+          "question": "Chữ số 1 đứng kế cuối từ trái sang",
+          "answer": "Hàng nghìn, giá trị 1 000"
+        },
+        {
+          "question": "Chữ số 7 trong số a",
+          "answer": "Hàng triệu, giá trị 7 000 000"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống kiến thức chương I về số tự nhiên và các phép tính",
+      "questiontext": "Trong tập hợp các số tự nhiên \\(\\mathbb{N}\\), số 0 là số tự nhiên duy nhất không có số liền trước.",
+      "generalfeedback": "Đúng. Số 0 là số tự nhiên nhỏ nhất nên không có số liền trước trong tập hợp \\(\\mathbb{N}\\). Mọi số tự nhiên đều có số liền sau.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống kiến thức chương I về số tự nhiên và các phép tính",
+      "questiontext": "Số 2 020 là số liền sau của số [[1]] và là số liền trước của số [[2]].",
+      "generalfeedback": "Số liền trước của 2 020 là \\(2\\ 020 - 1 = 2\\ 019\\). Số liền sau của 2 020 là \\(2\\ 020 + 1 = 2\\ 021\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "2 019"
+        },
+        {
+          "group": 1,
+          "text": "2 021"
+        },
+        {
+          "group": 1,
+          "text": "2 018"
+        },
+        {
+          "group": 1,
+          "text": "2 022"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "nhan_biet",
+      "metadata_code": "Giải bài toán tổng hợp chương I",
+      "questiontext": "Tìm thương của phép chia \\(3\\ 789 : 231\\). (Chỉ điền số nguyên)",
+      "generalfeedback": "Thực hiện phép chia: \\(3\\ 789 = 231 \\cdot 16 + 93\\). Vậy thương của phép chia là 16.",
+      "answers": [
+        {
+          "text": "16",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "nhan_biet",
+      "metadata_code": "Giải bài toán tổng hợp chương I",
+      "questiontext": "Tìm số dư của phép chia \\(9\\ 848 : 345\\). (Chỉ điền số nguyên)",
+      "generalfeedback": "Thực hiện phép chia: \\(9\\ 848 = 345 \\cdot 28 + 188\\). Vậy số dư của phép chia là 188.",
+      "answers": [
+        {
+          "text": "188",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_021",
+      "questiontext": "Tính giá trị của biểu thức: \\(21 \\cdot [(1\\ 245 + 987) : 2^3 - 15 \\cdot 12] + 21\\). (Chỉ điền số)",
+      "generalfeedback": "Thực hiện thứ tự phép tính:\n\\(1\\ 245 + 987 = 2\\ 232\\)\n\\(2^3 = 8\\)\n\\(2\\ 232 : 8 = 279\\)\n\\(15 \\cdot 12 = 180\\)\n\\(279 - 180 = 99\\)\n\\(21 \\cdot 99 + 21 = 21 \\cdot (99 + 1) = 21 \\cdot 100 = 2\\ 100\\).",
+      "answers": [
+        {
+          "text": "2100",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_022",
+      "questiontext": "Khối 6 có 320 học sinh đi tham quan. Nhà trường cần thuê ít nhất bao nhiêu xe ô tô 45 chỗ ngồi để đủ chỗ cho tất cả học sinh? (Chỉ điền số)",
+      "generalfeedback": "Thực hiện phép chia \\(320 : 45 = 7\\) (dư 5). Vì còn dư 5 học sinh nên nhà trường cần thuê ít nhất \\(7 + 1 = 8\\) xe ô tô.",
+      "answers": [
+        {
+          "text": "8",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống kiến thức chương I về số tự nhiên và các phép tính",
+      "questiontext": "Cho số tự nhiên \\(a\\) khác 0. Số liền trước của số \\(a\\) được ký hiệu là biểu thức nào?",
+      "generalfeedback": "Số liền trước của số tự nhiên \\(a\\) (với \\(a \\neq 0\\)) là \\(a - 1\\).",
+      "answers": [
+        {
+          "text": "a - 1",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống kiến thức chương I về số tự nhiên và các phép tính",
+      "questiontext": "Cho số tự nhiên \\(a\\). Số liền sau của số \\(a\\) được ký hiệu là biểu thức nào?",
+      "generalfeedback": "Số liền sau của số tự nhiên \\(a\\) là \\(a + 1\\).",
+      "answers": [
+        {
+          "text": "a + 1",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Giải bài toán tổng hợp chương I",
+      "questiontext": "Tính tích của phép nhân \\(21\\ 759 \\cdot 1\\ 862\\). (Chỉ điền giá trị số)",
+      "generalfeedback": "Thực hiện phép tính: \\(21\\ 759 \\cdot 1\\ 862 = 40\\ 515\\ 258\\).",
+      "answers": [
+        {
+          "text": "40515258",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_022",
+      "questiontext": "Một phòng chiếu phim có 18 hàng ghế, mỗi hàng có 18 ghế. Giá một vé xem phim là 50 000 đồng. Tối thứ Bảy, tất cả các vé đều được bán hết. Hỏi số tiền bán vé thu được là bao nhiêu đồng? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Tổng số ghế trong phòng chiếu phim là \\(18 \\cdot 18 = 324\\) (ghế).\nSố tiền bán vé thu được tối thứ Bảy là \\(324 \\cdot 50\\ 000 = 16\\ 200\\ 000\\) (đồng).",
+      "answers": [
+        {
+          "text": "16200000",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_022",
+      "questiontext": "Một phòng chiếu phim có 18 hàng ghế, mỗi hàng có 18 ghế. Giá một vé là 50 000 đồng. Tối Chủ nhật còn 41 vé không bán được. Hỏi số tiền bán vé thu được là bao nhiêu đồng? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Số vé bán được tối Chủ nhật là \\(324 - 41 = 283\\) (vé).\nSố tiền bán vé thu được là \\(283 \\cdot 50\\ 000 = 14\\ 150\\ 000\\) (đồng).",
+      "answers": [
+        {
+          "text": "14150000",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_022",
+      "questiontext": "Một phòng chiếu phim có tổng cộng 324 ghế. Giá một vé xem phim là 50 000 đồng. Tối thứ Hai, số tiền bán vé thu được là 10 550 000 đồng. Hỏi có bao nhiêu vé không bán được? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Số vé đã bán được trong tối thứ Hai là \\(10\\ 550\\ 000 : 50\\ 000 = 211\\) (vé).\nSố vé không bán được là \\(324 - 211 = 113\\) (vé).",
+      "answers": [
+        {
+          "text": "113",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_020",
+      "questiontext": "Tính nhẩm giá trị của tích {a} * 100.",
+      "generalfeedback": "Khi nhân một số tự nhiên với 100, ta chỉ việc viết thêm hai chữ số 0 vào bên phải số đó.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 12.0,
+          "max": 99.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*100",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_021",
+      "questiontext": "Cho tích {x} * {y}. Nếu tăng thừa số {x} lên 2 lần và giữ nguyên thừa số {y} thì tích mới sẽ thay đổi như thế nào?",
+      "generalfeedback": "Khi một thừa số tăng lên 2 lần và thừa số kia giữ nguyên thì tích tăng lên 2 lần.",
+      "wildcards": [
+        {
+          "name": "x",
+          "min": 5.0,
+          "max": 20.0,
+          "decimals": 0
+        },
+        {
+          "name": "y",
+          "min": 2.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "Tích mới bằng {x} * {y} * 2",
+          "fraction": 100
+        },
+        {
+          "text": "Tích mới bằng {x} * {y} + 2",
+          "fraction": 0
+        },
+        {
+          "text": "Tích mới không thay đổi",
+          "fraction": 0
+        },
+        {
+          "text": "Tích mới giảm đi 2 lần",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống kiến thức chương I về số tự nhiên và các phép tính",
+      "questiontext": "Trong phép chia có dư: Số dư luôn [[1]] số chia và số chia luôn [[2]] 0.",
+      "generalfeedback": "Trong phép chia có dư, số dư bao giờ cũng nhỏ hơn số chia và số chia phải khác 0 (lớn hơn 0).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "nhỏ hơn"
+        },
+        {
+          "group": 1,
+          "text": "lớn hơn"
+        },
+        {
+          "group": 1,
+          "text": "bằng"
+        },
+        {
+          "group": 1,
+          "text": "khác"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_020",
+      "questiontext": "Tính nhanh tổng \\(S = 125 + 37 + 875 + 63\\) bằng cách áp dụng tính chất giao hoán và kết hợp.",
+      "generalfeedback": "Áp dụng tính chất giao hoán và kết hợp: \\(S = (125 + 875) + (37 + 63) = 1\\ 000 + 100 = 1\\ 100\\).",
+      "answers": [
+        {
+          "text": "1 100",
+          "fraction": 100
+        },
+        {
+          "text": "1 000",
+          "fraction": 0
+        },
+        {
+          "text": "1 200",
+          "fraction": 0
+        },
+        {
+          "text": "1 050",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi tính giá trị biểu thức \\(21 \\cdot [(1\\ 245 + 987) : 2^3 - 15 \\cdot 12] + 21\\), bạn An liên tục tính sai kết quả ở những lần đầu do nhầm thứ tự phép tính. Bạn An đã không nản lòng mà kiên trì kiểm tra lại từng bước tính trong ngoặc và lũy thừa cho đến khi tìm ra kết quả đúng. Hành vi của An thể hiện phẩm chất nào?",
+      "generalfeedback": "Sự kiên trì, không nản lòng trước bài toán khó và quyết tâm sửa sai đến khi tìm ra đáp án đúng thể hiện phẩm chất luôn cố gắng vươn lên đạt kết quả tốt trong học tập.",
+      "answers": [
+        {
+          "text": "Luôn cố gắng vươn lên đạt kết quả tốt trong học tập",
+          "fraction": 100
+        },
+        {
+          "text": "Có ý thức giữ gìn vệ sinh trường lớp",
+          "fraction": 0
+        },
+        {
+          "text": "Tôn trọng và lắng nghe ý kiến của bạn bè",
+          "fraction": 0
+        },
+        {
+          "text": "Giúp đỡ các bạn có hoàn cảnh khó khăn",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_03",
+      "questiontext": "Sau khi học xong bài toán tính số tiền bán vé Rạp chiếu phim (Bài 1.59 SGK), bạn Bình đã chủ động áp dụng cách tính toán này để giúp mẹ nhẩm tính tổng số tiền và số vé bán ra trong buổi biểu diễn văn nghệ của khu phố. Việc làm của Bình thể hiện thái độ nào?",
+      "generalfeedback": "Chủ động vận dụng bài toán thực tế đã học ở rạp chiếu phim vào việc tính toán thực tế ở khu phố thể hiện ý thức vận dụng kiến thức, kỹ năng học được ở nhà trường vào đời sống hằng ngày.",
+      "answers": [
+        {
+          "text": "Có ý thức vận dụng kiến thức, kĩ năng học được ở nhà trường vào đời sống hằng ngày",
+          "fraction": 100
+        },
+        {
+          "text": "Tự giác chấp hành quy định trật tự an toàn giao thông",
+          "fraction": 0
+        },
+        {
+          "text": "Tính toán nhanh để so sánh thành tích với các bạn khác",
+          "fraction": 0
+        },
+        {
+          "text": "Thực hiện đúng cam kết bảo vệ môi trường",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Để ôn tập tốt Bài tập cuối chương I (gồm các phép tính số tự nhiên, thứ tự thực hiện phép tính, toán thực tế), bạn Minh tự đề ra kế hoạch: 'Mỗi ngày làm 3 bài tập và tự kiểm tra lại đáp án trong 5 ngày'. Việc tự đề ra kế hoạch này giúp Minh rèn luyện năng lực nào?",
+      "generalfeedback": "Tự xác định mục tiêu và lập kế hoạch ôn tập cụ thể cho bản thân thể hiện năng lực tự đặt được mục tiêu học tập để nỗ lực phấn đấu thực hiện.",
+      "answers": [
+        {
+          "text": "Tự đặt được mục tiêu học tập để nỗ lực phấn đấu thực hiện",
+          "fraction": 100
+        },
+        {
+          "text": "Sử dụng công nghệ thông tin trong giao tiếp",
+          "fraction": 0
+        },
+        {
+          "text": "Trình bày văn bản bằng phần mềm máy tính",
+          "fraction": 0
+        },
+        {
+          "text": "Hợp tác nhóm để hoàn thành dự án nghệ thuật",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_01",
+      "questiontext": "Khi giải bài toán: 'Khối 6 có 320 học sinh đi tham quan, cần thuê bao nhiêu xe ô tô 45 chỗ ngồi?', thông tin quan trọng nhất cần xác định và tìm hiểu từ đề bài để giải quyết vấn đề là gì?",
+      "generalfeedback": "Xác định được tổng số học sinh (320) và sức chứa của mỗi xe (45 chỗ) là bước then chốt để thực hiện phép chia tìm số xe cần thuê.",
+      "answers": [
+        {
+          "text": "Tổng số học sinh (320) và số chỗ ngồi trên một xe (45 chỗ)",
+          "fraction": 100
+        },
+        {
+          "text": "Địa điểm tham quan và thời gian xuất phát của chuyến đi",
+          "fraction": 0
+        },
+        {
+          "text": "Tên công ty cho thuê xe ô tô và biển số xe",
+          "fraction": 0
+        },
+        {
+          "text": "Giá tiền thuê một chiếc xe ô tô 45 chỗ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_05",
+      "questiontext": "Trong bài toán xếp 320 học sinh lên xe 45 chỗ, ta có phép chia \\(320 : 45 = 7\\) (dư 5). Lập luận nào sau đây là hợp lí nhất để kết luận số xe ít nhất cần thuê là 8 xe?",
+      "generalfeedback": "Vì 7 xe 45 chỗ chỉ chở được \\(7 \\cdot 45 = 315\\) học sinh, còn dư 5 học sinh chưa có chỗ ngồi nên phải thuê thêm 1 xe nữa (tổng cộng 8 xe) để tất cả học sinh đều được đi.",
+      "answers": [
+        {
+          "text": "Vì 7 xe chỉ chở được 315 học sinh, còn dư 5 học sinh nên phải thêm 1 xe nữa để chở hết học sinh",
+          "fraction": 100
+        },
+        {
+          "text": "Vì 7 xe là số lẻ nên phải làm tròn lên 8 cho thành số chặp",
+          "fraction": 0
+        },
+        {
+          "text": "Vì lấy 7 cộng với số dư 5 ra 12 xe rồi trừ đi 4 ra 8 xe",
+          "fraction": 0
+        },
+        {
+          "text": "Vì xe 45 chỗ luôn luôn phải thuê theo cặp 2 xe",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_03_04",
+      "questiontext": "Để tính nhẩm nhanh tổng \\(S = 125 + 37 + 875 + 63\\), bạn Hoa đã biến đổi \\(S = (125 + 875) + (37 + 63) = 1\\ 000 + 100 = 1\\ 100\\). Bạn Hoa đã sử dụng kiến thức toán học tương thích nào để giải quyết vấn đề này?",
+      "generalfeedback": "Bạn Hoa đã sử dụng tính chất giao hoán và tính chất kết hợp của phép cộng số tự nhiên để nhóm các số có tổng tròn trăm, tròn nghìn.",
+      "answers": [
+        {
+          "text": "Tính chất giao hoán và kết hợp của phép cộng số tự nhiên",
+          "fraction": 100
+        },
+        {
+          "text": "Tính chất phân phối của phép nhân đối với phép cộng",
+          "fraction": 0
+        },
+        {
+          "text": "Quy tắc nhân hai số mũ cùng cơ số",
+          "fraction": 0
+        },
+        {
+          "text": "Phép chia có dư trong tập hợp số tự nhiên",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

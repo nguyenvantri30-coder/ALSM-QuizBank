@@ -1,0 +1,653 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 26,
+    "metadata_used": {
+      "Hệ thống hóa kiến thức Chương I về đa thức nhiều biến": 9,
+      "Tổng hợp kĩ năng tính toán trên đơn thức và đa thức": 6,
+      "Giải bài tập tổng hợp Chương I": 3,
+      "YCCD_TOAN8_003": 2,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_TCTH_TUHOC_C2_02": 1,
+      "NLT_TOAN_C2_01_01": 1,
+      "NLT_TOAN_C2_03_05": 1,
+      "2.1TC2a_K8": 1,
+      "8.A1.2_1": 1,
+      "8.A3.3_1": 1
+    },
+    "types_used": {
+      "multichoice": 16,
+      "shortanswer": 4,
+      "numerical": 2,
+      "truefalse": 2,
+      "matching": 1,
+      "calculatedsimple": 1
+    },
+    "total": 26
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN8_003",
+        "reason": "Đo lường kĩ năng tính giá trị của đa thức khi biết giá trị của các biến."
+      },
+      {
+        "metadata_code": "Hệ thống hóa kiến thức Chương I về đa thức nhiều biến",
+        "reason": "Đo lường khả năng hệ thống hóa kiến thức Chương I về đa thức nhiều biến."
+      },
+      {
+        "metadata_code": "Tổng hợp kĩ năng tính toán trên đơn thức và đa thức",
+        "reason": "Đo lường kĩ năng tổng hợp tính toán trên đơn thức và đa thức."
+      },
+      {
+        "metadata_code": "Giải bài tập tổng hợp Chương I",
+        "reason": "Đo lường kĩ năng giải bài tập tổng hợp Chương I."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đo lường thái độ kiên trì, cố gắng vươn lên trong học tập."
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_02",
+        "reason": "Đo lường kĩ năng lập và thực hiện kế hoạch học tập."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_01",
+        "reason": "Đo lường kĩ năng thực hiện các thao tác tư duy phân tích, tổng hợp toán học."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_05",
+        "reason": "Đo lường kĩ năng sử dụng mô hình hóa toán học để giải quyết vấn đề thực tế."
+      },
+      {
+        "metadata_code": "2.1TC2a_K8",
+        "reason": "Đo lường kĩ năng lựa chọn công cụ công nghệ số phù hợp để hỗ trợ học tập."
+      },
+      {
+        "metadata_code": "8.A1.2_1",
+        "reason": "Đo lường khả năng nhận diện rủi ro khi lạm dụng công cụ AI tạo sinh."
+      },
+      {
+        "metadata_code": "8.A3.3_1",
+        "reason": "Đo lường ý thức thể hiện trách nhiệm giải trình khi sử dụng AI trong học tập."
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống hóa kiến thức Chương I về đa thức nhiều biến",
+      "questiontext": "Đơn thức \\(-2^3x^2yz^3\\) có hệ số và bậc lần lượt là:",
+      "generalfeedback": "Đơn thức \\(-2^3x^2yz^3\\) có hệ số là \\(-2^3 = -8\\), bậc là tổng các số mũ của biến: \\(2 + 1 + 3 = 6\\). Do đó hệ số là \\(-2^3\\) và bậc là 6.",
+      "answers": [
+        {
+          "text": "Hệ số \\(-2^3\\), bậc 6",
+          "fraction": 100
+        },
+        {
+          "text": "Hệ số -2, bậc 8",
+          "fraction": 0
+        },
+        {
+          "text": "Hệ số \\(-2^3\\), bậc 5",
+          "fraction": 0
+        },
+        {
+          "text": "Hệ số -1, bậc 9",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tổng hợp kĩ năng tính toán trên đơn thức và đa thức",
+      "questiontext": "Cho hai đa thức \\(T\\) là tổng và \\(H\\) là hiệu của hai đa thức \\(3x^2y - 2xy^2 + xy\\) và \\(-2x^2y + 3xy^2 + 1\\). Kết quả nào sau đây là đúng?",
+      "generalfeedback": "\\(T = (3x^2y - 2xy^2 + xy) + (-2x^2y + 3xy^2 + 1) = x^2y + xy^2 + xy + 1\\).\n\\(H = (3x^2y - 2xy^2 + xy) - (-2x^2y + 3xy^2 + 1) = 5x^2y - 5xy^2 + xy - 1\\).",
+      "answers": [
+        {
+          "text": "\\(T = x^2y + xy^2 + xy + 1\\) và \\(H = 5x^2y - 5xy^2 + xy - 1\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(T = x^2y - xy^2 + xy + 1\\) và \\(H = 5x^2y - 5xy^2 + xy - 1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(T = x^2y + xy^2 + xy + 1\\) và \\(H = 5x^2y - 5xy^2 - xy - 1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(T = x^2y + xy^2 + xy - 1\\) và \\(H = 5x^2y + 5xy^2 + xy - 1\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tổng hợp kĩ năng tính toán trên đơn thức và đa thức",
+      "questiontext": "Tích của hai đơn thức \\(6x^2yz\\) và \\(-2y^2z^2\\) là đơn thức nào dưới đây?",
+      "generalfeedback": "\\((6x^2yz) \\cdot (-2y^2z^2) = (6 \\cdot (-2)) \\cdot x^2 \\cdot (y \\cdot y^2) \\cdot (z \\cdot z^2) = -12x^2y^3z^3\\).",
+      "answers": [
+        {
+          "text": "\\(-12x^2y^3z^3\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(4x^2y^3z^3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-12x^3y^3z^3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(4x^3y^3z^3\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tổng hợp kĩ năng tính toán trên đơn thức và đa thức",
+      "questiontext": "Khi chia đa thức \\(8x^3y^2 - 6x^2y^3\\) cho đơn thức \\(-2xy\\), ta được kết quả là:",
+      "generalfeedback": "\\((8x^3y^2 - 6x^2y^3) : (-2xy) = (8x^3y^2 : (-2xy)) + (-6x^2y^3 : (-2xy)) = -4x^2y + 3xy^2\\).",
+      "answers": [
+        {
+          "text": "\\(-4x^2y + 3xy^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(-4xy^2 + 3x^2y\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-10x^2y + 4xy^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(4x^2y - 3xy^2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Hệ thống hóa kiến thức Chương I về đa thức nhiều biến",
+      "questiontext": "Một đa thức hai biến bậc hai thu gọn có thể có nhiều nhất bao nhiêu hạng tử bậc hai?",
+      "generalfeedback": "Đa thức hai biến \\(x, y\\) bậc hai thu gọn có các hạng tử bậc hai dạng \\(ax^2 + bxy + cy^2\\). Do đó có nhiều nhất 3 hạng tử bậc hai.",
+      "answers": [
+        {
+          "text": "3",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Hệ thống hóa kiến thức Chương I về đa thức nhiều biến",
+      "questiontext": "Một đa thức hai biến bậc hai thu gọn có thể có nhiều nhất bao nhiêu hạng tử bậc nhất?",
+      "generalfeedback": "Các hạng tử bậc nhất của đa thức hai biến \\(x, y\\) có dạng \\(dx + ey\\). Do đó có nhiều nhất 2 hạng tử bậc nhất.",
+      "answers": [
+        {
+          "text": "2",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Hệ thống hóa kiến thức Chương I về đa thức nhiều biến",
+      "questiontext": "Một đa thức hai biến bậc hai thu gọn có thể có nhiều nhất bao nhiêu hạng tử khác 0? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Đa thức hai biến bậc hai thu gọn đầy đủ có dạng \\(ax^2 + bxy + cy^2 + dx + ey + f\\) (với các hệ số khác 0). Số hạng tử nhiều nhất là 3 + 2 + 1 = 6 hạng tử.",
+      "answers": [
+        {
+          "text": "6",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Giải bài tập tổng hợp Chương I",
+      "questiontext": "Rút gọn biểu thức \\(P = 3x^3(x^5 - y^5) + y^5(3x^3 - y^3)\\), ta được kết quả là:",
+      "generalfeedback": "\\(P = 3x^8 - 3x^3y^5 + 3x^3y^5 - y^8 = 3x^8 - y^8\\).",
+      "answers": [
+        {
+          "text": "\\(3x^8 - y^8\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(3x^8 + y^8\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(3x^8 - 6x^3y^5 - y^8\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(3x^8 + 6x^3y^5 - y^8\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_003",
+      "questiontext": "Tính giá trị của biểu thức \\(P = 3x^3(x^5 - y^5) + y^5(3x^3 - y^3)\\) biết rằng \\(y^4 = x^4\\sqrt{3}\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Rút gọn \\(P = 3x^8 - y^8\\). Từ \\(y^4 = x^4\\sqrt{3}\\) suy ra \\(y^8 = (y^4)^2 = (x^4\\sqrt{3})^2 = 3x^8\\). Thay vào \\(P\\) ta được \\(P = 3x^8 - 3x^8 = 0\\).",
+      "answers": [
+        {
+          "text": "0",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Tổng hợp kĩ năng tính toán trên đơn thức và đa thức",
+      "questiontext": "Rút gọn biểu thức \\(A = \\frac{1}{4}(2x^2+y)(x-2y^2) + \\frac{1}{4}(2x^2-y)(x+2y^2)\\), ta được kết quả là:",
+      "generalfeedback": "\\(A = \\frac{1}{4}[(2x^3 - 4x^2y^2 + xy - 2y^3) + (2x^3 + 4x^2y^2 - xy - 2y^3)] = \\frac{1}{4}(4x^3 - 4y^3) = x^3 - y^3\\).",
+      "answers": [
+        {
+          "text": "\\(x^3 - y^3\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x^3 + y^3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2x^3 - 2y^3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x^3 - 2x^2y^2 - y^3\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Giải bài tập tổng hợp Chương I",
+      "imgs": [
+        "_page_1_Picture_4.jpeg"
+      ],
+      "questiontext": "Cho miếng bìa hình chữ nhật có chiều dài \\(y\\) cm, chiều rộng \\(z\\) cm. Cắt ở bốn góc bốn hình vuông cạnh \\(x\\) cm rồi gấp lại thành chiếc hộp không nắp [img:_page_1_Picture_4.jpeg]. Đa thức biểu thị thể tích của chiếc hộp là:",
+      "generalfeedback": "Chiếc hộp có chiều dài đáy là \\(y - 2x\\), chiều rộng đáy là \\(z - 2x\\) và chiều cao là \\(x\\). Thể tích chiếc hộp là \\(V = x(y - 2x)(z - 2x) = xyz - 2x^2y - 2x^2z + 4x^3\\).",
+      "answers": [
+        {
+          "text": "\\(x(y - 2x)(z - 2x)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(xyz - 2x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x(y - x)(z - x)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2x(y - 2x)(z - 2x)\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Hệ thống hóa kiến thức Chương I về đa thức nhiều biến",
+      "questiontext": "Xác định bậc của đa thức biểu thị thể tích chiếc hộp \\(V = x(y - 2x)(z - 2x)\\) theo ba biến \\(x, y, z\\).",
+      "generalfeedback": "Đa thức \\(V = xyz - 2x^2y - 2x^2z + 4x^3\\) có hạng tử \\(xyz\\) bậc \\(1+1+1=3\\), hạng tử \\(4x^3\\) bậc 3. Do đó bậc của đa thức là 3.",
+      "answers": [
+        {
+          "text": "3",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tổng hợp kĩ năng tính toán trên đơn thức và đa thức",
+      "questiontext": "Biết rằng \\(D\\) là một đơn thức sao cho \\(-2x^3y^4 : D = xy^2\\). Tìm đơn thức \\(D\\).",
+      "generalfeedback": "\\(D = (-2x^3y^4) : (xy^2) = -2x^{3-1}y^{4-2} = -2x^2y^2\\).",
+      "answers": [
+        {
+          "text": "\\(-2x^2y^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(+2x^2y^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-3x^2y^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-1x^2y^2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Giải bài tập tổng hợp Chương I",
+      "questiontext": "Cho đơn thức \\(D\\) thỏa mãn \\(-2x^3y^4 : D = xy^2\\). Tìm thương của phép chia \\((10x^5y^2 - 6x^3y^4 + 8x^2y^5) : D\\).",
+      "generalfeedback": "Ta có \\(D = -2x^2y^2\\). Khi đó \\((10x^5y^2 - 6x^3y^4 + 8x^2y^5) : (-2x^2y^2) = -5x^3 + 3xy^2 - 4y^3\\).",
+      "answers": [
+        {
+          "text": "\\(-5x^3 + 3xy^2 - 4y^3\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(-5x^3 - 3xy^2 + 4y^3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(5x^3 - 3xy^2 + 4y^3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-5x^3 + 3xy^2 + 4y^3\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Tổng hợp kĩ năng tính toán trên đơn thức và đa thức",
+      "questiontext": "Thực hiện phép chia \\([8x^3(2x-5)^2 - 6x^2(2x-5)^3 + 10x(2x-5)^2] : [2x(2x-5)^2]\\) ta được kết quả là:",
+      "generalfeedback": "Đặt \\(y = 2x - 5\\), ta có \\([8x^3y^2 - 6x^2y^3 + 10xy^2] : [2xy^2] = 4x^2 - 3xy + 5 = 4x^2 - 3x(2x-5) + 5 = 4x^2 - 6x^2 + 15x + 5 = -2x^2 + 15x + 5\\).",
+      "answers": [
+        {
+          "text": "\\(-2x^2 + 15x + 5\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(4x^2 - 3x + 5\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-2x^2 - 15x + 5\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2x^2 + 15x - 5\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống hóa kiến thức Chương I về đa thức nhiều biến",
+      "questiontext": "Đa thức \\(A = 3x^2y - 2xy^2 + xy\\) có bậc bằng 3. Khẳng định này Đúng hay Sai?",
+      "generalfeedback": "Đa thức \\(A\\) có các hạng tử \\(3x^2y\\) (bậc 3), \\(-2xy^2\\) (bậc 3), \\(xy\\) (bậc 2). Bậc cao nhất là 3 nên bậc của đa thức \\(A\\) bằng 3. Khẳng định Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống hóa kiến thức Chương I về đa thức nhiều biến",
+      "questiontext": "Hãy ghép mỗi phép tính ở cột trái với kết quả thu gọn tương ứng ở cột phải:",
+      "generalfeedback": "\\((2x)(3xy) = 6x^2y\\); \\((-6x^2y) : (2x) = -3xy\\); \\((x^2y) + (2x^2y) = 3x^2y\\).",
+      "subquestions": [
+        {
+          "question": "Tích của \\(2x\\) và \\(3xy\\)",
+          "answer": "\\(6x^2y\\)"
+        },
+        {
+          "question": "Thương của \\(-6x^2y\\) chia cho \\(2x\\)",
+          "answer": "\\(-3xy\\)"
+        },
+        {
+          "question": "Tổng của \\(x^2y\\) và \\(2x^2y\\)",
+          "answer": "\\(3x^2y\\)"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_003",
+      "questiontext": "Tính giá trị của đơn thức \\(P = {a}x^2y\\) tại \\(x = 2\\) và \\(y = 3\\).",
+      "generalfeedback": "Thay \\(x = 2, y = 3\\) vào \\(P\\) ta được \\(P = {a} \\cdot 2^2 \\cdot 3 = {a} \\cdot 12\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*12",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống hóa kiến thức Chương I về đa thức nhiều biến",
+      "questiontext": "Phép chia đa thức cho đơn thức \\((8x^3y^2 - 6x^2y^3) : (-2xy)\\) thu được thương là một đa thức có bậc bằng 3. Khẳng định này Đúng hay Sai?",
+      "generalfeedback": "Thương tìm được là \\(-4x^2y + 3xy^2\\). Cả hai hạng tử đều có bậc là \\(2 + 1 = 3\\). Do đó thương có bậc bằng 3. Khẳng định Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi gặp bài toán rút gọn biểu thức phức tạp \\(P = 3x^3(x^5 - y^5) + y^5(3x^3 - y^3)\\) trong Bài tập cuối chương I, bạn Nam thấy dài và khó nên định chép lời giải trên mạng để nộp cho xong. Nếu là bạn của Nam, em nên khuyên Nam điều gì để thể hiện tinh thần luôn cố gắng vươn lên trong học tập?",
+      "generalfeedback": "Lời khuyên đúng đắn thể hiện tinh thần vượt khó trong học tập là tự mình kiên trì nhân phá ngoặc, thu gọn từng phần và nhờ thầy cô, bạn bè giảng giúp nếu chưa hiểu, tuyệt đối không chép phạt hay chép đối phó.",
+      "answers": [
+        {
+          "text": "Khuyên Nam tự mình kiên nhẫn nhân phá ngoặc và thu gọn từng phần, nếu chưa hiểu thì hỏi thầy cô hoặc bạn bè chứ không nên chép đối phó.",
+          "fraction": 100
+        },
+        {
+          "text": "Khuyên Nam cứ chép lời giải trên mạng cho nhanh để kịp giờ nộp bài.",
+          "fraction": 0
+        },
+        {
+          "text": "Khuyên Nam bỏ qua câu đó không làm nữa vì bài quá khó.",
+          "fraction": 0
+        },
+        {
+          "text": "Khuyên Nam nhờ bạn khác làm hộ toàn bộ bài toán rồi chép lại.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_02",
+      "questiontext": "Để chuẩn bị cho bài kiểm tra Ôn tập Chương I (Đa thức nhiều biến), bạn Lan lập kế hoạch học tập gồm 4 nội dung: (1) Ôn tập quy tắc nhân, chia đơn thức và đa thức; (2) Luyện tập bài toán thực tế ứng dụng đa thức (như tính thể tích hình hộp); (3) Rà soát lại các khái niệm, hệ số và bậc của đơn thức, đa thức; (4) Giải các bài tập tổng hợp rút gọn biểu thức. Thứ tự thực hiện kế hoạch học tập nào dưới đây là hợp lý nhất?",
+      "generalfeedback": "Kế hoạch học tập khoa học và hiệu quả là đi từ củng cố lý thuyết nền tảng (3) \\(\\rightarrow\\) nắm vững quy tắc tính toán cơ bản (1) \\(\\rightarrow\\) rèn luyện bài tập tổng hợp (4) \\(\\rightarrow\\) vận dụng giải bài toán thực tế (2).",
+      "answers": [
+        {
+          "text": "(3) \\(\\rightarrow\\) (1) \\(\\rightarrow\\) (4) \\(\\rightarrow\\) (2)",
+          "fraction": 100
+        },
+        {
+          "text": "(2) \\(\\rightarrow\\) (4) \\(\\rightarrow\\) (1) \\(\\rightarrow\\) (3)",
+          "fraction": 0
+        },
+        {
+          "text": "(1) \\(\\rightarrow\\) (3) \\(\\rightarrow\\) (2) \\(\\rightarrow\\) (4)",
+          "fraction": 0
+        },
+        {
+          "text": "(4) \\(\\rightarrow\\) (2) \\(\\rightarrow\\) (3) \\(\\rightarrow\\) (1)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Khi thực hiện phép chia đa thức \\(8x^3y^2 - 6x^2y^3\\) cho đơn thức \\(-2xy\\), bạn Bình thực hiện thao tác tư duy phân tích bằng cách tách thành tổng các phép chia đơn thức. Thao tác biến đổi nào dưới đây thể hiện đúng quy trình tư duy đó?",
+      "generalfeedback": "Thao tác phân tích phép chia đa thức cho đơn thức là chia từng hạng tử của đa thức cho đơn thức: \\((8x^3y^2 - 6x^2y^3) : (-2xy) = [8x^3y^2 : (-2xy)] + [-6x^2y^3 : (-2xy)]\\).",
+      "answers": [
+        {
+          "text": "\\([8x^3y^2 : (-2xy)] + [-6x^2y^3 : (-2xy)]\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\([8x^3y^2 : (-2xy)] - [-6x^2y^3 : (-2xy)]\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\([8x^3y^2 - 6x^2y^3] : (-2) + [8x^3y^2 - 6x^2y^3] : (xy)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\([8x^3y^2 : (2xy)] + [6x^2y^3 : (2xy)]\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "imgs": [
+        "_page_1_Picture_4.jpeg"
+      ],
+      "questiontext": "Để tính thể tích của một chiếc hộp không nắp làm từ tấm bìa hình chữ nhật kích thước \\(y \\times z\\) cm sau khi cắt 4 góc các hình vuông cạnh \\(x\\) cm [img:_page_1_Picture_4.jpeg], kĩ năng mô hình hóa toán học nào dưới đây được sử dụng để lập biểu thức thể tích \\(V\\)?",
+      "generalfeedback": "Kĩ năng mô hình hóa toán học biểu diễn mối quan hệ giữa các kích thước hình học thực tế: chiều dài đáy \\(y - 2x\\), chiều rộng đáy \\(z - 2x\\), chiều cao \\(x\\) để lập đa thức thể tích \\(V = x(y - 2x)(z - 2x)\\).",
+      "answers": [
+        {
+          "text": "Xác định các kích thước thực tế của đáy là \\(y - 2x\\), \\(z - 2x\\) và chiều cao là \\(x\\), từ đó thiết lập biểu thức \\(V = x(y - 2x)(z - 2x)\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Lấy thể tích ban đầu \\(xyz\\) trừ đi thể tích 4 hình vuông cắt ở 4 góc.",
+          "fraction": 0
+        },
+        {
+          "text": "Cộng chiều dài \\(y\\), chiều rộng \\(z\\) và chiều cao \\(x\\) rồi nhân với 4.",
+          "fraction": 0
+        },
+        {
+          "text": "Tính diện tích tấm bìa ban đầu \\(yz\\) rồi chia cho chiều cao \\(x\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "2.1TC2a_K8",
+      "questiontext": "Để kiểm tra lại công thức thể tích chiếc hộp \\(V = x(y-2x)(z-2x)\\) và tính toán nhanh giá trị thể tích với nhiều bộ kích thước \\((x, y, z)\\) khác nhau, công cụ công nghệ số nào dưới đây là phù hợp nhất để học sinh chủ động lựa chọn sử dụng?",
+      "generalfeedback": "Bảng tính điện tử (như Google Sheets hay Microsoft Excel) cho phép nhập công thức đại số và tự động tính toán nhanh giá trị với nhiều bộ tham số dữ liệu khác nhau.",
+      "answers": [
+        {
+          "text": "Phần mềm bảng tính điện tử (Google Sheets / Microsoft Excel)",
+          "fraction": 100
+        },
+        {
+          "text": "Phần mềm xử lý văn bản (Microsoft Word)",
+          "fraction": 0
+        },
+        {
+          "text": "Phần mềm trình chiếu (Microsoft PowerPoint)",
+          "fraction": 0
+        },
+        {
+          "text": "Trình duyệt web để tìm lời giải có sẵn",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "8.A1.2_1",
+      "questiontext": "Khi sử dụng công cụ AI tạo sinh để giải bài tập rút gọn biểu thức \\(A = \\frac{1}{4}(2x^2+y)(x-2y^2) + \\frac{1}{4}(2x^2-y)(x+2y^2)\\) trong SGK, AI trả về kết quả là \\(x^3 + y^3\\) (trong khi đáp án đúng là \\(x^3 - y^3\\)). Việc học sinh chép ngay kết quả của AI vào vở bài tập mà không tự kiểm tra lại thể hiện rủi ro nào?",
+      "generalfeedback": "Việc tin tưởng hoàn toàn vào câu trả lời của AI mà không tính toán lại dẫn đến nguy cơ tiếp nhận thông tin sai lệch và làm suy giảm tư duy phản biện của học sinh.",
+      "answers": [
+        {
+          "text": "Suy giảm tư duy phản biện và nguy cơ tiếp nhận, sử dụng thông tin sai lệch do AI tạo ra.",
+          "fraction": 100
+        },
+        {
+          "text": "Tăng cường khả năng sáng tạo toán học và kĩ năng tính toán nhanh.",
+          "fraction": 0
+        },
+        {
+          "text": "Giúp học sinh hiểu sâu hơn về bản chất phép nhân đa thức.",
+          "fraction": 0
+        },
+        {
+          "text": "Bảo mật tuyệt đối dữ liệu cá nhân khi sử dụng phần mềm.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "8.A3.3_1",
+      "questiontext": "Trong bài tập dự án Toán học về \"Ứng dụng đa thức trong thực tế\", bạn Minh có dùng công cụ AI tạo sinh để gợi ý cấu trúc báo cáo và hỗ trợ kiểm tra phép tính. Việc làm nào dưới đây của Minh thể hiện đúng trách nhiệm giải trình khi sử dụng AI?",
+      "generalfeedback": "Trách nhiệm giải trình khi sử dụng AI đòi hỏi học sinh công khai việc có sử dụng AI và ghi rõ AI được sử dụng ở phần nào/công đoạn nào trong sản phẩm học tập.",
+      "answers": [
+        {
+          "text": "Ghi chú rõ trong phần cam đoan/tham khảo của bài báo cáo về việc đã sử dụng AI ở phần tìm ý tưởng cấu trúc và kiểm tra phép tính.",
+          "fraction": 100
+        },
+        {
+          "text": "Gợi ý cho các bạn khác cùng chép mà không cần ghi nguồn AI.",
+          "fraction": 0
+        },
+        {
+          "text": "Giấu không cho thầy cô và các bạn biết việc mình có sử dụng AI.",
+          "fraction": 0
+        },
+        {
+          "text": "Khẳng định toàn bộ bài báo cáo là do AI tự viết 100% mà không có sự đóng góp của bản thân.",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

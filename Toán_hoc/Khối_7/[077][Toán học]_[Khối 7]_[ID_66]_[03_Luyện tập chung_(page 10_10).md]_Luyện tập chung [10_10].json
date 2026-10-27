@@ -1,0 +1,486 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 20,
+    "metadata_used": {
+      "YCCD_TOAN7_040": 5,
+      "YCCD_TOAN7_042": 5,
+      "Ứng dụng dãy tỉ số bằng nhau trong chia tỉ lệ": 5,
+      "Giải bài toán thực tế liên quan đến chia phần tỉ lệ": 5,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_TUCHUTUHOC": 1,
+      "NLC_GIAIQUYETVD": 1,
+      "NLT_TOAN_C2_01": 1,
+      "NLT_TOAN_C2_03": 1
+    },
+    "types_used": {
+      "multichoice": 4,
+      "truefalse": 2,
+      "matching": 2,
+      "gapselect": 2,
+      "shortanswer": 2,
+      "ddwtos": 2,
+      "numerical": 4,
+      "calculated": 2
+    },
+    "total": 20
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_040",
+        "reason": "Vận dụng được tính chất của tỉ lệ thức trong giải toán."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_042",
+        "reason": "Vận dụng được tính chất của dãy tỉ số bằng nhau trong giải toán."
+      },
+      {
+        "metadata_code": "Ứng dụng dãy tỉ số bằng nhau trong chia tỉ lệ",
+        "reason": "Ứng dụng dãy tỉ số bằng nhau trong chia tỉ lệ."
+      },
+      {
+        "metadata_code": "Giải bài toán thực tế liên quan đến chia phần tỉ lệ",
+        "reason": "Giải bài toán thực tế liên quan đến chia phần tỉ lệ."
+      },
+      {
+        "metadata_code": "PC_CHAMCHI",
+        "reason": "Đo lường phẩm chất chăm chỉ qua tình huống kiên trì giải bài toán khó."
+      },
+      {
+        "metadata_code": "PC_TRUNGTHUC",
+        "reason": "Đo lường phẩm chất trung thực trong giờ kiểm tra toán."
+      },
+      {
+        "metadata_code": "NLC_TUCHUTUHOC",
+        "reason": "Đo lường năng lực tự chủ và tự học qua việc lập sơ đồ các bước giải."
+      },
+      {
+        "metadata_code": "NLC_GIAIQUYETVD",
+        "reason": "Đo lường năng lực giải quyết vấn đề qua bài toán thực tế bổ sung nhân lực."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01",
+        "reason": "Đo lường năng lực tư duy và lập luận toán học qua đánh giá phát biểu đúng/sai."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03",
+        "reason": "Đo lường năng lực giải quyết vấn đề toán học qua mô hình hóa bài toán thực tế."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Nội dung bài học Toán 7 về tỉ lệ thức và dãy tỉ số bằng nhau không chứa dữ liệu công nghệ/tin học trực tiếp để đo lường tự nhiên."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Bài học thuần túy về đại số cơ bản Lớp 7, không tích hợp công cụ AI trực tiếp để thiết kế câu hỏi tự nhiên."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_040",
+      "questiontext": "Từ đẳng thức \\(15 \\cdot 24 = 18 \\cdot 20\\), ta có thể lập được tỉ lệ thức nào sau đây?",
+      "generalfeedback": "Từ đẳng thức tích \\(a \\cdot d = b \\cdot c\\), chia hai vế cho \\(18 \\cdot 24\\) ta được tỉ lệ thức \\(\\frac{15}{18} = \\frac{20}{24}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{15}{18} = \\frac{20}{24}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{15}{20} = \\frac{24}{18}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{15}{24} = \\frac{18}{20}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{18}{15} = \\frac{20}{24}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_040",
+      "questiontext": "Từ đẳng thức \\(3x = 4y\\) (với \\(x, y \\neq 0\\)), ta lập được tỉ lệ thức \\(\\frac{x}{4} = \\frac{y}{3}\\). Khẳng định trên đúng hay sai?",
+      "generalfeedback": "Đúng. Chia cả hai vế của đẳng thức \\(3x = 4y\\) cho 12, ta được \\(\\frac{x}{4} = \\frac{y}{3}\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_040",
+      "questiontext": "Hãy ghép mỗi đẳng thức ở cột bên trái với một tỉ lệ thức tương ứng ở cột bên phải:",
+      "generalfeedback": "Dựa vào tính chất tỉ lệ thức: Nếu \\(a \\cdot d = b \\cdot c\\) thì \\(\\frac{a}{b} = \\frac{c}{d}\\).",
+      "subquestions": [
+        {
+          "question": "\\(5 \\cdot 50 = 10 \\cdot 25\\)",
+          "answer": "\\(\\frac{5}{10} = \\frac{25}{50}\\)"
+        },
+        {
+          "question": "\\(3 \\cdot 12 = 4 \\cdot 9\\)",
+          "answer": "\\(\\frac{3}{4} = \\frac{9}{12}\\)"
+        },
+        {
+          "question": "\\(2 \\cdot 15 = 3 \\cdot 10\\)",
+          "answer": "\\(\\frac{2}{3} = \\frac{10}{15}\\)"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_040",
+      "questiontext": "Từ đẳng thức \\(a \\cdot d = b \\cdot c\\) (với \\(a, b, c, d \\neq 0\\)), ta có thể suy ra tỉ lệ thức \\(\\frac{a}{b} = \\) [[1]] và \\(\\frac{a}{c} = \\) [[2]].",
+      "generalfeedback": "Từ đẳng thức tích bằng nhau \\(a \\cdot d = b \\cdot c\\), chia lần lượt cho \\(b \\cdot d\\) và \\(c \\cdot d\\), ta thu được \\(\\frac{a}{b} = \\frac{c}{d}\\) và \\(\\frac{a}{c} = \\frac{b}{d}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(\\frac{c}{d}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{b}{d}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{d}{c}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{d}{b}\\)"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_040",
+      "questiontext": "Tìm giá trị của x thỏa mãn tỉ lệ thức \\(\\frac{x}{9} = \\frac{4}{3}\\).",
+      "generalfeedback": "Từ \\(\\frac{x}{9} = \\frac{4}{3}\\), suy ra \\(3x = 9 \\cdot 4 = 36 \\Rightarrow x = 12\\).",
+      "answers": [
+        {
+          "text": "12",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_042",
+      "questiontext": "Cho dãy tỉ số bằng nhau \\(\\frac{x}{3} = \\frac{y}{2}\\). Theo tính chất của dãy tỉ số bằng nhau, khẳng định nào sau đây là ĐÚNG?",
+      "generalfeedback": "Áp dụng tính chất dãy tỉ số bằng nhau: \\(\\frac{x}{3} = \\frac{y}{2} = \\frac{x+y}{3+2} = \\frac{x-y}{3-2}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{x}{3} = \\frac{y}{2} = \\frac{x+y}{3+2}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{x}{3} = \\frac{y}{2} = \\frac{x+y}{3-2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{x}{3} = \\frac{y}{2} = \\frac{x \\cdot y}{3 \\cdot 2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{x}{3} = \\frac{y}{2} = \\frac{x-y}{3+2}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_042",
+      "questiontext": "Cho dãy tỉ số bằng nhau \\(\\frac{x}{2} = \\frac{y}{3} = \\frac{z}{4}\\). Để tính \\(x + 2y - 3z\\), ta biến đổi các tỉ số thành \\(\\frac{x}{2} = \\frac{2y}{6} = \\frac{3z}{12}\\). Khi đó tỉ số thứ hai đã nhân cả tử và mẫu với [[1]], tỉ số thứ ba đã nhân cả tử và mẫu với [[2]].",
+      "generalfeedback": "Ta có \\(\\frac{y}{3} = \\frac{2y}{6}\\) (nhân cả tử và mẫu với 2) và \\(\\frac{z}{4} = \\frac{3z}{12}\\) (nhân cả tử và mẫu với 3).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "2"
+        },
+        {
+          "group": 1,
+          "text": "3"
+        },
+        {
+          "group": 1,
+          "text": "4"
+        },
+        {
+          "group": 1,
+          "text": "6"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_042",
+      "questiontext": "Tìm giá trị của x biết \\(\\frac{x}{5} = \\frac{y}{3}\\) và \\(x + y = 16\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Áp dụng tính chất dãy tỉ số bằng nhau: \\(\\frac{x}{5} = \\frac{y}{3} = \\frac{x+y}{5+3} = \\frac{16}{8} = 2\\). Suy ra \\(x = 5 \\cdot 2 = 10\\).",
+      "answers": [
+        {
+          "text": "10",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_042",
+      "questiontext": "Tìm giá trị của x biết \\(\\frac{x}{9} = \\frac{y}{4}\\) và \\(x - y = -15\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Áp dụng tính chất dãy tỉ số bằng nhau: \\(\\frac{x}{9} = \\frac{y}{4} = \\frac{x-y}{9-4} = \\frac{-15}{5} = -3\\). Suy ra \\(x = 9 \\cdot (-3) = -27\\).",
+      "answers": [
+        {
+          "text": "-27",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_042",
+      "questiontext": "Cho \\(\\frac x 2 = \\frac y 3 = \\frac z 4\\) và tổng \\(x + y + z\\) bằng {k}. Giá trị của z là bao nhiêu?",
+      "generalfeedback": "Theo tính chất dãy tỉ số bằng nhau: \\(\\frac x 2 = \\frac y 3 = \\frac z 4 = \\frac{x+y+z}{2+3+4} = \\frac{{k}}{9}\\). Suy ra \\(z = 4 \\cdot \\frac{{k}}{9} = \\frac{4}{9} \\cdot {k}\\).",
+      "wildcards": [
+        {
+          "name": "k",
+          "min": 18.0,
+          "max": 90.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{k}*4/9",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Ứng dụng dãy tỉ số bằng nhau trong chia tỉ lệ",
+      "questiontext": "Biết hai số \\(x\\) và \\(y\\) tỉ lệ thuận với 3 và 5. Tỉ lệ thức nào sau đây diễn tả đúng mối quan hệ trên?",
+      "generalfeedback": "Hai số \\(x, y\\) tỉ lệ thuận với 3 và 5 nghĩa là \\(\\frac{x}{3} = \\frac{y}{5}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{x}{3} = \\frac{y}{5}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{x}{5} = \\frac{y}{3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{x}{y} = \\frac{5}{3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(3x = 5y\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Ứng dụng dãy tỉ số bằng nhau trong chia tỉ lệ",
+      "questiontext": "Chia số 120 thành ba phần \\(a, b, c\\) tỉ lệ với các số 2; 3; 5. Giá trị của \\(a, b, c\\) lần lượt là bao nhiêu?",
+      "generalfeedback": "Theo tính chất dãy tỉ số bằng nhau: \\(\\frac{a}{2} = \\frac{b}{3} = \\frac{c}{5} = \\frac{a+b+c}{2+3+5} = \\frac{120}{10} = 12\\). Do đó \\(a = 24, b = 36, c = 60\\).",
+      "answers": [
+        {
+          "text": "\\(a = 24, b = 36, c = 60\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(a = 20, b = 30, c = 70\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a = 12, b = 18, c = 30\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a = 30, b = 45, c = 45\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Ứng dụng dãy tỉ số bằng nhau trong chia tỉ lệ",
+      "questiontext": "Nếu hai số \\(a\\) và \\(b\\) tỉ lệ với 4 và 7 và \\(a + b = 44\\) thì \\(a = 16\\) và \\(b = 28\\). Khẳng định trên đúng hay sai?",
+      "generalfeedback": "Đúng. Ta có \\(\\frac{a}{4} = \\frac{b}{7} = \\frac{a+b}{4+7} = \\frac{44}{11} = 4\\). Suy ra \\(a = 16, b = 28\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "Ứng dụng dãy tỉ số bằng nhau trong chia tỉ lệ",
+      "questiontext": "Ghép mỗi bài toán chia tỉ lệ ở cột trái với kết quả đúng ở cột phải:",
+      "generalfeedback": "Áp dụng tính chất dãy tỉ số bằng nhau để tìm từng phần tương ứng.",
+      "subquestions": [
+        {
+          "question": "Chia 90 thành hai phần tỉ lệ với 1 và 2",
+          "answer": "30 và 60"
+        },
+        {
+          "question": "Chia 100 thành hai phần tỉ lệ với 3 và 7",
+          "answer": "30 và 70"
+        },
+        {
+          "question": "Chia 150 thành hai phần tỉ lệ với 2 và 3",
+          "answer": "60 và 90"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Giải bài toán thực tế liên quan đến chia phần tỉ lệ",
+      "questiontext": "Ba lớp 7A, 7B, 7C trồng được số cây tỉ lệ với 3, 4, 5. Gọi số cây trồng được của ba lớp lần lượt là \\(x, y, z\\). Khi đó ta có dãy tỉ số bằng nhau là \\(\\frac{x}{3} = \\) [[1]] \\(= \\) [[2]].",
+      "generalfeedback": "Do số cây tỉ lệ với 3, 4, 5 nên ta có dãy tỉ số bằng nhau \\(\\frac{x}{3} = \\frac{y}{4} = \\frac{z}{5}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(\\frac{y}{4}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{y}{5}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{z}{5}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{z}{4}\\)"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán thực tế liên quan đến chia phần tỉ lệ",
+      "questiontext": "Số học sinh của hai lớp 7A và 7B tỉ lệ với 8 và 9. Biết rằng lớp 7B nhiều hơn lớp 7A là 4 học sinh. Tính số học sinh của lớp 7A.",
+      "generalfeedback": "Gọi số học sinh lớp 7A và 7B lần lượt là \\(x, y\\). Ta có \\(\\frac{x}{8} = \\frac{y}{9}\\) và \\(y - x = 4\\). Do đó \\(\\frac{y-x}{9-8} = 4 \\Rightarrow x = 8 \\cdot 4 = 32\\).",
+      "answers": [
+        {
+          "text": "32",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán thực tế liên quan đến chia phần tỉ lệ",
+      "questiontext": "Một tam giác có chu vi bằng 36 cm và độ dài ba cạnh tỉ lệ với 3; 4; 5. Tính độ dài cạnh lớn nhất của tam giác đó (theo đơn vị cm). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Gọi độ dài ba cạnh là \\(a, b, c\\). Ta có \\(\\frac{a}{3} = \\frac{b}{4} = \\frac{c}{5} = \\frac{a+b+c}{3+4+5} = \\frac{36}{12} = 3\\). Cạnh lớn nhất là \\(c = 5 \\cdot 3 = 15\\) cm.",
+      "answers": [
+        {
+          "text": "15",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Giải bài toán thực tế liên quan đến chia phần tỉ lệ",
+      "questiontext": "Hai người thợ làm được tổng cộng 45 sản phẩm. Số sản phẩm người thứ nhất và người thứ hai làm được tỉ lệ với 4 và 5. Khi đó, người thứ nhất làm được [[1]] sản phẩm, người thứ hai làm được [[2]] sản phẩm.",
+      "generalfeedback": "Gọi số sản phẩm là \\(x, y\\). Ta có \\(\\frac{x}{4} = \\frac{y}{5} = \\frac{45}{9} = 5 \\Rightarrow x = 20, y = 25\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "20"
+        },
+        {
+          "group": 1,
+          "text": "25"
+        },
+        {
+          "group": 1,
+          "text": "15"
+        },
+        {
+          "group": 1,
+          "text": "30"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán thực tế liên quan đến chia phần tỉ lệ",
+      "questiontext": "Số tiền thưởng của ba công nhân A, B, C tỉ lệ với 2; 3; 4. Biết tổng số tiền thưởng của ba người là 18 triệu đồng. Hỏi công nhân B được thưởng bao nhiêu triệu đồng? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Gọi số tiền thưởng lần lượt là \\(x, y, z\\). Ta có \\(\\frac{x}{2} = \\frac{y}{3} = \\frac{z}{4} = \\frac{18}{9} = 2\\). Công nhân B được thưởng \\(y = 3 \\cdot 2 = 6\\) triệu đồng.",
+      "answers": [
+        {
+          "text": "6",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán thực tế liên quan đến chia phần tỉ lệ",
+      "questiontext": "Ba thửa đất có tổng diện tích là s \\(m^2\\). Diện tích ba thửa đất tỉ lệ với 2; 3; 5. Diện tích thửa đất lớn nhất là bao nhiêu \\(m^2\\)?",
+      "generalfeedback": "Gọi diện tích ba thửa đất lần lượt là \\(x, y, z\\). Ta có \\(\\frac{x}{2} = \\frac{y}{3} = \\frac{z}{5} = \\frac{{s}}{2+3+5} = \\frac{{s}}{10}\\). Thửa đất lớn nhất là \\(z = 5 \\cdot \\frac{{s}}{10} = \\frac{{s}}{2}\\).",
+      "wildcards": [
+        {
+          "name": "s",
+          "min": 100.0,
+          "max": 1000.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{s}/2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    }
+  ]
+}

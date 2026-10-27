@@ -1,0 +1,434 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 16,
+    "metadata_used": {
+      "Công thức tính xác suất P(A) = n(A) / n(Omega) trong mô hình đồng khả năng": 3,
+      "Đếm số kết quả thuận lợi n(A) và số kết quả có thể n(Omega)": 7,
+      "Tính xác suất của biến cố P(A)": 6,
+      "YCCD_TOAN9_127": 4,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_TCTH_TUHOC_C2_01": 1,
+      "SUB_GQVD_DEXUAT_C2_02": 1,
+      "NLT_TOAN_C2_01_05": 1,
+      "NLT_TOAN_C2_03_05": 2
+    },
+    "types_used": {
+      "multichoice": 8,
+      "gapselect": 1,
+      "shortanswer": 1,
+      "numerical": 2,
+      "matching": 2,
+      "truefalse": 1,
+      "ddwtos": 1
+    },
+    "total": 16
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN9_127",
+        "reason": "Đã tạo và kiểm định các câu hỏi đo lường tính xác suất của biến cố trong mô hình đơn giản"
+      },
+      {
+        "metadata_code": "Công thức tính xác suất P(A) = n(A) / n(Omega) trong mô hình đồng khả năng",
+        "reason": "Đã tạo và kiểm định các câu hỏi đo lường công thức tính xác suất P(A) = n(A)/n(Omega)"
+      },
+      {
+        "metadata_code": "Đếm số kết quả thuận lợi n(A) và số kết quả có thể n(Omega)",
+        "reason": "Đã tạo và kiểm định các câu hỏi đo lường kỹ năng đếm số kết quả thuận lợi n(A) và n(Omega)"
+      },
+      {
+        "metadata_code": "Tính xác suất của biến cố P(A)",
+        "reason": "Đã tạo và kiểm định các câu hỏi đo lường kỹ năng tính xác suất của biến cố P(A)"
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đã tạo và kiểm định câu hỏi tình huống đánh giá thái độ nỗ lực trong học tập"
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+        "reason": "Đã tạo và kiểm định câu hỏi đánh giá khả năng tự đặt mục tiêu học tập"
+      },
+      {
+        "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+        "reason": "Đã tạo và kiểm định câu hỏi đánh giá năng lực đề xuất giải pháp giải quyết vấn đề"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_05",
+        "reason": "Đã tạo và kiểm định câu hỏi đánh giá năng lực lập luận toán học hợp lý"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_05",
+        "reason": "Đã tạo và kiểm định câu hỏi đánh giá việc sử dụng kỹ năng toán học tương thích"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N",
+        "reason": "Nhóm mã N (Năng lực tin học/số) không có trong METADATA_DICTIONARY của b106_dec151_yeucau.txt và bài học không chứa nội dung thực hành ứng dụng công nghệ thông tin."
+      },
+      {
+        "metadata_code": "A",
+        "reason": "Nhóm mã A (Năng lực AI) không có trong METADATA_DICTIONARY của b106_dec151_yeucau.txt và bài học thuần toán học xác suất cơ bản không liên quan tự nhiên đến AI."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức tính xác suất P(A) = n(A) / n(Omega) trong mô hình đồng khả năng",
+      "questiontext": "Trong một phép thử với không gian mẫu \\(\\Omega\\) gồm các kết quả đồng khả năng, công thức tính xác suất của biến cố \\(A\\) là:",
+      "generalfeedback": "Xác suất của biến cố \\(A\\) trong mô hình đồng khả năng được tính bằng tỉ số giữa số kết quả thuận lợi cho \\(A\\) và số phần tử của không gian mẫu \\(\\Omega\\): \\(P(A) = \\frac{n(A)}{n(\\Omega)}\\).",
+      "answers": [
+        {
+          "text": "\\(P(A) = \\frac{n(A)}{n(\\Omega)}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(P(A) = \\frac{n(\\Omega)}{n(A)}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(P(A) = n(A) \\cdot n(\\Omega)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(P(A) = n(\\Omega) - n(A)\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức tính xác suất P(A) = n(A) / n(Omega) trong mô hình đồng khả năng",
+      "questiontext": "Để tính xác suất của biến cố \\(E\\) trong phép thử có các kết quả đồng khả năng, ta lập tỉ số giữa số kết quả [[1]] cho biến cố \\(E\\) với số phần tử của [[2]] \\(\\Omega\\).",
+      "generalfeedback": "Công thức tính xác suất \\(P(E) = \\frac{n(E)}{n(\\Omega)}\\), trong đó \\(n(E)\\) là số kết quả thuận lợi cho \\(E\\) và \\(n(\\Omega)\\) là số phần tử của không gian mẫu \\(\\Omega\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "thuận lợi"
+        },
+        {
+          "group": 1,
+          "text": "không gian mẫu"
+        },
+        {
+          "group": 1,
+          "text": "đồng khả năng"
+        },
+        {
+          "group": 1,
+          "text": "biến cố chắc chắn"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Đếm số kết quả thuận lợi n(A) và số kết quả có thể n(Omega)",
+      "imgs": [
+        "_page_0_Figure_20.jpeg"
+      ],
+      "questiontext": "Một tấm bìa cứng hình tròn được chia làm 4 hình quạt bằng nhau, đánh số 1, 2, 3, 4 [img:_page_0_Figure_20.jpeg]. Bạn Tuấn quay tấm bìa 2 lần. Số phần tử của không gian mẫu \\(n(\\Omega)\\) trong phép thử này bằng bao nhiêu?",
+      "generalfeedback": "Mỗi lần quay có 4 kết quả có thể. Quay 2 lần tạo ra \\(4 \\times 4 = 16\\) cặp kết quả có thể, nên \\(n(\\Omega) = 16\\).",
+      "answers": [
+        {
+          "text": "16",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Đếm số kết quả thuận lợi n(A) và số kết quả có thể n(Omega)",
+      "questiontext": "Bạn Hoàng lấy ngẫu nhiên 1 quả cầu từ túi đựng 2 quả cầu (1 đen, 1 trắng). Bạn Hải rút ngẫu nhiên 1 tấm thẻ từ hộp đựng 3 tấm thẻ A, B, C. Số kết quả thuận lợi cho biến cố E: \"Bạn Hoàng lấy được quả cầu màu đen\" là bao nhiêu? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Các kết quả thuận lợi cho E là: (Đen, A), (Đen, B), (Đen, C). Vậy \\(n(E) = 3\\).",
+      "answers": [
+        {
+          "text": "3",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Đếm số kết quả thuận lợi n(A) và số kết quả có thể n(Omega)",
+      "questiontext": "Gieo đồng thời hai con xúc xắc cân đối, đồng chất I và II. Hãy ghép mỗi biến cố sau với số kết quả thuận lợi tương ứng của nó:",
+      "generalfeedback": "Biến cố E có 10 kết quả thuận lợi; Biến cố F có 11 kết quả thuận lợi; Biến cố H có 1 kết quả thuận lợi.",
+      "subquestions": [
+        {
+          "question": "Biến cố E: \"Có đúng một con xúc xắc xuất hiện mặt 6 chấm\"",
+          "answer": "10"
+        },
+        {
+          "question": "Biến cố F: \"Có ít nhất một con xúc xắc xuất hiện mặt 6 chấm\"",
+          "answer": "11"
+        },
+        {
+          "question": "Biến cố H: \"Cả hai con xúc xắc đều xuất hiện mặt 6 chấm\"",
+          "answer": "1"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Tính xác suất của biến cố P(A)",
+      "questiontext": "Ba bạn Bảo, Châu, Dương được xếp ngẫu nhiên ngồi trên một hàng ghế có 3 chỗ ngồi. Xác suất của biến cố E: \"Bảo không ngồi ngoài cùng bên phải\" là:",
+      "generalfeedback": "Không gian mẫu có 6 phần tử. Có 4 kết quả thuận lợi cho E (BCD, BDC, CBD, DBC). Do đó \\(P(E) = \\frac{4}{6} = \\frac{2}{3}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{2}{3}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{1}{3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{1}{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{1}{6}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "van_dung",
+      "metadata_code": "Tính xác suất của biến cố P(A)",
+      "questiontext": "Cho hai túi I và II, mỗi túi chứa 3 tấm thẻ được ghi các số 2, 3, 7. Rút ngẫu nhiên từ mỗi túi ra một tấm thẻ và ghép thành số có hai chữ số (chữ số từ túi I làm hàng chục). Biến cố B: \"Số tạo thành là số nguyên tố\" có xác suất bằng \\(\\frac{1}{3}\\).",
+      "generalfeedback": "Không gian mẫu gồm 9 số: 22, 23, 27, 32, 33, 37, 72, 73, 77. Các số nguyên tố là 23, 37, 73 (có 3 số). Xác suất \\(P(B) = \\frac{3}{9} = \\frac{1}{3}\\). Phát biểu trên là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_127",
+      "imgs": [
+        "_page_0_Picture_8.jpeg"
+      ],
+      "questiontext": "Lai hai cây đậu Hà Lan với cây bố có kiểu gene (AA, Bb) và cây mẹ có kiểu gene (Aa, Bb) [img:_page_0_Picture_8.jpeg]. Xác suất để cây con có kiểu hình hạt vàng và nhăn (mang kiểu gene hạt có ít nhất một allele A và kiểu gene hình dạng hạt là bb) là:",
+      "generalfeedback": "Không gian mẫu có 8 phần tử. Các kết quả thuận lợi cho cây con hạt vàng và nhăn là (AA, bb) và (Aa, bb) (có 2 kết quả). Do đó xác suất là \\(P = \\frac{2}{8} = \\frac{1}{4}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{1}{4}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{3}{4}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{1}{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{1}{8}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_127",
+      "questiontext": "Bạn An gieo một đồng xu cân đối và bạn Bình rút ngẫu nhiên 1 tấm thẻ từ hộp chứa 5 tấm thẻ ghi các số 1, 2, 3, 4, 5. Không gian mẫu của phép thử có [[1]] phần tử. Xác suất của biến cố \"Rút được tấm thẻ ghi số lẻ\" là [[2]].",
+      "generalfeedback": "Không gian mẫu có \\(2 \\times 5 = 10\\) phần tử. Có 6 kết quả thuận lợi cho việc rút được thẻ số lẻ (S1, S3, S5, N1, N3, N5). Xác suất bằng \\(\\frac{6}{10} = \\frac{3}{5}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "10"
+        },
+        {
+          "group": 1,
+          "text": "3/5"
+        },
+        {
+          "group": 1,
+          "text": "5"
+        },
+        {
+          "group": 1,
+          "text": "1/2"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính xác suất của biến cố P(A)",
+      "questiontext": "Chọn ngẫu nhiên một gia đình có hai con. Giả thiết biến cố \"Sinh con trai\" và \"Sinh con gái\" là đồng khả năng. Tính xác suất của biến cố A: \"Gia đình đó có cả con trai và con gái\". (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Không gian mẫu \\(\\Omega = \\{(T, T); (T, G); (G, T); (G, G)\\}\\) gồm 4 phần tử. Các kết quả thuận lợi cho A là (T, G) và (G, T) (2 kết quả). Xác suất \\(P(A) = \\frac{2}{4} = 0.5\\).",
+      "answers": [
+        {
+          "text": "0.5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong tiết học Toán về 'Tính xác suất của biến cố liên quan đến phép thử', bạn An gặp khó khăn khi liệt kê không gian mẫu của bài toán gieo con xúc xắc hai lần liên tiếp do số trường hợp khá nhiều (36 kết quả). Để thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập, bạn An nên thực hiện hành động nào sau đây?",
+      "generalfeedback": "Hành vi chủ động tìm hiểu phương pháp lập bảng 2 chiều để vượt qua khó khăn và tự tay hoàn thành bài tập thể hiện rõ thái độ kiên trì, nỗ lực vươn lên đạt kết quả tốt trong học tập.",
+      "answers": [
+        {
+          "text": "Chủ động nghiên cứu phương pháp lập bảng 2 chiều như SGK hướng dẫn, tự tay liệt kê đầy đủ 36 ô và kiểm tra kĩ từng kết quả thuận lợi.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài toán gieo xúc xắc 2 lần vì cho rằng bài quá dài và chỉ chọn làm các bài toán gieo 1 lần cho đơn giản.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép sẵn kết quả không gian mẫu từ sách giải mà không cần tìm hiểu cách lập bảng hay quy luật liệt kê.",
+          "fraction": 0
+        },
+        {
+          "text": "Đề xuất với giáo viên bỏ bớt phần bài tập về phép thử hai hành động liên tiếp khỏi nội dung kiểm tra.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Nhận thấy kiến thức về tính xác suất của biến cố bằng công thức \\(P(E) = \\frac{n(E)}{n(\\Omega)}\\) đòi hỏi kỹ năng xác định chính xác số phần tử không gian mẫu và số kết quả thuận lợi, mục tiêu học tập nào dưới đây là cụ thể, phù hợp nhất mà một học sinh nên tự đặt ra cho bản thân?",
+      "generalfeedback": "Mục tiêu cụ thể, có định lượng (giải 2 bài/ngày) và tập trung vào kỹ năng trọng tâm (lập bảng không gian mẫu) giúp học sinh có lộ trình rõ ràng để nỗ lực phấn đấu thực hiện.",
+      "answers": [
+        {
+          "text": "Mỗi ngày tự giải và kiểm tra lại ít nhất 2 bài toán về phép thử hai hành động (như gieo xúc xắc 2 lần, rút thẻ từ 2 hộp) để thành thạo cách lập bảng không gian mẫu.",
+          "fraction": 100
+        },
+        {
+          "text": "Học thuộc lòng đáp án của toàn bộ các bài tập trong SGK để đạt điểm cao trong kì kiểm tra sắp tới.",
+          "fraction": 0
+        },
+        {
+          "text": "Cố gắng đạt điểm tối đa môn Toán mà không cần lập kế hoạch hay lộ trình ôn tập cụ thể.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ ôn tập phần lý thuyết định nghĩa xác suất và bỏ qua các bài tập tính toán thực hành.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Trong một trò chơi dân gian ở trường, ban tổ chức dùng một đĩa quay tròn chia làm 4 hình quạt không bằng nhau để quay số trúng thưởng. Bạn Nam nhận thấy cách làm này khiến xác suất mũi tên chỉ vào các ô là không đồng khả năng, dẫn đến trò chơi thiếu tính công bằng. Để giải quyết vấn đề này, giải pháp nào sau đây do bạn Nam đề xuất là hợp lý nhất dựa trên kiến thức bài học?",
+      "generalfeedback": "Để áp dụng công thức xác suất \\(P(E) = \\frac{n(E)}{n(\\Omega)}\\), các kết quả của phép thử phải đồng khả năng. Việc chia đĩa quay thành các hình quạt bằng nhau đảm bảo điều kiện đồng khả năng, giải quyết triệt để vấn đề mất công bằng.",
+      "answers": [
+        {
+          "text": "Chia lại đĩa quay thành 4 hình quạt bằng nhau để đảm bảo các kết quả xuất hiện là đồng khả năng khi quay.",
+          "fraction": 100
+        },
+        {
+          "text": "Giữ nguyên đĩa quay nhưng tăng tốc độ quay đĩa thật nhanh để người chơi không nhìn rõ các ô.",
+          "fraction": 0
+        },
+        {
+          "text": "Thay đĩa quay bằng việc cho người chơi tự chọn một số ngẫu nhiên từ 1 đến 4 mà không cần quay đĩa.",
+          "fraction": 0
+        },
+        {
+          "text": "Yêu cầu ban tổ chức hủy bỏ trò chơi vì đĩa quay tròn không thể dùng để tính xác suất.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_05",
+      "questiontext": "Cho hai túi I và II, túi I đựng 3 tấm thẻ ghi các số 2, 3, 7; túi II đựng 3 tấm thẻ ghi các số 2, 3, 7. Rút ngẫu nhiên từ mỗi túi một tấm thẻ và ghép thành số có hai chữ số (chữ số từ túi I làm hàng chục). Bạn Bình lập luận: 'Có 9 số tạo thành, trong đó các số chia hết cho 4 là 32 và 72. Do đó xác suất để số tạo thành chia hết cho 4 là \\(\\frac{2}{9}\\)'. Lập luận của bạn Bình đúng hay sai và vì sao?",
+      "generalfeedback": "Không gian mẫu \\(\\Omega = \\{22, 23, 27, 32, 33, 37, 72, 73, 77\\}\\) gồm 9 phần tử đồng khả năng. Trong các số này, chỉ có 32 và 72 chia hết cho 4. Do đó có 2 kết quả thuận lợi, xác suất là \\(\\frac{2}{9}\\). Lập luận của Bình là hoàn toàn hợp lý và chính xác.",
+      "answers": [
+        {
+          "text": "Lập luận đúng, vì không gian mẫu có 9 phần tử đồng khả năng và có đúng 2 kết quả thuận lợi là 32 và 72.",
+          "fraction": 100
+        },
+        {
+          "text": "Lập luận sai, vì số 22 cũng chia hết cho 4 nên phải có 3 kết quả thuận lợi.",
+          "fraction": 0
+        },
+        {
+          "text": "Lập luận sai, vì không gian mẫu chỉ có 6 phần tử là 23, 27, 32, 37, 72, 73.",
+          "fraction": 0
+        },
+        {
+          "text": "Lập luận sai, vì các kết quả rút thẻ từ hai túi không đồng khả năng.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Khi giải bài toán tính xác suất của biến cố trong phép thử hai hành động liên tiếp, việc vận dụng các kỹ năng toán học tương thích đóng vai trò rất quan trọng. Hãy ghép mỗi bước giải quyết vấn đề với kỹ năng toán học tương thích tương ứng:",
+      "generalfeedback": "Việc sử dụng đúng kỹ năng toán học ở từng bước (lập bảng liệt kê, kiểm đếm kết quả thuận lợi, tính tỉ số xác suất) giúp giải quyết triệt để và chính xác bài toán xác suất.",
+      "subquestions": [
+        {
+          "question": "Mô tả đầy đủ tất cả các kết quả có thể của phép thử",
+          "answer": "Kỹ năng lập bảng 2 chiều hoặc sơ đồ cây để liệt kê không gian mẫu Omega"
+        },
+        {
+          "question": "Đếm chính xác số trường hợp làm cho biến cố E xảy ra",
+          "answer": "Kỹ năng lọc và kiểm đếm số kết quả thuận lợi n(E)"
+        },
+        {
+          "question": "Tính xác suất của biến cố E",
+          "answer": "Kỹ năng lập tỉ số n(E)/n(Omega) và rút gọn phân số"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Một hộp chứa 5 tấm thẻ đánh số 1, 2, 3, 4, 5. Bạn An gieo một đồng xu cân đối và bạn Bình rút ngẫu nhiên 1 tấm thẻ từ hộp. Để tính xác suất của biến cố G: 'Rút được tấm thẻ ghi số 5 hoặc đồng xu xuất hiện mặt ngửa', kỹ năng toán học nào sau đây giúp kiểm đếm chính xác số kết quả thuận lợi mà không bị đếm lặp?",
+      "generalfeedback": "Liệt kê đầy đủ không gian mẫu 10 phần tử \\(\\{S1, S2, S3, S4, S5, N1, N2, N3, N4, N5\\}\\) rồi đánh dấu các kết quả thuận lợi (N1, N2, N3, N4, N5, S5 - gồm 6 kết quả) là kỹ năng toán học chuẩn xác giúp tránh đếm lặp phần tử N5.",
+      "answers": [
+        {
+          "text": "Liệt kê chi tiết không gian mẫu gồm 10 cặp kết quả (S1 đến S5, N1 đến N5), sau đó đánh dấu các cặp chứa N hoặc chứa số 5.",
+          "fraction": 100
+        },
+        {
+          "text": "Cộng số khả năng ra mặt ngửa (5) với số khả năng rút số 5 (2) mà không cần kiểm tra sự trùng lặp.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ đếm các trường hợp đồng xu ra mặt ngửa và bỏ qua trường hợp đồng xu ra mặt sấp.",
+          "fraction": 0
+        },
+        {
+          "text": "Nhân số kết quả đồng xu ra mặt ngửa với số kết quả rút thẻ ghi số 5.",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,903 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 34,
+    "metadata_used": {
+      "Khái niệm Hàm số (y là hàm số của x)": 3,
+      "Khái niệm Biến số và Giá trị của hàm số": 3,
+      "YCCD_TOAN8_034": 3,
+      "YCCD_TOAN8_035": 3,
+      "Mặt phẳng tọa độ Oxy (trục hoành, trục tung, gốc tọa độ)": 3,
+      "Tọa độ của một điểm (x, y)": 3,
+      "Nhận biết mối quan hệ hàm số giữa hai đại lượng": 3,
+      "Tính giá trị của hàm số y = f(x) tại giá trị cho trước của x": 3,
+      "YCCD_TOAN8_036": 1,
+      "Xác định tọa độ của một điểm trên mặt phẳng tọa độ Oxy": 3,
+      "Biểu diễn một điểm khi biết tọa độ của nó": 2,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_TCTH_TULUC_C2_01": 1,
+      "NLT_TOAN_C2_01_02": 1,
+      "NLT_TOAN_C2_04_12": 1
+    },
+    "types_used": {
+      "multichoice": 19,
+      "truefalse": 5,
+      "numerical": 1,
+      "gapselect": 1,
+      "calculatedsimple": 1,
+      "matching": 1,
+      "shortanswer": 2,
+      "ddwtos": 2,
+      "calculated": 2
+    },
+    "total": 34
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN8_034",
+        "reason": "Đo lường khả năng nhận biết mô hình thực tế dẫn đến khái niệm hàm số"
+      },
+      {
+        "metadata_code": "YCCD_TOAN8_035",
+        "reason": "Đo lường khả năng tính giá trị hàm số khi hàm số đó xác định bởi công thức"
+      },
+      {
+        "metadata_code": "YCCD_TOAN8_036",
+        "reason": "Đo lường khả năng xác định tọa độ của một điểm trên mặt phẳng tọa độ"
+      },
+      {
+        "metadata_code": "Khái niệm Hàm số (y là hàm số của x)",
+        "reason": "Đo lường sự hiểu biết về khái niệm hàm số"
+      },
+      {
+        "metadata_code": "Khái niệm Biến số và Giá trị của hàm số",
+        "reason": "Đo lường sự hiểu biết về khái niệm biến số và giá trị của hàm số"
+      },
+      {
+        "metadata_code": "Mặt phẳng tọa độ Oxy (trục hoành, trục tung, gốc tọa độ)",
+        "reason": "Đo lường sự hiểu biết về mặt phẳng tọa độ Oxy"
+      },
+      {
+        "metadata_code": "Tọa độ của một điểm (x, y)",
+        "reason": "Đo lường sự hiểu biết về tọa độ của một điểm"
+      },
+      {
+        "metadata_code": "Nhận biết mối quan hệ hàm số giữa hai đại lượng",
+        "reason": "Đo lường kỹ năng nhận biết mối quan hệ hàm số giữa hai đại lượng"
+      },
+      {
+        "metadata_code": "Tính giá trị của hàm số y = f(x) tại giá trị cho trước của x",
+        "reason": "Đo lường kỹ năng tính giá trị của hàm số y = f(x) tại giá trị cho trước"
+      },
+      {
+        "metadata_code": "Xác định tọa độ của một điểm trên mặt phẳng tọa độ Oxy",
+        "reason": "Đo lường kỹ năng xác định tọa độ của điểm trên mặt phẳng Oxy"
+      },
+      {
+        "metadata_code": "Biểu diễn một điểm khi biết tọa độ của nó",
+        "reason": "Đo lường kỹ năng biểu diễn điểm khi biết tọa độ"
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đo lường phẩm chất vươn lên đạt kết quả tốt trong học tập qua tình huống giải toán hàm số"
+      },
+      {
+        "metadata_code": "SUB_TCTH_TULUC_C2_01",
+        "reason": "Đo lường năng lực tự học, chủ động tích cực chuẩn bị bài học nhóm về hàm số"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_02",
+        "reason": "Đo lường năng lực quan sát toán học khi đọc tọa độ điểm trên mặt phẳng Oxy"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_04_12",
+        "reason": "Đo lường năng lực sử dụng ngôn ngữ toán học kết hợp ngôn ngữ thông thường để biểu đạt hàm số"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Mã Năng lực tin học/số không nằm trong METADATA_DICTIONARY bài học"
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Mã Năng lực AI không nằm trong METADATA_DICTIONARY bài học"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm Hàm số (y là hàm số của x)",
+      "questiontext": "Cho đại lượng \\(y\\) phụ thuộc vào đại lượng thay đổi \\(x\\). Khi nào \\(y\\) được gọi là hàm số của \\(x\\)?",
+      "generalfeedback": "Theo định nghĩa SGK: Nếu đại lượng \\(y\\) phụ thuộc vào đại lượng thay đổi \\(x\\) sao cho với mỗi giá trị của \\(x\\) ta luôn xác định được chỉ một giá trị tương ứng của \\(y\\) thì \\(y\\) được gọi là hàm số của \\(x\\).",
+      "answers": [
+        {
+          "text": "Với mỗi giá trị của \\(x\\) ta luôn xác định được chỉ một giá trị tương ứng của \\(y\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Với mỗi giá trị của \\(x\\) ta xác định được ít nhất hai giá trị tương ứng của \\(y\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Với mỗi giá trị của \\(y\\) ta luôn xác định được chỉ một giá trị tương ứng của \\(x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Đại lượng \\(y\\) không thay đổi khi \\(x\\) thay đổi",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm Biến số và Giá trị của hàm số",
+      "questiontext": "Trong khái niệm hàm số \\(y = f(x)\\), đại lượng thay đổi \\(x\\) được gọi là biến số.",
+      "generalfeedback": "Đúng. Trong hàm số \\(y = f(x)\\), \\(x\\) là đại lượng thay đổi và được gọi là biến số.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_034",
+      "questiontext": "Một ô tô chuyển động với vận tốc không đổi \\(60\\text{ km/h}\\). Công thức tính quãng đường \\(S\\text{ (km)}\\) đi được trong thời gian \\(t\\text{ (giờ)}\\) là \\(S = 60t\\). Đại lượng \\(S\\) có phải là hàm số của đại lượng \\(t\\) không?",
+      "generalfeedback": "Vì với mỗi giá trị của thời gian \\(t > 0\\), ta chỉ xác định được duy nhất một giá trị tương ứng của quãng đường \\(S = 60t\\), nên \\(S\\) là hàm số của \\(t\\).",
+      "answers": [
+        {
+          "text": "Có, vì với mỗi giá trị của \\(t\\) ta luôn xác định được chỉ một giá trị tương ứng của \\(S\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Không, vì \\(S\\) và \\(t\\) là hai đại lượng tỉ lệ nghịch",
+          "fraction": 0
+        },
+        {
+          "text": "Không, vì vận tốc \\(60\\text{ km/h}\\) là hằng số không đổi",
+          "fraction": 0
+        },
+        {
+          "text": "Có, vì \\(t\\) phụ thuộc vào \\(S\\) theo công thức \\(t = 60S\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_035",
+      "questiontext": "Cho hàm số \\(y = f(x) = 2x + 1\\). Tính giá trị của hàm số tại \\(x = 3\\). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Thay \\(x = 3\\) vào công thức hàm số: \\(f(3) = 2 \\cdot 3 + 1 = 7\\).",
+      "answers": [
+        {
+          "text": "7",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Mặt phẳng tọa độ Oxy (trục hoành, trục tung, gốc tọa độ)",
+      "questiontext": "Trong mặt phẳng tọa độ \\(Oxy\\), trục nằm ngang \\(Ox\\) và trục thẳng đứng \\(Oy\\) lần lượt được gọi là gì?",
+      "generalfeedback": "Trục nằm ngang \\(Ox\\) gọi là trục hoành, trục thẳng đứng \\(Oy\\) gọi là trục tung.",
+      "answers": [
+        {
+          "text": "Trục hoành và trục tung",
+          "fraction": 100
+        },
+        {
+          "text": "Trục tung và trục hoành",
+          "fraction": 0
+        },
+        {
+          "text": "Trục hoành và gốc tọa độ",
+          "fraction": 0
+        },
+        {
+          "text": "Trục tung và gốc tọa độ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Tọa độ của một điểm (x, y)",
+      "questiontext": "Trong mặt phẳng tọa độ \\(Oxy\\), cặp số \\((x_0; y_0)\\) là tọa độ của điểm \\(M\\), trong đó \\(x_0\\) gọi là [[1]] và \\(y_0\\) gọi là [[2]].",
+      "generalfeedback": "Trong tọa độ \\((x_0; y_0)\\) của điểm \\(M\\), số viết trước \\(x_0\\) là hoành độ, số viết sau \\(y_0\\) là tung độ.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "hoành độ"
+        },
+        {
+          "group": 1,
+          "text": "tung độ"
+        },
+        {
+          "group": 1,
+          "text": "gốc tọa độ"
+        },
+        {
+          "group": 1,
+          "text": "biến số"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết mối quan hệ hàm số giữa hai đại lượng",
+      "questiontext": "Cho bảng biểu diễn giá trị tương ứng của hai đại lượng \\(x\\) và \\(y\\):\n\n| \\(x\\) | -2 | -1 | 0 | 1 | -2 |\n|---|---|---|---|---|---| \n| \\(y\\) | -1 | 0 | 1 | 2 | 1 |\n\nĐại lượng \\(y\\) có phải là hàm số của đại lượng \\(x\\) không?",
+      "generalfeedback": "Đại lượng \\(y\\) không phải là hàm số của \\(x\\) vì với giá trị \\(x = -2\\), ta xác định được hai giá trị tương ứng khác nhau của \\(y\\) là \\(y = -1\\) và \\(y = 1\\).",
+      "answers": [
+        {
+          "text": "Không, vì ứng với \\(x = -2\\) có hai giá trị tương ứng của \\(y\\) là \\(-1\\) và \\(1\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Có, vì với mỗi giá trị của \\(x\\) luôn xác định duy nhất một giá trị của \\(y\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Có, vì \\(y\\) tăng khi \\(x\\) tăng",
+          "fraction": 0
+        },
+        {
+          "text": "Không, vì các giá trị của \\(y\\) không tỉ lệ với \\(x\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Tính giá trị của hàm số y = f(x) tại giá trị cho trước của x",
+      "questiontext": "Cho hàm số \\(y = f(x) = 3x\\). Tính giá trị của hàm số khi \\(x =\\) {a}.",
+      "generalfeedback": "Giá trị của hàm số tại \\(x = {a}\\) là \\(f({a}) = 3 \\times {a}\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "3*{a}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_036",
+      "imgs": [
+        "_page_2_Figure_19.jpeg"
+      ],
+      "questiontext": "Quan sát Hình 7.3 [img:_page_2_Figure_19.jpeg], hãy cho biết tọa độ của điểm \\(A\\) là bao nhiêu?",
+      "generalfeedback": "Từ điểm \\(A\\) kẻ đường vuông góc xuống trục hoành cắt tại \\(2\\), xuống trục tung cắt tại \\(-3\\). Do đó tọa độ điểm \\(A\\) là \\((2; -3)\\).",
+      "answers": [
+        {
+          "text": "\\((2; -3)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\((-3; 2)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((-2; 1)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((1; -2)\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Xác định tọa độ của một điểm trên mặt phẳng tọa độ Oxy",
+      "questiontext": "Ghép từng vị trí đặc biệt của một điểm trên mặt phẳng tọa độ \\(Oxy\\) với tính chất tọa độ tương ứng của nó:",
+      "generalfeedback": "Gốc tọa độ \\(O\\) có tọa độ \\((0; 0)\\). Điểm nằm trên trục hoành \\(Ox\\) có tung độ bằng \\(0\\). Điểm nằm trên trục tung \\(Oy\\) có hoành độ bằng \\(0\\). Điểm thuộc góc phần tư thứ III có cả hoành độ và tung độ đều âm.",
+      "subquestions": [
+        {
+          "question": "Gốc tọa độ \\(O\\)",
+          "answer": "Có tọa độ là \\((0; 0)\\)"
+        },
+        {
+          "question": "Điểm nằm trên trục hoành \\(Ox\\)",
+          "answer": "Có tung độ bằng 0"
+        },
+        {
+          "question": "Điểm nằm trên trục tung \\(Oy\\)",
+          "answer": "Có hoành độ bằng 0"
+        },
+        {
+          "question": "Điểm thuộc góc phần tư thứ III",
+          "answer": "Có cả hoành độ và tung độ đều âm"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm Hàm số (y là hàm số của x)",
+      "questiontext": "Trong kí hiệu hàm số \\(y = f(x)\\), kí tự \\(x\\) đại diện cho yếu tố nào của hàm số?",
+      "generalfeedback": "Kí tự \\(x\\) trong \\(y = f(x)\\) đại diện cho biến số.",
+      "answers": [
+        {
+          "text": "biến số",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm Biến số và Giá trị của hàm số",
+      "questiontext": "Nếu \\(y = f(x) = 2x + 1\\), kí hiệu \\(f(1) = 3\\) có nghĩa là khi \\(x\\) bằng 1 thì giá trị tương ứng của \\(y\\) bằng 3.",
+      "generalfeedback": "Đúng. Theo chú ý trong SGK, \\(f(1) = 3\\) biểu thị giá trị của hàm số \\(y\\) bằng 3 khi biến số \\(x = 1\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_034",
+      "imgs": [
+        "_page_0_Figure_14.jpeg"
+      ],
+      "questiontext": "Quan sát biểu đồ đoạn thẳng Hình 7.1 [img:_page_0_Figure_14.jpeg] mô tả sản lượng tiêu thụ ô tô của thị trường Việt Nam trong 5 tháng đầu năm 2020. Nếu gọi \\(y\\) là số lượng ô tô tiêu thụ trong tháng \\(x\\) (với \\(x \\in \\{1; 2; 3; 4; 5\\}\\)) thì \\(y\\) có phải là hàm số của \\(x\\) không?",
+      "generalfeedback": "Số lượng ô tô tiêu thụ \\(y\\) là một hàm số của tháng \\(x\\) vì ứng với mỗi tháng \\(x\\) từ tháng 1 đến tháng 5, ta xác định được duy nhất một giá trị sản lượng tiêu thụ \\(y\\).",
+      "answers": [
+        {
+          "text": "Có, vì mỗi tháng \\(x\\) xác định duy nhất một số lượng ô tô tiêu thụ \\(y\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Không, vì số lượng ô tô tiêu thụ thay đổi qua các tháng",
+          "fraction": 0
+        },
+        {
+          "text": "Không, vì biểu đồ là đường gấp khúc không phải đường thẳng",
+          "fraction": 0
+        },
+        {
+          "text": "Có, vì sản lượng tháng 4 là thấp nhất trong 5 tháng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_035",
+      "questiontext": "Cho hàm số \\(y = f(x) = \\frac{4}{x}\\). Tính giá trị \\(f(-4)\\) và \\(f(8)\\).",
+      "generalfeedback": "\\(f(-4) = \\frac{4}{-4} = -1\\) và \\(f(8) = \\frac{4}{8} = 0,5\\).",
+      "answers": [
+        {
+          "text": "\\(f(-4) = -1\\) và \\(f(8) = 0,5\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(f(-4) = 1\\) và \\(f(8) = 2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(f(-4) = -1\\) và \\(f(8) = 2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(f(-4) = -16\\) và \\(f(8) = 32\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Mặt phẳng tọa độ Oxy (trục hoành, trục tung, gốc tọa độ)",
+      "questiontext": "Giao điểm \\(O\\) của hai trục tọa độ \\(Ox\\) và \\(Oy\\) vuông góc với nhau được gọi là gốc tọa độ.",
+      "generalfeedback": "Đúng. Giao điểm \\(O\\) của hai trục tọa độ \\(Ox\\) và \\(Oy\\) gọi là gốc tọa độ.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Tọa độ của một điểm (x, y)",
+      "questiontext": "Các điểm có hoành độ bằng 0 thì nằm trên [[1]], còn các điểm có tung độ bằng 0 thì nằm trên [[2]].",
+      "generalfeedback": "Các điểm có hoành độ bằng 0 (dạng \\((0; y)\\)) nằm trên trục tung \\(Oy\\). Các điểm có tung độ bằng 0 (dạng \\((x; 0)\\)) nằm trên trục hoành \\(Ox\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "trục tung Oy"
+        },
+        {
+          "group": 1,
+          "text": "trục hoành Ox"
+        },
+        {
+          "group": 1,
+          "text": "gốc tọa độ O"
+        },
+        {
+          "group": 1,
+          "text": "góc phần tư thứ I"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết mối quan hệ hàm số giữa hai đại lượng",
+      "questiontext": "Cho công thức tính thời gian di chuyển \\(t\\text{ (giờ)}\\) của một ô tô trên quãng đường dài \\(150\\text{ km}\\) với vận tốc không đổi \\(v\\text{ (km/h)}\\) là \\(t = \\frac{150}{v}\\). Thời gian \\(t\\) có phải là một hàm số của vận tốc \\(v\\) không?",
+      "generalfeedback": "Có, vì với mỗi giá trị của vận tốc \\(v > 0\\), ta luôn xác định được duy nhất một giá trị tương ứng của thời gian \\(t = \\frac{150}{v}\\).",
+      "answers": [
+        {
+          "text": "Có, vì ứng với mỗi giá trị \\(v > 0\\) ta luôn xác định được duy nhất một giá trị tương ứng của \\(t\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Không, vì \\(t\\) và \\(v\\) là hai đại lượng tỉ lệ thuận",
+          "fraction": 0
+        },
+        {
+          "text": "Không, vì quãng đường \\(150\\text{ km}\\) không đổi",
+          "fraction": 0
+        },
+        {
+          "text": "Có, vì khi \\(v\\) tăng thì \\(t\\) cũng tăng theo",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Xác định tọa độ của một điểm trên mặt phẳng tọa độ Oxy",
+      "imgs": [
+        "_page_5_Figure_6.jpeg"
+      ],
+      "questiontext": "Quan sát Hình 7.8 [img:_page_5_Figure_6.jpeg], xác định tọa độ các điểm \\(A\\) và \\(B\\).",
+      "generalfeedback": "Quan sát Hình 7.8, điểm \\(A\\) có hoành độ 1, tung độ 2 nên \\(A(1; 2)\\); điểm \\(B\\) có hoành độ 2, tung độ -1 nên \\(B(2; -1)\\).",
+      "answers": [
+        {
+          "text": "\\(A(1; 2)\\) và \\(B(2; -1)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(A(2; 1)\\) và \\(B(-1; 2)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(A(1; 2)\\) và \\(B(-1; 2)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(A(-2; 1)\\) và \\(B(2; -1)\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Biểu diễn một điểm khi biết tọa độ của nó",
+      "imgs": [
+        "_page_3_Figure_1.jpeg"
+      ],
+      "questiontext": "Quan sát Hình 7.4 [img:_page_3_Figure_1.jpeg], điểm \\(C(0; -2)\\) và điểm \\(D(-1; 0)\\) nằm ở vị trí nào trên mặt phẳng tọa độ?",
+      "generalfeedback": "Điểm \\(C(0; -2)\\) có hoành độ bằng 0 nên nằm trên trục tung \\(Oy\\). Điểm \\(D(-1; 0)\\) có tung độ bằng 0 nên nằm trên trục hoành \\(Ox\\).",
+      "answers": [
+        {
+          "text": "\\(C\\) nằm trên trục tung \\(Oy\\), \\(D\\) nằm trên trục hoành \\(Ox\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(C\\) nằm trên trục hoành \\(Ox\\), \\(D\\) nằm trên trục tung \\(Oy\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Cả \\(C\\) và \\(D\\) đều nằm ở góc phần tư thứ III",
+          "fraction": 0
+        },
+        {
+          "text": "Cả \\(C\\) và \\(D\\) đều trùng với gốc tọa độ \\(O\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Tính giá trị của hàm số y = f(x) tại giá trị cho trước của x",
+      "questiontext": "Cho hàm số \\(y = f(x) = 2x + 5\\). Tính giá trị của hàm số tại \\(x =\\) {x}.",
+      "generalfeedback": "Thay \\(x = {x}\\) vào công thức \\(f(x) = 2x + 5\\), ta được \\(2 \\times {x} + 5\\).",
+      "wildcards": [
+        {
+          "name": "x",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "2*{x}+5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm Hàm số (y là hàm số của x)",
+      "questiontext": "Trong kí hiệu hàm số \\(y = f(x)\\), kí tự \\(x\\) đại diện cho yếu tố nào của hàm số?",
+      "generalfeedback": "Kí tự \\(x\\) trong \\(y = f(x)\\) đại diện cho biến số.",
+      "answers": [
+        {
+          "text": "biến số",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm Biến số và Giá trị của hàm số",
+      "questiontext": "Nếu \\(y = f(x) = 2x + 1\\), kí hiệu \\(f(1) = 3\\) có nghĩa là khi \\(x\\) bằng 1 thì giá trị tương ứng của \\(y\\) bằng 3.",
+      "generalfeedback": "Đúng. Theo chú ý trong SGK, \\(f(1) = 3\\) biểu thị giá trị của hàm số \\(y\\) bằng 3 khi biến số \\(x = 1\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_034",
+      "imgs": [
+        "_page_0_Figure_14.jpeg"
+      ],
+      "questiontext": "Quan sát biểu đồ đoạn thẳng Hình 7.1 [img:_page_0_Figure_14.jpeg] mô tả sản lượng tiêu thụ ô tô của thị trường Việt Nam trong 5 tháng đầu năm 2020. Nếu gọi \\(y\\) là số lượng ô tô tiêu thụ trong tháng \\(x\\) (với \\(x \\in \\{1; 2; 3; 4; 5\\}\\)) thì \\(y\\) có phải là hàm số của \\(x\\) không?",
+      "generalfeedback": "Số lượng ô tô tiêu thụ \\(y\\) là một hàm số của tháng \\(x\\) vì ứng với mỗi tháng \\(x\\) từ tháng 1 đến tháng 5, ta xác định được duy nhất một giá trị sản lượng tiêu thụ \\(y\\).",
+      "answers": [
+        {
+          "text": "Có, vì mỗi tháng \\(x\\) xác định duy nhất một số lượng ô tô tiêu thụ \\(y\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Không, vì số lượng ô tô tiêu thụ thay đổi qua các tháng",
+          "fraction": 0
+        },
+        {
+          "text": "Không, vì biểu đồ là đường gấp khúc không phải đường thẳng",
+          "fraction": 0
+        },
+        {
+          "text": "Có, vì sản lượng tháng 4 là thấp nhất trong 5 tháng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_035",
+      "questiontext": "Cho hàm số \\(y = f(x) = \\frac{4}{x}\\). Tính giá trị \\(f(-4)\\) và \\(f(8)\\).",
+      "generalfeedback": "\\(f(-4) = \\frac{4}{-4} = -1\\) và \\(f(8) = \\frac{4}{8} = 0,5\\).",
+      "answers": [
+        {
+          "text": "\\(f(-4) = -1\\) và \\(f(8) = 0,5\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(f(-4) = 1\\) và \\(f(8) = 2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(f(-4) = -1\\) và \\(f(8) = 2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(f(-4) = -16\\) và \\(f(8) = 32\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Mặt phẳng tọa độ Oxy (trục hoành, trục tung, gốc tọa độ)",
+      "questiontext": "Giao điểm \\(O\\) của hai trục tọa độ \\(Ox\\) và \\(Oy\\) vuông góc với nhau được gọi là gốc tọa độ.",
+      "generalfeedback": "Đúng. Giao điểm \\(O\\) của hai trục tọa độ \\(Ox\\) và \\(Oy\\) gọi là gốc tọa độ.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Tọa độ của một điểm (x, y)",
+      "questiontext": "Các điểm có hoành độ bằng 0 thì nằm trên [[1]], còn các điểm có tung độ bằng 0 thì nằm trên [[2]].",
+      "generalfeedback": "Các điểm có hoành độ bằng 0 (dạng \\((0; y)\\)) nằm trên trục tung \\(Oy\\). Các điểm có tung độ bằng 0 (dạng \\((x; 0)\\)) nằm trên trục hoành \\(Ox\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "trục tung Oy"
+        },
+        {
+          "group": 1,
+          "text": "trục hoành Ox"
+        },
+        {
+          "group": 1,
+          "text": "gốc tọa độ O"
+        },
+        {
+          "group": 1,
+          "text": "góc phần tư thứ I"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết mối quan hệ hàm số giữa hai đại lượng",
+      "questiontext": "Cho công thức tính thời gian di chuyển \\(t\\text{ (giờ)}\\) của một ô tô trên quãng đường dài \\(150\\text{ km}\\) với vận tốc không đổi \\(v\\text{ (km/h)}\\) là \\(t = \\frac{150}{v}\\). Thời gian \\(t\\) có phải là một hàm số của vận tốc \\(v\\) không?",
+      "generalfeedback": "Có, vì với mỗi giá trị của vận tốc \\(v > 0\\), ta luôn xác định được duy nhất một giá trị tương ứng của thời gian \\(t = \\frac{150}{v}\\).",
+      "answers": [
+        {
+          "text": "Có, vì ứng với mỗi giá trị \\(v > 0\\) ta luôn xác định được duy nhất một giá trị tương ứng của \\(t\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Không, vì \\(t\\) và \\(v\\) là hai đại lượng tỉ lệ thuận",
+          "fraction": 0
+        },
+        {
+          "text": "Không, vì quãng đường \\(150\\text{ km}\\) không đổi",
+          "fraction": 0
+        },
+        {
+          "text": "Có, vì khi \\(v\\) tăng thì \\(t\\) cũng tăng theo",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Xác định tọa độ của một điểm trên mặt phẳng tọa độ Oxy",
+      "imgs": [
+        "_page_5_Figure_6.jpeg"
+      ],
+      "questiontext": "Quan sát Hình 7.8 [img:_page_5_Figure_6.jpeg], xác định tọa độ các điểm \\(A\\) và \\(B\\).",
+      "generalfeedback": "Quan sát Hình 7.8, điểm \\(A\\) có hoành độ 1, tung độ 2 nên \\(A(1; 2)\\); điểm \\(B\\) có hoành độ 2, tung độ -1 nên \\(B(2; -1)\\).",
+      "answers": [
+        {
+          "text": "\\(A(1; 2)\\) và \\(B(2; -1)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(A(2; 1)\\) và \\(B(-1; 2)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(A(1; 2)\\) và \\(B(-1; 2)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(A(-2; 1)\\) và \\(B(2; -1)\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Biểu diễn một điểm khi biết tọa độ của nó",
+      "imgs": [
+        "_page_3_Figure_1.jpeg"
+      ],
+      "questiontext": "Quan sát Hình 7.4 [img:_page_3_Figure_1.jpeg], điểm \\(C(0; -2)\\) và điểm \\(D(-1; 0)\\) nằm ở vị trí nào trên mặt phẳng tọa độ?",
+      "generalfeedback": "Điểm \\(C(0; -2)\\) có hoành độ bằng 0 nên nằm trên trục tung \\(Oy\\). Điểm \\(D(-1; 0)\\) có tung độ bằng 0 nên nằm trên trục hoành \\(Ox\\).",
+      "answers": [
+        {
+          "text": "\\(C\\) nằm trên trục tung \\(Oy\\), \\(D\\) nằm trên trục hoành \\(Ox\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(C\\) nằm trên trục hoành \\(Ox\\), \\(D\\) nằm trên trục tung \\(Oy\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Cả \\(C\\) và \\(D\\) đều nằm ở góc phần tư thứ III",
+          "fraction": 0
+        },
+        {
+          "text": "Cả \\(C\\) và \\(D\\) đều trùng với gốc tọa độ \\(O\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Tính giá trị của hàm số y = f(x) tại giá trị cho trước của x",
+      "questiontext": "Cho hàm số \\(y = f(x) = 2x + 5\\). Tính giá trị của hàm số tại \\(x =\\) {x}.",
+      "generalfeedback": "Thay \\(x = {x}\\) vào công thức \\(f(x) = 2x + 5\\), ta được \\(2 \\times {x} + 5\\).",
+      "wildcards": [
+        {
+          "name": "x",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "2*{x}+5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi giải bài tập tính giá trị của hàm số \\(y = f(x) = \\frac{4}{x}\\) tại \\(x = 0\\), bạn An gặp khó khăn vì không thực hiện được phép chia cho 0. Để thể hiện phẩm chất luôn cố gắng vươn lên đạt kết quả tốt trong học tập, bạn An nên thực hiện hành động nào sau đây?",
+      "generalfeedback": "Để vươn lên đạt kết quả tốt trong học tập (Q1), khi gặp bài toán khó hoặc tình huống chưa hiểu rõ, học sinh cần chủ động nghiên cứu lại định nghĩa, kiến thức bài học và tìm sự hỗ trợ từ thầy cô, bạn bè để hiểu bản chất thay vì bỏ cuộc hoặc chép bài.",
+      "answers": [
+        {
+          "text": "Tự đọc lại định nghĩa hàm số trong SGK, hỏi thầy cô hoặc thảo luận với bạn để hiểu rõ vì sao hàm số không xác định tại \\(x = 0\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua không làm câu hỏi này nữa vì cho rằng đề bài bị sai",
+          "fraction": 0
+        },
+        {
+          "text": "Sao chép kết quả của bạn khác vào vở mà không cần tìm hiểu lý do",
+          "fraction": 0
+        },
+        {
+          "text": "Nhờ bạn làm hộ toàn bộ bài tập về nhà để nộp đúng hạn",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_TCTH_TULUC_C2_01",
+      "imgs": [
+        "_page_0_Figure_14.jpeg"
+      ],
+      "questiontext": "Để chuẩn bị cho buổi học nhóm về chủ đề \"Khái niệm hàm số\", bạn Bình chủ động tìm hiểu biểu đồ sản lượng tiêu thụ ô tô 5 tháng đầu năm 2020 trong SGK [img:_page_0_Figure_14.jpeg]. Để chủ động và tích cực hỗ trợ các bạn trong nhóm dễ dàng nhận biết mối quan hệ hàm số giữa tháng \\(x\\) và sản lượng \\(y\\), bạn Bình nên chọn cách trình bày dữ liệu nào sau đây?",
+      "generalfeedback": "Để thể hiện năng lực tự học, chủ động và tích cực trong học tập (G1), học sinh nên chủ động thu thập, phân loại và tổ chức dữ liệu thô dưới dạng bảng giá trị tương ứng rõ ràng giữa biến số \\(x\\) và giá trị hàm số \\(y\\), giúp việc giao tiếp và thảo luận nhóm đạt hiệu quả cao.",
+      "answers": [
+        {
+          "text": "Lập bảng hệ thống hóa các cặp giá trị tương ứng \\((x; y)\\) giữa tháng và số lượng ô tô tiêu thụ, kèm ghi chú mỗi tháng chỉ có duy nhất một giá trị sản lượng",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ ghi lại số lượng ô tô của tháng có sản lượng thấp nhất và bỏ qua các tháng khác",
+          "fraction": 0
+        },
+        {
+          "text": "Liệt kê các số liệu sản lượng một cách rời rạc mà không gắn với tháng tương ứng",
+          "fraction": 0
+        },
+        {
+          "text": "Chờ khi giáo viên yêu cầu mới bắt đầu mở sách ra đọc số liệu",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_02",
+      "imgs": [
+        "_page_2_Figure_19.jpeg"
+      ],
+      "questiontext": "Quan sát mặt phẳng tọa độ \\(Oxy\\) trong Hình 7.3 [img:_page_2_Figure_19.jpeg] với các điểm \\(A(2; -3)\\) và \\(B(-2; 1)\\). Thao tác quan sát nào sau đây giúp em xác định đúng hoành độ và tung độ của điểm \\(A\\)?",
+      "generalfeedback": "Năng lực quan sát toán học (D1) đòi hỏi học sinh nhìn từ điểm \\(A\\), theo dõi đường vuông góc hạ xuống trục hoành \\(Ox\\) để đọc hoành độ (2) và đường vuông góc hạ xuống trục tung \\(Oy\\) để đọc tung độ (-3).",
+      "answers": [
+        {
+          "text": "Quan sát đường vuông góc từ \\(A\\) đến trục hoành \\(Ox\\) cắt tại 2 (hoành độ) và đến trục tung \\(Oy\\) cắt tại -3 (tung độ)",
+          "fraction": 100
+        },
+        {
+          "text": "Quan sát khoảng cách từ gốc \\(O\\) đến điểm \\(B\\) rồi suy ra tọa độ của điểm \\(A\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ quan sát vị trí góc phần tư mà điểm \\(A\\) nằm thuộc về mà không nhìn các vạch chia trên trục",
+          "fraction": 0
+        },
+        {
+          "text": "Đọc giá trị trên trục tung trước rồi mới đọc giá trị trên trục hoành sau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_04_12",
+      "questiontext": "Một ô tô di chuyển với vận tốc không đổi \\(60\\text{ km/h}\\). Khi muốn mô tả mối quan hệ giữa quãng đường đi được \\(S\\text{ (km)}\\) và thời gian di chuyển \\(t\\text{ (giờ)}\\), cách biểu đạt nào sau đây kết hợp chính xác giữa ngôn ngữ thông thường và ngôn ngữ ký hiệu toán học?",
+      "generalfeedback": "Năng lực sử dụng ngôn ngữ toán học (D2) thể hiện qua việc diễn đạt mối quan hệ phụ thuộc bằng lời kết hợp chính xác với công thức toán học \\(S = f(t) = 60t\\) (với \\(t > 0\\)).",
+      "answers": [
+        {
+          "text": "Quãng đường \\(S\\) là một hàm số của thời gian \\(t\\), được biểu diễn bởi công thức toán học \\(S = 60t\\) (với \\(t > 0\\))",
+          "fraction": 100
+        },
+        {
+          "text": "Thời gian \\(t\\) bằng quãng đường \\(S\\) cộng với vận tốc 60",
+          "fraction": 0
+        },
+        {
+          "text": "Đại lượng \\(S\\) và \\(t\\) luôn bằng nhau trong mọi thời điểm di chuyển",
+          "fraction": 0
+        },
+        {
+          "text": "Vận tốc 60 là hàm số của quãng đường \\(S\\) theo công thức \\(v = 60S\\)",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

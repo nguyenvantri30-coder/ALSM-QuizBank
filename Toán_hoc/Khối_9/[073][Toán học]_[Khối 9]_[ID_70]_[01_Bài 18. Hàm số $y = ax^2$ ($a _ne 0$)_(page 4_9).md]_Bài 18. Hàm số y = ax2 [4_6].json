@@ -1,0 +1,950 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 39,
+    "metadata_used": {
+      "Tập xác định R của hàm số y = ax^2": 4,
+      "YCCD_TOAN9_016": 5,
+      "Thiết lập bảng giá trị tương ứng giữa x và y của hàm số y = ax^2": 5,
+      "Nhận xét sự biến thiên của hàm số qua bảng giá trị": 3,
+      "Tính chất đồng biến, nghịch biến của y = ax^2 (a > 0 và a < 0)": 3,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TUHOC_C2_01": 1,
+      "SUB_GTHT_XACDINHMD_C2_03": 2,
+      "NLT_TOAN_C2_01_01": 2,
+      "NLT_TOAN_C2_04_12": 2
+    },
+    "types_used": {
+      "multichoice": 17,
+      "truefalse": 5,
+      "gapselect": 3,
+      "numerical": 3,
+      "matching": 2,
+      "calculated": 1,
+      "ddwtos": 2,
+      "shortanswer": 2,
+      "calculatedsimple": 2,
+      "calculatedmulti": 2
+    },
+    "total": 39
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "Tập xác định R của hàm số y = ax^2",
+        "reason": "Đo lường kiến thức về tập xác định R của hàm số y = ax^2."
+      },
+      {
+        "metadata_code": "Tính chất đồng biến, nghịch biến của y = ax^2 (a > 0 và a < 0)",
+        "reason": "Đo lường kiến thức về tính chất đồng biến, nghịch biến của hàm số y = ax^2 qua bảng giá trị."
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_016",
+        "reason": "Đo lường khả năng thiết lập bảng giá trị và tính giá trị của hàm số y = ax^2."
+      },
+      {
+        "metadata_code": "Thiết lập bảng giá trị tương ứng giữa x và y của hàm số y = ax^2",
+        "reason": "Đo lường kỹ năng tính toán giá trị tương ứng giữa x và y của hàm số y = ax^2."
+      },
+      {
+        "metadata_code": "Nhận xét sự biến thiên của hàm số qua bảng giá trị",
+        "reason": "Đo lường kỹ năng nhận xét sự biến thiên của hàm số thông qua bảng giá trị."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đo lường ý thức, thái độ vượt khó trong học tập thông qua tình huống xử lý khi tính toán bảng giá trị."
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+        "reason": "Đo lường năng lực tự chủ và tự học qua việc lập mục tiêu học tập phần bảng giá trị."
+      },
+      {
+        "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+        "reason": "Đo lường năng lực giao tiếp và hợp tác qua tiếp nhận thông tin từ văn bản, công thức thực tế."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_01",
+        "reason": "Đo lường năng lực tư duy và lập luận toán học qua thao tác so sánh, phân tích hai hàm số."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_04_12",
+        "reason": "Đo lường năng lực sử dụng công cụ và ngôn ngữ toán học qua diễn đạt biểu thức toán học."
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Tập xác định R của hàm số y = ax^2",
+      "questiontext": "Tập xác định của hàm số \\(y = ax^2\\) \\((a \\neq 0)\\) là:",
+      "generalfeedback": "Hàm số \\(y = ax^2\\) \\((a \\neq 0)\\) xác định với mọi giá trị \\(x \\in \\mathbb{R}\\).",
+      "answers": [
+        {
+          "text": "\\(\\mathbb{R}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\mathbb{R} \\setminus \\{0\\}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\([0; +\\infty)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((0; +\\infty)\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Tập xác định R của hàm số y = ax^2",
+      "questiontext": "Hàm số \\(y = -3x^2\\) xác định với mọi số thực \\(x\\). Đúng hay Sai?",
+      "generalfeedback": "Hàm số \\(y = ax^2\\) với \\(a = -3 \\neq 0\\) có tập xác định là \\(\\mathbb{R}\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Tập xác định R của hàm số y = ax^2",
+      "questiontext": "Hàm số \\(y = ax^2\\) \\((a \\neq 0)\\) xác định với [[1]] giá trị \\(x\\) thuộc [[3]].",
+      "generalfeedback": "Hàm số \\(y = ax^2\\) \\((a \\neq 0)\\) xác định với mọi giá trị \\(x\\) thuộc \\(\\mathbb{R}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "mọi"
+        },
+        {
+          "group": 1,
+          "text": "chỉ các"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\mathbb{R}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\mathbb{Z}\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_016",
+      "questiontext": "Cho hàm số \\(y = 2x^2\\). Khi \\(x = -3\\), giá trị tương ứng của \\(y\\) là:",
+      "generalfeedback": "Thay \\(x = -3\\) vào hàm số: \\(y = 2 \\cdot (-3)^2 = 2 \\cdot 9 = 18\\).",
+      "answers": [
+        {
+          "text": "18",
+          "fraction": 100
+        },
+        {
+          "text": "-18",
+          "fraction": 0
+        },
+        {
+          "text": "12",
+          "fraction": 0
+        },
+        {
+          "text": "-12",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_016",
+      "questiontext": "Tính giá trị của hàm số \\(y = -0,5x^2\\) tại \\(x = 4\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Thay \\(x = 4\\) vào hàm số: \\(y = -0,5 \\cdot 4^2 = -0,5 \\cdot 16 = -8\\).",
+      "answers": [
+        {
+          "text": "-8",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Thiết lập bảng giá trị tương ứng giữa x và y của hàm số y = ax^2",
+      "questiontext": "Ghép mỗi giá trị của \\(x\\) với giá trị \\(y\\) tương ứng của hàm số \\(y = \\frac{3}{2}x^2\\):",
+      "generalfeedback": "Thay các giá trị \\(x\\) vào công thức \\(y = \\frac{3}{2}x^2\\):\n- Khi \\(x = -2\\): \\(y = \\frac{3}{2}(-2)^2 = 6\\)\n- Khi \\(x = 0\\): \\(y = 0\\)\n- Khi \\(x = 2\\): \\(y = \\frac{3}{2}(2)^2 = 6\\)\n- Khi \\(x = 3\\): \\(y = \\frac{3}{2}(3)^2 = 13,5\\)",
+      "subquestions": [
+        {
+          "question": "\\(x = -2\\)",
+          "answer": "6"
+        },
+        {
+          "question": "\\(x = 0\\)",
+          "answer": "0"
+        },
+        {
+          "question": "\\(x = 3\\)",
+          "answer": "13,5"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "thong_hieu",
+      "metadata_code": "Thiết lập bảng giá trị tương ứng giữa x và y của hàm số y = ax^2",
+      "questiontext": "Cho hàm số \\(y = {a}x^2\\). Tính giá trị của \\(y\\) khi \\(x = 3\\).",
+      "generalfeedback": "Giá trị của \\(y\\) được tính theo công thức \\(y = {a} \\cdot 3^2 = {a} \\cdot 9\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 5.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*9",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận xét sự biến thiên của hàm số qua bảng giá trị",
+      "questiontext": "Quan sát bảng giá trị của hàm số \\(y = 1,5x^2\\) với \\(x \\in \\{-2, -1, 0, 1, 2\\}\\):\n| \\(x\\) | -2 | -1 | 0 | 1 | 2 |\n|---|---|---|---|---|---|\n| \\(y\\) | 6 | 1,5 | 0 | 1,5 | 6 |\nNhận xét nào sau đây đúng về giá trị của \\(y\\)?",
+      "generalfeedback": "Vì \\(a = 1,5 > 0\\) nên \\(y = 1,5x^2 \\ge 0\\) với mọi \\(x\\) và \\(y = 0\\) khi \\(x = 0\\). Các cặp giá trị \\(x\\) đối xứng qua 0 cho cùng giá trị \\(y\\).",
+      "answers": [
+        {
+          "text": "Giá trị của \\(y\\) luôn không âm và hai giá trị \\(x\\) đối xứng nhau qua 0 cho cùng một giá trị \\(y\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Giá trị của \\(y\\) luôn nhận giá trị âm với mọi \\(x \\neq 0\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Khi \\(x\\) tăng thì \\(y\\) luôn giảm.",
+          "fraction": 0
+        },
+        {
+          "text": "Giá trị của \\(y\\) khi \\(x = -1\\) nhỏ hơn giá trị của \\(y\\) khi \\(x = 0\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Tính chất đồng biến, nghịch biến của y = ax^2 (a > 0 và a < 0)",
+      "questiontext": "Đối với hàm số \\(y = ax^2\\) \\((a > 0)\\), khi \\(x > 0\\), nếu \\(x\\) tăng thì giá trị tương ứng của \\(y\\) cũng tăng (hàm số đồng biến khi \\(x > 0\\)). Đúng hay Sai?",
+      "generalfeedback": "Với \\(a > 0\\), hàm số \\(y = ax^2\\) nghịch biến khi \\(x < 0\\) và đồng biến khi \\(x > 0\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Tính chất đồng biến, nghịch biến của y = ax^2 (a > 0 và a < 0)",
+      "questiontext": "Hàm số \\(y = -2x^2\\) nghịch biến trên khoảng nào?",
+      "generalfeedback": "Hàm số \\(y = ax^2\\) với \\(a = -2 < 0\\) đồng biến khi \\(x < 0\\) và nghịch biến khi \\(x > 0\\) (tức khoảng \\((0; +\\infty)\\)).",
+      "answers": [
+        {
+          "text": "\\((0; +\\infty)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\((-\\infty; 0)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\mathbb{R}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Không nghịch biến trên khoảng nào",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Tập xác định R của hàm số y = ax^2",
+      "questiontext": "Hàm số \\(y = ax^2\\) \\((a \\neq 0)\\) có tập xác định là tập hợp các số [[1]].",
+      "generalfeedback": "Tập xác định của hàm số là \\(\\mathbb{R}\\) (tập hợp các số thực).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "thực"
+        },
+        {
+          "group": 1,
+          "text": "nguyên"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_016",
+      "questiontext": "Điền kí hiệu tập xác định của hàm số \\(y = -5x^2\\):",
+      "generalfeedback": "Tập xác định của hàm số \\(y = -5x^2\\) là tập các số thực \\(\\mathbb{R}\\).",
+      "answers": [
+        {
+          "text": "\\mathbb{R}",
+          "fraction": 100
+        },
+        {
+          "text": "R",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "thong_hieu",
+      "metadata_code": "Thiết lập bảng giá trị tương ứng giữa x và y của hàm số y = ax^2",
+      "questiontext": "Cho hàm số \\(y =\\) {a}\\(x^2\\). Tính giá trị của \\(y\\) khi \\(x = 2\\).",
+      "generalfeedback": "Khi \\(x = 2\\), \\(y =\\) {a} \\(\\cdot 2^2 =\\) {a} \\(\\cdot 4\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*4",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "thong_hieu",
+      "metadata_code": "Thiết lập bảng giá trị tương ứng giữa x và y của hàm số y = ax^2",
+      "questiontext": "Cho hàm số \\(y =\\) {a}\\(x^2\\). Giá trị của \\(y\\) khi \\(x =\\) {b} được tính theo công thức nào?",
+      "generalfeedback": "Giá trị của \\(y\\) khi \\(x = {b}\\) là \\(y =\\) {a} \\(\\cdot\\) {b}\\(^2\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 5.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 1.0,
+          "max": 4.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*pow({b},2)",
+          "fraction": 100
+        },
+        {
+          "text": "{a}*{b}",
+          "fraction": 0
+        },
+        {
+          "text": "{a}+{b}",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_016",
+      "questiontext": "Trong bảng giá trị của hàm số \\(y = -x^2\\), nếu \\(x = -3\\) thì giá trị \\(y\\) bằng:",
+      "generalfeedback": "Thay \\(x = -3\\) vào hàm số: \\(y = -(-3)^2 = -9\\).",
+      "answers": [
+        {
+          "text": "-9",
+          "fraction": 100
+        },
+        {
+          "text": "9",
+          "fraction": 0
+        },
+        {
+          "text": "-6",
+          "fraction": 0
+        },
+        {
+          "text": "6",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Thiết lập bảng giá trị tương ứng giữa x và y của hàm số y = ax^2",
+      "questiontext": "Cho hàm số \\(y = 0,25x^2\\). Tính giá trị của \\(y\\) khi \\(x = -4\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Thay \\(x = -4\\) vào hàm số: \\(y = 0,25 \\cdot (-4)^2 = 0,25 \\cdot 16 = 4\\).",
+      "answers": [
+        {
+          "text": "4",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận xét sự biến thiên của hàm số qua bảng giá trị",
+      "questiontext": "Cho bảng giá trị của hàm số \\(y = ax^2\\) \\((a \\neq 0)\\):\n| \\(x\\) | -2 | -1 | 0 | 1 | 2 |\n|---|---|---|---|---|---|\n| \\(y\\) | -8 | -2 | 0 | -2 | -8 |\nTừ bảng giá trị trên, nhận xét nào sau đây là đúng về sự biến thiên của hàm số?",
+      "generalfeedback": "Khi \\(x < 0\\), \\(x\\) tăng từ -2 đến 0 thì \\(y\\) tăng từ -8 đến 0 (đồng biến). Khi \\(x > 0\\), \\(x\\) tăng từ 0 đến 2 thì \\(y\\) giảm từ 0 đến -8 (nghịch biến).",
+      "answers": [
+        {
+          "text": "Hàm số đồng biến khi \\(x < 0\\) và nghịch biến khi \\(x > 0\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Hàm số nghịch biến khi \\(x < 0\\) và đồng biến khi \\(x > 0\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Hàm số luôn đồng biến trên \\(\\mathbb{R}\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Hàm số luôn nghịch biến trên \\(\\mathbb{R}\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Tính chất đồng biến, nghịch biến của y = ax^2 (a > 0 và a < 0)",
+      "questiontext": "Đối với hàm số \\(y = ax^2\\) với \\(a < 0\\), giá trị lớn nhất của hàm số là \\(y = 0\\) đạt được khi \\(x = 0\\). Đúng hay Sai?",
+      "generalfeedback": "Vì \\(a < 0\\) nên \\(ax^2 \\le 0\\) với mọi \\(x\\). Do đó \\(y \\le 0\\), giá trị lớn nhất là 0 khi \\(x = 0\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_016",
+      "questiontext": "Cho hàm số \\(y = \\frac{1}{2}x^2\\). Cặp giá trị \\((x; y)\\) nào sau đây KHÔNG thuộc bảng giá trị của hàm số?",
+      "generalfeedback": "Khi \\(x = -2\\), \\(y = \\frac{1}{2}(-2)^2 = 2 \\neq -2\\). Do đó cặp \\((-2; -2)\\) không thuộc bảng giá trị.",
+      "answers": [
+        {
+          "text": "\\((-2; -2)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\((-2; 2)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((0; 0)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((2; 2)\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận xét sự biến thiên của hàm số qua bảng giá trị",
+      "questiontext": "Cho bảng giá trị của hàm số \\(y = ax^2\\):\n| \\(x\\) | -3 | -1 | 0 | 1 | 3 |\n|---|---|---|---|---|---|\n| \\(y\\) | 18 | 2 | 0 | 2 | 18 |\nGiá trị của hệ số \\(a\\) là:",
+      "generalfeedback": "Khi \\(x = 1\\), \\(y = 2 \\Rightarrow a \\cdot 1^2 = 2 \\Rightarrow a = 2\\).",
+      "answers": [
+        {
+          "text": "2",
+          "fraction": 100
+        },
+        {
+          "text": "-2",
+          "fraction": 0
+        },
+        {
+          "text": "3",
+          "fraction": 0
+        },
+        {
+          "text": "-3",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Tập xác định R của hàm số y = ax^2",
+      "questiontext": "Hàm số \\(y = ax^2\\) \\((a \\neq 0)\\) có tập xác định là tập hợp các số [[1]].",
+      "generalfeedback": "Tập xác định của hàm số là \\(\\mathbb{R}\\) (tập hợp các số thực).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "thực"
+        },
+        {
+          "group": 1,
+          "text": "nguyên"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_016",
+      "questiontext": "Điền kí hiệu tập xác định của hàm số \\(y = -5x^2\\):",
+      "generalfeedback": "Tập xác định của hàm số \\(y = -5x^2\\) là tập các số thực \\(\\mathbb{R}\\).",
+      "answers": [
+        {
+          "text": "\\mathbb{R}",
+          "fraction": 100
+        },
+        {
+          "text": "R",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "thong_hieu",
+      "metadata_code": "Thiết lập bảng giá trị tương ứng giữa x và y của hàm số y = ax^2",
+      "questiontext": "Cho hàm số \\(y = {a}x^2\\). Tính giá trị của \\(y\\) khi \\(x = 2\\).",
+      "generalfeedback": "Khi \\(x = 2\\), \\(y = {a} \\cdot 2^2 = {a} \\cdot 4\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*4",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "thong_hieu",
+      "metadata_code": "Thiết lập bảng giá trị tương ứng giữa x và y của hàm số y = ax^2",
+      "questiontext": "Cho hàm số \\(y = {a}x^2\\). Giá trị của \\(y\\) khi \\(x = {b}\\) được tính theo công thức nào?",
+      "generalfeedback": "Giá trị của \\(y\\) khi \\(x = {b}\\) là \\(y = {a} \\cdot {b}^2\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 5.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 1.0,
+          "max": 4.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*pow({b},2)",
+          "fraction": 100
+        },
+        {
+          "text": "{a}*{b}",
+          "fraction": 0
+        },
+        {
+          "text": "{a}+{b}",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_016",
+      "questiontext": "Trong bảng giá trị của hàm số \\(y = -x^2\\), nếu \\(x = -3\\) thì giá trị \\(y\\) bằng:",
+      "generalfeedback": "Thay \\(x = -3\\) vào hàm số: \\(y = -(-3)^2 = -9\\).",
+      "answers": [
+        {
+          "text": "-9",
+          "fraction": 100
+        },
+        {
+          "text": "9",
+          "fraction": 0
+        },
+        {
+          "text": "-6",
+          "fraction": 0
+        },
+        {
+          "text": "6",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Thiết lập bảng giá trị tương ứng giữa x và y của hàm số y = ax^2",
+      "questiontext": "Cho hàm số \\(y = 0,25x^2\\). Tính giá trị của \\(y\\) khi \\(x = -4\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Thay \\(x = -4\\) vào hàm số: \\(y = 0,25 \\cdot (-4)^2 = 0,25 \\cdot 16 = 4\\).",
+      "answers": [
+        {
+          "text": "4",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận xét sự biến thiên của hàm số qua bảng giá trị",
+      "questiontext": "Cho bảng giá trị của hàm số \\(y = ax^2\\) \\((a \\neq 0)\\):\n| \\(x\\) | -2 | -1 | 0 | 1 | 2 |\n|---|---|---|---|---|---|\n| \\(y\\) | -8 | -2 | 0 | -2 | -8 |\nTừ bảng giá trị trên, nhận xét nào sau đây là đúng về sự biến thiên của hàm số?",
+      "generalfeedback": "Khi \\(x < 0\\), \\(x\\) tăng từ -2 đến 0 thì \\(y\\) tăng từ -8 đến 0 (đồng biến). Khi \\(x > 0\\), \\(x\\) tăng từ 0 đến 2 thì \\(y\\) giảm từ 0 đến -8 (nghịch biến).",
+      "answers": [
+        {
+          "text": "Hàm số đồng biến khi \\(x < 0\\) và nghịch biến khi \\(x > 0\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Hàm số nghịch biến khi \\(x < 0\\) và đồng biến khi \\(x > 0\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Hàm số luôn đồng biến trên \\(\\mathbb{R}\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Hàm số luôn nghịch biến trên \\(\\mathbb{R}\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Tính chất đồng biến, nghịch biến của y = ax^2 (a > 0 và a < 0)",
+      "questiontext": "Đối với hàm số \\(y = ax^2\\) với \\(a < 0\\), giá trị lớn nhất của hàm số là \\(y = 0\\) đạt được khi \\(x = 0\\). Đúng hay Sai?",
+      "generalfeedback": "Vì \\(a < 0\\) nên \\(ax^2 \\le 0\\) với mọi \\(x\\). Do đó \\(y \\le 0\\), giá trị lớn nhất là 0 khi \\(x = 0\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_016",
+      "questiontext": "Cho hàm số \\(y = \\frac{1}{2}x^2\\). Cặp giá trị \\((x; y)\\) nào sau đây KHÔNG thuộc bảng giá trị của hàm số?",
+      "generalfeedback": "Khi \\(x = -2\\), \\(y = \\frac{1}{2}(-2)^2 = 2 \\neq -2\\). Do đó cặp \\((-2; -2)\\) không thuộc bảng giá trị.",
+      "answers": [
+        {
+          "text": "\\((-2; -2)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\((-2; 2)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((0; 0)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((2; 2)\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận xét sự biến thiên của hàm số qua bảng giá trị",
+      "questiontext": "Cho bảng giá trị của hàm số \\(y = ax^2\\):\n| \\(x\\) | -3 | -1 | 0 | 1 | 3 |\n|---|---|---|---|---|---|\n| \\(y\\) | 18 | 2 | 0 | 2 | 18 |\nGiá trị của hệ số \\(a\\) là:",
+      "generalfeedback": "Khi \\(x = 1\\), \\(y = 2 \\Rightarrow a \\cdot 1^2 = 2 \\Rightarrow a = 2\\).",
+      "answers": [
+        {
+          "text": "2",
+          "fraction": 100
+        },
+        {
+          "text": "-2",
+          "fraction": 0
+        },
+        {
+          "text": "3",
+          "fraction": 0
+        },
+        {
+          "text": "-3",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ học Toán về lập bảng giá trị của hàm số \\(y = ax^2\\), bạn Nam gặp khó khăn khi tính các giá trị \\(y\\) ứng với các giá trị \\(x\\) là số thập phân và liên tục tính sai. Hành động nào sau đây của Nam thể hiện phẩm chất luôn cố gắng vươn lên đạt kết quả tốt trong học tập?",
+      "generalfeedback": "Hành động kiên trì, tự kiểm tra lại các phép tính lũy thừa và nhân hệ số, đồng thời chủ động nhờ thầy cô hoặc bạn bè hướng dẫn lại thể hiện ý chí vượt khó và tinh thần vươn lên trong học tập.",
+      "answers": [
+        {
+          "text": "Kiên nhẫn kiểm tra lại từng bước tính \\(y = ax^2\\) và chủ động nhờ thầy cô hoặc bạn bè hướng dẫn để hiểu rõ phương pháp lập bảng giá trị.",
+          "fraction": 100
+        },
+        {
+          "text": "Đóng sách vở lại, không làm tiếp bài tập vì cho rằng bài toán quá phức tạp.",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua các dòng tính sai và chờ thầy cô chữa bài để chép đáp án vào vở.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép nhanh kết quả bảng giá trị của bạn bên cạnh mà không cần biết cách tính.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi nhận lại bài kiểm tra về 'Tập xác định và bảng giá trị của hàm số \\(y = ax^2\\)' bị điểm chưa tốt, bạn Mai đã tự phân tích các lỗi sai trong phép tính lũy thừa và làm lại bài tập để rút kinh nghiệm. Hành vi này của Mai thể hiện sự nỗ lực vươn lên trong học tập. Đúng hay Sai?",
+      "generalfeedback": "Thái độ tự giác nhìn nhận thiếu sót, phân tích lỗi sai và chủ động làm lại bài tập là minh chứng trực tiếp cho phẩm chất luôn cố gắng vươn lên đạt kết quả tốt.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Để học tốt phần 'Thiết lập bảng giá trị của hàm số \\(y = ax^2\\) (\\(a \\neq 0\\))', mục tiêu học tập nào sau đây được xây dựng cụ thể và hợp lý nhất giúp học sinh tự phấn đấu?",
+      "generalfeedback": "Mục tiêu cụ thể có thời gian, số lượng bài tập và hành động rõ ràng giúp học sinh dễ dàng theo dõi và nỗ lực đạt được.",
+      "answers": [
+        {
+          "text": "Mỗi ngày dành 15 phút tự tính và hoàn thành bảng giá trị cho 3 hàm số \\(y = ax^2\\) với các hệ số \\(a\\) khác nhau để thành thạo kỹ năng.",
+          "fraction": 100
+        },
+        {
+          "text": "Cố gắng học thuộc toàn bộ các bảng giá trị có trong sách giáo khoa.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ tập trung học Toán vào ngày trước kỳ thi học kỳ.",
+          "fraction": 0
+        },
+        {
+          "text": "Đặt mục tiêu làm xong bài tập trong 1 phút bất kể kết quả đúng hay sai.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "questiontext": "Trong SGK có đoạn văn bản khoa học: 'Khi thả một vật rơi tự do và bỏ qua sức cản của không khí, quãng đường chuyển động \\(s\\) (mét) của vật được cho bằng công thức \\(s = 4.9t^2\\), trong đó \\(t\\) (giây) là thời gian chuyển động.' Tiếp nhận thông tin từ văn bản và công thức trên, khẳng định nào sau đây là đúng?",
+      "generalfeedback": "Văn bản và công thức cung cấp mối liên hệ hàm số dạng \\(y = ax^2\\) giữa quãng đường \\(s\\) và thời gian \\(t\\) với hệ số \\(a = 4,9\\).",
+      "answers": [
+        {
+          "text": "Quãng đường \\(s\\) phụ thuộc vào thời gian \\(t\\) theo hàm số bậc hai \\(s = 4.9t^2\\) với hệ số \\(a = 4.9\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Quãng đường \\(s\\) tỉ lệ thuận bậc nhất với thời gian \\(t\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Thời gian \\(t\\) là đại lượng tỉ lệ nghịch với quãng đường \\(s\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Quãng đường \\(s\\) không phụ thuộc vào thời gian chuyển động \\(t\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "questiontext": "Đọc văn bản sau về ứng dụng hình học: 'Công thức tính diện tích \\(S\\) của hình tròn bán kính \\(r\\) là \\(S = \\pi r^2\\). Đây là một hàm số dạng \\(y = ax^2\\) biểu thị mối quan hệ giữa diện tích \\(S\\) và bán kính \\(r\\), trong đó biến số là [[1]] và hệ số \\(a\\) bằng [[3]].'",
+      "generalfeedback": "Trong công thức \\(S = \\pi r^2\\), biến số là bán kính \\(r\\) và hệ số \\(a = \\pi\\) (xấp xỉ 3,14).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(r\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(S\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\pi\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(r^2\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Thực hiện thao tác so sánh hai hàm số \\(y = 2x^2\\) và \\(y = -2x^2\\) khi tính giá trị \\(y\\) trên cùng tập hợp các giá trị \\(x \\in \\{-2, -1, 0, 1, 2\\}\\). Phát biểu nào sau đây phân tích đúng kết quả so sánh?",
+      "generalfeedback": "Tại \\(x = 0\\), cả hai hàm số đều cho \\(y = 0\\). Với mọi \\(x \\neq 0\\), do \\(x^2 > 0\\) nên \\(2x^2 > 0\\) còn \\(-2x^2 < 0\\), giá trị \\(y\\) của hai hàm số là hai số đối nhau.",
+      "answers": [
+        {
+          "text": "Với mọi \\(x \\neq 0\\), giá trị \\(y\\) của hai hàm số là hai số đối nhau; tại \\(x = 0\\) thì cả hai hàm số đều cho \\(y = 0\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Giá trị \\(y\\) của hàm số \\(y = 2x^2\\) luôn bằng giá trị \\(y\\) của hàm số \\(y = -2x^2\\) với mọi \\(x\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Giá trị \\(y\\) của hàm số \\(y = 2x^2\\) luôn nhỏ hơn giá trị \\(y\\) của hàm số \\(y = -2x^2\\) khi \\(x > 0\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Hai hàm số không có cùng giá trị \\(y\\) tại bất kỳ giá trị \\(x\\) nào.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Thực hiện thao tác tư duy phân tích mối liên hệ giữa dấu của hệ số \\(a\\) và giá trị của hàm số \\(y = ax^2\\) (\\(a \\neq 0\\)) khi \\(x \\neq 0\\):",
+      "generalfeedback": "Khi \\(x \\neq 0\\) thì \\(x^2 > 0\\). Do đó dấu của \\(y = ax^2\\) phụ thuộc hoàn toàn vào dấu của hệ số \\(a\\). Tại \\(x = 0\\), \\(y = 0\\) với mọi \\(a \\neq 0\\).",
+      "subquestions": [
+        {
+          "question": "Hệ số \\(a > 0\\) và \\(x \\neq 0\\)",
+          "answer": "Giá trị \\(y\\) luôn luôn dương (\\(y > 0\\))"
+        },
+        {
+          "question": "Hệ số \\(a < 0\\) và \\(x \\neq 0\\)",
+          "answer": "Giá trị \\(y\\) luôn luôn âm (\\(y < 0\\))"
+        },
+        {
+          "question": "Giá trị \\(x = 0\\) với mọi \\(a \\neq 0\\)",
+          "answer": "Giá trị \\(y\\) bằng 0 (\\(y = 0\\))"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04_12",
+      "questiontext": "Để diễn đạt tính chất 'Giá trị của hàm số \\(y = 3x^2\\) luôn không âm với mọi số thực \\(x\\)' bằng ngôn ngữ toán học kết hợp với ngôn ngữ thông thường, phát biểu nào sau đây là chính xác nhất?",
+      "generalfeedback": "Phát biểu chính xác sử dụng kí hiệu toán học \\(x \\in \\mathbb{R}\\), bất đẳng thức \\(y = 3x^2 \\ge 0\\) và điều kiện bằng 0 khi \\(x = 0\\).",
+      "answers": [
+        {
+          "text": "Với mọi \\(x \\in \\mathbb{R}\\), ta luôn có \\(y = 3x^2 \\ge 0\\), và \\(y = 0\\) khi và chỉ khi \\(x = 0\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Hàm số \\(y = 3x^2\\) chỉ đúng khi \\(x\\) là số nguyên dương.",
+          "fraction": 0
+        },
+        {
+          "text": "Với mọi \\(x < 0\\), giá trị \\(y = 3x^2\\) luôn nhận giá trị âm.",
+          "fraction": 0
+        },
+        {
+          "text": "Giá trị \\(y\\) chuyển từ số âm sang số dương khi \\(x\\) tăng từ âm sang dương.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "NLT_TOAN_C2_04_12",
+      "questiontext": "Sử dụng ngôn ngữ toán học để hoàn thiện nhận xét về tập xác định: 'Hàm số \\(y = ax^2\\) (\\(a \\neq 0\\)) có tập xác định kí hiệu là [[1]], nghĩa là hàm số này xác định với [[3]] giá trị \\(x\\) thuộc \\(\\mathbb{R}\\).'",
+      "generalfeedback": "Tập xác định của hàm số \\(y = ax^2\\) (\\(a \\neq 0\\)) là \\(\\mathbb{R}\\), xác định với mọi giá trị \\(x \\in \\mathbb{R}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(\\mathbb{R}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\mathbb{N}\\)"
+        },
+        {
+          "group": 1,
+          "text": "mọi"
+        },
+        {
+          "group": 1,
+          "text": "chỉ một số"
+        }
+      ]
+    }
+  ]
+}

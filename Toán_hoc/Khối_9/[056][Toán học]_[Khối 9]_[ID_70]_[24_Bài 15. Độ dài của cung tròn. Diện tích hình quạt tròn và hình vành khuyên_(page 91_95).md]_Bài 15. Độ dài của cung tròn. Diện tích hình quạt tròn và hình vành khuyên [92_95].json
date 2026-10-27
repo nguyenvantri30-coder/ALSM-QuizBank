@@ -1,0 +1,294 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 10,
+    "metadata_used": {
+      "Công thức diện tích hình quạt tròn": 3,
+      "Công thức diện tích hình vành khuyên": 3,
+      "YCCD_TOAN9_092": 5,
+      "YCCD_TOAN9_093": 3,
+      "Tính diện tích hình quạt tròn": 3,
+      "Tính diện tích hình vành khuyên giới hạn bởi hai đường tròn đồng tâm": 3,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_TCTH_TUHOC_C2_01": 1,
+      "SUB_GQVD_DEXUAT_C2_02": 1,
+      "NLT_TOAN_C2_01_01": 2,
+      "NLT_TOAN_C2_03_05": 2
+    },
+    "types_used": {
+      "multichoice": 5,
+      "gapselect": 1,
+      "ddwtos": 1,
+      "truefalse": 1,
+      "numerical": 1,
+      "matching": 1
+    },
+    "total": 10
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN9_092",
+        "reason": "Đo lường khả năng tính diện tích hình quạt tròn."
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_093",
+        "reason": "Đo lường khả năng tính diện tích hình vành khuyên."
+      },
+      {
+        "metadata_code": "Công thức diện tích hình quạt tròn",
+        "reason": "Đo lường việc ghi nhớ và hiểu công thức diện tích hình quạt tròn."
+      },
+      {
+        "metadata_code": "Công thức diện tích hình vành khuyên",
+        "reason": "Đo lường việc ghi nhớ và hiểu công thức diện tích hình vành khuyên."
+      },
+      {
+        "metadata_code": "Tính diện tích hình quạt tròn",
+        "reason": "Đo lường kỹ năng thực hành tính diện tích hình quạt tròn."
+      },
+      {
+        "metadata_code": "Tính diện tích hình vành khuyên giới hạn bởi hai đường tròn đồng tâm",
+        "reason": "Đo lường kỹ năng thực hành tính diện tích hình vành khuyên."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học Toán 9 về diện tích hình quạt tròn và hình vành khuyên không chứa nội dung tự nhiên liên quan đến sử dụng công nghệ hay phần mềm tin học theo chương trình."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học thuộc hình học thuần túy, không có bối cảnh tự nhiên để tích hợp và đo lường năng lực ứng dụng trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức diện tích hình quạt tròn",
+      "questiontext": "Công thức tính diện tích \\(S_q\\) của hình quạt tròn bán kính \\(R\\) ứng với cung \\(n^\\circ\\) là:",
+      "generalfeedback": "Diện tích hình quạt tròn bán kính \\(R\\) ứng với cung \\(n^\\circ\\) được tính theo công thức \\(S_q = \\frac{n}{360} \\pi R^2\\).",
+      "answers": [
+        {
+          "text": "\\(S_q = \\frac{n}{360} \\pi R^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(S_q = \\frac{n}{180} \\pi R^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(S_q = \\frac{n}{360} \\pi R\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(S_q = \\frac{n}{180} \\pi R\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức diện tích hình vành khuyên",
+      "questiontext": "Công thức tính diện tích \\(S_v\\) của hình vành khuyên tạo bởi hai đường tròn đồng tâm có bán kính \\(R\\) và \\(r\\) (với \\(R > r\\)) là:",
+      "generalfeedback": "Diện tích hình vành khuyên giới hạn bởi hai đường tròn đồng tâm bán kính \\(R\\) và \\(r\\) (\\(R > r\\)) là \\(S_v = \\pi R^2 - \\pi r^2 = \\pi (R^2 - r^2)\\).",
+      "answers": [
+        {
+          "text": "\\(S_v = \\pi (R^2 - r^2)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(S_v = \\pi (R - r)^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(S_v = 2\\pi (R - r)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(S_v = \\pi (R^2 + r^2)\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức diện tích hình quạt tròn",
+      "questiontext": "Hình quạt tròn là phần hình tròn giới hạn bởi một [[1]] và hai [[2]] đi qua hai đầu mút của cung đó.",
+      "generalfeedback": "Hình quạt tròn là phần hình tròn giới hạn bởi một cung tròn và hai bán kính đi qua hai đầu mút của cung đó.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "cung tròn"
+        },
+        {
+          "group": 1,
+          "text": "bán kính"
+        },
+        {
+          "group": 1,
+          "text": "đường kính"
+        },
+        {
+          "group": 1,
+          "text": "dây cung"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức diện tích hình vành khuyên",
+      "questiontext": "Hình vành khuyên là phần nằm giữa hai đường tròn có cùng [[1]] và [[2]] khác nhau.",
+      "generalfeedback": "Hình vành khuyên là phần nằm giữa hai đường tròn có cùng tâm và bán kính khác nhau (hai đường tròn đồng tâm).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "tâm"
+        },
+        {
+          "group": 1,
+          "text": "bán kính"
+        },
+        {
+          "group": 1,
+          "text": "chu vi"
+        },
+        {
+          "group": 1,
+          "text": "diện tích"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Công thức diện tích hình quạt tròn",
+      "questiontext": "Mối liên hệ giữa diện tích hình quạt tròn \\(S_q\\), độ dài cung tương ứng \\(l\\) và bán kính \\(R\\) được thể hiện qua công thức nào?",
+      "generalfeedback": "Ta có \\(S_q = \\frac{n}{360} \\pi R^2 = \\frac{n \\pi R}{180} \\cdot \\frac{R}{2} = \\frac{l \\cdot R}{2}\\).",
+      "answers": [
+        {
+          "text": "\\(S_q = \\frac{l \\cdot R}{2}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(S_q = l \\cdot R\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(S_q = \\frac{l \\cdot R}{4}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(S_q = \\frac{2l}{R}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Công thức diện tích hình vành khuyên",
+      "questiontext": "Diện tích hình vành khuyên tạo bởi hai đường tròn đồng tâm bán kính \\(R\\) và \\(r\\) (\\(R > r\\)) bằng hiệu diện tích của hình tròn lớn bán kính \\(R\\) và hình tròn nhỏ bán kính \\(r\\).",
+      "generalfeedback": "Đúng. Diện tích hình vành khuyên là \\(S_v = S_{lớn} - S_{nhỏ} = \\pi R^2 - \\pi r^2 = \\pi (R^2 - r^2)\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_092",
+      "questiontext": "Tính diện tích hình quạt tròn bán kính 6 cm ứng với cung \\(60^\\circ\\) (lấy \\(\\pi \\approx 3,14\\)).",
+      "generalfeedback": "\\(S_q = \\frac{60}{360} \\cdot 3,14 \\cdot 6^2 = 6 \\cdot 3,14 = 18,84\\text{ cm}^2\\).",
+      "answers": [
+        {
+          "text": "\\(18,84\\text{ cm}^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(37,68\\text{ cm}^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(6,28\\text{ cm}^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(9,42\\text{ cm}^2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_093",
+      "questiontext": "Cho hình vành khuyên nằm giữa hai đường tròn đồng tâm có bán kính lần lượt là 3 m và 5 m. Diện tích của hình vành khuyên đó bằng bao nhiêu?",
+      "generalfeedback": "\\(S_v = \\pi (5^2 - 3^2) = \\pi (25 - 9) = 16\\pi\\text{ m}^2\\).",
+      "answers": [
+        {
+          "text": "\\(16\\pi\\text{ m}^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(8\\pi\\text{ m}^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(34\\pi\\text{ m}^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(4\\pi\\text{ m}^2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính diện tích hình quạt tròn",
+      "questiontext": "Một hình quạt tròn có bán kính 5 cm và độ dài cung tương ứng bằng \\(4\\pi\\text{ cm}\\). Diện tích của hình quạt tròn này bằng bao nhiêu \\(\\text{cm}^2\\) nếu lấy \\(\\pi = 3,14\\)? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "\\(S_q = \\frac{l \\cdot R}{2} = \\frac{4\\pi \\cdot 5}{2} = 10\\pi \\approx 10 \\cdot 3,14 = 31,4\\text{ cm}^2\\).",
+      "answers": [
+        {
+          "text": "31.4",
+          "fraction": 100,
+          "tolerance": 0.1
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "Tính diện tích hình vành khuyên giới hạn bởi hai đường tròn đồng tâm",
+      "questiontext": "Hãy ghép mỗi cặp bán kính hai đường tròn đồng tâm \\((R, r)\\) với diện tích hình vành khuyên tương ứng (theo \\(\\pi\\)):",
+      "generalfeedback": "Diện tích hình vành khuyên được tính theo công thức \\(S_v = \\pi (R^2 - r^2)\\).",
+      "subquestions": [
+        {
+          "question": "R = 5 cm, r = 3 cm",
+          "answer": "16\\(\\pi\\) cm²"
+        },
+        {
+          "question": "R = 6 cm, r = 4 cm",
+          "answer": "20\\(\\pi\\) cm²"
+        },
+        {
+          "question": "R = 4 cm, r = 2 cm",
+          "answer": "12\\(\\pi\\) cm²"
+        }
+      ]
+    }
+  ]
+}

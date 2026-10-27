@@ -1,0 +1,404 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 16,
+    "metadata_used": {
+      "Khái niệm tia phân giác của một góc": 2,
+      "Tính chất tia phân giác": 2,
+      "YCCD_TOAN7_078": 2,
+      "Nhận biết tia phân giác của một góc": 2,
+      "Tính số đo góc liên quan đến tia phân giác": 2
+    },
+    "types_used": {
+      "multichoice": 7,
+      "truefalse": 3,
+      "gapselect": 2,
+      "matching": 1,
+      "shortanswer": 1,
+      "calculatedsimple": 1,
+      "numerical": 1
+    },
+    "total": 16
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_078",
+        "reason": "Nhận biết được tia phân giác của một góc."
+      },
+      {
+        "metadata_code": "Khái niệm tia phân giác của một góc",
+        "reason": "Khái niệm tia phân giác của một góc."
+      },
+      {
+        "metadata_code": "Tính chất tia phân giác",
+        "reason": "Tính chất tia phân giác."
+      },
+      {
+        "metadata_code": "Nhận biết tia phân giác của một góc",
+        "reason": "Nhận biết tia phân giác của một góc."
+      },
+      {
+        "metadata_code": "Tính số đo góc liên quan đến tia phân giác",
+        "reason": "Tính số đo góc liên quan đến tia phân giác."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Nội dung bài học thuần túy về hình học (Tia phân giác của một góc), không chứa yêu cầu hay bối cảnh sử dụng công cụ tin học/số."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học là kiến thức hình học cơ bản, không có bối cảnh tự nhiên để lồng ghép đo lường năng lực AI."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm tia phân giác của một góc",
+      "questiontext": "Cho tia \\(Oz\\) nằm giữa hai tia \\(Ox\\) và \\(Oy\\) sao cho \\(\\widehat{xOz} = \\widehat{zOy}\\). Khẳng định nào sau đây là đúng?",
+      "generalfeedback": "Tia nằm giữa hai cạnh của một góc và tạo với hai cạnh đó hai góc bằng nhau được gọi là tia phân giác của góc đó.",
+      "answers": [
+        {
+          "text": "Tia \\(Oz\\) là tia phân giác của góc \\(xOy\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Tia \\(Ox\\) là tia phân giác của góc \\(yOz\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Tia \\(Oy\\) là tia phân giác của góc \\(xOz\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Tia \\(Oz\\) là đường trung trực của đoạn thẳng \\(xy\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm tia phân giác của một góc",
+      "questiontext": "Tia phân giác của một góc là tia nằm giữa hai cạnh của góc và tạo với hai cạnh đó hai góc bằng nhau.",
+      "generalfeedback": "Định nghĩa tia phân giác của một góc: Tia nằm giữa hai cạnh của góc và tạo với hai cạnh đó hai góc bằng nhau được gọi là tia phân giác của góc đó.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tính chất tia phân giác",
+      "questiontext": "Nếu tia \\(Oz\\) là tia phân giác của góc \\(xOy\\) thì công thức nào sau đây thể hiện tính chất của tia phân giác?",
+      "generalfeedback": "Nếu tia \\(Oz\\) là tia phân giác của góc \\(xOy\\) thì \\(\\widehat{xOz} = \\widehat{zOy} = \\frac{1}{2}\\widehat{xOy}\\).",
+      "answers": [
+        {
+          "text": "\\(\\widehat{xOz} = \\widehat{zOy} = \\frac{1}{2}\\widehat{xOy}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\widehat{xOz} + \\widehat{zOy} = 2\\widehat{xOy}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\widehat{xOy} = \\frac{1}{2}\\widehat{xOz}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\widehat{xOz} = 2\\widehat{xOy}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Tính chất tia phân giác",
+      "questiontext": "Khi tia \\(Ot\\) là tia phân giác của góc \\(mOn\\), ta có \\(\\widehat{mOt} = \\widehat{tOn} = \\) [[1]] \\(\\widehat{mOn}\\) và \\(\\widehat{mOn} = \\) [[2]] \\(\\widehat{mOt}\\).",
+      "generalfeedback": "Theo tính chất tia phân giác, số đo mỗi góc tạo bởi tia phân giác và một cạnh bằng một nửa góc ban đầu, và góc ban đầu gấp hai lần góc thành phần.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "1/2"
+        },
+        {
+          "group": 1,
+          "text": "2"
+        },
+        {
+          "group": 1,
+          "text": "1/3"
+        },
+        {
+          "group": 1,
+          "text": "3"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_078",
+      "questiontext": "Cho góc \\(\\widehat{AOB} = 80^{\\circ}\\). Tia \\(OC\\) nằm trong góc \\(AOB\\) sao cho \\(\\widehat{AOC} = 40^{\\circ}\\). Tia \\(OC\\) có phải là tia phân giác của góc \\(AOB\\) không?",
+      "generalfeedback": "Ta có \\(\\widehat{BOC} = \\widehat{AOB} - \\widehat{AOC} = 80^{\\circ} - 40^{\\circ} = 40^{\\circ}\\). Do đó \\(\\widehat{AOC} = \\widehat{BOC} = 40^{\\circ}\\) và tia \\(OC\\) nằm giữa hai tia \\(OA, OB\\) nên \\(OC\\) là tia phân giác của góc \\(AOB\\).",
+      "answers": [
+        {
+          "text": "Có, vì \\(OC\\) nằm giữa \\(OA, OB\\) và \\(\\widehat{AOC} = \\widehat{BOC} = 40^{\\circ}\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Không, vì \\(\\widehat{AOC} \\neq \\widehat{BOC}\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Không, vì tia \\(OC\\) nằm ngoài góc \\(AOB\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Chưa đủ dữ kiện để kết luận.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_078",
+      "questiontext": "Nếu tia \\(Om\\) nằm giữa hai tia \\(Ox\\) và \\(Oy\\) nhưng \\(\\widehat{xOm} \\neq \\widehat{mOy}\\) thì tia \\(Om\\) không phải là tia phân giác của góc \\(xOy\\).",
+      "generalfeedback": "Để là tia phân giác, tia đó bắt buộc phải vừa nằm giữa hai cạnh của góc vừa tạo với hai cạnh hai góc bằng nhau. Nếu hai góc không bằng nhau thì không phải tia phân giác.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết tia phân giác của một góc",
+      "questiontext": "Hãy ghép mỗi hình mô tả về góc \\(xOy\\) có tia \\(Oz\\) với kết luận tương ứng về tia phân giác:",
+      "generalfeedback": "Tia phân giác phải nằm giữa hai cạnh và chia góc thành hai góc bằng nhau.",
+      "subquestions": [
+        {
+          "question": "\\(\\widehat{xOz} = 30^{\\circ}\\), \\(\\widehat{zOy} = 30^{\\circ}\\), \\(Oz\\) nằm giữa \\(Ox\\) và \\(Oy\\)",
+          "answer": "\\(Oz\\) là tia phân giác của góc \\(xOy\\)"
+        },
+        {
+          "question": "\\(\\widehat{xOz} = 30^{\\circ}\\), \\(\\widehat{zOy} = 40^{\\circ}\\), \\(Oz\\) nằm giữa \\(Ox\\) và \\(Oy\\)",
+          "answer": "\\(Oz\\) không là tia phân giác của góc \\(xOy\\)"
+        },
+        {
+          "question": "\\(\\widehat{xOy} = 100^{\\circ}\\), \\(\\widehat{xOz} = 50^{\\circ}\\), \\(Oz\\) nằm giữa \\(Ox\\) và \\(Oy\\)",
+          "answer": "\\(Oz\\) là tia phân giác của góc \\(xOy\\)"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết tia phân giác của một góc",
+      "questiontext": "Cho tia \\(OK\\) là tia phân giác của góc \\(MON\\). Hỏi tia \\(OK\\) chia góc \\(MON\\) thành bao nhiêu góc bằng nhau?",
+      "generalfeedback": "Tia phân giác chia góc thành 2 góc bằng nhau.",
+      "answers": [
+        {
+          "text": "2",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Tính số đo góc liên quan đến tia phân giác",
+      "questiontext": "Cho tia \\(Oz\\) là tia phân giác của góc \\(xOy\\). Biết góc \\(xOz\\) có số đo bằng {a} độ. Hãy tính số đo góc \\(xOy\\) (Chỉ điền số, không ghi đơn vị).",
+      "generalfeedback": "Vì \\(Oz\\) là tia phân giác của góc \\(xOy\\) nên \\(\\widehat{xOy} = 2 \\times \\widehat{xOz} = 2 \\times {a}^{\\circ}\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 10.0,
+          "max": 80.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Tính số đo góc liên quan đến tia phân giác",
+      "questiontext": "Cho tia \\(Ot\\) là tia phân giác của góc \\(aOb\\) có số đo bằng \\(110^{\\circ}\\). Tính số đo góc \\(aOt\\) theo đơn vị độ (Chỉ điền số, không ghi đơn vị).",
+      "generalfeedback": "Vì \\(Ot\\) là tia phân giác của góc \\(aOb\\) nên \\(\\widehat{aOt} = \\frac{\\widehat{aOb}}{2} = \\frac{110^{\\circ}}{2} = 55^{\\circ}\\).",
+      "answers": [
+        {
+          "text": "55",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Trong giờ thực hành Toán, bạn An được yêu cầu vẽ tia phân giác của góc \\(xOy\\) có số đo bằng \\(70^{\\circ}\\). Lần thứ nhất vẽ xong, An đo lại thấy hai góc thành phần lần lượt là \\(34^{\\circ}\\) và \\(36^{\\circ}\\). Hành vi nào sau đây thể hiện tính chăm chỉ và trách nhiệm học tập của An?",
+      "generalfeedback": "Thể hiện tính chăm chỉ và trách nhiệm khi học sinh kiên nhẫn kiểm tra, tìm nguyên nhân sai sót và thực hiện lại cho chính xác.",
+      "answers": [
+        {
+          "text": "Kiên nhẫn kiểm tra lại cách đặt thước đo góc, tìm ra điểm đặt lệch và cẩn thận vẽ lại tia phân giác cho đúng.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua sai số và sửa lại số đo trên giấy thành \\(35^{\\circ}\\) và \\(35^{\\circ}\\) mà không vẽ lại.",
+          "fraction": 0
+        },
+        {
+          "text": "Nộp bài ngay và giải thích với giáo viên rằng thước đo góc bị hỏng nên không cần làm lại.",
+          "fraction": 0
+        },
+        {
+          "text": "Xem bài của bạn bên cạnh và chép ngay kết quả của bạn vào vở.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Khi đo số đo hai góc do tia phân giác tạo với hai cạnh của một góc cho trước, nếu kết quả thực tế đo được bị lệch 1 độ so với lý thuyết, học sinh trung thực nên ghi đúng số đo mình đo được và kiểm tra lại thao tác đo chứ không tự ý sửa số đo cho đúng lý thuyết.",
+      "generalfeedback": "Trung thực trong học tập đòi hỏi ghi nhận trung thực kết quả thực nghiệm/đo đạc và kiểm tra lại kỹ năng đo đạc nếu có sai lệch.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Để chuẩn bị trước cho bài học 'Tia phân giác của một góc', học sinh A tự đọc SGK, tự chuẩn bị một miếng giấy hình góc \\(xOy\\) và thực hiện gấp giấy sao cho hai cạnh \\(Ox\\) và \\(Oy\\) trùng nhau để tìm nếp gấp (tia phân giác). Việc làm của bạn A thể hiện năng lực nào?",
+      "generalfeedback": "Hành động tự chuẩn bị bài, tự nghiên cứu SGK và tự tiến hành thực nghiệm gấp giấy trước giờ học thể hiện Năng lực tự chủ và tự học.",
+      "answers": [
+        {
+          "text": "Năng lực tự chủ và tự học",
+          "fraction": 100
+        },
+        {
+          "text": "Năng lực giao tiếp toán học",
+          "fraction": 0
+        },
+        {
+          "text": "Năng lực sử dụng công cụ tin học",
+          "fraction": 0
+        },
+        {
+          "text": "Năng lực thẩm mỹ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_GIAOTIEP",
+      "questiontext": "Trong thảo luận nhóm về đề bài 'Chứng minh tia \\(Oz\\) là tia phân giác của góc \\(xOy\\)', bạn Bình đưa ra ý kiến nhưng chưa rõ ràng. Học sinh C nghe xong liền bình tĩnh lắng nghe, đặt câu hỏi gợi mở 'Theo bạn, tia \\(Oz\\) đã nằm giữa hai tia \\(Ox, Oy\\) chưa?' để giúp nhóm hoàn thiện bài làm. Việc làm này của bạn C thể hiện năng lực nào?",
+      "generalfeedback": "Biết lắng nghe, tôn trọng ý kiến thành viên và tương tác tích cực để hoàn thành nhiệm vụ chung của nhóm thể hiện Năng lực giao tiếp và hợp tác.",
+      "answers": [
+        {
+          "text": "Năng lực giao tiếp và hợp tác",
+          "fraction": 100
+        },
+        {
+          "text": "Năng lực tự giải quyết công việc cá nhân độc lập",
+          "fraction": 0
+        },
+        {
+          "text": "Năng lực lập trình phần mềm",
+          "fraction": 0
+        },
+        {
+          "text": "Năng lực thẩm mỹ nghệ thuật",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Xét bài toán: 'Cho góc \\(xOy\\) và tia \\(Oz\\). Để kết luận \\(Oz\\) là tia phân giác của góc \\(xOy\\), ta cần những điều kiện nào?'. Bạn Minh lập luận như sau:\n(1) Tia \\(Oz\\) nằm giữa hai tia \\(Ox\\) và \\(Oy\\).\n(2) Số đo góc \\(\\widehat{xOz}\\) bằng số đo góc \\(\\widehat{zOy}\\).\nĐánh giá lập luận toán học của bạn Minh:",
+      "generalfeedback": "Lập luận của bạn Minh hoàn toàn chính xác và đầy đủ dựa theo đúng định nghĩa tia phân giác của một góc (cần cả điều kiện nằm giữa và điều kiện hai góc bằng nhau).",
+      "answers": [
+        {
+          "text": "Lập luận hoàn toàn đúng và đầy đủ theo định nghĩa tia phân giác.",
+          "fraction": 100
+        },
+        {
+          "text": "Sai vì chỉ cần điều kiện (2) là đủ.",
+          "fraction": 0
+        },
+        {
+          "text": "Sai vì chỉ cần điều kiện (1) là đủ.",
+          "fraction": 0
+        },
+        {
+          "text": "Thiếu điều kiện góc \\(xOy\\) phải là góc nhọn.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04",
+      "questiontext": "Để trình bày lời giải toán học một cách chuẩn xác: 'Vì tia \\(Oz\\) là tia phân giác của góc \\(xOy\\) nên ta có \\(\\widehat{xOz} = \\widehat{zOy} = \\) [[1]] \\(\\widehat{xOy}\\)' và '\\(\\widehat{xOy} = \\) [[2]] \\(\\widehat{xOz}\\)'.",
+      "generalfeedback": "Sử dụng chính xác ngôn ngữ toán học và công thức để diễn đạt tính chất tia phân giác thể hiện năng lực giao tiếp toán học.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "1/2"
+        },
+        {
+          "group": 1,
+          "text": "2"
+        },
+        {
+          "group": 1,
+          "text": "1/3"
+        },
+        {
+          "group": 1,
+          "text": "3"
+        }
+      ]
+    }
+  ]
+}

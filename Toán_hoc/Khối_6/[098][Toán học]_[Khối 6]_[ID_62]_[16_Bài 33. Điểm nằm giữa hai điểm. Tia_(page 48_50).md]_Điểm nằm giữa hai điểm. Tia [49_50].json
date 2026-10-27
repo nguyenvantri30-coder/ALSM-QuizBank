@@ -1,0 +1,520 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 20,
+    "metadata_used": {
+      "YCCD_TOAN6_118": 3,
+      "Khái niệm tia Ox, gốc O": 3,
+      "Khái niệm hai tia đối nhau": 3,
+      "Khái niệm hai tia trùng nhau": 2,
+      "Nhận biết tia, hai tia đối nhau, hai tia trùng nhau": 7,
+      "Đọc tên tia": 2
+    },
+    "types_used": {
+      "multichoice": 9,
+      "truefalse": 4,
+      "gapselect": 1,
+      "shortanswer": 2,
+      "matching": 2,
+      "ddwtos": 1,
+      "numerical": 1
+    },
+    "total": 20
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN6_118",
+        "reason": "Đo lường mức độ nhận biết khái niệm tia"
+      },
+      {
+        "metadata_code": "Khái niệm tia Ox, gốc O",
+        "reason": "Đo lường nhận biết khái niệm tia Ox và gốc O"
+      },
+      {
+        "metadata_code": "Khái niệm hai tia đối nhau",
+        "reason": "Đo lường nhận biết khái niệm hai tia đối nhau"
+      },
+      {
+        "metadata_code": "Khái niệm hai tia trùng nhau",
+        "reason": "Đo lường nhận biết khái niệm hai tia trùng nhau"
+      },
+      {
+        "metadata_code": "Nhận biết tia, hai tia đối nhau, hai tia trùng nhau",
+        "reason": "Đo lường kỹ năng nhận biết tia, hai tia đối nhau, hai tia trùng nhau"
+      },
+      {
+        "metadata_code": "Đọc tên tia",
+        "reason": "Đo lường kỹ năng đọc tên tia"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_02",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_05_01",
+        "reason": "Sẽ xử lý ở bước riêng"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_118",
+      "questiontext": "Hình gồm điểm \\(O\\) và một phần đường thẳng bị chia ra bởi điểm \\(O\\) được gọi là gì?",
+      "generalfeedback": "Theo SGK, hình gồm điểm \\(O\\) và một phần đường thẳng bị chia ra bởi điểm \\(O\\) được gọi là một tia gốc \\(O\\).",
+      "answers": [
+        {
+          "text": "Một tia gốc \\(O\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Một đoạn thẳng gốc \\(O\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Một đường thẳng gốc \\(O\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Một điểm \\(O\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm tia Ox, gốc O",
+      "questiontext": "Trong khái niệm tia \\(Ox\\), điểm \\(O\\) được gọi là gốc của tia.",
+      "generalfeedback": "Đúng. Trong tia \\(Ox\\), điểm \\(O\\) được gọi là gốc của tia.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm hai tia đối nhau",
+      "questiontext": "Điểm \\(O\\) nằm trên đường thẳng \\(xy\\) chia đường thẳng thành hai phần. Hai tia \\(Ox\\) và \\(Oy\\) được gọi là:",
+      "generalfeedback": "Theo SGK, hai tia \\(Ox\\) và \\(Oy\\) có chung gốc \\(O\\) và tạo thành đường thẳng \\(xy\\) được gọi là hai tia đối nhau.",
+      "answers": [
+        {
+          "text": "Hai tia đối nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Hai tia trùng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Hai đoạn thẳng bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Hai đường thẳng song song",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm hai tia trùng nhau",
+      "questiontext": "Khi điểm \\(B\\) thuộc tia \\(Am\\) thì tia \\(Am\\) còn được gọi là tia [[1]]. Điểm \\(A\\) là [[2]] của tia.",
+      "generalfeedback": "Nếu điểm \\(B\\) thuộc tia \\(Am\\) thì tia \\(Am\\) còn được gọi là tia \\(AB\\), với điểm \\(A\\) là gốc của tia.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(AB\\)"
+        },
+        {
+          "group": 1,
+          "text": "gốc"
+        },
+        {
+          "group": 1,
+          "text": "\\(BA\\)"
+        },
+        {
+          "group": 1,
+          "text": "ngọn"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết tia, hai tia đối nhau, hai tia trùng nhau",
+      "imgs": [
+        "_page_1_Picture_16.jpeg"
+      ],
+      "questiontext": "Quan sát hình ảnh sau: [img:_page_1_Picture_16.jpeg]\nTrong Hình 8.18a, tia đối của tia \\(Ox\\) là tia nào?",
+      "generalfeedback": "Trong Hình 8.18a, hai tia \\(Ox\\) và \\(Oy\\) tạo thành đường thẳng \\(xy\\) nên tia đối của tia \\(Ox\\) là tia \\(Oy\\).",
+      "answers": [
+        {
+          "text": "Tia \\(Oy\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Tia \\(Am\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Tia \\(AB\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Tia \\(xy\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Đọc tên tia",
+      "questiontext": "Một tia có gốc là điểm \\(M\\) và đi qua điểm \\(N\\) được đọc tên là tia gì?",
+      "generalfeedback": "Tia có gốc là điểm \\(M\\) và đi qua điểm \\(N\\) được đọc tên là tia \\(MN\\).",
+      "answers": [
+        {
+          "text": "MN",
+          "fraction": 100
+        },
+        {
+          "text": "Tia MN",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_118",
+      "questiontext": "Hãy ghép mỗi khái niệm/kí hiệu ở cột bên trái với mô tả tương ứng ở cột bên phải:",
+      "generalfeedback": "Hình gồm điểm \\(O\\) và một phần đường thẳng là tia gốc \\(O\\). Hai tia \\(Ox\\) và \\(Oy\\) tạo thành đường thẳng là hai tia đối nhau. Điểm \\(B\\) thuộc tia \\(Am\\) tạo thành tia \\(AB\\).",
+      "subquestions": [
+        {
+          "question": "Hình gồm điểm \\(O\\) và một phần đường thẳng bị chia ra bởi điểm \\(O\\)",
+          "answer": "Tia gốc \\(O\\)"
+        },
+        {
+          "question": "Hai tia \\(Ox\\) và \\(Oy\\) tạo thành đường thẳng \\(xy\\)",
+          "answer": "Hai tia đối nhau"
+        },
+        {
+          "question": "Tia \\(Am\\) có điểm \\(B\\) thuộc tia đó",
+          "answer": "Tia \\(AB\\)"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm tia Ox, gốc O",
+      "questiontext": "Tia \\(Ox\\) có gốc là điểm [[1]] và kéo dài không bị giới hạn về phía [[2]].",
+      "generalfeedback": "Tia \\(Ox\\) có gốc là điểm \\(O\\) và kéo dài không bị giới hạn về phía điểm \\(x\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(O\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(x\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(y\\)"
+        },
+        {
+          "group": 1,
+          "text": "trung điểm"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Khái niệm hai tia đối nhau",
+      "questiontext": "Hai tia có chung gốc thì luôn luôn là hai tia đối nhau.",
+      "generalfeedback": "Sai. Hai tia đối nhau phải chung gốc và cùng nằm trên một đường thẳng tạo thành đường thẳng đó.",
+      "answers": [
+        {
+          "text": "Sai",
+          "fraction": 100
+        },
+        {
+          "text": "Đúng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Khái niệm hai tia trùng nhau",
+      "questiontext": "Nếu điểm \\(C\\) thuộc tia \\(Ax\\) (với \\(C\\) khác \\(A\\)) thì hai tia \\(Ax\\) và \\(AC\\) là hai tia:",
+      "generalfeedback": "Vì điểm \\(C\\) thuộc tia \\(Ax\\) nên hai tia \\(Ax\\) và \\(AC\\) trùng nhau.",
+      "answers": [
+        {
+          "text": "Trùng nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Đối nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Song song",
+          "fraction": 0
+        },
+        {
+          "text": "Cắt nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết tia, hai tia đối nhau, hai tia trùng nhau",
+      "imgs": [
+        "_page_1_Picture_26.jpeg"
+      ],
+      "questiontext": "Quan sát Hình 8.20: [img:_page_1_Picture_26.jpeg]\nNếu điểm \\(M\\) nằm trên tia đối của tia \\(AB\\) thì điểm \\(M\\) có thuộc tia \\(BA\\) không?",
+      "generalfeedback": "Vì điểm \\(M\\) nằm trên tia đối của tia \\(AB\\) nên điểm \\(A\\) nằm giữa \\(M\\) và \\(B\\). Do đó điểm \\(M\\) nằm trên tia \\(BA\\).",
+      "answers": [
+        {
+          "text": "Có thuộc tia \\(BA\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Không thuộc tia \\(BA\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ thuộc khi \\(M\\) trùng với \\(A\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ thuộc khi \\(M\\) trùng với \\(B\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Nhận biết tia, hai tia đối nhau, hai tia trùng nhau",
+      "questiontext": "Cho hai điểm phân biệt \\(A\\) và \\(B\\). Hình gồm điểm \\(A\\) và tất cả các điểm nằm khác phía với điểm \\(B\\) đối với điểm \\(A\\) là:",
+      "generalfeedback": "Theo định nghĩa, tập hợp các điểm nằm khác phía với \\(B\\) đối với \\(A\\) cùng với điểm \\(A\\) tạo thành tia đối của tia \\(AB\\).",
+      "answers": [
+        {
+          "text": "Tia đối của tia \\(AB\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Tia \\(AB\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Đoạn thẳng \\(AB\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Đường thẳng \\(AB\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết tia, hai tia đối nhau, hai tia trùng nhau",
+      "imgs": [
+        "_page_1_Picture_21.jpeg"
+      ],
+      "questiontext": "Quan sát Hình 8.22: [img:_page_1_Picture_21.jpeg]\nCó tất cả bao nhiêu tia được tạo thành từ các điểm \\(A, B, C\\) trên đường thẳng? (Chỉ điền số)",
+      "generalfeedback": "Trên đường thẳng có 3 điểm \\(A, B, C\\). Tại mỗi điểm có 2 tia đối nhau, nên tổng số tia là 6 tia.",
+      "answers": [
+        {
+          "text": "6",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết tia, hai tia đối nhau, hai tia trùng nhau",
+      "imgs": [
+        "_page_1_Picture_21.jpeg"
+      ],
+      "questiontext": "Quan sát Hình 8.22: [img:_page_1_Picture_21.jpeg]\nTia \\(AC\\) và tia \\(CA\\) là hai tia đối nhau.",
+      "generalfeedback": "Sai. Hai tia đối nhau phải có cùng gốc. Tia \\(AC\\) gốc \\(A\\) và tia \\(CA\\) gốc \\(C\\) không chung gốc nên không phải hai tia đối nhau.",
+      "answers": [
+        {
+          "text": "Sai",
+          "fraction": 100
+        },
+        {
+          "text": "Đúng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết tia, hai tia đối nhau, hai tia trùng nhau",
+      "questiontext": "Cho điểm \\(C\\) nằm trên tia \\(Ax\\), điểm \\(B\\) nằm trên tia \\(Cx\\) (với \\(A, B, C\\) phân biệt). Khẳng định nào sau đây là ĐÚNG?",
+      "generalfeedback": "Vì điểm \\(C\\) nằm giữa \\(A\\) và \\(B\\) trên đường thẳng \\(Ax\\) nên hai tia \\(CA\\) và \\(Cx\\) chung gốc \\(C\\) và hướng về hai phía đối nhau, do đó chúng là hai tia đối nhau.",
+      "answers": [
+        {
+          "text": "Tia \\(CA\\) và tia \\(Cx\\) là hai tia đối nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Điểm \\(A\\) nằm trên tia \\(BC\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Tia \\(CB\\) và tia \\(BC\\) là hai tia đối nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Điểm \\(B\\) nằm giữa điểm \\(A\\) và điểm \\(C\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Đọc tên tia",
+      "questiontext": "Cho ba điểm \\(A, B, C\\) không thẳng hàng. Có bao nhiêu tia đi qua ít nhất hai trong ba điểm đó?",
+      "generalfeedback": "Từ 3 điểm không thẳng hàng tạo ra 3 đường thẳng \\(AB, BC, CA\\). Trên mỗi đường thẳng xác định 2 điểm, tạo ra 2 tia cho mỗi cặp điểm (ví dụ tia \\(AB\\), tia \\(BA\\)). Tổng cộng có 6 tia.",
+      "answers": [
+        {
+          "text": "6",
+          "fraction": 100
+        },
+        {
+          "text": "3",
+          "fraction": 0
+        },
+        {
+          "text": "4",
+          "fraction": 0
+        },
+        {
+          "text": "12",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm tia Ox, gốc O",
+      "questiontext": "Trong ký hiệu tia \\(AB\\), điểm nào là gốc của tia?",
+      "generalfeedback": "Trong ký hiệu tia \\(AB\\), chữ cái viết trước (điểm \\(A\\)) là gốc của tia.",
+      "answers": [
+        {
+          "text": "A",
+          "fraction": 100
+        },
+        {
+          "text": "Điểm A",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết tia, hai tia đối nhau, hai tia trùng nhau",
+      "questiontext": "Xét ba điểm \\(A, B, C\\) thẳng hàng theo thứ tự đó. Hãy ghép mỗi cặp tia ở cột bên trái với quan hệ tương ứng ở cột bên phải:",
+      "generalfeedback": "Vì \\(B\\) nằm giữa \\(A\\) và \\(C\\) nên tia \\(AB\\) và \\(AC\\) cùng hướng (trùng nhau), tia \\(BA\\) và \\(BC\\) đối hướng (đối nhau), tia \\(CA\\) và \\(CB\\) cùng hướng (trùng nhau).",
+      "subquestions": [
+        {
+          "question": "Tia \\(AB\\) và tia \\(AC\\)",
+          "answer": "Hai tia trùng nhau"
+        },
+        {
+          "question": "Tia \\(BA\\) và tia \\(BC\\)",
+          "answer": "Hai tia đối nhau"
+        },
+        {
+          "question": "Tia \\(CA\\) và tia \\(CB\\)",
+          "answer": "Hai tia trùng nhau"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_118",
+      "questiontext": "Mỗi điểm trên đường thẳng là gốc chung của hai tia đối nhau.",
+      "generalfeedback": "Đúng. Điểm \\(O\\) bất kỳ trên đường thẳng chia đường thẳng thành hai phần, tạo thành hai tia đối nhau gốc \\(O\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm hai tia đối nhau",
+      "questiontext": "Hai tia đối nhau có đặc điểm nào sau đây?",
+      "generalfeedback": "Theo khái niệm trong SGK, hai tia đối nhau là hai tia có chung một gốc và tạo thành một đường thẳng.",
+      "answers": [
+        {
+          "text": "Cùng chung một gốc và tạo thành một đường thẳng",
+          "fraction": 100
+        },
+        {
+          "text": "Cùng chung một gốc và đi về cùng một phía",
+          "fraction": 0
+        },
+        {
+          "text": "Không chung gốc nhưng song song với nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Có độ dài bằng nhau",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

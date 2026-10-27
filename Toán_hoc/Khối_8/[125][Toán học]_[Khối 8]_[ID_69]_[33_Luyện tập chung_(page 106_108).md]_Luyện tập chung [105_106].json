@@ -1,0 +1,267 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 10,
+    "metadata_used": {
+      "Tổng hợp các trường hợp đồng dạng của tam giác vuông và khái niệm hình đồng dạng": 3,
+      "YCCD_TOAN8_089": 2,
+      "Vận dụng các trường hợp đồng dạng của tam giác vuông để chứng minh và tính toán": 3,
+      "Nhận biết hình đồng dạng phối cảnh trong bài tập tổng hợp": 2
+    },
+    "types_used": {
+      "multichoice": 4,
+      "truefalse": 2,
+      "numerical": 1,
+      "matching": 1,
+      "gapselect": 1,
+      "shortanswer": 1
+    },
+    "total": 10
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "Tổng hợp các trường hợp đồng dạng của tam giác vuông và khái niệm hình đồng dạng",
+        "reason": "Đã tạo câu hỏi đánh giá kiến thức tổng hợp về tam giác vuông đồng dạng và hình đồng dạng"
+      },
+      {
+        "metadata_code": "YCCD_TOAN8_089",
+        "reason": "Đã tạo câu hỏi đánh giá khả năng giải thích các trường hợp đồng dạng của hai tam giác vuông"
+      },
+      {
+        "metadata_code": "Vận dụng các trường hợp đồng dạng của tam giác vuông để chứng minh và tính toán",
+        "reason": "Đã tạo câu hỏi đánh giá kỹ năng vận dụng các trường hợp đồng dạng để chứng minh và tính toán"
+      },
+      {
+        "metadata_code": "Nhận biết hình đồng dạng phối cảnh trong bài tập tổng hợp",
+        "reason": "Đã tạo câu hỏi đánh giá khả năng nhận biết hình đồng dạng phối cảnh"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_02",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_05",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_05",
+        "reason": "Sẽ xử lý ở bước riêng"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Tổng hợp các trường hợp đồng dạng của tam giác vuông và khái niệm hình đồng dạng",
+      "questiontext": "Hai tam giác vuông \\(\\Delta ABC\\) (vuông tại \\(A\\)) và \\(\\Delta A'B'C'\\) (vuông tại \\(A'\\)) đồng dạng với nhau khi có điều kiện nào sau đây?",
+      "generalfeedback": "Hai tam giác vuông đồng dạng nếu có một góc nhọn bằng nhau, hoặc hai cạnh góc vuông tương ứng tỉ lệ, hoặc cạnh huyền và một cạnh góc vuông tương ứng tỉ lệ.",
+      "answers": [
+        {
+          "text": "Một góc nhọn bằng nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Hai cạnh huyền bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Diện tích bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Chu vi bằng nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_089",
+      "questiontext": "Nếu hai tam giác vuông \\(\\Delta ABC\\) (vuông tại \\(A\\)) và \\(\\Delta DEF\\) (vuông tại \\(D\\)) có \\(\\frac{AB}{DE} = \\frac{AC}{DF}\\) thì \\(\\Delta ABC \\sim \\Delta DEF\\) theo trường hợp hai cạnh góc vuông.",
+      "generalfeedback": "Đúng. Hai tam giác vuông có hai cạnh góc vuông tương ứng tỉ lệ thì đồng dạng với nhau.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng các trường hợp đồng dạng của tam giác vuông để chứng minh và tính toán",
+      "questiontext": "Cho \\(\\Delta ABC\\) vuông tại \\(A\\) có \\(AB = 6\\text{ cm}\\), \\(AC = 8\\text{ cm}\\) và \\(\\Delta A'B'C'\\) vuông tại \\(A'\\) đồng dạng với \\(\\Delta ABC\\) theo tỉ số đồng dạng \\(k = 1.5\\). Tính độ dài cạnh huyền \\(B'C'\\) của \\(\\Delta A'B'C'\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Cạnh huyền \\(BC = \\sqrt{6^2 + 8^2} = 10\\text{ cm}\\). Vì \\(\\Delta A'B'C' \\sim \\Delta ABC\\) với tỉ số \\(k = 1.5\\) nên \\(B'C' = 1.5 \\times 10 = 15\\).",
+      "answers": [
+        {
+          "text": "15",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Tổng hợp các trường hợp đồng dạng của tam giác vuông và khái niệm hình đồng dạng",
+      "questiontext": "Hãy ghép mỗi trường hợp đồng dạng của hai tam giác vuông ở cột bên trái với điều kiện tương ứng ở cột bên phải.",
+      "generalfeedback": "Ghép cặp chính xác điều kiện đồng dạng của hai tam giác vuông.",
+      "subquestions": [
+        {
+          "question": "Trường hợp góc nhọn",
+          "answer": "Một góc nhọn của tam giác vuông này bằng một góc nhọn của tam giác vuông kia"
+        },
+        {
+          "question": "Trường hợp hai cạnh góc vuông",
+          "answer": "Hai cạnh góc vuông của tam giác vuông này tỉ lệ với hai cạnh góc vuông của tam giác vuông kia"
+        },
+        {
+          "question": "Trường hợp cạnh huyền và cạnh góc vuông",
+          "answer": "Cạnh huyền và một cạnh góc vuông của tam giác vuông này tỉ lệ với cạnh huyền và một cạnh góc vuông của tam giác vuông kia"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết hình đồng dạng phối cảnh trong bài tập tổng hợp",
+      "questiontext": "Hai hình đồng dạng phối cảnh có đặc điểm nổi bật nào sau đây?",
+      "generalfeedback": "Hai hình đồng dạng phối cảnh là hai hình mà các đường thẳng nối các cặp điểm tương ứng cùng đi qua một điểm cố định (tâm phối cảnh).",
+      "answers": [
+        {
+          "text": "Các đường thẳng nối các cặp điểm tương ứng cùng đi qua một điểm cố định",
+          "fraction": 100
+        },
+        {
+          "text": "Các đường thẳng nối các cặp điểm tương ứng luôn song song với nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Hai hình luôn có diện tích bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Hai hình có chu vi luôn bằng nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_089",
+      "questiontext": "Để giải thích hai tam giác vuông đồng dạng theo trường hợp cạnh huyền và cạnh góc vuông, ta cần chứng minh tỉ số giữa cạnh huyền và một cạnh góc vuông của tam giác vuông thứ nhất [[1]] tỉ số tương ứng của tam giác vuông thứ hai. Khi đó tỉ số hai cạnh góc vuông còn lại cũng sẽ [[2]].",
+      "generalfeedback": "Theo trường hợp đồng dạng cạnh huyền - cạnh góc vuông, hai tam giác vuông đồng dạng khi tỉ số cạnh huyền và cạnh góc vuông bằng nhau.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "bằng"
+        },
+        {
+          "group": 1,
+          "text": "khác"
+        },
+        {
+          "group": 1,
+          "text": "lớn hơn"
+        },
+        {
+          "group": 1,
+          "text": "nhỏ hơn"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng các trường hợp đồng dạng của tam giác vuông để chứng minh và tính toán",
+      "questiontext": "Cho \\(\\Delta ABC\\) vuông tại \\(A\\), đường cao \\(AH\\). Khẳng định nào sau đây là SAI?",
+      "generalfeedback": "\\(\\Delta HBA \\sim \\Delta ABC\\), \\(\\Delta HAC \\sim \\Delta ABC\\) và \\(\\Delta HBA \\sim \\Delta HAC\\).",
+      "answers": [
+        {
+          "text": "\\(\\Delta HBA\\) không đồng dạng với \\(\\Delta HAC\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\Delta HBA \\sim \\Delta ABC\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\Delta HAC \\sim \\Delta ABC\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\Delta HBA \\sim \\Delta HAC\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Tổng hợp các trường hợp đồng dạng của tam giác vuông và khái niệm hình đồng dạng",
+      "questiontext": "Tỉ số diện tích của hai tam giác đồng dạng bằng bình phương của tỉ số nào?",
+      "generalfeedback": "Tỉ số diện tích của hai tam giác đồng dạng bằng bình phương của tỉ số đồng dạng.",
+      "answers": [
+        {
+          "text": "tỉ số đồng dạng",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "van_dung",
+      "metadata_code": "Nhận biết hình đồng dạng phối cảnh trong bài tập tổng hợp",
+      "questiontext": "Nếu hình \\(H'\\) là hình đồng dạng phối cảnh của hình \\(H\\) theo tỉ số \\(k = 2\\), thì mọi kích thước tương ứng của hình \\(H'\\) đều gấp 2 lần kích thước tương ứng của hình \\(H\\).",
+      "generalfeedback": "Đúng. Hình đồng dạng phối cảnh tỉ số k làm tăng/giảm mọi kích thước tương ứng k lần.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng các trường hợp đồng dạng của tam giác vuông để chứng minh và tính toán",
+      "questiontext": "Cho hai tam giác vuông \\(\\Delta ABC\\) (vuông tại \\(A\\)) và \\(\\Delta A'B'C'\\) (vuông tại \\(A'\\)) có \\(AB = 3\\text{ cm}, BC = 5\\text{ cm}\\) và \\(A'B' = 6\\text{ cm}, B'C' = 10\\text{ cm}\\). Tỉ số đồng dạng \\(k\\) của \\(\\Delta A'B'C'\\) và \\(\\Delta ABC\\) là bao nhiêu?",
+      "generalfeedback": "\\(\\frac{A'B'}{AB} = \\frac{6}{3} = 2\\) và \\(\\frac{B'C'}{BC} = \\frac{10}{5} = 2\\). Vậy hai tam giác vuông đồng dạng với tỉ số \\(k = 2\\).",
+      "answers": [
+        {
+          "text": "2",
+          "fraction": 100
+        },
+        {
+          "text": "0.5",
+          "fraction": 0
+        },
+        {
+          "text": "3",
+          "fraction": 0
+        },
+        {
+          "text": "1.5",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

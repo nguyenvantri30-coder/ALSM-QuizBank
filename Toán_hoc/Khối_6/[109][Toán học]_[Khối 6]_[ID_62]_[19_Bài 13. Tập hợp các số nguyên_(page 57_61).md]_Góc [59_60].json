@@ -1,0 +1,382 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 15,
+    "metadata_used": {
+      "YCCD_TOAN6_123": 2,
+      "YCCD_TOAN6_127": 4,
+      "Khái niệm điểm nằm trong góc (điểm trong của góc)": 2,
+      "Nhận biết điểm nằm trong góc hay nằm ngoài góc": 2
+    },
+    "types_used": {
+      "multichoice": 7,
+      "truefalse": 2,
+      "shortanswer": 1,
+      "gapselect": 2,
+      "matching": 2,
+      "ddwtos": 1
+    },
+    "total": 15
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN6_123",
+        "reason": "Nhận biết khái niệm điểm trong của góc"
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_127",
+        "reason": "Nhận biết góc bẹt"
+      },
+      {
+        "metadata_code": "Khái niệm điểm nằm trong góc (điểm trong của góc)",
+        "reason": "Khái niệm điểm nằm trong góc"
+      },
+      {
+        "metadata_code": "Nhận biết điểm nằm trong góc hay nằm ngoài góc",
+        "reason": "Nhận biết điểm nằm trong hay ngoài góc"
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_127",
+      "questiontext": "Góc bẹt là góc có đặc điểm nào sau đây?",
+      "generalfeedback": "Theo định nghĩa trong SGK, góc bẹt là góc có hai cạnh là hai tia đối nhau.",
+      "answers": [
+        {
+          "text": "Có hai cạnh là hai tia đối nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Có hai cạnh là hai tia trùng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Có hai cạnh vuông góc với nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Có hai cạnh song song với nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_127",
+      "questiontext": "Hình ảnh hai kim đồng hồ lúc 6 giờ đúng tạo thành hình ảnh của một góc bẹt.",
+      "generalfeedback": "Đúng. Lúc 6 giờ đúng, kim giờ và kim phút nằm trên cùng một đường thẳng và chỉ về hai hướng ngược nhau (hai tia đối nhau), tạo thành góc bẹt.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm điểm nằm trong góc (điểm trong của góc)",
+      "questiontext": "Cho góc \\(xOy\\) (không phải là góc bẹt). Điểm \\(M\\) được gọi là điểm nằm trong góc \\(xOy\\) khi nào?",
+      "generalfeedback": "Điểm \\(M\\) nằm trong góc \\(xOy\\) (khác góc bẹt) nếu tia \\(OM\\) nằm giữa hai tia \\(Ox\\) và \\(Oy\\).",
+      "answers": [
+        {
+          "text": "Tia \\(OM\\) nằm giữa hai tia \\(Ox\\) và \\(Oy\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Điểm \\(M\\) thuộc tia \\(Ox\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Điểm \\(M\\) thuộc tia \\(Oy\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Tia \\(Ox\\) nằm giữa hai tia \\(OM\\) và \\(Oy\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_123",
+      "questiontext": "Điểm nằm trong một góc còn được gọi là điểm gì của góc đó?",
+      "generalfeedback": "Điểm nằm trong góc còn được gọi là điểm trong của góc.",
+      "answers": [
+        {
+          "text": "điểm trong",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_127",
+      "questiontext": "Cho hai tia \\(Ox\\) và \\(Oy\\) là hai tia [[1]]. Khi đó, góc \\(xOy\\) được gọi là góc [[2]].",
+      "generalfeedback": "Hai tia đối nhau tạo thành góc bẹt.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "đối nhau"
+        },
+        {
+          "group": 1,
+          "text": "bẹt"
+        },
+        {
+          "group": 1,
+          "text": "trùng nhau"
+        },
+        {
+          "group": 1,
+          "text": "nhọn"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết điểm nằm trong góc hay nằm ngoài góc",
+      "questiontext": "Cho góc \\(xOy\\) khác góc bẹt, tia \\(OM\\) nằm giữa hai tia \\(Ox\\) và \\(Oy\\), điểm \\(N\\) thuộc tia \\(Ox\\), điểm \\(P\\) không thuộc hai tia \\(Ox, Oy\\) và tia \\(OP\\) không nằm giữa hai tia \\(Ox, Oy\\). Hãy ghép mỗi điểm với vị trí tương ứng đối với góc \\(xOy\\).",
+      "generalfeedback": "Điểm \\(M\\) nằm trong góc vì tia \\(OM\\) nằm giữa hai tia \\(Ox, Oy\\). Điểm \\(N\\) nằm trên cạnh của góc. Điểm \\(P\\) nằm ngoài góc.",
+      "subquestions": [
+        {
+          "question": "Điểm \\(M\\)",
+          "answer": "Nằm trong góc \\(xOy\\)"
+        },
+        {
+          "question": "Điểm \\(N\\)",
+          "answer": "Nằm trên cạnh \\(Ox\\) của góc"
+        },
+        {
+          "question": "Điểm \\(P\\)",
+          "answer": "Nằm ngoài góc \\(xOy\\)"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Khái niệm điểm nằm trong góc (điểm trong của góc)",
+      "questiontext": "Các điểm nằm trên hai cạnh của một góc cũng được tính là các điểm nằm trong góc đó.",
+      "generalfeedback": "Sai. Các điểm thuộc hai cạnh của góc không phải là điểm nằm trong góc.",
+      "answers": [
+        {
+          "text": "Sai",
+          "fraction": 100
+        },
+        {
+          "text": "Đúng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Nhận biết điểm nằm trong góc hay nằm ngoài góc",
+      "questiontext": "Cho góc \\(aOb\\) khác góc bẹt. Điểm \\(K\\) không thuộc hai tia \\(Oa, Ob\\). Biết rằng tia \\(OK\\) cắt đoạn thẳng nối một điểm bất kỳ trên \\(Oa\\) và một điểm bất kỳ trên \\(Ob\\). Kết luận nào sau đây là đúng?",
+      "generalfeedback": "Nếu tia \\(OK\\) cắt đoạn thẳng nối điểm thuộc \\(Oa\\) và điểm thuộc \\(Ob\\) thì tia \\(OK\\) nằm giữa hai tia \\(Oa\\) và \\(Ob\\), do đó điểm \\(K\\) nằm trong góc \\(aOb\\).",
+      "answers": [
+        {
+          "text": "Điểm \\(K\\) nằm trong góc \\(aOb\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Điểm \\(K\\) nằm ngoài góc \\(aOb\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Điểm \\(K\\) nằm trên cạnh \\(Oa\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Điểm \\(K\\) trùng với đỉnh \\(O\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_123",
+      "questiontext": "Điểm \\(A\\) nằm trong góc \\(xOy\\) nếu tia \\(OA\\) nằm [[1]] hai tia \\(Ox\\) và \\(Oy\\). Tất cả các điểm nằm trong góc \\(xOy\\) tạo thành [[2]] của góc.",
+      "generalfeedback": "Tia \\(OA\\) nằm giữa hai tia \\(Ox, Oy\\) và các điểm nằm trong góc tạo thành miền trong của góc.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "giữa"
+        },
+        {
+          "group": 1,
+          "text": "miền trong"
+        },
+        {
+          "group": 1,
+          "text": "bên ngoài"
+        },
+        {
+          "group": 1,
+          "text": "trên cạnh"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_127",
+      "questiontext": "Khẳng định nào sau đây về góc bẹt là SAI?",
+      "generalfeedback": "Góc bẹt có hai cạnh là hai tia đối nhau, tạo thành một đường thẳng. Đáp án khẳng định góc bẹt có hai cạnh vuông góc là sai.",
+      "answers": [
+        {
+          "text": "Góc bẹt có hai cạnh là hai tia vuông góc với nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Góc bẹt có hai cạnh là hai tia đối nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Hai cạnh của góc bẹt tạo thành một đường thẳng",
+          "fraction": 0
+        },
+        {
+          "text": "Đỉnh của góc bẹt nằm giữa hai điểm bất kỳ thuộc hai cạnh của góc",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ học Toán về chủ đề 'Góc bẹt và Điểm nằm trong góc', khi gặp một bài tập hình học khó về việc xác định vị trí điểm trong của góc, bạn An chưa tìm ra lời giải ngay. Bạn An nên thực hiện hành động nào sau đây để thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập?",
+      "generalfeedback": "Chủ động xem lại định nghĩa, vẽ lại hình minh họa và kiên trì suy luận thể hiện ý thức tự học, nỗ lực vươn lên đạt kết quả tốt.",
+      "answers": [
+        {
+          "text": "Chủ động đọc lại định nghĩa trong SGK, vẽ hình minh họa và kiên trì suy luận để tìm ra lời giải",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài tập khó đó và chờ thầy cô giải sẵn trên lớp để chép vào vở",
+          "fraction": 0
+        },
+        {
+          "text": "Mượn vở bạn khác chép ngay đáp án mà không cần hiểu cách làm",
+          "fraction": 0
+        },
+        {
+          "text": "Nộp bài trống và cho rằng kiến thức hình học quá khó đối với bản thân",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Để lưu giữ thông tin học tập có chọn lọc bằng ghi tóm tắt từ khóa cho bài Góc (Tiết 2), bạn Bình lập sơ đồ kiến thức: 'Góc bẹt là góc có hai cạnh là hai tia [[1]]. Điểm \\(M\\) nằm trong góc \\(xOy\\) (khác góc bẹt) khi tia \\(OM\\) [[2]] hai tia \\(Ox\\) và \\(Oy\\)'.",
+      "generalfeedback": "Bằng cách cô đọng từ khóa 'đối nhau' và 'nằm giữa', học sinh đã ghi tóm tắt và lưu giữ thông tin trọng tâm của bài học một cách khoa học.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "đối nhau"
+        },
+        {
+          "group": 1,
+          "text": "nằm giữa"
+        },
+        {
+          "group": 1,
+          "text": "trùng nhau"
+        },
+        {
+          "group": 1,
+          "text": "song song"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "questiontext": "Bạn Mai đọc một đoạn văn bản khoa học thường thức kết hợp hình ảnh mô tả: 'Lúc 6 giờ đúng, kim giờ và kim phút của đồng hồ chỉ hai hướng ngược nhau tạo thành hai tia đối nhau, đây là hình ảnh của một góc bẹt. Khi đồng hồ chỉ 2 giờ đúng, điểm chỉ số 1 trên mặt đồng hồ nằm ở miền trong của góc tạo bởi kim giờ và kim phút.' Từ văn bản trên, Mai tiếp nhận được thông tin nào đúng?",
+      "generalfeedback": "Văn bản đã kết hợp ngôn ngữ thực tế và mô tả hình ảnh để truyền tải kiến thức về góc bẹt (lúc 6 giờ) và điểm nằm trong góc (số 1 lúc 2 giờ).",
+      "answers": [
+        {
+          "text": "Hai kim đồng hồ lúc 6 giờ tạo thành góc bẹt, và điểm chỉ số 1 nằm trong góc tạo bởi hai kim lúc 2 giờ",
+          "fraction": 100
+        },
+        {
+          "text": "Hai kim đồng hồ lúc 6 giờ tạo thành góc nhọn, và điểm chỉ số 1 nằm ngoài góc tạo bởi hai kim lúc 2 giờ",
+          "fraction": 0
+        },
+        {
+          "text": "Hai kim đồng hồ lúc 6 giờ là hai tia trùng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Điểm chỉ số 1 nằm trên cạnh của góc tạo bởi hai kim đồng hồ lúc 2 giờ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_02",
+      "questiontext": "Quan sát các hình ảnh và tình huống thực tế xung quanh em, hình ảnh nào sau đây cung cấp một mô hình trực quan chính xác về một góc bẹt?",
+      "generalfeedback": "Quan sát hai mép kẹp của chiếc thước xếp khi được mở thẳng hoàn toàn cho ta hình ảnh hai tia đối nhau chung gốc, đây là mô hình trực quan của góc bẹt.",
+      "answers": [
+        {
+          "text": "Hai mép thẳng của một chiếc thước gấp khi được mở phẳng tạo thành một đường thẳng",
+          "fraction": 100
+        },
+        {
+          "text": "Hai cạnh vuông góc của một chiếc thước ê-ke",
+          "fraction": 0
+        },
+        {
+          "text": "Góc nhọn tạo bởi hai cạnh của một chiếc kéo đang mở nhỏ",
+          "fraction": 0
+        },
+        {
+          "text": "Hai cạnh kề nhau của một khung bức ảnh hình chữ nhật",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "NLT_TOAN_C2_05_01",
+      "questiontext": "Hãy ghép tên công cụ, phương tiện học Toán ở cột bên trái với công dụng tương ứng trong bài học về Góc ở cột bên phải:",
+      "generalfeedback": "Nhận biết đúng tên gọi và chức năng của các công cụ, phương tiện học toán giúp học sinh thực hành và quan sát khái niệm hình học hiệu quả.",
+      "subquestions": [
+        {
+          "question": "Thước đo góc (thước đo độ)",
+          "answer": "Công cụ dùng để đo và kiểm tra số đo các góc"
+        },
+        {
+          "question": "Mô hình hai tia chung gốc quay được",
+          "answer": "Phương tiện trực quan giúp quan sát sự tạo thành góc bẹt và điểm nằm trong góc"
+        },
+        {
+          "question": "Thước thẳng",
+          "answer": "Công cụ dùng để vẽ đường thẳng, các tia đối nhau và biểu diễn các cạnh của góc"
+        }
+      ]
+    }
+  ]
+}

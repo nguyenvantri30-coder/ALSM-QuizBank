@@ -1,0 +1,262 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 10,
+    "metadata_used": {
+      "YCCD_TOAN6_103": 2,
+      "YCCD_TOAN6_104": 4,
+      "Phương pháp chia nhỏ hình phức tạp thành các hình đã học để tính chu vi và diện tích": 2,
+      "Tính chu vi và diện tích của hình ghép phẳng thực tế": 2
+    },
+    "types_used": {
+      "numerical": 4,
+      "multichoice": 1,
+      "matching": 1,
+      "shortanswer": 1,
+      "gapselect": 1,
+      "calculatedsimple": 1,
+      "truefalse": 1
+    },
+    "total": 10
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN6_103",
+        "reason": "Đo lường năng lực giải quyết vấn đề thực tiễn liên quan đến tính chu vi hình phẳng."
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_104",
+        "reason": "Đo lường năng lực giải quyết vấn đề thực tiễn liên quan đến tính diện tích hình phẳng và hình ghép."
+      },
+      {
+        "metadata_code": "Phương pháp chia nhỏ hình phức tạp thành các hình đã học để tính chu vi và diện tích",
+        "reason": "Kiểm tra kiến thức về phương pháp chia nhỏ hình phức tạp để tính chu vi, diện tích."
+      },
+      {
+        "metadata_code": "Tính chu vi và diện tích của hình ghép phẳng thực tế",
+        "reason": "Rèn luyện kỹ năng tính chu vi và diện tích hình ghép phẳng thực tế."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_02",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_05_01",
+        "reason": "Sẽ xử lý ở bước riêng"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_104",
+      "imgs": [
+        "_page_0_Picture_23.jpeg"
+      ],
+      "questiontext": "Một ngôi nhà có bãi cỏ bao quanh như hình vẽ bên dưới: [img:_page_0_Picture_23.jpeg]\nBiết khu đất hình thang có hai đáy lần lượt là 30 m và 42 m, chiều cao 24 m; khu đất làm nhà hình chữ nhật có kích thước 15 m và 18 m. Tính diện tích của bãi cỏ (theo đơn vị \\(\\text{m}^2\\)). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Diện tích khu đất hình thang là: \\(\\frac{1}{2} \\cdot (30 + 42) \\cdot 24 = 864\\) (m²).\nDiện tích khu đất làm nhà là: \\(15 \\cdot 18 = 270\\) (m²).\nDiện tích bãi cỏ là: \\(864 - 270 = 594\\) (m²).",
+      "answers": [
+        {
+          "text": "594",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_104",
+      "questiontext": "Một nền nhà hình chữ nhật có chiều dài 20 m và chiều rộng bằng \\(\\frac{1}{4}\\) chiều dài. Người ta lát nền nhà bằng những viên gạch hình vuông cạnh 4 dm. Tổng số viên gạch cần dùng để lát kín nền nhà đó là bao nhiêu viên?",
+      "generalfeedback": "Chiều rộng nền nhà là: \\(20 \\cdot \\frac{1}{4} = 5\\) (m).\nDiện tích nền nhà là: \\(20 \\cdot 5 = 100\\) (m²).\nĐổi 4 dm = 0,4 m. Diện tích một viên gạch là: \\(0{,}4 \\cdot 0{,}4 = 0{,}16\\) (m²).\nSố viên gạch cần dùng là: \\(100 : 0{,}16 = 625\\) (viên).",
+      "answers": [
+        {
+          "text": "625",
+          "fraction": 100
+        },
+        {
+          "text": "500",
+          "fraction": 0
+        },
+        {
+          "text": "6250",
+          "fraction": 0
+        },
+        {
+          "text": "125",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_103",
+      "questiontext": "Một mảnh giấy hình chữ nhật có diện tích 96 \\(\\text{cm}^2\\) và độ dài một cạnh là 12 cm. Tính chu vi của mảnh giấy đó (theo đơn vị cm). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Độ dài cạnh còn lại của mảnh giấy hình chữ nhật là: \\(96 : 12 = 8\\) (cm).\nChu vi mảnh giấy hình chữ nhật là: \\(2 \\cdot (12 + 8) = 40\\) (cm).",
+      "answers": [
+        {
+          "text": "40",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Phương pháp chia nhỏ hình phức tạp thành các hình đã học để tính chu vi và diện tích",
+      "questiontext": "Ghép các công thức tính chu vi và diện tích với hình phẳng tương ứng:",
+      "generalfeedback": "Công thức tính diện tích hình thoi có 2 đường chéo \\(m, n\\) là \\(\\frac{1}{2}m \\cdot n\\); hình thang có hai đáy \\(a, b\\) và chiều cao \\(h\\) là \\(\\frac{1}{2}(a+b) \\cdot h\\); hình vuông cạnh \\(a\\) có chu vi là \\(4a\\).",
+      "subquestions": [
+        {
+          "question": "Diện tích hình thoi có độ dài hai đường chéo m và n",
+          "answer": "\\(\\frac{1}{2} m \\cdot n\\)"
+        },
+        {
+          "question": "Diện tích hình thang có hai đáy a, b và chiều cao h",
+          "answer": "\\(\\frac{1}{2} (a + b) \\cdot h\\)"
+        },
+        {
+          "question": "Chu vi hình vuông có độ dài cạnh a",
+          "answer": "\\(4a\\)"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Tính chu vi và diện tích của hình ghép phẳng thực tế",
+      "imgs": [
+        "_page_1_Figure_6.jpeg"
+      ],
+      "questiontext": "Cho hình thoi \\(MPNQ\\) có độ dài hai đường chéo \\(MN = 8\\) cm và \\(PQ = 6\\) cm như hình vẽ: [img:_page_1_Figure_6.jpeg]\nTính diện tích của hình thoi \\(MPNQ\\) (chỉ ghi giá trị số theo đơn vị \\(\\text{cm}^2\\)).",
+      "generalfeedback": "Diện tích hình thoi \\(MPNQ\\) là: \\(S = \\frac{1}{2} \\cdot MN \\cdot PQ = \\frac{1}{2} \\cdot 8 \\cdot 6 = 24\\) (cm²).",
+      "answers": [
+        {
+          "text": "24",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_104",
+      "imgs": [
+        "_page_1_Picture_11.jpeg"
+      ],
+      "questiontext": "Một mảnh vườn hình vuông cạnh 20 m. Người ta làm một lối đi xung quanh vườn rộng 2 m thuộc đất của vườn như hình vẽ: [img:_page_1_Picture_11.jpeg]\nPhần đất còn lại dùng để trồng trọt. Tính diện tích phần đất trồng trọt đó (theo đơn vị \\(\\text{m}^2\\)). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Vì lối đi xung quanh rộng 2 m nên phần đất trồng trọt phía trong cũng là một hình vuông có độ dài cạnh là: \\(20 - 2 \\cdot 2 = 16\\) (m).\nDiện tích phần đất trồng trọt là: \\(16 \\cdot 16 = 256\\) (m²).",
+      "answers": [
+        {
+          "text": "256",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Phương pháp chia nhỏ hình phức tạp thành các hình đã học để tính chu vi và diện tích",
+      "questiontext": "Để tính diện tích của một hình phức tạp (hình ghép), ta có thể chia hình đó thành các hình [[1]] đã học (như hình chữ nhật, hình vuông, hình thang,...), tính diện tích từng hình thành phần rồi [[2]] các diện tích đó lại với nhau.",
+      "generalfeedback": "Phương pháp chia nhỏ hình phức tạp là phân chia thành các hình đơn giản đã học rồi cộng diện tích các hình thành phần.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "đơn giản"
+        },
+        {
+          "group": 1,
+          "text": "cộng"
+        },
+        {
+          "group": 1,
+          "text": "trừ"
+        },
+        {
+          "group": 1,
+          "text": "phức tạp hơn"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_104",
+      "imgs": [
+        "_page_1_Picture_13.jpeg"
+      ],
+      "questiontext": "Một mảnh vườn hình chữ nhật có chiều dài 25 m, chiều rộng bằng \\(\\frac{3}{5}\\) chiều dài. Người ta làm hai lối đi rộng 1 m cắt nhau như hình vẽ: [img:_page_1_Picture_13.jpeg]\nPhần đất còn lại dùng để trồng cây. Tính diện tích phần đất dùng để trồng cây (theo đơn vị \\(\\text{m}^2\\)). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Chiều rộng mảnh vườn là: \\(25 \\cdot \\frac{3}{5} = 15\\) (m).\nKhi ghép 4 góc đất trồng cây lại, ta được một hình chữ nhật có chiều dài \\(25 - 1 = 24\\) (m) và chiều rộng \\(15 - 1 = 14\\) (m).\nDiện tích đất trồng cây là: \\(24 \\cdot 14 = 336\\) (m²).",
+      "answers": [
+        {
+          "text": "336",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Tính chu vi và diện tích của hình ghép phẳng thực tế",
+      "questiontext": "Một khu đất hình chữ nhật có chiều dài {a} m và chiều rộng {b} m. Người ta bao quanh khu đất đó bằng một hàng rào. Tính tổng độ dài hàng rào bao quanh khu đất (không tính cổng). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Độ dài hàng rào bao quanh khu đất chính là chu vi của hình chữ nhật: P = 2 . ({a} + {b}) (m).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 15.0,
+          "max": 40.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 8.0,
+          "max": 20.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "2*({a}+{b})",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_103",
+      "questiontext": "Cho hình thoi có độ dài cạnh là 5 cm. Chu vi của hình thoi đó bằng 20 cm.",
+      "generalfeedback": "Chu vi hình thoi bằng độ dài một cạnh nhân với 4. Ta có \\(5 \\cdot 4 = 20\\) cm. Khẳng định trên là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

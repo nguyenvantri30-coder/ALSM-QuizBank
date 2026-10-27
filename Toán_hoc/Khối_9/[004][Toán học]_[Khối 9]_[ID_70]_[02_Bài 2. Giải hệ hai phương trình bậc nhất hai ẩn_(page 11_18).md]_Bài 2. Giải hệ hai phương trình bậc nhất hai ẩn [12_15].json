@@ -1,0 +1,409 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 15,
+    "metadata_used": {
+      "Quy tắc cộng đại số để biến đổi hệ phương trình bậc nhất hai ẩn": 4,
+      "Nhân hai vế của phương trình với hệ số thích hợp để đưa về hệ số đối hoặc bằng nhau": 4,
+      "Biến đổi và giải hệ hai phương trình bậc nhất hai ẩn bằng phương pháp cộng đại số": 6,
+      "YCCD_TOAN9_026": 6,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_TCTH_TUHOC_C2_01": 1,
+      "SUB_GQVD_DEXUAT_C2_02": 1,
+      "NLT_TOAN_C2_01_01": 1,
+      "NLT_TOAN_C2_03_05": 1
+    },
+    "types_used": {
+      "multichoice": 10,
+      "truefalse": 1,
+      "gapselect": 1,
+      "matching": 1,
+      "ddwtos": 1,
+      "numerical": 1
+    },
+    "total": 15
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN9_026",
+        "reason": "Đo lường năng lực giải hệ hai phương trình bậc nhất hai ẩn."
+      },
+      {
+        "metadata_code": "Quy tắc cộng đại số để biến đổi hệ phương trình bậc nhất hai ẩn",
+        "reason": "Đo lường hiểu biết về quy tắc cộng đại số."
+      },
+      {
+        "metadata_code": "Nhân hai vế của phương trình với hệ số thích hợp để đưa về hệ số đối hoặc bằng nhau",
+        "reason": "Đo lường kỹ năng biến đổi hệ số để giải hệ phương trình."
+      },
+      {
+        "metadata_code": "Biến đổi và giải hệ hai phương trình bậc nhất hai ẩn bằng phương pháp cộng đại số",
+        "reason": "Đo lường kỹ năng thực hành biến đổi và giải hệ bằng phương pháp cộng đại số."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Nội dung bài học về giải hệ phương trình bằng phương pháp cộng đại số thuần túy lý thuyết và biến đổi tay, không chứa dữ kiện công cụ số/tin học."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Bài học không đề cập đến nguyên lý hay ứng dụng trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc cộng đại số để biến đổi hệ phương trình bậc nhất hai ẩn",
+      "questiontext": "Phương pháp cộng đại số để giải hệ hai phương trình bậc nhất hai ẩn dựa trên quy tắc nào dưới đây?",
+      "generalfeedback": "Phương pháp cộng đại số dựa trên quy tắc cộng đại số: cộng hay trừ từng vế của hai phương trình trong hệ để thu được phương trình một ẩn.",
+      "answers": [
+        {
+          "text": "Cộng hay trừ từng vế của hai phương trình trong hệ để được phương trình chỉ còn chứa một ẩn.",
+          "fraction": 100
+        },
+        {
+          "text": "Nhân hai vế của một phương trình với 0 để triệt tiêu một ẩn.",
+          "fraction": 0
+        },
+        {
+          "text": "Rút một ẩn từ phương trình này rồi thế vào phương trình kia.",
+          "fraction": 0
+        },
+        {
+          "text": "Lập bảng giá trị và vẽ đồ thị của hai phương trình trên cùng mặt phẳng tọa độ.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc cộng đại số để biến đổi hệ phương trình bậc nhất hai ẩn",
+      "questiontext": "Để giải hệ hai phương trình bậc nhất hai ẩn bằng phương pháp cộng đại số, khi hệ số của cùng một ẩn trong hai phương trình bằng nhau, ta thực hiện cộng từng vế của hai phương trình.",
+      "generalfeedback": "Khi hệ số của cùng một ẩn trong hai phương trình bằng nhau, ta phải TRỪ từng vế của hai phương trình để triệt tiêu ẩn đó. Nếu hệ số đối nhau mới CỘNG từng vế.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc cộng đại số để biến đổi hệ phương trình bậc nhất hai ẩn",
+      "questiontext": "Để giải hệ hai phương trình bậc nhất hai ẩn có hệ số của cùng một ẩn trong hai phương trình bằng nhau hoặc đối nhau, ta thực hiện:\nBước 1. [[1]] hay [[2]] từng vế của hai phương trình trong hệ để được phương trình chỉ còn chứa một ẩn.\nBước 2. Giải phương trình một ẩn vừa nhận được, từ đó suy ra nghiệm của hệ phương trình đã cho.",
+      "generalfeedback": "Theo quy tắc cộng đại số: Bước 1 là cộng hay trừ từng vế của hai phương trình trong hệ để triệt tiêu một ẩn.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "Cộng"
+        },
+        {
+          "group": 1,
+          "text": "Trừ"
+        },
+        {
+          "group": 1,
+          "text": "Nhân"
+        },
+        {
+          "group": 1,
+          "text": "Chia"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Quy tắc cộng đại số để biến đổi hệ phương trình bậc nhất hai ẩn",
+      "questiontext": "Hãy ghép đặc điểm hệ số của một ẩn trong hệ hai phương trình bậc nhất hai ẩn với phép biến đổi tương ứng khi dùng phương pháp cộng đại số:",
+      "generalfeedback": "Nối đặc điểm hệ số với bước biến đổi thích hợp để triệt tiêu ẩn.",
+      "subquestions": [
+        {
+          "question": "Hệ số của cùng một ẩn đối nhau",
+          "answer": "Cộng từng vế của hai phương trình"
+        },
+        {
+          "question": "Hệ số của cùng một ẩn bằng nhau",
+          "answer": "Trừ từng vế của hai phương trình"
+        },
+        {
+          "question": "Hệ số của cả hai ẩn không bằng nhau và không đối nhau",
+          "answer": "Nhân hai vế của mỗi phương trình với một số thích hợp (khác 0)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Nhân hai vế của phương trình với hệ số thích hợp để đưa về hệ số đối hoặc bằng nhau",
+      "questiontext": "Cho hệ phương trình \\(\\begin{cases} 3x + 2y = 7 \\\\ 2x - 3y = -4 \\end{cases}\\). Để đưa hệ số của ẩn \\(y\\) về hai số đối nhau, ta nhân hai vế của phương trình thứ nhất với 3 và nhân hai vế của phương trình thứ hai với số nào?",
+      "generalfeedback": "Nhân hai vế của phương trình thứ nhất với 3 được \\(9x + 6y = 21\\). Nhân hai vế của phương trình thứ hai với 2 được \\(4x - 6y = -8\\). Khi đó hệ số của \\(y\\) là 6 và -6 (đối nhau).",
+      "answers": [
+        {
+          "text": "2",
+          "fraction": 100
+        },
+        {
+          "text": "3",
+          "fraction": 0
+        },
+        {
+          "text": "-2",
+          "fraction": 0
+        },
+        {
+          "text": "5",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Nhân hai vế của phương trình với hệ số thích hợp để đưa về hệ số đối hoặc bằng nhau",
+      "questiontext": "Để triệt tiêu ẩn \\(y\\) trong hệ phương trình \\(\\begin{cases} 4x + 3y = 6 \\\\ -5x + 2y = 4 \\end{cases}\\) bằng phương pháp cộng đại số, ta nhân phương trình thứ nhất với [[1]] và nhân phương trình thứ hai với [[2]] để được hệ mới có hệ số của \\(y\\) bằng nhau.",
+      "generalfeedback": "Nhân phương trình (1) với 2 được hệ số \\(y\\) là 6. Nhân phương trình (2) với 3 được hệ số \\(y\\) là 6. Hệ số của \\(y\\) bằng nhau (đều bằng 6), sau đó trừ từng vế.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "2"
+        },
+        {
+          "group": 1,
+          "text": "3"
+        },
+        {
+          "group": 1,
+          "text": "4"
+        },
+        {
+          "group": 1,
+          "text": "5"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Nhân hai vế của phương trình với hệ số thích hợp để đưa về hệ số đối hoặc bằng nhau",
+      "questiontext": "Cho hệ phương trình \\(\\begin{cases} -4x + 3y = 0 \\\\ 4x - 5y = -8 \\end{cases}\\). Ta có thể triệt tiêu ẩn \\(x\\) bằng cách thực hiện phép tính nào sau đây?",
+      "generalfeedback": "Hệ số của \\(x\\) trong hai phương trình là -4 và 4 (đối nhau), do đó ta cộng từng vế của hai phương trình để triệt tiêu ẩn \\(x\\).",
+      "answers": [
+        {
+          "text": "Cộng từng vế của hai phương trình.",
+          "fraction": 100
+        },
+        {
+          "text": "Trừ từng vế của hai phương trình.",
+          "fraction": 0
+        },
+        {
+          "text": "Nhân phương trình thứ nhất với 4 rồi cộng từng vế.",
+          "fraction": 0
+        },
+        {
+          "text": "Nhân phương trình thứ hai với 3 rồi trừ từng vế.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Biến đổi và giải hệ hai phương trình bậc nhất hai ẩn bằng phương pháp cộng đại số",
+      "questiontext": "Khi cộng từng vế hai phương trình của hệ \\(\\begin{cases} -2x + 5y = 12 \\\\ 2x + 3y = 4 \\end{cases}\\), ta thu được phương trình một ẩn \\(y\\) là gì?",
+      "generalfeedback": "Cộng từng vế: \\((-2x + 2x) + (5y + 3y) = 12 + 4\\) hay \\(8y = 16\\).",
+      "answers": [
+        {
+          "text": "\\(8y = 16\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(8y = 8\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2y = 16\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(8y = 12\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Biến đổi và giải hệ hai phương trình bậc nhất hai ẩn bằng phương pháp cộng đại số",
+      "questiontext": "Giải hệ phương trình \\(\\begin{cases} 5x - 7y = 9 \\\\ 5x - 3y = 1 \\end{cases}\\). Giá trị của \\(y\\) bằng bao nhiêu? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Trừ từng vế: \\((5x - 5x) + (-7y + 3y) = 9 - 1 \\Rightarrow -4y = 8 \\Rightarrow y = -2\\).",
+      "answers": [
+        {
+          "text": "-2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Biến đổi và giải hệ hai phương trình bậc nhất hai ẩn bằng phương pháp cộng đại số",
+      "questiontext": "Nghiệm \\((x; y)\\) của hệ phương trình \\(\\begin{cases} -4x + 3y = 0 \\\\ 4x - 5y = -8 \\end{cases}\\) là:",
+      "generalfeedback": "Cộng từng vế hai phương trình: \\(-2y = -8 \\Rightarrow y = 4\\). Thế \\(y = 4\\) vào phương trình thứ nhất: \\(-4x + 3 \\cdot 4 = 0 \\Rightarrow -4x = -12 \\Rightarrow x = 3\\). Nghiệm của hệ là (3; 4).",
+      "answers": [
+        {
+          "text": "\\((3; 4)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\((4; 3)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((-3; -4)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((3; -4)\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ bài tập Toán, khi gặp hệ phương trình \\(\\begin{cases} 0,3x + 0,5y = 3 \\\\ 1,5x - 2y = 1,5 \\end{cases}\\) có hệ số là các số thập phân phức tạp, bạn An thấy khó nên định bỏ qua không làm. Hành vi nào dưới đây thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập của An?",
+      "generalfeedback": "Hành vi kiên trì tìm cách nhân cả hai vế với 10 để đưa hệ về hệ số nguyên rồi giải bằng phương pháp cộng đại số thể hiện tinh thần vượt khó và vươn lên trong học tập.",
+      "answers": [
+        {
+          "text": "Kiên trì tìm hướng biến đổi: nhân cả hai vế với 10 để đưa về hệ số nguyên rồi áp dụng phương pháp cộng đại số.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua câu hỏi này và chỉ làm những câu có hệ số số nguyên dễ hơn.",
+          "fraction": 0
+        },
+        {
+          "text": "Chờ giáo viên chữa bài rồi chép lại đáp án vào vở mà không cần hiểu.",
+          "fraction": 0
+        },
+        {
+          "text": "Mượn bài giải của bạn khác để chép cho nhanh nhằm hoàn thành bài tập.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Bạn Bình nhận thấy mình còn chậm khi thực hiện bước nhân hai vế của phương trình với hệ số thích hợp để tạo hệ số đối nhau. Để cải thiện kỹ năng này, Bình nên đặt mục tiêu học tập nào sau đây là phù hợp nhất?",
+      "generalfeedback": "Đặt mục tiêu cụ thể thực hành 5 bài tập tìm hệ số nhân thích hợp mỗi ngày giúp Bình từng bước nâng cao kỹ năng biến đổi và làm chủ phương pháp cộng đại số.",
+      "answers": [
+        {
+          "text": "Mỗi ngày chủ động rèn luyện 5 bài tập về biến đổi và nhân hệ số thích hợp trong phương pháp cộng đại số.",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ học thuộc lòng các ví dụ trong sách giáo khoa mà không làm thêm bài tập.",
+          "fraction": 0
+        },
+        {
+          "text": "Đặt mục tiêu chỉ dùng máy tính cầm tay để bấm nghiệm chứ không cần luyện giải tay.",
+          "fraction": 0
+        },
+        {
+          "text": "Chờ đến sát ngày kiểm tra mới bắt đầu luyện tập giải hệ phương trình.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Khi giải hệ phương trình \\(\\begin{cases} 3x + 2y = 7 \\\\ 2x - 3y = -4 \\end{cases}\\), bạn Chi lỡ nhân sai hệ số dẫn đến kết quả không khớp. Để giải quyết vấn đề và khắc phục lỗi sai này, giải pháp nào dưới đây là tối ưu nhất?",
+      "generalfeedback": "Giải pháp tối ưu là kiểm tra lại từng bước biến đổi nhân hệ số, xác định chính xác bước tính sai và tự giải lại để rút kinh nghiệm.",
+      "answers": [
+        {
+          "text": "Rà soát lại từng bước nhân hệ số ở cả hai vế, tìm ra chỗ tính sai và thực hiện lại phép cộng đại số.",
+          "fraction": 100
+        },
+        {
+          "text": "Xóa toàn bộ bài làm và chuyển sang dùng phương pháp thế mà không tìm nguyên nhân lỗi sai.",
+          "fraction": 0
+        },
+        {
+          "text": "Giữ nguyên kết quả sai và kết luận hệ phương trình vô nghiệm.",
+          "fraction": 0
+        },
+        {
+          "text": "Nhờ bạn khác làm hộ toàn bộ bài toán từ đầu.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Khi phân tích hệ phương trình \\(\\begin{cases} -2x + 6y = 8 \\\\ 3x - 9y = -12 \\end{cases}\\), bằng thao tác tư duy biến đổi đại số (chia phương trình thứ nhất cho 2 và chia phương trình thứ hai cho -3), ta thu được nhận xét gì về mối quan hệ giữa hai phương trình?",
+      "generalfeedback": "Khi chia phương trình (1) cho 2 ta được \\(-x + 3y = 4\\). Khi chia phương trình (2) cho -3 ta được \\(-x + 3y = 4\\). Hai phương trình hoàn toàn trùng nhau nên hệ có vô số nghiệm.",
+      "answers": [
+        {
+          "text": "Hai phương trình sau khi rút gọn trở nên hoàn toàn giống nhau, dẫn đến hệ phương trình có vô số nghiệm.",
+          "fraction": 100
+        },
+        {
+          "text": "Hai phương trình mâu thuẫn nhau, dẫn đến hệ phương trình vô nghiệm.",
+          "fraction": 0
+        },
+        {
+          "text": "Hai phương trình độc lập và cho nghiệm duy nhất \\((0; 0)\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Không thể rút gọn được hai phương trình này.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Một mảnh vườn hình chữ nhật được chia thành các luống trồng cải bắp. Nếu tăng thêm 8 luống nhưng mỗi luống giảm 3 cây thì tổng số cây giảm 108 cây. Nếu giảm 4 luống nhưng mỗi luống tăng 2 cây thì tổng số cây tăng 64 cây. Để giải bài toán thực tế này, kỹ năng toán học nào cần được sử dụng tương thích?",
+      "generalfeedback": "Gọi \\(x\\) là số luống, \\(y\\) là số cây mỗi luống. Lập hệ hai phương trình bậc nhất hai ẩn và dùng phương pháp cộng đại số để tìm \\(x\\) và \\(y\\).",
+      "answers": [
+        {
+          "text": "Lập hệ hai phương trình bậc nhất hai ẩn biểu diễn mối liên hệ giữa số luống và số cây mỗi luống, sau đó giải bằng phương pháp cộng đại số.",
+          "fraction": 100
+        },
+        {
+          "text": "Lập phương trình bậc hai một ẩn và dùng công thức nghiệm delta.",
+          "fraction": 0
+        },
+        {
+          "text": "Vẽ biểu đồ hình quạt tròn để so sánh tỉ lệ tăng giảm.",
+          "fraction": 0
+        },
+        {
+          "text": "Đo đạc trực tiếp kích thước diện tích mảnh vườn trên mặt phẳng tọa độ.",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

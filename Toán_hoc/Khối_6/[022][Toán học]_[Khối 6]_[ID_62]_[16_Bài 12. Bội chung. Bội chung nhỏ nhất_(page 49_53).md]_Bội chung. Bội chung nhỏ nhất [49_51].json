@@ -1,0 +1,710 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 28,
+    "metadata_used": {
+      "Khái niệm bội chung": 4,
+      "Khái niệm bội chung nhỏ nhất (BCNN)": 2,
+      "Kí hiệu BC(a, b) và BCNN(a, b)": 1,
+      "YCCD_TOAN6_031": 3,
+      "YCCD_TOAN6_032": 4,
+      "Tìm tập hợp các bội chung của hai hoặc ba số": 2,
+      "Tìm BCNN bằng cách liệt kê bội chung": 4,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TUHOC_C2_04": 2,
+      "SUB_GTHT_XACDINHMD_C2_03": 1,
+      "NLT_TOAN_C2_01_01": 2,
+      "NLT_TOAN_C2_04_02": 1
+    },
+    "types_used": {
+      "multichoice": 13,
+      "truefalse": 3,
+      "gapselect": 3,
+      "numerical": 2,
+      "shortanswer": 2,
+      "calculatedsimple": 1,
+      "matching": 2,
+      "ddwtos": 1,
+      "calculated": 1
+    },
+    "total": 28
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "Khái niệm bội chung",
+        "reason": "Bám sát định nghĩa khái niệm bội chung trong SGK"
+      },
+      {
+        "metadata_code": "Khái niệm bội chung nhỏ nhất (BCNN)",
+        "reason": "Bám sát định nghĩa khái niệm BCNN trong SGK"
+      },
+      {
+        "metadata_code": "Kí hiệu BC(a, b) và BCNN(a, b)",
+        "reason": "Kiểm tra nhận biết ký hiệu BC(a, b) và BCNN(a, b)"
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_031",
+        "reason": "Đo lường khả năng xác định bội chung của hai số tự nhiên"
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_032",
+        "reason": "Đo lường khả năng xác định BCNN của hai số tự nhiên"
+      },
+      {
+        "metadata_code": "Tìm tập hợp các bội chung của hai hoặc ba số",
+        "reason": "Đo lường kỹ năng tìm tập hợp bội chung của hai số"
+      },
+      {
+        "metadata_code": "Tìm BCNN bằng cách liệt kê bội chung",
+        "reason": "Đo lường kỹ năng tìm BCNN bằng cách liệt kê bội chung"
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đo lường tinh thần vươn lên đạt kết quả tốt trong học tập qua tình huống toán học"
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+        "reason": "Đo lường kỹ năng ghi tóm tắt, sơ đồ hóa và tổ chức thông tin toán học"
+      },
+      {
+        "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+        "reason": "Đo lường kỹ năng đọc hiểu văn bản đời sống kết hợp số liệu toán học"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_01",
+        "reason": "Đo lường các thao tác tư duy toán học (phân tích, so sánh, lập luận, mô hình hóa)"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_04_02",
+        "reason": "Đo lường kỹ năng đọc hiểu thông tin toán học cơ bản và trọng tâm"
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm bội chung",
+      "questiontext": "Bội chung của hai hay nhiều số là gì?",
+      "generalfeedback": "Bội chung của hai hay nhiều số là bội của tất cả các số đó.",
+      "answers": [
+        {
+          "text": "Bội của tất cả các số đó",
+          "fraction": 100
+        },
+        {
+          "text": "Ước của tất cả các số đó",
+          "fraction": 0
+        },
+        {
+          "text": "Số nhỏ nhất chia hết cho các số đó",
+          "fraction": 0
+        },
+        {
+          "text": "Số lớn nhất mà các số đó đều chia hết",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm bội chung nhỏ nhất (BCNN)",
+      "questiontext": "Bội chung nhỏ nhất của hai hay nhiều số là số nhỏ nhất trong tập hợp các bội chung của các số đó.",
+      "generalfeedback": "Khái niệm đúng: Bội chung nhỏ nhất của hai hay nhiều số là số nhỏ nhất KHÁC 0 trong tập hợp các bội chung của các số đó. Do đó phát biểu trên là Sai.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Kí hiệu BC(a, b) và BCNN(a, b)",
+      "questiontext": "Tập hợp các bội chung của \\(a\\) và \\(b\\) được kí hiệu là [[1]], còn bội chung nhỏ nhất của \\(a\\) và \\(b\\) được kí hiệu là [[2]].",
+      "generalfeedback": "Kí hiệu chuẩn: BC(a, b) là tập hợp các bội chung và BCNN(a, b) là bội chung nhỏ nhất.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "BC(a, b)"
+        },
+        {
+          "group": 1,
+          "text": "BCNN(a, b)"
+        },
+        {
+          "group": 1,
+          "text": "UC(a, b)"
+        },
+        {
+          "group": 1,
+          "text": "UCLN(a, b)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_031",
+      "questiontext": "Số nào sau đây thuộc tập hợp bội chung của 4 và 6?",
+      "generalfeedback": "Ta có B(4) = {0; 4; 8; 12; 16; 20; 24; ...} và B(6) = {0; 6; 12; 18; 24; ...}. Do đó BC(4, 6) = {0; 12; 24; ...}. Trong các phương án, 24 chia hết cho cả 4 và 6.",
+      "answers": [
+        {
+          "text": "24",
+          "fraction": 100
+        },
+        {
+          "text": "18",
+          "fraction": 0
+        },
+        {
+          "text": "16",
+          "fraction": 0
+        },
+        {
+          "text": "8",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_032",
+      "questiontext": "Tìm bội chung nhỏ nhất của 4 và 6. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "BC(4, 6) = {0; 12; 24; 36; ...}. Số nhỏ nhất khác 0 trong BC(4, 6) là 12, do đó BCNN(4, 6) = 12.",
+      "answers": [
+        {
+          "text": "12",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm tập hợp các bội chung của hai hoặc ba số",
+      "questiontext": "Tập hợp \\(BC(6, 9)\\) gồm các phần tử nào dưới đây?",
+      "generalfeedback": "B(6) = {0; 6; 12; 18; 24; 30; 36; ...}, B(9) = {0; 9; 18; 27; 36; ...}. Các số vừa là bội của 6 vừa là bội của 9 là {0; 18; 36; ...}.",
+      "answers": [
+        {
+          "text": "\\(\\{0; 18; 36; ...\\}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\{0; 6; 9; 18; ...\\}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\{1; 3; 18; ...\\}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\{0; 12; 18; 24; ...\\}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm BCNN bằng cách liệt kê bội chung",
+      "questiontext": "Liệt kê các bội khác 0 nhỏ hơn 30 của 6 và 8 để tìm BCNN(6, 8). Cho biết giá trị BCNN(6, 8) bằng bao nhiêu?",
+      "generalfeedback": "Các bội khác 0 của 6 nhỏ hơn 30 là 6, 12, 18, 24. Các bội khác 0 của 8 nhỏ hơn 30 là 8, 16, 24. Bội chung nhỏ nhất khác 0 là 24.",
+      "answers": [
+        {
+          "text": "24",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_031",
+      "questiontext": "Bạn Mai muốn mua số đĩa giấy (đóng gói 4 cái/gói) và số cốc giấy (đóng gói 6 cái/gói) bằng nhau. [img:_page_0_Picture_8.jpeg] Số lượng đĩa (hoặc cốc) Mai có thể mua thuộc tập hợp nào sau đây?",
+      "imgs": [
+        "_page_0_Picture_8.jpeg"
+      ],
+      "generalfeedback": "Vì Mai mua số đĩa và cốc bằng nhau, số lượng đĩa (hoặc cốc) n phải chia hết cho cả 4 và 6, tức là \\(n \\in BC(4, 6)\\).",
+      "answers": [
+        {
+          "text": "\\(BC(4, 6)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(UC(4, 6)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(B(4)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(B(6)\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_032",
+      "questiontext": "Biết số tự nhiên {a} chia hết cho số tự nhiên {b} (với {a} và {b} khác 0). BCNN({a}, {b}) bằng bao nhiêu?",
+      "generalfeedback": "Trong các số đã cho, nếu số lớn nhất là bội của các số còn lại thì BCNN của các số đã cho chính là số lớn nhất đó. Vì {a} chia hết cho {b} nên BCNN({a}, {b}) = {a}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 10.0,
+          "max": 50.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 2.0,
+          "max": 9.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Tìm tập hợp các bội chung của hai hoặc ba số",
+      "questiontext": "Hãy ghép mỗi khái niệm/tập hợp ở cột bên trái với kí hiệu tương ứng ở cột bên phải.",
+      "generalfeedback": "Tập hợp các bội chung của a và b là BC(a, b). Bội chung nhỏ nhất của a và b là BCNN(a, b). Tập hợp các bội của a là B(a).",
+      "subquestions": [
+        {
+          "question": "Tập hợp các bội chung của a và b",
+          "answer": "BC(a, b)"
+        },
+        {
+          "question": "Bội chung nhỏ nhất của a và b",
+          "answer": "BCNN(a, b)"
+        },
+        {
+          "question": "Tập hợp các bội của a",
+          "answer": "B(a)"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm bội chung",
+      "questiontext": "Mọi số tự nhiên đều là bội của 1. Do đó với mọi số tự nhiên \\(a\\) và \\(b\\) (khác 0), ta có \\(BCNN(a, 1) = a\\).",
+      "generalfeedback": "Đúng. Theo phần Nhận xét trong SGK, với mọi số tự nhiên a và b (khác 0), ta có BCNN(a, 1) = a và BCNN(a, b, 1) = BCNN(a, b).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_032",
+      "questiontext": "Tìm BCNN(36, 9) dựa vào mối quan hệ chia hết giữa hai số.",
+      "generalfeedback": "Vì 36 chia hết cho 9 nên BCNN(36, 9) = 36.",
+      "answers": [
+        {
+          "text": "36",
+          "fraction": 100
+        },
+        {
+          "text": "9",
+          "fraction": 0
+        },
+        {
+          "text": "324",
+          "fraction": 0
+        },
+        {
+          "text": "1",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm BCNN bằng cách liệt kê bội chung",
+      "questiontext": "Tìm bội chung nhỏ nhất của 6 và 8.",
+      "generalfeedback": "B(6) = {0; 6; 12; 18; 24; 30; ...}, B(8) = {0; 8; 16; 24; 32; ...}. BCNN(6, 8) = 24.",
+      "answers": [
+        {
+          "text": "24",
+          "fraction": 100
+        },
+        {
+          "text": "48",
+          "fraction": 0
+        },
+        {
+          "text": "14",
+          "fraction": 0
+        },
+        {
+          "text": "12",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm BCNN bằng cách liệt kê bội chung",
+      "questiontext": "Tìm bội chung nhỏ nhất của ba số 8, 9 và 72. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Vì 72 chia hết cho cả 8 và 9 nên BCNN(8, 9, 72) = 72.",
+      "answers": [
+        {
+          "text": "72",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_032",
+      "questiontext": "Lịch bảo dưỡng định kì đối với máy A là 6 tháng và đối với máy B là 9 tháng. Hai máy vừa cùng được bảo dưỡng vào tháng 5. Hỏi sau ít nhất bao nhiêu tháng nữa thì hai máy lại được bảo dưỡng trong cùng một tháng?",
+      "generalfeedback": "Số tháng ít nhất để hai máy cùng bảo dưỡng là BCNN(6, 9). B(6) = {0; 6; 12; 18; 24; ...}, B(9) = {0; 9; 18; 27; ...} => BCNN(6, 9) = 18. Vậy sau ít nhất 18 tháng nữa hai máy lại bảo dưỡng cùng tháng.",
+      "answers": [
+        {
+          "text": "18 tháng",
+          "fraction": 100
+        },
+        {
+          "text": "54 tháng",
+          "fraction": 0
+        },
+        {
+          "text": "15 tháng",
+          "fraction": 0
+        },
+        {
+          "text": "3 tháng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Khái niệm bội chung",
+      "questiontext": "Số \\(x\\) thuộc tập hợp \\(BC(a, b)\\) nếu \\(x\\) chia hết cho [[1]] và \\(x\\) chia hết cho [[2]].",
+      "generalfeedback": "Theo định nghĩa SGK, x in BC(a, b) nếu x : a và x : b.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "a"
+        },
+        {
+          "group": 1,
+          "text": "b"
+        },
+        {
+          "group": 1,
+          "text": "a + b"
+        },
+        {
+          "group": 1,
+          "text": "a . b"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Khái niệm bội chung nhỏ nhất (BCNN)",
+      "questiontext": "Trong các số đã cho, nếu số lớn nhất là [[1]] của các số còn lại thì BCNN của các số đã cho chính là [[2]] đó.",
+      "generalfeedback": "Theo SGK: Trong các số đã cho, nếu số lớn nhất là bội của các số còn lại thì BCNN của các số đã cho chính là số lớn nhất đó.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "bội"
+        },
+        {
+          "group": 1,
+          "text": "số lớn nhất"
+        },
+        {
+          "group": 1,
+          "text": "ước"
+        },
+        {
+          "group": 1,
+          "text": "số nhỏ nhất"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm bội chung",
+      "questiontext": "Trong nhận xét về bội chung, ta chỉ xét bội chung của các số như thế nào?",
+      "generalfeedback": "SGK có chú ý: Ta chỉ xét bội chung của các số khác 0.",
+      "answers": [
+        {
+          "text": "khác 0",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm BCNN bằng cách liệt kê bội chung",
+      "questiontext": "Biết BCNN({x}, 1) có giá trị bằng bao nhiêu?",
+      "generalfeedback": "Với mọi số tự nhiên x khác 0, BCNN(x, 1) = x.",
+      "wildcards": [
+        {
+          "name": "x",
+          "min": 5.0,
+          "max": 100.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{x}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_031",
+      "questiontext": "Để mua cùng số lượng \\(n\\) cái mỗi loại đĩa (gói 4 cái) và cốc (gói 6 cái) sao cho số gói mua là ít nhất, bạn Mai cần mua bao nhiêu cái mỗi loại?",
+      "generalfeedback": "Để mua ít nhất thì n = BCNN(4, 6) = 12 cái.",
+      "answers": [
+        {
+          "text": "12 cái",
+          "fraction": 100
+        },
+        {
+          "text": "24 cái",
+          "fraction": 0
+        },
+        {
+          "text": "4 cái",
+          "fraction": 0
+        },
+        {
+          "text": "6 cái",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ học Toán về Bội chung nhỏ nhất, khi gặp một bài toán vận dụng thực tế khó tìm BCNN, bạn An chưa làm được ngay. Bạn An nên thực hiện hành vi nào sau đây để thể hiện tinh thần vươn lên đạt kết quả tốt trong học tập?",
+      "generalfeedback": "Thể hiện tinh thần vươn lên trong học tập (Q1): Học sinh không bỏ cuộc mà chủ động ôn tập lại lý thuyết, phân tích đề bài và kiên trì tìm cách giải quyết.",
+      "answers": [
+        {
+          "text": "Kiên trì xem lại định nghĩa BCNN, liệt kê các bội để tìm ra kết quả đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài toán khó và chỉ làm các bài tập dễ",
+          "fraction": 0
+        },
+        {
+          "text": "Chờ bạn khác làm xong rồi chép đáp án vào vở",
+          "fraction": 0
+        },
+        {
+          "text": "Đóng sách lại và không tiếp tục suy nghĩ về bài toán",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Để ghi tóm tắt kiến thức trọng tâm của bài 'Bội chung và bội chung nhỏ nhất' bằng từ khóa và ký hiệu có cấu trúc, hãy nối nội dung khái niệm ở cột bên trái với ký hiệu/từ khóa tóm tắt tương ứng ở cột bên phải.",
+      "generalfeedback": "Nối đúng phản ánh kỹ năng ghi tóm tắt thông tin có chọn lọc bằng từ khóa và ký hiệu toán học.",
+      "subquestions": [
+        {
+          "question": "Tập hợp các số vừa là bội của a vừa là bội của b",
+          "answer": "BC(a, b)"
+        },
+        {
+          "question": "Số nhỏ nhất khác 0 trong tập hợp các bội chung của a và b",
+          "answer": "BCNN(a, b)"
+        },
+        {
+          "question": "Số x chia hết cho cả a và b",
+          "answer": "x \\in BC(a, b)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "questiontext": "Đọc đoạn văn bản tình huống trong SGK: 'Có hai chiếc máy A và B. Lịch bảo dưỡng định kì đối với máy A là 6 tháng và đối với máy B là 9 tháng. Hai máy vừa cùng được bảo dưỡng vào tháng 5.' Để xác định sau bao lâu hai máy lại cùng bảo dưỡng, thông tin toán học trọng tâm nào cần trích xuất từ văn bản?",
+      "generalfeedback": "Đọc hiểu văn bản đời sống kết hợp số liệu (G2): Trích xuất thông tin khoảng thời gian bảo dưỡng (6 tháng và 9 tháng) và nhận ra thời điểm cùng bảo dưỡng tiếp theo chính là BCNN(6, 9).",
+      "answers": [
+        {
+          "text": "Số tháng ít nhất hai máy cùng bảo dưỡng là \\(BCNN(6, 9)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Số tháng hai máy cùng bảo dưỡng là \\(UCLN(6, 9)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Tổng thời gian bảo dưỡng của hai máy là \\(6 + 9 = 15\\) tháng",
+          "fraction": 0
+        },
+        {
+          "text": "Hiệu thời gian bảo dưỡng giữa hai máy là \\(9 - 6 = 3\\) tháng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Thực hiện thao tác tư duy phân tích và so sánh: Cho hai số tự nhiên \\(a\\) và \\(b\\) (khác 0) thỏa mãn \\(a\\) chia hết cho \\(b\\). Lập luận nào sau đây về \\(BCNN(a, b)\\) là đúng?",
+      "generalfeedback": "Thao tác tư duy lập luận toán học (D1): Vì a chia hết cho b nên a là bội của b. Do a cũng là bội của a nên a là bội chung của a và b. Vì a khác 0 và là bội chung nhỏ nhất nên BCNN(a, b) = a.",
+      "answers": [
+        {
+          "text": "Vì \\(a\\) là bội của \\(b\\) và \\(a\\) là bội của \\(a\\) nên \\(BCNN(a, b) = a\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Vì \\(a\\) chia hết cho \\(b\\) nên \\(BCNN(a, b) = b\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Vì \\(a\\) chia hết cho \\(b\\) nên \\(BCNN(a, b) = a \\times b\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Vì \\(a\\) và \\(b\\) đều khác 0 nên \\(BCNN(a, b) = 1\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04_02",
+      "questiontext": "Khi đọc hiểu thông tin toán học về bài toán quy đồng mẫu các phân số \\(\\frac{5}{8}\\) và \\(\\frac{7}{12}\\), thông thường người ta chọn mẫu chung là [[1]] của hai mẫu số, và để mẫu chung là nhỏ nhất thì chọn mẫu chung bằng [[2]].",
+      "generalfeedback": "Đọc hiểu thông tin toán học (D2): Khi quy đồng mẫu số các phân số, mẫu chung là một bội chung của các mẫu số, và mẫu chung nhỏ nhất chính là BCNN của các mẫu số đó.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "bội chung"
+        },
+        {
+          "group": 1,
+          "text": "bội chung nhỏ nhất"
+        },
+        {
+          "group": 1,
+          "text": "ước chung"
+        },
+        {
+          "group": 1,
+          "text": "ước chung lớn nhất"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi tham gia hoạt động nhóm tìm BCNN của các số trong bài học, bạn Bình chủ động phân công công việc, lắng nghe ý kiến các bạn và kiên trì rà soát lại các phép tính liệt kê bội để đảm bảo kết quả chính xác cho cả nhóm.",
+      "generalfeedback": "Đúng. Hành vi của bạn Bình thể hiện sự trách nhiệm, nỗ lực và cố gắng đạt kết quả tốt trong học tập (Q1).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Sử dụng thao tác tư duy mô hình hóa toán học: Bài toán 'Học sinh lớp 6A khi xếp thành 3 hàng, 4 hàng hay 9 hàng đều vừa đủ' có thể được chuyển sang mô hình tìm tập hợp số tự nhiên \\(x\\) như thế nào?",
+      "generalfeedback": "Mô hình hóa toán học (D1): Số học sinh x chia hết cho 3, chia hết cho 4, chia hết cho 9 nên x thuộc tập hợp BC(3, 4, 9).",
+      "answers": [
+        {
+          "text": "\\(x \\in BC(3, 4, 9)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x \\in UC(3, 4, 9)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x = BCNN(3, 4) + 9\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x = 3 \\times 4 \\times 9\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Để lập bảng tóm tắt so sánh giữa khái niệm 'Bội chung' và 'Bội chung nhỏ nhất' của hai số \\(a, b\\), thông tin tóm tắt nào sau đây là chính xác?",
+      "generalfeedback": "Lưu giữ và tổ chức thông tin có chọn lọc bằng bảng tóm tắt (G1): BC(a, b) là tập hợp chứa vô số số, còn BCNN(a, b) là một số tự nhiên duy nhất khác 0.",
+      "answers": [
+        {
+          "text": "\\(BC(a, b)\\) là một tập hợp các số; \\(BCNN(a, b)\\) là một số tự nhiên duy nhất (khác 0)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(BC(a, b)\\) là một số duy nhất; \\(BCNN(a, b)\\) là một tập hợp các số",
+          "fraction": 0
+        },
+        {
+          "text": "Cả \\(BC(a, b)\\) và \\(BCNN(a, b)\\) đều là hai tập hợp bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Cả \\(BC(a, b)\\) và \\(BCNN(a, b)\\) đều luôn luôn chứa số 0",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

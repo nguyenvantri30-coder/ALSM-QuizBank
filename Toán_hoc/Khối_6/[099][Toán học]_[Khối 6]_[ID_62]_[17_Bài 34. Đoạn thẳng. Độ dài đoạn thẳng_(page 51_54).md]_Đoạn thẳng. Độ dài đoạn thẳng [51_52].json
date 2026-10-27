@@ -1,0 +1,487 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 18,
+    "metadata_used": {
+      "Khái niệm đoạn thẳng AB và hai đầu mút A": 5,
+      "YCCD_TOAN6_119": 2,
+      "Nhận biết đoạn thẳng": 3,
+      "Đọc tên đoạn thẳng": 10
+    },
+    "types_used": {
+      "multichoice": 10,
+      "truefalse": 2,
+      "shortanswer": 2,
+      "gapselect": 1,
+      "matching": 2,
+      "ddwtos": 1
+    },
+    "total": 18
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN6_119",
+        "reason": "Có thể đo lường trực tiếp qua câu hỏi nhận biết khái niệm đoạn thẳng."
+      },
+      {
+        "metadata_code": "Khái niệm đoạn thẳng AB và hai đầu mút A",
+        "reason": "Có thể đo lường trực tiếp qua câu hỏi về khái niệm đoạn thẳng và hai đầu mút."
+      },
+      {
+        "metadata_code": "Nhận biết đoạn thẳng",
+        "reason": "Có thể đo lường trực tiếp qua bài tập nhận biết đoạn thẳng từ hình ảnh thực tế."
+      },
+      {
+        "metadata_code": "Đọc tên đoạn thẳng",
+        "reason": "Có thể đo lường trực tiếp qua bài tập đọc tên và xác định số lượng đoạn thẳng."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_02_04",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_04",
+        "reason": "Sẽ xử lý ở bước riêng"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm đoạn thẳng AB và hai đầu mút A",
+      "questiontext": "Đoạn thẳng \\(AB\\) là hình gồm những yếu tố nào dưới đây?",
+      "generalfeedback": "Theo SGK, đoạn thẳng \\(AB\\), hay đoạn thẳng \\(BA\\), là hình gồm hai điểm \\(A\\), \\(B\\) cùng với tất cả các điểm nằm giữa \\(A\\) và \\(B\\).",
+      "answers": [
+        {
+          "text": "Hai điểm \\(A\\), \\(B\\) cùng với tất cả các điểm nằm giữa \\(A\\) và \\(B\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ gồm hai điểm \\(A\\) và \\(B\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Hai điểm \\(A\\), \\(B\\) và chỉ một điểm nằm giữa \\(A\\) và \\(B\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Tất cả các điểm nằm trên đường thẳng đi qua \\(A\\) và \\(B\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm đoạn thẳng AB và hai đầu mút A",
+      "questiontext": "Đoạn thẳng \\(AB\\) và đoạn thẳng \\(BA\\) là hai đoạn thẳng khác nhau.",
+      "generalfeedback": "Đoạn thẳng \\(AB\\) còn gọi là đoạn thẳng \\(BA\\), hai cách gọi này chỉ cùng một đoạn thẳng.",
+      "answers": [
+        {
+          "text": "Sai",
+          "fraction": 100
+        },
+        {
+          "text": "Đúng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm đoạn thẳng AB và hai đầu mút A",
+      "questiontext": "Trong khái niệm đoạn thẳng \\(MN\\), hai điểm \\(M\\) và \\(N\\) được gọi là gì?",
+      "generalfeedback": "Hai điểm \\(M\\) và \\(N\\) được gọi là hai đầu mút (hoặc hai mút) của đoạn thẳng \\(MN\\).",
+      "answers": [
+        {
+          "text": "Hai đầu mút (hay hai mút) của đoạn thẳng \\(MN\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Hai điểm trung điểm của đoạn thẳng \\(MN\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Hai đường thẳng vuông góc.",
+          "fraction": 0
+        },
+        {
+          "text": "Hai điểm nằm ngoài đoạn thẳng \\(MN\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Đọc tên đoạn thẳng",
+      "questiontext": "Nếu một đoạn thẳng có hai đầu mút là điểm \\(C\\) và điểm \\(D\\), đoạn thẳng đó được đặt tên là gì?",
+      "generalfeedback": "Đoạn thẳng có hai đầu mút \\(C\\) và \\(D\\) được gọi là đoạn thẳng \\(CD\\) (hoặc đoạn thẳng \\(DC\\)).",
+      "answers": [
+        {
+          "text": "Đoạn thẳng CD",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_119",
+      "questiontext": "Đoạn thẳng \\(XY\\) là hình gồm hai điểm [[1]] cùng với tất cả các điểm nằm [[3]] hai điểm đó.",
+      "generalfeedback": "Đoạn thẳng \\(XY\\) gồm hai điểm \\(X, Y\\) và tất cả các điểm nằm giữa \\(X\\) và \\(Y\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(X, Y\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(M, N\\)"
+        },
+        {
+          "group": 2,
+          "text": "giữa"
+        },
+        {
+          "group": 2,
+          "text": "ngoài"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết đoạn thẳng",
+      "imgs": [
+        "_page_0_Picture_9.jpeg"
+      ],
+      "questiontext": "Quan sát hình ảnh thực tế dưới đây:\n[img:_page_0_Picture_9.jpeg]\nHình ảnh chiếc bút chì, chiếc đũa, cây gậy gợi cho ta hình ảnh của hình nào trong hình học?",
+      "generalfeedback": "Trong đời sống, những vật như cây gậy, cây bút chì, chiếc đũa cho ta hình ảnh của đoạn thẳng.",
+      "answers": [
+        {
+          "text": "Đoạn thẳng",
+          "fraction": 100
+        },
+        {
+          "text": "Điểm",
+          "fraction": 0
+        },
+        {
+          "text": "Đường tròn",
+          "fraction": 0
+        },
+        {
+          "text": "Góc",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Đọc tên đoạn thẳng",
+      "imgs": [
+        "_page_1_Picture_2.jpeg"
+      ],
+      "questiontext": "Quan sát Hình 8.26 dưới đây:\n[img:_page_1_Picture_2.jpeg]\nHãy cho biết trong hình trên có tất cả bao nhiêu đoạn thẳng?",
+      "generalfeedback": "Trong Hình 8.26 có 3 đoạn thẳng là: \\(AB\\), \\(BC\\), \\(CA\\).",
+      "answers": [
+        {
+          "text": "3 đoạn thẳng",
+          "fraction": 100
+        },
+        {
+          "text": "2 đoạn thẳng",
+          "fraction": 0
+        },
+        {
+          "text": "4 đoạn thẳng",
+          "fraction": 0
+        },
+        {
+          "text": "6 đoạn thẳng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Đọc tên đoạn thẳng",
+      "questiontext": "Hãy ghép mỗi mô tả ở cột trái với tên đoạn thẳng tương ứng ở cột phải:",
+      "generalfeedback": "Tên của đoạn thẳng được ghép từ tên của hai đầu mút tạo nên đoạn thẳng đó.",
+      "subquestions": [
+        {
+          "question": "Đoạn thẳng có hai đầu mút là \\(A\\) và \\(B\\)",
+          "answer": "Đoạn thẳng \\(AB\\)"
+        },
+        {
+          "question": "Đoạn thẳng có hai đầu mút là \\(M\\) và \\(N\\)",
+          "answer": "Đoạn thẳng \\(MN\\)"
+        },
+        {
+          "question": "Đoạn thẳng có hai đầu mút là \\(P\\) và \\(Q\\)",
+          "answer": "Đoạn thẳng \\(PQ\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Đọc tên đoạn thẳng",
+      "imgs": [
+        "_page_1_Picture_7.jpeg"
+      ],
+      "questiontext": "Cho 4 điểm \\(A, B, C, D\\) như Hình 8.27:\n[img:_page_1_Picture_7.jpeg]\nCó bao nhiêu đoạn thẳng có hai đầu mút chọn từ hai trong ba điểm \\(A, B, C\\)?",
+      "generalfeedback": "Các đoạn thẳng có hai đầu mút là hai trong ba điểm \\(A, B, C\\) gồm: đoạn thẳng \\(AB\\), đoạn thẳng \\(BC\\) và đoạn thẳng \\(AC\\) (tổng cộng 3 đoạn thẳng).",
+      "answers": [
+        {
+          "text": "3 đoạn thẳng",
+          "fraction": 100
+        },
+        {
+          "text": "4 đoạn thẳng",
+          "fraction": 0
+        },
+        {
+          "text": "5 đoạn thẳng",
+          "fraction": 0
+        },
+        {
+          "text": "6 đoạn thẳng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Khái niệm đoạn thẳng AB và hai đầu mút A",
+      "imgs": [
+        "_page_0_Figure_21.jpeg"
+      ],
+      "questiontext": "Cho các điểm \\(A, B, C, D\\) phân biệt và thẳng hàng theo thứ tự như Hình 8.24:\n[img:_page_0_Figure_21.jpeg]\nVạch thẳng màu đen bắt đầu từ điểm \\(A\\) và kết thúc ở điểm \\(B\\) biểu diễn đoạn thẳng [[1]]. Hai điểm \\(C\\) và \\(D\\) thì điểm [[3]] nằm trên vạch màu đen đó.",
+      "generalfeedback": "Vạch thẳng từ \\(A\\) đến \\(B\\) là đoạn thẳng \\(AB\\). Điểm \\(C\\) nằm giữa \\(A\\) và \\(B\\) nên điểm \\(C\\) nằm trên vạch màu đen.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(AB\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(CD\\)"
+        },
+        {
+          "group": 2,
+          "text": "\\(C\\)"
+        },
+        {
+          "group": 2,
+          "text": "\\(D\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Đọc tên đoạn thẳng",
+      "imgs": [
+        "_page_1_Picture_7.jpeg"
+      ],
+      "questiontext": "Cho 4 điểm \\(A, B, C, D\\) như Hình 8.27:\n[img:_page_1_Picture_7.jpeg]\nHãy kể tên tất cả các đoạn thẳng có hai đầu mút chọn từ hai trong bốn điểm \\(A, B, C, D\\).",
+      "generalfeedback": "Số đoạn thẳng có hai đầu mút chọn từ hai trong bốn điểm \\(A, B, C, D\\) là 6 đoạn thẳng: \\(AB\\), \\(AC\\), \\(AD\\), \\(BC\\), \\(BD\\), \\(CD\\).",
+      "answers": [
+        {
+          "text": "6 đoạn thẳng: \\(AB\\), \\(AC\\), \\(AD\\), \\(BC\\), \\(BD\\), \\(CD\\)",
+          "fraction": 100
+        },
+        {
+          "text": "4 đoạn thẳng: \\(AB\\), \\(BC\\), \\(CD\\), \\(DA\\)",
+          "fraction": 0
+        },
+        {
+          "text": "3 đoạn thẳng: \\(AB\\), \\(BC\\), \\(CA\\)",
+          "fraction": 0
+        },
+        {
+          "text": "5 đoạn thẳng: \\(AB\\), \\(AC\\), \\(BC\\), \\(BD\\), \\(CD\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết đoạn thẳng",
+      "questiontext": "Hình ảnh nào sau đây trong thực tế KHÔNG biểu thị cho hình ảnh của một đoạn thẳng?",
+      "generalfeedback": "Mặt nước hồ yên lặng trải rộng đại diện cho hình ảnh một phần của mặt phẳng, không phải là đoạn thẳng.",
+      "answers": [
+        {
+          "text": "Mặt nước hồ hoàn toàn yên lặng trải rộng.",
+          "fraction": 100
+        },
+        {
+          "text": "Chiếc đũa ăn cơm.",
+          "fraction": 0
+        },
+        {
+          "text": "Cây gậy thể dục.",
+          "fraction": 0
+        },
+        {
+          "text": "Cây bút chì chưa gọt.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Đọc tên đoạn thẳng",
+      "imgs": [
+        "_page_1_Picture_11.jpeg"
+      ],
+      "questiontext": "Quan sát Hình 8.28 (Vận dụng 1 SGK):\n[img:_page_1_Picture_11.jpeg]\nCó 5 hòn đảo biểu thị bởi 5 điểm \\(A, B, C, D, E\\). Đã có 1 cây cầu nối hai đảo \\(A\\) và \\(B\\) (đoạn thẳng \\(AB\\)). Hỏi phải xây thêm ít nhất bao nhiêu cây cầu nữa để có thể đi lại giữa 5 hòn đảo đó qua các cây cầu?",
+      "generalfeedback": "Để kết nối 5 hòn đảo cần ít nhất 4 cây cầu. Đã có sẵn 1 cây cầu nối \\(A\\) và \\(B\\) nên cần xây thêm ít nhất \\(4 - 1 = 3\\) cây cầu nữa.",
+      "answers": [
+        {
+          "text": "3 cây cầu",
+          "fraction": 100
+        },
+        {
+          "text": "4 cây cầu",
+          "fraction": 0
+        },
+        {
+          "text": "5 cây cầu",
+          "fraction": 0
+        },
+        {
+          "text": "2 cây cầu",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm đoạn thẳng AB và hai đầu mút A",
+      "questiontext": "Điểm \\(M\\) nằm giữa hai điểm \\(P\\) và \\(Q\\). Hỏi điểm \\(M\\) có thuộc đoạn thẳng \\(PQ\\) hay không?",
+      "generalfeedback": "Đoạn thẳng \\(PQ\\) bao gồm hai điểm \\(P, Q\\) và tất cả các điểm nằm giữa \\(P\\) và \\(Q\\). Do đó điểm \\(M\\) thuộc đoạn thẳng \\(PQ\\).",
+      "answers": [
+        {
+          "text": "Có",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_119",
+      "questiontext": "Mọi điểm nằm giữa hai điểm \\(E\\) và \\(F\\) đều thuộc đoạn thẳng \\(EF\\).",
+      "generalfeedback": "Theo định nghĩa SGK, đoạn thẳng \\(EF\\) là hình gồm hai điểm \\(E, F\\) và tất cả các điểm nằm giữa \\(E\\) và \\(F\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Đọc tên đoạn thẳng",
+      "questiontext": "Hãy ghép số lượng điểm phân biệt cho trước (không có 3 điểm nào thẳng hàng) ở cột trái với số đoạn thẳng tạo thành tương ứng ở cột phải:",
+      "generalfeedback": "Số đoạn thẳng tạo từ \\(n\\) điểm phân biệt không thẳng hàng là \\(\\frac{n(n-1)}{2}\\).",
+      "subquestions": [
+        {
+          "question": "2 điểm phân biệt",
+          "answer": "1 đoạn thẳng"
+        },
+        {
+          "question": "3 điểm phân biệt",
+          "answer": "3 đoạn thẳng"
+        },
+        {
+          "question": "4 điểm phân biệt",
+          "answer": "6 đoạn thẳng"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm đoạn thẳng AB và hai đầu mút A",
+      "questiontext": "Cho điểm \\(K\\) thuộc đoạn thẳng \\(GH\\) (với \\(K\\) không trùng với \\(G\\) và \\(H\\)). Khẳng định nào sau đây là ĐÚNG?",
+      "generalfeedback": "Vì \\(K\\) thuộc đoạn thẳng \\(GH\\) và không trùng hai đầu mút \\(G, H\\) nên điểm \\(K\\) nằm giữa hai điểm \\(G\\) và \\(H\\).",
+      "answers": [
+        {
+          "text": "Điểm \\(K\\) nằm giữa hai điểm \\(G\\) và \\(H\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Điểm \\(G\\) nằm giữa hai điểm \\(K\\) và \\(H\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Điểm \\(H\\) nằm giữa hai điểm \\(G\\) và \\(K\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Ba điểm \\(G, K, H\\) không thẳng hàng.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết đoạn thẳng",
+      "imgs": [
+        "_page_0_Picture_15.jpeg"
+      ],
+      "questiontext": "Quan sát Hoạt động 1 SGK:\n[img:_page_0_Picture_15.jpeg]\nMột người đi xe đạp trên đoạn đường thẳng từ nhà \\(A\\) đến siêu thị \\(B\\). Quãng đường người đi xe đạp đã đi qua mô tả hình hình học nào?",
+      "generalfeedback": "Quãng đường thẳng nối từ điểm \\(A\\) đến điểm \\(B\\) mô tả hình ảnh của đoạn thẳng \\(AB\\).",
+      "answers": [
+        {
+          "text": "Đoạn thẳng \\(AB\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Đường thẳng vuông góc",
+          "fraction": 0
+        },
+        {
+          "text": "Một điểm duy nhất",
+          "fraction": 0
+        },
+        {
+          "text": "Tia \\(AB\\)",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

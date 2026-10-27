@@ -1,0 +1,676 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 27,
+    "metadata_used": {
+      "Hệ thống hóa bài toán thực tế Chương IX": 10,
+      "Giải bài toán thực tế bằng kiến thức đường tròn và đa giác củng cố Chương IX": 9,
+      "YCCD_TOAN9_094": 11,
+      "SUB_CHAMCHI_HAMHOC_C2_03": 1,
+      "SUB_GQVD_DEXUAT_C2_01": 1,
+      "SUB_GTHT_XACDINHMD_C2_04": 1,
+      "NLT_TOAN_C2_02_04": 2,
+      "NLT_TOAN_C2_02_08": 2
+    },
+    "types_used": {
+      "multichoice": 10,
+      "truefalse": 3,
+      "matching": 2,
+      "calculatedsimple": 1,
+      "numerical": 4,
+      "shortanswer": 3,
+      "gapselect": 2,
+      "calculated": 1,
+      "ddwtos": 1
+    },
+    "total": 27
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "Hệ thống hóa bài toán thực tế Chương IX",
+        "reason": "Hệ thống hóa các bài toán chứng minh và tính chất hình học Chương IX"
+      },
+      {
+        "metadata_code": "Giải bài toán thực tế bằng kiến thức đường tròn và đa giác củng cố Chương IX",
+        "reason": "Giải bài toán thực tế tính chu vi, diện tích, bán kính đường tròn và đa giác"
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_094",
+        "reason": "Giải quyết các vấn đề thực tiễn gắn với đường tròn, phép quay và cắt hình"
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_03",
+        "reason": "Đo lường thái độ/ý thức vận dụng kiến thức toán học vào thực tiễn"
+      },
+      {
+        "metadata_code": "SUB_GQVD_DEXUAT_C2_01",
+        "reason": "Đo lường năng lực xác định và xử lý thông tin cốt lõi của bài toán"
+      },
+      {
+        "metadata_code": "SUB_GTHT_XACDINHMD_C2_04",
+        "reason": "Đo lường năng lực sử dụng ngôn ngữ toán học để trình bày thông tin"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_02_04",
+        "reason": "Đo lường năng lực sử dụng mô hình toán học mô tả tình huống thực tiễn"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_02_08",
+        "reason": "Đo lường năng lực thể hiện lời giải toán học vào ngữ cảnh thực tiễn"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "SUB_TRACHNHIEM_MOITRUONG_C2_01",
+        "reason": "Bài học thuộc Chương IX về đường tròn và đa giác không chứa bối cảnh tự nhiên hay môi trường để đo lường việc sống hòa hợp với thiên nhiên."
+      },
+      {
+        "metadata_code": "1.1TC2a_K9",
+        "reason": "Bài học hình học không yêu cầu học sinh sử dụng công cụ tin học hay tìm kiếm dữ liệu trong môi trường số."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống hóa bài toán thực tế Chương IX",
+      "questiontext": "Cho tam giác \\(ABC\\) có các đường cao \\(BE\\) và \\(CF\\) cắt nhau tại \\(H\\). Gọi \\(I\\) là trung điểm của \\(AH\\). Tâm và bán kính của đường tròn ngoại tiếp tứ giác \\(AEHF\\) là:",
+      "generalfeedback": "Vì \\(\\widehat{AEH} = 90^\\circ\\) và \\(\\widehat{AFH} = 90^\\circ\\), tứ giác \\(AEHF\\) nội tiếp đường tròn đường kính \\(AH\\). Do \\(I\\) là trung điểm \\(AH\\), tâm đường tròn là \\(I\\) và bán kính bằng \\(\\frac{AH}{2}\\).",
+      "answers": [
+        {
+          "text": "Tâm \\(I\\) và bán kính \\(R = \\frac{AH}{2}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Tâm \\(H\\) và bán kính \\(R = AH\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Tâm \\(A\\) và bán kính \\(R = AI\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Tâm \\(I\\) và bán kính \\(R = AH\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Hệ thống hóa bài toán thực tế Chương IX",
+      "questiontext": "Cho tam giác \\(ABC\\) có các đường cao \\(BE, CF\\) cắt nhau tại \\(H\\), \\(M\\) là trung điểm của \\(BC\\) và \\(I\\) là trung điểm của \\(AH\\). Khẳng định sau đây đúng hay sai: \"Các tiếp tuyến \\(ME\\) và \\(MF\\) vuông góc với bán kính tương ứng \\(IE\\) và \\(IF\\) của đường tròn ngoại tiếp tứ giác \\(AEHF\\)\".",
+      "generalfeedback": "Khẳng định này đúng. Ta chứng minh được \\(\\widehat{IEM} = 90^\\circ\\) và \\(\\widehat{IFM} = 90^\\circ\\), suy ra \\(ME\\) và \\(MF\\) là hai tiếp tuyến của đường tròn tâm \\(I\\) ngoại tiếp tứ giác \\(AEHF\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống hóa bài toán thực tế Chương IX",
+      "questiontext": "Cho tam giác \\(ABC\\) nội tiếp đường tròn \\((O)\\). Gọi \\(M, N, P\\) lần lượt là trung điểm của các cạnh \\(BC, CA, AB\\). Tâm của đường tròn ngoại tiếp tứ giác \\(ANOP\\) là điểm nào dưới đây?",
+      "generalfeedback": "Do \\(ON \\perp AC\\) và \\(OP \\perp AB\\) nên \\(\\widehat{ANO} = \\widehat{APO} = 90^\\circ\\). Tứ giác \\(ANOP\\) nội tiếp đường tròn đường kính \\(AO\\), nên tâm của đường tròn này là trung điểm của đoạn thẳng \\(AO\\).",
+      "answers": [
+        {
+          "text": "Trung điểm của đoạn thẳng \\(AO\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Điểm \\(O\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Trung điểm của đoạn thẳng \\(NP\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Điểm \\(A\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Hệ thống hóa bài toán thực tế Chương IX",
+      "questiontext": "Cho tam giác \\(ABC\\) nội tiếp đường tròn \\((O)\\). Gọi \\(M, N, P\\) lần lượt là trung điểm của các cạnh \\(BC, CA, AB\\). Hãy ghép nối mỗi tứ giác nội tiếp với đường kính của đường tròn ngoại tiếp tứ giác đó:",
+      "generalfeedback": "Do \\(OM \\perp BC, ON \\perp CA, OP \\perp AB\\), các góc tại các chân đường vuông góc bằng \\(90^\\circ\\). Do đó các tứ giác \\(ANOP, BPOM, CMON\\) nội tiếp các đường tròn có đường kính lần lượt là \\(AO, BO, CO\\).",
+      "subquestions": [
+        {
+          "question": "Tứ giác \\(ANOP\\)",
+          "answer": "Đường kính \\(AO\\)"
+        },
+        {
+          "question": "Tứ giác \\(BPOM\\)",
+          "answer": "Đường kính \\(BO\\)"
+        },
+        {
+          "question": "Tứ giác \\(CMON\\)",
+          "answer": "Đường kính \\(CO\\)"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán thực tế bằng kiến thức đường tròn và đa giác củng cố Chương IX",
+      "questiontext": "Một hình vuông có cạnh bằng {a} cm nội tiếp đường tròn \\((O, R)\\). Bán kính \\(R\\) của đường tròn đó tính theo {a} bằng bao nhiêu cm? (Đáp án viết dạng công thức chứa biến {a})",
+      "generalfeedback": "Đường chéo của hình vuông cạnh {a} cm là \\({a}\\sqrt{2}\\) cm. Đường chéo này chính là đường kính \\(2R\\) của đường tròn ngoại tiếp, do đó \\(R = \\frac{{a}\\sqrt{2}}{2}\\) cm.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*sqrt(2)/2",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán thực tế bằng kiến thức đường tròn và đa giác củng cố Chương IX",
+      "questiontext": "Cho một hình lục giác đều và một hình vuông cùng nội tiếp một đường tròn. Biết rằng hình vuông có cạnh bằng 3 cm. Tính chu vi của hình lục giác đều đã cho theo đơn vị cm. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Đường chéo hình vuông là \\(3\\sqrt{2}\\) cm, suy ra bán kính đường tròn \\(R = \\frac{3\\sqrt{2}}{2}\\) cm. Cạnh hình lục giác đều nội tiếp bằng bán kính \\(R = \\frac{3\\sqrt{2}}{2}\\) cm. Chu vi hình lục giác đều là \\(P = 6 \\times \\frac{3\\sqrt{2}}{2} = 9\\sqrt{2} \\approx 12.73\\) cm.",
+      "answers": [
+        {
+          "text": "12.73",
+          "fraction": 100,
+          "tolerance": 0.02
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán thực tế bằng kiến thức đường tròn và đa giác củng cố Chương IX",
+      "questiontext": "Cho một hình lục giác đều và một hình vuông cùng nội tiếp một đường tròn. Biết rằng hình vuông có cạnh bằng 3 cm. Tính diện tích của hình lục giác đều đã cho theo đơn vị \\(\\text{cm}^2\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Bán kính đường tròn ngoại tiếp là \\(R = \\frac{3\\sqrt{2}}{2}\\) cm. Diện tích hình lục giác đều nội tiếp là \\(S = 6 \\times \\frac{R^2\\sqrt{3}}{4} = 6 \\times \\frac{\\frac{18}{4}\\sqrt{3}}{4} = \\frac{27\\sqrt{3}}{4} \\approx 11.69\\) \\(\\text{cm}^2\\).",
+      "answers": [
+        {
+          "text": "11.69",
+          "fraction": 100,
+          "tolerance": 0.02
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_094",
+      "questiontext": "Cho hình vuông \\(ABCD\\) nội tiếp đường tròn tâm \\(O\\) [img:_page_0_Picture_26.jpeg]. Phép quay thuận chiều \\(45^\\circ\\) tâm \\(O\\) biến các đỉnh \\(A, B, C, D\\) lần lượt thành các điểm \\(A', B', C', D'\\). Tứ giác \\(A'B'C'D'\\) thu được là hình gì?",
+      "imgs": [
+        "_page_0_Picture_26.jpeg"
+      ],
+      "generalfeedback": "Phép quay là một phép dời hình, biến hình vuông \\(ABCD\\) thành một hình vuông \\(A'B'C'D'\\) bằng với hình vuông \\(ABCD\\) và cũng nội tiếp đường tròn tâm \\(O\\).",
+      "answers": [
+        {
+          "text": "Hình vuông",
+          "fraction": 100
+        },
+        {
+          "text": "Hình chữ nhật không phải hình vuông",
+          "fraction": 0
+        },
+        {
+          "text": "Hình thoi không phải hình vuông",
+          "fraction": 0
+        },
+        {
+          "text": "Hình thang cân",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_094",
+      "questiontext": "Cho hình vuông \\(ABCD\\) nội tiếp đường tròn tâm \\(O\\). Phép quay thuận chiều \\(45^\\circ\\) tâm \\(O\\) biến các điểm \\(A, B, C, D\\) lần lượt thành các điểm \\(A', B', C', D'\\). Nếu quay tiếp thuận chiều \\(45^\\circ\\) tâm \\(O\\) nữa, điểm \\(A'\\) biến thành điểm nào?",
+      "generalfeedback": "Tổng cộng quay thuận chiều \\(90^\\circ\\) tâm \\(O\\), bán kính \\(OA\\) quay \\(90^\\circ\\) thuận chiều biến thành bán kính \\(OB\\), do đó điểm \\(A\\) biến thành điểm \\(B\\). Vì vậy phép quay thứ hai biến điểm \\(A'\\) thành điểm \\(B\\).",
+      "answers": [
+        {
+          "text": "Điểm B",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_094",
+      "questiontext": "Bạn Lan muốn cắt hình ngôi sao 5 cánh có dạng như Hình 9.62 [img:_page_0_Picture_28.jpeg] (trong đó \\(ABCDE\\) là một ngũ giác đều). Lan gấp đôi tờ giấy, vẽ một nửa ngôi sao và cắt theo nét vẽ. Hỏi góc tạo bởi lưỡi kéo và nếp gấp lúc đầu ở đỉnh ngôi sao bằng bao nhiêu độ? (Chỉ ghi số)",
+      "imgs": [
+        "_page_0_Picture_28.jpeg"
+      ],
+      "generalfeedback": "Mỗi góc ở đỉnh của ngôi sao 5 cánh đều bằng \\(36^\\circ\\). Nếp gấp giấy là đường phân giác của góc ở đỉnh ngôi sao. Do đó góc tạo bởi lưỡi kéo và nếp gấp bằng \\(36^\\circ / 2 = 18^\\circ\\).",
+      "answers": [
+        {
+          "text": "18",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Hệ thống hóa bài toán thực tế Chương IX",
+      "questiontext": "Cho tam giác \\(ABC\\) có hai đường cao \\(BE\\) và \\(CF\\) cắt nhau tại \\(H\\). Gọi \\(I\\) là trung điểm của \\(AH\\). Khẳng định nào sau đây là sai?",
+      "generalfeedback": "Tứ giác \\(AEHF\\) nội tiếp đường tròn đường kính \\(AH\\) tâm \\(I\\). Do đó \\(IA = IE = IH = IF\\). Khẳng định \\(IE = IB\\) là sai vì \\(B\\) không nằm trên đường tròn đường kính \\(AH\\).",
+      "answers": [
+        {
+          "text": "\\(IE = IB\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(IE = IH\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(IA = IF\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(IE = IF\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống hóa bài toán thực tế Chương IX",
+      "questiontext": "Cho tam giác \\(ABC\\) nội tiếp đường tròn \\((O)\\). Gọi \\(M, N, P\\) lần lượt là trung điểm của \\(BC, CA, AB\\). Vì \\(ON \\perp AC\\) nên góc \\(\\widehat{ANO} =\\) [[1]]\\(^\\circ\\). Do đó tứ giác \\(ANOP\\) nội tiếp đường tròn đường kính [[2]].",
+      "generalfeedback": "Vì \\(ON \\perp AC\\) nên \\(\\widehat{ANO} = 90^\\circ\\). Tương tự \\(OP \\perp AB\\) nên \\(\\widehat{APO} = 90^\\circ\\). Tứ giác \\(ANOP\\) có tổng hai góc đối bằng \\(180^\\circ\\) nên nội tiếp đường tròn đường kính \\(AO\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "90"
+        },
+        {
+          "group": 1,
+          "text": "AO"
+        },
+        {
+          "group": 1,
+          "text": "45"
+        },
+        {
+          "group": 1,
+          "text": "BO"
+        },
+        {
+          "group": 1,
+          "text": "180"
+        },
+        {
+          "group": 1,
+          "text": "CO"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán thực tế bằng kiến thức đường tròn và đa giác củng cố Chương IX",
+      "questiontext": "Một hình vuông có cạnh bằng {a} cm nội tiếp đường tròn \\((O)\\). Chu vi đường tròn \\((O)\\) đó bằng bao nhiêu cm? (Lấy \\(\\pi \\approx 3.14\\), viết công thức tính theo biến {a})",
+      "generalfeedback": "Đường kính của đường tròn ngoại tiếp hình vuông cạnh {a} cm là \\(d = {a}\\sqrt{2}\\) cm. Chu vi đường tròn là \\(C = \\pi \\times d = 3.14 \\times {a} \\times \\sqrt{2}\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "3.14*{a}*sqrt(2)",
+          "fraction": 100,
+          "tolerance": 0.05
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Giải bài toán thực tế bằng kiến thức đường tròn và đa giác củng cố Chương IX",
+      "questiontext": "Cho một hình vuông có cạnh bằng \\(a\\) cm nội tiếp đường tròn \\((O)\\). Một hình lục giác đều cũng nội tiếp đường tròn \\((O)\\) đó. Độ dài cạnh của hình lục giác đều bằng bao nhiêu?",
+      "generalfeedback": "Bán kính đường tròn ngoại tiếp hình vuông cạnh \\(a\\) là \\(R = \\frac{a\\sqrt{2}}{2}\\). Cạnh của hình lục giác đều nội tiếp đường tròn \\((O)\\) đúng bằng bán kính \\(R\\), tức là \\(\\frac{a\\sqrt{2}}{2}\\) cm.",
+      "answers": [
+        {
+          "text": "\\(\\frac{a\\sqrt{2}}{2}\\) cm",
+          "fraction": 100
+        },
+        {
+          "text": "\\(a\\sqrt{2}\\) cm",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{a}{2}\\) cm",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a\\sqrt{3}\\) cm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán thực tế bằng kiến thức đường tròn và đa giác củng cố Chương IX",
+      "questiontext": "Cho một hình vuông có cạnh bằng 4 cm nội tiếp đường tròn \\((O)\\). Tính bán kính \\(R\\) của đường tròn \\((O)\\) theo đơn vị cm. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Đường chéo hình vuông là \\(4\\sqrt{2}\\) cm. Bán kính đường tròn ngoại tiếp \\(R = \\frac{4\\sqrt{2}}{2} = 2\\sqrt{2} \\approx 2.83\\) cm.",
+      "answers": [
+        {
+          "text": "2.83",
+          "fraction": 100,
+          "tolerance": 0.02
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_094",
+      "questiontext": "Cho hình vuông \\(ABCD\\) nội tiếp đường tròn tâm \\(O\\) [img:_page_0_Picture_26.jpeg]. Phép quay thuận chiều \\(45^\\circ\\) tâm \\(O\\) biến điểm \\(A\\) thành \\(A'\\), \\(B\\) thành \\(B'\\), \\(C\\) thành \\(C'\\), \\(D\\) thành \\(D'\\). Khẳng định sau đúng hay sai: \"Các điểm \\(A', B', C', D'\\) lần lượt là trung điểm của các cung nhỏ \\(AB, BC, CD, DA\\) của đường tròn \\((O)\\)\".",
+      "imgs": [
+        "_page_0_Picture_26.jpeg"
+      ],
+      "generalfeedback": "Khẳng định này ĐÚNG. Do \\(\\widehat{AOB} = 90^\\circ\\), phép quay thuận chiều \\(45^\\circ\\) biến bán kính \\(OA\\) thành bán kính \\(OA'\\) sao cho \\(\\widehat{AOA'} = 45^\\circ = \\frac{1}{2}\\widehat{AOB}\\). Do đó \\(A'\\) là trung điểm cung nhỏ \\(AB\\). Tương tự cho các điểm còn lại.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_094",
+      "questiontext": "Cho hình vuông \\(ABCD\\) nội tiếp đường tròn tâm \\(O\\). Phép quay thuận chiều \\(45^\\circ\\) tâm \\(O\\) biến các đỉnh \\(A, B, C, D\\) lần lượt thành \\(A', B', C', D'\\). Ghép mỗi điểm sau với điểm tương ứng mà nó được biến thành qua phép quay đó:",
+      "generalfeedback": "Theo đề bài, phép quay thuận chiều \\(45^\\circ\\) tâm \\(O\\) biến \\(A \\mapsto A'\\), \\(B \\mapsto B'\\), \\(C \\mapsto C'\\), \\(D \\mapsto D'\\).",
+      "subquestions": [
+        {
+          "question": "Điểm \\(A\\)",
+          "answer": "Điểm \\(A'\\)"
+        },
+        {
+          "question": "Điểm \\(B\\)",
+          "answer": "Điểm \\(B'\\)"
+        },
+        {
+          "question": "Điểm \\(C\\)",
+          "answer": "Điểm \\(C'\\)"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_094",
+      "questiontext": "Bạn Lan cắt hình ngôi sao 5 cánh từ ngũ giác đều \\(ABCDE\\) [img:_page_0_Picture_28.jpeg]. Ngũ giác đều \\(ABCDE\\) có tổng 5 góc ở các đỉnh của ngôi sao bằng [[1]] độ. Do đó góc ở mỗi đỉnh ngôi sao bằng [[2]] độ.",
+      "imgs": [
+        "_page_0_Picture_28.jpeg"
+      ],
+      "generalfeedback": "Tổng 5 góc ở 5 đỉnh của ngôi sao 5 cánh bằng \\(180^\\circ\\). Vì ngũ giác đều \\(ABCDE\\) có tính đối xứng nên 5 góc ở đỉnh ngôi sao bằng nhau, mỗi góc bằng \\(180^\\circ / 5 = 36^\\circ\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "180"
+        },
+        {
+          "group": 1,
+          "text": "36"
+        },
+        {
+          "group": 1,
+          "text": "360"
+        },
+        {
+          "group": 1,
+          "text": "72"
+        },
+        {
+          "group": 1,
+          "text": "108"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống hóa bài toán thực tế Chương IX",
+      "questiontext": "Cho tam giác \\(ABC\\) có hai đường cao \\(BE, CF\\) cắt nhau tại \\(H\\). Tứ giác nào dưới đây KHÔNG phải là tứ giác nội tiếp?",
+      "generalfeedback": "Tứ giác \\(AEHF\\) nội tiếp đường tròn đường kính \\(AH\\). Tứ giác \\(BFEC\\) nội tiếp đường tròn đường kính \\(BC\\). Tứ giác \\(ABCH\\) không có tổng các góc đối bằng \\(180^\\circ\\) nên không phải tứ giác nội tiếp.",
+      "answers": [
+        {
+          "text": "Tứ giác \\(ABCH\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Tứ giác \\(AEHF\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Tứ giác \\(BFEC\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Tứ giác \\(DHEC\\) (với \\(D\\) là chân đường cao kẻ từ \\(A\\))",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_094",
+      "questiontext": "Một hình ngôi sao 6 cánh đều nội tiếp một đường tròn có góc ở mỗi đỉnh ngôi sao bằng \\(60^\\circ\\). Bạn An gấp đôi tờ giấy theo đường phân giác của góc ở đỉnh ngôi sao để cắt. Hỏi góc tạo bởi lưỡi kéo và nếp gấp lúc đầu bằng bao nhiêu độ? (Chỉ điền số)",
+      "generalfeedback": "Nếp gấp giấy là đường phân giác của góc ở đỉnh ngôi sao. Do góc ở đỉnh ngôi sao bằng \\(60^\\circ\\), góc tạo bởi lưỡi kéo và nếp gấp bằng \\(60^\\circ / 2 = 30^\\circ\\).",
+      "answers": [
+        {
+          "text": "30",
+          "fraction": 100,
+          "tolerance": 0.02
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_03",
+      "questiontext": "Bạn An muốn trang trí một viên gạch lát nền hình vuông cạnh \\(3\\text{ cm}\\) bằng cách vẽ một hình lục giác đều nội tiếp cùng đường tròn ngoại tiếp hình vuông đó. Nhờ vận dụng kiến thức đã học về đường tròn và đa giác, An tính được chu vi của hình lục giác đều cần vẽ. Hành vi của An thể hiện thái độ/phẩm chất nào dưới đây?",
+      "generalfeedback": "Việc An chủ động áp dụng kiến thức toán học về đường tròn và đa giác đã học ở nhà trường để giải quyết bài toán thiết kế trang trí thực tế thể hiện ý thức vận dụng kiến thức, kĩ năng vào đời sống hằng ngày.",
+      "answers": [
+        {
+          "text": "Có ý thức vận dụng kiến thức, kĩ năng toán học đã học vào thực tiễn đời sống",
+          "fraction": 100
+        },
+        {
+          "text": "Sống hoà hợp, thân thiện với môi trường thiên nhiên",
+          "fraction": 0
+        },
+        {
+          "text": "Tự giác tham gia các hoạt động thể thao học đường",
+          "fraction": 0
+        },
+        {
+          "text": "Tập trung tìm kiếm thông tin trên các trang mạng xã hội",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_01",
+      "questiontext": "Để cắt một hình ngôi sao 5 cánh từ một ngũ giác đều \\(ABCDE\\) [img:_page_0_Picture_28.jpeg] bằng cách gấp đôi tờ giấy và cắt theo một đường thẳng, thông tin quan trọng nhất mà bạn Lan cần xác định trước khi cắt là gì?",
+      "imgs": [
+        "_page_0_Picture_28.jpeg"
+      ],
+      "generalfeedback": "Nếp gấp tờ giấy đóng vai trò là trục đối xứng (đường phân giác) của góc ở đỉnh ngôi sao. Việc xác định đúng góc ở đỉnh ngôi sao và đường phân giác của nó là thông tin cốt lõi để xác định góc mở của lưỡi kéo so với nếp gấp khi cắt.",
+      "answers": [
+        {
+          "text": "Xác định góc ở đỉnh ngôi sao và nếp gấp là đường phân giác của góc đó",
+          "fraction": 100
+        },
+        {
+          "text": "Đo chu vi của hình chữ nhật chứa tờ giấy ban đầu",
+          "fraction": 0
+        },
+        {
+          "text": "Xác định độ dày của lưỡi kéo được sử dụng",
+          "fraction": 0
+        },
+        {
+          "text": "Tính diện tích của tờ giấy trước khi gấp",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_04",
+      "questiontext": "Cho hình vuông \\(ABCD\\) nội tiếp đường tròn tâm \\(O\\) [img:_page_0_Picture_26.jpeg]. Để trình bày kết quả của phép quay thuận chiều \\(45^\\circ\\) tâm \\(O\\) biến hình vuông \\(ABCD\\) thành tứ giác \\(A'B'C'D'\\), ta sử dụng ngôn ngữ toán học như sau: Phép quay giữ nguyên tâm \\(O\\), biến các bán kính \\(OA, OB, OC, OD\\) thành các bán kính tương ứng \\(OA', OB', OC', OD'\\) sao cho góc quay \\(\\widehat{AOA'} =\\) [[1]]\\(^\\circ\\). Kết quả thu được tứ giác \\(A'B'C'D'\\) là một [[2]].",
+      "imgs": [
+        "_page_0_Picture_26.jpeg"
+      ],
+      "generalfeedback": "Sử dụng đúng thuật ngữ, kí hiệu toán học (góc quay \\(45^\\circ\\)) và ngôn ngữ hình học để mô tả chính xác kết quả phép quay tạo ra hình vuông \\(A'B'C'D'\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "45"
+        },
+        {
+          "group": 1,
+          "text": "hình vuông"
+        },
+        {
+          "group": 1,
+          "text": "90"
+        },
+        {
+          "group": 1,
+          "text": "hình thoi"
+        },
+        {
+          "group": 1,
+          "text": "180"
+        },
+        {
+          "group": 1,
+          "text": "hình tam giác"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_02_04",
+      "questiontext": "Một người thợ thủ công muốn cắt một viên gạch trang trí hình lục giác đều từ một phôi gạch hình vuông cạnh \\(3\\text{ cm}\\) sao cho cả hai hình cùng nội tiếp một đường tròn. Mô hình toán học nào dưới đây mô tả chính xác mối quan hệ giữa cạnh hình vuông \\(a\\) và bán kính đường tròn ngoại tiếp \\(R\\) để tính cạnh hình lục giác đều?",
+      "generalfeedback": "Mô hình toán học: Đường chéo hình vuông là đường kính đường tròn ngoại tiếp \\(2R = a\\sqrt{2}\\), suy ra bán kính \\(R = \\frac{a\\sqrt{2}}{2}\\). Cạnh lục giác đều nội tiếp đường tròn này đúng bằng bán kính \\(R = \\frac{a\\sqrt{2}}{2}\\).",
+      "answers": [
+        {
+          "text": "Hình vuông cạnh \\(a\\) có đường chéo \\(a\\sqrt{2}\\) bằng đường kính \\(2R\\), suy ra cạnh lục giác đều \\(x = R = \\frac{a\\sqrt{2}}{2}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Cạnh hình vuông \\(a\\) bằng bán kính \\(R\\), suy ra cạnh lục giác đều \\(x = a\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Chu vi hình vuông \\(4a\\) bằng chu vi lục giác đều \\(6x\\), suy ra cạnh lục giác đều \\(x = \\frac{2a}{3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Diện tích hình vuông \\(a^2\\) bằng diện tích lục giác đều, suy ra cạnh lục giác đều \\(x = a\\sqrt{3}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_02_04",
+      "questiontext": "Để mô hình hóa thao tác cắt ngôi sao 5 cánh từ tờ giấy gấp đôi [img:_page_0_Picture_28.jpeg], ta sử dụng mô hình hình học: Ngũ giác đều \\(ABCDE\\) có 5 góc ở đỉnh ngôi sao bằng nhau, mỗi góc bằng \\(36^\\circ\\). Nếp gấp tờ giấy là trục đối xứng chia góc ở đỉnh thành hai góc bằng nhau. Khẳng định sau đúng hay sai: \"Mô hình toán học cho thấy góc giữa đường cắt của kéo và nếp gấp chính bằng một nửa góc ở đỉnh ngôi sao, tức là \\(18^\\circ\\)\".",
+      "imgs": [
+        "_page_0_Picture_28.jpeg"
+      ],
+      "generalfeedback": "Khẳng định này ĐÚNG. Mô hình hình học sử dụng tính chất trục đối xứng (đường phân giác) của góc ở đỉnh ngôi sao \\(36^\\circ\\), suy ra góc giữa lưỡi kéo và nếp gấp là \\(36^\\circ / 2 = 18^\\circ\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_02_08",
+      "questiontext": "Trong một xưởng thiết kế đồ mỹ nghệ, thợ gia công cần cắt các ô gạch hình lục giác đều nội tiếp cùng đường tròn với viên gạch mẫu hình vuông cạnh \\(3\\text{ cm}\\). Lời giải toán học tính được chu vi hình lục giác đều là \\(9\\sqrt{2}\\text{ cm} \\approx 12.73\\text{ cm}\\). Khi chuyển giao kết quả này vào ngữ cảnh thực tế sản xuất, bác thợ nên hiểu số liệu \\(12.73\\text{ cm}\\) này như thế nào?",
+      "generalfeedback": "Trong ngữ cảnh thực tế sản xuất, chu vi hình lục giác đều \\(12.73\\text{ cm}\\) đại diện cho tổng độ dài đường viền xung quanh cần cắt/mài của viên gạch hình lục giác.",
+      "answers": [
+        {
+          "text": "Là tổng độ dài đường viền bao quanh viên gạch hình lục giác đều cần gia công",
+          "fraction": 100
+        },
+        {
+          "text": "Là độ dài của một cạnh duy nhất của viên gạch hình lục giác đều",
+          "fraction": 0
+        },
+        {
+          "text": "Là diện tích bề mặt cần phủ sơn của viên gạch hình lục giác",
+          "fraction": 0
+        },
+        {
+          "text": "Là đường kính của hình vuông ban đầu dùng làm phôi gia công",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_02_08",
+      "questiontext": "Khi ứng dụng lời giải bài toán cắt hình ngôi sao 5 cánh từ ngũ giác đều [img:_page_0_Picture_28.jpeg] vào thực hành thủ công, bạn Lan tính được góc giữa nếp gấp và đường cắt kéo là \\(18^\\circ\\). Khi đặt lưỡi kéo nghiêng một góc bao nhiêu độ so với nếp gấp tờ giấy thì Lan sẽ cắt ra đúng hình ngôi sao 5 cánh chuẩn? (Chỉ ghi số)",
+      "imgs": [
+        "_page_0_Picture_28.jpeg"
+      ],
+      "generalfeedback": "Lời giải toán học cho kết quả \\(18^\\circ\\). Do đó trong ngữ cảnh thực hành thủ công, Lan cần đặt lưỡi kéo nghiêng đúng một góc \\(18^\\circ\\) so với nếp gấp.",
+      "answers": [
+        {
+          "text": "18",
+          "fraction": 100
+        }
+      ]
+    }
+  ]
+}

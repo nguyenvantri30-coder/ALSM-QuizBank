@@ -1,0 +1,708 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 28,
+    "metadata_used": {
+      "YCCD_TOAN9_032": 4,
+      "Công thức tổng x1 + x2 = -b/a và tích x1.x2 = c/a": 4,
+      "Biểu thức đối xứng giữa hai nghiệm": 4,
+      "Tính tổng và tích hai nghiệm không cần giải phương trình": 4,
+      "Tính giá trị biểu thức đối xứng của các nghiệm": 4,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TUHOC_C2_01": 1,
+      "SUB_GTHT_XACDINHMD_C2_03": 2,
+      "NLT_TOAN_C2_01_01": 2,
+      "NLT_TOAN_C2_04_12": 1
+    },
+    "types_used": {
+      "multichoice": 12,
+      "truefalse": 3,
+      "gapselect": 2,
+      "ddwtos": 1,
+      "matching": 3,
+      "calculatedsimple": 1,
+      "numerical": 4,
+      "calculated": 1,
+      "calculatedmulti": 1
+    },
+    "total": 28
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN9_032",
+        "reason": "Đo lường được qua nội dung định lí Viète"
+      },
+      {
+        "metadata_code": "Công thức tổng x1 + x2 = -b/a và tích x1.x2 = c/a",
+        "reason": "Đo lường được qua công thức tính tổng và tích hai nghiệm"
+      },
+      {
+        "metadata_code": "Biểu thức đối xứng giữa hai nghiệm",
+        "reason": "Đo lường được qua các dạng biểu thức đối xứng của nghiệm"
+      },
+      {
+        "metadata_code": "Tính tổng và tích hai nghiệm không cần giải phương trình",
+        "reason": "Đo lường được qua kỹ năng nhẩm/tính tổng và tích hai nghiệm không giải phương trình"
+      },
+      {
+        "metadata_code": "Tính giá trị biểu thức đối xứng của các nghiệm",
+        "reason": "Đo lường được qua kỹ năng biến đổi và tính giá trị biểu thức đối xứng"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Nội dung Tiết 1 - Bài 20 thuộc phần Đại số thuần lý thuyết và tính toán công thức, không có mạch nội dung hay bài tập gắn liền với công cụ tin học/phần mềm máy tính."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Bài học không chứa dữ liệu hay bối cảnh tự nhiên liên quan đến việc xây dựng, huấn luyện hoặc ứng dụng hệ thống Trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_032",
+      "questiontext": "Cho phương trình bậc hai \\(ax^2 + bx + c = 0\\) \\((a \\neq 0)\\) có biệt thức \\(\\Delta \\ge 0\\). Để giải thích mối liên hệ giữa hai nghiệm \\(x_1, x_2\\) với các hệ số của phương trình, định lí Viète khẳng định tổng và tích hai nghiệm được tính theo công thức nào?",
+      "generalfeedback": "Theo định lí Viète, nếu phương trình bậc hai \\(ax^2 + bx + c = 0\\) \\((a \\neq 0)\\) có hai nghiệm \\(x_1, x_2\\) thì \\(x_1 + x_2 = -\\frac{b}{a}\\) và \\(x_1 x_2 = \\frac{c}{a}\\).",
+      "answers": [
+        {
+          "text": "\\(x_1 + x_2 = -\\frac{b}{a}\\) và \\(x_1 x_2 = \\frac{c}{a}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x_1 + x_2 = \\frac{b}{a}\\) và \\(x_1 x_2 = \\frac{c}{a}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x_1 + x_2 = -\\frac{b}{a}\\) và \\(x_1 x_2 = -\\frac{c}{a}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x_1 + x_2 = \\frac{c}{a}\\) và \\(x_1 x_2 = -\\frac{b}{a}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_032",
+      "questiontext": "Định lí Viète có thể áp dụng trực tiếp để tính tổng và tích hai nghiệm của phương trình \\(x^2 - x + 1 = 0\\) mà không cần kiểm tra điều kiện có nghiệm của phương trình. Khẳng định trên đúng hay sai?",
+      "generalfeedback": "Khẳng định trên là sai. Để áp dụng định lí Viète, phương trình bậc hai phải có nghiệm (tức là \\(\\Delta \\ge 0\\) hoặc \\(\\Delta' \\ge 0\\)). Phương trình \\(x^2 - x + 1 = 0\\) có \\(\\Delta = (-1)^2 - 4 \\cdot 1 \\cdot 1 = -3 < 0\\) nên vô nghiệm, do đó không áp dụng định lí Viète.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_032",
+      "questiontext": "Nếu phương trình \\(ax^2 + bx + c = 0\\) \\((a \\neq 0)\\) có biệt thức \\(\\Delta \\ge 0\\) thì phương trình có hai nghiệm \\(x_1, x_2\\). Để giải thích mối liên hệ giữa các nghiệm và hệ số, định lí Viète phát biểu tổng hai nghiệm bằng [[1]] và tích hai nghiệm bằng [[2]].",
+      "generalfeedback": "Định lí Viète phát biểu: Tổng hai nghiệm là \\(-\\frac{b}{a}\\) và tích hai nghiệm là \\(\\frac{c}{a}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(-\\frac{b}{a}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{c}{a}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{b}{a}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(-\\frac{c}{a}\\)"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_032",
+      "questiontext": "Điều kiện cần để áp dụng định lí Viète cho phương trình bậc hai \\(ax^2 + bx + c = 0\\) \\((a \\neq 0)\\) là phương trình phải [[1]]. Khi điều kiện này thỏa mãn, hệ thức Viète cho biết mối liên hệ giữa [[2]] của phương trình với các hệ số \\(a, b, c\\).",
+      "generalfeedback": "Để áp dụng định lí Viète, phương trình phải có nghiệm (biệt thức \\(\\Delta \\ge 0\\)). Khi đó định lí Viète thể hiện mối liên hệ giữa các nghiệm (tổng và tích hai nghiệm) với các hệ số của phương trình.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "có nghiệm"
+        },
+        {
+          "group": 1,
+          "text": "các nghiệm"
+        },
+        {
+          "group": 1,
+          "text": "vô nghiệm"
+        },
+        {
+          "group": 1,
+          "text": "biệt thức âm"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức tổng x1 + x2 = -b/a và tích x1.x2 = c/a",
+      "questiontext": "Cho phương trình bậc hai \\(ax^2 + bx + c = 0\\) \\((a \\neq 0)\\) có hai nghiệm \\(x_1, x_2\\). Công thức tính tích \\(x_1 x_2\\) theo các hệ số \\(a, b, c\\) là gì?",
+      "generalfeedback": "Theo định lí Viète, tích hai nghiệm của phương trình bậc hai \\(ax^2 + bx + c = 0\\) \\((a \\neq 0)\\) là \\(x_1 x_2 = \\frac{c}{a}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{c}{a}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "-\\(\\frac{b}{a}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{b}{a}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "-\\(\\frac{c}{a}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức tổng x1 + x2 = -b/a và tích x1.x2 = c/a",
+      "questiontext": "Hãy ghép mỗi phương trình bậc hai (giả sử có nghiệm) ở cột bên trái với giá trị tổng hai nghiệm \\(S = x_1 + x_2\\) tương ứng ở cột bên phải.",
+      "generalfeedback": "Áp dụng công thức tổng hai nghiệm \\(S = -\\frac{b}{a}\\):\n- Với \\(x^2 - 5x + 6 = 0\\): \\(S = -\\frac{-5}{1} = 5\\).\n- Với \\(2x^2 + 6x - 1 = 0\\): \\(S = -\\frac{6}{2} = -3\\).\n- Với \\(3x^2 - 9x + 2 = 0\\): \\(S = -\\frac{-9}{3} = 3\\).",
+      "subquestions": [
+        {
+          "question": "\\(x^2 - 5x + 6 = 0\\)",
+          "answer": "5"
+        },
+        {
+          "question": "\\(2x^2 + 6x - 1 = 0\\)",
+          "answer": "-3"
+        },
+        {
+          "question": "\\(3x^2 - 9x + 2 = 0\\)",
+          "answer": "3"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Công thức tổng x1 + x2 = -b/a và tích x1.x2 = c/a",
+      "questiontext": "Cho phương trình \\(2x^2 + 11x + 7 = 0\\). Phương trình có \\(\\Delta = 11^2 - 4 \\cdot 2 \\cdot 7 = 65 > 0\\). Tổng \\(S\\) và tích \\(P\\) hai nghiệm của phương trình là bao nhiêu?",
+      "generalfeedback": "Theo định lí Viète, \\(S = x_1 + x_2 = -\\frac{b}{a} = -\\frac{11}{2}\\) và \\(P = x_1 x_2 = \\frac{c}{a} = \\frac{7}{2}\\).",
+      "answers": [
+        {
+          "text": "\\(S = -\\frac{11}{2}\\) và \\(P = \\frac{7}{2}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(S = \\frac{11}{2}\\) và \\(P = \\frac{7}{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(S = -\\frac{11}{2}\\) và \\(P = -\\frac{7}{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(S = \\frac{7}{2}\\) và \\(P = -\\frac{11}{2}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "thong_hieu",
+      "metadata_code": "Công thức tổng x1 + x2 = -b/a và tích x1.x2 = c/a",
+      "questiontext": "Cho phương trình bậc hai x^2 - {a}x + {b} = 0 có biệt thức \\(\\Delta > 0\\). Tính tổng hai nghiệm \\(x_1 + x_2\\) của phương trình.",
+      "generalfeedback": "Phương trình x^2 - {a}x + {b} = 0 có hệ số a' = 1, b' = -{a}. Theo định lí Viète, tổng hai nghiệm là x_1 + x_2 = -(-{a})/1 = {a}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 15.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Biểu thức đối xứng giữa hai nghiệm",
+      "questiontext": "Cho \\(x_1, x_2\\) là hai nghiệm của phương trình bậc hai. Biểu thức nào sau đây biểu diễn \\(x_1^2 + x_2^2\\) qua tổng \\(S = x_1 + x_2\\) và tích \\(P = x_1 x_2\\)?",
+      "generalfeedback": "Ta có \\((x_1 + x_2)^2 = x_1^2 + 2x_1 x_2 + x_2^2 \\implies x_1^2 + x_2^2 = (x_1 + x_2)^2 - 2x_1 x_2 = S^2 - 2P\\).",
+      "answers": [
+        {
+          "text": "\\(S^2 - 2P\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(S^2 + 2P\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((S - P)^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(S^2 - P\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Biểu thức đối xứng giữa hai nghiệm",
+      "questiontext": "Hãy ghép mỗi biểu thức đối xứng giữa hai nghiệm \\(x_1, x_2\\) ở cột bên trái với dạng biểu diễn tương ứng theo tổng \\(S = x_1 + x_2\\) và tích \\(P = x_1 x_2\\) ở cột bên phải.",
+      "generalfeedback": "Công thức biểu diễn qua \\(S\\) và \\(P\\):\n- \\(x_1^2 + x_2^2 = S^2 - 2P\\)\n- \\(\\frac{1}{x_1} + \\frac{1}{x_2} = \\frac{S}{P}\\)\n- \\(x_1^3 + x_2^3 = S^3 - 3SP\\)",
+      "subquestions": [
+        {
+          "question": "\\(x_1^2 + x_2^2\\)",
+          "answer": "\\(S^2 - 2P\\)"
+        },
+        {
+          "question": "\\(\\frac{1}{x_1} + \\frac{1}{x_2}\\)",
+          "answer": "\\(\\frac{S}{P}\\)"
+        },
+        {
+          "question": "\\(x_1^3 + x_2^3\\)",
+          "answer": "\\(S^3 - 3SP\\)"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Tính tổng và tích hai nghiệm không cần giải phương trình",
+      "questiontext": "Không giải phương trình, hãy tính tổng hai nghiệm của phương trình \\(2x^2 + 7x + 3 = 0\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Phương trình có \\(\\Delta = 7^2 - 4 \\cdot 2 \\cdot 3 = 25 > 0\\) nên có hai nghiệm phân biệt. Theo định lí Viète, tổng hai nghiệm là \\(x_1 + x_2 = -\\frac{b}{a} = -\\frac{7}{2} = -3.5\\).",
+      "answers": [
+        {
+          "text": "-3.5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tính tổng và tích hai nghiệm không cần giải phương trình",
+      "questiontext": "Không giải phương trình \\(x^2 - 12x + 8 = 0\\), hãy tính tích hai nghiệm \\(P = x_1 x_2\\) của phương trình đó.",
+      "generalfeedback": "Ta có \\(\\Delta' = (-6)^2 - 1 \\cdot 8 = 28 > 0\\) nên phương trình có hai nghiệm phân biệt. Theo định lí Viète, tích hai nghiệm là \\(P = x_1 x_2 = \\frac{c}{a} = \\frac{8}{1} = 8\\).",
+      "answers": [
+        {
+          "text": "8",
+          "fraction": 100
+        },
+        {
+          "text": "12",
+          "fraction": 0
+        },
+        {
+          "text": "-12",
+          "fraction": 0
+        },
+        {
+          "text": "-8",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "thong_hieu",
+      "metadata_code": "Tính tổng và tích hai nghiệm không cần giải phương trình",
+      "questiontext": "Tính tích hai nghiệm \\(x_1 x_2\\) của phương trình bậc hai x^2 - {a}x + {b} = 0 (biết phương trình luôn có nghiệm).",
+      "generalfeedback": "Theo định lí Viète, tích hai nghiệm của phương trình \\(x^2 - {a}x + {b} = 0\\) là \\(x_1 x_2 = \\frac{c}{a} = \\frac{{b}}{1} = {b}\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 5.0,
+          "max": 12.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 1.0,
+          "max": 9.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{b}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "thong_hieu",
+      "metadata_code": "Tính tổng và tích hai nghiệm không cần giải phương trình",
+      "questiontext": "Cho phương trình bậc hai {a}x^2 + {b}x + 1 = 0 có hai nghiệm phân biệt. Lựa chọn công thức đúng tính tổng hai nghiệm S = x_1 + x_2 theo định lí Viète.",
+      "generalfeedback": "Theo định lí Viète, tổng hai nghiệm của phương trình {a}x^2 + {b}x + 1 = 0 là S = -b/a = -{b}/{a}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 5.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 6.0,
+          "max": 15.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "-{b}/{a}",
+          "fraction": 100
+        },
+        {
+          "text": "{b}/{a}",
+          "fraction": 0
+        },
+        {
+          "text": "1/{a}",
+          "fraction": 0
+        },
+        {
+          "text": "-1/{a}",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính giá trị biểu thức đối xứng của các nghiệm",
+      "questiontext": "Cho phương trình \\(x^2 - 5x + 6 = 0\\) có hai nghiệm \\(x_1, x_2\\). Không giải phương trình, hãy tính giá trị biểu thức \\(A = x_1^2 + x_2^2\\). (Chỉ điền số)",
+      "generalfeedback": "Theo định lí Viète: \\(S = x_1 + x_2 = 5\\), \\(P = x_1 x_2 = 6\\).\nDo đó \\(A = x_1^2 + x_2^2 = (x_1 + x_2)^2 - 2x_1 x_2 = 5^2 - 2 \\cdot 6 = 25 - 12 = 13\\).",
+      "answers": [
+        {
+          "text": "13",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính giá trị biểu thức đối xứng của các nghiệm",
+      "questiontext": "Cho phương trình \\(x^2 - 6x + 8 = 0\\) có hai nghiệm \\(x_1, x_2\\). Không giải phương trình, hãy tính giá trị biểu thức \\(B = \\frac{1}{x_1} + \\frac{1}{x_2}\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Theo định lí Viète: \\(S = x_1 + x_2 = 6\\), \\(P = x_1 x_2 = 8\\).\nDo đó \\(B = \\frac{x_1 + x_2}{x_1 x_2} = \\frac{S}{P} = \\frac{6}{8} = 0.75\\).",
+      "answers": [
+        {
+          "text": "0.75",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Tính giá trị biểu thức đối xứng của các nghiệm",
+      "questiontext": "Cho phương trình \\(x^2 - 4x + 3 = 0\\) có hai nghiệm \\(x_1, x_2\\). Giá trị của biểu thức \\(C = (x_1 - 1)(x_2 - 1)\\) bằng bao nhiêu?",
+      "generalfeedback": "Biến đổi \\(C = x_1 x_2 - (x_1 + x_2) + 1\\).\nTheo Viète, \\(x_1 + x_2 = 4\\) và \\(x_1 x_2 = 3\\).\nSuy ra \\(C = 3 - 4 + 1 = 0\\).",
+      "answers": [
+        {
+          "text": "0",
+          "fraction": 100
+        },
+        {
+          "text": "8",
+          "fraction": 0
+        },
+        {
+          "text": "-2",
+          "fraction": 0
+        },
+        {
+          "text": "6",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính giá trị biểu thức đối xứng của các nghiệm",
+      "questiontext": "Cho phương trình \\(x^2 - 3x + 2 = 0\\) có hai nghiệm \\(x_1, x_2\\). Không giải phương trình, hãy tính giá trị biểu thức \\(D = x_1^3 + x_2^3\\). (Chỉ điền số)",
+      "generalfeedback": "Theo định lí Viète: \\(S = x_1 + x_2 = 3\\), \\(P = x_1 x_2 = 2\\).\nTa có \\(D = x_1^3 + x_2^3 = (x_1 + x_2)^3 - 3x_1 x_2 (x_1 + x_2) = S^3 - 3SP = 3^3 - 3 \\cdot 2 \\cdot 3 = 27 - 18 = 9\\).",
+      "answers": [
+        {
+          "text": "9",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Biểu thức đối xứng giữa hai nghiệm",
+      "questiontext": "Biểu thức \\(M = x_1^2 x_2 + x_1 x_2^2\\) là một biểu thức đối xứng giữa hai nghiệm \\(x_1, x_2\\) và có thể viết thành \\(M = S \\cdot P\\) (với \\(S = x_1 + x_2, P = x_1 x_2\\)). Khẳng định này đúng hay sai?",
+      "generalfeedback": "Đúng. Khi hoán đổi vị trí giữa \\(x_1\\) và \\(x_2\\), biểu thức \\(x_2^2 x_1 + x_2 x_1^2\\) không đổi nên là biểu thức đối xứng. Đặt nhân tử chung \\(M = x_1 x_2 (x_1 + x_2) = P \\cdot S = S \\cdot P\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Biểu thức đối xứng giữa hai nghiệm",
+      "questiontext": "Trong các biểu thức sau đối với hai nghiệm \\(x_1, x_2\\) của phương trình bậc hai, biểu thức nào KHÔNG phải là biểu thức đối xứng?",
+      "generalfeedback": "Biểu thức \\(2x_1 - x_2\\) không có tính chất đối xứng vì khi hoán đổi \\(x_1\\) và \\(x_2\\) ta được \\(2x_2 - x_1\\), khác với biểu thức ban đầu. Các biểu thức còn lại đều không đổi khi hoán đổi \\(x_1\\) và \\(x_2\\).",
+      "answers": [
+        {
+          "text": "\\(2x_1 - x_2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x_1 + x_2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x_1^2 + x_2^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x_1 x_2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ học Toán về Định lí Viète, khi gặp một bài toán ứng dụng tính giá trị biểu thức đối xứng phức tạp, bạn Nam chưa tìm ra lời giải ngay. Để thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập, Nam nên chọn cách xử lý nào sau đây?",
+      "generalfeedback": "Thái độ học tập tích cực, luôn cố gắng vươn lên thể hiện ở việc kiên trì phân tích, ôn lại kiến thức cốt lõi (biến đổi biểu thức đối xứng về tổng S và tích P) và tìm kiếm sự hỗ trợ từ giáo viên/bạn bè chứ không bỏ cuộc hay chép bài.",
+      "answers": [
+        {
+          "text": "Kiên trì xem lại định lí Viète, phân tích cách biến đổi biểu thức về dạng tổng \\(S\\) và tích \\(P\\), sau đó tự luyện tập thêm các bài tương tự.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài toán khó và chỉ làm những bài toán đơn giản đã biết cách làm.",
+          "fraction": 0
+        },
+        {
+          "text": "Chờ bạn khác giải xong rồi chép lại lời giải vào vở để nộp cho thầy cô.",
+          "fraction": 0
+        },
+        {
+          "text": "Cho rằng kiến thức này không quan trọng nên không cần cố gắng tìm hiểu thêm.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi làm bài tập về tính nhẩm nghiệm theo Định lí Viète, bạn An luôn tự kiểm tra lại điều kiện có nghiệm \\(\\Delta \\ge 0\\) trước khi áp dụng công thức để tránh sai sót. Hành vi này thể hiện ý thức trách nhiệm và sự nỗ lực đạt kết quả tốt trong học tập. Khẳng định trên đúng hay sai?",
+      "generalfeedback": "Đúng. Việc chủ động kiểm tra cẩn thận các điều kiện toán học thể hiện thái độ học tập nghiêm túc, trách nhiệm và nỗ lực đạt kết quả cao.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Để hoàn thành tốt nội dung 'Tiết 1 - Định lí Viète', bạn Minh xây dựng mục tiêu học tập cá nhân cho tuần này. Mục tiêu nào sau đây thể hiện rõ năng lực tự đặt mục tiêu học tập và có kế hoạch phấn đấu cụ thể?",
+      "generalfeedback": "Mục tiêu học tập tốt cần cụ thể, đo lường được và gắn liền với nội dung bài học (nắm vững công thức tổng, tích nghiệm, kiểm tra điều kiện có nghiệm và hoàn thành bài tập luyện tập).",
+      "answers": [
+        {
+          "text": "Luyện tập thành thạo việc kiểm tra điều kiện \\(\\Delta \\ge 0\\) và tính đúng tổng, tích hai nghiệm của ít nhất 5 phương trình bậc hai trong SGK.",
+          "fraction": 100
+        },
+        {
+          "text": "Cố gắng đạt điểm cao trong tất cả các môn học mà không cần kế hoạch cụ thể.",
+          "fraction": 0
+        },
+        {
+          "text": "Đọc qua SGK một lần trước giờ lên lớp mà không làm bài tập.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ học thuộc lòng công thức \\(x_1 + x_2 = -\\frac{b}{a}\\) mà không cần làm bài tập vận dụng.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "imgs": [
+        "_page_0_Picture_8.jpeg"
+      ],
+      "questiontext": "Quan sát hình ảnh mảnh vườn hình chữ nhật được rào lưới thép [img:_page_0_Picture_8.jpeg] và đọc bài toán mở đầu: Bác An có 40 m hàng rào lưới thép để rào xung quanh một mảnh đất hình chữ nhật có diện tích 96 m². Khi tiếp nhận thông tin từ văn bản và hình ảnh này, tổng \\(S\\) và tích \\(P\\) của chiều dài và chiều rộng mảnh vườn được xác định như thế nào?",
+      "generalfeedback": "Chu vi hình chữ nhật là 40 m nên tổng chiều dài và chiều rộng (nửa chu vi) là \\(S = 40 / 2 = 20\\) (m). Diện tích mảnh vườn là 96 m² nên tích chiều dài và chiều rộng là \\(P = 96\\) (m²).",
+      "answers": [
+        {
+          "text": "Tổng \\(S = 20\\) m và tích \\(P = 96\\) m²",
+          "fraction": 100
+        },
+        {
+          "text": "Tổng \\(S = 40\\) m và tích \\(P = 96\\) m²",
+          "fraction": 0
+        },
+        {
+          "text": "Tổng \\(S = 20\\) m và tích \\(P = 48\\) m²",
+          "fraction": 0
+        },
+        {
+          "text": "Tổng \\(S = 40\\) m và tích \\(P = 192\\) m²",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "questiontext": "Khi đọc bài toán về một bể bơi hình chữ nhật có diện tích 300 m² và chu vi 74 m, học sinh trích xuất các thông tin toán học: Tổng chiều dài và chiều rộng là [[1]] m và tích của chiều dài và chiều rộng là [[2]] m².",
+      "generalfeedback": "Nửa chu vi (tổng hai kích thước) = 74 / 2 = 37 m. Diện tích (tích hai kích thước) = 300 m².",
+      "choices": [
+        {
+          "group": 1,
+          "text": "37"
+        },
+        {
+          "group": 1,
+          "text": "300"
+        },
+        {
+          "group": 1,
+          "text": "74"
+        },
+        {
+          "group": 1,
+          "text": "150"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Để tính tổng và tích hai nghiệm của phương trình \\(2x^2 + 11x + 7 = 0\\) mà không giải phương trình, học sinh cần thực hiện trình tự thao tác tư duy nào sau đây?",
+      "generalfeedback": "Trình tự thao tác tư duy đúng:\n1. Phân tích các hệ số \\(a = 2, b = 11, c = 7\\).\n2. Kiểm tra điều kiện có nghiệm bằng biệt thức \\(\\Delta = 11^2 - 4 \\cdot 2 \\cdot 7 = 65 > 0\\).\n3. Suy luận áp dụng Định lí Viète: \\(x_1 + x_2 = -\\frac{b}{a} = -\\frac{11}{2}\\) và \\(x_1 x_2 = \\frac{c}{a} = \\frac{7}{2}\\).",
+      "answers": [
+        {
+          "text": "Xác định các hệ số \\(a, b, c\\) \\(\\rightarrow\\) Tính biệt thức \\(\\Delta\\) để xác định phương trình có nghiệm \\(\\rightarrow\\) Áp dụng công thức Định lí Viète.",
+          "fraction": 100
+        },
+        {
+          "text": "Áp dụng ngay công thức Định lí Viète \\(\\rightarrow\\) Tính nghiệm \\(x_1, x_2\\) bằng công thức nghiệm \\(\\rightarrow\\) So sánh kết quả.",
+          "fraction": 0
+        },
+        {
+          "text": "Tính biệt thức \\(\\Delta\\) \\(\\rightarrow\\) Giải tìm hai nghiệm \\(x_1, x_2\\) \\(\\rightarrow\\) Cộng và nhân hai nghiệm vừa tìm được.",
+          "fraction": 0
+        },
+        {
+          "text": "Xác định các hệ số \\(a, b, c\\) \\(\\rightarrow\\) Lập luận phương trình luôn có nghiệm mà không cần tính \\(\\Delta\\) \\(\\rightarrow\\) Áp dụng Định lí Viète.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Hãy ghép mỗi thao tác tư duy ở cột bên trái với mục đích tương ứng khi xử lý bài toán về Định lí Viète ở cột bên phải.",
+      "generalfeedback": "Thao tác tư duy trong toán học:\n- Tính biệt thức \\(\\Delta\\): Kiểm tra điều kiện phương trình có nghiệm.\n- Biến đổi \\(x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1 x_2\\): Đưa biểu thức đối xứng về dạng chứa tổng và tích nghiệm.\n- Áp dụng \\(x_1 + x_2 = -\\frac{b}{a}\\): Tính tổng hai nghiệm trực tiếp từ các hệ số.",
+      "subquestions": [
+        {
+          "question": "Tính biệt thức \\(\\Delta = b^2 - 4ac\\)",
+          "answer": "Kiểm tra điều kiện phương trình có nghiệm"
+        },
+        {
+          "question": "Biến đổi \\(x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1 x_2\\)",
+          "answer": "Biểu diễn biểu thức đối xứng qua tổng S và tích P"
+        },
+        {
+          "question": "Tính \\(-\\frac{b}{a}\\)",
+          "answer": "Xác định tổng hai nghiệm của phương trình"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04_12",
+      "questiontext": "Bạn Hoa muốn biểu đạt phát biểu ngôn ngữ thông thường: 'Nếu một phương trình bậc hai có hai nghiệm thì tổng hai nghiệm bằng âm của hệ số bậc nhất chia cho hệ số bậc hai' sang ngôn ngữ ký hiệu toán học. Cách biểu đạt nào sau đây là chính xác?",
+      "generalfeedback": "Ngôn ngữ ký hiệu toán học tương ứng với phát biểu trên là: Nếu phương trình \\(ax^2 + bx + c = 0\\) \\((a \\neq 0)\\) có hai nghiệm \\(x_1, x_2\\) thì \\(x_1 + x_2 = -\\frac{b}{a}\\).",
+      "answers": [
+        {
+          "text": "Nếu \\(ax^2 + bx + c = 0\\) \\((a \\neq 0)\\) có hai nghiệm \\(x_1, x_2\\) thì \\(x_1 + x_2 = -\\frac{b}{a}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Nếu \\(ax^2 + bx + c = 0\\) \\((a \\neq 0)\\) có hai nghiệm \\(x_1, x_2\\) thì \\(x_1 x_2 = \\frac{c}{a}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Nếu \\(ax^2 + bx + c = 0\\) \\((a \\neq 0)\\) có hai nghiệm \\(x_1, x_2\\) thì \\(x_1 + x_2 = \\frac{b}{a}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Nếu \\(ax^2 + bx + c = 0\\) \\((a \\neq 0)\\) có hai nghiệm \\(x_1, x_2\\) thì \\(x_1 + x_2 = -\\frac{c}{a}\\)",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

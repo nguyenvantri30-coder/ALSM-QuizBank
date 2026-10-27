@@ -1,0 +1,612 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 25,
+    "metadata_used": {
+      "YCCD_TOAN9_081": 3,
+      "YCCD_TOAN9_085": 3,
+      "Công thức tính bán kính R": 3,
+      "r của tam giác vuông và tam giác đều": 3,
+      "Tính bán kính đường tròn ngoại tiếp R và nội tiếp r của tam giác vuông": 4,
+      "tam giác đều": 4,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_TCTH_TUHOC_C2_01": 1,
+      "SUB_GQVD_DEXUAT_C2_02": 1,
+      "NLT_TOAN_C2_01_01": 1,
+      "NLT_TOAN_C2_03_05": 1
+    },
+    "types_used": {
+      "multichoice": 10,
+      "matching": 2,
+      "truefalse": 2,
+      "gapselect": 1,
+      "numerical": 4,
+      "calculated": 1,
+      "shortanswer": 2,
+      "calculatedsimple": 1,
+      "ddwtos": 1,
+      "calculatedmulti": 1
+    },
+    "total": 25
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN9_081",
+        "reason": "Xác định được tâm và bán kính đường tròn ngoại tiếp tam giác."
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_085",
+        "reason": "Xác định được tâm và bán kính đường tròn nội tiếp tam giác."
+      },
+      {
+        "metadata_code": "Công thức tính bán kính R",
+        "reason": "Công thức tính bán kính R"
+      },
+      {
+        "metadata_code": "r của tam giác vuông và tam giác đều",
+        "reason": "r của tam giác vuông và tam giác đều"
+      },
+      {
+        "metadata_code": "Tính bán kính đường tròn ngoại tiếp R và nội tiếp r của tam giác vuông",
+        "reason": "Tính bán kính đường tròn ngoại tiếp R và nội tiếp r của tam giác vuông"
+      },
+      {
+        "metadata_code": "tam giác đều",
+        "reason": "tam giác đều"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N",
+        "reason": "Bài học Toán 9 Bài 28 thuần túy hình học lý thuyết, không chứa mã metadata thuộc nhóm Năng lực tin học/số (N) trong METADATA_DICTIONARY."
+      },
+      {
+        "metadata_code": "A",
+        "reason": "Nội dung bài học không thuộc phạm vi ứng dụng AI trực tiếp và không có mã metadata thuộc nhóm Năng lực AI (A) trong METADATA_DICTIONARY."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_081",
+      "questiontext": "Tâm của đường tròn ngoại tiếp tam giác vuông nằm ở vị trí nào?",
+      "generalfeedback": "Tâm đường tròn ngoại tiếp tam giác vuông là trung điểm của cạnh huyền.",
+      "answers": [
+        {
+          "text": "Trung điểm của cạnh huyền",
+          "fraction": 100
+        },
+        {
+          "text": "Giao điểm ba đường phân giác trong",
+          "fraction": 0
+        },
+        {
+          "text": "Đỉnh góc vuông",
+          "fraction": 0
+        },
+        {
+          "text": "Trực tâm của tam giác",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_081",
+      "questiontext": "Ghép nối loại tam giác ở cột bên trái với vị trí tâm đường tròn ngoại tiếp tương ứng ở cột bên phải:",
+      "generalfeedback": "Tâm đường tròn ngoại tiếp tam giác vuông là trung điểm cạnh huyền; tam giác đều là trọng tâm; tam giác nhọn nằm trong tam giác.",
+      "subquestions": [
+        {
+          "question": "Tam giác vuông",
+          "answer": "Trung điểm cạnh huyền"
+        },
+        {
+          "question": "Tam giác đều",
+          "answer": "Trọng tâm tam giác"
+        },
+        {
+          "question": "Tam giác nhọn bất kỳ",
+          "answer": "Giao điểm ba đường trung trực"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_085",
+      "questiontext": "Tâm đường tròn nội tiếp tam giác là giao điểm ba đường phân giác trong của tam giác đó.",
+      "generalfeedback": "Đúng. Tâm của đường tròn nội tiếp tam giác là giao điểm của ba đường phân giác trong.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_085",
+      "questiontext": "Đường tròn nội tiếp tam giác đều có tâm trùng với [[1]] của tam giác và bán kính \\(r\\) bằng [[2]] bán kính đường tròn ngoại tiếp \\(R\\).",
+      "generalfeedback": "Đối với tam giác đều, tâm đường tròn nội tiếp trùng với trọng tâm và bán kính nội tiếp \\(r = \\frac{1}{2}R\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "trọng tâm"
+        },
+        {
+          "group": 1,
+          "text": "trực tâm"
+        },
+        {
+          "group": 1,
+          "text": "một nửa"
+        },
+        {
+          "group": 1,
+          "text": "gấp đôi"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức tính bán kính R",
+      "questiontext": "Công thức tính bán kính \\(R\\) của đường tròn ngoại tiếp tam giác vuông có cạnh huyền bằng \\(c\\) là:",
+      "generalfeedback": "Bán kính đường tròn ngoại tiếp tam giác vuông bằng một nửa cạnh huyền: \\(R = \\frac{c}{2}\\).",
+      "answers": [
+        {
+          "text": "\\(R = \\frac{c}{2}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(R = c\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(R = \\frac{c\\sqrt{3}}{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(R = 2c\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức tính bán kính R",
+      "questiontext": "Bán kính \\(R\\) của đường tròn ngoại tiếp tam giác đều cạnh \\(a\\) được tính theo công thức nào?",
+      "generalfeedback": "Bán kính đường tròn ngoại tiếp tam giác đều cạnh \\(a\\) là \\(R = \\frac{a\\sqrt{3}}{3}\\).",
+      "answers": [
+        {
+          "text": "\\(R = \\frac{a\\sqrt{3}}{3}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(R = \\frac{a\\sqrt{3}}{6}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(R = \\frac{a\\sqrt{3}}{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(R = a\\sqrt{3}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "r của tam giác vuông và tam giác đều",
+      "questiontext": "Biểu thức tính bán kính \\(r\\) của đường tròn nội tiếp tam giác đều cạnh \\(a\\) theo \\(a\\) là:",
+      "generalfeedback": "Bán kính đường tròn nội tiếp tam giác đều cạnh \\(a\\) là \\(r = \\frac{a\\sqrt{3}}{6}\\).",
+      "answers": [
+        {
+          "text": "\\(r = \\frac{a\\sqrt{3}}{6}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(r = \\frac{a\\sqrt{3}}{3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(r = \\frac{a\\sqrt{3}}{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(r = a\\sqrt{3}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "r của tam giác vuông và tam giác đều",
+      "questiontext": "Trong tam giác đều, bán kính đường tròn nội tiếp \\(r\\) bằng một nửa bán kính đường tròn ngoại tiếp \\(R\\).",
+      "generalfeedback": "Đúng. Do \\(R = \\frac{a\\sqrt{3}}{3}\\) và \\(r = \\frac{a\\sqrt{3}}{6}\\) nên \\(r = \\frac{R}{2}\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính bán kính đường tròn ngoại tiếp R và nội tiếp r của tam giác vuông",
+      "questiontext": "Cho tam giác \\(ABC\\) vuông cân tại \\(A\\) có cạnh góc vuông bằng \\(2\\sqrt{2}\\text{ cm}\\). Tính bán kính \\(R\\) (cm) của đường tròn ngoại tiếp tam giác \\(ABC\\). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Cạnh huyền \\(BC = \\sqrt{(2\\sqrt{2})^2 + (2\\sqrt{2})^2} = \\sqrt{8 + 8} = 4\\text{ cm}\\). Bán kính \\(R = \\frac{BC}{2} = 2\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Tính bán kính đường tròn ngoại tiếp R và nội tiếp r của tam giác vuông",
+      "questiontext": "Cho tam giác vuông có độ dài cạnh huyền bằng {c} cm. Tính bán kính \\(R\\) (cm) của đường tròn ngoại tiếp tam giác đó. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Bán kính đường tròn ngoại tiếp tam giác vuông bằng một nửa cạnh huyền: \\(R = \\frac{c}{2}\\).",
+      "wildcards": [
+        {
+          "name": "c",
+          "min": 6.0,
+          "max": 20.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{c}/2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Tính bán kính đường tròn ngoại tiếp R và nội tiếp r của tam giác vuông",
+      "questiontext": "Tam giác ABC vuông tại A có AB = 3 cm, AC = 4 cm, BC = 5 cm. Bán kính r của đường tròn nội tiếp tam giác ABC bằng bao nhiêu cm? (Chỉ ghi số)",
+      "generalfeedback": "Bán kính đường tròn nội tiếp tam giác vuông r = (AB + AC - BC)/2 = (3 + 4 - 5)/2 = 1 cm.",
+      "answers": [
+        {
+          "text": "1",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "tam giác đều",
+      "questiontext": "Cho tam giác đều ABC có cạnh a = 6 cm. Tính bán kính đường tròn nội tiếp r (cm) của tam giác ABC. Cho biết \\(\\sqrt{3} \\approx 1.732\\). (Chỉ điền số thập phân, sử dụng dấu chấm '.', không ghi đơn vị)",
+      "generalfeedback": "Bán kính đường tròn nội tiếp tam giác đều r = a*sqrt(3)/6 = 6*1.732/6 = 1.732 cm.",
+      "answers": [
+        {
+          "text": "1.732",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "tam giác đều",
+      "questiontext": "Cho tam giác đều ABC ngoại tiếp đường tròn (I) có bán kính r = 1 cm. Độ dài cạnh của tam giác ABC bằng bao nhiêu?",
+      "generalfeedback": "Cạnh của tam giác đều a = 2*sqrt(3)*r = 2*sqrt(3)*1 = 2\\sqrt{3} cm.",
+      "answers": [
+        {
+          "text": "\\(2\\sqrt{3}\\text{ cm}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\sqrt{3}\\text{ cm}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(3\\text{ cm}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(4\\sqrt{3}\\text{ cm}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "tam giác đều",
+      "questiontext": "Cho tam giác đều ABC có độ dài cạnh bằng {a} cm. Tính bán kính đường tròn nội tiếp \\(r\\) (cm) của tam giác ABC theo công thức \\(r = \\frac{{a}\\sqrt{3}}{6}\\). Tính giá trị \\(r\\) khi \\(\\sqrt{3} \\approx 1.732\\). (Chỉ điền số)",
+      "generalfeedback": "Giá trị bán kính r = {a}*1.732/6 cm.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 6.0,
+          "max": 18.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*1.732/6",
+          "fraction": 100,
+          "tolerance": 0.05
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "tam giác đều",
+      "questiontext": "Khung gỗ hình tam giác đều đặt vừa khít chiếc đồng hồ hình tròn đường kính 30 cm. Bán kính đường tròn nội tiếp khung gỗ là [[1]] cm và độ dài cạnh phía bên trong của khung gỗ là [[2]] cm.",
+      "generalfeedback": "Chiếc đồng hồ tròn đường kính 30 cm nên bán kính r = 15 cm. Khung gỗ tam giác đều ngoại tiếp đường tròn nên cạnh a = 2*sqrt(3)*r = 30\\sqrt{3} cm.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "15"
+        },
+        {
+          "group": 1,
+          "text": "30"
+        },
+        {
+          "group": 1,
+          "text": "30\\sqrt{3}"
+        },
+        {
+          "group": 1,
+          "text": "15\\sqrt{3}"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_081",
+      "questiontext": "Nối mỗi phát biểu ở cột bên trái với khái niệm/tính chất tương ứng ở cột bên phải:",
+      "generalfeedback": "Đường tròn đi qua ba đỉnh gọi là đường tròn ngoại tiếp; tâm là giao ba đường trung trực.",
+      "subquestions": [
+        {
+          "question": "Đường tròn đi qua ba đỉnh của tam giác",
+          "answer": "Đường tròn ngoại tiếp tam giác"
+        },
+        {
+          "question": "Tâm đường tròn ngoại tiếp tam giác",
+          "answer": "Giao điểm ba đường trung trực"
+        },
+        {
+          "question": "Tam giác có ba đỉnh nằm trên đường tròn",
+          "answer": "Tam giác nội tiếp đường tròn"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_085",
+      "questiontext": "Tâm của đường tròn nội tiếp tam giác là giao điểm của ba đường nào trong tam giác?",
+      "generalfeedback": "Tâm của đường tròn nội tiếp tam giác là giao điểm của ba đường phân giác trong của tam giác đó.",
+      "answers": [
+        {
+          "text": "phân giác",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "Công thức tính bán kính R",
+      "questiontext": "Cho tam giác ABC vuông tại A có hai cạnh góc vuông lần lượt là {a} cm và {b} cm. Công thức tính bán kính \\(R\\) của đường tròn ngoại tiếp tam giác ABC là:",
+      "generalfeedback": "Cạnh huyền BC = sqrt(a^2 + b^2), do đó bán kính R = sqrt(a^2 + b^2)/2.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 3.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 4.0,
+          "max": 12.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "sqrt(pow({a},2)+pow({b},2))/2",
+          "fraction": 100
+        },
+        {
+          "text": "({a}+{b})/2",
+          "fraction": 0
+        },
+        {
+          "text": "sqrt(pow({a},2)+pow({b},2))",
+          "fraction": 0
+        },
+        {
+          "text": "({a}*{b})/2",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "nhan_biet",
+      "metadata_code": "r của tam giác vuông và tam giác đều",
+      "questiontext": "Cho đường tròn (I) nội tiếp tam giác ABC. Biết bán kính r = 3 cm. Khoảng cách từ tâm I đến mỗi cạnh của tam giác ABC bằng bao nhiêu cm? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Tâm đường tròn nội tiếp cách đều ba cạnh của tam giác một khoảng bằng bán kính r = 3 cm.",
+      "answers": [
+        {
+          "text": "3",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính bán kính đường tròn ngoại tiếp R và nội tiếp r của tam giác vuông",
+      "questiontext": "Cho tam giác ABC vuông tại A có AB = 2 cm, AC = 4 cm (Ví dụ 1 SGK). Tính bán kính R (cm) của đường tròn ngoại tiếp tam giác ABC. Cho biết \\(\\sqrt{5} \\approx 2.236\\). (Chỉ điền số thập phân, dùng dấu chấm '.', không ghi đơn vị)",
+      "generalfeedback": "Cạnh huyền BC = sqrt(2^2 + 4^2) = sqrt(20) = 2*sqrt(5) cm. Bán kính R = BC/2 = sqrt(5) ≈ 2.236 cm.",
+      "answers": [
+        {
+          "text": "2.236",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong quá trình học Bài 28 về đường tròn ngoại tiếp và nội tiếp tam giác, khi gặp bài tập phức tạp về tính bán kính \\(r\\) của đường tròn nội tiếp tam giác đều, bạn An cảm thấy khó khăn và chưa tìm ra lời giải ngay. Để thể hiện tinh thần luôn cố gắng vươn lên trong học tập, bạn An nên thực hiện hành động nào sau đây?",
+      "generalfeedback": "Thái độ tích cực, vươn lên trong học tập thể hiện qua việc chủ động tìm hiểu, vẽ lại hình, dùng công thức đã học và hỏi thầy cô, bạn bè khi gặp khó khăn.",
+      "answers": [
+        {
+          "text": "Chủ động xem lại công thức \\(r = \\frac{a\\sqrt{3}}{6}\\), tự vẽ lại hình và thảo luận với thầy cô, bạn bè để tìm ra lời giải.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài tập này và chờ đến khi giáo viên chữa bài để chép vào vở.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép luôn đáp số của bạn khác để nộp cho xong mà không cần hiểu cách làm.",
+          "fraction": 0
+        },
+        {
+          "text": "Đổi sang làm môn học khác vì bài tập hình học quá khó.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Để làm chủ kiến thức về đường tròn ngoại tiếp và đường tròn nội tiếp tam giác trong Tiết 3 - Luyện tập, bạn Bình xây dựng mục tiêu học tập cá nhân. Mục tiêu nào dưới đây thể hiện đúng năng lực tự đặt mục tiêu học tập hiệu quả?",
+      "generalfeedback": "Năng lực tự đặt mục tiêu học tập thể hiện ở việc đề ra kế hoạch cụ thể, có tính khả thi và chủ động rèn luyện kiến thức cốt lõi.",
+      "answers": [
+        {
+          "text": "Tự ôn tập lại công thức tính bán kính \\(R, r\\) của tam giác vuông và tam giác đều, sau đó tự giải ít nhất 3 bài tập luyện tập trong SGK trước khi đến lớp.",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ học thuộc lòng định nghĩa đường tròn ngoại tiếp mà không cần làm bài tập tính toán.",
+          "fraction": 0
+        },
+        {
+          "text": "Đặt mục tiêu đạt điểm tối đa nhưng không lập kế hoạch hay thời gian ôn tập cụ thể.",
+          "fraction": 0
+        },
+        {
+          "text": "Chờ khi giáo viên giao bài tập bắt buộc mới mở sách ra xem lại kiến thức.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Một người thợ muốn làm một khung gỗ hình tam giác đều để đặt vừa khít một chiếc đồng hồ hình tròn có đường kính 30 cm (Bài tập 9.12 SGK). Để xác định độ dài các cạnh bên trong của khung gỗ, giải pháp toán học nào sau đây là hợp lý nhất?",
+      "generalfeedback": "Chiếc đồng hồ tròn đặt vừa khít bên trong khung gỗ tam giác đều chính là đường tròn nội tiếp tam giác đều đó, có bán kính \\(r = 15\\text{ cm}\\). Áp dụng công thức \\(r = \\frac{a\\sqrt{3}}{6}\\) suy ra cạnh \\(a = 2\\sqrt{3}r = 30\\sqrt{3}\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "Coi chiếc đồng hồ là đường tròn nội tiếp tam giác đều có bán kính \\(r = 15\\text{ cm}\\), từ đó sử dụng công thức \\(a = 2\\sqrt{3}r\\) để tính độ dài cạnh khung gỗ.",
+          "fraction": 100
+        },
+        {
+          "text": "Coi chiếc đồng hồ là đường tròn ngoại tiếp tam giác đều có bán kính \\(R = 30\\text{ cm}\\) rồi tính cạnh tam giác.",
+          "fraction": 0
+        },
+        {
+          "text": "Ướm thử chiếc đồng hồ lên gỗ và cắt ngẫu nhiên các thanh gỗ cho đến khi vừa.",
+          "fraction": 0
+        },
+        {
+          "text": "Đo chu vi chiếc đồng hồ rồi chia đều cho 3 để ra độ dài cạnh khung gỗ.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Cho tam giác \\(ABC\\) vuông tại \\(A\\). Thao tác tư duy lập luận nào dưới đây chứng minh chính xác tâm đường tròn ngoại tiếp tam giác \\(ABC\\) là trung điểm \\(M\\) của cạnh huyền \\(BC\\)?",
+      "generalfeedback": "Thao tác tư duy lập luận dựa trên tính chất đường trung tuyến ứng với cạnh huyền trong tam giác vuông: \\(MA = MB = MC = \\frac{BC}{2}\\), suy ra \\(M\\) là tâm đường tròn đi qua 3 đỉnh \\(A, B, C\\).",
+      "answers": [
+        {
+          "text": "Sử dụng tính chất đường trung tuyến ứng với cạnh huyền trong tam giác vuông để chỉ ra \\(MA = MB = MC = \\frac{BC}{2}\\), từ đó kết luận \\(M\\) cách đều ba đỉnh \\(A, B, C\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Sử dụng tính chất ba đường phân giác trong cắt nhau tại \\(M\\) nên \\(M\\) cách đều ba cạnh.",
+          "fraction": 0
+        },
+        {
+          "text": "Lập luận rằng tổng ba góc trong tam giác bằng \\(180^\\circ\\) nên trung điểm cạnh huyền luôn là tâm ngoại tiếp.",
+          "fraction": 0
+        },
+        {
+          "text": "Sử dụng đường cao \\(AH\\) vuông góc với \\(BC\\) tại \\(H\\) để suy ra \\(H\\) cách đều ba đỉnh.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Để tính bán kính \\(R\\) của đường tròn ngoại tiếp tam giác \\(ABC\\) vuông tại \\(A\\) có hai cạnh góc vuông \\(AB = 2\\text{ cm}\\) và \\(AC = 4\\text{ cm}\\), chuỗi kỹ năng toán học nào cần được phối hợp sử dụng đúng trình tự?",
+      "generalfeedback": "Kỹ năng phối hợp: Dùng định lý Pythagore tính cạnh huyền \\(BC = \\sqrt{2^2 + 4^2} = 2\\sqrt{5}\\text{ cm}\\), sau đó dùng kỹ năng xác định bán kính ngoại tiếp tam giác vuông \\(R = \\frac{BC}{2} = \\sqrt{5}\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "Áp dụng định lý Pythagore tính cạnh huyền \\(BC = \\sqrt{AB^2 + AC^2} = 2\\sqrt{5}\\text{ cm}\\), sau đó áp dụng công thức bán kính ngoại tiếp tam giác vuông \\(R = \\frac{BC}{2} = \\sqrt{5}\\text{ cm}\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Tính diện tích tam giác \\(S = \\frac{1}{2}AB \\cdot AC = 4\\text{ cm}^2\\), sau đó suy ra \\(R = S = 4\\text{ cm}\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Dùng tỉ số lượng giác \\(\\sin B\\) để tính góc \\(B\\), rồi kết luận \\(R = AB + AC = 6\\text{ cm}\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Sử dụng công thức bán kính nội tiếp tam giác đều \\(r = \\frac{a\\sqrt{3}}{6}\\) để suy ra bán kính \\(R\\).",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

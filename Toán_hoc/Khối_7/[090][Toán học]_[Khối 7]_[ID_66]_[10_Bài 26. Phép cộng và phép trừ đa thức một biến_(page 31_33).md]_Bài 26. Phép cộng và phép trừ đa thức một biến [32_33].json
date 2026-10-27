@@ -1,0 +1,499 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 17,
+    "metadata_used": {
+      "Quy tắc trừ hai đa thức một biến (bỏ ngoặc đổi dấu và đặt tính cột dọc)": 6,
+      "Thực hiện phép trừ hai đa thức một biến": 8,
+      "YCCD_TOAN7_054": 1,
+      "YCCD_TOAN7_057": 5,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_TUCHUTUHOC": 1,
+      "NLC_GIAOTIEP": 1,
+      "NLT_TOAN_C2_01": 2,
+      "NLT_TOAN_C2_03": 2
+    },
+    "types_used": {
+      "multichoice": 12,
+      "truefalse": 1,
+      "gapselect": 1,
+      "matching": 2,
+      "calculated": 1
+    },
+    "total": 17
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "Quy tắc trừ hai đa thức một biến (bỏ ngoặc đổi dấu và đặt tính cột dọc)",
+        "reason": "Quy tắc trừ hai đa thức một biến (bỏ ngoặc đổi dấu và đặt tính cột dọc)"
+      },
+      {
+        "metadata_code": "Thực hiện phép trừ hai đa thức một biến",
+        "reason": "Thực hiện phép trừ hai đa thức một biến"
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_054",
+        "reason": "Thực hiện được phép trừ trong tập hợp các đa thức một biến"
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_057",
+        "reason": "Vận dụng được những tính chất của các phép tính đa thức một biến trong tính toán"
+      },
+      {
+        "metadata_code": "PC_CHAMCHI",
+        "reason": "Chăm chỉ"
+      },
+      {
+        "metadata_code": "PC_TRUNGTHUC",
+        "reason": "Trung thực"
+      },
+      {
+        "metadata_code": "NLC_TUCHUTUHOC",
+        "reason": "Năng lực tự chủ và tự học"
+      },
+      {
+        "metadata_code": "NLC_GIAOTIEP",
+        "reason": "Năng lực giao tiếp và hợp tác"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01",
+        "reason": "Năng lực tư duy và lập luận toán học"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03",
+        "reason": "Năng lực giải quyết vấn đề toán học"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Nội dung bài học thuần toán học đại số lý thuyết, không chứa bối cảnh tự nhiên để đo lường năng lực tin học/số"
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học không liên quan trực tiếp đến ứng dụng hay công cụ trí tuệ nhân tạo (AI)"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc trừ hai đa thức một biến (bỏ ngoặc đổi dấu và đặt tính cột dọc)",
+      "questiontext": "Cho hai đa thức \\(P\\) và \\(Q\\). Để tìm hiệu \\(P - Q\\) theo cách bỏ dấu ngoặc, khi bỏ dấu ngoặc có dấu \\(-\\) đằng trước ngoặc chứa đa thức \\(Q\\), ta phải làm gì?",
+      "generalfeedback": "Khi bỏ dấu ngoặc có dấu \\(-\\) đằng trước, ta phải đổi dấu tất cả các hạng tử trong dấu ngoặc đó.",
+      "answers": [
+        {
+          "text": "Đổi dấu tất cả các hạng tử trong dấu ngoặc của \\(Q\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Giữ nguyên dấu tất cả các hạng tử trong dấu ngoặc của \\(Q\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ đổi dấu hạng tử đầu tiên trong dấu ngoặc của \\(Q\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Đổi dấu tất cả các hạng tử của đa thức \\(P\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc trừ hai đa thức một biến (bỏ ngoặc đổi dấu và đặt tính cột dọc)",
+      "questiontext": "Khi đặt tính trừ hai đa thức một biến theo cột dọc, ta phải đặt các hạng tử cùng bậc thẳng cột với nhau rồi trừ hệ số của các hạng tử cùng bậc đó. Khẳng định này Đúng hay Sai?",
+      "generalfeedback": "Đúng. Khi đặt tính trừ theo cột dọc, ta đặt các hạng tử cùng bậc thẳng cột rồi thực hiện phép trừ.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc trừ hai đa thức một biến (bỏ ngoặc đổi dấu và đặt tính cột dọc)",
+      "questiontext": "Muốn trừ đa thức \\(P\\) cho đa thức \\(Q\\), ta có thể bỏ dấu ngoặc rồi nhóm các hạng tử [[1]] và [[2]].",
+      "generalfeedback": "Muốn trừ hai đa thức, ta bỏ dấu ngoặc, nhóm các hạng tử cùng bậc rồi thu gọn.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "cùng bậc"
+        },
+        {
+          "group": 1,
+          "text": "thu gọn"
+        },
+        {
+          "group": 1,
+          "text": "khác biến"
+        },
+        {
+          "group": 1,
+          "text": "đối dấu"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép trừ hai đa thức một biến",
+      "questiontext": "Cho hai đa thức \\(P = x^4 + 3x^3 - 5x^2 + 7x\\) và \\(Q = -x^3 + 4x^2 - 2x + 1\\). Kết quả của phép trừ \\(P - Q\\) là:",
+      "generalfeedback": "\\(P - Q = (x^4 + 3x^3 - 5x^2 + 7x) - (-x^3 + 4x^2 - 2x + 1) = x^4 + 3x^3 - 5x^2 + 7x + x^3 - 4x^2 + 2x - 1 = x^4 + 4x^3 - 9x^2 + 9x - 1\\).",
+      "answers": [
+        {
+          "text": "\\(x^4 + 4x^3 - 9x^2 + 9x - 1\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x^4 + 2x^3 - x^2 + 5x + 1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x^4 + 4x^3 - x^2 + 9x - 1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x^4 + 2x^3 - 9x^2 + 5x - 1\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép trừ hai đa thức một biến",
+      "questiontext": "Ghép các phép trừ đa thức ở cột bên trái với kết quả đúng ở cột bên phải:",
+      "generalfeedback": "Thực hiện bỏ dấu ngoặc và thu gọn từng phép trừ đa thức.",
+      "subquestions": [
+        {
+          "question": "\\((2x^2 + 3x - 1) - (x^2 + x + 2)\\)",
+          "answer": "\\(x^2 + 2x - 3\\)"
+        },
+        {
+          "question": "\\((3x^2 - 2x + 5) - (x^2 - 2x + 1)\\)",
+          "answer": "\\(2x^2 + 4\\)"
+        },
+        {
+          "question": "\\((x^3 + 4x) - (x^3 - 2x + 3)\\)",
+          "answer": "\\(6x - 3\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_054",
+      "questiontext": "Cho hai đa thức \\(M = 0{,}5x^4 - 4x^3 + 2x - 2{,}5\\) và \\(N = 2x^3 + x^2 + 1{,}5\\). Kết quả của phép tính \\(M - N\\) là:",
+      "generalfeedback": "\\(M - N = (0{,}5x^4 - 4x^3 + 2x - 2{,}5) - (2x^3 + x^2 + 1{,}5) = 0{,}5x^4 - 6x^3 - x^2 + 2x - 4\\).",
+      "answers": [
+        {
+          "text": "\\(0{,}5x^4 - 6x^3 - x^2 + 2x - 4\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(0{,}5x^4 - 2x^3 + x^2 + 2x - 1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(0{,}5x^4 - 6x^3 + x^2 + 2x - 4\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(0{,}5x^4 - 2x^3 - x^2 + 2x - 1\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_057",
+      "questiontext": "Cho đa thức \\(A = x^4 - 3x^2 - 2x + 1\\). Tìm đa thức \\(B\\) sao cho \\(A + B = 2x^5 + 5x^3 - 2\\).",
+      "generalfeedback": "Vì \\(A + B = 2x^5 + 5x^3 - 2\\) nên \\(B = (2x^5 + 5x^3 - 2) - A = (2x^5 + 5x^3 - 2) - (x^4 - 3x^2 - 2x + 1) = 2x^5 - x^4 + 5x^3 + 3x^2 + 2x - 3\\).",
+      "answers": [
+        {
+          "text": "\\(2x^5 - x^4 + 5x^3 + 3x^2 + 2x - 3\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(2x^5 + x^4 + 5x^3 - 3x^2 - 2x - 1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2x^5 - x^4 + 5x^3 - 3x^2 + 2x - 3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2x^5 + x^4 + 5x^3 + 3x^2 - 2x - 1\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_057",
+      "imgs": [
+        "_page_2_Figure_20.jpeg"
+      ],
+      "questiontext": "Xem Hình 7.1 [img:_page_2_Figure_20.jpeg]. Một bể bơi hình chữ nhật có chiều rộng \\(x\\) (m) và chiều dài gấp 3 lần chiều rộng. Đa thức biểu thị diện tích của bể bơi là:",
+      "generalfeedback": "Chiều rộng bể bơi là \\(x\\) (m), chiều dài là \\(3x\\) (m). Diện tích bể bơi là \\(x \\cdot 3x = 3x^2\\) (m²).",
+      "answers": [
+        {
+          "text": "\\(3x^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(3x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(4x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(6x^2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép trừ hai đa thức một biến",
+      "questiontext": "Cho hai đa thức P(x) = {a}x + 10 và Q(x) = {b}x + 3. Tính hệ số của x trong đa thức hiệu H(x) = P(x) - Q(x) theo các biến {a} và {b}. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "H(x) = P(x) - Q(x) = ({a}x + 10) - ({b}x + 3) = ({a} - {b})x + 7. Hệ số của x là {a} - {b}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 5.0,
+          "max": 15.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 1.0,
+          "max": 4.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}-{b}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Khi làm bài tập tìm hiệu hai đa thức \\(P - Q\\), bạn Nam gặp một bài toán có nhiều dấu ngoặc và dấu trừ phức tạp. Hành động nào sau đây thể hiện phẩm chất chăm chỉ của Nam?",
+      "generalfeedback": "Phẩm chất chăm chỉ thể hiện qua việc kiên trì, cẩn thận thực hiện từng bước bỏ dấu ngoặc, đổi dấu và nhóm các hạng tử cùng bậc để tìm ra kết quả đúng thay vì bỏ dở hay chép bài bạn.",
+      "answers": [
+        {
+          "text": "Kiên trì thực hiện từng bước: bỏ ngoặc đổi dấu cẩn thận, nhóm các hạng tử cùng bậc rồi thu gọn để tìm kết quả đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài toán khó này và chuyển sang làm các bài đơn giản hơn",
+          "fraction": 0
+        },
+        {
+          "text": "Chép ngay đáp án của bạn khác để nộp cho thầy cô đúng giờ",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ nhẩm tính phần đầu rồi đoán kết quả cuối cùng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Trong giờ kiểm tra, khi tính hiệu hai đa thức \\(M - N\\), An phát hiện ra mình đã quên đổi dấu một hạng tử của đa thức \\(N\\) khi bỏ ngoặc, dẫn đến kết quả khác với bài làm của bạn bên cạnh. Thể hiện phẩm chất trung thực, An nên làm gì?",
+      "generalfeedback": "Tính trung thực trong học tập đòi hỏi học sinh tự kiểm tra lại các bước tính toán của bản thân, tự giác sửa lại lỗi sai theo đúng quy tắc thay vì chép kết quả của bạn.",
+      "answers": [
+        {
+          "text": "Tự kiểm tra lại các bước bỏ ngoặc đổi dấu của mình, phát hiện chỗ sai và tự làm lại để tìm kết quả đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sửa ngay kết quả của mình cho giống kết quả của bạn bên cạnh mà không cần kiểm tra lại",
+          "fraction": 0
+        },
+        {
+          "text": "Tẩy xóa bài làm và báo với giáo viên rằng đề bài bị sai",
+          "fraction": 0
+        },
+        {
+          "text": "Giữ nguyên bài làm sai và hy vọng giáo viên không phát hiện ra lỗi",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Để tự học và ghi nhớ hiệu quả quy tắc trừ hai đa thức một biến \\(P - Q\\), học sinh nên thực hiện quy trình tự học gồm các bước nào theo thứ tự phù hợp?",
+      "generalfeedback": "Năng lực tự chủ và tự học thể hiện qua việc chủ động đọc SGK nắm quy tắc, tự luyện tập thực hành và tự đối chiếu kiểm tra lại bài làm.",
+      "subquestions": [
+        {
+          "question": "Bước 1",
+          "answer": "Chủ động đọc SGK để hiểu quy tắc bỏ ngoặc đổi dấu và đặt tính cột dọc"
+        },
+        {
+          "question": "Bước 2",
+          "answer": "Tự giải các bài tập Luyện tập và Vận dụng trong SGK"
+        },
+        {
+          "question": "Bước 3",
+          "answer": "Đối chiếu kết quả, phân tích lỗi sai (nếu có) để rút kinh nghiệm"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_GIAOTIEP",
+      "questiontext": "Trong hoạt động thảo luận nhóm tính hiệu hai đa thức \\(M = 0{,}5x^4 - 4x^3 + 2x - 2{,}5\\) và \\(N = 2x^3 + x^2 + 1{,}5\\), bạn Bình tính ra kết quả khác với các bạn còn lại. Để thể hiện năng lực giao tiếp và hợp tác, các thành viên trong nhóm nên xử lý thế nào?",
+      "generalfeedback": "Năng lực giao tiếp và hợp tác thể hiện ở thái độ tôn trọng ý kiến của bạn, lắng nghe Bình trình bày cách làm, cùng đối chiếu từng bước bỏ ngoặc và thu gọn để tìm ra chỗ nhầm lẫn và thống nhất kết quả.",
+      "answers": [
+        {
+          "text": "Lắng nghe Bình trình bày các bước làm, cùng đối chiếu từng bước bỏ ngoặc và thu gọn để tìm chỗ nhầm lẫn và thống nhất đáp án",
+          "fraction": 100
+        },
+        {
+          "text": "Phủ nhận ngay kết quả của Bình và yêu cầu Bình chép theo kết quả của đa số",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua ý kiến của Bình và báo cáo với giáo viên rằng Bình không hợp tác",
+          "fraction": 0
+        },
+        {
+          "text": "Chấp nhận ngay kết quả của Bình mà không cần kiểm tra lại các bước tính toán",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Một học sinh thực hiện phép trừ hai đa thức như sau:\n\\(P - Q = (2x^3 - 3x + 1) - (x^3 - 3x - 5)\\)\nBước 1: \\(= 2x^3 - 3x + 1 - x^3 - 3x - 5\\)\nBước 2: \\(= (2x^3 - x^3) + (-3x - 3x) + (1 - 5)\\)\nBước 3: \\(= x^3 - 6x - 4\\).\nPhân tích bài làm trên, em hãy cho biết học sinh đó đã mắc lỗi sai ở bước nào và nguyên nhân do đâu?",
+      "generalfeedback": "Học sinh mắc lỗi sai ở Bước 1: Khi bỏ dấu ngoặc có dấu minus đằng trước \\(-(x^3 - 3x - 5)\\), học sinh đã không đổi dấu các hạng tử \\(-3x\\) thành \\(+3x\\) và \\(-5\\) thành \\(+5\\).",
+      "answers": [
+        {
+          "text": "Bước 1, do không đổi dấu các hạng tử \\(-3x\\) và \\(-5\\) khi bỏ dấu ngoặc có dấu trừ đằng trước",
+          "fraction": 100
+        },
+        {
+          "text": "Bước 2, do nhóm sai các hạng tử cùng bậc với nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Bước 3, do tính nhầm kết quả \\(2x^3 - x^3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Lời giải trên hoàn toàn đúng, không mắc lỗi sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Bạn Hoa nhận xét: 'Khi trừ hai đa thức một biến theo cột dọc, nếu đa thức bị trừ hoặc đa thức trừ khuyết một hạng tử bậc nào đó, ta nên để trống một khoảng ứng với hạng tử đó'. Lập luận của Hoa là đúng hay sai và vì sao?",
+      "generalfeedback": "Lập luận của Hoa là ĐÚNG. Khi đặt tính trừ theo cột dọc, việc để trống khoảng ứng với hạng tử bị khuyết giúp đặt thẳng cột các hạng tử cùng bậc, tránh tính nhầm các hạng tử khác bậc.",
+      "answers": [
+        {
+          "text": "Đúng, vì việc để trống giúp đặt đúng các hạng tử cùng bậc thẳng cột với nhau, tránh trừ nhầm các hạng tử khác bậc",
+          "fraction": 100
+        },
+        {
+          "text": "Sai, vì không cần để trống mà cứ viết nối tiếp các hạng tử lại với nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Sai, vì khi khuyết hạng tử thì phép trừ cột dọc không thể thực hiện được",
+          "fraction": 0
+        },
+        {
+          "text": "Đúng, nhưng chỉ áp dụng cho phép cộng chứ không áp dụng cho phép trừ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "questiontext": "Doanh thu của một cửa hàng kinh doanh mặt hàng A trong một năm được biểu thị bởi đa thức \\(R(x) = 3x^2 + 5x + 10\\) (triệu đồng), chi phí sản xuất mặt hàng A biểu thị bởi \\(C(x) = x^2 + 2x + 4\\) (triệu đồng). Đa thức biểu thị lợi nhuận \\(P(x) = R(x) - C(x)\\) của cửa hàng là:",
+      "generalfeedback": "Lợi nhuận \\(P(x) = R(x) - C(x) = (3x^2 + 5x + 10) - (x^2 + 2x + 4) = 2x^2 + 3x + 6\\) (triệu đồng).",
+      "answers": [
+        {
+          "text": "\\(P(x) = 2x^2 + 3x + 6\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(P(x) = 4x^2 + 7x + 14\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(P(x) = 2x^2 + 3x + 14\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(P(x) = 2x^2 - 3x + 6\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "imgs": [
+        "_page_2_Figure_20.jpeg"
+      ],
+      "questiontext": "Quan sát sơ đồ mảnh đất và bể bơi trong Hình 7.1 [img:_page_2_Figure_20.jpeg]. Biết diện tích mảnh đất là \\(S_1 = 65x + 780\\) (m²) và diện tích bể bơi là \\(S_2 = 3x^2\\) (m²). Để tìm đa thức biểu thị diện tích phần đất xung quanh bể bơi, ta cần thực hiện phép tính nào và kết quả nhận được là gì?",
+      "generalfeedback": "Ta thực hiện phép trừ diện tích mảnh đất cho diện tích bể bơi: \\(S = S_1 - S_2 = (65x + 780) - 3x^2 = -3x^2 + 65x + 780\\) (m²).",
+      "answers": [
+        {
+          "text": "Phép trừ \\(S_1 - S_2\\); Kết quả là \\(-3x^2 + 65x + 780\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Phép cộng \\(S_1 + S_2\\); Kết quả là \\(3x^2 + 65x + 780\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Phép nhân \\(S_1 \\cdot S_2\\); Kết quả là \\(195x^3 + 2340x^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Phép trừ \\(S_2 - S_1\\); Kết quả là \\(3x^2 - 65x - 780\\)",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

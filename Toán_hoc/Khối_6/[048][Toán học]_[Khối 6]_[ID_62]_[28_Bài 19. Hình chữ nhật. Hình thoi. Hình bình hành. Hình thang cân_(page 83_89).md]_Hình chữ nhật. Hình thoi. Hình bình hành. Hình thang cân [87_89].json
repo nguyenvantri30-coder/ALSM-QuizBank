@@ -1,0 +1,917 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 38,
+    "metadata_used": {
+      "YCCD_TOAN6_099": 5,
+      "Đặc điểm hình thang cân (2 cạnh bên bằng nhau": 3,
+      "2 góc kề một đáy bằng nhau": 3,
+      "2 đường chéo bằng nhau)": 3,
+      "Mô tả yếu tố cơ bản hình thang cân": 4,
+      "Nhận biết hình thang cân trong thực tế": 2,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TUHOC_C2_04": 2,
+      "SUB_GTHT_XACDINHMD_C2_03": 1,
+      "NLT_TOAN_C2_01_02": 2,
+      "NLT_TOAN_C2_05_01": 1
+    },
+    "types_used": {
+      "multichoice": 14,
+      "truefalse": 7,
+      "shortanswer": 3,
+      "matching": 4,
+      "gapselect": 4,
+      "ddwtos": 3,
+      "calculatedsimple": 3
+    },
+    "total": 38
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN6_099",
+        "reason": "Mô tả được một số yếu tố cơ bản của hình thang cân (cạnh đáy, cạnh bên, đường chéo, góc)."
+      },
+      {
+        "metadata_code": "Đặc điểm hình thang cân (2 cạnh bên bằng nhau",
+        "reason": "Nhận biết đặc điểm hai cạnh bên bằng nhau của hình thang cân."
+      },
+      {
+        "metadata_code": "2 góc kề một đáy bằng nhau",
+        "reason": "Nhận biết đặc điểm hai góc kề một đáy bằng nhau của hình thang cân."
+      },
+      {
+        "metadata_code": "2 đường chéo bằng nhau)",
+        "reason": "Nhận biết đặc điểm hai đường chéo bằng nhau của hình thang cân."
+      },
+      {
+        "metadata_code": "Mô tả yếu tố cơ bản hình thang cân",
+        "reason": "Rèn luyện kỹ năng mô tả các yếu tố cơ bản của hình thang cân."
+      },
+      {
+        "metadata_code": "Nhận biết hình thang cân trong thực tế",
+        "reason": "Nhận biết và liên hệ hình thang cân trong thực tế."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N",
+        "reason": "Mã N (Năng lực tin học / số) không có trong METADATA_DICTIONARY của bài học này và nội dung SGK Tiết 3 - Hình thang cân thuộc môn Toán lớp 6 không chứa nội dung thao tác công cụ số/phần mềm."
+      },
+      {
+        "metadata_code": "A",
+        "reason": "Mã A (Năng lực AI) không có trong METADATA_DICTIONARY của bài học này và nội dung SGK không có bối cảnh ứng dụng trí tuệ nhân tạo một cách tự nhiên."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_099",
+      "questiontext": "Cho hình thang cân \\(ABCD\\) (như hình vẽ bên dưới). Hai cạnh đáy của hình thang cân \\(ABCD\\) là: [img:_page_5_Picture_6.jpeg]",
+      "imgs": [
+        "_page_5_Picture_6.jpeg"
+      ],
+      "generalfeedback": "Trong hình thang cân \\(ABCD\\), hai cạnh đáy là hai cạnh song song \\(AB\\) và \\(CD\\).",
+      "answers": [
+        {
+          "text": "\\(AB\\) và \\(CD\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(AD\\) và \\(BC\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(AC\\) và \\(BD\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(AB\\) và \\(BC\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Đặc điểm hình thang cân (2 cạnh bên bằng nhau",
+      "questiontext": "Trong một hình thang cân, hai cạnh bên luôn bằng nhau.",
+      "generalfeedback": "Theo đặc điểm của hình thang cân, hai cạnh bên của hình thang cân luôn bằng nhau.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "2 góc kề một đáy bằng nhau",
+      "questiontext": "Cho hình thang cân \\(ABCD\\) có hai đáy là \\(AB\\) và \\(CD\\). Hai góc kề đáy \\(CD\\) của hình thang cân là hai góc nào?",
+      "generalfeedback": "Hai góc kề đáy \\(CD\\) của hình thang cân \\(ABCD\\) là góc \\(C\\) và góc \\(D\\).",
+      "answers": [
+        {
+          "text": "Góc \\(C\\) và góc \\(D\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Góc \\(A\\) và góc \\(C\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Góc \\(B\\) và góc \\(D\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Góc \\(A\\) và góc \\(D\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "2 đường chéo bằng nhau)",
+      "questiontext": "Cho hình thang cân \\(ABCD\\) có độ dài đường chéo \\(AC = 7\\text{ cm}\\). Độ dài đường chéo \\(BD\\) bằng bao nhiêu xentimét?",
+      "generalfeedback": "Trong hình thang cân, hai đường chéo bằng nhau nên \\(BD = AC = 7\\text{ cm}\\). Đáp án ghi số 7.",
+      "answers": [
+        {
+          "text": "7",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Mô tả yếu tố cơ bản hình thang cân",
+      "questiontext": "Nối mỗi yếu tố của hình thang cân \\(ABCD\\) (với hai đáy \\(AB\\) và \\(CD\\)) ở cột bên trái với tên gọi tương ứng ở cột bên phải:",
+      "generalfeedback": "Trong hình thang cân \\(ABCD\\) với đáy \\(AB\\) và \\(CD\\): \\(AB, CD\\) là hai cạnh đáy; \\(AD, BC\\) là hai cạnh bên; \\(AC, BD\\) là hai đường chéo.",
+      "subquestions": [
+        {
+          "question": "Các đoạn thẳng \\(AB\\) và \\(CD\\)",
+          "answer": "Hai cạnh đáy"
+        },
+        {
+          "question": "Các đoạn thẳng \\(AD\\) và \\(BC\\)",
+          "answer": "Hai cạnh bên"
+        },
+        {
+          "question": "Các đoạn thẳng \\(AC\\) và \\(BD\\)",
+          "answer": "Hai đường chéo"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết hình thang cân trong thực tế",
+      "questiontext": "Hình ảnh nào sau đây trong thực tế gợi nên hình ảnh của hình thang cân? [img:_page_5_Picture_3.jpeg]",
+      "imgs": [
+        "_page_5_Picture_3.jpeg"
+      ],
+      "generalfeedback": "Mặt bàn ở hình trên có dạng hình thang cân.",
+      "answers": [
+        {
+          "text": "Mặt bàn học trong hình",
+          "fraction": 100
+        },
+        {
+          "text": "Mặt đĩa CD tròn",
+          "fraction": 0
+        },
+        {
+          "text": "Khung cửa sổ hình vuông",
+          "fraction": 0
+        },
+        {
+          "text": "Quả bóng đá",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_099",
+      "questiontext": "Trong hình thang cân, hai cạnh đáy [[1]] với nhau và hai đường chéo [[2]] với nhau.",
+      "generalfeedback": "Hình thang cân có hai cạnh đáy song song và hai đường chéo bằng nhau.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "song song"
+        },
+        {
+          "group": 1,
+          "text": "bằng nhau"
+        },
+        {
+          "group": 1,
+          "text": "vuông góc"
+        },
+        {
+          "group": 1,
+          "text": "cắt nhau"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "2 góc kề một đáy bằng nhau",
+      "questiontext": "Trong hình thang cân \\(ABCD\\) có hai đáy là \\(AB\\) và \\(CD\\), ta luôn có góc \\(A\\) bằng góc \\(B\\) và góc \\(C\\) bằng góc \\(D\\).",
+      "generalfeedback": "Đúng, vì trong hình thang cân, hai góc kề một đáy thì bằng nhau.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Mô tả yếu tố cơ bản hình thang cân",
+      "questiontext": "Kéo thả từ thích hợp vào chỗ trống: Hai thanh đứng của chiếc thang gỗ cùng các thanh ngang tạo thành các hình [[1]] để cái thang vững chắc và [[2]] khi sử dụng. [img:_page_5_Picture_21.jpeg]",
+      "imgs": [
+        "_page_5_Picture_21.jpeg"
+      ],
+      "generalfeedback": "Các thanh ngang tạo với hai trụ bên thành các hình thang cân để cái thang cân đối và vững chắc.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "thang cân"
+        },
+        {
+          "group": 1,
+          "text": "cân đối"
+        },
+        {
+          "group": 1,
+          "text": "chữ nhật"
+        },
+        {
+          "group": 1,
+          "text": "bình hành"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Đặc điểm hình thang cân (2 cạnh bên bằng nhau",
+      "questiontext": "Cho hình thang cân \\(ABCD\\) có độ dài cạnh bên \\(AD =\\) {a} cm. Tính độ dài cạnh bên \\(BC\\) theo xentimét (Chỉ điền số).",
+      "generalfeedback": "Hình thang cân có hai cạnh bên bằng nhau nên độ dài cạnh bên \\(BC = AD =\\) {a} cm.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 20.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_099",
+      "questiontext": "Hình thang cân \\(ABCD\\) (với hai đáy \\(AB\\) và \\(CD\\)) có bao nhiêu đường chéo?",
+      "generalfeedback": "Hình thang cân \\(ABCD\\) có 2 đường chéo là \\(AC\\) và \\(BD\\).",
+      "answers": [
+        {
+          "text": "2",
+          "fraction": 100
+        },
+        {
+          "text": "1",
+          "fraction": 0
+        },
+        {
+          "text": "3",
+          "fraction": 0
+        },
+        {
+          "text": "4",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "2 đường chéo bằng nhau)",
+      "questiontext": "Trong hình thang cân, độ dài hai đường chéo luôn bằng nhau.",
+      "generalfeedback": "Theo đặc điểm của hình thang cân, hai đường chéo của hình thang cân bằng nhau.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Đặc điểm hình thang cân (2 cạnh bên bằng nhau",
+      "questiontext": "Cho hình thang cân \\(ABCD\\) có đáy lớn \\(CD = 10\\text{ cm}\\), đáy nhỏ \\(AB = 6\\text{ cm}\\) và cạnh bên \\(AD = 5\\text{ cm}\\). Độ dài cạnh bên \\(BC\\) là bao nhiêu?",
+      "generalfeedback": "Trong hình thang cân \\(ABCD\\), hai cạnh bên bằng nhau nên \\(BC = AD = 5\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "5 cm",
+          "fraction": 100
+        },
+        {
+          "text": "6 cm",
+          "fraction": 0
+        },
+        {
+          "text": "10 cm",
+          "fraction": 0
+        },
+        {
+          "text": "8 cm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "2 góc kề một đáy bằng nhau",
+      "questiontext": "Cho hình thang cân \\(ABCD\\) có hai đáy là \\(AB\\) và \\(CD\\). Biết số đo góc \\(C = 60^\\circ\\). Số đo góc \\(D\\) bằng bao nhiêu độ? (Chỉ điền số)",
+      "generalfeedback": "Trong hình thang cân, hai góc kề một đáy bằng nhau. Do đó góc \\(D = \\text{góc } C = 60^\\circ\\). Đáp án ghi số 60.",
+      "answers": [
+        {
+          "text": "60",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_099",
+      "questiontext": "Cho hình thang cân \\(MNPQ\\) có hai đáy là \\(MN\\) và \\(PQ\\). Ghép nối tên các cặp yếu tố ở cột trái với tên gọi đúng ở cột phải:",
+      "generalfeedback": "\\(MN\\) và \\(PQ\\) là hai cạnh đáy; \\(MQ\\) và \\(NP\\) là hai cạnh bên; \\(MP\\) và \\(NQ\\) là hai đường chéo.",
+      "subquestions": [
+        {
+          "question": "\\(MN\\) và \\(PQ\\)",
+          "answer": "Hai cạnh đáy"
+        },
+        {
+          "question": "\\(MQ\\) và \\(NP\\)",
+          "answer": "Hai cạnh bên"
+        },
+        {
+          "question": "\\(MP\\) và \\(NQ\\)",
+          "answer": "Hai đường chéo"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Mô tả yếu tố cơ bản hình thang cân",
+      "questiontext": "Trong hình thang cân \\(ABCD\\) có hai đáy \\(AB\\) và \\(CD\\), hai góc kề đáy \\(AB\\) là góc \\(A\\) và góc [[1]], còn hai cạnh bên là [[2]] và \\(BC\\).",
+      "generalfeedback": "Hai góc kề đáy \\(AB\\) là góc \\(A\\) và góc \\(B\\); hai cạnh bên là \\(AD\\) và \\(BC\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "B"
+        },
+        {
+          "group": 1,
+          "text": "AD"
+        },
+        {
+          "group": 1,
+          "text": "C"
+        },
+        {
+          "group": 1,
+          "text": "CD"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Nhận biết hình thang cân trong thực tế",
+      "questiontext": "Để tạo thành hình mặt chiếc bàn làm việc đa năng như hình bên dưới, người ta đã ghép bao nhiêu hình thang cân giống nhau? [img:_page_6_Picture_17.jpeg]",
+      "imgs": [
+        "_page_6_Picture_17.jpeg"
+      ],
+      "generalfeedback": "Theo nội dung bài học, mặt bàn được ghép từ 6 hình thang cân giống nhau.",
+      "answers": [
+        {
+          "text": "6 hình thang cân",
+          "fraction": 100
+        },
+        {
+          "text": "4 hình thang cân",
+          "fraction": 0
+        },
+        {
+          "text": "5 hình thang cân",
+          "fraction": 0
+        },
+        {
+          "text": "8 hình thang cân",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Mô tả yếu tố cơ bản hình thang cân",
+      "questiontext": "Khi cắt hình thang cân từ tờ giấy hình chữ nhật theo các bước gấp đôi và cắt, ta sẽ thu được một hình thang cân sau khi mở tờ giấy ra.",
+      "generalfeedback": "Đúng, thực hành 4 trong SGK hướng dẫn gấp đôi tờ giấy hình chữ nhật, vẽ đoạn thẳng cắt hai cạnh đối rồi cắt theo đường vẽ sẽ thu được hình thang cân.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_099",
+      "questiontext": "Trong hình thang cân \\(ABCD\\) (hai đáy \\(AB, CD\\)), hai góc kề đáy \\(AB\\) [[1]] với nhau và hai góc kề đáy \\(CD\\) [[2]] với nhau.",
+      "generalfeedback": "Trong hình thang cân, hai góc kề một đáy bằng nhau.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "bằng nhau"
+        },
+        {
+          "group": 1,
+          "text": "song song"
+        },
+        {
+          "group": 1,
+          "text": "vuông góc"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "2 đường chéo bằng nhau)",
+      "questiontext": "Cho hình thang cân \\(ABCD\\) có độ dài đường chéo \\(AC =\\) {x} cm. Độ dài đường chéo \\(BD\\) bằng bao nhiêu xentimét? (Chỉ điền số)",
+      "generalfeedback": "Trong hình thang cân, hai đường chéo bằng nhau nên \\(BD = AC =\\) {x} cm.",
+      "wildcards": [
+        {
+          "name": "x",
+          "min": 3.0,
+          "max": 25.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{x}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_099",
+      "questiontext": "Hình thang cân \\(ABCD\\) (với hai đáy \\(AB\\) và \\(CD\\)) có bao nhiêu đường chéo?",
+      "generalfeedback": "Hình thang cân \\(ABCD\\) có 2 đường chéo là \\(AC\\) và \\(BD\\).",
+      "answers": [
+        {
+          "text": "2",
+          "fraction": 100
+        },
+        {
+          "text": "1",
+          "fraction": 0
+        },
+        {
+          "text": "3",
+          "fraction": 0
+        },
+        {
+          "text": "4",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "2 đường chéo bằng nhau)",
+      "questiontext": "Trong hình thang cân, độ dài hai đường chéo luôn bằng nhau.",
+      "generalfeedback": "Theo đặc điểm của hình thang cân, hai đường chéo của hình thang cân bằng nhau.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Đặc điểm hình thang cân (2 cạnh bên bằng nhau",
+      "questiontext": "Cho hình thang cân \\(ABCD\\) có đáy lớn \\(CD = 10\\text{ cm}\\), đáy nhỏ \\(AB = 6\\text{ cm}\\) và cạnh bên \\(AD = 5\\text{ cm}\\). Độ dài cạnh bên \\(BC\\) là bao nhiêu?",
+      "generalfeedback": "Trong hình thang cân \\(ABCD\\), hai cạnh bên bằng nhau nên \\(BC = AD = 5\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "5 cm",
+          "fraction": 100
+        },
+        {
+          "text": "6 cm",
+          "fraction": 0
+        },
+        {
+          "text": "10 cm",
+          "fraction": 0
+        },
+        {
+          "text": "8 cm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "2 góc kề một đáy bằng nhau",
+      "questiontext": "Cho hình thang cân \\(ABCD\\) có hai đáy là \\(AB\\) và \\(CD\\). Biết số đo góc \\(C = 60^\\circ\\). Số đo góc \\(D\\) bằng bao nhiêu độ? (Chỉ điền số)",
+      "generalfeedback": "Trong hình thang cân, hai góc kề một đáy bằng nhau. Do đó góc \\(D = \\text{góc } C = 60^\\circ\\). Đáp án ghi số 60.",
+      "answers": [
+        {
+          "text": "60",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_099",
+      "questiontext": "Cho hình thang cân \\(MNPQ\\) có hai đáy là \\(MN\\) và \\(PQ\\). Ghép nối tên các cặp yếu tố ở cột trái với tên gọi đúng ở cột phải:",
+      "generalfeedback": "\\(MN\\) và \\(PQ\\) là hai cạnh đáy; \\(MQ\\) và \\(NP\\) là hai cạnh bên; \\(MP\\) và \\(NQ\\) là hai đường chéo.",
+      "subquestions": [
+        {
+          "question": "\\(MN\\) và \\(PQ\\)",
+          "answer": "Hai cạnh đáy"
+        },
+        {
+          "question": "\\(MQ\\) và \\(NP\\)",
+          "answer": "Hai cạnh bên"
+        },
+        {
+          "question": "\\(MP\\) và \\(NQ\\)",
+          "answer": "Hai đường chéo"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Mô tả yếu tố cơ bản hình thang cân",
+      "questiontext": "Trong hình thang cân \\(ABCD\\) có hai đáy \\(AB\\) và \\(CD\\), hai góc kề đáy \\(AB\\) là góc \\(A\\) và góc [[1]], còn hai cạnh bên là [[2]] và \\(BC\\).",
+      "generalfeedback": "Hai góc kề đáy \\(AB\\) là góc \\(A\\) và góc \\(B\\); hai cạnh bên là \\(AD\\) và \\(BC\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "B"
+        },
+        {
+          "group": 1,
+          "text": "AD"
+        },
+        {
+          "group": 1,
+          "text": "C"
+        },
+        {
+          "group": 1,
+          "text": "CD"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Nhận biết hình thang cân trong thực tế",
+      "questiontext": "Để tạo thành hình mặt chiếc bàn làm việc đa năng như hình bên dưới, người ta đã ghép bao nhiêu hình thang cân giống nhau? [img:_page_6_Picture_17.jpeg]",
+      "imgs": [
+        "_page_6_Picture_17.jpeg"
+      ],
+      "generalfeedback": "Theo nội dung bài học, mặt bàn được ghép từ 6 hình thang cân giống nhau.",
+      "answers": [
+        {
+          "text": "6 hình thang cân",
+          "fraction": 100
+        },
+        {
+          "text": "4 hình thang cân",
+          "fraction": 0
+        },
+        {
+          "text": "5 hình thang cân",
+          "fraction": 0
+        },
+        {
+          "text": "8 hình thang cân",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Mô tả yếu tố cơ bản hình thang cân",
+      "questiontext": "Khi cắt hình thang cân từ tờ giấy hình chữ nhật theo các bước gấp đôi và cắt, ta sẽ thu được một hình thang cân sau khi mở tờ giấy ra.",
+      "generalfeedback": "Đúng, thực hành 4 trong SGK hướng dẫn gấp đôi tờ giấy hình chữ nhật, vẽ đoạn thẳng cắt hai cạnh đối rồi cắt theo đường vẽ sẽ thu được hình thang cân.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_099",
+      "questiontext": "Trong hình thang cân \\(ABCD\\) (hai đáy \\(AB, CD\\)), hai góc kề đáy \\(AB\\) [[1]] với nhau và hai góc kề đáy \\(CD\\) [[2]] với nhau.",
+      "generalfeedback": "Trong hình thang cân, hai góc kề một đáy bằng nhau.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "bằng nhau"
+        },
+        {
+          "group": 1,
+          "text": "song song"
+        },
+        {
+          "group": 1,
+          "text": "vuông góc"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "2 đường chéo bằng nhau)",
+      "questiontext": "Cho hình thang cân \\(ABCD\\) có độ dài đường chéo \\(AC =\\) {x} cm. Độ dài đường chéo \\(BD\\) bằng bao nhiêu xentimét? (Chỉ điền số)",
+      "generalfeedback": "Trong hình thang cân, hai đường chéo bằng nhau nên \\(BD = AC =\\) {x} cm.",
+      "wildcards": [
+        {
+          "name": "x",
+          "min": 3.0,
+          "max": 25.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{x}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ học Toán bài Hình thang cân, khi được giao bài tập Thực hành 4 gấp và cắt hình thang cân từ tờ giấy hình chữ nhật nhưng gấp cắt chưa thẳng và chưa đẹp, bạn Nam nên làm gì để thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập?",
+      "generalfeedback": "Hành vi kiên trì, chủ động tìm hiểu lại các bước hướng dẫn và thực hành lại để đạt kết quả tốt thể hiện tinh thần luôn cố gắng vươn lên trong học tập.",
+      "answers": [
+        {
+          "text": "Kiên trì xem lại 4 bước hướng dẫn trong SGK và thực hành lại cho đến khi cắt được hình thang cân đẹp.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài tập thực hành vì thấy khó và ngồi làm việc riêng.",
+          "fraction": 0
+        },
+        {
+          "text": "Mượn ngay sản phẩm của bạn khác để nộp cho thầy cô mà không tự làm.",
+          "fraction": 0
+        },
+        {
+          "text": "Cho rằng hoạt động cắt gấp không quan trọng nên không cần cố gắng nữa.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Bạn Mai muốn ghi tóm tắt kiến thức cốt lõi của bài \"Hình thang cân\" vào sổ tay học tập dưới dạng bảng từ khóa ngắn gọn và hệ thống. Cách tóm tắt nào sau đây là đầy đủ và có chọn lọc nhất?",
+      "generalfeedback": "Bảng tóm tắt chọn lọc đúng các đặc điểm cốt lõi của hình thang cân: 2 cạnh đáy song song, 2 cạnh bên bằng nhau, 2 đường chéo bằng nhau, 2 góc kề một đáy bằng nhau.",
+      "answers": [
+        {
+          "text": "Cạnh đáy: Song song; Cạnh bên: Bằng nhau; Đường chéo: Bằng nhau; Góc: Hai góc kề một đáy bằng nhau.",
+          "fraction": 100
+        },
+        {
+          "text": "Cạnh đáy: Bằng nhau; Cạnh bên: Song song; Đường chéo: Vuông góc; Góc: Bốn góc bằng nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép lại toàn bộ tất cả các câu chữ và bài tập trong SGK vào sổ tay.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ ghi tên bài học \"Hình thang cân\" và không chép thêm bất kỳ đặc điểm nào.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "questiontext": "Đọc đoạn văn bản sau kết hợp quan sát hình ảnh: \"Các thanh ngang của chiếc thang gỗ tạo với hai trụ bên thành các hình thang cân để cái thang cân đối và vững chắc khi sử dụng.\" [img:_page_5_Picture_21.jpeg] Dựa vào văn bản và hình ảnh, thông tin nào sau đây giải thích đúng lý do người ta thiết kế các thanh ngang tạo thành hình thang cân?",
+      "imgs": [
+        "_page_5_Picture_21.jpeg"
+      ],
+      "generalfeedback": "Văn bản đã nêu rõ việc tạo thành các hình thang cân giúp chiếc thang cân đối và vững chắc khi sử dụng.",
+      "answers": [
+        {
+          "text": "Giúp chiếc thang cân đối và vững chắc khi sử dụng.",
+          "fraction": 100
+        },
+        {
+          "text": "Giúp tiết kiệm tối đa lượng gỗ khi sản xuất thang.",
+          "fraction": 0
+        },
+        {
+          "text": "Để chiếc thang có thể gấp lại gọn gàng hơn.",
+          "fraction": 0
+        },
+        {
+          "text": "Để hai trụ bên của chiếc thang song song tuyệt đối với nhau.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "NLT_TOAN_C2_01_02",
+      "questiontext": "Khi quan sát hình ảnh mặt bàn làm việc trong Bài tập 4.15 (như hình bên), em quan sát thấy mặt bàn được ghép lại từ các hình phẳng nào? [img:_page_6_Picture_17.jpeg]",
+      "imgs": [
+        "_page_6_Picture_17.jpeg"
+      ],
+      "generalfeedback": "Bằng quan sát thực tế trong bài tập 4.15 SGK, mặt chiếc bàn làm việc đa năng được ghép từ 6 hình thang cân giống nhau.",
+      "answers": [
+        {
+          "text": "6 hình thang cân giống nhau",
+          "fraction": 100
+        },
+        {
+          "text": "6 hình chữ nhật giống nhau",
+          "fraction": 0
+        },
+        {
+          "text": "6 hình thoi giống nhau",
+          "fraction": 0
+        },
+        {
+          "text": "6 hình tam giác đều giống nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "NLT_TOAN_C2_05_01",
+      "questiontext": "Nối các hoạt động tìm hiểu kiến thức hình thang cân ở cột bên trái với công cụ, phương tiện học toán tương ứng ở cột bên phải:",
+      "generalfeedback": "So sánh độ dài đoạn thẳng/cạnh dùng thước thẳng hoặc compa; cắt gấp giấy dùng kéo và giấy; quan sát trực quan dùng mô hình/tranh ảnh.",
+      "subquestions": [
+        {
+          "question": "So sánh độ dài hai cạnh bên hoặc hai đường chéo của hình thang cân",
+          "answer": "Thước thẳng hoặc compa"
+        },
+        {
+          "question": "Thực hành gấp và cắt tạo hình thang cân từ tờ giấy hình chữ nhật",
+          "answer": "Kéo và tờ giấy hình chữ nhật"
+        },
+        {
+          "question": "Quan sát hình ảnh hình thang cân trong thực tế (mặt bàn, cái thang)",
+          "answer": "Tranh ảnh, hình vẽ trong SGK"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi thảo luận nhóm để tìm các hình ảnh hình thang cân trong thực tế (HĐ7), một học sinh chủ động lắng nghe ý kiến của các bạn, tích cực đóng góp phát biểu và hoàn thành phần việc được giao là thể hiện thái độ học tập tích cực và trách nhiệm.",
+      "generalfeedback": "Sự chủ động, hợp tác và trách nhiệm trong hoạt động nhóm là biểu hiện cụ thể của thái độ học tập tốt.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Để lập sơ đồ tư duy tóm tắt bài Hình thang cân, học sinh nên chọn từ khóa [[1]] cho hai cạnh bên và từ khóa [[2]] cho hai cạnh đáy.",
+      "generalfeedback": "Từ khóa cốt lõi cho 2 cạnh bên của hình thang cân là 'bằng nhau', còn 2 cạnh đáy là 'song song'.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "bằng nhau"
+        },
+        {
+          "group": 1,
+          "text": "song song"
+        },
+        {
+          "group": 1,
+          "text": "vuông góc"
+        },
+        {
+          "group": 1,
+          "text": "cắt nhau"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_02",
+      "questiontext": "Khi quan sát cái thang gỗ ở Hình 4.14 / Luyện tập (như hình dưới đây), góc nhìn nào giúp em quan sát và nhận biết rõ nhất các khung hình thang cân tạo bởi các thanh ngang và hai trụ bên? [img:_page_5_Picture_21.jpeg]",
+      "imgs": [
+        "_page_5_Picture_21.jpeg"
+      ],
+      "generalfeedback": "Quan sát trực diện từ phía trước mặt phẳng cái thang giúp nhận biết rõ nhất hình dạng hình thang cân.",
+      "answers": [
+        {
+          "text": "Quan sát chính diện từ phía trước chiếc thang.",
+          "fraction": 100
+        },
+        {
+          "text": "Quan sát từ đỉnh đầu một thanh trụ xuống.",
+          "fraction": 0
+        },
+        {
+          "text": "Quan sát duy nhất một điểm chân thang.",
+          "fraction": 0
+        },
+        {
+          "text": "Nhắm mắt và dùng tay sờ thử.",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

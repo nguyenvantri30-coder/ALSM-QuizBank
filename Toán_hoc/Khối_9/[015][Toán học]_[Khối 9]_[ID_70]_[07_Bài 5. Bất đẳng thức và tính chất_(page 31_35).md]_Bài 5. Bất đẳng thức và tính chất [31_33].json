@@ -1,0 +1,732 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 30,
+    "metadata_used": {
+      "YCCD_TOAN9_036": 4,
+      "Kí hiệu thứ tự <, >, <=, >= trên tập số thực": 4,
+      "Khái niệm số nhỏ hơn, số lớn hơn": 4,
+      "So sánh hai số thực dựa vào hiệu của chúng": 4,
+      "Biểu diễn thứ tự các số thực trên trục số": 4,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TUHOC_C2_01": 1,
+      "SUB_GTHT_XACDINHMD_C2_03": 2,
+      "NLT_TOAN_C2_01_03": 2,
+      "NLT_TOAN_C2_04_12": 3
+    },
+    "types_used": {
+      "multichoice": 13,
+      "truefalse": 5,
+      "gapselect": 3,
+      "matching": 3,
+      "ddwtos": 1,
+      "shortanswer": 3,
+      "numerical": 1,
+      "calculatedsimple": 1
+    },
+    "total": 30
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN9_036",
+        "reason": "Nhận biết được thứ tự trên tập hợp các số thực."
+      },
+      {
+        "metadata_code": "Kí hiệu thứ tự <, >, <=, >= trên tập số thực",
+        "reason": "Kí hiệu thứ tự <, >, <=, >= trên tập số thực"
+      },
+      {
+        "metadata_code": "Khái niệm số nhỏ hơn, số lớn hơn",
+        "reason": "Khái niệm số nhỏ hơn, số lớn hơn"
+      },
+      {
+        "metadata_code": "So sánh hai số thực dựa vào hiệu của chúng",
+        "reason": "So sánh hai số thực dựa vào hiệu của chúng"
+      },
+      {
+        "metadata_code": "Biểu diễn thứ tự các số thực trên trục số",
+        "reason": "Biểu diễn thứ tự các số thực trên trục số"
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Luôn cố gắng vươn lên đạt kết quả tốt trong học tập."
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+        "reason": "Tự đặt được mục tiêu học tập để nỗ lực phấn đấu thực hiện."
+      },
+      {
+        "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+        "reason": "Tiếp nhận được các văn bản về những vấn đề đơn giản của đời sống..."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_03",
+        "reason": "Giải thích được sự tương đồng và khác biệt trong nhiều tình huống."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_04_12",
+        "reason": "Sử dụng được ngôn ngữ toán học kết hợp với ngôn ngữ thông thường..."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Nội dung tiết 1 thuộc chủ đề Bất đẳng thức Toán 9 thuần lý thuyết đại số, không chứa thao tác sử dụng công cụ/phần mềm tin học hay công nghệ số."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học không liên quan trực tiếp đến ứng dụng hoặc nguyên lý của trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_036",
+      "questiontext": "Cho hai số thực \\(a\\) và \\(b\\). Khẳng định nào sau đây là đúng về quan hệ thứ tự giữa \\(a\\) và \\(b\\)?",
+      "generalfeedback": "Trên tập số thực, với hai số \\(a\\) và \\(b\\) bất kỳ, chỉ có một trong ba trường hợp sau xảy ra: \\(a = b\\), \\(a > b\\) hoặc \\(a < b\\).",
+      "answers": [
+        {
+          "text": "Chỉ có thể xảy ra một trong ba trường hợp: \\(a = b\\), \\(a > b\\) hoặc \\(a < b\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Luôn luôn xảy ra đồng thời cả hai trường hợp \\(a > b\\) và \\(a < b\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ có hai trường hợp xảy ra là \\(a > b\\) hoặc \\(a < b\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Không thể so sánh được hai số thực bất kỳ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_036",
+      "questiontext": "Trên tập số thực, nếu số \\(a\\) không lớn hơn số \\(b\\) và cũng không nhỏ hơn số \\(b\\) thì \\(a = b\\). Khẳng định này Đúng hay Sai?",
+      "generalfeedback": "Đúng. Với hai số thực \\(a, b\\), chỉ có 3 trường hợp \\(a = b\\), \\(a > b\\), \\(a < b\\). Nếu không lớn hơn và không nhỏ hơn thì phải bằng nhau.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_036",
+      "questiontext": "So sánh hai số thực: \\(-34,2\\) [[1]] \\(-27\\) và \\(2024\\) [[2]] \\(1954\\).",
+      "generalfeedback": "Vì \\(-34,2 < -27\\) và \\(2024 > 1954\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "<"
+        },
+        {
+          "group": 1,
+          "text": ">"
+        },
+        {
+          "group": 1,
+          "text": "="
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_036",
+      "questiontext": "Hãy ghép mỗi cặp số thực với quan hệ thứ tự tương ứng giữa chúng:",
+      "generalfeedback": "So sánh: \\(-34,2 < -27\\); \\(\\frac{6}{-8} = -\\frac{3}{4}\\); \\(2024 > 1954\\).",
+      "subquestions": [
+        {
+          "question": "So sánh \\(-34,2\\) và \\(-27\\)",
+          "answer": "\\(-34,2 < -27\\)"
+        },
+        {
+          "question": "So sánh \\(\\frac{6}{-8}\\) và \\(-\\frac{3}{4}\\)",
+          "answer": "\\(\\frac{6}{-8} = -\\frac{3}{4}\\)"
+        },
+        {
+          "question": "So sánh \\(2024\\) và \\(1954\\)",
+          "answer": "\\(2024 > 1954\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Kí hiệu thứ tự <, >, <=, >= trên tập số thực",
+      "questiontext": "Phát biểu \"Số \\(a\\) lớn hơn hoặc bằng số \\(b\\)\" được viết bằng kí hiệu là gì?",
+      "generalfeedback": "Số \\(a\\) lớn hơn hoặc bằng số \\(b\\) được kí hiệu là \\(a \\ge b\\).",
+      "answers": [
+        {
+          "text": "\\(a \\ge b\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(a \\le b\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a > b\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a < b\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Kí hiệu thứ tự <, >, <=, >= trên tập số thực",
+      "questiontext": "Dùng kí hiệu thứ tự để viết khẳng định: \"\\(x\\) nhỏ hơn hoặc bằng \\(-2\\)\".",
+      "generalfeedback": "Khẳng định \"\\(x\\) nhỏ hơn hoặc bằng \\(-2\\)\" được viết là \\(x \\le -2\\).",
+      "answers": [
+        {
+          "text": "\\(x \\le -2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x < -2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x \\ge -2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x > -2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Kí hiệu thứ tự <, >, <=, >= trên tập số thực",
+      "questiontext": "Kí hiệu \\(a \\le b\\) có nghĩa là \\(a < b\\) hoặc \\(a\\) [[1]] \\(b\\). Kí hiệu \\(a \\ge b\\) có nghĩa là \\(a > b\\) hoặc \\(a\\) [[2]] \\(b\\).",
+      "generalfeedback": "Kí hiệu \\(\\le\\) là nhỏ hơn hoặc bằng, kí hiệu \\(\\ge\\) là lớn hơn hoặc bằng.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "="
+        },
+        {
+          "group": 1,
+          "text": ">"
+        },
+        {
+          "group": 1,
+          "text": "<"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Kí hiệu thứ tự <, >, <=, >= trên tập số thực",
+      "questiontext": "Biển báo giao thông R.306 [img:_page_1_Figure_4.jpeg] báo tốc độ tối thiểu cho các xe cơ giới là \\(60\\) km/h. Nếu một ô tô đi trên đường đó với vận tốc \\(a\\) (km/h) thì \\(a\\) phải thỏa mãn điều kiện nào sau đây?",
+      "imgs": [
+        "_page_1_Figure_4.jpeg"
+      ],
+      "generalfeedback": "Tốc độ không nhỏ hơn 60 km/h nghĩa là tốc độ lớn hơn hoặc bằng 60 km/h, kí hiệu \\(a \\ge 60\\).",
+      "answers": [
+        {
+          "text": "\\(a \\ge 60\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(a \\le 60\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a > 60\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a < 60\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm số nhỏ hơn, số lớn hơn",
+      "questiontext": "Khi kí hiệu \\(a < b\\), phát biểu nào sau đây thể hiện đúng khái niệm về mối quan hệ giữa \\(a\\) và \\(b\\)?",
+      "generalfeedback": "\\(a < b\\) nghĩa là số \\(a\\) nhỏ hơn số \\(b\\), hay số \\(b\\) lớn hơn số \\(a\\).",
+      "answers": [
+        {
+          "text": "Số \\(a\\) nhỏ hơn số \\(b\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Số \\(a\\) lớn hơn số \\(b\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Số \\(a\\) bằng số \\(b\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Số \\(a\\) không nhỏ hơn số \\(b\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm số nhỏ hơn, số lớn hơn",
+      "questiontext": "Viết kí hiệu thể hiện mối quan hệ \"\\(m\\) là số âm\".",
+      "generalfeedback": "\\(m\\) là số âm nghĩa là \\(m\\) nhỏ hơn 0, kí hiệu \\(m < 0\\).",
+      "answers": [
+        {
+          "text": "m < 0",
+          "fraction": 100
+        },
+        {
+          "text": "m<0",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm số nhỏ hơn, số lớn hơn",
+      "questiontext": "Cho số thực \\(x\\). Nếu \\(x\\) là số dương thì \\(x\\) [[1]] \\(0\\). Nếu \\(x\\) là số âm thì \\(x\\) [[2]] \\(0\\).",
+      "generalfeedback": "Số dương là số lớn hơn 0, kí hiệu \\(x > 0\\). Số âm là số nhỏ hơn 0, kí hiệu \\(x < 0\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": ">"
+        },
+        {
+          "group": 1,
+          "text": "<"
+        },
+        {
+          "group": 1,
+          "text": "="
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm số nhỏ hơn, số lớn hơn",
+      "questiontext": "Số \\(a\\) lớn hơn số \\(b\\) được kí hiệu là \\(a > b\\). Khẳng định này Đúng hay Sai?",
+      "generalfeedback": "Đúng. Theo quy ước kí hiệu thứ tự trên tập số thực, số \\(a\\) lớn hơn số \\(b\\) được kí hiệu là \\(a > b\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "So sánh hai số thực dựa vào hiệu của chúng",
+      "questiontext": "Để so sánh hai số thực \\(a\\) và \\(b\\) dựa vào hiệu của chúng, ta xét hiệu \\(a - b\\). Khẳng định nào sau đây là đúng?",
+      "generalfeedback": "Nếu hiệu \\(a - b > 0\\) thì \\(a > b\\); nếu \\(a - b < 0\\) thì \\(a < b\\); nếu \\(a - b = 0\\) thì \\(a = b\\).",
+      "answers": [
+        {
+          "text": "Nếu \\(a - b > 0\\) thì \\(a > b\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Nếu \\(a - b > 0\\) thì \\(a < b\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Nếu \\(a - b < 0\\) thì \\(a > b\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Nếu \\(a - b = 0\\) thì \\(a > b\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "So sánh hai số thực dựa vào hiệu của chúng",
+      "questiontext": "Xét hiệu giữa hai số \\(a = 2024\\) và \\(b = 1954\\). Tính giá trị của \\(a - b\\) để từ đó suy ra quan hệ thứ tự giữa \\(a\\) và \\(b\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Hiệu \\(a - b = 2024 - 1954 = 70 > 0\\), do đó \\(2024 > 1954\\).",
+      "answers": [
+        {
+          "text": "70",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "So sánh hai số thực dựa vào hiệu của chúng",
+      "questiontext": "Cho hai số thực \\(x, y\\) thỏa mãn \\(x - y = -3,4\\). Ta kết luận được \\(x < y\\). Khẳng định này Đúng hay Sai?",
+      "generalfeedback": "Đúng. Vì hiệu \\(x - y = -3,4 < 0\\) nên \\(x < y\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "So sánh hai số thực dựa vào hiệu của chúng",
+      "questiontext": "Xét hai số \\(a = -34,2\\) và \\(b = -27\\). Điền dấu thích hợp (<, > hoặc =) để so sánh \\(a\\) và \\(b\\) dựa vào hiệu \\(a - b = -7,2 < 0\\).",
+      "generalfeedback": "Vì \\(a - b = -34,2 - (-27) = -7,2 < 0\\) nên \\(a < b\\), tức là \\(-34,2 < -27\\).",
+      "answers": [
+        {
+          "text": "<",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Biểu diễn thứ tự các số thực trên trục số",
+      "questiontext": "Khi biểu diễn các số thực trên trục số nằm ngang (chiều từ trái sang phải), vị trí của điểm biểu diễn số bé hơn so với điểm biểu diễn số lớn hơn là như thế nào?",
+      "generalfeedback": "Khi biểu diễn các số thực trên trục số, điểm biểu diễn số bé hơn nằm trước (bên trái) điểm biểu diễn số lớn hơn.",
+      "answers": [
+        {
+          "text": "Điểm biểu diễn số bé hơn nằm bên trái (nằm trước) điểm biểu diễn số lớn hơn",
+          "fraction": 100
+        },
+        {
+          "text": "Điểm biểu diễn số bé hơn nằm bên phải (nằm sau) điểm biểu diễn số lớn hơn",
+          "fraction": 0
+        },
+        {
+          "text": "Trùng vị trí với điểm biểu diễn số lớn hơn",
+          "fraction": 0
+        },
+        {
+          "text": "Tùy thuộc vào hai số đó là số dương hay số âm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Biểu diễn thứ tự các số thực trên trục số",
+      "questiontext": "Quan sát trục số trong hình ảnh [img:_page_0_Figure_28.jpeg]. Thứ tự đúng từ bé đến lớn của các số thực được biểu diễn trên trục số là gì?",
+      "imgs": [
+        "_page_0_Figure_28.jpeg"
+      ],
+      "generalfeedback": "Trên trục số, các điểm từ trái sang phải theo thứ tự là \\(-2,5; -1; 1; 1,5\\), do đó \\(-2,5 < -1 < 1 < 1,5\\).",
+      "answers": [
+        {
+          "text": "\\(-2,5 < -1 < 1 < 1,5\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(1,5 < 1 < -1 < -2,5\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-1 < -2,5 < 1 < 1,5\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-2,5 < 1 < -1 < 1,5\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Biểu diễn thứ tự các số thực trên trục số",
+      "questiontext": "Cho các số thực \\(-2,5; -1; 1; 1,5\\) được biểu diễn trên trục số. Hãy ghép mỗi điểm với giá trị tương ứng của nó:",
+      "generalfeedback": "Thứ tự trên trục số từ trái sang phải là \\(-2,5 < -1 < 1 < 1,5\\).",
+      "subquestions": [
+        {
+          "question": "Điểm nằm xa nhất về phía bên trái",
+          "answer": "\\(-2,5\\)"
+        },
+        {
+          "question": "Điểm nằm giữa \\(-2,5\\) và \\(1\\)",
+          "answer": "\\(-1\\)"
+        },
+        {
+          "question": "Điểm nằm xa nhất về phía bên phải",
+          "answer": "\\(1,5\\)"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Biểu diễn thứ tự các số thực trên trục số",
+      "questiontext": "Cho điểm A biểu diễn số {a} và điểm B biểu diễn số {a} + 3 trên trục số. Điểm B nằm cách điểm A bao nhiêu đơn vị về phía bên phải?",
+      "generalfeedback": "Vì ({a} + 3) - {a} = 3 > 0 nên điểm B biểu diễn số lớn hơn và nằm bên phải điểm A đúng 3 đơn vị.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "3",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi gặp bài tập khó về so sánh các số thực chứa căn thức, bạn An bế tắc và chưa tìm ra lời giải. Hành động nào sau đây của An thể hiện rõ nhất phẩm chất luôn cố gắng vươn lên đạt kết quả tốt trong học tập?",
+      "generalfeedback": "Chủ động đọc lại lý thuyết, xem ví dụ mẫu và kiên trì thử các phương pháp làm bài khác nhau thể hiện tinh thần tự giác và quyết tâm vượt khó vươn lên trong học tập.",
+      "answers": [
+        {
+          "text": "Chủ động đọc lại lý thuyết SGK, xem lại các ví dụ mẫu và kiên trì thử các phương pháp so sánh khác nhau cho đến khi tìm ra đáp án",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài tập đó và chỉ làm các bài tập dễ để không mất thời gian",
+          "fraction": 0
+        },
+        {
+          "text": "Chép ngay bài làm của bạn khác để nộp cho kịp giờ",
+          "fraction": 0
+        },
+        {
+          "text": "Chờ thầy cô chữa bài trên lớp rồi chép vào vở mà không suy nghĩ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ học toán về thứ tự trên tập số thực, bạn Bình nhận thấy mình chưa hiểu rõ cách so sánh hai số dựa vào hiệu của chúng. Bình đã chủ động hỏi thầy cô và tìm thêm bài tập về nhà để tự luyện tập. Hành vi của Bình thể hiện sự nỗ lực vươn lên đạt kết quả tốt trong học tập. Khẳng định này Đúng hay Sai?",
+      "generalfeedback": "Đúng. Việc nhận ra điểm yếu và chủ động hỏi bài, luyện tập thêm là minh chứng rõ nét cho ý thức vươn lên trong học tập.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Để học tốt nội dung \"Nhắc lại thứ tự trên tập số thực\", bạn Nam lập kế hoạch tự học. Mục tiêu học tập nào sau đây được đặt ra một cách cụ thể, đo lường được và thể hiện nỗ lực phấn đấu phù hợp nhất?",
+      "generalfeedback": "Mục tiêu cụ thể, rõ ràng về thời gian và số lượng bài tập giúp học sinh dễ dàng theo dõi và nỗ lực phấn đấu thực hiện.",
+      "answers": [
+        {
+          "text": "Nắm vững các kí hiệu \\(<, >, \\le, \\ge\\) và hoàn thành đúng 100% các bài tập SGK trang 33 trong buổi tối",
+          "fraction": 100
+        },
+        {
+          "text": "Cố gắng học giỏi môn Toán trong học kì này",
+          "fraction": 0
+        },
+        {
+          "text": "Đọc qua bài học trong SGK khi nào rảnh rỗi",
+          "fraction": 0
+        },
+        {
+          "text": "Học thuộc lòng toàn bộ SGK mà không cần làm bài tập",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "questiontext": "Đọc thông tin từ biển báo giao thông R.306 [img:_page_1_Figure_4.jpeg]: \"Biển báo tốc độ tối thiểu cho các xe cơ giới là 60 km/h\". Dựa trên thông tin văn bản và hình ảnh biển báo, vận tốc \\(a\\) (km/h) hợp lệ của xe ô tô khi đi trên đường này được biểu diễn bằng bất đẳng thức nào?",
+      "imgs": [
+        "_page_1_Figure_4.jpeg"
+      ],
+      "generalfeedback": "Tốc độ không nhỏ hơn 60 km/h có nghĩa là vận tốc \\(a\\) phải lớn hơn hoặc bằng 60 km/h, kí hiệu \\(a \\ge 60\\).",
+      "answers": [
+        {
+          "text": "\\(a \\ge 60\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(a \\le 60\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a < 60\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a = 60\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "questiontext": "Đọc văn bản hướng dẫn: \"Nhiệt độ \\(t\\) (°C) bảo quản của một loại sữa tươi là dưới 4 °C và nhiệt độ \\(t\\) (°C) tại Tokyo tuần tới là trên -5 °C\". Dựa vào văn bản, nhiệt độ bảo quản sữa tươi được ghi bằng kí hiệu là \\(t\\) [[1]] \\(4\\) (°C), nhiệt độ tại Tokyo là \\(t\\) [[2]] \\(-5\\) (°C).",
+      "generalfeedback": "\"Dưới 4 °C\" tương ứng với \\(t < 4\\); \"trên -5 °C\" tương ứng với \\(t > -5\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "<"
+        },
+        {
+          "group": 1,
+          "text": ">"
+        },
+        {
+          "group": 1,
+          "text": "="
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_03",
+      "questiontext": "Khi so sánh hai kí hiệu thứ tự \\(a < b\\) và \\(a \\le b\\), sự khác biệt cốt lõi giữa hai quan hệ này là gì?",
+      "generalfeedback": "Sự khác biệt cơ bản là \\(a \\le b\\) chấp nhận trường hợp \\(a = b\\) xảy ra, trong khi \\(a < b\\) bắt buộc \\(a\\) phải nhỏ hơn \\(b\\) nghiêm ngặt.",
+      "answers": [
+        {
+          "text": "Quan hệ \\(a \\le b\\) cho phép trường hợp \\(a = b\\) xảy ra, còn \\(a < b\\) thì không",
+          "fraction": 100
+        },
+        {
+          "text": "Quan hệ \\(a < b\\) cho phép trường hợp \\(a = b\\) xảy ra, còn \\(a \\le b\\) thì không",
+          "fraction": 0
+        },
+        {
+          "text": "Cả hai quan hệ đều hoàn toàn giống hệt nhau về mọi trường hợp",
+          "fraction": 0
+        },
+        {
+          "text": "Quan hệ \\(a \\le b\\) chỉ dùng cho số âm, còn \\(a < b\\) dùng cho số dương",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_03",
+      "questiontext": "Hãy ghép mỗi cặp bất đẳng thức với mối quan hệ về chiều tương ứng giữa chúng:",
+      "generalfeedback": "Hai bất đẳng thức cùng chiều nếu cùng dùng kí hiệu cùng hướng (< và <, hoặc > và >); ngược chiều nếu dùng kí hiệu trái hướng (< và >).",
+      "subquestions": [
+        {
+          "question": "Hai bất đẳng thức \\(1 < 2\\) và \\(-3 < -2\\)",
+          "answer": "Hai bất đẳng thức cùng chiều"
+        },
+        {
+          "question": "Hai bất đẳng thức \\(6 > 3\\) và \\(5 < 8\\)",
+          "answer": "Hai bất đẳng thức ngược chiều"
+        },
+        {
+          "question": "Hai bất đẳng thức \\(1 < 2\\) và \\(-2 > -3\\)",
+          "answer": "Hai bất đẳng thức ngược chiều"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04_12",
+      "questiontext": "Tình huống thực tế phát biểu bằng ngôn ngữ thông thường: \"Để đủ điều kiện điều khiển xe máy điện thì số tuổi \\(x\\) của một người phải ít nhất là 16 tuổi\". Bất đẳng thức nào diễn tả đúng tình huống trên bằng ngôn ngữ toán học?",
+      "generalfeedback": "\"Ít nhất 16 tuổi\" nghĩa là số tuổi \\(x\\) phải lớn hơn hoặc bằng 16, biểu diễn bằng bất đẳng thức \\(x \\ge 16\\).",
+      "answers": [
+        {
+          "text": "\\(x \\ge 16\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x > 16\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x \\le 16\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x = 16\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04_12",
+      "questiontext": "Chuyển phát biểu thông thường sau sang ngôn ngữ toán học dưới dạng bất đẳng thức: \"Xe buýt chở được tối đa 45 người\" (gọi \\(n\\) là số người trên xe buýt).",
+      "generalfeedback": "\"Tối đa 45 người\" nghĩa là số người \\(n\\) nhỏ hơn hoặc bằng 45, kí hiệu \\(n \\le 45\\).",
+      "answers": [
+        {
+          "text": "n <= 45",
+          "fraction": 100
+        },
+        {
+          "text": "n \\le 45",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04_12",
+      "questiontext": "Phát biểu bằng ngôn ngữ thông thường \"Mức lương tối thiểu cho một giờ làm việc của người lao động là 20 000 đồng\" được biểu diễn bằng ngôn ngữ toán học là bất đẳng thức \\(x \\ge 20000\\) (với \\(x\\) là mức lương tính bằng đồng). Khẳng định này Đúng hay Sai?",
+      "generalfeedback": "Đúng. Mức lương tối thiểu 20 000 đồng có nghĩa là mức lương \\(x\\) phải lớn hơn hoặc bằng 20 000 đồng, tức là \\(x \\ge 20000\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,671 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 28,
+    "metadata_used": {
+      "Hệ thống kiến thức chương VII về số thập phân": 4,
+      "YCCD_TOAN6_081": 6,
+      "YCCD_TOAN6_086": 4,
+      "Giải bài toán tổng hợp chương VII": 6,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_CHAMCHI_HAMHOC_C2_03": 1,
+      "SUB_TCTH_TUHOC_C2_01": 1,
+      "SUB_GQVD_DEXUAT_C2_01": 1,
+      "NLT_TOAN_C2_01_05": 2,
+      "NLT_TOAN_C2_03_04": 1
+    },
+    "types_used": {
+      "multichoice": 13,
+      "gapselect": 2,
+      "matching": 3,
+      "numerical": 5,
+      "truefalse": 3,
+      "shortanswer": 1,
+      "ddwtos": 1
+    },
+    "total": 28
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN6_081",
+        "reason": "Đo lường kỹ năng thực hiện làm tròn số thập phân đến các hàng khác nhau (hàng phần mười, hàng chục, hàng nghìn, hàng đơn vị)."
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_086",
+        "reason": "Đo lường năng lực giải quyết các vấn đề thực tiễn gắn với phép tính số thập phân, tỉ số phần trăm và tỉ lệ xích bản đồ."
+      },
+      {
+        "metadata_code": "Hệ thống kiến thức chương VII về số thập phân",
+        "reason": "Đo lường kiến thức hệ thống về số thập phân, quy tắc làm tròn và cách dùng máy tính cầm tay để tính toán số thập phân."
+      },
+      {
+        "metadata_code": "Giải bài toán tổng hợp chương VII",
+        "reason": "Đo lường kỹ năng giải bài toán tổng hợp thực hiện thứ tự phép tính với số thập phân và tìm x."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đo lường phẩm chất luôn cố gắng vươn lên đạt kết quả tốt trong học tập khi đối diện bài toán khó hoặc tính toán sai sót."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_03",
+        "reason": "Đo lường ý thức vận dụng kiến thức số thập phân và tỉ số phần trăm vào đời sống thực tế."
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+        "reason": "Đo lường năng lực tự chủ và tự học thông qua việc tự đặt mục tiêu và lập kế hoạch ôn tập, củng cố kiến thức."
+      },
+      {
+        "metadata_code": "SUB_GQVD_DEXUAT_C2_01",
+        "reason": "Đo lường năng lực giải quyết vấn đề thông qua việc xác định và chọn lọc các thông tin toán học liên quan trong văn bản thực tế."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_05",
+        "reason": "Đo lường năng lực tư duy và lập luận toán học khi giải thích, đánh giá tính đúng đắn của các quy tắc làm tròn số."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_04",
+        "reason": "Đo lường năng lực sử dụng công cụ, phương tiện và kiến thức toán học tương thích để giải quyết bài toán vẽ sơ đồ theo tỉ lệ xích."
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống kiến thức chương VII về số thập phân",
+      "questiontext": "Khi sử dụng máy tính cầm tay để thực hiện phép tính với số thập phân, phím nào sau đây được dùng để nhập dấu phẩy thập phân?",
+      "generalfeedback": "Trên máy tính cầm tay, dấu chấm (.) đại diện cho dấu phẩy ngăn cách phần nguyên và phần thập phân của một số thập phân.",
+      "answers": [
+        {
+          "text": "Phím dấu chấm (.)",
+          "fraction": 100
+        },
+        {
+          "text": "Phím dấu phẩy (,)",
+          "fraction": 0
+        },
+        {
+          "text": "Phím phép chia (:)",
+          "fraction": 0
+        },
+        {
+          "text": "Phím dấu nhân (\\(\\times\\))",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống kiến thức chương VII về số thập phân",
+      "questiontext": "Khi làm tròn số thập phân đến một hàng nào đó, nếu chữ số ngay sau hàng làm tròn nhỏ hơn 5 thì ta [[1]] bộ phận còn lại. Nếu chữ số ngay sau hàng làm tròn lớn hơn hoặc bằng 5 thì ta [[2]] vào chữ số cuối cùng của bộ phận còn lại.",
+      "generalfeedback": "Theo quy tắc làm tròn số thập phân: nếu chữ số ngay sau hàng làm tròn nhỏ hơn 5 thì giữ nguyên; nếu lớn hơn hoặc bằng 5 thì cộng thêm 1 đơn vị vào chữ số của hàng làm tròn.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "giữ nguyên"
+        },
+        {
+          "group": 1,
+          "text": "cộng thêm 1 đơn vị"
+        },
+        {
+          "group": 1,
+          "text": "bớt đi 1 đơn vị"
+        },
+        {
+          "group": 1,
+          "text": "nhân đôi"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_081",
+      "questiontext": "Làm tròn số \\(127,459\\) đến hàng phần mười, ta được kết quả là:",
+      "generalfeedback": "Hàng phần mười của số \\(127,459\\) là chữ số 4. Chữ số ngay sau nó là 5 (\\(\\ge 5\\)) nên ta cộng thêm 1 vào chữ số hàng phần mười và bỏ đi các chữ số phía sau. Kết quả là \\(127,5\\).",
+      "answers": [
+        {
+          "text": "\\(127,5\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(127,4\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(127,46\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(128\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_081",
+      "questiontext": "Hãy ghép mỗi số và yêu cầu làm tròn ở cột bên trái với kết quả làm tròn tương ứng ở cột bên phải:",
+      "generalfeedback": "Làm tròn 127,459 đến hàng phần mười được 127,5; làm tròn 152,025 đến hàng chục được 150; làm tròn 15 025 796 đến hàng nghìn được 15 026 000.",
+      "subquestions": [
+        {
+          "question": "Làm tròn số \\(127,459\\) đến hàng phần mười",
+          "answer": "\\(127,5\\)"
+        },
+        {
+          "question": "Làm tròn số \\(152,025\\) đến hàng chục",
+          "answer": "\\(150\\)"
+        },
+        {
+          "question": "Làm tròn số \\(15\\ 025\\ 796\\) đến hàng nghìn",
+          "answer": "\\(15\\ 026\\ 000\\)"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_081",
+      "questiontext": "Con ngựa Thumbelina cao khoảng \\(44,5\\text{ cm}\\). Con ngựa Big Jake cao gấp khoảng \\(4,72\\) lần con ngựa Thumbelina. Chiều cao của con Big Jake sau khi làm tròn kết quả đến hàng đơn vị là bao nhiêu xentimét? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Chiều cao của con Big Jake là: \\(44,5 \\times 4,72 = 210,04\\text{ cm}\\). Làm tròn kết quả đến hàng đơn vị: vì chữ số ngay sau hàng đơn vị là 0 (< 5) nên ta giữ nguyên chữ số hàng đơn vị. Kết quả là 210.",
+      "answers": [
+        {
+          "text": "210",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_086",
+      "questiontext": "Giá niêm yết của một con rô-bốt là \\(300\\ 000\\) đồng nhưng hôm nay được khuyến mại giảm giá \\(15\\%\\). Mẹ bạn Việt phải trả bao nhiêu tiền để mua con rô-bốt đó?",
+      "generalfeedback": "Số tiền được giảm giá là: \\(300\\ 000 \\times 15\\% = 45\\ 000\\) (đồng). Số tiền mẹ Việt phải trả là: \\(300\\ 000 - 45\\ 000 = 255\\ 000\\) (đồng).",
+      "answers": [
+        {
+          "text": "\\(255\\ 000\\) đồng",
+          "fraction": 100
+        },
+        {
+          "text": "\\(45\\ 000\\) đồng",
+          "fraction": 0
+        },
+        {
+          "text": "\\(285\\ 000\\) đồng",
+          "fraction": 0
+        },
+        {
+          "text": "\\(270\\ 000\\) đồng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_086",
+      "questiontext": "Cầu Bạch Đằng có tổng chiều dài khoảng \\(5,4\\text{ km}\\). Nếu vẽ trên bản đồ có tỉ lệ xích \\(1 : 100\\ 000\\) thì cầu Bạch Đằng dài bao nhiêu xentimét? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Đổi \\(5,4\\text{ km} = 540\\ 000\\text{ cm}\\). Chiều dài cầu Bạch Đằng trên bản đồ là: \\(540\\ 000 : 100\\ 000 = 5,4\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "5.4",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Giải bài toán tổng hợp chương VII",
+      "questiontext": "Cho biểu thức \\(A = 15,3 - 21,5 - 3 \\cdot 1,5\\). Khẳng định: \"Giá trị của biểu thức \\(A\\) là \\(-10,7\\)\" đúng hay sai?",
+      "generalfeedback": "Ta có: \\(A = 15,3 - 21,5 - 3 \\cdot 1,5 = 15,3 - 21,5 - 4,5 = -6,2 - 4,5 = -10,7\\). Do đó khẳng định trên là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán tổng hợp chương VII",
+      "questiontext": "Giá trị của biểu thức \\(B = 2(4^2 - 2 \\cdot 4,1) + 1,25 : 5\\) là:",
+      "generalfeedback": "Ta có: \\(4^2 = 16\\); \\(2 \\cdot 4,1 = 8,2\\); \\(4^2 - 2 \\cdot 4,1 = 16 - 8,2 = 7,8\\); \\(2 \\cdot 7,8 = 15,6\\); \\(1,25 : 5 = 0,25\\). Vậy \\(B = 15,6 + 0,25 = 15,85\\).",
+      "answers": [
+        {
+          "text": "\\(15,85\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(15,6\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(16,1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(7,85\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán tổng hợp chương VII",
+      "questiontext": "Tìm số thập phân \\(x\\), biết: \\(x - 5,01 = 7,02 - 2 \\cdot 1,5\\). Giá trị của \\(x\\) là: (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Ta có: \\(x - 5,01 = 7,02 - 3 \\Rightarrow x - 5,01 = 4,02 \\Rightarrow x = 4,02 + 5,01 = 9,03\\).",
+      "answers": [
+        {
+          "text": "9.03",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống kiến thức chương VII về số thập phân",
+      "questiontext": "Để thực hiện phép tính \\(3,1 - 2,51\\) trên máy tính cầm tay theo hướng dẫn trong SGK, thứ tự các phím cần bấm là:",
+      "generalfeedback": "Theo bảng hướng dẫn ở Góc công nghệ thông tin, để thực hiện phép tính \\(3,1 - 2,51\\), ta bấm lần lượt các nút: 3, dấu chấm (.), 1, dấu trừ (-), 2, dấu chấm (.), 5, 1, dấu bằng (=).",
+      "answers": [
+        {
+          "text": "3 . 1 - 2 . 5 1 =",
+          "fraction": 100
+        },
+        {
+          "text": "3 , 1 - 2 , 5 1 =",
+          "fraction": 0
+        },
+        {
+          "text": "3 . 1 - 2 . 5 1",
+          "fraction": 0
+        },
+        {
+          "text": "3 1 - 2 5 1 =",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Hệ thống kiến thức chương VII về số thập phân",
+      "questiontext": "Hãy ghép mỗi phép tính ở cột bên trái với kết quả tương ứng ở cột bên phải khi thực hiện tính toán trên máy tính cầm tay:",
+      "generalfeedback": "Thực hiện các phép tính: \\(3,1 - 2,51 = 0,59\\); \\(78,74 : 6,35 = 12,4\\); \\(234,905 + 36,058 = 270,963\\).",
+      "subquestions": [
+        {
+          "question": "\\(3,1 - 2,51\\)",
+          "answer": "\\(0,59\\)"
+        },
+        {
+          "question": "\\(78,74 : 6,35\\)",
+          "answer": "\\(12,4\\)"
+        },
+        {
+          "question": "\\(234,905 + 36,058\\)",
+          "answer": "\\(270,963\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_081",
+      "questiontext": "Làm tròn số \\(152,025\\) đến hàng chục, ta được kết quả là:",
+      "generalfeedback": "Hàng chục của số \\(152,025\\) là chữ số 5. Chữ số ngay sau nó (ở hàng đơn vị) là 2 (< 5), nên ta giữ nguyên chữ số hàng chục và thay chữ số hàng đơn vị bằng chữ số 0, bỏ đi toàn bộ phần thập phân. Kết quả là 150.",
+      "answers": [
+        {
+          "text": "150",
+          "fraction": 100
+        },
+        {
+          "text": "152",
+          "fraction": 0
+        },
+        {
+          "text": "160",
+          "fraction": 0
+        },
+        {
+          "text": "152,03",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_081",
+      "questiontext": "Khẳng định: \"Làm tròn số \\(15\\ 025\\ 796\\) đến hàng nghìn, ta được số \\(15\\ 026\\ 000\\)\" đúng hay sai?",
+      "generalfeedback": "Chữ số hàng nghìn của số \\(15\\ 025\\ 796\\) là 5. Chữ số ngay sau nó (hàng trăm) là 7 (\\(\\ge 5\\)) nên ta cộng thêm 1 đơn vị vào chữ số hàng nghìn và thay các chữ số ở hàng trăm, hàng chục, hàng đơn vị bằng các chữ số 0. Kết quả là \\(15\\ 026\\ 000\\). Do đó khẳng định trên là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_081",
+      "questiontext": "Khi làm tròn số thập phân \\(127,459\\) đến hàng đơn vị, ta được kết quả là bao nhiêu?",
+      "generalfeedback": "Hàng đơn vị của số \\(127,459\\) là chữ số 7. Chữ số ngay sau nó (hàng phần mười) là 4 (< 5), nên ta giữ nguyên chữ số hàng đơn vị và bỏ phần thập phân. Kết quả là 127.",
+      "answers": [
+        {
+          "text": "127",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_086",
+      "questiontext": "Một con rô-bốt có giá niêm yết là \\(300\\ 000\\) đồng, được khuyến mại giảm giá \\(15\\%\\). Số tiền được giảm giá khi mua con rô-bốt đó là bao nhiêu đồng? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Số tiền được giảm giá khi mua con rô-bốt là: \\(300\\ 000 \\cdot 15\\% = 300\\ 000 \\cdot \\frac{15}{100} = 45\\ 000\\) (đồng).",
+      "answers": [
+        {
+          "text": "45000",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_086",
+      "questiontext": "Cầu Bạch Đằng có tổng chiều dài khoảng \\(5,4\\text{ km}\\). Nếu vẽ trên một bản đồ có tỉ lệ xích \\(1 : 50\\ 000\\) thì chiều dài của cầu Bạch Đằng trên bản đồ đó là:",
+      "generalfeedback": "Đổi: \\(5,4\\text{ km} = 540\\ 000\\text{ cm}\\). Chiều dài cầu Bạch Đằng trên bản đồ có tỉ lệ xích \\(1 : 50\\ 000\\) là: \\(540\\ 000 : 50\\ 000 = 10,8\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "\\(10,8\\text{ cm}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(5,4\\text{ cm}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2,7\\text{ cm}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(1,08\\text{ cm}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Giải bài toán tổng hợp chương VII",
+      "questiontext": "Trong biểu thức \\(15,3 - 21,5 - 3 \\cdot 1,5\\), thứ tự thực hiện các phép tính đúng là:",
+      "generalfeedback": "Trong biểu thức không có dấu ngoặc, ta thực hiện phép nhân \\(3 \\cdot 1,5\\) trước, sau đó thực hiện các phép trừ theo thứ tự từ trái sang phải.",
+      "answers": [
+        {
+          "text": "Thực hiện phép nhân trước, sau đó thực hiện các phép trừ từ trái sang phải",
+          "fraction": 100
+        },
+        {
+          "text": "Thực hiện các phép trừ từ trái sang phải trước, sau đó thực hiện phép nhân",
+          "fraction": 0
+        },
+        {
+          "text": "Thực hiện các phép tính lần lượt từ phải sang trái",
+          "fraction": 0
+        },
+        {
+          "text": "Thực hiện phép trừ \\(21,5 - 3\\) trước, sau đó nhân với \\(1,5\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Giải bài toán tổng hợp chương VII",
+      "questiontext": "Để tính giá trị của biểu thức \\(2(4^2 - 2 \\cdot 4,1) + 1,25 : 5\\), ta thực hiện tính trong ngoặc trước: \\(4^2 - 2 \\cdot 4,1 =\\) [[1]]. Sau đó nhân kết quả với 2 ta được [[2]], rồi cộng với kết quả của phép chia \\(1,25 : 5 = 0,25\\) để được kết quả cuối cùng là \\(15,85\\).",
+      "generalfeedback": "Ta có: \\(4^2 - 2 \\cdot 4,1 = 16 - 8,2 = 7,8\\). Nhân với 2: \\(2 \\cdot 7,8 = 15,6\\). Cuối cùng: \\(15,6 + 0,25 = 15,85\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "7,8"
+        },
+        {
+          "group": 1,
+          "text": "15,6"
+        },
+        {
+          "group": 1,
+          "text": "8,2"
+        },
+        {
+          "group": 1,
+          "text": "16"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán tổng hợp chương VII",
+      "questiontext": "Tìm số thập phân \\(x\\), biết: \\(x : 2,5 = 1,02 + 3 \\cdot 1,5\\). Giá trị của \\(x\\) là: (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Ta có vế phải: \\(1,02 + 3 \\cdot 1,5 = 1,02 + 4,5 = 5,52\\). Suy ra \\(x = 5,52 \\cdot 2,5 = 13,8\\).",
+      "answers": [
+        {
+          "text": "13.8",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ tự học môn Toán, bạn Nam gặp một bài toán tính giá trị biểu thức: \\(B = 2(4^2 - 2 \\cdot 4,1) + 1,25 : 5\\). Khi tính toán lần đầu, Nam ra kết quả là \\(16,1\\) trong khi đáp án đúng là \\(15,85\\). Để thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập, bạn Nam nên hành động như thế nào?",
+      "generalfeedback": "Hành vi thể hiện phẩm chất luôn cố gắng vươn lên đạt kết quả tốt trong học tập là kiên trì, tự giác rà soát lại từng bước thực hiện phép tính (lũy thừa, nhân, trừ trong ngoặc, chia rồi đến cộng) để hiểu rõ và khắc phục lỗi sai của bản thân.",
+      "answers": [
+        {
+          "text": "Kiên trì kiểm tra lại từng bước tính lũy thừa, phép nhân trong ngoặc và thứ tự thực hiện phép cộng, phép chia để tự tìm ra chỗ sai và sửa lại",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài toán vì cho rằng biểu thức có nhiều phép tính số thập phân quá phức tạp và mất thời gian",
+          "fraction": 0
+        },
+        {
+          "text": "Chép ngay kết quả đúng từ bài của bạn bên cạnh để nộp bài cho kịp giờ mà không cần hiểu lý do vì sao mình làm sai",
+          "fraction": 0
+        },
+        {
+          "text": "Cho rằng kết quả chênh lệch ít nên không cần sửa lại và chuyển sang làm việc khác",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Bạn Hùng gặp một bài toán tìm \\(x\\) với số thập phân khó và mất nhiều thời gian nhưng chưa ra kết quả. Khẳng định: \"Hành động Hùng kiên trì thử lại các phép tính, tự đối chiếu với các ví dụ trong SGK để hoàn thành bài tập thể hiện phẩm chất luôn cố gắng vươn lên trong học tập\" đúng hay sai?",
+      "generalfeedback": "Việc kiên trì tự tìm cách giải quyết khó khăn trong học tập thông qua tham khảo SGK và thử lại phép tính là minh chứng rõ nét cho phẩm chất nỗ lực, cố gắng vươn lên. Khẳng định trên là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_03",
+      "questiontext": "Nhân dịp năm học mới, bạn Việt cùng mẹ đến siêu thị mua một con rô-bốt đồ chơi có giá niêm yết là \\(300\\ 000\\) đồng và đang được khuyến mại giảm giá \\(15\\%\\). Để thể hiện ý thức vận dụng kiến thức đã học vào đời sống hằng ngày, bạn Việt nên thực hiện hành động nào sau đây?",
+      "generalfeedback": "Hành vi thể hiện ý thức vận dụng kiến thức vào đời sống là chủ động áp dụng các phép tính về tỉ số phần trăm và số thập phân đã học vào việc tính toán chi tiêu thực tế, hỗ trợ gia đình kiểm tra hóa đơn mua sắm.",
+      "answers": [
+        {
+          "text": "Chủ động sử dụng phép tính tỉ số phần trăm về số thập phân để tính số tiền được giảm giá và số tiền mẹ cần thanh toán, giúp mẹ kiểm tra lại hóa đơn",
+          "fraction": 100
+        },
+        {
+          "text": "Không quan tâm đến giá tiền và mức giảm giá vì cho rằng việc tính toán hoàn toàn là trách nhiệm của nhân viên thu ngân",
+          "fraction": 0
+        },
+        {
+          "text": "Yêu cầu mẹ mua thêm nhiều đồ chơi khác vì nghĩ rằng hàng giảm giá thì không tốn kém tiền bạc",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ ghi nhớ công thức tính tỉ số phần trăm để làm bài kiểm tra trên lớp chứ không quan tâm đến các tình huống mua sắm thực tế",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Sau bài kiểm tra chương VII về số thập phân, để tự đặt mục tiêu học tập rèn luyện hiệu quả, bạn An xây dựng kế hoạch: Trước tiên, cần [[1]] các quy tắc thứ tự phép tính và làm tròn số. Sau đó, tiến hành [[2]] các bài tập tính toán còn làm sai để khắc phục điểm yếu.",
+      "generalfeedback": "Kế hoạch tự đặt mục tiêu học tập hợp lý bao gồm việc chủ động ôn tập, hệ thống lại kiến thức cốt lõi và tích cực giải lại các bài tập đã làm sai.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "hệ thống lại"
+        },
+        {
+          "group": 1,
+          "text": "giải lại"
+        },
+        {
+          "group": 1,
+          "text": "bỏ qua"
+        },
+        {
+          "group": 1,
+          "text": "học thuộc lòng vẹt"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_01",
+      "questiontext": "Cho đoạn thông tin sau (trích Bài 7.31 SGK):\n\"Cầu Bạch Đằng nối thành phố Hải Phòng và tỉnh Quảng Ninh được khánh thành ngày 1-9-2018. Đây là một trong những cây cầu lớn nhất Việt Nam, đứng thứ ba trong số bảy cây cầu dây văng có nhiều nhịp nhất thế giới. Cầu có tổng chiều dài khoảng \\(5,4\\text{ km}\\). Nếu vẽ trên bản đồ tỉ lệ xích \\(1 : 100\\ 000\\) thì cầu Bạch Đằng dài bao nhiêu xentimét?\"\nĐể giải quyết nhiệm vụ tính chiều dài của cầu Bạch Đằng trên bản đồ, học sinh cần xác định và chọn lọc những thông tin cần thiết nào?",
+      "generalfeedback": "Để tính chiều dài của vật thể trên bản đồ, thông tin cần xác định và sử dụng là kích thước thực tế (chiều dài thực tế \\(5,4\\text{ km}\\)) và tỉ lệ xích của bản đồ (\\(1 : 100\\ 000\\)). Các thông tin về ngày khánh thành, thứ hạng hay địa danh chỉ là bối cảnh thực tế.",
+      "answers": [
+        {
+          "text": "Chiều dài thực tế của cầu (\\(5,4\\text{ km}\\)) và tỉ lệ xích của bản đồ (\\(1 : 100\\ 000\\))",
+          "fraction": 100
+        },
+        {
+          "text": "Ngày khánh thành cầu (1-9-2018) và chiều dài thực tế của cầu (\\(5,4\\text{ km}\\))",
+          "fraction": 0
+        },
+        {
+          "text": "Thứ hạng của cây cầu trên thế giới và tỉnh thành cầu nối liền (Hải Phòng, Quảng Ninh)",
+          "fraction": 0
+        },
+        {
+          "text": "Ngày khánh thành cầu (1-9-2018) và tỉ lệ xích của bản đồ (\\(1 : 100\\ 000\\))",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_05",
+      "questiontext": "Khi làm tròn số \\(152,025\\) đến hàng chục, hai bạn đưa ra ý kiến như sau:\n- Bạn An: \"Kết quả là \\(150\\)\".\n- Bạn Bình: \"Kết quả là \\(152\\) vì bỏ đi phần thập phân\".\nĐánh giá nào sau đây về lập luận của hai bạn là đúng?",
+      "generalfeedback": "Lập luận của bạn An là chính xác. Theo quy tắc làm tròn số thập phân đến hàng chục: xác định chữ số hàng chục là 5; chữ số ngay sau hàng làm tròn là chữ số 2 ở hàng đơn vị (nhỏ hơn 5) nên ta giữ nguyên chữ số hàng chục, thay chữ số ở hàng đơn vị bằng chữ số 0 và bỏ phần thập phân, được kết quả 150.",
+      "answers": [
+        {
+          "text": "Bạn An đúng, vì hàng làm tròn là hàng chục (chữ số 5), chữ số ngay sau nó là 2 (< 5) nên ta giữ nguyên chữ số 5 và thay chữ số hàng đơn vị bằng chữ số 0, bỏ đi phần thập phân",
+          "fraction": 100
+        },
+        {
+          "text": "Bạn Bình đúng, vì khi làm tròn bất kì số nào thì ta chỉ cần bỏ đi toàn bộ phần thập phân là xong",
+          "fraction": 0
+        },
+        {
+          "text": "Bạn An đúng, vì mọi số khi làm tròn đến hàng chục đều phải có kết quả tận cùng là hai chữ số 0",
+          "fraction": 0
+        },
+        {
+          "text": "Cả hai bạn đều sai, vì chữ số ngay sau hàng chục là 2 nên phải cộng thêm 1 đơn vị vào chữ số hàng chục thành 160",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_05",
+      "questiontext": "Hãy ghép mỗi lập luận làm tròn số ở cột bên trái với kết luận toán học chính xác tương ứng ở cột bên phải:",
+      "generalfeedback": "Quy tắc làm tròn: Chữ số ngay sau hàng làm tròn nếu nhỏ hơn 5 thì giữ nguyên; nếu lớn hơn hoặc bằng 5 thì cộng thêm 1 vào chữ số hàng làm tròn.",
+      "subquestions": [
+        {
+          "question": "Làm tròn số \\(127,459\\) đến hàng phần mười (chữ số sau hàng làm tròn là 5)",
+          "answer": "Cộng thêm 1 vào chữ số hàng phần mười, kết quả là \\(127,5\\)"
+        },
+        {
+          "question": "Làm tròn số \\(152,025\\) đến hàng chục (chữ số sau hàng làm tròn là 2)",
+          "answer": "Giữ nguyên chữ số hàng chục và thay chữ số hàng đơn vị bằng 0, kết quả là \\(150\\)"
+        },
+        {
+          "question": "Làm tròn số \\(15\\ 025\\ 796\\) đến hàng nghìn (chữ số sau hàng làm tròn là 7)",
+          "answer": "Cộng thêm 1 vào chữ số hàng nghìn và thay các chữ số sau bằng 0, kết quả là \\(15\\ 026\\ 000\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_04",
+      "questiontext": "Một nhóm học sinh muốn vẽ lại sơ đồ cây cầu Bạch Đằng trên tập san học tập với tỉ lệ xích \\(1 : 100\\ 000\\). Biết rằng chiều dài thực tế của cây cầu là \\(5,4\\text{ km}\\). Để tính chính xác chiều dài cần vẽ của cây cầu theo đơn vị xentimét (\\(\\text{cm}\\)), nhóm học sinh cần áp dụng tuần tự các kiến thức toán học nào sau đây?",
+      "generalfeedback": "Kiến thức toán học tương thích cần sử dụng gồm: 1) Quy tắc đổi đơn vị đo độ dài (từ km sang cm: \\(5,4\\text{ km} = 540\\ 000\\text{ cm}\\)); 2) Kiến thức về tỉ lệ xích bản đồ (độ dài trên bản đồ bằng độ dài thực tế nhân với tỉ lệ xích: \\(540\\ 000 \\times \\frac{1}{100\\ 000} = 5,4\\text{ cm}\\)).",
+      "answers": [
+        {
+          "text": "Đổi đơn vị đo độ dài từ kilômét sang xentimét (\\(5,4\\text{ km} = 540\\ 000\\text{ cm}\\)), sau đó áp dụng công thức tỉ lệ xích bằng cách lấy độ dài thực tế chia cho \\(100\\ 000\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Áp dụng công thức tính tỉ số phần trăm của số thập phân, sau đó làm tròn kết quả đến hàng phần mười",
+          "fraction": 0
+        },
+        {
+          "text": "Lấy trực tiếp \\(5,4\\) nhân với \\(100\\ 000\\), sau đó chia cho 100 để đổi sang đơn vị xentimét",
+          "fraction": 0
+        },
+        {
+          "text": "Sử dụng quy tắc làm tròn số thập phân đến hàng đơn vị rồi nhân với tỉ lệ xích \\(1 : 100\\ 000\\)",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,849 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 36,
+    "metadata_used": {
+      "Công thức diện tích xung quanh S_xq = 2(a+b)h": 2,
+      "Công thức thể tích V = abc của hình hộp chữ nhật và V = a^3 của hình lập phương": 2,
+      "YCCD_TOAN7_060": 1,
+      "YCCD_TOAN7_061": 1,
+      "YCCD_TOAN7_062": 2,
+      "Tính diện tích xung quanh và thể tích của hình hộp chữ nhật": 1,
+      "hình lập phương trong các bài toán thực tế": 1
+    },
+    "types_used": {
+      "multichoice": 10,
+      "numerical": 12,
+      "calculated": 3,
+      "calculatedsimple": 3,
+      "gapselect": 1,
+      "matching": 1,
+      "truefalse": 2,
+      "ddwtos": 2,
+      "shortanswer": 2
+    },
+    "total": 36
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_060",
+        "reason": "Giải quyết các vấn đề thực tiễn liên quan đến thể tích hình hộp chữ nhật."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_061",
+        "reason": "Giải quyết các vấn đề thực tiễn liên quan đến thể tích hình lập phương."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_062",
+        "reason": "Giải quyết các vấn đề thực tiễn liên quan đến diện tích xung quanh hình hộp chữ nhật."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_063",
+        "reason": "Giải quyết các vấn đề thực tiễn liên quan đến diện tích xung quanh hình lập phương."
+      },
+      {
+        "metadata_code": "Công thức diện tích xung quanh S_xq = 2(a+b)h",
+        "reason": "Nhận biết và vận dụng công thức diện tích xung quanh S_xq = 2(a+b)h."
+      },
+      {
+        "metadata_code": "Công thức thể tích V = abc của hình hộp chữ nhật và V = a^3 của hình lập phương",
+        "reason": "Nhận biết và vận dụng công thức thể tích V = abc và V = a^3."
+      },
+      {
+        "metadata_code": "Tính diện tích xung quanh và thể tích của hình hộp chữ nhật",
+        "reason": "Rèn luyện kỹ năng tính diện tích xung quanh và thể tích hình hộp chữ nhật."
+      },
+      {
+        "metadata_code": "hình lập phương trong các bài toán thực tế",
+        "reason": "Rèn luyện kỹ năng giải các bài toán thực tế liên quan đến hình lập phương."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học thuần túy về hình học trực quan, không có nội dung trực tiếp liên quan đến công cụ tin học/số."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Bài học không chứa yếu tố ứng dụng trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức diện tích xung quanh S_xq = 2(a+b)h",
+      "questiontext": "Công thức tính diện tích xung quanh \\(S_{xq}\\) của hình hộp chữ nhật có chiều dài \\(a\\), chiều rộng \\(b\\) và chiều cao \\(h\\) (cùng đơn vị đo) là:",
+      "generalfeedback": "Diện tích xung quanh của hình hộp chữ nhật bằng tích của chu vi đáy với chiều cao: \\(S_{xq} = 2(a + b)h\\).",
+      "answers": [
+        {
+          "text": "\\(S_{xq} = 2(a + b)h\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(S_{xq} = (a + b)h\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(S_{xq} = abh\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(S_{xq} = 2(a + b) + h\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức thể tích V = abc của hình hộp chữ nhật và V = a^3 của hình lập phương",
+      "questiontext": "Công thức tính thể tích \\(V\\) của hình lập phương có cạnh bằng \\(a\\) là:",
+      "generalfeedback": "Thể tích hình lập phương có cạnh \\(a\\) được tính bằng công thức \\(V = a^3\\).",
+      "answers": [
+        {
+          "text": "\\(V = a^3\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(V = 4a^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(V = 6a^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(V = 3a\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_062",
+      "imgs": [
+        "_page_3_Figure_9.jpeg"
+      ],
+      "questiontext": "Một chiếc khay nhựa đựng đồ có dạng hình hộp chữ nhật với chiều dài 27 cm, chiều rộng 20 cm và chiều cao 10 cm như hình vẽ [img:_page_3_Figure_9.jpeg]. Tính diện tích xung quanh của chiếc khay nhựa đó. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Diện tích xung quanh của chiếc khay nhựa dạng hình hộp chữ nhật là: \\(S_{xq} = 2 \\cdot (27 + 20) \\cdot 10 = 940\\) (cm\\(^2\\)).",
+      "answers": [
+        {
+          "text": "940",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_060",
+      "imgs": [
+        "_page_4_Picture_16.jpeg"
+      ],
+      "questiontext": "Một hộp sữa có dạng hình hộp chữ nhật với các kích thước đáy là 10 cm, 10 cm và chiều cao 15 cm như hình vẽ [img:_page_4_Picture_16.jpeg]. Tính thể tích của hộp sữa đó. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Thể tích hộp sữa hình hộp chữ nhật là: \\(V = 10 \\cdot 10 \\cdot 15 = 1500\\) (cm\\(^3\\)).",
+      "answers": [
+        {
+          "text": "1500",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_062",
+      "imgs": [
+        "_page_3_Picture_20.jpeg"
+      ],
+      "questiontext": "Bác Tú thuê thợ sơn xung quanh bốn mặt ngoài của thành bể nước [img:_page_3_Picture_20.jpeg] có dạng hình hộp chữ nhật với chiều dài 3 m, chiều rộng 2 m, chiều cao 1,5 m với giá 20 000 đồng/m\\(^2\\). Hỏi bác Tú phải trả chi phí sơn là bao nhiêu đồng? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Diện tích xung quanh bốn mặt thành bể là: \\(S_{xq} = 2 \\cdot (3 + 2) \\cdot 1,5 = 15\\) (m\\(^2\\)). Chi phí bác Tú phải trả là: \\(15 \\cdot 20\\,000 = 300\\,000\\) (đồng).",
+      "answers": [
+        {
+          "text": "300000",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "hình lập phương trong các bài toán thực tế",
+      "questiontext": "Một hình lập phương có diện tích xung quanh bằng 100 cm\\(^2\\). Thể tích của hình lập phương đó bằng bao nhiêu cm\\(^3\\)? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Diện tích xung quanh hình lập phương \\(S_{xq} = 4a^2 = 100 \\Rightarrow a^2 = 25 \\Rightarrow a = 5\\) cm. Thể tích hình lập phương là \\(V = a^3 = 5^3 = 125\\) (cm\\(^3\\)).",
+      "answers": [
+        {
+          "text": "125",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_061",
+      "questiontext": "Một khối rubik dạng hình lập phương có độ dài cạnh là {a} cm. Tính thể tích của khối rubik đó theo cm\\(^3\\). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Thể tích hình lập phương cạnh {a} cm được tính theo công thức \\(V = a^3 =\\) {a}\\(^3\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 3.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "pow({a}, 3)",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "thong_hieu",
+      "metadata_code": "Tính diện tích xung quanh và thể tích của hình hộp chữ nhật",
+      "questiontext": "Một cái thùng carton dạng hình hộp chữ nhật có chiều dài {a} cm, chiều rộng {b} cm và chiều cao h cm. Tính diện tích xung quanh của thùng carton đó. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Diện tích xung quanh hình hộp chữ nhật được tính theo công thức \\(S_{xq} = 2(a + b)h\\). Với chiều dài {a} cm, chiều rộng {b} cm và chiều cao {h} cm, diện tích xung quanh là \\(2 \\cdot (\\){a} + {b}\\() \\cdot\\) {h}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 10.0,
+          "max": 50.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 10.0,
+          "max": 40.0,
+          "decimals": 0
+        },
+        {
+          "name": "h",
+          "min": 10.0,
+          "max": 30.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "2*({a}+{b})*{h}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức diện tích xung quanh S_xq = 2(a+b)h",
+      "questiontext": "Diện tích xung quanh của hình hộp chữ nhật bằng tích của [[1]] đáy với [[2]].",
+      "generalfeedback": "Diện tích xung quanh của hình hộp chữ nhật bằng tích của chu vi đáy với chiều cao.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "chu vi"
+        },
+        {
+          "group": 1,
+          "text": "diện tích"
+        },
+        {
+          "group": 1,
+          "text": "chiều cao"
+        },
+        {
+          "group": 1,
+          "text": "đường chéo"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức thể tích V = abc của hình hộp chữ nhật và V = a^3 của hình lập phương",
+      "questiontext": "Hãy ghép mỗi công thức ở cột bên trái với tên gọi tương ứng ở cột bên phải (với \\(a, b, c\\) là các kích thước, \\(h\\) là chiều cao):",
+      "generalfeedback": "Công thức diện tích xung quanh HHCN là \\(S_{xq} = 2(a+b)h\\), thể tích HHCN là \\(V = abc\\), thể tích HLP là \\(V = a^3\\).",
+      "subquestions": [
+        {
+          "question": "\\(S_{xq} = 2(a+b)h\\)",
+          "answer": "Diện tích xung quanh hình hộp chữ nhật"
+        },
+        {
+          "question": "\\(V = abc\\)",
+          "answer": "Thể tích hình hộp chữ nhật"
+        },
+        {
+          "question": "\\(V = a^3\\)",
+          "answer": "Thể tích hình lập phương"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_063",
+      "questiontext": "Một chiếc thùng rác inox có dạng hình lập phương với độ dài cạnh là 30 cm. Diện tích xung quanh của chiếc thùng rác đó là:",
+      "generalfeedback": "Diện tích xung quanh của hình lập phương được tính theo công thức \\(S_{xq} = 4a^2 = 4 \\cdot 30^2 = 3600\\) (cm\\(^2\\)).",
+      "answers": [
+        {
+          "text": "3600 cm\\(^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "5400 cm\\(^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "27000 cm\\(^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "1200 cm\\(^2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_060",
+      "imgs": [
+        "_page_5_Picture_4.jpeg"
+      ],
+      "questiontext": "Một chiếc thùng giữ nhiệt [img:_page_5_Picture_4.jpeg] có lòng trong dạng hình hộp chữ nhật với chiều dài 50 cm, chiều rộng 30 cm, chiều cao 30 cm. Dung tích (thể tích lòng trong) của chiếc thùng giữ nhiệt đó bằng bao nhiêu lít? (Biết 1 dm\\(^3\\) = 1 lít. Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Thể tích lòng trong của thùng giữ nhiệt là: \\(V = 50 \\cdot 30 \\cdot 30 = 45000\\) cm\\(^3\\) = 45 dm\\(^3\\) = 45 lít.",
+      "answers": [
+        {
+          "text": "45",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_060",
+      "imgs": [
+        "_page_6_Picture_1.jpeg"
+      ],
+      "questiontext": "Một xe đông lạnh [img:_page_6_Picture_1.jpeg] có thùng hàng dạng hình hộp chữ nhật với chiều dài 5,6 m, chiều rộng 2 m và chiều cao 2 m. Tính thể tích của lòng thùng hàng đó theo m\\(^3\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Thể tích lòng thùng hàng xe đông lạnh là: \\(V = 5,6 \\cdot 2 \\cdot 2 = 22,4\\) (m\\(^3\\)).",
+      "answers": [
+        {
+          "text": "22.4",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_060",
+      "questiontext": "Một bể cá cảnh dạng hình hộp chữ nhật có chiều dài {a} cm, chiều rộng {b} cm và chiều cao h cm. Tính thể tích của bể cá đó theo cm\\(^3\\). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Thể tích của bể cá hình hộp chữ nhật được tính theo công thức \\(V = a \\cdot b \\cdot h =\\) {a} \\(\\cdot\\) {b} \\(\\cdot\\) {h}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 20.0,
+          "max": 60.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 10.0,
+          "max": 40.0,
+          "decimals": 0
+        },
+        {
+          "name": "h",
+          "min": 15.0,
+          "max": 50.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*{b}*{h}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_063",
+      "questiontext": "Một bao bì sản phẩm dạng hình lập phương có độ dài cạnh bằng {a} cm. Tính diện tích xung quanh của vỏ bao bì đó theo cm\\(^2\\). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Diện tích xung quanh của bao bì hình lập phương là \\(S_{xq} = 4a^2 = 4 \\cdot\\) {a}\\(^2\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 5.0,
+          "max": 25.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "4*pow({a}, 2)",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức diện tích xung quanh S_xq = 2(a+b)h",
+      "questiontext": "Diện tích xung quanh của hình lập phương có cạnh bằng \\(a\\) được tính theo công thức \\(S_{xq} = 6a^2\\). Đúng hay Sai?",
+      "generalfeedback": "Phát biểu trên là Sai. Công thức diện tích xung quanh của hình lập phương là \\(S_{xq} = 4a^2\\), còn \\(6a^2\\) là diện tích toàn phần.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Tính diện tích xung quanh và thể tích của hình hộp chữ nhật",
+      "questiontext": "Để tính thể tích của hình hộp chữ nhật có ba kích thước \\(a, b, c\\), ta dùng công thức \\(V =\\) [[1]]. Để tính diện tích xung quanh của nó, ta dùng công thức \\(S_{xq} =\\) [[2]].",
+      "generalfeedback": "Công thức thể tích hình hộp chữ nhật là \\(V = abc\\), công thức diện tích xung quanh là \\(S_{xq} = 2(a + b)h\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "abc"
+        },
+        {
+          "group": 1,
+          "text": "2(a + b)h"
+        },
+        {
+          "group": 1,
+          "text": "a^3"
+        },
+        {
+          "group": 1,
+          "text": "4a^2"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_061",
+      "imgs": [
+        "_page_4_Picture_2.jpeg"
+      ],
+      "questiontext": "Người ta xếp các hộp đồ chơi dạng hình lập phương nhỏ cạnh 1 dm vào một chiếc hộp carton [img:_page_4_Picture_2.jpeg] hình hộp chữ nhật. Hộp carton xếp vừa đúng 4 lớp, mỗi lớp có 10 hình lập phương nhỏ. Thể tích của chiếc hộp carton đó bằng bao nhiêu dm\\(^3\\)? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Tổng số hình lập phương nhỏ trong hộp carton là: \\(4 \\cdot 10 = 40\\) (hình). Mỗi hình lập phương có thể tích 1 dm\\(^3\\), nên thể tích chiếc hộp carton là 40 dm\\(^3\\).",
+      "answers": [
+        {
+          "text": "40",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính diện tích xung quanh và thể tích của hình hộp chữ nhật",
+      "imgs": [
+        "_page_6_Picture_5.jpeg"
+      ],
+      "questiontext": "Một hộp sữa tươi [img:_page_6_Picture_5.jpeg] dạng hình hộp chữ nhật có dung tích 1 lít (1000 cm\\(^3\\)), chiều dài 10 cm và chiều cao 20 cm. Tính chiều rộng của hộp sữa tươi đó theo cm. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Thể tích hộp sữa là \\(V = a \\cdot b \\cdot h \\Rightarrow 1000 = 10 \\cdot b \\cdot 20 \\Rightarrow 200b = 1000 \\Rightarrow b = 5\\) (cm).",
+      "answers": [
+        {
+          "text": "5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức thể tích V = abc của hình hộp chữ nhật và V = a^3 của hình lập phương",
+      "questiontext": "Tên gọi của đại lượng \\(V\\) trong công thức \\(V = a^3\\) của hình lập phương là gì?",
+      "generalfeedback": "Trong công thức \\(V = a^3\\), ký hiệu \\(V\\) biểu diễn cho thể tích của hình lập phương.",
+      "answers": [
+        {
+          "text": "thể tích",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_063",
+      "questiontext": "Một chiếc thùng rác inox có dạng hình lập phương với độ dài cạnh là 30 cm. Diện tích xung quanh của chiếc thùng rác đó là:",
+      "generalfeedback": "Diện tích xung quanh của hình lập phương được tính theo công thức \\(S_{xq} = 4a^2 = 4 \\cdot 30^2 = 3600\\) (cm\\(^2\\)).",
+      "answers": [
+        {
+          "text": "3600 cm\\(^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "5400 cm\\(^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "27000 cm\\(^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "1200 cm\\(^2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_060",
+      "imgs": [
+        "_page_5_Picture_4.jpeg"
+      ],
+      "questiontext": "Một chiếc thùng giữ nhiệt [img:_page_5_Picture_4.jpeg] có lòng trong dạng hình hộp chữ nhật với chiều dài 50 cm, chiều rộng 30 cm, chiều cao 30 cm. Dung tích (thể tích lòng trong) của chiếc thùng giữ nhiệt đó bằng bao nhiêu lít? (Biết 1 dm\\(^3\\) = 1 lít. Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Thể tích lòng trong của thùng giữ nhiệt là: \\(V = 50 \\cdot 30 \\cdot 30 = 45000\\) cm\\(^3\\) = 45 dm\\(^3\\) = 45 lít.",
+      "answers": [
+        {
+          "text": "45",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_060",
+      "imgs": [
+        "_page_6_Picture_1.jpeg"
+      ],
+      "questiontext": "Một xe đông lạnh [img:_page_6_Picture_1.jpeg] có thùng hàng dạng hình hộp chữ nhật với chiều dài 5,6 m, chiều rộng 2 m và chiều cao 2 m. Tính thể tích của lòng thùng hàng đó theo m\\(^3\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Thể tích lòng thùng hàng xe đông lạnh là: \\(V = 5,6 \\cdot 2 \\cdot 2 = 22,4\\) (m\\(^3\\)).",
+      "answers": [
+        {
+          "text": "22.4",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_060",
+      "questiontext": "Một bể cá cảnh dạng hình hộp chữ nhật có chiều dài {a} cm, chiều rộng {b} cm và chiều cao h cm. Tính thể tích của bể cá đó theo cm\\(^3\\). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Thể tích của bể cá hình hộp chữ nhật được tính theo công thức \\(V = a \\cdot b \\cdot h =\\) {a} \\(\\cdot\\) {b} \\(\\cdot\\) {h}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 20.0,
+          "max": 60.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 10.0,
+          "max": 40.0,
+          "decimals": 0
+        },
+        {
+          "name": "h",
+          "min": 15.0,
+          "max": 50.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*{b}*{h}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_063",
+      "questiontext": "Một bao bì sản phẩm dạng hình lập phương có độ dài cạnh bằng {a} cm. Tính diện tích xung quanh của vỏ bao bì đó theo cm\\(^2\\). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Diện tích xung quanh của bao bì hình lập phương là \\(S_{xq} = 4a^2 = 4 \\cdot\\) {a}\\(^2\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 5.0,
+          "max": 25.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "4*pow({a}, 2)",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức diện tích xung quanh S_xq = 2(a+b)h",
+      "questiontext": "Diện tích xung quanh của hình lập phương có cạnh bằng \\(a\\) được tính theo công thức \\(S_{xq} = 6a^2\\). Đúng hay Sai?",
+      "generalfeedback": "Phát biểu trên là Sai. Công thức diện tích xung quanh của hình lập phương là \\(S_{xq} = 4a^2\\), còn \\(6a^2\\) là diện tích toàn phần.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Tính diện tích xung quanh và thể tích của hình hộp chữ nhật",
+      "questiontext": "Để tính thể tích của hình hộp chữ nhật có ba kích thước \\(a, b, c\\), ta dùng công thức \\(V =\\) [[1]]. Để tính diện tích xung quanh của nó, ta dùng công thức \\(S_{xq} =\\) [[2]].",
+      "generalfeedback": "Công thức thể tích hình hộp chữ nhật là \\(V = abc\\), công thức diện tích xung quanh là \\(S_{xq} = 2(a + b)h\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "abc"
+        },
+        {
+          "group": 1,
+          "text": "2(a + b)h"
+        },
+        {
+          "group": 1,
+          "text": "a^3"
+        },
+        {
+          "group": 1,
+          "text": "4a^2"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_061",
+      "imgs": [
+        "_page_4_Picture_2.jpeg"
+      ],
+      "questiontext": "Người ta xếp các hộp đồ chơi dạng hình lập phương nhỏ cạnh 1 dm vào một chiếc hộp carton [img:_page_4_Picture_2.jpeg] hình hộp chữ nhật. Hộp carton xếp vừa đúng 4 lớp, mỗi lớp có 10 hình lập phương nhỏ. Thể tích của chiếc hộp carton đó bằng bao nhiêu dm\\(^3\\)? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Tổng số hình lập phương nhỏ trong hộp carton là: \\(4 \\cdot 10 = 40\\) (hình). Mỗi hình lập phương có thể tích 1 dm\\(^3\\), nên thể tích chiếc hộp carton là 40 dm\\(^3\\).",
+      "answers": [
+        {
+          "text": "40",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính diện tích xung quanh và thể tích của hình hộp chữ nhật",
+      "imgs": [
+        "_page_6_Picture_5.jpeg"
+      ],
+      "questiontext": "Một hộp sữa tươi [img:_page_6_Picture_5.jpeg] dạng hình hộp chữ nhật có dung tích 1 lít (1000 cm\\(^3\\)), chiều dài 10 cm và chiều cao 20 cm. Tính chiều rộng của hộp sữa tươi đó theo cm. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Thể tích hộp sữa là \\(V = a \\cdot b \\cdot h \\Rightarrow 1000 = 10 \\cdot b \\cdot 20 \\Rightarrow 200b = 1000 \\Rightarrow b = 5\\) (cm).",
+      "answers": [
+        {
+          "text": "5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức thể tích V = abc của hình hộp chữ nhật và V = a^3 của hình lập phương",
+      "questiontext": "Tên gọi của đại lượng \\(V\\) trong công thức \\(V = a^3\\) của hình lập phương là gì?",
+      "generalfeedback": "Trong công thức \\(V = a^3\\), ký hiệu \\(V\\) biểu diễn cho thể tích của hình lập phương.",
+      "answers": [
+        {
+          "text": "thể tích",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Bạn Nam đang tính toán chi phí sơn bốn mặt xung quanh một bể nước hình hộp chữ nhật. Dù bài toán có nhiều bước tính toán và chuyển đổi đơn vị, Nam vẫn kiên trì kiểm tra lại từng phép tính để đảm bảo kết quả chính xác. Việc làm của Nam thể hiện phẩm chất nào?",
+      "generalfeedback": "Kiên trì, cẩn thận thực hiện đầy đủ các bước tính toán trong học tập thể hiện phẩm chất chăm chỉ.",
+      "answers": [
+        {
+          "text": "Chăm chỉ",
+          "fraction": 100
+        },
+        {
+          "text": "Trách nhiệm",
+          "fraction": 0
+        },
+        {
+          "text": "Trung thực",
+          "fraction": 0
+        },
+        {
+          "text": "Yêu nước",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_TRACHNHIEM",
+      "questiontext": "Khi thiết kế chiếc hộp carton hình hộp chữ nhật để đựng đồ dùng học tập chung cho cả lớp, bạn An đã chủ động đo đạc kỹ kích thước các vật dụng và tính toán thể tích chứa phù hợp để hộp chứa vừa vặn, gọn gàng. Việc làm của An thể hiện phẩm chất nào?",
+      "generalfeedback": "Chủ động hoàn thiện công việc chung của lớp với sự cẩn thận và chu đáo thể hiện phẩm chất trách nhiệm.",
+      "answers": [
+        {
+          "text": "Trách nhiệm",
+          "fraction": 100
+        },
+        {
+          "text": "Chăm chỉ",
+          "fraction": 0
+        },
+        {
+          "text": "Trung thực",
+          "fraction": 0
+        },
+        {
+          "text": "Dũng cảm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Để tự lập công thức tính diện tích xung quanh của hình lập phương, bạn Hoa tự chuẩn bị bìa cứng, vẽ hình khai triển của hình lập phương cạnh \\(a\\), đếm 4 mặt bên hình vuông và rút ra công thức \\(S_{xq} = 4a^2\\). Thao tác này thể hiện năng lực nào?",
+      "generalfeedback": "Tự giác tìm tòi, thực hành và rút ra kiến thức mới thể hiện Năng lực tự chủ và tự học.",
+      "answers": [
+        {
+          "text": "Năng lực tự chủ và tự học",
+          "fraction": 100
+        },
+        {
+          "text": "Năng lực giao tiếp và hợp tác",
+          "fraction": 0
+        },
+        {
+          "text": "Năng lực thể chất",
+          "fraction": 0
+        },
+        {
+          "text": "Năng lực thẩm mỹ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_GIAIQUYETVD",
+      "questiontext": "Một chiếc thùng giữ nhiệt dạng hình hộp chữ nhật bị hỏng một nắp phụ phía trên. Bạn Bình đã đề xuất phương án đo đạc lòng trong còn lại để tính dung tích thực tế tối đa có thể chứa an toàn. Ý tưởng của Bình thể hiện năng lực nào?",
+      "generalfeedback": "Đề xuất giải pháp mới linh hoạt để giải quyết tình huống thực tế thể hiện Năng lực giải quyết vấn đề và sáng tạo.",
+      "answers": [
+        {
+          "text": "Năng lực giải quyết vấn đề và sáng tạo",
+          "fraction": 100
+        },
+        {
+          "text": "Năng lực tự chủ và tự học",
+          "fraction": 0
+        },
+        {
+          "text": "Năng lực giao tiếp và hợp tác",
+          "fraction": 0
+        },
+        {
+          "text": "Năng lực văn hóa",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_02",
+      "questiontext": "Một người thợ muốn làm một bể cá bằng kính dạng hình hộp chữ nhật không có nắp đậy với chiều dài \\(a\\), chiều rộng \\(b\\) và chiều cao \\(h\\). Biểu thức toán học nào dưới đây mô tả chính xác tổng diện tích kính \\(S\\) cần dùng?",
+      "generalfeedback": "Bể cá không có nắp gồm 4 mặt xung quanh và 1 mặt đáy. Do đó tổng diện tích kính là: \\(S = S_{xq} + S_{\\text{đáy}} = 2(a + b)h + ab\\).",
+      "answers": [
+        {
+          "text": "\\(S = 2(a + b)h + ab\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(S = 2(a + b)h + 2ab\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(S = 2(a + b)h\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(S = abh\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_05",
+      "questiontext": "Bạn Minh sử dụng thước kẻ chia độ dài mm và kéo để cắt, vẽ chính xác hình khai triển trên bìa cứng rồi gấp thành chiếc hộp hình hộp chữ nhật có kích thước \\(5\\text{ cm} \\times 4\\text{ cm} \\times 3\\text{ cm}\\). Bạn Minh đã vận dụng năng lực nào?",
+      "generalfeedback": "Sử dụng thành thạo thước, kéo và mô hình phẳng để tạo hình khối thể hiện Năng lực sử dụng công cụ, phương tiện học toán.",
+      "answers": [
+        {
+          "text": "Năng lực sử dụng công cụ, phương tiện học toán",
+          "fraction": 100
+        },
+        {
+          "text": "Năng lực mô hình hóa toán học",
+          "fraction": 0
+        },
+        {
+          "text": "Năng lực tư duy và lập luận toán học",
+          "fraction": 0
+        },
+        {
+          "text": "Năng lực giao tiếp toán học",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

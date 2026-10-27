@@ -1,0 +1,938 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 37,
+    "metadata_used": {
+      "Hệ thống hóa kiến thức về hàm số y = ax^2": 6,
+      "YCCD_TOAN9_030": 6,
+      "PT bậc hai và định lí Viète": 4,
+      "YCCD_TOAN9_033": 4,
+      "Giải các bài tập trắc nghiệm và tự luận tổng hợp Chương VI": 9,
+      "YCCD_TOAN9_031": 1,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_TCTH_TUHOC_C2_04": 1,
+      "SUB_GQVD_DEXUAT_C2_02": 1,
+      "NLT_TOAN_C2_03_04": 1,
+      "NLT_TOAN_C2_03_05": 1,
+      "2.1TC2a_K9": 1,
+      "9.A3.1_2": 1
+    },
+    "types_used": {
+      "multichoice": 18,
+      "truefalse": 3,
+      "shortanswer": 3,
+      "numerical": 2,
+      "matching": 1,
+      "gapselect": 2,
+      "ddwtos": 2,
+      "calculated": 2,
+      "calculatedsimple": 2,
+      "calculatedmulti": 2
+    }
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN9_030",
+        "reason": "Đo lường qua các câu hỏi giải phương trình bậc hai một ẩn trong bài."
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_031",
+        "reason": "Đo lường qua câu hỏi yêu cầu sử dụng máy tính cầm tay để tính nghiệm phương trình bậc hai."
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_033",
+        "reason": "Đo lường qua các câu hỏi vận dụng định lí Viète để tính nhẩm nghiệm hoặc tính giá trị biểu thức nghiệm."
+      },
+      {
+        "metadata_code": "Hệ thống hóa kiến thức về hàm số y = ax^2",
+        "reason": "Đo lường qua câu hỏi hệ thống hóa kiến thức về hàm số y = ax^2 (tính chất, đồ thị, điểm thuộc đồ thị)."
+      },
+      {
+        "metadata_code": "PT bậc hai và định lí Viète",
+        "reason": "Đo lường qua câu hỏi kiến thức về phương trình bậc hai và định lí Viète."
+      },
+      {
+        "metadata_code": "Giải các bài tập trắc nghiệm và tự luận tổng hợp Chương VI",
+        "reason": "Đo lường qua các bài tập trắc nghiệm và tự luận tổng hợp Chương VI (bài toán thực tế, lập phương trình)."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đo lường qua câu hỏi tình huống thể hiện ý thức vươn lên trong học tập môn Toán."
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+        "reason": "Đo lường qua câu hỏi yêu cầu lựa chọn sơ đồ/bảng hệ thống hóa kiến thức cốt lõi."
+      },
+      {
+        "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+        "reason": "Đo lường qua câu hỏi đề xuất giải pháp đặt ẩn phụ đơn giản hóa bài toán thực tế."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_04",
+        "reason": "Đo lường qua câu hỏi xác định mô hình toán học tương thích cho bài toán làm chung công việc."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_05",
+        "reason": "Đo lường qua câu hỏi vận dụng kĩ năng giải phương trình bậc hai và so sánh để giải quyết bài toán khoảng cách an toàn."
+      },
+      {
+        "metadata_code": "2.1TC2a_K9",
+        "reason": "Đo lường qua câu hỏi lựa chọn công cụ công nghệ số (GeoGebra/Desmos) để trực quan hóa đồ thị."
+      },
+      {
+        "metadata_code": "9.A3.1_2",
+        "reason": "Đo lường qua câu hỏi thể hiện tư duy phản biện khi đánh giá phản hồi từ trợ lý AI."
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống hóa kiến thức về hàm số y = ax^2",
+      "questiontext": "Điểm nào sau đây thuộc đồ thị của hàm số \\(y = \\frac{1}{2}x^2\\)?",
+      "generalfeedback": "Thay tọa độ từng điểm vào hàm số \\(y = \\frac{1}{2}x^2\\):\n- Với \\(x = 1\\) thì \\(y = \\frac{1}{2}\\cdot 1^2 = \\frac{1}{2}\\). Do đó điểm \\(\\left(1; \\frac{1}{2}\\right)\\) thuộc đồ thị hàm số.",
+      "answers": [
+        {
+          "text": "\\(\\left(1; \\frac{1}{2}\\right)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\((1; 2)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((2; 1)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((-1; 2)\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Hệ thống hóa kiến thức về hàm số y = ax^2",
+      "questiontext": "Cho hàm số \\(y = ax^2\\) có đồ thị đi qua điểm \\(A(3; 3)\\). Khẳng định \"Hệ số \\(a = \\frac{1}{3}\\)\" là Đúng hay Sai?",
+      "generalfeedback": "Thay \\(x = 3, y = 3\\) vào \\(y = ax^2\\), ta có: \\(3 = a \\cdot 3^2 \\Leftrightarrow 9a = 3 \\Leftrightarrow a = \\frac{1}{3}\\). Khẳng định đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_030",
+      "questiontext": "Các nghiệm của phương trình \\(x^2 + 7x + 12 = 0\\) là:",
+      "generalfeedback": "Ta có \\(\\Delta = 7^2 - 4 \\cdot 1 \\cdot 12 = 49 - 48 = 1 > 0\\).\nCác nghiệm của phương trình là \\(x_1 = \\frac{-7 + 1}{2} = -3\\) và \\(x_2 = \\frac{-7 - 1}{2} = -4\\).",
+      "answers": [
+        {
+          "text": "\\(x_1 = -3; x_2 = -4\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x_1 = 3; x_2 = 4\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x_1 = 3; x_2 = -4\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x_1 = -3; x_2 = 4\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PT bậc hai và định lí Viète",
+      "questiontext": "Phương trình bậc hai một ẩn có hai nghiệm \\(x_1 = 13\\) và \\(x_2 = 25\\) là:",
+      "generalfeedback": "Tổng hai nghiệm \\(S = x_1 + x_2 = 13 + 25 = 38\\).\nTích hai nghiệm \\(P = x_1 \\cdot x_2 = 13 \\cdot 25 = 325\\).\nDo đó, \\(x_1, x_2\\) là hai nghiệm của phương trình \\(x^2 - Sx + P = 0\\), tức là \\(x^2 - 38x + 325 = 0\\).",
+      "answers": [
+        {
+          "text": "\\(x^2 - 38x + 325 = 0\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x^2 + 38x + 325 = 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x^2 - 13x + 25 = 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x^2 - 25x + 13 = 0\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_033",
+      "questiontext": "Gọi \\(x_1, x_2\\) là hai nghiệm của phương trình \\(x^2 - 5x + 6 = 0\\). Khi đó, giá trị của biểu thức \\(A = x_1^2 + x_2^2\\) là:",
+      "generalfeedback": "Theo định lí Viète: \\(x_1 + x_2 = 5\\) và \\(x_1 \\cdot x_2 = 6\\).\nTa có \\(A = x_1^2 + x_2^2 = (x_1 + x_2)^2 - 2x_1x_2 = 5^2 - 2 \\cdot 6 = 25 - 12 = 13\\).",
+      "answers": [
+        {
+          "text": "13",
+          "fraction": 100
+        },
+        {
+          "text": "19",
+          "fraction": 0
+        },
+        {
+          "text": "25",
+          "fraction": 0
+        },
+        {
+          "text": "5",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Giải các bài tập trắc nghiệm và tự luận tổng hợp Chương VI",
+      "questiontext": "Chiều dài và chiều rộng của một hình chữ nhật có chu vi 20 cm và diện tích 24 cm\\(^2\\) lần lượt là:",
+      "generalfeedback": "Nửa chu vi của hình chữ nhật là \\(20 : 2 = 10\\) (cm).\nGọi chiều dài là \\(x\\) (cm) và chiều rộng là \\(y\\) (cm) (với \\(x \\ge y > 0\\)).\nTa có \\(x + y = 10\\) và \\(x \\cdot y = 24\\).\nKhi đó \\(x, y\\) là hai nghiệm của phương trình \\(t^2 - 10t + 24 = 0\\).\nGiải phương trình được \\(t_1 = 6, t_2 = 4\\).\nVậy chiều dài là 6 cm và chiều rộng là 4 cm.",
+      "answers": [
+        {
+          "text": "6 cm và 4 cm",
+          "fraction": 100
+        },
+        {
+          "text": "5 cm và 4 cm",
+          "fraction": 0
+        },
+        {
+          "text": "8 cm và 3 cm",
+          "fraction": 0
+        },
+        {
+          "text": "10 cm và 2 cm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_030",
+      "questiontext": "Số nghiệm của phương trình \\(2x^2 - 2\\sqrt{6}x + 3 = 0\\) là bao nhiêu?",
+      "generalfeedback": "Ta tính \\(\\Delta' = (-\\sqrt{6})^2 - 2 \\cdot 3 = 6 - 6 = 0\\). Vì \\(\\Delta' = 0\\) nên phương trình có nghiệm kép, tức là có 1 nghiệm.",
+      "answers": [
+        {
+          "text": "1",
+          "fraction": 100
+        },
+        {
+          "text": "1 nghiệm",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_031",
+      "questiontext": "Dùng máy tính cầm tay để giải phương trình \\(5x^2 - 6\\sqrt{5}x + 2 = 0\\). Giá trị của nghiệm lớn hơn xấp xỉ bằng bao nhiêu? (Làm tròn đến hàng phần trăm). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Giải phương trình bằng máy tính cầm tay ta được hai nghiệm: \\(x_1 = \\frac{3\\sqrt{5} + \\sqrt{35}}{5} \\approx 2,52\\) và \\(x_2 = \\frac{3\\sqrt{5} - \\sqrt{35}}{5} \\approx 0,16\\). Nghiệm lớn hơn xấp xỉ 2.52.",
+      "answers": [
+        {
+          "text": "2.52",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_033",
+      "questiontext": "Cho phương trình \\(x^2 - 11x + 30 = 0\\) có hai nghiệm \\(x_1, x_2\\). Không giải phương trình, hãy tính giá trị của biểu thức \\(x_1^2 + x_2^2\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Theo định lí Viète: \\(x_1 + x_2 = 11\\) và \\(x_1 \\cdot x_2 = 30\\).\nTa có \\(x_1^2 + x_2^2 = (x_1 + x_2)^2 - 2x_1x_2 = 11^2 - 2 \\cdot 30 = 121 - 60 = 61\\).",
+      "answers": [
+        {
+          "text": "61",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "PT bậc hai và định lí Viète",
+      "questiontext": "Ghép mỗi cặp điều kiện của hai số \\(u\\) và \\(v\\) với cặp giá trị tương ứng của chúng:",
+      "generalfeedback": "a) \\(u+v=13, uv=40\\) tương ứng với cặp số 5 và 8.\nb) \\(u+v=11, uv=30\\) tương ứng với cặp số 5 và 6.\nc) \\(u+v=10, uv=24\\) tương ứng với cặp số 4 và 6.",
+      "subquestions": [
+        {
+          "question": "\\(u + v = 13\\) và \\(uv = 40\\)",
+          "answer": "5 và 8"
+        },
+        {
+          "question": "\\(u + v = 11\\) và \\(uv = 30\\)",
+          "answer": "5 và 6"
+        },
+        {
+          "question": "\\(u + v = 10\\) và \\(uv = 24\\)",
+          "answer": "4 và 6"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống hóa kiến thức về hàm số y = ax^2",
+      "questiontext": "Đồ thị của hàm số \\(y = \\frac{5}{2}x^2\\) nằm phía [[1]] trục hoành và có điểm thấp nhất là [[2]].",
+      "generalfeedback": "Hàm số \\(y = \\frac{5}{2}x^2\\) có hệ số \\(a = \\frac{5}{2} > 0\\) nên đồ thị nằm phía trên trục hoành (trừ gốc tọa độ) và nhận gốc tọa độ O(0;0) làm điểm thấp nhất.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "trên"
+        },
+        {
+          "group": 1,
+          "text": "dưới"
+        },
+        {
+          "group": 1,
+          "text": "gốc tọa độ O(0;0)"
+        },
+        {
+          "group": 1,
+          "text": "điểm (1; 1)"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống hóa kiến thức về hàm số y = ax^2",
+      "questiontext": "Đồ thị hàm số \\(y = -\\frac{5}{2}x^2\\) nhận [[1]] làm trục đối xứng và nằm phía [[2]] trục hoành.",
+      "generalfeedback": "Đồ thị hàm số \\(y = -\\frac{5}{2}x^2\\) có hệ số \\(a = -\\frac{5}{2} < 0\\) nên nằm phía dưới trục hoành và nhận trục tung Oy làm trục đối xứng.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "trục tung Oy"
+        },
+        {
+          "group": 1,
+          "text": "trục hoành Ox"
+        },
+        {
+          "group": 1,
+          "text": "dưới"
+        },
+        {
+          "group": 1,
+          "text": "trên"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_030",
+      "questiontext": "Xét phương trình bậc hai \\(x^2 - \\){a}\\(x + 6 = 0\\). Tính giá trị biệt thức \\(\\Delta\\) của phương trình khi {a} là biến số.",
+      "generalfeedback": "Biệt thức \\(\\Delta = (-a)^2 - 4 \\cdot 1 \\cdot 6 = a^2 - 24\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 5.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*{a}-24",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_033",
+      "questiontext": "Cho phương trình \\(x^2 - \\){b}\\(x + 5 = 0\\) có hai nghiệm \\(x_1, x_2\\). Tổng hai nghiệm \\(S = x_1 + x_2\\) bằng bao nhiêu?",
+      "generalfeedback": "Theo định lí Viète, tổng hai nghiệm \\(S = x_1 + x_2 = -(-b)/1 = b\\).",
+      "wildcards": [
+        {
+          "name": "b",
+          "min": 6.0,
+          "max": 15.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{b}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "nhan_biet",
+      "metadata_code": "PT bậc hai và định lí Viète",
+      "questiontext": "Với phương trình \\(x^2 - \\){c}\\(x + 12 = 0\\), tích hai nghiệm \\(P = x_1 \\cdot x_2\\) là:",
+      "generalfeedback": "Theo định lí Viète, tích hai nghiệm \\(P = x_1 \\cdot x_2 = 12/1 = 12\\).",
+      "wildcards": [
+        {
+          "name": "c",
+          "min": 7.0,
+          "max": 12.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "12",
+          "fraction": 100
+        },
+        {
+          "text": "{c}",
+          "fraction": 0
+        },
+        {
+          "text": "12*{c}",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_030",
+      "questiontext": "Hai số \\(u\\) và \\(v\\) thỏa mãn \\(u - v = 4\\) và \\(uv = 77\\) (với \\(u > 0, v > 0\\)) lần lượt là:",
+      "generalfeedback": "Đặt \\(v' = -v\\), ta có \\(u + v' = 4\\) và \\(u \\cdot v' = -77\\). Do đó \\(u\\) và \\(v'\\) là nghiệm của phương trình \\(t^2 - 4t - 77 = 0\\). Giải phương trình ta được \\(t_1 = 11, t_2 = -7\\). Vì \\(u, v > 0\\) nên \\(u = 11\\) và \\(v = 7\\).",
+      "answers": [
+        {
+          "text": "\\(u = 11; v = 7\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(u = 7; v = 11\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(u = 13; v = 9\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(u = 14; v = 10\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Giải các bài tập trắc nghiệm và tự luận tổng hợp Chương VI",
+      "questiontext": "Công thức ước tính khoảng cách an toàn tối thiểu \\(d\\) (feet) khi xe di chuyển với tốc độ \\(v\\) (dặm/giờ) là \\(d = 0,05v^2 + 1,1v\\). Nếu ô tô dừng lại sau 300 feet kể từ khi đạp phanh thì tốc độ \\(v\\) thỏa mãn phương trình nào sau đây?",
+      "generalfeedback": "Thay \\(d = 300\\) vào công thức \\(d = 0,05v^2 + 1,1v\\), ta được \\(0,05v^2 + 1,1v = 300 \\Leftrightarrow 0,05v^2 + 1,1v - 300 = 0\\).",
+      "answers": [
+        {
+          "text": "\\(0,05v^2 + 1,1v - 300 = 0\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(0,05v^2 + 1,1v + 300 = 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(0,05v^2 - 1,1v - 300 = 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(1,1v^2 + 0,05v - 300 = 0\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "van_dung",
+      "metadata_code": "Giải các bài tập trắc nghiệm và tự luận tổng hợp Chương VI",
+      "questiontext": "Một ô tô dừng lại sau 300 feet kể từ khi đạp phanh theo công thức \\(d = 0,05v^2 + 1,1v\\). Khẳng định \"Ô tô đó chạy nhanh hơn giới hạn tốc độ 70 dặm/giờ của đường cao tốc\" là Đúng hay Sai?",
+      "generalfeedback": "Giải phương trình \\(0,05v^2 + 1,1v - 300 = 0\\) với \\(v > 0\\), ta tìm được \\(v \\approx 67,23\\) dặm/giờ. Vì \\(67,23 < 70\\) nên ô tô không chạy nhanh hơn giới hạn tốc độ.",
+      "answers": [
+        {
+          "text": "Sai",
+          "fraction": 100
+        },
+        {
+          "text": "Đúng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Giải các bài tập trắc nghiệm và tự luận tổng hợp Chương VI",
+      "questiontext": "Bác Hương gửi tiết kiệm 100 triệu đồng kì hạn 12 tháng. Sau 1 năm bác gửi tiếp cả gốc lẫn lãi và gửi thêm 50 triệu đồng nữa. Sau 2 năm bác nhận được 176 triệu đồng. Lãi suất năm (tính theo %) của hình thức gửi tiết kiệm này là bao nhiêu?",
+      "generalfeedback": "Gọi lãi suất năm là \\(x\\) (điều kiện \\(x > 0\\)).\\nSau 1 năm số tiền là \\(100(1+x)\\) triệu đồng.\\nSang năm 2 gửi thêm 50 triệu nên tổng gửi là \\(100(1+x) + 50 = 150 + 100x\\).\\nSau 2 năm nhận được \\((150 + 100x)(1+x) = 176 \\Leftrightarrow 100x^2 + 250x - 26 = 0\\).\\nGiải phương trình được \\(x = 0,1 = 10\\%\\).",
+      "answers": [
+        {
+          "text": "10%",
+          "fraction": 100
+        },
+        {
+          "text": "10",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Giải các bài tập trắc nghiệm và tự luận tổng hợp Chương VI",
+      "questiontext": "Hai khối 8 và 9 cùng làm chung một công việc thì xong trong 1 giờ 12 phút. Nếu làm riêng, khối 9 làm xong nhanh hơn khối 8 là 1 giờ. Hỏi nếu làm riêng thì khối 9 sau bao lâu sẽ hoàn thành công việc?",
+      "generalfeedback": "Đổi 1 giờ 12 phút = \\(\\frac{6}{5}\\) giờ.\\nGọi thời gian khối 9 làm riêng xong công việc là \\(x\\) (giờ, \\(x > 0\\)).\\nThời gian khối 8 làm riêng xong công việc là \\(x + 1\\) (giờ).\\nTa có phương trình: \\(\\frac{1}{x} + \\frac{1}{x+1} = \\frac{5}{6} \\Leftrightarrow 5x^2 - 7x - 6 = 0\\).\\nGiải phương trình được \\(x = 2\\) (nhận) và \\(x = -0,6\\) (loại).\\nVậy khối 9 làm riêng xong công việc trong 2 giờ.",
+      "answers": [
+        {
+          "text": "2 giờ",
+          "fraction": 100
+        },
+        {
+          "text": "3 giờ",
+          "fraction": 0
+        },
+        {
+          "text": "1,5 giờ",
+          "fraction": 0
+        },
+        {
+          "text": "2,5 giờ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống hóa kiến thức về hàm số y = ax^2",
+      "questiontext": "Đồ thị của hàm số \\(y = \\frac{5}{2}x^2\\) nằm phía [[1]] trục hoành và có điểm thấp nhất là [[2]].",
+      "generalfeedback": "Hàm số \\(y = \\frac{5}{2}x^2\\) có hệ số \\(a = \\frac{5}{2} > 0\\) nên đồ thị nằm phía trên trục hoành (trừ gốc tọa độ) và nhận gốc tọa độ O(0;0) làm điểm thấp nhất.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "trên"
+        },
+        {
+          "group": 1,
+          "text": "dưới"
+        },
+        {
+          "group": 1,
+          "text": "gốc tọa độ O(0;0)"
+        },
+        {
+          "group": 1,
+          "text": "điểm (1; 1)"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống hóa kiến thức về hàm số y = ax^2",
+      "questiontext": "Đồ thị hàm số \\(y = -\\frac{5}{2}x^2\\) nhận [[1]] làm trục đối xứng và nằm phía [[2]] trục hoành.",
+      "generalfeedback": "Đồ thị hàm số \\(y = -\\frac{5}{2}x^2\\) có hệ số \\(a = -\\frac{5}{2} < 0\\) nên nằm phía dưới trục hoành và nhận trục tung Oy làm trục đối xứng.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "trục tung Oy"
+        },
+        {
+          "group": 1,
+          "text": "trục hoành Ox"
+        },
+        {
+          "group": 1,
+          "text": "dưới"
+        },
+        {
+          "group": 1,
+          "text": "trên"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_030",
+      "questiontext": "Xét phương trình bậc hai \\(x^2 - \\){a}\\(x + 6 = 0\\). Tính giá trị biệt thức \\(\\Delta\\) của phương trình khi {a} là biến số.",
+      "generalfeedback": "Biệt thức \\(\\Delta = (-a)^2 - 4 \\cdot 1 \\cdot 6 = a^2 - 24\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 5.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*{a}-24",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_033",
+      "questiontext": "Cho phương trình \\(x^2 - \\){b}\\(x + 5 = 0\\) có hai nghiệm \\(x_1, x_2\\). Tổng hai nghiệm \\(S = x_1 + x_2\\) bằng bao nhiêu?",
+      "generalfeedback": "Theo định lí Viète, tổng hai nghiệm \\(S = x_1 + x_2 = -(-b)/1 = b\\).",
+      "wildcards": [
+        {
+          "name": "b",
+          "min": 6.0,
+          "max": 15.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{b}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "nhan_biet",
+      "metadata_code": "PT bậc hai và định lí Viète",
+      "questiontext": "Với phương trình \\(x^2 - \\){c}\\(x + 12 = 0\\), tích hai nghiệm \\(P = x_1 \\cdot x_2\\) là:",
+      "generalfeedback": "Theo định lí Viète, tích hai nghiệm \\(P = x_1 \\cdot x_2 = 12/1 = 12\\).",
+      "wildcards": [
+        {
+          "name": "c",
+          "min": 7.0,
+          "max": 12.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "12",
+          "fraction": 100
+        },
+        {
+          "text": "{c}",
+          "fraction": 0
+        },
+        {
+          "text": "12*{c}",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_030",
+      "questiontext": "Hai số \\(u\\) và \\(v\\) thỏa mãn \\(u - v = 4\\) và \\(uv = 77\\) (với \\(u > 0, v > 0\\)) lần lượt là:",
+      "generalfeedback": "Đặt \\(v' = -v\\), ta có \\(u + v' = 4\\) và \\(u \\cdot v' = -77\\). Do đó \\(u\\) và \\(v'\\) là nghiệm của phương trình \\(t^2 - 4t - 77 = 0\\). Giải phương trình ta được \\(t_1 = 11, t_2 = -7\\). Vì \\(u, v > 0\\) nên \\(u = 11\\) và \\(v = 7\\).",
+      "answers": [
+        {
+          "text": "\\(u = 11; v = 7\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(u = 7; v = 11\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(u = 13; v = 9\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(u = 14; v = 10\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Giải các bài tập trắc nghiệm và tự luận tổng hợp Chương VI",
+      "questiontext": "Công thức ước tính khoảng cách an toàn tối thiểu \\(d\\) (feet) khi xe di chuyển với tốc độ \\(v\\) (dặm/giờ) là \\(d = 0,05v^2 + 1,1v\\). Nếu ô tô dừng lại sau 300 feet kể từ khi đạp phanh thì tốc độ \\(v\\) thỏa mãn phương trình nào sau đây?",
+      "generalfeedback": "Thay \\(d = 300\\) vào công thức \\(d = 0,05v^2 + 1,1v\\), ta được \\(0,05v^2 + 1,1v = 300 \\Leftrightarrow 0,05v^2 + 1,1v - 300 = 0\\).",
+      "answers": [
+        {
+          "text": "\\(0,05v^2 + 1,1v - 300 = 0\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(0,05v^2 + 1,1v + 300 = 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(0,05v^2 - 1,1v - 300 = 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(1,1v^2 + 0,05v - 300 = 0\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "van_dung",
+      "metadata_code": "Giải các bài tập trắc nghiệm và tự luận tổng hợp Chương VI",
+      "questiontext": "Một ô tô dừng lại sau 300 feet kể từ khi đạp phanh theo công thức \\(d = 0,05v^2 + 1,1v\\). Khẳng định \"Ô tô đó chạy nhanh hơn giới hạn tốc độ 70 dặm/giờ của đường cao tốc\" là Đúng hay Sai?",
+      "generalfeedback": "Giải phương trình \\(0,05v^2 + 1,1v - 300 = 0\\) với \\(v > 0\\), ta tìm được \\(v \\approx 67,23\\) dặm/giờ. Vì \\(67,23 < 70\\) nên ô tô không chạy nhanh hơn giới hạn tốc độ.",
+      "answers": [
+        {
+          "text": "Sai",
+          "fraction": 100
+        },
+        {
+          "text": "Đúng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Giải các bài tập trắc nghiệm và tự luận tổng hợp Chương VI",
+      "questiontext": "Bác Hương gửi tiết kiệm 100 triệu đồng kì hạn 12 tháng. Sau 1 năm bác gửi tiếp cả gốc lẫn lãi và gửi thêm 50 triệu đồng nữa. Sau 2 năm bác nhận được 176 triệu đồng. Lãi suất năm (tính theo %) của hình thức gửi tiết kiệm này là bao nhiêu?",
+      "generalfeedback": "Gọi lãi suất năm là \\(x\\) (điều kiện \\(x > 0\\)).\nSau 1 năm số tiền là \\(100(1+x)\\) triệu đồng.\nSang năm 2 gửi thêm 50 triệu nên tổng gửi là \\(100(1+x) + 50 = 150 + 100x\\).\nSau 2 năm nhận được \\((150 + 100x)(1+x) = 176 \\Leftrightarrow 100x^2 + 250x - 26 = 0\\).\nGiải phương trình được \\(x = 0,1 = 10\\%\\).",
+      "answers": [
+        {
+          "text": "10%",
+          "fraction": 100
+        },
+        {
+          "text": "10",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Giải các bài tập trắc nghiệm và tự luận tổng hợp Chương VI",
+      "questiontext": "Hai khối 8 và 9 cùng làm chung một công việc thì xong trong 1 giờ 12 phút. Nếu làm riêng, khối 9 làm xong nhanh hơn khối 8 là 1 giờ. Hỏi nếu làm riêng thì khối 9 sau bao lâu sẽ hoàn thành công việc?",
+      "generalfeedback": "Đổi 1 giờ 12 phút = \\(\\frac{6}{5}\\) giờ.\nGọi thời gian khối 9 làm riêng xong công việc là \\(x\\) (giờ, \\(x > 0\\)).\nThời gian khối 8 làm riêng xong công việc là \\(x + 1\\) (giờ).\nTa có phương trình: \\(\\frac{1}{x} + \\frac{1}{x+1} = \\frac{5}{6} \\Leftrightarrow 5x^2 - 7x - 6 = 0\\).\nGiải phương trình được \\(x = 2\\) (nhận) và \\(x = -0,6\\) (loại).\nVậy khối 9 làm riêng xong công việc trong 2 giờ.",
+      "answers": [
+        {
+          "text": "2 giờ",
+          "fraction": 100
+        },
+        {
+          "text": "3 giờ",
+          "fraction": 0
+        },
+        {
+          "text": "1,5 giờ",
+          "fraction": 0
+        },
+        {
+          "text": "2,5 giờ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ ôn tập Bài tập cuối chương VI về phương trình bậc hai, bạn An gặp một bài toán ứng dụng thực tế về khoảng cách an toàn xe chạy. Ban đầu An giải ra kết quả sai do nhầm lẫn công thức biệt thức \\(\\Delta\\). Hành vi nào sau đây thể hiện tinh thần 'luôn cố gắng vươn lên đạt kết quả tốt trong học tập' của An?",
+      "generalfeedback": "Thái độ kiên trì, tự kiểm tra lại từng bước biến đổi và điều kiện thực tế để phát hiện lỗi sai thể hiện phẩm chất luôn cố gắng vươn lên trong học tập.",
+      "answers": [
+        {
+          "text": "Kiên trì kiểm tra lại từng bước tính biệt thức \\(\\Delta\\), đối chiếu điều kiện tốc độ \\(v > 0\\) để tìm ra lỗi sai và giải lại cho đúng.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài toán đó và chỉ làm các câu trắc nghiệm đơn giản để tránh bị mất điểm.",
+          "fraction": 0
+        },
+        {
+          "text": "Chờ bạn bên cạnh làm xong rồi chép lại đáp án vào vở để nộp cho thầy cô.",
+          "fraction": 0
+        },
+        {
+          "text": "Nhờ bạn giải hộ toàn bộ bài toán rồi học thuộc kết quả mà không cần hiểu cách làm.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Để tóm tắt kiến thức cốt lõi của Chương VI (Hàm số \\(y = ax^2\\), Phương trình bậc hai một ẩn và Định lí Viète) phục vụ cho việc ôn tập hiệu quả, bảng hệ thống hóa nào sau đây là đầy đủ và chính xác nhất?",
+      "generalfeedback": "Hệ thống hóa thông tin đầy đủ bao gồm: Công thức nghiệm phương trình bậc hai, Định lí Viète và ứng dụng nhẩm nghiệm, tìm hai số khi biết tổng và tích.",
+      "answers": [
+        {
+          "text": "Hệ thống gồm: Công thức nghiệm/nghiệm thu gọn của phương trình bậc hai; Định lí Viète (\\(x_1+x_2 = -b/a, x_1 x_2 = c/a\\)); Cách tìm hai số khi biết tổng và tích.",
+          "fraction": 100
+        },
+        {
+          "text": "Hệ thống gồm: Định nghĩa phương trình bậc nhất một ẩn; Công thức tính chu vi và diện tích hình chữ nhật.",
+          "fraction": 0
+        },
+        {
+          "text": "Hệ thống gồm: Cách vẽ đường thẳng và công thức tính khoảng cách an toàn của ô tô.",
+          "fraction": 0
+        },
+        {
+          "text": "Hệ thống gồm: Quy tắc cộng trừ các số thực và bảng cửu chương.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Trong bài toán gửi tiết kiệm ngân hàng (Bài 6.51), sau 2 năm bác Hương nhận được 176 triệu đồng. Để tìm lãi suất năm \\(x\\), bạn Bình lập ra phương trình \\(100(1+x)^2 + 50(1+x) = 176\\). Giải pháp nào sau đây giúp đơn giản hóa việc giải phương trình bậc hai này?",
+      "generalfeedback": "Đề xuất đặt ẩn phụ \\(t = 1 + x\\) (với \\(t > 1\\)) giúp đưa phương trình phức tạp về dạng phương trình bậc hai cơ bản \\(100t^2 + 50t - 176 = 0\\), từ đó giải tìm \\(t\\) rồi suy ra \\(x\\).",
+      "answers": [
+        {
+          "text": "Đặt ẩn phụ \\(t = 1 + x\\) (với \\(t > 1\\)) để đưa về phương trình bậc hai đơn giản \\(100t^2 + 50t - 176 = 0\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Thử lần lượt các giá trị \\(x\\) ngẫu nhiên từ 1% đến 100% cho đến khi hai vế bằng nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua thành phần \\(50(1+x)\\) để phương trình chỉ còn chứa \\(t^2\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Chuyển toàn bộ bài toán về phương trình bậc nhất bằng cách xóa bỏ số mũ 2.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_04",
+      "questiontext": "Để giải bài toán thực tế 'Hai khối 8 và 9 cùng làm chung một công việc sau 1 giờ 12 phút thì xong' (Bài 6.52), kiến thức toán học tương thích nào sau đây được sử dụng để lập phương trình?",
+      "generalfeedback": "Sử dụng mô hình toán học làm chung công việc: Năng suất làm chung trong 1 giờ bằng tổng năng suất làm riêng của hai khối trong 1 giờ (\\(\\frac{1}{x} + \\frac{1}{x+1} = \\frac{5}{6}\\)).",
+      "answers": [
+        {
+          "text": "Mô hình hóa toán học bài toán làm chung công việc: Lấy năng suất làm chung bằng tổng năng suất làm riêng trong 1 giờ.",
+          "fraction": 100
+        },
+        {
+          "text": "Công thức tính diện tích và chu vi của hình chữ nhật.",
+          "fraction": 0
+        },
+        {
+          "text": "Định lí Pythagoras trong tam giác vuông.",
+          "fraction": 0
+        },
+        {
+          "text": "Tỉ số lượng giác của góc nhọn trong tam giác.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Khi giải bài toán khoảng cách an toàn ô tô (Bài 6.50) với công thức \\(d = 0,05v^2 + 1,1v\\) khi \\(d = 300\\) feet, kĩ năng toán học tương thích nào cần thực hiện để kết luận ô tô có chạy vượt quá giới hạn 70 dặm/giờ hay không?",
+      "generalfeedback": "Biến đổi về phương trình bậc hai \\(0,05v^2 + 1,1v - 300 = 0\\), giải tìm nghiệm dương \\(v \\approx 67,23\\) dặm/giờ và so sánh giá trị này với 70 dặm/giờ.",
+      "answers": [
+        {
+          "text": "Biến đổi đưa về phương trình bậc hai \\(0,05v^2 + 1,1v - 300 = 0\\), giải tìm nghiệm dương \\(v \\approx 67,23\\) và so sánh với 70 dặm/giờ.",
+          "fraction": 100
+        },
+        {
+          "text": "Vẽ đồ thị hàm số bậc nhất và tìm giao điểm với trục hoành.",
+          "fraction": 0
+        },
+        {
+          "text": "Lấy 300 chia cho 70 để ra tốc độ thực tế của ô tô.",
+          "fraction": 0
+        },
+        {
+          "text": "Tính biệt thức \\(\\Delta\\) rồi kết luận tốc độ của xe bằng đúng \\(\\Delta\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "2.1TC2a_K9",
+      "questiontext": "Để kiểm tra trực quan hình dạng đồ thị hai hàm số \\(y = \\frac{5}{2}x^2\\) và \\(y = -\\frac{5}{2}x^2\\) (Bài 6.45) cũng như tính đối xứng của chúng qua trục Ox, công cụ công nghệ số nào sau đây là lựa chọn phù hợp nhất?",
+      "generalfeedback": "Sử dụng phần mềm hình học/đồ thị động như GeoGebra hoặc Desmos giúp học sinh vẽ chính xác và trực quan quan sát các đường parabol.",
+      "answers": [
+        {
+          "text": "Sử dụng phần mềm vẽ đồ thị động (như GeoGebra hoặc Desmos) nhập công thức hàm số để quan sát hình dạng hai parabol.",
+          "fraction": 100
+        },
+        {
+          "text": "Sử dụng phần mềm soạn thảo văn bản Microsoft Word để gõ lại đề bài.",
+          "fraction": 0
+        },
+        {
+          "text": "Sử dụng phần mềm trình chiếu PowerPoint để tạo hiệu ứng chữ chạy.",
+          "fraction": 0
+        },
+        {
+          "text": "Sử dụng phần mềm thu âm giọng nói trên điện thoại.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "9.A3.1_2",
+      "questiontext": "Khi một học sinh nhập đề bài 'Tìm hai số biết tổng bằng 13 và tích bằng 40' vào trợ lý AI, AI trả về kết quả: 'Hai số đó là 6 và 7 vì 6 + 7 = 13'. Học sinh cần thể hiện tư duy phản biện như thế nào trước câu trả lời này?",
+      "generalfeedback": "Học sinh cần kiểm tra lại cả hai điều kiện: 6 + 7 = 13 (đúng) nhưng 6 * 7 = 42 != 40 (sai), từ đó nhận ra AI nhầm lẫn và tự giải phương trình t^2 - 13t + 40 = 0 để ra kết quả đúng (5 và 8).",
+      "answers": [
+        {
+          "text": "Kiểm tra cả hai điều kiện: 6 + 7 = 13 (đúng) nhưng 6 \\(\\cdot\\) 7 = 42 \\(\\neq\\) 40, phát hiện AI trả lời sai và tự giải phương trình \\(t^2 - 13t + 40 = 0\\) để ra cặp số 5 và 8.",
+          "fraction": 100
+        },
+        {
+          "text": "Chép ngay kết quả 6 và 7 vào bài làm vì tin rằng AI không bao giờ tính sai.",
+          "fraction": 0
+        },
+        {
+          "text": "Khẳng định đề bài sai vì AI không đưa ra được đáp án đúng.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ kiểm tra điều kiện tổng 6 + 7 = 13 và vội vã công nhận đáp án của AI.",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

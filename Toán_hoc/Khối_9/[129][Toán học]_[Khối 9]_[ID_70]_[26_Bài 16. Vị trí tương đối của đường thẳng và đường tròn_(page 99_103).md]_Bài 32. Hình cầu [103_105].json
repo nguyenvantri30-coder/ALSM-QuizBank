@@ -1,0 +1,715 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 28,
+    "metadata_used": {
+      "Công thức diện tích mặt cầu S = 4.pi.R^2": 5,
+      "Công thức thể tích hình cầu V = (4/3).pi.R^3": 3,
+      "Tính diện tích mặt cầu": 3,
+      "Tính thể tích của hình cầu": 3,
+      "YCCD_TOAN9_053": 1,
+      "YCCD_TOAN9_056": 1,
+      "Giải bài toán thực tế liên quan đến hình cầu": 3,
+      "YCCD_TOAN9_057": 1,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_TRACHNHIEM_BANTHAN_C2_05": 1,
+      "SUB_TCTH_TUHOC_C2_01": 1,
+      "SUB_GQVD_DEXUAT_C2_02": 2,
+      "NLT_TOAN_C2_01_01": 2,
+      "NLT_TOAN_C2_02_07": 1
+    },
+    "types_used": {
+      "multichoice": 14,
+      "truefalse": 2,
+      "shortanswer": 1,
+      "numerical": 3,
+      "matching": 2,
+      "gapselect": 2,
+      "ddwtos": 1,
+      "calculated": 1,
+      "calculatedsimple": 1,
+      "calculatedmulti": 1
+    },
+    "total": 28
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "Công thức diện tích mặt cầu S = 4.pi.R^2",
+        "reason": "Đo lường việc ghi nhớ và hiểu công thức diện tích mặt cầu S = 4\\pi R^2"
+      },
+      {
+        "metadata_code": "Công thức thể tích hình cầu V = (4/3).pi.R^3",
+        "reason": "Đo lường việc ghi nhớ và hiểu công thức thể tích hình cầu V = \\frac{4}{3}\\pi R^3"
+      },
+      {
+        "metadata_code": "Tính diện tích mặt cầu",
+        "reason": "Rèn luyện kỹ năng tính toán diện tích mặt cầu khi biết bán kính hoặc đường kính"
+      },
+      {
+        "metadata_code": "Tính thể tích của hình cầu",
+        "reason": "Rèn luyện kỹ năng tính toán thể tích hình cầu khi biết bán kính hoặc đường kính"
+      },
+      {
+        "metadata_code": "Giải bài toán thực tế liên quan đến hình cầu",
+        "reason": "Áp dụng tính diện tích và thể tích hình cầu vào các bài toán thực tế"
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_053",
+        "reason": "Yêu cầu cần đạt về tính diện tích mặt cầu"
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_056",
+        "reason": "Yêu cầu cần đạt về tính thể tích hình cầu"
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_057",
+        "reason": "Yêu cầu cần đạt về giải quyết vấn đề thực tiễn liên quan đến hình cầu"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Không có mã metadata N (Năng lực số/tin học) trong METADATA_DICTIONARY của bài học và không thuộc phạm vi đo lường trực tiếp của tiết học môn Toán này."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Không có mã metadata A (Năng lực AI) trong METADATA_DICTIONARY của bài học và không thuộc phạm vi đo lường trực tiếp của tiết học môn Toán này."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức diện tích mặt cầu S = 4.pi.R^2",
+      "questiontext": "Công thức tính diện tích mặt cầu bán kính \\(R\\) là công thức nào sau đây?",
+      "generalfeedback": "Diện tích mặt cầu bán kính \\(R\\) được tính theo công thức \\(S = 4\\pi R^2\\).",
+      "answers": [
+        {
+          "text": "\\(S = 4\\pi R^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(S = 2\\pi R^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(S = \\frac{4}{3}\\pi R^3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(S = \\pi R^2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức thể tích hình cầu V = (4/3).pi.R^3",
+      "questiontext": "Công thức tính thể tích của hình cầu bán kính \\(R\\) là công thức nào sau đây?",
+      "generalfeedback": "Thể tích của hình cầu bán kính \\(R\\) được tính theo công thức \\(V = \\frac{4}{3}\\pi R^3\\).",
+      "answers": [
+        {
+          "text": "\\(V = \\frac{4}{3}\\pi R^3\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(V = 4\\pi R^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(V = \\frac{1}{3}\\pi R^3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(V = 2\\pi R^3\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức diện tích mặt cầu S = 4.pi.R^2",
+      "questiontext": "Nếu bán kính của mặt cầu tăng lên 2 lần thì diện tích mặt cầu tăng lên 4 lần. Đúng hay Sai?",
+      "generalfeedback": "Đúng. Vì diện tích mặt cầu \\(S = 4\\pi R^2\\), khi \\(R\\) tăng 2 lần thì \\(S\\) tăng \\(2^2 = 4\\) lần.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức thể tích hình cầu V = (4/3).pi.R^3",
+      "questiontext": "Nếu bán kính hình cầu tăng lên 3 lần thì thể tích của hình cầu tăng lên 9 lần. Đúng hay Sai?",
+      "generalfeedback": "Sai. Vì thể tích hình cầu \\(V = \\frac{4}{3}\\pi R^3\\), khi \\(R\\) tăng 3 lần thì thể tích tăng \\(3^3 = 27\\) lần, không phải 9 lần.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Tính diện tích mặt cầu",
+      "questiontext": "Tính diện tích mặt cầu có bán kính \\(R = 3\\text{ cm}\\) (lấy \\(\\pi \\approx 3,14\\)).",
+      "generalfeedback": "Diện tích mặt cầu là \\(S = 4\\pi R^2 = 4 \\times 3,14 \\times 3^2 = 113,04\\text{ cm}^2\\).",
+      "answers": [
+        {
+          "text": "\\(113,04\\text{ cm}^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(37,68\\text{ cm}^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(113,04\\text{ cm}^3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(452,16\\text{ cm}^2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Tính thể tích của hình cầu",
+      "questiontext": "Tính thể tích của hình cầu có bán kính \\(R = 3\\text{ cm}\\) (lấy \\(\\pi \\approx 3,14\\)).",
+      "generalfeedback": "Thể tích hình cầu là \\(V = \\frac{4}{3}\\pi R^3 = \\frac{4}{3} \\times 3,14 \\times 3^3 = 113,04\\text{ cm}^3\\).",
+      "answers": [
+        {
+          "text": "\\(113,04\\text{ cm}^3\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(113,04\\text{ cm}^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(37,68\\text{ cm}^3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(339,12\\text{ cm}^3\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức diện tích mặt cầu S = 4.pi.R^2",
+      "questiontext": "Viết tên đại lượng \\(R\\) trong công thức tính diện tích mặt cầu \\(S = 4\\pi R^2\\).",
+      "generalfeedback": "Đại lượng \\(R\\) trong công thức tính diện tích mặt cầu đại diện cho bán kính.",
+      "answers": [
+        {
+          "text": "bán kính",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức thể tích hình cầu V = (4/3).pi.R^3",
+      "questiontext": "Nếu biết đường kính của mặt cầu là \\(d\\), bán kính \\(R\\) được tính theo \\(d\\) bằng công thức nào sau đây?",
+      "generalfeedback": "Bán kính hình cầu bằng một nửa đường kính: \\(R = \\frac{d}{2}\\).",
+      "answers": [
+        {
+          "text": "\\(R = \\frac{d}{2}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(R = 2d\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(R = \\frac{d}{4}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(R = d^2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_053",
+      "questiontext": "Tính diện tích mặt cầu có bán kính \\(R = 5\\text{ cm}\\) theo đơn vị \\(\\text{cm}^2\\) (lấy \\(\\pi = 3,14\\)). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Diện tích mặt cầu \\(S = 4 \\times 3,14 \\times 5^2 = 314\\).",
+      "answers": [
+        {
+          "text": "314",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_056",
+      "questiontext": "Tính thể tích hình cầu có bán kính \\(R = 6\\text{ cm}\\) theo đơn vị \\(\\text{cm}^3\\) (lấy \\(\\pi = 3,14\\)). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Thể tích hình cầu \\(V = \\frac{4}{3} \\times 3,14 \\times 6^3 = 904.32\\).",
+      "answers": [
+        {
+          "text": "904.32",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức diện tích mặt cầu S = 4.pi.R^2",
+      "questiontext": "Ghép mỗi đại lượng với công thức tương ứng của hình cầu (bán kính \\(R\\)):",
+      "generalfeedback": "Diện tích mặt cầu là \\(S = 4\\pi R^2\\), thể tích hình cầu là \\(V = \\frac{4}{3}\\pi R^3\\), chu vi đường tròn lớn là \\(C = 2\\pi R\\).",
+      "subquestions": [
+        {
+          "question": "Diện tích mặt cầu",
+          "answer": "4\\pi R^2"
+        },
+        {
+          "question": "Thể tích hình cầu",
+          "answer": "\\frac{4}{3}\\pi R^3"
+        },
+        {
+          "question": "Chu vi đường tròn lớn",
+          "answer": "2\\pi R"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Tính diện tích mặt cầu",
+      "questiontext": "Diện tích mặt cầu bán kính \\(R\\) được tính theo công thức [[1]], trong đó nếu bán kính tăng lên 2 lần thì diện tích mặt cầu tăng [[2]] lần.",
+      "generalfeedback": "Diện tích mặt cầu \\(S = 4\\pi R^2\\). Khi \\(R\\) tăng 2 lần thì \\(S\\) tăng 4 lần.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(S = 4\\pi R^2\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(V = \\frac{4}{3}\\pi R^3\\)"
+        },
+        {
+          "group": 1,
+          "text": "4"
+        },
+        {
+          "group": 1,
+          "text": "2"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Tính thể tích của hình cầu",
+      "questiontext": "Thể tích hình cầu bán kính \\(R\\) được tính bằng công thức [[1]]. Nếu đường kính của hình cầu là \\(d\\) thì bán kính \\(R =\\) [[2]].",
+      "generalfeedback": "Thể tích \\(V = \\frac{4}{3}\\pi R^3\\) và bán kính \\(R = d/2\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(\\frac{4}{3}\\pi R^3\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(4\\pi R^2\\)"
+        },
+        {
+          "group": 1,
+          "text": "d/2"
+        },
+        {
+          "group": 1,
+          "text": "2d"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "thong_hieu",
+      "metadata_code": "Tính diện tích mặt cầu",
+      "questiontext": "Tính diện tích mặt cầu (theo \\(\\pi\\)) có bán kính là {r} cm.",
+      "generalfeedback": "Diện tích mặt cầu \\(S = 4\\pi R^2 = 4 \\times \\pi \\times {r}^2 = \\) {r}*{r}*4 \\(\\pi\\).",
+      "wildcards": [
+        {
+          "name": "r",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "4*{r}*{r}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "thong_hieu",
+      "metadata_code": "Tính thể tích của hình cầu",
+      "questiontext": "Tính thể tích hình cầu có bán kính {r} cm theo công thức \\(V = \\frac{4}{3} \\cdot 3.14 \\cdot R^3\\). (Chỉ điền số thập phân)",
+      "generalfeedback": "Thể tích \\(V = \\frac{4}{3} \\times 3.14 \\times {r}^3\\).",
+      "wildcards": [
+        {
+          "name": "r",
+          "min": 1.0,
+          "max": 6.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "(4/3)*3.14*pow({r},3)",
+          "fraction": 100,
+          "tolerance": 0.1
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "thong_hieu",
+      "metadata_code": "Công thức diện tích mặt cầu S = 4.pi.R^2",
+      "questiontext": "Biểu thức nào sau đây tính diện tích mặt cầu bán kính {r} cm?",
+      "generalfeedback": "Diện tích mặt cầu \\(S = 4 \\pi R^2\\).",
+      "wildcards": [
+        {
+          "name": "r",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "4*pi*{r}*{r}",
+          "fraction": 100
+        },
+        {
+          "text": "2*pi*{r}",
+          "fraction": 0
+        },
+        {
+          "text": "(4/3)*pi*pow({r},3)",
+          "fraction": 0
+        },
+        {
+          "text": "pi*{r}*{r}",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán thực tế liên quan đến hình cầu",
+      "questiontext": "Một quả bóng bàn có dạng hình cầu với đường kính 4 cm. Diện tích bề mặt của quả bóng bàn đó là bao nhiêu (lấy \\(\\pi \\approx 3,14\\))?",
+      "generalfeedback": "Bán kính quả bóng bàn là \\(R = 4 / 2 = 2\\text{ cm}\\). Diện tích bề mặt là \\(S = 4 \\pi R^2 = 4 \\times 3,14 \\times 2^2 = 50,24\\text{ cm}^2\\).",
+      "answers": [
+        {
+          "text": "\\(50,24\\text{ cm}^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(200,96\\text{ cm}^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(33,49\\text{ cm}^3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(25,12\\text{ cm}^2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán thực tế liên quan đến hình cầu",
+      "questiontext": "Một Trái Đất thu nhỏ (quả địa cầu) có bán kính \\(R = 10\\text{ cm}\\). Thể tích của quả địa cầu đó là bao nhiêu (lấy \\(\\pi \\approx 3,14\\), làm tròn đến hàng phần mười)?",
+      "generalfeedback": "Thể tích quả địa cầu là \\(V = \\frac{4}{3} \\pi R^3 = \\frac{4}{3} \\times 3,14 \\times 10^3 \\approx 4186,7\\text{ cm}^3\\).",
+      "answers": [
+        {
+          "text": "\\(4186,7\\text{ cm}^3\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(1256,0\\text{ cm}^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(3140,0\\text{ cm}^3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(1046,7\\text{ cm}^3\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán thực tế liên quan đến hình cầu",
+      "questiontext": "Một bồn chứa nhiên liệu hình cầu có bán kính 3 m. Người ta muốn sơn toàn bộ bề mặt ngoài của bồn chứa. Biết chi phí sơn 1 \\(\\text{m}^2\\) là 100 000 đồng, hãy tính tổng chi phí sơn bồn chứa theo đơn vị đồng (lấy \\(\\pi = 3,14\\)). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Diện tích bề mặt bồn chứa là \\(S = 4 \\times 3,14 \\times 3^2 = 113,04\\text{ m}^2\\). Tổng chi phí sơn là \\(113,04 \\times 100 000 = 11 304 000\\) đồng.",
+      "answers": [
+        {
+          "text": "11304000",
+          "fraction": 100,
+          "tolerance": 10
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_057",
+      "questiontext": "Một viên bi thép hình cầu bán kính 1 cm được thả chìm hoàn toàn vào một ly nước hình trụ chứa nước. Biết diện tích đáy ly là \\(10\\text{ cm}^2\\). Hỏi mực nước trong ly dâng lên thêm bao nhiêu cm (lấy \\(\\pi \\approx 3,14\\), làm tròn đến hàng phần trăm)?",
+      "generalfeedback": "Thể tích viên bi thép là \\(V = \\frac{4}{3} \\pi R^3 = \\frac{4}{3} \\times 3,14 \\times 1^3 \\approx 4,1867\\text{ cm}^3\\). Mực nước dâng lên \\(h = \\frac{V}{S_{đáy}} = \\frac{4,1867}{10} \\approx 0,42\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "\\(0,42\\text{ cm}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(0,31\\text{ cm}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(1,26\\text{ cm}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(0,13\\text{ cm}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ ôn tập môn Toán chủ đề \"Diện tích mặt cầu và thể tích hình cầu\", bạn Nam gặp khó khăn khi nhầm lẫn giữa công thức diện tích mặt cầu \\(S = 4\\pi R^2\\) và công thức thể tích hình cầu \\(V = \\frac{4}{3}\\pi R^3\\). Để thể hiện tinh thần cố gắng vươn lên đạt kết quả tốt trong học tập (Q1), bạn Nam nên thực hiện hành động nào sau đây?",
+      "generalfeedback": "Hành động thể hiện tinh thần cố gắng vươn lên trong học tập (Q1) là chủ động tìm giải pháp khắc phục khó khăn bằng cách ôn tập, so sánh công thức và rèn luyện qua bài tập.",
+      "answers": [
+        {
+          "text": "Chủ động xem lại định nghĩa, tự lập bảng so sánh hai công thức và làm thêm các bài tập tự luyện để khắc sâu kiến thức.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua các bài tập liên quan đến thể tích hình cầu và chỉ tập trung làm bài tập diện tích mặt cầu.",
+          "fraction": 0
+        },
+        {
+          "text": "Chờ đến khi giáo viên kiểm tra mới hỏi lại bạn bè để chép đáp án.",
+          "fraction": 0
+        },
+        {
+          "text": "Cho rằng hai công thức quá phức tạp nên không cần học thuộc.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TRACHNHIEM_BANTHAN_C2_05",
+      "questiontext": "Để chuẩn bị cho bài kiểm tra về \"Diện tích mặt cầu và thể tích hình cầu\", bạn An lên kế hoạch ôn tập. Phương án nào sau đây thể hiện việc xây dựng và thực hiện chế độ học tập, sinh hoạt hợp lí (Q2)?",
+      "generalfeedback": "Xây dựng và thực hiện chế độ học tập hợp lí (Q2) là lập kế hoạch ôn tập đều đặn, phân bổ thời gian hợp lí giữa học tập và nghỉ ngơi.",
+      "answers": [
+        {
+          "text": "Phân bổ thời gian mỗi ngày 30 phút để xem lại lý thuyết, luyện tập các dạng bài tính diện tích, thể tích hình cầu và nghỉ ngơi điều độ.",
+          "fraction": 100
+        },
+        {
+          "text": "Thức thâu đêm ngay trước ngày thi để giải tất cả các bài tập nâng cao về hình cầu.",
+          "fraction": 0
+        },
+        {
+          "text": "Dành toàn bộ thời gian rảnh trong tuần để giải bài tập Toán mà bỏ qua các môn học khác.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ học thuộc lòng các công thức tính diện tích và thể tích vào 10 phút trước giờ kiểm tra.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Trước khi học bài \"Diện tích mặt cầu và thể tích hình cầu\", bạn Bình muốn tự đặt mục tiêu học tập cho bản thân. Mục tiêu nào sau đây là cụ thể và thể hiện nỗ lực phấn đấu thực hiện (G1)?",
+      "generalfeedback": "Tự đặt mục tiêu học tập (G1) cần cụ thể, rõ ràng về kiến thức/kỹ năng cần đạt (thuộc công thức S, V và giải bài tập thực tế) và có tính khả thi để phấn đấu.",
+      "answers": [
+        {
+          "text": "Nắm vững hai công thức \\(S = 4\\pi R^2\\) và \\(V = \\frac{4}{3}\\pi R^3\\), giải thành thạo các bài toán tính diện tích, thể tích và áp dụng giải được ít nhất 2 bài toán thực tế trong tuần.",
+          "fraction": 100
+        },
+        {
+          "text": "Cố gắng đạt điểm cao trong tất cả các bài kiểm tra môn Toán mà không cần kế hoạch cụ thể.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ cần thuộc công thức diện tích mặt cầu để không bị điểm kém khi trả bài.",
+          "fraction": 0
+        },
+        {
+          "text": "Học thuộc toàn bộ sách giáo khoa Toán lớp 9 trong vòng một ngày.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Cho tình huống: Một xưởng sản xuất muốn chế tạo các quả bóng nảy hình cầu bằng cao su có bán kính \\(R = 5\\text{ cm}\\). Xưởng cần tính toán lượng cao su nguyên liệu để đúc bóng và lượng sơn để phủ bề mặt bóng. Để giải quyết vấn đề này, giải pháp đề xuất nào sau đây là đúng đắn nhất dựa trên kiến thức toán học (G2)?",
+      "generalfeedback": "Đề xuất giải pháp giải quyết vấn đề (G2) đòi hỏi xác định đúng đại lượng toán học tương ứng với nhu cầu thực tế: thể tích \\(V\\) phản ánh lượng nguyên liệu chứa bên trong, diện tích \\(S\\) phản ánh lượng sơn phủ bề mặt.",
+      "answers": [
+        {
+          "text": "Sử dụng công thức thể tích hình cầu \\(V = \\frac{4}{3}\\pi R^3\\) để tính lượng cao su nguyên liệu đúc bóng, và công thức diện tích mặt cầu \\(S = 4\\pi R^2\\) để tính lượng sơn phủ bề mặt.",
+          "fraction": 100
+        },
+        {
+          "text": "Sử dụng công thức diện tích mặt cầu \\(S = 4\\pi R^2\\) để tính lượng cao su đúc bóng, và công thức thể tích \\(V = \\frac{4}{3}\\pi R^3\\) để tính lượng sơn.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ cần tính chu vi đường tròn lớn \\(C = 2\\pi R\\) là đủ để tính cả lượng cao su và lượng sơn.",
+          "fraction": 0
+        },
+        {
+          "text": "Đo trực tiếp khối lượng của một quả bóng bất kỳ mà không cần dùng đến các công thức toán học.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Xét thao tác tư duy phân tích và so sánh (D1): Khi bán kính của một hình cầu tăng lên \\(k\\) lần (với \\(k > 1\\)), diện tích mặt cầu tăng lên bao nhiêu lần và thể tích hình cầu tăng lên bao nhiêu lần?",
+      "generalfeedback": "Thực hiện thao tác tư duy (D1): Phân tích công thức \\(S = 4\\pi R^2\\) ta thấy \\(S\\) tỉ lệ thuận với \\(R^2\\) nên tăng \\(k^2\\) lần; phân tích công thức \\(V = \\frac{4}{3}\\pi R^3\\) ta thấy \\(V\\) tỉ lệ thuận với \\(R^3\\) nên tăng \\(k^3\\) lần.",
+      "answers": [
+        {
+          "text": "Diện tích mặt cầu tăng lên \\(k^2\\) lần, thể tích hình cầu tăng lên \\(k^3\\) lần.",
+          "fraction": 100
+        },
+        {
+          "text": "Diện tích mặt cầu tăng lên \\(k\\) lần, thể tích hình cầu tăng lên \\(k^2\\) lần.",
+          "fraction": 0
+        },
+        {
+          "text": "Cả diện tích mặt cầu và thể tích hình cầu đều tăng lên \\(k\\) lần.",
+          "fraction": 0
+        },
+        {
+          "text": "Diện tích mặt cầu tăng lên \\(2k\\) lần, thể tích hình cầu tăng lên \\(3k\\) lần.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_02_07",
+      "questiontext": "Một bồn chứa khí hóa lỏng được thiết kế dạng hình cầu với bán kính \\(R = 3\\text{ m}\\). Để đảm bảo an toàn, các kỹ sư thiết lập mô hình toán học để tính lượng sơn phản quang phủ bên ngoài bồn chứa và sức chứa khí tối đa của bồn (D2). Lấy \\(\\pi \\approx 3,14\\). Giá trị diện tích bề mặt cần sơn \\(S\\) và thể tích chứa khí \\(V\\) giải quyết từ mô hình là bao nhiêu?",
+      "generalfeedback": "Giải quyết vấn đề trong mô hình thiết lập (D2): Tính diện tích mặt cầu \\(S = 4\\pi R^2 = 4 \\times 3,14 \\times 3^2 = 113,04\\text{ m}^2\\). Tính thể tích hình cầu \\(V = \\frac{4}{3}\\pi R^3 = \\frac{4}{3} \\times 3,14 \\times 3^3 = 113,04\\text{ m}^3\\).",
+      "answers": [
+        {
+          "text": "\\(S = 113,04\\text{ m}^2\\) và \\(V = 113,04\\text{ m}^3\\).",
+          "fraction": 100
+        },
+        {
+          "text": "\\(S = 37,68\\text{ m}^2\\) và \\(V = 113,04\\text{ m}^3\\).",
+          "fraction": 0
+        },
+        {
+          "text": "\\(S = 113,04\\text{ m}^2\\) và \\(V = 339,12\\text{ m}^3\\).",
+          "fraction": 0
+        },
+        {
+          "text": "\\(S = 28,26\\text{ m}^2\\) và \\(V = 113,04\\text{ m}^3\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Ghép từng thao tác tư duy so sánh với kết quả tỉ lệ tương ứng khi bán kính hình cầu tăng từ \\(R\\) lên \\(2R\\) (D1):",
+      "generalfeedback": "Khi bán kính tăng 2 lần: bán kính tăng 2 lần, diện tích tăng \\(2^2 = 4\\) lần, thể tích tăng \\(2^3 = 8\\) lần.",
+      "subquestions": [
+        {
+          "question": "Tỉ số diện tích mặt cầu mới so với diện tích mặt cầu ban đầu",
+          "answer": "4"
+        },
+        {
+          "question": "Tỉ số thể tích hình cầu mới so với thể tích hình cầu ban đầu",
+          "answer": "8"
+        },
+        {
+          "question": "Tỉ số bán kính mới so với bán kính ban đầu",
+          "answer": "2"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Khi giải quyết bài toán đề xuất giải pháp tính lượng vật liệu chế tạo một vỏ kiến trúc hình cầu bán kính \\(R\\) (G2), ta chọn dùng công thức [[1]] để tính diện tích bề mặt, và dùng công thức [[2]] để tính không gian thể tích bên trong.",
+      "generalfeedback": "Diện tích bề mặt vỏ dùng công thức \\(S = 4\\pi R^2\\); không gian thể tích bên trong dùng công thức \\(V = \\frac{4}{3}\\pi R^3\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "S = 4\\pi R^2"
+        },
+        {
+          "group": 1,
+          "text": "V = \\frac{4}{3}\\pi R^3"
+        },
+        {
+          "group": 1,
+          "text": "C = 2\\pi R"
+        },
+        {
+          "group": 1,
+          "text": "S = \\pi R^2"
+        }
+      ]
+    }
+  ]
+}

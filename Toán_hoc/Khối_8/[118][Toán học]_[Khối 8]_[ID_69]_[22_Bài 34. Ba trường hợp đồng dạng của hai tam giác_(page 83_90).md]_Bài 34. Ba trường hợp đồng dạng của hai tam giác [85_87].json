@@ -1,0 +1,290 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 10,
+    "metadata_used": {
+      "Định lí Trường hợp đồng dạng thứ ba của hai tam giác (Góc - Góc: Nếu hai góc của tam giác này lần lượt bằng hai góc của tam giác kia thì hai tam giác đó đồng dạng)": 2,
+      "Nhận biết hai tam giác đồng dạng theo trường hợp G.G": 2,
+      "Sử dụng góc chung, góc đối đỉnh, góc đồng vị để tìm hai cặp góc bằng nhau": 2,
+      "Vận dụng trường hợp G.G tính độ dài đoạn thẳng": 2,
+      "YCCD_TOAN8_088": 2
+    },
+    "types_used": {
+      "multichoice": 3,
+      "truefalse": 1,
+      "matching": 1,
+      "gapselect": 1,
+      "ddwtos": 1,
+      "numerical": 1,
+      "calculatedsimple": 1,
+      "shortanswer": 1
+    },
+    "total": 10
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "Định lí Trường hợp đồng dạng thứ ba của hai tam giác (Góc - Góc: Nếu hai góc của tam giác này lần lượt bằng hai góc của tam giác kia thì hai tam giác đó đồng dạng)",
+        "reason": "Phù hợp với nội dung định lí trường hợp đồng dạng thứ ba (Góc - Góc) trong SGK."
+      },
+      {
+        "metadata_code": "Nhận biết hai tam giác đồng dạng theo trường hợp G.G",
+        "reason": "Phù hợp với việc nhận biết hai tam giác đồng dạng theo trường hợp G.G trong SGK."
+      },
+      {
+        "metadata_code": "Sử dụng góc chung, góc đối đỉnh, góc đồng vị để tìm hai cặp góc bằng nhau",
+        "reason": "Phù hợp với việc khai thác góc chung, góc đối đỉnh, góc đồng vị để tìm cặp góc bằng nhau."
+      },
+      {
+        "metadata_code": "Vận dụng trường hợp G.G tính độ dài đoạn thẳng",
+        "reason": "Phù hợp với việc vận dụng trường hợp G.G để tính độ dài đoạn thẳng."
+      },
+      {
+        "metadata_code": "YCCD_TOAN8_088",
+        "reason": "Phù hợp với việc giải thích các trường hợp đồng dạng của hai tam giác."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "SUB_GQVD_PHATHIEN_C2_01",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_05",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_08",
+        "reason": "Sẽ xử lý ở bước riêng"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Định lí Trường hợp đồng dạng thứ ba của hai tam giác (Góc - Góc: Nếu hai góc của tam giác này lần lượt bằng hai góc của tam giác kia thì hai tam giác đó đồng dạng)",
+      "questiontext": "Phát biểu nào sau đây là đúng về định lí trường hợp đồng dạng góc - góc của hai tam giác?",
+      "generalfeedback": "Theo định lí trường hợp đồng dạng thứ ba (góc - góc): Nếu hai góc của tam giác này lần lượt bằng hai góc của tam giác kia thì hai tam giác đó đồng dạng với nhau.",
+      "answers": [
+        {
+          "text": "Nếu hai góc của tam giác này lần lượt bằng hai góc của tam giác kia thì hai tam giác đó đồng dạng với nhau.",
+          "fraction": 100
+        },
+        {
+          "text": "Nếu hai cạnh của tam giác này lần lượt bằng hai cạnh của tam giác kia thì hai tam giác đó đồng dạng với nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Nếu ba góc của tam giác này lần lượt lớn hơn ba góc của tam giác kia thì hai tam giác đó đồng dạng với nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Nếu hai góc của tam giác này tỉ lệ với hai góc của tam giác kia thì hai tam giác đó đồng dạng với nhau.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Định lí Trường hợp đồng dạng thứ ba của hai tam giác (Góc - Góc: Nếu hai góc của tam giác này lần lượt bằng hai góc của tam giác kia thì hai tam giác đó đồng dạng)",
+      "questiontext": "Cho hai tam giác \\(\\Delta ABC\\) và \\(\\Delta A'B'C'\\) có \\(\\widehat{A} = \\widehat{A'} = 70^\\circ\\) và \\(\\widehat{B} = \\widehat{B'} = 50^\\circ\\). Khi đó, \\(\\Delta ABC\\) đồng dạng với \\(\\Delta A'B'C'\\) theo trường hợp góc - góc. Khẳng định trên đúng hay sai?",
+      "generalfeedback": "Đúng vì hai tam giác có hai cặp góc tương ứng bằng nhau (\\(\\widehat{A} = \\widehat{A'}\\) và \\(\\widehat{B} = \\widehat{B'}\\)) nên đồng dạng theo trường hợp góc - góc (g.g).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết hai tam giác đồng dạng theo trường hợp G.G",
+      "imgs": [
+        "_page_6_Picture_2.jpeg"
+      ],
+      "questiontext": "Cho tam giác \\(\\Delta ABC\\) có \\(\\widehat{A} = 60^\\circ\\) và \\(\\widehat{B} = 50^\\circ\\) như hình vẽ:\n[img:_page_6_Picture_2.jpeg]\nTam giác nào dưới đây đồng dạng với \\(\\Delta ABC\\)?",
+      "generalfeedback": "Tam giác đồng dạng với \\(\\Delta ABC\\) phải có hai góc lần lượt bằng \\(60^\\circ\\) và \\(50^\\circ\\), đó là tam giác \\(\\Delta DEF\\) có \\(\\widehat{D} = 60^\\circ\\) và \\(\\widehat{E} = 50^\\circ\\).",
+      "answers": [
+        {
+          "text": "\\(\\Delta DEF\\) có \\(\\widehat{D} = 60^\\circ\\) và \\(\\widehat{E} = 50^\\circ\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\Delta MNP\\) có \\(\\widehat{M} = 60^\\circ\\) và \\(\\widehat{N} = 70^\\circ\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\Delta HIK\\) có \\(\\widehat{H} = 90^\\circ\\) và \\(\\widehat{I} = 45^\\circ\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\Delta XYZ\\) có \\(\\widehat{X} = 80^\\circ\\) và \\(\\widehat{Y} = 40^\\circ\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết hai tam giác đồng dạng theo trường hợp G.G",
+      "questiontext": "Hãy ghép mỗi cặp điều kiện của hai tam giác \\(\\Delta ABC\\) và \\(\\Delta A'B'C'\\) ở cột bên trái với kết luận kí hiệu đồng dạng tương ứng ở cột bên phải:",
+      "generalfeedback": "Áp dụng định lí đồng dạng góc - góc để viết đúng thứ tự các đỉnh tương ứng của hai tam giác.",
+      "subquestions": [
+        {
+          "question": "\\(\\widehat{A} = \\widehat{A'}\\) và \\(\\widehat{B} = \\widehat{B'}\\)",
+          "answer": "\\(\\Delta ABC \\sim \\Delta A'B'C'\\)"
+        },
+        {
+          "question": "\\(\\widehat{A} = \\widehat{B'}\\) và \\(\\widehat{B} = \\widehat{C'}\\)",
+          "answer": "\\(\\Delta ABC \\sim \\Delta B'C'A'\\)"
+        },
+        {
+          "question": "\\(\\widehat{B} = \\widehat{A'}\\) và \\(\\widehat{C} = \\widehat{C'}\\)",
+          "answer": "\\(\\Delta ABC \\sim \\Delta A'C'B'\\)"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Sử dụng góc chung, góc đối đỉnh, góc đồng vị để tìm hai cặp góc bằng nhau",
+      "questiontext": "Cho góc \\(BAC\\) và các điểm \\(M, N\\) lần lượt nằm trên các đoạn thẳng \\(AB, AC\\) sao cho \\(\\widehat{ABN} = \\widehat{ACM}\\). Hai tam giác \\(\\Delta ABN\\) và \\(\\Delta ACM\\) có góc [[1]] chung và \\(\\widehat{ABN} = \\widehat{ACM}\\) (theo giả thiết), do đó \\(\\Delta ABN \\sim \\Delta ACM\\) theo trường hợp [[2]].",
+      "generalfeedback": "Hai tam giác \\(\\Delta ABN\\) và \\(\\Delta ACM\\) có góc A chung và \\(\\widehat{ABN} = \\widehat{ACM}\\) nên đồng dạng theo trường hợp góc - góc (g.g).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(\\widehat{BAC}\\)"
+        },
+        {
+          "group": 1,
+          "text": "góc - góc"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\widehat{ABC}\\)"
+        },
+        {
+          "group": 1,
+          "text": "cạnh - cạnh - cạnh"
+        },
+        {
+          "group": 1,
+          "text": "cạnh - góc - cạnh"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "Sử dụng góc chung, góc đối đỉnh, góc đồng vị để tìm hai cặp góc bằng nhau",
+      "questiontext": "Cho hai đường thẳng \\(BN\\) và \\(CM\\) cắt nhau tại điểm \\(I\\). Xét hai tam giác \\(\\Delta IBM\\) và \\(\\Delta ICN\\), ta có \\(\\widehat{BIM} = \\widehat{CIN}\\) vì đây là hai góc [[1]]. Nếu có thêm \\(\\widehat{IBM} = \\widehat{ICN}\\) thì \\(\\Delta IBM \\sim \\Delta ICN\\) theo trường hợp [[2]].",
+      "generalfeedback": "Hai góc đối đỉnh thì bằng nhau. Khi có thêm một cặp góc bằng nhau thì hai tam giác đồng dạng theo trường hợp góc - góc.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "đối đỉnh"
+        },
+        {
+          "group": 1,
+          "text": "góc - góc"
+        },
+        {
+          "group": 1,
+          "text": "đồng vị"
+        },
+        {
+          "group": 1,
+          "text": "so le trong"
+        },
+        {
+          "group": 1,
+          "text": "cạnh - góc - cạnh"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng trường hợp G.G tính độ dài đoạn thẳng",
+      "questiontext": "Bạn Tròn đứng ở điểm A bên bờ sông, quan sát cột cờ ở điểm C bên kia sông. Bạn Pi đo đoạn AB = 10 m, \\(\\widehat{ABC} = 70^\\circ\\), \\(\\widehat{BAC} = 80^\\circ\\). Trên giấy, bạn Pi vẽ tam giác \\(\\Delta A'B'C'\\) có A'B' = 2 cm, \\(\\widehat{A'B'C'} = 70^\\circ\\), \\(\\widehat{B'A'C'} = 80^\\circ\\) và đo được A'C' = 3.76 cm. Tính khoảng cách từ vị trí bạn Tròn (điểm A) đến chân cột cờ (điểm C) theo đơn vị mét. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Vì \\(\\Delta A'B'C' \\sim \\Delta ABC\\) (g.g) nên \\(\\frac{A'C'}{AC} = \\frac{A'B'}{AB}\\). Thay số: \\(\\frac{3.76\\text{ cm}}{AC} = \\frac{2\\text{ cm}}{10\\text{ m}} \\Rightarrow AC = \\frac{3.76 \\times 10}{2} = 18.8\\text{ m}.",
+      "answers": [
+        {
+          "text": "18.8",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng trường hợp G.G tính độ dài đoạn thẳng",
+      "questiontext": "Cho hai chiếc cột dựng thẳng đứng trên mặt đất có chiều cao lần lượt là 3 m và {b} m. Hai sợi dây nối từ đỉnh cột này đến chân cột kia cắt nhau tại điểm H có độ cao h so với mặt đất. Biết công thức tính h là h = (3 * {b}) / (3 + {b}). Hãy tính giá trị của h. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Độ cao h của giao điểm hai sợi dây nối đỉnh và chân cột được tính theo công thức h = (a * b) / (a + b). Ở đây cột thứ nhất có chiều cao 3 m và cột thứ hai có chiều cao {b} m nên h = (3 * {b}) / (3 + {b}).",
+      "wildcards": [
+        {
+          "name": "b",
+          "min": 2.0,
+          "max": 6.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "(3*{b})/(3+{b})",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_088",
+      "questiontext": "Giải thích vì sao hai tam giác đồng dạng với nhau theo trường hợp góc - góc nếu biết hai góc của tam giác này lần lượt bằng hai góc của tam giác kia?",
+      "generalfeedback": "Khi hai góc của tam giác này lần lượt bằng hai góc của tam giác kia, góc thứ ba của hai tam giác cũng bằng nhau (do tổng ba góc trong một tam giác bằng \\(180^\\circ\\)). Bằng cách dựng một tam giác trung gian song song với một cạnh, ta chứng minh được tam giác trung gian này bằng tam giác ban đầu và đồng dạng với tam giác thứ hai.",
+      "answers": [
+        {
+          "text": "Vì tổng ba góc trong một tam giác luôn bằng \\(180^\\circ\\) nên góc thứ ba cũng bằng nhau; kết hợp với việc dựng đường song song tạo ra tam giác bằng tam giác ban đầu và đồng dạng với tam giác còn lại.",
+          "fraction": 100
+        },
+        {
+          "text": "Vì hai tam giác có hai góc bằng nhau thì ba cạnh của chúng luôn tự động bằng nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Vì tỉ số các góc của hai tam giác luôn bằng tỉ số các cạnh tương ứng.",
+          "fraction": 0
+        },
+        {
+          "text": "Vì hai góc bằng nhau thì chu vi của hai tam giác luôn bằng nhau.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_088",
+      "questiontext": "Hãy nêu tên kí hiệu viết tắt của trường hợp đồng dạng thứ ba của hai tam giác (trường hợp góc - góc).",
+      "generalfeedback": "Kí hiệu viết tắt của trường hợp đồng dạng thứ ba (góc - góc) là g.g.",
+      "answers": [
+        {
+          "text": "g.g",
+          "fraction": 100
+        }
+      ]
+    }
+  ]
+}

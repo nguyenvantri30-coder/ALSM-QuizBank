@@ -1,0 +1,674 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 26,
+    "metadata_used": {
+      "Khái niệm Phân thức nghịch đảo": 3,
+      "Quy tắc chia hai phân thức đại số (A/B : C/D = A/B . D/C với C/D khác 0)": 3,
+      "Tìm phân thức nghịch đảo của phân thức cho trước": 3,
+      "Thực hiện phép chia hai phân thức đại số": 5,
+      "Biến đổi biểu thức phối hợp nhân và chia phân thức": 3,
+      "YCCD_TOAN8_031": 3,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TUHOC_C2_04": 2,
+      "NLT_TOAN_C2_01_01": 1,
+      "NLT_TOAN_C2_03_05": 1
+    },
+    "types_used": {
+      "multichoice": 18,
+      "gapselect": 2,
+      "truefalse": 3,
+      "ddwtos": 1,
+      "matching": 2
+    },
+    "total": 26
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN8_031",
+        "reason": "Có đầy đủ ví dụ, luyện tập và bài tập sgk về phép chia hai phân thức đại số."
+      },
+      {
+        "metadata_code": "Khái niệm Phân thức nghịch đảo",
+        "reason": "Có định nghĩa khái niệm phân thức nghịch đảo trong nội dung SGK."
+      },
+      {
+        "metadata_code": "Quy tắc chia hai phân thức đại số (A/B : C/D = A/B . D/C với C/D khác 0)",
+        "reason": "Có phát biểu quy tắc chia hai phân thức đại số trong SGK."
+      },
+      {
+        "metadata_code": "Tìm phân thức nghịch đảo của phân thức cho trước",
+        "reason": "Có bài tập và câu hỏi tìm phân thức nghịch đảo trong SGK."
+      },
+      {
+        "metadata_code": "Thực hiện phép chia hai phân thức đại số",
+        "reason": "Có ví dụ 2, luyện tập 2 và các bài tập 6.27 thực hiện phép chia phân thức."
+      },
+      {
+        "metadata_code": "Biến đổi biểu thức phối hợp nhân và chia phân thức",
+        "reason": "Có thử thách nhỏ và các bài tập 6.28, 6.29 biến đổi phối hợp nhân và chia phân thức."
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm Phân thức nghịch đảo",
+      "questiontext": "Hai phân thức \\(\\frac{A}{B}\\) và \\(\\frac{C}{D}\\) (với \\(A, B, C, D \\neq 0\\)) được gọi là nghịch đảo của nhau nếu tích của chúng bằng bao nhiêu?",
+      "generalfeedback": "Theo khái niệm, hai phân thức được gọi là nghịch đảo của nhau nếu tích của chúng bằng 1.",
+      "answers": [
+        {
+          "text": "1",
+          "fraction": 100
+        },
+        {
+          "text": "0",
+          "fraction": 0
+        },
+        {
+          "text": "-1",
+          "fraction": 0
+        },
+        {
+          "text": "2",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm Phân thức nghịch đảo",
+      "questiontext": "Phân thức nghịch đảo của phân thức \\(\\frac{C}{D}\\) (với \\(C, D \\neq 0\\)) là [[1]]. Tích \\(\\frac{C}{D} \\cdot \\frac{D}{C} =\\) [[2]].",
+      "generalfeedback": "Phân thức nghịch đảo của \\(\\frac{C}{D}\\) là \\(\\frac{D}{C}\\) và tích của hai phân thức nghịch đảo bằng 1.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(\\frac{D}{C}\\)"
+        },
+        {
+          "group": 1,
+          "text": "1"
+        },
+        {
+          "group": 1,
+          "text": "\\(-\\frac{C}{D}\\)"
+        },
+        {
+          "group": 1,
+          "text": "0"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Khái niệm Phân thức nghịch đảo",
+      "questiontext": "Phân thức nghịch đảo của phân thức \\(\\frac{x - 1}{x + 2}\\) (với \\(x \\neq 1, x \\neq -2\\)) là \\(\\frac{x + 2}{x - 1}\\). Đúng hay Sai?",
+      "generalfeedback": "Phân thức nghịch đảo của \\(\\frac{A}{B}\\) là \\(\\frac{B}{A}\\). Do đó phân thức nghịch đảo của \\(\\frac{x - 1}{x + 2}\\) là \\(\\frac{x + 2}{x - 1}\\). Mệnh đề này Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc chia hai phân thức đại số (A/B : C/D = A/B . D/C với C/D khác 0)",
+      "questiontext": "Muốn chia phân thức \\(\\frac{A}{B}\\) cho phân thức \\(\\frac{C}{D}\\) khác 0, ta làm như thế nào?",
+      "generalfeedback": "Quy tắc chia hai phân thức: Muốn chia phân thức \\(\\frac{A}{B}\\) cho phân thức \\(\\frac{C}{D}\\) khác 0, ta nhân \\(\\frac{A}{B}\\) với phân thức nghịch đảo của \\(\\frac{C}{D}\\), tức là \\(\\frac{A}{B} : \\frac{C}{D} = \\frac{A}{B} \\cdot \\frac{D}{C}\\).",
+      "answers": [
+        {
+          "text": "Nhân \\(\\frac{A}{B}\\) với phân thức \\(\\frac{D}{C}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Nhân \\(\\frac{A}{B}\\) với phân thức \\(\\frac{C}{D}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Chia tử \\(A\\) cho \\(C\\) và mẫu \\(B\\) cho \\(D\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Cộng \\(\\frac{A}{B}\\) với phân thức \\(\\frac{D}{C}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc chia hai phân thức đại số (A/B : C/D = A/B . D/C với C/D khác 0)",
+      "questiontext": "Điền phân thức còn thiếu vào chỗ trống: \\(\\frac{A}{B} : \\frac{C}{D} = \\frac{A}{B} \\cdot ...\\) (với \\(\\frac{C}{D} \\neq 0\\)).",
+      "generalfeedback": "Theo quy tắc chia hai phân thức: \\(\\frac{A}{B} : \\frac{C}{D} = \\frac{A}{B} \\cdot \\frac{D}{C}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{D}{C}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(-\\frac{D}{C}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2\\frac{D}{C}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-2\\frac{D}{C}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc chia hai phân thức đại số (A/B : C/D = A/B . D/C với C/D khác 0)",
+      "questiontext": "Để tính thương \\(\\frac{3x}{y} : \\frac{2z}{t}\\) (với \\(y, z, t \\neq 0\\)), ta lấy phân thức [[1]] nhân với phân thức [[2]].",
+      "generalfeedback": "Thực hiện quy tắc chia hai phân thức: lấy \\(\\frac{3x}{y}\\) nhân với phân thức nghịch đảo của \\(\\frac{2z}{t}\\) là \\(\\frac{t}{2z}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(\\frac{3x}{y}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{t}{2z}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{2z}{t}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{y}{3x}\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Tìm phân thức nghịch đảo của phân thức cho trước",
+      "questiontext": "Phân thức nghịch đảo của phân thức \\(\\frac{3x}{2y^2}\\) (với \\(x, y \\neq 0\\)) là phân thức nào sau đây?",
+      "generalfeedback": "Phân thức nghịch đảo của \\(\\frac{3x}{2y^2}\\) thu được bằng cách đổi chỗ tử thức và mẫu thức, ta được \\(\\frac{2y^2}{3x}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{2y^2}{3x}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(-\\frac{3x}{2y^2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-\\frac{2y^2}{3x}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{3y^2}{2x}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Tìm phân thức nghịch đảo của phân thức cho trước",
+      "questiontext": "Hãy ghép mỗi phân thức ở cột bên trái với phân thức nghịch đảo tương ứng ở cột bên phải.",
+      "generalfeedback": "Phân thức nghịch đảo của \\(\\frac{A}{B}\\) là \\(\\frac{B}{A}\\) (với \\(A, B \\neq 0\\)).",
+      "subquestions": [
+        {
+          "question": "Phân thức nghịch đảo của \\(\\frac{5}{x^2-1}\\) là",
+          "answer": "\\(\\frac{x^2-1}{5}\\)"
+        },
+        {
+          "question": "Phân thức nghịch đảo của \\(\\frac{x+3}{x}\\) là",
+          "answer": "\\(\\frac{x}{x+3}\\)"
+        },
+        {
+          "question": "Phân thức nghịch đảo của \\(-\\frac{5x^2}{12y^3}\\) là",
+          "answer": "\\(-\\frac{12y^3}{5x^2}\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Tìm phân thức nghịch đảo của phân thức cho trước",
+      "questiontext": "Cho phân thức \\(P = \\frac{x^2 - 9}{x^2 + 3x}\\) (với \\(x \\neq 0, x \\neq \\pm 3\\)). Sau khi rút gọn \\(P\\), phân thức nghịch đảo của \\(P\\) là:",
+      "generalfeedback": "Rút gọn \\(P = \\frac{(x-3)(x+3)}{x(x+3)} = \\frac{x-3}{x}\\). Phân thức nghịch đảo của \\(P\\) là \\(\\frac{x}{x-3}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{x}{x - 3}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{x - 3}{x}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{x + 3}{x}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{x}{x + 3}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Thực hiện phép chia hai phân thức đại số",
+      "questiontext": "Kết quả của phép chia \\(\\frac{2x}{y} : \\frac{4x}{y^2}\\) (với \\(x, y \\neq 0\\)) là:",
+      "generalfeedback": "Ta có: \\(\\frac{2x}{y} : \\frac{4x}{y^2} = \\frac{2x}{y} \\cdot \\frac{y^2}{4x} = \\frac{2x \\cdot y^2}{y \\cdot 4x} = \\frac{y}{2}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{y}{2}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{2}{y}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{8x^2}{y^3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{y^3}{8x^2}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép chia hai phân thức đại số",
+      "questiontext": "Thực hiện phép tính chia phân thức trong Ví dụ 2 (SGK): \\(\\frac{5}{x^2-1} : \\frac{3}{x^2-x}\\) (với \\(x \\neq 0, x \\neq \\pm 1\\)). Kết quả rút gọn là:",
+      "generalfeedback": "Ta có: \\(\\frac{5}{x^2-1} : \\frac{3}{x^2-x} = \\frac{5}{(x-1)(x+1)} \\cdot \\frac{x(x-1)}{3} = \\frac{5x(x-1)}{3(x-1)(x+1)} = \\frac{5x}{3(x+1)}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{5x}{3(x+1)}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{5}{3x(x+1)}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{5x}{3(x-1)}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{15x}{x+1}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép chia hai phân thức đại số",
+      "questiontext": "Thực hiện phép chia trong Luyện tập 2 (SGK): \\(\\frac{3x}{2y^2} : \\left(-\\frac{5x^2}{12y^3}\\right)\\) (với \\(x, y \\neq 0\\)). Nhập kết quả phân thức dạng rút gọn.",
+      "generalfeedback": "Ta có: \\(\\frac{3x}{2y^2} : \\left(-\\frac{5x^2}{12y^3}\\right) = \\frac{3x}{2y^2} \\cdot \\left(-\\frac{12y^3}{5x^2}\\right) = -\\frac{36xy^3}{10x^2y^2} = -\\frac{18y}{5x}\\).",
+      "answers": [
+        {
+          "text": "-\\(\\frac{18y}{5x}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{18y}{5x}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "-\\(\\frac{19y}{5x}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "-\\(\\frac{17y}{5x}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép chia hai phân thức đại số",
+      "questiontext": "Kết quả phép tính chia (Bài 6.27a SGK): \\(\\left(-\\frac{3x}{5xy^2}\\right) : \\left(-\\frac{5y^2}{12xy}\\right)\\) (với \\(x, y \\neq 0\\)) là:",
+      "generalfeedback": "Ta có: \\(\\left(-\\frac{3x}{5xy^2}\\right) : \\left(-\\frac{5y^2}{12xy}\\right) = \\left(-\\frac{3}{5y^2}\\right) \\cdot \\left(-\\frac{12x}{5y}\\right) = \\frac{36x}{25y^3}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{36x}{25y^3}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "-\\(\\frac{36x}{25y^3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{25y^3}{36x}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{36}{25xy^3}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện phép chia hai phân thức đại số",
+      "questiontext": "Thực hiện phép tính chia phân thức (Bài 6.27b SGK): \\(\\frac{4x^2-1}{8x^3-1} : \\frac{4x^2+4x+1}{4x^2+2x+1}\\) (với điều kiện xác định hợp lệ). Kết quả rút gọn là:",
+      "generalfeedback": "Phân tích các tử và mẫu thành nhân tử:\n\\(4x^2-1 = (2x-1)(2x+1)\\),\n\\(8x^3-1 = (2x-1)(4x^2+2x+1)\\),\n\\(4x^2+4x+1 = (2x+1)^2\\).\nThực hiện phép chia: \\(\\frac{(2x-1)(2x+1)}{(2x-1)(4x^2+2x+1)} \\cdot \\frac{4x^2+2x+1}{(2x+1)^2} = \\frac{2x+1}{4x^2+2x+1} \\cdot \\frac{4x^2+2x+1}{(2x+1)^2} = \\frac{1}{2x+1}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{1}{2x+1}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{1}{2x-1}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2x+1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{2x-1}{2x+1}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Biến đổi biểu thức phối hợp nhân và chia phân thức",
+      "questiontext": "Trong Thử thách nhỏ (SGK), xét hai biểu thức: \\(M = \\left(\\frac{1}{x} : \\frac{1}{x}\\right) : \\frac{1}{x}\\) và \\(N = \\frac{1}{x} : \\left(\\frac{1}{x} : \\frac{1}{x}\\right)\\) (với \\(x \\neq 0\\)). Khẳng định nào sau đây là đúng?",
+      "generalfeedback": "Vế trái: \\(M = (1) : \\frac{1}{x} = x\\).\nVế phải: \\(N = \\frac{1}{x} : (1) = \\frac{1}{x}\\).\nDo \\(x \\neq \\frac{1}{x}\\) nói chung (ví dụ với \\(x = 2\\) thì \\(2 \\neq \\frac{1}{2}\\)), nên kết luận \\(M = N\\) là sai.",
+      "answers": [
+        {
+          "text": "Kết luận hai biểu thức bằng nhau là sai vì vế trái bằng \\(x\\), vế phải bằng \\(\\frac{1}{x}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Kết luận hai biểu thức bằng nhau là đúng với mọi \\(x \\neq 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Kết luận hai biểu thức bằng nhau là sai vì vế trái bằng \\(1\\), vế phải bằng \\(x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Cả hai vế đều có giá trị bằng \\(1\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Biến đổi biểu thức phối hợp nhân và chia phân thức",
+      "questiontext": "Tìm phân thức \\(P\\) thỏa mãn (Bài 6.28a SGK): \\(P \\cdot \\frac{x+1}{2x+1} = \\frac{x^2+x}{4x^2-1}\\) (với điều kiện xác định hợp lệ).",
+      "generalfeedback": "Ta có \\(P = \\frac{x^2+x}{4x^2-1} : \\frac{x+1}{2x+1} = \\frac{x(x+1)}{(2x-1)(2x+1)} \\cdot \\frac{2x+1}{x+1} = \\frac{x}{2x-1}\\).",
+      "answers": [
+        {
+          "text": "\\(P = \\frac{x}{2x-1}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(P = \\frac{x}{2x+1}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(P = \\frac{x+1}{2x-1}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(P = \\frac{x(x+1)}{2x-1}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Biến đổi biểu thức phối hợp nhân và chia phân thức",
+      "questiontext": "Tìm phân thức \\(Q\\) thỏa mãn (Bài 6.28b SGK): \\(Q : \\frac{x^2}{x^2+4x+4} = \\frac{(x+1)(x+2)}{x^2-2x}\\) (với điều kiện xác định hợp lệ).",
+      "generalfeedback": "Ta có \\(Q = \\frac{(x+1)(x+2)}{x(x-2)} \\cdot \\frac{x^2}{(x+2)^2} = \\frac{(x+1)(x+2) \\cdot x^2}{x(x-2)(x+2)^2} = \\frac{x(x+1)}{(x-2)(x+2)} = \\frac{x^2+x}{x^2-4}\\).",
+      "answers": [
+        {
+          "text": "\\(Q = \\frac{x^2+x}{x^2-4}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(Q = \\frac{x+1}{x-2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(Q = \\frac{x^2+x}{x+2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(Q = \\frac{x}{x^2-4}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_031",
+      "questiontext": "Cho hai phân thức \\(P = \\frac{x^2 + 6x + 9}{x^2 + 3x}\\) và \\(Q = \\frac{x^2 + 3x}{x^2 - 9}\\) (với \\(x \\neq 0, x \\neq \\pm 3\\)). Tính thương \\(P : Q\\) (Bài 6.29b SGK).",
+      "generalfeedback": "Rút gọn \\(P = \\frac{(x+3)^2}{x(x+3)} = \\frac{x+3}{x}\\) và \\(Q = \\frac{x(x+3)}{(x-3)(x+3)} = \\frac{x}{x-3}\\).\nThương \\(P : Q = \\frac{x+3}{x} : \\frac{x}{x-3} = \\frac{x+3}{x} \\cdot \\frac{x-3}{x} = \\frac{x^2-9}{x^2}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{x^2-9}{x^2}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{x+3}{x-3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{x-3}{x+3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{x^2}{x^2-9}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_031",
+      "questiontext": "Phát biểu nào sau đây thể hiện đúng yêu cầu cần đạt khi thực hiện phép chia hai phân thức đại số?",
+      "generalfeedback": "Yêu cầu cần đạt Y1 quy định học sinh thực hiện được phép chia đối với hai phân thức đại số bằng cách nhân phân thức bị chia với phân thức nghịch đảo của phân thức chia.",
+      "answers": [
+        {
+          "text": "Ta lấy phân thức bị chia nhân với phân thức nghịch đảo của phân thức chia (khác 0)",
+          "fraction": 100
+        },
+        {
+          "text": "Ta lấy tử thức chia cho tử thức và mẫu thức chia cho mẫu thức",
+          "fraction": 0
+        },
+        {
+          "text": "Ta giữ nguyên hai phân thức và quy đồng mẫu thức rồi thực hiện phép chia tử",
+          "fraction": 0
+        },
+        {
+          "text": "Ta đổi dấu cả tử thức và mẫu thức của phân thức bị chia",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_031",
+      "questiontext": "Với mọi giá trị của \\(x \\neq 0\\) và \\(y \\neq 0\\), phép chia \\(\\frac{x}{y} : \\frac{x}{y}\\) luôn cho kết quả bằng 1. Đúng hay Sai?",
+      "generalfeedback": "Ta có \\(\\frac{x}{y} : \\frac{x}{y} = \\frac{x}{y} \\cdot \\frac{y}{x} = 1\\) với mọi \\(x, y \\neq 0\\). Mệnh đề này Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi gặp một bài toán phức tạp về phép chia hai phân thức đại số (như rút gọn biểu thức kết hợp phép nhân và phép chia) mà chưa tìm ra hướng giải ngay, bạn Nam nên thực hiện hành động nào sau đây để thể hiện ý chí vượt khó và nỗ lực trong học tập?",
+      "generalfeedback": "Thái độ cố gắng vươn lên trong học tập biểu hiện qua việc kiên trì phân tích bài toán, ôn lại kiến thức cốt lõi (quy tắc chia phân thức, phân tích đa thức thành nhân tử) để tìm lời giải thay vì bỏ cuộc hay chép bài.",
+      "answers": [
+        {
+          "text": "Kiên trì xem lại quy tắc chia phân thức, phân tích các tử và mẫu thành nhân tử để tìm cách rút gọn từng bước",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài toán đó và chờ đến lớp chép đáp án của thầy cô",
+          "fraction": 0
+        },
+        {
+          "text": "Chép luôn bài làm của bạn khác để nộp cho xong bài tập",
+          "fraction": 0
+        },
+        {
+          "text": "Tự kết luận bài quá khó vượt khả năng và dừng lại không làm nữa",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi làm bài tập chia phân thức đại số bị sai kết quả, bạn An chủ động tìm lại từng bước biến đổi xem mình nhầm ở quy tắc đảo phân thức hay rút gọn để sửa lại. Hành vi này thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập. Đúng hay Sai?",
+      "generalfeedback": "Chủ động phát hiện lỗi sai, tự điều chỉnh và rút kinh nghiệm trong quá trình giải toán là biểu hiện tích cực của phẩm chất chăm chỉ, nỗ lực vươn lên trong học tập.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Để lưu giữ thông tin cốt lõi của bài 'Chia hai phân thức đại số' dưới dạng bản đồ khái niệm, bạn Mai tóm tắt quy tắc: Muốn chia phân thức \\(\\frac{A}{B}\\) cho phân thức \\(\\frac{C}{D}\\) (với \\(\\frac{C}{D} \\neq 0\\)), ta lấy \\(\\frac{A}{B}\\) nhân với [[1]] của \\(\\frac{C}{D}\\), tức là \\(\\frac{A}{B} \\cdot\\) [[2]].",
+      "generalfeedback": "Bản đồ khái niệm tóm tắt kiến thức bằng các từ khóa chính: 'phân thức nghịch đảo' và công thức \\(\\frac{D}{C}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "phân thức nghịch đảo"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{D}{C}\\)"
+        },
+        {
+          "group": 1,
+          "text": "phân thức đối"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{C}{D}\\)"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Để tóm tắt kiến thức bài 'Phép nhân và phép chia phân thức đại số' vào bảng ghi nhớ, hãy ghép từ khóa/công thức ở cột bên trái với nội dung ý nghĩa tương ứng ở cột bên phải.",
+      "generalfeedback": "Việc sắp xếp thông tin có chọn lọc vào bảng ghi nhớ giúp hệ thống hóa kiến thức bài học một cách khoa học.",
+      "subquestions": [
+        {
+          "question": "\\(\\frac{D}{C}\\) (với \\(C, D \\neq 0\\))",
+          "answer": "Phân thức nghịch đảo của \\(\\frac{C}{D}\\)"
+        },
+        {
+          "question": "\\(\\frac{A}{B} : \\frac{C}{D} = \\frac{A}{B} \\cdot \\frac{D}{C}\\)",
+          "answer": "Quy tắc chia hai phân thức đại số"
+        },
+        {
+          "question": "\\(\\frac{C}{D} \\cdot \\frac{D}{C} = 1\\)",
+          "answer": "Tích của hai phân thức nghịch đảo"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Khi thực hiện tính phép chia \\(\\frac{5}{x^2-1} : \\frac{3}{x^2-x}\\) (Ví dụ 2 SGK), học sinh tiến hành các thao tác tư duy: (1) Chuyển phép chia thành phép nhân với phân thức nghịch đảo \\(\\frac{x^2-x}{3}\\); (2) Phân tích tử và mẫu thành nhân tử: \\(x^2-1 = (x-1)(x+1)\\) và \\(x^2-x = x(x-1)\\); (3) Triệt hạ nhân tử chung \\(x-1\\) để được kết quả \\(\\frac{5x}{3(x+1)}\\). Thao tác phân tích đa thức thành nhân tử ở bước (2) thể hiện thao tác tư duy nào?",
+      "generalfeedback": "Phân tích đa thức thành nhân tử là thao tác tư duy phân tích (tách một tổng/hiệu thành tích các nhân tử) nhằm phát hiện nhân tử chung giữa tử và mẫu để rút gọn phân thức.",
+      "answers": [
+        {
+          "text": "Thao tác phân tích (tách đa thức thành tích các nhân tử) nhằm tìm nhân tử chung để rút gọn",
+          "fraction": 100
+        },
+        {
+          "text": "Thao tác tổng hợp (gộp các phân thức thành một phân thức duy nhất)",
+          "fraction": 0
+        },
+        {
+          "text": "Thao tác so sánh (đối chiếu hai phân thức xem phân thức nào lớn hơn)",
+          "fraction": 0
+        },
+        {
+          "text": "Thao tác cụ thể hóa (thay số cụ thể vào biểu thức)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Trong tình huống Vận dụng (SGK), bác Châu vay 1,2 tỉ đồng trả góp trong \\(y\\) tháng với lãi suất năm \\(r\\). Số tiền phải trả hằng tháng là \\(x = \\frac{1200}{y} + 100r\\) (triệu đồng). Để giải quyết vấn đề thực tiễn: 'Tìm công thức tính lãi suất năm \\(r\\) theo \\(x\\) và \\(y\\)', học sinh đã vận dụng kĩ năng toán học nào?",
+      "generalfeedback": "Để tìm \\(r\\) theo \\(x\\) và \\(y\\), ta biến đổi đại số: \\(x - \\frac{1200}{y} = 100r \\Rightarrow \\frac{xy - 1200}{y} = 100r \\Rightarrow r = \\frac{xy - 1200}{100y}\\). Đây là kĩ năng biến đổi biểu thức đại số và chuyển đổi giữa các đại lượng trong mô hình toán học thực tiễn.",
+      "answers": [
+        {
+          "text": "Biến đổi biểu thức đại số để chuyển đổi công thức, rút ẩn \\(r\\) theo hai biến \\(x\\) và \\(y\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Vẽ biểu đồ phần trăm để biểu diễn các khoản tiền",
+          "fraction": 0
+        },
+        {
+          "text": "Quy đồng mẫu thức nhiều phân thức đại số phức tạp",
+          "fraction": 0
+        },
+        {
+          "text": "Đo đạc và thu thập số liệu thực địa",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

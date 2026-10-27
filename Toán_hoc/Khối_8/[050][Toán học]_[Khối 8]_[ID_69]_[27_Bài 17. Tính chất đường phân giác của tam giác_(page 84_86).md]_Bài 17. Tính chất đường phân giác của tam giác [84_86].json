@@ -1,0 +1,677 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 26,
+    "metadata_used": {
+      "Định lí Tính chất đường phân giác trong và ngoài của tam giác (chia cạnh đối diện thành hai đoạn thẳng tỉ lệ với hai cạnh kề)": 7,
+      "YCCD_TOAN8_084": 3,
+      "Sử dụng tính chất đường phân giác để tính độ dài đoạn thẳng": 7,
+      "Tính tỉ số độ dài các đoạn thẳng do đường phân giác tạo ra": 3,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TUHOC_C2_04": 2,
+      "NLT_TOAN_C2_01_05": 2,
+      "NLT_TOAN_C2_03_05": 1
+    },
+    "types_used": {
+      "multichoice": 14,
+      "truefalse": 3,
+      "numerical": 2,
+      "gapselect": 1,
+      "matching": 3,
+      "calculated": 1,
+      "ddwtos": 1,
+      "calculatedsimple": 1
+    },
+    "total": 26
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN8_084",
+        "reason": "Đo lường khả năng giải thích tính chất đường phân giác trong của tam giác"
+      },
+      {
+        "metadata_code": "Định lí Tính chất đường phân giác trong và ngoài của tam giác (chia cạnh đối diện thành hai đoạn thẳng tỉ lệ với hai cạnh kề)",
+        "reason": "Đo lường kiến thức về định lí tính chất đường phân giác trong và ngoài của tam giác"
+      },
+      {
+        "metadata_code": "Sử dụng tính chất đường phân giác để tính độ dài đoạn thẳng",
+        "reason": "Đo lường kỹ năng sử dụng tính chất đường phân giác để tính độ dài đoạn thẳng"
+      },
+      {
+        "metadata_code": "Tính tỉ số độ dài các đoạn thẳng do đường phân giác tạo ra",
+        "reason": "Đo lường kỹ năng tính tỉ số độ dài các đoạn thẳng do đường phân giác tạo ra"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học thuần lý thuyết và bài tập hình học cổ điển, không thuộc METADATA_DICTIONARY và không có cơ sở đo lường năng lực tin học/số tự nhiên."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Bài học thuộc nội dung hình học thuần túy, không thuộc METADATA_DICTIONARY và không có cơ sở đo lường năng lực AI tự nhiên."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Định lí Tính chất đường phân giác trong và ngoài của tam giác (chia cạnh đối diện thành hai đoạn thẳng tỉ lệ với hai cạnh kề)",
+      "questiontext": "Cho  \\(\\triangle ABC\\)  có  \\(AD\\)  là đường phân giác trong của góc  \\(A\\)  (với  \\(D \\in BC\\) ). Đẳng thức nào sau đây đúng theo tính chất đường phân giác của tam giác?",
+      "generalfeedback": "Theo định lí tính chất đường phân giác của tam giác, đường phân giác của một góc chia cạnh đối diện thành hai đoạn thẳng tỉ lệ với hai cạnh kề hai đoạn ấy. Do đó  \\(\\frac{DB}{DC} = \\frac{AB}{AC}\\) .",
+      "answers": [
+        {
+          "text": " \\(\\frac{DB}{DC} = \\frac{AB}{AC}\\) ",
+          "fraction": 100
+        },
+        {
+          "text": " \\(\\frac{DB}{DC} = \\frac{AC}{AB}\\) ",
+          "fraction": 0
+        },
+        {
+          "text": " \\(\\frac{DB}{AB} = \\frac{DC}{AC}\\) ",
+          "fraction": 0
+        },
+        {
+          "text": " \\(\\frac{DB}{DC} = \\frac{BC}{AB}\\) ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Định lí Tính chất đường phân giác trong và ngoài của tam giác (chia cạnh đối diện thành hai đoạn thẳng tỉ lệ với hai cạnh kề)",
+      "questiontext": "Trong một tam giác, đường phân giác của một góc chia cạnh đối diện thành hai đoạn thẳng bằng nhau.",
+      "generalfeedback": "Phát biểu này sai. Đường phân giác của một góc chia cạnh đối diện thành hai đoạn thẳng tỉ lệ với hai cạnh kề hai đoạn ấy, chứ không nhất thiết bằng nhau (chỉ bằng nhau khi tam giác cân tại đỉnh đó).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_084",
+      "questiontext": "Cho  \\(\\triangle ABC\\)  có  \\(AD\\)  là đường phân giác của góc  \\(A\\)  ( \\(D \\in BC\\) ). Qua  \\(B\\)  vẽ đường thẳng song song với  \\(AD\\)  cắt đường thẳng  \\(AC\\)  tại  \\(E\\) . Tam giác  \\(ABE\\)  là tam giác gì?",
+      "generalfeedback": "Vì  \\(BE // AD\\)  nên  \\(\\widehat{A_1} = \\widehat{ABE}\\)  (hai góc so le trong) và  \\(\\widehat{A_2} = \\widehat{AEB}\\)  (hai góc đồng vị). Do  \\(AD\\)  là tia phân giác của góc  \\(A\\)  nên  \\(\\widehat{A_1} = \\widehat{A_2}\\) , suy ra  \\(\\widehat{ABE} = \\widehat{AEB}\\) . Do đó tam giác  \\(ABE\\)  cân tại  \\(A\\) .",
+      "answers": [
+        {
+          "text": "Tam giác cân tại A",
+          "fraction": 100
+        },
+        {
+          "text": "Tam giác đều",
+          "fraction": 0
+        },
+        {
+          "text": "Tam giác vuông tại A",
+          "fraction": 0
+        },
+        {
+          "text": "Tam giác vuông cân tại B",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tính tỉ số độ dài các đoạn thẳng do đường phân giác tạo ra",
+      "questiontext": "Cho  \\(\\triangle ABC\\)  có  \\(AD\\)  là đường phân giác của góc  \\(A\\)  ( \\(D \\in BC\\) ). Biết  \\(AB = 6\\text{ cm}\\)  và  \\(AC = 9\\text{ cm}\\) . Tỉ số  \\(\\frac{DB}{DC}\\)  bằng bao nhiêu?",
+      "generalfeedback": "Theo tính chất đường phân giác của tam giác, ta có  \\(\\frac{DB}{DC} = \\frac{AB}{AC} = \\frac{6}{9} = \\frac{2}{3}\\) .",
+      "answers": [
+        {
+          "text": " \\(\\frac{2}{3}\\) ",
+          "fraction": 100
+        },
+        {
+          "text": " \\(\\frac{3}{2}\\) ",
+          "fraction": 0
+        },
+        {
+          "text": " \\(\\frac{2}{5}\\) ",
+          "fraction": 0
+        },
+        {
+          "text": " \\(\\frac{3}{5}\\) ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Sử dụng tính chất đường phân giác để tính độ dài đoạn thẳng",
+      "imgs": [
+        "_page_1_Figure_18.jpeg"
+      ],
+      "questiontext": "Xem Hình 4.22 [img:_page_1_Figure_18.jpeg]. Trong  \\(\\triangle MNP\\) ,  \\(MI\\)  là đường phân giác của góc  \\(M\\) . Cho  \\(IN = 15\\) ,  \\(MN = 24\\) ,  \\(MP = 32\\) . Độ dài  \\(x = IP\\)  là bao nhiêu?",
+      "generalfeedback": "Áp dụng tính chất đường phân giác trong  \\(\\triangle MNP\\)  với phân giác  \\(MI\\) :  \\(\\frac{IP}{IN} = \\frac{MP}{MN} \\Rightarrow \\frac{x}{15} = \\frac{32}{24} = \\frac{4}{3} \\Rightarrow x = \\frac{15 \\cdot 4}{3} = 20\\) .",
+      "answers": [
+        {
+          "text": "20",
+          "fraction": 100
+        },
+        {
+          "text": "18",
+          "fraction": 0
+        },
+        {
+          "text": "16",
+          "fraction": 0
+        },
+        {
+          "text": "22.5",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Sử dụng tính chất đường phân giác để tính độ dài đoạn thẳng",
+      "questiontext": "Cho  \\(\\triangle ABC\\)  có  \\(AD\\)  là đường phân giác góc  \\(A\\)  ( \\(D \\in BC\\) ). Biết  \\(AB = 8\\text{ cm}\\) ,  \\(AC = 12\\text{ cm}\\) ,  \\(DB = 6\\text{ cm}\\) . Tính độ dài đoạn thẳng  \\(DC\\)  theo đơn vị cm. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Theo tính chất đường phân giác:  \\(\\frac{DB}{DC} = \\frac{AB}{AC} \\Rightarrow \\frac{6}{DC} = \\frac{8}{12} = \\frac{2}{3} \\Rightarrow DC = \\frac{6 \\cdot 3}{2} = 9\\text{ cm}\\) .",
+      "answers": [
+        {
+          "text": "9",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Định lí Tính chất đường phân giác trong và ngoài của tam giác (chia cạnh đối diện thành hai đoạn thẳng tỉ lệ với hai cạnh kề)",
+      "questiontext": "Trong tam giác, đường phân giác của một góc chia cạnh đối diện thành hai đoạn thẳng [[1]] với hai cạnh [[2]] hai đoạn ấy.",
+      "generalfeedback": "Định lí tính chất đường phân giác: Trong tam giác, đường phân giác của một góc chia cạnh đối diện thành hai đoạn thẳng tỉ lệ với hai cạnh kề hai đoạn ấy.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "tỉ lệ"
+        },
+        {
+          "group": 1,
+          "text": "kề"
+        },
+        {
+          "group": 1,
+          "text": "bằng nhau"
+        },
+        {
+          "group": 1,
+          "text": "đối diện"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_084",
+      "questiontext": "Ghép mỗi giả thiết ở cột bên trái với kết luận tương ứng ở cột bên phải theo tính chất đường phân giác trong tam giác  \\(ABC\\)  (với  \\(D \\in BC\\) ):",
+      "generalfeedback": "Đường phân giác trong của góc A chia BC thành hai đoạn DB, DC tỉ lệ với hai cạnh kề AB, AC: DB/DC = AB/AC.",
+      "subquestions": [
+        {
+          "question": "AD là phân giác trong của góc A",
+          "answer": " \\(\\frac{DB}{DC} = \\frac{AB}{AC}\\) "
+        },
+        {
+          "question": "D thuộc BC và  \\(\\frac{DB}{DC} = \\frac{AB}{AC}\\) ",
+          "answer": "AD là phân giác trong của góc A"
+        },
+        {
+          "question": "AD là phân giác trong góc A và AB = AC",
+          "answer": "D là trung điểm của BC"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Sử dụng tính chất đường phân giác để tính độ dài đoạn thẳng",
+      "questiontext": "Cho  \\(\\triangle ABC\\)  có  \\(AD\\)  là đường phân giác trong của góc  \\(A\\)  ( \\(D \\in BC\\) ). Biết AB = {a} cm, AC = {b} cm và DB = {c} cm. Tính độ dài đoạn thẳng  \\(DC\\)  theo cm. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Theo tính chất đường phân giác:  \\(\\frac{DB}{DC} = \\frac{AB}{AC} \\Rightarrow DC = \\frac{DB \\cdot AC}{AB} = \\frac{{c} \\cdot {b}}{{a}}\\) .",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 4.0,
+          "max": 20.0,
+          "decimals": 0
+        },
+        {
+          "name": "c",
+          "min": 3.0,
+          "max": 12.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{c}*{b}/{a}",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Định lí Tính chất đường phân giác trong và ngoài của tam giác (chia cạnh đối diện thành hai đoạn thẳng tỉ lệ với hai cạnh kề)",
+      "imgs": [
+        "_page_2_Picture_10.jpeg"
+      ],
+      "questiontext": "Cho Hình 4.26 [img:_page_2_Picture_10.jpeg]. Biết  \\(AD'\\)  là đường phân giác ngoài tại đỉnh  \\(A\\)  của  \\(\\triangle ABC\\)  ( \\(D'\\)  thuộc đường thẳng  \\(BC\\) ). Tỉ lệ thức nào sau đây đúng?",
+      "generalfeedback": "Theo tính chất đường phân giác ngoài của tam giác, ta có tỉ lệ thức:  \\(\\frac{D'B}{D'C} = \\frac{AB}{AC}\\) .",
+      "answers": [
+        {
+          "text": " \\(\\frac{D'B}{D'C} = \\frac{AB}{AC}\\) ",
+          "fraction": 100
+        },
+        {
+          "text": " \\(\\frac{D'B}{D'C} = \\frac{AC}{AB}\\) ",
+          "fraction": 0
+        },
+        {
+          "text": " \\(\\frac{D'B}{AB} = \\frac{D'C}{BC}\\) ",
+          "fraction": 0
+        },
+        {
+          "text": " \\(\\frac{D'B}{D'C} = \\frac{BC}{AC}\\) ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Sử dụng tính chất đường phân giác để tính độ dài đoạn thẳng",
+      "imgs": [
+        "_page_2_Picture_2.jpeg"
+      ],
+      "questiontext": "Cho Hình 4.24 [img:_page_2_Picture_2.jpeg]. Trong tam giác  \\(ABC\\) ,  \\(AD\\)  là đường phân giác của góc  \\(A\\) . Biết  \\(AB = 3{,}5\\) ,  \\(AC = 7\\) ,  \\(DB = 2{,}5\\) . Tính độ dài  \\(x = DC\\) .",
+      "generalfeedback": "Áp dụng tính chất đường phân giác trong tam giác  \\(ABC\\) :  \\(\\frac{DB}{DC} = \\frac{AB}{AC} \\Rightarrow \\frac{2{,}5}{x} = \\frac{3{,}5}{7} = 0{,}5 \\Rightarrow x = \\frac{2{,}5}{0{,}5} = 5\\) .",
+      "answers": [
+        {
+          "text": "5",
+          "fraction": 100
+        },
+        {
+          "text": "4.5",
+          "fraction": 0
+        },
+        {
+          "text": "6",
+          "fraction": 0
+        },
+        {
+          "text": "3.5",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Sử dụng tính chất đường phân giác để tính độ dài đoạn thẳng",
+      "questiontext": "Cho tam giác  \\(ABC\\) . Đường phân giác của góc  \\(A\\)  cắt  \\(BC\\)  tại  \\(D\\) . Tính độ dài đoạn thẳng  \\(DC\\)  biết  \\(AB = 4{,}5\\text{ m}\\) ;  \\(AC = 7{,}0\\text{ m}\\)  và  \\(CB = 3{,}5\\text{ m}\\)  (làm tròn kết quả đến hàng phần chục). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Ta có  \\(DB + DC = CB = 3{,}5\\text{ m} \\Rightarrow DB = 3{,}5 - DC\\) . Theo tính chất đường phân giác trong tam giác:  \\(\\frac{DB}{DC} = \\frac{AB}{AC} = \\frac{4{,}5}{7{,}0} = \\frac{9}{14} \\Rightarrow \\frac{3{,}5 - DC}{DC} = \\frac{9}{14} \\Rightarrow 14(3{,}5 - DC) = 9DC \\Rightarrow 49 - 14DC = 9DC \\Rightarrow 23DC = 49 \\Rightarrow DC = \\frac{49}{23} \\approx 2{,}1\\text{ m}\\) .",
+      "answers": [
+        {
+          "text": "2.1",
+          "fraction": 100,
+          "tolerance": 0.1
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Định lí Tính chất đường phân giác trong và ngoài của tam giác (chia cạnh đối diện thành hai đoạn thẳng tỉ lệ với hai cạnh kề)",
+      "questiontext": "Cho tam giác  \\(ABC\\)  có  \\(AD\\)  là đường phân giác trong của góc  \\(A\\)  ( \\(D \\in BC\\) ). Phát biểu nào sau đây sai?",
+      "generalfeedback": "Theo định lí tính chất đường phân giác trong tam giác, tỉ lệ thức đúng là  \\(\\frac{DB}{DC} = \\frac{AB}{AC}\\) . Do đó tỉ lệ thức  \\(\\frac{DB}{DC} = \\frac{AC}{AB}\\)  là sai.",
+      "answers": [
+        {
+          "text": " \\(\\frac{DB}{DC} = \\frac{AC}{AB}\\) ",
+          "fraction": 100
+        },
+        {
+          "text": " \\(\\frac{DB}{DC} = \\frac{AB}{AC}\\) ",
+          "fraction": 0
+        },
+        {
+          "text": " \\(\\frac{DB}{AB} = \\frac{DC}{AC}\\) ",
+          "fraction": 0
+        },
+        {
+          "text": " \\(AD\\)  chia góc  \\(A\\)  thành hai góc bằng nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_084",
+      "questiontext": "Trong tam giác  \\(ABC\\) , nếu  \\(D\\)  là điểm thuộc đoạn  \\(BC\\)  và thỏa mãn  \\(\\frac{DB}{DC} = \\frac{AB}{AC}\\)  thì  \\(AD\\)  là đường phân giác của góc  \\(A\\) .",
+      "generalfeedback": "Đây là khẳng định đúng theo phần 'Chú ý' trong SGK về tính chất đảo của đường phân giác.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tính tỉ số độ dài các đoạn thẳng do đường phân giác tạo ra",
+      "questiontext": "Cho  \\(\\triangle ABC\\)  có đường phân giác trong  \\(AD\\)  ( \\(D \\in BC\\) ). Biết  \\(AB = 10\\text{ cm}\\) ,  \\(AC = 15\\text{ cm}\\) . Tỉ số  \\(\\frac{DC}{DB}\\)  bằng bao nhiêu?",
+      "generalfeedback": "Theo tính chất đường phân giác trong tam giác:  \\(\\frac{DB}{DC} = \\frac{AB}{AC} = \\frac{10}{15} = \\frac{2}{3} \\Rightarrow \\frac{DC}{DB} = \\frac{3}{2}\\) .",
+      "answers": [
+        {
+          "text": " \\(\\frac{3}{2}\\) ",
+          "fraction": 100
+        },
+        {
+          "text": " \\(\\frac{2}{3}\\) ",
+          "fraction": 0
+        },
+        {
+          "text": " \\(\\frac{2}{5}\\) ",
+          "fraction": 0
+        },
+        {
+          "text": " \\(\\frac{3}{5}\\) ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Định lí Tính chất đường phân giác trong và ngoài của tam giác (chia cạnh đối diện thành hai đoạn thẳng tỉ lệ với hai cạnh kề)",
+      "questiontext": "Để chứng minh tính chất đường phân giác trong  \\(\\triangle ABC\\)  với phân giác  \\(AD\\) , người ta vẽ đường thẳng qua  \\(B\\)  [[1]] với  \\(AD\\) , cắt đường thẳng  \\(AC\\)  tại  \\(E\\) . Khi đó tam giác  \\(AEB\\)  [[2]] tại  \\(A\\) .",
+      "generalfeedback": "Theo chứng minh định lí trong SGK: Vẽ đường thẳng qua  \\(B\\)  song song với  \\(AD\\) , cắt đường thẳng  \\(AC\\)  tại  \\(E\\) . Khi đó tam giác  \\(AEB\\)  cân tại  \\(A\\) .",
+      "choices": [
+        {
+          "group": 1,
+          "text": "song song"
+        },
+        {
+          "group": 1,
+          "text": "cân"
+        },
+        {
+          "group": 1,
+          "text": "vuông góc"
+        },
+        {
+          "group": 1,
+          "text": "đều"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Sử dụng tính chất đường phân giác để tính độ dài đoạn thẳng",
+      "questiontext": "Cho  \\(\\triangle ABC\\)  có  \\(AD\\)  là phân giác trong của góc  \\(A\\)  ( \\(D \\in BC\\) ). Biết AB = {x} cm, AC = {y} cm và DC = 6 cm. Tính độ dài đoạn DB theo cm. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Theo tính chất đường phân giác của tam giác:  \\(\\frac{DB}{DC} = \\frac{AB}{AC} \\Rightarrow DB = \\frac{DC \\cdot AB}{AC} = \\frac{6 \\cdot {x}}{{y}}\\) .",
+      "wildcards": [
+        {
+          "name": "x",
+          "min": 2.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "y",
+          "min": 2.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "6*{x}/{y}",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Sử dụng tính chất đường phân giác để tính độ dài đoạn thẳng",
+      "imgs": [
+        "_page_1_Figure_22.jpeg"
+      ],
+      "questiontext": "Cho Hình 4.23 [img:_page_1_Figure_22.jpeg]. Biết  \\(AD\\)  là đường phân giác của góc  \\(A\\)  trong  \\(\\triangle ABC\\)  với  \\(AB = 3\\) ,  \\(AC = 6\\) ,  \\(DB = 2\\) . Tính độ dài  \\(x = DC\\) .",
+      "generalfeedback": "Áp dụng tính chất đường phân giác trong tam giác  \\(ABC\\) :  \\(\\frac{DB}{DC} = \\frac{AB}{AC} \\Rightarrow \\frac{2}{x} = \\frac{3}{6} = \\frac{1}{2} \\Rightarrow x = 4\\) .",
+      "answers": [
+        {
+          "text": "4",
+          "fraction": 100
+        },
+        {
+          "text": "3",
+          "fraction": 0
+        },
+        {
+          "text": "5",
+          "fraction": 0
+        },
+        {
+          "text": "6",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Tính tỉ số độ dài các đoạn thẳng do đường phân giác tạo ra",
+      "questiontext": "Nối mỗi tam giác  \\(ABC\\)  có phân giác trong  \\(AD\\)  ( \\(D \\in BC\\) ) ở cột trái với tỉ số  \\(\\frac{DB}{DC}\\)  tương ứng ở cột phải:",
+      "generalfeedback": "Tỉ số  \\(\\frac{DB}{DC} = \\frac{AB}{AC}\\) . Ta có:  \\(\\frac{4}{8} = \\frac{1}{2}\\) ;  \\(\\frac{6}{9} = \\frac{2}{3}\\) ;  \\(\\frac{10}{10} = 1\\) .",
+      "subquestions": [
+        {
+          "question": "AB = 4 cm, AC = 8 cm",
+          "answer": "1/2"
+        },
+        {
+          "question": "AB = 6 cm, AC = 9 cm",
+          "answer": "2/3"
+        },
+        {
+          "question": "AB = 10 cm, AC = 10 cm",
+          "answer": "1"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Định lí Tính chất đường phân giác trong và ngoài của tam giác (chia cạnh đối diện thành hai đoạn thẳng tỉ lệ với hai cạnh kề)",
+      "questiontext": "Cho  \\(\\triangle ABC\\)  có phân giác ngoài  \\(AD'\\)  tại đỉnh  \\(A\\)  (với  \\(D'\\)  thuộc đường thẳng  \\(BC\\) ,  \\(D'\\)  không trùng  \\(B, C\\) ). Biết  \\(AB = 6\\text{ cm}\\) ,  \\(AC = 4\\text{ cm}\\) . Tính tỉ số  \\(\\frac{D'B}{D'C}\\) .",
+      "generalfeedback": "Theo tính chất đường phân giác ngoài của tam giác:  \\(\\frac{D'B}{D'C} = \\frac{AB}{AC} = \\frac{6}{4} = 1{,}5\\) .",
+      "answers": [
+        {
+          "text": "1.5",
+          "fraction": 100
+        },
+        {
+          "text": "0.67",
+          "fraction": 0
+        },
+        {
+          "text": "2.5",
+          "fraction": 0
+        },
+        {
+          "text": "1",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ học Toán về bài \"Tính chất đường phân giác của tam giác\", khi gặp bài toán khó yêu cầu tính tỉ số các đoạn thẳng mà chưa tìm ra cách giải ngay, hành động nào sau đây thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập?",
+      "generalfeedback": "Kiên nhẫn xem lại định lí tính chất đường phân giác trong SGK, vẽ lại hình cẩn thận và phân tích mối quan hệ giữa các cạnh thể hiện tinh thần kiên trì, nỗ lực vượt khó trong học tập.",
+      "answers": [
+        {
+          "text": "Kiên nhẫn xem lại định lí trong SGK, vẽ lại hình rõ ràng và phân tích mối quan hệ giữa các cạnh để tìm lời giải.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài toán khó và chỉ làm những bài tập đơn giản đã biết cách giải.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép ngay đáp án của bạn khác để hoàn thành bài tập nhanh chóng.",
+          "fraction": 0
+        },
+        {
+          "text": "Gập sách vở lại và cho rằng bài toán vượt quá khả năng của mình.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Học sinh chủ động tự giải lại các bài tập ví dụ về tính chất đường phân giác trong SGK để hiểu sâu bản chất kiến thức là biểu hiện của tinh thần luôn cố gắng vươn lên trong học tập.",
+      "generalfeedback": "Khẳng định này đúng vì việc chủ động tự học và luyện tập lại ví dụ thể hiện thái độ tích cực, luôn nỗ lực tiến bộ trong học tập.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Để lưu giữ thông tin cốt lõi bài \"Tính chất đường phân giác của tam giác\" một cách chọn lọc và khoa học dưới dạng tóm tắt, em nên ưu tiên lựa chọn tập hợp từ khóa và công thức chính nào sau đây?",
+      "generalfeedback": "Tóm tắt chọn lọc cần tập trung đúng vào kiến thức trọng tâm của bài: tam giác  \\(ABC\\) , đường phân giác trong  \\(AD\\)  ( \\(\\frac{DB}{DC} = \\frac{AB}{AC}\\) ) và đường phân giác ngoài  \\(AD'\\)  ( \\(\\frac{D'B}{D'C} = \\frac{AB}{AC}\\) ).",
+      "answers": [
+        {
+          "text": "Tam giác  \\(ABC\\) , đường phân giác trong  \\(AD\\)  ( \\(\\frac{DB}{DC} = \\frac{AB}{AC}\\) ), đường phân giác ngoài  \\(AD'\\)  ( \\(\\frac{D'B}{D'C} = \\frac{AB}{AC}\\) ).",
+          "fraction": 100
+        },
+        {
+          "text": "Tam giác  \\(ABC\\) , đường cao  \\(AH\\) , công thức diện tích  \\(S = \\frac{1}{2} a h\\) .",
+          "fraction": 0
+        },
+        {
+          "text": "Tam giác  \\(ABC\\) , đường trung tuyến  \\(AM\\) , trọng tâm  \\(G\\)  với  \\(AG = \\frac{2}{3} AM\\) .",
+          "fraction": 0
+        },
+        {
+          "text": "Tam giác  \\(ABC\\) , đường trung trực, khoảng cách đến ba đỉnh bằng nhau.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_05",
+      "questiontext": "Để chứng minh định lí tính chất đường phân giác trong  \\(\\triangle ABC\\)  với phân giác  \\(AD\\) , chứng minh trong SGK tiến hành các bước lập luận:\n1. Vẽ  \\(BE // AD\\)  ( \\(E \\in AC\\) ).\n2. Lập luận  \\(\\widehat{A_1} = \\widehat{B_1}\\)  (so le trong) và  \\(\\widehat{A_2} = \\widehat{E}\\)  (đồng vị) suy ra  \\(\\triangle AEB\\)  cân tại  \\(A \\Rightarrow AE = AB\\) .\n3. Áp dụng định lí Thalès vào  \\(\\triangle CEB\\)  có  \\(AD // EB\\) , ta có  \\(\\frac{DB}{DC} = \\frac{AE}{AC}\\) .\n4. Thay  \\(AE = AB\\)  thu được  \\(\\frac{DB}{DC} = \\frac{AB}{AC}\\) .\n\nBước lập luận nào đóng vai trò mấu chốt để chuyển đổi độ dài đoạn thẳng  \\(AE\\)  thành cạnh  \\(AB\\)  của tam giác?",
+      "generalfeedback": "Bước 2 là bước mấu chốt vì chứng minh tam giác AEB cân tại A, từ đó suy ra AE = AB để thay thế đoạn AE trong tỉ số định lí Thalès thành cạnh AB của tam giác ban đầu.",
+      "answers": [
+        {
+          "text": "Bước 2: Chứng minh  \\(\\triangle AEB\\)  cân tại  \\(A\\)  để có  \\(AE = AB\\) .",
+          "fraction": 100
+        },
+        {
+          "text": "Bước 1: Vẽ đường thẳng song song.",
+          "fraction": 0
+        },
+        {
+          "text": "Bước 3: Viết tỉ lệ thức định lí Thalès.",
+          "fraction": 0
+        },
+        {
+          "text": "Bước 4: Kết luận điều phải chứng minh.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "imgs": [
+        "_page_2_Picture_6.jpeg"
+      ],
+      "questiontext": "Xem Hình 4.25 [img:_page_2_Picture_6.jpeg] (Bài 4.12 SGK). Nhà bạn Mai ở vị trí  \\(M\\) , nhà bạn Dung ở vị trí  \\(D\\) , biết rằng tứ giác  \\(ABCD\\)  là hình vuông và  \\(M\\)  là trung điểm của  \\(AB\\) . Hai bạn đi bộ với cùng một vận tốc trên con đường  \\(MD\\)  để đến điểm  \\(I\\) . Bạn Mai xuất phát lúc 7h00. Hỏi bạn Dung phải xuất phát lúc mấy giờ để gặp bạn Mai lúc 7h30 tại điểm  \\(I\\) ?",
+      "generalfeedback": "Vì tứ giác  \\(ABCD\\)  là hình vuông nên đường chéo  \\(AC\\)  là tia phân giác của  \\(\\widehat{DAB}\\) . Trong  \\(\\triangle AMD\\) , đoạn  \\(AI\\)  (thuộc đường chéo  \\(AC\\) ) là đường phân giác của  \\(\\widehat{DAM}\\) . Theo tính chất đường phân giác của tam giác, ta có:  \\(\\frac{IM}{ID} = \\frac{AM}{AD}\\) . Vì  \\(M\\)  là trung điểm  \\(AB\\)  và  \\(AB = AD\\)  nên  \\(AM = \\frac{1}{2}AD\\) , do đó  \\(\\frac{IM}{ID} = \\frac{1}{2} \\Rightarrow ID = 2IM\\) . Do hai bạn đi với cùng vận tốc, quãng đường Dung đi gấp đôi quãng đường Mai đi nên thời gian Dung đi cũng gấp 2 lần thời gian Mai đi. Bạn Mai đi mất  \\(7\\text{h}30 - 7\\text{h}00 = 30\\text{ phút}\\) , do đó bạn Dung phải đi mất  \\(30 \\times 2 = 60\\text{ phút}\\)  (1 giờ). Để đến  \\(I\\)  lúc 7h30, bạn Dung phải xuất phát lúc  \\(7\\text{h}30 - 1\\text{h} = 6\\text{h}30\\) .",
+      "answers": [
+        {
+          "text": "6h30",
+          "fraction": 100
+        },
+        {
+          "text": "6h45",
+          "fraction": 0
+        },
+        {
+          "text": "7h00",
+          "fraction": 0
+        },
+        {
+          "text": "6h00",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_05",
+      "questiontext": "Ghép mỗi bước suy luận ở cột bên trái với căn cứ lập luận tương ứng ở cột bên phải trong bài toán chứng minh định lí tính chất đường phân giác:",
+      "generalfeedback": "Mỗi bước lập luận trong chứng minh hình học đều dựa trên căn cứ lí thuyết xác định: cặp góc so le trong và đồng vị tạo bởi hai đường thẳng song song, tính chất tam giác cân có hai góc bằng nhau, và định lí Thalès.",
+      "subquestions": [
+        {
+          "question": " \\(\\widehat{A_1} = \\widehat{B_1}\\)  và  \\(\\widehat{A_2} = \\widehat{E}\\) ",
+          "answer": "Tính chất hai đường thẳng song song (so le trong, đồng vị)"
+        },
+        {
+          "question": " \\(\\triangle AEB\\)  cân tại  \\(A \\Rightarrow AE = AB\\) ",
+          "answer": "Tam giác có hai góc bằng nhau là tam giác cân"
+        },
+        {
+          "question": " \\(\\frac{DB}{DC} = \\frac{AE}{AC}\\) ",
+          "answer": "Định lí Thalès trong tam giác CEB với AD // EB"
+        }
+      ]
+    }
+  ]
+}

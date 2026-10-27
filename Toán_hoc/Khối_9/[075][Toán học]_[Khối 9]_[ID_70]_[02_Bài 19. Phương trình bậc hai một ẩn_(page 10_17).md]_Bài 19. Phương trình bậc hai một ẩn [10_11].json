@@ -1,0 +1,492 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 18,
+    "metadata_used": {
+      "YCCD_TOAN9_029": 2,
+      "Dạng tổng quát ax^2 + bx + c = 0 (a != 0)": 3,
+      "Khái niệm nghiệm của phương trình bậc hai": 4,
+      "Nhận biết phương trình bậc hai một ẩn": 4,
+      "Xác định các hệ số a, b, c của phương trình bậc hai": 7,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_TCTH_TUHOC_C2_01": 1,
+      "SUB_GTHT_XACDINHMD_C2_03": 2,
+      "NLT_TOAN_C2_01_01": 2,
+      "NLT_TOAN_C2_04_12": 2
+    },
+    "types_used": {
+      "multichoice": 9,
+      "truefalse": 1,
+      "gapselect": 2,
+      "matching": 2,
+      "shortanswer": 2,
+      "ddwtos": 1,
+      "numerical": 1
+    },
+    "total": 18
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN9_029",
+        "reason": "Đo lường nhận biết khái niệm phương trình bậc hai một ẩn"
+      },
+      {
+        "metadata_code": "Dạng tổng quát ax^2 + bx + c = 0 (a != 0)",
+        "reason": "Đo lường kiến thức dạng tổng quát ax^2 + bx + c = 0 (a != 0)"
+      },
+      {
+        "metadata_code": "Khái niệm nghiệm của phương trình bậc hai",
+        "reason": "Đo lường kiến thức khái niệm nghiệm của phương trình bậc hai"
+      },
+      {
+        "metadata_code": "Nhận biết phương trình bậc hai một ẩn",
+        "reason": "Đo lường kỹ năng nhận biết phương trình bậc hai một ẩn"
+      },
+      {
+        "metadata_code": "Xác định các hệ số a, b, c của phương trình bậc hai",
+        "reason": "Đo lường kỹ năng xác định các hệ số a, b, c của phương trình bậc hai"
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đo lường phẩm chất luôn cố gắng vươn lên trong học tập"
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+        "reason": "Đo lường năng lực tự đặt mục tiêu học tập"
+      },
+      {
+        "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+        "reason": "Đo lường năng lực tiếp nhận thông tin dạng văn bản kết hợp sơ đồ/số liệu"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_01",
+        "reason": "Đo lường năng lực thực hiện thao tác tư duy toán học (phân tích, so sánh, phân loại)"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_04_12",
+        "reason": "Đo lường năng lực sử dụng ngôn ngữ toán học kết hợp ngôn ngữ thông thường"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Nội dung Tiết 1 - Khái niệm phương trình bậc hai một ẩn không chứa kiến thức hay hoạt động yêu cầu sử dụng công cụ tin học/số."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung Tiết 1 - Khái niệm phương trình bậc hai một ẩn không liên quan trực tiếp đến ứng dụng hay kịch bản tương tác với trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_029",
+      "questiontext": "Phương trình bậc hai một ẩn là phương trình có dạng tổng quát nào sau đây?",
+      "generalfeedback": "Phương trình bậc hai một ẩn có dạng tổng quát là \\(ax^2 + bx + c = 0\\) với điều kiện bắt buộc hệ số \\(a \\neq 0\\).",
+      "answers": [
+        {
+          "text": "\\(ax^2 + bx + c = 0\\) (với \\(a \\neq 0\\))",
+          "fraction": 100
+        },
+        {
+          "text": "\\(ax^2 + bx + c = 0\\) (với \\(a\\) bất kỳ)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(ax + b = 0\\) (với \\(a \\neq 0\\))",
+          "fraction": 0
+        },
+        {
+          "text": "\\(ax^3 + bx^2 + c = 0\\) (với \\(a \\neq 0\\))",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Dạng tổng quát ax^2 + bx + c = 0 (a != 0)",
+      "questiontext": "Phương trình \\(0x^2 + 3x - 5 = 0\\) là một phương trình bậc hai một ẩn. Khẳng định trên đúng hay sai?",
+      "generalfeedback": "Khẳng định trên là Sai vì phương trình bậc hai một ẩn có dạng \\(ax^2 + bx + c = 0\\) bắt buộc phải có hệ số \\(a \\neq 0\\). Ở đây hệ số \\(a = 0\\) nên đây là phương trình bậc nhất một ẩn.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Khái niệm nghiệm của phương trình bậc hai",
+      "questiontext": "Cho phương trình bậc hai \\(x^2 - 5x + 6 = 0\\). Giá trị nào sau đây là một nghiệm của phương trình?",
+      "generalfeedback": "Thay \\(x = 2\\) vào phương trình ta được: \\(2^2 - 5 \\cdot 2 + 6 = 4 - 10 + 6 = 0\\). Do đó \\(x = 2\\) là một nghiệm của phương trình.",
+      "answers": [
+        {
+          "text": "\\(x = 2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x = 1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x = -2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x = 0\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết phương trình bậc hai một ẩn",
+      "questiontext": "Trong các phương trình sau: Phương trình \\(3x^2 - 2x + 1 = 0\\) là phương trình [[1]], còn phương trình \\(\\frac{2x+1}{x} = 0\\) là phương trình [[2]].",
+      "generalfeedback": "Phương trình \\(3x^2 - 2x + 1 = 0\\) có dạng \\(ax^2 + bx + c = 0\\) với \\(a = 3 \\neq 0\\) nên là phương trình bậc hai một ẩn. Phương trình \\(\\frac{2x+1}{x} = 0\\) có ẩn ở mẫu nên không phải là phương trình bậc hai một ẩn.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "bậc hai một ẩn"
+        },
+        {
+          "group": 1,
+          "text": "không phải bậc hai một ẩn"
+        },
+        {
+          "group": 1,
+          "text": "bậc nhất một ẩn"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Xác định các hệ số a, b, c của phương trình bậc hai",
+      "questiontext": "Hãy ghép mỗi phương trình bậc hai ẩn \\(x\\) ở cột bên trái với tập hệ số \\((a; b; c)\\) tương ứng ở cột bên phải:",
+      "generalfeedback": "Xác định đúng hệ số của từng phương trình: \\(2x^2 - 3x + 1 = 0\\) có \\(a=2, b=-3, c=1\\); \\(x^2 - 5 = 0\\) có \\(a=1, b=0, c=-5\\); \\(-4x^2 + 7x = 0\\) có \\(a=-4, b=7, c=0\\).",
+      "subquestions": [
+        {
+          "question": "\\(2x^2 - 3x + 1 = 0\\)",
+          "answer": "a = 2, b = -3, c = 1"
+        },
+        {
+          "question": "\\(x^2 - 5 = 0\\)",
+          "answer": "a = 1, b = 0, c = -5"
+        },
+        {
+          "question": "\\(-4x^2 + 7x = 0\\)",
+          "answer": "a = -4, b = 7, c = 0"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Xác định các hệ số a, b, c của phương trình bậc hai",
+      "questiontext": "Biến đổi phương trình \\(3x^2 + 2x - 1 = x^2 - x\\) về dạng chuẩn \\(ax^2 + bx + c = 0\\). Giá trị của hệ số \\(a\\) bằng bao nhiêu?",
+      "generalfeedback": "Chuyển vế ta có: \\(3x^2 + 2x - 1 - x^2 + x = 0 \\Leftrightarrow 2x^2 + 3x - 1 = 0\\). Vậy hệ số \\(a = 2\\).",
+      "answers": [
+        {
+          "text": "2",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_029",
+      "questiontext": "Phương trình bậc hai một ẩn là phương trình có dạng [[1]], trong đó \\(x\\) là ẩn; \\(a, b, c\\) là những số cho trước gọi là [[2]] và điều kiện bắt buộc là [[3]].",
+      "generalfeedback": "Định nghĩa SGK: Phương trình bậc hai một ẩn có dạng \\(ax^2 + bx + c = 0\\), \\(x\\) là ẩn, \\(a,b,c\\) là các hệ số và \\(a \\neq 0\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(ax^2 + bx + c = 0\\)"
+        },
+        {
+          "group": 1,
+          "text": "hệ số"
+        },
+        {
+          "group": 1,
+          "text": "\\(a \\neq 0\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(a = 0\\)"
+        },
+        {
+          "group": 1,
+          "text": "biến số"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết phương trình bậc hai một ẩn",
+      "questiontext": "[img:_page_0_Figure_12.jpeg]\nXét tình huống mở đầu trong hình trên: Trên mảnh đất hình chữ nhật kích thước 28 m x 16 m, người ta làm bể bơi có đường đi xung quanh rộng \\(x\\) (m) (với \\(0 < x < 8\\)). Biết diện tích bể bơi là 288 m\\(^2\\). Phương trình nào sau đây dùng để tìm \\(x\\)?",
+      "imgs": [
+        "_page_0_Figure_12.jpeg"
+      ],
+      "generalfeedback": "Chiều dài bể bơi là \\(28 - 2x\\) (m), chiều rộng bể bơi là \\(16 - 2x\\) (m). Diện tích bể bơi là \\((28 - 2x)(16 - 2x) = 288\\).",
+      "answers": [
+        {
+          "text": "\\((28 - 2x)(16 - 2x) = 288\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\((28 - x)(16 - x) = 288\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(28x + 16x = 288\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(28 \\cdot 16 - x^2 = 288\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Xác định các hệ số a, b, c của phương trình bậc hai",
+      "questiontext": "Cho phương trình bậc hai \\(-5x^2 = 0\\). Xác định hệ số \\(b\\) của phương trình này. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Phương trình \\(-5x^2 = 0\\) có dạng \\(ax^2 + bx + c = 0\\) với \\(a = -5, b = 0, c = 0\\). Do đó hệ số \\(b = 0\\).",
+      "answers": [
+        {
+          "text": "0",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Dạng tổng quát ax^2 + bx + c = 0 (a != 0)",
+      "questiontext": "Cho phương trình ẩn \\(x\\): \\(mx^2 + 2x + 1 = 0\\) (với \\(m\\) là tham số). Điều kiện của \\(m\\) để phương trình trên là phương trình bậc hai một ẩn là gì?",
+      "generalfeedback": "Phương trình \\(mx^2 + 2x + 1 = 0\\) có hệ số \\(a = m\\). Để là phương trình bậc hai một ẩn thì hệ số \\(a \\neq 0\\), tức là \\(m \\neq 0\\).",
+      "answers": [
+        {
+          "text": "\\(m \\neq 0\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(m = 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(m > 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Mọi giá trị \\(m\\) thuộc \\(\\mathbb{R}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ học Toán về Phương trình bậc hai một ẩn, khi gặp bài toán thực tế tìm kích thước bể bơi dẫn đến phương trình \\((28-2x)(16-2x) = 288\\) khá phức tạp, bạn Nam cảm thấy bối rối. Để thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập, bạn Nam nên thực hiện hành động nào sau đây?",
+      "generalfeedback": "Để thể hiện tinh thần kiên trì và cố gắng vươn lên trong học tập (Q1), học sinh cần chủ động đối mặt với bài tập khó, kiên trì biến đổi và áp dụng kiến thức đã học thay vì bỏ cuộc hoặc chép bài người khác.",
+      "answers": [
+        {
+          "text": "Chủ động biến đổi khai triển biểu thức, đưa về dạng tổng quát \\(ax^2 + bx + c = 0\\) và kiên trì tìm cách xác định các hệ số \\(a, b, c\\) để giải bài toán.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài toán và đợi giáo viên chữa vì phương trình có hệ số phức tạp.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép ngay đáp án của bạn bên cạnh mà không cần tìm hiểu cách biến đổi.",
+          "fraction": 0
+        },
+        {
+          "text": "Nhờ bạn giải hộ toàn bộ rồi chép vào vở để nộp cho xong bài tập.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Khi bắt đầu học Tiết 1 - Bài 19: 'Phương trình bậc hai một ẩn', để tự đặt mục tiêu học tập phù hợp và hiệu quả nhằm nỗ lực phấn đấu thực hiện, bạn An nên đề ra mục tiêu nào sau đây?",
+      "generalfeedback": "Tự đặt mục tiêu học tập (G1) cần phù hợp với phạm vi bài học hiện tại: nhận biết được khái niệm, dạng tổng quát \\(ax^2 + bx + c = 0\\) (\\(a \\neq 0\\)) và xác định thành thạo các hệ số \\(a, b, c\\).",
+      "answers": [
+        {
+          "text": "Nhận biết thành thạo dạng tổng quát \\(ax^2 + bx + c = 0\\) (\\(a \\neq 0\\)) và xác định đúng các hệ số \\(a, b, c\\) của phương trình.",
+          "fraction": 100
+        },
+        {
+          "text": "Giải thạo mọi phương trình bậc hai bằng biệt thức \\(\\Delta\\) ngay trong Tiết 1.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ cần chép lại các ví dụ trong sách giáo khoa mà không cần hiểu khái niệm.",
+          "fraction": 0
+        },
+        {
+          "text": "Học thuộc toàn bộ công thức nghiệm nâng cao của các bài học tiếp theo.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "questiontext": "[img:_page_0_Figure_12.jpeg]\nĐọc thông tin từ hình vẽ sơ đồ bể bơi và đoạn văn bản tình huống mở đầu (mảnh đất hình chữ nhật kích thước 28 m x 16 m, diện tích bể bơi là 288 m\\(^2\\)). Bằng cách tiếp nhận thông tin kết hợp giữa văn bản và hình ảnh, hãy chọn cặp biểu thức đúng biểu diễn chiều dài và chiều rộng của bể bơi theo bề rộng đường đi \\(x\\) (m):",
+      "imgs": [
+        "_page_0_Figure_12.jpeg"
+      ],
+      "generalfeedback": "Quan sát sơ đồ và văn bản: Bề rộng đường đi là \\(x\\) (m) ở cả hai bên, nên chiều dài bể bơi là \\(28 - 2x\\) (m) và chiều rộng bể bơi là \\(16 - 2x\\) (m).",
+      "answers": [
+        {
+          "text": "Chiều dài: \\(28 - 2x\\) (m); Chiều rộng: \\(16 - 2x\\) (m)",
+          "fraction": 100
+        },
+        {
+          "text": "Chiều dài: \\(28 - x\\) (m); Chiều rộng: \\(16 - x\\) (m)",
+          "fraction": 0
+        },
+        {
+          "text": "Chiều dài: \\(28 + 2x\\) (m); Chiều rộng: \\(16 + 2x\\) (m)",
+          "fraction": 0
+        },
+        {
+          "text": "Chiều dài: \\(28x\\) (m); Chiều rộng: \\(16x\\) (m)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "questiontext": "Phân tích thông tin từ bài toán thực tế: 'Một vật được phóng thẳng đứng với vận tốc ban đầu \\(v_0 = 19.6\\) m/s, độ cao \\(h\\) (m) theo thời gian \\(t\\) (giây) cho bởi công thức \\(h = 19.6t - 4.9t^2\\)'. Khi vật rơi trở lại mặt đất (tức \\(h = 0\\)), ta thu được phương trình toán học là [[1]], trong đó hệ số \\(a =\\) [[2]] và hệ số \\(b =\\) [[3]].",
+      "generalfeedback": "Khi \\(h = 0\\), ta có phương trình \\(19.6t - 4.9t^2 = 0\\) hay \\(-4.9t^2 + 19.6t = 0\\). Đây là phương trình bậc hai ẩn \\(t\\) có các hệ số \\(a = -4.9\\) và \\(b = 19.6\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(-4.9t^2 + 19.6t = 0\\)"
+        },
+        {
+          "group": 1,
+          "text": "-4.9"
+        },
+        {
+          "group": 1,
+          "text": "19.6"
+        },
+        {
+          "group": 1,
+          "text": "4.9"
+        },
+        {
+          "group": 1,
+          "text": "\\(19.6t - 4.9 = 0\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Thực hiện thao tác tư duy phân tích và so sánh hai phương trình: (1) \\(3x^2 - 2x + 1 = 0\\) và (2) \\(0x^2 + 5x - 3 = 0\\). Khẳng định nào sau đây thể hiện sự lập luận phân tích đúng về hai phương trình này?",
+      "generalfeedback": "Thao tác tư duy phân tích: Phương trình (1) có dạng \\(ax^2 + bx + c = 0\\) với hệ số \\(a = 3 \\neq 0\\) nên là phương trình bậc hai một ẩn. Phương trình (2) có hệ số \\(a = 0\\) nên vi phạm điều kiện \\(a \\neq 0\\), do đó không phải là phương trình bậc hai một ẩn.",
+      "answers": [
+        {
+          "text": "Phương trình (1) là phương trình bậc hai một ẩn vì \\(a = 3 \\neq 0\\); phương trình (2) không phải là phương trình bậc hai một ẩn vì \\(a = 0\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Cả hai phương trình đều là phương trình bậc hai một ẩn vì đều chứa \\(x^2\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Phương trình (2) là phương trình bậc hai một ẩn với hệ số \\(a = 5\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Cả hai phương trình đều không phải là phương trình bậc hai một ẩn.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Sử dụng thao tác tư duy phân loại, hãy ghép mỗi phương trình ở cột bên trái với bản chất dạng biểu thức tương ứng ở cột bên phải:",
+      "generalfeedback": "Phân loại dựa trên định nghĩa: Phương trình bậc hai một ẩn có dạng \\(ax^2 + bx + c = 0\\) (\\(a \\neq 0\\)). Phương trình chứa ẩn ở mẫu hoặc không phải bậc hai được phân loại riêng.",
+      "subquestions": [
+        {
+          "question": "\\(-5x^2 = 0\\)",
+          "answer": "Phương trình bậc hai khuyết b và c"
+        },
+        {
+          "question": "\\(x^2 - 3 = 0\\)",
+          "answer": "Phương trình bậc hai khuyết b"
+        },
+        {
+          "question": "\\(\\frac{x^2 - 2x + 5}{x} = 0\\)",
+          "answer": "Phương trình chứa ẩn ở mẫu thức"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04_12",
+      "questiontext": "Sử dụng ngôn ngữ toán học để biểu diễn phát biểu sau bằng ngôn ngữ thông thường: 'Bình phương của số \\(x\\) trừ đi 3 lần số \\(x\\) cộng với 2 bằng 0'. Ta thu được phương trình bậc hai nào?",
+      "generalfeedback": "Ngôn ngữ thông thường: 'Bình phương của số \\(x\\)' là \\(x^2\\), 'trừ đi 3 lần số \\(x\\)' là \\(- 3x\\), 'cộng với 2 bằng 0' là \\(+ 2 = 0\\). Chuyển sang ngôn ngữ toán học ta được: \\(x^2 - 3x + 2 = 0\\).",
+      "answers": [
+        {
+          "text": "\\(x^2 - 3x + 2 = 0\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x^2 + 3x - 2 = 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2x^2 - 3x + 1 = 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((x - 3)^2 + 2 = 0\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04_12",
+      "questiontext": "Chuyển phát biểu bài toán hình học sang ngôn ngữ toán học: 'Một mảnh vườn hình vuông có cạnh là \\(x\\) (m). Nếu tăng cạnh thêm 2 m thì diện tích mới bằng 25 m\\(^2\\)'. Viết phương trình bậc hai ẩn \\(x\\) thu được ở dạng thu gọn \\(ax^2 + bx + c = 0\\) và cho biết giá trị hệ số \\(b\\) bằng bao nhiêu?",
+      "generalfeedback": "Cạnh mới là \\(x + 2\\). Diện tích mới là \\((x + 2)^2 = 25 \\Leftrightarrow x^2 + 4x + 4 = 25 \\Leftrightarrow x^2 + 4x - 21 = 0\\). Do đó hệ số \\(b = 4\\).",
+      "answers": [
+        {
+          "text": "4",
+          "fraction": 100
+        }
+      ]
+    }
+  ]
+}

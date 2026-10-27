@@ -1,0 +1,767 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 27,
+    "metadata_used": {
+      "Công thức diện tích hình thang S = 1/2 (a+b).h": 3,
+      "Công thức chu vi hình thang": 3,
+      "Tính diện tích hình thang": 4,
+      "Tính chu vi hình thang": 4,
+      "YCCD_TOAN6_103": 3,
+      "YCCD_TOAN6_104": 3,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_TCTH_TUHOC_C2_04": 1,
+      "SUB_GTHT_XACDINHMD_C2_03": 2,
+      "NLT_TOAN_C2_02_04": 2,
+      "NLT_TOAN_C2_03_04": 1
+    },
+    "types_used": {
+      "multichoice": 11,
+      "truefalse": 2,
+      "calculatedsimple": 3,
+      "shortanswer": 3,
+      "numerical": 2,
+      "gapselect": 2,
+      "ddwtos": 1,
+      "calculatedmulti": 1,
+      "calculated": 1,
+      "matching": 1
+    },
+    "total": 27
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "Công thức diện tích hình thang S = 1/2 (a+b).h",
+        "reason": "Công thức diện tích hình thang S = 1/2 (a+b).h"
+      },
+      {
+        "metadata_code": "Công thức chu vi hình thang",
+        "reason": "Công thức chu vi hình thang"
+      },
+      {
+        "metadata_code": "Tính diện tích hình thang",
+        "reason": "Tính diện tích hình thang"
+      },
+      {
+        "metadata_code": "Tính chu vi hình thang",
+        "reason": "Tính chu vi hình thang"
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_103",
+        "reason": "Giải quyết được một số vấn đề thực tiễn gắn với việc tính chu vi của các hình đặc biệt nói trên."
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_104",
+        "reason": "Giải quyết được một số vấn đề thực tiễn gắn với việc tính diện tích của các hình đặc biệt nói trên."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Luôn cố gắng vươn lên đạt kết quả tốt trong học tập."
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+        "reason": "Lưu giữ thông tin có chọn lọc bằng ghi tóm tắt, bằng bản đồ khái niệm, bảng, các từ khoá"
+      },
+      {
+        "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+        "reason": "Tiếp nhận được các văn bản về những vấn đề đơn giản của đời sống, khoa học, nghệ thuật, có sử dụng ngôn ngữ kết hợp với biểu đồ, số liệu, công thức, kí hiệu, hình ảnh."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_02_04",
+        "reason": "Sử dụng được các mô hình toán học (gồm hình vẽ) để mô tả tình huống xuất hiện trong một số bài toán thực tiễn không quá phức tạp."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_04",
+        "reason": "Sử dụng được các kiến thức toán học tương thích để giải quyết vấn đề."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N",
+        "reason": "Không có mã metadata N trong METADATA_DICTIONARY của bài học."
+      },
+      {
+        "metadata_code": "A",
+        "reason": "Không có mã metadata A trong METADATA_DICTIONARY của bài học."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức diện tích hình thang S = 1/2 (a+b).h",
+      "questiontext": "Công thức tính diện tích \\(S\\) của hình thang có độ dài hai đáy là \\(a\\), \\(b\\) và chiều cao \\(h\\) (cùng đơn vị đo) là:",
+      "generalfeedback": "Diện tích hình thang bằng tổng độ dài hai đáy nhân với chiều cao rồi chia cho 2: \\(S = \\frac{1}{2}(a + b) \\cdot h\\).",
+      "answers": [
+        {
+          "text": "\\(S = \\frac{1}{2}(a + b) \\cdot h\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(S = (a + b) \\cdot h\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(S = \\frac{1}{2}a \\cdot b \\cdot h\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(S = a + b + h\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức chu vi hình thang",
+      "questiontext": "Chu vi của một hình thang bằng tổng độ dài bốn cạnh của hình thang đó (cùng đơn vị đo). Đúng hay sai?",
+      "generalfeedback": "Chu vi của bất kỳ tứ giác nào, kể cả hình thang, bằng tổng độ dài bốn cạnh của nó: \\(C = a + b + c + d\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "thong_hieu",
+      "metadata_code": "Tính diện tích hình thang",
+      "questiontext": "Tính diện tích của hình thang có độ dài đáy lớn là {a} cm, đáy nhỏ là {b} cm và chiều cao là h cm. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Diện tích hình thang được tính theo công thức: \\(S = \\frac{({a} + {b}) \\cdot {h}}{2}\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 10.0,
+          "max": 20.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 2.0,
+          "max": 8.0,
+          "decimals": 0
+        },
+        {
+          "name": "h",
+          "min": 4.0,
+          "max": 12.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "({a}+{b})*{h}/2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "thong_hieu",
+      "metadata_code": "Tính chu vi hình thang",
+      "questiontext": "Tính chu vi của hình thang có độ dài bốn cạnh lần lượt là {a} cm, {b} cm, {c} cm và {d} cm. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Chu vi hình thang bằng tổng độ dài bốn cạnh: \\(C = {a} + {b} + {c} + {d}\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 5.0,
+          "max": 15.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 3.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "c",
+          "min": 4.0,
+          "max": 12.0,
+          "decimals": 0
+        },
+        {
+          "name": "d",
+          "min": 4.0,
+          "max": 12.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}+{b}+{c}+{d}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_103",
+      "questiontext": "Một chiếc móc treo quần áo có dạng hình thang cân [img:_page_1_Picture_13.jpeg] được làm từ đoạn dây nhôm dài 60 cm. Phần hình thang cân có đáy nhỏ 15 cm, đáy lớn 25 cm và cạnh bên 7 cm. Phần còn lại dùng làm móc treo có độ dài là bao nhiêu centimet? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Chu vi phần hình thang cân là: \\(15 + 25 + 7 + 7 = 54\\) (cm). Độ dài phần làm móc treo là: \\(60 - 54 = 6\\) (cm).",
+      "imgs": [
+        "_page_1_Picture_13.jpeg"
+      ],
+      "answers": [
+        {
+          "text": "6",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_104",
+      "questiontext": "Một thửa ruộng hình thang có đáy lớn 25 m, đáy nhỏ 15 m và chiều cao 10 m. Biết năng suất lúa là 0.8 kg/m2. Hỏi thửa ruộng đó thu hoạch được bao nhiêu kilôgam thóc? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Diện tích thửa ruộng là: \\(S = \\frac{(25 + 15) \\cdot 10}{2} = 200\\) (m2). Số kilôgam thóc thu hoạch được là: \\(200 \\cdot 0.8 = 160\\) (kg).",
+      "answers": [
+        {
+          "text": "160",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức diện tích hình thang S = 1/2 (a+b).h",
+      "questiontext": "Diện tích hình thang bằng [[1]] độ dài hai đáy nhân với [[2]] rồi chia cho 2.",
+      "generalfeedback": "Theo quy tắc tính diện tích hình thang: Diện tích hình thang bằng tổng độ dài hai đáy nhân với chiều cao rồi chia cho 2.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "tổng"
+        },
+        {
+          "group": 1,
+          "text": "hiệu"
+        },
+        {
+          "group": 1,
+          "text": "tích"
+        },
+        {
+          "group": 1,
+          "text": "chiều cao"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức chu vi hình thang",
+      "questiontext": "Để tính chu vi hình thang, ta tính [[1]] độ dài [[2]] cạnh của hình thang đó.",
+      "generalfeedback": "Chu vi hình thang bằng tổng độ dài bốn cạnh của hình thang.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "tổng"
+        },
+        {
+          "group": 1,
+          "text": "tích"
+        },
+        {
+          "group": 1,
+          "text": "bốn"
+        },
+        {
+          "group": 1,
+          "text": "hai"
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "thong_hieu",
+      "metadata_code": "Tính diện tích hình thang",
+      "questiontext": "Hình thang có độ dài hai đáy là {a} m và {b} m, chiều cao là h m. Công thức đúng để tính diện tích \\(S\\) (m2) của hình thang đó là:",
+      "generalfeedback": "Diện tích hình thang bằng tổng hai đáy nhân chiều cao chia 2: ({a} + {b}) * {h} / 2.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 6.0,
+          "max": 15.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 2.0,
+          "max": 5.0,
+          "decimals": 0
+        },
+        {
+          "name": "h",
+          "min": 4.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "({a}+{b})*{h}/2",
+          "fraction": 100
+        },
+        {
+          "text": "({a}+{b})*{h}",
+          "fraction": 0
+        },
+        {
+          "text": "{a}*{b}*{h}/2",
+          "fraction": 0
+        },
+        {
+          "text": "({a}-{b})*{h}/2",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tính chu vi hình thang",
+      "questiontext": "Một hình thang cân có độ dài hai đáy lần lượt là 12 cm và 6 cm, độ dài cạnh bên là 5 cm. Chu vi của hình thang cân đó là:",
+      "generalfeedback": "Hình thang cân có hai cạnh bên bằng nhau, do đó hai cạnh bên đều bằng 5 cm. Chu vi hình thang cân là: \\(12 + 6 + 5 + 5 = 28\\) cm.",
+      "answers": [
+        {
+          "text": "28 cm",
+          "fraction": 100
+        },
+        {
+          "text": "23 cm",
+          "fraction": 0
+        },
+        {
+          "text": "34 cm",
+          "fraction": 0
+        },
+        {
+          "text": "18 cm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Công thức diện tích hình thang S = 1/2 (a+b).h",
+      "questiontext": "Nếu tăng gấp đôi chiều cao của một hình thang và giữ nguyên độ dài hai đáy thì diện tích của hình thang đó sẽ:",
+      "generalfeedback": "Diện tích hình thang \\(S = \\frac{1}{2}(a + b) \\cdot h\\). Khi chiều cao \\(h\\) tăng gấp đôi thì diện tích \\(S\\) cũng tăng gấp đôi.",
+      "answers": [
+        {
+          "text": "Tăng lên 2 lần",
+          "fraction": 100
+        },
+        {
+          "text": "Không đổi",
+          "fraction": 0
+        },
+        {
+          "text": "Tăng lên 4 lần",
+          "fraction": 0
+        },
+        {
+          "text": "Giảm đi 2 lần",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức chu vi hình thang",
+      "questiontext": "Hình thang cân có hai cạnh bên bằng nhau nên chu vi của hình thang cân bằng tổng độ dài hai đáy cộng với hai lần độ dài cạnh bên. Đúng hay sai?",
+      "generalfeedback": "Đúng. Do hai cạnh bên của hình thang cân bằng nhau (đặt là \\(c\\)), chu vi hình thang cân là \\(C = a + b + 2c\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Tính diện tích hình thang",
+      "questiontext": "Một hình thang có đáy lớn dài 18 cm, đáy nhỏ dài 12 cm và chiều cao dài 8 cm. Tính diện tích của hình thang đó. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Diện tích hình thang là: \\(S = \\frac{(18 + 12) \\cdot 8}{2} = 120\\) (cm2).",
+      "answers": [
+        {
+          "text": "120",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Tính chu vi hình thang",
+      "questiontext": "Một hình thang vuông có hai cạnh đáy dài 7 cm và 13 cm, cạnh bên vuông góc với hai đáy dài 8 cm và cạnh bên còn lại dài 10 cm. Tính chu vi của hình thang vuông đó. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Chu vi hình thang vuông là: \\(C = 7 + 13 + 8 + 10 = 38\\) (cm).",
+      "answers": [
+        {
+          "text": "38",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_103",
+      "questiontext": "Người ta muốn làm một hàng rào xung quanh một mảnh vườn hình thang cân có độ dài hai đáy lần lượt là {a} m và {b} m, độ dài cạnh bên là {c} m. Cổng vào rộng 2 m không làm hàng rào. Tính độ dài hàng rào cần làm. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Chu vi mảnh vườn hình thang cân là: \\({a} + {b} + 2 \\cdot {c}\\). Độ dài hàng rào cần làm là: \\({a} + {b} + 2 \\cdot {c} - 2\\) (m).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 15.0,
+          "max": 30.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 5.0,
+          "max": 14.0,
+          "decimals": 0
+        },
+        {
+          "name": "c",
+          "min": 8.0,
+          "max": 15.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}+{b}+2*{c}-2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_104",
+      "questiontext": "Một mảnh ruộng hình thang có đáy lớn {a} m, đáy nhỏ {b} m và chiều cao h m. Biết trung bình mỗi mét vuông thu hoạch được {k} kg thóc. Tính số kilôgam thóc thu hoạch được trên mảnh ruộng đó. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Diện tích mảnh ruộng là: \\(S = \\frac{({a} + {b}) \\cdot {h}}{2}\\). Sản lượng thóc thu hoạch được là: \\(S \\cdot {k}\\) (kg).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 20.0,
+          "max": 40.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 10.0,
+          "max": 18.0,
+          "decimals": 0
+        },
+        {
+          "name": "h",
+          "min": 10.0,
+          "max": 20.0,
+          "decimals": 0
+        },
+        {
+          "name": "k",
+          "min": 1.0,
+          "max": 3.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "({a}+{b})*{h}*{k}/2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Tính diện tích hình thang",
+      "questiontext": "Hình thang thứ nhất có đáy lớn 10 cm, đáy nhỏ 6 cm, chiều cao 5 cm. Hình thang thứ hai có đáy lớn 12 cm, đáy nhỏ 8 cm, chiều cao 4 cm. Diện tích hình thang thứ nhất là [[1]] cm2 và diện tích hình thang thứ hai là [[2]] cm2.",
+      "generalfeedback": "Diện tích hình thang thứ nhất: \\(\\frac{(10 + 6) \\cdot 5}{2} = 40\\) cm2. Diện tích hình thang thứ hai: \\(\\frac{(12 + 8) \\cdot 4}{2} = 40\\) cm2.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "40"
+        },
+        {
+          "group": 1,
+          "text": "20"
+        },
+        {
+          "group": 1,
+          "text": "80"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Tính chu vi hình thang",
+      "questiontext": "Ghép mỗi hình thang ở cột trái với chu vi tương ứng ở cột phải:",
+      "generalfeedback": "Tính chu vi từng hình thang bằng cách cộng độ dài các cạnh tương ứng.",
+      "subquestions": [
+        {
+          "question": "Hình thang có độ dài 4 cạnh: 3 cm, 5 cm, 4 cm, 6 cm",
+          "answer": "18 cm"
+        },
+        {
+          "question": "Hình thang cân có đáy nhỏ 4 cm, đáy lớn 10 cm, cạnh bên 5 cm",
+          "answer": "24 cm"
+        },
+        {
+          "question": "Hình thang vuông có đáy nhỏ 5 cm, đáy lớn 11 cm, hai cạnh bên 8 cm và 10 cm",
+          "answer": "34 cm"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_103",
+      "questiontext": "Một khung cửa sổ hình thang cân có độ dài hai đáy lần lượt là 120 cm và 80 cm, cạnh bên dài 50 cm. Người ta cần dùng bao nhiêu mét nẹp gỗ để bọc xung quanh khung cửa sổ đó?",
+      "generalfeedback": "Chu vi khung cửa sổ hình thang cân là: \\(120 + 80 + 50 + 50 = 300\\) cm. Đổi 300 cm = 3 m.",
+      "answers": [
+        {
+          "text": "3 m",
+          "fraction": 100
+        },
+        {
+          "text": "300 m",
+          "fraction": 0
+        },
+        {
+          "text": "2.5 m",
+          "fraction": 0
+        },
+        {
+          "text": "30 m",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_104",
+      "questiontext": "Mặt bàn của một chiếc bàn học có dạng hình thang cân với hai đáy lần lượt là 120 cm, 60 cm và chiều cao là 50 cm. Tính diện tích mặt bàn đó theo đơn vị đêximét vuông (dm2). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Đổi 120 cm = 12 dm, 60 cm = 6 dm, 50 cm = 5 dm. Diện tích mặt bàn là: \\(S = \\frac{(12 + 6) \\cdot 5}{2} = 45\\) (dm2).",
+      "answers": [
+        {
+          "text": "45",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi gặp một bài toán thực tiễn yêu cầu tính chi phí mua vật liệu làm khung thép hình thang cân với số liệu chưa đồng nhất đơn vị (milimét và mét), bạn An cảm thấy lúng túng và chưa tìm ra đáp án ngay. Để thể hiện tinh thần luôn cố gắng vươn lên trong học tập, bạn An nên thực hiện hành động nào sau đây?",
+      "generalfeedback": "Để vượt qua khó khăn trong học tập, học sinh cần kiên trì, chủ động quy đổi các số liệu về cùng một đơn vị đo, áp dụng công thức và rút kinh nghiệm thay vì bỏ cuộc hoặc chép bài.",
+      "answers": [
+        {
+          "text": "Kiên trì đổi tất cả số liệu về cùng một đơn vị đo, áp dụng công thức tính chu vi hình thang và kiểm tra lại cẩn thận.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài toán vì cho rằng việc đổi đơn vị đo quá phức tạp và không cần thiết.",
+          "fraction": 0
+        },
+        {
+          "text": "Sao chép ngay đáp án của bạn khác để kịp nộp bài mà không cần hiểu cách làm.",
+          "fraction": 0
+        },
+        {
+          "text": "Đổi số liệu ngẫu nhiên mà không cần kiểm tra tính chính xác của các đơn vị đo.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Bạn Bình muốn tóm tắt kiến thức về chu vi và diện tích hình thang vào sổ tay toán học sao cho ngắn gọn, có chọn lọc và dễ tra cứu. Cách trình bày bảng tóm tắt nào sau đây là chính xác và khoa học nhất?",
+      "generalfeedback": "Bảng tóm tắt kiến thức chọn lọc cần ghi rõ tên đại lượng, công thức chuẩn và chú thích các ký tự trong công thức.",
+      "answers": [
+        {
+          "text": "Chu vi \\(C = a + b + c + d\\) (tổng 4 cạnh); Diện tích \\(S = \\frac{1}{2}(a + b) \\cdot h\\) (với \\(a, b\\) là hai đáy, \\(h\\) là chiều cao).",
+          "fraction": 100
+        },
+        {
+          "text": "Chu vi \\(C = (a + b) \\cdot h\\); Diện tích \\(S = a + b + c + d\\) (với \\(a, b, c, d\\) là độ dài các cạnh).",
+          "fraction": 0
+        },
+        {
+          "text": "Chu vi \\(C = a \\cdot b\\); Diện tích \\(S = a + b + h\\) (với \\(h\\) là chiều cao).",
+          "fraction": 0
+        },
+        {
+          "text": "Chu vi \\(C = 2(a + b)\\); Diện tích \\(S = a \\cdot h\\) (với \\(a\\) là cạnh đáy, \\(h\\) là chiều cao).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "questiontext": "Quan sát sơ đồ mảnh ruộng hình thang như hình vẽ [img:_page_4_Picture_15.jpeg]. Từ các thông tin, kí hiệu và số liệu trên hình vẽ, yếu tố nào biểu diễn chiều cao của mảnh ruộng hình thang?",
+      "generalfeedback": "Kí hiệu đường vuông góc giữa hai đáy kèm số liệu \\(10\\text{ m}\\) biểu diễn chiều cao của mảnh ruộng hình thang.",
+      "imgs": [
+        "_page_4_Picture_15.jpeg"
+      ],
+      "answers": [
+        {
+          "text": "Đoạn thẳng vuông góc nối giữa hai đáy có độ dài \\(10\\text{ m}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Đáy trên có độ dài \\(15\\text{ m}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Đáy dưới có độ dài \\(25\\text{ m}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Cạnh bên nghiêng của hình thang",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_02_04",
+      "questiontext": "Một thợ làm mái che muốn dựng khung thép hình thang cân cho một mái hiên. Biết mái hiên có hai cạnh song song dài \\(1\\text{ m}\\) và \\(2\\text{ m}\\), cạnh bên dài \\(0.8\\text{ m}\\). Khi mô hình hóa tình huống thực tế này sang hình học phẳng, phát biểu nào sau đây mô tả đúng các yếu tố của mô hình hình thang cân \\(ABCD\\) (với \\(AB // CD\\))?",
+      "generalfeedback": "Mô hình hóa hình học: Hai cạnh song song tương ứng với hai đáy \\(AB = 1\\text{ m}\\), \\(CD = 2\\text{ m}\\); hai cạnh bên bằng nhau \\(AD = BC = 0.8\\text{ m}\\).",
+      "answers": [
+        {
+          "text": "Đáy nhỏ \\(AB = 1\\text{ m}\\), đáy lớn \\(CD = 2\\text{ m}\\), hai cạnh bên \\(AD = BC = 0.8\\text{ m}\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Đáy nhỏ \\(AB = 0.8\\text{ m}\\), đáy lớn \\(CD = 2\\text{ m}\\), chiều cao \\(h = 1\\text{ m}\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Hai cạnh bên \\(AD = BC = 2\\text{ m}\\), hai đáy \\(AB = 1\\text{ m}\\), \\(CD = 0.8\\text{ m}\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Chiều cao \\(h = 2\\text{ m}\\), đáy nhỏ \\(AB = 1\\text{ m}\\), đáy lớn \\(CD = 0.8\\text{ m}\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_04",
+      "questiontext": "Cho sơ đồ mảnh đất hình thang \\(ABCD\\) [img:_page_4_Picture_21.jpeg], biết \\(AB = 10\\text{ m}\\), \\(DC = 25\\text{ m}\\) và hình chữ nhật \\(ABED\\) có diện tích \\(150\\text{ m}^2\\). Để tính diện tích mảnh đất hình thang \\(ABCD\\), kiến thức toán học tương thích cần sử dụng ở bước đầu tiên là gì?",
+      "generalfeedback": "Chiều cao \\(AD\\) của hình thang chính là chiều rộng của hình chữ nhật \\(ABED\\). Do đó bước đầu tiên cần áp dụng công thức diện tích hình chữ nhật để tính chiều cao \\(AD = 150 : 10 = 15\\text{ m}\\).",
+      "imgs": [
+        "_page_4_Picture_21.jpeg"
+      ],
+      "answers": [
+        {
+          "text": "Áp dụng công thức diện tích hình chữ nhật để tính chiều cao \\(AD = 150 : 10 = 15\\text{ m}\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Áp dụng công thức chu vi hình chữ nhật để tính cạnh \\(AD = (150 - 10) : 2 = 70\\text{ m}\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Tính độ dài đoạn \\(EC\\) bằng cách lấy \\(25 + 10 = 35\\text{ m}\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Tính diện tích tam giác \\(BEC\\) bằng cách lấy \\(150 \\times 25\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "questiontext": "Một chiếc bàn khung thép [img:_page_1_Figure_8.jpeg] có mặt bàn là hình thang cân với các kích thước: đáy lớn \\(1\\,200\\text{ mm}\\), đáy nhỏ \\(600\\text{ mm}\\), cạnh bên \\(600\\text{ mm}\\). Khi đọc bản vẽ thiết kế này để tính chu vi mặt bàn, thông số nào sau đây là không cần sử dụng?",
+      "generalfeedback": "Chu vi mặt bàn hình thang cân chỉ phụ thuộc vào độ dài hai đáy và hai cạnh bên. Chiều cao bàn \\(730\\text{ mm}\\) là thông số không dùng để tính chu vi mặt bàn.",
+      "imgs": [
+        "_page_1_Figure_8.jpeg"
+      ],
+      "answers": [
+        {
+          "text": "Chiều cao của bàn \\(730\\text{ mm}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Đáy lớn của mặt bàn \\(1\\,200\\text{ mm}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Đáy nhỏ của mặt bàn \\(600\\text{ mm}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Độ dài cạnh bên của mặt bàn \\(600\\text{ mm}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_02_04",
+      "questiontext": "Một chiếc móc treo quần áo bằng nhôm [img:_page_1_Picture_13.jpeg] có dạng hình thang cân với đáy nhỏ \\(15\\text{ cm}\\), đáy lớn \\(25\\text{ cm}\\), cạnh bên \\(7\\text{ cm}\\). Để chuyển tình huống tính độ dài dây nhôm làm móc treo thành bài toán hình học phẳng, mô hình toán học tương ứng xác định chu vi phần hình thang cân là:",
+      "generalfeedback": "Hình thang cân có hai cạnh bên bằng nhau (mỗi cạnh \\(7\\text{ cm}\\)). Chu vi phần hình thang cân bằng \\(15 + 25 + 7 + 7 = 54\\text{ cm}\\).",
+      "imgs": [
+        "_page_1_Picture_13.jpeg"
+      ],
+      "answers": [
+        {
+          "text": "Chu vi hình thang cân bằng tổng đáy nhỏ, đáy lớn và hai lần độ dài cạnh bên: \\(15 + 25 + 7 \\times 2 = 54\\text{ cm}\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Chu vi hình thang cân bằng tổng đáy nhỏ, đáy lớn và một cạnh bên: \\(15 + 25 + 7 = 47\\text{ cm}\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Diện tích hình thang cân bằng tích hai đáy nhân cạnh bên: \\((15 + 25) \\times 7 = 280\\text{ cm}^2\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Chu vi hình thang cân bằng tích bốn cạnh: \\(15 \\times 25 \\times 7 \\times 7\\).",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

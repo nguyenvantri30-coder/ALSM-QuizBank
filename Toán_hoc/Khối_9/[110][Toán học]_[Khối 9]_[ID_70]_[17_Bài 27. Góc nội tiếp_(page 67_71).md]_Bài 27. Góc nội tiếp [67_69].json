@@ -1,0 +1,668 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 26,
+    "metadata_used": {
+      "YCCD_TOAN9_076": 5,
+      "Định nghĩa góc nội tiếp có đỉnh nằm trên đường tròn": 5,
+      "Khái niệm cung bị chắn bởi góc nội tiếp": 5,
+      "Nhận biết góc nội tiếp và cung bị chắn tương ứng trong đường tròn": 5
+    },
+    "types_used": {
+      "multichoice": 11,
+      "truefalse": 3,
+      "matching": 2,
+      "gapselect": 2,
+      "shortanswer": 2,
+      "calculated": 1,
+      "ddwtos": 2,
+      "calculatedmulti": 1,
+      "calculatedsimple": 1,
+      "numerical": 1
+    },
+    "total": 26
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN9_076",
+        "reason": "Đo lường khả năng nhận biết góc nội tiếp của đường tròn."
+      },
+      {
+        "metadata_code": "Định nghĩa góc nội tiếp có đỉnh nằm trên đường tròn",
+        "reason": "Đo lường kiến thức về định nghĩa góc nội tiếp."
+      },
+      {
+        "metadata_code": "Khái niệm cung bị chắn bởi góc nội tiếp",
+        "reason": "Đo lường kiến thức về khái niệm cung bị chắn bởi góc nội tiếp."
+      },
+      {
+        "metadata_code": "Nhận biết góc nội tiếp và cung bị chắn tương ứng trong đường tròn",
+        "reason": "Đo lường kỹ năng nhận biết góc nội tiếp và cung bị chắn tương ứng."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học Toán 9 về khái niệm góc nội tiếp thuần lý thuyết hình học phẳng, không chứa dữ liệu hoặc công cụ Tin học/Số tự nhiên để thiết kế câu hỏi đo lường năng lực tin học."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học không tích hợp ngữ cảnh ứng dụng hay nguyên lý trí tuệ nhân tạo (AI) một cách tự nhiên."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Định nghĩa góc nội tiếp có đỉnh nằm trên đường tròn",
+      "questiontext": "Góc nội tiếp của một đường tròn là góc có đặc điểm nào sau đây?",
+      "generalfeedback": "Theo định nghĩa SGK, góc nội tiếp của đường tròn là góc có đỉnh nằm trên đường tròn và hai cạnh chứa hai dây cung của đường tròn đó.",
+      "answers": [
+        {
+          "text": "Có đỉnh nằm trên đường tròn và hai cạnh chứa hai dây cung của đường tròn đó",
+          "fraction": 100
+        },
+        {
+          "text": "Có đỉnh trùng với tâm đường tròn và hai cạnh chứa hai bán kính",
+          "fraction": 0
+        },
+        {
+          "text": "Có đỉnh nằm bên ngoài đường tròn và hai cạnh cắt đường tròn",
+          "fraction": 0
+        },
+        {
+          "text": "Có đỉnh nằm bên trong đường tròn và hai cạnh là hai đường kính",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm cung bị chắn bởi góc nội tiếp",
+      "questiontext": "Trong một góc nội tiếp của đường tròn, cung nằm bên trong góc được gọi là cung bị chắn.",
+      "generalfeedback": "Khẳng định trên là ĐÚNG. Theo định nghĩa SGK, cung nằm bên trong góc nội tiếp được gọi là cung bị chắn.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_076",
+      "questiontext": "Quan sát Hình 9.3 [img:_page_1_Picture_15.jpeg]. Góc nào trong hình là góc nội tiếp của đường tròn?",
+      "generalfeedback": "Góc B có đỉnh B nằm trên đường tròn và hai cạnh chứa hai dây cung của đường tròn nên là góc nội tiếp.",
+      "imgs": [
+        "_page_1_Picture_15.jpeg"
+      ],
+      "answers": [
+        {
+          "text": "Góc B",
+          "fraction": 100
+        },
+        {
+          "text": "Góc A",
+          "fraction": 0
+        },
+        {
+          "text": "Góc C",
+          "fraction": 0
+        },
+        {
+          "text": "Góc D",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết góc nội tiếp và cung bị chắn tương ứng trong đường tròn",
+      "questiontext": "Hãy ghép nối mỗi khái niệm/khẳng định về góc nội tiếp ở cột bên trái với nội dung tương ứng ở cột bên phải:",
+      "generalfeedback": "Các ghép nối dựa trên định nghĩa và tính chất của góc nội tiếp trong SGK Toán 9.",
+      "subquestions": [
+        {
+          "question": "Góc nội tiếp",
+          "answer": "Góc có đỉnh nằm trên đường tròn và hai cạnh chứa hai dây cung"
+        },
+        {
+          "question": "Cung bị chắn",
+          "answer": "Cung nằm bên trong góc nội tiếp"
+        },
+        {
+          "question": "Số đo góc nội tiếp",
+          "answer": "Bằng nửa số đo của cung bị chắn"
+        },
+        {
+          "question": "Góc nội tiếp chắn nửa đường tròn",
+          "answer": "Là góc vuông"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Định nghĩa góc nội tiếp có đỉnh nằm trên đường tròn",
+      "questiontext": "Góc nội tiếp của đường tròn là góc có đỉnh nằm [[1]] đường tròn và hai cạnh chứa hai [[2]] của đường tròn đó.",
+      "generalfeedback": "Định nghĩa: Góc nội tiếp của đường tròn là góc có đỉnh nằm trên đường tròn và hai cạnh chứa hai dây cung của đường tròn đó.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "trên"
+        },
+        {
+          "group": 1,
+          "text": "ngoài"
+        },
+        {
+          "group": 1,
+          "text": "trong"
+        },
+        {
+          "group": 1,
+          "text": "dây cung"
+        },
+        {
+          "group": 1,
+          "text": "bán kính"
+        },
+        {
+          "group": 1,
+          "text": "tiếp tuyến"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết góc nội tiếp và cung bị chắn tương ứng trong đường tròn",
+      "questiontext": "Trong một đường tròn, nếu góc ở tâm chắn một cung có số đo bằng \\(80^{\\circ}\\) thì góc nội tiếp cùng chắn cung đó có số đo bằng bao nhiêu độ? (Chỉ điền số)",
+      "generalfeedback": "Số đo góc nội tiếp bằng nửa số đo góc ở tâm chắn cùng một cung. Do đó số đo góc nội tiếp là 80 / 2 = 40.",
+      "answers": [
+        {
+          "text": "40",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết góc nội tiếp và cung bị chắn tương ứng trong đường tròn",
+      "questiontext": "Trong đường tròn \\((O)\\), cho cung bị chắn \\(AB\\) có số đo bằng {x} độ. Số đo của góc nội tiếp \\(\\widehat ACB\\) chắn cung \\(AB\\) bằng bao nhiêu độ? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Số đo của góc nội tiếp bằng nửa số đo của cung bị chắn, tức là {x}/2.",
+      "wildcards": [
+        {
+          "name": "x",
+          "min": 20.0,
+          "max": 160.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{x}/2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm cung bị chắn bởi góc nội tiếp",
+      "questiontext": "Trong một đường tròn, số đo của góc nội tiếp bằng [[1]] số đo của [[2]].",
+      "generalfeedback": "Theo định lí: Trong một đường tròn, số đo của góc nội tiếp bằng nửa số đo của cung bị chắn.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "nửa"
+        },
+        {
+          "group": 1,
+          "text": "gấp đôi"
+        },
+        {
+          "group": 1,
+          "text": "cung bị chắn"
+        },
+        {
+          "group": 1,
+          "text": "góc ở tâm"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết góc nội tiếp và cung bị chắn tương ứng trong đường tròn",
+      "questiontext": "Cho đường tròn \\((O)\\) và các điểm \\(A, B, C, D\\) trên \\((O)\\) như Hình 9.5 [img:_page_3_Picture_6.jpeg]. Biết rằng \\(\\widehat{BAC} = 60^{\\circ}\\), số đo của góc ở tâm \\(\\widehat{BOC}\\) bằng bao nhiêu?",
+      "generalfeedback": "Góc nội tiếp \\(\\widehat{BAC}\\) và góc ở tâm \\(\\widehat{BOC}\\) cùng chắn cung nhỏ \\(BC\\). Do đó \\(\\widehat{BOC} = 2 \\widehat{BAC} = 2 \\times 60^{\\circ} = 120^{\\circ}\\).",
+      "imgs": [
+        "_page_3_Picture_6.jpeg"
+      ],
+      "answers": [
+        {
+          "text": "\\(120^{\\circ}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(60^{\\circ}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(30^{\\circ}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(90^{\\circ}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "Nhận biết góc nội tiếp và cung bị chắn tương ứng trong đường tròn",
+      "questiontext": "Cho góc nội tiếp \\(\\widehat ACB\\) chắn cung \\(AB\\) có số đo {a} độ trong đường tròn \\((O)\\). Số đo của góc ở tâm \\(\\widehat AOB\\) cùng chắn cung \\(AB\\) được tính theo công thức nào?",
+      "generalfeedback": "Góc ở tâm cùng chắn một cung với góc nội tiếp có số đo gấp đôi số đo góc nội tiếp, tức là {a} * 2.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 10.0,
+          "max": 80.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*2",
+          "fraction": 100
+        },
+        {
+          "text": "{a}/2",
+          "fraction": 0
+        },
+        {
+          "text": "{a}+180",
+          "fraction": 0
+        },
+        {
+          "text": "{a}",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_076",
+      "questiontext": "Cho điểm \\(B\\) nằm ngoài đường tròn \\((O)\\). Góc \\(\\widehat ABC\\) có phải là góc nội tiếp của đường tròn \\((O)\\) hay không?",
+      "generalfeedback": "Không phải, vì theo định nghĩa góc nội tiếp phải có đỉnh nằm trên đường tròn.",
+      "answers": [
+        {
+          "text": "Không phải góc nội tiếp vì đỉnh B không nằm trên đường tròn",
+          "fraction": 100
+        },
+        {
+          "text": "Là góc nội tiếp vì hai cạnh cắt đường tròn",
+          "fraction": 0
+        },
+        {
+          "text": "Là góc ở tâm đường tròn",
+          "fraction": 0
+        },
+        {
+          "text": "Là góc nội tiếp chắn nửa đường tròn",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Định nghĩa góc nội tiếp có đỉnh nằm trên đường tròn",
+      "questiontext": "Góc có đỉnh nằm trên đường tròn và hai cạnh chứa hai dây cung của đường tròn đó được gọi là góc nội tiếp.",
+      "generalfeedback": "Đúng. Đây là phát biểu chính xác theo định nghĩa góc nội tiếp trong SGK.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm cung bị chắn bởi góc nội tiếp",
+      "questiontext": "Cung nằm [[1]] góc nội tiếp được gọi là [[2]] bị chắn.",
+      "generalfeedback": "Theo định nghĩa: Cung nằm bên trong góc nội tiếp được gọi là cung bị chắn.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "bên trong"
+        },
+        {
+          "group": 1,
+          "text": "bên ngoài"
+        },
+        {
+          "group": 1,
+          "text": "cung"
+        },
+        {
+          "group": 1,
+          "text": "dây"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_076",
+      "questiontext": "Cho góc nội tiếp \\(\\widehat ACB\\) chắn cung \\(AB\\) có số đo bằng \\(100^{\\circ}\\). Số đo của góc \\(\\widehat ACB\\) bằng bao nhiêu độ? (Chỉ điền số)",
+      "generalfeedback": "Số đo góc nội tiếp bằng nửa số đo cung bị chắn: 100 / 2 = 50.",
+      "answers": [
+        {
+          "text": "50",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết góc nội tiếp và cung bị chắn tương ứng trong đường tròn",
+      "questiontext": "Trong một đường tròn, góc nội tiếp chắn nửa đường tròn là góc có số đo bằng bao nhiêu?",
+      "generalfeedback": "Theo nhận xét định lí SGK, góc nội tiếp chắn nửa đường tròn là góc vuông, tức là có số đo bằng 90°.",
+      "answers": [
+        {
+          "text": "\\(90^{\\circ}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(180^{\\circ}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(45^{\\circ}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(60^{\\circ}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Nhận biết góc nội tiếp và cung bị chắn tương ứng trong đường tròn",
+      "questiontext": "Cho góc nội tiếp \\(\\widehat ACB\\) có số đo bằng {b} độ trong đường tròn \\((O)\\). Số đo của cung bị chắn \\(AB\\) được tính theo công thức nào?",
+      "generalfeedback": "Số đo của cung bị chắn gấp đôi số đo góc nội tiếp chắn cung đó, tức là {b} * 2.",
+      "wildcards": [
+        {
+          "name": "b",
+          "min": 15.0,
+          "max": 85.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{b}*2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết góc nội tiếp và cung bị chắn tương ứng trong đường tròn",
+      "questiontext": "Các góc nội tiếp cùng chắn một cung thì [[1]] nhau, và góc nội tiếp chắn nửa đường tròn là góc [[2]].",
+      "generalfeedback": "Theo các khẳng định trong nhận xét SGK: Các góc nội tiếp cùng chắn một cung thì bằng nhau, và góc nội tiếp chắn nửa đường tròn là góc vuông.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "bằng"
+        },
+        {
+          "group": 1,
+          "text": "khác"
+        },
+        {
+          "group": 1,
+          "text": "vuông"
+        },
+        {
+          "group": 1,
+          "text": "tù"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_076",
+      "questiontext": "Quan sát Hình 9.2 [img:_page_1_Picture_6.jpeg]. Các góc \\(\\widehat ACB\\) và \\(\\widehat ADB\\) có đỉnh nằm trên đường tròn và cùng chắn cung \\(AB\\) được gọi là gì?",
+      "generalfeedback": "Theo SGK, các góc ACB và ADB ở Hình 9.2 có đỉnh nằm trên đường tròn và hai cạnh chứa hai dây cung nên được gọi là các góc nội tiếp.",
+      "imgs": [
+        "_page_1_Picture_6.jpeg"
+      ],
+      "answers": [
+        {
+          "text": "Các góc nội tiếp",
+          "fraction": 100
+        },
+        {
+          "text": "Các góc ở tâm",
+          "fraction": 0
+        },
+        {
+          "text": "Các góc ngoài đường tròn",
+          "fraction": 0
+        },
+        {
+          "text": "Các góc tạo bởi tiếp tuyến và dây cung",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết góc nội tiếp và cung bị chắn tương ứng trong đường tròn",
+      "questiontext": "Cho góc ở tâm \\(\\widehat AOB = 120^{\\circ}\\) của đường tròn \\((O)\\). Góc nội tiếp \\(\\widehat ACB\\) cùng chắn cung \\(AB\\) có số đo bằng bao nhiêu độ? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Góc nội tiếp chắn cung nhỏ có số đo bằng nửa số đo của góc ở tâm chắn cùng một cung: 120 / 2 = 60.",
+      "answers": [
+        {
+          "text": "60",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm cung bị chắn bởi góc nội tiếp",
+      "questiontext": "Hãy ghép các thành phần của hình vẽ đường tròn với tên gọi tương ứng:",
+      "generalfeedback": "Dựa trên các khái niệm cơ bản về góc nội tiếp và đường tròn trong SGK.",
+      "subquestions": [
+        {
+          "question": "Đỉnh của góc nội tiếp",
+          "answer": "Nằm trên đường tròn"
+        },
+        {
+          "question": "Hai cạnh của góc nội tiếp",
+          "answer": "Chứa hai dây cung của đường tròn"
+        },
+        {
+          "question": "Cung nằm bên trong góc nội tiếp",
+          "answer": "Cung bị chắn"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi gặp một bài toán hình học phức tạp về góc nội tiếp, bạn Nam chưa tìm ra lời giải ngay. Để thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập, bạn Nam nên thực hiện hành động nào sau đây?",
+      "generalfeedback": "Hành động thể hiện tinh thần vượt khó, chủ động vươn lên trong học tập là tự giác đọc lại lý thuyết SGK, xem lại ví dụ và kiên trì vẽ lại hình để tìm lời giải, thay vì chép bài hoặc bỏ cuộc.",
+      "answers": [
+        {
+          "text": "Kiên trì đọc lại định nghĩa và tính chất góc nội tiếp trong SGK, chủ động vẽ lại hình và thử các hướng suy luận khác nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Chép ngay lời giải từ bạn khác để kịp nộp bài cho thầy cô",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua không làm bài toán đó vì thấy quá phức tạp",
+          "fraction": 0
+        },
+        {
+          "text": "Nhờ bạn khác làm hộ toàn bộ bài tập để lấy điểm cao",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Để học tốt Tiết 1 \"Khái niệm góc nội tiếp\" (Bài 27 Toán 9), bạn An cần tự đặt mục tiêu học tập nào sau đây để nỗ lực phấn đấu thực hiện?",
+      "generalfeedback": "Đặt mục tiêu học tập phù hợp và có tính phấn đấu là xác định rõ kiến thức cốt lõi cần đạt: nhận biết góc nội tiếp, xác định đúng cung bị chắn và vận dụng định lý về số đo góc nội tiếp.",
+      "answers": [
+        {
+          "text": "Nhận biết chính xác góc nội tiếp, xác định đúng cung bị chắn và vận dụng định lý số đo góc nội tiếp để giải các bài tập cơ bản",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ học thuộc lòng các công thức mà không cần hiểu hình vẽ minh họa",
+          "fraction": 0
+        },
+        {
+          "text": "Học thuộc đáp án các bài tập trong sách bài tập để đối phó với kiểm tra",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua phần định nghĩa và chỉ tập trung làm các bài tập nâng cao",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "questiontext": "Quan sát sơ đồ góc sút bóng ở Hình 9.11 [img:_page_4_Picture_13.jpeg] và văn bản ứng dụng trong SGK. Khi quả bóng đặt tại điểm phạt đền thì có góc sút bằng \\(36^{\\circ}\\). Khi tiếp nhận thông tin từ hình ảnh và văn bản trên, phát biểu nào sau đây thể hiện đúng hiểu biết về mối liên hệ giữa vị trí quả bóng và góc sút?",
+      "generalfeedback": "Khi quả bóng nằm trên cung tròn đi qua điểm phạt đền và hai cọc gôn (trừ hai cọc gôn), góc sút luôn bằng 36° vì các góc nội tiếp cùng chắn một cung thì bằng nhau.",
+      "imgs": [
+        "_page_4_Picture_13.jpeg"
+      ],
+      "answers": [
+        {
+          "text": "Mọi vị trí đặt bóng nằm trên cung tròn đi qua điểm phạt đền và hai cọc gôn đều cho góc sút bằng \\(36^{\\circ}\\) do các góc nội tiếp cùng chắn một cung thì bằng nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Góc sút chỉ bằng \\(36^{\\circ}\\) tại duy nhất điểm phạt đền, ở các vị trí khác trên cung tròn góc sút luôn nhỏ hơn \\(36^{\\circ}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Khoảng cách từ quả bóng đến hai cọc gôn ở mọi vị trí trên cung tròn luôn bằng \\(11,6\\text{ m}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Góc sút luôn bằng số đo của góc ở tâm chắn hai cọc gôn tại mọi vị trí trên sân",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_02",
+      "questiontext": "Quan sát Hình 9.3 [img:_page_1_Picture_15.jpeg] trong SGK, bằng kĩ năng quan sát vị trí đỉnh và các cạnh của góc đối với đường tròn, bạn hãy chỉ ra lý do vì sao góc \\(D\\) không phải là góc nội tiếp của đường tròn?",
+      "generalfeedback": "Qua quan sát kỹ hình vẽ, góc D có đỉnh nằm trên đường tròn nhưng một cạnh của góc D không chứa dây cung của đường tròn (cạnh này nằm ngoài đường tròn), do đó không thỏa mãn định nghĩa góc nội tiếp.",
+      "imgs": [
+        "_page_1_Picture_15.jpeg"
+      ],
+      "answers": [
+        {
+          "text": "Vì góc D có một cạnh không chứa dây cung của đường tròn",
+          "fraction": 100
+        },
+        {
+          "text": "Vì đỉnh D nằm bên ngoài đường tròn",
+          "fraction": 0
+        },
+        {
+          "text": "Vì đỉnh D nằm bên trong đường tròn",
+          "fraction": 0
+        },
+        {
+          "text": "Vì hai cạnh của góc D cắt nhau tại tâm đường tròn",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04_12",
+      "questiontext": "Bạn Hà muốn diễn đạt định lý về mối liên hệ giữa góc nội tiếp \\(\\widehat{ACB}\\) và góc ở tâm \\(\\widehat{AOB}\\) cùng chắn cung nhỏ \\(AB\\) trong đường tròn \\((O)\\) bằng việc kết hợp ngôn ngữ thông thường và ký hiệu toán học. Cách diễn đạt nào sau đây là chuẩn xác nhất?",
+      "generalfeedback": "Sử dụng kết hợp ngôn ngữ thông thường và ký hiệu toán học: Trong đường tròn (O), góc nội tiếp \\(\\widehat{ACB}\\) chắn cung nhỏ AB có số đo bằng nửa số đo góc ở tâm \\(\\widehat{AOB}\\) cùng chắn cung đó, biểu diễn bằng công thức \\(\\widehat{ACB} = \\frac{1}{2} \\widehat{AOB}\\).",
+      "answers": [
+        {
+          "text": "Trong đường tròn \\((O)\\), góc nội tiếp \\(\\widehat{ACB}\\) chắn cung nhỏ \\(AB\\) có số đo bằng nửa số đo góc ở tâm \\(\\widehat{AOB}\\) cùng chắn cung đó, tức là \\(\\widehat{ACB} = \\frac{1}{2} \\widehat{AOB}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Trong đường tròn \\((O)\\), góc nội tiếp \\(\\widehat{ACB}\\) có số đo bằng góc ở tâm \\(\\widehat{AOB}\\), tức là \\(\\widehat{ACB} = \\widehat{AOB}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Trong đường tròn \\((O)\\), góc ở tâm \\(\\widehat{AOB}\\) bằng nửa góc nội tiếp \\(\\widehat{ACB}\\), tức là \\(\\widehat{AOB} = \\frac{1}{2} \\widehat{ACB}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Góc nội tiếp và góc ở tâm luôn bù nhau, tức là \\(\\widehat{ACB} + \\widehat{AOB} = 180^{\\circ}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi nhận được điểm chưa cao trong bài kiểm tra về góc nội tiếp, học sinh biết rút kinh nghiệm, chủ động tìm các bài tập tương tự để làm lại và hỏi thầy cô những chỗ chưa hiểu là biểu hiện của việc luôn cố gắng vươn lên đạt kết quả tốt trong học tập.",
+      "generalfeedback": "Đúng. Đây là thái độ và hành động tích cực, thể hiện phẩm chất chăm chỉ, luôn nỗ lực vươn lên trong học tập.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

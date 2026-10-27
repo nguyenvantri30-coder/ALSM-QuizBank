@@ -1,0 +1,734 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 27,
+    "metadata_used": {
+      "Khái niệm bất đẳng thức": 1,
+      "Vế trái, vế phải của bất đẳng thức": 3,
+      "YCCD_TOAN9_037": 2,
+      "Viết bất đẳng thức biểu diễn mối quan hệ lớn hơn, nhỏ hơn trong thực tế": 9,
+      "Tính chất bắc cầu của bất đẳng thức": 1,
+      "YCCD_TOAN9_038": 1,
+      "Áp dụng tính chất bắc cầu để so sánh hai số": 3,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TUHOC_C2_01": 1,
+      "SUB_GTHT_XACDINHMD_C2_04": 2,
+      "NLT_TOAN_C2_01_05": 1,
+      "NLT_TOAN_C2_04_13": 1
+    },
+    "types_used": {
+      "multichoice": 22,
+      "truefalse": 2,
+      "gapselect": 2,
+      "matching": 1
+    },
+    "total": 27
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN9_037",
+        "reason": "Nhận biết được khái niệm bất đẳng thức, vế trái, vế phải và hai bất đẳng thức cùng chiều/ngược chiều."
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_038",
+        "reason": "Mô tả được tính chất bắc cầu của bất đẳng thức đối với các thứ tự lớn hơn, nhỏ hơn, lớn hơn hoặc bằng, nhỏ hơn hoặc bằng."
+      },
+      {
+        "metadata_code": "Khái niệm bất đẳng thức",
+        "reason": "Nắm vững khái niệm bất đẳng thức và hai bất đẳng thức cùng chiều, ngược chiều."
+      },
+      {
+        "metadata_code": "Vế trái, vế phải của bất đẳng thức",
+        "reason": "Xác định chính xác vế trái và vế phải của một bất đẳng thức cho trước."
+      },
+      {
+        "metadata_code": "Tính chất bắc cầu của bất đẳng thức",
+        "reason": "Nắm vững phát biểu tính chất bắc cầu của bất đẳng thức."
+      },
+      {
+        "metadata_code": "Viết bất đẳng thức biểu diễn mối quan hệ lớn hơn, nhỏ hơn trong thực tế",
+        "reason": "Viết bất đẳng thức biểu diễn mối quan hệ lớn hơn, nhỏ hơn trong các tình huống thực tế (tuổi, nhiệt độ, tốc độ...)."
+      },
+      {
+        "metadata_code": "Áp dụng tính chất bắc cầu để so sánh hai số",
+        "reason": "Áp dụng tính chất bắc cầu để so sánh hai số thông qua số trung gian."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Mã năng lực Tin học/Số không có trong METADATA_DICTIONARY của bài học và nội dung Tiết 2 thuần túy là đại số đại cương, không chứa yếu tố ứng dụng công cụ số/phần mềm."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Mã năng lực Trí tuệ nhân tạo (AI) không có trong METADATA_DICTIONARY của bài học và nội dung Tiết 2 không có bối cảnh tích hợp AI tự nhiên."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm bất đẳng thức",
+      "questiontext": "Khẳng định nào sau đây mô tả đúng về hệ thức dạng \\(a > b\\) (hoặc \\(a < b\\), \\(a \\ge b\\), \\(a \\le b\\))?",
+      "generalfeedback": "Hệ thức dạng \\(a > b\\) (hay \\(a < b\\), \\(a \\ge b\\), \\(a \\le b\\)) được gọi là bất đẳng thức.",
+      "answers": [
+        {
+          "text": "Là một bất đẳng thức",
+          "fraction": 100
+        },
+        {
+          "text": "Là một đẳng thức",
+          "fraction": 0
+        },
+        {
+          "text": "Là một phương trình",
+          "fraction": 0
+        },
+        {
+          "text": "Là một biểu thức đại số",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Vế trái, vế phải của bất đẳng thức",
+      "questiontext": "Trong bất đẳng thức \\(-2 > -7\\), vế trái và vế phải lần lượt là:",
+      "generalfeedback": "Trong bất đẳng thức \\(-2 > -7\\), vế trái là \\(-2\\) và vế phải là \\(-7\\).",
+      "answers": [
+        {
+          "text": "Vế trái là \\(-2\\), vế phải là \\(-7\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Vế trái là \\(-7\\), vế phải là \\(-2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Vế trái là \\(2\\), vế phải là \\(7\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Vế trái là \\(-2\\), vế phải là \\(0\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Vế trái, vế phải của bất đẳng thức",
+      "questiontext": "Cho bất đẳng thức \\(a^2 + 1 > 0\\). Vế trái của bất đẳng thức này là:",
+      "generalfeedback": "Trong bất đẳng thức \\(a^2 + 1 > 0\\), vế trái là biểu thức nằm ở bên trái dấu \\(>\\), tức là \\(a^2 + 1\\).",
+      "answers": [
+        {
+          "text": "\\(a^2 + 1\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(1\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_037",
+      "questiontext": "Hai bất đẳng thức \\(1 < 2\\) và \\(-3 < -2\\) được gọi là hai bất đẳng thức cùng chiều. Đúng hay sai?",
+      "generalfeedback": "Đúng. Hai bất đẳng thức \\(1 < 2\\) và \\(-3 < -2\\) đều có dấu nhỏ hơn (\\(<\\)) nên là hai bất đẳng thức cùng chiều.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_037",
+      "questiontext": "Cặp bất đẳng thức nào sau đây là hai bất đẳng thức ngược chiều?",
+      "generalfeedback": "Hai bất đẳng thức \\(1 < 2\\) và \\(-2 > -3\\) một bên mang dấu \\(<\\), một bên mang dấu \\(>\\) nên là hai bất đẳng thức ngược chiều.",
+      "answers": [
+        {
+          "text": "\\(3 < 5\\) và \\(8 > 2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(3 < 5\\) và \\(2 < 8\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(6 > 3\\) và \\(8 > 5\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x \\ge 0\\) và \\(y \\ge 0\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Viết bất đẳng thức biểu diễn mối quan hệ lớn hơn, nhỏ hơn trong thực tế",
+      "questiontext": "Nhiệt độ \\(t\\) (°C) bảo quản của một loại sữa được yêu cầu là dưới 4 °C. Bất đẳng thức nào sau đây mô tả đúng tình huống trên?",
+      "generalfeedback": "Nhiệt độ dưới 4 °C ứng với bất đẳng thức \\(t < 4\\).",
+      "answers": [
+        {
+          "text": "\\(t < 4\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(t \\le 4\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(t > 4\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(t \\ge 4\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Viết bất đẳng thức biểu diễn mối quan hệ lớn hơn, nhỏ hơn trong thực tế",
+      "questiontext": "Để được điều khiển xe máy điện, số tuổi \\(x\\) của một người phải ít nhất là 16 tuổi. Bất đẳng thức nào mô tả đúng điều kiện này?",
+      "generalfeedback": "Ít nhất 16 tuổi có nghĩa là số tuổi phải lớn hơn hoặc bằng 16, tức là \\(x \\ge 16\\).",
+      "answers": [
+        {
+          "text": "\\(x \\ge 16\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x > 16\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x \\le 16\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x < 16\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Viết bất đẳng thức biểu diễn mối quan hệ lớn hơn, nhỏ hơn trong thực tế",
+      "imgs": [
+        "_page_1_Figure_4.jpeg"
+      ],
+      "questiontext": "Biển báo giao thông R.306 [img:_page_1_Figure_4.jpeg] báo tốc độ tối thiểu cho các xe cơ giới là 60 km/h (không nhỏ hơn 60 km/h). Nếu một ô tô đi trên đường đó với tốc độ \\(a\\) (km/h) thì \\(a\\) phải thỏa mãn điều kiện nào?",
+      "generalfeedback": "Tốc độ không nhỏ hơn 60 km/h tức là tốc độ phải lớn hơn hoặc bằng 60 km/h, kí hiệu \\(a \\ge 60\\).",
+      "answers": [
+        {
+          "text": "\\(a \\ge 60\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(a > 60\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a \\le 60\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a < 60\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Tính chất bắc cầu của bất đẳng thức",
+      "imgs": [
+        "_page_2_Figure_3.jpeg"
+      ],
+      "questiontext": "Cho ba số thực \\(a, b, c\\). Dựa vào sơ đồ [img:_page_2_Figure_3.jpeg], phát biểu nào sau đây thể hiện đúng tính chất bắc cầu của bất đẳng thức?",
+      "generalfeedback": "Tính chất bắc cầu của bất đẳng thức phát biểu: Nếu \\(a < b\\) và \\(b < c\\) thì \\(a < c\\).",
+      "answers": [
+        {
+          "text": "Nếu \\(a < b\\) và \\(b < c\\) thì \\(a < c\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Nếu \\(a < b\\) và \\(b < c\\) thì \\(a > c\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Nếu \\(a < b\\) và \\(b < c\\) thì \\(a = c\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Nếu \\(a > b\\) và \\(b < c\\) thì \\(a < c\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_038",
+      "questiontext": "Tính chất bắc cầu của bất đẳng thức được mô tả như sau: Nếu \\(a < b\\) và \\(b < c\\) thì \\(a\\) [[1]] \\(c\\). Tương tự, nếu \\(a \\ge b\\) và \\(b \\ge c\\) thì \\(a\\) [[3]] \\(c\\).",
+      "generalfeedback": "Theo tính chất bắc cầu: Nếu \\(a < b\\) và \\(b < c\\) thì \\(a < c\\); nếu \\(a \\ge b\\) và \\(b \\ge c\\) thì \\(a \\ge c\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(<\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(>\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\ge\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\le\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Áp dụng tính chất bắc cầu để so sánh hai số",
+      "questiontext": "Cho \\(a = \\frac{2024}{2023}\\) và \\(b = \\frac{2021}{2022}\\). So sánh hai số \\(a\\) và \\(b\\) bằng cách sử dụng số trung gian 1.",
+      "generalfeedback": "Ta có \\(\\frac{2024}{2023} = 1 + \\frac{1}{2023} > 1\\) và \\(\\frac{2021}{2022} = 1 - \\frac{1}{2022} < 1\\). Áp dụng tính chất bắc cầu, ta có \\(\\frac{2024}{2023} > \\frac{2021}{2022}\\).",
+      "answers": [
+        {
+          "text": "\\(a > b\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(a < b\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a = b\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a \\le b\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Áp dụng tính chất bắc cầu để so sánh hai số",
+      "questiontext": "Để so sánh \\(\\frac{2024}{1000}\\) và \\(1,9\\), bạn An so sánh hai số này với số 2. Phát biểu nào sau đây là đúng?",
+      "generalfeedback": "Ta có \\(\\frac{2024}{1000} = 2,024 > 2\\) và \\(1,9 < 2\\). Theo tính chất bắc cầu, \\(\\frac{2024}{1000} > 1,9\\).",
+      "answers": [
+        {
+          "text": "Vì \\(\\frac{2024}{1000} > 2\\) và \\(2 > 1,9\\) nên \\(\\frac{2024}{1000} > 1,9\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Vì \\(\\frac{2024}{1000} < 2\\) và \\(2 < 1,9\\) nên \\(\\frac{2024}{1000} < 1,9\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Vì \\(\\frac{2024}{1000} > 2\\) và \\(1,9 > 2\\) nên \\(\\frac{2024}{1000} = 1,9\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Vì \\(\\frac{2024}{1000} = 2\\) và \\(1,9 < 2\\) nên \\(\\frac{2024}{1000} < 1,9\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Áp dụng tính chất bắc cầu để so sánh hai số",
+      "questiontext": "So sánh hai số \\(-\\frac{2022}{2023}\\) và \\(-1,1\\) bằng cách so sánh chúng với số \\(-1\\). Khẳng định nào sau đây đúng?",
+      "generalfeedback": "Ta có \\(-\\frac{2022}{2023} > -1\\) và \\(-1 > -1,1\\). Theo tính chất bắc cầu, \\(-\\frac{2022}{2023} > -1,1\\).",
+      "answers": [
+        {
+          "text": "\\(-\\frac{2022}{2023} > -1,1\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(-\\frac{2022}{2023} < -1,1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-\\frac{2022}{2023} = -1,1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-\\frac{2022}{2023} \\le -1,1\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Viết bất đẳng thức biểu diễn mối quan hệ lớn hơn, nhỏ hơn trong thực tế",
+      "questiontext": "Dùng kí hiệu để viết bất đẳng thức cho trường hợp: \"\\(x\\) nhỏ hơn hoặc bằng \\(-2\\)\".",
+      "generalfeedback": "\\(x\\) nhỏ hơn hoặc bằng \\(-2\\) được viết là \\(x \\le -2\\).",
+      "answers": [
+        {
+          "text": "\\(x \\le -2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x < -2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x \\ge -2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x > -2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Viết bất đẳng thức biểu diễn mối quan hệ lớn hơn, nhỏ hơn trong thực tế",
+      "questiontext": "Dùng kí hiệu để viết bất đẳng thức mô tả: \"\\(m\\) là số âm\".",
+      "generalfeedback": "Số âm là số nhỏ hơn 0, nên \\(m\\) là số âm được viết là \\(m < 0\\).",
+      "answers": [
+        {
+          "text": "\\(m < 0\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(m \\le 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(m > 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(m \\ge 0\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Viết bất đẳng thức biểu diễn mối quan hệ lớn hơn, nhỏ hơn trong thực tế",
+      "questiontext": "Dùng kí hiệu để viết bất đẳng thức mô tả: \"\\(y\\) là số dương\".",
+      "generalfeedback": "Số dương là số lớn hơn 0, nên \\(y\\) là số dương được viết là \\(y > 0\\).",
+      "answers": [
+        {
+          "text": "\\(y > 0\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(y \\ge 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(y < 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(y \\le 0\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Viết bất đẳng thức biểu diễn mối quan hệ lớn hơn, nhỏ hơn trong thực tế",
+      "questiontext": "Một quy định giao thông nêu rõ: \"Bạn phải ít nhất 18 tuổi mới được phép lái ô tô\". Nếu gọi \\(x\\) là số tuổi của một người được phép lái ô tô thì bất đẳng thức nào sau đây biểu diễn quy định đó?",
+      "generalfeedback": "Ít nhất 18 tuổi có nghĩa là số tuổi \\(x\\) phải từ 18 trở lên, kí hiệu \\(x \\ge 18\\).",
+      "answers": [
+        {
+          "text": "\\(x \\ge 18\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x > 18\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x \\le 18\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x < 18\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Viết bất đẳng thức biểu diễn mối quan hệ lớn hơn, nhỏ hơn trong thực tế",
+      "questiontext": "Một chiếc xe buýt chở được tối đa 45 người. Nếu gọi \\(n\\) là số người trên xe buýt thì bất đẳng thức nào sau đây mô tả đúng tình huống này?",
+      "generalfeedback": "Tối đa 45 người nghĩa là số người \\(n\\) không vượt quá 45, kí hiệu \\(n \\le 45\\).",
+      "answers": [
+        {
+          "text": "\\(n \\le 45\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(n < 45\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(n \\ge 45\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(n > 45\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Viết bất đẳng thức biểu diễn mối quan hệ lớn hơn, nhỏ hơn trong thực tế",
+      "questiontext": "Mức lương tối thiểu cho một giờ làm việc của người lao động là 20 000 đồng. Nếu gọi \\(m\\) (đồng) là mức lương theo giờ của một người lao động thì \\(m\\) phải thỏa mãn bất đẳng thức nào?",
+      "generalfeedback": "Mức lương tối thiểu là 20 000 đồng nghĩa là \\(m\\) phải lớn hơn hoặc bằng 20 000 đồng, kí hiệu \\(m \\ge 20000\\).",
+      "answers": [
+        {
+          "text": "\\(m \\ge 20000\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(m > 20000\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(m \\le 20000\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(m < 20000\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Vế trái, vế phải của bất đẳng thức",
+      "questiontext": "Hãy ghép mỗi bất đẳng thức ở cột bên trái với vế trái tương ứng ở cột bên phải.",
+      "generalfeedback": "Vế trái của \\(-2 > -7\\) là \\(-2\\); vế trái của \\(a^2 + 1 > 0\\) là \\(a^2 + 1\\); vế trái của \\(x \\le -2\\) là \\(x\\).",
+      "subquestions": [
+        {
+          "question": "Bất đẳng thức \\(-2 > -7\\)",
+          "answer": "\\(-2\\)"
+        },
+        {
+          "question": "Bất đẳng thức \\(a^2 + 1 > 0\\)",
+          "answer": "\\(a^2 + 1\\)"
+        },
+        {
+          "question": "Bất đẳng thức \\(x \\le -2\\)",
+          "answer": "\\(x\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong một bài kiểm tra về Bất đẳng thức, bạn An chưa đạt kết quả tốt ở phần vận dụng tính chất bắc cầu. Để thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập, bạn An nên chọn hành động nào sau đây?",
+      "generalfeedback": "Thái độ vươn lên trong học tập thể hiện qua việc chủ động nhận diện điểm yếu, xem lại kiến thức SGK, luyện tập thêm và nhờ sự trợ giúp của thầy cô, bạn bè.",
+      "answers": [
+        {
+          "text": "Chủ động ôn lại kiến thức tính chất bắc cầu trong SGK, làm thêm bài tập và nhờ thầy cô hoặc bạn bè giải đáp thắc mắc",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua không học lại phần này vì cho rằng kiến thức bất đẳng thức quá khó",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ học thuộc lòng kết quả bài làm của bạn khác mà không tìm hiểu cách giải",
+          "fraction": 0
+        },
+        {
+          "text": "Đổ lỗi cho đề thi khó và không cần phấn đấu trong các bài kiểm tra tiếp theo",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Bạn Bình muốn đạt mục tiêu thành thạo việc viết bất đẳng thức biểu diễn các tình huống thực tế (như độ tuổi, nhiệt độ, tốc độ...). Kế hoạch học tập nào sau đây giúp bạn Bình thực hiện mục tiêu đó hiệu quả nhất?",
+      "generalfeedback": "Việc tự đặt mục tiêu học tập gắn với kế hoạch cụ thể (tìm kiếm bối cảnh thực tế, viết bất đẳng thức và tự kiểm tra) giúp học sinh nỗ lực hoàn thành mục tiêu.",
+      "answers": [
+        {
+          "text": "Tự đặt mục tiêu mỗi ngày quan sát 2 tình huống thực tế xung quanh, viết bất đẳng thức tương ứng và kiểm tra lại với SGK",
+          "fraction": 100
+        },
+        {
+          "text": "Chờ đến sát kì kiểm tra mới mở sách ra đọc qua các ví dụ thực tế",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ học thuộc các công thức lý thuyết mà không làm bài tập vận dụng thực tế",
+          "fraction": 0
+        },
+        {
+          "text": "Chép lại toàn bộ bài giải thực tế trong sách bài tập mà không tự suy nghĩ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_04",
+      "imgs": [
+        "_page_1_Figure_4.jpeg"
+      ],
+      "questiontext": "Khi quan sát biển báo giao thông R.306 [img:_page_1_Figure_4.jpeg] và thảo luận với các bạn về tốc độ cho phép, cách trình bày nào sau đây kết hợp chính xác giữa ngôn ngữ thông thường và kí hiệu toán học?",
+      "generalfeedback": "Cách trình bày kết hợp ngôn ngữ 'Tốc độ a (km/h) không nhỏ hơn 60 km/h' và kí hiệu toán học \\(a \\ge 60\\) thể hiện chính xác ý nghĩa của biển báo tốc độ tối thiểu.",
+      "answers": [
+        {
+          "text": "Diễn giải: 'Tốc độ \\(a\\) (km/h) của xe không nhỏ hơn 60 km/h', đi kèm kí hiệu toán học \\(a \\ge 60\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Diễn giải: 'Tốc độ \\(a\\) (km/h) của xe nhỏ hơn 60 km/h', đi kèm kí hiệu toán học \\(a < 60\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Diễn giải: 'Tốc độ \\(a\\) (km/h) của xe vượt quá 60 km/h', đi kèm kí hiệu toán học \\(a > 60\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Diễn giải: 'Tốc độ \\(a\\) (km/h) của xe tối đa là 60 km/h', đi kèm kí hiệu toán học \\(a \\le 60\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_05",
+      "questiontext": "Để chứng minh bất đẳng thức \\(\\frac{2024}{2023} > \\frac{2021}{2022}\\), bạn Mai thực hiện các bước lập luận như sau:\n- Bước 1: So sánh \\(\\frac{2024}{2023}\\) với 1: \\(\\frac{2024}{2023} = 1 + \\frac{1}{2023} > 1\\).\n- Bước 2: So sánh \\(\\frac{2021}{2022}\\) với 1: \\(\\frac{2021}{2022} = 1 - \\frac{1}{2022} < 1\\).\n- Bước 3: Kết luận \\(\\frac{2024}{2023} > \\frac{2021}{2022}\\).\nLập luận của bạn Mai dựa trên cơ sở toán học nào?",
+      "generalfeedback": "Lập luận của bạn Mai sử dụng số 1 làm số trung gian: Vì \\(\\frac{2024}{2023} > 1\\) và \\(1 > \\frac{2021}{2022}\\) nên theo tính chất bắc cầu, \\(\\frac{2024}{2023} > \\frac{2021}{2022}\\).",
+      "answers": [
+        {
+          "text": "Tính chất bắc cầu của bất đẳng thức (so sánh hai số thông qua số trung gian 1)",
+          "fraction": 100
+        },
+        {
+          "text": "Tính chất liên hệ giữa thứ tự và phép cộng",
+          "fraction": 0
+        },
+        {
+          "text": "Tính chất liên hệ giữa thứ tự và phép nhân",
+          "fraction": 0
+        },
+        {
+          "text": "Định nghĩa hai bất đẳng thức ngược chiều",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04_13",
+      "questiontext": "Trong quy định điều khiển xe máy điện: 'Số tuổi \\(x\\) của một người phải ít nhất là 16 tuổi'. Cách giải thích nào sau đây kết hợp hợp lí giữa ngôn ngữ thông thường và ngôn ngữ toán học để thể hiện chứng cứ lập luận?",
+      "generalfeedback": "Cụm từ 'ít nhất 16 tuổi' có nghĩa là số tuổi có thể bằng 16 hoặc lớn hơn 16, do đó biểu diễn bằng ngôn ngữ toán học là kí hiệu \\(x \\ge 16\\).",
+      "answers": [
+        {
+          "text": "Cụm từ 'ít nhất 16 tuổi' nghĩa là số tuổi có thể bằng 16 hoặc lớn hơn 16, do đó được thể hiện bằng kí hiệu toán học \\(x \\ge 16\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Cụm từ 'ít nhất 16 tuổi' nghĩa là số tuổi phải lớn hơn hẳn 16, do đó được thể hiện bằng kí hiệu toán học \\(x > 16\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Cụm từ 'ít nhất 16 tuổi' nghĩa là số tuổi không quá 16, do đó được thể hiện bằng kí hiệu toán học \\(x \\le 16\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Cụm từ 'ít nhất 16 tuổi' nghĩa là số tuổi chưa tới 16, do đó được thể hiện bằng kí hiệu toán học \\(x < 16\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_04",
+      "questiontext": "Để biểu diễn thông tin thực tế 'Nhiệt độ \\(t\\) (°C) bảo quản của một loại sữa là dưới 4 °C', ta dùng kí hiệu toán học [[1]]. Để biểu diễn 'Số tuổi \\(x\\) của người đi xe máy điện ít nhất là 16 tuổi', ta dùng kí hiệu toán học [[2]].",
+      "generalfeedback": "'Dưới 4 °C' tương ứng với \\(t < 4\\); 'ít nhất 16 tuổi' tương ứng với \\(x \\ge 16\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(t < 4\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(x \\ge 16\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(t > 4\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(x \\le 16\\)"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi gặp một bài toán thực tế yêu cầu viết bất đẳng thức mà chưa làm được ngay, việc kiên trì phân tích từ ngữ trong đề bài và thử biểu diễn bằng kí hiệu toán học thay vì bỏ cuộc thể hiện tinh thần luôn cố gắng vươn lên trong học tập. Đúng hay sai?",
+      "generalfeedback": "Đúng. Kiên trì suy nghĩ, phân tích và thử nghiệm giải pháp khi gặp bài toán khó là biểu hiện của tinh thần cố gắng vươn lên đạt kết quả tốt.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

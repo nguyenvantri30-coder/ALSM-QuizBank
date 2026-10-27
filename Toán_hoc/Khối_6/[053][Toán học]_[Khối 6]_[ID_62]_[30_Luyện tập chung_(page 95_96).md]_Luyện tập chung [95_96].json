@@ -1,0 +1,753 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 30,
+    "metadata_used": {
+      "Phương pháp chia nhỏ hình phức tạp thành các hình đã học để tính chu vi và diện tích": 5,
+      "YCCD_TOAN6_103": 4,
+      "YCCD_TOAN6_104": 6,
+      "Tính chu vi và diện tích của hình ghép phẳng thực tế": 5,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TUHOC_C2_04": 2,
+      "SUB_GTHT_XACDINHMD_C2_03": 2,
+      "NLT_TOAN_C2_01_02": 2,
+      "NLT_TOAN_C2_05_01": 2
+    },
+    "types_used": {
+      "multichoice": 8,
+      "truefalse": 4,
+      "numerical": 4,
+      "shortanswer": 2,
+      "gapselect": 2,
+      "calculated": 1,
+      "matching": 4,
+      "ddwtos": 3,
+      "calculatedsimple": 1,
+      "calculatedmulti": 1
+    },
+    "total": 30
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN6_103",
+        "reason": "Giải quyết được một số vấn đề thực tiễn gắn với việc tính chu vi của các hình đặc biệt."
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_104",
+        "reason": "Giải quyết được một số vấn đề thực tiễn gắn với việc tính diện tích của các hình đặc biệt."
+      },
+      {
+        "metadata_code": "Phương pháp chia nhỏ hình phức tạp thành các hình đã học để tính chu vi và diện tích",
+        "reason": "Phương pháp chia nhỏ hình phức tạp thành các hình đã học để tính chu vi và diện tích."
+      },
+      {
+        "metadata_code": "Tính chu vi và diện tích của hình ghép phẳng thực tế",
+        "reason": "Tính chu vi và diện tích của hình ghép phẳng thực tế."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Luôn cố gắng vươn lên đạt kết quả tốt trong học tập."
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+        "reason": "Lưu giữ thông tin có chọn lọc bằng ghi tóm tắt, bằng bản đồ khái niệm, bảng, các từ khoá."
+      },
+      {
+        "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+        "reason": "Tiếp nhận được các văn bản về những vấn đề đơn giản của đời sống... kết hợp sơ đồ, số liệu, hình ảnh."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_02",
+        "reason": "Biết quan sát trong nhiều tình huống."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_05_01",
+        "reason": "Nhận biết được tên gọi của các công cụ, phương tiện học toán."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học thuộc chủ đề Hình học phẳng và Đo lường trong SGK Toán 6, không chứa nội dung hoặc kịch bản ứng dụng công cụ tin học/công nghệ số một cách tự nhiên."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Bài học tập trung vào tính toán chu vi và diện tích thực tế cơ bản, không có dữ liệu hoặc bối cảnh phù hợp để tích hợp năng lực AI tự nhiên."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Phương pháp chia nhỏ hình phức tạp thành các hình đã học để tính chu vi và diện tích",
+      "questiontext": "Để tính diện tích của một hình phức tạp không có công thức trực tiếp, phương pháp chia nhỏ hình được thực hiện như thế nào?",
+      "generalfeedback": "Phương pháp chia nhỏ hình phức tạp là chia hình đó thành các hình phẳng cơ bản đã học (như hình vuông, hình chữ nhật, hình tam giác, hình thang...), sau đó tính diện tích từng hình thành phần rồi cộng (hoặc trừ) các diện tích đó lại.",
+      "answers": [
+        {
+          "text": "Chia hình phức tạp thành các hình đơn giản đã có công thức tính, tính diện tích từng hình rồi cộng (hoặc trừ) lại",
+          "fraction": 100
+        },
+        {
+          "text": "Đo độ dài các đường viền ngoài rồi nhân lại với nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Ước lượng diện tích dựa trên chu vi của hình",
+          "fraction": 0
+        },
+        {
+          "text": "Cắt hình thành 4 phần bằng nhau rồi nhân diện tích 1 phần với 4",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_103",
+      "questiontext": "Một hình thoi \\(MPNQ\\) có độ dài cạnh \\(MP = 5\\text{ cm}\\). Chu vi của hình thoi \\(MPNQ\\) là \\(20\\text{ cm}\\). Đúng hay sai? [img:_page_1_Figure_6.jpeg]",
+      "imgs": [
+        "_page_1_Figure_6.jpeg"
+      ],
+      "generalfeedback": "Hình thoi có 4 cạnh bằng nhau, nên chu vi hình thoi là \\(C = 4 \\times 5 = 20\\text{ cm}\\). Phát biểu này là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_104",
+      "questiontext": "Một mảnh giấy hình chữ nhật có diện tích \\(96\\text{ cm}^2\\) và một cạnh có độ dài \\(12\\text{ cm}\\). Tính chu vi của mảnh giấy đó (theo đơn vị cm).",
+      "generalfeedback": "Độ dài cạnh còn lại của mảnh giấy là: \\(96 : 12 = 8\\text{ (cm)}\\). Chu vi của mảnh giấy hình chữ nhật là: \\((12 + 8) \\times 2 = 40\\text{ (cm)}\\).",
+      "answers": [
+        {
+          "text": "40",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Tính chu vi và diện tích của hình ghép phẳng thực tế",
+      "questiontext": "Hình thoi \\(MPNQ\\) có độ dài hai đường chéo \\(MN = 8\\text{ cm}\\) và \\(PQ = 6\\text{ cm}\\). Công thức hoặc giá trị diện tích của hình thoi \\(MPNQ\\) bằng bao nhiêu cm²?",
+      "generalfeedback": "Diện tích hình thoi bằng một nửa tích độ dài hai đường chéo: \\(S = \\frac{1}{2} \\times 8 \\times 6 = 24\\text{ (cm}^2\\text{)}\\).",
+      "answers": [
+        {
+          "text": "24",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Phương pháp chia nhỏ hình phức tạp thành các hình đã học để tính chu vi và diện tích",
+      "questiontext": "Khi tính diện tích bãi cỏ bao quanh ngôi nhà (như trong Ví dụ 1 SGK), ta lấy diện tích của [[1]] trừ đi diện tích của [[2]].",
+      "generalfeedback": "Bãi cỏ cùng ngôi nhà tạo thành một hình thang cân bao ngoài. Muốn tính diện tích bãi cỏ, ta lấy diện tích cả khu đất hình thang trừ đi diện tích phần đất làm nhà.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "khu đất hình thang"
+        },
+        {
+          "group": 1,
+          "text": "ngôi nhà"
+        },
+        {
+          "group": 1,
+          "text": "lối đi"
+        },
+        {
+          "group": 1,
+          "text": "hình vuông"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_103",
+      "questiontext": "Một khu vườn hình thoi có độ dài cạnh là {a} m. Người ta muốn làm rào chắn xung quanh khu vườn đó. Tính tổng độ dài hàng rào bao quanh khu vườn.",
+      "generalfeedback": "Chu vi hình thoi bằng 4 lần độ dài một cạnh: \\(C = 4 \\times a\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 5.0,
+          "max": 25.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "4*{a}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_104",
+      "questiontext": "Ghép mỗi bài toán hình học thực tế với công thức/bước tính diện tích tương ứng:",
+      "generalfeedback": "Diện tích hình thoi = (đường chéo 1 x đường chéo 2) / 2. Diện tích hình chữ nhật = chiều dài x chiều rộng. Diện tích hình vuông = cạnh x cạnh.",
+      "subquestions": [
+        {
+          "question": "Diện tích mảnh vườn hình chữ nhật dài 20m, rộng 5m",
+          "answer": "20 \\(\\times\\) 5 = 100 m²"
+        },
+        {
+          "question": "Diện tích hình thoi có 2 đường chéo 8cm và 6cm",
+          "answer": "\\(\\frac{1}{2} \\times 8 \\times 6 = 24\\) cm²"
+        },
+        {
+          "question": "Diện tích viên gạch hình vuông cạnh 0,4m",
+          "answer": "0,4 \\(\\times\\) 0,4 = 0,16 m²"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "Tính chu vi và diện tích của hình ghép phẳng thực tế",
+      "questiontext": "Một mảnh vườn hình vuông cạnh 20 m có lối đi xung quanh rộng 2 m. Chiều dài cạnh phần đất trồng trọt là [[1]] m và diện tích phần đất trồng trọt là [[2]] m². [img:_page_1_Picture_11.jpeg]",
+      "imgs": [
+        "_page_1_Picture_11.jpeg"
+      ],
+      "generalfeedback": "Cạnh phần đất trồng trọt = 20 - 2 x 2 = 16 m. Diện tích trồng trọt = 16 x 16 = 256 m².",
+      "choices": [
+        {
+          "group": 1,
+          "text": "16"
+        },
+        {
+          "group": 1,
+          "text": "256"
+        },
+        {
+          "group": 1,
+          "text": "18"
+        },
+        {
+          "group": 1,
+          "text": "324"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_104",
+      "questiontext": "Một nền nhà hình chữ nhật có chiều dài {a} m và chiều rộng {b} m. Tính diện tích nền nhà hình chữ nhật đó.",
+      "generalfeedback": "Diện tích hình chữ nhật bằng chiều dài nhân chiều rộng: \\(S = a \\times b\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 10.0,
+          "max": 30.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 4.0,
+          "max": 12.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*{b}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Phương pháp chia nhỏ hình phức tạp thành các hình đã học để tính chu vi và diện tích",
+      "questiontext": "Cho một mảnh vườn hình chữ nhật có chiều dài 25 m, chiều rộng 15 m. Người ta làm hai lối đi rộng 1 m (một lối đi dọc và một lối đi ngang). Phương pháp nào sau đây giúp tính diện tích phần đất trồng cây còn lại nhanh nhất? [img:_page_1_Picture_13.jpeg]",
+      "imgs": [
+        "_page_1_Picture_13.jpeg"
+      ],
+      "generalfeedback": "Gộp các phần đất trồng cây còn lại thành một hình chữ nhật mới có chiều dài là \\(25 - 1 = 24\\text{ (m)}\\) và chiều rộng là \\(15 - 1 = 14\\text{ (m)}\\). Do đó diện tích đất trồng cây là \\(24 \\times 14 = 336\\text{ (m}^2\\text{)}\\).",
+      "answers": [
+        {
+          "text": "Gộp các mảnh đất còn lại thành hình chữ nhật mới có chiều dài 24 m và chiều rộng 14 m để tính diện tích",
+          "fraction": 100
+        },
+        {
+          "text": "Tính diện tích từng ô nhỏ rồi cộng lại với nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Lấy diện tích cả mảnh vườn chia cho 2 lối đi",
+          "fraction": 0
+        },
+        {
+          "text": "Lấy chiều dài trừ chiều rộng rồi nhân với chiều rộng lối đi",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính chu vi và diện tích của hình ghép phẳng thực tế",
+      "questiontext": "Một ngôi nhà có bãi cỏ bao quanh nằm trong khu đất hình thang cân có độ dài hai đáy lần lượt là 30 m, 42 m và chiều cao là 24 m. Phần đất làm nhà là hình chữ nhật có kích thước 15 m và 18 m. Tính diện tích của bãi cỏ (theo đơn vị m²).",
+      "generalfeedback": "Diện tích cả khu đất hình thang là: \\(\\frac{1}{2} \\times (30 + 42) \\times 24 = 864\\text{ (m}^2\\text{)}\\). Diện tích phần đất làm nhà là: \\(15 \\times 18 = 270\\text{ (m}^2\\text{)}\\). Diện tích bãi cỏ bao quanh là: \\(864 - 270 = 594\\text{ (m}^2\\text{)}\\).",
+      "answers": [
+        {
+          "text": "594",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_104",
+      "questiontext": "Bãi cỏ xung quanh ngôi nhà có diện tích \\(594\\text{ m}^2\\). Nếu một túi hạt giống cỏ gieo vừa đủ trên \\(33\\text{ m}^2\\) đất, thì cần bao nhiêu túi hạt giống để gieo hết bãi cỏ?",
+      "generalfeedback": "Số túi hạt giống cần dùng là: \\(594 : 33 = 18\\text{ (túi)}\\).",
+      "answers": [
+        {
+          "text": "18",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Tính chu vi và diện tích của hình ghép phẳng thực tế",
+      "questiontext": "Một nền nhà hình chữ nhật chiều dài 20 m, chiều rộng 5 m được lát bằng các viên gạch hình vuông cạnh 4 dm (diện tích mỗi viên gạch là \\(0,16\\text{ m}^2\\)). Tổng số tiền mua gạch là 11 875 000 đồng. Hỏi giá mỗi viên gạch lát nền là bao nhiêu đồng? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Diện tích nền nhà = \\(20 \\times 5 = 100\\text{ (m}^2\\text{)}\\). Số viên gạch lát nền = \\(100 : 0,16 = 625\\text{ (viên)}\\). Giá mỗi viên gạch = \\(11\\,875\\,000 : 625 = 19\\,000\\text{ (đồng)}\\).",
+      "answers": [
+        {
+          "text": "19000",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_104",
+      "questiontext": "Một mảnh vườn hình chữ nhật chiều dài {a} m, chiều rộng {b} m. Làm hai lối đi rộng 1 m. Diện tích phần đất trồng cây còn lại được tính bằng công thức nào?",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 15.0,
+          "max": 35.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 10.0,
+          "max": 20.0,
+          "decimals": 0
+        }
+      ],
+      "generalfeedback": "Sau khi trừ đi hai lối đi rộng 1 m theo chiều dài và chiều rộng, kích thước phần đất trồng cây lần lượt là \\((a - 1)\\) và \\((b - 1)\\). Công thức tính diện tích trồng cây là \\(({a}-1)*({b}-1)\\).",
+      "answers": [
+        {
+          "text": "({a}-1)*({b}-1)",
+          "fraction": 100
+        },
+        {
+          "text": "{a}*{b}-1",
+          "fraction": 0
+        },
+        {
+          "text": "({a}-2)*({b}-2)",
+          "fraction": 0
+        },
+        {
+          "text": "{a}*{b}-({a}+{b})",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Phương pháp chia nhỏ hình phức tạp thành các hình đã học để tính chu vi và diện tích",
+      "questiontext": "Khi tính chu vi của một hình ghép phẳng, ta tính tổng độ dài tất cả các đoạn thẳng nằm ở đường viền bên ngoài của hình đó, không cộng các đoạn nằm bên trong. Đúng hay sai?",
+      "generalfeedback": "Chu vi của một hình phẳng ghép là độ dài đường biên bao quanh ngoài của hình đó. Do đó chỉ cộng các đoạn đường viền ngoài, không cộng các đường chia nội bộ bên trong. Phát biểu này là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_103",
+      "questiontext": "Một mảnh giấy hình chữ nhật có diện tích \\(96\\text{ cm}^2\\), một cạnh dài \\(12\\text{ cm}\\). Cạnh còn lại của mảnh giấy có độ dài là [[1]] cm và chu vi mảnh giấy là [[2]] cm.",
+      "generalfeedback": "Cạnh còn lại = \\(96 : 12 = 8\\text{ (cm)}\\). Chu vi = \\((12 + 8) \\times 2 = 40\\text{ (cm)}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "8"
+        },
+        {
+          "group": 1,
+          "text": "40"
+        },
+        {
+          "group": 1,
+          "text": "16"
+        },
+        {
+          "group": 1,
+          "text": "48"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Tính chu vi và diện tích của hình ghép phẳng thực tế",
+      "questiontext": "Ghép các phép đổi đơn vị đo độ dài và diện tích sau cho đúng:",
+      "generalfeedback": "\\(4\\text{ dm} = 0,4\\text{ m}\\); \\(1\\text{ m}^2 = 100\\text{ dm}^2\\); \\(0,16\\text{ m}^2 = 1600\\text{ cm}^2\\).",
+      "subquestions": [
+        {
+          "question": "Đổi 4 dm sang mét",
+          "answer": "0,4 m"
+        },
+        {
+          "question": "Đổi 1 m² sang decimét vuông",
+          "answer": "100 dm²"
+        },
+        {
+          "question": "Đổi 0,16 m² sang xentimét vuông",
+          "answer": "1600 cm²"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_104",
+      "questiontext": "Một mảnh vườn hình chữ nhật có chiều dài 25 m, chiều rộng bằng \\(\\frac{3}{5}\\) chiều dài. Chiều rộng mảnh vườn là [[1]] m. Người ta làm hai lối đi rộng 1 m, diện tích đất còn lại để trồng cây là [[2]] m². [img:_page_1_Picture_13.jpeg]",
+      "imgs": [
+        "_page_1_Picture_13.jpeg"
+      ],
+      "generalfeedback": "Chiều rộng = \\(25 \\times \\frac{3}{5} = 15\\text{ (m)}\\). Chiều dài đất trồng cây = \\(25 - 1 = 24\\text{ (m)}\\). Chiều rộng đất trồng cây = \\(15 - 1 = 14\\text{ (m)}\\). Diện tích trồng cây = \\(24 \\times 14 = 336\\text{ (m}^2\\text{)}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "15"
+        },
+        {
+          "group": 1,
+          "text": "336"
+        },
+        {
+          "group": 1,
+          "text": "20"
+        },
+        {
+          "group": 1,
+          "text": "375"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Phương pháp chia nhỏ hình phức tạp thành các hình đã học để tính chu vi và diện tích",
+      "questiontext": "Ngoài cách dùng công thức diện tích hình thang, ta có thể chia khu đất hình thang cân (đáy 30 m, 42 m, chiều cao 24 m) thành các hình nào để tính tổng diện tích?",
+      "generalfeedback": "Khu đất hình thang cân có thể chia thành 1 hình chữ nhật ở giữa (kích thước 30 m x 24 m) và 2 hình tam giác vuông hai bên bằng nhau (mỗi tam giác có cạnh góc vuông 6 m và 24 m).",
+      "answers": [
+        {
+          "text": "Một hình chữ nhật kích thước 30 m x 24 m và hai hình tam giác vuông bằng nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Hai hình vuông cạnh 24 m và một hình tam giác",
+          "fraction": 0
+        },
+        {
+          "text": "Ba hình chữ nhật bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Một hình thoi và hai hình vuông",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_103",
+      "questiontext": "Một mảnh vườn hình vuông cạnh 20 m có lối đi xung quanh rộng 2 m. Tính chu vi của phần đất trồng trọt còn lại ở bên trong (theo đơn vị m). [img:_page_1_Picture_11.jpeg]",
+      "imgs": [
+        "_page_1_Picture_11.jpeg"
+      ],
+      "generalfeedback": "Cạnh của phần đất trồng trọt bên trong là: \\(20 - 2 \\times 2 = 16\\text{ (m)}\\). Chu vi phần đất trồng trọt hình vuông là: \\(16 \\times 4 = 64\\text{ (m)}\\).",
+      "answers": [
+        {
+          "text": "64",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi gặp một bài toán hình học phức tạp về tính diện tích hình ghép (như bài toán tính diện tích bãi cỏ xung quanh ngôi nhà trong SGK) mà chưa tìm ra cách giải ngay, hành động nào sau đây thể hiện phẩm chất luôn cố gắng vươn lên trong học tập?",
+      "generalfeedback": "Thể hiện tinh thần kiên trì, tự giác học tập: không nản lòng hay chép bài người khác, mà chủ động xem lại lý thuyết, bài mẫu và thử phân tích chia nhỏ hình để tìm ra lời giải.",
+      "answers": [
+        {
+          "text": "Kiên trì xem lại Ví dụ 1 trong SGK, phân tích cách chia hình phức tạp thành các hình đã học và tự mình thử lại nhiều lần",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài toán không làm nữa vì thấy khó và đợi thầy cô chữa bài",
+          "fraction": 0
+        },
+        {
+          "text": "Chép ngay lời giải của bạn khác vào vở cho nhanh để nộp bài đúng giờ",
+          "fraction": 0
+        },
+        {
+          "text": "Nhờ người khác làm hộ toàn bộ bài tập rồi ghi tên mình vào",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Để đạt kết quả tốt khi học bài 'Luyện tập chung' về chu vi và diện tích, học sinh nên tự giác ôn lại công thức tính chu vi, diện tích các hình cơ bản (hình vuông, hình chữ nhật, hình thoi, hình thang) trước khi làm bài tập. Đúng hay sai?",
+      "generalfeedback": "Sự chủ động và ý thức tự giác chuẩn bị kiến thức nền tảng giúp học sinh tiếp thu bài tốt hơn và giải quyết các bài toán thực tế hiệu quả. Phát biểu này là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Em hãy ghép mỗi từ khóa/tóm tắt quy trình tính toán ở cột trái với nội dung kiến thức cốt lõi tương ứng ở cột phải:",
+      "generalfeedback": "Ghi tóm tắt bằng từ khóa và sơ đồ quy trình giúp lưu giữ thông tin toán học một cách có hệ thống và dễ nhớ.",
+      "subquestions": [
+        {
+          "question": "Từ khóa 'Chia nhỏ hình'",
+          "answer": "Tách hình phức tạp thành các hình phẳng cơ bản đã biết công thức"
+        },
+        {
+          "question": "Từ khóa 'Diện tích bãi cỏ'",
+          "answer": "Lấy diện tích cả khu đất hình thang trừ đi diện tích ngôi nhà"
+        },
+        {
+          "question": "Từ khóa 'Số túi hạt giống'",
+          "answer": "Lấy tổng diện tích đất gieo cỏ chia cho diện tích gieo của 1 túi"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Để tóm tắt quy trình giải bài toán tính số tiền mua gạch lát nền nhà (Ví dụ 2 SGK), sơ đồ các bước tóm tắt nào dưới đây là đầy đủ và logic nhất?",
+      "generalfeedback": "Tóm tắt logic gồm các bước: 1) Tính diện tích nền nhà -> 2) Tính diện tích 1 viên gạch (cùng đơn vị) -> 3) Tính số viên gạch -> 4) Tính giá mỗi viên gạch.",
+      "answers": [
+        {
+          "text": "Diện tích nền nhà -> Diện tích 1 viên gạch -> Số viên gạch cần dùng -> Giá mỗi viên gạch",
+          "fraction": 100
+        },
+        {
+          "text": "Giá mỗi viên gạch -> Số tiền mua gạch -> Diện tích 1 viên gạch -> Diện tích nền nhà",
+          "fraction": 0
+        },
+        {
+          "text": "Đổi đơn vị -> Số tiền mua gạch -> Giá mỗi viên gạch",
+          "fraction": 0
+        },
+        {
+          "text": "Diện tích 1 viên gạch -> Chiều dài nền nhà -> Giá mỗi viên gạch",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "questiontext": "Đọc bản vẽ sơ đồ khu đất ngôi nhà (Hình dưới) và cho biết thông tin nào sau đây được tiếp nhận chính xác từ kết hợp văn bản và hình ảnh sơ đồ? [img:_page_0_Picture_23.jpeg]",
+      "imgs": [
+        "_page_0_Picture_23.jpeg"
+      ],
+      "generalfeedback": "Hình ảnh sơ đồ kết hợp số liệu thể hiện: Khu đất hình thang cân bao ngoài có hai đáy là 30 m và 42 m, chiều cao 24 m; ngôi nhà hình chữ nhật bên trong có kích thước 15 m và 18 m.",
+      "answers": [
+        {
+          "text": "Khu đất bao ngoài là hình thang có độ dài hai đáy 30 m, 42 m, chiều cao 24 m; ngôi nhà bên trong là hình chữ nhật kích thước 15 m x 18 m",
+          "fraction": 100
+        },
+        {
+          "text": "Khu đất bao ngoài là hình chữ nhật kích thước 30 m x 42 m; ngôi nhà là hình vuông cạnh 18 m",
+          "fraction": 0
+        },
+        {
+          "text": "Khu đất bao ngoài là hình bình hành có chiều cao 24 m; ngôi nhà là hình thoi có hai đường chéo 15 m và 18 m",
+          "fraction": 0
+        },
+        {
+          "text": "Ngôi nhà nằm hoàn toàn ngoài khu đất hình thang",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "questiontext": "Quan sát sơ đồ mảnh vườn hình chữ nhật có hai lối đi (Hình dưới), từ số liệu và ký hiệu trên sơ đồ, ta tiếp nhận được: Chiều dài mảnh vườn là [[1]] m, chiều rộng lối đi là [[2]] m. [img:_page_1_Picture_13.jpeg]",
+      "imgs": [
+        "_page_1_Picture_13.jpeg"
+      ],
+      "generalfeedback": "Sơ đồ cung cấp trực tiếp các số liệu: chiều dài mảnh vườn là 25 m và bề rộng lối đi là 1 m.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "25"
+        },
+        {
+          "group": 1,
+          "text": "1"
+        },
+        {
+          "group": 1,
+          "text": "15"
+        },
+        {
+          "group": 1,
+          "text": "2"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "NLT_TOAN_C2_01_02",
+      "questiontext": "Khi quan sát sơ đồ mảnh vườn hình vuông cạnh 20 m có lối đi xung quanh rộng 2 m (Hình dưới), em nhận xét được cấu trúc hình học của phần đất còn lại trồng trọt bên trong là hình gì? [img:_page_1_Picture_11.jpeg]",
+      "imgs": [
+        "_page_1_Picture_11.jpeg"
+      ],
+      "generalfeedback": "Qua quan sát sơ đồ thực tế, khi bớt đều lối đi 2 m xung quanh một mảnh vườn hình vuông, phần đất trống còn lại ở giữa vẫn có dạng một hình vuông.",
+      "answers": [
+        {
+          "text": "Hình vuông có độ dài cạnh giảm đi 4 m so với cạnh mảnh vườn ban đầu",
+          "fraction": 100
+        },
+        {
+          "text": "Hình chữ nhật có chiều dài bằng chiều rộng",
+          "fraction": 0
+        },
+        {
+          "text": "Hình thoi có hai đường chéo bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Hình tam giác cân",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "NLT_TOAN_C2_01_02",
+      "questiontext": "Quan sát các viên gạch lát nền trong thực tế (Hình ảnh Ví dụ 2 SGK), ta thấy các viên gạch hình vuông được ghép sát nhau tạo thành mặt phẳng nền nhà hình chữ nhật. Đúng hay sai?",
+      "generalfeedback": "Quan sát hình ảnh thực tế lát nền, các viên gạch hình vuông nhỏ xếp nối tiếp nhau tạo nên một mặt phẳng hình chữ nhật lớn. Phát biểu này là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "NLT_TOAN_C2_05_01",
+      "questiontext": "Em hãy ghép mỗi nhiệm vụ thực hành hình học trong Bài tập 4.23 SGK với công cụ, phương tiện học toán phù hợp nhất để thực hiện:",
+      "generalfeedback": "Thước thẳng có chia đơn vị dùng để đo và vẽ đoạn thẳng, e-ke dùng để kiểm tra và vẽ góc vuông.",
+      "subquestions": [
+        {
+          "question": "Vẽ hình vuông cạnh 5 cm có các góc vuông",
+          "answer": "Thước thẳng chia khoảng và E-ke"
+        },
+        {
+          "question": "Vẽ tam giác đều có độ dài 3 cạnh bằng nhau (3 cm)",
+          "answer": "Thước thẳng chia khoảng và Com-pa"
+        },
+        {
+          "question": "Đo kích thước thực tế của nền nhà hoặc bãi cỏ",
+          "answer": "Thước cuộn (thước dây)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "NLT_TOAN_C2_05_01",
+      "questiontext": "Để kiểm tra xem góc của mảnh vườn hoặc nền nhà hình chữ nhật có đúng là góc vuông hay không khi thực hành đo đạc thực tế, em nên sử dụng công cụ học toán nào sau đây?",
+      "generalfeedback": "E-ke là dụng cụ học tập chuyên dùng để nhận biết và kiểm tra góc vuông trong hình học phẳng.",
+      "answers": [
+        {
+          "text": "Thước e-ke",
+          "fraction": 100
+        },
+        {
+          "text": "Com-pa",
+          "fraction": 0
+        },
+        {
+          "text": "Thước đo góc tròn",
+          "fraction": 0
+        },
+        {
+          "text": "Mô hình hình trụ",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

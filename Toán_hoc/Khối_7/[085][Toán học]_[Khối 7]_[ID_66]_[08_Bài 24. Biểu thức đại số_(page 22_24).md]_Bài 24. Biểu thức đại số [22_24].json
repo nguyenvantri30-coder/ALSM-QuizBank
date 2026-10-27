@@ -1,0 +1,474 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 16,
+    "metadata_used": {
+      "YCCD_TOAN7_045": 2,
+      "YCCD_TOAN7_046": 3,
+      "Khái niệm biểu thức số, biểu thức đại số, biến số": 2,
+      "Nhận biết biểu thức đại số": 6,
+      "Quy tắc tính giá trị của biểu thức đại số khi biết giá trị của biến": 2,
+      "YCCD_TOAN7_047": 3,
+      "Tính giá trị của biểu thức đại số tại giá trị cho trước của biến": 2,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_TUCHUTUHOC": 1,
+      "NLC_GIAOTIEP": 1,
+      "NLT_TOAN_C2_01": 1,
+      "NLT_TOAN_C2_03": 1
+    },
+    "types_used": {
+      "multichoice": 10,
+      "truefalse": 1,
+      "gapselect": 1,
+      "shortanswer": 1,
+      "ddwtos": 1,
+      "calculatedsimple": 1,
+      "matching": 1
+    },
+    "total": 16
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_045",
+        "reason": "Đo lường mức độ nhận biết biểu thức số qua văn bản SGK."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_046",
+        "reason": "Đo lường mức độ nhận biết biểu thức đại số và thiết lập biểu thức từ tình huống."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_047",
+        "reason": "Đo lường khả năng tính giá trị của biểu thức đại số khi biết giá trị biến."
+      },
+      {
+        "metadata_code": "Khái niệm biểu thức số, biểu thức đại số, biến số",
+        "reason": "Đo lường kiến thức về khái niệm biểu thức số, biểu thức đại số và biến số."
+      },
+      {
+        "metadata_code": "Quy tắc tính giá trị của biểu thức đại số khi biết giá trị của biến",
+        "reason": "Đo lường hiểu biết về quy tắc tính giá trị của biểu thức đại số."
+      },
+      {
+        "metadata_code": "Nhận biết biểu thức đại số",
+        "reason": "Đo lường kỹ năng nhận biết và viết gọn biểu thức đại số."
+      },
+      {
+        "metadata_code": "Tính giá trị của biểu thức đại số tại giá trị cho trước của biến",
+        "reason": "Đo lường kỹ năng thực hành tính toán giá trị biểu thức đại số."
+      },
+      {
+        "metadata_code": "PC_CHAMCHI",
+        "reason": "Đo lường phẩm chất chăm chỉ qua tình huống giải bài tập biểu thức đại số."
+      },
+      {
+        "metadata_code": "PC_TRUNGTHUC",
+        "reason": "Đo lường phẩm chất trung thực trong học tập nhóm và sửa lỗi tính toán."
+      },
+      {
+        "metadata_code": "NLC_TUCHUTUHOC",
+        "reason": "Đo lường năng lực tự chủ và tự học qua xây dựng quy trình học tập."
+      },
+      {
+        "metadata_code": "NLC_GIAOTIEP",
+        "reason": "Đo lường năng lực giao tiếp và hợp tác trong thảo luận nhóm."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01",
+        "reason": "Đo lường năng lực tư duy và lập luận toán học qua phân tích chu vi hình chữ nhật."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03",
+        "reason": "Đo lường năng lực giải quyết vấn đề toán học qua mô hình hóa bài toán máy bơm."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học thuần lý thuyết kiến thức đại số cơ bản, không có nội dung thực hành hay tích hợp tự nhiên về công nghệ thông tin/năng lực số."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học không tích hợp ngữ cảnh ứng dụng hay tương tác với trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_045",
+      "questiontext": "Trong các biểu thức sau, biểu thức nào là biểu thức số?",
+      "generalfeedback": "Biểu thức số là biểu thức chỉ chứa các số và phép tính giữa các số, không chứa chữ. Do đó \\(23 + 8 \\cdot 9\\) là biểu thức số.",
+      "answers": [
+        {
+          "text": "\\(23 + 8 \\cdot 9\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(3a + 7\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{3}{x} - y^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(5x + 2y\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_045",
+      "questiontext": "Biểu thức \\((3^4 - 5) : 8\\) là một biểu thức số.",
+      "generalfeedback": "Đúng. Biểu thức \\((3^4 - 5) : 8\\) chỉ gồm các số và phép tính, không chứa chữ nên là biểu thức số.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_046",
+      "questiontext": "Một ô tô đi với vận tốc không đổi 50 km/h. Biểu thức biểu thị quãng đường ô tô đi được trong \\(t\\) (giờ) là \\(50t\\) (km). [img:_page_0_Picture_18.jpeg]\nTrong biểu thức \\(50t\\), chữ \\(t\\) được gọi là gì?",
+      "generalfeedback": "Trong một biểu thức đại số, các chữ dùng để thay thế hay đại diện cho những số nào đó được gọi là các biến số (gọi tắt là biến).",
+      "imgs": [
+        "_page_0_Picture_18.jpeg"
+      ],
+      "answers": [
+        {
+          "text": "Biến số",
+          "fraction": 100
+        },
+        {
+          "text": "Biểu thức số",
+          "fraction": 0
+        },
+        {
+          "text": "Hằng số định sẵn",
+          "fraction": 0
+        },
+        {
+          "text": "Phép tính đại số",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm biểu thức số, biểu thức đại số, biến số",
+      "questiontext": "Khẳng định nào sau đây là đúng về khái niệm biểu thức đại số?",
+      "generalfeedback": "Theo SGK, biểu thức chỉ chứa số hoặc chỉ chứa chữ hoặc chứa cả số và chữ gọi chung là biểu thức đại số.",
+      "answers": [
+        {
+          "text": "Biểu thức chỉ chứa số hoặc chỉ chứa chữ hoặc chứa cả số và chữ gọi chung là biểu thức đại số.",
+          "fraction": 100
+        },
+        {
+          "text": "Biểu thức đại số bắt buộc phải chứa cả số và chữ.",
+          "fraction": 0
+        },
+        {
+          "text": "Biểu thức đại số là biểu thức không được chứa các phép tính cộng, trừ.",
+          "fraction": 0
+        },
+        {
+          "text": "Biểu thức đại số là biểu thức chỉ chứa các số nguyên.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết biểu thức đại số",
+      "questiontext": "Hãy chỉ ra các biến số của biểu thức đại số \\(3a + b\\).",
+      "generalfeedback": "Các biến số của biểu thức đại số \\(3a + b\\) là \\(a\\) và \\(b\\).",
+      "answers": [
+        {
+          "text": "\\(a\\) và \\(b\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ có biến \\(a\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ có biến \\(b\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Số 3, \\(a\\) và \\(b\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm biểu thức số, biểu thức đại số, biến số",
+      "questiontext": "Biểu thức không chứa chữ gọi là [[1]]. Biểu thức chỉ chứa số hoặc chỉ chứa chữ hoặc chứa cả số và chữ gọi chung là [[2]].",
+      "generalfeedback": "Biểu thức không chứa chữ gọi là biểu thức số. Biểu thức chỉ chứa số hoặc chỉ chứa chữ hoặc chứa cả số và chữ gọi chung là biểu thức đại số.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "biểu thức số"
+        },
+        {
+          "group": 1,
+          "text": "biểu thức đại số"
+        },
+        {
+          "group": 1,
+          "text": "biến số"
+        },
+        {
+          "group": 1,
+          "text": "hằng số"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_046",
+      "questiontext": "Biểu thức đại số biểu thị chu vi của hình chữ nhật có chiều rộng là \\(x\\) (cm) và chiều dài hơn chiều rộng 3 cm là:",
+      "generalfeedback": "Chiều dài hình chữ nhật là \\(x + 3\\) (cm). Chu vi bằng (chiều dài + chiều rộng) \\(\\times 2 = 2(x + x + 3) = 2(2x + 3)\\) cm.",
+      "answers": [
+        {
+          "text": "\\(2(2x + 3)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x(x + 3)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2x + 3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x + 3\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết biểu thức đại số",
+      "questiontext": "Viết gọn biểu thức \\(1xy\\) theo quy tắc bỏ thừa số 1 trong tích.",
+      "generalfeedback": "Thông thường ta không viết thừa số 1 trong một tích. Chẳng hạn \\(1xy\\) viết là \\(xy\\).",
+      "answers": [
+        {
+          "text": "xy",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết biểu thức đại số",
+      "questiontext": "Để viết gọn các biểu thức đại số, ta không viết dấu nhân giữa [[1]] cũng như giữa biến và số. Thông thường ta không viết thừa số [[2]] trong một tích.",
+      "generalfeedback": "Theo quy tắc SGK: Khi viết các biểu thức đại số, ta không viết dấu nhân giữa các biến, cũng như giữa biến và số; không viết thừa số 1 trong một tích.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "các biến"
+        },
+        {
+          "group": 1,
+          "text": "1"
+        },
+        {
+          "group": 1,
+          "text": "các số"
+        },
+        {
+          "group": 1,
+          "text": "0"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Quy tắc tính giá trị của biểu thức đại số khi biết giá trị của biến",
+      "questiontext": "Cho biểu thức \\(A = 3p - q\\). Giá trị của biểu thức \\(A\\) khi \\(p = {a}\\) và \\(q = 2\\) là bao nhiêu?",
+      "generalfeedback": "Thay \\(p = {a}\\) và \\(q = 2\\) vào biểu thức \\(A = 3p - q\\) ta được giá trị là \\(3 \\cdot {a} - 2\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 3.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "3*{a}-2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Khi học bài \"Biểu thức đại số\", bạn An gặp một bài tập tính giá trị biểu thức gồm nhiều bước thay số và tính toán phức tạp. Để thể hiện phẩm chất chăm chỉ, bạn An nên thực hiện hành động nào sau đây?",
+      "generalfeedback": "Hành động kiên nhẫn, tự mình thực hiện từng bước thay số, tính toán cẩn thận và kiểm tra lại kết quả thể hiện phẩm chất chăm chỉ và sự nỗ lực trong học tập.",
+      "answers": [
+        {
+          "text": "Kiên nhẫn thực hiện từng bước thay số vào biểu thức, tính toán cẩn thận và kiểm tra lại kết quả.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài tập khó và chỉ làm các câu đơn giản.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép ngay lời giải của bạn khác để hoàn thành nhanh nhiệm vụ.",
+          "fraction": 0
+        },
+        {
+          "text": "Đoán mò kết quả mà không cần thực hiện các phép tính.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Trong giờ thảo luận nhóm về biểu thức biểu thị tổng số tiền mua cam và rau \\(40x + 15\\), bạn Bình tính ra kết quả sai do thay nhầm giá trị của biến \\(x\\). Khi được bạn trong nhóm chỉ ra chỗ sai, bạn Bình nên ứng xử như thế nào để thể hiện tính trung thực?",
+      "generalfeedback": "Thành thật thừa nhận sai sót trong quá trình tính toán và tích cực sửa lại bài làm thể hiện tính trung thực trong học tập.",
+      "answers": [
+        {
+          "text": "Thành thật thừa nhận sai sót, cảm ơn bạn và cẩn thận thay lại giá trị của biến để tính lại.",
+          "fraction": 100
+        },
+        {
+          "text": "Cố tình tranh cãi và khẳng định phép tính của mình luôn đúng.",
+          "fraction": 0
+        },
+        {
+          "text": "Gạch xóa bài làm và đổ lỗi cho bạn khác giảng bài sai.",
+          "fraction": 0
+        },
+        {
+          "text": "Im lặng và giấu bài làm sai không cho giáo viên kiểm tra.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Để tự học và nắm vững quy tắc tính giá trị của một biểu thức đại số tại nhà, học sinh nên xây dựng quy trình tự học gồm các bước theo thứ tự nào sau đây?",
+      "generalfeedback": "Quy trình tự học tự chủ và hiệu quả: Đọc hiểu lý thuyết và quy tắc trong SGK -> Nghiên cứu ví dụ mẫu -> Tự làm bài tập vận dụng -> Tự kiểm tra và đối chiếu kết quả.",
+      "answers": [
+        {
+          "text": "Đọc kĩ quy tắc trong SGK -> Phân tích ví dụ mẫu -> Tự thực hành tính giá trị biểu thức -> Đối chiếu và đánh giá kết quả.",
+          "fraction": 100
+        },
+        {
+          "text": "Làm bài tập ngay -> Đọc lý thuyết sau -> Nhờ người khác làm hộ nếu gặp bài khó.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ đọc thuộc lòng quy tắc -> Không cần thực hành làm bài tập.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép bài giải mẫu -> Đọc lướt qua quy tắc -> Bỏ qua bài tập tự luyện.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_GIAOTIEP",
+      "questiontext": "Trong hoạt động nhóm xây dựng biểu thức đại số cho các tình huống thực tế, hãy ghép mỗi vai trò giao tiếp, hợp tác ở cột bên trái với hành vi tương ứng ở cột bên phải:",
+      "generalfeedback": "Hợp tác hiệu quả đòi hỏi sự lắng nghe, đóng góp ý kiến xây dựng và thống nhất phương án đúng đắn.",
+      "subquestions": [
+        {
+          "question": "Người trình bày ý tưởng",
+          "answer": "Giải thích rõ ràng cách lập biểu thức đại số cho nhóm"
+        },
+        {
+          "question": "Người lắng nghe tích cực",
+          "answer": "Tập trung theo dõi và ghi nhận các bước lập biểu thức của bạn"
+        },
+        {
+          "question": "Người phản biện xây dựng",
+          "answer": "Gợi ý kiểm tra lại phép tính giá trị biểu thức khi thấy có sai sót"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Một hình chữ nhật có chiều rộng là \\(x\\) (cm) và chiều dài hơn chiều rộng 3 cm. Bạn Nam lập luận rằng: \"Biểu thức chu vi của hình chữ nhật này là \\(2(2x + 3)\\) cm\". Hãy phân tích lập luận của bạn Nam và chọn kết luận đúng.",
+      "generalfeedback": "Lập luận đúng: Chiều dài là \\(x + 3\\) (cm). Chu vi hình chữ nhật bằng \\(2 \\cdot (\\text{chiều rộng} + \\text{chiều dài}) = 2 \\cdot (x + x + 3) = 2(2x + 3)\\) cm.",
+      "answers": [
+        {
+          "text": "Nam lập luận đúng, vì chiều dài là \\(x + 3\\), chu vi bằng \\(2 \\cdot [x + (x + 3)] = 2(2x + 3)\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Nam lập luận sai, vì chu vi hình chữ nhật chỉ bằng tổng chiều dài và chiều rộng là \\(2x + 3\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Nam lập luận sai, vì diện tích mới là \\(2(2x + 3)\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Nam lập luận đúng nhưng biểu thức rút gọn phải là \\(4x + 3\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "questiontext": "Một bác nông dân dùng hai máy bơm để tưới vườn. Máy bơm thứ nhất mỗi giờ bơm được 5 m³ nước, máy bơm thứ hai mỗi giờ bơm được 3,5 m³ nước. Để giải quyết bài toán tính tổng lượng nước bơm được khi máy một chạy trong \\(x\\) giờ và máy hai chạy trong \\(y\\) giờ, bước mô hình hóa toán học nào sau đây là đúng?",
+      "generalfeedback": "Bước mô hình hóa toán học đúng: Lượng nước máy một bơm là \\(5x\\) m³, máy hai bơm là \\(3.5y\\) m³, tổng lượng nước là biểu thức \\(5x + 3.5y\\) m³.",
+      "answers": [
+        {
+          "text": "Biểu diễn lượng nước máy 1 là \\(5x\\), máy 2 là \\(3.5y\\) và thiết lập biểu thức tổng là \\(5x + 3.5y\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Biểu diễn lượng nước máy 1 là \\(5 + x\\), máy 2 là \\(3.5 + y\\) và lập biểu thức \\(5 + x + 3.5 + y\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Lấy tổng công suất hai máy nhân với tích thời gian: \\((5 + 3.5)xy\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Biểu diễn tổng lượng nước là \\(5y + 3.5x\\).",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

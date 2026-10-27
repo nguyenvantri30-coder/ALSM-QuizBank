@@ -1,0 +1,645 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 25,
+    "metadata_used": {
+      "Quy tắc thế để biến đổi hệ phương trình bậc nhất hai ẩn": 4,
+      "Biểu diễn một ẩn theo ẩn còn lại từ một phương trình": 5,
+      "Biến đổi và giải hệ hai phương trình bậc nhất hai ẩn bằng phương pháp thế": 5,
+      "YCCD_TOAN9_026": 6,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_TCTH_TUHOC_C2_01": 1,
+      "SUB_GQVD_DEXUAT_C2_02": 1,
+      "NLT_TOAN_C2_01_01": 1,
+      "NLT_TOAN_C2_03_05": 1
+    },
+    "types_used": {
+      "multichoice": 15,
+      "truefalse": 2,
+      "shortanswer": 2,
+      "matching": 2,
+      "gapselect": 1,
+      "ddwtos": 1,
+      "calculatedsimple": 1,
+      "numerical": 1
+    }
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "Quy tắc thế để biến đổi hệ phương trình bậc nhất hai ẩn",
+        "reason": "Đo lường hiểu biết về quy tắc thế"
+      },
+      {
+        "metadata_code": "Biểu diễn một ẩn theo ẩn còn lại từ một phương trình",
+        "reason": "Đo lường kỹ năng biểu diễn một ẩn theo ẩn còn lại"
+      },
+      {
+        "metadata_code": "Biến đổi và giải hệ hai phương trình bậc nhất hai ẩn bằng phương pháp thế",
+        "reason": "Đo lường kỹ năng biến đổi và giải hệ bằng phương pháp thế"
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_026",
+        "reason": "Đo lường năng lực giải hệ hai phương trình bậc nhất hai ẩn"
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đo lường thái độ vươn lên trong học tập"
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+        "reason": "Đo lường năng lực tự đặt mục tiêu học tập"
+      },
+      {
+        "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+        "reason": "Đo lường năng lực đề xuất giải pháp giải quyết vấn đề"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_01",
+        "reason": "Đo lường thao tác tư duy toán học"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_05",
+        "reason": "Đo lường kỹ năng toán học tương thích"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học thuần về phương pháp thế đại số trong SGK, không chứa nội dung thực hành công cụ số/phần mềm tin học."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung tiết 1 tập trung vào quy tắc thế đại số thủ công, không có cơ sở dữ liệu hoặc kịch bản ứng dụng AI tự nhiên."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc thế để biến đổi hệ phương trình bậc nhất hai ẩn",
+      "questiontext": "Bước 1 trong quy tắc giải hệ hai phương trình bậc nhất hai ẩn bằng phương pháp thế là gì?",
+      "generalfeedback": "Theo quy tắc thế, Bước 1 là: Từ một phương trình của hệ, biểu diễn một ẩn theo ẩn kia rồi thế vào phương trình còn lại của hệ để được phương trình chỉ còn chứa một ẩn.",
+      "answers": [
+        {
+          "text": "Từ một phương trình của hệ, biểu diễn một ẩn theo ẩn kia rồi thế vào phương trình còn lại của hệ để được phương trình chỉ còn chứa một ẩn.",
+          "fraction": 100
+        },
+        {
+          "text": "Cộng hai phương trình của hệ lại với nhau để triệt tiêu một ẩn.",
+          "fraction": 0
+        },
+        {
+          "text": "Trừ hai phương trình của hệ cho nhau để triệt tiêu một ẩn.",
+          "fraction": 0
+        },
+        {
+          "text": "Vẽ hai đường thẳng biểu diễn hai phương trình trên mặt phẳng tọa độ để tìm giao điểm.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc thế để biến đổi hệ phương trình bậc nhất hai ẩn",
+      "questiontext": "Khi giải hệ phương trình bằng phương pháp thế, ta chỉ được phép biểu diễn ẩn \\(y\\) theo ẩn \\(x\\), không được biểu diễn ẩn \\(x\\) theo ẩn \\(y\\). Phát biểu này đúng hay sai?",
+      "generalfeedback": "Phát biểu này sai. Tùy theo hệ phương trình, ta có thể lựa chọn biểu diễn \\(x\\) theo \\(y\\) hoặc biểu diễn \\(y\\) theo \\(x\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc thế để biến đổi hệ phương trình bậc nhất hai ẩn",
+      "questiontext": "Trong phương pháp thế, sau khi biểu diễn một ẩn theo ẩn kia, ta thế vào phương trình [[1]] của hệ để được phương trình [[2]].",
+      "generalfeedback": "Theo quy tắc thế, ta thế ẩn vừa biểu diễn vào phương trình còn lại của hệ để thu được phương trình một ẩn.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "còn lại"
+        },
+        {
+          "group": 1,
+          "text": "ban đầu"
+        },
+        {
+          "group": 1,
+          "text": "chỉ còn chứa một ẩn"
+        },
+        {
+          "group": 1,
+          "text": "hai ẩn"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Quy tắc thế để biến đổi hệ phương trình bậc nhất hai ẩn",
+      "questiontext": "Nếu khi giải hệ phương trình bằng phương pháp thế ta thu được phương trình \\(0x = 0\\) thì hệ phương trình đã cho có [[1]] nghiệm. Nếu thu được phương trình \\(0y = 8\\) thì hệ phương trình đã cho [[2]] nghiệm.",
+      "generalfeedback": "Phương trình \\(0x = 0\\) đúng với mọi \\(x\\) nên hệ có vô số nghiệm. Phương trình \\(0y = 8\\) không có giá trị nào của \\(y\\) thỏa mãn nên hệ vô nghiệm.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "vô số"
+        },
+        {
+          "group": 1,
+          "text": "vô"
+        },
+        {
+          "group": 1,
+          "text": "duy nhất một"
+        },
+        {
+          "group": 1,
+          "text": "hai"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Biểu diễn một ẩn theo ẩn còn lại từ một phương trình",
+      "questiontext": "Từ phương trình \\(x - y = 3\\), biểu diễn \\(x\\) theo \\(y\\) ta được biểu thức nào sau đây?",
+      "generalfeedback": "Từ \\(x - y = 3\\), chuyển \\(-y\\) sang vế phải ta thu được \\(x = y + 3\\).",
+      "answers": [
+        {
+          "text": "\\(x = y + 3\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x = y - 3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x = -y + 3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x = 3 - y\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Biểu diễn một ẩn theo ẩn còn lại từ một phương trình",
+      "questiontext": "Từ phương trình \\(2x - y = 3\\), khi biểu diễn \\(y\\) theo \\(x\\) ta thu được công thức \\(y = \\)...",
+      "generalfeedback": "Từ \\(2x - y = 3\\), chuyển \\(-y\\) sang vế phải và \\(3\\) sang vế trái ta được \\(y = 2x - 3\\).",
+      "answers": [
+        {
+          "text": "2x - 3",
+          "fraction": 100
+        },
+        {
+          "text": "2x-3",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Biểu diễn một ẩn theo ẩn còn lại từ một phương trình",
+      "questiontext": "Từ phương trình \\(4x + y = -1\\), biểu diễn \\(y\\) theo \\(x\\) ta được biểu thức nào sau đây?",
+      "generalfeedback": "Từ \\(4x + y = -1\\), chuyển \\(4x\\) sang vế phải ta thu được \\(y = -4x - 1\\).",
+      "answers": [
+        {
+          "text": "\\(y = -4x - 1\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(y = 4x - 1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(y = 4x + 1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(y = -4x + 1\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Biểu diễn một ẩn theo ẩn còn lại từ một phương trình",
+      "questiontext": "Hãy ghép mỗi phương trình ở cột bên trái với biểu diễn ẩn tương ứng ở cột bên phải:",
+      "generalfeedback": "Biểu diễn một ẩn theo ẩn còn lại bằng cách chuyển vế phù hợp.",
+      "subquestions": [
+        {
+          "question": "Từ \\(x + y = 3\\), biểu diễn \\(y\\) theo \\(x\\)",
+          "answer": "\\(y = 3 - x\\)"
+        },
+        {
+          "question": "Từ \\(x - 3y = 2\\), biểu diễn \\(x\\) theo \\(y\\)",
+          "answer": "\\(x = 3y + 2\\)"
+        },
+        {
+          "question": "Từ \\(-x + y = -2\\), biểu diễn \\(y\\) theo \\(x\\)",
+          "answer": "\\(y = x - 2\\)"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "thong_hieu",
+      "metadata_code": "Biểu diễn một ẩn theo ẩn còn lại từ một phương trình",
+      "questiontext": "Cho phương trình dạng \\(x - a \\cdot y = 2\\) với hệ số \\(a\\) nhận giá trị bằng {a}. Khi biểu diễn \\(x\\) theo \\(y\\) thu được \\(x = k \\cdot y + 2\\). Giá trị của hệ số k là bao nhiêu?",
+      "generalfeedback": "Từ \\(x - {a}y = 2\\), chuyển vế ta có \\(x = {a}y + 2\\). Do đó \\(k = {a}\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 9.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Biến đổi và giải hệ hai phương trình bậc nhất hai ẩn bằng phương pháp thế",
+      "questiontext": "Cho hệ phương trình \\(\\begin{cases} x + y = 3 \\\\ 2x - 3y = 1 \\end{cases}\\). Thế \\(y = 3 - x\\) từ phương trình thứ nhất vào phương trình thứ hai, ta thu được phương trình một ẩn \\(x\\) nào?",
+      "generalfeedback": "Thế \\(y = 3 - x\\) vào \\(2x - 3y = 1\\) ta được \\(2x - 3(3 - x) = 1\\).",
+      "answers": [
+        {
+          "text": "\\(2x - 3(3 - x) = 1\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(2x - 3(x - 3) = 1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2(3 - x) - 3y = 1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2x - 3(3 + x) = 1\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Biến đổi và giải hệ hai phương trình bậc nhất hai ẩn bằng phương pháp thế",
+      "questiontext": "Cho hệ phương trình \\(\\begin{cases} 2x - y = 3 \\\\ x + 2y = 4 \\end{cases}\\). Từ phương trình thứ nhất ta có \\(y = 2x - 3\\). Thế vào phương trình thứ hai ta thu được phương trình nào sau đây?",
+      "generalfeedback": "Thế \\(y = 2x - 3\\) vào \\(x + 2y = 4\\) ta được \\(x + 2(2x - 3) = 4\\).",
+      "answers": [
+        {
+          "text": "\\(x + 2(2x - 3) = 4\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x + 2(3 - 2x) = 4\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2(2x - 3) + y = 4\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x + 2x - 3 = 4\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Biến đổi và giải hệ hai phương trình bậc nhất hai ẩn bằng phương pháp thế",
+      "questiontext": "Khi giải hệ phương trình \\(\\begin{cases} x - y = -2 \\\\ 2x - 2y = 8 \\end{cases}\\) bằng phương pháp thế, ta rút \\(x = y - 2\\) thế vào phương trình thứ hai thu được phương trình dạng \\(0y = m\\). Tìm giá trị của số \\(m\\).",
+      "generalfeedback": "Thế \\(x = y - 2\\) vào \\(2x - 2y = 8\\) được \\(2(y - 2) - 2y = 8 \\Leftrightarrow 2y - 4 - 2y = 8 \\Leftrightarrow 0y = 12\\). Do đó \\(m = 12\\).",
+      "answers": [
+        {
+          "text": "12",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Biến đổi và giải hệ hai phương trình bậc nhất hai ẩn bằng phương pháp thế",
+      "questiontext": "Hệ phương trình \\(\\begin{cases} -x + y = -2 \\\\ 3x - 3y = 6 \\end{cases}\\) có vô số nghiệm. Đúng hay sai?",
+      "generalfeedback": "Từ phương trình thứ nhất có \\(y = x - 2\\). Thế vào phương trình thứ hai ta được \\(3x - 3(x - 2) = 6 \\Leftrightarrow 0x = 0\\) (luôn đúng với mọi \\(x\\)). Vậy hệ phương trình có vô số nghiệm.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Biến đổi và giải hệ hai phương trình bậc nhất hai ẩn bằng phương pháp thế",
+      "questiontext": "Cho hệ phương trình \\(\\begin{cases} x - 3y = 2 \\\\ -2x + 5y = 1 \\end{cases}\\). Biết nghiệm của hệ phương trình là \\((x_0; y_0)\\). Tính giá trị của \\(y_0\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Từ phương trình 1: \\(x = 3y + 2\\). Thế vào phương trình 2: \\(-2(3y + 2) + 5y = 1 \\Leftrightarrow -6y - 4 + 5y = 1 \\Leftrightarrow -y = 5 \\Leftrightarrow y = -5\\).",
+      "answers": [
+        {
+          "text": "-5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_026",
+      "questiontext": "Nghiệm của hệ phương trình \\(\\begin{cases} 2x - y = 3 \\\\ x + 2y = 4 \\end{cases}\\) là cặp số \\((x; y)\\) nào sau đây?",
+      "generalfeedback": "Thế \\(y = 2x - 3\\) vào phương trình thứ hai thu được \\(x = 2\\), suy ra \\(y = 1\\). Nghiệm của hệ là \\((2; 1)\\).",
+      "answers": [
+        {
+          "text": "\\((2; 1)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\((1; 2)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((-2; -1)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((2; -1)\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_026",
+      "questiontext": "Giải hệ phương trình \\(\\begin{cases} 4x + y = -1 \\\\ 7x + 2y = -3 \\end{cases}\\) bằng phương pháp thế. Tọa độ nghiệm \\((x; y)\\) của hệ là:",
+      "generalfeedback": "Từ phương trình 1: \\(y = -4x - 1\\). Thế vào phương trình 2: \\(7x + 2(-4x - 1) = -3 \\Leftrightarrow -x - 2 = -3 \\Leftrightarrow x = 1\\). Suy ra \\(y = -4(1) - 1 = -5\\). Vậy nghiệm là \\((1; -5)\\).",
+      "answers": [
+        {
+          "text": "\\((1; -5)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\((-1; 3)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((1; 5)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((-1; -5)\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_026",
+      "questiontext": "Nghiệm của hệ phương trình \\(\\begin{cases} x - y = 3 \\\\ 3x - 4y = 2 \\end{cases}\\) là:",
+      "generalfeedback": "Từ phương trình 1: \\(x = y + 3\\). Thế vào phương trình 2: \\(3(y + 3) - 4y = 2 \\Leftrightarrow 3y + 9 - 4y = 2 \\Leftrightarrow -y = -7 \\Leftrightarrow y = 7\\). Suy ra \\(x = 10\\). Nghiệm là \\((10; 7)\\).",
+      "answers": [
+        {
+          "text": "\\((10; 7)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\((7; 10)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((-10; -7)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((10; -7)\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_026",
+      "questiontext": "Giải hệ phương trình \\(\\begin{cases} x + 3y = -1 \\\\ 3x + 9y = -3 \\end{cases}\\). Khẳng định nào sau đây là đúng?",
+      "generalfeedback": "Từ phương trình 1: \\(x = -3y - 1\\). Thế vào phương trình 2: \\(3(-3y - 1) + 9y = -3 \\Leftrightarrow 0y = 0\\). Do đó hệ phương trình có vô số nghiệm dạng \\((x; y) = (-3y - 1; y)\\) với \\(y \\in \\mathbb{R}\\) tùy ý.",
+      "answers": [
+        {
+          "text": "Hệ phương trình có vô số nghiệm dạng \\((-3y - 1; y)\\) với \\(y \\in \\mathbb{R}\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Hệ phương trình vô nghiệm.",
+          "fraction": 0
+        },
+        {
+          "text": "Hệ phương trình có nghiệm duy nhất \\((1; -1)\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Hệ phương trình có nghiệm duy nhất \\((-1; 0)\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_026",
+      "questiontext": "Hãy ghép mỗi hệ phương trình ở cột bên trái với số lượng nghiệm tương ứng ở cột bên phải:",
+      "generalfeedback": "Giải hoặc biến đổi hệ phương trình bằng phương pháp thế để xác định số lượng nghiệm.",
+      "subquestions": [
+        {
+          "question": "Hệ phương trình \\(\\begin{cases} x - y = -2 \\\\ 2x - 2y = 8 \\end{cases}\\)",
+          "answer": "Vô nghiệm"
+        },
+        {
+          "question": "Hệ phương trình \\(\\begin{cases} -x + y = -2 \\\\ 3x - 3y = 6 \\end{cases}\\)",
+          "answer": "Vô số nghiệm"
+        },
+        {
+          "question": "Hệ phương trình \\(\\begin{cases} 2x - y = 3 \\\\ x + 2y = 4 \\end{cases}\\)",
+          "answer": "Có 1 nghiệm duy nhất"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_026",
+      "questiontext": "Cho hệ phương trình \\(\\begin{cases} 7x - 3y = 13 \\\\ 4x + y = 2 \\end{cases}\\). Nghiệm \\((x; y)\\) của hệ phương trình là cặp số nào?",
+      "generalfeedback": "Từ phương trình 2: \\(y = 2 - 4x\\). Thế vào phương trình 1: \\(7x - 3(2 - 4x) = 13 \\Leftrightarrow 19x - 6 = 13 \\Leftrightarrow x = 1\\). Suy ra \\(y = 2 - 4(1) = -2\\). Vậy nghiệm của hệ là \\((1; -2)\\).",
+      "answers": [
+        {
+          "text": "\\((1; -2)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\((-1; 2)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((1; 2)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((2; -1)\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi gặp một hệ phương trình phức tạp cần giải bằng phương pháp thế, bạn An thấy biến đổi dai dẳng và dễ nhầm lẫn nên định bỏ qua. Hành vi nào sau đây thể hiện thái độ luôn cố gắng vươn lên đạt kết quả tốt trong học tập của An?",
+      "generalfeedback": "Thái độ cố gắng vươn lên biểu hiện qua sự kiên trì, không nản lòng trước bài toán khó, chủ động kiểm tra từng bước biến đổi biểu diễn ẩn và thế để hoàn thành bài tập.",
+      "answers": [
+        {
+          "text": "Kiên trì phân tích lại từng phương trình, cẩn thận biểu diễn một ẩn theo ẩn còn lại và thực hiện phép thế từng bước để tìm ra nghiệm đúng.",
+          "fraction": 100
+        },
+        {
+          "text": "Chép ngay lời giải của bạn khác để kịp nộp bài cho giáo viên.",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua câu hỏi này và chỉ làm những bài tập trắc nghiệm ngắn dễ hơn.",
+          "fraction": 0
+        },
+        {
+          "text": "Cho rằng phương pháp thế quá phức tạp và kiến nghị thầy cô không ra dạng bài này.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Để hoàn thành mục tiêu làm chủ 'Phương pháp thế giải hệ hai phương trình bậc nhất hai ẩn' trong tiết học, bạn Bình nên lập kế hoạch tự học như thế nào là hợp lý nhất?",
+      "generalfeedback": "Lập kế hoạch học tập hợp lý gắn với việc tự đặt mục tiêu cụ thể: từ việc nắm chắc lý thuyết quy tắc thế (2 bước) đến luyện tập nhận diện cách rút ẩn tối ưu và xử lý các trường hợp đặc biệt (vô nghiệm, vô số nghiệm).",
+      "answers": [
+        {
+          "text": "Xác định rõ các bước của quy tắc thế, luyện tập rút ẩn có hệ số đơn giản trước, sau đó tự giải các bài tập nâng cao và nhận diện trường hợp hệ vô nghiệm/vô số nghiệm.",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ học thuộc lòng công thức nghiệm mà không cần luyện tập giải các hệ phương trình cụ thể.",
+          "fraction": 0
+        },
+        {
+          "text": "Đợi đến khi có lịch kiểm tra mới bắt đầu mở sách giáo khoa ra đọc lại bài học.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ giải các bài tập bằng máy tính cầm tay mà không cần hiểu các bước biến đổi thế.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Xét bài toán thực tế: Một mảnh vườn trồng cải bắp, nếu tăng 8 luống nhưng mỗi luống trồng ít đi 3 cây thì tổng số cây giảm 108; nếu giảm 4 luống nhưng mỗi luống trồng tăng 2 cây thì tổng số cây tăng 64. Giải pháp hiệu quả nhất để giải quyết bài toán này là gì?",
+      "generalfeedback": "Đề xuất giải pháp bằng cách mô hình hóa bài toán thực tế thành hệ phương trình bậc nhất hai ẩn, rút gọn các phương trình rồi giải bằng phương pháp thế.",
+      "answers": [
+        {
+          "text": "Gọi số luống là \\(x\\), số cây mỗi luống là \\(y\\) (\\(x, y \\in \\mathbb{N}^*\\)), lập hệ phương trình \\(\\begin{cases} (x+8)(y-3) = xy - 108 \\\\ (x-4)(y+2) = xy + 64 \\end{cases}\\), thu gọn rồi giải bằng phương pháp thế.",
+          "fraction": 100
+        },
+        {
+          "text": "Đo đạc thực địa từng luống cải bắp trong thực tế để đếm trực tiếp số cây.",
+          "fraction": 0
+        },
+        {
+          "text": "Thử ngẫu nhiên các cặp số \\((x; y)\\) cho đến khi tìm được cặp số thỏa mãn cả hai điều kiện.",
+          "fraction": 0
+        },
+        {
+          "text": "Vẽ hình chữ nhật biểu thị mảnh vườn và ước lượng số cây bằng thước đo độ dài.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Khi giải hệ phương trình \\(\\begin{cases} 4x + y = -1 \\\\ 7x + 2y = -3 \\end{cases}\\) bằng phương pháp thế, thao tác tư duy lựa chọn ẩn nào để biểu diễn đầu tiên là tối ưu nhất và vì sao?",
+      "generalfeedback": "Biểu diễn \\(y\\) theo \\(x\\) từ phương trình thứ nhất là tối ưu nhất vì hệ số của \\(y\\) bằng 1, giúp biểu thức thế \\(y = -4x - 1\\) không chứa phân số, tránh nhầm lẫn khi tính toán.",
+      "answers": [
+        {
+          "text": "Biểu diễn \\(y\\) theo \\(x\\) từ phương trình thứ nhất vì hệ số của \\(y\\) bằng 1, giúp tránh được phân số trong quá trình biến đổi.",
+          "fraction": 100
+        },
+        {
+          "text": "Biểu diễn \\(x\\) theo \\(y\\) từ phương trình thứ hai vì hệ số 7 là số nguyên tố lớn nhất.",
+          "fraction": 0
+        },
+        {
+          "text": "Biểu diễn \\(y\\) theo \\(x\\) từ phương trình thứ hai để có hệ số 2 dễ chia.",
+          "fraction": 0
+        },
+        {
+          "text": "Biểu diễn ẩn nào cũng có độ phức tạp tính toán hoàn toàn như nhau nên chọn ngẫu nhiên.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Trong bài toán mảnh vườn trồng cải bắp, sau khi rút gọn ta thu được hệ phương trình \\(\\begin{cases} -3x + 8y = -84 \\\\ 2x - 4y = 72 \\end{cases}\\). Sử dụng kĩ năng toán học (phương pháp thế), bước thực hiện nào sau đây dẫn đến kết quả đúng?",
+      "generalfeedback": "Từ phương trình thứ hai: \\(2x = 4y + 72 \\Rightarrow x = 2y + 36\\). Thế vào phương trình thứ nhất: \\(-3(2y + 36) + 8y = -84 \\Leftrightarrow -6y - 108 + 8y = -84 \\Leftrightarrow 2y = 24 \\Leftrightarrow y = 12\\). Từ đó \\(x = 2(12) + 36 = 60\\).",
+      "answers": [
+        {
+          "text": "Rút \\(x = 2y + 36\\) từ phương trình thứ hai, thế vào phương trình thứ nhất tính được \\(y = 12\\), suy ra \\(x = 60\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Rút \\(x = 2y + 72\\) từ phương trình thứ hai, thế vào phương trình thứ nhất tính được \\(y = 6\\), suy ra \\(x = 84\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Rút \\(y = 2x - 36\\) từ phương trình thứ hai, thế vào phương trình thứ nhất tính được \\(x = 30\\), suy ra \\(y = 24\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Cộng trực tiếp hai phương trình lại với nhau để triệt tiêu vế phải.",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

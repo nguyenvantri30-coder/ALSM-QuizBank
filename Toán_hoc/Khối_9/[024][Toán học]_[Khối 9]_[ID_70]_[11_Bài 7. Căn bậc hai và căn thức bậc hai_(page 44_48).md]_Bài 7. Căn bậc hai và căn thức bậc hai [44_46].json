@@ -1,0 +1,519 @@
+{
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm căn bậc hai số học",
+      "questiontext": "Căn bậc hai số học của số thực dương \\(a\\) là gì?",
+      "generalfeedback": "Căn bậc hai số học của số thực dương \\(a\\) là số dương \\(\\sqrt{a}\\).",
+      "answers": [
+        {
+          "text": "\\(\\sqrt{a}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "-\\(\\sqrt{a}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Cả \\(\\sqrt{a}\\) và -\\(\\sqrt{a}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a^2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "a",
+      "questiontext": "Số thực âm không có căn bậc hai. Phát biểu trên đúng hay sai?",
+      "generalfeedback": "Theo tính chất căn bậc hai, số âm không có căn bậc hai vì bình phương của mọi số thực đều không âm.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Tính giá trị căn bậc hai số học",
+      "questiontext": "Căn bậc hai số học của số 121 bằng bao nhiêu?",
+      "generalfeedback": "Ta có \\(11^2 = 121\\) và \\(11 > 0\\) nên \\(\\sqrt{121} = 11\\).",
+      "answers": [
+        {
+          "text": "11",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_003",
+      "questiontext": "Sử dụng máy tính cầm tay, tính giá trị căn bậc hai số học của \\(\\frac{7}{11}\\) (làm tròn đến chữ số thập phân thứ hai). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Bấm máy tính cầm tay \\(\\sqrt{\\frac{7}{11}} \\approx 0,7977...\\) Làm tròn đến chữ số thập phân thứ hai ta được 0.8.",
+      "answers": [
+        {
+          "text": "0.8",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Kí hiệu sqrt(a)",
+      "questiontext": "Ghép mỗi số thực ở cột bên trái với tập hợp các căn bậc hai tương ứng của nó ở cột bên phải.",
+      "generalfeedback": "Số dương 81 có hai căn bậc hai là 9 và -9. Số 0 chỉ có một căn bậc hai là 0. Số dương 121 có hai căn bậc hai là 11 và -11.",
+      "subquestions": [
+        {
+          "question": "Số 81",
+          "answer": "9 và -9"
+        },
+        {
+          "question": "Số 0",
+          "answer": "0"
+        },
+        {
+          "question": "Số 121",
+          "answer": "11 và -11"
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "thong_hieu",
+      "metadata_code": "So sánh hai căn bậc hai số học",
+      "questiontext": "Cho số tự nhiên {a} lớn hơn 1. So sánh giá trị của {a} và giá trị căn bậc hai số học của biểu thức {a}*{a} + 1.",
+      "generalfeedback": "Ta có {a} = \\(\\sqrt{{a}^2}\\). Vì \\({a}^2 < {a}^2 + 1\\) nên \\(\\sqrt{{a}^2} < \\sqrt{{a}^2 + 1}\\), tức là {a} < \\(\\sqrt{{a}^2 + 1}\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a} < sqrt({a}*{a} + 1)",
+          "fraction": 100
+        },
+        {
+          "text": "{a} > sqrt({a}*{a} + 1)",
+          "fraction": 0
+        },
+        {
+          "text": "{a} == sqrt({a}*{a} + 1)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Rút gọn biểu thức chứa sqrt(a^2)",
+      "questiontext": "Rút gọn biểu thức \\( \\sqrt{(2 - \\sqrt{5})^2} \\).",
+      "generalfeedback": "Vì \\(2 < \\sqrt{5}\\) (do \\(4 < 5\\)) nên \\(2 - \\sqrt{5} < 0\\). Do đó \\( \\sqrt{(2 - \\sqrt{5})^2} = |2 - \\sqrt{5}| = -(2 - \\sqrt{5}) = \\sqrt{5} - 2 \\).",
+      "answers": [
+        {
+          "text": "\\(\\sqrt{5} - 2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(2 - \\sqrt{5}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2 + \\sqrt{5}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-2 - \\sqrt{5}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Rút gọn biểu thức chứa sqrt(a^2)",
+      "questiontext": "Cho \\(x < 0\\). Kết quả rút gọn của biểu thức \\(3\\sqrt{x^2} - x + 1\\) là gì?",
+      "generalfeedback": "Vì \\(x < 0\\) nên \\(\\sqrt{x^2} = |x| = -x\\). Thay vào biểu thức ta được \\(3(-x) - x + 1 = -3x - x + 1 = -4x + 1\\).",
+      "answers": [
+        {
+          "text": "\\(-4x + 1\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(2x + 1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(4x + 1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-2x + 1\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_005",
+      "questiontext": "Tính giá trị của biểu thức \\(\\sqrt{5,1^2} + \\sqrt{(-4,9)^2}\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Ta có \\(\\sqrt{5,1^2} = |5,1| = 5,1\\) và \\(\\sqrt{(-4,9)^2} = |-4,9| = 4,9\\). Giá trị biểu thức là \\(5,1 + 4,9 = 10\\).",
+      "answers": [
+        {
+          "text": "10",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "So sánh hai căn bậc hai số học",
+      "questiontext": "Bất đẳng thức \\(3 < \\sqrt{10}\\) là đúng hay sai?",
+      "generalfeedback": "Ta có \\(3 = \\sqrt{9}\\). Vì \\(9 < 10\\) nên \\(\\sqrt{9} < \\sqrt{10}\\), tức là \\(3 < \\sqrt{10}\\) là đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "Rút gọn biểu thức chứa sqrt(a^2)",
+      "questiontext": "Ghép mỗi biểu thức ở cột bên trái với dạng rút gọn tương ứng của nó ở cột bên phải.",
+      "generalfeedback": "Áp dụng hằng đẳng thức \\(\\sqrt{A^2} = |A|\\) với điều kiện thích hợp của biến.",
+      "subquestions": [
+        {
+          "question": "\\(\\sqrt{(x-2)^2}\\) với \\(x < 2\\)",
+          "answer": "2 - x"
+        },
+        {
+          "question": "\\(\\sqrt{(x-2)^2}\\) với \\(x \\ge 2\\)",
+          "answer": "x - 2"
+        },
+        {
+          "question": "\\(\\sqrt{(-x)^2}\\) với \\(x < 0\\)",
+          "answer": "-x"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Tính giá trị căn bậc hai số học",
+      "questiontext": "Căn bậc hai của 81 bao gồm [[1]] và [[2]].",
+      "generalfeedback": "Vì \\(9^2 = 81\\) và \\((-9)^2 = 81\\) nên số dương 81 có hai căn bậc hai đối nhau là 9 và -9.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "9"
+        },
+        {
+          "group": 1,
+          "text": "-9"
+        },
+        {
+          "group": 1,
+          "text": "81"
+        },
+        {
+          "group": 1,
+          "text": "-81"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "Rút gọn biểu thức chứa sqrt(a^2)",
+      "questiontext": "Cho biểu thức \\(A = \\sqrt{(1+2\\sqrt{2})^2} - \\sqrt{(1-2\\sqrt{2})^2}\\). Ta có \\(\\sqrt{(1+2\\sqrt{2})^2} =\\) [[1]] và \\(\\sqrt{(1-2\\sqrt{2})^2} =\\) [[2]].",
+      "generalfeedback": "Vì \\(1+2\\sqrt{2} > 0\\) nên \\(\\sqrt{(1+2\\sqrt{2})^2} = 1+2\\sqrt{2}\\). Vì \\(1-2\\sqrt{2} < 0\\) nên \\(\\sqrt{(1-2\\sqrt{2})^2} = |1-2\\sqrt{2}| = 2\\sqrt{2}-1\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(1+2\\sqrt{2}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(2\\sqrt{2}-1\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(1-2\\sqrt{2}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(-1-2\\sqrt{2}\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Rút gọn biểu thức chứa sqrt(a^2)",
+      "questiontext": "Rút gọn biểu thức \\(\\sqrt{x^2 - 4x + 4}\\) với \\(x < 2\\).",
+      "generalfeedback": "Ta có \\(x^2 - 4x + 4 = (x-2)^2\\). Vì \\(x < 2\\) nên \\(x - 2 < 0\\). Do đó \\(\\sqrt{(x-2)^2} = |x-2| = 2 - x\\).",
+      "answers": [
+        {
+          "text": "\\(2 - x\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x - 2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x + 2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-x - 2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính giá trị căn bậc hai số học",
+      "questiontext": "Tính giá trị của biểu thức \\(-\\sqrt{(-0,001)^2}\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Ta có \\(\\sqrt{(-0,001)^2} = |-0,001| = 0,001\\). Do đó \\(-\\sqrt{(-0,001)^2} = -0,001\\).",
+      "answers": [
+        {
+          "text": "-0.001",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "a",
+      "questiontext": "Số 0 có bao nhiêu căn bậc hai?",
+      "generalfeedback": "Số 0 có một căn bậc hai duy nhất là 0.",
+      "answers": [
+        {
+          "text": "1",
+          "fraction": 100
+        },
+        {
+          "text": "0",
+          "fraction": 0
+        },
+        {
+          "text": "2",
+          "fraction": 0
+        },
+        {
+          "text": "Vô số",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ học Toán, khi làm bài tập tính căn bậc hai số học của \\(\\frac{7}{11}\\) bằng máy tính cầm tay, Minh thấy màn hình hiện kết quả là số thập phân vô hạn \\(0,7977240...\\) Minh cảm thấy lúng túng và muốn bỏ qua không làm tiếp. Để thể hiện sự nỗ lực vươn lên đạt kết quả tốt trong học tập (Q1), Minh nên thực hiện hành động nào sau đây?",
+      "generalfeedback": "Để thể hiện tinh thần vượt khó và nỗ lực trong học tập, học sinh cần chủ động đọc kỹ yêu cầu làm tròn của đề bài, kiên trì thực hiện quy tắc làm tròn số thập phân và chủ động luyện tập thêm.",
+      "answers": [
+        {
+          "text": "Đọc lại yêu cầu làm tròn đến chữ số thập phân thứ hai của đề bài, kiên trì áp dụng quy tắc làm tròn để ghi kết quả là 0,80 và tự luyện tập thêm.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua câu hỏi vì kết quả là số thập phân quá dài và phức tạp.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép lại đáp án của bạn bên cạnh để nhanh chóng hoàn thành bài tập.",
+          "fraction": 0
+        },
+        {
+          "text": "Tự ý thay đổi phân số \\(\\frac{7}{11}\\) thành phân số khác dễ tính hơn.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi gặp bài toán yêu cầu rút gọn biểu thức \\(\\sqrt{(1 - 2\\sqrt{2})^2}\\), mặc dù ban đầu bị nhầm lẫn tính ra kết quả âm, bạn An đã không nản lòng mà chủ động xem lại hằng đẳng thức \\(\\sqrt{a^2} = |a|\\) để tìm ra đáp án đúng là \\(2\\sqrt{2} - 1\\). Thái độ của An thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập. Phát biểu trên đúng hay sai?",
+      "generalfeedback": "Phát biểu trên là Đúng. Việc không nản lòng trước khó khăn và tự giác rà soát kiến thức để sửa sai thể hiện ý thức vươn lên trong học tập.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Bạn Hoa muốn đạt kết quả tốt khi học xong Tiết 1 Bài 7 \"Căn bậc hai\". Để tự đặt mục tiêu học tập phù hợp và có kế hoạch phấn đấu hiệu quả (G1), Hoa nên đề ra mục tiêu nào sau đây?",
+      "generalfeedback": "Mục tiêu học tập cần cụ thể, bám sát yêu cầu cần đạt của tiết học bao gồm: hiểu khái niệm căn bậc hai, sử dụng thành thạo MTCT và vận dụng hằng đẳng thức \\(\\sqrt{a^2} = |a|\\).",
+      "answers": [
+        {
+          "text": "Nắm vững khái niệm căn bậc hai số học, sử dụng thành thạo MTCT để tính căn bậc hai và vận dụng được hằng đẳng thức \\(\\sqrt{a^2} = |a|\\) để làm các bài tập rút gọn đơn giản.",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ cần học thuộc lòng định nghĩa căn bậc hai mà không cần luyện tập giải bài tập.",
+          "fraction": 0
+        },
+        {
+          "text": "Giải được tất cả các bài toán nâng cao về căn thức đại số của chương trình lớp 9 ngay trong tiết đầu tiên.",
+          "fraction": 0
+        },
+        {
+          "text": "Đặt mục tiêu đạt điểm tối đa trong kỳ thi học kỳ mà không cần lập kế hoạch ôn tập theo từng tiết học.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "questiontext": "Trong bài học có bài toán Vật lí: \"Quãng đường \\(S\\) (tính bằng mét) của một vật rơi tự do được cho bởi công thức \\(S = 4,9t^2\\), trong đó \\(t\\) là thời gian rơi (giây). Hỏi sau bao nhiêu giây vật chạm đất nếu rơi từ độ cao 122,5 mét?\". Để tiếp nhận thông tin và giải quyết bài toán này, quy trình xử lý thông tin toán học đúng là gì?",
+      "generalfeedback": "Đầu tiên thay \\(S = 122,5\\) vào công thức thu được \\(4,9t^2 = 122,5\\), suy ra \\(t^2 = 25\\). Do thời gian \\(t > 0\\), ta tính căn bậc hai số học \\(t = \\sqrt{25} = 5\\) (giây).",
+      "answers": [
+        {
+          "text": "Thay \\(S = 122,5\\) vào công thức thu được \\(t^2 = 25\\), từ đó lấy căn bậc hai số học \\(t = \\sqrt{25} = 5\\) giây (vì \\(t > 0\\)).",
+          "fraction": 100
+        },
+        {
+          "text": "Lấy \\(122,5\\) nhân với \\(4,9\\) rồi tính căn bậc hai của kết quả thu được.",
+          "fraction": 0
+        },
+        {
+          "text": "Thay \\(t = 122,5\\) vào công thức để tính quãng đường \\(S\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Tính \\(t = 122,5 : 4,9 = 25\\) giây mà không cần lấy căn bậc hai.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "questiontext": "Ghép các thông tin kí hiệu và công thức toán học về căn bậc hai ở cột bên trái với ý nghĩa diễn đạt bằng ngôn ngữ thông thường ở cột bên phải.",
+      "generalfeedback": "Kí hiệu \\(\\sqrt{a}\\) chỉ căn bậc hai số học của số dương \\(a\\). Khái niệm căn bậc hai của số không âm \\(a\\) là số \\(x\\) sao cho \\(x^2 = a\\). Công thức \\(\\sqrt{a^2} = |a|\\) là hằng đẳng thức căn bậc hai của một bình phương.",
+      "subquestions": [
+        {
+          "question": "\\(\\sqrt{a}\\) (với \\(a > 0\\))",
+          "answer": "Căn bậc hai số học của số dương a"
+        },
+        {
+          "question": "\\(x^2 = a\\) (với \\(a \\ge 0\\))",
+          "answer": "Định nghĩa x là một căn bậc hai của a"
+        },
+        {
+          "question": "\\(\\sqrt{a^2} = |a|\\)",
+          "answer": "Hằng đẳng thức căn bậc hai của một bình phương"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Một học sinh lập luận như sau: \"Vì \\((-5)^2 = 25\\) nên \\(\\sqrt{(-5)^2} = -5\\)\". Phân tích thao tác tư duy toán học (D1), hãy chỉ ra sai lầm trong lập luận của học sinh này.",
+      "generalfeedback": "Học sinh đã vi phạm định nghĩa căn bậc hai số học. Căn bậc hai số học của một số luôn là số không âm. Áp dụng đúng hằng đẳng thức: \\(\\sqrt{(-5)^2} = |-5| = 5\\).",
+      "answers": [
+        {
+          "text": "Học sinh vi phạm định nghĩa căn bậc hai số học (kết quả phải không âm) và áp dụng sai hằng đẳng thức \\(\\sqrt{a^2} = |a|\\); kết quả đúng phải là 5.",
+          "fraction": 100
+        },
+        {
+          "text": "Học sinh tính sai bình phương của -5, vì \\((-5)^2\\) phải bằng -25.",
+          "fraction": 0
+        },
+        {
+          "text": "Lập luận trên hoàn toàn đúng vì phép căn bậc hai triệt tiêu phép bình phương.",
+          "fraction": 0
+        },
+        {
+          "text": "Số -5 không thể đưa vào trong dấu căn bậc hai dưới dạng bình phương.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Thao tác tư duy so sánh: Để so sánh 3 và \\(\\sqrt{10}\\) mà không dùng máy tính cầm tay, ta biểu diễn \\(3 = \\sqrt{9}\\). Vì \\(0 < 9 < 10\\) nên \\(\\sqrt{9} < \\sqrt{10}\\), suy ra \\(3 < \\sqrt{10}\\). Thao tác lập luận trên là hoàn toàn chính xác. Phát biểu này đúng hay sai?",
+      "generalfeedback": "Phát biểu trên là Đúng. Việc đưa số 3 về dạng căn bậc hai số học \\(\\sqrt{9}\\) rồi áp dụng tính chất \\(a < b \\Rightarrow \\sqrt{a} < \\sqrt{b}\\) là thao tác tư duy toán học chuẩn xác.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "NLT_TOAN_C2_04_12",
+      "questiontext": "Hãy chọn kí hiệu toán học biểu diễn căn bậc hai số học của số dương a.",
+      "generalfeedback": "Căn bậc hai số học của số dương a được ký hiệu trong ngôn ngữ toán học là \\(\\sqrt{a}\\).",
+      "answers": [
+        {
+          "text": "\\(\\sqrt{a}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "-\\(\\sqrt{a}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(|a|\\)",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

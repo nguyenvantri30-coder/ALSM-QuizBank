@@ -1,0 +1,527 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 20,
+    "metadata_used": {
+      "YCCD_TOAN9_071": 3,
+      "Khái niệm hai đường tròn ở ngoài nhau (d > R + r)": 3,
+      "Khái niệm hai đường tròn đựng nhau, đồng tâm (d < R - r)": 4,
+      "Xác định vị trí tương đối không giao nhau dựa vào hệ thức giữa d và R, r": 6,
+      "Lập bảng hệ thức vị trí tương đối giữa hai đường tròn": 4,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TUHOC_C2_01": 2,
+      "SUB_GQVD_DEXUAT_C2_02": 2,
+      "NLT_TOAN_C2_01_03": 2,
+      "NLT_TOAN_C2_03_05": 2
+    },
+    "types_used": {
+      "multichoice": 11,
+      "matching": 1,
+      "truefalse": 3,
+      "shortanswer": 1,
+      "numerical": 1,
+      "calculated": 1,
+      "gapselect": 1,
+      "ddwtos": 1
+    },
+    "total": 20
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN9_071",
+        "reason": "Có đủ dữ kiện và nội dung kiến thức trong SGK để đo lường"
+      },
+      {
+        "metadata_code": "Khái niệm hai đường tròn ở ngoài nhau (d > R + r)",
+        "reason": "Có đủ dữ kiện và nội dung kiến thức trong SGK để đo lường"
+      },
+      {
+        "metadata_code": "Khái niệm hai đường tròn đựng nhau, đồng tâm (d < R - r)",
+        "reason": "Có đủ dữ kiện và nội dung kiến thức trong SGK để đo lường"
+      },
+      {
+        "metadata_code": "Xác định vị trí tương đối không giao nhau dựa vào hệ thức giữa d và R, r",
+        "reason": "Có đủ dữ kiện và nội dung kiến thức trong SGK để đo lường"
+      },
+      {
+        "metadata_code": "Lập bảng hệ thức vị trí tương đối giữa hai đường tròn",
+        "reason": "Có đủ dữ kiện và nội dung kiến thức trong SGK để đo lường"
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Thiết kế tình huống vươn lên trong học tập liên quan kiến thức bài học"
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+        "reason": "Thiết kế tình huống tự đặt mục tiêu học tập liên quan kiến thức bài học"
+      },
+      {
+        "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+        "reason": "Thiết kế tình huống đề xuất giải pháp giải quyết vấn đề thực tế"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_03",
+        "reason": "Thiết kế câu hỏi so sánh, phân tích sự tương đồng và khác biệt"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_05",
+        "reason": "Thiết kế câu hỏi vận dụng kĩ năng toán học mô hình hóa vấn đề"
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_071",
+      "questiontext": "Hai đường tròn phân biệt không có điểm chung thì chúng ở vị trí tương đối nào?",
+      "generalfeedback": "Nếu hai đường tròn không có điểm chung nào thì ta nói đó là hai đường tròn không giao nhau (bao gồm ở ngoài nhau hoặc đựng nhau).",
+      "answers": [
+        {
+          "text": "Không giao nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Cắt nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Tiếp xúc ngoài",
+          "fraction": 0
+        },
+        {
+          "text": "Tiếp xúc trong",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_071",
+      "questiontext": "Hãy ghép vị trí tương đối của hai đường tròn phân biệt \\((O; R)\\) và \\((O'; r)\\) (với \\(R \\ge r\\)) ở cột bên trái với số điểm chung tương ứng ở cột bên phải.",
+      "generalfeedback": "Hai đường tròn cắt nhau có 2 điểm chung; tiếp xúc nhau có 1 điểm chung; không giao nhau có 0 điểm chung.",
+      "subquestions": [
+        {
+          "question": "Hai đường tròn cắt nhau",
+          "answer": "2 điểm chung"
+        },
+        {
+          "question": "Hai đường tròn tiếp xúc nhau",
+          "answer": "1 điểm chung"
+        },
+        {
+          "question": "Hai đường tròn không giao nhau",
+          "answer": "0 điểm chung"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm hai đường tròn ở ngoài nhau (d > R + r)",
+      "questiontext": "Cho hai đường tròn \\((O; R)\\) và \\((O'; r)\\) có khoảng cách giữa hai tâm là \\(d = OO'\\). Hai đường tròn này ở ngoài nhau khi và chỉ khi hệ thức nào sau đây đúng?",
+      "generalfeedback": "Hai đường tròn \\((O; R)\\) và \\((O'; r)\\) ở ngoài nhau khi và chỉ khi \\(d > R + r\\).",
+      "answers": [
+        {
+          "text": "\\(d > R + r\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(d = R + r\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(R - r < d < R + r\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(d < R - r\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Khái niệm hai đường tròn ở ngoài nhau (d > R + r)",
+      "questiontext": "Cho hai đường tròn \\((O; 5\\text{ cm})\\) và \\((O'; 3\\text{ cm})\\) có \\(OO' = 9\\text{ cm}\\). Khẳng định \"Hai đường tròn này ở ngoài nhau\" là Đúng hay Sai?",
+      "generalfeedback": "Vì \\(R + r = 5 + 3 = 8\\text{ cm}\\) và \\(OO' = 9\\text{ cm} > 8\\text{ cm}\\), nên hai đường tròn ở ngoài nhau. Khẳng định trên là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm hai đường tròn đựng nhau, đồng tâm (d < R - r)",
+      "questiontext": "Cho hai đường tròn \\((O; R)\\) và \\((O'; r)\\) với \\(R > r\\), khoảng cách tâm \\(d = OO'\\). Đường tròn \\((O; R)\\) đựng đường tròn \\((O'; r)\\) khi hệ thức nào sau đây đúng?",
+      "generalfeedback": "Đường tròn \\((O; R)\\) đựng đường tròn \\((O'; r)\\) khi \\(d < R - r\\).",
+      "answers": [
+        {
+          "text": "\\(d < R - r\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(d = R - r\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(d > R + r\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(R - r < d < R + r\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm hai đường tròn đựng nhau, đồng tâm (d < R - r)",
+      "questiontext": "Khi hai tâm \\(O\\) và \\(O'\\) của hai đường tròn bán kính khác nhau trùng nhau (tức \\(OO' = 0\\)), ta gọi đó là hai đường tròn gì?",
+      "generalfeedback": "Khi hai tâm trùng nhau và bán kính khác nhau, hai đường tròn đó gọi là hai đường tròn đồng tâm.",
+      "answers": [
+        {
+          "text": "đồng tâm",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Xác định vị trí tương đối không giao nhau dựa vào hệ thức giữa d và R, r",
+      "questiontext": "Cho hai đường tròn \\((O; 7\\text{ cm})\\) và \\((O'; 2\\text{ cm})\\). Để hai đường tròn này ở ngoài nhau thì khoảng cách giữa hai tâm \\(OO'\\) phải lớn hơn bao nhiêu xentimét? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Hai đường tròn ở ngoài nhau khi \\(OO' > R + r = 7 + 2 = 9\\text{ cm}\\). Vậy \\(OO'\\) phải lớn hơn 9.",
+      "answers": [
+        {
+          "text": "9",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Xác định vị trí tương đối không giao nhau dựa vào hệ thức giữa d và R, r",
+      "questiontext": "Cho đường tròn \\((O)\\) bán kính {R} cm và đường tròn \\((O')\\) bán kính {r} cm với {R} > {r}. Tính tổng bán kính \\(R + r\\) (theo cm) để xác định ngưỡng khoảng cách tâm \\(d\\) sao cho hai đường tròn ngoài nhau khi \\(d > R + r\\). (Chỉ điền số)",
+      "generalfeedback": "Ngưỡng khoảng cách tâm để hai đường tròn ở ngoài nhau là \\(R + r = {R} + {r}\\).",
+      "wildcards": [
+        {
+          "name": "R",
+          "min": 6.0,
+          "max": 12.0,
+          "decimals": 0
+        },
+        {
+          "name": "r",
+          "min": 1.0,
+          "max": 5.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{R}+{r}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Lập bảng hệ thức vị trí tương đối giữa hai đường tròn",
+      "questiontext": "Điền hệ thức thích hợp vào chỗ trống để hoàn thành bảng vị trí tương đối của hai đường tròn \\((O; R)\\) và \\((O'; r)\\) (với \\(R \\ge r\\)): \n- Hai đường tròn ở ngoài nhau khi \\(d\\) [[1]].\n- Đường tròn \\((O)\\) đựng \\((O')\\) khi \\(d\\) [[2]].",
+      "generalfeedback": "Hai đường tròn ở ngoài nhau khi \\(d > R + r\\); đường tròn \\((O)\\) đựng \\((O')\\) khi \\(d < R - r\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "> R + r"
+        },
+        {
+          "group": 1,
+          "text": "< R - r"
+        },
+        {
+          "group": 1,
+          "text": "= R + r"
+        },
+        {
+          "group": 1,
+          "text": "= R - r"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Lập bảng hệ thức vị trí tương đối giữa hai đường tròn",
+      "questiontext": "Kéo thả từ thích hợp vào chỗ trống: Hai đường tròn không giao nhau gồm hai trường hợp: hai đường tròn [[1]] nhau hoặc đường tròn này [[2]] đường tròn kia.",
+      "generalfeedback": "Hai đường tròn không giao nhau gồm hai trường hợp: hai đường tròn ở ngoài nhau và đường tròn này đựng đường tròn kia.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "ở ngoài"
+        },
+        {
+          "group": 1,
+          "text": "đựng"
+        },
+        {
+          "group": 1,
+          "text": "cắt"
+        },
+        {
+          "group": 1,
+          "text": "tiếp xúc"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Bạn Nam gặp khó khăn khi làm bài tập phân biệt hai trường hợp hai đường tròn không giao nhau: ở ngoài nhau (\\(d > R + r\\)) và đựng nhau (\\(d < R - r\\)). Để thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập, Nam nên chọn cách xử lý nào sau đây?",
+      "generalfeedback": "Thể hiện tinh thần vươn lên trong học tập là tự giác, kiên trì học hỏi, vẽ lại hình và hệ thống lại kiến thức để hiểu bản chất thay vì bỏ cuộc hoặc quay kop.",
+      "answers": [
+        {
+          "text": "Chủ động vẽ lại hình, ôn lại khái niệm khoảng cách tâm \\(d\\) và hệ thức bán kính \\(R, r\\) để kiên trì giải lại bài tập.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài tập vì cho rằng hai đường tròn không giao nhau quá rắc rối.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép lại đáp án của bạn khác để hoàn thành bài tập nhanh chóng.",
+          "fraction": 0
+        },
+        {
+          "text": "Nhờ bạn làm hộ toàn bộ bài tập và không cần hiểu lại cách giải.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi làm bài tập về vị trí tương đối của hai đường tròn, nếu gặp một câu hỏi vận dụng chưa tìm ra lời giải ngay, hành vi \"Tự giác tìm đọc lại phần Nhận xét trong SGK và tự giải lại nhiều lần cho đến khi hiểu rõ\" là biểu hiện của phẩm chất luôn cố gắng vươn lên đạt kết quả tốt trong học tập. Khẳng định này Đúng hay Sai?",
+      "generalfeedback": "Hành vi kiên trì, tự giác ôn tập lại SGK để vượt qua khó khăn là biểu hiện đúng đắn của phẩm chất vươn lên trong học tập.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Khi bắt đầu học Tiết 2 \"Hai đường tròn không giao nhau\", bạn An muốn tự đặt mục tiêu học tập cá nhân để nỗ lực phấn đấu. Mục tiêu nào sau đây thể hiện rõ nhất năng lực tự đặt mục tiêu học tập hiệu quả?",
+      "generalfeedback": "Mục tiêu học tập hiệu quả cần cụ thể, đo lường được và gắn liền với kiến thức cốt lõi của bài học (nắm vững 2 hệ thức và vận dụng giải bài tập).",
+      "answers": [
+        {
+          "text": "Ghi nhớ hai hệ thức \\(d > R + r\\) và \\(d < R - r\\), sau đó tự giải đúng ít nhất 3 bài tập xác định vị trí tương đối không giao nhau.",
+          "fraction": 100
+        },
+        {
+          "text": "Học thuộc tất cả các câu trong SGK mà không cần giải bài tập.",
+          "fraction": 0
+        },
+        {
+          "text": "Cố gắng hoàn thành bài tập nhanh hơn các bạn khác mà không cần kiểm tra lại độ chính xác.",
+          "fraction": 0
+        },
+        {
+          "text": "Nhờ thầy cô giải sẵn toàn bộ bài tập để chép vào vở.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Để đạt mục tiêu nắm chắc kiến thức hai đường tròn không giao nhau trong tuần này, kế hoạch hành động nào sau đây là hợp lý và thể hiện sự nỗ lực phấn đấu thực hiện mục tiêu?",
+      "generalfeedback": "Kế hoạch hành động tốt bao gồm lập bảng tổng kết các hệ thức khoảng cách tâm và làm bài tập rèn luyện.",
+      "answers": [
+        {
+          "text": "Lập bảng so sánh hệ thức giữa \\(d\\) với \\(R, r\\) cho các trường hợp không giao nhau và dành 30 phút mỗi ngày tự làm lại bài tập SGK.",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ đọc lướt qua SGK trước kỳ thi 1 ngày và không làm bài tập.",
+          "fraction": 0
+        },
+        {
+          "text": "Chờ đến khi giáo viên sửa bài trên lớp rồi mới chép lời giải.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ học thuộc định nghĩa hai đường tròn ngoài nhau và bỏ qua trường hợp hai đường tròn đựng nhau.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Trong giờ thực hành Toán, nhóm của Bình cần cắt hai hình tròn giấy \\((O; 5\\text{ cm})\\) và \\((O'; 2\\text{ cm})\\) để mô phỏng hiện tượng nguyệt thực toàn phần (đường tròn lớn đựng hoàn toàn đường tròn nhỏ). Nhóm Bình nên đề xuất giải pháp đặt khoảng cách giữa hai tâm \\(OO'\\) như thế nào?",
+      "generalfeedback": "Để đường tròn lớn đựng đường tròn nhỏ, khoảng cách hai tâm phải thỏa mãn \\(OO' < R - r = 5 - 2 = 3\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "Đặt khoảng cách hai tâm \\(OO' < 3\\text{ cm}\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Đặt khoảng cách hai tâm \\(OO' > 7\\text{ cm}\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Đặt khoảng cách hai tâm \\(OO' = 7\\text{ cm}\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Đặt khoảng cách hai tâm \\(OO' = 3\\text{ cm}\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Một người thợ thủ công muốn sắp xếp hai sản phẩm mây tre đan hình tròn \\((O; 12\\text{ cm})\\) và \\((O'; 5\\text{ cm})\\) trên một mặt phẳng sao cho hai vành tròn ở ngoài nhau và không đè lên nhau. Đề xuất giải pháp khoảng cách tâm \\(OO'\\) nào sau đây giúp giải quyết đúng vấn đề?",
+      "generalfeedback": "Để hai đường tròn ở ngoài nhau, người thợ phải đặt khoảng cách tâm \\(OO' > R + r = 12 + 5 = 17\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "Đặt khoảng cách tâm \\(OO' > 17\\text{ cm}\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Đặt khoảng cách tâm \\(OO' < 7\\text{ cm}\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Đặt khoảng cách tâm \\(OO' = 17\\text{ cm}\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Đặt khoảng cách tâm \\(OO' = 7\\text{ cm}\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_03",
+      "questiontext": "Khi phân tích hai trường hợp của hai đường tròn không giao nhau: \"hai đường tròn ở ngoài nhau\" và \"đường tròn này đựng đường tròn kia\", phát biểu nào sau đây giải thích chính xác sự tương đồng và khác biệt giữa chúng?",
+      "generalfeedback": "Cả hai trường hợp tương đồng ở chỗ đều có 0 điểm chung. Khác biệt về hệ thức: ở ngoài nhau thì \\(d > R + r\\), còn đựng nhau thì \\(d < R - r\\).",
+      "answers": [
+        {
+          "text": "Tương đồng: Cả hai trường hợp đều có 0 điểm chung. Khác biệt: Ở ngoài nhau thì \\(d > R + r\\), còn đựng nhau thì \\(d < R - r\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Tương đồng: Cả hai trường hợp đều có 1 điểm chung. Khác biệt: Một trường hợp tiếp xúc ngoài, một trường hợp tiếp xúc trong.",
+          "fraction": 0
+        },
+        {
+          "text": "Tương đồng: Cả hai trường hợp đều có khoảng cách tâm \\(d = 0\\). Khác biệt: Bán kính bằng nhau hoặc khác nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Tương đồng: Cả hai trường hợp đều có \\(d = R + r\\). Khác biệt: Số điểm chung là 2 hoặc 0.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_03",
+      "questiontext": "So sánh hai vị trí tương đối: \"hai đường tròn đựng nhau\" và \"hai đường tròn đồng tâm\". Khẳng định: \"Điểm tương đồng là cả hai đều không có điểm chung và thỏa mãn \\(d < R - r\\); điểm khác biệt là đường tròn đồng tâm có khoảng cách tâm \\(d = 0\\) (hai tâm trùng nhau)\" là Đúng hay Sai?",
+      "generalfeedback": "Đồng tâm là trường hợp đặc biệt của đựng nhau khi hai tâm trùng nhau (khoảng cách tâm \\(d = 0 < R - r\\)). Khẳng định trên là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Cho hai điểm \\(O\\) và \\(O'\\) có \\(OO' = 6\\text{ cm}\\). Để xác định vị trí tương đối của hai đường tròn \\((O; 10\\text{ cm})\\) và \\((O'; 3\\text{ cm})\\), kĩ năng toán học nào cần được sử dụng?",
+      "generalfeedback": "Kĩ năng toán học cần dùng là tính hiệu hai bán kính \\(R - r = 10 - 3 = 7\\text{ cm}\\) rồi so sánh với \\(OO' = 6\\text{ cm}\\) (vì \\(6 < 7\\) nên đường tròn \\((O)\\) đựng \\((O')\\)).",
+      "answers": [
+        {
+          "text": "Tính hiệu hai bán kính \\(R - r = 10 - 3 = 7\\text{ cm}\\) rồi so sánh \\(OO' = 6\\text{ cm} < 7\\text{ cm}\\) để kết luận đường tròn \\((O)\\) đựng \\((O')\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Tính tổng hai bán kính \\(R + r = 10 + 3 = 13\\text{ cm}\\) rồi kết luận hai đường tròn ở ngoài nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Cho hai bán kính trừ cho nhau bằng 0 để kết luận hai đường tròn đồng tâm.",
+          "fraction": 0
+        },
+        {
+          "text": "Tính tích hai bán kính \\(10 \\times 3 = 30\\) rồi so sánh với \\(OO'\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Khi mô hình hóa bài toán thực tế xếp hai vòm tròn trang trí bán kính \\(R = 15\\text{ cm}\\) và \\(r = 8\\text{ cm}\\) tách rời nhau hoàn toàn, kĩ năng biến đổi và so sánh hệ thức toán học nào giúp xác định điều kiện khoảng cách hai tâm \\(d\\)?",
+      "generalfeedback": "Vận dụng kĩ năng tính tổng bán kính \\(R + r = 15 + 8 = 23\\text{ cm}\\) và so sánh hệ thức \\(d > 23\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "Tính tổng bán kính \\(R + r = 15 + 8 = 23\\text{ cm}\\) và thiết lập bất đẳng thức \\(d > 23\\text{ cm}\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Tính hiệu bán kính \\(R - r = 15 - 8 = 7\\text{ cm}\\) và thiết lập bất đẳng thức \\(d > 7\\text{ cm}\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Tính thương bán kính \\(15 / 8\\) và so sánh với \\(d\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Thiết lập phương trình \\(d = 15 - 8 = 7\\text{ cm}\\).",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1175 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 50,
+    "metadata_used": {
+      "YCCD_TOAN6_061": 3,
+      "Khái niệm hỗn số dương": 5,
+      "Cấu tạo phần nguyên và phần phân số của hỗn số": 5,
+      "Đổi phân số ra hỗn số dương và ngược lại": 18,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_TCTH_TUHOC_C2_04": 1,
+      "SUB_GTHT_XACDINHMD_C2_03": 1,
+      "NLT_TOAN_C2_01_01": 1
+    },
+    "types_used": {
+      "multichoice": 18,
+      "truefalse": 6,
+      "shortanswer": 1,
+      "numerical": 6,
+      "matching": 6,
+      "gapselect": 6,
+      "ddwtos": 6,
+      "calculated": 1
+    },
+    "total": 50
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN6_061",
+        "reason": "Nhận biết được hỗn số dương"
+      },
+      {
+        "metadata_code": "Khái niệm hỗn số dương",
+        "reason": "Khái niệm hỗn số dương và quy tắc phần phân số nhỏ hơn 1"
+      },
+      {
+        "metadata_code": "Cấu tạo phần nguyên và phần phân số của hỗn số",
+        "reason": "Cấu tạo phần nguyên và phần phân số của hỗn số"
+      },
+      {
+        "metadata_code": "Đổi phân số ra hỗn số dương và ngược lại",
+        "reason": "Kỹ năng chuyển đổi giữa phân số và hỗn số dương"
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Thái độ cố gắng vươn lên trong học tập"
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+        "reason": "Lưu giữ thông tin có chọn lọc bằng sơ đồ/tóm tắt"
+      },
+      {
+        "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+        "reason": "Tiếp nhận thông tin toán học trong đời sống"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_01",
+        "reason": "Thực hiện các thao tác tư duy toán học"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_04_02",
+        "reason": "Đọc hiểu thông tin toán học trọng tâm"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học thuộc lĩnh vực Toán học thuần túy (hỗn số dương), không chứa yếu tố phần mềm, công cụ số hay xử lý dữ liệu tin học."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung kiến thức toán lớp 6 về hỗn số không liên quan tự nhiên đến các hệ thống hay mô hình Trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_061",
+      "questiontext": "Số nào sau đây là một hỗn số dương?",
+      "generalfeedback": "Hỗn số dương gồm phần nguyên là số tự nhiên khác 0 và phần phân số nhỏ hơn 1. Ví dụ: \\(2\\frac{1}{3}\\) là hỗn số dương.",
+      "answers": [
+        {
+          "text": "\\(2\\frac{1}{3}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{7}{3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-1\\frac{1}{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2,5\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Khái niệm hỗn số dương",
+      "questiontext": "Biểu diễn \\(2\\frac{5}{4}\\) có phải là một cách viết hỗn số đúng chuẩn hay không? Vì sao?",
+      "generalfeedback": "Trong một hỗn số dương, phần phân số bắt buộc phải nhỏ hơn 1. Do phân số \\(\\frac{5}{4} > 1\\) nên \\(2\\frac{5}{4}\\) không phải là cách viết hỗn số đúng chuẩn.",
+      "answers": [
+        {
+          "text": "Không, vì phần phân số \\(\\frac{5}{4}\\) lớn hơn 1.",
+          "fraction": 100
+        },
+        {
+          "text": "Có, vì có đủ phần nguyên là 2 và phần phân số là \\(\\frac{5}{4}\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Có, vì phần nguyên 2 lớn hơn 0.",
+          "fraction": 0
+        },
+        {
+          "text": "Không, vì phần nguyên 2 phải bé hơn phần phân số \\(\\frac{5}{4}\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Cấu tạo phần nguyên và phần phân số của hỗn số",
+      "questiontext": "Trong hỗn số \\(3\\frac{2}{5}\\), phần nguyên là 3 và phần phân số là \\(\\frac{2}{5}\\). Khẳng định trên Đúng hay Sai?",
+      "generalfeedback": "Hỗn số \\(3\\frac{2}{5}\\) được cấu tạo từ phần nguyên là 3 và phần phân số là \\(\\frac{2}{5}\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Cấu tạo phần nguyên và phần phân số của hỗn số",
+      "questiontext": "Xác định phần nguyên của hỗn số \\(7\\frac{4}{9}\\).",
+      "generalfeedback": "Hỗn số \\(7\\frac{4}{9}\\) có phần nguyên là 7.",
+      "answers": [
+        {
+          "text": "7",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Đổi phân số ra hỗn số dương và ngược lại",
+      "questiontext": "Viết phân số \\(\\frac{23}{5}\\) dưới dạng hỗn số ta được kết quả là:",
+      "generalfeedback": "Thực hiện phép chia 23 cho 5 được 4 dư 3. Do đó \\(\\frac{23}{5} = 4\\frac{3}{5}\\).",
+      "answers": [
+        {
+          "text": "\\(4\\frac{3}{5}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(3\\frac{4}{5}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(5\\frac{3}{4}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(4\\frac{5}{3}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Đổi phân số ra hỗn số dương và ngược lại",
+      "questiontext": "Khi viết hỗn số \\(3\\frac{4}{5}\\) dưới dạng phân số \\(\\frac{a}{5}\\), giá trị tử số \\(a\\) là bao nhiêu? (Chỉ điền số)",
+      "generalfeedback": "Ta có \\(3\\frac{4}{5} = \\frac{3 \\cdot 5 + 4}{5} = \\frac{19}{5}\\). Vậy tử số \\(a = 19\\).",
+      "answers": [
+        {
+          "text": "19",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Cấu tạo phần nguyên và phần phân số của hỗn số",
+      "questiontext": "Ghép mỗi hỗn số ở cột bên trái với phần nguyên tương ứng ở cột bên phải.",
+      "generalfeedback": "Phần nguyên của hỗn số là số tự nhiên viết phía trước phần phân số.",
+      "subquestions": [
+        {
+          "question": "\\(5\\frac{2}{3}\\)",
+          "answer": "5"
+        },
+        {
+          "question": "\\(12\\frac{1}{4}\\)",
+          "answer": "12"
+        },
+        {
+          "question": "\\(1\\frac{7}{8}\\)",
+          "answer": "1"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm hỗn số dương",
+      "questiontext": "Một hỗn số dương gồm hai phần: phần nguyên là một số [[1]] khác 0 và phần phân số là một phân số dương [[2]] hơn 1.",
+      "generalfeedback": "Cấu tạo hỗn số dương: phần nguyên là số tự nhiên khác 0, phần phân số nhỏ hơn 1.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "tự nhiên"
+        },
+        {
+          "group": 1,
+          "text": "nhỏ"
+        },
+        {
+          "group": 1,
+          "text": "nguyên âm"
+        },
+        {
+          "group": 1,
+          "text": "lớn"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "Đổi phân số ra hỗn số dương và ngược lại",
+      "questiontext": "Mẹ có 15 quả táo chia đều cho 4 anh em. Mỗi người con nhận được [[1]] quả táo và [[2]] quả táo.",
+      "generalfeedback": "Ta có \\(\\frac{15}{4} = 3\\frac{3}{4}\\). Do đó mỗi người con nhận được 3 quả táo và \\(\\frac{3}{4}\\) quả táo.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "3"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{3}{4}\\)"
+        },
+        {
+          "group": 1,
+          "text": "4"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{1}{4}\\)"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Đổi phân số ra hỗn số dương và ngược lại",
+      "questiontext": "Khi viết hỗn số {a}\\(\\frac{1}{3}\\) (với phần nguyên {a} từ 1 đến 10) dưới dạng phân số, tử số của phân số đó bằng bao nhiêu? (Chỉ điền số)",
+      "generalfeedback": "Tử số của phân số được tính theo công thức: phần nguyên nhân với mẫu số rồi cộng với tử số của phần phân số, tức là {a} * 3 + 1.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*3 + 1",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_061",
+      "questiontext": "Trong các số sau đây: \\(1\\frac{2}{3}\\), \\(\\frac{5}{3}\\), \\(-2\\frac{1}{2}\\), \\(0,75\\), có bao nhiêu số là hỗn số dương?",
+      "generalfeedback": "Trong các số đã cho, chỉ có \\(1\\frac{2}{3}\\) là hỗn số dương. \\(\\frac{5}{3}\\) là phân số, \\(-2\\frac{1}{2}\\) là hỗn số âm, \\(0,75\\) là số thập phân. Vậy có 1 hỗn số dương.",
+      "answers": [
+        {
+          "text": "1",
+          "fraction": 100
+        },
+        {
+          "text": "2",
+          "fraction": 0
+        },
+        {
+          "text": "3",
+          "fraction": 0
+        },
+        {
+          "text": "4",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Đổi phân số ra hỗn số dương và ngược lại",
+      "questiontext": "Chuyển hỗn số \\(5\\frac{2}{7}\\) thành phân số ta được kết quả là:",
+      "generalfeedback": "Ta có: \\(5\\frac{2}{7} = \\frac{5 \\cdot 7 + 2}{7} = \\frac{37}{7}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{37}{7}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{10}{7}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{35}{7}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{17}{7}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Khái niệm hỗn số dương",
+      "questiontext": "Mọi phân số lớn hơn 1 có tử số và mẫu số là các số nguyên dương đều có thể viết được dưới dạng hỗn số dương. Khẳng định trên Đúng hay Sai?",
+      "generalfeedback": "Đúng. Một phân số dương lớn hơn 1 luôn có thể thực hiện phép chia tử số cho mẫu số để thu được phần nguyên khác 0 và phần dư (làm tử số của phần phân số nhỏ hơn 1).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Đổi phân số ra hỗn số dương và ngược lại",
+      "questiontext": "Khi chuyển phân số \\(\\frac{43}{8}\\) sang hỗn số \\(a\\frac{b}{8}\\), giá trị phần nguyên \\(a\\) bằng bao nhiêu? (Chỉ điền số)",
+      "generalfeedback": "Ta lấy 43 chia cho 8 được 5 dư 3. Vậy phần nguyên \\(a = 5\\).",
+      "answers": [
+        {
+          "text": "5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "Đổi phân số ra hỗn số dương và ngược lại",
+      "questiontext": "Ghép mỗi phân số ở cột bên trái với hỗn số tương ứng ở cột bên phải.",
+      "generalfeedback": "Chuyển từng phân số bằng cách lấy tử số chia cho mẫu số.",
+      "subquestions": [
+        {
+          "question": "\\(\\frac{11}{3}\\)",
+          "answer": "\\(3\\frac{2}{3}\\)"
+        },
+        {
+          "question": "\\(\\frac{19}{5}\\)",
+          "answer": "\\(3\\frac{4}{5}\\)"
+        },
+        {
+          "question": "\\(\\frac{13}{4}\\)",
+          "answer": "\\(3\\frac{1}{4}\\)"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Cấu tạo phần nguyên và phần phân số của hỗn số",
+      "questiontext": "Muốn viết một hỗn số dương dưới dạng phân số, tử số của phân số mới bằng [[1]] nhân với [[3]] rồi cộng với tử số cũ.",
+      "generalfeedback": "Quy tắc chuyển hỗn số thành phân số: Tử số mới = Phần nguyên * Mẫu số + Tử số cũ.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "phần nguyên"
+        },
+        {
+          "group": 1,
+          "text": "phần phân số"
+        },
+        {
+          "group": 2,
+          "text": "mẫu số"
+        },
+        {
+          "group": 2,
+          "text": "tử số"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "Đổi phân số ra hỗn số dương và ngược lại",
+      "questiontext": "Phân số \\(\\frac{22}{5}\\) khi chuyển sang hỗn số dương sẽ có phần nguyên là [[1]] và phần phân số là [[3]].",
+      "generalfeedback": "Ta có 22 chia 5 được 4 dư 2, nên \\(\\frac{22}{5} = 4\\frac{2}{5}\\). Phần nguyên là 4, phần phân số là \\(\\frac{2}{5}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "4"
+        },
+        {
+          "group": 1,
+          "text": "5"
+        },
+        {
+          "group": 2,
+          "text": "\\(\\frac{2}{5}\\)"
+        },
+        {
+          "group": 2,
+          "text": "\\(\\frac{4}{5}\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Đổi phân số ra hỗn số dương và ngược lại",
+      "questiontext": "Kết quả của phép tính \\(2\\frac{1}{3} + 3\\frac{1}{3}\\) viết dưới dạng hỗn số là:",
+      "generalfeedback": "Ta có: \\(2\\frac{1}{3} + 3\\frac{1}{3} = (2 + 3) + \\left(\\frac{1}{3} + \\frac{1}{3}\\right) = 5 + \\frac{2}{3} = 5\\frac{2}{3}\\).",
+      "answers": [
+        {
+          "text": "\\(5\\frac{2}{3}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(5\\frac{1}{3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(6\\frac{2}{3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{17}{3}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_061",
+      "questiontext": "Trong các số sau đây: \\(1\\frac{2}{3}\\), \\(\\frac{5}{3}\\), \\(-2\\frac{1}{2}\\), \\(0,75\\), có bao nhiêu số là hỗn số dương?",
+      "generalfeedback": "Trong các số đã cho, chỉ có \\(1\\frac{2}{3}\\) là hỗn số dương. \\(\\frac{5}{3}\\) là phân số, \\(-2\\frac{1}{2}\\) là hỗn số âm, \\(0,75\\) là số thập phân. Vậy có 1 hỗn số dương.",
+      "answers": [
+        {
+          "text": "1",
+          "fraction": 100
+        },
+        {
+          "text": "2",
+          "fraction": 0
+        },
+        {
+          "text": "3",
+          "fraction": 0
+        },
+        {
+          "text": "4",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Đổi phân số ra hỗn số dương và ngược lại",
+      "questiontext": "Chuyển hỗn số \\(5\\frac{2}{7}\\) thành phân số ta được kết quả là:",
+      "generalfeedback": "Ta có: \\(5\\frac{2}{7} = \\frac{5 \\cdot 7 + 2}{7} = \\frac{37}{7}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{37}{7}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{10}{7}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{35}{7}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{17}{7}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Khái niệm hỗn số dương",
+      "questiontext": "Mọi phân số lớn hơn 1 có tử số và mẫu số là các số nguyên dương đều có thể viết được dưới dạng hỗn số dương. Khẳng định trên Đúng hay Sai?",
+      "generalfeedback": "Đúng. Một phân số dương lớn hơn 1 luôn có thể thực hiện phép chia tử số cho mẫu số để thu được phần nguyên khác 0 và phần dư (làm tử số của phần phân số nhỏ hơn 1).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Đổi phân số ra hỗn số dương và ngược lại",
+      "questiontext": "Khi chuyển phân số \\(\\frac{43}{8}\\) sang hỗn số \\(a\\frac{b}{8}\\), giá trị phần nguyên \\(a\\) bằng bao nhiêu? (Chỉ điền số)",
+      "generalfeedback": "Ta lấy 43 chia cho 8 được 5 dư 3. Vậy phần nguyên \\(a = 5\\).",
+      "answers": [
+        {
+          "text": "5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "Đổi phân số ra hỗn số dương và ngược lại",
+      "questiontext": "Ghép mỗi phân số ở cột bên trái với hỗn số tương ứng ở cột bên phải.",
+      "generalfeedback": "Chuyển từng phân số bằng cách lấy tử số chia cho mẫu số.",
+      "subquestions": [
+        {
+          "question": "\\(\\frac{11}{3}\\)",
+          "answer": "\\(3\\frac{2}{3}\\)"
+        },
+        {
+          "question": "\\(\\frac{19}{5}\\)",
+          "answer": "\\(3\\frac{4}{5}\\)"
+        },
+        {
+          "question": "\\(\\frac{13}{4}\\)",
+          "answer": "\\(3\\frac{1}{4}\\)"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Cấu tạo phần nguyên và phần phân số của hỗn số",
+      "questiontext": "Muốn viết một hỗn số dương dưới dạng phân số, tử số của phân số mới bằng [[1]] nhân với [[3]] rồi cộng với tử số cũ.",
+      "generalfeedback": "Quy tắc chuyển hỗn số thành phân số: Tử số mới = Phần nguyên * Mẫu số + Tử số cũ.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "phần nguyên"
+        },
+        {
+          "group": 1,
+          "text": "phần phân số"
+        },
+        {
+          "group": 2,
+          "text": "mẫu số"
+        },
+        {
+          "group": 2,
+          "text": "tử số"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "Đổi phân số ra hỗn số dương và ngược lại",
+      "questiontext": "Phân số \\(\\frac{22}{5}\\) khi chuyển sang hỗn số dương sẽ có phần nguyên là [[1]] và phần phân số là [[3]].",
+      "generalfeedback": "Ta có 22 chia 5 được 4 dư 2, nên \\(\\frac{22}{5} = 4\\frac{2}{5}\\). Phần nguyên là 4, phần phân số là \\(\\frac{2}{5}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "4"
+        },
+        {
+          "group": 1,
+          "text": "5"
+        },
+        {
+          "group": 2,
+          "text": "\\(\\frac{2}{5}\\)"
+        },
+        {
+          "group": 2,
+          "text": "\\(\\frac{4}{5}\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Đổi phân số ra hỗn số dương và ngược lại",
+      "questiontext": "Kết quả của phép tính \\(2\\frac{1}{3} + 3\\frac{1}{3}\\) viết dưới dạng hỗn số là:",
+      "generalfeedback": "Ta có: \\(2\\frac{1}{3} + 3\\frac{1}{3} = (2 + 3) + \\left(\\frac{1}{3} + \\frac{1}{3}\\right) = 5 + \\frac{2}{3} = 5\\frac{2}{3}\\).",
+      "answers": [
+        {
+          "text": "\\(5\\frac{2}{3}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(5\\frac{1}{3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(6\\frac{2}{3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{17}{3}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_061",
+      "questiontext": "Trong các số sau đây: \\(1\\frac{2}{3}\\), \\(\\frac{5}{3}\\), \\(-2\\frac{1}{2}\\), \\(0,75\\), có bao nhiêu số là hỗn số dương?",
+      "generalfeedback": "Trong các số đã cho, chỉ có \\(1\\frac{2}{3}\\) là hỗn số dương. \\(\\frac{5}{3}\\) là phân số, \\(-2\\frac{1}{2}\\) là hỗn số âm, \\(0,75\\) là số thập phân. Vậy có 1 hỗn số dương.",
+      "answers": [
+        {
+          "text": "1",
+          "fraction": 100
+        },
+        {
+          "text": "2",
+          "fraction": 0
+        },
+        {
+          "text": "3",
+          "fraction": 0
+        },
+        {
+          "text": "4",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Đổi phân số ra hỗn số dương và ngược lại",
+      "questiontext": "Chuyển hỗn số \\(5\\frac{2}{7}\\) thành phân số ta được kết quả là:",
+      "generalfeedback": "Ta có: \\(5\\frac{2}{7} = \\frac{5 \\cdot 7 + 2}{7} = \\frac{37}{7}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{37}{7}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{10}{7}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{35}{7}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{17}{7}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Khái niệm hỗn số dương",
+      "questiontext": "Mọi phân số lớn hơn 1 có tử số và mẫu số là các số nguyên dương đều có thể viết được dưới dạng hỗn số dương. Khẳng định trên Đúng hay Sai?",
+      "generalfeedback": "Đúng. Một phân số dương lớn hơn 1 luôn có thể thực hiện phép chia tử số cho mẫu số để thu được phần nguyên khác 0 và phần dư (làm tử số của phần phân số nhỏ hơn 1).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Đổi phân số ra hỗn số dương và ngược lại",
+      "questiontext": "Khi chuyển phân số \\(\\frac{43}{8}\\) sang hỗn số \\(a\\frac{b}{8}\\), giá trị phần nguyên \\(a\\) bằng bao nhiêu? (Chỉ điền số)",
+      "generalfeedback": "Ta lấy 43 chia cho 8 được 5 dư 3. Vậy phần nguyên \\(a = 5\\).",
+      "answers": [
+        {
+          "text": "5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "Đổi phân số ra hỗn số dương và ngược lại",
+      "questiontext": "Ghép mỗi phân số ở cột bên trái với hỗn số tương ứng ở cột bên phải.",
+      "generalfeedback": "Chuyển từng phân số bằng cách lấy tử số chia cho mẫu số.",
+      "subquestions": [
+        {
+          "question": "\\(\\frac{11}{3}\\)",
+          "answer": "\\(3\\frac{2}{3}\\)"
+        },
+        {
+          "question": "\\(\\frac{19}{5}\\)",
+          "answer": "\\(3\\frac{4}{5}\\)"
+        },
+        {
+          "question": "\\(\\frac{13}{4}\\)",
+          "answer": "\\(3\\frac{1}{4}\\)"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Cấu tạo phần nguyên và phần phân số của hỗn số",
+      "questiontext": "Muốn viết một hỗn số dương dưới dạng phân số, tử số của phân số mới bằng [[1]] nhân với [[3]] rồi cộng với tử số cũ.",
+      "generalfeedback": "Quy tắc chuyển hỗn số thành phân số: Tử số mới = Phần nguyên * Mẫu số + Tử số cũ.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "phần nguyên"
+        },
+        {
+          "group": 1,
+          "text": "phần phân số"
+        },
+        {
+          "group": 2,
+          "text": "mẫu số"
+        },
+        {
+          "group": 2,
+          "text": "tử số"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "Đổi phân số ra hỗn số dương và ngược lại",
+      "questiontext": "Phân số \\(\\frac{22}{5}\\) khi chuyển sang hỗn số dương sẽ có phần nguyên là [[1]] và phần phân số là [[3]].",
+      "generalfeedback": "Ta có 22 chia 5 được 4 dư 2, nên \\(\\frac{22}{5} = 4\\frac{2}{5}\\). Phần nguyên là 4, phần phân số là \\(\\frac{2}{5}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "4"
+        },
+        {
+          "group": 1,
+          "text": "5"
+        },
+        {
+          "group": 2,
+          "text": "\\(\\frac{2}{5}\\)"
+        },
+        {
+          "group": 2,
+          "text": "\\(\\frac{4}{5}\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Đổi phân số ra hỗn số dương và ngược lại",
+      "questiontext": "Kết quả của phép tính \\(2\\frac{1}{3} + 3\\frac{1}{3}\\) viết dưới dạng hỗn số là:",
+      "generalfeedback": "Ta có: \\(2\\frac{1}{3} + 3\\frac{1}{3} = (2 + 3) + \\left(\\frac{1}{3} + \\frac{1}{3}\\right) = 5 + \\frac{2}{3} = 5\\frac{2}{3}\\).",
+      "answers": [
+        {
+          "text": "\\(5\\frac{2}{3}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(5\\frac{1}{3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(6\\frac{2}{3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{17}{3}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_061",
+      "questiontext": "Trong các số sau đây: \\(1\\frac{2}{3}\\), \\(\\frac{5}{3}\\), \\(-2\\frac{1}{2}\\), \\(0,75\\), có bao nhiêu số là hỗn số dương?",
+      "generalfeedback": "Trong các số đã cho, chỉ có \\(1\\frac{2}{3}\\) là hỗn số dương. \\(\\frac{5}{3}\\) là phân số, \\(-2\\frac{1}{2}\\) là hỗn số âm, \\(0,75\\) là số thập phân. Vậy có 1 hỗn số dương.",
+      "answers": [
+        {
+          "text": "1",
+          "fraction": 100
+        },
+        {
+          "text": "2",
+          "fraction": 0
+        },
+        {
+          "text": "3",
+          "fraction": 0
+        },
+        {
+          "text": "4",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Đổi phân số ra hỗn số dương và ngược lại",
+      "questiontext": "Chuyển hỗn số \\(5\\frac{2}{7}\\) thành phân số ta được kết quả là:",
+      "generalfeedback": "Ta có: \\(5\\frac{2}{7} = \\frac{5 \\cdot 7 + 2}{7} = \\frac{37}{7}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{37}{7}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{10}{7}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{35}{7}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{17}{7}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Khái niệm hỗn số dương",
+      "questiontext": "Mọi phân số lớn hơn 1 có tử số và mẫu số là các số nguyên dương đều có thể viết được dưới dạng hỗn số dương. Khẳng định trên Đúng hay Sai?",
+      "generalfeedback": "Đúng. Một phân số dương lớn hơn 1 luôn có thể thực hiện phép chia tử số cho mẫu số để thu được phần nguyên khác 0 và phần dư (làm tử số của phần phân số nhỏ hơn 1).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Đổi phân số ra hỗn số dương và ngược lại",
+      "questiontext": "Khi chuyển phân số \\(\\frac{43}{8}\\) sang hỗn số \\(a\\frac{b}{8}\\), giá trị phần nguyên \\(a\\) bằng bao nhiêu? (Chỉ điền số)",
+      "generalfeedback": "Ta lấy 43 chia cho 8 được 5 dư 3. Vậy phần nguyên \\(a = 5\\).",
+      "answers": [
+        {
+          "text": "5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "Đổi phân số ra hỗn số dương và ngược lại",
+      "questiontext": "Ghép mỗi phân số ở cột bên trái với hỗn số tương ứng ở cột bên phải.",
+      "generalfeedback": "Chuyển từng phân số bằng cách lấy tử số chia cho mẫu số.",
+      "subquestions": [
+        {
+          "question": "\\(\\frac{11}{3}\\)",
+          "answer": "\\(3\\frac{2}{3}\\)"
+        },
+        {
+          "question": "\\(\\frac{19}{5}\\)",
+          "answer": "\\(3\\frac{4}{5}\\)"
+        },
+        {
+          "question": "\\(\\frac{13}{4}\\)",
+          "answer": "\\(3\\frac{1}{4}\\)"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Cấu tạo phần nguyên và phần phân số của hỗn số",
+      "questiontext": "Muốn viết một hỗn số dương dưới dạng phân số, tử số của phân số mới bằng [[1]] nhân với [[3]] rồi cộng với tử số cũ.",
+      "generalfeedback": "Quy tắc chuyển hỗn số thành phân số: Tử số mới = Phần nguyên * Mẫu số + Tử số cũ.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "phần nguyên"
+        },
+        {
+          "group": 1,
+          "text": "phần phân số"
+        },
+        {
+          "group": 2,
+          "text": "mẫu số"
+        },
+        {
+          "group": 2,
+          "text": "tử số"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "Đổi phân số ra hỗn số dương và ngược lại",
+      "questiontext": "Phân số \\(\\frac{22}{5}\\) khi chuyển sang hỗn số dương sẽ có phần nguyên là [[1]] và phần phân số là [[3]].",
+      "generalfeedback": "Ta có 22 chia 5 được 4 dư 2, nên \\(\\frac{22}{5} = 4\\frac{2}{5}\\). Phần nguyên là 4, phần phân số là \\(\\frac{2}{5}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "4"
+        },
+        {
+          "group": 1,
+          "text": "5"
+        },
+        {
+          "group": 2,
+          "text": "\\(\\frac{2}{5}\\)"
+        },
+        {
+          "group": 2,
+          "text": "\\(\\frac{4}{5}\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Đổi phân số ra hỗn số dương và ngược lại",
+      "questiontext": "Kết quả của phép tính \\(2\\frac{1}{3} + 3\\frac{1}{3}\\) viết dưới dạng hỗn số là:",
+      "generalfeedback": "Ta có: \\(2\\frac{1}{3} + 3\\frac{1}{3} = (2 + 3) + \\left(\\frac{1}{3} + \\frac{1}{3}\\right) = 5 + \\frac{2}{3} = 5\\frac{2}{3}\\).",
+      "answers": [
+        {
+          "text": "\\(5\\frac{2}{3}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(5\\frac{1}{3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(6\\frac{2}{3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{17}{3}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_061",
+      "questiontext": "Trong các số sau đây: \\(1\\frac{2}{3}\\), \\(\\frac{5}{3}\\), \\(-2\\frac{1}{2}\\), \\(0,75\\), có bao nhiêu số là hỗn số dương?",
+      "generalfeedback": "Trong các số đã cho, chỉ có \\(1\\frac{2}{3}\\) là hỗn số dương. \\(\\frac{5}{3}\\) là phân số, \\(-2\\frac{1}{2}\\) là hỗn số âm, \\(0,75\\) là số thập phân. Vậy có 1 hỗn số dương.",
+      "answers": [
+        {
+          "text": "1",
+          "fraction": 100
+        },
+        {
+          "text": "2",
+          "fraction": 0
+        },
+        {
+          "text": "3",
+          "fraction": 0
+        },
+        {
+          "text": "4",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Đổi phân số ra hỗn số dương và ngược lại",
+      "questiontext": "Chuyển hỗn số \\(5\\frac{2}{7}\\) thành phân số ta được kết quả là:",
+      "generalfeedback": "Ta có: \\(5\\frac{2}{7} = \\frac{5 \\cdot 7 + 2}{7} = \\frac{37}{7}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{37}{7}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{10}{7}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{35}{7}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{17}{7}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Khái niệm hỗn số dương",
+      "questiontext": "Mọi phân số lớn hơn 1 có tử số và mẫu số là các số nguyên dương đều có thể viết được dưới dạng hỗn số dương. Khẳng định trên Đúng hay Sai?",
+      "generalfeedback": "Đúng. Một phân số dương lớn hơn 1 luôn có thể thực hiện phép chia tử số cho mẫu số để thu được phần nguyên khác 0 và phần dư (làm tử số của phần phân số nhỏ hơn 1).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Đổi phân số ra hỗn số dương và ngược lại",
+      "questiontext": "Khi chuyển phân số \\(\\frac{43}{8}\\) sang hỗn số \\(a\\frac{b}{8}\\), giá trị phần nguyên \\(a\\) bằng bao nhiêu? (Chỉ điền số)",
+      "generalfeedback": "Ta lấy 43 chia cho 8 được 5 dư 3. Vậy phần nguyên \\(a = 5\\).",
+      "answers": [
+        {
+          "text": "5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "Đổi phân số ra hỗn số dương và ngược lại",
+      "questiontext": "Ghép mỗi phân số ở cột bên trái với hỗn số tương ứng ở cột bên phải.",
+      "generalfeedback": "Chuyển từng phân số bằng cách lấy tử số chia cho mẫu số.",
+      "subquestions": [
+        {
+          "question": "\\(\\frac{11}{3}\\)",
+          "answer": "\\(3\\frac{2}{3}\\)"
+        },
+        {
+          "question": "\\(\\frac{19}{5}\\)",
+          "answer": "\\(3\\frac{4}{5}\\)"
+        },
+        {
+          "question": "\\(\\frac{13}{4}\\)",
+          "answer": "\\(3\\frac{1}{4}\\)"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Cấu tạo phần nguyên và phần phân số của hỗn số",
+      "questiontext": "Muốn viết một hỗn số dương dưới dạng phân số, tử số của phân số mới bằng [[1]] nhân với [[3]] rồi cộng với tử số cũ.",
+      "generalfeedback": "Quy tắc chuyển hỗn số thành phân số: Tử số mới = Phần nguyên * Mẫu số + Tử số cũ.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "phần nguyên"
+        },
+        {
+          "group": 1,
+          "text": "phần phân số"
+        },
+        {
+          "group": 2,
+          "text": "mẫu số"
+        },
+        {
+          "group": 2,
+          "text": "tử số"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "Đổi phân số ra hỗn số dương và ngược lại",
+      "questiontext": "Phân số \\(\\frac{22}{5}\\) khi chuyển sang hỗn số dương sẽ có phần nguyên là [[1]] và phần phân số là [[3]].",
+      "generalfeedback": "Ta có 22 chia 5 được 4 dư 2, nên \\(\\frac{22}{5} = 4\\frac{2}{5}\\). Phần nguyên là 4, phần phân số là \\(\\frac{2}{5}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "4"
+        },
+        {
+          "group": 1,
+          "text": "5"
+        },
+        {
+          "group": 2,
+          "text": "\\(\\frac{2}{5}\\)"
+        },
+        {
+          "group": 2,
+          "text": "\\(\\frac{4}{5}\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Đổi phân số ra hỗn số dương và ngược lại",
+      "questiontext": "Kết quả của phép tính \\(2\\frac{1}{3} + 3\\frac{1}{3}\\) viết dưới dạng hỗn số là:",
+      "generalfeedback": "Ta có: \\(2\\frac{1}{3} + 3\\frac{1}{3} = (2 + 3) + \\left(\\frac{1}{3} + \\frac{1}{3}\\right) = 5 + \\frac{2}{3} = 5\\frac{2}{3}\\).",
+      "answers": [
+        {
+          "text": "\\(5\\frac{2}{3}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(5\\frac{1}{3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(6\\frac{2}{3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{17}{3}\\)",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

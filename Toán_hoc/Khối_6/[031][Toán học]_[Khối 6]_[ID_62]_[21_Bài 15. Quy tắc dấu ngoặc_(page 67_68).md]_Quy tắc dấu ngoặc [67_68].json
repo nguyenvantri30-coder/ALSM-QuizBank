@@ -1,0 +1,478 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 18,
+    "metadata_used": {
+      "Quy tắc bỏ dấu ngoặc có dấu '+' phía trước": 6,
+      "Thực hiện bỏ dấu ngoặc trong biểu thức số nguyên": 5,
+      "Tính giá trị biểu thức sau khi bỏ dấu ngoặc": 5,
+      "YCCD_TOAN6_051": 4,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TUHOC_C2_04": 2,
+      "SUB_GTHT_XACDINHMD_C2_03": 1,
+      "NLT_TOAN_C2_01_01": 2,
+      "NLT_TOAN_C2_04_02": 1
+    },
+    "types_used": {
+      "multichoice": 9,
+      "truefalse": 2,
+      "gapselect": 2,
+      "matching": 2,
+      "ddwtos": 1,
+      "numerical": 1,
+      "calculated": 1
+    },
+    "total": 18
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "Quy tắc bỏ dấu ngoặc có dấu '+' phía trước",
+        "reason": "Đánh giá khả năng nhận biết và hiểu quy tắc bỏ dấu ngoặc có dấu \"+\" hoặc \"-\" đằng trước"
+      },
+      {
+        "metadata_code": "Thực hiện bỏ dấu ngoặc trong biểu thức số nguyên",
+        "reason": "Đánh giá kỹ năng thực hiện bỏ dấu ngoặc trong biểu thức chứa số nguyên"
+      },
+      {
+        "metadata_code": "Tính giá trị biểu thức sau khi bỏ dấu ngoặc",
+        "reason": "Đánh giá kỹ năng tính giá trị biểu thức số nguyên sau khi bỏ dấu ngoặc"
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_051",
+        "reason": "Đánh giá yêu cầu vận dụng linh hoạt quy tắc dấu ngoặc trong tính toán hợp lý"
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đánh giá ý thức trách nhiệm, sự nỗ lực vượt khó trong học tập qua tình huống bài tập về dấu ngoặc"
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+        "reason": "Đánh giá năng lực tự học, tóm tắt và lưu giữ thông tin cốt lõi về quy tắc dấu ngoặc"
+      },
+      {
+        "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+        "reason": "Đánh giá năng lực tiếp nhận thông tin từ văn bản, số liệu thực tế liên quan đến biểu thức số nguyên"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_01",
+        "reason": "Đánh giá năng lực tư duy toán học qua phân tích lỗi sai và đánh giá các phép biến đổi bỏ ngoặc"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_04_02",
+        "reason": "Đánh giá năng lực đọc hiểu thông tin toán học trọng tâm trong văn bản SGK"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Năng lực tin học / số không thuộc danh mục METADATA_DICTIONARY của bài học này và không có trong nội dung bài học SGK."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Năng lực AI không thuộc danh mục METADATA_DICTIONARY của bài học này và không có trong nội dung bài học SGK."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc bỏ dấu ngoặc có dấu '+' phía trước",
+      "questiontext": "Khi bỏ dấu ngoặc có dấu \\(+\\) đằng trước, dấu của các số hạng trong ngoặc thay đổi thế nào?",
+      "generalfeedback": "Theo quy tắc dấu ngoặc: Khi bỏ dấu ngoặc có dấu \\(+\\) đằng trước, ta giữ nguyên dấu của các số hạng trong ngoặc.",
+      "answers": [
+        {
+          "text": "Giữ nguyên dấu của tất cả các số hạng trong ngoặc",
+          "fraction": 100
+        },
+        {
+          "text": "Đổi dấu tất cả các số hạng trong ngoặc",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ đổi dấu số hạng đầu tiên trong ngoặc",
+          "fraction": 0
+        },
+        {
+          "text": "Đổi dấu \\(+\\) thành \\(-\\) và giữ nguyên dấu \\(-\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc bỏ dấu ngoặc có dấu '+' phía trước",
+      "questiontext": "Đúng hay Sai: Khi bỏ dấu ngoặc có dấu \\(-\\) đằng trước, ta phải đổi dấu tất cả các số hạng trong dấu ngoặc (dấu \\(+\\) đổi thành \\(-\\) và dấu \\(-\\) đổi thành \\(+\\)).",
+      "generalfeedback": "Đúng. Đây là phát biểu chính xác của quy tắc bỏ dấu ngoặc có dấu \\(-\\) đằng trước.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc bỏ dấu ngoặc có dấu '+' phía trước",
+      "questiontext": "Khi bỏ dấu ngoặc có dấu \\(+\\) đằng trước, ta [[1]] dấu của các số hạng trong ngoặc. Khi bỏ dấu ngoặc có dấu \\(-\\) đằng trước, ta phải [[2]] tất cả các số hạng trong ngoặc.",
+      "generalfeedback": "Theo quy tắc dấu ngoặc: có dấu \\(+\\) đằng trước thì giữ nguyên dấu, có dấu \\(-\\) đằng trước thì đổi dấu tất cả các số hạng.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "giữ nguyên"
+        },
+        {
+          "group": 1,
+          "text": "đổi dấu"
+        },
+        {
+          "group": 1,
+          "text": "bỏ bớt"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc bỏ dấu ngoặc có dấu '+' phía trước",
+      "questiontext": "Hãy ghép mỗi biểu thức ở cột bên trái với biểu thức tương đương sau khi bỏ dấu ngoặc ở cột bên phải:",
+      "generalfeedback": "Áp dụng quy tắc dấu ngoặc: \\(+(a - b + c) = a - b + c\\); \\(-(a - b + c) = -a + b - c\\); \\(-(a + b - c) = -a - b + c\\).",
+      "subquestions": [
+        {
+          "question": "\\(+(a - b + c)\\)",
+          "answer": "\\(a - b + c\\)"
+        },
+        {
+          "question": "\\(-(a - b + c)\\)",
+          "answer": "\\(-a + b - c\\)"
+        },
+        {
+          "question": "\\(-(a + b - c)\\)",
+          "answer": "\\(-a - b + c\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện bỏ dấu ngoặc trong biểu thức số nguyên",
+      "questiontext": "Bỏ dấu ngoặc của biểu thức \\(-(23 - 15 + 7)\\) ta được biểu thức dạng tổng là:",
+      "generalfeedback": "Đằng trước dấu ngoặc là dấu \\(-\\), ta đổi dấu tất cả các số hạng: \\(-(23 - 15 + 7) = -23 + 15 - 7\\).",
+      "answers": [
+        {
+          "text": "\\(-23 + 15 - 7\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(-23 - 15 + 7\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(23 - 15 + 7\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-23 + 15 + 7\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện bỏ dấu ngoặc trong biểu thức số nguyên",
+      "questiontext": "Cho biểu thức \\(A = 56 - (11 + 28 - 16)\\). Sau khi bỏ dấu ngoặc tròn, ta được \\(A = 56\\) [[1]] \\(11\\) [[1]] \\(28\\) [[2]] \\(16\\).",
+      "generalfeedback": "Trước ngoặc tròn là dấu \\(-\\), đổi dấu tất cả các số hạng trong ngoặc: \\(+11 \\rightarrow -11\\), \\(+28 \\rightarrow -28\\), \\(-16 \\rightarrow +16\\). Ta có \\(56 - 11 - 28 + 16\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "-"
+        },
+        {
+          "group": 1,
+          "text": "+"
+        },
+        {
+          "group": 1,
+          "text": "*"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính giá trị biểu thức sau khi bỏ dấu ngoặc",
+      "questiontext": "Tính giá trị của biểu thức sau bằng cách bỏ dấu ngoặc thích hợp: \\((-385 + 210) + (385 - 217)\\).",
+      "generalfeedback": "Bỏ dấu ngoặc: \\((-385 + 210) + (385 - 217) = -385 + 210 + 385 - 217 = (-385 + 385) + (210 - 217) = 0 - 7 = -7\\).",
+      "answers": [
+        {
+          "text": "-7",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Tính giá trị biểu thức sau khi bỏ dấu ngoặc",
+      "questiontext": "Tính giá trị biểu thức \\((72 - 1956) - (-1956 + 28)\\) một cách hợp lý:",
+      "generalfeedback": "Bỏ dấu ngoặc: \\((72 - 1956) - (-1956 + 28) = 72 - 1956 + 1956 - 28 = (1956 - 1956) + (72 - 28) = 0 + 44 = 44\\).",
+      "answers": [
+        {
+          "text": "44",
+          "fraction": 100
+        },
+        {
+          "text": "-44",
+          "fraction": 0
+        },
+        {
+          "text": "100",
+          "fraction": 0
+        },
+        {
+          "text": "-100",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_051",
+      "questiontext": "Tính giá trị của biểu thức (100 + {a}) - ({a} - 25) trong tập hợp số nguyên.",
+      "generalfeedback": "Bỏ dấu ngoặc: \\((100 + {a}) - ({a} - 25) = 100 + {a} - {a} + 25 = 125\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 50.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "125",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_051",
+      "questiontext": "Tính hợp lý giá trị biểu thức \\(28 + (19 - 28) - (32 - 57)\\):",
+      "generalfeedback": "Bỏ dấu ngoặc: \\(28 + 19 - 28 - 32 + 57 = (28 - 28) + 19 - 32 + 57 = 0 - 13 + 57 = 44\\).",
+      "answers": [
+        {
+          "text": "44",
+          "fraction": 100
+        },
+        {
+          "text": "-44",
+          "fraction": 0
+        },
+        {
+          "text": "19",
+          "fraction": 0
+        },
+        {
+          "text": "76",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi gặp một bài toán tính hợp lý giá trị biểu thức có nhiều dấu ngoặc phức tạp như \\(A = (123 - 456 + 789) - (123 + 789 - 456)\\), bạn An cảm thấy khó và chưa làm được ngay. Hành động nào sau đây thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập của An?",
+      "generalfeedback": "Khi gặp bài toán khó, tinh thần kiên trì, tự giác học tập và nỗ lực vận dụng kiến thức đã học để vượt qua khó khăn là biểu hiện của phẩm chất luôn cố gắng vươn lên đạt kết quả tốt trong học tập.",
+      "answers": [
+        {
+          "text": "Kiên nhẫn đọc lại quy tắc bỏ dấu ngoặc trong SGK, thử bỏ ngoặc từng bước và nhóm các số hạng thích hợp để tự tìm ra lời giải.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua câu hỏi đó ngay lập tức và chờ thầy cô chữa bài trên lớp.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép luôn đáp án của bạn bên cạnh mà không cần hiểu cách làm.",
+          "fraction": 0
+        },
+        {
+          "text": "Cho rằng bài toán quá khó với sức mình nên không cần cố gắng suy nghĩ.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Để tóm tắt ngắn gọn và ghi nhớ lâu quy tắc bỏ dấu ngoặc, sơ đồ từ khóa nào sau đây ghi nhận thông tin chính xác và đầy đủ nhất?",
+      "generalfeedback": "Sơ đồ ghi nhớ cốt lõi quy tắc dấu ngoặc: có dấu \\(+\\) đằng trước thì giữ nguyên dấu của các số hạng trong ngoặc; có dấu \\(-\\) đằng trước thì đổi dấu tất cả các số hạng trong ngoặc.",
+      "answers": [
+        {
+          "text": "Dấu \\(+\\) trước ngoặc \\(\\rightarrow\\) Giữ nguyên dấu các số hạng; Dấu \\(-\\) trước ngoặc \\(\\rightarrow\\) Đổi dấu tất cả các số hạng.",
+          "fraction": 100
+        },
+        {
+          "text": "Dấu \\(+\\) trước ngoặc \\(\\rightarrow\\) Đổi dấu các số hạng; Dấu \\(-\\) trước ngoặc \\(\\rightarrow\\) Giữ nguyên dấu các số hạng.",
+          "fraction": 0
+        },
+        {
+          "text": "Dấu \\(+\\) trước ngoặc \\(\\rightarrow\\) Đổi dấu số hạng đầu tiên; Dấu \\(-\\) trước ngoặc \\(\\rightarrow\\) Giữ nguyên dấu số hạng đầu tiên.",
+          "fraction": 0
+        },
+        {
+          "text": "Dấu \\(+\\) hoặc \\(-\\) trước ngoặc \\(\\rightarrow\\) Đều đổi tất cả dấu thành dấu \\(+\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "questiontext": "Trong một bản tin dự báo thời tiết, nhiệt độ ở Sa Pa tại thời điểm \\(T_1\\) là \\(-2^\\circ\\text{C}\\), sau đó giảm \\(3^\\circ\\text{C}\\) tại thời điểm \\(T_2\\), rồi lại tăng \\(5^\\circ\\text{C}\\) tại thời điểm \\(T_3\\). Biểu thức nào sau đây diễn tả đúng sự thay đổi nhiệt độ tổng cộng tại thời điểm \\(T_3\\) và kết quả tương ứng sau khi bỏ ngoặc?",
+      "generalfeedback": "Nhiệt độ ban đầu là \\(-2\\), giảm \\(3\\) tức là \\(- 3\\), tăng \\(5\\) tức là \\(+ 5\\). Ta có biểu thức \\((-2) - 3 + 5 = 0^\\circ\\text{C}\\).",
+      "answers": [
+        {
+          "text": "Biểu thức \\((-2) - 3 + 5\\) và nhiệt độ thu được là \\(0^\\circ\\text{C}\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Biểu thức \\((-2) - (3 + 5)\\) và nhiệt độ thu được là \\(-10^\\circ\\text{C}\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Biểu thức \\(-2 + (-3 - 5)\\) và nhiệt độ thu được là \\(-10^\\circ\\text{C}\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Biểu thức \\(-2 - (-3 + 5)\\) và nhiệt độ thu được là \\(-4^\\circ\\text{C}\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Phân tích lời giải của một học sinh khi thực hiện bài toán bỏ dấu ngoặc: \\[A = 50 - (20 - 30 + 10) = 50 - 20 - 30 + 10 = 10\\] Lỗi sai trong thao tác tư duy bỏ dấu ngoặc của học sinh này là gì?",
+      "generalfeedback": "Đằng trước dấu ngoặc là dấu \\(-\\), khi bỏ ngoặc phải đổi dấu tất cả các số hạng trong ngoặc: \\(20 \\rightarrow -20\\), \\(-30 \\rightarrow +30\\), \\(+10 \\rightarrow -10\\). Lời giải đúng phải là \\(50 - 20 + 30 - 10 = 50\\).",
+      "answers": [
+        {
+          "text": "Học sinh không đổi dấu các số hạng \\(-30\\) và \\(+10\\) khi bỏ dấu ngoặc có dấu \\(-\\) đằng trước.",
+          "fraction": 100
+        },
+        {
+          "text": "Học sinh đổi dấu sai số hạng \\(20\\) thành \\(-20\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Học sinh thực hiện sai phép tính \\(50 - 20 = 30\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Học sinh đã áp dụng đúng quy tắc nhưng tính nhầm kết quả cuối cùng.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "NLT_TOAN_C2_04_02",
+      "questiontext": "Đọc đoạn văn bản sau trong SGK: \"Khi bỏ dấu ngoặc có dấu \\(-\\) đằng trước, ta phải đổi dấu tất cả các số hạng trong dấu ngoặc: dấu \\(+\\) đổi thành \\(-\\) và dấu \\(-\\) đổi thành \\(+\\)\". Theo đoạn văn trên, thông tin trọng tâm cần chú ý nhất khi bỏ dấu ngoặc có dấu \\(-\\) đằng trước là gì?",
+      "generalfeedback": "Thông tin trọng tâm được khẳng định rõ trong văn bản SGK là \"đổi dấu tất cả các số hạng trong dấu ngoặc\".",
+      "answers": [
+        {
+          "text": "Phải đổi dấu tất cả các số hạng trong dấu ngoặc.",
+          "fraction": 100
+        },
+        {
+          "text": "Giữ nguyên dấu của số hạng đầu tiên và đổi dấu các số hạng còn lại.",
+          "fraction": 0
+        },
+        {
+          "text": "Đổi dấu ngoặc thành dấu ngoặc vuông.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ đổi dấu \\(+\\) thành \\(-\\), không đổi dấu \\(-\\) thành \\(+\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Đúng hay Sai: Khi làm bài tập nhóm về quy tắc dấu ngoặc, nếu thấy bạn trong nhóm làm sai câu \\(100 - (50 - 20) = 100 - 50 - 20 = 30\\), hành vi chủ động giải thích quy tắc bỏ dấu ngoặc có dấu \\(-\\) đằng trước cho bạn để cả nhóm cùng tiến bộ thể hiện ý thức trách nhiệm và nỗ lực trong học tập.",
+      "generalfeedback": "Chủ động giúp đỡ bạn học tập và chia sẻ kiến thức đúng là biểu hiện của phẩm chất trách nhiệm và nỗ lực trong học tập.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Hãy ghép mỗi biến đổi bỏ dấu ngoặc ở cột bên trái với đánh giá tương ứng ở cột bên phải:",
+      "generalfeedback": "Phân tích cẩn thận dấu đằng trước dấu ngoặc để thực hiện đúng quy tắc giữ nguyên hoặc đổi dấu tất cả các số hạng.",
+      "subquestions": [
+        {
+          "question": "\\(15 + (a - b) = 15 + a - b\\)",
+          "answer": "Đúng (giữ nguyên dấu khi trước ngoặc là dấu \\(+\\))"
+        },
+        {
+          "question": "\\(15 - (a - b) = 15 - a - b\\)",
+          "answer": "Sai (chưa đổi dấu số hạng \\(-b\\) thành \\(+b\\))"
+        },
+        {
+          "question": "\\(15 - (a - b) = 15 - a + b\\)",
+          "answer": "Đúng (đã đổi dấu tất cả số hạng khi trước ngoặc là dấu \\(-\\))"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Khi lập bảng tổng kết quy tắc ngoặc: Trước ngoặc là dấu \\(+\\) thì [[1]] dấu; Trước ngoặc là dấu \\(-\\) thì [[2]] tất cả các số hạng.",
+      "generalfeedback": "Nội dung tóm tắt cốt lõi: Trước ngoặc là dấu \\(+\\) thì giữ nguyên dấu, trước ngoặc là dấu \\(-\\) thì đổi dấu tất cả các số hạng.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "giữ nguyên"
+        },
+        {
+          "group": 1,
+          "text": "đổi dấu"
+        },
+        {
+          "group": 1,
+          "text": "bỏ bớt"
+        }
+      ]
+    }
+  ]
+}

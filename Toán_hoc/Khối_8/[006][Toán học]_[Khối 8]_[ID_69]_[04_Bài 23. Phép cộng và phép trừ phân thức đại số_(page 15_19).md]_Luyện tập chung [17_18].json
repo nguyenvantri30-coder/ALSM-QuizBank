@@ -1,0 +1,1356 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 58,
+    "metadata_used": {
+      "Tổng hợp kiến thức đơn thức và đa thức": 4,
+      "Quy tắc bỏ dấu ngoặc trong tính toán đa thức": 3,
+      "Rút gọn biểu thức chứa phép cộng trừ đa thức": 5,
+      "Củng cố kĩ năng thu gọn đơn thức và đa thức": 4,
+      "YCCD_TOAN8_008": 4,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TUHOC_C2_06": 2,
+      "NLT_TOAN_C2_01_05": 2,
+      "NLT_TOAN_C2_03_05": 2
+    },
+    "types_used": {
+      "multichoice": 23,
+      "matching": 6,
+      "gapselect": 5,
+      "truefalse": 7,
+      "shortanswer": 1,
+      "numerical": 6,
+      "calculatedsimple": 5,
+      "ddwtos": 5
+    },
+    "total": 58
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN8_008",
+        "reason": "Thực hiện được phép cộng các đa thức nhiều biến trong những trường hợp đơn giản."
+      },
+      {
+        "metadata_code": "Tổng hợp kiến thức đơn thức và đa thức",
+        "reason": "Tổng hợp kiến thức đơn thức và đa thức"
+      },
+      {
+        "metadata_code": "Quy tắc bỏ dấu ngoặc trong tính toán đa thức",
+        "reason": "Quy tắc bỏ dấu ngoặc trong tính toán đa thức"
+      },
+      {
+        "metadata_code": "Rút gọn biểu thức chứa phép cộng trừ đa thức",
+        "reason": "Rút gọn biểu thức chứa phép cộng trừ đa thức"
+      },
+      {
+        "metadata_code": "Củng cố kĩ năng thu gọn đơn thức và đa thức",
+        "reason": "Củng cố kĩ năng thu gọn đơn thức và đa thức"
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Luôn cố gắng vươn lên đạt kết quả tốt trong học tập."
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_06",
+        "reason": "Nhận ra và điều chỉnh được những sai sót, hạn chế của bản thân khi được giáo viên, bạn bè góp ý"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_05",
+        "reason": "Thực hiện được việc lập luận hợp lí khi giải quyết vấn đề."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_05",
+        "reason": "Sử dụng được các kĩ năng toán học tương thích để giải quyết vấn đề."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Nội dung bài học Luyện tập chung về phép cộng, trừ phân thức đại số tập trung vào kỹ năng tính toán và biến đổi đại số thủ công, không có bối cảnh tự nhiên để tích hợp các nhiệm vụ ứng dụng công cụ tin học/số."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung tiết học không đề cập hoặc liên quan trực tiếp đến khái niệm, hệ thống hay ứng dụng của trí tuệ nhân tạo (AI), không đủ cơ sở để xây dựng câu hỏi đo lường năng lực AI một cách tự nhiên."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Tổng hợp kiến thức đơn thức và đa thức",
+      "questiontext": "Biểu thức nào sau đây là một đơn thức?",
+      "generalfeedback": "Đơn thức là biểu thức đại số chỉ gồm một số, một biến hoặc một tích giữa các số và các biến. Do đó \\(5x^2y\\) là đơn thức.",
+      "answers": [
+        {
+          "text": "\\(5x^2y\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x + y\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{x+1}{y}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x - 3\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Tổng hợp kiến thức đơn thức và đa thức",
+      "questiontext": "Hãy ghép mỗi biểu thức đại số ở cột bên trái với loại biểu thức tương ứng ở cột bên phải.",
+      "generalfeedback": "\\(3x^2y\\) là đơn thức, \\(2x + 3y\\) là đa thức, \\(\\frac{x+1}{x-1}\\) là phân thức đại số.",
+      "subquestions": [
+        {
+          "question": "\\(3x^2y\\)",
+          "answer": "Đơn thức"
+        },
+        {
+          "question": "\\(2x + 3y\\)",
+          "answer": "Đa thức"
+        },
+        {
+          "question": "\\(\\frac{x+1}{x-1}\\)",
+          "answer": "Phân thức đại số"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc bỏ dấu ngoặc trong tính toán đa thức",
+      "questiontext": "Khi bỏ dấu ngoặc có dấu \\(-\\) đằng trước, ta phải [[1]] dấu tất cả các số hạng trong ngoặc. Khi bỏ dấu ngoặc có dấu \\(+\\) đằng trước, ta [[2]] dấu các số hạng trong ngoặc.",
+      "generalfeedback": "Theo quy tắc bỏ dấu ngoặc: trước ngoặc có dấu trừ thì đổi dấu các số hạng trong ngoặc, trước ngoặc có dấu cộng thì giữ nguyên dấu các số hạng.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "đổi"
+        },
+        {
+          "group": 1,
+          "text": "giữ nguyên"
+        },
+        {
+          "group": 1,
+          "text": "xóa"
+        },
+        {
+          "group": 1,
+          "text": "nhân"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Quy tắc bỏ dấu ngoặc trong tính toán đa thức",
+      "questiontext": "Đẳng thức \\(A - (B - C) = A - B + C\\) là đúng hay sai?",
+      "generalfeedback": "Đúng, vì khi bỏ dấu ngoặc có dấu minus đằng trước, \\(-B\\) giữ nguyên là \\(-B\\) và \\(-(-C)\\) thành \\(+C\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Rút gọn biểu thức chứa phép cộng trừ đa thức",
+      "questiontext": "Kết quả của phép cộng hai phân thức cùng mẫu \\(\\frac{3x+1}{xy} + \\frac{2x-1}{xy}\\) là:",
+      "generalfeedback": "Ta có: \\(\\frac{3x+1}{xy} + \\frac{2x-1}{xy} = \\frac{(3x+1) + (2x-1)}{xy} = \\frac{5x}{xy} = \\frac{5}{y}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{5}{y}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{5x}{y}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{5x+2}{xy}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{x}{xy}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Củng cố kĩ năng thu gọn đơn thức và đa thức",
+      "questiontext": "Thu gọn đơn thức \\(3x \\cdot 2y\\) ta được đơn thức nào?",
+      "generalfeedback": "Ta có: \\(3x \\cdot 2y = (3 \\cdot 2) \\cdot (x \\cdot y) = 6xy\\).",
+      "answers": [
+        {
+          "text": "6xy",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Rút gọn biểu thức chứa phép cộng trừ đa thức",
+      "questiontext": "Tính giá trị của biểu thức \\(P = \\frac{5x^2}{x-1} + \\frac{5-10x}{x-1}\\) tại \\(x = 3\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Thu gọn \\(P = \\frac{5x^2 - 10x + 5}{x-1} = \\frac{5(x-1)^2}{x-1} = 5(x-1)\\). Với \\(x = 3\\), \\(P = 5(3-1) = 10\\).",
+      "answers": [
+        {
+          "text": "10",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_008",
+      "questiontext": "Cho đa thức thứ nhất là {a}\\(x + y\\) và đa thức thứ hai là \\(2x - y\\) với biến số {a}. Tổng của hai đa thức này khi \\(x = 1\\) bằng bao nhiêu?",
+      "generalfeedback": "Tổng hai đa thức là \\(({a}x + y) + (2x - y) = ({a} + 2)x\\). Khi \\(x = 1\\), tổng bằng \\({a} + 2\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}+2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_008",
+      "questiontext": "Muốn cộng hai phân thức có cùng mẫu thức, ta cộng các [[1]] với nhau và [[2]] mẫu thức.",
+      "generalfeedback": "Muốn cộng hai phân thức có cùng mẫu thức, ta cộng các tử thức với nhau và giữ nguyên mẫu thức.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "tử thức"
+        },
+        {
+          "group": 1,
+          "text": "giữ nguyên"
+        },
+        {
+          "group": 1,
+          "text": "mẫu thức"
+        },
+        {
+          "group": 1,
+          "text": "cộng"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Củng cố kĩ năng thu gọn đơn thức và đa thức",
+      "questiontext": "Thu gọn đa thức \\(A = (2x^2 + 3xy - y^2) + (x^2 - 3xy + 2y^2)\\) ta được kết quả là:",
+      "generalfeedback": "Ta có: \\(A = (2x^2 + x^2) + (3xy - 3xy) + (-y^2 + 2y^2) = 3x^2 + y^2\\).",
+      "answers": [
+        {
+          "text": "\\(3x^2 + y^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(3x^2 - y^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(3x^2 + 6xy + y^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x^2 + y^2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_008",
+      "questiontext": "Muốn cộng hai phân thức có cùng mẫu thức, ta thực hiện như thế nào?",
+      "generalfeedback": "Theo quy tắc cộng hai phân thức cùng mẫu: Muốn cộng hai phân thức có cùng mẫu thức, ta cộng các tử thức với nhau và giữ nguyên mẫu thức.",
+      "answers": [
+        {
+          "text": "Cộng các tử thức với nhau và giữ nguyên mẫu thức",
+          "fraction": 100
+        },
+        {
+          "text": "Cộng các tử thức với nhau và cộng các mẫu thức với nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Nhân các tử thức với nhau và giữ nguyên mẫu thức",
+          "fraction": 0
+        },
+        {
+          "text": "Trừ các tử thức cho nhau và giữ nguyên mẫu thức",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Rút gọn biểu thức chứa phép cộng trừ đa thức",
+      "questiontext": "Rút gọn biểu thức \\(P = \\frac{1}{x} + \\frac{1}{y} - \\frac{1}{x}\\) ta được kết quả là phân thức nào?",
+      "generalfeedback": "Sử dụng tính chất giao hoán và kết hợp: \\(P = \\left(\\frac{1}{x} - \\frac{1}{x}\\right) + \\frac{1}{y} = 0 + \\frac{1}{y} = \\frac{1}{y}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{1}{y}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{1}{x}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{2}{xy}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(0\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Tổng hợp kiến thức đơn thức và đa thức",
+      "questiontext": "Tổng của một phân thức và phân thức đối của nó bằng 0. Khẳng định này Đúng hay Sai?",
+      "generalfeedback": "Đúng. Phân thức đối của \\(\\frac{A}{B}\\) là \\(-\\frac{A}{B}\\), và \\(\\frac{A}{B} + \\left(-\\frac{A}{B}\\right) = 0\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "Rút gọn biểu thức chứa phép cộng trừ đa thức",
+      "questiontext": "Ghép các phép tính phân thức ở cột bên trái với kết quả rút gọn tương ứng ở cột bên phải.",
+      "generalfeedback": "\\(\\frac{x}{x+1} + \\frac{1}{x+1} = 1\\); \\(\\frac{2x}{x} - 1 = 1\\); \\(\\frac{5x}{xy} - \\frac{2x}{xy} = \\frac{3}{y}\\).",
+      "subquestions": [
+        {
+          "question": "\\(\\frac{x}{x+1} + \\frac{1}{x+1}\\)",
+          "answer": "1"
+        },
+        {
+          "question": "\\(\\frac{3x+2}{x+2} - \\frac{x}{x+2}\\)",
+          "answer": "2"
+        },
+        {
+          "question": "\\(\\frac{5x}{xy} - \\frac{2x}{xy}\\)",
+          "answer": "\\(\\frac{3}{y}\\)"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Củng cố kĩ năng thu gọn đơn thức và đa thức",
+      "questiontext": "Cho biểu thức \\(A = \\frac{x-1}{x+1} - \\frac{2x+3}{x+1}\\). Tính giá trị của \\(A\\) tại \\(x = 0\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Thu gọn \\(A = \\frac{(x-1) - (2x+3)}{x+1} = \\frac{-x - 4}{x+1}\\). Tại \\(x = 0\\), \\(A = \\frac{-4}{1} = -4\\).",
+      "answers": [
+        {
+          "text": "-4",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Củng cố kĩ năng thu gọn đơn thức và đa thức",
+      "questiontext": "Tính kết quả của phép cộng hai đơn thức đồng dạng {a}\\(x^2y\\) và \\(3x^2y\\) với biến số {a} khi \\(x=1, y=1\\).",
+      "generalfeedback": "Tổng hai đơn thức là \\(({a} + 3)x^2y\\). Khi \\(x=1, y=1\\), giá trị biểu thức là \\({a} + 3\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}+3",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc bỏ dấu ngoặc trong tính toán đa thức",
+      "questiontext": "Để trừ hai phân thức có cùng mẫu thức, ta [[1]] các tử thức và [[2]] mẫu thức.",
+      "generalfeedback": "Quy tắc trừ hai phân thức cùng mẫu: Muốn trừ hai phân thức có cùng mẫu thức, ta trừ các tử thức và giữ nguyên mẫu thức.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "trừ"
+        },
+        {
+          "group": 1,
+          "text": "giữ nguyên"
+        },
+        {
+          "group": 1,
+          "text": "cộng"
+        },
+        {
+          "group": 1,
+          "text": "nhân"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_008",
+      "questiontext": "Kết quả của phép trừ phân thức \\(\\frac{3-2x}{x-1} - \\frac{2+5x}{x-1}\\) là:",
+      "generalfeedback": "Ta có: \\(\\frac{(3-2x) - (2+5x)}{x-1} = \\frac{3 - 2x - 2 - 5x}{x-1} = \\frac{1 - 7x}{x-1}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{1-7x}{x-1}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{5+3x}{x-1}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{1+3x}{x-1}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{5-7x}{x-1}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Tổng hợp kiến thức đơn thức và đa thức",
+      "questiontext": "Phân thức [[1]] của phân thức \\(\\frac{C}{D}\\) được kí hiệu là [[2]].",
+      "generalfeedback": "Phân thức đối của phân thức \\(\\frac{C}{D}\\) được kí hiệu là \\(-\\frac{C}{D}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "đối"
+        },
+        {
+          "group": 1,
+          "text": "\\(-\\frac{C}{D}\\)"
+        },
+        {
+          "group": 1,
+          "text": "nghịch đảo"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{D}{C}\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Rút gọn biểu thức chứa phép cộng trừ đa thức",
+      "questiontext": "Rút gọn biểu thức \\(P = \\frac{x^2 - 3x + 1}{2x^2} + \\frac{5x - 1 - x^2}{2x^2}\\) ta được:",
+      "generalfeedback": "Cộng hai phân thức cùng mẫu: \\(P = \\frac{(x^2 - 3x + 1) + (5x - 1 - x^2)}{2x^2} = \\frac{2x}{2x^2} = \\frac{1}{x}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{1}{x}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{2}{x}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{x}{2}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_008",
+      "questiontext": "Muốn cộng hai phân thức có cùng mẫu thức, ta thực hiện như thế nào?",
+      "generalfeedback": "Theo quy tắc cộng hai phân thức cùng mẫu: Muốn cộng hai phân thức có cùng mẫu thức, ta cộng các tử thức với nhau và giữ nguyên mẫu thức.",
+      "answers": [
+        {
+          "text": "Cộng các tử thức với nhau và giữ nguyên mẫu thức",
+          "fraction": 100
+        },
+        {
+          "text": "Cộng các tử thức với nhau và cộng các mẫu thức với nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Nhân các tử thức với nhau và giữ nguyên mẫu thức",
+          "fraction": 0
+        },
+        {
+          "text": "Trừ các tử thức cho nhau và giữ nguyên mẫu thức",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Rút gọn biểu thức chứa phép cộng trừ đa thức",
+      "questiontext": "Rút gọn biểu thức \\(P = \\frac{1}{x} + \\frac{1}{y} - \\frac{1}{x}\\) ta được kết quả là phân thức nào?",
+      "generalfeedback": "Sử dụng tính chất giao hoán và kết hợp: \\(P = \\left(\\frac{1}{x} - \\frac{1}{x}\\right) + \\frac{1}{y} = 0 + \\frac{1}{y} = \\frac{1}{y}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{1}{y}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{1}{x}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{2}{xy}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(0\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Tổng hợp kiến thức đơn thức và đa thức",
+      "questiontext": "Tổng của một phân thức và phân thức đối của nó bằng 0. Khẳng định này Đúng hay Sai?",
+      "generalfeedback": "Đúng. Phân thức đối của \\(\\frac{A}{B}\\) là \\(-\\frac{A}{B}\\), và \\(\\frac{A}{B} + \\left(-\\frac{A}{B}\\right) = 0\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "Rút gọn biểu thức chứa phép cộng trừ đa thức",
+      "questiontext": "Ghép các phép tính phân thức ở cột bên trái với kết quả rút gọn tương ứng ở cột bên phải.",
+      "generalfeedback": "\\(\\frac{x}{x+1} + \\frac{1}{x+1} = 1\\); \\(\\frac{2x}{x} - 1 = 1\\); \\(\\frac{5x}{xy} - \\frac{2x}{xy} = \\frac{3}{y}\\).",
+      "subquestions": [
+        {
+          "question": "\\(\\frac{x}{x+1} + \\frac{1}{x+1}\\)",
+          "answer": "1"
+        },
+        {
+          "question": "\\(\\frac{3x+2}{x+2} - \\frac{x}{x+2}\\)",
+          "answer": "2"
+        },
+        {
+          "question": "\\(\\frac{5x}{xy} - \\frac{2x}{xy}\\)",
+          "answer": "\\(\\frac{3}{y}\\)"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Củng cố kĩ năng thu gọn đơn thức và đa thức",
+      "questiontext": "Cho biểu thức \\(A = \\frac{x-1}{x+1} - \\frac{2x+3}{x+1}\\). Tính giá trị của \\(A\\) tại \\(x = 0\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Thu gọn \\(A = \\frac{(x-1) - (2x+3)}{x+1} = \\frac{-x - 4}{x+1}\\). Tại \\(x = 0\\), \\(A = \\frac{-4}{1} = -4\\).",
+      "answers": [
+        {
+          "text": "-4",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Củng cố kĩ năng thu gọn đơn thức và đa thức",
+      "questiontext": "Tính kết quả của phép cộng hai đơn thức đồng dạng {a}\\(x^2y\\) và \\(3x^2y\\) với biến số {a} khi \\(x=1, y=1\\).",
+      "generalfeedback": "Tổng hai đơn thức là \\(({a} + 3)x^2y\\). Khi \\(x=1, y=1\\), giá trị biểu thức là \\({a} + 3\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}+3",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc bỏ dấu ngoặc trong tính toán đa thức",
+      "questiontext": "Để trừ hai phân thức có cùng mẫu thức, ta [[1]] các tử thức và [[2]] mẫu thức.",
+      "generalfeedback": "Quy tắc trừ hai phân thức cùng mẫu: Muốn trừ hai phân thức có cùng mẫu thức, ta trừ các tử thức và giữ nguyên mẫu thức.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "trừ"
+        },
+        {
+          "group": 1,
+          "text": "giữ nguyên"
+        },
+        {
+          "group": 1,
+          "text": "cộng"
+        },
+        {
+          "group": 1,
+          "text": "nhân"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_008",
+      "questiontext": "Kết quả của phép trừ phân thức \\(\\frac{3-2x}{x-1} - \\frac{2+5x}{x-1}\\) là:",
+      "generalfeedback": "Ta có: \\(\\frac{(3-2x) - (2+5x)}{x-1} = \\frac{3 - 2x - 2 - 5x}{x-1} = \\frac{1 - 7x}{x-1}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{1-7x}{x-1}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{5+3x}{x-1}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{1+3x}{x-1}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{5-7x}{x-1}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Tổng hợp kiến thức đơn thức và đa thức",
+      "questiontext": "Phân thức [[1]] của phân thức \\(\\frac{C}{D}\\) được kí hiệu là [[2]].",
+      "generalfeedback": "Phân thức đối của phân thức \\(\\frac{C}{D}\\) được kí hiệu là \\(-\\frac{C}{D}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "đối"
+        },
+        {
+          "group": 1,
+          "text": "\\(-\\frac{C}{D}\\)"
+        },
+        {
+          "group": 1,
+          "text": "nghịch đảo"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{D}{C}\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Rút gọn biểu thức chứa phép cộng trừ đa thức",
+      "questiontext": "Rút gọn biểu thức \\(P = \\frac{x^2 - 3x + 1}{2x^2} + \\frac{5x - 1 - x^2}{2x^2}\\) ta được:",
+      "generalfeedback": "Cộng hai phân thức cùng mẫu: \\(P = \\frac{(x^2 - 3x + 1) + (5x - 1 - x^2)}{2x^2} = \\frac{2x}{2x^2} = \\frac{1}{x}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{1}{x}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{2}{x}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{x}{2}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_008",
+      "questiontext": "Muốn cộng hai phân thức có cùng mẫu thức, ta thực hiện như thế nào?",
+      "generalfeedback": "Theo quy tắc cộng hai phân thức cùng mẫu: Muốn cộng hai phân thức có cùng mẫu thức, ta cộng các tử thức với nhau và giữ nguyên mẫu thức.",
+      "answers": [
+        {
+          "text": "Cộng các tử thức với nhau và giữ nguyên mẫu thức",
+          "fraction": 100
+        },
+        {
+          "text": "Cộng các tử thức với nhau và cộng các mẫu thức với nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Nhân các tử thức với nhau và giữ nguyên mẫu thức",
+          "fraction": 0
+        },
+        {
+          "text": "Trừ các tử thức cho nhau và giữ nguyên mẫu thức",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Rút gọn biểu thức chứa phép cộng trừ đa thức",
+      "questiontext": "Rút gọn biểu thức \\(P = \\frac{1}{x} + \\frac{1}{y} - \\frac{1}{x}\\) ta được kết quả là phân thức nào?",
+      "generalfeedback": "Sử dụng tính chất giao hoán và kết hợp: \\(P = \\left(\\frac{1}{x} - \\frac{1}{x}\\right) + \\frac{1}{y} = 0 + \\frac{1}{y} = \\frac{1}{y}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{1}{y}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{1}{x}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{2}{xy}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(0\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Tổng hợp kiến thức đơn thức và đa thức",
+      "questiontext": "Tổng của một phân thức và phân thức đối của nó bằng 0. Khẳng định này Đúng hay Sai?",
+      "generalfeedback": "Đúng. Phân thức đối của \\(\\frac{A}{B}\\) là \\(-\\frac{A}{B}\\), và \\(\\frac{A}{B} + \\left(-\\frac{A}{B}\\right) = 0\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "Rút gọn biểu thức chứa phép cộng trừ đa thức",
+      "questiontext": "Ghép các phép tính phân thức ở cột bên trái với kết quả rút gọn tương ứng ở cột bên phải.",
+      "generalfeedback": "\\(\\frac{x}{x+1} + \\frac{1}{x+1} = 1\\); \\(\\frac{2x}{x} - 1 = 1\\); \\(\\frac{5x}{xy} - \\frac{2x}{xy} = \\frac{3}{y}\\).",
+      "subquestions": [
+        {
+          "question": "\\(\\frac{x}{x+1} + \\frac{1}{x+1}\\)",
+          "answer": "1"
+        },
+        {
+          "question": "\\(\\frac{3x+2}{x+2} - \\frac{x}{x+2}\\)",
+          "answer": "2"
+        },
+        {
+          "question": "\\(\\frac{5x}{xy} - \\frac{2x}{xy}\\)",
+          "answer": "\\(\\frac{3}{y}\\)"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Củng cố kĩ năng thu gọn đơn thức và đa thức",
+      "questiontext": "Cho biểu thức \\(A = \\frac{x-1}{x+1} - \\frac{2x+3}{x+1}\\). Tính giá trị của \\(A\\) tại \\(x = 0\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Thu gọn \\(A = \\frac{(x-1) - (2x+3)}{x+1} = \\frac{-x - 4}{x+1}\\). Tại \\(x = 0\\), \\(A = \\frac{-4}{1} = -4\\).",
+      "answers": [
+        {
+          "text": "-4",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Củng cố kĩ năng thu gọn đơn thức và đa thức",
+      "questiontext": "Tính kết quả của phép cộng hai đơn thức đồng dạng {a}\\(x^2y\\) và \\(3x^2y\\) với biến số {a} khi \\(x=1, y=1\\).",
+      "generalfeedback": "Tổng hai đơn thức là \\(({a} + 3)x^2y\\). Khi \\(x=1, y=1\\), giá trị biểu thức là \\({a} + 3\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}+3",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc bỏ dấu ngoặc trong tính toán đa thức",
+      "questiontext": "Để trừ hai phân thức có cùng mẫu thức, ta [[1]] các tử thức và [[2]] mẫu thức.",
+      "generalfeedback": "Quy tắc trừ hai phân thức cùng mẫu: Muốn trừ hai phân thức có cùng mẫu thức, ta trừ các tử thức và giữ nguyên mẫu thức.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "trừ"
+        },
+        {
+          "group": 1,
+          "text": "giữ nguyên"
+        },
+        {
+          "group": 1,
+          "text": "cộng"
+        },
+        {
+          "group": 1,
+          "text": "nhân"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_008",
+      "questiontext": "Kết quả của phép trừ phân thức \\(\\frac{3-2x}{x-1} - \\frac{2+5x}{x-1}\\) là:",
+      "generalfeedback": "Ta có: \\(\\frac{(3-2x) - (2+5x)}{x-1} = \\frac{3 - 2x - 2 - 5x}{x-1} = \\frac{1 - 7x}{x-1}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{1-7x}{x-1}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{5+3x}{x-1}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{1+3x}{x-1}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{5-7x}{x-1}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Tổng hợp kiến thức đơn thức và đa thức",
+      "questiontext": "Phân thức [[1]] của phân thức \\(\\frac{C}{D}\\) được kí hiệu là [[2]].",
+      "generalfeedback": "Phân thức đối của phân thức \\(\\frac{C}{D}\\) được kí hiệu là \\(-\\frac{C}{D}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "đối"
+        },
+        {
+          "group": 1,
+          "text": "\\(-\\frac{C}{D}\\)"
+        },
+        {
+          "group": 1,
+          "text": "nghịch đảo"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{D}{C}\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Rút gọn biểu thức chứa phép cộng trừ đa thức",
+      "questiontext": "Rút gọn biểu thức \\(P = \\frac{x^2 - 3x + 1}{2x^2} + \\frac{5x - 1 - x^2}{2x^2}\\) ta được:",
+      "generalfeedback": "Cộng hai phân thức cùng mẫu: \\(P = \\frac{(x^2 - 3x + 1) + (5x - 1 - x^2)}{2x^2} = \\frac{2x}{2x^2} = \\frac{1}{x}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{1}{x}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{2}{x}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{x}{2}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_008",
+      "questiontext": "Muốn cộng hai phân thức có cùng mẫu thức, ta thực hiện như thế nào?",
+      "generalfeedback": "Theo quy tắc cộng hai phân thức cùng mẫu: Muốn cộng hai phân thức có cùng mẫu thức, ta cộng các tử thức với nhau và giữ nguyên mẫu thức.",
+      "answers": [
+        {
+          "text": "Cộng các tử thức với nhau và giữ nguyên mẫu thức",
+          "fraction": 100
+        },
+        {
+          "text": "Cộng các tử thức với nhau và cộng các mẫu thức với nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Nhân các tử thức với nhau và giữ nguyên mẫu thức",
+          "fraction": 0
+        },
+        {
+          "text": "Trừ các tử thức cho nhau và giữ nguyên mẫu thức",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Rút gọn biểu thức chứa phép cộng trừ đa thức",
+      "questiontext": "Rút gọn biểu thức \\(P = \\frac{1}{x} + \\frac{1}{y} - \\frac{1}{x}\\) ta được kết quả là phân thức nào?",
+      "generalfeedback": "Sử dụng tính chất giao hoán và kết hợp: \\(P = \\left(\\frac{1}{x} - \\frac{1}{x}\\right) + \\frac{1}{y} = 0 + \\frac{1}{y} = \\frac{1}{y}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{1}{y}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{1}{x}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{2}{xy}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(0\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Tổng hợp kiến thức đơn thức và đa thức",
+      "questiontext": "Tổng của một phân thức và phân thức đối của nó bằng 0. Khẳng định này Đúng hay Sai?",
+      "generalfeedback": "Đúng. Phân thức đối của \\(\\frac{A}{B}\\) là \\(-\\frac{A}{B}\\), và \\(\\frac{A}{B} + \\left(-\\frac{A}{B}\\right) = 0\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "Rút gọn biểu thức chứa phép cộng trừ đa thức",
+      "questiontext": "Ghép các phép tính phân thức ở cột bên trái với kết quả rút gọn tương ứng ở cột bên phải.",
+      "generalfeedback": "\\(\\frac{x}{x+1} + \\frac{1}{x+1} = 1\\); \\(\\frac{2x}{x} - 1 = 1\\); \\(\\frac{5x}{xy} - \\frac{2x}{xy} = \\frac{3}{y}\\).",
+      "subquestions": [
+        {
+          "question": "\\(\\frac{x}{x+1} + \\frac{1}{x+1}\\)",
+          "answer": "1"
+        },
+        {
+          "question": "\\(\\frac{3x+2}{x+2} - \\frac{x}{x+2}\\)",
+          "answer": "2"
+        },
+        {
+          "question": "\\(\\frac{5x}{xy} - \\frac{2x}{xy}\\)",
+          "answer": "\\(\\frac{3}{y}\\)"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Củng cố kĩ năng thu gọn đơn thức và đa thức",
+      "questiontext": "Cho biểu thức \\(A = \\frac{x-1}{x+1} - \\frac{2x+3}{x+1}\\). Tính giá trị của \\(A\\) tại \\(x = 0\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Thu gọn \\(A = \\frac{(x-1) - (2x+3)}{x+1} = \\frac{-x - 4}{x+1}\\). Tại \\(x = 0\\), \\(A = \\frac{-4}{1} = -4\\).",
+      "answers": [
+        {
+          "text": "-4",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Củng cố kĩ năng thu gọn đơn thức và đa thức",
+      "questiontext": "Tính kết quả của phép cộng hai đơn thức đồng dạng {a}\\(x^2y\\) và \\(3x^2y\\) với biến số {a} khi \\(x=1, y=1\\).",
+      "generalfeedback": "Tổng hai đơn thức là \\(({a} + 3)x^2y\\). Khi \\(x=1, y=1\\), giá trị biểu thức là \\({a} + 3\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}+3",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc bỏ dấu ngoặc trong tính toán đa thức",
+      "questiontext": "Để trừ hai phân thức có cùng mẫu thức, ta [[1]] các tử thức và [[2]] mẫu thức.",
+      "generalfeedback": "Quy tắc trừ hai phân thức cùng mẫu: Muốn trừ hai phân thức có cùng mẫu thức, ta trừ các tử thức và giữ nguyên mẫu thức.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "trừ"
+        },
+        {
+          "group": 1,
+          "text": "giữ nguyên"
+        },
+        {
+          "group": 1,
+          "text": "cộng"
+        },
+        {
+          "group": 1,
+          "text": "nhân"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_008",
+      "questiontext": "Kết quả của phép trừ phân thức \\(\\frac{3-2x}{x-1} - \\frac{2+5x}{x-1}\\) là:",
+      "generalfeedback": "Ta có: \\(\\frac{(3-2x) - (2+5x)}{x-1} = \\frac{3 - 2x - 2 - 5x}{x-1} = \\frac{1 - 7x}{x-1}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{1-7x}{x-1}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{5+3x}{x-1}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{1+3x}{x-1}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{5-7x}{x-1}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Tổng hợp kiến thức đơn thức và đa thức",
+      "questiontext": "Phân thức [[1]] của phân thức \\(\\frac{C}{D}\\) được kí hiệu là [[2]].",
+      "generalfeedback": "Phân thức đối của phân thức \\(\\frac{C}{D}\\) được kí hiệu là \\(-\\frac{C}{D}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "đối"
+        },
+        {
+          "group": 1,
+          "text": "\\(-\\frac{C}{D}\\)"
+        },
+        {
+          "group": 1,
+          "text": "nghịch đảo"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{D}{C}\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Rút gọn biểu thức chứa phép cộng trừ đa thức",
+      "questiontext": "Rút gọn biểu thức \\(P = \\frac{x^2 - 3x + 1}{2x^2} + \\frac{5x - 1 - x^2}{2x^2}\\) ta được:",
+      "generalfeedback": "Cộng hai phân thức cùng mẫu: \\(P = \\frac{(x^2 - 3x + 1) + (5x - 1 - x^2)}{2x^2} = \\frac{2x}{2x^2} = \\frac{1}{x}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{1}{x}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{2}{x}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{x}{2}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ Luyện tập chung về phép cộng, trừ phân thức đại số, An gặp bài toán phức tạp có nhiều dấu ngoặc: \\(P = \\frac{3}{2x+1} + \\left[ \\frac{5}{4x-1} - \\left( \\frac{5}{4x-1} + \\frac{3}{2x+1} \\right) \\right]\\). An thấy dài nên nản lòng và định bỏ qua. Để thể hiện ý thức vươn lên đạt kết quả tốt trong học tập, An nên chọn cách xử lý nào sau đây?",
+      "generalfeedback": "Ý thức vươn lên trong học tập thể hiện ở việc kiên trì, cẩn thận áp dụng quy tắc bỏ dấu ngoặc (từ ngoặc trong ra ngoặc ngoài) để rút gọn biểu thức thay vì nản lòng hay chép bài của người khác.",
+      "answers": [
+        {
+          "text": "Kiên nhẫn áp dụng quy tắc bỏ dấu ngoặc từ trong ra ngoài để biến đổi và rút gọn biểu thức.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài tập này và chỉ làm các câu hỏi trắc nghiệm ngắn.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép ngay kết quả của bạn bên cạnh để kịp nộp bài cho giáo viên.",
+          "fraction": 0
+        },
+        {
+          "text": "Đề nghị giáo viên thay đổi bài tập khác dễ hơn không chứa dấu ngoặc.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_06",
+      "questiontext": "Khi làm phép trừ hai phân thức \\(\\frac{3-2x}{x-1} - \\frac{2+5x}{x-1}\\), Bình tính ra kết quả \\(\\frac{1+3x}{x-1}\\). Bạn Mai góp ý: 'Khi trừ tử thức thứ hai, cậu chưa đổi dấu hạng tử \\(5x\\) thành \\(-5x\\)'. Bình nên tiếp thu và điều chỉnh bài làm như thế nào?",
+      "generalfeedback": "Năng lực nhận ra và điều chỉnh hạn chế thể hiện ở việc biết lắng nghe góp ý, kiểm tra lại quy tắc bỏ dấu ngoặc khi trừ tử thức \\((3-2x) - (2+5x) = 1-7x\\) và sửa lại bài làm.",
+      "answers": [
+        {
+          "text": "Lắng nghe góp ý, kiểm tra lại phép tính tử thức \\((3-2x) - (2+5x) = 1 - 7x\\) và sửa lại kết quả.",
+          "fraction": 100
+        },
+        {
+          "text": "Khẳng định bài làm của mình đã đúng và không cần kiểm tra lại.",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ dở bài tập và không tiếp tục thực hiện phép tính.",
+          "fraction": 0
+        },
+        {
+          "text": "Tỏ thái độ không hài lòng vì bị bạn soi lỗi sai trong bài làm.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_05",
+      "questiontext": "Trong tình huống mở đầu, Vuông khẳng định ngay biểu thức \\(P = \\frac{x}{x+1} - \\left[ \\left( \\frac{1}{x-1} + \\frac{x}{x+1} \\right) - \\frac{1}{x-1} \\right]\\) có kết quả bằng \\(0\\) mà không cần tính toán chi tiết. Lập luận toán học nào sau đây giải thích đúng khẳng định của Vuông?",
+      "generalfeedback": "Lập luận toán học hợp lý dựa trên quy tắc bỏ dấu ngoặc: \\(P = \\frac{x}{x+1} - \\frac{1}{x-1} - \\frac{x}{x+1} + \\frac{1}{x-1} = \\left(\\frac{x}{x+1} - \\frac{x}{x+1}\\right) + \\left(\\frac{1}{x-1} - \\frac{1}{x-1}\\right) = 0\\).",
+      "answers": [
+        {
+          "text": "Sau khi bỏ các dấu ngoặc, các hạng tử triệt tiêu lẫn nhau tạo thành các cặp phân thức đối có tổng bằng 0.",
+          "fraction": 100
+        },
+        {
+          "text": "Vì mọi phân thức đại số chứa dấu ngoặc vuông đều tự động có giá trị bằng 0.",
+          "fraction": 0
+        },
+        {
+          "text": "Vì phân thức \\(\\frac{x}{x+1}\\) luôn có giá trị bằng 0 với mọi biến \\(x\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Vì tử thức của tất cả các phân thức trong biểu thức đều bằng 0.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Chú Đức lái ô tô từ Hà Nội về quê. Đoạn đường trong thành phố dài \\(20\\) km, xe chạy với vận tốc \\(x\\) (km/h) (\\(x > 0\\)). Trên \\(50\\) km đường cao tốc, xe tăng vận tốc thêm \\(55\\) km/h. Mô hình toán học nào biểu thị tổng thời gian (theo giờ) chú Đức chạy xe trên hai đoạn đường đó?",
+      "generalfeedback": "Thời gian đi trong thành phố là \\(\\frac{20}{x}\\) (giờ). Vận tốc trên cao tốc là \\(x+55\\) (km/h), thời gian đi trên cao tốc là \\(\\frac{50}{x+55}\\) (giờ). Tổng thời gian là \\(\\frac{20}{x} + \\frac{50}{x+55}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{20}{x} + \\frac{50}{x+55}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{20}{x} + \\frac{50}{x}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{x}{20} + \\frac{x+55}{50}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{70}{x+55}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_05",
+      "questiontext": "Xét bài toán tàu du lịch chạy xuôi dòng và ngược dòng \\(15\\) km (vận tốc tàu khi nước yên lặng là \\(10\\) km/h, vận tốc dòng nước là \\(x\\) km/h với \\(0 < x < 10\\)). Hãy ghép mỗi đại lượng ở cột bên trái với phân thức biểu thị tương ứng ở cột bên phải.",
+      "generalfeedback": "Vận tốc xuôi dòng là \\(10+x\\) (km/h) nên thời gian xuôi dòng là \\(\\frac{15}{10+x}\\); vận tốc ngược dòng là \\(10-x\\) (km/h) nên thời gian ngược dòng là \\(\\frac{15}{10-x}\\); tổng thời gian chạy là \\(\\frac{15}{10+x} + \\frac{15}{10-x}\\).",
+      "subquestions": [
+        {
+          "question": "Thời gian tàu chạy xuôi dòng (giờ)",
+          "answer": "\\(\\frac{15}{10+x}\\)"
+        },
+        {
+          "question": "Thời gian tàu chạy ngược dòng (giờ)",
+          "answer": "\\(\\frac{15}{10-x}\\)"
+        },
+        {
+          "question": "Tổng thời gian tàu chạy cả hai chiều (giờ)",
+          "answer": "\\(\\frac{15}{10+x} + \\frac{15}{10-x}\\)"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Một tàu du lịch chạy xuôi dòng \\(15\\) km rồi ngược dòng \\(15\\) km trở về bến. Vận tốc tàu khi nước yên lặng là \\(10\\) km/h và vận tốc dòng nước là \\(2\\) km/h. Tổng thời gian tàu chạy cả chuyến là bao nhiêu giờ? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Vận tốc xuôi dòng: \\(10 + 2 = 12\\) km/h \\(\\Rightarrow\\) Thời gian xuôi: \\(\\frac{15}{12} = 1.25\\) giờ. Vận tốc ngược dòng: \\(10 - 2 = 8\\) km/h \\(\\Rightarrow\\) Thời gian ngược: \\(\\frac{15}{8} = 1.875\\) giờ. Tổng thời gian: \\(1.25 + 1.875 = 3.125\\) giờ.",
+      "answers": [
+        {
+          "text": "3.125",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_06",
+      "questiontext": "Khi được bạn góp ý rằng việc sử dụng tính chất giao hoán để nhóm các hạng tử đối nhau \\(\\left(\\frac{1}{x} - \\frac{1}{x}\\right)\\) trước sẽ giúp bài toán rút gọn nhanh hơn, học sinh vui vẻ tiếp thu và điều chỉnh cách giải. Khẳng định này thể hiện đúng năng lực nhận ra và điều chỉnh hạn chế của bản thân. Đúng hay Sai?",
+      "generalfeedback": "Đúng. Biết lắng nghe và điều chỉnh phương pháp giải toán theo góp ý tích cực của bạn bè thể hiện năng lực nhận ra và điều chỉnh hạn chế của bản thân.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi gặp một bài toán quy đồng mẫu thức nhiều phân thức đại số phức tạp, học sinh kiên trì phân tích mẫu thức thành nhân tử để tìm mẫu thức chung cẩn thận thay vì đoán mò đáp án. Hành vi này thể hiện ý thức vươn lên đạt kết quả tốt trong học tập. Đúng hay Sai?",
+      "generalfeedback": "Đúng. Sự kiên trì và cẩn thận thực hiện từng bước toán học để giải quyết bài toán khó là biểu hiện của ý thức vươn lên trong học tập.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

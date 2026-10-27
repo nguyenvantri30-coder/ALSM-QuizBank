@@ -1,0 +1,651 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 28,
+    "metadata_used": {
+      "Quy trình thao tác phím MTCT giải phương trình bậc hai một ẩn": 6,
+      "YCCD_TOAN9_031": 6,
+      "Thao tác phím MTCT tìm nghiệm (hoặc nghiệm gần đúng) của phương trình bậc hai": 4,
+      "Sử dụng MTCT kiểm tra lại kết quả giải tay": 4,
+      "SUB_CHAMCHI_HAMHOC_C2_03": 2,
+      "SUB_TCTH_TUHOC_C2_01": 2,
+      "NLT_TOAN_C2_05_07": 2,
+      "5.2TC2b_K9": 2
+    },
+    "types_used": {
+      "multichoice": 12,
+      "gapselect": 3,
+      "truefalse": 5,
+      "shortanswer": 2,
+      "matching": 2,
+      "ddwtos": 1,
+      "numerical": 3
+    },
+    "total": 28
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN9_031",
+        "reason": "Có đủ cơ sở dữ liệu và bài tập thực hành tính nghiệm PT bậc hai bằng MTCT trong SGK."
+      },
+      {
+        "metadata_code": "Quy trình thao tác phím MTCT giải phương trình bậc hai một ẩn",
+        "reason": "Nội dung SGK trình trình bày chi tiết quy trình bấm phím MTCT để giải PT bậc hai."
+      },
+      {
+        "metadata_code": "Thao tác phím MTCT tìm nghiệm (hoặc nghiệm gần đúng) của phương trình bậc hai",
+        "reason": "Có các bài tập luyện tập thao tác phím tìm nghiệm (hoặc nghiệm gần đúng)."
+      },
+      {
+        "metadata_code": "Sử dụng MTCT kiểm tra lại kết quả giải tay",
+        "reason": "Có thể thiết kế câu hỏi yêu cầu dùng MTCT đối chiếu, kiểm tra kết quả giải tay."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học 'Tìm nghiệm bằng máy tính cầm tay' thuộc chương trình Lớp 9 thuần túy thực hành thao tác trên máy tính cầm tay bỏ túi, không có cơ sở dữ liệu hay thuật toán để đo lường Năng lực Trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Quy trình thao tác phím MTCT giải phương trình bậc hai một ẩn",
+      "questiontext": "Để chuyển máy tính cầm tay về chế độ giải phương trình bậc hai một ẩn (như hướng dẫn trong SGK), sau khi mở máy ta bấm lần lượt các phím nào?",
+      "generalfeedback": "Theo SGK Toán 9, để chuyển về chế độ giải phương trình bậc hai một ẩn, bấm thứ tự các phím [MODE] [5] [3] (hoặc [60] [5] [3] tùy dòng máy).",
+      "answers": [
+        {
+          "text": "[MODE] [5] [3] (hoặc [60] [5] [3])",
+          "fraction": 100
+        },
+        {
+          "text": "[MODE] [5] [1]",
+          "fraction": 0
+        },
+        {
+          "text": "[MODE] [3] [5]",
+          "fraction": 0
+        },
+        {
+          "text": "[MODE] [1] [2]",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Quy trình thao tác phím MTCT giải phương trình bậc hai một ẩn",
+      "questiontext": "Khi nhập các hệ số \\(a, b, c\\) của phương trình bậc hai vào máy tính cầm tay, sau khi ấn giá trị của mỗi hệ số, ta bấm phím [[1]] để máy nhận giá trị. Sau khi nhận kết quả nghiệm, để chuyển hiển thị kết quả xấp xỉ ở dạng số thập phân, ta bấm phím [[2]].",
+      "generalfeedback": "Trong thao tác sử dụng MTCT, bấm phím [=] để nhập hệ số và phím [S<=>D] (hoặc phím chuyển đổi) để hiển thị dạng số thập phân.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "[=]"
+        },
+        {
+          "group": 1,
+          "text": "[S<=>D]"
+        },
+        {
+          "group": 1,
+          "text": "[MODE]"
+        },
+        {
+          "group": 1,
+          "text": "[AC]"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_031",
+      "questiontext": "Sử dụng máy tính cầm tay để giải phương trình \\(2x^2 - 5x - 4 = 0\\). Hai nghiệm của phương trình nhận được là:",
+      "generalfeedback": "Nhập các hệ số a = 2, b = -5, c = -4 vào MTCT, ta nhận được hai nghiệm \\(x_1 = \\frac{5 + \\sqrt{57}}{4}\\) và \\(x_2 = \\frac{5 - \\sqrt{57}}{4}\\).",
+      "answers": [
+        {
+          "text": "\\(x_1 = \\frac{5 + \\sqrt{57}}{4}\\) và \\(x_2 = \\frac{5 - \\sqrt{57}}{4}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x_1 = \\frac{-5 + \\sqrt{57}}{4}\\) và \\(x_2 = \\frac{-5 - \\sqrt{57}}{4}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x_1 = \\frac{5 + \\sqrt{33}}{4}\\) và \\(x_2 = \\frac{5 - \\sqrt{33}}{4}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x_1 = \\frac{5 + \\sqrt{57}}{2}\\) và \\(x_2 = \\frac{5 - \\sqrt{57}}{2}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_031",
+      "questiontext": "Khi sử dụng máy tính cầm tay giải phương trình bậc hai \\(9x^2 - 12x + 4 = 0\\), màn hình máy tính hiển thị duy nhất một giá trị \\(x = \\frac{2}{3}\\). Kết luận phương trình có nghiệm kép \\(x_1 = x_2 = \\frac{2}{3}\\) là đúng hay sai?",
+      "generalfeedback": "Đúng. Khi phương trình có nghiệm kép, màn hình MTCT chỉ hiện một giá trị x, đó chính là nghiệm kép của phương trình.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Thao tác phím MTCT tìm nghiệm (hoặc nghiệm gần đúng) của phương trình bậc hai",
+      "questiontext": "Khi sử dụng máy tính cầm tay để tìm nghiệm của phương trình \\(-3x^2 + 4x - 2 = 0\\), màn hình hiện ký hiệu có chứa đơn vị ảo \\(i\\) (hoặc thông báo vô nghiệm / No Real Roots tùy dòng máy). Kết luận nào sau đây là đúng?",
+      "generalfeedback": "Phương trình \\(-3x^2 + 4x - 2 = 0\\) có \\(\\Delta = 4^2 - 4(-3)(-2) = 16 - 24 = -8 < 0\\) nên phương trình vô nghiệm trên tập số thực.",
+      "answers": [
+        {
+          "text": "Phương trình không có nghiệm thực (vô nghiệm).",
+          "fraction": 100
+        },
+        {
+          "text": "Phương trình có hai nghiệm phân biệt.",
+          "fraction": 0
+        },
+        {
+          "text": "Phương trình có nghiệm kép \\(x = 2\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Người dùng đã nhập sai hệ số \\(a = -3\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Thao tác phím MTCT tìm nghiệm (hoặc nghiệm gần đúng) của phương trình bậc hai",
+      "questiontext": "Sử dụng máy tính cầm tay giải phương trình \\(4x^2 - 11x + 1 = 0\\). Bấm phím chuyển đổi để tìm nghiệm gần đúng (làm tròn đến hàng phần trăm). Nhập nghiệm lớn hơn trong hai nghiệm.",
+      "generalfeedback": "Bấm MTCT giải \\(4x^2 - 11x + 1 = 0\\) thu được \\(x_1 = \\frac{11 + \\sqrt{105}}{8} \\approx 2.66\\).",
+      "answers": [
+        {
+          "text": "2.66",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Sử dụng MTCT kiểm tra lại kết quả giải tay",
+      "questiontext": "Một học sinh giải tay 3 phương trình bậc hai và thu được các kết quả dưới đây. Hãy dùng máy tính cầm tay kiểm tra lại xem kết quả giải tay đó là Đúng hay Sai.",
+      "generalfeedback": "Dùng MTCT bấm lại từng phương trình để đối chiếu nghiệm giải tay.",
+      "subquestions": [
+        {
+          "question": "Phương trình \\(x^2 - 4x + 4 = 0\\) có nghiệm kép \\(x = 2\\)",
+          "answer": "Kết quả giải tay Đúng"
+        },
+        {
+          "question": "Phương trình \\(x^2 - 5x + 6 = 0\\) có hai nghiệm \\(x_1 = -2, x_2 = -3\\)",
+          "answer": "Kết quả giải tay Sai"
+        },
+        {
+          "question": "Phương trình \\(x^2 + x + 1 = 0\\) có hai nghiệm phân biệt",
+          "answer": "Kết quả giải tay Sai"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Quy trình thao tác phím MTCT giải phương trình bậc hai một ẩn",
+      "questiontext": "Sắp xếp đúng thứ tự nhập các hệ số để giải phương trình \\(5x^2 + 2\\sqrt{10}x + 2 = 0\\) trên máy tính cầm tay: Nhập hệ số \\(a\\) là [[1]], nhập hệ số \\(b\\) là [[2]], nhập hệ số \\(c\\) là [[3]].",
+      "generalfeedback": "Hệ số \\(a = 5\\), hệ số \\(b = 2\\sqrt{10}\\), hệ số \\(c = 2\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "5"
+        },
+        {
+          "group": 1,
+          "text": "2\\sqrt{10}"
+        },
+        {
+          "group": 1,
+          "text": "2"
+        },
+        {
+          "group": 1,
+          "text": "-2"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_031",
+      "questiontext": "Sử dụng máy tính cầm tay để giải phương trình \\(0.1x^2 + 2.5x - 0.2 = 0\\). Tính nghiệm dương của phương trình (làm tròn kết quả đến hàng phần mười). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Giải phương trình bằng MTCT: \\(0.1x^2 + 2.5x - 0.2 = 0 \\Rightarrow x_1 \\approx 0.08\\), \\(x_2 \\approx -25.08\\). Nghiệm dương làm tròn đến hàng phần mười là 0.1.",
+      "answers": [
+        {
+          "text": "0.1",
+          "fraction": 100,
+          "tolerance": 0.05
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Quy trình thao tác phím MTCT giải phương trình bậc hai một ẩn",
+      "imgs": [
+        "_page_6_Figure_0.jpeg"
+      ],
+      "questiontext": "Quan sát hình ảnh minh họa thao tác bấm phím máy tính cầm tay dưới đây: [img:_page_6_Figure_0.jpeg]\nKhi nhập phương trình \\(2x^2 - 5x - 4 = 0\\), trình tự bấm phím nào sau đây là đúng để nhập lần lượt các hệ số \\(a, b, c\\)?",
+      "generalfeedback": "Nhập lần lượt hệ số \\(a=2\\), \\(b=-5\\), \\(c=-4\\) bằng cách bấm các phím: 2 = -5 = -4 =.",
+      "answers": [
+        {
+          "text": "2 = -5 = -4 =",
+          "fraction": 100
+        },
+        {
+          "text": "2 = 5 = 4 =",
+          "fraction": 0
+        },
+        {
+          "text": "-4 = -5 = 2 =",
+          "fraction": 0
+        },
+        {
+          "text": "2 = -5 = 4 =",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_031",
+      "questiontext": "Sử dụng máy tính cầm tay giải phương trình \\(3x^2 - 5x + 7 = 0\\). Màn hình máy tính hiển thị thông báo hoặc ký hiệu dạng nào sau đây?",
+      "generalfeedback": "Khi bấm MTCT giải phương trình \\(3x^2 - 5x + 7 = 0\\), do \\(\\Delta = (-5)^2 - 4 \\cdot 3 \\cdot 7 = 25 - 84 = -59 < 0\\) nên phương trình không có nghiệm thực. Màn hình hiện ký hiệu nghiệm phức có chữ i hoặc báo vô nghiệm.",
+      "answers": [
+        {
+          "text": "Màn hình xuất hiện ký hiệu nghiệm có chứa đơn vị ảo \\(i\\) (hoặc No Real Roots / Vô nghiệm)",
+          "fraction": 100
+        },
+        {
+          "text": "Màn hình hiện hai nghiệm số thực phân biệt",
+          "fraction": 0
+        },
+        {
+          "text": "Màn hình hiện một nghiệm duy nhất \\(x = 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Màn hình báo lỗi Syntax ERROR",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Thao tác phím MTCT tìm nghiệm (hoặc nghiệm gần đúng) của phương trình bậc hai",
+      "questiontext": "Dùng máy tính cầm tay để giải phương trình \\(5x^2 + 2\\sqrt{10}x + 2 = 0\\). Nhập giá trị nghiệm của phương trình (viết ở dạng số thập phân gần đúng làm tròn đến hàng phần mười).",
+      "generalfeedback": "Phương trình \\(5x^2 + 2\\sqrt{10}x + 2 = 0\\) có nghiệm kép \\(x = -\\frac{\\sqrt{10}}{5} \\approx -0.632\\). Làm tròn đến hàng phần mười là -0.6.",
+      "answers": [
+        {
+          "text": "-0.6",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_031",
+      "questiontext": "Dùng máy tính cầm tay giải phương trình \\(0.01x^2 - 0.05x + 0.0625 = 0\\). Giá trị nghiệm kép của phương trình là bao nhiêu? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Bấm MTCT giải phương trình \\(0.01x^2 - 0.05x + 0.0625 = 0\\) ta thu được nghiệm kép \\(x = 2.5\\).",
+      "answers": [
+        {
+          "text": "2.5",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Sử dụng MTCT kiểm tra lại kết quả giải tay",
+      "questiontext": "Bạn An giải tay phương trình \\(1.2x^2 + 0.75x + 2.5 = 0\\) và kết luận phương trình có 2 nghiệm phân biệt. Hãy sử dụng máy tính cầm tay kiểm tra và cho biết kết luận của An là đúng hay sai?",
+      "generalfeedback": "Nhập các hệ số \\(a = 1.2, b = 0.75, c = 2.5\\) vào MTCT, ta thấy phương trình vô nghiệm (do \\(\\Delta = 0.75^2 - 4 \\cdot 1.2 \\cdot 2.5 < 0\\)). Do đó kết luận của An là Sai.",
+      "answers": [
+        {
+          "text": "Sai, vì máy tính cầm tay cho kết quả phương trình vô nghiệm.",
+          "fraction": 100
+        },
+        {
+          "text": "Đúng, phương trình có 2 nghiệm phân biệt.",
+          "fraction": 0
+        },
+        {
+          "text": "Sai, vì phương trình có nghiệm kép.",
+          "fraction": 0
+        },
+        {
+          "text": "Đúng, nhưng hai nghiệm đó trùng nhau.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Quy trình thao tác phím MTCT giải phương trình bậc hai một ẩn",
+      "questiontext": "Để thực hiện thao tác kiểm tra lại kết quả giải tay bằng máy tính cầm tay, bước thứ nhất ta chuyển máy tính về chế độ [[1]]. Bước thứ hai ta lần lượt nhập các hệ số [[2]] của phương trình bậc hai.",
+      "generalfeedback": "Đầu tiên chuyển về chế độ giải phương trình bậc hai, sau đó nhập lần lượt các hệ số a, b, c.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "giải phương trình bậc hai"
+        },
+        {
+          "group": 1,
+          "text": "a, b, c"
+        },
+        {
+          "group": 1,
+          "text": "tính toán cơ bản"
+        },
+        {
+          "group": 1,
+          "text": "x, y, z"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Sử dụng MTCT kiểm tra lại kết quả giải tay",
+      "questiontext": "Phương trình \\(x^2 - 2\\sqrt{5}x + 2 = 0\\) có nghiệm \\(x_1 = \\sqrt{5} + \\sqrt{3}\\) và \\(x_2 = \\sqrt{5} - \\sqrt{3}\\). Khi kiểm tra bằng máy tính cầm tay, kết quả này trùng khớp hoàn toàn với nghiệm hiển thị trên màn hình máy tính. Phát biểu này Đúng hay Sai?",
+      "generalfeedback": "Đúng. Bấm MTCT giải phương trình \\(x^2 - 2\\sqrt{5}x + 2 = 0\\) thu được hai nghiệm \\(x_1 = \\sqrt{5} + \\sqrt{3}\\) và \\(x_2 = \\sqrt{5} - \\sqrt{3}\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_031",
+      "questiontext": "Nối mỗi phương trình bậc hai ở cột bên trái với số lượng nghiệm tương ứng tìm được khi bấm máy tính cầm tay ở cột bên phải:",
+      "generalfeedback": "Dùng MTCT bấm máy để kiểm tra số nghiệm của từng phương trình.",
+      "subquestions": [
+        {
+          "question": "Phương trình \\(4x^2 + 28x + 49 = 0\\)",
+          "answer": "Có 1 nghiệm kép"
+        },
+        {
+          "question": "Phương trình \\(3x^2 - 3\\sqrt{2}x + 1 = 0\\)",
+          "answer": "Có 2 nghiệm phân biệt"
+        },
+        {
+          "question": "Phương trình \\(x^2 + 2x + 5 = 0\\)",
+          "answer": "Vô nghiệm (không có nghiệm thực)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Thao tác phím MTCT tìm nghiệm (hoặc nghiệm gần đúng) của phương trình bậc hai",
+      "questiontext": "Khi nhập hệ số \\(b = -3\\sqrt{2}\\) của phương trình \\(3x^2 - 3\\sqrt{2}x + 1 = 0\\) vào máy tính cầm tay, cách bấm phím nào sau đây là đúng?",
+      "generalfeedback": "Để nhập \\(-3\\sqrt{2}\\), ta bấm phím dấu âm [(-)], số 3, phím căn [\\(\\sqrt{\\ \\ }\\)], số 2, sau đó bấm phím [=].",
+      "answers": [
+        {
+          "text": "Bấm [(-)] [3] [\\(\\sqrt{\\ \\ }\\)] [2] [=]",
+          "fraction": 100
+        },
+        {
+          "text": "Bấm [-] [3] [2] [\\(\\sqrt{\\ \\ }\\)] [=]",
+          "fraction": 0
+        },
+        {
+          "text": "Bấm [3] [\\(\\sqrt{\\ \\ }\\)] [2] [(-)] [=]",
+          "fraction": 0
+        },
+        {
+          "text": "Bấm [\\(\\sqrt{\\ \\ }\\)] [(-)] [3] [2] [=]",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Quy trình thao tác phím MTCT giải phương trình bậc hai một ẩn",
+      "questiontext": "Nếu bấm nhầm hệ số \\(b\\) của phương trình bậc hai trên máy tính cầm tay, ta có thể dùng các phím mũi tên di chuyển đến vị trí hệ số \\(b\\) để nhập lại giá trị đúng mà không cần phải khởi động lại máy. Đúng hay Sai?",
+      "generalfeedback": "Đúng. Máy tính cầm tay cho phép dùng các phím con trỏ để sửa lại hệ số đã nhập sai.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Sử dụng MTCT kiểm tra lại kết quả giải tay",
+      "questiontext": "Khi giải phương trình \\(0.1x^2 + 2.5x - 0.2 = 0\\) bằng máy tính cầm tay, ta nhận được hai nghiệm số thập phân xấp xỉ. Việc sử dụng máy tính cầm tay trong trường hợp này mang lại lợi ích chính nào?",
+      "generalfeedback": "Với các hệ số là số thập phân, máy tính cầm tay giúp tính toán nhanh chóng, chính xác và dễ dàng kiểm tra đối chiếu kết quả.",
+      "answers": [
+        {
+          "text": "Giúp tìm nghiệm nhanh chóng, chính xác và tránh sai sót khi tính toán với hệ số thập phân",
+          "fraction": 100
+        },
+        {
+          "text": "Thay thế hoàn toàn việc học lý thuyết công thức nghiệm",
+          "fraction": 0
+        },
+        {
+          "text": "Tự động biến đổi phương trình về dạng phương trình tích",
+          "fraction": 0
+        },
+        {
+          "text": "Tự động phân tích các hệ số thành nhân tử chung",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_03",
+      "questiontext": "Khi học xong bài 'Tìm nghiệm bằng máy tính cầm tay', bạn Nam nhận thấy các bài toán thực tế như tính kích thước mảnh vườn hay đường đi bể bơi đều dẫn đến phương trình bậc hai có số liệu thập phân. Nam thể hiện ý thức vận dụng kiến thức, kỹ năng học được vào học tập và đời sống như thế nào là phù hợp nhất?",
+      "generalfeedback": "Ý thức vận dụng thể hiện ở việc chủ động sử dụng máy tính cầm tay như một công cụ hỗ trợ tính toán nhanh chóng, chính xác để giải quyết các bài tập và bài toán thực tế.",
+      "answers": [
+        {
+          "text": "Chủ động sử dụng máy tính cầm tay để hỗ trợ tính toán nhanh chóng, chính xác nghiệm của các phương trình bậc hai trong bài tập và tình huống thực tế",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua các bài toán thực tế có số liệu thập phân và chỉ giải các phương trình có số nguyên đẹp",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ sử dụng máy tính cầm tay trong giờ kiểm tra, còn bài tập về nhà thì chép đáp án của bạn",
+          "fraction": 0
+        },
+        {
+          "text": "Tra cứu sẵn đáp án từ các nguồn không rõ tin cậy trên mạng mà không tự mình bấm máy tính kiểm tra",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_03",
+      "questiontext": "Bạn Lan có ý thức chủ động vận dụng máy tính cầm tay để tự kiểm tra lại kết quả nghiệm của các phương trình bậc hai đã giải bằng công thức nghiệm trong sách bài tập. Việc làm của Lan thể hiện thái độ học tập tích cực và ý thức vận dụng công cụ học tập vào việc kiểm chứng tri thức. Phát biểu này Đúng hay Sai?",
+      "generalfeedback": "Đúng. Hành vi chủ động dùng MTCT đối chiếu kết quả giải tay thể hiện thái độ học tập nghiêm túc, tích cực và tự giác.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Để đạt mục tiêu 'Thành thạo sử dụng máy tính cầm tay để giải phương trình bậc hai một ẩn' trong tuần học này, bạn Minh nên tự đặt kế hoạch học tập như thế nào là hợp lý nhất?",
+      "generalfeedback": "Đặt mục tiêu học tập rõ ràng đi kèm các bước hành động cụ thể (tìm hiểu quy trình, luyện tập bài tập SGK và kiểm tra lại) giúp học sinh nỗ lực hoàn thành mục tiêu.",
+      "answers": [
+        {
+          "text": "Xác định mục tiêu cụ thể, tìm hiểu quy trình bấm phím cho từng dạng phương trình, thực hành qua bài tập SGK và tự kiểm tra lại",
+          "fraction": 100
+        },
+        {
+          "text": "Không cần đặt mục tiêu cụ thể, đợi đến khi có bài kiểm tra mới mở máy tính ra bấm thử",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ học thuộc lòng thứ tự phím bấm mà không thực hành giải bài tập",
+          "fraction": 0
+        },
+        {
+          "text": "Đặt mục tiêu bấm máy thật nhanh mà không cần hiểu ý nghĩa của các nghiệm hiển thị trên màn hình",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Để đạt mục tiêu tự học bài 'Tìm nghiệm bằng máy tính cầm tay', học sinh cần thực hiện kế hoạch: Bước 1 là [[1]] quy trình thao tác phím trên máy tính; Bước 2 là [[2]] giải các phương trình trong SGK và đối chiếu kết quả.",
+      "generalfeedback": "Kế hoạch tự học hiệu quả gồm tìm hiểu kiến thức/quy trình và tích cực luyện tập thực hành.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "tìm hiểu"
+        },
+        {
+          "group": 1,
+          "text": "luyện tập"
+        },
+        {
+          "group": 1,
+          "text": "bỏ qua"
+        },
+        {
+          "group": 1,
+          "text": "sao chép"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_05_07",
+      "questiontext": "Trong bài toán thực tế: Độ cao \\(h\\) (mét) của một vật phóng thẳng đứng được cho bởi công thức \\(h = 19.6t - 4.9t^2\\) với \\(t\\) là thời gian (giây). Để tìm thời điểm vật rơi trở lại mặt đất (\\(h = 0\\)), học sinh cần giải phương trình \\(-4.9t^2 + 19.6t = 0\\). Sử dụng máy tính cầm tay hỗ trợ giải phương trình này, thời điểm vật rơi trở lại mặt đất là:",
+      "generalfeedback": "Bấm MTCT giải phương trình \\(-4.9t^2 + 19.6t = 0\\) thu được hai nghiệm \\(t_1 = 0\\) và \\(t_2 = 4\\). Vật rơi trở lại mặt đất sau 4 giây.",
+      "answers": [
+        {
+          "text": "\\(t = 4\\) giây",
+          "fraction": 100
+        },
+        {
+          "text": "\\(t = 2\\) giây",
+          "fraction": 0
+        },
+        {
+          "text": "\\(t = 19.6\\) giây",
+          "fraction": 0
+        },
+        {
+          "text": "\\(t = 4.9\\) giây",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_05_07",
+      "questiontext": "Sử dụng máy tính cầm tay hỗ trợ giải bài toán thực tế: Một mảnh vườn hình chữ nhật có diện tích \\(280\\text{ m}^2\\) và chiều rộng nhỏ hơn chiều dài \\(6\\text{ m}\\). Gọi chiều rộng là \\(x\\text{ (m)}\\) (\\(x > 0\\)), ta có phương trình \\(x(x + 6) = 280 \\Leftrightarrow x^2 + 6x - 280 = 0\\). Dùng MTCT bấm tìm nghiệm, hãy tính chiều rộng \\(x\\) của mảnh vườn. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Bấm MTCT giải phương trình \\(x^2 + 6x - 280 = 0\\) thu được \\(x_1 = 14\\) và \\(x_2 = -20\\). Do \\(x > 0\\) nên chiều rộng mảnh vườn là 14.",
+      "answers": [
+        {
+          "text": "14",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "5.2TC2b_K9",
+      "questiontext": "Khi giải bài tập toán có nhiều phương trình bậc hai chứa hệ số là các số thập phân (như \\(0.01x^2 - 0.05x + 0.0625 = 0\\)), học sinh nhận thấy tính nhẩm hay giải tay bằng công thức nghiệm dễ bị nhầm lẫn. Giải pháp công cụ số thích hợp nhất mà học sinh có thể tự lựa chọn để giải quyết nhu cầu tính toán nhanh và chính xác này là gì?",
+      "generalfeedback": "Máy tính cầm tay (chức năng giải phương trình bậc hai) là công cụ số chuyên dụng giúp xử lý nhanh chóng và chính xác nhu cầu giải phương trình bậc hai.",
+      "answers": [
+        {
+          "text": "Sử dụng chế độ giải phương trình bậc hai trên máy tính cầm tay",
+          "fraction": 100
+        },
+        {
+          "text": "Sử dụng phần mềm soạn thảo văn bản để gõ lại phương trình",
+          "fraction": 0
+        },
+        {
+          "text": "Sử dụng phần mềm vẽ hình học để vẽ đồ thị phương trình",
+          "fraction": 0
+        },
+        {
+          "text": "Sử dụng phần mềm trình chiếu để tạo hiệu ứng cho các hệ số",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "5.2TC2b_K9",
+      "questiontext": "Khi cần đối chiếu và xác minh nghiệm của một phương trình bậc hai thu được từ việc giải tay, học sinh lựa chọn giải pháp công nghệ là sử dụng chức năng giải phương trình trên máy tính cầm tay. Đây là sự lựa chọn công cụ số phù hợp với nhu cầu giải quyết vấn đề học tập. Phát biểu này Đúng hay Sai?",
+      "generalfeedback": "Đúng. Sử dụng MTCT để đối chiếu kết quả là việc lựa chọn giải pháp công nghệ phù hợp với nhu cầu thực tế.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

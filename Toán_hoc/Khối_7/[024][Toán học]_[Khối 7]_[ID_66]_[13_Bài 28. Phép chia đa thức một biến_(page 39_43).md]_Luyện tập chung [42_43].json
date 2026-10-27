@@ -1,0 +1,848 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 34,
+    "metadata_used": {
+      "YCCD_TOAN7_024": 3,
+      "Quy tắc làm tròn số thực": 3,
+      "YCCD_TOAN7_037": 2,
+      "Các phép tính trong tập số thực": 2,
+      "Thực hiện tính toán trên tập số thực": 4,
+      "YCCD_TOAN7_025": 2,
+      "YCCD_TOAN7_036": 2,
+      "Sử dụng máy tính cầm tay tính toán và làm tròn": 2,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_TUCHUTUHOC": 1,
+      "NLC_GIAIQUYETVD": 1,
+      "NLT_TOAN_C2_01": 1,
+      "NLT_TOAN_C2_03": 1
+    },
+    "types_used": {
+      "multichoice": 9,
+      "truefalse": 3,
+      "numerical": 3,
+      "shortanswer": 3,
+      "matching": 3,
+      "gapselect": 3,
+      "ddwtos": 3,
+      "calculated": 1,
+      "calculatedsimple": 3,
+      "calculatedmulti": 3
+    },
+    "total": 34
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_024",
+        "reason": "Đo lường nhận biết khái niệm căn bậc hai số học của một số không âm"
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_025",
+        "reason": "Đo lường kỹ năng tính căn bậc hai số học của một số nguyên dương"
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_036",
+        "reason": "Đo lường khả năng thực hiện ước lượng căn cứ vào độ chính xác cho trước"
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_037",
+        "reason": "Đo lường khả năng làm tròn số căn cứ vào độ chính xác cho trước"
+      },
+      {
+        "metadata_code": "Các phép tính trong tập số thực",
+        "reason": "Đo lường kiến thức về các phép tính trong tập số thực"
+      },
+      {
+        "metadata_code": "Quy tắc làm tròn số thực",
+        "reason": "Đo lường kiến thức về quy tắc làm tròn số thực"
+      },
+      {
+        "metadata_code": "Thực hiện tính toán trên tập số thực",
+        "reason": "Đo lường kỹ năng thực hiện tính toán trên tập số thực"
+      },
+      {
+        "metadata_code": "Sử dụng máy tính cầm tay tính toán và làm tròn",
+        "reason": "Đo lường kỹ năng sử dụng máy tính cầm tay tính toán và làm tròn"
+      },
+      {
+        "metadata_code": "PC_CHAMCHI",
+        "reason": "Đo lường phẩm chất chăm chỉ trong học tập"
+      },
+      {
+        "metadata_code": "PC_TRUNGTHUC",
+        "reason": "Đo lường phẩm chất trung thực trong học tập"
+      },
+      {
+        "metadata_code": "NLC_TUCHUTUHOC",
+        "reason": "Đo lường năng lực tự chủ và tự học"
+      },
+      {
+        "metadata_code": "NLC_GIAIQUYETVD",
+        "reason": "Đo lường năng lực giải quyết vấn đề và sáng tạo"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01",
+        "reason": "Đo lường năng lực tư duy và lập luận toán học"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03",
+        "reason": "Đo lường năng lực giải quyết vấn đề toán học"
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_024",
+      "questiontext": "Căn bậc hai số học của số không âm \\(a\\) là số \\(x\\) không âm sao cho:",
+      "generalfeedback": "Theo định nghĩa, căn bậc hai số học của số không âm \\(a\\) là số \\(x \\ge 0\\) sao cho \\(x^2 = a\\).",
+      "answers": [
+        {
+          "text": "\\(x^2 = a\\) và \\(x \\ge 0\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x = a^2\\) và \\(x \\ge 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x^2 = -a\\) và \\(x < 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2x = a\\) và \\(x \\ge 0\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc làm tròn số thực",
+      "questiontext": "Khi làm tròn một số thập phân đến hàng phần mười, nếu chữ số ngay sau hàng làm tròn (chữ số hàng phần trăm) lớn hơn hoặc bằng 5 thì ta cộng thêm 1 vào chữ số hàng phần mười và bỏ đi các chữ số phía sau. Phát biểu này đúng hay sai?",
+      "generalfeedback": "Theo quy tắc làm tròn số thực, nếu chữ số đầu tiên bỏ đi lớn hơn hoặc bằng 5 thì ta cộng 1 vào chữ số của hàng làm tròn.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_037",
+      "questiontext": "Làm tròn số \\(\\sqrt{5} \\approx 2,2360679...\\) đến hàng phần trăm. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Chữ số ở hàng phần trăm là 3, chữ số ngay sau nó là 6 \\(\\ge 5\\), nên ta cộng 1 vào chữ số 3 thành 4. Kết quả làm tròn là 2.24.",
+      "answers": [
+        {
+          "text": "2.24",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_024",
+      "questiontext": "Số không âm \\(x\\) thỏa mãn \\(x^2 = 81\\) được gọi là căn bậc hai số học của số nào?",
+      "generalfeedback": "Số không âm \\(x\\) sao cho \\(x^2 = 81\\) là căn bậc hai số học của 81.",
+      "answers": [
+        {
+          "text": "81",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Các phép tính trong tập số thực",
+      "questiontext": "Ghép mỗi biểu thức ở cột bên trái với giá trị đúng ở cột bên phải:",
+      "generalfeedback": "\\(\\sqrt{16} = 4\\); \\(\\sqrt{0,09} = 0,3\\); \\(\\sqrt{\\frac{49}{25}} = \\frac{7}{5} = 1,4\\).",
+      "subquestions": [
+        {
+          "question": "\\(\\sqrt{16}\\)",
+          "answer": "4"
+        },
+        {
+          "question": "\\(\\sqrt{0,09}\\)",
+          "answer": "0,3"
+        },
+        {
+          "question": "\\(\\sqrt{\\frac{49}{25}}\\)",
+          "answer": "1,4"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện tính toán trên tập số thực",
+      "questiontext": "Giá trị của biểu thức \\(A = \\sqrt{36} + \\sqrt{64}\\) bằng [[1]], còn giá trị của biểu thức \\(B = \\sqrt{36 + 64}\\) bằng [[2]].",
+      "generalfeedback": "\\(A = 6 + 8 = 14\\). \\(B = \\sqrt{100} = 10\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "14"
+        },
+        {
+          "group": 1,
+          "text": "10"
+        },
+        {
+          "group": 1,
+          "text": "100"
+        },
+        {
+          "group": 1,
+          "text": "48"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Quy tắc làm tròn số thực",
+      "questiontext": "Để làm tròn một số đến độ chính xác \\(d = 0,005\\), ta làm tròn số đó đến hàng [[1]]. Để làm tròn đến độ chính xác \\(d = 50\\), ta làm tròn số đó đến hàng [[2]].",
+      "generalfeedback": "Độ chính xác \\(d = 0,005\\) tương ứng làm tròn đến hàng phần trăm. Độ chính xác \\(d = 50\\) tương ứng làm tròn đến hàng trăm.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "phần trăm"
+        },
+        {
+          "group": 1,
+          "text": "trăm"
+        },
+        {
+          "group": 1,
+          "text": "phần mười"
+        },
+        {
+          "group": 1,
+          "text": "chục"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện tính toán trên tập số thực",
+      "questiontext": "Tính độ dài cạnh của một mảnh đất hình vuông có diện tích là {a} m^2 (với {a} là số chính phương). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Độ dài cạnh hình vuông có diện tích \\(S\\) m^2 là \\(\\sqrt{S}\\). Với diện tích {a} m^2, cạnh hình vuông là \\(\\sqrt{{a}}\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 16.0,
+          "max": 100.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "sqrt({a})",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_025",
+      "questiontext": "Dùng máy tính cầm tay tính giá trị căn bậc hai số học của số nguyên dương {x} rồi làm tròn đến hàng đơn vị. (Chỉ điền số)",
+      "generalfeedback": "Giá trị \\(\\sqrt{{x}}\\) làm tròn đến hàng đơn vị bằng round(sqrt({x})).",
+      "wildcards": [
+        {
+          "name": "x",
+          "min": 10.0,
+          "max": 99.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "round(sqrt({x}))",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_036",
+      "questiontext": "Hãy chọn biểu thức đúng để ước lượng tổng chu vi của hai hình vuông lần lượt có diện tích là {a} m^2 và {b} m^2.",
+      "generalfeedback": "Chu vi hình vuông thứ nhất là 4*sqrt({a}), chu vi hình vuông thứ hai là 4*sqrt({b}). Tổng chu vi hai hình vuông là 4*sqrt({a}) + 4*sqrt({b}).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 4.0,
+          "max": 25.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 4.0,
+          "max": 25.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "4*sqrt({a})+4*sqrt({b})",
+          "fraction": 100
+        },
+        {
+          "text": "sqrt({a})+sqrt({b})",
+          "fraction": 0
+        },
+        {
+          "text": "4*{a}+4*{b}",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_024",
+      "questiontext": "Số nào sau đây KHÔNG có căn bậc hai số học?",
+      "generalfeedback": "Vì căn bậc hai số học chỉ xác định đối với số không âm, nên số âm \\(-9\\) không có căn bậc hai số học.",
+      "answers": [
+        {
+          "text": "-9",
+          "fraction": 100
+        },
+        {
+          "text": "0",
+          "fraction": 0
+        },
+        {
+          "text": "9",
+          "fraction": 0
+        },
+        {
+          "text": "81",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Các phép tính trong tập số thực",
+      "questiontext": "Với mọi số thực không âm \\(a\\) và \\(b\\), ta luôn có \\(\\sqrt{a \\cdot b} = \\sqrt{a} \\cdot \\sqrt{b}\\). Phát biểu này đúng hay sai?",
+      "generalfeedback": "Đây là tính chất căn bậc hai số học của một tích các số không âm.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_025",
+      "questiontext": "Sử dụng máy tính cầm tay, hãy tính \\(\\sqrt{15}\\) và làm tròn kết quả đến hàng phần mười. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "\\(\\sqrt{15} \\approx 3,87298...\\) Làm tròn đến hàng phần mười được 3.9.",
+      "answers": [
+        {
+          "text": "3.9",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Sử dụng máy tính cầm tay tính toán và làm tròn",
+      "questiontext": "Dùng máy tính cầm tay để tính giá trị biểu thức \\(\\sqrt{121} + \\sqrt{169}\\). Kết quả thu được là bao nhiêu?",
+      "generalfeedback": "\\(\\sqrt{121} = 11\\), \\(\\sqrt{169} = 13\\). Tổng là 11 + 13 = 24.",
+      "answers": [
+        {
+          "text": "24",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc làm tròn số thực",
+      "questiontext": "Ghép các số thập phân sau với kết quả làm tròn đến hàng phần mười tương ứng:",
+      "generalfeedback": "3,14 làm tròn thành 3,1 (vì 4 < 5). 3,15 và 3,18 làm tròn thành 3,2 (vì 5 >= 5 và 8 >= 5).",
+      "subquestions": [
+        {
+          "question": "3,14",
+          "answer": "3,1"
+        },
+        {
+          "question": "3,15",
+          "answer": "3,2"
+        },
+        {
+          "question": "3,18",
+          "answer": "3,2"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_036",
+      "questiontext": "Khi ước lượng bán kính \\(r\\) của một hình tròn có diện tích \\(S = 50\\text{ cm}^2\\) theo công thức \\(r = \\sqrt{\\frac{S}{\\pi}}\\), lấy \\(\\pi \\approx 3,14\\), ta được \\(\\frac{S}{\\pi} \\approx 15,92\\). Giá trị \\(\\sqrt{15,92}\\) nằm giữa hai số nguyên liên tiếp là [[1]] và [[2]].",
+      "generalfeedback": "Vì \\(3^2 = 9 < 15,92 < 16 = 4^2\\) nên \\(\\sqrt{15,92}\\) nằm giữa 3 và 4.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "3"
+        },
+        {
+          "group": 1,
+          "text": "4"
+        },
+        {
+          "group": 1,
+          "text": "15"
+        },
+        {
+          "group": 1,
+          "text": "16"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện tính toán trên tập số thực",
+      "questiontext": "Thực hiện phép tính trên tập số thực: Biểu thức \\(P = 2\\sqrt{25} - 3\\sqrt{9}\\) có giá trị bằng [[1]], biểu thức \\(Q = \\sqrt{(-5)^2}\\) có giá trị bằng [[2]].",
+      "generalfeedback": "\\(P = 2 \\cdot 5 - 3 \\cdot 3 = 10 - 9 = 1\\). \\(Q = \\sqrt{25} = 5\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "1"
+        },
+        {
+          "group": 1,
+          "text": "5"
+        },
+        {
+          "group": 1,
+          "text": "-5"
+        },
+        {
+          "group": 1,
+          "text": "19"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_037",
+      "questiontext": "Cho số thực \\(x =\\) {a} + 0.357. Làm tròn số thực \\(x\\) đến hàng phần mười.",
+      "generalfeedback": "\\({a} + 0.357\\) khi làm tròn đến hàng phần mười thì 0.357 thành 0.4, do đó kết quả là \\({a} + 0.4\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 20.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}+0.4",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "Sử dụng máy tính cầm tay tính toán và làm tròn",
+      "questiontext": "Cho hình vuông có độ dài cạnh là căn bậc hai số học của {a}. Hãy chọn biểu thức tính chu vi của hình vuông đó.",
+      "generalfeedback": "Chu vi hình vuông bằng 4 lần độ dài cạnh, tức là \\(4 \\sqrt{{a}}\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 50.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "4*sqrt({a})",
+          "fraction": 100
+        },
+        {
+          "text": "2*sqrt({a})",
+          "fraction": 0
+        },
+        {
+          "text": "pow(sqrt({a}), 2)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_024",
+      "questiontext": "Số nào sau đây KHÔNG có căn bậc hai số học?",
+      "generalfeedback": "Vì căn bậc hai số học chỉ xác định đối với số không âm, nên số âm \\(-9\\) không có căn bậc hai số học.",
+      "answers": [
+        {
+          "text": "-9",
+          "fraction": 100
+        },
+        {
+          "text": "0",
+          "fraction": 0
+        },
+        {
+          "text": "9",
+          "fraction": 0
+        },
+        {
+          "text": "81",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Các phép tính trong tập số thực",
+      "questiontext": "Với mọi số thực không âm \\(a\\) và \\(b\\), ta luôn có \\(\\sqrt{a \\cdot b} = \\sqrt{a} \\cdot \\sqrt{b}\\). Phát biểu này đúng hay sai?",
+      "generalfeedback": "Đây là tính chất căn bậc hai số học của một tích các số không âm.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_025",
+      "questiontext": "Sử dụng máy tính cầm tay, hãy tính \\(\\sqrt{15}\\) và làm tròn kết quả đến hàng phần mười. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "\\(\\sqrt{15} \\approx 3,87298...\\) Làm tròn đến hàng phần mười được 3.9.",
+      "answers": [
+        {
+          "text": "3.9",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Sử dụng máy tính cầm tay tính toán và làm tròn",
+      "questiontext": "Dùng máy tính cầm tay để tính giá trị biểu thức \\(\\sqrt{121} + \\sqrt{169}\\). Kết quả thu được là bao nhiêu?",
+      "generalfeedback": "\\(\\sqrt{121} = 11\\), \\(\\sqrt{169} = 13\\). Tổng là 11 + 13 = 24.",
+      "answers": [
+        {
+          "text": "24",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc làm tròn số thực",
+      "questiontext": "Ghép các số thập phân sau với kết quả làm tròn đến hàng phần mười tương ứng:",
+      "generalfeedback": "3,14 làm tròn thành 3,1 (vì 4 < 5). 3,15 và 3,18 làm tròn thành 3,2 (vì 5 >= 5 và 8 >= 5).",
+      "subquestions": [
+        {
+          "question": "3,14",
+          "answer": "3,1"
+        },
+        {
+          "question": "3,15",
+          "answer": "3,2"
+        },
+        {
+          "question": "3,18",
+          "answer": "3,2"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_036",
+      "questiontext": "Khi ước lượng bán kính \\(r\\) của một hình tròn có diện tích \\(S = 50\\text{ cm}^2\\) theo công thức \\(r = \\sqrt{\\frac{S}{\\pi}}\\), lấy \\(\\pi \\approx 3,14\\), ta được \\(\\frac{S}{\\pi} \\approx 15,92\\). Giá trị \\(\\sqrt{15,92}\\) nằm giữa hai số nguyên liên tiếp là [[1]] và [[2]].",
+      "generalfeedback": "Vì \\(3^2 = 9 < 15,92 < 16 = 4^2\\) nên \\(\\sqrt{15,92}\\) nằm giữa 3 và 4.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "3"
+        },
+        {
+          "group": 1,
+          "text": "4"
+        },
+        {
+          "group": 1,
+          "text": "15"
+        },
+        {
+          "group": 1,
+          "text": "16"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện tính toán trên tập số thực",
+      "questiontext": "Thực hiện phép tính trên tập số thực: Biểu thức \\(P = 2\\sqrt{25} - 3\\sqrt{9}\\) có giá trị bằng [[1]], biểu thức \\(Q = \\sqrt{(-5)^2}\\) có giá trị bằng [[2]].",
+      "generalfeedback": "\\(P = 2 \\cdot 5 - 3 \\cdot 3 = 10 - 9 = 1\\). \\(Q = \\sqrt{25} = 5\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "1"
+        },
+        {
+          "group": 1,
+          "text": "5"
+        },
+        {
+          "group": 1,
+          "text": "-5"
+        },
+        {
+          "group": 1,
+          "text": "19"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_037",
+      "questiontext": "Cho số thực \\(x =\\) {a} + 0.357. Làm tròn số thực \\(x\\) đến hàng phần mười.",
+      "generalfeedback": "\\({a} + 0.357\\) khi làm tròn đến hàng phần mười thì 0.357 thành 0.4, do đó kết quả là \\({a} + 0.4\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 20.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}+0.4",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "Sử dụng máy tính cầm tay tính toán và làm tròn",
+      "questiontext": "Cho hình vuông có độ dài cạnh là căn bậc hai số học của {a}. Hãy chọn biểu thức tính chu vi của hình vuông đó.",
+      "generalfeedback": "Chu vi hình vuông bằng 4 lần độ dài cạnh, tức là \\(4 \\sqrt{{a}}\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 50.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "4*sqrt({a})",
+          "fraction": 100
+        },
+        {
+          "text": "2*sqrt({a})",
+          "fraction": 0
+        },
+        {
+          "text": "pow(sqrt({a}), 2)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Trong giờ học luyện tập tính toán với số thực và căn bậc hai, khi gặp bài toán tính \\(\\sqrt{137}\\) và làm tròn đến hàng phần trăm có nhiều bước phức tạp, bạn Nam đã kiên trì tự mình tính toán, sử dụng máy tính cầm tay kiểm tra lại từng bước thay vì bỏ dở hoặc chép kết quả của bạn bên cạnh. Hành vi của Nam thể hiện phẩm chất nào?",
+      "generalfeedback": "Sự kiên trì, tự mình thực hiện và kiểm tra bài tập phức tạp đến cùng thể hiện phẩm chất chăm chỉ trong học tập.",
+      "answers": [
+        {
+          "text": "Chăm chỉ",
+          "fraction": 100
+        },
+        {
+          "text": "Trung thực",
+          "fraction": 0
+        },
+        {
+          "text": "Trách nhiệm",
+          "fraction": 0
+        },
+        {
+          "text": "Yêu nước",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Khi làm bài tập tính giá trị \\(\\sqrt{18}\\) và làm tròn đến hàng phần trăm bằng máy tính cầm tay, kết quả hiện trên màn hình là \\(4,242640...\\) Một học sinh do vội vàng đã ghi vào bài làm là \\(4,24\\) nhưng khi giáo viên hỏi cách làm thì học sinh này thừa nhận mình tự đoán kết quả chứ chưa bấm máy tính. Để thể hiện phẩm chất trung thực, học sinh này nên làm gì?",
+      "generalfeedback": "Thể hiện phẩm chất trung thực bằng cách nhận lỗi, học cách sử dụng máy tính cầm tay đúng quy trình và tự thực hiện lại bài tập.",
+      "answers": [
+        {
+          "text": "Nhận lỗi với giáo viên, thực hành bấm máy tính cầm tay và làm tròn số theo đúng quy tắc",
+          "fraction": 100
+        },
+        {
+          "text": "Khẳng định kết quả của mình là đúng nên không cần thực hành lại",
+          "fraction": 0
+        },
+        {
+          "text": "Mượn bài của bạn khác chép lại để không bị trừ điểm",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua bài tập đó và không cần làm lại",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Để tự học hiệu quả chủ đề làm tròn số thực và tính căn bậc hai số học, bạn An lập bảng theo dõi các bước làm bài: (1) Xác định hàng làm tròn; (2) Quan sát chữ số ngay sau hàng làm tròn; (3) Áp dụng quy tắc làm tròn; (4) Dùng máy tính kiểm tra lại. Việc tự lập và thực hiện theo bảng theo dõi này thể hiện năng lực nào?",
+      "generalfeedback": "Tự lập kế hoạch, quy trình học tập và kiểm tra kết quả bài học thể hiện năng lực tự chủ và tự học.",
+      "answers": [
+        {
+          "text": "Năng lực tự chủ và tự học",
+          "fraction": 100
+        },
+        {
+          "text": "Năng lực giao tiếp và hợp tác",
+          "fraction": 0
+        },
+        {
+          "text": "Năng lực thẩm mỹ",
+          "fraction": 0
+        },
+        {
+          "text": "Năng lực thể chất",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLC_GIAIQUYETVD",
+      "questiontext": "Để tính nhẩm ước lượng độ dài cạnh của một mảnh đất hình vuông có diện tích \\(110\\text{ m}^2\\) mà không có máy tính cầm tay, bạn Bình đã tìm hai số chính phương gần nhất là \\(100\\) và \\(121\\) để suy ra cạnh nằm trong khoảng \\(10\\text{ m}\\) đến \\(11\\text{ m}\\). Cách giải quyết của Bình thể hiện năng lực nào?",
+      "generalfeedback": "Phát hiện mối liên hệ giữa diện tích hình vuông và căn bậc hai số học, linh hoạt kẹp giữa hai số chính phương để ước lượng khi thiếu công cụ hỗ trợ thể hiện năng lực giải quyết vấn đề và sáng tạo.",
+      "answers": [
+        {
+          "text": "Năng lực giải quyết vấn đề và sáng tạo",
+          "fraction": 100
+        },
+        {
+          "text": "Năng lực ngôn ngữ",
+          "fraction": 0
+        },
+        {
+          "text": "Năng lực tin học",
+          "fraction": 0
+        },
+        {
+          "text": "Năng lực tìm hiểu tự nhiên",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Khi so sánh hai số thực \\(a = \\sqrt{15}\\) và \\(b = 4\\), bạn Mai lập luận: \"Vì \\(15 < 16\\) nên \\(\\sqrt{15} < \\sqrt{16}\\), mà \\(\\sqrt{16} = 4\\), do đó \\(\\sqrt{15} < 4\\)\". Lập luận của Mai dựa trên cơ sở toán học nào?",
+      "generalfeedback": "Lập luận dựa trên tính chất so sánh hai căn bậc hai số học: với hai số không âm \\(x < y\\) thì \\(\\sqrt{x} < \\sqrt{y}\\). Điều này thể hiện năng lực tư duy và lập luận toán học.",
+      "answers": [
+        {
+          "text": "Với hai số không âm \\(x, y\\), nếu \\(x < y\\) thì \\(\\sqrt{x} < \\sqrt{y}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Với hai số thực bất kỳ, số nào có nhiều chữ số hơn thì lớn hơn",
+          "fraction": 0
+        },
+        {
+          "text": "Quy tắc làm tròn số thực đến hàng đơn vị",
+          "fraction": 0
+        },
+        {
+          "text": "Phép nhân hai số thực âm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "questiontext": "Một công ty cần làm rào chắn xung quanh một khu đất hình vuông diện tích \\(200\\text{ m}^2\\). Mỗi mét rào chắn có giá \\(150.000\\) đồng. Để tính tổng chi phí rào chắn (làm tròn đến hàng nghìn đồng), quy trình giải quyết bài toán này gồm các bước theo thứ tự nào?",
+      "generalfeedback": "Giải quyết bài toán thực tế bằng quy trình toán học: Tính cạnh hình vuông \\(x = \\sqrt{200}\\) m -> Tính chu vi \\(C = 4x\\) m -> Tính tổng chi phí -> Làm tròn kết quả đến hàng nghìn đồng.",
+      "answers": [
+        {
+          "text": "Tính độ dài cạnh hình vuông \\(\\sqrt{200}\\) m \\(\\rightarrow\\) Tính chu vi \\(4 \\times \\sqrt{200}\\) m \\(\\rightarrow\\) Tính tổng chi phí \\(\\rightarrow\\) Làm tròn đến hàng nghìn",
+          "fraction": 100
+        },
+        {
+          "text": "Tính chu vi bằng \\(200 \\times 4\\) m \\(\\rightarrow\\) Nhân với đơn giá \\(\\rightarrow\\) Làm tròn đến hàng nghìn",
+          "fraction": 0
+        },
+        {
+          "text": "Làm tròn diện tích \\(200\\) \\(\\rightarrow\\) Nhân với đơn giá \\(\\rightarrow\\) Chia cho 4",
+          "fraction": 0
+        },
+        {
+          "text": "Tính độ dài cạnh bằng \\(200 : 2\\) m \\(\\rightarrow\\) Nhân với đơn giá \\(\\rightarrow\\) Làm tròn",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

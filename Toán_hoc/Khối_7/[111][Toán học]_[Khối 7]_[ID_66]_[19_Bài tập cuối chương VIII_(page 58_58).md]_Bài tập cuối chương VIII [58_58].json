@@ -1,0 +1,812 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 34,
+    "metadata_used": {
+      "YCCD_TOAN7_133": 4,
+      "YCCD_TOAN7_134": 3,
+      "YCCD_TOAN7_135": 9,
+      "Ứng dụng xác suất trong thực tiễn": 2,
+      "Giải bài toán tổng hợp về xác suất biến cố Chương VIII": 2,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_TUCHUTUHOC": 1,
+      "NLC_GIAIQUYETVD": 1,
+      "NLT_TOAN_C2_01": 1,
+      "NLT_TOAN_C2_03": 1
+    },
+    "types_used": {
+      "multichoice": 16,
+      "gapselect": 2,
+      "numerical": 7,
+      "shortanswer": 3,
+      "truefalse": 4,
+      "matching": 2
+    },
+    "total": 34
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_133",
+        "reason": "Đo lường nhận biết các loại biến cố (chắc chắn, không thể, ngẫu nhiên) qua các bài tập SGK."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_134",
+        "reason": "Đo lường khả năng so sánh, nhận biết khả năng xảy ra của biến cố trong các ví dụ đơn giản."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_135",
+        "reason": "Đo lường việc tính toán và nhận biết giá trị xác suất của biến cố ngẫu nhiên."
+      },
+      {
+        "metadata_code": "Ứng dụng xác suất trong thực tiễn",
+        "reason": "Đo lường việc ứng dụng khái niệm xác suất vào các bài toán thực tiễn đơn giản."
+      },
+      {
+        "metadata_code": "Giải bài toán tổng hợp về xác suất biến cố Chương VIII",
+        "reason": "Đo lường kỹ năng giải bài tập tổng hợp về biến cố và xác suất."
+      },
+      {
+        "metadata_code": "PC_CHAMCHI",
+        "reason": "Đo lường phẩm chất chăm chỉ qua việc chủ động học tập, giải quyết bài toán khó."
+      },
+      {
+        "metadata_code": "PC_TRUNGTHUC",
+        "reason": "Đo lường phẩm chất trung thực qua việc báo cáo chính xác dữ liệu thực nghiệm."
+      },
+      {
+        "metadata_code": "NLC_TUCHUTUHOC",
+        "reason": "Đo lường năng lực tự chủ và tự học qua lập kế hoạch tự ôn tập."
+      },
+      {
+        "metadata_code": "NLC_GIAIQUYETVD",
+        "reason": "Đo lường năng lực giải quyết vấn đề và sáng tạo qua thiết kế trò chơi quay số."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01",
+        "reason": "Đo lường năng lực tư duy và lập luận toán học qua so sánh số kết quả thuận lợi."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03",
+        "reason": "Đo lường năng lực giải quyết vấn đề toán học qua các bước lập luận giải bài tập."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học thuộc phần Bài tập cuối chương VIII môn Toán 7 thuần túy về biến cố và xác suất, không chứa nội dung thực hành công cụ số hay công nghệ tin học."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Bài học không liên quan trực tiếp đến ứng dụng hay nguyên lý trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_133",
+      "questiontext": "Một túi đựng 7 quả cầu có cùng kích thước, được ghi số 5; 10; 15; 20; 30; 35; 40. Lấy ngẫu nhiên một quả cầu trong túi. Xét biến cố A: \"Lấy được quả cầu ghi số là số chính phương\". Biến cố A là loại biến cố nào?",
+      "generalfeedback": "Trong các số 5; 10; 15; 20; 30; 35; 40 không có số nào là số chính phương. Do đó, biến cố A không thể xảy ra, đây là biến cố không thể.",
+      "answers": [
+        {
+          "text": "Biến cố không thể",
+          "fraction": 100
+        },
+        {
+          "text": "Biến cố chắc chắn",
+          "fraction": 0
+        },
+        {
+          "text": "Biến cố ngẫu nhiên",
+          "fraction": 0
+        },
+        {
+          "text": "Biến cố đồng khả năng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_133",
+      "questiontext": "Một túi đựng các quả cầu cùng kích thước ghi số 5; 10; 15; 20; 30; 35; 40. Lấy ngẫu nhiên một quả cầu trong túi.\n- Biến cố \"Lấy được quả cầu ghi số chia hết cho 3\" là biến cố [[1]].\n- Biến cố \"Lấy được quả cầu ghi số chia hết cho 5\" là biến cố [[1]].",
+      "generalfeedback": "Có các số 15, 30 chia hết cho 3 nên biến cố lấy được số chia hết cho 3 là biến cố ngẫu nhiên. Tất cả 7 số đều chia hết cho 5 nên biến cố lấy được số chia hết cho 5 là biến cố chắc chắn.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "ngẫu nhiên"
+        },
+        {
+          "group": 1,
+          "text": "chắc chắn"
+        },
+        {
+          "group": 1,
+          "text": "không thể"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_134",
+      "questiontext": "Một thùng kín đựng 5 quả bóng màu đỏ, 10 quả bóng màu xanh, 20 quả bóng màu vàng có cùng kích thước. Ngọc lấy ngẫu nhiên một quả bóng trong thùng. Khả năng Ngọc lấy được quả bóng màu gì là lớn nhất?",
+      "generalfeedback": "Số bóng màu vàng là 20 quả, lớn hơn số bóng màu xanh (10 quả) và bóng màu đỏ (5 quả). Do đó khả năng lấy được quả bóng màu vàng là lớn nhất.",
+      "answers": [
+        {
+          "text": "Màu vàng",
+          "fraction": 100
+        },
+        {
+          "text": "Màu xanh",
+          "fraction": 0
+        },
+        {
+          "text": "Màu đỏ",
+          "fraction": 0
+        },
+        {
+          "text": "Cả ba màu có khả năng bằng nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_135",
+      "questiontext": "Một chiếc hộp đựng 7 tấm thẻ như nhau được ghi số 2; 3; 4; 5; 6; 7; 8. Rút ngẫu nhiên một tấm thẻ trong hộp. Tìm xác suất để rút được tấm thẻ ghi số nhỏ hơn 10.\n(Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Tất cả 7 tấm thẻ đều ghi số nhỏ hơn 10, đây là biến cố chắc chắn nên xác suất bằng 1.",
+      "answers": [
+        {
+          "text": "1",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_135",
+      "questiontext": "Một chiếc hộp đựng 7 tấm thẻ như nhau được ghi số 2; 3; 4; 5; 6; 7; 8. Rút ngẫu nhiên một tấm thẻ trong hộp. Tính xác suất để rút được tấm thẻ ghi số 1.",
+      "generalfeedback": "Trong hộp không có tấm thẻ nào ghi số 1, đây là biến cố không thể nên xác suất bằng 0.",
+      "answers": [
+        {
+          "text": "0",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_135",
+      "questiontext": "Một chiếc hộp đựng 7 tấm thẻ như nhau được ghi số 2; 3; 4; 5; 6; 7; 8. Rút ngẫu nhiên một tấm thẻ trong hộp. Tính xác suất để rút được tấm thẻ ghi số 8.",
+      "generalfeedback": "Có 1 tấm thẻ ghi số 8 trong tổng số 7 tấm thẻ đồng khả năng, do đó xác suất rút được tấm thẻ ghi số 8 là 1/7.",
+      "answers": [
+        {
+          "text": "1/7",
+          "fraction": 100
+        },
+        {
+          "text": "2/7",
+          "fraction": 0
+        },
+        {
+          "text": "1/8",
+          "fraction": 0
+        },
+        {
+          "text": "0",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_135",
+      "imgs": [
+        "_page_0_Picture_15.jpeg"
+      ],
+      "questiontext": "Một tấm bìa cứng hình tròn được chia làm 8 phần bằng nhau ghi các số 1; 2; 3; 4; 5; 6; 7; 8 như [img:_page_0_Picture_15.jpeg]. Bạn Việt quay tấm bìa. Tìm xác suất để mũi tên chỉ vào hình quạt ghi số lẻ.\n(Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Có 4 hình quạt ghi số lẻ (1, 3, 5, 7) trong tổng số 8 hình quạt đồng khả năng. Xác suất là 4/8 = 0.5.",
+      "answers": [
+        {
+          "text": "0.5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_135",
+      "imgs": [
+        "_page_0_Picture_15.jpeg"
+      ],
+      "questiontext": "Một tấm bìa cứng hình tròn được chia làm 8 phần bằng nhau ghi các số 1; 2; 3; 4; 5; 6; 7; 8 như [img:_page_0_Picture_15.jpeg]. Bạn Việt quay tấm bìa. Tính xác suất để mũi tên chỉ vào hình quạt ghi số 6.\n(Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Có 1 hình quạt ghi số 6 trong tổng số 8 hình quạt đồng khả năng. Xác suất là 1/8 = 0.125.",
+      "answers": [
+        {
+          "text": "0.125",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Ứng dụng xác suất trong thực tiễn",
+      "imgs": [
+        "_page_0_Picture_15.jpeg"
+      ],
+      "questiontext": "Trò chơi quay số sử dụng tấm bìa hình tròn chia 8 phần như [img:_page_0_Picture_15.jpeg]: dừng ở quạt 1 hoặc 2 nhận 100 điểm (biến cố A); 3 hoặc 4 nhận 200 điểm (biến cố B); 5 hoặc 6 nhận 300 điểm (biến cố C); 7 hoặc 8 nhận 400 điểm (biến cố D). Khẳng định \"Các biến cố A, B, C, D có đồng khả năng không? Khẳng định các biến cố này đồng khả năng là ĐÚNG hay SAI?\"",
+      "generalfeedback": "Mỗi biến cố A, B, C, D đều gồm 2 hình quạt tròn bằng nhau trong tổng số 8 hình quạt, nên xác suất của mỗi biến cố đều bằng 2/8 = 1/4. Do đó các biến cố A, B, C, D đồng khả năng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán tổng hợp về xác suất biến cố Chương VIII",
+      "questiontext": "Trong trò chơi quay số với tấm bìa hình tròn chia 8 phần ghi số 1 đến 8, xét các biến cố điểm thưởng: A (100 điểm), B (200 điểm), C (300 điểm), D (400 điểm). Ghép mỗi biến cố với xác suất tương ứng:",
+      "generalfeedback": "Xác suất xảy ra của mỗi biến cố A, B, C, D đều bằng 2/8 = 1/4.",
+      "subquestions": [
+        {
+          "question": "Biến cố A: Việt nhận được 100 điểm",
+          "answer": "1/4"
+        },
+        {
+          "question": "Biến cố B: Việt nhận được 200 điểm",
+          "answer": "1/4"
+        },
+        {
+          "question": "Biến cố C: Việt nhận được 300 điểm",
+          "answer": "1/4"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_133",
+      "questiontext": "Một túi đựng 7 quả cầu có cùng kích thước, được ghi số 5; 10; 15; 20; 30; 35; 40. Lấy ngẫu nhiên một quả cầu trong túi. Xét biến cố B: \"Lấy được quả cầu ghi số chia hết cho 5\". Biến cố B là loại biến cố nào?",
+      "generalfeedback": "Tất cả 7 quả cầu đều ghi số chia hết cho 5. Do đó biến cố B luôn luôn xảy ra, đây là biến cố chắc chắn.",
+      "answers": [
+        {
+          "text": "Biến cố chắc chắn",
+          "fraction": 100
+        },
+        {
+          "text": "Biến cố không thể",
+          "fraction": 0
+        },
+        {
+          "text": "Biến cố ngẫu nhiên",
+          "fraction": 0
+        },
+        {
+          "text": "Biến cố đồng khả năng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_134",
+      "questiontext": "Một thùng kín đựng 5 quả bóng màu đỏ, 10 quả bóng màu xanh, 20 quả bóng màu vàng có cùng kích thước. Ngọc lấy ngẫu nhiên một quả bóng trong thùng. Khả năng Ngọc lấy được quả bóng màu gì là thấp nhất?",
+      "generalfeedback": "Số bóng màu đỏ là 5 quả, nhỏ hơn số bóng màu xanh (10 quả) và bóng màu vàng (20 quả). Do đó khả năng lấy được quả bóng màu đỏ là thấp nhất.",
+      "answers": [
+        {
+          "text": "Màu đỏ",
+          "fraction": 100
+        },
+        {
+          "text": "Màu xanh",
+          "fraction": 0
+        },
+        {
+          "text": "Màu vàng",
+          "fraction": 0
+        },
+        {
+          "text": "Cả ba màu có khả năng bằng nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_133",
+      "questiontext": "Một chiếc hộp đựng 7 tấm thẻ như nhau được ghi số 2; 3; 4; 5; 6; 7; 8. Rút ngẫu nhiên một tấm thẻ trong hộp. Phát biểu: \"Biến cố 'Rút được tấm thẻ ghi số chẵn' là biến cố chắc chắn\" là ĐÚNG hay SAI?",
+      "generalfeedback": "Trong hộp ngoài các thẻ số chẵn (2, 4, 6, 8) còn có các thẻ số lẻ (3, 5, 7). Vì vậy rút được thẻ số chẵn là biến cố ngẫu nhiên, không phải biến cố chắc chắn. Phát biểu trên là SAI.",
+      "answers": [
+        {
+          "text": "Sai",
+          "fraction": 100
+        },
+        {
+          "text": "Đúng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_135",
+      "questiontext": "Một túi đựng 7 quả cầu có cùng kích thước, được ghi số 5; 10; 15; 20; 30; 35; 40. Lấy ngẫu nhiên một quả cầu trong túi. Tính xác suất của biến cố B: \"Lấy được quả cầu ghi số chia hết cho 5\".\n(Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Do tất cả 7 quả cầu đều ghi số chia hết cho 5 nên đây là biến cố chắc chắn, xác suất bằng 1.",
+      "answers": [
+        {
+          "text": "1",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_135",
+      "questiontext": "Một túi đựng 7 quả cầu có cùng kích thước, được ghi số 5; 10; 15; 20; 30; 35; 40. Lấy ngẫu nhiên một quả cầu trong túi. Tính xác suất của biến cố C: \"Lấy được quả cầu ghi số là số chính phương\".",
+      "generalfeedback": "Trong túi không có số nào là số chính phương nên đây là biến cố không thể, xác suất bằng 0.",
+      "answers": [
+        {
+          "text": "0",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_134",
+      "questiontext": "Một thùng kín đựng 5 quả bóng màu đỏ, 10 quả bóng màu xanh, 20 quả bóng màu vàng có cùng kích thước. Ngọc lấy ngẫu nhiên một quả bóng trong thùng. Hãy chọn thứ tự sắp xếp các màu bóng theo KHẢ NĂNG LẤY ĐƯỢC TỪ THẤP ĐẾN CAO:",
+      "generalfeedback": "Số bóng màu đỏ (5 quả) < màu xanh (10 quả) < màu vàng (20 quả), nên khả năng lấy được từ thấp đến cao là: Màu đỏ -> Màu xanh -> Màu vàng.",
+      "answers": [
+        {
+          "text": "Màu đỏ -> Màu xanh -> Màu vàng",
+          "fraction": 100
+        },
+        {
+          "text": "Màu vàng -> Màu xanh -> Màu đỏ",
+          "fraction": 0
+        },
+        {
+          "text": "Màu xanh -> Màu đỏ -> Màu vàng",
+          "fraction": 0
+        },
+        {
+          "text": "Màu đỏ -> Màu vàng -> Màu xanh",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Ứng dụng xác suất trong thực tiễn",
+      "imgs": [
+        "_page_0_Picture_15.jpeg"
+      ],
+      "questiontext": "Bạn Việt quay tấm bìa hình tròn gồm 8 phần bằng nhau ghi số từ 1 đến 8 như [img:_page_0_Picture_15.jpeg]. Dừng ở quạt 1 hoặc 2 nhận 100 điểm; 3 hoặc 4 nhận 200 điểm; 5 hoặc 6 nhận 300 điểm; 7 hoặc 8 nhận 400 điểm. Tính xác suất để Việt nhận được 100 điểm.\n(Chỉ điền số dưới dạng số thập phân, ví dụ 0.25)",
+      "generalfeedback": "Có 2 quạt (1 và 2) tương ứng với 100 điểm trong tổng số 8 quạt tròn đồng khả năng. Xác suất là 2/8 = 0.25.",
+      "answers": [
+        {
+          "text": "0.25",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán tổng hợp về xác suất biến cố Chương VIII",
+      "questiontext": "Một chiếc hộp đựng 7 tấm thẻ như nhau được ghi số 2; 3; 4; 5; 6; 7; 8. Rút ngẫu nhiên một tấm thẻ trong hộp. Xét biến cố A: \"Rút được tấm thẻ ghi số chẵn\" và biến cố B: \"Rút được tấm thẻ ghi số lẻ\". So sánh khả năng xảy ra của biến cố A và biến cố B.",
+      "generalfeedback": "Có 4 tấm thẻ ghi số chẵn (2, 4, 6, 8) và 3 tấm thẻ ghi số lẻ (3, 5, 7). Vì 4 > 3 nên khả năng xảy ra của biến cố A lớn hơn biến cố B.",
+      "answers": [
+        {
+          "text": "Khả năng xảy ra của biến cố A lớn hơn biến cố B",
+          "fraction": 100
+        },
+        {
+          "text": "Khả năng xảy ra của biến cố A nhỏ hơn biến cố B",
+          "fraction": 0
+        },
+        {
+          "text": "Khả năng xảy ra của hai biến cố A và B bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Không thể so sánh khả năng xảy ra của biến cố A và B",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_135",
+      "questiontext": "Một chiếc hộp đựng 7 tấm thẻ như nhau được ghi số 2; 3; 4; 5; 6; 7; 8. Rút ngẫu nhiên một tấm thẻ trong hộp. Tính xác suất của biến cố \"Rút được tấm thẻ ghi số 5\".",
+      "generalfeedback": "Tất cả 7 số đều lớn hơn 1 nên xác suất bằng 1. Có 1 tấm thẻ ghi số 5 trong 7 tấm thẻ nên xác suất bằng 1/7.",
+      "answers": [
+        {
+          "text": "1/7",
+          "fraction": 100
+        },
+        {
+          "text": "2/7",
+          "fraction": 0
+        },
+        {
+          "text": "1/8",
+          "fraction": 0
+        },
+        {
+          "text": "0",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_133",
+      "questiontext": "Một túi đựng 7 quả cầu có cùng kích thước, được ghi số 5; 10; 15; 20; 30; 35; 40. Lấy ngẫu nhiên một quả cầu trong túi. Xét biến cố B: \"Lấy được quả cầu ghi số chia hết cho 5\". Biến cố B là loại biến cố nào?",
+      "generalfeedback": "Tất cả 7 quả cầu đều ghi số chia hết cho 5. Do đó biến cố B luôn luôn xảy ra, đây là biến cố chắc chắn.",
+      "answers": [
+        {
+          "text": "Biến cố chắc chắn",
+          "fraction": 100
+        },
+        {
+          "text": "Biến cố không thể",
+          "fraction": 0
+        },
+        {
+          "text": "Biến cố ngẫu nhiên",
+          "fraction": 0
+        },
+        {
+          "text": "Biến cố đồng khả năng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_134",
+      "questiontext": "Một thùng kín đựng 5 quả bóng màu đỏ, 10 quả bóng màu xanh, 20 quả bóng màu vàng có cùng kích thước. Ngọc lấy ngẫu nhiên một quả bóng trong thùng. Khả năng Ngọc lấy được quả bóng màu gì là thấp nhất?",
+      "generalfeedback": "Số bóng màu đỏ là 5 quả, nhỏ hơn số bóng màu xanh (10 quả) và bóng màu vàng (20 quả). Do đó khả năng lấy được quả bóng màu đỏ là thấp nhất.",
+      "answers": [
+        {
+          "text": "Màu đỏ",
+          "fraction": 100
+        },
+        {
+          "text": "Màu xanh",
+          "fraction": 0
+        },
+        {
+          "text": "Màu vàng",
+          "fraction": 0
+        },
+        {
+          "text": "Cả ba màu có khả năng bằng nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_133",
+      "questiontext": "Một chiếc hộp đựng 7 tấm thẻ như nhau được ghi số 2; 3; 4; 5; 6; 7; 8. Rút ngẫu nhiên một tấm thẻ trong hộp. Phát biểu: \"Biến cố 'Rút được tấm thẻ ghi số chẵn' là biến cố chắc chắn\" là ĐÚNG hay SAI?",
+      "generalfeedback": "Trong hộp ngoài các thẻ số chẵn (2, 4, 6, 8) còn có các thẻ số lẻ (3, 5, 7). Vì vậy rút được thẻ số chẵn là biến cố ngẫu nhiên, không phải biến cố chắc chắn. Phát biểu trên là SAI.",
+      "answers": [
+        {
+          "text": "Sai",
+          "fraction": 100
+        },
+        {
+          "text": "Đúng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_135",
+      "questiontext": "Một túi đựng 7 quả cầu có cùng kích thước, được ghi số 5; 10; 15; 20; 30; 35; 40. Lấy ngẫu nhiên một quả cầu trong túi. Tính xác suất của biến cố B: \"Lấy được quả cầu ghi số chia hết cho 5\".\n(Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Do tất cả 7 quả cầu đều ghi số chia hết cho 5 nên đây là biến cố chắc chắn, xác suất bằng 1.",
+      "answers": [
+        {
+          "text": "1",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_135",
+      "questiontext": "Một túi đựng 7 quả cầu có cùng kích thước, được ghi số 5; 10; 15; 20; 30; 35; 40. Lấy ngẫu nhiên một quả cầu trong túi. Tính xác suất của biến cố C: \"Lấy được quả cầu ghi số là số chính phương\".",
+      "generalfeedback": "Trong túi không có số nào là số chính phương nên đây là biến cố không thể, xác suất bằng 0.",
+      "answers": [
+        {
+          "text": "0",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_134",
+      "questiontext": "Một thùng kín đựng 5 quả bóng màu đỏ, 10 quả bóng màu xanh, 20 quả bóng màu vàng có cùng kích thước. Ngọc lấy ngẫu nhiên một quả bóng trong thùng. Hãy chọn thứ tự sắp xếp các màu bóng theo KHẢ NĂNG LẤY ĐƯỢC TỪ THẤP ĐẾN CAO:",
+      "generalfeedback": "Số bóng màu đỏ (5 quả) < màu xanh (10 quả) < màu vàng (20 quả), nên khả năng lấy được từ thấp đến cao là: Màu đỏ -> Màu xanh -> Màu vàng.",
+      "answers": [
+        {
+          "text": "Màu đỏ -> Màu xanh -> Màu vàng",
+          "fraction": 100
+        },
+        {
+          "text": "Màu vàng -> Màu xanh -> Màu đỏ",
+          "fraction": 0
+        },
+        {
+          "text": "Màu xanh -> Màu đỏ -> Màu vàng",
+          "fraction": 0
+        },
+        {
+          "text": "Màu đỏ -> Màu vàng -> Màu xanh",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Ứng dụng xác suất trong thực tiễn",
+      "imgs": [
+        "_page_0_Picture_15.jpeg"
+      ],
+      "questiontext": "Bạn Việt quay tấm bìa hình tròn gồm 8 phần bằng nhau ghi số từ 1 đến 8 như [img:_page_0_Picture_15.jpeg]. Dừng ở quạt 1 hoặc 2 nhận 100 điểm; 3 hoặc 4 nhận 200 điểm; 5 hoặc 6 nhận 300 điểm; 7 hoặc 8 nhận 400 điểm. Tính xác suất để Việt nhận được 100 điểm.\n(Chỉ điền số dưới dạng số thập phân, ví dụ 0.25)",
+      "generalfeedback": "Có 2 quạt (1 và 2) tương ứng với 100 điểm trong tổng số 8 quạt tròn đồng khả năng. Xác suất là 2/8 = 0.25.",
+      "answers": [
+        {
+          "text": "0.25",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán tổng hợp về xác suất biến cố Chương VIII",
+      "questiontext": "Một chiếc hộp đựng 7 tấm thẻ như nhau được ghi số 2; 3; 4; 5; 6; 7; 8. Rút ngẫu nhiên một tấm thẻ trong hộp. Xét biến cố A: \"Rút được tấm thẻ ghi số chẵn\" và biến cố B: \"Rút được tấm thẻ ghi số lẻ\". So sánh khả năng xảy ra của biến cố A và biến cố B.",
+      "generalfeedback": "Có 4 tấm thẻ ghi số chẵn (2, 4, 6, 8) và 3 tấm thẻ ghi số lẻ (3, 5, 7). Vì 4 > 3 nên khả năng xảy ra của biến cố A lớn hơn biến cố B.",
+      "answers": [
+        {
+          "text": "Khả năng xảy ra của biến cố A lớn hơn biến cố B",
+          "fraction": 100
+        },
+        {
+          "text": "Khả năng xảy ra của biến cố A nhỏ hơn biến cố B",
+          "fraction": 0
+        },
+        {
+          "text": "Khả năng xảy ra của hai biến cố A và B bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Không thể so sánh khả năng xảy ra của biến cố A và B",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_135",
+      "questiontext": "Một chiếc hộp đựng 7 tấm thẻ như nhau được ghi số 2; 3; 4; 5; 6; 7; 8. Rút ngẫu nhiên một tấm thẻ trong hộp. Tính xác suất của biến cố \"Rút được tấm thẻ ghi số 5\".",
+      "generalfeedback": "Tất cả 7 số đều lớn hơn 1 nên xác suất bằng 1. Có 1 tấm thẻ ghi số 5 trong 7 tấm thẻ nên xác suất bằng 1/7.",
+      "answers": [
+        {
+          "text": "1/7",
+          "fraction": 100
+        },
+        {
+          "text": "2/7",
+          "fraction": 0
+        },
+        {
+          "text": "1/8",
+          "fraction": 0
+        },
+        {
+          "text": "0",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Trong giờ làm bài tập tổng hợp về xác suất (Bài 8.12 đến 8.15 SGK), bạn Nam gặp bài toán 8.15b về tính xác suất các mức điểm thưởng nhưng chưa hiểu rõ cách giải. Để thể hiện phẩm chất chăm chỉ trong học tập, Nam nên làm gì?",
+      "generalfeedback": "Biểu hiện của tính chăm chỉ là chủ động đọc kỹ bài học, tự suy nghĩ và chủ động tìm kiếm sự hỗ trợ để hiểu rõ bản chất vấn đề chứ không bỏ cuộc hay chép bài thụ động.",
+      "answers": [
+        {
+          "text": "Đọc lại kỹ lý thuyết biến cố đồng khả năng trong SGK, tự suy nghĩ cách làm và nhờ thầy cô hoặc bạn bè hướng dẫn nếu vẫn vướng mắc",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài toán khó và chỉ chọn làm các câu hỏi trắc nghiệm ngắn",
+          "fraction": 0
+        },
+        {
+          "text": "Chép ngay đáp án của bạn bên cạnh để hoàn thành bài tập nhanh chóng",
+          "fraction": 0
+        },
+        {
+          "text": "Đợi thầy cô chữa bài rồi chép lại vào vở mà không cần tìm hiểu nguyên nhân",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "PC_TRUNGTHUC",
+      "imgs": [
+        "_page_0_Picture_15.jpeg"
+      ],
+      "questiontext": "Khi thực hành quay tấm bìa hình tròn chia 8 phần như [img:_page_0_Picture_15.jpeg] để thu thập dữ liệu xác suất thực nghiệm, bạn An quay mũi tên chỉ vào ô số 2 nhưng lại ghi vào phiếu báo cáo là ô số 8 để được cộng 400 điểm. Phát biểu: \"Hành vi của An vi phạm phẩm chất trung thực trong học tập và nghiên cứu khoa học\" là ĐÚNG hay SAI?",
+      "generalfeedback": "Hành vi của An là không trung thực vì đã cố tình làm sai lệch dữ liệu thực nghiệm để đạt được mục đích cá nhân.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Để nâng cao năng lực tự chủ và tự học khi ôn tập Bài tập cuối chương VIII (Xác suất của biến cố ngẫu nhiên), bạn Bình lập kế hoạch tự học. Hãy ghép mỗi mục tiêu tự học với phương pháp thực hiện phù hợp:",
+      "generalfeedback": "Việc chủ động phân loại bài tập, tự giải lại các dạng bài quay số/rút thẻ và kiểm tra lại kết quả giúp phát triển năng lực tự chủ và tự học.",
+      "subquestions": [
+        {
+          "question": "Phân biệt được biến cố chắc chắn, không thể và ngẫu nhiên",
+          "answer": "Tự phân tích các khả năng xảy ra của từng biến cố trong Bài 8.12 SGK"
+        },
+        {
+          "question": "Rèn kỹ năng tính xác suất của biến cố trong trò chơi quay số",
+          "answer": "Tự giải lại Bài 8.15 SGK và đối chiếu xác suất từng quạt tròn"
+        },
+        {
+          "question": "Đánh giá mức độ làm chủ kiến thức chương VIII",
+          "answer": "Tự làm bài tập tổng hợp trong SGK và tự chấm điểm theo hướng dẫn"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLC_GIAIQUYETVD",
+      "imgs": [
+        "_page_0_Picture_15.jpeg"
+      ],
+      "questiontext": "Nhóm học sinh muốn sáng tạo một trò chơi quay số may mắn cho gian hàng lớp học dựa trên tấm bìa 8 quạt tròn Bài 8.15 SGK [img:_page_0_Picture_15.jpeg]. Nhóm quy định: Người chơi nhận quà loại A nếu quay vào ô ghi số chia hết cho 3. Xác suất để người chơi nhận quà loại A là bao nhiêu?",
+      "generalfeedback": "Trong các số từ 1 đến 8 có 2 số chia hết cho 3 là 3 và 6. Số kết quả thuận lợi là 2, tổng số kết quả đồng khả năng là 8. Xác suất nhận quà loại A là 2/8 = 1/4 = 0.25.",
+      "answers": [
+        {
+          "text": "1/4",
+          "fraction": 100
+        },
+        {
+          "text": "1/2",
+          "fraction": 0
+        },
+        {
+          "text": "1/8",
+          "fraction": 0
+        },
+        {
+          "text": "3/8",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Xét bài toán 8.13 SGK: Thùng kín đựng 5 quả bóng màu đỏ, 10 quả bóng màu xanh, 20 quả bóng màu vàng. Bạn Mai lập luận: \"Vì 20 > 10 > 5 nên khả năng lấy được bóng màu vàng là lớn nhất\". Lập luận của Mai thể hiện năng lực tư duy toán học dựa trên cơ sở nào?",
+      "generalfeedback": "Năng lực tư duy và lập luận toán học thể hiện qua việc so sánh số lượng kết quả thuận lợi tương ứng với mỗi màu bóng trong tập hợp các kết quả đồng khả năng.",
+      "answers": [
+        {
+          "text": "So sánh số lượng kết quả thuận lợi cho từng biến cố dựa trên số lượng bóng mỗi màu",
+          "fraction": 100
+        },
+        {
+          "text": "Dựa trên cảm nhận ngẫu nhiên không qua thống kê số lượng",
+          "fraction": 0
+        },
+        {
+          "text": "Tính tổng số bóng rồi chia đều cho 3 màu",
+          "fraction": 0
+        },
+        {
+          "text": "Giả định các màu bóng có xác suất xảy ra luôn bằng nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "imgs": [
+        "_page_0_Picture_15.jpeg"
+      ],
+      "questiontext": "Để giải quyết bài toán tính xác suất mũi tên chỉ vào quạt ghi số lẻ trong trò chơi quay số (Bài 8.15a SGK [img:_page_0_Picture_15.jpeg]), học sinh thực hiện các bước giải sau:\n- Bước 1: Tổng số kết quả có thể xảy ra là [[1]] kết quả đồng khả năng.\n- Bước 2: Các kết quả thuận lợi cho biến cố \"chỉ vào số lẻ\" gồm [[4]].\n- Bước 3: Xác suất của biến cố bằng 4/8 = 0,5.",
+      "generalfeedback": "Tấm bìa chia 8 phần bằng nhau nên có 8 kết quả đồng khả năng. Các số lẻ từ 1 đến 8 là 1, 3, 5, 7 (gồm 4 số).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "8"
+        },
+        {
+          "group": 1,
+          "text": "4"
+        },
+        {
+          "group": 1,
+          "text": "6"
+        },
+        {
+          "group": 2,
+          "text": "1; 3; 5; 7"
+        },
+        {
+          "group": 2,
+          "text": "2; 4; 6; 8"
+        },
+        {
+          "group": 2,
+          "text": "1; 2; 3; 4"
+        }
+      ]
+    }
+  ]
+}

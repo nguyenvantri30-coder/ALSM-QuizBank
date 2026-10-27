@@ -1,0 +1,557 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 21,
+    "metadata_used": {
+      "YCCD_TOAN8_088": 4,
+      "Định lí Trường hợp đồng dạng thứ nhất của hai tam giác (Cạnh - Cạnh - Cạnh: Nếu ba cạnh của tam giác này tỉ lệ với ba cạnh của tam giác kia thì hai tam giác đó đồng dạng)": 4,
+      "Nhận biết hai tam giác đồng dạng theo trường hợp C.C.C": 3,
+      "Lập tỉ số các cạnh tương ứng để chứng minh hai tam giác đồng dạng": 4,
+      "Tính số đo góc hoặc độ dài cạnh nhờ hai tam giác đồng dạng": 5,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_GQVD_PHATHIEN_C2_01": 1,
+      "NLT_TOAN_C2_01_05": 1,
+      "NLT_TOAN_C2_01_08": 1
+    },
+    "types_used": {
+      "multichoice": 10,
+      "truefalse": 3,
+      "matching": 3,
+      "shortanswer": 2,
+      "numerical": 1,
+      "calculatedsimple": 1,
+      "calculatedmulti": 1
+    },
+    "total": 21
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN8_088",
+        "reason": "Giải thích được các trường hợp đồng dạng của hai tam giác qua các bài tập phân tích tỉ số cạnh và góc tương ứng."
+      },
+      {
+        "metadata_code": "Định lí Trường hợp đồng dạng thứ nhất của hai tam giác (Cạnh - Cạnh - Cạnh: Nếu ba cạnh của tam giác này tỉ lệ với ba cạnh của tam giác kia thì hai tam giác đó đồng dạng)",
+        "reason": "Phát biểu và nhận biết định lí trường hợp đồng dạng thứ nhất (c.c.c)."
+      },
+      {
+        "metadata_code": "Nhận biết hai tam giác đồng dạng theo trường hợp C.C.C",
+        "reason": "Nhận biết hai tam giác đồng dạng theo trường hợp c.c.c dựa trên độ dài các cạnh."
+      },
+      {
+        "metadata_code": "Lập tỉ số các cạnh tương ứng để chứng minh hai tam giác đồng dạng",
+        "reason": "Lập tỉ số các cạnh tương ứng để kiểm tra và chứng minh hai tam giác đồng dạng."
+      },
+      {
+        "metadata_code": "Tính số đo góc hoặc độ dài cạnh nhờ hai tam giác đồng dạng",
+        "reason": "Tính số đo góc, độ dài cạnh và chu vi dựa vào tính chất hai tam giác đồng dạng c.c.c."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đánh giá qua tình huống kiên trì vượt khó giải bài tập toán phức tạp."
+      },
+      {
+        "metadata_code": "SUB_GQVD_PHATHIEN_C2_01",
+        "reason": "Phân tích và tổ chức dữ liệu các bộ ba cạnh tam giác trong dự án học tập."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_05",
+        "reason": "Đánh giá lập luận toán học về việc xác định đúng các đỉnh tương ứng khi viết ký hiệu đồng dạng."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_08",
+        "reason": "Chứng minh sự đồng dạng của tam giác tạo bởi các đường trung bình."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học thuộc Tiết 1 - Trường hợp đồng dạng thứ nhất của hai tam giác (thuần lý thuyết hình học SGK), không có nội dung ứng dụng công cụ số hay phần mềm tin học."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học không tích hợp ngữ cảnh trí tuệ nhân tạo (AI) hay hệ thống nhận diện tự nhiên."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_088",
+      "questiontext": "Cho \\(\\Delta ABC\\) và \\(\\Delta MNP\\) có \\(\\frac{AB}{MN} = \\frac{BC}{NP} = \\frac{CA}{PM} = k\\). Giải thích nào sau đây đúng về mối quan hệ giữa hai tam giác?",
+      "generalfeedback": "Vì ba cạnh của \\(\\Delta ABC\\) tỉ lệ với ba cạnh của \\(\\Delta MNP\\) theo cùng tỉ số \\(k\\) nên \\(\\Delta ABC \\sim \\Delta MNP\\) (c.c.c). Khi đó các góc tương ứng bằng nhau.",
+      "answers": [
+        {
+          "text": "\\(\\Delta ABC \\sim \\Delta MNP\\) (c.c.c) và các góc tương ứng bằng nhau: \\(\\widehat{A} = \\widehat{M}, \\widehat{B} = \\widehat{N}, \\widehat{C} = \\widehat{P}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\Delta ABC \\sim \\Delta MNP\\) (c.c.c) và các góc tương ứng bằng nhau: \\(\\widehat{A} = \\widehat{N}, \\widehat{B} = \\widehat{M}, \\widehat{C} = \\widehat{P}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\Delta ABC \\sim \\Delta PNM\\) (c.c.c) và tỉ số diện tích bằng \\(k\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\Delta ABC\\) không đồng dạng với \\(\\Delta MNP\\) vì chưa biết các góc",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_088",
+      "questiontext": "Nếu hai tam giác đồng dạng với nhau theo trường hợp cạnh - cạnh - cạnh thì tất cả các cặp góc tương ứng của chúng luôn bằng nhau. Khẳng định này đúng hay sai?",
+      "generalfeedback": "Đúng. Theo định nghĩa hai tam giác đồng dạng, khi hai tam giác đồng dạng (dù theo trường hợp nào), các góc tương ứng của chúng luôn bằng nhau.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_088",
+      "questiontext": "Hãy ghép mỗi giải thích/kết luận ở cột phải với điều kiện tương ứng ở cột trái cho hai tam giác \\(\\Delta ABC\\) và \\(\\Delta DEF\\):",
+      "generalfeedback": "Tỉ số ba cạnh bằng nhau cho kết luận đồng dạng c.c.c. Khi đồng dạng thì tỉ số chu vi bằng tỉ số đồng dạng, tỉ số diện tích bằng bình phương tỉ số đồng dạng.",
+      "subquestions": [
+        {
+          "question": "\\(\\frac{AB}{DE} = \\frac{BC}{EF} = \\frac{CA}{FD} = k\\)",
+          "answer": "\\(\\Delta ABC \\sim \\Delta DEF\\) (c.c.c)"
+        },
+        {
+          "question": "\\(\\Delta ABC \\sim \\Delta DEF\\) với tỉ số đồng dạng \\(k\\)",
+          "answer": "Tỉ số chu vi \\(\\frac{P_{ABC}}{P_{DEF}} = k\\)"
+        },
+        {
+          "question": "Hai tam giác bằng nhau \\(\\Delta ABC = \\Delta DEF\\)",
+          "answer": "Đồng dạng với tỉ số \\(k = 1\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Định lí Trường hợp đồng dạng thứ nhất của hai tam giác (Cạnh - Cạnh - Cạnh: Nếu ba cạnh của tam giác này tỉ lệ với ba cạnh của tam giác kia thì hai tam giác đó đồng dạng)",
+      "questiontext": "Phát biểu nào sau đây thể hiện đúng định lí trường hợp đồng dạng thứ nhất (Cạnh - Cạnh - Cạnh) của hai tam giác?",
+      "generalfeedback": "Định lí C.C.C: Nếu ba cạnh của tam giác này tỉ lệ với ba cạnh của tam giác kia thì hai tam giác đó đồng dạng.",
+      "answers": [
+        {
+          "text": "Nếu ba cạnh của tam giác này tỉ lệ với ba cạnh của tam giác kia thì hai tam giác đó đồng dạng.",
+          "fraction": 100
+        },
+        {
+          "text": "Nếu ba góc của tam giác này bằng ba góc của tam giác kia thì hai tam giác đó bằng nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Nếu hai cạnh và một góc của tam giác này bằng hai cạnh và một góc của tam giác kia thì hai tam giác đó đồng dạng.",
+          "fraction": 0
+        },
+        {
+          "text": "Nếu ba cạnh của tam giác này bằng ba cạnh của tam giác kia thì hai tam giác đó song song.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Định lí Trường hợp đồng dạng thứ nhất của hai tam giác (Cạnh - Cạnh - Cạnh: Nếu ba cạnh của tam giác này tỉ lệ với ba cạnh của tam giác kia thì hai tam giác đó đồng dạng)",
+      "questiontext": "Trường hợp đồng dạng thứ nhất của hai tam giác còn được viết tắt là gì?",
+      "generalfeedback": "Trường hợp đồng dạng thứ nhất (Cạnh - Cạnh - Cạnh) được viết tắt là c.c.c.",
+      "answers": [
+        {
+          "text": "c.c.c",
+          "fraction": 100
+        },
+        {
+          "text": "ccc",
+          "fraction": 100
+        },
+        {
+          "text": "C.C.C",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Định lí Trường hợp đồng dạng thứ nhất của hai tam giác (Cạnh - Cạnh - Cạnh: Nếu ba cạnh của tam giác này tỉ lệ với ba cạnh của tam giác kia thì hai tam giác đó đồng dạng)",
+      "questiontext": "Nếu \\(\\Delta ABC\\) và \\(\\Delta A'B'C'\\) có \\(\\frac{A'B'}{AB} = \\frac{B'C'}{BC} = \\frac{C'A'}{CA}\\) thì \\(\\Delta A'B'C' \\sim \\Delta ABC\\). Phát biểu này đúng hay sai?",
+      "generalfeedback": "Đúng. Đây chính là biểu thức kí hiệu của định lí trường hợp đồng dạng thứ nhất (c.c.c).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết hai tam giác đồng dạng theo trường hợp C.C.C",
+      "questiontext": "Cho \\(\\Delta ABC\\) có độ dài ba cạnh là \\(3\\text{ cm}, 4\\text{ cm}, 5\\text{ cm}\\) và \\(\\Delta MNP\\) có độ dài ba cạnh là \\(6\\text{ cm}, 8\\text{ cm}, 10\\text{ cm}\\). Khẳng định nào sau đây đúng?",
+      "generalfeedback": "Ta có \\(\\frac{3}{6} = \\frac{4}{8} = \\frac{5}{10} = \\frac{1}{2}\\). Do ba cạnh tỉ lệ nên \\(\\Delta ABC \\sim \\Delta MNP\\) (c.c.c).",
+      "answers": [
+        {
+          "text": "\\(\\Delta ABC \\sim \\Delta MNP\\) (c.c.c)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\Delta ABC\\) và \\(\\Delta MNP\\) không đồng dạng",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\Delta ABC = \\Delta MNP\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\Delta ABC \\sim \\Delta NPM\\) theo tỉ số \\(k = 2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết hai tam giác đồng dạng theo trường hợp C.C.C",
+      "questiontext": "Tam giác thứ nhất có ba cạnh là \\(4\\text{ cm}, 5\\text{ cm}, 6\\text{ cm}\\). Tam giác thứ hai có ba cạnh là \\(8\\text{ cm}, 10\\text{ cm}, 12\\text{ cm}\\). Hai tam giác này có đồng dạng với nhau theo trường hợp c.c.c không?",
+      "generalfeedback": "Có, vì \\(\\frac{4}{8} = \\frac{5}{10} = \\frac{6}{12} = \\frac{1}{2}\\), các cạnh tương ứng tỉ lệ nên hai tam giác đồng dạng theo trường hợp c.c.c.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết hai tam giác đồng dạng theo trường hợp C.C.C",
+      "questiontext": "Cho tam giác \\(\\Delta ABC\\) có độ dài các cạnh là \\(a, b, c\\) và tam giác \\(\\Delta A'B'C'\\) có độ dài các cạnh là \\(a', b', c'\\). Hãy ghép tỉ số các cạnh tương ứng để khẳng định hai tam giác đồng dạng:",
+      "generalfeedback": "Hai tam giác đồng dạng theo trường hợp c.c.c khi tỉ số các cạnh tương ứng bằng nhau.",
+      "subquestions": [
+        {
+          "question": "\\(\\frac{a'}{a} = \\frac{b'}{b} = \\frac{c'}{c} = 2\\)",
+          "answer": "\\(\\Delta A'B'C' \\sim \\Delta ABC\\) với tỉ số đồng dạng \\(k = 2\\)"
+        },
+        {
+          "question": "\\(\\frac{a'}{a} = \\frac{b'}{b} = \\frac{c'}{c} = 1\\)",
+          "answer": "\\(\\Delta A'B'C' = \\Delta ABC\\)"
+        },
+        {
+          "question": "\\(\\frac{a'}{a} = \\frac{b'}{b} = \\frac{c'}{c} = \\frac{1}{2}\\)",
+          "answer": "\\(\\Delta A'B'C' \\sim \\Delta ABC\\) với tỉ số đồng dạng \\(k = \\frac{1}{2}\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Lập tỉ số các cạnh tương ứng để chứng minh hai tam giác đồng dạng",
+      "questiontext": "Cho \\(\\Delta ABC\\) có \\(AB = 6\\text{ cm}, BC = 9\\text{ cm}, CA = 12\\text{ cm}\\) và \\(\\Delta DEF\\) có \\(DE = 2\\text{ cm}, EF = 3\\text{ cm}, FD = 4\\text{ cm}\\). Tỉ số các cạnh tương ứng giữa \\(\\Delta ABC\\) và \\(\\Delta DEF\\) là bao nhiêu?",
+      "generalfeedback": "Lập tỉ số: \\(\\frac{AB}{DE} = \\frac{6}{2} = 3\\), \\(\\frac{BC}{EF} = \\frac{9}{3} = 3\\), \\(\\frac{CA}{FD} = \\frac{12}{4} = 3\\). Tỉ số đồng dạng là \\(3\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{AB}{DE} = \\frac{BC}{EF} = \\frac{CA}{FD} = 3\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{AB}{DE} = \\frac{BC}{EF} = \\frac{CA}{FD} = 2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{AB}{DE} = \\frac{BC}{EF} = \\frac{CA}{FD} = \\frac{1}{3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Các tỉ số không bằng nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Lập tỉ số các cạnh tương ứng để chứng minh hai tam giác đồng dạng",
+      "questiontext": "Cho \\(\\Delta ABC\\) có độ dài ba cạnh là \\(3, 5, 7\\) và \\(\\Delta MNP\\) có độ dài ba cạnh là \\(6, 10, 14\\). Tỉ số đồng dạng \\(k\\) của \\(\\Delta ABC\\) đối với \\(\\Delta MNP\\) bằng bao nhiêu? (Nhập dưới dạng phân số tối giản a/b)",
+      "generalfeedback": "Tỉ số đồng dạng \\(k = \\frac{3}{6} = \\frac{5}{10} = \\frac{7}{14} = \\frac{1}{2}\\).",
+      "answers": [
+        {
+          "text": "1/2",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Lập tỉ số các cạnh tương ứng để chứng minh hai tam giác đồng dạng",
+      "questiontext": "Để chứng minh \\(\\Delta ABC \\sim \\Delta A'B'C'\\) theo trường hợp C.C.C khi biết \\(AB = 5\\text{ cm}, BC = 7\\text{ cm}, CA = 9\\text{ cm}\\) và \\(A'B' = 15\\text{ cm}, B'C' = 21\\text{ cm}\\), cạnh \\(C'A'\\) phải có độ dài bằng bao nhiêu?",
+      "generalfeedback": "Cần có \\(\\frac{A'B'}{AB} = \\frac{B'C'}{BC} = \\frac{C'A'}{CA} = 3\\). Do đó \\(C'A' = 3 \\cdot CA = 3 \\cdot 9 = 27\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "\\(27\\text{ cm}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(18\\text{ cm}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(24\\text{ cm}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(30\\text{ cm}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Tính số đo góc hoặc độ dài cạnh nhờ hai tam giác đồng dạng",
+      "questiontext": "Cho \\(\\Delta ABC \\sim \\Delta DEF\\) theo trường hợp c.c.c với tỉ số đồng dạng \\(k = 2\\). Biết cạnh \\(DE = 5\\text{ cm}\\). Tính độ dài cạnh \\(AB\\) theo đơn vị cm. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Vì \\(\\Delta ABC \\sim \\Delta DEF\\) với tỉ số \\(k = 2\\) nên \\(\\frac{AB}{DE} = 2 \\Rightarrow AB = 2 \\cdot DE = 2 \\cdot 5 = 10\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "10",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Tính số đo góc hoặc độ dài cạnh nhờ hai tam giác đồng dạng",
+      "questiontext": "Cho \\(\\Delta ABC\\) có độ dài ba cạnh là 3 cm, 4 cm, 5 cm và \\(\\Delta MNP \\sim \\Delta ABC\\) theo tỉ số đồng dạng k = {k}. Tính chu vi tam giác \\(\\Delta MNP\\) theo đơn vị cm. (Chỉ điền số)",
+      "generalfeedback": "Chu vi \\(\\Delta ABC\\) là \\(3 + 4 + 5 = 12\\text{ cm}\\). Vì \\(\\Delta MNP \\sim \\Delta ABC\\) theo tỉ số \\(k\\) nên chu vi \\(\\Delta MNP\\) bằng \\(12 \\times k\\).",
+      "wildcards": [
+        {
+          "name": "k",
+          "min": 2.0,
+          "max": 5.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "12*{k}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "Tính số đo góc hoặc độ dài cạnh nhờ hai tam giác đồng dạng",
+      "questiontext": "Cho \\(\\Delta ABC\\) có độ dài các cạnh là {a} cm, {b} cm, {c} cm. Tam giác \\(\\Delta A'B'C'\\) đồng dạng với \\(\\Delta ABC\\) theo tỉ số k = 2. Độ dài cạnh lớn nhất của \\(\\Delta A'B'C'\\) bằng bao nhiêu cm biết {c} là cạnh lớn nhất?",
+      "generalfeedback": "Cạnh lớn nhất của \\(\\Delta A'B'C'\\) tương ứng với cạnh lớn nhất {c} của \\(\\Delta ABC\\) và có độ dài bằng 2*{c}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 3.0,
+          "max": 5.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 4.0,
+          "max": 6.0,
+          "decimals": 0
+        },
+        {
+          "name": "c",
+          "min": 7.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "2*{c}",
+          "fraction": 100
+        },
+        {
+          "text": "2*{a}",
+          "fraction": 0
+        },
+        {
+          "text": "{c}+2",
+          "fraction": 0
+        },
+        {
+          "text": "2*{b}",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tính số đo góc hoặc độ dài cạnh nhờ hai tam giác đồng dạng",
+      "questiontext": "Cho \\(\\Delta ABC \\sim \\Delta MNP\\) (c.c.c). Biết góc A bằng \\(80^\\circ\\), góc B bằng \\(60^\\circ\\). Số đo góc P của \\(\\Delta MNP\\) bằng bao nhiêu?",
+      "generalfeedback": "Vì \\(\\Delta ABC \\sim \\Delta MNP\\) nên \\(\\widehat{M} = \\widehat{A} = 80^\\circ\\), \\(\\widehat{N} = \\widehat{B} = 60^\\circ\\). Góc \\(\\widehat{P} = 180^\\circ - (80^\\circ + 60^\\circ) = 40^\\circ\\).",
+      "answers": [
+        {
+          "text": "\\(40^\\circ\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(80^\\circ\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(60^\\circ\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(140^\\circ\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Tính số đo góc hoặc độ dài cạnh nhờ hai tam giác đồng dạng",
+      "questiontext": "Cho tam giác \\(\\Delta ABC\\) có chu vi bằng \\(24\\text{ cm}\\). Gọi \\(\\Delta A'B'C'\\) là tam giác có các đỉnh lần lượt là trung điểm các cạnh của \\(\\Delta ABC\\). Chu vi của \\(\\Delta A'B'C'\\) bằng bao nhiêu?",
+      "generalfeedback": "Các cạnh của \\(\\Delta A'B'C'\\) là đường trung bình của \\(\\Delta ABC\\) nên mỗi cạnh của \\(\\Delta A'B'C'\\) bằng một nửa cạnh tương ứng của \\(\\Delta ABC\\). Suy ra \\(\\Delta A'B'C' \\sim \\Delta ABC\\) theo tỉ số \\(k = \\frac{1}{2}\\). Do đó chu vi \\(\\Delta A'B'C' = \\frac{1}{2} \\cdot 24 = 12\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "\\(12\\text{ cm}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(6\\text{ cm}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(48\\text{ cm}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(18\\text{ cm}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ bài tập Toán, Nam gặp một bài toán khó yêu cầu kiểm tra sự đồng dạng của hai tam giác có độ dài các cạnh chứa nhiều số thập phân phức tạp. Bạn Nam nên thực hiện hành động nào sau đây để thể hiện tinh thần kiên trì, vượt khó trong học tập?",
+      "generalfeedback": "Hành động kiên trì, cẩn thận tính toán tỉ số các cạnh tương ứng thể hiện thái độ tích cực, chủ động vượt khó trong học tập.",
+      "answers": [
+        {
+          "text": "Cẩn thận lập bảng so sánh và tính tỉ số giữa từng cặp cạnh tương ứng để kiểm tra điều kiện đồng dạng c.c.c.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài tập đó và chờ giáo viên chữa bài trên lớp.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép ngay đáp án của bạn bên cạnh mà không cần kiểm tra lại các phép tính.",
+          "fraction": 0
+        },
+        {
+          "text": "Đoán chừng hai tam giác không đồng dạng vì số liệu quá phức tạp.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GQVD_PHATHIEN_C2_01",
+      "questiontext": "Một nhóm học sinh thu thập dữ liệu về độ dài các cạnh của các tam giác trong một dự án học tập. Hãy ghép các bộ dữ liệu ở cột trái với kết luận phân tích phù hợp ở cột phải:",
+      "generalfeedback": "Phân tích các tỉ số cạnh giúp phân loại chính xác mối quan hệ giữa các tam giác.",
+      "subquestions": [
+        {
+          "question": "Tam giác A (3 cm, 4 cm, 5 cm) và Tam giác B (6 cm, 8 cm, 10 cm)",
+          "answer": "Đồng dạng c.c.c với tỉ số k = 1/2"
+        },
+        {
+          "question": "Tam giác A (3 cm, 4 cm, 5 cm) và Tam giác C (3 cm, 4 cm, 6 cm)",
+          "answer": "Không đồng dạng do các cạnh không tỉ lệ"
+        },
+        {
+          "question": "Tam giác B (6 cm, 8 cm, 10 cm) và Tam giác D (12 cm, 16 cm, 20 cm)",
+          "answer": "Đồng dạng c.c.c với tỉ số k = 1/2"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_05",
+      "questiontext": "Cho \\(\\Delta ABC\\) có \\(AB = 6\\text{ cm}, BC = 8\\text{ cm}, CA = 10\\text{ cm}\\) và \\(\\Delta MNP\\) có \\(MN = 4\\text{ cm}, NP = 3\\text{ cm}, PM = 5\\text{ cm}\\). Học sinh An phát biểu: '\\(\\Delta ABC \\sim \\Delta MNP\\) (c.c.c) vì \\(\\frac{AB}{MN} = \\frac{BC}{NP} = 2\\)'. Đánh giá nào sau đây là lập luận hợp lí về phát biểu của An?",
+      "generalfeedback": "Lập luận của An chưa hợp lí vì tỉ số \\(\\frac{CA}{PM} = \\frac{10}{5} = 2\\), các cạnh tương ứng đúng thứ tự phải là \\(AB\\) ứng với \\(MN\\), \\(BC\\) ứng với \\(NP\\), \\(CA\\) ứng với \\(PM\\), nên ký hiệu đúng phải là \\(\\Delta ABC \\sim \\Delta NMP\\).",
+      "answers": [
+        {
+          "text": "Lập luận của An chưa chính xác vì chưa sắp xếp đúng thứ tự đỉnh tương ứng; ký hiệu đúng phải là \\(\\Delta ABC \\sim \\Delta NMP\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Lập luận của An hoàn toàn chính xác.",
+          "fraction": 0
+        },
+        {
+          "text": "Lập luận của An sai vì hai tam giác này không đồng dạng.",
+          "fraction": 0
+        },
+        {
+          "text": "Lập luận của An sai vì tỉ số giữa các cạnh bằng 3 chứ không phải 2.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_08",
+      "questiontext": "Cho tam giác \\(\\Delta ABC\\). Gọi \\(M, N, P\\) lần lượt là trung điểm của các cạnh \\(AB, AC, BC\\). Để chứng minh \\(\\Delta MNP \\sim \\Delta CAB\\) (c.c.c), khẳng định nào sau đây là bước chứng minh đúng?",
+      "generalfeedback": "Vì \\(MN, NP, PM\\) là các đường trung bình của \\(\\Delta ABC\\) nên \\(MN = \\frac{1}{2}BC\\), \\(NP = \\frac{1}{2}AB\\), \\(PM = \\frac{1}{2}AC\\). Suy ra \\(\\frac{MN}{BC} = \\frac{NP}{AB} = \\frac{PM}{AC} = \\frac{1}{2}\\), do đó \\(\\Delta MNP \\sim \\Delta CAB\\) (c.c.c).",
+      "answers": [
+        {
+          "text": "Sử dụng tính chất đường trung bình để suy ra \\(MN = \\frac{1}{2}BC, NP = \\frac{1}{2}AB, PM = \\frac{1}{2}AC\\), từ đó tỉ số các cạnh tương ứng bằng \\(\\frac{1}{2}\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Sử dụng tính chất ba đường cao cắt nhau tại trực tâm.",
+          "fraction": 0
+        },
+        {
+          "text": "Sử dụng định lí Pythagoras trong tam giác vuông.",
+          "fraction": 0
+        },
+        {
+          "text": "Chứng minh các góc tương ứng bằng \\(60^\\circ\\).",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

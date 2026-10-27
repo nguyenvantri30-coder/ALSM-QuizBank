@@ -1,0 +1,982 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 38,
+    "metadata_used": {
+      "Quy tắc làm tròn số": 3,
+      "Khái niệm độ chính xác d": 6,
+      "YCCD_TOAN7_037": 4,
+      "Làm tròn số thập phân căn cứ vào độ chính xác cho trước": 12,
+      "Ước lượng kết quả phép tính": 3,
+      "YCCD_TOAN7_036": 2,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_TUCHUTUHOC": 1,
+      "NLC_GIAOTIEP": 1,
+      "NLT_TOAN_C2_01": 1,
+      "NLT_TOAN_C2_03": 1,
+      "5.2TC1b_K7": 1,
+      "7.A1.2_1": 1
+    },
+    "types_used": {
+      "multichoice": 22,
+      "matching": 1,
+      "shortanswer": 3,
+      "numerical": 1,
+      "truefalse": 3,
+      "gapselect": 2,
+      "ddwtos": 2,
+      "calculatedsimple": 2,
+      "calculated": 2
+    }
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_036",
+        "reason": "Thực hiện được ước lượng căn cứ vào độ chính xác cho trước"
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_037",
+        "reason": "Thực hiện được làm tròn số căn cứ vào độ chính xác cho trước"
+      },
+      {
+        "metadata_code": "Quy tắc làm tròn số",
+        "reason": "Quy tắc làm tròn số"
+      },
+      {
+        "metadata_code": "Khái niệm độ chính xác d",
+        "reason": "Khái niệm độ chính xác d"
+      },
+      {
+        "metadata_code": "Làm tròn số thập phân căn cứ vào độ chính xác cho trước",
+        "reason": "Làm tròn số thập phân căn cứ vào độ chính xác cho trước"
+      },
+      {
+        "metadata_code": "Ước lượng kết quả phép tính",
+        "reason": "Ước lượng kết quả phép tính"
+      },
+      {
+        "metadata_code": "PC_CHAMCHI",
+        "reason": "Chăm chỉ"
+      },
+      {
+        "metadata_code": "PC_TRUNGTHUC",
+        "reason": "Trung thực"
+      },
+      {
+        "metadata_code": "NLC_TUCHUTUHOC",
+        "reason": "Năng lực tự chủ và tự học"
+      },
+      {
+        "metadata_code": "NLC_GIAOTIEP",
+        "reason": "Năng lực giao tiếp và hợp tác"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01",
+        "reason": "Năng lực tư duy và lập luận toán học"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03",
+        "reason": "Năng lực giải quyết vấn đề toán học"
+      },
+      {
+        "metadata_code": "5.2TC1b_K7",
+        "reason": "Với các vấn đề đơn giản, học sinh có thể tự mình chọn được các công cụ số thông thường..."
+      },
+      {
+        "metadata_code": "7.A1.2_1",
+        "reason": "Nêu được ví dụ hậu quả có thể xảy ra khi không có sự xác thực của con người về độ chính xác do AI đưa ra..."
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc làm tròn số",
+      "questiontext": "Khi làm tròn số đến một hàng nào đó, kết quả làm tròn có độ chính xác bằng bao nhiêu?",
+      "generalfeedback": "Theo quy tắc tổng quát trong SGK, khi làm tròn số đến một hàng nào đó, kết quả làm tròn có độ chính xác bằng một nửa đơn vị hàng làm tròn.",
+      "answers": [
+        {
+          "text": "Bằng một nửa đơn vị hàng làm tròn.",
+          "fraction": 100
+        },
+        {
+          "text": "Bằng đúng một đơn vị hàng làm tròn.",
+          "fraction": 0
+        },
+        {
+          "text": "Bằng hai lần đơn vị hàng làm tròn.",
+          "fraction": 0
+        },
+        {
+          "text": "Bằng một phần tư đơn vị hàng làm tròn.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm độ chính xác d",
+      "questiontext": "Muốn kết quả làm tròn số có độ chính xác là \\(d = 0,5\\), ta phải làm tròn số đó đến hàng nào?",
+      "generalfeedback": "Độ chính xác \\(d = 0,5\\) tương ứng với hàng làm tròn là hàng đơn vị (vì một nửa đơn vị của hàng đơn vị là 0,5).",
+      "answers": [
+        {
+          "text": "Hàng đơn vị",
+          "fraction": 100
+        },
+        {
+          "text": "Hàng chục",
+          "fraction": 0
+        },
+        {
+          "text": "Hàng phần mười",
+          "fraction": 0
+        },
+        {
+          "text": "Hàng phần trăm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm độ chính xác d",
+      "questiontext": "Hãy ghép mỗi độ chính xác cho trước với hàng làm tròn tương ứng thích hợp:",
+      "generalfeedback": "Theo bảng mối liên hệ giữa hàng làm tròn và độ chính xác: 50 tương ứng hàng trăm; 5 tương ứng hàng chục; 0,05 tương ứng hàng phần mười; 0,005 tương ứng hàng phần trăm.",
+      "subquestions": [
+        {
+          "question": "Độ chính xác 50",
+          "answer": "Hàng trăm"
+        },
+        {
+          "question": "Độ chính xác 5",
+          "answer": "Hàng chục"
+        },
+        {
+          "question": "Độ chính xác 0,05",
+          "answer": "Hàng phần mười"
+        },
+        {
+          "question": "Độ chính xác 0,005",
+          "answer": "Hàng phần trăm"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_037",
+      "questiontext": "Khi làm tròn số \\(a = 46,333...\\) đến hàng đơn vị, ta thu được kết quả xấp xỉ là bao nhiêu?",
+      "generalfeedback": "Chữ số ngay sau hàng đơn vị là 3 (< 5) nên giữ nguyên hàng đơn vị. Do đó \\(46,333... \\approx 46\\).",
+      "answers": [
+        {
+          "text": "46",
+          "fraction": 100
+        },
+        {
+          "text": "47",
+          "fraction": 0
+        },
+        {
+          "text": "46,3",
+          "fraction": 0
+        },
+        {
+          "text": "46,33",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Làm tròn số thập phân căn cứ vào độ chính xác cho trước",
+      "questiontext": "Làm tròn số \\(12\\ 591,27\\) với độ chính xác \\(d = 50\\) ta được kết quả là bao nhiêu?",
+      "generalfeedback": "Độ chính xác 50 tương ứng với làm tròn đến hàng trăm. Chữ số hàng chục là 9 (\\(\\ge 5\\)) nên tăng chữ số hàng trăm thêm 1 đơn vị: \\(12\\ 591,27 \\approx 12\\ 600\\).",
+      "answers": [
+        {
+          "text": "12 600",
+          "fraction": 100
+        },
+        {
+          "text": "12 500",
+          "fraction": 0
+        },
+        {
+          "text": "12 590",
+          "fraction": 0
+        },
+        {
+          "text": "12 591",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Làm tròn số thập phân căn cứ vào độ chính xác cho trước",
+      "questiontext": "Làm tròn số \\(12\\ 591,27\\) với độ chính xác \\(0,05\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Độ chính xác 0,05 tương ứng làm tròn đến hàng phần mười. Chữ số ở hàng phần trăm là 7 (\\(\\ge 5\\)) nên làm tròn lên: \\(12\\ 591,27 \\approx 12591.3\\).",
+      "answers": [
+        {
+          "text": "12591.3",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Làm tròn số thập phân căn cứ vào độ chính xác cho trước",
+      "questiontext": "Làm tròn số \\(3,14159\\) với độ chính xác \\(0,005\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Độ chính xác 0,005 tương ứng làm tròn đến hàng phần trăm. Chữ số ngay sau hàng phần trăm là 1 (< 5) nên giữ nguyên: \\(3,14159 \\approx 3.14\\).",
+      "answers": [
+        {
+          "text": "3.14",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Ước lượng kết quả phép tính",
+      "questiontext": "Ước lượng kết quả của phép tính \\(31,(81) \\cdot 4,9\\) bằng cách làm tròn hai thừa số đến hàng đơn vị thu được kết quả là bao nhiêu?",
+      "generalfeedback": "Làm tròn \\(31,(81)\\) đến hàng đơn vị được 32 (vì chữ số hàng phần mười là 8 \\(\\ge 5\\)). Làm tròn \\(4,9\\) đến hàng đơn vị được 5. Do đó tích ước lượng là \\(32 \\cdot 5 = 160\\).",
+      "answers": [
+        {
+          "text": "160",
+          "fraction": 100
+        },
+        {
+          "text": "155",
+          "fraction": 0
+        },
+        {
+          "text": "150",
+          "fraction": 0
+        },
+        {
+          "text": "165",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Làm tròn số thập phân căn cứ vào độ chính xác cho trước",
+      "questiontext": "Cho số \\(x = 3,2(31) = 3,2313131...\\). Tìm chữ số thập phân thứ năm của \\(x\\) và làm tròn số \\(x\\) đến chữ số thập phân thứ năm.",
+      "generalfeedback": "Số \\(x = 3,2313131...\\) có chữ số thập phân thứ nhất là 2, thứ hai là 3, thứ ba là 1, thứ tư là 3, thứ năm là 1. Chữ số thứ sáu là 3 (< 5) nên khi làm tròn đến chữ số thập phân thứ năm ta được 3,23131.",
+      "answers": [
+        {
+          "text": "Chữ số thứ năm là 1; kết quả làm tròn là 3,23131",
+          "fraction": 100
+        },
+        {
+          "text": "Chữ số thứ năm là 3; kết quả làm tròn là 3,23133",
+          "fraction": 0
+        },
+        {
+          "text": "Chữ số thứ năm là 1; kết quả làm tròn là 3,23132",
+          "fraction": 0
+        },
+        {
+          "text": "Chữ số thứ năm là 3; kết quả làm tròn là 3,23131",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_037",
+      "questiontext": "Kết quả làm tròn số \\(3,14159...\\) đến chữ số thập phân thứ ba là \\(3,142\\). Đúng hay sai?",
+      "generalfeedback": "Chữ số thập phân thứ ba là 1, chữ số ngay sau đó (thứ tư) là 5 (\\(\\ge 5\\)) nên cộng thêm 1 vào chữ số thứ ba: \\(3,14159... \\approx 3,142\\). Khẳng định này là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc làm tròn số",
+      "questiontext": "Khi làm tròn số đến một hàng nào đó, kết quả làm tròn có độ chính xác bằng [[1]] đơn vị hàng làm tròn. Đối với hàng phần mười, độ chính xác tương ứng là [[4]].",
+      "generalfeedback": "Theo quy tắc, độ chính xác bằng một nửa đơn vị hàng làm tròn. Hàng phần mười có đơn vị là 0,1 nên độ chính xác là 0,05.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "một nửa"
+        },
+        {
+          "group": 1,
+          "text": "một"
+        },
+        {
+          "group": 1,
+          "text": "hai lần"
+        },
+        {
+          "group": 1,
+          "text": "0,05"
+        },
+        {
+          "group": 1,
+          "text": "0,5"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm độ chính xác d",
+      "questiontext": "Để kết quả làm tròn có độ chính xác là 50, ta làm tròn số đến [[1]]. Để có độ chính xác 0,005, ta làm tròn đến [[2]].",
+      "generalfeedback": "Độ chính xác 50 tương ứng hàng trăm; độ chính xác 0,005 tương ứng hàng phần trăm.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "hàng trăm"
+        },
+        {
+          "group": 1,
+          "text": "hàng phần trăm"
+        },
+        {
+          "group": 1,
+          "text": "hàng chục"
+        },
+        {
+          "group": 1,
+          "text": "hàng phần mười"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "thong_hieu",
+      "metadata_code": "Làm tròn số thập phân căn cứ vào độ chính xác cho trước",
+      "questiontext": "Tính giá trị ước lượng của {a} khi làm tròn đến hàng đơn vị.",
+      "generalfeedback": "Số {a} có hàng phần mười nhỏ hơn 5 nên khi làm tròn đến hàng đơn vị giữ nguyên.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 10.0,
+          "max": 90.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Ước lượng kết quả phép tính",
+      "questiontext": "Một hình chữ nhật có chiều dài làm tròn là {a} m và chiều rộng làm tròn là {b} m. Ước lượng diện tích hình chữ nhật đó.",
+      "generalfeedback": "Diện tích ước lượng bằng tích chiều dài và chiều rộng đã làm tròn: {a}*{b}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 5.0,
+          "max": 20.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 2.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*{b}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Làm tròn số thập phân căn cứ vào độ chính xác cho trước",
+      "questiontext": "Số nào sau đây là kết quả làm tròn số \\(b = -1,27(534)\\) đến hàng phần trăm?",
+      "generalfeedback": "Chữ số ở hàng phần nghìn của \\(b = -1,27534...\\) là 5 (\\(\\ge 5\\)) nên làm tròn lên hàng phần trăm thu được \\(-1,28\\).",
+      "answers": [
+        {
+          "text": "-1,28",
+          "fraction": 100
+        },
+        {
+          "text": "-1,27",
+          "fraction": 0
+        },
+        {
+          "text": "-1,275",
+          "fraction": 0
+        },
+        {
+          "text": "-1,30",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_036",
+      "questiontext": "Bác An muốn ước lượng chi phí mua 4,8 kg táo với giá 31,5 nghìn đồng/kg bằng cách làm tròn khối lượng và giá tiền đến hàng đơn vị. Tích ước lượng là bao nhiêu?",
+      "generalfeedback": "Làm tròn 4,8 kg đến hàng đơn vị được 5 kg. Làm tròn 31,5 nghìn đồng đến hàng đơn vị được 32 nghìn đồng. Tích ước lượng là \\(5 \\cdot 32 = 160\\) nghìn đồng.",
+      "answers": [
+        {
+          "text": "160 nghìn đồng",
+          "fraction": 100
+        },
+        {
+          "text": "150 nghìn đồng",
+          "fraction": 0
+        },
+        {
+          "text": "155 nghìn đồng",
+          "fraction": 0
+        },
+        {
+          "text": "165 nghìn đồng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Làm tròn số thập phân căn cứ vào độ chính xác cho trước",
+      "questiontext": "Làm tròn số \\(0,010101...\\) đến hàng phần trăm. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Chữ số hàng phần nghìn là 0 (< 5) nên làm tròn giữ nguyên hàng phần trăm ta được 0.01.",
+      "answers": [
+        {
+          "text": "0.01",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm độ chính xác d",
+      "questiontext": "Khi làm tròn số thập phân với độ chính xác \\(d = 5\\), ta phải làm tròn số đó đến hàng chục. Đúng hay sai?",
+      "generalfeedback": "Độ chính xác 5 tương ứng với hàng chục (vì một nửa đơn vị của hàng chục là 5). Do đó khẳng định này là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_037",
+      "questiontext": "Cho số thập phân \\(a = 3,14159...\\). Nếu làm tròn \\(a\\) với độ chính xác \\(d = 0,5\\) thì kết quả là bao nhiêu?",
+      "generalfeedback": "Độ chính xác \\(d = 0,5\\) nghĩa là làm tròn đến hàng đơn vị. Chữ số hàng phần mười là 1 (< 5) nên kết quả xấp xỉ là 3.",
+      "answers": [
+        {
+          "text": "3",
+          "fraction": 100
+        },
+        {
+          "text": "3,1",
+          "fraction": 0
+        },
+        {
+          "text": "3,14",
+          "fraction": 0
+        },
+        {
+          "text": "4",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Làm tròn số thập phân căn cứ vào độ chính xác cho trước",
+      "questiontext": "Thực hiện làm tròn số \\(-6,725\\) đến hàng phần mười thu được kết quả nào sau đây?",
+      "generalfeedback": "Chữ số ở hàng phần trăm là 2 (< 5) nên khi làm tròn đến hàng phần mười ta giữ nguyên chữ số hàng phần mười: \\(-6,725 \\approx -6,7\\).",
+      "answers": [
+        {
+          "text": "-6,7",
+          "fraction": 100
+        },
+        {
+          "text": "-6,8",
+          "fraction": 0
+        },
+        {
+          "text": "-6,73",
+          "fraction": 0
+        },
+        {
+          "text": "-6,72",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc làm tròn số",
+      "questiontext": "Khi làm tròn số đến một hàng nào đó, kết quả làm tròn có độ chính xác bằng [[1]] đơn vị hàng làm tròn. Đối với hàng phần mười, độ chính xác tương ứng là [[4]].",
+      "generalfeedback": "Theo quy tắc, độ chính xác bằng một nửa đơn vị hàng làm tròn. Hàng phần mười có đơn vị là 0,1 nên độ chính xác là 0,05.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "một nửa"
+        },
+        {
+          "group": 1,
+          "text": "một"
+        },
+        {
+          "group": 1,
+          "text": "hai lần"
+        },
+        {
+          "group": 1,
+          "text": "0,05"
+        },
+        {
+          "group": 1,
+          "text": "0,5"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm độ chính xác d",
+      "questiontext": "Để kết quả làm tròn có độ chính xác là 50, ta làm tròn số đến [[1]]. Để có độ chính xác 0,005, ta làm tròn đến [[2]].",
+      "generalfeedback": "Độ chính xác 50 tương ứng hàng trăm; độ chính xác 0,005 tương ứng hàng phần trăm.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "hàng trăm"
+        },
+        {
+          "group": 1,
+          "text": "hàng phần trăm"
+        },
+        {
+          "group": 1,
+          "text": "hàng chục"
+        },
+        {
+          "group": 1,
+          "text": "hàng phần mười"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "thong_hieu",
+      "metadata_code": "Làm tròn số thập phân căn cứ vào độ chính xác cho trước",
+      "questiontext": "Tính giá trị ước lượng của {a} khi làm tròn đến hàng đơn vị.",
+      "generalfeedback": "Số {a} có hàng phần mười nhỏ hơn 5 nên khi làm tròn đến hàng đơn vị giữ nguyên.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 10.0,
+          "max": 90.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Ước lượng kết quả phép tính",
+      "questiontext": "Một hình chữ nhật có chiều dài làm tròn là {a} m và chiều rộng làm tròn là {b} m. Ước lượng diện tích hình chữ nhật đó.",
+      "generalfeedback": "Diện tích ước lượng bằng tích chiều dài và chiều rộng đã làm tròn: {a}*{b}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 5.0,
+          "max": 20.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 2.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*{b}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Làm tròn số thập phân căn cứ vào độ chính xác cho trước",
+      "questiontext": "Số nào sau đây là kết quả làm tròn số \\(b = -1,27(534)\\) đến hàng phần trăm?",
+      "generalfeedback": "Chữ số ở hàng phần nghìn của \\(b = -1,27534...\\) là 5 (\\(\\ge 5\\)) nên làm tròn lên hàng phần trăm thu được \\(-1,28\\).",
+      "answers": [
+        {
+          "text": "-1,28",
+          "fraction": 100
+        },
+        {
+          "text": "-1,27",
+          "fraction": 0
+        },
+        {
+          "text": "-1,275",
+          "fraction": 0
+        },
+        {
+          "text": "-1,30",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_036",
+      "questiontext": "Bác An muốn ước lượng chi phí mua 4,8 kg táo với giá 31,5 nghìn đồng/kg bằng cách làm tròn khối lượng và giá tiền đến hàng đơn vị. Tích ước lượng là bao nhiêu?",
+      "generalfeedback": "Làm tròn 4,8 kg đến hàng đơn vị được 5 kg. Làm tròn 31,5 nghìn đồng đến hàng đơn vị được 32 nghìn đồng. Tích ước lượng là \\(5 \\cdot 32 = 160\\) nghìn đồng.",
+      "answers": [
+        {
+          "text": "160 nghìn đồng",
+          "fraction": 100
+        },
+        {
+          "text": "150 nghìn đồng",
+          "fraction": 0
+        },
+        {
+          "text": "155 nghìn đồng",
+          "fraction": 0
+        },
+        {
+          "text": "165 nghìn đồng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Làm tròn số thập phân căn cứ vào độ chính xác cho trước",
+      "questiontext": "Làm tròn số \\(0,010101...\\) đến hàng phần trăm. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Chữ số hàng phần nghìn là 0 (< 5) nên làm tròn giữ nguyên hàng phần trăm ta được 0.01.",
+      "answers": [
+        {
+          "text": "0.01",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm độ chính xác d",
+      "questiontext": "Khi làm tròn số thập phân với độ chính xác \\(d = 5\\), ta phải làm tròn số đó đến hàng chục. Đúng hay sai?",
+      "generalfeedback": "Độ chính xác 5 tương ứng với hàng chục (vì một nửa đơn vị của hàng chục là 5). Do đó khẳng định này là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_037",
+      "questiontext": "Cho số thập phân \\(a = 3,14159...\\). Nếu làm tròn \\(a\\) với độ chính xác \\(d = 0,5\\) thì kết quả là bao nhiêu?",
+      "generalfeedback": "Độ chính xác \\(d = 0,5\\) nghĩa là làm tròn đến hàng đơn vị. Chữ số hàng phần mười là 1 (< 5) nên kết quả xấp xỉ là 3.",
+      "answers": [
+        {
+          "text": "3",
+          "fraction": 100
+        },
+        {
+          "text": "3,1",
+          "fraction": 0
+        },
+        {
+          "text": "3,14",
+          "fraction": 0
+        },
+        {
+          "text": "4",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Làm tròn số thập phân căn cứ vào độ chính xác cho trước",
+      "questiontext": "Thực hiện làm tròn số \\(-6,725\\) đến hàng phần mười thu được kết quả nào sau đây?",
+      "generalfeedback": "Chữ số ở hàng phần trăm là 2 (< 5) nên khi làm tròn đến hàng phần mười ta giữ nguyên chữ số hàng phần mười: \\(-6,725 \\approx -6,7\\).",
+      "answers": [
+        {
+          "text": "-6,7",
+          "fraction": 100
+        },
+        {
+          "text": "-6,8",
+          "fraction": 0
+        },
+        {
+          "text": "-6,73",
+          "fraction": 0
+        },
+        {
+          "text": "-6,72",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Trong giờ học làm tròn số thập phân với độ chính xác cho trước, khi gặp bài tập ước lượng phép tính khó, bạn Nam kiên trì làm lại nhiều lần và cẩn thận dùng bảng tra cứu SGK để kiểm tra lại từng bước cho đến khi tìm ra đáp án đúng. Hành vi của Nam thể hiện phẩm chất nào?",
+      "generalfeedback": "Sự kiên trì, cẩn thận và không nản lòng khi gặp bài tập khó là biểu hiện rõ nét của phẩm chất Chăm chỉ.",
+      "answers": [
+        {
+          "text": "Chăm chỉ",
+          "fraction": 100
+        },
+        {
+          "text": "Trung thực",
+          "fraction": 0
+        },
+        {
+          "text": "Trách nhiệm",
+          "fraction": 0
+        },
+        {
+          "text": "Yêu nước",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Trong khi làm bài kiểm tra ước lượng kết quả phép tính \\(31,(81) \\cdot 4,9\\), Minh tính ra kết quả làm tròn là 160. Khi liếc sang bài bạn bên cạnh thấy ghi 150, Minh vẫn tin tưởng vào bài làm đúng của mình và không sửa lại kết quả theo bạn. Việc làm của Minh thể hiện phẩm chất nào?",
+      "generalfeedback": "Việc tự tin vào kết quả trung thực do chính mình làm ra, không quay kop hay chép bài bạn thể hiện phẩm chất Trung thực.",
+      "answers": [
+        {
+          "text": "Trung thực",
+          "fraction": 100
+        },
+        {
+          "text": "Chăm chỉ",
+          "fraction": 0
+        },
+        {
+          "text": "Nhân ái",
+          "fraction": 0
+        },
+        {
+          "text": "Yêu nước",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Để chủ động chuẩn bị cho bài học làm tròn số thập phân, bạn An tự đọc SGK, tự tra cứu bảng độ chính xác cho trước và tự làm các bài tập ví dụ trước khi đến lớp. Việc làm của An thể hiện năng lực nào?",
+      "generalfeedback": "Tự giác đọc sách, nghiên cứu tài liệu và chủ động học tập trước khi đến lớp là biểu hiện của Năng lực tự chủ và tự học.",
+      "answers": [
+        {
+          "text": "Năng lực tự chủ và tự học",
+          "fraction": 100
+        },
+        {
+          "text": "Năng lực giao tiếp và hợp tác",
+          "fraction": 0
+        },
+        {
+          "text": "Năng lực tính toán",
+          "fraction": 0
+        },
+        {
+          "text": "Năng lực thẩm mỹ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_GIAOTIEP",
+      "questiontext": "Trong giờ thảo luận nhóm về cách ước lượng kết quả phép tính \\(31,(81) \\cdot 4,9\\), hai bạn trong nhóm có ý kiến khác nhau về cách làm tròn thừa số. Để giải quyết bất đồng và hoàn thành bài tập nhóm, các thành viên nên thực hiện hành vi nào sau đây?",
+      "generalfeedback": "Lắng nghe, tôn trọng ý kiến các bạn và cùng thảo luận dựa trên kiến thức SGK để thống nhất phương án là biểu hiện của Năng lực giao tiếp và hợp tác.",
+      "answers": [
+        {
+          "text": "Lắng nghe ý kiến của nhau, đối chiếu với quy tắc làm tròn trong SGK để thống nhất kết quả.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua ý kiến của bạn và bắt buộc nhóm dùng kết quả của mình.",
+          "fraction": 0
+        },
+        {
+          "text": "Không thảo luận nữa và báo giáo viên thay đổi nhóm học tập.",
+          "fraction": 0
+        },
+        {
+          "text": "Chọn ngẫu nhiên một trong hai kết quả để nộp cho giáo viên.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Bạn Bình lập luận: \"Vì khoảng cách từ điểm 46 đến điểm \\(a = 46,333...\\) trên trục số nhỏ hơn 0,5 (bằng một nửa khoảng cách từ 46 đến 47) nên 46 là kết quả làm tròn của \\(a\\) với độ chính xác 0,5\". Nhận xét nào sau đây đúng về lập luận của Bình?",
+      "generalfeedback": "Lập luận của Bình hoàn toàn chính xác vì căn cứ đúng vào định nghĩa làm tròn số và mối liên hệ với độ chính xác trên trục số.",
+      "answers": [
+        {
+          "text": "Lập luận đúng vì dựa trên định nghĩa khoảng cách trên trục số và quy tắc độ chính xác.",
+          "fraction": 100
+        },
+        {
+          "text": "Lập luận sai vì kết quả làm tròn của \\(a\\) phải là 46,3.",
+          "fraction": 0
+        },
+        {
+          "text": "Lập luận sai vì độ chính xác 0,5 ứng với hàng chục.",
+          "fraction": 0
+        },
+        {
+          "text": "Lập luận đúng nhưng kết quả làm tròn phải là 47.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "questiontext": "Một cửa hàng nông sản bán \\(31,8\\) kg cam với giá \\(24,9\\) nghìn đồng/kg. Để giải quyết bài toán ước lượng nhanh tổng số tiền thu được, người bán hàng làm tròn khối lượng và giá tiền đến hàng đơn vị. Tổng số tiền thu được ước lượng khoảng bao nhiêu nghìn đồng?",
+      "generalfeedback": "Làm tròn 31,8 kg đến hàng đơn vị được 32 kg. Làm tròn 24,9 nghìn đồng đến hàng đơn vị được 25 nghìn đồng. Tích ước lượng là \\(32 \\cdot 25 = 800\\) nghìn đồng.",
+      "answers": [
+        {
+          "text": "800 nghìn đồng",
+          "fraction": 100
+        },
+        {
+          "text": "750 nghìn đồng",
+          "fraction": 0
+        },
+        {
+          "text": "760 nghìn đồng",
+          "fraction": 0
+        },
+        {
+          "text": "820 nghìn đồng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "5.2TC1b_K7",
+      "questiontext": "Để thực hiện làm tròn tự động một danh sách các số thập phân trong phần mềm bảng tính Excel đến 1 chữ số thập phân (độ chính xác 0,05), học sinh nên sử dụng công cụ/hàm số nào sau đây?",
+      "generalfeedback": "Hàm ROUND trong bảng tính Excel cho phép làm tròn số thập phân đến số chữ số xác định sau dấu phẩy.",
+      "answers": [
+        {
+          "text": "Sử dụng hàm ROUND(số, 1)",
+          "fraction": 100
+        },
+        {
+          "text": "Sử dụng hàm SUM(số, 1)",
+          "fraction": 0
+        },
+        {
+          "text": "Sử dụng hàm AVERAGE(số, 1)",
+          "fraction": 0
+        },
+        {
+          "text": "Sử dụng hàm MAX(số, 1)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "7.A1.2_1",
+      "questiontext": "Một học sinh sử dụng phần mềm AI để làm tròn danh sách số dư trong tài khoản với độ chính xác 0,05. Tuy nhiên AI lại tự động làm tròn đến hàng đơn vị dẫn đến sai lệch dữ liệu. Hậu quả nào có thể xảy ra nếu không có sự kiểm tra, xác thực của con người đối với kết quả do AI đưa ra?",
+      "generalfeedback": "Việc tin tưởng mù quáng vào AI mà không kiểm tra lại có thể dẫn đến sai lệch số liệu tài chính thực tế, gây thất thoát hoặc hiểu lầm về số liệu.",
+      "answers": [
+        {
+          "text": "Gây sai lệch số liệu tài chính thực tế và thất thoát thông tin.",
+          "fraction": 100
+        },
+        {
+          "text": "Giúp kết quả tính toán luôn đạt độ chính xác tuyệt đối.",
+          "fraction": 0
+        },
+        {
+          "text": "Không gây ra bất kỳ ảnh hưởng hay hậu quả nào.",
+          "fraction": 0
+        },
+        {
+          "text": "Giúp tiết kiệm thời gian mà không cần kiểm tra lại.",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

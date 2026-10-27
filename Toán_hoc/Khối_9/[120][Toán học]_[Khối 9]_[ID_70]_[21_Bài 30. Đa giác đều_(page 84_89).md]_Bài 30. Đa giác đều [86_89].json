@@ -1,0 +1,732 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 28,
+    "metadata_used": {
+      "YCCD_TOAN9_096": 2,
+      "Định nghĩa phép quay tâm O góc quay alpha": 2,
+      "Xác định ảnh của điểm, đoạn thẳng qua phép quay": 9,
+      "Các phép quay giữ nguyên hình đa giác đều": 1,
+      "YCCD_TOAN9_097": 2,
+      "Mô tả các phép quay biến đa giác đều thành chính nó": 4,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TUHOC_C2_01": 1,
+      "SUB_GQVD_DEXUAT_C2_02": 2,
+      "NLT_TOAN_C2_01_03": 2,
+      "NLT_TOAN_C2_01_08": 1
+    },
+    "types_used": {
+      "multichoice": 11,
+      "truefalse": 3,
+      "gapselect": 3,
+      "shortanswer": 2,
+      "matching": 3,
+      "ddwtos": 2,
+      "calculatedsimple": 2,
+      "numerical": 2
+    },
+    "total": 28
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN9_096",
+        "reason": "Nhận biết được phép quay"
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_097",
+        "reason": "Mô tả được các phép quay giữ nguyên hình đa giác đều"
+      },
+      {
+        "metadata_code": "Định nghĩa phép quay tâm O góc quay alpha",
+        "reason": "Định nghĩa phép quay tâm O góc quay alpha"
+      },
+      {
+        "metadata_code": "Các phép quay giữ nguyên hình đa giác đều",
+        "reason": "Các phép quay giữ nguyên hình đa giác đều"
+      },
+      {
+        "metadata_code": "Xác định ảnh của điểm, đoạn thẳng qua phép quay",
+        "reason": "Xác định ảnh của điểm, đoạn thẳng qua phép quay"
+      },
+      {
+        "metadata_code": "Mô tả các phép quay biến đa giác đều thành chính nó",
+        "reason": "Mô tả các phép quay biến đa giác đều thành chính nó"
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Luôn cố gắng vươn lên đạt kết quả tốt trong học tập"
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+        "reason": "Tự đặt được mục tiêu học tập để nỗ lực phấn đấu thực hiện"
+      },
+      {
+        "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+        "reason": "Đề xuất được giải pháp giải quyết vấn đề"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_03",
+        "reason": "Giải thích được sự tương đồng và khác biệt trong nhiều tình huống"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_08",
+        "reason": "Chứng minh được mệnh đề toán học không quá phức tạp"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Nội dung bài học thuộc hình học thuần túy (phép quay và đa giác đều), không chứa mạch kiến thức công cụ tin học/số tự nhiên nên không thể đo lường gượng ép."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Bài học không có thành tố liên quan trực tiếp đến nguyên lý hay ứng dụng trí tuệ nhân tạo (AI), việc ghép nối sẽ gây gượng ép."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_096",
+      "questiontext": "Trong mặt phẳng, phép quay thuận chiều \\(\\alpha^\\circ\\) (với \\(0^\\circ < \\alpha^\\circ < 360^\\circ\\)) tâm \\(O\\) biến điểm \\(A\\) (khác \\(O\\)) thành điểm \\(B\\). Khẳng định nào sau đây là đúng?",
+      "generalfeedback": "Theo định nghĩa phép quay, phép quay tâm \\(O\\) biến điểm \\(A\\) thành điểm \\(B\\) thuộc đường tròn \\((O; OA)\\), do đó \\(OA = OB\\).",
+      "answers": [
+        {
+          "text": "Điểm \\(B\\) thuộc đường tròn \\((O; OA)\\) và \\(OA = OB\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Điểm \\(B\\) luôn trùng với tâm quay \\(O\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Khoảng cách \\(OB\\) gấp đôi khoảng cách \\(OA\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Điểm \\(B\\) nằm ngoài đường tròn \\((O; OA)\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Định nghĩa phép quay tâm O góc quay alpha",
+      "questiontext": "Phép quay \\(0^\\circ\\) và phép quay \\(360^\\circ\\) tâm \\(O\\) giữ nguyên mọi điểm trong mặt phẳng. Phát biểu này đúng hay sai?",
+      "generalfeedback": "Theo SGK, phép quay \\(0^\\circ\\) và phép quay \\(360^\\circ\\) giữ nguyên mọi điểm.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_096",
+      "questiontext": "Phép quay thuận chiều \\(\\alpha^\\circ\\) (với \\(0^\\circ < \\alpha^\\circ < 360^\\circ\\)) tâm \\(O\\) giữ nguyên [[1]], biến điểm \\(A\\) khác \\(O\\) thành điểm \\(B\\) thuộc đường tròn \\((O; OA)\\) sao cho tia \\(OA\\) quay [[2]] chiều quay của kim đồng hồ đến tia \\(OB\\).",
+      "generalfeedback": "Phép quay tâm \\(O\\) giữ nguyên điểm \\(O\\) và khi quay thuận chiều thì tia \\(OA\\) quay thuận chiều quay của kim đồng hồ đến tia \\(OB\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "điểm O"
+        },
+        {
+          "group": 1,
+          "text": "thuận"
+        },
+        {
+          "group": 1,
+          "text": "điểm A"
+        },
+        {
+          "group": 1,
+          "text": "ngược"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Định nghĩa phép quay tâm O góc quay alpha",
+      "questiontext": "Cho điểm \\(A\\) khác điểm \\(O\\). Phép quay ngược chiều \\(180^\\circ\\) tâm \\(O\\) biến điểm \\(A\\) thành điểm \\(A'\\). Khi đó điểm \\(A'\\) đối xứng với điểm \\(A\\) qua điểm nào?",
+      "generalfeedback": "Phép quay \\(180^\\circ\\) tâm \\(O\\) biến \\(A\\) thành \\(A'\\) sao cho \\(O\\) là trung điểm của \\(AA'\\), tức là \\(A'\\) đối xứng với \\(A\\) qua điểm \\(O\\).",
+      "answers": [
+        {
+          "text": "điểm O",
+          "fraction": 100
+        },
+        {
+          "text": "O",
+          "fraction": 100
+        },
+        {
+          "text": "Điểm O",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Xác định ảnh của điểm, đoạn thẳng qua phép quay",
+      "questiontext": "Cho tam giác đều \\(ABC\\) nội tiếp đường tròn tâm \\(O\\). Hãy ghép mỗi đỉnh của tam giác với ảnh tương ứng của nó qua phép quay ngược chiều \\(120^\\circ\\) tâm \\(O\\).",
+      "generalfeedback": "Phép quay ngược chiều \\(120^\\circ\\) tâm \\(O\\) biến đỉnh \\(A\\) thành \\(B\\), biến đỉnh \\(B\\) thành \\(C\\), và biến đỉnh \\(C\\) thành \\(A\\).",
+      "subquestions": [
+        {
+          "question": "Đỉnh \\(A\\)",
+          "answer": "Đỉnh \\(B\\)"
+        },
+        {
+          "question": "Đỉnh \\(B\\)",
+          "answer": "Đỉnh \\(C\\)"
+        },
+        {
+          "question": "Đỉnh \\(C\\)",
+          "answer": "Đỉnh \\(A\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Xác định ảnh của điểm, đoạn thẳng qua phép quay",
+      "imgs": [
+        "_page_5_Figure_6.jpeg"
+      ],
+      "questiontext": "Quan sát hình vẽ dưới đây [img:_page_5_Figure_6.jpeg]. Trong các hình (a), (b), (c), hình nào vẽ hai điểm \\(M\\) và \\(N\\) thỏa mãn phép quay thuận chiều \\(60^\\circ\\) tâm \\(O\\) biến điểm \\(M\\) thành điểm \\(N\\)?",
+      "generalfeedback": "Phép quay thuận chiều \\(60^\\circ\\) tâm \\(O\\) biến điểm \\(M\\) thành điểm \\(N\\) đòi hỏi \\(OM = ON\\) và góc quay từ tia \\(OM\\) đến tia \\(ON\\) theo chiều kim đồng hồ có số đo \\(60^\\circ\\). Do đó hình (a) thỏa mãn.",
+      "answers": [
+        {
+          "text": "Hình (a)",
+          "fraction": 100
+        },
+        {
+          "text": "Hình (b)",
+          "fraction": 0
+        },
+        {
+          "text": "Hình (c)",
+          "fraction": 0
+        },
+        {
+          "text": "Cả ba hình (a), (b), (c)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Các phép quay giữ nguyên hình đa giác đều",
+      "questiontext": "Một phép quay được gọi là giữ nguyên một đa giác đều H nếu phép quay đó thỏa mãn điều kiện nào sau đây?",
+      "generalfeedback": "Theo định nghĩa SGK: Một phép quay được gọi là giữ nguyên một đa giác đều H nếu phép quay đó biến mỗi điểm của H thành một điểm của H.",
+      "answers": [
+        {
+          "text": "Biến mỗi điểm của H thành một điểm của H",
+          "fraction": 100
+        },
+        {
+          "text": "Biến mọi điểm trong mặt phẳng thành tâm quay \\(O\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Biến đa giác đều H thành một hình tròn",
+          "fraction": 0
+        },
+        {
+          "text": "Làm thay đổi kích thước và chu vi của H",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_097",
+      "questiontext": "Cho hình vuông \\(ABCD\\) nội tiếp đường tròn tâm \\(O\\). Phép quay thuận chiều [[1]] tâm \\(O\\) biến đỉnh \\(A\\) thành đỉnh \\(B\\), biến đỉnh \\(B\\) thành đỉnh \\(C\\), biến đỉnh \\(C\\) thành đỉnh \\(D\\) và biến đỉnh \\(D\\) thành đỉnh \\(A\\). Phép quay này [[2]] hình vuông \\(ABCD\\).",
+      "generalfeedback": "Hình vuông có 4 đỉnh chia đường tròn ngoại tiếp thành 4 cung bằng nhau, mỗi cung có số đo \\(360^\\circ / 4 = 90^\\circ\\). Phép quay thuận chiều \\(90^\\circ\\) biến các đỉnh thành đỉnh tiếp theo nên giữ nguyên hình vuông.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "90°"
+        },
+        {
+          "group": 1,
+          "text": "giữ nguyên"
+        },
+        {
+          "group": 1,
+          "text": "45°"
+        },
+        {
+          "group": 1,
+          "text": "làm thay đổi"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Mô tả các phép quay biến đa giác đều thành chính nó",
+      "questiontext": "Cho một đa giác đều có {n} đỉnh nội tiếp đường tròn tâm \\(O\\). Số đo góc quay thuận chiều nhỏ nhất \\(\\alpha^\\circ\\) (với \\(0^\\circ < \\alpha^\\circ \\le 360^\\circ\\)) tâm \\(O\\) giữ nguyên đa giác đều đó được tính theo công thức nào?",
+      "generalfeedback": "Góc quay thuận chiều nhỏ nhất giữ nguyên đa giác đều {n} đỉnh là góc quay biến một đỉnh thành đỉnh kề với nó, có số đo bằng \\(360^\\circ / n\\).",
+      "wildcards": [
+        {
+          "name": "n",
+          "min": 3.0,
+          "max": 12.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "360/{n}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Xác định ảnh của điểm, đoạn thẳng qua phép quay",
+      "questiontext": "Cho tam giác đều \\(ABC\\) nội tiếp đường tròn tâm \\(O\\). Tính số đo góc quay ngược chiều nhỏ nhất (tính theo độ) tâm \\(O\\) biến đỉnh \\(A\\) thành đỉnh \\(B\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Ba đỉnh \\(A, B, C\\) của tam giác đều chia đường tròn tâm \\(O\\) thành 3 cung bằng nhau, mỗi cung có số đo \\(360^\\circ / 3 = 120^\\circ\\). Phép quay ngược chiều tâm \\(O\\) biến \\(A\\) thành \\(B\\) có góc quay bằng \\(120^\\circ\\).",
+      "answers": [
+        {
+          "text": "120",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Xác định ảnh của điểm, đoạn thẳng qua phép quay",
+      "imgs": [
+        "_page_5_Picture_14.jpeg"
+      ],
+      "questiontext": "Cho vòng quay mặt trời gồm 8 cabin được phân bố đều trên đường tròn tâm \\(O\\) như hình vẽ [img:_page_5_Picture_14.jpeg]. Góc quay thuận chiều tâm \\(O\\) giữa hai cabin kề nhau bằng bao nhiêu độ?",
+      "generalfeedback": "Vòng quay gồm 8 cabin chia cả đường tròn \\(360^\\circ\\) thành 8 phần bằng nhau. Do đó, góc quay thuận chiều giữa hai cabin kề nhau là \\(360^\\circ / 8 = 45^\\circ\\).",
+      "answers": [
+        {
+          "text": "45°",
+          "fraction": 100
+        },
+        {
+          "text": "60°",
+          "fraction": 0
+        },
+        {
+          "text": "90°",
+          "fraction": 0
+        },
+        {
+          "text": "30°",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Mô tả các phép quay biến đa giác đều thành chính nó",
+      "questiontext": "Một lục giác đều nội tiếp đường tròn tâm \\(O\\). Tập hợp nào sau đây gồm đúng 6 số đo góc quay thuận chiều \\(\\alpha^\\circ\\) (với \\(0^\\circ < \\alpha^\\circ \\le 360^\\circ\\)) tâm \\(O\\) giữ nguyên lục giác đều đó?",
+      "generalfeedback": "Lục giác đều có 6 đỉnh chia đường tròn thành 6 cung bằng nhau, mỗi cung \\(60^\\circ\\). Các góc quay thuận chiều giữ nguyên lục giác đều là các bội của \\(60^\\circ\\): \\(60^\\circ, 120^\\circ, 180^\\circ, 240^\\circ, 300^\\circ, 360^\\circ\\).",
+      "answers": [
+        {
+          "text": "60°, 120°, 180°, 240°, 300°, 360°",
+          "fraction": 100
+        },
+        {
+          "text": "30°, 60°, 90°, 120°, 150°, 180°",
+          "fraction": 0
+        },
+        {
+          "text": "45°, 90°, 135°, 180°, 225°, 270°",
+          "fraction": 0
+        },
+        {
+          "text": "72°, 144°, 216°, 288°, 360°, 432°",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Mô tả các phép quay biến đa giác đều thành chính nó",
+      "questiontext": "Để giữ nguyên một ngũ giác đều nội tiếp đường tròn tâm \\(O\\), các góc quay thuận chiều \\(\\alpha^\\circ\\) (với \\(0^\\circ < \\alpha^\\circ \\le 360^\\circ\\)) tâm \\(O\\) phải là bội số của góc quay nhỏ nhất nào?",
+      "generalfeedback": "Ngũ giác đều có 5 đỉnh, chia đường tròn thành 5 cung bằng nhau có số đo \\(360^\\circ / 5 = 72^\\circ\\). Do đó các góc quay giữ nguyên ngũ giác đều là bội số của \\(72^\\circ\\).",
+      "answers": [
+        {
+          "text": "72°",
+          "fraction": 100
+        },
+        {
+          "text": "60°",
+          "fraction": 0
+        },
+        {
+          "text": "90°",
+          "fraction": 0
+        },
+        {
+          "text": "45°",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Xác định ảnh của điểm, đoạn thẳng qua phép quay",
+      "questiontext": "Cho hình vuông \\(ABCD\\) nội tiếp đường tròn tâm \\(O\\) (các đỉnh xếp theo chiều kim đồng hồ). Hãy ghép mỗi đỉnh với ảnh tương ứng của nó qua phép quay thuận chiều \\(90^\\circ\\) tâm \\(O\\).",
+      "generalfeedback": "Phép quay thuận chiều \\(90^\\circ\\) tâm \\(O\\) biến mỗi đỉnh của hình vuông thành đỉnh kế tiếp theo chiều kim đồng hồ: \\(A \\rightarrow B\\), \\(B \\rightarrow C\\), \\(C \\rightarrow D\\).",
+      "subquestions": [
+        {
+          "question": "Đỉnh \\(A\\)",
+          "answer": "Đỉnh \\(B\\)"
+        },
+        {
+          "question": "Đỉnh \\(B\\)",
+          "answer": "Đỉnh \\(C\\)"
+        },
+        {
+          "question": "Đỉnh \\(C\\)",
+          "answer": "Đỉnh \\(D\\)"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_097",
+      "questiontext": "Nếu một phép quay biến các đỉnh của đa giác đều thành các đỉnh của chính đa giác đều đó thì phép quay đó giữ nguyên đa giác đều. Phát biểu này đúng hay sai?",
+      "generalfeedback": "Theo kết quả tổng quát trong SGK: Nếu một phép quay biến các đỉnh của đa giác đều thành các đỉnh của đa giác đều đó thì phép quay đó giữ nguyên đa giác đều.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Xác định ảnh của điểm, đoạn thẳng qua phép quay",
+      "questiontext": "Cho tam giác đều \\(ABC\\) nội tiếp đường tròn tâm \\(O\\) (theo chiều ngược kim đồng hồ). Phép quay ngược chiều \\(240^\\circ\\) tâm \\(O\\) biến đỉnh \\(A\\) thành đỉnh nào?",
+      "generalfeedback": "Phép quay ngược chiều \\(120^\\circ\\) biến \\(A \\rightarrow B\\), góc quay ngược chiều \\(240^\\circ = 2 \\times 120^\\circ\\) biến \\(A \\rightarrow C\\).",
+      "answers": [
+        {
+          "text": "Đỉnh C",
+          "fraction": 100
+        },
+        {
+          "text": "đỉnh C",
+          "fraction": 100
+        },
+        {
+          "text": "C",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Xác định ảnh của điểm, đoạn thẳng qua phép quay",
+      "imgs": [
+        "_page_5_Picture_12.jpeg"
+      ],
+      "questiontext": "Cho tam giác đều \\(ABC\\) nội tiếp đường tròn tâm \\(O\\) [img:_page_5_Picture_12.jpeg]. Phép quay ngược chiều \\(60^\\circ\\) tâm \\(O\\) biến các điểm \\(A, B, C\\) lần lượt thành các điểm \\(D, E, F\\). Khi đó hình \\(ADBECF\\) tạo thành một [[1]] có tất cả [[2]] cạnh bằng nhau.",
+      "generalfeedback": "Bài 9.28 SGK: Các điểm \\(A, D, B, E, C, F\\) chia đường tròn thành 6 cung bằng nhau nên \\(ADBECF\\) là một lục giác đều có 6 cạnh bằng nhau.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "lục giác đều"
+        },
+        {
+          "group": 1,
+          "text": "6"
+        },
+        {
+          "group": 1,
+          "text": "tam giác đều"
+        },
+        {
+          "group": 1,
+          "text": "8"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "Mô tả các phép quay biến đa giác đều thành chính nó",
+      "questiontext": "Cho một lục giác đều nội tiếp đường tròn tâm \\(O\\). Các phép quay thuận chiều tâm \\(O\\) giữ nguyên lục giác đều đó có số đo góc quay là bội số của [[1]]. Có tất cả [[2]] phép quay thuận chiều \\(\\alpha^\\circ\\) (với \\(0^\\circ < \\alpha^\\circ \\le 360^\\circ\\)) giữ nguyên lục giác đều.",
+      "generalfeedback": "Lục giác đều có 6 đỉnh, góc quay nhỏ nhất giữ nguyên hình là \\(360^\\circ / 6 = 60^\\circ\\). Do đó có 6 phép quay thuận chiều ứng với các góc quay là bội của \\(60^\\circ\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "60°"
+        },
+        {
+          "group": 1,
+          "text": "6"
+        },
+        {
+          "group": 1,
+          "text": "90°"
+        },
+        {
+          "group": 1,
+          "text": "4"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Xác định ảnh của điểm, đoạn thẳng qua phép quay",
+      "questiontext": "Cho hình vuông \\(ABCD\\) nội tiếp đường tròn tâm \\(O\\). Tính số đo góc quay thuận chiều nhỏ nhất (tính theo độ) tâm \\(O\\) biến đỉnh \\(A\\) thành đỉnh \\(B\\) (biết các đỉnh xếp theo chiều kim đồng hồ). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Bốn đỉnh của hình vuông chia đường tròn tâm \\(O\\) thành 4 cung bằng nhau, số đo mỗi cung là \\(360^\\circ / 4 = 90^\\circ\\). Phép quay thuận chiều biến \\(A\\) thành \\(B\\) có góc quay bằng \\(90^\\circ\\).",
+      "answers": [
+        {
+          "text": "90",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Xác định ảnh của điểm, đoạn thẳng qua phép quay",
+      "questiontext": "Cho hình vuông \\(ABCD\\) nội tiếp đường tròn tâm \\(O\\). Thực hiện {a} lần liên tiếp phép quay thuận chiều \\(90^\\circ\\) tâm \\(O\\). Tính tổng số đo góc quay (tính theo độ) của phép quay thuận chiều tương đương tâm \\(O\\).",
+      "generalfeedback": "Quay {a} lần liên tiếp góc \\(90^\\circ\\) tương đương phép quay thuận chiều có góc quay bằng {a} * 90 độ.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 4.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*90",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi học về phép quay giữ nguyên đa giác đều, An gặp khó khăn trong việc xác định các góc quay giữ nguyên một hình bát giác đều. Để thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập, An nên thực hiện hành động nào sau đây?",
+      "generalfeedback": "Hành động thể hiện sự nỗ lực, cố gắng vươn lên trong học tập là tự giác vẽ lại hình, phân tích số đo các cung do 8 đỉnh chia ra và kiên trì tìm quy luật các góc quay.",
+      "answers": [
+        {
+          "text": "Tự giác vẽ lại hình bát giác đều, phân tích góc quay từ tâm \\(O\\) và kiên trì tìm quy luật các góc quay là bội của 45°",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài tập này và chờ thầy cô sửa bài trên lớp",
+          "fraction": 0
+        },
+        {
+          "text": "Chép ngay đáp án của bạn khác để hoàn thành bài tập nhanh chóng",
+          "fraction": 0
+        },
+        {
+          "text": "Nhờ bạn làm hộ toàn bộ bài tập để không phải suy nghĩ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi gặp một bài toán khó về tìm phép quay biến đa giác đều thành chính nó, bạn Bình quyết định tự mình rèn luyện bằng cách tìm thêm các bài tập tương tự trong SGK để làm cho đến khi hiểu rõ bản chất. Hành động này phản ánh phẩm chất luôn cố gắng vươn lên đạt kết quả tốt trong học tập. Phát biểu này đúng hay sai?",
+      "generalfeedback": "Hành động chủ động tìm thêm bài tập để rèn luyện và làm chủ kiến thức thể hiện rõ tinh thần cố gắng vươn lên đạt kết quả tốt trong học tập.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Để chủ động tự học và đạt kết quả cao trong chủ đề 'Phép quay giữ nguyên đa giác đều', mục tiêu học tập nào sau đây thể hiện việc tự đặt mục tiêu cụ thể và phù hợp nhất?",
+      "generalfeedback": "Mục tiêu học tập tốt cần cụ thể, rõ ràng về hành vi kiến thức (mô tả, xác định góc quay) và có thời gian thực hiện rõ ràng.",
+      "answers": [
+        {
+          "text": "Tự vẽ hình và xác định chính xác tất cả các góc quay giữ nguyên tam giác đều, hình vuông và lục giác đều trong tuần này",
+          "fraction": 100
+        },
+        {
+          "text": "Học thuộc lòng các kết quả trong SGK mà không cần vẽ hình hay hiểu bản chất phép quay",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ làm các câu hỏi nhận biết đơn giản và bỏ qua các bài tập vận dụng về đa giác đều",
+          "fraction": 0
+        },
+        {
+          "text": "Chờ đến sát ngày thi mới mở sách ra đọc lại lý thuyết",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "imgs": [
+        "_page_5_Picture_14.jpeg"
+      ],
+      "questiontext": "Một nhà thiết kế muốn tạo hiệu ứng trình chiếu cho vòng quay mặt trời 8 cabin [img:_page_5_Picture_14.jpeg]. Người đó muốn cabin A di chuyển đến vị trí của cabin kề nó theo chiều kim đồng hồ. Giải pháp đề xuất nào sau đây sử dụng đúng kiến thức phép quay của bài học?",
+      "generalfeedback": "Vòng quay 8 cabin chia đường tròn thành 8 phần bằng nhau, mỗi phần có số đo \\(360^\\circ / 8 = 45^\\circ\\). Do đó giải pháp là thực hiện phép quay thuận chiều 45° tâm \\(O\\).",
+      "answers": [
+        {
+          "text": "Quay vòng quay thuận chiều quay kim đồng hồ một góc 45° quanh tâm \\(O\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Quay vòng quay ngược chiều quay kim đồng hồ một góc 45° quanh tâm \\(O\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Quay vòng quay thuận chiều quay kim đồng hồ một góc 90° quanh tâm \\(O\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Quay vòng quay thuận chiều quay kim đồng hồ một góc 60° quanh tâm \\(O\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_03",
+      "questiontext": "Xét phép quay giữ nguyên tam giác đều \\(ABC\\) tâm \\(O\\) và phép quay giữ nguyên hình vuông \\(ABCD\\) tâm \\(O\\). Phân tích nào sau đây giải thích chính xác sự tương đồng và khác biệt về góc quay giữ nguyên hai hình này?",
+      "generalfeedback": "Tương đồng: Cả hai phép quay đều có tâm là tâm đường tròn ngoại tiếp đa giác. Khác biệt: Góc quay thuận chiều nhỏ nhất giữ nguyên tam giác đều là \\(360^\\circ / 3 = 120^\\circ\\), trong khi hình vuông là \\(360^\\circ / 4 = 90^\\circ\\).",
+      "answers": [
+        {
+          "text": "Tương đồng: Tâm quay đều là tâm đường tròn ngoại tiếp đa giác; Khác biệt: Góc quay thuận chiều nhỏ nhất giữ nguyên tam giác đều là 120°, còn hình vuông là 90°",
+          "fraction": 100
+        },
+        {
+          "text": "Tương đồng: Góc quay nhỏ nhất đều bằng 60°; Khác biệt: Tam giác đều có 4 phép quay, hình vuông có 3 phép quay",
+          "fraction": 0
+        },
+        {
+          "text": "Tương đồng: Đều biến các đỉnh thành tâm quay \\(O\\); Khác biệt: Hình vuông không có phép quay nào giữ nguyên chính nó",
+          "fraction": 0
+        },
+        {
+          "text": "Tương đồng: Số phép quay giữ nguyên hình bằng số cạnh; Khác biệt: Tam giác đều có góc quay nhỏ nhất là 90°",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_08",
+      "imgs": [
+        "_page_5_Picture_12.jpeg"
+      ],
+      "questiontext": "Cho tam giác đều \\(ABC\\) nội tiếp đường tròn tâm \\(O\\) [img:_page_5_Picture_12.jpeg]. Phép quay ngược chiều 60° tâm \\(O\\) biến các điểm \\(A, B, C\\) lần lượt thành các điểm \\(D, E, F\\). Để chứng minh hình \\(ADBECF\\) là một lục giác đều, lập luận nào sau đây là đầy đủ và chính xác nhất?",
+      "generalfeedback": "Lập luận đúng: Chứng minh 6 điểm \\(A, D, B, E, C, F\\) nằm trên đường tròn \\((O)\\) và chia đường tròn thành 6 cung tròn bằng nhau (mỗi cung 60°), từ đó suy ra 6 cạnh bằng nhau và 6 góc trong bằng nhau.",
+      "answers": [
+        {
+          "text": "Chứng minh 6 điểm \\(A, D, B, E, C, F\\) nằm trên đường tròn \\((O)\\) và chia đường tròn thành 6 cung bằng nhau có số đo 60°, suy ra các cạnh và các góc của \\(ADBECF\\) bằng nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ cần chỉ ra 6 điểm cùng thuộc đường tròn \\((O)\\) mà không cần xét số đo các cung tròn",
+          "fraction": 0
+        },
+        {
+          "text": "Chứng minh các đoạn thẳng \\(AB, BC, CA\\) bằng nhau rồi kết luận ngay \\(ADBECF\\) là lục giác đều",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ cần chứng minh tam giác \\(ABC\\) và tam giác \\(DEF\\) bằng nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_03",
+      "questiontext": "Hãy ghép mỗi loại đa giác đều nội tiếp đường tròn tâm \\(O\\) ở cột bên trái với góc quay thuận chiều nhỏ nhất \\(\\alpha^\\circ\\) (với \\(0^\\circ < \\alpha^\\circ \\le 360^\\circ\\)) tâm \\(O\\) giữ nguyên đa giác đó ở cột bên phải.",
+      "generalfeedback": "Góc quay thuận chiều nhỏ nhất giữ nguyên đa giác đều \\(n\\) đỉnh nội tiếp đường tròn tâm \\(O\\) là \\(360^\\circ / n\\). Cụ thể: Tam giác đều (n=3) -> 120°; Hình vuông (n=4) -> 90°; Lục giác đều (n=6) -> 60°.",
+      "subquestions": [
+        {
+          "question": "Tam giác đều",
+          "answer": "120°"
+        },
+        {
+          "question": "Hình vuông",
+          "answer": "90°"
+        },
+        {
+          "question": "Lục giác đều",
+          "answer": "60°"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Khi thiết kế một logo hình đa giác đều có tính đối xứng quay, bạn Nam muốn tạo hoa văn bằng cách quay một họa tiết ban đầu quanh tâm \\(O\\). Để họa tiết lặp lại đúng 5 lần tạo thành ngũ giác đều, Nam cần đề xuất thực hiện phép quay tâm \\(O\\) với góc quay là bội của [[1]]. Sau khi quay 5 lần liên tiếp với góc quay này, họa tiết sẽ trở lại [[2]].",
+      "generalfeedback": "Ngũ giác đều có 5 phần bằng nhau, góc quay nhỏ nhất là \\(360^\\circ / 5 = 72^\\circ\\). Quay 5 lần góc 72° bằng 360° đưa họa tiết trở lại vị trí ban đầu.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "72°"
+        },
+        {
+          "group": 1,
+          "text": "vị trí ban đầu"
+        },
+        {
+          "group": 1,
+          "text": "60°"
+        },
+        {
+          "group": 1,
+          "text": "vị trí đối diện"
+        }
+      ]
+    }
+  ]
+}

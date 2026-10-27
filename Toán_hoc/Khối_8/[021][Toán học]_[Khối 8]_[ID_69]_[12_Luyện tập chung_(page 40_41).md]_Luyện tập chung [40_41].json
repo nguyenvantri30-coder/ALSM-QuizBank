@@ -1,0 +1,695 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 28,
+    "metadata_used": {
+      "Ứng dụng hằng đẳng thức trong tính toán số học": 4,
+      "Vận dụng hằng đẳng thức để tính nhẩm": 7,
+      "Vận dụng hằng đẳng thức để rút gọn biểu thức": 6,
+      "YCCD_TOAN8_021": 3,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TUHOC_C2_04": 2,
+      "NLT_TOAN_C2_01_01": 2,
+      "NLT_TOAN_C2_03_05": 2
+    },
+    "types_used": {
+      "multichoice": 14,
+      "shortanswer": 2,
+      "numerical": 2,
+      "truefalse": 2,
+      "matching": 2,
+      "gapselect": 3,
+      "ddwtos": 1,
+      "calculated": 1,
+      "calculatedsimple": 1
+    },
+    "levels_used": {
+      "nhan_biet": 3,
+      "van_dung": 19,
+      "thong_hieu": 6
+    },
+    "total": 28
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN8_021",
+        "reason": "Có đầy đủ dữ liệu từ SGK để tạo câu hỏi đánh giá khả năng vận dụng hằng đẳng thức phân tích đa thức thành nhân tử."
+      },
+      {
+        "metadata_code": "Ứng dụng hằng đẳng thức trong tính toán số học",
+        "reason": "Có đầy đủ dữ liệu từ SGK để tạo câu hỏi đánh giá ứng dụng hằng đẳng thức trong tính toán số học."
+      },
+      {
+        "metadata_code": "Vận dụng hằng đẳng thức để tính nhẩm",
+        "reason": "Có đầy đủ dữ liệu từ SGK để tạo câu hỏi đánh giá kỹ năng vận dụng hằng đẳng thức để tính nhẩm."
+      },
+      {
+        "metadata_code": "Vận dụng hằng đẳng thức để rút gọn biểu thức",
+        "reason": "Có đầy đủ dữ liệu từ SGK để tạo câu hỏi đánh giá kỹ năng vận dụng hằng đẳng thức để rút gọn biểu thức."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Thiết kế tình huống học đường đánh giá tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập."
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+        "reason": "Thiết kế nhiệm vụ tóm tắt, sơ đồ hóa kiến thức đánh giá năng lực lưu giữ thông tin có chọn lọc."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_01",
+        "reason": "Thiết kế nhiệm vụ so sánh, đánh giá phương pháp giải và khái quát hóa quy tắc đánh giá thao tác tư duy toán học."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_05",
+        "reason": "Thiết kế tình huống thực tế và bài toán chuỗi số đánh giá việc sử dụng kỹ năng toán học tương thích để giải quyết vấn đề."
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Ứng dụng hằng đẳng thức trong tính toán số học",
+      "questiontext": "Hằng đẳng thức \\(a^2 - b^2 = (a-b)(a+b)\\) được ứng dụng như thế nào trong tính nhanh biểu thức số dạng \\(101^2 - 99^2\\)?",
+      "generalfeedback": "Ta áp dụng hằng đẳng thức hiệu hai bình phương: \\(101^2 - 99^2 = (101 - 99)(101 + 99) = 2 \\times 200 = 400\\).",
+      "answers": [
+        {
+          "text": "Biến đổi thành \\((101 - 99)(101 + 99)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Biến đổi thành \\((101 - 99)^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Biến đổi thành \\((101 + 99)^2 - 2 \\times 101 \\times 99\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Biến đổi thành \\(101(101 - 99) + 99\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng hằng đẳng thức để tính nhẩm",
+      "questiontext": "Tính nhanh giá trị của biểu thức \\(A = x^2 + \\frac{1}{2}x + \\frac{1}{16}\\) tại \\(x = 99,75\\).",
+      "generalfeedback": "Ta có \\(A = x^2 + 2 \\cdot x \\cdot \\frac{1}{4} + \\left(\\frac{1}{4}\\right)^2 = \\left(x + \\frac{1}{4}\\right)^2 = (x + 0,25)^2\\). Thay \\(x = 99,75\\), ta được \\(A = (99,75 + 0,25)^2 = 100^2 = 10000\\).",
+      "answers": [
+        {
+          "text": "10000",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng hằng đẳng thức để tính nhẩm",
+      "questiontext": "Tính nhanh giá trị của biểu thức \\(B = x^3 + 3x^2 + 3x + 1\\) tại \\(x = 99\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Ta có \\(B = (x + 1)^3\\). Thay \\(x = 99\\) vào ta được \\(B = (99 + 1)^3 = 100^3 = 1000000\\).",
+      "answers": [
+        {
+          "text": "1000000",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng hằng đẳng thức để tính nhẩm",
+      "questiontext": "Giá trị của biểu thức \\(C = x^3 - 3x^2y + 3xy^2 - y^3\\) tại \\(x = 88\\) và \\(y = -12\\) là bao nhiêu?",
+      "generalfeedback": "Biểu thức \\(C = (x - y)^3\\). Thay \\(x = 88\\) và \\(y = -12\\) ta có \\(C = [88 - (-12)]^3 = (88 + 12)^3 = 100^3 = 1000000\\).",
+      "answers": [
+        {
+          "text": "1000000",
+          "fraction": 100
+        },
+        {
+          "text": "760000",
+          "fraction": 0
+        },
+        {
+          "text": "512000",
+          "fraction": 0
+        },
+        {
+          "text": "-1000000",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Vận dụng hằng đẳng thức để tính nhẩm",
+      "questiontext": "Đẳng thức \\((10a + 5)^2 = 100a(a + 1) + 25\\) đúng với mọi số tự nhiên \\(a\\).",
+      "generalfeedback": "Khai triển vế trái: \\((10a + 5)^2 = (10a)^2 + 2 \\cdot 10a \\cdot 5 + 5^2 = 100a^2 + 100a + 25 = 100a(a + 1) + 25\\). Đẳng thức này đúng với mọi số tự nhiên \\(a\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng hằng đẳng thức để tính nhẩm",
+      "questiontext": "Áp dụng quy tắc tính nhẩm bình phương số có tận cùng là 5: \\((10a+5)^2 = 100a(a+1) + 25\\), tính giá trị của \\(35^2\\).",
+      "generalfeedback": "Với \\(35 = 10 \\cdot 3 + 5\\) nên \\(a = 3\\). Do đó \\(35^2 = 100 \\cdot 3 \\cdot (3 + 1) + 25 = 1200 + 25 = 1225\\).",
+      "answers": [
+        {
+          "text": "1225",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng hằng đẳng thức để rút gọn biểu thức",
+      "questiontext": "Kết quả rút gọn của biểu thức \\(P = (2x + y)^2 + (x - 2y)^2\\) là:",
+      "generalfeedback": "Khai triển: \\(P = (4x^2 + 4xy + y^2) + (x^2 - 4xy + 4y^2) = (4x^2 + x^2) + (4xy - 4xy) + (y^2 + 4y^2) = 5x^2 + 5y^2\\).",
+      "answers": [
+        {
+          "text": "\\(5x^2 + 5y^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(5x^2 - 5y^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(3x^2 + 3y^2 + 8xy\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(5x^2 + 8xy + 5y^2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng hằng đẳng thức để rút gọn biểu thức",
+      "questiontext": "Rút gọn biểu thức \\(Q = (x + y + z)^2 - (x + y - z)^2\\) ta được kết quả là:",
+      "generalfeedback": "Sử dụng hằng đẳng thức hiệu hai bình phương: \\(Q = [(x+y+z) - (x+y-z)][(x+y+z) + (x+y-z)] = (2z)(2x + 2y) = 4z(x + y)\\).",
+      "answers": [
+        {
+          "text": "\\(4z(x + y)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(2z(x + y)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(4xy(x + z)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2(x + y + z)\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng hằng đẳng thức để rút gọn biểu thức",
+      "questiontext": "Rút gọn biểu thức \\(M = (x - 1)^3 + (x + 1)^3 - 2x(x - 1)(x + 1)\\) thu được kết quả bằng:",
+      "generalfeedback": "Khai triển các hằng đẳng thức: \\((x-1)^3 + (x+1)^3 = x^3 - 3x^2 + 3x - 1 + x^3 + 3x^2 + 3x + 1 = 2x^3 + 6x\\). Lại có \\(2x(x-1)(x+1) = 2x(x^2 - 1) = 2x^3 - 2x\\). Do đó \\(M = (2x^3 + 6x) - (2x^3 - 2x) = 8x\\).",
+      "answers": [
+        {
+          "text": "\\(8x\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(4x^3 + 4x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(6x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(8x + 2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng hằng đẳng thức để rút gọn biểu thức",
+      "questiontext": "Biểu thức \\(N = (x + 3y)(x^2 - 3xy + 9y^2) + (3x - y)(9x^2 + 3xy + y^2)\\) sau khi rút gọn có dạng:",
+      "generalfeedback": "Áp dụng hằng đẳng thức tổng và hiệu hai lập phương: \\((x + 3y)(x^2 - 3xy + 9y^2) = x^3 + (3y)^3 = x^3 + 27y^3\\). Lại có \\((3x - y)(9x^2 + 3xy + y^2) = (3x)^3 - y^3 = 27x^3 - y^3\\). Do đó \\(N = (x^3 + 27y^3) + (27x^3 - y^3) = 28x^3 + 26y^3\\).",
+      "answers": [
+        {
+          "text": "\\(28x^3 + 26y^3\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(28x^3 - 26y^3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(26x^3 + 28y^3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(10x^3 + 28y^3\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng hằng đẳng thức để rút gọn biểu thức",
+      "questiontext": "Ghép mỗi biểu thức ở cột bên trái với dạng rút gọn tương ứng ở cột bên phải:",
+      "generalfeedback": "Áp dụng các hằng đẳng thức đáng nhớ để khai triển và rút gọn từng biểu thức.",
+      "subquestions": [
+        {
+          "question": "\\((x - 2)^3 + (x + 2)^3 - 6x(x + 2)(x - 2)\\)",
+          "answer": "\\(-4x^3 + 32x\\)"
+        },
+        {
+          "question": "\\((2x - y)^3 + (2x + y)^3\\)",
+          "answer": "\\(16x^3 + 12xy^2\\)"
+        },
+        {
+          "question": "\\((x + y)^2 - (x - y)^2\\)",
+          "answer": "\\(4xy\\)"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_021",
+      "questiontext": "Biến đổi đa thức thành nhân tử bằng cách áp dụng hằng đẳng thức: \\(a^3 + b^3 = (a + b)^3 -\\) [[1]]. Áp dụng tính \\(a^3 + b^3\\) khi \\(a + b = 4\\) và \\(ab = 3\\) ta thu được kết quả là [[2]].",
+      "generalfeedback": "Đẳng thức: \\(a^3 + b^3 = (a + b)^3 - 3ab(a + b)\\). Khi \\(a + b = 4\\) và \\(ab = 3\\), ta có \\(a^3 + b^3 = 4^3 - 3 \\cdot 3 \\cdot 4 = 64 - 36 = 28\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(3ab(a + b)\\)"
+        },
+        {
+          "group": 1,
+          "text": "28"
+        },
+        {
+          "group": 1,
+          "text": "\\(3ab(a - b)\\)"
+        },
+        {
+          "group": 1,
+          "text": "52"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "Ứng dụng hằng đẳng thức trong tính toán số học",
+      "questiontext": "Cho bài toán gửi tiết kiệm ngân hàng theo thể thức lãi kép. Số tiền thu được sau 3 năm biểu diễn bởi biểu thức \\(S = 200(1 + x)^3\\) (triệu đồng). Khai triển \\(S\\) thành đa thức theo \\(x\\) ta được [[1]], và đây là đa thức [[2]] theo biến \\(x\\).",
+      "generalfeedback": "Khai triển \\(S = 200(1 + 3x + 3x^2 + x^3) = 200 + 600x + 600x^2 + 200x^3\\). Đây là đa thức bậc 3 theo biến \\(x\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(200 + 600x + 600x^2 + 200x^3\\)"
+        },
+        {
+          "group": 1,
+          "text": "bậc 3"
+        },
+        {
+          "group": 1,
+          "text": "\\(200 + 200x + 200x^2 + 200x^3\\)"
+        },
+        {
+          "group": 1,
+          "text": "bậc 2"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Ứng dụng hằng đẳng thức trong tính toán số học",
+      "questiontext": "Bác Tùng gửi vào ngân hàng 200 triệu đồng theo thể thức lãi kép với lãi suất không đổi \\(x = 5,5\\%\\) mỗi năm. Số tiền bác Tùng nhận được sau 3 năm là bao nhiêu triệu đồng? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị, làm tròn đến 3 chữ số thập phân)",
+      "generalfeedback": "Với \\(x = 5,5\\% = 0,055\\), số tiền sau 3 năm là \\(S = 200 \\cdot (1 + 0,055)^3 = 200 \\cdot 1,055^3 = 234,8572875 \\approx 234,857\\) triệu đồng.",
+      "answers": [
+        {
+          "text": "234.857",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Ứng dụng hằng đẳng thức trong tính toán số học",
+      "questiontext": "Mẹ của Mai gửi vào ngân hàng m triệu đồng theo thể thức lãi kép với lãi suất không đổi 5% mỗi năm. Biểu thức tính số tiền thu được sau 3 năm là S = m*(1 + 0.05)^3. Hãy tính số tiền thu được (triệu đồng). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Số tiền thu được là S = {m} * (1.05)^3 = {m} * 1.157625.",
+      "wildcards": [
+        {
+          "name": "m",
+          "min": 100.0,
+          "max": 500.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{m}*1.157625",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng hằng đẳng thức để tính nhẩm",
+      "questiontext": "Cho biểu thức tính nhanh P = (100*{a} + 5)^2 - 10000*{a}*{a} - 25. Với biến {a}, giá trị rút gọn của biểu thức P là bao nhiêu?",
+      "generalfeedback": "Ta có (100a + 5)^2 = 10000a^2 + 1000a + 25. Khi trừ đi 10000a^2 + 25 ta được P = 1000a.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*1000",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_021",
+      "questiontext": "Đa thức \\(x^3 + 27y^3\\) được phân tích thành nhân tử dạng trực tiếp hằng đẳng thức là:",
+      "generalfeedback": "Áp dụng hằng đẳng thức tổng hai lập phương \\(a^3 + b^3 = (a + b)(a^2 - ab + b^2)\\) với \\(a = x, b = 3y\\): \\(x^3 + (3y)^3 = (x + 3y)(x^2 - 3xy + 9y^2)\\).",
+      "answers": [
+        {
+          "text": "\\((x + 3y)(x^2 - 3xy + 9y^2)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\((x - 3y)(x^2 + 3xy + 9y^2)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((x + 3y)(x^2 + 6xy + 9y^2)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((x + 3y)^3\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_021",
+      "questiontext": "Phân tích đa thức \\(27x^3 - y^3\\) thành nhân tử ta thu được kết quả là:",
+      "generalfeedback": "Áp dụng hằng đẳng thức hiệu hai lập phương \\(a^3 - b^3 = (a - b)(a^2 + ab + b^2)\\) với \\(a = 3x, b = y\\): \\((3x)^3 - y^3 = (3x - y)(9x^2 + 3xy + y^2)\\).",
+      "answers": [
+        {
+          "text": "\\((3x - y)(9x^2 + 3xy + y^2)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\((3x + y)(9x^2 - 3xy + y^2)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((3x - y)(3x^2 + 3xy + y^2)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((3x - y)^3\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng hằng đẳng thức để rút gọn biểu thức",
+      "questiontext": "Biểu thức \\(K = (x - 1)(x + 1)(x^2 + 1)(x^4 + 1)\\) sau khi rút gọn bằng:",
+      "generalfeedback": "Áp dụng liên tiếp hằng đẳng thức hiệu hai bình phương: \\((x-1)(x+1) = x^2 - 1\\); \\((x^2 - 1)(x^2 + 1) = x^4 - 1\\); \\((x^4 - 1)(x^4 + 1) = x^8 - 1\\).",
+      "answers": [
+        {
+          "text": "\\(x^8 - 1\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x^8 + 1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x^4 - 1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((x - 1)^8\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng hằng đẳng thức để tính nhẩm",
+      "questiontext": "Tính nhanh giá trị của biểu thức \\(H = 100^2 - 99^2 + 98^2 - 97^2 + ... + 2^2 - 1^2\\).",
+      "generalfeedback": "Gộp từng cặp hiệu hai bình phương: \\(100^2 - 99^2 = (100 - 99)(100 + 99) = 100 + 99\\); tương tự cho các cặp tiếp theo. Tổng bằng \\(100 + 99 + 98 + 97 + ... + 2 + 1 = \\frac{100 \\times 101}{2} = 5050\\).",
+      "answers": [
+        {
+          "text": "5050",
+          "fraction": 100
+        },
+        {
+          "text": "5000",
+          "fraction": 0
+        },
+        {
+          "text": "10100",
+          "fraction": 0
+        },
+        {
+          "text": "2525",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi gặp bài toán rút gọn biểu thức phức tạp \\((x+3y)(x^2-3xy+9y^2) + (3x-y)(9x^2+3xy+y^2)\\), bạn Nam thấy dài và có ý định bỏ qua. Hành vi nào sau đây thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập của Nam?",
+      "generalfeedback": "Thái độ luôn cố gắng vươn lên đạt kết quả tốt trong học tập thể hiện qua việc kiên trì, tự mình phân tích và áp dụng kiến thức đã học để giải quyết bài toán khó.",
+      "answers": [
+        {
+          "text": "Kiên trì phân tích từng cụm biểu thức, nhận diện các hằng đẳng thức tổng và hiệu hai lập phương để rút gọn bài toán.",
+          "fraction": 100
+        },
+        {
+          "text": "Chép ngay đáp án của bạn bên cạnh để nhanh chóng hoàn thành bài tập mà không cần suy nghĩ.",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua bài toán phức tạp này và chỉ làm những bài toán đơn giản để tiết kiệm thời gian.",
+          "fraction": 0
+        },
+        {
+          "text": "Yêu cầu thầy cô giảm bớt yêu cầu bài tập vì bài toán chứa nhiều số hạng.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ luyện tập, khi tính giá trị biểu thức \\(x^3 + 3x^2 + 3x + 1\\) tại \\(x = 99\\), bạn An đã miệt mài tự mình phân tích biểu thức thành \\((x+1)^3\\) để tính nhanh ra \\(100^3 = 1000000\\) thay vì bỏ cuộc. Việc làm của bạn An thể hiện ý thức luôn cố gắng vươn lên đạt kết quả tốt trong học tập.",
+      "generalfeedback": "Hành động kiên trì tự suy nghĩ, vận dụng hằng đẳng thức để hoàn thành bài tập thể hiện rõ phẩm chất luôn cố gắng vươn lên trong học tập.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Để lưu giữ thông tin có chọn lọc và tóm tắt kiến thức của bài 'Luyện tập chung về hằng đẳng thức', em hãy ghép mỗi dạng bài tập ở cột bên trái với phương pháp/từ khóa tóm tắt phù hợp ở cột bên phải:",
+      "generalfeedback": "Lưu giữ thông tin có chọn lọc bằng cách cô đọng phương pháp giải tương ứng với từng dạng bài tập cốt lõi.",
+      "subquestions": [
+        {
+          "question": "Tính nhanh giá trị biểu thức số dạng \\(101^2 - 99^2\\) hoặc \\(35^2\\)",
+          "answer": "Tóm tắt bằng hằng đẳng thức hiệu hai bình phương và quy tắc bình phương số có tận cùng là 5"
+        },
+        {
+          "question": "Rút gọn biểu thức chứa lập phương như \\((x-1)^3 + (x+1)^3 - 2x(x-1)(x+1)\\)",
+          "answer": "Tóm tắt bằng hằng đẳng thức lập phương của một tổng, một hiệu và thu gọn đa thức"
+        },
+        {
+          "question": "Bài toán gửi tiết kiệm ngân hàng lãi kép \\(S = 150(1+x)^3\\)",
+          "answer": "Tóm tắt bằng mô hình đa thức theo biến lãi suất \\(x\\) và xác định bậc đa thức"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Để hệ thống hóa kiến thức bài học, bạn Bình tóm tắt sơ đồ tư duy: Khi gặp dạng bài phân tích đa thức thành nhân tử \\(a^3 + b^3\\) hoặc \\(a^3 - b^3\\), từ khóa cốt lõi cần ghi nhớ là sử dụng [[1]]. Đối với dạng bài tính số tiền lãi kép sau 3 năm \\(S = P(1+x)^3\\), từ khóa tóm tắt phương pháp giải là [[2]].",
+      "generalfeedback": "Tóm tắt thông tin có chọn lọc giúp nắm vững bản chất phương pháp giải cho từng dạng bài.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "hằng đẳng thức tổng và hiệu hai lập phương"
+        },
+        {
+          "group": 1,
+          "text": "khai triển đa thức theo biến lãi suất x"
+        },
+        {
+          "group": 1,
+          "text": "quy tắc nhân đơn thức với đa thức"
+        },
+        {
+          "group": 1,
+          "text": "phương pháp đặt nhân tử chung đơn giản"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Khi phân tích và so sánh hai cách rút gọn biểu thức \\(P = (x + y + z)^2 - (x + y - z)^2\\):\nCách 1: Khai triển bình phương của từng tam thức rồi thu gọn các số hạng đồng dạng.\nCách 2: Đặt \\(A = x + y\\), đưa về dạng \\((A + z)^2 - (A - z)^2 = [(A+z)-(A-z)][(A+z)+(A-z)] = (2z)(2A) = 4z(x+y)\\).\nThao tác tư duy so sánh và đánh giá nào sau đây là chính xác?",
+      "generalfeedback": "Cách 2 sử dụng thao tác tư duy đổi biến / nhóm số hạng để đưa về hằng đẳng thức hiệu hai bình phương, giúp quá trình biến đổi nhanh chóng và hạn chế sai sót.",
+      "answers": [
+        {
+          "text": "Cách 2 tối ưu hơn vì nhận diện được cấu trúc hằng đẳng thức hiệu hai bình phương, giúp giảm thiểu phép tính.",
+          "fraction": 100
+        },
+        {
+          "text": "Cách 1 tối ưu hơn vì khai triển trực tiếp luôn luôn ít bước hơn cách đặt ẩn phụ.",
+          "fraction": 0
+        },
+        {
+          "text": "Cả hai cách đều có độ phức tạp tính toán và số phép tính hoàn toàn giống nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Cách 2 sai về mặt logic toán học vì không được coi \\(x+y\\) là một biểu thức đơn.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Từ việc chứng minh đẳng thức \\((10a + 5)^2 = 100a(a + 1) + 25\\), thao tác tư duy khái quát hóa giúp rút ra quy tắc tính nhẩm bình phương của một số có hai chữ số tận cùng bằng 5 như thế nào?",
+      "generalfeedback": "Thao tác khái quát hóa từ công thức \\(100a(a+1)+25\\) cho thấy bình phương của số có tận cùng bằng 5 gồm tích chữ số hàng chục \\(a\\) với \\(a+1\\), sau đó ghép thêm 25 vào sau.",
+      "answers": [
+        {
+          "text": "Lấy chữ số hàng chục \\(a\\) nhân với số liền sau \\((a+1)\\), rồi viết thêm 25 vào bên phải kết quả.",
+          "fraction": 100
+        },
+        {
+          "text": "Lấy chữ số hàng chục \\(a\\) nhân với chính nó, rồi cộng thêm 25.",
+          "fraction": 0
+        },
+        {
+          "text": "Lấy chữ số hàng chục \\(a\\) cộng với 5, rồi bình phương kết quả.",
+          "fraction": 0
+        },
+        {
+          "text": "Lấy chữ số hàng chục \\(a\\) nhân với 10, rồi viết thêm 25 vào bên phải.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Một người gửi 200 triệu đồng vào ngân hàng theo thể thức lãi kép kì hạn 1 năm với lãi suất \\(x\\)/năm. Sau 3 năm, số tiền thu được biểu thị bởi \\(S = 200(1+x)^3\\) (triệu đồng). Để giải quyết vấn đề tìm số tiền thu được khi lãi suất là \\(x = 6\\%\\)/năm, kỹ năng toán học nào cần được sử dụng?",
+      "generalfeedback": "Kỹ năng toán học cần dùng là đổi phần trăm sang số thập phân \\(x = 6\\% = 0,06\\) và thay vào công thức \\(S = 200(1+0,06)^3\\) để tính giá trị biểu thức.",
+      "answers": [
+        {
+          "text": "Đổi lãi suất \\(x = 6\\% = 0,06\\) và thay vào biểu thức \\(S = 200(1+0,06)^3\\) để tính giá trị.",
+          "fraction": 100
+        },
+        {
+          "text": "Giải phương trình bậc ba \\(200(1+x)^3 = 0\\) để tìm ẩn \\(x\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Phân tích đa thức \\(200(1+x)^3\\) thành nhân tử bậc nhất.",
+          "fraction": 0
+        },
+        {
+          "text": "Rút gọn biểu thức bằng cách chia cả hai vế cho 200.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Để giải quyết vấn đề tính nhanh tổng chuỗi số \\(H = 100^2 - 99^2 + 98^2 - 97^2 + ... + 2^2 - 1^2\\), kỹ năng toán học tương thích là sử dụng hằng đẳng thức [[1]] cho từng cặp số liên tiếp, biến đổi biểu thức thành [[2]].",
+      "generalfeedback": "Biến đổi từng cặp \\(a^2 - b^2 = (a-b)(a+b) = 1 \\cdot (a+b) = a+b\\), đưa bài toán về tính tổng dãy số tự nhiên từ 1 đến 100.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "hiệu hai bình phương"
+        },
+        {
+          "group": 1,
+          "text": "tổng các số tự nhiên từ 1 đến 100"
+        },
+        {
+          "group": 1,
+          "text": "bình phương của một hiệu"
+        },
+        {
+          "group": 1,
+          "text": "tổng các số chẵn từ 2 đến 100"
+        }
+      ]
+    }
+  ]
+}

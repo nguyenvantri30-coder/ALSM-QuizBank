@@ -1,0 +1,670 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 28,
+    "metadata_used": {
+      "So sánh đại lượng tỉ lệ thuận và đại lượng tỉ lệ nghịch": 6,
+      "Phân biệt và giải các bài toán đại lượng tỉ lệ thuận": 3,
+      "tỉ lệ nghịch": 3,
+      "YCCD_TOAN7_043": 4,
+      "YCCD_TOAN7_044": 4,
+      "PC_CHAMCHI": 1,
+      "PC_TRACHNHIEM": 1,
+      "NLC_GIAOTIEP": 1,
+      "NLC_GIAIQUYETVD": 1,
+      "NLT_TOAN_C2_02": 2,
+      "NLT_TOAN_C2_03": 2
+    },
+    "types_used": {
+      "multichoice": 11,
+      "truefalse": 3,
+      "matching": 2,
+      "numerical": 5,
+      "shortanswer": 2,
+      "gapselect": 3,
+      "calculated": 2
+    }
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_043",
+        "reason": "Đo lường khả năng giải các bài toán đơn giản về đại lượng tỉ lệ thuận."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_044",
+        "reason": "Đo lường khả năng giải các bài toán đơn giản về đại lượng tỉ lệ nghịch."
+      },
+      {
+        "metadata_code": "So sánh đại lượng tỉ lệ thuận và đại lượng tỉ lệ nghịch",
+        "reason": "Đo lường khả năng so sánh, phân biệt giữa đại lượng tỉ lệ thuận và tỉ lệ nghịch."
+      },
+      {
+        "metadata_code": "Phân biệt và giải các bài toán đại lượng tỉ lệ thuận",
+        "reason": "Đo lường kỹ năng phân biệt và giải bài toán đại lượng tỉ lệ thuận."
+      },
+      {
+        "metadata_code": "tỉ lệ nghịch",
+        "reason": "Đo lường kỹ năng phân biệt và giải bài toán đại lượng tỉ lệ nghịch."
+      },
+      {
+        "metadata_code": "PC_CHAMCHI",
+        "reason": "Đo lường phẩm chất chăm chỉ thông qua tình huống học tập kiên trì, cẩn thận."
+      },
+      {
+        "metadata_code": "PC_TRACHNHIEM",
+        "reason": "Đo lường phẩm chất trách nhiệm trong học tập và thảo luận nhóm."
+      },
+      {
+        "metadata_code": "NLC_GIAOTIEP",
+        "reason": "Đo lường năng lực giao tiếp và hợp tác khi thảo luận toán học."
+      },
+      {
+        "metadata_code": "NLC_GIAIQUYETVD",
+        "reason": "Đo lường năng lực giải quyết vấn đề thực tế trong sản xuất."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_02",
+        "reason": "Đo lường năng lực mô hình hóa toán học đối với bài toán tỉ lệ."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03",
+        "reason": "Đo lường năng lực giải quyết vấn đề toán học thực tiễn."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Nội dung bài học không đề cập trực tiếp đến kiến thức hoặc kỹ năng tin học."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học không chứa yếu tố ứng dụng công nghệ trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "So sánh đại lượng tỉ lệ thuận và đại lượng tỉ lệ nghịch",
+      "questiontext": "Cho hai đại lượng \\(x\\) và \\(y\\) tỉ lệ thuận với nhau theo công thức \\(y = kx\\) (với \\(k \\neq 0\\)). Phát biểu nào sau đây là đúng?",
+      "generalfeedback": "Nếu \\(y = kx\\) (với \\(k \\neq 0\\)) thì \\(y\\) tỉ lệ thuận với \\(x\\) theo hệ số tỉ lệ \\(k\\), và \\(x\\) tỉ lệ thuận với \\(y\\) theo hệ số tỉ lệ \\(\\frac{1}{k}\\).",
+      "answers": [
+        {
+          "text": "\\(x\\) tỉ lệ thuận với \\(y\\) theo hệ số tỉ lệ \\(\\frac{1}{k}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x\\) tỉ lệ nghịch với \\(y\\) theo hệ số tỉ lệ \\(k\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Tích \\(x \\cdot y\\) luôn là một số không đổi",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x\\) và \\(y\\) không có mối quan hệ tỉ lệ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "So sánh đại lượng tỉ lệ thuận và đại lượng tỉ lệ nghịch",
+      "questiontext": "Đại lượng \\(x\\) tỉ lệ nghịch với đại lượng \\(y\\) nếu thương \\(\\frac{x}{y}\\) là một hằng số không đổi khác 0.",
+      "generalfeedback": "Sai. Hai đại lượng tỉ lệ nghịch nếu tích của chúng \\(x \\cdot y = a\\) là một số không đổi khác 0. Còn nếu thương \\(\\frac{y}{x} = k\\) không đổi thì hai đại lượng đó tỉ lệ thuận.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "So sánh đại lượng tỉ lệ thuận và đại lượng tỉ lệ nghịch",
+      "questiontext": "Cho ba đại lượng \\(x, y, z\\). Hãy ghép mối quan hệ giữa \\(x\\) và \\(y\\), \\(y\\) và \\(z\\) ở cột bên trái với mối quan hệ tương ứng giữa \\(x\\) và \\(z\\) ở cột bên phải.",
+      "generalfeedback": "Nối đúng mối quan hệ tỉ lệ giữa các đại lượng dựa trên định nghĩa tỉ lệ thuận và tỉ lệ nghịch.",
+      "subquestions": [
+        {
+          "question": "\\(x\\) và \\(y\\) tỉ lệ thuận, \\(y\\) và \\(z\\) tỉ lệ thuận",
+          "answer": "\\(x\\) và \\(z\\) tỉ lệ thuận"
+        },
+        {
+          "question": "\\(x\\) và \\(y\\) tỉ lệ thuận, \\(y\\) và \\(z\\) tỉ lệ nghịch",
+          "answer": "\\(x\\) và \\(z\\) tỉ lệ nghịch"
+        },
+        {
+          "question": "\\(x\\) và \\(y\\) tỉ lệ nghịch, \\(y\\) và \\(z\\) tỉ lệ nghịch",
+          "answer": "\\(x\\) và \\(z\\) tỉ lệ thuận"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Phân biệt và giải các bài toán đại lượng tỉ lệ thuận",
+      "questiontext": "Các giá trị của hai đại lượng \\(x\\) và \\(y\\) được cho bởi bảng sau:\n\n| \\(x\\) | 0,5 | 1 | 1,5 | 2 | 2,5 |\n|---|---|---|---|---|---|\n| \\(y\\) | 2,5 | 5 | 7,5 | 10 | 12,5 |\n\nKhẳng định nào sau đây là đúng về mối quan hệ giữa \\(x\\) và \\(y\\)?",
+      "generalfeedback": "Ta thấy \\(\\frac{2,5}{0,5} = \\frac{5}{1} = \\frac{7,5}{1,5} = \\frac{10}{2} = \\frac{12,5}{2,5} = 5\\). Do đó \\(x\\) và \\(y\\) tỉ lệ thuận với nhau theo công thức \\(y = 5x\\).",
+      "answers": [
+        {
+          "text": "\\(x\\) và \\(y\\) tỉ lệ thuận với công thức \\(y = 5x\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x\\) và \\(y\\) tỉ lệ nghịch với công thức \\(x \\cdot y = 2,5\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x\\) và \\(y\\) tỉ lệ thuận với công thức \\(y = 0,2x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x\\) và \\(y\\) không có mối quan hệ tỉ lệ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "tỉ lệ nghịch",
+      "questiontext": "Cho biết đại lượng \\(x\\) tỉ lệ thuận với đại lượng \\(y\\) theo hệ số tỉ lệ 2, và đại lượng \\(y\\) tỉ lệ nghịch với đại lượng \\(z\\) theo hệ số tỉ lệ 3. Hỏi \\(x\\) tỉ lệ với \\(z\\) như thế nào và hệ số tỉ lệ bằng bao nhiêu?",
+      "generalfeedback": "Theo đề bài \\(x = 2y\\) và \\(y = \\frac{3}{z}\\). Thay vào ta được \\(x = 2 \\cdot \\frac{3}{z} = \\frac{6}{z}\\). Vậy \\(x\\) tỉ lệ nghịch với \\(z\\) theo hệ số tỉ lệ 6.",
+      "answers": [
+        {
+          "text": "\\(x\\) tỉ lệ nghịch với \\(z\\) theo hệ số tỉ lệ 6",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x\\) tỉ lệ thuận với \\(z\\) theo hệ số tỉ lệ 6",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x\\) tỉ lệ nghịch với \\(z\\) theo hệ số tỉ lệ \\(\\frac{2}{3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x\\) tỉ lệ thuận với \\(z\\) theo hệ số tỉ lệ \\(\\frac{3}{2}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_043",
+      "questiontext": "Để thu được một loại đồng thau, người ta pha chế đồng và kẽm nguyên chất theo tỉ lệ 6 : 4. Tính khối lượng đồng nguyên chất (tính theo kg) cần thiết để sản xuất 150 kg đồng thau. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Tổng số phần bằng nhau là \\(6 + 4 = 10\\) phần. Khối lượng đồng nguyên chất cần dùng là \\(150 \\cdot \\frac{6}{10} = 90\\) (kg).",
+      "answers": [
+        {
+          "text": "90",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_044",
+      "questiontext": "Biết rằng giá một quyển vở loại 120 trang bằng 80% giá một quyển vở loại 200 trang. Hỏi với cùng số tiền để mua 16 quyển vở loại 200 trang, bạn Minh có thể mua được bao nhiêu quyển vở loại 120 trang? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Gọi \\(x\\) là số quyển vở loại 120 trang mua được. Vì số tiền không đổi nên số quyển vở và giá tiền là hai đại lượng tỉ lệ nghịch: \\(0,8 \\cdot x = 16 \\Rightarrow x = \\frac{16}{0,8} = 20\\) quyển.",
+      "answers": [
+        {
+          "text": "20",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_043",
+      "questiontext": "Nếu đại lượng \\(y\\) liên hệ với đại lượng \\(x\\) theo công thức \\(y = -3x\\) thì \\(y\\) tỉ lệ gì với \\(x\\)?",
+      "generalfeedback": "Vì \\(y = -3x\\) có dạng \\(y = kx\\) (với \\(k = -3 \\neq 0\\)) nên \\(y\\) tỉ lệ thuận với \\(x\\).",
+      "answers": [
+        {
+          "text": "tỉ lệ thuận",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_044",
+      "questiontext": "Khi số tiền không đổi, số lượng sản phẩm mua được và giá tiền của một sản phẩm là hai đại lượng [[1]]. Nếu giá tiền mỗi sản phẩm tăng lên thì số lượng sản phẩm mua được sẽ [[2]].",
+      "generalfeedback": "Hai đại lượng có tích không đổi (số tiền) là hai đại lượng tỉ lệ nghịch. Khi một đại lượng tăng thì đại lượng kia giảm tương ứng.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "tỉ lệ nghịch"
+        },
+        {
+          "group": 1,
+          "text": "tỉ lệ thuận"
+        },
+        {
+          "group": 1,
+          "text": "giảm đi"
+        },
+        {
+          "group": 1,
+          "text": "tăng lên"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Phân biệt và giải các bài toán đại lượng tỉ lệ thuận",
+      "questiontext": "Một công nhân làm được {a} sản phẩm trong 3 giờ. Hỏi trong 6 giờ người đó làm được bao nhiêu sản phẩm (giả thiết năng suất làm việc không đổi)? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Số sản phẩm và thời gian làm việc là hai đại lượng tỉ lệ thuận. Số sản phẩm làm trong 6 giờ là {a} * (6 / 3) = {a} * 2.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 10.0,
+          "max": 50.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "So sánh đại lượng tỉ lệ thuận và đại lượng tỉ lệ nghịch",
+      "questiontext": "Cho biết đại lượng \\(x\\) và đại lượng \\(y\\) tỉ lệ nghịch với nhau. Khi \\(x = 4\\) thì \\(y = 12\\). Hệ số tỉ lệ \\(a\\) của \\(y\\) đối với \\(x\\) là bao nhiêu?",
+      "generalfeedback": "Vì \\(x\\) và \\(y\\) tỉ lệ nghịch với nhau nên hệ số tỉ lệ \\(a = x \\cdot y = 4 \\cdot 12 = 48\\).",
+      "answers": [
+        {
+          "text": "48",
+          "fraction": 100
+        },
+        {
+          "text": "3",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{1}{3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "16",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "tỉ lệ nghịch",
+      "questiontext": "Cho đại lượng \\(x\\) và \\(y\\) tỉ lệ nghịch với nhau theo hệ số tỉ lệ \\(a = 36\\). Khi \\(x = 6\\) thì \\(y = 6\\). Khẳng định này đúng hay sai?",
+      "generalfeedback": "Đúng. Vì \\(x \\cdot y = 6 \\cdot 6 = 36 = a\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_043",
+      "questiontext": "Biết hai đại lượng \\(x\\) và \\(y\\) tỉ lệ thuận với nhau. Khi \\(x = 3\\) thì \\(y = 15\\). Tìm giá trị của \\(y\\) khi \\(x = 7\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Hệ số tỉ lệ \\(k = \\frac{y}{x} = \\frac{15}{3} = 5\\). Khi \\(x = 7\\) thì \\(y = 5 \\cdot 7 = 35\\).",
+      "answers": [
+        {
+          "text": "35",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_044",
+      "questiontext": "Một đội công nhân có 12 người dự kiến hoàn thành một công việc trong 10 ngày. Nếu muốn hoàn thành công việc đó trong 6 ngày thì cần bao nhiêu công nhân? (Giả thiết năng suất làm việc của mỗi công nhân là như nhau. Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Số công nhân và số ngày hoàn thành công việc là hai đại lượng tỉ lệ nghịch. Gọi \\(x\\) là số công nhân cần thiết: \\(6 \\cdot x = 12 \\cdot 10 = 120 \\Rightarrow x = 20\\) công nhân.",
+      "answers": [
+        {
+          "text": "20",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "So sánh đại lượng tỉ lệ thuận và đại lượng tỉ lệ nghịch",
+      "questiontext": "Cho công thức \\(x \\cdot y = 24\\). Mối quan hệ giữa hai đại lượng \\(x\\) và \\(y\\) là gì?",
+      "generalfeedback": "Vì tích \\(x \\cdot y = 24\\) là hằng số khác 0 nên \\(x\\) và \\(y\\) là hai đại lượng tỉ lệ nghịch.",
+      "answers": [
+        {
+          "text": "tỉ lệ nghịch",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Phân biệt và giải các bài toán đại lượng tỉ lệ thuận",
+      "questiontext": "Hai đại lượng \\(x\\) và \\(y\\) tỉ lệ thuận với nhau khi đại lượng này tăng lên bao nhiêu lần thì đại lượng kia [[1]] bấy nhiêu lần.",
+      "generalfeedback": "Theo định nghĩa hai đại lượng tỉ lệ thuận, khi đại lượng này tăng (hoặc giảm) bao nhiêu lần thì đại lượng kia cũng tăng (hoặc giảm) bấy nhiêu lần.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "cũng tăng lên"
+        },
+        {
+          "group": 1,
+          "text": "lại giảm đi"
+        },
+        {
+          "group": 1,
+          "text": "không đổi"
+        },
+        {
+          "group": 1,
+          "text": "bằng 0"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_043",
+      "questiontext": "Hai máy bay cùng bay từ A đến B. Vận tốc của máy bay thứ nhất là 600 km/h, vận tốc của máy bay thứ hai là 800 km/h. Biết thời gian bay của máy bay thứ nhất nhiều hơn máy bay thứ hai là 0,5 giờ. Tính quãng đường AB.",
+      "generalfeedback": "Thời gian và vận tốc trên cùng quãng đường là hai đại lượng tỉ lệ nghịch. Gọi \\(t_1, t_2\\) là thời gian bay của 2 máy bay: \\(600 t_1 = 800 t_2\\) và \\(t_1 - t_2 = 0,5\\). Suy ra \\(t_2 = 1,5\\) giờ. Quãng đường AB là \\(800 \\cdot 1,5 = 1200\\) km.",
+      "answers": [
+        {
+          "text": "1200 km",
+          "fraction": 100
+        },
+        {
+          "text": "900 km",
+          "fraction": 0
+        },
+        {
+          "text": "1500 km",
+          "fraction": 0
+        },
+        {
+          "text": "600 km",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "tỉ lệ nghịch",
+      "questiontext": "Cho đại lượng \\(x\\) và \\(y\\) tỉ lệ nghịch với nhau theo hệ số tỉ lệ \\(a = 12\\). Hãy ghép mỗi giá trị của \\(x\\) ở cột bên trái với giá trị tương ứng của \\(y\\) ở cột bên phải.",
+      "generalfeedback": "Vì \\(x \\cdot y = 12\\) nên \\(y = \\frac{12}{x}\\).",
+      "subquestions": [
+        {
+          "question": "\\(x = 2\\)",
+          "answer": "\\(y = 6\\)"
+        },
+        {
+          "question": "\\(x = 3\\)",
+          "answer": "\\(y = 4\\)"
+        },
+        {
+          "question": "\\(x = 4\\)",
+          "answer": "\\(y = 3\\)"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_044",
+      "questiontext": "Một hình chữ nhật có diện tích là {a} cm². Gọi \\(x\\) (cm) là chiều rộng và \\(y\\) (cm) là chiều dài của hình chữ nhật. Tính chiều dài \\(y\\) khi chiều rộng \\(x = 5\\) cm.",
+      "generalfeedback": "Diện tích hình chữ nhật là \\(S = x \\cdot y = {a}\\). Khi \\(x = 5\\) thì \\(y = \\frac{{a}}{5}\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 50.0,
+          "max": 200.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}/5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "So sánh đại lượng tỉ lệ thuận và đại lượng tỉ lệ nghịch",
+      "questiontext": "Nếu đại lượng \\(y\\) tỉ lệ thuận với đại lượng \\(x\\) theo hệ số tỉ lệ \\(k = 3\\), công thức nào sau đây biểu diễn mối quan hệ giữa \\(y\\) và \\(x\\)?",
+      "generalfeedback": "Công thức đại lượng tỉ lệ thuận là \\(y = kx\\). Với \\(k = 3\\), ta có \\(y = 3x\\).",
+      "answers": [
+        {
+          "text": "\\(y = 3x\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(y = \\frac{3}{x}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x = 3y\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(y = x + 3\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Khi giải bài toán \"Chia 121 cuốn sách tham khảo cho ba khối lớp theo tỉ lệ giá tiền\", bạn Minh gặp bài toán có nhiều bước tính toán và dễ nhầm lẫn. Bạn Minh đã kiên trì thực hiện từng bước: đặt ẩn, lập dãy tỉ số bằng nhau, tính toán cẩn thận và kiểm tra lại kết quả trước khi nộp bài. Hành vi của bạn Minh thể hiện phẩm chất nào?",
+      "generalfeedback": "Hành vi kiên trì, cẩn thận thực hiện từng bước và kiểm tra lại kết quả khi gặp bài toán khó, nhiều bước thể hiện phẩm chất chăm chỉ trong học tập.",
+      "answers": [
+        {
+          "text": "Chăm chỉ",
+          "fraction": 100
+        },
+        {
+          "text": "Trung thực",
+          "fraction": 0
+        },
+        {
+          "text": "Yêu nước",
+          "fraction": 0
+        },
+        {
+          "text": "Tiết kiệm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "PC_TRACHNHIEM",
+      "questiontext": "Trong buổi thảo luận nhóm về bài toán \"Pha chế đồng và kẽm để thu được 150 kg đồng thau theo tỉ lệ 6 : 4\", bạn An được nhóm phân công tính khối lượng kẽm cần dùng. Bạn An đã chủ động hoàn thành đúng hạn và kiểm tra kỹ số liệu để đảm bảo kết quả chung của nhóm chính xác. Hành vi này thể hiện bạn An là người có trách nhiệm trong học tập nhóm.",
+      "generalfeedback": "Đúng. Hoàn thành đúng hạn và cẩn thận với phần việc được nhóm phân công thể hiện tinh thần trách nhiệm.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_GIAOTIEP",
+      "questiontext": "Hai bạn Bình và Cúc cùng giải bài toán: \"Một đội thợ học việc hoàn thành công việc trong bao lâu nếu thợ lành nghề làm trong 48 giờ\". Bình cho rằng thời gian và năng suất là hai đại lượng tỉ lệ thuận, còn Cúc cho rằng đó là hai đại lượng tỉ lệ nghịch. Để hợp tác hiệu quả và đi đến thống nhất, hai bạn nên làm gì?",
+      "generalfeedback": "Để giao tiếp và hợp tác hiệu quả, hai bạn cần cùng nhau nhắc lại định nghĩa đại lượng tỉ lệ thuận, tỉ lệ nghịch (khi năng suất tăng thì thời gian giảm) để phân tích và thống nhất ý kiến.",
+      "answers": [
+        {
+          "text": "Cùng nhau xem lại định nghĩa đại lượng tỉ lệ thuận và tỉ lệ nghịch để phân tích và thống nhất",
+          "fraction": 100
+        },
+        {
+          "text": "Mỗi bạn tự giữ nguyên ý kiến của mình và không thảo luận nữa",
+          "fraction": 0
+        },
+        {
+          "text": "Bình bỏ bài làm của mình và chép hoàn toàn theo Cúc mà không cần hiểu",
+          "fraction": 0
+        },
+        {
+          "text": "Báo với giáo viên rằng nhóm không thể làm việc cùng nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLC_GIAIQUYETVD",
+      "questiontext": "Một xưởng sản xuất dự định dùng 12 công nhân để hoàn thành một đơn hàng trong 10 ngày. Tuy nhiên, khách hàng yêu cầu giao hàng gấp trong 6 ngày. Biết năng suất mỗi công nhân như nhau, người quản lý xưởng cần giải quyết vấn đề này như thế nào?",
+      "generalfeedback": "Vì số công nhân và số ngày hoàn thành là hai đại lượng tỉ lệ nghịch: \\(12 \\cdot 10 = 120\\). Để hoàn thành trong 6 ngày, cần số công nhân là \\(\\frac{120}{6} = 20\\) người. Vậy người quản lý cần huy động thêm \\(20 - 12 = 8\\) công nhân.",
+      "answers": [
+        {
+          "text": "Huy động thêm 8 công nhân cùng năng suất để đạt tổng số 20 công nhân",
+          "fraction": 100
+        },
+        {
+          "text": "Giảm bớt 4 công nhân để tiết kiệm chi phí",
+          "fraction": 0
+        },
+        {
+          "text": "Giữ nguyên 12 công nhân và kéo dài thời gian làm việc thành 15 ngày",
+          "fraction": 0
+        },
+        {
+          "text": "Từ chối đơn hàng vì không thể thay đổi tiến độ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_02",
+      "questiontext": "Để giải bài toán chia số sách quyên góp cho các lớp 7A, 7B, 7C, 7D tỉ lệ với sĩ số học sinh, ta gọi số sách mỗi lớp quyên góp lần lượt là \\(x, y, z, t\\). Mô hình toán học biểu diễn mối quan hệ tỉ lệ này là dãy tỉ số bằng nhau [[1]]. Nếu biết lớp 7D góp nhiều hơn lớp 7A là 4 quyển sách, ta dùng điều kiện [[2]] để tìm kết quả.",
+      "generalfeedback": "Mô hình toán học của bài toán chia tỉ lệ thuận dựa trên dãy tỉ số bằng nhau và hiệu số sách giữa hai lớp.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(\\frac{x}{38} = \\frac{y}{39} = \\frac{z}{40} = \\frac{t}{40}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(38x = 39y = 40z = 40t\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(t - x = 4\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(x + y + z + t = 4\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_02",
+      "questiontext": "Một thư viện mua các cuốn sách tham khảo môn Toán với tổng số tiền dùng để mua mỗi loại sách là như nhau. Gọi \\(x\\) là số cuốn sách mua được và \\(y\\) (nghìn đồng) là giá tiền một cuốn sách. Mô hình toán học mô tả mối quan hệ giữa \\(x\\) và \\(y\\) là mô hình nào?",
+      "generalfeedback": "Vì tổng số tiền mua mỗi loại sách là không đổi (bằng hằng số \\(a\\)), tích giữa số lượng cuốn sách \\(x\\) và giá tiền \\(y\\) là hằng số: \\(x \\cdot y = a\\). Đây là mô hình đại lượng tỉ lệ nghịch.",
+      "answers": [
+        {
+          "text": "Mô hình đại lượng tỉ lệ nghịch \\(x \\cdot y = a\\) (với \\(a\\) là tổng số tiền)",
+          "fraction": 100
+        },
+        {
+          "text": "Mô hình đại lượng tỉ lệ thuận \\(y = ax\\) (với \\(a\\) là tổng số tiền)",
+          "fraction": 0
+        },
+        {
+          "text": "Mô hình hàm số bậc nhất \\(y = x + a\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Mô hình phương trình bậc hai \\(y = ax^2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "questiontext": "Học sinh khối 7 quyên góp sách cho thư viện. Sĩ số các lớp 7A, 7B, 7C, 7D lần lượt là 38, 39, 40, 40 em. Số sách quyên góp tỉ lệ với sĩ số học sinh và lớp 7D góp nhiều hơn lớp 7A là 4 quyển. Tính tổng số sách cả 4 lớp quyên góp được. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Gọi số sách 4 lớp là \\(x, y, z, t\\). Ta có \\(\\frac{x}{38} = \\frac{y}{39} = \\frac{z}{40} = \\frac{t}{40} = \\frac{t - x}{40 - 38} = \\frac{4}{2} = 2\\). Vậy tổng số sách là \\(2 \\cdot (38 + 39 + 40 + 40) = 2 \\cdot 157 = 314\\) quyển.",
+      "answers": [
+        {
+          "text": "314",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "questiontext": "Thư viện trường mua ba đầu sách tham khảo Toán lớp 6, 7, 8 tổng cộng 121 cuốn. Giá mỗi cuốn tương ứng là 40 nghìn, 45 nghìn và 50 nghìn đồng. Biết số tiền mua mỗi loại sách là như nhau. Hỏi thư viện mua bao nhiêu cuốn sách Toán lớp 7?",
+      "generalfeedback": "Gọi \\(x, y, z\\) là số sách Toán 6, 7, 8. Ta có \\(40x = 45y = 50z \\Rightarrow \\frac{x}{45} = \\frac{y}{40} = \\frac{z}{36}\\). Theo tính chất dãy tỉ số bằng nhau: \\(\\frac{x+y+z}{45+40+36} = \\frac{121}{121} = 1\\). Do đó số sách Toán lớp 7 là \\(y = 40 \\cdot 1 = 40\\) cuốn.",
+      "answers": [
+        {
+          "text": "40 cuốn",
+          "fraction": 100
+        },
+        {
+          "text": "45 cuốn",
+          "fraction": 0
+        },
+        {
+          "text": "36 cuốn",
+          "fraction": 0
+        },
+        {
+          "text": "50 cuốn",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

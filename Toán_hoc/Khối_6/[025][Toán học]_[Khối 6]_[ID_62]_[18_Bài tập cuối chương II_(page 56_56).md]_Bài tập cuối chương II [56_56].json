@@ -1,0 +1,462 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 20,
+    "metadata_used": {
+      "Hệ thống kiến thức chương II về tính chia hết và số nguyên tố": 3,
+      "Giải bài toán tổng hợp chương II": 3,
+      "YCCD_TOAN6_030": 1,
+      "YCCD_TOAN6_032": 1,
+      "YCCD_TOAN6_038": 2
+    },
+    "types_used": {
+      "multichoice": 4,
+      "truefalse": 1,
+      "numerical": 3,
+      "shortanswer": 1,
+      "gapselect": 1
+    }
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN6_030",
+        "reason": "Đo lường khả năng xác định ước chung lớn nhất của hai hoặc ba số tự nhiên"
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_032",
+        "reason": "Đo lường khả năng xác định bội chung nhỏ nhất của hai hoặc ba số tự nhiên"
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_038",
+        "reason": "Đo lường khả năng vận dụng kiến thức số học vào giải quyết vấn đề thực tiễn"
+      },
+      {
+        "metadata_code": "Hệ thống kiến thức chương II về tính chia hết và số nguyên tố",
+        "reason": "Hệ thống kiến thức chương II về tính chia hết và số nguyên tố"
+      },
+      {
+        "metadata_code": "Giải bài toán tổng hợp chương II",
+        "reason": "Giải bài toán tổng hợp chương II"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_03",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "SUB_GQVD_DEXUAT_C2_01",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_05",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_04",
+        "reason": "Sẽ xử lý ở bước riêng"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống kiến thức chương II về tính chia hết và số nguyên tố",
+      "questiontext": "Cho tập hợp \\(A = \\{50; 108; 189; 1 234; 2 019; 2 020\\}\\). Có bao nhiêu số \\(x \\in A\\) sao cho \\(x - 12\\) chia hết cho 2?",
+      "generalfeedback": "Vì 12 chia hết cho 2 nên \\(x - 12\\) chia hết cho 2 khi \\(x\\) chia hết cho 2. Các số chia hết cho 2 trong tập hợp \\(A\\) là 50, 108, 1234, 2020 (gồm 4 số).",
+      "answers": [
+        {
+          "text": "4",
+          "fraction": 100
+        },
+        {
+          "text": "3",
+          "fraction": 0
+        },
+        {
+          "text": "2",
+          "fraction": 0
+        },
+        {
+          "text": "5",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống kiến thức chương II về tính chia hết và số nguyên tố",
+      "questiontext": "Cho \\(x \\in \\mathbb{N}\\), biểu thức \\(x + 20\\) chia hết cho 5 khi và chỉ khi \\(x\\) chia hết cho 5 (tức \\(x\\) có chữ số tận cùng là 0 hoặc 5).",
+      "generalfeedback": "Vì 20 chia hết cho 5, theo tính chất chia hết của một tổng, \\(x + 20\\) chia hết cho 5 khi \\(x\\) chia hết cho 5, nghĩa là \\(x\\) có chữ số tận cùng là 0 hoặc 5.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Giải bài toán tổng hợp chương II",
+      "questiontext": "Thực hiện phép tính: \\(14^2 + 5^2 + 2^2\\). (Chỉ điền kết quả là một số nguyên)",
+      "generalfeedback": "Ta có: \\(14^2 + 5^2 + 2^2 = 196 + 25 + 4 = 225\\).",
+      "answers": [
+        {
+          "text": "225",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Hệ thống kiến thức chương II về tính chia hết và số nguyên tố",
+      "questiontext": "Phân tích số 120 ra thừa số nguyên tố thu được \\(120 = 2^3 \\cdot 3 \\cdot 5\\). Số thừa số nguyên tố khác nhau trong phân tích này là bao nhiêu?",
+      "generalfeedback": "Các thừa số nguyên tố khác nhau trong phân tích \\(120 = 2^3 \\cdot 3 \\cdot 5\\) là 2, 3 và 5 (gồm 3 thừa số).",
+      "answers": [
+        {
+          "text": "3",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_030",
+      "questiontext": "Tìm ước chung lớn nhất của 21 và 98. (Chỉ điền kết quả số)",
+      "generalfeedback": "Ta có: \\(21 = 3 \\cdot 7\\) và \\(98 = 2 \\cdot 7^2\\). Do đó \\(\\text{ƯCLN}(21, 98) = 7\\).",
+      "answers": [
+        {
+          "text": "7",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_032",
+      "questiontext": "Tìm bội chung nhỏ nhất của 21 và 98. (Chỉ điền kết quả số)",
+      "generalfeedback": "Ta có: \\(21 = 3 \\cdot 7\\) và \\(98 = 2 \\cdot 7^2\\). Do đó \\(\\text{BCNN}(21, 98) = 2 \\cdot 3 \\cdot 7^2 = 294\\).",
+      "answers": [
+        {
+          "text": "294",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Giải bài toán tổng hợp chương II",
+      "questiontext": "Rút gọn phân số \\(\\frac{27}{123}\\) về phân số tối giản ta được kết quả là:",
+      "generalfeedback": "Chia cả tử và mẫu cho \\(\\text{ƯCLN}(27, 123) = 3\\), ta được \\(\\frac{27 : 3}{123 : 3} = \\frac{9}{41}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{9}{41}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{9}{43}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{3}{41}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{27}{123}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán tổng hợp chương II",
+      "questiontext": "Để thực hiện phép tính \\(\\frac{5}{12} + \\frac{3}{16}\\), ta quy đồng mẫu hai phân số với mẫu chung nhỏ nhất là [[1]]. Kết quả của phép tính sau khi rút gọn là [[2]].",
+      "generalfeedback": "Mẫu chung nhỏ nhất là \\(\\text{BCNN}(12, 16) = 48\\). Phép tính: \\(\\frac{5}{12} + \\frac{3}{16} = \\frac{20}{48} + \\frac{9}{48} = \\frac{29}{48}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "48"
+        },
+        {
+          "group": 1,
+          "text": "29/48"
+        },
+        {
+          "group": 1,
+          "text": "192"
+        },
+        {
+          "group": 1,
+          "text": "8/28"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_038",
+      "questiontext": "Có 12 quả cam, 18 quả xoài và 30 quả bơ. Mẹ muốn Mai chia đều mỗi loại quả đó vào các túi quà sao cho mỗi túi đều có cả cam, xoài và bơ. Hỏi Mai có thể chia được nhiều nhất là mấy túi quà?",
+      "generalfeedback": "Số túi quà nhiều nhất là \\(\\text{ƯCLN}(12, 18, 30)\\). Phân tích ra thừa số nguyên tố: \\(12 = 2^2 \\cdot 3\\), \\(18 = 2 \\cdot 3^2\\), \\(30 = 2 \\cdot 3 \\cdot 5\\). Do đó \\(\\text{ƯCLN}(12, 18, 30) = 2 \\cdot 3 = 6\\). Vậy chia được nhiều nhất 6 túi quà.",
+      "answers": [
+        {
+          "text": "6 túi quà",
+          "fraction": 100
+        },
+        {
+          "text": "12 túi quà",
+          "fraction": 0
+        },
+        {
+          "text": "3 túi quà",
+          "fraction": 0
+        },
+        {
+          "text": "30 túi quà",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_038",
+      "questiontext": "Bác Nam định kì 3 tháng một lần thay dầu, 6 tháng một lần xoay lốp xe ô tô của mình. Hỏi nếu bác ấy làm hai việc đó cùng lúc vào tháng 4 năm nay, thì lần gần nhất tiếp theo bác ấy sẽ cùng làm hai việc đó vào tháng mấy?",
+      "generalfeedback": "Khoảng thời gian giữa hai lần liên tiếp cùng làm hai việc là \\(\\text{BCNN}(3, 6) = 6\\) tháng. Lần gần nhất tiếp theo diễn ra vào tháng \\(4 + 6 = 10\\).",
+      "answers": [
+        {
+          "text": "Tháng 10",
+          "fraction": 100
+        },
+        {
+          "text": "Tháng 7",
+          "fraction": 0
+        },
+        {
+          "text": "Tháng 12",
+          "fraction": 0
+        },
+        {
+          "text": "Tháng 6",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống kiến thức chương II về tính chia hết và số nguyên tố",
+      "questiontext": "Cho tập hợp \\(A = \\{50; 108; 189; 1 234; 2 019; 2 020\\}\\). Có bao nhiêu số \\(x \\in A\\) sao cho \\(x - 27\\) chia hết cho 3?",
+      "generalfeedback": "Vì 27 chia hết cho 3 nên \\(x - 27\\) chia hết cho 3 khi \\(x\\) chia hết cho 3. Các số chia hết cho 3 trong tập hợp \\(A\\) là 108, 189, 2019 (gồm 3 số).",
+      "answers": [
+        {
+          "text": "3",
+          "fraction": 100
+        },
+        {
+          "text": "2",
+          "fraction": 0
+        },
+        {
+          "text": "4",
+          "fraction": 0
+        },
+        {
+          "text": "1",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống kiến thức chương II về tính chia hết và số nguyên tố",
+      "questiontext": "Cho tập hợp \\(A = \\{50; 108; 189; 1 234; 2 019; 2 020\\}\\). Có bao nhiêu số \\(x \\in A\\) sao cho \\(x + 36\\) chia hết cho 9?",
+      "generalfeedback": "Vì 36 chia hết cho 9 nên \\(x + 36\\) chia hết cho 9 khi \\(x\\) chia hết cho 9. Các số chia hết cho 9 trong tập hợp \\(A\\) là 108, 189 (gồm 2 số).",
+      "answers": [
+        {
+          "text": "2",
+          "fraction": 100
+        },
+        {
+          "text": "3",
+          "fraction": 0
+        },
+        {
+          "text": "1",
+          "fraction": 0
+        },
+        {
+          "text": "4",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Giải bài toán tổng hợp chương II",
+      "questiontext": "Thực hiện phép tính: \\(400 : 5 + 40\\). (Chỉ điền kết quả là một số)",
+      "generalfeedback": "Ta có: \\(400 : 5 + 40 = 80 + 40 = 120\\).",
+      "answers": [
+        {
+          "text": "120",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_030",
+      "questiontext": "Hãy ghép mỗi cặp số ở cột bên trái với ước chung lớn nhất (ƯCLN) tương ứng của chúng.",
+      "generalfeedback": "Ta có:\n- \\(36 = 2^2 \\cdot 3^2\\), \\(54 = 2 \\cdot 3^3 \\Rightarrow \\text{ƯCLN}(36, 54) = 2 \\cdot 3^2 = 18\\).\n- \\(21 = 3 \\cdot 7\\), \\(98 = 2 \\cdot 7^2 \\Rightarrow \\text{ƯCLN}(21, 98) = 7\\).\n- 79 và 97 là hai số nguyên tố nên \\(\\text{ƯCLN}(79, 97) = 1\\).",
+      "subquestions": [
+        {
+          "question": "ƯCLN của 36 và 54",
+          "answer": "18"
+        },
+        {
+          "question": "ƯCLN của 21 và 98",
+          "answer": "7"
+        },
+        {
+          "question": "ƯCLN của 79 và 97",
+          "answer": "1"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_032",
+      "questiontext": "Tìm bội chung nhỏ nhất (BCNN) của 36 và 54. (Chỉ điền kết quả là một số)",
+      "generalfeedback": "Ta có \\(36 = 2^2 \\cdot 3^2\\) và \\(54 = 2 \\cdot 3^3\\). Do đó \\(\\text{BCNN}(36, 54) = 2^2 \\cdot 3^3 = 108\\).",
+      "answers": [
+        {
+          "text": "108",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Giải bài toán tổng hợp chương II",
+      "questiontext": "Rút gọn phân số \\(\\frac{33}{77}\\) về phân số tối giản ta được:",
+      "generalfeedback": "Chia cả tử và mẫu cho \\(\\text{ƯCLN}(33, 77) = 11\\), ta được \\(\\frac{33 : 11}{77 : 11} = \\frac{3}{7}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{3}{7}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{3}{11}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{11}{7}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{33}{77}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Giải bài toán tổng hợp chương II",
+      "questiontext": "Thực hiện phép tính \\(\\frac{4}{15} - \\frac{2}{9}\\). Sau khi rút gọn kết quả về phân số tối giản, mẫu số của phân số đó bằng bao nhiêu? (Chỉ điền kết quả là số nguyên)",
+      "generalfeedback": "Quy đồng mẫu số với mẫu chung là \\(\\text{BCNN}(15, 9) = 45\\): \\(\\frac{4}{15} - \\frac{2}{9} = \\frac{12}{45} - \\frac{10}{45} = \\frac{2}{45}\\). Mẫu số của phân số tối giản là 45.",
+      "answers": [
+        {
+          "text": "45",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_032",
+      "questiontext": "Biết rằng 79 và 97 là hai số nguyên tố. Bội chung nhỏ nhất của hai số này bằng 7 663.",
+      "generalfeedback": "Đúng. Vì 79 và 97 là hai số nguyên tố nên nguyên tố cùng nhau, do đó \\(\\text{BCNN}(79, 97) = 79 \\cdot 97 = 7663\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_030",
+      "questiontext": "Biết hai số \\(3^a \\cdot 5^2\\) và \\(3^3 \\cdot 5^b\\) có \\(\\text{ƯCLN} = 3^3 \\cdot 5^2\\) và \\(\\text{BCNN} = 3^4 \\cdot 5^3\\). Giá trị của \\(a\\) và \\(b\\) lần lượt là:",
+      "generalfeedback": "So sánh số mũ của thừa số 3: \\(\\text{ƯCLN}\\) lấy số mũ nhỏ nhất là 3, \\(\\text{BCNN}\\) lấy số mũ lớn nhất là 4 nên \\(a = 4\\).\nSo sánh số mũ của thừa số 5: \\(\\text{ƯCLN}\\) lấy số mũ nhỏ nhất là 2, \\(\\text{BCNN}\\) lấy số mũ lớn nhất là 3 nên \\(b = 3\\).\nVậy \\(a = 4, b = 3\\).",
+      "answers": [
+        {
+          "text": "\\(a = 4, b = 3\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(a = 3, b = 2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a = 3, b = 4\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a = 4, b = 2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_038",
+      "questiontext": "Bài toán cổ: Bác kia chăn vịt khác thường / Buộc đi cho được chẵn hàng mới ưa / Hàng 2 xếp thấy chưa vừa / Hàng 3 xếp vẫn còn thừa một con / Hàng 4 xếp vẫn chưa tròn / Hàng 5 xếp thiếu một con mới đầy / Xếp thành hàng 7, đẹp thay / Vịt bao nhiêu? Tính được ngay mới tài. Biết số vịt chưa đến 200 con, hỏi bác đó có bao nhiêu con vịt? (Chỉ điền kết quả là một số)",
+      "generalfeedback": "Gọi số vịt là \\(x\\) (con, \\(x \\in \\mathbb{N}^*, x < 200\\)).\n- Xếp hàng 5 thiếu 1 con nên \\(x + 1 \\vdots 5 \\Rightarrow x\\) có tận cùng là 4 hoặc 9.\n- Xếp hàng 2 chưa vừa (chưa chẵn hàng) nên \\(x\\) là số lẻ \\(\\Rightarrow x\\) có tận cùng là 9.\n- Xếp hàng 7 đẹp thay nên \\(x \\vdots 7\\).\nCác bội của 7 nhỏ hơn 200 có tận cùng là 9 gồm: 49, 119, 189.\n+ Với \\(x = 49\\): chia 3 dư 1 (thừa 1 con), chia 4 dư 1 (chưa tròn hàng 4), chia 5 thiếu 1 con, chia 7 vừa đẹp. Thỏa mãn tất cả điều kiện.\nVậy số vịt là 49 con.",
+      "answers": [
+        {
+          "text": "49",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    }
+  ]
+}

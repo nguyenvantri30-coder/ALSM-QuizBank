@@ -1,0 +1,732 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 30,
+    "metadata_used": {
+      "YCCD_TOAN8_073": 1,
+      "Dấu hiệu nhận biết hình bình hành theo cạnh đối song song": 2,
+      "cạnh đối bằng nhau": 2,
+      "hoặc cặp cạnh đối song song và bằng nhau": 2,
+      "Chứng minh tứ giác là hình bình hành bằng dấu hiệu các cạnh đối song song": 3,
+      "Chứng minh tứ giác là hình bình hành bằng dấu hiệu các cạnh đối bằng nhau": 5,
+      "Chứng minh tứ giác là hình bình hành bằng cặp cạnh đối song song và bằng nhau": 5,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_GQVD_PHATHIEN_C2_01": 2,
+      "NLT_TOAN_C2_01_05": 1,
+      "NLT_TOAN_C2_01_08": 1
+    },
+    "types_used": {
+      "multichoice": 9,
+      "truefalse": 3,
+      "shortanswer": 3,
+      "gapselect": 3,
+      "ddwtos": 3,
+      "matching": 3,
+      "calculated": 1,
+      "numerical": 3,
+      "calculatedsimple": 2
+    },
+    "total": 30
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN8_073",
+        "reason": "Nhận biết dấu hiệu nhận biết hình bình hành theo cạnh"
+      },
+      {
+        "metadata_code": "Dấu hiệu nhận biết hình bình hành theo cạnh đối song song",
+        "reason": "Kiến thức dấu hiệu nhận biết theo cạnh đối song song"
+      },
+      {
+        "metadata_code": "cạnh đối bằng nhau",
+        "reason": "Kiến thức dấu hiệu nhận biết theo cạnh đối bằng nhau"
+      },
+      {
+        "metadata_code": "hoặc cặp cạnh đối song song và bằng nhau",
+        "reason": "Kiến thức dấu hiệu nhận biết theo cặp cạnh đối song song và bằng nhau"
+      },
+      {
+        "metadata_code": "Chứng minh tứ giác là hình bình hành bằng dấu hiệu các cạnh đối song song",
+        "reason": "Kỹ năng chứng minh hình bình hành theo cạnh đối song song"
+      },
+      {
+        "metadata_code": "Chứng minh tứ giác là hình bình hành bằng dấu hiệu các cạnh đối bằng nhau",
+        "reason": "Kỹ năng chứng minh hình bình hành theo cạnh đối bằng nhau"
+      },
+      {
+        "metadata_code": "Chứng minh tứ giác là hình bình hành bằng cặp cạnh đối song song và bằng nhau",
+        "reason": "Kỹ năng chứng minh hình bình hành theo cặp cạnh đối song song và bằng nhau"
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Phẩm chất vươn lên trong học tập"
+      },
+      {
+        "metadata_code": "SUB_GQVD_PHATHIEN_C2_01",
+        "reason": "Năng lực chung phân tích tình huống học tập"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_05",
+        "reason": "Năng lực đặc thù thực hiện lập luận hợp lý"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_08",
+        "reason": "Năng lực đặc thù chứng minh mệnh đề toán học"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Nội dung bài học không liên quan trực tiếp đến năng lực tin học/số"
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học không liên quan trực tiếp đến năng lực AI"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_073",
+      "questiontext": "Khẳng định nào sau đây là DẤU HIỆU NHẬN BIẾT một tứ giác là hình bình hành theo cạnh?",
+      "generalfeedback": "Theo Định lí 2a, tứ giác có các cạnh đối bằng nhau (hai cặp cạnh đối bằng nhau) là một hình bình hành.",
+      "answers": [
+        {
+          "text": "Tứ giác có các cạnh đối bằng nhau là hình bình hành.",
+          "fraction": 100
+        },
+        {
+          "text": "Tứ giác có hai đường chéo bằng nhau là hình bình hành.",
+          "fraction": 0
+        },
+        {
+          "text": "Tứ giác có hai góc kề một cạnh bằng nhau là hình bình hành.",
+          "fraction": 0
+        },
+        {
+          "text": "Tứ giác có hai cạnh đối bằng nhau là hình bình hành.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Dấu hiệu nhận biết hình bình hành theo cạnh đối song song",
+      "questiontext": "Tứ giác \\(ABCD\\) có \\(AB // CD\\) và \\(AD // BC\\) thì tứ giác \\(ABCD\\) là hình bình hành.",
+      "generalfeedback": "Theo định nghĩa (dấu hiệu nhận biết theo cạnh đối song song), tứ giác có các cạnh đối song song là hình bình hành.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "cạnh đối bằng nhau",
+      "questiontext": "Điền cụm từ thích hợp vào chỗ trống để hoàn thành khẳng định sau: \"Tứ giác có các cạnh đối ... là một hình bình hành.\"",
+      "generalfeedback": "Theo Định lí 2a, tứ giác có các cạnh đối bằng nhau là một hình bình hành.",
+      "answers": [
+        {
+          "text": "bằng nhau",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "hoặc cặp cạnh đối song song và bằng nhau",
+      "questiontext": "Điền từ thích hợp vào chỗ trống: Tứ giác có một cặp cạnh đối [[1]] và [[2]] là một hình bình hành.",
+      "generalfeedback": "Theo Định lí 2b, tứ giác có một cặp cạnh đối song song và bằng nhau là một hình bình hành.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "song song"
+        },
+        {
+          "group": 1,
+          "text": "bằng nhau"
+        },
+        {
+          "group": 1,
+          "text": "vuông góc"
+        },
+        {
+          "group": 1,
+          "text": "cắt nhau"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh tứ giác là hình bình hành bằng dấu hiệu các cạnh đối song song",
+      "questiontext": "Cho tứ giác \\(MNPQ\\) có \\(MN // PQ\\) và \\(MQ // NP\\). Ta kết luận tứ giác \\(MNPQ\\) là hình bình hành dựa vào dấu hiệu các cạnh đối [[1]].",
+      "generalfeedback": "Tứ giác \\(MNPQ\\) có \\(MN // PQ\\) và \\(MQ // NP\\) là hai cặp cạnh đối song song nên \\(MNPQ\\) là hình bình hành theo dấu hiệu các cạnh đối song song.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "song song"
+        },
+        {
+          "group": 1,
+          "text": "bằng nhau"
+        },
+        {
+          "group": 1,
+          "text": "vuông góc"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh tứ giác là hình bình hành bằng dấu hiệu các cạnh đối bằng nhau",
+      "questiontext": "Ghép mỗi điều kiện của tứ giác \\(ABCD\\) ở cột bên trái với kết luận phù hợp ở cột bên phải:",
+      "generalfeedback": "Mỗi điều kiện tương ứng với một dấu hiệu nhận biết hình bình hành theo cạnh trong bài học.",
+      "subquestions": [
+        {
+          "question": "Tứ giác \\(ABCD\\) có \\(AB = CD\\) và \\(AD = BC\\)",
+          "answer": "Là hình bình hành theo dấu hiệu các cạnh đối bằng nhau"
+        },
+        {
+          "question": "Tứ giác \\(ABCD\\) có \\(AB // CD\\) và \\(AB = CD\\)",
+          "answer": "Là hình bình hành theo dấu hiệu một cặp cạnh đối song song và bằng nhau"
+        },
+        {
+          "question": "Tứ giác \\(ABCD\\) có \\(AB // CD\\) và \\(AD // BC\\)",
+          "answer": "Là hình bình hành theo dấu hiệu các cạnh đối song song"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Chứng minh tứ giác là hình bình hành bằng dấu hiệu các cạnh đối bằng nhau",
+      "questiontext": "Cho tứ giác \\(ABCD\\) có \\(AB =\\) {a} cm và \\(AD =\\) {b} cm. Để tứ giác \\(ABCD\\) là hình bình hành theo dấu hiệu các cạnh đối bằng nhau thì độ dài cạnh \\(CD\\) phải bằng bao nhiêu cm? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Tứ giác \\(ABCD\\) là hình bình hành khi các cạnh đối bằng nhau, tức là \\(CD = AB = {a}\\text{ cm}\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 3.0,
+          "max": 15.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 2.0,
+          "max": 12.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh tứ giác là hình bình hành bằng cặp cạnh đối song song và bằng nhau",
+      "imgs": [
+        "_page_2_Picture_24.jpeg"
+      ],
+      "questiontext": "Cho hình bình hành \\(ABCD\\). Từ \\(A, C\\) kẻ \\(AH, CK\\) cùng vuông góc với đường chéo \\(BD\\) (\\(H, K \\in BD\\)) như hình vẽ bên dưới:\n[img:_page_2_Picture_24.jpeg]\nTứ giác \\(AHCK\\) là hình bình hành vì lý do nào sau đây?",
+      "generalfeedback": "Vì \\(AH \\perp BD\\) và \\(CK \\perp BD\\) nên \\(AH // CK\\). Lại có \\(\\triangle AHD = \\triangle CKB\\) (cạnh huyền - góc nhọn) nên \\(AH = CK\\). Tứ giác \\(AHCK\\) có một cặp cạnh đối song song và bằng nhau nên là hình bình hành theo Định lí 2b.",
+      "answers": [
+        {
+          "text": "Tứ giác \\(AHCK\\) có cặp cạnh đối \\(AH, CK\\) song song (cùng vuông góc với \\(BD\\)) và bằng nhau (\\(AH = CK\\)).",
+          "fraction": 100
+        },
+        {
+          "text": "Tứ giác \\(AHCK\\) có hai đường chéo cắt nhau tại trung điểm mỗi đường.",
+          "fraction": 0
+        },
+        {
+          "text": "Tứ giác \\(AHCK\\) có các góc đối bằng nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Tứ giác \\(AHCK\\) có hai cạnh kề bằng nhau.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Chứng minh tứ giác là hình bình hành bằng cặp cạnh đối song song và bằng nhau",
+      "questiontext": "Cho tứ giác \\(HKPQ\\) có \\(HK // PQ\\), \\(HK = 8\\text{ cm}\\) và \\(PQ =\\) {x} cm. Tìm giá trị của {x} để tứ giác \\(HKPQ\\) là hình bình hành. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Để tứ giác \\(HKPQ\\) có \\(HK // PQ\\) là hình bình hành theo dấu hiệu một cặp cạnh đối song song và bằng nhau thì \\(PQ = HK = 8\\text{ cm}\\), do đó {x} = 8.",
+      "answers": [
+        {
+          "text": "8",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh tứ giác là hình bình hành bằng dấu hiệu các cạnh đối bằng nhau",
+      "imgs": [
+        "_page_3_Picture_6.jpeg"
+      ],
+      "questiontext": "Một sợi dây xích được chia thành bốn đoạn: hai đoạn dài bằng nhau (đoạn dài), hai đoạn ngắn bằng nhau (đoạn ngắn) và xếp xen kẽ nhau. Khi móc hai đầu mút lại tạo thành tứ giác \\(ABCD\\) như hình vẽ bên dưới:\n[img:_page_3_Picture_6.jpeg]\nTứ giác \\(ABCD\\) là hình gì và vì sao?",
+      "generalfeedback": "Tứ giác \\(ABCD\\) có hai đoạn dài bằng nhau \\(AB = CD\\) và hai đoạn ngắn bằng nhau \\(AD = BC\\), tức là các cạnh đối bằng nhau. Theo Định lí 2a, tứ giác \\(ABCD\\) là hình bình hành.",
+      "answers": [
+        {
+          "text": "Hình bình hành, vì tứ giác \\(ABCD\\) có các cạnh đối bằng nhau (\\(AB = CD\\) và \\(AD = BC\\)).",
+          "fraction": 100
+        },
+        {
+          "text": "Hình thang cân, vì tứ giác \\(ABCD\\) có hai cạnh bên bằng nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Hình chữ nhật, vì tứ giác \\(ABCD\\) có bốn góc vuông.",
+          "fraction": 0
+        },
+        {
+          "text": "Hình thoi, vì tứ giác \\(ABCD\\) có bốn cạnh bằng nhau.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Dấu hiệu nhận biết hình bình hành theo cạnh đối song song",
+      "questiontext": "Cho tứ giác \\(ABCD\\) có \\(AB // CD\\). Để tứ giác \\(ABCD\\) là hình bình hành theo định nghĩa (dấu hiệu các cạnh đối song song), cần thêm điều kiện nào sau đây?",
+      "generalfeedback": "Theo định nghĩa, hình bình hành là tứ giác có các cạnh đối song song. Đã có \\(AB // CD\\), cần thêm \\(AD // BC\\).",
+      "answers": [
+        {
+          "text": "\\(AD // BC\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(AD = BC\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(AC = BD\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(AB = AD\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "cạnh đối bằng nhau",
+      "questiontext": "Khẳng định sau đây Đúng hay Sai: \"Tứ giác chỉ cần có một cặp cạnh đối bằng nhau là hình bình hành.\"",
+      "generalfeedback": "Sai. Dấu hiệu nhận biết 2a yêu cầu CÁC cạnh đối bằng nhau (tức hai cặp cạnh đối bằng nhau), hoặc nếu chỉ một cặp cạnh đối thì vừa phải song song vừa phải bằng nhau (Định lí 2b).",
+      "answers": [
+        {
+          "text": "Sai",
+          "fraction": 100
+        },
+        {
+          "text": "Đúng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh tứ giác là hình bình hành bằng dấu hiệu các cạnh đối song song",
+      "questiontext": "Cho tam giác \\(ABC\\). Từ điểm \\(M\\) trên cạnh \\(BC\\), kẻ \\(MN // AB\\) (\\(N \\in AC\\)) và \\(MP // AC\\) (\\(P \\in AB\\)). Tứ giác \\(ANMP\\) là hình gì?",
+      "generalfeedback": "Tứ giác \\(ANMP\\) có \\(AN // MP\\) (do \\(AC // MP\\)) và \\(AP // MN\\) (do \\(AB // MN\\)). Tứ giác có các cạnh đối song song nên là hình bình hành.",
+      "answers": [
+        {
+          "text": "Hình bình hành",
+          "fraction": 100
+        },
+        {
+          "text": "Hình thang cân",
+          "fraction": 0
+        },
+        {
+          "text": "Hình chữ nhật",
+          "fraction": 0
+        },
+        {
+          "text": "Hình thoi",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Chứng minh tứ giác là hình bình hành bằng dấu hiệu các cạnh đối bằng nhau",
+      "questiontext": "Cho tứ giác \\(ABCD\\) có \\(AB = 6\\text{ cm}\\), \\(CD = 6\\text{ cm}\\), \\(AD = 4\\text{ cm}\\). Để \\(ABCD\\) là hình bình hành thì độ dài cạnh \\(BC\\) phải bằng bao nhiêu cm? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Để \\(ABCD\\) là hình bình hành theo dấu hiệu các cạnh đối bằng nhau thì \\(BC = AD = 4\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "4",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Chứng minh tứ giác là hình bình hành bằng cặp cạnh đối song song và bằng nhau",
+      "questiontext": "Cho tứ giác \\(ABCD\\) có \\(AB // CD\\) và \\(AB =\\) {x} cm. Để tứ giác \\(ABCD\\) là hình bình hành theo dấu hiệu một cặp cạnh đối song song và bằng nhau thì độ dài cạnh \\(CD\\) phải bằng bao nhiêu cm? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Tứ giác \\(ABCD\\) có \\(AB // CD\\) sẽ là hình bình hành khi \\(CD = AB = {x}\\text{ cm}\\).",
+      "wildcards": [
+        {
+          "name": "x",
+          "min": 5.0,
+          "max": 20.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{x}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh tứ giác là hình bình hành bằng dấu hiệu các cạnh đối bằng nhau",
+      "questiontext": "Cho tứ giác \\(PQRS\\) có \\(PQ = RS\\) và \\(PS = QR\\). Tứ giác \\(PQRS\\) là hình bình hành vì có các [[1]] đối [[2]].",
+      "generalfeedback": "Tứ giác \\(PQRS\\) có hai cặp cạnh đối bằng nhau (\\(PQ = RS\\) và \\(PS = QR\\)) nên là hình bình hành.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "cạnh"
+        },
+        {
+          "group": 1,
+          "text": "góc"
+        },
+        {
+          "group": 1,
+          "text": "bằng nhau"
+        },
+        {
+          "group": 1,
+          "text": "song song"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh tứ giác là hình bình hành bằng cặp cạnh đối song song và bằng nhau",
+      "questiontext": "Để chứng minh tứ giác \\(ABCD\\) là hình bình hành theo Định lí 2b, ta cần chứng minh một cặp cạnh đối (ví dụ \\(AB\\) và \\(CD\\)) vừa [[1]] vừa [[2]].",
+      "generalfeedback": "Định lí 2b nêu rõ: Tứ giác có một cặp cạnh đối song song và bằng nhau là một hình bình hành.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "song song"
+        },
+        {
+          "group": 1,
+          "text": "bằng nhau"
+        },
+        {
+          "group": 1,
+          "text": "vuông góc"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "hoặc cặp cạnh đối song song và bằng nhau",
+      "questiontext": "Ghép mỗi giả thiết của tứ giác \\(ABCD\\) ở cột bên trái với kết luận phù hợp ở cột bên phải:",
+      "generalfeedback": "Các khẳng định tương ứng với các dấu hiệu nhận biết hình bình hành theo cạnh.",
+      "subquestions": [
+        {
+          "question": "Giả thiết: \\(AB // CD\\) và \\(AD // BC\\)",
+          "answer": "Hình bình hành theo dấu hiệu các cạnh đối song song"
+        },
+        {
+          "question": "Giả thiết: \\(AB = CD\\) và \\(AD = BC\\)",
+          "answer": "Hình bình hành theo dấu hiệu các cạnh đối bằng nhau"
+        },
+        {
+          "question": "Giả thiết: \\(AB // CD\\) và \\(AB = CD\\)",
+          "answer": "Hình bình hành theo dấu hiệu một cặp cạnh đối song song và bằng nhau"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh tứ giác là hình bình hành bằng cặp cạnh đối song song và bằng nhau",
+      "imgs": [
+        "_page_3_Picture_4.jpeg"
+      ],
+      "questiontext": "Cho hình bình hành \\(ABCD\\) (\\(AB > BC\\)). Tia phân giác của góc \\(D\\) cắt \\(AB\\) tại \\(E\\) và tia phân giác của góc \\(B\\) cắt \\(CD\\) tại \\(F\\) như hình vẽ bên dưới:\n[img:_page_3_Picture_4.jpeg]\nTứ giác \\(DEBF\\) là hình gì và tại sao?",
+      "generalfeedback": "Ta có \\(DE // BF\\) (do góc \\(EDC = FBN\\) so le trong hoặc tính chất phân giác góc đối) và \\(DE = BF\\). Tứ giác \\(DEBF\\) có một cặp cạnh đối song song và bằng nhau nên là hình bình hành theo Định lí 2b.",
+      "answers": [
+        {
+          "text": "Hình bình hành, vì có cặp cạnh đối \\(DE\\) và \\(BF\\) song song và bằng nhau.",
+          "fraction": 100
+        },
+        {
+          "text": "Hình chữ nhật, vì có 4 góc vuông.",
+          "fraction": 0
+        },
+        {
+          "text": "Hình thang cân, vì có hai cạnh bên bằng nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Hình thoi, vì có bốn cạnh bằng nhau.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Chứng minh tứ giác là hình bình hành bằng dấu hiệu các cạnh đối song song",
+      "questiontext": "Cho hình bình hành \\(ABCD\\) có chu vi bằng 28 cm và độ dài cạnh \\(AB = 8\\text{ cm}\\). Tính độ dài cạnh \\(BC\\) theo cm. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Chu vi hình bình hành bằng \\(2 \\times (AB + BC) = 28 \\Rightarrow AB + BC = 14 \\Rightarrow BC = 14 - 8 = 6\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "6",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Dấu hiệu nhận biết hình bình hành theo cạnh đối song song",
+      "questiontext": "Cho tứ giác \\(ABCD\\) có \\(AB // CD\\). Để tứ giác \\(ABCD\\) là hình bình hành theo định nghĩa (dấu hiệu các cạnh đối song song), cần thêm điều kiện nào sau đây?",
+      "generalfeedback": "Theo định nghĩa, hình bình hành là tứ giác có các cạnh đối song song. Đã có \\(AB // CD\\), cần thêm \\(AD // BC\\).",
+      "answers": [
+        {
+          "text": "\\(AD // BC\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(AD = BC\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(AC = BD\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(AB = AD\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "cạnh đối bằng nhau",
+      "questiontext": "Khẳng định sau đây Đúng hay Sai: \"Tứ giác chỉ cần có một cặp cạnh đối bằng nhau là hình bình hành.\"",
+      "generalfeedback": "Sai. Dấu hiệu nhận biết 2a yêu cầu CÁC cạnh đối bằng nhau (tức hai cặp cạnh đối bằng nhau), hoặc nếu chỉ một cặp cạnh đối thì vừa phải song song vừa phải bằng nhau (Định lí 2b).",
+      "answers": [
+        {
+          "text": "Sai",
+          "fraction": 100
+        },
+        {
+          "text": "Đúng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh tứ giác là hình bình hành bằng dấu hiệu các cạnh đối song song",
+      "questiontext": "Cho tam giác \\(ABC\\). Từ điểm \\(M\\) trên cạnh \\(BC\\), kẻ \\(MN // AB\\) (\\(N \\in AC\\)) và \\(MP // AC\\) (\\(P \\in AB\\)). Tứ giác \\(ANMP\\) là hình gì?",
+      "generalfeedback": "Tứ giác \\(ANMP\\) có \\(AN // MP\\) (do \\(AC // MP\\)) và \\(AP // MN\\) (do \\(AB // MN\\)). Tứ giác có các cạnh đối song song nên là hình bình hành.",
+      "answers": [
+        {
+          "text": "Hình bình hành",
+          "fraction": 100
+        },
+        {
+          "text": "Hình thang cân",
+          "fraction": 0
+        },
+        {
+          "text": "Hình chữ nhật",
+          "fraction": 0
+        },
+        {
+          "text": "Hình thoi",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Chứng minh tứ giác là hình bình hành bằng dấu hiệu các cạnh đối bằng nhau",
+      "questiontext": "Cho tứ giác \\(ABCD\\) có \\(AB = 6\\text{ cm}\\), \\(CD = 6\\text{ cm}\\), \\(AD = 4\\text{ cm}\\). Để \\(ABCD\\) là hình bình hành thì độ dài cạnh \\(BC\\) phải bằng bao nhiêu cm? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Để \\(ABCD\\) là hình bình hành theo dấu hiệu các cạnh đối bằng nhau thì \\(BC = AD = 4\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "4",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Chứng minh tứ giác là hình bình hành bằng cặp cạnh đối song song và bằng nhau",
+      "questiontext": "Cho tứ giác \\(ABCD\\) có \\(AB // CD\\) và \\(AB =\\) {x} cm. Để tứ giác \\(ABCD\\) là hình bình hành theo dấu hiệu một cặp cạnh đối song song và bằng nhau thì độ dài cạnh \\(CD\\) phải bằng bao nhiêu cm? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Tứ giác \\(ABCD\\) có \\(AB // CD\\) sẽ là hình bình hành khi \\(CD = AB = {x}\\text{ cm}\\).",
+      "wildcards": [
+        {
+          "name": "x",
+          "min": 5.0,
+          "max": 20.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{x}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh tứ giác là hình bình hành bằng dấu hiệu các cạnh đối bằng nhau",
+      "questiontext": "Cho tứ giác \\(PQRS\\) có \\(PQ = RS\\) và \\(PS = QR\\). Tứ giác \\(PQRS\\) là hình bình hành vì có các [[1]] đối [[2]].",
+      "generalfeedback": "Tứ giác \\(PQRS\\) có hai cặp cạnh đối bằng nhau (\\(PQ = RS\\) và \\(PS = QR\\)) nên là hình bình hành.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "cạnh"
+        },
+        {
+          "group": 1,
+          "text": "góc"
+        },
+        {
+          "group": 1,
+          "text": "bằng nhau"
+        },
+        {
+          "group": 1,
+          "text": "song song"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh tứ giác là hình bình hành bằng cặp cạnh đối song song và bằng nhau",
+      "questiontext": "Để chứng minh tứ giác \\(ABCD\\) là hình bình hành theo Định lí 2b, ta cần chứng minh một cặp cạnh đối (ví dụ \\(AB\\) và \\(CD\\)) vừa [[1]] vừa [[2]].",
+      "generalfeedback": "Định lí 2b nêu rõ: Tứ giác có một cặp cạnh đối song song và bằng nhau là một hình bình hành.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "song song"
+        },
+        {
+          "group": 1,
+          "text": "bằng nhau"
+        },
+        {
+          "group": 1,
+          "text": "vuông góc"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "hoặc cặp cạnh đối song song và bằng nhau",
+      "questiontext": "Ghép mỗi giả thiết của tứ giác \\(ABCD\\) ở cột bên trái với kết luận phù hợp ở cột bên phải:",
+      "generalfeedback": "Các khẳng định tương ứng với các dấu hiệu nhận biết hình bình hành theo cạnh.",
+      "subquestions": [
+        {
+          "question": "Giả thiết: \\(AB // CD\\) và \\(AD // BC\\)",
+          "answer": "Hình bình hành theo dấu hiệu các cạnh đối song song"
+        },
+        {
+          "question": "Giả thiết: \\(AB = CD\\) và \\(AD = BC\\)",
+          "answer": "Hình bình hành theo dấu hiệu các cạnh đối bằng nhau"
+        },
+        {
+          "question": "Giả thiết: \\(AB // CD\\) và \\(AB = CD\\)",
+          "answer": "Hình bình hành theo dấu hiệu một cặp cạnh đối song song và bằng nhau"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh tứ giác là hình bình hành bằng cặp cạnh đối song song và bằng nhau",
+      "imgs": [
+        "_page_3_Picture_4.jpeg"
+      ],
+      "questiontext": "Cho hình bình hành \\(ABCD\\) (\\(AB > BC\\)). Tia phân giác của góc \\(D\\) cắt \\(AB\\) tại \\(E\\) và tia phân giác của góc \\(B\\) cắt \\(CD\\) tại \\(F\\) như hình vẽ bên dưới:\n[img:_page_3_Picture_4.jpeg]\nTứ giác \\(DEBF\\) là hình gì và tại sao?",
+      "generalfeedback": "Ta có \\(DE // BF\\) (do góc \\(EDC = FBN\\) so le trong hoặc tính chất phân giác góc đối) và \\(DE = BF\\). Tứ giác \\(DEBF\\) có một cặp cạnh đối song song và bằng nhau nên là hình bình hành theo Định lí 2b.",
+      "answers": [
+        {
+          "text": "Hình bình hành, vì có cặp cạnh đối \\(DE\\) và \\(BF\\) song song và bằng nhau.",
+          "fraction": 100
+        },
+        {
+          "text": "Hình chữ nhật, vì có 4 góc vuông.",
+          "fraction": 0
+        },
+        {
+          "text": "Hình thang cân, vì có hai cạnh bên bằng nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Hình thoi, vì có bốn cạnh bằng nhau.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Chứng minh tứ giác là hình bình hành bằng dấu hiệu các cạnh đối song song",
+      "questiontext": "Cho hình bình hành \\(ABCD\\) có chu vi bằng 28 cm và độ dài cạnh \\(AB = 8\\text{ cm}\\). Tính độ dài cạnh \\(BC\\) theo cm. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Chu vi hình bình hành bằng \\(2 \\times (AB + BC) = 28 \\Rightarrow AB + BC = 14 \\Rightarrow BC = 14 - 8 = 6\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "6",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    }
+  ]
+}

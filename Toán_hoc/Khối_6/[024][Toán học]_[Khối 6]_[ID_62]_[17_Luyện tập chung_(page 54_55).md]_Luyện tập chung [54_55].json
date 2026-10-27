@@ -1,0 +1,439 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 16,
+    "metadata_used": {
+      "YCCD_TOAN6_030": 4,
+      "Giải bài toán thực tế gắn với ƯC, ƯCLN, BC, BCNN": 5,
+      "Ứng dụng ƯCLN và BCNN trong giải bài toán thực tế và toán phân số": 4,
+      "YCCD_TOAN6_032": 4,
+      "Quy đồng mẫu các phân số dùng BCNN": 3,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_CHAMCHI_HAMHOC_C2_03": 1,
+      "SUB_TCTH_TUHOC_C2_01": 1,
+      "SUB_GQVD_DEXUAT_C2_01": 1,
+      "NLT_TOAN_C2_01_05": 1,
+      "NLT_TOAN_C2_03_04": 1
+    },
+    "types_used": {
+      "multichoice": 7,
+      "shortanswer": 1,
+      "numerical": 2,
+      "matching": 2,
+      "truefalse": 1,
+      "gapselect": 1,
+      "ddwtos": 1,
+      "calculatedsimple": 1
+    },
+    "total": 16
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN6_030",
+        "reason": "Xác định được ước chung lớn nhất của hai hoặc ba số tự nhiên."
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_032",
+        "reason": "Xác định được bội chung nhỏ nhất của hai hoặc ba số tự nhiên."
+      },
+      {
+        "metadata_code": "Ứng dụng ƯCLN và BCNN trong giải bài toán thực tế và toán phân số",
+        "reason": "Ứng dụng ƯCLN và BCNN trong giải bài toán thực tế và toán phân số."
+      },
+      {
+        "metadata_code": "Quy đồng mẫu các phân số dùng BCNN",
+        "reason": "Quy đồng mẫu các phân số dùng BCNN."
+      },
+      {
+        "metadata_code": "Giải bài toán thực tế gắn với ƯC, ƯCLN, BC, BCNN",
+        "reason": "Giải bài toán thực tế gắn với ƯC, ƯCLN, BC, BCNN."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Luôn cố gắng vươn lên đạt kết quả tốt trong học tập."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_03",
+        "reason": "Có ý thức vận dụng kiến thức, kĩ năng học được ở nhà trường vào đời sống."
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+        "reason": "Tự đặt được mục tiêu học tập để nỗ lực phấn đấu thực hiện."
+      },
+      {
+        "metadata_code": "SUB_GQVD_DEXUAT_C2_01",
+        "reason": "Xác định được và biết tìm hiểu các thông tin liên quan đến vấn đề."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_05",
+        "reason": "Thực hiện được việc lập luận hợp lí khi giải quyết vấn đề."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_04",
+        "reason": "Sử dụng được các kiến thức toán học tương thích để giải quyết vấn đề."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học thuộc chủ đề Luyện tập chung về ƯC, ƯCLN, BC, BCNN trong Toán học lớp 6 thuần túy, không chứa nội dung trực tiếp về công nghệ thông tin/tin học."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Bài học không liên quan trực tiếp đến bối cảnh ứng dụng hoặc nguyên lý Trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_030",
+      "questiontext": "Ước chung lớn nhất của 60 và 90 là số nào sau đây?",
+      "generalfeedback": "Phân tích ra thừa số nguyên tố: \\(60 = 2^2 \\cdot 3 \\cdot 5\\) và \\(90 = 2 \\cdot 3^2 \\cdot 5\\). Do đó \\(\\text{ƯCLN}(60, 90) = 2 \\cdot 3 \\cdot 5 = 30\\).",
+      "answers": [
+        {
+          "text": "30",
+          "fraction": 100
+        },
+        {
+          "text": "60",
+          "fraction": 0
+        },
+        {
+          "text": "15",
+          "fraction": 0
+        },
+        {
+          "text": "180",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_030",
+      "questiontext": "Tìm số tự nhiên \\(a\\) lớn nhất sao cho 18 chia hết cho \\(a\\), 45 chia hết cho \\(a\\) và 135 chia hết cho \\(a\\).",
+      "generalfeedback": "Số tự nhiên \\(a\\) lớn nhất cần tìm chính là \\(\\text{ƯCLN}(18, 45, 135)\\). Phân tích ra thừa số nguyên tố: \\(18 = 2 \\cdot 3^2\\), \\(45 = 3^2 \\cdot 5\\), \\(135 = 3^3 \\cdot 5\\). Do đó \\(\\text{ƯCLN}(18, 45, 135) = 3^2 = 9\\). Vậy \\(a = 9\\).",
+      "answers": [
+        {
+          "text": "9",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán thực tế gắn với ƯC, ƯCLN, BC, BCNN",
+      "questiontext": "Có ba loại đèn trang trí [img:_page_0_Picture_23.jpeg] phát sáng cùng lúc vào 6 giờ sáng. Đèn thứ nhất cứ 6 giây phát sáng một lần, đèn thứ hai cứ 8 giây phát sáng một lần và đèn thứ ba cứ 10 giây phát sáng một lần. Hỏi sau bao nhiêu phút thì ba đèn lại cùng phát sáng lần tiếp theo? (Chỉ điền số, không ghi đơn vị)",
+      "imgs": [
+        "_page_0_Picture_23.jpeg"
+      ],
+      "generalfeedback": "Thời gian để ba đèn cùng phát sáng lần tiếp theo (tính theo giây) là \\(\\text{BCNN}(6, 8, 10)\\). Ta có \\(6 = 2 \\cdot 3\\), \\(8 = 2^3\\), \\(10 = 2 \\cdot 5\\). Suy ra \\(\\text{BCNN}(6, 8, 10) = 2^3 \\cdot 3 \\cdot 5 = 120\\) giây. Đổi 120 giây = 2 phút.",
+      "answers": [
+        {
+          "text": "2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_030",
+      "questiontext": "Hãy ghép các cặp số \\(a\\) và \\(b\\) tương ứng ở cột bên trái với giá trị \\(\\text{ƯCLN}(a, b)\\) ở cột bên phải.",
+      "generalfeedback": "Áp dụng quy tắc tìm ƯCLN của hai số tự nhiên bằng cách phân tích ra thừa số nguyên tố.",
+      "subquestions": [
+        {
+          "question": "\\(a = 34\\) và \\(b = 51\\)",
+          "answer": "17"
+        },
+        {
+          "question": "\\(a = 120\\) và \\(b = 70\\)",
+          "answer": "10"
+        },
+        {
+          "question": "\\(a = 15\\) và \\(b = 28\\)",
+          "answer": "1"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Ứng dụng ƯCLN và BCNN trong giải bài toán thực tế và toán phân số",
+      "questiontext": "Với mọi cặp số tự nhiên \\(a\\) và \\(b\\), tích \\(\\text{ƯCLN}(a, b) \\cdot \\text{BCNN}(a, b)\\) luôn bằng tích \\(a \\cdot b\\).",
+      "generalfeedback": "Đúng. Theo tính chất bài học (Bài 2.45 SGK), tích của ƯCLN và BCNN của hai số tự nhiên \\(a\\) và \\(b\\) luôn bằng tích \\(a \\cdot b\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_032",
+      "questiontext": "Tìm ƯCLN và BCNN của hai số được phân tích dạng thừa số nguyên tố \\(3 \\cdot 5^2\\) và \\(5^2 \\cdot 7\\):\na) \\(\\text{ƯCLN}(3 \\cdot 5^2, 5^2 \\cdot 7) =\\) [[1]]\nb) \\(\\text{BCNN}(3 \\cdot 5^2, 5^2 \\cdot 7) =\\) [[2]]",
+      "generalfeedback": "a) Thừa số nguyên tố chung là 5 với số mũ nhỏ nhất là 2, nên \\(\\text{ƯCLN} = 5^2 = 25\\).\nb) Các thừa số nguyên tố chung và riêng là 3, 5, 7 với số mũ lớn nhất tương ứng là 1, 2, 1, nên \\(\\text{BCNN} = 3 \\cdot 5^2 \\cdot 7 = 525\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "25"
+        },
+        {
+          "group": 1,
+          "text": "525"
+        },
+        {
+          "group": 1,
+          "text": "35"
+        },
+        {
+          "group": 1,
+          "text": "105"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Ứng dụng ƯCLN và BCNN trong giải bài toán thực tế và toán phân số",
+      "questiontext": "Phân số nào sau đây chưa tối giản và khi rút gọn về phân số tối giản thu được kết quả là \\(\\frac{2}{3}\\)?",
+      "generalfeedback": "Phân số \\(\\frac{70}{105}\\) có \\(\\text{ƯCLN}(70, 105) = 35 \\neq 1\\) nên chưa tối giản. Chia cả tử và mẫu cho 35 ta được \\(\\frac{70 : 35}{105 : 35} = \\frac{2}{3}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{70}{105}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{15}{17}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{4}{9}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{7}{15}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán thực tế gắn với ƯC, ƯCLN, BC, BCNN",
+      "questiontext": "Hai vận động viên chạy xung quanh một sân vận động, xuất phát cùng lúc, cùng vị trí và chạy cùng chiều. Vận động viên thứ nhất chạy một vòng hết 360 giây, vận động viên thứ hai hết 420 giây. Hỏi sau bao nhiêu phút họ gặp lại nhau lần đầu tiên? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Thời gian họ gặp lại nhau tính bằng giây là \\(\\text{BCNN}(360, 420)\\).\nPhân tích: \\(360 = 2^3 \\cdot 3^2 \\cdot 5\\) và \\(420 = 2^2 \\cdot 3 \\cdot 5 \\cdot 7\\).\n\\(\\text{BCNN}(360, 420) = 2^3 \\cdot 3^2 \\cdot 5 \\cdot 7 = 2520\\) giây.\nĐổi 2520 giây = 42 phút.",
+      "answers": [
+        {
+          "text": "42",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Quy đồng mẫu các phân số dùng BCNN",
+      "questiontext": "Khi quy đồng mẫu hai phân số \\(\\frac{4}{9}\\) và \\(\\frac{7}{15}\\):\nMẫu chung nhỏ nhất là BCNN(9, 15) = [[1]].\nThừa số phụ tương ứng của mẫu số 9 là [[2]].",
+      "generalfeedback": "Ta có \\(9 = 3^2\\) và \\(15 = 3 \\cdot 5\\) nên \\(\\text{BCNN}(9, 15) = 3^2 \\cdot 5 = 45\\).\nThừa số phụ của mẫu số 9 là \\(45 : 9 = 5\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "45"
+        },
+        {
+          "group": 1,
+          "text": "5"
+        },
+        {
+          "group": 1,
+          "text": "3"
+        },
+        {
+          "group": 1,
+          "text": "135"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán thực tế gắn với ƯC, ƯCLN, BC, BCNN",
+      "questiontext": "Học sinh lớp 6A khi xếp thành hàng 2, hàng 3, hàng 7 đều vừa đủ hàng. Biết số học sinh là {n} (với {n} là số học sinh thỏa mãn vừa chia hết cho 2, 3, 7 và nhỏ hơn 45). Tìm số học sinh của lớp 6A.",
+      "wildcards": [
+        {
+          "name": "n",
+          "min": 42.0,
+          "max": 42.0,
+          "decimals": 0
+        }
+      ],
+      "generalfeedback": "Số học sinh lớp 6A là bội chung của 2, 3, 7. Vì 2, 3, 7 đôi một nguyên tố cùng nhau nên \\(\\text{BCNN}(2, 3, 7) = 2 \\cdot 3 \\cdot 7 = 42\\). Do số học sinh nhỏ hơn 45 nên số học sinh lớp 6A là 42.",
+      "answers": [
+        {
+          "text": "{n}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi gặp một bài toán thực tế phức tạp về BCNN và ƯCLN (như bài toán ba đèn trang trí phát sáng), hành vi nào sau đây thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập?",
+      "generalfeedback": "Thái độ tích cực, kiên trì tự mình suy nghĩ, phân tích đề bài và thử nghiệm các bước giải dựa trên kiến thức đã học thể hiện ý thức vươn lên vượt qua khó khăn trong học tập.",
+      "answers": [
+        {
+          "text": "Kiên trì đọc kỹ đề bài, phân tích các dữ kiện, áp dụng quy tắc tìm BCNN để tự hoàn thành bài tập.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài toán ngay lập tức vì thấy đề bài quá dài và nhiều dữ kiện.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép ngay đáp án của bạn khác mà không cần tìm hiểu cách làm.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ làm các bài dễ, từ chối thử sức với những bài toán vận dụng thực tế.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_03",
+      "questiontext": "Trong thực tế cuộc sống, khi thấy mẹ muốn chia 48 quả cam và 72 quả táo vào các túi quà sao cho số quả mỗi loại trong các túi bằng nhau và số túi là nhiều nhất, bạn An đã chủ động ứng dụng kiến thức toán học nào đã học ở trường để giúp mẹ?",
+      "generalfeedback": "Ứng dụng kiến thức Tìm ước chung lớn nhất (ƯCLN) vào việc chia đồ vật thành các phần bằng nhau trong đời sống thể hiện ý thức vận dụng kiến thức học đường vào thực tế.",
+      "answers": [
+        {
+          "text": "Tính Ước chung lớn nhất \\(\\text{ƯCLN}(48, 72)\\) để tìm số túi quà nhiều nhất.",
+          "fraction": 100
+        },
+        {
+          "text": "Tính Bội chung nhỏ nhất \\(\\text{BCNN}(48, 72)\\) để tìm số túi quà.",
+          "fraction": 0
+        },
+        {
+          "text": "Lấy tổng số quả cam và táo chia đôi.",
+          "fraction": 0
+        },
+        {
+          "text": "Thực hiện phép nhân số quả cam với số quả táo.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Để chủ động nâng cao năng lực giải các bài toán quy đồng mẫu số và rút gọn phân số, mục tiêu học tập nào sau đây là hợp lý và thể hiện tinh thần tự chủ, tự học?",
+      "generalfeedback": "Đặt mục tiêu cụ thể, có kế hoạch luyện tập định kỳ giúp học sinh chủ động kiểm soát và hoàn thiện năng lực học tập của bản thân.",
+      "answers": [
+        {
+          "text": "Mỗi ngày tự luyện tập giải 3 bài tập về tìm BCNN để quy đồng mẫu phân số và tự kiểm tra lại kết quả.",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ học thuộc lòng công thức mà không cần làm bài tập thực hành.",
+          "fraction": 0
+        },
+        {
+          "text": "Chờ đến trước ngày thi mới bắt đầu mở sách ra xem lại kiến thức.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ làm bài tập khi có sự giám sát và nhắc nhở trực tiếp từ thầy cô.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_01",
+      "questiontext": "Khi phân tích một bài toán thực tế (như bài toán xếp hàng học sinh hay cắt thanh gỗ), em hãy kết nối mục tiêu bài toán ở cột bên trái với thông tin toán học cần tìm ở cột bên phải để giải quyết vấn đề.",
+      "generalfeedback": "Việc xác định đúng bản chất toán học từ các yêu cầu thực tế giúp học sinh thu thập và xử lý thông tin chính xác.",
+      "subquestions": [
+        {
+          "question": "Tìm độ dài lớn nhất của mỗi đoạn gỗ khi cắt các thanh gỗ dài 56 dm, 48 dm, 40 dm thành các đoạn bằng nhau.",
+          "answer": "Tính \\(\\text{ƯCLN}(56, 48, 40)\\)"
+        },
+        {
+          "question": "Tìm khoảng thời gian ngắn nhất để hai vận động viên chạy vòng quanh sân lại gặp nhau tại điểm xuất phát.",
+          "answer": "Tính \\(\\text{BCNN}(360, 420)\\)"
+        },
+        {
+          "question": "Tìm mẫu số chung nhỏ nhất để quy đồng các phân số \\(\\frac{4}{9}\\) và \\(\\frac{7}{15}\\).",
+          "answer": "Tính \\(\\text{BCNN}(9, 15)\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_05",
+      "questiontext": "Cho bài toán: 'Rút gọn phân số \\(\\frac{70}{105}\\) về phân số tối giản.' Lập luận nào sau đây là hợp lý và chính xác nhất?",
+      "generalfeedback": "Muốn rút gọn một phân số về phân số tối giản trong một bước, ta lập luận bằng cách tìm ƯCLN của tử và mẫu rồi chia cả tử và mẫu cho ƯCLN đó.",
+      "answers": [
+        {
+          "text": "Tìm \\(\\text{ƯCLN}(70, 105) = 35\\), sau đó chia cả tử và mẫu cho 35 được \\(\\frac{2}{3}\\), là phân số tối giản vì \\(\\text{ƯCLN}(2, 3) = 1\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Chia cả tử và mẫu cho 5 được \\(\\frac{14}{21}\\), đây là phân số tối giản vì tử và mẫu đều là số lẻ.",
+          "fraction": 0
+        },
+        {
+          "text": "Tính \\(\\text{BCNN}(70, 105) = 210\\) rồi lấy tử và mẫu nhân với 210.",
+          "fraction": 0
+        },
+        {
+          "text": "Lấy mẫu số trừ đi tử số \\(105 - 70 = 35\\) để làm tử số mới.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_03_04",
+      "questiontext": "Để giải bài toán: 'Học sinh lớp 6A khi xếp thành hàng 2, hàng 3, hàng 7 đều vừa đủ hàng. Biết số học sinh nhỏ hơn 45', công cụ/mô hình toán học phù hợp nhất cần sử dụng là gì?",
+      "generalfeedback": "Bài toán đòi hỏi tìm một số chia hết cho 2, 3 và 7, do đó công cụ toán học tương thích là mô hình Bội chung (BC) và Bội chung nhỏ nhất (BCNN).",
+      "answers": [
+        {
+          "text": "Sử dụng Bội chung và BCNN của 2, 3, 7 để tìm số tự nhiên nhỏ hơn 45 chia hết cho cả 2, 3 và 7.",
+          "fraction": 100
+        },
+        {
+          "text": "Sử dụng Ước chung lớn nhất (ƯCLN) của 2, 3, 7.",
+          "fraction": 0
+        },
+        {
+          "text": "Thực hiện phép cộng 2 + 3 + 7 + 45.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ xét các số nguyên tố nhỏ hơn 45.",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

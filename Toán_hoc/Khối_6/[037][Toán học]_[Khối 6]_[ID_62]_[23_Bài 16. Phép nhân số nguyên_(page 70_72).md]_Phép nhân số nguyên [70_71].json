@@ -1,0 +1,647 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 27,
+    "metadata_used": {
+      "Quy tắc nhân hai số nguyên khác dấu": 3,
+      "Quy tắc nhân hai số nguyên cùng dấu (dương x dương, âm x âm)": 2,
+      "Thực hiện phép nhân hai số nguyên khác dấu": 5,
+      "Thực hiện phép nhân hai số nguyên cùng dấu": 4,
+      "YCCD_TOAN6_048": 3,
+      "Xác định dấu của tích nhiều số nguyên": 3,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_TCTH_TUHOC_C2_04": 2,
+      "SUB_GTHT_XACDINHMD_C2_03": 1,
+      "NLT_TOAN_C2_01_01": 2,
+      "NLT_TOAN_C2_03_05": 1
+    },
+    "types_used": {
+      "multichoice": 9,
+      "truefalse": 4,
+      "shortanswer": 4,
+      "numerical": 3,
+      "calculated": 1,
+      "calculatedsimple": 1,
+      "gapselect": 3,
+      "matching": 2
+    },
+    "total": 27
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN6_048",
+        "reason": "Đo lường việc thực hiện phép nhân trong tập hợp các số nguyên qua bài tập tính toán, ứng dụng thực tế và ghép đôi."
+      },
+      {
+        "metadata_code": "Quy tắc nhân hai số nguyên khác dấu",
+        "reason": "Đo lường kiến thức về quy tắc nhân hai số nguyên khác dấu qua câu hỏi trắc nghiệm, đúng sai và điền khuyết."
+      },
+      {
+        "metadata_code": "Quy tắc nhân hai số nguyên cùng dấu (dương x dương, âm x âm)",
+        "reason": "Đo lường kiến thức về quy tắc nhân hai số nguyên cùng dấu qua câu hỏi trắc nghiệm và đúng sai."
+      },
+      {
+        "metadata_code": "Thực hiện phép nhân hai số nguyên khác dấu",
+        "reason": "Đo lường kĩ năng thực hiện phép nhân hai số nguyên khác dấu qua bài tập tính nhẩm, tính toán số và có biến."
+      },
+      {
+        "metadata_code": "Thực hiện phép nhân hai số nguyên cùng dấu",
+        "reason": "Đo lường kĩ năng thực hiện phép nhân hai số nguyên cùng dấu qua tính toán có biến và bài tập tính toán số."
+      },
+      {
+        "metadata_code": "Xác định dấu của tích nhiều số nguyên",
+        "reason": "Đo lường kĩ năng xác định dấu của tích nhiều số nguyên qua câu hỏi phân tích số thừa số âm."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đo lường ý thức tự giác, nỗ lực vươn lên trong học tập qua tình huống giải quyết bài tập nhân số nguyên."
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+        "reason": "Đo lường năng lực lưu giữ thông tin có chọn lọc qua hoạt động tóm tắt và hệ thống hóa quy tắc dấu."
+      },
+      {
+        "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+        "reason": "Đo lường năng lực tiếp nhận văn bản có chứa biểu đồ, số liệu qua bài toán ném tiêu."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_01",
+        "reason": "Đo lường năng lực thực hiện thao tác tư duy qua bài toán phân tích quy luật và so sánh biểu thức."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_05",
+        "reason": "Đo lường năng lực sử dụng kĩ năng toán học để giải quyết vấn đề quản lý chi tiêu cá nhân."
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc nhân hai số nguyên khác dấu",
+      "questiontext": "Muốn nhân hai số nguyên khác dấu, ta thực hiện như thế nào?",
+      "generalfeedback": "Muốn nhân hai số nguyên khác dấu, ta nhân phần số tự nhiên của hai số đó với nhau rồi đặt dấu \"-\" trước kết quả nhận được.",
+      "answers": [
+        {
+          "text": "Nhân phần số tự nhiên của hai số đó với nhau rồi đặt dấu \"-\" trước kết quả nhận được.",
+          "fraction": 100
+        },
+        {
+          "text": "Nhân phần số tự nhiên của hai số đó với nhau rồi đặt dấu \"+\" trước kết quả nhận được.",
+          "fraction": 0
+        },
+        {
+          "text": "Cộng phần số tự nhiên của hai số đó với nhau rồi đặt dấu \"-\" trước kết quả nhận được.",
+          "fraction": 0
+        },
+        {
+          "text": "Trừ phần số tự nhiên của số lớn cho số nhỏ rồi giữ nguyên dấu của số lớn hơn.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc nhân hai số nguyên khác dấu",
+      "questiontext": "Tích của hai số nguyên khác dấu luôn là một số nguyên âm. Đúng hay Sai?",
+      "generalfeedback": "Đúng. Tích của hai số nguyên khác dấu (một số dương và một số âm) luôn là một số nguyên âm.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc nhân hai số nguyên cùng dấu (dương x dương, âm x âm)",
+      "questiontext": "Muốn nhân hai số nguyên âm, ta thực hiện như thế nào?",
+      "generalfeedback": "Muốn nhân hai số nguyên âm, ta nhân phần số tự nhiên của hai số đó với nhau.",
+      "answers": [
+        {
+          "text": "Nhân phần số tự nhiên của hai số đó với nhau.",
+          "fraction": 100
+        },
+        {
+          "text": "Nhân phần số tự nhiên của hai số đó với nhau rồi đặt dấu \"-\" trước kết quả.",
+          "fraction": 0
+        },
+        {
+          "text": "Cộng hai số âm đó với nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Lấy số lớn hơn trừ đi số nhỏ hơn.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc nhân hai số nguyên cùng dấu (dương x dương, âm x âm)",
+      "questiontext": "Tích của hai số nguyên cùng dấu (hai số nguyên dương hoặc hai số nguyên âm) luôn là một số nguyên dương. Đúng hay Sai?",
+      "generalfeedback": "Đúng. Nhân hai số nguyên dương cho kết quả dương, nhân hai số nguyên âm cũng cho kết quả dương.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện phép nhân hai số nguyên khác dấu",
+      "questiontext": "Tính kết quả của phép nhân: \\((-12) \\cdot 12\\). (Chỉ điền giá trị số)",
+      "generalfeedback": "\\((-12) \\cdot 12 = -(12 \\cdot 12) = -144\\).",
+      "answers": [
+        {
+          "text": "-144",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện phép nhân hai số nguyên khác dấu",
+      "questiontext": "Tính giá trị tích \\(137 \\cdot (-15)\\). (Chỉ ghi giá trị số, không ghi đơn vị)",
+      "generalfeedback": "\\(137 \\cdot (-15) = -(137 \\cdot 15) = -2055\\).",
+      "answers": [
+        {
+          "text": "-2055",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện phép nhân hai số nguyên khác dấu",
+      "questiontext": "Tính kết quả của phép nhân hai số nguyên khác dấu: {a} · (-{b}).",
+      "generalfeedback": "Ta áp dụng quy tắc nhân hai số nguyên khác dấu: lấy {a} nhân {b} rồi đặt dấu âm trước kết quả, thu được -{a}*{b}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 20.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 2.0,
+          "max": 20.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "-{a}*{b}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện phép nhân hai số nguyên cùng dấu",
+      "questiontext": "Tính kết quả phép nhân hai số nguyên âm: (-{x}) · (-{y}).",
+      "generalfeedback": "Nhân hai số nguyên âm ta nhân phần số tự nhiên của chúng: {x} · {y} = {x}*{y}.",
+      "wildcards": [
+        {
+          "name": "x",
+          "min": 3.0,
+          "max": 15.0,
+          "decimals": 0
+        },
+        {
+          "name": "y",
+          "min": 3.0,
+          "max": 15.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{x}*{y}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc nhân hai số nguyên khác dấu",
+      "questiontext": "Muốn nhân hai số nguyên khác dấu, ta nhân phần [[1]] của hai số đó với nhau rồi đặt dấu [[2]] trước kết quả nhận được.",
+      "generalfeedback": "Muốn nhân hai số nguyên khác dấu, ta nhân phần số tự nhiên của hai số đó với nhau rồi đặt dấu \"-\" trước kết quả nhận được.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "số tự nhiên"
+        },
+        {
+          "group": 1,
+          "text": "\"-\""
+        },
+        {
+          "group": 1,
+          "text": "số nguyên"
+        },
+        {
+          "group": 1,
+          "text": "\"+\""
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_048",
+      "questiontext": "Ghép mỗi phép nhân số nguyên ở cột bên trái với kết quả tương ứng ở cột bên phải:",
+      "generalfeedback": "Tính kết quả từng phép nhân:\n\\((-5) \\cdot 8 = -40\\)\n\\((-6) \\cdot (-7) = 42\\)\n\\(25 \\cdot (-4) = -100\\)\n\\((-10) \\cdot (-15) = 150\\)",
+      "subquestions": [
+        {
+          "question": "\\((-5) \\cdot 8\\)",
+          "answer": "-40"
+        },
+        {
+          "question": "\\((-6) \\cdot (-7)\\)",
+          "answer": "42"
+        },
+        {
+          "question": "\\(25 \\cdot (-4)\\)",
+          "answer": "-100"
+        },
+        {
+          "question": "\\((-10) \\cdot (-15)\\)",
+          "answer": "150"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép nhân hai số nguyên cùng dấu",
+      "questiontext": "Tính kết quả của phép tính: \\((-15) \\cdot (-12)\\).",
+      "generalfeedback": "Phép nhân hai số nguyên âm: \\((-15) \\cdot (-12) = 15 \\cdot 12 = 180\\).",
+      "answers": [
+        {
+          "text": "180",
+          "fraction": 100
+        },
+        {
+          "text": "-180",
+          "fraction": 0
+        },
+        {
+          "text": "27",
+          "fraction": 0
+        },
+        {
+          "text": "-27",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Xác định dấu của tích nhiều số nguyên",
+      "questiontext": "Tích của 3 số nguyên âm và 2 số nguyên dương sẽ mang dấu gì?",
+      "generalfeedback": "Số lượng thừa số âm là 3 (số lẻ), do đó tích mang dấu âm.",
+      "answers": [
+        {
+          "text": "Dấu âm",
+          "fraction": 100
+        },
+        {
+          "text": "Dấu dương",
+          "fraction": 0
+        },
+        {
+          "text": "Luôn bằng 0",
+          "fraction": 0
+        },
+        {
+          "text": "Không xác định được dấu",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Xác định dấu của tích nhiều số nguyên",
+      "questiontext": "Tích của một số lẻ các thừa số nguyên âm (các thừa số còn lại đều dương) là một số nguyên âm. Đúng hay Sai?",
+      "generalfeedback": "Đúng. Tích của một số lẻ thừa số nguyên âm luôn mang dấu âm.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện phép nhân hai số nguyên khác dấu",
+      "questiontext": "Tính nhẩm kết quả phép tính: \\(5 \\cdot (-12)\\). (Chỉ điền giá trị số)",
+      "generalfeedback": "\\(5 \\cdot (-12) = -(5 \\cdot 12) = -60\\).",
+      "answers": [
+        {
+          "text": "-60",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện phép nhân hai số nguyên cùng dấu",
+      "questiontext": "Tính giá trị của tích \\((-298) \\cdot (-4)\\). (Chỉ ghi giá trị số, không ghi đơn vị)",
+      "generalfeedback": "\\((-298) \\cdot (-4) = 298 \\cdot 4 = 1192\\).",
+      "answers": [
+        {
+          "text": "1192",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép nhân hai số nguyên cùng dấu",
+      "questiontext": "Cho hai số tự nhiên \\(m, n\\) có tích \\(m \\cdot n = 36\\). Tính giá trị của tích \\((-m) \\cdot (-n)\\).",
+      "generalfeedback": "\\((-m) \\cdot (-n) = m \\cdot n = 36\\).",
+      "answers": [
+        {
+          "text": "36",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép nhân hai số nguyên khác dấu",
+      "questiontext": "Cho hai số tự nhiên \\(m, n\\) có tích \\(m \\cdot n = 36\\). Tính giá trị của tích \\(m \\cdot (-n)\\).",
+      "generalfeedback": "\\(m \\cdot (-n) = -(m \\cdot n) = -36\\).",
+      "answers": [
+        {
+          "text": "-36",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_048",
+      "questiontext": "Tích của một số nguyên với 0 luôn bằng [[1]]. Tích của hai số nguyên cùng dấu luôn là số nguyên [[2]].",
+      "generalfeedback": "Theo chú ý trong SGK: \\(a \\cdot 0 = 0\\); tích của hai số nguyên cùng dấu luôn là số nguyên dương.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "0"
+        },
+        {
+          "group": 1,
+          "text": "dương"
+        },
+        {
+          "group": 1,
+          "text": "1"
+        },
+        {
+          "group": 1,
+          "text": "âm"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_048",
+      "questiontext": "Bạn Cao dùng số nguyên âm để ghi các khoản chi cá nhân. Cuối tháng, trong sổ có 3 lần ghi -15 000 đồng. Sử dụng phép nhân hai số nguyên khác dấu, tính tổng số tiền bạn Cao đã chi.",
+      "generalfeedback": "Số tiền bạn Cao đã chi là: \\(3 \\cdot (-15\\,000) = -45\\,000\\) đồng, nghĩa là bạn Cao đã chi tất cả 45 000 đồng.",
+      "answers": [
+        {
+          "text": "-45 000 đồng",
+          "fraction": 100
+        },
+        {
+          "text": "-15 000 đồng",
+          "fraction": 0
+        },
+        {
+          "text": "45 000 đồng",
+          "fraction": 0
+        },
+        {
+          "text": "-30 000 đồng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Xác định dấu của tích nhiều số nguyên",
+      "questiontext": "Một tích gồm 4 thừa số mang dấu âm và các thừa số còn lại đều dương sẽ mang dấu gì?",
+      "generalfeedback": "Vì có 4 thừa số âm (4 là số chẵn), nên tích các thừa số âm mang dấu dương. Các thừa số còn lại đều dương nên toàn bộ tích mang dấu dương.",
+      "answers": [
+        {
+          "text": "Dấu dương",
+          "fraction": 100
+        },
+        {
+          "text": "Dấu âm",
+          "fraction": 0
+        },
+        {
+          "text": "Bằng 0",
+          "fraction": 0
+        },
+        {
+          "text": "Không xác định",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi gặp bài tập tính tích \\((-25) \\cdot (-16)\\) nhưng chưa nhớ rõ quy tắc nhân hai số nguyên âm, bạn Nam nên thực hiện hành động nào sau đây để thể hiện tinh thần luôn cố gắng vươn lên trong học tập?",
+      "generalfeedback": "Hành động chủ động xem lại quy tắc nhân hai số nguyên âm trong SGK, tham khảo ví dụ mẫu và tự nhẩm làm bài thể hiện ý thức tự giác, nỗ lực vươn lên đạt kết quả tốt trong học tập.",
+      "answers": [
+        {
+          "text": "Chủ động mở lại SGK xem lại quy tắc nhân hai số nguyên âm, tham khảo ví dụ mẫu và tự làm bài.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua câu hỏi vì bài tập khó và chờ thầy cô chữa trên lớp.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép ngay kết quả từ bài làm của bạn bên cạnh để kịp nộp.",
+          "fraction": 0
+        },
+        {
+          "text": "Ghi ngẫu nhiên một số vào phần đáp án mà không cần tính toán.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Để ghi tóm tắt quy tắc dấu của phép nhân hai số nguyên vào sổ tay học tập một cách ngắn gọn, bạn Hoa hoàn thiện bảng sau: Tích của hai số nguyên cùng dấu luôn mang dấu [[1]]; Tích của hai số nguyên khác dấu luôn mang dấu [[2]].",
+      "generalfeedback": "Ghi tóm tắt quy tắc dấu: Cùng dấu -> Dấu dương (+); Khác dấu -> Dấu âm (-).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "dương"
+        },
+        {
+          "group": 1,
+          "text": "âm"
+        },
+        {
+          "group": 1,
+          "text": "không xác định"
+        },
+        {
+          "group": 1,
+          "text": "bằng 0"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "imgs": [
+        "_page_2_Picture_33.jpeg"
+      ],
+      "questiontext": "[img:_page_2_Picture_33.jpeg] Dựa vào bảng số liệu kết quả trò chơi ném tiêu của ba bạn An, Bình, Cường (Bài 3.38 SGK): An đạt 1 lần 10 điểm, 2 lần 7 điểm, 0 lần 3 điểm, 1 lần -1 điểm, 1 lần -3 điểm. Tổng số điểm của An được tính bằng biểu thức số nguyên nào sau đây?",
+      "generalfeedback": "Tổng điểm của An là: \\(1 \\cdot 10 + 2 \\cdot 7 + 0 \\cdot 3 + 1 \\cdot (-1) + 1 \\cdot (-3) = 10 + 14 + 0 + (-1) + (-3) = 20\\) điểm.",
+      "answers": [
+        {
+          "text": "\\(1 \\cdot 10 + 2 \\cdot 7 + 0 \\cdot 3 + 1 \\cdot (-1) + 1 \\cdot (-3)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(1 \\cdot 10 + 2 \\cdot 7 + 0 \\cdot 3 + 1 \\cdot 1 + 1 \\cdot 3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(10 + 7 + 3 + (-1) + (-3)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(1 \\cdot 10 + 2 \\cdot 7 - 1 \\cdot (-1) - 1 \\cdot (-3)\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Khi phân tích tính chất của phép nhân hai số nguyên âm, bạn Bình lập luận: 'Vì \\((-3) \\cdot 7 = -21\\) và khi đổi dấu thừa số 7 thành \\(-7\\) thì tích đổi dấu từ \\(-21\\) thành \\(21\\), nên tích \\((-3) \\cdot (-7)\\) phải bằng \\(21\\)'. Lập luận phân tích quy luật này của bạn Bình là Đúng hay Sai?",
+      "generalfeedback": "Đúng. Lập luận của Bình dựa trên quan sát quy luật đổi dấu từng thừa số (HĐ3 và HĐ4 trong SGK) để phân tích và dự đoán đúng quy tắc nhân hai số nguyên âm.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Để quản lý chi tiêu cá nhân, bạn Cao dùng số nguyên âm ghi các khoản chi. Cuối tháng, trong sổ có 5 lần ghi -20 000 đồng. Hãy sử dụng kĩ năng nhân hai số nguyên khác dấu để tính tổng số tiền bạn Cao đã chi (tính theo đơn vị đồng, nhập số tự nhiên thể hiện số tiền đã chi). (Chỉ ghi giá trị số, không ghi đơn vị)",
+      "generalfeedback": "Số tiền đã chi được biểu diễn bằng phép nhân: \\(5 \\cdot (-20\\,000) = -100\\,000\\) đồng. Như vậy bạn Cao đã chi tất cả 100 000 đồng.",
+      "answers": [
+        {
+          "text": "100000",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Khi so sánh hai biểu thức \\(A = (-4) \\cdot (-25)\\) và \\(B = 4 \\cdot 25\\), thao tác tư duy so sánh nào sau đây cho kết quả đúng nhất?",
+      "generalfeedback": "\\(A = (-4) \\cdot (-25) = 100\\) và \\(B = 4 \\cdot 25 = 100\\). Do đó \\(A = B\\). Tích của hai số nguyên âm bằng tích hai số đối của chúng.",
+      "answers": [
+        {
+          "text": "\\(A = B\\) vì tích hai số nguyên âm bằng tích hai số nguyên dương tương ứng với phần số tự nhiên của chúng.",
+          "fraction": 100
+        },
+        {
+          "text": "\\(A < B\\) vì các thừa số trong \\(A\\) là số âm còn các thừa số trong \\(B\\) là số dương.",
+          "fraction": 0
+        },
+        {
+          "text": "\\(A > B\\) vì phép nhân hai số âm luôn ra kết quả lớn hơn phép nhân hai số dương.",
+          "fraction": 0
+        },
+        {
+          "text": "\\(A = -B\\) vì hai biểu thức có các thừa số đối dấu nhau.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Để hệ thống hóa và lưu giữ thông tin bài học 'Phép nhân số nguyên', hãy ghép mỗi loại phép nhân ở cột bên trái với kết quả quy tắc dấu tương ứng ở cột bên phải:",
+      "generalfeedback": "Hệ thống hóa quy tắc dấu:\n- Số nguyên dương × Số nguyên âm -> Số nguyên âm\n- Số nguyên âm × Số nguyên âm -> Số nguyên dương\n- Số nguyên bất kỳ × 0 -> Bằng 0",
+      "subquestions": [
+        {
+          "question": "Số nguyên dương nhân với số nguyên âm",
+          "answer": "Số nguyên âm"
+        },
+        {
+          "question": "Số nguyên âm nhân với số nguyên âm",
+          "answer": "Số nguyên dương"
+        },
+        {
+          "question": "Số nguyên bất kỳ nhân với 0",
+          "answer": "Bằng 0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,527 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 20,
+    "metadata_used": {
+      "YCCD_TOAN8_075": 3,
+      "Tổng hợp kiến thức về hình chữ nhật, hình thoi, hình vuông": 4,
+      "Dấu hiệu nhận biết các tứ giác đặc biệt": 2,
+      "Phân biệt và so sánh tính chất của hình chữ nhật, hình thoi, hình vuông": 4,
+      "Rèn luyện kĩ năng chứng minh các tứ giác đặc biệt": 7,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TUHOC_C2_04": 2,
+      "NLT_TOAN_C2_01_03": 2,
+      "NLT_TOAN_C2_01_08": 3
+    },
+    "types_used": {
+      "multichoice": 10,
+      "truefalse": 3,
+      "gapselect": 2,
+      "matching": 2,
+      "shortanswer": 2,
+      "ddwtos": 1
+    },
+    "total": 20
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN8_075",
+        "reason": "Đã kiểm tra nhận biết dấu hiệu hình bình hành là hình chữ nhật."
+      },
+      {
+        "metadata_code": "Tổng hợp kiến thức về hình chữ nhật, hình thoi, hình vuông",
+        "reason": "Đã tổng hợp kiến thức về hình chữ nhật, hình thoi, hình vuông."
+      },
+      {
+        "metadata_code": "Dấu hiệu nhận biết các tứ giác đặc biệt",
+        "reason": "Đã kiểm tra dấu hiệu nhận biết các tứ giác đặc biệt."
+      },
+      {
+        "metadata_code": "Phân biệt và so sánh tính chất của hình chữ nhật, hình thoi, hình vuông",
+        "reason": "Đã phân biệt và so sánh tính chất của các hình."
+      },
+      {
+        "metadata_code": "Rèn luyện kĩ năng chứng minh các tứ giác đặc biệt",
+        "reason": "Đã rèn luyện kĩ năng chứng minh các tứ giác đặc biệt."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đã đánh giá ý thức nỗ lực vươn lên trong học tập qua tình huống bài tập."
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+        "reason": "Đã đánh giá kĩ năng tóm tắt và hệ thống hóa thông tin."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_03",
+        "reason": "Đã đánh giá khả năng giải thích sự tương đồng và khác biệt."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_08",
+        "reason": "Đã đánh giá kĩ năng chứng minh mệnh đề toán học."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N",
+        "reason": "Bài học thuộc chủ đề Hình học thuần túy, không chứa nội dung hay bối cảnh thực hành công nghệ số/tin học tự nhiên."
+      },
+      {
+        "metadata_code": "A",
+        "reason": "Nội dung kiến thức toán học trong bài không chứa yếu tố ứng dụng hoặc tương tác với trí tuệ nhân tạo (AI) tự nhiên."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_075",
+      "questiontext": "Dấu hiệu nào sau đây cho biết một hình bình hành \\(ABCD\\) là hình chữ nhật?",
+      "generalfeedback": "Hình bình hành có một góc vuông (hoặc hai đường chéo bằng nhau) là hình chữ nhật.",
+      "answers": [
+        {
+          "text": "Hình bình hành có một góc vuông",
+          "fraction": 100
+        },
+        {
+          "text": "Hình bình hành có hai đường chéo vuông góc với nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Hình bình hành có hai cạnh kề bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Hình bình hành có một đường chéo là đường phân giác của một góc",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_075",
+      "questiontext": "Hình bình hành có hai đường chéo bằng nhau là hình chữ nhật.",
+      "generalfeedback": "Đúng. Đây là một dấu hiệu nhận biết hình chữ nhật từ hình bình hành.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Tổng hợp kiến thức về hình chữ nhật, hình thoi, hình vuông",
+      "questiontext": "Hình thoi có một góc vuông là hình [[1]]. Hình chữ nhật có hai cạnh kề bằng nhau là hình [[2]].",
+      "generalfeedback": "Hình thoi có 1 góc vuông là hình vuông; Hình chữ nhật có 2 cạnh kề bằng nhau là hình vuông.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "vuông"
+        },
+        {
+          "group": 1,
+          "text": "thoi"
+        },
+        {
+          "group": 1,
+          "text": "chữ nhật"
+        },
+        {
+          "group": 1,
+          "text": "bình hành"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Dấu hiệu nhận biết các tứ giác đặc biệt",
+      "questiontext": "Ghép mỗi điều kiện ở cột trái với tên tứ giác tương ứng được tạo thành ở cột phải:",
+      "generalfeedback": "Cung cấp kiến thức về các dấu hiệu nhận biết tứ giác đặc biệt.",
+      "subquestions": [
+        {
+          "question": "Hình bình hành có một góc vuông",
+          "answer": "Hình chữ nhật"
+        },
+        {
+          "question": "Tứ giác có bốn cạnh bằng nhau",
+          "answer": "Hình thoi"
+        },
+        {
+          "question": "Hình chữ nhật có hai đường chéo vuông góc",
+          "answer": "Hình vuông"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Phân biệt và so sánh tính chất của hình chữ nhật, hình thoi, hình vuông",
+      "questiontext": "Điền tên hình đặc biệt vào chỗ trống: Tứ giác có bốn góc vuông là hình gì?",
+      "generalfeedback": "Tứ giác có 4 góc vuông là hình chữ nhật.",
+      "answers": [
+        {
+          "text": "hình chữ nhật",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Rèn luyện kĩ năng chứng minh các tứ giác đặc biệt",
+      "imgs": [
+        "_page_0_Picture_7.jpeg"
+      ],
+      "questiontext": "Cho ba điểm \\(A, B, D\\) sao cho \\(AB = AD\\) và \\(AB \\perp AD\\). Vẽ hai đường tròn cùng đi qua \\(A\\), tâm \\(B\\) và \\(D\\) cắt nhau tại \\(C\\) như [img:_page_0_Picture_7.jpeg]. Tứ giác \\(ABCD\\) là hình gì?",
+      "generalfeedback": "Vì \\(BC = BA\\) và \\(DC = DA\\) mà \\(AB = AD\\) nên \\(AB = BC = CD = DA \\Rightarrow ABCD\\) là hình thoi. Lại có \\(\\widehat{A} = 90^\\circ\\) nên \\(ABCD\\) là hình vuông.",
+      "answers": [
+        {
+          "text": "Hình vuông",
+          "fraction": 100
+        },
+        {
+          "text": "Hình chữ nhật nhưng không phải hình vuông",
+          "fraction": 0
+        },
+        {
+          "text": "Hình thoi nhưng không phải hình vuông",
+          "fraction": 0
+        },
+        {
+          "text": "Hình bình hành nhưng không phải hình thoi",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Tổng hợp kiến thức về hình chữ nhật, hình thoi, hình vuông",
+      "questiontext": "Trong hình vuông, hai đường chéo [[1]] với nhau tại trung điểm của mỗi đường và là các đường [[2]] của các góc.",
+      "generalfeedback": "Hai đường chéo hình vuông vuông góc với nhau tại trung điểm mỗi đường và là đường phân giác các góc.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "vuông góc"
+        },
+        {
+          "group": 1,
+          "text": "phân giác"
+        },
+        {
+          "group": 1,
+          "text": "song song"
+        },
+        {
+          "group": 1,
+          "text": "trung tuyến"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Rèn luyện kĩ năng chứng minh các tứ giác đặc biệt",
+      "imgs": [
+        "_page_0_Picture_14.jpeg"
+      ],
+      "questiontext": "Cho hình bình hành \\(ABCD\\). Các tia phân giác của các góc \\(A, B, C, D\\) cắt nhau tạo thành tứ giác \\(EFGH\\) như [img:_page_0_Picture_14.jpeg]. Tứ giác \\(EFGH\\) là hình gì?",
+      "generalfeedback": "Hai góc kề một cạnh của hình bình hành bù nhau, nên các tia phân giác tạo ra các góc vuông. Tứ giác có 4 góc vuông là hình chữ nhật.",
+      "answers": [
+        {
+          "text": "Hình chữ nhật",
+          "fraction": 100
+        },
+        {
+          "text": "Hình thoi",
+          "fraction": 0
+        },
+        {
+          "text": "Hình vuông",
+          "fraction": 0
+        },
+        {
+          "text": "Hình thang cân",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Phân biệt và so sánh tính chất của hình chữ nhật, hình thoi, hình vuông",
+      "questiontext": "Một khung tre hình chữ nhật có lắp đinh vít tại bốn đỉnh. Khi khung tre bị xô lệch khiến các góc không còn vuông nữa thì khung đó trở thành hình gì?",
+      "generalfeedback": "Khung tre có các cặp cạnh đối bằng nhau nên khi bị xô lệch (các góc không vuông nữa) nó trở thành hình bình hành.",
+      "answers": [
+        {
+          "text": "Hình bình hành",
+          "fraction": 100
+        },
+        {
+          "text": "Hình thoi",
+          "fraction": 0
+        },
+        {
+          "text": "Hình thang vuông",
+          "fraction": 0
+        },
+        {
+          "text": "Tứ giác không có đặc điểm gì đặc biệt",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Phân biệt và so sánh tính chất của hình chữ nhật, hình thoi, hình vuông",
+      "questiontext": "Khi nẹp thêm một đường chéo vào khung tre hình chữ nhật bị xô lệch, khung tre đó sẽ không còn bị xô lệch nữa.",
+      "generalfeedback": "Đúng. Do tính chất bất biến hình dạng của tam giác (ba cạnh không đổi thì tam giác cố định).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Tổng hợp kiến thức về hình chữ nhật, hình thoi, hình vuông",
+      "questiontext": "Ghép tên hình ở cột trái với tính chất đặc trưng về đường chéo ở cột phải:",
+      "generalfeedback": "Hình chữ nhật có 2 đường chéo bằng nhau và cắt nhau tại trung điểm mỗi đường. Hình thoi có 2 đường chéo vuông góc và là phân giác các góc. Hình vuông có 2 đường chéo bằng nhau, vuông góc và là phân giác.",
+      "subquestions": [
+        {
+          "question": "Hình chữ nhật",
+          "answer": "Hai đường chéo bằng nhau và cắt nhau tại trung điểm của mỗi đường"
+        },
+        {
+          "question": "Hình thoi",
+          "answer": "Hai đường chéo vuông góc với nhau và là đường phân giác của các góc"
+        },
+        {
+          "question": "Hình vuông",
+          "answer": "Hai đường chéo bằng nhau, vuông góc với nhau và là đường phân giác của các góc"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Rèn luyện kĩ năng chứng minh các tứ giác đặc biệt",
+      "questiontext": "Cho tam giác \\(ABC\\); \\(M\\) và \\(N\\) lần lượt là trung điểm của hai cạnh \\(AB\\) và \\(AC\\). Lấy điểm \\(P\\) sao cho \\(N\\) là trung điểm của đoạn thẳng \\(MP\\). Tứ giác \\(AMCP\\) là hình gì?",
+      "generalfeedback": "Tứ giác \\(AMCP\\) có hai đường chéo \\(AC\\) và \\(MP\\) cắt nhau tại trung điểm \\(N\\) của mỗi đường nên \\(AMCP\\) là hình bình hành.",
+      "answers": [
+        {
+          "text": "Hình bình hành",
+          "fraction": 100
+        },
+        {
+          "text": "Hình chữ nhật",
+          "fraction": 0
+        },
+        {
+          "text": "Hình thoi",
+          "fraction": 0
+        },
+        {
+          "text": "Hình vuông",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Rèn luyện kĩ năng chứng minh các tứ giác đặc biệt",
+      "questiontext": "Cho tam giác \\(ABC\\); \\(M, N\\) lần lượt là trung điểm của \\(AB, AC\\); lấy \\(P\\) sao cho \\(N\\) là trung điểm \\(MP\\). Với điều kiện nào của tam giác \\(ABC\\) thì tứ giác \\(AMCP\\) là hình chữ nhật?",
+      "generalfeedback": "Hình bình hành \\(AMCP\\) là hình chữ nhật \\(\\Leftrightarrow \\widehat{AMC} = 90^\\circ \\Leftrightarrow CM \\perp AB\\). Do \\(M\\) là trung điểm \\(AB\\), đường trung tuyến \\(CM\\) đồng thời là đường cao nên tam giác \\(ABC\\) cân tại \\(C\\).",
+      "answers": [
+        {
+          "text": "Tam giác \\(ABC\\) cân tại \\(C\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Tam giác \\(ABC\\) vuông tại \\(C\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Tam giác \\(ABC\\) vuông cân tại \\(A\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Tam giác \\(ABC\\) cân tại \\(A\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Rèn luyện kĩ năng chứng minh các tứ giác đặc biệt",
+      "questiontext": "Cho tam giác \\(ABC\\); \\(M, N\\) lần lượt là trung điểm của \\(AB, AC\\); lấy \\(P\\) sao cho \\(N\\) là trung điểm \\(MP\\). Với điều kiện nào của tam giác \\(ABC\\) thì tứ giác \\(AMCP\\) là hình thoi?",
+      "generalfeedback": "Hình bình hành \\(AMCP\\) là hình thoi \\(\\Leftrightarrow AM = AP\\). Vì \\(AP = MC\\) nên \\(AM = MC = \\frac{1}{2}AB\\). Tam giác \\(ABC\\) có đường trung tuyến \\(CM = \\frac{1}{2}AB\\) nên tam giác \\(ABC\\) vuông tại \\(C\\).",
+      "answers": [
+        {
+          "text": "Tam giác \\(ABC\\) vuông tại \\(C\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Tam giác \\(ABC\\) cân tại \\(C\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Tam giác \\(ABC\\) vuông cân tại \\(B\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Tam giác \\(ABC\\) cân tại \\(A\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Rèn luyện kĩ năng chứng minh các tứ giác đặc biệt",
+      "questiontext": "Cho hai tia phân giác \\(Ou\\) và \\(Ov\\) của hai góc kề bù \\(\\widehat{xOy}\\) và \\(\\widehat{x'Oy}\\). Gọi \\(A\\) là điểm trên tia \\(Ox\\), kẻ \\(AB \\perp Ou\\) và \\(AC \\perp Ov\\). Tứ giác \\(OBAC\\) là hình gì?",
+      "generalfeedback": "Tứ giác \\(OBAC\\) có ba góc vuông \\(\\widehat{BOC} = 90^\\circ\\) (do hai tia phân giác của hai góc kề bù vuông góc), \\(\\widehat{ABO} = 90^\\circ\\) và \\(\\widehat{ACO} = 90^\\circ\\) nên \\(OBAC\\) là hình chữ nhật.",
+      "answers": [
+        {
+          "text": "hình chữ nhật",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Dấu hiệu nhận biết các tứ giác đặc biệt",
+      "questiontext": "Hình chữ nhật có hai đường chéo [[1]] là hình vuông. Hình thoi có một góc [[2]] là hình vuông.",
+      "generalfeedback": "Hình chữ nhật có 2 đường chéo vuông góc với nhau là hình vuông. Hình thoi có 1 góc vuông là hình vuông.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "vuông góc với nhau"
+        },
+        {
+          "group": 1,
+          "text": "vuông"
+        },
+        {
+          "group": 1,
+          "text": "bằng nhau"
+        },
+        {
+          "group": 1,
+          "text": "nhọn"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_075",
+      "questiontext": "Khẳng định nào sau đây là SAI về dấu hiệu nhận biết hình chữ nhật?",
+      "generalfeedback": "Tứ giác có hai đường chéo bằng nhau chưa chắc là hình chữ nhật (ví dụ hình thang cân). Phải là HÌNH BÌNH HÀNH có hai đường chéo bằng nhau mới là hình chữ nhật.",
+      "answers": [
+        {
+          "text": "Tứ giác có hai đường chéo bằng nhau là hình chữ nhật",
+          "fraction": 100
+        },
+        {
+          "text": "Tứ giác có ba góc vuông là hình chữ nhật",
+          "fraction": 0
+        },
+        {
+          "text": "Hình bình hành có một góc vuông là hình chữ nhật",
+          "fraction": 0
+        },
+        {
+          "text": "Hình bình hành có hai đường chéo bằng nhau là hình chữ nhật",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Tổng hợp kiến thức về hình chữ nhật, hình thoi, hình vuông",
+      "questiontext": "Trong hình thoi, hai đường chéo vuông góc với nhau và mỗi đường chéo là đường phân giác của các góc của hình thoi.",
+      "generalfeedback": "Đúng. Đây là hai tính chất đặc trưng về đường chéo của hình thoi.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Phân biệt và so sánh tính chất của hình chữ nhật, hình thoi, hình vuông",
+      "questiontext": "Khi so sánh tính chất đường chéo giữa hình chữ nhật và hình thoi, tính chất nào sau đây có ở hình chữ nhật nhưng KHÔNG NHẤT THIẾT có ở hình thoi?",
+      "generalfeedback": "Hai đường chéo bằng nhau là tính chất của hình chữ nhật, còn trong hình thoi hai đường chéo nói chung không bằng nhau (chỉ bằng nhau khi hình thoi là hình vuông).",
+      "answers": [
+        {
+          "text": "Hai đường chéo bằng nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Hai đường chéo cắt nhau tại trung điểm của mỗi đường",
+          "fraction": 0
+        },
+        {
+          "text": "Hai đường chéo vuông góc với nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Hai đường chéo là các đường phân giác của các góc",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Rèn luyện kĩ năng chứng minh các tứ giác đặc biệt",
+      "questiontext": "Cho hình vuông \\(ABCD\\). Lấy điểm \\(E\\) trên cạnh \\(CD\\). Tia phân giác của góc \\(\\widehat{DAE}\\) cắt cạnh \\(DC\\) tại \\(M\\). Đường thẳng qua \\(M\\) vuông góc với \\(AE\\) cắt \\(BC\\) tại \\(N\\). Khẳng định nào sau đây là ĐÚNG?",
+      "generalfeedback": "Sử dụng tính chất tam giác bằng nhau và đường phân giác chứng minh được \\(DM + BN = MN\\).",
+      "answers": [
+        {
+          "text": "DM + BN = MN",
+          "fraction": 100
+        },
+        {
+          "text": "DM + MN = BN",
+          "fraction": 0
+        },
+        {
+          "text": "BN + MN = DM",
+          "fraction": 0
+        },
+        {
+          "text": "DM \\cdot BN = MN^2",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

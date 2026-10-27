@@ -1,0 +1,728 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 29,
+    "metadata_used": {
+      "Quy tắc cộng hai số nguyên cùng dấu (cộng hai số nguyên dương": 2,
+      "cộng hai số nguyên âm)": 5,
+      "Thực hiện phép cộng hai số nguyên âm": 5,
+      "YCCD_TOAN6_046": 3,
+      "Thực hiện phép cộng hai số nguyên dương": 5,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TUHOC_C2_04": 2,
+      "SUB_GTHT_XACDINHMD_C2_03": 2,
+      "NLT_TOAN_C2_01_01": 2,
+      "NLT_TOAN_C2_03_05": 2
+    },
+    "types_used": {
+      "multichoice": 9,
+      "truefalse": 3,
+      "matching": 4,
+      "gapselect": 2,
+      "ddwtos": 2,
+      "shortanswer": 3,
+      "numerical": 3,
+      "calculated": 2,
+      "calculatedsimple": 1
+    },
+    "total": 29
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN6_046",
+        "reason": "Đo lường năng lực thực hiện phép cộng trong tập hợp các số nguyên qua bài toán thực tế và mô hình trục số"
+      },
+      {
+        "metadata_code": "Quy tắc cộng hai số nguyên cùng dấu (cộng hai số nguyên dương",
+        "reason": "Kiểm tra nhận thức về thành phần số nguyên và phép cộng hai số nguyên dương"
+      },
+      {
+        "metadata_code": "cộng hai số nguyên âm)",
+        "reason": "Kiểm tra hiểu biết quy tắc cộng hai số nguyên âm"
+      },
+      {
+        "metadata_code": "Thực hiện phép cộng hai số nguyên âm",
+        "reason": "Đánh giá kĩ năng tính toán phép cộng các số nguyên âm"
+      },
+      {
+        "metadata_code": "Thực hiện phép cộng hai số nguyên dương",
+        "reason": "Đánh giá kĩ năng cộng các số nguyên dương"
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đánh giá ý thức kiên trì vươn lên đạt kết quả tốt trong học tập"
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+        "reason": "Đánh giá kĩ năng lưu giữ thông tin có chọn lọc bằng ghi tóm tắt/sơ đồ"
+      },
+      {
+        "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+        "reason": "Đánh giá kĩ năng tiếp nhận văn bản kết hợp hình ảnh, sơ đồ"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_01",
+        "reason": "Đánh giá khả năng thực hiện các thao tác tư duy phân tích"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_05",
+        "reason": "Đánh giá kĩ năng giải quyết vấn đề thực tiễn"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N",
+        "reason": "Bài học thuần túy về quy tắc số học, không có mã N trong METADATA_DICTIONARY và không liên quan tự nhiên đến năng lực tin học/số"
+      },
+      {
+        "metadata_code": "A",
+        "reason": "Nội dung kiến thức toán lớp 6 không có mã A trong METADATA_DICTIONARY và không liên quan tự nhiên đến năng lực trí tuệ nhân tạo (AI)"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc cộng hai số nguyên cùng dấu (cộng hai số nguyên dương",
+      "questiontext": "Mỗi số nguyên (dương hoặc âm) gồm có hai phần là những phần nào?",
+      "generalfeedback": "Mỗi số nguyên gồm hai phần: phần dấu và phần số tự nhiên.",
+      "answers": [
+        {
+          "text": "Phần dấu và phần số tự nhiên",
+          "fraction": 100
+        },
+        {
+          "text": "Phần âm và phần dương",
+          "fraction": 0
+        },
+        {
+          "text": "Phần chữ và phần số",
+          "fraction": 0
+        },
+        {
+          "text": "Phần nguyên và phần thập phân",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "cộng hai số nguyên âm)",
+      "questiontext": "Muốn cộng hai số nguyên âm, ta thực hiện quy tắc nào sau đây?",
+      "generalfeedback": "Muốn cộng hai số nguyên âm, ta cộng phần số tự nhiên của chúng với nhau rồi đặt dấu \"-\" trước kết quả.",
+      "answers": [
+        {
+          "text": "Cộng phần số tự nhiên của chúng với nhau rồi đặt dấu \"-\" trước kết quả",
+          "fraction": 100
+        },
+        {
+          "text": "Trừ phần số tự nhiên của chúng cho nhau rồi đặt dấu \"-\" trước kết quả",
+          "fraction": 0
+        },
+        {
+          "text": "Cộng phần số tự nhiên của chúng với nhau rồi đặt dấu \"+\" trước kết quả",
+          "fraction": 0
+        },
+        {
+          "text": "Nhân phần số tự nhiên của chúng với nhau rồi đặt dấu \"-\" trước kết quả",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "cộng hai số nguyên âm)",
+      "questiontext": "Tổng của hai số nguyên âm luôn là một số nguyên âm.",
+      "generalfeedback": "Tổng của hai số nguyên âm luôn là một số nguyên âm.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc cộng hai số nguyên cùng dấu (cộng hai số nguyên dương",
+      "questiontext": "Hãy ghép mỗi số nguyên sau với mô tả đúng về phần dấu và phần số tự nhiên của nó:",
+      "generalfeedback": "Số nguyên âm có phần dấu là \"-\" và phần số tự nhiên là số đi kèm sau dấu. Số nguyên dương có phần dấu là \"+\" (thường bỏ qua) và phần số tự nhiên.",
+      "subquestions": [
+        {
+          "question": "Số  \\(-15\\) ",
+          "answer": "Phần dấu là \"-\", phần số tự nhiên là 15"
+        },
+        {
+          "question": "Số  \\(20\\) ",
+          "answer": "Phần dấu là \"+\" (hoặc không viết), phần số tự nhiên là 20"
+        },
+        {
+          "question": "Số  \\(-302\\) ",
+          "answer": "Phần dấu là \"-\", phần số tự nhiên là 302"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "cộng hai số nguyên âm)",
+      "questiontext": "Cho phép tính  \\((-28) + (-37) = -(28 + 37) =\\)  [[1]]. Kết quả thu được là một số nguyên [[2]].",
+      "generalfeedback": " \\((-28) + (-37) = -65\\) . Kết quả -65 là một số nguyên âm.",
+      "choices": [
+        {
+          "group": 1,
+          "text": " \\(-65\\) "
+        },
+        {
+          "group": 1,
+          "text": " \\(65\\) "
+        },
+        {
+          "group": 1,
+          "text": "âm"
+        },
+        {
+          "group": 1,
+          "text": "dương"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "cộng hai số nguyên âm)",
+      "questiontext": "Quan sát hình ảnh sau: [img:_page_0_Figure_12.jpeg]. Trong biểu diễn số  \\(-3\\) , dấu \"-\" gọi là [[1]] và số 3 gọi là [[2]].",
+      "generalfeedback": "Số  \\(-3\\)  có phần dấu là \"-\" và phần số tự nhiên là 3.",
+      "imgs": [
+        "_page_0_Figure_12.jpeg"
+      ],
+      "choices": [
+        {
+          "group": 1,
+          "text": "Phần dấu"
+        },
+        {
+          "group": 1,
+          "text": "Phần số tự nhiên"
+        },
+        {
+          "group": 1,
+          "text": "Phần nguyên"
+        },
+        {
+          "group": 1,
+          "text": "Phần thực"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép cộng hai số nguyên âm",
+      "questiontext": "Tính kết quả của phép cộng:  \\((-12) + (-48)\\) ",
+      "generalfeedback": " \\((-12) + (-48) = -(12 + 48) = -60\\) .",
+      "answers": [
+        {
+          "text": "-60",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép cộng hai số nguyên âm",
+      "questiontext": "Thực hiện phép tính  \\((-236) + (-1025)\\) . (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": " \\((-236) + (-1025) = -(236 + 1025) = -1261\\) .",
+      "answers": [
+        {
+          "text": "-1261",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện phép cộng hai số nguyên âm",
+      "questiontext": "Tính tổng của hai số nguyên âm -{a} và -{b}. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Muốn cộng hai số nguyên âm -{a} và -{b}, ta cộng phần số tự nhiên của chúng rồi đặt dấu \"-\" trước kết quả.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 10.0,
+          "max": 100.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 10.0,
+          "max": 100.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "-({a}+{b})",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_046",
+      "questiontext": "Quan sát sơ đồ vị trí tàu ngầm: [img:_page_1_Figure_3.jpeg]. Một chiếc tàu ngầm đang ở điểm B ở độ cao  \\(-135\\text{ m}\\) . Tàu tiếp tục lặn xuống theo phương thẳng đứng thêm  \\(45\\text{ m}\\)  đến điểm A dưới đáy biển. Hỏi điểm A nằm ở độ cao bao nhiêu mét?",
+      "generalfeedback": "Vì tàu lặn xuống thêm 45 m, độ cao điểm A là:  \\((-135) + (-45) = -(135 + 45) = -180\\text{ m}\\) .",
+      "imgs": [
+        "_page_1_Figure_3.jpeg"
+      ],
+      "answers": [
+        {
+          "text": " \\(-180\\text{ m}\\) ",
+          "fraction": 100
+        },
+        {
+          "text": " \\(-90\\text{ m}\\) ",
+          "fraction": 0
+        },
+        {
+          "text": " \\(180\\text{ m}\\) ",
+          "fraction": 0
+        },
+        {
+          "text": " \\(-135\\text{ m}\\) ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Thực hiện phép cộng hai số nguyên dương",
+      "questiontext": "Thực hiện phép cộng hai số nguyên dương:  \\(15 + 27\\) . Kết quả là bao nhiêu?",
+      "generalfeedback": "Phép cộng hai số nguyên dương chính là phép cộng hai số tự nhiên:  \\(15 + 27 = 42\\) .",
+      "answers": [
+        {
+          "text": "42",
+          "fraction": 100
+        },
+        {
+          "text": "32",
+          "fraction": 0
+        },
+        {
+          "text": "-42",
+          "fraction": 0
+        },
+        {
+          "text": "52",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Thực hiện phép cộng hai số nguyên dương",
+      "questiontext": "Phép cộng hai số nguyên dương  \\(a\\)  và  \\(b\\)  chính là phép cộng hai số tự nhiên  \\(a\\)  và  \\(b\\)  khác 0.",
+      "generalfeedback": "Đúng. Phép cộng hai số nguyên dương là phép cộng hai số tự nhiên khác 0.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "cộng hai số nguyên âm)",
+      "questiontext": "Hãy ghép các phép cộng hai số nguyên âm ở cột bên trái với kết quả tương ứng ở cột bên phải:",
+      "generalfeedback": "Muốn cộng hai số nguyên âm, ta cộng phần số tự nhiên của chúng rồi đặt dấu \"-\" trước kết quả.",
+      "subquestions": [
+        {
+          "question": " \\((-10) + (-15)\\) ",
+          "answer": " \\(-25\\) "
+        },
+        {
+          "question": " \\((-7) + (-8)\\) ",
+          "answer": " \\(-15\\) "
+        },
+        {
+          "question": " \\((-20) + (-30)\\) ",
+          "answer": " \\(-50\\) "
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép cộng hai số nguyên dương",
+      "questiontext": "Cho hai số nguyên dương  \\(35\\)  và  \\(45\\) . Tổng của hai số này là [[1]], và kết quả thu được là một số nguyên [[2]].",
+      "generalfeedback": " \\(35 + 45 = 80\\) . Kết quả 80 là một số nguyên dương.",
+      "choices": [
+        {
+          "group": 1,
+          "text": " \\(80\\) "
+        },
+        {
+          "group": 1,
+          "text": " \\(-80\\) "
+        },
+        {
+          "group": 1,
+          "text": "dương"
+        },
+        {
+          "group": 1,
+          "text": "âm"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_046",
+      "questiontext": "Quan sát sơ đồ di chuyển trên trục số: [img:_page_0_Picture_15.jpeg]. Từ điểm  \\(0\\) , di chuyển sang phải 3 đơn vị đến điểm  \\(A = 3\\) , rồi di chuyển tiếp sang phải 5 đơn vị đến điểm  \\(B\\) . Điểm  \\(B\\)  biểu diễn số [[1]], minh hoạ cho phép cộng hai số nguyên [[2]].",
+      "generalfeedback": "Di chuyển từ 0 sang phải 3 đơn vị rồi thêm 5 đơn vị sang phải đến điểm B biểu diễn số 8, đây là phép cộng hai số nguyên dương  \\(3 + 5 = 8\\) .",
+      "imgs": [
+        "_page_0_Picture_15.jpeg"
+      ],
+      "choices": [
+        {
+          "group": 1,
+          "text": "8"
+        },
+        {
+          "group": 1,
+          "text": "dương"
+        },
+        {
+          "group": 1,
+          "text": "âm"
+        },
+        {
+          "group": 1,
+          "text": "-8"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép cộng hai số nguyên dương",
+      "questiontext": "Tính tổng hai số nguyên dương:  \\(125 + 375\\) ",
+      "generalfeedback": " \\(125 + 375 = 500\\) .",
+      "answers": [
+        {
+          "text": "500",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép cộng hai số nguyên âm",
+      "questiontext": "Tính giá trị của biểu thức  \\((-45) + (-55)\\) . (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": " \\((-45) + (-55) = -(45 + 55) = -100\\) .",
+      "answers": [
+        {
+          "text": "-100",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện phép cộng hai số nguyên dương",
+      "questiontext": "Tính tổng của hai số nguyên dương {a} và {b}. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Tổng hai số nguyên dương {a} và {b} bằng {a}+{b}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 10.0,
+          "max": 200.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 10.0,
+          "max": 200.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}+{b}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện phép cộng hai số nguyên âm",
+      "questiontext": "Một nhiệt kế đo nhiệt độ ban đêm tại đỉnh núi Mẫu Sơn là -{a} độ C. Nếu nhiệt độ giảm thêm {b} độ C nữa, hỏi nhiệt độ ban đêm là bao nhiêu độ C? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Nhiệt độ sau khi giảm là  \\((-a) + (-b) = -(a + b)\\) .",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "-({a}+{b})",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_046",
+      "questiontext": "Quan sát trục số di chuyển điểm: [img:_page_0_Figure_22.jpeg]. Từ gốc  \\(O\\)  trên trục số, di chuyển sang trái 3 đơn vị đến điểm  \\(A(-3)\\) , sau đó di chuyển tiếp sang trái 5 đơn vị đến điểm  \\(B\\) . Kết quả biểu diễn phép tính nào sau đây?",
+      "generalfeedback": "Di chuyển sang trái 3 đơn vị rồi tiếp tục sang trái 5 đơn vị biểu diễn phép cộng hai số nguyên âm  \\((-3) + (-5) = -8\\) .",
+      "imgs": [
+        "_page_0_Figure_22.jpeg"
+      ],
+      "answers": [
+        {
+          "text": " \\((-3) + (-5) = -8\\) ",
+          "fraction": 100
+        },
+        {
+          "text": " \\(3 + 5 = 8\\) ",
+          "fraction": 0
+        },
+        {
+          "text": " \\((-3) + 5 = 2\\) ",
+          "fraction": 0
+        },
+        {
+          "text": " \\(3 + (-5) = -2\\) ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ học Toán bài \"Cộng hai số nguyên cùng dấu\", khi gặp một bài toán tính tổng hai số nguyên âm lớn khó nhẩm, bạn Nam quyết định không bỏ cuộc mà kiên trì áp dụng quy tắc cộng phần số tự nhiên rồi đặt dấu \"-\" trước kết quả. Hành vi của Nam thể hiện phẩm chất nào sau đây?",
+      "generalfeedback": "Hành vi không bỏ cuộc, kiên trì áp dụng đúng quy tắc để giải toán thể hiện sự cố gắng vươn lên đạt kết quả tốt trong học tập.",
+      "answers": [
+        {
+          "text": "Luôn cố gắng vươn lên đạt kết quả tốt trong học tập",
+          "fraction": 100
+        },
+        {
+          "text": "Yêu nước và tự hào dân tộc",
+          "fraction": 0
+        },
+        {
+          "text": "Trung thực trong thi cử",
+          "fraction": 0
+        },
+        {
+          "text": "Tôn trọng sự khác biệt của bạn bè",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi làm bài tập cộng hai số nguyên cùng dấu bị sai kết quả, bạn An đã chủ động xem lại quy tắc trong SGK, tìm ra lỗi sai và tự làm lại bài để hiểu rõ hơn. Hành động của An thể hiện tinh thần luôn cố gắng vươn lên trong học tập.",
+      "generalfeedback": "Đúng. Tự tìm ra lỗi sai và kiên trì làm lại bài thể hiện tinh thần chủ động vươn lên trong học tập.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Để hoàn thiện sơ đồ tư duy tóm tắt nội dung Tiết 1 bài \"Phép cộng hai số nguyên cùng dấu\", hãy ghép mỗi mục kiến thức ở cột trái với thông tin cốt lõi ngắn gọn tương ứng ở cột phải:",
+      "generalfeedback": "Tóm tắt ngắn gọn giúp ghi nhớ quy tắc: cộng hai số nguyên dương là cộng hai số tự nhiên; cộng hai số nguyên âm là cộng hai phần số tự nhiên rồi thêm dấu \"-\".",
+      "subquestions": [
+        {
+          "question": "Số nguyên âm  \\(-a\\) ",
+          "answer": "Gồm phần dấu \"-\" và phần số tự nhiên  \\(a\\) "
+        },
+        {
+          "question": "Cộng hai số nguyên dương",
+          "answer": "Phép cộng hai số tự nhiên khác 0"
+        },
+        {
+          "question": "Cộng hai số nguyên âm",
+          "answer": "Cộng hai phần số tự nhiên rồi đặt dấu \"-\" trước kết quả"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "questiontext": "Quan sát hình ảnh mô phỏng chuyển động trên trục số: [img:_page_0_Figure_22.jpeg]. Một bản tin dự báo thời tiết mô tả: \"Từ gốc 0 trên trục số, nhiệt độ giảm 3 độ C (đến điểm A), sau đó giảm tiếp 5 độ C (đến điểm B)\". Ngôn ngữ biểu đồ/trục số trên biểu diễn phép tính nào?",
+      "generalfeedback": "Giảm 3 độ C tương ứng di chuyển sang trái 3 đơn vị (số -3), giảm tiếp 5 độ C tương ứng di chuyển tiếp sang trái 5 đơn vị (số -5). Phép tính tương ứng là  \\((-3) + (-5) = -8\\) .",
+      "imgs": [
+        "_page_0_Figure_22.jpeg"
+      ],
+      "answers": [
+        {
+          "text": " \\((-3) + (-5) = -8\\) ",
+          "fraction": 100
+        },
+        {
+          "text": " \\(3 + 5 = 8\\) ",
+          "fraction": 0
+        },
+        {
+          "text": " \\((-3) + 5 = 2\\) ",
+          "fraction": 0
+        },
+        {
+          "text": " \\(3 + (-5) = -2\\) ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "questiontext": "Đọc thông tin từ sơ đồ vị trí tàu ngầm: [img:_page_1_Figure_3.jpeg]. Tàu ngầm ở vị trí B có độ cao  \\(-135\\text{ m}\\)  so với mực nước biển, tiếp tục lặn xuống thêm  \\(45\\text{ m}\\)  đến điểm A. Hãy tiếp nhận số liệu và mô tả biểu đồ để tính độ cao tại A.",
+      "generalfeedback": "Từ sơ đồ hình ảnh, độ cao điểm A là tổng của hai độ cao âm:  \\((-135) + (-45) = -180\\text{ m}\\) .",
+      "imgs": [
+        "_page_1_Figure_3.jpeg"
+      ],
+      "answers": [
+        {
+          "text": " \\(-180\\text{ m}\\) ",
+          "fraction": 100
+        },
+        {
+          "text": " \\(-90\\text{ m}\\) ",
+          "fraction": 0
+        },
+        {
+          "text": " \\(180\\text{ m}\\) ",
+          "fraction": 0
+        },
+        {
+          "text": " \\(-135\\text{ m}\\) ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Phân tích và lập luận tư duy: Tại sao tổng của hai số nguyên âm luôn luôn là một số nguyên âm?",
+      "generalfeedback": "Vì khi cộng hai số nguyên âm, ta cộng hai phần số tự nhiên (thu được một số tự nhiên dương) rồi đặt dấu \"-\" trước kết quả, do đó kết quả luôn mang dấu âm.",
+      "answers": [
+        {
+          "text": "Vì ta cộng hai phần số tự nhiên dương với nhau rồi đặt dấu \"-\" trước kết quả",
+          "fraction": 100
+        },
+        {
+          "text": "Vì hai dấu âm triệt tiêu lẫn nhau thành dấu dương",
+          "fraction": 0
+        },
+        {
+          "text": "Vì ta lấy số lớn trừ số nhỏ rồi giữ nguyên dấu của số lớn",
+          "fraction": 0
+        },
+        {
+          "text": "Vì phép cộng hai số nguyên âm thực chất là phép nhân hai số âm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Sử dụng thao tác tư duy phân tích thành phần số nguyên, hãy kết nối mỗi số nguyên ở cột trái với cách phân tích phần dấu và phần số tự nhiên tương ứng ở cột phải:",
+      "generalfeedback": "Mỗi số nguyên âm có phần dấu là \"-\" và phần số tự nhiên là giá trị tuyệt đối của nó.",
+      "subquestions": [
+        {
+          "question": "Số  \\(-48\\) ",
+          "answer": "Phần dấu là \"-\", phần số tự nhiên là 48"
+        },
+        {
+          "question": "Số  \\(-1025\\) ",
+          "answer": "Phần dấu là \"-\", phần số tự nhiên là 1025"
+        },
+        {
+          "question": "Số  \\(375\\) ",
+          "answer": "Phần dấu là \"+\" (hoặc ẩn), phần số tự nhiên là 375"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Sử dụng kĩ năng tính toán số nguyên để giải quyết bài toán thực tế: Nhiệt độ ban ngày tại Mẫu Sơn là  \\(-3^{\\circ}\\text{C}\\) . Ban đêm nhiệt độ giảm thêm  \\(5^{\\circ}\\text{C}\\)  nữa. Hỏi nhiệt độ ban đêm tại Mẫu Sơn là bao nhiêu độ C? (Chỉ ghi số nguyên kết quả, không ghi đơn vị)",
+      "generalfeedback": "Nhiệt độ ban đêm là  \\((-3) + (-5) = -8^{\\circ}\\text{C}\\) . Đáp án: -8",
+      "answers": [
+        {
+          "text": "-8",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Vận dụng kĩ năng mô hình hóa toán học: Một tài khoản ngân hàng bị trừ 150000 đồng lần thứ nhất (ghi  \\(-150000\\)  đồng) và tiếp tục bị trừ 250000 đồng lần thứ hai (ghi  \\(-250000\\)  đồng). Tổng số tiền trong tài khoản thay đổi bao nhiêu đồng? (Chỉ điền số nguyên, ví dụ: -400000)",
+      "generalfeedback": "Tổng biến động tài khoản là  \\((-150000) + (-250000) = -400000\\)  đồng.",
+      "answers": [
+        {
+          "text": "-400000",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    }
+  ]
+}

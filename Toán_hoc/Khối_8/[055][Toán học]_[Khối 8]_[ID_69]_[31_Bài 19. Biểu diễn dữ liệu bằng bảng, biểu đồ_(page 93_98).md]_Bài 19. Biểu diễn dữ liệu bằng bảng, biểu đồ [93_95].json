@@ -1,0 +1,530 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 20,
+    "metadata_used": {
+      "YCCD_TOAN8_102": 2,
+      "YCCD_TOAN8_103": 2,
+      "YCCD_TOAN8_106": 2,
+      "YCCD_TOAN8_110": 2,
+      "Biểu diễn dữ liệu bằng Bảng thống kê": 2,
+      "Biểu diễn dữ liệu bằng Biểu đồ cột kép và Biểu đồ hình quạt tròn": 3,
+      "Đọc và giải thích dữ liệu từ bảng và biểu đồ": 4,
+      "Chuyển đổi dữ liệu từ dạng bảng sang dạng biểu đồ thích hợp": 3
+    },
+    "types_used": {
+      "multichoice": 6,
+      "gapselect": 2,
+      "truefalse": 2,
+      "matching": 2,
+      "numerical": 2,
+      "shortanswer": 2,
+      "ddwtos": 2,
+      "calculatedsimple": 2
+    },
+    "total": 20
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN8_102",
+        "reason": "Lựa chọn và biểu diễn được dữ liệu vào bảng thống kê."
+      },
+      {
+        "metadata_code": "YCCD_TOAN8_103",
+        "reason": "Lựa chọn và biểu diễn được dữ liệu vào biểu đồ tranh."
+      },
+      {
+        "metadata_code": "YCCD_TOAN8_106",
+        "reason": "Lựa chọn và biểu diễn được dữ liệu vào biểu đồ đoạn thẳng."
+      },
+      {
+        "metadata_code": "YCCD_TOAN8_110",
+        "reason": "Mô tả được cách chuyển dữ liệu từ dạng biểu diễn này sang dạng biểu diễn khác."
+      },
+      {
+        "metadata_code": "Biểu diễn dữ liệu bằng Bảng thống kê",
+        "reason": "Biểu diễn dữ liệu bằng Bảng thống kê."
+      },
+      {
+        "metadata_code": "Biểu diễn dữ liệu bằng Biểu đồ cột kép và Biểu đồ hình quạt tròn",
+        "reason": "Biểu diễn dữ liệu bằng Biểu đồ cột kép và Biểu đồ hình quạt tròn."
+      },
+      {
+        "metadata_code": "Đọc và giải thích dữ liệu từ bảng và biểu đồ",
+        "reason": "Đọc và giải thích dữ liệu từ bảng và biểu đồ."
+      },
+      {
+        "metadata_code": "Chuyển đổi dữ liệu từ dạng bảng sang dạng biểu đồ thích hợp",
+        "reason": "Chuyển đổi dữ liệu từ dạng bảng sang dạng biểu đồ thích hợp."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_02_03",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_04_02",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "3.1TC2a_K8",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "8.A3.3_3",
+        "reason": "Sẽ xử lý ở bước riêng"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_102",
+      "questiontext": "Khi nào ta nên sử dụng bảng thống kê để biểu diễn dữ liệu?",
+      "generalfeedback": "Bảng thống kê giúp trình bày dữ liệu một cách rõ ràng, chi tiết theo các hàng và cột ứng với từng tiêu chí.",
+      "answers": [
+        {
+          "text": "Khi cần trình bày dữ liệu một cách chi tiết, cụ thể theo các đặc tính hoặc đối tượng khác nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Khi chỉ muốn so sánh tỉ lệ phần trăm của các phần trong tổng thể",
+          "fraction": 0
+        },
+        {
+          "text": "Khi chỉ muốn biểu diễn sự thay đổi liên tục của dữ liệu theo thời gian",
+          "fraction": 0
+        },
+        {
+          "text": "Khi muốn dùng hình ảnh sinh động để thay thế hoàn toàn cho các con số",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Biểu diễn dữ liệu bằng Bảng thống kê",
+      "questiontext": "Dựa vào Bảng 5.1 về số lượng các loài động vật tại Thảo Cầm Viên (ngày 14-7-1869):\n- Thú: 120 con\n- Chim: 344 con\n- Bò sát: 45 con\nTổng số cá thể thuộc ba loài động vật trên là bao nhiêu con?",
+      "generalfeedback": "Tổng số cá thể động vật là: \\(120 + 344 + 45 = 509\\) (con).",
+      "answers": [
+        {
+          "text": "509",
+          "fraction": 100
+        },
+        {
+          "text": "464",
+          "fraction": 0
+        },
+        {
+          "text": "519",
+          "fraction": 0
+        },
+        {
+          "text": "499",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_103",
+      "questiontext": "Có thể dùng biểu đồ tranh hoặc biểu đồ cột để biểu diễn số lượng các loại đối tượng khác nhau. Tuy nhiên, khi dùng biểu đồ tranh mà phải vẽ [[1]] biểu tượng thì ta nên chuyển sang dùng [[2]].",
+      "generalfeedback": "Theo nhận xét trong SGK: Khi dùng biểu đồ tranh mà phải vẽ rất nhiều biểu tượng thì ta nên dùng biểu đồ cột.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "rất nhiều"
+        },
+        {
+          "group": 2,
+          "text": "biểu đồ cột"
+        },
+        {
+          "group": 1,
+          "text": "rất ít"
+        },
+        {
+          "group": 2,
+          "text": "biểu đồ đoạn thẳng"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Đọc và giải thích dữ liệu từ bảng và biểu đồ",
+      "imgs": [
+        "_page_0_Figure_18.jpeg"
+      ],
+      "questiontext": "Cho biểu đồ Hình 5.1 biểu diễn số vé bán được của một trận bóng đá:\n[img:_page_0_Figure_18.jpeg]\nSố lượng vé bán được của loại vé 150 000 đồng là bao nhiêu nghìn vé?",
+      "generalfeedback": "Đọc biểu đồ Hình 5.1, cột biểu diễn loại vé 150 000 đồng đạt mức 20 nghìn vé.",
+      "answers": [
+        {
+          "text": "20",
+          "fraction": 100
+        },
+        {
+          "text": "10",
+          "fraction": 0
+        },
+        {
+          "text": "5",
+          "fraction": 0
+        },
+        {
+          "text": "15",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_106",
+      "questiontext": "Nếu muốn biểu diễn sự thay đổi của một đại lượng theo thời gian (ví dụ: cân nặng thai nhi chuẩn theo tuần tuổi), ta nên dùng biểu đồ đoạn thẳng.",
+      "generalfeedback": "Đúng. Theo bài học, nếu muốn biểu diễn sự thay đổi của một đại lượng theo thời gian ta dùng biểu đồ đoạn thẳng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Chuyển đổi dữ liệu từ dạng bảng sang dạng biểu đồ thích hợp",
+      "questiontext": "Hãy ghép mỗi mục tiêu biểu diễn dữ liệu ở cột bên trái với dạng biểu đồ phù hợp nhất ở cột bên phải:",
+      "generalfeedback": "Biểu diễn sự thay đổi theo thời gian dùng biểu đồ đoạn thẳng; So sánh số lượng đối tượng khi số liệu lớn nên dùng biểu đồ cột; Biểu diễn tỉ lệ phần trăm các phần trong tổng thể dùng biểu đồ hình quạt tròn.",
+      "subquestions": [
+        {
+          "question": "Biểu diễn sự thay đổi của một đại lượng theo thời gian",
+          "answer": "Biểu đồ đoạn thẳng"
+        },
+        {
+          "question": "So sánh số lượng các loại đối tượng khác nhau khi phải biểu diễn số liệu lớn",
+          "answer": "Biểu đồ cột"
+        },
+        {
+          "question": "Biểu diễn tỉ lệ các phần trong tổng thể",
+          "answer": "Biểu đồ hình quạt tròn"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "nhan_biet",
+      "metadata_code": "Đọc và giải thích dữ liệu từ bảng và biểu đồ",
+      "imgs": [
+        "_page_2_Figure_11.jpeg"
+      ],
+      "questiontext": "Dựa vào biểu đồ Hình 5.3 về số cơn bão trên toàn cầu:\n[img:_page_2_Figure_11.jpeg]\nHãy cho biết vào năm 2017 toàn cầu có bao nhiêu cơn bão? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Quan sát biểu đồ Hình 5.3, tại mốc năm 2017, điểm dữ liệu chỉ giá trị là 130.",
+      "answers": [
+        {
+          "text": "130",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_110",
+      "questiontext": "Khi dữ liệu về tuổi thọ trung bình ở một số quốc gia không phải là số nguyên và thay đổi theo quốc gia (không phải theo thời gian), loại biểu đồ nào là phù hợp nhất để biểu diễn?",
+      "generalfeedback": "Biểu đồ phù hợp nhất là biểu đồ cột.",
+      "answers": [
+        {
+          "text": "biểu đồ cột",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Biểu diễn dữ liệu bằng Biểu đồ cột kép và Biểu đồ hình quạt tròn",
+      "questiontext": "Khi muốn so sánh hai tập dữ liệu với nhau ta dùng [[1]]. Khi muốn biểu diễn tỉ lệ các phần trong tổng thể ta dùng [[2]].",
+      "generalfeedback": "Nhận xét mục 3 SGK quy định: So sánh 2 tập dữ liệu dùng biểu đồ cột kép; Biểu diễn tỉ lệ các phần trong tổng thể dùng biểu đồ hình quạt tròn.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "biểu đồ cột kép"
+        },
+        {
+          "group": 2,
+          "text": "biểu đồ hình quạt tròn"
+        },
+        {
+          "group": 1,
+          "text": "biểu đồ tranh"
+        },
+        {
+          "group": 2,
+          "text": "biểu đồ đoạn thẳng"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Biểu diễn dữ liệu bằng Bảng thống kê",
+      "questiontext": "Một trận bóng đá bán được {a} nghìn vé loại 100 000 đồng và {b} nghìn vé loại 150 000 đồng. Tổng số vé của hai loại này bán được là bao nhiêu nghìn vé? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Tổng số nghìn vé bán được của hai loại là \\({a} + {b}\\) nghìn vé.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 5.0,
+          "max": 25.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 10.0,
+          "max": 30.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}+{b}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_102",
+      "questiontext": "Cho bảng thống kê xếp loại học lực của học sinh lớp 8A: Giỏi (10 học sinh), Khá (15 học sinh), Trung bình (8 học sinh), Yếu (2 học sinh). Tổng số học sinh lớp 8A là bao nhiêu?",
+      "generalfeedback": "Tổng số học sinh lớp 8A là: \\(10 + 15 + 8 + 2 = 35\\) (học sinh).",
+      "answers": [
+        {
+          "text": "35",
+          "fraction": 100
+        },
+        {
+          "text": "33",
+          "fraction": 0
+        },
+        {
+          "text": "30",
+          "fraction": 0
+        },
+        {
+          "text": "37",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Biểu diễn dữ liệu bằng Biểu đồ cột kép và Biểu đồ hình quạt tròn",
+      "questiontext": "Khi theo dõi tỉ lệ phần trăm doanh thu của các mặt hàng trong một cửa hàng so với tổng doanh thu, dạng biểu đồ nào trực quan nhất để biểu diễn?",
+      "generalfeedback": "Biểu đồ hình quạt tròn thích hợp nhất để biểu diễn tỉ lệ phần trăm các phần trong tổng thể.",
+      "answers": [
+        {
+          "text": "Biểu đồ hình quạt tròn",
+          "fraction": 100
+        },
+        {
+          "text": "Biểu đồ đoạn thẳng",
+          "fraction": 0
+        },
+        {
+          "text": "Biểu đồ tranh",
+          "fraction": 0
+        },
+        {
+          "text": "Biểu đồ cột kép",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Đọc và giải thích dữ liệu từ bảng và biểu đồ",
+      "questiontext": "Biểu đồ cột kép được sử dụng khi ta muốn so sánh hai tập dữ liệu cùng loại với nhau.",
+      "generalfeedback": "Đúng. Biểu đồ cột kép thích hợp cho việc so sánh 2 tập dữ liệu cùng loại.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_103",
+      "questiontext": "Trong biểu đồ tranh, nếu mỗi biểu tượng ngôi sao đại diện cho 10 học sinh giỏi, thì để biểu diễn 45 học sinh giỏi ta phải vẽ bao nhiêu ngôi sao (kể cả nửa ngôi sao)?",
+      "generalfeedback": "Số ngôi sao cần vẽ là \\(45 / 10 = 4,5\\) (ngôi sao).",
+      "answers": [
+        {
+          "text": "4,5",
+          "fraction": 100
+        },
+        {
+          "text": "4.5",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Đọc và giải thích dữ liệu từ bảng và biểu đồ",
+      "questiontext": "Số lượng học sinh giỏi các lớp khối 8 lần lượt là: 8A1 (12 học sinh), 8A2 (15 học sinh), 8A3 (11 học sinh), 8A4 (14 học sinh). Trung bình mỗi lớp có bao nhiêu học sinh giỏi? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Trung bình mỗi lớp có: \\((12 + 15 + 11 + 14) / 4 = 13\\) (học sinh).",
+      "answers": [
+        {
+          "text": "13",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "Chuyển đổi dữ liệu từ dạng bảng sang dạng biểu đồ thích hợp",
+      "questiontext": "Hãy nối các tình huống dữ liệu ở cột bên trái với dạng biểu đồ phù hợp nhất ở cột bên phải:",
+      "generalfeedback": "Diễn biến theo thời gian dùng biểu đồ đoạn thẳng; So sánh 2 nhóm dữ liệu nam/nữ theo lớp dùng biểu đồ cột kép; Tỉ lệ các phần trong tổng thể dùng biểu đồ hình quạt tròn.",
+      "subquestions": [
+        {
+          "question": "Số lượng máy tính bán được qua từng tháng từ tháng 1 đến tháng 6",
+          "answer": "Biểu đồ đoạn thẳng"
+        },
+        {
+          "question": "Số học sinh nam và nữ của các lớp 8A, 8B, 8C, 8D",
+          "answer": "Biểu đồ cột kép"
+        },
+        {
+          "question": "Tỉ lệ phần trăm các loại cây trong vườn nhà ông An",
+          "answer": "Biểu đồ hình quạt tròn"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_110",
+      "questiontext": "Khi chuyển dữ liệu từ bảng thống kê sang biểu đồ cột, độ cao của các cột biểu diễn [[1]] của dữ liệu tương ứng, còn tên các đối tượng được ghi ở [[2]].",
+      "generalfeedback": "Độ cao của cột tương ứng với giá trị/số lượng của dữ liệu, tên các đối tượng nằm trên trục nằm ngang.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "giá trị"
+        },
+        {
+          "group": 1,
+          "text": "tỉ lệ phần trăm"
+        },
+        {
+          "group": 2,
+          "text": "trục nằm ngang"
+        },
+        {
+          "group": 2,
+          "text": "trục thẳng đứng"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Biểu diễn dữ liệu bằng Biểu đồ cột kép và Biểu đồ hình quạt tròn",
+      "questiontext": "Biểu đồ đoạn thẳng giúp ta dễ dàng nhận ra [[1]] và [[2]] của dữ liệu theo thời gian.",
+      "generalfeedback": "Biểu đồ đoạn thẳng thể hiện rõ nét xu hướng tăng và xu hướng giảm của dữ liệu qua các thời điểm.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "xu hướng tăng"
+        },
+        {
+          "group": 2,
+          "text": "xu hướng giảm"
+        },
+        {
+          "group": 1,
+          "text": "tỉ lệ hình quạt"
+        },
+        {
+          "group": 2,
+          "text": "màu sắc trang trí"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Chuyển đổi dữ liệu từ dạng bảng sang dạng biểu đồ thích hợp",
+      "questiontext": "Một trường học có tổng cộng 500 học sinh. Kết quả khảo sát môn thể thao yêu thích được biểu diễn bằng biểu đồ hình quạt tròn, trong đó môn Bóng đá chiếm {p}%. Số học sinh yêu thích môn Bóng đá là bao nhiêu em? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Số học sinh yêu thích môn Bóng đá là: \\(500 \\times \\frac{\\{p\\}}{100}\\) (học sinh).",
+      "wildcards": [
+        {
+          "name": "p",
+          "min": 20.0,
+          "max": 60.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "500*{p}/100",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_106",
+      "questiontext": "Khi đọc biểu đồ đoạn thẳng thể hiện nhiệt độ trung bình các tháng trong năm tại Hà Nội, nhận định nào sau đây KHÔNG đúng?",
+      "generalfeedback": "Biểu đồ đoạn thẳng biểu diễn giá trị nhiệt độ biến thiên theo thời gian, không đại diện cho tỉ lệ phần trăm trong tổng thể.",
+      "answers": [
+        {
+          "text": "Mỗi điểm trên biểu đồ chỉ đại diện cho tỉ lệ phần trăm trong tổng thể",
+          "fraction": 100
+        },
+        {
+          "text": "Trục thẳng đứng thể hiện giá trị nhiệt độ",
+          "fraction": 0
+        },
+        {
+          "text": "Trục nằm ngang thể hiện các tháng trong năm",
+          "fraction": 0
+        },
+        {
+          "text": "Đường nối các điểm thể hiện sự biến thiên nhiệt độ qua các tháng",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

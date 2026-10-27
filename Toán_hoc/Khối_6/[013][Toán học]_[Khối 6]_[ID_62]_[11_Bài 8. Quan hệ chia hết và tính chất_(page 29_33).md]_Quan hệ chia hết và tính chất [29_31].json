@@ -1,0 +1,524 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 20,
+    "metadata_used": {
+      "YCCD_TOAN6_023": 2,
+      "YCCD_TOAN6_024": 1,
+      "Khái niệm quan hệ chia hết a chia hết cho b": 3,
+      "Khái niệm ước và bội": 2,
+      "Kí hiệu chia hết và không chia hết": 2,
+      "Xác định ước của một số tự nhiên": 5,
+      "Xác định bội của một số tự nhiên": 5
+    },
+    "types_used": {
+      "multichoice": 7,
+      "truefalse": 2,
+      "ddwtos": 1,
+      "gapselect": 2,
+      "matching": 2,
+      "shortanswer": 2,
+      "numerical": 2,
+      "calculated": 2
+    },
+    "total": 20
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN6_023",
+        "reason": "Đo lường mức độ nhận biết quan hệ chia hết trong SGK."
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_024",
+        "reason": "Đo lường mức độ nhận biết khái niệm ước và bội trong SGK."
+      },
+      {
+        "metadata_code": "Khái niệm quan hệ chia hết a chia hết cho b",
+        "reason": "Đo lường kiến thức về khái niệm quan hệ chia hết a chia hết cho b."
+      },
+      {
+        "metadata_code": "Khái niệm ước và bội",
+        "reason": "Đo lường kiến thức về khái niệm ước và bội."
+      },
+      {
+        "metadata_code": "Kí hiệu chia hết và không chia hết",
+        "reason": "Đo lường nhận biết kí hiệu chia hết và không chia hết."
+      },
+      {
+        "metadata_code": "Xác định ước của một số tự nhiên",
+        "reason": "Đo lường kỹ năng xác định ước của một số tự nhiên."
+      },
+      {
+        "metadata_code": "Xác định bội của một số tự nhiên",
+        "reason": "Đo lường kỹ năng xác định bội của một số tự nhiên."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_01",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_04_02",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "4.2TC1a_K6",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "4.2TC1b_K6",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "6.A3.3_2",
+        "reason": "Sẽ xử lý ở bước riêng"
+      },
+      {
+        "metadata_code": "6.A3.4_2",
+        "reason": "Sẽ xử lý ở bước riêng"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_023",
+      "questiontext": "Khi nào ta nói số tự nhiên \\(a\\) chia hết cho số tự nhiên \\(b\\) (với \\(b \\neq 0\\))?",
+      "generalfeedback": "Số tự nhiên \\(a\\) chia hết cho số tự nhiên \\(b\\) (\\(b \\neq 0\\)) nếu có số tự nhiên \\(k\\) sao cho \\(a = kb\\).",
+      "answers": [
+        {
+          "text": "Nếu có số tự nhiên \\(k\\) sao cho \\(a = kb\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Nếu có số tự nhiên \\(k\\) sao cho \\(b = ka\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Nếu phép chia \\(a\\) cho \\(b\\) có số dư khác \\(0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Nếu \\(a\\) nhỏ hơn \\(b\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Khái niệm quan hệ chia hết a chia hết cho b",
+      "questiontext": "Số \\(15\\) chia hết cho \\(3\\) vì \\(15 : 3 = 5\\) và phép chia không có dư.",
+      "generalfeedback": "Đúng. Vì \\(15 = 3 \\cdot 5\\) nên \\(15\\) chia hết cho \\(3\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Kí hiệu chia hết và không chia hết",
+      "questiontext": "Cho hai số tự nhiên \\(a\\) và \\(b\\) (với \\(b \\neq 0\\)). Để biểu diễn \\(a\\) chia hết cho \\(b\\) ta dùng kí hiệu [[1]], và để biểu diễn \\(a\\) không chia hết cho \\(b\\) ta dùng kí hiệu [[2]].",
+      "generalfeedback": "Kí hiệu chia hết là \\(\\vdots\\) và kí hiệu không chia hết là \\(\\not\\vdots\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(\\vdots\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\not\\vdots\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\in\\)"
+        },
+        {
+          "group": 1,
+          "text": "="
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_024",
+      "imgs": [
+        "_page_1_Picture_21.jpeg"
+      ],
+      "questiontext": "Sơ đồ dưới đây minh họa mối quan hệ giữa phép chia \\(15 : 3\\) với khái niệm ước và bội:\n[img:_page_1_Picture_21.jpeg]\nÁp dụng quy tắc tương tự cho phép chia \\(20 : 4 = 5\\), khẳng định nào sau đây đúng?",
+      "generalfeedback": "Vì \\(20\\) chia hết cho \\(4\\) nên \\(4\\) là ước của \\(20\\) và \\(20\\) là bội của \\(4\\).",
+      "answers": [
+        {
+          "text": "\\(4\\) là ước của \\(20\\) và \\(20\\) là bội của \\(4\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(20\\) là ước của \\(4\\) và \\(4\\) là bội của \\(20\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(4\\) là bội của \\(20\\) và \\(5\\) là bội của \\(20\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(20\\) không chia hết cho \\(4\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm ước và bội",
+      "questiontext": "Kí hiệu tập hợp các ước của số tự nhiên \\(a\\) là [[1]] và tập hợp các bội của số tự nhiên \\(b\\) là [[2]].",
+      "generalfeedback": "Tập hợp các ước của \\(a\\) kí hiệu là \\(\\text{Ư}(a)\\) và tập hợp các bội của \\(b\\) kí hiệu là \\(\\text{B}(b)\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(\\text{Ư}(a)\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\text{B}(b)\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\text{UC}(a)\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\text{BC}(b)\\)"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Xác định ước của một số tự nhiên",
+      "questiontext": "Hãy ghép mỗi số tự nhiên ở cột bên trái với tập hợp các ước tương ứng của nó ở cột bên phải:",
+      "generalfeedback": "\\(\\text{Ư}(15) = \\{1; 3; 5; 15\\}\\), \\(\\text{Ư}(17) = \\{1; 17\\}\\), \\(\\text{Ư}(20) = \\{1; 2; 4; 5; 10; 20\\}\\).",
+      "subquestions": [
+        {
+          "question": "Số \\(15\\)",
+          "answer": "\\(\\{1; 3; 5; 15\\}\\)"
+        },
+        {
+          "question": "Số \\(17\\)",
+          "answer": "\\(\\{1; 17\\}\\)"
+        },
+        {
+          "question": "Số \\(20\\)",
+          "answer": "\\(\\{1; 2; 4; 5; 10; 20\\}\\)"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Xác định bội của một số tự nhiên",
+      "questiontext": "Hãy viết tất cả các bội của \\(6\\) nhỏ hơn \\(24\\) theo thứ tự tăng dần, cách nhau bởi dấu chấm phẩy và khoảng trắng.",
+      "generalfeedback": "Các bội của \\(6\\) nhỏ hơn \\(24\\) gồm \\(0\\), \\(6\\), \\(12\\), \\(18\\).",
+      "answers": [
+        {
+          "text": "0; 6; 12; 18",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Xác định ước của một số tự nhiên",
+      "questiontext": "Việt có \\(12\\) gói kẹo, mỗi gói có \\(35\\) chiếc. Biết lớp Việt có \\(5\\) tổ và số kẹo được chia đều cho các tổ. Hỏi mỗi tổ nhận được bao nhiêu chiếc kẹo? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Tổng số kẹo là \\(12 \\times 35 = 420\\) chiếc. Số kẹo mỗi tổ nhận được là \\(420 : 5 = 84\\) chiếc.",
+      "answers": [
+        {
+          "text": "84",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Xác định bội của một số tự nhiên",
+      "questiontext": "Tính giá trị bội của {a} khi nhân {a} với 4.",
+      "generalfeedback": "Bội của {a} được tính bằng công thức {a} * 4.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 3.0,
+          "max": 15.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*4",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Khái niệm quan hệ chia hết a chia hết cho b",
+      "questiontext": "Trong một tích các số tự nhiên, nếu có một thừa số chia hết cho số \\(m\\) thì tích đó như thế nào đối với \\(m\\)?",
+      "generalfeedback": "Trong một tích, nếu có một thừa số chia hết cho một số thì tích chia hết cho số đó.",
+      "answers": [
+        {
+          "text": "Tích đó chia hết cho \\(m\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Tích đó không chia hết cho \\(m\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Tích đó chỉ chia hết cho \\(m\\) khi tất cả các thừa số chia hết cho \\(m\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Tích đó dư \\(1\\) khi chia cho \\(m\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Kí hiệu chia hết và không chia hết",
+      "questiontext": "Kí hiệu nào sau đây biểu diễn khẳng định \"\\(16\\) không chia hết cho \\(3\\)\"?",
+      "generalfeedback": "Để biểu diễn \\(a\\) không chia hết cho \\(b\\), ta dùng kí hiệu \\(\\not\\vdots\\). Do đó khẳng định được viết là \\(16 \\not\\vdots 3\\).",
+      "answers": [
+        {
+          "text": "\\(16 \\not\\vdots 3\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(16 \\vdots 3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(16 \\in 3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(16 \\subset 3\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Xác định ước của một số tự nhiên",
+      "questiontext": "Tập hợp tất cả các ước của số \\(35\\) là:",
+      "generalfeedback": "Lần lượt chia \\(35\\) cho các số từ \\(1\\) đến \\(35\\), ta thấy \\(35\\) chia hết cho \\(1; 5; 7; 35\\). Do đó \\(\\text{Ư}(35) = \\{1; 5; 7; 35\\}\\).",
+      "answers": [
+        {
+          "text": "\\(\\{1; 5; 7; 35\\}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\{5; 7\\}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\{1; 35\\}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\{0; 5; 7; 35\\}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Xác định bội của một số tự nhiên",
+      "questiontext": "Trong các số sau đây: \\(16; 24; 32; 35\\), số nào **không** phải là bội của \\(4\\)?",
+      "generalfeedback": "Vì \\(35\\) chia cho \\(4\\) bằng \\(8\\) dư \\(3\\) nên \\(35\\) không chia hết cho \\(4\\), do đó \\(35\\) không phải là bội của \\(4\\). Các số \\(16; 24; 32\\) đều chia hết cho \\(4\\).",
+      "answers": [
+        {
+          "text": "\\(35\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(16\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(24\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(32\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm ước và bội",
+      "questiontext": "Khẳng định sau đây đúng hay sai: \"Nếu số tự nhiên \\(a\\) chia hết cho số tự nhiên \\(b\\) (với \\(b \\neq 0\\)) thì \\(a\\) được gọi là ước của \\(b\\)\".",
+      "generalfeedback": "Sai. Nếu \\(a\\) chia hết cho \\(b\\) thì \\(b\\) mới là ước của \\(a\\), còn \\(a\\) là bội của \\(b\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Xác định ước của một số tự nhiên",
+      "questiontext": "Tìm số tự nhiên \\(y\\) lớn nhất sao cho \\(y\\) là ước của \\(50\\) và \\(y < 50\\).",
+      "generalfeedback": "Tập hợp các ước của \\(50\\) là \\(\\text{Ư}(50) = \\{1; 2; 5; 10; 25; 50\\}\\). Các ước nhỏ hơn \\(50\\) là \\(1; 2; 5; 10; 25\\), trong đó số lớn nhất là \\(25\\).",
+      "answers": [
+        {
+          "text": "25",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Xác định bội của một số tự nhiên",
+      "questiontext": "Có bao nhiêu số tự nhiên \\(x\\) là bội của \\(7\\) sao cho \\(x < 70\\)? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Các bội của \\(7\\) nhỏ hơn \\(70\\) được tìm bằng cách nhân \\(7\\) với lần lượt \\(0; 1; 2; 3; 4; 5; 6; 7; 8; 9\\). Các số đó là: \\(0; 7; 14; 21; 28; 35; 42; 49; 56; 63\\). Tổng cộng có \\(10\\) số.",
+      "answers": [
+        {
+          "text": "10",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm quan hệ chia hết a chia hết cho b",
+      "questiontext": "Trong hai số \\(24\\) và \\(45\\), số [[1]] chia hết cho \\(6\\), còn số [[2]] không chia hết cho \\(6\\).",
+      "generalfeedback": "Vì \\(24 : 6 = 4\\) nên \\(24\\) chia hết cho \\(6\\). Vì \\(45 : 6 = 7\\) dư \\(3\\) nên \\(45\\) không chia hết cho \\(6\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "24"
+        },
+        {
+          "group": 1,
+          "text": "45"
+        },
+        {
+          "group": 1,
+          "text": "10"
+        },
+        {
+          "group": 1,
+          "text": "35"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Xác định ước của một số tự nhiên",
+      "questiontext": "Hãy ghép mỗi dữ kiện ở cột bên trái với kết luận chính xác ở cột bên phải:",
+      "generalfeedback": "Nếu \\(a = 12k\\) thì \\(a\\) chia hết cho \\(12\\) hay \\(a\\) là bội của \\(12\\). Nếu \\(12 = 3 \\cdot 4\\) thì \\(3\\) và \\(4\\) đều là ước của \\(12\\). Nếu chia có dư thì không chia hết.",
+      "subquestions": [
+        {
+          "question": "Số \\(a = 12k\\) (với \\(k \\in \\mathbb{N}\\))",
+          "answer": "\\(a\\) là bội của \\(12\\)"
+        },
+        {
+          "question": "Số \\(12 = 3 \\cdot 4\\)",
+          "answer": "\\(3\\) và \\(4\\) đều là ước của \\(12\\)"
+        },
+        {
+          "question": "Số \\(a\\) chia cho \\(5\\) dư \\(2\\)",
+          "answer": "\\(a\\) không chia hết cho \\(5\\)"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Xác định bội của một số tự nhiên",
+      "questiontext": "Tìm giá trị bội của 8 khi nhân 8 với {k}.",
+      "generalfeedback": "Bội của 8 tương ứng là 8 * {k}.",
+      "wildcards": [
+        {
+          "name": "k",
+          "min": 1.0,
+          "max": 9.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "8*{k}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_023",
+      "questiontext": "Nếu số tự nhiên \\(a\\) chia cho số tự nhiên \\(b\\) (với \\(b \\neq 0\\)) có số dư bằng \\(0\\) thì khẳng định nào sau đây đúng?",
+      "generalfeedback": "Phép chia có số dư bằng 0 là phép chia hết, do đó \\(a\\) chia hết cho \\(b\\).",
+      "answers": [
+        {
+          "text": "\\(a\\) chia hết cho \\(b\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(a\\) không chia hết cho \\(b\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(b\\) chia hết cho \\(a\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a\\) là ước của \\(b\\)",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

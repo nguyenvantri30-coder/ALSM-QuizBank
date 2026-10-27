@@ -1,0 +1,552 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 20,
+    "metadata_used": {
+      "Khái niệm phân tích một số ra thừa số nguyên tố": 3,
+      "Phương pháp phân tích theo sơ đồ cây": 2,
+      "Phân tích một số ra thừa số nguyên tố theo sơ đồ cây": 3,
+      "Phương pháp phân tích theo sơ đồ cột": 2,
+      "Phân tích một số ra thừa số nguyên tố theo sơ đồ cột": 4,
+      "Viết kết quả phân tích dưới dạng lũy thừa": 3,
+      "YCCD_TOAN6_028": 3,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TUHOC_C2_04": 2,
+      "SUB_GTHT_XACDINHMD_C2_03": 2,
+      "NLT_TOAN_C2_01_01": 2,
+      "NLT_TOAN_C2_04_02": 2
+    },
+    "types_used": {
+      "multichoice": 13,
+      "truefalse": 2,
+      "gapselect": 3,
+      "matching": 2
+    },
+    "total": 20
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN6_028",
+        "reason": "Thực hiện được việc phân tích một số tự nhiên lớn hơn 1 thành tích của các thừa số nguyên tố trong những trường hợp đơn giản."
+      },
+      {
+        "metadata_code": "Khái niệm phân tích một số ra thừa số nguyên tố",
+        "reason": "Khái niệm phân tích một số ra thừa số nguyên tố"
+      },
+      {
+        "metadata_code": "Phương pháp phân tích theo sơ đồ cây",
+        "reason": "Phương pháp phân tích theo sơ đồ cây"
+      },
+      {
+        "metadata_code": "Phương pháp phân tích theo sơ đồ cột",
+        "reason": "Phương pháp phân tích theo sơ đồ cột"
+      },
+      {
+        "metadata_code": "Phân tích một số ra thừa số nguyên tố theo sơ đồ cây",
+        "reason": "Phân tích một số ra thừa số nguyên tố theo sơ đồ cây"
+      },
+      {
+        "metadata_code": "Phân tích một số ra thừa số nguyên tố theo sơ đồ cột",
+        "reason": "Phân tích một số ra thừa số nguyên tố theo sơ đồ cột"
+      },
+      {
+        "metadata_code": "Viết kết quả phân tích dưới dạng lũy thừa",
+        "reason": "Viết kết quả phân tích dưới dạng lũy thừa"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học thuần lý thuyết toán học Lớp 6 (Phân tích một số ra thừa số nguyên tố), không chứa nội dung hoặc kịch bản về năng lực tin học/công cụ số."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học không tích hợp tự nhiên các ứng dụng hay nguyên lý Trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm phân tích một số ra thừa số nguyên tố",
+      "questiontext": "Thế nào là phân tích một số tự nhiên lớn hơn 1 ra thừa số nguyên tố?",
+      "generalfeedback": "Phân tích một số tự nhiên lớn hơn 1 ra thừa số nguyên tố là viết số đó dưới dạng một tích các thừa số nguyên tố.",
+      "answers": [
+        {
+          "text": "Là viết số đó dưới dạng một tích các thừa số nguyên tố.",
+          "fraction": 100
+        },
+        {
+          "text": "Là viết số đó dưới dạng một tổng các số nguyên tố.",
+          "fraction": 0
+        },
+        {
+          "text": "Là viết số đó dưới dạng một tích các hợp số.",
+          "fraction": 0
+        },
+        {
+          "text": "Là tìm tất cả các ước của số đó.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm phân tích một số ra thừa số nguyên tố",
+      "questiontext": "Dạng phân tích ra thừa số nguyên tố của một số nguyên tố là chính nó. Khẳng định này đúng hay sai?",
+      "generalfeedback": "Theo quy ước trong SGK, dạng phân tích ra thừa số nguyên tố của một số nguyên tố là chính nó.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Khái niệm phân tích một số ra thừa số nguyên tố",
+      "questiontext": "Bạn Việt phân tích số 60 ra thừa số nguyên tố được kết quả \\(60 = 3 \\cdot 4 \\cdot 5\\). Kết quả của Việt đúng hay sai? Vì sao?",
+      "generalfeedback": "Kết quả của Việt là sai vì 4 không phải là số nguyên tố (4 là hợp số). Kết quả đúng phải là \\(60 = 2^2 \\cdot 3 \\cdot 5\\).",
+      "answers": [
+        {
+          "text": "Sai, vì 4 là hợp số, không phải thừa số nguyên tố.",
+          "fraction": 100
+        },
+        {
+          "text": "Đúng, vì \\(3 \\cdot 4 \\cdot 5 = 60\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Sai, vì thiếu thừa số 2.",
+          "fraction": 0
+        },
+        {
+          "text": "Đúng, vì các thừa số được viết từ bé đến lớn.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Phương pháp phân tích theo sơ đồ cây",
+      "questiontext": "Khi phân tích một hợp số ra thừa số nguyên tố theo sơ đồ cây, ta dừng lại ở mỗi nhánh khi gặp thừa số là:",
+      "generalfeedback": "Khi thực hiện phân tích theo sơ đồ cây, ở mỗi nhánh ta dừng lại khi thừa số thu được là một số nguyên tố.",
+      "answers": [
+        {
+          "text": "Số nguyên tố",
+          "fraction": 100
+        },
+        {
+          "text": "Hợp số",
+          "fraction": 0
+        },
+        {
+          "text": "Số chẵn",
+          "fraction": 0
+        },
+        {
+          "text": "Số lẻ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Phương pháp phân tích theo sơ đồ cây",
+      "questiontext": "Quan sát sơ đồ cây phân tích số 24 ra thừa số nguyên tố [img:_page_2_Picture_20.jpeg]. Ở sơ đồ bên phải, số 24 được tách thành tích của 4 và [[1]]. Sau đó, số 4 được tách thành \\(2 \\cdot 2\\), còn số 6 được tách thành \\(2 \\cdot\\) [[2]].",
+      "generalfeedback": "Trong sơ đồ cây ở Hình 2.2, \\(24 = 4 \\cdot 6\\). Tách tiếp \\(4 = 2 \\cdot 2\\) và \\(6 = 2 \\cdot 3\\).",
+      "imgs": [
+        "_page_2_Picture_20.jpeg"
+      ],
+      "choices": [
+        {
+          "group": 1,
+          "text": "6"
+        },
+        {
+          "group": 1,
+          "text": "3"
+        },
+        {
+          "group": 1,
+          "text": "2"
+        },
+        {
+          "group": 1,
+          "text": "8"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Phân tích một số ra thừa số nguyên tố theo sơ đồ cây",
+      "questiontext": "Cho sơ đồ cây phân tích số 18 ra thừa số nguyên tố [img:_page_2_Picture_24.jpeg]. Số 18 được tách thành \\(2 \\cdot\\) [[1]]. Tiếp theo, số ở ô vuông đó được tách thành \\(3 \\cdot\\) [[2]].",
+      "generalfeedback": "Theo Hình 2.3, \\(18 = 2 \\cdot 9\\), sau đó \\(9 = 3 \\cdot 3\\). Do đó ô thứ nhất điền 9 và ô thứ hai điền 3.",
+      "imgs": [
+        "_page_2_Picture_24.jpeg"
+      ],
+      "choices": [
+        {
+          "group": 1,
+          "text": "9"
+        },
+        {
+          "group": 1,
+          "text": "3"
+        },
+        {
+          "group": 1,
+          "text": "6"
+        },
+        {
+          "group": 1,
+          "text": "2"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Phương pháp phân tích theo sơ đồ cột",
+      "questiontext": "Khi phân tích một số ra thừa số nguyên tố theo sơ đồ cột, ở cột bên phải ta chỉ viết các:",
+      "generalfeedback": "Theo phương pháp sơ đồ cột, cột bên phải ghi các số chia là thừa số nguyên tố, cột bên trái ghi các thương tương ứng.",
+      "answers": [
+        {
+          "text": "Số nguyên tố (thừa số nguyên tố)",
+          "fraction": 100
+        },
+        {
+          "text": "Hợp số",
+          "fraction": 0
+        },
+        {
+          "text": "Số tự nhiên bất kỳ",
+          "fraction": 0
+        },
+        {
+          "text": "Số chẵn",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Phân tích một số ra thừa số nguyên tố theo sơ đồ cột",
+      "questiontext": "Hãy ghép mỗi số với các ước nguyên tố của nó khi thực hiện phân tích ra thừa số nguyên tố:",
+      "generalfeedback": "Phân tích: \\(30 = 2 \\cdot 3 \\cdot 5\\) (các ước nguyên tố là 2, 3, 5); \\(70 = 2 \\cdot 5 \\cdot 7\\) (các ước nguyên tố là 2, 5, 7); \\(105 = 3 \\cdot 5 \\cdot 7\\) (các ước nguyên tố là 3, 5, 7).",
+      "subquestions": [
+        {
+          "question": "Số 30",
+          "answer": "2; 3; 5"
+        },
+        {
+          "question": "Số 70",
+          "answer": "2; 5; 7"
+        },
+        {
+          "question": "Số 105",
+          "answer": "3; 5; 7"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Viết kết quả phân tích dưới dạng lũy thừa",
+      "questiontext": "Viết gọn tích \\(2 \\cdot 2 \\cdot 2 \\cdot 3\\) dưới dạng lũy thừa, ta được kết quả là:",
+      "generalfeedback": "Tích \\(2 \\cdot 2 \\cdot 2 \\cdot 3 = 2^3 \\cdot 3\\).",
+      "answers": [
+        {
+          "text": "\\(2^3 \\cdot 3\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(2 \\cdot 3^3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2^3 \\cdot 3^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2^4 \\cdot 3\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_028",
+      "questiontext": "Kết quả phân tích số 36 ra thừa số nguyên tố được viết dưới dạng lũy thừa là:",
+      "generalfeedback": "\\(36 = 4 \\cdot 9 = 2^2 \\cdot 3^2\\).",
+      "answers": [
+        {
+          "text": "\\(2^2 \\cdot 3^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(2 \\cdot 3^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(4 \\cdot 9\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2^3 \\cdot 3\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ bài tập Toán, khi gặp bài toán phân tích số \\(A = 4^4 \\cdot 9^5\\) ra thừa số nguyên tố, bạn An thấy khó nên định bỏ qua. Nếu là bạn của An, em nên khuyên An thế nào để thể hiện tinh thần luôn cố gắng vươn lên trong học tập?",
+      "generalfeedback": "Khi gặp bài toán khó, thái độ tích cực và cố gắng vươn lên là kiên trì phân tích các cơ số 4 và 9 về thừa số nguyên tố 2 và 3 để tìm ra đáp án.",
+      "answers": [
+        {
+          "text": "Khuyên An không nên bỏ cuộc, hãy phân tích 4 thành \\(2^2\\) và 9 thành \\(3^2\\) rồi áp dụng quy tắc lũy thừa để hoàn thành bài toán.",
+          "fraction": 100
+        },
+        {
+          "text": "Khuyên An bỏ qua bài này vì bài quá khó và không có trong đề thi.",
+          "fraction": 0
+        },
+        {
+          "text": "Khuyên An chép ngay đáp số của bạn khác mà không cần tìm hiểu cách làm.",
+          "fraction": 0
+        },
+        {
+          "text": "Khuyên An chờ cô giáo sửa bài rồi chép vào vở chứ không cần suy nghĩ.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi phân tích một số lớn ra thừa số nguyên tố theo sơ đồ cột, bạn Bình làm sai ở bước đầu tiên do chia cho hợp số 6. Bình cảm thấy nản lòng và định dừng lại. Việc bạn Cún động viên Bình tìm ra chỗ sai và kiên trì chia lại cho các số nguyên tố 2, 3 là thể hiện tinh thần vượt khó trong học tập. ĐÚNG hay SAI?",
+      "generalfeedback": "Đúng. Động viên bạn kiên trì sửa sai và tiếp tục tự học thể hiện tinh thần cố gắng vươn lên đạt kết quả tốt trong học tập.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Để tóm tắt kiến thức bài 'Phân tích một số ra thừa số nguyên tố' vào bản đồ khái niệm, em hãy ghép mỗi từ khóa/quy tắc với nhóm nội dung tương ứng:",
+      "generalfeedback": "Việc sắp xếp các từ khóa vào đúng nhóm nội dung giúp ghi nhớ kiến thức bài học một cách có hệ thống và khoa học.",
+      "subquestions": [
+        {
+          "question": "Sơ đồ cây",
+          "answer": "Tách một số thành tích hai thừa số cho đến khi gặp thừa số nguyên tố"
+        },
+        {
+          "question": "Sơ đồ cột",
+          "answer": "Lần lượt chia số đó cho các ước nguyên tố từ bé đến lớn cho đến khi thương bằng 1"
+        },
+        {
+          "question": "Quy ước viết kết quả",
+          "answer": "Viết các thừa số theo thứ tự từ bé đến lớn và gom các thừa số giống nhau dạng lũy thừa"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Khi lập bảng tóm tắt phương pháp phân tích một số ra thừa số nguyên tố, em cần điền các từ khóa trọng tâm: Trong sơ đồ cột, cột bên trái ghi [[1]], cột bên phải ghi [[2]]. Kết quả cuối cùng được viết gọn bằng [[3]].",
+      "generalfeedback": "Ghi tóm tắt bằng từ khóa trọng tâm: các số bị chia/thương ở cột trái, các thừa số nguyên tố chia ở cột phải, và kết quả dạng lũy thừa.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "các thương tương ứng"
+        },
+        {
+          "group": 1,
+          "text": "các thừa số nguyên tố"
+        },
+        {
+          "group": 1,
+          "text": "dạng lũy thừa"
+        },
+        {
+          "group": 1,
+          "text": "các hợp số"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "questiontext": "Đọc thông tin trong đoạn văn sau: 'Trong nghi lễ thượng cờ lúc 6 giờ sáng ở Quảng trường Ba Đình, đội tiêu binh có 34 người gồm 1 sĩ quan chỉ huy đứng đầu và 33 chiến sĩ. Đội trưởng muốn xếp 33 chiến sĩ thành các hàng có số người bằng nhau.' Kết hợp thông tin văn bản và kiến thức phân tích số 33 ra thừa số nguyên tố \\(33 = 3 \\cdot 11\\), hỏi có thể xếp 33 chiến sĩ thành bao nhiêu hàng (với số hàng nhiều hơn 1 và ít hơn 33)?",
+      "generalfeedback": "Phân tích \\(33 = 3 \\cdot 11\\), ước của 33 lớn hơn 1 và nhỏ hơn 33 là 3 và 11. Do đó có 2 cách xếp: xếp thành 3 hàng (mỗi hàng 11 người) hoặc 11 hàng (mỗi hàng 3 người).",
+      "answers": [
+        {
+          "text": "2 cách (xếp thành 3 hàng hoặc 11 hàng)",
+          "fraction": 100
+        },
+        {
+          "text": "1 cách (chỉ xếp được 3 hàng)",
+          "fraction": 0
+        },
+        {
+          "text": "3 cách (xếp thành 3, 6 hoặc 11 hàng)",
+          "fraction": 0
+        },
+        {
+          "text": "4 cách (xếp thành 1, 3, 11 hoặc 33 hàng)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "questiontext": "Quan sát bảng thuật toán cổ 'Sàng Eratosthenes' trong SGK dùng để tìm các số nguyên tố nhỏ hơn 50. Để tìm các số nguyên tố, bước đầu tiên sau khi lập bảng các số từ 1 đến 50 là gì?",
+      "generalfeedback": "Theo văn bản hướng dẫn thuật toán Sàng Eratosthenes trong SGK: Bước 2 là Gạch bỏ số 1, sau đó giữ số 2 và gạch các bội của 2 lớn hơn 2.",
+      "answers": [
+        {
+          "text": "Gạch bỏ số 1, giữ lại số 2 và gạch các bội của 2 lớn hơn 2",
+          "fraction": 100
+        },
+        {
+          "text": "Gạch tất cả các số lẻ",
+          "fraction": 0
+        },
+        {
+          "text": "Giữ lại số 1 và gạch các số chẵn",
+          "fraction": 0
+        },
+        {
+          "text": "Gạch tất cả các số chia hết cho 5",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Thực hiện thao tác so sánh hai phương pháp phân tích số 24 ra thừa số nguyên tố: phương pháp sơ đồ cây và phương pháp sơ đồ cột. Phát biểu nào sau đây thể hiện kết quả so sánh đúng nhất?",
+      "generalfeedback": "Thao tác tư duy so sánh chỉ ra: dù thực hiện bằng sơ đồ cây hay sơ đồ cột, kết quả cuối cùng phân tích ra thừa số nguyên tố đều giống nhau (khi viết các thừa số từ bé đến lớn dạng lũy thừa).",
+      "answers": [
+        {
+          "text": "Cả hai phương pháp đều cho cùng một kết quả duy nhất là \\(24 = 2^3 \\cdot 3\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Sơ đồ cây cho nhiều thừa số nguyên tố hơn sơ đồ cột.",
+          "fraction": 0
+        },
+        {
+          "text": "Sơ đồ cột cho kết quả dưới dạng tổng, còn sơ đồ cây cho kết quả dưới dạng tích.",
+          "fraction": 0
+        },
+        {
+          "text": "Sơ đồ cây chỉ áp dụng được cho số nhỏ, sơ đồ cột chỉ áp dụng được cho số lẻ.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Sử dụng thao tác phân tích và lập luận toán học: Bạn Nam khẳng định 'Tích của hai số nguyên tố bất kỳ luôn là một số lẻ'. Khẳng định của Nam đúng hay sai? Vì sao?",
+      "generalfeedback": "Lập luận phân tích: Số 2 là số nguyên tố chẵn. Tích của 2 với bất kỳ số nguyên tố nào khác (ví dụ \\(2 \\cdot 3 = 6\\)) sẽ là một số chẵn. Do đó khẳng định của Nam là sai.",
+      "answers": [
+        {
+          "text": "Sai, vì 2 là số nguyên tố chẵn, tích của 2 với một số nguyên tố khác là số chẵn.",
+          "fraction": 100
+        },
+        {
+          "text": "Đúng, vì mọi số nguyên tố đều là số lẻ.",
+          "fraction": 0
+        },
+        {
+          "text": "Đúng, vì tích của hai số lẻ luôn là số lẻ.",
+          "fraction": 0
+        },
+        {
+          "text": "Sai, vì tích của hai số nguyên tố bất kỳ luôn là số nguyên tố.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04_02",
+      "questiontext": "Đọc đoạn văn bản quy ước trong SGK: 'Người ta quy ước dạng phân tích ra thừa số nguyên tố của một số nguyên tố là chính nó.' Dựa trên thông tin toán học này, dạng phân tích ra thừa số nguyên tố của số 7 là gì?",
+      "generalfeedback": "Vì 7 là số nguyên tố, theo quy ước trong văn bản SGK, phân tích ra thừa số nguyên tố của số 7 là chính nó (số 7).",
+      "answers": [
+        {
+          "text": "7",
+          "fraction": 100
+        },
+        {
+          "text": "\\(1 \\cdot 7\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(7^1 \\cdot 1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Không phân tích được",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04_02",
+      "questiontext": "Đọc đoạn văn bản sau trong SGK: 'Khi phân tích một số ra thừa số nguyên tố, trong kết quả ta thường viết các thừa số theo thứ tự từ bé đến lớn và viết tích các thừa số giống nhau dưới dạng lũy thừa.' Kết quả phân tích số 12 ra thừa số nguyên tố viết chuẩn theo đúng văn bản hướng dẫn là:",
+      "generalfeedback": "Phân tích \\(12 = 2 \\cdot 2 \\cdot 3\\). Viết gọn dạng lũy thừa và thứ tự từ bé đến lớn là \\(2^2 \\cdot 3\\).",
+      "answers": [
+        {
+          "text": "\\(2^2 \\cdot 3\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(2 \\cdot 3^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2^3 \\cdot 3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(3 \\cdot 2^2\\)",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

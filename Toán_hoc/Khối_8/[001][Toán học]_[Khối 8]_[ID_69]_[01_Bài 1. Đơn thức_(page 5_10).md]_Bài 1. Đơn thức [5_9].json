@@ -1,0 +1,531 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 20,
+    "reviewed_in_batch": 10,
+    "metadata_used": {
+      "YCCD_TOAN8_001": 2,
+      "Hệ số của đơn thức": 2,
+      "Phần biến của đơn thức": 2,
+      "Bậc của đơn thức": 2,
+      "Khái niệm đơn thức thu gọn": 2,
+      "Nhận biết hệ số của đơn thức": 2,
+      "Nhận biết phần biến của đơn thức": 2,
+      "Xác định bậc của đơn thức": 2,
+      "Thực hiện thu gọn đơn thức": 4,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TULUC_C2_01": 2,
+      "NLT_TOAN_C2_01_01": 2,
+      "NLT_TOAN_C2_04_12": 2
+    },
+    "types_used": {
+      "multichoice": 6,
+      "truefalse": 2,
+      "gapselect": 2,
+      "ddwtos": 2,
+      "shortanswer": 2,
+      "matching": 2,
+      "numerical": 2,
+      "calculatedsimple": 2
+    },
+    "total": 20
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN8_001",
+        "reason": "Đo lường khả năng nhận biết khái niệm đơn thức nhiều biến."
+      },
+      {
+        "metadata_code": "Hệ số của đơn thức",
+        "reason": "Đo lường kiến thức về hệ số của đơn thức."
+      },
+      {
+        "metadata_code": "Phần biến của đơn thức",
+        "reason": "Đo lường kiến thức về phần biến của đơn thức."
+      },
+      {
+        "metadata_code": "Bậc của đơn thức",
+        "reason": "Đo lường kiến thức về bậc của đơn thức."
+      },
+      {
+        "metadata_code": "Khái niệm đơn thức thu gọn",
+        "reason": "Đo lường kiến thức về khái niệm đơn thức thu gọn."
+      },
+      {
+        "metadata_code": "Nhận biết hệ số của đơn thức",
+        "reason": "Đo lường kỹ năng nhận biết hệ số của đơn thức."
+      },
+      {
+        "metadata_code": "Nhận biết phần biến của đơn thức",
+        "reason": "Đo lường kỹ năng nhận biết phần biến của đơn thức."
+      },
+      {
+        "metadata_code": "Xác định bậc của đơn thức",
+        "reason": "Đo lường kỹ năng xác định bậc của đơn thức."
+      },
+      {
+        "metadata_code": "Thực hiện thu gọn đơn thức",
+        "reason": "Đo lường kỹ năng thực hiện thu gọn đơn thức."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đo lường thái độ vươn lên, kiên trì và tinh thần trách nhiệm trong học tập."
+      },
+      {
+        "metadata_code": "SUB_TCTH_TULUC_C2_01",
+        "reason": "Đo lường khả năng tự học, chủ động lập kế hoạch và quản lý việc học tập."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_01",
+        "reason": "Đo lường thao tác tư duy phân tích, so sánh cấu trúc biểu thức đại số."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_04_12",
+        "reason": "Đo lường khả năng sử dụng ngôn ngữ toán học kết hợp ngôn ngữ tự nhiên."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Môn Toán 8 - Bài 1 (Đơn thức) thuộc phần đại số lý thuyết/tính toán cơ bản trên lớp, nội dung SGK không chứa hoạt động hoặc yêu cầu ứng dụng công nghệ/phần mềm tin học một cách tự nhiên."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học thuần túy về khái niệm đại số cơ bản, không trực tiếp đề cập đến nguyên lý, thuật toán hay việc tương tác với hệ thống Trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_001",
+      "questiontext": "Trong các biểu thức đại số sau, biểu thức nào là đơn thức?",
+      "generalfeedback": "Đơn thức là biểu thức đại số chỉ gồm một số hoặc một biến, hoặc có dạng tích của những số và biến. Do đó \\(3x^2y\\) là đơn thức.",
+      "answers": [
+        {
+          "text": "\\(3x^2y\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x + 2y\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{3}{x} + y^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(5x\\sqrt{y}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ số của đơn thức",
+      "questiontext": "Trong một đơn thức thu gọn, phần số được gọi là hệ số của đơn thức đó.",
+      "generalfeedback": "Theo định nghĩa trong SGK, trong một đơn thức thu gọn, phần số được gọi là hệ số.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Phần biến của đơn thức",
+      "questiontext": "Đơn thức thu gọn \\(-6x^3y\\) có hệ số là [[1]] và phần biến là [[2]].",
+      "generalfeedback": "Đơn thức \\(-6x^3y\\) có phần số là -6 (hệ số) và phần các biến là \\(x^3y\\) (phần biến).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "-6"
+        },
+        {
+          "group": 1,
+          "text": "\\(x^3y\\)"
+        },
+        {
+          "group": 1,
+          "text": "6"
+        },
+        {
+          "group": 1,
+          "text": "\\(x^3\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Bậc của đơn thức",
+      "questiontext": "Bậc của một đơn thức thu gọn có hệ số khác 0 được xác định như thế nào?",
+      "generalfeedback": "Tổng số mũ của các biến trong một đơn thức thu gọn với hệ số khác 0 gọi là bậc của đơn thức đó.",
+      "answers": [
+        {
+          "text": "Là tổng số mũ của các biến trong đơn thức đó",
+          "fraction": 100
+        },
+        {
+          "text": "Là số mũ lớn nhất trong các biến",
+          "fraction": 0
+        },
+        {
+          "text": "Là tích số mũ của các biến",
+          "fraction": 0
+        },
+        {
+          "text": "Là số lượng biến xuất hiện trong đơn thức",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Khái niệm đơn thức thu gọn",
+      "questiontext": "Đơn thức thu gọn là đơn thức chỉ gồm [[1]], hoặc có dạng tích của một số với những biến, mỗi biến chỉ xuất hiện [[2]] và đã được nâng lên lũy thừa với số mũ nguyên dương.",
+      "generalfeedback": "Theo định nghĩa, đơn thức thu gọn là đơn thức chỉ gồm một số, hoặc có dạng tích của một số với những biến, mỗi biến chỉ xuất hiện một lần.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "một số"
+        },
+        {
+          "group": 1,
+          "text": "một lần"
+        },
+        {
+          "group": 1,
+          "text": "một biến"
+        },
+        {
+          "group": 1,
+          "text": "hai lần"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết hệ số của đơn thức",
+      "questiontext": "Xác định hệ số của đơn thức \\(-0,25x^2y^3z\\).",
+      "generalfeedback": "Phần số của đơn thức \\(-0,25x^2y^3z\\) là -0,25 nên hệ số của đơn thức là -0,25.",
+      "answers": [
+        {
+          "text": "-0,25",
+          "fraction": 100
+        },
+        {
+          "text": "-0.25",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết phần biến của đơn thức",
+      "questiontext": "Hãy ghép mỗi đơn thức thu gọn ở cột bên trái với phần biến tương ứng ở cột bên phải.",
+      "generalfeedback": "Phần biến của đơn thức thu gọn là tích của các biến kèm số mũ tương ứng.",
+      "subquestions": [
+        {
+          "question": "Đơn thức \\(5x^2y^3\\)",
+          "answer": "\\(x^2y^3\\)"
+        },
+        {
+          "question": "Đơn thức \\(-3xy^4\\)",
+          "answer": "\\(xy^4\\)"
+        },
+        {
+          "question": "Đơn thức \\(0,5x^3z\\)",
+          "answer": "\\(x^3z\\)"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Xác định bậc của đơn thức",
+      "questiontext": "Tính bậc của đơn thức thu gọn \\(A = 0,5xy^2 \\cdot 4x^2z^3\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Thu gọn đơn thức: \\(A = (0,5 \\cdot 4) \\cdot (x \\cdot x^2) \\cdot y^2 \\cdot z^3 = 2x^3y^2z^3\\). Bậc của đơn thức là tổng số mũ của các biến: 3 + 2 + 3 = 8.",
+      "answers": [
+        {
+          "text": "8",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện thu gọn đơn thức",
+      "questiontext": "Thu gọn đơn thức \\(P = 4x(-2)x^2y\\) ta được kết quả là:",
+      "generalfeedback": "\\(P = [4 \\cdot (-2)] \\cdot (x \\cdot x^2) \\cdot y = -8x^3y\\).",
+      "answers": [
+        {
+          "text": "\\(-8x^3y\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(8x^3y\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-8x^2y\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-2x^3y\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện thu gọn đơn thức",
+      "questiontext": "Cho đơn thức chưa thu gọn dạng \\(A = 2x^2y \\cdot\\) {a} \\(xy^2\\). Hãy tính hệ số của đơn thức thu gọn thu được khi {a} nhận giá trị nguyên dương.",
+      "generalfeedback": "Thu gọn đơn thức \\(A = (2 \\cdot a) \\cdot (x^2 \\cdot x) \\cdot (y \\cdot y^2) = 2a x^3y^3\\). Do đó hệ số của đơn thức thu gọn là \\(2 \\cdot a\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "2*{a}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_001",
+      "questiontext": "Trong các biểu thức đại số sau, biểu thức nào KHÔNG phải là đơn thức?",
+      "generalfeedback": "Biểu thức \\((1 + x)y^2 = y^2 + xy^2\\) có chứa phép cộng nên không phải là đơn thức.",
+      "answers": [
+        {
+          "text": "\\((1 + x)y^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(2x^2y^3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "-5",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{1}{2}xyz^2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Hệ số của đơn thức",
+      "questiontext": "Hệ số của đơn thức \\(A = (2 - \\sqrt{5})x\\) là bao nhiêu?",
+      "generalfeedback": "Trong đơn thức \\(A = (2 - \\sqrt{5})x\\), phần số là \\(2 - \\sqrt{5}\\) chính là hệ số của đơn thức.",
+      "answers": [
+        {
+          "text": "\\(2 - \\sqrt{5}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "2",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-\\sqrt{5}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "1",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Phần biến của đơn thức",
+      "questiontext": "Đơn thức \\(B = 12,75xyz\\) có phần biến là \\(xyz\\).",
+      "generalfeedback": "Đơn thức \\(12,75xyz\\) có phần số là 12,75 và phần biến chứa các biến là \\(xyz\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Bậc của đơn thức",
+      "questiontext": "Bậc của đơn thức thu gọn \\(C = (1 + 2 \\cdot 4,5)x^2y \\cdot \\frac{1}{5}y^3\\) là bao nhiêu? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Thu gọn đơn thức: \\(C = 10x^2y \\cdot \\frac{1}{5}y^3 = 2x^2y^4\\). Tổng số mũ của các biến là 2 + 4 = 6.",
+      "answers": [
+        {
+          "text": "6",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm đơn thức thu gọn",
+      "questiontext": "Đơn thức chưa thu gọn là đơn thức mà trong đó có biến xuất hiện [[1]] hoặc phần số chưa được [[2]].",
+      "generalfeedback": "Trong đơn thức chưa thu gọn, một biến có thể xuất hiện nhiều hơn một lần hoặc phần số chưa thực hiện phép nhân thu gọn.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "nhiều hơn một lần"
+        },
+        {
+          "group": 1,
+          "text": "nhân thu gọn"
+        },
+        {
+          "group": 1,
+          "text": "một lần"
+        },
+        {
+          "group": 1,
+          "text": "chia hết"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết hệ số của đơn thức",
+      "questiontext": "Cho đơn thức thu gọn \\(M = -xy^2z^3\\). Hãy ghi giá trị hệ số của đơn thức M.",
+      "generalfeedback": "Đơn thức \\(-xy^2z^3\\) có hệ số là -1.",
+      "answers": [
+        {
+          "text": "-1",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết phần biến của đơn thức",
+      "questiontext": "Hãy ghép mỗi đơn thức ở cột bên trái với phần biến tương ứng ở cột bên phải.",
+      "generalfeedback": "Phần biến của đơn thức là phần chứa các biến cùng số mũ tương ứng.",
+      "subquestions": [
+        {
+          "question": "Đơn thức \\(-x\\)",
+          "answer": "\\(x\\)"
+        },
+        {
+          "question": "Đơn thức \\((3 + \\sqrt{3})xy\\)",
+          "answer": "\\(xy\\)"
+        },
+        {
+          "question": "Đơn thức \\(-\\frac{5}{9}xyz\\)",
+          "answer": "\\(xyz\\)"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Xác định bậc của đơn thức",
+      "questiontext": "Cho đơn thức thu gọn \\(N = 3,5 x^{a} y^2 z\\) với {a} là số nguyên dương. Tính bậc của đơn thức N.",
+      "generalfeedback": "Bậc của đơn thức N là tổng số mũ của các biến x, y, z: a + 2 + 1 = a + 3.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 5.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}+3",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện thu gọn đơn thức",
+      "questiontext": "Khi thu gọn đơn thức \\(A = (-2)x^2y \\cdot \\frac{1}{2}xy\\), ta thu được đơn thức thu gọn có hệ số là [[1]] và phần biến là [[2]].",
+      "generalfeedback": "\\(A = (-2 \\cdot \\frac{1}{2})(x^2 \\cdot x)(y \\cdot y) = -1x^3y^2\\). Do đó hệ số là -1 và phần biến là \\(x^3y^2\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "-1"
+        },
+        {
+          "group": 1,
+          "text": "\\(x^3y^2\\)"
+        },
+        {
+          "group": 1,
+          "text": "1"
+        },
+        {
+          "group": 1,
+          "text": "\\(x^2y\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện thu gọn đơn thức",
+      "questiontext": "Một mảnh đất gồm hai hình chữ nhật ghép lại như hình vẽ [img:_page_5_Figure_12.jpeg]. Hãy chọn đơn thức thu gọn biểu thị tổng diện tích của mảnh đất.",
+      "imgs": [
+        "_page_5_Figure_12.jpeg"
+      ],
+      "generalfeedback": "Diện tích hình chữ nhật ABCD là \\(2x \\cdot 2y = 4xy\\). Diện tích hình chữ nhật EFGC là \\(3x \\cdot y = 3xy\\). Tổng diện tích hai hình chữ nhật là \\(4xy + 3xy = 7xy\\).",
+      "answers": [
+        {
+          "text": "\\(7xy\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(4xy\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(3xy\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(12xy\\)",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

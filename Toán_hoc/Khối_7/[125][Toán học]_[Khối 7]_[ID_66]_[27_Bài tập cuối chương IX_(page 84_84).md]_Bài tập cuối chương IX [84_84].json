@@ -1,0 +1,754 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 27,
+    "metadata_used": {
+      "YCCD_TOAN7_087": 4,
+      "YCCD_TOAN7_096": 2,
+      "YCCD_TOAN7_103": 1,
+      "Hệ thống kiến thức Chương IX: Quan hệ góc-cạnh": 2,
+      "đường xiên": 2,
+      "bất đẳng thức tam giác": 2,
+      "các đường đồng quy": 2,
+      "Tổng hợp kĩ năng chứng minh hình học Chương IX": 2,
+      "YCCD_TOAN7_105": 1,
+      "YCCD_TOAN7_104": 1,
+      "YCCD_TOAN7_106": 1,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_TUCHUTUHOC": 1,
+      "NLC_GIAIQUYETVD": 1,
+      "NLT_TOAN_C2_01": 2,
+      "NLT_TOAN_C2_03": 1
+    },
+    "types_used": {
+      "multichoice": 13,
+      "truefalse": 4,
+      "gapselect": 2,
+      "shortanswer": 2,
+      "matching": 3,
+      "numerical": 2,
+      "calculated": 1
+    },
+    "total": 27
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_087",
+        "reason": "Nhận biết được liên hệ về độ dài của ba cạnh trong một tam giác."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_096",
+        "reason": "Giải thích được quan hệ giữa đường vuông góc và đường xiên dựa trên mối quan hệ giữa cạnh và góc đối trong tam giác."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_103",
+        "reason": "Nhận biết được sự đồng quy của ba đường trung tuyến trong tam giác."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_104",
+        "reason": "Nhận biết được sự đồng quy của ba đường cao trong tam giác."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_105",
+        "reason": "Nhận biết được sự đồng quy của ba đường phân giác trong tam giác."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_106",
+        "reason": "Nhận biết được sự đồng quy của ba đường trung trực trong tam giác."
+      },
+      {
+        "metadata_code": "Hệ thống kiến thức Chương IX: Quan hệ góc-cạnh",
+        "reason": "Hệ thống kiến thức Chương IX: Quan hệ góc-cạnh"
+      },
+      {
+        "metadata_code": "đường xiên",
+        "reason": "đường xiên"
+      },
+      {
+        "metadata_code": "bất đẳng thức tam giác",
+        "reason": "bất đẳng thức tam giác"
+      },
+      {
+        "metadata_code": "các đường đồng quy",
+        "reason": "các đường đồng quy"
+      },
+      {
+        "metadata_code": "Tổng hợp kĩ năng chứng minh hình học Chương IX",
+        "reason": "Tổng hợp kĩ năng chứng minh hình học Chương IX"
+      },
+      {
+        "metadata_code": "PC_CHAMCHI",
+        "reason": "Phẩm chất chăm chỉ"
+      },
+      {
+        "metadata_code": "PC_TRUNGTHUC",
+        "reason": "Phẩm chất trung thực"
+      },
+      {
+        "metadata_code": "NLC_TUCHUTUHOC",
+        "reason": "Năng lực tự chủ và tự học"
+      },
+      {
+        "metadata_code": "NLC_GIAIQUYETVD",
+        "reason": "Năng lực giải quyết vấn đề và sáng tạo"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01",
+        "reason": "Năng lực tư duy và lập luận toán học"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03",
+        "reason": "Năng lực giải quyết vấn đề toán học"
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_087",
+      "questiontext": "Cho tam giác \\(ABC\\). Theo bất đẳng thức tam giác, khẳng định nào sau đây là **đúng** về mối quan hệ giữa độ dài ba cạnh?",
+      "generalfeedback": "Trong một tam giác, độ dài một cạnh bao giờ cũng lớn hơn hiệu và nhỏ hơn tổng độ dài của hai cạnh còn lại. Do đó \\(BC < AB + AC\\).",
+      "answers": [
+        {
+          "text": "\\(BC < AB + AC\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(BC > AB + AC\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(BC = AB + AC\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(BC \\ge AB + AC\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_096",
+      "questiontext": "Cho tam giác \\(ABC\\) có đường cao \\(AI\\) kẻ từ \\(A\\) đến đường thẳng \\(BC\\) (với \\(I \\in BC\\), \\(I \\ne B\\)). Dựa trên mối quan hệ giữa cạnh và góc đối diện trong tam giác vuông \\(ABI\\), vì sao đường vuông góc \\(AI\\) luôn ngắn hơn đường xiên \\(AB\\)?",
+      "generalfeedback": "Trong tam giác vuông \\(ABI\\) vuông tại \\(I\\), góc vuông \\(\\widehat{AIB} = 90^\\circ\\) là góc lớn nhất nên cạnh huyền \\(AB\\) (đối diện góc vuông) là cạnh lớn nhất. Cạnh góc vuông \\(AI\\) đối diện góc nhọn nên \\(AI < AB\\). Do đó đường vuông góc luôn ngắn hơn đường xiên.",
+      "answers": [
+        {
+          "text": "Vì trong tam giác vuông \\(ABI\\), góc vuông \\(\\widehat{AIB} = 90^\\circ\\) là góc lớn nhất nên cạnh huyền \\(AB\\) đối diện góc vuông là cạnh lớn nhất, do đó \\(AI < AB\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Vì đường cao kẻ từ đỉnh luôn chia cạnh đối diện thành hai đoạn bằng nhau nên \\(AI < AB\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Vì theo bất đẳng thức tam giác, hiệu hai cạnh bất kỳ luôn lớn hơn cạnh còn lại nên \\(AI < AB\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Vì đường vuông góc \\(AI\\) đồng thời là đường trung tuyến của tam giác \\(ABC\\) nên \\(AI < AB\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_103",
+      "imgs": [
+        "_page_0_Picture_15.jpeg"
+      ],
+      "questiontext": "[img:_page_0_Picture_15.jpeg]\nCho tam giác \\(ABE\\) có \\(C\\) là trung điểm của \\(AE\\), do đó \\(BC\\) là đường trung tuyến. Điểm \\(D\\) nằm trên \\(BC\\) sao cho \\(BD = 2DC\\). Khẳng định nào sau đây đúng về vị trí của điểm \\(D\\)?",
+      "generalfeedback": "Điểm nằm trên đường trung tuyến \\(BC\\) và cách đỉnh \\(B\\) một khoảng bằng \\(\\frac{2}{3}\\) độ dài đường trung tuyến (vì \\(BD = 2DC \\Rightarrow BD = \\frac{2}{3}BC\\)) chính là trọng tâm của tam giác \\(ABE\\).",
+      "answers": [
+        {
+          "text": "\\(D\\) là trọng tâm của tam giác \\(ABE\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(D\\) là trực tâm của tam giác \\(ABE\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(D\\) là tâm đường tròn nội tiếp tam giác \\(ABE\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(D\\) là trung điểm của \\(BC\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống kiến thức Chương IX: Quan hệ góc-cạnh",
+      "imgs": [
+        "_page_0_Picture_4.jpeg"
+      ],
+      "questiontext": "[img:_page_0_Picture_4.jpeg]\nQuan sát tam giác \\(ABC\\) có \\(AB > AC\\) (Hình 9.52). Khẳng định: \"Góc đối diện với cạnh \\(AB\\) là \\(\\widehat{ACB}\\) lớn hơn góc đối diện với cạnh \\(AC\\) là \\(\\widehat{ABC}\\)\" là Đúng hay Sai?",
+      "generalfeedback": "Trong một tam giác, góc đối diện với cạnh lớn hơn là góc lớn hơn. Vì \\(AB > AC\\) nên \\(\\widehat{ACB} > \\widehat{ABC}\\). Khẳng định đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "đường xiên",
+      "questiontext": "Từ điểm \\(A\\) không thuộc đường thẳng \\(d\\), kẻ đoạn thẳng \\(AH\\) vuông góc với \\(d\\) tại \\(H\\) và lấy điểm \\(M\\) thuộc \\(d\\) (\\(M \\ne H\\)). Khi đó đoạn thẳng \\(AH\\) được gọi là [[1]] và đoạn thẳng \\(AM\\) được gọi là [[2]] kẻ từ điểm \\(A\\) đến đường thẳng \\(d\\).",
+      "generalfeedback": "\\(AH\\) là đoạn vuông góc (đường vuông góc) kẻ từ \\(A\\) đến \\(d\\), còn \\(AM\\) là đường xiên kẻ từ \\(A\\) đến \\(d\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "đường vuông góc"
+        },
+        {
+          "group": 1,
+          "text": "đường xiên"
+        },
+        {
+          "group": 1,
+          "text": "đường trung tuyến"
+        },
+        {
+          "group": 1,
+          "text": "đường phân giác"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "bất đẳng thức tam giác",
+      "questiontext": "Một tam giác cân có độ dài hai cạnh là 30 cm và 60 cm. Độ dài cạnh còn lại của tam giác đó là bao nhiêu centimet? (Chỉ ghi số)",
+      "generalfeedback": "Theo bất đẳng thức tam giác, nếu cạnh bên bằng 30 cm thì 30 + 30 = 60 (không lớn hơn 60), không tạo thành tam giác. Do đó cạnh bên phải bằng 60 cm.",
+      "answers": [
+        {
+          "text": "60",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "các đường đồng quy",
+      "questiontext": "Hãy ghép mỗi tên đường đồng quy trong tam giác với giao điểm tương ứng của chúng:",
+      "generalfeedback": "Trong một tam giác: Ba đường trung tuyến giao nhau tại trọng tâm; Ba đường cao giao nhau tại trực tâm; Ba đường phân giác giao nhau tại điểm cách đều ba cạnh; Ba đường trung trực giao nhau tại điểm cách đều ba đỉnh.",
+      "subquestions": [
+        {
+          "question": "Ba đường trung tuyến",
+          "answer": "Giao nhau tại trọng tâm"
+        },
+        {
+          "question": "Ba đường cao",
+          "answer": "Giao nhau tại trực tâm"
+        },
+        {
+          "question": "Ba đường phân giác",
+          "answer": "Giao nhau tại điểm cách đều ba cạnh"
+        },
+        {
+          "question": "Ba đường trung trực",
+          "answer": "Giao nhau tại điểm cách đều ba đỉnh"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Tổng hợp kĩ năng chứng minh hình học Chương IX",
+      "imgs": [
+        "_page_0_Picture_15.jpeg"
+      ],
+      "questiontext": "[img:_page_0_Picture_15.jpeg]\nCho tam giác \\(ABC\\) có đường phân giác \\(AD\\), \\(D\\) nằm trên \\(BC\\) sao cho \\(BD = 2DC\\). Trên đường thẳng \\(AC\\), lấy điểm \\(E\\) sao cho \\(C\\) là trung điểm của \\(AE\\) (Hình 9.53). Để chứng minh tam giác \\(ABE\\) cân tại \\(A\\), bước lập luận then chốt nào sau đây là đúng?",
+      "generalfeedback": "Vì \\(C\\) là trung điểm của \\(AE\\) nên \\(BC\\) là đường trung tuyến của tam giác \\(ABE\\). Lại có \\(BD = 2DC \\Rightarrow BD = \\frac{2}{3}BC\\), do đó \\(D\\) là trọng tâm của tam giác \\(ABE\\). Đường thẳng \\(AD\\) đi qua trọng tâm \\(D\\) nên \\(AD\\) là đường trung tuyến của tam giác \\(ABE\\). Do đó tam giác \\(ABE\\) có \\(AD\\) vừa là đường phân giác, vừa là đường trung tuyến nên tam giác \\(ABE\\) cân tại \\(A\\).",
+      "answers": [
+        {
+          "text": "Chứng minh \\(D\\) là trọng tâm của tam giác \\(ABE\\), từ đó suy ra đoạn thẳng \\(AD\\) vừa là đường phân giác, vừa là đường trung tuyến của tam giác \\(ABE\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Chứng minh \\(D\\) là trực tâm của tam giác \\(ABE\\), từ đó suy ra \\(AD \\perp BE\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Chứng minh \\(BC\\) là đường trung trực của đoạn thẳng \\(AE\\), từ đó suy ra \\(AB = BE\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Chứng minh tam giác \\(ABD\\) bằng tam giác \\(ACD\\) theo trường hợp cạnh - góc - cạnh.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_105",
+      "questiontext": "Ba đường phân giác của một tam giác cùng đi qua một điểm. Điểm này cách đều ba đỉnh của tam giác đó. Khẳng định này Đúng hay Sai?",
+      "generalfeedback": "Ba đường phân giác của một tam giác đồng quy tại một điểm, điểm này cách đều ba CẠNH của tam giác (chứ không phải ba đỉnh). Do đó khẳng định là Sai.",
+      "answers": [
+        {
+          "text": "Sai",
+          "fraction": 100
+        },
+        {
+          "text": "Đúng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_087",
+      "imgs": [
+        "_page_0_Picture_16.jpeg"
+      ],
+      "questiontext": "[img:_page_0_Picture_16.jpeg]\nMột sợi dây thép dài 120 cm được uốn gập lại thành một tam giác cân có một cạnh dài 30 cm (Hình 9.54). Dựa vào bất đẳng thức tam giác, ta xác định được cạnh 30 cm bắt buộc phải là cạnh đáy. Độ dài mỗi cạnh bên của tam giác cân đó bằng bao nhiêu centimet? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Nếu cạnh dài 30 cm là cạnh bên thì hai cạnh bên dài 30 cm, cạnh đáy dài \\(120 - 30 \\times 2 = 60\\text{ cm}\\). Khi đó \\(30 + 30 = 60\\text{ cm}\\), vi phạm bất đẳng thức tam giác nên không tạo thành tam giác. Do đó cạnh 30 cm phải là cạnh đáy. Độ dài mỗi cạnh bên là: \\((120 - 30) : 2 = 45\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "45",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_104",
+      "questiontext": "Ba đường cao của một tam giác cùng đi qua một điểm. Điểm này được gọi là gì của tam giác?",
+      "generalfeedback": "Giao điểm của ba đường cao trong một tam giác được gọi là trực tâm của tam giác đó.",
+      "answers": [
+        {
+          "text": "Trực tâm",
+          "fraction": 100
+        },
+        {
+          "text": "Trọng tâm",
+          "fraction": 0
+        },
+        {
+          "text": "Tâm đường tròn ngoại tiếp",
+          "fraction": 0
+        },
+        {
+          "text": "Tâm đường tròn nội tiếp",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_106",
+      "questiontext": "Giao điểm của ba đường trung trực trong một tam giác có tính chất đặc biệt nào sau đây?",
+      "generalfeedback": "Ba đường trung trực của một tam giác đồng quy tại một điểm, điểm này cách đều ba đỉnh của tam giác.",
+      "answers": [
+        {
+          "text": "Cách đều ba đỉnh của tam giác",
+          "fraction": 100
+        },
+        {
+          "text": "Cách đều ba cạnh của tam giác",
+          "fraction": 0
+        },
+        {
+          "text": "Cách mỗi đỉnh một khoảng bằng \\(\\frac{2}{3}\\) độ dài đường trung tuyến",
+          "fraction": 0
+        },
+        {
+          "text": "Là trung điểm của cạnh lớn nhất",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_096",
+      "imgs": [
+        "_page_0_Picture_2.jpeg"
+      ],
+      "questiontext": "[img:_page_0_Picture_2.jpeg]\nCho tam giác \\(ABC\\) có góc \\(\\widehat{BAC}\\) là một góc tù. Lấy điểm \\(D\\) nằm giữa \\(A\\) và \\(B\\), lấy điểm \\(E\\) nằm giữa \\(A\\) và \\(C\\) (Hình 9.51). Khẳng định: \"\\(DE < BC\\)\" là Đúng hay Sai?",
+      "generalfeedback": "Nối \\(D\\) với \\(C\\). Trong tam giác \\(ADE\\) có góc \\(\\widehat{A}\\) tù nên \\(DE < DC\\) (cạnh đối diện góc tù là cạnh lớn nhất). Trong tam giác \\(ADC\\), góc ngoài \\(\\widehat{BDC} > \\widehat{A} > 90^\\circ\\) nên góc \\(\\widehat{BDC}\\) là góc tù, do đó trong tam giác \\(BDC\\) ta có \\(DC < BC\\). Suy ra \\(DE < DC < BC\\), tức là \\(DE < BC\\). Do đó khẳng định là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Hệ thống kiến thức Chương IX: Quan hệ góc-cạnh",
+      "imgs": [
+        "_page_0_Picture_4.jpeg"
+      ],
+      "questiontext": "[img:_page_0_Picture_4.jpeg]\nCho tam giác \\(ABC\\) có \\(AB > AC\\). Trên đường thẳng \\(BC\\), lấy điểm \\(D\\) và \\(E\\) sao cho \\(B\\) nằm giữa \\(D\\) và \\(C\\), \\(C\\) nằm giữa \\(B\\) và \\(E\\), \\(BD = BA\\), \\(CE = CA\\) (Hình 9.52). So sánh hai góc \\(\\widehat{ADE}\\) và \\(\\widehat{AED}\\).",
+      "generalfeedback": "Vì \\(BD = BA\\) nên tam giác \\(ABD\\) cân tại \\(B\\) \\(\\Rightarrow \\widehat{ADE} = \\frac{1}{2}\\widehat{ABC}\\). Vì \\(CE = CA\\) nên tam giác \\(ACE\\) cân tại \\(C\\) \\(\\Rightarrow \\widehat{AED} = \\frac{1}{2}\\widehat{ACB}\\). Do \\(AB > AC\\) nên \\(\\widehat{ACB} > \\widehat{ABC}\\), suy ra \\(\\widehat{AED} > \\widehat{ADE}\\) hay \\(\\widehat{ADE} < \\widehat{AED}\\).",
+      "answers": [
+        {
+          "text": "\\(\\widehat{ADE} < \\widehat{AED}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\widehat{ADE} > \\widehat{AED}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\widehat{ADE} = \\widehat{AED}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\widehat{ADE} = 2\\widehat{AED}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "bất đẳng thức tam giác",
+      "questiontext": "Trong một tam giác, tổng độ dài hai cạnh bất kỳ bao giờ cũng [[1]] độ dài cạnh còn lại, và hiệu độ dài hai cạnh bất kỳ bao giờ cũng [[2]] độ dài cạnh còn lại.",
+      "generalfeedback": "Theo bất đẳng thức tam giác: Tổng độ dài hai cạnh bất kỳ lớn hơn độ dài cạnh còn lại, và hiệu độ dài hai cạnh bất kỳ nhỏ hơn độ dài cạnh còn lại.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "lớn hơn"
+        },
+        {
+          "group": 1,
+          "text": "nhỏ hơn"
+        },
+        {
+          "group": 1,
+          "text": "bằng"
+        },
+        {
+          "group": 1,
+          "text": "gấp đôi"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "đường xiên",
+      "questiontext": "Cho điểm \\(A\\) nằm ngoài đường thẳng \\(d\\). Trong số các đường vuông góc và đường xiên kẻ từ \\(A\\) đến đường thẳng \\(d\\), đường nào có độ dài ngắn nhất? (Trả lời ngắn)",
+      "generalfeedback": "Trong các đường xiên và đường vuông góc kẻ từ một điểm nằm ngoài đường thẳng đến đường thẳng đó, đường vuông góc là đường ngắn nhất.",
+      "answers": [
+        {
+          "text": "đường vuông góc",
+          "fraction": 100
+        },
+        {
+          "text": "Đường vuông góc",
+          "fraction": 100
+        },
+        {
+          "text": "đoạn vuông góc",
+          "fraction": 100
+        },
+        {
+          "text": "Đoạn vuông góc",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "các đường đồng quy",
+      "questiontext": "Hãy ghép tính chất đồng quy tương ứng của các đường trong tam giác:",
+      "generalfeedback": "Ba đường phân giác giao nhau tại điểm cách đều ba cạnh; Ba đường trung trực giao nhau tại điểm cách đều ba đỉnh; Ba đường trung tuyến giao nhau tại điểm cách mỗi đỉnh 2/3 độ dài đường trung tuyến đi qua đỉnh đó; Ba đường cao giao nhau tại trực tâm.",
+      "subquestions": [
+        {
+          "question": "Giao điểm của ba đường phân giác",
+          "answer": "Cách đều ba cạnh của tam giác"
+        },
+        {
+          "question": "Giao điểm của ba đường trung trực",
+          "answer": "Cách đều ba đỉnh của tam giác"
+        },
+        {
+          "question": "Giao điểm của ba đường trung tuyến",
+          "answer": "Cách mỗi đỉnh một khoảng bằng 2/3 độ dài đường trung tuyến"
+        },
+        {
+          "question": "Giao điểm của ba đường cao",
+          "answer": "Được gọi là trực tâm của tam giác"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_087",
+      "questiontext": "Cho tam giác \\(ABC\\) có độ dài hai cạnh là \\(AB = 7\\) cm và \\(AC = 2\\) cm. Biết độ dài cạnh \\(BC\\) là một số nguyên (tính theo cm). Độ dài lớn nhất có thể của cạnh \\(BC\\) là bao nhiêu centimet? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Theo bất đẳng thức tam giác: \\(AB - AC < BC < AB + AC \\Rightarrow 7 - 2 < BC < 7 + 2 \\Rightarrow 5 < BC < 9\\). Vì \\(BC\\) là số nguyên nên \\(BC \\in \\{6; 7; 8\\}\\). Do đó, độ dài lớn nhất có thể của cạnh \\(BC\\) là 8 cm.",
+      "answers": [
+        {
+          "text": "8",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Tổng hợp kĩ năng chứng minh hình học Chương IX",
+      "imgs": [
+        "_page_0_Picture_4.jpeg"
+      ],
+      "questiontext": "[img:_page_0_Picture_4.jpeg]\nCho tam giác \\(ABC\\) (\\(AB > AC\\)). Lấy các điểm \\(D, E\\) trên đường thẳng \\(BC\\) sao cho \\(BD = BA\\) và \\(CE = CA\\) (Hình 9.52). So sánh độ dài hai đoạn thẳng \\(AD\\) và \\(AE\\).",
+      "generalfeedback": "Ta có \\(\\widehat{ADE} < \\widehat{AED}\\). Trong tam giác \\(ADE\\), góc đối diện với cạnh \\(AE\\) là \\(\\widehat{ADE}\\,\\) và góc đối diện với cạnh \\(AD\\) là \\(\\widehat{AED}\\). Vì \\(\\widehat{ADE} < \\widehat{AED}\\) nên \\(AE < AD\\) hay \\(AD > AE\\).",
+      "answers": [
+        {
+          "text": "\\(AD > AE\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(AD < AE\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(AD = AE\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(AD = 2AE\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_087",
+      "questiontext": "Cho tam giác có độ dài hai cạnh là {a} cm và {b} cm (với {a} > {b}). Biết độ dài cạnh thứ ba là một số nguyên (tính theo cm). Hãy tính chu vi lớn nhất có thể của tam giác này theo đơn vị centimet. (Chỉ điền kết quả dạng số, không ghi đơn vị)",
+      "generalfeedback": "Gọi độ dài cạnh thứ ba là \\(c\\) (cm, \\(c\\) nguyên). Theo bất đẳng thức tam giác, ta có \\(c < {a} + {b}\\). Do \\(c\\) là số nguyên nên giá trị lớn nhất của \\(c\\) là \\({a} + {b} - 1\\). Khi đó, chu vi lớn nhất của tam giác là: \\({a} + {b} + ({a} + {b} - 1) = 2*({a} + {b}) - 1\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 5.0,
+          "max": 15.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 2.0,
+          "max": 4.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "2*({a}+{b})-1",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_CHAMCHI",
+      "imgs": [
+        "_page_0_Picture_16.jpeg"
+      ],
+      "questiontext": "[img:_page_0_Picture_16.jpeg]\nBạn Nam thực hành uốn sợi dây thép dài 1,2 m (120 cm) thành một tam giác cân có một cạnh dài 30 cm (Hình 9.54). Sau khi tính được một trường hợp cạnh đáy bằng 30 cm và hai cạnh bên mỗi cạnh dài 45 cm, Nam thấy bài tập đã có một kết quả. Thể hiện đức tính chăm chỉ và tinh thần kiên trì, chu đáo trong học tập, bạn Nam nên thực hiện hành động nào sau đây?",
+      "generalfeedback": "Hành động kiên trì tìm tòi, chủ động xem xét thấu đáo mọi khả năng của bài toán (xét cả trường hợp cạnh 30 cm là cạnh đáy và trường hợp cạnh 30 cm là cạnh bên) thể hiện rõ phẩm chất chăm chỉ, tự giác và tinh thần trách nhiệm trong học tập môn Toán.",
+      "answers": [
+        {
+          "text": "Kiên trì tìm tòi, xem xét tiếp trường hợp cạnh dài 30 cm là cạnh bên và vận dụng bất đẳng thức tam giác để kiểm tra tính khả thi của trường hợp này.",
+          "fraction": 100
+        },
+        {
+          "text": "Dừng lại ngay vì đề bài chỉ yêu cầu tạo thành một tam giác cân và bạn đã tìm được một đáp số.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép thêm lời giải của bạn khác vào vở mà không cần tìm hiểu xem bài toán còn trường hợp nào nữa không.",
+          "fraction": 0
+        },
+        {
+          "text": "Tự ý cắt bớt chiều dài sợi dây thép để không phải kiểm tra thêm các trường hợp khác.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Trong giờ thực hành hình học, một nhóm học sinh dùng ba que gỗ có độ dài 4 cm, 5 cm và 10 cm để ghép thành một khung hình tam giác. Sau nhiều lần thử, các bạn nhận thấy không thể ghép được vì 4 + 5 < 10 (vi phạm bất đẳng thức tam giác). Bạn nhóm trưởng quyết định ghi trung thực vào phiếu báo cáo là \"không thể ghép thành tam giác do tổng hai cạnh nhỏ hơn cạnh thứ ba\", thay vì bẻ cong que gỗ hay sửa số liệu để báo cáo là ghép thành công. Hành vi của bạn nhóm trưởng thể hiện phẩm chất trung thực trong học tập và nghiên cứu khoa học. Khẳng định này Đúng hay Sai?",
+      "generalfeedback": "Khẳng định này là Đúng. Phẩm chất trung thực được thể hiện qua việc tôn trọng sự thật khách quan, ghi nhận đúng kết quả thực nghiệm và sử dụng kiến thức khoa học (bất đẳng thức tam giác) để giải thích, không gian lận hay làm sai lệch dữ liệu để lấy thành tích.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Để tự chủ trong học tập và hệ thống hóa kiến thức Chương IX phục vụ ôn tập, bạn Minh muốn hoàn thiện bảng tổng kết về các đường đồng quy trong tam giác. Em hãy giúp Minh ghép tên mỗi đường đồng quy với tính chất giao điểm tương ứng của chúng:",
+      "generalfeedback": "Việc chủ động lập bảng tóm tắt, so sánh và liên kết các tính chất của bốn loại đường đồng quy trong tam giác giúp học sinh phát triển năng lực tự chủ và tự học, dễ dàng ôn tập và khắc sâu kiến thức trọng tâm của chương.",
+      "subquestions": [
+        {
+          "question": "Giao điểm của ba đường trung tuyến",
+          "answer": "Trọng tâm (cách mỗi đỉnh một khoảng bằng 2/3 độ dài đường trung tuyến đi qua đỉnh đó)"
+        },
+        {
+          "question": "Giao điểm của ba đường cao",
+          "answer": "Trực tâm của tam giác"
+        },
+        {
+          "question": "Giao điểm của ba đường phân giác",
+          "answer": "Điểm cách đều ba cạnh của tam giác"
+        },
+        {
+          "question": "Giao điểm của ba đường trung trực",
+          "answer": "Điểm cách đều ba đỉnh của tam giác"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLC_GIAIQUYETVD",
+      "questiontext": "Bác thợ mộc cần uốn nẹp kim loại dài 1,2 m (120 cm) thành một khung giá đỡ hình tam giác cân có một cạnh dài 30 cm. Bạn An đề xuất hai phương án giải quyết vấn đề:\n- Phương án A: Uốn nẹp thành tam giác cân có cạnh đáy dài 30 cm, hai cạnh bên mỗi cạnh dài 45 cm.\n- Phương án B: Uốn nẹp thành tam giác cân có hai cạnh bên mỗi cạnh dài 30 cm, cạnh đáy dài 60 cm.\nVận dụng kiến thức toán học và tư duy giải quyết vấn đề thực tiễn, em hãy chọn nhận định đúng nhất về tính khả thi của hai phương án trên:",
+      "generalfeedback": "Để giải quyết vấn đề thực tế, học sinh cần vận dụng linh hoạt bất đẳng thức tam giác: Bộ ba (30 cm, 45 cm, 45 cm) thỏa mãn \\(45 - 30 < 45 < 45 + 30\\) nên tạo thành tam giác cân. Trong khi đó, bộ ba (30 cm, 30 cm, 60 cm) có tổng hai cạnh bằng cạnh thứ ba (\\(30 + 30 = 60\\)), ba đầu đoạn thẳng sẽ thẳng hàng và đè lên nhau chứ không tạo thành tam giác. Do đó chỉ Phương án A là giải pháp đúng đắn.",
+      "answers": [
+        {
+          "text": "Chỉ có Phương án A khả thi; Phương án B không khả thi vì \\(30 + 30 = 60\\text{ cm}\\), vi phạm bất đẳng thức tam giác nên không thể tạo thành hình tam giác.",
+          "fraction": 100
+        },
+        {
+          "text": "Cả hai phương án đều khả thi vì tổng độ dài ba cạnh của mỗi khung đều đúng bằng 120 cm.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ có Phương án B khả thi vì hai cạnh bên bằng 30 cm giúp tiết kiệm vật liệu ở phần cạnh bên hơn.",
+          "fraction": 0
+        },
+        {
+          "text": "Cả hai phương án đều không khả thi vì một cạnh 30 cm là quá ngắn so với tổng chiều dài 120 cm.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "imgs": [
+        "_page_0_Picture_15.jpeg"
+      ],
+      "questiontext": "[img:_page_0_Picture_15.jpeg]\nCho tam giác \\(ABC\\) có đường phân giác \\(AD\\), \\(D\\) nằm trên \\(BC\\) sao cho \\(BD = 2DC\\). Trên đường thẳng \\(AC\\), lấy điểm \\(E\\) sao cho \\(C\\) là trung điểm của \\(AE\\) (Hình 9.53). Để chứng minh tam giác \\(ABE\\) cân tại \\(A\\), một học sinh đã xây dựng chuỗi lập luận như sau:\n(1) Vì \\(C\\) là trung điểm của \\(AE\\) nên \\(BC\\) là đường trung tuyến của tam giác \\(ABE\\).\n(2) Điểm \\(D\\) nằm trên đường trung tuyến \\(BC\\) và \\(BD = 2DC\\) suy ra \\(BD = \\frac{2}{3}BC\\), do đó \\(D\\) là trọng tâm của tam giác \\(ABE\\).\n(3) Vì \\(D\\) là trọng tâm của tam giác \\(ABE\\) nên đoạn thẳng \\(AD\\) nằm trên đường trung tuyến xuất phát từ đỉnh \\(A\\).\n(4) Tam giác \\(ABE\\) có \\(AD\\) vừa là đường phân giác, vừa là đường trung tuyến nên tam giác \\(ABE\\) cân tại \\(A\\).\nNhận định nào sau đây là đúng về tính chặt chẽ và cơ sở lập luận của lời giải trên?",
+      "generalfeedback": "Chuỗi lập luận trên thể hiện năng lực tư duy logic và lập luận toán học mẫu mực: Bước (1) dựa vào định nghĩa đường trung tuyến; Bước (2) dựa vào tính chất vị trí trọng tâm trên đường trung tuyến; Bước (3) dựa vào tính chất ba đường trung tuyến đồng quy tại trọng tâm; Bước (4) dựa vào dấu hiệu nhận biết tam giác cân. Mọi bước lập luận đều có căn cứ xác đáng.",
+      "answers": [
+        {
+          "text": "Chuỗi lập luận hoàn toàn chính xác, mỗi bước suy luận đều dựa trên định nghĩa và định lý hình học đã học.",
+          "fraction": 100
+        },
+        {
+          "text": "Lập luận sai ở bước (2) vì để xác định trọng tâm bắt buộc phải vẽ ít nhất hai đường trung tuyến cắt nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Lập luận sai ở bước (4) vì một tam giác có đường trung tuyến trùng với đường phân giác thì phải là tam giác đều.",
+          "fraction": 0
+        },
+        {
+          "text": "Lập luận sai ở bước (3) vì tia phân giác không thể đi qua trọng tâm của tam giác.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "imgs": [
+        "_page_0_Picture_4.jpeg"
+      ],
+      "questiontext": "[img:_page_0_Picture_4.jpeg]\nCho tam giác \\(ABC\\) có \\(AB > AC\\). Trên đường thẳng \\(BC\\), lấy điểm \\(D\\) và \\(E\\) sao cho \\(B\\) nằm giữa \\(D\\) và \\(C\\), \\(C\\) nằm giữa \\(B\\) và \\(E\\), \\(BD = BA\\), \\(CE = CA\\) (Hình 9.52). Bạn Nam muốn so sánh hai góc \\(\\widehat{ADE}\\) và \\(\\widehat{AED}\\) bằng lập luận toán học:\n- Bước 1: Do tam giác \\(ABD\\) cân tại \\(B\\) nên góc ngoài \\(\\widehat{ABC} = 2\\widehat{ADE} \\Rightarrow \\widehat{ADE} = \\frac{1}{2}\\widehat{ABC}\\).\n- Bước 2: Do tam giác \\(ACE\\) cân tại \\(C\\) nên góc ngoài \\(\\widehat{ACB} = 2\\widehat{AED} \\Rightarrow \\widehat{AED} = \\frac{1}{2}\\widehat{ACB}\\).\n- Bước 3: Trong tam giác \\(ABC\\), vì \\(AB > AC\\) nên so sánh giữa hai góc đối diện \\(\\widehat{ACB}\\) và \\(\\widehat{ABC}\\) là gì để hoàn tất chứng minh \\(\\widehat{ADE} < \\widehat{AED}\\)?",
+      "generalfeedback": "Để hoàn tất lập luận so sánh hai góc \\(\\widehat{ADE}\\) và \\(\\widehat{AED}\\), học sinh cần sử dụng mắt xích tư duy về quan hệ giữa cạnh và góc đối diện trong tam giác: Do \\(AB > AC\\) nên góc đối diện với \\(AB\\) là \\(\\widehat{ACB}\\) lớn hơn góc đối diện với \\(AC\\) là \\(\\widehat{ABC}\\). Từ đó suy ra \\(\\frac{1}{2}\\widehat{ACB} > \\frac{1}{2}\\widehat{ABC}\\), tức là \\(\\widehat{AED} > \\widehat{ADE}\\) hay \\(\\widehat{ADE} < \\widehat{AED}\\).",
+      "answers": [
+        {
+          "text": "\\(\\widehat{ACB} > \\widehat{ABC}\\) (vì trong một tam giác, góc đối diện với cạnh lớn hơn là góc lớn hơn).",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\widehat{ACB} < \\widehat{ABC}\\) (vì trong một tam giác, góc đối diện với cạnh lớn hơn là góc nhỏ hơn).",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\widehat{ACB} = \\widehat{ABC}\\) (vì hai tam giác phụ là hai tam giác cân).",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\widehat{ACB} + \\widehat{ABC} = 90^\\circ\\) (vì tam giác \\(ABC\\) vuông).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "imgs": [
+        "_page_0_Picture_16.jpeg"
+      ],
+      "questiontext": "[img:_page_0_Picture_16.jpeg]\nBài toán thực tế yêu cầu đánh dấu hai điểm trên sợi dây thép dài 1,2 m (120 cm) để khi uốn gập lại sẽ tạo thành một tam giác cân có một cạnh dài 30 cm (Hình 9.54). Khi giải quyết bài toán này bằng mô hình toán học, học sinh cần xác định các vị trí đánh dấu chia sợi dây thành ba đoạn thẳng thỏa mãn điều kiện nào sau đây?",
+      "generalfeedback": "Khi mô hình hóa bài toán thực tế: Gọi độ dài ba cạnh của tam giác cân là \\(a, b, c\\) với \\(a + b + c = 120\\text{ cm}\\). Xét hai trường hợp: Trường hợp 1: Cạnh 30 cm là cạnh đáy, khi đó hai cạnh bên mỗi cạnh dài \\((120 - 30) : 2 = 45\\text{ cm}\\). Bộ ba (30 cm, 45 cm, 45 cm) thỏa mãn bất đẳng thức tam giác (\\(45 - 30 < 45 < 45 + 30\\)). Trường hợp 2: Cạnh 30 cm là cạnh bên, cạnh đáy dài \\(120 - 30 \\times 2 = 60\\text{ cm}\\). Bộ ba (30 cm, 30 cm, 60 cm) không thỏa mãn bất đẳng thức tam giác vì \\(30 + 30 = 60\\text{ cm}\\) (không lớn hơn 60 cm). Do đó, bài toán chỉ có duy nhất một nghiệm thực tế là uốn thành tam giác cân có cạnh đáy 30 cm và hai cạnh bên 45 cm.",
+      "answers": [
+        {
+          "text": "Chỉ có duy nhất một bộ độ dài ba đoạn là 30 cm, 45 cm, 45 cm (cạnh 30 cm là cạnh đáy).",
+          "fraction": 100
+        },
+        {
+          "text": "Có hai bộ độ dài ba đoạn: (30 cm, 45 cm, 45 cm) và (30 cm, 30 cm, 60 cm).",
+          "fraction": 0
+        },
+        {
+          "text": "Có vô số cách đánh dấu vì có thể chọn cạnh bên có độ dài tùy ý.",
+          "fraction": 0
+        },
+        {
+          "text": "Không thể uốn được tam giác cân nào vì tổng ba cạnh phải là số đo không chia hết cho 3.",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

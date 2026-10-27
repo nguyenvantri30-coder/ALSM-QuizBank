@@ -1,0 +1,720 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 26,
+    "metadata_used": {
+      "Phân tích sự thay đổi dữ liệu theo thời gian": 6,
+      "YCCD_TOAN7_131": 5,
+      "Phân tích xu hướng biến đổi dữ liệu trên biểu đồ đoạn thẳng": 3,
+      "So sánh hai dãy số liệu trên cùng biểu đồ": 3,
+      "YCCD_TOAN7_129": 3,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_GIAOTIEP": 1,
+      "NLC_GIAIQUYETVD": 1,
+      "NLT_TOAN_C2_02": 1,
+      "NLT_TOAN_C2_03": 1
+    },
+    "types_used": {
+      "multichoice": 12,
+      "numerical": 3,
+      "truefalse": 2,
+      "shortanswer": 2,
+      "matching": 2,
+      "gapselect": 2,
+      "ddwtos": 1,
+      "calculatedsimple": 1,
+      "calculatedmulti": 1
+    },
+    "total": 26
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_129",
+        "reason": "Đánh giá khả năng nhận ra quy luật, xu hướng từ biểu đồ đoạn thẳng trong SGK"
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_131",
+        "reason": "Đánh giá khả năng tính toán, giải quyết vấn đề đơn giản dựa trên số liệu từ biểu đồ"
+      },
+      {
+        "metadata_code": "Phân tích sự thay đổi dữ liệu theo thời gian",
+        "reason": "Đánh giá khả năng đọc và mô tả sự thay đổi của dữ liệu theo thời gian"
+      },
+      {
+        "metadata_code": "Phân tích xu hướng biến đổi dữ liệu trên biểu đồ đoạn thẳng",
+        "reason": "Đánh giá kỹ năng phân tích xu hướng biến đổi dữ liệu trên biểu đồ đoạn thẳng"
+      },
+      {
+        "metadata_code": "So sánh hai dãy số liệu trên cùng biểu đồ",
+        "reason": "Đánh giá kỹ năng so sánh các dãy số liệu trên cùng biểu đồ"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Mã metadata Năng lực số/Tin học không nằm trong METADATA_DICTIONARY của bài học này"
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Mã metadata Năng lực AI không nằm trong METADATA_DICTIONARY của bài học này"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Phân tích sự thay đổi dữ liệu theo thời gian",
+      "imgs": [
+        "_page_2_Figure_4.jpeg"
+      ],
+      "questiontext": "Quan sát biểu đồ chiều cao của một cây đậu trong 5 ngày (H.5.24) [img:_page_2_Figure_4.jpeg]. Vào ngày thứ 3, chiều cao của cây đậu đạt bao nhiêu xentimét?",
+      "generalfeedback": "Dựa vào biểu đồ H.5.24, tại điểm ứng với Ngày 3 trên trục nằm ngang, giá trị chiều cao trên trục thẳng đứng là 1 cm.",
+      "answers": [
+        {
+          "text": "1 cm",
+          "fraction": 100
+        },
+        {
+          "text": "0,5 cm",
+          "fraction": 0
+        },
+        {
+          "text": "0,75 cm",
+          "fraction": 0
+        },
+        {
+          "text": "1,4 cm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_131",
+      "imgs": [
+        "_page_2_Figure_4.jpeg"
+      ],
+      "questiontext": "Quan sát biểu đồ chiều cao cây đậu (H.5.24) [img:_page_2_Figure_4.jpeg]. Chiều cao cây đậu ở ngày thứ 5 tăng thêm bao nhiêu xentimét so với ngày thứ 4? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Chiều cao cây đậu ngày thứ 5 là 2,5 cm, ngày thứ 4 là 1,4 cm. Số xentimét tăng thêm là: 2,5 - 1,4 = 1,1.",
+      "answers": [
+        {
+          "text": "1.1",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Phân tích xu hướng biến đổi dữ liệu trên biểu đồ đoạn thẳng",
+      "imgs": [
+        "_page_2_Figure_17.jpeg"
+      ],
+      "questiontext": "Quan sát biểu đồ số lượt khách quốc tế đến Việt Nam (H.5.25) [img:_page_2_Figure_17.jpeg]. Từ năm 2015 đến năm 2019, số lượt khách quốc tế đến Việt Nam có xu hướng tăng liên tục qua các năm. Đúng hay Sai?",
+      "generalfeedback": "Đường nối các điểm từ năm 2015 đến 2019 trên biểu đồ H.5.25 có hướng đi lên liên tục (7,9; 10,0; 12,9; 15,5; 18,0 triệu lượt), chứng tỏ số lượt khách quốc tế có xu hướng tăng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Phân tích sự thay đổi dữ liệu theo thời gian",
+      "imgs": [
+        "_page_0_Figure_11.jpeg"
+      ],
+      "questiontext": "Theo biểu đồ dân số Việt Nam qua các kỳ tổng điều tra (H.5.21) [img:_page_0_Figure_11.jpeg], số dân Việt Nam vào năm 1979 là bao nhiêu triệu người? (Chỉ điền số thập phân với dấu phẩy hoặc chấm, không viết thêm từ hay đơn vị)",
+      "generalfeedback": "Tại mốc năm 1979 trên biểu đồ H.5.21, số dân tương ứng được ghi là 54,7 triệu người. Giá trị cần điền là 54,7.",
+      "answers": [
+        {
+          "text": "54,7",
+          "fraction": 100
+        },
+        {
+          "text": "54.7",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "So sánh hai dãy số liệu trên cùng biểu đồ",
+      "imgs": [
+        "_page_2_Figure_25.jpeg"
+      ],
+      "questiontext": "Quan sát biểu đồ số lượng máy tính cửa hàng bán được trong 6 tháng (H.5.26) [img:_page_2_Figure_25.jpeg]. Hãy ghép mỗi thời điểm hoặc nhận xét ở cột bên trái với thông tin tương ứng ở cột bên phải.",
+      "generalfeedback": "Dựa vào biểu đồ H.5.26: Trong tháng 1, số máy tính để bàn (80) cao hơn xách tay (50). Trong tháng 6, số máy tính xách tay (95) cao hơn máy tính để bàn (15). Xu hướng máy xách tay là tăng dần.",
+      "subquestions": [
+        {
+          "question": "Tháng 1 cửa hàng bán được nhiều hơn loại máy tính nào?",
+          "answer": "Máy tính để bàn"
+        },
+        {
+          "question": "Tháng 6 cửa hàng bán được nhiều hơn loại máy tính nào?",
+          "answer": "Máy tính xách tay"
+        },
+        {
+          "question": "Xu hướng số lượng máy tính xách tay bán được qua 6 tháng",
+          "answer": "Tăng dần"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Phân tích sự thay đổi dữ liệu theo thời gian",
+      "questiontext": "Biểu đồ đoạn thẳng giúp ta dễ dàng nhận ra [[1]] của đại lượng ta đang quan tâm theo [[2]].",
+      "generalfeedback": "Theo bài học, biểu đồ đoạn thẳng giúp ta dễ dàng nhận ra xu thế của đại lượng ta đang quan tâm theo thời gian.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "xu thế"
+        },
+        {
+          "group": 1,
+          "text": "thời gian"
+        },
+        {
+          "group": 1,
+          "text": "tần số"
+        },
+        {
+          "group": 1,
+          "text": "tỷ lệ"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_129",
+      "imgs": [
+        "_page_2_Picture_12.jpeg"
+      ],
+      "questiontext": "Quan sát hình minh họa độ dốc (H.5.22) [img:_page_2_Picture_12.jpeg]. Độ dốc của đoạn thẳng trong biểu đồ cho biết [[1]] tăng của đại lượng được biểu diễn. Đoạn thẳng càng dốc thì tốc độ tăng càng [[2]].",
+      "generalfeedback": "Độ dốc của biểu đồ đoạn thẳng cho biết tốc độ tăng của đại lượng. Đoạn thẳng có độ dốc càng lớn thì tốc độ tăng càng nhanh.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "tốc độ"
+        },
+        {
+          "group": 1,
+          "text": "nhanh"
+        },
+        {
+          "group": 1,
+          "text": "chậm"
+        },
+        {
+          "group": 1,
+          "text": "quy mô"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "So sánh hai dãy số liệu trên cùng biểu đồ",
+      "imgs": [
+        "_page_3_Figure_8.jpeg"
+      ],
+      "questiontext": "Quan sát biểu đồ tỉ lệ học sinh biết bơi của hai tỉnh A và B từ năm 2016 đến năm 2020 (H.5.27) [img:_page_3_Figure_8.jpeg]. Trong giai đoạn từ năm 2016 đến năm 2020, nhận xét nào sau đây là đúng về tốc độ tăng tỉ lệ học sinh biết bơi của hai tỉnh?",
+      "generalfeedback": "Tỉnh A tăng từ 13% (2016) lên 48% (2020), tức tăng 35%. Tỉnh B tăng từ 21% (2016) lên 35% (2020), tức tăng 14%. Do đó tỉnh A có tỉ lệ học sinh biết bơi tăng nhanh hơn tỉnh B.",
+      "answers": [
+        {
+          "text": "Tỉnh A có tỉ lệ học sinh biết bơi tăng nhanh hơn tỉnh B.",
+          "fraction": 100
+        },
+        {
+          "text": "Tỉnh B có tỉ lệ học sinh biết bơi tăng nhanh hơn tỉnh A.",
+          "fraction": 0
+        },
+        {
+          "text": "Tỉ lệ học sinh biết bơi của hai tỉnh tăng với tốc độ bằng nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Tỉ lệ học sinh biết bơi của tỉnh A giảm còn tỉnh B tăng.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_131",
+      "imgs": [
+        "_page_5_Figure_8.jpeg"
+      ],
+      "questiontext": "Quan sát biểu đồ kỉ lục thế giới chạy 100m từ năm 1912 đến 2009 (H.5.32) [img:_page_5_Figure_8.jpeg]. Từ năm 1912 (10,6 giây) đến năm 2009 (9,58 giây), kỉ lục thế giới về chạy cự li 100m đã giảm được bao nhiêu giây? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Thời gian kỉ lục giảm được là: 10,6 - 9,58 = 1,02 giây.",
+      "answers": [
+        {
+          "text": "1.02",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_131",
+      "questiontext": "Tại một thời điểm trong ngày, nhiệt độ đo được là {a} °C. Đến thời điểm tiếp theo, nhiệt độ tăng thêm {b} °C. Hỏi nhiệt độ lúc sau là bao nhiêu °C? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Nhiệt độ lúc sau bằng nhiệt độ ban đầu cộng thêm số độ tăng: {a} + {b}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 20.0,
+          "max": 30.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 2.0,
+          "max": 8.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}+{b}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Phân tích sự thay đổi dữ liệu theo thời gian",
+      "imgs": [
+        "_page_0_Figure_11.jpeg"
+      ],
+      "questiontext": "Quan sát biểu đồ dân số Việt Nam qua các kỳ tổng điều tra (H.5.21) [img:_page_0_Figure_11.jpeg]. Năm 2019, số dân của Việt Nam là bao nhiêu triệu người?",
+      "generalfeedback": "Tại mốc năm 2019 trên biểu đồ H.5.21, số dân của Việt Nam là 96,2 triệu người.",
+      "answers": [
+        {
+          "text": "96,2 triệu người",
+          "fraction": 100
+        },
+        {
+          "text": "85,8 triệu người",
+          "fraction": 0
+        },
+        {
+          "text": "76,3 triệu người",
+          "fraction": 0
+        },
+        {
+          "text": "64,4 triệu người",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_131",
+      "imgs": [
+        "_page_0_Figure_11.jpeg"
+      ],
+      "questiontext": "Quan sát biểu đồ dân số Việt Nam (H.5.21) [img:_page_0_Figure_11.jpeg]. Từ năm 1979 (54,7 triệu người) đến năm 2019 (96,2 triệu người), số dân Việt Nam đã tăng thêm bao nhiêu triệu người? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Số dân tăng thêm là: 96,2 - 54,7 = 41,5 triệu người.",
+      "answers": [
+        {
+          "text": "41.5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Phân tích xu hướng biến đổi dữ liệu trên biểu đồ đoạn thẳng",
+      "imgs": [
+        "_page_2_Figure_4.jpeg"
+      ],
+      "questiontext": "Quan sát biểu đồ chiều cao cây đậu qua 5 ngày (H.5.24) [img:_page_2_Figure_4.jpeg]. Chiều cao của cây đậu có xu hướng tăng liên tục từ ngày 1 đến ngày 5. Đúng hay Sai?",
+      "generalfeedback": "Chiều cao cây đậu qua các ngày lần lượt là 0,5 cm; 0,75 cm; 1 cm; 1,4 cm; 2,5 cm, liên tục tăng từ ngày 1 đến ngày 5.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Phân tích sự thay đổi dữ liệu theo thời gian",
+      "imgs": [
+        "_page_2_Figure_17.jpeg"
+      ],
+      "questiontext": "Quan sát biểu đồ số lượt khách quốc tế đến Việt Nam (H.5.25) [img:_page_2_Figure_17.jpeg]. Vào năm 2018, có bao nhiêu triệu lượt khách quốc tế đến Việt Nam? (Chỉ điền số thập phân, không ghi chữ hay đơn vị)",
+      "generalfeedback": "Theo biểu đồ H.5.25, năm 2018 số lượt khách quốc tế đến Việt Nam là 15,5 triệu lượt.",
+      "answers": [
+        {
+          "text": "15,5",
+          "fraction": 100
+        },
+        {
+          "text": "15.5",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_129",
+      "imgs": [
+        "_page_2_Figure_17.jpeg"
+      ],
+      "questiontext": "Dựa vào biểu đồ H.5.25 [img:_page_2_Figure_17.jpeg] và kiến thức thực tế, số lượt khách quốc tế đến Việt Nam trong năm 2020 giảm mạnh chủ yếu do nguyên nhân nào?",
+      "generalfeedback": "Năm 2020, ngành du lịch thế giới và Việt Nam chịu ảnh hưởng nặng nề bởi đại dịch COVID-19 làm hạn chế di chuyển quốc tế.",
+      "answers": [
+        {
+          "text": "Do ảnh hưởng của đại dịch COVID-19 bùng phát toàn cầu",
+          "fraction": 100
+        },
+        {
+          "text": "Do Việt Nam ngừng đón khách du lịch vĩnh viễn",
+          "fraction": 0
+        },
+        {
+          "text": "Do giá vé máy bay giảm mạnh",
+          "fraction": 0
+        },
+        {
+          "text": "Do chất lượng dịch vụ du lịch bị giảm sút đột ngột",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_129",
+      "imgs": [
+        "_page_2_Figure_25.jpeg"
+      ],
+      "questiontext": "Quan sát biểu đồ số lượng máy tính cửa hàng bán được trong 6 tháng (H.5.26) [img:_page_2_Figure_25.jpeg]. Phân tích xu thế bán hàng 4 tháng cuối (số máy tính xách tay tăng liên tục còn máy tính để bàn giảm dần), thời gian tiếp theo cửa hàng nên nhập nhiều loại máy tính nào?",
+      "generalfeedback": "Vì số lượng máy tính xách tay bán được có xu hướng tăng liên tục trong 4 tháng sau, trong khi máy tính để bàn giảm dần, cửa hàng nên nhập nhiều máy tính xách tay.",
+      "answers": [
+        {
+          "text": "Máy tính xách tay",
+          "fraction": 100
+        },
+        {
+          "text": "Máy tính để bàn",
+          "fraction": 0
+        },
+        {
+          "text": "Nhập số lượng hai loại như nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Ngừng nhập cả hai loại máy tính",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Phân tích sự thay đổi dữ liệu theo thời gian",
+      "imgs": [
+        "_page_5_Figure_8.jpeg"
+      ],
+      "questiontext": "Quan sát biểu đồ kỉ lục thế giới chạy cự li 100 m (H.5.32) [img:_page_5_Figure_8.jpeg]. Kỉ lục thế giới về chạy cự li 100 m đạt được ở năm 1991 là bao nhiêu giây?",
+      "generalfeedback": "Tại mốc năm 1991 trên biểu đồ H.5.32, giá trị kỉ lục thế giới là 9,86 giây.",
+      "answers": [
+        {
+          "text": "9,86 giây",
+          "fraction": 100
+        },
+        {
+          "text": "9,95 giây",
+          "fraction": 0
+        },
+        {
+          "text": "9,77 giây",
+          "fraction": 0
+        },
+        {
+          "text": "9,58 giây",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "So sánh hai dãy số liệu trên cùng biểu đồ",
+      "imgs": [
+        "_page_5_Figure_10.jpeg"
+      ],
+      "questiontext": "Quan sát biểu đồ dân số ba châu lục qua các năm (H.5.33) [img:_page_5_Figure_10.jpeg]. Hãy ghép mỗi đặc điểm ở cột bên trái với châu lục tương ứng ở cột bên phải.",
+      "generalfeedback": "Dựa vào H.5.33: Từ 1950 đến 1980, Châu Âu luôn có số dân cao nhất; Châu Phi có số dân thấp nhất vào năm 1950 và tăng rất nhanh; Châu Âu có tốc độ tăng chậm nhất.",
+      "subquestions": [
+        {
+          "question": "Châu lục có số dân cao nhất trong giai đoạn 1950 - 1980",
+          "answer": "Châu Âu"
+        },
+        {
+          "question": "Châu lục có số dân thấp nhất vào năm 1950",
+          "answer": "Châu Phi"
+        },
+        {
+          "question": "Châu lục có số dân tăng chậm nhất từ năm 1950 đến 1980",
+          "answer": "Châu Âu"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Phân tích xu hướng biến đổi dữ liệu trên biểu đồ đoạn thẳng",
+      "imgs": [
+        "_page_5_Figure_10.jpeg"
+      ],
+      "questiontext": "Quan sát biểu đồ dân số ba châu lục (H.5.33) [img:_page_5_Figure_10.jpeg]. Từ năm 1950 đến năm 2018, số dân của cả ba châu lục (châu Phi, châu Mỹ, châu Âu) đều có xu hướng [[1]] theo thời gian. Trong đó, số dân châu Phi có tốc độ tăng [[2]].",
+      "generalfeedback": "Biểu đồ H.5.33 cho thấy cả 3 đường đều có hướng đi lên (tăng theo thời gian), trong đó đường biểu diễn của Châu Phi dốc đứng ở giai đoạn sau (tăng nhanh).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "tăng"
+        },
+        {
+          "group": 1,
+          "text": "nhanh"
+        },
+        {
+          "group": 1,
+          "text": "giảm"
+        },
+        {
+          "group": 1,
+          "text": "chậm"
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_131",
+      "questiontext": "Tại một thời điểm nhiệt độ là {a} °C, đến thời điểm tiếp theo nhiệt độ đo được là {b} °C (với {b} > {a}). Công thức tính độ tăng nhiệt độ giữa hai thời điểm đó là gì?",
+      "generalfeedback": "Độ tăng nhiệt độ bằng nhiệt độ lúc sau trừ đi nhiệt độ lúc đầu: {b} - {a}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 18.0,
+          "max": 25.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 28.0,
+          "max": 36.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{b}-{a}",
+          "fraction": 100
+        },
+        {
+          "text": "{a}+{b}",
+          "fraction": 0
+        },
+        {
+          "text": "{a}*{b}",
+          "fraction": 0
+        },
+        {
+          "text": "{b}/{a}",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Để chuẩn bị bài học về biểu đồ đoạn thẳng, bạn Mai liên tục ghi chép và theo dõi nhiệt độ trong ngày tại Hà Nội trong suốt một tuần. Dù có những ngày thời tiết xấu, Mai vẫn kiên trì thực hiện đầy đủ để có bộ số liệu chính xác. Việc làm của bạn Mai thể hiện phẩm chất nào sau đây?",
+      "generalfeedback": "Sự kiên trì, tự giác thực hiện nhiệm vụ theo dõi và thu thập số liệu liên tục trong nhiều ngày thể hiện phẩm chất chăm chỉ.",
+      "answers": [
+        {
+          "text": "Chăm chỉ",
+          "fraction": 100
+        },
+        {
+          "text": "Trung thực",
+          "fraction": 0
+        },
+        {
+          "text": "Tiết kiệm",
+          "fraction": 0
+        },
+        {
+          "text": "Yêu nước",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Khi khảo sát số giờ tự học trong tuần để vẽ biểu đồ đoạn thẳng, bạn Nam nhận thấy số giờ tự học của mình ít hơn các bạn trong nhóm. Nam có ý định sửa lại số liệu của bản thân cho cao hơn để biểu đồ trông đẹp hơn. Nếu là bạn của Nam, em nên khuyên Nam như thế nào?",
+      "generalfeedback": "Giữ nguyên số liệu thực tế thu thập được để phản ánh đúng thực trạng là biểu hiện của tính trung thực trong học tập.",
+      "answers": [
+        {
+          "text": "Khuyên Nam giữ nguyên số liệu thực tế thu thập được vì tính trung thực trong thống kê dữ liệu là quan trọng nhất.",
+          "fraction": 100
+        },
+        {
+          "text": "Đồng ý với Nam vì sửa số liệu sẽ giúp nhóm đạt điểm cao hơn.",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ luôn số liệu của Nam ra khỏi biểu đồ để không ảnh hưởng tới nhóm.",
+          "fraction": 0
+        },
+        {
+          "text": "Tự ý lấy số liệu của một bạn khác thay vào tên của Nam.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLC_GIAOTIEP",
+      "imgs": [
+        "_page_2_Figure_25.jpeg"
+      ],
+      "questiontext": "Nhóm của Lan được giao nhiệm vụ phân tích biểu đồ đoạn thẳng H.5.26 [img:_page_2_Figure_25.jpeg] về số lượng máy tính bán được trong 6 tháng. Các thành viên có ý kiến trái chiều về xu hướng bán máy tính để bàn. Để thể hiện năng lực giao tiếp và hợp tác, nhóm Lan nên xử lý tình huống này như thế nào?",
+      "generalfeedback": "Lắng nghe, trao đổi dân chủ và cùng nhau đối chiếu lại số liệu trên biểu đồ là hành vi thể hiện năng lực giao tiếp và hợp tác hiệu quả.",
+      "answers": [
+        {
+          "text": "Lắng nghe ý kiến từng thành viên, cùng đối chiếu với số liệu trên biểu đồ H.5.26 để thống nhất nhận xét.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua ý kiến của các thành viên khác và chỉ lấy nhận xét của nhóm trưởng.",
+          "fraction": 0
+        },
+        {
+          "text": "Không thảo luận nữa mà bốc thăm để chọn nhận xét ngẫu nhiên.",
+          "fraction": 0
+        },
+        {
+          "text": "Báo cáo giáo viên đổi sang bài tập khác không cần làm nhóm.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLC_GIAIQUYETVD",
+      "imgs": [
+        "_page_2_Figure_17.jpeg"
+      ],
+      "questiontext": "Dựa trên biểu đồ đoạn thẳng H.5.25 [img:_page_2_Figure_17.jpeg] về số lượt khách quốc tế đến Việt Nam giai đoạn 2015 - 2020 (với số lượt giảm mạnh vào năm 2020 do đại dịch COVID-19), học sinh cần đề xuất giải pháp sáng tạo nào để góp phần thúc đẩy du lịch phục hồi trong thời gian tiếp theo?",
+      "generalfeedback": "Đề xuất quảng bá du lịch an toàn và ứng dụng công nghệ thể hiện năng lực giải quyết vấn đề và sáng tạo dựa trên phân tích thực tiễn.",
+      "answers": [
+        {
+          "text": "Đề xuất tăng cường quảng bá du lịch an toàn, áp dụng công nghệ chuyển đổi số và phát triển các sản phẩm du lịch mới.",
+          "fraction": 100
+        },
+        {
+          "text": "Đề xuất đóng cửa toàn bộ các điểm du lịch để tránh rủi ro.",
+          "fraction": 0
+        },
+        {
+          "text": "Đề xuất giữ nguyên cách làm cũ mà không cần thay đổi hay thích ứng.",
+          "fraction": 0
+        },
+        {
+          "text": "Đề xuất không tiếp tục theo dõi hay thống kê số liệu du lịch nữa.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_02",
+      "questiontext": "Để mô hình hóa diễn biến sự thay đổi chiều cao của cây đậu theo các ngày trong tuần một cách trực quan, giúp người xem nhận biết rõ tốc độ tăng trưởng qua độ dốc, dạng biểu đồ nào sau đây là phù hợp nhất?",
+      "generalfeedback": "Biểu đồ đoạn thẳng là mô hình toán học thích hợp nhất để biểu diễn sự thay đổi của một đại lượng theo thời gian.",
+      "answers": [
+        {
+          "text": "Biểu đồ đoạn thẳng",
+          "fraction": 100
+        },
+        {
+          "text": "Biểu đồ hình quạt tròn",
+          "fraction": 0
+        },
+        {
+          "text": "Biểu đồ cột rời rạc",
+          "fraction": 0
+        },
+        {
+          "text": "Sơ đồ tư duy",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "imgs": [
+        "_page_2_Figure_25.jpeg"
+      ],
+      "questiontext": "Một chủ cửa hàng quan sát biểu đồ đoạn thẳng H.5.26 [img:_page_2_Figure_25.jpeg] thấy số lượng máy tính xách tay bán được tăng liên tục trong 4 tháng gần nhất, trong khi máy tính để bàn giảm liên tục. Từ phân tích toán học đó, chủ cửa hàng quyết định tăng số lượng nhập máy tính xách tay trong tháng tới. Thao tác này thể hiện năng lực nào?",
+      "generalfeedback": "Sử dụng kết quả phân tích số liệu từ biểu đồ đoạn thẳng để ra quyết định kinh doanh thực tế là biểu hiện của năng lực giải quyết vấn đề toán học.",
+      "answers": [
+        {
+          "text": "Năng lực giải quyết vấn đề toán học",
+          "fraction": 100
+        },
+        {
+          "text": "Năng lực tính toán thuần túy",
+          "fraction": 0
+        },
+        {
+          "text": "Năng lực đo lường hình học",
+          "fraction": 0
+        },
+        {
+          "text": "Năng lực ước lượng khoảng cách",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,689 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 30,
+    "metadata_used": {
+      "YCCD_TOAN6_053": 3,
+      "Khái niệm ước và bội trong tập hợp số nguyên Z": 2,
+      "Tính chất chia hết trong Z": 1,
+      "Tìm tất cả các ước số nguyên của một số nguyên cho trước": 5,
+      "Tìm các bội số nguyên của một số nguyên": 1
+    },
+    "types_used": {
+      "multichoice": 4,
+      "truefalse": 1,
+      "gapselect": 1,
+      "shortanswer": 1,
+      "matching": 1,
+      "ddwtos": 1,
+      "numerical": 1
+    },
+    "total": 30
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN6_053",
+        "reason": "Đo lường mức độ nhận biết khái niệm ước và bội trong tập hợp các số nguyên"
+      },
+      {
+        "metadata_code": "Khái niệm ước và bội trong tập hợp số nguyên Z",
+        "reason": "Đo lường kiến thức về khái niệm ước và bội trong tập hợp số nguyên Z"
+      },
+      {
+        "metadata_code": "Tính chất chia hết trong Z",
+        "reason": "Đo lường kiến thức về tính chất chia hết trong Z"
+      },
+      {
+        "metadata_code": "Tìm tất cả các ước số nguyên của một số nguyên cho trước",
+        "reason": "Đo lường kỹ năng tìm tất cả các ước số nguyên của một số nguyên cho trước"
+      },
+      {
+        "metadata_code": "Tìm các bội số nguyên của một số nguyên",
+        "reason": "Đo lường kỹ năng tìm các bội số nguyên của một số nguyên"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học toán thuần túy về ước và bội của số nguyên không chứa yếu tố công nghệ/tin học tự nhiên."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Bài học không liên quan tự nhiên đến ứng dụng trí tuệ nhân tạo."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_053",
+      "questiontext": "Cho hai số nguyên \\(a\\) và \\(b\\) (\\(b \\neq 0\\)). Nếu có số nguyên \\(q\\) sao cho \\(a = b \\cdot q\\) thì khẳng định nào sau đây là đúng?",
+      "generalfeedback": "Theo khái niệm trong SGK, khi \\(a = b \\cdot q\\) (\\(a, b, q \\in \\mathbb{Z}, b \\neq 0\\)) thì \\(a\\) chia hết cho \\(b\\), ta nói \\(a\\) là một bội của \\(b\\) và \\(b\\) là một ước của \\(a\\).",
+      "answers": [
+        {
+          "text": "\\(a\\) là một bội của \\(b\\) và \\(b\\) là một ước của \\(a\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(a\\) là một ước của \\(b\\) và \\(b\\) là một bội của \\(a\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a\\) và \\(b\\) là hai số nguyên tố cùng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a\\) là ước của \\(q\\) và \\(b\\) là bội của \\(q\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm ước và bội trong tập hợp số nguyên Z",
+      "questiontext": "Nếu số nguyên \\(b\\) là một ước của số nguyên \\(a\\) thì số đối \\(-b\\) cũng là một ước của \\(a\\). Khẳng định trên là Đúng hay Sai?",
+      "generalfeedback": "Theo nhận xét trong SGK, nếu \\(b\\) là một ước của \\(a\\) thì \\(-b\\) cũng là một ước của \\(a\\). Khẳng định này là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm tất cả các ước số nguyên của một số nguyên cho trước",
+      "questiontext": "Tất cả các ước số nguyên của số \\(-9\\) là:",
+      "generalfeedback": "Các ước dương của \\(9\\) là \\(1; 3; 9\\). Do đó tất cả các ước số nguyên của \\(-9\\) gồm các ước dương và các số đối của chúng: \\(1; -1; 3; -3; 9; -9\\).",
+      "answers": [
+        {
+          "text": "\\(1; -1; 3; -3; 9; -9\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(1; 3; 9\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-1; -3; -9\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(1; -1; 3; -3\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Khái niệm ước và bội trong tập hợp số nguyên Z",
+      "questiontext": "Số \\(3\\) là một ước của \\(-12\\) vì \\((-12)\\) [[1]] cho \\(3\\). Số \\(-35\\) là một bội của \\(-7\\) vì \\((-35)\\) [[2]] cho \\(-7\\).",
+      "generalfeedback": "Theo ví dụ trong SGK, \\(3\\) là ước của \\(-12\\) vì \\((-12)\\) chia hết cho \\(3\\); \\(-35\\) là bội của \\(-7\\) vì \\((-35)\\) chia hết cho \\(-7\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "chia hết"
+        },
+        {
+          "group": 1,
+          "text": "không chia hết"
+        },
+        {
+          "group": 1,
+          "text": "cộng hết"
+        },
+        {
+          "group": 1,
+          "text": "trừ hết"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Tính chất chia hết trong Z",
+      "questiontext": "Nếu hai số nguyên cùng chia hết cho \\(-3\\) thì tổng của chúng có chia hết cho \\(-3\\) không?",
+      "generalfeedback": "Theo tính chất chia hết trong tập hợp số nguyên \\(\\mathbb{Z}\\), nếu \\(a \\vdots (-3)\\) và \\(b \\vdots (-3)\\) thì tổng \\((a + b) \\vdots (-3)\\). Đáp án đúng là Có.",
+      "answers": [
+        {
+          "text": "Có",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm tất cả các ước số nguyên của một số nguyên cho trước",
+      "questiontext": "Hãy ghép mỗi tên gọi ở cột bên trái với tập hợp tất cả các số tương ứng ở cột bên phải:",
+      "generalfeedback": "Ước số nguyên của một số gồm các ước dương và các số đối của chúng. Ước chung của 4 và 6 là các số vừa là ước của 4 vừa là ước của 6.",
+      "subquestions": [
+        {
+          "question": "Các ước của 4",
+          "answer": "\\(\\{1; -1; 2; -2; 4; -4\\}\\)"
+        },
+        {
+          "question": "Các ước của 6",
+          "answer": "\\(\\{1; -1; 2; -2; 3; -3; 6; -6\\}\\)"
+        },
+        {
+          "question": "Các ước chung của 4 và 6",
+          "answer": "\\(\\{1; -1; 2; -2\\}\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm các bội số nguyên của một số nguyên",
+      "questiontext": "Tập hợp tất cả các bội số nguyên của \\(4\\) lớn hơn \\(-20\\) và nhỏ hơn \\(20\\) là:",
+      "generalfeedback": "Các bội của \\(4\\) có dạng \\(4k\\) (\\(k \\in \\mathbb{Z}\\)). Vì các bội lớn hơn \\(-20\\) và nhỏ hơn \\(20\\) nên \\(-20 < 4k < 20 \\Rightarrow k \\in \\{-4; -3; -2; -1; 0; 1; 2; 3; 4\\}\\). Do đó tập hợp cần tìm là \\(\\{-16; -12; -8; -4; 0; 4; 8; 12; 16\\}\\).",
+      "answers": [
+        {
+          "text": "\\(\\{-16; -12; -8; -4; 0; 4; 8; 12; 16\\}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\{-20; -16; -12; -8; -4; 0; 4; 8; 12; 16; 20\\}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\{0; 4; 8; 12; 16\\}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\{-16; -12; -8; -4; 4; 8; 12; 16\\}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_053",
+      "questiontext": "Để tìm các ước của số nguyên \\(a\\), ta tìm các ước [[1]] của \\(a\\) cùng với các [[2]] của chúng.",
+      "generalfeedback": "Theo quy tắc trong SGK: Để tìm các ước của số nguyên \\(a\\), ta tìm các ước dương của \\(a\\) cùng với các số đối của chúng.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "dương"
+        },
+        {
+          "group": 1,
+          "text": "số đối"
+        },
+        {
+          "group": 1,
+          "text": "âm"
+        },
+        {
+          "group": 1,
+          "text": "bội"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tìm tất cả các ước số nguyên của một số nguyên cho trước",
+      "questiontext": "Có bao nhiêu ước số nguyên của số \\(-50\\)? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Các ước dương của 50 là 1, 2, 5, 10, 25, 50 (có 6 ước dương). Do đó số -50 có tất cả 6 + 6 = 12 ước số nguyên (gồm các ước dương và các số đối của chúng).",
+      "answers": [
+        {
+          "text": "12",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Tìm tất cả các ước số nguyên của một số nguyên cho trước",
+      "questiontext": "Hai ước số nguyên của \\(15\\) có tổng bằng \\(-4\\) là:",
+      "generalfeedback": "Tập hợp các ước của \\(15\\) là \\(\\{\\pm 1; \\pm 3; \\pm 5; \\pm 15\\}\\). Ta thấy \\((-5) + 1 = -4\\) và cả \\(-5\\) và \\(1\\) đều thuộc tập ước của \\(15\\).",
+      "answers": [
+        {
+          "text": "\\(-5\\) và \\(1\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(5\\) và \\(-9\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-3\\) và \\(-1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-15\\) và \\(11\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm tất cả các ước số nguyên của một số nguyên cho trước",
+      "questiontext": "Tất cả các ước số nguyên của số \\(30\\) là:",
+      "generalfeedback": "Các ước dương của \\(30\\) là \\(1; 2; 3; 5; 6; 10; 15; 30\\). Tất cả các ước số nguyên của \\(30\\) gồm các ước dương và các số đối của chúng.",
+      "answers": [
+        {
+          "text": "\\(\\{1; -1; 2; -2; 3; -3; 5; -5; 6; -6; 10; -10; 15; -15; 30; -30\\}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\{1; 2; 3; 5; 6; 10; 15; 30\\}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\{-1; -2; -3; -5; -6; -10; -15; -30\\}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\{0; 1; -1; 2; -2; 3; -3; 5; -5; 6; -6\\}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm tất cả các ước số nguyên của một số nguyên cho trước",
+      "questiontext": "Tất cả các ước chung số nguyên của \\(30\\) và \\(42\\) là:",
+      "generalfeedback": "Các ước chung dương của \\(30\\) và \\(42\\) là \\(1; 2; 3; 6\\). Do đó tất cả các ước chung số nguyên của \\(30\\) và \\(42\\) là \\(1; -1; 2; -2; 3; -3; 6; -6\\).",
+      "answers": [
+        {
+          "text": "\\(\\{1; -1; 2; -2; 3; -3; 6; -6\\}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\{1; 2; 3; 6\\}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\{1; -1; 2; -2; 3; -3; 5; -5\\}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\{1; -1; 2; -2; 4; -4; 6; -6\\}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm các bội số nguyên của một số nguyên",
+      "questiontext": "Số nguyên {a} là một ước của số nguyên \\(x\\) nếu \\(x\\) bằng {a} nhân với một số nguyên \\(k\\). Với \\(k = -5\\) và \\(a =\\) {a}, hãy tính giá trị của \\(x\\).",
+      "generalfeedback": "Số \\(x\\) được tính bằng tích \\(a \\cdot k =\\) {a} \\(\\cdot (-5)\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 12.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*(-5)",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm ước và bội trong tập hợp số nguyên Z",
+      "questiontext": "Số \\(0\\) là bội của mọi số nguyên khác \\(0\\). Khẳng định trên là Đúng hay Sai?",
+      "generalfeedback": "Với mọi số nguyên \\(b \\neq 0\\), ta luôn có \\(0 = b \\cdot 0\\) nên \\(0\\) chia hết cho \\(b\\). Do đó số \\(0\\) là bội của mọi số nguyên khác \\(0\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm các bội số nguyên của một số nguyên",
+      "questiontext": "Cho tập hợp \\(M = \\{x \\in \\mathbb{Z} \\mid x \\vdots 4 \\text{ và } -16 \\le x < 20\\}\\). Số phần tử âm của tập hợp \\(M\\) là [[1]] phần tử và số phần tử không âm của tập hợp \\(M\\) là [[2]] phần tử.",
+      "generalfeedback": "Liệt kê tập hợp \\(M = \\{-16; -12; -8; -4; 0; 4; 8; 12; 16\\}\\). Các phần tử âm là \\(-16; -12; -8; -4\\) (gồm 4 phần tử). Các phần tử không âm là \\(0; 4; 8; 12; 16\\) (gồm 5 phần tử).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "4"
+        },
+        {
+          "group": 1,
+          "text": "5"
+        },
+        {
+          "group": 1,
+          "text": "6"
+        },
+        {
+          "group": 1,
+          "text": "3"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm tất cả các ước số nguyên của một số nguyên cho trước",
+      "questiontext": "Số nguyên dương nhỏ nhất là ước chung của mọi số nguyên là số nào?",
+      "generalfeedback": "Số \\(1\\) và \\(-1\\) là ước của mọi số nguyên. Số nguyên dương nhỏ nhất trong đó là \\(1\\).",
+      "answers": [
+        {
+          "text": "1",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Tính chất chia hết trong Z",
+      "questiontext": "Cho hai số nguyên \\(a\\) và \\(b\\) cùng chia hết cho \\(-3\\). Khi đó tổng \\(a + b\\) [[1]] cho \\(-3\\) và hiệu \\(a - b\\) [[2]] cho \\(-3\\).",
+      "generalfeedback": "Theo tính chất chia hết trong SGK (bài 3.43), nếu hai số cùng chia hết cho \\(-3\\) thì tổng và hiệu của chúng cũng chia hết cho \\(-3\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "chia hết"
+        },
+        {
+          "group": 1,
+          "text": "không chia hết"
+        },
+        {
+          "group": 1,
+          "text": "bằng 0"
+        },
+        {
+          "group": 1,
+          "text": "là ước"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm các bội số nguyên của một số nguyên",
+      "questiontext": "Hãy ghép mỗi số nguyên ở cột bên trái với tập hợp 4 bội không âm đầu tiên tương ứng ở cột bên phải:",
+      "generalfeedback": "Lần lượt nhân số đó với 0; 1; 2; 3 ta được các bội không âm đầu tiên.",
+      "subquestions": [
+        {
+          "question": "Số 5",
+          "answer": "\\(\\{0; 5; 10; 15\\}\\)"
+        },
+        {
+          "question": "Số 8",
+          "answer": "\\(\\{0; 8; 16; 24\\}\\)"
+        },
+        {
+          "question": "Số 9",
+          "answer": "\\(\\{0; 9; 18; 27\\}\\)"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm tất cả các ước số nguyên của một số nguyên cho trước",
+      "questiontext": "Tập hợp các ước chung nguyên dương của \\(30\\) và \\(42\\) có bao nhiêu phần tử? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Các ước chung của 30 và 42 là \\(\\pm 1; \\pm 2; \\pm 3; \\pm 6\\). Do đó các ước chung nguyên dương là 1, 2, 3, 6 gồm 4 phần tử.",
+      "answers": [
+        {
+          "text": "4",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Khái niệm ước và bội trong tập hợp số nguyên Z",
+      "questiontext": "Hai số nguyên \\(a\\) và \\(b\\) khác nhau thỏa mãn \\(a \\vdots b\\) và \\(b \\vdots a\\) khi và chỉ khi \\(a\\) và \\(b\\) là hai số đối nhau (khác 0). Cặp số nào sau đây thỏa mãn điều kiện trên?",
+      "generalfeedback": "Trong góc Tranh luận (trang 74 SGK), hai số nguyên khác nhau chia hết cho nhau là hai số đối nhau khác 0, ví dụ \\(5\\) và \\(-5\\) (vì \\(5 : (-5) = -1\\) và \\((-5) : 5 = -1\\)).",
+      "answers": [
+        {
+          "text": "\\(5\\) và \\(-5\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(5\\) và \\(10\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(4\\) và \\(2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(0\\) và \\(5\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Tìm các bội số nguyên của một số nguyên",
+      "questiontext": "Tất cả các số nguyên \\(x\\) vừa là bội của \\(3\\), vừa là ước của \\(18\\) là:",
+      "generalfeedback": "Các ước của 18 là \\(\\pm 1; \\pm 2; \\pm 3; \\pm 6; \\pm 9; \\pm 18\\). Trong các ước này, các số chia hết cho 3 (bội của 3) là \\(\\{-18; -9; -6; -3; 3; 6; 9; 18\\}\\).",
+      "answers": [
+        {
+          "text": "\\(\\{-18; -9; -6; -3; 3; 6; 9; 18\\}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\{3; 6; 9; 18\\}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\{-18; -12; -6; 0; 6; 12; 18\\}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\{-9; -3; 3; 9\\}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Tính chất chia hết trong Z",
+      "questiontext": "Tìm số nguyên \\(x\\) dương nhỏ nhất sao cho \\((x + 5)\\) chia hết cho \\(7\\).",
+      "generalfeedback": "Vì \\((x + 5) \\vdots 7\\) và \\(x\\) là số nguyên dương nhỏ nhất nên \\(x + 5 = 7 \\Rightarrow x = 2\\).",
+      "answers": [
+        {
+          "text": "2",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Tính chất chia hết trong Z",
+      "questiontext": "Với mọi số nguyên \\(a\\), nếu \\(a\\) chia hết cho \\(b\\) và \\(b\\) chia hết cho \\(c\\) (\\(b, c \\neq 0\\)) thì \\(a\\) chia hết cho \\(c\\). Khẳng định trên là Đúng hay Sai?",
+      "generalfeedback": "Đây là tính chất bắc cầu của phép chia hết trong tập hợp số nguyên \\(\\mathbb{Z}\\). Khẳng định này là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_053",
+      "questiontext": "Cho \\(a, b \\in \\mathbb{Z}\\) (\\(b \\neq 0\\)). Nếu \\(a \\vdots b\\) thì \\(-a\\) [[1]] cho \\(b\\) và \\(a\\) [[2]] cho \\(-b\\).",
+      "generalfeedback": "Theo chú ý trong SGK, nếu \\(a\\) chia hết cho \\(b\\) thì \\(-a\\) cũng chia hết cho \\(b\\) và \\(a\\) cũng chia hết cho \\(-b\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "chia hết"
+        },
+        {
+          "group": 1,
+          "text": "không chia hết"
+        },
+        {
+          "group": 1,
+          "text": "là ước"
+        },
+        {
+          "group": 1,
+          "text": "là bội"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tìm tất cả các ước số nguyên của một số nguyên cho trước",
+      "questiontext": "Tính tổng tất cả các ước số nguyên của số \\(12\\). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Các ước số nguyên của 12 là \\(\\pm 1; \\pm 2; \\pm 3; \\pm 4; \\pm 6; \\pm 12\\). Mỗi ước dương luôn có ước âm tương ứng là số đối của nó, do đó tổng tất cả các ước số nguyên bằng 0.",
+      "answers": [
+        {
+          "text": "0",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Tìm các bội số nguyên của một số nguyên",
+      "questiontext": "Cho hai số nguyên \\(a = -12\\) và \\(b = 18\\). Bội chung nguyên dương nhỏ nhất của \\(a\\) và \\(b\\) là:",
+      "generalfeedback": "Bội chung nguyên dương nhỏ nhất của -12 và 18 là BCNN(12, 18) = 36.",
+      "answers": [
+        {
+          "text": "36",
+          "fraction": 100
+        },
+        {
+          "text": "-36",
+          "fraction": 0
+        },
+        {
+          "text": "72",
+          "fraction": 0
+        },
+        {
+          "text": "6",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm tất cả các ước số nguyên của một số nguyên cho trước",
+      "questiontext": "Hãy ghép mỗi mô tả ở cột bên trái với giá trị đúng ở cột bên phải:",
+      "generalfeedback": "Đối chiếu kiến thức về ước và bội trong Z để tìm ra giá trị tương ứng.",
+      "subquestions": [
+        {
+          "question": "Số nguyên âm lớn nhất là ước của -15",
+          "answer": "-1"
+        },
+        {
+          "question": "Số nguyên dương nhỏ nhất là bội của 7",
+          "answer": "7"
+        },
+        {
+          "question": "Số nguyên âm nhỏ nhất có hai chữ số chia hết cho 5",
+          "answer": "-95"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Tính chất chia hết trong Z",
+      "questiontext": "Nếu số nguyên \\(a\\) chia hết cho số nguyên \\(m\\) thì tích \\(a \\cdot k\\) (với \\(k \\in \\mathbb{Z}\\)) cũng [[1]] cho \\(m\\).",
+      "generalfeedback": "Theo tính chất chia hết trong tập hợp số nguyên \\(\\mathbb{Z}\\), nếu \\(a \\vdots m\\) thì với mọi số nguyên \\(k\\), ta có \\((a \\cdot k) \\vdots m\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "chia hết"
+        },
+        {
+          "group": 1,
+          "text": "không chia hết"
+        },
+        {
+          "group": 1,
+          "text": "bằng 0"
+        },
+        {
+          "group": 1,
+          "text": "nhỏ hơn"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Tìm tất cả các ước số nguyên của một số nguyên cho trước",
+      "questiontext": "Số các giá trị nguyên \\(x\\) thỏa mãn \\(x\\) là ước của \\(8\\) và \\(x > -4\\) là:",
+      "generalfeedback": "Tập hợp ước số nguyên của 8 là \\(\\{-8; -4; -2; -1; 1; 2; 4; 8\\}\\). Các giá trị lớn hơn -4 là \\(\\{-2; -1; 1; 2; 4; 8\\}\\), gồm tất cả 6 giá trị.",
+      "answers": [
+        {
+          "text": "6",
+          "fraction": 100
+        },
+        {
+          "text": "5",
+          "fraction": 0
+        },
+        {
+          "text": "7",
+          "fraction": 0
+        },
+        {
+          "text": "4",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tìm tất cả các ước số nguyên của một số nguyên cho trước",
+      "questiontext": "Có bao nhiêu số nguyên \\(x\\) sao cho \\((x - 1)\\) là một ước của \\(6\\)? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Các ước số nguyên của 6 là \\(\\pm 1; \\pm 2; \\pm 3; \\pm 6\\) (có 8 ước). Với mỗi ước \\(k\\), ta giải phương trình \\(x - 1 = k \\Rightarrow x = k + 1\\) thu được 1 giá trị nguyên \\(x\\) duy nhất. Vậy có 8 giá trị nguyên \\(x\\).",
+      "answers": [
+        {
+          "text": "8",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    }
+  ]
+}

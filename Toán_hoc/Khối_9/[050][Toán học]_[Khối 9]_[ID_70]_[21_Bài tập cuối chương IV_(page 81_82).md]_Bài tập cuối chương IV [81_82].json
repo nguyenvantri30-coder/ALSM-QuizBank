@@ -1,0 +1,900 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 35,
+    "metadata_used": {
+      "YCCD_TOAN9_065": 4,
+      "YCCD_TOAN9_066": 4,
+      "YCCD_TOAN9_067": 4,
+      "Hệ thống hóa kiến thức TSLG và hệ thức lượng trong tam giác vuông": 4,
+      "Giải bài tập trắc nghiệm và tự luận tổng hợp Chương IV": 4,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_TCTH_TUHOC_C2_04": 1,
+      "SUB_GQVD_DEXUAT_C2_02": 1,
+      "NLT_TOAN_C2_03_04": 1,
+      "NLT_TOAN_C2_03_05": 1,
+      "2.1TC2a_K9": 1,
+      "9.A3.1_2": 1
+    },
+    "types_used": {
+      "multichoice": 20,
+      "gapselect": 2,
+      "calculated": 1,
+      "truefalse": 3,
+      "ddwtos": 1,
+      "calculatedsimple": 1,
+      "matching": 6,
+      "numerical": 1
+    },
+    "total": 35
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN9_065",
+        "reason": "Đo lường khả năng giải thích hệ thức b = a.sinB, c = a.cosB"
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_066",
+        "reason": "Đo lường khả năng giải thích hệ thức b = c.tanB, c = b.cotB"
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_067",
+        "reason": "Đo lường khả năng giải quyết bài toán thực tiễn tỉ số lượng giác"
+      },
+      {
+        "metadata_code": "Hệ thống hóa kiến thức TSLG và hệ thức lượng trong tam giác vuông",
+        "reason": "Đo lường hệ thống hóa kiến thức TSLG và hệ thức lượng"
+      },
+      {
+        "metadata_code": "Giải bài tập trắc nghiệm và tự luận tổng hợp Chương IV",
+        "reason": "Đo lường kỹ năng giải bài tập trắc nghiệm và tự luận Chương IV"
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_065",
+      "questiontext": "Trong tam giác \\(ABC\\) vuông tại \\(A\\), để giải thích tại sao độ dài cạnh góc vuông \\(b\\) (cạnh \\(AC\\)) lại bằng \\(a \\cdot \\sin B\\) (với \\(a = BC\\)), ta sử dụng lập luận nào sau đây?",
+      "generalfeedback": "Theo định nghĩa tỉ số lượng giác, \\(\\sin B = \\frac{\\text{cạnh đối}}{\\text{cạnh huyền}} = \\frac{b}{a}\\). Nhân cả hai vế với \\(a\\), ta được \\(b = a \\cdot \\sin B\\).",
+      "answers": [
+        {
+          "text": "Vì theo định nghĩa, \\(\\sin B = \\frac{\\text{cạnh đối}}{\\text{cạnh huyền}} = \\frac{b}{a}\\), nhân hai vế với \\(a\\) ta được \\(b = a \\cdot \\sin B\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Vì theo định nghĩa, \\(\\sin B = \\frac{\\text{cạnh kề}}{\\text{cạnh huyền}} = \\frac{c}{a}\\), nhân hai vế với \\(a\\) ta được \\(b = a \\cdot \\sin B\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Vì theo định nghĩa, \\(\\tan B = \\frac{\\text{cạnh đối}}{\\text{cạnh kề}} = \\frac{b}{c}\\), nhân hai vế với \\(a\\) ta được \\(b = a \\cdot \\sin B\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Vì theo định nghĩa, \\(\\cos B = \\frac{\\text{cạnh đối}}{\\text{cạnh huyền}} = \\frac{b}{a}\\), nhân hai vế với \\(a\\) ta được \\(b = a \\cdot \\sin B\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_065",
+      "questiontext": "Trong tam giác \\(ABC\\) vuông tại \\(A\\), cạnh góc vuông \\(c\\) (cạnh \\(AB\\)) bằng cạnh huyền \\(a\\) nhân với [[1]] góc đối \\(C\\) hoặc nhân với [[2]] góc kề \\(B\\).",
+      "generalfeedback": "Cạnh góc vuông bằng cạnh huyền nhân với sin góc đối hoặc nhân với côsin góc kề.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "sin"
+        },
+        {
+          "group": 1,
+          "text": "côsin"
+        },
+        {
+          "group": 1,
+          "text": "tang"
+        },
+        {
+          "group": 1,
+          "text": "côtang"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_065",
+      "questiontext": "Cho tam giác \\(ABC\\) vuông tại \\(A\\) có cạnh huyền \\(BC = {a}\\text{ cm}\\) và góc \\(B = 30^\\circ\\). Tính độ dài cạnh góc vuông \\(AC\\) đối diện với góc \\(B\\).",
+      "generalfeedback": "Độ dài cạnh góc vuông \\(AC = BC \\cdot \\sin B = {a} \\cdot \\sin 30^\\circ = {a} \\cdot 0,5\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 6.0,
+          "max": 20.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*0.5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_065",
+      "questiontext": "Trong tam giác vuông, độ dài một cạnh góc vuông luôn bằng cạnh huyền nhân với sin của góc đối diện với cạnh góc vuông đó. Đúng hay Sai?",
+      "generalfeedback": "Đúng. Theo định lí về quan hệ giữa cạnh và góc trong tam giác vuông, mỗi cạnh góc vuông bằng cạnh huyền nhân với sin góc đối.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_066",
+      "questiontext": "Trong tam giác \\(ABC\\) vuông tại \\(A\\), để giải thích tại sao độ dài cạnh góc vuông \\(b\\) (cạnh \\(AC\\)) lại bằng \\(c \\cdot \\tan B\\) (với \\(c = AB\\)), lập luận nào sau đây là đúng?",
+      "generalfeedback": "Theo định nghĩa tỉ số lượng giác, \\(\\tan B = \\frac{\\text{cạnh đối}}{\\text{cạnh kề}} = \\frac{b}{c}\\). Nhân cả hai vế với \\(c\\), ta được \\(b = c \\cdot \\tan B\\).",
+      "answers": [
+        {
+          "text": "Vì theo định nghĩa, \\(\\tan B = \\frac{\\text{cạnh đối}}{\\text{cạnh kề}} = \\frac{b}{c}\\), nhân hai vế với \\(c\\) ta được \\(b = c \\cdot \\tan B\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Vì theo định nghĩa, \\(\\tan B = \\frac{\\text{cạnh kề}}{\\text{cạnh đối}} = \\frac{c}{b}\\), nhân hai vế với \\(c\\) ta được \\(b = c \\cdot \\tan B\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Vì theo định nghĩa, \\(\\sin B = \\frac{\\text{cạnh đối}}{\\text{cạnh kề}} = \\frac{b}{c}\\), nhân hai vế với \\(c\\) ta được \\(b = c \\cdot \\tan B\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Vì theo định nghĩa, \\(\\cot B = \\frac{\\text{cạnh đối}}{\\text{cạnh kề}} = \\frac{b}{c}\\), nhân hai vế với \\(c\\) ta được \\(b = c \\cdot \\tan B\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_066",
+      "questiontext": "Trong tam giác \\(ABC\\) vuông tại \\(A\\), cạnh góc vuông \\(AC\\) bằng cạnh góc vuông \\(AB\\) nhân với [[1]] góc đối \\(B\\), hoặc nhân với [[2]] góc kề \\(C\\).",
+      "generalfeedback": "Cạnh góc vuông bằng cạnh góc vuông kia nhân với tang góc đối hoặc nhân với côtang góc kề.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "tang"
+        },
+        {
+          "group": 1,
+          "text": "côtang"
+        },
+        {
+          "group": 1,
+          "text": "sin"
+        },
+        {
+          "group": 1,
+          "text": "côsin"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_066",
+      "questiontext": "Cho tam giác \\(ABC\\) vuông tại \\(A\\) có cạnh góc vuông \\(AB = {c}\\text{ cm}\\) và góc \\(B = 45^\\circ\\). Tính độ dài cạnh góc vuông \\(AC\\).",
+      "generalfeedback": "Độ dài \\(AC = AB \\cdot \\tan 45^\\circ = {c} \\cdot 1 = {c}\\text{ cm}\\).",
+      "wildcards": [
+        {
+          "name": "c",
+          "min": 2.0,
+          "max": 15.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{c}*1",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_066",
+      "questiontext": "Cho tam giác \\(ABC\\) vuông tại \\(A\\), đặt \\(AB = c\\), \\(AC = b\\), \\(BC = a\\). Hãy ghép mỗi hệ thức ở cột trái với nội dung thích hợp ở cột phải:",
+      "generalfeedback": "Hệ thức liên hệ giữa các cạnh và góc trong tam giác vuông.",
+      "subquestions": [
+        {
+          "question": "\\(b = c \\cdot \\tan B\\)",
+          "answer": "Cạnh góc vuông bằng cạnh góc vuông kia nhân tang góc đối"
+        },
+        {
+          "question": "\\(c = b \\cdot \\cot B\\)",
+          "answer": "Cạnh góc vuông bằng cạnh góc vuông kia nhân côtang góc kề"
+        },
+        {
+          "question": "\\(b = a \\cdot \\sin B\\)",
+          "answer": "Cạnh góc vuông bằng cạnh huyền nhân sin góc đối"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_067",
+      "imgs": [
+        "_page_1_Picture_1.jpeg"
+      ],
+      "questiontext": "Một cây cao bị gãy, ngọn cây đổ xuống mặt đất. Ba điểm: gốc cây, điểm gãy, ngọn cây tạo thành một tam giác vuông. Đoạn cây gãy tạo với mặt đất góc \\(20^\\circ\\) và chắn ngang lối đi một đoạn \\(5\\text{ m}\\) [img:_page_1_Picture_1.jpeg]. Hỏi trước khi bị gãy, cây cao khoảng bao nhiêu mét? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị, làm tròn đến hàng phần mười)",
+      "generalfeedback": "Chiều cao phần đứng: \\(5 \\cdot \\tan 20^\\circ \\approx 1,82\\text{ m}\\). Chiều cao phần gãy: \\(5 / \\cos 20^\\circ \\approx 5,32\\text{ m}\\). Tổng chiều cao trước khi gãy: \\(1,82 + 5,32 = 7,14 \\approx 7,1\\text{ m}\\).",
+      "answers": [
+        {
+          "text": "7.1",
+          "fraction": 100,
+          "tolerance": 0.1
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_067",
+      "imgs": [
+        "_page_0_Figure_33.jpeg"
+      ],
+      "questiontext": "Hình 4.35 mô tả mô hình một túp lều [img:_page_0_Figure_33.jpeg]. Biết cạnh mái lều dài \\(2,2\\text{ m}\\) và chiều cao túp lều là \\(1,5\\text{ m}\\). Tìm góc \\(\\alpha\\) giữa cạnh mái lều và mặt đất (làm tròn kết quả đến phút).",
+      "generalfeedback": "\\(\\sin \\alpha = \\frac{1,5}{2,2} \\approx 0,681818 \\Rightarrow \\alpha \\approx 42^\\circ 59'\\).",
+      "answers": [
+        {
+          "text": "\\(42^\\circ 59'\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(47^\\circ 01'\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(34^\\circ 15'\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(52^\\circ 12'\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_067",
+      "imgs": [
+        "_page_1_Picture_12.jpeg"
+      ],
+      "questiontext": "Vào khoảng năm 200 TCN, Eratosthenes đã ước lượng chu vi Trái Đất [img:_page_1_Picture_12.jpeg]. Ghép mỗi dữ kiện/yếu tố ở cột trái với thông tin tương ứng ở cột phải:",
+      "generalfeedback": "Dựa trên quan sát bóng của tháp tại Alexandria và góc chiếu tia sáng mặt trời tại Syene, Eratosthenes đã tính được chu vi Trái Đất.",
+      "subquestions": [
+        {
+          "question": "Chiều cao tháp tại Alexandria",
+          "answer": "25 m"
+        },
+        {
+          "question": "Độ dài bóng tháp trên mặt đất",
+          "answer": "3,1 m"
+        },
+        {
+          "question": "Khoảng cách giữa Alexandria và Syene",
+          "answer": "800 km"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống hóa kiến thức TSLG và hệ thức lượng trong tam giác vuông",
+      "questiontext": "Cho tam giác \\(ABC\\) vuông tại \\(A\\). Tỉ số lượng giác \\(\\sin B\\) được định nghĩa là tỉ số giữa:",
+      "generalfeedback": "Sin của góc nhọn B là tỉ số giữa cạnh đối và cạnh huyền.",
+      "answers": [
+        {
+          "text": "Cạnh đối và cạnh huyền",
+          "fraction": 100
+        },
+        {
+          "text": "Cạnh kề và cạnh huyền",
+          "fraction": 0
+        },
+        {
+          "text": "Cạnh đối và cạnh kề",
+          "fraction": 0
+        },
+        {
+          "text": "Cạnh kề và cạnh đối",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Hệ thống hóa kiến thức TSLG và hệ thức lượng trong tam giác vuông",
+      "questiontext": "Nếu hai góc nhọn \\(\\alpha\\) và \\(\\beta\\) phụ nhau (\\(\\alpha + \\beta = 90^\\circ\\)) thì \\(\\sin \\alpha = \\cos \\beta\\). Đúng hay Sai?",
+      "generalfeedback": "Đúng. Nếu hai góc phụ nhau thì sin góc này bằng côsin góc kia, tang góc này bằng côtang góc kia.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống hóa kiến thức TSLG và hệ thức lượng trong tam giác vuông",
+      "questiontext": "Với mọi góc nhọn \\(\\alpha\\), đẳng thức nào sau đây đúng (Bài 4.24 SGK)?",
+      "generalfeedback": "Vì góc \\(90^\\circ - \\alpha\\) phụ với góc \\(\\alpha\\) nên \\(\\sin(90^\\circ - \\alpha) = \\cos \\alpha\\). Do đó đáp án A đúng.",
+      "answers": [
+        {
+          "text": "\\(\\sin (90^\\circ - \\alpha) = \\cos \\alpha\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\tan (90^\\circ - \\alpha) = \\cos \\alpha\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\cot (90^\\circ - \\alpha) = 1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\cot (90^\\circ - \\alpha) = \\sin \\alpha\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống hóa kiến thức TSLG và hệ thức lượng trong tam giác vuông",
+      "questiontext": "Giá trị \\(\\tan 30^\\circ\\) bằng bao nhiêu (Bài 4.25 SGK)?",
+      "generalfeedback": "\\(\\tan 30^\\circ = \\frac{1}{\\sqrt{3}} = \\frac{\\sqrt{3}}{3}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{1}{\\sqrt{3}}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\sqrt{3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{\\sqrt{3}}{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "1",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Giải bài tập trắc nghiệm và tự luận tổng hợp Chương IV",
+      "imgs": [
+        "_page_0_Figure_7.jpeg"
+      ],
+      "questiontext": "Trong Hình 4.32 [img:_page_0_Figure_7.jpeg], biết tam giác vuông có các cạnh góc vuông là 3 và 4, cạnh huyền là 5. Giá trị \\(\\cos \\alpha\\) (với \\(\\alpha\\) là góc kề cạnh 3) bằng:",
+      "generalfeedback": "\\(\\cos \\alpha = \\frac{\\text{cạnh kề}}{\\text{cạnh huyền}} = \\frac{3}{5}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{3}{5}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{5}{3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{3}{4}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{4}{5}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Giải bài tập trắc nghiệm và tự luận tổng hợp Chương IV",
+      "imgs": [
+        "_page_0_Picture_19.jpeg"
+      ],
+      "questiontext": "Trong tam giác \\(MNP\\) vuông tại \\(M\\) [img:_page_0_Picture_19.jpeg], \\(\\sin \\widehat{MNP}\\) bằng (Bài 4.22 SGK):",
+      "generalfeedback": "\\(\\sin \\widehat{MNP} = \\frac{\\text{cạnh đối}}{\\text{cạnh huyền}} = \\frac{MP}{PN}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{MP}{PN}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{PN}{NM}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{MN}{PN}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{MN}{MP}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Giải bài tập trắc nghiệm và tự luận tổng hợp Chương IV",
+      "imgs": [
+        "_page_0_Picture_19.jpeg"
+      ],
+      "questiontext": "Trong tam giác \\(ABC\\) vuông tại \\(A\\) [img:_page_0_Picture_19.jpeg], \\(\\tan B\\) bằng (Bài 4.23 SGK):",
+      "generalfeedback": "\\(\\tan B = \\frac{\\text{cạnh đối}}{\\text{cạnh kề}} = \\frac{AC}{AB}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{AC}{AB}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{AB}{AC}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{AC}{BC}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{BC}{AC}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "Giải bài tập trắc nghiệm và tự luận tổng hợp Chương IV",
+      "questiontext": "Xét các tam giác vuông có một góc nhọn bằng hai lần góc nhọn còn lại (Bài 4.26 SGK). Mối quan hệ và giá trị TSLG của góc nhọn lớn hơn \\(\\alpha = 60^\\circ\\) là gì?",
+      "generalfeedback": "Góc nhọn nhỏ hơn là 30°, góc nhọn lớn hơn là 60°. Mọi tam giác vuông như vậy đều đồng dạng với nhau (có góc 30°-60°-90°). \\(\\sin 60^\\circ = \\frac{\\sqrt{3}}{2}\\), \\(\\cos 60^\\circ = \\frac{1}{2}\\).",
+      "subquestions": [
+        {
+          "question": "Các tam giác đó có đồng dạng với nhau không?",
+          "answer": "Có đồng dạng với nhau"
+        },
+        {
+          "question": "Giá trị \\(\\sin\\) của góc nhọn lớn hơn (\\(60^\\circ\\))",
+          "answer": "\\(\\frac{\\sqrt{3}}{2}\\)"
+        },
+        {
+          "question": "Giá trị \\(\\cos\\) của góc nhọn lớn hơn (\\(60^\\circ\\))",
+          "answer": "\\(\\frac{1}{2}\\)"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_067",
+      "imgs": [
+        "_page_1_Picture_12.jpeg"
+      ],
+      "questiontext": "Vào khoảng năm 200 TCN, Eratosthenes đã ước lượng chu vi Trái Đất [img:_page_1_Picture_12.jpeg]. Ghép mỗi dữ kiện/yếu tố ở cột trái với thông tin tương ứng ở cột phải:",
+      "generalfeedback": "Dựa trên quan sát bóng của tháp tại Alexandria và góc chiếu tia sáng mặt trời tại Syene, Eratosthenes đã tính được chu vi Trái Đất.",
+      "subquestions": [
+        {
+          "question": "Chiều cao tháp tại Alexandria",
+          "answer": "25 m"
+        },
+        {
+          "question": "Độ dài bóng tháp trên mặt đất",
+          "answer": "3,1 m"
+        },
+        {
+          "question": "Khoảng cách giữa Alexandria và Syene",
+          "answer": "800 km"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống hóa kiến thức TSLG và hệ thức lượng trong tam giác vuông",
+      "questiontext": "Cho tam giác \\(ABC\\) vuông tại \\(A\\). Tỉ số lượng giác \\(\\sin B\\) được định nghĩa là tỉ số giữa:",
+      "generalfeedback": "Sin của góc nhọn B là tỉ số giữa cạnh đối và cạnh huyền.",
+      "answers": [
+        {
+          "text": "Cạnh đối và cạnh huyền",
+          "fraction": 100
+        },
+        {
+          "text": "Cạnh kề và cạnh huyền",
+          "fraction": 0
+        },
+        {
+          "text": "Cạnh đối và cạnh kề",
+          "fraction": 0
+        },
+        {
+          "text": "Cạnh kề và cạnh đối",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Hệ thống hóa kiến thức TSLG và hệ thức lượng trong tam giác vuông",
+      "questiontext": "Nếu hai góc nhọn \\(\\alpha\\) và \\(\\beta\\) phụ nhau (\\(\\alpha + \\beta = 90^\\circ\\)) thì \\(\\sin \\alpha = \\cos \\beta\\). Đúng hay Sai?",
+      "generalfeedback": "Đúng. Nếu hai góc phụ nhau thì sin góc này bằng côsin góc kia, tang góc này bằng côtang góc kia.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống hóa kiến thức TSLG và hệ thức lượng trong tam giác vuông",
+      "questiontext": "Với mọi góc nhọn \\(\\alpha\\), đẳng thức nào sau đây đúng (Bài 4.24 SGK)?",
+      "generalfeedback": "Vì góc \\(90^\\circ - \\alpha\\) phụ với góc \\(\\alpha\\) nên \\(\\sin(90^\\circ - \\alpha) = \\cos \\alpha\\). Do đó đáp án A đúng.",
+      "answers": [
+        {
+          "text": "\\(\\sin (90^\\circ - \\alpha) = \\cos \\alpha\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\tan (90^\\circ - \\alpha) = \\cos \\alpha\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\cot (90^\\circ - \\alpha) = 1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\cot (90^\\circ - \\alpha) = \\sin \\alpha\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống hóa kiến thức TSLG và hệ thức lượng trong tam giác vuông",
+      "questiontext": "Giá trị \\(\\tan 30^\\circ\\) bằng bao nhiêu (Bài 4.25 SGK)?",
+      "generalfeedback": "\\(\\tan 30^\\circ = \\frac{1}{\\sqrt{3}} = \\frac{\\sqrt{3}}{3}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{1}{\\sqrt{3}}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\sqrt{3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{\\sqrt{3}}{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "1",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Giải bài tập trắc nghiệm và tự luận tổng hợp Chương IV",
+      "imgs": [
+        "_page_0_Figure_7.jpeg"
+      ],
+      "questiontext": "Trong Hình 4.32 [img:_page_0_Figure_7.jpeg], biết tam giác vuông có các cạnh góc vuông là 3 và 4, cạnh huyền là 5. Giá trị \\(\\cos \\alpha\\) (với \\(\\alpha\\) là góc kề cạnh 3) bằng:",
+      "generalfeedback": "\\(\\cos \\alpha = \\frac{\\text{cạnh kề}}{\\text{cạnh huyền}} = \\frac{3}{5}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{3}{5}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{5}{3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{3}{4}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{4}{5}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Giải bài tập trắc nghiệm và tự luận tổng hợp Chương IV",
+      "imgs": [
+        "_page_0_Picture_19.jpeg"
+      ],
+      "questiontext": "Trong tam giác \\(MNP\\) vuông tại \\(M\\) [img:_page_0_Picture_19.jpeg], \\(\\sin \\widehat{MNP}\\) bằng (Bài 4.22 SGK):",
+      "generalfeedback": "\\(\\sin \\widehat{MNP} = \\frac{\\text{cạnh đối}}{\\text{cạnh huyền}} = \\frac{MP}{PN}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{MP}{PN}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{PN}{NM}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{MN}{PN}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{MN}{MP}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Giải bài tập trắc nghiệm và tự luận tổng hợp Chương IV",
+      "imgs": [
+        "_page_0_Picture_19.jpeg"
+      ],
+      "questiontext": "Trong tam giác \\(ABC\\) vuông tại \\(A\\) [img:_page_0_Picture_19.jpeg], \\(\\tan B\\) bằng (Bài 4.23 SGK):",
+      "generalfeedback": "\\(\\tan B = \\frac{\\text{cạnh đối}}{\\text{cạnh kề}} = \\frac{AC}{AB}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{AC}{AB}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{AB}{AC}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{AC}{BC}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{BC}{AC}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "Giải bài tập trắc nghiệm và tự luận tổng hợp Chương IV",
+      "questiontext": "Xét các tam giác vuông có một góc nhọn bằng hai lần góc nhọn còn lại (Bài 4.26 SGK). Mối quan hệ và giá trị TSLG của góc nhọn lớn hơn \\(\\alpha = 60^\\circ\\) là gì?",
+      "generalfeedback": "Góc nhọn nhỏ hơn là 30°, góc nhọn lớn hơn là 60°. Mọi tam giác vuông như vậy đều đồng dạng với nhau (có góc 30°-60°-90°). \\(\\sin 60^\\circ = \\frac{\\sqrt{3}}{2}\\), \\(\\cos 60^\\circ = \\frac{1}{2}\\).",
+      "subquestions": [
+        {
+          "question": "Các tam giác đó có đồng dạng với nhau không?",
+          "answer": "Có đồng dạng với nhau"
+        },
+        {
+          "question": "Giá trị \\(\\sin\\) của góc nhọn lớn hơn (\\(60^\\circ\\))",
+          "answer": "\\(\\frac{\\sqrt{3}}{2}\\)"
+        },
+        {
+          "question": "Giá trị \\(\\cos\\) của góc nhọn lớn hơn (\\(60^\\circ\\))",
+          "answer": "\\(\\frac{1}{2}\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi gặp bài toán thực tế phức tạp về tính chu vi Trái Đất của Eratosthenes (Bài 4.30 SGK) với các số liệu góc và khoảng cách khó nhẩm, bạn An cảm thấy lúng túng và chưa tìm ra đáp án ngay. Hành động nào sau đây thể hiện tinh thần luôn cố gắng vươn lên trong học tập của An?",
+      "generalfeedback": "Thái độ tích cực, kiên trì tự học, chủ động tìm tòi xem lại lý thuyết tỉ số lượng giác và kiểm tra lại các bước tính toán thể hiện sự nỗ lực vươn lên đạt kết quả tốt.",
+      "answers": [
+        {
+          "text": "Kiên trì xem lại lý thuyết về tỉ số lượng giác, vẽ lại sơ đồ tam giác vuông và chủ động từng bước tính toán lại.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài toán khó này và chỉ làm những bài trắc nghiệm đơn giản.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép ngay lời giải của bạn khác vào vở mà không cần hiểu cách làm.",
+          "fraction": 0
+        },
+        {
+          "text": "Cho rằng kiến thức này không ứng dụng được nên không cần nỗ lực giải.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Để hệ thống hóa và lưu giữ thông tin cốt lõi của Chương IV (Tỉ số lượng giác của góc nhọn và Hệ thức lượng trong tam giác vuông), em hãy ghép mỗi từ khóa/tóm tắt ở cột trái với nội dung định nghĩa tương ứng ở cột phải:",
+      "generalfeedback": "Lưu giữ thông tin có chọn lọc bằng cách phân loại chính xác các từ khóa và khái niệm cốt lõi của bài học.",
+      "subquestions": [
+        {
+          "question": "Sin của góc nhọn \\(\\alpha\\)",
+          "answer": "Tỉ số giữa cạnh đối và cạnh huyền"
+        },
+        {
+          "question": "Côsin của góc nhọn \\(\\alpha\\)",
+          "answer": "Tỉ số giữa cạnh kề và cạnh huyền"
+        },
+        {
+          "question": "Tang của góc nhọn \\(\\alpha\\)",
+          "answer": "Tỉ số giữa cạnh đối và cạnh kề"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Một nhóm học sinh muốn đo chiều cao của cột cờ trường mà không thể trèo lên đỉnh cột cờ. Dựa trên kiến thức về hệ thức giữa cạnh và góc trong tam giác vuông (Chương IV), nhóm nên đề xuất giải pháp đo đạc thực địa nào sau đây là hợp lý nhất?",
+      "generalfeedback": "Đo khoảng cách từ gốc cột cờ đến vị trí đứng \\(d\\), dùng giác kế đo góc nâng \\(\\alpha\\) tới đỉnh cột cờ, rồi tính chiều cao cột cờ theo công thức \\(h = d \\cdot \\tan \\alpha\\) (cộng thêm chiều cao giác kế).",
+      "answers": [
+        {
+          "text": "Đo khoảng cách \\(d\\) từ điểm đứng đến gốc cột cờ, dùng giác kế đo góc nâng \\(\\alpha\\) tới đỉnh cột cờ, rồi tính chiều cao theo công thức \\(h = d \\cdot \\tan \\alpha\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Đo chiều dài bóng cột cờ rồi khẳng định chiều cao cột cờ luôn bằng đúng chiều dài bóng đó.",
+          "fraction": 0
+        },
+        {
+          "text": "Dùng dây thừng ném lên đỉnh cột cờ để đo trực tiếp mà không cần dùng góc hay tỉ số lượng giác.",
+          "fraction": 0
+        },
+        {
+          "text": "Ước lượng cảm quan bằng mắt thường mà không cần tiến hành bất kỳ phép đo góc hay độ dài nào.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_04",
+      "imgs": [
+        "_page_0_Figure_33.jpeg"
+      ],
+      "questiontext": "Để tính góc dốc \\(\\alpha\\) của mái túp lều so với mặt đất trong Mô hình túp lều (Bài 4.27 SGK, Hình 4.35 [img:_page_0_Figure_33.jpeg]), biết chiều cao túp lều là \\(1,5\\text{ m}\\) và cạnh mái lều dài \\(2,2\\text{ m}\\), kiến thức toán học tương thích nào cần được sử dụng trực tiếp?",
+      "generalfeedback": "Cạnh chiều cao là cạnh đối, cạnh mái lều là cạnh huyền của tam giác vuông. Do đó kiến thức tương thích là tỉ số lượng giác sin của góc nhọn: \\(\\sin \\alpha = \\frac{\\text{cạnh đối}}{\\text{cạnh huyền}}\\).",
+      "answers": [
+        {
+          "text": "Tỉ số lượng giác sin của góc nhọn: \\(\\sin \\alpha = \\frac{\\text{chiều cao}}{\\text{cạnh mái lều}}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Định lí Thales trong tam giác",
+          "fraction": 0
+        },
+        {
+          "text": "Công thức tính diện tích hình tròn",
+          "fraction": 0
+        },
+        {
+          "text": "Tính chất đường trung tuyến trong tam giác đều",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Khi giải bài toán thực tế tính chiều cao cây bị gãy (Bài 4.28 SGK), học sinh cần thực hiện các kỹ năng toán học theo thứ tự: Bước 1: Biểu diễn bài toán thành [[1]] thích hợp; Bước 2: Vận dụng [[2]] để tính độ dài các đoạn thẳng; Bước 3: Thực hiện phép cộng và [[3]] kết quả theo yêu cầu đề bài.",
+      "generalfeedback": "Sử dụng kĩ năng mô hình hóa tam giác vuông, áp dụng tỉ số lượng giác và làm tròn số theo đúng yêu cầu thực tiễn.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "tam giác vuông"
+        },
+        {
+          "group": 1,
+          "text": "tỉ số lượng giác"
+        },
+        {
+          "group": 1,
+          "text": "làm tròn"
+        },
+        {
+          "group": 1,
+          "text": "hình tròn"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "2.1TC2a_K9",
+      "questiontext": "Để vẽ chính xác mô hình tam giác vuông và tự động tính toán, kiểm tra lại giá trị các tỉ số lượng giác \\(\\sin, \\cos, \\tan\\) cho các góc nhọn bất kỳ trong Bài tập cuối chương IV, học sinh nên lựa chọn công cụ/phần mềm số nào sau đây là phù hợp nhất?",
+      "generalfeedback": "Phần mềm hình học động GeoGebra giúp dựng hình tam giác vuông chính xác, đo góc và tính tỉ số lượng giác trực quan.",
+      "answers": [
+        {
+          "text": "Phần mềm hình học động (như GeoGebra) hoặc máy tính cầm tay có chức năng tính tỉ số lượng giác.",
+          "fraction": 100
+        },
+        {
+          "text": "Phần mềm soạn thảo văn bản thuần túy (như Notepad).",
+          "fraction": 0
+        },
+        {
+          "text": "Phần mềm chỉnh sửa ảnh pixel.",
+          "fraction": 0
+        },
+        {
+          "text": "Phần mềm phát video ca nhạc.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "9.A3.1_2",
+      "questiontext": "Khi học sinh nhập câu hỏi: \"Cho tam giác \\(ABC\\) vuông tại \\(A\\) có \\(AB = 3\\text{ cm}, AC = 4\\text{ cm}\\). Tính \\(\\sin B\\)\" vào một trợ lý AI, AI đưa ra câu trả lời: \"\\(\\sin B = \\frac{AB}{AC} = \\frac{3}{4} = 0,75\\)\". Vận dụng tư duy phản biện để đánh giá câu trả lời của AI, em nhận xét như thế nào?",
+      "generalfeedback": "AI đã nhầm lẫn công thức \\(\\sin B = \\frac{\\text{cạnh đối}}{\\text{cạnh huyền}} = \\frac{AC}{BC}\\) thành \\(\\frac{AB}{AC}\\) (là \\(\\cot B\\)). Học sinh cần phát triển tư duy phản biện để phát hiện lỗi sai này của AI.",
+      "answers": [
+        {
+          "text": "AI trả lời sai vì \\(\\sin B = \\frac{\\text{cạnh đối}}{\\text{cạnh huyền}} = \\frac{AC}{BC} = \\frac{4}{5} = 0,8\\), AI đã nhầm sin với côtang.",
+          "fraction": 100
+        },
+        {
+          "text": "AI trả lời hoàn toàn chính xác vì AI luôn đúng trong mọi phép tính toán.",
+          "fraction": 0
+        },
+        {
+          "text": "AI trả lời sai vì tam giác vuông không thể có cạnh bằng 3 và 4.",
+          "fraction": 0
+        },
+        {
+          "text": "AI trả lời đúng vì \\(\\sin B\\) luôn bằng cạnh kề chia cạnh đối.",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

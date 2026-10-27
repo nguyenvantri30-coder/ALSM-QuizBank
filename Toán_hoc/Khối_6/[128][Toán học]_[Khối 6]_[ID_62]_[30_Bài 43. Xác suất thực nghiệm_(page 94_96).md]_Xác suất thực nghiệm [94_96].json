@@ -1,0 +1,488 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 18,
+    "metadata_used": {
+      "Khái niệm xác suất thực nghiệm": 3,
+      "Công thức tính xác suất thực nghiệm = (Số lần sự kiện xảy ra) / (Tổng số lần thực hiện)": 3,
+      "Tính xác suất thực nghiệm của một sự kiện qua kết quả kiểm đếm": 6,
+      "YCCD_TOAN6_149": 4,
+      "YCCD_TOAN6_150": 4,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TRUNGTHUC_CHUNG_C2_01": 1,
+      "SUB_TCTH_TUHOC_C2_04": 1,
+      "SUB_GQVD_PHATHIEN_C2_01": 1,
+      "NLT_TOAN_C2_01_02": 1,
+      "NLT_TOAN_C2_02_03": 2
+    },
+    "types_used": {
+      "multichoice": 8,
+      "truefalse": 2,
+      "shortanswer": 1,
+      "numerical": 1,
+      "gapselect": 2,
+      "matching": 3,
+      "calculated": 1
+    },
+    "total": 18
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "Khái niệm xác suất thực nghiệm",
+        "reason": "Khái niệm xác suất thực nghiệm trong SGK"
+      },
+      {
+        "metadata_code": "Công thức tính xác suất thực nghiệm = (Số lần sự kiện xảy ra) / (Tổng số lần thực hiện)",
+        "reason": "Công thức tính xác suất thực nghiệm"
+      },
+      {
+        "metadata_code": "Tính xác suất thực nghiệm của một sự kiện qua kết quả kiểm đếm",
+        "reason": "Kỹ năng tính xác suất thực nghiệm từ bảng dữ liệu kiểm đếm"
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_149",
+        "reason": "YCCĐ làm quen với việc mô tả xác suất thực nghiệm"
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_150",
+        "reason": "YCCĐ sử dụng phân số để mô tả xác suất thực nghiệm qua kiểm đếm"
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Phẩm chất chăm chỉ, vươn lên trong học tập"
+      },
+      {
+        "metadata_code": "SUB_TRUNGTHUC_CHUNG_C2_01",
+        "reason": "Phẩm chất trung thực, thống nhất lời nói và việc làm"
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+        "reason": "NLC lưu giữ thông tin có chọn lọc bằng bảng biểu, từ khóa"
+      },
+      {
+        "metadata_code": "SUB_GQVD_PHATHIEN_C2_01",
+        "reason": "NLC phân tích tình huống trong học tập"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_02",
+        "reason": "NLĐT quan sát dữ liệu thực tiễn"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_02_03",
+        "reason": "NLĐT sử dụng mô hình toán học mô tả thực tiễn"
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm xác suất thực nghiệm",
+      "questiontext": "Xác suất thực nghiệm của một sự kiện phụ thuộc vào yếu tố nào sau đây?",
+      "generalfeedback": "Xác suất thực nghiệm phụ thuộc vào người thực hiện thí nghiệm, trò chơi và số lần người đó thực hiện thí nghiệm, trò chơi.",
+      "answers": [
+        {
+          "text": "Người thực hiện và số lần thực hiện thí nghiệm, trò chơi.",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ phụ thuộc vào hình dạng của dụng cụ thí nghiệm.",
+          "fraction": 0
+        },
+        {
+          "text": "Không phụ thuộc vào số lần thực hiện thí nghiệm.",
+          "fraction": 0
+        },
+        {
+          "text": "Luôn luôn cố định và bằng 1 đối với mọi sự kiện.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm xác suất thực nghiệm",
+      "questiontext": "Khả năng xảy ra một sự kiện được thể hiện bằng một con số từ 0 đến 1 (hay từ 0% đến 100%).",
+      "generalfeedback": "Khả năng xảy ra một sự kiện được thể hiện bằng một con số từ 0 đến 1. Khả năng bằng 0 có nghĩa sự kiện không bao giờ xảy ra, bằng 1 có nghĩa sự kiện chắc chắn xảy ra.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức tính xác suất thực nghiệm = (Số lần sự kiện xảy ra) / (Tổng số lần thực hiện)",
+      "questiontext": "Công thức tính xác suất thực nghiệm của sự kiện \\(A\\) khi thực hiện \\(n\\) lần thí nghiệm và sự kiện \\(A\\) xảy ra \\(k\\) lần là:",
+      "generalfeedback": "Xác suất thực nghiệm = (Số lần sự kiện xảy ra) / (Tổng số lần thực hiện) = \\(\\frac{k}{n}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{k}{n}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{n}{k}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(k \\times n\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(n - k\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức tính xác suất thực nghiệm = (Số lần sự kiện xảy ra) / (Tổng số lần thực hiện)",
+      "questiontext": "Một sự kiện chắc chắn xảy ra thì khả năng xảy ra của sự kiện đó bằng bao nhiêu?",
+      "generalfeedback": "Khả năng bằng 1 (hay 100%) có nghĩa sự kiện đó chắc chắn xảy ra.",
+      "answers": [
+        {
+          "text": "1",
+          "fraction": 100
+        },
+        {
+          "text": "100%",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính xác suất thực nghiệm của một sự kiện qua kết quả kiểm đếm",
+      "questiontext": "Khoa thực hiện lấy ngẫu nhiên một viên bi từ túi 30 lần và có 13 lần lấy được viên bi màu đỏ. Tính xác suất thực nghiệm của sự kiện Khoa lấy được viên bi màu đỏ. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị).",
+      "generalfeedback": "Xác suất thực nghiệm là \\(\\frac{13}{30} \\approx 0.4333\\).",
+      "answers": [
+        {
+          "text": "0.4333",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Tính xác suất thực nghiệm của một sự kiện qua kết quả kiểm đếm",
+      "questiontext": "Trong buổi thực hành đo thể tích vật thể, lớp 6A có 40 học sinh thực hiện phép đo thì có 35 học sinh thực hiện thành công. Xác suất thực nghiệm của sự kiện \"Phép đo được thực hiện thành công\" là:",
+      "generalfeedback": "Xác suất thực nghiệm = \\(\\frac{35}{40} = \\frac{7}{8} = 87,5\\%\\).",
+      "answers": [
+        {
+          "text": "87,5%",
+          "fraction": 100
+        },
+        {
+          "text": "35%",
+          "fraction": 0
+        },
+        {
+          "text": "12,5%",
+          "fraction": 0
+        },
+        {
+          "text": "40%",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_149",
+      "questiontext": "Khi thực hiện thí nghiệm hoặc trò chơi, một sự kiện có khả năng bằng 0 có nghĩa là sự kiện đó [[1]], còn khả năng bằng 1 có nghĩa là sự kiện đó [[2]].",
+      "generalfeedback": "Khả năng bằng 0 (0%) nghĩa là không bao giờ xảy ra. Khả năng bằng 1 (100%) nghĩa là chắc chắn xảy ra.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "không bao giờ xảy ra"
+        },
+        {
+          "group": 1,
+          "text": "chắc chắn xảy ra"
+        },
+        {
+          "group": 1,
+          "text": "có thể xảy ra"
+        },
+        {
+          "group": 1,
+          "text": "luôn luôn đúng"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_149",
+      "questiontext": "Hãy ghép mỗi mô tả khả năng xảy ra của sự kiện ở cột bên trái với con số thể hiện tương ứng ở cột bên phải:",
+      "generalfeedback": "Khả năng không bao giờ xảy ra tương ứng với 0; chắc chắn xảy ra tương ứng với 1; có thể xảy ra nhận giá trị từ 0 đến 1.",
+      "subquestions": [
+        {
+          "question": "Sự kiện không bao giờ xảy ra",
+          "answer": "0"
+        },
+        {
+          "question": "Sự kiện chắc chắn xảy ra",
+          "answer": "1"
+        },
+        {
+          "question": "Sự kiện có khả năng xảy ra 50%",
+          "answer": "0,5"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_150",
+      "questiontext": "Bình thực hiện trò chơi lấy bóng từ thùng kín {n} lần và ghi lại số lần lấy được bóng màu xanh là {k} lần. Công thức tính xác suất thực nghiệm của sự kiện lấy được bóng màu xanh là:",
+      "generalfeedback": "Xác suất thực nghiệm = \\(\\frac{k}{n}\\) = {k}/{n}.",
+      "wildcards": [
+        {
+          "name": "n",
+          "min": 50.0,
+          "max": 100.0,
+          "decimals": 0
+        },
+        {
+          "name": "k",
+          "min": 10.0,
+          "max": 40.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{k}/{n}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_150",
+      "questiontext": "An quay tấm bìa hình tròn như Hình 9.30 [img:_page_2_Picture_7.jpeg]. Kết quả kiểm đếm cho thấy mũi tên chỉ vào ô màu xanh 15 lần và ô màu vàng 7 lần. Phân số mô tả xác suất thực nghiệm của sự kiện \"Mũi tên chỉ vào ô màu xanh\" là:",
+      "imgs": [
+        "_page_2_Picture_7.jpeg"
+      ],
+      "generalfeedback": "Tổng số lần quay n = 15 + 7 = 22. Số lần xuất hiện màu xanh k = 15. Xác suất thực nghiệm = \\(\\frac{15}{22}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{15}{22}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{7}{22}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{15}{7}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{7}{15}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Bạn Nam làm thí nghiệm gieo con xúc xắc 20 lần và thấy xác suất thực nghiệm xuất hiện mặt 6 chấm khác khá nhiều so với dự đoán lý thuyết làm Nam tỏ ra nản lòng. Để vươn lên đạt kết quả tốt và hiểu rõ hơn về xác suất thực nghiệm, bạn Nam nên làm gì?",
+      "generalfeedback": "Để hiểu rõ bản chất xác suất thực nghiệm và kiên trì vươn lên trong học tập, Nam nên tiếp tục kiên trì thực hiện thí nghiệm với số lần gieo nhiều hơn (như 50, 100 lần) và thống kê cẩn thận.",
+      "answers": [
+        {
+          "text": "Kiên trì thực hiện thêm nhiều lần gieo nữa (như 50, 100 lần) và ghi chép thống kê cẩn thận.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua thí nghiệm và tự bịa ra số liệu cho giống với dự đoán lý thuyết.",
+          "fraction": 0
+        },
+        {
+          "text": "Dừng ngay thí nghiệm và kết luận rằng lý thuyết hoàn toàn sai.",
+          "fraction": 0
+        },
+        {
+          "text": "Nhờ bạn khác làm hộ toàn bộ bài tập mà không cần tìm hiểu nguyên nhân.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TRUNGTHUC_CHUNG_C2_01",
+      "questiontext": "Trong giờ thực hành gieo đồng xu 50 lần, bạn Bình thu được 22 lần xuất hiện mặt sấp. Vì muốn báo cáo thành tích cao cho tổ, Bình định ghi vào bảng kết quả là 25 lần. Thể hiện sự thống nhất giữa lời nói với việc làm và tính trung thực trong học tập, Bình nên chọn cách xử lý nào?",
+      "generalfeedback": "Thống nhất giữa lời nói và việc làm thể hiện ở sự trung thực. Bình cần ghi đúng kết quả thực tế là 22 lần xuất hiện mặt sấp vì xác suất thực nghiệm phản ánh đúng dữ liệu kiểm đếm thực tế.",
+      "answers": [
+        {
+          "text": "Ghi đúng kết quả kiểm đếm thực tế là 22 lần xuất hiện mặt sấp vào bảng báo cáo.",
+          "fraction": 100
+        },
+        {
+          "text": "Sửa số liệu thành 25 lần để báo cáo của tổ đạt kết quả đẹp hơn.",
+          "fraction": 0
+        },
+        {
+          "text": "Không ghi số liệu thực tế mà chép số liệu từ bài của bạn bên cạnh.",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ trống bảng báo cáo và không nộp bài cho giáo viên.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Để lưu giữ thông tin có chọn lọc và trình bày dữ liệu xác suất thực nghiệm một cách khoa học sau khi gieo con xúc xắc 100 lần, hãy ghép mỗi thành phần thông tin ở cột bên trái với hình thức lưu giữ/tóm tắt tương ứng ở cột bên phải:",
+      "generalfeedback": "Việc tổ chức thông tin bằng bảng biểu, từ khóa và tóm tắt giúp lưu giữ dữ liệu xác suất thực nghiệm một cách có chọn lọc và dễ theo dõi.",
+      "subquestions": [
+        {
+          "question": "Số lần xuất hiện của từng mặt (1 đến 6 chấm)",
+          "answer": "Bảng thống kê kiểm đếm gồm 2 dòng"
+        },
+        {
+          "question": "Công thức tính xác suất thực nghiệm",
+          "answer": "Ghi tóm tắt bằng từ khóa và ký hiệu"
+        },
+        {
+          "question": "Tổng số lần thực hiện thí nghiệm (n = 100)",
+          "answer": "Ghi chú số liệu nền ở đầu bảng"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_PHATHIEN_C2_01",
+      "questiontext": "Hai bạn An và Bích cùng làm thí nghiệm quay tấm bìa 3 màu (xanh, đỏ, vàng). An quay 20 lần thấy mũi tên chỉ vào ô màu xanh 5 lần (xác suất thực nghiệm \\(\\frac{5}{20}\\)). Bích quay 50 lần thấy mũi tên chỉ vào ô màu xanh 15 lần (xác suất thực nghiệm \\(\\frac{15}{50}\\)). An khẳng định Bích đã làm sai vì xác suất thực nghiệm của hai người không giống nhau. Phân tích tình huống học tập này, em có nhận xét gì?",
+      "generalfeedback": "An đã hiểu sai vì xác suất thực nghiệm phụ thuộc vào người thực hiện thí nghiệm và số lần thực hiện thí nghiệm. Do đó, kết quả của An và Bích khác nhau là hoàn toàn bình thường.",
+      "answers": [
+        {
+          "text": "An khẳng định sai, vì xác suất thực nghiệm phụ thuộc vào người thực hiện và số lần thực hiện thí nghiệm.",
+          "fraction": 100
+        },
+        {
+          "text": "An khẳng định đúng, vì xác suất thực nghiệm của cùng một trò chơi luôn luôn phải bằng nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Cả hai bạn đều làm sai vì không tính ra kết quả bằng nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Bích chắc chắn đã quay sai thao tác nên mới cho kết quả khác An.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_02",
+      "questiontext": "Quan sát bảng ghi chép kết quả trò chơi lấy bóng ngẫu nhiên từ thùng kín 100 lần của bạn Bình: bóng xanh (43 lần), bóng đỏ (22 lần), bóng tím (18 lần), bóng vàng (17 lần). Qua quan sát bảng dữ liệu thực tiễn trên, nhận xét nào sau đây là đúng về khả năng xuất hiện các màu bóng?",
+      "generalfeedback": "Từ quan sát bảng thống kê, bóng màu xanh có số lần xuất hiện nhiều nhất (43 lần), do đó xác suất thực nghiệm lấy được bóng màu xanh là cao nhất (43/100).",
+      "answers": [
+        {
+          "text": "Xác suất thực nghiệm lấy được bóng màu xanh là cao nhất (43/100).",
+          "fraction": 100
+        },
+        {
+          "text": "Xác suất thực nghiệm lấy được bóng màu vàng là cao nhất.",
+          "fraction": 0
+        },
+        {
+          "text": "Khả năng lấy được bóng màu đỏ và bóng màu tím là bằng nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Bóng màu vàng không bao giờ có thể lấy ra được.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_02_03",
+      "questiontext": "Một cửa hàng theo dõi số lượng sản phẩm bán ra trong 30 ngày và thấy có 18 ngày bán được từ 10 sản phẩm trở lên. Để sử dụng mô hình toán học mô tả tình huống thực tiễn này, ta dùng phân số [[1]] để biểu diễn xác suất thực nghiệm của sự kiện \"Ngày bán được từ 10 sản phẩm trở lên\", tương ứng với tỉ lệ [[2]].",
+      "generalfeedback": "Mô hình xác suất thực nghiệm được mô tả bằng tỉ số giữa số ngày thành công (18) và tổng số ngày theo dõi (30), tức phân số 18/30 (hay 3/5 = 60%).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(\\frac{18}{30}\\)"
+        },
+        {
+          "group": 1,
+          "text": "60%"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{12}{30}\\)"
+        },
+        {
+          "group": 1,
+          "text": "40%"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong bài thực hành đo thể tích vật thể, nhóm bạn Mai thực hiện 40 lần thì có 10 lần bị thất bại. Thay vì nản lòng, cả nhóm đã cùng thảo luận tìm nguyên nhân kĩ thuật để cải thiện kĩ năng đo cho các lần sau. Hành vi này thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập.",
+      "generalfeedback": "Đúng. Tinh thần vươn lên trong học tập thể hiện ở việc chủ động tìm nguyên nhân thất bại và kiên trì khắc phục để đạt kết quả tốt hơn.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_02_03",
+      "questiontext": "Sử dụng mô hình bảng biểu và xác suất thực nghiệm để mô tả các tình huống thực tiễn sau, hãy ghép mỗi tình huống thực tế ở cột bên trái với phân số mô tả xác suất thực nghiệm tương ứng ở cột bên phải:",
+      "generalfeedback": "Mô hình toán học bám sát công thức: Xác suất thực nghiệm = (Số lần sự kiện xảy ra) / (Tổng số lần quan sát thực tế).",
+      "subquestions": [
+        {
+          "question": "Thủ môn cản phá thành công 7 quả penalty trong 10 lần đối mặt",
+          "answer": "7/10"
+        },
+        {
+          "question": "Kiểm tra 50 sản phẩm phát hiện có 3 sản phẩm bị lỗi",
+          "answer": "3/50"
+        },
+        {
+          "question": "Dự báo thời tiết 30 ngày có 12 ngày mưa",
+          "answer": "12/30"
+        }
+      ]
+    }
+  ]
+}

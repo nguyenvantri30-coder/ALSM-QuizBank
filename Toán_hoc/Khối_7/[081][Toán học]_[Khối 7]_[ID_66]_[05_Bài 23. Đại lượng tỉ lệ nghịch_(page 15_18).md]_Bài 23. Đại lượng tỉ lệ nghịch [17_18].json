@@ -1,0 +1,520 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 20,
+    "metadata_used": {
+      "Tính chất của hai đại lượng tỉ lệ nghịch: tích hai giá trị tương ứng không đổi": 6,
+      "YCCD_TOAN7_044": 4,
+      "Giải các bài toán thực tế về đại lượng tỉ lệ nghịch": 10,
+      "PC_CHAMCHI": 1,
+      "PC_TRACHNHIEM": 1,
+      "NLC_GIAOTIEP": 2,
+      "NLC_GIAIQUYETVD": 2,
+      "NLT_TOAN_C2_02": 2,
+      "NLT_TOAN_C2_03": 2
+    },
+    "types_used": {
+      "multichoice": 8,
+      "matching": 2,
+      "truefalse": 3,
+      "calculated": 1,
+      "shortanswer": 2,
+      "gapselect": 2,
+      "numerical": 1,
+      "calculatedmulti": 1
+    },
+    "total": 20
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_044",
+        "reason": "Đo lường khả năng giải các bài toán đơn giản về đại lượng tỉ lệ nghịch."
+      },
+      {
+        "metadata_code": "Tính chất của hai đại lượng tỉ lệ nghịch: tích hai giá trị tương ứng không đổi",
+        "reason": "Đo lường sự hiểu biết về tính chất của hai đại lượng tỉ lệ nghịch (tích không đổi)."
+      },
+      {
+        "metadata_code": "Giải các bài toán thực tế về đại lượng tỉ lệ nghịch",
+        "reason": "Đo lường kỹ năng giải quyết các bài toán thực tế về đại lượng tỉ lệ nghịch."
+      },
+      {
+        "metadata_code": "PC_CHAMCHI",
+        "reason": "Đo lường phẩm chất chăm chỉ, kiên trì phân tích bài toán thực tế."
+      },
+      {
+        "metadata_code": "PC_TRACHNHIEM",
+        "reason": "Đo lường phẩm chất trách nhiệm trong tính toán kế hoạch thực tiễn."
+      },
+      {
+        "metadata_code": "NLC_GIAOTIEP",
+        "reason": "Đo lường năng lực giao tiếp toán học khi thảo luận nhóm."
+      },
+      {
+        "metadata_code": "NLC_GIAIQUYETVD",
+        "reason": "Đo lường năng lực giải quyết vấn đề và sáng tạo khi biến đổi tỉ số."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_02",
+        "reason": "Đo lường năng lực mô hình hóa toán học các tình huống thực tế."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03",
+        "reason": "Đo lường năng lực giải quyết vấn đề toán học qua các bước lập luận."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Nội dung bài học Toán 7 về đại lượng tỉ lệ nghịch không trực tiếp chứa dữ liệu thực hành về công cụ phần mềm hay hạ tầng tin học."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Bài học thuộc kiến thức đại số nền tảng, không có bối cảnh tự nhiên liên quan tới ứng dụng hoặc thuật toán AI."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Tính chất của hai đại lượng tỉ lệ nghịch: tích hai giá trị tương ứng không đổi",
+      "questiontext": "Cho hai đại lượng \\(x\\) và \\(y\\) tỉ lệ nghịch với nhau. Biết rằng khi \\(x = 4\\) thì \\(y = 6\\). Tích hai giá trị tương ứng \\(x \\cdot y\\) không đổi bằng bao nhiêu?",
+      "generalfeedback": "Tính chất của hai đại lượng tỉ lệ nghịch là tích hai giá trị tương ứng luôn không đổi: \\(x \\cdot y = a\\). Ta có \\(a = 4 \\cdot 6 = 24\\).",
+      "answers": [
+        {
+          "text": "24",
+          "fraction": 100
+        },
+        {
+          "text": "10",
+          "fraction": 0
+        },
+        {
+          "text": "1,5",
+          "fraction": 0
+        },
+        {
+          "text": "2",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Tính chất của hai đại lượng tỉ lệ nghịch: tích hai giá trị tương ứng không đổi",
+      "questiontext": "Ghép mỗi nội dung ở cột bên trái với công thức hoặc phát biểu tương ứng ở cột bên phải về hai đại lượng tỉ lệ nghịch \\(x\\) và \\(y\\) (với hệ số tỉ lệ \\(a \\neq 0\\)):",
+      "generalfeedback": "Hai đại lượng tỉ lệ nghịch \\(x\\) và \\(y\\) liên hệ theo công thức \\(y = \\frac{a}{x}\\) hay \\(x \\cdot y = a\\). Tỉ số hai giá trị bất kỳ của đại lượng này bằng nghịch đảo của tỉ số hai giá trị tương ứng của đại lượng kia: \\(\\frac{x_1}{x_2} = \\frac{y_2}{y_1}\\).",
+      "subquestions": [
+        {
+          "question": "Công thức biểu diễn \\(y\\) theo \\(x\\)",
+          "answer": "\\(y = \\frac{a}{x}\\)"
+        },
+        {
+          "question": "Tích hai giá trị tương ứng",
+          "answer": "\\(x_1 \\cdot y_1 = x_2 \\cdot y_2 = a\\)"
+        },
+        {
+          "question": "Tỉ số hai giá trị bất kỳ của \\(x\\)",
+          "answer": "Bằng nghịch đảo của tỉ số hai giá trị tương ứng của \\(y\\)"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_044",
+      "questiontext": "Khẳng định sau đúng hay sai: \"Nếu hai đại lượng \\(x\\) và \\(y\\) tỉ lệ nghịch với nhau thì khi \\(x\\) tăng lên bao nhiêu lần thì \\(y\\) giảm đi bấy nhiêu lần.\"",
+      "generalfeedback": "Đúng. Theo định nghĩa hai đại lượng tỉ lệ nghịch, khi đại lượng này tăng (hoặc giảm) bao nhiêu lần thì đại lượng kia giảm (hoặc tăng) bấy nhiêu lần.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_044",
+      "imgs": [
+        "_page_0_Picture_9.jpeg"
+      ],
+      "questiontext": "[img:_page_0_Picture_9.jpeg]\nBốn người thợ cùng làm sẽ xây xong một bức tường trong {d} ngày. Hỏi 6 người thợ cùng làm sẽ xây xong bức tường đó trong bao nhiêu ngày (biết năng suất lao động của mỗi người thợ là như nhau)? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Gọi \\(x\\) (ngày) là thời gian 6 người thợ xây xong bức tường. Do số người thợ và thời gian hoàn thành là hai đại lượng tỉ lệ nghịch nên ta có \\(6 \\cdot x = 4 \\cdot {d}\\), suy ra \\(x = \\frac{4 \\cdot {d}}{6}\\).",
+      "wildcards": [
+        {
+          "name": "d",
+          "min": 6.0,
+          "max": 18.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "4*{d}/6",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Giải các bài toán thực tế về đại lượng tỉ lệ nghịch",
+      "questiontext": "Một người mua tổng cộng 65 quả trứng gà gồm ba loại: loại I giá 4 nghìn đồng/quả, loại II giá 3 nghìn đồng/quả và loại III giá 2 nghìn đồng/quả. Tính số trứng loại I người đó đã mua, biết số tiền trả cho mỗi loại trứng là như nhau. (Chỉ điền số)",
+      "generalfeedback": "Gọi \\(x, y, z\\) lần lượt là số trứng loại I, II, III. Ta có \\(x + y + z = 65\\) và \\(4x = 3y = 2z\\) hay \\(\\frac{x}{3} = \\frac{y}{4} = \\frac{z}{6} = \\frac{65}{3+4+6} = 5\\). Do đó \\(x = 3 \\cdot 5 = 15\\) quả.",
+      "answers": [
+        {
+          "text": "15",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "van_dung",
+      "metadata_code": "Giải các bài toán thực tế về đại lượng tỉ lệ nghịch",
+      "questiontext": "Một nhà thầu ước tính có thể hoàn thành công trình trong 12 tháng với 280 công nhân. Nếu hoàn thành trong 10 tháng thì cần [[1]] công nhân. Số công nhân cần thuê thêm là [[2]] công nhân (giải thiết năng suất mỗi công nhân như nhau).",
+      "generalfeedback": "Gọi \\(x\\) là số công nhân làm trong 10 tháng. Vì thời gian và số công nhân là hai đại lượng tỉ lệ nghịch nên \\(10 \\cdot x = 12 \\cdot 280 = 3360 \\Rightarrow x = 336\\) công nhân. Số công nhân cần thuê thêm là \\(336 - 280 = 56\\) công nhân.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "336"
+        },
+        {
+          "group": 1,
+          "text": "56"
+        },
+        {
+          "group": 1,
+          "text": "300"
+        },
+        {
+          "group": 1,
+          "text": "20"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_044",
+      "questiontext": "Cho biết \\(x\\) và \\(y\\) là hai đại lượng tỉ lệ nghịch. Khi \\(x = 2\\) thì \\(y = -6\\). Tìm giá trị của \\(y\\) khi \\(x = 4\\). (Chỉ điền số, sử dụng dấu trừ '-' cho số âm nếu có)",
+      "generalfeedback": "Hệ số tỉ lệ \\(a = x \\cdot y = 2 \\cdot (-6) = -12\\). Khi \\(x = 4\\) thì \\(y = \\frac{-12}{4} = -3\\).",
+      "answers": [
+        {
+          "text": "-3",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Giải các bài toán thực tế về đại lượng tỉ lệ nghịch",
+      "questiontext": "Cho bảng giá trị của hai đại lượng \\(x\\) và \\(y\\):\n\\(x\\): 3; 6; 16; 24\n\\(y\\): 160; 80; 30; 20\nHai đại lượng \\(x\\) và \\(y\\) trong bảng trên có tỉ lệ nghịch với nhau không? Nếu có, hệ số tỉ lệ \\(a\\) bằng bao nhiêu?",
+      "generalfeedback": "Xét các tích: \\(3 \\cdot 160 = 480\\); \\(6 \\cdot 80 = 480\\); \\(16 \\cdot 30 = 480\\); \\(24 \\cdot 20 = 480\\). Vì tất cả các tích \\(x \\cdot y\\) đều bằng 480 nên \\(x\\) và \\(y\\) tỉ lệ nghịch với nhau theo hệ số tỉ lệ \\(a = 480\\).",
+      "answers": [
+        {
+          "text": "Có tỉ lệ nghịch, hệ số tỉ lệ a = 480",
+          "fraction": 100
+        },
+        {
+          "text": "Không tỉ lệ nghịch",
+          "fraction": 0
+        },
+        {
+          "text": "Có tỉ lệ nghịch, hệ số tỉ lệ a = 240",
+          "fraction": 0
+        },
+        {
+          "text": "Có tỉ lệ thuận, hệ số tỉ lệ a = 480",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Tính chất của hai đại lượng tỉ lệ nghịch: tích hai giá trị tương ứng không đổi",
+      "questiontext": "Cho biết \\(y\\) tỉ lệ nghịch với \\(x\\) theo hệ số tỉ lệ \\(a\\) (với \\(a \\neq 0\\)), và \\(x\\) tỉ lệ nghịch với \\(z\\) theo hệ số tỉ lệ \\(b\\) (với \\(b \\neq 0\\)). Hỏi \\(y\\) và \\(z\\) có mối quan hệ như thế nào?",
+      "generalfeedback": "Vì \\(y\\) tỉ lệ nghịch với \\(x\\) theo hệ số \\(a\\) nên \\(y = \\frac{a}{x}\\). Vì \\(x\\) tỉ lệ nghịch với \\(z\\) theo hệ số \\(b\\) nên \\(x = \\frac{b}{z}\\). Thay \\(x\\) vào biểu thức của \\(y\\): \\(y = \\frac{a}{\\frac{b}{z}} = \\frac{a}{b} \\cdot z\\). Vậy \\(y\\) tỉ lệ thuận với \\(z\\) theo hệ số tỉ lệ \\(\\frac{a}{b}\\).",
+      "answers": [
+        {
+          "text": "\\(y\\) tỉ lệ thuận với \\(z\\) theo hệ số tỉ lệ \\(\\frac{a}{b}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(y\\) tỉ lệ nghịch với \\(z\\) theo hệ số tỉ lệ \\(a \\cdot b\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(y\\) tỉ lệ thuận với \\(z\\) theo hệ số tỉ lệ \\(a \\cdot b\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(y\\) tỉ lệ nghịch với \\(z\\) theo hệ số tỉ lệ \\(\\frac{a}{b}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "Giải các bài toán thực tế về đại lượng tỉ lệ nghịch",
+      "questiontext": "Với cùng một số tiền để mua {n} tập giấy A4 loại I có thể mua bao nhiêu tập giấy A4 loại II, biết rằng giá tiền giấy loại II chỉ bằng 85% giá tiền giấy loại I?",
+      "generalfeedback": "Gọi \\(p_1, p_2\\) lần lượt là giá tiền một tập giấy loại I và loại II. Ta có \\(p_2 = 0,85 \\cdot p_1\\). Số tập giấy mua được tỉ lệ nghịch với giá tiền mỗi tập giấy, nên số tập giấy loại II mua được là \\(x = \\frac{n \\cdot p_1}{p_2} = \\frac{n \\cdot p_1}{0,85 \\cdot p_1} = \\frac{n}{0,85}\\).",
+      "wildcards": [
+        {
+          "name": "n",
+          "min": 17.0,
+          "max": 51.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{n}/0.85",
+          "fraction": 100
+        },
+        {
+          "text": "{n}*0.85",
+          "fraction": 0
+        },
+        {
+          "text": "{n}/1.85",
+          "fraction": 0
+        },
+        {
+          "text": "{n}*1.85",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Khi gặp một bài toán thực tế về đại lượng tỉ lệ nghịch phức tạp với nhiều đại lượng (như bài toán mua nhiều loại vở với số tiền bằng nhau), thể hiện tính chăm chỉ trong học tập, em nên chọn cách ứng xử nào sau đây?",
+      "generalfeedback": "Tính chăm chỉ được thể hiện qua việc kiên trì, chủ động phân tích các dữ kiện, biến đổi đẳng thức về dãy tỉ số bằng nhau để tìm ra lời giải chính xác.",
+      "answers": [
+        {
+          "text": "Kiên trì phân tích kỹ các mối liên hệ giữa giá tiền và số lượng, biến đổi dãy đẳng thức về dãy tỉ số bằng nhau để tìm đáp án",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài toán vì thấy có nhiều loại mặt hàng phức tạp",
+          "fraction": 0
+        },
+        {
+          "text": "Đoán mò kết quả để nhanh chóng hoàn thành bài tập",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ làm các câu hỏi trắc nghiệm đơn giản, bỏ qua các bài toán vận dụng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "PC_TRACHNHIEM",
+      "questiontext": "Khẳng định sau đây thể hiện tinh thần trách nhiệm trong công việc: \"Một nhà thầu khi ước tính số lượng công nhân cần thuê để hoàn thành hợp đồng xây dựng đúng hạn cần dựa trên tính toán chính xác về đại lượng tỉ lệ nghịch giữa số công nhân và thời gian thi công, tránh ước tính qua sơ gây trễ tiến độ.\"",
+      "generalfeedback": "Đúng. Tinh thần trách nhiệm thể hiện ở việc tính toán khoa học, chính xác các nguồn lực dựa trên kiến thức toán học (đại lượng tỉ lệ nghịch) để đảm bảo hoàn thành cam kết đúng thời hạn.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_GIAOTIEP",
+      "questiontext": "Khi thảo luận nhóm để giải thích cho các bạn hiểu bài toán: \"Số máy cày và thời gian hoàn thành công việc là hai đại lượng tỉ lệ nghịch\", em nên trình bày: \"Vì năng suất các máy như nhau, nếu số máy cày tăng lên bao nhiêu lần thì thời gian hoàn thành sẽ [[1]] đi bấy nhiêu lần, do đó tích giữa số máy cày và thời gian là một đại lượng [[2]].\"",
+      "generalfeedback": "Để giao tiếp toán học hiệu quả với nhóm, cần sử dụng chính xác thuật ngữ đại lượng tỉ lệ nghịch: khi đại lượng này tăng bao nhiêu lần thì đại lượng kia giảm bấy nhiêu lần, và tích hai đại lượng không đổi.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "giảm"
+        },
+        {
+          "group": 1,
+          "text": "không đổi"
+        },
+        {
+          "group": 1,
+          "text": "tăng"
+        },
+        {
+          "group": 1,
+          "text": "bằng 0"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLC_GIAIQUYETVD",
+      "questiontext": "Khi gặp đẳng thức \\(4x = 3y = 2z\\) biểu diễn mối quan hệ tỉ lệ nghịch giữa số lượng trứng ba loại và giá tiền, để lập dãy tỉ số bằng nhau một cách sáng tạo và thuận tiện nhất cho tính toán, giải pháp tối ưu là:",
+      "generalfeedback": "SGK Bài 23 (trang 17) chỉ ra chú ý sáng tạo: Thay vì dùng phân số phức tạp \\(\\frac{x}{\\frac{1}{4}} = \\frac{y}{\\frac{1}{3}} = \\frac{z}{\\frac{1}{2}}\\), ta chia cả ba thành phần cho 12 (BCNN của 4, 3, 2) để được dãy tỉ số bằng nhau với các số nguyên đơn giản: \\(\\frac{x}{3} = \\frac{y}{4} = \\frac{z}{6}\\).",
+      "answers": [
+        {
+          "text": "Chia cả ba tích cho 12 (BCNN của 4, 3, 2) để đưa về dãy tỉ số bằng nhau với các hệ số nguyên \\(\\frac{x}{3} = \\frac{y}{4} = \\frac{z}{6}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Cộng trực tiếp các hệ số 4, 3, 2 lại với nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Nhân cả ba tích với 12 để làm số lớn hơn",
+          "fraction": 0
+        },
+        {
+          "text": "Giữ nguyên phương trình và giải thử từng cặp số ngẫu nhiên",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_02",
+      "questiontext": "Một công ty chuẩn bị trao quà Tết gồm ba loại túi quà có giá trị mỗi túi lần lượt là 200 nghìn đồng, 300 nghìn đồng và 500 nghìn đồng. Tổng số tiền công ty dự định chi cho mỗi loại túi quà là như nhau. Nếu gọi \\(x, y, z\\) lần lượt là số lượng túi quà mỗi loại, mô hình toán học phản ánh đúng mối quan hệ tỉ lệ nghịch trong tình huống này là:",
+      "generalfeedback": "Do tổng số tiền chi cho mỗi loại túi quà bằng nhau nên tích giữa giá tiền và số lượng túi quà mỗi loại không đổi: \\(200x = 300y = 500z\\), tương đương với đẳng thức tỉ lệ nghịch giữa số lượng và giá tiền.",
+      "answers": [
+        {
+          "text": "\\(200x = 300y = 500z\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{x}{200} = \\frac{y}{300} = \\frac{z}{500}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x + 200 = y + 300 = z + 500\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(200 + x = 300 + y = 500 + z\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_02",
+      "questiontext": "Hãy ghép các tình huống thực tế ở cột bên trái với mô hình đại lượng tỉ lệ nghịch tương ứng ở cột bên phải (giả định các điều kiện khác không đổi):",
+      "generalfeedback": "Mô hình hóa toán học giúp chuyển đổi các quan hệ thực tế (vận tốc - thời gian, số công nhân - thời gian, giá tiền - số lượng) thành dạng toán học của hai đại lượng tỉ lệ nghịch \\(x \\cdot y = a\\).",
+      "subquestions": [
+        {
+          "question": "Vận tốc \\(v\\) và thời gian \\(t\\) đi hết quãng đường \\(S\\)",
+          "answer": "\\(v \\cdot t = S\\)"
+        },
+        {
+          "question": "Số công nhân \\(n\\) và số ngày \\(d\\) hoàn thành công việc \\(W\\)",
+          "answer": "\\(n \\cdot d = W\\)"
+        },
+        {
+          "question": "Giá tiền một quyển vở \\(p\\) và số quyển vở mua được \\(q\\) với số tiền \\(M\\)",
+          "answer": "\\(p \\cdot q = M\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "questiontext": "Một chủ trang trại dự trữ đủ thức ăn cho 80 con bò ăn trong 30 ngày. Sau 10 ngày ăn, chủ trang trại bán đi 20 con bò. Hỏi số thức ăn còn lại đủ cho số bò còn lại ăn trong bao nhiêu ngày nữa (biết mức ăn của mỗi con bò là như nhau)?",
+      "generalfeedback": "Phân tích và giải quyết vấn đề qua các bước:\n1) Lượng thức ăn còn lại đủ cho 80 con bò ăn trong \\(30 - 10 = 20\\) ngày.\n2) Số bò còn lại là \\(80 - 20 = 60\\) con.\n3) Do số bò và số ngày ăn là hai đại lượng tỉ lệ nghịch, gọi \\(x\\) là số ngày 60 con bò ăn hết lượng thức ăn còn lại: \\(60 \\cdot x = 80 \\cdot 20 = 1600 \\Rightarrow x = \\frac{1600}{60} \\approx 26,67\\) ngày (hoặc \\(\\frac{80}{3}\\) ngày).",
+      "answers": [
+        {
+          "text": "\\(\\frac{80}{3}\\) ngày (khoảng 26,67 ngày)",
+          "fraction": 100
+        },
+        {
+          "text": "20 ngày",
+          "fraction": 0
+        },
+        {
+          "text": "40 ngày",
+          "fraction": 0
+        },
+        {
+          "text": "15 ngày",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "questiontext": "Ba xưởng may cùng nhận may số lượng áo như nhau. Xưởng thứ nhất hoàn thành trong 3 ngày, xưởng thứ hai trong 4 ngày và xưởng thứ ba trong 6 ngày. Biết tổng số máy may của xưởng thứ nhất và xưởng thứ ba nhiều hơn xưởng thứ hai là 15 máy (năng suất các máy như nhau). Tìm số máy may của xưởng thứ nhất. (Chỉ điền số)",
+      "generalfeedback": "Gọi \\(x, y, z\\) lần lượt là số máy may của 3 xưởng. Ta có \\(3x = 4y = 6z\\) hay \\(\\frac{x}{4} = \\frac{y}{3} = \\frac{z}{2}\\). Theo đề bài \\((x + z) - y = 15\\). Áp dụng tính chất dãy tỉ số bằng nhau: \\(\\frac{x+z-y}{4+2-3} = \\frac{15}{3} = 5\\). Suy ra số máy xưởng 1 là \\(x = 4 \\cdot 5 = 20\\) máy.",
+      "answers": [
+        {
+          "text": "20",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_GIAOTIEP",
+      "questiontext": "Để trình bày kết quả giải bài toán tỉ lệ nghịch cho nhóm hiểu rõ, bước đầu tiên trong lập luận giao tiếp toán học cần làm là gì?",
+      "generalfeedback": "Giao tiếp toán học mạch lạc bắt đầu từ việc chỉ ra rõ ràng hai đại lượng đang xét là hai đại lượng tỉ lệ nghịch (dựa trên giả thiết năng suất không đổi hoặc tổng lượng không đổi).",
+      "answers": [
+        {
+          "text": "Khẳng định rõ hai đại lượng đang xét là hai đại lượng tỉ lệ nghịch và giải thích lý do",
+          "fraction": 100
+        },
+        {
+          "text": "Viết ngay kết quả số mà không cần nêu lời giải thích",
+          "fraction": 0
+        },
+        {
+          "text": "Tính tổng các dữ kiện số có trong đề bài",
+          "fraction": 0
+        },
+        {
+          "text": "Thử lại các con số ngẫu nhiên cho đến khi tìm được số tròn",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_GIAIQUYETVD",
+      "questiontext": "Khẳng định sau đây đúng hay sai: \"Khi giải bài toán chia một số thành ba phần tỉ lệ nghịch với 2, 3, 4, ta có thể chuyển sáng tạo bài toán về chia số đó thành ba phần tỉ lệ thuận với \\(\\frac{1}{2}, \\frac{1}{3}, \\frac{1}{4}\\).\"",
+      "generalfeedback": "Đúng. Đây là phương pháp chuyển đổi sáng tạo dựa trên tính chất: Tỉ lệ nghịch với \\(a, b, c\\) tương đương với tỉ lệ thuận với nghịch đảo \\(\\frac{1}{a}, \\frac{1}{b}, \\frac{1}{c}\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

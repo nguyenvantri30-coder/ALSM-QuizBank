@@ -1,0 +1,690 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 27,
+    "metadata_used": {
+      "YCCD_TOAN7_134": 5,
+      "YCCD_TOAN7_135": 5,
+      "Khái niệm xác suất thực nghiệm của biến cố": 5,
+      "Tính xác suất thực nghiệm từ bảng dữ liệu kết quả thử nghiệm": 5,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_GIAOTIEP": 1,
+      "NLC_GIAIQUYETVD": 1,
+      "NLT_TOAN_C2_02": 1,
+      "NLT_TOAN_C2_03": 1,
+      "7.C5.1_1": 1
+    },
+    "types_used": {
+      "multichoice": 12,
+      "truefalse": 2,
+      "shortanswer": 2,
+      "matching": 4,
+      "gapselect": 1,
+      "numerical": 3,
+      "ddwtos": 1,
+      "calculatedsimple": 1,
+      "calculatedmulti": 1
+    },
+    "total": 27
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_134",
+        "reason": "Làm quen với các khái niệm mở đầu về xác suất của biến cố ngẫu nhiên trong các ví dụ đơn giản."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_135",
+        "reason": "Nhận biết được xác suất của một biến cố ngẫu nhiên trong một số ví dụ đơn giản."
+      },
+      {
+        "metadata_code": "Khái niệm xác suất thực nghiệm của biến cố",
+        "reason": "Khái niệm xác suất thực nghiệm của biến cố."
+      },
+      {
+        "metadata_code": "Tính xác suất thực nghiệm từ bảng dữ liệu kết quả thử nghiệm",
+        "reason": "Tính xác suất thực nghiệm từ bảng dữ liệu kết quả thử nghiệm."
+      },
+      {
+        "metadata_code": "PC_CHAMCHI",
+        "reason": "Chăm chỉ"
+      },
+      {
+        "metadata_code": "PC_TRUNGTHUC",
+        "reason": "Trung thực"
+      },
+      {
+        "metadata_code": "NLC_GIAOTIEP",
+        "reason": "Năng lực giao tiếp và hợp tác"
+      },
+      {
+        "metadata_code": "NLC_GIAIQUYETVD",
+        "reason": "Năng lực giải quyết vấn đề và sáng tạo"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_02",
+        "reason": "Năng lực mô hình hoá toán học"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03",
+        "reason": "Năng lực giải quyết vấn đề toán học"
+      },
+      {
+        "metadata_code": "7.C5.1_1",
+        "reason": "Mô tả được các bước chính trong quá trình huấn luyện AI qua một ví dụ cụ thể."
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_134",
+      "questiontext": "Một túi đựng các tấm thẻ ghi số 9; 12; 15; 18; 21; 24. Rút ngẫu nhiên một tấm thẻ trong túi. Biến cố A: \"Rút được thẻ ghi số chia hết cho 3\" thuộc loại biến cố nào?",
+      "generalfeedback": "Vì tất cả các số 9; 12; 15; 18; 21; 24 đều chia hết cho 3 nên khi rút bất kỳ tấm thẻ nào cũng được số chia hết cho 3. Do đó biến cố A là biến cố chắc chắn.",
+      "answers": [
+        {
+          "text": "Biến cố chắc chắn",
+          "fraction": 100
+        },
+        {
+          "text": "Biến cố không thể",
+          "fraction": 0
+        },
+        {
+          "text": "Biến cố ngẫu nhiên",
+          "fraction": 0
+        },
+        {
+          "text": "Biến cố đồng khả năng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_134",
+      "questiontext": "Trong trò chơi gieo hai con xúc xắc cân đối, biến cố \"Hiệu giữa số chấm xuất hiện trên hai con xúc xắc bằng 6\" là biến cố không thể.",
+      "generalfeedback": "Đúng. Do số chấm trên mỗi con xúc xắc chỉ từ 1 đến 6 nên hiệu lớn nhất có thể đạt được là 6 - 1 = 5. Hiệu giữa số chấm không thể bằng 6, do đó đây là biến cố không thể.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_134",
+      "questiontext": "Một túi đựng các tấm thẻ ghi số 9; 12; 15; 18; 21; 24. Rút ngẫu nhiên một tấm thẻ trong túi. Biến cố C: \"Rút được thẻ ghi số chia hết cho 10\" là loại biến cố gì?",
+      "generalfeedback": "Trong các số 9; 12; 15; 18; 21; 24 không có số nào chia hết cho 10, nên hành động rút thẻ không thể xảy ra biến cố C. Vậy C là biến cố không thể.",
+      "answers": [
+        {
+          "text": "biến cố không thể",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_134",
+      "questiontext": "Một túi đựng các tấm thẻ được ghi số 9; 12; 15; 18; 21; 24. Rút ngẫu nhiên một tấm thẻ. Ghép mỗi biến cố sau với loại biến cố tương ứng:",
+      "generalfeedback": "- Thẻ ghi số chẵn (12, 18, 24) có thể xảy ra hoặc không xảy ra -> Biến cố ngẫu nhiên.\n- Thẻ ghi số chia hết cho 3 (tất cả các số) luôn xảy ra -> Biến cố chắc chắn.\n- Thẻ ghi số chia hết cho 10 (không có số nào) không bao giờ xảy ra -> Biến cố không thể.",
+      "subquestions": [
+        {
+          "question": "Rút được thẻ ghi số là số chẵn",
+          "answer": "Biến cố ngẫu nhiên"
+        },
+        {
+          "question": "Rút được thẻ ghi số chia hết cho 3",
+          "answer": "Biến cố chắc chắn"
+        },
+        {
+          "question": "Rút được thẻ ghi số chia hết cho 10",
+          "answer": "Biến cố không thể"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_134",
+      "questiontext": "Trong một chiếc hộp có 15 quả cầu màu xanh và 15 quả cầu màu đỏ có kích thước như nhau. Lấy ngẫu nhiên một quả cầu từ trong hộp. Biến cố A: \"Lấy được quả cầu màu đỏ\" và biến cố B: \"Lấy được quả cầu màu xanh\" là hai biến cố [[1]] vì số lượng quả cầu màu đỏ và màu xanh trong hộp [[2]].",
+      "generalfeedback": "Do số lượng quả cầu xanh và đỏ bằng nhau (cùng bằng 15) và có kích thước như nhau nên khả năng lấy được mỗi loại là như nhau. Do đó biến cố A và B là hai biến cố đồng khả năng.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "đồng khả năng"
+        },
+        {
+          "group": 1,
+          "text": "bằng nhau"
+        },
+        {
+          "group": 1,
+          "text": "không đồng khả năng"
+        },
+        {
+          "group": 1,
+          "text": "chắc chắn"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_135",
+      "imgs": [
+        "_page_0_Picture_9.jpeg"
+      ],
+      "questiontext": "[img:_page_0_Picture_9.jpeg]\nMột tấm bìa cứng hình tròn được chia làm 6 phần bằng nhau, mỗi phần ghi một trong các số 1; 2; 3; 4; 5; 6 như hình vẽ. Bạn Nam quay tấm bìa. Xác suất của biến cố C: \"Mũi tên dừng ở hình quạt ghi số 2\" là bao nhiêu?",
+      "generalfeedback": "Vì 6 hình quạt có diện tích bằng nhau nên 6 kết quả khả dĩ đều đồng khả năng. Chỉ có 1 hình quạt ghi số 2, nên xác suất của biến cố C là \\(\\frac{1}{6}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{1}{6}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{1}{3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{1}{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "1",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_135",
+      "questiontext": "Trong trò chơi gieo hai con xúc xắc cân đối, xét biến cố H: \"Số chấm xuất hiện trên hai con xúc xắc đều bé hơn 7\". Hỏi xác suất của biến cố H bằng bao nhiêu? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Mỗi con xúc xắc luôn xuất hiện số chấm từ 1 đến 6 (đều bé hơn 7). Do đó biến cố H luôn xảy ra, tức H là biến cố chắc chắn. Xác suất của biến cố chắc chắn bằng 1.",
+      "answers": [
+        {
+          "text": "1",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_135",
+      "questiontext": "Chọn ngẫu nhiên một số trong bốn số 11; 12; 13 và 14. Xác suất để chọn được số chia hết cho 5 là bao nhiêu? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Trong các số 11; 12; 13; 14 không có số nào chia hết cho 5. Biến cố \"Chọn được số chia hết cho 5\" là biến cố không thể, nên có xác suất bằng 0.",
+      "answers": [
+        {
+          "text": "0",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_135",
+      "questiontext": "Trong một chiếc hộp có 15 quả cầu màu xanh và 15 quả cầu màu đỏ cùng kích thước. Lấy ngẫu nhiên một quả cầu từ trong hộp. Xác suất của biến cố A: \"Lấy được quả cầu màu đỏ\" là bao nhiêu?",
+      "generalfeedback": "Tổng số quả cầu trong hộp là 15 + 15 = 30 quả. Số quả cầu màu đỏ là 15. Xác suất lấy được quả màu đỏ là \\(\\frac{15}{30} = \\frac{1}{2}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{1}{2}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{1}{15}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{1}{30}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "1",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_135",
+      "questiontext": "Chọn ngẫu nhiên một số trong bốn số 11; 12; 13 và 14. Xác suất để chọn được số nguyên tố là bao nhiêu?",
+      "generalfeedback": "Trong bốn số 11; 12; 13; 14, có hai số nguyên tố là 11 và 13. Do bốn kết quả có khả năng xảy ra như nhau nên xác suất chọn được số nguyên tố là \\(\\frac{2}{4} = \\frac{1}{2}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{1}{2}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{1}{4}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{3}{4}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{1}{3}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm xác suất thực nghiệm của biến cố",
+      "questiontext": "Khái niệm nào sau đây mô tả đúng nhất về xác suất thực nghiệm của một biến cố?",
+      "generalfeedback": "Xác suất thực nghiệm của một biến cố là tỉ số giữa số lần biến cố đó xảy ra và tổng số lần thực hiện thử nghiệm.",
+      "answers": [
+        {
+          "text": "Tỉ số giữa số lần xảy ra biến cố đó và tổng số lần thực hiện thử nghiệm",
+          "fraction": 100
+        },
+        {
+          "text": "Tỉ số giữa tổng số lần thực hiện thử nghiệm và số lần xảy ra biến cố đó",
+          "fraction": 0
+        },
+        {
+          "text": "Tích của số lần xảy ra biến cố đó và tổng số lần thực hiện thử nghiệm",
+          "fraction": 0
+        },
+        {
+          "text": "Hiệu của tổng số lần thực hiện thử nghiệm và số lần xảy ra biến cố đó",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm xác suất thực nghiệm của biến cố",
+      "questiontext": "Khi số lần lặp lại một thử nghiệm càng lớn thì xác suất thực nghiệm của một biến cố càng gần với xác suất lý thuyết của biến cố đó.",
+      "generalfeedback": "Đúng. Theo quy luật số lớn trong xác suất thực nghiệm, khi số lần thử nghiệm đủ lớn, xác suất thực nghiệm sẽ xấp xỉ xác suất lý thuyết của biến cố.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm xác suất thực nghiệm của biến cố",
+      "questiontext": "Điền cụm từ thích hợp vào chỗ trống: Xác suất thực nghiệm của một biến cố bằng tỉ số giữa số lần biến cố đó xảy ra và ... thực hiện thử nghiệm.",
+      "generalfeedback": "Xác suất thực nghiệm của một biến cố bằng tỉ số giữa số lần biến cố đó xảy ra và tổng số lần thực hiện thử nghiệm.",
+      "answers": [
+        {
+          "text": "tổng số lần",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm xác suất thực nghiệm của biến cố",
+      "questiontext": "Ghép các thành phần trong công thức tính xác suất thực nghiệm với mô tả tương ứng:",
+      "generalfeedback": "- Số lần biến cố A xảy ra: Số kết quả thu được thỏa mãn biến cố A.\n- Tổng số lần thử nghiệm: Tổng số phép thử đã tiến hành.\n- Xác suất thực nghiệm của biến cố A: Tỉ số giữa số lần xảy ra biến cố A và tổng số lần thử nghiệm.",
+      "subquestions": [
+        {
+          "question": "Số lần biến cố A xảy ra",
+          "answer": "Số kết quả thu được thỏa mãn biến cố A"
+        },
+        {
+          "question": "Tổng số lần thực hiện thử nghiệm",
+          "answer": "Tổng số phép thử đã tiến hành"
+        },
+        {
+          "question": "Xác suất thực nghiệm của biến cố A",
+          "answer": "Tỉ số giữa số lần xảy ra biến cố A và tổng số lần thử nghiệm"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm xác suất thực nghiệm của biến cố",
+      "questiontext": "Xác suất thực nghiệm của một biến cố bằng [[1]] giữa số lần biến cố đó xảy ra và [[2]] thực hiện thử nghiệm.",
+      "generalfeedback": "Xác suất thực nghiệm của biến cố = (Số lần biến cố xảy ra) / (Tổng số lần thực hiện thử nghiệm).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "tỉ số"
+        },
+        {
+          "group": 1,
+          "text": "tổng số lần"
+        },
+        {
+          "group": 1,
+          "text": "tích"
+        },
+        {
+          "group": 1,
+          "text": "hiệu"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Tính xác suất thực nghiệm từ bảng dữ liệu kết quả thử nghiệm",
+      "questiontext": "Vuông gieo một con xúc xắc 50 lần và ghi lại số chấm xuất hiện ở mỗi lần gieo. Kết quả thu được mặt 6 chấm xuất hiện 10 lần. Xác suất thực nghiệm của biến cố \"Xuất hiện mặt 6 chấm\" là bao nhiêu?",
+      "generalfeedback": "Xác suất thực nghiệm của biến cố \"Xuất hiện mặt 6 chấm\" là \\(\\frac{10}{50} = \\frac{1}{5}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{1}{5}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{1}{6}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{1}{10}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{1}{50}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính xác suất thực nghiệm từ bảng dữ liệu kết quả thử nghiệm",
+      "questiontext": "Bạn Nam quay tấm bìa hình tròn gồm 6 phần bằng nhau 60 lần. Kết quả thu được mũi tên dừng ở hình quạt ghi số 2 là 12 lần. Tính xác suất thực nghiệm của biến cố \"Mũi tên dừng ở hình quạt ghi số 2\". (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Xác suất thực nghiệm là 12 / 60 = 0.2.",
+      "answers": [
+        {
+          "text": "0.2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Tính xác suất thực nghiệm từ bảng dữ liệu kết quả thử nghiệm",
+      "questiontext": "Trong một đợt thử nghiệm gieo con xúc xắc {n} lần, người ta thấy mặt 1 chấm xuất hiện {k} lần. Xác suất thực nghiệm của biến cố \"Mặt 1 chấm xuất hiện\" được tính bằng biểu thức nào sau đây?",
+      "generalfeedback": "Xác suất thực nghiệm = {k}/{n}.",
+      "wildcards": [
+        {
+          "name": "n",
+          "min": 50.0,
+          "max": 100.0,
+          "decimals": 0
+        },
+        {
+          "name": "k",
+          "min": 5.0,
+          "max": 20.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{k}/{n}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "Tính xác suất thực nghiệm từ bảng dữ liệu kết quả thử nghiệm",
+      "questiontext": "Một hộp có các quả cầu xanh và đỏ. Thực hiện rút ngẫu nhiên một quả cầu, ghi màu rồi trả lại hộp {a} lần. Kết quả thu được {b} lần quả cầu màu xanh. Chọn công thức đúng để tính xác suất thực nghiệm của biến cố \"Lấy được quả cầu màu xanh\".",
+      "generalfeedback": "Xác suất thực nghiệm lấy được quả cầu màu xanh bằng số lần lấy được quả cầu xanh ({b}) chia cho tổng số lần rút ({a}).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 20.0,
+          "max": 50.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 5.0,
+          "max": 15.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{b}/{a}",
+          "fraction": 100
+        },
+        {
+          "text": "{a}/{b}",
+          "fraction": 0
+        },
+        {
+          "text": "{b}*{a}",
+          "fraction": 0
+        },
+        {
+          "text": "{a}-{b}",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Tính xác suất thực nghiệm từ bảng dữ liệu kết quả thử nghiệm",
+      "imgs": [
+        "_page_1_Picture_8.jpeg"
+      ],
+      "questiontext": "[img:_page_1_Picture_8.jpeg]\nTròn thực hiện gieo con xúc xắc 100 lần và ghi lại kết quả số chấm xuất hiện. Số lần xuất hiện mặt 3 chấm là 18 lần. Xác suất thực nghiệm của biến cố \"Số chấm xuất hiện trên con xúc xắc là 3\" bằng bao nhiêu?",
+      "generalfeedback": "Xác suất thực nghiệm của biến cố \"Số chấm xuất hiện trên con xúc xắc là 3\" là \\(\\frac{18}{100} = \\frac{9}{50}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{9}{50}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{1}{6}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{1}{100}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{3}{100}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Bạn Nam thực hiện quay tấm bìa hình tròn để tính xác suất thực nghiệm của biến cố \"Mũi tên dừng ở ô số 2\". Sau 5 lần quay, Nam thấy chưa có lần nào mũi tên dừng ở ô số 2. Để kết quả xác suất thực nghiệm phản ánh chính xác khả năng xuất hiện, Nam nên thực hiện hành động nào thể hiện tính chăm chỉ?",
+      "generalfeedback": "Để tính xác suất thực nghiệm một cách chính xác, học sinh cần kiên trì thực hiện thử nghiệm nhiều lần (lặp lại nhiều lần) thay vì bỏ cuộc sớm hay tự suy đoán.",
+      "answers": [
+        {
+          "text": "Kiên trì thực hiện lặp lại phép quay thêm nhiều lần (như 50 hoặc 100 lần) và ghi chép đầy đủ kết quả.",
+          "fraction": 100
+        },
+        {
+          "text": "Dừng quay và kết luận ngay xác suất thực nghiệm bằng 0.",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua các lần quay trước và tự ghi số lần xuất hiện ô số 2 là 10 lần.",
+          "fraction": 0
+        },
+        {
+          "text": "Nhờ bạn khác quay hộ 1 lần duy nhất rồi dừng lại.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Bạn Tròn tiến hành gieo con xúc xắc 50 lần để tính xác suất thực nghiệm của biến cố \"Xuất hiện mặt 6 chấm\". Khi tổng hợp dữ liệu, Tròn thấy mặt 6 chấm chỉ xuất hiện 4 lần (ít hơn dự đoán lý thuyết của bạn). Để thể hiện tính trung thực trong học tập, Tròn nên làm gì?",
+      "generalfeedback": "Tính trung thực đòi hỏi học sinh phải tôn trọng dữ liệu thực nghiệm thu được, ghi nhận và báo cáo đúng số liệu thực tế chứ không tự ý chỉnh sửa dữ liệu theo ý muốn cá nhân.",
+      "answers": [
+        {
+          "text": "Ghi nhận đúng 4 lần xuất hiện mặt 6 chấm và tính xác suất thực nghiệm dựa trên dữ liệu thực tế đó.",
+          "fraction": 100
+        },
+        {
+          "text": "Tự ý sửa số lần xuất hiện thành 8 lần cho gần với xác suất lý thuyết.",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua kết quả của 10 lần gieo không ra mặt 6 chấm để tỉ số tăng lên.",
+          "fraction": 0
+        },
+        {
+          "text": "Mượn kết quả thử nghiệm của bạn khác để chép vào bài làm của mình.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_GIAOTIEP",
+      "questiontext": "Hai bạn Nam và Việt cùng hợp tác thực hiện thử nghiệm quay tấm bìa 60 lần. Để trình bày kết quả thử nghiệm xác suất một cách rõ ràng, trực quan cho các nhóm khác trong lớp dễ hiểu và thảo luận, hai bạn nên thống kê dữ liệu dưới dạng nào?",
+      "generalfeedback": "Giao tiếp toán học hiệu quả đòi hỏi việc trình bày dữ liệu thử nghiệm một cách có hệ thống thông qua bảng thống kê tần số và tỉ số xác suất thực nghiệm tương ứng.",
+      "answers": [
+        {
+          "text": "Bảng thống kê số lần xuất hiện của mỗi kết quả kèm theo tỉ số xác suất thực nghiệm tương ứng.",
+          "fraction": 100
+        },
+        {
+          "text": "Việt nói miệng danh sách các kết quả theo thứ tự từng lần quay cho Nam nhớ.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ ghi duy nhất một số tổng số lần quay mà không ghi chi tiết kết quả từng biến cố.",
+          "fraction": 0
+        },
+        {
+          "text": "Viết nháp các số kết quả rải rác trên giấy mà không sắp xếp theo bảng.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLC_GIAIQUYETVD",
+      "questiontext": "Trong một trò chơi dân gian, ban tổ chức dùng một túi đựng các tấm thẻ ghi số nhưng không tiết lộ số lượng từng loại thẻ. Để ước lượng xác suất chọn được thẻ ghi số chẵn mà không cần mở túi đếm, bạn An đã đề xuất giải pháp sáng tạo nào dựa trên kiến thức đã học?",
+      "generalfeedback": "Giải quyết vấn đề sáng tạo trong xác suất thực nghiệm là sử dụng phương pháp thử nghiệm lặp lại nhiều lần (rút thẻ ngẫu nhiên, ghi nhận rồi trả lại túi) để ước lượng xác suất của biến cố.",
+      "answers": [
+        {
+          "text": "Rút ngẫu nhiên một tấm thẻ, ghi lại số rồi trả lại túi, lặp lại hành động này nhiều lần để tính xác suất thực nghiệm.",
+          "fraction": 100
+        },
+        {
+          "text": "Đo khối lượng của túi thẻ rồi suy ra số lượng thẻ chẵn.",
+          "fraction": 0
+        },
+        {
+          "text": "Rút 1 thẻ duy nhất rồi khẳng định ngay xác suất của cả túi.",
+          "fraction": 0
+        },
+        {
+          "text": "Đoán ngẫu nhiên một số bất kỳ mà không cần thực hiện thử nghiệm.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_02",
+      "questiontext": "Một gian hàng hội chợ tổ chức trò chơi quay bánh xe nhận thưởng. Hãy ghép mỗi tình huống thực tế với mô hình xác suất toán học tương ứng:",
+      "generalfeedback": "Mô hình hóa toán học giúp chuyển đổi các tình huống thực tế (quay thưởng, bốc thăm, gieo hạt) sang ngôn ngữ và mô hình xác suất (biến cố chắc chắn, không thể, đồng khả năng).",
+      "subquestions": [
+        {
+          "question": "Bánh xe chia 6 phần bằng nhau, quay 1 lần tìm xác suất dừng ở ô ghi số 2",
+          "answer": "Mô hình xác suất của biến cố đồng khả năng với xác suất bằng \\(\\frac{1}{6}\\)"
+        },
+        {
+          "question": "Bánh xe ghi toàn các số chẵn, tìm xác suất quay vào số chẵn",
+          "answer": "Mô hình xác suất của biến cố chắc chắn với xác suất bằng 1"
+        },
+        {
+          "question": "Bánh xe ghi các số từ 1 đến 6, tìm xác suất quay vào ô số 0",
+          "answer": "Mô hình xác suất của biến cố không thể với xác suất bằng 0"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "questiontext": "Khi gieo một con xúc xắc 100 lần, mặt 3 chấm xuất hiện 18 lần. Để giải quyết bài toán dự đoán số lần xuất hiện mặt 3 chấm khi gieo con xúc xắc đó 500 lần trong thực tế, em áp dụng quy trình giải quyết vấn đề toán học như thế nào?",
+      "generalfeedback": "Tính xác suất thực nghiệm từ dữ liệu ban đầu \\(\\frac{18}{100} = 0,18\\), sau đó nhân xác suất thực nghiệm này với tổng số lần gieo dự kiến: \\(0,18 \\times 500 = 90\\) lần.",
+      "answers": [
+        {
+          "text": "Tính xác suất thực nghiệm là \\(\\frac{18}{100} = 0,18\\), sau đó tính số lần dự đoán bằng \\(0,18 \\times 500 = 90\\) lần.",
+          "fraction": 100
+        },
+        {
+          "text": "Lấy 500 chia cho 18 để tìm số lần xuất hiện.",
+          "fraction": 0
+        },
+        {
+          "text": "Lấy 500 trừ 100 rồi cộng với 18 lần.",
+          "fraction": 0
+        },
+        {
+          "text": "Cho rằng số lần xuất hiện luôn bằng đúng 18 lần không đổi.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "7.C5.1_1",
+      "questiontext": "Một nhóm học sinh muốn huấn luyện một mô hình AI để tự động nhận diện mặt số chấm của con xúc xắc từ ảnh chụp thực nghiệm. Hãy ghép các bước chính trong quy trình huấn luyện AI với nội dung công việc tương ứng:",
+      "generalfeedback": "Quy trình huấn luyện AI cơ bản gồm: 1. Thu thập và gán nhãn dữ liệu -> 2. Cho máy học từ dữ liệu -> 3. Kiểm tra khả năng nhận diện trên ảnh mới -> 4. Điều chỉnh mô hình nếu kết quả chưa tốt.",
+      "subquestions": [
+        {
+          "question": "Bước 1: Thu thập và gán nhãn dữ liệu",
+          "answer": "Chụp nhiều ảnh các mặt con xúc xắc (1 đến 6 chấm) và dán nhãn số chấm tương ứng cho từng ảnh"
+        },
+        {
+          "question": "Bước 2: Cho máy học dữ liệu",
+          "answer": "Đưa tập ảnh đã gán nhãn vào thuật toán để mô hình AI tự tìm đặc điểm nhận dạng"
+        },
+        {
+          "question": "Bước 3: Kiểm tra và điều chỉnh",
+          "answer": "Thử nghiệm AI với ảnh chụp xúc xắc mới và tinh chỉnh nếu AI phân biệt sai"
+        }
+      ]
+    }
+  ]
+}

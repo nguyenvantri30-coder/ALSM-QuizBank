@@ -1,0 +1,471 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 20,
+    "metadata_used": {
+      "Hệ thống hóa bài toán thực tế Chương I": 5,
+      "Giải bài toán thực tế bằng cách lập hệ phương trình củng cố Chương I": 9,
+      "YCCD_TOAN9_028": 6,
+      "SUB_CHAMCHI_HAMHOC_C2_03": 2,
+      "SUB_GQVD_DEXUAT_C2_02": 3,
+      "NLT_TOAN_C2_02_07": 2,
+      "NLT_TOAN_C2_02_08": 2,
+      "1.1TC2a_K9": 1
+    },
+    "types_used": {
+      "multichoice": 9,
+      "numerical": 3,
+      "truefalse": 3,
+      "matching": 1,
+      "gapselect": 2,
+      "ddwtos": 1,
+      "shortanswer": 1
+    },
+    "total": 20
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN9_028",
+        "reason": "Giải quyết các bài toán thực tiễn bằng cách lập hệ phương trình bậc nhất hai ẩn (năng suất, chuyển động, giá tiền, chữ số)."
+      },
+      {
+        "metadata_code": "Hệ thống hóa bài toán thực tế Chương I",
+        "reason": "Hệ thống hóa lý thuyết, công thức và mô hình bài toán thực tế Chương I."
+      },
+      {
+        "metadata_code": "Giải bài toán thực tế bằng cách lập hệ phương trình củng cố Chương I",
+        "reason": "Rèn luyện kỹ năng chọn ẩn, lập phương trình và biến đổi hệ phương trình từ bài toán thực tế."
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống hóa bài toán thực tế Chương I",
+      "questiontext": "Trong Bài 1.25, gọi chữ số hàng chục của số tự nhiên \\(n\\) có hai chữ số là \\(a\\) (\\(a \\in \\{1; 2; ...; 9\\}\\)) và chữ số hàng đơn vị là \\(b\\) (\\(b \\in \\{0; 1; ...; 9\\}\\)). Biểu thức biểu diễn giá trị của số \\(n\\) là:",
+      "generalfeedback": "Số tự nhiên có hai chữ số \\(\\overline{ab}\\) được biểu diễn dưới dạng tổng các giá trị hàng chục và hàng đơn vị là \\(10a + b\\).",
+      "answers": [
+        {
+          "text": "\\(10a + b\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(10b + a\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a + b\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(100a + b\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán thực tế bằng cách lập hệ phương trình củng cố Chương I",
+      "questiontext": "Biết rằng nếu viết thêm chữ số 3 vào giữa hai chữ số của số tự nhiên \\(n = 10a + b\\) thì được số mới \\(\\overline{a3b} = 100a + 30 + b\\) lớn hơn số \\(2n\\) là 585 đơn vị. Phương trình rút gọn biểu diễn mối quan hệ này theo hai biến \\(a\\) và \\(b\\) là:",
+      "generalfeedback": "Ta có \\((100a + 30 + b) - 2(10a + b) = 585 \\Leftrightarrow 100a + 30 + b - 20a - 2b = 585 \\Leftrightarrow 80a - b = 555\\).",
+      "answers": [
+        {
+          "text": "\\(80a - b = 555\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(80a + b = 555\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(100a - 20b = 585\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(80a - b = 585\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_028",
+      "questiontext": "Tìm số tự nhiên \\(n\\) có hai chữ số trong Bài 1.25, biết rằng khi viết thêm chữ số 3 vào giữa hai chữ số thì được số lớn hơn \\(2n\\) là 585 đơn vị, và khi viết hai chữ số theo thứ tự ngược lại thì được số nhỏ hơn \\(n\\) là 18 đơn vị. (Chỉ điền số nguyên)",
+      "generalfeedback": "Giải hệ phương trình \\(\\begin{cases} 80a - b = 555 \\\\ a - b = 2 \\end{cases}\\) ta được \\(a = 7, b = 5\\). Vậy số \\(n = 75\\).",
+      "answers": [
+        {
+          "text": "75",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Giải bài toán thực tế bằng cách lập hệ phương trình củng cố Chương I",
+      "questiontext": "Xét bài toán tìm số tự nhiên \\(n = \\overline{ab}\\) có hai chữ số (Bài 1.25). Khẳng định sau đây đúng hay sai: 'Nếu viết hai chữ số của \\(n\\) theo thứ tự ngược lại được số nhỏ hơn \\(n\\) là 18 đơn vị thì ta lập được phương trình \\(a - b = 2\\)'.",
+      "generalfeedback": "Ta có \\(\\overline{ab} - \\overline{ba} = 18 \\Leftrightarrow (10a + b) - (10b + a) = 18 \\Leftrightarrow 9a - 9b = 18 \\Leftrightarrow a - b = 2\\). Khẳng định này là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống hóa bài toán thực tế Chương I",
+      "questiontext": "Trong Bài 1.26 về năng suất lúa, hãy ghép mỗi đại lượng ở cột trái với giá trị hoặc biểu thức tương ứng ở cột phải (gọi \\(x\\) là năng suất giống lúa mới, \\(y\\) là năng suất giống lúa cũ tính theo tấn/ha):",
+      "generalfeedback": "Diện tích lúa cũ là \\(160 - 60 = 100\\) ha; Sản lượng thu hoạch từ 60 ha lúa mới là \\(60x\\) tấn; Sản lượng thu hoạch từ 100 ha lúa cũ là \\(100y\\) tấn.",
+      "subquestions": [
+        {
+          "question": "Diện tích đất cấy giống lúa cũ",
+          "answer": "100 ha"
+        },
+        {
+          "question": "Tổng sản lượng thu hoạch giống lúa mới trên 60 ha",
+          "answer": "60x tấn"
+        },
+        {
+          "question": "Tổng sản lượng thu hoạch giống lúa cũ trên 100 ha",
+          "answer": "100y tấn"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Giải bài toán thực tế bằng cách lập hệ phương trình củng cố Chương I",
+      "questiontext": "Bài 1.26: Gọi năng suất giống lúa mới là \\(x\\) (tấn/ha) và năng suất giống lúa cũ là \\(y\\) (tấn/ha). Kết quả gặt đối chứng 7 ha lúa mới nhiều hơn 8 ha lúa cũ là 2 tấn thóc cho phương trình [[1]]. Tổng sản lượng thu hoạch cả vụ trên 160 ha là 860 tấn cho phương trình [[2]].",
+      "generalfeedback": "7 ha lúa mới cho \\(7x\\) tấn, 8 ha lúa cũ cho \\(8y\\) tấn. Phương trình 1: \\(7x - 8y = 2\\). Tổng sản lượng cả vụ: \\(60x + 100y = 860\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(7x - 8y = 2\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(60x + 100y = 860\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(8y - 7x = 2\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(60x + 100y = 160\\)"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_028",
+      "questiontext": "Trong Bài 1.26, hãy tính năng suất của giống lúa mới (tính theo đơn vị tấn thóc trên 1 ha). (Chỉ điền số nguyên)",
+      "generalfeedback": "Giải hệ phương trình \\(\\begin{cases} 7x - 8y = 2 \\\\ 60x + 100y = 860 \\end{cases}\\) ta tìm được \\(x = 6\\) (tấn/ha) và \\(y = 5\\) (tấn/ha). Năng suất lúa mới là 6 tấn/ha.",
+      "answers": [
+        {
+          "text": "6",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Giải bài toán thực tế bằng cách lập hệ phương trình củng cố Chương I",
+      "questiontext": "Hệ phương trình nào sau đây dùng để xác định năng suất lúa mới \\(x\\) (tấn/ha) và lúa cũ \\(y\\) (tấn/ha) trong Bài 1.26?",
+      "generalfeedback": "Hệ phương trình đúng phản ánh dữ kiện đối chứng \\(7x - 8y = 2\\) và tổng thu hoạch cả vụ \\(60x + 100y = 860\\).",
+      "answers": [
+        {
+          "text": "\\(\\begin{cases} 7x - 8y = 2 \\\\ 60x + 100y = 860 \\end{cases}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\begin{cases} 8x - 7y = 2 \\\\ 100x + 60y = 860 \\end{cases}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\begin{cases} 7x + 8y = 2 \\\\ 60x - 100y = 860 \\end{cases}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\begin{cases} 7x - 8y = 860 \\\\ 60x + 100y = 2 \\end{cases}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống hóa bài toán thực tế Chương I",
+      "questiontext": "Bài 1.27: Hai vật chuyển động trên đường tròn đường kính 20 cm có chu vi là [[1]]. Khi hai vật chuyển động ngược chiều, tổng quãng đường hai vật đi được trong 4 giây bằng [[2]].",
+      "generalfeedback": "Chu vi đường tròn đường kính \\(d = 20\\) cm là \\(\\pi d = 20\\pi\\) cm. Khi chuyển động ngược chiều gặp nhau sau 4s, tổng quãng đường đi được đúng bằng 1 vòng (chu vi) tức \\(20\\pi\\) cm.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "20\\(\\pi\\) cm"
+        },
+        {
+          "group": 1,
+          "text": "1 chu vi đường tròn"
+        },
+        {
+          "group": 1,
+          "text": "40\\(\\pi\\) cm"
+        },
+        {
+          "group": 1,
+          "text": "2 chu vi đường tròn"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_028",
+      "questiontext": "Trong Bài 1.27, hai vật chuyển động cùng chiều trên đường tròn đường kính 20 cm, xuất phát cùng một lúc từ cùng một điểm. Cứ sau 20 giây chúng lại gặp nhau. Hỏi hiệu vận tốc của hai vật \\(x - y\\) bằng bao nhiêu cm/s? (Viết kết quả dưới dạng số thập phân làm tròn đến chữ số thứ hai, chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Hiệu quãng đường sau 20 giây là chu vi \\(20\\pi\\) cm. Nên \\(20(x - y) = 20\\pi \\Leftrightarrow x - y = \\pi \\approx 3.14\\) cm/s.",
+      "answers": [
+        {
+          "text": "3.14",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_03",
+      "questiontext": "Bạn An tìm thấy một bài báo ghi nhận tổng chi phí mua 2 loại vật tư nông nghiệp nhưng không ghi rõ giá từng loại. Để tính chính xác đơn giá từng loại vật tư phục vụ cho việc lập kế hoạch chi tiêu gia đình, hành vi nào sau đây của An thể hiện tốt nhất ý thức vận dụng kiến thức toán học?",
+      "generalfeedback": "An thể hiện ý thức vận dụng toán học vào đời sống bằng cách chủ động thu thập đủ dữ liệu từ hóa đơn mua hàng để lập và giải hệ phương trình bậc nhất hai ẩn.",
+      "answers": [
+        {
+          "text": "Chủ động thu thập thêm số liệu từ hóa đơn mua hàng lần hai, lập hệ phương trình bậc nhất hai ẩn để giải và tìm đơn giá chính xác.",
+          "fraction": 100
+        },
+        {
+          "text": "Đoán chừng giá của từng loại vật tư dựa trên cảm nhận cá nhân mà không cần tính toán.",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua bài báo vì cho rằng kiến thức toán học ở nhà trường không liên quan đến thực tế.",
+          "fraction": 0
+        },
+        {
+          "text": "Chờ đợi người khác tính giúp mà không tự mình tìm hiểu hay áp dụng kiến thức đã học.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_03",
+      "questiontext": "Khi đọc thông tin trên mạng về bài toán phân chia ngân sách sản xuất, bạn Bình thấy một kết quả giải hệ phương trình có số tiền ra giá trị âm. Bạn Bình quyết định tự mình giải lại hệ phương trình từ dữ liệu gốc để kiểm tra tính tin cậy của thông tin. Khẳng định: 'Hành động của Bình thể hiện ý thức trách nhiệm và chủ động vận dụng kĩ năng toán học để xác minh thông tin từ các nguồn tin cậy' là Đúng hay Sai?",
+      "generalfeedback": "Hành động tự giải lại để kiểm tra tính đúng đắn của dữ liệu trên mạng thể hiện rõ tinh thần trách nhiệm và ý thức vận dụng toán học vào đời sống.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Một đơn vị sản xuất nông nghiệp cần cấy 160 ha lúa gồm hai giống lúa mới và cũ (Bài 1.26). Để đạt tổng sản lượng 860 tấn thóc, người quản lý cần đề xuất giải pháp xác định năng suất từng giống lúa. Giải pháp nào sau đây là tối ưu và có căn cứ khoa học nhất?",
+      "generalfeedback": "Đề xuất lập hệ phương trình bậc nhất hai ẩn dựa trên dữ liệu đối chứng diện tích/sản lượng là giải pháp khoa học, chính xác nhất để giải quyết vấn đề thực tiễn.",
+      "answers": [
+        {
+          "text": "Thu hoạch thử nghiệm diện tích đối chứng của cả hai giống lúa, lập hệ hai phương trình bậc nhất hai ẩn biểu diễn tổng sản lượng và giải hệ.",
+          "fraction": 100
+        },
+        {
+          "text": "Gieo cấy ngẫu nhiên và chờ đến cuối vụ mới ước lượng trung bình cộng năng suất hai giống lúa.",
+          "fraction": 0
+        },
+        {
+          "text": "Tăng tối đa diện tích giống lúa cũ vì đã quen thuộc mà không cần đối chứng năng suất lúa mới.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ đo năng suất giống lúa mới trên 7 ha rồi quy đổi thẳng cho toàn bộ 160 ha.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Để đề xuất giải pháp tính tiền hàng chưa có thuế VAT khi biết tổng chi phí thanh toán ở hai mức thuế khác nhau (Bài 1.28), học sinh cần thực hiện theo các bước có cấu trúc: Bước 1: Chọn ẩn là [[1]]. Bước 2: Biểu diễn tổng số tiền thanh toán theo thuế VAT để lập [[2]]. Bước 3: Giải hệ và kết luận.",
+      "generalfeedback": "Cấu trúc giải quyết vấn đề gồm: Chọn ẩn (giá trị tiền chưa thuế) -> Lập hệ phương trình -> Giải hệ và trả lời bài toán.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "giá tiền chưa thuế của từng loại hàng"
+        },
+        {
+          "group": 1,
+          "text": "hệ hai phương trình bậc nhất hai ẩn"
+        },
+        {
+          "group": 1,
+          "text": "số lượng mặt hàng đã mua"
+        },
+        {
+          "group": 1,
+          "text": "phương trình bậc nhất một ẩn"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_02_07",
+      "questiontext": "Xét mô hình toán học giải bài toán chuyển động tròn (Bài 1.27): \\(\\begin{cases} 4(x + y) = 20\\pi \\\\ 20(x - y) = 20\\pi \\end{cases}\\) với \\(x, y\\) là vận tốc hai vật (cm/s). Thao tác biến đổi toán học nào sau đây đưa hệ về dạng đơn giản nhất để tìm nghiệm?",
+      "generalfeedback": "Rút gọn từng phương trình bằng cách chia hai vế PT(1) cho 4 và chia hai vế PT(2) cho 20 ta được hệ đơn giản: \\(\\begin{cases} x + y = 5\\pi \\\\ x - y = \\pi \\end{cases}\\).",
+      "answers": [
+        {
+          "text": "Chia hai vế của phương trình thứ nhất cho 4 và phương trình thứ hai cho 20.",
+          "fraction": 100
+        },
+        {
+          "text": "Nhân hai vế của phương trình thứ nhất với 5 và giữ nguyên phương trình thứ hai.",
+          "fraction": 0
+        },
+        {
+          "text": "Cộng trực tiếp hai phương trình mà không rút gọn hệ số.",
+          "fraction": 0
+        },
+        {
+          "text": "Trừ trực tiếp phương trình thứ hai cho phương trình thứ nhất.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_02_07",
+      "questiontext": "Trong mô hình toán học \\(\\begin{cases} 80a - b = 555 \\\\ a - b = 2 \\end{cases}\\) (Bài 1.25 với \\(a, b\\) là các chữ số của số tự nhiên \\(n\\)), hãy tính giá trị biểu thức toán học \\(P = a^2 + b^2\\).",
+      "generalfeedback": "Giải hệ phương trình tìm được \\(a = 7, b = 5\\). Khi đó \\(P = 7^2 + 5^2 = 49 + 25 = 74\\).",
+      "answers": [
+        {
+          "text": "74",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_02_08",
+      "questiontext": "Sau khi giải mô hình toán học Bài 1.26, ta tìm được nghiệm \\(x = 6\\) và \\(y = 5\\). Phát biểu nào sau đây thể hiện chính xác ý nghĩa thực tiễn của nghiệm toán học này trong ngữ cảnh bài toán?",
+      "generalfeedback": "Nghiệm \\(x = 6\\) biểu thị năng suất giống lúa mới là 6 tấn/ha, \\(y = 5\\) biểu thị năng suất giống lúa cũ là 5 tấn/ha.",
+      "answers": [
+        {
+          "text": "Năng suất thu hoạch của giống lúa mới đạt 6 tấn/ha và giống lúa cũ đạt 5 tấn/ha.",
+          "fraction": 100
+        },
+        {
+          "text": "Đơn vị sản xuất thu hoạch được 6 tấn lúa mới và 5 tấn lúa cũ trên toàn bộ diện tích.",
+          "fraction": 0
+        },
+        {
+          "text": "Giống lúa mới gặt được 6 ha và giống lúa cũ gặt được 5 ha.",
+          "fraction": 0
+        },
+        {
+          "text": "Giá bán 1 tấn lúa mới là 6 triệu đồng và lúa cũ là 5 triệu đồng.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_02_08",
+      "questiontext": "Trong Bài 1.28, giải hệ phương trình ta được \\(x = 5\\) và \\(y = 15\\). Khẳng định: 'Ý nghĩa thực tiễn của kết quả này là nếu không tính thuế VAT, số tiền người đó mua hàng loại thứ nhất là 5 triệu đồng và loại thứ hai là 15 triệu đồng' là Đúng hay Sai?",
+      "generalfeedback": "\\(x\\) và \\(y\\) được quy ước là số tiền trả cho loại hàng thứ nhất và thứ hai chưa kể thuế VAT. Do đó \\(x=5\\) và \\(y=15\\) mang đúng ý nghĩa thực tiễn này.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "1.1TC2a_K9",
+      "questiontext": "Để chủ động tìm kiếm thông tin về biểu thuế VAT hiện hành áp dụng cho các mặt hàng trong Bài 1.28 trên môi trường số, cách đặt từ khóa tìm kiếm nào sau đây trên cổng thông tin điện tử chính thức giúp học sinh thu được kết quả chính xác nhất?",
+      "generalfeedback": "Đặt từ khóa cụ thể, chính xác gắn với cơ quan nhà nước / văn bản quy phạm pháp luật ('thuế suất VAT các mặt hàng Luật thuế giá trị gia tăng') giúp tìm kiếm thông tin số hiệu quả nhất.",
+      "answers": [
+        {
+          "text": "Thuế suất VAT các mặt hàng Luật thuế giá trị gia tăng",
+          "fraction": 100
+        },
+        {
+          "text": "Bài tập toán 9 về thuế VAT",
+          "fraction": 0
+        },
+        {
+          "text": "Mua hàng hết bao nhiêu tiền thuế",
+          "fraction": 0
+        },
+        {
+          "text": "Cách giải hệ phương trình bằng máy tính",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Khi giải bài toán thực tế bằng cách lập hệ phương trình (như Bài 1.25, 1.26, 1.27, 1.28), bước đánh giá nghiệm thu được so với điều kiện thực tế của ẩn đóng vai trò gì trong quá trình giải quyết vấn đề?",
+      "generalfeedback": "Bước thử lại/đối chiếu điều kiện ẩn giúp loại bỏ các nghiệm toán học không phù hợp với thực tiễn (ví dụ: chữ số không phải số nguyên, vận tốc/năng suất bị âm...), đảm bảo giải pháp đưa ra hoàn chỉnh và chính xác.",
+      "answers": [
+        {
+          "text": "Đảm bảo nghiệm toán học phù hợp với điều kiện thực tiễn của bài toán và loại bỏ các kết quả không hợp lý.",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ là thủ tục trình bày không ảnh hưởng đến kết quả cuối cùng.",
+          "fraction": 0
+        },
+        {
+          "text": "Giúp biến đổi hệ phương trình thành phương trình bậc nhất một ẩn.",
+          "fraction": 0
+        },
+        {
+          "text": "Thay thế hoàn toàn cho bước giải hệ phương trình.",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,755 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 26,
+    "metadata_used": {
+      "Quy luật và xu hướng dữ liệu biểu diễn trên biểu đồ quạt": 4,
+      "Phân tích số liệu biểu đồ quạt để rút ra nhận xét": 4,
+      "Giải quyết vấn đề đơn giản từ biểu đồ quạt": 4,
+      "YCCD_TOAN7_128": 4,
+      "YCCD_TOAN7_130": 4,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_GIAOTIEP": 1,
+      "NLC_GIAIQUYETVD": 1,
+      "NLT_TOAN_C2_02": 1,
+      "NLT_TOAN_C2_03": 1
+    },
+    "types_used": {
+      "multichoice": 8,
+      "truefalse": 2,
+      "numerical": 2,
+      "shortanswer": 2,
+      "matching": 2,
+      "gapselect": 2,
+      "ddwtos": 2,
+      "calculated": 2,
+      "calculatedsimple": 2,
+      "calculatedmulti": 2
+    },
+    "total": 26
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "Quy luật và xu hướng dữ liệu biểu diễn trên biểu đồ quạt",
+        "reason": "Nhận biết quy luật, xu hướng và thành phần dữ liệu biểu diễn trên biểu đồ quạt tròn"
+      },
+      {
+        "metadata_code": "Phân tích số liệu biểu đồ quạt để rút ra nhận xét",
+        "reason": "Phân tích, so sánh các số liệu trên biểu đồ quạt tròn để rút ra nhận xét"
+      },
+      {
+        "metadata_code": "Giải quyết vấn đề đơn giản từ biểu đồ quạt",
+        "reason": "Tính toán và giải quyết các vấn đề thực tiễn đơn giản từ số liệu biểu đồ quạt tròn"
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_128",
+        "reason": "Nhận ra vấn đề hoặc quy luật đơn giản từ số liệu biểu đồ hình quạt tròn cho sẵn"
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_130",
+        "reason": "Giải quyết các bài toán dự đoán, ước lượng và tính toán từ số liệu biểu đồ quạt tròn"
+      },
+      {
+        "metadata_code": "PC_CHAMCHI",
+        "reason": "Đánh giá phẩm chất Chăm chỉ qua thái độ cẩn thận phân tích đầy đủ dữ liệu"
+      },
+      {
+        "metadata_code": "PC_TRUNGTHUC",
+        "reason": "Đánh giá phẩm chất Trung thực qua việc giữ nguyên số liệu chính xác từ nguồn SGK"
+      },
+      {
+        "metadata_code": "NLC_GIAOTIEP",
+        "reason": "Đánh giá năng lực giao tiếp và hợp tác qua phương án thảo luận, phân công nhóm"
+      },
+      {
+        "metadata_code": "NLC_GIAIQUYETVD",
+        "reason": "Đánh giá năng lực giải quyết vấn đề và sáng tạo qua giải pháp đề xuất thực tiễn"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_02",
+        "reason": "Đánh giá năng lực mô hình hóa toán học qua biểu thức tổng quát"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03",
+        "reason": "Đánh giá năng lực giải quyết vấn đề toán học qua chọn quy trình tính hợp lý"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học thuộc môn Toán, không chứa nội dung sử dụng thiết bị/phần mềm tin học chuyên dụng."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học không liên quan trực tiếp đến các mô hình hay ứng dụng Trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Quy luật và xu hướng dữ liệu biểu diễn trên biểu đồ quạt",
+      "questiontext": "Dựa vào biểu đồ hình quạt tròn Hình 5.14 [img:_page_4_Figure_4.jpeg], yếu tố nào chiếm tỉ lệ phần trăm cao nhất trong các yếu tố ảnh hưởng đến chiều cao của trẻ?",
+      "imgs": [
+        "_page_4_Figure_4.jpeg"
+      ],
+      "generalfeedback": "Quan sát biểu đồ Hình 5.14, yếu tố Dinh dưỡng chiếm tỉ lệ 32%, là tỉ lệ cao nhất trong các yếu tố.",
+      "answers": [
+        {
+          "text": "Dinh dưỡng",
+          "fraction": 100
+        },
+        {
+          "text": "Di truyền",
+          "fraction": 0
+        },
+        {
+          "text": "Vận động",
+          "fraction": 0
+        },
+        {
+          "text": "Giấc ngủ và môi trường",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_128",
+      "questiontext": "Dựa vào biểu đồ Hình 5.17 [img:_page_5_Figure_17.jpeg], một trường trung học có 1 000 học sinh thì chắc chắn có đúng 328 học sinh bị cận thị. Khẳng định trên là Đúng hay Sai?",
+      "imgs": [
+        "_page_5_Figure_17.jpeg"
+      ],
+      "generalfeedback": "Khẳng định trên là Sai. Số liệu từ biểu đồ hình quạt tròn chỉ cho biết tỉ lệ phần trăm ước tính (khoảng 32,8%), chứ không khẳng định chắc chắn số lượng thực tế trong mọi trường cụ thể.",
+      "answers": [
+        {
+          "text": "Sai",
+          "fraction": 100
+        },
+        {
+          "text": "Đúng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Giải quyết vấn đề đơn giản từ biểu đồ quạt",
+      "questiontext": "Biểu đồ Hình 5.16 [img:_page_5_Figure_3.jpeg] cho biết các hoạt động thời gian rảnh rỗi của học sinh khối 7. Hãy dự đoán trong 200 học sinh khối 7 của trường đó có bao nhiêu bạn thích chơi thể thao. (Chỉ điền số, không ghi đơn vị)",
+      "imgs": [
+        "_page_5_Figure_3.jpeg"
+      ],
+      "generalfeedback": "Tỉ lệ học sinh thích chơi thể thao là 30%. Số học sinh thích chơi thể thao là: \\(200 \\times 30\\% = 60\\) (học sinh).",
+      "answers": [
+        {
+          "text": "60",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Phân tích số liệu biểu đồ quạt để rút ra nhận xét",
+      "questiontext": "Theo biểu đồ Hình 5.14 [img:_page_4_Figure_4.jpeg], yếu tố di truyền ảnh hưởng bao nhiêu phần trăm đến chiều cao của trẻ?",
+      "imgs": [
+        "_page_4_Figure_4.jpeg"
+      ],
+      "generalfeedback": "Quan sát biểu đồ Hình 5.14, yếu tố di truyền chiếm 23%.",
+      "answers": [
+        {
+          "text": "23%",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Quy luật và xu hướng dữ liệu biểu diễn trên biểu đồ quạt",
+      "questiontext": "Dựa vào biểu đồ Hình 5.14 [img:_page_4_Figure_4.jpeg], hãy ghép mỗi yếu tố ảnh hưởng đến chiều cao của trẻ với tỉ lệ phần trăm tương ứng.",
+      "imgs": [
+        "_page_4_Figure_4.jpeg"
+      ],
+      "generalfeedback": "Đối chiếu với Hình 5.14: Dinh dưỡng - 32%, Di truyền - 23%, Vận động - 20%, Giấc ngủ và môi trường - 16%.",
+      "subquestions": [
+        {
+          "question": "Dinh dưỡng",
+          "answer": "32%"
+        },
+        {
+          "question": "Di truyền",
+          "answer": "23%"
+        },
+        {
+          "question": "Vận động",
+          "answer": "20%"
+        },
+        {
+          "question": "Giấc ngủ và môi trường",
+          "answer": "16%"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_128",
+      "questiontext": "Ngoài yếu tố di truyền, yếu tố ảnh hưởng nhiều nhất đến chiều cao của trẻ là [[1]], còn yếu tố ảnh hưởng ít nhất trong các yếu tố được nêu ở Hình 5.14 [img:_page_4_Figure_4.jpeg] là [[2]].",
+      "imgs": [
+        "_page_4_Figure_4.jpeg"
+      ],
+      "generalfeedback": "Dinh dưỡng chiếm tỉ lệ lớn nhất (32%), Yếu tố khác chiếm tỉ lệ nhỏ nhất (9%).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "Dinh dưỡng"
+        },
+        {
+          "group": 1,
+          "text": "Yếu tố khác"
+        },
+        {
+          "group": 1,
+          "text": "Vận động"
+        },
+        {
+          "group": 1,
+          "text": "Giấc ngủ và môi trường"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "Giải quyết vấn đề đơn giản từ biểu đồ quạt",
+      "questiontext": "Theo Hình 5.14 [img:_page_4_Figure_4.jpeg], tổng tỉ lệ ảnh hưởng của hai yếu tố Dinh dưỡng và Vận động là [[1]] %, lớn hơn tổng tỉ lệ của Di truyền và Giấc ngủ môi trường là [[2]] %.",
+      "imgs": [
+        "_page_4_Figure_4.jpeg"
+      ],
+      "generalfeedback": "Dinh dưỡng + Vận động = 32% + 20% = 52%. Di truyền + Giấc ngủ & MT = 23% + 16% = 39%.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "52"
+        },
+        {
+          "group": 1,
+          "text": "39"
+        },
+        {
+          "group": 1,
+          "text": "48"
+        },
+        {
+          "group": 1,
+          "text": "35"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_130",
+      "questiontext": "Biết tỉ lệ học sinh thích chơi thể thao trong thời gian rảnh rỗi là 30% (Hình 5.16 [img:_page_5_Figure_3.jpeg]). Hãy tính số học sinh thích chơi thể thao trong một khối gồm {n} học sinh. (Chỉ điền số)",
+      "imgs": [
+        "_page_5_Figure_3.jpeg"
+      ],
+      "generalfeedback": "Số học sinh thích chơi thể thao là: \\({n} \\times 30\\% = {n} \\times 0,3\\).",
+      "wildcards": [
+        {
+          "name": "n",
+          "min": 100.0,
+          "max": 500.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{n}*0.3",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Giải quyết vấn đề đơn giản từ biểu đồ quạt",
+      "questiontext": "Biết tỉ lệ học sinh thích đọc sách hoặc nghe nhạc lần lượt là 20% và 15% (Hình 5.16 [img:_page_5_Figure_3.jpeg]). Trong một khối có {k} học sinh, hãy dự đoán số học sinh thích đọc sách hoặc nghe nhạc. (Chỉ điền số)",
+      "imgs": [
+        "_page_5_Figure_3.jpeg"
+      ],
+      "generalfeedback": "Tổng tỉ lệ đọc sách hoặc nghe nhạc là 20% + 15% = 35%. Số học sinh tương ứng là: \\({k} \\times 35\\% = {k} \\times 0,35\\).",
+      "wildcards": [
+        {
+          "name": "k",
+          "min": 100.0,
+          "max": 400.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{k}*0.35",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_130",
+      "questiontext": "Một đội hiến máu gồm m tình nguyện viên có tỉ lệ nhóm máu A là 25% và nhóm máu O là 40% (Hình 5.20 [img:_page_6_Figure_16.jpeg]). Công thức nào sau đây tính số người mang nhóm máu A hoặc O?",
+      "imgs": [
+        "_page_6_Figure_16.jpeg"
+      ],
+      "generalfeedback": "Số người mang nhóm máu A hoặc O bằng tổng tỉ lệ (25% + 40% = 65%) nhân với tổng số người {m}, tức là {m} * 0.65.",
+      "wildcards": [
+        {
+          "name": "m",
+          "min": 100.0,
+          "max": 300.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{m}*0.65",
+          "fraction": 100
+        },
+        {
+          "text": "{m}*0.25",
+          "fraction": 0
+        },
+        {
+          "text": "{m}*0.40",
+          "fraction": 0
+        },
+        {
+          "text": "{m}*0.15",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Phân tích số liệu biểu đồ quạt để rút ra nhận xét",
+      "questiontext": "Dựa vào biểu đồ Hình 5.15 [img:_page_4_Figure_15.jpeg] về các nguồn điện của Việt Nam năm 2019, nguồn điện nào đóng góp tỉ lệ lớn nhất?",
+      "imgs": [
+        "_page_4_Figure_15.jpeg"
+      ],
+      "generalfeedback": "Quan sát Hình 5.15, nguồn điện từ Than chiếm tỉ lệ cao nhất với 41,6%.",
+      "answers": [
+        {
+          "text": "Than",
+          "fraction": 100
+        },
+        {
+          "text": "Thủy điện",
+          "fraction": 0
+        },
+        {
+          "text": "Khí",
+          "fraction": 0
+        },
+        {
+          "text": "Nhập khẩu",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Quy luật và xu hướng dữ liệu biểu diễn trên biểu đồ quạt",
+      "questiontext": "Trong biểu đồ hình quạt tròn, mỗi hình quạt biểu diễn tỉ lệ phần trăm của một thành phần so với toàn thể hình tròn (100%). Khẳng định trên là Đúng hay Sai?",
+      "generalfeedback": "Khẳng định trên là Đúng. Biểu đồ hình quạt tròn dùng hình tròn biểu diễn 100% dữ liệu và các quạt đại diện cho từng thành phần.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Giải quyết vấn đề đơn giản từ biểu đồ quạt",
+      "questiontext": "Biết sản lượng điện của Việt Nam năm 2019 là 240,1 tỷ kWh và điện nhập khẩu chiếm 1,3% (Hình 5.15 [img:_page_4_Figure_15.jpeg]). Hãy tính sản lượng điện nhập khẩu năm 2019 theo đơn vị tỷ kWh (làm tròn đến 2 chữ số thập phân). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "imgs": [
+        "_page_4_Figure_15.jpeg"
+      ],
+      "generalfeedback": "Sản lượng điện nhập khẩu là: \\(240,1 \\times 1,3\\% = 3,1213 \\approx 3,12\\) (tỷ kWh).",
+      "answers": [
+        {
+          "text": "3.12",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Quy luật và xu hướng dữ liệu biểu diễn trên biểu đồ quạt",
+      "questiontext": "Dựa vào biểu đồ Hình 5.18 [img:_page_6_Figure_6.jpeg] về dân số 5 châu lục năm 2020, châu lục nào có số dân đông nhất?",
+      "imgs": [
+        "_page_6_Figure_6.jpeg"
+      ],
+      "generalfeedback": "Quan sát Hình 5.18, Châu Á chiếm 59,5% dân số thế giới, là châu lục đông dân nhất.",
+      "answers": [
+        {
+          "text": "Châu Á",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Phân tích số liệu biểu đồ quạt để rút ra nhận xét",
+      "questiontext": "Dựa vào biểu đồ Hình 5.18 [img:_page_6_Figure_6.jpeg], hãy ghép mỗi châu lục với tỉ lệ dân số tương ứng năm 2020.",
+      "imgs": [
+        "_page_6_Figure_6.jpeg"
+      ],
+      "generalfeedback": "Đối chiếu với Hình 5.18: Châu Á - 59,5%, Châu Phi - 17,2%, Châu Mỹ - 13,1%, Châu Âu - 9,6%.",
+      "subquestions": [
+        {
+          "question": "Châu Á",
+          "answer": "59,5%"
+        },
+        {
+          "question": "Châu Phi",
+          "answer": "17,2%"
+        },
+        {
+          "question": "Châu Mỹ",
+          "answer": "13,1%"
+        },
+        {
+          "question": "Châu Âu",
+          "answer": "9,6%"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Phân tích số liệu biểu đồ quạt để rút ra nhận xét",
+      "questiontext": "Dựa vào biểu đồ Hình 5.20 [img:_page_6_Figure_16.jpeg], nhóm máu chiếm tỉ lệ cao nhất trong đội hiến máu là [[1]], còn nhóm máu chiếm tỉ lệ thấp nhất là [[2]].",
+      "imgs": [
+        "_page_6_Figure_16.jpeg"
+      ],
+      "generalfeedback": "Nhóm O chiếm tỉ lệ cao nhất (40%), nhóm AB chiếm tỉ lệ thấp nhất (15%).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "Nhóm O"
+        },
+        {
+          "group": 1,
+          "text": "Nhóm AB"
+        },
+        {
+          "group": 1,
+          "text": "Nhóm A"
+        },
+        {
+          "group": 1,
+          "text": "Nhóm B"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "Giải quyết vấn đề đơn giản từ biểu đồ quạt",
+      "questiontext": "Một đội hiến máu gồm 200 tình nguyện viên (Hình 5.20 [img:_page_6_Figure_16.jpeg]). Số người mang nhóm máu O là [[1]] người, số người mang nhóm máu AB là [[2]] người.",
+      "imgs": [
+        "_page_6_Figure_16.jpeg"
+      ],
+      "generalfeedback": "Số người nhóm O: \\(200 \\times 40\\% = 80\\) người. Số người nhóm AB: \\(200 \\times 15\\% = 30\\) người.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "80"
+        },
+        {
+          "group": 1,
+          "text": "30"
+        },
+        {
+          "group": 1,
+          "text": "50"
+        },
+        {
+          "group": 1,
+          "text": "40"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_130",
+      "questiontext": "Năm 2020, tổng dân số 5 châu lục là {t} triệu người. Biết dân số Châu Á chiếm 59,5% (Hình 5.18 [img:_page_6_Figure_6.jpeg]). Hãy tính số dân Châu Á theo đơn vị triệu người. (Chỉ điền số)",
+      "imgs": [
+        "_page_6_Figure_6.jpeg"
+      ],
+      "generalfeedback": "Số dân Châu Á là: \\({t} \\times 59,5\\% = {t} \\times 0,595\\) (triệu người).",
+      "wildcards": [
+        {
+          "name": "t",
+          "min": 7000.0,
+          "max": 8000.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{t}*0.595",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Giải quyết vấn đề đơn giản từ biểu đồ quạt",
+      "questiontext": "Từ kết quả khảo sát kĩ năng bơi của s học sinh tiểu học, có 25% học sinh chưa biết bơi. Hãy ước lượng số học sinh chưa biết bơi trong s học sinh đó. (Chỉ điền số)",
+      "generalfeedback": "Số học sinh chưa biết bơi ước tính là: \\({s} \\times 25\\% = {s} \\times 0,25\\).",
+      "wildcards": [
+        {
+          "name": "s",
+          "min": 400.0,
+          "max": 1000.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{s}*0.25",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_130",
+      "questiontext": "Cho biểu đồ cơ cấu nguồn điện năm 2019 (Hình 5.15 [img:_page_4_Figure_15.jpeg]) với tỉ lệ Than là 41,6% và Thủy điện là 37,7%. Với tổng sản lượng điện là {p} tỷ kWh, công thức nào sau đây tính tổng sản lượng điện từ Than và Thủy điện?",
+      "imgs": [
+        "_page_4_Figure_15.jpeg"
+      ],
+      "generalfeedback": "Tổng tỉ lệ Than và Thủy điện là 41,6% + 37,7% = 79,3% (tức 0,793). Vậy sản lượng tương ứng là {p} * 0.793.",
+      "wildcards": [
+        {
+          "name": "p",
+          "min": 200.0,
+          "max": 300.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{p}*0.793",
+          "fraction": 100
+        },
+        {
+          "text": "{p}*0.416",
+          "fraction": 0
+        },
+        {
+          "text": "{p}*0.377",
+          "fraction": 0
+        },
+        {
+          "text": "{p}*0.190",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Khi phân tích biểu đồ hình quạt tròn Hình 5.14 [img:_page_4_Figure_4.jpeg] về các yếu tố ảnh hưởng đến chiều cao của trẻ, bạn An không chỉ đọc số liệu của 1-2 yếu tố lớn nhất mà cẩn thận lập bảng thống kê đầy đủ cả 5 yếu tố và tính lại tổng tỉ lệ phần trăm để kiểm tra. Hành động của bạn An thể hiện phẩm chất nào?",
+      "imgs": [
+        "_page_4_Figure_4.jpeg"
+      ],
+      "generalfeedback": "Việc cẩn thận, tỉ mỉ lập bảng và kiểm tra đầy đủ toàn bộ dữ liệu bài học thể hiện phẩm chất Chăm chỉ.",
+      "answers": [
+        {
+          "text": "Chăm chỉ",
+          "fraction": 100
+        },
+        {
+          "text": "Trung thực",
+          "fraction": 0
+        },
+        {
+          "text": "Trách nhiệm",
+          "fraction": 0
+        },
+        {
+          "text": "Yêu nước",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Trong bài thảo luận nhóm về sản lượng điện năm 2019 (Hình 5.15 [img:_page_4_Figure_15.jpeg]), tỉ lệ điện than là 41,6%. Bạn Bình muốn làm tròn thành 45% để báo cáo nhìn đẹp hơn, nhưng bạn Mai khuyên nên giữ đúng số liệu 41,6% như biểu đồ SGK. Lời khuyên của bạn Mai thể hiện phẩm chất nào?",
+      "imgs": [
+        "_page_4_Figure_15.jpeg"
+      ],
+      "generalfeedback": "Tôn trọng và phản ánh đúng số liệu thực tế từ nguồn dữ liệu SGK thể hiện phẩm chất Trung thực.",
+      "answers": [
+        {
+          "text": "Trung thực",
+          "fraction": 100
+        },
+        {
+          "text": "Chăm chỉ",
+          "fraction": 0
+        },
+        {
+          "text": "Nhân ái",
+          "fraction": 0
+        },
+        {
+          "text": "Yêu nước",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLC_GIAOTIEP",
+      "questiontext": "Để báo cáo trước lớp về kết quả khảo sát thời gian rảnh rỗi của học sinh khối 7 (Hình 5.16 [img:_page_5_Figure_3.jpeg]), nhóm em cần phân công công việc. Phương án phân công nào sau đây thể hiện tốt nhất năng lực giao tiếp và hợp tác?",
+      "imgs": [
+        "_page_5_Figure_3.jpeg"
+      ],
+      "generalfeedback": "Lắng nghe ý kiến, phân công phù hợp theo năng lực thành viên và cùng thảo luận thống nhất thể hiện năng lực giao tiếp và hợp tác hiệu quả.",
+      "answers": [
+        {
+          "text": "Lắng nghe ý kiến các bạn, phân công người tổng hợp số liệu, người vẽ/trình chiếu và người thuyết trình sau khi cả nhóm thống nhất nội dung",
+          "fraction": 100
+        },
+        {
+          "text": "Giao toàn bộ việc phân tích biểu đồ và thuyết trình cho một bạn giỏi Toán nhất nhóm làm từ đầu đến cuối",
+          "fraction": 0
+        },
+        {
+          "text": "Mỗi bạn tự làm một báo cáo riêng rồi bốc thăm chọn một bản để nộp cho thầy cô",
+          "fraction": 0
+        },
+        {
+          "text": "Nhóm trưởng tự quyết định mọi phân công mà không cần thảo luận hay hỏi ý kiến các thành viên khác",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLC_GIAIQUYETVD",
+      "questiontext": "Dựa vào biểu đồ Hình 5.16 [img:_page_5_Figure_3.jpeg], biết tỉ lệ học sinh thích chơi thể thao là 30% và thích đọc sách là 25%. Để khuyến khích học sinh phát triển toàn diện, ý tưởng đề xuất nào sau đây thể hiện năng lực giải quyết vấn đề và sáng tạo?",
+      "imgs": [
+        "_page_5_Figure_3.jpeg"
+      ],
+      "generalfeedback": "Đề xuất kết hợp các hoạt động thể thao và đọc sách phù hợp với nhu cầu và thị hiếu học sinh từ dữ liệu thực tế cho thấy sự sáng tạo và giải quyết vấn đề tốt.",
+      "answers": [
+        {
+          "text": "Tổ chức mô hình 'CLB Sách & Thể thao', kết hợp các buổi đọc sách thể thao và giao lưu vận động giữa các lớp",
+          "fraction": 100
+        },
+        {
+          "text": "Hủy bỏ toàn bộ hoạt động đọc sách để bắt buộc tất cả học sinh phải chơi thể thao",
+          "fraction": 0
+        },
+        {
+          "text": "Không tổ chức thêm hoạt động nào vì học sinh đã tự do làm theo sở thích",
+          "fraction": 0
+        },
+        {
+          "text": "Yêu cầu nhà trường cấm học sinh nghe nhạc trong thời gian rảnh rỗi",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_02",
+      "questiontext": "Dựa vào biểu đồ hình quạt tròn Hình 5.14 [img:_page_4_Figure_4.jpeg], gọi \\(x\\) là tỉ lệ % của yếu tố Dinh dưỡng (32%) và \\(y\\) là tỉ lệ % của yếu tố Vận động (20%). Mô hình toán học nào sau đây biểu diễn đúng tổng số học sinh thích ứng với hai yếu tố này trong một nhóm \\(N\\) học sinh?",
+      "imgs": [
+        "_page_4_Figure_4.jpeg"
+      ],
+      "generalfeedback": "Tổng tỉ lệ hai yếu tố là \\(x + y = 32\\% + 20\\% = 52\\% = 0,52\\). Tổng số học sinh tương ứng là \\(0,52 \\times N\\).",
+      "answers": [
+        {
+          "text": "\\((x + y)\\%\\), tức \\(0,52 \\times N\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\((x \\times y)\\%\\), tức \\(0,064 \\times N\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((x - y)\\%\\), tức \\(0,12 \\times N\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{x}{y}\\%\\), tức \\(1,6 \\times N\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "questiontext": "Để giải quyết bài toán tính tổng sản lượng điện từ Thủy điện (37,7%) và Điện than (41,6%) khi biết tổng sản lượng điện năm 2019 là 240,1 tỷ kWh (Hình 5.15 [img:_page_4_Figure_15.jpeg]), bước giải nào sau đây thể hiện đúng năng lực giải quyết vấn đề toán học?",
+      "imgs": [
+        "_page_4_Figure_15.jpeg"
+      ],
+      "generalfeedback": "Tính tổng tỉ lệ phần trăm của hai nguồn điện trước (37,7% + 41,6% = 79,3%), sau đó nhân với tổng sản lượng 240,1 tỷ kWh.",
+      "answers": [
+        {
+          "text": "Cộng hai tỉ lệ phần trăm \\(37,7\\% + 41,6\\% = 79,3\\%\\), rồi tính \\(240,1 \\times 79,3\\%\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Lấy \\(240,1 \\times 37,7\\%\\) rồi chia cho \\(41,6\\%\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Trừ hai tỉ lệ phần trăm \\(41,6\\% - 37,7\\% = 3,9\\%\\), rồi tính \\(240,1 \\times 3,9\\%\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Chia tổng sản lượng 240,1 cho 100 rồi cộng với 79,3",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

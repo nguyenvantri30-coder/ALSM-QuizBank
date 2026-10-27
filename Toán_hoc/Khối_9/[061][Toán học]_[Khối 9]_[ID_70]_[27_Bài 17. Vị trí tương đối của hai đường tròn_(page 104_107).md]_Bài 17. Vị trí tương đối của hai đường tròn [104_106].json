@@ -1,0 +1,705 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 28,
+    "metadata_used": {
+      "YCCD_TOAN9_071": 5,
+      "Khái niệm hai đường tròn cắt nhau (2 điểm chung, đường nối tâm)": 2,
+      "Khái niệm hai đường tròn tiếp xúc nhau (tiếp xúc ngoài, tiếp xúc trong, 1 điểm chung)": 3,
+      "Xác định vị trí tương đối cắt nhau, tiếp xúc nhau dựa vào số điểm chung": 2,
+      "So sánh khoảng cách nối tâm d với R + r hoặc R - r": 8,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TUHOC_C2_01": 1,
+      "SUB_GTHT_XACDINHMD_C2_03": 1,
+      "NLT_TOAN_C2_01_03": 2,
+      "NLT_TOAN_C2_04_12": 2
+    },
+    "types_used": {
+      "multichoice": 10,
+      "truefalse": 3,
+      "matching": 3,
+      "numerical": 2,
+      "gapselect": 3,
+      "calculatedsimple": 2,
+      "shortanswer": 3,
+      "ddwtos": 2
+    },
+    "total": 28
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN9_071",
+        "reason": "Mô tả được ba vị trí tương đối của hai đường tròn"
+      },
+      {
+        "metadata_code": "Khái niệm hai đường tròn cắt nhau (2 điểm chung, đường nối tâm)",
+        "reason": "Khái niệm hai đường tròn cắt nhau"
+      },
+      {
+        "metadata_code": "Khái niệm hai đường tròn tiếp xúc nhau (tiếp xúc ngoài, tiếp xúc trong, 1 điểm chung)",
+        "reason": "Khái niệm hai đường tròn tiếp xúc nhau"
+      },
+      {
+        "metadata_code": "Xác định vị trí tương đối cắt nhau, tiếp xúc nhau dựa vào số điểm chung",
+        "reason": "Xác định vị trí tương đối cắt nhau, tiếp xúc nhau dựa vào số điểm chung"
+      },
+      {
+        "metadata_code": "So sánh khoảng cách nối tâm d với R + r hoặc R - r",
+        "reason": "So sánh khoảng cách nối tâm d với R + r hoặc R - r"
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Luôn cố gắng vươn lên đạt kết quả tốt trong học tập"
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+        "reason": "Tự đặt được mục tiêu học tập để nỗ lực phấn đấu thực hiện"
+      },
+      {
+        "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+        "reason": "Tiếp nhận văn bản/hình ảnh có sử dụng ngôn ngữ kết hợp với biểu đồ, hình ảnh"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_03",
+        "reason": "Giải thích được sự tương đồng và khác biệt trong nhiều tình huống"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_04_12",
+        "reason": "Sử dụng được ngôn ngữ toán học kết hợp với ngôn ngữ thông thường"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Nội dung bài học thuần lý thuyết hình học, không chứa nội dung dạy trực tiếp kỹ năng công cụ số."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học không đề cập trực tiếp đến nguyên lý hoặc ứng dụng của trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_071",
+      "questiontext": "Hai đường tròn phân biệt có thể có nhiều nhất bao nhiêu điểm chung?",
+      "generalfeedback": "Hai đường tròn phân biệt có thể có tối đa 2 điểm chung (khi cắt nhau), 1 điểm chung (khi tiếp xúc nhau) hoặc không có điểm chung nào (khi không giao nhau).",
+      "answers": [
+        {
+          "text": "2 điểm chung",
+          "fraction": 100
+        },
+        {
+          "text": "1 điểm chung",
+          "fraction": 0
+        },
+        {
+          "text": "3 điểm chung",
+          "fraction": 0
+        },
+        {
+          "text": "Vô số điểm chung",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm hai đường tròn cắt nhau (2 điểm chung, đường nối tâm)",
+      "questiontext": "Nếu hai đường tròn có đúng 2 điểm chung thì hai đường tròn đó cắt nhau.",
+      "generalfeedback": "Theo định nghĩa trong SGK, nếu hai đường tròn có đúng hai điểm chung thì ta nói đó là hai đường tròn cắt nhau.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm hai đường tròn tiếp xúc nhau (tiếp xúc ngoài, tiếp xúc trong, 1 điểm chung)",
+      "questiontext": "Khi hai đường tròn tiếp xúc nhau, số điểm chung duy nhất của chúng được gọi là gì?",
+      "generalfeedback": "Nếu hai đường tròn có duy nhất một điểm chung thì hai đường tròn đó tiếp xúc nhau. Điểm chung gọi là tiếp điểm.",
+      "answers": [
+        {
+          "text": "Tiếp điểm",
+          "fraction": 100
+        },
+        {
+          "text": "Giao điểm",
+          "fraction": 0
+        },
+        {
+          "text": "Tâm đường tròn",
+          "fraction": 0
+        },
+        {
+          "text": "Đỉnh",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Xác định vị trí tương đối cắt nhau, tiếp xúc nhau dựa vào số điểm chung",
+      "questiontext": "Hãy ghép vị trí tương đối của hai đường tròn với số điểm chung tương ứng:",
+      "generalfeedback": "Hai đường tròn cắt nhau có 2 điểm chung, tiếp xúc nhau có 1 điểm chung, không giao nhau không có điểm chung.",
+      "subquestions": [
+        {
+          "question": "Hai đường tròn cắt nhau",
+          "answer": "Có đúng 2 điểm chung"
+        },
+        {
+          "question": "Hai đường tròn tiếp xúc nhau",
+          "answer": "Có duy nhất 1 điểm chung"
+        },
+        {
+          "question": "Hai đường tròn không giao nhau",
+          "answer": "Không có điểm chung nào"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "So sánh khoảng cách nối tâm d với R + r hoặc R - r",
+      "questiontext": "Cho hai đường tròn \\((O; R)\\) và \\((O'; R')\\) cắt nhau (với \\(R > R'\\)). Khoảng cách giữa hai tâm \\(OO'\\) thỏa mãn hệ thức nào sau đây?",
+      "generalfeedback": "Hai đường tròn (O; R) và (O'; R') cắt nhau khi R - R' < OO' < R + R' (với R > R').",
+      "answers": [
+        {
+          "text": "\\(R - R' < OO' < R + R'\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(OO' = R + R'\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(OO' > R + R'\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(OO' = R - R'\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "So sánh khoảng cách nối tâm d với R + r hoặc R - r",
+      "questiontext": "Cho hai điểm \\(O\\) và \\(O'\\) sao cho \\(OO' = 5\\text{ cm}\\). Biết hai đường tròn \\((O; 4\\text{ cm})\\) và \\((O'; r)\\) tiếp xúc ngoài với nhau. Tính bán kính \\(r\\) của đường tròn tâm \\(O'\\) (đơn vị: cm).\n(Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Vì hai đường tròn tiếp xúc ngoài nên OO' = R + r. Do đó 5 = 4 + r, suy ra r = 1 cm.",
+      "answers": [
+        {
+          "text": "1",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm hai đường tròn tiếp xúc nhau (tiếp xúc ngoài, tiếp xúc trong, 1 điểm chung)",
+      "questiontext": "Hai đường tròn \\((O; R)\\) và \\((O'; R')\\) tiếp xúc ngoài khi \\(OO' = R + R'\\), nghĩa là khoảng cách nối tâm bằng [[1]] hai bán kính. Chúng tiếp xúc trong khi \\(OO' = R - R'\\) (với \\(R > R'\\)), nghĩa là khoảng cách nối tâm bằng [[2]] hai bán kính.",
+      "generalfeedback": "Hai đường tròn tiếp xúc ngoài khi OO' bằng tổng hai bán kính, tiếp xúc trong khi OO' bằng hiệu hai bán kính (R > R').",
+      "choices": [
+        {
+          "group": 1,
+          "text": "tổng"
+        },
+        {
+          "group": 1,
+          "text": "hiệu"
+        },
+        {
+          "group": 1,
+          "text": "tích"
+        },
+        {
+          "group": 1,
+          "text": "thương"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "So sánh khoảng cách nối tâm d với R + r hoặc R - r",
+      "questiontext": "Cho hai đường tròn \\((O; R_1)\\) và \\((O'; R_2)\\) tiếp xúc ngoài với nhau. Biết bán kính \\(R_1 =\\) {a} cm và bán kính \\(R_2 =\\) {b} cm. Tính khoảng cách nối tâm \\(OO'\\) (theo cm).\n(Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Khi hai đường tròn tiếp xúc ngoài thì khoảng cách giữa hai tâm bằng tổng hai bán kính: OO' = R_1 + R_2 = {a} + {b}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 1.0,
+          "max": 8.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}+{b}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm hai đường tròn tiếp xúc nhau (tiếp xúc ngoài, tiếp xúc trong, 1 điểm chung)",
+      "questiontext": "Nếu hai đường tròn tiếp xúc với nhau thì tiếp điểm của chúng có vị trí như thế nào đối với hai tâm?",
+      "generalfeedback": "Nếu hai đường tròn tiếp xúc với nhau thì tiếp điểm thẳng hàng với hai tâm.",
+      "answers": [
+        {
+          "text": "thẳng hàng",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_071",
+      "imgs": [
+        "_page_0_Picture_20.jpeg"
+      ],
+      "questiontext": "Quan sát hình vẽ sau: [img:_page_0_Picture_20.jpeg]\nHai đường tròn \\((O)\\) và \\((O')\\) có đúng 2 điểm chung. Vị trí tương đối của hai đường tròn này là hai đường tròn [[1]]. Các điểm chung gọi là [[2]] của hai đường tròn.",
+      "generalfeedback": "Hai đường tròn có đúng 2 điểm chung là hai đường tròn cắt nhau, các điểm chung đó được gọi là giao điểm.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "cắt nhau"
+        },
+        {
+          "group": 1,
+          "text": "giao điểm"
+        },
+        {
+          "group": 1,
+          "text": "tiếp xúc nhau"
+        },
+        {
+          "group": 1,
+          "text": "tiếp điểm"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "So sánh khoảng cách nối tâm d với R + r hoặc R - r",
+      "questiontext": "Cho hai đường tròn \\((O; 5\\text{ cm})\\) và \\((O'; 2\\text{ cm})\\). Biết khoảng cách nối tâm \\(OO' = 7\\text{ cm}\\). Vị trí tương đối của hai đường tròn này là gì?",
+      "generalfeedback": "Ta có OO' = 7 cm = 5 cm + 2 cm = R + R'. Do đó hai đường tròn tiếp xúc ngoài.",
+      "answers": [
+        {
+          "text": "Tiếp xúc ngoài",
+          "fraction": 100
+        },
+        {
+          "text": "Tiếp xúc trong",
+          "fraction": 0
+        },
+        {
+          "text": "Cắt nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Ở ngoài nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "So sánh khoảng cách nối tâm d với R + r hoặc R - r",
+      "questiontext": "Cho hai đường tròn \\((O; 8\\text{ cm})\\) và \\((O'; 5\\text{ cm})\\). Biết khoảng cách nối tâm \\(OO' = 3\\text{ cm}\\). Vị trí tương đối của hai đường tròn này là gì?",
+      "generalfeedback": "Ta có OO' = 3 cm = 8 cm - 5 cm = R - R'. Do đó hai đường tròn tiếp xúc trong.",
+      "answers": [
+        {
+          "text": "Tiếp xúc trong",
+          "fraction": 100
+        },
+        {
+          "text": "Tiếp xúc ngoài",
+          "fraction": 0
+        },
+        {
+          "text": "Cắt nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Đựng nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_071",
+      "questiontext": "Hai đường tròn \\((O; R)\\) và \\((O'; R')\\) (với \\(R > R'\\)) ở ngoài nhau khi hệ thức nào sau đây đúng?",
+      "generalfeedback": "Hai đường tròn ở ngoài nhau khi khoảng cách nối tâm OO' lớn hơn tổng hai bán kính, tức là OO' > R + R'.",
+      "answers": [
+        {
+          "text": "\\(OO' > R + R'\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(OO' = R + R'\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(OO' < R - R'\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(R - R' < OO' < R + R'\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm hai đường tròn cắt nhau (2 điểm chung, đường nối tâm)",
+      "questiontext": "Hai điểm chung của hai đường tròn cắt nhau được gọi là hai giao điểm của chúng.",
+      "generalfeedback": "Theo định nghĩa SGK, nếu hai đường tròn có đúng hai điểm chung thì hai điểm chung đó gọi là hai giao điểm của chúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "So sánh khoảng cách nối tâm d với R + r hoặc R - r",
+      "questiontext": "Cho hai đường tròn \\((O; 5\\text{ cm})\\) và \\((I; r)\\). Biết khoảng cách \\(OI = 2\\text{ cm}\\) và hai đường tròn cắt nhau. Giá trị của \\(r\\) có thể nhận số nguyên nào lớn nhất? (Chỉ điền số)",
+      "generalfeedback": "Để hai đường tròn cắt nhau thì |5 - r| < 2 < 5 + r. Suy ra 3 < r < 7. Số nguyên lớn nhất thỏa mãn r < 7 là 6.",
+      "answers": [
+        {
+          "text": "6",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "So sánh khoảng cách nối tâm d với R + r hoặc R - r",
+      "questiontext": "Cho hai đường tròn \\((O; R)\\) và \\((O'; R')\\) tiếp xúc trong với nhau (với \\(R > R'\\)). Biết \\(R =\\) {a} cm và bán kính nhỏ \\(R' =\\) {b} cm (với {a} > {b}). Tính khoảng cách nối tâm \\(OO'\\) (theo cm).\n(Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Khi hai đường tròn tiếp xúc trong (R > R') thì khoảng cách nối tâm OO' = R - R' = {a} - {b}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 6.0,
+          "max": 15.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 1.0,
+          "max": 5.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}-{b}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_071",
+      "questiontext": "Khi hai đường tròn ngoài nhau, số điểm chung của chúng là [[1]]. Khi hai đường tròn cắt nhau, số điểm chung của chúng là [[2]].",
+      "generalfeedback": "Hai đường tròn ngoài nhau không có điểm chung (0 điểm chung). Hai đường tròn cắt nhau có đúng 2 điểm chung.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "0"
+        },
+        {
+          "group": 1,
+          "text": "2"
+        },
+        {
+          "group": 1,
+          "text": "1"
+        },
+        {
+          "group": 1,
+          "text": "vô số"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "So sánh khoảng cách nối tâm d với R + r hoặc R - r",
+      "questiontext": "Ghép hệ thức giữa khoảng cách nối tâm \\(OO'\\) và các bán kính \\(R, R'\\) (với \\(R > R'\\)) với vị trí tương đối tương ứng:",
+      "generalfeedback": "OO' > R + R': ngoài nhau; OO' = R + R': tiếp xúc ngoài; OO' < R - R': đựng nhau.",
+      "subquestions": [
+        {
+          "question": "\\(OO' > R + R'\\)",
+          "answer": "Hai đường tròn ngoài nhau"
+        },
+        {
+          "question": "\\(OO' = R + R'\\)",
+          "answer": "Hai đường tròn tiếp xúc ngoài"
+        },
+        {
+          "question": "\\(OO' < R - R'\\)",
+          "answer": "Đường tròn này đựng đường tròn kia"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Xác định vị trí tương đối cắt nhau, tiếp xúc nhau dựa vào số điểm chung",
+      "questiontext": "Xác định vị trí tương đối của hai đường tròn nếu chúng không có điểm chung nào và khoảng cách nối tâm nhỏ hơn hiệu hai bán kính.",
+      "generalfeedback": "Khi hai đường tròn không có điểm chung và khoảng cách nối tâm OO' < R - R' thì đường tròn lớn đựng đường tròn nhỏ.",
+      "answers": [
+        {
+          "text": "đựng nhau",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_071",
+      "imgs": [
+        "_page_1_Picture_8.jpeg"
+      ],
+      "questiontext": "Quan sát hình vẽ mô tả hai trường hợp tiếp xúc: [img:_page_1_Picture_8.jpeg]\nTrường hợp \\(OO' = OA + O'A\\) biểu diễn hai đường tròn [[1]]. Trường hợp \\(OO' = OA - O'A\\) biểu diễn hai đường tròn [[2]].",
+      "generalfeedback": "OO' = OA + O'A = R + R' biểu diễn hai đường tròn tiếp xúc ngoài. OO' = OA - O'A = R - R' biểu diễn hai đường tròn tiếp xúc trong.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "tiếp xúc ngoài"
+        },
+        {
+          "group": 1,
+          "text": "tiếp xúc trong"
+        },
+        {
+          "group": 1,
+          "text": "cắt nhau"
+        },
+        {
+          "group": 1,
+          "text": "ngoài nhau"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi làm bài tập về xác định vị trí tương đối của hai đường tròn, bạn Nam gặp bài toán nâng cao đòi hỏi phải so sánh khoảng cách nối tâm với hiệu hai bán kính nhưng chưa tìm ra đáp án. Để thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập, Nam nên chọn cách xử lý nào sau đây?",
+      "generalfeedback": "Để vươn lên đạt kết quả tốt trong học tập, học sinh cần tự giác xem lại kiến thức lý thuyết SGK (hệ thức giữa \\(OO'\\) và \\(R, r\\)), kiên trì suy nghĩ và trao đổi với thầy cô, bạn bè khi gặp vướng mắc chứ không nên bỏ qua hoặc chép lời giải.",
+      "answers": [
+        {
+          "text": "Xem lại kiến thức về hệ thức khoảng cách nối tâm trong SGK, tự kiên trì suy nghĩ và chủ động hỏi thầy cô, bạn bè nếu vẫn chưa hiểu.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài tập đó vì cho rằng bài quá khó và không nằm trong khả năng của mình.",
+          "fraction": 0
+        },
+        {
+          "text": "Sao chép ngay lời giải trên mạng vào vở bài tập để kịp nộp cho thầy cô mà không cần hiểu cách làm.",
+          "fraction": 0
+        },
+        {
+          "text": "Chờ đến giờ sửa bài trên lớp rồi chép đáp án của bạn chứ không tự làm trước ở nhà.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Trước khi học bài \"Vị trí tương đối của hai đường tròn (Tiết 1)\", bạn Mai muốn tự đặt mục tiêu học tập cá nhân phù hợp để nỗ lực phấn đấu. Mục tiêu nào sau đây thể hiện đúng yêu cầu cần đạt của bài học?",
+      "generalfeedback": "Mục tiêu học tập phù hợp cần bám sát yêu cầu cần đạt của bài học: mô tả được ba vị trí tương đối của hai đường tròn (cắt nhau, tiếp xúc nhau, không giao nhau) và so sánh khoảng cách nối tâm \\(OO'\\) với \\(R + r\\) hoặc \\(R - r\\).",
+      "answers": [
+        {
+          "text": "Nhận biết và mô tả được các vị trí tương đối cắt nhau, tiếp xúc nhau của hai đường tròn dựa trên số điểm chung và hệ thức khoảng cách nối tâm.",
+          "fraction": 100
+        },
+        {
+          "text": "Học thuộc lòng tất cả các bài tập hình học nâng cao về tiếp tuyến chung trong sách bài tập.",
+          "fraction": 0
+        },
+        {
+          "text": "Tính toán thành thạo diện tích hình quạt tròn và độ dài cung tròn.",
+          "fraction": 0
+        },
+        {
+          "text": "Vẽ thành thạo tất cả các hình khối không gian trong thực tế.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "imgs": [
+        "_page_0_Picture_11.jpeg"
+      ],
+      "questiontext": "Hình ảnh hiện tượng nguyệt thực [img:_page_0_Picture_11.jpeg] mô phỏng vị trí tương đối giữa Mặt Trăng và bóng của Trái Đất (được xem như hai hình tròn). Khi nguyệt thực một phần xảy ra, hình ảnh viền Mặt Trăng và viền bóng Trái Đất cho ta hình ảnh thực tế của hai đường tròn ở vị trí tương đối nào?",
+      "generalfeedback": "Khi nguyệt thực một phần xảy ra, viền Mặt Trăng và viền bóng Trái Đất cắt nhau tại 2 điểm chung, mô phỏng hai đường tròn cắt nhau.",
+      "answers": [
+        {
+          "text": "Hai đường tròn cắt nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Hai đường tròn ở ngoài nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Hai đường tròn tiếp xúc ngoài",
+          "fraction": 0
+        },
+        {
+          "text": "Hai đường tròn đồng tâm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_03",
+      "questiontext": "Nghiên cứu sự tương đồng và khác biệt giữa hai trường hợp \"Hai đường tròn tiếp xúc ngoài\" và \"Hai đường tròn tiếp xúc trong\" (với \\(R > R'\\)). Hãy ghép mỗi đặc điểm với vị trí tương đối thích hợp:",
+      "generalfeedback": "Cả hai trường hợp tiếp xúc đều có duy nhất 1 điểm chung (điểm tương đồng). Điểm khác biệt là hệ thức khoảng cách nối tâm: tiếp xúc ngoài có \\(OO' = R + R'\\), tiếp xúc trong có \\(OO' = R - R' > 0\\).",
+      "subquestions": [
+        {
+          "question": "Có duy nhất 1 điểm chung (điểm tương đồng)",
+          "answer": "Cả tiếp xúc ngoài và tiếp xúc trong"
+        },
+        {
+          "question": "Khoảng cách nối tâm \\(OO' = R + R'\\)",
+          "answer": "Chỉ có ở tiếp xúc ngoài"
+        },
+        {
+          "question": "Khoảng cách nối tâm \\(OO' = R - R' > 0\\)",
+          "answer": "Chỉ có ở tiếp xúc trong"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04_12",
+      "questiontext": "Một nghệ nhân thiết kế hai đường tròn mây tre đan tâm \\(O\\) và \\(O'\\) có bán kính lần lượt là \\(R = 8\\text{ cm}\\) và \\(r = 5\\text{ cm}\\). Để hai viền đường tròn chạm nhau tại đúng [[1]] điểm duy nhất ở bên ngoài nhau, nghệ nhân cần đặt khoảng cách giữa hai tâm \\(OO'\\) bằng [[2]] cm.",
+      "generalfeedback": "Hai đường tròn chạm nhau tại đúng 1 điểm duy nhất ngoài nhau nghĩa là tiếp xúc ngoài, khi đó khoảng cách nối tâm \\(OO' = R + r = 8 + 5 = 13\\text{ cm}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "1"
+        },
+        {
+          "group": 1,
+          "text": "13"
+        },
+        {
+          "group": 1,
+          "text": "2"
+        },
+        {
+          "group": 1,
+          "text": "3"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_03",
+      "questiontext": "So sánh vị trí tương đối \"Hai đường tròn cắt nhau\" và \"Hai đường tròn ngoài nhau\", phát biểu nào sau đây giải thích ĐÚNG sự khác biệt về số điểm chung và hệ thức khoảng cách nối tâm \\(OO'\\) (với \\(R > R'\\))?",
+      "generalfeedback": "Hai đường tròn cắt nhau có 2 điểm chung và \\(R - R' < OO' < R + R'\\); còn hai đường tròn ngoài nhau không có điểm chung nào (0 điểm chung) và \\(OO' > R + R'\\).",
+      "answers": [
+        {
+          "text": "Hai đường tròn cắt nhau có 2 điểm chung và \\(R - R' < OO' < R + R'\\); còn hai đường tròn ngoài nhau không có điểm chung và \\(OO' > R + R'\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Hai đường tròn cắt nhau có 1 điểm chung và \\(OO' = R + R'\\); còn hai đường tròn ngoài nhau có 2 điểm chung và \\(OO' > R + R'\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Cả hai vị trí đều có 2 điểm chung nhưng hệ thức khoảng cách nối tâm khác nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Cả hai vị trí đều không có điểm chung nhưng bán kính đường tròn khác nhau.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_04_12",
+      "questiontext": "Trong mô hình hai bánh răng tròn tựa vào nhau để truyền động ngoài, tâm của hai bánh răng là \\(O\\) và \\(O'\\), bán kính lần lượt là \\(10\\text{ cm}\\) và \\(6\\text{ cm}\\). Dùng ngôn ngữ toán học, viết giá trị khoảng cách nối tâm \\(OO'\\) (theo cm) để hai bánh răng tiếp xúc ngoài nhau.\n(Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Hai bánh răng tiếp xúc ngoài tương ứng với hai đường tròn tiếp xúc ngoài: \\(OO' = R_1 + R_2 = 10 + 6 = 16\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "16",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi tự học ở nhà, học sinh thấy việc vẽ chính xác hai đường tròn cắt nhau theo đúng số liệu bán kính cho trước là mất thời gian nên đã vẽ ước lượng bằng tay không dùng compa. Hành vi này thể hiện sự nỗ lực rèn luyện tính cẩn thận và cố gắng đạt kết quả tốt trong học tập Toán học.",
+      "generalfeedback": "Sai. Vẽ ước lượng bằng tay không dùng compa là thiếu cẩn thận, không đảm bảo tính chính xác khoa học của môn Toán, phản ánh sự thiếu cố gắng chỉn chu trong học tập.",
+      "answers": [
+        {
+          "text": "Sai",
+          "fraction": 100
+        },
+        {
+          "text": "Đúng",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

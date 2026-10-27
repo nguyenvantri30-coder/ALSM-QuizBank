@@ -1,0 +1,457 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 17,
+    "metadata_used": {
+      "YCCD_TOAN8_115": 4,
+      "Các mô hình bài toán ứng dụng xác suất trong thực tế đời sống": 4,
+      "Giải bài tập ứng dụng xác suất thực nghiệm vào trò chơi, kinh doanh và kiểm định sản phẩm": 8,
+      "Đánh giá nhận định dựa trên xác suất": 4,
+      "SUB_CHAMCHI_HAMHOC_C2_03": 1,
+      "SUB_GQVD_DEXUAT_C2_02": 1,
+      "NLT_TOAN_C2_02_08": 1,
+      "NLT_TOAN_C2_03_03": 1,
+      "1.1TC2a_K8": 1,
+      "8.A1.2_2": 1,
+      "8.A3.3_3": 1
+    },
+    "types_used": {
+      "multichoice": 8,
+      "truefalse": 3,
+      "numerical": 1,
+      "calculated": 1,
+      "matching": 1,
+      "gapselect": 1,
+      "shortanswer": 1,
+      "ddwtos": 1
+    },
+    "total": 17
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN8_115",
+        "reason": "Đánh giá khả năng nhận biết mối liên hệ giữa xác suất thực nghiệm và xác suất của biến cố."
+      },
+      {
+        "metadata_code": "Các mô hình bài toán ứng dụng xác suất trong thực tế đời sống",
+        "reason": "Đánh giá kiến thức về các mô hình bài toán ứng dụng xác suất trong thực tế đời sống."
+      },
+      {
+        "metadata_code": "Giải bài tập ứng dụng xác suất thực nghiệm vào trò chơi, kinh doanh và kiểm định sản phẩm",
+        "reason": "Đánh giá kỹ năng giải bài tập ứng dụng xác suất thực nghiệm vào kiểm định sản phẩm, trò chơi và kinh doanh."
+      },
+      {
+        "metadata_code": "Đánh giá nhận định dựa trên xác suất",
+        "reason": "Đánh giá kỹ năng đưa ra nhận định dựa trên xác suất."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_03",
+        "reason": "Đánh giá ý thức vận dụng kiến thức, kĩ năng vào đời sống từ các nguồn tin cậy."
+      },
+      {
+        "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+        "reason": "Đánh giá khả năng đề xuất giải pháp giải quyết vấn đề dựa trên xác suất thực nghiệm."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_02_08",
+        "reason": "Đánh giá khả năng thể hiện lời giải toán học vào ngữ cảnh thực tiễn."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_03",
+        "reason": "Đánh giá khả năng xác định giải pháp giải quyết vấn đề thực tiễn."
+      },
+      {
+        "metadata_code": "1.1TC2a_K8",
+        "reason": "Đánh giá khả năng tự tổ chức tìm kiếm, mô phỏng dữ liệu trong môi trường số."
+      },
+      {
+        "metadata_code": "8.A1.2_2",
+        "reason": "Đánh giá nhận thức về sự cần thiết kiểm chứng thông tin khi dùng AI tạo sinh."
+      },
+      {
+        "metadata_code": "8.A3.3_3",
+        "reason": "Đánh giá việc thể hiện trách nhiệm giải trình khi sử dụng AI."
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_115",
+      "questiontext": "Khi số lần lặp lại một thực nghiệm ngẫu nhiên ngày càng lớn, xác suất thực nghiệm của một biến cố thay đổi như thế nào so với xác suất của biến cố đó?",
+      "generalfeedback": "Khi số lần lặp lại một thực nghiệm ngẫu nhiên ngày càng lớn thì xác suất thực nghiệm của một biến cố càng gần với xác suất của biến cố đó.",
+      "answers": [
+        {
+          "text": "Xác suất thực nghiệm sẽ dao động xung quanh và ngày càng gần với xác suất của biến cố đó",
+          "fraction": 100
+        },
+        {
+          "text": "Xác suất thực nghiệm luôn luôn bằng đúng xác suất của biến cố đó trong mọi lần thử",
+          "fraction": 0
+        },
+        {
+          "text": "Xác suất thực nghiệm sẽ ngày càng nhỏ hơn rất nhiều so với xác suất của biến cố",
+          "fraction": 0
+        },
+        {
+          "text": "Xác suất thực nghiệm không có mối liên hệ nào với xác suất của biến cố",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Các mô hình bài toán ứng dụng xác suất trong thực tế đời sống",
+      "questiontext": "Trong thực tế đời sống, xác suất thực nghiệm có thể được ứng dụng để ước lượng tỉ lệ sản phẩm bị lỗi trong một lô hàng hoặc dự đoán xác suất thắng của một trò chơi.",
+      "generalfeedback": "Xác suất thực nghiệm được ứng dụng rộng rãi trong kiểm định chất lượng sản phẩm, dự đoán kết quả trò chơi và hoạt động kinh doanh.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Giải bài tập ứng dụng xác suất thực nghiệm vào trò chơi, kinh doanh và kiểm định sản phẩm",
+      "questiontext": "Một cửa hàng kiểm tra ngẫu nhiên 500 sản phẩm điện tử và phát hiện có 15 sản phẩm bị lỗi. Tính xác suất thực nghiệm của biến cố \"Sản phẩm được kiểm tra bị lỗi\". (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Xác suất thực nghiệm bằng \\(15 / 500 = 0.03\\).",
+      "answers": [
+        {
+          "text": "0.03",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Giải bài tập ứng dụng xác suất thực nghiệm vào trò chơi, kinh doanh và kiểm định sản phẩm",
+      "questiontext": "Một công ty sản xuất kiểm tra ngẫu nhiên {n} sản phẩm thì thấy có {k} sản phẩm không đạt tiêu chuẩn. Hãy viết công thức tính xác suất thực nghiệm của biến cố \"Sản phẩm được kiểm tra không đạt tiêu chuẩn\".",
+      "generalfeedback": "Xác suất thực nghiệm của biến cố bằng số sản phẩm không đạt tiêu chuẩn chia cho tổng số sản phẩm được kiểm tra, tức là {k}/{n}.",
+      "wildcards": [
+        {
+          "name": "n",
+          "min": 100.0,
+          "max": 1000.0,
+          "decimals": 0
+        },
+        {
+          "name": "k",
+          "min": 5.0,
+          "max": 50.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{k}/{n}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Đánh giá nhận định dựa trên xác suất",
+      "questiontext": "Tung một đồng xu cân đối và đồng chất 100 lần, thu được 53 lần xuất hiện mặt ngửa. Nhận định nào sau đây là ĐÚNG?",
+      "generalfeedback": "Xác suất thực nghiệm xuất hiện mặt ngửa sau 100 lần tung là \\(53 / 100 = 0.53\\), gần với xác suất lý thuyết \\(0.5\\).",
+      "answers": [
+        {
+          "text": "Xác suất thực nghiệm xuất hiện mặt ngửa là \\(0.53\\), giá trị này xấp xỉ xác suất lý thuyết là \\(0.5\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Xác suất thực nghiệm xuất hiện mặt ngửa bắt buộc phải bằng đúng \\(0.5\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Đồng xu bị xói mòn nên xác suất lý thuyết thay đổi thành \\(0.53\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Lần tung thứ 101 chắc chắn sẽ xuất hiện mặt sấp",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Giải bài tập ứng dụng xác suất thực nghiệm vào trò chơi, kinh doanh và kiểm định sản phẩm",
+      "questiontext": "Ghép mỗi tình huống thực nghiệm ở cột bên trái với công thức xác suất thực nghiệm tương ứng ở cột bên phải:",
+      "generalfeedback": "Xác suất thực nghiệm của một biến cố bằng số lần biến cố xảy ra chia cho tổng số lần thực nghiệm.",
+      "subquestions": [
+        {
+          "question": "Tung con xúc xắc \\(N\\) lần, có \\(n\\) lần xuất hiện mặt 6 chấm.",
+          "answer": "Xác suất thực nghiệm là \\(n / N\\)"
+        },
+        {
+          "question": "Kiểm tra \\(M\\) sản phẩm, phát hiện \\(m\\) sản phẩm tốt.",
+          "answer": "Xác suất thực nghiệm sản phẩm tốt là \\(m / M\\)"
+        },
+        {
+          "question": "Bắn \\(K\\) phát đạn, có \\(k\\) phát trúng mục tiêu.",
+          "answer": "Xác suất thực nghiệm trúng mục tiêu là \\(k / K\\)"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_115",
+      "questiontext": "Khi số lần thực nghiệm rất lớn, xác suất thực nghiệm của một biến cố thường [[1]] xác suất của biến cố đó. Tỉ số giữa số lần xuất hiện biến cố và tổng số lần thực nghiệm gọi là [[2]].",
+      "generalfeedback": "Xác suất thực nghiệm xấp xỉ xác suất của biến cố khi số lần thực nghiệm đủ lớn.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "xấp xỉ"
+        },
+        {
+          "group": 1,
+          "text": "xác suất thực nghiệm"
+        },
+        {
+          "group": 1,
+          "text": "bằng đúng 1"
+        },
+        {
+          "group": 1,
+          "text": "xác suất lý thuyết"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Giải bài tập ứng dụng xác suất thực nghiệm vào trò chơi, kinh doanh và kiểm định sản phẩm",
+      "questiontext": "Gieo một con xúc xắc 6 mặt cân đối 60 lần, thấy mặt 3 chấm xuất hiện 12 lần. Xác suất thực nghiệm xuất hiện mặt 3 chấm dưới dạng số thập phân là bao nhiêu?",
+      "generalfeedback": "Xác suất thực nghiệm bằng \\(12 / 60 = 0.2\\).",
+      "answers": [
+        {
+          "text": "0.2",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "van_dung",
+      "metadata_code": "Đánh giá nhận định dựa trên xác suất",
+      "questiontext": "Một xạ thủ bắn 200 viên đạn vào mục tiêu và trúng 184 viên. Nhận định \"Xác suất thực nghiệm xạ thủ bắn trúng mục tiêu là \\(92\\%\\) (hay \\(0.92\\))\" là đúng hay sai?",
+      "generalfeedback": "Xác suất thực nghiệm trúng mục tiêu là \\(184 / 200 = 0.92 = 92\\%\\). Do đó nhận định trên là đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Các mô hình bài toán ứng dụng xác suất trong thực tế đời sống",
+      "questiontext": "Trong mô hình bài toán kinh doanh, nếu kiểm tra ngẫu nhiên một số lượng lớn sản phẩm thì tỉ lệ sản phẩm bị lỗi chính là [[1]] của biến cố \"Sản phẩm bị lỗi\". Tỉ lệ này giúp doanh nghiệp [[2]] chất lượng lô hàng.",
+      "generalfeedback": "Tỉ lệ sản phẩm bị lỗi khi kiểm tra số lượng lớn là xác suất thực nghiệm, giúp doanh nghiệp đánh giá chất lượng lô hàng.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "xác suất thực nghiệm"
+        },
+        {
+          "group": 1,
+          "text": "đánh giá"
+        },
+        {
+          "group": 1,
+          "text": "xác suất lý thuyết"
+        },
+        {
+          "group": 1,
+          "text": "loại bỏ"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_03",
+      "questiontext": "Bạn Nam cần thu thập dữ liệu xác suất thực nghiệm về tỉ lệ phế phẩm của một nhà máy may mặc để làm bài tập dự án môn Toán. Để bảo đảm dữ liệu khách quan và tin cậy, Nam nên thực hiện hành động nào sau đây?",
+      "generalfeedback": "Thể hiện ý thức vận dụng kiến thức từ nguồn tin cậy bằng cách tìm kiếm và trích dẫn dữ liệu từ các báo cáo kiểm định chất lượng chính thức thay vì thu thập tin đồn không căn cứ.",
+      "answers": [
+        {
+          "text": "Tìm kiếm và tham khảo dữ liệu từ các báo cáo kiểm định chất lượng chính thức công khai của nhà máy",
+          "fraction": 100
+        },
+        {
+          "text": "Tự nghĩ ra số liệu thống kê để hoàn thành bài tập nhanh chóng",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ hỏi ý kiến ngẫu nhiên của một người quen mà không kiểm chứng qua văn bản báo cáo",
+          "fraction": 0
+        },
+        {
+          "text": "Lấy số liệu từ một trang mạng xã hội cá nhân không rõ nguồn gốc",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Qua kiểm tra ngẫu nhiên 500 sản phẩm tại một xưởng sản xuất, người ta phát hiện có 25 sản phẩm bị lỗi (xác suất thực nghiệm lỗi là \\(0.05\\)). Để giảm tỉ lệ phế phẩm và nâng cao chất lượng sản phẩm trong các đợt sản xuất tới, giải pháp giải quyết vấn đề nào sau đây là hợp lý nhất?",
+      "generalfeedback": "Đề xuất giải pháp giải quyết vấn đề dựa trên kết quả xác suất thực nghiệm bằng cách rà soát quy trình kỹ thuật và máy móc để khắc phục nguyên nhân gây lỗi.",
+      "answers": [
+        {
+          "text": "Rà soát lại quy trình vận hành máy móc và kiểm tra khâu nguyên liệu đầu vào để tìm nguyên nhân phát sinh phế phẩm",
+          "fraction": 100
+        },
+        {
+          "text": "Tăng số lượng sản phẩm sản xuất ra mà không cần thay đổi hay kiểm tra lại quy trình",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua các đợt kiểm tra chất lượng ngẫu nhiên để tiết kiệm thời gian",
+          "fraction": 0
+        },
+        {
+          "text": "Giảm bớt tiêu chuẩn chất lượng xuống để tất cả sản phẩm bị lỗi đều được coi là đạt",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_02_08",
+      "questiontext": "Một công ty dược phẩm kiểm tra ngẫu nhiên 1000 vỉ thuốc và phát hiện 5 vỉ bị hở niêm phong. Khi áp dụng lời giải toán học về xác suất thực nghiệm để ước tính số vỉ thuốc bị hở niêm phong trong lô hàng 50,000 vỉ, biểu thức toán học thể hiện đúng ngữ cảnh thực tiễn này là:",
+      "generalfeedback": "Xác suất thực nghiệm bị hở niêm phong là \\(5 / 1000 = 0.005\\). Trong lô 50,000 vỉ, số vỉ ước tính bị hở là \\(50000 \\times (5 / 1000) = 250\\) vỉ.",
+      "answers": [
+        {
+          "text": "\\(50000 \\times \\frac{5}{1000} = 250\\) (vỉ)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(50000 + \\frac{5}{1000} = 50000.005\\) (vỉ)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(50000 : 5 = 10000\\) (vỉ)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(1000 : 5 = 200\\) (vỉ)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_03",
+      "questiontext": "Một siêu thị muốn xác định xem một dòng máy giặt mới nhập về có đạt tỉ lệ hoạt động tốt trên \\(98\\%\\) như cam kết của nhà sản xuất hay không. Giải pháp toán học nào dựa trên xác suất thực nghiệm giúp siêu thị xác định và giải quyết vấn đề này?",
+      "generalfeedback": "Giải pháp xác định vấn đề dựa trên việc lấy mẫu kiểm tra ngẫu nhiên thực tế, tính xác suất thực nghiệm và so sánh với chỉ số cam kết 98%.",
+      "answers": [
+        {
+          "text": "Thống kê ngẫu nhiên kết quả kiểm tra một mẫu máy giặt đủ lớn, tính xác suất thực nghiệm máy hoạt động tốt và so sánh với \\(98\\%\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ kiểm tra đúng 1 chiếc máy giặt duy nhất và lấy kết quả đó làm kết luận cho toàn bộ lô hàng",
+          "fraction": 0
+        },
+        {
+          "text": "Tin tưởng tuyệt đối vào quảng cáo mà không cần thực hiện kiểm tra thực nghiệm",
+          "fraction": 0
+        },
+        {
+          "text": "Dự đoán cảm tính tỉ lệ hỏng hóc mà không cần thu thập dữ liệu kiểm định",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "1.1TC2a_K8",
+      "questiontext": "Để chủ động tìm kiếm dữ liệu tin cậy trong môi trường số phục vụ bài tập mô phỏng xác suất thực nghiệm về kết quả tung đồng xu 10,000 lần, học sinh nên tổ chức thực hiện như thế nào?",
+      "generalfeedback": "Năng lực số thể hiện qua việc biết sử dụng phần mềm bảng tính (như Excel/Google Sheets) hoặc công cụ lập trình để tạo bảng mô phỏng dữ liệu ngẫu nhiên.",
+      "answers": [
+        {
+          "text": "Sử dụng phần mềm bảng tính (Excel/Google Sheets) với hàm sinh số ngẫu nhiên RANDBETWEEN(0,1) để mô phỏng và tự động tính tỉ lệ",
+          "fraction": 100
+        },
+        {
+          "text": "Tìm kiếm một diễn đàn không kiểm duyệt và chép lại kết quả không rõ nguồn gốc",
+          "fraction": 0
+        },
+        {
+          "text": "Tự gõ thủ công 10,000 số 0 và 1 theo cảm tính vào tệp văn bản",
+          "fraction": 0
+        },
+        {
+          "text": "Tung đồng xu thực tế 10,000 lần bằng tay thay vì tận dụng công cụ số",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "8.A1.2_2",
+      "questiontext": "Khi sử dụng công cụ AI tạo sinh để tính xác suất thực nghiệm và dự đoán phế phẩm cho một bài toán thực tế, học sinh CẦN PHẢI kiểm chứng lại các công thức và phép tính do AI đưa ra trước khi sử dụng kết quả đó vào bài báo cáo.",
+      "generalfeedback": "Sự cần thiết của việc kiểm chứng thông tin khi dùng AI tạo sinh: AI có thể tạo ra thông tin hoặc phép tính sai lệch, do đó người sử dụng bắt buộc phải kiểm tra tính chính xác của dữ liệu và lời giải.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "8.A3.3_3",
+      "questiontext": "Học sinh sử dụng công cụ AI để hỗ trợ mô phỏng 1,000 lần gieo xúc xắc nhằm tính xác suất thực nghiệm mặt 6 chấm. Việc làm nào sau đây thể hiện đúng TRÁCH NHIỆM GIẢI TRÌNH của học sinh khi tạo sản phẩm học tập này?",
+      "generalfeedback": "Thể hiện trách nhiệm giải trình khi dùng AI bằng cách ghi rõ trong báo cáo việc có sử dụng AI, nêu câu lệnh/thuật toán đã dùng và chịu trách nhiệm kiểm tra tính chính xác của kết quả.",
+      "answers": [
+        {
+          "text": "Khai báo rõ ràng việc đã sử dụng AI để hỗ trợ chạy mô phỏng, đính kèm câu lệnh đã dùng và chịu trách nhiệm xác nhận lại tính chính xác của kết quả",
+          "fraction": 100
+        },
+        {
+          "text": "Nộp kết quả do AI tạo ra và khẳng định đó là do bản thân tự làm thủ công 100%",
+          "fraction": 0
+        },
+        {
+          "text": "Đổ lỗi hoàn toàn cho AI nếu kết quả tính toán xác suất thực nghiệm trong bài báo cáo bị sai",
+          "fraction": 0
+        },
+        {
+          "text": "Sao chép toàn bộ lời văn của AI mà không cần đọc lại hay chỉnh sửa",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

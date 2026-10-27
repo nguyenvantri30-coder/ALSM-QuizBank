@@ -1,0 +1,579 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 25,
+    "metadata_used": {
+      "YCCD_TOAN8_044": 4,
+      "Mô hình hàm số bậc nhất y = ax + b trong lập kế hoạch tài chính cá nhân (tiết kiệm, chi tiêu, thu nhập)": 4,
+      "Ý nghĩa của hệ số a và b": 4,
+      "Thiết lập công thức hàm số bậc nhất cho bài toán quản lý tài chính đơn giản": 4,
+      "Sử dụng đồ thị hàm số bậc nhất để phân tích và đưa ra quyết định tài chính": 4
+    },
+    "types_used": {
+      "multichoice": 9,
+      "shortanswer": 1,
+      "numerical": 6,
+      "matching": 3,
+      "calculatedsimple": 2,
+      "truefalse": 3,
+      "gapselect": 1
+    },
+    "total": 25
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN8_044",
+        "reason": "Đo lường khả năng vận dụng hàm số bậc nhất và đồ thị giải quyết bài toán tài chính thực tiễn."
+      },
+      {
+        "metadata_code": "Mô hình hàm số bậc nhất y = ax + b trong lập kế hoạch tài chính cá nhân (tiết kiệm, chi tiêu, thu nhập)",
+        "reason": "Đo lường kiến thức về mô hình hàm số bậc nhất y = ax + b trong lập kế hoạch tài chính cá nhân."
+      },
+      {
+        "metadata_code": "Ý nghĩa của hệ số a và b",
+        "reason": "Đo lường sự hiểu biết về ý nghĩa của các hệ số a và b trong bài toán tài chính."
+      },
+      {
+        "metadata_code": "Thiết lập công thức hàm số bậc nhất cho bài toán quản lý tài chính đơn giản",
+        "reason": "Đo lường kỹ năng thiết lập công thức hàm số bậc nhất từ bài toán tài chính."
+      },
+      {
+        "metadata_code": "Sử dụng đồ thị hàm số bậc nhất để phân tích và đưa ra quyết định tài chính",
+        "reason": "Đo lường kỹ năng sử dụng đồ thị hàm số bậc nhất để phân tích và đưa ra quyết định."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học thuộc phạm vi ứng dụng hàm số bậc nhất cơ bản trong tài chính cá nhân, không có dữ liệu hoặc bối cảnh liên quan tự nhiên đến trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Mô hình hàm số bậc nhất y = ax + b trong lập kế hoạch tài chính cá nhân (tiết kiệm, chi tiêu, thu nhập)",
+      "questiontext": "Trong bài toán lập kế hoạch tài chính cá nhân, mô hình chi phí dịch vụ hoặc tiêu dùng theo thời gian thường được biểu diễn dưới dạng hàm số bậc nhất nào sau đây?",
+      "generalfeedback": "Mô hình hàm số bậc nhất có dạng \\(y = ax + b\\) (với \\(a \\neq 0\\)), trong đó \\(y\\) là tổng chi phí, \\(x\\) là thời gian sử dụng, \\(a\\) là chi phí đơn vị hằng tháng/ngày và \\(b\\) là chi phí cố định ban đầu.",
+      "answers": [
+        {
+          "text": "\\(y = ax + b\\) (với \\(a \\neq 0\\))",
+          "fraction": 100
+        },
+        {
+          "text": "\\(y = ax^2 + b\\) (với \\(a \\neq 0\\))",
+          "fraction": 0
+        },
+        {
+          "text": "\\(y = \\frac{a}{x} + b\\) (với \\(x \\neq 0\\))",
+          "fraction": 0
+        },
+        {
+          "text": "\\(y = a + b\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Ý nghĩa của hệ số a và b",
+      "questiontext": "Cho hàm số chi phí sử dụng dịch vụ truyền hình cáp \\(y = 110x + 150\\) (trong đó \\(y\\) tính bằng nghìn đồng, \\(x\\) tính bằng tháng). Hệ số \\(150\\) trong công thức này biểu thị cho giá trị nào?",
+      "generalfeedback": "Hệ số tự do \\(b = 150\\) biểu thị chi phí lắp đặt ban đầu (chi phí cố định không phụ thuộc vào số tháng sử dụng).",
+      "answers": [
+        {
+          "text": "Chi phí lắp đặt ban đầu (nghìn đồng)",
+          "fraction": 100
+        },
+        {
+          "text": "Cước phí dịch vụ hằng tháng (nghìn đồng)",
+          "fraction": 0
+        },
+        {
+          "text": "Tổng chi phí sau 1 năm sử dụng (nghìn đồng)",
+          "fraction": 0
+        },
+        {
+          "text": "Số tháng sử dụng dịch vụ truyền hình cáp",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Thiết lập công thức hàm số bậc nhất cho bài toán quản lý tài chính đơn giản",
+      "questiontext": "Công ty truyền hình cáp B miễn phí chi phí lắp đặt ban đầu và thu cước hằng tháng là 120 000 đồng. Hãy viết công thức tính chi phí sử dụng truyền hình cáp \\(y\\) (nghìn đồng) theo số tháng sử dụng \\(x\\) (tháng).",
+      "generalfeedback": "Miễn phí lắp đặt ban đầu nên hệ số \\(b = 0\\). Cước hằng tháng là 120 nghìn đồng nên \\(a = 120\\). Công thức là \\(y = 120x\\).",
+      "answers": [
+        {
+          "text": "y = 120x",
+          "fraction": 100
+        },
+        {
+          "text": "y=120x",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_044",
+      "questiontext": "Cho công thức chi phí sử dụng truyền hình cáp của công ty A là \\(y = 110x + 150\\) (với \\(y\\) tính bằng nghìn đồng, \\(x\\) tính bằng tháng). Hãy tính tổng chi phí sử dụng dịch vụ của công ty A trong 18 tháng. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Thay \\(x = 18\\) vào công thức \\(y = 110x + 150\\), ta được \\(y = 110 \\times 18 + 150 = 1980 + 150 = 2130\\) (nghìn đồng).",
+      "answers": [
+        {
+          "text": "2130",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Sử dụng đồ thị hàm số bậc nhất để phân tích và đưa ra quyết định tài chính",
+      "imgs": [
+        "_page_1_Picture_4.jpeg"
+      ],
+      "questiontext": "Quan sát sơ đồ so sánh cước phí dịch vụ truyền hình cáp [img:_page_1_Picture_4.jpeg]. Biết công thức chi phí của công ty A là \\(y = 110x + 150\\) và công ty B là \\(y = 120x\\) (với \\(y\\) tính bằng nghìn đồng, \\(x\\) tính bằng tháng). Sau bao nhiêu tháng sử dụng thì chi phí của hai công ty là bằng nhau?",
+      "generalfeedback": "Cho chi phí hai công ty bằng nhau: \\(110x + 150 = 120x \\Rightarrow 10x = 150 \\Rightarrow x = 15\\) (tháng).",
+      "answers": [
+        {
+          "text": "15 tháng",
+          "fraction": 100
+        },
+        {
+          "text": "18 tháng",
+          "fraction": 0
+        },
+        {
+          "text": "12 tháng",
+          "fraction": 0
+        },
+        {
+          "text": "36 tháng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Ý nghĩa của hệ số a và b",
+      "questiontext": "Một hãng taxi mua chiếc ô tô với giá 480 triệu đồng và khấu hao đường thẳng trong vòng 8 năm theo công thức \\(y = 480 - 60x\\) (trong đó \\(y\\) là giá trị sổ sách tính bằng triệu đồng, \\(x\\) là thời gian sử dụng tính bằng năm). Hãy ghép mỗi đại lượng với ý nghĩa tài chính tương ứng.",
+      "generalfeedback": "Trong công thức khấu hao \\(y = 480 - 60x\\): 480 triệu đồng là giá trị ban đầu của ô tô, 60 triệu đồng là mức giảm giá trị (khấu hao) mỗi năm, và \\(y\\) là giá trị sổ sách còn lại sau \\(x\\) năm.",
+      "subquestions": [
+        {
+          "question": "Số 480",
+          "answer": "Giá trị ban đầu của ô tô khi mua (triệu đồng)"
+        },
+        {
+          "question": "Số 60",
+          "answer": "Mức giảm giá trị ô tô mỗi năm (triệu đồng/năm)"
+        },
+        {
+          "question": "Biến số x",
+          "answer": "Thời gian ô tô đã qua sử dụng (năm)"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Thiết lập công thức hàm số bậc nhất cho bài toán quản lý tài chính đơn giản",
+      "questiontext": "Một công ty mua một thiết bị với giá 480 triệu đồng và áp dụng phương pháp khấu hao đường thẳng trong {n} năm. Viết công thức tính mức khấu hao hằng năm (triệu đồng/năm) theo thời gian sử dụng.",
+      "generalfeedback": "Mức khấu hao hằng năm bằng chi phí mua ban đầu chia cho số năm sử dụng: 480 / {n}.",
+      "wildcards": [
+        {
+          "name": "n",
+          "min": 6.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "480/{n}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_044",
+      "imgs": [
+        "_page_1_Picture_11.jpeg"
+      ],
+      "questiontext": "Một hãng taxi vừa mua một ô tô chạy dịch vụ với giá 480 triệu đồng và chọn khấu hao theo phương pháp khấu hao đường thẳng trong vòng 8 năm [img:_page_1_Picture_11.jpeg]. Công thức tính giá trị sổ sách \\(y\\) (triệu đồng) theo thời gian sử dụng \\(x\\) (năm) là \\(y = 480 - 60x\\). Sau bao nhiêu năm thì giá trị sổ sách của chiếc ô tô còn lại 150 triệu đồng? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Thay \\(y = 150\\) vào công thức: \\(150 = 480 - 60x \\Rightarrow 60x = 330 \\Rightarrow x = 5.5\\) (năm).",
+      "answers": [
+        {
+          "text": "5.5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "van_dung",
+      "metadata_code": "Sử dụng đồ thị hàm số bậc nhất để phân tích và đưa ra quyết định tài chính",
+      "questiontext": "Gia đình dự định sử dụng dịch vụ truyền hình cáp trong 3 năm (36 tháng). Công ty A có chi phí \\(y_A = 110x + 150\\), công ty B có chi phí \\(y_B = 120x\\) (với \\(x\\) tính bằng tháng, \\(y\\) tính bằng nghìn đồng). Khẳng định: 'Gia đình nên chọn dịch vụ của công ty A để tiết kiệm chi phí hơn trong 3 năm' là Đúng hay Sai?",
+      "generalfeedback": "Sau 36 tháng, chi phí công ty A là \\(110 \\times 36 + 150 = 4110\\) nghìn đồng. Chi phí công ty B là \\(120 \\times 36 = 4320\\) nghìn đồng. Vì \\(4110 < 4320\\) nên chọn công ty A tiết kiệm chi phí hơn. Khẳng định trên là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Mô hình hàm số bậc nhất y = ax + b trong lập kế hoạch tài chính cá nhân (tiết kiệm, chi tiêu, thu nhập)",
+      "questiontext": "Trong bài toán lập công thức chi phí sử dụng tủ lạnh \\(y = ax + b\\) (với \\(y\\) tính bằng nghìn đồng, \\(x\\) tính bằng tháng), hằng số \\(b\\) biểu thị cho khoản chi phí nào?",
+      "generalfeedback": "Hằng số \\(b\\) đại diện cho chi phí cố định ban đầu (chi phí mua tủ lạnh ban đầu), không phụ thuộc vào số tháng sử dụng \\(x\\).",
+      "answers": [
+        {
+          "text": "Chi phí mua tủ lạnh ban đầu",
+          "fraction": 100
+        },
+        {
+          "text": "Tiền điện hằng tháng trả cho tủ lạnh",
+          "fraction": 0
+        },
+        {
+          "text": "Số tiền điện phải trả sau 1 năm",
+          "fraction": 0
+        },
+        {
+          "text": "Chi phí sửa chữa tủ lạnh định kỳ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_044",
+      "imgs": [
+        "_page_2_Picture_5.jpeg"
+      ],
+      "questiontext": "Bác An dự định mua một chiếc tủ lạnh loại 150 lít của hãng A [img:_page_2_Picture_5.jpeg], có công suất 1 kWh/ngày với giá 5 000 000 đồng. Giả sử trung bình một tháng có 30 ngày và giá điện là 2 000 đồng/1 kWh. Số tiền điện (nghìn đồng) bác An phải trả hằng tháng cho chiếc tủ lạnh này là bao nhiêu? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Số kWh điện tiêu thụ trong 1 tháng (30 ngày) là: \\(1 \\times 30 = 30\\) kWh. Số tiền điện hằng tháng là: \\(30 \\times 2000 = 60000\\) đồng = 60 nghìn đồng.",
+      "answers": [
+        {
+          "text": "60",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_044",
+      "questiontext": "Chi phí sử dụng chiếc tủ lạnh hãng A sau \\(x\\) (tháng) được tính theo công thức \\(y = 60x + 5000\\) (với \\(y\\) tính bằng nghìn đồng). Hãy tính chi phí sử dụng chiếc tủ lạnh này sau 5 năm (60 tháng). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "5 năm bằng 60 tháng. Thay \\(x = 60\\) vào công thức: \\(y = 60 \\times 60 + 5000 = 3600 + 5000 = 8600\\) (nghìn đồng).",
+      "answers": [
+        {
+          "text": "8600",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_044",
+      "questiontext": "Bác An mua chiếc tủ lạnh hãng A giá 5 000 000 đồng và dự định dùng trong 10 năm. Bác dùng phương pháp khấu hao đường thẳng để tính giá trị còn lại của chiếc tủ lạnh sau mỗi năm sử dụng. Hỏi sau 7 năm, giá trị còn lại (nghìn đồng) của chiếc tủ lạnh này là bao nhiêu? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Mức khấu hao mỗi năm là: \\(5000 : 10 = 500\\) (nghìn đồng/năm). Công thức giá trị còn lại sau \\(x\\) năm là: \\(y = 5000 - 500x\\). Sau 7 năm (\\(x = 7\\)): \\(y = 5000 - 500 \\times 7 = 5000 - 3500 = 1500\\) (nghìn đồng).",
+      "answers": [
+        {
+          "text": "1500",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Sử dụng đồ thị hàm số bậc nhất để phân tích và đưa ra quyết định tài chính",
+      "questiontext": "Cho công thức chi phí sử dụng tủ lạnh hãng A là \\(y = 60x + 5000\\) và hãng B là \\(y = 75x + 4460\\) (với \\(y\\) tính bằng nghìn đồng, \\(x\\) tính bằng tháng). Sau bao nhiêu tháng sử dụng thì chi phí sử dụng của hai loại tủ lạnh này là bằng nhau? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Cho chi phí hai tủ lạnh bằng nhau: \\(60x + 5000 = 75x + 4460 \\Rightarrow 15x = 540 \\Rightarrow x = 36\\) (tháng).",
+      "answers": [
+        {
+          "text": "36",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "van_dung",
+      "metadata_code": "Sử dụng đồ thị hàm số bậc nhất để phân tích và đưa ra quyết định tài chính",
+      "questiontext": "Biết sau 36 tháng sử dụng thì chi phí tủ lạnh hãng A (\\(y = 60x + 5000\\)) và hãng B (\\(y = 75x + 4460\\)) bằng nhau. Nếu bác An dự định sử dụng tủ lạnh trong 10 năm (120 tháng) thì bác An nên chọn mua tủ lạnh hãng A để tiết kiệm chi phí hơn. Khẳng định này Đúng hay Sai?",
+      "generalfeedback": "Sau 36 tháng, vì hệ số góc của hãng A (60) nhỏ hơn hãng B (75) nên khi \\(x > 36\\) tháng, chi phí hãng A sẽ nhỏ hơn hãng B. Vì 120 > 36 nên chọn hãng A sẽ tiết kiệm chi phí hơn trong 10 năm. Khẳng định trên là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Thiết lập công thức hàm số bậc nhất cho bài toán quản lý tài chính đơn giản",
+      "questiontext": "Một tủ lạnh có công suất {p} kWh/ngày. Giả sử 1 tháng có 30 ngày và giá điện là 2000 đồng/kWh. Viết công thức tính số tiền điện hằng tháng (nghìn đồng) phải trả cho chiếc tủ lạnh này.",
+      "generalfeedback": "Số kWh điện 1 tháng là \\({p} \\times 30\\). Tiền điện 1 tháng tính bằng nghìn đồng là: \\(({p} \\times 30 \\times 2000) / 1000 = {p} \\times 60\\).",
+      "wildcards": [
+        {
+          "name": "p",
+          "min": 1.0,
+          "max": 3.0,
+          "decimals": 1
+        }
+      ],
+      "answers": [
+        {
+          "text": "{p}*60",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Ý nghĩa của hệ số a và b",
+      "questiontext": "Trong công thức chi phí sử dụng tủ lạnh hãng A \\(y = 60x + 5000\\) (với \\(y\\) tính bằng nghìn đồng, \\(x\\) tính bằng tháng), hãy ghép mỗi ký hiệu với ý nghĩa tương ứng.",
+      "generalfeedback": "Trong công thức: \\(y\\) là tổng chi phí sử dụng (nghìn đồng), \\(x\\) là số tháng sử dụng, hệ số 60 là tiền điện hằng tháng (nghìn đồng/tháng), hệ số 5000 là giá mua tủ lạnh ban đầu (nghìn đồng).",
+      "subquestions": [
+        {
+          "question": "Đại lượng y",
+          "answer": "Tổng chi phí sử dụng tủ lạnh (nghìn đồng)"
+        },
+        {
+          "question": "Đại lượng x",
+          "answer": "Thời gian sử dụng tủ lạnh (tháng)"
+        },
+        {
+          "question": "Hệ số 60",
+          "answer": "Tiền điện trả hằng tháng (nghìn đồng/tháng)"
+        },
+        {
+          "question": "Hệ số 5000",
+          "answer": "Giá mua tủ lạnh ban đầu (nghìn đồng)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_03",
+      "questiontext": "Gia đình bạn Nam đang cân nhắc đổi gói cước Internet gia đình. Nam đã chủ động áp dụng kiến thức về hàm số bậc nhất học ở trường để lập hai công thức chi phí cho hai gói dịch vụ của hai nhà mạng khác nhau, từ đó tư vấn cho bố mẹ chọn gói cước tiết kiệm nhất phù hợp với thời gian dự định sử dụng. Việc làm của Nam thể hiện phẩm chất nào sau đây?",
+      "generalfeedback": "Việc Nam chủ động vận dụng kiến thức hàm số bậc nhất vào bài toán thực tế quản lý tài chính gia đình thể hiện ý thức vận dụng kiến thức, kỹ năng học được ở nhà trường vào đời sống hằng ngày.",
+      "answers": [
+        {
+          "text": "Có ý thức vận dụng kiến thức, kỹ năng học được vào đời sống hằng ngày",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ quan tâm đến lý thuyết bài học trên lớp để đạt điểm cao",
+          "fraction": 0
+        },
+        {
+          "text": "Ích kỷ, tự quyết định chi tiêu của gia đình mà không hỏi ý kiến bố mẹ",
+          "fraction": 0
+        },
+        {
+          "text": "Không tin tưởng vào các thông tin cước phí do nhà mạng cung cấp",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_03",
+      "questiontext": "Để tính toán và lựa chọn thiết bị điện tiết kiệm điện năng cho gia đình, bạn Hoa đã tự tìm kiếm thông tin về công suất tiêu thụ điện và giá bán của các dòng tủ lạnh trên trang web chính thức của các hãng sản xuất uy tín. Khẳng định: 'Hành động của Hoa thể hiện ý thức chủ động thu thập thông tin từ nguồn tin cậy để vận dụng vào đời sống' là Đúng hay Sai?",
+      "generalfeedback": "Hành động tự tìm kiếm thông tin từ các nguồn tin cậy (trang web chính thức) để giải quyết bài toán tài chính tiêu dùng gia đình thể hiện đúng tinh thần và ý thức vận dụng kiến thức vào thực tiễn.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Một nhóm học sinh được giao nhiệm vụ tư vấn cho nhà trường chọn gói cước truyền hình cáp cho các phòng học. Công ty A có phí lắp đặt 150 000 đồng, cước 110 000 đồng/tháng. Công ty B miễn phí lắp đặt, cước 120 000 đồng/tháng. Biết nhà trường dự định dùng dịch vụ trong 3 năm (36 tháng). Giải pháp nào sau đây là hợp lý nhất để đề xuất cho nhà trường?",
+      "generalfeedback": "Sau 36 tháng, chi phí công ty A là \\(110 \\times 36 + 150 = 4110\\) nghìn đồng (4 110 000 đồng). Chi phí công ty B là \\(120 \\times 36 = 4320\\) nghìn đồng (4 320 000 đồng). Do đó, đề xuất chọn công ty A giúp tiết kiệm 210 000 đồng cho nhà trường.",
+      "answers": [
+        {
+          "text": "Đề xuất chọn công ty A vì tổng chi phí sau 36 tháng rẻ hơn công ty B",
+          "fraction": 100
+        },
+        {
+          "text": "Đề xuất chọn công ty B vì được miễn phí lắp đặt ban đầu",
+          "fraction": 0
+        },
+        {
+          "text": "Đề xuất chọn cả hai công ty để sử dụng song song",
+          "fraction": 0
+        },
+        {
+          "text": "Đề xuất không chọn công ty nào vì chi phí đều quá đắt",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Bác An muốn mua một chiếc tủ lạnh 150 lít dùng trong 10 năm (120 tháng). Hãng A bán giá 5 000 000 đồng, tiền điện 60 000 đồng/tháng. Hãng B bán giá 4 460 000 đồng, tiền điện 75 000 đồng/tháng. Để đề xuất giải pháp tiết kiệm chi phí lâu dài cho bác An, em nên đưa ra lời khuyên nào?",
+      "generalfeedback": "Chi phí hãng A sau 120 tháng: \\(5000 + 60 \\times 120 = 12200\\) nghìn đồng. Chi phí hãng B sau 120 tháng: \\(4460 + 75 \\times 120 = 13460\\) nghìn đồng. Do đó chọn hãng A sẽ tiết kiệm hơn 1 260 000 đồng khi sử dụng 10 năm.",
+      "answers": [
+        {
+          "text": "Khuyên bác An mua tủ lạnh hãng A vì tổng chi phí sử dụng trong 10 năm rẻ hơn hãng B",
+          "fraction": 100
+        },
+        {
+          "text": "Khuyên bác An mua tủ lạnh hãng B vì giá mua ban đầu rẻ hơn 540 000 đồng",
+          "fraction": 0
+        },
+        {
+          "text": "Khuyên bác An không nên mua tủ lạnh vì tốn tiền điện hằng tháng",
+          "fraction": 0
+        },
+        {
+          "text": "Khuyên bác An thay tủ lạnh mới sau mỗi 2 năm sử dụng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_02_01",
+      "questiontext": "Để mô hình hóa chi phí tiêu dùng dịch vụ Internet bằng hàm số bậc nhất \\(y = ax + b\\) (với \\(y\\) là tổng chi phí tính bằng nghìn đồng, \\(x\\) là thời gian sử dụng tính bằng tháng), ta gắn đại lượng cước hằng tháng với [[1]] và phí hòa mạng ban đầu với [[2]].",
+      "generalfeedback": "Cước hằng tháng phụ thuộc vào số tháng \\(x\\) nên đóng vai trò là hệ số góc \\(a\\). Phí hòa mạng ban đầu là chi phí cố định không đổi nên đóng vai trò là tung độ gốc (hệ số tự do) \\(b\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "hệ số góc a"
+        },
+        {
+          "group": 1,
+          "text": "hệ số tự do b"
+        },
+        {
+          "group": 1,
+          "text": "biến số x"
+        },
+        {
+          "group": 1,
+          "text": "biến số y"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_02_01",
+      "questiontext": "Trong mô hình toán học khấu hao tài sản theo phương pháp đường thẳng \\(y = ax + b\\) (trong đó \\(y\\) là giá trị sổ sách còn lại của tài sản, \\(x\\) là số năm đã sử dụng), hãy ghép mỗi yếu tố thực tiễn với thành phần toán học tương ứng.",
+      "generalfeedback": "Mô hình khấu hao đường thẳng có dạng \\(y = b - kx\\) trong đó \\(b\\) là giá trị ban đầu, \\(-k\\) là mức suy giảm giá trị hằng năm, \\(x\\) là thời gian sử dụng và \\(y\\) là giá trị sổ sách còn lại.",
+      "subquestions": [
+        {
+          "question": "Giá trị mua ban đầu của tài sản",
+          "answer": "Hệ số tự do b"
+        },
+        {
+          "question": "Mức giảm giá trị hằng năm (mức khấu hao)",
+          "answer": "Giá trị tuyệt đối của hệ số góc a"
+        },
+        {
+          "question": "Giá trị còn lại của tài sản sau x năm",
+          "answer": "Giá trị của hàm số y"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_02_08",
+      "imgs": [
+        "_page_1_Picture_4.jpeg"
+      ],
+      "questiontext": "Hai đường thẳng biểu diễn chi phí dịch vụ truyền hình cáp của công ty A (\\(y_A = 110x + 150\\)) và công ty B (\\(y_B = 120x\\)) cắt nhau tại điểm \\(M(15; 1800)\\) [img:_page_1_Picture_4.jpeg]. Tọa độ giao điểm \\(M(15; 1800)\\) thể hiện ý nghĩa gì trong bối cảnh thực tiễn?",
+      "generalfeedback": "Giao điểm \\(M(15; 1800)\\) có hoành độ \\(x = 15\\) và tung độ \\(y = 1800\\), thể hiện rằng tại thời điểm 15 tháng sử dụng, chi phí dịch vụ của cả hai công ty là bằng nhau và cùng bằng 1 800 000 đồng.",
+      "answers": [
+        {
+          "text": "Khi sử dụng đúng 15 tháng, chi phí dịch vụ của hai công ty bằng nhau và bằng 1 800 000 đồng",
+          "fraction": 100
+        },
+        {
+          "text": "Sau 18 tháng sử dụng, chi phí của công ty A là 15 000 000 đồng",
+          "fraction": 0
+        },
+        {
+          "text": "Sau 15 tháng sử dụng, công ty B đắt hơn công ty A 1 800 000 đồng",
+          "fraction": 0
+        },
+        {
+          "text": "Chi phí lắp đặt ban đầu của cả hai công ty đều là 1 800 000 đồng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "1.1TC2a_K8",
+      "questiontext": "Bạn Minh muốn lập bảng so sánh cước phí dịch vụ Internet và tính toán tự động chi phí theo các khoảng thời gian khác nhau (6 tháng, 12 tháng, 24 tháng). Công cụ phần mềm số nào sau đây là phù hợp nhất để Minh sử dụng?",
+      "generalfeedback": "Phần mềm bảng tính (như Microsoft Excel, Google Sheets) là công cụ chuyên dụng để tạo bảng dữ liệu, nhập công thức hàm số toán học và tự động tính toán chi phí tài chính.",
+      "answers": [
+        {
+          "text": "Phần mềm bảng tính (Excel/Google Sheets)",
+          "fraction": 100
+        },
+        {
+          "text": "Phần mềm trình chiếu (PowerPoint)",
+          "fraction": 0
+        },
+        {
+          "text": "Phần mềm xử lý âm thanh (Audacity)",
+          "fraction": 0
+        },
+        {
+          "text": "Phần mềm diệt virus",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

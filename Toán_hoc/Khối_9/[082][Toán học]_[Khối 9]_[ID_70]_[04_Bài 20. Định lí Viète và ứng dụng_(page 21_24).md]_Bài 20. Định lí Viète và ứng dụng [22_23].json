@@ -1,0 +1,416 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 15,
+    "metadata_used": {
+      "Trường hợp a + b + c = 0 (nghiệm 1 và c/a)": 3,
+      "Trường hợp a - b + c = 0 (nghiệm -1 và -c/a)": 4,
+      "YCCD_TOAN9_033": 8,
+      "Nhẩm nghiệm phương trình bậc hai dựa vào các hệ số a": 2,
+      "b": 2,
+      "c": 1,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_TCTH_TUHOC_C2_01": 1,
+      "SUB_GQVD_DEXUAT_C2_02": 1,
+      "NLT_TOAN_C2_01_03": 1,
+      "NLT_TOAN_C2_03_05": 1
+    },
+    "types_used": {
+      "multichoice": 6,
+      "truefalse": 1,
+      "shortanswer": 2,
+      "gapselect": 1,
+      "numerical": 1,
+      "matching": 2,
+      "ddwtos": 1,
+      "calculatedsimple": 1
+    },
+    "total": 15
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN9_033",
+        "reason": "Đo lường khả năng vận dụng định lí Viète để tính nhẩm nghiệm của phương trình bậc hai."
+      },
+      {
+        "metadata_code": "Trường hợp a + b + c = 0 (nghiệm 1 và c/a)",
+        "reason": "Đo lường kiến thức về trường hợp a + b + c = 0 (nghiệm 1 và c/a)."
+      },
+      {
+        "metadata_code": "Trường hợp a - b + c = 0 (nghiệm -1 và -c/a)",
+        "reason": "Đo lường kiến thức về trường hợp a - b + c = 0 (nghiệm -1 và -c/a)."
+      },
+      {
+        "metadata_code": "Nhẩm nghiệm phương trình bậc hai dựa vào các hệ số a",
+        "reason": "Đo lường kĩ năng nhẩm nghiệm phương trình bậc hai dựa vào hệ số a."
+      },
+      {
+        "metadata_code": "b",
+        "reason": "Đo lường kĩ năng nhẩm nghiệm phương trình bậc hai dựa vào hệ số b."
+      },
+      {
+        "metadata_code": "c",
+        "reason": "Đo lường kĩ năng nhẩm nghiệm phương trình bậc hai dựa vào hệ số c."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đo lường ý thức luôn cố gắng vươn lên đạt kết quả tốt trong học tập."
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+        "reason": "Đo lường khả năng tự đặt được mục tiêu học tập để nỗ lực phấn đấu thực hiện."
+      },
+      {
+        "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+        "reason": "Đo lường khả năng đề xuất được giải pháp giải quyết vấn đề."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_03",
+        "reason": "Đo lường khả năng giải thích được sự tương đồng và khác biệt trong nhiều tình huống."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_05",
+        "reason": "Đo lường khả năng sử dụng được các kĩ năng toán học tương thích để giải quyết vấn đề."
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Trường hợp a + b + c = 0 (nghiệm 1 và c/a)",
+      "questiontext": "Cho phương trình bậc hai \\(ax^2 + bx + c = 0\\) (với \\(a \\neq 0\\)). Nếu các hệ số thỏa mãn \\(a + b + c = 0\\) thì nghiệm của phương trình được xác định như thế nào?",
+      "generalfeedback": "Theo định lí Viète và ứng dụng, nếu phương trình bậc hai \\(ax^2 + bx + c = 0\\) có \\(a + b + c = 0\\) thì phương trình có một nghiệm là \\(x_1 = 1\\), nghiệm kia là \\(x_2 = \\frac{c}{a}\\).",
+      "answers": [
+        {
+          "text": "\\(x_1 = 1\\) và \\(x_2 = \\frac{c}{a}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x_1 = -1\\) và \\(x_2 = -\\frac{c}{a}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x_1 = 1\\) và \\(x_2 = -\\frac{c}{a}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x_1 = -1\\) và \\(x_2 = \\frac{c}{a}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Trường hợp a - b + c = 0 (nghiệm -1 và -c/a)",
+      "questiontext": "Nếu phương trình bậc hai \\(ax^2 + bx + c = 0\\) (với \\(a \\neq 0\\)) có các hệ số thỏa mãn \\(a - b + c = 0\\) thì phương trình luôn có một nghiệm là \\(x_1 = -1\\) và nghiệm kia là \\(x_2 = -\\frac{c}{a}\\). Phát biểu này đúng hay sai?",
+      "generalfeedback": "Đúng. Theo định lí Viète và ứng dụng nhẩm nghiệm, khi \\(a - b + c = 0\\) thì \\(x_1 = -1\\) và \\(x_2 = -\\frac{c}{a}\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_033",
+      "questiontext": "Bằng cách nhẩm nghiệm, tính nghiệm còn lại \\(x_2\\) của phương trình \\(x^2 - 6x + 5 = 0\\), biết phương trình có một nghiệm \\(x_1 = 1\\).",
+      "generalfeedback": "Phương trình \\(x^2 - 6x + 5 = 0\\) có \\(a + b + c = 1 + (-6) + 5 = 0\\) nên nghiệm còn lại \\(x_2 = \\frac{c}{a} = \\frac{5}{1} = 5\\).",
+      "answers": [
+        {
+          "text": "5",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Nhẩm nghiệm phương trình bậc hai dựa vào các hệ số a",
+      "questiontext": "Cho phương trình \\(2x^2 - 7x + 5 = 0\\). Xác định hệ số \\(a\\) và tính nhẩm nghiệm \\(x_2\\) của phương trình.",
+      "generalfeedback": "Hệ số \\(a = 2\\). Do \\(a + b + c = 2 + (-7) + 5 = 0\\) nên phương trình có nghiệm \\(x_1 = 1\\) và \\(x_2 = \\frac{c}{a} = \\frac{5}{2}\\).",
+      "answers": [
+        {
+          "text": "\\(a = 2\\) và \\(x_2 = \\frac{5}{2}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(a = 2\\) và \\(x_2 = -\\frac{5}{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a = 5\\) và \\(x_2 = 1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a = 2\\) và \\(x_2 = \\frac{2}{5}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "b",
+      "questiontext": "Cho phương trình \\(3x^2 + 5x + 2 = 0\\). Hệ số \\(b\\) bằng [[1]]. Do \\(a - b + c = 3 - 5 + 2 = 0\\) nên nghiệm \\(x_1\\) bằng [[2]] và nghiệm \\(x_2\\) bằng [[3]].",
+      "generalfeedback": "Hệ số \\(b = 5\\). Vì \\(a - b + c = 0\\) nên \\(x_1 = -1\\) và \\(x_2 = -\\frac{c}{a} = -\\frac{2}{3}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "5"
+        },
+        {
+          "group": 1,
+          "text": "-1"
+        },
+        {
+          "group": 1,
+          "text": "\\(-\\frac{2}{3}\\)"
+        },
+        {
+          "group": 1,
+          "text": "3"
+        },
+        {
+          "group": 1,
+          "text": "1"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{2}{3}\\)"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "c",
+      "questiontext": "Cho phương trình \\(5x^2 + 14x + 9 = 0\\) có hệ số \\(c = 9\\). Hãy nhẩm nghiệm \\(x_2\\) của phương trình dưới dạng số thập phân. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Ta có \\(a - b + c = 5 - 14 + 9 = 0\\) nên \\(x_1 = -1\\) và \\(x_2 = -\\frac{c}{a} = -\\frac{9}{5} = -1.8\\).",
+      "answers": [
+        {
+          "text": "-1.8",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_033",
+      "questiontext": "Ghép mỗi phương trình bậc hai sau với tập nghiệm tương ứng thu được bằng cách tính nhẩm nghiệm (trường hợp \\(a + b + c = 0\\)):",
+      "generalfeedback": "Tính tổng các hệ số \\(a + b + c\\) để nhẩm nghiệm \\(x_1 = 1, x_2 = \\frac{c}{a}\\):\n- \\(x^2 - 6x + 5 = 0\\): \\(x_1 = 1, x_2 = 5\\).\n- \\(3x^2 - 11x + 8 = 0\\): \\(x_1 = 1, x_2 = \\frac{8}{3}\\).\n- \\(2x^2 - 9x + 7 = 0\\): \\(x_1 = 1, x_2 = \\frac{7}{2}\\).",
+      "subquestions": [
+        {
+          "question": "\\(x^2 - 6x + 5 = 0\\)",
+          "answer": "\\(x_1 = 1; x_2 = 5\\)"
+        },
+        {
+          "question": "\\(3x^2 - 11x + 8 = 0\\)",
+          "answer": "\\(x_1 = 1; x_2 = \\frac{8}{3}\\)"
+        },
+        {
+          "question": "\\(2x^2 - 9x + 7 = 0\\)",
+          "answer": "\\(x_1 = 1; x_2 = \\frac{7}{2}\\)"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Trường hợp a - b + c = 0 (nghiệm -1 và -c/a)",
+      "questiontext": "Xét phương trình \\(4x^2 + 15x + 11 = 0\\). Ta thấy \\(a - b + c =\\) [[1]]. Do đó phương trình có hai nghiệm là \\(x_1 =\\) [[2]] và \\(x_2 =\\) [[3]].",
+      "generalfeedback": "Phương trình có \\(a = 4, b = 15, c = 11\\) nên \\(a - b + c = 4 - 15 + 11 = 0\\). Suy ra \\(x_1 = -1\\) và \\(x_2 = -\\frac{11}{4}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "0"
+        },
+        {
+          "group": 1,
+          "text": "-1"
+        },
+        {
+          "group": 1,
+          "text": "\\(-\\frac{11}{4}\\)"
+        },
+        {
+          "group": 1,
+          "text": "1"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{11}{4}\\)"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_033",
+      "questiontext": "Cho phương trình \\(x^2 - 7x + 12 = 0\\), biết phương trình có một nghiệm là \\(x_1 = 3\\). Sử dụng định lí Viète, tìm nghiệm còn lại \\(x_2\\).",
+      "generalfeedback": "Theo định lí Viète, \\(x_1 \\cdot x_2 = 12\\). Do đó \\(x_2 = \\frac{12}{3} = 4\\).",
+      "answers": [
+        {
+          "text": "4",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_033",
+      "questiontext": "Cho phương trình bậc hai có hệ số \\(a = 1\\), hệ số \\(b = -1 -\\) {k} và hệ số \\(c =\\) {k} (với {k} là số nguyên dương). Phương trình có tổng các hệ số \\(a + b + c = 0\\). Hãy tính nghiệm \\(x_2\\) của phương trình theo biến {k}.",
+      "generalfeedback": "Do \\(a + b + c = 1 + (-1 - {k}) + {k} = 0\\) nên phương trình có hai nghiệm \\(x_1 = 1\\) và \\(x_2 = \\frac{c}{a} = {k}\\).",
+      "wildcards": [
+        {
+          "name": "k",
+          "min": 2.0,
+          "max": 20.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{k}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ học Bài 20 \"Định lí Viète và ứng dụng\", khi giải phương trình \\(3x^2 - 11x + 8 = 0\\), bạn Nam nhận thấy việc tính \\(\\Delta\\) tốn nhiều thời gian. Để vươn lên đạt kết quả tốt trong học tập và tìm ra phương pháp giải tối ưu, bạn Nam nên thực hiện hành động nào?",
+      "generalfeedback": "Để học tập hiệu quả và phát triển năng lực, học sinh cần chủ động quan sát mối quan hệ giữa các hệ số. Nhận thấy \\(a + b + c = 3 + (-11) + 8 = 0\\), việc áp dụng ngay quy tắc tính nhẩm nghiệm \\(x_1 = 1\\) và \\(x_2 = \\frac{8}{3}\\) giúp tiết kiệm thời gian và chính xác.",
+      "answers": [
+        {
+          "text": "Chủ động quan sát các hệ số \\(a + b + c = 3 + (-11) + 8 = 0\\) để nhẩm nhanh nghiệm \\(x_1 = 1\\) và \\(x_2 = \\frac{8}{3}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua câu hỏi này vì tính toán \\(\\Delta\\) quá phức tạp",
+          "fraction": 0
+        },
+        {
+          "text": "Chờ bạn khác làm xong để chép đáp án vào vở",
+          "fraction": 0
+        },
+        {
+          "text": "Áp dụng công thức nghiệm tổng quát một cách máy móc mà không tìm kiếm cách làm nhanh hơn",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Để đạt mục tiêu tính nhẩm thành thạo nghiệm của các phương trình bậc hai có dạng đặc biệt trong Bài 20, bạn Lan tự xây dựng kế hoạch học tập cá nhân. Kế hoạch nào sau đây thể hiện tinh thần tự đặt mục tiêu và nỗ lực phấn đấu phù hợp nhất?",
+      "generalfeedback": "Tự đặt mục tiêu học tập rõ ràng, có kế hoạch luyện tập hằng ngày và kiểm tra lại kết quả bằng định lí Viète là phương pháp chủ động, giúp nâng cao kết quả học tập.",
+      "answers": [
+        {
+          "text": "Mỗi ngày tự ra 5 phương trình bậc hai dạng \\(a+b+c=0\\) hoặc \\(a-b+c=0\\) để nhẩm nghiệm và tự kiểm tra lại bằng định lí Viète",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ đọc thuộc lòng công thức định lí Viète trong SGK mà không làm bài tập luyện tập",
+          "fraction": 0
+        },
+        {
+          "text": "Đặt mục tiêu đạt điểm tối đa nhưng chỉ bắt đầu ôn luyện trước kì thi một ngày",
+          "fraction": 0
+        },
+        {
+          "text": "Nhờ bạn học thay và chép lại toàn bộ lời giải từ sách giải",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Bác An có 40 m hàng rào lưới thép và muốn rào mảnh đất thành hình chữ nhật có diện tích 96 m² [img:_page_0_Picture_8.jpeg]. Bài toán dẫn đến tìm hai số có tổng bằng 20 và tích bằng 96. Để giải quyết vấn đề này một cách hiệu quả, đề xuất nào sau đây là hợp lý nhất?",
+      "imgs": [
+        "_page_0_Picture_8.jpeg"
+      ],
+      "generalfeedback": "Đề xuất giải pháp bằng cách lập phương trình bậc hai \\(x^2 - 20x + 96 = 0\\) rồi dùng định lí Viète nhẩm nghiệm hoặc tìm hai số có tổng là 20, tích là 96 giúp giải quyết bài toán thực tế nhanh chóng.",
+      "answers": [
+        {
+          "text": "Lập phương trình \\(x^2 - 20x + 96 = 0\\) và dùng định lí Viète nhẩm ra hai kích thước là 12 m và 8 m",
+          "fraction": 100
+        },
+        {
+          "text": "Đo đạc ngẫu nhiên các chiều dài khác nhau trên thực địa cho đến khi vừa đủ 96 m²",
+          "fraction": 0
+        },
+        {
+          "text": "Thay đổi chiều dài hàng rào thành 50 m để dễ tính toán hơn",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua điều kiện chu vi và chọn hai số bất kỳ có tích bằng 96",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_03",
+      "questiontext": "Hãy ghép các trường hợp tính nhẩm nghiệm của phương trình bậc hai \\(ax^2 + bx + c = 0\\) (\\(a \\neq 0\\)) với đặc điểm nhận biết và công thức nghiệm tương ứng để giải thích sự khác biệt:",
+      "generalfeedback": "- Nhận biết \\(a + b + c = 0\\): Nghiệm là \\(x_1 = 1\\) và \\(x_2 = \\frac{c}{a}\\).\n- Nhận biết \\(a - b + c = 0\\): Nghiệm là \\(x_1 = -1\\) và \\(x_2 = -\\frac{c}{a}\\).\n- Điểm tương đồng: Cả hai trường hợp đều giúp nhẩm nhanh nghiệm mà không cần tính \\(\\Delta\\).",
+      "subquestions": [
+        {
+          "question": "Trường hợp các hệ số có \\(a + b + c = 0\\)",
+          "answer": "Có một nghiệm \\(x_1 = 1\\), nghiệm kia \\(x_2 = \\frac{c}{a}\\)"
+        },
+        {
+          "question": "Trường hợp các hệ số có \\(a - b + c = 0\\)",
+          "answer": "Có một nghiệm \\(x_1 = -1\\), nghiệm kia \\(x_2 = -\\frac{c}{a}\\)"
+        },
+        {
+          "question": "Ý nghĩa chung của hai trường hợp nhẩm nghiệm",
+          "answer": "Giúp tìm nghiệm nhanh chóng mà không cần tính \\(\\Delta\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Để phân tích đa thức \\(3x^2 + 5x - 2\\) thành nhân tử bằng kĩ năng toán học phù hợp, học sinh giải phương trình \\(3x^2 + 5x - 2 = 0\\) để tìm hai nghiệm \\(x_1, x_2\\). Kết quả phân tích đa thức nào sau đây là đúng?",
+      "generalfeedback": "Phương trình \\(3x^2 + 5x - 2 = 0\\) có hai nghiệm \\(x_1 = \\frac{1}{3}\\) và \\(x_2 = -2\\). Áp dụng công thức \\(ax^2 + bx + c = a(x - x_1)(x - x_2)\\), ta được \\(3\\left(x - \\frac{1}{3}\\right)(x + 2) = (3x - 1)(x + 2)\\).",
+      "answers": [
+        {
+          "text": "\\((3x - 1)(x + 2)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\((3x + 1)(x - 2)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((x - 1)(3x + 2)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(3(x + 1)(x - 2)\\)",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

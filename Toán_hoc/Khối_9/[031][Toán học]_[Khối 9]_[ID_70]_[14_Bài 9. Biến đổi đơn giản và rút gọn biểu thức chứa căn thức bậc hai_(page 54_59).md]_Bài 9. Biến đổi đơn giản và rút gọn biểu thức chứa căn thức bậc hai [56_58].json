@@ -1,0 +1,575 @@
+{
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm biểu thức liên hợp sqrt(A) +- sqrt(B)",
+      "questiontext": "Biểu thức liên hợp của biểu thức \\(\\sqrt{A} + \\sqrt{B}\\) (với \\(A \\ge 0, B \\ge 0\\)) là biểu thức nào dưới đây?",
+      "generalfeedback": "Biểu thức liên hợp của \\(\\sqrt{A} + \\sqrt{B}\\) là \\(\\sqrt{A} - \\sqrt{B}\\).",
+      "answers": [
+        {
+          "text": "\\(\\sqrt{A} - \\sqrt{B}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\sqrt{A} + \\sqrt{B}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(A - B\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(A + B\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức trục căn thức ở mẫu",
+      "questiontext": "Với biểu thức \\(A\\) bất kỳ và \\(B > 0\\), ta luôn có công thức trục căn thức ở mẫu: \\(\\frac{A}{\\sqrt{B}} = \\frac{A\\sqrt{B}}{B}\\). Khẳng định trên là Đúng hay Sai?",
+      "generalfeedback": "Công thức trục căn thức ở mẫu đối với mẫu có dạng \\(\\sqrt{B}\\) (với \\(B > 0\\)) là \\(\\frac{A}{\\sqrt{B}} = \\frac{A\\sqrt{B}}{B}\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_015",
+      "questiontext": "Hãy ghép mỗi biểu thức ở cột bên trái với dạng rút gọn sau khi trục căn thức ở mẫu tương ứng ở cột bên phải.",
+      "generalfeedback": "Ta nhân cả tử và mẫu với căn thức thích hợp ở mẫu rồi rút gọn: \\(\\frac{3}{\\sqrt{3}} = \\sqrt{3}\\); \\(\\frac{2}{\\sqrt{5}} = \\frac{2\\sqrt{5}}{5}\\); \\(\\frac{6}{\\sqrt{2}} = 3\\sqrt{2}\\).",
+      "subquestions": [
+        {
+          "question": "\\(\\frac{3}{\\sqrt{3}}\\)",
+          "answer": "\\(\\sqrt{3}\\)"
+        },
+        {
+          "question": "\\(\\frac{2}{\\sqrt{5}}\\)",
+          "answer": "\\(\\frac{2\\sqrt{5}}{5}\\)"
+        },
+        {
+          "question": "\\(\\frac{6}{\\sqrt{2}}\\)",
+          "answer": "\\(3\\sqrt{2}\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Trục căn thức ở mẫu bằng biểu thức liên hợp",
+      "questiontext": "Trục căn thức ở mẫu của biểu thức \\(\\frac{1}{\\sqrt{5} - 2}\\) ta được kết quả là bao nhiêu?",
+      "generalfeedback": "Nhân cả tử và mẫu với biểu thức liên hợp \\(\\sqrt{5} + 2\\): \\(\\frac{1(\\sqrt{5}+2)}{(\\sqrt{5}-2)(\\sqrt{5}+2)} = \\frac{\\sqrt{5}+2}{5-4} = \\sqrt{5}+2\\).",
+      "answers": [
+        {
+          "text": "\\(\\sqrt{5} + 2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\sqrt{5} - 2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2 - \\sqrt{5}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-\\sqrt{5} - 2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Rút gọn biểu thức chứa căn thức bậc hai",
+      "questiontext": "Tính giá trị biểu thức \\(P = \\frac{5\\sqrt{48} - 3\\sqrt{27} + 2\\sqrt{12}}{\\sqrt{3}}\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Ta có: \\(\\sqrt{48} = 4\\sqrt{3}\\), \\(\\sqrt{27} = 3\\sqrt{3}\\), \\(\\sqrt{12} = 2\\sqrt{3}\\). Tử số là \\(20\\sqrt{3} - 9\\sqrt{3} + 4\\sqrt{3} = 15\\sqrt{3}\\). Do đó \\(P = \\frac{15\\sqrt{3}}{\\sqrt{3}} = 15\\).",
+      "answers": [
+        {
+          "text": "15",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm biểu thức liên hợp sqrt(A) +- sqrt(B)",
+      "questiontext": "Cho các biểu thức chứa căn thức bậc hai. Tích của biểu thức \\(\\sqrt{A} + B\\) và biểu thức liên hợp của nó là [[1]], còn tích của \\(\\sqrt{A} + \\sqrt{B}\\) và biểu thức liên hợp của nó là [[2]].",
+      "generalfeedback": "Ta có \\((\\sqrt{A}+B)(\\sqrt{A}-B) = A - B^2\\) và \\((\\sqrt{A}+\\sqrt{B})(\\sqrt{A}-\\sqrt{B}) = A - B\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(A - B^2\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(A - B\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(A + B\\)"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_015",
+      "questiontext": "Khi trục căn thức ở mẫu của biểu thức \\(\\frac{2}{3\\sqrt{5}}\\), ta nhân cả tử và mẫu với [[1]], thu được kết quả bằng [[2]].",
+      "generalfeedback": "Nhân cả tử và mẫu với \\(\\sqrt{5}\\): \\(\\frac{2\\sqrt{5}}{3 \\cdot (\\sqrt{5})^2} = \\frac{2\\sqrt{5}}{15}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(\\sqrt{5}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{2\\sqrt{5}}{15}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(3\\sqrt{5}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{\\sqrt{5}}{15}\\)"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Trục căn thức ở mẫu bằng biểu thức liên hợp",
+      "questiontext": "Cho biểu thức {a} / \\(\\sqrt 5\\). Khi trục căn thức ở mẫu ta thu được phân số dạng \\(a\\sqrt 5/b\\) trong đó b = 5. Hãy tính giá trị của {a} nhân với b.",
+      "generalfeedback": "Mẫu số sau khi trục căn thức là 5. Giá trị cần tính là {a} * 5.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "thong_hieu",
+      "metadata_code": "Công thức trục căn thức ở mẫu",
+      "questiontext": "Áp dụng công thức trục căn thức ở mẫu \\(\\frac C {\\sqrt A - B} = \\frac {C(\\sqrt A + B)} {A - B^2}\\) với A = 5, B = 1, ta được mẫu mới bằng 4. Hãy tính giá trị {a} lần mẫu số mới đó.",
+      "generalfeedback": "Mẫu số mới bằng 5 - 1 = 4. Tích của {a} và mẫu số mới là {a} * 4.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*4",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "Rút gọn biểu thức chứa căn thức bậc hai",
+      "questiontext": "Cho biểu thức \\(A = a\\sqrt 3 - \\sqrt 3\\) với hệ số \\(a\\) bằng {a}. Rút gọn biểu thức thu được kết quả có dạng \\(k\\sqrt 3\\). Hãy chọn công thức đúng tính k theo {a}.",
+      "generalfeedback": "Ta có \\({a}\\sqrt{3} - \\sqrt{3} = ({a} - 1)\\sqrt{3}\\), nên hệ số k bằng {a} - 1.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}-1",
+          "fraction": 100
+        },
+        {
+          "text": "{a}+1",
+          "fraction": 0
+        },
+        {
+          "text": "{a}*1",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Rút gọn biểu thức chứa căn thức bậc hai",
+      "questiontext": "Kết quả rút gọn biểu thức \\(A = 2\\sqrt{3} - \\sqrt{75} + \\sqrt{(1-\\sqrt{3})^2}\\) là bao nhiêu?",
+      "generalfeedback": "Ta có \\(\\sqrt{75} = 5\\sqrt{3}\\) và \\(\\sqrt{(1-\\sqrt{3})^2} = |1-\\sqrt{3}| = \\sqrt{3}-1\\). Do đó \\(A = 2\\sqrt{3} - 5\\sqrt{3} + \\sqrt{3} - 1 = -1 - 2\\sqrt{3}\\).",
+      "answers": [
+        {
+          "text": "\\(-1 - 2\\sqrt{3}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(1 - 2\\sqrt{3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-1 + 2\\sqrt{3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-2\\sqrt{3}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm biểu thức liên hợp sqrt(A) +- sqrt(B)",
+      "questiontext": "Biểu thức liên hợp của mẫu \\(3 - 2\\sqrt{2}\\) là \\(3 + 2\\sqrt{2}\\). Khẳng định này Đúng hay Sai?",
+      "generalfeedback": "Biểu thức liên hợp của \\(A - B\\sqrt{C}\\) là \\(A + B\\sqrt{C}\\). Do đó biểu thức liên hợp của \\(3 - 2\\sqrt{2}\\) là \\(3 + 2\\sqrt{2}\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức trục căn thức ở mẫu",
+      "questiontext": "Ghép mỗi dạng biểu thức ở cột trái với công thức trục căn thức ở mẫu tương ứng ở cột phải (với các điều kiện xác định phù hợp).",
+      "generalfeedback": "Áp dụng các công thức trục căn thức ở mẫu trong SGK.",
+      "subquestions": [
+        {
+          "question": "\\(\\frac{C}{\\sqrt{A}}\\)",
+          "answer": "\\(\\frac{C\\sqrt{A}}{A}\\)"
+        },
+        {
+          "question": "\\(\\frac{C}{\\sqrt{A}+B}\\)",
+          "answer": "\\(\\frac{C(\\sqrt{A}-B)}{A-B^2}\\)"
+        },
+        {
+          "question": "\\(\\frac{C}{\\sqrt{A}+\\sqrt{B}}\\)",
+          "answer": "\\(\\frac{C(\\sqrt{A}-\\sqrt{B})}{A-B}\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_015",
+      "questiontext": "Trục căn thức ở mẫu của biểu thức \\(\\frac{\\sqrt{2}}{\\sqrt{3}+\\sqrt{2}}\\) ta được kết quả là bao nhiêu?",
+      "generalfeedback": "Nhân cả tử và mẫu với \\(\\sqrt{3}-\\sqrt{2}\\): \\(\\frac{\\sqrt{2}(\\sqrt{3}-\\sqrt{2})}{3-2} = \\sqrt{6}-2\\).",
+      "answers": [
+        {
+          "text": "\\(\\sqrt{6} - 2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\sqrt{6} + 2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2 - \\sqrt{6}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-\\sqrt{6} - 2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Trục căn thức ở mẫu bằng biểu thức liên hợp",
+      "questiontext": "Tính giá trị của biểu thức \\(M = \\frac{1}{3+2\\sqrt{2}} + \\frac{4\\sqrt{2}-4}{2-\\sqrt{2}}\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Ta có \\(\\frac{1}{3+2\\sqrt{2}} = 3 - 2\\sqrt{2}\\) và \\(\\frac{4(\\sqrt{2}-1)}{\\sqrt{2}(\\sqrt{2}-1)} = \\frac{4}{\\sqrt{2}} = 2\\sqrt{2}\\). Do đó \\(M = (3 - 2\\sqrt{2}) + 2\\sqrt{2} = 3\\).",
+      "answers": [
+        {
+          "text": "3",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Rút gọn biểu thức chứa căn thức bậc hai",
+      "questiontext": "Rút gọn biểu thức \\(P = 2\\sqrt{\\frac{2}{3}} - 4\\sqrt{\\frac{3}{2}}\\): Khử mẫu biểu thức thứ nhất ta được [[1]], khử mẫu biểu thức thứ hai ta được [[2]]. Kết quả rút gọn là [[3]].",
+      "generalfeedback": "\\(2\\sqrt{\\frac{2}{3}} = \\frac{2\\sqrt{6}}{3}\\), \\(4\\sqrt{\\frac{3}{2}} = \\frac{4\\sqrt{6}}{2} = 2\\sqrt{6}\\). Do đó \\(P = \\frac{2\\sqrt{6}}{3} - 2\\sqrt{6} = -\\frac{4\\sqrt{6}}{3}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(\\frac{2\\sqrt{6}}{3}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(2\\sqrt{6}\\)"
+        },
+        {
+          "group": 1,
+          "text": "-\\(\\frac{4\\sqrt{6}}{3}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\sqrt{6}\\)"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm biểu thức liên hợp sqrt(A) +- sqrt(B)",
+      "questiontext": "Để trục căn thức ở mẫu của biểu thức \\(\\frac{a}{\\sqrt{x}-\\sqrt{y}}\\), ta nhân cả tử và mẫu với biểu thức liên hợp [[1]], được mẫu số mới là [[2]].",
+      "generalfeedback": "Biểu thức liên hợp của \\(\\sqrt{x}-\\sqrt{y}\\) là \\(\\sqrt{x}+\\sqrt{y}\\). Mẫu số mới sau khi nhân là \\((\\sqrt{x}-\\sqrt{y})(\\sqrt{x}+\\sqrt{y}) = x - y\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(\\sqrt{x}+\\sqrt{y}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(x - y\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\sqrt{x}-\\sqrt{y}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(x + y\\)"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_015",
+      "questiontext": "Thực hiện trục căn thức ở mẫu cho biểu thức {a} / \\(\\sqrt{2}\\). Phân số thu được có dạng \\(a\\sqrt{2}/2\\). Hãy tính giá trị của {a} nhân với mẫu số 2.",
+      "generalfeedback": "Trục căn thức ở mẫu: \\(\\frac{{a}}{\\sqrt{2}} = \\frac{{a}\\sqrt{2}}{2}\\). Giá trị cần tính là {a} * 2.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Trục căn thức ở mẫu bằng biểu thức liên hợp",
+      "questiontext": "Cho biểu thức phân số có tử số bằng {a} và mẫu số là \\(\\sqrt{3}-1\\). Sau khi trục căn thức ở mẫu bằng biểu thức liên hợp \\(\\sqrt{3}+1\\), mẫu số thu được là 2. Tính giá trị {a} nhân với mẫu số 2.",
+      "generalfeedback": "Mẫu số sau khi nhân liên hợp là \\(3 - 1 = 2\\). Kết quả tính là {a} * 2.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "Rút gọn biểu thức chứa căn thức bậc hai",
+      "questiontext": "Cho biểu thức \\(Q = a\\sqrt{5} + 2\\sqrt{5}\\) với hệ số \\(a\\) bằng {a}. Rút gọn biểu thức thu được dạng \\(k\\sqrt{5}\\). Chọn biểu thức đúng tính k theo {a}.",
+      "generalfeedback": "Ta có \\(Q = ({a} + 2)\\sqrt{5}\\), nên \\(k = {a} + 2\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}+2",
+          "fraction": 100
+        },
+        {
+          "text": "{a}-2",
+          "fraction": 0
+        },
+        {
+          "text": "{a}*2",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong quá trình rút gọn biểu thức chứa căn thức bậc hai phức tạp \\(P = \\frac{\\sqrt{a}+1}{\\sqrt{a}-1} - \\frac{\\sqrt{a}-1}{\\sqrt{a}+1}\\), bạn Nam gặp nhiều khó khăn và liên tục tính sai ở bước trục căn thức ở mẫu. Để thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập, Nam nên làm gì?",
+      "generalfeedback": "Thể hiện sự kiên trì, nỗ lực vươn lên bằng cách tự rà soát lại từng bước biến đổi, tìm sự hỗ trợ từ thầy cô/bạn bè để hiểu rõ bản chất và hoàn thành bài tập.",
+      "answers": [
+        {
+          "text": "Tự rà soát lại từng bước biến đổi trục căn thức, kiên trì luyện tập thêm và chủ động nhờ thầy cô hoặc bạn bè hướng dẫn chỗ chưa hiểu.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài tập này và chỉ làm những bài tập dễ hơn không chứa căn thức ở mẫu.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép ngay đáp án của bạn khác vào vở để kịp nộp bài cho giáo viên.",
+          "fraction": 0
+        },
+        {
+          "text": "Đợi giáo viên sửa bài trên lớp rồi chép lại mà không cần tự giải trước.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Để chuẩn bị cho bài kiểm tra về chủ đề \"Biến đổi đơn giản và rút gọn biểu thức chứa căn thức bậc hai\", bạn An muốn tự đặt mục tiêu học tập phù hợp và hiệu quả. Mục tiêu nào dưới đây thể hiện đúng năng lực tự đặt mục tiêu học tập?",
+      "generalfeedback": "Mục tiêu học tập hiệu quả cần cụ thể, có kế hoạch rõ ràng gắn liền với kiến thức bài học (thành thạo phép đưa thừa số ra/vào dấu căn, trục căn thức ở mẫu và rút gọn biểu thức).",
+      "answers": [
+        {
+          "text": "Đặt mục tiêu mỗi ngày giải 3 bài tập về trục căn thức và rút gọn biểu thức chứa căn thức bậc hai cho đến khi làm thành thạo không mắc lỗi.",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ đặt mục tiêu đạt điểm tối đa mà không lập kế hoạch ôn tập cụ thể.",
+          "fraction": 0
+        },
+        {
+          "text": "Học thuộc lòng tất cả các bài giải mẫu trong sách giáo khoa mà không cần làm lại.",
+          "fraction": 0
+        },
+        {
+          "text": "Chờ đến sát ngày kiểm tra mới bắt đầu mở sách ra đọc lại kiến thức.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Khi gặp bài toán yêu cầu so sánh hai số \\(A = 3\\sqrt{2}\\) và \\(B = 2\\sqrt{3}\\) mà không dùng máy tính cầm tay, giải pháp giải quyết vấn đề hiệu quả và phù hợp nhất là gì?",
+      "generalfeedback": "Đề xuất giải pháp đưa thừa số vào trong dấu căn: \\(3\\sqrt{2} = \\sqrt{3^2 \\cdot 2} = \\sqrt{18}\\) và \\(2\\sqrt{3} = \\sqrt{2^2 \\cdot 3} = \\sqrt{12}\\), từ đó so sánh \\(\\sqrt{18}\\) và \\(\\sqrt{12}\\).",
+      "answers": [
+        {
+          "text": "Đưa các thừa số vào trong dấu căn để biến đổi \\(A = \\sqrt{18}\\) và \\(B = \\sqrt{12}\\), sau đó so sánh hai căn bậc hai.",
+          "fraction": 100
+        },
+        {
+          "text": "Trục căn thức ở mẫu của cả hai số rồi mới so sánh.",
+          "fraction": 0
+        },
+        {
+          "text": "Cộng thêm 1 vào cả hai số rồi so sánh hai tổng nhận được.",
+          "fraction": 0
+        },
+        {
+          "text": "Rút gọn hai số bằng cách chia cả hai số cho \\(\\sqrt{6}\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Để rút gọn biểu thức \\(A = \\frac{x - 1}{\\sqrt{x} - 1}\\) (với \\(x \\ge 0, x \\ne 1\\)), học sinh thực hiện thao tác tư duy phân tích tử số thành nhân tử: \\(x - 1 = (\\sqrt{x} - 1)(\\sqrt{x} + 1)\\). Thao tác tư duy tiếp theo để hoàn thành rút gọn là gì?",
+      "generalfeedback": "Thao tác tư duy triệt tiêu nhân tử chung \\(\\sqrt{x}-1\\) ở cả tử và mẫu để thu được kết quả rút gọn \\(\\sqrt{x}+1\\).",
+      "answers": [
+        {
+          "text": "Chia cả tử và mẫu cho nhân tử chung \\(\\sqrt{x} - 1\\) để thu được kết quả \\(\\sqrt{x} + 1\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Trục căn thức ở mẫu bằng cách nhân cả tử và mẫu với \\(\\sqrt{x} + 1\\) mà không triệt tiêu nhân tử.",
+          "fraction": 0
+        },
+        {
+          "text": "Nhân cả tử và mẫu với \\(x + 1\\) để làm mất căn thức.",
+          "fraction": 0
+        },
+        {
+          "text": "Đưa thừa số \\(x\\) ra ngoài dấu căn ở tử số.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Trong thuyết tương đối, khối lượng \\(m\\) (kg) của một vật chuyển động với vận tốc \\(v\\) (m/s) được cho bởi công thức \\(m = \\frac{m_0}{\\sqrt{1 - \\frac{v^2}{c^2}}}\\). Kĩ năng toán học tương thích nào cần được sử dụng để viết lại công thức trên dưới dạng không còn căn thức ở mẫu?",
+      "generalfeedback": "Kĩ năng biến đổi biểu thức dưới dấu căn, đưa thừa số ra ngoài dấu căn và trục căn thức ở mẫu.",
+      "answers": [
+        {
+          "text": "Kĩ năng biến đổi biểu thức dưới dấu căn \\(\\sqrt{1 - \\frac{v^2}{c^2}} = \\frac{\\sqrt{c^2 - v^2}}{c}\\) rồi trục căn thức ở mẫu để thu được \\(m = \\frac{m_0 c \\sqrt{c^2 - v^2}}{c^2 - v^2}\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Kĩ năng bình phương hai vế của công thức mà không xét điều kiện.",
+          "fraction": 0
+        },
+        {
+          "text": "Kĩ năng phân tích thành nhân tử \\(1 - \\frac{v^2}{c^2} = (1 - \\frac{v}{c})^2\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Kĩ năng giải phương trình bậc hai đối với ẩn \\(m\\).",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

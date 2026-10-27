@@ -1,0 +1,882 @@
+{
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_053",
+      "questiontext": "Cho hai đa thức \\(A(x) = 2x^2 + 3x - 1\\) và \\(B(x) = x^2 - x + 4\\). Tổng \\(A(x) + B(x)\\) bằng đa thức nào dưới đây?",
+      "generalfeedback": "Ta thực hiện cộng các hạng tử cùng bậc: \\((2x^2 + x^2) + (3x - x) + (-1 + 4) = 3x^2 + 2x + 3\\).",
+      "answers": [
+        {
+          "text": "\\(3x^2 + 2x + 3\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(3x^2 + 4x + 3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x^2 + 2x + 3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(3x^2 + 2x - 5\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_054",
+      "questiontext": "Cho hai đa thức \\(P(x) = 5x^3 - 2x + 1\\) và \\(Q(x) = 3x^3 + x - 4\\). Hiệu \\(P(x) - Q(x)\\) là:",
+      "generalfeedback": "Ta có: \\(P(x) - Q(x) = (5x^3 - 3x^3) + (-2x - x) + (1 - (-4)) = 2x^3 - 3x + 5\\).",
+      "answers": [
+        {
+          "text": "\\(2x^3 - 3x + 5\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(2x^3 - x - 3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(8x^3 - 3x + 5\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2x^3 - 3x - 3\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_053",
+      "questiontext": "Kết quả của phép cộng hai đa thức một biến luôn là một đa thức có bậc bằng tổng bậc của hai đa thức ban đầu. Phát biểu này đúng hay sai?",
+      "generalfeedback": "Phát biểu này SAI. Bậc của đa thức tổng tối đa bằng bậc lớn nhất của hai đa thức thành phần, và có thể nhỏ hơn nếu các hạng tử bậc cao nhất triệt tiêu lẫn nhau.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_054",
+      "questiontext": "Khi bỏ dấu ngoặc có dấu trừ đằng trước trong biểu thức \\(-(3x^2 - 2x + 5)\\), ta thu được đa thức nào dưới đây?",
+      "generalfeedback": "Khi bỏ dấu ngoặc có dấu trừ phía trước, ta đổi dấu tất cả các hạng tử bên trong: \\(-(3x^2 - 2x + 5) = -3x^2 + 2x - 5\\).",
+      "answers": [
+        {
+          "text": "\\(-3x^2 + 2x - 5\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(-3x^2 - 2x + 5\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(3x^2 - 2x + 5\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-3x^2 + 2x + 5\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Rèn kĩ năng cộng và trừ đa thức một biến chính xác",
+      "questiontext": "Cho đa thức \\(A(x) = 4x^2 - 5x + 7\\) và \\(B(x) = -x^2 + 3x + 2\\). Tìm hệ số tự do của đa thức tổng \\(C(x) = A(x) + B(x)\\). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Hệ số tự do của \\(A(x)\\) là 7, của \\(B(x)\\) là 2. Hệ số tự do của \\(C(x)\\) là \\(7 + 2 = 9\\).",
+      "answers": [
+        {
+          "text": "9",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Kĩ thuật đặt tính cột dọc đối với đa thức khuyết hạng tử",
+      "questiontext": "Hãy ghép mỗi bước đặt tính cột dọc để cộng hai đa thức khuyết hạng tử với mô tả tương ứng:",
+      "generalfeedback": "Khi đặt tính cột dọc với đa thức khuyết hạng tử, ta cần sắp xếp các đa thức theo lũy thừa giảm dần, để trống vị trí hạng tử khuyết và thực hiện cộng/trừ các hạng tử cùng bậc.",
+      "subquestions": [
+        {
+          "question": "Bước 1: Sắp xếp các đa thức",
+          "answer": "Theo thứ tự lũy thừa giảm (hoặc tăng) của biến"
+        },
+        {
+          "question": "Bước 2: Xử lý hạng tử khuyết",
+          "answer": "Để trống khoảng cách tại vị trí bậc khuyết"
+        },
+        {
+          "question": "Bước 3: Thực hiện phép tính",
+          "answer": "Cộng hoặc trừ các hệ số của hạng tử cùng bậc theo từng cột"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Kĩ thuật đặt tính cột dọc đối với đa thức khuyết hạng tử",
+      "questiontext": "Khi đặt tính cột dọc để tính \\(P(x) + Q(x)\\), nếu đa thức \\(P(x) = 3x^3 + 2\\) khuyết hạng tử bậc 2 và bậc 1, ta nên để trống vị trí của các hạng tử [[1]] và [[2]] để các hạng tử cùng bậc nằm trên cùng một cột.",
+      "generalfeedback": "Đa thức P(x) khuyết hạng tử bậc 2 (chứa x^2) và bậc 1 (chứa x), nên cần để trống các vị trí này khi đặt tính cột dọc.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(x^2\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(x\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(x^3\\)"
+        },
+        {
+          "group": 1,
+          "text": "hệ số tự do"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_057",
+      "questiontext": "Tính nhanh giá trị của biểu thức \\(M(x) = (5x^3 - 3x^2 + 2x) + (2x^3 + 3x^2 - 2x)\\) tại \\(x = 2\\) bằng cách áp dụng tính chất giao hoán và kết hợp.",
+      "generalfeedback": "Ta có \\(M(x) = 5x^3 + 2x^3 + (-3x^2 + 3x^2) + (2x - 2x) = 7x^3\\). Tại \\(x = 2\\), \\(M(2) = 7 \\cdot 2^3 = 7 \\cdot 8 = 56\\).",
+      "answers": [
+        {
+          "text": "56",
+          "fraction": 100
+        },
+        {
+          "text": "28",
+          "fraction": 0
+        },
+        {
+          "text": "112",
+          "fraction": 0
+        },
+        {
+          "text": "40",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_053",
+      "questiontext": "Cho đa thức \\(A(x) = {a}x^2 + 3x\\) và \\(B(x) = 2x^2 + 5\\). Tính hệ số của \\(x^2\\) trong đa thức tổng \\(A(x) + B(x)\\).",
+      "generalfeedback": "Hệ số của \\(x^2\\) trong \\(A(x)\\) là {a}, trong \\(B(x)\\) là 2. Hệ số của \\(x^2\\) trong đa thức tổng là {a} + 2.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}+2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Rèn kĩ năng cộng và trừ đa thức một biến chính xác",
+      "questiontext": "Để tính tổng hai đa thức một biến, ta có thể bỏ dấu ngoặc rồi nhóm các hạng tử [[1]] lại với nhau, sau đó cộng các [[2]] của chúng.",
+      "generalfeedback": "Khi cộng hai đa thức một biến, ta bỏ dấu ngoặc, nhóm các hạng tử đồng dạng (cùng bậc) rồi cộng các hệ số tương ứng.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "đồng dạng"
+        },
+        {
+          "group": 1,
+          "text": "hệ số"
+        },
+        {
+          "group": 1,
+          "text": "khác bậc"
+        },
+        {
+          "group": 1,
+          "text": "số mũ"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_053",
+      "questiontext": "Tính tổng của hai đa thức \\(P(x) = x^4 - 3x^2 + 2x - 1\\) và \\(Q(x) = -x^4 + 3x^2 + 5x + 4\\).",
+      "generalfeedback": "Ta có \\(P(x) + Q(x) = (x^4 - x^4) + (-3x^2 + 3x^2) + (2x + 5x) + (-1 + 4) = 7x + 3\\).",
+      "answers": [
+        {
+          "text": "\\(7x + 3\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(2x^4 + 7x + 3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(7x - 5\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2x^2 + 7x + 3\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_054",
+      "questiontext": "Cho hai đa thức \\(M(x) = 4x^3 - 2x^2 + 1\\) và \\(N(x) = x^3 - 2x^2 + 3x - 5\\). Đa thức hiệu \\(H(x) = M(x) - N(x)\\) có bậc là bao nhiêu?",
+      "generalfeedback": "Ta có \\(H(x) = (4x^3 - x^3) + (-2x^2 - (-2x^2)) + (0 - 3x) + (1 - (-5)) = 3x^3 - 3x + 6\\). Hạng tử có bậc cao nhất là \\(3x^3\\) nên bậc của \\(H(x)\\) bằng 3.",
+      "answers": [
+        {
+          "text": "3",
+          "fraction": 100
+        },
+        {
+          "text": "2",
+          "fraction": 0
+        },
+        {
+          "text": "1",
+          "fraction": 0
+        },
+        {
+          "text": "0",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Rèn kĩ năng cộng và trừ đa thức một biến chính xác",
+      "questiontext": "Muốn trừ đa thức \\(A(x)\\) cho đa thức \\(B(x)\\), ta có thể cộng \\(A(x)\\) với đa thức đối của \\(B(x)\\). Phát biểu này đúng hay sai?",
+      "generalfeedback": "Phát biểu này ĐÚNG. Ta có quy tắc: \\(A(x) - B(x) = A(x) + (-B(x))\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_057",
+      "questiontext": "Cho hai đa thức \\(A(x) = 2x^2 - 5x + 3\\) và \\(B(x) = -2x^2 + 5x + 1\\). Giá trị của tổng \\(A(x) + B(x)\\) là một số nguyên bằng bao nhiêu?",
+      "generalfeedback": "Ta có \\(A(x) + B(x) = (2x^2 - 2x^2) + (-5x + 5x) + (3 + 1) = 4\\).",
+      "answers": [
+        {
+          "text": "4",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Rèn kĩ năng cộng và trừ đa thức một biến chính xác",
+      "questiontext": "Cho \\(P(x) = 3x^2 - 4x + 6\\) và \\(Q(x) = 2x^2 + x - 1\\). Giá trị của \\(P(x) - Q(x)\\) tại \\(x = 3\\) bằng bao nhiêu? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Ta có \\(H(x) = P(x) - Q(x) = x^2 - 5x + 7\\). Tại \\(x = 3\\), \\(H(3) = 3^2 - 5 \\cdot 3 + 7 = 9 - 15 + 7 = 1\\).",
+      "answers": [
+        {
+          "text": "1",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_054",
+      "questiontext": "Cho hai đa thức \\(A(x) = {a}x^3 + 4x - 1\\) và \\(B(x) = 2x^3 - x + 3\\). Tính hệ số của \\(x^3\\) trong đa thức hiệu \\(A(x) - B(x)\\).",
+      "generalfeedback": "Hệ số của \\(x^3\\) trong \\(A(x)\\) là {a}, trong \\(B(x)\\) là 2. Hệ số của \\(x^3\\) trong \\(A(x) - B(x)\\) là {a} - 2.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 3.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}-2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_053",
+      "questiontext": "Cho hai đa thức \\(A(x) = x^2 - 3x\\) và \\(B(x) = 2x + 5\\). Khi thực hiện bỏ dấu ngoặc trong tổng \\((x^2 - 3x) + (2x + 5)\\), ta thu được \\(x^2 - 3x\\) + [[1]] + [[2]], sau đó nhóm các hạng tử đồng dạng để tính kết quả.",
+      "generalfeedback": "Khi bỏ dấu ngoặc có dấu cộng phía trước, giữ nguyên dấu các hạng tử bên trong ngoặc: + 2x + 5.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(2x\\)"
+        },
+        {
+          "group": 1,
+          "text": "5"
+        },
+        {
+          "group": 1,
+          "text": "\\(-2x\\)"
+        },
+        {
+          "group": 1,
+          "text": "-5"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Kĩ thuật đặt tính cột dọc đối với đa thức khuyết hạng tử",
+      "questiontext": "Khi thực hiện cộng hoặc trừ hai đa thức một biến theo cột dọc, ta phải đặt các hạng tử [[1]] nằm trên cùng một [[2]].",
+      "generalfeedback": "Quy tắc đặt tính cột dọc: các hạng tử cùng bậc phải nằm trên cùng một cột.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "cùng bậc"
+        },
+        {
+          "group": 1,
+          "text": "cột"
+        },
+        {
+          "group": 1,
+          "text": "khác bậc"
+        },
+        {
+          "group": 1,
+          "text": "hàng"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Rèn kĩ năng cộng và trừ đa thức một biến chính xác",
+      "questiontext": "Hãy ghép mỗi phép tính giữa hai đa thức \\(A(x) = 2x^2 + 1\\) và \\(B(x) = x^2 - 3\\) với kết quả tương ứng:",
+      "generalfeedback": "Ta có \\(A(x) + B(x) = 3x^2 - 2\\); \\(A(x) - B(x) = x^2 + 4\\); \\(B(x) - A(x) = -x^2 - 4\\).",
+      "subquestions": [
+        {
+          "question": "\\(A(x) + B(x)\\)",
+          "answer": "\\(3x^2 - 2\\)"
+        },
+        {
+          "question": "\\(A(x) - B(x)\\)",
+          "answer": "\\(x^2 + 4\\)"
+        },
+        {
+          "question": "\\(B(x) - A(x)\\)",
+          "answer": "\\(-x^2 - 4\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_057",
+      "questiontext": "Cho đa thức \\(P(x) = ax^2 + bx + c\\). Biết \\(P(x) + (2x^2 - 3x + 1) = 5x^2 + x - 2\\). Tìm các hệ số \\(a, b, c\\).",
+      "generalfeedback": "Ta có \\(P(x) = (5x^2 + x - 2) - (2x^2 - 3x + 1) = 3x^2 + 4x - 3\\). Do đó \\(a = 3, b = 4, c = -3\\).",
+      "answers": [
+        {
+          "text": "\\(a = 3, b = 4, c = -3\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(a = 7, b = -2, c = -1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a = 3, b = -2, c = -3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a = 3, b = 4, c = 1\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_053",
+      "questiontext": "Tính tổng của hai đa thức \\(P(x) = x^4 - 3x^2 + 2x - 1\\) và \\(Q(x) = -x^4 + 3x^2 + 5x + 4\\).",
+      "generalfeedback": "Ta có \\(P(x) + Q(x) = (x^4 - x^4) + (-3x^2 + 3x^2) + (2x + 5x) + (-1 + 4) = 7x + 3\\).",
+      "answers": [
+        {
+          "text": "\\(7x + 3\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(2x^4 + 7x + 3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(7x - 5\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2x^2 + 7x + 3\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_054",
+      "questiontext": "Cho hai đa thức \\(M(x) = 4x^3 - 2x^2 + 1\\) và \\(N(x) = x^3 - 2x^2 + 3x - 5\\). Đa thức hiệu \\(H(x) = M(x) - N(x)\\) có bậc là bao nhiêu?",
+      "generalfeedback": "Ta có \\(H(x) = (4x^3 - x^3) + (-2x^2 - (-2x^2)) + (0 - 3x) + (1 - (-5)) = 3x^3 - 3x + 6\\). Hạng tử có bậc cao nhất là \\(3x^3\\) nên bậc của \\(H(x)\\) bằng 3.",
+      "answers": [
+        {
+          "text": "3",
+          "fraction": 100
+        },
+        {
+          "text": "2",
+          "fraction": 0
+        },
+        {
+          "text": "1",
+          "fraction": 0
+        },
+        {
+          "text": "0",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Rèn kĩ năng cộng và trừ đa thức một biến chính xác",
+      "questiontext": "Muốn trừ đa thức \\(A(x)\\) cho đa thức \\(B(x)\\), ta có thể cộng \\(A(x)\\) với đa thức đối của \\(B(x)\\). Phát biểu này đúng hay sai?",
+      "generalfeedback": "Phát biểu này ĐÚNG. Ta có quy tắc: \\(A(x) - B(x) = A(x) + (-B(x))\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_057",
+      "questiontext": "Cho hai đa thức \\(A(x) = 2x^2 - 5x + 3\\) và \\(B(x) = -2x^2 + 5x + 1\\). Giá trị của tổng \\(A(x) + B(x)\\) là một số nguyên bằng bao nhiêu?",
+      "generalfeedback": "Ta có \\(A(x) + B(x) = (2x^2 - 2x^2) + (-5x + 5x) + (3 + 1) = 4\\).",
+      "answers": [
+        {
+          "text": "4",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Rèn kĩ năng cộng và trừ đa thức một biến chính xác",
+      "questiontext": "Cho \\(P(x) = 3x^2 - 4x + 6\\) và \\(Q(x) = 2x^2 + x - 1\\). Giá trị của \\(P(x) - Q(x)\\) tại \\(x = 3\\) bằng bao nhiêu? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Ta có \\(H(x) = P(x) - Q(x) = x^2 - 5x + 7\\). Tại \\(x = 3\\), \\(H(3) = 3^2 - 5 \\cdot 3 + 7 = 9 - 15 + 7 = 1\\).",
+      "answers": [
+        {
+          "text": "1",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_054",
+      "questiontext": "Cho hai đa thức \\(A(x) = {a}x^3 + 4x - 1\\) và \\(B(x) = 2x^3 - x + 3\\). Tính hệ số của \\(x^3\\) trong đa thức hiệu \\(A(x) - B(x)\\).",
+      "generalfeedback": "Hệ số của \\(x^3\\) trong \\(A(x)\\) là {a}, trong \\(B(x)\\) là 2. Hệ số của \\(x^3\\) trong \\(A(x) - B(x)\\) là {a} - 2.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 3.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}-2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_053",
+      "questiontext": "Cho hai đa thức \\(A(x) = x^2 - 3x\\) và \\(B(x) = 2x + 5\\). Khi thực hiện bỏ dấu ngoặc trong tổng \\((x^2 - 3x) + (2x + 5)\\), ta thu được \\(x^2 - 3x\\) + [[1]] + [[2]], sau đó nhóm các hạng tử đồng dạng để tính kết quả.",
+      "generalfeedback": "Khi bỏ dấu ngoặc có dấu cộng phía trước, giữ nguyên dấu các hạng tử bên trong ngoặc: + 2x + 5.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(2x\\)"
+        },
+        {
+          "group": 1,
+          "text": "5"
+        },
+        {
+          "group": 1,
+          "text": "\\(-2x\\)"
+        },
+        {
+          "group": 1,
+          "text": "-5"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Kĩ thuật đặt tính cột dọc đối với đa thức khuyết hạng tử",
+      "questiontext": "Khi thực hiện cộng hoặc trừ hai đa thức một biến theo cột dọc, ta phải đặt các hạng tử [[1]] nằm trên cùng một [[2]].",
+      "generalfeedback": "Quy tắc đặt tính cột dọc: các hạng tử cùng bậc phải nằm trên cùng một cột.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "cùng bậc"
+        },
+        {
+          "group": 1,
+          "text": "cột"
+        },
+        {
+          "group": 1,
+          "text": "khác bậc"
+        },
+        {
+          "group": 1,
+          "text": "hàng"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Rèn kĩ năng cộng và trừ đa thức một biến chính xác",
+      "questiontext": "Hãy ghép mỗi phép tính giữa hai đa thức \\(A(x) = 2x^2 + 1\\) và \\(B(x) = x^2 - 3\\) với kết quả tương ứng:",
+      "generalfeedback": "Ta có \\(A(x) + B(x) = 3x^2 - 2\\); \\(A(x) - B(x) = x^2 + 4\\); \\(B(x) - A(x) = -x^2 - 4\\).",
+      "subquestions": [
+        {
+          "question": "\\(A(x) + B(x)\\)",
+          "answer": "\\(3x^2 - 2\\)"
+        },
+        {
+          "question": "\\(A(x) - B(x)\\)",
+          "answer": "\\(x^2 + 4\\)"
+        },
+        {
+          "question": "\\(B(x) - A(x)\\)",
+          "answer": "\\(-x^2 - 4\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_057",
+      "questiontext": "Cho đa thức \\(P(x) = ax^2 + bx + c\\). Biết \\(P(x) + (2x^2 - 3x + 1) = 5x^2 + x - 2\\). Tìm các hệ số \\(a, b, c\\).",
+      "generalfeedback": "Ta có \\(P(x) = (5x^2 + x - 2) - (2x^2 - 3x + 1) = 3x^2 + 4x - 3\\). Do đó \\(a = 3, b = 4, c = -3\\).",
+      "answers": [
+        {
+          "text": "\\(a = 3, b = 4, c = -3\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(a = 7, b = -2, c = -1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a = 3, b = -2, c = -3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a = 3, b = 4, c = 1\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Trong giờ học Toán về cộng trừ đa thức một biến, khi gặp một bài toán khó có hạng tử khuyết làm kết quả tính lần đầu chưa khớp với đáp án, hành động nào sau đây thể hiện phẩm chất chăm chỉ và thái độ học tập tích cực?",
+      "generalfeedback": "Thái độ chăm chỉ thể hiện qua việc kiên trì kiểm tra lại từng bước biến đổi và đặt tính, không bỏ cuộc hay chép bài của bạn.",
+      "answers": [
+        {
+          "text": "Kiên trì kiểm tra lại từng bước bỏ dấu ngoặc và sắp xếp các hạng tử đồng dạng để tìm ra lỗi sai.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài toán đó và đợi giáo viên chữa bài trên lớp.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép ngay đáp án của bạn bên cạnh để kịp nộp bài cho thầy cô.",
+          "fraction": 0
+        },
+        {
+          "text": "Cho rằng đề bài sai và không làm tiếp.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Khi chấm bài kiểm tra đồng đẳng về cộng trừ đa thức một biến cho bạn bên cạnh, em phát hiện bạn quên đổi dấu một hạng tử khi mở ngoặc có dấu trừ đằng trước dẫn đến kết quả sai. Hành động nào sau đây thể hiện phẩm chất trung thực?",
+      "generalfeedback": "Trung thực là nhận xét đúng thực chất bài làm của bạn, giải thích rõ lỗi sai để giúp bạn cùng tiến bộ.",
+      "answers": [
+        {
+          "text": "Gạch lỗi sai, chỉ rõ bước quên đổi dấu và chấm đúng thực tế bài làm của bạn.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua lỗi sai đó và cho bạn điểm tối đa vì là bạn thân.",
+          "fraction": 0
+        },
+        {
+          "text": "Sửa lại bài của bạn thành đúng rồi mới chấm điểm tối đa.",
+          "fraction": 0
+        },
+        {
+          "text": "Sửa lại bài làm trong vở của mình cho giống bài của bạn.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Để nâng cao năng lực tự chủ và tự học khi ôn tập bài 'Cộng và trừ đa thức một biến', em hãy ghép mỗi mục tiêu tự học với kế hoạch hành động tương ứng:",
+      "generalfeedback": "Tự chủ và tự học thể hiện ở việc chủ động xác định mục tiêu và lập kế hoạch rèn luyện phù hợp cho từng kĩ năng.",
+      "subquestions": [
+        {
+          "question": "Khắc phục lỗi sai khi bỏ dấu ngoặc",
+          "answer": "Tự tổng hợp quy tắc đổi dấu và làm lại các bài tập tính hiệu hai đa thức"
+        },
+        {
+          "question": "Thành thạo kĩ thuật đặt tính cột dọc",
+          "answer": "Tự thiết kế bảng kẻ cột và thực hành với các đa thức khuyết hạng tử"
+        },
+        {
+          "question": "Kiểm tra mức độ hiểu bài của bản thân",
+          "answer": "Tự giải lại các bài tập SGK rồi đối chiếu với lời giải chi tiết"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLC_GIAIQUYETVD",
+      "questiontext": "Bạn An cần tính tổng của hai đa thức \\(P(x) = 3x^3 - 2x^2 + 5x - 7\\) và \\(Q(x) = -3x^3 + 2x^2 - 4x + 7\\). Thay vì cộng từng hạng tử từ trái sang phải, An đã phát hiện ra các cặp hạng tử đối nhau để nhóm lại tính nhanh. Cách làm của An thể hiện năng lực sáng tạo và giải quyết vấn đề như thế nào?",
+      "generalfeedback": "An đã nhận biết các hạng tử đối nhau \\((3x^3, -3x^3)\\), \\((-2x^2, 2x^2)\\), \\((-7, 7)\\) để triệt tiêu nhanh, thu được kết quả \\(P(x) + Q(x) = x\\).",
+      "answers": [
+        {
+          "text": "Nhóm các cặp hạng tử đối nhau \\((3x^3 - 3x^3) + (-2x^2 + 2x^2) + (5x - 4x) + (-7 + 7)\\) để triệt tiêu trực tiếp.",
+          "fraction": 100
+        },
+        {
+          "text": "Đặt tính cột dọc rồi cộng lần lượt từ trái sang phải.",
+          "fraction": 0
+        },
+        {
+          "text": "Thay \\(x = 1\\) vào hai đa thức rồi mới cộng hai giá trị lại.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ cộng các hệ số tự do với nhau.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Cho hai đa thức một biến \\(A(x)\\) và \\(B(x)\\) đều có bậc bằng 3. Bạn Bình khẳng định: 'Hiệu \\(A(x) - B(x)\\) chắc chắn là một đa thức bậc 3'. Lập luận toán học nào sau đây chứng minh khẳng định của Bình là SAI?",
+      "generalfeedback": "Nếu hai đa thức có cùng hệ số ở hạng tử bậc 3 (ví dụ \\(3x^3\\)), khi trừ cho nhau hạng tử bậc 3 sẽ triệt tiêu, khiến đa thức hiệu có bậc nhỏ hơn 3.",
+      "answers": [
+        {
+          "text": "Nếu hai đa thức có hệ số của hạng tử \\(x^3\\) bằng nhau thì khi trừ chúng sẽ triệt tiêu, khiến bậc của hiệu nhỏ hơn 3.",
+          "fraction": 100
+        },
+        {
+          "text": "Vì phép trừ hai đa thức luôn làm tăng bậc của đa thức lên thành bậc 6.",
+          "fraction": 0
+        },
+        {
+          "text": "Vì bậc của đa thức hiệu luôn luôn bằng 0 trong mọi trường hợp.",
+          "fraction": 0
+        },
+        {
+          "text": "Vì phép trừ không thể thực hiện được giữa hai đa thức cùng bậc.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "questiontext": "Một công ty sản xuất hai loại sản phẩm. Chi phí sản xuất sản phẩm A theo số lượng \\(x\\) được biểu diễn bởi đa thức \\(C_1(x) = 2x^2 + 15x + 50\\) (triệu đồng). Chi phí sản xuất sản phẩm B được biểu diễn bởi đa thức \\(C_2(x) = x^2 + 10x + 30\\) (triệu đồng). Đa thức biểu diễn tổng chi phí sản xuất cả hai sản phẩm là:",
+      "generalfeedback": "Tổng chi phí là \\(C(x) = C_1(x) + C_2(x) = (2x^2 + x^2) + (15x + 10x) + (50 + 30) = 3x^2 + 25x + 80\\).",
+      "answers": [
+        {
+          "text": "\\(3x^2 + 25x + 80\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x^2 + 5x + 20\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(3x^2 + 5x + 80\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2x^2 + 25x + 80\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Khi làm bài tập cộng, trừ đa thức một biến ở nhà, việc tự giác làm lại các bài tính sai để hiểu rõ nguyên nhân là biểu hiện của phẩm chất chăm chỉ. Đúng hay sai?",
+      "generalfeedback": "Đúng. Tự giác rèn luyện và sửa lỗi sai thể hiện sự chăm chỉ và tinh thần trách nhiệm trong học tập.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Trong giờ kiểm tra, nếu thấy bạn bên cạnh tính đúng bài cộng hai đa thức mà mình chưa làm được, việc chép lời giải của bạn vào bài mình là hành vi trung thực. Đúng hay sai?",
+      "generalfeedback": "Sai. Chép bài của bạn là hành vi gian lận, không trung thực trong học tập.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Để phát triển năng lực tự học, sau khi học xong bài 'Cộng và trừ đa thức một biến', học sinh nên tự [[1]] lại kiến thức trọng tâm và tự [[2]] các dạng bài tập nâng cao để đánh giá mức độ hiểu bài của mình.",
+      "generalfeedback": "Tự hệ thống kiến thức và tự đánh giá bài tập là các bước quan trọng của quá trình tự học.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "hệ thống"
+        },
+        {
+          "group": 1,
+          "text": "đánh giá"
+        },
+        {
+          "group": 1,
+          "text": "sao chép"
+        },
+        {
+          "group": 1,
+          "text": "bỏ qua"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "questiontext": "Doanh thu của một cửa hàng trong tháng theo số lượng sản phẩm \\(x\\) bán được là \\(R(x) = 50x - 0,5x^2\\) (trăm nghìn đồng). Chi phí vận hành cửa hàng là \\(C(x) = 20x + 100\\) (trăm nghìn đồng). Đa thức biểu thị lợi nhuận \\(L(x) = R(x) - C(x)\\) của cửa hàng là:",
+      "generalfeedback": "Lợi nhuận \\(L(x) = R(x) - C(x) = (50x - 0,5x^2) - (20x + 100) = -0,5x^2 + 30x - 100\\).",
+      "answers": [
+        {
+          "text": "\\(-0,5x^2 + 30x - 100\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(-0,5x^2 + 70x + 100\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(0,5x^2 + 30x - 100\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-0,5x^2 + 30x + 100\\)",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

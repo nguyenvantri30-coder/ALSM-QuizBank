@@ -1,0 +1,681 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 26,
+    "metadata_used": {
+      "YCCD_TOAN7_084": 4,
+      "YCCD_TOAN7_085": 3,
+      "YCCD_TOAN7_107": 3,
+      "Cấu trúc lời giải chứng minh hình học": 3,
+      "Luyện tập viết giả thiết": 3,
+      "kết luận và trình bày bài toán chứng minh hình học đơn giản": 4,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_TUCHUTUHOC": 1,
+      "NLC_GIAOTIEP": 1,
+      "NLT_TOAN_C2_01": 1,
+      "NLT_TOAN_C2_04": 1
+    },
+    "types_used": {
+      "multichoice": 18,
+      "gapselect": 1,
+      "truefalse": 1,
+      "matching": 1,
+      "shortanswer": 4,
+      "ddwtos": 1
+    }
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_084",
+        "reason": "Đo lường khả năng nhận biết thế nào là một định lí."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_085",
+        "reason": "Đo lường khả năng nhận biết chứng minh một định lí."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_107",
+        "reason": "Đo lường khả năng diễn đạt lập luận và chứng minh hình học trong những trường hợp đơn giản."
+      },
+      {
+        "metadata_code": "Cấu trúc lời giải chứng minh hình học",
+        "reason": "Đo lường kiến thức về cấu trúc lời giải chứng minh hình học."
+      },
+      {
+        "metadata_code": "Luyện tập viết giả thiết",
+        "reason": "Đo lường kỹ năng luyện tập viết giả thiết."
+      },
+      {
+        "metadata_code": "kết luận và trình bày bài toán chứng minh hình học đơn giản",
+        "reason": "Đo lường kỹ năng viết kết luận và trình bày bài toán chứng minh hình học đơn giản."
+      },
+      {
+        "metadata_code": "PC_CHAMCHI",
+        "reason": "Đo lường phẩm chất chăm chỉ trong học tập toán hình học."
+      },
+      {
+        "metadata_code": "PC_TRUNGTHUC",
+        "reason": "Đo lường phẩm chất trung thực trong học thuật và trình bày chứng minh."
+      },
+      {
+        "metadata_code": "NLC_TUCHUTUHOC",
+        "reason": "Đo lường năng lực tự chủ và tự học khi nghiên cứu kiến thức mới."
+      },
+      {
+        "metadata_code": "NLC_GIAOTIEP",
+        "reason": "Đo lường năng lực giao tiếp và hợp tác khi thảo luận nhóm bài tập chứng minh."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01",
+        "reason": "Đo lường năng lực tư duy và lập luận toán học qua phân tích bước giải thiếu logic."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_04",
+        "reason": "Đo lường năng lực giao tiếp toán học qua việc biểu diễn kí hiệu chuẩn."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học thuần túy về hình học lập luận bằng thước và compa, không có cơ sở tự nhiên để đo lường năng lực tin học/số."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học không tích hợp ứng dụng trí tuệ nhân tạo (AI) một cách tự nhiên."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_084",
+      "questiontext": "Một khẳng định được suy ra từ những khẳng định được coi là đúng gọi là gì?",
+      "generalfeedback": "Định lí là một khẳng định được suy ra từ những khẳng định được coi là đúng.",
+      "answers": [
+        {
+          "text": "Định lí",
+          "fraction": 100
+        },
+        {
+          "text": "Giả thiết",
+          "fraction": 0
+        },
+        {
+          "text": "Kết luận",
+          "fraction": 0
+        },
+        {
+          "text": "Định nghĩa",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_084",
+      "questiontext": "Định lí thường phát biểu dưới dạng \"Nếu ... [[1]] ... thì ... [[2]] ...\".",
+      "generalfeedback": "Trong phát biểu định lí dạng \"Nếu ... thì ...\", phần nằm giữa \"Nếu\" và \"thì\" là giả thiết, phần sau từ \"thì\" là kết luận.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "giả thiết"
+        },
+        {
+          "group": 1,
+          "text": "kết luận"
+        },
+        {
+          "group": 1,
+          "text": "chứng minh"
+        },
+        {
+          "group": 1,
+          "text": "định nghĩa"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_084",
+      "questiontext": "Trong các khẳng định sau, khẳng định nào có dạng phát biểu của một định lí toán học?",
+      "generalfeedback": "Khẳng định \"Nếu hai góc đối đỉnh thì hai góc đó bằng nhau\" có cấu trúc phát biểu dạng \"Nếu... thì...\" biểu diễn một định lí toán học.",
+      "answers": [
+        {
+          "text": "Nếu hai góc đối đỉnh thì hai góc đó bằng nhau.",
+          "fraction": 100
+        },
+        {
+          "text": "Lớp 7A có 40 học sinh.",
+          "fraction": 0
+        },
+        {
+          "text": "Hãy vẽ hai đường thẳng song song.",
+          "fraction": 0
+        },
+        {
+          "text": "Hai tam giác có bằng nhau không?",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_085",
+      "questiontext": "Chứng minh một định lí là làm công việc gì?",
+      "generalfeedback": "Chứng minh một định lí là dùng lập luận để từ giả thiết suy ra kết luận.",
+      "answers": [
+        {
+          "text": "Dùng lập luận để từ giả thiết suy ra kết luận.",
+          "fraction": 100
+        },
+        {
+          "text": "Đo đạc trực tiếp trên hình vẽ để khẳng định kết luận.",
+          "fraction": 0
+        },
+        {
+          "text": "Dùng máy tính cầm tay để kiểm tra kết quả.",
+          "fraction": 0
+        },
+        {
+          "text": "Lấy một ví dụ cụ thể để khẳng định kết luận luôn đúng.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_085",
+      "questiontext": "Để chứng minh một định lí, ta chỉ cần đo đạc hình vẽ và thấy đúng với 3 trường hợp cụ thể là đủ.",
+      "generalfeedback": "Việc đo đạc trên hình vẽ chỉ mang tính minh họa, không thể thay thế cho việc dùng lập luận logic để chứng minh định lí.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_085",
+      "questiontext": "Hãy ghép mỗi khái niệm ở cột bên trái với nội dung tương ứng ở cột bên phải.",
+      "generalfeedback": "Giả thiết là điều đã cho biết; Kết luận là điều cần suy ra hoặc chứng minh; Chứng minh định lí là quá trình lập luận từ giả thiết suy ra kết luận.",
+      "subquestions": [
+        {
+          "question": "Giả thiết (GT)",
+          "answer": "Điều đã cho biết ban đầu trong định lí."
+        },
+        {
+          "question": "Kết luận (KL)",
+          "answer": "Điều cần phải suy ra hoặc chứng minh."
+        },
+        {
+          "question": "Chứng minh định lí",
+          "answer": "Dùng lập luận từ giả thiết suy ra kết luận."
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_107",
+      "questiontext": "Cho \\(\\triangle ABC = \\triangle MNP\\). Khẳng định nào sau đây diễn đạt đúng các góc tương ứng bằng nhau?",
+      "generalfeedback": "Khi \\(\\triangle ABC = \\triangle MNP\\), các góc ở đỉnh tương ứng phải bằng nhau: \\(\\widehat{A} = \\widehat{M}\\), \\(\\widehat{B} = \\widehat{N}\\), \\(\\widehat{C} = \\widehat{P}\\).",
+      "answers": [
+        {
+          "text": "\\(\\widehat{A} = \\widehat{M}, \\widehat{B} = \\widehat{N}, \\widehat{C} = \\widehat{P}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\widehat{A} = \\widehat{N}, \\widehat{B} = \\widehat{M}, \\widehat{C} = \\widehat{P}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\widehat{A} = \\widehat{P}, \\widehat{B} = \\widehat{N}, \\widehat{C} = \\widehat{M}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\widehat{A} + \\widehat{B} = \\widehat{M} + \\widehat{N}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_107",
+      "questiontext": "Cho \\(\\triangle ABC\\) và \\(\\triangle ADC\\) có \\(AB = AD\\), \\(BC = DC\\). Cạnh chung của hai tam giác là cạnh nào?",
+      "generalfeedback": "Hai tam giác \\(\\triangle ABC\\) và \\(\\triangle ADC\\) có chung cạnh \\(AC\\).",
+      "answers": [
+        {
+          "text": "AC",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Cấu trúc lời giải chứng minh hình học",
+      "questiontext": "Cấu trúc lời giải của một bài toán chứng minh hình học thường gồm hai phần tóm tắt cơ bản nào ở đầu bài?",
+      "generalfeedback": "Khi trình bày lời giải chứng minh hình học, bước đầu tiên là ghi Giả thiết (GT) và Kết luận (KL) của bài toán.",
+      "answers": [
+        {
+          "text": "Giả thiết (GT) và Kết luận (KL)",
+          "fraction": 100
+        },
+        {
+          "text": "Định nghĩa và Định lí",
+          "fraction": 0
+        },
+        {
+          "text": "Tiên đề và Giả thiết",
+          "fraction": 0
+        },
+        {
+          "text": "Bảng số liệu và Đồ thị",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Cấu trúc lời giải chứng minh hình học",
+      "questiontext": "Khi tóm tắt một bài toán chứng minh hình học, ta ghi điều đã cho biết ở mục [[1]] và ghi điều cần chứng minh ở mục [[2]].",
+      "generalfeedback": "Điều kiện cho biết ban đầu được ghi ở Giả thiết (GT), điều cần chứng minh ghi ở Kết luận (KL).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "Giả thiết (GT)"
+        },
+        {
+          "group": 1,
+          "text": "Kết luận (KL)"
+        },
+        {
+          "group": 1,
+          "text": "Chứng minh"
+        },
+        {
+          "group": 1,
+          "text": "Hình vẽ"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_084",
+      "questiontext": "Trong một định lí, khẳng định được coi là đúng ban đầu gọi là gì?",
+      "generalfeedback": "Trong một định lí, điều đã cho biết (được coi là đúng ban đầu) gọi là giả thiết.",
+      "answers": [
+        {
+          "text": "Giả thiết",
+          "fraction": 100
+        },
+        {
+          "text": "Kết luận",
+          "fraction": 0
+        },
+        {
+          "text": "Chứng minh",
+          "fraction": 0
+        },
+        {
+          "text": "Hình vẽ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_107",
+      "questiontext": "Cho \\(\\triangle ABC = \\triangle DEF\\). Khẳng định nào sau đây diễn đạt đúng các cạnh tương ứng bằng nhau?",
+      "generalfeedback": "Khi \\(\\triangle ABC = \\triangle DEF\\), các cạnh tương ứng bằng nhau là: \\(AB = DE\\), \\(BC = EF\\), \\(AC = DF\\).",
+      "answers": [
+        {
+          "text": "\\(AB = DE, BC = EF, AC = DF\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(AB = EF, BC = DE, AC = DF\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(AB = DF, BC = EF, AC = DE\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(AB = BC, DE = EF, DF = AC\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Cấu trúc lời giải chứng minh hình học",
+      "questiontext": "Khi trình bày bài toán chứng minh hai tam giác bằng nhau theo trường hợp cạnh - cạnh - cạnh (c.c.c), ta cần chỉ ra điều kiện gì?",
+      "generalfeedback": "Trường hợp bằng nhau cạnh - cạnh - cạnh yêu cầu chỉ ra 3 cặp cạnh tương ứng bằng nhau của hai tam giác.",
+      "answers": [
+        {
+          "text": "Ba cặp cạnh tương ứng bằng nhau.",
+          "fraction": 100
+        },
+        {
+          "text": "Ba cặp góc tương ứng bằng nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Hai cặp cạnh và một cặp góc bằng nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Một cặp cạnh và hai cặp góc bằng nhau.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Luyện tập viết giả thiết",
+      "questiontext": "Cho bài toán: \"Cho \\(\\triangle ABC\\) và \\(\\triangle MNP\\) có \\(AB = MN\\), \\(BC = NP\\), \\(CA = PM\\). Chứng minh \\(\\triangle ABC = \\triangle MNP\\)\". Phần Giả thiết (GT) của bài toán là gì?",
+      "generalfeedback": "Giả thiết là những điều bài toán cho biết ban đầu: \\(\\triangle ABC, \\triangle MNP, AB = MN, BC = NP, CA = PM\\).",
+      "answers": [
+        {
+          "text": "\\(\\triangle ABC, \\triangle MNP, AB = MN, BC = NP, CA = PM\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\triangle ABC = \\triangle MNP\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\widehat{A} = \\widehat{M}, \\widehat{B} = \\widehat{N}, \\widehat{C} = \\widehat{P}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(AB = BC = CA\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Luyện tập viết giả thiết",
+      "questiontext": "Cho định lí: \"Nếu hai tam giác có ba cặp cạnh tương ứng bằng nhau thì hai tam giác đó bằng nhau\". Viết phần giả thiết (GT) dưới dạng tóm tắt kí hiệu cho hai tam giác \\(\\triangle ABC\\) và \\(\\triangle A'B'C'\\) với các cạnh \\(AB=A'B', BC=B'C', AC=A'C'\\). (Chỉ ghi các đẳng thức cạnh, phân cách bằng dấu phẩy)",
+      "generalfeedback": "Giả thiết gồm ba cặp cạnh tương ứng bằng nhau: \\(AB=A'B', BC=B'C', AC=A'C'\\).",
+      "answers": [
+        {
+          "text": "AB=A'B', BC=B'C', AC=A'C'",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Luyện tập viết giả thiết",
+      "questiontext": "Cho hình vẽ có \\(AB = AD\\), \\(BC = DC\\). Hãy ghi tên hai tam giác có các cạnh bằng nhau đó để lập giả thiết chứng minh \\(\\triangle ABC = \\triangle ADC\\). (Ghi tên hai tam giác phân cách bởi dấu phẩy)",
+      "generalfeedback": "Hai tam giác được xét trong giả thiết là \\(\\triangle ABC, \\triangle ADC\\).",
+      "answers": [
+        {
+          "text": "ABC, ADC",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "kết luận và trình bày bài toán chứng minh hình học đơn giản",
+      "questiontext": "Cho bài toán: \"Cho \\(\\triangle ABC\\) và \\(\\triangle MNP\\) có \\(AB = MN\\), \\(BC = NP\\), \\(CA = PM\\). Chứng minh \\(\\triangle ABC = \\triangle MNP\\)\". Phần Kết luận (KL) của bài toán là gì?",
+      "generalfeedback": "Kết luận là điều cần phải chứng minh: \\(\\triangle ABC = \\triangle MNP\\).",
+      "answers": [
+        {
+          "text": "\\(\\triangle ABC = \\triangle MNP\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(AB = MN, BC = NP, CA = PM\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\triangle ABC\\) và \\(\\triangle MNP\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\widehat{A} + \\widehat{B} + \\widehat{C} = 180^{\\circ}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "kết luận và trình bày bài toán chứng minh hình học đơn giản",
+      "questiontext": "Viết kí hiệu kết luận (KL) cần chứng minh cho bài toán yêu cầu chứng minh tam giác ACB bằng tam giác BDA.",
+      "generalfeedback": "Kết luận viết dưới dạng ký hiệu bằng nhau giữa hai tam giác: \\(\\triangle ACB = \\triangle BDA\\).",
+      "answers": [
+        {
+          "text": "ACB = BDA",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "kết luận và trình bày bài toán chứng minh hình học đơn giản",
+      "questiontext": "Cho hai tam giác \\(\\triangle ABC\\) và \\(\\triangle ABD\\) có \\(AC = AD\\), \\(BC = BD\\). Bước thứ nhất trong lời giải chứng minh \\(\\triangle ABC = \\triangle ABD\\) là xét hai tam giác nào?",
+      "generalfeedback": "Lời giải trình bày bắt đầu bằng bước: Xét \\(\\triangle ABC\\) và \\(\\triangle ABD\\).",
+      "answers": [
+        {
+          "text": "Xét \\(\\triangle ABC\\) và \\(\\triangle ABD\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Xét \\(\\triangle ABC\\) và \\(\\triangle ACD\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Xét \\(\\triangle BCD\\) và \\(\\triangle ABD\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Xét \\(\\triangle ABC\\) và \\(\\triangle BCD\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "kết luận và trình bày bài toán chứng minh hình học đơn giản",
+      "questiontext": "Trình bày lời giải chứng minh \\(\\triangle ABC = \\triangle ADC\\) khi biết \\(AB = AD\\), \\(BC = DC\\). Lý do nào được ghi ở cuối cùng để khẳng định hai tam giác bằng nhau?",
+      "generalfeedback": "Hai tam giác bằng nhau theo trường hợp cạnh - cạnh - cạnh, ký hiệu là (c.c.c).",
+      "answers": [
+        {
+          "text": "(c.c.c)",
+          "fraction": 100
+        },
+        {
+          "text": "(c.g.c)",
+          "fraction": 0
+        },
+        {
+          "text": "(g.c.g)",
+          "fraction": 0
+        },
+        {
+          "text": "(theo giả thiết)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Khi gặp một bài toán chứng minh hai tam giác bằng nhau khó và phức tạp, hành vi nào sau đây thể hiện phẩm chất chăm chỉ trong học tập?",
+      "generalfeedback": "Phẩm chất chăm chỉ thể hiện qua việc kiên trì suy nghĩ, vẽ lại hình, phân tích các yếu tố giả thiết để tìm lời giải thay vì bỏ cuộc hoặc chép bài người khác.",
+      "answers": [
+        {
+          "text": "Kiên trì vẽ lại hình, phân tích kĩ giả thiết để tìm ra các cặp cạnh bằng nhau và từng bước hoàn thành bài chứng minh.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài toán ngay vì thấy hình vẽ phức tạp và chờ thầy cô chữa bài.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép ngay lời giải của bạn khác vào vở để kịp nộp bài.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ viết giả thiết, kết luận rồi kết luận hai tam giác bằng nhau mà không chứng minh.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Trong giờ kiểm tra Toán, bạn An nhận thấy mình quên chỉ ra cạnh chung \\(AB\\) khi chứng minh \\(\\triangle ACB = \\triangle BDA\\) (c.c.c) nên bài làm chưa đủ 3 cặp cạnh. Thể hiện phẩm chất trung thực, An nên làm gì?",
+      "generalfeedback": "Trung thực trong học thuật đòi hỏi học sinh tự giác nhận ra thiếu sót trong lập luận của mình và tự bổ sung chứng minh đầy đủ, chính xác.",
+      "answers": [
+        {
+          "text": "Tự giác bổ sung dòng \"\\(AB\\) là cạnh chung\" vào bài làm để lập luận hoàn chỉnh và chính xác.",
+          "fraction": 100
+        },
+        {
+          "text": "Giấu đi thiếu sót và hy vọng thầy cô không phát hiện ra khi chấm bài.",
+          "fraction": 0
+        },
+        {
+          "text": "Cố tình sửa ký hiệu trên hình vẽ để làm giả thiết bài toán khác đi.",
+          "fraction": 0
+        },
+        {
+          "text": "Nhìn bài của bạn bên cạnh để chép lại toàn bộ bài giải.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Để tự học hiệu quả bài \"Hai tam giác bằng nhau. Trường hợp bằng nhau thứ nhất của tam giác\", quy trình tự nghiên cứu SGK nào sau đây là hợp lí nhất?",
+      "generalfeedback": "Năng lực tự chủ và tự học thể hiện qua việc chủ động đọc hiểu khái niệm, thực hành theo các hoạt động (HĐ1, HĐ2), ghi nhớ định lí và tự giải bài tập luyện tập.",
+      "answers": [
+        {
+          "text": "Đọc khái niệm hai tam giác bằng nhau, tự vẽ hình làm các HĐ1, HĐ2 để rút ra định lí c.c.c, sau đó áp dụng làm Luyện tập.",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ học thuộc lòng định lí c.c.c mà không cần đọc ví dụ hay vẽ hình.",
+          "fraction": 0
+        },
+        {
+          "text": "Xem ngay đáp án bài tập ở cuối sách rồi chép lại vào vở bài tập.",
+          "fraction": 0
+        },
+        {
+          "text": "Đợi thầy cô giảng trên lớp rồi mới mở sách giáo khoa ra xem.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_GIAOTIEP",
+      "questiontext": "Khi thảo luận nhóm về lời giải bài tập chứng minh \\(\\triangle ABC = \\triangle ADC\\) (H.4.17), hai bạn trong nhóm có ý kiến khác nhau về thứ tự trình bày. Để hợp tác hiệu quả, em nên làm gì?",
+      "generalfeedback": "Năng lực giao tiếp và hợp tác thể hiện qua việc lắng nghe ý kiến của bạn, cùng phân tích các bước lập luận logic (Giả thiết -> Các cặp cạnh bằng nhau -> Kết luận c.c.c) để đi đến thống nhất.",
+      "answers": [
+        {
+          "text": "Lắng nghe giải thích của từng bạn, cùng đối chiếu với cấu trúc lời giải chuẩn trong SGK để thống nhất cách trình bày logic nhất.",
+          "fraction": 100
+        },
+        {
+          "text": "Bắt buộc các bạn phải theo ý kiến của mình mà không cần thảo luận.",
+          "fraction": 0
+        },
+        {
+          "text": "Mặc kệ hai bạn tranh luận và không tham gia đóng góp ý kiến.",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua bài tập đó và chuyển sang làm việc riêng.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Cho bài toán: Cho \\(\\triangle ABC\\) và \\(\\triangle ABD\\) có \\(AC = AD\\), \\(BC = BD\\). Một học sinh chứng minh: \"Xét \\(\\triangle ABC\\) và \\(\\triangle ABD\\) có \\(AC = AD\\), \\(BC = BD\\). Do đó \\(\\triangle ABC = \\triangle ABD\\) (c.c.c)\". Phân tích lập luận trên, bước logic nào bị thiếu?",
+      "generalfeedback": "Năng lực tư duy và lập luận toán học giúp học sinh phát hiện ra lập luận trên còn thiếu yếu tố thứ ba là \"\\(AB\\) là cạnh chung\" để đủ điều kiện 3 cặp cạnh bằng nhau theo trường hợp (c.c.c).",
+      "answers": [
+        {
+          "text": "Thiếu chỉ ra yếu tố \"\\(AB\\) là cạnh chung\".",
+          "fraction": 100
+        },
+        {
+          "text": "Thiếu chỉ ra góc \\(\\widehat{A} = \\widehat{B}\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Thiếu chứng minh \\(AB = CD\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Lời giải đã đầy đủ, không thiếu bước nào.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04",
+      "questiontext": "Để diễn đạt bằng ngôn ngữ ký hiệu toán học cho câu văn: \"Tam giác ABC bằng tam giác A'B'C'\", ký hiệu nào sau đây là đúng chuẩn?",
+      "generalfeedback": "Năng lực giao tiếp toán học thể hiện qua việc sử dụng chính xác ký hiệu toán học \\(\\triangle ABC = \\triangle A'B'C'\\) để biểu diễn quan hệ bằng nhau của hai tam giác.",
+      "answers": [
+        {
+          "text": "\\(\\triangle ABC = \\triangle A'B'C'\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(ABC = A'B'C'\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\triangle ABC \\approx \\triangle A'B'C'\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\widehat{ABC} = \\widehat{A'B'C'}\\)",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

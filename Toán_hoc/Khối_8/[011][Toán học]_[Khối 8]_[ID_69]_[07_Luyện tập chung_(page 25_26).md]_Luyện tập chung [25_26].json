@@ -1,0 +1,912 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 38,
+    "total": 38,
+    "metadata_used": {
+      "Các quy tắc nhân và chia đa thức": 4,
+      "YCCD_TOAN8_010": 6,
+      "Rút gọn biểu thức phối hợp nhân chia đa thức": 8,
+      "Chứng minh giá trị biểu thức không phụ thuộc vào biến": 2,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TUHOC_C2_06": 2,
+      "NLT_TOAN_C2_01_08": 2,
+      "NLT_TOAN_C2_03_05": 2
+    },
+    "types_used": {
+      "multichoice": 20,
+      "truefalse": 4,
+      "numerical": 4,
+      "gapselect": 4,
+      "ddwtos": 1,
+      "matching": 1,
+      "calculated": 1,
+      "calculatedsimple": 1,
+      "shortanswer": 2
+    }
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "Các quy tắc nhân và chia đa thức",
+        "reason": "Đo lường sự hiểu biết và ghi nhớ quy tắc nhân, chia đa thức, đơn thức trong SGK."
+      },
+      {
+        "metadata_code": "YCCD_TOAN8_010",
+        "reason": "Đo lường khả năng thực hiện phép nhân các đa thức nhiều biến trong các bài toán cơ bản và thực tế."
+      },
+      {
+        "metadata_code": "Rút gọn biểu thức phối hợp nhân chia đa thức",
+        "reason": "Đo lường kỹ năng thực hiện biến đổi, rút gọn biểu thức phối hợp nhân và chia đa thức."
+      },
+      {
+        "metadata_code": "Chứng minh giá trị biểu thức không phụ thuộc vào biến",
+        "reason": "Đo lường kỹ năng rút gọn và biến đổi biểu thức để chứng minh giá trị không phụ thuộc vào biến."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đo lường ý thức kiên trì, vượt khó và thái độ trung thực, tự giác trong học tập môn Toán."
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_06",
+        "reason": "Đo lường khả năng lắng nghe góp ý từ giáo viên, bạn bè để nhận ra và điều chỉnh sai sót khi tính toán."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_08",
+        "reason": "Đo lường năng lực tư duy và chứng minh các mệnh đề toán học đại số không quá phức tạp."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_05",
+        "reason": "Đo lường năng lực mô hình hóa toán học và sử dụng kĩ năng giải quyết bài toán thực tế."
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Các quy tắc nhân và chia đa thức",
+      "questiontext": "Muốn chia đa thức \\(A\\) cho đơn thức \\(B\\) (trường hợp chia hết), ta làm như thế nào?",
+      "generalfeedback": "Muốn chia đa thức \\(A\\) cho đơn thức \\(B\\), ta chia mỗi hạng tử của \\(A\\) cho \\(B\\) rồi cộng các kết quả với nhau.",
+      "answers": [
+        {
+          "text": "Chia mỗi hạng tử của \\(A\\) cho \\(B\\) rồi cộng các kết quả với nhau.",
+          "fraction": 100
+        },
+        {
+          "text": "Chia mỗi hạng tử của \\(A\\) cho \\(B\\) rồi nhân các kết quả với nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Cộng các hạng tử của \\(A\\) rồi chia cho \\(B\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Nâng đa thức \\(A\\) lên lũy thừa rồi chia cho \\(B\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Các quy tắc nhân và chia đa thức",
+      "questiontext": "Đơn thức \\(A\\) chia hết cho đơn thức \\(B\\) khi mỗi biến của \\(B\\) đều là biến của \\(A\\) với số mũ không lớn hơn số mũ của nó trong \\(A\\). Đẳng thức này đúng hay sai?",
+      "generalfeedback": "Đây là quy tắc chia đơn thức cho đơn thức trong SGK Toán 8.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_010",
+      "questiontext": "Khai triển và thu gọn tích \\(xy(x + y)\\) ta được đa thức nào?",
+      "generalfeedback": "\\(xy(x + y) = xy \\cdot x + xy \\cdot y = x^2y + xy^2\\).",
+      "answers": [
+        {
+          "text": "\\(x^2y + xy^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x^2 + y^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(xy^2 + xy\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2x^2y + xy^2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Rút gọn biểu thức phối hợp nhân chia đa thức",
+      "questiontext": "Cho đa thức \\(A = 4x^3y^2\\) và đơn thức \\(B = -2xy\\). Tìm giá trị số của thương \\(A : B\\) tại \\(x = 1, y = 2\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "\\(A : B = 4x^3y^2 : (-2xy) = -2x^2y\\). Thay \\(x = 1, y = 2\\) vào ta được: \\(-2 \\cdot 1^2 \\cdot 2 = -4\\).",
+      "answers": [
+        {
+          "text": "-4",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Rút gọn biểu thức phối hợp nhân chia đa thức",
+      "questiontext": "Cho đa thức \\(T = 8x^2y^2 - xy^3\\). Khi thực hiện phép chia \\(T : xy^2\\), ta lấy từng hạng tử của \\(T\\) chia cho \\(xy^2\\):\n- Hạng tử thứ nhất: \\(8x^2y^2 : xy^2 =\\) [[1]]\n- Hạng tử thứ hai: \\(-xy^3 : xy^2 =\\) [[2]]\nKết quả phép chia là \\(8x - y\\).",
+      "generalfeedback": "\\(8x^2y^2 : xy^2 = 8x\\) và \\(-xy^3 : xy^2 = -y\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(8x\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(-y\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(8xy\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(-y^2\\)"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Các quy tắc nhân và chia đa thức",
+      "questiontext": "Kéo thả các cụm từ thích hợp vào chỗ trống để hoàn thành quy tắc nhân đa thức:\nMuốn nhân một đa thức với một đa thức, ta nhân [[1]] của đa thức này với [[2]] của đa thức kia rồi cộng các tích với nhau.",
+      "generalfeedback": "Quy tắc nhân đa thức với đa thức: Nhân mỗi hạng tử của đa thức này với từng hạng tử của đa thức kia.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "mỗi hạng tử"
+        },
+        {
+          "group": 1,
+          "text": "từng hạng tử"
+        },
+        {
+          "group": 1,
+          "text": "mỗi biến"
+        },
+        {
+          "group": 1,
+          "text": "hệ số"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Rút gọn biểu thức phối hợp nhân chia đa thức",
+      "questiontext": "Ghép mỗi phép tính ở cột bên trái với kết quả thu gọn tương ứng ở cột bên phải:",
+      "generalfeedback": "Thực hiện phép nhân và chia đơn thức, đa thức tương ứng.",
+      "subquestions": [
+        {
+          "question": "\\(10x^3y^3 : 5xy^2\\)",
+          "answer": "\\(2x^2y\\)"
+        },
+        {
+          "question": "\\(4x^3y^2 : (-2xy)\\)",
+          "answer": "\\(-2x^2y\\)"
+        },
+        {
+          "question": "\\(3xy \\cdot 2x^2\\)",
+          "answer": "\\(6x^3y\\)"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_010",
+      "questiontext": "Bà Khanh dự định mua {x} hộp sữa với giá {y} đồng mỗi hộp. Tổng số tiền dự định trả (đồng) được tính bằng công thức nào?",
+      "generalfeedback": "Tổng số tiền = Số hộp sữa nhân giá tiền mỗi hộp = {x} * {y}.",
+      "wildcards": [
+        {
+          "name": "x",
+          "min": 2.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "y",
+          "min": 10000.0,
+          "max": 25000.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{x}*{y}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_010",
+      "questiontext": "Thỏ chạy với vận tốc gấp 60 lần Rùa. Nếu vận tốc của Rùa là {v} m/phút thì vận tốc của Thỏ (m/phút) là bao nhiêu?",
+      "generalfeedback": "Vận tốc Thỏ = 60 * {v}.",
+      "wildcards": [
+        {
+          "name": "v",
+          "min": 1.0,
+          "max": 5.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "60*{v}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Chứng minh giá trị biểu thức không phụ thuộc vào biến",
+      "questiontext": "Rút gọn biểu thức \\(P = 5x(3x^2y - 2xy^2 + 1) - 3xy(5x^2 - 3xy) + x^2y^2\\). Khẳng định nào sau đây là ĐÚNG?",
+      "generalfeedback": "\\(P = 15x^3y - 10x^2y^2 + 5x - 15x^3y + 9x^2y^2 + x^2y^2 = 5x\\). Do đó \\(P\\) chỉ phụ thuộc vào biến \\(x\\) mà không phụ thuộc vào biến \\(y\\).",
+      "answers": [
+        {
+          "text": "\\(P = 5x\\), giá trị của \\(P\\) chỉ phụ thuộc vào biến \\(x\\).",
+          "fraction": 100
+        },
+        {
+          "text": "\\(P = 5y\\), giá trị của \\(P\\) chỉ phụ thuộc vào biến \\(y\\).",
+          "fraction": 0
+        },
+        {
+          "text": "\\(P = 5xy\\), giá trị của \\(P\\) phụ thuộc vào cả \\(x\\) và \\(y\\).",
+          "fraction": 0
+        },
+        {
+          "text": "\\(P = 0\\), giá trị của \\(P\\) là một hằng số.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Rút gọn biểu thức phối hợp nhân chia đa thức",
+      "questiontext": "Thực hiện phép chia đa thức \\((4x^3y^2 - 3x^2y^3) : (-2xy)\\), ta được kết quả là:",
+      "generalfeedback": "\\((4x^3y^2 - 3x^2y^3) : (-2xy) = 4x^3y^2 : (-2xy) - 3x^2y^3 : (-2xy) = -2x^2y + \\frac{3}{2}xy^2\\).",
+      "answers": [
+        {
+          "text": "\\(-2x^2y + \\frac{3}{2}xy^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(-2x^2y - \\frac{3}{2}xy^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2x^2y + \\frac{3}{2}xy^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-2x^2y + 3xy^2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_010",
+      "questiontext": "Bà Khanh mua \\(x\\) hộp sữa giá \\(y\\) đồng/hộp. Cửa hàng giảm giá 1 500 đồng mỗi hộp nên bà mua thêm 3 hộp nữa. Đa thức biểu thị tổng số tiền bà Khanh phải trả là:",
+      "generalfeedback": "Số hộp sữa mua thực tế là \\(x + 3\\). Giá mỗi hộp sau khi giảm là \\(y - 1500\\). Tổng số tiền phải trả là \\((x + 3)(y - 1500)\\).",
+      "answers": [
+        {
+          "text": "\\((x + 3)(y - 1500)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x(y - 1500) + 3y\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((x - 3)(y + 1500)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(xy - 1500\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Rút gọn biểu thức phối hợp nhân chia đa thức",
+      "questiontext": "Tìm đơn thức \\(B\\) biết \\(4x^3y^2 : B = -2xy\\).",
+      "generalfeedback": "\\(B = 4x^3y^2 : (-2xy) = -2x^2y\\).",
+      "answers": [
+        {
+          "text": "\\(-2x^2y\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(2x^2y\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-2xy^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2x^3y\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Rút gọn biểu thức phối hợp nhân chia đa thức",
+      "questiontext": "Tìm đơn thức \\(C\\) biết \\(5xy^2 \\cdot C = 10x^3y^3\\).",
+      "generalfeedback": "\\(C = 10x^3y^3 : 5xy^2 = 2x^2y\\).",
+      "answers": [
+        {
+          "text": "\\(2x^2y\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(-2x^2y\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2xy^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(5x^2y\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_010",
+      "questiontext": "Rùa chạy với vận tốc \\(v\\) (m/phút) trong \\(90t\\) phút. Đơn thức biểu thị quãng đường Rùa đã chạy là:",
+      "generalfeedback": "Quãng đường = Vận tốc \\(\\times\\) Thời gian = \\(v \\cdot 90t = 90vt\\).",
+      "answers": [
+        {
+          "text": "\\(90vt\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(60vt\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(150vt\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{90t}{v}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_010",
+      "questiontext": "Thỏ chạy nhanh gấp 60 lần Rùa trong \\(t\\) phút. Rùa chạy trong \\(90t\\) phút. Hỏi quãng đường Rùa chạy dài gấp bao nhiêu lần quãng đường Thỏ chạy? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Quãng đường Thỏ chạy: \\(S_1 = 60v \\cdot t = 60vt\\). Quãng đường Rùa chạy: \\(S_2 = v \\cdot 90t = 90vt\\). Tỉ số \\(S_2 / S_1 = 90vt / 60vt = 1.5\\).",
+      "answers": [
+        {
+          "text": "1.5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Các quy tắc nhân và chia đa thức",
+      "questiontext": "Cho đa thức \\(A = 2x^2y^2 - 5xy^3\\) và đơn thức \\(B = 3x^my^2\\) (với \\(m \\in \\mathbb{N}^*\\)). Để \\(A\\) chia hết cho \\(B\\) thì giá trị nguyên dương duy nhất của \\(m\\) là \\(m = 1\\). Khẳng định này đúng hay sai?",
+      "generalfeedback": "Để mọi hạng tử của \\(A\\) chia hết cho \\(B\\), ta cần số mũ của \\(x\\) trong \\(B\\) nhỏ hơn hoặc bằng số mũ của \\(x\\) trong mọi hạng tử của \\(A\\), tức là \\(m \\le 2\\) và \\(m \\le 1 \\Rightarrow m = 1\\). Mệnh đề ĐÚNG.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Rút gọn biểu thức phối hợp nhân chia đa thức",
+      "questiontext": "Cho \\((K + 5xy^2) \\cdot 2x^2y = 6x^4y + 10x^3y^3\\). Tìm đơn thức \\(K\\).",
+      "generalfeedback": "Ta có \\(K + 5xy^2 = (6x^4y + 10x^3y^3) : 2x^2y = 3x^2 + 5xy^2\\). Suy ra \\(K = 3x^2\\).",
+      "answers": [
+        {
+          "text": "\\(3x^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(-3x^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(3x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(6x^2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Chứng minh giá trị biểu thức không phụ thuộc vào biến",
+      "questiontext": "Cho biểu thức \\(P = 5x(3x^2y - 2xy^2 + 1) - 3xy(5x^2 - 3xy) + x^2y^2\\). Tìm giá trị của \\(x\\) sao cho \\(P = 10\\). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Rút gọn \\(P = 5x\\). Để \\(P = 10 \\Rightarrow 5x = 10 \\Rightarrow x = 2\\).",
+      "answers": [
+        {
+          "text": "2",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Rút gọn biểu thức phối hợp nhân chia đa thức",
+      "questiontext": "Với \\(m = 1\\), phép chia \\((2x^2y^2 - 5xy^3) : 3xy^2\\) cho kết quả là:\n\n\\(\\frac{2}{3}x -\\) [[1]] \\(y\\)",
+      "generalfeedback": "\\((2x^2y^2 - 5xy^3) : 3xy^2 = \\frac{2}{3}x - \\frac{5}{3}y\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "5/3"
+        },
+        {
+          "group": 1,
+          "text": "2/3"
+        },
+        {
+          "group": 1,
+          "text": "3/5"
+        },
+        {
+          "group": 1,
+          "text": "5"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Rút gọn biểu thức phối hợp nhân chia đa thức",
+      "questiontext": "Thực hiện phép chia đa thức \\((4x^3y^2 - 3x^2y^3) : (-2xy)\\), ta được kết quả là:",
+      "generalfeedback": "\\((4x^3y^2 - 3x^2y^3) : (-2xy) = 4x^3y^2 : (-2xy) - 3x^2y^3 : (-2xy) = -2x^2y + \\frac{3}{2}xy^2\\).",
+      "answers": [
+        {
+          "text": "\\(-2x^2y + \\frac{3}{2}xy^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(-2x^2y - \\frac{3}{2}xy^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2x^2y + \\frac{3}{2}xy^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-2x^2y + 3xy^2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_010",
+      "questiontext": "Bà Khanh mua \\(x\\) hộp sữa giá \\(y\\) đồng/hộp. Cửa hàng giảm giá 1 500 đồng mỗi hộp nên bà mua thêm 3 hộp nữa. Đa thức biểu thị tổng số tiền bà Khanh phải trả là:",
+      "generalfeedback": "Số hộp sữa mua thực tế là \\(x + 3\\). Giá mỗi hộp sau khi giảm là \\(y - 1500\\). Tổng số tiền phải trả là \\((x + 3)(y - 1500)\\).",
+      "answers": [
+        {
+          "text": "\\((x + 3)(y - 1500)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x(y - 1500) + 3y\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((x - 3)(y + 1500)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(xy - 1500\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Rút gọn biểu thức phối hợp nhân chia đa thức",
+      "questiontext": "Tìm đơn thức \\(B\\) biết \\(4x^3y^2 : B = -2xy\\).",
+      "generalfeedback": "\\(B = 4x^3y^2 : (-2xy) = -2x^2y\\).",
+      "answers": [
+        {
+          "text": "\\(-2x^2y\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(2x^2y\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-2xy^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2x^3y\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Rút gọn biểu thức phối hợp nhân chia đa thức",
+      "questiontext": "Tìm đơn thức \\(C\\) biết \\(5xy^2 \\cdot C = 10x^3y^3\\).",
+      "generalfeedback": "\\(C = 10x^3y^3 : 5xy^2 = 2x^2y\\).",
+      "answers": [
+        {
+          "text": "\\(2x^2y\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(-2x^2y\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2xy^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(5x^2y\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_010",
+      "questiontext": "Rùa chạy với vận tốc \\(v\\) (m/phút) trong \\(90t\\) phút. Đơn thức biểu thị quãng đường Rùa đã chạy là:",
+      "generalfeedback": "Quãng đường = Vận tốc \\(\\times\\) Thời gian = \\(v \\cdot 90t = 90vt\\).",
+      "answers": [
+        {
+          "text": "\\(90vt\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(60vt\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(150vt\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{90t}{v}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_010",
+      "questiontext": "Thỏ chạy nhanh gấp 60 lần Rùa trong \\(t\\) phút. Rùa chạy trong \\(90t\\) phút. Hỏi quãng đường Rùa chạy dài gấp bao nhiêu lần quãng đường Thỏ chạy? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Quãng đường Thỏ chạy: \\(S_1 = 60v \\cdot t = 60vt\\). Quãng đường Rùa chạy: \\(S_2 = v \\cdot 90t = 90vt\\). Tỉ số \\(S_2 / S_1 = 90vt / 60vt = 1.5\\).",
+      "answers": [
+        {
+          "text": "1.5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Các quy tắc nhân và chia đa thức",
+      "questiontext": "Cho đa thức \\(A = 2x^2y^2 - 5xy^3\\) và đơn thức \\(B = 3x^my^2\\) (với \\(m \\in \\mathbb{N}^*\\)). Để \\(A\\) chia hết cho \\(B\\) thì giá trị nguyên dương duy nhất của \\(m\\) là \\(m = 1\\). Khẳng định này đúng hay sai?",
+      "generalfeedback": "Để mọi hạng tử của \\(A\\) chia hết cho \\(B\\), ta cần số mũ của \\(x\\) trong \\(B\\) nhỏ hơn hoặc bằng số mũ của \\(x\\) trong mọi hạng tử của \\(A\\), tức là \\(m \\le 2\\) và \\(m \\le 1 \\Rightarrow m = 1\\). Mệnh đề ĐÚNG.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Rút gọn biểu thức phối hợp nhân chia đa thức",
+      "questiontext": "Cho \\((K + 5xy^2) \\cdot 2x^2y = 6x^4y + 10x^3y^3\\). Tìm đơn thức \\(K\\).",
+      "generalfeedback": "Ta có \\(K + 5xy^2 = (6x^4y + 10x^3y^3) : 2x^2y = 3x^2 + 5xy^2\\). Suy ra \\(K = 3x^2\\).",
+      "answers": [
+        {
+          "text": "\\(3x^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(-3x^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(3x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(6x^2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Chứng minh giá trị biểu thức không phụ thuộc vào biến",
+      "questiontext": "Cho biểu thức \\(P = 5x(3x^2y - 2xy^2 + 1) - 3xy(5x^2 - 3xy) + x^2y^2\\). Tìm giá trị của \\(x\\) sao cho \\(P = 10\\). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Rút gọn \\(P = 5x\\). Để \\(P = 10 \\Rightarrow 5x = 10 \\Rightarrow x = 2\\).",
+      "answers": [
+        {
+          "text": "2",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Rút gọn biểu thức phối hợp nhân chia đa thức",
+      "questiontext": "Với \\(m = 1\\), phép chia \\((2x^2y^2 - 5xy^3) : 3xy^2\\) cho kết quả là:\n\n\\(\\frac{2}{3}x -\\) [[1]] \\(y\\)",
+      "generalfeedback": "\\((2x^2y^2 - 5xy^3) : 3xy^2 = \\frac{2}{3}x - \\frac{5}{3}y\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "5/3"
+        },
+        {
+          "group": 1,
+          "text": "2/3"
+        },
+        {
+          "group": 1,
+          "text": "3/5"
+        },
+        {
+          "group": 1,
+          "text": "5"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ luyện tập Toán 8, khi gặp bài toán rút gọn biểu thức phức tạp \\(P = 5x(3x^2y - 2xy^2 + 1) - 3xy(5x^2 - 3xy) + x^2y^2\\), bạn Nam thấy dài nên định bỏ qua không làm. Để thể hiện phẩm chất kiên trì và luôn cố gắng vươn lên trong học tập, bạn Nam nên thực hiện hành động nào sau đây?",
+      "generalfeedback": "Thể hiện tinh thần vượt khó, kiên trì tự mình thực hiện từng bước tính toán theo quy tắc đã học để hoàn thành bài tập.",
+      "answers": [
+        {
+          "text": "Kiên trì phân tích từng bước, áp dụng quy tắc nhân đơn thức với đa thức và thu gọn từng hạng tử đồng dạng để tìm ra kết quả.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua câu hỏi này và chỉ làm những câu hỏi ngắn hơn để tiết kiệm thời gian.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép ngay đáp án của bạn bên cạnh mà không cần thực hiện các bước tính toán.",
+          "fraction": 0
+        },
+        {
+          "text": "Đề nghị giáo viên đổi sang bài toán khác dễ hơn vì biểu thức có chứa quá nhiều biến.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi làm bài tập về nhà môn Toán, nếu phát hiện ra kết quả tính toán phép chia đa thức của mình chưa chính xác, học sinh có thái độ tích cực sẽ tự giác tìm lại bước làm sai để sửa chữa thay vì giấu lỗi hoặc chép bài của bạn. Phát biểu này ĐÚNG hay SAI?",
+      "generalfeedback": "Thái độ tự giác phát hiện và sửa chữa sai sót thể hiện tinh thần trách nhiệm và trung thực, luôn nỗ lực vươn lên trong học tập.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_06",
+      "questiontext": "Khi tính thương \\((4x^3y^2 - 3x^2y^3) : (-2xy)\\), bạn An tính ra kết quả là \\(-2x^2y - \\frac{3}{2}xy^2\\). Bạn Bình góp ý rằng An đã nhầm dấu ở phép chia \\((-3x^2y^3) : (-2xy) = +\\frac{3}{2}xy^2\\). Để thể hiện năng lực nhận ra và điều chỉnh hạn chế của bản thân khi được bạn góp ý, An nên làm gì?",
+      "generalfeedback": "Thái độ cầu thị, biết lắng nghe góp ý từ bạn bè và kiểm tra lại quy tắc chia dấu để điều chỉnh kết quả chính xác.",
+      "answers": [
+        {
+          "text": "Lắng nghe góp ý của Bình, kiểm tra lại quy tắc chia hai số cùng dấu và điều chỉnh kết quả thành \\(-2x^2y + \\frac{3}{2}xy^2\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua lời góp ý của Bình vì cho rằng kết quả của mình luôn đúng.",
+          "fraction": 0
+        },
+        {
+          "text": "Tranh cãi với Bình và không kiểm tra lại các bước chia hệ số và dấu.",
+          "fraction": 0
+        },
+        {
+          "text": "Xóa toàn bộ bài làm và không tiếp tục hoàn thành bài toán nữa.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_06",
+      "questiontext": "Để điều chỉnh sai sót khi tính toán phép nhân đa thức, học sinh cần thực hiện các bước tự học sau:\n1. [[1]] lại từng bước nhân hệ số và biến.\n2. [[2]] với đáp án hoặc lời góp ý của giáo viên, bạn bè để sửa chữa kịp thời.",
+      "generalfeedback": "Tự kiểm tra và đối chiếu là hai thao tác quan trọng giúp học sinh nhận ra và khắc phục sai sót trong học tập.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "Kiểm tra"
+        },
+        {
+          "group": 1,
+          "text": "Đối chiếu"
+        },
+        {
+          "group": 1,
+          "text": "Bỏ qua"
+        },
+        {
+          "group": 1,
+          "text": "Chép lại"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_08",
+      "questiontext": "Cho biểu thức \\(P = 5x(3x^2y - 2xy^2 + 1) - 3xy(5x^2 - 3xy) + x^2y^2\\). Để chứng minh mệnh đề toán học: 'Giá trị của biểu thức \\(P\\) không phụ thuộc vào biến \\(y\\)', bước lập luận toán học cốt lõi cần thực hiện là gì?",
+      "generalfeedback": "Để chứng minh một biểu thức không phụ thuộc vào một biến, ta dùng các phép biến đổi đại số (nhân, chia, thu gọn) để rút gọn biểu thức về dạng không chứa biến đó.",
+      "answers": [
+        {
+          "text": "Thực hiện phép nhân và thu gọn biểu thức \\(P\\) để đưa về dạng \\(P = 5x\\), biểu thức cuối cùng không còn chứa biến \\(y\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Thay \\(y = 0\\) vào biểu thức \\(P\\) và kết luận biểu thức không phụ thuộc vào \\(y\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Cho \\(x = 1\\) và thử các giá trị khác nhau của \\(y\\) để dự đoán.",
+          "fraction": 0
+        },
+        {
+          "text": "Khẳng định ngay vì bậc của biến \\(x\\) lớn hơn bậc của biến \\(y\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_08",
+      "questiontext": "Để chứng minh mệnh đề: 'Đa thức \\(A = 2x^2y^2 - 5xy^3\\) chia hết cho đơn thức \\(B = 3x^my^2\\) (với \\(m \\in \\mathbb{N}^*\\)) khi và chỉ khi \\(m = 1\\)', học sinh cần lập luận dựa trên cơ sở toán học nào?",
+      "generalfeedback": "Lập luận chứng minh tính chia hết dựa trên điều kiện số mũ của từng biến trong đơn thức chia phải nhỏ hơn hoặc bằng số mũ của biến đó trong mọi hạng tử của đa thức bị chia.",
+      "answers": [
+        {
+          "text": "So sánh số mũ của biến \\(x\\) trong \\(B\\) với số mũ nhỏ nhất của \\(x\\) trong các hạng tử của \\(A\\), từ đó lập luận \\(m \\le 2\\) và \\(m \\le 1 \\Rightarrow m = 1\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Cho \\(m\\) nhận các giá trị tùy ý rồi thử phép chia \\(A : B\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Lập luận rằng vì hệ số 2 không chia hết cho 3 nên \\(m\\) bắt buộc phải bằng 1.",
+          "fraction": 0
+        },
+        {
+          "text": "So sánh số mũ của biến \\(y\\) trong \\(A\\) và \\(B\\) để suy ra giá trị của \\(m\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Một cửa hàng bán sữa giảm giá 1 500 đồng mỗi hộp nên bà Khanh đã quyết định mua thêm 3 hộp so với dự định \\(x\\) hộp ban đầu (giá ban đầu là \\(y\\) đồng/hộp). Năng lực mô hình hóa toán học được thể hiện qua việc lập biểu thức nào để biểu thị tổng số tiền bà Khanh phải trả?",
+      "generalfeedback": "Mô hình hóa thực tế thành đại số: Số hộp mua thực tế là \\(x + 3\\), giá mỗi hộp thực tế là \\(y - 1500\\). Tổng số tiền = \\((x + 3)(y - 1500)\\).",
+      "answers": [
+        {
+          "text": "\\((x + 3)(y - 1500)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x \\cdot y - 1500 + 3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((x - 3)(y + 1500)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(3x(y - 1500)\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Thỏ chạy nhanh gấp 60 lần Rùa trong \\(t\\) phút. Rùa chạy liên tục trong \\(90t\\) phút. Sử dụng kĩ năng lập biểu thức toán học và tính tỉ số quãng đường, hãy tính xem quãng đường Rùa chạy được gấp bao nhiêu lần quãng đường Thỏ chạy? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Quãng đường Thỏ: \\(S_1 = 60v \\cdot t = 60vt\\). Quãng đường Rùa: \\(S_2 = v \\cdot 90t = 90vt\\). Tỉ số \\(S_2 / S_1 = 90 / 60 = 1.5\\).",
+      "answers": [
+        {
+          "text": "1.5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    }
+  ]
+}

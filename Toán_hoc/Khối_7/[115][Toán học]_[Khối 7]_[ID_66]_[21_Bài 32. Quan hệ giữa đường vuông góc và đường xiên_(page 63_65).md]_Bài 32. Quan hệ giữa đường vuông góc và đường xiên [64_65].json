@@ -1,0 +1,649 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 26,
+    "metadata_used": {
+      "Định lí: Trong các đường xiên và đường vuông góc kẻ từ một điểm đến một đường thẳng": 4,
+      "đường vuông góc là đường ngắn nhất": 4,
+      "YCCD_TOAN7_096": 4,
+      "So sánh độ dài đường vuông góc và đường xiên": 4,
+      "Giải bài toán khoảng cách ngắn nhất trong thực tế": 4,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_TUCHUTUHOC": 1,
+      "NLC_GIAOTIEP": 1,
+      "NLT_TOAN_C2_01": 1,
+      "NLT_TOAN_C2_03": 1
+    },
+    "types_used": {
+      "multichoice": 12,
+      "truefalse": 3,
+      "gapselect": 3,
+      "matching": 2,
+      "shortanswer": 2,
+      "ddwtos": 2,
+      "numerical": 2
+    },
+    "total": 26
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "Định lí: Trong các đường xiên và đường vuông góc kẻ từ một điểm đến một đường thẳng",
+        "reason": "Nhận biết định lí và khái niệm đường xiên, đường vuông góc kẻ từ một điểm đến đường thẳng."
+      },
+      {
+        "metadata_code": "đường vuông góc là đường ngắn nhất",
+        "reason": "Nhận biết tính chất đường vuông góc là đường ngắn nhất và khái niệm khoảng cách từ một điểm đến đường thẳng."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_096",
+        "reason": "Giải thích quan hệ giữa đường vuông góc và đường xiên dựa trên quan hệ giữa góc và cạnh đối diện trong tam giác."
+      },
+      {
+        "metadata_code": "So sánh độ dài đường vuông góc và đường xiên",
+        "reason": "So sánh độ dài đường vuông góc và đường xiên trong các hình hình học."
+      },
+      {
+        "metadata_code": "Giải bài toán khoảng cách ngắn nhất trong thực tế",
+        "reason": "Giải bài toán thực tế liên quan đến khoảng cách ngắn nhất."
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Định lí: Trong các đường xiên và đường vuông góc kẻ từ một điểm đến một đường thẳng",
+      "questiontext": "Cho điểm \\(A\\) nằm ngoài đường thẳng \\(d\\). Kẻ \\(AH \\perp d\\) tại \\(H\\) và lấy điểm \\(M\\) thuộc \\(d\\) (với \\(M \\neq H\\)). Khẳng định nào sau đây là đúng về đoạn thẳng \\(AH\\) và \\(AM\\)?",
+      "generalfeedback": "Đoạn thẳng \\(AH\\) là đường vuông góc, đoạn thẳng \\(AM\\) là đường xiên kẻ từ \\(A\\) đến đường thẳng \\(d\\).",
+      "answers": [
+        {
+          "text": "\\(AH\\) là đường vuông góc, \\(AM\\) là đường xiên kẻ từ \\(A\\) đến \\(d\\).",
+          "fraction": 100
+        },
+        {
+          "text": "\\(AM\\) là đường vuông góc, \\(AH\\) là đường xiên kẻ từ \\(A\\) đến \\(d\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Cả \\(AH\\) và \\(AM\\) đều là đường vuông góc kẻ từ \\(A\\) đến \\(d\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Cả \\(AH\\) và \\(AM\\) đều là đường xiên kẻ từ \\(A\\) đến \\(d\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Định lí: Trong các đường xiên và đường vuông góc kẻ từ một điểm đến một đường thẳng",
+      "questiontext": "Trong các đường xiên và đường vuông góc kẻ từ một điểm nằm ngoài một đường thẳng đến đường thẳng đó, đường xiên luôn ngắn hơn đường vuông góc.",
+      "generalfeedback": "Khẳng định này Sai. Theo định lí, đường vuông góc mới là đường ngắn nhất.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Định lí: Trong các đường xiên và đường vuông góc kẻ từ một điểm đến một đường thẳng",
+      "questiontext": "Cho điểm \\(A\\) không nằm trên đường thẳng \\(d\\). Kẻ đường thẳng vuông góc với \\(d\\) tại \\(H\\). Đoạn thẳng \\(AH\\) gọi là đường [[1]] kẻ từ điểm \\(A\\) đến đường thẳng \\(d\\), còn điểm \\(H\\) gọi là [[2]] đường vuông góc hạ từ \\(A\\) xuống \\(d\\).",
+      "generalfeedback": "Đoạn thẳng \\(AH\\) gọi là đường vuông góc, điểm \\(H\\) gọi là chân đường vuông góc.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "vuông góc"
+        },
+        {
+          "group": 1,
+          "text": "xiên"
+        },
+        {
+          "group": 1,
+          "text": "chân"
+        },
+        {
+          "group": 1,
+          "text": "khoảng cách"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Định lí: Trong các đường xiên và đường vuông góc kẻ từ một điểm đến một đường thẳng",
+      "questiontext": "Hãy ghép mỗi khái niệm ở cột bên trái với mô tả tương ứng ở cột bên phải cho hình vẽ kẻ từ điểm \\(A\\) không thuộc đường thẳng \\(d\\), với \\(AH \\perp d\\) tại \\(H\\) và \\(M \\in d\\) (\\(M \\neq H\\)).",
+      "generalfeedback": "Đoạn thẳng \\(AH\\) là đường vuông góc, \\(AM\\) là đường xiên, điểm \\(H\\) là chân đường vuông góc.",
+      "subquestions": [
+        {
+          "question": "Đoạn thẳng \\(AH\\)",
+          "answer": "Đường vuông góc kẻ từ \\(A\\) đến \\(d\\)"
+        },
+        {
+          "question": "Đoạn thẳng \\(AM\\)",
+          "answer": "Đường xiên kẻ từ \\(A\\) đến \\(d\\)"
+        },
+        {
+          "question": "Điểm \\(H\\)",
+          "answer": "Chân đường vuông góc hạ từ \\(A\\) xuống \\(d\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "đường vuông góc là đường ngắn nhất",
+      "questiontext": "Cho điểm \\(A\\) nằm ngoài đường thẳng \\(d\\). Độ dài đoạn thẳng nào sau đây được gọi là khoảng cách từ điểm \\(A\\) đến đường thẳng \\(d\\)?",
+      "generalfeedback": "Đoạn vuông góc kẻ từ điểm \\(A\\) đến đường thẳng \\(d\\) có độ dài được gọi là khoảng cách từ điểm \\(A\\) đến đường thẳng \\(d\\).",
+      "answers": [
+        {
+          "text": "Độ dài đường vuông góc kẻ từ \\(A\\) đến \\(d\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Độ dài một đường xiên bất kỳ kẻ từ \\(A\\) đến \\(d\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Độ dài đường xiên dài nhất kẻ từ \\(A\\) đến \\(d\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Nửa độ dài đường xiên kẻ từ \\(A\\) đến \\(d\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "đường vuông góc là đường ngắn nhất",
+      "questiontext": "Nếu điểm \\(A\\) nằm trên đường thẳng \\(d\\) thì khoảng cách từ điểm \\(A\\) đến đường thẳng \\(d\\) bằng 0.",
+      "generalfeedback": "Khẳng định này Đúng. Khi điểm \\(A\\) nằm trên đường thẳng \\(d\\), khoảng cách từ \\(A\\) đến \\(d\\) bằng 0.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "đường vuông góc là đường ngắn nhất",
+      "questiontext": "Trong tất cả các đường xiên và đường vuông góc kẻ từ một điểm nằm ngoài đường thẳng đến đường thẳng đó, đường nào có độ dài ngắn nhất?",
+      "generalfeedback": "Đường vuông góc là đường có độ dài ngắn nhất.",
+      "answers": [
+        {
+          "text": "Đường vuông góc",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "đường vuông góc là đường ngắn nhất",
+      "questiontext": "Trong các đường xiên và đường vuông góc kẻ từ một điểm nằm ngoài một đường thẳng đến đường thẳng đó thì đường vuông góc là đường [[1]]. Độ dài đường vuông góc đó được gọi là [[3]] từ điểm đó đến đường thẳng.",
+      "generalfeedback": "Đường vuông góc là đường ngắn nhất. Độ dài đường vuông góc được gọi là khoảng cách từ điểm đó đến đường thẳng.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "ngắn nhất"
+        },
+        {
+          "group": 1,
+          "text": "khoảng cách"
+        },
+        {
+          "group": 1,
+          "text": "dài nhất"
+        },
+        {
+          "group": 1,
+          "text": "trung trực"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_096",
+      "imgs": [
+        "_page_0_Picture_17.jpeg"
+      ],
+      "questiontext": "[img:_page_0_Picture_17.jpeg]\nCho tam giác \\(AHM\\) vuông tại \\(H\\) như hình vẽ. Lý do nào giúp giải thích \\(AH < AM\\) dựa vào mối quan hệ giữa cạnh và góc đối diện trong tam giác?",
+      "generalfeedback": "Trong tam giác vuông \\(AHM\\), góc \\(H\\) là góc lớn nhất nên cạnh đối diện \\(AM\\) lớn nhất, do đó \\(AH < AM\\).",
+      "answers": [
+        {
+          "text": "Trong tam giác vuông \\(AHM\\), góc \\(H\\) là góc lớn nhất nên cạnh đối diện \\(AM\\) lớn nhất, do đó \\(AH < AM\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Vì hai góc nhọn \\(A\\) và \\(M\\) luôn bằng nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Vì tam giác \\(AHM\\) luôn cân tại \\(H\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Vì cạnh \\(AH\\) luôn bằng một nửa cạnh \\(AM\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_096",
+      "questiontext": "Cho điểm \\(A\\) nằm ngoài đường thẳng \\(d\\), kẻ \\(AH \\perp d\\) tại \\(H\\) và đường xiên \\(AM\\) (với \\(M \\in d, M \\neq H\\)). Trong tam giác \\(AHM\\) vuông tại \\(H\\), vì góc \\(AHM\\) là góc lớn nhất nên cạnh đối diện \\(AM\\) là cạnh lớn nhất, do đó \\(AH < AM\\).",
+      "generalfeedback": "Khẳng định này Đúng. Trong tam giác \\(AHM\\) vuông tại \\(H\\), góc vuông \\(AHM\\) là góc lớn nhất nên cạnh huyền \\(AM\\) đối diện góc \\(H\\) là cạnh lớn nhất, do đó đường xiên \\(AM\\) lớn hơn đường vuông góc \\(AH\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_096",
+      "questiontext": "Trong tam giác \\(AHM\\) vuông tại \\(H\\), cạnh đối diện với góc vuông \\(H\\) là cạnh \\(AM\\). Vì góc vuông là góc [[1]] nhất trong tam giác vuông, nên cạnh \\(AM\\) là cạnh [[1]] nhất. Do đó \\(AH < AM\\).",
+      "generalfeedback": "Trong tam giác vuông, góc vuông là góc lớn nhất nên cạnh đối diện (cạnh huyền AM) là cạnh lớn nhất.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "lớn"
+        },
+        {
+          "group": 1,
+          "text": "nhỏ"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_096",
+      "questiontext": "Cho điểm \\(A\\) không nằm trên đường thẳng \\(d\\), \\(AH \\perp d\\) tại \\(H\\) và \\(M\\) là một điểm trên \\(d\\) (\\(M \\neq H\\)). Trong tam giác \\(AHM\\), cạnh nào là cạnh huyền?",
+      "generalfeedback": "Trong tam giác \\(AHM\\) vuông tại \\(H\\), cạnh \\(AM\\) đối diện với góc vuông \\(H\\) nên \\(AM\\) là cạnh huyền.",
+      "answers": [
+        {
+          "text": "AM",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "So sánh độ dài đường vuông góc và đường xiên",
+      "imgs": [
+        "_page_1_Picture_10.jpeg"
+      ],
+      "questiontext": "[img:_page_1_Picture_10.jpeg]\nCho hình vuông \\(ABCD\\) có độ dài cạnh bằng 2 cm, \\(M\\) là một điểm trên cạnh \\(BC\\) (\\(M\\) không trùng với \\(B\\)). Hãy so sánh độ dài hai đoạn thẳng \\(AB\\) và \\(AM\\).",
+      "generalfeedback": "Vì \\(AB \\perp BC\\) tại \\(B\\) nên \\(AB\\) là đường vuông góc kẻ từ \\(A\\) đến đường thẳng \\(BC\\), còn \\(AM\\) là đường xiên. Do đó \\(AB < AM\\).",
+      "answers": [
+        {
+          "text": "\\(AB < AM\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(AB > AM\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(AB = AM\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Không so sánh được",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "So sánh độ dài đường vuông góc và đường xiên",
+      "imgs": [
+        "_page_1_Picture_10.jpeg"
+      ],
+      "questiontext": "[img:_page_1_Picture_10.jpeg]\nCho hình vuông \\(ABCD\\) có độ dài cạnh bằng 2 cm. Khoảng cách từ điểm \\(C\\) đến đường thẳng \\(AB\\) bằng bao nhiêu cm? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Vì \\(CB \\perp AB\\) tại \\(B\\) nên khoảng cách từ \\(C\\) đến đường thẳng \\(AB\\) chính là độ dài đoạn thẳng \\(CB = 2\\) cm.",
+      "answers": [
+        {
+          "text": "2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "So sánh độ dài đường vuông góc và đường xiên",
+      "imgs": [
+        "_page_2_Picture_6.jpeg"
+      ],
+      "questiontext": "[img:_page_2_Picture_6.jpeg]\nCho tam giác cân \\(ABC\\) có \\(AB = AC\\). Lấy điểm \\(M\\) tuỳ ý nằm giữa \\(B\\) và \\(C\\). So sánh độ dài \\(AM\\) và \\(AB\\).",
+      "generalfeedback": "Kẻ đường cao \\(AH \\perp BC\\). Khi đó \\(AM\\) nằm giữa \\(AB\\) và \\(AH\\), trong tam giác \\(ABM\\) ta chứng minh được góc \\(AMB\\) là góc tù nên \\(AM < AB\\).",
+      "answers": [
+        {
+          "text": "\\(AM < AB\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(AM > AB\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(AM = AB\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(AM \\ge AB\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "So sánh độ dài đường vuông góc và đường xiên",
+      "imgs": [
+        "_page_1_Picture_10.jpeg"
+      ],
+      "questiontext": "[img:_page_1_Picture_10.jpeg]\nCho hình vuông \\(ABCD\\) có cạnh bằng 2 cm, \\(M\\) thuộc cạnh \\(BC\\) (\\(M\\) khác \\(B\\) và \\(C\\)). Ghép mỗi đoạn thẳng/khoảng cách ở cột bên trái với khái niệm/giá trị tương ứng ở cột bên phải.",
+      "generalfeedback": "\\(AB \\perp BC\\) nên \\(AB\\) là đường vuông góc và có độ dài 2 cm, \\(AM\\) là đường xiên.",
+      "subquestions": [
+        {
+          "question": "Đoạn thẳng \\(AB\\) kẻ đến đường thẳng \\(BC\\)",
+          "answer": "Đường vuông góc"
+        },
+        {
+          "question": "Đoạn thẳng \\(AM\\) kẻ đến đường thẳng \\(BC\\)",
+          "answer": "Đường xiên"
+        },
+        {
+          "question": "Khoảng cách từ \\(A\\) đến đường thẳng \\(BC\\)",
+          "answer": "2 cm"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán khoảng cách ngắn nhất trong thực tế",
+      "imgs": [
+        "_page_0_Picture_9.jpeg"
+      ],
+      "questiontext": "[img:_page_0_Picture_9.jpeg]\nBạn Nam tập bơi ở một bể bơi hình chữ nhật. Từ điểm \\(O\\) có ba đường bơi \\(OA\\), \\(OB\\) và \\(OC\\) sang bờ đối diện, trong đó \\(OA\\) vuông góc với cạnh bể bơi. Nếu bơi cùng tốc độ, để bơi sang bờ bên kia nhanh nhất thì bạn Nam nên chọn đường bơi nào?",
+      "generalfeedback": "Đoạn thẳng \\(OA\\) vuông góc với cạnh bờ bể bơi nên \\(OA\\) là đường ngắn nhất. Do đó bơi theo đường \\(OA\\) sẽ nhanh nhất.",
+      "answers": [
+        {
+          "text": "Đường bơi \\(OA\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Đường bơi \\(OB\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Đường bơi \\(OC\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Đường bơi nào cũng như nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán khoảng cách ngắn nhất trong thực tế",
+      "imgs": [
+        "_page_2_Picture_6.jpeg"
+      ],
+      "questiontext": "[img:_page_2_Picture_6.jpeg]\nCho tam giác cân \\(ABC\\) có \\(AB = AC\\). Điểm \\(M\\) thay đổi trên cạnh \\(BC\\). Để độ dài \\(AM\\) là nhỏ nhất thì \\(M\\) phải là [[1]] kẻ từ \\(A\\) đến \\(BC\\). Khi đó \\(AM\\) chính là [[2]] từ điểm \\(A\\) đến đường thẳng \\(BC\\).",
+      "generalfeedback": "Độ dài \\(AM\\) nhỏ nhất khi \\(AM\\) là đường vuông góc kẻ từ \\(A\\) đến \\(BC\\), tức \\(M\\) là chân đường vuông góc và độ dài \\(AM\\) chính là khoảng cách từ \\(A\\) đến \\(BC\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "chân đường vuông góc"
+        },
+        {
+          "group": 1,
+          "text": "khoảng cách"
+        },
+        {
+          "group": 1,
+          "text": "trung điểm"
+        },
+        {
+          "group": 1,
+          "text": "đường xiên"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán khoảng cách ngắn nhất trong thực tế",
+      "imgs": [
+        "_page_1_Picture_19.jpeg"
+      ],
+      "questiontext": "[img:_page_1_Picture_19.jpeg]\nTrong một cuộc thi bơi qua sông từ vị trí \\(O\\) sang đường bờ sông thẳng \\(d\\). Để đoạn đường bơi là ngắn nhất, người bơi cần bơi theo đường nào hạ từ \\(O\\) xuống đường thẳng \\(d\\)?",
+      "generalfeedback": "Đường vuông góc kẻ từ một điểm đến đường thẳng là đường ngắn nhất.",
+      "answers": [
+        {
+          "text": "Đường vuông góc",
+          "fraction": 100
+        },
+        {
+          "text": "Đường xiên bất kỳ",
+          "fraction": 0
+        },
+        {
+          "text": "Đường xiên dài nhất",
+          "fraction": 0
+        },
+        {
+          "text": "Đường song song với bờ sông",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán khoảng cách ngắn nhất trong thực tế",
+      "questiontext": "Một người đứng tại điểm \\(A\\) cách đường thẳng \\(d\\) một khoảng bằng 5 m. Khoảng cách ngắn nhất từ người đó đến đường thẳng \\(d\\) bằng bao nhiêu mét? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Khoảng cách từ điểm \\(A\\) đến đường thẳng \\(d\\) chính là độ dài đường vuông góc kẻ từ \\(A\\) đến \\(d\\), và đó cũng là khoảng cách ngắn nhất, bằng 5 m.",
+      "answers": [
+        {
+          "text": "5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_CHAMCHI",
+      "imgs": [
+        "_page_0_Picture_9.jpeg"
+      ],
+      "questiontext": "[img:_page_0_Picture_9.jpeg]\nTrong bài học bơi (Hình 9.8), bạn Nam không chỉ thực hành bơi thử một lần ở đường bơi vuông góc \\(OA\\) mà còn kiên trì tập luyện, đo đạc và so sánh thời gian bơi ở các đường bơi xiên \\(OB\\) và \\(OC\\) để khẳng định kết quả toán học. Hành động đó biểu thị phẩm chất nào của người học toán?",
+      "generalfeedback": "Sự kiên trì tập luyện, đo đạc nhiều lần để kiểm chứng kiến thức bài học thể hiện phẩm chất chăm chỉ.",
+      "answers": [
+        {
+          "text": "Chăm chỉ, kiên trì trong học tập và kiểm chứng kiến thức.",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ quan tâm đến điểm số mà không cần hiểu bản chất.",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua các trường hợp khó để chọn đường bơi bất kỳ.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ dựa vào dự đoán cảm tính mà không cần luyện tập.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Trong giờ thực hành đo khoảng cách từ một điểm \\(A\\) đến con đường thẳng \\(d\\) trên sân trường, nhóm của Bình đo được độ dài đường vuông góc là 4,2 m. Một bạn trong nhóm do hạ sai góc vuông nên đo ra đường xiên dài 4,8 m và muốn tự ý sửa số liệu 4,8 m thành 4,2 m trong biên bản để 'giống đáp án'. Để thể hiện phẩm chất trung thực, Bình nên làm gì?",
+      "generalfeedback": "Thực hiện đúng phẩm chất trung thực trong học tập là ghi chép chính xác số liệu đo thực tế, giải thích nguyên nhân sai lệch và tiến hành đo lại đúng kĩ thuật chứ không tự ý sửa số liệu.",
+      "answers": [
+        {
+          "text": "Khuyên bạn giữ nguyên số liệu thực tế đã đo, cùng kiểm tra lại cách đặt thước vuông góc và đo lại.",
+          "fraction": 100
+        },
+        {
+          "text": "Đồng ý sửa ngay số liệu trong biên bản cho đẹp và giống các nhóm khác.",
+          "fraction": 0
+        },
+        {
+          "text": "Xóa toàn bộ số liệu và bỏ không làm bài thực hành nữa.",
+          "fraction": 0
+        },
+        {
+          "text": "Báo cáo số liệu giả định mà không cần đo đạc lại.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Bạn An tự học bài 'Quan hệ giữa đường vuông góc và đường xiên' ở nhà. Để tóm tắt hệ thống kiến thức cốt lõi của bài học một cách tự chủ, An nên chọn cách hệ thống hóa nào sau đây?",
+      "generalfeedback": "Lập bảng/sơ đồ so sánh khái niệm (đường vuông góc, đường xiên) và định lí tính chất (đường vuông góc là đường ngắn nhất) giúp hệ thống bài học rõ ràng, thể hiện năng lực tự chủ và tự học.",
+      "answers": [
+        {
+          "text": "Phân loại thành hai mục: Khái niệm (đường vuông góc, đường xiên, khoảng cách) và Định lí so sánh độ dài.",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ chép lại các bài tập mẫu mà không cần ghi nhớ định lí.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ học thuộc lòng các hình vẽ trong sách giáo khoa.",
+          "fraction": 0
+        },
+        {
+          "text": "Viết lại toàn bộ văn bản SGK mà không phân loại nội dung.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLC_GIAOTIEP",
+      "imgs": [
+        "_page_0_Picture_9.jpeg"
+      ],
+      "questiontext": "[img:_page_0_Picture_9.jpeg]\nTrong buổi thảo luận nhóm về tình huống bơi qua bể bơi (Hình 9.8), hai bạn trong nhóm tranh cãi về việc bơi theo đường \\(OA\\) hay \\(OB\\) sẽ nhanh nhất. Để giao tiếp và hợp tác hiệu quả, bạn Hà nên trình bày ý kiến của mình ra sao?",
+      "generalfeedback": "Giao tiếp toán học hiệu quả là đưa ra lập luận dựa trên định lí đã học (OA là đường vuông góc nên ngắn nhất) với thái độ tôn trọng, lắng nghe bạn.",
+      "answers": [
+        {
+          "text": "Lắng nghe ý kiến của bạn, sau đó dùng định lí 'đường vuông góc là đường ngắn nhất' để giải thích vì sao đoạn \\(OA < OB\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Áp đặt ý kiến của mình và không cho bạn phát biểu.",
+          "fraction": 0
+        },
+        {
+          "text": "Tránh tranh luận và chọn ngẫu nhiên một đường bơi mà không có giải thích.",
+          "fraction": 0
+        },
+        {
+          "text": "Nói rằng toán học không ứng dụng được vào thực tế bơi lội.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Để thực hiện thao tác tư duy và lập luận toán học giải thích vì sao đường vuông góc \\(AH\\) ngắn hơn đường xiên \\(AM\\) kẻ từ \\(A\\) đến \\(d\\): Xét tam giác \\(AHM\\) vuông tại \\(H\\), góc \\(AHM\\) là góc [[1]] nên là góc lớn nhất trong tam giác. Cạnh \\(AM\\) đối diện với góc \\(AHM\\) là cạnh [[2]] nên \\(AM > AH\\).",
+      "generalfeedback": "Tư duy và lập luận toán học dựa trên góc lớn nhất là góc vuông và cạnh đối diện góc vuông là cạnh huyền (cạnh lớn nhất).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "vuông"
+        },
+        {
+          "group": 1,
+          "text": "huyền"
+        },
+        {
+          "group": 1,
+          "text": "nhọn"
+        },
+        {
+          "group": 1,
+          "text": "góc"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "questiontext": "Một kĩ sư muốn thiết kế một con đường ngắn nhất kết nối một trang trại tại vị trí \\(A\\) ra con đường quốc lộ thẳng \\(d\\). Để giải quyết vấn đề toán học thực tế này, vị kĩ sư cần áp dụng kiến thức nào?",
+      "generalfeedback": "Để độ dài con đường là ngắn nhất (chi phí thấp nhất), kĩ sư cần vạch con đường theo đường vuông góc kẻ từ \\(A\\) đến đường quốc lộ \\(d\\).",
+      "answers": [
+        {
+          "text": "Vẽ đường thẳng đi qua \\(A\\) và vuông góc với đường quốc lộ \\(d\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Vẽ đường xiên bất kì nối \\(A\\) tới một điểm bất kì trên \\(d\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Vẽ con đường song song với quốc lộ \\(d\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Vẽ đường xiên có góc nghiêng \\(45^\\circ\\) so với \\(d\\).",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

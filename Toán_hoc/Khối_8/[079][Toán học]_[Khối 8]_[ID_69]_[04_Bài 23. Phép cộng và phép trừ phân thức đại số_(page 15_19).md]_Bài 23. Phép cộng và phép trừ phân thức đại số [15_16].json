@@ -1,0 +1,288 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 10,
+    "metadata_used": {
+      "Quy tắc cộng hai phân thức cùng mẫu": 3,
+      "Quy tắc cộng hai phân thức khác mẫu": 2,
+      "Tính chất giao hoán, kết hợp của phép cộng phân thức": 3,
+      "Thực hiện phép cộng hai phân thức cùng mẫu": 4,
+      "Thực hiện phép cộng hai phân thức khác mẫu bằng cách quy đồng": 4,
+      "YCCD_TOAN8_028": 4
+    },
+    "types_used": {
+      "multichoice": 4,
+      "gapselect": 1,
+      "truefalse": 1,
+      "calculatedsimple": 1,
+      "shortanswer": 1,
+      "ddwtos": 1,
+      "matching": 1
+    },
+    "total": 10
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "Quy tắc cộng hai phân thức cùng mẫu",
+        "reason": "Được đo lường qua các câu hỏi về quy tắc cộng hai phân thức cùng mẫu."
+      },
+      {
+        "metadata_code": "Quy tắc cộng hai phân thức khác mẫu",
+        "reason": "Được đo lường qua các câu hỏi về quy tắc cộng hai phân thức khác mẫu."
+      },
+      {
+        "metadata_code": "Tính chất giao hoán, kết hợp của phép cộng phân thức",
+        "reason": "Được đo lường qua các câu hỏi về tính chất giao hoán, kết hợp của phép cộng phân thức."
+      },
+      {
+        "metadata_code": "Thực hiện phép cộng hai phân thức cùng mẫu",
+        "reason": "Được đo lường qua các bài tập thực hành cộng hai phân thức cùng mẫu."
+      },
+      {
+        "metadata_code": "Thực hiện phép cộng hai phân thức khác mẫu bằng cách quy đồng",
+        "reason": "Được đo lường qua các bài tập thực hành cộng hai phân thức khác mẫu bằng cách quy đồng."
+      },
+      {
+        "metadata_code": "YCCD_TOAN8_028",
+        "reason": "Được đo lường qua các bài tập tổng hợp thực hiện phép cộng phân thức đại số."
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc cộng hai phân thức cùng mẫu",
+      "questiontext": "Muốn cộng hai phân thức có cùng mẫu thức, ta thực hiện như thế nào?",
+      "generalfeedback": "Muốn cộng hai phân thức có cùng mẫu thức, ta cộng các tử thức với nhau và giữ nguyên mẫu thức: \\(\\frac{A}{M} + \\frac{B}{M} = \\frac{A+B}{M}\\).",
+      "answers": [
+        {
+          "text": "Cộng các tử thức với nhau và giữ nguyên mẫu thức.",
+          "fraction": 100
+        },
+        {
+          "text": "Cộng các tử thức với nhau và cộng các mẫu thức với nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Nhân các tử thức với nhau và giữ nguyên mẫu thức.",
+          "fraction": 0
+        },
+        {
+          "text": "Quy đồng mẫu thức rồi cộng các tử thức.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc cộng hai phân thức cùng mẫu",
+      "questiontext": "Muốn cộng hai phân thức có cùng mẫu thức, ta cộng các [[1]] với nhau và [[2]] mẫu thức.",
+      "generalfeedback": "Theo quy tắc cộng hai phân thức cùng mẫu: Ta cộng các tử thức với nhau và giữ nguyên mẫu thức.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "tử thức"
+        },
+        {
+          "group": 1,
+          "text": "giữ nguyên"
+        },
+        {
+          "group": 1,
+          "text": "mẫu thức"
+        },
+        {
+          "group": 1,
+          "text": "cộng các"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc cộng hai phân thức cùng mẫu",
+      "questiontext": "Khẳng định sau đây Đúng hay Sai: \"Kết quả của phép cộng hai phân thức được gọi là tổng của hai phân thức đó và thường được viết dưới dạng rút gọn.\"",
+      "generalfeedback": "Khẳng định này đúng theo phần Chú ý trong SGK.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép cộng hai phân thức cùng mẫu",
+      "questiontext": "Kết quả của phép cộng \\(\\frac{3x+1}{xy} + \\frac{2x-1}{xy}\\) là:",
+      "generalfeedback": "Ta có: \\(\\frac{3x+1}{xy} + \\frac{2x-1}{xy} = \\frac{(3x+1) + (2x-1)}{xy} = \\frac{5x}{xy} = \\frac{5}{y}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{5}{y}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{5x}{y}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{5x+2}{xy}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{1}{y}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép cộng hai phân thức cùng mẫu",
+      "questiontext": "Cho tử thức của phân thức thứ nhất là {a}x và tử thức của phân thức thứ hai là 3x (cả hai phân thức có cùng mẫu thức x + 1). Tính hệ số của x trong tử thức của tổng hai phân thức đó.",
+      "generalfeedback": "Tổng hai tử thức là {a}x + 3x = ({a} + 3)x. Do đó hệ số của x là {a} + 3.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}+3",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép cộng hai phân thức cùng mẫu",
+      "questiontext": "Rút gọn kết quả phép tính \\(\\frac{3x}{x^2+1} + \\frac{-3x+1}{x^2+1}\\).",
+      "generalfeedback": "Ta có: \\(\\frac{3x + (-3x+1)}{x^2+1} = \\frac{1}{x^2+1}\\).",
+      "answers": [
+        {
+          "text": "\\(1/(x^2+1)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(1/(x^2-1)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2/(x^2+1)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(1/(x^2+1) - 1\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc cộng hai phân thức khác mẫu",
+      "questiontext": "Muốn cộng hai phân thức có mẫu thức khác nhau, bước đầu tiên ta cần làm là gì?",
+      "generalfeedback": "Muốn cộng hai phân thức có mẫu thức khác nhau, ta quy đồng mẫu thức rồi cộng các phân thức có cùng mẫu thức vừa tìm được.",
+      "answers": [
+        {
+          "text": "Quy đồng mẫu thức hai phân thức",
+          "fraction": 100
+        },
+        {
+          "text": "Cộng hai tử thức với nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Rút gọn hai phân thức",
+          "fraction": 0
+        },
+        {
+          "text": "Cộng hai mẫu thức với nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc cộng hai phân thức khác mẫu",
+      "questiontext": "Muốn cộng hai phân thức có mẫu thức khác nhau, ta [[1]] mẫu thức rồi cộng các phân thức có [[2]] mẫu thức vừa tìm được.",
+      "generalfeedback": "Theo quy tắc cộng hai phân thức khác mẫu: quy đồng mẫu thức rồi cộng các phân thức có cùng mẫu thức vừa tìm được.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "quy đồng"
+        },
+        {
+          "group": 1,
+          "text": "cùng"
+        },
+        {
+          "group": 1,
+          "text": "khác"
+        },
+        {
+          "group": 1,
+          "text": "rút gọn"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện phép cộng hai phân thức khác mẫu bằng cách quy đồng",
+      "questiontext": "Kết quả của phép tính \\(\\frac{5}{x} + \\frac{3}{1-x}\\) là:",
+      "generalfeedback": "Quy đồng với mẫu thức chung \\(x(1-x)\\): \\(\\frac{5(1-x)}{x(1-x)} + \\frac{3x}{x(1-x)} = \\frac{5 - 5x + 3x}{x(1-x)} = \\frac{5-2x}{x(1-x)}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{5-2x}{x(1-x)}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{8}{x(1-x)}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{5+2x}{x(1-x)}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{8}{1-x}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép cộng hai phân thức khác mẫu bằng cách quy đồng",
+      "questiontext": "Ghép mỗi phép cộng phân thức với mẫu thức chung phù hợp:",
+      "generalfeedback": "Xác định mẫu thức chung của từng cặp phân thức bằng cách tìm bội chung nhỏ nhất của các mẫu thức.",
+      "subquestions": [
+        {
+          "question": "\\(\\frac{1}{x} + \\frac{2}{y}\\)",
+          "answer": "\\(xy\\)"
+        },
+        {
+          "question": "\\(\\frac{1}{2x} + \\frac{1}{3x^2}\\)",
+          "answer": "\\(6x^2\\)"
+        },
+        {
+          "question": "\\(\\frac{1}{x-1} + \\frac{1}{x+1}\\)",
+          "answer": "\\((x-1)(x+1)\\)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,454 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 16,
+    "metadata_used": {
+      "Trường hợp bằng nhau thứ nhất của tam giác: Cạnh - Cạnh - Cạnh (c.c.c)": 6,
+      "YCCD_TOAN7_089": 7,
+      "Chứng minh hai tam giác bằng nhau theo trường hợp c.c.c": 5,
+      "Trình bày lời giải chứng minh hai tam giác bằng nhau": 2,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_TUCHUTUHOC": 1,
+      "NLC_GIAOTIEP": 1,
+      "NLT_TOAN_C2_01": 1,
+      "NLT_TOAN_C2_04": 1
+    },
+    "types_used": {
+      "multichoice": 8,
+      "truefalse": 2,
+      "gapselect": 1,
+      "numerical": 1,
+      "shortanswer": 1,
+      "matching": 1,
+      "ddwtos": 1,
+      "calculated": 1
+    },
+    "total": 16
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "Trường hợp bằng nhau thứ nhất của tam giác: Cạnh - Cạnh - Cạnh (c.c.c)",
+        "reason": "Đo lường kiến thức nhận biết định lý và ký hiệu trường hợp bằng nhau c.c.c"
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_089",
+        "reason": "Đo lường khả năng giải thích và tính toán dựa trên các trường hợp bằng nhau của hai tam giác"
+      },
+      {
+        "metadata_code": "Chứng minh hai tam giác bằng nhau theo trường hợp c.c.c",
+        "reason": "Đo lường kỹ năng xác định điều kiện và chứng minh hai tam giác bằng nhau theo c.c.c"
+      },
+      {
+        "metadata_code": "Trình bày lời giải chứng minh hai tam giác bằng nhau",
+        "reason": "Đo lường kỹ năng trình bày hoàn chỉnh lời giải chứng minh hai tam giác bằng nhau"
+      },
+      {
+        "metadata_code": "PC_CHAMCHI",
+        "reason": "Đo lường biểu hiện phẩm chất chăm chỉ trong quá trình giải bài toán hình học"
+      },
+      {
+        "metadata_code": "PC_TRUNGTHUC",
+        "reason": "Đo lường ý thức trung thực trong trình bày dữ kiện và chứng minh toán học"
+      },
+      {
+        "metadata_code": "NLC_TUCHUTUHOC",
+        "reason": "Đo lường phương pháp tự học và tự chủ trong ghi nhớ, luyện tập kiến thức c.c.c"
+      },
+      {
+        "metadata_code": "NLC_GIAOTIEP",
+        "reason": "Đo lường kỹ năng giao tiếp và hợp tác khi thảo luận, góp ý bài làm nhóm"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01",
+        "reason": "Đo lường năng lực tư duy và lập luận toán học trong phát hiện thiếu sót chứng minh"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_04",
+        "reason": "Đo lường năng lực giao tiếp toán học qua biểu diễn suy luận bằng ký hiệu chính xác"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Nội dung bài học thuần lý thuyết và chứng minh hình học cổ điển, không thuộc danh mục METADATA_DICTIONARY và không liên quan trực tiếp đến ứng dụng công cụ số."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học không thuộc danh mục METADATA_DICTIONARY và không chứa ngữ cảnh tự nhiên để tích hợp đánh giá năng lực AI."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Trường hợp bằng nhau thứ nhất của tam giác: Cạnh - Cạnh - Cạnh (c.c.c)",
+      "questiontext": "Phát biểu nào sau đây là đúng về trường hợp bằng nhau cạnh - cạnh - cạnh (c.c.c) của hai tam giác?",
+      "generalfeedback": "Trường hợp bằng nhau thứ nhất của tam giác (cạnh - cạnh - cạnh): Nếu ba cạnh của tam giác này bằng ba cạnh của tam giác kia thì hai tam giác đó bằng nhau.",
+      "answers": [
+        {
+          "text": "Nếu ba cạnh của tam giác này bằng ba cạnh của tam giác kia thì hai tam giác đó bằng nhau.",
+          "fraction": 100
+        },
+        {
+          "text": "Nếu hai cạnh và một góc của tam giác này bằng hai cạnh và một góc của tam giác kia thì hai tam giác đó bằng nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Nếu một cạnh và hai góc của tam giác này bằng một cạnh và hai góc của tam giác kia thì hai tam giác đó bằng nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Nếu ba góc của tam giác này bằng ba góc của tam giác kia thì hai tam giác đó bằng nhau.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Trường hợp bằng nhau thứ nhất của tam giác: Cạnh - Cạnh - Cạnh (c.c.c)",
+      "questiontext": "Nếu \\(\\triangle ABC\\) và \\(\\triangle MNP\\) có \\(AB = MN\\), \\(BC = NP\\), \\(AC = MP\\) thì \\(\\triangle ABC = \\triangle MNP\\) (c.c.c). Khẳng định này đúng hay sai?",
+      "generalfeedback": "Hai tam giác có ba cặp cạnh tương ứng bằng nhau nên bằng nhau theo trường hợp cạnh - cạnh - cạnh (c.c.c).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_089",
+      "questiontext": "Cho \\(\\triangle ABC = \\triangle DEF\\) theo trường hợp cạnh - cạnh - cạnh. Khi đó, cạnh tương ứng với cạnh \\(AB\\) là cạnh [[1]], và góc tương ứng với \\(\\widehat{BAC}\\) là góc [[2]].",
+      "generalfeedback": "Vì \\(\\triangle ABC = \\triangle DEF\\) nên cạnh tương ứng với \\(AB\\) là \\(DE\\), và góc tương ứng với \\(\\widehat{BAC}\\) là \\(\\widehat{EDF}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(DE\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(EF\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\widehat{EDF}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\widehat{DEF}\\)"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_089",
+      "questiontext": "Cho \\(\\triangle ABC = \\triangle HIK\\). Biết \\(AB = 5\\text{ cm}\\), \\(BC = 7\\text{ cm}\\), \\(AC = 6\\text{ cm}\\). Tính độ dài cạnh \\(IK\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Vì \\(\\triangle ABC = \\triangle HIK\\) nên \\(IK = BC = 7\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "7",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Trường hợp bằng nhau thứ nhất của tam giác: Cạnh - Cạnh - Cạnh (c.c.c)",
+      "questiontext": "Tên viết tắt của trường hợp bằng nhau thứ nhất của tam giác (cạnh - cạnh - cạnh) là gì?",
+      "generalfeedback": "Trường hợp bằng nhau cạnh - cạnh - cạnh được viết tắt là c.c.c.",
+      "answers": [
+        {
+          "text": "c.c.c",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh hai tam giác bằng nhau theo trường hợp c.c.c",
+      "questiontext": "Cho tam giác \\(ABC\\) và tam giác \\(MNP\\) có các cạnh bằng nhau. Hãy ghép mỗi kí hiệu tam giác bằng nhau ở cột bên trái với tập hợp yếu tố tương ứng đúng ở cột bên phải.",
+      "generalfeedback": "Khi viết hai tam giác bằng nhau, các đỉnh tương ứng phải được viết theo đúng thứ tự.",
+      "subquestions": [
+        {
+          "question": "\\(\\triangle ABC = \\triangle MNP\\)",
+          "answer": "\\(AB = MN, BC = NP, AC = MP\\)"
+        },
+        {
+          "question": "\\(\\triangle ABC = \\triangle NPM\\)",
+          "answer": "\\(AB = NP, BC = PM, AC = NM\\)"
+        },
+        {
+          "question": "\\(\\triangle ABC = \\triangle PMN\\)",
+          "answer": "\\(AB = PM, BC = MN, AC = PN\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh hai tam giác bằng nhau theo trường hợp c.c.c",
+      "questiontext": "Cho hai tam giác \\(ABC\\) và \\(DEF\\) có \\(AB = DE\\) và \\(AC = DF\\). Cần thêm điều kiện nào sau đây để \\(\\triangle ABC = \\triangle DEF\\) theo trường hợp c.c.c?",
+      "generalfeedback": "Để chứng minh hai tam giác bằng nhau theo trường hợp cạnh - cạnh - cạnh (c.c.c), ta cần 3 cặp cạnh tương ứng bằng nhau. Đã có 2 cặp cạnh \\(AB = DE\\) và \\(AC = DF\\), nên cần thêm cặp cạnh còn lại là \\(BC = EF\\).",
+      "answers": [
+        {
+          "text": "\\(BC = EF\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\widehat{A} = \\widehat{D}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\widehat{B} = \\widehat{E}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(BC = DE\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "Trình bày lời giải chứng minh hai tam giác bằng nhau",
+      "questiontext": "Điền các từ/cụm từ thích hợp vào chỗ trống để hoàn thành lời giải bài toán:\nCho đoạn thẳng \\(AB\\). Vẽ cung tròn tâm \\(A\\) bán kính \\(r\\) và cung tròn tâm \\(B\\) bán kính \\(r\\) cắt nhau tại \\(C\\) và \\(D\\). Chứng minh \\(\\triangle CAB = \\triangle DAB\\).\n*Lời giải:*\nXét \\(\\triangle CAB\\) và \\(\\triangle DAB\\) có:\n+ \\(AC = AD = r\\) (theo cách vẽ);\n+ \\(BC =\\) [[1]] (theo cách vẽ);\n+ \\(AB\\) là [[3]].\nSuy ra \\(\\triangle CAB = \\triangle DAB\\) ([[2]]).",
+      "generalfeedback": "Lời giải hoàn chỉnh sử dụng điều kiện c.c.c với cạnh chung \\(AB\\) và các bán kính bằng nhau \\(AC = AD = r\\), \\(BC = BD = r\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(BD = r\\)"
+        },
+        {
+          "group": 1,
+          "text": "cạnh chung"
+        },
+        {
+          "group": 1,
+          "text": "c.c.c"
+        },
+        {
+          "group": 1,
+          "text": "g.c.g"
+        },
+        {
+          "group": 1,
+          "text": "góc chung"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_089",
+      "questiontext": "Cho \\(\\triangle ABC = \\triangle MNP\\) (c.c.c). Biết chu vi tam giác \\(ABC\\) bằng {a} cm, độ dài hai cạnh \\(AB = {b}\\text{ cm}\\), \\(BC = {c}\\text{ cm}\\). Tính độ dài cạnh \\(MP\\) của tam giác \\(MNP\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Độ dài cạnh \\(AC = {a} - {b} - {c}\\). Vì \\(\\triangle ABC = \\triangle MNP\\) nên \\(MP = AC = {a} - {b} - {c}\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 18.0,
+          "max": 30.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 4.0,
+          "max": 7.0,
+          "decimals": 0
+        },
+        {
+          "name": "c",
+          "min": 6.0,
+          "max": 9.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}-{b}-{c}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Chứng minh hai tam giác bằng nhau theo trường hợp c.c.c",
+      "questiontext": "Cho tam giác \\(ABC\\) có \\(AB = AC\\). Gọi \\(M\\) là trung điểm của \\(BC\\). Khẳng định nào sau đây là đúng?",
+      "generalfeedback": "Xét \\(\\triangle ABM\\) và \\(\\triangle ACM\\): \\(AB = AC\\) (giải thiết), \\(MB = MC\\) (vì \\(M\\) là trung điểm \\(BC\\)), \\(AM\\) là cạnh chung. Do đó \\(\\triangle ABM = \\triangle ACM\\) (c.c.c).",
+      "answers": [
+        {
+          "text": "\\(\\triangle ABM = \\triangle ACM\\) (c.c.c)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\triangle ABM = \\triangle CAM\\) (c.c.c)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\triangle AMB = \\triangle AMC\\) (g.c.g)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\triangle ABC = \\triangle MBC\\) (c.c.c)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Trong giờ học Toán, khi làm bài tập chứng minh hai tam giác bằng nhau theo trường hợp cạnh - cạnh - cạnh (c.c.c), bạn Nam gặp một bài toán khó. Bạn Nam đã kiên trì đo đạc lại các cạnh, vẽ hình cẩn thận và kiểm tra đủ 3 điều kiện cạnh bằng nhau trước khi viết lời giải. Hành vi của bạn Nam thể hiện phẩm chất nào sau đây?",
+      "generalfeedback": "Kiên trì vượt qua khó khăn và cẩn thận trong học tập là biểu hiện của phẩm chất Chăm chỉ (Q1).",
+      "answers": [
+        {
+          "text": "Chăm chỉ",
+          "fraction": 100
+        },
+        {
+          "text": "Tiết kiệm",
+          "fraction": 0
+        },
+        {
+          "text": "Yêu nước",
+          "fraction": 0
+        },
+        {
+          "text": "Dũng cảm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Khi trình trình bày lời giải chứng minh \\(\\triangle ABC = \\triangle DEF\\), dù giả thiết chưa cho \\(BC = EF\\), bạn An vẫn tự ý ghi \\(BC = EF\\) (giả thiết) để hoàn thành bài làm. Bạn An đã vi phạm phẩm chất Trung thực (Q2). Đánh giá này Đúng hay Sai?",
+      "generalfeedback": "Tự ý thêm bớt dữ kiện không có trong giả thiết để làm bài là không trung thực trong học tập. Do đó đánh giá này là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Để tự học và ghi nhớ trường hợp bằng nhau thứ nhất (c.c.c) của hai tam giác một cách hiệu quả tại nhà, học sinh nên thực hiện quy trình tự học nào sau đây?",
+      "generalfeedback": "Quy trình tự học chủ động và khoa học (G1) gồm: Đọc lý thuyết SGK -> Tóm tắt điều kiện c.c.c -> Tự vẽ hình minh họa -> Tự làm bài tập luyện tập.",
+      "answers": [
+        {
+          "text": "Đọc lại định lý trong SGK, tóm tắt các điều kiện c.c.c, tự vẽ hình minh họa và áp dụng làm các bài tập luyện tập.",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ chép lại lời giải bài tập từ sách giải mà không cần đọc lại định lý trong SGK.",
+          "fraction": 0
+        },
+        {
+          "text": "Học thuộc lòng định lý nhưng không cần luyện tập vẽ hình hay làm bài tập.",
+          "fraction": 0
+        },
+        {
+          "text": "Đợi đến khi thầy cô chữa bài trên lớp mới chép vào vở.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_GIAOTIEP",
+      "questiontext": "Trong hoạt động thảo luận nhóm về bài toán chứng minh hai tam giác bằng nhau, bạn Bình nhận thấy bạn Hòa viết sai thứ tự các đỉnh tương ứng (viết \\(\\triangle ABC = \\triangle DFE\\) thay vì \\(\\triangle ABC = \\triangle DEF\\)). Để thể hiện năng lực giao tiếp và hợp tác (G2) tích cực, bạn Bình nên làm gì?",
+      "generalfeedback": "Giao tiếp hợp tác lịch sự và có căn cứ (G2): Lịch sự chỉ ra điểm chưa đúng dựa trên các cặp cạnh/đỉnh tương ứng và cùng thảo luận để sửa.",
+      "answers": [
+        {
+          "text": "Lịch sự chỉ ra các cặp cạnh tương ứng bằng nhau để bạn Hòa nhận ra và cùng sửa lại đúng thứ tự đỉnh.",
+          "fraction": 100
+        },
+        {
+          "text": "Chê bai bạn Hòa không biết làm bài và bỏ không thảo luận cùng nhóm nữa.",
+          "fraction": 0
+        },
+        {
+          "text": "Im lặng không nói gì vì sợ ảnh hưởng đến tình bạn.",
+          "fraction": 0
+        },
+        {
+          "text": "Báo ngay với giáo viên rằng bạn Hòa cố tình làm sai bài của nhóm.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Cho bài toán: \"Cho \\(\\triangle ABC\\) và \\(\\triangle ABD\\) có \\(AC = AD\\) và \\(BC = BD\\). Chứng minh \\(\\triangle ABC = \\triangle ABD\\)\". Học sinh A lập luận: \"Có \\(AC = AD\\), \\(BC = BD\\) nên \\(\\triangle ABC = \\triangle ABD\\)\". Thao tác tư duy và lập luận toán học (D1) cho thấy lời giải của học sinh A còn thiếu căn cứ nào?",
+      "generalfeedback": "Để chứng minh hai tam giác bằng nhau theo c.c.c cần đủ 3 cặp cạnh bằng nhau. Lập luận của học sinh A mới chỉ chỉ ra 2 cặp cạnh và còn thiếu yếu tố cạnh chung \\(AB = AB\\).",
+      "answers": [
+        {
+          "text": "Thiếu chỉ ra cạnh chung \\(AB = AB\\) để đủ 3 điều kiện cạnh bằng nhau (c.c.c).",
+          "fraction": 100
+        },
+        {
+          "text": "Thiếu điều kiện hai góc bằng nhau \\(\\widehat{C} = \\widehat{D}\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Thiếu điều kiện chu vi hai tam giác bằng nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Lời giải đã hoàn toàn đầy đủ và chính xác.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_04",
+      "questiontext": "Để diễn đạt suy luận toán học (D2) từ giả thiết: \"Đoạn thẳng \\(AB\\) song song và bằng đoạn thẳng \\(CD\\), gọi \\(O\\) là giao điểm của \\(AC\\) và \\(BD\\)\", câu nào dưới đây diễn đạt chính xác nhất các cặp cạnh bằng nhau khi xét hai tam giác \\(AOB\\) và \\(COD\\)?",
+      "generalfeedback": "Năng lực giao tiếp toán học (D2) đòi hỏi sử dụng ngôn ngữ ký hiệu chính xác, biểu diễn đúng giả thiết cho \\(AB = CD\\).",
+      "answers": [
+        {
+          "text": "Cặp cạnh tương ứng bằng nhau theo giả thiết là \\(AB = CD\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Cặp cạnh tương ứng bằng nhau theo giả thiết là \\(OA = OB\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Cặp cạnh tương ứng bằng nhau theo giả thiết là \\(AC = BD\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Cặp cạnh tương ứng bằng nhau theo giả thiết là \\(AD = BC\\).",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

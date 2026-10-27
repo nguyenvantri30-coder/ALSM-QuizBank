@@ -1,0 +1,526 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 20,
+    "metadata_used": {
+      "Định lí: Nếu một đường thẳng cắt hai cạnh của một tam giác và song song với cạnh còn lại thì nó tạo thành một tam giác mới đồng dạng với tam giác đã cho": 5,
+      "Áp dụng định lí tạo tam giác đồng dạng bằng đường thẳng song song": 4,
+      "Chứng minh hai tam giác đồng dạng": 4,
+      "Tính độ dài các đoạn thẳng dựa vào tam giác đồng dạng": 4,
+      "YCCD_TOAN8_088": 3,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_TCTH_TUHOC_C2_04": 2,
+      "NLT_TOAN_C2_01_05": 2,
+      "NLT_TOAN_C2_03_05": 2
+    },
+    "types_used": {
+      "multichoice": 6,
+      "truefalse": 3,
+      "gapselect": 2,
+      "calculated": 1,
+      "matching": 2,
+      "shortanswer": 1,
+      "ddwtos": 2,
+      "numerical": 2,
+      "calculatedsimple": 1
+    },
+    "total": 20
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN8_088",
+        "reason": "Đo lường việc giải thích các trường hợp đồng dạng của hai tam giác"
+      },
+      {
+        "metadata_code": "Định lí: Nếu một đường thẳng cắt hai cạnh của một tam giác và song song với cạnh còn lại thì nó tạo thành một tam giác mới đồng dạng với tam giác đã cho",
+        "reason": "Đo lường việc hiểu và phát biểu định lý về hai tam giác đồng dạng"
+      },
+      {
+        "metadata_code": "Áp dụng định lí tạo tam giác đồng dạng bằng đường thẳng song song",
+        "reason": "Đo lường áp dụng định lý tạo tam giác đồng dạng bằng đường thẳng song song"
+      },
+      {
+        "metadata_code": "Chứng minh hai tam giác đồng dạng",
+        "reason": "Đo lường chứng minh hai tam giác đồng dạng"
+      },
+      {
+        "metadata_code": "Tính độ dài các đoạn thẳng dựa vào tam giác đồng dạng",
+        "reason": "Đo lường tính độ dài các đoạn thẳng dựa vào tam giác đồng dạng"
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đo lường thái độ kiên trì, cố gắng vươn lên trong học tập"
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+        "reason": "Đo lường kỹ năng tóm tắt, sơ đồ hóa thông tin chọn lọc"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_05",
+        "reason": "Đo lường khả năng lập luận hợp lý giải quyết vấn đề"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_05",
+        "reason": "Đo lường việc sử dụng kỹ năng toán học tương thích"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Nội dung bài học về định lý hai tam giác đồng dạng thuần lý thuyết và hình học truyền thống, không cung cấp dữ liệu số hay công cụ phần mềm để đo lường tự nhiên năng lực tin học/số"
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học không đề cập đến nguyên lý hay ứng dụng trí tuệ nhân tạo, không đủ cơ sở để thiết kế câu hỏi đo lường năng lực AI một cách tự nhiên"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Định lí: Nếu một đường thẳng cắt hai cạnh của một tam giác và song song với cạnh còn lại thì nó tạo thành một tam giác mới đồng dạng với tam giác đã cho",
+      "questiontext": "Cho \\(\\triangle ABC\\). Nếu một đường thẳng \\(d\\) cắt hai cạnh \\(AB\\), \\(AC\\) lần lượt tại \\(M\\) và \\(N\\) sao cho \\(MN // BC\\) thì phát biểu nào sau đây đúng?",
+      "generalfeedback": "Theo định lí về hai tam giác đồng dạng: Nếu một đường thẳng cắt hai cạnh của một tam giác và song song với cạnh còn lại thì nó tạo thành một tam giác mới đồng dạng với tam giác đã cho. Do đó \\(\\triangle AMN \\sim \\triangle ABC\\).",
+      "answers": [
+        {
+          "text": "\\(\\triangle AMN \\sim \\triangle ABC\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\triangle AMN \\sim \\triangle ACB\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\triangle AMN = \\triangle ABC\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\triangle ABC \\sim \\triangle ANM\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Định lí: Nếu một đường thẳng cắt hai cạnh của một tam giác và song song với cạnh còn lại thì nó tạo thành một tam giác mới đồng dạng với tam giác đã cho",
+      "questiontext": "Định lí về hai tam giác đồng dạng tạo bởi đường thẳng song song chỉ đúng khi đường thẳng cắt hai cạnh của tam giác, không đúng khi đường thẳng cắt phần kéo dài của hai cạnh.",
+      "generalfeedback": "Phát biểu trên là Sai. Chú ý của định lí nêu rõ: Định lí vẫn đúng nếu thay bằng đường thẳng cắt phần kéo dài của hai cạnh tam giác.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Áp dụng định lí tạo tam giác đồng dạng bằng đường thẳng song song",
+      "imgs": [
+        "_page_3_Picture_5.jpeg"
+      ],
+      "questiontext": "Cho hình vẽ [img:_page_3_Picture_5.jpeg] có \\(\\triangle ABC\\) và đường thẳng \\(MN // BC\\) với \\(M \\in AB, N \\in AC\\). Khi đó, tam giác \\(AMN\\) đồng dạng với tam giác [[1]] theo tỉ số đồng dạng \\(k = \\) [[2]].",
+      "generalfeedback": "Do \\(MN // BC\\) nên \\(\\triangle AMN \\sim \\triangle ABC\\). Tỉ số đồng dạng bằng tỉ số các cạnh tương ứng \\(\\frac{AM}{AB}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(ABC\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(ACB\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{AM}{AB}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{AB}{AM}\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh hai tam giác đồng dạng",
+      "imgs": [
+        "_page_4_Picture_2.jpeg"
+      ],
+      "questiontext": "Cho hình vẽ [img:_page_4_Picture_2.jpeg] với các đường thẳng \\(AB, CD, EF\\) đôi một song song với nhau. Cặp tam giác nào sau đây đồng dạng với nhau?",
+      "generalfeedback": "Vì \\(AB // CD\\) và \\(CD // EF\\) nên các đường thẳng song song cắt các cạnh tạo ra các tam giác đồng dạng, cụ thể \\(\\triangle OAB \\sim \\triangle OCD\\).",
+      "answers": [
+        {
+          "text": "\\(\\triangle OAB \\sim \\triangle OCD\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\triangle OAB \\sim \\triangle ODC\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\triangle OAB = \\triangle OCD\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\triangle CAB \\sim \\triangle CFE\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Tính độ dài các đoạn thẳng dựa vào tam giác đồng dạng",
+      "questiontext": "Cho \\(\\triangle ABC\\) có \\(BC = 15\\) cm. Đường thẳng \\(MN // BC\\) (với \\(M \\in AB, N \\in AC\\)) cắt \\(AB\\) tại \\(M\\) sao cho AM = {a} cm và AB = {b} cm (với {a} < {b}). Tính độ dài đoạn thẳng \\(MN\\) theo cm. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Vì \\(MN // BC\\) nên \\(\\triangle AMN \\sim \\triangle ABC\\). Ta có tỉ số đồng dạng: \\(\\frac{MN}{BC} = \\frac{AM}{AB}\\) hay \\(MN = \\frac{AM \\cdot BC}{AB} = \\frac{{a} \\cdot 15}{{b}}\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 6.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 8.0,
+          "max": 12.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*15/{b}",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_088",
+      "questiontext": "Ghép mỗi giả thiết / kết luận ở cột trái với nội dung tương ứng ở cột phải để hoàn thành giải thích về hai tam giác đồng dạng:",
+      "generalfeedback": "Hiểu đúng định nghĩa và định lí về hai tam giác đồng dạng giúp giải thích chính xác các mối quan hệ giữa hai tam giác.",
+      "subquestions": [
+        {
+          "question": "Nếu \\(MN // BC\\) (với \\(M \\in AB, N \\in AC\\)) thì",
+          "answer": "\\(\\triangle AMN \\sim \\triangle ABC\\)"
+        },
+        {
+          "question": "Nếu \\(\\triangle A'B'C' \\sim \\triangle ABC\\) với tỉ số \\(k\\) thì \\(\\triangle ABC \\sim \\triangle A'B'C'\\) với tỉ số",
+          "answer": "\\(\\frac{1}{k}\\)"
+        },
+        {
+          "question": "Hai tam giác bằng nhau thì đồng dạng với nhau theo tỉ số",
+          "answer": "1"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Tính độ dài các đoạn thẳng dựa vào tam giác đồng dạng",
+      "questiontext": "Bác Dương cắm một chiếc cọc gỗ \\(CD = 1\\) m thẳng đứng trên mặt đất. Bóng của cọc gỗ do ánh đèn điện đỉnh \\(A\\) tạo ra là \\(EC = 0.8\\) m và khoảng cách từ điểm \\(E\\) đến chân cột đèn \\(B\\) là \\(EB = 4\\) m. Chiều cao \\(AB\\) của cột đèn bằng bao nhiêu mét? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Vì cọc gỗ \\(CD\\) và cột đèn \\(AB\\) đều thẳng đứng nên \\(CD // AB\\), suy ra \\(\\triangle ECD \\sim \\triangle EBA\\). Tỉ số đồng dạng: \\(\\frac{CD}{AB} = \\frac{EC}{EB} \\Rightarrow \\frac{1}{AB} = \\frac{0.8}{4} = 0.2 \\Rightarrow AB = 5\\) m.",
+      "answers": [
+        {
+          "text": "5",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Định lí: Nếu một đường thẳng cắt hai cạnh của một tam giác và song song với cạnh còn lại thì nó tạo thành một tam giác mới đồng dạng với tam giác đã cho",
+      "questiontext": "Kéo thả từ thích hợp vào chỗ trống để hoàn thành phát biểu định lí: 'Nếu một đường thẳng cắt hai cạnh của một tam giác và [[1]] với cạnh còn lại thì nó tạo thành một tam giác mới [[2]] với tam giác đã cho.'",
+      "generalfeedback": "Định lí khẳng định: Nếu một đường thẳng cắt hai cạnh của một tam giác và song song với cạnh còn lại thì nó tạo thành một tam giác mới đồng dạng với tam giác đã cho.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "song song"
+        },
+        {
+          "group": 1,
+          "text": "đồng dạng"
+        },
+        {
+          "group": 1,
+          "text": "vuông góc"
+        },
+        {
+          "group": 1,
+          "text": "bằng nhau"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Áp dụng định lí tạo tam giác đồng dạng bằng đường thẳng song song",
+      "questiontext": "Cho tam giác \\(ABC\\). Gọi \\(M, N\\) lần lượt là trung điểm của \\(AB\\) và \\(AC\\). Khi đó \\(\\triangle AMN \\sim \\triangle ABC\\) với tỉ số đồng dạng \\(k = \\frac{1}{2}\\).",
+      "generalfeedback": "Đúng. Vì \\(M, N\\) là trung điểm của \\(AB, AC\\) nên \\(MN\\) là đường trung bình của \\(\\triangle ABC\\), suy ra \\(MN // BC\\). Theo định lí, \\(\\triangle AMN \\sim \\triangle ABC\\) với tỉ số \\(k = \\frac{AM}{AB} = \\frac{1}{2}\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính độ dài các đoạn thẳng dựa vào tam giác đồng dạng",
+      "questiontext": "Cho \\(\\triangle ABC\\) có \\(AB = 6\\) cm, \\(AC = 9\\) cm. Lấy điểm \\(M\\) trên cạnh \\(AB\\) sao cho \\(AM = 2\\) cm. Qua \\(M\\) kẻ đường thẳng song song với \\(BC\\) cắt \\(AC\\) tại \\(N\\). Tính độ dài đoạn thẳng \\(AN\\) theo cm. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Vì \\(MN // BC\\) nên \\(\\triangle AMN \\sim \\triangle ABC\\). Ta có tỉ số: \\(\\frac{AN}{AC} = \\frac{AM}{AB} \\Rightarrow \\frac{AN}{9} = \\frac{2}{6} = \\frac{1}{3} \\Rightarrow AN = 3\\) cm.",
+      "answers": [
+        {
+          "text": "3",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_088",
+      "questiontext": "Nếu \\(\\triangle A'B'C' \\sim \\triangle ABC\\) với tỉ số đồng dạng \\(k = 2\\) thì \\(\\triangle ABC \\sim \\triangle A'B'C'\\) với tỉ số đồng dạng bằng bao nhiêu?",
+      "generalfeedback": "Nếu \\(\\triangle A'B'C' \\sim \\triangle ABC\\) với tỉ số đồng dạng \\(k\\) thì \\(\\triangle ABC \\sim \\triangle A'B'C'\\) với tỉ số đồng dạng \\(\\frac{1}{k}\\). Do đó tỉ số là \\(\\frac{1}{2}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{1}{2}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "2",
+          "fraction": 0
+        },
+        {
+          "text": "-2",
+          "fraction": 0
+        },
+        {
+          "text": "4",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Định lí: Nếu một đường thẳng cắt hai cạnh của một tam giác và song song với cạnh còn lại thì nó tạo thành một tam giác mới đồng dạng với tam giác đã cho",
+      "questiontext": "Hai tam giác bằng nhau thì luôn đồng dạng với nhau theo tỉ số đồng dạng \\(k = 1\\).",
+      "generalfeedback": "Đúng. Theo tính chất của hai tam giác đồng dạng, hai tam giác bằng nhau có các góc bằng nhau và các cạnh tương ứng bằng nhau nên đồng dạng với tỉ số \\(k = 1\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Định lí: Nếu một đường thẳng cắt hai cạnh của một tam giác và song song với cạnh còn lại thì nó tạo thành một tam giác mới đồng dạng với tam giác đã cho",
+      "questiontext": "Nếu \\(\\triangle A''B''C'' \\sim \\triangle A'B'C'\\) với tỉ số đồng dạng \\(k\\) và \\(\\triangle A'B'C' \\sim \\triangle ABC\\) với tỉ số đồng dạng \\(m\\) thì \\(\\triangle A''B''C'' \\sim \\triangle ABC\\) với tỉ số đồng dạng [[1]] và có tính chất [[2]].",
+      "generalfeedback": "Theo tính chất bắc cầu của hai tam giác đồng dạng, \\(\\triangle A''B''C'' \\sim \\triangle ABC\\) với tỉ số đồng dạng \\(k \\cdot m\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(k \\cdot m\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(k + m\\)"
+        },
+        {
+          "group": 1,
+          "text": "bắc cầu"
+        },
+        {
+          "group": 1,
+          "text": "đối xứng"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh hai tam giác đồng dạng",
+      "imgs": [
+        "_page_4_Picture_18.jpeg"
+      ],
+      "questiontext": "Cho hình vẽ [img:_page_4_Picture_18.jpeg] có \\(\\triangle ABC\\) với \\(M, N, P\\) lần lượt là trung điểm của \\(BC, CA, AB\\). Tam giác \\(MNP\\) đồng dạng với tam giác \\(ABC\\) theo tỉ số đồng dạng bằng bao nhiêu?",
+      "generalfeedback": "Vì \\(M, N, P\\) là trung điểm ba cạnh nên \\(MN, NP, PM\\) là các đường trung bình của \\(\\triangle ABC\\), suy ra \\(MN = \\frac{1}{2}AB, NP = \\frac{1}{2}BC, PM = \\frac{1}{2}AC\\). Vậy \\(\\triangle MNP \\sim \\triangle ABC\\) với tỉ số \\(\\frac{1}{2}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{1}{2}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "2",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{1}{4}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "1",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Tính độ dài các đoạn thẳng dựa vào tam giác đồng dạng",
+      "questiontext": "Cho \\(\\triangle ABC\\) đồng dạng với \\(\\triangle MNP\\) theo tỉ số đồng dạng k = {k}. Cho biết chu vi tam giác \\(ABC\\) là 24 cm. Tính chu vi tam giác \\(MNP\\) theo cm. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Tỉ số chu vi của hai tam giác đồng dạng bằng tỉ số đồng dạng \\(k\\). Do đó Chu vi(\\(\\triangle ABC\\)) / Chu vi(\\(\\triangle MNP\\)) = \\(k \\Rightarrow\\) Chu vi(\\(\\triangle MNP\\)) = 24 / {k}.",
+      "wildcards": [
+        {
+          "name": "k",
+          "min": 2.0,
+          "max": 4.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "24/{k}",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh hai tam giác đồng dạng",
+      "questiontext": "Cho \\(\\triangle ABC\\) và điểm \\(M \\in AB, N \\in AC\\). Hãy ghép mối quan hệ ở cột bên trái với kết luận tương ứng ở cột bên phải:",
+      "generalfeedback": "Nắm vững định lí về tam giác đồng dạng tạo bởi đường thẳng song song giúp suy ra chính xác các cặp tam giác đồng dạng.",
+      "subquestions": [
+        {
+          "question": "Nếu \\(MN // BC\\) với \\(M \\in AB, N \\in AC\\)",
+          "answer": "\\(\\triangle AMN \\sim \\triangle ABC\\)"
+        },
+        {
+          "question": "Nếu \\(MN // BC\\) cắt phần kéo dài của \\(AB, AC\\) về phía \\(A\\)",
+          "answer": "\\(\\triangle AMN \\sim \\triangle ABC\\)"
+        },
+        {
+          "question": "Nếu \\(M, N\\) lần lượt là trung điểm của \\(AB, AC\\)",
+          "answer": "\\(\\triangle AMN \\sim \\triangle ABC\\) tỉ số 1/2"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Áp dụng định lí tạo tam giác đồng dạng bằng đường thẳng song song",
+      "imgs": [
+        "_page_3_Picture_7.jpeg"
+      ],
+      "questiontext": "Cho hình vẽ [img:_page_3_Picture_7.jpeg] có \\(ED // BC\\) cắt phần kéo dài của hai cạnh \\(AB, AC\\). Kéo thả các từ/ký hiệu thích hợp vào chỗ trống: Đường thẳng \\(ED // BC\\) tạo thành tam giác [[1]] đồng dạng với tam giác [[2]].",
+      "generalfeedback": "Theo chú ý của định lí: Định lí vẫn đúng khi đường thẳng cắt phần kéo dài hai cạnh của tam giác, ta được \\(\\triangle ADE \\sim \\triangle ABC\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(ADE\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(ABC\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(AED\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(ACB\\)"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính độ dài các đoạn thẳng dựa vào tam giác đồng dạng",
+      "questiontext": "Cho \\(\\triangle ABC\\) cân tại \\(A\\) có \\(AB = 10\\) cm, \\(BC = 12\\) cm. Đường thẳng song song với \\(BC\\) cắt \\(AB, AC\\) lần lượt tại \\(M, N\\) sao cho \\(AM = 5\\) cm. Tính độ dài đoạn thẳng \\(MN\\) theo cm. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Vì \\(MN // BC\\) nên \\(\\triangle AMN \\sim \\triangle ABC\\). Ta có \\(\\frac{MN}{BC} = \\frac{AM}{AB} \\Rightarrow \\frac{MN}{12} = \\frac{5}{10} = 0.5 \\Rightarrow MN = 6\\) cm.",
+      "answers": [
+        {
+          "text": "6",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_088",
+      "questiontext": "Cho hai tam giác \\(\\triangle ABC\\) và \\(\\triangle A'B'C'\\). Điều kiện nào sau đây KHÔNG đủ để kết luận \\(\\triangle A'B'C' \\sim \\triangle ABC\\)?",
+      "generalfeedback": "Để hai tam giác đồng dạng theo định nghĩa, các góc tương ứng phải bằng nhau VÀ các cạnh tương ứng phải tỉ lệ. Nếu các góc tương ứng bằng nhau nhưng các cạnh tương ứng không tỉ lệ thì hai tam giác không đồng dạng.",
+      "answers": [
+        {
+          "text": "Các góc tương ứng bằng nhau và các cạnh tương ứng bằng nhau nhưng không tỉ lệ",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{A'B'}{AB} = \\frac{B'C'}{BC} = \\frac{A'C'}{AC}\\) và \\(\\widehat{A'} = \\widehat{A}, \\widehat{B'} = \\widehat{B}, \\widehat{C'} = \\widehat{C}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\triangle A'B'C' = \\triangle ABC\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Có đường thẳng song song với một cạnh của \\(\\triangle ABC\\) cắt hai cạnh còn lại tạo thành \\(\\triangle A'B'C'\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh hai tam giác đồng dạng",
+      "questiontext": "Cho tam giác \\(ABC\\). Gọi \\(M, N\\) lần lượt là trung điểm của \\(AB, AC\\); \\(P, Q\\) lần lượt là trung điểm của \\(AM, AN\\). Có bao nhiêu cặp tam giác đồng dạng (phân biệt) được tạo thành từ các đỉnh trên?",
+      "generalfeedback": "Ta có \\(PQ // MN // BC\\). Do đó có 3 cặp tam giác đồng dạng phân biệt là: \\(\\triangle AMN \\sim \\triangle ABC\\), \\(\\triangle APQ \\sim \\triangle AMN\\) và \\(\\triangle APQ \\sim \\triangle ABC\\).",
+      "answers": [
+        {
+          "text": "3 cặp",
+          "fraction": 100
+        },
+        {
+          "text": "2 cặp",
+          "fraction": 0
+        },
+        {
+          "text": "1 cặp",
+          "fraction": 0
+        },
+        {
+          "text": "4 cặp",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

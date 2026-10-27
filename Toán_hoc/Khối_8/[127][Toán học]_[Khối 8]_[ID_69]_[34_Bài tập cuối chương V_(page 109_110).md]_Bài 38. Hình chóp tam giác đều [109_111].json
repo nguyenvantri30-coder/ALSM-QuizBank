@@ -1,0 +1,684 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 27,
+    "metadata_used": {
+      "Khái niệm Hình chóp tam giác đều": 1,
+      "Các yếu tố của hình chóp tam giác đều: đỉnh, mặt đáy (tam giác đều), các mặt bên (tam giác cân bằng nhau), cạnh bên, cạnh đáy, đường cao, chiều cao, trung đoạn": 6,
+      "Nhận biết hình chóp tam giác đều": 2,
+      "Chỉ ra các đỉnh, cạnh bên, mặt bên, mặt đáy và chiều cao của hình chóp tam giác đều": 4,
+      "YCCD_TOAN8_048": 3,
+      "YCCD_TOAN8_050": 2,
+      "Tạo lập hình chóp tam giác đều từ lưới gấp hình": 2,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_TCTH_TULUC_C2_01": 2,
+      "NLT_TOAN_C2_01_02": 2,
+      "NLT_TOAN_C2_05_01": 2
+    },
+    "types_used": {
+      "multichoice": 11,
+      "truefalse": 4,
+      "matching": 3,
+      "gapselect": 3,
+      "shortanswer": 2,
+      "ddwtos": 2,
+      "numerical": 2
+    }
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN8_048",
+        "reason": "Mô tả đỉnh, mặt đáy, mặt bên, cạnh bên của hình chóp tam giác đều"
+      },
+      {
+        "metadata_code": "YCCD_TOAN8_050",
+        "reason": "Tạo lập hình chóp tam giác đều"
+      },
+      {
+        "metadata_code": "Khái niệm Hình chóp tam giác đều",
+        "reason": "Nắm vững khái niệm hình chóp tam giác đều"
+      },
+      {
+        "metadata_code": "Các yếu tố của hình chóp tam giác đều: đỉnh, mặt đáy (tam giác đều), các mặt bên (tam giác cân bằng nhau), cạnh bên, cạnh đáy, đường cao, chiều cao, trung đoạn",
+        "reason": "Hiểu và phân biệt các yếu tố của hình chóp tam giác đều"
+      },
+      {
+        "metadata_code": "Nhận biết hình chóp tam giác đều",
+        "reason": "Nhận biết hình chóp tam giác đều trong các dạng hình"
+      },
+      {
+        "metadata_code": "Chỉ ra các đỉnh, cạnh bên, mặt bên, mặt đáy và chiều cao của hình chóp tam giác đều",
+        "reason": "Chỉ ra các đỉnh, cạnh bên, mặt bên, mặt đáy và chiều cao"
+      },
+      {
+        "metadata_code": "Tạo lập hình chóp tam giác đều từ lưới gấp hình",
+        "reason": "Tạo lập hình chóp tam giác đều từ lưới gấp hình"
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đánh giá thái độ kiên trì, cố gắng vươn lên trong thực hành toán học"
+      },
+      {
+        "metadata_code": "SUB_TCTH_TULUC_C2_01",
+        "reason": "Đánh giá tính chủ động, tích cực tự học và thực hiện nhiệm vụ"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_02",
+        "reason": "Đánh giá năng lực quan sát hình học không gian trong thực tế"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_05_01",
+        "reason": "Đánh giá năng lực nhận biết và sử dụng phương tiện, công cụ học toán"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN8_124",
+        "reason": "YCCĐ yêu cầu tìm kiếm hoặc thực hành tạo dựng các đoạn video về ứng dụng thực tế, không thể đo lường trực tiếp và tự nhiên bằng các dạng câu hỏi trắc nghiệm tự động chấm trên Moodle."
+      },
+      {
+        "metadata_code": "N1",
+        "reason": "Trong METADATA_DICTIONARY không khai báo mã Năng lực số (N) và nội dung Tiết 1 bài 38 thuần lý thuyết hình học không gian cơ bản, không gắn với công cụ tin học/phần mềm."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Trong METADATA_DICTIONARY không khai báo mã Năng lực AI (A) và nội dung Tiết 1 bài 38 không chứa yếu tố ứng dụng Trí tuệ nhân tạo."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm Hình chóp tam giác đều",
+      "questiontext": "Hình chóp tam giác đều là hình chóp có đặc điểm nào sau đây?",
+      "generalfeedback": "Hình chóp tam giác đều có mặt đáy là một tam giác đều và các mặt bên là các tam giác cân bằng nhau.",
+      "answers": [
+        {
+          "text": "Mặt đáy là tam giác đều và các mặt bên là các tam giác cân bằng nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Mặt đáy là tam giác vuông và các mặt bên là các tam giác đều",
+          "fraction": 0
+        },
+        {
+          "text": "Mặt đáy là tam giác cân và các mặt bên là các tam giác vuông bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Mặt đáy là hình vuông và các mặt bên là các tam giác cân bằng nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Các yếu tố của hình chóp tam giác đều: đỉnh, mặt đáy (tam giác đều), các mặt bên (tam giác cân bằng nhau), cạnh bên, cạnh đáy, đường cao, chiều cao, trung đoạn",
+      "questiontext": "Trong một hình chóp tam giác đều, tất cả các cạnh bên luôn có độ dài bằng nhau.",
+      "generalfeedback": "Đúng. Các mặt bên của hình chóp tam giác đều là các tam giác cân bằng nhau có chung đỉnh, do đó các cạnh bên luôn bằng nhau.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết hình chóp tam giác đều",
+      "questiontext": "Cho hình chóp tam giác đều \\(S.ABC\\). Phát biểu nào sau đây là **SAI**?",
+      "generalfeedback": "Hình chóp tam giác đều \\(S.ABC\\) có mặt đáy \\(ABC\\) là tam giác đều, không phải tam giác vuông cân.",
+      "answers": [
+        {
+          "text": "Mặt đáy \\(ABC\\) là tam giác vuông cân",
+          "fraction": 100
+        },
+        {
+          "text": "Đỉnh của hình chóp là điểm \\(S\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Các cạnh bên \\(SA, SB, SC\\) có độ dài bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Các mặt bên \\(SAB, SBC, SCA\\) là các tam giác cân bằng nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Chỉ ra các đỉnh, cạnh bên, mặt bên, mặt đáy và chiều cao của hình chóp tam giác đều",
+      "questiontext": "Cho hình chóp tam giác đều \\(S.ABC\\) có đường cao \\(SH\\) (với \\(H\\) là tâm của mặt đáy \\(ABC\\)). Hãy ghép mỗi yếu tố ở cột trái với tên gọi tương ứng ở cột phải:",
+      "generalfeedback": "\\(S\\) là đỉnh, tam giác \\(ABC\\) là mặt đáy, tam giác \\(SBC\\) là mặt bên, đoạn thẳng \\(SA\\) là cạnh bên, đoạn thẳng \\(SH\\) là chiều cao.",
+      "subquestions": [
+        {
+          "question": "Điểm \\(S\\)",
+          "answer": "Đỉnh"
+        },
+        {
+          "question": "Tam giác \\(ABC\\)",
+          "answer": "Mặt đáy"
+        },
+        {
+          "question": "Tam giác \\(SBC\\)",
+          "answer": "Mặt bên"
+        },
+        {
+          "question": "Đoạn thẳng \\(SA\\)",
+          "answer": "Cạnh bên"
+        },
+        {
+          "question": "Đoạn thẳng \\(SH\\)",
+          "answer": "Chiều cao (đường cao)"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_048",
+      "questiontext": "Hình chóp tam giác đều có mặt đáy là một tam giác [[1]] và [[2]] mặt bên là các tam giác cân bằng nhau.",
+      "generalfeedback": "Hình chóp tam giác đều có đáy là tam giác đều và 3 mặt bên là các tam giác cân bằng nhau.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "đều"
+        },
+        {
+          "group": 1,
+          "text": "vuông"
+        },
+        {
+          "group": 1,
+          "text": "3"
+        },
+        {
+          "group": 1,
+          "text": "4"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Các yếu tố của hình chóp tam giác đều: đỉnh, mặt đáy (tam giác đều), các mặt bên (tam giác cân bằng nhau), cạnh bên, cạnh đáy, đường cao, chiều cao, trung đoạn",
+      "questiontext": "Đoạn thẳng nối đỉnh của hình chóp tam giác đều với tâm của mặt đáy được gọi là gì?",
+      "generalfeedback": "Đoạn thẳng nối từ đỉnh của hình chóp tam giác đều vuông góc với mặt đáy tại tâm đáy gọi là đường cao (hoặc chiều cao).",
+      "answers": [
+        {
+          "text": "đường cao",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Chỉ ra các đỉnh, cạnh bên, mặt bên, mặt đáy và chiều cao của hình chóp tam giác đều",
+      "questiontext": "Cho hình chóp tam giác đều \\(S.MNP\\). Đỉnh của hình chóp là [[1]], mặt đáy là tam giác [[2]], và các cạnh bên gồm [[3]].",
+      "generalfeedback": "Hình chóp tam giác đều \\(S.MNP\\) có đỉnh \\(S\\), mặt đáy là tam giác đều \\(MNP\\), các cạnh bên là \\(SM, SN, SP\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "S"
+        },
+        {
+          "group": 1,
+          "text": "MNP"
+        },
+        {
+          "group": 1,
+          "text": "SM, SN, SP"
+        },
+        {
+          "group": 1,
+          "text": "MN, NP, PM"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_050",
+      "questiontext": "Để tạo lập một hình chóp tam giác đều từ một tấm bìa cứng, ta cần cắt tấm bìa thành lưới hình gồm:",
+      "generalfeedback": "Lưới gấp hình chóp tam giác đều gồm 1 tam giác đều (đáy) và 3 tam giác cân bằng nhau (mặt bên) ghép xung quanh.",
+      "answers": [
+        {
+          "text": "Một tam giác đều và ba tam giác cân bằng nhau ghép xung quanh",
+          "fraction": 100
+        },
+        {
+          "text": "Một hình vuông và bốn tam giác cân bằng nhau ghép xung quanh",
+          "fraction": 0
+        },
+        {
+          "text": "Bốn tam giác vuông bằng nhau ghép lại",
+          "fraction": 0
+        },
+        {
+          "text": "Một tam giác cân và ba tam giác đều ghép xung quanh",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Tạo lập hình chóp tam giác đều từ lưới gấp hình",
+      "questiontext": "Khi gấp lưới hình gồm một tam giác đều và ba tam giác cân bằng nhau chung cạnh đáy, các đỉnh tự do của ba tam giác cân sẽ chụm lại tạo thành đỉnh của hình chóp tam giác đều.",
+      "generalfeedback": "Đúng. Ba đỉnh tự do của ba mặt bên tam giác cân sau khi gấp lên sẽ chụm lại tại một điểm, đó là đỉnh của hình chóp tam giác đều.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "nhan_biet",
+      "metadata_code": "Các yếu tố của hình chóp tam giác đều: đỉnh, mặt đáy (tam giác đều), các mặt bên (tam giác cân bằng nhau), cạnh bên, cạnh đáy, đường cao, chiều cao, trung đoạn",
+      "questiontext": "Một hình chóp tam giác đều có tất cả bao nhiêu cạnh (gồm cả cạnh đáy và cạnh bên)?",
+      "generalfeedback": "Hình chóp tam giác đều có 3 cạnh đáy và 3 cạnh bên, tổng cộng có 6 cạnh.",
+      "answers": [
+        {
+          "text": "6",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Các yếu tố của hình chóp tam giác đều: đỉnh, mặt đáy (tam giác đều), các mặt bên (tam giác cân bằng nhau), cạnh bên, cạnh đáy, đường cao, chiều cao, trung đoạn",
+      "questiontext": "Các mặt bên của hình chóp tam giác đều là những hình gì?",
+      "generalfeedback": "Các mặt bên của hình chóp tam giác đều là các tam giác cân bằng nhau.",
+      "answers": [
+        {
+          "text": "Các tam giác cân bằng nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Các tam giác đều bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Các tam giác vuông bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Các hình chữ nhật bằng nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết hình chóp tam giác đều",
+      "questiontext": "Khẳng định nào sau đây là **ĐÚNG** khi nói về hình chóp tam giác đều?",
+      "generalfeedback": "Hình chóp tam giác đều có đáy là tam giác đều và các mặt bên là tam giác cân.",
+      "answers": [
+        {
+          "text": "Đáy là tam giác đều và các mặt bên là tam giác cân",
+          "fraction": 100
+        },
+        {
+          "text": "Đáy là tam giác cân và các mặt bên là tam giác đều",
+          "fraction": 0
+        },
+        {
+          "text": "Đáy và các mặt bên đều là tam giác vuông",
+          "fraction": 0
+        },
+        {
+          "text": "Tất cả các mặt đều là hình vuông",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_048",
+      "questiontext": "Hình chóp tam giác đều có tất cả [[1]] đỉnh, [[2]] mặt bên và [[3]] cạnh đáy.",
+      "generalfeedback": "Hình chóp tam giác đều có 4 đỉnh, 3 mặt bên và 3 cạnh đáy.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "4"
+        },
+        {
+          "group": 1,
+          "text": "3"
+        },
+        {
+          "group": 1,
+          "text": "6"
+        },
+        {
+          "group": 1,
+          "text": "5"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Các yếu tố của hình chóp tam giác đều: đỉnh, mặt đáy (tam giác đều), các mặt bên (tam giác cân bằng nhau), cạnh bên, cạnh đáy, đường cao, chiều cao, trung đoạn",
+      "questiontext": "Mặt đáy của hình chóp tam giác đều là hình gì?",
+      "generalfeedback": "Mặt đáy của hình chóp tam giác đều là tam giác đều.",
+      "answers": [
+        {
+          "text": "tam giác đều",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Chỉ ra các đỉnh, cạnh bên, mặt bên, mặt đáy và chiều cao của hình chóp tam giác đều",
+      "questiontext": "Cho hình chóp tam giác đều \\(S.ABC\\). Biết độ dài cạnh bên \\(SA = 5\\) cm. Độ dài cạnh bên \\(SB\\) bằng bao nhiêu cm? (Chỉ điền số)",
+      "generalfeedback": "Các cạnh bên của hình chóp tam giác đều có độ dài bằng nhau nên \\(SB = SA = 5\\) cm.",
+      "answers": [
+        {
+          "text": "5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Tạo lập hình chóp tam giác đều từ lưới gấp hình",
+      "questiontext": "Cho một lưới hình gồm 1 tam giác đều có cạnh 4 cm và 3 tam giác cân bằng nhau có cạnh đáy 4 cm, cạnh bên 6 cm. Khi gấp lưới này thành hình chóp tam giác đều thì độ dài cạnh bên của hình chóp bằng bao nhiêu?",
+      "generalfeedback": "Cạnh bên của các tam giác cân chính là cạnh bên của hình chóp tam giác đều sau khi gấp, do đó có độ dài 6 cm.",
+      "answers": [
+        {
+          "text": "6 cm",
+          "fraction": 100
+        },
+        {
+          "text": "4 cm",
+          "fraction": 0
+        },
+        {
+          "text": "10 cm",
+          "fraction": 0
+        },
+        {
+          "text": "2 cm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_050",
+      "questiontext": "Để tạo lập hình chóp tam giác đều, ta vẽ tam giác đáy là tam giác [[1]], sau đó vẽ 3 mặt bên là các tam giác [[2]] bằng nhau.",
+      "generalfeedback": "Mặt đáy là tam giác đều, 3 mặt bên là các tam giác cân bằng nhau.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "đều"
+        },
+        {
+          "group": 1,
+          "text": "cân"
+        },
+        {
+          "group": 1,
+          "text": "vuông"
+        },
+        {
+          "group": 1,
+          "text": "nhọn"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Các yếu tố của hình chóp tam giác đều: đỉnh, mặt đáy (tam giác đều), các mặt bên (tam giác cân bằng nhau), cạnh bên, cạnh đáy, đường cao, chiều cao, trung đoạn",
+      "questiontext": "Nối các khái niệm ở cột trái với mô tả phù hợp ở cột phải đối với hình chóp tam giác đều \\(S.ABC\\) (với \\(H\\) là tâm của đáy \\(ABC\\)):",
+      "generalfeedback": "\\(AB\\) là cạnh đáy, \\(SA\\) là cạnh bên, \\(SH\\) là chiều cao.",
+      "subquestions": [
+        {
+          "question": "Cạnh đáy",
+          "answer": "Đoạn thẳng \\(AB\\)"
+        },
+        {
+          "question": "Cạnh bên",
+          "answer": "Đoạn thẳng \\(SA\\)"
+        },
+        {
+          "question": "Chiều cao",
+          "answer": "Đoạn thẳng \\(SH\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Chỉ ra các đỉnh, cạnh bên, mặt bên, mặt đáy và chiều cao của hình chóp tam giác đều",
+      "questiontext": "Trong hình chóp tam giác đều \\(S.ABC\\), đường cao của hình chóp là đoạn thẳng nối đỉnh \\(S\\) với điểm nào sau đây?",
+      "generalfeedback": "Đường cao của hình chóp tam giác đều nối đỉnh \\(S\\) vuông góc với mặt đáy tại tâm của tam giác đáy \\(ABC\\).",
+      "answers": [
+        {
+          "text": "Tâm của mặt đáy \\(ABC\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Trung điểm của cạnh đáy \\(AB\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Một đỉnh bất kỳ của mặt đáy \\(ABC\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Trực tâm của mặt bên \\(SAB\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_048",
+      "questiontext": "Hình chóp tam giác đều có tất cả 4 mặt, trong đó có 1 mặt đáy và 3 mặt bên.",
+      "generalfeedback": "Đúng. Hình chóp tam giác đều gồm 1 mặt đáy (tam giác đều) và 3 mặt bên (tam giác cân bằng nhau).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi thực hành gấp mô hình hình chóp tam giác đều, Nam nhận thấy các mặt bên sau khi gấp không chụm lại đúng đỉnh do vẽ sai kích thước cạnh bên. Thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập, Nam nên ứng xử như thế nào?",
+      "generalfeedback": "Thái độ kiên trì, tự kiểm tra sai sót về mặt kiến thức (độ dài các cạnh bên phải bằng nhau) và đo vẽ lại để hoàn thành mô hình thể hiện tinh thần cố gắng vươn lên trong học tập.",
+      "answers": [
+        {
+          "text": "Kiểm tra lại độ dài các cạnh bên, đo vẽ chính xác lại các tam giác cân và kiên trì thực hành gấp lại mô hình",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua không làm tiếp mô hình vì cho rằng bài tập hình học không gian quá khó",
+          "fraction": 0
+        },
+        {
+          "text": "Mượn mô hình của bạn khác để nộp cho thầy cô đối phó",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ vẽ hình trên giấy và không tiếp tục thực hành làm mô hình thực tế nữa",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TULUC_C2_01",
+      "questiontext": "Để chuẩn bị cho tiết học \"Hình chóp tam giác đều\", giáo viên giao nhiệm vụ về nhà: \"Tự tìm hiểu và chuẩn bị vật liệu để tạo lập mô hình hình chóp tam giác đều\". Hành động nào sau đây thể hiện tính chủ động, tích cực của học sinh?",
+      "generalfeedback": "Chủ động nghiên cứu nội dung bài học trong SGK, chuẩn bị đầy đủ dụng cụ và vẽ lưới gấp theo đúng cấu trúc hình chóp tam giác đều thể hiện tính tự giác, tích cực trong học tập.",
+      "answers": [
+        {
+          "text": "Chủ động đọc trước SGK, chuẩn bị bìa cứng, thước kẻ, kéo và vẽ lưới gấp gồm 1 tam giác đều và 3 tam giác cân bằng nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Đợi đến tiết học trên lớp để giáo viên hướng dẫn từng bước rồi mới bắt đầu tìm vật liệu",
+          "fraction": 0
+        },
+        {
+          "text": "Nhờ người thân làm giúp toàn bộ mô hình để mang đến lớp nộp",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ đọc qua tiêu đề bài học và không chuẩn bị dụng cụ vì cho rằng không cần thiết",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TULUC_C2_01",
+      "questiontext": "Bạn An lập kế hoạch tự học bài \"Hình chóp tam giác đều\". Hãy ghép mỗi hành động tự học ở cột trái với mục tiêu phát triển bản thân tương ứng ở cột phải:",
+      "generalfeedback": "Mỗi hành động tự học chủ động giúp học sinh đạt được các mục tiêu nhận thức và kỹ năng cụ thể trong bài học.",
+      "subquestions": [
+        {
+          "question": "Đọc SGK và tự ghi chép lại đặc điểm về đỉnh, mặt đáy, mặt bên, cạnh bên",
+          "answer": "Chủ động chiếm lĩnh kiến thức nền tảng về yếu tố của hình chóp tam giác đều"
+        },
+        {
+          "question": "Tự đo đạc, cắt bìa và gấp thành công mô hình hình chóp tam giác đều",
+          "answer": "Rèn luyện tính tự giác và kỹ năng thực hành tạo lập hình khối"
+        },
+        {
+          "question": "Quan sát các đồ vật trong thực tế (hộp quà, dải núi) và phân tích dạng hình chóp",
+          "answer": "Tích cực kết nối kiến thức toán học với thực tiễn cuộc sống"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_02",
+      "questiontext": "Quan sát một hộp quà lưu niệm có dạng hình chóp tam giác đều \\(S.ABC\\). Bằng năng lực quan sát hình học, khẳng định nào sau đây phản ánh đúng đặc điểm các mặt bên của hộp quà?",
+      "generalfeedback": "Qua quan sát hình chóp tam giác đều \\(S.ABC\\), các mặt bên \\(SAB, SBC, SCA\\) là 3 tam giác cân bằng nhau và có chung đỉnh \\(S\\).",
+      "answers": [
+        {
+          "text": "Gồm 3 mặt hình tam giác cân bằng nhau có chung đỉnh \\(S\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Gồm 3 mặt hình chữ nhật bằng nhau đặt thẳng đứng",
+          "fraction": 0
+        },
+        {
+          "text": "Gồm 4 mặt hình tam giác đều nằm trên cùng một mặt phẳng",
+          "fraction": 0
+        },
+        {
+          "text": "Gồm 3 mặt hình tam giác vuông có kích thước hoàn toàn khác nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_02",
+      "questiontext": "Khi quan sát mô hình hình chóp tam giác đều \\(S.ABC\\) từ hướng thẳng đứng từ trên xuống mặt đáy \\(ABC\\), hình ảnh đỉnh \\(S\\) sẽ chiếu trùng đúng vào tâm của tam giác đều mặt đáy \\(ABC\\).",
+      "generalfeedback": "Đúng. Trong hình chóp tam giác đều, đường cao nối từ đỉnh \\(S\\) vuông góc với mặt đáy tại tâm của tam giác đều đáy.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "NLT_TOAN_C2_05_01",
+      "questiontext": "Để giúp học sinh quan sát trực quan, chỉ ra chính xác các mặt bên, mặt đáy, các cạnh bên và chiều cao của hình chóp tam giác đều trong không gian, phương tiện dạy học toán nào sau đây là phù hợp nhất?",
+      "generalfeedback": "Mô hình hình học không gian hình chóp tam giác đều giúp học sinh quan sát trực quan đầy đủ các yếu tố trong không gian ba chiều.",
+      "answers": [
+        {
+          "text": "Mô hình hình học không gian hình chóp tam giác đều",
+          "fraction": 100
+        },
+        {
+          "text": "Thước đo góc bằng nhựa",
+          "fraction": 0
+        },
+        {
+          "text": "Biểu đồ hình quạt tròn trên giấy",
+          "fraction": 0
+        },
+        {
+          "text": "Thước cuộn dùng trong xây dựng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_05_01",
+      "questiontext": "Khi thực hành tạo lập hình chóp tam giác đều, học sinh sử dụng [[1]] để đo chính xác độ dài các cạnh trên mặt phẳng bìa, sau đó quan sát [[2]] để đối chiếu các yếu tố đỉnh và chiều cao trong không gian.",
+      "generalfeedback": "Thước thẳng chia khoảng là công cụ đo vẽ hình phẳng, còn mô hình hình học không gian là phương tiện quan sát trực quan hình khối ba chiều.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "thước thẳng có chia đơn vị"
+        },
+        {
+          "group": 1,
+          "text": "mô hình hình học không gian"
+        },
+        {
+          "group": 1,
+          "text": "thước đo góc"
+        },
+        {
+          "group": 1,
+          "text": "biểu đồ đoạn thẳng"
+        }
+      ]
+    }
+  ]
+}

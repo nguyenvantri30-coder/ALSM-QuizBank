@@ -1,0 +1,450 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 17,
+    "metadata_used": {
+      "YCCD_TOAN9_080": 2,
+      "Tâm đường tròn ngoại tiếp là giao điểm 3 đường trung trực": 2,
+      "Khái niệm đường tròn ngoại tiếp tam giác": 1,
+      "YCCD_TOAN9_081": 2,
+      "Tâm đường tròn ngoại tiếp tam giác vuông, tam giác đều": 2,
+      "YCCD_TOAN9_082": 4,
+      "YCCD_TOAN9_083": 3,
+      "Xác định tâm và bán kính đường tròn ngoại tiếp tam giác nhọn, vuông, đều": 3,
+      "Vẽ đường tròn ngoại tiếp tam giác": 1,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TUHOC_C2_01": 1,
+      "SUB_GQVD_DEXUAT_C2_02": 2,
+      "NLT_TOAN_C2_01_03": 1,
+      "NLT_TOAN_C2_01_08": 1
+    },
+    "types_used": {
+      "multichoice": 9,
+      "truefalse": 2,
+      "gapselect": 1,
+      "shortanswer": 1,
+      "numerical": 2,
+      "calculatedsimple": 1,
+      "matching": 1
+    },
+    "total": 17
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN9_080",
+        "reason": "Nhận biết được định nghĩa đường tròn ngoại tiếp tam giác."
+      },
+      {
+        "metadata_code": "Tâm đường tròn ngoại tiếp là giao điểm 3 đường trung trực",
+        "reason": "Tâm đường tròn ngoại tiếp là giao điểm 3 đường trung trực"
+      },
+      {
+        "metadata_code": "Khái niệm đường tròn ngoại tiếp tam giác",
+        "reason": "Khái niệm đường tròn ngoại tiếp tam giác"
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_081",
+        "reason": "Xác định được tâm và bán kính đường tròn ngoại tiếp tam giác."
+      },
+      {
+        "metadata_code": "Tâm đường tròn ngoại tiếp tam giác vuông, tam giác đều",
+        "reason": "Tâm đường tròn ngoại tiếp tam giác vuông, tam giác đều"
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_082",
+        "reason": "Xác định được tâm và bán kính đường tròn ngoại tiếp tam giác vuông."
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_083",
+        "reason": "Xác định được tâm và bán kính đường tròn ngoại tiếp tam giác đều."
+      },
+      {
+        "metadata_code": "Xác định tâm và bán kính đường tròn ngoại tiếp tam giác nhọn, vuông, đều",
+        "reason": "Xác định tâm và bán kính đường tròn ngoại tiếp tam giác nhọn, vuông, đều"
+      },
+      {
+        "metadata_code": "Vẽ đường tròn ngoại tiếp tam giác",
+        "reason": "Vẽ đường tròn ngoại tiếp tam giác"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học thuần lý thuyết hình học cơ bản, không có nội dung thực hành công cụ tin học/phần mềm số."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học không liên quan tự nhiên đến các hệ thống hay ứng dụng Trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_080",
+      "questiontext": "Đường tròn ngoại tiếp một tam giác là đường tròn như thế nào?",
+      "generalfeedback": "Theo định nghĩa, đường tròn ngoại tiếp một tam giác là đường tròn đi qua ba đỉnh của tam giác đó.",
+      "answers": [
+        {
+          "text": "Đi qua ba đỉnh của tam giác đó.",
+          "fraction": 100
+        },
+        {
+          "text": "Tiếp xúc với ba cạnh của tam giác đó.",
+          "fraction": 0
+        },
+        {
+          "text": "Cắt ba cạnh của tam giác đó tại trung điểm.",
+          "fraction": 0
+        },
+        {
+          "text": "Nằm hoàn toàn bên trong tam giác đó.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Tâm đường tròn ngoại tiếp là giao điểm 3 đường trung trực",
+      "questiontext": "Tâm của đường tròn ngoại tiếp một tam giác là giao điểm của ba đường trung trực của tam giác đó.",
+      "generalfeedback": "Đúng. Trong một tam giác, giao điểm ba đường trung trực cách đều ba đỉnh nên là tâm của đường tròn ngoại tiếp tam giác.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm đường tròn ngoại tiếp tam giác",
+      "questiontext": "Cho đường tròn \\((O)\\) đi qua ba đỉnh của tam giác \\(ABC\\). Khi đó, đường tròn \\((O)\\) gọi là đường tròn [[1]] tam giác \\(ABC\\), còn tam giác \\(ABC\\) gọi là tam giác [[2]] đường tròn \\((O)\\).",
+      "generalfeedback": "Đường tròn đi qua 3 đỉnh của tam giác gọi là đường tròn ngoại tiếp tam giác, tam giác gọi là nội tiếp đường tròn.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "ngoại tiếp"
+        },
+        {
+          "group": 1,
+          "text": "nội tiếp"
+        },
+        {
+          "group": 1,
+          "text": "bàng tiếp"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_081",
+      "imgs": [
+        "_page_0_Picture_17.jpeg"
+      ],
+      "questiontext": "Quan sát hình vẽ dưới đây: [img:_page_0_Picture_17.jpeg]\nĐiểm \\(O\\) là giao điểm ba đường trung trực của tam giác \\(ABC\\). Khẳng định nào sau đây là đúng về đường tròn \\((O; OA)\\)?",
+      "generalfeedback": "Vì O là giao điểm ba đường trung trực của tam giác ABC nên OA = OB = OC. Do đó đường tròn (O; OA) đi qua ba đỉnh A, B, C và ngoại tiếp tam giác ABC.",
+      "answers": [
+        {
+          "text": "Đường tròn \\((O; OA)\\) đi qua cả ba đỉnh \\(A, B, C\\) của tam giác \\(ABC\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Đường tròn \\((O; OA)\\) chỉ đi qua hai đỉnh \\(A\\) và \\(B\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Đường tròn \\((O; OA)\\) tiếp xúc với ba cạnh của tam giác \\(ABC\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Đường tròn \\((O; OA)\\) nằm bên trong tam giác \\(ABC\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Tâm đường tròn ngoại tiếp tam giác vuông, tam giác đều",
+      "questiontext": "Tâm của đường tròn ngoại tiếp một tam giác vuông nằm ở vị trí nào của tam giác đó?",
+      "generalfeedback": "Đường tròn ngoại tiếp tam giác vuông có tâm là trung điểm của cạnh huyền.",
+      "answers": [
+        {
+          "text": "trung điểm cạnh huyền",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_082",
+      "questiontext": "Cho tam giác \\(ABC\\) vuông tại \\(A\\) có cạnh huyền \\(BC = 12\\text{ cm}\\). Tính bán kính \\(R\\) của đường tròn ngoại tiếp tam giác \\(ABC\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Bán kính đường tròn ngoại tiếp tam giác vuông bằng một nửa cạnh huyền: \\(R = \\frac{BC}{2} = \\frac{12}{2} = 6\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "6",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_082",
+      "questiontext": "Cho tam giác \\(ABC\\) vuông tại \\(A\\) có độ dài cạnh huyền \\(BC = {a}\\text{ cm}\\). Bán kính \\(R\\) của đường tròn ngoại tiếp tam giác \\(ABC\\) được tính theo công thức nào?",
+      "generalfeedback": "Bán kính đường tròn ngoại tiếp tam giác vuông bằng một nửa cạnh huyền: \\(R = \\frac{a}{2} = {a}/2\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 20.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}/2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_083",
+      "questiontext": "Tâm của đường tròn ngoại tiếp tam giác đều trùng với điểm nào của tam giác đó?",
+      "generalfeedback": "Trong tam giác đều, giao điểm ba đường trung trực trùng với trọng tâm (giao điểm ba đường trung tuyến), trực tâm và tâm đường tròn nội tiếp.",
+      "answers": [
+        {
+          "text": "Trọng tâm của tam giác.",
+          "fraction": 100
+        },
+        {
+          "text": "Trung điểm của cạnh lớn nhất.",
+          "fraction": 0
+        },
+        {
+          "text": "Một đỉnh bất kỳ của tam giác.",
+          "fraction": 0
+        },
+        {
+          "text": "Điểm nằm ngoài tam giác.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tâm đường tròn ngoại tiếp tam giác vuông, tam giác đều",
+      "questiontext": "Cho tam giác đều có độ dài cạnh bằng \\(a\\). Công thức tính bán kính \\(R\\) của đường tròn ngoại tiếp tam giác đều theo \\(a\\) là gì?",
+      "generalfeedback": "Đường tròn ngoại tiếp tam giác đều cạnh \\(a\\) có tâm là trọng tâm và bán kính \\(R = \\frac{\\sqrt{3}}{3}a\\).",
+      "answers": [
+        {
+          "text": "\\(R = \\frac{\\sqrt{3}}{3}a\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(R = \\frac{\\sqrt{3}}{6}a\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(R = \\frac{\\sqrt{3}}{2}a\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(R = \\sqrt{3}a\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Xác định tâm và bán kính đường tròn ngoại tiếp tam giác nhọn, vuông, đều",
+      "questiontext": "Cho tam giác \\(ABC\\) vuông tại \\(A\\) có \\(AB = 6\\text{ cm}\\) và \\(AC = 8\\text{ cm}\\). Tính bán kính \\(R\\) của đường tròn ngoại tiếp tam giác \\(ABC\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Theo định lí Pythagore: \\(BC = \\sqrt{AB^2 + AC^2} = \\sqrt{6^2 + 8^2} = 10\\text{ cm}\\). Bán kính đường tròn ngoại tiếp \\(R = \\frac{BC}{2} = \\frac{10}{2} = 5\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ học Toán về đường tròn ngoại tiếp tam giác vuông, bạn Minh gặp khó khăn khi tính bán kính đường tròn ngoại tiếp tam giác vuông \\(ABC\\) (vuông tại \\(A\\)). Để thể hiện tinh thần chủ động, vươn lên đạt kết quả tốt trong học tập, bạn Minh nên chọn cách ứng xử nào sau đây?",
+      "generalfeedback": "Thái độ tích cực, chủ động vươn lên trong học tập được thể hiện qua việc tự ôn tập lại lý thuyết (bán kính bằng nửa cạnh huyền), kiên trì tự làm bài và tham khảo ý kiến thầy cô, bạn bè khi gặp vướng mắc.",
+      "answers": [
+        {
+          "text": "Chủ động ôn lại kiến thức về cạnh huyền và bán kính, tự suy luận và nhờ thầy cô hoặc bạn bè hướng dẫn nếu chưa hiểu.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua không làm bài tập này và chờ giáo viên chữa bài trên bảng để chép vào vở.",
+          "fraction": 0
+        },
+        {
+          "text": "Mượn ngay vở của bạn khác để chép đáp án cho xong nhiệm vụ.",
+          "fraction": 0
+        },
+        {
+          "text": "Cho rằng phần kiến thức này quá khó và không cần thiết phải học.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Sau khi hoàn thành bài học về \"Đường tròn ngoại tiếp tam giác\", bạn An muốn tự đặt mục tiêu học tập cá nhân phù hợp để nỗ lực phấn đấu. Mục tiêu nào sau đây phản ánh đúng năng lực tự đặt mục tiêu học tập hiệu quả?",
+      "generalfeedback": "Mục tiêu học tập đúng đắn cần cụ thể, gắn với yêu cầu cần đạt của bài học (nhận biết, xác định tâm, bán kính đường tròn ngoại tiếp) và có kế hoạch luyện tập rõ ràng.",
+      "answers": [
+        {
+          "text": "Nắm vững định nghĩa, thành thạo cách xác định tâm và tính bán kính đường tròn ngoại tiếp tam giác vuông, tam giác đều qua việc hoàn thành các bài tập trong SGK.",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ cần học thuộc lòng lý thuyết trong sách giáo khoa mà không cần luyện tập giải bài tập.",
+          "fraction": 0
+        },
+        {
+          "text": "Đặt mục tiêu đạt điểm 10 trong bài kiểm tra mà không cần lập kế hoạch học tập hay ôn luyện.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ học và làm bài khi có sự yêu cầu, nhắc nhở từ giáo viên và cha mẹ.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Một công viên muốn lắp đặt một cột đèn chiếu sáng để chiếu sáng đều tới ba vị trí mảng hoa \\(A, B, C\\) tạo thành một tam giác nhọn. Để đề xuất giải pháp vị trí đặt cột đèn sao cho khoảng cách từ cột đèn đến ba mảng hoa là bằng nhau, em sẽ áp dụng kiến thức nào?",
+      "generalfeedback": "Tâm đường tròn ngoại tiếp tam giác là giao điểm ba đường trung trực và cách đều ba đỉnh của tam giác đó. Do đó, vị trí đặt cột đèn chính là giao điểm ba đường trung trực của tam giác \\(ABC\\).",
+      "answers": [
+        {
+          "text": "Xác định giao điểm ba đường trung trực của tam giác \\(ABC\\) để đặt cột đèn tại đó.",
+          "fraction": 100
+        },
+        {
+          "text": "Đặt cột đèn tại giao điểm ba đường phân giác của tam giác \\(ABC\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Đặt cột đèn tại trung điểm của cạnh dài nhất trong tam giác \\(ABC\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Đặt cột đèn tại trọng tâm (giao điểm ba đường trung tuyến) của tam giác \\(ABC\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_03",
+      "questiontext": "Khi phân tích vị trí tâm đường tròn ngoại tiếp của tam giác vuông và tam giác đều, điểm khác biệt cơ bản nhất giữa hai loại tam giác này là gì?",
+      "generalfeedback": "Tâm đường tròn ngoại tiếp tam giác vuông nằm tại trung điểm của cạnh huyền (nằm trên cạnh của tam giác), trong khi tâm đường tròn ngoại tiếp tam giác đều nằm bên trong tam giác và trùng với trọng tâm.",
+      "answers": [
+        {
+          "text": "Tâm đường tròn ngoại tiếp tam giác vuông nằm tại trung điểm cạnh huyền, còn tâm đường tròn ngoại tiếp tam giác đều nằm bên trong tam giác (trùng với trọng tâm).",
+          "fraction": 100
+        },
+        {
+          "text": "Tâm đường tròn ngoại tiếp tam giác vuông nằm bên ngoài tam giác, còn tam giác đều nằm tại một đỉnh.",
+          "fraction": 0
+        },
+        {
+          "text": "Tâm đường tròn ngoại tiếp tam giác vuông trùng với trực tâm, còn tam giác đều nằm ngoài tam giác.",
+          "fraction": 0
+        },
+        {
+          "text": "Cả hai tâm đều nằm tại giao điểm của ba đường phân giác trong tam giác.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_08",
+      "questiontext": "Để chứng minh bài toán: \"Cho tam giác \\(ABC\\) vuông tại \\(A\\). Chứng minh rằng đường tròn ngoại tiếp tam giác \\(ABC\\) có tâm \\(O\\) là trung điểm của cạnh huyền \\(BC\\)\", một học sinh đã lập luận theo các bước:\n(1) Lấy \\(O\\) là trung điểm của \\(BC\\). Theo tính chất đường trung tuyến ứng với cạnh huyền trong tam giác vuông, ta có \\(OA = OB = OC = \\frac{BC}{2}\\).\n(2) Vì \\(OA = OB = OC\\) nên ba điểm \\(A, B, C\\) cùng thuộc đường tròn tâm \\(O\\), bán kính \\(R = \\frac{BC}{2}\\).\n(3) Kết luận đường tròn \\((O; \\frac{BC}{2})\\) là đường tròn ngoại tiếp tam giác \\(ABC\\).\nĐánh giá nào sau đây về lập luận chứng minh trên là đúng?",
+      "generalfeedback": "Lập luận chứng minh ngắn gọn, chính xác theo đúng định nghĩa đường tròn ngoại tiếp (đường tròn đi qua 3 đỉnh) và tính chất tam giác vuông (trung tuyến ứng với cạnh huyền bằng nửa cạnh huyền).",
+      "answers": [
+        {
+          "text": "Lập luận hoàn toàn đúc kết logic, chính xác và đầy đủ căn cứ toán học.",
+          "fraction": 100
+        },
+        {
+          "text": "Lập luận sai vì đường trung tuyến trong tam giác vuông không bằng nửa cạnh huyền.",
+          "fraction": 0
+        },
+        {
+          "text": "Lập luận thiếu bước vì phải dùng giao điểm ba đường trung trực mới xác định được tâm O.",
+          "fraction": 0
+        },
+        {
+          "text": "Kết luận sai vì tâm đường tròn ngoại tiếp tam giác vuông phải nằm ngoài tam giác.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi làm bài tập nhóm về thiết kế mô hình có ứng dụng đường tròn ngoại tiếp tam giác, bạn Bình nhận thấy cách vẽ của mình bị sai do nhầm lẫn giữa đường trung trực và đường phân giác. Bạn Bình nên chủ động nhận ra lỗi sai, sửa lại bài và học hỏi từ các bạn trong nhóm để hoàn thiện kết quả học tập.",
+      "generalfeedback": "Đúng. Biết nhận ra lỗi sai, sẵn sàng sửa đổi và học hỏi đồng đẳng thể hiện phẩm chất tinh thần vươn lên, trách nhiệm và trung thực trong học tập.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Hãy ghép các tình huống thực tế ở cột bên trái với giải pháp ứng dụng toán học tương ứng ở cột bên phải:",
+      "generalfeedback": "Tìm vị trí cách đều 3 đỉnh ứng dụng tâm đường tròn ngoại tiếp; tìm vị trí cách đều 3 cạnh ứng dụng tâm đường tròn nội tiếp; xác định bán kính đường tròn ngoại tiếp tam giác vuông ứng dụng tính chất trung điểm cạnh huyền.",
+      "subquestions": [
+        {
+          "question": "Xác định vị trí đặt trạm phát sóng cách đều 3 khu dân cư A, B, C",
+          "answer": "Tìm giao điểm ba đường trung trực của tam giác ABC"
+        },
+        {
+          "question": "Xác định bán kính khung tròn bao quanh một sân khấu hình tam giác vuông",
+          "answer": "Lấy một nửa độ dài cạnh huyền của tam giác vuông"
+        },
+        {
+          "question": "Thiết kế vòi phun nước cách đều 3 bức tường rào của một khu vườn tam giác",
+          "answer": "Tìm giao điểm ba đường phân giác của tam giác"
+        }
+      ]
+    }
+  ]
+}

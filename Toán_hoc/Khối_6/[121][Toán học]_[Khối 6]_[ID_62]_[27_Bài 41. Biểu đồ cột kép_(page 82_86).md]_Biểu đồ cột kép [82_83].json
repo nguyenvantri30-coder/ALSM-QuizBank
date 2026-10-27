@@ -1,0 +1,680 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 26,
+    "metadata_used": {
+      "Cấu trúc biểu đồ cột kép": 5,
+      "Ý nghĩa so sánh hai tập dữ liệu cùng loại": 4,
+      "Đọc và mô tả dữ liệu từ biểu đồ cột kép": 6,
+      "YCCD_TOAN6_137": 3,
+      "YCCD_TOAN6_152": 2,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_TRUNGTHUC_CHUNG_C2_01": 1,
+      "SUB_GTHT_XACDINHMD_C2_03": 1,
+      "SUB_GTHT_XACDINHMD_C2_04": 1,
+      "NLT_TOAN_C2_02_03": 1,
+      "NLT_TOAN_C2_04_04": 1
+    },
+    "types_used": {
+      "multichoice": 11,
+      "gapselect": 3,
+      "matching": 2,
+      "truefalse": 2,
+      "shortanswer": 4,
+      "numerical": 2,
+      "ddwtos": 2
+    },
+    "total": 26
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "Cấu trúc biểu đồ cột kép",
+        "reason": "Đo lường hiểu biết về cấu trúc biểu đồ cột kép (trục, cột, chú thích, tên biểu đồ)."
+      },
+      {
+        "metadata_code": "Ý nghĩa so sánh hai tập dữ liệu cùng loại",
+        "reason": "Đo lường hiểu biết về ý nghĩa so sánh hai tập dữ liệu cùng loại trên biểu đồ cột kép."
+      },
+      {
+        "metadata_code": "Đọc và mô tả dữ liệu từ biểu đồ cột kép",
+        "reason": "Đo lường kỹ năng đọc và mô tả dữ liệu từ biểu đồ cột kép."
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_137",
+        "reason": "Đo lường yêu cầu cần đạt về đọc và mô tả thành thạo các dữ liệu ở dạng biểu đồ dạng cột hoặc cột kép."
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_152",
+        "reason": "Đo lường yêu cầu cần đạt về sử dụng phần mềm/quy trình vẽ biểu đồ dạng cột hoặc cột kép."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đo lường phẩm chất luôn cố gắng vươn lên đạt kết quả tốt trong học tập qua tình huống phân tích kết quả học tập."
+      },
+      {
+        "metadata_code": "SUB_TRUNGTHUC_CHUNG_C2_01",
+        "reason": "Đo lường phẩm chất luôn thống nhất giữa lời nói với việc làm qua tình huống thu thập số liệu đúng cam kết."
+      },
+      {
+        "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+        "reason": "Đo lường năng lực chung tiếp nhận văn bản đời sống kết hợp biểu đồ, số liệu."
+      },
+      {
+        "metadata_code": "SUB_GTHT_XACDINHMD_C2_04",
+        "reason": "Đo lường năng lực chung trình bày thông tin kết hợp biểu đồ và chú thích khi thảo luận."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_02_03",
+        "reason": "Đo lường năng lực toán học sử dụng mô hình biểu đồ cột kép mô tả tình huống thực tiễn."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_04_04",
+        "reason": "Đo lường năng lực toán học phân tích thông tin toán học từ văn bản."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "1.1TC1a_K6",
+        "reason": "Bài học tập trung vào việc đọc và vẽ biểu đồ cột kép thủ công bằng giấy/bút, không chứa nội dung hay bối cảnh về việc xác định nhu cầu tìm kiếm thông tin trong môi trường số."
+      },
+      {
+        "metadata_code": "1.1TC1b_K6",
+        "reason": "Bài học không thuộc chủ đề tin học/môi trường số và không có quy trình tìm kiếm dữ liệu trực tuyến."
+      },
+      {
+        "metadata_code": "1.1TC1c_K6",
+        "reason": "Bài học không đề cập đến việc truy cập hay giải thích kết quả tìm kiếm trong môi trường số."
+      },
+      {
+        "metadata_code": "6.C1.MR3_1",
+        "reason": "Nội dung bài học Toán 6 về biểu đồ cột kép không liên quan tự nhiên đến tác động hay phân tích công cụ AI."
+      },
+      {
+        "metadata_code": "6.C3.MR1_1",
+        "reason": "Bài học thuần túy về biểu đồ thống kê cơ bản, không chứa kiến thức về tính năng AI tích hợp trong ứng dụng."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Cấu trúc biểu đồ cột kép",
+      "questiontext": "Biểu đồ cột kép được tạo ra bằng cách nào?",
+      "generalfeedback": "Biểu đồ cột kép được tạo ra bằng cách ghép hai biểu đồ cột lại với nhau trên cùng một hệ trục để biểu diễn hai tập dữ liệu cùng loại.",
+      "answers": [
+        {
+          "text": "Ghép hai biểu đồ cột lại với nhau trên cùng một hệ trục",
+          "fraction": 100
+        },
+        {
+          "text": "Vẽ hai biểu đồ cột ở hai trang giấy khác nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Thay thế các cột hình chữ nhật bằng các đường nối",
+          "fraction": 0
+        },
+        {
+          "text": "Xóa đi trục đứng của biểu đồ cột đơn",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Cấu trúc biểu đồ cột kép",
+      "questiontext": "Để biểu diễn hai tập dữ liệu cùng loại trên cùng một biểu đồ, người ta dùng biểu đồ [[1]]. Khi vẽ, với mỗi đối tượng kiểm đếm, ta vẽ hai hình chữ nhật [[2]] với chiều rộng bằng nhau.",
+      "generalfeedback": "Theo SGK, người ta ghép hai biểu đồ cột lại thành biểu đồ cột kép. Tại mỗi đối tượng, ta vẽ hai hình chữ nhật cạnh nhau có cùng chiều rộng.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "cột kép"
+        },
+        {
+          "group": 1,
+          "text": "cột đơn"
+        },
+        {
+          "group": 1,
+          "text": "cạnh nhau"
+        },
+        {
+          "group": 1,
+          "text": "đè lên nhau"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Cấu trúc biểu đồ cột kép",
+      "questiontext": "Hãy ghép mỗi bước ở cột bên trái với nội dung thực hiện tương ứng ở cột bên phải khi vẽ biểu đồ cột kép.",
+      "generalfeedback": "Bước 1 vẽ các trục biểu diễn; Bước 2 vẽ hai hình chữ nhật cạnh nhau cho mỗi loại đối tượng; Bước 3 tô màu phân biệt hai tập dữ liệu, ghi chú thích và tên biểu đồ.",
+      "subquestions": [
+        {
+          "question": "Bước 1",
+          "answer": "Vẽ các trục biểu diễn các đối tượng và số lượng"
+        },
+        {
+          "question": "Bước 2",
+          "answer": "Vẽ hai hình chữ nhật cạnh nhau cho mỗi loại đối tượng"
+        },
+        {
+          "question": "Bước 3",
+          "answer": "Tô màu phân biệt hai tập dữ liệu, ghi chú thích và tên biểu đồ"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Ý nghĩa so sánh hai tập dữ liệu cùng loại",
+      "questiontext": "Biểu đồ cột kép giúp người đọc dễ dàng so sánh hai tập dữ liệu cùng loại.",
+      "generalfeedback": "Đúng. Mục đích chính của việc ghép hai biểu đồ cột thành biểu đồ cột kép là để so sánh trực quan hai tập dữ liệu cùng loại.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Ý nghĩa so sánh hai tập dữ liệu cùng loại",
+      "imgs": [
+        "_page_0_Figure_14.jpeg"
+      ],
+      "questiontext": "Quan sát biểu đồ cột kép dưới đây [img:_page_0_Figure_14.jpeg], nhận xét nào sau đây đúng khi so sánh học lực giữa hai lớp 6A và 6B?",
+      "generalfeedback": "Dựa vào biểu đồ H.9.14, lớp 6A có số học sinh giỏi (13 học sinh) nhiều hơn lớp 6B (9 học sinh) và số học sinh yếu (2 học sinh) ít hơn lớp 6B (5 học sinh).",
+      "answers": [
+        {
+          "text": "Lớp 6A có số học sinh giỏi nhiều hơn và số học sinh yếu ít hơn lớp 6B",
+          "fraction": 100
+        },
+        {
+          "text": "Lớp 6A có số học sinh giỏi ít hơn và số học sinh yếu nhiều hơn lớp 6B",
+          "fraction": 0
+        },
+        {
+          "text": "Lớp 6A có số học sinh khá ít hơn lớp 6B và số học sinh yếu nhiều hơn lớp 6B",
+          "fraction": 0
+        },
+        {
+          "text": "Số học sinh khá và yếu của hai lớp là bằng nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Đọc và mô tả dữ liệu từ biểu đồ cột kép",
+      "imgs": [
+        "_page_0_Figure_14.jpeg"
+      ],
+      "questiontext": "Quan sát biểu đồ cột kép [img:_page_0_Figure_14.jpeg], cho biết lớp 6A có bao nhiêu học sinh đạt học lực Giỏi?",
+      "generalfeedback": "Từ cột biểu diễn học lực Giỏi của lớp 6A (màu đỏ) có số liệu ghi trên đỉnh cột là 13.",
+      "answers": [
+        {
+          "text": "13",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Đọc và mô tả dữ liệu từ biểu đồ cột kép",
+      "questiontext": "Bảng thống kê số trẻ sinh ra trong 3 ngày đầu năm tại một bệnh viện: Ngày 1 có 9 bé trai và 5 bé gái; Ngày 2 có 6 bé trai và 6 bé gái; Ngày 3 có 7 bé trai và 4 bé gái. Tổng số bé gái sinh ra trong cả 3 ngày là bao nhiêu? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Tổng số bé gái sinh ra trong 3 ngày là: \\(5 + 6 + 4 = 15\\) (bé).",
+      "answers": [
+        {
+          "text": "15",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_137",
+      "imgs": [
+        "_page_0_Figure_14.jpeg"
+      ],
+      "questiontext": "Quan sát biểu đồ cột kép [img:_page_0_Figure_14.jpeg]: Trục nằm ngang biểu diễn [[1]], trục đứng biểu diễn [[3]].",
+      "generalfeedback": "Trục nằm ngang biểu diễn các loại học lực (Giỏi, Khá, Trung bình, Yếu); trục đứng biểu diễn số học sinh.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "học lực"
+        },
+        {
+          "group": 1,
+          "text": "số học sinh"
+        },
+        {
+          "group": 1,
+          "text": "tên lớp"
+        },
+        {
+          "group": 1,
+          "text": "năm học"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_137",
+      "imgs": [
+        "_page_1_Figure_14.jpeg"
+      ],
+      "questiontext": "Quan sát biểu đồ Hình 9.18 [img:_page_1_Figure_14.jpeg] biểu diễn số bé trai và bé gái sinh ra trong 3 ngày đầu năm 2020. Ngày nào có số bé trai và bé gái sinh ra bằng nhau?",
+      "generalfeedback": "Trong Bảng 9.7 và biểu đồ H.9.18, vào Ngày 2, số bé trai là 6 và số bé gái là 6, nên số bé trai và bé gái sinh ra trong Ngày 2 là bằng nhau.",
+      "answers": [
+        {
+          "text": "Ngày 2",
+          "fraction": 100
+        },
+        {
+          "text": "Ngày 1",
+          "fraction": 0
+        },
+        {
+          "text": "Ngày 3",
+          "fraction": 0
+        },
+        {
+          "text": "Không có ngày nào",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_152",
+      "questiontext": "Khi vẽ biểu đồ cột kép, hai hình chữ nhật biểu diễn hai tập dữ liệu tại mỗi đối tượng phải được vẽ có chiều rộng như thế nào với nhau?",
+      "generalfeedback": "Theo quy tắc vẽ biểu đồ cột kép (Bước 2), hai hình chữ nhật cạnh nhau phải có chiều rộng bằng nhau.",
+      "answers": [
+        {
+          "text": "bằng nhau",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Đọc và mô tả dữ liệu từ biểu đồ cột kép",
+      "imgs": [
+        "_page_1_Figure_14.jpeg"
+      ],
+      "questiontext": "Dựa vào Bảng 9.7 và Hình 9.18 [img:_page_1_Figure_14.jpeg], tổng số bé gái sinh ra trong Ngày 1 và Ngày 3 tại bệnh viện là bao nhiêu?",
+      "generalfeedback": "Số bé gái sinh ra trong Ngày 1 là 5, Ngày 3 là 4. Tổng số bé gái sinh ra trong hai ngày này là: \\(5 + 4 = 9\\) (bé gái).",
+      "answers": [
+        {
+          "text": "9",
+          "fraction": 100
+        },
+        {
+          "text": "11",
+          "fraction": 0
+        },
+        {
+          "text": "13",
+          "fraction": 0
+        },
+        {
+          "text": "16",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Ý nghĩa so sánh hai tập dữ liệu cùng loại",
+      "imgs": [
+        "_page_2_Figure_5.jpeg"
+      ],
+      "questiontext": "Quan sát biểu đồ Hình 9.19 [img:_page_2_Figure_5.jpeg], từ năm 2016 đến năm 2018, số bàn thắng ghi được của cả hai cầu thủ L.Messi và C.Ronaldo có xu hướng như thế nào?",
+      "generalfeedback": "Cả hai cột màu vàng (L.Messi) và màu xanh (C.Ronaldo) đều có chiều cao thấp dần từ trái sang phải, cho thấy số bàn thắng có xu hướng giảm dần từ năm 2016 đến năm 2018.",
+      "answers": [
+        {
+          "text": "Giảm dần",
+          "fraction": 100
+        },
+        {
+          "text": "Tăng dần",
+          "fraction": 0
+        },
+        {
+          "text": "Không thay đổi",
+          "fraction": 0
+        },
+        {
+          "text": "Tăng rồi lại giảm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Đọc và mô tả dữ liệu từ biểu đồ cột kép",
+      "imgs": [
+        "_page_2_Figure_5.jpeg"
+      ],
+      "questiontext": "Quan sát biểu đồ Hình 9.19 [img:_page_2_Figure_5.jpeg], trong mỗi năm từ 2016 đến 2018, cầu thủ nào luôn ghi được số bàn thắng nhiều hơn?",
+      "generalfeedback": "Ở cả ba năm, cột màu vàng (L.Messi) đều cao hơn cột màu xanh (C.Ronaldo), do đó L.Messi luôn ghi được nhiều bàn thắng hơn.",
+      "answers": [
+        {
+          "text": "L.Messi",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Cấu trúc biểu đồ cột kép",
+      "questiontext": "Trong biểu đồ cột kép, để phân biệt hai tập dữ liệu cùng loại, người ta thường tô màu khác nhau hoặc gạch chéo các cột tương ứng.",
+      "generalfeedback": "Đúng. Theo Bước 3 trong quy trình vẽ biểu đồ cột kép, ta tô màu hoặc gạch chéo để phân biệt hai tập dữ liệu và ghi chú thích.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Đọc và mô tả dữ liệu từ biểu đồ cột kép",
+      "questiontext": "Theo Bảng 9.7, tổng số bé trai được sinh ra trong cả 3 ngày đầu năm 2020 tại bệnh viện địa phương là bao nhiêu? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Tổng số bé trai sinh ra trong 3 ngày là: \\(9 + 6 + 7 = 22\\) (bé trai).",
+      "answers": [
+        {
+          "text": "22",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_137",
+      "questiontext": "Biểu đồ cột kép biểu diễn hai tập dữ liệu [[1]] trên cùng một hệ trục. Chiều cao của mỗi cột thể hiện [[2]] của đối tượng tương ứng.",
+      "generalfeedback": "Biểu đồ cột kép dùng để biểu diễn và so sánh hai tập dữ liệu cùng loại. Chiều cao của mỗi cột thể hiện số lượng của đối tượng đó.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "cùng loại"
+        },
+        {
+          "group": 1,
+          "text": "khác loại"
+        },
+        {
+          "group": 1,
+          "text": "số lượng"
+        },
+        {
+          "group": 1,
+          "text": "tên gọi"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_152",
+      "questiontext": "Để hoàn thiện một biểu đồ cột kép sau khi vẽ các cột, ta cần thực hiện công việc nào sau đây?",
+      "generalfeedback": "Sau khi vẽ các cột, ta cần tô màu hoặc gạch chéo để phân biệt hai tập dữ liệu, ghi chú thích và đặt tên cho biểu đồ.",
+      "answers": [
+        {
+          "text": "Tô màu/gạch chéo phân biệt hai tập dữ liệu, ghi chú thích và đặt tên cho biểu đồ",
+          "fraction": 100
+        },
+        {
+          "text": "Xóa toàn bộ các số liệu nằm trên trục đứng",
+          "fraction": 0
+        },
+        {
+          "text": "Gộp hai cột cạnh nhau thành một cột duy nhất",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ đi phần tên biểu đồ và các trục tọa độ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Cấu trúc biểu đồ cột kép",
+      "questiontext": "Khi vẽ biểu đồ cột kép, tại mỗi đối tượng ta vẽ hai hình chữ nhật [[1]] có chiều rộng bằng nhau. Phần [[2]] giúp người đọc biết mỗi màu cột đại diện cho tập dữ liệu nào.",
+      "generalfeedback": "Hai hình chữ nhật được vẽ cạnh nhau có cùng chiều rộng. Bảng chú thích giúp phân biệt ý nghĩa các màu cột.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "cạnh nhau"
+        },
+        {
+          "group": 1,
+          "text": "chồng lên nhau"
+        },
+        {
+          "group": 1,
+          "text": "chú thích"
+        },
+        {
+          "group": 1,
+          "text": "tên bài học"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Đọc và mô tả dữ liệu từ biểu đồ cột kép",
+      "questiontext": "Dựa vào Bảng 9.7 (số bé trai và bé gái sinh ra trong ba ngày đầu năm 2020), hãy ghép mỗi ngày ở cột bên trái với số lượng tương ứng ở cột bên phải.",
+      "generalfeedback": "Dựa vào Bảng 9.7: Ngày 1 có 9 bé trai và 5 bé gái; Ngày 2 có 6 bé trai và 6 bé gái; Ngày 3 có 7 bé trai và 4 bé gái.",
+      "subquestions": [
+        {
+          "question": "Ngày 1",
+          "answer": "9 bé trai và 5 bé gái"
+        },
+        {
+          "question": "Ngày 2",
+          "answer": "6 bé trai và 6 bé gái"
+        },
+        {
+          "question": "Ngày 3",
+          "answer": "7 bé trai và 4 bé gái"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Ý nghĩa so sánh hai tập dữ liệu cùng loại",
+      "questiontext": "Ưu điểm chính của biểu đồ cột kép so với hai biểu đồ cột đơn riêng biệt là giúp việc gì trở nên thuận lợi và dễ dàng hơn?",
+      "generalfeedback": "Biểu đồ cột kép ghép hai biểu đồ cột lại giúp việc so sánh số liệu giữa hai tập dữ liệu trở nên trực quan và dễ dàng hơn.",
+      "answers": [
+        {
+          "text": "so sánh số liệu",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi quan sát biểu đồ cột kép theo dõi kết quả học tập môn Toán giữa Kỳ I và Kỳ II của bản thân, Nam thấy cột Kỳ II thấp hơn Kỳ I. Để thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập, Nam nên làm gì?",
+      "generalfeedback": "Hành vi chủ động phân tích nguyên nhân, lập kế hoạch ôn tập và xin sự trợ giúp từ thầy cô/bạn bè để nâng cao kết quả thể hiện tinh thần luôn cố gắng vươn lên trong học tập.",
+      "answers": [
+        {
+          "text": "Phân tích điểm còn yếu, lập kế hoạch học tập chi tiết và nhờ thầy cô, bạn bè hướng dẫn thêm",
+          "fraction": 100
+        },
+        {
+          "text": "Tự ti, bỏ qua môn Toán và tập trung học các môn học khác",
+          "fraction": 0
+        },
+        {
+          "text": "Cho rằng biểu đồ vẽ sai và không cần điều chỉnh phương pháp học tập",
+          "fraction": 0
+        },
+        {
+          "text": "Đổ lỗi cho đề thi khó và không tìm cách khắc phục",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_TRUNGTHUC_CHUNG_C2_01",
+      "questiontext": "Trong buổi thảo luận nhóm, An hứa với các bạn sẽ thu thập đúng số liệu bài tập của lớp 6A và 6B để vẽ biểu đồ cột kép so sánh. Để thể hiện sự thống nhất giữa lời nói với việc làm, An cần thực hiện hành động nào?",
+      "generalfeedback": "Thực hiện đúng lời hứa bằng cách thu thập số liệu trung thực, đầy đủ và hoàn thành vẽ biểu đồ đúng hạn thể hiện sự thống nhất giữa lời nói và việc làm.",
+      "answers": [
+        {
+          "text": "Tự mình khảo sát trung thực, ghi chép chính xác số liệu và vẽ biểu đồ đầy đủ đúng hạn như đã hứa",
+          "fraction": 100
+        },
+        {
+          "text": "Tự bịa số liệu cho nhanh để kịp nộp biểu đồ đúng hạn",
+          "fraction": 0
+        },
+        {
+          "text": "Nhờ bạn khác làm thay hoàn toàn và nhận là do mình làm",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua không làm và viện lý do quên mất công việc được giao",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "imgs": [
+        "_page_0_Figure_14.jpeg"
+      ],
+      "questiontext": "Đọc đoạn văn bản kết hợp với biểu đồ sau: \"Biểu đồ [img:_page_0_Figure_14.jpeg] cho biết số lượng học sinh đạt các loại học lực của lớp 6A và 6B.\" Kết hợp thông tin từ văn bản và biểu đồ, thông điệp chính mà người nói muốn truyền tải là gì?",
+      "generalfeedback": "Biểu đồ cột kép kết hợp văn bản giúp tiếp nhận và so sánh trực quan tình hình học lực giữa hai lớp 6A và 6B.",
+      "answers": [
+        {
+          "text": "So sánh tương quan số lượng học sinh đạt các loại học lực giữa hai lớp 6A và 6B",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ trình bày duy nhất số học sinh giỏi của lớp 6A",
+          "fraction": 0
+        },
+        {
+          "text": "Cho biết tổng số môn học của hai lớp 6A và 6B trong năm học",
+          "fraction": 0
+        },
+        {
+          "text": "Trình bày danh sách họ và tên của tất cả học sinh lớp 6A",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_04",
+      "questiontext": "Khi thuyết trình trước lớp về kết quả học tập của hai nhóm, em nên kết hợp sử dụng lời nói với [[1]] để giúp các bạn so sánh trực quan, đồng thời ghi chú thích rõ ràng bằng [[2]] để bài thảo luận thuyết phục.",
+      "generalfeedback": "Trình bày thông tin kết hợp biểu đồ cột kép và ngôn ngữ/số liệu ghi chú giúp truyền đạt ý tưởng rõ ràng, hiệu quả.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "biểu đồ cột kép"
+        },
+        {
+          "group": 1,
+          "text": "bản vẽ kĩ thuật"
+        },
+        {
+          "group": 1,
+          "text": "số liệu và chú thích"
+        },
+        {
+          "group": 1,
+          "text": "văn bản thơ ca"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_02_03",
+      "questiontext": "Một cửa hàng muốn mô tả và so sánh số lượng quạt trần và quạt cây bán được trong từng tháng của năm 2018 nhằm điều chỉnh kế hoạch nhập hàng. Mô hình toán học nào thích hợp nhất để mô tả tình huống thực tiễn này?",
+      "generalfeedback": "Biểu đồ cột kép là mô hình toán học phù hợp nhất để so sánh hai tập dữ liệu (số lượng quạt trần và quạt cây) theo từng thời điểm (tháng).",
+      "answers": [
+        {
+          "text": "Biểu đồ cột kép",
+          "fraction": 100
+        },
+        {
+          "text": "Sơ đồ tư duy dạng hình cây",
+          "fraction": 0
+        },
+        {
+          "text": "Biểu đồ cột đơn chỉ biểu diễn quạt trần",
+          "fraction": 0
+        },
+        {
+          "text": "Trục số nguyên",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04_04",
+      "questiontext": "Đọc đoạn văn bản sau: \"Bảng thống kê cho biết số bé trai và bé gái sinh ra trong ba ngày đầu năm 2020 tại một bệnh viện: Ngày 1 có 9 bé trai và 5 bé gái; Ngày 2 có 6 bé trai và 6 bé gái; Ngày 3 có 7 bé trai và 4 bé gái.\" Thông tin toán học cần thiết nhất được phân tích từ văn bản để lập bảng/vẽ biểu đồ so sánh là gì?",
+      "generalfeedback": "Việc phân tích văn bản cho ta đối tượng kiểm đếm (các ngày 1, 2, 3) và hai tập dữ liệu định lượng tương ứng (số bé trai, số bé gái).",
+      "answers": [
+        {
+          "text": "Số lượng bé trai và bé gái tương ứng theo từng ngày (Ngày 1, Ngày 2, Ngày 3)",
+          "fraction": 100
+        },
+        {
+          "text": "Địa chỉ cụ thể và tên của bệnh viện địa phương",
+          "fraction": 0
+        },
+        {
+          "text": "Thời tiết và nhiệt độ của ba ngày đầu năm 2020",
+          "fraction": 0
+        },
+        {
+          "text": "Danh sách bác sĩ đỡ đẻ cho các bé",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

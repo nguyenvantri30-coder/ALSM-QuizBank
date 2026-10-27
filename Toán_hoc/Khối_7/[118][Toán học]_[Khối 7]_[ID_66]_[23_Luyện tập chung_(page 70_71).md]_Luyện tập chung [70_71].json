@@ -1,0 +1,707 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 26,
+    "metadata_used": {
+      "YCCD_TOAN7_087": 4,
+      "YCCD_TOAN7_093": 2,
+      "YCCD_TOAN7_094": 2,
+      "YCCD_TOAN7_096": 3,
+      "Mối liên hệ giữa góc": 2,
+      "cạnh đối diện và đường xiên": 2,
+      "Luyện tập so sánh các góc": 2,
+      "các cạnh và đường xiên trong tam giác": 3,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_TUCHUTUHOC": 1,
+      "NLC_GIAIQUYETVD": 1,
+      "NLT_TOAN_C2_01": 1,
+      "NLT_TOAN_C2_03": 1
+    },
+    "types_used": {
+      "multichoice": 14,
+      "truefalse": 2,
+      "shortanswer": 3,
+      "matching": 2,
+      "gapselect": 1,
+      "numerical": 1,
+      "calculated": 1,
+      "ddwtos": 1,
+      "calculatedsimple": 1
+    },
+    "total": 26
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_087",
+        "reason": "Đo lường trực tiếp kiến thức bất đẳng thức tam giác"
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_093",
+        "reason": "Nhận biết khái niệm đường vuông góc"
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_094",
+        "reason": "Nhận biết khái niệm đường xiên"
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_096",
+        "reason": "Giải thích quan hệ đường vuông góc và đường xiên"
+      },
+      {
+        "metadata_code": "Mối liên hệ giữa góc",
+        "reason": "Mối liên hệ giữa các góc trong tam giác"
+      },
+      {
+        "metadata_code": "cạnh đối diện và đường xiên",
+        "reason": "Mối liên hệ giữa cạnh đối diện và đường xiên"
+      },
+      {
+        "metadata_code": "Luyện tập so sánh các góc",
+        "reason": "Luyện tập so sánh các góc trong tam giác"
+      },
+      {
+        "metadata_code": "các cạnh và đường xiên trong tam giác",
+        "reason": "Luyện tập so sánh các cạnh và đường xiên"
+      },
+      {
+        "metadata_code": "PC_CHAMCHI",
+        "reason": "Đo lường phẩm chất chăm chỉ trong quá trình ôn tập và tự học kiến thức bất đẳng thức tam giác"
+      },
+      {
+        "metadata_code": "PC_TRUNGTHUC",
+        "reason": "Đo lường phẩm chất trung thực khi nhận diện và sửa chữa sai sót trong tính toán hình học"
+      },
+      {
+        "metadata_code": "NLC_TUCHUTUHOC",
+        "reason": "Đo lường năng lực tự chủ và tự học thông qua việc lập sơ đồ tóm tắt hệ thống kiến thức"
+      },
+      {
+        "metadata_code": "NLC_GIAIQUYETVD",
+        "reason": "Đo lường năng lực giải quyết vấn đề và sáng tạo khi ứng dụng kiến thức bài học vào thực tế"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01",
+        "reason": "Đo lường năng lực tư duy và lập luận toán học qua so sánh đường vuông góc và đường xiên"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03",
+        "reason": "Đo lường năng lực giải quyết vấn đề toán học trong bối cảnh kiểm tra góc vuông thực tế"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học thuộc phần hình học thuần túy (quan hệ giữa góc, cạnh, đường vuông góc), không chứa nội dung hay công cụ xử lý dữ liệu tin học/số."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Bài học không có bối cảnh hay nguyên lý ứng dụng trí tuệ nhân tạo (AI) một cách tự nhiên."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_087",
+      "questiontext": "Bộ ba độ dài nào sau đây KHÔNG THỂ là độ dài ba cạnh của một tam giác?",
+      "generalfeedback": "Theo bất đẳng thức tam giác, tổng độ dài hai cạnh bất kỳ phải lớn hơn độ dài cạnh còn lại. Ta có \\(2,5 + 3,4 = 5,9 < 6\\) cm nên bộ ba 2,5 cm; 3,4 cm; 6 cm không thể tạo thành tam giác.",
+      "answers": [
+        {
+          "text": "\\(3\\text{ cm}, 4\\text{ cm}, 5\\text{ cm}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2,5\\text{ cm}, 3,4\\text{ cm}, 6\\text{ cm}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(5\\text{ cm}, 5\\text{ cm}, 8\\text{ cm}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(6\\text{ cm}, 7\\text{ cm}, 10\\text{ cm}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_093",
+      "questiontext": "Trong các đường nối từ một điểm \\(M\\) nằm ngoài đường thẳng \\(d\\) đến các điểm trên \\(d\\), đường vuông góc là đường ngắn nhất.",
+      "generalfeedback": "Theo lý thuyết về quan hệ giữa đường vuông góc và đường xiên, đường vuông góc kẻ từ một điểm đến một đường thẳng luôn ngắn hơn mọi đường xiên kẻ từ điểm đó đến đường thẳng đó.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_094",
+      "imgs": [
+        "_page_0_Picture_7.jpeg"
+      ],
+      "questiontext": "Cho điểm \\(M\\) nằm ngoài đường thẳng \\(Ox\\), kẻ \\(MH \\perp Ox\\) tại \\(H\\) và lấy điểm \\(O\\) khác \\(H\\) trên \\(Ox\\) [img:_page_0_Picture_7.jpeg]. Đoạn thẳng \\(MO\\) được gọi là gì?",
+      "generalfeedback": "Đoạn thẳng \\(MH\\) vuông góc với \\(Ox\\) gọi là đường vuông góc, còn đoạn thẳng \\(MO\\) nối \\(M\\) với điểm \\(O\\) (không trùng \\(H\\)) trên \\(Ox\\) gọi là đường xiên.",
+      "answers": [
+        {
+          "text": "Đường vuông góc kẻ từ \\(M\\) đến \\(Ox\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Đường xiên kẻ từ \\(M\\) đến đường thẳng \\(Ox\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Đường trung trực của đoạn thẳng \\(Ox\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Tia phân giác của góc \\(xOy\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_096",
+      "questiontext": "Cho tam giác \\(ABC\\) vuông tại \\(A\\). Trong ba cạnh \\(AB, AC, BC\\), cạnh nào có độ dài lớn nhất?",
+      "generalfeedback": "Trong tam giác vuông \\(ABC\\) vuông tại \\(A\\), góc \\(A\\) là góc vuông (lớn nhất trong tam giác) nên cạnh đối diện \\(BC\\) (cạnh huyền) có độ dài lớn nhất.",
+      "answers": [
+        {
+          "text": "BC",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Mối liên hệ giữa góc",
+      "questiontext": "Ghép mỗi loại tam giác ở cột trái với đặc điểm của góc đối diện cạnh lớn nhất ở cột phải:",
+      "generalfeedback": "Trong một tam giác, góc đối diện với cạnh lớn nhất là góc lớn nhất của tam giác đó.",
+      "subquestions": [
+        {
+          "question": "Tam giác tù",
+          "answer": "Góc đối diện cạnh lớn nhất là góc tù"
+        },
+        {
+          "question": "Tam giác vuông",
+          "answer": "Góc đối diện cạnh lớn nhất là góc vuông"
+        },
+        {
+          "question": "Tam giác nhọn",
+          "answer": "Góc đối diện cạnh lớn nhất là góc nhọn"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "cạnh đối diện và đường xiên",
+      "questiontext": "Cho điểm \\(A\\) nằm ngoài đường thẳng \\(d\\). Kẻ \\(AH \\perp d\\) tại \\(H\\) và hai đường xiên \\(AB, AC\\) đến \\(d\\) (với \\(B, C \\in d\\)). Nếu hình chiếu \\(HB < HC\\) thì đường xiên \\(AB\\) [[1]] đường xiên \\(AC\\). Ngược lại, đường vuông góc \\(AH\\) luôn [[1]] mọi đường xiên \\(AB\\).",
+      "generalfeedback": "Đường xiên nào có hình chiếu lớn hơn thì lớn hơn, do đó \\(HB < HC \\Rightarrow AB < AC\\). Đường vuông góc luôn nhỏ hơn mọi đường xiên.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "nhỏ hơn"
+        },
+        {
+          "group": 1,
+          "text": "lớn hơn"
+        },
+        {
+          "group": 1,
+          "text": "bằng"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Luyện tập so sánh các góc",
+      "questiontext": "Tính chu vi của một tam giác cân (theo cm) biết hai cạnh của nó có độ dài là 2 cm và 5 cm. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Theo bất đẳng thức tam giác, độ dài cạnh thứ ba \\(x\\) thỏa mãn \\(5 - 2 < x < 5 + 2 \\Rightarrow 3 < x < 7\\). Do tam giác cân nên \\(x\\) chỉ có thể bằng 5 cm. Chu vi tam giác là \\(2 + 5 + 5 = 12\\) cm.",
+      "answers": [
+        {
+          "text": "12",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "các cạnh và đường xiên trong tam giác",
+      "imgs": [
+        "_page_1_Figure_2.jpeg"
+      ],
+      "questiontext": "Cho hình vuông \\(ABCD\\) và điểm \\(M\\) là một điểm tùy ý nằm trên cạnh \\(BC\\) [img:_page_1_Figure_2.jpeg]. So sánh độ dài đoạn thẳng \\(AM\\) và cạnh \\(AB\\) của hình vuông.",
+      "generalfeedback": "Do \\(ABCD\\) là hình vuông nên \\(AB \\perp BC\\). Do đó \\(AB\\) là đường vuông góc kẻ từ \\(A\\) đến đường thẳng \\(BC\\), còn \\(AM\\) là đường xiên (hoặc trùng với \\(AB\\) khi \\(M \\equiv B\\)). Do đó \\(AM \\ge AB\\).",
+      "answers": [
+        {
+          "text": "\\(AM < AB\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(AM \\ge AB\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(AM = \\frac{1}{2} AB\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(AM < \\frac{1}{2} AB\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_087",
+      "questiontext": "Cho một tam giác có hai cạnh độ dài là {a} cm và {b} cm (với {a} < {b}). Theo bất đẳng thức tam giác, tổng độ dài hai cạnh này là bao nhiêu cm?",
+      "generalfeedback": "Tổng độ dài hai cạnh của tam giác có độ dài \\({a}\\) cm và \\({b}\\) cm là \\({a} + {b}\\) cm.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 5.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 6.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}+{b}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_096",
+      "questiontext": "Trong tam giác \\(ABC\\), nếu góc \\(B\\) là góc tù thì cạnh \\(AC\\) là cạnh có độ dài lớn nhất trong tam giác.",
+      "generalfeedback": "Trong một tam giác, góc tù là góc lớn nhất, do đó cạnh đối diện với góc tù (ở đây là cạnh \\(AC\\)) có độ dài lớn nhất.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_087",
+      "questiontext": "Cho tam giác \\(ABC\\) có \\(AB = 7\\text{ cm}\\) và \\(AC = 2\\text{ cm}\\). Biết độ dài cạnh \\(BC\\) (theo cm) là một số tự nhiên lẻ. Độ dài cạnh \\(BC\\) bằng bao nhiêu?",
+      "generalfeedback": "Theo bất đẳng thức tam giác, ta có \\(7 - 2 < BC < 7 + 2 \\Rightarrow 5 < BC < 9\\). Vì số đo \\(BC\\) là số tự nhiên lẻ nên \\(BC = 7\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "\\(5\\text{ cm}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(6\\text{ cm}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(7\\text{ cm}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(8\\text{ cm}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_093",
+      "questiontext": "Hình chiếu của điểm \\(M\\) trên đường thẳng \\(d\\) là giao điểm của đường thẳng \\(d\\) với đường thẳng nào kẻ từ \\(M\\)?",
+      "generalfeedback": "Hình chiếu của điểm \\(M\\) trên đường thẳng \\(d\\) là giao điểm của đường thẳng \\(d\\) với đường vuông góc kẻ từ \\(M\\) đến \\(d\\).",
+      "answers": [
+        {
+          "text": "đường vuông góc",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_094",
+      "imgs": [
+        "_page_0_Picture_7.jpeg"
+      ],
+      "questiontext": "Cho góc \\(xOy\\) và điểm \\(M\\) nằm trong góc đó sao cho khoảng cách từ \\(M\\) đến \\(Ox\\) bằng khoảng cách từ \\(M\\) đến \\(Oy\\) [img:_page_0_Picture_7.jpeg]. Khẳng định nào sau đây là ĐÚNG?",
+      "generalfeedback": "Điểm nằm bên trong một góc và cách đều hai cạnh của góc thì nằm trên tia phân giác của góc đó.",
+      "answers": [
+        {
+          "text": "Điểm \\(M\\) nằm trên tia phân giác của góc \\(xOy\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Điểm \\(M\\) là trung điểm của đoạn thẳng \\(OH\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Đoạn thẳng \\(OM\\) vuông góc với tia phân giác của góc \\(xOy\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Tam giác \\(OHM\\) là tam giác đều",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_096",
+      "questiontext": "Trong tam giác \\(BCD\\), nếu góc \\(BCD\\) lớn hơn góc \\(BDC\\) thì cạnh \\(BD\\) [[1]] cạnh \\(BC\\). Điều này dựa trên quan hệ giữa [[2]] trong tam giác.",
+      "generalfeedback": "Trong một tam giác, cạnh đối diện với góc lớn hơn thì lớn hơn. Do góc BCD > góc BDC nên BD > BC.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "lớn hơn"
+        },
+        {
+          "group": 1,
+          "text": "nhỏ hơn"
+        },
+        {
+          "group": 1,
+          "text": "bằng"
+        },
+        {
+          "group": 1,
+          "text": "góc và cạnh đối diện"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "Mối liên hệ giữa góc",
+      "imgs": [
+        "_page_1_Picture_20.jpeg"
+      ],
+      "questiontext": "Xét tam giác \\(ABC\\) trong các trường hợp về góc \\(B\\) và \\(C\\) [img:_page_1_Picture_20.jpeg], hãy ghép mỗi trường hợp ở cột trái với lập luận so sánh đúng ở cột phải:",
+      "generalfeedback": "Dựa vào định lý quan hệ giữa góc và cạnh đối diện hoặc kẻ đường cao AH để so sánh các đoạn thẳng.",
+      "subquestions": [
+        {
+          "question": "Góc B là góc tù",
+          "answer": "AC là cạnh lớn nhất nên BC < AB + AC"
+        },
+        {
+          "question": "Góc C là góc tù",
+          "answer": "AB là cạnh lớn nhất nên BC < AB + AC"
+        },
+        {
+          "question": "Góc B và C đều là góc nhọn",
+          "answer": "Kẻ AH vuông góc với BC, có BC = BH + HC < AB + AC"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "cạnh đối diện và đường xiên",
+      "questiontext": "Cho tam giác \\(ABC\\) có \\(AB < AC\\). Kẻ \\(AH \\perp BC\\) tại \\(H\\). So sánh độ dài hai hình chiếu \\(HB\\) và \\(HC\\) của hai đường xiên \\(AB\\) và \\(AC\\) trên đường thẳng \\(BC\\).",
+      "generalfeedback": "Trong hai đường xiên kẻ từ một điểm đến một đường thẳng, đường xiên nào lớn hơn thì có hình chiếu lớn hơn. Vì AB < AC nên HB < HC.",
+      "answers": [
+        {
+          "text": "\\(HB < HC\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(HB > HC\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(HB = HC\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(HB = 2HC\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Luyện tập so sánh các góc",
+      "questiontext": "Cho tam giác \\(ABC\\) có \\(AB = 4\\text{ cm}, BC = 7\\text{ cm}, AC = 9\\text{ cm}\\). Sắp xếp các góc của tam giác \\(ABC\\) theo thứ tự từ nhỏ đến lớn.",
+      "generalfeedback": "Trong tam giác ABC, vì AB < BC < AC (4 cm < 7 cm < 9 cm) nên các góc đối diện tương ứng thỏa mãn: góc C < góc A < góc B.",
+      "answers": [
+        {
+          "text": "\\(\\widehat{C} < \\widehat{A} < \\widehat{B}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\widehat{A} < \\widehat{B} < \\widehat{C}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\widehat{B} < \\widehat{A} < \\widehat{C}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\widehat{C} < \\widehat{B} < \\widehat{A}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "các cạnh và đường xiên trong tam giác",
+      "imgs": [
+        "_page_1_Picture_8.jpeg"
+      ],
+      "questiontext": "Hai khu vườn A và B nằm về một phía của con kênh d [img:_page_1_Picture_8.jpeg]. Để tổng độ dài đường ống từ máy bơm C trên bờ kênh d đến A và B là ngắn nhất, ta chọn điểm C là giao điểm của bờ kênh d với đoạn thẳng nối điểm A và điểm nào?",
+      "generalfeedback": "Gọi B' là điểm đối xứng với B qua d. Khi đó CB = CB', nên CA + CB = CA + CB'. Tổng này ngắn nhất khi C, A, B' thẳng hàng, tức C là giao điểm của d và AB'.",
+      "answers": [
+        {
+          "text": "B'",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "thong_hieu",
+      "metadata_code": "các cạnh và đường xiên trong tam giác",
+      "questiontext": "Cho tam giác có hai cạnh có độ dài bằng {a} cm và {b} cm. Chu vi của tam giác đó luôn nhỏ hơn bao nhiêu cm? (Trả về biểu thức tính theo {a} và {b})",
+      "generalfeedback": "Gọi c là cạnh thứ ba của tam giác. Theo bất đẳng thức tam giác, c < a + b. Chu vi tam giác là a + b + c < a + b + (a + b) = 2*(a + b).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 6.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 3.0,
+          "max": 8.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "2*({a}+{b})",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_087",
+      "questiontext": "Cho tam giác có độ dài hai cạnh là \\(a\\) và \\(b\\). Chu vi \\(P\\) của tam giác đó luôn thỏa mãn bất đẳng thức nào sau đây?",
+      "generalfeedback": "Gọi cạnh thứ ba là c. Ta có c > |a - b| và c < a + b. Ngoài ra c > 0 nên chu vi P = a + b + c > 2a (khi b > 0, c > a - b) và P < 2(a + b).",
+      "answers": [
+        {
+          "text": "\\(2a < P < 2(a + b)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(P < a + b\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(P > 4(a + b)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a + b < P < a + 2b\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Trong giờ học Toán bài \"Luyện tập quan hệ giữa góc, cạnh và đường vuông góc\", khi gặp bài toán kiểm tra xem ba độ dài \\(2,5\\text{ cm}\\); \\(3,4\\text{ cm}\\) và \\(6\\text{ cm}\\) có thể lập thành một tam giác hay không, bạn Nam chưa nhớ rõ định lý bất đẳng thức tam giác. Hành động nào sau đây thể hiện tinh thần chăm chỉ và thái độ học tập đúng đắn của Nam?",
+      "generalfeedback": "Tự giác mở lại SGK để ôn lại bất đẳng thức tam giác và thực hiện kiểm tra \\(2,5 + 3,4 = 5,9 < 6\\) cm thể hiện tinh thần chăm chỉ, tự giác trong học tập.",
+      "answers": [
+        {
+          "text": "Tự giác mở lại SGK ôn lại bất đẳng thức tam giác, tính thử \\(2,5 + 3,4 = 5,9 < 6\\) cm và kết luận không lập thành tam giác",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài tập và chờ giáo viên chữa bài trên lớp",
+          "fraction": 0
+        },
+        {
+          "text": "Đoán mò kết quả để hoàn thành nhanh bài tập",
+          "fraction": 0
+        },
+        {
+          "text": "Chép đáp án của bạn bên cạnh mà không tìm hiểu lý do",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Khi làm bài tập tính chu vi tam giác cân có hai cạnh \\(2\\text{ cm}\\) và \\(5\\text{ cm}\\), bạn Lan lỡ tính nhầm cạnh còn lại là \\(2\\text{ cm}\\) nên ra chu vi \\(9\\text{ cm}\\). Khi giáo viên chỉ ra rằng bộ ba \\(2\\text{ cm}, 2\\text{ cm}, 5\\text{ cm}\\) vi phạm bất đẳng thức tam giác (vì \\(2 + 2 < 5\\)), Lan nên có thái độ trung thực như thế nào?",
+      "generalfeedback": "Thành thật nhận lỗi tính sai, kiểm tra lại bất đẳng thức tam giác và sửa lại đáp án đúng thể hiện tính trung thực và trách nhiệm trong học tập.",
+      "answers": [
+        {
+          "text": "Thành thật nhận lỗi tính sai, kiểm tra lại bất đẳng thức tam giác \\(2 + 2 < 5\\) và điều chỉnh cạnh còn lại phải là \\(5\\text{ cm}\\) (chu vi \\(12\\text{ cm}\\))",
+          "fraction": 100
+        },
+        {
+          "text": "Khăng khăng khẳng định bài làm của mình đúng và cho rằng đề bài sai",
+          "fraction": 0
+        },
+        {
+          "text": "Sửa kết quả trong vở nhưng nói dối thầy cô là mình làm đúng từ đầu",
+          "fraction": 0
+        },
+        {
+          "text": "Tỏ thái độ bực bội và không chịu làm lại bài tập",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Để tự học hiệu quả bài \"Luyện tập chung về quan hệ giữa góc, cạnh và đường vuông góc\", bạn An muốn lập sơ đồ tóm tắt kiến thức cốt lõi. Sơ đồ nào sau đây sắp xếp đúng và logic nhất các nội dung kiến thức của bài?",
+      "generalfeedback": "Sơ đồ hệ thống hóa đúng các nội dung trọng tâm của bài học giúp rèn luyện năng lực tự chủ và tự học.",
+      "answers": [
+        {
+          "text": "Quan hệ giữa góc và cạnh đối diện \\(\\rightarrow\\) Đường vuông góc và đường xiên \\(\\rightarrow\\) Bất đẳng thức tam giác",
+          "fraction": 100
+        },
+        {
+          "text": "Bất đẳng thức tam giác \\(\\rightarrow\\) Đường trung trực \\(\\rightarrow\\) Công thức diện tích tam giác",
+          "fraction": 0
+        },
+        {
+          "text": "Đường vuông góc và đường xiên \\(\\rightarrow\\) Định lý Pythagore \\(\\rightarrow\\) Tam giác đồng dạng",
+          "fraction": 0
+        },
+        {
+          "text": "Quan hệ giữa góc và cạnh đối diện \\(\\rightarrow\\) Tỷ số lượng giác \\(\\rightarrow\\) Bất đẳng thức tam giác",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLC_GIAIQUYETVD",
+      "imgs": [
+        "_page_1_Picture_8.jpeg"
+      ],
+      "questiontext": "Cho hai khu vườn \\(A\\) và \\(B\\) nằm cùng một phía đối với con kênh thẳng \\(d\\) [img:_page_1_Picture_8.jpeg]. Để đặt máy bơm nước tại điểm \\(C\\) trên bờ kênh sao cho tổng độ dài đường ống \\(CA + CB\\) là ngắn nhất, bạn Bình đã áp dụng sáng tạo kiến thức toán học nào?",
+      "generalfeedback": "Lấy điểm đối xứng \\(B'\\) của \\(B\\) qua đường thẳng \\(d\\) và áp dụng bất đẳng thức tam giác \\(CA + CB' \\ge AB'\\) giúp giải quyết sáng tạo bài toán thực tế.",
+      "answers": [
+        {
+          "text": "Dùng điểm đối xứng \\(B'\\) của \\(B\\) qua bờ kênh \\(d\\) và áp dụng bất đẳng thức tam giác để xác định giao điểm \\(C\\) của \\(AB'\\) với \\(d\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Chọn điểm \\(C\\) là trung điểm của đoạn thẳng nối hình chiếu của \\(A\\) và \\(B\\) trên bờ kênh",
+          "fraction": 0
+        },
+        {
+          "text": "Đặt máy bơm tại vị trí vuông góc với đoạn thẳng \\(AB\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Chọn một điểm bất kỳ trên bờ kênh rồi đo trực tiếp bằng dây",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "imgs": [
+        "_page_1_Figure_2.jpeg"
+      ],
+      "questiontext": "Cho hình vuông \\(ABCD\\) và điểm \\(M\\) nằm trên cạnh \\(CD\\) [img:_page_1_Figure_2.jpeg]. Bạn Mai lập luận: \"Vì \\(AD \\perp CD\\) nên \\(AD\\) là đường vuông góc kẻ từ \\(A\\) đến đường thẳng \\(CD\\), còn \\(AM\\) là đường xiên. Do đó \\(AM \\ge AD\\)\". Lập luận của Mai dựa trên cơ sở toán học nào?",
+      "generalfeedback": "Lập luận toán học dựa trên định lý: Trong các đường vuông góc và đường xiên kẻ từ một điểm đến một đường thẳng, đường vuông góc là đường ngắn nhất.",
+      "answers": [
+        {
+          "text": "Đường vuông góc kẻ từ một điểm đến một đường thẳng luôn ngắn hơn hoặc bằng mọi đường xiên kẻ từ điểm đó đến đường thẳng đó",
+          "fraction": 100
+        },
+        {
+          "text": "Hai đường thẳng cùng vuông góc với đường thẳng thứ ba thì song song với nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Tổng ba góc trong một tam giác bằng \\(180^\\circ\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Đường trung trực của một đoạn thẳng thì vuông góc với đoạn thẳng đó tại trung điểm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "questiontext": "Một bác thợ xây muốn kiểm tra xem góc giữa bức tường và sàn nhà tại chân tường \\(H\\) có chuẩn góc vuông không. Bác lấy điểm \\(A\\) trên tường cách \\(H\\) là \\(30\\text{ cm}\\), điểm \\(B\\) trên sàn cách \\(H\\) là \\(40\\text{ cm}\\) rồi đo khoảng cách \\(AB\\). Nếu góc tại \\(H\\) là góc vuông, cạnh \\(AB\\) bắt buộc phải có độ dài lớn hơn cả \\(AH\\) và \\(BH\\) vì lý do toán học nào?",
+      "generalfeedback": "Trong tam giác vuông, góc vuông là góc lớn nhất nên cạnh đối diện (cạnh huyền) có độ dài lớn nhất.",
+      "answers": [
+        {
+          "text": "Trong tam giác vuông, góc vuông là góc lớn nhất nên cạnh huyền đối diện góc vuông luôn lớn hơn hai cạnh góc vuông",
+          "fraction": 100
+        },
+        {
+          "text": "Tổng hai góc nhọn trong tam giác vuông bằng \\(90^\\circ\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Đường vuông góc luôn lớn hơn đường xiên kẻ từ cùng một điểm",
+          "fraction": 0
+        },
+        {
+          "text": "Hai cạnh góc vuông luôn bằng nhau trong tam giác vuông",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

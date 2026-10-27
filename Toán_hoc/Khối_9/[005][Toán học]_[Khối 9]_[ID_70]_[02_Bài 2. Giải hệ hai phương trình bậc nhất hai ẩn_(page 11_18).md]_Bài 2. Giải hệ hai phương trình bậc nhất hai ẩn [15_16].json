@@ -1,0 +1,687 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 28,
+    "metadata_used": {
+      "Quy trình thao tác phím MTCT tìm nghiệm hệ hai phương trình bậc nhất hai ẩn": 9,
+      "Thao tác phím MTCT giải hệ hai phương trình bậc nhất hai ẩn": 5,
+      "YCCD_TOAN9_027": 3,
+      "Sử dụng MTCT kiểm tra lại nghiệm của hệ phương trình": 3,
+      "SUB_CHAMCHI_HAMHOC_C2_03": 2,
+      "SUB_TCTH_TUHOC_C2_01": 2,
+      "NLT_TOAN_C2_05_07": 2,
+      "5.2TC2b_K9": 2
+    },
+    "types_used": {
+      "multichoice": 15,
+      "truefalse": 6,
+      "gapselect": 3,
+      "matching": 2,
+      "ddwtos": 1,
+      "shortanswer": 1
+    },
+    "total": 28
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN9_027",
+        "reason": "Nội dung học tập về sử dụng MTCT để tìm nghiệm của hệ phương trình bậc nhất hai ẩn"
+      },
+      {
+        "metadata_code": "Quy trình thao tác phím MTCT tìm nghiệm hệ hai phương trình bậc nhất hai ẩn",
+        "reason": "Nội dung trình bày rõ quy trình thao tác phím MTCT tìm nghiệm hệ hai phương trình bậc nhất hai ẩn"
+      },
+      {
+        "metadata_code": "Thao tác phím MTCT giải hệ hai phương trình bậc nhất hai ẩn",
+        "reason": "Học sinh thực hành thao tác bấm phím máy tính cầm tay giải hệ hai phương trình bậc nhất hai ẩn"
+      },
+      {
+        "metadata_code": "Sử dụng MTCT kiểm tra lại nghiệm của hệ phương trình",
+        "reason": "Áp dụng MTCT để kiểm tra lại nghiệm của hệ phương trình"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học không đề cập đến nguyên lý hoặc ứng dụng của Trí tuệ nhân tạo (AI)"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Quy trình thao tác phím MTCT tìm nghiệm hệ hai phương trình bậc nhất hai ẩn",
+      "questiontext": "Trước khi sử dụng máy tính cầm tay để giải hệ hai phương trình bậc nhất hai ẩn, hệ phương trình cần được đưa về dạng chuẩn nào sau đây?",
+      "generalfeedback": "Để sử dụng chức năng giải hệ hai phương trình bậc nhất hai ẩn trên máy tính cầm tay, hệ phương trình cần được viết dưới dạng chuẩn \\(\\begin{cases} a_1x + b_1y = c_1 \\\\ a_2x + b_2y = c_2 \\end{cases}\\).",
+      "answers": [
+        {
+          "text": "\\(\\begin{cases} a_1x + b_1y = c_1 \\\\ a_2x + b_2y = c_2 \\end{cases}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\begin{cases} a_1x + b_1y + c_1 = 0 \\\\ a_2x + b_2y + c_2 = 0 \\end{cases}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\begin{cases} a_1x = b_1y + c_1 \\\\ a_2x = b_2y + c_2 \\end{cases}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\begin{cases} a_1x + b_1y + c_1 = d_1 \\\\ a_2x + b_2y + c_2 = d_2 \\end{cases}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Quy trình thao tác phím MTCT tìm nghiệm hệ hai phương trình bậc nhất hai ẩn",
+      "questiontext": "Khi đang nhập các hệ số vào máy tính cầm tay để giải hệ phương trình, nếu muốn xóa số vừa mới nhập thì bấm phím [AC].",
+      "generalfeedback": "Theo hướng dẫn trong SGK, muốn xóa số vừa mới nhập thì bấm phím [AC]; muốn thay đổi số đã nhập ở một vị trí nào đó thì di chuyển con trỏ đến vị trí đó rồi nhập số mới.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Quy trình thao tác phím MTCT tìm nghiệm hệ hai phương trình bậc nhất hai ẩn",
+      "questiontext": "Khi giải hệ hai phương trình bậc nhất hai ẩn bằng máy tính cầm tay, nếu màn hình hiển thị \"Infinite Sol\" thì hệ phương trình đó [[1]], còn nếu hiển thị \"No-Solution\" thì hệ phương trình đó [[2]].",
+      "generalfeedback": "Trong màn hình hiển thị của máy tính cầm tay, \"Infinite Sol\" nghĩa là hệ phương trình có vô số nghiệm, và \"No-Solution\" nghĩa là hệ phương trình vô nghiệm.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "có vô số nghiệm"
+        },
+        {
+          "group": 1,
+          "text": "vô nghiệm"
+        },
+        {
+          "group": 1,
+          "text": "có nghiệm duy nhất"
+        },
+        {
+          "group": 1,
+          "text": "có hai nghiệm phân biệt"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Thao tác phím MTCT giải hệ hai phương trình bậc nhất hai ẩn",
+      "questiontext": "Để nhập các hệ số vào máy tính cầm tay giải hệ phương trình \\(\\begin{cases} 12x - 5y + 24 = 0 \\\\ -5x - 3y - 10 = 0 \\end{cases}\\), ta cần chuyển hệ phương trình về dạng chuẩn. Bộ hệ số \\((a_1; b_1; c_1; a_2; b_2; c_2)\\) nhập vào máy tính là:",
+      "generalfeedback": "Chuyển hệ phương trình về dạng chuẩn: \\(\\begin{cases} 12x - 5y = -24 \\\\ -5x - 3y = 10 \\end{cases}\\). Do đó bộ hệ số tương ứng là \\((12; -5; -24; -5; -3; 10)\\).",
+      "answers": [
+        {
+          "text": "\\((12; -5; -24; -5; -3; 10)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\((12; -5; 24; -5; -3; -10)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((12; 5; -24; -5; 3; 10)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((-24; 12; -5; 10; -5; -3)\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Thao tác phím MTCT giải hệ hai phương trình bậc nhất hai ẩn",
+      "questiontext": "Sử dụng máy tính cầm tay để tìm nghiệm \\((x; y)\\) của hệ phương trình \\(\\begin{cases} 12x - 5y + 24 = 0 \\\\ -5x - 3y - 10 = 0 \\end{cases}\\). Kết quả nghiệm \\((x; y)\\) là:",
+      "generalfeedback": "Đưa hệ về dạng chuẩn: \\(\\begin{cases} 12x - 5y = -24 \\\\ -5x - 3y = 10 \\end{cases}\\). Nhập hệ số vào MTCT ta thu được \\(x = -2\\) và \\(y = 0\\). Vậy nghiệm của hệ là \\((-2; 0)\\).",
+      "answers": [
+        {
+          "text": "\\((-2; 0)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\((2; 0)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((-2; 4)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((0; -2)\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_027",
+      "questiontext": "Sử dụng máy tính cầm tay thích hợp, nghiệm của hệ phương trình \\(\\begin{cases} 2x + 3y = -4 \\\\ -3x - 7y = 13 \\end{cases}\\) là:",
+      "generalfeedback": "Nhập các hệ số \\(a_1=2, b_1=3, c_1=-4; a_2=-3, b_2=-7, c_2=13\\) vào MTCT. Bấm phím '=' máy hiện \\(x = 2,2\\) (hoặc \\(\\frac{11}{5}\\)), bấm tiếp phím '=' máy hiện \\(y = -2,8\\) (hoặc \\(-\\frac{14}{5}\\)).",
+      "answers": [
+        {
+          "text": "\\((2,2; -2,8)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\((-2,2; 2,8)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((2,8; -2,2)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((-2,8; 2,2)\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_027",
+      "questiontext": "Khi sử dụng máy tính cầm tay để tìm nghiệm của hệ phương trình \\(\\begin{cases} 2x + 3y = 1 \\\\ -x - 1,5y = 1 \\end{cases}\\), màn hình máy tính hiển thị \"No-Solution\", điều này có nghĩa là hệ phương trình đã cho vô nghiệm.",
+      "generalfeedback": "Nhập các hệ số vào MTCT, màn hình báo \"No-Solution\", điều này chứng tỏ hệ phương trình vô nghiệm.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Quy trình thao tác phím MTCT tìm nghiệm hệ hai phương trình bậc nhất hai ẩn",
+      "questiontext": "Ghép nối thông báo hoặc thao tác trên máy tính cầm tay ở cột bên trái với ý nghĩa tương ứng ở cột bên phải khi giải hệ phương trình bậc nhất hai ẩn:",
+      "generalfeedback": "Màn hình 'Infinite Sol' chỉ vô số nghiệm, 'No-Solution' chỉ vô nghiệm, phím '=' dùng để xuất kết quả nghiệm x, y.",
+      "subquestions": [
+        {
+          "question": "Màn hình hiển thị \"Infinite Sol\"",
+          "answer": "Hệ phương trình có vô số nghiệm"
+        },
+        {
+          "question": "Màn hình hiển thị \"No-Solution\"",
+          "answer": "Hệ phương trình vô nghiệm"
+        },
+        {
+          "question": "Bấm phím '=' sau khi nhập đủ các hệ số",
+          "answer": "Hiển thị giá trị nghiệm x (hoặc y)"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Quy trình thao tác phím MTCT tìm nghiệm hệ hai phương trình bậc nhất hai ẩn",
+      "questiontext": "Hoàn thành quy trình giải hệ phương trình bậc nhất hai ẩn bằng MTCT: Bước 1: Vào chức năng giải hệ phương trình. Bước 2: Nhập lần lượt các [[1]] \\(a_1, b_1, c_1, a_2, b_2, c_2\\) bằng phím '='. Bước 3: Đọc [[2]] trên màn hình khi bấm phím '='.",
+      "generalfeedback": "Bước 2 là nhập các hệ số của hệ phương trình, Bước 3 là đọc kết quả (nghiệm) hiển thị trên màn hình.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "hệ số"
+        },
+        {
+          "group": 1,
+          "text": "kết quả"
+        },
+        {
+          "group": 1,
+          "text": "ẩn số"
+        },
+        {
+          "group": 1,
+          "text": "phương trình"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Sử dụng MTCT kiểm tra lại nghiệm của hệ phương trình",
+      "questiontext": "Sử dụng máy tính cầm tay để kiểm tra số nghiệm của hệ phương trình \\(\\begin{cases} 8x - 2y = 6 \\\\ 4x - y = 3 \\end{cases}\\). Kết quả hiển thị trên màn hình máy tính cho biết hệ phương trình có:",
+      "generalfeedback": "Nhập các hệ số \\(a_1=8, b_1=-2, c_1=6; a_2=4, b_2=-1, c_2=3\\) vào MTCT. Máy tính hiển thị \"Infinite Sol\", tức là hệ phương trình có vô số nghiệm.",
+      "answers": [
+        {
+          "text": "Vô số nghiệm (màn hình báo Infinite Sol)",
+          "fraction": 100
+        },
+        {
+          "text": "Vô nghiệm (màn hình báo No-Solution)",
+          "fraction": 0
+        },
+        {
+          "text": "Một nghiệm duy nhất",
+          "fraction": 0
+        },
+        {
+          "text": "Hai nghiệm phân biệt",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Quy trình thao tác phím MTCT tìm nghiệm hệ hai phương trình bậc nhất hai ẩn",
+      "questiontext": "Để chuyển đổi hiển thị giữa các giá trị nghiệm \\(x\\) và \\(y\\) trên màn hình kết quả của máy tính cầm tay, ta bấm các phím nào?",
+      "generalfeedback": "Theo chú ý trong SGK, bấm phím 🔼 hay 🔽 để chuyển đổi hiển thị các giá trị của x và y trong kết quả.",
+      "answers": [
+        {
+          "text": "🔼 hay 🔽",
+          "fraction": 100
+        },
+        {
+          "text": "MODE hay 1",
+          "fraction": 0
+        },
+        {
+          "text": "AC hay ON",
+          "fraction": 0
+        },
+        {
+          "text": "SHIFT hay ALPHA",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Thao tác phím MTCT giải hệ hai phương trình bậc nhất hai ẩn",
+      "questiontext": "Khi tìm nghiệm của hệ phương trình \\(\\begin{cases} \\frac{1}{3}x - y = \\frac{2}{3} \\\\ x - 3y = 2 \\end{cases}\\) bằng máy tính cầm tay, màn hình máy tính hiển thị thông báo nào?",
+      "generalfeedback": "Nhập các hệ số \\(a_1=\\frac{1}{3}, b_1=-1, c_1=\\frac{2}{3}; a_2=1, b_2=-3, c_2=2\\) vào MTCT. Máy tính hiển thị \"Infinite Sol\" tức là hệ phương trình có vô số nghiệm.",
+      "answers": [
+        {
+          "text": "Infinite Sol",
+          "fraction": 100
+        },
+        {
+          "text": "No-Solution",
+          "fraction": 0
+        },
+        {
+          "text": "x = 2, y = 0",
+          "fraction": 0
+        },
+        {
+          "text": "Error",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_027",
+      "questiontext": "Sử dụng máy tính cầm tay để tìm nghiệm của hệ phương trình \\(\\begin{cases} 3x - 2y = 1 \\\\ -x + \\frac{2}{3}y = 0 \\end{cases}\\). Màn hình máy tính hiển thị thông báo nào sau đây?",
+      "generalfeedback": "Nhập các hệ số \\(a_1=3, b_1=-2, c_1=1; a_2=-1, b_2=\\frac{2}{3}, c_2=0\\) vào MTCT. Máy tính báo \"No-Solution\" chứng tỏ hệ phương trình vô nghiệm.",
+      "answers": [
+        {
+          "text": "No-Solution",
+          "fraction": 100
+        },
+        {
+          "text": "Infinite Sol",
+          "fraction": 0
+        },
+        {
+          "text": "x = 1, y = 1",
+          "fraction": 0
+        },
+        {
+          "text": "x = 0, y = 0",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Thao tác phím MTCT giải hệ hai phương trình bậc nhất hai ẩn",
+      "questiontext": "Dùng máy tính cầm tay tìm nghiệm của hệ phương trình \\(\\begin{cases} \\frac{4}{9}x - \\frac{3}{5}y = 11 \\\\ \\frac{2}{9}x + \\frac{1}{5}y = -2 \\end{cases}\\). Giá trị của \\(x\\) và \\(y\\) lần lượt là:",
+      "generalfeedback": "Nhập các hệ số \\(a_1=\\frac{4}{9}, b_1=-\\frac{3}{5}, c_1=11; a_2=\\frac{2}{9}, b_2=\\frac{1}{5}, c_2=-2\\). Bấm phím '=' máy cho \\(x = 9\\), bấm tiếp phím '=' máy cho \\(y = -15\\).",
+      "answers": [
+        {
+          "text": "x = 9; y = -15",
+          "fraction": 100
+        },
+        {
+          "text": "x = -9; y = 15",
+          "fraction": 0
+        },
+        {
+          "text": "x = 15; y = -9",
+          "fraction": 0
+        },
+        {
+          "text": "x = -15; y = 9",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Quy trình thao tác phím MTCT tìm nghiệm hệ hai phương trình bậc nhất hai ẩn",
+      "imgs": [
+        "_page_4_Picture_17.jpeg"
+      ],
+      "questiontext": "Sau khi kết thúc việc nhập các hệ số và bấm phím '=', màn hình máy tính cầm tay hiển thị như hình dưới đây:\n[img:_page_4_Picture_17.jpeg]\nNghiệm \\(x\\) của hệ phương trình được chỉ ra trên màn hình là bao nhiêu?",
+      "generalfeedback": "Trên màn hình hình ảnh hiển thị X = -1. Do đó nghiệm x của hệ phương trình là -1.",
+      "answers": [
+        {
+          "text": "-1",
+          "fraction": 100
+        },
+        {
+          "text": "2",
+          "fraction": 0
+        },
+        {
+          "text": "1",
+          "fraction": 0
+        },
+        {
+          "text": "-2",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Sử dụng MTCT kiểm tra lại nghiệm của hệ phương trình",
+      "questiontext": "Bạn Nam giải hệ phương trình \\(\\begin{cases} 2x + 3y = 4 \\\\ 5x + 6y = 7 \\end{cases}\\) ra kết quả \\((x; y) = (1; -2)\\). Khi dùng máy tính cầm tay để kiểm tra lại, máy báo \\(x = -1\\) và \\(y = 2\\). Như vậy kết quả giải của bạn Nam là sai.",
+      "generalfeedback": "Khi kiểm tra bằng máy tính cầm tay, hệ phương trình \\(\\begin{cases} 2x + 3y = 4 \\\\ 5x + 6y = 7 \\end{cases}\\) có nghiệm duy nhất là \\((-1; 2)\\). Vì vậy kết quả \\((1; -2)\\) của bạn Nam là sai.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Sử dụng MTCT kiểm tra lại nghiệm của hệ phương trình",
+      "questiontext": "Sử dụng máy tính cầm tay để kiểm tra xem hệ phương trình \\(\\begin{cases} 2x + 3y = 4 \\\\ 5x + 6y = 7 \\end{cases}\\) có giá trị nghiệm \\(y\\) bằng bao nhiêu. (Chỉ điền giá trị số)",
+      "generalfeedback": "Nhập các hệ số 2, 3, 4, 5, 6, 7 vào MTCT. Bấm phím '=' nhận được \\(x = -1\\), bấm tiếp phím '=' nhận được \\(y = 2\\).",
+      "answers": [
+        {
+          "text": "2",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Quy trình thao tác phím MTCT tìm nghiệm hệ hai phương trình bậc nhất hai ẩn",
+      "questiontext": "Để tìm nghiệm của hệ phương trình \\(\\begin{cases} 2x + 3y - 4 = 0 \\\\ 5x + 6y - 7 = 0 \\end{cases}\\) bằng máy tính cầm tay, ta phải chuyển hệ phương trình về dạng \\(\\begin{cases} 2x + 3y = 4 \\\\ 5x + 6y = 7 \\end{cases}\\). Khi đó hệ số \\(c_1\\) bằng [[1]] và hệ số \\(c_2\\) bằng [[2]].",
+      "generalfeedback": "Khi chuyển phương trình về dạng chuẩn \\(\\begin{cases} a_1x + b_1y = c_1 \\\\ a_2x + b_2y = c_2 \\end{cases}\\), các hằng số vế phải tương ứng là \\(c_1 = 4\\) và \\(c_2 = 7\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "4"
+        },
+        {
+          "group": 1,
+          "text": "7"
+        },
+        {
+          "group": 1,
+          "text": "-4"
+        },
+        {
+          "group": 1,
+          "text": "-7"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Quy trình thao tác phím MTCT tìm nghiệm hệ hai phương trình bậc nhất hai ẩn",
+      "questiontext": "Chức năng giải hệ hai phương trình bậc nhất hai ẩn trên máy tính cầm tay chỉ sử dụng được đối với các loại máy tính có hỗ trợ chức năng này (thường có phím MODE).",
+      "generalfeedback": "Theo SGK, muốn tìm nghiệm của hệ hai phương trình bậc nhất hai ẩn bằng máy tính cầm tay, chúng ta cần sử dụng loại máy có chức năng này (thường có phím MODE).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Thao tác phím MTCT giải hệ hai phương trình bậc nhất hai ẩn",
+      "questiontext": "Sử dụng máy tính cầm tay để tìm nghiệm \\((x; y)\\) của hệ phương trình \\(\\begin{cases} 1,5x + 2,5y = 6,5 \\\\ 2x - 3y = -1 \\end{cases}\\). Giá trị nghiệm \\(x\\) thu được là:",
+      "generalfeedback": "Nhập các hệ số \\(a_1=1,5; b_1=2,5; c_1=6,5; a_2=2; b_2=-3; c_2=-1\\) vào MTCT. Bấm phím '=' máy hiển thị \\(x = 2\\).",
+      "answers": [
+        {
+          "text": "\\(x = 2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x = 1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x = -2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x = 3\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_03",
+      "questiontext": "Khi làm bài tập thực tế về giải hệ phương trình bậc nhất hai ẩn, sau khi giải ra giấy bằng phương pháp cộng đại số, bạn An chủ động dùng máy tính cầm tay để kiểm tra lại nghiệm trước khi nộp bài. Hành vi của bạn An thể hiện phẩm chất và thái độ học tập nào?",
+      "generalfeedback": "Hành vi của bạn An thể hiện ý thức cẩn thận, trách nhiệm và chủ động vận dụng kĩ năng sử dụng công cụ học tập (MTCT) đã được học ở trường vào việc kiểm tra, đảm bảo tính chính xác của bài làm.",
+      "answers": [
+        {
+          "text": "Có ý thức cẩn thận, chủ động vận dụng kĩ năng đã học ở nhà trường để kiểm tra và đảm bảo độ chính xác của kết quả",
+          "fraction": 100
+        },
+        {
+          "text": "Thiếu tin tưởng vào khả năng tính toán của bản thân và phụ thuộc hoàn toàn vào máy tính",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ muốn làm bài thật nhanh để gian lận trong học tập",
+          "fraction": 0
+        },
+        {
+          "text": "Thực hiện hành vi thụ động theo sự bắt buộc của giáo viên mà không hiểu ý nghĩa",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_03",
+      "questiontext": "Khi gặp một bài toán thực tế liên quan đến hệ hai phương trình bậc nhất hai ẩn trong đời sống, việc chủ động tìm hiểu thông tin từ nguồn tin cậy, lập hệ phương trình và dùng máy tính cầm tay hỗ trợ kiểm tra kết quả là thể hiện ý thức vận dụng kiến thức, kĩ năng học được vào đời sống hằng ngày.",
+      "generalfeedback": "Chủ động áp dụng kiến thức toán học và công cụ MTCT vào các bài toán thực tế đời sống thể hiện đúng phẩm chất và ý thức vận dụng kiến thức đã học.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Bạn Bình đặt mục tiêu tự học: \"Thành thạo quy trình thao tác phím trên máy tính cầm tay để giải hệ hai phương trình bậc nhất hai ẩn trong tuần này\". Để đạt được mục tiêu đó một cách có kế hoạch, Bình nên sắp xếp các bước thực hiện theo thứ tự nào?",
+      "generalfeedback": "Để đạt mục tiêu học tập có hiệu quả, học sinh cần tìm hiểu quy trình phím chuẩn, luyện tập biến đổi hệ phương trình về dạng chuẩn, thực hành thao tác trên máy tính và tự kiểm tra lại đối chiếu với đáp án.",
+      "answers": [
+        {
+          "text": "Tìm hiểu quy trình thao tác phím \\(\\rightarrow\\) Luyện tập đưa hệ phương trình về dạng chuẩn \\(\\rightarrow\\) Thực hành bấm máy tính \\(\\rightarrow\\) Tự kiểm tra và đánh giá kết quả",
+          "fraction": 100
+        },
+        {
+          "text": "Bấm máy tính ngẫu nhiên \\(\\rightarrow\\) Đọc đáp án SGK \\(\\rightarrow\\) Học thuộc lòng các nút bấm mà không cần biến đổi phương trình",
+          "fraction": 0
+        },
+        {
+          "text": "Giải bằng phương pháp thế \\(\\rightarrow\\) Bỏ qua bước sử dụng máy tính \\(\\rightarrow\\) Đặt mục tiêu mới",
+          "fraction": 0
+        },
+        {
+          "text": "Chờ đến ngày thi mới mở máy tính ra bấm thử \\(\\rightarrow\\) Nhờ bạn bấm hộ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Nối các mục tiêu tự học ở cột bên trái với hành động nỗ lực thực hiện tương ứng ở cột bên phải khi học nội dung sử dụng máy tính cầm tay giải hệ phương trình:",
+      "generalfeedback": "Mỗi mục tiêu học tập cá nhân cần đi kèm với hành động cụ thể, có kế hoạch để phấn đấu đạt được.",
+      "subquestions": [
+        {
+          "question": "Mục tiêu nắm vững thao tác nhập dữ liệu vào MTCT",
+          "answer": "Luyện tập đưa hệ phương trình về dạng chuẩn \\(a_1x + b_1y = c_1\\) và nhập đúng các hệ số"
+        },
+        {
+          "question": "Mục tiêu tránh đọc sai kết quả nghiệm",
+          "answer": "Rèn luyện thói quen bấm phím 🔼 hoặc 🔽 để hiển thị đầy đủ giá trị của x và y"
+        },
+        {
+          "question": "Mục tiêu nhận biết chính xác số nghiệm của hệ",
+          "answer": "Ghi nhớ ý nghĩa các thông báo 'Infinite Sol' (vô số nghiệm) và 'No-Solution' (vô nghiệm)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_05_07",
+      "questiontext": "Trong bài toán pha chế dung dịch acid (Vận dụng 2 SGK), học sinh lập được hệ phương trình \\(\\begin{cases} x + y = 2000 \\\\ 0,2x + 0,05y = 200 \\end{cases}\\). Máy tính cầm tay hỗ trợ năng lực toán học của học sinh trong tình huống này như thế nào?",
+      "generalfeedback": "Máy tính cầm tay là công cụ hỗ trợ tính toán số học nhanh chóng và chính xác, giúp học sinh tập trung tư duy vào việc mô hình hóa toán học bài toán thực tế và giải thích ý nghĩa nghiệm.",
+      "answers": [
+        {
+          "text": "Hỗ trợ thực hiện nhanh chóng phép tính số học phức tạp để tìm nghiệm \\((x; y) = \\left(\\frac{2000}{3}; \\frac{4000}{3}\\right)\\), giúp học sinh tập trung vào phân tích mô hình bài toán",
+          "fraction": 100
+        },
+        {
+          "text": "Thay thế hoàn toàn học sinh trong việc tự suy luận và lập hệ phương trình ban đầu",
+          "fraction": 0
+        },
+        {
+          "text": "Tự động phân tích đề bài và viết câu trả lời văn bản cho bài toán",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ dùng để vẽ đồ thị đường thẳng trên mặt phẳng tọa độ Oxy",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_05_07",
+      "questiontext": "Máy tính cầm tay là công cụ hỗ trợ hiệu quả cho môn Toán. Việc sử dụng MTCT giúp học sinh [[1]] nghiệm của hệ phương trình đại số, đồng thời [[2]] thời gian tính toán đối với các hệ phương trình có hệ số là phân số hoặc số thập phân phức tạp.",
+      "generalfeedback": "MTCT hỗ trợ kiểm tra lại nghiệm và tiết kiệm thời gian tính toán đại số.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "kiểm tra lại"
+        },
+        {
+          "group": 1,
+          "text": "tiết kiệm"
+        },
+        {
+          "group": 1,
+          "text": "thay thế"
+        },
+        {
+          "group": 1,
+          "text": "kéo dài"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "5.2TC2b_K9",
+      "questiontext": "Khi cần kiểm tra nhanh tập nghiệm của một danh sách gồm 10 hệ phương trình bậc nhất hai ẩn có hệ số số thập phân phức tạp trong giờ ôn tập, giải pháp công cụ số thích hợp nhất mà học sinh nên lựa chọn là gì?",
+      "generalfeedback": "Sử dụng chức năng giải hệ phương trình trên máy tính cầm tay hoặc ứng dụng số chuyên dụng là giải pháp công nghệ tối ưu để xử lý nhanh và chính xác nhu cầu tính toán.",
+      "answers": [
+        {
+          "text": "Sử dụng chức năng giải hệ hai phương trình bậc nhất hai ẩn (EQN/SYSTEM) trên máy tính cầm tay hoặc phần mềm tính toán số",
+          "fraction": 100
+        },
+        {
+          "text": "Sử dụng phần mềm soạn thảo văn bản Word để gõ lại đề bài",
+          "fraction": 0
+        },
+        {
+          "text": "Sử dụng công cụ trình chiếu PowerPoint để tạo hiệu ứng hình ảnh",
+          "fraction": 0
+        },
+        {
+          "text": "Vẽ tay thủ công 10 cặp đường thẳng trên giấy kẻ ô vuông",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "5.2TC2b_K9",
+      "questiontext": "Khi sử dụng các công cụ số (như máy tính cầm tay) để giải hệ phương trình bậc nhất hai ẩn, học sinh cần biết tự biến đổi hệ phương trình về dạng chuẩn \\(\\begin{cases} a_1x + b_1y = c_1 \\\\ a_2x + b_2y = c_2 \\end{cases}\\) trước khi nhập dữ liệu vào công cụ.",
+      "generalfeedback": "Công cụ số yêu cầu dữ liệu đầu vào đúng định dạng chuẩn để xử lý chính xác, do đó học sinh phải chủ động chuẩn hóa dữ liệu trước khi nhập.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

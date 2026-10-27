@@ -1,0 +1,728 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 30,
+    "metadata_used": {
+      "Hệ thức giữa cạnh góc vuông với cạnh huyền và tỉ số lượng giác của góc nhọn": 8,
+      "YCCD_TOAN9_065": 4,
+      "Tính độ dài cạnh góc vuông theo cạnh huyền hoặc cạnh góc vuông kia và TSLG": 8,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TUHOC_C2_01": 2,
+      "SUB_GQVD_DEXUAT_C2_02": 2,
+      "NLT_TOAN_C2_01_05": 2,
+      "NLT_TOAN_C2_03_05": 2
+    },
+    "types_used": {
+      "multichoice": 11,
+      "truefalse": 6,
+      "gapselect": 2,
+      "shortanswer": 2,
+      "matching": 3,
+      "numerical": 2,
+      "calculatedsimple": 1,
+      "calculatedmulti": 1,
+      "ddwtos": 1,
+      "calculated": 1
+    },
+    "total": 30
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "Hệ thức giữa cạnh góc vuông với cạnh huyền và tỉ số lượng giác của góc nhọn",
+        "reason": "Có đủ cơ sở dữ liệu trong SGK để đo lường"
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_065",
+        "reason": "Có đủ cơ sở dữ liệu trong SGK để đo lường"
+      },
+      {
+        "metadata_code": "Tính độ dài cạnh góc vuông theo cạnh huyền hoặc cạnh góc vuông kia và TSLG",
+        "reason": "Có đủ cơ sở dữ liệu trong SGK để đo lường"
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Có đủ cơ sở dữ liệu và tình huống thực tế để đo lường"
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+        "reason": "Có đủ cơ sở dữ liệu và tình huống thực tế để đo lường"
+      },
+      {
+        "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+        "reason": "Có đủ cơ sở dữ liệu và tình huống thực tế để đo lường"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_05",
+        "reason": "Có đủ cơ sở dữ liệu và tình huống thực tế để đo lường"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_05",
+        "reason": "Có đủ cơ sở dữ liệu và tình huống thực tế để đo lường"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Nội dung bài học thuộc phạm vi Tiết 1 - Bài 12 SGK Toán 9 thuần lý thuyết và tính toán hình học, không chứa dữ liệu hoặc ngữ cảnh tự nhiên để đo lường năng lực tin học/số."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học không có dữ liệu hoặc bối cảnh ứng dụng trí tuệ nhân tạo (AI) một cách tự nhiên, việc khiên cưỡng đưa vào sẽ làm mất tính sư phạm của câu hỏi."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thức giữa cạnh góc vuông với cạnh huyền và tỉ số lượng giác của góc nhọn",
+      "questiontext": "Cho tam giác \\(ABC\\) vuông tại \\(A\\) có cạnh huyền \\(a = BC\\) và các cạnh góc vuông \\(b = AC\\), \\(c = AB\\). Khẳng định nào sau đây là đúng theo Định lí 1 về hệ thức giữa cạnh và góc trong tam giác vuông?",
+      "generalfeedback": "Theo Định lí 1: Trong tam giác vuông, mỗi cạnh góc vuông bằng cạnh huyền nhân với sin góc đối hoặc nhân với côsin góc kề. Do đó \\(b = a \\cdot \\sin B = a \\cdot \\cos C\\).",
+      "answers": [
+        {
+          "text": "\\(b = a \\cdot \\sin B\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(b = a \\cdot \\tan B\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(b = c \\cdot \\sin B\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(b = a \\cdot \\cot B\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thức giữa cạnh góc vuông với cạnh huyền và tỉ số lượng giác của góc nhọn",
+      "questiontext": "Trong tam giác \\(ABC\\) vuông tại \\(A\\), cạnh góc vuông \\(c = AB\\) được tính theo cạnh huyền \\(a = BC\\) và góc kề \\(B\\) bởi công thức \\(c = a \\cdot \\cos B\\). Phát biểu này đúng hay sai?",
+      "generalfeedback": "Đúng. Cạnh góc vuông bằng cạnh huyền nhân với côsin của góc kề, do đó \\(c = a \\cdot \\cos B\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_065",
+      "questiontext": "Cho tam giác \\(MNP\\) vuông tại \\(M\\). Theo định lý về hệ thức giữa cạnh và góc trong tam giác vuông, cạnh góc vuông \\(MN\\) bằng cạnh huyền \\(NP\\) nhân với [[1]] của góc đối \\(P\\), hoặc nhân với [[2]] của góc kề \\(N\\).",
+      "generalfeedback": "Theo Định lí 1, cạnh góc vuông bằng cạnh huyền nhân với sin của góc đối hoặc côsin của góc kề.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "sin"
+        },
+        {
+          "group": 1,
+          "text": "côsin"
+        },
+        {
+          "group": 1,
+          "text": "tang"
+        },
+        {
+          "group": 1,
+          "text": "côtang"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Hệ thức giữa cạnh góc vuông với cạnh huyền và tỉ số lượng giác của góc nhọn",
+      "questiontext": "Quan sát sơ đồ tam giác \\(ABC\\) vuông tại \\(A\\) dưới đây:\n[img:_page_0_Picture_14.jpeg]\nBiết cạnh huyền \\(BC = a\\), góc \\(B\\) có số đo bằng \\(60^\\circ\\). Hệ thức nào sau đây dùng để tính trực tiếp độ dài cạnh \\(AC\\)?",
+      "generalfeedback": "Cạnh \\(AC\\) là cạnh đối của góc \\(B\\), cạnh huyền là \\(a\\). Theo hệ thức giữa cạnh và góc: \\(AC = a \\cdot \\sin B = a \\cdot \\sin 60^\\circ\\).",
+      "imgs": [
+        "_page_0_Picture_14.jpeg"
+      ],
+      "answers": [
+        {
+          "text": "\\(AC = a \\cdot \\sin 60^\\circ\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(AC = a \\cdot \\cos 60^\\circ\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(AC = a \\cdot \\tan 60^\\circ\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(AC = a \\cdot \\cot 60^\\circ\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thức giữa cạnh góc vuông với cạnh huyền và tỉ số lượng giác của góc nhọn",
+      "questiontext": "Điền tên tỉ số lượng giác thích hợp vào chỗ trống: Trong tam giác vuông, mỗi cạnh góc vuông bằng cạnh góc vuông kia nhân với tỉ số lượng giác nào của góc đối?",
+      "generalfeedback": "Theo Định lí 2: Trong tam giác vuông, mỗi cạnh góc vuông bằng cạnh góc vuông kia nhân với tang của góc đối.",
+      "answers": [
+        {
+          "text": "tang",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Hệ thức giữa cạnh góc vuông với cạnh huyền và tỉ số lượng giác của góc nhọn",
+      "questiontext": "Cho tam giác \\(ABC\\) vuông tại \\(A\\) với các cạnh \\(BC = a\\), \\(AC = b\\), \\(AB = c\\). Hãy ghép mỗi công thức biểu diễn cạnh góc vuông ở cột trái với biểu thức tương ứng ở cột phải.",
+      "generalfeedback": "Dựa vào định lí 1 và định lí 2 về hệ thức giữa cạnh và góc trong tam giác vuông.",
+      "subquestions": [
+        {
+          "question": "\\(b\\) tính theo cạnh huyền \\(a\\) và góc đối \\(B\\)",
+          "answer": "\\(a \\cdot \\sin B\\)"
+        },
+        {
+          "question": "\\(b\\) tính theo cạnh góc vuông \\(c\\) và góc đối \\(B\\)",
+          "answer": "\\(c \\cdot \\tan B\\)"
+        },
+        {
+          "question": "\\(c\\) tính theo cạnh góc vuông \\(b\\) và góc kề \\(B\\)",
+          "answer": "\\(b \\cdot \\cot B\\)"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính độ dài cạnh góc vuông theo cạnh huyền hoặc cạnh góc vuông kia và TSLG",
+      "questiontext": "Một chiếc máy bay bay lên tạo với phương nằm ngang một góc \\(30^\\circ\\). Sau khi bay được đoạn đường dài 10 km, máy bay đạt đến độ cao bao nhiêu kilômét theo phương thẳng đứng? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Độ cao máy bay đạt được là cạnh đối diện với góc \\(30^\\circ\\) trong tam giác vuông có cạnh huyền bằng 10 km. Ta có: \\(h = 10 \\cdot \\sin 30^\\circ = 10 \\cdot 0.5 = 5\\) km.",
+      "answers": [
+        {
+          "text": "5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Tính độ dài cạnh góc vuông theo cạnh huyền hoặc cạnh góc vuông kia và TSLG",
+      "questiontext": "Cho tam giác \\(ABC\\) vuông tại \\(A\\) có cạnh huyền \\(BC =\\) {a} cm và góc \\(B = 30^\\circ\\). Tính độ dài cạnh góc vuông \\(AC\\) (theo đơn vị cm).",
+      "generalfeedback": "Trong tam giác vuông \\(ABC\\), cạnh \\(AC = BC \\cdot \\sin B =\\) {a} \\(\\cdot \\sin 30^\\circ =\\) {a} \\(\\cdot 0.5 =\\) {a} * 0.5.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 10.0,
+          "max": 50.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*0.5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "Tính độ dài cạnh góc vuông theo cạnh huyền hoặc cạnh góc vuông kia và TSLG",
+      "questiontext": "Cho tam giác \\(ABC\\) vuông tại \\(A\\) có cạnh góc vuông \\(AB =\\) {c} cm và góc \\(B = 45^\\circ\\). Chọn biểu thức đúng để tính độ dài cạnh góc vuông \\(AC\\).",
+      "generalfeedback": "Theo hệ thức giữa hai cạnh góc vuông, \\(AC = AB \\cdot \\tan B =\\) {c} \\(\\cdot \\tan 45^\\circ =\\) {c} \\(\\cdot 1 =\\) {c}.",
+      "wildcards": [
+        {
+          "name": "c",
+          "min": 2.0,
+          "max": 20.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{c}*1",
+          "fraction": 100
+        },
+        {
+          "text": "{c}*2",
+          "fraction": 0
+        },
+        {
+          "text": "{c}*0.5",
+          "fraction": 0
+        },
+        {
+          "text": "{c}+1",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_065",
+      "questiontext": "Hoàn thiện định lí về hai cạnh góc vuông: Trong tam giác vuông, mỗi cạnh góc vuông bằng cạnh góc vuông kia nhân với [[1]] góc đối hoặc nhân với [[2]] góc kề.",
+      "generalfeedback": "Định lí 2: Mỗi cạnh góc vuông bằng cạnh góc vuông kia nhân với tang góc đối hoặc nhân với côtang góc kề.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "tang"
+        },
+        {
+          "group": 1,
+          "text": "côtang"
+        },
+        {
+          "group": 1,
+          "text": "sin"
+        },
+        {
+          "group": 1,
+          "text": "côsin"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_065",
+      "questiontext": "Trong tam giác \\(ABC\\) vuông tại \\(A\\), hệ thức nào sau đây diễn tả đúng giải thích về cạnh góc vuông \\(c = AB\\) theo cạnh góc vuông kia \\(b = AC\\)?",
+      "generalfeedback": "Cạnh góc vuông \\(c\\) bằng cạnh góc vuông \\(b\\) nhân với tang của góc đối \\(C\\) hoặc nhân với côtang của góc kề \\(B\\): \\(c = b \\cdot \\tan C = b \\cdot \\cot B\\).",
+      "answers": [
+        {
+          "text": "\\(c = b \\cdot \\tan C\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(c = b \\cdot \\sin C\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(c = b \\cdot \\cos C\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(c = b \\cdot \\sin B\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thức giữa cạnh góc vuông với cạnh huyền và tỉ số lượng giác của góc nhọn",
+      "questiontext": "Giải tam giác vuông là bài toán tìm tất cả các cạnh và các góc còn lại của tam giác vuông đó khi cho biết trước hai cạnh hoặc một góc nhọn và một cạnh. Phát biểu này đúng hay sai?",
+      "generalfeedback": "Đúng. Đây là khái niệm chính xác về bài toán Giải tam giác vuông.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Tính độ dài cạnh góc vuông theo cạnh huyền hoặc cạnh góc vuông kia và TSLG",
+      "questiontext": "Bóng trên mặt đất của một chiếc cây dài 25 m. Tính chiều cao của cây (làm tròn đến mét), biết rằng tia nắng mặt trời tạo với mặt đất một góc \\(40^\\circ\\).\n[img:_page_2_Figure_13.jpeg]",
+      "generalfeedback": "Chiều cao của cây là cạnh đối của góc \\(40^\\circ\\). Ta có: \\(h = 25 \\cdot \\tan 40^\\circ \\approx 25 \\cdot 0.8391 = 20.98\\) m \\(\\approx 21\\) m.",
+      "imgs": [
+        "_page_2_Figure_13.jpeg"
+      ],
+      "answers": [
+        {
+          "text": "21 m",
+          "fraction": 100
+        },
+        {
+          "text": "16 m",
+          "fraction": 0
+        },
+        {
+          "text": "19 m",
+          "fraction": 0
+        },
+        {
+          "text": "25 m",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính độ dài cạnh góc vuông theo cạnh huyền hoặc cạnh góc vuông kia và TSLG",
+      "questiontext": "Cho tam giác \\(ABC\\) vuông tại \\(A\\) có hai cạnh góc vuông \\(AB = 5\\) và \\(AC = 8\\). Tính tan của góc \\(C\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Trong tam giác vuông \\(ABC\\), \\(\\tan C = \\frac{AB}{AC} = \\frac{5}{8} = 0.625\\).",
+      "answers": [
+        {
+          "text": "0.625",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thức giữa cạnh góc vuông với cạnh huyền và tỉ số lượng giác của góc nhọn",
+      "questiontext": "Trong một tam giác vuông, biết tổng số đo hai góc nhọn bằng bao nhiêu độ?",
+      "generalfeedback": "Trong tam giác vuông, hai góc nhọn phụ nhau nên tổng số đo của chúng bằng 90 độ.",
+      "answers": [
+        {
+          "text": "90 độ",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_065",
+      "questiontext": "Trong tam giác \\(ABC\\) vuông tại \\(A\\), hệ thức \\(b = a \\cdot \\sin C\\) biểu diễn việc cạnh góc vuông \\(b\\) bằng cạnh huyền \\(a\\) nhân với sin của góc kề \\(C\\). Phát biểu này đúng hay sai?",
+      "generalfeedback": "Sai. Cạnh góc vuông \\(b = AC\\) đối diện với góc \\(B\\) và kề với góc \\(C\\). Do đó \\(b = a \\cdot \\sin B\\) (sin góc đối) hoặc \\(b = a \\cdot \\cos C\\) (côsin góc kề). Công thức \\(b = a \\cdot \\sin C\\) là sai.",
+      "answers": [
+        {
+          "text": "Sai",
+          "fraction": 100
+        },
+        {
+          "text": "Đúng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Tính độ dài cạnh góc vuông theo cạnh huyền hoặc cạnh góc vuông kia và TSLG",
+      "questiontext": "Cho tam giác \\(ABC\\) vuông tại \\(A\\) có cạnh góc vuông \\(AB =\\) {b} cm và góc \\(B = 60^\\circ\\). Tính cạnh huyền \\(BC\\) (biết \\(\\cos 60^\\circ = 0.5\\)).",
+      "generalfeedback": "Ta có \\(\\cos B = \\frac{AB}{BC} \\Rightarrow BC = \\frac{AB}{\\cos B} =\\) {b} / 0.5 = {b}*2.",
+      "wildcards": [
+        {
+          "name": "b",
+          "min": 3.0,
+          "max": 15.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{b}*2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Tính độ dài cạnh góc vuông theo cạnh huyền hoặc cạnh góc vuông kia và TSLG",
+      "questiontext": "Cho tam giác \\(ABC\\) vuông tại \\(A\\) có \\(AB = 4\\), cạnh huyền \\(BC = 8\\). Số đo của góc \\(B\\) bằng bao nhiêu độ?",
+      "generalfeedback": "Ta có \\(\\cos B = \\frac{AB}{BC} = \\frac{4}{8} = 0.5 \\Rightarrow \\widehat{B} = 60^\\circ\\).",
+      "answers": [
+        {
+          "text": "\\(60^\\circ\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(30^\\circ\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(45^\\circ\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(90^\\circ\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Tính độ dài cạnh góc vuông theo cạnh huyền hoặc cạnh góc vuông kia và TSLG",
+      "questiontext": "Cho tam giác \\(ABC\\) vuông tại \\(A\\) có \\(AB = 3\\) cm, \\(AC = 4\\) cm, \\(BC = 5\\) cm. Hãy ghép mỗi tỉ số lượng giác của góc \\(B\\) với giá trị số tương ứng.",
+      "generalfeedback": "Ta có: \\(\\sin B = \\frac{AC}{BC} = \\frac{4}{5}\\); \\(\\cos B = \\frac{AB}{BC} = \\frac{3}{5}\\); \\(\\tan B = \\frac{AC}{AB} = \\frac{4}{3}\\).",
+      "subquestions": [
+        {
+          "question": "\\(\\sin B\\)",
+          "answer": "4/5"
+        },
+        {
+          "question": "\\(\\cos B\\)",
+          "answer": "3/5"
+        },
+        {
+          "question": "\\(\\tan B\\)",
+          "answer": "4/3"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thức giữa cạnh góc vuông với cạnh huyền và tỉ số lượng giác của góc nhọn",
+      "questiontext": "Trong tam giác vuông, tỉ số giữa cạnh góc vuông đối và cạnh huyền được gọi là côsin của góc nhọn đó. Phát biểu này đúng hay sai?",
+      "generalfeedback": "Sai. Tỉ số giữa cạnh góc vuông đối và cạnh huyền được gọi là sin của góc nhọn đó.",
+      "answers": [
+        {
+          "text": "Sai",
+          "fraction": 100
+        },
+        {
+          "text": "Đúng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi gặp một bài toán ứng dụng thực tế về tính chiều cao tòa nhà bằng hệ thức lượng trong tam giác vuông với các số liệu góc và độ dài phức tạp, bạn Nam cảm thấy khó khăn và muốn bỏ cuộc. Hành động nào sau đây thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập của Nam?",
+      "generalfeedback": "Kiên nhẫn xem lại lý thuyết, vẽ hình và từng bước thực hiện phép tính thể hiện tinh thần vượt khó và nỗ lực vươn lên trong học tập.",
+      "answers": [
+        {
+          "text": "Nam kiên nhẫn xem lại định lý hệ thức giữa cạnh và góc, vẽ lại sơ đồ và từng bước thực hiện phép tính",
+          "fraction": 100
+        },
+        {
+          "text": "Nam chép ngay đáp án của bạn bên cạnh để nhanh chóng hoàn thành bài tập",
+          "fraction": 0
+        },
+        {
+          "text": "Nam bỏ qua bài toán đó và chỉ làm các bài tập đơn giản hơn",
+          "fraction": 0
+        },
+        {
+          "text": "Nam chờ thầy cô chữa bài rồi chép vào vở chứ không tự suy nghĩ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong tiết học Toán về 'Giải tam giác vuông', dù chưa hiểu rõ cách sử dụng máy tính cầm tay để tính sin và côsin của góc nhọn, bạn Bình đã chủ động hỏi giáo viên và tự luyện tập thêm nhiều lần ở nhà cho đến khi thành thạo. Việc làm của Bình thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập. Phát biểu này đúng hay sai?",
+      "generalfeedback": "Đúng. Tự giác hỏi thầy cô và kiên trì luyện tập ở nhà là biểu hiện rõ nét của tinh thần vượt khó vươn lên trong học tập.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Để chuẩn bị cho bài học 'Một số hệ thức giữa cạnh và góc trong tam giác vuông', bạn An lập kế hoạch tự học ở nhà với các mục tiêu: (1) Nắm vững hai định lý hệ thức cạnh - góc; (2) Tự giải bài toán thực tế tính chiều cao cây; (3) Vẽ sơ đồ tóm tắt kiến thức. Kế hoạch này của An thể hiện biểu hiện nào của năng lực tự chủ và tự học?",
+      "generalfeedback": "Việc tự xác định các nhiệm vụ và kết quả cần đạt trước khi học bài mới chính là biểu hiện của việc tự đặt mục tiêu học tập để nỗ lực phấn đấu thực hiện.",
+      "answers": [
+        {
+          "text": "Tự đặt được mục tiêu học tập để nỗ lực phấn đấu thực hiện",
+          "fraction": 100
+        },
+        {
+          "text": "Đánh giá và điều chỉnh kế hoạch học tập của người khác",
+          "fraction": 0
+        },
+        {
+          "text": "Sử dụng công cụ công nghệ thông tin trong học tập",
+          "fraction": 0
+        },
+        {
+          "text": "Tổ chức hoạt động thảo luận nhóm trên lớp",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Bạn Mai tự đặt mục tiêu học tập khi học bài 'Một số hệ thức giữa cạnh và góc trong tam giác vuông'. Hãy ghép mỗi mục tiêu ở cột trái với hành động nỗ lực thực hiện tương ứng ở cột phải.",
+      "generalfeedback": "Mỗi mục tiêu học tập đòi hỏi hành động nỗ lực cụ thể phù hợp với nội dung kiến thức bài học.",
+      "subquestions": [
+        {
+          "question": "Hiểu rõ các công thức hệ thức cạnh và góc",
+          "answer": "Tự chứng minh lại \\(b = a \\cdot \\sin B\\) và \\(b = c \\cdot \\tan B\\) từ tỉ số lượng giác"
+        },
+        {
+          "question": "Thành thạo tính độ dài cạnh trong bài toán thực tế",
+          "answer": "Luyện tập giải bài toán tính bóng của cây và độ cao máy bay"
+        },
+        {
+          "question": "Khắc phục sai sót khi giải tam giác vuông",
+          "answer": "Rà soát kỹ thao tác bấm máy tính và quy tắc làm tròn số"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Một nhóm học sinh muốn đo chiều cao của cột cờ trường mà không thể trèo lên đỉnh. Biết bóng của cột cờ trên mặt đất dài 6 m và góc tạo bởi tia nắng mặt trời với mặt đất tại thời điểm đo là \\(50^\\circ\\). Giải pháp nào sau đây là hợp lý nhất để nhóm đề xuất giải quyết vấn đề?",
+      "generalfeedback": "Chiều cao cột cờ là cạnh đối diện góc \\(50^\\circ\\), bóng cột cờ 6 m là cạnh kề. Giải pháp sử dụng hệ thức \\(h = 6 \\cdot \\tan 50^\\circ\\) giúp tính chính xác chiều cao mà không cần đo trực tiếp.",
+      "answers": [
+        {
+          "text": "Sử dụng hệ thức giữa hai cạnh góc vuông: chiều cao = \\(6 \\cdot \\tan 50^\\circ\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Chờ đến khi bóng cột cờ dài bằng đúng chiều cao rồi mới đo",
+          "fraction": 0
+        },
+        {
+          "text": "Sử dụng hệ thức giữa cạnh góc vuông và cạnh huyền: chiều cao = \\(6 \\cdot \\sin 50^\\circ\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Dùng thước dây dài trèo lên đỉnh cột cờ để thả xuống đo",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Để đo khoảng cách giữa hai điểm \\(A\\) và \\(B\\) ở hai bên bờ sông, bạn Minh đề xuất giải pháp: Chọn điểm \\(C\\) sao cho tam giác \\(ABC\\) vuông tại \\(A\\), đo đoạn \\(AC = 30\\) m và đo góc \\(C = 40^\\circ\\). Giải pháp tính khoảng cách \\(AB\\) là lấy \\(AC\\) nhân với [[1]] của góc \\(C\\), tức là \\(AB = 30 \\cdot\\) [[2]].",
+      "generalfeedback": "Khoảng cách \\(AB\\) là cạnh đối góc \\(C\\), \\(AC\\) là cạnh kề. Theo hệ thức hai cạnh góc vuông: \\(AB = AC \\cdot \\tan C = 30 \\cdot \\tan 40^\\circ\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "tang"
+        },
+        {
+          "group": 1,
+          "text": "côsin"
+        },
+        {
+          "group": 1,
+          "text": "sin"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\tan 40^\\circ\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_05",
+      "questiontext": "Khi giải bài toán: 'Cho tam giác \\(ABC\\) vuông tại \\(A\\) có cạnh huyền \\(BC = a\\) và góc \\(B = 30^\\circ\\). Tính \\(AC\\)', bạn Bình trình bày lập luận:\n- Bước 1: Tam giác \\(ABC\\) vuông tại \\(A\\) nên \\(AC\\) là cạnh đối diện góc \\(B\\).\n- Bước 2: Theo Định lí 1, cạnh góc vuông \\(AC\\) bằng cạnh huyền \\(BC\\) nhân với sin của góc đối \\(B\\).\n- Bước 3: Do đó \\(AC = a \\cdot \\sin 30^\\circ = 0.5a\\).\nĐánh giá về chuỗi lập luận của bạn Bình:",
+      "generalfeedback": "Lập luận của bạn Bình chính xác từng bước, từ xác định vị trí tương đối của cạnh/góc đến áp dụng đúng định lý toán học.",
+      "answers": [
+        {
+          "text": "Lập luận hoàn toàn chặt chẽ, hợp lý và chính xác",
+          "fraction": 100
+        },
+        {
+          "text": "Sai ở Bước 1 vì \\(AC\\) là cạnh kề của góc \\(B\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Sai ở Bước 2 vì phải lấy cạnh huyền nhân với côsin góc \\(B\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Sai ở Bước 3 vì \\(\\sin 30^\\circ = 1\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_05",
+      "questiontext": "Xét lập luận sau: 'Trong tam giác \\(ABC\\) vuông tại \\(A\\), nếu biết cạnh góc vuông \\(AB = c\\) và góc nhọn \\(B\\), để tính cạnh góc vuông \\(AC = b\\) ta áp dụng công thức \\(b = c \\cdot \\tan B\\) vì \\(b\\) là cạnh đối còn \\(c\\) là cạnh kề của góc \\(B\\)'. Lập luận này đúng hay sai?",
+      "generalfeedback": "Đúng. Lập luận dựa trên đúng định lý 2: cạnh góc vuông bằng cạnh góc vuông kia nhân với tang góc đối.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Một chiếc thang dài 3 m tựa vào tường. Để đảm bảo an toàn, chân thang phải tạo với mặt đất góc \\(65^\\circ\\). Kĩ năng toán học nào tương thích nhất cần sử dụng để tính khoảng cách từ chân thang đến chân tường?",
+      "generalfeedback": "Khoảng cách từ chân thang đến chân tường là cạnh góc vuông kề góc \\(65^\\circ\\), chiều dài thang 3 m là cạnh huyền. Kĩ năng toán học tương thích là dùng hệ thức giữa cạnh góc vuông và cạnh huyền: \\(c = a \\cdot \\cos 65^\\circ\\).",
+      "answers": [
+        {
+          "text": "Sử dụng hệ thức \\(c = a \\cdot \\cos 65^\\circ\\) với \\(a = 3\\) m là cạnh huyền và \\(c\\) là cạnh kề góc \\(65^\\circ\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Sử dụng trực tiếp định lý Pythagore khi chưa biết chiều cao tường",
+          "fraction": 0
+        },
+        {
+          "text": "Sử dụng công thức tính diện tích tam giác vuông",
+          "fraction": 0
+        },
+        {
+          "text": "Sử dụng hệ thức \\(c = a \\cdot \\tan 65^\\circ\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Để giải bài toán thực tế: 'Một chiếc máy bay bay lên với vận tốc 500 km/h dưới góc \\(30^\\circ\\) so với phương nằm ngang. Hỏi sau 1.2 phút máy bay lên cao được bao nhiêu km?', kĩ năng chuyển đổi và mô hình hóa toán học đầu tiên cần thực hiện là gì?",
+      "generalfeedback": "Để mô hình hóa bài toán thành tam giác vuông, kĩ năng đầu tiên là đổi đơn vị thời gian (1.2 phút = 1/50 giờ) và tính độ dài đoạn đường bay (cạnh huyền \\(a = 500 \\cdot 1/50 = 10\\) km).",
+      "answers": [
+        {
+          "text": "Đổi thời gian 1.2 phút ra giờ và tính quãng đường máy bay đi được (độ dài cạnh huyền)",
+          "fraction": 100
+        },
+        {
+          "text": "Áp dụng ngay công thức \\(h = 500 \\cdot \\sin 30^\\circ\\) mà không đổi đơn vị thời gian",
+          "fraction": 0
+        },
+        {
+          "text": "Tính góc nhọn còn lại của tam giác bằng cách lấy \\(90^\\circ - 30^\\circ = 60^\\circ\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Vẽ đường tròn bán kính 500 km để xác định vị trí máy bay",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

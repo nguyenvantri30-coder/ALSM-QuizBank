@@ -1,0 +1,933 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 35,
+    "metadata_used": {
+      "Công thức diện tích xung quanh S_xq = C_đáy . h": 3,
+      "Công thức thể tích V = S_đáy . h của hình lăng trụ đứng": 3,
+      "Tính diện tích xung quanh và thể tích của hình lăng trụ đứng tam giác và tứ giác": 2,
+      "YCCD_TOAN7_068": 4,
+      "YCCD_TOAN7_070": 3,
+      "YCCD_TOAN7_071": 3,
+      "YCCD_TOAN7_069": 2,
+      "PC_CHAMCHI": 1,
+      "PC_TRACHNHIEM": 1,
+      "NLC_TUCHUTUHOC": 1,
+      "NLC_GIAIQUYETVD": 1,
+      "NLT_TOAN_C2_02": 1,
+      "NLT_TOAN_C2_05": 1
+    },
+    "types_used": {
+      "multichoice": 13,
+      "truefalse": 4,
+      "matching": 1,
+      "numerical": 4,
+      "calculated": 3,
+      "calculatedsimple": 1,
+      "shortanswer": 2,
+      "calculatedmulti": 2,
+      "gapselect": 3,
+      "ddwtos": 2
+    },
+    "total": 35
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_068",
+        "reason": "Đánh giá khả năng tính diện tích xung quanh lăng trụ đứng tam giác"
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_069",
+        "reason": "Đánh giá khả năng tính diện tích xung quanh lăng trụ đứng tứ giác"
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_070",
+        "reason": "Đánh giá khả năng tính thể tích lăng trụ đứng tam giác"
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_071",
+        "reason": "Đánh giá khả năng tính thể tích lăng trụ đứng tứ giác"
+      },
+      {
+        "metadata_code": "Công thức diện tích xung quanh S_xq = C_đáy . h",
+        "reason": "Đánh giá kiến thức về công thức diện tích xung quanh lăng trụ đứng"
+      },
+      {
+        "metadata_code": "Công thức thể tích V = S_đáy . h của hình lăng trụ đứng",
+        "reason": "Đánh giá kiến thức về công thức thể tích lăng trụ đứng"
+      },
+      {
+        "metadata_code": "Tính diện tích xung quanh và thể tích của hình lăng trụ đứng tam giác và tứ giác",
+        "reason": "Đánh giá kỹ năng tính toán diện tích xung quanh và thể tích"
+      },
+      {
+        "metadata_code": "PC_CHAMCHI",
+        "reason": "Đánh giá phẩm chất chăm chỉ"
+      },
+      {
+        "metadata_code": "PC_TRACHNHIEM",
+        "reason": "Đánh giá phẩm chất trách nhiệm"
+      },
+      {
+        "metadata_code": "NLC_TUCHUTUHOC",
+        "reason": "Đánh giá năng lực tự chủ và tự học"
+      },
+      {
+        "metadata_code": "NLC_GIAIQUYETVD",
+        "reason": "Đánh giá năng lực giải quyết vấn đề và sáng tạo"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_02",
+        "reason": "Đánh giá năng lực mô hình hoá toán học"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_05",
+        "reason": "Đánh giá năng lực sử dụng công cụ, phương tiện học toán"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học thuộc lĩnh vực Hình học không gian lớp 7 thuần túy, không có dữ liệu thực hành CNTT/Tin học trực tiếp."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học không liên quan tự nhiên đến nguyên lý hay ứng dụng của Trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức diện tích xung quanh S_xq = C_đáy . h",
+      "questiontext": "Công thức tính diện tích xung quanh \\(S_{xq}\\) của hình lăng trụ đứng là gì (trong đó \\(C\\) là chu vi đáy, \\(h\\) là chiều cao)?",
+      "generalfeedback": "Diện tích xung quanh của hình lăng trụ đứng bằng tích chu vi đáy với chiều cao: \\(S_{xq} = C \\cdot h\\).",
+      "answers": [
+        {
+          "text": "\\(S_{xq} = C \\cdot h\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(S_{xq} = \\frac{1}{2} C \\cdot h\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(S_{xq} = S_{đáy} \\cdot h\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(S_{xq} = 2C \\cdot h\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức thể tích V = S_đáy . h của hình lăng trụ đứng",
+      "questiontext": "Công thức tính thể tích \\(V\\) của hình lăng trụ đứng tam giác hoặc tứ giác là gì (trong đó \\(S_{đáy}\\) là diện tích đáy, \\(h\\) là chiều cao)?",
+      "generalfeedback": "Thể tích của hình lăng trụ đứng được tính theo công thức \\(V = S_{đáy} \\cdot h\\).",
+      "answers": [
+        {
+          "text": "\\(V = S_{đáy} \\cdot h\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(V = \\frac{1}{3} S_{đáy} \\cdot h\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(V = C \\cdot h\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(V = 2 S_{đáy} \\cdot h\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức diện tích xung quanh S_xq = C_đáy . h",
+      "questiontext": "Đúng hay sai: Diện tích xung quanh của hình lăng trụ đứng tam giác bằng tổng diện tích các mặt bên của nó.",
+      "generalfeedback": "Khẳng định này đúng vì diện tích xung quanh của hình lăng trụ đứng tam giác chính là tổng diện tích của 3 hình chữ nhật mặt bên.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Tính diện tích xung quanh và thể tích của hình lăng trụ đứng tam giác và tứ giác",
+      "questiontext": "Hãy ghép đại lượng ở cột bên trái với công thức tương ứng ở cột bên phải đối với hình lăng trụ đứng:",
+      "generalfeedback": "Diện tích xung quanh là \\(S_{xq} = C \\cdot h\\), thể tích là \\(V = S_{đáy} \\cdot h\\), và chu vi đáy của tam giác có ba cạnh \\(a, b, c\\) là \\(C = a + b + c\\).",
+      "subquestions": [
+        {
+          "question": "Diện tích xung quanh hình lăng trụ đứng",
+          "answer": "\\(S_{xq} = C \\cdot h\\)"
+        },
+        {
+          "question": "Thể tích hình lăng trụ đứng",
+          "answer": "\\(V = S_{đáy} \\cdot h\\)"
+        },
+        {
+          "question": "Chu vi đáy tam giác có độ dài ba cạnh a, b, c",
+          "answer": "\\(C = a + b + c\\)"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_068",
+      "questiontext": "Một hình lăng trụ đứng tam giác có chu vi đáy bằng 15 cm và chiều cao bằng 8 cm. Tính diện tích xung quanh của hình lăng trụ đứng đó. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Diện tích xung quanh được tính bằng: \\(S_{xq} = C \\cdot h = 15 \\cdot 8 = 120\\) (\\(\\text{cm}^2\\)).",
+      "answers": [
+        {
+          "text": "120",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_068",
+      "questiontext": "Tính diện tích xung quanh của một hình lăng trụ đứng tam giác có chu vi đáy là {c} cm và chiều cao là h cm. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Diện tích xung quanh của hình lăng trụ đứng tam giác được tính bằng công thức \\(S_{xq} = C \\cdot h = {c} \\cdot {h}\\).",
+      "wildcards": [
+        {
+          "name": "c",
+          "min": 10.0,
+          "max": 30.0,
+          "decimals": 0
+        },
+        {
+          "name": "h",
+          "min": 5.0,
+          "max": 20.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{c}*{h}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_070",
+      "questiontext": "Một hình lăng trụ đứng tam giác có diện tích đáy là 24 \\(\\text{cm}^2\\) và chiều cao là 10 cm. Tính thể tích của hình lăng trụ đứng đó. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Thể tích của hình lăng trụ đứng tam giác: \\(V = S_{đáy} \\cdot h = 24 \\cdot 10 = 240\\) (\\(\\text{cm}^3\\)).",
+      "answers": [
+        {
+          "text": "240",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_071",
+      "questiontext": "Một hình lăng trụ đứng tứ giác có diện tích đáy là s cm^2 và chiều cao là h cm. Tính thể tích của hình lăng trụ đứng này. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Thể tích của hình lăng trụ đứng tứ giác được tính bằng \\(V = S_{đáy} \\cdot h = {s} \\cdot {h}\\).",
+      "wildcards": [
+        {
+          "name": "s",
+          "min": 15.0,
+          "max": 50.0,
+          "decimals": 0
+        },
+        {
+          "name": "h",
+          "min": 4.0,
+          "max": 15.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{s}*{h}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_069",
+      "imgs": [
+        "_page_2_Picture_17.jpeg"
+      ],
+      "questiontext": "[img:_page_2_Picture_17.jpeg] Một quyển lịch để bàn có dạng hình lăng trụ đứng tam giác với ba cạnh của tam giác đáy lần lượt là 20 cm, 20 cm và 7 cm. Chiều cao của giá đỡ là 25 cm. Diện tích bìa dùng để làm giá đỡ quyển lịch (diện tích xung quanh) là bao nhiêu?",
+      "generalfeedback": "Chu vi đáy của giá đỡ là \\(C = 20 + 20 + 7 = 47\\) cm. Diện tích bìa dùng làm giá đỡ là \\(S_{xq} = C \\cdot h = 47 \\cdot 25 = 1175\\) (\\(\\text{cm}^2\\)).",
+      "answers": [
+        {
+          "text": "1 175 \\(\\text{cm}^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "1 000 \\(\\text{cm}^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "1 225 \\(\\text{cm}^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "1 150 \\(\\text{cm}^2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_068",
+      "questiontext": "Hình lăng trụ đứng tam giác có chiều cao \\(h = 10\\text{ cm}\\), đáy là tam giác có chu vi \\(C = 12\\text{ cm}\\). Diện tích xung quanh của hình lăng trụ đứng tam giác này là bao nhiêu?",
+      "generalfeedback": "Diện tích xung quanh của hình lăng trụ đứng tam giác được tính bằng \\(S_{xq} = C \\cdot h = 12 \\cdot 10 = 120\\text{ cm}^2\\).",
+      "answers": [
+        {
+          "text": "120 \\(\\text{cm}^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "60 \\(\\text{cm}^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "1200 \\(\\text{cm}^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "22 \\(\\text{cm}^2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_070",
+      "imgs": [
+        "_page_4_Picture_6.jpeg"
+      ],
+      "questiontext": "[img:_page_4_Picture_6.jpeg] Một lăng kính bằng thủy tinh có dạng hình lăng trụ đứng tam giác với diện tích đáy là \\(43{,}5\\text{ cm}^2\\) và chiều cao là \\(20\\text{ cm}\\). Thể tích thủy tinh dùng làm lăng kính là bao nhiêu?",
+      "generalfeedback": "Thể tích thủy tinh làm lăng kính là \\(V = S_{đáy} \\cdot h = 43{,}5 \\cdot 20 = 870\\text{ cm}^3\\).",
+      "answers": [
+        {
+          "text": "870 \\(\\text{cm}^3\\)",
+          "fraction": 100
+        },
+        {
+          "text": "435 \\(\\text{cm}^3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "870 \\(\\text{cm}^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "1740 \\(\\text{cm}^3\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức thể tích V = S_đáy . h của hình lăng trụ đứng",
+      "questiontext": "Đúng hay sai: Thể tích của hình lăng trụ đứng tứ giác bằng tích của diện tích một đáy với chiều cao của nó.",
+      "generalfeedback": "Đúng, công thức tính thể tích của hình lăng trụ đứng tứ giác là \\(V = S_{đáy} \\cdot h\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_071",
+      "questiontext": "Cho hình lăng trụ đứng tứ giác có diện tích đáy bằng \\(30\\text{ cm}^2\\) và chiều cao bằng \\(5\\text{ cm}\\). Thể tích của hình lăng trụ đứng tứ giác đó là bao nhiêu \\(\\text{cm}^3\\)? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Thể tích \\(V = S_{đáy} \\cdot h = 30 \\cdot 5 = 150\\text{ cm}^3\\).",
+      "answers": [
+        {
+          "text": "150",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_069",
+      "questiontext": "Một thùng máy nông nghiệp dạng hình lăng trụ đứng tứ giác có đáy là hình thang vuông với hai đáy dài 3 m và 1,5 m, chiều cao hình thang là 2 m, chiều dài thùng (chiều cao lăng trụ) là 4 m. Dung tích của thùng là bao nhiêu mét khối? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Diện tích đáy hình thang vuông là \\(S_{đáy} = \\frac{(3 + 1{,}5) \\cdot 2}{2} = 4{,}5\\text{ m}^2\\). Dung tích thùng là \\(V = S_{đáy} \\cdot h = 4{,}5 \\cdot 4 = 18\\text{ m}^3\\).",
+      "answers": [
+        {
+          "text": "18",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_070",
+      "questiontext": "Tính thể tích của hình lăng trụ đứng tam giác có diện tích đáy là s cm^2 và chiều cao là h cm. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Thể tích hình lăng trụ đứng tam giác được tính theo công thức \\(V = S_{đáy} \\cdot h = {s} \\cdot {h}\\).",
+      "wildcards": [
+        {
+          "name": "s",
+          "min": 10.0,
+          "max": 40.0,
+          "decimals": 0
+        },
+        {
+          "name": "h",
+          "min": 5.0,
+          "max": 25.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{s}*{h}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_068",
+      "questiontext": "Một hình lăng trụ đứng tam giác có chu vi đáy là {c} cm và chiều cao là h cm. Chọn biểu thức tính diện tích xung quanh của hình lăng trụ này.",
+      "generalfeedback": "Diện tích xung quanh được tính bằng tích chu vi đáy và chiều cao: \\(S_{xq} = C \\cdot h = {c} \\cdot {h}\\).",
+      "wildcards": [
+        {
+          "name": "c",
+          "min": 12.0,
+          "max": 30.0,
+          "decimals": 0
+        },
+        {
+          "name": "h",
+          "min": 5.0,
+          "max": 20.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{c}*{h}",
+          "fraction": 100
+        },
+        {
+          "text": "{c}+{h}",
+          "fraction": 0
+        },
+        {
+          "text": "0.5*{c}*{h}",
+          "fraction": 0
+        },
+        {
+          "text": "2*{c}*{h}",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức thể tích V = S_đáy . h của hình lăng trụ đứng",
+      "questiontext": "Để tính thể tích của hình lăng trụ đứng tam giác hoặc tứ giác, ta lấy [[1]] đáy nhân với [[2]] của lăng trụ.",
+      "generalfeedback": "Công thức tính thể tích của hình lăng trụ đứng là \\(V = S_{đáy} \\cdot h\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "diện tích"
+        },
+        {
+          "group": 1,
+          "text": "chiều cao"
+        },
+        {
+          "group": 1,
+          "text": "chu vi"
+        },
+        {
+          "group": 1,
+          "text": "độ dài cạnh"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Tính diện tích xung quanh và thể tích của hình lăng trụ đứng tam giác và tứ giác",
+      "questiontext": "Hình lăng trụ đứng có diện tích đáy là \\(S_{đáy}\\), chu vi đáy là \\(C\\) và chiều cao là \\(h\\). Công thức tính diện tích xung quanh là \\(S_{xq}\\) = [[1]] và công thức tính thể tích là \\(V\\) = [[2]].",
+      "generalfeedback": "Diện tích xung quanh \\(S_{xq} = C \\cdot h\\) và thể tích \\(V = S_{đáy} \\cdot h\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "C . h"
+        },
+        {
+          "group": 1,
+          "text": "S_đáy . h"
+        },
+        {
+          "group": 1,
+          "text": "C + h"
+        },
+        {
+          "group": 1,
+          "text": "2C . h"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_071",
+      "imgs": [
+        "_page_5_Picture_12.jpeg"
+      ],
+      "questiontext": "[img:_page_5_Picture_12.jpeg] Một hộp đựng khẩu trang y tế bằng bìa cứng có dạng hình hộp chữ nhật (cũng là hình lăng trụ đứng tứ giác) với kích thước chiều dài 20 cm, chiều rộng 10 cm, chiều cao 10 cm. Thể tích của hộp đựng khẩu trang đó là bao nhiêu?",
+      "generalfeedback": "Thể tích của hình hộp chữ nhật: \\(V = a \\cdot b \\cdot c = 20 \\cdot 10 \\cdot 10 = 2000\\text{ cm}^3\\).",
+      "answers": [
+        {
+          "text": "2 000 \\(\\text{cm}^3\\)",
+          "fraction": 100
+        },
+        {
+          "text": "1 000 \\(\\text{cm}^3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "400 \\(\\text{cm}^3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "800 \\(\\text{cm}^3\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_068",
+      "questiontext": "Hình lăng trụ đứng tam giác có chiều cao \\(h = 10\\text{ cm}\\), đáy là tam giác có chu vi \\(C = 12\\text{ cm}\\). Diện tích xung quanh của hình lăng trụ đứng tam giác này là bao nhiêu?",
+      "generalfeedback": "Diện tích xung quanh của hình lăng trụ đứng tam giác được tính bằng \\(S_{xq} = C \\cdot h = 12 \\cdot 10 = 120\\text{ cm}^2\\).",
+      "answers": [
+        {
+          "text": "120 \\(\\text{cm}^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "60 \\(\\text{cm}^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "1200 \\(\\text{cm}^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "22 \\(\\text{cm}^2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_070",
+      "imgs": [
+        "_page_4_Picture_6.jpeg"
+      ],
+      "questiontext": "[img:_page_4_Picture_6.jpeg] Một lăng kính bằng thủy tinh có dạng hình lăng trụ đứng tam giác với diện tích đáy là \\(43{,}5\\text{ cm}^2\\) và chiều cao là \\(20\\text{ cm}\\). Thể tích thủy tinh dùng làm lăng kính là bao nhiêu?",
+      "generalfeedback": "Thể tích thủy tinh làm lăng kính là \\(V = S_{đáy} \\cdot h = 43{,}5 \\cdot 20 = 870\\text{ cm}^3\\).",
+      "answers": [
+        {
+          "text": "870 \\(\\text{cm}^3\\)",
+          "fraction": 100
+        },
+        {
+          "text": "435 \\(\\text{cm}^3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "870 \\(\\text{cm}^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "1740 \\(\\text{cm}^3\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức thể tích V = S_đáy . h của hình lăng trụ đứng",
+      "questiontext": "Đúng hay sai: Thể tích của hình lăng trụ đứng tứ giác bằng tích của diện tích một đáy với chiều cao của nó.",
+      "generalfeedback": "Đúng, công thức tính thể tích của hình lăng trụ đứng tứ giác là \\(V = S_{đáy} \\cdot h\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_071",
+      "questiontext": "Cho hình lăng trụ đứng tứ giác có diện tích đáy bằng \\(30\\text{ cm}^2\\) và chiều cao bằng \\(5\\text{ cm}\\). Thể tích của hình lăng trụ đứng tứ giác đó là bao nhiêu \\(\\text{cm}^3\\)? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Thể tích \\(V = S_{đáy} \\cdot h = 30 \\cdot 5 = 150\\text{ cm}^3\\).",
+      "answers": [
+        {
+          "text": "150",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_069",
+      "questiontext": "Một thùng máy nông nghiệp dạng hình lăng trụ đứng tứ giác có đáy là hình thang vuông với hai đáy dài 3 m và 1,5 m, chiều cao hình thang là 2 m, chiều dài thùng (chiều cao lăng trụ) là 4 m. Dung tích của thùng là bao nhiêu mét khối? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Diện tích đáy hình thang vuông là \\(S_{đáy} = \\frac{(3 + 1{,}5) \\cdot 2}{2} = 4{,}5\\text{ m}^2\\). Dung tích thùng là \\(V = S_{đáy} \\cdot h = 4{,}5 \\cdot 4 = 18\\text{ m}^3\\).",
+      "answers": [
+        {
+          "text": "18",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_070",
+      "questiontext": "Tính thể tích của hình lăng trụ đứng tam giác có diện tích đáy là s cm^2 và chiều cao là h cm. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Thể tích hình lăng trụ đứng tam giác được tính theo công thức \\(V = S_{đáy} \\cdot h = {s} \\cdot {h}\\).",
+      "wildcards": [
+        {
+          "name": "s",
+          "min": 10.0,
+          "max": 40.0,
+          "decimals": 0
+        },
+        {
+          "name": "h",
+          "min": 5.0,
+          "max": 25.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{s}*{h}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_068",
+      "questiontext": "Một hình lăng trụ đứng tam giác có chu vi đáy là {c} cm và chiều cao là h cm. Chọn biểu thức tính diện tích xung quanh của hình lăng trụ này.",
+      "generalfeedback": "Diện tích xung quanh được tính bằng tích chu vi đáy và chiều cao: \\(S_{xq} = C \\cdot h = {c} \\cdot {h}\\).",
+      "wildcards": [
+        {
+          "name": "c",
+          "min": 12.0,
+          "max": 30.0,
+          "decimals": 0
+        },
+        {
+          "name": "h",
+          "min": 5.0,
+          "max": 20.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{c}*{h}",
+          "fraction": 100
+        },
+        {
+          "text": "{c}+{h}",
+          "fraction": 0
+        },
+        {
+          "text": "0.5*{c}*{h}",
+          "fraction": 0
+        },
+        {
+          "text": "2*{c}*{h}",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức thể tích V = S_đáy . h của hình lăng trụ đứng",
+      "questiontext": "Để tính thể tích của hình lăng trụ đứng tam giác hoặc tứ giác, ta lấy [[1]] đáy nhân với [[2]] của lăng trụ.",
+      "generalfeedback": "Công thức tính thể tích của hình lăng trụ đứng là \\(V = S_{đáy} \\cdot h\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "diện tích"
+        },
+        {
+          "group": 1,
+          "text": "chiều cao"
+        },
+        {
+          "group": 1,
+          "text": "chu vi"
+        },
+        {
+          "group": 1,
+          "text": "độ dài cạnh"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Tính diện tích xung quanh và thể tích của hình lăng trụ đứng tam giác và tứ giác",
+      "questiontext": "Hình lăng trụ đứng có diện tích đáy là \\(S_{đáy}\\), chu vi đáy là \\(C\\) và chiều cao là \\(h\\). Công thức tính diện tích xung quanh là \\(S_{xq}\\) = [[1]] và công thức tính thể tích là \\(V\\) = [[2]].",
+      "generalfeedback": "Diện tích xung quanh \\(S_{xq} = C \\cdot h\\) và thể tích \\(V = S_{đáy} \\cdot h\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "C . h"
+        },
+        {
+          "group": 1,
+          "text": "S_đáy . h"
+        },
+        {
+          "group": 1,
+          "text": "C + h"
+        },
+        {
+          "group": 1,
+          "text": "2C . h"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_071",
+      "imgs": [
+        "_page_5_Picture_12.jpeg"
+      ],
+      "questiontext": "[img:_page_5_Picture_12.jpeg] Một hộp đựng khẩu trang y tế bằng bìa cứng có dạng hình hộp chữ nhật (cũng là hình lăng trụ đứng tứ giác) với kích thước chiều dài 20 cm, chiều rộng 10 cm, chiều cao 10 cm. Thể tích của hộp đựng khẩu trang đó là bao nhiêu?",
+      "generalfeedback": "Thể tích của hình hộp chữ nhật: \\(V = a \\cdot b \\cdot c = 20 \\cdot 10 \\cdot 10 = 2000\\text{ cm}^3\\).",
+      "answers": [
+        {
+          "text": "2 000 \\(\\text{cm}^3\\)",
+          "fraction": 100
+        },
+        {
+          "text": "1 000 \\(\\text{cm}^3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "400 \\(\\text{cm}^3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "800 \\(\\text{cm}^3\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Trong giờ học Toán về hình lăng trụ đứng, bạn An thấy bài tập tính diện tích xung quanh của chiếc lều hình lăng trụ đứng tam giác khá phức tạp và mất thời gian. Bạn An nên chọn cách xử lý nào dưới đây để thể hiện tính chăm chỉ?",
+      "generalfeedback": "Thể hiện sự chăm chỉ là chủ động, kiên trì tự suy nghĩ và hoàn thành bài tập dù bài tập khó hay phức tạp.",
+      "answers": [
+        {
+          "text": "Kiên trì phân tích kích thước các mặt bên, tính chu vi đáy rồi áp dụng công thức để hoàn thành bài tập.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua không làm bài tập này vì cho rằng nó quá dài và tốn thời gian.",
+          "fraction": 0
+        },
+        {
+          "text": "Chờ đến giờ chữa bài rồi chép lại đáp án của thầy cô mà không tự làm.",
+          "fraction": 0
+        },
+        {
+          "text": "Nhờ bạn khác làm hộ toàn bộ bài tập để kịp nộp cho giáo viên.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "van_dung",
+      "metadata_code": "PC_TRACHNHIEM",
+      "questiontext": "Đánh giá tình huống: Bạn Bình được phân công làm nhóm trưởng tính dung tích của một thùng máy nông nghiệp dạng hình lăng trụ đứng tứ giác. Bạn Bình đã chủ động phân công nhiệm vụ cho các thành viên, kiểm tra lại kết quả tính diện tích đáy hình thang và thể tích lăng trụ trước khi nộp bài. Hành vi của Bình thể hiện tinh thần trách nhiệm trong học tập.",
+      "generalfeedback": "Hành vi của Bình thể hiện tinh thần trách nhiệm trong công việc nhóm và nhiệm vụ học tập được giao.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Bạn Minh muốn tự học nội dung 'Tính thể tích hình lăng trụ đứng tam giác' ở nhà. Để thể hiện năng lực tự chủ và tự học, bạn Minh nên sắp xếp các bước học tập theo thứ tự nào hợp lý?\n(1) Đọc SGK để hiểu công thức \\(V = S_{đáy} \\cdot h\\).\n(2) Luyện tập giải Ví dụ 3 và bài tập 10.13 trong SGK.\n(3) Tự kiểm tra kết quả và xem lại các bước tính diện tích tam giác đáy nếu có sai sót.",
+      "generalfeedback": "Thứ tự học tập hợp lý thể hiện năng lực tự học: Đọc hiểu lý thuyết/công thức -> Luyện tập áp dụng -> Tự kiểm tra, đánh giá và sửa sai.",
+      "answers": [
+        {
+          "text": "(1) -> (2) -> (3)",
+          "fraction": 100
+        },
+        {
+          "text": "(2) -> (1) -> (3)",
+          "fraction": 0
+        },
+        {
+          "text": "(3) -> (2) -> (1)",
+          "fraction": 0
+        },
+        {
+          "text": "(1) -> (3) -> (2)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLC_GIAIQUYETVD",
+      "imgs": [
+        "_page_3_Figure_5.jpeg"
+      ],
+      "questiontext": "[img:_page_3_Figure_5.jpeg] Một khúc gỗ chặn bánh xe dạng hình lăng trụ đứng có đáy là hình thang cân (kích thước hai đáy 15 cm, 30 cm; cạnh bên hình thang 15 cm; chiều dài khúc gỗ 60 cm). Để sơn xung quanh khúc gỗ (không sơn 2 đáy), bạn Nam nảy ra sáng kiến: Thay vì tính diện tích 4 mặt bên riêng lẻ, bạn tính chu vi hình thang đáy rồi nhân với chiều dài khúc gỗ \\(S_{xq} = C \\cdot h\\). Em đánh giá thế nào về giải pháp của Nam?",
+      "generalfeedback": "Giải pháp của Nam là sáng tạo và chính xác vì áp dụng công thức diện tích xung quanh lăng trụ đứng \\(S_{xq} = C \\cdot h\\), giúp tính toán nhanh hơn so với tính riêng lẻ từng mặt bên.",
+      "answers": [
+        {
+          "text": "Giải pháp của Nam đúng và tối ưu vì áp dụng đúng công thức diện tích xung quanh \\(S_{xq} = C \\cdot h\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Giải pháp của Nam sai vì phải tính riêng diện tích từng hình chữ nhật mặt bên.",
+          "fraction": 0
+        },
+        {
+          "text": "Giải pháp của Nam chỉ đúng khi đáy là hình tam giác, không đúng cho hình thang.",
+          "fraction": 0
+        },
+        {
+          "text": "Giải pháp của Nam sai vì thiếu diện tích hai đầu hình thang.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_02",
+      "imgs": [
+        "_page_4_Picture_14.jpeg"
+      ],
+      "questiontext": "[img:_page_4_Picture_14.jpeg] Bể bơi trong Hình 10.30 có hình dạng ghép bởi một hình hộp chữ nhật và một hình lăng trụ đứng tam giác. Bước mô hình hóa toán học nào dưới đây là phù hợp để tính tổng thể tích nước khi bể bơi đầy ắp?",
+      "generalfeedback": "Mô hình hóa toán học thực hiện bằng cách tách hình phức tạp thành hai khối quen thuộc: hình hộp chữ nhật và hình lăng trụ đứng tam giác, tính thể tích từng khối rồi cộng lại.",
+      "answers": [
+        {
+          "text": "Tách bể bơi thành hình hộp chữ nhật và hình lăng trụ đứng tam giác, tính thể tích từng hình rồi cộng lại.",
+          "fraction": 100
+        },
+        {
+          "text": "Coi toàn bộ bể bơi là một hình lăng trụ đứng tứ giác duy nhất với chiều cao 25 m.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ cần tính thể tích phần hình hộp chữ nhật vì phần đáy nghiêng không đáng kể.",
+          "fraction": 0
+        },
+        {
+          "text": "Tính diện tích xung quanh của bể bơi rồi nhân với chiều sâu 4 m.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_05",
+      "questiontext": "Để gấp được một mô hình lăng trụ đứng tam giác từ bìa cứng, học sinh cần sử dụng thước kẻ để đo các [[1]] và dùng kéo để cắt theo [[2]] của hình khai triển.",
+      "generalfeedback": "Thước kẻ dùng để đo độ dài kích thước, kéo dùng để cắt theo đường viền khai triển.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "độ dài kích thước"
+        },
+        {
+          "group": 1,
+          "text": "đường viền"
+        },
+        {
+          "group": 1,
+          "text": "góc vuông"
+        },
+        {
+          "group": 1,
+          "text": "thể tích"
+        }
+      ]
+    }
+  ]
+}

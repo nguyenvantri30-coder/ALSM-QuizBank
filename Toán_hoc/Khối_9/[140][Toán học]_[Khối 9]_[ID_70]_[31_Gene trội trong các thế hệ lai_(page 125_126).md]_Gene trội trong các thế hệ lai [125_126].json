@@ -1,0 +1,735 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 28,
+    "metadata_used": {
+      "Bảng sơ đồ tư duy kết hợp xác suất tỉ lệ kiểu gene AA": 5,
+      "Aa": 3,
+      "aa trong phép lai": 3,
+      "Vận dụng kiến thức xác suất mô phỏng phép thử ngẫu nhiên tính tỉ lệ phân li kiểu hình đời con": 5,
+      "YCCD_TOAN9_135": 4,
+      "SUB_CHAMCHI_HAMHOC_C2_03": 1,
+      "SUB_GQVD_DEXUAT_C2_01": 1,
+      "SUB_TCTH_THICHUNG_C2_01": 1,
+      "NLT_TOAN_C2_02_08": 1,
+      "NLT_TOAN_C2_03_05": 1,
+      "1.1TC2a_K9": 1,
+      "1.2TC2d_K9": 1,
+      "9.A3.1_2": 1
+    },
+    "types_used": {
+      "multichoice": 13,
+      "truefalse": 3,
+      "numerical": 3,
+      "matching": 2,
+      "gapselect": 2,
+      "ddwtos": 1,
+      "calculatedsimple": 1,
+      "shortanswer": 2,
+      "calculatedmulti": 1
+    },
+    "total": 28
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN9_135",
+        "reason": "Đo lường năng lực vận dụng xác suất tính tỉ lệ kiểu gene/kiểu hình đời con"
+      },
+      {
+        "metadata_code": "Bảng sơ đồ tư duy kết hợp xác suất tỉ lệ kiểu gene AA",
+        "reason": "Kiểm tra kiến thức về xác suất tỉ lệ kiểu gene AA"
+      },
+      {
+        "metadata_code": "Aa",
+        "reason": "Kiểm tra kiến thức về xác suất tỉ lệ kiểu gene Aa"
+      },
+      {
+        "metadata_code": "aa trong phép lai",
+        "reason": "Kiểm tra kiến thức về xác suất tỉ lệ kiểu gene aa"
+      },
+      {
+        "metadata_code": "Vận dụng kiến thức xác suất mô phỏng phép thử ngẫu nhiên tính tỉ lệ phân li kiểu hình đời con",
+        "reason": "Đánh giá kỹ năng mô phỏng phép thử ngẫu nhiên và tính tỉ lệ phân li"
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_03",
+        "reason": "Đo lường ý thức vận dụng kiến thức, kĩ năng từ các nguồn tin cậy vào học tập"
+      },
+      {
+        "metadata_code": "SUB_GQVD_DEXUAT_C2_01",
+        "reason": "Đánh giá năng lực xác định và tìm hiểu dữ liệu thông tin liên quan đến vấn đề"
+      },
+      {
+        "metadata_code": "SUB_TCTH_THICHUNG_C2_01",
+        "reason": "Đánh giá năng lực vận dụng linh hoạt giải pháp thay thế trong tình huống mới"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_02_08",
+        "reason": "Đo lường năng lực thể hiện lời giải toán học vào ngữ cảnh thực tiễn"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_05",
+        "reason": "Đánh giá kĩ năng sử dụng công cụ toán học (sơ đồ tổ hợp/bảng Punnett) giải quyết vấn đề"
+      },
+      {
+        "metadata_code": "1.1TC2a_K9",
+        "reason": "Đánh giá năng lực tự tổ chức tìm kiếm dữ liệu/công cụ số hỗ trợ học tập"
+      },
+      {
+        "metadata_code": "1.2TC2d_K9",
+        "reason": "Đánh giá năng lực thực hiện phân tích dữ liệu số từ kết quả mô phỏng"
+      },
+      {
+        "metadata_code": "9.A3.1_2",
+        "reason": "Đánh giá tư duy phản biện khi phân tích và nhận diện thông tin chưa chính xác do AI cung cấp"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN9_131",
+        "reason": "Nội dung thuộc chủ đề khác, không nằm trong phạm vi kiến thức bài học Gene trội trong các thế hệ lai"
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_132",
+        "reason": "Nội dung thuộc chủ đề khác, không nằm trong phạm vi kiến thức bài học Gene trội trong các thế hệ lai"
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_133",
+        "reason": "Nội dung thuộc chủ đề khác, không nằm trong phạm vi kiến thức bài học Gene trội trong các thế hệ lai"
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_140",
+        "reason": "Nội dung hoạt động ngoại khóa, không nằm trong phạm vi kiến thức bài học Gene trội trong các thế hệ lai"
+      },
+      {
+        "metadata_code": "SUB_YEUNUOC_CHUNG_C2_01",
+        "reason": "Nội dung bài học về di truyền Mendel và tính xác suất không có cơ sở liên quan trực tiếp đến các hoạt động bảo vệ thiên nhiên."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Bảng sơ đồ tư duy kết hợp xác suất tỉ lệ kiểu gene AA",
+      "imgs": [
+        "_page_0_Figure_9.jpeg"
+      ],
+      "questiontext": "Dựa vào sơ đồ lai [img:_page_0_Figure_9.jpeg], khi lai hai cây đậu Hà Lan F1 (Aa \\(\\times\\) Aa), xác suất xuất hiện cây có kiểu gene AA ở thế hệ F2 là bao nhiêu?",
+      "generalfeedback": "Bảng tổ hợp hợp tử F2 gồm 4 phương án đồng khả năng: AA, Aa, aA, aa. Do đó xác suất kiểu gene AA là 1/4 = 25%.",
+      "answers": [
+        {
+          "text": "25%",
+          "fraction": 100
+        },
+        {
+          "text": "50%",
+          "fraction": 0
+        },
+        {
+          "text": "75%",
+          "fraction": 0
+        },
+        {
+          "text": "100%",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Aa",
+      "questiontext": "Trong phép lai F1 tự thụ phấn (Aa \\(\\times\\) Aa), xác suất một cây ở F2 có kiểu gene dị hợp Aa là 50%. Đúng hay Sai?",
+      "generalfeedback": "Trong 4 tổ hợp giao tử F2 (AA, Aa, aA, aa), có 2 tổ hợp cho kiểu gene Aa. Do đó xác suất là 2/4 = 50%.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "aa trong phép lai",
+      "questiontext": "Trong phép lai hai cây đậu F1 có kiểu gene Aa, tỉ lệ xuất hiện kiểu gene lặn aa ở thế hệ F2 dưới dạng phân số tối giản là bao nhiêu?",
+      "generalfeedback": "Có 1 trong 4 tổ hợp cho kiểu gene aa, nên tỉ lệ là 1/4.",
+      "answers": [
+        {
+          "text": "\\(\\frac{1}{4}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{1}{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{3}{4}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{1}{16}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng kiến thức xác suất mô phỏng phép thử ngẫu nhiên tính tỉ lệ phân li kiểu hình đời con",
+      "questiontext": "Trong thí nghiệm mô phỏng tung hai đồng xu 100 lần để biểu diễn phép lai F1 tự thụ phấn, về mặt lý thuyết, số lần thu được kết quả kiểu hình hoa màu đỏ (gồm AA và Aa) là bao nhiêu? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Xác suất hoa màu đỏ là 3/4 = 75%. Với 100 lần tung, số lần lý thuyết là 100 * 0.75 = 75.",
+      "answers": [
+        {
+          "text": "75",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_135",
+      "questiontext": "Hãy ghép mỗi loại kiểu gene hoặc kiểu hình ở thế hệ F2 (khi lai Aa \\(\\times\\) Aa) với xác suất xuất hiện tương ứng của nó:",
+      "generalfeedback": "Xác suất kiểu gene AA là 1/4 (25%), kiểu gene Aa là 1/2 (50%), kiểu gene aa là 1/4 (25%), và kiểu hình hoa đỏ là 3/4 (75%).",
+      "subquestions": [
+        {
+          "question": "Kiểu gene AA",
+          "answer": "1/4"
+        },
+        {
+          "question": "Kiểu gene Aa",
+          "answer": "1/2"
+        },
+        {
+          "question": "Kiểu hình hoa màu trắng (aa)",
+          "answer": "1/4"
+        },
+        {
+          "question": "Kiểu hình hoa màu đỏ (AA hoặc Aa)",
+          "answer": "3/4"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Bảng sơ đồ tư duy kết hợp xác suất tỉ lệ kiểu gene AA",
+      "questiontext": "Khi lập bảng sơ đồ xác suất cho phép lai F1 (Aa \\(\\times\\) Aa), tổng số phương án tổ hợp đồng khả năng là [[1]]. Trong đó, số phương án cho kiểu gene thuần chủng đồng hợp trội AA là [[2]].",
+      "generalfeedback": "Bảng tổ hợp gồm 4 ô đồng khả năng (AA, Aa, aA, aa), trong đó có 1 ô là AA.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "4"
+        },
+        {
+          "group": 1,
+          "text": "1"
+        },
+        {
+          "group": 1,
+          "text": "2"
+        },
+        {
+          "group": 1,
+          "text": "3"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng kiến thức xác suất mô phỏng phép thử ngẫu nhiên tính tỉ lệ phân li kiểu hình đời con",
+      "questiontext": "Trong mô phỏng tung đồng xu đại diện cho giao tử bố và mẹ, đồng xu màu xanh quy ước giao tử bố mang [[1]] hoặc [[2]], khi tung hai đồng xu thu được tổ hợp aa cho kiểu hình [[3]].",
+      "generalfeedback": "Đồng xu đại diện cho giao tử mang allele A hoặc a. Tổ hợp aa quy định kiểu hình hoa màu trắng.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "A"
+        },
+        {
+          "group": 1,
+          "text": "a"
+        },
+        {
+          "group": 1,
+          "text": "hoa màu trắng"
+        },
+        {
+          "group": 1,
+          "text": "hoa màu đỏ"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_135",
+      "questiontext": "Trong một quần thể gồm {n} cây đậu Hà Lan F2 thu được từ phép lai F1 (Aa \\(\\times\\) Aa), về mặt lý thuyết xác suất, số cây dự kiến có kiểu gene thuần chủng AA là bao nhiêu? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Xác suất kiểu gene AA là 1/4 = 0.25. Do đó số cây có kiểu gene AA là 0.25 * {n}.",
+      "wildcards": [
+        {
+          "name": "n",
+          "min": 100.0,
+          "max": 1000.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "0.25*{n}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Aa",
+      "questiontext": "Trong quy ước di truyền của Mendel đối với phép lai hoa đỏ và hoa trắng, allele A quy định hoa màu đỏ, allele a quy định hoa màu trắng. Kiểu gene Aa biểu hiện kiểu hình nào?",
+      "generalfeedback": "Do allele A là trội hoàn toàn so với allele a, nên kiểu gene dị hợp Aa biểu hiện kiểu hình hoa màu đỏ.",
+      "answers": [
+        {
+          "text": "Hoa màu đỏ",
+          "fraction": 100
+        },
+        {
+          "text": "Hoa màu trắng",
+          "fraction": 0
+        },
+        {
+          "text": "Hoa màu hồng",
+          "fraction": 0
+        },
+        {
+          "text": "Cả hoa đỏ và hoa trắng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "aa trong phép lai",
+      "questiontext": "Kiểu gene đồng hợp lặn quy định hoa màu trắng trong phép lai của Mendel được kí hiệu bằng hai chữ cái nào?",
+      "generalfeedback": "Kiểu gene đồng hợp lặn quy định hoa màu trắng được kí hiệu là aa.",
+      "answers": [
+        {
+          "text": "aa",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Bảng sơ đồ tư duy kết hợp xác suất tỉ lệ kiểu gene AA",
+      "questiontext": "Trong phép lai hai cây đậu Hà Lan F1 có kiểu gene Aa (hoa màu đỏ), xác suất để giao tử mang allele A gặp giao tử mang allele A tạo ra kiểu gene AA là bao nhiêu?",
+      "generalfeedback": "Xác suất giao tử A từ bố là 1/2, từ mẹ là 1/2. Xác suất tổ hợp AA là (1/2) \\(\\times\\) (1/2) = 1/4 (hay 25%).",
+      "answers": [
+        {
+          "text": "25%",
+          "fraction": 100
+        },
+        {
+          "text": "50%",
+          "fraction": 0
+        },
+        {
+          "text": "75%",
+          "fraction": 0
+        },
+        {
+          "text": "12.5%",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "aa trong phép lai",
+      "questiontext": "Trong đời lai F2 thu được từ phép lai F1 (Aa \\(\\times\\) Aa), xác suất để một cây ngẫu nhiên có kiểu gene đồng hợp lặn aa bằng xác suất để một cây có kiểu gene đồng hợp trội AA. Đúng hay Sai?",
+      "generalfeedback": "Cả hai kiểu gene đồng hợp AA và aa đều có xác suất xuất hiện là 1/4 (25%) ở đời F2. Do đó phát biểu này là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng kiến thức xác suất mô phỏng phép thử ngẫu nhiên tính tỉ lệ phân li kiểu hình đời con",
+      "questiontext": "Một học sinh thực hiện mô phỏng phép lai F1 (Aa \\(\\times\\) Aa) bằng cách tung hai đồng xu 200 lần. Theo lý thuyết xác suất, số lần thu được kết quả kiểu gene dị hợp (Aa hoặc aA) là bao nhiêu? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Xác suất thu được kiểu gene dị hợp là 50% = 0.5. Với 200 lần tung, số lần thu được lý thuyết là 200 * 0.5 = 100.",
+      "answers": [
+        {
+          "text": "100",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_135",
+      "questiontext": "Hãy ghép mỗi phép lai ở cột bên trái với xác suất thu được kiểu gene Aa ở đời con tương ứng ở cột bên phải:",
+      "generalfeedback": "Phép lai Aa x Aa cho 50% Aa; AA x aa cho 100% Aa; Aa x aa cho 50% Aa.",
+      "subquestions": [
+        {
+          "question": "Aa \\(\\times\\) Aa",
+          "answer": "50%"
+        },
+        {
+          "question": "AA \\(\\times\\) aa",
+          "answer": "100%"
+        },
+        {
+          "question": "aa \\(\\times\\) aa",
+          "answer": "0%"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Bảng sơ đồ tư duy kết hợp xác suất tỉ lệ kiểu gene AA",
+      "questiontext": "Khi lai hai cây đậu Hà Lan F1 (Aa \\(\\times\\) Aa), tỉ lệ kiểu hình thu được ở đời lai F2 là [[1]] cây hoa màu đỏ : [[2]] cây hoa màu trắng.",
+      "generalfeedback": "Tỉ lệ phân li kiểu hình ở đời F2 là 3 trội (hoa màu đỏ) : 1 lặn (hoa màu trắng).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "3"
+        },
+        {
+          "group": 1,
+          "text": "1"
+        },
+        {
+          "group": 1,
+          "text": "2"
+        },
+        {
+          "group": 1,
+          "text": "4"
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_135",
+      "questiontext": "Trong thí nghiệm lai đậu Hà Lan với {k} hạt thu được ở thế hệ F2 từ phép lai F1 (Aa \\(\\times\\) Aa), hãy xác định công thức tính số hạt dự kiến biểu hiện kiểu hình hoa màu đỏ?",
+      "generalfeedback": "Xác suất kiểu hình hoa màu đỏ (gồm kiểu gene AA và Aa) là 3/4 = 0.75. Số hạt hoa đỏ dự kiến là 0.75 * {k}.",
+      "wildcards": [
+        {
+          "name": "k",
+          "min": 80.0,
+          "max": 400.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "0.75*{k}",
+          "fraction": 100
+        },
+        {
+          "text": "0.25*{k}",
+          "fraction": 0
+        },
+        {
+          "text": "0.5*{k}",
+          "fraction": 0
+        },
+        {
+          "text": "1.0*{k}",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Vận dụng kiến thức xác suất mô phỏng phép thử ngẫu nhiên tính tỉ lệ phân li kiểu hình đời con",
+      "questiontext": "Trong bài thực hành mô phỏng phép lai F1 tự thụ phấn, việc tung hai đồng xu quy ước mặt A và mặt a đại diện cho quá trình sinh học nào?",
+      "generalfeedback": "Tung hai đồng xu đại diện cho sự kết hợp ngẫu nhiên giữa các giao tử của bố và mẹ trong quá trình thụ tinh.",
+      "answers": [
+        {
+          "text": "Sự kết hợp ngẫu nhiên giữa giao tử đực và giao tử cái trong thụ tinh",
+          "fraction": 100
+        },
+        {
+          "text": "Quá trình đột biến gene diễn ra ở thế hệ F1",
+          "fraction": 0
+        },
+        {
+          "text": "Sự nhân đôi DNA trong tế bào sinh dưỡng",
+          "fraction": 0
+        },
+        {
+          "text": "Quá trình phân chia tế bào nguyên phân",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Bảng sơ đồ tư duy kết hợp xác suất tỉ lệ kiểu gene AA",
+      "questiontext": "Trong phép lai F1 (Aa \\(\\times\\) Aa), xác suất để một cây F2 mang cả hai allele A (kiểu gene AA) tính theo tỉ lệ phần trăm là bao nhiêu?",
+      "generalfeedback": "Xác suất kiểu gene AA là 1/4 = 25%.",
+      "answers": [
+        {
+          "text": "25%",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Aa",
+      "questiontext": "Ở thế hệ F2 thu được từ phép lai F1 (Aa \\(\\times\\) Aa), kiểu gene Aa có tỉ lệ xuất hiện lớn gấp đôi tỉ lệ của kiểu gene AA. Đúng hay Sai?",
+      "generalfeedback": "Tỉ lệ kiểu gene Aa là 2/4 (50%), trong khi kiểu gene AA là 1/4 (25%). Do đó tỉ lệ Aa gấp đôi AA là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng kiến thức xác suất mô phỏng phép thử ngẫu nhiên tính tỉ lệ phân li kiểu hình đời con",
+      "questiontext": "Khi mô phỏng phép lai F1 (Aa \\(\\times\\) Aa) bằng cách tung hai đồng xu 120 lần, số lần xuất hiện tổ hợp aa (cho kiểu hình hoa màu trắng) theo lý thuyết là bao nhiêu? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Xác suất tổ hợp aa là 1/4 = 0.25. Với 120 lần tung, số lần lý thuyết là 120 * 0.25 = 30.",
+      "answers": [
+        {
+          "text": "30",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_03",
+      "questiontext": "Bạn An muốn tìm hiểu thêm về kết quả phép lai đậu Hà Lan của Mendel để chuẩn bị bài học. Hành vi nào sau đây thể hiện bạn An có ý thức vận dụng kiến thức và tra cứu từ nguồn tin cậy?",
+      "generalfeedback": "Đọc SGK và tra cứu tài liệu khoa học/sách báo uy tín thể hiện ý thức học tập tốt và tinh thần vận dụng kiến thức từ nguồn tin cậy.",
+      "answers": [
+        {
+          "text": "Đọc kĩ SGK, tự mô phỏng phép thử và so sánh với tài liệu khoa học di truyền uy tín",
+          "fraction": 100
+        },
+        {
+          "text": "Sao chép hoàn toàn đáp án từ các diễn đàn mạng không rõ nguồn gốc",
+          "fraction": 0
+        },
+        {
+          "text": "Đoán ngẫu nhiên kết quả mà không căn cứ vào nguyên lý xác suất",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua không làm bài vì cho rằng kiến thức di truyền không ứng dụng được",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_01",
+      "questiontext": "Khi thực hành mô phỏng phép lai F1 (Aa \\(\\times\\) Aa) bằng cách tung hai đồng xu 100 lần, thông tin dữ liệu cốt lõi nào học sinh cần thu thập và ghi chép vào bảng kết quả?",
+      "generalfeedback": "Để xác định tỉ lệ kiểu gene và kiểu hình đời F2, dữ liệu cốt lõi cần thu thập là kết quả mặt ngửa (A hoặc a) của hai đồng xu ở mỗi lần tung.",
+      "answers": [
+        {
+          "text": "Kết quả mặt ngửa (A hoặc a) của từng đồng xu ở mỗi lần tung để xác định kiểu gene và kiểu hình",
+          "fraction": 100
+        },
+        {
+          "text": "Khối lượng và đường kính của từng đồng xu được sử dụng",
+          "fraction": 0
+        },
+        {
+          "text": "Thời gian rơi của đồng xu từ lúc gieo đến khi dừng lại",
+          "fraction": 0
+        },
+        {
+          "text": "Số lần đồng xu bị rơi ra ngoài mặt bàn thí nghiệm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_TCTH_THICHUNG_C2_01",
+      "questiontext": "Để mô phỏng phép lai một cặp tính trạng (Aa \\(\\times\\) Aa) khi không có sẵn đồng xu, học sinh có thể vận dụng linh hoạt phương pháp nào sau đây có nguyên lý xác suất tương đương?",
+      "generalfeedback": "Rút ngẫu nhiên từ 2 hộp kín (mỗi hộp chứa số thẻ A và a bằng nhau) đảm bảo xác suất xuất hiện giao tử A và a đều là 1/2, tương đương việc tung đồng xu.",
+      "answers": [
+        {
+          "text": "Rút ngẫu nhiên đồng thời từ 2 hộp kín, mỗi hộp chứa số lượng thẻ A và a bằng nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Gieo một con xúc xắc 6 mặt và chỉ tính mặt 1 chấm",
+          "fraction": 0
+        },
+        {
+          "text": "Chọn ngẫu nhiên một số bất kỳ từ 1 đến 100 trên máy tính",
+          "fraction": 0
+        },
+        {
+          "text": "Lấy ngẫu nhiên các viên phấn màu từ một hộp chỉ toàn phấn trắng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_02_08",
+      "questiontext": "Trong thí nghiệm thực tiễn thu hoạch 400 hạt F2 từ phép lai F1 (Aa \\(\\times\\) Aa), mô hình xác suất toán học dự đoán số hạt cho cây hoa màu đỏ (mang allele trội A) là bao nhiêu?",
+      "generalfeedback": "Xác suất biểu hiện kiểu hình hoa màu đỏ là 3/4 (75%). Áp dụng vào thực tiễn 400 hạt: 400 \\(\\times\\) 0.75 = 300 hạt.",
+      "answers": [
+        {
+          "text": "300 hạt",
+          "fraction": 100
+        },
+        {
+          "text": "100 hạt",
+          "fraction": 0
+        },
+        {
+          "text": "200 hạt",
+          "fraction": 0
+        },
+        {
+          "text": "400 hạt",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Việc thiết lập Bảng sơ đồ tổ hợp giao tử (bảng Punnett 2x2) trong phép lai Aa \\(\\times\\) Aa thể hiện kĩ năng toán học nào dưới đây?",
+      "generalfeedback": "Lập bảng 2x2 liệt kê 4 tổ hợp đồng khả năng (AA, Aa, aA, aa) là kĩ năng liệt kê các biến cố đồng khả năng để tính xác suất.",
+      "answers": [
+        {
+          "text": "Liệt kê các biến cố đồng khả năng trong không gian mẫu để tính xác suất của kiểu gene/kiểu hình",
+          "fraction": 100
+        },
+        {
+          "text": "Giải hệ phương trình bậc nhất hai ẩn số",
+          "fraction": 0
+        },
+        {
+          "text": "Tính chu vi và diện tích của hình vuông",
+          "fraction": 0
+        },
+        {
+          "text": "Vẽ đồ thị biểu diễn hàm số bậc nhất",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "1.1TC2a_K9",
+      "questiontext": "Học sinh muốn tìm kiếm tập dữ liệu số hoặc phần mềm mô phỏng phép lai Mendel trên môi trường số để hỗ trợ việc học. Từ khóa tìm kiếm nào sau đây là phù hợp nhất?",
+      "generalfeedback": "Từ khóa 'Mendelian genetics simulation tool' hoặc 'Phần mềm mô phỏng di truyền Mendel' giúp truy cập đúng công cụ số chuyên ngành.",
+      "answers": [
+        {
+          "text": "Phần mềm mô phỏng di truyền Mendel (Mendelian genetics simulation tool)",
+          "fraction": 100
+        },
+        {
+          "text": "Trò chơi giải trí trồng cây hoa đậu trên di động",
+          "fraction": 0
+        },
+        {
+          "text": "Video ca nhạc về hoa đậu Hà Lan",
+          "fraction": 0
+        },
+        {
+          "text": "Hình ảnh cây đậu Hà Lan đẹp nhất trên mạng xã hội",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "1.2TC2d_K9",
+      "questiontext": "Sau khi chạy công cụ mô phỏng số gieo giao tử F1 (Aa \\(\\times\\) Aa) với 1000 phép thử, phần mềm xuất ra kết quả: 253 AA, 498 Aa, 249 aa. Phân tích dữ liệu số này cho ta kết luận gì?",
+      "generalfeedback": "Tỉ lệ thực tế 253 : 498 : 249 xấp xỉ 1 : 2 : 1, nghiệm lại đúng lý thuyết xác suất Mendel khi số phép thử đủ lớn.",
+      "answers": [
+        {
+          "text": "Tỉ lệ kiểu gene thực tế xấp xỉ 1 AA : 2 Aa : 1 aa, phù hợp với lý thuyết xác suất Mendel",
+          "fraction": 100
+        },
+        {
+          "text": "Kết quả mô phỏng bị sai vì không đạt chính xác tuyệt đối 250 : 500 : 250",
+          "fraction": 0
+        },
+        {
+          "text": "Tỉ lệ kiểu hình thu được là 1 hoa đỏ : 3 hoa trắng",
+          "fraction": 0
+        },
+        {
+          "text": "Kiểu gene đồng hợp lặn aa chiếm đa số trong quần thể",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "9.A3.1_2",
+      "questiontext": "Học sinh hỏi một chatbot AI: 'Tỉ lệ kiểu hình F2 trong phép lai Aa \\(\\times\\) Aa là bao nhiêu?' và AI trả lời: 'Tỉ lệ kiểu hình là 1 hoa đỏ : 3 hoa trắng'. Người học có tư duy phản biện cần đánh giá câu trả lời của AI như thế nào?",
+      "generalfeedback": "Allele A quy định hoa đỏ là trội hoàn toàn so với a (hoa trắng), nên tỉ lệ kiểu hình đúng phải là 3 hoa đỏ : 1 hoa trắng. AI đã trả lời ngược tỉ lệ.",
+      "answers": [
+        {
+          "text": "AI trả lời sai, vì allele A quy định hoa đỏ là trội, tỉ lệ đúng phải là 3 hoa đỏ : 1 hoa trắng",
+          "fraction": 100
+        },
+        {
+          "text": "AI luôn chính xác nên tỉ lệ 1 hoa đỏ : 3 hoa trắng là hoàn toàn đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Câu trả lời của AI đúng vì hoa màu trắng xuất hiện nhiều hơn ở F2",
+          "fraction": 0
+        },
+        {
+          "text": "Không thể xác định vì AI sử dụng thuật toán nâng cao hơn SGK",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

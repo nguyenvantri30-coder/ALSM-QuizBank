@@ -1,0 +1,657 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 26,
+    "metadata_used": {
+      "Quy tắc cộng và trừ hai số thập phân (cùng dấu": 4,
+      "khác dấu)": 3,
+      "YCCD_TOAN6_074": 4,
+      "Thực hiện phép cộng số thập phân": 3,
+      "Thực hiện phép trừ số thập phân": 4,
+      "YCCD_TOAN6_075": 2,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_TCTH_TUHOC_C2_04": 1,
+      "SUB_GTHT_XACDINHMD_C2_03": 1,
+      "NLT_TOAN_C2_01_01": 1,
+      "NLT_TOAN_C2_03_05": 1,
+      "2.1TC1a_K6": 1
+    },
+    "types_used": {
+      "multichoice": 11,
+      "truefalse": 2,
+      "shortanswer": 2,
+      "numerical": 3,
+      "gapselect": 2,
+      "calculatedsimple": 2,
+      "matching": 2,
+      "ddwtos": 1,
+      "calculatedmulti": 1
+    },
+    "total": 26
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN6_074",
+        "reason": "Đo lường khả năng thực hiện phép cộng số thập phân."
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_075",
+        "reason": "Đo lường khả năng thực hiện phép trừ số thập phân."
+      },
+      {
+        "metadata_code": "Quy tắc cộng và trừ hai số thập phân (cùng dấu",
+        "reason": "Đo lường kiến thức về quy tắc cộng và trừ hai số thập phân cùng dấu."
+      },
+      {
+        "metadata_code": "khác dấu)",
+        "reason": "Đo lường kiến thức về quy tắc cộng và trừ hai số thập phân khác dấu."
+      },
+      {
+        "metadata_code": "Thực hiện phép cộng số thập phân",
+        "reason": "Đo lường kỹ năng thực hiện phép cộng số thập phân."
+      },
+      {
+        "metadata_code": "Thực hiện phép trừ số thập phân",
+        "reason": "Đo lường kỹ năng thực hiện phép trừ số thập phân."
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc cộng và trừ hai số thập phân (cùng dấu",
+      "questiontext": "Muốn cộng hai số thập phân âm, ta làm như thế nào?",
+      "generalfeedback": "Muốn cộng hai số thập phân âm, ta cộng hai số đối của chúng rồi đặt dấu trừ \"-\" trước kết quả: \\((-a) + (-b) = -(a + b)\\) với \\(a, b > 0\\).",
+      "answers": [
+        {
+          "text": "Cộng hai số đối của chúng rồi đặt dấu trừ \"-\" trước kết quả.",
+          "fraction": 100
+        },
+        {
+          "text": "Lấy số lớn hơn trừ đi số nhỏ hơn rồi đặt dấu trừ trước kết quả.",
+          "fraction": 0
+        },
+        {
+          "text": "Cộng hai số đối của chúng rồi đặt dấu cộng \"+\" trước kết quả.",
+          "fraction": 0
+        },
+        {
+          "text": "Lấy số nhỏ hơn trừ đi số lớn hơn.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc cộng và trừ hai số thập phân (cùng dấu",
+      "questiontext": "Phép trừ hai số thập phân được đưa về phép cộng với số đối của số trừ: \\(a - b = a + (-b)\\). Đúng hay Sai?",
+      "generalfeedback": "Đúng. Theo quy tắc trong SGK, phép trừ hai số thập phân được đưa về phép cộng với số đối: \\(a - b = a + (-b)\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "khác dấu)",
+      "questiontext": "Cho \\(a, b > 0\\) và \\(a > b\\). Quy tắc cộng hai số thập phân khác dấu \\((-a) + b\\) là:",
+      "generalfeedback": "Khi \\(a > b > 0\\), ta có \\((-a) + b = -(a - b)\\).",
+      "answers": [
+        {
+          "text": "\\((-a) + b = -(a - b)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\((-a) + b = b + a\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((-a) + b = a - b\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((-a) + b = -(a + b)\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc cộng và trừ hai số thập phân (cùng dấu",
+      "questiontext": "Số đối của số thập phân \\(-2,5\\) là số nào?",
+      "generalfeedback": "Số đối của \\(-2,5\\) là \\(2,5\\).",
+      "answers": [
+        {
+          "text": "2,5",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_074",
+      "questiontext": "Tính kết quả của phép tính: \\((-2,5) + (-0,25)\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "\\((-2,5) + (-0,25) = -(2,5 + 0,25) = -2,75\\).",
+      "answers": [
+        {
+          "text": "-2.75",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "khác dấu)",
+      "questiontext": "Để cộng hai số thập phân khác dấu \\((-1,4) + 2,1\\), ta lấy số lớn hơn trừ đi số nhỏ hơn: \\(2,1 - 1,4 =\\) [[1]]. Do \\(2,1 > 1,4\\) nên kết quả mang dấu [[2]].",
+      "generalfeedback": "\\((-1,4) + 2,1 = 2,1 - 1,4 = 0,7\\). Kết quả mang dấu dương (+).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "0,7"
+        },
+        {
+          "group": 1,
+          "text": "-0,7"
+        },
+        {
+          "group": 1,
+          "text": "dương"
+        },
+        {
+          "group": 1,
+          "text": "âm"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện phép cộng số thập phân",
+      "questiontext": "Tính tổng của hai số thập phân âm \\((- {a})\\) và \\((- {b})\\) biết {a} và {b} là các số dương. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "\\((- {a}) + (- {b}) = -({a} + {b})\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.1,
+          "max": 9.9,
+          "decimals": 1
+        },
+        {
+          "name": "b",
+          "min": 1.1,
+          "max": 9.9,
+          "decimals": 1
+        }
+      ],
+      "answers": [
+        {
+          "text": "-({a}+{b})",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện phép cộng số thập phân",
+      "questiontext": "Ghép mỗi phép tính cộng số thập phân ở cột bên trái với kết quả đúng ở cột bên phải:",
+      "generalfeedback": "Thực hiện cộng theo quy tắc cộng số thập phân cùng dấu và khác dấu.",
+      "subquestions": [
+        {
+          "question": "\\(2,259 + 0,31\\)",
+          "answer": "2,569"
+        },
+        {
+          "question": "\\((-2,5) + (-0,25)\\)",
+          "answer": "-2,75"
+        },
+        {
+          "question": "\\((-1,4) + 2,1\\)",
+          "answer": "0,7"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_074",
+      "imgs": [
+        "_page_0_Figure_8.jpeg"
+      ],
+      "questiontext": "Một tàu thăm dò đáy biển đang ở độ cao \\(-0,32\\) km (so với mực nước biển) [img:_page_0_Figure_8.jpeg]. Tính độ cao mới của tàu (so với mực nước biển) sau khi tàu nổi lên thêm \\(0,11\\) km.",
+      "generalfeedback": "Độ cao mới của tàu là: \\((-0,32) + 0,11 = -(0,32 - 0,11) = -0,21\\) km.",
+      "answers": [
+        {
+          "text": "\\(-0,21\\) km",
+          "fraction": 100
+        },
+        {
+          "text": "\\(-0,43\\) km",
+          "fraction": 0
+        },
+        {
+          "text": "\\(0,21\\) km",
+          "fraction": 0
+        },
+        {
+          "text": "\\(0,43\\) km",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện phép trừ số thập phân",
+      "questiontext": "Tính kết quả của phép trừ: \\(3,2 - 5,7\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "\\(3,2 - 5,7 = 3,2 + (-5,7) = -(5,7 - 3,2) = -2,5\\).",
+      "answers": [
+        {
+          "text": "-2.5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_075",
+      "questiontext": "Nhiệt độ trung bình năm ở Bắc Cực là \\(-3,4^\\circ\\text{C}\\), ở Nam Cực là \\(-49,3^\\circ\\text{C}\\). Nhiệt độ trung bình năm ở Bắc Cực cao hơn ở Nam Cực bao nhiêu độ C?",
+      "generalfeedback": "Nhiệt độ ở Bắc Cực cao hơn ở Nam Cực số độ C là: \\((-3,4) - (-49,3) = -3,4 + 49,3 = 45,9^\\circ\\text{C}\\).",
+      "answers": [
+        {
+          "text": "\\(45,9^\\circ\\text{C}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(-45,9^\\circ\\text{C}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(52,7^\\circ\\text{C}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-52,7^\\circ\\text{C}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện phép trừ số thập phân",
+      "questiontext": "Tính hiệu của hai số thập phân {a} - {b} với {a} và {b} là các số dương. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Thực hiện phép trừ: {a} - {b}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 10.1,
+          "max": 99.9,
+          "decimals": 1
+        },
+        {
+          "name": "b",
+          "min": 1.1,
+          "max": 9.9,
+          "decimals": 1
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}-{b}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "khác dấu)",
+      "questiontext": "Khi cộng hai số thập phân trái dấu \\((-a) + b\\) với \\(a > b > 0\\), ta thực hiện phép tính \\(-(a - b)\\). Đúng hay Sai?",
+      "generalfeedback": "Đúng. Khi \\(a > b > 0\\), ta có quy tắc cộng hai số thập phân khác dấu: \\((-a) + b = -(a - b)\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_074",
+      "questiontext": "Kết quả của phép tính \\((-0,346) + (-12,78)\\) là bao nhiêu?",
+      "generalfeedback": "\\((-0,346) + (-12,78) = -(0,346 + 12,78) = -13,126\\).",
+      "answers": [
+        {
+          "text": "-13,126",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện phép cộng số thập phân",
+      "questiontext": "Tính kết quả phép tính: \\((-2,259) + 31,3\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "\\((-2,259) + 31,3 = 31,3 - 2,259 = 29,041\\).",
+      "answers": [
+        {
+          "text": "29.041",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Quy tắc cộng và trừ hai số thập phân (cùng dấu",
+      "questiontext": "Muốn trừ số thập phân \\(a\\) cho số thập phân \\(b\\), ta lấy \\(a\\) cộng với [[1]] của \\(b\\). Cụ thể: \\(a - b =\\) [[3]].",
+      "generalfeedback": "Phép trừ hai số thập phân được đưa về phép cộng với số đối: \\(a - b = a + (-b)\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "số đối"
+        },
+        {
+          "group": 1,
+          "text": "số nghịch đảo"
+        },
+        {
+          "group": 1,
+          "text": "a + (-b)"
+        },
+        {
+          "group": 1,
+          "text": "a - (-b)"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_075",
+      "questiontext": "Một khối nước đá có nhiệt độ \\(-4,5^\\circ\\text{C}\\). Để chuyển thành thể lỏng, nhiệt độ của khối nước đá phải tăng thêm [[1]] \\(^\\circ\\text{C}\\) (biết điểm nóng chảy của nước đá là [[3]] \\(^\\circ\\text{C}\\)).",
+      "generalfeedback": "Nhiệt độ cần tăng thêm là: \\(0 - (-4,5) = 4,5^\\circ\\text{C}\\). Điểm nóng chảy của nước đá là \\(0^\\circ\\text{C}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "4,5"
+        },
+        {
+          "group": 1,
+          "text": "-4,5"
+        },
+        {
+          "group": 1,
+          "text": "0"
+        },
+        {
+          "group": 1,
+          "text": "100"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện phép trừ số thập phân",
+      "questiontext": "Thực hiện phép tính \\((-11,254) - (-7,35)\\) thu được kết quả là:",
+      "generalfeedback": "\\((-11,254) - (-7,35) = (-11,254) + 7,35 = -(11,254 - 7,35) = -3,904\\).",
+      "answers": [
+        {
+          "text": "\\(-3,904\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(3,904\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-18,604\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(18,604\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_074",
+      "questiontext": "Cho hai số thập phân dương {a} và {b}. Tổng của hai số thập phân âm \\((- {a}) + (- {b})\\) bằng biểu thức nào dưới đây?",
+      "generalfeedback": "Theo quy tắc cộng hai số thập phân âm: \\((-a) + (-b) = -(a + b)\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 20.0,
+          "decimals": 1
+        },
+        {
+          "name": "b",
+          "min": 1.0,
+          "max": 20.0,
+          "decimals": 1
+        }
+      ],
+      "answers": [
+        {
+          "text": "-({a}+{b})",
+          "fraction": 100
+        },
+        {
+          "text": "{a}+{b}",
+          "fraction": 0
+        },
+        {
+          "text": "{a}-{b}",
+          "fraction": 0
+        },
+        {
+          "text": "-({a}-{b})",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện phép trừ số thập phân",
+      "questiontext": "Ghép mỗi phép tính trừ số thập phân ở cột bên trái với kết quả đúng ở cột bên phải:",
+      "generalfeedback": "Thực hiện tính: \\(11,325 - 0,15 = 11,175\\); \\(3,2 - 5,7 = -2,5\\); \\((-0,346) - 12,78 = -13,126\\).",
+      "subquestions": [
+        {
+          "question": "\\(11,325 - 0,15\\)",
+          "answer": "11,175"
+        },
+        {
+          "question": "\\(3,2 - 5,7\\)",
+          "answer": "-2,5"
+        },
+        {
+          "question": "\\((-0,346) - 12,78\\)",
+          "answer": "-13,126"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi làm bài tập về nhà bài \"Tính toán với số thập phân\", Nam gặp một bài toán nâng cao về tính độ cao tàu thăm dò có nhiều phép tính cộng, trừ số thập phân phức tạp. Hành động nào sau đây thể hiện phẩm chất luôn cố gắng vươn lên đạt kết quả tốt trong học tập của Nam?",
+      "generalfeedback": "Thái độ kiên trì phân tích quy tắc dấu, nháp lại nhiều lần và chủ động hỏi khi chưa hiểu thể hiện phẩm chất luôn cố gắng vươn lên đạt kết quả tốt trong học tập.",
+      "answers": [
+        {
+          "text": "Kiên trì phân tích quy tắc dấu, nháp lại nhiều lần để tìm ra kết quả đúng và chủ động hỏi thầy cô, bạn bè nếu chưa hiểu.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua ngay câu hỏi khó đó để làm các câu dễ hơn và không tìm cách giải lại.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép ngay đáp án của bạn khác vào bài làm mà không cần hiểu cách giải.",
+          "fraction": 0
+        },
+        {
+          "text": "Nhờ người khác làm hộ toàn bộ bài tập để nộp cho thầy cô đúng hạn.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Để lưu giữ thông tin học tập bài \"Tính toán với số thập phân\", bạn An lập sơ đồ từ khóa ghi tóm tắt quy tắc cộng hai số thập phân. Sơ đồ nào dưới đây tóm tắt thông tin đầy đủ, cô đọng và chính xác nhất?",
+      "generalfeedback": "Sơ đồ cô đọng đúng quy tắc: Cùng dấu -> Cộng hai số đối rồi đặt dấu chung; Khác dấu -> Lấy số lớn trừ số nhỏ (bỏ dấu) rồi đặt dấu của số có giá trị tuyệt đối lớn hơn.",
+      "answers": [
+        {
+          "text": "Cùng dấu: Cộng hai số đối, đặt dấu chung (- hoặc +). Khác dấu: Lấy số lớn trừ số nhỏ (chưa dấu), đặt dấu của số lớn hơn.",
+          "fraction": 100
+        },
+        {
+          "text": "Cùng dấu: Trừ hai số cho nhau. Khác dấu: Nhân hai số lại với nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Cùng dấu: Luôn đặt dấu cộng. Khác dấu: Luôn đặt dấu trừ.",
+          "fraction": 0
+        },
+        {
+          "text": "Cùng dấu: Nhân hai số đối. Khác dấu: Chia hai số cho nhau.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "questiontext": "Đọc đoạn thông tin khoa học sau: \"Nhiệt độ trung bình năm ở Bắc Cực là \\(-3,4^\\circ\\text{C}\\), ở Nam Cực là \\(-49,3^\\circ\\text{C}\\)\". Tiếp nhận số liệu trên, khẳng định nào sau đây là đúng về mối quan hệ nhiệt độ giữa hai vùng?",
+      "generalfeedback": "Do \\(-3,4 > -49,3\\) nên nhiệt độ trung bình năm ở Bắc Cực cao hơn ở Nam Cực.",
+      "answers": [
+        {
+          "text": "Nhiệt độ trung bình năm ở Bắc Cực cao hơn ở Nam Cực vì \\(-3,4 > -49,3\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Nhiệt độ trung bình năm ở Nam Cực cao hơn ở Bắc Cực vì \\(-49,3 > -3,4\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Nhiệt độ trung bình năm ở hai vùng là bằng nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Bắc Cực lạnh hơn Nam Cực \\(45,9^\\circ\\text{C}\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Khi phân tích và so sánh hai phép tính \\(A = (-2,5) + (-0,25)\\) và \\(B = 3,2 - 5,7\\), thao tác tư duy toán học nào sau đây mô tả đúng bản chất của hai phép tính?",
+      "generalfeedback": "Phép tính A là cộng hai số thập phân âm thu được kết quả âm. Phép tính B chuyển về cộng với số đối \\(3,2 + (-5,7)\\) là cộng hai số thập phân khác dấu cũng thu được kết quả âm.",
+      "answers": [
+        {
+          "text": "Phép tính A là cộng hai số thập phân âm, phép tính B biến đổi thành cộng với số đối \\(3,2 + (-5,7)\\); cả hai phép tính đều cho kết quả âm.",
+          "fraction": 100
+        },
+        {
+          "text": "Cả hai phép tính A và B đều trực tiếp là phép nhân hai số thập phân dương.",
+          "fraction": 0
+        },
+        {
+          "text": "Phép tính A cho kết quả dương còn phép tính B cho kết quả âm.",
+          "fraction": 0
+        },
+        {
+          "text": "Phép tính A thực hiện bằng phép trừ hai số dương còn phép tính B là cộng hai số dương.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "imgs": [
+        "_page_0_Figure_8.jpeg"
+      ],
+      "questiontext": "Để giải quyết bài toán thực tế: \"Một tàu thăm dò đang ở độ cao \\(-0,32\\) km (so với mực nước biển) [img:_page_0_Figure_8.jpeg], sau đó tàu nổi lên thêm \\(0,11\\) km. Tính độ cao mới của tàu\", kĩ năng toán học tương thích nào cần được áp dụng?",
+      "generalfeedback": "Để tìm độ cao mới khi tàu nổi lên, ta áp dụng kĩ năng cộng hai số thập phân khác dấu: \\((-0,32) + 0,11\\).",
+      "answers": [
+        {
+          "text": "Sử dụng kĩ năng cộng hai số thập phân khác dấu: \\((-0,32) + 0,11\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Sử dụng kĩ năng nhân hai số thập phân âm.",
+          "fraction": 0
+        },
+        {
+          "text": "Sử dụng kĩ năng chia hai số thập phân dương.",
+          "fraction": 0
+        },
+        {
+          "text": "Sử dụng kĩ năng tính lũy thừa của một số thập phân.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "2.1TC1a_K6",
+      "questiontext": "Khi sử dụng phần mềm bảng tính (như Excel) để thực hiện phép tính cộng hai số thập phân \\((-2,259) + 31,3\\), cú pháp công thức nào sau đây nhập vào ô tính là chính xác?",
+      "generalfeedback": "Trong phần mềm bảng tính, công thức bắt đầu bằng dấu `=`, sử dụng dấu chấm `.` để phân cách phần thập phân: `=-2.259+31.3`.",
+      "answers": [
+        {
+          "text": "`= -2.259 + 31.3`",
+          "fraction": 100
+        },
+        {
+          "text": "`(-2,259) + 31,3`",
+          "fraction": 0
+        },
+        {
+          "text": "`= -2,259 + 31,3`",
+          "fraction": 0
+        },
+        {
+          "text": "`CALC -2.259 + 31.3`",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

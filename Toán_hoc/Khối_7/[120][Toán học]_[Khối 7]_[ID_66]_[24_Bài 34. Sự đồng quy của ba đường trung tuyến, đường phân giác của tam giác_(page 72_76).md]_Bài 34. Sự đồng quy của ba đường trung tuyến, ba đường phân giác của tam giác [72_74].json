@@ -1,0 +1,451 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 16,
+    "metadata_used": {
+      "Khái niệm đường trung tuyến": 3,
+      "YCCD_TOAN7_099": 2,
+      "Khái niệm trọng tâm của tam giác": 2,
+      "Tính chất sự đồng quy của ba đường trung tuyến (tỉ lệ 2/3)": 4,
+      "Nhận biết đường trung tuyến và trọng tâm tam giác": 2,
+      "Tính độ dài các đoạn thẳng dựa vào tính chất trọng tâm": 5,
+      "YCCD_TOAN7_103": 2,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_TUCHUTUHOC": 1,
+      "NLC_GIAOTIEP": 1,
+      "NLT_TOAN_C2_01": 1,
+      "NLT_TOAN_C2_04": 1
+    },
+    "types_used": {
+      "multichoice": 10,
+      "truefalse": 1,
+      "numerical": 1,
+      "matching": 1,
+      "gapselect": 1,
+      "calculatedsimple": 1,
+      "ddwtos": 1
+    },
+    "total": 16
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_099",
+        "reason": "Bám sát định nghĩa đường trung tuyến trong tam giác trong SGK."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_103",
+        "reason": "Bám sát nội dung sự đồng quy của ba đường trung tuyến trong tam giác trong SGK."
+      },
+      {
+        "metadata_code": "Khái niệm đường trung tuyến",
+        "reason": "Khái niệm đường trung tuyến nối đỉnh với trung điểm cạnh đối diện."
+      },
+      {
+        "metadata_code": "Khái niệm trọng tâm của tam giác",
+        "reason": "Khái niệm trọng tâm của tam giác là giao điểm của ba đường trung tuyến."
+      },
+      {
+        "metadata_code": "Tính chất sự đồng quy của ba đường trung tuyến (tỉ lệ 2/3)",
+        "reason": "Tính chất trọng tâm cách mỗi đỉnh 2/3 độ dài đường trung tuyến."
+      },
+      {
+        "metadata_code": "Nhận biết đường trung tuyến và trọng tâm tam giác",
+        "reason": "Kỹ năng nhận biết đường trung tuyến và trọng tâm trên hình vẽ và trong tam giác."
+      },
+      {
+        "metadata_code": "Tính độ dài các đoạn thẳng dựa vào tính chất trọng tâm",
+        "reason": "Kỹ năng tính độ dài các đoạn thẳng dựa trên tỷ lệ trọng tâm (2/3, 1/3, 2)."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N",
+        "reason": "Nội dung học về sự đồng quy của ba đường trung tuyến trong tam giác thuần lý thuyết hình học học đường, không đề cập hay gắn liền trực tiếp với việc sử dụng công cụ tin học/chuyển đổi số."
+      },
+      {
+        "metadata_code": "A",
+        "reason": "Nội dung bài học thuộc phạm vi hình học lớp 7 cơ bản, không chứa yếu tố về nguyên lý, thuật toán hay ứng dụng của trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm đường trung tuyến",
+      "questiontext": "Đoạn thẳng nối một đỉnh của tam giác với trung điểm của cạnh đối diện được gọi là:",
+      "generalfeedback": "Theo SGK, đoạn thẳng nối đỉnh của tam giác với trung điểm của cạnh đối diện là đường trung tuyến của tam giác.",
+      "answers": [
+        {
+          "text": "Đường trung tuyến của tam giác",
+          "fraction": 100
+        },
+        {
+          "text": "Đường phân giác của tam giác",
+          "fraction": 0
+        },
+        {
+          "text": "Đường cao của tam giác",
+          "fraction": 0
+        },
+        {
+          "text": "Đường trung trực của tam giác",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_099",
+      "questiontext": "Mỗi tam giác có đúng ba đường trung tuyến.",
+      "generalfeedback": "Đúng. Vì tam giác có 3 đỉnh và 3 cạnh đối diện tương ứng nên có đúng 3 đường trung tuyến.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm trọng tâm của tam giác",
+      "questiontext": "Giao điểm của ba đường trung tuyến trong một tam giác được gọi là gì?",
+      "generalfeedback": "Theo SGK, điểm đồng quy (giao điểm) của ba đường trung tuyến được gọi là trọng tâm của tam giác.",
+      "answers": [
+        {
+          "text": "Trọng tâm của tam giác",
+          "fraction": 100
+        },
+        {
+          "text": "Trực tâm của tam giác",
+          "fraction": 0
+        },
+        {
+          "text": "Tâm đường tròn ngoại tiếp",
+          "fraction": 0
+        },
+        {
+          "text": "Tâm đường tròn nội tiếp",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tính chất sự đồng quy của ba đường trung tuyến (tỉ lệ 2/3)",
+      "questiontext": "Cho tam giác \\(ABC\\) có đường trung tuyến \\(AM\\) và trọng tâm \\(G\\). Khẳng định nào sau đây là đúng?",
+      "generalfeedback": "Trọng tâm cách đỉnh một khoảng bằng \\(\\frac{2}{3}\\) độ dài đường trung tuyến đi qua đỉnh đó, tức là \\(GA = \\frac{2}{3}AM\\).",
+      "answers": [
+        {
+          "text": "\\(GA = \\frac{2}{3}AM\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(GA = \\frac{1}{2}AM\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(GA = \\frac{1}{3}AM\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(GA = \\frac{3}{2}AM\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết đường trung tuyến và trọng tâm tam giác",
+      "questiontext": "Quan sát hình vẽ sau: [img:_page_1_Picture_25.jpeg]\nTrong tam giác \\(ABC\\) có đường trung tuyến \\(AM\\), điểm \\(G\\) biểu diễn đối tượng nào sau đây?",
+      "generalfeedback": "Điểm \\(G\\) là giao điểm các đường trung tuyến, do đó \\(G\\) là trọng tâm của tam giác \\(ABC\\).",
+      "imgs": [
+        "_page_1_Picture_25.jpeg"
+      ],
+      "answers": [
+        {
+          "text": "Trọng tâm của tam giác \\(ABC\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Trung điểm của cạnh \\(BC\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Trực tâm của tam giác \\(ABC\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Đỉnh của tam giác \\(ABC\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính độ dài các đoạn thẳng dựa vào tính chất trọng tâm",
+      "questiontext": "Cho tam giác \\(ABC\\) có đường trung tuyến \\(AM = 9\\text{ cm}\\) và trọng tâm \\(G\\). Tính độ dài đoạn thẳng \\(GA\\) theo cm. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Vì \\(G\\) là trọng tâm tam giác \\(ABC\\) nên \\(GA = \\frac{2}{3}AM = \\frac{2}{3} \\times 9 = 6\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "6",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Tính chất sự đồng quy của ba đường trung tuyến (tỉ lệ 2/3)",
+      "questiontext": "Cho tam giác \\(ABC\\) có trung tuyến \\(AM\\) và trọng tâm \\(G\\). Ghép mỗi tỉ số ở cột bên trái với giá trị tương ứng ở cột bên phải:",
+      "generalfeedback": "Ta có \\(GA = \\frac{2}{3}AM\\), \\(GM = \\frac{1}{3}AM\\), do đó \\(\\frac{GA}{AM} = \\frac{2}{3}\\), \\(\\frac{GM}{AM} = \\frac{1}{3}\\), và \\(\\frac{GA}{GM} = 2\\).",
+      "subquestions": [
+        {
+          "question": "Tỉ số \\(\\frac{GA}{AM}\\)",
+          "answer": "\\(\\frac{2}{3}\\)"
+        },
+        {
+          "question": "Tỉ số \\(\\frac{GM}{AM}\\)",
+          "answer": "\\(\\frac{1}{3}\\)"
+        },
+        {
+          "question": "Tỉ số \\(\\frac{GA}{GM}\\)",
+          "answer": "2"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_103",
+      "questiontext": "Ba đường trung tuyến của một tam giác cùng [[1]] tại một điểm. Điểm đó được gọi là [[2]] của tam giác.",
+      "generalfeedback": "Ba đường trung tuyến của một tam giác đồng quy tại một điểm, điểm đó gọi là trọng tâm của tam giác.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "đồng quy"
+        },
+        {
+          "group": 1,
+          "text": "trọng tâm"
+        },
+        {
+          "group": 1,
+          "text": "song song"
+        },
+        {
+          "group": 1,
+          "text": "trực tâm"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Tính độ dài các đoạn thẳng dựa vào tính chất trọng tâm",
+      "questiontext": "Cho tam giác \\(ABC\\) có đường trung tuyến \\(BN\\) và trọng tâm \\(G\\). Biết đoạn thẳng \\(GN =\\) {x} cm. Tính độ dài đoạn thẳng \\(GB\\) theo cm. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Vì \\(G\\) là trọng tâm nên \\(GB = 2 \\times GN = 2 \\times {x}\\text{ cm}\\).",
+      "wildcards": [
+        {
+          "name": "x",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "2*{x}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Khái niệm đường trung tuyến",
+      "questiontext": "Kéo thả từ thích hợp vào chỗ trống: Trong tam giác \\(ABC\\), nếu \\(M\\) là [[1]] của cạnh \\(BC\\) thì đoạn thẳng \\(AM\\) được gọi là đường [[2]] của tam giác \\(ABC\\).",
+      "generalfeedback": "Đoạn thẳng nối một đỉnh với trung điểm cạnh đối diện được gọi là đường trung tuyến.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "trung điểm"
+        },
+        {
+          "group": 1,
+          "text": "trung tuyến"
+        },
+        {
+          "group": 1,
+          "text": "trung trực"
+        },
+        {
+          "group": 1,
+          "text": "phân giác"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Trong giờ học Toán bài 'Sự đồng quy của ba đường trung tuyến trong một tam giác', khi thực hành gấp giấy để tìm trọng tâm \\(G\\), bạn Nam gặp khó khăn vì các nếp gấp không chính xác. Để thể hiện tính chăm chỉ và sự kiên trì trong học tập, bạn Nam nên thực hiện hành động nào sau đây?",
+      "generalfeedback": "Thể hiện tính chăm chỉ là việc kiên trì, không nản lòng trước khó khăn, cẩn thận thực hiện lại thao tác và chủ động học hỏi để hoàn thành nhiệm vụ.",
+      "answers": [
+        {
+          "text": "Kiên nhẫn thực hiện lại các thao tác gấp giấy đánh dấu trung điểm một cách cẩn thận và hỏi lại thầy cô, bạn bè nếu cần.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua phần thực hành gấp giấy và ngồi đợi thầy giáo giải bài tập trên bảng.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép ngay vị trí điểm \\(G\\) từ bài của bạn bên cạnh vào vở để hoàn thành bài nhanh chóng.",
+          "fraction": 0
+        },
+        {
+          "text": "Nộp mảnh giấy gấp hỏng cho giáo viên và xin chuyển sang làm bài tập khác.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Khi đo độ dài đường trung tuyến \\(AM\\) và khoảng cách \\(GA\\) từ trọng tâm đến đỉnh \\(A\\) trong SGK, kết quả đo của bạn An bị sai lệch so với tỉ lệ \\(\\frac{2}{3}\\) do dùng thước chia vạch chưa chuẩn. Hành vi nào sau đây thể hiện tính trung thực trong học tập của bạn An?",
+      "generalfeedback": "Tính trung thực đòi hỏi ghi nhận trung thực kết quả thực tế, không gian lận hay tự ý sửa số liệu, đồng thời chủ động tìm ra nguyên nhân gây sai số.",
+      "answers": [
+        {
+          "text": "Ghi đúng kết quả thực tế đo được, sau đó kiểm tra lại dụng cụ đo và trao đổi với giáo viên, bạn học để tìm nguyên nhân sai lệch.",
+          "fraction": 100
+        },
+        {
+          "text": "Tự ý sửa số liệu đo trong vở cho khớp với tỉ lệ \\(\\frac{2}{3}\\) để tránh bị trừ điểm.",
+          "fraction": 0
+        },
+        {
+          "text": "Nhìn bài của bạn bên cạnh và chép kết quả đo của bạn vào vở của mình.",
+          "fraction": 0
+        },
+        {
+          "text": "Báo cáo với giáo viên rằng thông tin tỉ lệ trong SGK bị in sai.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Để tự học và ghi nhớ hệ thống tính chất trọng tâm của tam giác \\(ABC\\) có ba đường trung tuyến \\(AM, BN, CP\\) đồng quy tại \\(G\\), bạn Bình muốn lập bảng tóm tắt các tỉ số bằng \\(\\frac{2}{3}\\). Tập hợp các tỉ số nào sau đây thể hiện đúng và đầy đủ nhất kiến thức bài học?",
+      "generalfeedback": "Theo Định lí 1, trọng tâm cách mỗi đỉnh một khoảng bằng \\(\\frac{2}{3}\\) độ dài đường trung tuyến đi qua đỉnh ấy, do đó \\(\\frac{GA}{MA} = \\frac{GB}{NB} = \\frac{GC}{PC} = \\frac{2}{3}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{GA}{MA} = \\frac{GB}{NB} = \\frac{GC}{PC} = \\frac{2}{3}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{GM}{MA} = \\frac{GN}{NB} = \\frac{GP}{PC} = \\frac{2}{3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{GA}{GM} = \\frac{GB}{GN} = \\frac{GC}{GP} = \\frac{2}{3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{MA}{GA} = \\frac{NB}{GB} = \\frac{PC}{GC} = \\frac{2}{3}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_GIAOTIEP",
+      "questiontext": "Trong hoạt động thảo luận nhóm về cách xác định trọng tâm tam giác, bạn Vuông phát biểu: 'Tớ tìm trọng tâm của một tam giác bằng cách lấy giao điểm của hai đường trung tuyến.' Để thể hiện năng lực giao tiếp và hợp tác hiệu quả, em nên phản hồi bạn Vuông như thế nào?",
+      "generalfeedback": "Giao tiếp hợp tác thể hiện ở việc tôn trọng, lắng nghe, xác nhận ý kiến đúng của bạn (giao điểm 2 đường trung tuyến cũng chính là trọng tâm vì đường thứ ba sẽ đi qua giao điểm đó) và cùng trao đổi tích cực.",
+      "answers": [
+        {
+          "text": "Lắng nghe và đồng tình với Vuông, giải thích thêm rằng giao điểm của 2 đường trung tuyến chính là trọng tâm vì đường trung tuyến thứ 3 cũng đi qua điểm đó.",
+          "fraction": 100
+        },
+        {
+          "text": "Bác bỏ ngay ý kiến của Vuông vì cho rằng SGK quy định bắt buộc phải vẽ đủ 3 đường trung tuyến.",
+          "fraction": 0
+        },
+        {
+          "text": "Phủ nhận ý kiến của Vuông và ngắt lời không cho bạn tiếp tục thảo luận.",
+          "fraction": 0
+        },
+        {
+          "text": "Im lặng không phản hồi và tự làm bài cá nhân.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Cho tam giác \\(ABC\\) có đường trung tuyến \\(AM\\) và trọng tâm \\(G\\). Bạn Linh thực hiện chuỗi lập luận như sau:\n(1) Vì \\(G\\) là trọng tâm tam giác \\(ABC\\) nên \\(GA = \\frac{2}{3}AM\\).\n(2) Suy ra \\(GM = AM - GA = AM - \\frac{2}{3}AM = \\frac{1}{3}AM\\).\n(3) Từ đó suy ra \\(GA = 2GM\\).\nEm hãy đánh giá chuỗi lập luận trên của bạn Linh.",
+      "generalfeedback": "Chuỗi lập luận hoàn toàn chính xác. Bước (1) dựa vào Định lý trọng tâm, bước (2) dựa vào tính chất cộng độ dài đoạn thẳng \\(AM = GA + GM\\), bước (3) so sánh \\(GA = \\frac{2}{3}AM\\) và \\(GM = \\frac{1}{3}AM\\) để suy ra \\(GA = 2GM\\).",
+      "answers": [
+        {
+          "text": "Lập luận hoàn toàn đúng và logic, các bước sau được suy ra một cách chặt chẽ từ bước trước.",
+          "fraction": 100
+        },
+        {
+          "text": "Lập luận sai ở bước (2) vì \\(GM = GA - AM\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Lập luận sai ở bước (3) vì \\(GA = \\frac{1}{2}GM\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Lập luận sai ngay từ bước (1) vì trọng tâm chia trung tuyến theo tỉ lệ 1:2.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04",
+      "questiontext": "Để diễn đạt chính xác bằng ngôn ngữ toán học quy trình xác định trọng tâm \\(G\\) của tam giác \\(ABC\\) trong bài làm, cách trình bày nào sau đây là chuẩn xác và ngắn gọn nhất?",
+      "generalfeedback": "Trình bày toán học chuẩn xác cần nêu rõ các điểm trung điểm, hai đường trung tuyến tương ứng và xác định giao điểm của chúng là trọng tâm.",
+      "answers": [
+        {
+          "text": "Gọi \\(M, N\\) lần lượt là trung điểm của \\(BC, AC\\). Trọng tâm \\(G\\) của tam giác \\(ABC\\) là giao điểm của hai đường trung tuyến \\(AM\\) và \\(BN\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Lấy hai điểm \\(M, N\\) bất kỳ trên \\(BC\\) và \\(AC\\), nối \\(AM\\) và \\(BN\\) cắt nhau tại \\(G\\) thì \\(G\\) là trọng tâm.",
+          "fraction": 0
+        },
+        {
+          "text": "Vẽ đường thẳng \\(AM\\) sao cho \\(GA = 2GM\\) thì \\(G\\) là trọng tâm.",
+          "fraction": 0
+        },
+        {
+          "text": "Nối ba đỉnh \\(A, B, C\\) với nhau cắt nhau tại \\(G\\) thì \\(G\\) là trọng tâm.",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

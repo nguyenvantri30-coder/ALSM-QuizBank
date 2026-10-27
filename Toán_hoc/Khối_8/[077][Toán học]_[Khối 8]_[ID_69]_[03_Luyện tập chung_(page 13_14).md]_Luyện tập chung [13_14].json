@@ -1,0 +1,690 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 28,
+    "metadata_used": {
+      "Tổng hợp kiến thức rút gọn và quy đồng mẫu thức phân thức đại số": 7,
+      "Củng cố kĩ năng rút gọn phân thức và quy đồng mẫu thức trong bài tập tổng hợp": 7,
+      "YCCD_TOAN8_027": 6,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TUHOC_C2_02": 2,
+      "NLT_TOAN_C2_01_01": 2,
+      "NLT_TOAN_C2_03_05": 2
+    },
+    "types_used": {
+      "multichoice": 13,
+      "truefalse": 4,
+      "gapselect": 3,
+      "matching": 3,
+      "ddwtos": 2,
+      "numerical": 2,
+      "shortanswer": 1
+    },
+    "total": 28
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN8_027",
+        "reason": "Đo lường qua các câu hỏi nhận biết và mô tả tính chất phân thức đại số"
+      },
+      {
+        "metadata_code": "Tổng hợp kiến thức rút gọn và quy đồng mẫu thức phân thức đại số",
+        "reason": "Đo lường qua các câu hỏi tổng hợp kiến thức rút gọn và quy đồng mẫu thức"
+      },
+      {
+        "metadata_code": "Củng cố kĩ năng rút gọn phân thức và quy đồng mẫu thức trong bài tập tổng hợp",
+        "reason": "Đo lường qua các câu hỏi thực hành kĩ năng rút gọn và quy đồng trong bài tập tổng hợp"
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đo lường thái độ kiên trì, nỗ lực vươn lên trong học tập qua tình huống toán học"
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_02",
+        "reason": "Đo lường năng lực lập và thực hiện kế hoạch tự học quy trình toán học"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_01",
+        "reason": "Đo lường thao tác tư duy phân tích, so sánh, đối chiếu biến đổi đại số"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_05",
+        "reason": "Đo lường năng lực giải quyết vấn đề thực tế bằng kĩ năng toán học phân thức"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N",
+        "reason": "Nội dung bài học Luyện tập chung phân thức đại số thuần lý thuyết toán học, không chứa yếu tố thực hành phần mềm hay công nghệ số tự nhiên."
+      },
+      {
+        "metadata_code": "A",
+        "reason": "Bài học không có ngữ cảnh tương tác hoặc ứng dụng trí tuệ nhân tạo (AI) tự nhiên."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_027",
+      "questiontext": "Điều kiện xác định của phân thức \\(\\frac{A}{B}\\) (với \\(A, B\\) là các đa thức) là gì?",
+      "generalfeedback": "Phân thức \\(\\frac{A}{B}\\) xác định khi mẫu thức \\(B \\neq 0\\).",
+      "answers": [
+        {
+          "text": "\\(B \\neq 0\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(A \\neq 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(A = 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(B = 0\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_027",
+      "questiontext": "Nếu nhân cả tử và mẫu của một phân thức với cùng một đa thức khác 0 thì được một phân thức bằng phân thức đã cho. Phát biểu này Đúng hay Sai?",
+      "generalfeedback": "Theo tính chất cơ bản của phân thức: \\(\\frac{A}{B} = \\frac{A \\cdot M}{B \\cdot M}\\) (với \\(M \\neq 0\\)). Phát biểu này là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_027",
+      "questiontext": "Cho phân thức \\(P = \\frac{x^2 - 4}{x - 2}\\). Điều kiện xác định của \\(P\\) là \\(x \\neq\\) [[1]]. Khi \\(x = 13\\), giá trị của \\(P\\) bằng [[2]].",
+      "generalfeedback": "Điều kiện xác định là mẫu thức \\(x - 2 \\neq 0 \\Leftrightarrow x \\neq 2\\). Rút gọn \\(P = x + 2\\), tại \\(x = 13\\) thì \\(P = 13 + 2 = 15\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "2"
+        },
+        {
+          "group": 1,
+          "text": "15"
+        },
+        {
+          "group": 1,
+          "text": "-2"
+        },
+        {
+          "group": 1,
+          "text": "13"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_027",
+      "questiontext": "Hãy ghép mỗi phân thức với điều kiện xác định tương ứng của nó.",
+      "generalfeedback": "Mẫu thức phải khác 0: \\(x-2 \\neq 0 \\Leftrightarrow x \\neq 2\\); \\(x+2 \\neq 0 \\Leftrightarrow x \\neq -2\\); \\(100-x \\neq 0 \\Leftrightarrow x \\neq 100\\).",
+      "subquestions": [
+        {
+          "question": "Phân thức \\(\\frac{x^2-4}{x-2}\\)",
+          "answer": "\\(x \\neq 2\\)"
+        },
+        {
+          "question": "Phân thức \\(\\frac{x^3-4x}{(x+2)^2}\\)",
+          "answer": "\\(x \\neq -2\\)"
+        },
+        {
+          "question": "Phân thức \\(\\frac{1,7x}{100-x}\\)",
+          "answer": "\\(x \\neq 100\\)"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_027",
+      "questiontext": "Điền số thích hợp vào chỗ trống: Điều kiện xác định của phân thức \\(\\frac{1,7x}{100-x}\\) là \\(x \\neq ...\\)",
+      "generalfeedback": "Điều kiện xác định của phân thức là mẫu thức khác 0: \\(100 - x \\neq 0 \\Leftrightarrow x \\neq 100\\).",
+      "answers": [
+        {
+          "text": "100",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_027",
+      "questiontext": "Muốn rút gọn một phân thức ta có thể [[1]] cả tử và mẫu cho một [[2]] chung.",
+      "generalfeedback": "Muốn rút gọn phân thức ta chia cả tử và mẫu cho nhân tử chung.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "chia"
+        },
+        {
+          "group": 1,
+          "text": "nhân tử"
+        },
+        {
+          "group": 1,
+          "text": "mẫu thức"
+        },
+        {
+          "group": 1,
+          "text": "nhân"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Tổng hợp kiến thức rút gọn và quy đồng mẫu thức phân thức đại số",
+      "questiontext": "Mẫu thức chung đơn giản nhất của hai phân thức \\(\\frac{1}{4xy^2}\\) và \\(\\frac{5}{6x^2y}\\) là gì?",
+      "generalfeedback": "BCNN(4, 6) = 12. Số mũ lớn nhất của \\(x\\) là 2, của \\(y\\) là 2. MTC = \\(12x^2y^2\\).",
+      "answers": [
+        {
+          "text": "\\(12x^2y^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(24x^3y^3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(12xy\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(24x^2y^2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tổng hợp kiến thức rút gọn và quy đồng mẫu thức phân thức đại số",
+      "questiontext": "Cho hai phân thức \\(\\frac{9}{4x^2-36}\\) và \\(\\frac{1}{x^2+6x+9}\\). Mẫu thức chung của hai phân thức này sau khi phân tích mẫu thành nhân tử là gì?",
+      "generalfeedback": "\\(4x^2 - 36 = 4(x-3)(x+3)\\) và \\(x^2 + 6x + 9 = (x+3)^2\\). MTC = \\(4(x-3)(x+3)^2\\).",
+      "answers": [
+        {
+          "text": "\\(4(x-3)(x+3)^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(4(x-3)(x+3)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((x-3)(x+3)^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(4(x^2-36)(x^2+6x+9)\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Tổng hợp kiến thức rút gọn và quy đồng mẫu thức phân thức đại số",
+      "questiontext": "Sau khi rút gọn phân thức \\(P = \\frac{x^3 - 4x}{(x+2)^2}\\), ta thu được phân thức \\(Q = \\frac{x^2 - 2x}{x+2}\\) (với \\(x \\neq -2\\)). Phát biểu này Đúng hay Sai?",
+      "generalfeedback": "\\(P = \\frac{x(x-2)(x+2)}{(x+2)^2} = \\frac{x(x-2)}{x+2} = \\frac{x^2 - 2x}{x+2}\\). Do đó phát biểu là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Tổng hợp kiến thức rút gọn và quy đồng mẫu thức phân thức đại số",
+      "questiontext": "Rút gọn hai phân thức \\(\\frac{x^2 + 5x}{(x-10)(x^2 + 10x + 25)}\\) và \\(\\frac{x^2 + 10x}{x^4 - 100x^2}\\) ta được hai phân thức thu gọn lần lượt có tử thức là [[1]] và [[2]].",
+      "generalfeedback": "Phân thức thứ nhất rút gọn thành \\(\\frac{x}{(x-10)(x+5)}\\) có tử là \\(x\\). Phân thức thứ hai rút gọn thành \\(\\frac{1}{x(x-10)}\\) có tử là 1.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "x"
+        },
+        {
+          "group": 1,
+          "text": "1"
+        },
+        {
+          "group": 1,
+          "text": "x + 5"
+        },
+        {
+          "group": 1,
+          "text": "x - 10"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Tổng hợp kiến thức rút gọn và quy đồng mẫu thức phân thức đại số",
+      "questiontext": "Cho phân thức \\(P = \\frac{x^3 - 4x}{(x+2)^2}\\). Tính giá trị của phân thức \\(P\\) tại \\(x = 98\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Rút gọn \\(P = \\frac{x(x-2)}{x+2}\\). Tại \\(x = 98\\), \\(P = \\frac{98 \\cdot 96}{100} = \\frac{9408}{100} = 94.08\\).",
+      "answers": [
+        {
+          "text": "94.08",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tổng hợp kiến thức rút gọn và quy đồng mẫu thức phân thức đại số",
+      "questiontext": "Biểu thức chi phí (tỉ đồng) để loại bỏ \\(x\\%\\) chất gây ô nhiễm là \\(\\frac{1,7x}{100-x}\\). Muốn loại bỏ \\(90\\%\\) chất gây ô nhiễm từ khí thải nhà máy thì cần chi phí là bao nhiêu tỉ đồng?",
+      "generalfeedback": "Thay \\(x = 90\\) vào phân thức: \\(\\frac{1,7 \\cdot 90}{100 - 90} = \\frac{153}{10} = 15,3\\) tỉ đồng.",
+      "answers": [
+        {
+          "text": "15,3",
+          "fraction": 100
+        },
+        {
+          "text": "17",
+          "fraction": 0
+        },
+        {
+          "text": "1,53",
+          "fraction": 0
+        },
+        {
+          "text": "153",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Tổng hợp kiến thức rút gọn và quy đồng mẫu thức phân thức đại số",
+      "questiontext": "Có thể loại bỏ được 100% chất gây ô nhiễm từ khí thải nhà máy theo mô hình chi phí \\(\\frac{1,7x}{100-x}\\) (tỉ đồng) hay không? Phát biểu 'Có thể loại bỏ được 100%' là Đúng hay Sai?",
+      "generalfeedback": "Tại \\(x = 100\\), mẫu thức \\(100 - x = 0\\) nên phân thức không xác định. Do đó không thể loại bỏ 100% chất gây ô nhiễm. Phát biểu là Sai.",
+      "answers": [
+        {
+          "text": "Sai",
+          "fraction": 100
+        },
+        {
+          "text": "Đúng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Củng cố kĩ năng rút gọn phân thức và quy đồng mẫu thức trong bài tập tổng hợp",
+      "questiontext": "Phân thức biểu thị thời gian (giờ) bác Vinh chạy xe trên quãng đường Hà Nội - Phủ Lý dài 60 km với vận tốc \\(x\\) (km/h) là gì?",
+      "generalfeedback": "Thời gian bằng quãng đường chia cho vận tốc: \\(\\frac{60}{x}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{60}{x}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{x}{60}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(60x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(60 - x\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Củng cố kĩ năng rút gọn phân thức và quy đồng mẫu thức trong bài tập tổng hợp",
+      "questiontext": "Bác Vinh lái ô tô từ Hà Nội đến Phủ Lý (60 km) với vận tốc \\(x\\) km/h. Quãng đường Phủ Lý - Tĩnh Gia dài 140 km và bác tăng vận tốc thêm 10 km/h. Phân thức biểu thị thời gian đi quãng đường Phủ Lý - Tĩnh Gia là gì?",
+      "generalfeedback": "Vận tốc trên đoạn Phủ Lý - Tĩnh Gia là \\(x + 10\\) (km/h). Quãng đường là \\(200 - 60 = 140\\) km. Thời gian là \\(\\frac{140}{x+10}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{140}{x+10}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{200}{x+10}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{140}{x}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{60}{x+10}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Củng cố kĩ năng rút gọn phân thức và quy đồng mẫu thức trong bài tập tổng hợp",
+      "questiontext": "Lúc 6 giờ sáng bác Vinh xuất phát từ Hà Nội đi Tĩnh Gia. Đến Phủ Lý (60 km) bác nghỉ ăn sáng 20 phút. Biết vận tốc Hà Nội - Phủ Lý là 60 km/h. Bác Vinh đến Tĩnh Gia lúc mấy giờ? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Thời gian đi HN - PL: \\(60/60 = 1\\) giờ (đến PL lúc 7h). Nghỉ 20 phút (đến 7h20). Vận tốc đoạn sau: \\(60 + 10 = 70\\) km/h. Thời gian đi PL - TG: \\(140/70 = 2\\) giờ. Đến nơi lúc \\(7h20 + 2h = 9h20\\) tức 9.33 giờ.",
+      "answers": [
+        {
+          "text": "9.33",
+          "fraction": 100,
+          "tolerance": 0.05
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Củng cố kĩ năng rút gọn phân thức và quy đồng mẫu thức trong bài tập tổng hợp",
+      "questiontext": "Hãy ghép mỗi phân thức chưa rút gọn với dạng rút gọn tương ứng của nó.",
+      "generalfeedback": "Rút gọn từng phân thức bằng cách phân tích tử và mẫu thành nhân tử rồi chia cho nhân tử chung.",
+      "subquestions": [
+        {
+          "question": "Phân thức \\(\\frac{x^2+5x}{(x-10)(x^2+10x+25)}\\)",
+          "answer": "\\(\\frac{x}{(x-10)(x+5)}\\)"
+        },
+        {
+          "question": "Phân thức \\(\\frac{x^2+10x}{x^4-100x^2}\\)",
+          "answer": "\\(\\frac{1}{x(x-10)}\\)"
+        },
+        {
+          "question": "Phân thức \\(\\frac{x^3-4x}{(x+2)^2}\\)",
+          "answer": "\\(\\frac{x^2-2x}{x+2}\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Củng cố kĩ năng rút gọn phân thức và quy đồng mẫu thức trong bài tập tổng hợp",
+      "questiontext": "Lá cờ Tổ quốc hình chữ nhật có chiều rộng 12 cm, chiều dài 19 cm. Nếu tăng mỗi cạnh thêm \\(x\\) cm thì phân thức biểu thị tỉ số giữa chiều rộng và chiều dài mới là gì?",
+      "generalfeedback": "Chiều rộng mới là \\(12+x\\), chiều dài mới là \\(19+x\\). Tỉ số là \\(\\frac{12+x}{19+x}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{12+x}{19+x}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{19+x}{12+x}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{12}{19} + x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{12x}{19x}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Củng cố kĩ năng rút gọn phân thức và quy đồng mẫu thức trong bài tập tổng hợp",
+      "questiontext": "Để quy đồng mẫu thức nhiều phân thức, ta tìm [[1]] rồi nhân cả tử và mẫu của mỗi phân thức với [[2]] tương ứng.",
+      "generalfeedback": "Quy tắc quy đồng mẫu thức: Tìm mẫu thức chung rồi nhân cả tử và mẫu với nhân tử phụ tương ứng.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "mẫu thức chung"
+        },
+        {
+          "group": 1,
+          "text": "nhân tử phụ"
+        },
+        {
+          "group": 1,
+          "text": "tử thức chung"
+        },
+        {
+          "group": 1,
+          "text": "mẫu thức riêng"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Củng cố kĩ năng rút gọn phân thức và quy đồng mẫu thức trong bài tập tổng hợp",
+      "questiontext": "Khi tăng mỗi cạnh của lá cờ Tổ quốc (12 cm x 19 cm) thêm \\(x = 2\\) cm, tỉ số chiều rộng và chiều dài của lá cờ mới có đảm bảo tỉ lệ tiêu chuẩn 2 : 3 của Quốc kì Việt Nam không?",
+      "generalfeedback": "Tại \\(x = 2\\), tỉ số là \\(\\frac{12+2}{19+2} = \\frac{14}{21} = \\frac{2}{3}\\), đúng bằng tỉ lệ tiêu chuẩn 2 : 3.",
+      "answers": [
+        {
+          "text": "Có, vì tỉ số bằng 2/3",
+          "fraction": 100
+        },
+        {
+          "text": "Không, vì tỉ số bằng 14/19",
+          "fraction": 0
+        },
+        {
+          "text": "Không, vì tỉ số bằng 12/19",
+          "fraction": 0
+        },
+        {
+          "text": "Có, vì tỉ số bằng 3/2",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ bài tập 'Luyện tập chung' về phân thức đại số, bạn Nam gặp bài toán tính giá trị phân thức \\(P = \\frac{x^3 - 4x}{(x+2)^2}\\) tại \\(x = 98\\). Ban đầu Nam thấy số 98 quá lớn nên định bỏ qua. Bạn An đã động viên Nam kiên trì rút gọn phân thức trước rồi mới thay số. Hành vi của hai bạn thể hiện thái độ học tập như thế nào?",
+      "generalfeedback": "Lời khuyên của An giúp Nam thể hiện sự kiên trì, cố gắng vượt khó trong học tập, tìm ra phương pháp rút gọn thông minh thay vì bỏ cuộc trước bài toán có số liệu lớn.",
+      "answers": [
+        {
+          "text": "Bạn An thể hiện sự chủ động, kiên trì hỗ trợ bạn vượt khó; bạn Nam nhờ đó vượt qua tâm lý ngại bài toán phức tạp để hoàn thành bài tập.",
+          "fraction": 100
+        },
+        {
+          "text": "Bạn Nam thể hiện tính cẩn thận vì không muốn làm bài toán có số liệu lớn.",
+          "fraction": 0
+        },
+        {
+          "text": "Bạn An thể hiện sự làm thay bài cho bạn Nam để nhanh chóng có kết quả.",
+          "fraction": 0
+        },
+        {
+          "text": "Cả hai bạn đều chưa cố gắng vì không thay trực tiếp số 98 vào biểu thức ban đầu.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi giải bài toán quy đồng mẫu thức hai phân thức \\(\\frac{9}{4x^2-36}\\) và \\(\\frac{1}{x^2+6x+9}\\), bạn Bình chủ động phân tích các mẫu thức thành nhân tử để tìm mẫu thức chung gọn nhất thay vì nhân chéo hai mẫu thức. Việc làm của Bình thể hiện tinh thần chủ động, nỗ lực tìm kiếm giải pháp tối ưu trong học tập. Phát biểu này Đúng hay Sai?",
+      "generalfeedback": "Chủ động phân tích và tìm phương pháp giải gọn gàng, tối ưu là biểu hiện của tinh thần kiên trì, vươn lên đạt kết quả tốt trong học tập Toán.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_02",
+      "questiontext": "Để lập kế hoạch tự học hiệu quả quy trình rút gọn một phân thức đại số, học sinh nên thực hiện theo các bước có cấu trúc: Bước 1: Tìm [[1]] của phân thức; Bước 2: Phân tích tử thức và mẫu thức thành [[2]]; Bước 3: Chia cả tử và mẫu cho nhân tử chung.",
+      "generalfeedback": "Trình tự kế hoạch học tập đúng quy trình toán học giúp ghi nhớ và vận dụng kiến thức rút gọn phân thức một cách khoa học.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "điều kiện xác định"
+        },
+        {
+          "group": 1,
+          "text": "nhân tử"
+        },
+        {
+          "group": 1,
+          "text": "mẫu thức chung"
+        },
+        {
+          "group": 1,
+          "text": "số nguyên"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_02",
+      "questiontext": "Bạn Mai muốn lập bảng kế hoạch ôn tập các dạng bài tập phân thức trong tiết 'Luyện tập chung'. Thứ tự sắp xếp các nhiệm vụ học tập nào sau đây là hợp lý và khoa học nhất?",
+      "generalfeedback": "Kế hoạch học tập khoa học cần đi từ nhận biết điều kiện xác định, đến rút gọn phân thức đơn lẻ, quy đồng mẫu thức và cuối cùng là vận dụng vào bài toán thực tế.",
+      "answers": [
+        {
+          "text": "1. Tìm ĐKXĐ -> 2. Rút gọn phân thức -> 3. Quy đồng mẫu thức -> 4. Giải bài toán thực tế",
+          "fraction": 100
+        },
+        {
+          "text": "1. Giải bài toán thực tế -> 2. Quy đồng mẫu thức -> 3. Rút gọn phân thức -> 4. Tìm ĐKXĐ",
+          "fraction": 0
+        },
+        {
+          "text": "1. Quy đồng mẫu thức -> 2. Tìm ĐKXĐ -> 3. Giải bài toán thực tế -> 4. Rút gọn phân thức",
+          "fraction": 0
+        },
+        {
+          "text": "1. Rút gọn phân thức -> 2. Giải bài toán thực tế -> 3. Tìm ĐKXĐ -> 4. Quy đồng mẫu thức",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Khi phân tích hai phân thức \\(P = \\frac{x^2 + 5x}{(x-10)(x^2 + 10x + 25)}\\) và \\(Q = \\frac{x^2 + 10x}{x^4 - 100x^2}\\), thao tác tư duy phân tích và so sánh nào giúp phát hiện ra cả hai phân thức đều có thể rút gọn trước khi quy đồng mẫu thức?",
+      "generalfeedback": "Thao tác phân tích tử thức và mẫu thức thành nhân tử giúp phát hiện nhân tử chung (x+5) ở phân thức P và x(x+10) ở phân thức Q, từ đó so sánh và rút gọn trước khi quy đồng.",
+      "answers": [
+        {
+          "text": "Phân tích tử và mẫu của từng phân thức thành nhân tử để tìm nhân tử chung triệt tiêu.",
+          "fraction": 100
+        },
+        {
+          "text": "So sánh trực tiếp hai tử thức mà không phân tích mẫu thức.",
+          "fraction": 0
+        },
+        {
+          "text": "Nhân chéo hai mẫu thức để đối chiếu bậc của đa thức.",
+          "fraction": 0
+        },
+        {
+          "text": "Thay giá trị \\(x = 0\\) vào hai phân thức để so sánh kết quả.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Hãy ghép mỗi biểu thức phân thức với thao tác tư duy biến đổi toán học phù hợp để rút gọn hoặc quy đồng.",
+      "generalfeedback": "Mỗi biểu thức đòi hỏi thao tác tư duy đại số tương ứng: dùng hằng đẳng thức, đặt nhân tử chung hoặc kết hợp cả hai.",
+      "subquestions": [
+        {
+          "question": "Biến đổi mẫu thức \\(4x^2 - 36\\)",
+          "answer": "Phân tích thành \\(4(x-3)(x+3)\\) bằng hằng đẳng thức hiệu hai bình phương"
+        },
+        {
+          "question": "Biến đổi mẫu thức \\(x^2 + 6x + 9\\)",
+          "answer": "Phân tích thành \\((x+3)^2\\) bằng hằng đẳng thức bình phương một tổng"
+        },
+        {
+          "question": "Biến đổi tử thức \\(x^3 - 4x\\)",
+          "answer": "Đặt nhân tử chung \\(x\\) rồi dùng hằng đẳng thức thành \\(x(x-2)(x+2)\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Trong bài toán thực tế về mô hình chi phí loại bỏ \\(x\\%\\) chất gây ô nhiễm khí thải \\(C(x) = \\frac{1,7x}{100-x}\\) (tỉ đồng), kĩ năng toán học nào về phân thức đại số được sử dụng để lập luận rằng không thể loại bỏ hoàn toàn 100% chất gây ô nhiễm?",
+      "generalfeedback": "Kĩ năng xác định điều kiện xác định của phân thức đại số (mẫu thức phải khác 0) giúp giải quyết vấn đề thực tế: khi \\(x = 100\\) thì mẫu thức \\(100 - x = 0\\), phân thức không xác định.",
+      "answers": [
+        {
+          "text": "Kĩ năng tìm điều kiện xác định của phân thức đại số (mẫu thức khác 0).",
+          "fraction": 100
+        },
+        {
+          "text": "Kĩ năng quy đồng mẫu thức hai phân thức đại số.",
+          "fraction": 0
+        },
+        {
+          "text": "Kĩ năng cộng hai phân thức cùng mẫu thức.",
+          "fraction": 0
+        },
+        {
+          "text": "Kĩ năng nhân cả tử và mẫu với cùng một số nguyên.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Để biểu diễn thời gian ô tô đi trên quãng đường Phủ Lý - Tĩnh Gia dài 140 km với vận tốc lớn hơn vận tốc đoạn Hà Nội - Phủ Lý (vận tốc \\(x\\) km/h) là 10 km/h, ta sử dụng phân thức nào?",
+      "generalfeedback": "Kĩ năng mô hình hóa bài toán chuyển động bằng phân thức đại số: thời gian = quãng đường / vận tốc = \\(\\frac{140}{x+10}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{140}{x+10}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{140}{x-10}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{x+10}{140}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{140x}{10}\\)",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

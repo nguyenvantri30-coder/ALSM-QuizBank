@@ -1,0 +1,683 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 28,
+    "metadata_used": {
+      "Biệt thức Delta = b^2 - 4ac": 2,
+      "Điều kiện Delta > 0 (2 nghiệm phân biệt), Delta = 0 (nghiệm kép), Delta < 0 (vô nghiệm)": 2,
+      "Công thức nghiệm x1, x2 theo Delta": 2,
+      "Tính biệt thức Delta của phương trình bậc hai": 3,
+      "Áp dụng công thức nghiệm để giải phương trình bậc hai một ẩn": 3,
+      "YCCD_TOAN9_030": 8,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_TCTH_TUHOC_C2_01": 1,
+      "SUB_GQVD_DEXUAT_C2_02": 2,
+      "NLT_TOAN_C2_01_05": 2,
+      "NLT_TOAN_C2_03_05": 2
+    },
+    "types_used": {
+      "multichoice": 10,
+      "gapselect": 2,
+      "truefalse": 2,
+      "matching": 3,
+      "ddwtos": 1,
+      "numerical": 2,
+      "calculated": 1,
+      "shortanswer": 5,
+      "calculatedmulti": 1,
+      "calculatedsimple": 1
+    },
+    "total": 28
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "Biệt thức Delta = b^2 - 4ac",
+        "reason": "Đo lường kiến thức về công thức biệt thức Delta = b^2 - 4ac"
+      },
+      {
+        "metadata_code": "Điều kiện Delta > 0 (2 nghiệm phân biệt), Delta = 0 (nghiệm kép), Delta < 0 (vô nghiệm)",
+        "reason": "Đo lường kiến thức về điều kiện biệt thức Delta và số nghiệm của phương trình"
+      },
+      {
+        "metadata_code": "Công thức nghiệm x1, x2 theo Delta",
+        "reason": "Đo lường kiến thức về công thức nghiệm x1, x2 theo Delta"
+      },
+      {
+        "metadata_code": "Tính biệt thức Delta của phương trình bậc hai",
+        "reason": "Đo lường kỹ năng tính biệt thức Delta của phương trình bậc hai"
+      },
+      {
+        "metadata_code": "Áp dụng công thức nghiệm để giải phương trình bậc hai một ẩn",
+        "reason": "Đo lường kỹ năng áp dụng công thức nghiệm để giải phương trình bậc hai một ẩn"
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_030",
+        "reason": "Đo lường yêu cầu giải được phương trình bậc hai một ẩn"
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đo lường tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập"
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+        "reason": "Đo lường khả năng tự đặt mục tiêu học tập để nỗ lực phấn đấu"
+      },
+      {
+        "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+        "reason": "Đo lường khả năng đề xuất giải pháp giải quyết vấn đề"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_05",
+        "reason": "Đo lường khả năng thực hiện lập luận toán học hợp lý"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_05",
+        "reason": "Đo lường khả năng sử dụng kỹ năng toán học tương thích"
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Biệt thức Delta = b^2 - 4ac",
+      "questiontext": "Cho phương trình bậc hai một ẩn \\(ax^2 + bx + c = 0\\) \\((a \\neq 0)\\). Công thức tính biệt thức \\(\\Delta\\) của phương trình là gì?",
+      "generalfeedback": "Biệt thức \\(\\Delta\\) của phương trình bậc hai \\(ax^2 + bx + c = 0\\) \\((a \\neq 0)\\) được tính theo công thức \\(\\Delta = b^2 - 4ac\\).",
+      "answers": [
+        {
+          "text": "\\(\\Delta = b^2 - 4ac\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\Delta = b^2 - ac\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\Delta = b^2 + 4ac\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\Delta = 4ac - b^2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Biệt thức Delta = b^2 - 4ac",
+      "questiontext": "Đối với phương trình bậc hai \\(ax^2 + bx + c = 0\\) \\((a \\neq 0)\\), biểu thức \\(\\Delta = b^2 - 4ac\\) được gọi là [[1]] của phương trình.",
+      "generalfeedback": "Biểu thức \\(\\Delta = b^2 - 4ac\\) được gọi là biệt thức của phương trình bậc hai.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "biệt thức"
+        },
+        {
+          "group": 1,
+          "text": "nghiệm kép"
+        },
+        {
+          "group": 1,
+          "text": "hệ số tự do"
+        },
+        {
+          "group": 1,
+          "text": "biến số"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Điều kiện Delta > 0 (2 nghiệm phân biệt), Delta = 0 (nghiệm kép), Delta < 0 (vô nghiệm)",
+      "questiontext": "Nếu phương trình bậc hai một ẩn có biệt thức \\(\\Delta < 0\\) thì phương trình đó vô nghiệm.",
+      "generalfeedback": "Theo quy tắc xét nghiệm của phương trình bậc hai: Khi \\(\\Delta < 0\\), phương trình vô nghiệm.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Điều kiện Delta > 0 (2 nghiệm phân biệt), Delta = 0 (nghiệm kép), Delta < 0 (vô nghiệm)",
+      "questiontext": "Hãy ghép giá trị của biệt thức \\(\\Delta\\) với kết luận tương ứng về số nghiệm của phương trình bậc hai \\(ax^2 + bx + c = 0\\) \\((a \\neq 0)\\):",
+      "generalfeedback": "Khi \\(\\Delta > 0\\), phương trình có 2 nghiệm phân biệt. Khi \\(\\Delta = 0\\), phương trình có nghiệm kép. Khi \\(\\Delta < 0\\), phương trình vô nghiệm.",
+      "subquestions": [
+        {
+          "question": "\\(\\Delta > 0\\)",
+          "answer": "Phương trình có hai nghiệm phân biệt"
+        },
+        {
+          "question": "\\(\\Delta = 0\\)",
+          "answer": "Phương trình có nghiệm kép"
+        },
+        {
+          "question": "\\(\\Delta < 0\\)",
+          "answer": "Phương trình vô nghiệm"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức nghiệm x1, x2 theo Delta",
+      "questiontext": "Khi phương trình bậc hai \\(ax^2 + bx + c = 0\\) \\((a \\neq 0)\\) có \\(\\Delta = 0\\), nghiệm kép của phương trình được tính theo công thức nào?",
+      "generalfeedback": "Khi \\(\\Delta = 0\\), phương trình bậc hai có nghiệm kép \\(x_1 = x_2 = -\\frac{b}{2a}\\).",
+      "answers": [
+        {
+          "text": "\\(x_1 = x_2 = -\\frac{b}{2a}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x_1 = x_2 = -\\frac{b}{a}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x_1 = x_2 = \\frac{b}{2a}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x_1 = x_2 = -\\frac{c}{a}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức nghiệm x1, x2 theo Delta",
+      "questiontext": "Nếu phương trình bậc hai \\(ax^2 + bx + c = 0\\) \\((a \\neq 0)\\) có \\(\\Delta > 0\\) thì phương trình có hai nghiệm phân biệt: \\(x_1 =\\) [[1]] và \\(x_2 =\\) [[2]].",
+      "generalfeedback": "Công thức nghiệm khi \\(\\Delta > 0\\) là \\(x_1 = \\frac{-b + \\sqrt{\\Delta}}{2a}\\) và \\(x_2 = \\frac{-b - \\sqrt{\\Delta}}{2a}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(\\frac{-b + \\sqrt{\\Delta}}{2a}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{-b - \\sqrt{\\Delta}}{2a}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{-b + \\Delta}{2a}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{b + \\sqrt{\\Delta}}{2a}\\)"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Tính biệt thức Delta của phương trình bậc hai",
+      "questiontext": "Tính giá trị biệt thức \\(\\Delta\\) của phương trình bậc hai \\(3x^2 + 7x - 1 = 0\\). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Ta có \\(a = 3, b = 7, c = -1\\). Do đó \\(\\Delta = b^2 - 4ac = 7^2 - 4 \\cdot 3 \\cdot (-1) = 49 + 12 = 61\\).",
+      "answers": [
+        {
+          "text": "61",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "thong_hieu",
+      "metadata_code": "Tính biệt thức Delta của phương trình bậc hai",
+      "questiontext": "Cho phương trình bậc hai x^2 + {b}x + 1 = 0 với hệ số b = {b}. Tính giá trị biệt thức \\(\\Delta\\) của phương trình này.",
+      "generalfeedback": "Phương trình có \\(a = 1, b = {b}, c = 1\\). Biệt thức \\(\\Delta = b^2 - 4ac = {b}^2 - 4 \\cdot 1 \\cdot 1 = {b}^2 - 4\\).",
+      "wildcards": [
+        {
+          "name": "b",
+          "min": 3.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "pow({b}, 2) - 4",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Áp dụng công thức nghiệm để giải phương trình bậc hai một ẩn",
+      "questiontext": "Tìm nghiệm kép của phương trình bậc hai \\(x^2 - 6x + 9 = 0\\). (Chỉ điền số)",
+      "generalfeedback": "Ta có \\(a = 1, b = -6, c = 9\\). Biệt thức \\(\\Delta = (-6)^2 - 4 \\cdot 1 \\cdot 9 = 0\\). Phương trình có nghiệm kép \\(x = -\\frac{-6}{2 \\cdot 1} = 3\\).",
+      "answers": [
+        {
+          "text": "3",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Áp dụng công thức nghiệm để giải phương trình bậc hai một ẩn",
+      "questiontext": "Giải phương trình bậc hai \\(2x^2 - 5x + 1 = 0\\) bằng công thức nghiệm.",
+      "generalfeedback": "Ta có \\(a = 2, b = -5, c = 1\\). Biệt thức \\(\\Delta = (-5)^2 - 4 \\cdot 2 \\cdot 1 = 25 - 8 = 17 > 0\\). Nghiệm của phương trình là \\(x_1 = \\frac{5 + \\sqrt{17}}{4}\\) và \\(x_2 = \\frac{5 - \\sqrt{17}}{4}\\).",
+      "answers": [
+        {
+          "text": "\\(x_1 = \\frac{5 + \\sqrt{17}}{4}, x_2 = \\frac{5 - \\sqrt{17}}{4}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x_1 = \\frac{-5 + \\sqrt{17}}{4}, x_2 = \\frac{-5 - \\sqrt{17}}{4}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x_1 = \\frac{5 + \\sqrt{17}}{2}, x_2 = \\frac{5 - \\sqrt{17}}{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Phương trình vô nghiệm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Áp dụng công thức nghiệm để giải phương trình bậc hai một ẩn",
+      "questiontext": "Tìm nghiệm kép của phương trình bậc hai \\(x^2 + 8x + 16 = 0\\). (Chỉ điền số)",
+      "generalfeedback": "Ta có \\(a = 1, b = 8, c = 16\\). Biệt thức \\(\\Delta = 8^2 - 4 \\cdot 1 \\cdot 16 = 64 - 64 = 0\\). Phương trình có nghiệm kép \\(x = -\\frac{8}{2 \\cdot 1} = -4\\).",
+      "answers": [
+        {
+          "text": "-4",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_030",
+      "questiontext": "Số nghiệm của phương trình bậc hai \\(x^2 - x + 1 = 0\\) là bao nhiêu?",
+      "generalfeedback": "Ta có \\(a = 1, b = -1, c = 1\\). Biệt thức \\(\\Delta = (-1)^2 - 4 \\cdot 1 \\cdot 1 = 1 - 4 = -3 < 0\\). Do \\(\\Delta < 0\\) nên phương trình vô nghiệm (0 nghiệm).",
+      "answers": [
+        {
+          "text": "0 nghiệm (vô nghiệm)",
+          "fraction": 100
+        },
+        {
+          "text": "1 nghiệm (nghiệm kép)",
+          "fraction": 0
+        },
+        {
+          "text": "2 nghiệm phân biệt",
+          "fraction": 0
+        },
+        {
+          "text": "Vô số nghiệm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_030",
+      "questiontext": "Đối với phương trình bậc hai \\(ax^2 + bx + c = 0\\) \\((a \\neq 0)\\), nếu các hệ số \\(a\\) và \\(c\\) trái dấu (\\(a \\cdot c < 0\\)) thì phương trình đó luôn có hai nghiệm phân biệt.",
+      "generalfeedback": "Khi \\(a\\) và \\(c\\) trái dấu thì \\(a \\cdot c < 0 \\Rightarrow -4ac > 0\\). Do đó \\(\\Delta = b^2 - 4ac > 0\\) (vì \\(b^2 \\ge 0\\)), nên phương trình luôn có hai nghiệm phân biệt. Khẳng định đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Tính biệt thức Delta của phương trình bậc hai",
+      "questiontext": "Tính biệt thức thu gọn \\(\\Delta'\\) của phương trình bậc hai \\(3x^2 + 8x - 3 = 0\\). (Chỉ điền số)",
+      "generalfeedback": "Ta có \\(a = 3, b' = 4, c = -3\\). Biệt thức thu gọn \\(\\Delta' = b'^2 - ac = 4^2 - 3 \\cdot (-3) = 16 + 9 = 25\\).",
+      "answers": [
+        {
+          "text": "25",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_030",
+      "questiontext": "Khi biến đổi phương trình \\((2x + 1)^2 = x^2 + 1\\) về dạng chuẩn \\(ax^2 + bx + c = 0\\) với \\(a > 0\\), ta được phương trình nào?",
+      "generalfeedback": "Khai triển vế trái: \\((2x + 1)^2 = 4x^2 + 4x + 1\\). Phương trình trở thành \\(4x^2 + 4x + 1 = x^2 + 1 \\Leftrightarrow 3x^2 + 4x = 0\\).",
+      "answers": [
+        {
+          "text": "\\(3x^2 + 4x = 0\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(5x^2 + 4x + 2 = 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(3x^2 + 4x + 2 = 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x^2 + 4x = 0\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_030",
+      "questiontext": "Cho phương trình bậc hai khuyết hệ số c có dạng {a}*x^2 + {b}*x = 0 với a = {a} và b = {b}. Hai nghiệm của phương trình là gì?",
+      "generalfeedback": "Đặt x làm nhân tử chung: x*({a}*x + {b}) = 0. Do đó nghiệm x1 = 0 và x2 = -{b}/{a}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 5.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 6.0,
+          "max": 12.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "x1 = 0, x2 = -{b}/{a}",
+          "fraction": 100
+        },
+        {
+          "text": "x1 = 0, x2 = {b}/{a}",
+          "fraction": 0
+        },
+        {
+          "text": "x1 = 1, x2 = -{b}/{a}",
+          "fraction": 0
+        },
+        {
+          "text": "x1 = {a}, x2 = {b}",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_030",
+      "questiontext": "Ghép mỗi phương trình bậc hai ở cột trái với tập nghiệm tương ứng ở cột phải:",
+      "generalfeedback": "a) \\(x^2 - 6x + 9 = 0 \\Rightarrow x = 3\\) (nghiệm kép).\nb) \\(2x^2 + 3x + 5 = 0 \\Rightarrow \\Delta = -31 < 0\\) (vô nghiệm).\nc) \\(x^2 - 4x + 3 = 0 \\Rightarrow x_1 = 1, x_2 = 3\\).",
+      "subquestions": [
+        {
+          "question": "\\(x^2 - 6x + 9 = 0\\)",
+          "answer": "Có nghiệm kép \\(x = 3\\)"
+        },
+        {
+          "question": "\\(2x^2 + 3x + 5 = 0\\)",
+          "answer": "Vô nghiệm"
+        },
+        {
+          "question": "\\(x^2 - 4x + 3 = 0\\)",
+          "answer": "Có hai nghiệm \\(x_1 = 1, x_2 = 3\\)"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_030",
+      "questiontext": "Độ cao h (mét) so với mặt đất của một vật được phóng thẳng đứng từ mặt đất cho bởi công thức \\(h = 19{,}6t - 4{,}9t^2\\), trong đó t (giây) là thời gian. Hỏi sau bao nhiêu giây kể từ khi phóng, vật sẽ rơi trở lại mặt đất? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Vật rơi trở lại mặt đất khi độ cao \\(h = 0 \\Leftrightarrow 19{,}6t - 4{,}9t^2 = 0 \\Leftrightarrow 4{,}9t(4 - t) = 0\\). Vì \\(t > 0\\) nên \\(t = 4\\) giây.",
+      "answers": [
+        {
+          "text": "4",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_030",
+      "questiontext": "Một mảnh vườn hình chữ nhật có chiều rộng nhỏ hơn chiều dài 6 m và có diện tích bằng 280 m². Tính chiều rộng của mảnh vườn đó (mét). (Chỉ điền số)",
+      "generalfeedback": "Gọi chiều rộng là \\(x\\) (m) (\\(x > 0\\)). Chiều dài là \\(x + 6\\) (m). Ta có phương trình: \\(x(x + 6) = 280 \\Leftrightarrow x^2 + 6x - 280 = 0\\). Giải phương trình được \\(x_1 = 14\\) (nhận) và \\(x_2 = -20\\) (loại). Chiều rộng là 14 m.",
+      "answers": [
+        {
+          "text": "14",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_030",
+      "questiontext": "Cho phương trình bậc hai \\(x^2 - 2*{a}*x + pow({a}, 2) = 0\\) với a = {a}. Giá trị nghiệm kép của phương trình là bao nhiêu?",
+      "generalfeedback": "Phương trình có dạng \\((x - {a})^2 = 0\\), do đó có nghiệm kép \\(x = {a}\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ học Toán 9, khi giải phương trình bậc hai \\(x^2 - 4\\sqrt{3}x + 12 = 0\\) có hệ số \\(b\\) là số chẵn lớn, bạn Nam thấy tính biệt thức \\(\\Delta\\) ra số khá lớn và dễ tính sai. Để hiện thực hóa tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập, bạn Nam nên thực hiện hành động nào sau đây?",
+      "generalfeedback": "Thái độ cố gắng vươn lên trong học tập thể hiện ở việc chủ động tìm tòi, học hỏi các phương pháp giải tối ưu (như công thức nghiệm thu gọn) để vượt qua khó khăn khi giải bài tập.",
+      "answers": [
+        {
+          "text": "Chủ động tìm hiểu và luyện tập công thức nghiệm thu gọn (với \\(\\Delta' = b'^2 - ac\\)) để giải bài toán chính xác và tối ưu hơn.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua câu hỏi này vì biểu thức phức tạp và chờ thầy cô sửa bài.",
+          "fraction": 0
+        },
+        {
+          "text": "Sử dụng máy tính cầm tay bấm ngay đáp án mà không cần hiểu bản chất các bước tính biệt thức.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép lời giải của bạn bên cạnh để nhanh chóng hoàn thành bài tập mà không cần suy nghĩ.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Để làm chủ kiến thức và kỹ năng giải phương trình bậc hai bằng công thức nghiệm, bạn An đề ra mục tiêu học tập cá nhân cho tuần này. Mục tiêu nào sau đây thể hiện rõ ràng và hợp lý nhất giúp An phấn đấu đạt kết quả tốt?",
+      "generalfeedback": "Mục tiêu học tập hợp lý cần cụ thể, đo lường được và gắn liền với kiến thức cốt lõi của bài học (công thức biệt thức \\(\\Delta\\) và thực hành luyện giải các trường hợp nghiệm).",
+      "answers": [
+        {
+          "text": "Tự ôn thuộc lòng công thức biệt thức \\(\\Delta\\), biệt thức \\(\\Delta'\\) và luyện giải thành thạo ít nhất 5 phương trình bậc hai ở các trường hợp \\(\\Delta > 0\\), \\(\\Delta = 0\\), \\(\\Delta < 0\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Cố gắng giải càng nhiều bài tập nâng cao càng tốt mà không cần xem lại công thức nghiệm cơ bản.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ cần thuộc công thức nghiệm trong sách giáo khoa mà không cần thực hành giải bài tập.",
+          "fraction": 0
+        },
+        {
+          "text": "Đặt mục tiêu đạt điểm tối đa trong mọi kỳ thi mà không xây dựng kế hoạch luyện tập cụ thể hàng ngày.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Khi giải bài toán thực tế tìm kích thước mảnh vườn hình chữ nhật có diện tích \\(280\\text{ m}^2\\) và chiều rộng nhỏ hơn chiều dài \\(6\\text{ m}\\), bạn Bình lập được phương trình bậc hai \\(x^2 + 6x - 280 = 0\\) (với \\(x > 0\\) là chiều rộng). Bình tính được hai nghiệm là \\(x_1 = 14\\) và \\(x_2 = -20\\). Để giải quyết triệt để vấn đề thực tế này, giải pháp xử lý kết quả nào sau đây là đúng đắn nhất?",
+      "generalfeedback": "Khi giải bài toán thực tế bằng cách lập phương trình, giải pháp giải quyết vấn đề đòi hỏi phải đối chiếu nghiệm tìm được với điều kiện thực tế của ẩn (kích thước mảnh vườn phải lớn hơn 0).",
+      "answers": [
+        {
+          "text": "Loại nghiệm \\(x_2 = -20\\) vì kích thước hình học phải là số dương, chọn \\(x_1 = 14\\text{ m}\\) làm chiều rộng và tính chiều dài là \\(20\\text{ m}\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Lấy cả hai nghiệm vì phương trình bậc hai luôn có hai nghiệm.",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ dấu âm của nghiệm \\(x_2 = -20\\) thành \\(20\\text{ m}\\) và kết luận mảnh vườn có hai chiều rộng khác nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Kết luận bài toán vô nghiệm vì có một nghiệm âm.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Khi gặp phương trình bậc hai \\(ax^2 + bx + c = 0\\) có hệ số \\(b = 2b'\\) là số chẵn, để đơn giản hóa quá trình tính toán và tránh sai sót số liệu lớn, giải pháp hiệu quả nhất là sử dụng [[1]] với biệt thức [[2]].",
+      "generalfeedback": "Giải pháp tối ưu khi hệ số b chẵn là dùng công thức nghiệm thu gọn với biệt thức \\(\\Delta' = b'^2 - ac\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "công thức nghiệm thu gọn"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\Delta' = b'^2 - ac\\)"
+        },
+        {
+          "group": 1,
+          "text": "công thức nghiệm tổng quát"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\Delta = b^2 - 4ac\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_05",
+      "questiontext": "Cho phương trình bậc hai \\(ax^2 + bx + c = 0\\) \\((a \\neq 0)\\). Bạn An khẳng định: 'Nếu hệ số \\(a\\) và \\(c\\) trái dấu (\\(a \\cdot c < 0\\)) thì phương trình chắc chắn luôn có hai nghiệm phân biệt mà không cần tính cụ thể giá trị \\(\\Delta\\).' Lập luận nào sau đây là căn cứ toán học hợp lý nhất chứng minh cho khẳng định của An?",
+      "generalfeedback": "Lập luận toán học hợp lý dựa trên định nghĩa \\(\\Delta = b^2 - 4ac\\): Vì \\(a \\cdot c < 0\\) nên \\(-4ac > 0\\), kết hợp với \\(b^2 \\ge 0\\) ta suy ra \\(\\Delta > 0\\) với mọi \\(b\\).",
+      "answers": [
+        {
+          "text": "Vì \\(a \\cdot c < 0 \\Rightarrow -4ac > 0\\). Mặt khác \\(b^2 \\ge 0\\) với mọi \\(b\\), nên \\(\\Delta = b^2 - 4ac > 0\\), suy ra phương trình luôn có hai nghiệm phân biệt.",
+          "fraction": 100
+        },
+        {
+          "text": "Vì khi \\(a\\) và \\(c\\) trái dấu thì tổng hai nghiệm luôn là số dương.",
+          "fraction": 0
+        },
+        {
+          "text": "Vì phương trình bậc hai nào có hệ số khác 0 cũng luôn có hai nghiệm phân biệt.",
+          "fraction": 0
+        },
+        {
+          "text": "Vì khi \\(a \\cdot c < 0\\) thì biệt thức \\(\\Delta\\) luôn bằng 0.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_05",
+      "questiontext": "Hãy ghép mỗi kết luận ở cột trái với lập luận căn cứ toán học tương ứng ở cột phải khi xét phương trình bậc hai \\(ax^2 + bx + c = 0\\) \\((a \\neq 0)\\):",
+      "generalfeedback": "Sự liên hệ logic giữa dấu của biệt thức \\(\\Delta\\) và số nghiệm của phương trình bậc hai.",
+      "subquestions": [
+        {
+          "question": "Phương trình vô nghiệm",
+          "answer": "Vì biệt thức \\(\\Delta < 0\\)"
+        },
+        {
+          "question": "Phương trình có nghiệm kép \\(x_1 = x_2 = -\\frac{b}{2a}\\)",
+          "answer": "Vì biệt thức \\(\\Delta = 0\\)"
+        },
+        {
+          "question": "Phương trình có hai nghiệm phân biệt",
+          "answer": "Vì biệt thức \\(\\Delta > 0\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Độ cao \\(h\\) (mét) của một vật phóng thẳng đứng từ mặt đất theo thời gian \\(t\\) (giây) được mô hình hóa bởi công thức \\(h = 19{,}6t - 4{,}9t^2\\). Để xác định thời điểm vật rơi trở lại mặt đất, kỹ năng toán học tương thích cần áp dụng ở đây là gì?",
+      "generalfeedback": "Vật rơi trở lại mặt đất tức là độ cao \\(h = 0\\). Kỹ năng toán học tương thích là thiết lập phương trình bậc hai \\(19{,}6t - 4{,}9t^2 = 0\\) và tìm nghiệm dương phù hợp thực tế.",
+      "answers": [
+        {
+          "text": "Cho \\(h = 0\\) để đưa về giải phương trình bậc hai \\(4{,}9t^2 - 19{,}6t = 0\\), từ đó tìm nghiệm dương \\(t\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Cho \\(t = 0\\) để tính giá trị của độ cao \\(h\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Tính biệt thức \\(\\Delta\\) của biểu thức khi cho \\(h = 19{,}6\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Vẽ đồ thị hàm số bậc nhất để tìm giao điểm.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "imgs": [
+        "_page_0_Figure_12.jpeg"
+      ],
+      "questiontext": "Trên một mảnh đất hình chữ nhật kích thước 28 m x 16 m, người ta dự định làm một bể bơi có lối đi xung quanh rộng x (m) như Hình 6.9 [img:_page_0_Figure_12.jpeg]. Biết diện tích bể bơi là 288 m². Phương trình bậc hai biểu diễn mối quan hệ diện tích bể bơi theo x sau khi thu gọn có dạng \\(x^2 - 22x + c = 0\\). Giá trị của hệ số tự do c là bao nhiêu? (Chỉ điền số)",
+      "generalfeedback": "Chiều dài bể bơi là \\(28 - 2x\\), chiều rộng là \\(16 - 2x\\). Diện tích bể bơi: \\((28 - 2x)(16 - 2x) = 288 \\Leftrightarrow 4(14 - x)(8 - x) = 288 \\Leftrightarrow x^2 - 22x + 112 = 72 \\Leftrightarrow x^2 - 22x + 40 = 0\\). Do đó \\(c = 40\\).",
+      "answers": [
+        {
+          "text": "40",
+          "fraction": 100
+        }
+      ]
+    }
+  ]
+}

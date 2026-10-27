@@ -1,0 +1,842 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 35,
+    "metadata_used": {
+      "YCCD_TOAN9_065": 4,
+      "YCCD_TOAN9_066": 3,
+      "Tổng hợp hệ thức giữa cạnh và góc trong tam giác vuông": 3,
+      "Lựa chọn hệ thức lượng phù hợp để giải tam giác vuông và bài toán tổng hợp": 10,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_GQVD_PHATHIEN_C2_01": 1,
+      "SUB_GQVD_DEXUAT_C2_02": 2,
+      "NLT_TOAN_C2_03_04": 1,
+      "NLT_TOAN_C2_03_05": 1
+    },
+    "types_used": {
+      "multichoice": 14,
+      "truefalse": 5,
+      "gapselect": 4,
+      "matching": 4,
+      "numerical": 3,
+      "calculated": 1,
+      "shortanswer": 2,
+      "calculatedsimple": 2
+    },
+    "total": 35
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN9_065",
+        "reason": "Đo lường khả năng giải thích hệ thức cạnh góc vuông bằng cạnh huyền nhân sin góc đối hoặc cos góc kề"
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_066",
+        "reason": "Đo lường khả năng giải thích hệ thức cạnh góc vuông bằng cạnh góc vuông kia nhân tan góc đối hoặc cot góc kề"
+      },
+      {
+        "metadata_code": "Tổng hợp hệ thức giữa cạnh và góc trong tam giác vuông",
+        "reason": "Đo lường kiến thức tổng hợp hệ thức giữa cạnh và góc trong tam giác vuông"
+      },
+      {
+        "metadata_code": "Lựa chọn hệ thức lượng phù hợp để giải tam giác vuông và bài toán tổng hợp",
+        "reason": "Đo lường kỹ năng lựa chọn hệ thức lượng phù hợp để giải tam giác vuông và bài toán thực tế"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N",
+        "reason": "Nội dung bài học Luyện tập chung thuần túy về hình học phẳng và tỉ số lượng giác trong SGK, không có ngữ cảnh sử dụng công cụ số hay phần mềm tin học tự nhiên."
+      },
+      {
+        "metadata_code": "A",
+        "reason": "Nội dung bài học Luyện tập chung không chứa yếu tố công nghệ trí tuệ nhân tạo (AI) hay dữ liệu mô hình hóa AI tự nhiên."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_065",
+      "questiontext": "Cho tam giác \\(ABC\\) vuông tại \\(A\\). Trong các hệ thức sau, hệ thức nào biểu diễn đúng quan hệ giữa cạnh góc vuông \\(b\\) (cạnh \\(AC\\)), cạnh huyền \\(a\\) (cạnh \\(BC\\)) và góc đối \\(B\\)?",
+      "generalfeedback": "Trong tam giác vuông, mỗi cạnh góc vuông bằng cạnh huyền nhân với sin góc đối. Do đó \\(b = a \\cdot \\sin B\\).",
+      "answers": [
+        {
+          "text": "\\(b = a \\cdot \\sin B\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(b = a \\cdot \\cos B\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(b = a \\cdot \\tan B\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(b = a \\cdot \\cot B\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_065",
+      "questiontext": "Cho tam giác \\(ABC\\) vuông tại \\(A\\) có góc \\(B\\) và góc \\(C\\) là hai góc nhọn phụ nhau. Khẳng định \"Cạnh góc vuông \\(AB\\) bằng cạnh huyền \\(BC\\) nhân với \\(\\cos C\\)\" là Đúng hay Sai?",
+      "generalfeedback": "Do góc \\(C\\) là góc kề với cạnh góc vuông \\(AB\\), theo hệ thức cạnh góc vuông bằng cạnh huyền nhân với côsin góc kề, ta có \\(AB = BC \\cdot \\cos C\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_066",
+      "questiontext": "Cho tam giác \\(ABC\\) vuông tại \\(A\\). Khẳng định nào sau đây diễn đạt đúng hệ thức giữa cạnh góc vuông \\(AC\\), cạnh góc vuông \\(AB\\) và góc đối \\(B\\)?",
+      "generalfeedback": "Trong tam giác vuông, mỗi cạnh góc vuông bằng cạnh góc vuông kia nhân với tang góc đối, nên \\(AC = AB \\cdot \\tan B\\).",
+      "answers": [
+        {
+          "text": "\\(AC = AB \\cdot \\tan B\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(AC = AB \\cdot \\cot B\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(AC = AB \\cdot \\sin B\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(AC = AB \\cdot \\cos B\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_066",
+      "questiontext": "Cho tam giác \\(MNP\\) vuông tại \\(M\\). Điền từ thích hợp vào chỗ trống: Cạnh góc vuông \\(MN\\) bằng cạnh góc vuông \\(MP\\) nhân với [[1]] góc \\(P\\) hoặc nhân với [[2]] góc \\(N\\).",
+      "generalfeedback": "Trong tam giác MNP vuông tại M, góc P là góc đối của MN, góc N là góc kề của MN. Do đó \\(MN = MP \\cdot \\tan P = MP \\cdot \\cot N\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "tang"
+        },
+        {
+          "group": 1,
+          "text": "côtang"
+        },
+        {
+          "group": 1,
+          "text": "sin"
+        },
+        {
+          "group": 1,
+          "text": "côsin"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Tổng hợp hệ thức giữa cạnh và góc trong tam giác vuông",
+      "questiontext": "Ghép mỗi hệ thức ở cột bên trái với phát biểu tương ứng ở cột bên phải cho tam giác \\(ABC\\) vuông tại \\(A\\) (với \\(a = BC, b = AC, c = AB\\)):",
+      "generalfeedback": "Tổng hợp các hệ thức giữa cạnh và góc trong tam giác vuông.",
+      "subquestions": [
+        {
+          "question": "\\(b = a \\cdot \\sin B\\)",
+          "answer": "Cạnh góc vuông bằng cạnh huyền nhân sin góc đối"
+        },
+        {
+          "question": "\\(b = c \\cdot \\tan B\\)",
+          "answer": "Cạnh góc vuông bằng cạnh góc vuông kia nhân tang góc đối"
+        },
+        {
+          "question": "\\(c = b \\cdot \\cot C\\)",
+          "answer": "Cạnh góc vuông bằng cạnh góc vuông kia nhân côtang góc kề"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Tổng hợp hệ thức giữa cạnh và góc trong tam giác vuông",
+      "questiontext": "Cho tam giác \\(ABC\\) vuông tại \\(A\\). Biết \\(\\widehat{B} + \\widehat{C} = 90^\\circ\\). Khẳng định \"\\(\\sin B = \\cos C\\) và \\(\\tan B = \\cot C\\)\" là Đúng hay Sai?",
+      "generalfeedback": "Vì góc B và góc C là hai góc phụ nhau nên sin góc này bằng côsin góc kia, tang góc này bằng côtang góc kia.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Lựa chọn hệ thức lượng phù hợp để giải tam giác vuông và bài toán tổng hợp",
+      "imgs": [
+        "_page_0_Figure_13.jpeg"
+      ],
+      "questiontext": "[img:_page_0_Figure_13.jpeg] Cho tam giác \\(ABC\\) vuông tại \\(A\\) có \\(AB = 5\\text{ cm}\\) và \\(AC = 12\\text{ cm}\\) (Hình 4.25). Giá trị của \\(\\sin B\\) và \\(\\cos B\\) lần lượt là:",
+      "generalfeedback": "Theo định lí Pythagore, \\(BC = \\sqrt{5^2 + 12^2} = 13\\text{ cm}\\). Khi đó \\(\\sin B = \\frac{AC}{BC} = \\frac{12}{13}\\) và \\(\\cos B = \\frac{AB}{BC} = \\frac{5}{13}\\).",
+      "answers": [
+        {
+          "text": "\\(\\sin B = \\frac{12}{13}\\) và \\(\\cos B = \\frac{5}{13}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\sin B = \\frac{5}{13}\\) và \\(\\cos B = \\frac{12}{13}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\sin B = \\frac{12}{5}\\) và \\(\\cos B = \\frac{5}{12}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\sin B = \\frac{5}{12}\\) và \\(\\cos B = \\frac{12}{5}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Lựa chọn hệ thức lượng phù hợp để giải tam giác vuông và bài toán tổng hợp",
+      "questiontext": "Một cuốn sách có chiều rộng \\(17\\text{ cm}\\) và chiều dài \\(24\\text{ cm}\\). Gọi \\(\\alpha\\) là góc giữa đường chéo và cạnh \\(17\\text{ cm}\\). Giá trị của \\(\\tan \\alpha\\) dưới dạng phân số tối giản là:",
+      "generalfeedback": "Trong tam giác vuông tạo bởi hai cạnh và đường chéo của cuốn sách, cạnh đối diện với góc \\(\\alpha\\) có độ dài \\(24\\text{ cm}\\), cạnh kề có độ dài \\(17\\text{ cm}\\). Do đó \\(\\tan \\alpha = \\frac{24}{17}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{24}{17}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{17}{24}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{24}{25}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{17}{25}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Lựa chọn hệ thức lượng phù hợp để giải tam giác vuông và bài toán tổng hợp",
+      "imgs": [
+        "_page_1_Picture_15.jpeg"
+      ],
+      "questiontext": "[img:_page_1_Picture_15.jpeg] Một bức tường đang xây dở có dạng hình thang vuông \\(ABCD\\) vuông tại \\(A\\) và \\(D\\), \\(AB = 1\\text{ m}\\), \\(CD = 4\\text{ m}\\), \\(AD = 6\\text{ m}\\) (Hình 4.26). Tính độ dài cạnh \\(BC\\) theo mét (làm tròn đến chữ số thập phân thứ nhất). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Kẻ \\(BE \\parallel AD\\) (với \\(E \\in CD\\)). Ta có \\(BE = AD = 6\\text{ m}\\), \\(EC = CD - AB = 4 - 1 = 3\\text{ m}\\). Xét tam giác \\(BEC\\) vuông tại \\(E\\), \\(BC = \\sqrt{BE^2 + EC^2} = \\sqrt{6^2 + 3^2} = \\sqrt{45} \\approx 6.7\\text{ m}\\).",
+      "answers": [
+        {
+          "text": "6.7",
+          "fraction": 100,
+          "tolerance": 0.1
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Lựa chọn hệ thức lượng phù hợp để giải tam giác vuông và bài toán tổng hợp",
+      "questiontext": "Trong một buổi tập trận, một tàu ngầm di chuyển theo đường thẳng lặn xuống mặt nước biển tạo với mặt nước một góc \\(21^\\circ\\). Khi tàu đi được quãng đường s m, tính độ sâu của tàu ngầm so với mặt nước biển (làm tròn đến m).",
+      "generalfeedback": "Độ sâu của tàu ngầm là cạnh đối của góc \\(21^\\circ\\) trong tam giác vuông có cạnh huyền bằng {s} m. Độ sâu = {s} * sin(21°).",
+      "wildcards": [
+        {
+          "name": "s",
+          "min": 100.0,
+          "max": 500.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "round({s}*sin(21*pi/180),0)",
+          "fraction": 100,
+          "tolerance": 1
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Lựa chọn hệ thức lượng phù hợp để giải tam giác vuông và bài toán tổng hợp",
+      "questiontext": "Cho tam giác \\(ABC\\) vuông tại \\(A\\). Biết \\(BC = 10\\text{ cm}\\) và \\(\\widehat{B} = 30^\\circ\\). Độ dài cạnh \\(AC\\) là bao nhiêu?",
+      "generalfeedback": "Áp dụng hệ thức \\(AC = BC \\cdot \\sin B = 10 \\cdot \\sin 30^\\circ = 10 \\cdot 0.5 = 5\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "5 cm",
+          "fraction": 100
+        },
+        {
+          "text": "10 cm",
+          "fraction": 0
+        },
+        {
+          "text": "\\(5\\sqrt{3}\\text{ cm}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(10\\sqrt{3}\\text{ cm}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Lựa chọn hệ thức lượng phù hợp để giải tam giác vuông và bài toán tổng hợp",
+      "questiontext": "Cho tam giác \\(ABC\\) vuông tại \\(A\\) có đường cao \\(AH\\), biết \\(HB = 3\\text{ cm}\\), \\(HC = 6\\text{ cm}\\) và \\(\\widehat{HAC} = 60^\\circ\\). Tính độ dài cạnh \\(AC\\) theo cm (làm tròn đến cm).",
+      "generalfeedback": "Trong tam giác \\(AHC\\) vuông tại \\(H\\), ta có \\(AC = \\frac{HC}{\\sin \\widehat{HAC}} = \\frac{6}{\\sin 60^\\circ} = \\frac{6}{\\sqrt{3}/2} = 4\\sqrt{3} \\approx 7\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "7",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Lựa chọn hệ thức lượng phù hợp để giải tam giác vuông và bài toán tổng hợp",
+      "imgs": [
+        "_page_1_Picture_17.jpeg"
+      ],
+      "questiontext": "[img:_page_1_Picture_17.jpeg] Để tìm chiều rộng \\(d\\) của dòng sông (Hình 4.27), người ta đo được khoảng cách từ điểm quan sát đến bờ đối diện và góc nhìn. Nếu biết một tam giác vuông có cạnh kề bờ sông là \\(20\\text{ m}\\) và góc đối diện chiều rộng sông là \\(35^\\circ\\), chiều rộng \\(d\\) tính bằng công thức nào?",
+      "generalfeedback": "Trong tam giác vuông, cạnh góc vuông đối diện bằng cạnh góc vuông kề nhân \\(\\tan\\) góc đối. Do đó \\(d = 20 \\cdot \\tan 35^\\circ\\).",
+      "answers": [
+        {
+          "text": "\\(d = 20 \\cdot \\tan 35^\\circ\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(d = 20 \\cdot \\sin 35^\\circ\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(d = 20 \\cdot \\cos 35^\\circ\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(d = \\frac{20}{\\tan 35^\\circ}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_066",
+      "questiontext": "Cho tam giác \\(ABC\\) vuông tại \\(A\\). Khẳng định \"Nếu biết độ dài cạnh góc vuông \\(AB\\) và góc nhọn \\(C\\), ta có thể tính cạnh góc vuông \\(AC\\) theo công thức \\(AC = AB \\cdot \\cot C\\)\" là Đúng hay Sai?",
+      "generalfeedback": "Góc \\(C\\) là góc kề với cạnh \\(AC\\) và là góc đối với cạnh \\(AB\\). Theo hệ thức cạnh góc vuông, \\(AC = AB \\cdot \\cot C\\) là đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Lựa chọn hệ thức lượng phù hợp để giải tam giác vuông và bài toán tổng hợp",
+      "questiontext": "Một chiếc thang dài l m tựa vào tường tạo với mặt đất một góc \\(60^\\circ\\). Tính chiều cao mà thang chạm tới trên tường (làm tròn đến m).",
+      "generalfeedback": "Chiều cao chạm tường là cạnh đối diện với góc \\(60^\\circ\\) trong tam giác vuông có cạnh huyền bằng {l} m. Chiều cao = {l} * sin(60°).",
+      "wildcards": [
+        {
+          "name": "l",
+          "min": 3.0,
+          "max": 12.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "round({l}*sin(60*pi/180),0)",
+          "fraction": 100,
+          "tolerance": 1
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Lựa chọn hệ thức lượng phù hợp để giải tam giác vuông và bài toán tổng hợp",
+      "imgs": [
+        "_page_1_Picture_20.jpeg"
+      ],
+      "questiontext": "[img:_page_1_Picture_20.jpeg] Mặt cắt ngang của một đập ngăn nước có dạng hình thang \\(ABCD\\) với chiều cao \\(3.5\\text{ m}\\), chiều rộng mặt trên \\(AB = 3\\text{ m}\\), độ dốc sườn \\(AD\\) là \\(\\tan D = 1.25\\), độ dốc sườn \\(BC\\) là \\(\\tan C = 1.5\\) (Hình 4.30). Tính chiều rộng \\(CD\\) của chân đập theo mét. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Kẻ hai đường cao \\(AH, BK\\) từ \\(A, B\\) xuống \\(CD\\). Ta có \\(AH = BK = 3.5\\text{ m}\\), \\(HK = AB = 3\\text{ m}\\). Trong tam giác \\(AHD\\) vuông tại \\(H\\): \\(DH = \\frac{AH}{\\tan D} = \\frac{3.5}{1.25} = 2.8\\text{ m}\\). Trong tam giác \\(BKC\\) vuông tại \\(K\\): \\(KC = \\frac{BK}{\\tan C} = \\frac{3.5}{1.5} = \\frac{7}{3} \\approx 2.333\\text{ m}\\). Chiều rộng chân đập \\(CD = DH + HK + KC = 2.8 + 3 + 2.333 = 8.133 \\approx 8.1\\text{ m}\\).",
+      "answers": [
+        {
+          "text": "8.1",
+          "fraction": 100,
+          "tolerance": 0.1
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Tổng hợp hệ thức giữa cạnh và góc trong tam giác vuông",
+      "questiontext": "Cho tam giác \\(ABC\\) vuông tại \\(A\\) có đường cao \\(AH\\). Ghép mỗi tỉ số lượng giác ở cột trái với công thức biểu diễn tương ứng ở cột phải:",
+      "generalfeedback": "Kiến thức về tỉ số lượng giác trong tam giác vuông.",
+      "subquestions": [
+        {
+          "question": "\\(\\sin B\\)",
+          "answer": "\\(\\frac{AC}{BC}\\)"
+        },
+        {
+          "question": "\\(\\cos B\\)",
+          "answer": "\\(\\frac{AB}{BC}\\)"
+        },
+        {
+          "question": "\\(\\tan B\\)",
+          "answer": "\\(\\frac{AC}{AB}\\)"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_065",
+      "questiontext": "Trong tam giác vuông, cạnh góc vuông bằng cạnh huyền nhân với [[1]] góc đối hoặc nhân với [[2]] góc kề.",
+      "generalfeedback": "Hệ thức giữa cạnh góc vuông và cạnh huyền: b = a * sin B = a * cos C.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "sin"
+        },
+        {
+          "group": 1,
+          "text": "côsin"
+        },
+        {
+          "group": 1,
+          "text": "tang"
+        },
+        {
+          "group": 1,
+          "text": "côtang"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Lựa chọn hệ thức lượng phù hợp để giải tam giác vuông và bài toán tổng hợp",
+      "imgs": [
+        "_page_1_Picture_21.jpeg"
+      ],
+      "questiontext": "[img:_page_1_Picture_21.jpeg] Tàu ngầm đang ở mặt biển bắt đầu di chuyển lặn xuống theo đường thẳng tạo với mặt nước góc \\(21^\\circ\\) (Hình 4.31). Khi đi được \\(200\\text{ m}\\) theo hướng đó, tàu ở độ sâu bao nhiêu mét (làm tròn đến m)?",
+      "generalfeedback": "Độ sâu \\(h = 200 \\cdot \\sin 21^\\circ \\approx 200 \\cdot 0.3584 = 71.68 \\approx 72\\text{ m}\\).",
+      "answers": [
+        {
+          "text": "72 m",
+          "fraction": 100
+        },
+        {
+          "text": "187 m",
+          "fraction": 0
+        },
+        {
+          "text": "77 m",
+          "fraction": 0
+        },
+        {
+          "text": "200 m",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Lựa chọn hệ thức lượng phù hợp để giải tam giác vuông và bài toán tổng hợp",
+      "questiontext": "Cho tam giác \\(ABC\\) vuông tại \\(A\\). Biết \\(BC = 10\\text{ cm}\\) và \\(\\widehat{B} = 30^\\circ\\). Độ dài cạnh \\(AC\\) là bao nhiêu?",
+      "generalfeedback": "Áp dụng hệ thức \\(AC = BC \\cdot \\sin B = 10 \\cdot \\sin 30^\\circ = 10 \\cdot 0.5 = 5\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "5 cm",
+          "fraction": 100
+        },
+        {
+          "text": "10 cm",
+          "fraction": 0
+        },
+        {
+          "text": "\\(5\\sqrt{3}\\text{ cm}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(10\\sqrt{3}\\text{ cm}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Lựa chọn hệ thức lượng phù hợp để giải tam giác vuông và bài toán tổng hợp",
+      "questiontext": "Cho tam giác \\(ABC\\) vuông tại \\(A\\) có đường cao \\(AH\\), biết \\(HB = 3\\text{ cm}\\), \\(HC = 6\\text{ cm}\\) và \\(\\widehat{HAC} = 60^\\circ\\). Tính độ dài cạnh \\(AC\\) theo cm (làm tròn đến cm).",
+      "generalfeedback": "Trong tam giác \\(AHC\\) vuông tại \\(H\\), ta có \\(AC = \\frac{HC}{\\sin \\widehat{HAC}} = \\frac{6}{\\sin 60^\\circ} = \\frac{6}{\\sqrt{3}/2} = 4\\sqrt{3} \\approx 7\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "7",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Lựa chọn hệ thức lượng phù hợp để giải tam giác vuông và bài toán tổng hợp",
+      "imgs": [
+        "_page_1_Picture_17.jpeg"
+      ],
+      "questiontext": "[img:_page_1_Picture_17.jpeg] Để tìm chiều rộng \\(d\\) của dòng sông (Hình 4.27), người ta đo được khoảng cách từ điểm quan sát đến bờ đối diện và góc nhìn. Nếu biết một tam giác vuông có cạnh kề bờ sông là \\(20\\text{ m}\\) và góc đối diện chiều rộng sông là \\(35^\\circ\\), chiều rộng \\(d\\) tính bằng công thức nào?",
+      "generalfeedback": "Trong tam giác vuông, cạnh góc vuông đối diện bằng cạnh góc vuông kề nhân \\(\\tan\\) góc đối. Do đó \\(d = 20 \\cdot \\tan 35^\\circ\\).",
+      "answers": [
+        {
+          "text": "\\(d = 20 \\cdot \\tan 35^\\circ\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(d = 20 \\cdot \\sin 35^\\circ\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(d = 20 \\cdot \\cos 35^\\circ\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(d = \\frac{20}{\\tan 35^\\circ}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_066",
+      "questiontext": "Cho tam giác \\(ABC\\) vuông tại \\(A\\). Khẳng định \"Nếu biết độ dài cạnh góc vuông \\(AB\\) và góc nhọn \\(C\\), ta có thể tính cạnh góc vuông \\(AC\\) theo công thức \\(AC = AB \\cdot \\cot C\\)\" là Đúng hay Sai?",
+      "generalfeedback": "Góc \\(C\\) là góc kề với cạnh \\(AC\\) và là góc đối với cạnh \\(AB\\). Theo hệ thức cạnh góc vuông, \\(AC = AB \\cdot \\cot C\\) là đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Lựa chọn hệ thức lượng phù hợp để giải tam giác vuông và bài toán tổng hợp",
+      "questiontext": "Một chiếc thang dài l m tựa vào tường tạo với mặt đất một góc \\(60^\\circ\\). Tính chiều cao mà thang chạm tới trên tường (làm tròn đến m).",
+      "generalfeedback": "Chiều cao chạm tường là cạnh đối diện với góc \\(60^\\circ\\) trong tam giác vuông có cạnh huyền bằng {l} m. Chiều cao = {l} * sin(60°).",
+      "wildcards": [
+        {
+          "name": "l",
+          "min": 3.0,
+          "max": 12.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "round({l}*sin(60*pi/180),0)",
+          "fraction": 100,
+          "tolerance": 1
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Lựa chọn hệ thức lượng phù hợp để giải tam giác vuông và bài toán tổng hợp",
+      "imgs": [
+        "_page_1_Picture_20.jpeg"
+      ],
+      "questiontext": "[img:_page_1_Picture_20.jpeg] Mặt cắt ngang của một đập ngăn nước có dạng hình thang \\(ABCD\\) với chiều cao \\(3.5\\text{ m}\\), chiều rộng mặt trên \\(AB = 3\\text{ m}\\), độ dốc sườn \\(AD\\) là \\(\\tan D = 1.25\\), độ dốc sườn \\(BC\\) là \\(\\tan C = 1.5\\) (Hình 4.30). Tính chiều rộng \\(CD\\) của chân đập theo mét. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Kẻ hai đường cao \\(AH, BK\\) từ \\(A, B\\) xuống \\(CD\\). Ta có \\(AH = BK = 3.5\\text{ m}\\), \\(HK = AB = 3\\text{ m}\\). Trong tam giác \\(AHD\\) vuông tại \\(H\\): \\(DH = \\frac{AH}{\\tan D} = \\frac{3.5}{1.25} = 2.8\\text{ m}\\). Trong tam giác \\(BKC\\) vuông tại \\(K\\): \\(KC = \\frac{BK}{\\tan C} = \\frac{3.5}{1.5} = \\frac{7}{3} \\approx 2.333\\text{ m}\\). Chiều rộng chân đập \\(CD = DH + HK + KC = 2.8 + 3 + 2.333 = 8.133 \\approx 8.1\\text{ m}\\).",
+      "answers": [
+        {
+          "text": "8.1",
+          "fraction": 100,
+          "tolerance": 0.1
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Tổng hợp hệ thức giữa cạnh và góc trong tam giác vuông",
+      "questiontext": "Cho tam giác \\(ABC\\) vuông tại \\(A\\) có đường cao \\(AH\\). Ghép mỗi tỉ số lượng giác ở cột trái với công thức biểu diễn tương ứng ở cột phải:",
+      "generalfeedback": "Kiến thức về tỉ số lượng giác trong tam giác vuông.",
+      "subquestions": [
+        {
+          "question": "\\(\\sin B\\)",
+          "answer": "\\(\\frac{AC}{BC}\\)"
+        },
+        {
+          "question": "\\(\\cos B\\)",
+          "answer": "\\(\\frac{AB}{BC}\\)"
+        },
+        {
+          "question": "\\(\\tan B\\)",
+          "answer": "\\(\\frac{AC}{AB}\\)"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_065",
+      "questiontext": "Trong tam giác vuông, cạnh góc vuông bằng cạnh huyền nhân với [[1]] góc đối hoặc nhân với [[2]] góc kề.",
+      "generalfeedback": "Hệ thức giữa cạnh góc vuông và cạnh huyền: b = a * sin B = a * cos C.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "sin"
+        },
+        {
+          "group": 1,
+          "text": "côsin"
+        },
+        {
+          "group": 1,
+          "text": "tang"
+        },
+        {
+          "group": 1,
+          "text": "côtang"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Lựa chọn hệ thức lượng phù hợp để giải tam giác vuông và bài toán tổng hợp",
+      "imgs": [
+        "_page_1_Picture_21.jpeg"
+      ],
+      "questiontext": "[img:_page_1_Picture_21.jpeg] Tàu ngầm đang ở mặt biển bắt đầu di chuyển lặn xuống theo đường thẳng tạo với mặt nước góc \\(21^\\circ\\) (Hình 4.31). Khi đi được \\(200\\text{ m}\\) theo hướng đó, tàu ở độ sâu bao nhiêu mét (làm tròn đến m)?",
+      "generalfeedback": "Độ sâu \\(h = 200 \\cdot \\sin 21^\\circ \\approx 200 \\cdot 0.3584 = 71.68 \\approx 72\\text{ m}\\).",
+      "answers": [
+        {
+          "text": "72 m",
+          "fraction": 100
+        },
+        {
+          "text": "187 m",
+          "fraction": 0
+        },
+        {
+          "text": "77 m",
+          "fraction": 0
+        },
+        {
+          "text": "200 m",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ học bài \"Luyện tập chung\" về tỉ số lượng giác, bạn Nam gặp một bài toán thực tế khó (Bài 4.18: Tính khoảng cách \\(AB\\) giữa hai địa điểm ở hai bên hồ nước). Ban đầu Nam tính ra kết quả sai do áp dụng nhầm công thức. Để thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập, Nam nên thực hiện hành động nào sau đây?",
+      "generalfeedback": "Thái độ kiên trì, không nản lòng trước bài toán khó và chủ động rà soát, tìm ra lỗi sai là biểu hiện của phẩm chất luôn cố gắng vươn lên trong học tập.",
+      "answers": [
+        {
+          "text": "Kiên trì xem lại sơ đồ tam giác, rà soát lại các góc kề và góc đối để tìm ra chỗ sai và hoàn thành bài giải đúng.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài toán đó không làm nữa và chờ giáo viên giải sẵn trên bảng để chép vào vở.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép lại kết quả của bạn bên cạnh mà không cần hiểu cách giải.",
+          "fraction": 0
+        },
+        {
+          "text": "Cho rằng đề bài quá khó và kiến thức tỉ số lượng giác không có ứng dụng thực tế.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi làm bài tập tìm chiều rộng dòng sông (Hình 4.27), nếu tính ra kết quả chưa hợp lý với thực tế, việc chủ động kiểm tra lại từng bước tính toán và công thức tang góc đối thay vì bỏ dở bài tập thể hiện ý thức vươn lên đạt kết quả tốt trong học tập. Khẳng định này là Đúng hay Sai?",
+      "generalfeedback": "Hành vi tự kiểm tra và điều chỉnh khi gặp kết quả chưa hợp lý thể hiện tinh thần trách nhiệm và nỗ lực vượt khó trong học tập.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GQVD_PHATHIEN_C2_01",
+      "imgs": [
+        "_page_1_Picture_17.jpeg"
+      ],
+      "questiontext": "[img:_page_1_Picture_17.jpeg] Khi phân tích tình huống thực tế đo chiều rộng \\(d\\) của dòng sông trong Hình 4.27, học sinh cần xác định cấu trúc toán học của tình huống. Việc phân tích nào sau đây thể hiện đúng bản chất tình huống học tập này?",
+      "generalfeedback": "Phân tích tình huống học tập cần xác định đúng tam giác vuông mô hình hóa, các dữ kiện đã biết (cạnh kề, góc) và mục tiêu cần tìm (cạnh đối).",
+      "answers": [
+        {
+          "text": "Mô hình hóa tình huống thành tam giác vuông với chiều rộng dòng sông là cạnh góc vuông đối diện với góc nhìn \\(35^\\circ\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Mô hình hóa tình huống thành tam giác thường không có góc vuông.",
+          "fraction": 0
+        },
+        {
+          "text": "Coi chiều rộng dòng sông luôn bằng cạnh huyền của tam giác vuông.",
+          "fraction": 0
+        },
+        {
+          "text": "Cho rằng chiều rộng dòng sông không phụ thuộc vào góc nhìn từ bờ.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Để đề xuất giải pháp tính độ sâu của tàu ngầm lặn theo đường thẳng nghiêng góc \\(21^\\circ\\) so với mặt nước biển sau khi đi được \\(200\\text{ m}\\), nhóm học sinh đưa ra các bước thực hiện. Hãy chọn từ thích hợp để hoàn thiện giải pháp: Đầu tiên, dựng tam giác vuông có cạnh huyền là quãng đường lặn \\(200\\text{ m}\\). Tiếp theo, xác định độ sâu là cạnh [[1]] của góc \\(21^\\circ\\). Cuối cùng, đề xuất sử dụng tỉ số [[3]] để tính độ sâu.",
+      "generalfeedback": "Giải pháp giải quyết vấn đề thực tế đòi hỏi đề xuất đúng cạnh đối và tỉ số sin.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "đối"
+        },
+        {
+          "group": 1,
+          "text": "kề"
+        },
+        {
+          "group": 1,
+          "text": "sin"
+        },
+        {
+          "group": 1,
+          "text": "côsin"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "imgs": [
+        "_page_1_Picture_20.jpeg"
+      ],
+      "questiontext": "[img:_page_1_Picture_20.jpeg] Khi đứng trước bài toán thực tế tính chiều rộng chân đập ngăn nước \\(CD\\) có dạng hình thang vuông \\(ABCD\\) (Hình 4.30), học sinh cần đề xuất giải pháp giải quyết vấn đề. Giải pháp nào sau đây là tối ưu và chính xác nhất?",
+      "generalfeedback": "Giải pháp tối ưu là phân chia hình thang thành các hình phẳng cơ bản (hình chữ nhật và hai tam giác vuông) để ứng dụng hệ thức lượng.",
+      "answers": [
+        {
+          "text": "Kẻ hai đường cao \\(AH\\) và \\(BK\\) xuống chân đập \\(CD\\) để chia hình thang thành hình chữ nhật \\(ABKH\\) và hai tam giác vuông \\(AHD, BKC\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Đo trực tiếp độ dài sườn \\(AD\\) và \\(BC\\) rồi cộng lại.",
+          "fraction": 0
+        },
+        {
+          "text": "Coi mặt cắt đập là tam giác vuông lớn để tính ngay chiều rộng \\(CD\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua chiều cao đập và chỉ sử dụng độ dốc \\(\\tan D, \\tan C\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_04",
+      "questiontext": "Một chiếc thang dài \\(5\\text{ m}\\) dựa vào tường. Để đảm bảo an toàn, góc tạo bởi thang và mặt đất cần đạt \\(65^\\circ\\). Kiến thức toán học tương thích nào trong bài \"Luyện tập chung\" cần được sử dụng để tính khoảng cách từ chân tường đến chân thang?",
+      "generalfeedback": "Khoảng cách từ chân tường đến chân thang là cạnh kề góc \\(65^\\circ\\), cạnh huyền là chiều dài thang \\(5\\text{ m}\\). Sử dụng hệ thức cạnh góc vuông bằng cạnh huyền nhân côsin góc kề.",
+      "answers": [
+        {
+          "text": "Hệ thức cạnh góc vuông bằng cạnh huyền nhân với côsin góc kề: \\(x = 5 \\cdot \\cos 65^\\circ\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Hệ thức cạnh góc vuông bằng cạnh huyền nhân với tang góc đối.",
+          "fraction": 0
+        },
+        {
+          "text": "Định lí Thales trong tam giác.",
+          "fraction": 0
+        },
+        {
+          "text": "Công thức tính diện tích tam giác vuông.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Một học sinh thực hiện các kĩ năng toán học để giải bài toán thực tế. Ghép mỗi thao tác kĩ năng ở cột trái với mục đích toán học tương ứng ở cột phải:",
+      "generalfeedback": "Thao tác kĩ năng toán học tương thích giúp chuyển đổi từ bài toán thực tế sang kết quả định lượng.",
+      "subquestions": [
+        {
+          "question": "Vẽ sơ đồ tam giác vuông từ bài toán thực tế",
+          "answer": "Mô hình hóa hình học bài toán"
+        },
+        {
+          "question": "Lựa chọn hệ thức \\(h = a \\cdot \\sin \\alpha\\)",
+          "answer": "Chọn công thức lượng giác thích hợp"
+        },
+        {
+          "question": "Sử dụng máy tính cầm tay tính giá trị \\(\\sin 21^\\circ\\)",
+          "answer": "Thực hiện kĩ năng tính toán số liệu"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,661 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 26,
+    "metadata_used": {
+      "Các bước vẽ biểu đồ đoạn thẳng từ bảng số liệu": 6,
+      "Vẽ biểu đồ đoạn thẳng hoàn chỉnh gồm tên biểu đồ": 2,
+      "chia gốc/đơn vị và nối các điểm": 5,
+      "YCCD_TOAN7_126": 7,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_GIAOTIEP": 1,
+      "NLC_GIAIQUYETVD": 1,
+      "NLT_TOAN_C2_02": 1,
+      "NLT_TOAN_C2_03": 1
+    },
+    "types_used": {
+      "multichoice": 14,
+      "matching": 2,
+      "truefalse": 2,
+      "ddwtos": 2,
+      "shortanswer": 2,
+      "gapselect": 2,
+      "numerical": 2
+    },
+    "total": 26
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "Các bước vẽ biểu đồ đoạn thẳng từ bảng số liệu",
+        "reason": "Đủ cơ sở đo lường qua các câu hỏi về các bước trong quy trình vẽ biểu đồ đoạn thẳng."
+      },
+      {
+        "metadata_code": "Vẽ biểu đồ đoạn thẳng hoàn chỉnh gồm tên biểu đồ",
+        "reason": "Đủ cơ sở đo lường qua kỹ năng xác định tên biểu đồ, tên các trục và các thành phần hoàn thiện."
+      },
+      {
+        "metadata_code": "chia gốc/đơn vị và nối các điểm",
+        "reason": "Đủ cơ sở đo lường qua kỹ năng chia gốc, chọn đơn vị trục đứng và nối các điểm."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_126",
+        "reason": "Đủ cơ sở đo lường qua việc lựa chọn và biểu diễn dữ liệu từ bảng thống kê vào biểu đồ đoạn thẳng."
+      },
+      {
+        "metadata_code": "PC_CHAMCHI",
+        "reason": "Đủ cơ sở đo lường qua tình huống thể hiện tính cẩn thận, kiên trì hoàn thành biểu đồ đoạn thẳng."
+      },
+      {
+        "metadata_code": "PC_TRUNGTHUC",
+        "reason": "Đủ cơ sở đo lường qua tình huống thể hiện sự trung thực khi xử lý số liệu thực tế."
+      },
+      {
+        "metadata_code": "NLC_GIAOTIEP",
+        "reason": "Đủ cơ sở đo lường qua kỹ năng giao tiếp, thảo luận nhóm để chọn đơn vị chia trục đứng."
+      },
+      {
+        "metadata_code": "NLC_GIAIQUYETVD",
+        "reason": "Đủ cơ sở đo lường qua việc đề xuất giải pháp linh hoạt, sáng tạo trong xử lý gốc trục đứng."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_02",
+        "reason": "Đủ cơ sở đo lường qua thao tác chuyển đổi dãy số liệu thực tế sang mô hình biểu đồ đoạn thẳng."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03",
+        "reason": "Đủ cơ sở đo lường qua việc phân tích diễn biến nhiệt độ trên biểu đồ để giải quyết vấn đề thực tiễn."
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Các bước vẽ biểu đồ đoạn thẳng từ bảng số liệu",
+      "questiontext": "Để vẽ biểu đồ đoạn thẳng biểu diễn bảng số liệu, bước đầu tiên cần thực hiện là gì?",
+      "generalfeedback": "Bước 1 trong quy trình vẽ biểu đồ đoạn thẳng là vẽ trục ngang và trục đứng, đồng thời chọn đơn vị và giá trị lớn nhất phù hợp trên trục đứng.",
+      "answers": [
+        {
+          "text": "Vẽ trục ngang và trục đứng, chọn đơn vị và giá trị lớn nhất phù hợp.",
+          "fraction": 100
+        },
+        {
+          "text": "Nối các điểm liên tiếp với nhau bằng các đoạn thẳng.",
+          "fraction": 0
+        },
+        {
+          "text": "Xác định các điểm biểu diễn số liệu trên mặt phẳng.",
+          "fraction": 0
+        },
+        {
+          "text": "Đặt tên cho biểu đồ và ghi chú thích cho các trục.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Các bước vẽ biểu đồ đoạn thẳng từ bảng số liệu",
+      "questiontext": "Hãy ghép mỗi bước ở cột bên trái với nội dung thực hiện tương ứng ở cột bên phải trong quy trình vẽ biểu đồ đoạn thẳng:",
+      "generalfeedback": "Quy trình vẽ biểu đồ đoạn thẳng gồm 4 bước: Bước 1 vẽ các trục và chọn đơn vị; Bước 2 xác định các điểm biểu diễn; Bước 3 nối các điểm liên tiếp; Bước 4 ghi chú thích và đặt tên biểu đồ.",
+      "subquestions": [
+        {
+          "question": "Bước 1",
+          "answer": "Vẽ trục ngang, trục đứng và chọn đơn vị phù hợp"
+        },
+        {
+          "question": "Bước 2",
+          "answer": "Xác định các điểm biểu diễn dữ liệu tương ứng"
+        },
+        {
+          "question": "Bước 3",
+          "answer": "Nối các điểm liên tiếp với nhau bằng các đoạn thẳng"
+        },
+        {
+          "question": "Bước 4",
+          "answer": "Ghi chú thích cho các trục và đặt tên cho biểu đồ"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Các bước vẽ biểu đồ đoạn thẳng từ bảng số liệu",
+      "questiontext": "Trong bước cuối cùng của quy trình vẽ biểu đồ đoạn thẳng, người ta tiến hành ghi chú thích cho các trục, điền giá trị tại các điểm (nếu cần) và đặt tên cho biểu đồ.",
+      "generalfeedback": "Phát biểu này đúng. Bước 4 là ghi chú thích cho các trục, điền giá trị tại các điểm (nếu cần) và đặt tên cho biểu đồ để hoàn thiện.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Vẽ biểu đồ đoạn thẳng hoàn chỉnh gồm tên biểu đồ",
+      "questiontext": "Khi hoàn thiện một biểu đồ đoạn thẳng, trục ngang dùng để biểu diễn [[1]], trục đứng dùng để biểu diễn [[2]], và phía trên biểu đồ cần có [[3]].",
+      "generalfeedback": "Một biểu đồ đoạn thẳng hoàn chỉnh gồm tên biểu đồ ở phía trên, trục ngang biểu diễn mốc thời gian/đối tượng và trục đứng biểu diễn số liệu/tiêu chí theo dõi.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "mốc thời gian hoặc đối tượng"
+        },
+        {
+          "group": 1,
+          "text": "giá trị số liệu đo lường"
+        },
+        {
+          "group": 1,
+          "text": "tên biểu đồ"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "chia gốc/đơn vị và nối các điểm",
+      "questiontext": "Trong bài học vẽ biểu đồ đoạn thẳng về chiều cao cây đậu: [img:_page_3_Figure_14.jpeg], do chiều cao lớn nhất là \\(2,5\\text{ cm}\\) và thấp nhất là \\(0,5\\text{ cm}\\), trên trục đứng người ta đã chọn đơn vị chia và giá trị lớn nhất là bao nhiêu?",
+      "imgs": [
+        "_page_3_Figure_14.jpeg"
+      ],
+      "generalfeedback": "Theo SGK, do chiều cao lớn nhất là 2,5 cm và thấp nhất là 0,5 cm nên ở trục đứng ta chọn đơn vị là 0,5 và giá trị lớn nhất là 3.",
+      "answers": [
+        {
+          "text": "Chọn đơn vị là \\(0,5\\) và giá trị lớn nhất là \\(3\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Chọn đơn vị là \\(1\\) và giá trị lớn nhất là \\(2,5\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Chọn đơn vị là \\(0,1\\) và giá trị lớn nhất là \\(5\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Chọn đơn vị là \\(0,5\\) và giá trị lớn nhất là \\(2,5\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "chia gốc/đơn vị và nối các điểm",
+      "questiontext": "Quan sát hình vẽ bước 3 trong quá trình vẽ biểu đồ chiều cao cây đậu: [img:_page_4_Figure_2.jpeg]. Các điểm biểu diễn dữ liệu được nối với nhau bằng loại đường nào?",
+      "imgs": [
+        "_page_4_Figure_2.jpeg"
+      ],
+      "generalfeedback": "Các điểm biểu diễn liên tiếp được nối với nhau bằng các đoạn thẳng.",
+      "answers": [
+        {
+          "text": "đoạn thẳng",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "chia gốc/đơn vị và nối các điểm",
+      "questiontext": "Khi số liệu cần biểu diễn có giá trị rất lớn (ví dụ từ 70 đến 80) nhưng đơn vị độ dài của trục đứng nhỏ, ta nên xử lý gốc của trục đứng như thế nào để biểu đồ rõ ràng hơn?",
+      "generalfeedback": "Theo nhận xét trong SGK: Khi số liệu lớn trong khi đơn vị độ dài của trục đứng nhỏ thì ta không nên vẽ trục đứng bắt đầu từ 0.",
+      "answers": [
+        {
+          "text": "Không nên vẽ trục đứng bắt đầu từ 0.",
+          "fraction": 100
+        },
+        {
+          "text": "Bắt buộc luôn phải vẽ trục đứng bắt đầu từ 0.",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ hẳn trục đứng không vẽ nữa.",
+          "fraction": 0
+        },
+        {
+          "text": "Thay trục đứng bằng trục nằm ngang.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_126",
+      "questiontext": "Để chọn biểu đồ thấy rõ hơn tuổi thọ trung bình của người Việt Nam ngày càng tăng giữa hai biểu đồ C và D trong phần Thử thách nhỏ: [img:_page_4_Figure_12.jpeg] [img:_page_4_Figure_13.jpeg], yếu tố quyết định độ dốc của biểu đồ là việc chọn [[1]] của trục đứng.",
+      "imgs": [
+        "_page_4_Figure_12.jpeg",
+        "_page_4_Figure_13.jpeg"
+      ],
+      "generalfeedback": "Nhận xét trong SGK chỉ rõ: Độ dốc của biểu đồ phụ thuộc vào việc chọn đơn vị của trục đứng.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "đơn vị"
+        },
+        {
+          "group": 1,
+          "text": "tên gọi"
+        },
+        {
+          "group": 1,
+          "text": "màu sắc"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_126",
+      "questiontext": "Cho bảng thống kê nhiệt độ tại Hà Nội vào một ngày mùa thu (Bài tập 5.12): thời điểm 8h là 23°C, 10h là 25°C, 12h là 34°C, 14h là 32°C, 16h là 26°C, 18h là 22°C, 20h là 18°C. Nếu biểu diễn bảng này lên biểu đồ đoạn thẳng, giá trị cao nhất trên trục đứng cần chọn tối thiểu là bao nhiêu °C? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Giá trị nhiệt độ cao nhất trong bảng là 34°C, do đó giá trị trên trục đứng cần chọn tối thiểu là 34 (hoặc chọn mốc tròn như 35, 40).",
+      "answers": [
+        {
+          "text": "34",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_126",
+      "questiontext": "Cho dãy số liệu về số trận thắng của một đội bóng trong 8 năm từ 2013 đến 2020 (Bài tập 5.13): 36, 42, 15, 23, 25, 35, 32, 20. Trên trục ngang của biểu đồ đoạn thẳng biểu diễn dãy số liệu này, ta sẽ ghi những thông tin gì?",
+      "generalfeedback": "Trục ngang biểu diễn thời gian (các năm từ 2013 đến 2020), trục đứng biểu diễn số trận thắng tương ứng.",
+      "answers": [
+        {
+          "text": "Các năm từ 2013 đến 2020",
+          "fraction": 100
+        },
+        {
+          "text": "Số trận thắng từ 15 đến 42",
+          "fraction": 0
+        },
+        {
+          "text": "Tên của các đội bóng đối thủ",
+          "fraction": 0
+        },
+        {
+          "text": "Tên của huấn luyện viên qua các năm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Các bước vẽ biểu đồ đoạn thẳng từ bảng số liệu",
+      "questiontext": "Khi biểu diễn số liệu từ bảng thống kê lên biểu đồ đoạn thẳng, mỗi giá trị tương ứng tại một mốc thời gian trên trục ngang được xác định bằng yếu tố nào trên mặt phẳng biểu đồ?",
+      "generalfeedback": "Theo quy trình ở Bước 2, ứng với mỗi mốc thời gian trên trục ngang, số liệu được biểu diễn bởi một điểm trên mặt phẳng tọa độ.",
+      "answers": [
+        {
+          "text": "Một điểm",
+          "fraction": 100
+        },
+        {
+          "text": "Một đoạn thẳng",
+          "fraction": 0
+        },
+        {
+          "text": "Một hình chữ nhật",
+          "fraction": 0
+        },
+        {
+          "text": "Một đường tròn",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Vẽ biểu đồ đoạn thẳng hoàn chỉnh gồm tên biểu đồ",
+      "questiontext": "Hãy ghép các thành phần ở cột bên trái với nội dung biểu diễn tương ứng ở cột bên phải khi hoàn thiện biểu đồ đoạn thẳng cho Luyện tập 4 (thành tích chạy 1 500 m từ tuần 1 đến tuần 7):",
+      "generalfeedback": "Biểu đồ đoạn thẳng hoàn chỉnh gồm tên biểu đồ thể hiện chủ đề chung, trục ngang ghi các mốc tuần luyện tập và trục đứng ghi chỉ số thành tích (phút).",
+      "subquestions": [
+        {
+          "question": "Trục nằm ngang",
+          "answer": "Thời gian luyện tập (từ tuần 1 đến tuần 7)"
+        },
+        {
+          "question": "Trục đứng",
+          "answer": "Thành tích chạy 1 500 m (phút)"
+        },
+        {
+          "question": "Tên biểu đồ",
+          "answer": "Thành tích chạy 1 500 m của vận động viên qua các tuần"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "chia gốc/đơn vị và nối các điểm",
+      "questiontext": "Trong quy trình vẽ biểu đồ đoạn thẳng, Bước 3 yêu cầu nối các điểm biểu diễn dữ liệu liên tiếp với nhau bằng các đoạn thẳng.",
+      "generalfeedback": "Phát biểu này đúng. Bước 3 trong SGK ghi rõ: 'Nối các điểm liên tiếp với nhau bằng các đoạn thẳng'.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_126",
+      "questiontext": "Để vẽ biểu đồ đoạn thẳng cho bảng thành tích chạy 1 500 m từ tuần 1 đến tuần 7 (với các giá trị 8; 8; 8; 7; 6,5; 6,5; 6 phút), trên trục đứng ta nên chọn đơn vị chia là [[1]] và giá trị lớn nhất ghi trên trục đứng là [[2]].",
+      "generalfeedback": "Do thành tích thấp nhất là 6 phút, cao nhất là 8 phút và có bước lẻ 0,5 phút, việc chọn đơn vị chia là 0,5 và giá trị lớn nhất là 8 (hoặc 8,5) giúp biểu đồ rõ ràng, chính xác.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "0,5"
+        },
+        {
+          "group": 1,
+          "text": "8"
+        },
+        {
+          "group": 1,
+          "text": "5"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Các bước vẽ biểu đồ đoạn thẳng từ bảng số liệu",
+      "questiontext": "Để hỗ trợ vẽ biểu đồ đoạn thẳng nhanh chóng trên máy tính, SGK Bài 19 gợi ý học sinh có thể sử dụng phần mềm nào?",
+      "generalfeedback": "Trong SGK Bài 19 có phần ghi chú: 'Em có thể sử dụng phần mềm Excel để vẽ biểu đồ đoạn thẳng.'",
+      "answers": [
+        {
+          "text": "Excel",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_126",
+      "questiontext": "Quan sát biểu đồ Hình 5.32 về kỉ lục thế giới chạy 100 m qua các năm: [img:_page_5_Figure_8.jpeg]. Kỉ lục thế giới đạt được ở năm 1991 là bao nhiêu giây?",
+      "imgs": [
+        "_page_5_Figure_8.jpeg"
+      ],
+      "generalfeedback": "Dựa vào biểu đồ Hình 5.32, tại mốc năm 1991 trên trục ngang, điểm tương ứng ghi giá trị kỉ lục là 9,86 giây.",
+      "answers": [
+        {
+          "text": "9,86 giây",
+          "fraction": 100
+        },
+        {
+          "text": "9,95 giây",
+          "fraction": 0
+        },
+        {
+          "text": "9,77 giây",
+          "fraction": 0
+        },
+        {
+          "text": "9,58 giây",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_126",
+      "questiontext": "Dựa vào biểu đồ Hình 5.32 [img:_page_5_Figure_8.jpeg], kỉ lục thế giới chạy 100 m từ năm 1912 (10,6 giây) đến năm 2009 (9,58 giây) đã giảm được bao nhiêu giây? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "imgs": [
+        "_page_5_Figure_8.jpeg"
+      ],
+      "generalfeedback": "Thời gian kỉ lục giảm được là: 10,6 - 9,58 = 1,02 giây.",
+      "answers": [
+        {
+          "text": "1.02",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "chia gốc/đơn vị và nối các điểm",
+      "questiontext": "Quan sát Hình 5.29 về các điểm biểu diễn chiều cao cây đậu: [img:_page_3_Figure_16.jpeg]. Điểm biểu diễn dữ liệu tại Ngày 3 có giá trị chiều cao tương ứng là bao nhiêu cm?",
+      "imgs": [
+        "_page_3_Figure_16.jpeg"
+      ],
+      "generalfeedback": "Quan sát trên biểu đồ Hình 5.29, mốc Ngày 3 chiếu sang trục đứng cho giá trị 1,2 cm.",
+      "answers": [
+        {
+          "text": "1,2 cm",
+          "fraction": 100
+        },
+        {
+          "text": "0,5 cm",
+          "fraction": 0
+        },
+        {
+          "text": "2,0 cm",
+          "fraction": 0
+        },
+        {
+          "text": "2,5 cm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Các bước vẽ biểu đồ đoạn thẳng từ bảng số liệu",
+      "questiontext": "Trong các bước vẽ biểu đồ đoạn thẳng: Bước 2 thực hiện biểu diễn dữ liệu tại mỗi mốc thời gian bằng một [[1]]; Bước 3 thực hiện nối các điểm liên tiếp bằng các [[2]].",
+      "generalfeedback": "Theo SGK, Bước 2 xác định các điểm biểu diễn, Bước 3 nối các điểm liên tiếp bằng các đoạn thẳng.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "điểm"
+        },
+        {
+          "group": 1,
+          "text": "đoạn thẳng"
+        },
+        {
+          "group": 1,
+          "text": "hình chữ nhật"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_126",
+      "questiontext": "Khi vẽ biểu đồ đoạn thẳng biểu diễn diễn biến nhiệt độ Hà Nội trong ngày (Bài tập 5.12), các đoạn thẳng nối các điểm dữ liệu liên tiếp có ý nghĩa chính là gì?",
+      "generalfeedback": "Các đoạn thẳng nối các điểm liên tiếp giúp thể hiện sự thay đổi (xu hướng tăng, giảm) của nhiệt độ theo thời gian.",
+      "answers": [
+        {
+          "text": "Thể hiện sự thay đổi tăng, giảm của nhiệt độ theo thời gian trong ngày",
+          "fraction": 100
+        },
+        {
+          "text": "Biểu thị tổng nhiệt độ tích lũy cả ngày",
+          "fraction": 0
+        },
+        {
+          "text": "Biểu thị độ chênh lệch nhiệt độ giữa các tỉnh thành",
+          "fraction": 0
+        },
+        {
+          "text": "Thay thế cho việc đặt tên cho biểu đồ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Trong giờ thực hành Toán, bạn An được giao vẽ biểu đồ đoạn thẳng biểu diễn chiều cao cây đậu theo từng ngày. Mặc dù số liệu Ngày 4 và Ngày 5 khá lẻ, An vẫn cẩn thận chia đúng đơn vị, xác định chính xác vị trí các điểm, nối các đoạn thẳng và ghi đầy đủ tên biểu đồ cùng tên hai trục. Hành vi của bạn An thể hiện phẩm chất nào?",
+      "generalfeedback": "Hành vi cẩn thận, kiên trì hoàn thành đầy đủ và chính xác tất cả các bước vẽ biểu đồ đoạn thẳng phản ánh phẩm chất Chăm chỉ (Q1).",
+      "answers": [
+        {
+          "text": "Chăm chỉ",
+          "fraction": 100
+        },
+        {
+          "text": "Trung thực",
+          "fraction": 0
+        },
+        {
+          "text": "Yêu nước",
+          "fraction": 0
+        },
+        {
+          "text": "Nhân ái",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Khi thu thập số liệu nhiệt độ Hà Nội vào một ngày mùa thu để vẽ biểu đồ đoạn thẳng (Bài tập 5.12), bạn Bình thấy nhiệt độ lúc 12h tăng đột biến lên \\(34^\\circ\\text{C}\\) làm cho đường nối biểu đồ bị nhô cao mất cân đối. Bình định tự ý sửa số liệu thành \\(28^\\circ\\text{C}\\) cho biểu đồ 'đẹp' hơn. Nếu là bạn của Bình, em nên khuyên Bình như thế nào để thể hiện tính trung thực?",
+      "generalfeedback": "Thể hiện tính trung thực (Q2) trong học tập và nghiên cứu thống kê là giữ nguyên số liệu thực tế thu thập được, không tự ý chỉnh sửa số liệu chỉ để biểu đồ trông đẹp mắt hơn.",
+      "answers": [
+        {
+          "text": "Khuyên Bình giữ nguyên số liệu thực tế \\(34^\\circ\\text{C}\\) vì biểu đồ phản ánh đúng thực tế khách quan.",
+          "fraction": 100
+        },
+        {
+          "text": "Đồng ý với Bình vì biểu đồ đẹp là tiêu chí quan trọng nhất.",
+          "fraction": 0
+        },
+        {
+          "text": "Khuyên Bình bỏ qua mốc 12h không biểu diễn nữa.",
+          "fraction": 0
+        },
+        {
+          "text": "Khuyên Bình lấy trung bình cộng của các thời điểm khác để thay thế.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_GIAOTIEP",
+      "questiontext": "Nhóm của Mai thảo luận để thống nhất cách vẽ biểu đồ đoạn thẳng biểu diễn thành tích chạy 1 500 m từ tuần 1 đến tuần 7 (Luyện tập 4). Để cả nhóm hiểu rõ và đồng thuận về cách chọn đơn vị chia trên trục đứng, Mai nên trình bày như thế nào?",
+      "generalfeedback": "Năng lực giao tiếp và hợp tác (G1) thể hiện qua việc giải thích rõ ràng lý do toán học (thành tích dao động từ 6 đến 8 phút, có số lẻ 6,5) giúp các thành viên nhóm dễ dàng hiểu và thống nhất ý kiến.",
+      "answers": [
+        {
+          "text": "Lắng nghe ý kiến các bạn và giải thích rõ: vì số liệu từ 6 đến 8 có bước lẻ 0,5 nên chọn đơn vị 0,5 là hợp lý nhất.",
+          "fraction": 100
+        },
+        {
+          "text": "Tự quyết định một mình và áp đặt cả nhóm phải vẽ theo ý mình mà không giải thích.",
+          "fraction": 0
+        },
+        {
+          "text": "Yêu cầu giáo viên giải hộ toàn bộ biểu đồ cho nhóm.",
+          "fraction": 0
+        },
+        {
+          "text": "Để mỗi bạn trong nhóm tự vẽ một kiểu khác nhau rồi nộp ngẫu nhiên.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLC_GIAIQUYETVD",
+      "questiontext": "Khi vẽ biểu đồ biểu diễn tuổi thọ trung bình của người Việt Nam (Thử thách nhỏ), nếu chọn trục đứng bắt đầu từ 0 với đơn vị lớn thì đường biểu đồ gần như nằm ngang, khó thấy sự tăng trưởng. Để giải quyết vấn đề này và làm rõ xu hướng tăng tuổi thọ, giải pháp sáng tạo nào sau đây là tối ưu?",
+      "generalfeedback": "Năng lực giải quyết vấn đề và sáng tạo (G2) giúp học sinh linh hoạt nhận ra: khi số liệu lớn và chênh lệch nhỏ, không nên vẽ trục đứng bắt đầu từ 0 và điều chỉnh đơn vị độ dài trục đứng phù hợp để thể hiện rõ nét độ dốc.",
+      "answers": [
+        {
+          "text": "Không vẽ trục đứng bắt đầu từ 0 và thu nhỏ đơn vị chia trên trục đứng để làm nổi bật độ dốc.",
+          "fraction": 100
+        },
+        {
+          "text": "Chuyển sang vẽ biểu đồ hình quạt tròn.",
+          "fraction": 0
+        },
+        {
+          "text": "Tự tăng gấp đôi tất cả các số liệu tuổi thọ.",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ bớt các mốc năm có tuổi thọ cao.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_02",
+      "questiontext": "Bạn Cường ghi chép dãy số liệu về số trận thắng của một đội bóng qua 8 năm (Bài tập 5.13): 36, 42, 15, 23, 25, 35, 32, 20. Để thiết lập mô hình toán học dạng biểu đồ đoạn thẳng biểu diễn dãy số liệu này, thao tác mô hình hóa nào sau đây là đúng?",
+      "generalfeedback": "Năng lực mô hình hóa toán học (D1) thể hiện ở việc chuyển đổi thực tế (dãy số liệu) sang các yếu tố của mô hình biểu đồ: gán mốc thời gian (năm) cho trục ngang và giá trị (số trận thắng) cho trục đứng, nối các điểm liên tiếp.",
+      "answers": [
+        {
+          "text": "Gán các năm (2013-2020) vào trục ngang, số trận thắng vào trục đứng, xác định các điểm tương ứng và nối chúng bằng các đoạn thẳng.",
+          "fraction": 100
+        },
+        {
+          "text": "Vẽ 8 hình tròn có bán kính tỉ lệ với số trận thắng.",
+          "fraction": 0
+        },
+        {
+          "text": "Sắp xếp dãy số liệu tăng dần rồi nối điểm đầu với điểm cuối.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ vẽ hai điểm biểu diễn số trận thắng lớn nhất và nhỏ nhất rồi nối lại.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "questiontext": "Dựa vào biểu đồ đoạn thẳng biểu diễn diễn biến nhiệt độ trong ngày tại Hà Nội (Bài tập 5.12), nhiệt độ tăng từ 8h (\\(23^\\circ\\text{C}\\)) đến đỉnh điểm 12h (\\(34^\\circ\\text{C}\\)) rồi giảm dần về 20h (\\(18^\\circ\\text{C}\\)). Thao tác giải quyết vấn đề toán học nào giúp đưa ra lời khuyên phù hợp cho người dân khi ra ngoài?",
+      "generalfeedback": "Năng lực giải quyết vấn đề toán học (D2) thể hiện qua việc phân tích xu hướng tăng/giảm trên biểu đồ để rút ra kết luận thực tiễn (khoảng thời gian 12h-14h nhiệt độ cao nhất nên hạn chế ra nắng).",
+      "answers": [
+        {
+          "text": "Phân tích xu hướng tăng giảm trên biểu đồ để nhận biết thời điểm nắng nóng nhất (12h-14h) và khuyến cáo hạn chế hoạt động ngoài trời lúc này.",
+          "fraction": 100
+        },
+        {
+          "text": "Tính nhiệt độ trung bình cả ngày rồi kết luận thời tiết không thay đổi.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ nhìn vào mốc 8h và kết luận cả ngày thời tiết mát mẻ.",
+          "fraction": 0
+        },
+        {
+          "text": "So sánh nhiệt độ Hà Nội với nhiệt độ TP. Hồ Chí Minh.",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

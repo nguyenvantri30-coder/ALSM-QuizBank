@@ -1,0 +1,715 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 30,
+    "metadata_used": {
+      "Tổng hợp phương trình bậc hai và định lí Viète": 7,
+      "Giải bài tập tổng hợp củng cố kĩ năng lập phương trình và ứng dụng định lí Viète": 7,
+      "YCCD_TOAN9_035": 6,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_GQVD_PHATHIEN_C2_01": 2,
+      "SUB_GQVD_DEXUAT_C2_02": 2,
+      "NLT_TOAN_C2_03_04": 2,
+      "NLT_TOAN_C2_03_05": 2
+    },
+    "types_used": {
+      "multichoice": 12,
+      "truefalse": 3,
+      "numerical": 5,
+      "matching": 3,
+      "gapselect": 3,
+      "ddwtos": 3,
+      "calculated": 1
+    },
+    "total": 30
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN9_035",
+        "reason": "Có đủ dữ liệu trong bài học SGK để thiết kế bài toán thực tế lập phương trình bậc hai."
+      },
+      {
+        "metadata_code": "Tổng hợp phương trình bậc hai và định lí Viète",
+        "reason": "Có đủ dữ liệu kiến thức về phương trình bậc hai, biệt thức Delta và định lí Viète trong SGK."
+      },
+      {
+        "metadata_code": "Giải bài tập tổng hợp củng cố kĩ năng lập phương trình và ứng dụng định lí Viète",
+        "reason": "Có đủ dữ liệu bài tập thực hành củng cố kĩ năng biến đổi và tính giá trị biểu thức nghiệm."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Nội dung bài học Toán 9 về phương trình bậc hai không chứa yếu tố năng lực tin học/số tự nhiên."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học Toán 9 về phương trình bậc hai không chứa yếu tố năng lực trí tuệ nhân tạo (AI) tự nhiên."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Tổng hợp phương trình bậc hai và định lí Viète",
+      "questiontext": "Cho phương trình bậc hai \\(ax^2 + bx + c = 0\\) \\((a \\neq 0)\\) có hai nghiệm \\(x_1, x_2\\). Theo định lí Viète, tổng hai nghiệm \\(x_1 + x_2\\) bằng biểu thức nào sau đây?",
+      "generalfeedback": "Theo định lí Viète, tổng hai nghiệm của phương trình bậc hai \\(ax^2 + bx + c = 0\\) \\((a \\neq 0)\\) là \\(x_1 + x_2 = -\\frac{b}{a}\\).",
+      "answers": [
+        {
+          "text": "\\(-\\frac{b}{a}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{b}{a}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{c}{a}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-\\frac{c}{a}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Tổng hợp phương trình bậc hai và định lí Viète",
+      "questiontext": "Cho phương trình bậc hai \\(x^2 - 7x + 5 = 0\\). Biệt thức \\(\\Delta\\) của phương trình này bằng 29.",
+      "generalfeedback": "Ta có \\(a = 1, b = -7, c = 5\\). Biệt thức \\(\\Delta = b^2 - 4ac = (-7)^2 - 4 \\cdot 1 \\cdot 5 = 49 - 20 = 29 > 0\\). Khẳng định trên là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Tổng hợp phương trình bậc hai và định lí Viète",
+      "questiontext": "Nếu phương trình bậc hai \\(ax^2 + bx + c = 0\\) \\((a \\neq 0)\\) có \\(a + b + c = 0\\) thì phương trình có một nghiệm là \\(x_1 = 1\\) và nghiệm còn lại \\(x_2\\) bằng biểu thức nào sau đây?",
+      "generalfeedback": "Khi phương trình bậc hai có \\(a + b + c = 0\\), hai nghiệm của phương trình là \\(x_1 = 1\\) và \\(x_2 = \\frac{c}{a}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{c}{a}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(-\\frac{c}{a}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{b}{a}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-\\frac{b}{a}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Giải bài tập tổng hợp củng cố kĩ năng lập phương trình và ứng dụng định lí Viète",
+      "questiontext": "Cho phương trình bậc hai \\(x^2 - 7x + 5 = 0\\) có hai nghiệm \\(x_1, x_2\\). Tính giá trị của biểu thức \\(A = x_1^2 + x_2^2\\). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Theo định lí Viète: \\(x_1 + x_2 = 7\\) và \\(x_1 x_2 = 5\\). Ta có \\(A = x_1^2 + x_2^2 = (x_1 + x_2)^2 - 2x_1 x_2 = 7^2 - 2 \\cdot 5 = 49 - 10 = 39\\).",
+      "answers": [
+        {
+          "text": "39",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Tổng hợp phương trình bậc hai và định lí Viète",
+      "questiontext": "Ghép mỗi phương trình bậc hai với tính nhẩm nghiệm tương ứng của nó dựa vào hệ số:",
+      "generalfeedback": "Áp dụng các trường hợp đặc biệt tính nhẩm nghiệm phương trình bậc hai:\n- Nếu \\(a + b + c = 0\\) thì \\(x_1 = 1, x_2 = \\frac{c}{a}\\).\n- Nếu \\(a - b + c = 0\\) thì \\(x_1 = -1, x_2 = -\\frac{c}{a}\\).",
+      "subquestions": [
+        {
+          "question": "\\(\\sqrt{2}x^2 - (\\sqrt{2} + 1)x + 1 = 0\\)",
+          "answer": "Có a + b + c = 0 nên x1 = 1, x2 = \\frac{\\sqrt{2}}{2}"
+        },
+        {
+          "question": "\\(2x^2 + (\\sqrt{3} - 1)x - 3 + \\sqrt{3} = 0\\)",
+          "answer": "Có a - b + c = 0 nên x1 = -1, x2 = \\frac{3-\\sqrt{3}}{2}"
+        },
+        {
+          "question": "\\(x^2 - 5x + 4 = 0\\)",
+          "answer": "Có a + b + c = 0 nên x1 = 1, x2 = 4"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Giải bài tập tổng hợp củng cố kĩ năng lập phương trình và ứng dụng định lí Viète",
+      "questiontext": "Gọi \\(x_1, x_2\\) là hai nghiệm của phương trình bậc hai \\(x^2 - 5x + 3 = 0\\). Theo định lí Viète, ta có \\(x_1 + x_2 =\\) [[1]] và \\(x_1 x_2 =\\) [[2]].",
+      "generalfeedback": "Phương trình \\(x^2 - 5x + 3 = 0\\) có \\(a = 1, b = -5, c = 3\\). Theo định lí Viète, \\(x_1 + x_2 = -\\frac{b}{a} = 5\\) và \\(x_1 x_2 = \\frac{c}{a} = 3\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "5"
+        },
+        {
+          "group": 1,
+          "text": "3"
+        },
+        {
+          "group": 1,
+          "text": "-5"
+        },
+        {
+          "group": 1,
+          "text": "-3"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "Giải bài tập tổng hợp củng cố kĩ năng lập phương trình và ứng dụng định lí Viète",
+      "questiontext": "Cho phương trình \\(x^2 - 5x + 3 = 0\\) có hai nghiệm \\(x_1, x_2\\). Ta tính được \\(x_1^2 + x_2^2 =\\) [[1]] và \\((x_1 - x_2)^2 =\\) [[2]].",
+      "generalfeedback": "Ta có \\(x_1 + x_2 = 5, x_1 x_2 = 3\\).\n1) \\(x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1 x_2 = 5^2 - 2 \\cdot 3 = 19\\).\n2) \\((x_1 - x_2)^2 = (x_1+x_2)^2 - 4x_1 x_2 = 5^2 - 4 \\cdot 3 = 13\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "19"
+        },
+        {
+          "group": 1,
+          "text": "13"
+        },
+        {
+          "group": 1,
+          "text": "25"
+        },
+        {
+          "group": 1,
+          "text": "12"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Giải bài tập tổng hợp củng cố kĩ năng lập phương trình và ứng dụng định lí Viète",
+      "questiontext": "Cho phương trình bậc hai x^2 - {S_val}x + {P_val} = 0 với {S_val} và {P_val} là các số thực cho trước sao cho phương trình có hai nghiệm \\(x_1, x_2\\). Hãy tính giá trị tổng hai nghiệm \\(x_1 + x_2\\) của phương trình.",
+      "generalfeedback": "Theo định lí Viète, đối với phương trình x^2 - {S_val}x + {P_val} = 0, tổng hai nghiệm là \\(x_1 + x_2 = S_val\\).",
+      "wildcards": [
+        {
+          "name": "S_val",
+          "min": 6.0,
+          "max": 15.0,
+          "decimals": 0
+        },
+        {
+          "name": "P_val",
+          "min": 1.0,
+          "max": 5.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{S_val}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_035",
+      "questiontext": "Một miếng kim loại thứ nhất nặng 600 g, miếng kim loại thứ hai nặng 640 g. Thể tích miếng thứ nhất lớn hơn thể tích miếng thứ hai là 120 cm\\(^3\\). Gọi khối lượng riêng của miếng thứ nhất là \\(x\\) (g/cm\\(^3\\), \\(x > 0\\)). Nếu khối lượng riêng của miếng thứ hai lớn hơn miếng thứ nhất là 5 g/cm\\(^3\\), phương trình thu gọn tìm \\(x\\) là phương trình nào sau đây?",
+      "generalfeedback": "Thể tích miếng thứ nhất là \\(\\frac{600}{x}\\) cm\\(^3\\), miếng thứ hai là \\(\\frac{640}{x+5}\\) cm\\(^3\\).\nPhương trình: \\(\\frac{600}{x} - \\frac{640}{x+5} = 120\\).\nQuy đồng và thu gọn ta được: \\(3x^2 + 16x - 75 = 0\\).",
+      "answers": [
+        {
+          "text": "\\(3x^2 + 16x - 75 = 0\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(3x^2 - 16x - 75 = 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x^2 + 16x - 75 = 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(3x^2 + 16x + 75 = 0\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_035",
+      "questiontext": "Hai miếng kim loại có tổng thể tích chênh lệch nhau 120 cm\\(^3\\). Khối lượng riêng miếng thứ nhất là 3 g/cm\\(^3\\), khối lượng riêng miếng thứ hai lớn hơn miếng thứ nhất 5 g/cm\\(^3\\). Khối lượng riêng của miếng kim loại thứ hai bằng bao nhiêu g/cm\\(^3\\)? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Khối lượng riêng miếng thứ nhất là 3 g/cm\\(^3\\). Khối lượng riêng miếng thứ hai là \\(3 + 5 = 8\\) g/cm\\(^3\\).",
+      "answers": [
+        {
+          "text": "8",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Tổng hợp phương trình bậc hai và định lí Viète",
+      "questiontext": "Cho phương trình bậc hai \\(ax^2 + bx + c = 0\\) \\((a \\neq 0)\\) có hai nghiệm \\(x_1, x_2\\). Theo định lí Viète, tích hai nghiệm \\(x_1 \\cdot x_2\\) bằng biểu thức nào sau đây?",
+      "generalfeedback": "Theo định lí Viète, tích hai nghiệm của phương trình bậc hai \\(ax^2 + bx + c = 0\\) \\((a \\neq 0)\\) là \\(x_1 x_2 = \\frac{c}{a}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{c}{a}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "-\\(\\frac{c}{a}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{b}{a}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "-\\(\\frac{b}{a}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Tổng hợp phương trình bậc hai và định lí Viète",
+      "questiontext": "Nếu phương trình bậc hai \\(ax^2 + bx + c = 0\\) \\((a \\neq 0)\\) có \\(a - b + c = 0\\) thì phương trình có một nghiệm là \\(x_1 = -1\\) và nghiệm còn lại là \\(x_2 = -\\frac{c}{a}\\).",
+      "generalfeedback": "Khi \\(a - b + c = 0\\), phương trình bậc hai luôn có hai nghiệm là \\(x_1 = -1\\) và \\(x_2 = -\\frac{c}{a}\\). Khẳng định trên là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Giải bài tập tổng hợp củng cố kĩ năng lập phương trình và ứng dụng định lí Viète",
+      "questiontext": "Hai số \\(u\\) và \\(v\\) có tổng \\(u + v = 15\\) và tích \\(uv = 56\\). Hai số \\(u, v\\) đó là nghiệm của phương trình bậc hai nào sau đây?",
+      "generalfeedback": "Hai số \\(u, v\\) có tổng \\(S = 15\\) và tích \\(P = 56\\) là hai nghiệm của phương trình \\(t^2 - 15t + 56 = 0\\).",
+      "answers": [
+        {
+          "text": "\\(t^2 - 15t + 56 = 0\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(t^2 + 15t + 56 = 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(t^2 - 15t - 56 = 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(t^2 + 15t - 56 = 0\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Giải bài tập tổng hợp củng cố kĩ năng lập phương trình và ứng dụng định lí Viète",
+      "questiontext": "Cho hai số \\(u\\) và \\(v\\) thỏa mãn \\(u^2 + v^2 = 125\\) và \\(uv = 22\\). Tính giá trị của \\((u + v)^2\\). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Ta có \\((u + v)^2 = u^2 + v^2 + 2uv = 125 + 2 \\cdot 22 = 125 + 44 = 169\\).",
+      "answers": [
+        {
+          "text": "169",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_035",
+      "questiontext": "Một chiếc hộp hình hộp chữ nhật không nắp có đáy hình vuông, tổng diện tích xung quanh và diện tích đáy là 800 cm\\(^2\\). Chiều cao của hộp là 10 cm. Gọi độ dài cạnh đáy là \\(x\\) (cm, \\(x > 0\\)). Phương trình bậc hai biểu diễn mối quan hệ giữa diện tích và cạnh đáy \\(x\\) là gì?",
+      "generalfeedback": "Diện tích xung quanh là \\(4 \\cdot x \\cdot 10 = 40x\\) cm\\(^2\\). Diện tích đáy vuông là \\(x^2\\) cm\\(^2\\). Tổng diện tích là \\(x^2 + 40x = 800\\) hay \\(x^2 + 40x - 800 = 0\\).",
+      "answers": [
+        {
+          "text": "\\(x^2 + 40x - 800 = 0\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x^2 + 20x - 800 = 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x^2 + 40x + 800 = 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(4x^2 + 10x - 800 = 0\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_035",
+      "questiontext": "Một chiếc hộp hình hộp chữ nhật không nắp có đáy hình vuông, chiều cao 10 cm và tổng diện tích xung quanh và diện tích đáy là 800 cm\\(^2\\). Độ dài cạnh đáy của chiếc hộp là bao nhiêu cm (làm tròn kết quả đến hàng phần mười)? (Chỉ điền số thập phân, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Giải phương trình \\(x^2 + 40x - 800 = 0\\) với \\(x > 0\\): \\(\\Delta' = 20^2 - 1 \\cdot (-800) = 1200\\). Do đó \\(x = -20 + \\sqrt{1200} \\approx -20 + 34.641 = 14.641 \\approx 14.6\\) cm.",
+      "answers": [
+        {
+          "text": "14.6",
+          "fraction": 100,
+          "tolerance": 0.1
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_035",
+      "questiontext": "Cửa hàng bán áo phông với giá \\(p = 100 - 0.02x\\) (nghìn đồng/chiếc) khi bán được \\(x\\) chiếc. Doanh thu \\(R = x(100 - 0.02x)\\) (nghìn đồng). Để đạt doanh thu 120 triệu đồng (tương ứng 120 000 nghìn đồng), phương trình bậc hai tìm \\(x\\) thu gọn là phương trình nào?",
+      "generalfeedback": "Ta có \\(x(100 - 0.02x) = 120000 \\Leftrightarrow 100x - 0.02x^2 = 120000 \\Leftrightarrow 0.02x^2 - 100x + 120000 = 0 \\Leftrightarrow x^2 - 5000x + 6000000 = 0\\).",
+      "answers": [
+        {
+          "text": "\\(x^2 - 5000x + 6000000 = 0\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x^2 - 100x + 120000 = 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(0.02x^2 + 100x - 120000 = 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x^2 + 5000x - 6000000 = 0\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_035",
+      "questiontext": "Cửa hàng bán áo phông với giá \\(p = 100 - 0.02x\\) (nghìn đồng/chiếc). Để đạt doanh thu 120 triệu đồng (tương ứng 120 000 nghìn đồng), số lượng áo phông ít nhất cửa hàng cần phải bán được là bao nhiêu chiếc? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Giải phương trình \\(x^2 - 5000x + 6000000 = 0\\): \\(\\Delta' = 2500^2 - 6000000 = 6250000 - 6000000 = 250000\\) nên \\(\\sqrt{\\Delta'} = 500\\). Phương trình có 2 nghiệm \\(x_1 = 2500 - 500 = 2000\\) và \\(x_2 = 2500 + 500 = 3000\\). Số lượng áo ít nhất cần bán là 2000 chiếc.",
+      "answers": [
+        {
+          "text": "2000",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Tổng hợp phương trình bậc hai và định lí Viète",
+      "questiontext": "Để phương trình bậc hai \\(ax^2 + bx + c = 0\\) \\((a \\neq 0)\\) có hai nghiệm phân biệt thì biệt thức \\(\\Delta\\) phải [[1]], còn nếu \\(\\Delta = 0\\) thì phương trình có [[2]].",
+      "generalfeedback": "Phương trình bậc hai có hai nghiệm phân biệt khi \\(\\Delta > 0\\) và có nghiệm kép khi \\(\\Delta = 0\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "lớn hơn 0"
+        },
+        {
+          "group": 1,
+          "text": "nghiệm kép"
+        },
+        {
+          "group": 1,
+          "text": "nhỏ hơn 0"
+        },
+        {
+          "group": 1,
+          "text": "vô nghiệm"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Giải bài tập tổng hợp củng cố kĩ năng lập phương trình và ứng dụng định lí Viète",
+      "questiontext": "Cho phương trình \\(x^2 - 7x + 5 = 0\\). Không giải phương trình, tính được tổng hai nghiệm \\(x_1 + x_2 =\\) [[1]] và tích hai nghiệm \\(x_1 x_2 =\\) [[2]].",
+      "generalfeedback": "Theo định lí Viète, \\(x_1 + x_2 = -\\frac{-7}{1} = 7\\) và \\(x_1 x_2 = \\frac{5}{1} = 5\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "7"
+        },
+        {
+          "group": 1,
+          "text": "5"
+        },
+        {
+          "group": 1,
+          "text": "-7"
+        },
+        {
+          "group": 1,
+          "text": "-5"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ học Toán, khi giải bài toán thực tế lập phương trình bậc hai \\(3x^2 + 16x - 75 = 0\\) để tìm khối lượng riêng kim loại, bạn Nam tính ra nghiệm âm \\(x = -\\frac{25}{3}\\) và lúng túng không biết xử lý thế nào. Nếu là bạn của Nam, em nên khuyên Nam làm gì để thể hiện sự kiên trì và thái độ học tập tích cực?",
+      "generalfeedback": "Thái độ học tập tích cực và vươn lên đòi hỏi học sinh không bỏ cuộc khi gặp nghiệm lạ, mà biết đối chiếu điều kiện thực tế (\\(x > 0\\)) để loại nghiệm âm và tiếp tục hoàn thành bài toán.",
+      "answers": [
+        {
+          "text": "Khuyên Nam kiểm tra lại điều kiện xác định \\(x > 0\\) của bài toán thực tế để loại nghiệm âm và lấy nghiệm dương phù hợp.",
+          "fraction": 100
+        },
+        {
+          "text": "Khuyên Nam bỏ qua bài toán này vì phương trình ra nghiệm phân số âm quá phức tạp.",
+          "fraction": 0
+        },
+        {
+          "text": "Khuyên Nam chép luôn đáp số của bạn bên cạnh mà không cần hiểu lý do.",
+          "fraction": 0
+        },
+        {
+          "text": "Khuyên Nam tự sửa dấu âm thành dấu dương mà không cần kiểm tra điều kiện bài toán.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi gặp bài toán tính nhẩm nghiệm phương trình \\(2x^2 + (\\sqrt{3}-1)x - 3 + \\sqrt{3} = 0\\), việc chủ động tìm hiểu quy luật hệ số \\(a - b + c = 0\\) để giải nhanh thay vì trông chờ giáo viên sửa bài là biểu hiện của tinh thần tự giác và nỗ lực vươn lên trong học tập.",
+      "generalfeedback": "Chủ động nghiên cứu và áp dụng các phương pháp tính nhẩm nghiệm dựa vào hệ số thể hiện tính tự giác, tích cực vươn lên trong học tập Toán học.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GQVD_PHATHIEN_C2_01",
+      "questiontext": "Cho tình huống học tập: Bạn An giải bài toán doanh thu áo phông \\(R = x(100 - 0.02x)\\) nghìn đồng với mục tiêu đạt 120 triệu đồng. An đã lập được phương trình \\(0.02x^2 - 100x + 120000 = 0\\). Phân tích nào sau đây phản ánh đúng bản chất các bước xử lý tình huống của An?",
+      "generalfeedback": "An đã đổi 120 triệu đồng = 120 000 nghìn đồng để đồng nhất đơn vị với \\(R\\), sau đó chuyển vế đưa về phương trình bậc hai dạng chuẩn \\(ax^2 + bx + c = 0\\).",
+      "answers": [
+        {
+          "text": "An đã đổi đơn vị 120 triệu đồng ra 120 000 nghìn đồng để đồng nhất đơn vị doanh thu, sau đó biến đổi về phương trình bậc hai chuẩn.",
+          "fraction": 100
+        },
+        {
+          "text": "An đã nhầm lẫn khi giữ nguyên số 120 làm vế phải của phương trình doanh thu.",
+          "fraction": 0
+        },
+        {
+          "text": "An đã lấy giá tiền \\(p\\) nhân với 120 triệu đồng để ra số lượng áo.",
+          "fraction": 0
+        },
+        {
+          "text": "An đã bỏ qua biến số \\(x\\) và giải trực tiếp phương trình bậc nhất.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GQVD_PHATHIEN_C2_01",
+      "questiontext": "Hãy ghép mỗi bước phân tích tình huống toán học trong bài toán chiếc hộp không nắp với nội dung tương ứng:",
+      "generalfeedback": "Phân tích tình huống bài toán hình học thực tế đòi hỏi xác định đúng diện tích xung quanh, diện tích đáy và phương trình tổng diện tích.",
+      "subquestions": [
+        {
+          "question": "Diện tích xung quanh của hộp chữ nhật đáy vuông cạnh x, chiều cao 10 cm",
+          "answer": "S_xq = 40x (cm2)"
+        },
+        {
+          "question": "Diện tích đáy hình vuông cạnh x",
+          "answer": "S_day = x^2 (cm2)"
+        },
+        {
+          "question": "Mô hình phương trình tổng diện tích bằng 800 cm2",
+          "answer": "x^2 + 40x - 800 = 0"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Để giải phương trình bậc hai \\(\\sqrt{2}x^2 - (\\sqrt{2}+1)x + 1 = 0\\), bạn Bình định tính biệt thức \\(\\Delta\\) nhưng nhận thấy các số chứa căn thức sẽ làm phép tính \\(\\Delta\\) cồng kềnh. Đề xuất giải pháp tối ưu nhất để giúp Bình giải nhanh bài toán này là gì?",
+      "generalfeedback": "Nhận xét tổng các hệ số \\(a + b + c = \\sqrt{2} - (\\sqrt{2}+1) + 1 = 0\\), từ đó kết luận ngay hai nghiệm \\(x_1 = 1, x_2 = \\frac{1}{\\sqrt{2}} = \\frac{\\sqrt{2}}{2}\\) mà không cần tính \\(\\Delta\\).",
+      "answers": [
+        {
+          "text": "Kiểm tra tổng hệ số \\(a + b + c\\), nhận thấy \\(a + b + c = 0\\) nên kết luận ngay nghiệm \\(x_1 = 1, x_2 = \\frac{\\sqrt{2}}{2}\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Chuyển vế tự do sang vế phải rồi bình phương hai vế phương trình.",
+          "fraction": 0
+        },
+        {
+          "text": "Đặt ẩn phụ \\(t = \\sqrt{2}x\\) để mất căn thức ở hệ số bậc hai.",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua các hệ số chứa căn thức và chỉ giải phương trình với hệ số nguyên.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Khi giải bài toán tính giá trị biểu thức \\(A = x_1^2 + x_2^2\\) từ phương trình \\(x^2 - 7x + 5 = 0\\) mà không giải phương trình, giải pháp tốt nhất là sử dụng biến đổi hằng đẳng thức [[1]] rồi thay các giá trị tổng và tích nghiệm theo [[2]].",
+      "generalfeedback": "Giải pháp giải quyết bài toán tính biểu thức đối xứng của nghiệm là biến đổi về dạng tổng và tích nghiệm \\(A = (x_1+x_2)^2 - 2x_1 x_2\\) rồi áp dụng định lí Viète.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "(x1 + x2)^2 - 2x1*x2"
+        },
+        {
+          "group": 1,
+          "text": "định lí Viète"
+        },
+        {
+          "group": 1,
+          "text": "(x1 - x2)^2 + 2x1*x2"
+        },
+        {
+          "group": 1,
+          "text": "biệt thức Delta"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_03_04",
+      "questiontext": "Trong bài toán tìm hai số khi biết tổng \\(S = 15\\) và tích \\(P = 56\\), kiến thức toán học tương thích nào được sử dụng để chuyển bài toán về việc giải phương trình bậc hai?",
+      "generalfeedback": "Theo kiến thức về ứng dụng định lí Viète, nếu hai số có tổng là \\(S\\) và tích là \\(P\\) (với \\(S^2 - 4P \\ge 0\\)) thì hai số đó là hai nghiệm của phương trình \\(t^2 - St + P = 0\\).",
+      "answers": [
+        {
+          "text": "Mối liên hệ nghịch đảo của định lí Viète: hai số có tổng \\(S\\) và tích \\(P\\) là nghiệm của phương trình \\(t^2 - St + P = 0\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Định lý Pythagore trong tam giác vuông.",
+          "fraction": 0
+        },
+        {
+          "text": "Công thức tính diện tích tam giác theo chiều cao và đáy.",
+          "fraction": 0
+        },
+        {
+          "text": "Bất đẳng thức Cauchy cho hai số không âm.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_03_04",
+      "questiontext": "Ghép các bài toán thực tế sau với mô hình kiến thức toán học tương thích dùng để giải quyết:",
+      "generalfeedback": "Mỗi bài toán thực tế được mô hình hóa bằng kiến thức toán học tương thích về phương trình bậc hai và định lí Viète.",
+      "subquestions": [
+        {
+          "question": "Tìm khối lượng riêng hai miếng kim loại khi biết chênh lệch thể tích và chênh lệch khối lượng riêng",
+          "answer": "Lập phương trình bậc hai chứa ẩn x ở mẫu thức"
+        },
+        {
+          "question": "Tính kích thước cạnh đáy hộp chữ nhật không nắp từ diện tích toàn phần cho trước",
+          "answer": "Lập phương trình bậc hai dạng x^2 + bx + c = 0"
+        },
+        {
+          "question": "Tìm số lượng sản phẩm bán được để đạt doanh thu mục tiêu R(x)",
+          "answer": "Giải phương trình bậc hai x*(a - bx) = R"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Để tính giá trị biểu thức \\(B = (x_1 - x_2)^2\\) từ phương trình \\(x^2 - 5x + 3 = 0\\) không qua việc giải tìm nghiệm cụ thể, kĩ năng biến đổi toán học nào sau đây là tương thích và chính xác?",
+      "generalfeedback": "Sử dụng kĩ năng biến đổi đại số \\((x_1 - x_2)^2 = (x_1 + x_2)^2 - 4x_1 x_2\\), sau đó thế \\(x_1 + x_2 = 5\\) và \\(x_1 x_2 = 3\\) thu được \\(5^2 - 4 \\cdot 3 = 13\\).",
+      "answers": [
+        {
+          "text": "Biến đổi \\((x_1 - x_2)^2 = (x_1 + x_2)^2 - 4x_1 x_2\\) rồi thế giá trị tổng và tích nghiệm.",
+          "fraction": 100
+        },
+        {
+          "text": "Biến đổi \\((x_1 - x_2)^2 = x_1^2 - x_2^2\\) rồi dùng hằng đẳng thức hiệu hai bình phương.",
+          "fraction": 0
+        },
+        {
+          "text": "Tính trực tiếp \\(x_1 - x_2 = \\frac{-b}{a}\\) theo công thức Viète.",
+          "fraction": 0
+        },
+        {
+          "text": "Biến đổi \\((x_1 - x_2)^2 = (x_1 + x_2)^2 + 2x_1 x_2\\) rồi thế giá trị.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Sử dụng kĩ năng toán học lập phương trình: Với bài toán miếng kim loại có phương trình \\(\\frac{600}{x} - \\frac{640}{x+5} = 120\\), thao tác khử mẫu nhân cả hai vế với [[1]] đưa về phương trình bậc hai thu gọn là [[2]].",
+      "generalfeedback": "Nhân cả hai vế với Mẫu thức chung \\(x(x+5)\\) ta có \\(600(x+5) - 640x = 120x(x+5)\\) thu gọn được \\(3x^2 + 16x - 75 = 0\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "x(x + 5)"
+        },
+        {
+          "group": 1,
+          "text": "3x^2 + 16x - 75 = 0"
+        },
+        {
+          "group": 1,
+          "text": "x + 5"
+        },
+        {
+          "group": 1,
+          "text": "3x^2 - 16x + 75 = 0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,709 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 27,
+    "metadata_used": {
+      "Thuật toán đặt tính chia hai đa thức một biến đã sắp xếp (trường hợp chia hết)": 5,
+      "YCCD_TOAN7_056": 7,
+      "Thực hiện thuật toán chia đa thức cho đa thức trường hợp chia hết": 6,
+      "YCCD_TOAN7_057": 2,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_TUCHUTUHOC": 1,
+      "NLC_GIAOTIEP": 1,
+      "NLT_TOAN_C2_01": 2,
+      "NLT_TOAN_C2_03": 1
+    },
+    "types_used": {
+      "multichoice": 14,
+      "truefalse": 2,
+      "numerical": 2,
+      "matching": 2,
+      "gapselect": 3,
+      "calculatedsimple": 2,
+      "ddwtos": 2
+    },
+    "total": 27
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "Thuật toán đặt tính chia hai đa thức một biến đã sắp xếp (trường hợp chia hết)",
+        "reason": "Thuật toán đặt tính chia hai đa thức một biến đã sắp xếp (trường hợp chia hết)"
+      },
+      {
+        "metadata_code": "Thực hiện thuật toán chia đa thức cho đa thức trường hợp chia hết",
+        "reason": "Thực hiện thuật toán chia đa thức cho đa thức trường hợp chia hết"
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_056",
+        "reason": "Thực hiện được phép chia trong tập hợp các đa thức một biến."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_057",
+        "reason": "Vận dụng được những tính chất của các phép tính đa thức một biến trong tính toán."
+      },
+      {
+        "metadata_code": "PC_CHAMCHI",
+        "reason": "Phẩm chất chăm chỉ trong việc kiên trì thực hiện và kiểm tra bài toán chia đa thức."
+      },
+      {
+        "metadata_code": "PC_TRUNGTHUC",
+        "reason": "Phẩm chất trung thực trong việc tự làm bài và kiểm tra kết quả."
+      },
+      {
+        "metadata_code": "NLC_TUCHUTUHOC",
+        "reason": "Năng lực tự chủ và tự học trong việc tự lập kế hoạch và đối chiếu kết quả."
+      },
+      {
+        "metadata_code": "NLC_GIAOTIEP",
+        "reason": "Năng lực giao tiếp và hợp tác trong thảo luận nhóm giải bài toán tình huống."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01",
+        "reason": "Năng lực tư duy và lập luận toán học trong chứng minh tính chất chia hết và thao tác đặt tính."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03",
+        "reason": "Năng lực giải quyết vấn đề toán học trong bài toán thực tế diện tích và chiều dài."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học thuộc lĩnh vực Đại số thuần túy (thuật toán chia đa thức đặt tính trên giấy), không có ngữ cảnh sử dụng phần mềm hay công cụ kỹ thuật số."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học không có dữ kiện liên quan tự nhiên đến các mô hình hay ứng dụng Trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Thuật toán đặt tính chia hai đa thức một biến đã sắp xếp (trường hợp chia hết)",
+      "questiontext": "Khi đặt tính chia đa thức \\(A = 2x^4 - 13x^3 + 15x^2 + 11x - 3\\) cho đa thức \\(B = x^2 - 4x - 3\\), ở Bước 1 ta thực hiện phép chia nào giữa hai hạng tử bậc cao nhất?",
+      "generalfeedback": "Theo SGK, Bước 1 trong thuật toán đặt tính chia là lấy hạng tử bậc cao nhất của \\(A\\) chia cho hạng tử bậc cao nhất của \\(B\\), tức là lấy \\(2x^4\\) chia cho \\(x^2\\).",
+      "answers": [
+        {
+          "text": "\\(2x^4 : x^2 = 2x^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\((-13x^3) : x^2 = -13x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(15x^2 : x^2 = 15\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((-3) : (-3) = 1\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Thuật toán đặt tính chia hai đa thức một biến đã sắp xếp (trường hợp chia hết)",
+      "questiontext": "Trong thuật toán chia hai đa thức một biến đã sắp xếp (trường hợp chia hết), quá trình chia dừng lại khi dư cuối cùng bằng 0.",
+      "generalfeedback": "Đúng. SGK nêu rõ: Dư cuối cùng bằng 0 nên quá trình chia kết thúc và ta thu được phép chia hết.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_056",
+      "questiontext": "Kết quả của phép chia đa thức cho đơn thức \\((-6x^5 + 7x^4 - 6x^3) : (3x^3)\\) là:",
+      "generalfeedback": "Chia từng hạng tử của đa thức cho đơn thức \\(3x^3\\):\n\\((-6x^5 : 3x^3) + (7x^4 : 3x^3) + (-6x^3 : 3x^3) = -2x^2 + \\frac{7}{3}x - 2\\).",
+      "answers": [
+        {
+          "text": "\\(-2x^2 + \\frac{7}{3}x - 2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(-2x^2 + 7x - 2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-2x^2 + \\frac{7}{3}x + 2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2x^2 - \\frac{7}{3}x - 2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện thuật toán chia đa thức cho đa thức trường hợp chia hết",
+      "questiontext": "Kết quả của phép chia đơn thức \\(8x^5 : 4x^3\\) dưới dạng đơn thức thu gọn là:",
+      "generalfeedback": "Ta có \\(8x^5 : 4x^3 = (8 : 4) \\cdot (x^5 : x^3) = 2x^2\\).",
+      "answers": [
+        {
+          "text": "\\(2x^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(2x^8\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(4x^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2x^{15}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện thuật toán chia đa thức cho đa thức trường hợp chia hết",
+      "questiontext": "Tính hệ số của thương trong phép chia \\(120x^7 : (-24x^5)\\) (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị):",
+      "generalfeedback": "Ta có \\(120x^7 : (-24x^5) = [120 : (-24)] \\cdot (x^7 : x^5) = -5x^2\\). Hệ số của thương là -5.",
+      "answers": [
+        {
+          "text": "-5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_056",
+      "questiontext": "Ghép mỗi phép chia đa thức một biến ở cột bên trái với kết quả thương tương ứng ở cột bên phải:",
+      "generalfeedback": "Thực hiện các phép chia theo quy tắc chia đa thức cho đơn thức hoặc đa thức:\n1) \\(8x^5 : 4x^3 = 2x^2\\)\n2) \\((-5x^3 + 15x^2) : (-5x) = x^2 - 3x\\)\n3) \\((9x^2 - 4) : (3x + 2) = 3x - 2\\)",
+      "subquestions": [
+        {
+          "question": "\\(8x^5 : 4x^3\\)",
+          "answer": "\\(2x^2\\)"
+        },
+        {
+          "question": "\\((-5x^3 + 15x^2) : (-5x)\\)",
+          "answer": "\\(x^2 - 3x\\)"
+        },
+        {
+          "question": "\\((9x^2 - 4) : (3x + 2)\\)",
+          "answer": "\\(3x - 2\\)"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Thuật toán đặt tính chia hai đa thức một biến đã sắp xếp (trường hợp chia hết)",
+      "questiontext": "Khi đặt tính chia hai đa thức một biến đã sắp xếp, ở mỗi bước ta lấy hạng tử [[1]] của đa thức bị chia (hoặc dư) chia cho hạng tử [[2]] của đa thức chia.",
+      "generalfeedback": "Theo thuật toán đặt tính chia hai đa thức một biến đã sắp xếp, ở mỗi bước ta đều lấy hạng tử bậc cao nhất của đa thức bị chia (hoặc dư) chia cho hạng tử bậc cao nhất của đa thức chia.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "bậc cao nhất"
+        },
+        {
+          "group": 1,
+          "text": "bậc thấp nhất"
+        },
+        {
+          "group": 1,
+          "text": "tự do"
+        },
+        {
+          "group": 1,
+          "text": "bất kỳ"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_057",
+      "questiontext": "Cho đa thức bị chia \\(A = 2x^4 - 13x^3 + 15x^2 + 11x - 3\\) và đa thức chia \\(B = x^2 - 4x - 3\\). Biết phép chia \\(A\\) cho \\(B\\) là phép chia hết có thương là \\(Q = 2x^2 - 5x + 1\\). Biểu diễn tính chất của phép chia hết giữa \\(A, B, Q\\) là:",
+      "generalfeedback": "Vì là phép chia hết nên \\(A : B = Q \\Leftrightarrow A = B \\cdot Q\\), tức là \\(2x^4 - 13x^3 + 15x^2 + 11x - 3 = (x^2 - 4x - 3)(2x^2 - 5x + 1)\\).",
+      "answers": [
+        {
+          "text": "\\(A = B \\cdot (2x^2 - 5x + 1)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(A = B + (2x^2 - 5x + 1)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(B = A \\cdot (2x^2 - 5x + 1)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(A = B \\cdot (2x^2 - 5x + 1) + 1\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện thuật toán chia đa thức cho đa thức trường hợp chia hết",
+      "questiontext": "Thực hiện phép chia đơn thức {a}x^5 cho đơn thức 2x^2. Tính kết quả của phép chia hệ số {a} cho 2 (Chỉ điền số):",
+      "generalfeedback": "Phép chia đơn thức \\({a}x^5 : 2x^2 = ({a} : 2)x^3\\). Kết quả phép chia hệ số là \\({a} / 2\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 20.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}/2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_056",
+      "questiontext": "Khi thực hiện phép chia đa thức \\((-5x^3 + 15x^2 + 18x) : (-5x)\\), chia từng hạng tử cho \\(-5x\\) ta được thương là [[1]] + [[2]] - 3.6.",
+      "generalfeedback": "Ta chia từng hạng tử: \\((-5x^3) : (-5x) = x^2\\), \\(15x^2 : (-5x) = -3x\\), \\(18x : (-5x) = -3.6\\). Do đó thương là \\(x^2 - 3x - 3.6\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "x^2"
+        },
+        {
+          "group": 1,
+          "text": "-3x"
+        },
+        {
+          "group": 1,
+          "text": "3x"
+        },
+        {
+          "group": 1,
+          "text": "-x^2"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_056",
+      "questiontext": "Ghép mỗi phép chia đa thức cho đơn thức với thương tương ứng:",
+      "generalfeedback": "Áp dụng quy tắc chia từng hạng tử của đa thức cho đơn thức:\n1) \\((-2x^5 - 4x^3 + 3x^2) : (2x^2) = -x^3 - 2x + 1.5\\)\n2) \\((12x^4 - 6x^3 + 3x^2) : (3x^2) = 4x^2 - 2x + 1\\)\n3) \\((-10x^3 + 15x^2) : (-5x) = 2x^2 - 3x\\)",
+      "subquestions": [
+        {
+          "question": "\\((-2x^5 - 4x^3 + 3x^2) : (2x^2)\\)",
+          "answer": "\\(-x^3 - 2x + 1.5\\)"
+        },
+        {
+          "question": "\\((12x^4 - 6x^3 + 3x^2) : (3x^2)\\)",
+          "answer": "\\(4x^2 - 2x + 1\\)"
+        },
+        {
+          "question": "\\((-10x^3 + 15x^2) : (-5x)\\)",
+          "answer": "\\(2x^2 - 3x\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện thuật toán chia đa thức cho đa thức trường hợp chia hết",
+      "questiontext": "Thực hiện phép chia đặt tính \\((6x^3 - 2x^2 - 9x + 3) : (3x - 1)\\). Thương thu được là:",
+      "generalfeedback": "Lấy \\(6x^3 : 3x = 2x^2\\). Nhân lại: \\(2x^2(3x-1) = 6x^3 - 2x^2\\). Trừ đi được 0, hạ \\(-9x + 3\\). Lấy \\((-9x) : 3x = -3\\). Nhân lại \\(-3(3x-1) = -9x + 3\\). Trừ hết dư 0. Thương là \\(2x^2 - 3\\).",
+      "answers": [
+        {
+          "text": "\\(2x^2 - 3\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(2x^2 + 3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2x^2 - x - 3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(3x^2 - 2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện thuật toán chia đa thức cho đa thức trường hợp chia hết",
+      "questiontext": "Thực hiện phép chia đặt tính \\((4x^4 + 14x^3 - 21x - 9) : (2x^2 - 3)\\). Thương thu được là:",
+      "generalfeedback": "Lấy \\(4x^4 : 2x^2 = 2x^2\\). Trừ tích được dư thứ nhất \\(14x^3 + 6x^2 - 21x - 9\\). Lấy \\(14x^3 : 2x^2 = 7x\\). Trừ tích được dư thứ hai \\(6x^2 - 9\\). Lấy \\(6x^2 : 2x^2 = 3\\). Trừ hết dư 0. Thương là \\(2x^2 + 7x + 3\\).",
+      "answers": [
+        {
+          "text": "\\(2x^2 + 7x + 3\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(2x^2 - 7x + 3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2x^2 + 7x - 3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(4x^2 + 7x + 3\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_056",
+      "questiontext": "Thực hiện phép chia đơn thức -12x^6 cho {b}x^2. Tính kết quả phép chia hệ số -12 cho {b} (Chỉ điền số):",
+      "wildcards": [
+        {
+          "name": "b",
+          "min": 2.0,
+          "max": 6.0,
+          "decimals": 0
+        }
+      ],
+      "generalfeedback": "Phép chia hệ số là \\(-12 / {b}\\). Kết quả hệ số thương là \\(-12 / {b}\\).",
+      "answers": [
+        {
+          "text": "-12/{b}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_056",
+      "questiontext": "Kết quả của phép chia đơn thức \\((-3.72x^4) : (-4x^2)\\) dưới dạng đơn thức thu gọn là:",
+      "generalfeedback": "Ta có \\((-3.72 : (-4)) \\cdot (x^4 : x^2) = 0.93x^2\\).",
+      "answers": [
+        {
+          "text": "\\(0.93x^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(0.93x^6\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-0.93x^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(0.93x\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Thuật toán đặt tính chia hai đa thức một biến đã sắp xếp (trường hợp chia hết)",
+      "questiontext": "Khi chia đa thức đã sắp xếp \\(A\\) cho đa thức đã sắp xếp \\(B\\) (khác 0), ở mỗi bước ta lấy hạng tử bậc cao nhất của dư chia cho hạng tử bậc thấp nhất của \\(B\\).",
+      "generalfeedback": "Sai. Theo thuật toán đặt tính chia, ở mỗi bước ta lấy hạng tử bậc cao nhất của dư chia cho hạng tử BẬC CAO NHẤT của \\(B\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_056",
+      "questiontext": "Cho phép chia \\((9x^2 - 4) : (3x + 2)\\). Ta có thể viết \\(9x^2 - 4 = (3x - 2)(3x + 2)\\), nên kết quả của phép chia là [[1]]. Khi chia \\((-6x^5 + 7x^4) : (3x^3)\\), thương thu được là [[2]].",
+      "generalfeedback": "1) \\((9x^2 - 4) : (3x + 2) = 3x - 2\\).\n2) \\((-6x^5 + 7x^4) : (3x^3) = -2x^2 + \\frac{7}{3}x\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "3x - 2"
+        },
+        {
+          "group": 1,
+          "text": "-2x^2 + (7/3)x"
+        },
+        {
+          "group": 1,
+          "text": "3x + 2"
+        },
+        {
+          "group": 1,
+          "text": "-2x^2 - 7x"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Thuật toán đặt tính chia hai đa thức một biến đã sắp xếp (trường hợp chia hết)",
+      "questiontext": "Trong phép chia đa thức, nếu dư cuối cùng bằng 0 thì ta có phép chia [[1]]. Khi đó đa thức bị chia bằng tích của đa thức chia và [[2]].",
+      "generalfeedback": "SGK quy định: Dư cuối cùng bằng 0 nên ta có phép chia hết. Khi đó \\(A = B \\cdot Q\\), trong đó \\(Q\\) là đa thức thương.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "hết"
+        },
+        {
+          "group": 1,
+          "text": "đa thức thương"
+        },
+        {
+          "group": 1,
+          "text": "có dư"
+        },
+        {
+          "group": 1,
+          "text": "dư cuối cùng"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện thuật toán chia đa thức cho đa thức trường hợp chia hết",
+      "questiontext": "Tính giá trị của thương trong phép chia \\((0.5x^5 + 3.2x^3 - 2x^2) : (0.25x^2)\\) tại \\(x = 1\\) (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị):",
+      "generalfeedback": "Thực hiện phép chia: \\((0.5x^5 : 0.25x^2) + (3.2x^3 : 0.25x^2) + (-2x^2 : 0.25x^2) = 2x^3 + 12.8x - 8\\). Thay \\(x = 1\\): \\(2(1)^3 + 12.8(1) - 8 = 2 + 12.8 - 8 = 6.8\\).",
+      "answers": [
+        {
+          "text": "6.8",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_057",
+      "questiontext": "Biết rằng đa thức \\(A = 6x^3 - 2x^2 - 9x + 3\\) chia hết cho đa thức \\(B = 3x - 1\\) được thương \\(Q = 2x^2 - 3\\). Khẳng định nào sau đây là ĐÚNG?",
+      "generalfeedback": "Vì phép chia chia hết nên \\(A = B \\cdot Q\\), hay \\(6x^3 - 2x^2 - 9x + 3 = (3x - 1)(2x^2 - 3)\\).",
+      "answers": [
+        {
+          "text": "\\(6x^3 - 2x^2 - 9x + 3 = (3x - 1)(2x^2 - 3)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(6x^3 - 2x^2 - 9x + 3 = (3x - 1) + (2x^2 - 3)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(3x - 1 = (6x^3 - 2x^2 - 9x + 3)(2x^2 - 3)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2x^2 - 3 = (3x - 1) : (6x^3 - 2x^2 - 9x + 3)\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Khi học bài 'Phép chia đa thức một biến', bạn Nam gặp một bài toán chia đặt tính khó và chưa làm ra kết quả ngay. Để thể hiện phẩm chất chăm chỉ trong học tập Toán, bạn Nam nên thực hiện hành động nào?",
+      "generalfeedback": "Phẩm chất chăm chỉ thể hiện ở sự kiên trì tự rà soát từng bước tính toán và thử lại bằng phép nhân \\(A = B \\cdot Q\\) để làm chủ kiến thức.",
+      "answers": [
+        {
+          "text": "Kiên nhẫn tự rà soát lại từng bước đặt tính chia, kiểm tra kết quả bằng cách nhân thương với đa thức chia.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài tập đó và chờ giáo viên chữa bài trên lớp.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép ngay đáp án của bạn khác để hoàn thành bài tập đúng hạn.",
+          "fraction": 0
+        },
+        {
+          "text": "Nhờ bạn khác làm hộ toàn bộ bài tập rồi chép lại.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Trong giờ kiểm tra Toán, khi thực hiện phép chia đa thức \\((6x^3 - 2x^2 - 9x + 3) : (3x - 1)\\), bạn Hoa tính ra thương là \\(2x^2 - 3\\) nhưng thấy bạn bên cạnh tính ra kết quả khác. Để thể hiện phẩm chất trung thực, bạn Hoa nên xử lý như thế nào?",
+      "generalfeedback": "Trung thực trong kiểm tra là tin tưởng vào kết quả tự làm của bản thân, tự kiểm tra lại bằng phép nhân \\(A = B \\cdot Q\\) thay vì nhìn lén hay chép bài bạn.",
+      "answers": [
+        {
+          "text": "Giữ nguyên kết quả bài làm của mình và tự kiểm tra lại bằng phép nhân \\((3x - 1)(2x^2 - 3)\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Tẩy xóa bài làm của mình để chép theo kết quả của bạn bên cạnh.",
+          "fraction": 0
+        },
+        {
+          "text": "Hỏi bạn bên cạnh cách làm để sửa lại đáp án trong giờ làm bài.",
+          "fraction": 0
+        },
+        {
+          "text": "Nhìn lén các bước giải của bạn bên cạnh để điều chỉnh bài làm.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Để tự học hiệu quả phần 'Chia đa thức cho đa thức (trường hợp chia hết)', bạn An đã lập bảng tóm tắt 5 bước đặt tính chia cho đa thức \\(A = 2x^4 - 13x^3 + 15x^2 + 11x - 3\\) chia cho \\(B = x^2 - 4x - 3\\). Hành vi nào sau đây thể hiện tốt nhất năng lực tự chủ và tự học của An trong việc tự đánh giá kết quả?",
+      "generalfeedback": "Năng lực tự chủ và tự học thể hiện ở việc học sinh chủ động kiểm tra, đối chiếu kết quả bằng cách tự nhân thương \\(Q = 2x^2 - 5x + 1\\) với đa thức chia \\(B\\).",
+      "answers": [
+        {
+          "text": "Tự thực hiện phép nhân đa thức thương \\(Q = 2x^2 - 5x + 1\\) với đa thức chia \\(B = x^2 - 4x - 3\\) để đối chiếu với đa thức bị chia \\(A\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Chờ giáo viên giao bài tập về nhà rồi mới mở lại SGK để xem.",
+          "fraction": 0
+        },
+        {
+          "text": "Hỏi bạn học cùng lớp xem dư cuối cùng có đúng bằng 0 hay không.",
+          "fraction": 0
+        },
+        {
+          "text": "Đọc thuộc lòng các bước chia trong SGK mà không thực hành lại bài tập.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_GIAOTIEP",
+      "questiontext": "Khi thảo luận nhóm giải bài toán tình huống mở đầu: 'Tìm đa thức \\(P\\) sao cho \\(A = B \\cdot P\\) với \\(A = 2x^4 - 3x^3 - 3x^2 + 6x - 2\\) và \\(B = x^2 - 2\\)', hai bạn Vuông và Tròn phân công nhiệm vụ. Bạn Vuông đặt tính chia \\(A : B\\) để tìm \\(P\\), bạn Tròn sẽ [[1]] kết quả bằng phép nhân \\(B \\cdot P\\). Sau đó cả hai cùng [[2]] để thống nhất cách trình bày bài giải trước lớp.",
+      "generalfeedback": "Năng lực giao tiếp và hợp tác thể hiện qua việc phân công nhiệm vụ phù hợp và cùng lắng nghe, thảo luận để hoàn thành sản phẩm nhóm.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "thử lại"
+        },
+        {
+          "group": 1,
+          "text": "trao đổi và thảo luận"
+        },
+        {
+          "group": 1,
+          "text": "bỏ qua"
+        },
+        {
+          "group": 1,
+          "text": "tranh cãi"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Cho đa thức bị chia \\(A = 4x^4 + 14x^3 - 21x - 9\\) và đa thức chia \\(B = 2x^2 - 3\\). Bạn Bình khẳng định thương của phép chia là \\(Q = 2x^2 + 7x + 3\\) và đây là phép chia hết. Lập luận nào sau đây chứng minh khẳng định của Bình là ĐÚNG?",
+      "generalfeedback": "Để lập luận chứng minh phép chia \\(A : B = Q\\) là phép chia hết, minh chứng chặt chẽ nhất là biến đổi đại số tích \\(B \\cdot Q\\) đúng bằng đa thức bị chia \\(A\\).",
+      "answers": [
+        {
+          "text": "Thực hiện phép nhân \\(B \\cdot Q = (2x^2 - 3)(2x^2 + 7x + 3) = 4x^4 + 14x^3 - 21x - 9 = A\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Vì bậc của đa thức \\(A\\) là 4 và bậc của \\(B\\) là 2 nên thương phải có bậc \\(4 - 2 = 2\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Vì hạng tử cao nhất của \\(A\\) chia cho hạng tử cao nhất của \\(B\\) là \\(4x^4 : 2x^2 = 2x^2\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Vì hệ số tự do của \\(A\\) chia cho hệ số tự do của \\(B\\) là \\((-9) : (-3) = 3\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "questiontext": "Một mảnh đất hình chữ nhật có diện tích biểu diễn bởi đa thức \\(S(x) = 6x^3 - 2x^2 - 9x + 3\\) (với \\(x > 1\\)) và chiều rộng biểu diễn bởi đa thức \\(W(x) = 3x - 1\\). Để tìm đa thức biểu diễn chiều dài \\(L(x)\\) của mảnh đất, mô hình giải quyết vấn đề toán học nào sau đây là ĐÚNG?",
+      "generalfeedback": "Giải quyết vấn đề thực tế: Vì diện tích bằng chiều dài nhân chiều rộng \\(S(x) = L(x) \\cdot W(x)\\), nên tìm chiều dài \\(L(x)\\) chính là thực hiện phép chia đa thức \\(S(x) : W(x) = 2x^2 - 3\\).",
+      "answers": [
+        {
+          "text": "Thực hiện phép chia đa thức \\(S(x) : W(x) = (6x^3 - 2x^2 - 9x + 3) : (3x - 1)\\) để được \\(L(x) = 2x^2 - 3\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Thực hiện phép nhân đa thức \\(S(x) \\cdot W(x) = (6x^3 - 2x^2 - 9x + 3)(3x - 1)\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Thực hiện phép cộng hai đa thức \\(S(x) + W(x)\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Thực hiện phép trừ hai đa thức \\(S(x) - W(x)\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "[img:_page_2_Picture_19.jpeg] Khi giải bài tập chia đa thức \\((9x^2 - 4) : (3x + 2)\\), bạn Vuông nêu ý kiến: 'Viết đa thức bị chia là \\(9x^2 + 0x - 4\\) sẽ dễ làm hơn'. Thao tác tư duy toán học nào giải thích cho lời khuyên của Vuông?",
+      "generalfeedback": "Viết bổ sung hạng tử khuyết \\(0x\\) giúp dóng thẳng hàng các hạng tử đồng dạng khi đặt tính chia, giúp thao tác trừ đa thức chính xác và rành mạch.",
+      "imgs": [
+        "_page_2_Picture_19.jpeg"
+      ],
+      "answers": [
+        {
+          "text": "Bổ sung hạng tử bậc 1 với hệ số 0 để dóng thẳng cột các hạng tử đồng dạng khi đặt tính chia.",
+          "fraction": 100
+        },
+        {
+          "text": "Biến đổi đa thức bị chia thành đơn thức để tính toán nhanh hơn.",
+          "fraction": 0
+        },
+        {
+          "text": "Làm tăng bậc của đa thức bị chia để dễ thực hiện phép chia.",
+          "fraction": 0
+        },
+        {
+          "text": "Thay đổi giá trị của đa thức bị chia để triệt tiêu hệ số tự do.",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

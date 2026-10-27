@@ -1,0 +1,488 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 17,
+    "metadata_used": {
+      "YCCD_TOAN6_119": 1,
+      "YCCD_TOAN6_120": 1,
+      "YCCD_TOAN6_121": 2,
+      "Tổng hợp các quan hệ điểm": 1,
+      "đường thẳng": 1,
+      "đoạn thẳng": 1,
+      "tia": 1,
+      "trung điểm": 1,
+      "Vẽ hình theo mô tả bằng ngôn ngữ toán học": 1,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TUHOC_C2_04": 1,
+      "SUB_GTHT_XACDINHMD_C2_03": 1,
+      "NLT_TOAN_C2_01_02": 1,
+      "NLT_TOAN_C2_05_01": 2
+    },
+    "types_used": {
+      "multichoice": 7,
+      "truefalse": 2,
+      "shortanswer": 1,
+      "matching": 2,
+      "gapselect": 2,
+      "numerical": 1,
+      "ddwtos": 1,
+      "calculatedsimple": 1
+    },
+    "total": 17
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN6_119",
+        "reason": "Đã sinh 1 câu hỏi đánh giá Y1"
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_120",
+        "reason": "Đã sinh 1 câu hỏi đánh giá Y2"
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_121",
+        "reason": "Đã sinh 2 câu hỏi đánh giá Y3"
+      },
+      {
+        "metadata_code": "Tổng hợp các quan hệ điểm",
+        "reason": "Đã sinh 1 câu hỏi đánh giá K1"
+      },
+      {
+        "metadata_code": "đường thẳng",
+        "reason": "Đã sinh 1 câu hỏi đánh giá K2"
+      },
+      {
+        "metadata_code": "đoạn thẳng",
+        "reason": "Đã sinh 1 câu hỏi đánh giá K3"
+      },
+      {
+        "metadata_code": "tia",
+        "reason": "Đã sinh 1 câu hỏi đánh giá K4"
+      },
+      {
+        "metadata_code": "trung điểm",
+        "reason": "Đã sinh 1 câu hỏi đánh giá K5"
+      },
+      {
+        "metadata_code": "Vẽ hình theo mô tả bằng ngôn ngữ toán học",
+        "reason": "Đã sinh 1 câu hỏi đánh giá S1"
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đã sinh 2 câu hỏi đánh giá Q1"
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+        "reason": "Đã sinh 1 câu hỏi đánh giá G1"
+      },
+      {
+        "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+        "reason": "Đã sinh 1 câu hỏi đánh giá G2"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_02",
+        "reason": "Đã sinh 1 câu hỏi đánh giá D1"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_05_01",
+        "reason": "Đã sinh 2 câu hỏi đánh giá D2"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học thuộc chương trình Hình học 6 thuần túy; không có nội dung sử dụng công cụ tin học/số."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học không có bối cảnh hay dữ liệu liên quan tự nhiên đến ứng dụng hoặc nguyên lý Trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_119",
+      "questiontext": "Hình gồm điểm \\(A\\), điểm \\(B\\) và tất cả các điểm nằm giữa \\(A\\) và \\(B\\) được gọi là gì?",
+      "generalfeedback": "Theo khái niệm trong SGK, hình gồm điểm \\(A\\), điểm \\(B\\) và tất cả các điểm nằm giữa \\(A\\) và \\(B\\) được gọi là đoạn thẳng \\(AB\\) (hay đoạn thẳng \\(BA\\)).",
+      "answers": [
+        {
+          "text": "Đoạn thẳng \\(AB\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Đường thẳng \\(AB\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Tia \\(AB\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Tia \\(BA\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_120",
+      "questiontext": "Nếu điểm \\(M\\) nằm giữa hai điểm \\(A\\) và \\(B\\) sao cho \\(MA = MB\\) thì \\(M\\) được gọi là trung điểm của đoạn thẳng \\(AB\\). Đúng hay sai?",
+      "generalfeedback": "Đúng. Trung điểm của đoạn thẳng \\(AB\\) là điểm nằm giữa hai điểm \\(A, B\\) và cách đều hai điểm đó (\\(MA = MB\\)).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_121",
+      "questiontext": "Khoảng cách giữa hai điểm mút của một đoạn thẳng được gọi là gì của đoạn thẳng đó?",
+      "generalfeedback": "Độ dài đoạn thẳng là khoảng cách giữa hai điểm mút của đoạn thẳng đó.",
+      "answers": [
+        {
+          "text": "độ dài",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Tổng hợp các quan hệ điểm",
+      "imgs": [
+        "_page_0_Picture_9.jpeg"
+      ],
+      "questiontext": "Cho hình vẽ dưới đây: [img:_page_0_Picture_9.jpeg]. Điểm \\(C\\) nằm giữa hai điểm \\(A\\) và \\(B\\); \\(M\\), \\(N\\) lần lượt là trung điểm của \\(AC\\) và \\(CB\\). Hãy ghép mỗi câu ở cột trái với thông tin tương ứng ở cột phải.",
+      "generalfeedback": "Dựa vào hình vẽ: Cặp điểm nằm cùng phía đối với \\(M\\) gồm \\(B\\) và \\(C\\); điểm \\(C\\) nằm giữa hai điểm \\(A\\) và \\(B\\); tia đối của tia \\(CN\\) là tia \\(CM\\).",
+      "subquestions": [
+        {
+          "question": "Cặp điểm nằm cùng phía đối với điểm M",
+          "answer": "B và C"
+        },
+        {
+          "question": "Điểm C nằm giữa hai điểm",
+          "answer": "A và B"
+        },
+        {
+          "question": "Tia đối của tia CN",
+          "answer": "Tia CM"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "đường thẳng",
+      "questiontext": "Cho 4 điểm phân biệt \\(A, B, C, D\\) trong đó không có 3 điểm nào thẳng hàng. Có bao nhiêu đường thẳng đi qua hai trong bốn điểm đã cho?",
+      "generalfeedback": "Các đường thẳng đi qua 2 trong 4 điểm là: \\(AB, AC, AD, BC, BD, CD\\). Tổng cộng có 6 đường thẳng.",
+      "answers": [
+        {
+          "text": "6 đường thẳng",
+          "fraction": 100
+        },
+        {
+          "text": "4 đường thẳng",
+          "fraction": 0
+        },
+        {
+          "text": "8 đường thẳng",
+          "fraction": 0
+        },
+        {
+          "text": "12 đường thẳng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "đoạn thẳng",
+      "questiontext": "Cho 4 điểm phân biệt \\(A, B, C, D\\) không có 3 điểm nào thẳng hàng. Số đoạn thẳng có hai mút là hai trong bốn điểm đã cho là [[1]]. Điểm \\(C\\) là [[2]] chung của hai đoạn thẳng \\(CA\\) và \\(CB\\).",
+      "generalfeedback": "Có 6 đoạn thẳng là \\(AB, AC, AD, BC, BD, CD\\). Điểm \\(C\\) là mút chung của các đoạn thẳng \\(CA, CB, CD, CN...\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "6"
+        },
+        {
+          "group": 1,
+          "text": "mút"
+        },
+        {
+          "group": 1,
+          "text": "12"
+        },
+        {
+          "group": 1,
+          "text": "gốc"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "tia",
+      "questiontext": "Cho 4 điểm phân biệt \\(A, B, C, D\\) trong đó không có 3 điểm nào thẳng hàng. Có bao nhiêu tia có gốc là một trong bốn điểm đã cho và đi qua một trong ba điểm còn lại?",
+      "generalfeedback": "Mỗi điểm trong 4 điểm nối với 3 điểm còn lại tạo thành 3 tia. Tổng số tia là \\(4 \\times 3 = 12\\) tia.",
+      "answers": [
+        {
+          "text": "12 tia",
+          "fraction": 100
+        },
+        {
+          "text": "6 tia",
+          "fraction": 0
+        },
+        {
+          "text": "8 tia",
+          "fraction": 0
+        },
+        {
+          "text": "16 tia",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "trung điểm",
+      "questiontext": "Cho điểm \\(C\\) nằm giữa hai điểm \\(A\\) và \\(B\\). Gọi \\(M, N\\) lần lượt là trung điểm của các đoạn thẳng \\(AC, CB\\). Biết \\(AB = 6\\) cm và \\(AM = 1\\) cm. Tính độ dài đoạn thẳng \\(NB\\) theo đơn vị cm. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Vì \\(M\\) là trung điểm \\(AC\\) nên \\(AC = 2 \\cdot AM = 2\\) cm. Ta có \\(CB = AB - AC = 6 - 2 = 4\\) cm. Vì \\(N\\) là trung điểm \\(CB\\) nên \\(NB = CB : 2 = 4 : 2 = 2\\) cm.",
+      "answers": [
+        {
+          "text": "2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Vẽ hình theo mô tả bằng ngôn ngữ toán học",
+      "questiontext": "Cho ba điểm \\(A, B, C\\) cùng nằm trên đường thẳng \\(d\\) sao cho \\(B\\) nằm giữa \\(A\\) và \\(C\\). Hai điểm \\(D\\) và \\(E\\) không thuộc \\(d\\). Để ba điểm \\(D, E, G\\) thẳng hàng thì điểm \\(G\\) nằm trên đường thẳng \\(d\\) phải là [[1]] của đường thẳng \\(DE\\) và đường thẳng [[2]].",
+      "generalfeedback": "Điểm \\(G\\) là giao điểm của đường thẳng \\(DE\\) và đường thẳng \\(d\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "giao điểm"
+        },
+        {
+          "group": 1,
+          "text": "d"
+        },
+        {
+          "group": 1,
+          "text": "trung điểm"
+        },
+        {
+          "group": 1,
+          "text": "AB"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_121",
+      "questiontext": "Cho điểm \\(M\\) nằm trên tia \\(Om\\) sao cho \\(OM\\) = {a} cm. Gọi \\(N\\) là điểm trên tia đối của tia \\(Om\\) và cách \\(O\\) một khoảng bằng {b} cm. Tính độ dài đoạn thẳng \\(MN\\) theo cm.",
+      "generalfeedback": "Vì \\(M\\) thuộc tia \\(Om\\) và \\(N\\) thuộc tia đối của tia \\(Om\\) nên \\(O\\) nằm giữa \\(M\\) và \\(N\\). Do đó \\(MN = OM + ON =\\) {a} + {b} cm.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 8.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 3.0,
+          "max": 9.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}+{b}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ học Toán bài Luyện tập chung về đoạn thẳng và trung điểm, khi gặp một bài toán tính độ dài đoạn thẳng phức tạp chưa tìm ra ngay hướng giải, hành động nào sau đây thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập?",
+      "generalfeedback": "Thể hiện sự cố gắng vươn lên trong học tập là kiên nhẫn phân tích đề bài, vẽ lại hình minh họa rõ ràng và vận dụng các khái niệm đã học để tìm lời giải thay vì bỏ cuộc hoặc chép bài.",
+      "answers": [
+        {
+          "text": "Kiên nhẫn đọc kỹ đề bài, vẽ lại hình minh họa rõ ràng và kiểm tra các mối quan hệ điểm, trung điểm để tìm lời giải",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua câu hỏi khó đó để làm các câu dễ hơn và không quay lại suy nghĩ nữa",
+          "fraction": 0
+        },
+        {
+          "text": "Chép ngay đáp án của bạn bên cạnh để kịp nộp bài cho giáo viên",
+          "fraction": 0
+        },
+        {
+          "text": "Dừng làm bài và chờ cô giáo chữa bài rồi ghi lại lời giải",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Để ghi tóm tắt kiến thức bài học về 'Đoạn thẳng và Trung điểm của đoạn thẳng' vào sổ tay học tập một cách có chọn lọc và khoa học, cách trình bày nào sau đây là hiệu quả nhất?",
+      "generalfeedback": "Lưu giữ thông tin có chọn lọc bằng cách lập bảng tóm tắt hoặc sơ đồ với các từ khóa cốt lõi (khái niệm, điều kiện nằm giữa, công thức độ dài trung điểm) giúp việc ghi nhớ và tra cứu hiệu quả nhất.",
+      "answers": [
+        {
+          "text": "Ghi các từ khóa cốt lõi, định nghĩa ngắn gọn kèm công thức tính trung điểm \\(M\\) của \\(AB\\): \\(MA = MB = \\frac{AB}{2}\\) và hình vẽ minh họa",
+          "fraction": 100
+        },
+        {
+          "text": "Chép lại nguyên văn tất cả các trang sách giáo khoa vào sổ tay",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ chép các đề bài tập trong sách giáo khoa mà không ghi lý thuyết",
+          "fraction": 0
+        },
+        {
+          "text": "Ghi tùy ý các số liệu trong bài tập mà không kèm theo kí hiệu hay hình vẽ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "questiontext": "Quan sát bản đồ tuyến đường xe buýt từ trạm \\(A\\) đến trạm \\(B\\) qua trạm trung chuyển \\(M\\). Văn bản mô tả: 'Trạm \\(M\\) nằm chính giữa tuyến đường thẳng \\(AB\\) dài 12 km'. Tiếp nhận thông tin trên sơ đồ và công thức hình học, ta xác định độ dài từ trạm \\(A\\) đến trạm \\(M\\) là [[1]] km và trạm \\(M\\) đóng vai trò là [[2]] của đoạn thẳng \\(AB\\).",
+      "generalfeedback": "Vì trạm M nằm chính giữa đoạn thẳng AB dài 12 km nên độ dài AM = 12 : 2 = 6 km và M là trung điểm của đoạn thẳng AB.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "6"
+        },
+        {
+          "group": 1,
+          "text": "12"
+        },
+        {
+          "group": 1,
+          "text": "trung điểm"
+        },
+        {
+          "group": 1,
+          "text": "điểm mút"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_02",
+      "questiontext": "Cho hình vẽ gồm các điểm \\(A, M, C, N, B\\) cùng nằm trên một đường thẳng theo thứ tự đó. Khi quan sát hình vẽ để phân tích mối quan hệ giữa các điểm, khẳng định nào sau đây thể hiện sự quan sát và lập luận chính xác?",
+      "generalfeedback": "Quan sát thứ tự các điểm trên đường thẳng cho thấy điểm C nằm giữa hai điểm M và N, đồng thời nằm giữa A và B.",
+      "answers": [
+        {
+          "text": "Điểm \\(C\\) nằm giữa hai điểm \\(M\\) và \\(N\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Điểm \\(M\\) nằm giữa hai điểm \\(C\\) và \\(N\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Điểm \\(N\\) nằm giữa hai điểm \\(A\\) và \\(M\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Điểm \\(B\\) nằm giữa hai điểm \\(A\\) và \\(C\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "NLT_TOAN_C2_05_01",
+      "questiontext": "Hãy ghép tên công cụ, phương tiện học toán ở cột trái với chức năng tương ứng trong bài học hình học phẳng ở cột phải.",
+      "generalfeedback": "Thước thẳng chia khoảng dùng để đo độ dài đoạn thẳng và vẽ đoạn thẳng; Thước đo góc dùng để đo góc; Mô hình đoạn thẳng/trung điểm dùng để quan sát trực quan quan hệ giữa các điểm.",
+      "subquestions": [
+        {
+          "question": "Thước thẳng có chia khoảng (cm/mm)",
+          "answer": "Đo độ dài đoạn thẳng và xác định trung điểm"
+        },
+        {
+          "question": "Thước đo góc (thước bán nguyệt)",
+          "answer": "Đo và vẽ số đo góc"
+        },
+        {
+          "question": "Mô hình hình học phẳng",
+          "answer": "Quan sát trực quan vị trí tương đối giữa các điểm và đoạn thẳng"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "NLT_TOAN_C2_05_01",
+      "questiontext": "Để vẽ đoạn thẳng \\(AB = 5\\) cm chính xác trên giấy, công cụ học toán thích hợp nhất cần sử dụng là thước thẳng có chia vạch đơn vị. Đúng hay sai?",
+      "generalfeedback": "Đúng. Thước thẳng chia vạch đơn vị (cm, mm) là dụng cụ chuẩn để đo và vẽ chính xác độ dài đoạn thẳng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong hoạt động nhóm đo độ dài đường chạy trong sân trường và tìm vị trí cắm cờ ở chính giữa đường chạy, nhóm của bạn Nam tính ra kết quả chưa trùng khớp với nhóm khác. Bạn Nam nên có thái độ và hành vi nào để đạt kết quả học tập tốt nhất?",
+      "generalfeedback": "Thái độ tích cực, vươn lên trong học tập là cùng các bạn kiểm tra lại thao tác đo thước cuộn, rà soát lại phép tính chia đôi độ dài để tìm ra kết quả chính xác.",
+      "answers": [
+        {
+          "text": "Cùng cả nhóm bình tĩnh kiểm tra lại thao tác đo và phép tính tìm trung điểm để xác định chính xác vị trí",
+          "fraction": 100
+        },
+        {
+          "text": "Khẳng định nhóm mình luôn đúng và không cần kiểm tra lại",
+          "fraction": 0
+        },
+        {
+          "text": "Thấy tranh cãi nên bỏ về chỗ không tham gia hoạt động nhóm nữa",
+          "fraction": 0
+        },
+        {
+          "text": "Sửa lại kết quả giống hệt nhóm bạn mà không cần đo lại",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,665 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 26,
+    "metadata_used": {
+      "YCCD_TOAN7_043": 5,
+      "Mô hình toán học về đại lượng tỉ lệ trong thực tế": 4,
+      "Thu thập và tìm hiểu ứng dụng thực tế của đại lượng tỉ lệ": 4,
+      "YCCD_TOAN7_138": 2,
+      "YCCD_TOAN7_044": 3,
+      "YCCD_TOAN7_139": 2,
+      "PC_CHAMCHI": 1,
+      "PC_TRACHNHIEM": 1,
+      "NLC_GIAOTIEP": 1,
+      "NLC_GIAIQUYETVD": 1,
+      "NLT_TOAN_C2_02": 1,
+      "NLT_TOAN_C2_03": 1
+    },
+    "types_used": {
+      "multichoice": 10,
+      "calculated": 2,
+      "truefalse": 2,
+      "gapselect": 3,
+      "numerical": 2,
+      "calculatedsimple": 1,
+      "matching": 2,
+      "ddwtos": 1,
+      "shortanswer": 2,
+      "calculatedmulti": 1
+    },
+    "total": 26
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_043",
+        "reason": "Giải được một số bài toán đơn giản về đại lượng tỉ lệ thuận."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_044",
+        "reason": "Giải được một số bài toán đơn giản về đại lượng tỉ lệ nghịch."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_138",
+        "reason": "Thực hành tính toán việc tăng, giảm theo giá trị phần trăm của một mặt hàng."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_139",
+        "reason": "Làm quen với giao dịch ngân hàng."
+      },
+      {
+        "metadata_code": "Mô hình toán học về đại lượng tỉ lệ trong thực tế",
+        "reason": "Mô hình toán học về đại lượng tỉ lệ trong thực tế."
+      },
+      {
+        "metadata_code": "Thu thập và tìm hiểu ứng dụng thực tế của đại lượng tỉ lệ",
+        "reason": "Thu thập và tìm hiểu ứng dụng thực tế của đại lượng tỉ lệ."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_140",
+        "reason": "Nội dung Tiết 1 chưa đề cập đến thuế và tính thuế."
+      },
+      {
+        "metadata_code": "N",
+        "reason": "Bài học thuộc Tiết 1 làm quen với chuyển đổi đơn vị đo lường và tỉ lệ tài chính cơ bản, không có nội dung thực hành hay thao tác trên công cụ số/phần mềm tin học."
+      },
+      {
+        "metadata_code": "A",
+        "reason": "Nội dung kiến thức bài học là các phép quy đổi đơn vị và tính toán tài chính đơn giản, không liên quan tự nhiên đến các hệ thống hay ứng dụng trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_043",
+      "questiontext": "Biết 1 inch (in) bằng 2,54 cm. Đơn vị inch thuộc hệ đo lường nào và 10 inch bằng bao nhiêu xentimét (cm)?",
+      "generalfeedback": "Inch (in) là đơn vị đo chiều dài phổ biến ở Mỹ (thuộc Hệ đo lường Mỹ). Ta có: \\(10 \\text{ in} = 10 \\times 2,54 = 25,4 \\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "Hệ đo lường Mỹ, \\(25,4 \\text{ cm}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Hệ đo lường quốc tế SI, \\(25,4 \\text{ cm}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Hệ đo lường Mỹ, \\(2,54 \\text{ cm}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Hệ đo lường Anh, \\(254 \\text{ cm}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_043",
+      "questiontext": "Một vật thể có độ dài là {x} foot (ft). Biết \\(1 \\text{ ft} = 12 \\text{ in}\\) và \\(1 \\text{ in} = 2,54 \\text{ cm}\\). Hãy tính độ dài của vật thể đó theo đơn vị xentimét (cm). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Đổi từ ft sang in: \\({x} \\text{ ft} = {x} \\times 12 \\text{ in}\\). Sau đó đổi sang cm: \\({x} \\times 12 \\times 2,54 \\text{ cm}\\).",
+      "wildcards": [
+        {
+          "name": "x",
+          "min": 2.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{x}*12*2.54",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Mô hình toán học về đại lượng tỉ lệ trong thực tế",
+      "questiontext": "Trong công thức đổi đơn vị khối lượng từ pound (lb) sang kilôgam (kg): \\(m_{\\text{kg}} = 0,45359237 \\times m_{\\text{lb}}\\), khối lượng tính theo kg và khối lượng tính theo lb là hai đại lượng tỉ lệ thuận với nhau.",
+      "generalfeedback": "Công thức có dạng \\(y = a \\times x\\) với hệ số tỉ lệ \\(a = 0,45359237 > 0\\), do đó hai đại lượng này tỉ lệ thuận với nhau.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_043",
+      "questiontext": "Tượng Nữ thần Tự do ở Mỹ cao 151 ft 1 in (không kể bệ tượng). Biết \\(1 \\text{ ft} = 12 \\text{ in}\\) và \\(1 \\text{ in} = 2,54 \\text{ cm}\\). Chiều cao của tượng Nữ thần Tự do tính theo mét (làm tròn đến hàng đơn vị) là bao nhiêu?",
+      "generalfeedback": "Đổi 151 ft 1 in sang in: \\(151 \\times 12 + 1 = 1813 \\text{ in}\\). Đổi sang cm: \\(1813 \\times 2,54 = 4605,02 \\text{ cm} = 46,0502 \\text{ m}\\). Làm tròn đến hàng đơn vị ta được 46 m.",
+      "answers": [
+        {
+          "text": "46 m",
+          "fraction": 100
+        },
+        {
+          "text": "45 m",
+          "fraction": 0
+        },
+        {
+          "text": "47 m",
+          "fraction": 0
+        },
+        {
+          "text": "48 m",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Thu thập và tìm hiểu ứng dụng thực tế của đại lượng tỉ lệ",
+      "questiontext": "Trong ngành vận chuyển đường biển và đường hàng không, người ta thường dùng đơn vị [[1]] (viết tắt là nmi hoặc NM). Mối liên hệ giữa đơn vị này và đơn vị mét trong hệ SI là [[2]].",
+      "generalfeedback": "Theo SGK, trong vận chuyển đường biển hoặc hàng không, đơn vị đo là hải lí (nmi) và \\(1 \\text{ nmi} = 1 852 \\text{ m}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "hải lí"
+        },
+        {
+          "group": 1,
+          "text": "1 nmi = 1 852 m"
+        },
+        {
+          "group": 1,
+          "text": "dặm (mile)"
+        },
+        {
+          "group": 1,
+          "text": "1 nmi = 1 760 m"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_138",
+      "questiontext": "Trong đợt khuyến mại, một cửa hàng quần áo giảm giá 15% tất cả các sản phẩm. Nếu một chiếc áo phông có giá niêm yết là 300 nghìn đồng, hỏi giá của chiếc áo phông đó sau khi giảm là bao nhiêu nghìn đồng? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Số tiền được giảm là \\(300 \\times 15\\% = 45\\) nghìn đồng. Giá sau khi giảm là \\(300 - 45 = 255\\) nghìn đồng.",
+      "answers": [
+        {
+          "text": "255",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_044",
+      "questiontext": "Theo Quy tắc 72 trong tài chính, thời gian \\(t\\) (tính bằng năm) để một khoản đầu tư tăng gấp đôi với lãi suất kép cố định {r}% mỗi năm được ước tính bởi công thức \\(t = 72/r\\). Nếu lãi suất kép là {r}%/năm, khoản đầu tư đó sẽ tăng gấp đôi sau bao nhiêu năm?",
+      "generalfeedback": "Áp dụng Quy tắc 72: \\(t = \\frac{72}{r}\\) (năm).",
+      "wildcards": [
+        {
+          "name": "r",
+          "min": 3.0,
+          "max": 12.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "72/{r}",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Thu thập và tìm hiểu ứng dụng thực tế của đại lượng tỉ lệ",
+      "questiontext": "Hãy ghép mỗi đơn vị đo chiều dài trong Hệ đo lường Mỹ ở cột bên trái với mối liên hệ quy đổi tương ứng ở cột bên phải:",
+      "generalfeedback": "Theo SGK: \\(1 \\text{ ft} = 12 \\text{ in}\\), \\(1 \\text{ yd} = 3 \\text{ ft}\\), \\(1 \\text{ mi} = 1 760 \\text{ yd}\\).",
+      "subquestions": [
+        {
+          "question": "1 foot (ft)",
+          "answer": "12 in"
+        },
+        {
+          "question": "1 yard (yd)",
+          "answer": "3 ft"
+        },
+        {
+          "question": "1 mile (mi)",
+          "answer": "1 760 yd"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_139",
+      "questiontext": "Bác Hà gửi 120 triệu đồng vào ngân hàng với kì hạn 12 tháng, lãi suất 5,6%/năm. Hỏi sau một năm, bác Hà nhận được tổng cộng bao nhiêu triệu đồng cả gốc lẫn lãi?",
+      "generalfeedback": "Số tiền lãi sau 1 năm là: \\(120 \\times 5,6\\% = 6,72\\) triệu đồng. Tổng số tiền gốc lẫn lãi bác Hà nhận được là: \\(120 + 6,72 = 126,72\\) triệu đồng.",
+      "answers": [
+        {
+          "text": "126,72 triệu đồng",
+          "fraction": 100
+        },
+        {
+          "text": "125,6 triệu đồng",
+          "fraction": 0
+        },
+        {
+          "text": "126,0 triệu đồng",
+          "fraction": 0
+        },
+        {
+          "text": "127,2 triệu đồng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Mô hình toán học về đại lượng tỉ lệ trong thực tế",
+      "questiontext": "[img:_page_2_Picture_9.jpeg] Quy tắc 72 là quy tắc tính nhẩm dùng để ước tính [[1]] cần thiết để số vốn đầu tư ban đầu tăng lên [[2]] dựa vào mức lãi suất hằng năm cố định.",
+      "generalfeedback": "Theo Quy tắc 72: Quy tắc 72 là quy tắc tính nhẩm dùng để ước tính khoảng thời gian cần thiết để số vốn đầu tư ban đầu có thể tăng lên gấp đôi dựa vào mức lãi suất hằng năm cố định.",
+      "imgs": [
+        "_page_2_Picture_9.jpeg"
+      ],
+      "choices": [
+        {
+          "group": 1,
+          "text": "khoảng thời gian"
+        },
+        {
+          "group": 1,
+          "text": "gấp đôi"
+        },
+        {
+          "group": 1,
+          "text": "số tiền lãi"
+        },
+        {
+          "group": 1,
+          "text": "gấp ba"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_043",
+      "questiontext": "Dưới đây là bảng thông số khối lượng của tượng Nữ thần Tự do:\n- Khối lượng đồng: 60 000 lb\n- Khối lượng thép: 250 000 lb\nBiết 1 lb = 0,45359237 kg. Hãy tính tổng khối lượng đồng và thép theo kg với hệ số {k}. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Tổng khối lượng bằng (60 000 + 250 000) * 0.45359237 * {k}.",
+      "wildcards": [
+        {
+          "name": "k",
+          "min": 1.0,
+          "max": 5.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "310000*0.45359237*{k}",
+          "fraction": 100,
+          "tolerance": 0.1
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Mô hình toán học về đại lượng tỉ lệ trong thực tế",
+      "questiontext": "Một pound (lb) bằng bao nhiêu ounce (oz) theo Hệ đo lường truyền thống của Anh, Mỹ?",
+      "generalfeedback": "Theo SGK, mỗi pound bằng 16 ounce.",
+      "answers": [
+        {
+          "text": "16 ounce",
+          "fraction": 100
+        },
+        {
+          "text": "12 ounce",
+          "fraction": 0
+        },
+        {
+          "text": "10 ounce",
+          "fraction": 0
+        },
+        {
+          "text": "100 ounce",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Thu thập và tìm hiểu ứng dụng thực tế của đại lượng tỉ lệ",
+      "questiontext": "Đơn vị đo khối lượng truyền thống của Anh và Mỹ có tên gọi là gì? (Tối đa 4 từ)",
+      "generalfeedback": "Pound (hay còn gọi là cân Anh).",
+      "answers": [
+        {
+          "text": "Pound",
+          "fraction": 100
+        },
+        {
+          "text": "cân Anh",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_043",
+      "questiontext": "Một máy bay có sải cánh dài 197 ft 3 in. Biết 1 ft = 12 in và 1 in = 2,54 cm. Hãy đổi sải cánh máy bay sang mét và làm tròn kết quả đến hàng đơn vị. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Đổi 197 ft 3 in sang in: 197 * 12 + 3 = 2367 in. Đổi sang cm: 2367 * 2,54 = 6012,18 cm = 60,1218 m. Làm tròn đến hàng đơn vị được 60.",
+      "answers": [
+        {
+          "text": "60",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_138",
+      "questiontext": "[img:_page_2_Picture_6.jpeg] Trong đợt khuyến mại, cửa hàng giảm giá 15% tất cả sản phẩm. Công thức tính giá mới y (nghìn đồng) theo giá cũ x (nghìn đồng) của một mặt hàng là:",
+      "generalfeedback": "Giá giảm 15% nên giá mới bằng (100% - 15%) = 85% giá cũ, tức y = 0,85 * x.",
+      "imgs": [
+        "_page_2_Picture_6.jpeg"
+      ],
+      "answers": [
+        {
+          "text": "\\(y = 0,85x\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(y = 0,15x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(y = 1,15x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(y = x - 15\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_044",
+      "questiontext": "Bác Nam gửi số tiền đầu tư ban đầu với lãi suất kép {r}%/năm. Theo Quy tắc 72, thời gian t (năm) để số tiền tăng gấp đôi được tính theo biểu thức nào dưới đây?",
+      "generalfeedback": "Thời gian t = 72 / r.",
+      "wildcards": [
+        {
+          "name": "r",
+          "min": 4.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "72/{r}",
+          "fraction": 100
+        },
+        {
+          "text": "72*{r}",
+          "fraction": 0
+        },
+        {
+          "text": "{r}/72",
+          "fraction": 0
+        },
+        {
+          "text": "72+{r}",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Mô hình toán học về đại lượng tỉ lệ trong thực tế",
+      "questiontext": "Hệ đo lường quốc tế SI sử dụng các đơn vị đo khối lượng như kilôgam, yến, tạ, tấn.",
+      "generalfeedback": "Đúng, ở Việt Nam và nhiều quốc gia áp dụng Hệ đo lường quốc tế SI với các đơn vị đo khối lượng là kilôgam, yến, tạ, tấn...",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Thu thập và tìm hiểu ứng dụng thực tế của đại lượng tỉ lệ",
+      "questiontext": "Ghép các thông số đo lường với giá trị quy đổi tương ứng trong Hệ đo lường Mỹ:",
+      "generalfeedback": "1 ft = 12 in; 1 yd = 3 ft; 1 lb = 16 oz.",
+      "subquestions": [
+        {
+          "question": "1 foot (ft)",
+          "answer": "12 inches"
+        },
+        {
+          "question": "1 yard (yd)",
+          "answer": "3 feet"
+        },
+        {
+          "question": "1 pound (lb)",
+          "answer": "16 ounces"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_044",
+      "questiontext": "Một khoản đầu tư có lãi suất kép 6%/năm. Dùng Quy tắc 72, ước tính sau bao nhiêu năm thì khoản đầu tư này tăng gấp đôi? (Chỉ điền số)",
+      "generalfeedback": "Thời gian t = 72 / 6 = 12 (năm).",
+      "answers": [
+        {
+          "text": "12",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_139",
+      "questiontext": "Lãi suất kì hạn 12 tháng của ngân hàng là 5,6%/năm, nghĩa là cứ sau một năm gửi tiết kiệm, số tiền lãi nhận được bằng [[1]] giá trị số tiền gửi ban đầu. Đây là ví dụ về đại lượng [[2]] trong tài chính.",
+      "generalfeedback": "Số tiền lãi bằng 5,6% tiền gửi, là hai đại lượng tỉ lệ thuận.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "5,6%"
+        },
+        {
+          "group": 1,
+          "text": "tỉ lệ thuận"
+        },
+        {
+          "group": 1,
+          "text": "12%"
+        },
+        {
+          "group": 1,
+          "text": "tỉ lệ nghịch"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Trong giờ học Thực hành trải nghiệm về đổi đơn vị đo lường từ Hệ đo lường Mỹ sang hệ SI, các số liệu quy đổi chứa nhiều chữ số thập phân (như 1 lb = 0,45359237 kg). Bạn An kiên trì thực hiện đầy đủ các bước tính toán và kiểm tra lại kết quả thay vì bỏ dở hay chép đáp án của bạn khác. Hành vi của bạn An thể hiện phẩm chất nào?",
+      "generalfeedback": "Hành vi kiên trì hoàn thành bài tập, không bỏ dở hay chép bài thể hiện phẩm chất Chăm chỉ trong học tập.",
+      "answers": [
+        {
+          "text": "Chăm chỉ",
+          "fraction": 100
+        },
+        {
+          "text": "Trung thực",
+          "fraction": 0
+        },
+        {
+          "text": "Trách nhiệm",
+          "fraction": 0
+        },
+        {
+          "text": "Tuân thủ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_TRACHNHIEM",
+      "questiontext": "Khi tham gia thảo luận nhóm tính tiền gửi tiết kiệm và lãi suất theo Quy tắc 72, bạn Mai cẩn thận kiểm tra lại các phép tính lãi suất cho cả nhóm để đảm bảo báo cáo của nhóm chính xác trước khi nộp cho thầy cô. Việc làm của bạn Mai thể hiện phẩm chất nào?",
+      "generalfeedback": "Hành vi cẩn thận kiểm tra công việc chung để đảm bảo kết quả chính xác cho nhóm thể hiện phẩm chất Trách nhiệm.",
+      "answers": [
+        {
+          "text": "Trách nhiệm",
+          "fraction": 100
+        },
+        {
+          "text": "Yêu nước",
+          "fraction": 0
+        },
+        {
+          "text": "Nhân ái",
+          "fraction": 0
+        },
+        {
+          "text": "Dũng cảm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_GIAOTIEP",
+      "questiontext": "Để trình bày kết quả tìm hiểu về mối quan hệ giữa các đơn vị đo độ dài Hệ đo lường Mỹ (inch, foot, yard, mile) cho các bạn trong nhóm dễ hiểu và dễ thảo luận, cách tổ chức bảng dữ liệu nào dưới đây thể hiện tốt nhất năng lực giao tiếp và hợp tác?",
+      "generalfeedback": "Sắp xếp theo thứ tự tăng dần kèm tỷ lệ quy đổi trực tiếp giữa các đơn vị kế tiếp giúp các thành viên nhóm dễ theo dõi và trao đổi.",
+      "answers": [
+        {
+          "text": "Sắp xếp các đơn vị theo thứ tự từ nhỏ đến lớn kèm công thức quy đổi tương ứng giữa các đơn vị kế tiếp",
+          "fraction": 100
+        },
+        {
+          "text": "Liệt kê ngẫu nhiên các đơn vị không theo thứ tự và không ghi công thức quy đổi",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ ghi tên các đơn vị bằng tiếng Anh mà không giải thích ý nghĩa hay cách quy đổi",
+          "fraction": 0
+        },
+        {
+          "text": "Ghi chép các con số riêng lẻ vào nháp mà không trình bày thành bảng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_GIAIQUYETVD",
+      "questiontext": "Bạn Nam muốn ước tính nhanh xem một khoản tiền đầu tư với lãi suất kép 8%/năm sẽ tăng gấp đôi sau khoảng bao nhiêu năm mà không cần dùng máy tính cầm tay phức tạp. Giải pháp nào sau đây thể hiện năng lực giải quyết vấn đề và sáng tạo?",
+      "generalfeedback": "Áp dụng Quy tắc 72 \\(t = \\frac{72}{r}\\) giúp tính nhẩm nhanh thời gian tăng gấp đôi của khoản đầu tư.",
+      "answers": [
+        {
+          "text": "Sử dụng Quy tắc 72 trong tài chính để tính nhẩm: \\(t = \\frac{72}{8} = 9\\) năm",
+          "fraction": 100
+        },
+        {
+          "text": "Cộng liên tiếp lãi suất 8% mỗi năm thủ công cho đến khi đủ 100%",
+          "fraction": 0
+        },
+        {
+          "text": "Đoán chừng khoảng 20 năm mà không dựa trên công thức tài chính nào",
+          "fraction": 0
+        },
+        {
+          "text": "Lấy 100 chia cho 8 để tính thời gian",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_02",
+      "questiontext": "Trong đợt giảm giá [[1]]% cho một mặt hàng có giá niêm yết cũ là \\(x\\) (đồng), giá mới \\(y\\) (đồng) được biểu diễn qua mô hình toán học đại lượng tỉ lệ thuận là [[2]].",
+      "generalfeedback": "Khi giảm 15%, giá mới \\(y = (100\\% - 15\\%)x = 0,85x\\). Đây là mô hình đại lượng tỉ lệ thuận \\(y = ax\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "15"
+        },
+        {
+          "group": 1,
+          "text": "\\(y = 0,85x\\)"
+        },
+        {
+          "group": 1,
+          "text": "50"
+        },
+        {
+          "group": 1,
+          "text": "\\(y = 0,15x\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "questiontext": "Một công ty vận tải cần chuyển một lô hàng ghi trọng lượng 100 000 lb từ Mỹ về Việt Nam. Biết 1 lb = 0,45359237 kg và 1 tấn = 1 000 kg. Quy trình giải quyết bài toán toán học nào sau đây đúng để tính khối lượng lô hàng theo đơn vị tấn (làm tròn đến chữ số thập phân thứ hai)?",
+      "generalfeedback": "Khối lượng theo kg: \\(100 000 \\times 0,45359237 = 45 359,237 \\text{ kg}\\). Đổi sang tấn: \\(45 359,237 / 1 000 = 45,359237 \\approx 45,36\\) tấn.",
+      "answers": [
+        {
+          "text": "Nhân 100 000 với 0,45359237 để ra kg, sau đó chia cho 1 000 để ra 45,36 tấn",
+          "fraction": 100
+        },
+        {
+          "text": "Chia 100 000 cho 0,45359237 để ra kg, sau đó nhân với 1 000 để ra tấn",
+          "fraction": 0
+        },
+        {
+          "text": "Nhân 100 000 với 16 để ra ounce, sau đó chia cho 1 000 để ra 1 600 tấn",
+          "fraction": 0
+        },
+        {
+          "text": "Chia 100 000 cho 2,54 để ra mét, sau đó đổi sang tấn",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

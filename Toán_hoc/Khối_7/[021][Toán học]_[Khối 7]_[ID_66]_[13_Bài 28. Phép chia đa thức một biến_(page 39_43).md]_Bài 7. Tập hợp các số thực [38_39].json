@@ -1,0 +1,449 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 16,
+    "metadata_used": {
+      "YCCD_TOAN7_033": 4,
+      "YCCD_TOAN7_034": 4,
+      "Thứ tự trong R": 3,
+      "Số đối của số thực": 3,
+      "So sánh hai số thực": 3,
+      "Tìm số đối của một số thực": 3,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_TUCHUTUHOC": 1,
+      "NLC_GIAOTIEP": 1,
+      "NLT_TOAN_C2_01": 1,
+      "NLT_TOAN_C2_03": 1
+    },
+    "types_used": {
+      "multichoice": 10,
+      "truefalse": 1,
+      "gapselect": 1,
+      "matching": 1,
+      "ddwtos": 1,
+      "shortanswer": 1,
+      "numerical": 1
+    },
+    "total": 16
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_033",
+        "reason": "Đo lường khả năng nhận biết số đối của một số thực."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_034",
+        "reason": "Đo lường khả năng nhận biết thứ tự trong tập hợp các số thực."
+      },
+      {
+        "metadata_code": "Thứ tự trong R",
+        "reason": "Đo lường kiến thức về thứ tự trong tập hợp số thực R."
+      },
+      {
+        "metadata_code": "Số đối của số thực",
+        "reason": "Đo lường kiến thức về số đối của số thực."
+      },
+      {
+        "metadata_code": "So sánh hai số thực",
+        "reason": "Đo lường kỹ năng so sánh hai số thực."
+      },
+      {
+        "metadata_code": "Tìm số đối của một số thực",
+        "reason": "Đo lường kỹ năng tìm số đối của một số thực."
+      },
+      {
+        "metadata_code": "PC_CHAMCHI",
+        "reason": "Đo lường tính chăm chỉ trong giải quyết bài tập."
+      },
+      {
+        "metadata_code": "PC_TRUNGTHUC",
+        "reason": "Đo lường tính trung thực trong học tập."
+      },
+      {
+        "metadata_code": "NLC_TUCHUTUHOC",
+        "reason": "Đo lường năng lực tự học và tự chủ."
+      },
+      {
+        "metadata_code": "NLC_GIAOTIEP",
+        "reason": "Đo lường năng lực giao tiếp và hợp tác."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01",
+        "reason": "Đo lường năng lực tư duy và lập luận toán học."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03",
+        "reason": "Đo lường năng lực giải quyết vấn đề toán học."
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_033",
+      "questiontext": "Số đối của số thực \\(-\\sqrt{5}\\) là bao nhiêu?",
+      "generalfeedback": "Số đối của số thực \\(a\\) là \\(-a\\). Do đó số đối của \\(-\\sqrt{5}\\) là \\(\\sqrt{5}\\).",
+      "answers": [
+        {
+          "text": "\\(\\sqrt{5}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(-\\sqrt{5}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(5\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-5\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_033",
+      "questiontext": "Số đối của số \\(\\pi\\) là \\(-\\pi\\). Phát biểu này Đúng hay Sai?",
+      "generalfeedback": "Số đối của số thực \\(a\\) là \\(-a\\). Vì vậy số đối của \\(\\pi\\) là \\(-\\pi\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_034",
+      "questiontext": "Khẳng định nào sau đây là đúng về vị trí của hai số thực trên trục số?",
+      "generalfeedback": "Trên trục số thực, nếu \\(a < b\\) thì điểm \\(a\\) nằm bên trái điểm \\(b\\).",
+      "answers": [
+        {
+          "text": "Nếu \\(a < b\\) thì điểm \\(a\\) nằm bên trái điểm \\(b\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Nếu \\(a < b\\) thì điểm \\(a\\) nằm bên phải điểm \\(b\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Nếu \\(a > b\\) thì điểm \\(a\\) nằm bên trái điểm \\(b\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Hai số thực phân biệt luôn trùng vị trí trên trục số",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_034",
+      "questiontext": "Với hai số thực \\(a\\) và \\(b\\) bất kỳ, ta luôn có \\(a < b\\), \\(a = b\\) hoặc \\(a\\) [[1]] \\(b\\). Nếu \\(a < b\\) và \\(b < c\\) thì \\(a\\) [[2]] \\(c\\).",
+      "generalfeedback": "Thứ tự trong tập hợp các số thực có tính chất bắc cầu: nếu \\(a < b\\) và \\(b < c\\) thì \\(a < c\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": ">"
+        },
+        {
+          "group": 1,
+          "text": "<"
+        },
+        {
+          "group": 1,
+          "text": "="
+        },
+        {
+          "group": 1,
+          "text": "\\(\\ge\\)"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Thứ tự trong R",
+      "questiontext": "Hãy ghép mỗi mối quan hệ giữa hai số thực ở cột trái với vị trí tương ứng của chúng trên trục số ở cột phải.",
+      "generalfeedback": "Số nhỏ hơn nằm bên trái, số lớn hơn nằm bên phải, hai số bằng nhau trùng vị trí trên trục số.",
+      "subquestions": [
+        {
+          "question": "Số thực \\(a < b\\)",
+          "answer": "Điểm \\(a\\) nằm bên trái điểm \\(b\\)"
+        },
+        {
+          "question": "Số thực \\(a > b\\)",
+          "answer": "Điểm \\(a\\) nằm bên phải điểm \\(b\\)"
+        },
+        {
+          "question": "Số thực \\(a = b\\)",
+          "answer": "Điểm \\(a\\) trùng với điểm \\(b\\)"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Thứ tự trong R",
+      "questiontext": "Các số thực lớn hơn 0 gọi là số thực [[1]]. Các số thực nhỏ hơn 0 gọi là số thực [[2]].",
+      "generalfeedback": "Số thực lớn hơn 0 là số thực dương, nhỏ hơn 0 là số thực âm. Số 0 không là số thực dương cũng không là số thực âm.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "dương"
+        },
+        {
+          "group": 1,
+          "text": "âm"
+        },
+        {
+          "group": 1,
+          "text": "nguyên"
+        },
+        {
+          "group": 1,
+          "text": "vô tỉ"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Số đối của số thực",
+      "questiontext": "Tổng của một số thực \\(a\\) và số đối của nó bằng bao nhiêu?",
+      "generalfeedback": "Tổng của hai số đối nhau luôn bằng 0: \\(a + (-a) = 0\\).",
+      "answers": [
+        {
+          "text": "0",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "nhan_biet",
+      "metadata_code": "Số đối của số thực",
+      "questiontext": "Tìm số đối của số 0. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Số đối của 0 là 0.",
+      "answers": [
+        {
+          "text": "0",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "So sánh hai số thực",
+      "questiontext": "So sánh hai số thực \\(-\\sqrt{3}\\) và \\(-1,73\\). Khẳng định nào sau đây là đúng?",
+      "generalfeedback": "Ta có \\(\\sqrt{3} \\approx 1,73205... > 1,73\\), do đó \\(-\\sqrt{3} < -1,73\\).",
+      "answers": [
+        {
+          "text": "\\(-\\sqrt{3} < -1,73\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(-\\sqrt{3} > -1,73\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-\\sqrt{3} = -1,73\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Không so sánh được",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Tìm số đối của một số thực",
+      "questiontext": "Tìm số đối của số thực \\(x = 2 - \\sqrt{3}\\).",
+      "generalfeedback": "Số đối của \\(x = 2 - \\sqrt{3}\\) là \\(-x = -(2 - \\sqrt{3}) = -2 + \\sqrt{3} = \\sqrt{3} - 2\\).",
+      "answers": [
+        {
+          "text": "\\(\\sqrt{3} - 2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(2 + \\sqrt{3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-2 - \\sqrt{3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2 - \\sqrt{3}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Trong giờ học Toán về thứ tự trong tập hợp các số thực, bạn Nam gặp bài toán so sánh hai số thực \\(-\\sqrt{5}\\) và \\(-2,25\\). Dù thấy bài toán khó và mất thời gian tính toán giá trị xấp xỉ của \\(\\sqrt{5}\\), Nam vẫn kiên nhẫn tra cứu, tính ra \\(\\sqrt{5} \\approx 2,236\\) để suy ra \\(-\\sqrt{5} > -2,25\\) và hoàn thành bài tập. Hành động của Nam thể hiện phẩm chất nào?",
+      "generalfeedback": "Sự kiên nhẫn, nỗ lực vượt qua khó khăn để tự mình giải quyết bài tập toán học phức tạp thể hiện tính chăm chỉ trong học tập.",
+      "answers": [
+        {
+          "text": "Chăm chỉ, kiên trì tự lực hoàn thành bài tập dù gặp bài khó",
+          "fraction": 100
+        },
+        {
+          "text": "Trung thực, không nhìn bài của bạn xung quanh",
+          "fraction": 0
+        },
+        {
+          "text": "Trách nhiệm với công việc chung của lớp",
+          "fraction": 0
+        },
+        {
+          "text": "Tự tin biểu diễn kết quả trước lớp",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Khi làm bài kiểm tra 15 phút về chủ đề số đối của số thực, bạn Hoa nhận ra mình viết nhầm số đối của \\(-\\pi\\) là \\(-\\pi\\). Dù biết bạn ngồi bên cạnh chọn đáp án là \\(\\pi\\), Hoa không chép theo ngay mà tự mở lại kiến thức định nghĩa số đối trong SGK để khẳng định số đối của \\(-\\pi\\) phải là \\(\\pi\\) trước khi sửa bài của mình. Thao tác này thể hiện phẩm chất gì?",
+      "generalfeedback": "Sự trung thực trong học tập thể hiện qua việc tự mình kiểm tra kiến thức, không chép bài bạn một cách thụ động.",
+      "answers": [
+        {
+          "text": "Trung thực trong học tập và tôn trọng tri thức bản thân",
+          "fraction": 100
+        },
+        {
+          "text": "Chăm chỉ làm nhiều bài tập nâng cao",
+          "fraction": 0
+        },
+        {
+          "text": "Yêu nước và có trách nhiệm với cộng đồng",
+          "fraction": 0
+        },
+        {
+          "text": "Hợp tác hiệu quả với bạn học",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Cho danh sách các số thực chưa sắp xếp: \\(-\\sqrt{2}; 1,5; 0; -2; \\pi\\). Để tự học và hệ thống hóa kiến thức về thứ tự các số thực một cách hiệu quả, học sinh nên lập bảng phân loại danh sách trên theo cấu trúc nào?",
+      "generalfeedback": "Việc phân loại thành số thực âm, số 0 và số thực dương giúp học sinh dễ dàng so sánh và sắp xếp thứ tự các số thực một cách khoa học.",
+      "answers": [
+        {
+          "text": "Phân loại thành 3 nhóm: Số thực âm \\((-2; -\\sqrt{2})\\), số 0, và số thực dương \\((1,5; \\pi)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Phân loại thành nhóm số viết bằng dấu căn và nhóm số không có dấu căn",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ liệt kê các số theo thứ tự ngẫu nhiên không cần phân nhóm",
+          "fraction": 0
+        },
+        {
+          "text": "Gộp tất cả các số vào một nhóm số nguyên",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLC_GIAOTIEP",
+      "questiontext": "Trong thảo luận nhóm, bạn An khẳng định: \"Số \\(-\\sqrt{3}\\) nằm bên phải số \\(-1\\) trên trục số vì \\(3 > 1\\)\". Bạn Bình muốn giải thích để An hiểu rõ hơn mà vẫn giữ hòa khí nhóm. Bình nên phản hồi như thế nào?",
+      "generalfeedback": "Lời giải thích lịch sự, chỉ ra rằng \\(\\sqrt{3} \\approx 1,732 > 1\\) nên \\(-\\sqrt{3} < -1\\), do đó \\(-\\sqrt{3}\\) phải nằm bên trái số \\(-1\\) trên trục số.",
+      "answers": [
+        {
+          "text": "Lịch sự giải thích: \"Vì \\(\\sqrt{3} \\approx 1,732 > 1\\) nên \\(-\\sqrt{3} < -1\\), do đó trên trục số \\(-\\sqrt{3}\\) phải nằm bên trái \\(-1\\)\"",
+          "fraction": 100
+        },
+        {
+          "text": "Nói thẳng An làm sai rồi và không cần thảo luận thêm",
+          "fraction": 0
+        },
+        {
+          "text": "Đồng ý ngay với An để tránh tranh cãi trong nhóm",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua ý kiến của An và tự làm phần việc của mình",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Lập luận nào sau đây là ĐÚNG khi chứng minh rằng nếu \\(a < b\\) thì số đối \\(-a > -b\\) với hai số thực \\(a, b\\) bất kỳ?",
+      "generalfeedback": "Trên trục số, nếu \\(a < b\\) thì điểm \\(a\\) nằm bên trái điểm \\(b\\). Khi lấy số đối, điểm \\(-a\\) và \\(-b\\) đổi vị trí qua điểm 0, do đó điểm \\(-a\\) nằm bên phải điểm \\(-b\\), nghĩa là \\(-a > -b\\).",
+      "answers": [
+        {
+          "text": "Vì điểm \\(a\\) nằm bên trái điểm \\(b\\) trên trục số nên điểm đối \\(-a\\) nằm bên phải điểm đối \\(-b\\), suy ra \\(-a > -b\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Vì nhân hai vế với \\(-1\\) luôn giữ nguyên chiều bất đẳng thức",
+          "fraction": 0
+        },
+        {
+          "text": "Vì số đối của số thực luôn là số dương",
+          "fraction": 0
+        },
+        {
+          "text": "Vì hai số thực bất kỳ luôn bằng số đối của chúng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "questiontext": "Nhiệt độ đo được tại ba trạm nghiên cứu ở Nam Cực lần lượt là \\(t_1 = -2,5^\\circ\\text{C}\\), \\(t_2 = -\\sqrt{7}^\\circ\\text{C}\\), và \\(t_3 = -2^\\circ\\text{C}\\). Hãy sắp xếp các trạm theo thứ tự nhiệt độ từ thấp nhất đến cao nhất.",
+      "generalfeedback": "Ta có \\(\\sqrt{7} \\approx 2,646\\). So sánh các số dương: \\(2 < 2,5 < 2,646\\) suy ra \\(-2,646 < -2,5 < -2\\), tức là \\(-\\sqrt{7} < -2,5 < -2\\). Thứ tự nhiệt độ tăng dần là \\(t_2 < t_1 < t_3\\).",
+      "answers": [
+        {
+          "text": "Trạm 2 \\((t_2)\\), Trạm 1 \\((t_1)\\), Trạm 3 \\((t_3)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Trạm 3 \\((t_3)\\), Trạm 1 \\((t_1)\\), Trạm 2 \\((t_2)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Trạm 1 \\((t_1)\\), Trạm 2 \\((t_2)\\), Trạm 3 \\((t_3)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Trạm 2 \\((t_2)\\), Trạm 3 \\((t_3)\\), Trạm 1 \\((t_1)\\)",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

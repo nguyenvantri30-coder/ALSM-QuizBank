@@ -1,0 +1,661 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 26,
+    "metadata_used": {
+      "YCCD_TOAN6_023": 4,
+      "YCCD_TOAN6_025": 4,
+      "YCCD_TOAN6_028": 2,
+      "Tổng hợp quy tắc tính chia hết": 3,
+      "dấu hiệu chia hết và số nguyên tố": 3,
+      "Vận dụng tính chia hết và số nguyên tố để giải bài toán thực tế": 4,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_CHAMCHI_HAMHOC_C2_03": 1,
+      "SUB_TCTH_TUHOC_C2_01": 1,
+      "SUB_GQVD_DEXUAT_C2_01": 1,
+      "NLT_TOAN_C2_01_05": 1,
+      "NLT_TOAN_C2_03_04": 1
+    },
+    "types_used": {
+      "multichoice": 12,
+      "truefalse": 2,
+      "shortanswer": 2,
+      "matching": 3,
+      "gapselect": 2,
+      "numerical": 2,
+      "ddwtos": 2,
+      "calculatedsimple": 1
+    },
+    "total": 26
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN6_023",
+        "reason": "Nhận biết được quan hệ chia hết trong tập hợp số tự nhiên."
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_025",
+        "reason": "Vận dụng dấu hiệu chia hết cho 2, 5, 9, 3 để xác định tính chia hết."
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_028",
+        "reason": "Phân tích một số tự nhiên lớn hơn 1 thành tích các thừa số nguyên tố."
+      },
+      {
+        "metadata_code": "Tổng hợp quy tắc tính chia hết",
+        "reason": "Tổng hợp quy tắc tính chia hết của một tổng/hiệu và ứng dụng."
+      },
+      {
+        "metadata_code": "dấu hiệu chia hết và số nguyên tố",
+        "reason": "Nắm vững dấu hiệu chia hết và định nghĩa, tính chất số nguyên tố."
+      },
+      {
+        "metadata_code": "Vận dụng tính chia hết và số nguyên tố để giải bài toán thực tế",
+        "reason": "Vận dụng tính chia hết và số nguyên tố để giải bài toán thực tế."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Thái độ kiên trì vươn lên giải quyết bài toán phân tích số ra thừa số nguyên tố."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_03",
+        "reason": "Ý thức vận dụng kiến thức chia hết/ước số vào thực tế chia nhóm dự án."
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+        "reason": "Tự đặt mục tiêu học tập và rèn luyện kiến thức chia hết, số nguyên tố."
+      },
+      {
+        "metadata_code": "SUB_GQVD_DEXUAT_C2_01",
+        "reason": "Xác định đúng cách thức/nguồn thông tin để tìm hiểu tính chia hết."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_05",
+        "reason": "Lập luận hợp lý khi giải thích tính chia hết của một tổng."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_04",
+        "reason": "Sử dụng kiến thức tìm tập hợp ước làm công cụ toán học giải quyết bài toán."
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_023",
+      "questiontext": "Cho tập hợp các ước của 36 là \\(\\text{Ư}(36) = \\{1; 2; 3; 4; 6; 9; 12; 18; 36\\}\\). Số nào sau đây **không** phải là ước của 36?",
+      "generalfeedback": "Số 8 không thuộc tập hợp \\(\\text{Ư}(36)\\) vì 36 không chia hết cho 8.",
+      "answers": [
+        {
+          "text": "8",
+          "fraction": 100
+        },
+        {
+          "text": "6",
+          "fraction": 0
+        },
+        {
+          "text": "9",
+          "fraction": 0
+        },
+        {
+          "text": "12",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_023",
+      "questiontext": "Số 1 872 chia hết cho 5.",
+      "generalfeedback": "Sai. Dấu hiệu chia hết cho 5 là chữ số tận cùng bằng 0 hoặc 5. Chữ số tận cùng của 1 872 là 2 nên không chia hết cho 5.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_025",
+      "questiontext": "Số 1 872 chia hết cho những số nào trong các số: 2; 3; 5; 9; 10?",
+      "generalfeedback": "Số 1 872 có chữ số tận cùng là 2 (chẵn) nên chia hết cho 2. Tổng các chữ số là \\(1 + 8 + 7 + 2 = 18\\) chia hết cho 3 và 9 nên chia hết cho 3 và 9. Tận cùng khác 0 và 5 nên không chia hết cho 5 và 10.",
+      "answers": [
+        {
+          "text": "2; 3; 9",
+          "fraction": 100
+        },
+        {
+          "text": "2; 3; 5",
+          "fraction": 0
+        },
+        {
+          "text": "3; 5; 9",
+          "fraction": 0
+        },
+        {
+          "text": "2; 5; 10",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_028",
+      "imgs": [
+        "_page_0_Figure_13.jpeg"
+      ],
+      "questiontext": "Dựa vào sơ đồ cây sau đây [img:_page_0_Figure_13.jpeg], kết quả phân tích số 140 ra thừa số nguyên tố là:",
+      "generalfeedback": "Phân tích số 140 ra thừa số nguyên tố ta được \\(140 = 2^2 \\cdot 5 \\cdot 7\\).",
+      "answers": [
+        {
+          "text": "\\(140 = 2^2 \\cdot 5 \\cdot 7\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(140 = 2 \\cdot 5 \\cdot 7\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(140 = 2^2 \\cdot 35\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(140 = 4 \\cdot 5 \\cdot 7\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Tổng hợp quy tắc tính chia hết",
+      "questiontext": "Tổng các chữ số của số 1 872 bằng bao nhiêu?",
+      "generalfeedback": "Tổng các chữ số của số 1 872 là \\(1 + 8 + 7 + 2 = 18\\).",
+      "answers": [
+        {
+          "text": "18",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "dấu hiệu chia hết và số nguyên tố",
+      "questiontext": "Hãy ghép mỗi biểu thức phân tích ra thừa số nguyên tố ở cột trái với kết quả đúng ở cột phải:",
+      "generalfeedback": "Ta có: \\(A = 4^2 \\cdot 6^3 = (2^2)^2 \\cdot (2 \\cdot 3)^3 = 2^7 \\cdot 3^3\\); \\(B = 9^2 \\cdot 15^2 = (3^2)^2 \\cdot (3 \\cdot 5)^2 = 3^6 \\cdot 5^2\\); \\(140 = 2^2 \\cdot 5 \\cdot 7\\).",
+      "subquestions": [
+        {
+          "question": "Biểu thức \\(A = 4^2 \\cdot 6^3\\)",
+          "answer": "\\(2^7 \\cdot 3^3\\)"
+        },
+        {
+          "question": "Biểu thức \\(B = 9^2 \\cdot 15^2\\)",
+          "answer": "\\(3^6 \\cdot 5^2\\)"
+        },
+        {
+          "question": "Số 140",
+          "answer": "\\(2^2 \\cdot 5 \\cdot 7\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng tính chia hết và số nguyên tố để giải bài toán thực tế",
+      "questiontext": "Đội văn nghệ có 36 bạn, được xếp thành các hàng có số người bằng nhau. Biết mỗi hàng có từ 3 đến 12 bạn. Hỏi có bao nhiêu cách xếp hàng thỏa mãn yêu cầu đề bài?",
+      "generalfeedback": "Số bạn trong mỗi hàng là ước của 36 và nằm trong khoảng từ 3 đến 12. Ta có các giá trị thỏa mãn: 3, 4, 6, 9, 12. Tương ứng có 5 cách xếp hàng.",
+      "answers": [
+        {
+          "text": "5 cách",
+          "fraction": 100
+        },
+        {
+          "text": "4 cách",
+          "fraction": 0
+        },
+        {
+          "text": "6 cách",
+          "fraction": 0
+        },
+        {
+          "text": "9 cách",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_025",
+      "questiontext": "Từ các chữ số 5; 0; 1; 3, các số tự nhiên có ba chữ số khác nhau chia hết cho 5 có chữ số tận cùng là [[1]] hoặc [[2]].",
+      "generalfeedback": "Một số chia hết cho 5 khi và chỉ khi chữ số tận cùng của nó là 0 hoặc 5.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "0"
+        },
+        {
+          "group": 1,
+          "text": "5"
+        },
+        {
+          "group": 1,
+          "text": "1"
+        },
+        {
+          "group": 1,
+          "text": "3"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng tính chia hết và số nguyên tố để giải bài toán thực tế",
+      "questiontext": "Lớp 6B có 40 học sinh. Cô giáo muốn chia lớp thành các nhóm có số người như nhau, mỗi nhóm nhiều hơn 3 người. Hỏi có bao nhiêu cách chia nhóm thỏa mãn? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Số học sinh mỗi nhóm phải là ước của 40 và lớn hơn 3. Các ước của 40 lớn hơn 3 là: 4, 5, 8, 10, 20, 40. Có tất cả 6 giá trị thỏa mãn, tức là có 6 cách chia nhóm.",
+      "answers": [
+        {
+          "text": "6",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "dấu hiệu chia hết và số nguyên tố",
+      "questiontext": "Hai số nguyên tố được gọi là [[1]] nếu chúng hơn kém nhau [[2]] đơn vị.",
+      "generalfeedback": "Theo định nghĩa SGK, hai số nguyên tố được gọi là sinh đôi nếu chúng hơn kém nhau 2 đơn vị.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "sinh đôi"
+        },
+        {
+          "group": 1,
+          "text": "2"
+        },
+        {
+          "group": 1,
+          "text": "nguyên tố cùng nhau"
+        },
+        {
+          "group": 1,
+          "text": "1"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_023",
+      "questiontext": "Cho biểu thức \\(18 + 90 + x\\). Để biểu thức đó chia hết cho 9 thì \\(x\\) phải thỏa mãn điều kiện nào sau đây?",
+      "generalfeedback": "Vì 18 chia hết cho 9 và 90 chia hết cho 9 nên để tổng \\(18 + 90 + x\\) chia hết cho 9 thì \\(x\\) phải chia hết cho 9.",
+      "answers": [
+        {
+          "text": "\\(x\\) chia hết cho 9",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x\\) chia hết cho 5",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x\\) chia hết cho 2",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x\\) chia hết cho 7",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_025",
+      "questiontext": "Số 1 872 chia hết cho cả 3 và 9.",
+      "generalfeedback": "Đúng. Tổng các chữ số của 1 872 là \\(1 + 8 + 7 + 2 = 18\\). Vì 18 chia hết cho cả 3 và 9 nên 1 872 chia hết cho cả 3 và 9.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_023",
+      "questiontext": "Tìm số tự nhiên \\(x\\) nhỏ nhất khác 0 sao cho \\(100 - x\\) chia hết cho 4.",
+      "generalfeedback": "Vì 100 chia hết cho 4 nên để \\(100 - x\\) chia hết cho 4 thì \\(x\\) phải chia hết cho 4. Số tự nhiên \\(x\\) nhỏ nhất khác 0 chia hết cho 4 là 4.",
+      "answers": [
+        {
+          "text": "4",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "dấu hiệu chia hết và số nguyên tố",
+      "questiontext": "Có bao nhiêu cặp số nguyên tố sinh đôi nhỏ hơn 40? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Các cặp số nguyên tố sinh đôi nhỏ hơn 40 là: (3, 5), (5, 7), (11, 13), (17, 19), (29, 31). Có tất cả 5 cặp.",
+      "answers": [
+        {
+          "text": "5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_028",
+      "questiontext": "Khi phân tích số 140 ra thừa số nguyên tố theo sơ đồ cột, các thừa số nguyên tố xuất hiện ở cột bên phải theo thứ tự thực hiện lần lượt là:",
+      "generalfeedback": "Ta có: \\(140 : 2 = 70\\), \\(70 : 2 = 35\\), \\(35 : 5 = 7\\), \\(7 : 7 = 1\\). Các thừa số nguyên tố lần lượt chia là 2; 2; 5; 7.",
+      "answers": [
+        {
+          "text": "2; 2; 5; 7",
+          "fraction": 100
+        },
+        {
+          "text": "2; 5; 7; 14",
+          "fraction": 0
+        },
+        {
+          "text": "4; 5; 7",
+          "fraction": 0
+        },
+        {
+          "text": "2; 7; 10",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_025",
+      "questiontext": "Hãy ghép mỗi đặc điểm của số 1 872 ở cột trái với tính chất chia hết tương ứng ở cột phải:",
+      "generalfeedback": "1 872 có chữ số tận cùng là 2 nên chia hết cho 2; tổng các chữ số là 18 nên chia hết cho 3 và 9; chữ số tận cùng khác 0 và 5 nên không chia hết cho 5 và 10.",
+      "subquestions": [
+        {
+          "question": "Chữ số tận cùng là 2",
+          "answer": "Chia hết cho 2"
+        },
+        {
+          "question": "Tổng các chữ số bằng 18",
+          "answer": "Chia hết cho 3 và 9"
+        },
+        {
+          "question": "Chữ số tận cùng khác 0 và 5",
+          "answer": "Không chia hết cho 5 và 10"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Vận dụng tính chia hết và số nguyên tố để giải bài toán thực tế",
+      "questiontext": "Trong bài toán xếp 36 bạn thành các hàng, số bạn ở mỗi hàng phải là [[1]] của 36 và có số người từ [[2]] đến 12.",
+      "generalfeedback": "Do xếp 36 bạn thành các hàng đều nhau nên số bạn trong mỗi hàng phải là ước của 36 và theo đề bài có từ 3 đến 12 bạn.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "ước"
+        },
+        {
+          "group": 1,
+          "text": "3"
+        },
+        {
+          "group": 1,
+          "text": "bội"
+        },
+        {
+          "group": 1,
+          "text": "2"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Tổng hợp quy tắc tính chia hết",
+      "questiontext": "Nếu tất cả các số hạng của một tổng đều chia hết cho cùng một số thì tổng đó [[1]] cho số đó. Nếu chỉ có một số hạng [[2]] chia hết cho số đó và các số hạng còn lại đều chia hết thì tổng đó không chia hết cho số đó.",
+      "generalfeedback": "Đây là tính chất chia hết của một tổng theo quy tắc học trong SGK.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "chia hết"
+        },
+        {
+          "group": 1,
+          "text": "không"
+        },
+        {
+          "group": 1,
+          "text": "luôn luôn"
+        },
+        {
+          "group": 1,
+          "text": "chắc chắn"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "thong_hieu",
+      "metadata_code": "Tổng hợp quy tắc tính chia hết",
+      "questiontext": "Cho biểu thức \\(T = 18 + 90 + {a} \\cdot 9\\). Giá trị của biểu thức \\(T : 9\\) bằng bao nhiêu?",
+      "generalfeedback": "Ta có \\(T = 18 + 90 + 9a = 108 + 9a\\). Do đó \\(T : 9 = 108 : 9 + 9a : 9 = 12 + a\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "12+{a}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng tính chia hết và số nguyên tố để giải bài toán thực tế",
+      "questiontext": "Cặp số nào sau đây là cặp số nguyên tố sinh đôi nhỏ hơn 40?",
+      "generalfeedback": "29 và 31 đều là các số nguyên tố và hơn kém nhau 2 đơn vị. Các đáp án khác có 15, 21, 35 không phải số nguyên tố.",
+      "answers": [
+        {
+          "text": "29 và 31",
+          "fraction": 100
+        },
+        {
+          "text": "15 và 17",
+          "fraction": 0
+        },
+        {
+          "text": "21 và 23",
+          "fraction": 0
+        },
+        {
+          "text": "35 và 37",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi gặp bài toán khó về phân tích một số lớn ra thừa số nguyên tố (như số 1 872 hoặc \\(4^2 \\cdot 6^3\\)), thái độ học tập nào sau đây thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt?",
+      "generalfeedback": "Kiên trì áp dụng các dấu hiệu chia hết và phương pháp phân tích đã học để tìm cách giải là thể hiện ý thức vươn lên vượt qua khó khăn trong học tập.",
+      "answers": [
+        {
+          "text": "Kiên trì phân tích từng bước theo sơ đồ cây hoặc sơ đồ cột dựa trên các dấu hiệu chia hết đã học để tìm ra kết quả.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài toán khó và chỉ làm những bài toán đơn giản.",
+          "fraction": 0
+        },
+        {
+          "text": "Chờ đợi bạn khác giải xong rồi chép lại đáp án vào vở.",
+          "fraction": 0
+        },
+        {
+          "text": "Đoán mò kết quả mà không cần thực hiện các bước tính toán.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_03",
+      "questiontext": "Trong thực tế, khi cần chia một nhóm 40 học sinh thành các nhóm nhỏ có số người bằng nhau để làm dự án (mỗi nhóm nhiều hơn 3 người), hành vi nào thể hiện ý thức vận dụng tốt kiến thức toán học vào đời sống?",
+      "generalfeedback": "Vận dụng kiến thức tìm ước của 40 lớn hơn 3 (gồm 4, 5, 8, 10, 20, 40) giúp chủ động đưa ra các phương án chia nhóm hợp lý trong thực tế.",
+      "answers": [
+        {
+          "text": "Liệt kê các ước của 40 lớn hơn 3 để đề xuất các phương án chia nhóm chính xác cho cô giáo.",
+          "fraction": 100
+        },
+        {
+          "text": "Chia nhóm một cách ngẫu nhiên mà không quan tâm số người ở các nhóm có bằng nhau hay không.",
+          "fraction": 0
+        },
+        {
+          "text": "Tự ý chia lớp thành các nhóm 3 người mặc dù 40 không chia hết cho 3.",
+          "fraction": 0
+        },
+        {
+          "text": "Từ chối tham gia chia nhóm vì cho rằng bài toán chia nhóm không có ứng dụng thực tế.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Để hoàn thành tốt mục tiêu học tập phần 'Dấu hiệu chia hết và Phân tích ra thừa số nguyên tố', học sinh NÊN tự đặt ra kế hoạch luyện tập nào sau đây?",
+      "generalfeedback": "Đặt mục tiêu cụ thể, tự rèn luyện kiểm tra tính chia hết và phân tích số ra thừa số nguyên tố giúp nâng cao năng lực tự học và hoàn thành mục tiêu học tập.",
+      "answers": [
+        {
+          "text": "Xác định mục tiêu nắm vững dấu hiệu chia hết cho 2, 3, 5, 9 và luyện tập tự phân tích các số tự nhiên thành tích các thừa số nguyên tố.",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ học thuộc lòng định nghĩa số nguyên tố mà không làm bài tập luyện tập.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ làm bài tập khi có sự nhắc nhở trực tiếp từ giáo viên hoặc cha mẹ.",
+          "fraction": 0
+        },
+        {
+          "text": "Không cần ôn tập lại kiến thức chia hết vì cho rằng đây là phần kiến thức dễ.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_01",
+      "questiontext": "Hãy ghép mỗi nhiệm vụ tìm hiểu thông tin về tính chia hết ở cột trái với nguồn tin/cách thức tìm hiểu phù hợp ở cột phải:",
+      "generalfeedback": "Việc xác định đúng thông tin và tìm kiếm đúng nguồn tin giúp học sinh tìm hiểu và xử lý vấn đề toán học hiệu quả.",
+      "subquestions": [
+        {
+          "question": "Tìm hiểu dấu hiệu chia hết cho 2, 3, 5, 9",
+          "answer": "Đọc và tra cứu phần kiến thức trọng tâm trong SGK Toán 6"
+        },
+        {
+          "question": "Tìm các cặp số nguyên tố sinh đôi nhỏ hơn 40",
+          "answer": "Lập bảng các số nguyên tố nhỏ hơn 40 rồi kiểm tra khoảng cách giữa chúng"
+        },
+        {
+          "question": "Xác định các cách xếp 36 bạn thành các hàng đều nhau",
+          "answer": "Tìm tất cả các ước của 36 nằm trong khoảng từ 3 đến 12"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_05",
+      "questiontext": "Để giải thích vì sao tổng \\(18 + 90 + 27\\) chia hết cho 9 mà không cần tính trực tiếp giá trị của tổng, lập luận nào sau đây là hợp lý nhất?",
+      "generalfeedback": "Lập luận dựa trên tính chất chia hết của một tổng: vì 18 chia hết cho 9, 90 chia hết cho 9 và 27 chia hết cho 9 nên tổng của chúng chia hết cho 9.",
+      "answers": [
+        {
+          "text": "Vì mỗi số hạng 18, 90 và 27 đều chia hết cho 9 nên theo tính chất chia hết của một tổng, tổng \\(18 + 90 + 27\\) chia hết cho 9.",
+          "fraction": 100
+        },
+        {
+          "text": "Vì số 27 là số cuối cùng và 27 chia hết cho 9 nên cả tổng chia hết cho 9.",
+          "fraction": 0
+        },
+        {
+          "text": "Vì 18 + 90 = 108 chia hết cho 2 nên tổng phải chia hết cho 9.",
+          "fraction": 0
+        },
+        {
+          "text": "Vì tất cả các số hạng 18, 90, 27 đều là số chẵn nên tổng chia hết cho 9.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_04",
+      "questiontext": "Một đội văn nghệ có 36 bạn. Khi cần xếp thành các hàng có số người bằng nhau, kiến thức toán học tương thích nào cần được sử dụng để tìm tất cả các cách xếp hàng?",
+      "generalfeedback": "Số người trong mỗi hàng phải là ước của 36. Việc sử dụng kiến thức tìm tập hợp ước \\(\\text{Ư}(36)\\) là công cụ toán học tương thích trực tiếp để giải quyết bài toán.",
+      "answers": [
+        {
+          "text": "Sử dụng kiến thức tìm tập hợp các ước của 36 là \\(\\text{Ư}(36) = \\{1; 2; 3; 4; 6; 9; 12; 18; 36\\}\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Sử dụng kiến thức tìm bội của 36.",
+          "fraction": 0
+        },
+        {
+          "text": "Sử dụng quy tắc cộng hai số tự nhiên bất kỳ.",
+          "fraction": 0
+        },
+        {
+          "text": "Sử dụng dấu hiệu chia hết cho 5.",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

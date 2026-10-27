@@ -1,0 +1,465 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 17,
+    "metadata_used": {
+      "Khái niệm phép khai căn bậc hai của một tích": 3,
+      "Công thức sqrt(a.b) = sqrt(a).sqrt(b) với a, b >= 0": 2,
+      "Khai căn bậc hai của một tích các số không âm": 4,
+      "Nhân các căn bậc hai số học": 4,
+      "YCCD_TOAN9_006": 3,
+      "YCCD_TOAN9_013": 4,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TUHOC_C2_01": 1,
+      "SUB_GQVD_DEXUAT_C2_02": 1,
+      "NLT_TOAN_C2_01_01": 2,
+      "NLT_TOAN_C2_03_05": 1
+    },
+    "types_used": {
+      "multichoice": 10,
+      "truefalse": 2,
+      "matching": 2,
+      "numerical": 1,
+      "shortanswer": 1,
+      "gapselect": 1
+    },
+    "total": 17
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "Khái niệm phép khai căn bậc hai của một tích",
+        "reason": "Bám sát khái niệm phép khai căn bậc hai của một tích trong Tiết 1 SGK."
+      },
+      {
+        "metadata_code": "Công thức sqrt(a.b) = sqrt(a).sqrt(b) với a, b >= 0",
+        "reason": "Bám sát công thức \\(\\sqrt{a \\cdot b} = \\sqrt{a} \\cdot \\sqrt{b}\\) với \\(a, b \\ge 0\\) trong Tiết 1 SGK."
+      },
+      {
+        "metadata_code": "Khai căn bậc hai của một tích các số không âm",
+        "reason": "Đo lường kĩ năng khai căn bậc hai của tích các số không âm."
+      },
+      {
+        "metadata_code": "Nhân các căn bậc hai số học",
+        "reason": "Đo lường kĩ năng nhân các căn bậc hai số học."
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_006",
+        "reason": "Đo lường YCCĐ thực hiện phép tính căn bậc hai của một tích."
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_013",
+        "reason": "Đo lường YCCĐ thực hiện phép biến đổi căn thức bậc hai của một tích."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đo lường phẩm chất ý chí cố gắng vươn lên trong học tập."
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+        "reason": "Đo lường năng lực chung tự đặt mục tiêu và nỗ lực phấn đấu."
+      },
+      {
+        "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+        "reason": "Đo lường năng lực chung đề xuất giải pháp giải quyết vấn đề."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_01",
+        "reason": "Đo lường năng lực đặc thù thực hiện các thao tác tư duy toán học."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_05",
+        "reason": "Đo lường năng lực đặc thù sử dụng các kĩ năng toán học tương thích."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Nội dung Tiết 1 Bài 8 SGK Toán 9 là kiến thức đại số lý thuyết thuần túy, không tích hợp tự nhiên với năng lực tin học/số."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung Tiết 1 Bài 8 SGK Toán 9 là kiến thức đại số lý thuyết thuần túy, không tích hợp tự nhiên với năng lực ứng dụng AI."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm phép khai căn bậc hai của một tích",
+      "questiontext": "Phép tìm căn bậc hai số học của một số hoặc biểu thức không âm còn được gọi là gì?",
+      "generalfeedback": "Theo SGK, phép tìm căn bậc hai số học của một số hay biểu thức không âm được gọi là phép khai căn bậc hai.",
+      "answers": [
+        {
+          "text": "Phép khai căn bậc hai",
+          "fraction": 100
+        },
+        {
+          "text": "Phép bình phương",
+          "fraction": 0
+        },
+        {
+          "text": "Phép nhân căn thức",
+          "fraction": 0
+        },
+        {
+          "text": "Phép chia căn thức",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức sqrt(a.b) = sqrt(a).sqrt(b) với a, b >= 0",
+      "questiontext": "Với hai biểu thức không âm \\(A\\) và \\(B\\), khẳng định nào sau đây là đúng?",
+      "generalfeedback": "Với \\(A \\ge 0, B \\ge 0\\), ta có \\(\\sqrt{A} \\cdot \\sqrt{B} = \\sqrt{A \\cdot B}\\).",
+      "answers": [
+        {
+          "text": "\\(\\sqrt{A} \\cdot \\sqrt{B} = \\sqrt{A \\cdot B}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\sqrt{A} \\cdot \\sqrt{B} = \\sqrt{A + B}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\sqrt{A} \\cdot \\sqrt{B} = A \\cdot B\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\sqrt{A} + \\sqrt{B} = \\sqrt{A \\cdot B}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức sqrt(a.b) = sqrt(a).sqrt(b) với a, b >= 0",
+      "questiontext": "Khẳng định sau đây Đúng hay Sai: Với ba biểu thức không âm \\(A, B, C\\), ta có \\(\\sqrt{A} \\cdot \\sqrt{B} \\cdot \\sqrt{C} = \\sqrt{A \\cdot B \\cdot C}\\).",
+      "generalfeedback": "Đó là kết quả mở rộng của quy tắc khai căn bậc hai của một tích cho nhiều biểu thức không âm.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm phép khai căn bậc hai của một tích",
+      "questiontext": "Hãy ghép mỗi biểu thức hoặc khái niệm ở cột trái với biểu thức tương đương ở cột phải.",
+      "generalfeedback": "Áp dụng khai căn bậc hai của một tích với các biểu thức không âm.",
+      "subquestions": [
+        {
+          "question": "Căn bậc hai số học của tích \\(a \\cdot b\\) (với \\(a, b \\ge 0\\))",
+          "answer": "\\(\\sqrt{a \\cdot b}\\)"
+        },
+        {
+          "question": "Tích của hai căn bậc hai số học \\(\\sqrt{a}\\) và \\(\\sqrt{b}\\) (với \\(a, b \\ge 0\\))",
+          "answer": "\\(\\sqrt{a} \\cdot \\sqrt{b}\\)"
+        },
+        {
+          "question": "Căn bậc hai số học của \\(A^2 B^2 C^2\\) (với \\(A, B, C \\ge 0\\))",
+          "answer": "\\(A \\cdot B \\cdot C\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Khai căn bậc hai của một tích các số không âm",
+      "questiontext": "Tính giá trị của biểu thức \\(\\sqrt{25 \\cdot 49}\\).",
+      "generalfeedback": "Ta có \\(\\sqrt{25 \\cdot 49} = \\sqrt{25} \\cdot \\sqrt{49} = 5 \\cdot 7 = 35\\).",
+      "answers": [
+        {
+          "text": "35",
+          "fraction": 100
+        },
+        {
+          "text": "1225",
+          "fraction": 0
+        },
+        {
+          "text": "70",
+          "fraction": 0
+        },
+        {
+          "text": "125",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Khai căn bậc hai của một tích các số không âm",
+      "questiontext": "Tính giá trị của biểu thức \\(\\sqrt{2^2 \\cdot 3^2 \\cdot 5^2}\\). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Ta có \\(\\sqrt{2^2 \\cdot 3^2 \\cdot 5^2} = \\sqrt{2^2} \\cdot \\sqrt{3^2} \\cdot \\sqrt{5^2} = 2 \\cdot 3 \\cdot 5 = 30\\).",
+      "answers": [
+        {
+          "text": "30",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Nhân các căn bậc hai số học",
+      "questiontext": "Kết quả của phép nhân hai căn bậc hai \\(\\sqrt{27} \\cdot \\sqrt{3}\\) là bao nhiêu?",
+      "generalfeedback": "\\(\\sqrt{27} \\cdot \\sqrt{3} = \\sqrt{27 \\cdot 3} = \\sqrt{81} = 9\\).",
+      "answers": [
+        {
+          "text": "9",
+          "fraction": 100
+        },
+        {
+          "text": "81",
+          "fraction": 0
+        },
+        {
+          "text": "27",
+          "fraction": 0
+        },
+        {
+          "text": "3",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Nhân các căn bậc hai số học",
+      "questiontext": "Tính kết quả của phép tính \\(\\sqrt{3} \\cdot \\sqrt{75}\\).",
+      "generalfeedback": "Ta có \\(\\sqrt{3} \\cdot \\sqrt{75} = \\sqrt{3 \\cdot 75} = \\sqrt{225} = 15\\).",
+      "answers": [
+        {
+          "text": "15",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_006",
+      "questiontext": "Rút gọn biểu thức \\(\\sqrt{5x} \\cdot \\sqrt{20x}\\) với \\(x \\ge 0\\).",
+      "generalfeedback": "\\(\\sqrt{5x} \\cdot \\sqrt{20x} = \\sqrt{100x^2} = |10x| = 10x\\) (do \\(x \\ge 0\\)).",
+      "answers": [
+        {
+          "text": "\\(10x\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(100x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(10x^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(20x\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_006",
+      "questiontext": "Để tính \\(\\sqrt{5} \\cdot (\\sqrt{125} + \\sqrt{5})\\), ta khai triển thành \\(\\sqrt{5 \\cdot 125} + \\sqrt{25}\\). Khi đó giá trị hai số hạng lần lượt là [[1]] và [[2]].",
+      "generalfeedback": "Ta có \\(\\sqrt{5 \\cdot 125} = \\sqrt{625} = 25\\) và \\(\\sqrt{25} = 5\\). Tổng bằng 30.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "25"
+        },
+        {
+          "group": 1,
+          "text": "5"
+        },
+        {
+          "group": 1,
+          "text": "125"
+        },
+        {
+          "group": 1,
+          "text": "15"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi gặp một bài toán tính nhẩm \\(\\sqrt{5} \\cdot (\\sqrt{125} + \\sqrt{5})\\) nhưng chưa biết cách làm ngắn gọn và dễ tính nhầm, học sinh An nên thể hiện ý chí cố gắng vươn lên trong học tập như thế nào?",
+      "generalfeedback": "Thể hiện sự chủ động, kiên trì tìm hiểu quy tắc nhân căn thức bậc hai \\(\\sqrt{A} \\cdot \\sqrt{B} = \\sqrt{A \\cdot B}\\) để giải quyết bài toán thay vì bỏ cuộc hoặc chép bài.",
+      "answers": [
+        {
+          "text": "Chủ động ôn lại quy tắc khai căn bậc hai của một tích, áp dụng tính phân phối \\(\\sqrt{5 \\cdot 125} + \\sqrt{25} = 25 + 5 = 30\\) để tự hoàn thành bài tập.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua không làm bài vì cho rằng biểu thức chứa căn bậc hai quá phức tạp.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép lại đáp án của bạn khác để nộp cho thầy cô mà không cần hiểu cách biến đổi.",
+          "fraction": 0
+        },
+        {
+          "text": "Đề nghị bạn khác làm hộ toàn bộ bài tập về nhà để đạt điểm cao.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Để học tốt nội dung Tiết 1 'Khai căn bậc hai với phép nhân', bạn Bình muốn tự xây dựng mục tiêu học tập cá nhân. Mục tiêu nào sau đây thể hiện rõ năng lực tự đặt mục tiêu và nỗ lực phấn đấu?",
+      "generalfeedback": "Đặt mục tiêu cụ thể, bám sát kiến thức cốt lõi (nắm vững công thức \\(\\sqrt{ab} = \\sqrt{a}\\sqrt{b}\\) và vận dụng vào bài tập SGK) và nỗ lực thực hiện.",
+      "answers": [
+        {
+          "text": "Nắm vững định lý \\(\\sqrt{A \\cdot B} = \\sqrt{A} \\cdot \\sqrt{B}\\) (với \\(A, B \\ge 0\\)) và tự luyện tập giải thành thạo các bài toán tính nhanh, rút gọn trong SGK.",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ học thuộc công thức để trả bài trên lớp rồi không cần làm bài tập vận dụng.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ làm bài tập khi có sự giám sát và nhắc nhở liên tục từ phụ huynh.",
+          "fraction": 0
+        },
+        {
+          "text": "Đặt mục tiêu giải các bài toán vượt quá chương trình học mà bỏ qua kiến thức cơ bản trong SGK.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Khi đối mặt với bài toán tính nhanh giá trị biểu thức \\(M = \\sqrt{27} \\cdot \\sqrt{3}\\) mà không dùng máy tính cầm tay, giải pháp nào sau đây thể hiện năng lực đề xuất giải pháp giải quyết vấn đề tối ưu?",
+      "generalfeedback": "Sử dụng quy tắc nhân các căn bậc hai số học: \\(\\sqrt{27} \\cdot \\sqrt{3} = \\sqrt{27 \\cdot 3} = \\sqrt{81} = 9\\) là giải pháp nhanh và chính xác nhất.",
+      "answers": [
+        {
+          "text": "Áp dụng công thức nhân hai căn bậc hai \\(\\sqrt{A} \\cdot \\sqrt{B} = \\sqrt{A \\cdot B}\\) để đưa về \\(\\sqrt{81} = 9\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Tính gần đúng giá trị thập phân của từng căn thức rồi nhân hai số thập phân với nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Bình phương hai căn thức rồi chia đôi kết quả.",
+          "fraction": 0
+        },
+        {
+          "text": "Đổi các số dưới dấu căn thành dạng số thập phân rồi tính toán.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Xét hai cách tính biểu thức \\(P = \\sqrt{100 \\cdot 4}\\):\nCách 1: \\(\\sqrt{100 \\cdot 4} = \\sqrt{400} = 20\\).\nCách 2: \\(\\sqrt{100} \\cdot \\sqrt{4} = 10 \\cdot 2 = 20\\).\nThao tác tư duy so sánh và khái quát hóa từ hai cách tính trên giúp rút ra khẳng định tổng quát nào?",
+      "generalfeedback": "So sánh hai cách tính cho thấy \\(\\sqrt{100 \\cdot 4} = \\sqrt{100} \\cdot \\sqrt{4}\\), khái quát hóa lên với hai số không âm \\(A, B\\) ta có \\(\\sqrt{A \\cdot B} = \\sqrt{A} \\cdot \\sqrt{B}\\).",
+      "answers": [
+        {
+          "text": "Với hai biểu thức không âm \\(A, B\\), ta luôn có \\(\\sqrt{A \\cdot B} = \\sqrt{A} \\cdot \\sqrt{B}\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Với hai biểu thức không âm \\(A, B\\), ta luôn có \\(\\sqrt{A \\cdot B} = \\sqrt{A} + \\sqrt{B}\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Căn bậc hai của một tích luôn bằng tích của hai số dưới dấu căn.",
+          "fraction": 0
+        },
+        {
+          "text": "Phép khai căn chỉ thực hiện được khi các thừa số là số tròn chục.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Để rút gọn biểu thức căn thức đại số \\(A = \\sqrt{5x} \\cdot \\sqrt{20x}\\) (với \\(x \\ge 0\\)), kĩ năng toán học nào cần được sử dụng tương thích và chính xác?",
+      "generalfeedback": "Phối hợp kỹ năng nhân các căn bậc hai \\(\\sqrt{5x \\cdot 20x} = \\sqrt{100x^2}\\) và kỹ năng hằng đẳng thức \\(\\sqrt{A^2} = |A| = 10x\\) (vì \\(x \\ge 0\\)).",
+      "answers": [
+        {
+          "text": "Sử dụng kĩ năng nhân hai căn bậc hai để đưa về \\(\\sqrt{100x^2}\\), sau đó dùng kĩ năng hằng đẳng thức \\(\\sqrt{A^2} = |A|\\) để rút gọn thành \\(10x\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ dấu căn trực tiếp ở từng thừa số rồi nhân các biểu thức đại số lại với nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ lấy căn bậc hai của hệ số số học và giữ nguyên biến \\(x\\) dưới dấu căn.",
+          "fraction": 0
+        },
+        {
+          "text": "Chia hai căn thức cho \\(x\\) trước khi thực hiện phép nhân.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Đúng hay Sai: Khi gặp bài toán biến đổi căn thức khó, học sinh có thái độ học tập tích cực sẽ kiên trì phân tích bài toán, tra cứu quy tắc biến đổi trong SGK thay vì từ bỏ ngay lập tức.",
+      "generalfeedback": "Thái độ kiên trì, nỗ lực vượt khó trong học tập là biểu hiện của phẩm chất chăm chỉ và ý chí vươn lên.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Hãy ghép mỗi thao tác tư duy toán học ở cột trái với nội dung thực hiện tương ứng khi học bài 'Khai căn bậc hai với phép nhân'.",
+      "generalfeedback": "Ghép đúng các thao tác tư duy toán học với ví dụ cụ thể trong bài học.",
+      "subquestions": [
+        {
+          "question": "So sánh",
+          "answer": "Đối chiếu giá trị của \\(\\sqrt{100} \\cdot \\sqrt{4}\\) và \\(\\sqrt{100 \\cdot 4}\\)"
+        },
+        {
+          "question": "Khái quát hóa",
+          "answer": "Rút ra công thức \\(\\sqrt{A \\cdot B} = \\sqrt{A} \\cdot \\sqrt{B}\\) cho các biểu thức không âm"
+        },
+        {
+          "question": "Phân tích - Tổng hợp",
+          "answer": "Tách \\(\\sqrt{25a^2b^2}\\) thành \\(\\sqrt{25} \\cdot \\sqrt{a^2} \\cdot \\sqrt{b^2}\\) rồi rút gọn thành \\(-5ab\\) (với \\(a \\ge 0, b < 0\\))"
+        }
+      ]
+    }
+  ]
+}

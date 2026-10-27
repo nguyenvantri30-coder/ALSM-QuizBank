@@ -1,0 +1,745 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 30,
+    "metadata_used": {
+      "Quy tắc nhân đa thức với đa thức": 4,
+      "Thực hiện phép nhân đa thức với đa thức": 9,
+      "Biến đổi rút gọn biểu thức chứa phép nhân đa thức": 5,
+      "YCCD_TOAN8_010": 2,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TUHOC_C2_04": 3,
+      "NLT_TOAN_C2_01_05": 2,
+      "NLT_TOAN_C2_03_05": 3
+    },
+    "types_used": {
+      "multichoice": 13,
+      "truefalse": 3,
+      "gapselect": 3,
+      "matching": 3,
+      "shortanswer": 0,
+      "ddwtos": 2,
+      "calculatedsimple": 3,
+      "numerical": 3
+    }
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "Quy tắc nhân đa thức với đa thức",
+        "reason": "Đánh giá khả năng ghi nhớ và hiểu quy tắc, tính chất nhân đa thức với đa thức."
+      },
+      {
+        "metadata_code": "Thực hiện phép nhân đa thức với đa thức",
+        "reason": "Đánh giá kỹ năng thực hiện phép nhân đa thức với đa thức."
+      },
+      {
+        "metadata_code": "Biến đổi rút gọn biểu thức chứa phép nhân đa thức",
+        "reason": "Đánh giá kỹ năng biến đổi, rút gọn biểu thức có chứa phép nhân đa thức."
+      },
+      {
+        "metadata_code": "YCCD_TOAN8_010",
+        "reason": "Đánh giá mức độ đạt yêu cầu thực hiện phép nhân các đa thức nhiều biến."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đánh giá tinh thần kiên trì, chủ động vượt qua khó khăn trong học tập."
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+        "reason": "Đánh giá kỹ năng tóm tắt, sơ đồ hóa và lưu giữ thông tin có chọn lọc."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_05",
+        "reason": "Đánh giá khả năng thực hiện lập luận toán học hợp lý khi giải quyết vấn đề."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_05",
+        "reason": "Đánh giá kỹ năng sử dụng công cụ, mô hình toán học tương thích để giải quyết vấn đề."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Nội dung bài học nhân đa thức trong SGK thuần túy lý thuyết và tính toán đại số tay, không chứa dữ liệu thực hành tin học hay công cụ phần mềm."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Bài học không chứa bối cảnh ứng dụng trí tuệ nhân tạo (AI) một cách tự nhiên."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc nhân đa thức với đa thức",
+      "questiontext": "Muốn nhân một đa thức với một đa thức, ta thực hiện như thế nào?",
+      "generalfeedback": "Theo quy tắc nhân đa thức với đa thức: Muốn nhân một đa thức với một đa thức, ta nhân mỗi hạng tử của đa thức này với từng hạng tử của đa thức kia rồi cộng các kết quả với nhau.",
+      "answers": [
+        {
+          "text": "Nhân mỗi hạng tử của đa thức này với từng hạng tử của đa thức kia rồi cộng các kết quả với nhau.",
+          "fraction": 100
+        },
+        {
+          "text": "Nhân các hạng tử đồng dạng của hai đa thức với nhau rồi cộng các kết quả.",
+          "fraction": 0
+        },
+        {
+          "text": "Nhân hạng tử đầu tiên của đa thức này với đa thức kia.",
+          "fraction": 0
+        },
+        {
+          "text": "Cộng từng hạng tử của hai đa thức lại với nhau rồi nhân các kết quả.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc nhân đa thức với đa thức",
+      "questiontext": "Tích của hai đa thức luôn luôn là một đa thức.",
+      "generalfeedback": "Đúng. Trong SGK khẳng định: Tích của hai đa thức cũng là một đa thức.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc nhân đa thức với đa thức",
+      "questiontext": "Phép nhân đa thức có các tính chất: [[1]] \\(A \\cdot B = B \\cdot A\\), [[2]] \\((A \\cdot B) \\cdot C = A \\cdot (B \\cdot C)\\), và phân phối đối với phép cộng.",
+      "generalfeedback": "Phép nhân đa thức có tính chất giao hoán \\(A \\cdot B = B \\cdot A\\) và tính chất kết hợp \\((A \\cdot B) \\cdot C = A \\cdot (B \\cdot C)\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "Giao hoán"
+        },
+        {
+          "group": 1,
+          "text": "Kết hợp"
+        },
+        {
+          "group": 1,
+          "text": "Phân phối"
+        },
+        {
+          "group": 1,
+          "text": "Bắc cầu"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc nhân đa thức với đa thức",
+      "questiontext": "Ghép tên tính chất của phép nhân đa thức ở cột trái với công thức tương ứng ở cột phải:",
+      "generalfeedback": "Tính chất giao hoán: \\(A \\cdot B = B \\cdot A\\); tính chất kết hợp: \\((A \\cdot B) \\cdot C = A \\cdot (B \\cdot C)\\); tính chất phân phối đối với phép cộng: \\(A \\cdot (B + C) = A \\cdot B + A \\cdot C\\).",
+      "subquestions": [
+        {
+          "question": "Giao hoán",
+          "answer": "\\(A \\cdot B = B \\cdot A\\)"
+        },
+        {
+          "question": "Kết hợp",
+          "answer": "\\((A \\cdot B) \\cdot C = A \\cdot (B \\cdot C)\\)"
+        },
+        {
+          "question": "Phân phối đối với phép cộng",
+          "answer": "\\(A \\cdot (B + C) = A \\cdot B + A \\cdot C\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép nhân đa thức với đa thức",
+      "questiontext": "Kết quả của phép nhân hai đa thức \\((2x + 3)(x - 5)\\) là:",
+      "generalfeedback": "Ta có: \\((2x + 3)(x - 5) = 2x \\cdot x - 2x \\cdot 5 + 3 \\cdot x - 3 \\cdot 5 = 2x^2 - 10x + 3x - 15 = 2x^2 - 7x - 15\\).",
+      "answers": [
+        {
+          "text": "\\(2x^2 - 7x - 15\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(2x^2 + 7x - 15\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2x^2 - 10x - 15\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2x^2 - 7x + 15\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép nhân đa thức với đa thức",
+      "questiontext": "Thực hiện phép tính nhân \\((x + 3)(x - 3)\\) và thu gọn kết quả thu được dạng đa thức theo biến \\(x\\):",
+      "generalfeedback": "\\((x + 3)(x - 3) = x^2 - 3x + 3x - 9 = x^2 - 9\\).",
+      "answers": [
+        {
+          "text": "\\(x^2 - 9\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x^2 + 9\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x^3 - 9\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x^1 - 9\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_010",
+      "questiontext": "Cho phép nhân hai đa thức nhiều biến: \\((2x + y)(4x^2 - 2xy + y^2) = 8x^3 -\\) [[1]] \\(+ 2xy^2 + 4x^2y - 2xy^2 +\\) [[2]] \\(= 8x^3 + y^3\\). Kéo thả các hạng tử thích hợp vào chỗ trống.",
+      "generalfeedback": "Khai triển: \\((2x + y)(4x^2 - 2xy + y^2) = 2x(4x^2 - 2xy + y^2) + y(4x^2 - 2xy + y^2) = 8x^3 - 4x^2y + 2xy^2 + 4x^2y - 2xy^2 + y^3 = 8x^3 + y^3\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(4x^2y\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(y^3\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(2xy^2\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(8x^3\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Biến đổi rút gọn biểu thức chứa phép nhân đa thức",
+      "questiontext": "Rút gọn biểu thức \\(P = (x - 5)(2x + 3) - 2x(x - 3) + x + 7\\) thu được kết quả là:",
+      "generalfeedback": "Ta có: \\(P = (2x^2 + 3x - 10x - 15) - (2x^2 - 6x) + x + 7 = 2x^2 - 7x - 15 - 2x^2 + 6x + x + 7 = (2x^2 - 2x^2) + (-7x + 6x + x) + (-15 + 7) = -8\\).",
+      "answers": [
+        {
+          "text": "\\(-8\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(8\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-14\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(0\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép nhân đa thức với đa thức",
+      "questiontext": "Cho đa thức A = {a}x + 2 và B = x - 3. Giá trị hệ số tự do của tích A.B là bao nhiêu?",
+      "generalfeedback": "Tích A.B = ({a}x + 2)(x - 3) = {a}x^2 - 3*{a}x + 2x - 6 = {a}x^2 + (2 - 3*{a})x - 6. Hệ số tự do của tích là 2 * (-3) = -6.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "-6",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Biến đổi rút gọn biểu thức chứa phép nhân đa thức",
+      "questiontext": "Tính giá trị của biểu thức \\(A = (x + y)(2x - y) - (x - y)(2x + y)\\) tại \\(x = 2\\) và \\(y = 3\\). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Rút gọn biểu thức: \\(A = (2x^2 - xy + 2xy - y^2) - (2x^2 + xy - 2xy - y^2) = (2x^2 + xy - y^2) - (2x^2 - xy - y^2) = 2xy\\). Thay \\(x = 2, y = 3\\) vào ta được \\(A = 2 \\cdot 2 \\cdot 3 = 12\\).",
+      "answers": [
+        {
+          "text": "12",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép nhân đa thức với đa thức",
+      "questiontext": "Kết quả của phép nhân hai đa thức \\((2x + 3y)(x^2 - 5xy + 4y^2)\\) là:",
+      "generalfeedback": "Ta có: \\((2x + 3y)(x^2 - 5xy + 4y^2) = 2x(x^2 - 5xy + 4y^2) + 3y(x^2 - 5xy + 4y^2) = 2x^3 - 10x^2y + 8xy^2 + 3x^2y - 15xy^2 + 12y^3 = 2x^3 - 7x^2y - 7xy^2 + 12y^3\\).",
+      "answers": [
+        {
+          "text": "\\(2x^3 - 7x^2y - 7xy^2 + 12y^3\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(2x^3 + 7x^2y - 7xy^2 + 12y^3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2x^3 - 10x^2y - 15xy^2 + 12y^3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2x^3 - 7x^2y + 7xy^2 + 12y^3\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép nhân đa thức với đa thức",
+      "questiontext": "Thực hiện phép nhân \\((x^2y^2 - 3)(3 + x^2y^2)\\) và thu gọn kết quả:",
+      "generalfeedback": "Ta có: \\((x^2y^2 - 3)(3 + x^2y^2) = (x^2y^2 - 3)(x^2y^2 + 3) = (x^2y^2)^2 - 3^2 = x^4y^4 - 9\\).",
+      "answers": [
+        {
+          "text": "\\(x^4y^4 - 9\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x^4y^4 + 9\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x^5y^4 - 9\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x^3y^4 - 9\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Biến đổi rút gọn biểu thức chứa phép nhân đa thức",
+      "questiontext": "Rút gọn biểu thức \\(P = (2k-3)(3m-2) - (3k-2)(2m-3)\\) thu được kết quả là:",
+      "generalfeedback": "Ta có: \\((2k-3)(3m-2) = 6km - 4k - 9m + 6\\) và \\((3k-2)(2m-3) = 6km - 9k - 4m + 6\\). Do đó \\(P = (6km - 4k - 9m + 6) - (6km - 9k - 4m + 6) = 5k - 5m = 5(k - m)\\).",
+      "answers": [
+        {
+          "text": "\\(5(k - m)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(5(k + m)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(12km - 5k - 5m\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(5k - 13m + 12\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "van_dung",
+      "metadata_code": "Biến đổi rút gọn biểu thức chứa phép nhân đa thức",
+      "questiontext": "Với mọi giá trị nguyên của \\(k\\) và \\(m\\), giá trị của biểu thức \\(P = (2k-3)(3m-2) - (3k-2)(2m-3)\\) luôn chia hết cho 5.",
+      "generalfeedback": "Đúng. Ta rút gọn được \\(P = 5(k - m)\\). Vì \\(k, m\\) là các số nguyên nên \\(k - m\\) là số nguyên, do đó \\(P = 5(k - m)\\) luôn chia hết cho 5.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép nhân đa thức với đa thức",
+      "questiontext": "Khai triển và thu gọn tích của hai đa thức \\((x^2 - xy + 1)(xy + 3)\\) ta được:",
+      "generalfeedback": "Ta có: \\((x^2 - xy + 1)(xy + 3) = x^2(xy + 3) - xy(xy + 3) + 1(xy + 3) = x^3y + 3x^2 - x^2y^2 - 3xy + xy + 3 = x^3y - x^2y^2 + 3x^2 - 2xy + 3\\).",
+      "answers": [
+        {
+          "text": "\\(x^3y - x^2y^2 + 3x^2 - 2xy + 3\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x^3y - x^2y^2 + 3x^2 + 4xy + 3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x^3y + x^2y^2 + 3x^2 - 2xy + 3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x^3y - x^2y^2 + 3x^2 - 4xy + 3\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_010",
+      "questiontext": "Cho hai đa thức \\(M = x + 3y + 2\\) và \\(N = x + y\\). Tích \\(MN = (x + 3y + 2)(x + y) = x^2 +\\) [[1]] \\(+ 3y^2 + 2x +\\) [[2]]. Điền các hạng tử thích hợp vào chỗ trống.",
+      "generalfeedback": "Ta có \\(MN = (x + 3y + 2)(x + y) = x^2 + xy + 3xy + 3y^2 + 2x + 2y = x^2 + 4xy + 3y^2 + 2x + 2y\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "4xy"
+        },
+        {
+          "group": 1,
+          "text": "2y"
+        },
+        {
+          "group": 1,
+          "text": "3xy"
+        },
+        {
+          "group": 1,
+          "text": "2x"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép nhân đa thức với đa thức",
+      "questiontext": "Nối phép nhân đa thức ở cột trái với kết quả thu gọn tương ứng ở cột phải:",
+      "generalfeedback": "1) \\((x + 1)(x + 2) = x^2 + 3x + 2\\); 2) \\((x - 1)(x + 2) = x^2 + x - 2\\); 3) \\((x - 1)(x - 2) = x^2 - 3x + 2\\).",
+      "subquestions": [
+        {
+          "question": "\\((x + 1)(x + 2)\\)",
+          "answer": "\\(x^2 + 3x + 2\\)"
+        },
+        {
+          "question": "\\((x - 1)(x + 2)\\)",
+          "answer": "\\(x^2 + x - 2\\)"
+        },
+        {
+          "question": "\\((x - 1)(x - 2)\\)",
+          "answer": "\\(x^2 - 3x + 2\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép nhân đa thức với đa thức",
+      "questiontext": "Thực hiện phép tính nhân \\((2x + 3)(x^2 - 5x + 4)\\) thu được kết quả là:",
+      "generalfeedback": "Ta có: \\((2x + 3)(x^2 - 5x + 4) = 2x(x^2 - 5x + 4) + 3(x^2 - 5x + 4) = 2x^3 - 10x^2 + 8x + 3x^2 - 15x + 12 = 2x^3 - 7x^2 - 7x + 12\\).",
+      "answers": [
+        {
+          "text": "\\(2x^3 - 7x^2 - 7x + 12\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(2x^3 - 10x^2 - 7x + 12\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2x^3 - 7x^2 + 23x + 12\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2x^3 + 3x^2 - 7x + 12\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép nhân đa thức với đa thức",
+      "questiontext": "Cho đa thức P = (x + {a})(x + 2). Hệ số của x sau khi thu gọn đa thức P là bao nhiêu?",
+      "generalfeedback": "Ta có P = (x + {a})(x + 2) = x^2 + 2x + {a}x + 2*{a} = x^2 + ({a} + 2)x + 2*{a}. Hệ số của x là {a} + 2.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}+2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Biến đổi rút gọn biểu thức chứa phép nhân đa thức",
+      "questiontext": "Tính diện tích của một hình chữ nhật (theo đơn vị diện tích) biết độ dài hai cạnh được biểu thị bởi \\(M = x + 3y + 2\\) và \\(N = x + y\\) tại \\(x = 1\\) và \\(y = 2\\). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Diện tích hình chữ nhật là \\(MN = (x + 3y + 2)(x + y)\\). Với \\(x = 1, y = 2\\), ta có \\(M = 1 + 3(2) + 2 = 9\\) và \\(N = 1 + 2 = 3\\). Do đó diện tích là \\(9 \\cdot 3 = 27\\).",
+      "answers": [
+        {
+          "text": "27",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ bài tập Toán, Nam gặp bài toán rút gọn biểu thức phức tạp \\(P = (2k-3)(3m-2) - (3k-2)(2m-3)\\). Dù ban đầu thấy bài toán dài và dễ nhầm dấu, Nam vẫn kiên trì chia nhỏ biểu thức để nhân từng đa thức, sau đó thu gọn cẩn thận và tìm ra kết quả \\(P = 5(k-m)\\). Hành vi của Nam thể hiện phẩm chất nào dưới đây?",
+      "generalfeedback": "Hành vi của Nam cho thấy tinh thần chủ động, kiên trì vượt qua khó khăn trong học tập để hoàn thành bài toán và đạt kết quả tốt.",
+      "answers": [
+        {
+          "text": "Luôn cố gắng, kiên trì vươn lên để vượt qua khó khăn và đạt kết quả tốt trong học tập.",
+          "fraction": 100
+        },
+        {
+          "text": "Tính thụ động, chờ đợi sự trợ giúp của thầy cô và bạn bè mà không tự mình suy nghĩ.",
+          "fraction": 0
+        },
+        {
+          "text": "Thiếu cẩn thận, làm qua loa cho xong bài tập được giao.",
+          "fraction": 0
+        },
+        {
+          "text": "Ý thức kỉ luật kém, bỏ qua những bài tập vận dụng khó.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi thực hiện phép nhân đa thức với đa thức, nếu gặp bài toán có nhiều biến và hệ số âm dễ dẫn đến sai sót, thái độ học tập tích cực là chủ động kiểm tra lại từng bước nhân hạng tử và dấu của các tích thành phần thay vì bỏ dở bài làm.",
+      "generalfeedback": "Đúng. Chủ động kiểm tra lại bài và kiên trì hoàn thành bài tập thể hiện ý thức trách nhiệm và thái độ luôn cố gắng vươn lên trong học tập.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Để ghi tóm tắt kiến thức bài 'Phép nhân đa thức', bạn Mai lập sơ đồ từ khóa gồm hai nhánh chính: 1) Quy tắc: Nhân [[1]] của đa thức này với từng hạng tử của đa thức kia rồi cộng các kết quả; 2) Tính chất: [[2]], kết hợp và phân phối đối với phép cộng.",
+      "generalfeedback": "Sơ đồ tóm tắt kiến thức chọn lọc đúng hai từ khóa cốt lõi: 'mỗi hạng tử' (quy tắc nhân) và 'Giao hoán' (tính chất của phép nhân đa thức).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "mỗi hạng tử"
+        },
+        {
+          "group": 1,
+          "text": "Giao hoán"
+        },
+        {
+          "group": 1,
+          "text": "mỗi đơn thức đồng dạng"
+        },
+        {
+          "group": 1,
+          "text": "Bắc cầu"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Bạn An tổng hợp các công thức nhân đa thức bằng bảng ghi tóm tắt. Hãy ghép tên mục thông tin ở cột trái với nội dung tóm tắt tương ứng ở cột phải:",
+      "generalfeedback": "Bảng tóm tắt thông tin giúp lưu giữ có chọn lọc các quy tắc và tính chất cốt lõi của phép nhân đa thức.",
+      "subquestions": [
+        {
+          "question": "Tích hai đa thức",
+          "answer": "Luôn là một đa thức"
+        },
+        {
+          "question": "Tính chất giao hoán",
+          "answer": "\\(A \\cdot B = B \\cdot A\\)"
+        },
+        {
+          "question": "Tính chất phân phối",
+          "answer": "\\(A \\cdot (B + C) = A \\cdot B + A \\cdot C\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_05",
+      "questiontext": "Để chứng minh biểu thức \\(P = (2k-3)(3m-2) - (3k-2)(2m-3)\\) luôn chia hết cho 5 với mọi số nguyên \\(k, m\\), bạn Hà lập luận theo 3 bước:\nBước 1: Khai triển \\((2k-3)(3m-2) = 6km - 4k - 9m + 6\\) và \\((3k-2)(2m-3) = 6km - 9k - 4m + 6\\).\nBước 2: Rút gọn \\(P = (6km - 4k - 9m + 6) - (6km - 9k - 4m + 6) = 5k - 5m = 5(k - m)\\).\nBước 3: Vì \\(k, m \\in \\mathbb{Z}\\) nên \\(k - m \\in \\mathbb{Z}\\), suy ra \\(P = 5(k - m)\\) chia hết cho 5.\nEm có nhận xét gì về lập luận của bạn Hà?",
+      "generalfeedback": "Bạn Hà đã thực hiện lập luận toán học hợp lí: khai triển đúng các tích đa thức, thu gọn chính xác về dạng \\(5(k-m)\\) và lập luận suy ra tính chia hết cho 5 dựa trên tính chất số nguyên.",
+      "answers": [
+        {
+          "text": "Lập luận hoàn toàn hợp lí, các bước khai triển, thu gọn và suy luận số học đều chính xác.",
+          "fraction": 100
+        },
+        {
+          "text": "Lập luận sai ở Bước 1 vì nhân sai dấu các hạng tử.",
+          "fraction": 0
+        },
+        {
+          "text": "Lập luận sai ở Bước 2 vì kết quả rút gọn phải là \\(12km - 13k - 13m + 12\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Lập luận sai ở Bước 3 vì \\(5(k-m)\\) chưa đủ điều kiện chia hết cho 5.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_05",
+      "questiontext": "Cho hai biểu thức \\(A = (x + y)(2x - y)\\) và \\(B = (x - y)(2x + y)\\). Khi lập luận so sánh giá trị của \\(A\\) và \\(B\\), bạn Bình khẳng định: '\\(A - B = 2xy\\)'. Lập luận nào sau đây giải thích hợp lí cho khẳng định của bạn Bình?",
+      "generalfeedback": "Lập luận hợp lí dựa trên việc biến đổi đại số đúng: khai triển từng đa thức \\(A\\) và \\(B\\), sau đó thực hiện phép trừ hai đa thức để thu được kết quả \\(2xy\\).",
+      "answers": [
+        {
+          "text": "Khai triển \\(A = 2x^2 + xy - y^2\\) và \\(B = 2x^2 - xy - y^2\\), sau đó lấy \\(A - B = (2x^2 + xy - y^2) - (2x^2 - xy - y^2) = 2xy\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Khai triển \\(A = 2x^2 - xy - y^2\\) và \\(B = 2x^2 + xy - y^2\\), suy ra \\(A - B = -2xy\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Vì \\(A\\) và \\(B\\) có cùng các hạng tử nên hiệu của chúng bằng 0.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ cần thay \\(x = 0, y = 0\\) vào hai biểu thức là đủ chứng minh \\(A - B = 2xy\\) với mọi \\(x, y\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Một khu vườn hình chữ nhật có chiều dài \\(M = x + 3y + 2\\) (m) và chiều rộng \\(N = x + y\\) (m). Người ta mở rộng khu vườn thành hình chữ nhật mới bằng cách nhân hai biểu thức kích thước này để được biểu thức diện tích \\(S(x, y)\\). Bằng kĩ năng toán học, hãy tính diện tích khu vườn (theo m²) khi \\(x = 2\\) và \\(y = 1\\). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Ta sử dụng kĩ năng nhân đa thức: \\(S = (x + 3y + 2)(x + y)\\). Khi \\(x = 2, y = 1\\), ta có \\(M = 2 + 3(1) + 2 = 7\\) m và \\(N = 2 + 1 = 3\\) m. Do đó diện tích là \\(S = 7 \\cdot 3 = 21\\) m².",
+      "answers": [
+        {
+          "text": "21",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Để tính nhẩm nhanh tích của hai số \\(23 \\times 19\\) bằng kĩ năng nhân đa thức, em có thể biểu diễn hai số dưới dạng tích hai đa thức một biến \\(x = 20\\) như thế nào?",
+      "generalfeedback": "Kĩ năng mô hình hóa số học sang đại số: \\(23 = 20 + 3 = x + 3\\) và \\(19 = 20 - 1 = x - 1\\) với \\(x = 20\\). Khi đó \\(23 \\cdot 19 = (x + 3)(x - 1) = x^2 + 2x - 3 = 400 + 40 - 3 = 437\\).",
+      "answers": [
+        {
+          "text": "\\((x + 3)(x - 1)\\) với \\(x = 20\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\((x + 3)(x + 1)\\) với \\(x = 20\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((x - 3)(x - 1)\\) với \\(x = 20\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((x + 23)(x + 19)\\) với \\(x = 0\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Bạn Minh dùng bản đồ tư duy để phân loại các bước thực hiện phép nhân đa thức với đa thức. Hãy kéo thả từ khóa thích hợp vào các vị trí trống: Bước 1: [[1]] từng hạng tử của đa thức thứ nhất với từng hạng tử của đa thức thứ hai. Bước 2: [[2]] các kết quả lại với nhau và thu gọn các hạng tử đồng dạng.",
+      "generalfeedback": "Tóm tắt có chọn lọc theo quy tắc: Bước 1 thực hiện phép 'Nhân', Bước 2 thực hiện phép 'Cộng' và thu gọn.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "Nhân"
+        },
+        {
+          "group": 1,
+          "text": "Cộng"
+        },
+        {
+          "group": 1,
+          "text": "Chia"
+        },
+        {
+          "group": 1,
+          "text": "Trừ"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Một tấm hình chữ nhật có các kích thước là x + {a} (cm) và x + 2 (cm). Sử dụng kĩ năng nhân đa thức, diện tích tấm hình chữ nhật đó được biểu diễn bởi đa thức \\(x^2 + Bx + C\\). Giá trị của hệ số B là bao nhiêu?",
+      "generalfeedback": "Diện tích là \\((x + {a})(x + 2) = x^2 + 2x + {a}x + 2*{a} = x^2 + ({a} + 2)x + 2*{a}\\). Do đó hệ số B của x là {a} + 2.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}+2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    }
+  ]
+}

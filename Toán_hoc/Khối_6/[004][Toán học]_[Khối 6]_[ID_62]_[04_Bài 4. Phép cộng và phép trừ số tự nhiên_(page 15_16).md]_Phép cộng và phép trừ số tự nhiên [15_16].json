@@ -1,0 +1,661 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 25,
+    "metadata_used": {
+      "Khái niệm số hạng và tổng": 2,
+      "Khái niệm số bị trừ, số trừ và hiệu": 2,
+      "Tính chất giao hoán và kết hợp của phép cộng": 3,
+      "Thực hiện phép cộng hai số tự nhiên": 2,
+      "Thực hiện phép trừ hai số tự nhiên": 1,
+      "Vận dụng tính chất phép cộng để tính nhanh": 2,
+      "YCCD_TOAN6_009": 2,
+      "YCCD_TOAN6_010": 2,
+      "YCCD_TOAN6_013": 2,
+      "YCCD_TOAN6_014": 1,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_TCTH_TUHOC_C2_04": 1,
+      "SUB_GTHT_XACDINHMD_C2_03": 1,
+      "NLT_TOAN_C2_01_01": 1,
+      "NLT_TOAN_C2_03_05": 1
+    },
+    "types_used": {
+      "multichoice": 11,
+      "truefalse": 2,
+      "shortanswer": 3,
+      "numerical": 2,
+      "matching": 1,
+      "gapselect": 2,
+      "ddwtos": 1,
+      "calculated": 2,
+      "calculatedsimple": 1
+    },
+    "total": 25
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN6_009",
+        "reason": "Có thể đo lường trực tiếp qua các câu hỏi thực hiện phép cộng số tự nhiên."
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_010",
+        "reason": "Có thể đo lường trực tiếp qua các câu hỏi thực hiện phép trừ số tự nhiên."
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_013",
+        "reason": "Có thể đo lường qua câu hỏi vận dụng tính chất giao hoán trong tính toán."
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_014",
+        "reason": "Có thể đo lường qua câu hỏi vận dụng tính chất kết hợp trong tính toán."
+      },
+      {
+        "metadata_code": "Khái niệm số hạng và tổng",
+        "reason": "Đo lường nhận biết và hiểu về số hạng và tổng."
+      },
+      {
+        "metadata_code": "Khái niệm số bị trừ, số trừ và hiệu",
+        "reason": "Đo lường nhận biết và hiểu về số bị trừ, số trừ và hiệu."
+      },
+      {
+        "metadata_code": "Tính chất giao hoán và kết hợp của phép cộng",
+        "reason": "Đo lường nhận biết và hiểu tính chất giao hoán và kết hợp của phép cộng."
+      },
+      {
+        "metadata_code": "Thực hiện phép cộng hai số tự nhiên",
+        "reason": "Đo lường kĩ năng thực hiện phép cộng hai số tự nhiên."
+      },
+      {
+        "metadata_code": "Thực hiện phép trừ hai số tự nhiên",
+        "reason": "Đo lường kĩ năng thực hiện phép trừ hai số tự nhiên."
+      },
+      {
+        "metadata_code": "Vận dụng tính chất phép cộng để tính nhanh",
+        "reason": "Đo lường kĩ năng vận dụng tính chất phép cộng để tính nhanh."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đo lường phẩm chất cố gắng vươn lên trong học tập."
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+        "reason": "Đo lường năng lực lưu giữ thông tin có chọn lọc."
+      },
+      {
+        "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+        "reason": "Đo lường năng lực tiếp nhận văn bản, số liệu và công thức."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_01",
+        "reason": "Đo lường năng lực thực hiện thao tác tư duy."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_05",
+        "reason": "Đo lường năng lực sử dụng kĩ năng toán học giải quyết vấn đề."
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm số hạng và tổng",
+      "questiontext": "Trong phép tính cộng  \\(a + b = c\\) , các số  \\(a\\)  và  \\(b\\)  được gọi là gì?",
+      "generalfeedback": "Trong phép cộng  \\(a + b = c\\) ,  \\(a\\)  và  \\(b\\)  là các số hạng,  \\(c\\)  là tổng.",
+      "answers": [
+        {
+          "text": "Số hạng",
+          "fraction": 100
+        },
+        {
+          "text": "Số bị trừ",
+          "fraction": 0
+        },
+        {
+          "text": "Số trừ",
+          "fraction": 0
+        },
+        {
+          "text": "Hiệu",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm số bị trừ, số trừ và hiệu",
+      "questiontext": "Trong phép trừ  \\(a - b = c\\)  (với  \\(a, b, c \\in \\mathbb{N}\\) ), số  \\(a\\)  được gọi là số bị trừ.",
+      "generalfeedback": "Đúng. Trong phép trừ  \\(a - b = c\\) ,  \\(a\\)  là số bị trừ,  \\(b\\)  là số trừ và  \\(c\\)  là hiệu.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Tính chất giao hoán và kết hợp của phép cộng",
+      "questiontext": "Công thức nào sau đây thể hiện tính chất giao hoán của phép cộng các số tự nhiên?",
+      "generalfeedback": "Tính chất giao hoán của phép cộng: Khi đổi chỗ các số hạng trong một tổng thì tổng không đổi, tức là  \\(a + b = b + a\\) .",
+      "answers": [
+        {
+          "text": " \\(a + b = b + a\\) ",
+          "fraction": 100
+        },
+        {
+          "text": " \\((a + b) + c = a + (b + c)\\) ",
+          "fraction": 0
+        },
+        {
+          "text": " \\(a + 0 = a\\) ",
+          "fraction": 0
+        },
+        {
+          "text": " \\(a - b = c\\) ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép cộng hai số tự nhiên",
+      "questiontext": "Tính tổng của hai số 117 và 23.",
+      "generalfeedback": "Ta có:  \\(117 + 23 = 140\\) .",
+      "answers": [
+        {
+          "text": "140",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép trừ hai số tự nhiên",
+      "questiontext": "Tính kết quả của phép trừ: 865 279 – 45 027. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Thực hiện phép trừ:  \\(865 279 - 45 027 = 820 252\\) .",
+      "answers": [
+        {
+          "text": "820252",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm số hạng và tổng",
+      "questiontext": "Hãy ghép mỗi thành phần hoặc phép tính ở cột bên trái với tên gọi tương ứng ở cột bên phải.",
+      "generalfeedback": "Thành phần phép cộng bao gồm các số hạng và tổng; thành phần phép trừ bao gồm số bị trừ, số trừ và hiệu.",
+      "subquestions": [
+        {
+          "question": "Các số  \\(a\\)  và  \\(b\\)  trong phép tính  \\(a + b = c\\) ",
+          "answer": "Số hạng"
+        },
+        {
+          "question": "Kết quả  \\(c\\)  trong phép tính  \\(a + b = c\\) ",
+          "answer": "Tổng"
+        },
+        {
+          "question": "Kết quả  \\(c\\)  trong phép tính  \\(a - b = c\\) ",
+          "answer": "Hiệu"
+        },
+        {
+          "question": "Số  \\(a\\)  trong phép tính  \\(a - b = c\\) ",
+          "answer": "Số bị trừ"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Tính chất giao hoán và kết hợp của phép cộng",
+      "questiontext": "Tính chất giao hoán của phép cộng phát biểu: Khi đổi chỗ các số hạng trong một tổng thì tổng [[1]]. Tính chất kết hợp phát biểu: Muốn cộng một tổng hai số với số thứ ba, ta có thể cộng số thứ nhất với [[3]] của số thứ hai và số thứ ba.",
+      "generalfeedback": "Tính chất giao hoán: tổng không đổi. Tính chất kết hợp:  \\((a + b) + c = a + (b + c)\\) .",
+      "choices": [
+        {
+          "group": 1,
+          "text": "không đổi"
+        },
+        {
+          "group": 1,
+          "text": "thay đổi"
+        },
+        {
+          "group": 2,
+          "text": "tổng"
+        },
+        {
+          "group": 2,
+          "text": "hiệu"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm số bị trừ, số trừ và hiệu",
+      "questiontext": "Trong tập hợp các số tự nhiên  \\(\\mathbb{N}\\) , phép trừ  \\(a - b\\)  chỉ thực hiện được nếu  \\(a\\)  [[1]]  \\(b\\) . Khi đó  \\(a\\)  được gọi là [[2]] và  \\(b\\)  được gọi là [[3]].",
+      "generalfeedback": "Điều kiện để thực hiện phép trừ trong  \\(\\mathbb{N}\\)  là  \\(a \\ge b\\) . Số  \\(a\\)  là số bị trừ, số  \\(b\\)  là số trừ.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "lớn hơn hoặc bằng"
+        },
+        {
+          "group": 1,
+          "text": "số bị trừ"
+        },
+        {
+          "group": 1,
+          "text": "số trừ"
+        },
+        {
+          "group": 1,
+          "text": "nhỏ hơn"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_009",
+      "questiontext": "Một cửa hàng ngày thứ nhất bán được {a} kg gạo, ngày thứ hai bán được {b} kg gạo. Hỏi cả hai ngày cửa hàng bán được bao nhiêu ki-lô-gam gạo? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Tổng số gạo bán được trong hai ngày là {a} + {b} kg.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 100.0,
+          "max": 500.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 100.0,
+          "max": 500.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}+{b}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_010",
+      "questiontext": "Bạn Mai có {a} nghìn đồng. Mai mua sách hết {b} nghìn đồng. Hỏi Mai còn lại bao nhiêu nghìn đồng? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Số tiền còn lại của Mai là {a} - {b} nghìn đồng.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 50.0,
+          "max": 200.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 10.0,
+          "max": 49.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}-{b}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_013",
+      "questiontext": "Khi thực hiện tính toán tổng  \\(285 + 470 + 115 + 230\\) , việc nhóm  \\((285 + 115) + (470 + 230)\\)  dựa trên các tính chất nào của phép cộng?",
+      "generalfeedback": "Việc thay đổi vị trí các số hạng và nhóm chúng lại sử dụng cả tính chất giao hoán và tính chất kết hợp của phép cộng.",
+      "answers": [
+        {
+          "text": "Tính chất giao hoán và tính chất kết hợp",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ tính chất giao hoán",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ tính chất kết hợp",
+          "fraction": 0
+        },
+        {
+          "text": "Không sử dụng tính chất nào",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_014",
+      "questiontext": "Tính một cách hợp lí:  \\(66 + 289 + 134 + 311\\) .",
+      "generalfeedback": "Áp dụng tính chất giao hoán và kết hợp:  \\((66 + 134) + (289 + 311) = 200 + 600 = 800\\) .",
+      "answers": [
+        {
+          "text": "800",
+          "fraction": 100
+        },
+        {
+          "text": "700",
+          "fraction": 0
+        },
+        {
+          "text": "850",
+          "fraction": 0
+        },
+        {
+          "text": "900",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép trừ hai số tự nhiên",
+      "questiontext": "Tìm số tự nhiên  \\(x\\)  thỏa mãn:  \\(25 - x = 15\\) .",
+      "generalfeedback": "Ta có:  \\(x = 25 - 15 = 10\\) .",
+      "answers": [
+        {
+          "text": "10",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép cộng hai số tự nhiên",
+      "questiontext": "Dân số Việt Nam năm 2019 là 96 462 106 người. Năm 2020, dân số tăng 876 473 người so với năm 2019. Tính dân số Việt Nam năm 2020. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Dân số năm 2020 là:  \\(96 462 106 + 876 473 = 97 338 579\\)  người.",
+      "answers": [
+        {
+          "text": "97338579",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Tính chất giao hoán và kết hợp của phép cộng",
+      "questiontext": "Phép cộng số tự nhiên có tính chất giao hoán:  \\(a + b =\\) [[1]]  và tính chất kết hợp:  \\((a + b) + c =\\) [[3]] .",
+      "generalfeedback": "Giao hoán:  \\(a + b = b + a\\) . Kết hợp:  \\((a + b) + c = a + (b + c)\\) .",
+      "choices": [
+        {
+          "group": 1,
+          "text": "b + a"
+        },
+        {
+          "group": 1,
+          "text": "a - b"
+        },
+        {
+          "group": 2,
+          "text": "a + (b + c)"
+        },
+        {
+          "group": 2,
+          "text": "(a + c) - b"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_009",
+      "questiontext": "Diện tích gieo trồng lúa vụ Thu Đông năm 2019 vùng Đồng bằng sông Cửu Long ước tính đạt 713 200 ha, giảm 14 500 ha so với vụ Thu Đông năm 2018. Diện tích gieo trồng lúa vụ Thu Đông năm 2018 là bao nhiêu héc-ta?",
+      "generalfeedback": "Diện tích năm 2018 là:  \\(713 200 + 14 500 = 727 700\\)  ha.",
+      "answers": [
+        {
+          "text": "727 700 ha",
+          "fraction": 100
+        },
+        {
+          "text": "698 700 ha",
+          "fraction": 0
+        },
+        {
+          "text": "727 000 ha",
+          "fraction": 0
+        },
+        {
+          "text": "713 200 ha",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng tính chất phép cộng để tính nhanh",
+      "questiontext": "Tính một cách hợp lí giá trị biểu thức {a} + 289 + {b} + 311 trong đó {a} và {b} là hai số tự nhiên. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Kết quả là {a} + {b} + (289 + 311) = {a} + {b} + 600.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 100.0,
+          "max": 200.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 100.0,
+          "max": 200.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}+{b}+600",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Tính chất giao hoán và kết hợp của phép cộng",
+      "questiontext": "Tổng  \\((a + b) + c\\)  hay  \\(a + (b + c)\\)  được gọi là tổng của ba số  \\(a, b, c\\)  và viết gọn là  \\(a + b + c\\) .",
+      "generalfeedback": "Theo chú ý trong SGK, tổng  \\((a + b) + c\\)  hay  \\(a + (b + c)\\)  gọi là tổng của ba số  \\(a, b, c\\)  và viết gọn là  \\(a + b + c\\) .",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_010",
+      "questiontext": "Nhà ga số 1 và nhà ga số 2 của một sân bay tiếp nhận tương ứng khoảng 6 526 300 và 3 514 500 lượt hành khách mỗi năm. Nhờ đưa vào sử dụng nhà ga số 3 mà mỗi năm sân bay có thể tiếp nhận khoảng 22 851 200 lượt hành khách. Số lượt hành khách nhà ga số 3 có thể tiếp nhận mỗi năm là bao nhiêu?",
+      "generalfeedback": "Số lượt hành khách nhà ga số 3 tiếp nhận là:  \\(22 851 200 - (6 526 300 + 3 514 500) = 22 851 200 - 10 040 800 = 12 810 400\\)  lượt.",
+      "answers": [
+        {
+          "text": "12 810 400 lượt",
+          "fraction": 100
+        },
+        {
+          "text": "12 800 000 lượt",
+          "fraction": 0
+        },
+        {
+          "text": "13 810 400 lượt",
+          "fraction": 0
+        },
+        {
+          "text": "10 040 800 lượt",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_013",
+      "questiontext": "Thay dấu \"?\" bằng số thích hợp trong phép tính: ? + 2895 = 2895 + 6789.",
+      "generalfeedback": "Theo tính chất giao hoán của phép cộng:  \\(6789 + 2895 = 2895 + 6789\\) , nên số cần tìm là 6789.",
+      "answers": [
+        {
+          "text": "6789",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Tính giá trị của biểu thức  \\(A = (2021 + 397) - (1021 + 397)\\)  một cách nhanh nhất.",
+      "generalfeedback": "Áp dụng tính chất bỏ dấu ngoặc hoặc tính chất của phép trừ:  \\(A = 2021 + 397 - 1021 - 397 = (2021 - 1021) + (397 - 397) = 1000 + 0 = 1000\\) .",
+      "answers": [
+        {
+          "text": "1000",
+          "fraction": 100
+        },
+        {
+          "text": "2000",
+          "fraction": 0
+        },
+        {
+          "text": "1021",
+          "fraction": 0
+        },
+        {
+          "text": "2021",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Một hình vuông có chu vi là 36 cm. Nếu kéo dài một cạnh về một phía thêm 4 cm và kéo dài cạnh kề với nó thêm 2 cm thì được một hình chữ nhật. Tính chu vi của hình chữ nhật đó.",
+      "generalfeedback": "Độ dài cạnh hình vuông ban đầu là:  \\(36 : 4 = 9\\)  (cm).\nChiều dài hình chữ nhật mới là:  \\(9 + 4 = 13\\)  (cm).\nChiều rộng hình chữ nhật mới là:  \\(9 + 2 = 11\\)  (cm).\nChu vi hình chữ nhật mới là:  \\((13 + 11) \\times 2 = 48\\)  (cm).",
+      "answers": [
+        {
+          "text": "48 cm",
+          "fraction": 100
+        },
+        {
+          "text": "42 cm",
+          "fraction": 0
+        },
+        {
+          "text": "52 cm",
+          "fraction": 0
+        },
+        {
+          "text": "44 cm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Cho bảng số liệu về chiều cao (cm) của 4 học sinh: An (145 cm), Bình (150 cm), Cường (142 cm), Dũng (148 cm). Tổng chiều cao của hai bạn cao nhất là bao nhiêu?",
+      "generalfeedback": "Hai bạn cao nhất là Bình (150 cm) và Dũng (148 cm).\nTổng chiều cao của hai bạn là:  \\(150 + 148 = 298\\)  cm.",
+      "answers": [
+        {
+          "text": "298 cm",
+          "fraction": 100
+        },
+        {
+          "text": "295 cm",
+          "fraction": 0
+        },
+        {
+          "text": "292 cm",
+          "fraction": 0
+        },
+        {
+          "text": "287 cm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "questiontext": "Một đoàn tàu có 5 toa xe. Toa thứ nhất chở 12 500 kg hàng. 4 toa sau, mỗi toa chở nhiều hơn toa thứ nhất 1 200 kg hàng. Hỏi cả đoàn tàu chở bao nhiêu ki-lô-gam hàng?",
+      "generalfeedback": "Số hàng mỗi toa trong 4 toa sau chở là:  \\(12 500 + 1 200 = 13 700\\)  (kg).\nTổng số hàng 4 toa sau chở là:  \\(13 700 \\times 4 = 54 800\\)  (kg).\nTổng số hàng cả đoàn tàu chở là:  \\(12 500 + 54 800 = 67 300\\)  (kg).",
+      "answers": [
+        {
+          "text": "67 300 kg",
+          "fraction": 100
+        },
+        {
+          "text": "68 500 kg",
+          "fraction": 0
+        },
+        {
+          "text": "54 800 kg",
+          "fraction": 0
+        },
+        {
+          "text": "62 500 kg",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Để hoàn thành kế hoạch quyên góp sách cho thư viện trường, lớp 6A cần 150 cuốn sách. Tuần thứ nhất lớp quyên góp được 65 cuốn, tuần thứ hai quyên góp được 58 cuốn. Hỏi lớp 6A còn cần quyên góp thêm bao nhiêu cuốn sách nữa để đạt mục tiêu?",
+      "generalfeedback": "Số sách lớp 6A đã quyên góp trong 2 tuần là:  \\(65 + 58 = 123\\)  (cuốn).\nSố sách lớp 6A còn cần quyên góp thêm là:  \\(150 - 123 = 27\\)  (cuốn).",
+      "answers": [
+        {
+          "text": "27 cuốn",
+          "fraction": 100
+        },
+        {
+          "text": "37 cuốn",
+          "fraction": 0
+        },
+        {
+          "text": "25 cuốn",
+          "fraction": 0
+        },
+        {
+          "text": "35 cuốn",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

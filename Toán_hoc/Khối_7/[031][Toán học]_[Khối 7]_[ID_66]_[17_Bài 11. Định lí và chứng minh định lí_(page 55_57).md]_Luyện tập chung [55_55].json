@@ -1,0 +1,817 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 34,
+    "metadata_used": {
+      "YCCD_TOAN7_080": 5,
+      "YCCD_TOAN7_081": 3,
+      "YCCD_TOAN7_082": 2,
+      "Các phương pháp nhận biết hai đường thẳng song song": 2,
+      "Luyện tập tính số đo góc và chứng minh hai đường thẳng song song": 8,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_TUCHUTUHOC": 1,
+      "NLC_GIAOTIEP": 1,
+      "NLT_TOAN_C2_01": 1,
+      "NLT_TOAN_C2_04": 1
+    },
+    "types_used": {
+      "multichoice": 9,
+      "truefalse": 4,
+      "matching": 4,
+      "shortanswer": 3,
+      "numerical": 3,
+      "calculated": 3,
+      "calculatedsimple": 3,
+      "gapselect": 3,
+      "ddwtos": 2
+    },
+    "total": 34
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_080",
+        "reason": "Đo lường tính chất hai đường thẳng song song qua trắc nghiệm, hình vẽ và tính toán"
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_081",
+        "reason": "Đo lường dấu hiệu song song qua cặp góc đồng vị"
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_082",
+        "reason": "Đo lường dấu hiệu song song qua cặp góc so le trong"
+      },
+      {
+        "metadata_code": "Các phương pháp nhận biết hai đường thẳng song song",
+        "reason": "Đo lường kiến thức các phương pháp nhận biệt hai đường thẳng song song"
+      },
+      {
+        "metadata_code": "Luyện tập tính số đo góc và chứng minh hai đường thẳng song song",
+        "reason": "Đo lường kỹ năng tính số đo góc và chứng minh hai đường thẳng song song"
+      },
+      {
+        "metadata_code": "PC_CHAMCHI",
+        "reason": "Đo lường phẩm chất chăm chỉ trong học tập hình học"
+      },
+      {
+        "metadata_code": "PC_TRUNGTHUC",
+        "reason": "Đo lường phẩm chất trung thực trong làm việc nhóm và nhận lỗi"
+      },
+      {
+        "metadata_code": "NLC_TUCHUTUHOC",
+        "reason": "Đo lường năng lực tự chủ và tự học cấu trúc định lí"
+      },
+      {
+        "metadata_code": "NLC_GIAOTIEP",
+        "reason": "Đo lường năng lực giao tiếp và hợp tác nhóm"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01",
+        "reason": "Đo lường năng lực tư duy và lập luận toán học trong bài chứng minh"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_04",
+        "reason": "Đo lường năng lực giao tiếp toán học qua ký hiệu GT-KL"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học thuần lý thuyết hình học về định lí và chứng minh định lí trong SGK không chứa nội dung tự nhiên về năng lực tin học/số."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Bài học thuần lý thuyết hình học không có dữ liệu tự nhiên về ứng dụng trí tuệ nhân tạo AI."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_080",
+      "questiontext": "Nếu một đường thẳng cắt hai đường thẳng song song thì hai góc đồng vị như thế nào với nhau?",
+      "generalfeedback": "Theo tính chất của hai đường thẳng song song, nếu một đường thẳng cắt hai đường thẳng song song thì hai góc đồng vị bằng nhau.",
+      "answers": [
+        {
+          "text": "Bằng nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Bù nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Kề bù",
+          "fraction": 0
+        },
+        {
+          "text": "Phụ nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_080",
+      "questiontext": "Cho hình vẽ dưới đây với \\(d' // d''\\) và \\(d \\perp d'\\):\n[img:_page_1_Picture_6.jpeg]\nKhẳng định nào sau đây là ĐÚNG về mối quan hệ giữa đường thẳng \\(d\\) và đường thẳng \\(d''\\)?",
+      "generalfeedback": "Theo định lí: Một đường thẳng vuông góc với một trong hai đường thẳng song song thì nó cũng vuông góc với đường thẳng còn lại. Vì \\(d' // d''\\) và \\(d \\perp d'\\) nên \\(d \\perp d''\\).",
+      "imgs": [
+        "_page_1_Picture_6.jpeg"
+      ],
+      "answers": [
+        {
+          "text": "\\(d \\perp d''\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(d // d''\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(d\\) trùng với \\(d''\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(d\\) cắt \\(d''\\) nhưng không vuông góc",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_081",
+      "questiontext": "Nếu một đường thẳng cắt hai đường thẳng mà trong các góc tạo thành có một cặp góc đồng vị bằng nhau thì hai đường thẳng đó song song với nhau.",
+      "generalfeedback": "Phát biểu trên là đúng. Đây chính là dấu hiệu nhận biết hai đường thẳng song song thông qua cặp góc đồng vị.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Các phương pháp nhận biết hai đường thẳng song song",
+      "questiontext": "Ghép mỗi điều kiện ở cột trái với kết luận tương ứng ở cột phải để được phương pháp nhận biết hai đường thẳng song song đúng:",
+      "generalfeedback": "Các phương pháp nhận biết hai đường thẳng song song gồm: cặp góc đồng vị bằng nhau, cặp góc so le trong bằng nhau, hoặc hai đường thẳng phân biệt cùng vuông góc với đường thẳng thứ ba.",
+      "subquestions": [
+        {
+          "question": "Đường thẳng \\(c\\) cắt \\(a, b\\) tạo ra một cặp góc đồng vị bằng nhau",
+          "answer": "\\(a // b\\)"
+        },
+        {
+          "question": "Đường thẳng \\(c\\) cắt \\(a, b\\) tạo ra một cặp góc so le trong bằng nhau",
+          "answer": "\\(a // b\\)"
+        },
+        {
+          "question": "Hai đường thẳng phân biệt \\(a\\) và \\(b\\) cùng vuông góc với đường thẳng \\(c\\)",
+          "answer": "\\(a // b\\)"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Luyện tập tính số đo góc và chứng minh hai đường thẳng song song",
+      "questiontext": "Cho hai đường thẳng song song \\(a\\) và \\(b\\). Đường thẳng \\(c\\) cắt \\(a\\) và \\(b\\) tạo thành góc \\(\\widehat{A}_1\\) và góc \\(\\widehat{B}_1\\) là hai góc so le trong. Nếu số đo góc \\(\\widehat{A}_1 = 55^{\\circ}\\) thì số đo góc \\(\\widehat{B}_1\\) bằng bao nhiêu độ? (Chỉ điền số)",
+      "generalfeedback": "Vì \\(a // b\\) nên hai góc so le trong \\(\\widehat{A}_1\\) và \\(\\widehat{B}_1\\) bằng nhau. do đó \\(\\widehat{B}_1 = 55^{\\circ}\\). Số cần điền là 55.",
+      "answers": [
+        {
+          "text": "55",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Luyện tập tính số đo góc và chứng minh hai đường thẳng song song",
+      "questiontext": "Cho \\(a // b\\), đường thẳng \\(c\\) cắt \\(a\\) tại \\(A\\) và cắt \\(b\\) tại \\(B\\). Biết góc đồng vị \\(\\widehat{A}_1 = 70^{\\circ}\\). Số đo góc đồng vị \\(\\widehat{B}_1\\) bằng bao nhiêu độ? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Vì \\(a // b\\) nên hai góc đồng vị bằng nhau: \\(\\widehat{B}_1 = \\widehat{A}_1 = 70^{\\circ}\\).",
+      "answers": [
+        {
+          "text": "70",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Luyện tập tính số đo góc và chứng minh hai đường thẳng song song",
+      "questiontext": "Cho hai đường thẳng song song \\(a\\) và \\(b\\). Đường thẳng \\(c\\) cắt \\(a\\) và \\(b\\). Biết một góc so le trong có số đo là {x} độ. Hãy tính số đo góc so le trong còn lại theo {x}. (Chỉ điền công thức chứa {x})",
+      "generalfeedback": "Vì hai đường thẳng song song nên hai góc so le trong bằng nhau, do đó góc còn lại cũng có số đo bằng {x} độ.",
+      "wildcards": [
+        {
+          "name": "x",
+          "min": 30.0,
+          "max": 150.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{x}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_080",
+      "questiontext": "Cho hai đường thẳng song song \\(a // b\\). Đường thẳng \\(c\\) cắt \\(a\\) và \\(b\\). Biết góc \\(\\widehat A_1\\) và góc \\(\\widehat A_2\\) là hai góc kề bù, góc \\(\\widehat A_1\\) có số đo là {a} độ. Hỏi góc đồng vị với góc \\(\\widehat A_2\\) tại đỉnh \\(B\\) có số đo bằng bao nhiêu độ?",
+      "generalfeedback": "Vì \\(\\widehat A_1\\) và \\(\\widehat A_2\\) kề bù nên \\(\\widehat A_2 = 180^{\\circ} - {a}\\). Do \\(a // b\\) nên góc đồng vị với \\(\\widehat A_2\\) tại đỉnh B bằng \\(\\widehat A_2 = 180 - {a}\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 40.0,
+          "max": 140.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "180-{a}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_080",
+      "questiontext": "Nếu hai đường thẳng \\(a\\) và \\(b\\) song song với nhau (\\(a // b\\)) và đường thẳng \\(c\\) cắt cả \\(a\\) và \\(b\\) thì khẳng định nào sau đây là SAI?",
+      "generalfeedback": "Khi một đường thẳng cắt hai đường thẳng song song thì hai góc đồng vị bằng nhau, hai góc so le trong bằng nhau. Khẳng định hai góc đồng vị bù nhau là sai.",
+      "answers": [
+        {
+          "text": "Hai góc đồng vị bù nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Hai góc đồng vị bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Hai góc so le trong bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Nếu \\(c \\perp a\\) thì \\(c \\perp b\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_081",
+      "questiontext": "Đường thẳng \\(c\\) cắt hai đường thẳng \\(x\\) và \\(y\\). Nếu có một cặp góc đồng vị bằng nhau thì tất cả các cặp góc đồng vị còn lại cũng bằng nhau.",
+      "generalfeedback": "Phát biểu này ĐÚNG. Vì khi có một cặp góc đồng vị bằng nhau thì \\(x // y\\), do đó tất cả các cặp góc đồng vị khác cũng bằng nhau.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_082",
+      "questiontext": "Hai góc nằm ở vị trí trong của hai đường thẳng và nằm về hai phía so với đường thẳng cắt gọi là hai góc gì? (Điền tên vị trí góc)",
+      "generalfeedback": "Đó là hai góc so le trong.",
+      "answers": [
+        {
+          "text": "so le trong",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Luyện tập tính số đo góc và chứng minh hai đường thẳng song song",
+      "questiontext": "Cho \\(m // n\\). Đường thẳng \\(p\\) cắt \\(m\\) và \\(n\\) tạo thành góc so le trong \\(\\widehat{M}_1 = 120^{\\circ}\\). Tính số đo góc kề bù với góc so le trong \\(\\widehat{N}_1\\) tại đỉnh \\(N\\). (Chỉ điền số)",
+      "generalfeedback": "Vì \\(m // n\\) nên góc so le trong \\(\\widehat{N}_1 = \\widehat{M}_1 = 120^{\\circ}\\). Góc kề bù với \\(\\widehat{N}_1\\) có số đo là \\(180^{\\circ} - 120^{\\circ} = 60^{\\circ}\\). Số cần điền là 60.",
+      "answers": [
+        {
+          "text": "60",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Các phương pháp nhận biết hai đường thẳng song song",
+      "questiontext": "Để chứng minh hai đường thẳng \\(a\\) và \\(b\\) song song, ta có thể chứng minh chúng cùng [[1]] với đường thẳng thứ ba \\(c\\), hoặc chỉ ra một cặp góc [[2]] bằng nhau.",
+      "generalfeedback": "Các phương pháp nhận biết: Hai đường thẳng phân biệt cùng vuông góc với đường thẳng thứ ba thì song song; hoặc nếu tạo ra cặp góc so le trong (hoặc đồng vị) bằng nhau thì song song.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "vuông góc"
+        },
+        {
+          "group": 1,
+          "text": "so le trong"
+        },
+        {
+          "group": 1,
+          "text": "song song"
+        },
+        {
+          "group": 1,
+          "text": "kề bù"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_080",
+      "questiontext": "Hãy ghép cặp giữa vị trí góc và tính chất khi một đường thẳng cắt hai đường thẳng song song:",
+      "generalfeedback": "Khi cắt hai đường thẳng song song: Hai góc đồng vị bằng nhau; Hai góc so le trong bằng nhau; Hai góc kề bù có tổng số đo bằng \\(180^{\\circ}\\).",
+      "subquestions": [
+        {
+          "question": "Hai góc đồng vị",
+          "answer": "Bằng nhau"
+        },
+        {
+          "question": "Hai góc so le trong",
+          "answer": "Bằng nhau"
+        },
+        {
+          "question": "Hai góc kề bù",
+          "answer": "Có tổng số đo bằng 180 độ"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Luyện tập tính số đo góc và chứng minh hai đường thẳng song song",
+      "questiontext": "Cho hai đường thẳng song song \\(x // y\\). Đường thẳng \\(z\\) cắt \\(x, y\\) lần lượt tại \\(A, B\\). Biết góc so le trong tại \\(A\\) bằng {a} độ. Hãy tính số đo của góc kề bù với góc đồng vị tại \\(B\\). (Tính theo công thức chứa {a})",
+      "generalfeedback": "Góc đồng vị tại B bằng góc so le trong tại A và bằng {a}. Góc kề bù với góc này có số đo bằng 180 - {a}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 20.0,
+          "max": 160.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "180-{a}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_081",
+      "questiontext": "Nếu đường thẳng \\(c\\) cắt hai đường thẳng \\(a, b\\) và trong các góc tạo thành có một cặp góc [[1]] bằng nhau thì hai đường thẳng \\(a\\) và \\(b\\) [[2]] với nhau.",
+      "generalfeedback": "Dấu hiệu nhận biết hai đường thẳng song song qua cặp góc đồng vị bằng nhau.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "đồng vị"
+        },
+        {
+          "group": 1,
+          "text": "song song"
+        },
+        {
+          "group": 1,
+          "text": "kề bù"
+        },
+        {
+          "group": 1,
+          "text": "vuông góc"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Luyện tập tính số đo góc và chứng minh hai đường thẳng song song",
+      "questiontext": "Quan sát hình vẽ định lí hai góc đối đỉnh:\n[img:_page_1_Picture_11.jpeg]\nĐâu là giả thiết (GT) của định lí \"Hai góc đối đỉnh thì bằng nhau\"?",
+      "generalfeedback": "Trong định lí 'Nếu ... thì ...', phần giữa 'nếu' và 'thì' là giả thiết. Ở đây giả thiết là 'Hai góc đối đỉnh'.",
+      "imgs": [
+        "_page_1_Picture_11.jpeg"
+      ],
+      "answers": [
+        {
+          "text": "Hai góc đối đỉnh",
+          "fraction": 100
+        },
+        {
+          "text": "Hai góc bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Hai góc kề bù",
+          "fraction": 0
+        },
+        {
+          "text": "Hai góc vuông",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "thong_hieu",
+      "metadata_code": "Luyện tập tính số đo góc và chứng minh hai đường thẳng song song",
+      "questiontext": "Cho \\(a // b\\). Một đường thẳng \\(c\\) cắt \\(a\\) và \\(b\\). Biết một góc đồng vị có số đo là {x} độ. Hỏi góc đồng vị còn lại có số đo bằng bao nhiêu? (Điền biểu thức chứa {x})",
+      "generalfeedback": "Vì \\(a // b\\) nên hai góc đồng vị bằng nhau, số đo góc đồng vị còn lại là {x}.",
+      "wildcards": [
+        {
+          "name": "x",
+          "min": 10.0,
+          "max": 170.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{x}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_080",
+      "questiontext": "Nếu hai đường thẳng \\(a\\) và \\(b\\) song song với nhau (\\(a // b\\)) và đường thẳng \\(c\\) cắt cả \\(a\\) và \\(b\\) thì khẳng định nào sau đây là SAI?",
+      "generalfeedback": "Khi một đường thẳng cắt hai đường thẳng song song thì hai góc đồng vị bằng nhau, hai góc so le trong bằng nhau. Khẳng định hai góc đồng vị bù nhau là sai.",
+      "answers": [
+        {
+          "text": "Hai góc đồng vị bù nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Hai góc đồng vị bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Hai góc so le trong bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Nếu \\(c \\perp a\\) thì \\(c \\perp b\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_081",
+      "questiontext": "Đường thẳng \\(c\\) cắt hai đường thẳng \\(x\\) và \\(y\\). Nếu có một cặp góc đồng vị bằng nhau thì tất cả các cặp góc đồng vị còn lại cũng bằng nhau.",
+      "generalfeedback": "Phát biểu này ĐÚNG. Vì khi có một cặp góc đồng vị bằng nhau thì \\(x // y\\), do đó tất cả các cặp góc đồng vị khác cũng bằng nhau.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_082",
+      "questiontext": "Hai góc nằm ở vị trí trong của hai đường thẳng và nằm về hai phía so với đường thẳng cắt gọi là hai góc gì? (Điền tên vị trí góc)",
+      "generalfeedback": "Đó là hai góc so le trong.",
+      "answers": [
+        {
+          "text": "so le trong",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Luyện tập tính số đo góc và chứng minh hai đường thẳng song song",
+      "questiontext": "Cho \\(m // n\\). Đường thẳng \\(p\\) cắt \\(m\\) và \\(n\\) tạo thành góc so le trong \\(\\widehat{M}_1 = 120^{\\circ}\\). Tính số đo góc kề bù với góc so le trong \\(\\widehat{N}_1\\) tại đỉnh \\(N\\). (Chỉ điền số)",
+      "generalfeedback": "Vì \\(m // n\\) nên góc so le trong \\(\\widehat{N}_1 = \\widehat{M}_1 = 120^{\\circ}\\). Góc kề bù với \\(\\widehat{N}_1\\) có số đo là \\(180^{\\circ} - 120^{\\circ} = 60^{\\circ}\\). Số cần điền là 60.",
+      "answers": [
+        {
+          "text": "60",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Các phương pháp nhận biết hai đường thẳng song song",
+      "questiontext": "Để chứng minh hai đường thẳng \\(a\\) và \\(b\\) song song, ta có thể chứng minh chúng cùng [[1]] với đường thẳng thứ ba \\(c\\), hoặc chỉ ra một cặp góc [[2]] bằng nhau.",
+      "generalfeedback": "Các phương pháp nhận biết: Hai đường thẳng phân biệt cùng vuông góc với đường thẳng thứ ba thì song song; hoặc nếu tạo ra cặp góc so le trong (hoặc đồng vị) bằng nhau thì song song.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "vuông góc"
+        },
+        {
+          "group": 1,
+          "text": "so le trong"
+        },
+        {
+          "group": 1,
+          "text": "song song"
+        },
+        {
+          "group": 1,
+          "text": "kề bù"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_080",
+      "questiontext": "Hãy ghép cặp giữa vị trí góc và tính chất khi một đường thẳng cắt hai đường thẳng song song:",
+      "generalfeedback": "Khi cắt hai đường thẳng song song: Hai góc đồng vị bằng nhau; Hai góc so le trong bằng nhau; Hai góc kề bù có tổng số đo bằng \\(180^{\\circ}\\).",
+      "subquestions": [
+        {
+          "question": "Hai góc đồng vị",
+          "answer": "Bằng nhau"
+        },
+        {
+          "question": "Hai góc so le trong",
+          "answer": "Bằng nhau"
+        },
+        {
+          "question": "Hai góc kề bù",
+          "answer": "Có tổng số đo bằng 180 độ"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Luyện tập tính số đo góc và chứng minh hai đường thẳng song song",
+      "questiontext": "Cho hai đường thẳng song song \\(x // y\\). Đường thẳng \\(z\\) cắt \\(x, y\\) lần lượt tại \\(A, B\\). Biết góc so le trong tại \\(A\\) bằng {a} độ. Hãy tính số đo của góc kề bù với góc đồng vị tại \\(B\\). (Tính theo công thức chứa {a})",
+      "generalfeedback": "Góc đồng vị tại B bằng góc so le trong tại A và bằng {a}. Góc kề bù với góc này có số đo bằng 180 - {a}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 20.0,
+          "max": 160.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "180-{a}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_081",
+      "questiontext": "Nếu đường thẳng \\(c\\) cắt hai đường thẳng \\(a, b\\) và trong các góc tạo thành có một cặp góc [[1]] bằng nhau thì hai đường thẳng \\(a\\) và \\(b\\) [[2]] với nhau.",
+      "generalfeedback": "Dấu hiệu nhận biết hai đường thẳng song song qua cặp góc đồng vị bằng nhau.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "đồng vị"
+        },
+        {
+          "group": 1,
+          "text": "song song"
+        },
+        {
+          "group": 1,
+          "text": "kề bù"
+        },
+        {
+          "group": 1,
+          "text": "vuông góc"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Luyện tập tính số đo góc và chứng minh hai đường thẳng song song",
+      "questiontext": "Quan sát hình vẽ định lí hai góc đối đỉnh:\n[img:_page_1_Picture_11.jpeg]\nĐâu là giả thiết (GT) của định lí \"Hai góc đối đỉnh thì bằng nhau\"?",
+      "generalfeedback": "Trong định lí 'Nếu ... thì ...', phần giữa 'nếu' và 'thì' là giả thiết. Ở đây giả thiết là 'Hai góc đối đỉnh'.",
+      "imgs": [
+        "_page_1_Picture_11.jpeg"
+      ],
+      "answers": [
+        {
+          "text": "Hai góc đối đỉnh",
+          "fraction": 100
+        },
+        {
+          "text": "Hai góc bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Hai góc kề bù",
+          "fraction": 0
+        },
+        {
+          "text": "Hai góc vuông",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "thong_hieu",
+      "metadata_code": "Luyện tập tính số đo góc và chứng minh hai đường thẳng song song",
+      "questiontext": "Cho \\(a // b\\). Một đường thẳng \\(c\\) cắt \\(a\\) và \\(b\\). Biết một góc đồng vị có số đo là {x} độ. Hỏi góc đồng vị còn lại có số đo bằng bao nhiêu? (Điền biểu thức chứa {x})",
+      "generalfeedback": "Vì \\(a // b\\) nên hai góc đồng vị bằng nhau, số đo góc đồng vị còn lại là {x}.",
+      "wildcards": [
+        {
+          "name": "x",
+          "min": 10.0,
+          "max": 170.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{x}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Trong giờ bài tập Toán hình học, khi gặp bài toán chứng minh định lí \"Một đường thẳng vuông góc với một trong hai đường thẳng song song thì nó cũng vuông góc với đường thẳng còn lại\", bạn Nam cảm thấy khó và bài chứng minh dài. Để thể hiện phẩm chất chăm chỉ, bạn Nam nên thực hiện hành động nào sau đây?",
+      "generalfeedback": "Phẩm chất chăm chỉ thể hiện qua sự kiên nhẫn, tự giác suy luận, vẽ hình và vạch ra các bước chứng minh toán học dựa trên kiến thức đã học.",
+      "answers": [
+        {
+          "text": "Kiên nhẫn đọc kỹ giả thiết, vẽ hình, tự vạch ra các bước suy luận từ \\(d' // d''\\) và \\(d \\perp d'\\) để suy ra \\(d \\perp d''\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài tập này và chờ thầy cô giải mẫu trên lớp để chép vào vở.",
+          "fraction": 0
+        },
+        {
+          "text": "Mượn vở bài tập của bạn khác để chép đáp án cho xong bài tập về nhà.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ làm các câu trắc nghiệm dễ, bỏ qua toàn bộ các bài toán yêu cầu chứng minh định lí.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "van_dung",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Khi thảo luận nhóm về chứng minh định lí \"Hai góc kề bù bằng nhau thì mỗi góc là một góc vuông\", bạn Minh lỡ làm sai một bước suy luận và được bạn khác chỉ ra. Để thể hiện tính trung thực trong học tập, Minh nên thừa nhận sai sót trong lập luận của mình và cùng nhóm sửa lại cho đúng.",
+      "generalfeedback": "Tính trung thực trong học tập thể hiện ở việc sẵn sàng thừa nhận sai sót trong lập luận toán học và tiếp thu góp ý để hoàn thiện bài chứng minh.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Để tự học hiệu quả cấu trúc của một định lí toán học trong SGK, bạn An lập kế hoạch tự tóm tắt: Phần nằm giữa từ \"nếu\" và từ \"thì\" là [[1]] của định lí, còn phần nằm sau từ \"thì\" là [[2]] của định lí.",
+      "generalfeedback": "Năng lực tự chủ và tự học thể hiện qua việc học sinh tự hệ thống hóa kiến thức: phần giữa từ \"nếu\" và \"thì\" là giả thiết, phần sau từ \"thì\" là kết luận.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "giả thiết"
+        },
+        {
+          "group": 1,
+          "text": "kết luận"
+        },
+        {
+          "group": 1,
+          "text": "chứng minh"
+        },
+        {
+          "group": 1,
+          "text": "định nghĩa"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_GIAOTIEP",
+      "questiontext": "Trong buổi làm việc nhóm để trình bày chứng minh định lí \"Nếu một đường thẳng cắt hai đường thẳng song song thì hai góc đồng vị bằng nhau\", các thành viên cần phân công nhiệm vụ phù hợp với năng lực giao tiếp và hợp tác. Hãy ghép đúng vai trò hợp tác ở cột trái với hành động tương ứng ở cột phải:",
+      "generalfeedback": "Năng lực giao tiếp và hợp tác thể hiện qua việc phân công công việc rõ ràng, phối hợp hiệu quả giữa vẽ hình, ghi giả thiết - kết luận và giải thích lập luận toán học.",
+      "subquestions": [
+        {
+          "question": "Thành viên vẽ hình",
+          "answer": "Vẽ chính xác hình mô tả hai đường thẳng song song a, b và đường thẳng c cắt chúng"
+        },
+        {
+          "question": "Thành viên viết GT - KL",
+          "answer": "Trình bày rõ ràng giả thiết a // b và kết luận góc A1 = góc B1 bằng kí hiệu toán học"
+        },
+        {
+          "question": "Thành viên đại diện nhóm báo cáo",
+          "answer": "Giải thích lưu loát các bước lập luận dựa trên tiên đề Euclid trước lớp"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Quan sát sơ đồ chứng minh định lí hai góc đồng vị bằng nhau trong SGK:\n[img:_page_1_Picture_16.jpeg]\nĐể chứng minh \\(\\widehat{A}_1 = \\widehat{B}_1\\) khi \\(a // b\\), người ta kẻ đường thẳng \\(b'\\) qua \\(B\\) sao cho \\(\\widehat{B}_2 = \\widehat{A}_1\\). Chuỗi lập luận toán học nào sau đây thể hiện đúng tư duy suy diễn logic của bài chứng minh?",
+      "generalfeedback": "Lập luận toán học chặt chẽ: Dựa vào dấu hiệu nhận biết hai đường thẳng song song để có a // b', sau đó vận dụng tiên đề Euclid suy ra b' trùng b, từ đó kết luận hai góc đồng vị A1 và B1 bằng nhau.",
+      "imgs": [
+        "_page_1_Picture_16.jpeg"
+      ],
+      "answers": [
+        {
+          "text": "Từ \\(\\widehat{B}_2 = \\widehat{A}_1\\) (hai góc đồng vị) \\(\\Rightarrow a // b'\\). Qua \\(B\\) có hai đường thẳng \\(b, b'\\) cùng song song với \\(a\\) \\(\\Rightarrow b'\\) trùng \\(b\\) (theo tiên đề Euclid) \\(\\Rightarrow \\widehat{B}_1 = \\widehat{A}_1\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Từ \\(a // b\\) \\(\\Rightarrow b'\\) vuông góc với \\(a \\Rightarrow \\widehat{B}_2 = 90^{\\circ} \\Rightarrow \\widehat{A}_1 = \\widehat{B}_1\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Đo trực tiếp số đo góc \\(\\widehat{A}_1\\) và góc \\(\\widehat{B}_1\\) bằng thước đo góc rồi kết luận chúng bằng nhau trong mọi trường hợp.",
+          "fraction": 0
+        },
+        {
+          "text": "Giả sử \\(a\\) không song song với \\(b\\) để suy ra hai góc đồng vị bằng nhau.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04",
+      "questiontext": "Để thể hiện năng lực giao tiếp toán học khi trình bày định lí \"Một đường thẳng vuông góc với một trong hai đường thẳng song song thì nó cũng vuông góc với đường thẳng còn lại\", cách biểu diễn bằng kí hiệu toán học (Giả thiết - Kết luận) nào sau đây là ĐÚNG chuẩn?",
+      "generalfeedback": "Năng lực giao tiếp toán học đòi hỏi chuyển đổi chính xác từ ngôn ngữ văn bản sang ngôn ngữ ký hiệu GT và KL: Giả thiết là d' // d'' và d \\perp d', Kết luận là d \\perp d''.",
+      "answers": [
+        {
+          "text": "GT: \\(d, d', d''\\) là các đường thẳng, \\(d' // d''\\), \\(d \\perp d'\\) | KL: \\(d \\perp d''\\)",
+          "fraction": 100
+        },
+        {
+          "text": "GT: \\(d \\perp d''\\) | KL: \\(d' // d''\\) và \\(d \\perp d'\\)",
+          "fraction": 0
+        },
+        {
+          "text": "GT: \\(d' // d''\\) | KL: \\(d \\perp d'\\) và \\(d \\perp d''\\)",
+          "fraction": 0
+        },
+        {
+          "text": "GT: \\(d, d', d''\\) cắt nhau | KL: \\(d' // d'' // d\\)",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

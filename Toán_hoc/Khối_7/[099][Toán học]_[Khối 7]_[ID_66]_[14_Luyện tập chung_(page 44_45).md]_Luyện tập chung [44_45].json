@@ -1,0 +1,700 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 28,
+    "metadata_used": {
+      "YCCD_TOAN7_053": 2,
+      "YCCD_TOAN7_054": 2,
+      "YCCD_TOAN7_055": 2,
+      "YCCD_TOAN7_056": 2,
+      "YCCD_TOAN7_057": 2,
+      "Phối hợp 4 phép tính cộng": 2,
+      "trừ": 2,
+      "nhân": 2,
+      "chia đa thức một biến": 2,
+      "Giải các bài toán tổng hợp biểu thức đại số và tìm nghiệm đa thức": 2
+    },
+    "types_used": {
+      "multichoice": 3,
+      "truefalse": 2,
+      "shortanswer": 2,
+      "numerical": 2,
+      "matching": 2,
+      "gapselect": 2,
+      "ddwtos": 2,
+      "calculated": 2,
+      "calculatedsimple": 2,
+      "calculatedmulti": 1
+    },
+    "total": 28
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_053",
+        "reason": "Thực hiện phép cộng đa thức một biến trong SGK"
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_054",
+        "reason": "Thực hiện phép trừ đa thức một biến trong SGK"
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_055",
+        "reason": "Thực hiện phép nhân đa thức một biến trong SGK"
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_056",
+        "reason": "Thực hiện phép chia đa thức một biến trong SGK"
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_057",
+        "reason": "Vận dụng tính chất phép tính đa thức một biến"
+      },
+      {
+        "metadata_code": "Phối hợp 4 phép tính cộng",
+        "reason": "Phối hợp 4 phép tính cộng đa thức một biến"
+      },
+      {
+        "metadata_code": "trừ",
+        "reason": "Phối hợp 4 phép tính trừ đa thức một biến"
+      },
+      {
+        "metadata_code": "nhân",
+        "reason": "Phối hợp 4 phép tính nhân đa thức một biến"
+      },
+      {
+        "metadata_code": "chia đa thức một biến",
+        "reason": "Phối hợp 4 phép tính chia đa thức một biến"
+      },
+      {
+        "metadata_code": "Giải các bài toán tổng hợp biểu thức đại số và tìm nghiệm đa thức",
+        "reason": "Giải bài toán tổng hợp đại số và tìm nghiệm/tham số"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học thuộc chủ đề phép tính đa thức một biến thuần lý thuyết và luyện tập đại số, không chứa nội dung liên quan tự nhiên đến công nghệ tin học/số."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Bài học đại số lớp 7 thuần túy không có bối cảnh tích hợp trí tuệ nhân tạo (AI) một cách tự nhiên."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_053",
+      "questiontext": "Rút gọn biểu thức \\(A = 2x(x + 3) + x(4x - 6)\\) ta được kết quả là:",
+      "generalfeedback": "Ta có: \\(A = 2x^2 + 6x + 4x^2 - 6x = (2x^2 + 4x^2) + (6x - 6x) = 6x^2\\).",
+      "answers": [
+        {
+          "text": "\\(6x^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(6x^2 + 12x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2x^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(6x\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_054",
+      "questiontext": "Cho hai đa thức \\(P(x) = 3x^2(x + 2)\\) và \\(Q(x) = 3x^3 + 6x^2 - 5\\). Kết quả của phép trừ \\(P(x) - Q(x)\\) bằng \\(5\\). Khẳng định này Đúng hay Sai?",
+      "generalfeedback": "Ta có: \\(P(x) = 3x^3 + 6x^2\\). Do đó \\(P(x) - Q(x) = (3x^3 + 6x^2) - (3x^3 + 6x^2 - 5) = 5\\). Khẳng định trên là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_055",
+      "questiontext": "Rút gọn biểu thức \\(B = (x - 1)(x + 1)(x^2 + 1)\\) ta được kết quả dưới dạng đa thức là \\(x^4 - a\\). Giá trị của số \\(a\\) là bao nhiêu?",
+      "generalfeedback": "Ta có \\(B = (x - 1)(x + 1)(x^2 + 1) = (x^2 - 1)(x^2 + 1) = x^4 - 1\\). Do đó \\(a = 1\\).",
+      "answers": [
+        {
+          "text": "1",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_056",
+      "questiontext": "Cho phép chia đa thức \\((5x^3 - 4x^2) : (2x^2)\\). Hệ số của biến \\(x\\) trong thương nhận được là bao nhiêu? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Ta có \\((5x^3 - 4x^2) : (2x^2) = 5x^3 : (2x^2) - 4x^2 : (2x^2) = 2.5x - 2\\). Hệ số của \\(x\\) trong thương là 2.5.",
+      "answers": [
+        {
+          "text": "2.5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_057",
+      "questiontext": "Một hình hộp chữ nhật có ba kích thước lần lượt là \\(x\\), \\(x + 1\\) và \\(x + 2\\) (với \\(x > 0\\)). Hãy ghép nối mỗi đại lượng ở cột bên trái với biểu thức biểu thị tương ứng ở cột bên phải:",
+      "generalfeedback": "Thể tích \\(V = x(x+1)(x+2) = x^3 + 3x^2 + 2x\\). Tổng diện tích hai mặt có kích thước \\(x\\) và \\(x+1\\) là \\(2x^2 + 2x\\). Diện tích toàn phần \\(S = 6x^2 + 12x + 4\\).",
+      "subquestions": [
+        {
+          "question": "Thể tích hình hộp chữ nhật",
+          "answer": "\\(x^3 + 3x^2 + 2x\\)"
+        },
+        {
+          "question": "Tổng diện tích hai mặt có kích thước \\(x\\) và \\(x + 1\\)",
+          "answer": "\\(2x^2 + 2x\\)"
+        },
+        {
+          "question": "Diện tích toàn phần của hình hộp chữ nhật",
+          "answer": "\\(6x^2 + 12x + 4\\)"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Phối hợp 4 phép tính cộng",
+      "questiontext": "Cho biểu thức \\(M = 3x(2x^2 - x) - 2x^2(3x + 1) + 5(x^2 - 1)\\). Sau khi thực hiện phép tính và thu gọn, ta thu được kết quả là [[1]]. Đây là một đa thức [[2]] theo biến \\(x\\).",
+      "generalfeedback": "Ta có: \\(M = 6x^3 - 3x^2 - 6x^3 - 2x^2 + 5x^2 - 5 = -5\\). Đây là hằng số (đa thức bậc 0).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "-5"
+        },
+        {
+          "group": 1,
+          "text": "bậc 0"
+        },
+        {
+          "group": 1,
+          "text": "5"
+        },
+        {
+          "group": 1,
+          "text": "bậc 1"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "trừ",
+      "questiontext": "Rút gọn biểu thức \\(P(x) = x^2(7x - 5) - (28x^5 - 20x^4 - 12x^3) : (4x^2)\\).\n- Bước 1: Thực hiện phép nhân \\(x^2(7x - 5) =\\) [[1]].\n- Bước 2: Thực hiện phép chia \\((28x^5 - 20x^4 - 12x^3) : (4x^2) =\\) [[2]].\n- Bước 3: Thu gọn \\(P(x) =\\) [[3]].",
+      "generalfeedback": "Thực hiện từng bước: \\(x^2(7x - 5) = 7x^3 - 5x^2\\); \\((28x^5 - 20x^4 - 12x^3) : (4x^2) = 7x^3 - 5x^2 - 3x\\); do đó \\(P(x) = (7x^3 - 5x^2) - (7x^3 - 5x^2 - 3x) = 3x\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(7x^3 - 5x^2\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(7x^3 - 5x^2 - 3x\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(3x\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(7x^3 + 3x\\)"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "nhân",
+      "questiontext": "Tìm giá trị của \\(x\\) thỏa mãn đẳng thức: \\(3x^2 - 3x(x - 2) =\\) {a}. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Ta có: \\(3x^2 - 3x(x - 2) = 3x^2 - 3x^2 + 6x = 6x\\). Do đó \\(6x =\\) {a} \\(\\Rightarrow x =\\) {a} / 6.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 12.0,
+          "max": 60.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}/6",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "chia đa thức một biến",
+      "questiontext": "Cho phép chia đa thức \\(x^3 - 3x^2 + 2x -\\) {b} cho đa thức \\(x - 3\\). Giá trị của {b} để đây là phép chia hết là bao nhiêu? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Thực hiện phép chia: \\(x^3 - 3x^2 + 2x -\\) {b} \\(= (x - 3)(x^2 + 2) + (6 -\\) {b}\\). Để chia hết thì phần dư bằng 0, tức là \\(6 -\\) {b} \\(= 0 \\Rightarrow\\) {b} \\(= 6\\).",
+      "wildcards": [
+        {
+          "name": "b",
+          "min": 6.0,
+          "max": 6.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "6",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "Giải các bài toán tổng hợp biểu thức đại số và tìm nghiệm đa thức",
+      "questiontext": "Trong một trò chơi Toán học, biểu thức thu gọn tính điểm là \\(P(x) = 3x\\). Khi chủ trò đọc giá trị \\(a =\\) {a}, điểm số của người chơi tính được là bao nhiêu?",
+      "generalfeedback": "Giá trị của biểu thức tại \\(x =\\) {a} là \\(P(\\){a}\\() = 3 \\cdot\\) {a}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "3*{a}",
+          "fraction": 100
+        },
+        {
+          "text": "3+{a}",
+          "fraction": 0
+        },
+        {
+          "text": "pow({a}, 3)",
+          "fraction": 0
+        },
+        {
+          "text": "{a}+3",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_053",
+      "questiontext": "Cho hai đa thức \\(P(x) = x^2 - 3x + 2\\) và \\(Q(x) = 2x^2 + 3x - 5\\). Đa thức \\(M(x) = P(x) + Q(x)\\) là:",
+      "generalfeedback": "Ta có: \\(M(x) = (x^2 + 2x^2) + (-3x + 3x) + (2 - 5) = 3x^2 - 3\\).",
+      "answers": [
+        {
+          "text": "\\(3x^2 - 3\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(3x^2 + 6x - 3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(3x^2 - 6x - 3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(3x^2 + 3\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_054",
+      "questiontext": "Cho đa thức \\(A(x) = 5x^3 - 2x^2 + 4x - 1\\) và \\(B(x) = 5x^3 - 2x^2 - x + 3\\). Hiệu \\(A(x) - B(x)\\) bằng:",
+      "generalfeedback": "Ta có: \\(A(x) - B(x) = (5x^3 - 5x^3) + (-2x^2 - (-2x^2)) + (4x - (-x)) + (-1 - 3) = 5x - 4\\).",
+      "answers": [
+        {
+          "text": "\\(5x - 4\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(3x + 2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(5x + 2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(10x^3 - 4x^2 + 3x + 2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_055",
+      "questiontext": "Kết quả của phép nhân đơn thức \\(3x^2\\) với đa thức \\(2x^2 - 5x + 1\\) là \\(6x^4 - 15x^3 + 3x^2\\). Khẳng định này Đúng hay Sai?",
+      "generalfeedback": "Ta có: \\(3x^2 \\cdot (2x^2 - 5x + 1) = 3x^2 \\cdot 2x^2 - 3x^2 \\cdot 5x + 3x^2 \\cdot 1 = 6x^4 - 15x^3 + 3x^2\\). Khẳng định là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_056",
+      "questiontext": "Thực hiện phép chia đa thức \\((12x^4 - 8x^3 + 4x^2) : (4x^2)\\). Bậc của đa thức thương nhận được là bao nhiêu?",
+      "generalfeedback": "Thực hiện phép chia: \\((12x^4 - 8x^3 + 4x^2) : (4x^2) = 3x^2 - 2x + 1\\). Đây là đa thức bậc 2.",
+      "answers": [
+        {
+          "text": "2",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_057",
+      "questiontext": "Giá trị của biểu thức \\(C = x(x^2 - y) - x^2(x + y) + y(x^2 + x)\\) tại \\(x = 2026\\) và \\(y = -5\\) bằng bao nhiêu? (Chỉ điền số)",
+      "generalfeedback": "Biến đổi: \\(C = x^3 - xy - x^3 - x^2y + x^2y + xy = 0\\). Giá trị biểu thức luôn bằng 0 với mọi \\(x, y\\).",
+      "answers": [
+        {
+          "text": "0",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Phối hợp 4 phép tính cộng",
+      "questiontext": "Ghép nối mỗi phép tính ở cột bên trái với kết quả thu gọn tương ứng ở cột bên phải:",
+      "generalfeedback": "\\((2x^2 + 3x) + (x^2 - 3x) = 3x^2\\); \\((5x^2 - 2x) - (2x^2 - 2x) = 3x^2\\); \\(x(3x + 4) - 4x = 3x^2\\).",
+      "subquestions": [
+        {
+          "question": "\\((2x^2 + 3x) + (x^2 - 3x)\\)",
+          "answer": "\\(3x^2\\)"
+        },
+        {
+          "question": "\\((5x^2 - 2x) - (2x^2 - 2x)\\)",
+          "answer": "\\(3x^2\\)"
+        },
+        {
+          "question": "\\(x(3x + 4) - 4x\\)",
+          "answer": "\\(3x^2\\)"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "trừ",
+      "questiontext": "Cho đa thức \\(Q(x) = (x^3 - 4x^2 + 3x) : x - (x - 2)^2\\). Thu gọn \\(Q(x)\\) ta được \\(Q(x) =\\) [[1]]. Giá trị của \\(Q(x)\\) tại \\(x = 5\\) là [[2]].",
+      "generalfeedback": "Ta có: \\((x^3 - 4x^2 + 3x) : x = x^2 - 4x + 3\\). Mặt khác \\((x - 2)^2 = x^2 - 4x + 4\\). Do đó \\(Q(x) = (x^2 - 4x + 3) - (x^2 - 4x + 4) = -1\\). Giá trị tại \\(x = 5\\) vẫn là -1.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "-1"
+        },
+        {
+          "group": 1,
+          "text": "1"
+        },
+        {
+          "group": 1,
+          "text": "2"
+        },
+        {
+          "group": 1,
+          "text": "5"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "nhân",
+      "questiontext": "Kéo thả các biểu thức thích hợp vào chỗ trống để hoàn thiện lời giải bài toán tìm \\(x\\): \\(2x(x - 3) - 2x^2 = 12\\).\n- Ta có: \\(2x(x - 3) - 2x^2 =\\) [[1]] \\(- 2x^2 =\\) [[2]].\n- Do đó: [[2]] \\(= 12 \\Rightarrow x =\\) [[3]].",
+      "generalfeedback": "\\(2x(x - 3) = 2x^2 - 6x\\). Do đó \\(2x^2 - 6x - 2x^2 = -6x\\). Suy ra \\(-6x = 12 \\Rightarrow x = -2\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(2x^2 - 6x\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(-6x\\)"
+        },
+        {
+          "group": 1,
+          "text": "-2"
+        },
+        {
+          "group": 1,
+          "text": "2"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "chia đa thức một biến",
+      "questiontext": "Cho biểu thức \\(H(x) = (4x^2 - 6x) : (2x) +\\) {k}. Giá trị của \\(H(x)\\) tại \\(x = 3\\) là bao nhiêu?",
+      "generalfeedback": "\\((4x^2 - 6x) : (2x) = 2x - 3\\). Tại \\(x = 3\\), giá trị bằng \\(2(3) - 3 +\\) {k} \\(= 3 +\\) {k}.",
+      "wildcards": [
+        {
+          "name": "k",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "3+{k}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Giải các bài toán tổng hợp biểu thức đại số và tìm nghiệm đa thức",
+      "questiontext": "Một mảnh đất hình chữ nhật có chiều dài là \\(x +\\) {c} (m) và chiều rộng là \\(x\\) (m). Diện tích mảnh đất khi \\(x = 10\\) (m) là bao nhiêu m²?",
+      "generalfeedback": "Diện tích mảnh đất là \\(S = x(x +\\) {c}\\()\\). Khi \\(x = 10\\), \\(S = 10 \\cdot (10 +\\) {c}\\() = 100 + 10 \\cdot\\) {c}.",
+      "wildcards": [
+        {
+          "name": "c",
+          "min": 2.0,
+          "max": 8.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "10*(10+{c})",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Bạn Nam gặp một bài toán rút gọn biểu thức đa thức phức tạp: \\(P(x) = 3x(2x^2 - x) - 2x^2(3x + 1) + 5(x^2 - 1)\\). Nam nhận thấy bài toán có nhiều phép tính nên định bỏ qua. Để thể hiện phẩm chất chăm chỉ và ý chí vượt khó trong học tập, Nam nên thực hiện như thế nào?",
+      "generalfeedback": "Phẩm chất chăm chỉ thể hiện ở sự kiên trì, không ngại khó khăn, cẩn thận thực hiện từng bước biến đổi nhân đơn thức với đa thức và thu gọn các hạng tử đồng dạng để tìm ra kết quả chính xác.",
+      "answers": [
+        {
+          "text": "Kiên nhẫn thực hiện từng bước nhân đơn thức với đa thức, thu gọn các hạng tử đồng dạng để tìm ra kết quả.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài toán không làm vì bài toán dài và phức tạp.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép ngay kết quả của bạn bên cạnh để nộp bài cho nhanh.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ làm phép nhân đầu tiên rồi đoán ngẫu nhiên kết quả.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Trong giờ kiểm tra Toán, khi rút gọn biểu thức \\(A = (5x^3 - 4x^2) : (2x^2)\\), bạn An tính ra kết quả là \\(2.5x - 2\\). Tuy nhiên, An phát hiện mình viết nhầm dấu ở nháp nhưng kết quả vô tình trùng với đáp án. Bạn An tự giác gạch đi làm lại cẩn thận từng bước đúng quy tắc chia đa thức. Hành động của An đã thể hiện phẩm chất trung thực trong học tập. Khẳng định này Đúng hay Sai?",
+      "generalfeedback": "Hành động tự giác sửa lại bài cho đúng bản chất quy tắc toán học, không gian dối dù kết quả vô tình trùng khớp, thể hiện rõ phẩm chất trung thực trong học tập.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Để tự chủ và tự học hiệu quả nội dung phép chia đa thức một biến (ví dụ phép chia \\((12x^4 - 8x^3 + 4x^2) : (4x^2)\\)), quy trình tự học hợp lý nhất mà học sinh nên thực hiện là:",
+      "generalfeedback": "Năng lực tự chủ và tự học thể hiện ở việc chủ động đọc hiểu lý thuyết, phân tích bài tập mẫu, tự luyện tập và kiểm tra, rút kinh nghiệm qua bài giải.",
+      "answers": [
+        {
+          "text": "Xem lại lý thuyết chia đa thức cho đơn thức, tự giải bài tập ra nháp, sau đó đối chiếu kết quả và phân tích lỗi sai (nếu có).",
+          "fraction": 100
+        },
+        {
+          "text": "Chép thẳng lời giải từ sách giải vào vở mà không cần đọc lại lý thuyết.",
+          "fraction": 0
+        },
+        {
+          "text": "Chờ thầy cô sửa bài trên lớp rồi chép lại mà không tự làm trước.",
+          "fraction": 0
+        },
+        {
+          "text": "Nhờ người khác làm hộ toàn bộ bài tập về nhà.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLC_GIAIQUYETVD",
+      "questiontext": "Trong trò chơi tính nhanh giá trị biểu thức \\(P(x) = x^2(7x - 5) - (28x^5 - 20x^4 - 12x^3) : (4x^2)\\) tại \\(x = 5\\), bạn Vuông đã tính ngay được \\(P(5) = 15\\) và chiến thắng. Giải pháp giải quyết vấn đề sáng tạo và tối ưu nhất của Vuông là gì?",
+      "generalfeedback": "Rút gọn biểu thức trước giúp biến biểu thức phức tạp thành \\(P(x) = 3x\\), từ đó việc tính giá trị tại \\(x = 5\\) trở nên cực kỳ đơn giản và nhanh chóng (\\(P(5) = 3 \\cdot 5 = 15\\)).",
+      "answers": [
+        {
+          "text": "Thu gọn biểu thức \\(P(x)\\) về dạng đơn giản nhất \\(P(x) = 3x\\) trước, rồi mới thay \\(x = 5\\) vào tính.",
+          "fraction": 100
+        },
+        {
+          "text": "Thay trực tiếp \\(x = 5\\) vào biểu thức chưa thu gọn rồi thực hiện các phép tính lũy thừa lớn.",
+          "fraction": 0
+        },
+        {
+          "text": "Đoán ngẫu nhiên một con số vì không thể tính nhanh được.",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua phép chia đa thức và chỉ tính phần phép nhân đầu tiên.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Cho đa thức \\(A(x) = x^3 - 3x^2 + 2x - b\\). Lập luận toán học nào sau đây là ĐÚNG để tìm giá trị của \\(b\\) sao cho \\(A(x)\\) chia hết cho đa thức \\(x - 3\\)?",
+      "generalfeedback": "Lập luận toán học chặt chẽ dựa trên phép chia đa thức: Thực hiện phép chia \\(A(x)\\) cho \\(x - 3\\) thu được thương là \\(x^2 + 2\\) và dư là \\(6 - b\\). Để phép chia là phép chia hết thì dư phải bằng 0, tức là \\(6 - b = 0 \\Rightarrow b = 6\\).",
+      "answers": [
+        {
+          "text": "Chia \\(A(x)\\) cho \\(x - 3\\) được phần dư là \\(6 - b\\); để phép chia hết thì phần dư bằng 0, suy ra \\(6 - b = 0 \\Rightarrow b = 6\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Vì đa thức chia là \\(x - 3\\) nên giá trị \\(b\\) phải bằng 3.",
+          "fraction": 0
+        },
+        {
+          "text": "Hệ số tự do của \\(A(x)\\) là \\(-b\\) nên \\(b\\) phải bằng 0 thì mới chia hết.",
+          "fraction": 0
+        },
+        {
+          "text": "Phép chia đa thức luôn luôn chia hết với mọi giá trị của \\(b\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "questiontext": "Một thùng chứa hàng hình hộp chữ nhật không nắp có ba kích thước đáy và chiều cao lần lượt là \\(x\\), \\(x + 1\\) và \\(x + 2\\) (mét, với \\(x > 0\\)). Khi mô hình hóa toán học để tính tổng diện tích tôn cần dùng làm thùng (không tính mép hàn), biểu thức đa thức thu được là:",
+      "generalfeedback": "Thùng không nắp gồm 1 mặt đáy kích thước \\(x \\times (x + 1)\\) và 4 mặt xung quanh (2 mặt \\(x \\times (x + 2)\\) và 2 mặt \\((x + 1) \\times (x + 2)\\)). Tổng diện tích tôn: \\(S = x(x+1) + 2x(x+2) + 2(x+1)(x+2) = 5x^2 + 11x + 4\\).",
+      "answers": [
+        {
+          "text": "\\(5x^2 + 11x + 4\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(6x^2 + 12x + 4\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x^3 + 3x^2 + 2x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(3x^2 + 6x + 2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Hãy ghép nối mỗi thao tác tư duy toán học ở cột bên trái với mục đích tương ứng khi xử lý bài toán đại số ở cột bên phải:",
+      "generalfeedback": "Mỗi thao tác tư duy và lập luận toán học hướng tới mục đích cụ thể trong quá trình giải toán đại số.",
+      "subquestions": [
+        {
+          "question": "Phân tích và thu gọn đa thức",
+          "answer": "Đưa biểu thức phức tạp về dạng đơn giản nhất để dễ tính toán"
+        },
+        {
+          "question": "Đặt tính chia đa thức một biến",
+          "answer": "Xác định đa thức thương và phần dư của phép chia"
+        },
+        {
+          "question": "Mô hình hóa toán học tình huống thực tế",
+          "answer": "Biểu diễn các đại lượng thực tế bằng biểu thức đại số chứa biến"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Trong quá trình học tập môn Toán, phẩm chất chăm chỉ được thể hiện khi học sinh [[1]] thực hiện đầy đủ các bước giải bài tập, không bỏ dở giữa chừng khi gặp bài toán khó và luôn [[2]] kiểm tra lại kết quả bài làm.",
+      "generalfeedback": "Phẩm chất chăm chỉ đòi hỏi sự kiên trì và chủ động cẩn thận trong quá trình học tập.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "kiên trì"
+        },
+        {
+          "group": 1,
+          "text": "cẩn thận"
+        },
+        {
+          "group": 1,
+          "text": "vội vàng"
+        },
+        {
+          "group": 1,
+          "text": "bỏ qua"
+        }
+      ]
+    }
+  ]
+}

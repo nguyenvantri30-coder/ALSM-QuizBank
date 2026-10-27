@@ -1,0 +1,702 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 28,
+    "metadata_used": {
+      "Khái niệm Hình bình hành": 1,
+      "Định lí Tính chất các cạnh đối, góc đối, hai đường chéo của hình bình hành": 7,
+      "YCCD_TOAN8_070": 1,
+      "Sử dụng tính chất cạnh đối, góc đối của hình bình hành": 5,
+      "YCCD_TOAN8_071": 1,
+      "Nhận biết hình bình hành": 3,
+      "Sử dụng tính chất trung điểm hai đường chéo để chứng minh": 2,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TULUC_C2_01": 2,
+      "NLT_TOAN_C2_01_02": 2,
+      "NLT_TOAN_C2_04_12": 2
+    },
+    "types_used": {
+      "multichoice": 11,
+      "truefalse": 3,
+      "gapselect": 3,
+      "calculatedsimple": 2,
+      "numerical": 2,
+      "matching": 3,
+      "ddwtos": 3,
+      "shortanswer": 1
+    }
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN8_070",
+        "reason": "Đo lường khả năng giải thích tính chất về cạnh đối của hình bình hành."
+      },
+      {
+        "metadata_code": "YCCD_TOAN8_071",
+        "reason": "Đo lường khả năng giải thích tính chất về góc đối của hình bình hành."
+      },
+      {
+        "metadata_code": "Khái niệm Hình bình hành",
+        "reason": "Đo lường nhận thức khái niệm hình bình hành."
+      },
+      {
+        "metadata_code": "Định lí Tính chất các cạnh đối, góc đối, hai đường chéo của hình bình hành",
+        "reason": "Đo lường kiến thức về định lí tính chất cạnh đối, góc đối, hai đường chéo."
+      },
+      {
+        "metadata_code": "Nhận biết hình bình hành",
+        "reason": "Đo lường kỹ năng nhận biết hình bình hành dựa trên định nghĩa."
+      },
+      {
+        "metadata_code": "Sử dụng tính chất cạnh đối, góc đối của hình bình hành",
+        "reason": "Đo lường kỹ năng sử dụng tính chất cạnh đối, góc đối để tính toán."
+      },
+      {
+        "metadata_code": "Sử dụng tính chất trung điểm hai đường chéo để chứng minh",
+        "reason": "Đo lường kỹ năng sử dụng tính chất trung điểm hai đường chéo."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học Toán 8 về khái niệm và tính chất hình bình hành thuần lý thuyết hình học phẳng, không chứa nội dung ứng dụng công cụ tin học/số một cách tự nhiên."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Bài học Toán 8 về hình bình hành không liên quan trực tiếp đến nguyên lý hay ứng dụng của Trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm Hình bình hành",
+      "questiontext": "Hình bình hành là tứ giác như thế nào?",
+      "generalfeedback": "Theo định nghĩa trong SGK, hình bình hành là tứ giác có các cạnh đối song song.",
+      "answers": [
+        {
+          "text": "Có các cạnh đối song song",
+          "fraction": 100
+        },
+        {
+          "text": "Có bốn góc vuông",
+          "fraction": 0
+        },
+        {
+          "text": "Có bốn cạnh bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Có hai đường chéo vuông góc với nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Định lí Tính chất các cạnh đối, góc đối, hai đường chéo của hình bình hành",
+      "questiontext": "Trong một hình bình hành, hai đường chéo cắt nhau tại trung điểm của mỗi đường. Đúng hay Sai?",
+      "generalfeedback": "Theo Định lí 1 về tính chất hình bình hành, hai đường chéo cắt nhau tại trung điểm của mỗi đường.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_070",
+      "questiontext": "Cho hình bình hành \\(ABCD\\). Khi kẻ đường chéo \\(AC\\), ta chứng minh được \\(\\triangle ABC = \\triangle CDA\\) (g.c.g). Từ đó suy ra tính chất gì về các cạnh đối của hình bình hành?",
+      "generalfeedback": "Từ \\(\\triangle ABC = \\triangle CDA\\), ta suy ra \\(AB = CD\\) và \\(AD = BC\\), tức các cạnh đối bằng nhau.",
+      "answers": [
+        {
+          "text": "Các cạnh đối bằng nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Các cạnh đối vuông góc với nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Các cạnh đối cắt nhau tại trung điểm",
+          "fraction": 0
+        },
+        {
+          "text": "Các góc kề bù nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Định lí Tính chất các cạnh đối, góc đối, hai đường chéo của hình bình hành",
+      "questiontext": "Trong hình bình hành: Các cạnh đối [[1]]; Các góc đối [[2]]; Hai đường chéo cắt nhau tại [[3]] của mỗi đường.",
+      "generalfeedback": "Theo Định lí 1: Các cạnh đối bằng nhau, các góc đối bằng nhau, hai đường chéo cắt nhau tại trung điểm của mỗi đường.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "bằng nhau"
+        },
+        {
+          "group": 1,
+          "text": "song song"
+        },
+        {
+          "group": 1,
+          "text": "trung điểm"
+        },
+        {
+          "group": 1,
+          "text": "vuông góc"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Sử dụng tính chất cạnh đối, góc đối của hình bình hành",
+      "questiontext": "Cho hình bình hành \\(ABCD\\) có độ dài cạnh AB = {a} cm và cạnh BC = {b} cm. Tính chu vi của hình bình hành \\(ABCD\\) (Chỉ điền số, không ghi đơn vị).",
+      "generalfeedback": "Chu vi hình bình hành bằng 2 x (AB + BC) = 2 x ({a} + {b}).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 3.0,
+          "max": 15.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 2.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "2*({a}+{b})",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_071",
+      "questiontext": "Trong hình bình hành \\(ABCD\\), việc chứng minh \\(\\triangle ABC = \\triangle CDA\\) dẫn đến \\(\\widehat{ABC} = \\widehat{CDA}\\). Kết quả này giải thích cho tính chất nào của hình bình hành?",
+      "generalfeedback": "Kết quả \\(\\widehat{ABC} = \\widehat{CDA}\\) giải thích cho tính chất các góc đối của hình bình hành bằng nhau.",
+      "answers": [
+        {
+          "text": "Các góc đối bằng nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Hai góc kề một cạnh bù nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Các góc kề một cạnh bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Các góc đối bù nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Sử dụng tính chất cạnh đối, góc đối của hình bình hành",
+      "questiontext": "Cho hình bình hành \\(ABCD\\) có \\(\\widehat{A} = 70^\\circ\\). Tính số đo góc \\(B\\) theo đơn vị độ (Chỉ điền số, không ghi đơn vị).",
+      "generalfeedback": "Trong hình bình hành, hai góc kề một cạnh thì bù nhau nên \\(\\widehat{B} = 180^\\circ - \\widehat{A} = 180^\\circ - 70^\\circ = 110^\\circ\\).",
+      "answers": [
+        {
+          "text": "110",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Định lí Tính chất các cạnh đối, góc đối, hai đường chéo của hình bình hành",
+      "questiontext": "Cho hình bình hành \\(ABCD\\) có hai đường chéo \\(AC\\) và \\(BD\\) cắt nhau tại \\(O\\). Ghép mỗi yếu tố ở cột bên trái với yếu tố tương ứng bằng nó ở cột bên phải:",
+      "generalfeedback": "Trong hình bình hành \\(ABCD\\): các cạnh đối bằng nhau \\(AB = CD\\), \\(AD = BC\\); giao điểm \\(O\\) của hai đường chéo là trung điểm mỗi đường nên \\(OA = OC\\), \\(OB = OD\\).",
+      "subquestions": [
+        {
+          "question": "Đoạn thẳng AB bằng",
+          "answer": "Đoạn thẳng CD"
+        },
+        {
+          "question": "Đoạn thẳng AD bằng",
+          "answer": "Đoạn thẳng BC"
+        },
+        {
+          "question": "Đoạn thẳng OA bằng",
+          "answer": "Đoạn thẳng OC"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Định lí Tính chất các cạnh đối, góc đối, hai đường chéo của hình bình hành",
+      "questiontext": "Trong hình bình hành, hai góc kề một cạnh bất kì thì [[1]] nhau, còn hai góc đối thì [[2]] nhau.",
+      "generalfeedback": "Theo nhận xét và định lí trong SGK: Hai góc kề một cạnh bất kì bù nhau (tổng bằng 180°), hai góc đối thì bằng nhau.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "bù"
+        },
+        {
+          "group": 1,
+          "text": "bằng"
+        },
+        {
+          "group": 1,
+          "text": "phụ"
+        },
+        {
+          "group": 1,
+          "text": "kề"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết hình bình hành",
+      "questiontext": "Cho tứ giác \\(ABCD\\) có \\(AB // CD\\) và \\(AD // BC\\). Kết luận nào sau đây là đúng về tứ giác \\(ABCD\\)?",
+      "generalfeedback": "Theo định nghĩa, tứ giác có các cạnh đối song song (\\(AB // CD\\) và \\(AD // BC\\)) là hình bình hành.",
+      "answers": [
+        {
+          "text": "Tứ giác ABCD là hình bình hành",
+          "fraction": 100
+        },
+        {
+          "text": "Tứ giác ABCD là hình thang cân",
+          "fraction": 0
+        },
+        {
+          "text": "Tứ giác ABCD là hình chữ nhật",
+          "fraction": 0
+        },
+        {
+          "text": "Tứ giác ABCD là hình vuông",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết hình bình hành",
+      "questiontext": "Tứ giác \\(ABCD\\) có \\(AB = CD\\) và \\(AD = BC\\). Kết luận nào sau đây là đúng?",
+      "generalfeedback": "Theo Định lí 2a, tứ giác có các cạnh đối bằng nhau là một hình bình hành.",
+      "answers": [
+        {
+          "text": "Tứ giác ABCD là hình bình hành",
+          "fraction": 100
+        },
+        {
+          "text": "Tứ giác ABCD là hình thang cân",
+          "fraction": 0
+        },
+        {
+          "text": "Tứ giác ABCD là hình chữ nhật",
+          "fraction": 0
+        },
+        {
+          "text": "Tứ giác ABCD không phải là hình bình hành",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Định lí Tính chất các cạnh đối, góc đối, hai đường chéo của hình bình hành",
+      "questiontext": "Tứ giác có một cặp cạnh đối song song và bằng nhau là một hình bình hành. Đúng hay Sai?",
+      "generalfeedback": "Theo Định lí 2b, tứ giác có một cặp cạnh đối song song và bằng nhau là một hình bình hành.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Sử dụng tính chất trung điểm hai đường chéo để chứng minh",
+      "questiontext": "Cho hình bình hành \\(ABCD\\) có hai đường chéo \\(AC\\) và \\(BD\\) cắt nhau tại \\(O\\). Biết \\(OA = 5\\) cm, độ dài đoạn thẳng \\(AC\\) là [[1]] cm. Biết \\(BD = 12\\) cm, độ dài đoạn thẳng \\(OB\\) là [[2]] cm.",
+      "generalfeedback": "Vì hai đường chéo cắt nhau tại trung điểm của mỗi đường nên \\(AC = 2 \\times OA = 10\\) cm và \\(OB = BD / 2 = 6\\) cm.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "10"
+        },
+        {
+          "group": 1,
+          "text": "6"
+        },
+        {
+          "group": 1,
+          "text": "5"
+        },
+        {
+          "group": 1,
+          "text": "12"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Sử dụng tính chất cạnh đối, góc đối của hình bình hành",
+      "questiontext": "Cho hình bình hành \\(ABCD\\) có độ dài cạnh \\(AD = 8\\) cm. Tính độ dài cạnh \\(BC\\) theo đơn vị cm (Chỉ điền số, không ghi đơn vị).",
+      "generalfeedback": "Trong hình bình hành, các cạnh đối bằng nhau nên \\(BC = AD = 8\\) cm.",
+      "answers": [
+        {
+          "text": "8",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Sử dụng tính chất trung điểm hai đường chéo để chứng minh",
+      "questiontext": "Cho hình bình hành \\(ABCD\\) có hai đường chéo \\(AC\\) và \\(BD\\) cắt nhau tại \\(O\\). Biết \\(OB = 4\\) cm, tính độ dài đường chéo \\(BD\\) (Chỉ điền số, không ghi đơn vị).",
+      "generalfeedback": "Hai đường chéo của hình bình hành cắt nhau tại trung điểm mỗi đường, do đó \\(BD = 2 \\times OB = 2 \\times 4 = 8\\) cm.",
+      "answers": [
+        {
+          "text": "8",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Định lí Tính chất các cạnh đối, góc đối, hai đường chéo của hình bình hành",
+      "questiontext": "Trong các khẳng định sau, khẳng định nào đúng?",
+      "generalfeedback": "Theo Bài tập 3.13a, hình thang có hai cạnh bên song song là hình bình hành (vì có 2 cặp cạnh đối song song).",
+      "answers": [
+        {
+          "text": "Hình thang có hai cạnh bên song song là hình bình hành",
+          "fraction": 100
+        },
+        {
+          "text": "Hình thang có hai cạnh bên bằng nhau luôn là hình bình hành",
+          "fraction": 0
+        },
+        {
+          "text": "Tứ giác có hai góc đối bằng nhau là hình thang cân",
+          "fraction": 0
+        },
+        {
+          "text": "Tứ giác có một cặp cạnh đối song song là hình bình hành",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết hình bình hành",
+      "questiontext": "Ghép mỗi điều kiện ở cột bên trái với kết luận dấu hiệu nhận biết hình bình hành tương ứng ở cột bên phải:",
+      "generalfeedback": "Các dấu hiệu nhận biết hình bình hành theo Định lí 2 và 3.",
+      "subquestions": [
+        {
+          "question": "Tứ giác có các cạnh đối bằng nhau",
+          "answer": "là hình bình hành (Định lí 2a)"
+        },
+        {
+          "question": "Tứ giác có một cặp cạnh đối song song và bằng nhau",
+          "answer": "là hình bình hành (Định lí 2b)"
+        },
+        {
+          "question": "Tứ giác có hai đường chéo cắt nhau tại trung điểm mỗi đường",
+          "answer": "là hình bình hành (Định lí 3b)"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Sử dụng tính chất cạnh đối, góc đối của hình bình hành",
+      "questiontext": "Cho hình bình hành \\(ABCD\\) có số đo góc \\(A\\) bằng {a} độ. Tính số đo góc \\(C\\) theo đơn vị độ (Chỉ điền số, không ghi đơn vị).",
+      "generalfeedback": "Trong hình bình hành, hai góc đối bằng nhau nên số đo góc C bằng số đo góc A.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 30.0,
+          "max": 150.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Định lí Tính chất các cạnh đối, góc đối, hai đường chéo của hình bình hành",
+      "questiontext": "Tứ giác có hai đường chéo cắt nhau tại [[1]] của mỗi đường là một hình bình hành. Tứ giác có các góc đối [[2]] là một hình bình hành.",
+      "generalfeedback": "Theo Định lí 3: Tứ giác có các góc đối bằng nhau là hình bình hành; Tứ giác có hai đường chéo cắt nhau tại trung điểm của mỗi đường là hình bình hành.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "trung điểm"
+        },
+        {
+          "group": 1,
+          "text": "bằng nhau"
+        },
+        {
+          "group": 1,
+          "text": "vuông góc"
+        },
+        {
+          "group": 1,
+          "text": "song song"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Sử dụng tính chất cạnh đối, góc đối của hình bình hành",
+      "questiontext": "Cho hình bình hành \\(ABCD\\) có \\(\\widehat{A} = 60^\\circ\\). Số đo của \\(\\widehat{C}\\) là:",
+      "generalfeedback": "Trong hình bình hành \\(ABCD\\), hai góc đối \\(\\widehat{A}\\) và \\(\\widehat{C}\\) bằng nhau nên \\(\\widehat{C} = 60^\\circ\\).",
+      "answers": [
+        {
+          "text": "60°",
+          "fraction": 100
+        },
+        {
+          "text": "120°",
+          "fraction": 0
+        },
+        {
+          "text": "180°",
+          "fraction": 0
+        },
+        {
+          "text": "30°",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi gặp một bài toán hình học khó về chứng minh tứ giác là hình bình hành, bạn Nam chưa tìm ra cách giải ngay. Bạn Nam nên thực hiện hành động nào sau đây để thể hiện tinh thần luôn cố gắng vươn lên trong học tập?",
+      "generalfeedback": "Hành động chủ động đọc lại định nghĩa, tính chất, dấu hiệu nhận biết hình bình hành trong SGK và kiên trì suy luận thể hiện tinh thần cố gắng vươn lên đạt kết quả tốt trong học tập.",
+      "answers": [
+        {
+          "text": "Chủ động đọc lại định nghĩa, tính chất và các dấu hiệu nhận biết hình bình hành trong SGK, kiên trì suy luận để tìm ra cách giải",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài toán khó và chỉ làm những bài toán dễ đã biết làm",
+          "fraction": 0
+        },
+        {
+          "text": "Chép ngay bài giải của bạn khác để nộp đúng hạn mà không cần hiểu",
+          "fraction": 0
+        },
+        {
+          "text": "Đợi thầy cô chữa bài rồi chép lời giải vào vở mà không suy nghĩ trước",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi làm bài tập về tính chất góc của hình bình hành và bị tính sai kết quả, việc bạn An tự tìm lại chỗ sai trong quá trình tính toán và làm lại bài toán là thể hiện thái độ cố gắng vươn lên trong học tập. Đúng hay Sai?",
+      "generalfeedback": "Tự nhận ra sai sót, tìm nguyên nhân và kiên trì khắc phục lỗi sai trong học tập là biểu hiện rõ nét của việc cố gắng vươn lên đạt kết quả tốt.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_TCTH_TULUC_C2_01",
+      "questiontext": "Để ôn tập hiệu quả nội dung Bài 12. Hình bình hành, bạn Mai tự lập bảng tổng hợp các dấu hiệu nhận biết hình bình hành. Cách làm nào sau đây thể hiện sự chủ động và tích cực trong học tập của bạn Mai?",
+      "generalfeedback": "Việc tự tóm tắt, phân loại rõ ràng các dấu hiệu nhận biết theo cạnh, theo góc và theo đường chéo giúp bạn Mai chủ động ghi nhớ và vận dụng kiến thức.",
+      "answers": [
+        {
+          "text": "Tự phân loại các dấu hiệu nhận biết thành nhóm về cạnh, nhóm về góc và nhóm về đường chéo để dễ so sánh và ghi nhớ",
+          "fraction": 100
+        },
+        {
+          "text": "Chờ giáo viên phát bảng tổng hợp mẫu rồi mới đọc qua một lần",
+          "fraction": 0
+        },
+        {
+          "text": "Mượn vở của bạn khác chép lại toàn bộ mà không tự hệ thống",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ học thuộc lòng định nghĩa hình bình hành và bỏ qua các định lí tính chất",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TULUC_C2_01",
+      "questiontext": "Trong quá trình tự học bài Hình bình hành, em muốn hệ thống lại các kiến thức cốt lõi. Hãy ghép mỗi nội dung kiến thức ở cột bên trái với phân loại kiến thức tương ứng ở cột bên phải:",
+      "generalfeedback": "Sự chủ động hệ thống kiến thức giúp người học nắm vững khái niệm, tính chất và dấu hiệu nhận biết hình bình hành.",
+      "subquestions": [
+        {
+          "question": "Tứ giác có các cạnh đối song song",
+          "answer": "Khái niệm hình bình hành"
+        },
+        {
+          "question": "Trong hình bình hành, hai đường chéo cắt nhau tại trung điểm của mỗi đường",
+          "answer": "Tính chất của hình bình hành"
+        },
+        {
+          "question": "Tứ giác có các cạnh đối bằng nhau là một hình bình hành",
+          "answer": "Dấu hiệu nhận biết hình bình hành"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_02",
+      "questiontext": "Quan sát các hình tứ giác trong thực tế (như khung ô cửa sổ xô lệch, các mắt lưới rào bảo vệ, cánh cổng xếp), em có thể dựa vào dấu hiệu trực quan nào sau đây để dự đoán tứ giác đó là một hình bình hành?",
+      "generalfeedback": "Quan sát thấy các cặp cạnh đối diện luôn song song hoặc bằng nhau là dấu hiệu trực quan nhận biết hình bình hành trong thực tế.",
+      "answers": [
+        {
+          "text": "Quan sát thấy hai cặp cạnh đối diện song song hoặc có độ dài bằng nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Quan sát thấy bốn góc của tứ giác đều là góc vuông",
+          "fraction": 0
+        },
+        {
+          "text": "Quan sát thấy hai đường chéo vuông góc với nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Quan sát thấy tứ giác có bốn cạnh bằng nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_02",
+      "questiontext": "Khi quan sát hình ảnh hai con đường thẳng cắt nhau và điểm dân cư \\(O\\) ở giữa (Hình 3.27 trong SGK), để mở con đường đi qua \\(O\\) cắt hai con đường tại \\(A\\) và \\(B\\) sao cho \\(OA = OB\\), ta cần quan sát và nhận ra \\(O\\) chính là [[1]] của đoạn thẳng \\(AB\\) trong một hình bình hành có hai cạnh nằm trên hai con đường đó.",
+      "generalfeedback": "Năng lực quan sát tình huống giúp nhận ra cấu trúc hình bình hành, trong đó O là trung điểm của đường chéo AB.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "trung điểm"
+        },
+        {
+          "group": 1,
+          "text": "đỉnh"
+        },
+        {
+          "group": 1,
+          "text": "góc"
+        },
+        {
+          "group": 1,
+          "text": "cạnh đối"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04_12",
+      "questiontext": "Để diễn đạt tính chất Các góc đối của hình bình hành thì bằng nhau bằng ngôn ngữ toán học kết hợp với ký hiệu cho hình bình hành \\(ABCD\\), cách biểu đạt nào sau đây là chính xác nhất?",
+      "generalfeedback": "Biểu đạt chính xác kết hợp ngôn ngữ thông thường và ký hiệu toán học: Trong hình bình hành \\(ABCD\\), ta có \\(\\widehat{A} = \\widehat{C}\\) và \\(\\widehat{B} = \\widehat{D}\\).",
+      "answers": [
+        {
+          "text": "Trong hình bình hành \\(ABCD\\), các góc đối bằng nhau nghĩa là \\(\\widehat{A} = \\widehat{C}\\) và \\(\\widehat{B} = \\widehat{D}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Trong hình bình hành \\(ABCD\\), các góc kề bằng nhau nghĩa là \\(\\widehat{A} = \\widehat{B}\\) và \\(\\widehat{C} = \\widehat{D}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Trong hình bình hành \\(ABCD\\), tổng hai góc bằng \\(180^\\circ\\) nghĩa là \\(\\widehat{A} + \\widehat{C} = 180^\\circ\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Trong hình bình hành \\(ABCD\\), các cạnh đối bằng nhau nghĩa là \\(AB = CD\\) và \\(AD = BC\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04_12",
+      "questiontext": "Chuyển phát biểu thông thường sau sang dạng ký hiệu toán học: Tứ giác \\(ABCD\\) có cặp cạnh đối \\(AB\\) và \\(CD\\) song song và bằng nhau là một hình bình hành. Khi đó, giả thiết được viết là: [[1]] và [[2]].",
+      "generalfeedback": "Sử dụng ngôn ngữ ký hiệu toán học: \\(AB // CD\\) biểu diễn song song và \\(AB = CD\\) biểu diễn độ dài bằng nhau.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(AB // CD\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(AB = CD\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(AC = BD\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(AD \\perp BC\\)"
+        }
+      ]
+    }
+  ]
+}

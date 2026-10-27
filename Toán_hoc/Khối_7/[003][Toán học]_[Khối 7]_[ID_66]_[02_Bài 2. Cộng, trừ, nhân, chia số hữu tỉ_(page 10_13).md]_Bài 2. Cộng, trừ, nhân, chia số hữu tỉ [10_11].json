@@ -1,0 +1,674 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 26,
+    "metadata_used": {
+      "Quy tắc cộng hai số hữu tỉ": 2,
+      "Quy tắc trừ hai số hữu tỉ": 2,
+      "Quy tắc dấu ngoặc trong phép cộng trừ": 2,
+      "Thực hiện phép cộng hai số hữu tỉ": 2,
+      "Thực hiện phép trừ hai số hữu tỉ": 2,
+      "Áp dụng quy tắc dấu ngoặc": 2,
+      "YCCD_TOAN7_008": 2,
+      "YCCD_TOAN7_009": 2,
+      "YCCD_TOAN7_017": 2,
+      "YCCD_TOAN7_023": 2,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_TUCHUTUHOC": 1,
+      "NLC_GIAOTIEP": 1,
+      "NLT_TOAN_C2_01": 1,
+      "NLT_TOAN_C2_03": 1
+    },
+    "types_used": {
+      "multichoice": 12,
+      "truefalse": 2,
+      "gapselect": 3,
+      "numerical": 4,
+      "matching": 1,
+      "calculatedsimple": 2,
+      "ddwtos": 2
+    },
+    "total": 26
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_008",
+        "reason": "Thực hiện được phép cộng trong tập hợp số hữu tỉ."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_009",
+        "reason": "Thực hiện được phép trừ trong tập hợp số hữu tỉ."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_017",
+        "reason": "Mô tả được quy tắc dấu ngoặc trong tập hợp số hữu tỉ."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_023",
+        "reason": "Giải quyết được một số vấn đề thực tiễn gắn với các phép tính về số hữu tỉ."
+      },
+      {
+        "metadata_code": "Quy tắc cộng hai số hữu tỉ",
+        "reason": "Đo lường hiểu biết về quy tắc cộng hai số hữu tỉ."
+      },
+      {
+        "metadata_code": "Quy tắc trừ hai số hữu tỉ",
+        "reason": "Đo lường hiểu biết về quy tắc trừ hai số hữu tỉ."
+      },
+      {
+        "metadata_code": "Quy tắc dấu ngoặc trong phép cộng trừ",
+        "reason": "Đo lường hiểu biết về quy tắc dấu ngoặc trong phép cộng trừ."
+      },
+      {
+        "metadata_code": "Thực hiện phép cộng hai số hữu tỉ",
+        "reason": "Đo lường kỹ năng thực hiện phép cộng hai số hữu tỉ."
+      },
+      {
+        "metadata_code": "Thực hiện phép trừ hai số hữu tỉ",
+        "reason": "Đo lường kỹ năng thực hiện phép trừ hai số hữu tỉ."
+      },
+      {
+        "metadata_code": "Áp dụng quy tắc dấu ngoặc",
+        "reason": "Đo lường kỹ năng áp dụng quy tắc dấu ngoặc."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học Toán 7 (Tiết 1: Cộng và trừ hai số hữu tỉ) không chứa nội dung dạy về công cụ/kỹ năng tin học trong danh mục metadata chuẩn."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Bài học Toán 7 (Tiết 1: Cộng và trừ hai số hữu tỉ) không chứa nội dung liên quan đến ứng dụng trí tuệ nhân tạo (AI) trong danh mục metadata chuẩn."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc cộng hai số hữu tỉ",
+      "questiontext": "Muốn cộng hai số hữu tỉ \\(x\\) và \\(y\\), ta có thể viết chúng dưới dạng hai phân số có cùng mẫu dương \\(x = \\frac{a}{m}\\) và \\(y = \\frac{b}{m}\\) (với \\(a, b, m \\in \\mathbb{Z}, m > 0\\)). Khi đó, \\(x + y\\) bằng:",
+      "generalfeedback": "Theo quy tắc cộng hai số hữu tỉ: \\(x + y = \\frac{a}{m} + \\frac{b}{m} = \\frac{a + b}{m}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{a + b}{m}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{a + b}{2m}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{a \\cdot b}{m}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{a - b}{m}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc trừ hai số hữu tỉ",
+      "questiontext": "Phép trừ hai số hữu tỉ được thực hiện bằng cách viết chúng dưới dạng phân số rồi áp dụng quy tắc trừ phân số. Phát biểu này đúng hay sai?",
+      "generalfeedback": "Ta có thể cộng, trừ hai số hữu tỉ bằng cách viết chúng dưới dạng phân số rồi áp dụng quy tắc cộng, trừ phân số.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc dấu ngoặc trong phép cộng trừ",
+      "questiontext": "Khi bỏ dấu ngoặc có dấu \\(-\\) đằng trước, ta phải [[1]] dấu tất cả các số hạng trong dấu ngoặc. Khi bỏ dấu ngoặc có dấu \\(+\\) đằng trước, ta [[2]] dấu các số hạng trong dấu ngoặc.",
+      "generalfeedback": "Theo quy tắc dấu ngoặc: Bỏ dấu ngoặc có dấu '-' đằng trước thì đổi dấu tất cả các số hạng; bỏ dấu ngoặc có dấu '+' đằng trước thì giữ nguyên dấu các số hạng.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "đổi"
+        },
+        {
+          "group": 1,
+          "text": "giữ nguyên"
+        },
+        {
+          "group": 1,
+          "text": "bỏ"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện phép cộng hai số hữu tỉ",
+      "questiontext": "Kết quả của phép tính \\(\\frac{-7}{8} + \\frac{5}{12}\\) dưới dạng phân số tối giản là:",
+      "generalfeedback": "\\(\\frac{-7}{8} + \\frac{5}{12} = \\frac{-21}{24} + \\frac{10}{24} = \\frac{-11}{24}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{-11}{24}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{-1}{10}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{11}{24}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{-2}{20}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện phép trừ hai số hữu tỉ",
+      "questiontext": "Tính giá trị của biểu thức \\(-21,25 + 13,3\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "\\(-21,25 + 13,3 = -(21,25 - 13,3) = -7.95\\).",
+      "answers": [
+        {
+          "text": "-7.95",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Áp dụng quy tắc dấu ngoặc",
+      "questiontext": "Kết quả của phép tính \\(\\frac{9}{10} - \\left(\\frac{6}{5} - \\frac{7}{4}\\right)\\) sau khi bỏ dấu ngoặc và thu gọn là:",
+      "generalfeedback": "\\(\\frac{9}{10} - \\left(\\frac{6}{5} - \\frac{7}{4}\\right) = \\frac{9}{10} - \\frac{6}{5} + \\frac{7}{4} = \\frac{18}{20} - \\frac{24}{20} + \\frac{35}{20} = \\frac{29}{20}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{29}{20}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{-29}{20}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{11}{20}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{-11}{20}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_008",
+      "questiontext": "Hãy ghép mỗi phép cộng số hữu tỉ ở cột bên trái với kết quả đúng ở cột bên phải:",
+      "generalfeedback": "Thực hiện biến đổi các số hữu tỉ về phân số hoặc số thập phân rồi tính tổng.",
+      "subquestions": [
+        {
+          "question": "\\(\\frac{-6}{18} + \\frac{18}{27}\\)",
+          "answer": "\\(\\frac{1}{3}\\)"
+        },
+        {
+          "question": "\\(-0,5 + \\frac{1}{2}\\)",
+          "answer": "0"
+        },
+        {
+          "question": "\\(0,25 + 1\\frac{5}{12}\\)",
+          "answer": "\\(\\frac{5}{3}\\)"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_009",
+      "questiontext": "Một khinh khí cầu đang ở độ cao {a} mét so với mặt đất. Sau đó nó hạ độ cao xuống {b} mét. Hỏi khinh khí cầu hiện tại ở độ cao bao nhiêu mét?",
+      "generalfeedback": "Độ cao hiện tại của khinh khí cầu là {a} - {b} mét.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 30.0,
+          "max": 100.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 5.0,
+          "max": 25.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}-{b}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_017",
+      "questiontext": "Cho biểu thức \\(A = \\frac{8}{9} - \\left[ \\frac{7}{4} - \\left( \\frac{3}{4} - \\frac{2}{3} \\right) \\right]\\). Khi bỏ dấu ngoặc vuông đằng trước có dấu trừ, ta được \\(A = \\frac{8}{9}\\) [[1]] \\(\\frac{7}{4}\\) [[2]] \\(\\left( \\frac{3}{4} - \\frac{2}{3} \\right)\\).",
+      "generalfeedback": "Bỏ dấu ngoặc vuông có dấu '-' đằng trước: -[7/4 - (3/4 - 2/3)] = -7/4 + (3/4 - 2/3).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "-"
+        },
+        {
+          "group": 1,
+          "text": "+"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\times\\)"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_023",
+      "questiontext": "[img:_page_2_Picture_4.jpeg]\nTrong 100 gam khoai tây khô có 11 gam nước; 6,6 gam protein; 0,3 gam chất béo; 75,1 gam glucid và các chất khác. Hỏi khối lượng các chất khác trong 100 gam khoai tây khô là bao nhiêu gam? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Khối lượng các chất khác = 100 - (11 + 6,6 + 0,3 + 75,1) = 100 - 93 = 7 (gam).",
+      "imgs": [
+        "_page_2_Picture_4.jpeg"
+      ],
+      "answers": [
+        {
+          "text": "7",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc cộng hai số hữu tỉ",
+      "questiontext": "Số đối của số hữu tỉ \\(x = -1,4\\) là số nào dưới đây?",
+      "generalfeedback": "Số đối của \\(x\\) là \\(-x\\). Do đó số đối của \\(-1,4\\) là \\(-(-1,4) = 1,4\\).",
+      "answers": [
+        {
+          "text": "1,4",
+          "fraction": 100
+        },
+        {
+          "text": "-1,4",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{1}{1,4}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-\\frac{1}{1,4}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Quy tắc trừ hai số hữu tỉ",
+      "questiontext": "Tìm \\(x\\) biết \\(x + \\frac{3}{5} = -1,4\\):",
+      "generalfeedback": "\\(x = -1,4 - \\frac{3}{5} = -1,4 - 0,6 = -2\\).",
+      "answers": [
+        {
+          "text": "-2",
+          "fraction": 100
+        },
+        {
+          "text": "2",
+          "fraction": 0
+        },
+        {
+          "text": "-0,8",
+          "fraction": 0
+        },
+        {
+          "text": "-1,2",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc dấu ngoặc trong phép cộng trừ",
+      "questiontext": "Đối với một tổng trong tập hợp số hữu tỉ \\(\\mathbb{Q}\\), ta có thể đổi chỗ các số hạng, đặt dấu ngoặc để nhóm các số hạng một cách tuỳ ý như các tổng trong \\(\\mathbb{Z}\\). Đúng hay sai?",
+      "generalfeedback": "Đây là chú ý về tính chất đổi chỗ và đặt dấu ngoặc nhóm các số hạng trong tập hợp số hữu tỉ \\(\\mathbb{Q}\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện phép cộng hai số hữu tỉ",
+      "questiontext": "Tính giá trị của \\((-9,15) + 8,09\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "\\((-9,15) + 8,09 = -(9,15 - 8,09) = -1.06\\).",
+      "answers": [
+        {
+          "text": "-1.06",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện phép trừ hai số hữu tỉ",
+      "questiontext": "Tính giá trị biểu thức \\(A\\) = {a} - {b} với các số nguyên dương {a} và {b}.",
+      "generalfeedback": "Giá trị của biểu thức là {a} - {b}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 10.0,
+          "max": 50.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 1.0,
+          "max": 9.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}-{b}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Áp dụng quy tắc dấu ngoặc",
+      "questiontext": "Giá trị của biểu thức \\(B = 6,5 + [0,75 - (8,25 - 1,75)]\\) bằng:",
+      "generalfeedback": "\\(B = 6,5 + [0,75 - 6,5] = 6,5 + 0,75 - 6,5 = (6,5 - 6,5) + 0,75 = 0,75\\).",
+      "answers": [
+        {
+          "text": "0,75",
+          "fraction": 100
+        },
+        {
+          "text": "-0,75",
+          "fraction": 0
+        },
+        {
+          "text": "1,25",
+          "fraction": 0
+        },
+        {
+          "text": "0",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_008",
+      "questiontext": "Phép cộng các số hữu tỉ có tính chất giao hoán: \\(a + b =\\) [[1]] và tính chất kết hợp: \\((a + b) + c =\\) [[2]].",
+      "generalfeedback": "Phép cộng số hữu tỉ có các tính chất giao hoán \\(a + b = b + a\\) và kết hợp \\((a + b) + c = a + (b + c)\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "b + a"
+        },
+        {
+          "group": 1,
+          "text": "a + (b + c)"
+        },
+        {
+          "group": 1,
+          "text": "a - b"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_009",
+      "questiontext": "Tính kết quả của phép tính \\((-7) - \\left(-\\frac{5}{8}\\right)\\) viết dưới dạng số thập phân. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "\\((-7) - \\left(-\\frac{5}{8}\\right) = -7 + 0,625 = -6.375\\).",
+      "answers": [
+        {
+          "text": "-6.375",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_017",
+      "questiontext": "Hai số đối nhau luôn có tổng bằng [[1]]. Nếu \\(a\\) là một số hữu tỉ thì \\(a + (-a) =\\) [[2]].",
+      "generalfeedback": "Hai số đối nhau luôn có tổng bằng 0, tức là a + (-a) = 0.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "0"
+        },
+        {
+          "group": 1,
+          "text": "1"
+        },
+        {
+          "group": 1,
+          "text": "-1"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_023",
+      "questiontext": "[img:_page_0_Picture_7.jpeg]\nMột khinh khí cầu bay lên từ mặt đất theo chiều thẳng đứng với vận tốc 0,8 m/s trong 50 giây. Độ cao của khinh khí cầu đạt được sau 50 giây bay lên là bao nhiêu mét?",
+      "generalfeedback": "Độ cao khinh khí cầu đạt được sau 50 giây bay lên là: \\(0,8 \\times 50 = 40\\) (mét).",
+      "imgs": [
+        "_page_0_Picture_7.jpeg"
+      ],
+      "answers": [
+        {
+          "text": "40 mét",
+          "fraction": 100
+        },
+        {
+          "text": "50 mét",
+          "fraction": 0
+        },
+        {
+          "text": "30 mét",
+          "fraction": 0
+        },
+        {
+          "text": "45 mét",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Khi gặp bài toán tính tổng nhiều số hữu tỉ phức tạp như \\(0,65 \\cdot 78 + 2\\frac{1}{5} \\cdot 2020 + 0,35 \\cdot 78 - 2,2 \\cdot 2020\\), hành động nào sau đây thể hiện tính chăm chỉ và kiên trì trong học tập?",
+      "generalfeedback": "Tính chăm chỉ được thể hiện qua việc kiên nhẫn tìm tòi, biến đổi các số hạng về dạng thích hợp và nhóm hợp lý để tính toán cẩn thận từng bước thay vì bỏ cuộc.",
+      "answers": [
+        {
+          "text": "Kiên nhẫn biến đổi các số hạng về cùng dạng số thập phân hoặc phân số, nhóm hợp lý để tính toán cẩn thận từng bước.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua không làm vì biểu thức quá dài và phức tạp.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép ngay đáp án của bạn bên cạnh mà không tự thực hiện phép tính.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ tính nhẩm hai số đầu tiên rồi đoán ngẫu nhiên kết quả cuối cùng.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Trong giờ làm bài tập cộng trừ số hữu tỉ, Nam tính ra kết quả đúng bằng máy tính cầm tay là \\(-1,06\\), nhưng trong bài làm tự luận Nam chép nhầm dấu làm lời giải ra \\(1,06\\). Khi thầy giáo trả bài và chưa phát hiện ra lỗi chép nhầm dấu trong lời giải, Nam nên làm gì để thể hiện tính trung thực?",
+      "generalfeedback": "Tính trung thực đòi hỏi học sinh chủ động báo với thầy giáo về lỗi sai trong lời giải của mình để được hướng dẫn và chấm lại đúng bản chất.",
+      "answers": [
+        {
+          "text": "Chủ động báo với thầy giáo về lỗi chép nhầm dấu trong bài làm tự luận của mình để thầy góp ý và sửa lại.",
+          "fraction": 100
+        },
+        {
+          "text": "Im lặng giữ nguyên điểm số vì thầy giáo không phát hiện ra lỗi sai.",
+          "fraction": 0
+        },
+        {
+          "text": "Tự ý dùng bút sửa lại lời giải trong bài đã chấm rồi đổ lỗi cho thầy giáo chấm sai.",
+          "fraction": 0
+        },
+        {
+          "text": "Thách thức các bạn khác không được nói với thầy giáo về lỗi sai của mình.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Để tự học hiệu quả quy tắc dấu ngoặc khi tính biểu thức \\(A = \\frac{8}{9} - \\left[ \\frac{7}{4} - \\left( \\frac{3}{4} - \\frac{2}{3} \\right) \\right]\\), học sinh nên tự thực hiện theo tiến trình: Bước 1: [[1]] tài liệu SGK để nắm quy tắc bỏ dấu ngoặc. Bước 2: Bỏ dấu ngoặc từ [[2]] ra ngoài. Bước 3: [[3]] kết quả phép tính.",
+      "generalfeedback": "Năng lực tự chủ và tự học được thể hiện qua việc tự đọc hiểu tài liệu, thực hiện quy trình bỏ dấu ngoặc từ trong ra ngoài và đối chiếu kiểm tra kết quả.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "Đọc và nghiên cứu"
+        },
+        {
+          "group": 1,
+          "text": "trong"
+        },
+        {
+          "group": 1,
+          "text": "Kiểm tra và đối chiếu"
+        },
+        {
+          "group": 1,
+          "text": "ngoài"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLC_GIAOTIEP",
+      "questiontext": "Khi thảo luận nhóm về bài toán khinh khí cầu (bay lên với vận tốc \\(0,8\\text{ m/s}\\) trong 50 giây, sau đó giảm độ cao với vận tốc \\(\\frac{5}{9}\\text{ m/s}\\) trong 27 giây), hai bạn An và Bình ra hai kết quả khác nhau. Để hợp tác nhóm hiệu quả, hai bạn nên thực hiện hành động nào?",
+      "generalfeedback": "Năng lực giao tiếp và hợp tác thể hiện ở việc tôn trọng ý kiến bạn, cùng nhau rà soát lại từng bước giải (tính quãng đường bay lên, quãng đường giảm độ cao và thực hiện phép trừ) để thống nhất đáp án.",
+      "answers": [
+        {
+          "text": "Lắng nghe cách giải của nhau, cùng rà soát lại từng bước tính độ cao bay lên và hạ xuống để tìm ra chỗ nhầm lẫn.",
+          "fraction": 100
+        },
+        {
+          "text": "Mỗi bạn giữ nguyên ý kiến của mình và không tiếp tục thảo luận nhóm.",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua bài toán và báo với giáo viên rằng nhóm không thể làm việc cùng nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ chọn kết quả của bạn có điểm số cao hơn trên lớp mà không cần kiểm tra lại.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Khi biến đổi biểu thức \\(A = \\frac{9}{10} - \\left(\\frac{6}{5} - \\frac{7}{4}\\right)\\), lập luận nào sau đây giải thích đúng việc bỏ dấu ngoặc?",
+      "generalfeedback": "Theo quy tắc dấu ngoặc trong \\(\\mathbb{Q}\\), khi bỏ dấu ngoặc có dấu '-' đằng trước, ta phải đổi dấu tất cả các số hạng trong ngoặc: \\(+\\frac{6}{5}\\) thành \\(-\\frac{6}{5}\\) và \\(-\\frac{7}{4}\\) thành \\(+\\frac{7}{4}\\).",
+      "answers": [
+        {
+          "text": "Vì đằng trước dấu ngoặc có dấu \\(-\\) nên khi bỏ ngoặc ta phải đổi dấu tất cả các số hạng bên trong ngoặc thành \\(-\\frac{6}{5} + \\frac{7}{4}\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Vì đằng trước dấu ngoặc có dấu \\(-\\) nên giữ nguyên dấu tất cả các số hạng bên trong ngoặc thành \\(-\\frac{6}{5} - \\frac{7}{4}\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Vì đằng trước dấu ngoặc có dấu \\(-\\) nên chỉ đổi dấu số hạng đầu tiên thành \\(-\\frac{6}{5} - \\frac{7}{4}\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Vì phép tính trong ngoặc là phép trừ nên ta chuyển tất cả thành phép cộng \\(+\\frac{6}{5} + \\frac{7}{4}\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "questiontext": "[img:_page_2_Picture_4.jpeg]\nTrong bài toán tính khối lượng các chất khác trong 100 gam khoai tây khô (biết có 11 gam nước; 6,6 gam protein; 0,3 gam chất béo; 75,1 gam glucid), mô hình toán học nào phản ánh đúng mối quan hệ để giải quyết vấn đề?",
+      "generalfeedback": "Tổng khối lượng các thành phần bằng 100 gam. Do đó mô hình toán học là phương trình tổng: 11 + 6,6 + 0,3 + 75,1 + x = 100, suy ra x = 100 - (11 + 6,6 + 0,3 + 75,1).",
+      "imgs": [
+        "_page_2_Picture_4.jpeg"
+      ],
+      "answers": [
+        {
+          "text": "Gọi \\(x\\) là khối lượng các chất khác (gam). Mô hình là: \\(11 + 6,6 + 0,3 + 75,1 + x = 100\\), suy ra \\(x = 100 - (11 + 6,6 + 0,3 + 75,1)\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Gọi \\(x\\) là khối lượng các chất khác (gam). Mô hình là: \\(x = 100 + 11 + 6,6 + 0,3 + 75,1\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Gọi \\(x\\) là khối lượng các chất khác (gam). Mô hình là: \\(x = (11 + 6,6 + 0,3 + 75,1) : 100\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Gọi \\(x\\) là khối lượng các chất khác (gam). Mô hình là: \\(x = 75,1 - (11 + 6,6 + 0,3)\\).",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

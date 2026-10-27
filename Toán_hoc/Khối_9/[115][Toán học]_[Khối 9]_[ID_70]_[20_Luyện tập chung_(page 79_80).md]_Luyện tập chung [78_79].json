@@ -1,0 +1,698 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 30,
+    "metadata_used": {
+      "YCCD_TOAN9_081": 6,
+      "YCCD_TOAN9_085": 4,
+      "Tổng hợp kiến thức đường tròn ngoại tiếp và nội tiếp tam giác": 6,
+      "Giải bài tập tổng hợp củng cố kĩ năng xác định tâm và bán kính R": 8,
+      "r": 6,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_GQVD_PHATHIEN_C2_01": 2,
+      "SUB_GQVD_DEXUAT_C2_02": 2,
+      "NLT_TOAN_C2_03_04": 2,
+      "NLT_TOAN_C2_03_05": 2
+    },
+    "types_used": {
+      "multichoice": 10,
+      "numerical": 3,
+      "truefalse": 5,
+      "matching": 2,
+      "shortanswer": 3,
+      "gapselect": 3,
+      "ddwtos": 2,
+      "calculated": 1,
+      "calculatedsimple": 1
+    },
+    "total": 30
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN9_081",
+        "reason": "Xác định tâm và bán kính đường tròn ngoại tiếp tam giác"
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_085",
+        "reason": "Xác định tâm và bán kính đường tròn nội tiếp tam giác"
+      },
+      {
+        "metadata_code": "Tổng hợp kiến thức đường tròn ngoại tiếp và nội tiếp tam giác",
+        "reason": "Tổng hợp kiến thức đường tròn ngoại tiếp và nội tiếp tam giác"
+      },
+      {
+        "metadata_code": "Giải bài tập tổng hợp củng cố kĩ năng xác định tâm và bán kính R",
+        "reason": "Giải bài tập tổng hợp củng cố kĩ năng xác định tâm và bán kính R"
+      },
+      {
+        "metadata_code": "r",
+        "reason": "Rèn luyện kĩ năng xác định bán kính r của đường tròn nội tiếp"
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_081",
+      "questiontext": "Cho tam giác \\(ABC\\) vuông tại \\(A\\). Tâm của đường tròn ngoại tiếp tam giác \\(ABC\\) nằm ở vị trí nào?",
+      "generalfeedback": "Tâm đường tròn ngoại tiếp tam giác vuông là trung điểm của cạnh huyền.",
+      "answers": [
+        {
+          "text": "Trung điểm của cạnh huyền \\(BC\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Trung điểm của cạnh góc vuông \\(AB\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Giao điểm ba đường phân giác",
+          "fraction": 0
+        },
+        {
+          "text": "Đỉnh góc vuông \\(A\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_081",
+      "questiontext": "Cho tam giác \\(ABC\\) vuông tại \\(A\\) có \\(AB = 5\\text{ cm}\\) và \\(AC = 12\\text{ cm}\\) (như Ví dụ 1 trong bài học). Bán kính \\(R\\) của đường tròn ngoại tiếp tam giác \\(ABC\\) bằng bao nhiêu cm? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Theo định lí Pythagore, cạnh huyền \\(BC = \\sqrt{5^2 + 12^2} = 13\\text{ cm}\\). Bán kính đường tròn ngoại tiếp là \\(R = \\frac{BC}{2} = \\frac{13}{2} = 6.5\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "6.5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_085",
+      "questiontext": "Tâm của đường tròn nội tiếp tam giác là giao điểm của các đường nào trong tam giác?",
+      "generalfeedback": "Tâm của đường tròn nội tiếp tam giác là giao điểm của ba đường phân giác trong của tam giác đó.",
+      "answers": [
+        {
+          "text": "Ba đường phân giác",
+          "fraction": 100
+        },
+        {
+          "text": "Ba đường trung trực",
+          "fraction": 0
+        },
+        {
+          "text": "Ba đường cao",
+          "fraction": 0
+        },
+        {
+          "text": "Ba đường trung tuyến",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_085",
+      "questiontext": "Cho tam giác \\(ABC\\) vuông tại \\(A\\) có hai cạnh góc vuông \\(AB = 5\\text{ cm}\\) và \\(AC = 12\\text{ cm}\\). Bán kính \\(r\\) của đường tròn nội tiếp tam giác \\(ABC\\) bằng bao nhiêu cm? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Cạnh huyền \\(BC = 13\\text{ cm}\\). Bán kính đường tròn nội tiếp tam giác vuông là \\(r = \\frac{AB + AC - BC}{2} = \\frac{5 + 12 - 13}{2} = 2\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Tổng hợp kiến thức đường tròn ngoại tiếp và nội tiếp tam giác",
+      "questiontext": "Đường tròn ngoại tiếp tam giác đi qua tất cả các đỉnh của tam giác đó.",
+      "generalfeedback": "Đường tròn ngoại tiếp tam giác là đường tròn đi qua cả ba đỉnh của tam giác.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Tổng hợp kiến thức đường tròn ngoại tiếp và nội tiếp tam giác",
+      "questiontext": "Hãy ghép mỗi khái niệm với đặc điểm tương ứng của nó đối với tam giác \\(ABC\\):",
+      "generalfeedback": "Đường tròn ngoại tiếp đi qua 3 đỉnh, đường tròn nội tiếp tiếp xúc 3 cạnh, tâm đường tròn ngoại tiếp tam giác vuông là trung điểm cạnh huyền.",
+      "subquestions": [
+        {
+          "question": "Tâm đường tròn ngoại tiếp tam giác",
+          "answer": "Giao điểm ba đường trung trực"
+        },
+        {
+          "question": "Tâm đường tròn nội tiếp tam giác",
+          "answer": "Giao điểm ba đường phân giác"
+        },
+        {
+          "question": "Đường tròn tiếp xúc với ba cạnh của tam giác",
+          "answer": "Đường tròn nội tiếp"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Giải bài tập tổng hợp củng cố kĩ năng xác định tâm và bán kính R",
+      "questiontext": "Cho tam giác \\(ABC\\) vuông tại \\(A\\) có \\(AB = 9\\text{ cm}\\) và \\(AC = 12\\text{ cm}\\). Đường tròn ngoại tiếp tam giác \\(ABC\\) có đường kính bằng bao nhiêu cm? (Chỉ điền số)",
+      "generalfeedback": "Theo định lí Pythagore, cạnh huyền BC = \\sqrt{9^2 + 12^2} = 15\\text{ cm}. Đường kính đường tròn ngoại tiếp tam giác vuông đúng bằng cạnh huyền BC = 15\\text{ cm}.",
+      "answers": [
+        {
+          "text": "15",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Giải bài tập tổng hợp củng cố kĩ năng xác định tâm và bán kính R",
+      "questiontext": "Tâm đường tròn ngoại tiếp tam giác vuông là [[1]] của cạnh huyền, và bán kính \\(R\\) bằng [[2]] độ dài cạnh huyền.",
+      "generalfeedback": "Tâm đường tròn ngoại tiếp tam giác vuông là trung điểm cạnh huyền, bán kính R bằng một nửa độ dài cạnh huyền.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "trung điểm"
+        },
+        {
+          "group": 1,
+          "text": "một nửa"
+        },
+        {
+          "group": 1,
+          "text": "đỉnh"
+        },
+        {
+          "group": 1,
+          "text": "gấp đôi"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "r",
+      "questiontext": "Đường tròn nội tiếp tam giác là đường tròn [[1]] với ba cạnh của tam giác. Khoảng cách từ tâm đường tròn nội tiếp đến mỗi cạnh của tam giác bằng [[2]].",
+      "generalfeedback": "Đường tròn nội tiếp tiếp xúc với ba cạnh của tam giác và khoảng cách từ tâm đến mỗi cạnh đúng bằng bán kính r.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "tiếp xúc"
+        },
+        {
+          "group": 1,
+          "text": "bán kính r"
+        },
+        {
+          "group": 1,
+          "text": "cắt"
+        },
+        {
+          "group": 1,
+          "text": "đường kính R"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "r",
+      "questiontext": "Cho tam giác vuông có hai cạnh góc vuông lần lượt là {a} cm và {b} cm, cạnh huyền là {c} cm. Tính bán kính r (cm) của đường tròn nội tiếp tam giác đó.",
+      "generalfeedback": "Bán kính đường tròn nội tiếp tam giác vuông được tính theo công thức r = (a + b - c) / 2.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 3.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 4.0,
+          "max": 12.0,
+          "decimals": 0
+        },
+        {
+          "name": "c",
+          "min": 5.0,
+          "max": 15.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "({a}+{b}-{c})/2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_081",
+      "questiontext": "Cho tam giác \\(ABC\\) vuông tại \\(A\\) có \\(AB = 6\\text{ cm}\\) và \\(AC = 8\\text{ cm}\\). Bán kính đường tròn ngoại tiếp tam giác \\(ABC\\) bằng bao nhiêu?",
+      "generalfeedback": "Cạnh huyền \\(BC = \\sqrt{6^2 + 8^2} = 10\\text{ cm}\\). Bán kính đường tròn ngoại tiếp tam giác vuông là \\(R = \\frac{BC}{2} = 5\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "5 cm",
+          "fraction": 100
+        },
+        {
+          "text": "10 cm",
+          "fraction": 0
+        },
+        {
+          "text": "7 cm",
+          "fraction": 0
+        },
+        {
+          "text": "2.5 cm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_085",
+      "questiontext": "Cho tam giác \\(ABC\\) vuông tại \\(A\\) có \\(AB = 6\\text{ cm}\\), \\(AC = 8\\text{ cm}\\) và \\(BC = 10\\text{ cm}\\). Bán kính \\(r\\) của đường tròn nội tiếp tam giác \\(ABC\\) bằng bao nhiêu?",
+      "generalfeedback": "Bán kính đường tròn nội tiếp tam giác vuông được tính theo công thức \\(r = \\frac{AB + AC - BC}{2} = \\frac{6 + 8 - 10}{2} = 2\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "2 cm",
+          "fraction": 100
+        },
+        {
+          "text": "4 cm",
+          "fraction": 0
+        },
+        {
+          "text": "3 cm",
+          "fraction": 0
+        },
+        {
+          "text": "1 cm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Tổng hợp kiến thức đường tròn ngoại tiếp và nội tiếp tam giác",
+      "questiontext": "Tâm của đường tròn nội tiếp tam giác cách đều ba cạnh của tam giác đó.",
+      "generalfeedback": "Tâm đường tròn nội tiếp tam giác là giao điểm ba đường phân giác, cách đều ba cạnh của tam giác một khoảng bằng bán kính r.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Tổng hợp kiến thức đường tròn ngoại tiếp và nội tiếp tam giác",
+      "questiontext": "Đường tròn đi qua ba đỉnh của tam giác gọi là đường tròn [[1]]. Đường tròn tiếp xúc với ba cạnh của tam giác gọi là đường tròn [[2]].",
+      "generalfeedback": "Đường tròn đi qua 3 đỉnh là đường tròn ngoại tiếp, đường tròn tiếp xúc 3 cạnh là đường tròn nội tiếp.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "ngoại tiếp"
+        },
+        {
+          "group": 1,
+          "text": "nội tiếp"
+        },
+        {
+          "group": 1,
+          "text": "đồng tâm"
+        },
+        {
+          "group": 1,
+          "text": "bán kính"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Giải bài tập tổng hợp củng cố kĩ năng xác định tâm và bán kính R",
+      "questiontext": "Tâm của đường tròn ngoại tiếp tam giác là giao điểm của ba đường nào trong tam giác?",
+      "generalfeedback": "Tâm đường tròn ngoại tiếp tam giác là giao điểm ba đường trung trực của tam giác.",
+      "answers": [
+        {
+          "text": "ba đường trung trực",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Giải bài tập tổng hợp củng cố kĩ năng xác định tâm và bán kính R",
+      "questiontext": "Cho tam giác đều \\(ABC\\) cạnh bằng \\(6\\text{ cm}\\). Bán kính \\(R\\) của đường tròn ngoại tiếp tam giác \\(ABC\\) bằng bao nhiêu?",
+      "generalfeedback": "Trong tam giác đều cạnh a, bán kính đường tròn ngoại tiếp là \\(R = \\frac{a\\sqrt{3}}{3} = \\frac{6\\sqrt{3}}{3} = 2\\sqrt{3}\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "\\(2\\sqrt{3}\\text{ cm}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(3\\sqrt{3}\\text{ cm}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\sqrt{3}\\text{ cm}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(6\\text{ cm}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "r",
+      "questiontext": "Để tìm bán kính đường tròn nội tiếp tam giác vuông, ta có thể áp dụng công thức \\(r = \\frac{a + b - c}{2}\\), trong đó \\(a, b\\) là độ dài hai [[1]] và \\(c\\) là độ dài [[2]].",
+      "generalfeedback": "Trong công thức r = (a + b - c) / 2 của tam giác vuông, a và b là độ dài hai cạnh góc vuông, c là độ dài cạnh huyền.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "cạnh góc vuông"
+        },
+        {
+          "group": 1,
+          "text": "cạnh huyền"
+        },
+        {
+          "group": 1,
+          "text": "đường cao"
+        },
+        {
+          "group": 1,
+          "text": "trung tuyến"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Giải bài tập tổng hợp củng cố kĩ năng xác định tâm và bán kính R",
+      "questiontext": "Cho tam giác vuông có độ dài cạnh huyền bằng {c} cm. Tính bán kính R (cm) của đường tròn ngoại tiếp tam giác vuông đó.",
+      "generalfeedback": "Bán kính đường tròn ngoại tiếp tam giác vuông bằng một nửa cạnh huyền: R = c / 2.",
+      "wildcards": [
+        {
+          "name": "c",
+          "min": 10.0,
+          "max": 30.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{c}/2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "r",
+      "questiontext": "Cho tam giác đều \\(ABC\\) cạnh bằng \\(6\\text{ cm}\\). Bán kính \\(r\\) của đường tròn nội tiếp tam giác \\(ABC\\) bằng bao nhiêu?",
+      "generalfeedback": "Trong tam giác đều cạnh a, bán kính đường tròn nội tiếp là \\(r = \\frac{a\\sqrt{3}}{6} = \\frac{6\\sqrt{3}}{6} = \\sqrt{3}\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "\\(\\sqrt{3}\\text{ cm}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(2\\sqrt{3}\\text{ cm}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(3\\text{ cm}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{\\sqrt{3}}{2}\\text{ cm}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_081",
+      "questiontext": "Mọi tam giác đều luôn có tâm đường tròn ngoại tiếp và tâm đường tròn nội tiếp trùng nhau.",
+      "generalfeedback": "Trong tam giác đều, các đường trung trực, phân giác, trung tuyến, đường cao trùng nhau nên tâm đường tròn ngoại tiếp và nội tiếp trùng nhau.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong buổi luyện tập môn Toán về chủ đề tỉ số lượng giác và ứng dụng thực tế, bạn Nam gặp một bài toán phức tạp (như tính chiều rộng dòng sông hay khoảng cách qua hồ nước). Dù ban đầu chưa tìm ra lời giải, Nam nên thể hiện tinh thần vươn lên trong học tập như thế nào?",
+      "generalfeedback": "Tinh thần cố gắng vươn lên trong học tập thể hiện qua việc chủ động ôn tập kiến thức, phân tích bài toán và kiên trì tìm lời giải.",
+      "answers": [
+        {
+          "text": "Chủ động xem lại lý thuyết tỉ số lượng giác, phân tích hình vẽ bài toán và kiên trì thử các phương án biến đổi cho đến khi giải được",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua câu hỏi đó ngay để tiết kiệm thời gian làm các bài dễ hơn",
+          "fraction": 0
+        },
+        {
+          "text": "Chép ngay lời giải của bạn khác vào vở mà không cần tìm hiểu cách làm",
+          "fraction": 0
+        },
+        {
+          "text": "Đợi thầy cô chữa bài rồi chép lại đáp án vào vở",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi gặp một bài toán hình học ứng dụng thực tế khó, việc tự mình tìm tòi, tra cứu lại công thức tỉ số lượng giác và thử nhiều cách giải khác nhau trước khi nhờ sự trợ giúp thể hiện thái độ tích cực và nỗ lực vươn lên trong học tập.",
+      "generalfeedback": "Tự giác, kiên trì vượt khó trong giải toán là biểu hiện rõ nét của phẩm chất chăm chỉ và ý chí vươn lên.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GQVD_PHATHIEN_C2_01",
+      "questiontext": "Nhóm học tập của An nhận được bài toán thực tế: \"Đo chiều cao của một tòa nhà mà không thể lên đỉnh tòa nhà\". Khi phân tích tình huống này dựa trên kiến thức bài học, An nên xác định các yếu tố toán học nào cần thu thập?",
+      "generalfeedback": "Phân tích tình huống học tập đo chiều cao gián tiếp đòi hỏi xác định khoảng cách mặt đất (cạnh góc vuông) và góc nâng (góc nhọn) để dùng tỉ số lượng giác tan hoặc cot.",
+      "answers": [
+        {
+          "text": "Khoảng cách từ điểm quan sát đến chân tòa nhà và góc nâng nhìn từ điểm quan sát lên đỉnh tòa nhà",
+          "fraction": 100
+        },
+        {
+          "text": "Diện tích đáy của tòa nhà và số tầng của tòa nhà",
+          "fraction": 0
+        },
+        {
+          "text": "Chu vi của tòa nhà và chiều dài của bóng tòa nhà trên mặt đất",
+          "fraction": 0
+        },
+        {
+          "text": "Thể tích tòa nhà và số lượng cửa sổ của tòa nhà",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GQVD_PHATHIEN_C2_01",
+      "imgs": [
+        "_page_1_Picture_15.jpeg"
+      ],
+      "questiontext": "Quan sát sơ đồ bài toán tìm chiều rộng dòng sông trong [img:_page_1_Picture_15.jpeg]. Khi phân tích tình huống học tập này, mô hình toán học nào đã được sử dụng để giải quyết vấn đề?",
+      "generalfeedback": "Sơ đồ biểu diễn tam giác vuông trong đó một cạnh góc vuông và góc nhọn cho phép dùng tỉ số lượng giác tan để tính chiều rộng dòng sông.",
+      "answers": [
+        {
+          "text": "Mô hình tam giác vuông với một cạnh góc vuông và một góc nhọn đã biết",
+          "fraction": 100
+        },
+        {
+          "text": "Mô hình tam giác đều có ba cạnh bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Mô hình đường tròn ngoại tiếp tam giác nhọn",
+          "fraction": 0
+        },
+        {
+          "text": "Mô hình hình chữ nhật có hai đường chéo bằng nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Để giải quyết bài toán đo chiều rộng một dòng sông mà không thể qua sông (như Bài 4.16), nhóm học sinh đề xuất quy trình: Bước 1: Chọn một mốc mộc bên kia sông; Bước 2: Đo một đoạn thẳng dọc bờ sông làm [[1]]; Bước 3: Đo góc nhìn từ đầu đoạn thẳng đến mốc; Bước 4: Sử dụng [[2]] để tính chiều rộng dòng sông.",
+      "generalfeedback": "Giải pháp đo đạc gián tiếp bao gồm thiết lập đoạn cơ sở đo được trên mặt đất và dùng tỉ số lượng giác trong tam giác vuông để tính khoảng cách.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "đoạn cơ sở"
+        },
+        {
+          "group": 1,
+          "text": "tỉ số lượng giác"
+        },
+        {
+          "group": 1,
+          "text": "bán kính đường tròn"
+        },
+        {
+          "group": 1,
+          "text": "định lý Vi-ét"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Khi giải bài toán ứng dụng thực tế như tính khoảng cách giữa hai bờ hồ hay chiều cao ngọn núi, việc chuyển đổi bài toán thực tế thành bài toán tam giác vuông (mô hình hóa toán học) là giải pháp quyết định giúp tính toán chính xác.",
+      "generalfeedback": "Mô hình hóa toán học đưa bài toán thực tế về tam giác vuông là giải pháp nền tảng để áp dụng các tỉ số lượng giác.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_04",
+      "questiontext": "Một người muốn tính khoảng cách giữa hai vị trí \\(A\\) và \\(B\\) ở hai bên hồ nước (Bài 4.18). Người đó chọn vị trí \\(C\\) sao cho \\(CA = 90\\text{ m}\\), \\(CB = 150\\text{ m}\\) và \\(\\widehat{ACB} = 120^\\circ\\). Kiến thức toán học phù hợp nhất để giải quyết vấn đề này là:",
+      "generalfeedback": "Dựng đường cao từ A xuống đường thẳng BC tạo tam giác vuông chứa góc 60 độ, sử dụng tỉ số lượng giác và định lí Pythagore để tính độ dài AB.",
+      "answers": [
+        {
+          "text": "Dựng đường cao vuông góc tạo tam giác vuông, sử dụng tỉ số lượng giác và định lí Pythagore",
+          "fraction": 100
+        },
+        {
+          "text": "Sử dụng tính chất đường trung tuyến trong tam giác thường",
+          "fraction": 0
+        },
+        {
+          "text": "Áp dụng trực tiếp công thức tính diện tích tam giác vuông",
+          "fraction": 0
+        },
+        {
+          "text": "Sử dụng tính chất góc nội tiếp của đường tròn",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_03_04",
+      "questiontext": "Một con tàu ngầm lặn xuống biển theo đường thẳng tạo với mặt nước biển góc \\(21^\\circ\\) (Bài 4.20). Khi tàu đi được \\(200\\text{ m}\\) theo hướng đó, để tính độ sâu của tàu so với mặt nước biển, ta dùng tỉ số lượng giác nào của góc \\(21^\\circ\\)?",
+      "generalfeedback": "Độ sâu là cạnh đối diện góc 21°, quãng đường đi là cạnh huyền, do đó tỉ số lượng giác phù hợp là sin 21°.",
+      "answers": [
+        {
+          "text": "sin",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Hãy ghép mỗi kĩ năng toán học với bước thực hiện tương ứng khi giải bài toán thực tế về mô hình đập ngăn nước (Bài 4.19):",
+      "generalfeedback": "Các kĩ năng toán học được vận dụng tuần tự từ mô hình hóa hình học, tính toán lượng giác đến làm tròn theo yêu cầu thực tế.",
+      "subquestions": [
+        {
+          "question": "Mô hình hóa toán học",
+          "answer": "Vẽ hình biểu diễn mặt cắt đập dưới dạng hình thang và kẻ đường cao"
+        },
+        {
+          "question": "Tính toán lượng giác",
+          "answer": "Sử dụng độ dốc tan của góc kề đáy và chiều cao để tính độ dài chân đập"
+        },
+        {
+          "question": "Kiểm tra và trình bày kết quả",
+          "answer": "Làm tròn kết quả đến đơn vị dm theo đúng yêu cầu thực tế"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Mặt cắt ngang của đập ngăn nước có chiều cao \\(h = 3.5\\text{ m}\\). Sườn \\(AD\\) có độ dốc \\(\\tan D = 1.25\\). Tính độ dài hình chiếu vuông góc (theo m) của sườn \\(AD\\) trên đáy đập. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Hình chiếu x thỏa mãn tan D = h / x => x = 3.5 / 1.25 = 2.8 m.",
+      "answers": [
+        {
+          "text": "2.8",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    }
+  ]
+}

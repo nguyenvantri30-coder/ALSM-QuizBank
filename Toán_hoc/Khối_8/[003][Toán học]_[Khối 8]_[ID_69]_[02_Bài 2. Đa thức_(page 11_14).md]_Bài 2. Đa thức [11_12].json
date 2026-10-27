@@ -1,0 +1,483 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 18,
+    "metadata_used": {
+      "YCCD_TOAN8_002": 5,
+      "Khái niệm Hạng tử của đa thức": 4,
+      "Xác định các hạng tử của đa thức": 5,
+      "Tính giá trị của đa thức tại giá trị cho trước của biến": 5,
+      "Giá trị của đa thức": 1,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TULUC_C2_01": 2,
+      "NLT_TOAN_C2_01_01": 2,
+      "NLT_TOAN_C2_04_12": 2
+    },
+    "types_used": {
+      "multichoice": 8,
+      "truefalse": 2,
+      "shortanswer": 1,
+      "gapselect": 2,
+      "matching": 2,
+      "numerical": 1,
+      "calculatedsimple": 1,
+      "ddwtos": 1
+    },
+    "total": 18
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN8_002",
+        "reason": "Nhận biết được khái niệm đa thức nhiều biến."
+      },
+      {
+        "metadata_code": "Khái niệm Hạng tử của đa thức",
+        "reason": "Khái niệm Hạng tử của đa thức."
+      },
+      {
+        "metadata_code": "Giá trị của đa thức",
+        "reason": "Giá trị của đa thức."
+      },
+      {
+        "metadata_code": "Xác định các hạng tử của đa thức",
+        "reason": "Xác định các hạng tử của đa thức."
+      },
+      {
+        "metadata_code": "Tính giá trị của đa thức tại giá trị cho trước của biến",
+        "reason": "Tính giá trị của đa thức tại giá trị cho trước của biến."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Luôn cố gắng vươn lên đạt kết quả tốt trong học tập."
+      },
+      {
+        "metadata_code": "SUB_TCTH_TULUC_C2_01",
+        "reason": "Biết chủ động, tích cực thực hiện những công việc của bản thân trong học tập và trong cuộc sống"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_01",
+        "reason": "Thực hiện được các thao tác tư duy."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_04_12",
+        "reason": "Sử dụng được ngôn ngữ toán học kết hợp với ngôn ngữ thông thường để biểu đạt các nội dung toán học."
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_002",
+      "questiontext": "Biểu thức nào sau đây là một đa thức nhiều biến?",
+      "generalfeedback": "Đa thức là tổng của những đơn thức. Biểu thức \\(3xy^2 - 1\\) là tổng của hai đơn thức \\(3xy^2\\) và \\(-1\\) nên là đa thức.",
+      "answers": [
+        {
+          "text": "\\(3xy^2 - 1\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x + \\frac{1}{x}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x + \\sqrt{xy} + y\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{1}{x^2 + x + 1}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_002",
+      "questiontext": "Mỗi đơn thức cũng được coi là một đa thức.",
+      "generalfeedback": "Theo chú ý trong SGK, mỗi đơn thức cũng được coi là một đa thức.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm Hạng tử của đa thức",
+      "questiontext": "Trong khái niệm đa thức, mỗi đơn thức trong tổng được gọi là gì của đa thức đó?",
+      "generalfeedback": "Mỗi đơn thức trong tổng được gọi là một hạng tử của đa thức đó.",
+      "answers": [
+        {
+          "text": "hạng tử",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Khái niệm Hạng tử của đa thức",
+      "questiontext": "Đa thức \\(A = x^3 - 3x^2y + 3xy^2 - y^3 + xy - 1\\) có tất cả [[1]] hạng tử. Hạng tử không chứa biến của đa thức A là [[2]].",
+      "generalfeedback": "Đa thức A là tổng của 6 đơn thức nên có 6 hạng tử. Hạng tử không chứa biến (hạng tử tự do) là -1.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "6"
+        },
+        {
+          "group": 1,
+          "text": "-1"
+        },
+        {
+          "group": 1,
+          "text": "5"
+        },
+        {
+          "group": 1,
+          "text": "1"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Xác định các hạng tử của đa thức",
+      "questiontext": "Hãy ghép mỗi đa thức với số lượng hạng tử tương ứng của nó:",
+      "generalfeedback": "Đa thức \\(3xy^2 - 1\\) có 2 hạng tử; \\(x^3 - 3x^2y + 3xy^2 - y^3\\) có 4 hạng tử; \\(4x^2y + 4xy^2 - 5xy + 2\\) có 4 hạng tử; \\(3x^2 + 2xy - 3y^2\\) có 3 hạng tử.",
+      "subquestions": [
+        {
+          "question": "\\(3xy^2 - 1\\)",
+          "answer": "2 hạng tử"
+        },
+        {
+          "question": "\\(x^3 - 3x^2y + 3xy^2 - y^3\\)",
+          "answer": "4 hạng tử"
+        },
+        {
+          "question": "\\(4x^2y + 4xy^2 - 5xy + 2\\)",
+          "answer": "4 hạng tử"
+        },
+        {
+          "question": "\\(3x^2 + 2xy - 3y^2\\)",
+          "answer": "3 hạng tử"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Xác định các hạng tử của đa thức",
+      "questiontext": "Các hạng tử của đa thức \\(N = 5y^2z^2 - 2xy^2z + \\frac{1}{3}x^4\\) là:",
+      "generalfeedback": "Viết đa thức N dưới dạng tổng: \\(N = 5y^2z^2 + (-2xy^2z) + \\frac{1}{3}x^4\\). Các hạng tử lần lượt là \\(5y^2z^2\\), \\(-2xy^2z\\) và \\(\\frac{1}{3}x^4\\).",
+      "answers": [
+        {
+          "text": "\\(5y^2z^2\\), \\(-2xy^2z\\) và \\(\\frac{1}{3}x^4\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(5y^2z^2\\), \\(2xy^2z\\) và \\(\\frac{1}{3}x^4\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(5y^2z^2\\) và \\(-2xy^2z\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(y^2z^2\\), \\(xy^2z\\) và \\(x^4\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính giá trị của đa thức tại giá trị cho trước của biến",
+      "questiontext": "Tính giá trị của đa thức \\(P = -xyz + 2x^2y - 6z\\) khi \\(x = 1\\), \\(y = 3\\), \\(z = \\frac{1}{3}\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Thay \\(x = 1; y = 3; z = \\frac{1}{3}\\) vào \\(P = -xyz + 2x^2y - 6z\\), ta được: \\(P = -1 \\cdot 3 \\cdot \\frac{1}{3} + 2 \\cdot 1^2 \\cdot 3 - 6 \\cdot \\frac{1}{3} = -1 + 6 - 2 = 3\\).",
+      "answers": [
+        {
+          "text": "3",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Tính giá trị của đa thức tại giá trị cho trước của biến",
+      "questiontext": "Một quyển vở giá {x} đồng, một chiếc bút giá {y} đồng. Tổng số tiền (bằng đồng) để mua 8 quyển vở và 7 chiếc bút được tính bằng biểu thức \\(8x + 7y\\). Với x = {x} và y = {y}, hãy tính tổng số tiền phải trả.",
+      "generalfeedback": "Thay giá trị của x và y vào biểu thức \\(8x + 7y\\), ta có số tiền phải trả là 8*{x} + 7*{y}.",
+      "wildcards": [
+        {
+          "name": "x",
+          "min": 5000.0,
+          "max": 15000.0,
+          "decimals": 0
+        },
+        {
+          "name": "y",
+          "min": 3000.0,
+          "max": 10000.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "8*{x}+7*{y}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_002",
+      "imgs": [
+        "_page_0_Picture_14.jpeg"
+      ],
+      "questiontext": "Quan sát hình dưới đây: [img:_page_0_Picture_14.jpeg]\nBiểu thức biểu thị tổng diện tích của hình tạo bởi một tam giác vuông và hai hình vuông dựng trên hai cạnh góc vuông của nó là \\(x^2 + y^2 + \\frac{1}{2}xy\\). Đây là ví dụ về:",
+      "generalfeedback": "Biểu thức \\(x^2 + y^2 + \\frac{1}{2}xy\\) là tổng của các đơn thức với hai biến x và y, do đó đây là một đa thức hai biến.",
+      "answers": [
+        {
+          "text": "Đa thức hai biến",
+          "fraction": 100
+        },
+        {
+          "text": "Đơn thức một biến",
+          "fraction": 0
+        },
+        {
+          "text": "Phân thức một biến",
+          "fraction": 0
+        },
+        {
+          "text": "Đa thức ba biến",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Giá trị của đa thức",
+      "questiontext": "Để tính giá trị của một đa thức tại những giá trị cho trước của các biến, ta [[1]] các giá trị cho trước đó vào vị trí của các biến trong đa thức rồi thực hiện [[2]].",
+      "generalfeedback": "Để tính giá trị của đa thức tại các giá trị cho trước của biến, ta thay các giá trị đó vào vị trí của các biến trong đa thức rồi thực hiện các phép tính.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "thay"
+        },
+        {
+          "group": 1,
+          "text": "các phép tính"
+        },
+        {
+          "group": 1,
+          "text": "nhóm"
+        },
+        {
+          "group": 1,
+          "text": "rút gọn"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi gặp một bài toán tìm các hạng tử và tính giá trị của đa thức phức tạp như \\(P = 8x^2y^2z - 2xyz + 5y^2z - 5x^2y^2z + x^2y^2 - 3x^2y^2z\\) mà chưa tìm ra ngay cách thu gọn, hành động nào sau đây thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập?",
+      "generalfeedback": "Chủ động phân tích và kiên trì nhóm các hạng tử đồng dạng để làm gọn đa thức trước khi tính toán thể hiện sự nỗ lực, cố gắng vươn lên trong học tập.",
+      "answers": [
+        {
+          "text": "Chủ động phân tích, kiên trì nhóm các hạng tử đồng dạng để thu gọn đa thức trước khi thay số tính giá trị.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài toán vì thấy đa thức quá dài và phức tạp.",
+          "fraction": 0
+        },
+        {
+          "text": "Thay ngay các giá trị số vào đa thức ban đầu mà không cần thu gọn dù biết sẽ rất dễ tính sai.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép lời giải của bạn khác mà không cần hiểu cách thu gọn đa thức.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi làm bài tập về đa thức, việc tự mình kiểm tra lại xem các hạng tử đã được thu gọn hết chưa và thử lại giá trị tính toán thể hiện thái độ tích cực, luôn cố gắng vươn lên đạt kết quả tốt trong học tập.",
+      "generalfeedback": "Tự giác kiểm tra và rà soát kết quả bài làm thể hiện ý thức trách nhiệm và tinh thần nỗ lực vươn lên đạt kết quả tốt.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TULUC_C2_01",
+      "questiontext": "Để chuẩn bị cho tiết học 'Đa thức', bạn An lập kế hoạch tự học gồm ba bước: (A) Đọc SGK để nắm khái niệm đa thức và hạng tử; (B) Tự làm các bài tập luyện tập trong SGK để củng cố; (C) Trao đổi với bạn hoặc hỏi thầy cô những chỗ chưa hiểu khi thu gọn đa thức. Trình tự các bước nào thể hiện tính chủ động và khoa học nhất?",
+      "generalfeedback": "Tự đọc SGK nắm kiến thức nền tảng, sau đó tự luyện tập củng cố và chủ động trao đổi thắc mắc là quy trình tự học tích cực, hiệu quả.",
+      "answers": [
+        {
+          "text": "(A) -> (B) -> (C)",
+          "fraction": 100
+        },
+        {
+          "text": "(B) -> (A) -> (C)",
+          "fraction": 0
+        },
+        {
+          "text": "(C) -> (B) -> (A)",
+          "fraction": 0
+        },
+        {
+          "text": "(B) -> (C) -> (A)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TULUC_C2_01",
+      "questiontext": "Hãy ghép mỗi nhiệm vụ học tập về đa thức với hành động thể hiện tính chủ động, tích cực tương ứng của học sinh:",
+      "generalfeedback": "Chủ động đọc SGK, tự làm bài tập và tự tìm nguyên nhân sai sót để sửa chữa thể hiện năng lực tự học và tự chủ.",
+      "subquestions": [
+        {
+          "question": "Tìm hiểu khái niệm đa thức",
+          "answer": "Tự đọc SGK, ghi chép lại các ví dụ về tổng của những đơn thức."
+        },
+        {
+          "question": "Thực hành thu gọn đa thức",
+          "answer": "Chủ động tự giải các bài tập luyện tập và so sánh kết quả với bạn."
+        },
+        {
+          "question": "Khắc phục sai sót khi tính giá trị đa thức",
+          "answer": "Tự tìm nguyên nhân tính sai (nhầm dấu hoặc chưa thu gọn) và làm lại."
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Xét hai biểu thức \\(A = 3xy^2 - 1\\) và \\(B = x + \\frac{1}{x}\\). Bằng thao tác tư duy phân tích cấu trúc của biểu thức, nhận xét nào sau đây là đúng?",
+      "generalfeedback": "Bằng thao tác phân tích, ta thấy \\(3xy^2 - 1\\) là tổng của hai đơn thức nên là đa thức; còn \\(x + \\frac{1}{x}\\) chứa \\(\\frac{1}{x}\\) không phải đơn thức nên B không phải đa thức.",
+      "answers": [
+        {
+          "text": "\\(A\\) là đa thức vì là tổng các đơn thức; \\(B\\) không phải đa thức vì chứa phép chia cho biến \\(x\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Cả \\(A\\) và \\(B\\) đều là đa thức vì đều chứa phép cộng.",
+          "fraction": 0
+        },
+        {
+          "text": "Cả \\(A\\) và \\(B\\) đều không phải đa thức.",
+          "fraction": 0
+        },
+        {
+          "text": "\\(A\\) không phải đa thức, \\(B\\) là đa thức.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Phân tích đa thức \\(M = x^2y - 5xy + 7xy^2 + 3x^2y + xy^2 - 4xy^2 + 2\\). Để thu gọn \\(M\\), ta thực hiện thao tác tư duy so sánh và nhóm các hạng tử đồng dạng như thế nào?",
+      "generalfeedback": "Thao tác so sánh phần biến giúp nhận ra các nhóm hạng tử đồng dạng: \\(x^2y\\) với \\(3x^2y\\); \\(7xy^2\\), \\(xy^2\\) với \\(-4xy^2\\).",
+      "answers": [
+        {
+          "text": "Nhóm \\((x^2y + 3x^2y) + (7xy^2 + xy^2 - 4xy^2) - 5xy + 2\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Nhóm \\((x^2y + 7xy^2) + (3x^2y - 4xy^2) - 5xy + 2\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Nhóm \\((x^2y - 5xy) + (7xy^2 + 3x^2y) + 2\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Cộng tất cả các hệ số của các hạng tử lại với nhau.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04_12",
+      "questiontext": "Một cửa hàng bán sách: Mỗi quyển vở giá \\(x\\) đồng, mỗi chiếc bút giá \\(y\\) đồng. Khi biểu diễn bằng ngôn ngữ toán học, tổng số tiền mua 8 quyển vở và 7 chiếc bút là [[1]], đây là một [[2]] hai biến.",
+      "generalfeedback": "Số tiền 8 quyển vở là 8x, 7 chiếc bút là 7y. Tổng số tiền biểu diễn bằng ngôn ngữ toán học là \\(8x + 7y\\), đây là một đa thức hai biến.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(8x + 7y\\)"
+        },
+        {
+          "group": 1,
+          "text": "đa thức"
+        },
+        {
+          "group": 1,
+          "text": "\\(56xy\\)"
+        },
+        {
+          "group": 1,
+          "text": "đơn thức"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_04_12",
+      "questiontext": "Tình huống thực tế: 'Mua 3 xấp vở (mỗi xấp 10 quyển, giá \\(x\\) đồng/quyển) và 2 hộp bút (mỗi hộp 12 chiếc, giá \\(y\\) đồng/chiếc)'. Biểu thức đa thức nào dưới đây biểu diễn đúng tình huống trên bằng ngôn ngữ toán học?",
+      "generalfeedback": "3 xấp vở có 30 quyển (giá 30x), 2 hộp bút có 24 chiếc (giá 24y). Ngôn ngữ toán học tương ứng là đa thức \\(30x + 24y\\).",
+      "answers": [
+        {
+          "text": "\\(30x + 24y\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(3x + 2y\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(10x + 12y\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(30x \\cdot 24y\\)",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,471 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 18,
+    "total": 18,
+    "metadata_used": {
+      "Công thức đưa thừa số vào trong dấu căn A.sqrt(B)": 7,
+      "YCCD_TOAN9_009": 2,
+      "Đưa thừa số vào trong dấu căn bậc hai": 36,
+      "So sánh các biểu thức chứa căn thức bậc hai": 5,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TUHOC_C2_01": 1,
+      "SUB_GQVD_DEXUAT_C2_02": 1,
+      "NLT_TOAN_C2_01_03": 2,
+      "NLT_TOAN_C2_03_05": 2
+    },
+    "types_used": {
+      "multichoice": 7,
+      "truefalse": 4,
+      "shortanswer": 1,
+      "numerical": 1,
+      "matching": 1,
+      "gapselect": 2,
+      "ddwtos": 1,
+      "calculatedsimple": 1
+    }
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN9_009",
+        "reason": "Có đủ cơ sở trong SGK Tiết 2 về YCCĐ thực hiện được việc đưa thừa số vào trong dấu căn bậc hai"
+      },
+      {
+        "metadata_code": "Công thức đưa thừa số vào trong dấu căn A.sqrt(B)",
+        "reason": "Có đủ cơ sở trong SGK Tiết 2 về công thức đưa thừa số vào trong dấu căn A.sqrt(B)"
+      },
+      {
+        "metadata_code": "Đưa thừa số vào trong dấu căn bậc hai",
+        "reason": "Có đủ cơ sở trong SGK Tiết 2 về kỹ năng đưa thừa số vào trong dấu căn bậc hai"
+      },
+      {
+        "metadata_code": "So sánh các biểu thức chứa căn thức bậc hai",
+        "reason": "Có đủ cơ sở trong SGK Tiết 2 về kỹ năng so sánh các biểu thức chứa căn thức bậc hai"
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đo lường phẩm chất chăm chỉ, vươn lên vượt khó trong học tập thông qua tình huống giải toán căn thức"
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+        "reason": "Đo lường năng lực tự chủ và tự học qua việc lập kế hoạch học tập chủ động cho bài học"
+      },
+      {
+        "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+        "reason": "Đo lường năng lực giải quyết vấn đề qua đề xuất giải pháp so sánh hai căn thức không dùng máy tính"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_03",
+        "reason": "Đo lường năng lực tư duy toán học qua giải thích sự tương đồng và khác biệt giữa các phép biến đổi căn thức"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_05",
+        "reason": "Đo lường năng lực mô hình hóa và sử dụng công cụ toán học qua bài toán thực tế so sánh lượng nước và diện tích"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N",
+        "reason": "Bài học thuộc Tiết 2 về quy tắc đưa thừa số vào trong dấu căn thuần túy đại số, không có dữ liệu định dạng số/tin học tự nhiên để tích hợp đo lường Năng lực tin học/số."
+      },
+      {
+        "metadata_code": "A",
+        "reason": "Nội dung bài học là quy tắc biến đổi căn thức cơ bản, không chứa bối cảnh ứng dụng hoặc tương tác với trí tuệ nhân tạo (AI) một cách tự nhiên."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức đưa thừa số vào trong dấu căn A.sqrt(B)",
+      "questiontext": "Cho \\(a \\ge 0\\) và \\(b \\ge 0\\). Khẳng định nào sau đây là đúng về phép biến đổi đưa thừa số vào trong dấu căn?",
+      "generalfeedback": "Với \\(a \\ge 0\\) và \\(b \\ge 0\\), ta có \\(a\\sqrt{b} = \\sqrt{a^2b}\\).",
+      "answers": [
+        {
+          "text": "\\(a\\sqrt{b} = \\sqrt{a^2b}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(a\\sqrt{b} = -\\sqrt{a^2b}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a\\sqrt{b} = \\sqrt{ab^2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a\\sqrt{b} = a^2\\sqrt{b}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức đưa thừa số vào trong dấu căn A.sqrt(B)",
+      "questiontext": "Cho \\(a < 0\\) và \\(b \\ge 0\\). Dạng đúng của phép đưa thừa số vào trong dấu căn đối với biểu thức \\(a\\sqrt{b}\\) là:",
+      "generalfeedback": "Khi \\(a < 0\\) và \\(b \\ge 0\\), ta đưa thừa số \\(a\\) vào trong dấu căn bằng cách đặt dấu âm phía trước: \\(a\\sqrt{b} = -\\sqrt{(-a)^2b} = -\\sqrt{a^2b}\\).",
+      "answers": [
+        {
+          "text": "\\(a\\sqrt{b} = -\\sqrt{a^2b}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(a\\sqrt{b} = \\sqrt{a^2b}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a\\sqrt{b} = \\sqrt{-a^2b}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a\\sqrt{b} = -a\\sqrt{b}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_009",
+      "questiontext": "Khẳng định sau đây Đúng hay Sai: \"Phép biến đổi \\(5\\sqrt{2} = \\sqrt{5^2 \\cdot 2} = \\sqrt{50}\\) là phép đưa thừa số vào trong dấu căn.\"",
+      "generalfeedback": "Đúng. Đây là ví dụ về phép đưa thừa số 5 vào trong dấu căn bậc hai.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_009",
+      "questiontext": "Khẳng định sau đây Đúng hay Sai: \"Với \\(a \\ge 0\\), phép biến đổi \\(-2\\sqrt{a} = \\sqrt{(-2)^2 \\cdot a} = \\sqrt{4a}\\) là đúng.\"",
+      "generalfeedback": "Sai. Vì thừa số \\(-2 < 0\\) nên khi đưa vào trong dấu căn ta phải để dấu âm ở ngoài: \\(-2\\sqrt{a} = -\\sqrt{2^2 \\cdot a} = -\\sqrt{4a}\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Đưa thừa số vào trong dấu căn bậc hai",
+      "questiontext": "Khi đưa thừa số vào trong dấu căn, biểu thức \\(3\\sqrt{5}\\) bằng \\(\\sqrt{x}\\). Giá trị của \\(x\\) là bao nhiêu?",
+      "generalfeedback": "Ta có \\(3\\sqrt{5} = \\sqrt{3^2 \\cdot 5} = \\sqrt{9 \\cdot 5} = \\sqrt{45}\\). Vậy \\(x = 45\\).",
+      "answers": [
+        {
+          "text": "45",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Đưa thừa số vào trong dấu căn bậc hai",
+      "questiontext": "Đưa thừa số vào trong dấu căn của biểu thức \\(4\\sqrt{3}\\) được \\(\\sqrt{N}\\). Tính giá trị của số nguyên \\(N\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Ta có \\(4\\sqrt{3} = \\sqrt{4^2 \\cdot 3} = \\sqrt{16 \\cdot 3} = \\sqrt{48}\\). Vậy \\(N = 48\\).",
+      "answers": [
+        {
+          "text": "48",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Đưa thừa số vào trong dấu căn bậc hai",
+      "questiontext": "Ghép mỗi biểu thức ở cột bên trái với dạng đưa thừa số vào trong dấu căn tương ứng ở cột bên phải:",
+      "generalfeedback": "Áp dụng công thức \\(a\\sqrt{b} = \\sqrt{a^2b}\\) với \\(a \\ge 0\\) và \\(a\\sqrt{b} = -\\sqrt{a^2b}\\) với \\(a < 0\\).",
+      "subquestions": [
+        {
+          "question": "\\(5\\sqrt{2}\\)",
+          "answer": "\\(\\sqrt{50}\\)"
+        },
+        {
+          "question": "\\(3\\sqrt{5}\\)",
+          "answer": "\\(\\sqrt{45}\\)"
+        },
+        {
+          "question": "\\(-2\\sqrt{7}\\)",
+          "answer": "\\(-\\sqrt{28}\\)"
+        },
+        {
+          "question": "\\(4\\sqrt{3}\\)",
+          "answer": "\\(\\sqrt{48}\\)"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức đưa thừa số vào trong dấu căn A.sqrt(B)",
+      "questiontext": "Điền từ/cụm từ thích hợp vào chỗ trống: Nếu \\(a\\) và \\(b\\) là hai số không âm thì \\(a\\sqrt{b} =\\) [[1]] . Nếu \\(a\\) là số âm và \\(b\\) là số không âm thì \\(a\\sqrt{b} =\\) [[2]] .",
+      "generalfeedback": "Theo quy tắc đưa thừa số vào trong dấu căn: khi \\(a \\ge 0, b \\ge 0\\) thì \\(a\\sqrt{b} = \\sqrt{a^2b}\\); khi \\(a < 0, b \\ge 0\\) thì \\(a\\sqrt{b} = -\\sqrt{a^2b}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(\\sqrt{a^2b}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(-\\sqrt{a^2b}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\sqrt{ab^2}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(-\\sqrt{ab^2}\\)"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "So sánh các biểu thức chứa căn thức bậc hai",
+      "questiontext": "Để so sánh hai số \\(3\\sqrt{2}\\) và \\(2\\sqrt{3}\\):\n- Ta biến đổi: \\(3\\sqrt{2} = \\sqrt{18}\\) và \\(2\\sqrt{3} =\\) [[1]] .\n- Vì \\(\\sqrt{12} < \\sqrt{18}\\) nên \\(2\\sqrt{3}\\) [[2]] \\(3\\sqrt{2}\\).",
+      "generalfeedback": "Ta có \\(2\\sqrt{3} = \\sqrt{2^2 \\cdot 3} = \\sqrt{12}\\). Vì \\(\\sqrt{12} < \\sqrt{18}\\) nên \\(2\\sqrt{3} < 3\\sqrt{2}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(\\sqrt{12}\\)"
+        },
+        {
+          "group": 1,
+          "text": "<"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\sqrt{6}\\)"
+        },
+        {
+          "group": 1,
+          "text": ">"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Đưa thừa số vào trong dấu căn bậc hai",
+      "questiontext": "Đưa thừa số dương {a} vào trong dấu căn của biểu thức {a}\\(\\sqrt 2\\) thu được dạng \\(\\sqrt N\\). Hãy tính giá trị của N.",
+      "generalfeedback": "Ta có {a}\\(\\sqrt 2\\) = \\(\\sqrt {a^2 \\cdot 2}\\) = \\(\\sqrt 2 \\cdot {a^2}\\). Do đó \\(N = 2 \\cdot {a}^2\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 9.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "2*{a}*{a}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi gặp bài toán khó về so sánh hai biểu thức chứa căn thức bậc hai dạng \\(a\\sqrt{b}\\) và \\(c\\sqrt{d}\\) mà chưa biết cách biến đổi, hành vi nào sau đây thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập?",
+      "generalfeedback": "Hành vi chủ động nghiên cứu lại kiến thức SGK, trao đổi với bạn bè và thầy cô để tìm ra lời giải thể hiện sự nỗ lực vượt khó trong học tập.",
+      "answers": [
+        {
+          "text": "Chủ động đọc lại SGK phần quy tắc đưa thừa số vào trong dấu căn, thảo luận với bạn hoặc hỏi thầy cô để tìm ra lời giải.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài toán khó và chỉ làm những bài toán đơn giản đã biết làm.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép lại đáp án của bạn khác mà không cần tìm hiểu các bước biến đổi.",
+          "fraction": 0
+        },
+        {
+          "text": "Đợi thầy cô chữa bài rồi chép vào vở mà không tự suy nghĩ.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khẳng định sau đây Đúng hay Sai: \"Khi biến đổi đưa thừa số âm vào trong dấu căn bị sai dấu (quên để dấu âm ở ngoài), học sinh có tinh thần vươn lên trong học tập sẽ tự xem lại công thức \\(a\\sqrt{b} = -\\sqrt{a^2b}\\) (với \\(a < 0, b \\ge 0\\)) để rút kinh nghiệm và khắc phục sai sót.\"",
+      "generalfeedback": "Đúng. Việc nhận thức nguyên nhân sai lầm và tự giác nghiên cứu lại quy tắc toán học để sửa chữa là biểu hiện của phẩm chất chăm chỉ, vươn lên trong học tập.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Để đạt mục tiêu thành thạo kỹ năng 'Đưa thừa số vào trong dấu căn bậc hai' trong Bài 9 (Tiết 2), học sinh nên lập kế hoạch học tập nào sau đây là phù hợp nhất?",
+      "generalfeedback": "Kế hoạch học tập có mục tiêu rõ ràng, đi từ lý thuyết (phân biệt hai trường hợp thừa số) đến thực hành ứng dụng (so sánh) giúp học sinh chủ động đạt hiệu quả cao.",
+      "answers": [
+        {
+          "text": "Nắm vững quy tắc đối với thừa số âm và không âm, sau đó luyện tập từ các bài tập đưa thừa số vào dấu căn cơ bản đến các bài toán so sánh căn thức.",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ học thuộc công thức \\(a\\sqrt{b} = \\sqrt{a^2b}\\) mà không cần phân biệt trường hợp \\(a < 0\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ giải các bài tập nâng cao về trục căn thức mà bỏ qua bài tập đưa thừa số vào trong dấu căn.",
+          "fraction": 0
+        },
+        {
+          "text": "Chờ đến khi có kiểm tra mới mở SGK ra xem lại các ví dụ.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Khi cần so sánh hai biểu thức \\(A = 3\\sqrt{5}\\) và \\(B = 2\\sqrt{11}\\) mà không dùng máy tính cầm tay, giải pháp nào sau đây là tối ưu nhất?",
+      "generalfeedback": "Giải pháp đưa các thừa số 3 và 2 vào trong dấu căn giúp đưa hai số về dạng \\(\\sqrt{45}\\) và \\(\\sqrt{44}\\), từ đó so sánh trực tiếp và chính xác hai căn thức.",
+      "answers": [
+        {
+          "text": "Biến đổi đưa thừa số vào trong dấu căn: \\(3\\sqrt{5} = \\sqrt{3^2 \\cdot 5} = \\sqrt{45}\\) và \\(2\\sqrt{11} = \\sqrt{2^2 \\cdot 11} = \\sqrt{44}\\), sau đó so sánh \\(\\sqrt{45}\\) và \\(\\sqrt{44}\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Lấy giá trị làm tròn cảm tính của \\(\\sqrt{5}\\) và \\(\\sqrt{11}\\) để nhân nhẩm.",
+          "fraction": 0
+        },
+        {
+          "text": "Thực hiện phép trục căn thức ở mẫu cho cả hai biểu thức.",
+          "fraction": 0
+        },
+        {
+          "text": "Đưa thừa số ra ngoài dấu căn đối với hai biểu thức trên.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_03",
+      "questiontext": "Xét hai phép biến đổi: (1) \\(3\\sqrt{2} = \\sqrt{3^2 \\cdot 2} = \\sqrt{18}\\) và (2) \\(-3\\sqrt{2} = -\\sqrt{3^2 \\cdot 2} = -\\sqrt{18}\\). Lập luận nào sau đây giải thích đúng điểm tương đồng và khác biệt giữa hai phép biến đổi này?",
+      "generalfeedback": "Hai phép biến đổi giống nhau ở việc đưa bình phương phần độ lớn của thừa số vào trong căn (3^2 = 9), nhưng khác nhau ở việc giữ lại dấu âm bên ngoài căn thức đối với thừa số âm -3.",
+      "answers": [
+        {
+          "text": "Tương đồng: Đều đưa bình phương phần độ lớn của thừa số 3 vào trong dấu căn. Khác biệt: Phép (1) thừa số dương nên kết quả là căn bậc hai dương; phép (2) thừa số âm nên phải đặt dấu âm trước dấu căn.",
+          "fraction": 100
+        },
+        {
+          "text": "Tương đồng: Đều đưa nguyên cả thừa số kể cả dấu âm vào trong dấu căn. Khác biệt: Kết quả phép (1) là số nguyên, phép (2) là phân số.",
+          "fraction": 0
+        },
+        {
+          "text": "Tương đồng: Cả hai phép biến đổi đều làm thay đổi giá trị của biểu thức ban đầu. Khác biệt: Phép (1) áp dụng cho số thực, phép (2) áp dụng cho số tự nhiên.",
+          "fraction": 0
+        },
+        {
+          "text": "Không có điểm tương đồng vì hai phép biến đổi hoàn toàn không liên quan.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_03",
+      "questiontext": "Khẳng định sau đây Đúng hay Sai: \"Khác biệt căn bản về mục đích sử dụng giữa phép 'đưa thừa số ra ngoài dấu căn' và phép 'đưa thừa số vào trong dấu căn' là: Phép đưa ra ngoài giúp rút gọn biểu thức, còn phép đưa vào trong giúp biến đổi biểu thức về dạng một căn thức duy nhất để thuận tiện so sánh.\"",
+      "generalfeedback": "Đúng. Hai phép biến đổi có mục đích khác nhau: đưa ra ngoài dùng để thu gọn/rút gọn biểu thức, đưa vào trong dùng để so sánh các căn thức.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Hai vòi nước cùng chảy vào hai bể chứa giống nhau. Trong cùng một khoảng thời gian, vòi A chảy được thể tích \\(V_A = 4\\sqrt{3}\\) m³ và vòi B chảy được thể tích \\(V_B = 3\\sqrt{5}\\) m³. Bằng kỹ năng đưa thừa số vào trong dấu căn, kết luận nào sau đây là chính xác?",
+      "generalfeedback": "Ta có \\(V_A = 4\\sqrt{3} = \\sqrt{4^2 \\cdot 3} = \\sqrt{48}\\) m³ và \\(V_B = 3\\sqrt{5} = \\sqrt{3^2 \\cdot 5} = \\sqrt{45}\\) m³. Vì \\(\\sqrt{48} > \\sqrt{45}\\) nên vòi A chảy được lượng nước nhiều hơn vòi B.",
+      "answers": [
+        {
+          "text": "Vòi A chảy nhiều nước hơn vòi B vì \\(V_A = \\sqrt{48}\\) m³ lớn hơn \\(V_B = \\sqrt{45}\\) m³.",
+          "fraction": 100
+        },
+        {
+          "text": "Vòi B chảy nhiều nước hơn vòi A vì \\(V_B = \\sqrt{45}\\) m³ lớn hơn \\(V_A = \\sqrt{48}\\) m³.",
+          "fraction": 0
+        },
+        {
+          "text": "Lượng nước hai vòi chảy bằng nhau vì \\(4\\sqrt{3} = 3\\sqrt{5}\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Không đủ cơ sở so sánh vì hai vòi chảy các chất lỏng khác nhau.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Một khu vườn hình vuông X có độ dài cạnh là \\(3\\sqrt{5}\\) m và khu vườn hình vuông Y có độ dài cạnh là \\(4\\sqrt{3}\\) m. Để so sánh độ dài cạnh hai khu vườn, ta đưa thừa số vào trong dấu căn:\n- Cạnh vườn X: \\(3\\sqrt{5} =\\) [[1]] m.\n- Cạnh vườn Y: \\(4\\sqrt{3} =\\) [[2]] m.\nDo đó, khu vườn Y có độ dài cạnh lớn hơn khu vườn X.",
+      "generalfeedback": "Ta có \\(3\\sqrt{5} = \\sqrt{3^2 \\cdot 5} = \\sqrt{45}\\) m và \\(4\\sqrt{3} = \\sqrt{4^2 \\cdot 3} = \\sqrt{48}\\) m. Do \\(\\sqrt{48} > \\sqrt{45}\\) nên khu vườn Y có cạnh lớn hơn.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(\\sqrt{45}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\sqrt{48}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\sqrt{15}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\sqrt{12}\\)"
+        }
+      ]
+    }
+  ]
+}

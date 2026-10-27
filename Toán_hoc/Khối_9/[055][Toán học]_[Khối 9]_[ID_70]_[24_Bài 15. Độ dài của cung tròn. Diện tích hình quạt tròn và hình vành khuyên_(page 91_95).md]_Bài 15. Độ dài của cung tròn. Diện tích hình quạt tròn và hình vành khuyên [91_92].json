@@ -1,0 +1,762 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 30,
+    "metadata_used": {
+      "Công thức tính chu vi đường tròn": 4,
+      "Công thức tính độ dài cung tròn n độ": 6,
+      "Tính độ dài cung tròn khi biết bán kính và số đo độ của cung": 8,
+      "Tính bán kính hoặc số đo cung khi biết độ dài cung": 6,
+      "YCCD_TOAN9_091": 6
+    },
+    "types_used": {
+      "multichoice": 13,
+      "truefalse": 3,
+      "gapselect": 1,
+      "calculated": 1,
+      "numerical": 3,
+      "calculatedsimple": 1,
+      "matching": 2,
+      "ddwtos": 2,
+      "shortanswer": 2,
+      "calculatedmulti": 2
+    },
+    "total": 30
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN9_091",
+        "reason": "YCCĐ: Tính được độ dài cung tròn"
+      },
+      {
+        "metadata_code": "Công thức tính chu vi đường tròn",
+        "reason": "Kiến thức: Công thức tính chu vi đường tròn"
+      },
+      {
+        "metadata_code": "Công thức tính độ dài cung tròn n độ",
+        "reason": "Kiến thức: Công thức tính độ dài cung tròn n độ"
+      },
+      {
+        "metadata_code": "Tính độ dài cung tròn khi biết bán kính và số đo độ của cung",
+        "reason": "Kỹ năng: Tính độ dài cung tròn khi biết bán kính và số đo độ của cung"
+      },
+      {
+        "metadata_code": "Tính bán kính hoặc số đo cung khi biết độ dài cung",
+        "reason": "Kỹ năng: Tính bán kính hoặc số đo cung khi biết độ dài cung"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N",
+        "reason": "Nội dung học Tiết 1 - Độ dài cung tròn không chứa yếu tố thực hành tin học/phần mềm chuyên dụng nên không đủ cơ sở đo lường tự nhiên."
+      },
+      {
+        "metadata_code": "A",
+        "reason": "Nội dung học Tiết 1 - Độ dài cung tròn thuần lý thuyết hình học cơ bản, không có ngữ cảnh tương tác với công cụ AI tự nhiên."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức tính chu vi đường tròn",
+      "questiontext": "Công thức tính chu vi \\(C\\) của đường tròn bán kính \\(R\\) (hoặc đường kính \\(d\\)) là:",
+      "generalfeedback": "Theo SGK, công thức tính chu vi đường tròn bán kính \\(R\\), đường kính \\(d = 2R\\) là \\(C = \\pi d = 2\\pi R\\).",
+      "answers": [
+        {
+          "text": "\\(C = \\pi d = 2\\pi R\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(C = \\pi R^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(C = 2\\pi d = \\pi R\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(C = \\frac{\\pi R}{2}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức tính chu vi đường tròn",
+      "questiontext": "Tỉ số giữa chu vi và đường kính của một đường tròn luôn bằng một số vô tỉ không đổi gọi là số \\(\\pi\\).",
+      "generalfeedback": "Đúng. Người ta chứng minh được rằng tỉ số giữa chu vi và đường kính của một đường tròn luôn bằng một số vô tỉ không đổi gọi là số \\(\\pi\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức tính độ dài cung tròn n độ",
+      "questiontext": "Công thức tính độ dài \\(l\\) của cung \\(n^\\circ\\) trên đường tròn bán kính \\(R\\) là:",
+      "generalfeedback": "Theo SGK, độ dài \\(l\\) của cung \\(n^\\circ\\) trên đường tròn bán kính \\(R\\) được tính bởi công thức \\(l = \\frac{n}{180} \\pi R\\).",
+      "answers": [
+        {
+          "text": "\\(l = \\frac{n}{180} \\pi R\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(l = \\frac{n}{360} \\pi R\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(l = \\frac{n}{180} \\pi R^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(l = \\frac{n}{360} \\pi R^2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức tính độ dài cung tròn n độ",
+      "questiontext": "Độ dài cung [[1]] trên đường tròn bán kính \\(R\\) là \\(l = \\frac{n}{180} \\pi R\\). Tỉ số giữa độ dài cung \\(n^\\circ\\) và độ dài đường tròn (cùng bán kính) bằng [[2]].",
+      "generalfeedback": "Công thức tính độ dài cung \\(n^\\circ\\) là \\(l = \\frac{n}{180} \\pi R\\). Tỉ số giữa độ dài cung \\(n^\\circ\\) và chu vi đường tròn \\(C\\) là \\(\\frac{l}{C} = \\frac{n}{360}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "n°"
+        },
+        {
+          "group": 1,
+          "text": "n/360"
+        },
+        {
+          "group": 1,
+          "text": "2n°"
+        },
+        {
+          "group": 1,
+          "text": "n/180"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Tính độ dài cung tròn khi biết bán kính và số đo độ của cung",
+      "questiontext": "Tính độ dài cung \\(40^\\circ\\) của đường tròn bán kính \\(9\\text{ cm}\\) (kết quả viết theo \\(\\pi\\)).",
+      "generalfeedback": "Áp dụng công thức \\(l = \\frac{n}{180} \\pi R = \\frac{40}{180} \\cdot \\pi \\cdot 9 = 2\\pi\\text{ (cm)}\\).",
+      "answers": [
+        {
+          "text": "\\(2\\pi\\text{ cm}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(4\\pi\\text{ cm}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\pi\\text{ cm}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(8\\pi\\text{ cm}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Tính độ dài cung tròn khi biết bán kính và số đo độ của cung",
+      "questiontext": "Tính độ dài cung {n}° của đường tròn bán kính {R} cm với số \\(\\pi \\approx 3,14\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Độ dài cung được tính theo công thức \\(l = \\frac{n}{180} \\pi R\\).",
+      "wildcards": [
+        {
+          "name": "n",
+          "min": 30.0,
+          "max": 120.0,
+          "decimals": 0
+        },
+        {
+          "name": "R",
+          "min": 3.0,
+          "max": 15.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "({n}/180)*3.14*{R}",
+          "fraction": 100,
+          "tolerance": 0.05
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính bán kính hoặc số đo cung khi biết độ dài cung",
+      "questiontext": "Cho đường tròn bán kính \\(R = 6\\text{ cm}\\). Biết độ dài của một cung trên đường tròn đó là \\(2\\pi\\text{ cm}\\). Số đo độ \\(n^\\circ\\) của cung đó bằng bao nhiêu? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Từ \\(l = \\frac{n}{180} \\pi R \\Rightarrow n = \\frac{180 \\cdot l}{\\pi R} = \\frac{180 \\cdot 2\\pi}{\\pi \\cdot 6} = 60^\\circ\\).",
+      "answers": [
+        {
+          "text": "60",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Tính bán kính hoặc số đo cung khi biết độ dài cung",
+      "questiontext": "Một cung {n}° trên đường tròn bán kính R cm có độ dài bằng l cm. Lấy \\(\\pi \\approx 3,14\\), hãy tính bán kính R của đường tròn đó. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Từ \\(l = \\frac{n}{180} \\pi R \\Rightarrow R = \\frac{180 \\cdot l}{n \\cdot \\pi}\\).",
+      "wildcards": [
+        {
+          "name": "n",
+          "min": 60.0,
+          "max": 120.0,
+          "decimals": 0
+        },
+        {
+          "name": "l",
+          "min": 5.0,
+          "max": 20.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "(180*{l})/({n}*3.14)",
+          "fraction": 100,
+          "tolerance": 0.1
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_091",
+      "imgs": [
+        "_page_1_Picture_10.jpeg"
+      ],
+      "questiontext": "Cho \\(A\\) và \\(B\\) là hai điểm trên đường tròn \\((O; 3\\text{ cm})\\) sao cho \\(\\widehat{AOB} = 120^\\circ\\) như Hình 5.13 [img:_page_1_Picture_10.jpeg]. Độ dài \\(l_1\\) của cung nhỏ \\(AB\\) và độ dài \\(l_2\\) của cung lớn \\(AmB\\) lần lượt là:",
+      "generalfeedback": "Cung nhỏ \\(AB\\) có số đo \\(120^\\circ\\) nên \\(l_1 = \\frac{120}{180} \\cdot \\pi \\cdot 3 = 2\\pi\\text{ (cm)}\\). Cung lớn \\(AmB\\) có số đo \\(360^\\circ - 120^\\circ = 240^\\circ\\) nên \\(l_2 = \\frac{240}{180} \\cdot \\pi \\cdot 3 = 4\\pi\\text{ (cm)}\\).",
+      "answers": [
+        {
+          "text": "\\(l_1 = 2\\pi\\text{ cm}\\) và \\(l_2 = 4\\pi\\text{ cm}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(l_1 = 4\\pi\\text{ cm}\\) và \\(l_2 = 2\\pi\\text{ cm}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(l_1 = \\pi\\text{ cm}\\) và \\(l_2 = 5\\pi\\text{ cm}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(l_1 = 3\\pi\\text{ cm}\\) và \\(l_2 = 3\\pi\\text{ cm}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_091",
+      "imgs": [
+        "_page_1_Picture_17.jpeg"
+      ],
+      "questiontext": "Bánh xe của một chiếc xe đạp có đường kính \\(650\\text{ mm}\\) (Hình 5.14) [img:_page_1_Picture_17.jpeg]. Biết rằng khi giò đĩa quay 1 vòng thì bánh xe quay được khoảng 3,3 vòng. Lấy \\(\\pi \\approx 3,14\\). Hỏi chiếc xe đạp di chuyển được quãng đường dài khoảng bao nhiêu mét sau khi người đi xe đạp quay giò đĩa 10 vòng liên tục?",
+      "generalfeedback": "Chu vi bánh xe là \\(C = \\pi \\cdot d = 3,14 \\cdot 0,65 = 2,041\\text{ (m)}\\). Khi quay giò đĩa 10 vòng, bánh xe quay được \\(10 \\cdot 3,3 = 33\\) vòng. Quãng đường đi được là \\(s = 33 \\cdot 2,041 \\approx 67,353\\text{ (m)}\\).",
+      "answers": [
+        {
+          "text": "Khoảng \\(67,35\\text{ m}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Khoảng \\(20,41\\text{ m}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Khoảng \\(134,70\\text{ m}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Khoảng \\(45,28\\text{ m}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Công thức tính chu vi đường tròn",
+      "questiontext": "Nếu tăng bán kính của một đường tròn lên 3 lần thì chu vi của đường tròn đó thay đổi như thế nào?",
+      "generalfeedback": "Chu vi đường tròn \\(C = 2\\pi R\\). Khi bán kính \\(R\\) tăng 3 lần thì chu vi \\(C' = 2\\pi (3R) = 3(2\\pi R) = 3C\\), tức là chu vi tăng lên 3 lần.",
+      "answers": [
+        {
+          "text": "Tăng lên 3 lần",
+          "fraction": 100
+        },
+        {
+          "text": "Tăng lên 6 lần",
+          "fraction": 0
+        },
+        {
+          "text": "Tăng lên 9 lần",
+          "fraction": 0
+        },
+        {
+          "text": "Không thay đổi",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Công thức tính độ dài cung tròn n độ",
+      "questiontext": "Hãy ghép mỗi công thức hoặc mối quan hệ ở cột bên trái với ý nghĩa tương ứng ở cột bên phải:",
+      "generalfeedback": "Theo bài học: \\(C = 2\\pi R\\) là chu vi đường tròn; \\(l = \\frac{n}{180}\\pi R\\) là độ dài cung \\(n^\\circ\\); \\(\\frac{l}{C} = \\frac{n}{360}\\) là tỉ số giữa độ dài cung \\(n^\\circ\\) và chu vi đường tròn.",
+      "subquestions": [
+        {
+          "question": "Công thức \\(C = 2\\pi R\\)",
+          "answer": "Chu vi đường tròn bán kính R"
+        },
+        {
+          "question": "Công thức \\(l = \\frac{n}{180}\\pi R\\)",
+          "answer": "Độ dài cung n° trên đường tròn bán kính R"
+        },
+        {
+          "question": "Tỉ số \\(\\frac{l}{C}\\)",
+          "answer": "Bằng \\(\\frac{n}{360}\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Tính độ dài cung tròn khi biết bán kính và số đo độ của cung",
+      "questiontext": "Cho đường tròn \\((O; 6\\text{ cm})\\). Độ dài của cung \\(60^\\circ\\) trên đường tròn này là:",
+      "generalfeedback": "Độ dài cung \\(60^\\circ\\) là \\(l = \\frac{60}{180} \\cdot \\pi \\cdot 6 = 2\\pi\\text{ (cm)}\\).",
+      "answers": [
+        {
+          "text": "\\(2\\pi\\text{ cm}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(4\\pi\\text{ cm}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(6\\pi\\text{ cm}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\pi\\text{ cm}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "Tính độ dài cung tròn khi biết bán kính và số đo độ của cung",
+      "questiontext": "Độ dài cung \\(90^\\circ\\) trên đường tròn bán kính \\(4\\text{ cm}\\) bằng [[1]] \\(\\text{cm}\\). Độ dài cung \\(180^\\circ\\) trên cùng đường tròn đó bằng [[2]] \\(\\text{cm}\\).",
+      "generalfeedback": "Cung \\(90^\\circ\\) có độ dài \\(l_1 = \\frac{90}{180}\\pi \\cdot 4 = 2\\pi\\text{ cm}\\). Cung \\(180^\\circ\\) có độ dài \\(l_2 = \\frac{180}{180}\\pi \\cdot 4 = 4\\pi\\text{ cm}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "2\\(\\pi\\)"
+        },
+        {
+          "group": 1,
+          "text": "4\\(\\pi\\)"
+        },
+        {
+          "group": 1,
+          "text": "8\\(\\pi\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\pi\\)"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Tính bán kính hoặc số đo cung khi biết độ dài cung",
+      "questiontext": "Một cung tròn có số đo \\(120^\\circ\\) và độ dài bằng \\(8\\pi\\text{ cm}\\). Bán kính \\(R\\) của đường tròn đó bằng bao nhiêu cm?",
+      "generalfeedback": "Từ \\(l = \\frac{n}{180}\\pi R \\Rightarrow R = \\frac{180 \\cdot l}{n \\cdot \\pi} = \\frac{180 \\cdot 8\\pi}{120 \\cdot \\pi} = 12\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "12 cm",
+          "fraction": 100
+        },
+        {
+          "text": "12",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính bán kính hoặc số đo cung khi biết độ dài cung",
+      "questiontext": "Độ dài của một cung tròn bán kính \\(10\\text{ cm}\\) là \\(5\\pi\\text{ cm}\\). Số đo độ \\(n^\\circ\\) của cung tròn đó bằng bao nhiêu? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Ta có \\(l = \\frac{n}{180}\\pi R \\Rightarrow n = \\frac{180 \\cdot l}{\\pi R} = \\frac{180 \\cdot 5\\pi}{\\pi \\cdot 10} = 90^\\circ\\).",
+      "answers": [
+        {
+          "text": "90",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "Tính độ dài cung tròn khi biết bán kính và số đo độ của cung",
+      "questiontext": "Tính độ dài cung {n}° của đường tròn đường kính {d} cm. (Cho số \\(\\pi\\))",
+      "generalfeedback": "Bán kính \\(R = \\frac{d}{2}\\). Độ dài cung là \\(l = \\frac{n}{180} \\cdot \\pi \\cdot \\frac{d}{2} = \\frac{n \\cdot d}{360} \\cdot \\pi\\).",
+      "wildcards": [
+        {
+          "name": "n",
+          "min": 30.0,
+          "max": 150.0,
+          "decimals": 0
+        },
+        {
+          "name": "d",
+          "min": 4.0,
+          "max": 20.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "({n}*{d}/360)*pi",
+          "fraction": 100
+        },
+        {
+          "text": "({n}*{d}/180)*pi",
+          "fraction": 0
+        },
+        {
+          "text": "({n}/360)*pi",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_091",
+      "questiontext": "Một tam giác đều \\(ABC\\) nội tiếp đường tròn \\((O; 4\\text{ cm})\\). Độ dài cung nhỏ \\(BC\\) của đường tròn bằng:",
+      "generalfeedback": "Vì tam giác \\(ABC\\) đều nên góc ở tâm \\(\\widehat{BOC} = 120^\\circ\\), do đó số đo cung nhỏ \\(BC\\) bằng \\(120^\\circ\\). Độ dài cung nhỏ \\(BC\\) là \\(l = \\frac{120}{180} \\cdot \\pi \\cdot 4 = \\frac{8\\pi}{3}\\text{ (cm)}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{8\\pi}{3}\\text{ cm}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{4\\pi}{3}\\text{ cm}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(4\\pi\\text{ cm}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{16\\pi}{3}\\text{ cm}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức tính độ dài cung tròn n độ",
+      "questiontext": "Trên cùng một đường tròn, hai cung có cùng số đo độ thì có độ dài bằng nhau.",
+      "generalfeedback": "Đúng. Hai cung trên cùng một đường tròn (hoặc hai đường tròn bằng nhau) có cùng số đo độ thì sẽ có độ dài bằng nhau vì độ dài cung tỉ lệ thuận với số đo độ của cung.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_091",
+      "questiontext": "Cho đường tròn \\((O; 4\\text{ cm})\\) và tam giác \\(ABC\\) cân tại \\(A\\) nội tiếp đường tròn. Biết số đo của cung nhỏ \\(BC\\) bằng \\(70^\\circ\\). Độ dài cung nhỏ \\(AB\\) (làm tròn đến hàng phần mười) xấp xỉ bằng:",
+      "generalfeedback": "Tam giác \\(ABC\\) cân tại \\(A\\) nên sđ\\(\\overparen{AB} =\\) sđ\\(\\overparen{AC}\\). Lại có sđ\\(\\overparen{AB} +\\) sđ\\(\\overparen{AC} +\\) sđ\\(\\overparen{BC} = 360^\\circ \\Rightarrow 2 \\cdot\\) sđ\\(\\overparen{AB} + 70^\\circ = 360^\\circ \\Rightarrow\\) sđ\\(\\overparen{AB} = 145^\\circ\\). Độ dài cung \\(AB\\) là \\(l = \\frac{145}{180} \\cdot 3,14 \\cdot 4 \\approx 10,1\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "10,1 cm",
+          "fraction": 100
+        },
+        {
+          "text": "4,9 cm",
+          "fraction": 0
+        },
+        {
+          "text": "12,2 cm",
+          "fraction": 0
+        },
+        {
+          "text": "8,7 cm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Công thức tính chu vi đường tròn",
+      "questiontext": "Nếu tăng bán kính của một đường tròn lên 3 lần thì chu vi của đường tròn đó thay đổi như thế nào?",
+      "generalfeedback": "Chu vi đường tròn \\(C = 2\\pi R\\). Khi bán kính \\(R\\) tăng 3 lần thì chu vi \\(C' = 2\\pi (3R) = 3(2\\pi R) = 3C\\), tức là chu vi tăng lên 3 lần.",
+      "answers": [
+        {
+          "text": "Tăng lên 3 lần",
+          "fraction": 100
+        },
+        {
+          "text": "Tăng lên 6 lần",
+          "fraction": 0
+        },
+        {
+          "text": "Tăng lên 9 lần",
+          "fraction": 0
+        },
+        {
+          "text": "Không thay đổi",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Công thức tính độ dài cung tròn n độ",
+      "questiontext": "Hãy ghép mỗi công thức hoặc mối quan hệ ở cột bên trái với ý nghĩa tương ứng ở cột bên phải:",
+      "generalfeedback": "Theo bài học: \\(C = 2\\pi R\\) là chu vi đường tròn; \\(l = \\frac{n}{180}\\pi R\\) là độ dài cung \\(n^\\circ\\); \\(\\frac{l}{C} = \\frac{n}{360}\\) là tỉ số giữa độ dài cung \\(n^\\circ\\) và chu vi đường tròn.",
+      "subquestions": [
+        {
+          "question": "Công thức \\(C = 2\\pi R\\)",
+          "answer": "Chu vi đường tròn bán kính R"
+        },
+        {
+          "question": "Công thức \\(l = \\frac{n}{180}\\pi R\\)",
+          "answer": "Độ dài cung n° trên đường tròn bán kính R"
+        },
+        {
+          "question": "Tỉ số \\(\\frac{l}{C}\\)",
+          "answer": "Bằng \\(\\frac{n}{360}\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Tính độ dài cung tròn khi biết bán kính và số đo độ của cung",
+      "questiontext": "Cho đường tròn \\((O; 6\\text{ cm})\\). Độ dài của cung \\(60^\\circ\\) trên đường tròn này là:",
+      "generalfeedback": "Độ dài cung \\(60^\\circ\\) là \\(l = \\frac{60}{180} \\cdot \\pi \\cdot 6 = 2\\pi\\text{ (cm)}\\).",
+      "answers": [
+        {
+          "text": "\\(2\\pi\\text{ cm}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(4\\pi\\text{ cm}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(6\\pi\\text{ cm}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\pi\\text{ cm}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "Tính độ dài cung tròn khi biết bán kính và số đo độ của cung",
+      "questiontext": "Độ dài cung \\(90^\\circ\\) trên đường tròn bán kính \\(4\\text{ cm}\\) bằng [[1]] \\(\\text{cm}\\). Độ dài cung \\(180^\\circ\\) trên cùng đường tròn đó bằng [[2]] \\(\\text{cm}\\).",
+      "generalfeedback": "Cung \\(90^\\circ\\) có độ dài \\(l_1 = \\frac{90}{180}\\pi \\cdot 4 = 2\\pi\\text{ cm}\\). Cung \\(180^\\circ\\) có độ dài \\(l_2 = \\frac{180}{180}\\pi \\cdot 4 = 4\\pi\\text{ cm}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "2\\(\\pi\\)"
+        },
+        {
+          "group": 1,
+          "text": "4\\(\\pi\\)"
+        },
+        {
+          "group": 1,
+          "text": "8\\(\\pi\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\pi\\)"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Tính bán kính hoặc số đo cung khi biết độ dài cung",
+      "questiontext": "Một cung tròn có số đo \\(120^\\circ\\) và độ dài bằng \\(8\\pi\\text{ cm}\\). Bán kính \\(R\\) của đường tròn đó bằng bao nhiêu cm?",
+      "generalfeedback": "Từ \\(l = \\frac{n}{180}\\pi R \\Rightarrow R = \\frac{180 \\cdot l}{n \\cdot \\pi} = \\frac{180 \\cdot 8\\pi}{120 \\cdot \\pi} = 12\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "12 cm",
+          "fraction": 100
+        },
+        {
+          "text": "12",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính bán kính hoặc số đo cung khi biết độ dài cung",
+      "questiontext": "Độ dài của một cung tròn bán kính \\(10\\text{ cm}\\) là \\(5\\pi\\text{ cm}\\). Số đo độ \\(n^\\circ\\) của cung tròn đó bằng bao nhiêu? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Ta có \\(l = \\frac{n}{180}\\pi R \\Rightarrow n = \\frac{180 \\cdot l}{\\pi R} = \\frac{180 \\cdot 5\\pi}{\\pi \\cdot 10} = 90^\\circ\\).",
+      "answers": [
+        {
+          "text": "90",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "Tính độ dài cung tròn khi biết bán kính và số đo độ của cung",
+      "questiontext": "Tính độ dài cung {n}° của đường tròn đường kính {d} cm. (Cho số \\(\\pi\\))",
+      "generalfeedback": "Bán kính \\(R = \\frac{d}{2}\\). Độ dài cung là \\(l = \\frac{n}{180} \\cdot \\pi \\cdot \\frac{d}{2} = \\frac{n \\cdot d}{360} \\cdot \\pi\\).",
+      "wildcards": [
+        {
+          "name": "n",
+          "min": 30.0,
+          "max": 150.0,
+          "decimals": 0
+        },
+        {
+          "name": "d",
+          "min": 4.0,
+          "max": 20.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "({n}*{d}/360)*pi",
+          "fraction": 100
+        },
+        {
+          "text": "({n}*{d}/180)*pi",
+          "fraction": 0
+        },
+        {
+          "text": "({n}/360)*pi",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_091",
+      "questiontext": "Một tam giác đều \\(ABC\\) nội tiếp đường tròn \\((O; 4\\text{ cm})\\). Độ dài cung nhỏ \\(BC\\) của đường tròn bằng:",
+      "generalfeedback": "Vì tam giác \\(ABC\\) đều nên góc ở tâm \\(\\widehat{BOC} = 120^\\circ\\), do đó số đo cung nhỏ \\(BC\\) bằng \\(120^\\circ\\). Độ dài cung nhỏ \\(BC\\) là \\(l = \\frac{120}{180} \\cdot \\pi \\cdot 4 = \\frac{8\\pi}{3}\\text{ (cm)}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{8\\pi}{3}\\text{ cm}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{4\\pi}{3}\\text{ cm}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(4\\pi\\text{ cm}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{16\\pi}{3}\\text{ cm}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức tính độ dài cung tròn n độ",
+      "questiontext": "Trên cùng một đường tròn, hai cung có cùng số đo độ thì có độ dài bằng nhau.",
+      "generalfeedback": "Đúng. Hai cung trên cùng một đường tròn (hoặc hai đường tròn bằng nhau) có cùng số đo độ thì sẽ có độ dài bằng nhau vì độ dài cung tỉ lệ thuận với số đo độ của cung.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_091",
+      "questiontext": "Cho đường tròn \\((O; 4\\text{ cm})\\) và tam giác \\(ABC\\) cân tại \\(A\\) nội tiếp đường tròn. Biết số đo của cung nhỏ \\(BC\\) bằng \\(70^\\circ\\). Độ dài cung nhỏ \\(AB\\) (làm tròn đến hàng phần mười) xấp xỉ bằng:",
+      "generalfeedback": "Tam giác \\(ABC\\) cân tại \\(A\\) nên sđ\\(\\overparen{AB} =\\) sđ\\(\\overparen{AC}\\). Lại có sđ\\(\\overparen{AB} +\\) sđ\\(\\overparen{AC} +\\) sđ\\(\\overparen{BC} = 360^\\circ \\Rightarrow 2 \\cdot\\) sđ\\(\\overparen{AB} + 70^\\circ = 360^\\circ \\Rightarrow\\) sđ\\(\\overparen{AB} = 145^\\circ\\). Độ dài cung \\(AB\\) là \\(l = \\frac{145}{180} \\cdot 3,14 \\cdot 4 \\approx 10,1\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "10,1 cm",
+          "fraction": 100
+        },
+        {
+          "text": "4,9 cm",
+          "fraction": 0
+        },
+        {
+          "text": "12,2 cm",
+          "fraction": 0
+        },
+        {
+          "text": "8,7 cm",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

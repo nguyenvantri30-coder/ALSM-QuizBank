@@ -1,0 +1,442 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 16,
+    "metadata_used": {
+      "Công thức diện tích xung quanh S_xq = 2.pi.r.h": 2,
+      "Công thức thể tích V = pi.r^2.h của hình trụ": 3,
+      "Tính diện tích xung quanh của hình trụ": 4,
+      "Tính thể tích của hình trụ": 4,
+      "Giải bài toán thực tế liên quan đến hình trụ": 1,
+      "YCCD_TOAN9_051": 2,
+      "YCCD_TOAN9_054": 2,
+      "YCCD_TOAN9_057": 2,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_TRACHNHIEM_BANTHAN_C2_05": 1,
+      "SUB_TCTH_TUHOC_C2_01": 1,
+      "SUB_GQVD_DEXUAT_C2_02": 1,
+      "NLT_TOAN_C2_01_01": 1,
+      "NLT_TOAN_C2_02_07": 1
+    },
+    "types_used": {
+      "multichoice": 9,
+      "truefalse": 1,
+      "gapselect": 1,
+      "matching": 1,
+      "numerical": 1,
+      "shortanswer": 1,
+      "calculated": 1,
+      "calculatedsimple": 1
+    },
+    "total": 16
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN9_051",
+        "reason": "Đo lường năng lực tính diện tích xung quanh của hình trụ."
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_054",
+        "reason": "Đo lường năng lực tính thể tích của hình trụ."
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_057",
+        "reason": "Đo lường năng lực giải quyết bài toán thực tiễn liên quan đến hình trụ."
+      },
+      {
+        "metadata_code": "Công thức diện tích xung quanh S_xq = 2.pi.r.h",
+        "reason": "Đo lường kiến thức về công thức diện tích xung quanh của hình trụ."
+      },
+      {
+        "metadata_code": "Công thức thể tích V = pi.r^2.h của hình trụ",
+        "reason": "Đo lường kiến thức về công thức thể tích của hình trụ."
+      },
+      {
+        "metadata_code": "Tính diện tích xung quanh của hình trụ",
+        "reason": "Đo lường kỹ năng áp dụng công thức tính diện tích xung quanh hình trụ."
+      },
+      {
+        "metadata_code": "Tính thể tích của hình trụ",
+        "reason": "Đo lường kỹ năng áp dụng công thức tính thể tích hình trụ."
+      },
+      {
+        "metadata_code": "Giải bài toán thực tế liên quan đến hình trụ",
+        "reason": "Đo lường kỹ năng tính toán trong tình huống thực tế của hình trụ."
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức diện tích xung quanh S_xq = 2.pi.r.h",
+      "questiontext": "Công thức tính diện tích xung quanh \\(S_{xq}\\) của hình trụ có bán kính đáy \\(r\\) và chiều cao \\(h\\) là:",
+      "generalfeedback": "Diện tích xung quanh của hình trụ bằng chu vi đáy nhân với chiều cao: \\(S_{xq} = 2\\pi rh\\).",
+      "answers": [
+        {
+          "text": "\\(S_{xq} = 2\\pi rh\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(S_{xq} = \\pi rh\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(S_{xq} = \\pi r^2 h\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(S_{xq} = 2\\pi r^2 h\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức thể tích V = pi.r^2.h của hình trụ",
+      "questiontext": "Công thức tính thể tích \\(V\\) của hình trụ có bán kính đáy \\(r\\) và chiều cao \\(h\\) là:",
+      "generalfeedback": "Thể tích của hình trụ bằng diện tích đáy nhân với chiều cao: \\(V = S \\cdot h = \\pi r^2 h\\).",
+      "answers": [
+        {
+          "text": "\\(V = \\pi r^2 h\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(V = 2\\pi rh\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(V = \\frac{1}{3}\\pi r^2 h\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(V = 2\\pi r^2 h\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Công thức diện tích xung quanh S_xq = 2.pi.r.h",
+      "questiontext": "Nếu tăng chiều cao của hình trụ lên 2 lần và giữ nguyên bán kính đáy thì diện tích xung quanh của hình trụ đó tăng lên 2 lần. Phát biểu này Đúng hay Sai?",
+      "generalfeedback": "Vì \\(S_{xq} = 2\\pi rh\\), khi \\(h\\) tăng 2 lần thì \\(S_{xq}' = 2\\pi r(2h) = 2(2\\pi rh) = 2S_{xq}\\). Do đó phát biểu là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức thể tích V = pi.r^2.h của hình trụ",
+      "questiontext": "Hình trụ có bán kính đáy \\(r\\) và chiều cao \\(h\\). Diện tích đáy của hình trụ được tính theo công thức [[1]], còn thể tích của hình trụ được tính theo công thức [[2]].",
+      "generalfeedback": "Diện tích đáy hình tròn là \\(S = \\pi r^2\\), thể tích hình trụ là \\(V = \\pi r^2 h\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(\\pi r^2\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\pi r^2 h\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(2\\pi r\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(2\\pi rh\\)"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Tính diện tích xung quanh của hình trụ",
+      "questiontext": "Ghép mỗi hình trụ có bán kính đáy \\(r\\) và chiều cao \\(h\\) tương ứng ở cột trái với diện tích xung quanh \\(S_{xq}\\) tương ứng ở cột phải (lấy \\(\\pi \\approx 3,14\\)):",
+      "generalfeedback": "Áp dụng công thức \\(S_{xq} = 2\\pi rh\\):\n- \\(r = 3\\text{ cm}, h = 5\\text{ cm} \\Rightarrow S_{xq} = 2 \\cdot 3,14 \\cdot 3 \\cdot 5 = 94,2\\text{ cm}^2\\).\n- \\(r = 2\\text{ cm}, h = 10\\text{ cm} \\Rightarrow S_{xq} = 2 \\cdot 3,14 \\cdot 2 \\cdot 10 = 125,6\\text{ cm}^2\\).\n- \\(r = 4\\text{ cm}, h = 3\\text{ cm} \\Rightarrow S_{xq} = 2 \\cdot 3,14 \\cdot 4 \\cdot 3 = 75,36\\text{ cm}^2\\).",
+      "subquestions": [
+        {
+          "question": "Hình trụ có bán kính đáy \\(r = 3\\text{ cm}\\) và chiều cao \\(h = 5\\text{ cm}\\)",
+          "answer": "Diện tích xung quanh là \\(94,2\\text{ cm}^2\\)"
+        },
+        {
+          "question": "Hình trụ có bán kính đáy \\(r = 2\\text{ cm}\\) và chiều cao \\(h = 10\\text{ cm}\\)",
+          "answer": "Diện tích xung quanh là \\(125,6\\text{ cm}^2\\)"
+        },
+        {
+          "question": "Hình trụ có bán kính đáy \\(r = 4\\text{ cm}\\) và chiều cao \\(h = 3\\text{ cm}\\)",
+          "answer": "Diện tích xung quanh là \\(75,36\\text{ cm}^2\\)"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Tính thể tích của hình trụ",
+      "questiontext": "Tính thể tích của một hình trụ có bán kính đáy bằng 3 cm và chiều cao bằng 10 cm (lấy \\(\\pi = 3,14\\)). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Thể tích hình trụ là \\(V = \\pi r^2 h = 3,14 \\times 3^2 \\times 10 = 3,14 \\times 9 \\times 10 = 282,6\\text{ cm}^3\\).",
+      "answers": [
+        {
+          "text": "282.6",
+          "fraction": 100,
+          "tolerance": 0.1
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Tính diện tích xung quanh của hình trụ",
+      "questiontext": "Một hình trụ có bán kính đáy \\(r = 5\\text{ cm}\\) và chiều cao \\(h = 8\\text{ cm}\\). Diện tích xung quanh của hình trụ bằng bao nhiêu \\(\\pi\\text{ cm}^2\\)? (Viết câu trả lời ngắn gọn dưới dạng số nguyên)",
+      "generalfeedback": "\\(S_{xq} = 2\\pi rh = 2\\pi \\cdot 5 \\cdot 8 = 80\\pi\\text{ cm}^2\\). Giá trị điền là 80.",
+      "answers": [
+        {
+          "text": "80",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_051",
+      "questiontext": "Cho một hình trụ có bán kính đáy {r} cm và chiều cao h cm. Tính diện tích xung quanh của hình trụ (coi pi = 3.14).",
+      "generalfeedback": "Diện tích xung quanh của hình trụ được tính theo công thức: \\(S_{xq} = 2 \\pi r h\\).",
+      "wildcards": [
+        {
+          "name": "r",
+          "min": 2.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "h",
+          "min": 5.0,
+          "max": 20.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "2*3.14*{r}*{h}",
+          "fraction": 100,
+          "tolerance": 0.1
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_054",
+      "questiontext": "Cho một hình trụ có bán kính đáy {r} cm và chiều cao h cm. Tính thể tích của hình trụ (coi pi = 3.14).",
+      "generalfeedback": "Thể tích hình trụ được tính theo công thức: \\(V = \\pi r^2 h = 3.14 \\times r^2 \\times h\\).",
+      "wildcards": [
+        {
+          "name": "r",
+          "min": 2.0,
+          "max": 8.0,
+          "decimals": 0
+        },
+        {
+          "name": "h",
+          "min": 4.0,
+          "max": 15.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "3.14*pow({r},2)*{h}",
+          "fraction": 100,
+          "tolerance": 0.1
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_057",
+      "questiontext": "Một lon nước dạng hình trụ có đường kính đáy bằng 6 cm và chiều cao bằng 12 cm. Thể tích của lon nước đó bằng bao nhiêu (lấy \\(\\pi \\approx 3,14\\))?",
+      "generalfeedback": "Bán kính đáy lon nước là \\(r = 6 / 2 = 3\\text{ cm}\\). Thể tích lon nước hình trụ là \\(V = \\pi r^2 h = 3,14 \\times 3^2 \\times 12 = 3,14 \\times 9 \\times 12 = 339,12\\text{ cm}^3\\).",
+      "answers": [
+        {
+          "text": "\\(339,12\\text{ cm}^3\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(1356,48\\text{ cm}^3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(226,08\\text{ cm}^3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(678,24\\text{ cm}^3\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ học Toán bài Hình trụ, bạn An gặp khó khăn khi làm bài tập tính thể tích lon nước ngọt hình trụ vì không nhớ công thức. Bạn An nên làm gì để thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập?",
+      "generalfeedback": "Hành vi chủ động xem lại SGK, kiên nhẫn tự làm bài thể hiện thái độ luôn cố gắng vươn lên đạt kết quả tốt trong học tập.",
+      "answers": [
+        {
+          "text": "Xem lại công thức \\(V = \\pi r^2 h\\) trong SGK và kiên nhẫn tự giải lại bài toán.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua câu hỏi đó và chờ giáo viên chữa bài để chép vào vở.",
+          "fraction": 0
+        },
+        {
+          "text": "Mượn vở bạn khác chép đáp số vào bài làm để nộp cho thầy cô.",
+          "fraction": 0
+        },
+        {
+          "text": "Cho rằng toán hình quá khó và không tiếp tục làm bài tập phần này.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_TRACHNHIEM_BANTHAN_C2_05",
+      "questiontext": "Để chuẩn bị cho bài kiểm tra về chủ đề 'Hình trụ', bạn Bình lập kế hoạch ôn tập. Phương án nào sau đây thể hiện việc xây dựng và thực hiện chế độ học tập, sinh hoạt hợp lí?",
+      "generalfeedback": "Lập thời gian biểu cân bằng giữa học tập và nghỉ ngơi giúp duy trì sức khỏe và đạt hiệu quả học tập cao.",
+      "answers": [
+        {
+          "text": "Lập thời gian biểu ôn luyện kiến thức (công thức \\(S_{xq}\\) và \\(V\\) của hình trụ) xen kẽ nghỉ ngơi hợp lí và ngủ đủ giấc.",
+          "fraction": 100
+        },
+        {
+          "text": "Thức thâu đêm trước ngày kiểm tra để giải hết tất cả các bài tập hình trụ.",
+          "fraction": 0
+        },
+        {
+          "text": "Dành toàn bộ thời gian rảnh trong tuần chỉ để học Toán và bỏ qua các môn học khác.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ ôn tập 10 phút trước giờ kiểm tra để tiết kiệm thời gian nghỉ ngơi.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Khi học xong tiết 'Diện tích xung quanh và thể tích của hình trụ', mục tiêu học tập nào sau đây là phù hợp và có tính khả thi để bạn Cường phấn đấu thực hiện?",
+      "generalfeedback": "Mục tiêu học tập phù hợp cần bám sát yêu cầu cần đạt của bài học và có tính khả thi đối với học sinh.",
+      "answers": [
+        {
+          "text": "Nắm vững hai công thức \\(S_{xq} = 2\\pi rh\\) và \\(V = \\pi r^2 h\\), tự giải thành thạo các bài tập hình trụ trong SGK.",
+          "fraction": 100
+        },
+        {
+          "text": "Thuộc lòng tất cả các bài toán thực tế về hình trụ trong các sách nâng cao mà không cần hiểu cách giải.",
+          "fraction": 0
+        },
+        {
+          "text": "Tính được thể tích của tất cả các hình khối phức tạp chưa được học trong chương trình Lớp 9.",
+          "fraction": 0
+        },
+        {
+          "text": "Đạt điểm tối đa trong mọi kỳ thi Toán quốc tế về hình học không gian.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Một xưởng sản xuất muốn thiết kế vỏ lon hình trụ chứa nước ngọt dung tích \\(314\\text{ cm}^3\\) với bán kính đáy \\(r = 5\\text{ cm}\\). Tuy nhiên lon bị quá cao không xếp vừa vào thùng đóng gói. Để giảm chiều cao \\(h\\) của lon mà vẫn giữ nguyên dung tích \\(314\\text{ cm}^3\\), giải pháp nào sau đây là hợp lí nhất?",
+      "generalfeedback": "Vì \\(V = \\pi r^2 h \\Rightarrow h = \\frac{V}{\\pi r^2}\\), tăng bán kính \\(r\\) sẽ làm giảm chiều cao \\(h\\) mà vẫn giữ nguyên dung tích \\(V\\).",
+      "answers": [
+        {
+          "text": "Tăng bán kính đáy \\(r\\) của lon vì thể tích \\(V = \\pi r^2 h\\), tăng \\(r\\) sẽ giảm được chiều cao \\(h\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Giảm bán kính đáy \\(r\\) của lon để lon thon gọn hơn.",
+          "fraction": 0
+        },
+        {
+          "text": "Giữ nguyên bán kính đáy \\(r\\) và giảm chiều cao \\(h\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Giảm cả bán kính đáy \\(r\\) và chiều cao \\(h\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Xét hai hình trụ: Hình trụ thứ nhất có bán kính đáy \\(r\\) và chiều cao \\(h\\); Hình trụ thứ hai có bán kính đáy \\(2r\\) và chiều cao \\(\\frac{h}{2}\\). So sánh thể tích \\(V_1\\) của hình trụ thứ nhất và \\(V_2\\) của hình trụ thứ hai.",
+      "generalfeedback": "Ta có \\(V_1 = \\pi r^2 h\\) và \\(V_2 = \\pi (2r)^2 \\left(\\frac{h}{2}\\right) = \\pi (4r^2) \\left(\\frac{h}{2}\\right) = 2\\pi r^2 h = 2V_1\\).",
+      "answers": [
+        {
+          "text": "\\(V_2 = 2V_1\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(V_2 = V_1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(V_2 = 4V_1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(V_2 = \\frac{1}{2}V_1\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_02_07",
+      "questiontext": "Một chiếc thùng chứa nước hình trụ có bán kính đáy \\(r = 0,8\\text{ m}\\) và chiều cao \\(h = 1,5\\text{ m}\\). Người ta muốn sơn toàn bộ mặt ngoài xung quanh của thùng (không sơn hai đáy). Biết chi phí sơn là \\(50.000\\) đồng/\\(\\text{m}^2\\). Hãy tính tổng chi phí sơn xung quanh chiếc thùng đó (lấy \\(\\pi \\approx 3,14\\), làm tròn kết quả đến hàng nghìn đồng).",
+      "generalfeedback": "Diện tích xung quanh thùng: \\(S_{xq} = 2\\pi rh = 2 \\times 3,14 \\times 0,8 \\times 1,5 = 7,536\\text{ m}^2\\). Chi phí sơn: \\(7,536 \\times 50.000 = 376.800 \\approx 377.000\\) đồng.",
+      "answers": [
+        {
+          "text": "377.000 đồng",
+          "fraction": 100
+        },
+        {
+          "text": "754.000 đồng",
+          "fraction": 0
+        },
+        {
+          "text": "188.000 đồng",
+          "fraction": 0
+        },
+        {
+          "text": "301.000 đồng",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

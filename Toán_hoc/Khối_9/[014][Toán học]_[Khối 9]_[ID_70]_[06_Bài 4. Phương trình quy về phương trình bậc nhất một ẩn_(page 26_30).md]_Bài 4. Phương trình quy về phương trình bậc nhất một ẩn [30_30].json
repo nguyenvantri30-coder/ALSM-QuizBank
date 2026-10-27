@@ -1,0 +1,955 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 38,
+    "metadata_used": {
+      "YCCD_TOAN9_021": 6,
+      "YCCD_TOAN9_022": 6,
+      "Lựa chọn phương pháp phân tích nhân tử hoặc quy đồng mẫu thức để giải phương trình": 5,
+      "Tổng hợp các dạng phương trình quy về phương trình bậc nhất một ẩn": 3,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_GQVD_HINHTHANH_C2_04": 2,
+      "SUB_GQVD_DEXUAT_C2_02": 1,
+      "NLT_TOAN_C2_03_04": 1,
+      "NLT_TOAN_C2_03_05": 2
+    },
+    "types_used": {
+      "multichoice": 10,
+      "truefalse": 4,
+      "shortanswer": 4,
+      "numerical": 3,
+      "matching": 4,
+      "gapselect": 4,
+      "ddwtos": 3,
+      "calculatedsimple": 3,
+      "calculatedmulti": 3
+    },
+    "total": 38
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN9_021",
+        "reason": "Có đầy đủ kiến thức và bài tập về giải phương trình tích trong SGK."
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_022",
+        "reason": "Có đầy đủ kiến thức và bài tập về giải phương trình chứa ẩn ở mẫu trong SGK."
+      },
+      {
+        "metadata_code": "Tổng hợp các dạng phương trình quy về phương trình bậc nhất một ẩn",
+        "reason": "Nội dung bài học tổng hợp các dạng phương trình quy về phương trình bậc nhất một ẩn."
+      },
+      {
+        "metadata_code": "Lựa chọn phương pháp phân tích nhân tử hoặc quy đồng mẫu thức để giải phương trình",
+        "reason": "Có các dạng bài tập yêu cầu lựa chọn phương pháp phân tích nhân tử hoặc quy đồng mẫu thức."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đo lường tinh thần kiên trì, nỗ lực vươn lên trong học tập qua tình huống giải bài tập phương trình."
+      },
+      {
+        "metadata_code": "SUB_GQVD_HINHTHANH_C2_04",
+        "reason": "Đo lường năng lực so sánh, đánh giá và bình luận các giải pháp giải phương trình."
+      },
+      {
+        "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+        "reason": "Đo lường năng lực đề xuất phương trình mô hình hóa bài toán thực tế."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_04",
+        "reason": "Sử dụng kiến thức toán học để giải quyết bài toán thực tế tính kích thước."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_05",
+        "reason": "Sử dụng kĩ năng giải phương trình quy về phương trình bậc nhất để giải bài toán thực tế."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học thuộc môn Toán lớp 9 về phương trình quy về phương trình bậc nhất thuần túy đại số, không chứa yếu tố sử dụng công cụ/phần mềm tin học."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học không đề cập đến nguyên lý hay ứng dụng của trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_021",
+      "questiontext": "Phương trình tích dạng \\((a_1x + b_1)(a_2x + b_2) = 0\\) (với \\(a_1 \\neq 0, a_2 \\neq 0\\)) được giải bằng cách giải hai phương trình nào sau đây?",
+      "generalfeedback": "Để giải phương trình tích \\((a_1x + b_1)(a_2x + b_2) = 0\\), ta giải hai phương trình \\(a_1x + b_1 = 0\\) hoặc \\(a_2x + b_2 = 0\\), sau đó lấy tất cả các nghiệm của chúng.",
+      "answers": [
+        {
+          "text": "\\(a_1x + b_1 = 0\\) hoặc \\(a_2x + b_2 = 0\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(a_1x + b_1 = 0\\) và \\(a_2x + b_2 = 0\\) đồng thời xảy ra",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ phương trình \\(a_1x + b_1 = 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ phương trình \\(a_2x + b_2 = 0\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_022",
+      "questiontext": "Điều kiện xác định của phương trình chứa ẩn ở mẫu là điều kiện cho ẩn để tất cả các mẫu thức trong phương trình đều khác 0.",
+      "generalfeedback": "Đối với phương trình chứa ẩn ở mẫu, ta đặt điều kiện cho ẩn để tất cả các mẫu thức trong phương trình đều khác 0 và gọi đó là điều kiện xác định (ĐKXĐ) của phương trình.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Lựa chọn phương pháp phân tích nhân tử hoặc quy đồng mẫu thức để giải phương trình",
+      "questiontext": "Khi đưa phương trình \\(x^2 - 3x = 2x - 6\\) về phương trình tích \\((x - 2)(x - 3) = 0\\), phương pháp phân tích đa thức thành nhân tử nào được sử dụng chính?",
+      "generalfeedback": "Ta biến đổi: \\(x^2 - 3x - 2x + 6 = 0 \\Leftrightarrow x(x - 3) - 2(x - 3) = 0 \\Leftrightarrow (x - 2)(x - 3) = 0\\). Phương pháp sử dụng chính là đặt nhân tử chung.",
+      "answers": [
+        {
+          "text": "Đặt nhân tử chung",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_021",
+      "questiontext": "Tìm nghiệm dương của phương trình \\((2x - 4)(3x + 9) = 0\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Giải \\(2x - 4 = 0 \\Rightarrow x = 2\\) và \\(3x + 9 = 0 \\Rightarrow x = -3\\). Nghiệm dương của phương trình là 2.",
+      "answers": [
+        {
+          "text": "2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_022",
+      "questiontext": "Ghép mỗi phương trình chứa ẩn ở mẫu sau đây với Điều kiện xác định (ĐKXĐ) tương ứng:",
+      "generalfeedback": "ĐKXĐ thu được bằng cách cho tất cả các mẫu thức khác 0.",
+      "subquestions": [
+        {
+          "question": "\\(\\frac{3x+1}{2x-1} = 1\\)",
+          "answer": "\\(x \\neq \\frac{1}{2}\\)"
+        },
+        {
+          "question": "\\(\\frac{x}{x-1} + \\frac{x+1}{x} = 2\\)",
+          "answer": "\\(x \\neq 0\\) và \\(x \\neq 1\\)"
+        },
+        {
+          "question": "\\(\\frac{1}{x+1} = 1 + \\frac{1}{x-2}\\)",
+          "answer": "\\(x \\neq -1\\) và \\(x \\neq 2\\)"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Tổng hợp các dạng phương trình quy về phương trình bậc nhất một ẩn",
+      "questiontext": "Quy trình giải phương trình chứa ẩn ở mẫu bao gồm:\\nBước 1: Tìm [[1]] của phương trình.\\nBước 2: [[2]] hai vế của phương trình rồi khử mẫu.\\nBước 3: Giải phương trình vừa tìm được.\\nBước 4: Kết luận nghiệm.",
+      "generalfeedback": "Các bước chuẩn theo SGK: Bước 1 tìm điều kiện xác định, Bước 2 quy đồng mẫu hai vế của phương trình rồi khử mẫu.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "điều kiện xác định"
+        },
+        {
+          "group": 1,
+          "text": "Quy đồng mẫu"
+        },
+        {
+          "group": 1,
+          "text": "tập xác định"
+        },
+        {
+          "group": 1,
+          "text": "Rút gọn mẫu"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Lựa chọn phương pháp phân tích nhân tử hoặc quy đồng mẫu thức để giải phương trình",
+      "questiontext": "Để giải phương trình \\((x^2-4)+x(x-2)=0\\), ta phân tích đa thức \\(x^2-4\\) thành [[1]] nhờ hằng đẳng thức, sau đó đặt [[2]] là \\(x-2\\) để đưa về dạng phương trình tích.",
+      "generalfeedback": "Phân tích \\(x^2-4 = (x-2)(x+2)\\), sau đó nhóm nhân tử chung \\(x-2\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\((x - 2)(x + 2)\\)"
+        },
+        {
+          "group": 1,
+          "text": "nhân tử chung"
+        },
+        {
+          "group": 1,
+          "text": "\\((x - 2)^2\\)"
+        },
+        {
+          "group": 1,
+          "text": "mẫu thức chung"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_021",
+      "questiontext": "Cho phương trình tích (x - {a})(x + {b}) = 0 với {a} và {b} là các số nguyên dương. Tổng hai nghiệm của phương trình này bằng bao nhiêu?",
+      "generalfeedback": "Hai nghiệm là x = {a} và x = -{b}. Tổng hai nghiệm là {a} + (-{b}) = {a} - {b}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}-{b}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_022",
+      "questiontext": "Phương trình (x + {a})/x = {b} (với {b} khác 1 và {a} khác 0) có nghiệm x được tính theo công thức nào dưới đây?",
+      "generalfeedback": "ĐKXĐ: x khác 0. Khử mẫu: x + {a} = {b}x => ({b} - 1)x = {a} => x = {a}/({b} - 1).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 2.0,
+          "max": 5.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}/({b}-1)",
+          "fraction": 100
+        },
+        {
+          "text": "{a}/({b}+1)",
+          "fraction": 0
+        },
+        {
+          "text": "({b}-1)/{a}",
+          "fraction": 0
+        },
+        {
+          "text": "{a}*{b}",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Lựa chọn phương pháp phân tích nhân tử hoặc quy đồng mẫu thức để giải phương trình",
+      "imgs": [
+        "_page_4_Figure_11.jpeg"
+      ],
+      "questiontext": "Bác An có một mảnh đất hình chữ nhật với chiều dài 14 m và chiều rộng 12 m. Bác dự định xây nhà trên mảnh đất đó và dành một phần diện tích đất để làm sân vườn xung quanh như hình vẽ [img:_page_4_Figure_11.jpeg]. Biết diện tích đất làm nhà là 100 m\\(^2\\). Phương trình nào sau đây biểu diễn mối quan hệ để tính bề rộng x (m) của sân vườn?",
+      "generalfeedback": "Chiều dài phần đất làm nhà là \\(14 - 2x\\) (m), chiều rộng là \\(12 - 2x\\) (m). Diện tích phần đất làm nhà là \\((14 - 2x)(12 - 2x) = 100\\).",
+      "answers": [
+        {
+          "text": "\\((14 - 2x)(12 - 2x) = 100\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\((14 - x)(12 - x) = 100\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(14 \\times 12 - x^2 = 100\\)",
+          "fraction": 0
+        },
+        {
+          "text": "2(14 + 12 - 2x) = 100",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Tổng hợp các dạng phương trình quy về phương trình bậc nhất một ẩn",
+      "questiontext": "Phương trình quy về phương trình bậc nhất một ẩn được học trong Bài 4 bao gồm các dạng phương trình cơ bản nào?",
+      "generalfeedback": "Nội dung Bài 4 bao gồm hai dạng phương trình quy về phương trình bậc nhất một ẩn: Phương trình tích và Phương trình chứa ẩn ở mẫu.",
+      "answers": [
+        {
+          "text": "Phương trình tích và phương trình chứa ẩn ở mẫu",
+          "fraction": 100
+        },
+        {
+          "text": "Phương trình bậc hai và phương trình vô tỉ",
+          "fraction": 0
+        },
+        {
+          "text": "Phương trình chứa dấu giá trị tuyệt đối và phương trình chứa ẩn ở mẫu",
+          "fraction": 0
+        },
+        {
+          "text": "Phương trình tích và phương trình bậc hai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_021",
+      "questiontext": "Nếu một tích bằng 0 thì ít nhất một trong các thừa số của tích đó phải bằng 0.",
+      "generalfeedback": "Đây là tính chất cơ bản của tích các số thực: \\(A \\cdot B = 0 \\Leftrightarrow A = 0\\) hoặc \\(B = 0\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_022",
+      "questiontext": "Tìm điều kiện xác định của phương trình \\(\\frac{5x+2}{x-1} = 0\\). (Viết dưới dạng điều kiện cho x, ví dụ: x khác 1)",
+      "generalfeedback": "Mẫu thức là \\(x - 1\\). Để phương trình xác định thì \\(x - 1 \\neq 0 \\Leftrightarrow x \\neq 1\\).",
+      "answers": [
+        {
+          "text": "x khác 1",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Lựa chọn phương pháp phân tích nhân tử hoặc quy đồng mẫu thức để giải phương trình",
+      "questiontext": "Giải phương trình \\((3x + 1)(2 - 4x) = 0\\). Tìm giá trị nghiệm lớn hơn trong hai nghiệm của phương trình. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Giải \\(3x + 1 = 0 \\Rightarrow x = -1/3\\); \\(2 - 4x = 0 \\Rightarrow x = 0.5\\). Nghiệm lớn hơn là 0.5.",
+      "answers": [
+        {
+          "text": "0.5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_021",
+      "questiontext": "Để giải phương trình \\((2x+1)(3x-1)=0\\), ta giải hai phương trình \\(2x+1=0\\) hoặc \\(3x-1=0\\). Phương trình thứ nhất cho nghiệm \\(x = \\) [[1]], phương trình thứ hai cho nghiệm \\(x = \\) [[2]].",
+      "generalfeedback": "\\(2x + 1 = 0 \\Rightarrow x = -1/2\\); \\(3x - 1 = 0 \\Rightarrow x = 1/3\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "-\\frac{1}{2}"
+        },
+        {
+          "group": 1,
+          "text": "\\frac{1}{3}"
+        },
+        {
+          "group": 1,
+          "text": "\\frac{1}{2}"
+        },
+        {
+          "group": 1,
+          "text": "-\\frac{1}{3}"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_022",
+      "questiontext": "Khi giải phương trình \\(\\frac{2}{x+1} + \\frac{1}{x-2} = \\frac{3}{(x+1)(x-2)}\\), bước đầu tiên ta cần tìm [[1]] là \\(x \\neq -1\\) và \\(x \\neq 2\\). Sau khi quy đồng và khử mẫu, ta được phương trình [[2]] là \\(2(x-2)+(x+1)=3\\).",
+      "generalfeedback": "Bước 1 là tìm ĐKXĐ, bước 2 sau khi quy đồng và khử mẫu thu được phương trình hệ quả/phương trình mới.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "điều kiện xác định"
+        },
+        {
+          "group": 1,
+          "text": "phương trình hệ quả"
+        },
+        {
+          "group": 1,
+          "text": "tập nghiệm"
+        },
+        {
+          "group": 1,
+          "text": "mẫu thức chung"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Tổng hợp các dạng phương trình quy về phương trình bậc nhất một ẩn",
+      "questiontext": "Hãy ghép mỗi phương trình sau với dạng phương trình tương ứng:",
+      "generalfeedback": "Nhận biết dạng phương trình tích và phương trình chứa ẩn ở mẫu.",
+      "subquestions": [
+        {
+          "question": "\\((3x + 1)(2 - 4x) = 0\\)",
+          "answer": "Phương trình tích"
+        },
+        {
+          "question": "\\(\\frac{3x+1}{2x-1} = 1\\)",
+          "answer": "Phương trình chứa ẩn ở mẫu"
+        },
+        {
+          "question": "\\(x^2 - 3x = 2x - 6\\)",
+          "answer": "Phương trình quy về phương trình tích"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_022",
+      "questiontext": "Cho phương trình \\(\\frac{x + {a}}{x - 1} = 2\\) với {a} là số nguyên (1 đến 5). Tìm nghiệm x của phương trình.",
+      "generalfeedback": "ĐKXĐ: x khác 1. Khử mẫu: x + {a} = 2(x - 1) => x + {a} = 2x - 2 => x = {a} + 2. Giá trị này luôn thỏa mãn ĐKXĐ.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 5.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}+2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_021",
+      "questiontext": "Phương trình (x - {a})(2x - {b}) = 0 (với {a}, {b} là các số tự nhiên) có tổng các nghiệm bằng công thức nào?",
+      "generalfeedback": "Hai nghiệm là x1 = {a} và x2 = {b}/2. Tổng hai nghiệm là {a} + {b}/2.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 5.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 2.0,
+          "max": 8.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}+{b}/2",
+          "fraction": 100
+        },
+        {
+          "text": "{a}+{b}",
+          "fraction": 0
+        },
+        {
+          "text": "({a}+{b})/2",
+          "fraction": 0
+        },
+        {
+          "text": "{a}*{b}",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Lựa chọn phương pháp phân tích nhân tử hoặc quy đồng mẫu thức để giải phương trình",
+      "imgs": [
+        "_page_0_Figure_15.jpeg"
+      ],
+      "questiontext": "Trong một khu vườn hình vuông có cạnh bằng 15 m người ta làm một lối đi xung quanh vườn có bề rộng là x (m) như hình vẽ [img:_page_0_Figure_15.jpeg]. Để diện tích phần đất còn lại là 169 m\\(^2\\), giá trị bề rộng x của lối đi bằng bao nhiêu mét?",
+      "generalfeedback": "Cạnh của phần đất còn lại là \\(15 - 2x\\) (m). Diện tích phần còn lại là \\((15 - 2x)^2 = 169 = 13^2\\). Do \\(15 - 2x > 0\\) nên \\(15 - 2x = 13 \\Rightarrow 2x = 2 \\Rightarrow x = 1\\) (m).",
+      "answers": [
+        {
+          "text": "1 m",
+          "fraction": 100
+        },
+        {
+          "text": "2 m",
+          "fraction": 0
+        },
+        {
+          "text": "1.5 m",
+          "fraction": 0
+        },
+        {
+          "text": "0.5 m",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Tổng hợp các dạng phương trình quy về phương trình bậc nhất một ẩn",
+      "questiontext": "Phương trình quy về phương trình bậc nhất một ẩn được học trong Bài 4 bao gồm các dạng phương trình cơ bản nào?",
+      "generalfeedback": "Nội dung Bài 4 bao gồm hai dạng phương trình quy về phương trình bậc nhất một ẩn: Phương trình tích và Phương trình chứa ẩn ở mẫu.",
+      "answers": [
+        {
+          "text": "Phương trình tích và phương trình chứa ẩn ở mẫu",
+          "fraction": 100
+        },
+        {
+          "text": "Phương trình bậc hai và phương trình vô tỉ",
+          "fraction": 0
+        },
+        {
+          "text": "Phương trình chứa dấu giá trị tuyệt đối và phương trình chứa ẩn ở mẫu",
+          "fraction": 0
+        },
+        {
+          "text": "Phương trình tích và phương trình bậc hai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_021",
+      "questiontext": "Nếu một tích bằng 0 thì ít nhất một trong các thừa số của tích đó phải bằng 0.",
+      "generalfeedback": "Đây là tính chất cơ bản của tích các số thực: \\(A \\cdot B = 0 \\Leftrightarrow A = 0\\) hoặc \\(B = 0\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_022",
+      "questiontext": "Tìm điều kiện xác định của phương trình \\(\\frac{5x+2}{x-1} = 0\\). (Viết dưới dạng điều kiện cho x, ví dụ: x khác 1)",
+      "generalfeedback": "Mẫu thức là \\(x - 1\\). Để phương trình xác định thì \\(x - 1 \\neq 0 \\Leftrightarrow x \\neq 1\\).",
+      "answers": [
+        {
+          "text": "x khác 1",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Lựa chọn phương pháp phân tích nhân tử hoặc quy đồng mẫu thức để giải phương trình",
+      "questiontext": "Giải phương trình \\((3x + 1)(2 - 4x) = 0\\). Tìm giá trị nghiệm lớn hơn trong hai nghiệm của phương trình. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Giải \\(3x + 1 = 0 \\Rightarrow x = -1/3\\); \\(2 - 4x = 0 \\Rightarrow x = 0.5\\). Nghiệm lớn hơn là 0.5.",
+      "answers": [
+        {
+          "text": "0.5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_021",
+      "questiontext": "Để giải phương trình \\((2x+1)(3x-1)=0\\), ta giải hai phương trình \\(2x+1=0\\) hoặc \\(3x-1=0\\). Phương trình thứ nhất cho nghiệm \\(x = \\) [[1]], phương trình thứ hai cho nghiệm \\(x = \\) [[2]].",
+      "generalfeedback": "\\(2x + 1 = 0 \\Rightarrow x = -1/2\\); \\(3x - 1 = 0 \\Rightarrow x = 1/3\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(-\\frac{1}{2}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{1}{3}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{1}{2}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(-\\frac{1}{3}\\)"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_022",
+      "questiontext": "Khi giải phương trình \\(\\frac{2}{x+1} + \\frac{1}{x-2} = \\frac{3}{(x+1)(x-2)}\\), bước đầu tiên ta cần tìm [[1]] là \\(x \\neq -1\\) và \\(x \\neq 2\\). Sau khi quy đồng và khử mẫu, ta được phương trình [[2]] là \\(2(x-2)+(x+1)=3\\).",
+      "generalfeedback": "Bước 1 là tìm ĐKXĐ, bước 2 sau khi quy đồng và khử mẫu thu được phương trình hệ quả/phương trình mới.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "điều kiện xác định"
+        },
+        {
+          "group": 1,
+          "text": "phương trình hệ quả"
+        },
+        {
+          "group": 1,
+          "text": "tập nghiệm"
+        },
+        {
+          "group": 1,
+          "text": "mẫu thức chung"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Tổng hợp các dạng phương trình quy về phương trình bậc nhất một ẩn",
+      "questiontext": "Hãy ghép mỗi phương trình sau với dạng phương trình tương ứng:",
+      "generalfeedback": "Nhận biết dạng phương trình tích và phương trình chứa ẩn ở mẫu.",
+      "subquestions": [
+        {
+          "question": "\\((3x + 1)(2 - 4x) = 0\\)",
+          "answer": "Phương trình tích"
+        },
+        {
+          "question": "\\(\\frac{3x+1}{2x-1} = 1\\)",
+          "answer": "Phương trình chứa ẩn ở mẫu"
+        },
+        {
+          "question": "\\(x^2 - 3x = 2x - 6\\)",
+          "answer": "Phương trình quy về phương trình tích"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_022",
+      "questiontext": "Cho phương trình (x + {a})/(x - 1) = 2 với {a} là số nguyên (1 đến 5). Tìm nghiệm x của phương trình.",
+      "generalfeedback": "ĐKXĐ: x khác 1. Khử mẫu: x + {a} = 2(x - 1) => x + {a} = 2x - 2 => x = {a} + 2. Giá trị này luôn thỏa mãn ĐKXĐ.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 5.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}+2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_021",
+      "questiontext": "Phương trình (x - {a})(2x - {b}) = 0 (với {a}, {b} là các số tự nhiên) có tổng các nghiệm bằng công thức nào?",
+      "generalfeedback": "Hai nghiệm là x1 = {a} và x2 = {b}/2. Tổng hai nghiệm là {a} + {b}/2.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 5.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 2.0,
+          "max": 8.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}+{b}/2",
+          "fraction": 100
+        },
+        {
+          "text": "{a}+{b}",
+          "fraction": 0
+        },
+        {
+          "text": "({a}+{b})/2",
+          "fraction": 0
+        },
+        {
+          "text": "{a}*{b}",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Lựa chọn phương pháp phân tích nhân tử hoặc quy đồng mẫu thức để giải phương trình",
+      "imgs": [
+        "_page_0_Figure_15.jpeg"
+      ],
+      "questiontext": "Trong một khu vườn hình vuông có cạnh bằng 15 m người ta làm một lối đi xung quanh vườn có bề rộng là x (m) như hình vẽ [img:_page_0_Figure_15.jpeg]. Để diện tích phần đất còn lại là 169 m\\(^2\\), giá trị bề rộng x của lối đi bằng bao nhiêu mét?",
+      "generalfeedback": "Cạnh của phần đất còn lại là \\(15 - 2x\\) (m). Diện tích phần còn lại là \\((15 - 2x)^2 = 169 = 13^2\\). Do \\(15 - 2x > 0\\) nên \\(15 - 2x = 13 \\Rightarrow 2x = 2 \\Rightarrow x = 1\\) (m).",
+      "answers": [
+        {
+          "text": "1 m",
+          "fraction": 100
+        },
+        {
+          "text": "2 m",
+          "fraction": 0
+        },
+        {
+          "text": "1.5 m",
+          "fraction": 0
+        },
+        {
+          "text": "0.5 m",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi gặp một bài toán giải phương trình chứa ẩn ở mẫu có biểu thức phức tạp, bạn Nam thử giải một lần nhưng bị vô nghiệm do x không thỏa mãn ĐKXĐ. Bạn Nam nên có thái độ và hành động nào sau đây để thể hiện tinh thần vươn lên trong học tập?",
+      "generalfeedback": "Thái độ tích cực, vươn lên trong học tập thể hiện ở việc không nản lòng khi gặp bài toán khó hay vô nghiệm, chủ động kiểm tra lại từng bước biến đổi, đối chiếu ĐKXĐ và rút ra kinh nghiệm.",
+      "answers": [
+        {
+          "text": "Kiên trì kiểm tra lại cẩn thận từng bước giải, xác định rõ lý do nghiệm bị loại do ĐKXĐ và chủ động luyện tập thêm các dạng bài tương tự.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài toán đó ngay lập tức vì cho rằng phương trình vô nghiệm nghĩa là đề bài bị sai.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép lại đáp án của bạn khác vào vở để kịp nộp bài mà không cần hiểu cách giải.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ làm các bài tập phương trình tích dễ và từ bỏ tất cả các bài tập phương trình chứa ẩn ở mẫu.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ thảo luận nhóm về giải phương trình quy về phương trình bậc nhất, khi thấy bạn cùng nhóm chưa tìm ĐKXĐ dẫn đến giải sai, việc chủ động giải thích nhẹ nhàng và cùng bạn rà soát lại điều kiện của ẩn là biểu hiện của tinh thần trách nhiệm và nỗ lực cùng tiến bộ trong học tập.",
+      "generalfeedback": "Sự chủ động hỗ trợ bạn bè, kiên nhẫn giải thích và cùng học tập rút kinh nghiệm là biểu hiện rõ nét của phẩm chất chăm chỉ, trách nhiệm và tinh thần vươn lên trong học tập.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_HINHTHANH_C2_04",
+      "questiontext": "Để giải phương trình \\(x^2 - 3x = 2x - 6\\), hai bạn An và Bình đề xuất hai cách giải như sau:\n- Bạn An: Chuyển vế thành \\(x^2 - 5x + 6 = 0\\) rồi tách thành \\(x^2 - 2x - 3x + 6 = 0 \\Leftrightarrow (x-2)(x-3) = 0\\).\n- Bạn Bình: Biến đổi vế trái thành \\(x(x-3)\\), vế phải thành \\(2(x-3)\\), chuyển vế được \\(x(x-3) - 2(x-3) = 0 \\Leftrightarrow (x-2)(x-3) = 0\\).\nNhận xét nào sau đây là bình luận chính xác nhất về hai giải pháp trên?",
+      "generalfeedback": "Cả hai cách giải đều đúng và dẫn đến cùng kết quả. Cách của bạn Bình phân tích nhân tử trực tiếp ở từng vế nhanh hơn, còn cách của bạn An đưa về dạng tổng quát rồi phân tích cũng rất chính xác.",
+      "answers": [
+        {
+          "text": "Cả hai cách giải đều đúng, trong đó cách của bạn Bình tận dụng nhân tử chung \\((x-3)\\) ở hai vế giúp biến đổi nhanh gọn hơn.",
+          "fraction": 100
+        },
+        {
+          "text": "Cách của bạn An sai vì không được chuyển vế các biểu thức chứa ẩn.",
+          "fraction": 0
+        },
+        {
+          "text": "Cách của bạn Bình sai vì phải chia cả hai vế cho \\((x-3)\\) ngay từ đầu.",
+          "fraction": 0
+        },
+        {
+          "text": "Cả hai cách đều sai vì không tìm điều kiện xác định trước khi giải.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_HINHTHANH_C2_04",
+      "questiontext": "Hãy ghép mỗi đề xuất xử lý bước giải phương trình chứa ẩn ở mẫu sau đây với bình luận chuyên môn tương ứng:",
+      "generalfeedback": "Chỉ khử mẫu sau khi quy đồng cùng mẫu thức; không được tự ý bỏ mẫu khi chưa quy đồng; kiểm tra ĐKXĐ ở bước kết luận.",
+      "subquestions": [
+        {
+          "question": "Bỏ mẫu thức ngay ở hai vế khi chưa quy đồng mẫu thức chung.",
+          "answer": "Giải pháp sai lầm, làm thay đổi tập nghiệm của phương trình."
+        },
+        {
+          "question": "Quy đồng mẫu thức hai vế rồi khử mẫu, giữ lại điều kiện để thử lại nghiệm.",
+          "answer": "Giải pháp đúng đắn, tuân thủ quy trình giải phương trình chứa ẩn ở mẫu."
+        },
+        {
+          "question": "Đối chiếu giá trị ẩn tìm được với ĐKXĐ trước khi kết luận tập nghiệm.",
+          "answer": "Thao tác bắt buộc để loại bỏ nghiệm không thỏa mãn điều kiện."
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Hai người cùng làm chung một công việc thì xong trong 8 giờ. Nếu gọi \\(x\\) (giờ, \\(x > 8\\)) là thời gian người thứ nhất làm một mình xong công việc, hãy đề xuất phương trình toán học biểu diễn mối quan hệ khối lượng công việc khi người thứ nhất làm trong 4 giờ và người thứ hai làm tiếp trong 12 giờ thì hoàn thành công việc.",
+      "generalfeedback": "Trong 1 giờ người thứ nhất làm được \\(\\frac{1}{x}\\) công việc, hai người làm chung 1 giờ được \\(\\frac{1}{8}\\) công việc. Do đó 1 giờ người thứ hai làm được \\(\\frac{1}{8} - \\frac{1}{x}\\) công việc. Phương trình biểu diễn: \\(\\frac{4}{x} + 12 \\cdot \\left(\\frac{1}{8} - \\frac{1}{x}\\right) = 1\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{4}{x} + 12 \\cdot \\left(\\frac{1}{8} - \\frac{1}{x}\\right) = 1\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{4}{x} + \\frac{12}{x} = 8\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(4x + 12(8 - x) = 1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{1}{x} + \\frac{1}{8} = 12\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_04",
+      "imgs": [
+        "_page_4_Figure_11.jpeg"
+      ],
+      "questiontext": "Bác An có một mảnh đất hình chữ nhật kích thước 14 m x 12 m. Bác dành một phần diện tích 100 m\\(^2\\) ở giữa để làm nhà và làm sân vườn xung quanh có chiều rộng x (m) như hình vẽ [img:_page_4_Figure_11.jpeg]. Sử dụng kiến thức phương trình quy về phương trình bậc nhất, hãy tính chiều rộng x của sân vườn.",
+      "generalfeedback": "Chiều dài nhà là \\(14 - 2x\\), chiều rộng nhà là \\(12 - 2x\\). Ta có phương trình \\((14 - 2x)(12 - 2x) = 100 \\Leftrightarrow (7-x)(6-x) = 25 \\Leftrightarrow x^2 - 13x + 17 = 0\\). Do \\(x > 0\\) và chiều rộng sân vườn hợp lý theo thực tế là \\(x = 1\\) m.",
+      "answers": [
+        {
+          "text": "1 m",
+          "fraction": 100
+        },
+        {
+          "text": "2 m",
+          "fraction": 0
+        },
+        {
+          "text": "3 m",
+          "fraction": 0
+        },
+        {
+          "text": "0.5 m",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Hai người cùng làm chung một công việc trong 8 giờ thì hoàn thành. Nếu người thứ nhất làm một mình trong 4 giờ rồi người thứ hai làm tiếp trong 12 giờ thì hoàn thành công việc. Sử dụng kĩ năng giải phương trình chứa ẩn ở mẫu, hãy tính thời gian người thứ nhất làm một mình xong công việc. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Gọi x là thời gian người thứ nhất làm một mình xong công việc (x > 8). Phương trình: \\(\\frac{4}{x} + 12\\left(\\frac{1}{8} - \\frac{1}{x}\\right) = 1 \\Leftrightarrow \\frac{4}{x} + \\frac{12}{8} - \\frac{12}{x} = 1 \\Leftrightarrow \\frac{1}{2} = \\frac{8}{x} \\Leftrightarrow x = 16\\) (giờ).",
+      "answers": [
+        {
+          "text": "16",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "imgs": [
+        "_page_0_Figure_15.jpeg"
+      ],
+      "questiontext": "Để ứng dụng phương trình tích vào bài toán hình thực tế: Một mảnh vườn hình vuông cạnh 15 m có lối đi xung quanh rộng x (m) [img:_page_0_Figure_15.jpeg], diện tích phần đất trồng hoa còn lại là 169 m\\(^2\\). Kĩ năng biến đổi toán học gồm:\n1) Mô hình hóa thành phương trình: [[1]]\n2) Đưa về phương trình tích: [[2]]\n3) Tìm được bề rộng lối đi x = 1 m.",
+      "generalfeedback": "Cạnh hình vuông còn lại là \\(15-2x\\). Phương trình \\((15-2x)^2 = 169 \\Leftrightarrow (15-2x)^2 - 13^2 = 0 \\Leftrightarrow (15-2x-13)(15-2x+13) = 0 \\Leftrightarrow (2-2x)(28-2x) = 0\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\((15 - 2x)^2 = 169\\)"
+        },
+        {
+          "group": 1,
+          "text": "(2 - 2x)(28 - 2x) = 0"
+        },
+        {
+          "group": 1,
+          "text": "\\((15 - x)^2 = 169\\)"
+        },
+        {
+          "group": 1,
+          "text": "(15 - 2x)(15 + 2x) = 0"
+        }
+      ]
+    }
+  ]
+}

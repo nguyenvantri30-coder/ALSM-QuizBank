@@ -1,0 +1,710 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 26,
+    "metadata_used": {
+      "Phép chia đơn thức cho đơn thức": 4,
+      "YCCD_TOAN7_056": 4,
+      "Nhận biết điều kiện chia hết của đơn thức": 3,
+      "Thực hiện phép chia đa thức cho đơn thức": 7,
+      "Phép chia đa thức cho đơn thức ax^n": 2,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_TUCHUTUHOC": 1,
+      "NLC_GIAOTIEP": 1,
+      "NLT_TOAN_C2_01": 1,
+      "NLT_TOAN_C2_03": 1
+    },
+    "types_used": {
+      "multichoice": 11,
+      "truefalse": 3,
+      "gapselect": 3,
+      "numerical": 2,
+      "ddwtos": 1,
+      "matching": 3,
+      "calculated": 1,
+      "calculatedsimple": 1,
+      "calculatedmulti": 1
+    },
+    "total": 26
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_056",
+        "reason": "Đo lường việc thực hiện phép chia trong tập hợp các đa thức một biến"
+      },
+      {
+        "metadata_code": "Phép chia đơn thức cho đơn thức",
+        "reason": "Đo lường kiến thức về phép chia đơn thức cho đơn thức"
+      },
+      {
+        "metadata_code": "Phép chia đa thức cho đơn thức ax^n",
+        "reason": "Đo lường kiến thức về phép chia đa thức cho đơn thức ax^n"
+      },
+      {
+        "metadata_code": "Nhận biết điều kiện chia hết của đơn thức",
+        "reason": "Đo lường kỹ năng nhận biết điều kiện chia hết của đơn thức"
+      },
+      {
+        "metadata_code": "Thực hiện phép chia đa thức cho đơn thức",
+        "reason": "Đo lường kỹ năng thực hiện phép chia đa thức cho đơn thức"
+      },
+      {
+        "metadata_code": "PC_CHAMCHI",
+        "reason": "Đo lường phẩm chất chăm chỉ trong thực hành giải toán"
+      },
+      {
+        "metadata_code": "PC_TRUNGTHUC",
+        "reason": "Đo lường phẩm chất trung thực trong học tập"
+      },
+      {
+        "metadata_code": "NLC_TUCHUTUHOC",
+        "reason": "Đo lường năng lực tự chủ và tự học qua tóm tắt quy tắc"
+      },
+      {
+        "metadata_code": "NLC_GIAOTIEP",
+        "reason": "Đo lường năng lực giao tiếp và hợp tác qua thảo luận nhóm"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01",
+        "reason": "Đo lường năng lực tư duy và lập luận toán học"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03",
+        "reason": "Đo lường năng lực giải quyết vấn đề toán học trong bài toán thực tế"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học thuần lý thuyết về phép chia đa thức một biến, không có nội dung sử dụng công cụ/phần mềm tin học hay xử lý dữ liệu số."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học không đề cập hay ứng dụng công nghệ Trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Phép chia đơn thức cho đơn thức",
+      "questiontext": "Trong các khẳng định sau về phép chia đơn thức \\(6x^4\\) cho \\(-2x^3\\), khẳng định nào đúng?",
+      "generalfeedback": "Ta có \\(6x^4 : (-2x^3) = [6 : (-2)] \\cdot (x^4 : x^3) = -3x\\). Do đó phép chia \\(6x^4 : (-2x^3)\\) là phép chia hết và có thương là \\(-3x\\).",
+      "answers": [
+        {
+          "text": "Phép chia \\(6x^4 : (-2x^3)\\) là phép chia hết và có thương là \\(-3x\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Phép chia \\(6x^4 : (-2x^3)\\) là phép chia hết và có thương là \\(3x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Phép chia \\(6x^4 : (-2x^3)\\) là phép chia có dư với dư là \\(-3x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Phép chia \\(6x^4 : (-2x^3)\\) không thực hiện được",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_056",
+      "questiontext": "Cho hai đa thức \\(A\\) và \\(B\\) với \\(B \\neq 0\\). Nếu có đa thức \\(Q\\) sao cho \\(A = B \\cdot Q\\) thì ta nói đa thức \\(A\\) chia hết cho đa thức \\(B\\). Khẳng định này đúng hay sai?",
+      "generalfeedback": "Theo SGK, cho hai đa thức \\(A\\) và \\(B\\) với \\(B \\neq 0\\), nếu có một đa thức \\(Q\\) sao cho \\(A = B \\cdot Q\\) thì ta có phép chia hết \\(A : B = Q\\) và nói đa thức \\(A\\) chia hết cho đa thức \\(B\\). Khẳng định này là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết điều kiện chia hết của đơn thức",
+      "questiontext": "Cho hai đơn thức \\(ax^m\\) và \\(bx^n\\) (với \\(m, n \\in \\mathbb{N}\\); \\(a, b \\in \\mathbb{R}\\\\) và \\(b \\neq 0\\)). Điều kiện của hai số mũ \\(m\\) và \\(n\\) để phép chia \\(ax^m\\) cho \\(bx^n\\) là phép chia hết là:",
+      "generalfeedback": "Theo SGK, đơn thức \\(ax^m\\) chia hết cho đơn thức \\(bx^n\\) khi và chỉ khi \\(m \\ge n\\).",
+      "answers": [
+        {
+          "text": "\\(m \\ge n\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(m < n\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(m = n + 1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(m \\le n\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện phép chia đa thức cho đơn thức",
+      "questiontext": "Kết quả của phép chia \\(12x^3 : 4x\\) là bao nhiêu?",
+      "generalfeedback": "Ta chia hệ số: \\(12 : 4 = 3\\); chia hai lũy thừa của biến: \\(x^3 : x = x^{3-1} = x^2\\). Do đó \\(12x^3 : 4x = 3x^2\\).",
+      "answers": [
+        {
+          "text": "\\(3x^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(3x^3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(4x^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(3x\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Phép chia đa thức cho đơn thức ax^n",
+      "questiontext": "Trong phép chia đa thức \\(A : B = Q\\) (với \\(B \\neq 0\\)), đa thức \\(A\\) được gọi là [[1]], đa thức \\(B\\) được gọi là [[2]], và đa thức \\(Q\\) được gọi là [[3]].",
+      "generalfeedback": "Theo định nghĩa trong SGK: \\(A\\) là đa thức bị chia, \\(B\\) là đa thức chia, \\(Q\\) là đa thức thương.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "đa thức bị chia"
+        },
+        {
+          "group": 1,
+          "text": "đa thức chia"
+        },
+        {
+          "group": 1,
+          "text": "đa thức thương"
+        },
+        {
+          "group": 1,
+          "text": "đa thức dư"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện phép chia đa thức cho đơn thức",
+      "questiontext": "Tìm hệ số của thương trong phép chia đơn thức \\(3x^7 : \\frac{1}{2}x^4\\). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Hệ số của thương bằng \\(3 : \\frac{1}{2} = 3 \\cdot 2 = 6\\).",
+      "answers": [
+        {
+          "text": "6",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết điều kiện chia hết của đơn thức",
+      "questiontext": "Đơn thức \\(-2x^3\\) chia hết cho đơn thức \\(5x^4\\). Khẳng định này đúng hay sai?",
+      "generalfeedback": "Số mũ của biến \\(x\\) trong đơn thức bị chia là 3, nhỏ hơn số mũ 4 của biến \\(x\\) trong đơn thức chia (\\(3 < 4\\)). Do đó \\(-2x^3\\) không chia hết cho \\(5x^4\\). Khẳng định là Sai.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Phép chia đơn thức cho đơn thức",
+      "questiontext": "Để thực hiện phép chia đơn thức \\(6x^4\\) cho \\(-2x^3\\), ta làm như sau:\n- Chia hai hệ số: \\(6 : (-2) =\\) [[1]]\n- Chia hai lũy thừa của biến: \\(x^4 : x^3 =\\) [[2]]\n- Nhân hai kết quả vừa tìm được, ta được thương là [[3]]",
+      "generalfeedback": "Theo hướng dẫn trong SGK: chia hệ số \\(6 : (-2) = -3\\); chia lũy thừa \\(x^4 : x^3 = x\\); nhân hai kết quả được \\(-3x\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "-3"
+        },
+        {
+          "group": 1,
+          "text": "x"
+        },
+        {
+          "group": 1,
+          "text": "-3x"
+        },
+        {
+          "group": 1,
+          "text": "3"
+        },
+        {
+          "group": 1,
+          "text": "x^7"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép chia đa thức cho đơn thức",
+      "questiontext": "Hãy ghép mỗi phép chia đơn thức ở cột bên trái với thương tương ứng ở cột bên phải:",
+      "generalfeedback": "Thực hiện phép chia từng cặp theo quy tắc chia đơn thức cho đơn thức:\na) \\(12x^3 : 4x = 3x^2\\)\nb) \\((-2x^4) : x^4 = -2\\)\nc) \\(2x^5 : 5x^2 = 0,4x^3\\)",
+      "subquestions": [
+        {
+          "question": "Phép chia \\(12x^3 : 4x\\)",
+          "answer": "\\(3x^2\\)"
+        },
+        {
+          "question": "Phép chia \\((-2x^4) : x^4\\)",
+          "answer": "\\(-2\\)"
+        },
+        {
+          "question": "Phép chia \\(2x^5 : 5x^2\\)",
+          "answer": "\\(0,4x^3\\)"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện phép chia đa thức cho đơn thức",
+      "questiontext": "Cho đơn thức bị chia là {a}\\(x^5\\) và đơn thức chia là {b}\\(x^2\\) (với {a} chia hết cho {b}). Hãy tính hệ số của thương trong phép chia {a}\\(x^5\\) cho {b}\\(x^2\\).",
+      "generalfeedback": "Hệ số của thương được tính bằng hệ số của đơn thức bị chia chia cho hệ số của đơn thức chia: {a}/{b}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 10.0,
+          "max": 40.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 2.0,
+          "max": 5.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}/{b}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép chia đa thức cho đơn thức",
+      "questiontext": "Kết quả của phép chia \\((-5x^3 + 15x^2 + 18x) : (-5x)\\) là:",
+      "generalfeedback": "Ta lấy từng hạng tử của đa thức chia cho đơn thức \\(-5x\\):\n\\((-5x^3) : (-5x) = x^2\\)\n\\(15x^2 : (-5x) = -3x\\)\n\\(18x : (-5x) = -3,6\\)\nDo đó thương là \\(x^2 - 3x - 3,6\\).",
+      "answers": [
+        {
+          "text": "\\(x^2 - 3x - 3,6\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x^2 + 3x - 3,6\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-x^2 - 3x + 3,6\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x^2 - 3x + 3,6\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép chia đa thức cho đơn thức",
+      "questiontext": "Thương của phép chia \\(8x^5 : 4x^3\\) là bao nhiêu?",
+      "generalfeedback": "Ta có \\(8x^5 : 4x^3 = (8 : 4) \\cdot (x^5 : x^3) = 2x^2\\).",
+      "answers": [
+        {
+          "text": "\\(2x^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(2x^8\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(4x^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2x\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép chia đa thức cho đơn thức",
+      "questiontext": "Cho phép chia \\(120x^7 : (-24x^5)\\). Giá trị của thương tại \\(x = 1\\) bằng bao nhiêu? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Thương của phép chia là \\(120x^7 : (-24x^5) = -5x^2\\). Thay \\(x = 1\\) vào thương ta được \\(-5 \\cdot 1^2 = -5\\).",
+      "answers": [
+        {
+          "text": "-5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Phép chia đơn thức cho đơn thức",
+      "questiontext": "Kết quả của phép chia \\(\\frac{3}{4}(-x)^3 : \\frac{1}{8}x\\) là:",
+      "generalfeedback": "Ta có \\((-x)^3 = -x^3\\). Do đó \\(\\frac{3}{4}(-x)^3 : \\frac{1}{8}x = -\\frac{3}{4}x^3 : \\frac{1}{8}x = (-\\frac{3}{4} : \\frac{1}{8}) \\cdot (x^3 : x) = -6x^2\\).",
+      "answers": [
+        {
+          "text": "\\(-6x^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(6x^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-\\frac{3}{32}x^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-6x^4\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép chia đa thức cho đơn thức",
+      "questiontext": "Cho đa thức \\(A = -2x^5 - 4x^3 + 3x^2\\) và đơn thức \\(B = 2x^2\\). Khi thực hiện phép chia \\(A : B\\), ta chia từng hạng tử của \\(A\\) cho \\(B\\):\n- \\((-2x^5) : (2x^2) =\\) [[1]]\n- \\((-4x^3) : (2x^2) =\\) [[2]]\n- \\(3x^2 : (2x^2) =\\) [[3]]",
+      "generalfeedback": "Chia từng hạng tử:\n- \\((-2x^5) : (2x^2) = -x^3\\)\n- \\((-4x^3) : (2x^2) = -2x\\)\n- \\(3x^2 : (2x^2) = 1,5\\)",
+      "choices": [
+        {
+          "group": 1,
+          "text": "-x^3"
+        },
+        {
+          "group": 1,
+          "text": "-2x"
+        },
+        {
+          "group": 1,
+          "text": "1,5"
+        },
+        {
+          "group": 1,
+          "text": "-x^2"
+        },
+        {
+          "group": 1,
+          "text": "3"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện phép chia đa thức cho đơn thức",
+      "questiontext": "Thực hiện phép chia đơn thức {a}x^6 cho {b}x^2 (với {a} chia hết cho {b}). Khi x = 1, giá trị của thương bằng bao nhiêu? (Chỉ điền số)",
+      "generalfeedback": "Thương của phép chia là ({a}/{b})x^4. Tại x = 1, giá trị của thương bằng {a}/{b}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 12.0,
+          "max": 36.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 2.0,
+          "max": 6.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}/{b}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép chia đa thức cho đơn thức",
+      "questiontext": "Ghép mỗi phép chia đơn thức với kết quả thương tương ứng:",
+      "generalfeedback": "Thực hiện phép chia từng đơn thức theo quy tắc.",
+      "subquestions": [
+        {
+          "question": "Phép chia \\(-3,72x^4 : (-4x^2)\\)",
+          "answer": "\\(0,93x^2\\)"
+        },
+        {
+          "question": "Phép chia \\(0,25x^5 : (-5x^2)\\)",
+          "answer": "\\(-0,05x^3\\)"
+        },
+        {
+          "question": "Phép chia \\((-2x) : x\\)",
+          "answer": "\\(-2\\)"
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện phép chia đa thức cho đơn thức",
+      "questiontext": "Cho hai đơn thức A = {a}x^7 và B = {b}x^3 (với {a} chia hết cho {b}). Biểu thức tính hệ số của thương A : B là:",
+      "generalfeedback": "Hệ số thương của phép chia A : B được tính bằng {a}/{b}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 10.0,
+          "max": 50.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 2.0,
+          "max": 5.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}/{b}",
+          "fraction": 100
+        },
+        {
+          "text": "{a}+{b}",
+          "fraction": 0
+        },
+        {
+          "text": "{a}*{b}",
+          "fraction": 0
+        },
+        {
+          "text": "{a}-{b}",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_056",
+      "questiontext": "Cho đa thức \\(A = 0,5x^5 + 3,2x^3 - 2x^2\\). Đa thức \\(A\\) chia hết cho đơn thức \\(0,25x^n\\) khi số tự nhiên \\(n\\) thỏa mãn điều kiện nào sau đây?",
+      "generalfeedback": "Đa thức \\(A\\) chia hết cho đơn thức \\(0,25x^n\\) khi tất cả các hạng tử của \\(A\\) đều chia hết cho \\(0,25x^n\\). Số mũ nhỏ nhất của biến \\(x\\) trong các hạng tử của \\(A\\) là 2 (tại hạng tử \\(-2x^2\\)). Do đó điều kiện để \\(A\\) chia hết cho \\(0,25x^n\\) là \\(n \\le 2\\).",
+      "answers": [
+        {
+          "text": "\\(n \\le 2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(n \\ge 2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(n = 3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(n \\ge 5\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện phép chia đa thức cho đơn thức",
+      "questiontext": "Thực hiện phép chia đa thức \\(A = 0,5x^5 + 3,2x^3 - 2x^2\\) cho đơn thức \\(0,25x^2\\). Kết quả thương nhận được là:",
+      "generalfeedback": "Chia từng hạng tử của \\(A\\) cho \\(0,25x^2\\):\n\\(0,5x^5 : 0,25x^2 = 2x^3\\)\n\\(3,2x^3 : 0,25x^2 = 12,8x\\)\n\\(-2x^2 : 0,25x^2 = -8\\)\nDo đó thương là \\(2x^3 + 12,8x - 8\\).",
+      "answers": [
+        {
+          "text": "\\(2x^3 + 12,8x - 8\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(2x^3 + 12,8x^2 - 8\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(0,125x^3 + 0,8x - 0,5\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2x^3 + 3,2x - 2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Bạn An gặp một bài toán tính thương của phép chia đa thức \\(120x^7 : (-24x^5)\\). Dù thấy số liệu lớn, An vẫn kiên nhẫn chia hệ số và chia phần biến từng bước theo đúng quy tắc SGK để tìm ra kết quả đúng. Hành vi của bạn An thể hiện phẩm chất nào?",
+      "generalfeedback": "Sự kiên nhẫn, nỗ lực hoàn thành bài tập dù gặp số liệu lớn thể hiện phẩm chất chăm chỉ.",
+      "answers": [
+        {
+          "text": "Chăm chỉ",
+          "fraction": 100
+        },
+        {
+          "text": "Trung thực",
+          "fraction": 0
+        },
+        {
+          "text": "Trách nhiệm",
+          "fraction": 0
+        },
+        {
+          "text": "Yêu nước",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Trong giờ kiểm tra, khi tính phép chia \\((-5x^3 + 15x^2 + 18x) : (-5x)\\), Bình làm sai một dấu dẫn đến kết quả khác với đáp án của bạn bên cạnh. Bình không chép bài bạn mà tự kiểm tra lại từng bước tính của mình để tìm ra lỗi sai. Hành vi của Bình thể hiện tính trung thực trong học tập. Khẳng định này đúng hay sai?",
+      "generalfeedback": "Tự làm bài, không chép bài của bạn và tự giác tìm ra lỗi sai thể hiện tính trung thực trong học tập.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Để tự học và ghi nhớ quy tắc chia đơn thức \\(ax^m\\) cho \\(bx^n\\) (với \\(m \\ge n\\) và \\(b \\neq 0\\)), bạn Hoa đã lập sơ đồ tóm tắt các bước:\n1. Chia hai hệ số: lấy [[1]]\n2. Chia hai lũy thừa của biến: lấy [[2]]\n3. Nhân hai kết quả vừa tìm được để ra thương.",
+      "generalfeedback": "Tự hệ thống hóa kiến thức bài học bằng cách tóm tắt các bước chia giúp thể hiện năng lực tự chủ và tự học.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "a : b"
+        },
+        {
+          "group": 1,
+          "text": "x^m : x^n = x^{m-n}"
+        },
+        {
+          "group": 1,
+          "text": "a . b"
+        },
+        {
+          "group": 1,
+          "text": "x^{m+n}"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_GIAOTIEP",
+      "questiontext": "Trong buổi thảo luận nhóm về phép chia đơn thức, các bạn phân công nhau giải thích lại từng ví dụ trong SGK cho nhóm. Hãy ghép mỗi bạn với nội dung giải thích phù hợp:",
+      "generalfeedback": "Sự phân công và giải thích rõ ràng giữa các thành viên thể hiện năng lực giao tiếp và hợp tác.",
+      "subquestions": [
+        {
+          "question": "Bạn Minh giải thích phép chia hệ số trong \\(6x^4 : (-2x^3)\\)",
+          "answer": "Lấy 6 chia cho (-2) được -3"
+        },
+        {
+          "question": "Bạn Lan giải thích phép chia phần biến trong \\(6x^4 : (-2x^3)\\)",
+          "answer": "Lấy \\(x^4\\) chia cho \\(x^3\\) được \\(x\\)"
+        },
+        {
+          "question": "Bạn Cường kết luận thương của phép chia \\(6x^4 : (-2x^3)\\)",
+          "answer": "Nhân hai kết quả được \\(-3x\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Xét hai đơn thức \\(A = 3x^7\\) và \\(B = \\frac{1}{2}x^n\\). Bạn Nam lập luận: 'Đơn thức A chia hết cho đơn thức B với mọi số tự nhiên \\(n \\le 7\\)'. Lập luận của bạn Nam đúng hay sai và vì sao?",
+      "generalfeedback": "Đơn thức \\(ax^m\\) chia hết cho \\(bx^n\\) khi số mũ \\(m \\ge n\\). Ở đây \\(m = 7\\) nên \\(7 \\ge n\\), tức là \\(n \\le 7\\). Lập luận của Nam là đúng.",
+      "answers": [
+        {
+          "text": "Đúng, vì điều kiện để chia hết là số mũ của đơn thức bị chia phải lớn hơn hoặc bằng số mũ của đơn thức chia (\\(7 \\ge n\\))",
+          "fraction": 100
+        },
+        {
+          "text": "Sai, vì hệ số 3 không chia hết cho \\(\\frac{1}{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Sai, vì \\(n\\) phải đúng bằng 7 phép chia mới là chia hết",
+          "fraction": 0
+        },
+        {
+          "text": "Đúng, vì \\(3 : \\frac{1}{2} = 1,5\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "questiontext": "Một mảnh đất hình chữ nhật có diện tích được biểu diễn bởi đa thức \\(S(x) = 6x^3 - 2x^2\\) (m\\(^2\\)) và chiều rộng là \\(w(x) = 2x^2\\) (m) với \\(x > 1\\). Để tìm chiều dài của mảnh đất, ta chọn phương pháp giải quyết vấn đề nào sau đây?",
+      "generalfeedback": "Diện tích hình chữ nhật bằng chiều dài nhân chiều rộng (\\(S = l \\cdot w\\)). Do đó chiều dài \\(l(x) = S(x) : w(x) = (6x^3 - 2x^2) : (2x^2) = 3x - 1\\) (m).",
+      "answers": [
+        {
+          "text": "Thực hiện phép chia đa thức \\((6x^3 - 2x^2) : (2x^2)\\) để tìm thương là chiều dài \\(3x - 1\\) (m)",
+          "fraction": 100
+        },
+        {
+          "text": "Thực hiện phép nhân đa thức \\((6x^3 - 2x^2) \\cdot (2x^2)\\) để tìm chiều dài",
+          "fraction": 0
+        },
+        {
+          "text": "Thực hiện phép cộng \\((6x^3 - 2x^2) + (2x^2)\\) để tìm chiều dài",
+          "fraction": 0
+        },
+        {
+          "text": "Thực hiện phép trừ \\((6x^3 - 2x^2) - (2x^2)\\) để tìm chiều dài",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

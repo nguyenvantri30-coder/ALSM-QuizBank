@@ -1,0 +1,718 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 26,
+    "metadata_used": {
+      "Khái niệm hình có trục đối xứng": 2,
+      "Định nghĩa trục đối xứng d": 2,
+      "YCCD_TOAN6_105": 6,
+      "Nhận biết hình có trục đối xứng trong tự nhiên và kiến trúc": 5,
+      "YCCD_TOAN6_106": 2,
+      "Gấp giấy cắt hình có trục đối xứng": 3,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_TCTH_TUHOC_C2_04": 1,
+      "SUB_GTHT_XACDINHMD_C2_03": 1,
+      "NLT_TOAN_C2_01_02": 1,
+      "NLT_TOAN_C2_05_01": 1,
+      "1.1TC1b_K6": 1
+    },
+    "types_used": {
+      "multichoice": 16,
+      "truefalse": 2,
+      "matching": 4,
+      "shortanswer": 2,
+      "gapselect": 1,
+      "ddwtos": 1
+    },
+    "total": 26
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "Khái niệm hình có trục đối xứng",
+        "reason": "Khái niệm hình có trục đối xứng."
+      },
+      {
+        "metadata_code": "Định nghĩa trục đối xứng d",
+        "reason": "Định nghĩa trục đối xứng d."
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_105",
+        "reason": "Nhận biết được trục đối xứng của một hình phẳng."
+      },
+      {
+        "metadata_code": "Nhận biết hình có trục đối xứng trong tự nhiên và kiến trúc",
+        "reason": "Nhận biết hình có trục đối xứng trong tự nhiên và kiến trúc."
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_106",
+        "reason": "Nhận biết được những hình phẳng trong tự nhiên có trục đối xứng (khi quan sát trên hình ảnh 2 chiều)."
+      },
+      {
+        "metadata_code": "Gấp giấy cắt hình có trục đối xứng",
+        "reason": "Gấp giấy cắt hình có trục đối xứng."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Luôn cố gắng vươn lên đạt kết quả tốt trong học tập."
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+        "reason": "Lưu giữ thông tin có chọn lọc bằng ghi tóm tắt, bằng bản đồ khái niệm, bảng, các từ khoá."
+      },
+      {
+        "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+        "reason": "Tiếp nhận được các văn bản về những vấn đề đơn giản của đời sống, khoa học, nghệ thuật, có sử dụng ngôn ngữ kết hợp với biểu đồ, số liệu, công thức, kí hiệu, hình ảnh."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_02",
+        "reason": "Biết quan sát trong nhiều tình huống."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_05_01",
+        "reason": "Nhận biết được tên gọi của các công cụ, phương tiện học toán."
+      },
+      {
+        "metadata_code": "1.1TC1b_K6",
+        "reason": "Tự thực hiện tìm kiếm dữ liệu, thông tin trong môi trường số."
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm hình có trục đối xứng",
+      "questiontext": "Hình có tính chất nào sau đây được gọi là hình có trục đối xứng?",
+      "generalfeedback": "Hình có trục đối xứng là hình có một đường thẳng d chia hình thành hai phần mà nếu \"gấp\" hình theo đường thẳng d thì hai phần đó \"chồng khít\" lên nhau.",
+      "answers": [
+        {
+          "text": "Có một đường thẳng \\(d\\) chia hình thành hai phần mà khi gấp theo \\(d\\), hai phần đó chồng khít lên nhau.",
+          "fraction": 100
+        },
+        {
+          "text": "Có một điểm \\(O\\) chia hình thành hai phần bằng nhau về diện tích.",
+          "fraction": 0
+        },
+        {
+          "text": "Có hai đường thẳng cắt nhau chia hình thành bốn phần có diện tích bằng nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Có một đường thẳng \\(d\\) chia hình thành hai phần có chu vi bằng nhau nhưng không thể chồng khít.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Định nghĩa trục đối xứng d",
+      "questiontext": "Nếu đường thẳng \\(d\\) chia một hình thành hai phần mà khi gấp hình theo đường thẳng \\(d\\), hai phần đó chồng khít lên nhau thì đường thẳng \\(d\\) được gọi là trục đối xứng của hình đó.",
+      "generalfeedback": "Đúng. Theo định nghĩa trong SGK, đường thẳng \\(d\\) thoả mãn điều kiện trên chính là trục đối xứng của hình.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_105",
+      "imgs": [
+        "_page_1_Picture_13.jpeg"
+      ],
+      "questiontext": "Quan sát các hình trong hình dưới đây [img:_page_1_Picture_13.jpeg]. Đường thẳng \\(d\\) trong mỗi hình có vai trò gì?",
+      "generalfeedback": "Đường thẳng \\(d\\) chia mỗi hình thành hai phần chồng khít lên nhau khi gấp theo \\(d\\), do đó \\(d\\) là trục đối xứng của hình.",
+      "answers": [
+        {
+          "text": "Là trục đối xứng của hình",
+          "fraction": 100
+        },
+        {
+          "text": "Là đường phân giác của hình",
+          "fraction": 0
+        },
+        {
+          "text": "Là đường trung tuyến của hình",
+          "fraction": 0
+        },
+        {
+          "text": "Là đường chéo của hình",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết hình có trục đối xứng trong tự nhiên và kiến trúc",
+      "questiontext": "Hãy ghép các công trình kiến trúc / hình ảnh thực tế sau với đặc điểm đối xứng tương ứng của chúng:",
+      "generalfeedback": "Các công trình như Khuê Văn Các, Tháp Eiffel hay hình ảnh mặt hồ đều là những ví dụ thực tế về hình có tính cân đối, hài hoá và có trục đối xứng.",
+      "subquestions": [
+        {
+          "question": "Khuê Văn Các",
+          "answer": "Hình có tính cân đối, hài hoá và có trục đối xứng trong kiến trúc Việt Nam"
+        },
+        {
+          "question": "Tháp Eiffel",
+          "answer": "Hình có tính cân đối, hài hoá và có trục đối xứng trong kiến trúc thế giới"
+        },
+        {
+          "question": "Mặt hồ phẳng lặng chiếu bóng cảnh vật",
+          "answer": "Hình ảnh đối xứng trong tự nhiên qua mặt nước"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_106",
+      "imgs": [
+        "_page_1_Picture_6.jpeg"
+      ],
+      "questiontext": "Khi quan sát hai cánh của con bướm ở hình bên [img:_page_1_Picture_6.jpeg] khi gập lại, ta thấy hai cánh của con bướm có đặc điểm gì?",
+      "generalfeedback": "Khi gập lại theo đường thân con bướm, hai cánh con bướm chồng khít lên nhau, chứng tỏ hình con bướm có trục đối xứng.",
+      "answers": [
+        {
+          "text": "Hai cánh chồng khít lên nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Hai cánh lệch nhau hoàn toàn",
+          "fraction": 0
+        },
+        {
+          "text": "Hai cánh có kích thước khác hẳn nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Hai cánh vuông góc với nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Gấp giấy cắt hình có trục đối xứng",
+      "questiontext": "Để cắt một hình có trục đối xứng bằng kéo từ một tờ giấy, bước đầu tiên ta cần làm với tờ giấy là gì?",
+      "generalfeedback": "Theo HĐ3 trong SGK, bước đầu tiên là gấp đôi tờ giấy.",
+      "answers": [
+        {
+          "text": "gấp đôi",
+          "fraction": 100
+        },
+        {
+          "text": "gấp đôi tờ giấy",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_105",
+      "questiontext": "Khi vẽ một đường tròn trên giấy rồi cắt ra ta được một hình tròn. Nếu gấp đôi hình tròn đó theo một đường thẳng đi qua tâm thì hai nửa hình tròn sẽ [[1]] lên nhau. Đường thẳng đi qua tâm đó chính là [[2]] của hình tròn.",
+      "generalfeedback": "Mọi đường thẳng đi qua tâm của hình tròn đều là trục đối xứng của hình tròn đó, và khi gấp theo đường thẳng này hai nửa hình tròn sẽ chồng khít lên nhau.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "chồng khít"
+        },
+        {
+          "group": 1,
+          "text": "trục đối xứng"
+        },
+        {
+          "group": 1,
+          "text": "lệch nhau"
+        },
+        {
+          "group": 1,
+          "text": "tâm đối xứng"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết hình có trục đối xứng trong tự nhiên và kiến trúc",
+      "imgs": [
+        "_page_1_Picture_21.jpeg"
+      ],
+      "questiontext": "Hình ảnh kiến trúc dưới đây [img:_page_1_Picture_21.jpeg] thể hiện điều gì?",
+      "generalfeedback": "Đây là công trình kiến trúc có tính đối xứng trong thực tế.",
+      "answers": [
+        {
+          "text": "Một ví dụ về hình có trục đối xứng trong kiến trúc",
+          "fraction": 100
+        },
+        {
+          "text": "Một hình không có trục đối xứng",
+          "fraction": 0
+        },
+        {
+          "text": "Một hình có vô số tâm đối xứng",
+          "fraction": 0
+        },
+        {
+          "text": "Một hình thể hiện tính bất cân đối trong mỹ thuật",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_105",
+      "questiontext": "Trong các chữ cái dưới đây: A, B, G, H, E, F, chữ cái nào KHÔNG có trục đối xứng?",
+      "generalfeedback": "Chữ G và chữ F không có trục đối xứng ngang hay đứng nào. Trong danh sách lựa chọn, chữ G (và F) là ví dụ chữ cái không có trục đối xứng.",
+      "answers": [
+        {
+          "text": "Chữ G",
+          "fraction": 100
+        },
+        {
+          "text": "Chữ A",
+          "fraction": 0
+        },
+        {
+          "text": "Chữ B",
+          "fraction": 0
+        },
+        {
+          "text": "Chữ H",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm hình có trục đối xứng",
+      "questiontext": "Những hình có một đường thẳng \\(d\\) chia hình thành hai phần mà nếu gấp hình theo đường thẳng \\(d\\) thì hai phần đó [[1]] lên nhau được gọi là [[2]].",
+      "generalfeedback": "Định nghĩa hình có trục đối xứng trong SGK.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "chồng khít"
+        },
+        {
+          "group": 1,
+          "text": "hình có trục đối xứng"
+        },
+        {
+          "group": 1,
+          "text": "song song"
+        },
+        {
+          "group": 1,
+          "text": "hình có tâm đối xứng"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_105",
+      "imgs": [
+        "_page_1_Picture_8.jpeg"
+      ],
+      "questiontext": "Quan sát Hình 5.1 [img:_page_1_Picture_8.jpeg]. Khi gấp đôi hình tròn theo một đường thẳng đi qua tâm, hai nửa hình tròn có đặc điểm gì?",
+      "generalfeedback": "Khi gấp đôi hình tròn theo một đường thẳng đi qua tâm, hai nửa hình tròn chồng khít lên nhau.",
+      "answers": [
+        {
+          "text": "Chồng khít lên nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Lệch nhau hoàn toàn",
+          "fraction": 0
+        },
+        {
+          "text": "Chồng lên nhau nhưng không vừa vặn",
+          "fraction": 0
+        },
+        {
+          "text": "Tạo thành hai hình tam giác",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Gấp giấy cắt hình có trục đối xứng",
+      "imgs": [
+        "_page_1_Picture_9.jpeg"
+      ],
+      "questiontext": "Thực hiện gấp đôi một tờ giấy, dùng kéo cắt một đường như Hình 5.2b [img:_page_1_Picture_9.jpeg] rồi mở ra. Hình nhận được có đặc điểm gì?",
+      "generalfeedback": "Hình nhận được có hai phần chồng khít lên nhau qua nếp gấp, do đó nó là hình có trục đối xứng và nếp gấp chính là trục đối xứng.",
+      "answers": [
+        {
+          "text": "Là hình có trục đối xứng với nếp gấp là trục đối xứng",
+          "fraction": 100
+        },
+        {
+          "text": "Là hình không có trục đối xứng",
+          "fraction": 0
+        },
+        {
+          "text": "Là hình không thể có trục đối xứng",
+          "fraction": 0
+        },
+        {
+          "text": "Là hình tròn hoàn chỉnh",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết hình có trục đối xứng trong tự nhiên và kiến trúc",
+      "imgs": [
+        "_page_0_Picture_11.jpeg"
+      ],
+      "questiontext": "Hình ảnh công trình kiến trúc Khuê Văn Các [img:_page_0_Picture_11.jpeg] có đặc điểm nổi bật nào về mặt hình học?",
+      "generalfeedback": "Khuê Văn Các có vẻ đẹp cân đối, hài hoà và có trục đối xứng.",
+      "answers": [
+        {
+          "text": "Có tính cân đối, hài hoà và có trục đối xứng",
+          "fraction": 100
+        },
+        {
+          "text": "Hoàn toàn không có tính cân đối",
+          "fraction": 0
+        },
+        {
+          "text": "Không thể tìm thấy trục đối xứng nào",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ gồm các đường cong không đối xứng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết hình có trục đối xứng trong tự nhiên và kiến trúc",
+      "imgs": [
+        "_page_0_Picture_12.jpeg"
+      ],
+      "questiontext": "Tháp Eiffel [img:_page_0_Picture_12.jpeg] là một công trình kiến trúc nổi tiếng. Nhìn trực diện, hình ảnh tháp Eiffel thể hiện đặc điểm hình học nào?",
+      "generalfeedback": "Nhìn trực diện, tháp Eiffel là công trình kiến trúc có tính đối xứng qua trục thẳng đứng.",
+      "answers": [
+        {
+          "text": "Có trục đối xứng thẳng đứng chia tháp thành hai phần cân đối",
+          "fraction": 100
+        },
+        {
+          "text": "Không có trục đối xứng nào",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ có trục đối xứng nằm ngang",
+          "fraction": 0
+        },
+        {
+          "text": "Là một hình có vô số trục đối xứng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_106",
+      "imgs": [
+        "_page_0_Picture_13.jpeg"
+      ],
+      "questiontext": "Hình ảnh cảnh vật chiếu bóng xuống mặt hồ phẳng lặng [img:_page_0_Picture_13.jpeg] cho ta hình ảnh về trục đối xứng trong thực tế.",
+      "generalfeedback": "Đúng. Đường mép nước (mặt hồ) đóng vai trò như trục đối xứng giữa cảnh vật thật và bóng của nó trên mặt nước.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_105",
+      "imgs": [
+        "_page_1_Picture_18.jpeg"
+      ],
+      "questiontext": "Quan sát các hình ở hình dưới đây [img:_page_1_Picture_18.jpeg], khẳng định nào sau đây là đúng?",
+      "generalfeedback": "Các hình trong hình (hình chiếc lá đối xứng, hình ngôi sao, hình khuôn mặt/biểu tượng) đều có trục đối xứng.",
+      "answers": [
+        {
+          "text": "Các hình trong ảnh đều là hình có trục đối xứng",
+          "fraction": 100
+        },
+        {
+          "text": "Không có hình nào có trục đối xứng",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ có duy nhất một hình có trục đối xứng",
+          "fraction": 0
+        },
+        {
+          "text": "Tất cả các hình đều không có tính cân đối",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Định nghĩa trục đối xứng d",
+      "questiontext": "Đường thẳng chia một hình thành hai phần mà nếu gấp hình theo đường thẳng đó thì hai phần chồng khít lên nhau được gọi là gì?",
+      "generalfeedback": "Đó là định nghĩa của trục đối xứng.",
+      "answers": [
+        {
+          "text": "trục đối xứng",
+          "fraction": 100
+        },
+        {
+          "text": "Trục đối xứng",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_105",
+      "questiontext": "Trong các chữ cái in hoa sau: H, I, O, X, khẳng định nào sau đây là đúng?",
+      "generalfeedback": "Cả 4 chữ cái H, I, O, X đều là các hình có trục đối xứng (vừa có trục đối xứng đứng, vừa có trục đối xứng ngang).",
+      "answers": [
+        {
+          "text": "Đều là các chữ cái có trục đối xứng",
+          "fraction": 100
+        },
+        {
+          "text": "Đều là các chữ cái không có trục đối xứng",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ có chữ H là có trục đối xứng",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ có chữ O là có trục đối xứng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết hình có trục đối xứng trong tự nhiên và kiến trúc",
+      "questiontext": "Hãy ghép từng hình ảnh / đối tượng trong thực tế với mô tả về trục đối xứng của nó:",
+      "generalfeedback": "Mỗi hình ảnh thực tế đối xứng đều có một trục đối xứng xác định chia hình thành hai phần chồng khít.",
+      "subquestions": [
+        {
+          "question": "Con bướm đang xòe hai cánh",
+          "answer": "Trục đối xứng chạy dọc theo đường thân con bướm"
+        },
+        {
+          "question": "Mặt hồ phẳng lặng chiếu bóng cảnh vật",
+          "answer": "Trục đối xứng là đường mép nước trên mặt hồ"
+        },
+        {
+          "question": "Tờ giấy hình tròn gấp đôi",
+          "answer": "Trục đối xứng là đường thẳng nếp gấp đi qua tâm"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Gấp giấy cắt hình có trục đối xứng",
+      "questiontext": "Nếu em gấp đôi một tờ giấy hình chữ nhật theo chiều dọc, sau đó cắt một hình trái tim ở đường nếp gấp rồi mở ra, nếp gấp đó đóng vai trò gì đối với hình trái tim nhận được?",
+      "generalfeedback": "Nếp gấp chia hình trái tim thành hai phần chồng khít lên nhau, do đó nếp gấp chính là trục đối xứng của hình trái tim.",
+      "answers": [
+        {
+          "text": "Là trục đối xứng của hình trái tim",
+          "fraction": 100
+        },
+        {
+          "text": "Là cạnh đáy của hình trái tim",
+          "fraction": 0
+        },
+        {
+          "text": "Là đường chéo của hình trái tim",
+          "fraction": 0
+        },
+        {
+          "text": "Không có vai trò gì",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ học Toán bài \"Hình có trục đối xứng\", khi gặp bài tập gấp giấy cắt chữ có trục đối xứng phức tạp và bị hỏng ở lần thử đầu tiên, hành vi nào sau đây thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập?",
+      "generalfeedback": "Kiên trì phân tích nguyên nhân chưa thành công, tìm hiểu kĩ lại quy trình gấp giấy và nỗ lực thực hành lại thể hiện tinh thần vươn lên trong học tập.",
+      "answers": [
+        {
+          "text": "Phân tích lại đường nếp gấp, rút kinh nghiệm và kiên trì thực hành lại cho đến khi cắt thành công.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua không làm tiếp bài tập và chờ giáo viên chữa bài.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép lại sản phẩm cắt giấy của bạn bên cạnh để nộp cho xong.",
+          "fraction": 0
+        },
+        {
+          "text": "Cho rằng mình không có năng khiếu cắt giấy nên không cần cố gắng nữa.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Để lưu giữ thông tin học tập bài \"Hình có trục đối xứng\" một cách có chọn lọc và khoa học, em hãy ghép từng nội dung kiến thức với hình thức ghi tóm tắt phù hợp tương ứng:",
+      "generalfeedback": "Lựa chọn hình thức tóm tắt, bảng biểu hay từ khoá phù hợp giúp lưu giữ thông tin bài học có chọn lọc và hiệu quả.",
+      "subquestions": [
+        {
+          "question": "Khái niệm hình có trục đối xứng",
+          "answer": "Ghi cụm từ khoá cốt lõi: \"gấp theo d → hai phần chồng khít\""
+        },
+        {
+          "question": "Danh sách các hình thực tế có trục đối xứng trong tự nhiên và kiến trúc",
+          "answer": "Lập bảng phân loại gồm 2 cột: \"Trong tự nhiên\" và \"Trong kiến trúc\""
+        },
+        {
+          "question": "Quy trình gấp và cắt giấy tạo hình đối xứng",
+          "answer": "Vẽ sơ đồ tư duy / bản đồ khái niệm dạng các bước nối tiếp nhau"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "imgs": [
+        "_page_0_Picture_11.jpeg"
+      ],
+      "questiontext": "Đọc đoạn văn sau kết hợp quan sát hình ảnh [img:_page_0_Picture_11.jpeg]: \"Khuê Văn Các là một công trình kiến trúc nổi tiếng nằm trong quần thể Văn Miếu - Quốc Tử Giám. Nhìn từ phía trước, toàn bộ công trình thể hiện sự cân đối, hài hoà rõ rệt qua trục thẳng đứng d đi qua trung tâm.\" Nhận định nào sau đây là chính xác nhất khi tiếp nhận thông tin trên?",
+      "generalfeedback": "Văn bản và hình ảnh đã kết hợp cung cấp thông tin về tính cân đối, đối xứng qua trục thẳng đứng d của công trình kiến trúc Khuê Văn Các.",
+      "answers": [
+        {
+          "text": "Khuê Văn Các có tính cân đối, hài hoà trong kiến trúc nhờ có trục đối xứng thẳng đứng.",
+          "fraction": 100
+        },
+        {
+          "text": "Khuê Văn Các chỉ có tính đối xứng khi quan sát từ mặt sau.",
+          "fraction": 0
+        },
+        {
+          "text": "Hình ảnh Khuê Văn Các không thể hiện tính đối xứng trong thực tế.",
+          "fraction": 0
+        },
+        {
+          "text": "Công trình Khuê Văn Các không có sự cân đối hay hài hoà về hình khối.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_02",
+      "imgs": [
+        "_page_1_Picture_18.jpeg"
+      ],
+      "questiontext": "Quan sát kĩ các biển báo giao thông dưới đây [img:_page_1_Picture_18.jpeg]. Bằng năng lực quan sát toán học trong thực tế, em hãy cho biết biển báo nào thể hiện tính đối xứng qua trục nằm ngang?",
+      "generalfeedback": "Biển báo a (biển Cấm đi ngược chiều - hình tròn màu đỏ có vạch trắng nằm ngang ở giữa) có trục đối xứng nằm ngang chia biển báo thành hai phần chồng khít.",
+      "answers": [
+        {
+          "text": "Biển a (hình tròn màu đỏ có vạch trắng ở giữa)",
+          "fraction": 100
+        },
+        {
+          "text": "Biển b (biển cấm người đi bộ)",
+          "fraction": 0
+        },
+        {
+          "text": "Biển c (biển chỉ dẫn hướng đi)",
+          "fraction": 0
+        },
+        {
+          "text": "Biển d (biển báo đường hai chiều)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "NLT_TOAN_C2_05_01",
+      "questiontext": "Hãy ghép tên các phương tiện, công cụ học tập Toán học với công dụng tương ứng của chúng trong bài \"Hình có trục đối xứng\":",
+      "generalfeedback": "Nhận biết đúng tên gọi và công dụng của các phương tiện học toán giúp học sinh chủ động trong việc tìm hiểu bài học.",
+      "subquestions": [
+        {
+          "question": "Tranh ảnh thực tế (Khuê Văn Các, con bướm, mặt hồ...)",
+          "answer": "Cung cấp hình ảnh thực quan sát trực quan về tính đối xứng"
+        },
+        {
+          "question": "Mô hình hình học phẳng (hình tròn, hình tam giác, hình thang...)",
+          "answer": "Dùng để thao tác thực hành gấp hình tìm trục đối xứng"
+        },
+        {
+          "question": "Giấy thủ công và kéo cắt giấy",
+          "answer": "Phương tiện thực hành gấp và cắt tạo hình có trục đối xứng"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "1.1TC1b_K6",
+      "questiontext": "Khi được giao nhiệm vụ tìm kiếm hình ảnh minh hoạ cho bài học \"Hình có trục đối xứng trong thực tế\" trên môi trường số (Internet), quy trình tìm kiếm nào sau đây là chuẩn xác và hiệu quả nhất?",
+      "generalfeedback": "Quy trình tìm kiếm trên môi trường số đúng đắn gồm: Nhập từ khoá tìm kiếm rõ ràng → Lọc hình ảnh phù hợp bài học → Kiểm tra tính đối xứng của hình → Lưu trữ thông tin có chọn lọc.",
+      "answers": [
+        {
+          "text": "Nhập từ khoá \"hình có trục đối xứng trong thực tế\" → Chọn lọc các hình ảnh rõ nét → Kiểm tra tính đối xứng của hình → Lưu hình ảnh phù hợp.",
+          "fraction": 100
+        },
+        {
+          "text": "Nhập từ khoá ngẫu nhiên \"toán học\" → Tải về tất cả các hình ảnh xuất hiện đầu tiên mà không cần kiểm tra.",
+          "fraction": 0
+        },
+        {
+          "text": "Tìm bất kỳ hình ảnh nào trên mạng rồi chỉnh sửa vẽ thêm đường thẳng bất kỳ làm trục đối xứng.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ tải các hình ảnh đồ hoạ 3D phức tạp không liên quan đến nội dung hình phẳng trong SGK.",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

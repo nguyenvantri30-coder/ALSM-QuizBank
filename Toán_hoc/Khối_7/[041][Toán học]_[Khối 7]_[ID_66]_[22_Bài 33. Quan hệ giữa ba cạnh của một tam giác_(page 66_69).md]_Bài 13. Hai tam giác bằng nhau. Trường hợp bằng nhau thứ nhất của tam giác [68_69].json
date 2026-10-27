@@ -1,0 +1,463 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 16,
+    "metadata_used": {
+      "YCCD_TOAN7_088": 3,
+      "Khái niệm hai tam giác bằng nhau": 2,
+      "Ký hiệu bằng nhau và sự tương ứng đỉnh, cạnh, góc": 3,
+      "Nhận biết hai tam giác bằng nhau": 3,
+      "Viết đúng ký hiệu bằng nhau theo thứ tự đỉnh tương ứng": 4,
+      "Suy ra các cạnh, góc tương ứng bằng nhau": 5,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_TUCHUTUHOC": 1,
+      "NLC_GIAOTIEP": 1,
+      "NLT_TOAN_C2_01": 1,
+      "NLT_TOAN_C2_04": 1
+    },
+    "types_used": {
+      "multichoice": 8,
+      "truefalse": 3,
+      "matching": 1,
+      "gapselect": 2,
+      "ddwtos": 2
+    },
+    "total": 16
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_088",
+        "reason": "Bám sát nội dung SGK về khái niệm hai tam giác bằng nhau"
+      },
+      {
+        "metadata_code": "Khái niệm hai tam giác bằng nhau",
+        "reason": "Bám sát nội dung SGK về định nghĩa và tính chất hai tam giác bằng nhau"
+      },
+      {
+        "metadata_code": "Ký hiệu bằng nhau và sự tương ứng đỉnh, cạnh, góc",
+        "reason": "Bám sát nội dung SGK về ký hiệu bằng nhau và sự tương ứng đỉnh, cạnh, góc"
+      },
+      {
+        "metadata_code": "Nhận biết hai tam giác bằng nhau",
+        "reason": "Bám sát kỹ năng nhận biết hai tam giác bằng nhau dựa trên các điều kiện tương ứng"
+      },
+      {
+        "metadata_code": "Viết đúng ký hiệu bằng nhau theo thứ tự đỉnh tương ứng",
+        "reason": "Bám sát kỹ năng viết ký hiệu bằng nhau theo đúng thứ tự đỉnh tương ứng"
+      },
+      {
+        "metadata_code": "Suy ra các cạnh, góc tương ứng bằng nhau",
+        "reason": "Bám sát kỹ năng suy ra các cạnh và góc tương ứng bằng nhau từ ký hiệu bằng nhau"
+      },
+      {
+        "metadata_code": "PC_CHAMCHI",
+        "reason": "Đánh giá ý thức kiên trì, chăm chỉ trong học tập hình học"
+      },
+      {
+        "metadata_code": "PC_TRUNGTHUC",
+        "reason": "Đánh giá tính trung thực, tự giác ghi nhận lỗi sai khi học hình học"
+      },
+      {
+        "metadata_code": "NLC_TUCHUTUHOC",
+        "reason": "Đánh giá năng lực tự chủ, tự học qua việc tóm tắt kiến thức hệ thống"
+      },
+      {
+        "metadata_code": "NLC_GIAOTIEP",
+        "reason": "Đánh giá năng lực giao tiếp và hợp tác trong thảo luận nhóm"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01",
+        "reason": "Đánh giá năng lực tư duy và lập luận toán học qua bài toán suy luận số đo góc"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_04",
+        "reason": "Đánh giá năng lực giao tiếp toán học qua việc sử dụng thuật ngữ chính xác"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N",
+        "reason": "Bài học thuộc Tiết 1 - Khái niệm hai tam giác bằng nhau không chứa nội dung ứng dụng công nghệ thông tin hoặc kỹ năng số một cách tự nhiên."
+      },
+      {
+        "metadata_code": "A",
+        "reason": "Bài học hình học lý thuyết cơ bản không liên quan tự nhiên đến nguyên lý hay ứng dụng của trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_088",
+      "questiontext": "Hai tam giác bằng nhau là hai tam giác có:",
+      "generalfeedback": "Hai tam giác bằng nhau là hai tam giác có các cạnh tương ứng bằng nhau và các góc tương ứng bằng nhau.",
+      "answers": [
+        {
+          "text": "Các cạnh tương ứng bằng nhau và các góc tương ứng bằng nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Các cạnh tương ứng bằng nhau nhưng các góc không bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Các góc tương ứng bằng nhau nhưng các cạnh không bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Chu vi bằng nhau nhưng các cạnh tương ứng không bằng nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm hai tam giác bằng nhau",
+      "questiontext": "Nếu \\(\\Delta ABC = \\Delta MNP\\) thì hai tam giác \\(\\Delta ABC\\) và \\(\\Delta MNP\\) có các cạnh tương ứng bằng nhau và các góc tương ứng bằng nhau.",
+      "generalfeedback": "Theo định nghĩa, hai tam giác bằng nhau thì có tất cả các cạnh tương ứng bằng nhau và các góc tương ứng bằng nhau.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Ký hiệu bằng nhau và sự tương ứng đỉnh, cạnh, góc",
+      "questiontext": "Cho \\(\\Delta ABC = \\Delta DEF\\). Đỉnh tương ứng với đỉnh \\(B\\) là:",
+      "generalfeedback": "Ký hiệu \\(\\Delta ABC = \\Delta DEF\\) quy định sự tương ứng đỉnh: \\(A \\leftrightarrow D\\), \\(B \\leftrightarrow E\\), \\(C \\leftrightarrow F\\). Do đó đỉnh tương ứng với đỉnh \\(B\\) là đỉnh \\(E\\).",
+      "answers": [
+        {
+          "text": "Đỉnh \\(E\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Đỉnh \\(D\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Đỉnh \\(F\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Đỉnh \\(A\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Ký hiệu bằng nhau và sự tương ứng đỉnh, cạnh, góc",
+      "questiontext": "Cho \\(\\Delta ABC = \\Delta MNP\\). Hãy ghép mỗi yếu tố của \\(\\Delta ABC\\) ở cột bên trái với yếu tố tương ứng của \\(\\Delta MNP\\) ở cột bên phải.",
+      "generalfeedback": "Từ ký hiệu \\(\\Delta ABC = \\Delta MNP\\), ta có các cặp đỉnh tương ứng \\(A \\leftrightarrow M\\), \\(B \\leftrightarrow N\\), \\(C \\leftrightarrow P\\). Cạnh tương ứng với \\(AB\\) là \\(MN\\), cạnh tương ứng với \\(BC\\) là \\(NP\\), góc tương ứng với \\(\\widehat{A}\\) là \\(\\widehat{M}\\).",
+      "subquestions": [
+        {
+          "question": "Cạnh tương ứng với cạnh \\(AB\\)",
+          "answer": "Cạnh \\(MN\\)"
+        },
+        {
+          "question": "Cạnh tương ứng với cạnh \\(BC\\)",
+          "answer": "Cạnh \\(NP\\)"
+        },
+        {
+          "question": "Góc tương ứng với góc \\(\\widehat{A}\\)",
+          "answer": "Góc \\(\\widehat{M}\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết hai tam giác bằng nhau",
+      "questiontext": "Cho hai tam giác \\(\\Delta ABC\\) và \\(\\Delta HIK\\) có \\(AB = HI\\), \\(BC = IK\\), \\(AC = HK\\), \\(\\widehat{A} = \\widehat{H}\\), \\(\\widehat{B} = \\widehat{I}\\), \\(\\widehat{C} = \\widehat{K}\\). Khẳng định nào sau đây là đúng?",
+      "generalfeedback": "Vì hai tam giác có các cạnh tương ứng bằng nhau và các góc tương ứng bằng nhau theo thứ tự đỉnh \\(A \\leftrightarrow H\\), \\(B \\leftrightarrow I\\), \\(C \\leftrightarrow K\\) nên \\(\\Delta ABC = \\Delta HIK\\).",
+      "answers": [
+        {
+          "text": "\\(\\Delta ABC = \\Delta HIK\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\Delta ABC = \\Delta IKH\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\Delta ABC = \\Delta KHI\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\Delta BAC = \\Delta HIK\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Viết đúng ký hiệu bằng nhau theo thứ tự đỉnh tương ứng",
+      "questiontext": "Cho tam giác \\(MNP\\) bằng tam giác \\(DEG\\) với các đỉnh tương ứng: \\(M\\) tương ứng với \\(D\\), \\(N\\) tương ứng với \\(E\\), \\(P\\) tương ứng với \\(G\\). Ký hiệu bằng nhau đúng của hai tam giác đó là:",
+      "generalfeedback": "Theo quy tắc viết ký hiệu hai tam giác bằng nhau, thứ tự các đỉnh tương ứng phải trùng nhau: \\(\\Delta MNP = \\Delta DEG\\).",
+      "answers": [
+        {
+          "text": "\\(\\Delta MNP = \\Delta DEG\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\Delta MNP = \\Delta EDG\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\Delta MNP = \\Delta GED\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\Delta NPM = \\Delta DEG\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Viết đúng ký hiệu bằng nhau theo thứ tự đỉnh tương ứng",
+      "questiontext": "Cho hai tam giác bằng nhau \\(\\Delta ABC\\) và \\(\\Delta XYZ\\). Biết đỉnh \\(A\\) tương ứng với đỉnh \\(X\\), đỉnh \\(B\\) tương ứng với đỉnh \\(Y\\). Ký hiệu bằng nhau đúng là \\(\\Delta ABC =\\) [[1]]. Cạnh tương ứng với cạnh \\(AC\\) là [[2]].",
+      "generalfeedback": "Vì \\(A \\leftrightarrow X\\), \\(B \\leftrightarrow Y\\) nên đỉnh còn lại \\(C \\leftrightarrow Z\\). Do đó \\(\\Delta ABC = \\Delta XYZ\\) và cạnh tương ứng với \\(AC\\) là \\(XZ\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(\\Delta XYZ\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(XZ\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\Delta YXZ\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(XY\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Suy ra các cạnh, góc tương ứng bằng nhau",
+      "questiontext": "Cho \\(\\Delta ABC = \\Delta DEF\\). Biết \\(AB = 5\\text{ cm}\\) và \\(\\widehat{B} = 60^\\circ\\). Số đo cạnh \\(DE\\) và góc \\(\\widehat{E}\\) lần lượt là:",
+      "generalfeedback": "Vì \\(\\Delta ABC = \\Delta DEF\\) nên các cạnh tương ứng và góc tương ứng bằng nhau: \\(DE = AB = 5\\text{ cm}\\) và \\(\\widehat{E} = \\widehat{B} = 60^\\circ\\).",
+      "answers": [
+        {
+          "text": "\\(DE = 5\\text{ cm}\\) và \\(\\widehat{E} = 60^\\circ\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(DE = 60\\text{ cm}\\) và \\(\\widehat{E} = 5^\\circ\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(DE = 5\\text{ cm}\\) và \\(\\widehat{E} = 30^\\circ\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(DE = 10\\text{ cm}\\) và \\(\\widehat{E} = 60^\\circ\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Suy ra các cạnh, góc tương ứng bằng nhau",
+      "questiontext": "Cho \\(\\Delta MNP = \\Delta QRS\\). Khẳng định góc \\(\\widehat{P} = \\widehat{S}\\) là đúng hay sai?",
+      "generalfeedback": "Từ ký hiệu \\(\\Delta MNP = \\Delta QRS\\), đỉnh \\(P\\) ở vị trí thứ ba tương ứng với đỉnh \\(S\\) ở vị trí thứ ba. Do đó \\(\\widehat{P} = \\widehat{S}\\) là khẳng định ĐÚNG.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_088",
+      "questiontext": "Cho \\(\\Delta ABC = \\Delta DEF\\). Cặp cạnh tương ứng bằng nhau là \\(AB =\\) [[1]] và cặp góc tương ứng bằng nhau là \\(\\widehat{A} =\\) [[2]].",
+      "generalfeedback": "Theo ký hiệu hai tam giác bằng nhau \\(\\Delta ABC = \\Delta DEF\\), đỉnh \\(A \\leftrightarrow D\\), \\(B \\leftrightarrow E\\), \\(C \\leftrightarrow F\\). Do đó \\(AB = DE\\) và \\(\\widehat{A} = \\widehat{D}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(DE\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\widehat{D}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(EF\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\widehat{E}\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Trong giờ học về hai tam giác bằng nhau, khi gặp một bài toán yêu cầu tìm các cặp góc tương ứng bằng nhau giữa hai tam giác phức tạp, thái độ học tập nào sau đây thể hiện sự chăm chỉ?",
+      "generalfeedback": "Sự chăm chỉ thể hiện qua việc kiên trì, tự giác suy nghĩ và kiểm tra kỹ từng đỉnh, từng góc tương ứng để hoàn thành bài tập.",
+      "answers": [
+        {
+          "text": "Kiên trì đối chiếu từng cặp đỉnh tương ứng để xác định đúng tất cả các cặp góc bằng nhau.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua các câu hỏi khó và chỉ làm các câu hỏi dễ.",
+          "fraction": 0
+        },
+        {
+          "text": "Chờ bạn khác làm xong rồi chép lại đáp án.",
+          "fraction": 0
+        },
+        {
+          "text": "Đoán mò ký hiệu bằng nhau mà không cần đối chiếu các đỉnh.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Khi làm bài kiểm tra về ký hiệu hai tam giác bằng nhau, bạn Nam phát hiện mình đã viết sai thứ tự đỉnh tương ứng làm kết quả khác với đáp án của giáo viên. Nam tự giác sửa lại nhận thức và ghi nhận lỗi sai của mình. Hành vi của Nam thể hiện sự trung thực trong học tập.",
+      "generalfeedback": "Nhận ra lỗi sai trong quá trình làm bài và trung thực đối chiếu để học hỏi kinh nghiệm thể hiện phẩm chất trung thực.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Để tự học và ghi nhớ bền vững kiến thức về 'Hai tam giác bằng nhau', học sinh nên thực hiện quy trình tóm tắt thông tin nào sau đây?",
+      "generalfeedback": "Tự chủ và tự học thể hiện qua việc chủ động hệ thống hóa kiến thức gồm định nghĩa, ký hiệu thứ tự đỉnh và suy ra các cạnh, góc tương ứng.",
+      "answers": [
+        {
+          "text": "Lập sơ đồ tư duy gồm: Định nghĩa hai tam giác bằng nhau -> Quy tắc viết thứ tự đỉnh tương ứng -> Cặp cạnh và cặp góc tương ứng bằng nhau.",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ học thuộc lòng định nghĩa mà không luyện tập viết ký hiệu tương ứng.",
+          "fraction": 0
+        },
+        {
+          "text": "Xem qua hình vẽ trong sách giáo khoa mà không làm bài tập.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ ghi lại các công thức số học mà bỏ qua khái niệm hình học.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_GIAOTIEP",
+      "questiontext": "Khi thảo luận nhóm để xác định ký hiệu hai tam giác bằng nhau từ hình vẽ, bạn An đưa ra ý kiến \\(\\Delta ABC = \\Delta DEF\\), còn bạn Bình cho rằng \\(\\Delta ABC = \\Delta EDF\\). Để hợp tác hiệu quả, hai bạn nên [[1]] các cặp đỉnh tương ứng, sau đó [[2]] để thống nhất kết quả đúng.",
+      "generalfeedback": "Giao tiếp và hợp tác hiệu quả đòi hỏi các thành viên cùng kiểm tra lại dữ kiện (đỉnh tương ứng) và lắng nghe, giải thích để đạt được sự thống nhất.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "kiểm tra lại"
+        },
+        {
+          "group": 1,
+          "text": "thảo luận và giải thích"
+        },
+        {
+          "group": 1,
+          "text": "bỏ qua"
+        },
+        {
+          "group": 1,
+          "text": "tranh cãi gay gắt"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Cho \\(\\Delta ABC = \\Delta MNP\\). Biết \\(\\widehat{A} = 50^\\circ\\) và \\(\\widehat{B} = 70^\\circ\\). Lập luận nào sau đây đúng để tính số đo góc \\(\\widehat{P}\\)?",
+      "generalfeedback": "Tư duy và lập luận toán học: Tính góc \\(\\widehat{C} = 180^\\circ - (50^\\circ + 70^\\circ) = 60^\\circ\\) dựa vào tổng ba góc tam giác, sau đó suy ra góc tương ứng \\(\\widehat{P} = \\widehat{C} = 60^\\circ\\) do \\(\\Delta ABC = \\Delta MNP\\).",
+      "answers": [
+        {
+          "text": "Vì \\(\\Delta ABC = \\Delta MNP\\) nên \\(\\widehat{C} = \\widehat{P}\\); mà \\(\\widehat{C} = 180^\\circ - (50^\\circ + 70^\\circ) = 60^\\circ\\), suy ra \\(\\widehat{P} = 60^\\circ\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Vì \\(\\Delta ABC = \\Delta MNP\\) nên \\(\\widehat{P} = \\widehat{A} = 50^\\circ\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Vì \\(\\Delta ABC = \\Delta MNP\\) nên \\(\\widehat{P} = \\widehat{B} = 70^\\circ\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Vì tổng hai góc là \\(120^\\circ\\) nên \\(\\widehat{P} = 120^\\circ\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04",
+      "questiontext": "Để trình bày lời giải toán học chính xác khi biết \\(\\Delta MNP = \\Delta EHK\\), học sinh diễn đạt: 'Do hai tam giác bằng nhau nên cặp cạnh tương ứng [[1]] bằng cạnh [[2]]'.",
+      "generalfeedback": "Giao tiếp toán học đòi hỏi sử dụng chính xác thuật ngữ 'cạnh tương ứng' và viết đúng tên các đoạn thẳng tương ứng.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(MN\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(EH\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(MP\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(HK\\)"
+        }
+      ]
+    }
+  ]
+}

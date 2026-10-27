@@ -1,0 +1,694 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 26,
+    "metadata_used": {
+      "Công thức tính xác suất của biến cố bằng tỉ số giữa số kết quả thuận lợi và tổng số kết quả có thể": 5,
+      "YCCD_TOAN8_114": 5,
+      "Tính xác suất của biến cố trong các trò chơi đơn giản (tung đồng xu, gieo xúc xắc, rút thẻ)": 6,
+      "Vận dụng tính xác suất trong bài toán thực tế": 4,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TUHOC_C2_04": 2,
+      "NLT_TOAN_C2_01_01": 1,
+      "NLT_TOAN_C2_03_05": 1
+    },
+    "types_used": {
+      "multichoice": 12,
+      "gapselect": 2,
+      "truefalse": 3,
+      "numerical": 3,
+      "matching": 3,
+      "calculated": 2,
+      "ddwtos": 1
+    },
+    "total": 26
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "Công thức tính xác suất của biến cố bằng tỉ số giữa số kết quả thuận lợi và tổng số kết quả có thể",
+        "reason": "Đo lường kiến thức về công thức tính xác suất của biến cố bằng tỉ số."
+      },
+      {
+        "metadata_code": "YCCD_TOAN8_114",
+        "reason": "Đo lường việc sử dụng tỉ số để mô tả xác suất của biến cố ngẫu nhiên."
+      },
+      {
+        "metadata_code": "Tính xác suất của biến cố trong các trò chơi đơn giản (tung đồng xu, gieo xúc xắc, rút thẻ)",
+        "reason": "Đo lường kĩ năng tính xác suất của biến cố trong các trò chơi đơn giản."
+      },
+      {
+        "metadata_code": "Vận dụng tính xác suất trong bài toán thực tế",
+        "reason": "Đo lường kĩ năng vận dụng tính xác suất trong bài toán thực tế."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đo lường thái độ/hành vi cố gắng vươn lên đạt kết quả tốt trong học tập."
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+        "reason": "Đo lường khả năng lưu giữ thông tin có chọn lọc, tóm tắt bài học."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_01",
+        "reason": "Đo lường khả năng thực hiện các thao tác tư duy toán học (phân tích, so sánh)."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_05",
+        "reason": "Đo lường kĩ năng sử dụng công cụ toán học tương thích để giải quyết vấn đề."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N",
+        "reason": "Bài học thuộc Toán 8 thuần túy, không tích hợp trực tiếp kĩ năng công nghệ thông tin."
+      },
+      {
+        "metadata_code": "A",
+        "reason": "Bài học không trực tiếp liên quan đến nguyên lý hay ứng dụng của Trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức tính xác suất của biến cố bằng tỉ số giữa số kết quả thuận lợi và tổng số kết quả có thể",
+      "questiontext": "Giả thiết các kết quả có thể của một hành động hay thực nghiệm là đồng khả năng. Khi đó, công thức tính xác suất của biến cố \\(E\\), kí hiệu là \\(P(E)\\), được phát biểu như thế nào?",
+      "generalfeedback": "Xác suất của biến cố \\(E\\) bằng tỉ số giữa số kết quả thuận lợi cho biến cố \\(E\\) và tổng số kết quả có thể: \\(P(E) = \\frac{\\text{Số kết quả thuận lợi cho } E}{\\text{Tổng số kết quả có thể}}\\).",
+      "answers": [
+        {
+          "text": "Tỉ số giữa số kết quả thuận lợi cho biến cố \\(E\\) và tổng số kết quả có thể",
+          "fraction": 100
+        },
+        {
+          "text": "Tỉ số giữa tổng số kết quả có thể và số kết quả thuận lợi cho biến cố \\(E\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Tích giữa số kết quả thuận lợi cho biến cố \\(E\\) và tổng số kết quả có thể",
+          "fraction": 0
+        },
+        {
+          "text": "Hiệu giữa tổng số kết quả có thể và số kết quả thuận lợi cho biến cố \\(E\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức tính xác suất của biến cố bằng tỉ số giữa số kết quả thuận lợi và tổng số kết quả có thể",
+      "questiontext": "Trong việc tính xác suất của biến cố \\(E\\) khi các kết quả có thể là đồng khả năng:\n- Bước 1: Đếm các kết quả [[1]] (thường bằng cách liệt kê).\n- Bước 2: Chỉ ra các kết quả có thể là [[2]].\n- Bước 3: Đếm các kết quả [[3]] cho biến cố \\(E\\).\n- Bước 4: Lập [[4]] giữa số kết quả thuận lợi cho biến cố \\(E\\) và tổng số kết quả có thể.",
+      "generalfeedback": "Thứ tự 4 bước tính xác suất của biến cố: 1. Đếm các kết quả có thể; 2. Chỉ ra các kết quả có thể là đồng khả năng; 3. Đếm các kết quả thuận lợi cho biến cố E; 4. Lập tỉ số.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "có thể"
+        },
+        {
+          "group": 1,
+          "text": "đồng khả năng"
+        },
+        {
+          "group": 1,
+          "text": "thuận lợi"
+        },
+        {
+          "group": 1,
+          "text": "tỉ số"
+        },
+        {
+          "group": 1,
+          "text": "không đồng khả năng"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_114",
+      "imgs": [
+        "_page_1_Figure_9.jpeg"
+      ],
+      "questiontext": "Cho một tấm bìa cứng hình tròn được chia thành 12 hình quạt như nhau và đánh số từ 1 đến 12 [img:_page_1_Figure_9.jpeg]. Quay tấm bìa và quan sát khi nó dừng lại. Phát biểu sau đây Đúng hay Sai?\n\"Xác suất của biến cố B: 'Mũi tên chỉ vào hình quạt ghi số chính phương' bằng \\(\\frac{1}{4}\\).\"",
+      "generalfeedback": "Đúng. Các kết quả thuận lợi cho biến cố B (số chính phương) là 1; 4; 9 (gồm 3 kết quả). Tổng số kết quả có thể là 12. Xác suất \\(P(B) = \\frac{3}{12} = \\frac{1}{4}\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tính xác suất của biến cố trong các trò chơi đơn giản (tung đồng xu, gieo xúc xắc, rút thẻ)",
+      "imgs": [
+        "_page_0_Picture_7.jpeg"
+      ],
+      "questiontext": "Một túi đựng 20 viên kẹo giống hệt nhau nhưng khác loại, gồm 7 viên kẹo sữa, 4 viên kẹo chanh, 6 viên kẹo dừa và 3 viên kẹo bạc hà [img:_page_0_Picture_7.jpeg]. Lan lấy ngẫu nhiên một viên kẹo từ túi. Xác suất để Lan lấy được viên kẹo sữa là bao nhiêu?",
+      "generalfeedback": "Tổng số kết quả có thể là 20. Số kết quả thuận lợi cho biến cố lấy được viên kẹo sữa là 7. Do đó xác suất là \\(\\frac{7}{20}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{7}{20}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{1}{5}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{3}{10}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{3}{20}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính xác suất của biến cố trong các trò chơi đơn giản (tung đồng xu, gieo xúc xắc, rút thẻ)",
+      "questiontext": "Trong một chiếc hộp có 15 tấm thẻ giống nhau được đánh số từ 10 đến 24. Rút ngẫu nhiên một tấm thẻ từ trong hộp. Tính xác suất của biến cố A: \"Rút được tấm thẻ ghi số lẻ\".\n(Chỉ điền số thập phân, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị, làm tròn đến 2 chữ số thập phân nếu cần)",
+      "generalfeedback": "Các số lẻ từ 10 đến 24 là: 11, 13, 15, 17, 19, 21, 23 (có 7 số). Tổng số tấm thẻ là 15. Xác suất \\(P(A) = \\frac{7}{15} \\approx 0.47\\).",
+      "answers": [
+        {
+          "text": "0.47",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tính xác suất của biến cố trong các trò chơi đơn giản (tung đồng xu, gieo xúc xắc, rút thẻ)",
+      "imgs": [
+        "_page_3_Picture_18.jpeg"
+      ],
+      "questiontext": "Một bánh xe hình tròn chia thành 12 hình quạt như nhau, gồm 2 hình quạt 100 điểm, 2 hình quạt 200 điểm, 2 hình quạt 300 điểm, 2 hình quạt 400 điểm, 1 hình quạt 500 điểm, 2 hình quạt 1000 điểm và 1 hình quạt 2000 điểm [img:_page_3_Picture_18.jpeg]. Tính xác suất của biến cố A: \"Trong một lượt quay, Lan được 400 điểm\".",
+      "generalfeedback": "Có 2 hình quạt ghi 400 điểm trên tổng số 12 hình quạt. Xác suất là \\(\\frac{2}{12} = \\frac{1}{6}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{1}{6}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{1}{12}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{1}{3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{1}{2}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "Tính xác suất của biến cố trong các trò chơi đơn giản (tung đồng xu, gieo xúc xắc, rút thẻ)",
+      "questiontext": "Một túi đựng 15 viên kẹo giống hệt nhau chỉ khác màu, gồm 5 viên màu đen, 3 viên màu đỏ và 7 viên màu trắng. Lấy ngẫu nhiên một viên kẹo. Hãy ghép mỗi biến cố ở cột trái với xác suất tương ứng ở cột phải.",
+      "generalfeedback": "- Biến cố 'Lấy được viên kẹo màu đen': \\(\\frac{5}{15} = \\frac{1}{3}\\).\n- Biến cố 'Lấy được viên kẹo màu đen hoặc màu đỏ': \\(\\frac{5+3}{15} = \\frac{8}{15}\\).\n- Biến cố 'Lấy được viên kẹo màu trắng': \\(\\frac{7}{15}\\).\n- Biến cố 'Không lấy được viên kẹo màu đỏ': \\(\\frac{15-3}{15} = \\frac{12}{15} = \\frac{4}{5}\\).",
+      "subquestions": [
+        {
+          "question": "Lấy được viên kẹo màu đen",
+          "answer": "1/3"
+        },
+        {
+          "question": "Lấy được viên kẹo màu đen hoặc màu đỏ",
+          "answer": "8/15"
+        },
+        {
+          "question": "Lấy được viên kẹo màu trắng",
+          "answer": "7/15"
+        },
+        {
+          "question": "Không lấy được viên kẹo màu đỏ",
+          "answer": "4/5"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng tính xác suất trong bài toán thực tế",
+      "questiontext": "Một hộp đựng 18 viên bi cùng khối lượng và kích thước với hai màu đỏ và vàng, trong đó số viên bi màu vàng gấp đôi số viên bi màu đỏ. Bình lấy ngẫu nhiên một viên bi từ trong hộp. Tính xác suất để Bình lấy được viên bi màu vàng.",
+      "generalfeedback": "Gọi \\(x\\) là số viên bi đỏ thì số viên bi vàng là \\(2x\\). Ta có \\(x + 2x = 18 \\Rightarrow 3x = 18 \\Rightarrow x = 6\\). Số viên bi màu vàng là 12. Xác suất lấy được viên bi vàng là \\(\\frac{12}{18} = \\frac{2}{3}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{2}{3}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{1}{3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{1}{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{3}{4}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng tính xác suất trong bài toán thực tế",
+      "questiontext": "Trên giá sách của thư viện có 15 cuốn sách, trong đó có một số cuốn tiểu thuyết. Người thủ thư đặt thêm 5 cuốn tiểu thuyết mới mua vào giá sách. Bạn Nam chọn ngẫu nhiên một cuốn sách trên giá. Biết rằng xác suất chọn được cuốn tiểu thuyết là \\(\\frac{3}{4}\\). Hỏi lúc đầu trên giá sách có bao nhiêu cuốn tiểu thuyết?\n(Chỉ điền giá trị số nguyên, không ghi đơn vị)",
+      "generalfeedback": "Sau khi thêm 5 cuốn, tổng số sách trên giá là 15 + 5 = 20 cuốn. Gọi x là số cuốn tiểu thuyết ban đầu. Tổng số tiểu thuyết lúc sau là x + 5. Xác suất chọn được tiểu thuyết là \\(\\frac{x+5}{20} = \\frac{3}{4} \\Rightarrow x + 5 = 15 \\Rightarrow x = 10\\). Lúc đầu có 10 cuốn tiểu thuyết.",
+      "answers": [
+        {
+          "text": "10",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Tính xác suất của biến cố trong các trò chơi đơn giản (tung đồng xu, gieo xúc xắc, rút thẻ)",
+      "questiontext": "Một túi đựng {a} viên kẹo màu đỏ và {b} viên kẹo màu xanh có kích thước và khối lượng như nhau. Lấy ngẫu nhiên một viên kẹo từ túi. Tính xác suất lấy được viên kẹo màu đỏ theo các biến {a} và {b}.",
+      "generalfeedback": "Tổng số viên kẹo trong túi là {a} + {b}. Số viên kẹo màu đỏ là {a}. Do đó xác suất lấy được viên kẹo màu đỏ là \\(\\frac{{a}}{{a}+{b}}\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 2.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}/({a}+{b})",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức tính xác suất của biến cố bằng tỉ số giữa số kết quả thuận lợi và tổng số kết quả có thể",
+      "questiontext": "Trong công thức tính xác suất của biến cố \\(E\\) khi các kết quả có thể là đồng khả năng: \\(P(E) = \\frac{m}{n}\\), trong đó \\(m\\) và \\(n\\) lần lượt đại diện cho những đại lượng nào?",
+      "generalfeedback": "\\(m\\) là số kết quả thuận lợi cho biến cố \\(E\\), \\(n\\) là tổng số kết quả có thể.",
+      "answers": [
+        {
+          "text": "\\(m\\) là số kết quả thuận lợi cho \\(E\\), \\(n\\) là tổng số kết quả có thể",
+          "fraction": 100
+        },
+        {
+          "text": "\\(m\\) là tổng số kết quả có thể, \\(n\\) là số kết quả thuận lợi cho \\(E\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(m\\) là số kết quả không thuận lợi cho \\(E\\), \\(n\\) là tổng số kết quả có thể",
+          "fraction": 0
+        },
+        {
+          "text": "\\(m\\) là số kết quả thuận lợi cho \\(E\\), \\(n\\) là số kết quả không thuận lợi cho \\(E\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tính xác suất của biến cố trong các trò chơi đơn giản (tung đồng xu, gieo xúc xắc, rút thẻ)",
+      "imgs": [
+        "_page_3_Picture_2.jpeg"
+      ],
+      "questiontext": "Một tấm bìa cứng hình tròn được chia thành 20 hình quạt như nhau, đánh số từ 1 đến 20 và gắn vào trục quay [img:_page_3_Picture_2.jpeg]. Quay tấm bìa và quan sát khi nó dừng lại. Xác suất để mũi tên chỉ vào hình quạt ghi số chia hết cho 4 là bao nhiêu?",
+      "generalfeedback": "Các số chia hết cho 4 từ 1 đến 20 là: 4, 8, 12, 16, 20 (gồm 5 số). Tổng số kết quả có thể là 20. Xác suất \\(P = \\frac{5}{20} = \\frac{1}{4}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{1}{4}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{1}{5}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{3}{20}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{1}{2}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Tính xác suất của biến cố trong các trò chơi đơn giản (tung đồng xu, gieo xúc xắc, rút thẻ)",
+      "imgs": [
+        "_page_3_Picture_2.jpeg"
+      ],
+      "questiontext": "Quay tấm bìa cứng hình tròn được chia thành 20 hình quạt như nhau đánh số từ 1 đến 20 [img:_page_3_Picture_2.jpeg]. Tính xác suất để mũi tên chỉ vào hình quạt ghi số không phải là số nguyên tố.",
+      "generalfeedback": "Các số nguyên tố từ 1 đến 20 là: 2, 3, 5, 7, 11, 13, 17, 19 (gồm 8 số). Số các số không phải là số nguyên tố từ 1 đến 20 là 20 - 8 = 12 (gồm các số: 1, 4, 6, 8, 9, 10, 12, 14, 15, 16, 18, 20). Xác suất là \\(\\frac{12}{20} = \\frac{3}{5}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{3}{5}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{2}{5}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{7}{20}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{13}{20}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_114",
+      "questiontext": "Một túi đựng 17 viên bi cùng khối lượng và kích thước, chỉ khác màu, gồm 8 viên màu đỏ, 5 viên màu xanh và 4 viên màu vàng. Lấy ngẫu nhiên một viên bi từ trong túi. Phát biểu: \"Vì các viên bi có cùng kích thước và khối lượng nên 17 kết quả lấy bi là đồng khả năng, xác suất lấy được viên bi màu đỏ là \\(\\frac{8}{17}\\)\" là Đúng hay Sai?",
+      "generalfeedback": "Đúng. Do 17 viên bi cùng khối lượng và kích thước nên việc chọn ngẫu nhiên cho 17 kết quả đồng khả năng. Số kết quả thuận lợi cho viên bi đỏ là 8, nên xác suất là \\(\\frac{8}{17}\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Tính xác suất của biến cố trong các trò chơi đơn giản (tung đồng xu, gieo xúc xắc, rút thẻ)",
+      "questiontext": "Một chiếc hộp chứa 15 tấm thẻ giống nhau được đánh số từ 10 đến 24. Rút ngẫu nhiên một tấm thẻ từ hộp. Tính xác suất của biến cố B: \"Rút được tấm thẻ ghi số nguyên tố\".\n(Chỉ điền số thập phân, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị, làm tròn đến 2 chữ số thập phân nếu cần)",
+      "generalfeedback": "Các số nguyên tố từ 10 đến 24 là: 11, 13, 17, 19, 23 (gồm 5 số). Tổng số thẻ là 15. Xác suất \\(P(B) = \\frac{5}{15} = \\frac{1}{3} \\approx 0.33\\).",
+      "answers": [
+        {
+          "text": "0.33",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức tính xác suất của biến cố bằng tỉ số giữa số kết quả thuận lợi và tổng số kết quả có thể",
+      "questiontext": "Để tính xác suất của biến cố \\(E\\) trong trò chơi đồng khả năng, ta thực hiện:\n- Xác định số kết quả [[1]] cho biến cố \\(E\\).\n- Chia cho tổng số kết quả [[2]].\n- Tỉ số thu được chính là [[3]] của biến cố \\(E\\).",
+      "generalfeedback": "Quy tắc tính xác suất: Lấy số kết quả thuận lợi chia cho tổng số kết quả có thể để thu được xác suất của biến cố.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "thuận lợi"
+        },
+        {
+          "group": 1,
+          "text": "có thể"
+        },
+        {
+          "group": 1,
+          "text": "xác suất"
+        },
+        {
+          "group": 1,
+          "text": "không thuận lợi"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Tính xác suất của biến cố trong các trò chơi đơn giản (tung đồng xu, gieo xúc xắc, rút thẻ)",
+      "imgs": [
+        "_page_3_Picture_18.jpeg"
+      ],
+      "questiontext": "Ở trò chơi vòng quay may mắn [img:_page_3_Picture_18.jpeg] (bánh xe chia thành 12 hình quạt như nhau gồm: 2 hình 100 điểm, 2 hình 200 điểm, 2 hình 300 điểm, 2 hình 400 điểm, 1 hình 500 điểm, 2 hình 1000 điểm, 1 hình 2000 điểm). Tính xác suất của biến cố B: \"Trong một lượt quay, Lan được ít nhất 500 điểm\".",
+      "generalfeedback": "Các hình quạt ghi số điểm ít nhất 500 điểm là: 1 hình 500 điểm, 2 hình 1000 điểm, 1 hình 2000 điểm. Tổng số kết quả thuận lợi là 1 + 2 + 1 = 4. Tổng số kết quả có thể là 12. Xác suất \\(P(B) = \\frac{4}{12} = \\frac{1}{3}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{1}{3}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{1}{4}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{1}{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{1}{6}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Tính xác suất của biến cố trong các trò chơi đơn giản (tung đồng xu, gieo xúc xắc, rút thẻ)",
+      "questiontext": "Một hộp đựng {a} viên bi màu xanh và {b} viên bi màu vàng có cùng kích thước và khối lượng. Lấy ngẫu nhiên 1 viên bi. Tính xác suất lấy được viên bi màu vàng theo các biến {a} và {b}.",
+      "generalfeedback": "Tổng số viên bi trong hộp là {a} + {b}. Số viên bi màu vàng là {b}. Do đó xác suất lấy được viên bi màu vàng là \\(\\frac{{b}}{{a}+{b}}\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{b}/({a}+{b})",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Tính xác suất của biến cố trong các trò chơi đơn giản (tung đồng xu, gieo xúc xắc, rút thẻ)",
+      "questiontext": "Gieo một con xúc xắc cân đối 6 mặt. Hãy ghép mỗi biến cố ở cột trái với xác suất tương ứng ở cột phải.",
+      "generalfeedback": "- Mặt 6 chấm: 1/6.\n- Mặt chẵn (2, 4, 6): 3/6 = 1/2.\n- Mặt có số chấm nhỏ hơn 7: 6/6 = 1.\n- Mặt có số chấm lớn hơn 6: 0/6 = 0.",
+      "subquestions": [
+        {
+          "question": "Xuất hiện mặt 6 chấm",
+          "answer": "1/6"
+        },
+        {
+          "question": "Xuất hiện mặt có số chấm là số chẵn",
+          "answer": "1/2"
+        },
+        {
+          "question": "Xuất hiện mặt có số chấm nhỏ hơn 7",
+          "answer": "1"
+        },
+        {
+          "question": "Xuất hiện mặt có số chấm lớn hơn 6",
+          "answer": "0"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng tính xác suất trong bài toán thực tế",
+      "questiontext": "Một túi đựng 20 viên kẹo gồm kẹo chanh, kẹo dừa và kẹo bạc hà giống hệt nhau. Biết rằng lấy ngẫu nhiên 1 viên kẹo thì xác suất lấy được kẹo chanh là \\(\\frac{1}{4}\\), xác suất lấy được kẹo dừa là \\(\\frac{1}{2}\\). Hỏi trong túi có bao nhiêu viên kẹo bạc hà?",
+      "generalfeedback": "Số kẹo chanh là \\(20 \\times \\frac{1}{4} = 5\\) viên. Số kẹo dừa là \\(20 \\times \\frac{1}{2} = 10\\) viên. Số kẹo bạc hà là \\(20 - 5 - 10 = 5\\) viên.",
+      "answers": [
+        {
+          "text": "5",
+          "fraction": 100
+        },
+        {
+          "text": "10",
+          "fraction": 0
+        },
+        {
+          "text": "4",
+          "fraction": 0
+        },
+        {
+          "text": "6",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ học Toán bài 'Cách tính xác suất của biến cố bằng tỉ số', khi gặp bài toán tính xác suất lấy ngẫu nhiên kẹo trong túi có nhiều loại kẹo mà chưa hiểu rõ cách làm, học sinh nên thực hiện hành động nào dưới đây để thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập?",
+      "generalfeedback": "Để thể hiện thái độ tích cực và nỗ lực vươn lên trong học tập (Q1), học sinh cần chủ động ôn lại công thức P(E) = (Số kết quả thuận lợi)/(Tổng số kết quả có thể), phân tích kỹ bài toán và trao đổi với giáo viên hoặc bạn bè để hiểu rõ bản chất.",
+      "answers": [
+        {
+          "text": "Chủ động ôn lại công thức tính xác suất \\(P(E) = \\frac{\\text{Số kết quả thuận lợi}}{\\text{Tổng số kết quả có thể}}\\), phân tích lại các kết quả đồng khả năng và nhờ thầy cô hoặc bạn bè hướng dẫn phần chưa hiểu",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua câu hỏi đó và chỉ chọn làm những bài toán dễ hơn để tránh mất thời gian",
+          "fraction": 0
+        },
+        {
+          "text": "Chép lại toàn bộ lời giải của bạn bên cạnh mà không cần tìm hiểu cách đếm các kết quả thuận lợi",
+          "fraction": 0
+        },
+        {
+          "text": "Đợi đến khi thầy cô trả bài kiểm tra mới xem đáp án chứ không chủ động tìm hiểu trước",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Một học sinh sau khi làm xong bài tập tính xác suất gieo xúc xắc đã chủ động kiểm tra lại từng bước đếm số kết quả thuận lợi và tính lại tỉ số xác suất để đảm bảo không sai sót. Hành động này phản ánh ý thức luôn cố gắng vươn lên đạt kết quả tốt trong học tập. Phát biểu trên Đúng hay Sai?",
+      "generalfeedback": "Đúng. Việc tự giác kiểm tra lại các bước đếm kết quả thuận lợi và lập tỉ số xác suất thể hiện tinh thần trách nhiệm, cẩn thận và nỗ lực vươn lên đạt kết quả học tập tốt nhất.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Để lưu giữ thông tin cốt lõi bài 'Cách tính xác suất của biến cố bằng tỉ số' vào sơ đồ tóm tắt kiến thức, em hãy chọn các từ khóa thích hợp điền vào chỗ trống:\n- Xác suất biến cố \\(E\\) được tính bằng tỉ số giữa số kết quả [[1]] và tổng số kết quả [[2]].\n- Bước 1 trong quy trình tính xác suất là [[3]] các kết quả có thể.\n- Bước 2 là chỉ ra các kết quả có thể là [[4]].",
+      "generalfeedback": "Từ khóa cốt lõi cần ghi nhớ để tóm tắt bài học: tỉ số giữa số kết quả thuận lợi và tổng số kết quả có thể; bước 1 là đếm các kết quả có thể; bước 2 là chỉ ra các kết quả có thể là đồng khả năng.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "thuận lợi"
+        },
+        {
+          "group": 1,
+          "text": "có thể"
+        },
+        {
+          "group": 1,
+          "text": "đếm"
+        },
+        {
+          "group": 1,
+          "text": "đồng khả năng"
+        },
+        {
+          "group": 1,
+          "text": "không đồng khả năng"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Khi tóm tắt nội dung bài học bằng bảng tổng hợp thông tin có chọn lọc, hãy ghép mỗi khái niệm/bước tính ở cột trái với từ khóa tóm tắt tương ứng ở cột phải.",
+      "generalfeedback": "- Công thức tính xác suất P(E): Tỉ số thuận lợi / Tổng có thể.\n- Bước 1 & Bước 3: Đếm số kết quả.\n- Bước 2: Khẳng định đồng khả năng.",
+      "subquestions": [
+        {
+          "question": "Công thức tính xác suất P(E)",
+          "answer": "Tỉ số giữa số kết quả thuận lợi và tổng số kết quả có thể"
+        },
+        {
+          "question": "Thao tác ở Bước 1 và Bước 3",
+          "answer": "Đếm số kết quả"
+        },
+        {
+          "question": "Yêu cầu cốt lõi ở Bước 2",
+          "answer": "Khẳng định các kết quả có thể là đồng khả năng"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Phân tích trò chơi quay bánh xe hình tròn chia thành 12 hình quạt như nhau đánh số từ 1 đến 12. Bạn Nam so sánh: 'Xác suất quay vào ô số nguyên tố lớn hơn xác suất quay vào ô số chia hết cho 3'. Thao tác phân tích và so sánh nào dưới đây giải thích đúng kết luận của Nam?",
+      "generalfeedback": "Các số nguyên tố từ 1 đến 12 là 2, 3, 5, 7, 11 (5 kết quả) nên P = 5/12. Các số chia hết cho 3 từ 1 đến 12 là 3, 6, 9, 12 (4 kết quả) nên P = 4/12. Vì 5/12 > 4/12 nên kết luận của Nam là đúng.",
+      "answers": [
+        {
+          "text": "Số kết quả thuận lợi cho số nguyên tố là 5 (2, 3, 5, 7, 11) nên xác suất là \\(\\frac{5}{12}\\); số kết quả thuận lợi cho số chia hết cho 3 là 4 (3, 6, 9, 12) nên xác suất là \\(\\frac{4}{12}\\); do \\(\\frac{5}{12} > \\frac{4}{12}\\) nên kết luận đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Số kết quả thuận lợi cho số nguyên tố là 6; số chia hết cho 3 là 3; do \\(\\frac{6}{12} > \\frac{3}{12}\\) nên kết luận đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Số nguyên tố gồm 4 số và số chia hết cho 3 gồm 5 số nên xác suất xuất hiện số nguyên tố phải nhỏ hơn",
+          "fraction": 0
+        },
+        {
+          "text": "Cả hai biến cố đều có 6 kết quả thuận lợi nên xác suất bằng nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Trên giá sách thư viện có 15 cuốn sách. Thủ thư xếp thêm 5 cuốn tiểu thuyết mới vào giá sách. Bạn Nam chọn ngẫu nhiên 1 cuốn sách trên giá. Biết xác suất chọn được cuốn tiểu thuyết là \\(\\frac{3}{4}\\). Để tìm số cuốn tiểu thuyết ban đầu trên giá sách, kĩ năng toán học phù hợp cần sử dụng là gì?",
+      "generalfeedback": "Kĩ năng toán học cần dùng: Tổng số sách lúc sau là 15 + 5 = 20. Gọi x là số tiểu thuyết ban đầu. Lập phương trình tỉ số xác suất: (x + 5)/20 = 3/4 => x + 5 = 15 => x = 10.",
+      "answers": [
+        {
+          "text": "Lập phương trình tỉ số \\(\\frac{x+5}{20} = \\frac{3}{4}\\) với \\(x\\) là số cuốn tiểu thuyết ban đầu, giải ra \\(x = 10\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Lấy tổng số sách 15 cộng thêm 5 rồi trừ đi 3/4",
+          "fraction": 0
+        },
+        {
+          "text": "Nhân 15 với 3/4 rồi cộng thêm 5",
+          "fraction": 0
+        },
+        {
+          "text": "Lấy 20 chia cho 3/4 rồi trừ đi 15",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

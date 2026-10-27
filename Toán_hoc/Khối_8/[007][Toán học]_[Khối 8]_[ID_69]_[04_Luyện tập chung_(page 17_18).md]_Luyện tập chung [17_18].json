@@ -1,0 +1,661 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 27,
+    "metadata_used": {
+      "YCCD_TOAN8_009": 5,
+      "Biểu thức đại số biểu thị đại lượng thực tế": 5,
+      "Tính giá trị biểu thức đa thức phức hợp": 5,
+      "Vận dụng cộng trừ đa thức giải bài toán thực tế": 5,
+      "SUB_CHAMCHI_HAMHOC_C2_03": 2,
+      "SUB_GQVD_DEXUAT_C2_02": 1,
+      "NLT_TOAN_C2_02_01": 1,
+      "NLT_TOAN_C2_02_08": 1,
+      "8.A1.2_2": 1,
+      "8.A3.3_3": 1
+    },
+    "types_used": {
+      "multichoice": 16,
+      "truefalse": 5,
+      "gapselect": 1,
+      "matching": 1,
+      "numerical": 2,
+      "calculated": 1,
+      "calculatedsimple": 1
+    },
+    "total": 27
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN8_009",
+        "reason": "Đo lường khả năng thực hiện phép trừ đa thức nhiều biến trong các bài tập đại số."
+      },
+      {
+        "metadata_code": "Biểu thức đại số biểu thị đại lượng thực tế",
+        "reason": "Đo lường khả năng lập biểu thức đại số biểu thị các đại lượng thực tế (thể tích bể bơi, diện tích mảnh bìa)."
+      },
+      {
+        "metadata_code": "Tính giá trị biểu thức đa thức phức hợp",
+        "reason": "Đo lường kỹ năng tính giá trị của biểu thức đa thức phức hợp tại các giá trị biến cho trước."
+      },
+      {
+        "metadata_code": "Vận dụng cộng trừ đa thức giải bài toán thực tế",
+        "reason": "Đo lường kỹ năng vận dụng phép cộng, trừ đa thức để giải quyết bài toán thực tế và bài toán tổng hợp."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "1.1TC2a_K8",
+        "reason": "Nội dung bài học thuộc phạm vi Luyện tập chung về đơn thức và đa thức (đại số và ứng dụng hình học thực tiễn), không chứa dữ liệu, bài tập hay bối cảnh yêu cầu tìm kiếm, khai thác thông tin trong môi trường số."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_009",
+      "questiontext": "Cho hai đa thức \\(A = 5x^2 - 2x^3y + 7x^3y^2 - 118\\) và \\(B = -7x^3y^2 + x^3y - 5xy^2 - 4x^2 + y\\). Kết quả của phép trừ \\(A - B\\) là:",
+      "generalfeedback": "Ta thực hiện bỏ dấu ngoặc và thu gọn các hạng tử đồng dạng:\n\\(A - B = (5x^2 - 2x^3y + 7x^3y^2 - 118) - (-7x^3y^2 + x^3y - 5xy^2 - 4x^2 + y)\\)\n\\(= 5x^2 - 2x^3y + 7x^3y^2 - 118 + 7x^3y^2 - x^3y + 5xy^2 + 4x^2 - y\\)\n\\(= 9x^2 - 3x^3y + 14x^3y^2 + 5xy^2 - y - 118\\).",
+      "answers": [
+        {
+          "text": "\\(9x^2 - 3x^3y + 14x^3y^2 + 5xy^2 - y - 118\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x^2 - x^3y - 5xy^2 + y - 118\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(9x^2 - x^3y + 14x^3y^2 + 5xy^2 + y - 118\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x^2 - 3x^3y + 14x^3y^2 - 5xy^2 - y - 118\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_009",
+      "questiontext": "Cho hai đa thức \\(A = 7xyz^2 - 5xy^2z + 3x^2yz - xyz + 1\\) và \\(B = 7x^2yz - 5xy^2z + 3xyz^2 - 2\\). Đa thức \\(C\\) thu gọn thỏa mãn \\(A - C = B\\) là:",
+      "generalfeedback": "Từ \\(A - C = B\\), suy ra \\(C = A - B\\).\n\\(C = (7xyz^2 - 5xy^2z + 3x^2yz - xyz + 1) - (7x^2yz - 5xy^2z + 3xyz^2 - 2)\\)\n\\(= (7xyz^2 - 3xyz^2) + (-5xy^2z + 5xy^2z) + (3x^2yz - 7x^2yz) - xyz + (1 + 2)\\)\n\\(= 4xyz^2 - 4x^2yz - xyz + 3\\).",
+      "answers": [
+        {
+          "text": "\\(4xyz^2 - 4x^2yz - xyz + 3\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(10xyz^2 - 10xy^2z + 10x^2yz - xyz - 1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-4xyz^2 + 4x^2yz + xyz - 3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(4xyz^2 + 4x^2yz - xyz - 1\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_009",
+      "questiontext": "Cho hai đa thức \\(A = 7xyz^2 - 5xy^2z + 3x^2yz - xyz + 1\\) và \\(B = 7x^2yz - 5xy^2z + 3xyz^2 - 2\\). Đa thức \\(D\\) thỏa mãn \\(A + D = B\\) là \\(D = -4xyz^2 + 4x^2yz + xyz - 3\\). Khẳng định trên đúng hay sai?",
+      "generalfeedback": "Từ \\(A + D = B\\) suy ra \\(D = B - A = -(A - B)\\).\nVì \\(A - B = 4xyz^2 - 4x^2yz - xyz + 3\\) nên \\(D = -(4xyz^2 - 4x^2yz - xyz + 3) = -4xyz^2 + 4x^2yz + xyz - 3\\). Khẳng định đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_009",
+      "questiontext": "Cho ba đa thức \\(M = 3x^3 - 4x^2y + 3x - y\\), \\(N = 5xy - 3x + 2\\) và \\(P = 3x^3 + 2x^2y + 7x - 1\\). Kết quả của biểu thức \\(M - N - P\\) sau khi thu gọn là:",
+      "generalfeedback": "\\(M - N - P = (3x^3 - 4x^2y + 3x - y) - (5xy - 3x + 2) - (3x^3 + 2x^2y + 7x - 1)\\)\n\\(= 3x^3 - 4x^2y + 3x - y - 5xy + 3x - 2 - 3x^3 - 2x^2y - 7x + 1\\)\n\\(= (3x^3 - 3x^3) + (-4x^2y - 2x^2y) - 5xy + (3x + 3x - 7x) - y + (-2 + 1)\\)\n\\(= -6x^2y - 5xy - x - y - 1\\).",
+      "answers": [
+        {
+          "text": "\\(-6x^2y - 5xy - x - y - 1\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(-6x^2y + 5xy - 7x - y + 3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-6x^2y - 5xy + x - y - 1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(6x^2y - 5xy - x - y + 1\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_009",
+      "questiontext": "Cho đa thức \\(P = 5x^4 - 4x^3y - 7x^2y^2 + 2y^4\\) và \\(Q = 2x^4 - 4x^3y + y^4\\). Khi thực hiện phép trừ \\(P - Q\\), ta bỏ ngoặc được \\(P - Q = 5x^4 - 4x^3y - 7x^2y^2 + 2y^4\\) [[1]] \\(2x^4\\) [[2]] \\(4x^3y - y^4\\).",
+      "generalfeedback": "Khi trừ đa thức \\(P - Q = P - (2x^4 - 4x^3y + y^4)\\), bỏ dấu ngoặc có dấu trừ đằng trước ta phải đổi dấu tất cả các hạng tử trong ngoặc: \\(+2x^4\\) thành \\(-2x^4\\), \\(-4x^3y\\) thành \\(+4x^3y\\), \\(+y^4\\) thành \\(-y^4\\). Do đó vị trí [[1]] là '-' và [[2]] là '+'.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "-"
+        },
+        {
+          "group": 1,
+          "text": "+"
+        },
+        {
+          "group": 1,
+          "text": "*"
+        },
+        {
+          "group": 1,
+          "text": "/"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Biểu thức đại số biểu thị đại lượng thực tế",
+      "questiontext": "Trong một khách sạn có hai bể bơi dạng hình hộp chữ nhật. Bể thứ nhất có chiều sâu 1,2 m, đáy là hình chữ nhật có chiều dài \\(x\\) m, chiều rộng \\(y\\) m. Bể thứ hai có chiều sâu 1,5 m, hai kích thước đáy gấp 5 lần hai kích thước đáy của bể thứ nhất. Đơn thức biểu thị tổng số mét khối nước cần có để bơm đầy cả hai bể bơi là:",
+      "generalfeedback": "Thể tích bể thứ nhất: \\(V_1 = 1,2xy\\) (m\\(^3\\)).\nKích thước đáy bể thứ hai là \\(5x\\) và \\(5y\\), chiều sâu 1,5 m nên thể tích bể thứ hai: \\(V_2 = 1,5 \\cdot (5x) \\cdot (5y) = 37,5xy\\) (m\\(^3\\)).\nTổng thể tích cả hai bể là: \\(V = V_1 + V_2 = 1,2xy + 37,5xy = 38,7xy\\) (m\\(^3\\)).",
+      "answers": [
+        {
+          "text": "\\(38,7xy\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(8,7xy\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2,7xy\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(37,5xy\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Biểu thức đại số biểu thị đại lượng thực tế",
+      "imgs": [
+        "_page_1_Figure_14.jpeg"
+      ],
+      "questiontext": "Từ một miếng bìa hình dạng gồm hai hình vuông ghép lại có kích thước như [img:_page_1_Figure_14.jpeg], người ta cắt ra hai hình tròn có bán kính lần lượt là \\(x\\) cm và \\(y\\) cm. Biểu thức biểu thị diện tích phần còn lại của miếng bìa (theo \\(x\\) và \\(y\\)) là:",
+      "generalfeedback": "Tổng diện tích miếng bìa ban đầu gồm hai hình vuông cạnh \\(x\\) cm và \\(y\\) cm là \\(S_1 = x^2 + y^2\\) (cm\\(^2\\)).\nTổng diện tích hai hình tròn cắt đi có bán kính \\(x\\) cm và \\(y\\) cm là \\(S_2 = \\pi x^2 + \\pi y^2\\) (cm\\(^2\\)).\nDiện tích phần còn lại của miếng bìa là \\(S = S_1 - S_2 = x^2 + y^2 - \\pi x^2 - \\pi y^2 = (1 - \\pi)x^2 + (1 - \\pi)y^2\\) (cm\\(^2\\)).",
+      "answers": [
+        {
+          "text": "\\(x^2 + y^2 - \\pi x^2 - \\pi y^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x^2 + y^2 + \\pi x^2 + \\pi y^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2x + 2y - \\pi x - \\pi y\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x^2 y^2 - \\pi xy\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Biểu thức đại số biểu thị đại lượng thực tế",
+      "questiontext": "Một bể bơi hình hộp chữ nhật có chiều sâu 1,5 m, đáy là hình chữ nhật có chiều dài \\(5x\\) m và chiều rộng \\(5y\\) m. Đơn thức thu gọn (theo hai biến \\(x\\) và \\(y\\)) biểu thị thể tích nước (m\\(^3\\)) khi bơm đầy bể bơi này là:",
+      "generalfeedback": "Thể tích bể bơi là: \\(V = 1,5 \\cdot (5x) \\cdot (5y) = 1,5 \\cdot 25 \\cdot x \\cdot y = 37,5xy\\).",
+      "answers": [
+        {
+          "text": "\\(37,5xy\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(12,5xy\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(37,5x^2y^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(15xy\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Biểu thức đại số biểu thị đại lượng thực tế",
+      "questiontext": "Biểu thức biểu thị diện tích phần còn lại của miếng bìa trong Bài 1.22: \\(S = (1 - \\pi)x^2 + (1 - \\pi)y^2\\) là một đa thức bậc 2. ĐÚNG hay SAI?",
+      "generalfeedback": "Biểu thức \\(S = (1 - \\pi)x^2 + (1 - \\pi)y^2\\) là tổng của hai đơn thức \\((1 - \\pi)x^2\\) và \\((1 - \\pi)y^2\\), mỗi đơn thức có bậc 2. Do đó biểu thức này là một đa thức bậc 2. Khẳng định ĐÚNG.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Biểu thức đại số biểu thị đại lượng thực tế",
+      "questiontext": "Hãy ghép mỗi đại lượng thực tế ở cột bên trái với biểu thức đại số biểu thị tương ứng ở cột bên phải:",
+      "generalfeedback": "- Thể tích bể bơi sâu 1,2 m, đáy \\(x\\) m và \\(y\\) m là \\(1,2xy\\).\n- Thể tích bể bơi sâu 1,5 m, đáy \\(5x\\) m và \\(5y\\) m là \\(37,5xy\\).\n- Tổng diện tích hai hình tròn bán kính \\(x\\) cm và \\(y\\) cm là \\(\\pi x^2 + \\pi y^2\\).",
+      "subquestions": [
+        {
+          "question": "Thể tích bể bơi thứ nhất (sâu 1,2 m; đáy x m và y m)",
+          "answer": "1,2xy"
+        },
+        {
+          "question": "Thể tích bể bơi thứ hai (sâu 1,5 m; đáy 5x m và 5y m)",
+          "answer": "37,5xy"
+        },
+        {
+          "question": "Tổng diện tích hai hình tròn cắt ra (bán kính x cm và y cm)",
+          "answer": "\\(\\pi x^2 + \\pi y^2\\)"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Tính giá trị biểu thức đa thức phức hợp",
+      "questiontext": "Tính giá trị của hiệu \\(A - B\\) tại \\(x = 1\\) và \\(y = -2\\), biết \\(A - B = 9x^2 - 3x^3y + 14x^3y^2 + 5xy^2 - y - 118\\). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Thay \\(x = 1\\) và \\(y = -2\\) vào \\(A - B\\):\n\\(9 \\cdot 1^2 - 3 \\cdot 1^3 \\cdot (-2) + 14 \\cdot 1^3 \\cdot (-2)^2 + 5 \\cdot 1 \\cdot (-2)^2 - (-2) - 118\\)\n\\(= 9 + 6 + 56 + 20 + 2 - 118 = -25\\).",
+      "answers": [
+        {
+          "text": "-25",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tính giá trị biểu thức đa thức phức hợp",
+      "questiontext": "Cho đa thức \\(P = 5x^4 - 3x^3y + 2xy^3 - x^3y + 2y^4 - 7x^2y^2 - 2xy^3\\). Sau khi thu gọn, bậc của đa thức \\(P\\) và giá trị của \\(P\\) tại \\(x = 1; y = -2\\) lần lượt là:",
+      "generalfeedback": "Thu gọn \\(P\\):\n\\(P = 5x^4 + (-3x^3y - x^3y) + (2xy^3 - 2xy^3) - 7x^2y^2 + 2y^4 = 5x^4 - 4x^3y - 7x^2y^2 + 2y^4\\).\nHạng tử có bậc cao nhất là \\(5x^4\\), \\(-4x^3y\\), \\(-7x^2y^2\\), \\(2y^4\\) đều có bậc 4, nên bậc của \\(P\\) là 4.\nThay \\(x = 1; y = -2\\) vào \\(P\\):\n\\(P = 5(1)^4 - 4(1)^3(-2) - 7(1)^2(-2)^2 + 2(-2)^4 = 5 + 8 - 28 + 32 = 17\\).",
+      "answers": [
+        {
+          "text": "Bậc 4 và giá trị bằng 17",
+          "fraction": 100
+        },
+        {
+          "text": "Bậc 4 và giá trị bằng 25",
+          "fraction": 0
+        },
+        {
+          "text": "Bậc 3 và giá trị bằng 17",
+          "fraction": 0
+        },
+        {
+          "text": "Bậc 5 và giá trị bằng -11",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Tính giá trị biểu thức đa thức phức hợp",
+      "questiontext": "Cho đa thức \\(Q = x^3 + x^2y + xy^2 - x^2y - xy^2 - x^3\\). Giá trị của đa thức \\(Q\\) tại \\(x = 1\\) và \\(y = -2\\) bằng:",
+      "generalfeedback": "Thu gọn đa thức \\(Q\\):\n\\(Q = (x^3 - x^3) + (x^2y - x^2y) + (xy^2 - xy^2) = 0\\).\nDo đó với mọi giá trị của \\(x, y\\), giá trị của \\(Q\\) luôn bằng 0.",
+      "answers": [
+        {
+          "text": "0",
+          "fraction": 100
+        },
+        {
+          "text": "1",
+          "fraction": 0
+        },
+        {
+          "text": "-2",
+          "fraction": 0
+        },
+        {
+          "text": "3",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "thong_hieu",
+      "metadata_code": "Tính giá trị biểu thức đa thức phức hợp",
+      "questiontext": "Cho đa thức \\(M = {a}x^2y - 2xy + 3\\). Giá trị của đa thức \\(M\\) tại \\(x = 1\\) và \\(y = 2\\) bằng bao nhiêu?",
+      "generalfeedback": "Thay \\(x = 1, y = 2\\) vào \\(M\\):\n\\(M = {a} \\cdot 1^2 \\cdot 2 - 2 \\cdot 1 \\cdot 2 + 3 = 2 \\cdot {a} - 4 + 3 = 2*{a} - 1\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*2-1",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Tính giá trị biểu thức đa thức phức hợp",
+      "questiontext": "Cho đa thức \\(A + B = x^2 - x^3y - 5xy^2 + y - 118\\). Tại \\(x = 1\\) và \\(y = 1\\), giá trị của đa thức \\(A + B\\) bằng -122. Đúng hay sai?",
+      "generalfeedback": "Thay \\(x = 1, y = 1\\) vào \\(A + B\\):\n\\(1^2 - 1^3 \\cdot 1 - 5 \\cdot 1 \\cdot 1^2 + 1 - 118 = 1 - 1 - 5 + 1 - 118 = -122\\). Khẳng định đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng cộng trừ đa thức giải bài toán thực tế",
+      "questiontext": "Trong Bài 1.19, tổng lượng nước bơm đầy hai bể bơi được biểu thị bởi đơn thức \\(V = 38,7xy\\) (m\\(^3\\)). Tính tổng lượng nước (theo m\\(^3\\)) bơm đầy hai bể nếu \\(x = 5\\) m và \\(y = 3\\) m. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Thay \\(x = 5\\) và \\(y = 3\\) vào đơn thức \\(V = 38,7xy\\):\n\\(V = 38,7 \\cdot 5 \\cdot 3 = 580,5\\) (m\\(^3\\)).",
+      "answers": [
+        {
+          "text": "580.5",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Vận dụng cộng trừ đa thức giải bài toán thực tế",
+      "questiontext": "Cho ba đa thức \\(M = 3x^3 - 4x^2y + 3x - y\\), \\(N = 5xy - 3x + 2\\) và \\(P = 3x^3 + 2x^2y + 7x - 1\\). Đa thức thu gọn của biểu thức \\(M + N - P\\) là:",
+      "generalfeedback": "\\(M + N - P = (3x^3 - 4x^2y + 3x - y) + (5xy - 3x + 2) - (3x^3 + 2x^2y + 7x - 1)\\)\n\\(= 3x^3 - 4x^2y + 3x - y + 5xy - 3x + 2 - 3x^3 - 2x^2y - 7x + 1\\)\n\\(= (3x^3 - 3x^3) + (-4x^2y - 2x^2y) + 5xy + (3x - 3x - 7x) - y + (2 + 1)\\)\n\\(= -6x^2y + 5xy - 7x - y + 3\\).",
+      "answers": [
+        {
+          "text": "\\(-6x^2y + 5xy - 7x - y + 3\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(-6x^2y - 5xy - x - y - 1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-6x^2y + 5xy + 7x - y + 3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(6x^2y + 5xy - 7x - y - 3\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Vận dụng cộng trừ đa thức giải bài toán thực tế",
+      "questiontext": "Cho hai đa thức \\(A = 7xyz^2 - 5xy^2z + 3x^2yz - xyz + 1\\) và \\(B = 7x^2yz - 5xy^2z + 3xyz^2 - 2\\). Đa thức \\(E\\) thu gọn thỏa mãn \\(E - A = B\\) là:",
+      "generalfeedback": "Từ \\(E - A = B\\) suy ra \\(E = A + B\\).\n\\(E = (7xyz^2 - 5xy^2z + 3x^2yz - xyz + 1) + (7x^2yz - 5xy^2z + 3xyz^2 - 2)\\)\n\\(= (7xyz^2 + 3xyz^2) + (-5xy^2z - 5xy^2z) + (3x^2yz + 7x^2yz) - xyz + (1 - 2)\\)\n\\(= 10xyz^2 - 10xy^2z + 10x^2yz - xyz - 1\\).",
+      "answers": [
+        {
+          "text": "\\(10xyz^2 - 10xy^2z + 10x^2yz - xyz - 1\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(4xyz^2 - 4x^2yz - xyz + 3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(10xyz^2 + 10x^2yz - xyz + 1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-10xyz^2 + 10xy^2z - 10x^2yz + xyz + 1\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "thong_hieu",
+      "metadata_code": "Vận dụng cộng trừ đa thức giải bài toán thực tế",
+      "questiontext": "Một hình chữ nhật có chiều dài là \\({a}x\\) m và chiều rộng là \\(2y\\) m. Chiều dài được tăng thêm \\(x\\) m và chiều rộng giữ nguyên. Biểu thức biểu thị diện tích mới tăng thêm của hình chữ nhật là bao nhiêu m\\(^2\\)?",
+      "generalfeedback": "Chiều dài tăng thêm \\(x\\) m, chiều rộng là \\(2y\\) m, nên diện tích tăng thêm là \\(x \\cdot 2y = 2xy\\). Đơn thức biểu thị diện tích tăng thêm là \\(2xy\\). Về mặt công thức đối với biến \\({a}\\), phần diện tích ban đầu là \\({a} \\cdot 2xy\\), diện tích mới là \\(({a}+1) \\cdot 2xy = {a}*2xy + 2xy\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}+1",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng cộng trừ đa thức giải bài toán thực tế",
+      "questiontext": "Cho hai bể bơi có tổng thể tích nước \\(V = 38,7xy\\) m\\(^3\\). Nếu chiều dài \\(x = 10\\) m và chiều rộng \\(y = 4\\) m thì tổng lượng nước cần bơm đầy hai bể là 1548 m\\(^3\\). Khẳng định này ĐÚNG hay SAI?",
+      "generalfeedback": "Thay \\(x = 10\\) và \\(y = 4\\) vào \\(V = 38,7xy\\):\n\\(V = 38,7 \\cdot 10 \\cdot 4 = 1548\\) (m\\(^3\\)). Khẳng định ĐÚNG.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_03",
+      "questiontext": "Bạn Nam muốn tính chính xác dung tích nước cần bơm cho hai bể bơi trong khách sạn của gia đình (Bài 1.19) để đặt mua nước sinh hoạt. Thay vì ước lượng sơ sài, Nam đã áp dụng công thức đơn thức \\(V = 38,7xy\\) đã học trên lớp để tính ra kết quả 580,5 m\\(^3\\) khi \\(x = 5\\) m, \\(y = 3\\) m. Việc làm của Nam thể hiện phẩm chất/ý thức nào?",
+      "generalfeedback": "Hành động áp dụng công thức toán học đã học vào việc giải quyết nhu cầu thực tế của gia đình thể hiện ý thức vận dụng kiến thức, kỹ năng toán học vào đời sống một cách chủ động và có trách nhiệm.",
+      "answers": [
+        {
+          "text": "Có ý thức vận dụng kiến thức, kỹ năng toán học đã học vào đời sống thực tiễn.",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ làm bài theo yêu cầu của giáo viên mà không quan tâm đến thực tế.",
+          "fraction": 0
+        },
+        {
+          "text": "Ý thức tiết kiệm kinh phí bằng cách ước lượng sơ sài.",
+          "fraction": 0
+        },
+        {
+          "text": "Ý thức tuân thủ quy định học tập trên lớp.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_03",
+      "questiontext": "Khi gặp bài toán thực tế tính diện tích phần bìa còn lại (Bài 1.22), bạn Hoa cho rằng kiến thức cộng trừ đa thức chỉ dùng để thi cử chứ không có giá trị thực tiễn. Đánh giá của bạn Hoa thể hiện ý thức vận dụng kiến thức vào đời sống chưa đúng. Đúng hay sai?",
+      "generalfeedback": "Đánh giá của Hoa chưa đúng vì kiến thức đa thức giúp mô hình hóa và giải quyết các bài toán thiết kế, cắt gọt vật liệu trong thực tế sản xuất và đời sống. Đứng trước kiến thức học được, học sinh cần có ý thức nhận ra và vận dụng vào thực tiễn.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Khi thực hiện rút gọn biểu thức diện tích phần bìa còn lại \\(S = x^2 + y^2 - \\pi x^2 - \\pi y^2\\) (Bài 1.22), bạn An gặp khó khăn trong việc xác định bậc của đa thức do các hạng tử chưa được nhóm hợp lý. Để giải quyết vấn đề này, đề xuất giải pháp nào sau đây là tối ưu nhất?",
+      "generalfeedback": "Để xác định bậc và thu gọn đa thức có chứa hằng số \\(\\pi\\), giải pháp tối ưu là nhóm các hạng tử đồng dạng theo \\(x^2\\) và \\(y^2\\) rồi đặt nhân tử chung, thu được \\(S = (1 - \\pi)x^2 + (1 - \\pi)y^2\\), từ đó dễ dàng thấy đa thức có bậc 2.",
+      "answers": [
+        {
+          "text": "Nhóm các hạng tử đồng dạng theo \\(x^2\\) và \\(y^2\\) rồi đặt nhân tử chung thành \\((1 - \\pi)x^2 + (1 - \\pi)y^2\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua hằng số \\(\\pi\\) và chỉ cộng hai hạng tử \\(x^2 + y^2\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Thay giá trị \\(\\pi = 3,14\\) ngay từ đầu rồi thực hiện tính toán số thập phân phức tạp.",
+          "fraction": 0
+        },
+        {
+          "text": "Chuyển các biến \\(x, y\\) thành hằng số cho trước để tính kết quả cụ thể.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_02_01",
+      "questiontext": "Một công ty xây dựng muốn thiết kế hai bể bơi hình hộp chữ nhật có độ sâu và tỷ lệ đáy tương tự Bài 1.19 (bể 1 sâu 1,2 m với đáy \\(x \\times y\\); bể 2 sâu 1,5 m với kích thước đáy gấp 5 lần bể 1). Công thức/mô hình toán học nào dưới đây mô tả chính xác tổng thể tích nước \\(V\\) (m\\(^3\\)) cần bơm đầy cả hai bể bơi theo hai biến \\(x\\) và \\(y\\)?",
+      "generalfeedback": "Thể tích bể 1 là \\(V_1 = 1,2xy\\). Thể tích bể 2 là \\(V_2 = 1,5 \\cdot (5x) \\cdot (5y) = 37,5xy\\). Tổng thể tích hai bể là mô hình toán học dạng đơn thức \\(V = V_1 + V_2 = 1,2xy + 37,5xy = 38,7xy\\).",
+      "answers": [
+        {
+          "text": "\\(V = 38,7xy\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(V = 2,7xy\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(V = 38,7(x + y)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(V = 1,2xy + 7,5xy\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_02_08",
+      "questiontext": "Khi áp dụng mô hình toán học \\(V = 38,7xy\\) vào ngữ cảnh thực tiễn của Bài 1.19 với \\(x = 5\\) m, \\(y = 3\\) m, học sinh tính ra kết quả \\(V = 580,5\\). Lời giải toán học này được thể hiện trong ngữ cảnh thực tiễn như thế nào?",
+      "generalfeedback": "Kết quả tính toán đại số \\(V = 580,5\\) khi gắn vào ngữ cảnh thực tiễn có ý nghĩa là dung tích nước cần thiết để bơm đầy cả hai bể bơi là 580,5 mét khối (hoặc 580 500 lít nước).",
+      "answers": [
+        {
+          "text": "Lượng nước thực tế cần bơm để lấp đầy cả hai bể bơi là 580,5 m\\(^3\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Diện tích mặt đáy của hai bể bơi là 580,5 m\\(^2\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Tổng chiều sâu của hai bể bơi là 580,5 m.",
+          "fraction": 0
+        },
+        {
+          "text": "Chi phí để xây dựng hai bể bơi là 580,5 triệu đồng.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "8.A1.2_2",
+      "questiontext": "Bạn Lan sử dụng trợ lý AI tạo sinh để giải bài toán trừ hai đa thức \\(A - B\\) trong Ví dụ SGK. Trợ lý AI trả về kết quả: \\(A - B = 9x^2 - 3x^3y + 7x^3y^2 + 5xy^2 - y - 118\\) (bị sai hệ số hạng tử \\(x^3y^2\\) do nhầm dấu khi bỏ ngoặc). Việc Lan cần kiểm chứng lại đáp án của AI bằng tính toán thủ công thể hiện điều gì?",
+      "generalfeedback": "AI tạo sinh có thể mắc lỗi ảo giác hoặc nhầm lẫn trong biến đổi dấu khi xử lý các đa thức phức tạp. Do đó, người học bắt buộc phải kiểm chứng lại thông tin do AI cung cấp trước khi sử dụng.",
+      "answers": [
+        {
+          "text": "Nêu được sự cần thiết phải kiểm chứng nguồn thông tin và kết quả do AI tạo sinh cung cấp trong học tập.",
+          "fraction": 100
+        },
+        {
+          "text": "Phủ nhận hoàn toàn vai trò của AI trong việc hỗ trợ học tập môn Toán.",
+          "fraction": 0
+        },
+        {
+          "text": "Chứng tỏ AI luôn luôn đưa ra kết quả sai trong các bài toán đại số.",
+          "fraction": 0
+        },
+        {
+          "text": "Thể hiện việc không tin tưởng vào bất kỳ công cụ công nghệ nào.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "8.A3.3_3",
+      "questiontext": "Khi làm bài tập nhóm lập biểu thức thể tích hai bể bơi (Bài 1.19), bạn Minh dùng AI để sinh lời giải rồi chép nguyên văn vào bài nộp của nhóm mà không kiểm tra lại. Khi cô giáo chỉ ra sai sót trong công thức, Minh đổ lỗi cho AI làm sai. Hành vi của Minh cho thấy điều gì và Minh cần thay đổi ra sao để thể hiện trách nhiệm giải trình?",
+      "generalfeedback": "Trách nhiệm giải trình khi sử dụng AI đòi hỏi người học phải tự kiểm tra, xác minh tính chính xác của sản phẩm do AI tạo ra và chịu trách nhiệm cá nhân về nội dung bài nộp của mình chứ không đổ lỗi cho công nghệ.",
+      "answers": [
+        {
+          "text": "Minh thiếu trách nhiệm giải trình; Minh cần tự kiểm tra tính chính xác của nội dung do AI tạo ra và chịu trách nhiệm về sản phẩm do mình nộp.",
+          "fraction": 100
+        },
+        {
+          "text": "Minh đã thể hiện tốt trách nhiệm giải trình vì đã thành thật khai báo là do AI làm sai.",
+          "fraction": 0
+        },
+        {
+          "text": "Minh không có lỗi vì AI là bên trực tiếp tạo ra câu trả lời sai.",
+          "fraction": 0
+        },
+        {
+          "text": "Minh nên cấm các bạn trong nhóm sử dụng AI dưới mọi hình thức.",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

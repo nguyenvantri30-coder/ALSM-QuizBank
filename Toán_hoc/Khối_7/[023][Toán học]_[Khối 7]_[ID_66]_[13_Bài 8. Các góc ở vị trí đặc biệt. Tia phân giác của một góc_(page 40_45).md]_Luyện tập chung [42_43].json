@@ -1,0 +1,647 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 26,
+    "metadata_used": {
+      "YCCD_TOAN7_034": 3,
+      "YCCD_TOAN7_035": 3,
+      "Quy tắc so sánh số thực": 2,
+      "Công thức giá trị tuyệt đối": 2,
+      "Thực hiện so sánh các số thực dạng căn bậc hai và số thập phân": 4,
+      "Tính giá trị biểu thức chứa giá trị tuyệt đối": 6,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_TUCHUTUHOC": 1,
+      "NLC_GIAIQUYETVD": 1,
+      "NLT_TOAN_C2_01": 1,
+      "NLT_TOAN_C2_03": 1
+    },
+    "types_used": {
+      "multichoice": 10,
+      "truefalse": 4,
+      "gapselect": 2,
+      "numerical": 3,
+      "ddwtos": 1,
+      "matching": 3,
+      "shortanswer": 1,
+      "calculatedsimple": 1,
+      "calculated": 1
+    }
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_034",
+        "reason": "Nhận biết được thứ tự trong tập hợp các số thực."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_035",
+        "reason": "Nhận biết được giá trị tuyệt đối của một số thực."
+      },
+      {
+        "metadata_code": "Quy tắc so sánh số thực",
+        "reason": "Hiểu quy tắc so sánh số thực."
+      },
+      {
+        "metadata_code": "Công thức giá trị tuyệt đối",
+        "reason": "Nắm vững công thức và tính chất giá trị tuyệt đối."
+      },
+      {
+        "metadata_code": "Thực hiện so sánh các số thực dạng căn bậc hai và số thập phân",
+        "reason": "Thực hiện được so sánh các số thực dạng căn bậc hai và số thập phân."
+      },
+      {
+        "metadata_code": "Tính giá trị biểu thức chứa giá trị tuyệt đối",
+        "reason": "Thực hiện được tính giá trị biểu thức chứa giá trị tuyệt đối."
+      },
+      {
+        "metadata_code": "PC_CHAMCHI",
+        "reason": "Thể hiện phẩm chất chăm chỉ, kiên trì tự lực giải bài tập toán."
+      },
+      {
+        "metadata_code": "PC_TRUNGTHUC",
+        "reason": "Thể hiện phẩm chất trung thực trong học tập và kiểm tra toán học."
+      },
+      {
+        "metadata_code": "NLC_TUCHUTUHOC",
+        "reason": "Phát triển năng lực tự chủ và tự học qua việc lập kế hoạch và tổng hợp kiến thức."
+      },
+      {
+        "metadata_code": "NLC_GIAIQUYETVD",
+        "reason": "Phát triển năng lực giải quyết vấn đề và sáng tạo khi xử lý bài tập thực tế."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01",
+        "reason": "Phát triển năng lực tư duy và lập luận toán học qua bản chất hình học của giá trị tuyệt đối."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03",
+        "reason": "Phát triển năng lực giải quyết vấn đề toán học trong bối cảnh kỹ thuật và đời sống."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Nội dung bài học Tiết 1 thuộc lý thuyết và bài tập số thực cơ bản, không có bối cảnh thao tác phần mềm hay công nghệ số."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học không có bối cảnh tích hợp trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_034",
+      "questiontext": "Cho hai số thực \\(a\\) và \\(b\\). Khẳng định nào sau đây là đúng về thứ tự trên tập hợp số thực?",
+      "generalfeedback": "Trên tập hợp số thực, với hai số thực bất kỳ \\(a\\) và \\(b\\), ta luôn có một trong ba trường hợp: \\(a < b\\), \\(a = b\\) hoặc \\(a > b\\).",
+      "answers": [
+        {
+          "text": "Với hai số thực \\(a, b\\) bất kỳ, ta luôn có \\(a < b\\), \\(a = b\\) hoặc \\(a > b\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Với hai số thực \\(a, b\\) bất kỳ, ta luôn có \\(a > b\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Không thể so sánh hai số thực bất kỳ",
+          "fraction": 0
+        },
+        {
+          "text": "Số thực dương luôn nhỏ hơn số thực âm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_034",
+      "questiontext": "Số thực 0 lớn hơn mọi số thực âm và nhỏ hơn mọi số thực dương. Đúng hay Sai?",
+      "generalfeedback": "Đúng. Số 0 đứng giữa các số thực âm và các số thực dương trên trục số.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_034",
+      "questiontext": "Trục số thực nằm ngang có chiều từ trái sang phải là chiều dương. Khi đó, số thực nằm bên trái sẽ [[1]] số thực nằm bên phải, và số thực âm luôn [[2]] số 0.",
+      "generalfeedback": "Trên trục số nằm ngang, điểm biểu diễn số thực nhỏ hơn nằm bên trái điểm biểu diễn số thực lớn hơn.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "nhỏ hơn"
+        },
+        {
+          "group": 1,
+          "text": "lớn hơn"
+        },
+        {
+          "group": 1,
+          "text": "bằng nhau"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_035",
+      "questiontext": "Giá trị tuyệt đối của một số thực \\(x\\), ký hiệu là \\(|x|\\), đại diện cho điều gì trên trục số?",
+      "generalfeedback": "Giá trị tuyệt đối của số thực \\(x\\) là khoảng cách từ điểm \\(x\\) đến điểm \\(0\\) trên trục số.",
+      "answers": [
+        {
+          "text": "Khoảng cách từ điểm \\(x\\) đến điểm \\(0\\) trên trục số",
+          "fraction": 100
+        },
+        {
+          "text": "Khoảng cách từ điểm \\(x\\) đến điểm \\(1\\) trên trục số",
+          "fraction": 0
+        },
+        {
+          "text": "Tọa độ của điểm \\(x\\) trên trục số",
+          "fraction": 0
+        },
+        {
+          "text": "Số đối của số thực \\(x\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_035",
+      "questiontext": "Tính giá trị tuyệt đối của số thực \\(-5.25\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Vì \\(-5.25 < 0\\) nên \\(|-5.25| = -(-5.25) = 5.25\\).",
+      "answers": [
+        {
+          "text": "5.25",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_035",
+      "questiontext": "Giá trị tuyệt đối của một số thực bất kỳ luôn là một số không âm (lớn hơn hoặc bằng 0). Đúng hay Sai?",
+      "generalfeedback": "Đúng. Với mọi số thực \\(x\\), ta luôn có \\(|x| \\ge 0\\). Khoảng cách không thể nhận giá trị âm.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc so sánh số thực",
+      "questiontext": "Khi so sánh hai số thực âm \\(a\\) và \\(b\\), khẳng định nào sau đây đúng?",
+      "generalfeedback": "Trong hai số thực âm, số nào có giá trị tuyệt đối lớn hơn thì số đó nhỏ hơn.",
+      "answers": [
+        {
+          "text": "Số nào có giá trị tuyệt đối lớn hơn thì số đó nhỏ hơn",
+          "fraction": 100
+        },
+        {
+          "text": "Số nào có giá trị tuyệt đối lớn hơn thì số đó lớn hơn",
+          "fraction": 0
+        },
+        {
+          "text": "Hai số thực âm luôn bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Số nào gần số 0 hơn thì số đó nhỏ hơn",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Quy tắc so sánh số thực",
+      "questiontext": "Nếu \\(a < b\\) và \\(b < c\\) thì theo tính chất bắc cầu ta có \\(a\\) [[1]] \\(c\\). Nếu \\(x\\) là số thực dương thì \\(x\\) [[2]] 0.",
+      "generalfeedback": "Tính chất bắc cầu: nếu \\(a < b\\) và \\(b < c\\) thì \\(a < c\\). Số thực dương luôn lớn hơn 0.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "<"
+        },
+        {
+          "group": 1,
+          "text": ">"
+        },
+        {
+          "group": 1,
+          "text": "="
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức giá trị tuyệt đối",
+      "questiontext": "Hãy ghép mỗi trường hợp của số thực \\(x\\) ở cột trái với giá trị tuyệt đối \\(|x|\\) tương ứng ở cột phải:",
+      "generalfeedback": "Định nghĩa giá trị tuyệt đối: \\(|x| = x\\) nếu \\(x > 0\\), \\(|x| = -x\\) nếu \\(x < 0\\), \\(|0| = 0\\).",
+      "subquestions": [
+        {
+          "question": "Khi \\(x > 0\\) thì \\(|x|\\) bằng",
+          "answer": "\\(x\\)"
+        },
+        {
+          "question": "Khi \\(x < 0\\) thì \\(|x|\\) bằng",
+          "answer": "\\(-x\\)"
+        },
+        {
+          "question": "Khi \\(x = 0\\) thì \\(|x|\\) bằng",
+          "answer": "0"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Công thức giá trị tuyệt đối",
+      "questiontext": "Nếu \\(|x| = 7\\) thì \\(x\\) có thể nhận những giá trị nào?",
+      "generalfeedback": "Vì \\(|7| = 7\\) và \\(|-7| = 7\\) nên \\(x = 7\\) hoặc \\(x = -7\\).",
+      "answers": [
+        {
+          "text": "7 hoặc -7",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện so sánh các số thực dạng căn bậc hai và số thập phân",
+      "questiontext": "So sánh hai số thực \\(\\sqrt{5}\\) và \\(2.25\\). Khẳng định nào sau đây là đúng?",
+      "generalfeedback": "Ta có \\(2.25^2 = 5.0625 > 5\\), suy ra \\(2.25 > \\sqrt{5}\\) hay \\(\\sqrt{5} < 2.25\\).",
+      "answers": [
+        {
+          "text": "\\(\\sqrt{5} < 2.25\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\sqrt{5} > 2.25\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\sqrt{5} = 2.25\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Không thể so sánh \\(\\sqrt{5}\\) và \\(2.25\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện so sánh các số thực dạng căn bậc hai và số thập phân",
+      "questiontext": "Vì \\(\\sqrt{10} \\approx 3.162 > 3.15\\) nên \\(-\\sqrt{10} < -3.15\\). Đúng hay Sai?",
+      "generalfeedback": "Đúng. Trong hai số âm, số nào có giá trị tuyệt đối lớn hơn thì số đó nhỏ hơn.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện so sánh các số thực dạng căn bậc hai và số thập phân",
+      "questiontext": "Hãy ghép mỗi cặp số ở cột trái với quan hệ so sánh tương ứng ở cột phải:",
+      "generalfeedback": "Ta có \\(\\sqrt{9} = 3\\); \\(\\sqrt{2} \\approx 1.414 > 1.4\\); \\(\\sqrt{3} \\approx 1.732 < 1.8\\).",
+      "subquestions": [
+        {
+          "question": "So sánh \\(\\sqrt{9}\\) và \\(3\\)",
+          "answer": "Bằng nhau"
+        },
+        {
+          "question": "So sánh \\(\\sqrt{2}\\) và \\(1.4\\)",
+          "answer": "Lớn hơn"
+        },
+        {
+          "question": "So sánh \\(\\sqrt{3}\\) và \\(1.8\\)",
+          "answer": "Nhỏ hơn"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện so sánh các số thực dạng căn bậc hai và số thập phân",
+      "questiontext": "Sắp xếp các số thực sau theo thứ tự từ nhỏ đến lớn: \\(-2.5\\); \\(0\\); \\(\\sqrt{2}\\); \\(3.1\\). Khẳng định nào sau đây đúng?",
+      "generalfeedback": "Thứ tự từ nhỏ đến lớn là \\(-2.5 < 0 < \\sqrt{2} < 3.1\\) vì \\(-2.5\\) âm, \\(0\\) đứng giữa, \\(\\sqrt{2} \\approx 1.414 < 3.1\\).",
+      "answers": [
+        {
+          "text": "\\(-2.5 < 0 < \\sqrt{2} < 3.1\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(0 < -2.5 < \\sqrt{2} < 3.1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-2.5 < \\sqrt{2} < 0 < 3.1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-2.5 < 0 < 3.1 < \\sqrt{2}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Tính giá trị biểu thức chứa giá trị tuyệt đối",
+      "questiontext": "Tính giá trị của biểu thức \\(A = |-3.5| + |2.5|\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Ta có \\(|-3.5| = 3.5\\) và \\(|2.5| = 2.5\\). Vậy \\(A = 3.5 + 2.5 = 6\\).",
+      "answers": [
+        {
+          "text": "6",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tính giá trị biểu thức chứa giá trị tuyệt đối",
+      "questiontext": "Tính giá trị của biểu thức \\(B = |-7| - |-3| + |-2|\\).",
+      "generalfeedback": "Ta có \\(|-7| = 7\\), \\(|-3| = 3\\), \\(|-2| = 2\\). Do đó \\(B = 7 - 3 + 2 = 6\\).",
+      "answers": [
+        {
+          "text": "6",
+          "fraction": 100
+        },
+        {
+          "text": "2",
+          "fraction": 0
+        },
+        {
+          "text": "-12",
+          "fraction": 0
+        },
+        {
+          "text": "8",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính giá trị biểu thức chứa giá trị tuyệt đối",
+      "questiontext": "Tính giá trị của biểu thức \\(C = |\\sqrt{4} - 5|\\). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Ta có \\(\\sqrt{4} = 2\\). Khi đó \\(\\sqrt{4} - 5 = 2 - 5 = -3\\). Do đó \\(|-3| = 3\\).",
+      "answers": [
+        {
+          "text": "3",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "thong_hieu",
+      "metadata_code": "Tính giá trị biểu thức chứa giá trị tuyệt đối",
+      "questiontext": "Cho biến số {x} là một số nguyên từ 1 đến 10. Hãy tính giá trị của biểu thức |-{x}| + {x}. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Vì {x} > 0 nên \\(|-{x}| = {x}\\). Giá trị biểu thức là \\({x} + {x} = 2*{x}\\).",
+      "wildcards": [
+        {
+          "name": "x",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "2*{x}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Tính giá trị biểu thức chứa giá trị tuyệt đối",
+      "questiontext": "Cho hai số nguyên {a} và {b} sao cho {a} > {b} > 0. Hãy tính giá trị của biểu thức |{a} - {b}| + |{b} - {a}|. (Chỉ điền công thức tính theo a và b)",
+      "generalfeedback": "Vì \\({a} > {b}\\) nên \\({a} - {b} > 0 \\Rightarrow |{a} - {b}| = {a} - {b}\\). Đồng thời \\({b} - {a} < 0 \\Rightarrow |{b} - {a}| = {a} - {b}\\). Tổng bằng \\(2*({a} - {b})\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 5.0,
+          "max": 15.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 1.0,
+          "max": 4.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "2*({a}-{b})",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Tính giá trị biểu thức chứa giá trị tuyệt đối",
+      "questiontext": "Tìm tất cả các giá trị thực của \\(x\\) thỏa mãn \\(|x - 1.5| = 2.5\\).",
+      "generalfeedback": "Từ \\(|x - 1.5| = 2.5\\), ta có hai trường hợp:\nTH1: \\(x - 1.5 = 2.5 \\Rightarrow x = 4\\).\nTH2: \\(x - 1.5 = -2.5 \\Rightarrow x = -1\\).\nVậy \\(x = 4\\) hoặc \\(x = -1\\).",
+      "answers": [
+        {
+          "text": "\\(x = 4\\) hoặc \\(x = -1\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x = 4\\) hoặc \\(x = 1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ có \\(x = 4\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x = -4\\) hoặc \\(x = 1\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Trong giờ tự học Toán, An gặp bài toán so sánh hai số thực \\(\\sqrt{7}\\) và \\(2.65\\). Dù chưa tìm ra ngay cách làm, An không bỏ cuộc hay chép lời giải của bạn mà kiên trì nhớ lại quy tắc so sánh bình phương các số dương để tự giải. Hành động của An thể hiện phẩm chất nào và thái độ học tập như thế nào?",
+      "generalfeedback": "An đã thể hiện phẩm chất chăm chỉ, kiên trì tự lực suy nghĩ và vận dụng kiến thức đã học để giải quyết bài tập.",
+      "answers": [
+        {
+          "text": "Chăm chỉ, kiên trì vượt khó và tự lực vận dụng kiến thức bài học",
+          "fraction": 100
+        },
+        {
+          "text": "Trung thực nhưng thiếu kiên nhẫn trong học tập",
+          "fraction": 0
+        },
+        {
+          "text": "Tiết kiệm thời gian bằng cách chờ giáo viên sửa bài",
+          "fraction": 0
+        },
+        {
+          "text": "Thích thể hiện năng lực trước mặt các bạn trong lớp",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Trong bài kiểm tra 15 phút, khi tính giá trị tuyệt đối \\(|-3.8|\\), Bình nhìn sang bài của Nam và thấy Nam ghi kết quả là \\(-3.8\\). Mặc dù Bình biết rõ giá trị tuyệt đối của một số âm phải là số dương (tức là \\(3.8\\)), Bình vẫn giữ nguyên kết quả \\(3.8\\) của mình chứ không sửa theo Nam. Hành vi của Bình thể hiện tính trung thực và tự tin vào kiến thức của bản thân. Đúng hay Sai?",
+      "generalfeedback": "Đúng. Bình thể hiện sự trung thực trong thi cử và tự tin bảo vệ đáp án đúng dựa trên kiến thức toán học.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Để tự học và hệ thống hóa kiến thức Tiết 1 (So sánh số thực và giá trị tuyệt đối), em hãy ghép mỗi mục tiêu tự học ở cột trái với phương pháp/công cụ tự học tương ứng ở cột phải:",
+      "generalfeedback": "Việc lập sơ đồ, bảng so sánh và tự giải bài tập giúp phát triển năng lực tự chủ và tự học.",
+      "subquestions": [
+        {
+          "question": "Hệ thống hóa quy tắc so sánh hai số thực",
+          "answer": "Lập bảng so sánh số thực dương, số 0 và số thực âm"
+        },
+        {
+          "question": "Ghi nhớ công thức giá trị tuyệt đối \\(|x|\\)",
+          "answer": "Tổng hợp sơ đồ tư duy chia trường hợp \\(x \\ge 0\\) và \\(x < 0\\)"
+        },
+        {
+          "question": "Đánh giá mức độ hiểu bài sau tiết học",
+          "answer": "Tự làm lại các bài tập SGK và đối chiếu đáp án"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLC_GIAIQUYETVD",
+      "questiontext": "Bạn Hà cần so sánh hai số thực âm \\(-\\sqrt{12}\\) và \\(-3.5\\) để hoàn thành bài tập thực tế về nhiệt độ âm. Hà đã sáng tạo giải quyết vấn đề bằng cách: (1) Tính \\(|-\\sqrt{12}| = \\sqrt{12}\\) và \\(|-3.5| = 3.5 = \\sqrt{12.25}\\); (2) So sánh \\(\\sqrt{12} < \\sqrt{12.25}\\); (3) Kết luận \\(-\\sqrt{12} > -3.5\\). Đánh giá nào sau đây là đúng về cách giải quyết vấn đề của Hà?",
+      "generalfeedback": "Hà đã giải quyết vấn đề một cách sáng tạo và chính xác bằng cách so sánh giá trị tuyệt đối của hai số âm.",
+      "answers": [
+        {
+          "text": "Cách làm đúng và hợp lý, thể hiện năng lực giải quyết vấn đề toán học sáng tạo",
+          "fraction": 100
+        },
+        {
+          "text": "Cách làm sai vì hai số âm không thể đưa về căn bậc hai",
+          "fraction": 0
+        },
+        {
+          "text": "Cách làm sai ở bước kết luận vì số có giá trị tuyệt đối nhỏ hơn phải nhỏ hơn",
+          "fraction": 0
+        },
+        {
+          "text": "Kết quả đúng nhưng quy trình so sánh bị ngược",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Xét lập luận toán học sau: 'Cho số thực \\(x\\). Vì khoảng cách từ điểm \\(x\\) đến điểm 0 trên trục số bằng 4.5, nên điểm \\(x\\) có thể nằm ở bên trái hoặc bên phải điểm 0 một khoảng 4.5 đơn vị. Do đó \\(x = 4.5\\) hoặc \\(x = -4.5\\)'. Lập luận trên sử dụng bản chất toán học nào?",
+      "generalfeedback": "Lập luận dựa trên ý nghĩa hình học của giá trị tuyệt đối là khoảng cách từ điểm \\(x\\) đến gốc 0 trên trục số.",
+      "answers": [
+        {
+          "text": "Ý nghĩa hình học của giá trị tuyệt đối là khoảng cách trên trục số",
+          "fraction": 100
+        },
+        {
+          "text": "Quy tắc cộng hai số thực cùng dấu",
+          "fraction": 0
+        },
+        {
+          "text": "Tính chất giao hoán của phép nhân số thực",
+          "fraction": 0
+        },
+        {
+          "text": "Định lý về hai đường thẳng vuông góc",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "questiontext": "Một xưởng sản xuất quy định độ lệch đường kính chi tiết máy cho phép là không quá \\(0.05\\) mm. Gọi \\(d\\) là độ lệch thực tế. Để đảm bảo chi tiết đạt chuẩn, kĩ sư phải kiểm tra điều kiện giá trị tuyệt đối \\(|d|\\) [[1]] \\(0.05\\). Nếu đo được \\(d = -0.04\\) mm thì chi tiết này [[2]] tiêu chuẩn.",
+      "generalfeedback": "Vì \\(|-0.04| = 0.04 \\le 0.05\\) nên chi tiết máy đạt tiêu chuẩn quy định.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(\\le\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(>\\)"
+        },
+        {
+          "group": 1,
+          "text": "đạt"
+        },
+        {
+          "group": 1,
+          "text": "không đạt"
+        }
+      ]
+    }
+  ]
+}

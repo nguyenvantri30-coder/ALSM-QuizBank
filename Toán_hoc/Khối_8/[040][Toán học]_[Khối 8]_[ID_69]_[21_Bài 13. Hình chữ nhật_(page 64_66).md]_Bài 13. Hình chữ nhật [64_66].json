@@ -1,0 +1,681 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 26,
+    "metadata_used": {
+      "Khái niệm Hình chữ nhật": 2,
+      "Tính chất hai đường chéo": 3,
+      "Dấu hiệu nhận biết hình chữ nhật": 3,
+      "Nhận biết hình chữ nhật": 2,
+      "Sử dụng tính chất đường chéo hình chữ nhật để tính độ dài đoạn thẳng": 5,
+      "YCCD_TOAN8_074": 3,
+      "Chứng minh hình bình hành là hình chữ nhật": 2,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TULUC_C2_01": 1,
+      "NLT_TOAN_C2_01_02": 1,
+      "NLT_TOAN_C2_04_12": 2
+    },
+    "types_used": {
+      "multichoice": 12,
+      "truefalse": 3,
+      "matching": 2,
+      "shortanswer": 1,
+      "gapselect": 3,
+      "numerical": 2,
+      "calculated": 1,
+      "ddwtos": 1,
+      "calculatedsimple": 1
+    },
+    "total": 26
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN8_074",
+        "reason": "Giải thích được tính chất về hai đường chéo của hình chữ nhật."
+      },
+      {
+        "metadata_code": "Khái niệm Hình chữ nhật",
+        "reason": "Khái niệm Hình chữ nhật"
+      },
+      {
+        "metadata_code": "Tính chất hai đường chéo",
+        "reason": "Tính chất hai đường chéo"
+      },
+      {
+        "metadata_code": "Dấu hiệu nhận biết hình chữ nhật",
+        "reason": "Dấu hiệu nhận biết hình chữ nhật"
+      },
+      {
+        "metadata_code": "Nhận biết hình chữ nhật",
+        "reason": "Nhận biết hình chữ nhật"
+      },
+      {
+        "metadata_code": "Sử dụng tính chất đường chéo hình chữ nhật để tính độ dài đoạn thẳng",
+        "reason": "Sử dụng tính chất đường chéo hình chữ nhật để tính độ dài đoạn thẳng"
+      },
+      {
+        "metadata_code": "Chứng minh hình bình hành là hình chữ nhật",
+        "reason": "Chứng minh hình bình hành là hình chữ nhật"
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Luôn cố gắng vươn lên đạt kết quả tốt trong học tập."
+      },
+      {
+        "metadata_code": "SUB_TCTH_TULUC_C2_01",
+        "reason": "Biết chủ động, tích cực thực hiện những công việc của bản thân trong học tập và trong cuộc sống"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_02",
+        "reason": "Biết quan sát trong nhiều tình huống."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_04_12",
+        "reason": "Sử dụng được ngôn ngữ toán học kết hợp với ngôn ngữ thông thường để biểu đạt các nội dung toán học."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học thuộc phần Hình học thuần túy (Hình chữ nhật), không chứa dữ liệu hay công cụ công nghệ/tin học để đo lường tự nhiên."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học không tích hợp ngữ cảnh hay ứng dụng Trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm Hình chữ nhật",
+      "questiontext": "Hình chữ nhật là tứ giác có:",
+      "generalfeedback": "Theo định nghĩa trong SGK, hình chữ nhật là tứ giác có bốn góc vuông.",
+      "answers": [
+        {
+          "text": "Bốn góc vuông",
+          "fraction": 100
+        },
+        {
+          "text": "Bốn cạnh bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Hai đường chéo vuông góc với nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Hai góc kề một đáy bằng nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Khái niệm Hình chữ nhật",
+      "questiontext": "Nếu một tứ giác có ba góc vuông thì góc còn lại của tứ giác đó cũng là góc vuông.",
+      "generalfeedback": "Tổng bốn góc của một tứ giác bằng \\(360^{\\circ}\\). Nếu tứ giác có ba góc vuông (mỗi góc bằng \\(90^{\\circ}\\)) thì góc còn lại bằng \\(360^{\\circ} - 3 \\times 90^{\\circ} = 90^{\\circ}\\) (là góc vuông). Do đó tứ giác đó là hình chữ nhật.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Tính chất hai đường chéo",
+      "questiontext": "Cho hình chữ nhật \\(ABCD\\) có hai đường chéo \\(AC\\) và \\(BD\\) cắt nhau tại \\(O\\). Ghép mỗi khẳng định ở cột bên trái với nội dung tương ứng ở cột bên phải:",
+      "generalfeedback": "Trong hình chữ nhật, hai đường chéo bằng nhau và cắt nhau tại trung điểm của mỗi đường.",
+      "subquestions": [
+        {
+          "question": "Độ dài đoạn thẳng \\(AC\\)",
+          "answer": "Bằng độ dài đoạn thẳng \\(BD\\)"
+        },
+        {
+          "question": "Điểm \\(O\\)",
+          "answer": "Là trung điểm của cả \\(AC\\) và \\(BD\\)"
+        },
+        {
+          "question": "Đoạn thẳng \\(OA\\)",
+          "answer": "Bằng một nửa độ dài \\(AC\\)"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Tính chất hai đường chéo",
+      "questiontext": "Trong một tam giác vuông, đường trung tuyến ứng với cạnh huyền có độ dài bằng bao nhiêu phần cạnh huyền?",
+      "generalfeedback": "Theo nhận xét trong SGK, trong tam giác vuông, đường trung tuyến ứng với cạnh huyền bằng một nửa cạnh huyền.",
+      "answers": [
+        {
+          "text": "một nửa",
+          "fraction": 100
+        },
+        {
+          "text": "1/2",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Dấu hiệu nhận biết hình chữ nhật",
+      "questiontext": "Điền cụm từ thích hợp vào chỗ trống để hoàn thiện dấu hiệu nhận biết hình chữ nhật:\n1) Hình bình hành có một [[1]] là hình chữ nhật.\n2) Hình bình hành có hai đường chéo [[2]] là hình chữ nhật.",
+      "generalfeedback": "Theo Định lí 2 về dấu hiệu nhận biết hình chữ nhật: Hình bình hành có một góc vuông là hình chữ nhật; Hình bình hành có hai đường chéo bằng nhau là hình chữ nhật.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "góc vuông"
+        },
+        {
+          "group": 1,
+          "text": "bằng nhau"
+        },
+        {
+          "group": 1,
+          "text": "vuông góc"
+        },
+        {
+          "group": 1,
+          "text": "song song"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết hình chữ nhật",
+      "imgs": [
+        "_page_0_Picture_26.jpeg"
+      ],
+      "questiontext": "Quan sát sơ đồ hình chữ nhật \\(ABCD\\) với hai đường chéo \\(AC\\) và \\(BD\\) cắt nhau tại \\(O\\) dưới đây:\n[img:_page_0_Picture_26.jpeg]\nKhẳng định nào sau đây là **sai**?",
+      "generalfeedback": "Trong hình chữ nhật \\(ABCD\\), hai đường chéo \\(AC\\) và \\(BD\\) bằng nhau và cắt nhau tại trung điểm \\(O\\) của mỗi đường, do đó \\(OA = OB = OC = OD\\). Hai đường chéo của hình chữ nhật không nhất thiết phải vuông góc với nhau, nên khẳng định hai đường chéo vuông góc là sai.",
+      "answers": [
+        {
+          "text": "Hai đường chéo \\(AC\\) và \\(BD\\) vuông góc với nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Hai đường chéo \\(AC\\) và \\(BD\\) bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Điểm \\(O\\) là trung điểm của cả \\(AC\\) và \\(BD\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Bốn đoạn thẳng \\(OA, OB, OC, OD\\) bằng nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Sử dụng tính chất đường chéo hình chữ nhật để tính độ dài đoạn thẳng",
+      "questiontext": "Cho hình chữ nhật \\(ABCD\\) có độ dài hai đường chéo \\(AC = 12\\text{ cm}\\). Hai đường chéo \\(AC\\) và \\(BD\\) cắt nhau tại \\(O\\). Tính độ dài đoạn thẳng \\(OA\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Trong hình chữ nhật \\(ABCD\\), \\(O\\) là trung điểm của đường chéo \\(AC\\), do đó \\(OA = \\frac{1}{2} AC = \\frac{1}{2} \\times 12 = 6\\).",
+      "answers": [
+        {
+          "text": "6",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Sử dụng tính chất đường chéo hình chữ nhật để tính độ dài đoạn thẳng",
+      "questiontext": "Cho hình chữ nhật ABCD có độ dài đường chéo AC = {a} cm. Hai đường chéo AC và BD cắt nhau tại O. Tính độ dài đoạn thẳng OA. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Độ dài đoạn thẳng OA bằng nửa độ dài đường chéo AC, tức là bằng {a}/2.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 10.0,
+          "max": 50.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}/2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_074",
+      "questiontext": "Cho hình chữ nhật \\(ABCD\\) có hai đường chéo \\(AC\\) và \\(BD\\) cắt nhau tại \\(O\\). Giải thích vì sao tam giác \\(OAB\\) là tam giác cân tại \\(O\\).",
+      "generalfeedback": "Trong hình chữ nhật \\(ABCD\\), hai đường chéo bằng nhau (\\(AC = BD\\)) và cắt nhau tại trung điểm \\(O\\) của mỗi đường. Suy ra \\(OA = OB = \\frac{1}{2}AC\\). Vì \\(OA = OB\\) nên tam giác \\(OAB\\) cân tại \\(O\\).",
+      "answers": [
+        {
+          "text": "Vì hai đường chéo \\(AC = BD\\) và cắt nhau tại trung điểm \\(O\\) của mỗi đường nên \\(OA = OB\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Vì hai đường chéo \\(AC\\) và \\(BD\\) vuông góc với nhau tại \\(O\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Vì hai cạnh đối \\(AB\\) và \\(CD\\) song song với nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Vì hai góc ở đáy \\(A\\) và \\(B\\) đều là góc vuông",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Chứng minh hình bình hành là hình chữ nhật",
+      "questiontext": "Cho tam giác \\(ABC\\), đường cao \\(AH\\). Gọi \\(M\\) là trung điểm của \\(AC\\), \\(N\\) là điểm sao cho \\(M\\) là trung điểm của \\(HN\\). Để chứng minh tứ giác \\(AHCN\\) là hình chữ nhật theo dấu hiệu 'Hình bình hành có một góc vuông', lập luận nào sau đây là đúng?",
+      "generalfeedback": "Tứ giác \\(AHCN\\) có hai đường chéo \\(AC\\) và \\(HN\\) cắt nhau tại trung điểm \\(M\\) của mỗi đường nên \\(AHCN\\) là hình bình hành. Mặt khác, vì \\(AH \\perp BC\\) tại \\(H\\) nên \\(\\widehat{AHC} = 90^{\\circ}\\). Hình bình hành \\(AHCN\\) có một góc vuông \\(\\widehat{AHC} = 90^{\\circ}\\) nên là hình chữ nhật.",
+      "answers": [
+        {
+          "text": "Tứ giác \\(AHCN\\) có hai đường chéo cắt nhau tại trung điểm \\(M\\) nên là hình bình hành, kết hợp với \\(\\widehat{AHC} = 90^{\\circ}\\) (do \\(AH \\perp BC\\)) nên \\(AHCN\\) là hình chữ nhật.",
+          "fraction": 100
+        },
+        {
+          "text": "Tứ giác \\(AHCN\\) có hai đường chéo vuông góc với nhau tại \\(M\\) nên là hình chữ nhật.",
+          "fraction": 0
+        },
+        {
+          "text": "Tứ giác \\(AHCN\\) có \\(AN // HC\\) và \\(AH = NC\\) nên là hình chữ nhật.",
+          "fraction": 0
+        },
+        {
+          "text": "Tứ giác \\(AHCN\\) có bốn cạnh bằng nhau nên là hình chữ nhật.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Dấu hiệu nhận biết hình chữ nhật",
+      "questiontext": "Dấu hiệu nào sau đây **không** phải là dấu hiệu nhận biết hình chữ nhật?",
+      "generalfeedback": "Hình bình hành có hai đường chéo vuông góc với nhau là hình thoi, không phải là hình chữ nhật.",
+      "answers": [
+        {
+          "text": "Hình bình hành có hai đường chéo vuông góc với nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Hình bình hành có một góc vuông",
+          "fraction": 0
+        },
+        {
+          "text": "Hình bình hành có hai đường chéo bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Tứ giác có ba góc vuông",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Tính chất hai đường chéo",
+      "questiontext": "Trong một hình chữ nhật, hai đường chéo luôn bằng nhau và cắt nhau tại trung điểm của mỗi đường.",
+      "generalfeedback": "Đó là nội dung Định lí 1 về tính chất hai đường chéo của hình chữ nhật.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết hình chữ nhật",
+      "questiontext": "Cho tam giác \\(ABC\\) vuông tại \\(A\\), đường trung tuyến \\(AM\\). Biết \\(BC = 10\\text{ cm}\\). Độ dài đoạn thẳng \\(AM\\) là [[1]] cm.",
+      "generalfeedback": "Trong tam giác vuông, đường trung tuyến ứng với cạnh huyền bằng một nửa cạnh huyền. Do đó \\(AM = \\frac{1}{2} BC = \\frac{1}{2} \\times 10 = 5\\text{ cm}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "5"
+        },
+        {
+          "group": 1,
+          "text": "10"
+        },
+        {
+          "group": 1,
+          "text": "20"
+        },
+        {
+          "group": 1,
+          "text": "2.5"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_074",
+      "questiontext": "Hình chữ nhật vừa là hình bình hành vừa là hình thang cân. Do đó, hình chữ nhật có hai đường chéo [[1]] và cắt nhau tại [[2]] của mỗi đường.",
+      "generalfeedback": "Vì hình chữ nhật vừa là hình bình hành vừa là hình thang cân nên hai đường chéo bằng nhau và cắt nhau tại trung điểm của mỗi đường.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "bằng nhau"
+        },
+        {
+          "group": 1,
+          "text": "trung điểm"
+        },
+        {
+          "group": 1,
+          "text": "vuông góc"
+        },
+        {
+          "group": 1,
+          "text": "trọng tâm"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Sử dụng tính chất đường chéo hình chữ nhật để tính độ dài đoạn thẳng",
+      "imgs": [
+        "_page_1_Picture_7.jpeg"
+      ],
+      "questiontext": "Cho hình chữ nhật \\(ABCD\\) có hai đường chéo \\(AC, BD\\) cắt nhau tại \\(O\\). Kẻ \\(OH \\perp DC\\) (\\(H \\in DC\\)) như hình vẽ dưới đây:\n[img:_page_1_Picture_7.jpeg]\nBiết \\(DC = 8\\text{ cm}\\). Độ dài đoạn thẳng \\(HC\\) bằng bao nhiêu?",
+      "generalfeedback": "Vì \\(ABCD\\) là hình chữ nhật nên \\(\\triangle ODC\\) cân tại \\(O\\). Đường cao \\(OH\\) đồng thời là đường trung tuyến ứng với cạnh \\(DC\\), suy ra \\(H\\) là trung điểm của \\(DC\\). Do đó \\(HC = \\frac{1}{2} DC = \\frac{1}{2} \\times 8 = 4\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "4 cm",
+          "fraction": 100
+        },
+        {
+          "text": "8 cm",
+          "fraction": 0
+        },
+        {
+          "text": "2 cm",
+          "fraction": 0
+        },
+        {
+          "text": "16 cm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Sử dụng tính chất đường chéo hình chữ nhật để tính độ dài đoạn thẳng",
+      "questiontext": "Cho tam giác ABC vuông tại A có cạnh huyền BC = {b} cm. Gọi M là trung điểm của BC. Tính độ dài đường trung tuyến AM. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Trong tam giác vuông ABC, đường trung tuyến AM ứng với cạnh huyền BC bằng một nửa cạnh huyền, tức là AM = {b}/2.",
+      "wildcards": [
+        {
+          "name": "b",
+          "min": 6.0,
+          "max": 30.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{b}/2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Dấu hiệu nhận biết hình chữ nhật",
+      "questiontext": "Ghép mỗi điều kiện ở cột bên trái với kết luận tương ứng ở cột bên phải để tạo thành khẳng định đúng:",
+      "generalfeedback": "Các kết luận trên dựa trên định nghĩa và Định lí 2 (dấu hiệu nhận biết hình chữ nhật).",
+      "subquestions": [
+        {
+          "question": "Tứ giác có ba góc vuông",
+          "answer": "Là hình chữ nhật"
+        },
+        {
+          "question": "Hình bình hành có một góc vuông",
+          "answer": "Là hình chữ nhật"
+        },
+        {
+          "question": "Hình bình hành có hai đường chéo bằng nhau",
+          "answer": "Là hình chữ nhật"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh hình bình hành là hình chữ nhật",
+      "questiontext": "Cho tứ giác \\(ABCD\\) có \\(\\widehat{A} = 90^{\\circ}\\) và hai đường chéo \\(AC, BD\\) cắt nhau tại trung điểm \\(O\\) của mỗi đường. Tứ giác \\(ABCD\\) là hình gì?",
+      "generalfeedback": "Tứ giác có hai đường chéo cắt nhau tại trung điểm mỗi đường là hình bình hành. Hình bình hành có một góc vuông (\\(\\widehat{A} = 90^{\\circ}\\)) nên là hình chữ nhật.",
+      "answers": [
+        {
+          "text": "Hình chữ nhật",
+          "fraction": 100
+        },
+        {
+          "text": "Hình thoi",
+          "fraction": 0
+        },
+        {
+          "text": "Hình thang vuông",
+          "fraction": 0
+        },
+        {
+          "text": "Hình bình hành nhưng không phải hình chữ nhật",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Sử dụng tính chất đường chéo hình chữ nhật để tính độ dài đoạn thẳng",
+      "questiontext": "Cho hình chữ nhật \\(ABCD\\) có \\(OA = 5\\text{ cm}\\) (với \\(O\\) là giao điểm của hai đường chéo \\(AC\\) và \\(BD\\)). Tính độ dài đường chéo \\(BD\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Trong hình chữ nhật, \\(O\\) là trung điểm của \\(AC\\) và \\(BD\\), và \\(AC = BD\\). Do đó \\(BD = AC = 2 \\times OA = 2 \\times 5 = 10\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "10",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_074",
+      "questiontext": "Cho tam giác \\(ABC\\) vuông tại \\(A\\). Trên cạnh \\(BC\\) lấy điểm \\(M\\). Gọi \\(N\\) và \\(P\\) lần lượt là hình chiếu vuông góc của \\(M\\) trên \\(AB\\) và \\(AC\\). Tứ giác \\(MPAN\\) là hình gì?",
+      "generalfeedback": "Tứ giác \\(MPAN\\) có góc \\(A = 90^{\\circ}\\), góc \\(ANM = 90^{\\circ}\\) (do \\(MN \\perp AB\\)), và góc \\(APM = 90^{\\circ}\\) (do \\(MP \\perp AC\\)). Tứ giác có 3 góc vuông là hình chữ nhật.",
+      "answers": [
+        {
+          "text": "Hình chữ nhật",
+          "fraction": 100
+        },
+        {
+          "text": "Hình thoi",
+          "fraction": 0
+        },
+        {
+          "text": "Hình bình hành không phải hình chữ nhật",
+          "fraction": 0
+        },
+        {
+          "text": "Hình thang cân",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi gặp một bài toán hình học khó về chứng minh một tứ giác là hình chữ nhật, bạn Nam chưa tìm ra lời giải ngay. Để thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập, bạn Nam nên thực hiện hành động nào sau đây?",
+      "generalfeedback": "Thái độ kiên nhẫn, chủ động suy nghĩ, đọc lại lý thuyết và thử nhiều cách tiếp cận thể hiện ý chí vươn lên trong học tập.",
+      "answers": [
+        {
+          "text": "Kiên nhẫn đọc lại định nghĩa, tính chất và các dấu hiệu nhận biết hình chữ nhật trong SGK, vẽ lại hình và thử các hướng suy luận khác nhau.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài toán ngay lập tức và chờ thầy cô chữa bài trên lớp.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép lời giải từ sách tham khảo mà không cần hiểu cách chứng minh.",
+          "fraction": 0
+        },
+        {
+          "text": "Đổ lỗi cho đề bài quá khó và từ bỏ việc làm bài tập.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TULUC_C2_01",
+      "questiontext": "Để chuẩn bị tốt cho tiết học 'Bài 13. Hình chữ nhật', bạn Lan muốn chủ động hệ thống hóa kiến thức. Hành động nào sau đây thể hiện sự chủ động, tích cực của Lan trong việc tự học?",
+      "generalfeedback": "Tự lập sơ đồ tư duy và chủ động ôn tập kiến thức cốt lõi là biểu hiện của tính chủ động, tích cực trong học tập.",
+      "answers": [
+        {
+          "text": "Tự xem trước bài mới trong SGK, lập sơ đồ tư duy về khái niệm, tính chất đường chéo và các dấu hiệu nhận biết hình chữ nhật.",
+          "fraction": 100
+        },
+        {
+          "text": "Mượn vở ghi của bạn để chép lại đầy đủ trước giờ vào lớp.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ đọc bài SGK khi bị giáo viên nhắc nhở trên lớp.",
+          "fraction": 0
+        },
+        {
+          "text": "Học thuộc lòng định nghĩa hình chữ nhật trước giờ kiểm tra 5 phút mà không cần hiểu bản chất.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_02",
+      "imgs": [
+        "_page_0_Picture_9.jpeg"
+      ],
+      "questiontext": "Quan sát hai thanh tre thẳng dài bằng nhau được gắn tại trung điểm của mỗi thanh (như hình vẽ dưới đây):\n[img:_page_0_Picture_9.jpeg]\nKhi nối bốn đầu mút lại tạo thành một tứ giác, việc quan sát yếu tố hình học nào giúp ta nhận biết tứ giác đó là hình chữ nhật?",
+      "generalfeedback": "Nối bốn đầu mút ta được tứ giác có hai đường chéo là hai thanh tre. Quan sát thấy hai thanh tre cắt nhau tại trung điểm mỗi đường (tạo thành hình bình hành) và dài bằng nhau (nên hình bình hành đó là hình chữ nhật theo Định lí 2).",
+      "answers": [
+        {
+          "text": "Hai đường chéo bằng nhau và cắt nhau tại trung điểm của mỗi đường.",
+          "fraction": 100
+        },
+        {
+          "text": "Hai đường chéo vuông góc với nhau tại trung điểm.",
+          "fraction": 0
+        },
+        {
+          "text": "Bốn cạnh của tứ giác đều có độ dài bằng nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Tứ giác có một cặp cạnh đối song song và bằng nhau.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04_12",
+      "questiontext": "Bạn An muốn diễn đạt dấu hiệu nhận biết: 'Hình bình hành có hai đường chéo bằng nhau là hình chữ nhật' bằng kí hiệu toán học kết hợp với lời văn. Cách diễn đạt nào sau đây là đúng và chuẩn xác?",
+      "generalfeedback": "Sử dụng kí hiệu toán học \\(ABCD\\) là hình bình hành và \\(AC = BD\\) để kết luận \\(ABCD\\) là hình chữ nhật là cách biểu đạt đúng ngôn ngữ toán học.",
+      "answers": [
+        {
+          "text": "Nếu tứ giác \\(ABCD\\) là hình bình hành và có \\(AC = BD\\) thì \\(ABCD\\) là hình chữ nhật.",
+          "fraction": 100
+        },
+        {
+          "text": "Nếu tứ giác \\(ABCD\\) có \\(AC \\perp BD\\) thì \\(ABCD\\) là hình chữ nhật.",
+          "fraction": 0
+        },
+        {
+          "text": "Nếu tứ giác \\(ABCD\\) có \\(AB = CD\\) và \\(AD = BC\\) thì \\(ABCD\\) là hình chữ nhật.",
+          "fraction": 0
+        },
+        {
+          "text": "Nếu tứ giác \\(ABCD\\) có \\(\\widehat{A} + \\widehat{B} = 180^{\\circ}\\) thì \\(ABCD\\) là hình chữ nhật.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi làm bài tập nhóm về chứng minh hình chữ nhật, bạn Bình chủ động nhận phần bài khó nhất và kiên nhẫn giải thích lại cho các bạn chưa hiểu. Hành động này thể hiện tinh thần trách nhiệm và thái độ luôn cố gắng vươn lên trong học tập.",
+      "generalfeedback": "Sự chủ động nhận nhiệm vụ và giúp đỡ bạn bè cùng tiến bộ là biểu hiện tích cực của thái độ học tập và phẩm chất vươn lên.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04_12",
+      "questiontext": "Hoàn thiện câu biểu đạt định lý về tính chất đường chéo hình chữ nhật bằng ngôn ngữ toán học:\nTrong hình chữ nhật \\(ABCD\\), hai đường chéo \\(AC\\) và \\(BD\\) [[1]] và cắt nhau tại [[2]] của mỗi đường.",
+      "generalfeedback": "Định lý 1 phát biểu: Trong hình chữ nhật, hai đường chéo bằng nhau và cắt nhau tại trung điểm của mỗi đường.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "bằng nhau"
+        },
+        {
+          "group": 1,
+          "text": "trung điểm"
+        },
+        {
+          "group": 1,
+          "text": "vuông góc"
+        },
+        {
+          "group": 1,
+          "text": "trọng tâm"
+        }
+      ]
+    }
+  ]
+}

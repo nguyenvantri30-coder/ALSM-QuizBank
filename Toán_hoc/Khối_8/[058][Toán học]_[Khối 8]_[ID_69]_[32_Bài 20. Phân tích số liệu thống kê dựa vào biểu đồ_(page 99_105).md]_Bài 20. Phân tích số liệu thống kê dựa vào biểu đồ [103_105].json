@@ -1,0 +1,561 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 20,
+    "metadata_used": {
+      "Tiêu chí phát hiện dữ liệu không hợp lí hoặc có sai sót": 4,
+      "Nguyên nhân gây ra dữ liệu bất hợp lí trong bảng và biểu đồ": 2,
+      "YCCD_TOAN8_108": 3,
+      "Giải thích nguyên nhân sai sót của dữ liệu": 4,
+      "YCCD_TOAN8_101": 4,
+      "Nhận biết dữ liệu không hợp lí trong bảng thống kê và biểu đồ": 3,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_GQVD_PHATHIEN_C2_02": 1,
+      "NLT_TOAN_C2_01_05": 1,
+      "NLT_TOAN_C2_02_09": 1,
+      "1.2TC2f_K8": 1,
+      "8.A1.2_2": 1,
+      "8.B1.1_2": 1
+    },
+    "types_used": {
+      "multichoice": 7,
+      "truefalse": 2,
+      "numerical": 2,
+      "matching": 2,
+      "gapselect": 2,
+      "ddwtos": 2,
+      "calculated": 1,
+      "shortanswer": 1,
+      "calculatedsimple": 1
+    },
+    "total": 20
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "Tiêu chí phát hiện dữ liệu không hợp lí hoặc có sai sót",
+        "reason": "Nhận biết tiêu chí phát hiện dữ liệu không hợp lý"
+      },
+      {
+        "metadata_code": "Nguyên nhân gây ra dữ liệu bất hợp lí trong bảng và biểu đồ",
+        "reason": "Giải thích nguyên nhân dữ liệu bất hợp lý"
+      },
+      {
+        "metadata_code": "Nhận biết dữ liệu không hợp lí trong bảng thống kê và biểu đồ",
+        "reason": "Nhận biết dữ liệu không hợp lý trên biểu đồ"
+      },
+      {
+        "metadata_code": "Giải thích nguyên nhân sai sót của dữ liệu",
+        "reason": "Giải thích nguyên nhân sai sót của dữ liệu"
+      },
+      {
+        "metadata_code": "YCCD_TOAN8_108",
+        "reason": "Nhận biết số liệu không chính xác trong ví dụ"
+      },
+      {
+        "metadata_code": "YCCD_TOAN8_101",
+        "reason": "Chứng tỏ tính hợp lý của dữ liệu"
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Ý thức vươn lên trong học tập qua việc kiểm chứng bài toán"
+      },
+      {
+        "metadata_code": "SUB_GQVD_PHATHIEN_C2_02",
+        "reason": "Phát hiện tình huống có vấn đề trong biểu đồ học đường"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_05",
+        "reason": "Lập luận hợp lý khi phân tích biểu đồ"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_02_09",
+        "reason": "Kiểm chứng tính đúng đắn của lời giải toán học"
+      },
+      {
+        "metadata_code": "1.2TC2f_K8",
+        "reason": "Đánh giá dữ liệu số truyền thông / quảng cáo"
+      },
+      {
+        "metadata_code": "8.A1.2_2",
+        "reason": "Nhu cầu kiểm chứng thông tin phân tích từ AI"
+      },
+      {
+        "metadata_code": "8.B1.1_2",
+        "reason": "Nhận diện rủi ro AI phân tích sai biểu đồ do bẫy thị giác"
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Tiêu chí phát hiện dữ liệu không hợp lí hoặc có sai sót",
+      "questiontext": "Trong biểu đồ cột, khi gốc của trục đứng khác 0 thì mối quan hệ giữa tỉ lệ chiều cao các cột và tỉ lệ số liệu mà chúng biểu diễn như thế nào?",
+      "generalfeedback": "Theo nhận xét trong SGK: Trong biểu đồ cột, khi gốc của trục đứng khác 0 thì tỉ lệ chiều cao của các cột không bằng tỉ lệ số liệu mà chúng biểu diễn.",
+      "answers": [
+        {
+          "text": "Tỉ lệ chiều cao của các cột không bằng tỉ lệ số liệu mà chúng biểu diễn.",
+          "fraction": 100
+        },
+        {
+          "text": "Tỉ lệ chiều cao của các cột luôn bằng đúng tỉ lệ số liệu mà chúng biểu diễn.",
+          "fraction": 0
+        },
+        {
+          "text": "Tỉ lệ chiều cao của các cột luôn gấp đôi tỉ lệ số liệu mà chúng biểu diễn.",
+          "fraction": 0
+        },
+        {
+          "text": "Tỉ lệ chiều cao của các cột bằng một nửa tỉ lệ số liệu mà chúng biểu diễn.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Nguyên nhân gây ra dữ liệu bất hợp lí trong bảng và biểu đồ",
+      "questiontext": "Trong biểu đồ đoạn thẳng, nếu các điểm quan sát trên trục ngang được chia khoảng cách không đều nhau thì dẫn đến điều gì khi phân tích?",
+      "generalfeedback": "Theo SGK: Khi các điểm quan sát trên trục ngang không đều nhau, ta không thể dựa vào độ dốc để kết luận về tốc độ tăng, giảm của đại lượng được biểu diễn.",
+      "answers": [
+        {
+          "text": "Không thể dựa vào độ dốc để kết luận về tốc độ tăng hoặc giảm của đại lượng.",
+          "fraction": 100
+        },
+        {
+          "text": "Độ dốc của đoạn thẳng luôn phản ánh chính xác tốc độ tăng trưởng thực tế.",
+          "fraction": 0
+        },
+        {
+          "text": "Giá trị dữ liệu tại các mốc thời gian sẽ tự động bị thay đổi.",
+          "fraction": 0
+        },
+        {
+          "text": "Biểu đồ không thể biểu diễn được các số liệu thống kê.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_108",
+      "questiontext": "Đúng hay Sai: Quan sát hai biểu đồ cột biểu diễn cùng một tập dữ liệu, biểu đồ có gốc trục đứng bắt đầu từ 0 sẽ cho tỉ lệ chiều cao các cột bằng đúng tỉ lệ số liệu thực tế.",
+      "generalfeedback": "Đúng. Khi gốc trục đứng là 0, tỉ lệ chiều cao các cột phản ánh đúng tỉ lệ giữa các số liệu.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Giải thích nguyên nhân sai sót của dữ liệu",
+      "questiontext": "Cho biểu đồ cột dưới đây biểu diễn số tiền mỗi học sinh có được nhờ bán phế liệu:\n[img:_page_5_Figure_4.jpeg]\nTại sao cột biểu diễn số tiền của Tuyết cao gấp đôi cột của Khánh nhưng số tiền của Tuyết (280 nghìn đồng) lại không gấp đôi số tiền của Khánh (240 nghìn đồng)?",
+      "imgs": [
+        "_page_5_Figure_4.jpeg"
+      ],
+      "generalfeedback": "Do gốc của trục đứng không bắt đầu từ 0 (gốc trục đứng bắt đầu từ 200) nên tỉ lệ chiều cao hai cột không phản ánh đúng tỉ lệ số tiền.",
+      "answers": [
+        {
+          "text": "Do gốc của trục đứng không bắt đầu từ 0 (bắt đầu từ 200).",
+          "fraction": 100
+        },
+        {
+          "text": "Do số tiền của Tuyết bị ghi sai trên biểu đồ.",
+          "fraction": 0
+        },
+        {
+          "text": "Do chiều cao cột của Khánh bị vẽ quá ngắn.",
+          "fraction": 0
+        },
+        {
+          "text": "Do trục ngang sắp xếp tên các bạn không theo thứ tự.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_101",
+      "questiontext": "Năm 2020, dân số Việt Nam là 97,41 triệu người. Theo biểu đồ cấu trúc dân số dưới đây, tỉ lệ người thuộc nhóm tuổi lao động chính (15 – 64 tuổi) chiếm 68,94%:\n[img:_page_2_Figure_9.jpeg]\nHãy tính số người thuộc nhóm tuổi 15 – 64 tuổi của Việt Nam năm 2020 (đơn vị: người).\n(Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "imgs": [
+        "_page_2_Figure_9.jpeg"
+      ],
+      "generalfeedback": "Số người thuộc nhóm tuổi 15 – 64 năm 2020 là: 97 410 000 * 68,94% = 67 154 454 (người).",
+      "answers": [
+        {
+          "text": "67154454",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết dữ liệu không hợp lí trong bảng thống kê và biểu đồ",
+      "questiontext": "Ghép nối các hiện tượng trình bày biểu đồ bất hợp lý ở cột bên trái với nguyên nhân trực tiếp tương ứng ở cột bên phải:",
+      "generalfeedback": "Gốc trục đứng khác 0 làm tỉ lệ chiều cao cột không bằng tỉ lệ số liệu. Trục ngang chia không đều làm độ dốc đoạn thẳng gây hiểu lầm.",
+      "subquestions": [
+        {
+          "question": "Tỉ lệ chiều cao các cột trong biểu đồ cột không bằng tỉ lệ số liệu thực tế",
+          "answer": "Gốc của trục đứng không bắt đầu từ 0"
+        },
+        {
+          "question": "Độ dốc của đoạn thẳng trong biểu đồ đường gây hiểu lầm về tốc độ tăng giảm",
+          "answer": "Các mốc thời gian trên trục ngang được chia khoảng cách không đều"
+        },
+        {
+          "question": "Hai biểu đồ biểu diễn cùng dữ liệu nhưng cho cảm nhận thị giác khác hẳn nhau",
+          "answer": "Trục tọa độ được thiết lập tỉ lệ hoặc gốc tọa độ khác nhau"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Tiêu chí phát hiện dữ liệu không hợp lí hoặc có sai sót",
+      "questiontext": "Khi phân tích biểu đồ cột, yếu tố đầu tiên cần kiểm tra trên trục đứng là điểm [[1]], vì nếu điểm này khác [[2]] thì tỉ lệ chiều cao giữa các cột sẽ không phản ánh đúng tỉ lệ số liệu.",
+      "generalfeedback": "Theo bài học, cần chú ý gốc của trục đứng. Nếu gốc trục đứng khác 0 thì tỉ lệ chiều cao các cột không bằng tỉ lệ số liệu.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "gốc"
+        },
+        {
+          "group": 1,
+          "text": "0"
+        },
+        {
+          "group": 1,
+          "text": "đỉnh"
+        },
+        {
+          "group": 1,
+          "text": "100"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Giải thích nguyên nhân sai sót của dữ liệu",
+      "questiontext": "Cho biểu đồ GDP dưới đây:\n[img:_page_1_Figure_8.jpeg]\nĐoạn cuối cùng trên biểu đồ có độ dốc rất lớn khiến người đọc dễ hiểu lầm rằng GDP tăng đột biến năm 2020. Nguyên nhân là do trục ngang chia [[1]] giữa các mốc năm (khoảng cách trước năm 2020 là [[2]] năm).",
+      "imgs": [
+        "_page_1_Figure_8.jpeg"
+      ],
+      "generalfeedback": "Trục ngang chia khoảng không đều nhau (mốc trước năm 2020 là năm 2016, khoảng cách 4 năm) làm cho độ dốc đoạn thẳng bị suy diễn sai.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "không đều nhau"
+        },
+        {
+          "group": 1,
+          "text": "4"
+        },
+        {
+          "group": 1,
+          "text": "đều nhau"
+        },
+        {
+          "group": 1,
+          "text": "1"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_101",
+      "questiontext": "Cho hai biểu đồ cột biểu diễn cùng một tập dữ liệu về tỉ lệ học sinh khá, giỏi của một trường THCS năm học 2019 – 2020 (81%) và 2020 – 2021 (82%):\nBiểu đồ 1: [img:_page_0_Figure_8.jpeg]\nBiểu đồ 2: [img:_page_0_Figure_9.jpeg]\nKhẳng định nào sau đây là ĐÚNG?",
+      "imgs": [
+        "_page_0_Figure_8.jpeg",
+        "_page_0_Figure_9.jpeg"
+      ],
+      "generalfeedback": "Biểu đồ 1 có gốc trục đứng là 80% (khác 0) nên cột 82% cao gấp đôi cột 81%, gây cảm giác tăng gấp đôi dù thực tế chỉ tăng 1%. Biểu đồ 2 có gốc trục đứng là 0% phản ánh đúng tỉ lệ thực tế 82/81.",
+      "answers": [
+        {
+          "text": "Biểu đồ 1 dễ gây hiểu lầm tỉ lệ học sinh khá, giỏi năm 2020 – 2021 tăng gấp đôi năm 2019 – 2020 do gốc trục đứng bắt đầu từ 80%.",
+          "fraction": 100
+        },
+        {
+          "text": "Biểu đồ 2 gây hiểu lầm tỉ lệ học sinh khá giỏi giảm đi do các cột quá thấp.",
+          "fraction": 0
+        },
+        {
+          "text": "Cả hai biểu đồ đều phản ánh tỉ lệ chiều cao các cột đúng bằng tỉ lệ số liệu 82/81.",
+          "fraction": 0
+        },
+        {
+          "text": "Biểu đồ 1 cho số liệu chính xác hơn Biểu đồ 2 vì thể hiện rõ sự khác biệt.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_108",
+      "questiontext": "Năm 2021, GDP Việt Nam đạt 400 tỉ đô la Mỹ. Dựa vào cơ cấu GDP (lĩnh vực dịch vụ đóng góp 40,92%), số tỉ đô la Mỹ mà lĩnh vực dịch vụ đóng góp là 400 * 40,92% = 163,68 tỉ USD.\nGiả sử GDP của quốc gia A là {a} tỉ đô la Mỹ và tỉ lệ đóng góp của ngành dịch vụ là {b}%. Lĩnh vực dịch vụ đóng góp bao nhiêu tỉ đô la Mỹ?",
+      "generalfeedback": "Số tiền đóng góp của ngành dịch vụ bằng GDP nhân với tỉ lệ phần trăm: {a}*{b}/100.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 100.0,
+          "max": 1000.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 10.0,
+          "max": 60.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*{b}/100",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Tiêu chí phát hiện dữ liệu không hợp lí hoặc có sai sót",
+      "questiontext": "Khi biểu diễn cùng một tập dữ liệu, sự khác nhau về độ dốc của các đoạn thẳng trên hai biểu đồ đoạn thẳng thường do nguyên nhân nào sau đây?",
+      "generalfeedback": "Độ dốc khác nhau có thể do khoảng cách giữa các điểm quan sát trên trục ngang được chia không đều nhau hoặc tỉ lệ xích các trục khác nhau.",
+      "answers": [
+        {
+          "text": "Khoảng cách giữa các mốc thời gian trên trục ngang chia không đều nhau.",
+          "fraction": 100
+        },
+        {
+          "text": "Tập dữ liệu đầu vào của hai biểu đồ hoàn toàn khác nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Số liệu ở biểu đồ này lớn gấp đôi số liệu ở biểu đồ kia.",
+          "fraction": 0
+        },
+        {
+          "text": "Biểu đồ bị vẽ sai số liệu ở tất cả các điểm quan sát.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Nguyên nhân gây ra dữ liệu bất hợp lí trong bảng và biểu đồ",
+      "questiontext": "Cho hai biểu đồ biểu diễn doanh thu của một nhà máy (Hình 5.18):\nBiểu đồ a: [img:_page_5_Figure_7.jpeg]\nBiểu đồ b: [img:_page_5_Figure_8.jpeg]\nGiải thích tại sao hai đường gấp khúc trên hai biểu đồ có độ dốc khác nhau?",
+      "imgs": [
+        "_page_5_Figure_7.jpeg",
+        "_page_5_Figure_8.jpeg"
+      ],
+      "generalfeedback": "Khoảng cách giữa các mốc năm trên trục ngang của Biểu đồ a không đều nhau (mốc 2016-2020 chênh 4 năm, các mốc khác chênh 1 năm), trong khi Biểu đồ b chia đều.",
+      "answers": [
+        {
+          "text": "Do trục ngang của Biểu đồ a chia khoảng cách các năm không đều nhau.",
+          "fraction": 100
+        },
+        {
+          "text": "Do doanh thu của nhà máy trong Biểu đồ a tăng nhanh hơn Biểu đồ b.",
+          "fraction": 0
+        },
+        {
+          "text": "Do hai biểu đồ biểu diễn hai dãy số liệu hoàn toàn khác nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Do gốc trục đứng của Biểu đồ b bắt đầu từ giá trị âm.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết dữ liệu không hợp lí trong bảng thống kê và biểu đồ",
+      "questiontext": "Đúng hay Sai: Nếu hai biểu đồ đoạn thẳng biểu diễn cùng một dãy số liệu nhưng khoảng cách các mốc thời gian trên trục ngang khác nhau thì độ dốc của đường gấp khúc trên hai biểu đồ vẫn luôn bằng nhau.",
+      "generalfeedback": "Sai. Khoảng cách các mốc thời gian trên trục ngang khác nhau sẽ làm cho độ dốc các đoạn thẳng khác nhau.",
+      "answers": [
+        {
+          "text": "Sai",
+          "fraction": 100
+        },
+        {
+          "text": "Đúng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Tiêu chí phát hiện dữ liệu không hợp lí hoặc có sai sót",
+      "questiontext": "Trong biểu đồ đoạn thẳng, khi các điểm quan sát trên trục ngang chia không đều nhau, ta KHÔNG THỂ dựa vào yếu tố nào của đoạn thẳng để kết luận về tốc độ tăng hay giảm của đại lượng?",
+      "generalfeedback": "Không thể dựa vào độ dốc của đoạn thẳng.",
+      "answers": [
+        {
+          "text": "độ dốc",
+          "fraction": 100
+        },
+        {
+          "text": "độ dốc đoạn thẳng",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_101",
+      "questiontext": "Năm 2020, tỉ lệ người thuộc nhóm tuổi 0 – 14 tuổi của Việt Nam là 23,19% trên tổng dân số 97,41 triệu người (97 410 000 người). Tính số người thuộc nhóm tuổi 0 – 14 tuổi của Việt Nam năm 2020 (đơn vị: người).\n(Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Số người thuộc nhóm tuổi 0 – 14 là: 97 410 000 * 23,19% = 22 589 379 (người).",
+      "answers": [
+        {
+          "text": "22589379",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "Giải thích nguyên nhân sai sót của dữ liệu",
+      "questiontext": "Ghép các câu hỏi phân tích dữ liệu ở cột bên trái với cách giải thích hoặc tiêu chí toán học tương ứng ở cột bên phải:",
+      "generalfeedback": "Dựa trên các ví dụ và luyện tập phân tích biểu đồ trong bài học.",
+      "subquestions": [
+        {
+          "question": "Tại sao độ dốc GDP năm 2020 tăng mạnh ở Biểu đồ a (Hình 5.11)?",
+          "answer": "Do trục ngang chia tỉ lệ không đều giữa các đoạn năm"
+        },
+        {
+          "question": "Tại sao chiều cao cột năm 2020 – 2021 cao gấp đôi năm 2019 – 2020 ở Biểu đồ a (Hình 5.9)?",
+          "answer": "Do gốc của trục đứng không phải là 0"
+        },
+        {
+          "question": "Tại sao xu thế biến đổi số giờ ban ngày ở Canberra và Moscow ngược nhau?",
+          "answer": "Do hai thành phố nằm ở hai bán cầu khác nhau"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết dữ liệu không hợp lí trong bảng thống kê và biểu đồ",
+      "questiontext": "Trong biểu đồ đoạn thẳng, khi khoảng cách các điểm quan sát trên trục ngang không đều, việc đánh giá tốc độ tăng giảm dựa vào [[1]] có thể dẫn đến [[2]] về xu hướng thực tế của dữ liệu.",
+      "generalfeedback": "Dựa vào độ dốc của đoạn thẳng có thể dẫn đến hiểu lầm / kết luận sai.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "độ dốc"
+        },
+        {
+          "group": 1,
+          "text": "hiểu lầm"
+        },
+        {
+          "group": 1,
+          "text": "độ cao"
+        },
+        {
+          "group": 1,
+          "text": "chính xác"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_108",
+      "questiontext": "Quan sát hai biểu đồ khảo sát món ăn Việt Nam được ưa thích (Hình 5.10):\nBiểu đồ a: [img:_page_1_Figure_2.jpeg]\nBiểu đồ b: [img:_page_1_Figure_3.jpeg]\nỞ Biểu đồ a, tỉ lệ chiều cao giữa cột màu xanh và cột màu vàng [[1]] tỉ lệ hai số liệu mà chúng biểu diễn vì gốc của trục đứng [[2]].",
+      "imgs": [
+        "_page_1_Figure_2.jpeg",
+        "_page_1_Figure_3.jpeg"
+      ],
+      "generalfeedback": "Trong Biểu đồ a, gốc trục đứng khác 0 (bắt đầu từ 0,6) nên tỉ lệ chiều cao các cột không bằng tỉ lệ hai số mà chúng biểu diễn.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "không bằng"
+        },
+        {
+          "group": 1,
+          "text": "khác 0"
+        },
+        {
+          "group": 1,
+          "text": "bằng"
+        },
+        {
+          "group": 1,
+          "text": "bằng 0"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Giải thích nguyên nhân sai sót của dữ liệu",
+      "questiontext": "Cho biểu đồ số giờ ban ngày trong các tháng tại Canberra và Moscow:\n[img:_page_3_Figure_13.jpeg]\nVào hai tháng nào trong năm thì số giờ ban ngày ở hai địa điểm này gần như bằng nhau?",
+      "imgs": [
+        "_page_3_Figure_13.jpeg"
+      ],
+      "generalfeedback": "Hai đường biểu diễn cắt nhau vào khoảng tháng 3 và tháng 9.",
+      "answers": [
+        {
+          "text": "Tháng 3 và tháng 9",
+          "fraction": 100
+        },
+        {
+          "text": "Tháng 1 và tháng 6",
+          "fraction": 0
+        },
+        {
+          "text": "Tháng 6 và tháng 12",
+          "fraction": 0
+        },
+        {
+          "text": "Tháng 4 và tháng 10",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_101",
+      "questiontext": "Năm 2020, tỉ lệ người thuộc nhóm trên 64 tuổi của Việt Nam là 7,87%. Nếu tổng dân số của tỉnh X là {a} nghìn người, hãy tính số người thuộc nhóm trên 64 tuổi của tỉnh X theo tỉ lệ trên (kết quả tính theo đơn vị người, làm tròn thành công thức).",
+      "generalfeedback": "Số người = {a} * 1000 * 7,87% = {a} * 78,7.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 100.0,
+          "max": 2000.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*78.7",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    }
+  ]
+}

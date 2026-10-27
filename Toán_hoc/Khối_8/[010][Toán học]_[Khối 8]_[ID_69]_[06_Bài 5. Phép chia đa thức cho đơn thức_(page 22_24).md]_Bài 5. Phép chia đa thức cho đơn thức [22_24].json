@@ -1,0 +1,743 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 28,
+    "metadata_used": {
+      "Điều kiện đơn thức A chia hết cho đơn thức B": 2,
+      "Quy tắc chia đơn thức cho đơn thức": 1,
+      "Nhận biết điều kiện chia hết của đơn thức": 2,
+      "Thực hiện phép chia đơn thức cho đơn thức": 5,
+      "Quy tắc chia đa thức cho đơn thức": 2,
+      "YCCD_TOAN8_011": 2,
+      "Thực hiện phép chia đa thức cho đơn thức": 4,
+      "YCCD_TOAN8_007": 2,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TULUC_C2_01": 2,
+      "NLT_TOAN_C2_01_03": 2,
+      "NLT_TOAN_C2_03_04": 2
+    },
+    "types_used": {
+      "multichoice": 14,
+      "ddwtos": 1,
+      "truefalse": 3,
+      "matching": 3,
+      "calculatedsimple": 2,
+      "gapselect": 2,
+      "numerical": 1,
+      "shortanswer": 2
+    },
+    "total": 28
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "Điều kiện đơn thức A chia hết cho đơn thức B",
+        "reason": "Nhận biết điều kiện chia hết của đơn thức trong SGK"
+      },
+      {
+        "metadata_code": "Quy tắc chia đơn thức cho đơn thức",
+        "reason": "Nhận biết quy tắc chia đơn thức cho đơn thức trong SGK"
+      },
+      {
+        "metadata_code": "Quy tắc chia đa thức cho đơn thức",
+        "reason": "Nhận biết quy tắc chia đa thức cho đơn thức trong SGK"
+      },
+      {
+        "metadata_code": "Nhận biết điều kiện chia hết của đơn thức",
+        "reason": "Kỹ năng kiểm tra tính chia hết của đơn thức"
+      },
+      {
+        "metadata_code": "Thực hiện phép chia đơn thức cho đơn thức",
+        "reason": "Kỹ năng thực hiện phép chia đơn thức cho đơn thức"
+      },
+      {
+        "metadata_code": "Thực hiện phép chia đa thức cho đơn thức",
+        "reason": "Kỹ năng thực hiện phép chia đa thức cho đơn thức"
+      },
+      {
+        "metadata_code": "YCCD_TOAN8_011",
+        "reason": "YCCĐ về thực hiện phép chia đa thức cho đơn thức"
+      },
+      {
+        "metadata_code": "YCCD_TOAN8_007",
+        "reason": "YCCĐ về thực hiện phép chia đơn thức cho đơn thức"
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Phẩm chất chăm chỉ, luôn cố gắng vươn lên trong học tập"
+      },
+      {
+        "metadata_code": "SUB_TCTH_TULUC_C2_01",
+        "reason": "Năng lực tự chủ và tự học trong công việc"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_03",
+        "reason": "Năng lực tư duy và lập luận toán học"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_04",
+        "reason": "Năng lực giải quyết vấn đề toán học"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Nội dung bài học 'Phép chia đa thức cho đơn thức' thuần túy về đại số lý thuyết, không chứa dữ kiện hoặc ngữ cảnh liên quan tự nhiên đến năng lực tin học/số."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học không liên quan tự nhiên đến các ứng dụng hoặc nguyên lý của Trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Điều kiện đơn thức A chia hết cho đơn thức B",
+      "questiontext": "Cho đơn thức \\(A\\) và đơn thức \\(B \\neq 0\\). Đơn thức \\(A\\) chia hết cho đơn thức \\(B\\) khi nào?",
+      "generalfeedback": "Đơn thức \\(A\\) chia hết cho đơn thức \\(B\\) (\\(B \\neq 0\\)) khi mỗi biến của \\(B\\) đều là biến của \\(A\\) với số mũ không lớn hơn số mũ của nó trong \\(A\\).",
+      "answers": [
+        {
+          "text": "Mỗi biến của \\(B\\) đều là biến của \\(A\\) với số mũ không lớn hơn số mũ của nó trong \\(A\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Mỗi biến của \\(A\\) đều là biến của \\(B\\) với số mũ bằng số mũ của nó trong \\(B\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Đơn thức \\(A\\) và đơn thức \\(B\\) có cùng hệ số và cùng tập hợp các biến số",
+          "fraction": 0
+        },
+        {
+          "text": "Số mũ của mọi biến trong \\(B\\) lớn hơn số mũ của cùng biến đó trong \\(A\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc chia đơn thức cho đơn thức",
+      "questiontext": "Muốn chia đơn thức \\(A\\) cho đơn thức \\(B\\) (trường hợp chia hết), ta thực hiện: Chia [[1]] của đơn thức \\(A\\) cho hệ số của đơn thức \\(B\\); Chia luỹ thừa của từng biến trong \\(A\\) cho luỹ thừa của [[2]] biến đó trong \\(B\\); Nhân các kết quả [[3]] với nhau.",
+      "generalfeedback": "Quy tắc chia đơn thức \\(A\\) cho đơn thức \\(B\\): Chia hệ số của đơn thức \\(A\\) cho hệ số của đơn thức \\(B\\); Chia luỹ thừa của từng biến trong \\(A\\) cho luỹ thừa của cùng biến đó trong \\(B\\); Nhân các kết quả tìm được với nhau.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "hệ số"
+        },
+        {
+          "group": 1,
+          "text": "cùng"
+        },
+        {
+          "group": 1,
+          "text": "tìm được"
+        },
+        {
+          "group": 1,
+          "text": "cộng"
+        },
+        {
+          "group": 1,
+          "text": "khác"
+        },
+        {
+          "group": 1,
+          "text": "biến số"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết điều kiện chia hết của đơn thức",
+      "questiontext": "Đơn thức \\(A = 6x^3y\\) chia hết cho đơn thức \\(B = 3x^2y^2\\).",
+      "generalfeedback": "Khẳng định trên là Sai vì biến \\(y\\) trong \\(B\\) có số mũ là \\(2\\), lớn hơn số mũ của biến \\(y\\) trong \\(A\\) (bằng \\(1\\)).",
+      "answers": [
+        {
+          "text": "Sai",
+          "fraction": 100
+        },
+        {
+          "text": "Đúng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện phép chia đơn thức cho đơn thức",
+      "questiontext": "Kết quả của phép chia \\((-15x^2y^2) : (3x^2y)\\) là:",
+      "generalfeedback": "\\((-15x^2y^2) : (3x^2y) = (-15 : 3) \\cdot (x^2 : x^2) \\cdot (y^2 : y) = -5y\\).",
+      "answers": [
+        {
+          "text": "\\(-5y\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(-5xy\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(5y\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-5x\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Quy tắc chia đa thức cho đơn thức",
+      "questiontext": "Hãy ghép mỗi phép chia đa thức cho đơn thức với kết quả thương tương ứng:",
+      "generalfeedback": "Áp dụng quy tắc chia từng hạng tử của đa thức cho đơn thức rồi cộng các kết quả với nhau.",
+      "subquestions": [
+        {
+          "question": "\\((6x^3 - 4x^2) : (2x^2)\\)",
+          "answer": "\\(3x - 2\\)"
+        },
+        {
+          "question": "\\((12x^2y - 6xy) : (3xy)\\)",
+          "answer": "\\(4x - 2\\)"
+        },
+        {
+          "question": "\\((15x^3y^2 + 10x^2y^2) : (5x^2y^2)\\)",
+          "answer": "\\(3x + 2\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_011",
+      "questiontext": "Hai khối hộp chữ nhật có cùng thể tích [img:_page_0_Picture_8.jpeg]. Khối hộp thứ nhất có ba kích thước là \\(x\\), \\(2x\\) và \\(3y\\). Khối hộp thứ hai có diện tích đáy là \\(2xy\\). Biểu thức tính chiều cao của khối hộp thứ hai là:",
+      "imgs": [
+        "_page_0_Picture_8.jpeg"
+      ],
+      "generalfeedback": "Thể tích của khối hộp thứ nhất là \\(V = x \\cdot 2x \\cdot 3y = 6x^2y\\). Chiều cao của khối hộp thứ hai là \\(6x^2y : 2xy = 3x\\).",
+      "answers": [
+        {
+          "text": "\\(3x\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(3y\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(6x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(6xy\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện phép chia đa thức cho đơn thức",
+      "questiontext": "Kết quả của phép chia \\((6x^4y^3 - 8x^3y^4 + 2x^2y^2) : (2x^2y^2)\\) là:",
+      "generalfeedback": "\\((6x^4y^3 - 8x^3y^4 + 2x^2y^2) : (2x^2y^2) = (6x^4y^3 : 2x^2y^2) + (-8x^3y^4 : 2x^2y^2) + (2x^2y^2 : 2x^2y^2) = 3x^2y - 4xy^2 + 1\\).",
+      "answers": [
+        {
+          "text": "\\(3x^2y - 4xy^2 + 1\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(3x^2y - 4xy^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(3x^2y - 4xy^2 + 2x^2y^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(3x^3y - 4x^2y^2 + 1\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_007",
+      "questiontext": "Tính giá trị số của thương trong phép chia đơn thức {a}x^3y^2 cho đơn thức {b}x^2y khi x = 1 và y = 1.",
+      "generalfeedback": "Thương của phép chia là ({a}:{b})xy. Khi x = 1 và y = 1, giá trị thu được là {a}/{b}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 10.0,
+          "max": 50.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 2.0,
+          "max": 5.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}/{b}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết điều kiện chia hết của đơn thức",
+      "questiontext": "Cho đa thức \\(A = 9xy^4 - 12x^2y^3 + 6x^3y^2\\). Xét các đơn thức sau, đa thức \\(A\\) chia hết cho đơn thức nào?",
+      "generalfeedback": "Đa thức \\(A\\) chia hết cho \\(B = -3xy^2\\) vì mọi hạng tử của \\(A\\) đều chia hết cho \\(-3xy^2\\). Đa thức \\(A\\) không chia hết cho \\(3x^2y\\) vì hạng tử \\(9xy^4\\) không chia hết cho \\(3x^2y\\) (số mũ của \\(x\\) là \\(1 < 2\\)).",
+      "answers": [
+        {
+          "text": "\\(B = -3xy^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(B = 3x^2y\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(B = 6x^2y^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(B = -3x^3y\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện phép chia đa thức cho đơn thức",
+      "questiontext": "Cho đa thức \\(A\\) thỏa mãn \\(A \\cdot (-3xy) = 9x^3y + 3xy^3 - 6x^2y^2\\). Đa thức \\(A\\) là:",
+      "generalfeedback": "\\(A = (9x^3y + 3xy^3 - 6x^2y^2) : (-3xy) = -3x^2 - y^2 + 2x\\).",
+      "answers": [
+        {
+          "text": "\\(-3x^2 - y^2 + 2x\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(3x^2 + y^2 - 2x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-3x^2 - y^2 - 2x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-3x^2 + y^2 + 2x\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép chia đơn thức cho đơn thức",
+      "questiontext": "Hãy ghép mỗi phép chia đơn thức với thương tương ứng:",
+      "generalfeedback": "Thực hiện phép chia hệ số cho hệ số và luỹ thừa của từng biến cho luỹ thừa của cùng biến đó.",
+      "subquestions": [
+        {
+          "question": "\\(12x^4y^3 : (-4x^2y)\\)",
+          "answer": "\\(-3x^2y^2\\)"
+        },
+        {
+          "question": "\\(-15x^3y^2 : 3xy^2\\)",
+          "answer": "\\(-5x^2\\)"
+        },
+        {
+          "question": "\\(8x^2y^4 : 2xy^2\\)",
+          "answer": "\\(4xy^2\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép chia đa thức cho đơn thức",
+      "questiontext": "Thực hiện phép chia \\((7y^5z^2 - 14y^4z^3 + 2.1y^3z^4) : (-7y^3z^2)\\) thu được kết quả là:",
+      "generalfeedback": "\\((7y^5z^2 - 14y^4z^3 + 2.1y^3z^4) : (-7y^3z^2) = -y^2 + 2yz - 0.3z^2\\).",
+      "answers": [
+        {
+          "text": "\\(-y^2 + 2yz - 0.3z^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(-y^2 - 2yz + 0.3z^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(y^2 - 2yz + 0.3z^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-y^2 + 2yz + 0.3z^2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc chia đa thức cho đơn thức",
+      "questiontext": "Muốn chia đa thức \\(A\\) cho đơn thức \\(B\\) (trường hợp chia hết), ta chia từng [[1]] của \\(A\\) cho \\(B\\) rồi [[2]] các kết quả với nhau.",
+      "generalfeedback": "Muốn chia đa thức A cho đơn thức B ta chia từng hạng tử của A cho B rồi cộng các kết quả với nhau.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "hạng tử"
+        },
+        {
+          "group": 1,
+          "text": "cộng"
+        },
+        {
+          "group": 1,
+          "text": "nhân"
+        },
+        {
+          "group": 1,
+          "text": "biến số"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép chia đơn thức cho đơn thức",
+      "questiontext": "Tính giá trị của biểu thức \\(P = (12x^3y^2) : (4x^2y)\\) tại \\(x = 2\\) và \\(y = 3\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Ta có \\(P = (12:4)(x^3:x^2)(y^2:y) = 3xy\\). Thay \\(x=2, y=3\\) ta được \\(P = 3 \\cdot 2 \\cdot 3 = 18\\).",
+      "answers": [
+        {
+          "text": "18",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Điều kiện đơn thức A chia hết cho đơn thức B",
+      "questiontext": "Đa thức \\(A\\) chia hết cho đơn thức \\(B\\) nếu mọi hạng tử của \\(A\\) đều chia hết cho \\(B\\).",
+      "generalfeedback": "Theo nhận xét trong SGK: Đa thức A chia hết cho đơn thức B nếu mọi hạng tử của A đều chia hết cho B.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép chia đơn thức cho đơn thức",
+      "questiontext": "Tìm đơn thức \\(M\\) biết rằng \\(\\frac{7}{3}x^3y^2 : M = 7xy^2\\):",
+      "generalfeedback": "Ta có \\(M = \\frac{7}{3}x^3y^2 : 7xy^2 = (\\frac{7}{3} : 7) \\cdot (x^3 : x) \\cdot (y^2 : y^2) = \\frac{1}{3}x^2\\).",
+      "answers": [
+        {
+          "text": "\\(M = \\frac{1}{3}x^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(M = 3x^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(M = \\frac{1}{3}x^2y\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(M = 49x^2y^2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép chia đơn thức cho đơn thức",
+      "questiontext": "Tìm đơn thức \\(N\\) sao cho \\(N : 0.5xy^2z = -xy\\):",
+      "generalfeedback": "Ta có \\(N = (-xy) \\cdot (0.5xy^2z) = -0.5x^2y^3z\\).",
+      "answers": [
+        {
+          "text": "\\(N = -0.5x^2y^3z\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(N = -2x^2y^3z\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(N = 0.5x^2y^3z\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(N = -0.5xy^3z\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_007",
+      "questiontext": "Thực hiện phép chia đơn thức {a}x^4y^3 cho đơn thức {b}x^2y^2. Tìm hệ số của thương thu được.",
+      "generalfeedback": "Thương của phép chia là ({a}:{b})x^2y, nên hệ số của thương là {a}/{b}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 12.0,
+          "max": 60.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 2.0,
+          "max": 6.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}/{b}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện phép chia đa thức cho đơn thức",
+      "questiontext": "Tính giá trị của biểu thức \\(Q = (15x^2y^4 - 4x^3y^3 + 20x^2y) : (5x^2y)\\) tại \\(x = 1\\) và \\(y = 2\\):",
+      "generalfeedback": "Thực hiện phép chia ta được \\(Q = 3y^3 - \\frac{4}{5}xy^2 + 4\\). Thay \\(x = 1, y = 2\\) vào: \\(Q = 3(2^3) - \\frac{4}{5}(1)(2^2) + 4 = 24 - 3.2 + 4 = 24.8\\).",
+      "answers": [
+        {
+          "text": "\\(24.8\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(28\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(20.8\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(21.2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_011",
+      "questiontext": "Thương của phép chia \\((4x^3y - 8x^2y^2) : (4x^2y)\\) là bao nhiêu? (viết liền không khoảng trắng):",
+      "generalfeedback": "\\((4x^3y - 8x^2y^2) : (4x^2y) = x - 2y\\).",
+      "answers": [
+        {
+          "text": "x-2y",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi làm bài tập chia đa thức cho đơn thức \\((12x^3y^2 - 8x^2y^3) : (4x^2y)\\), bạn Nam gặp khó khăn ở các bước rút gọn biến và chưa tìm ra kết quả đúng. Để thể hiện sự cố gắng vươn lên đạt kết quả tốt trong học tập, bạn Nam nên thực hiện hành động nào sau đây?",
+      "generalfeedback": "Hành động tự giác xem lại kiến thức, phân tích lỗi sai và chủ động tìm kiếm sự hỗ trợ để hiểu bài thể hiện tinh thần luôn cố gắng vươn lên trong học tập.",
+      "answers": [
+        {
+          "text": "Chủ động xem lại quy tắc chia đơn thức, tự phân tích lại từng hạng tử rồi nhờ bạn hoặc thầy cô góp ý bài giải",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài tập này và chờ đến giờ học để chép lời giải của các bạn khác vào vở",
+          "fraction": 0
+        },
+        {
+          "text": "Nhờ bạn làm hộ toàn bộ bài tập để kịp nộp đúng hạn cho thầy cô",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ làm các câu dễ, bỏ lại câu khó mà không tìm hiểu nguyên nhân mình làm sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi gặp một bài toán chia đa thức cho đơn thức phức tạp có nhiều biến, học sinh tự giác tìm hiểu thêm các ví dụ trong sách giáo khoa và luyện tập lại nhiều lần để thành thạo kỹ năng là thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập. Khẳng định này Đúng hay Sai?",
+      "generalfeedback": "Việc tự giác luyện tập và tìm tòi học hỏi khi gặp bài toán khó thể hiện phẩm chất chăm chỉ, luôn cố gắng vươn lên trong học tập.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TULUC_C2_01",
+      "questiontext": "Bạn An lập kế hoạch tự học Bài 'Phép chia đa thức cho đơn thức'. Hãy ghép mỗi mục tiêu tự học với hành động chủ động tương ứng của bản thân:",
+      "generalfeedback": "Xác định đúng hành động tương ứng với mục tiêu thể hiện sự chủ động, tích cực trong việc quản lý và thực hiện kế hoạch tự học của bản thân.",
+      "subquestions": [
+        {
+          "question": "Nắm vững quy tắc chia đa thức cho đơn thức",
+          "answer": "Tự tóm tắt quy tắc thành sơ đồ tư duy và viết lại các bước chia"
+        },
+        {
+          "question": "Kiểm tra mức độ hiểu bài của bản thân",
+          "answer": "Tự giải các bài tập Luyện tập trong SGK rồi đối chiếu kết quả"
+        },
+        {
+          "question": "Khắc phục các dạng bài còn hay sai",
+          "answer": "Ghi chép lại các lỗi sai thường gặp khi chia hệ số và số mũ vào sổ tay"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TULUC_C2_01",
+      "questiontext": "Để chủ động hoàn thành bài tập nhóm về thực hiện phép chia \\((6x^4y^3 - 8x^3y^4) : (2xy^2)\\), mỗi thành viên nên chủ động [[1]] nhiệm vụ được giao, sau đó [[2]] kết quả làm việc của mình với nhóm để cùng hoàn thiện bài giải.",
+      "generalfeedback": "Chủ động thực hiện phần việc cá nhân và tích cực trao đổi với nhóm giúp hoàn thành tốt công việc trong học tập.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "thực hiện"
+        },
+        {
+          "group": 1,
+          "text": "trao đổi"
+        },
+        {
+          "group": 1,
+          "text": "bỏ qua"
+        },
+        {
+          "group": 1,
+          "text": "đùn đẩy"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_03",
+      "questiontext": "Khi so sánh quy tắc chia đơn thức cho đơn thức và quy tắc chia đa thức cho đơn thức (trường hợp chia hết), điểm khác biệt cơ bản về bước thực hiện là gì?",
+      "generalfeedback": "Điểm khác biệt cốt lõi là phép chia đa thức cho đơn thức đòi hỏi phải thực hiện phép chia đối với từng hạng tử của đa thức rồi mới cộng các thương thành phần lại.",
+      "answers": [
+        {
+          "text": "Chia đa thức cho đơn thức phải chia từng hạng tử của đa thức cho đơn thức rồi cộng các kết quả, còn chia đơn thức cho đơn thức chia trực tiếp hệ số và luỹ thừa các biến",
+          "fraction": 100
+        },
+        {
+          "text": "Chia đa thức cho đơn thức chỉ chia hệ số, không cần chia luỹ thừa của các biến",
+          "fraction": 0
+        },
+        {
+          "text": "Chia đơn thức cho đơn thức phải phân tích đa thức thành nhân tử trước khi chia",
+          "fraction": 0
+        },
+        {
+          "text": "Không có điểm khác biệt nào vì cả hai phép chia đều thực hiện hoàn toàn giống nhau ở mọi bước",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_03",
+      "questiontext": "Xét hai phép chia: (1) \\(15x^3y^2 : (3xy^2)\\) và (2) \\((15x^3y^2 + 6x^2y) : (3xy^2)\\). Điểm tương đồng và khác biệt về tính chia hết của hai phép chia này là gì?",
+      "generalfeedback": "Hạng tử \\(15x^3y^2\\) chia hết cho \\(3xy^2\\) trong cả hai trường hợp, nhưng ở phép chia (2), hạng tử \\(6x^2y\\) có số mũ của \\(y\\) (bằng 1) nhỏ hơn số mũ của \\(y\\) trong đơn thức chia (bằng 2) nên phép chia (2) không phải là phép chia hết.",
+      "answers": [
+        {
+          "text": "Tương đồng: Đều chứa hạng tử \\(15x^3y^2\\) chia hết cho \\(3xy^2\\); Khác biệt: Phép chia (1) là phép chia hết, còn phép chia (2) không là phép chia hết vì hạng tử \\(6x^2y\\) không chia hết cho \\(3xy^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Cả hai phép chia đều là phép chia hết vì đa thức và đơn thức đều có chứa các biến \\(x, y\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Cả hai phép chia đều không chia hết vì có số mũ của \\(x\\) lớn hơn số mũ của \\(y\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Tương đồng: Đều là phép chia hết; Khác biệt: Thương của phép chia (1) có bậc lớn hơn thương của phép chia (2)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_04",
+      "questiontext": "Một hình hộp chữ nhật có thể tích được biểu diễn bởi đa thức \\(V = 12x^3y^2 + 8x^2y^3\\) (cm\\(^3\\)) và diện tích đáy là \\(S = 4x^2y\\) (cm\\(^2\\)) với \\(x > 0, y > 0\\). Sử dụng kiến thức phép chia đa thức cho đơn thức, chiều cao \\(h\\) của hình hộp chữ nhật đó được tính theo biểu thức nào?",
+      "generalfeedback": "Chiều cao hình hộp chữ nhật được tính theo công thức \\(h = V : S = (12x^3y^2 + 8x^2y^3) : (4x^2y) = 3xy + 2y^2\\) (cm).",
+      "answers": [
+        {
+          "text": "\\(h = 3xy + 2y^2\\) (cm)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(h = 3x^2y + 2xy^2\\) (cm)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(h = 3xy + 2y\\) (cm)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(h = 4xy + 2y^2\\) (cm)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_04",
+      "questiontext": "Khối hộp thứ nhất có thể tích \\(V_1 = 6x^2y\\). Khối hộp thứ hai có thể tích \\(V_2\\) bằng thể tích \\(V_1\\) và diện tích đáy \\(S_2 = 2xy\\) [img:_page_0_Picture_9.jpeg]. Tìm biểu thức tính chiều cao của khối hộp thứ hai (viết dạng rút gọn, ví dụ: 3x):",
+      "imgs": [
+        "_page_0_Picture_9.jpeg"
+      ],
+      "generalfeedback": "Chiều cao của khối hộp thứ hai là \\(h_2 = V_2 : S_2 = 6x^2y : (2xy) = 3x\\).",
+      "answers": [
+        {
+          "text": "3x",
+          "fraction": 100
+        }
+      ]
+    }
+  ]
+}

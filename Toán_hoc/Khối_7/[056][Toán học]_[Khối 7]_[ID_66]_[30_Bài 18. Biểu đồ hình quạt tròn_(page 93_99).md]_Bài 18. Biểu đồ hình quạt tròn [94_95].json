@@ -1,0 +1,711 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 26,
+    "metadata_used": {
+      "Cấu trúc biểu đồ hình quạt tròn": 3,
+      "Ý nghĩa các hình quạt biểu diễn tỉ lệ phần trăm": 4,
+      "Mô tả các thành phần của biểu đồ quạt tròn": 2,
+      "YCCD_TOAN7_121": 4,
+      "YCCD_TOAN7_122": 2,
+      "Đọc và giải thích số liệu từ biểu đồ hình quạt tròn": 5,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_GIAOTIEP": 1,
+      "NLC_GIAIQUYETVD": 1,
+      "NLT_TOAN_C2_02": 1,
+      "NLT_TOAN_C2_03": 1
+    },
+    "types_used": {
+      "multichoice": 14,
+      "truefalse": 1,
+      "shortanswer": 2,
+      "gapselect": 2,
+      "ddwtos": 1,
+      "calculated": 1,
+      "numerical": 2,
+      "matching": 1,
+      "calculatedsimple": 1,
+      "calculatedmulti": 1
+    },
+    "total": 26
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_121",
+        "reason": "Đọc dữ liệu từ biểu đồ quạt tròn trong SGK"
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_122",
+        "reason": "Mô tả dữ liệu từ biểu đồ quạt tròn trong SGK"
+      },
+      {
+        "metadata_code": "Cấu trúc biểu đồ hình quạt tròn",
+        "reason": "Khái niệm và cấu trúc biểu đồ hình quạt tròn"
+      },
+      {
+        "metadata_code": "Ý nghĩa các hình quạt biểu diễn tỉ lệ phần trăm",
+        "reason": "Ý nghĩa tỉ lệ % của các hình quạt"
+      },
+      {
+        "metadata_code": "Đọc và giải thích số liệu từ biểu đồ hình quạt tròn",
+        "reason": "Đọc và tính toán giải thích số liệu"
+      },
+      {
+        "metadata_code": "Mô tả các thành phần của biểu đồ quạt tròn",
+        "reason": "Mô tả các thành phần cấu tạo của biểu đồ quạt tròn"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học không thuộc hợp phần Tin học/Công nghệ số trực tiếp, không đủ cơ sở dữ liệu SGK môn Toán để đo lường năng lực tin học."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học thuần túy kiến thức toán học cơ bản về biểu đồ hình quạt tròn, không chứa bối cảnh ứng dụng Trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Cấu trúc biểu đồ hình quạt tròn",
+      "questiontext": "Biểu đồ hình quạt tròn chủ yếu được dùng để làm gì?",
+      "generalfeedback": "Biểu đồ hình quạt tròn dùng để so sánh các phần trong toàn bộ dữ liệu.",
+      "answers": [
+        {
+          "text": "So sánh các phần trong toàn bộ dữ liệu",
+          "fraction": 100
+        },
+        {
+          "text": "Biểu diễn sự thay đổi của dữ liệu theo thời gian",
+          "fraction": 0
+        },
+        {
+          "text": "So sánh số lượng giữa các đối tượng độc lập",
+          "fraction": 0
+        },
+        {
+          "text": "Biểu diễn sự tương quan giữa hai đại lượng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Ý nghĩa các hình quạt biểu diễn tỉ lệ phần trăm",
+      "questiontext": "Trong biểu đồ hình quạt tròn, toàn bộ hình tròn biểu diễn toàn bộ dữ liệu, ứng với tỉ lệ bao nhiêu phần trăm?",
+      "generalfeedback": "Cả hình tròn biểu diễn toàn bộ dữ liệu, tức là ứng với \\(100\\%\\).",
+      "answers": [
+        {
+          "text": "\\(100\\%\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(50\\%\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(25\\%\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(200\\%\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Mô tả các thành phần của biểu đồ quạt tròn",
+      "imgs": [
+        "_page_0_Figure_17.jpeg"
+      ],
+      "questiontext": "Quan sát Hình 5.5 [img:_page_0_Figure_17.jpeg], đâu KHÔNG phải là thành phần của biểu đồ hình quạt tròn?",
+      "generalfeedback": "Biểu đồ hình quạt tròn gồm hình tròn, các hình quạt biểu diễn dữ liệu, chú giải và tên biểu đồ; không có hệ trục tọa độ.",
+      "answers": [
+        {
+          "text": "Trục tung và trục hoành",
+          "fraction": 100
+        },
+        {
+          "text": "Hình tròn biểu diễn toàn bộ dữ liệu",
+          "fraction": 0
+        },
+        {
+          "text": "Các hình quạt biểu diễn các phần dữ liệu",
+          "fraction": 0
+        },
+        {
+          "text": "Chú giải và tên biểu đồ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Ý nghĩa các hình quạt biểu diễn tỉ lệ phần trăm",
+      "questiontext": "Trong cùng một biểu đồ hình quạt tròn, hai hình quạt giống nhau (có cùng diện tích) biểu diễn hai tỉ lệ phần trăm bằng nhau.",
+      "generalfeedback": "Theo nhận xét trong SGK, hai hình quạt giống nhau biểu diễn cùng một tỉ lệ.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Ý nghĩa các hình quạt biểu diễn tỉ lệ phần trăm",
+      "questiontext": "Trong biểu đồ hình quạt tròn, phần hình quạt ứng với một nửa hình tròn biểu diễn tỉ lệ bao nhiêu?",
+      "generalfeedback": "Phần hình quạt ứng với một nửa hình tròn biểu diễn tỉ lệ \\(50\\%\\).",
+      "answers": [
+        {
+          "text": "\\(50\\%\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(25\\%\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(100\\%\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(75\\%\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Ý nghĩa các hình quạt biểu diễn tỉ lệ phần trăm",
+      "questiontext": "Phần hình quạt ứng với \\(\\frac{1}{4}\\) hình tròn biểu diễn tỉ lệ bao nhiêu phần trăm? (Chỉ điền số)",
+      "generalfeedback": "Phần hình quạt ứng với \\(\\frac{1}{4}\\) hình tròn biểu diễn tỉ lệ \\(25\\%\\).",
+      "answers": [
+        {
+          "text": "25",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_121",
+      "questiontext": "Trong biểu đồ hình quạt tròn, cả hình tròn biểu diễn [[1]] dữ liệu, tức là ứng với [[2]].",
+      "generalfeedback": "Cả hình tròn biểu diễn toàn bộ dữ liệu, tức là ứng với \\(100\\%\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "toàn bộ"
+        },
+        {
+          "group": 1,
+          "text": "100%"
+        },
+        {
+          "group": 1,
+          "text": "một phần"
+        },
+        {
+          "group": 1,
+          "text": "50%"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_122",
+      "questiontext": "Mỗi hình quạt trong biểu đồ hình quạt tròn biểu diễn [[1]] của một phần so với [[2]] dữ liệu.",
+      "generalfeedback": "Mỗi hình quạt biểu diễn tỉ lệ của một phần so với toàn bộ dữ liệu.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "tỉ lệ"
+        },
+        {
+          "group": 1,
+          "text": "toàn bộ"
+        },
+        {
+          "group": 1,
+          "text": "số lượng"
+        },
+        {
+          "group": 1,
+          "text": "một nửa"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Đọc và giải thích số liệu từ biểu đồ hình quạt tròn",
+      "questiontext": "Một biểu đồ hình quạt tròn biểu diễn tỉ lệ các loại sách trong thư viện. Biết tỉ lệ sách tham khảo là {a}% và tổng số sách là {b} cuốn. Tính số cuốn sách tham khảo. (Chỉ điền số)",
+      "generalfeedback": "Số cuốn sách tham khảo = \\(\\frac{\\{a\\} \\times \\{b\\}}{100}\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 10.0,
+          "max": 40.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 200.0,
+          "max": 1000.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*{b}/100",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Đọc và giải thích số liệu từ biểu đồ hình quạt tròn",
+      "questiontext": "Một cửa hàng bán được tổng cộng 200 chiếc kem trong một ngày. Theo biểu đồ hình quạt tròn, loại kem đậu xanh chiếm tỉ lệ 25%. Hỏi cửa hàng đó bán được bao nhiêu chiếc kem đậu xanh? (Chỉ điền số)",
+      "generalfeedback": "Số kem đậu xanh bán được: \\(200 \\times 25\\% = 50\\) chiếc.",
+      "answers": [
+        {
+          "text": "50",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Mô tả các thành phần của biểu đồ quạt tròn",
+      "questiontext": "Ghép mỗi khái niệm hoặc thành phần của biểu đồ hình quạt tròn ở cột bên trái với mô tả tương ứng ở cột bên phải.",
+      "generalfeedback": "Hình tròn biểu diễn toàn bộ dữ liệu (100%), hình quạt biểu diễn tỉ lệ một phần dữ liệu, hai hình quạt bằng nhau biểu diễn cùng tỉ lệ.",
+      "subquestions": [
+        {
+          "question": "Cả hình tròn",
+          "answer": "Biểu diễn toàn bộ dữ liệu (100%)"
+        },
+        {
+          "question": "Một hình quạt",
+          "answer": "Biểu diễn tỉ lệ của một phần dữ liệu"
+        },
+        {
+          "question": "Hai hình quạt giống nhau",
+          "answer": "Biểu diễn cùng một tỉ lệ phần trăm"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_121",
+      "imgs": [
+        "_page_1_Figure_10.jpeg"
+      ],
+      "questiontext": "Quan sát Hình 5.7 [img:_page_1_Figure_10.jpeg] về tỉ lệ các loại kem bán được trong một ngày của cửa hàng. Loại kem nào bán được nhiều nhất?",
+      "generalfeedback": "Loại kem socola chiếm tỉ lệ lớn nhất là 30%.",
+      "answers": [
+        {
+          "text": "Socola",
+          "fraction": 100
+        },
+        {
+          "text": "Dừa",
+          "fraction": 0
+        },
+        {
+          "text": "Vani",
+          "fraction": 0
+        },
+        {
+          "text": "Xoài",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_121",
+      "imgs": [
+        "_page_1_Figure_10.jpeg"
+      ],
+      "questiontext": "Theo Hình 5.7 [img:_page_1_Figure_10.jpeg], loại kem dừa chiếm tỉ lệ bao nhiêu phần trăm trong tổng số kem bán được?",
+      "generalfeedback": "Quan sát biểu đồ Hình 5.7, loại kem dừa chiếm tỉ lệ \\(25\\%\\).",
+      "answers": [
+        {
+          "text": "\\(25\\%\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(30\\%\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(20\\%\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(10\\%\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Đọc và giải thích số liệu từ biểu đồ hình quạt tròn",
+      "imgs": [
+        "_page_1_Figure_10.jpeg"
+      ],
+      "questiontext": "Biết cửa hàng bán được tổng cộng 100 ly kem trong ngày (theo Hình 5.7 [img:_page_1_Figure_10.jpeg]). Hỏi cửa hàng bán được bao nhiêu ly kem socola? (Chỉ điền số)",
+      "generalfeedback": "Số ly kem socola bán được: \\(100 \\times 30\\% = 30\\) ly.",
+      "answers": [
+        {
+          "text": "30",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Đọc và giải thích số liệu từ biểu đồ hình quạt tròn",
+      "questiontext": "Một biểu đồ hình quạt tròn biểu diễn tỉ lệ môn thể thao yêu thích của học sinh Lớp 7A. Tỉ lệ chọn môn Bóng đá là {a}%. Nếu lớp 7A có {b} học sinh, số học sinh chọn môn Bóng đá là bao nhiêu? (Chỉ điền số)",
+      "generalfeedback": "Số học sinh chọn môn Bóng đá là \\(\\frac{\\{a\\} \\times \\{b\\}}{100}\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 20.0,
+          "max": 50.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 30.0,
+          "max": 40.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*{b}/100",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "Đọc và giải thích số liệu từ biểu đồ hình quạt tròn",
+      "questiontext": "Biết tổng số dữ liệu là {N} và tỉ lệ phần trăm của một thành phần là {p}%. Công thức nào sau đây tính đúng số lượng của thành phần đó?",
+      "generalfeedback": "Công thức tính giá trị thành phần là \\(\\frac{\\{N\\} \\times \\{p\\}}{100}\\).",
+      "wildcards": [
+        {
+          "name": "N",
+          "min": 100.0,
+          "max": 1000.0,
+          "decimals": 0
+        },
+        {
+          "name": "p",
+          "min": 5.0,
+          "max": 90.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{N}*{p}/100",
+          "fraction": 100
+        },
+        {
+          "text": "{N}*100/{p}",
+          "fraction": 0
+        },
+        {
+          "text": "{N}+{p}",
+          "fraction": 0
+        },
+        {
+          "text": "{N}-{p}",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_122",
+      "imgs": [
+        "_page_1_Figure_4.jpeg"
+      ],
+      "questiontext": "Quan sát Hình 5.6 [img:_page_1_Figure_4.jpeg] về kết quả trao huy chương, khẳng định nào sau đây là ĐÚNG?",
+      "generalfeedback": "Hai loại Huy chương Vàng và Huy chương Bạc có cùng tỉ lệ là 15%.",
+      "answers": [
+        {
+          "text": "Hai loại Huy chương Vàng và Huy chương Bạc có cùng tỉ lệ",
+          "fraction": 100
+        },
+        {
+          "text": "Số thí sinh đạt Huy chương Đồng chiếm tỉ lệ nhiều nhất",
+          "fraction": 0
+        },
+        {
+          "text": "Số thí sinh không có huy chương chiếm tỉ lệ 25%",
+          "fraction": 0
+        },
+        {
+          "text": "Huy chương Bạc chiếm tỉ lệ cao hơn Huy chương Đồng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_121",
+      "imgs": [
+        "_page_1_Figure_4.jpeg"
+      ],
+      "questiontext": "Quan sát Hình 5.6 [img:_page_1_Figure_4.jpeg], số thí sinh không có huy chương chiếm tỉ lệ bao nhiêu phần trăm? (Chỉ điền số, không ghi đơn vị %)",
+      "generalfeedback": "Theo biểu đồ Hình 5.6, phần không có huy chương ứng với một nửa hình tròn nên chiếm tỉ lệ 50%.",
+      "answers": [
+        {
+          "text": "50",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Cấu trúc biểu đồ hình quạt tròn",
+      "questiontext": "Trong biểu đồ hình quạt tròn, phần hình tròn biểu diễn toàn bộ dữ liệu được chia thành nhiều [[1]] (được tô màu khác nhau). Mỗi hình quạt biểu diễn [[2]] của một phần so với toàn bộ dữ liệu.",
+      "generalfeedback": "Hình tròn được chia thành nhiều hình quạt, mỗi hình quạt biểu diễn tỉ lệ của một phần so với toàn bộ dữ liệu.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "hình quạt"
+        },
+        {
+          "group": 1,
+          "text": "tỉ lệ"
+        },
+        {
+          "group": 1,
+          "text": "hình vuông"
+        },
+        {
+          "group": 1,
+          "text": "số lượng"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Cấu trúc biểu đồ hình quạt tròn",
+      "questiontext": "Hình quạt biểu diễn tỉ lệ \\(50\\%\\) có hình dạng như thế nào trong biểu đồ hình quạt tròn?",
+      "generalfeedback": "Phần hình quạt ứng với một nửa hình tròn biểu diễn tỉ lệ \\(50\\%\\).",
+      "answers": [
+        {
+          "text": "Một nửa hình tròn",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{1}{4}\\) hình tròn",
+          "fraction": 0
+        },
+        {
+          "text": "Cả hình tròn",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{1}{3}\\) hình tròn",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Khi lập bảng thống kê tỉ lệ từ biểu đồ hình quạt tròn trong bài tập nhóm, bạn An thấy một số liệu khá nhỏ và khó đọc chính xác ngay lập tức. Hành động nào sau đây thể hiện tính chăm chỉ của An?",
+      "generalfeedback": "Thói quen kiên nhẫn kiểm tra, đối chiếu kỹ lưỡng số liệu từ chú giải và biểu đồ thể hiện phẩm chất chăm chỉ.",
+      "answers": [
+        {
+          "text": "Kiên nhẫn xem kỹ chú giải, đối chiếu lại tổng các tỉ lệ để xác định đúng số liệu",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua phần số liệu nhỏ đó và chỉ ghi các số liệu lớn dễ đọc",
+          "fraction": 0
+        },
+        {
+          "text": "Đoán đại một con số bất kỳ cho xong bài tập",
+          "fraction": 0
+        },
+        {
+          "text": "Chờ bạn khác làm xong rồi chép lại mà không tự tìm hiểu",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Trong quá trình khảo sát thực tế về môn thể thao yêu thích của các bạn trong lớp, kết quả khảo sát không đúng như dự đoán ban đầu của Bình. Bình nên làm gì để thể hiện tính trung thực?",
+      "generalfeedback": "Trung thực là ghi nhận và báo cáo đúng số liệu thực tế thu thập được, không tự ý thay đổi số liệu theo ý chí cá nhân.",
+      "answers": [
+        {
+          "text": "Ghi nhận và báo cáo chính xác đúng số liệu thu thập được lên biểu đồ",
+          "fraction": 100
+        },
+        {
+          "text": "Tự ý sửa lại tỉ lệ phần trăm cho giống với dự đoán ban đầu của mình",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ bớt phiếu khảo sát của những bạn có ý kiến khác mình",
+          "fraction": 0
+        },
+        {
+          "text": "Thêm số liệu giả vào biểu đồ để kết quả đẹp hơn",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_GIAOTIEP",
+      "imgs": [
+        "_page_0_Figure_10.jpeg"
+      ],
+      "questiontext": "Khi thảo luận nhóm về Hình 5.4 [img:_page_0_Figure_10.jpeg], nhóm của Nam cần trình bày báo cáo trước lớp về các nguyên nhân gây tai nạn thương tích ở trẻ em. Cách trình bày nào thể hiện tốt năng lực giao tiếp và hợp tác?",
+      "generalfeedback": "Lắng nghe ý kiến các thành viên, phân công nhiệm vụ rõ ràng và trình bày mạch lạc, logic giúp nâng cao hiệu quả giao tiếp và hợp tác nhóm.",
+      "answers": [
+        {
+          "text": "Phân công cụ thể thành viên đọc số liệu, thành viên tổng hợp nhận xét và thống nhất ý kiến trước khi trình bày",
+          "fraction": 100
+        },
+        {
+          "text": "Một thành viên tự quyết định toàn bộ nội dung mà không hỏi ý kiến các bạn khác",
+          "fraction": 0
+        },
+        {
+          "text": "Mỗi người nói một ý ngẫu nhiên, không sắp xếp theo thứ tự hay chủ đề",
+          "fraction": 0
+        },
+        {
+          "text": "Đẩy hết việc trình bày cho một bạn và các thành viên còn lại không tham gia",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLC_GIAIQUYETVD",
+      "imgs": [
+        "_page_0_Figure_10.jpeg"
+      ],
+      "questiontext": "Dựa vào biểu đồ nguyên nhân gây tai nạn thương tích ở trẻ em (Hình 5.4 [img:_page_0_Figure_10.jpeg]), nhận thấy tỉ lệ đuối nước chiếm cao nhất (48%), nhóm bạn Mai muốn đề xuất một giải pháp phòng chống tai nạn cho học sinh trong trường. Đề xuất nào sau đây thể hiện năng lực giải quyết vấn đề và sáng tạo?",
+      "generalfeedback": "Nhận diện đúng nguyên nhân chiếm tỉ lệ lớn nhất và đề xuất giải pháp thiết thực, sáng tạo (như tuyên truyền, tổ chức lớp học bơi an toàn) thể hiện năng lực giải quyết vấn đề.",
+      "answers": [
+        {
+          "text": "Tổ chức chiến dịch tuyên truyền kỹ năng an toàn dưới nước và đề xuất nhà trường mở lớp học bơi",
+          "fraction": 100
+        },
+        {
+          "text": "Cấm tất cả học sinh không được đến gần bất kỳ nguồn nước nào",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ quan tâm đến các nguyên nhân chiếm tỉ lệ nhỏ như ngộ độc (2%)",
+          "fraction": 0
+        },
+        {
+          "text": "Không làm gì vì cho rằng tai nạn là do may rủi",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_02",
+      "questiontext": "Một nhóm học sinh khảo sát phương tiện đến trường của 100 bạn và thu được kết quả: Đi bộ (50 bạn), Xe đạp (25 bạn), Xe máy do cha mẹ chở (25 bạn). Khi biểu diễn dữ liệu này lên biểu đồ hình quạt tròn, mô hình biểu đồ nào sau đây là phù hợp nhất?",
+      "generalfeedback": "Đi bộ chiếm 50% (một nửa hình tròn), Xe đạp chiếm 25% (1/4 hình tròn), Xe máy chiếm 25% (1/4 hình tròn).",
+      "answers": [
+        {
+          "text": "Hình tròn chia thành 3 hình quạt: 1 hình quạt chiếm nửa hình tròn, 2 hình quạt còn lại mỗi hình chiếm \\(\\frac{1}{4}\\) hình tròn",
+          "fraction": 100
+        },
+        {
+          "text": "Hình tròn chia thành 3 hình quạt bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Hình tròn chia thành 4 hình quạt bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Hình tròn chia thành 2 hình quạt bằng nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "imgs": [
+        "_page_1_Figure_10.jpeg"
+      ],
+      "questiontext": "Từ biểu đồ Hình 5.7 [img:_page_1_Figure_10.jpeg], chủ cửa hàng kem muốn chuẩn bị nguyên liệu cho ngày hôm sau. Dựa trên số liệu tỉ lệ các loại kem bán được (Socola 33,3%, Sữa dừa 25%, Ốc quế 25%, Đậu xanh 16,7%), quyết định nhập nguyên liệu nào sau đây là hợp lý nhất?",
+      "generalfeedback": "Dựa trên tỉ lệ phân bố dữ liệu của biểu đồ quạt tròn, loại bán chạy nhất (Socola) cần chuẩn bị nhiều nguyên liệu nhất, loại bán ít nhất (Đậu xanh) chuẩn bị ít hơn.",
+      "answers": [
+        {
+          "text": "Nhập nguyên liệu làm kem Socola nhiều nhất và nguyên liệu kem Đậu xanh ít nhất",
+          "fraction": 100
+        },
+        {
+          "text": "Nhập lượng nguyên liệu kem Đậu xanh nhiều nhất",
+          "fraction": 0
+        },
+        {
+          "text": "Nhập số lượng nguyên liệu bằng nhau cho tất cả các loại kem",
+          "fraction": 0
+        },
+        {
+          "text": "Ngừng nhập nguyên liệu làm kem Socola",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

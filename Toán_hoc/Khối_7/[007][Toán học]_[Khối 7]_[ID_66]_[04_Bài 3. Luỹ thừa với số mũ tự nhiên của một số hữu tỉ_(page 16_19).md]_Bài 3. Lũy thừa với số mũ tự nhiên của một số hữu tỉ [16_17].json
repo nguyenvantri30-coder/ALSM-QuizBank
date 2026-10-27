@@ -1,0 +1,675 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 26,
+    "metadata_used": {
+      "Khái niệm lũy thừa số mũ tự nhiên của số hữu tỉ": 2,
+      "Quy ước lũy thừa cơ số khác 0": 2,
+      "Tính giá trị lũy thừa của một số hữu tỉ": 8,
+      "Biểu diễn một số dưới dạng lũy thừa": 4,
+      "YCCD_TOAN7_012": 1,
+      "YCCD_TOAN7_023": 3,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_TUCHUTUHOC": 1,
+      "NLC_GIAOTIEP": 1,
+      "NLT_TOAN_C2_01": 1,
+      "NLT_TOAN_C2_03": 1
+    },
+    "types_used": {
+      "multichoice": 14,
+      "gapselect": 3,
+      "truefalse": 2,
+      "numerical": 2,
+      "calculated": 1,
+      "matching": 2,
+      "ddwtos": 1,
+      "calculatedsimple": 1
+    },
+    "total": 26
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_012",
+        "reason": "Mô tả được phép tính luỹ thừa với số mũ tự nhiên của một số hữu tỉ."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_023",
+        "reason": "Giải quyết được một số vấn đề thực tiễn gắn với các phép tính về số hữu tỉ."
+      },
+      {
+        "metadata_code": "Khái niệm lũy thừa số mũ tự nhiên của số hữu tỉ",
+        "reason": "Khái niệm lũy thừa số mũ tự nhiên của số hữu tỉ."
+      },
+      {
+        "metadata_code": "Quy ước lũy thừa cơ số khác 0",
+        "reason": "Quy ước lũy thừa cơ số khác 0."
+      },
+      {
+        "metadata_code": "Tính giá trị lũy thừa của một số hữu tỉ",
+        "reason": "Tính giá trị lũy thừa của một số hữu tỉ."
+      },
+      {
+        "metadata_code": "Biểu diễn một số dưới dạng lũy thừa",
+        "reason": "Biểu diễn một số dưới dạng lũy thừa."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N",
+        "reason": "Nội dung Tiết 1 - Bài 3 Lũy thừa không chứa yếu tố tự nhiên về phần mềm, máy tính hay công cụ số để đo lường Năng lực tin học / số."
+      },
+      {
+        "metadata_code": "A",
+        "reason": "Nội dung Tiết 1 - Bài 3 Lũy thừa là kiến thức toán thuần túy, không có bối cảnh tự nhiên liên quan đến ứng dụng Trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm lũy thừa số mũ tự nhiên của số hữu tỉ",
+      "questiontext": "Cho \\(x \\in \\mathbb{Q}\\) và \\(n \\in \\mathbb{N}, n > 1\\). Khẳng định nào sau đây phát biểu đúng về định nghĩa lũy thừa bậc \\(n\\) của số hữu tỉ \\(x\\)?",
+      "generalfeedback": "Theo SGK: Lũy thừa bậc \\(n\\) của một số hữu tỉ \\(x\\), kí hiệu \\(x^n\\), là tích của \\(n\\) thừa số \\(x\\) (với \\(n \\in \\mathbb{N}, n > 1\\)).",
+      "answers": [
+        {
+          "text": "Lũy thừa bậc \\(n\\) của \\(x\\) là tích của \\(n\\) thừa số \\(x\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Lũy thừa bậc \\(n\\) của \\(x\\) là tổng của \\(n\\) số hạng \\(x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Lũy thừa bậc \\(n\\) của \\(x\\) là thương của \\(x\\) cho \\(n\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Lũy thừa bậc \\(n\\) của \\(x\\) là tích của \\(x\\) và \\(n\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm lũy thừa số mũ tự nhiên của số hữu tỉ",
+      "questiontext": "Trong kí hiệu lũy thừa \\(x^n\\) \\((x \\in \\mathbb{Q}, n \\in \\mathbb{N}, n > 1)\\), \\(x\\) được gọi là [[1]] và \\(n\\) được gọi là [[2]].",
+      "generalfeedback": "Trong biểu thức \\(x^n\\), \\(x\\) gọi là cơ số, \\(n\\) gọi là số mũ.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "cơ số"
+        },
+        {
+          "group": 1,
+          "text": "số mũ"
+        },
+        {
+          "group": 1,
+          "text": "thừa số"
+        },
+        {
+          "group": 1,
+          "text": "tích"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Quy ước lũy thừa cơ số khác 0",
+      "questiontext": "Quy ước lũy thừa với số mũ \\(0\\) của một số hữu tỉ khác \\(0\\) là \\(x^0 = 1\\) (với \\(x \\neq 0\\)). Khẳng định này Đúng hay Sai?",
+      "generalfeedback": "Theo quy ước SGK Toán 7: \\(x^0 = 1\\) với mọi \\(x \\neq 0\\) và \\(x^1 = x\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tính giá trị lũy thừa của một số hữu tỉ",
+      "questiontext": "Giá trị của lũy thừa \\((-3)^3\\) bằng:",
+      "generalfeedback": "Ta có: \\((-3)^3 = (-3) \\cdot (-3) \\cdot (-3) = -27\\).",
+      "answers": [
+        {
+          "text": "\\(-27\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(27\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-9\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(9\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Tính giá trị lũy thừa của một số hữu tỉ",
+      "questiontext": "Tính giá trị của \\((0,7)^3\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Ta có \\((0,7)^3 = 0,7 \\cdot 0,7 \\cdot 0,7 = 0,343\\).",
+      "answers": [
+        {
+          "text": "0.343",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "thong_hieu",
+      "metadata_code": "Tính giá trị lũy thừa của một số hữu tỉ",
+      "questiontext": "Tính giá trị bình phương của số nguyên {a}, tức là tính {a}^2.",
+      "generalfeedback": "Giá trị bình phương của {a} là {a} * {a}.",
+      "answers": [
+        {
+          "text": "{a}*{a}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ],
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Biểu diễn một số dưới dạng lũy thừa",
+      "questiontext": "Biểu diễn số \\(125\\) dưới dạng lũy thừa cơ số \\(5\\) ta được:",
+      "generalfeedback": "Vì \\(5 \\cdot 5 \\cdot 5 = 125\\) nên \\(125 = 5^3\\).",
+      "answers": [
+        {
+          "text": "\\(5^3\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(5^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(5^4\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(5^5\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Biểu diễn một số dưới dạng lũy thừa",
+      "questiontext": "Nối mỗi biểu thức lũy thừa ở cột trái với giá trị tương ứng ở cột phải:",
+      "generalfeedback": "Ta có: \\(\\left(\\frac{1}{3}\\right)^4 = \\frac{1}{81}\\); \\((-0,5)^2 = 0,25\\); \\(\\left(-\\frac{4}{5}\\right)^2 = \\frac{16}{25}\\).",
+      "subquestions": [
+        {
+          "question": "\\(\\left(\\frac{1}{3}\\right)^4\\)",
+          "answer": "\\(\\frac{1}{81}\\)"
+        },
+        {
+          "question": "\\((-0,5)^2\\)",
+          "answer": "\\(0,25\\)"
+        },
+        {
+          "question": "\\(\\left(-\\frac{4}{5}\\right)^2\\)",
+          "answer": "\\(\\frac{16}{25}\\)"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_012",
+      "questiontext": "Kéo thả từ thích hợp vào chỗ trống: Lũy thừa của một tích bằng [[1]] các lũy thừa. Lũy thừa của một thương bằng [[2]] các lũy thừa.",
+      "generalfeedback": "Theo SGK: \\((x \\cdot y)^n = x^n \\cdot y^n\\) (Lũy thừa của một tích bằng tích các lũy thừa) và \\(\\left(\\frac{x}{y}\\right)^n = \\frac{x^n}{y^n}\\) với \\(y \\neq 0\\) (Lũy thừa của một thương bằng thương các lũy thừa).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "tích"
+        },
+        {
+          "group": 1,
+          "text": "thương"
+        },
+        {
+          "group": 1,
+          "text": "tổng"
+        },
+        {
+          "group": 1,
+          "text": "hiệu"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_023",
+      "questiontext": "[img:_page_0_Picture_12.jpeg]\nGiả sử toàn bộ lượng nước trên Trái Đất được gom lại để đổ đầy vào một bể chứa hình lập phương có độ dài cạnh là \\(1\\ 111,34\\text{ km}\\). Biểu thức lũy thừa để tính thể tích toàn bộ lượng nước trên Trái Đất (theo đơn vị \\(\\text{km}^3\\)) là:",
+      "generalfeedback": "Thể tích hình lập phương cạnh \\(a\\) được tính theo công thức \\(V = a^3\\). Do đó thể tích bể chứa là \\((1\\ 111,34)^3\\text{ km}^3\\).",
+      "imgs": [
+        "_page_0_Picture_12.jpeg"
+      ],
+      "answers": [
+        {
+          "text": "\\((1\\ 111,34)^3\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(3 \\cdot 1\\ 111,34\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((1\\ 111,34)^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(1\\ 111,34 + 3\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tính giá trị lũy thừa của một số hữu tỉ",
+      "questiontext": "Tính giá trị của biểu thức \\((-125)^3 : 25^3\\):",
+      "generalfeedback": "Ta có: \\((-125)^3 : 25^3 = (-125 : 25)^3 = (-5)^3 = -125\\).",
+      "answers": [
+        {
+          "text": "\\(-125\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(125\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-25\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(25\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Tính giá trị lũy thừa của một số hữu tỉ",
+      "questiontext": "Tính giá trị của \\((0,08)^3 \\cdot 10^3\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Ta có: \\((0,08)^3 \\cdot 10^3 = (0,08 \\cdot 10)^3 = (0,8)^3 = 0,512\\).",
+      "answers": [
+        {
+          "text": "0.512",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tính giá trị lũy thừa của một số hữu tỉ",
+      "questiontext": "Biết \\((-3)^7 = -2\\ 187\\). Giá trị của \\((-3)^8\\) là:",
+      "generalfeedback": "Ta có: \\((-3)^8 = (-3)^7 \\cdot (-3) = (-2\\ 187) \\cdot (-3) = 6\\ 561\\).",
+      "answers": [
+        {
+          "text": "\\(6\\ 561\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(-6\\ 561\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2\\ 190\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-2\\ 190\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Biểu diễn một số dưới dạng lũy thừa",
+      "questiontext": "Viết số \\(\\left(\\frac{1}{9}\\right)^5\\) dưới dạng lũy thừa cơ số \\(\\frac{1}{3}\\):",
+      "generalfeedback": "Vì \\(\\frac{1}{9} = \\left(\\frac{1}{3}\\right)^2\\) nên \\(\\left(\\frac{1}{9}\\right)^5 = \\left(\\left(\\frac{1}{3}\\right)^2\\right)^5 = \\left(\\frac{1}{3}\\right)^{10}\\).",
+      "answers": [
+        {
+          "text": "\\(\\left(\\frac{1}{3}\\right)^{10}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\left(\\frac{1}{3}\\right)^{7}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\left(\\frac{1}{3}\\right)^{25}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\left(\\frac{1}{3}\\right)^{3}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "thong_hieu",
+      "metadata_code": "Tính giá trị lũy thừa của một số hữu tỉ",
+      "questiontext": "Tính giá trị lập phương của số nguyên {x}, tức là tính {x}^3.",
+      "generalfeedback": "Giá trị lập phương của {x} là {x} * {x} * {x}.",
+      "wildcards": [
+        {
+          "name": "x",
+          "min": 1.0,
+          "max": 5.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{x}*{x}*{x}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Tính giá trị lũy thừa của một số hữu tỉ",
+      "questiontext": "Cho \\(\\left(-\\frac{2}{3}\\right)^{11} = \\frac{-2\\ 048}{177\\ 147}\\). Ta có \\(\\left(-\\frac{2}{3}\\right)^{12} = \\left(-\\frac{2}{3}\\right)^{11} \\cdot\\) [[1]] \\(=\\) [[2]].",
+      "generalfeedback": "Ta có: \\(\\left(-\\frac{2}{3}\\right)^{12} = \\left(-\\frac{2}{3}\\right)^{11} \\cdot \\left(-\\frac{2}{3}\\right) = \\frac{-2\\ 048}{177\\ 147} \\cdot \\left(-\\frac{2}{3}\\right) = \\frac{4\\ 096}{531\\ 441}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(-\\frac{2}{3}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{4\\ 096}{531\\ 441}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{2}{3}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(-\\frac{4\\ 096}{531\\ 441}\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Biểu diễn một số dưới dạng lũy thừa",
+      "questiontext": "Viết biểu thức \\(15^8 \\cdot 2^4\\) dưới dạng lũy thừa của một số hữu tỉ:",
+      "generalfeedback": "Ta có: \\(15^8 \\cdot 2^4 = (15^2)^4 \\cdot 2^4 = 225^4 \\cdot 2^4 = (225 \\cdot 2)^4 = 450^4\\).",
+      "answers": [
+        {
+          "text": "\\(450^4\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(30^8\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(30^{12}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(450^8\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_023",
+      "questiontext": "Khoảng cách từ Trái Đất đến Mặt Trời khoảng \\(1,5 \\cdot 10^8\\text{ km}\\). Khoảng cách từ Mộc tinh đến Mặt Trời khoảng \\(7,78 \\cdot 10^8\\text{ km}\\). Khoảng cách từ Mộc tinh đến Mặt Trời gấp khoảng bao nhiêu lần khoảng cách từ Trái Đất đến Mặt Trời?",
+      "generalfeedback": "Tỉ số khoảng cách: \\((7,78 \\cdot 10^8) : (1,5 \\cdot 10^8) = 7,78 : 1,5 \\approx 5,19\\) lần.",
+      "answers": [
+        {
+          "text": "\\(5,19\\) lần",
+          "fraction": 100
+        },
+        {
+          "text": "\\(51,9\\) lần",
+          "fraction": 0
+        },
+        {
+          "text": "\\(0,52\\) lần",
+          "fraction": 0
+        },
+        {
+          "text": "\\(11,67\\) lần",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_023",
+      "questiontext": "Bảng thống kê số lượt khách quốc tế đến thăm Việt Nam năm 2019: Hàn Quốc (\\(4,3 \\cdot 10^6\\)), Hoa Kỳ (\\(7,4 \\cdot 10^5\\)), Pháp (\\(2,9 \\cdot 10^5\\)), Ý (\\(7 \\cdot 10^4\\)). Hãy ghép mỗi quốc gia với thứ tự số lượng khách đến thăm từ nhỏ đến lớn (1 là ít nhất, 4 là nhiều nhất):",
+      "generalfeedback": "Thứ tự từ nhỏ đến lớn: Ý (\\(7 \\cdot 10^4\\)) < Pháp (\\(2,9 \\cdot 10^5\\)) < Hoa Kỳ (\\(7,4 \\cdot 10^5\\)) < Hàn Quốc (\\(4,3 \\cdot 10^6\\)).",
+      "subquestions": [
+        {
+          "question": "Ý",
+          "answer": "Thứ 1 (ít nhất)"
+        },
+        {
+          "question": "Pháp",
+          "answer": "Thứ 2"
+        },
+        {
+          "question": "Hoa Kỳ",
+          "answer": "Thứ 3"
+        },
+        {
+          "question": "Hàn Quốc",
+          "answer": "Thứ 4 (nhiều nhất)"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Quy ước lũy thừa cơ số khác 0",
+      "questiontext": "Với số hữu tỉ \\(x\\), quy ước lũy thừa số mũ 1 là \\(x^1 = x\\). Khẳng định này Đúng hay Sai?",
+      "generalfeedback": "Theo quy ước SGK Toán 7: Với mọi số hữu tỉ \\(x\\), ta có \\(x^1 = x\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Trong giờ học Toán, khi gặp bài tập yêu cầu tính giá trị lũy thừa \\((-0,5)^4\\), bạn Nam thấy phép tính có nhiều thừa số âm nên dễ nhầm lẫn. Để thể hiện phẩm chất chăm chỉ trong học tập, Nam nên làm như thế nào?",
+      "generalfeedback": "Phẩm chất chăm chỉ thể hiện ở sự kiên trì, tự giác và cẩn thận tự mình thực hiện các bước tính toán thay vì trông chờ, chép bài hay bỏ cuộc.",
+      "answers": [
+        {
+          "text": "Kiên trì viết biểu thức thành tích của 4 thừa số \\((-0,5)\\) và cẩn thận thực hiện từng bước tính.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua không làm và chờ giáo viên chữa bài trên bảng.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép ngay kết quả từ bài làm của bạn bên cạnh để nhanh chóng nộp bài.",
+          "fraction": 0
+        },
+        {
+          "text": "Đoán mò một kết quả ngẫu nhiên để hoàn thành bài tập.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Khi làm bài kiểm tra, bạn An lỡ tính sai \\((-3)^3 = 27\\) (kết quả đúng là \\(-27\\)). Khi giáo viên trả bài, An thấy giáo viên chấm sót lỗi này và cho điểm tối đa. Để thể hiện tính trung thực, An nên xử lý như thế nào?",
+      "generalfeedback": "Tính trung thực đòi hỏi học sinh thẳng thắn nhận lỗi sai trong bài làm, không gian dối về điểm số của bản thân.",
+      "answers": [
+        {
+          "text": "Báo lại với giáo viên về lỗi sai của mình để được chấm lại đúng thực chất.",
+          "fraction": 100
+        },
+        {
+          "text": "Giữ im lặng để bảo toàn điểm số tối đa.",
+          "fraction": 0
+        },
+        {
+          "text": "Sửa thêm dấu trừ vào bài làm rồi giải thích với giáo viên là mình làm đúng.",
+          "fraction": 0
+        },
+        {
+          "text": "Khoe với các bạn trong lớp rằng mình may mắn không bị trừ điểm.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Để tự học hiệu quả quy ước lũy thừa \\(x^0 = 1\\) (với \\(x \\neq 0\\)) và \\(x^1 = x\\), bạn Minh lập kế hoạch tự học. Em hãy chọn từ thích hợp điền vào chỗ trống: 'Minh tự đọc kĩ [[1]] trong SGK, sau đó tự lấy [[2]] để kiểm tra mức độ hiểu bài của bản thân.'",
+      "generalfeedback": "Năng lực tự chủ và tự học thể hiện ở việc chủ động đọc hiểu kiến thức trong SGK và tự lấy ví dụ luyện tập để kiểm tra sự hiểu biết.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "quy ước"
+        },
+        {
+          "group": 1,
+          "text": "ví dụ"
+        },
+        {
+          "group": 1,
+          "text": "bài giải mẫu"
+        },
+        {
+          "group": 1,
+          "text": "đáp án"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_GIAOTIEP",
+      "questiontext": "Trong hoạt động nhóm tính giá trị biểu thức \\(\\left(\\frac{2}{3}\\right)^{10} \\cdot 3^{10}\\), bạn Bình tính trực tiếp lũy thừa rất vất vả, còn bạn An đề xuất áp dụng công thức \\((x \\cdot y)^n = x^n \\cdot y^n\\) biến đổi thành \\(\\left(\\frac{2}{3} \\cdot 3\\right)^{10} = 2^{10} = 1024\\). Để giao tiếp và hợp tác hiệu quả, Bình nên ứng xử như thế nào?",
+      "generalfeedback": "Năng lực giao tiếp và hợp tác đòi hỏi biết tôn trọng, lắng nghe và tiếp thu giải pháp tối ưu từ thành viên trong nhóm.",
+      "answers": [
+        {
+          "text": "Lắng nghe ý kiến của An, thảo luận để hiểu cách làm ngắn gọn và thống nhất phương án tối ưu.",
+          "fraction": 100
+        },
+        {
+          "text": "Bác bỏ ý kiến của An và bắt cả nhóm làm theo cách tính trực tiếp của mình.",
+          "fraction": 0
+        },
+        {
+          "text": "Im lặng không tham gia thảo luận nữa.",
+          "fraction": 0
+        },
+        {
+          "text": "Yêu cầu giáo viên đổi nhóm khác vì không cùng quan điểm.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Để so sánh hai biểu thức \\(2^2 \\cdot 3^2\\) và \\((2 \\cdot 3)^2\\), bạn Hoa lập luận:\n- Tính \\(2^2 \\cdot 3^2 = 4 \\cdot 9 = 36\\).\n- Tính \\((2 \\cdot 3)^2 = 6^2 = 36\\).\n- Rút ra kết luận \\(2^2 \\cdot 3^2 = (2 \\cdot 3)^2\\).\nLập luận trên là minh chứng cho quy tắc tổng quát nào về lũy thừa?",
+      "generalfeedback": "Quá trình tính toán đối chiếu cụ thể giúp học sinh thực hiện lập luận toán học để đi đến quy tắc tổng quát: Lũy thừa của một tích bằng tích các lũy thừa \\((x \\cdot y)^n = x^n \\cdot y^n\\).",
+      "answers": [
+        {
+          "text": "Lũy thừa của một tích bằng tích các lũy thừa: \\((x \\cdot y)^n = x^n \\cdot y^n\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Lũy thừa của một thương bằng thương các lũy thừa: \\(\\left(\\frac{x}{y}\\right)^n = \\frac{x^n}{y^n}\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Nhân hai lũy thừa cùng cơ số: \\(x^m \\cdot x^n = x^{m+n}\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Lũy thừa của lũy thừa: \\((x^m)^n = x^{m \\cdot n}\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "questiontext": "Bài toán yêu cầu tính dung tích bể chứa nước hình lập phương có cạnh \\(a = 1\\ 111,34\\text{ km}\\). Quá trình giải quyết vấn đề toán học này gồm các bước theo thứ tự đúng là:",
+      "generalfeedback": "Năng lực giải quyết vấn đề toán học thể hiện qua việc chọn công thức thể tích \\(V = a^3\\), thay số liệu thực tế và biểu diễn kết quả dưới dạng lũy thừa.",
+      "answers": [
+        {
+          "text": "Xác định công thức thể tích \\(V = a^3\\) \\(\\rightarrow\\) Thay \\(a = 1\\ 111,34\\) \\(\\rightarrow\\) Viết biểu thức lũy thừa \\((1\\ 111,34)^3\\text{ km}^3\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Lấy độ dài cạnh nhân với 6 \\(\\rightarrow\\) Kết luận thể tích là \\(6 \\cdot 1\\ 111,34\\text{ km}^3\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Tính bình phương độ dài cạnh \\(\\rightarrow\\) Kết luận thể tích là \\((1\\ 111,34)^2\\text{ km}^3\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Cộng độ dài 12 cạnh của hình lập phương lại với nhau.",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

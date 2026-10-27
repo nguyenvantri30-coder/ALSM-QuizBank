@@ -1,0 +1,695 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 28,
+    "metadata_used": {
+      "Mối liên hệ giữa tỉ lệ phần trăm và hình quạt biểu diễn": 5,
+      "Biểu diễn dữ liệu từ bảng thống kê vào biểu đồ hình quạt tròn cho sẵn": 8,
+      "YCCD_TOAN7_125": 7,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_GIAOTIEP": 1,
+      "NLC_GIAIQUYETVD": 1,
+      "NLT_TOAN_C2_02": 2,
+      "NLT_TOAN_C2_03": 2
+    },
+    "types_used": {
+      "multichoice": 12,
+      "truefalse": 3,
+      "numerical": 3,
+      "gapselect": 2,
+      "shortanswer": 2,
+      "matching": 3,
+      "calculated": 1,
+      "calculatedsimple": 2,
+      "ddwtos": 1,
+      "calculatedmulti": 1
+    }
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_125",
+        "reason": "Lựa chọn và biểu diễn được dữ liệu vào biểu đồ hình quạt tròn (cho sẵn)"
+      },
+      {
+        "metadata_code": "Mối liên hệ giữa tỉ lệ phần trăm và hình quạt biểu diễn",
+        "reason": "Mối liên hệ giữa tỉ lệ phần trăm và hình quạt biểu diễn"
+      },
+      {
+        "metadata_code": "Biểu diễn dữ liệu từ bảng thống kê vào biểu đồ hình quạt tròn cho sẵn",
+        "reason": "Biểu diễn dữ liệu từ bảng thống kê vào biểu đồ hình quạt tròn cho sẵn"
+      },
+      {
+        "metadata_code": "PC_CHAMCHI",
+        "reason": "Đo lường thái độ tự giác, kiên trì hoàn thành bài tập vẽ biểu đồ"
+      },
+      {
+        "metadata_code": "PC_TRUNGTHUC",
+        "reason": "Đo lường trung thực trong thu thập và biểu diễn số liệu thực tế"
+      },
+      {
+        "metadata_code": "NLC_GIAOTIEP",
+        "reason": "Đo lường năng lực giao tiếp và hợp tác nhóm khi phân công báo cáo"
+      },
+      {
+        "metadata_code": "NLC_GIAIQUYETVD",
+        "reason": "Đo lường năng lực giải quyết vấn đề lựa chọn biểu đồ thích hợp"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_02",
+        "reason": "Đo lường mô hình hóa toán học biểu đồ hình quạt tròn"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03",
+        "reason": "Đo lường giải quyết vấn đề toán học dựa trên biểu đồ quạt tròn"
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Mối liên hệ giữa tỉ lệ phần trăm và hình quạt biểu diễn",
+      "questiontext": "Trong biểu đồ hình quạt tròn được chia sẵn thành các hình quạt bằng nhau, nếu mỗi hình quạt nhỏ ứng với \\(10\\%\\) thì cả hình tròn bao gồm bao nhiêu hình quạt nhỏ?",
+      "generalfeedback": "Cả hình tròn ứng với \\(100\\%\\). Vì mỗi hình quạt nhỏ ứng với \\(10\\%\\) nên cả hình tròn bao gồm \\(100\\% : 10\\% = 10\\) hình quạt nhỏ.",
+      "answers": [
+        {
+          "text": "10 hình quạt",
+          "fraction": 100
+        },
+        {
+          "text": "5 hình quạt",
+          "fraction": 0
+        },
+        {
+          "text": "20 hình quạt",
+          "fraction": 0
+        },
+        {
+          "text": "100 hình quạt",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Mối liên hệ giữa tỉ lệ phần trăm và hình quạt biểu diễn",
+      "questiontext": "Khi biểu diễn dữ liệu vào biểu đồ hình quạt tròn, hình quạt biểu diễn số liệu lớn hơn sẽ có đặc điểm gì?",
+      "generalfeedback": "Trong biểu đồ hình quạt tròn, hình quạt nào lớn hơn thì biểu diễn số liệu lớn hơn.",
+      "answers": [
+        {
+          "text": "Có kích thước lớn hơn",
+          "fraction": 100
+        },
+        {
+          "text": "Có kích thước nhỏ hơn",
+          "fraction": 0
+        },
+        {
+          "text": "Luôn được tô màu đỏ",
+          "fraction": 0
+        },
+        {
+          "text": "Có bán kính dài hơn",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Mối liên hệ giữa tỉ lệ phần trăm và hình quạt biểu diễn",
+      "questiontext": "Nếu hình tròn biểu diễn dữ liệu được chia sẵn thành các hình quạt nhỏ bằng nhau, mỗi hình quạt ứng với \\(5\\%\\) thì để biểu diễn tỉ lệ \\(30\\%\\), ta cần tô màu đúng 6 hình quạt nhỏ.",
+      "generalfeedback": "Đúng. Số hình quạt nhỏ cần tô màu là \\(30\\% : 5\\% = 6\\) hình quạt.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Biểu diễn dữ liệu từ bảng thống kê vào biểu đồ hình quạt tròn cho sẵn",
+      "questiontext": "Một thư viện trường học có tỉ lệ sách truyện là \\(30\\%\\). Nếu biểu đồ hình quạt tròn được chia thành các hình quạt nhỏ, mỗi hình quạt ứng với \\(10\\%\\), hỏi cần tô màu bao nhiêu hình quạt nhỏ để biểu diễn tỉ lệ sách truyện? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Số hình quạt nhỏ cần tô màu là \\(30\\% : 10\\% = 3\\) hình quạt.",
+      "answers": [
+        {
+          "text": "3",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Biểu diễn dữ liệu từ bảng thống kê vào biểu đồ hình quạt tròn cho sẵn",
+      "questiontext": "Trong biểu đồ hình quạt tròn, toàn bộ hình tròn đại diện cho [[1]] tương ứng với [[2]].",
+      "generalfeedback": "Toàn bộ hình tròn biểu diễn tổng thể dữ liệu, tương ứng với 100%.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "tổng thể dữ liệu"
+        },
+        {
+          "group": 1,
+          "text": "100%"
+        },
+        {
+          "group": 1,
+          "text": "50%"
+        },
+        {
+          "group": 1,
+          "text": "một phần dữ liệu"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_125",
+      "questiontext": "Khảo sát kĩ năng bơi của 500 học sinh tiểu học thu được kết quả: 250 em bơi thành thạo, 175 em biết bơi nhưng chưa thành thạo và 75 em chưa biết bơi. Tỉ lệ số học sinh bơi thành thạo chiếm bao nhiêu phần trăm tổng số học sinh?",
+      "generalfeedback": "Tỉ lệ học sinh bơi thành thạo là \\(\\frac{250}{500} \\times 100\\% = 50\\%\\).",
+      "answers": [
+        {
+          "text": "50%",
+          "fraction": 100
+        },
+        {
+          "text": "35%",
+          "fraction": 0
+        },
+        {
+          "text": "15%",
+          "fraction": 0
+        },
+        {
+          "text": "25%",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Biểu diễn dữ liệu từ bảng thống kê vào biểu đồ hình quạt tròn cho sẵn",
+      "questiontext": "Bảng thống kê cho biết tỉ lệ áo đồng phục cỡ M của lớp 7A là \\(50\\%\\). Nếu hình tròn được chia sẵn thành các hình quạt nhỏ ứng với \\(5\\%\\), cần bao nhiêu hình quạt nhỏ để biểu diễn cỡ áo M? (Chỉ điền số)",
+      "generalfeedback": "Số hình quạt nhỏ ứng với cỡ M là \\(50\\% : 5\\% = 10\\).",
+      "answers": [
+        {
+          "text": "10",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Biểu diễn dữ liệu từ bảng thống kê vào biểu đồ hình quạt tròn cho sẵn",
+      "questiontext": "Ghép tỉ lệ dự đoán đội vô địch giải bóng đá học sinh khối 7 của mỗi lớp với số hình quạt nhỏ tương ứng (biết mỗi hình quạt nhỏ ứng với \\(5\\%\\)):",
+      "generalfeedback": "Số hình quạt = Tỉ lệ : 5%. Lớp 7A: 15% -> 3 quạt; Lớp 7B: 30% -> 6 quạt; Lớp 7D: 35% -> 7 quạt.",
+      "subquestions": [
+        {
+          "question": "Lớp 7A (tỉ lệ 15%)",
+          "answer": "3 hình quạt nhỏ"
+        },
+        {
+          "question": "Lớp 7B (tỉ lệ 30%)",
+          "answer": "6 hình quạt nhỏ"
+        },
+        {
+          "question": "Lớp 7D (tỉ lệ 35%)",
+          "answer": "7 hình quạt nhỏ"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_125",
+      "questiontext": "Một lớp học khảo sát ý kiến học sinh về hoạt động yêu thích. Biết tổng số học sinh tham gia khảo sát là 40 học sinh, trong đó có {x} học sinh chọn môn Bóng đá. Tính tỉ lệ phần trăm số học sinh chọn môn Bóng đá. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Tỉ lệ phần trăm được tính bằng công thức: \\(\\frac{\\{x\\}}{40} \\times 100 = \\{x\\} \\times 2.5\\).",
+      "wildcards": [
+        {
+          "name": "x",
+          "min": 4.0,
+          "max": 20.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{x}*2.5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_125",
+      "questiontext": "Trong một xã có 800 học sinh tiểu học. Biết tỉ lệ học sinh chưa biết bơi của xã đó là {a}%. Hỏi xã đó có bao nhiêu học sinh tiểu học chưa biết bơi? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Số học sinh chưa biết bơi là \\(800 \\times \\frac{\\{a\\}}{100} = 8 \\times \\{a\\}\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 10.0,
+          "max": 25.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*8",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Biểu diễn dữ liệu từ bảng thống kê vào biểu đồ hình quạt tròn cho sẵn",
+      "questiontext": "Bảng thống kê cỡ áo đồng phục lớp 7A có các tỉ lệ: S (15%), M (50%), L (30%), XL (5%). Nếu biểu đồ hình quạt tròn được chia thành các quạt nhỏ \\(5\\%\\), hình quạt biểu diễn cỡ áo L gồm bao nhiêu hình quạt nhỏ?",
+      "generalfeedback": "Số hình quạt nhỏ biểu diễn cỡ áo L là \\(30\\% : 5\\% = 6\\) hình quạt nhỏ.",
+      "answers": [
+        {
+          "text": "6 hình quạt nhỏ",
+          "fraction": 100
+        },
+        {
+          "text": "3 hình quạt nhỏ",
+          "fraction": 0
+        },
+        {
+          "text": "10 hình quạt nhỏ",
+          "fraction": 0
+        },
+        {
+          "text": "1 hình quạt nhỏ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_125",
+      "questiontext": "Khảo sát 40 học sinh về vật nuôi yêu thích thu được kết quả: Chó (10 bạn), Mèo (20 bạn), Chim (7 bạn), Cá (3 bạn). Tỉ lệ phần trăm học sinh yêu thích Mèo là bao nhiêu?",
+      "generalfeedback": "Tỉ lệ phần trăm học sinh yêu thích Mèo là \\(\\frac{20}{40} \\times 100\\% = 50\\%\\).",
+      "answers": [
+        {
+          "text": "50%",
+          "fraction": 100
+        },
+        {
+          "text": "25%",
+          "fraction": 0
+        },
+        {
+          "text": "17.5%",
+          "fraction": 0
+        },
+        {
+          "text": "7.5%",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Mối liên hệ giữa tỉ lệ phần trăm và hình quạt biểu diễn",
+      "questiontext": "Khi biểu đồ hình quạt tròn được chia sẵn thành các hình quạt nhỏ \\(10\\%\\), ta có thể biểu diễn chính xác tỉ lệ \\(25\\%\\) bằng một số nguyên các hình quạt nhỏ đó.",
+      "generalfeedback": "Sai. Vì \\(25\\% : 10\\% = 2,5\\) (không phải là số nguyên hình quạt nhỏ chia sẵn).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_125",
+      "questiontext": "Khảo sát vật nuôi yêu thích của 40 bạn học sinh thu được: Chó (10 bạn), Mèo (20 bạn), Chim (7 bạn), Cá (3 bạn). Tỉ lệ phần trăm số bạn yêu thích Chó là bao nhiêu? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Tỉ lệ phần trăm số bạn yêu thích Chó là \\(\\frac{10}{40} \\times 100\\% = 25\\%\\).",
+      "answers": [
+        {
+          "text": "25",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Biểu diễn dữ liệu từ bảng thống kê vào biểu đồ hình quạt tròn cho sẵn",
+      "questiontext": "Trong biểu đồ hình quạt tròn biểu diễn tỉ lệ dự đoán đội vô địch bóng đá khối 7, biết tỉ lệ dự đoán lớp 7C là \\(20\\%\\). Nếu mỗi hình quạt nhỏ ứng với \\(5\\%\\), hỏi lớp 7C ứng với bao nhiêu hình quạt nhỏ? (Chỉ điền số)",
+      "generalfeedback": "Số hình quạt nhỏ biểu diễn tỉ lệ của lớp 7C là \\(20\\% : 5\\% = 4\\).",
+      "answers": [
+        {
+          "text": "4",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Biểu diễn dữ liệu từ bảng thống kê vào biểu đồ hình quạt tròn cho sẵn",
+      "questiontext": "Ghép loại sách trong thư viện trường học với tỉ lệ phần trăm tương ứng theo số liệu SGK:",
+      "generalfeedback": "Theo bảng số liệu: Sách giáo khoa 40%, Sách truyện 30%, Sách tham khảo 20%.",
+      "subquestions": [
+        {
+          "question": "Sách giáo khoa",
+          "answer": "40%"
+        },
+        {
+          "question": "Sách truyện",
+          "answer": "30%"
+        },
+        {
+          "question": "Sách tham khảo",
+          "answer": "20%"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Mối liên hệ giữa tỉ lệ phần trăm và hình quạt biểu diễn",
+      "questiontext": "Để biểu diễn dữ liệu vào biểu đồ hình quạt tròn cho sẵn, ta cần tính [[1]] của từng loại dữ liệu so với tổng thể, sau đó tô màu số hình quạt tương ứng với [[2]] đó.",
+      "generalfeedback": "Ta cần tính tỉ lệ phần trăm của từng loại dữ liệu, sau đó tô màu số hình quạt tương ứng với tỉ lệ phần trăm đó.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "tỉ lệ phần trăm"
+        },
+        {
+          "group": 1,
+          "text": "số lượng tuyệt đối"
+        },
+        {
+          "group": 1,
+          "text": "độ dài bán kính"
+        },
+        {
+          "group": 1,
+          "text": "góc ở tâm"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Biểu diễn dữ liệu từ bảng thống kê vào biểu đồ hình quạt tròn cho sẵn",
+      "questiontext": "Bảng thống kê tỉ lệ áo đồng phục lớp 7A cho biết: Cỡ S chiếm [[1]], cỡ M chiếm [[2]].",
+      "generalfeedback": "Theo bảng thống kê: Cỡ S chiếm 15%, Cỡ M chiếm 50%.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "15%"
+        },
+        {
+          "group": 1,
+          "text": "50%"
+        },
+        {
+          "group": 1,
+          "text": "30%"
+        },
+        {
+          "group": 1,
+          "text": "5%"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_125",
+      "questiontext": "Khảo sát ý kiến của 200 tình nguyện viên hiến máu thu được kết quả có {k} người mang nhóm máu A. Tính tỉ lệ phần trăm số người mang nhóm máu A. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Tỉ lệ phần trăm số người mang nhóm máu A là \\(\\frac{\\{k\\}}{200} \\times 100 = \\frac{\\{k\\}}{2}\\).",
+      "wildcards": [
+        {
+          "name": "k",
+          "min": 20.0,
+          "max": 80.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{k}/2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_125",
+      "questiontext": "Một lớp học có {n} học sinh, trong đó có m học sinh giỏi. Công thức tính tỉ lệ phần trăm học sinh giỏi của lớp đó là:",
+      "generalfeedback": "Tỉ lệ phần trăm học sinh giỏi = (Số học sinh giỏi / Tổng số học sinh) * 100 = {m}/{n}*100.",
+      "wildcards": [
+        {
+          "name": "n",
+          "min": 30.0,
+          "max": 40.0,
+          "decimals": 0
+        },
+        {
+          "name": "m",
+          "min": 5.0,
+          "max": 20.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{m}/{n}*100",
+          "fraction": 100
+        },
+        {
+          "text": "{n}/{m}*100",
+          "fraction": 0
+        },
+        {
+          "text": "{m}*{n}/100",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Khi được giao bài tập hoàn thiện biểu đồ hình quạt tròn biểu diễn tỉ lệ các loại sách trong thư viện (Hình 5.8), hành động nào sau đây thể hiện phẩm chất chăm chỉ của học sinh?",
+      "generalfeedback": "Phẩm chất chăm chỉ thể hiện qua việc tự giác, kiên trì hoàn thành nhiệm vụ học tập đúng yêu cầu.",
+      "answers": [
+        {
+          "text": "Chủ động tính toán cẩn thận tỉ lệ phần trăm và tô màu đúng số hình quạt tương ứng vào vở",
+          "fraction": 100
+        },
+        {
+          "text": "Đợi bạn làm xong rồi chép đáp án vào vở cho nhanh",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ làm phần tính toán, bỏ qua bước tô màu biểu đồ",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua bài tập vì thấy biểu đồ đã được chia sẵn quạt",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Trong quá trình khảo sát thực tế về kĩ năng bơi của học sinh tiểu học tại địa phương, em thu được dữ liệu thực tế nhưng nhận thấy tỉ lệ chưa biết bơi còn cao. Để thể hiện tính trung thực, em nên xử lý dữ liệu như thế nào khi lập bảng thống kê và vẽ biểu đồ hình quạt tròn?",
+      "generalfeedback": "Trung thực trong học tập và nghiên cứu đòi hỏi tôn trọng dữ liệu thực tế, không tự ý chỉnh sửa hay làm sai lệch số liệu.",
+      "answers": [
+        {
+          "text": "Ghi nhận đúng và chính xác số liệu thu thập được để biểu diễn lên biểu đồ hình quạt tròn",
+          "fraction": 100
+        },
+        {
+          "text": "Tự ý giảm số lượng học sinh chưa biết bơi để báo cáo thành tích tốt hơn",
+          "fraction": 0
+        },
+        {
+          "text": "Thêm số liệu giả định vào nhóm bơi thành thạo cho đẹp biểu đồ",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua nhóm học sinh chưa biết bơi không đưa vào biểu đồ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLC_GIAOTIEP",
+      "questiontext": "Khi làm việc nhóm để trình bày báo cáo về tỉ lệ áo đồng phục theo kích cỡ (S, M, L, XL) của lớp 7A dựa trên biểu đồ hình quạt tròn, cách phân công và trao đổi nào thể hiện năng lực giao tiếp và hợp tác hiệu quả?",
+      "generalfeedback": "Giao tiếp và hợp tác hiệu quả thể hiện ở việc lắng nghe, thảo luận tích cực và phân công công việc phù hợp với năng lực các thành viên.",
+      "answers": [
+        {
+          "text": "Cùng thảo luận thống nhất phân công: một bạn tính tỉ lệ, một bạn hoàn thiện biểu đồ và đại diện nhóm thuyết minh ý nghĩa",
+          "fraction": 100
+        },
+        {
+          "text": "Để một bạn tự làm toàn bộ báo cáo và biểu đồ rồi ghi tên cả nhóm",
+          "fraction": 0
+        },
+        {
+          "text": "Mỗi người làm một kiểu không cần thảo luận hay thống nhất với nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Tranh cãi không phân công nhiệm vụ và không hoàn thành biểu đồ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLC_GIAIQUYETVD",
+      "questiontext": "Một nhóm học sinh nhận được bảng số liệu thô về kết quả dự đoán đội vô địch bóng đá khối 7 của các lớp. Để giúp các bạn trong trường dễ dàng so sánh thị phần dự đoán của từng lớp một cách trực quan nhất, nhóm nên lựa chọn giải pháp xử lý nào?",
+      "generalfeedback": "Năng lực giải quyết vấn đề thể hiện ở việc phân tích yêu cầu và lựa chọn hình thức biểu diễn dữ liệu phù hợp (chuyển bảng số liệu thành biểu đồ quạt tròn).",
+      "answers": [
+        {
+          "text": "Chuyển số liệu dự đoán sang tỉ lệ phần trăm và biểu diễn vào biểu đồ hình quạt tròn chia sẵn",
+          "fraction": 100
+        },
+        {
+          "text": "Giữ nguyên bảng số liệu thô không qua xử lý hay trình bày",
+          "fraction": 0
+        },
+        {
+          "text": "Liệt kê danh sách tên học sinh dự đoán mà không tổng hợp tỉ lệ",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua dữ liệu của các lớp có tỉ lệ dự đoán thấp",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_02",
+      "questiontext": "Khảo sát ý kiến của 200 tình nguyện viên hiến máu về nhóm máu thu được kết quả: Nhóm máu A (20%), Nhóm máu B (30%), Nhóm máu AB (10%), Nhóm máu O (40%). Để mô hình hóa dữ liệu này bằng biểu đồ hình quạt tròn được chia thành 10 hình quạt bằng nhau (mỗi quạt ứng với 10%), nhóm máu O sẽ được biểu diễn bằng bao nhiêu hình quạt?",
+      "generalfeedback": "Mô hình hóa toán học: Tỉ lệ nhóm máu O là 40%. Vì mỗi quạt ứng với 10% nên số hình quạt biểu diễn nhóm máu O là 40% : 10% = 4 hình quạt.",
+      "answers": [
+        {
+          "text": "4 hình quạt",
+          "fraction": 100
+        },
+        {
+          "text": "2 hình quạt",
+          "fraction": 0
+        },
+        {
+          "text": "3 hình quạt",
+          "fraction": 0
+        },
+        {
+          "text": "1 hình quạt",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "questiontext": "Kết quả khảo sát về kĩ năng bơi của 500 học sinh tiểu học ở một xã được biểu diễn trên biểu đồ hình quạt tròn với tỉ lệ: Bơi thành thạo (50%), Biết bơi nhưng chưa thành thạo (35%), Chưa biết bơi (15%). Để giải quyết vấn đề nâng cao kĩ năng sống, ban quản lý xã muốn biết tổng số học sinh đã biết bơi (bao gồm cả thành thạo và chưa thành thạo) là bao nhiêu em?",
+      "generalfeedback": "Giải quyết vấn đề toán học: Tỉ lệ học sinh đã biết bơi = 50% + 35% = 85%. Số học sinh đã biết bơi = 500 * 85% = 425 học sinh.",
+      "answers": [
+        {
+          "text": "425 học sinh",
+          "fraction": 100
+        },
+        {
+          "text": "250 học sinh",
+          "fraction": 0
+        },
+        {
+          "text": "175 học sinh",
+          "fraction": 0
+        },
+        {
+          "text": "350 học sinh",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_02",
+      "questiontext": "Nối từng bước chuyển đổi dữ liệu thực tế từ bảng thống kê khảo sát vật nuôi yêu thích (Chó: 10, Mèo: 20, Chim: 7, Cá: 3 trên tổng số 40 bạn) sang các thành phần của mô hình biểu đồ hình quạt tròn:",
+      "generalfeedback": "Chuyển đổi số liệu thực tế sang mô hình toán học biểu đồ hình quạt tròn.",
+      "subquestions": [
+        {
+          "question": "Tỉ lệ phần trăm các bạn yêu thích Mèo (20/40)",
+          "answer": "50% (nửa hình tròn)"
+        },
+        {
+          "question": "Tỉ lệ phần trăm các bạn yêu thích Chó (10/40)",
+          "answer": "25% (1/4 hình tròn)"
+        },
+        {
+          "question": "Tỉ lệ phần trăm các bạn yêu thích Cá (3/40)",
+          "answer": "7.5% (hình quạt nhỏ nhất)"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "questiontext": "Từ kết quả thu thập dữ liệu về kĩ năng bơi của học sinh tiểu học, tỉ lệ học sinh bơi thành thạo là 50%. Trong một xã khác có {k} học sinh tiểu học, hãy ứng dụng tỉ lệ này để ước lượng số học sinh bơi thành thạo của xã đó. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Giải quyết vấn đề thực tế: Ước lượng số học sinh bơi thành thạo = {k} * 50% = {k} * 0.5.",
+      "wildcards": [
+        {
+          "name": "k",
+          "min": 400.0,
+          "max": 1000.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{k}*0.5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    }
+  ]
+}

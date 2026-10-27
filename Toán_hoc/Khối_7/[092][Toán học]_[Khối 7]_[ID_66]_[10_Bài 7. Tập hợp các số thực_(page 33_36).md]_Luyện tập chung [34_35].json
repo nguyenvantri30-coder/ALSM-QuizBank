@@ -1,0 +1,707 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 28,
+    "metadata_used": {
+      "Tính chất giao hoán": 2,
+      "kết hợp trong tính toán biểu thức đại số": 2,
+      "YCCD_TOAN7_047": 4,
+      "YCCD_TOAN7_053": 3,
+      "YCCD_TOAN7_054": 3,
+      "YCCD_TOAN7_057": 3,
+      "Vận dụng phép cộng trừ đa thức một biến vào giải bài toán thực tế và tính giá trị": 3,
+      "PC_CHAMCHI": 2,
+      "PC_TRUNGTHUC": 2,
+      "NLC_TUCHUTUHOC": 1,
+      "NLC_GIAIQUYETVD": 1,
+      "NLT_TOAN_C2_01": 1,
+      "NLT_TOAN_C2_03": 1
+    },
+    "types_used": {
+      "multichoice": 15,
+      "shortanswer": 3,
+      "numerical": 2,
+      "truefalse": 3,
+      "matching": 2,
+      "gapselect": 2,
+      "ddwtos": 1
+    }
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_047",
+        "reason": "Đo lường khả năng tính giá trị của một biểu thức đại số."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_053",
+        "reason": "Đo lường khả năng thực hiện phép cộng trong tập hợp các đa thức một biến."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_054",
+        "reason": "Đo lường khả năng thực hiện phép trừ trong tập hợp các đa thức một biến."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_057",
+        "reason": "Đo lường khả năng vận dụng những tính chất của các phép tính đa thức một biến trong tính toán."
+      },
+      {
+        "metadata_code": "Tính chất giao hoán",
+        "reason": "Đo lường kiến thức về tính chất giao hoán trong tính toán biểu thức đại số."
+      },
+      {
+        "metadata_code": "kết hợp trong tính toán biểu thức đại số",
+        "reason": "Đo lường kiến thức về tính chất kết hợp trong tính toán biểu thức đại số."
+      },
+      {
+        "metadata_code": "Vận dụng phép cộng trừ đa thức một biến vào giải bài toán thực tế và tính giá trị",
+        "reason": "Đo lường kỹ năng vận dụng phép cộng trừ đa thức một biến vào giải bài toán thực tế và tính giá trị."
+      },
+      {
+        "metadata_code": "PC_CHAMCHI",
+        "reason": "Đo lường phẩm chất Chăm chỉ qua tình huống học tập môn Toán."
+      },
+      {
+        "metadata_code": "PC_TRUNGTHUC",
+        "reason": "Đo lường phẩm chất Trung thực trong làm bài và đánh giá bài học."
+      },
+      {
+        "metadata_code": "NLC_TUCHUTUHOC",
+        "reason": "Đo lường năng lực tự chủ và tự học qua việc lập quy trình giải bài toán."
+      },
+      {
+        "metadata_code": "NLC_GIAIQUYETVD",
+        "reason": "Đo lường năng lực giải quyết vấn đề và sáng tạo qua việc tối ưu hóa cách giải."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01",
+        "reason": "Đo lường năng lực tư duy và lập luận toán học qua đánh giá tính đúng sai của lập luận."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03",
+        "reason": "Đo lường năng lực giải quyết vấn đề toán học qua bài toán thực tế mô hình hóa đại số."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N",
+        "reason": "Nội dung bài học về biến đổi biểu thức đại số thuần túy toán học, không chứa yếu tố công nghệ thông tin/tin học trực tiếp."
+      },
+      {
+        "metadata_code": "A",
+        "reason": "Nội dung bài học không liên quan trực tiếp đến ứng dụng hoặc nguyên lý của Trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Tính chất giao hoán",
+      "questiontext": "Tính chất giao hoán của phép cộng hai đa thức \\(A\\) và \\(B\\) được phát biểu bằng công thức nào sau đây?",
+      "generalfeedback": "Tính chất giao hoán của phép cộng đa thức phát biểu rằng khi đổi chỗ các đa thức trong một tổng thì tổng không đổi: \\(A + B = B + A\\).",
+      "answers": [
+        {
+          "text": "\\(A + B = B + A\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(A + B = A - B\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(A \\cdot B = A + B\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(A - B = B - A\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "kết hợp trong tính toán biểu thức đại số",
+      "questiontext": "Cho ba đa thức một biến \\(A\\), \\(B\\), \\(C\\). Tính chất kết hợp của phép cộng đa thức được thể hiện qua đẳng thức nào dưới đây?",
+      "generalfeedback": "Tính chất kết hợp của phép cộng đa thức: \\((A + B) + C = A + (B + C)\\).",
+      "answers": [
+        {
+          "text": "\\((A + B) + C = A + (B + C)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\((A + B) + C = (A - B) + C\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((A + B) \\cdot C = A + (B \\cdot C)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(A + (B - C) = (A + B) - C\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_047",
+      "questiontext": "Tính giá trị của biểu thức \\(P(x) = 2x^2 - 3x + 1\\) tại \\(x = 2\\). (Chỉ ghi kết quả là một số nguyên)",
+      "generalfeedback": "Thay \\(x = 2\\) vào \\(P(x)\\): \\(P(2) = 2 \\cdot 2^2 - 3 \\cdot 2 + 1 = 2 \\cdot 4 - 6 + 1 = 8 - 6 + 1 = 3\\).",
+      "answers": [
+        {
+          "text": "3",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_047",
+      "questiontext": "Giá trị của biểu thức \\(Q(x) = x^3 - 4x + 5\\) tại \\(x = -1\\) bằng bao nhiêu? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Thay \\(x = -1\\) vào \\(Q(x)\\): \\(Q(-1) = (-1)^3 - 4(-1) + 5 = -1 + 4 + 5 = 8\\).",
+      "answers": [
+        {
+          "text": "8",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_053",
+      "questiontext": "Cho hai đa thức \\(A(x) = 3x^2 + 2x - 1\\) và \\(B(x) = x^2 - 5x + 4\\). Kết quả của phép cộng \\(A(x) + B(x)\\) là:",
+      "generalfeedback": "Ta có \\(A(x) + B(x) = (3x^2 + x^2) + (2x - 5x) + (-1 + 4) = 4x^2 - 3x + 3\\).",
+      "answers": [
+        {
+          "text": "\\(4x^2 - 3x + 3\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(4x^2 + 3x + 3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2x^2 - 3x + 3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(4x^2 - 7x + 3\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_054",
+      "questiontext": "Cho hai đa thức \\(P(x) = 5x^3 - 2x^2 + 4\\) và \\(Q(x) = 3x^3 + x^2 - 2\\). Kết quả của phép trừ \\(P(x) - Q(x)\\) là:",
+      "generalfeedback": "Ta có \\(P(x) - Q(x) = (5x^3 - 3x^3) + (-2x^2 - x^2) + (4 - (-2)) = 2x^3 - 3x^2 + 6\\).",
+      "answers": [
+        {
+          "text": "\\(2x^3 - 3x^2 + 6\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(2x^3 - x^2 + 2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(8x^3 - 3x^2 + 2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2x^3 - 3x^2 + 2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_057",
+      "questiontext": "Khẳng định sau đây Đúng hay Sai: Với hai đa thức một biến bất kỳ \\(A(x)\\) và \\(B(x)\\), ta luôn có \\(A(x) - B(x) = B(x) - A(x)\\).",
+      "generalfeedback": "Phép trừ đa thức không có tính chất giao hoán, do đó \\(A(x) - B(x) = -(B(x) - A(x)) \\neq B(x) - A(x)\\) (trừ trường hợp \\(A(x) = B(x)\\)). Khẳng định trên là Sai.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_057",
+      "questiontext": "Hãy ghép mỗi biểu thức/tính chất ở cột bên trái với dạng rút gọn/công thức tương ứng ở cột bên phải:",
+      "generalfeedback": "Áp dụng tính chất giao hoán, kết hợp và quy tắc bỏ dấu ngoặc đối với đa thức một biến.",
+      "subquestions": [
+        {
+          "question": "Tổng của \\(2x + 3x\\)",
+          "answer": "\\(5x\\)"
+        },
+        {
+          "question": "Hiệu của \\(4x^2 - x^2\\)",
+          "answer": "\\(3x^2\\)"
+        },
+        {
+          "question": "Biến đổi \\(-(x - 2)\\)",
+          "answer": "\\(-x + 2\\)"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Tính chất giao hoán",
+      "questiontext": "Khi thực hiện phép cộng các đa thức một biến, ta có thể đổi chỗ các hạng tử nhờ tính chất [[1]] và nhóm các hạng tử thích hợp nhờ tính chất [[2]].",
+      "generalfeedback": "Tính chất giao hoán cho phép đổi chỗ các hạng tử, tính chất kết hợp cho phép nhóm các hạng tử.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "giao hoán"
+        },
+        {
+          "group": 1,
+          "text": "kết hợp"
+        },
+        {
+          "group": 1,
+          "text": "phân phối"
+        },
+        {
+          "group": 1,
+          "text": "đối nhau"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng phép cộng trừ đa thức một biến vào giải bài toán thực tế và tính giá trị",
+      "questiontext": "Một hình chữ nhật có chiều dài là \\(x + 3\\) (cm) và chiều rộng là \\(x - 1\\) (cm). Công thức tính chu vi \\(C(x)\\) của hình chữ nhật đó dưới dạng đa thức thu gọn là:",
+      "generalfeedback": "Chu vi hình chữ nhật là \\(C(x) = 2 \\cdot [(x + 3) + (x - 1)] = 2 \\cdot (2x + 2) = 4x + 4\\).",
+      "answers": [
+        {
+          "text": "\\(4x + 4\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(2x + 2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(4x + 2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2x + 4\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_053",
+      "questiontext": "Tính tổng của hai đa thức \\(M(x) = 2x^3 - x^2 + 5\\) và \\(N(x) = -x^3 + 3x^2 - 2x + 1\\).",
+      "generalfeedback": "Ta có \\(M(x) + N(x) = (2x^3 - x^3) + (-x^2 + 3x^2) - 2x + (5 + 1) = x^3 + 2x^2 - 2x + 6\\).",
+      "answers": [
+        {
+          "text": "\\(x^3 + 2x^2 - 2x + 6\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(3x^3 + 2x^2 - 2x + 6\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x^3 - 4x^2 - 2x + 6\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x^3 + 2x^2 + 2x + 4\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_054",
+      "questiontext": "Cho hai đa thức \\(A(x) = x^2 - 4x + 3\\) và \\(B(x) = 2x^2 - 4x - 1\\). Kết quả của phép tính \\(A(x) - B(x)\\) là:",
+      "generalfeedback": "Ta có \\(A(x) - B(x) = (x^2 - 2x^2) + (-4x - (-4x)) + (3 - (-1)) = -x^2 + 4\\).",
+      "answers": [
+        {
+          "text": "\\(-x^2 + 4\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(3x^2 - 8x + 2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-x^2 - 8x + 4\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x^2 + 4\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_047",
+      "questiontext": "Tính giá trị của biểu thức \\(A(x) = x^3 - 3x^2 + 3x - 1\\) tại \\(x = 1\\). (Chỉ ghi kết quả là một số nguyên)",
+      "generalfeedback": "Thay \\(x = 1\\) vào \\(A(x)\\): \\(A(1) = 1^3 - 3(1)^2 + 3(1) - 1 = 1 - 3 + 3 - 1 = 0\\).",
+      "answers": [
+        {
+          "text": "0",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng phép cộng trừ đa thức một biến vào giải bài toán thực tế và tính giá trị",
+      "questiontext": "Giá trị của biểu thức \\(H(x) = (3x^2 - 2x + 1) + (x^2 + 2x - 5)\\) tại \\(x = 2\\) bằng bao nhiêu? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Thu gọn \\(H(x) = 4x^2 - 4\\). Tại \\(x = 2\\), \\(H(2) = 4(2)^2 - 4 = 16 - 4 = 12\\).",
+      "answers": [
+        {
+          "text": "12",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng phép cộng trừ đa thức một biến vào giải bài toán thực tế và tính giá trị",
+      "questiontext": "Một mảnh vườn hình chữ nhật có chiều dài là \\(2x + 1\\) (m) và chiều rộng kém chiều dài \\(x - 2\\) (m). Đa thức biểu thị chiều rộng của mảnh vườn đó là:",
+      "generalfeedback": "Chiều rộng bằng chiều dài trừ đi \\(x - 2\\): \\((2x + 1) - (x - 2) = 2x + 1 - x + 2 = x + 3\\).",
+      "answers": [
+        {
+          "text": "\\(x + 3\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x - 1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(3x - 1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(3x + 3\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_057",
+      "questiontext": "Khẳng định sau đây Đúng hay Sai: Khi nhóm các hạng tử trong một tổng đa thức bằng dấu ngoặc có dấu \\(-\\) đằng trước, ta phải đổi dấu tất cả các hạng tử trong ngoặc đó.",
+      "generalfeedback": "Theo quy tắc bỏ/đặt dấu ngoặc, nếu trước dấu ngoặc có dấu \\(-\\) thì phải đổi dấu tất cả các hạng tử bên trong ngoặc.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_053",
+      "questiontext": "Hãy nối mỗi cặp đa thức ở cột bên trái với tổng tương ứng của chúng ở cột bên phải:",
+      "generalfeedback": "Thực hiện phép cộng hai đa thức tương ứng bằng cách cộng các hệ số của hạng tử cùng bậc.",
+      "subquestions": [
+        {
+          "question": "\\(x^2 + 1\\) và \\(2x^2 - 3\\)",
+          "answer": "\\(3x^2 - 2\\)"
+        },
+        {
+          "question": "\\(2x - 5\\) và \\(x + 5\\)",
+          "answer": "\\(3x\\)"
+        },
+        {
+          "question": "\\(-x^2 + x\\) và \\(x^2 + 2x\\)",
+          "answer": "\\(3x\\)"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "kết hợp trong tính toán biểu thức đại số",
+      "questiontext": "Khi cộng nhiều đa thức, ta có thể áp dụng tính chất [[1]] để thay đổi vị trí các đa thức và tính chất [[2]] để nhóm các đa thức với nhau một cách thích hợp.",
+      "generalfeedback": "Tính chất giao hoán dùng để đổi vị trí, tính chất kết hợp dùng để nhóm.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "giao hoán"
+        },
+        {
+          "group": 1,
+          "text": "kết hợp"
+        },
+        {
+          "group": 1,
+          "text": "phân phối"
+        },
+        {
+          "group": 1,
+          "text": "chia bớt"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_054",
+      "questiontext": "Để thực hiện phép trừ đa thức \\(A(x) - B(x)\\), ta có thể lấy đa thức \\(A(x)\\) cộng với đa thức [[1]] của đa thức [[2]].",
+      "generalfeedback": "Phép trừ \\(A(x) - B(x)\\) tương đương với phép cộng \\(A(x) + (-B(x))\\), trong đó \\(-B(x)\\) là đa thức đối của \\(B(x)\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "đối"
+        },
+        {
+          "group": 1,
+          "text": "B(x)"
+        },
+        {
+          "group": 1,
+          "text": "A(x)"
+        },
+        {
+          "group": 1,
+          "text": "nghịch đảo"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_047",
+      "questiontext": "Cho đa thức \\(P(x) = x^2 - 5x + 6\\). Giá trị dương nhỏ nhất của \\(x\\) sao cho \\(P(x) = 0\\) là bao nhiêu? (Chỉ ghi số nguyên)",
+      "generalfeedback": "Giải \\(x^2 - 5x + 6 = 0 \\Leftrightarrow (x-2)(x-3) = 0 \\Leftrightarrow x = 2\\) hoặc \\(x = 3\\). Giá trị dương nhỏ nhất là 2.",
+      "answers": [
+        {
+          "text": "2",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Trong quá trình làm bài tập biến đổi và rút gọn biểu thức đại số phức tạp, bạn Nam đã kiên trì thử nghiệm nhiều cách nhóm hạng tử và kiểm tra kĩ từng bước tính cho đến khi tìm ra đáp án chính xác. Hành vi của Nam thể hiện phẩm chất nào sau đây?",
+      "generalfeedback": "Sự kiên trì, không nản lòng khi gặp bài toán khó và cẩn thận kiểm tra lại bài làm là biểu hiện rõ nét của phẩm chất Chăm chỉ.",
+      "answers": [
+        {
+          "text": "Chăm chỉ",
+          "fraction": 100
+        },
+        {
+          "text": "Trung thực",
+          "fraction": 0
+        },
+        {
+          "text": "Trách nhiệm",
+          "fraction": 0
+        },
+        {
+          "text": "Yêu nước",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Khẳng định sau đây Đúng hay Sai: Trong giờ kiểm tra Toán về cộng trừ đa thức một biến, khi thấy kết quả của mình khác với kết quả của bạn bên cạnh, bạn An giữ nguyên bài làm của mình và tự kiểm tra lại các bước tính thay vì chép kết quả của bạn. Hành vi này thể hiện phẩm chất Trung thực.",
+      "generalfeedback": "Không quay kop, không chép bài bạn và tự tin vào sự trung thực trong thi kiểm tra thể hiện rõ phẩm chất Trung thực.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Để tự học và hệ thống hóa kiến thức về quy tắc cộng hai đa thức một biến, bạn Bình lập sơ đồ các bước thực hiện. Thứ tự các bước tự học hợp lý và khoa học nhất là gì?",
+      "generalfeedback": "Quy trình chuẩn để cộng hai đa thức một biến: Bỏ dấu ngoặc -> Nhóm các hạng tử cùng bậc -> Cộng các hệ số của hạng tử cùng bậc -> Viết đa thức kết quả.",
+      "answers": [
+        {
+          "text": "Bỏ dấu ngoặc \\(\\rightarrow\\) Nhóm các hạng tử cùng bậc \\(\\rightarrow\\) Cộng các hệ số tương ứng \\(\\rightarrow\\) Viết đa thức kết quả",
+          "fraction": 100
+        },
+        {
+          "text": "Nhóm các hạng tử cùng bậc \\(\\rightarrow\\) Bỏ dấu ngoặc \\(\\rightarrow\\) Viết đa thức kết quả \\(\\rightarrow\\) Cộng các hệ số",
+          "fraction": 0
+        },
+        {
+          "text": "Cộng các hệ số \\(\\rightarrow\\) Bỏ dấu ngoặc \\(\\rightarrow\\) Nhóm các hạng tử cùng bậc \\(\\rightarrow\\) Viết đa thức kết quả",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ dấu ngoặc \\(\\rightarrow\\) Cộng các hệ số \\(\\rightarrow\\) Nhóm các hạng tử cùng bậc \\(\\rightarrow\\) Viết đa thức kết quả",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLC_GIAIQUYETVD",
+      "questiontext": "Khi cần tính giá trị của biểu thức \\(P(x) = (3x^2 + 2x - 5) + (x^2 - 2x + 1)\\) tại \\(x = 100\\), bạn Minh đã thu gọn biểu thức thành \\(P(x) = 4x^2 - 4\\) rồi mới thay \\(x = 100\\) vào tính. Cách làm của Minh thể hiện ưu điểm gì của năng lực giải quyết vấn đề và sáng tạo?",
+      "generalfeedback": "Việc biến đổi thu gọn biểu thức trước khi thay số giúp tối giản phép tính, giảm thiểu nguy cơ sai sót và tăng tốc độ giải quyết vấn đề.",
+      "answers": [
+        {
+          "text": "Biến đổi bài toán phức tạp thành đơn giản hơn giúp tính toán nhanh chóng và chính xác",
+          "fraction": 100
+        },
+        {
+          "text": "Tránh phải sử dụng phép cộng đa thức trong quá trình tính toán",
+          "fraction": 0
+        },
+        {
+          "text": "Giúp thay đổi giá trị gốc của biểu thức ban đầu",
+          "fraction": 0
+        },
+        {
+          "text": "Không cần thực hiện phép tính lũy thừa khi tính giá trị",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Cho hai đa thức \\(A(x) = 2x^2 + 3x - 1\\) và \\(B(x) = -2x^2 + x + 4\\). Bạn Hoa lập luận: 'Tổng \\(A(x) + B(x)\\) là một đa thức bậc 1 vì hạng tử bậc 2 bị triệt tiêu: \\(2x^2 + (-2x^2) = 0\\)'. Lập luận của Hoa là đúng hay sai và vì sao?",
+      "generalfeedback": "Lập luận của Hoa hoàn toàn chính xác. Khi cộng hai đa thức, \\(A(x) + B(x) = (2x^2 - 2x^2) + (3x + x) + (-1 + 4) = 4x + 3\\), đây là đa thức bậc 1.",
+      "answers": [
+        {
+          "text": "Đúng, vì hệ số của hạng tử bậc 2 bằng 0 nên bậc của đa thức tổng là 1",
+          "fraction": 100
+        },
+        {
+          "text": "Sai, vì tổng của hai đa thức bậc 2 luôn luôn là một đa thức bậc 2",
+          "fraction": 0
+        },
+        {
+          "text": "Sai, vì đa thức tổng thu gọn bằng 3 nên là đa thức bậc 0",
+          "fraction": 0
+        },
+        {
+          "text": "Đúng, nhưng đa thức tổng thu gọn là đa thức bậc 2",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "questiontext": "Một công ty muốn tính tổng chi phí sản xuất \\(C(x)\\) (triệu đồng) cho hai dòng sản phẩm A và B dựa theo số lượng đơn hàng \\(x\\). Chi phí sản phẩm A là \\(P(x) = 2x^2 + 5x\\), chi phí sản phẩm B là \\(Q(x) = x^2 - 2x + 10\\). Việc lập biểu thức tổng chi phí \\(C(x) = P(x) + Q(x) = 3x^2 + 3x + 10\\) thể hiện bước nào trong giải quyết vấn đề toán học?",
+      "generalfeedback": "Bước lập biểu thức đại số từ tình huống thực tế chính là quá trình mô hình hóa toán học bài toán thực tiễn.",
+      "answers": [
+        {
+          "text": "Mô hình hóa tình huống thực tế thành bài toán đại số",
+          "fraction": 100
+        },
+        {
+          "text": "Thử lại và kiểm tra độ chính xác của số liệu thực địa",
+          "fraction": 0
+        },
+        {
+          "text": "Đánh giá hiệu quả kinh tế của công ty",
+          "fraction": 0
+        },
+        {
+          "text": "Thu thập dữ liệu thống kê từ thị trường",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Hành động nào sau đây của học sinh thể hiện rõ nhất phẩm chất Chăm chỉ trong học tập môn Toán?",
+      "generalfeedback": "Tự giác làm đầy đủ bài tập và kiên trì tìm lời giải cho các bài toán biến đổi biểu thức thể hiện phẩm chất Chăm chỉ.",
+      "answers": [
+        {
+          "text": "Tự giác làm bài tập về nhà và kiên trì rèn luyện các dạng bài tập cộng, trừ đa thức",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ làm bài tập khi cô giáo nhắc nhở và kiểm tra",
+          "fraction": 0
+        },
+        {
+          "text": "Chép lời giải từ sách giải mà không tự suy nghĩ",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua các bài toán có chứa phép tính biến đổi biểu thức",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Khi thực hiện chấm bài chéo cho bạn trong giờ học Toán, hành vi nào thể hiện phẩm chất Trung thực?",
+      "generalfeedback": "Chấm đúng đáp án và thang điểm quy định, không bao che lỗi sai thể hiện tính trung thực.",
+      "answers": [
+        {
+          "text": "Chấm đúng theo đáp án hướng dẫn, không tự ý sửa điểm hoặc bỏ qua lỗi sai của bạn",
+          "fraction": 100
+        },
+        {
+          "text": "Sửa lại đáp án sai của bạn thành đúng để bạn được điểm cao",
+          "fraction": 0
+        },
+        {
+          "text": "Trừ điểm bạn vì lý do cá nhân dù bạn làm đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Chép bài làm của bạn vào vở của mình trong lúc chấm",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

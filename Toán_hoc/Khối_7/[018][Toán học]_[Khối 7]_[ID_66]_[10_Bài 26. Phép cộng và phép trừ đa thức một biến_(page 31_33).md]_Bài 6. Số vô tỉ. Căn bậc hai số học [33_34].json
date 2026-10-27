@@ -1,0 +1,637 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 25,
+    "metadata_used": {
+      "Khái niệm căn bậc hai số học của số không âm": 3,
+      "Kí hiệu căn bậc hai": 3,
+      "Tính căn bậc hai số học của một số chính phương": 8,
+      "Nhận biết điều kiện tồn tại căn bậc hai": 4,
+      "YCCD_TOAN7_024": 2,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_TUCHUTUHOC": 1,
+      "NLC_GIAOTIEP": 1,
+      "NLT_TOAN_C2_01": 1,
+      "NLT_TOAN_C2_03": 1
+    },
+    "types_used": {
+      "multichoice": 10,
+      "truefalse": 3,
+      "numerical": 2,
+      "gapselect": 3,
+      "matching": 2,
+      "shortanswer": 2,
+      "calculatedsimple": 1,
+      "ddwtos": 2
+    },
+    "total": 25
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_024",
+        "reason": "Nhận biết được khái niệm căn bậc hai số học của một số không âm"
+      },
+      {
+        "metadata_code": "Khái niệm căn bậc hai số học của số không âm",
+        "reason": "Khái niệm căn bậc hai số học của số không âm"
+      },
+      {
+        "metadata_code": "Kí hiệu căn bậc hai",
+        "reason": "Kí hiệu căn bậc hai"
+      },
+      {
+        "metadata_code": "Tính căn bậc hai số học của một số chính phương",
+        "reason": "Tính căn bậc hai số học của một số chính phương"
+      },
+      {
+        "metadata_code": "Nhận biết điều kiện tồn tại căn bậc hai",
+        "reason": "Nhận biết điều kiện tồn tại căn bậc hai"
+      },
+      {
+        "metadata_code": "PC_CHAMCHI",
+        "reason": "Chăm chỉ trong học tập toán"
+      },
+      {
+        "metadata_code": "PC_TRUNGTHUC",
+        "reason": "Trung thực trong làm bài và kiểm tra"
+      },
+      {
+        "metadata_code": "NLC_TUCHUTUHOC",
+        "reason": "Năng lực tự chủ và tự học qua tài liệu SGK"
+      },
+      {
+        "metadata_code": "NLC_GIAOTIEP",
+        "reason": "Năng lực giao tiếp và hợp tác trong thảo luận nhóm"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01",
+        "reason": "Năng lực tư duy và lập luận toán học về so sánh căn bậc hai"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03",
+        "reason": "Năng lực giải quyết vấn đề toán học qua tình huống thực tế"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học thuộc chương trình Toán 7 thuần lý thuyết đại số, không chứa nội dung hay hoạt động thực hành công cụ CNTT/Tin học cụ thể."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung kiến thức về căn bậc hai số học không tích hợp trực tiếp nguyên lý hay kịch bản ứng dụng công nghệ Trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm căn bậc hai số học của số không âm",
+      "questiontext": "Căn bậc hai số học của một số không âm \\(a\\) là:",
+      "generalfeedback": "Theo định nghĩa SGK, căn bậc hai số học của số không âm \\(a\\) là số không âm \\(x\\) sao cho \\(x^2 = a\\).",
+      "answers": [
+        {
+          "text": "Số không âm \\(x\\) sao cho \\(x^2 = a\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Số âm \\(x\\) sao cho \\(x^2 = a\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Số \\(x\\) bất kỳ sao cho \\(x = a^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Số dương \\(x\\) sao cho \\(x = 2a\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Kí hiệu căn bậc hai",
+      "questiontext": "Căn bậc hai số học của số không âm \\(a\\) được ký hiệu là \\(\\sqrt{a}\\).",
+      "generalfeedback": "Đúng. Kí hiệu căn bậc hai số học của số không âm \\(a\\) là \\(\\sqrt{a}\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính căn bậc hai số học của một số chính phương",
+      "questiontext": "Tính giá trị của căn bậc hai số học \\(\\sqrt{81}\\). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Vì \\(9 \\ge 0\\) và \\(9^2 = 81\\) nên \\(\\sqrt{81} = 9\\).",
+      "answers": [
+        {
+          "text": "9",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết điều kiện tồn tại căn bậc hai",
+      "questiontext": "Trong các biểu thức sau, biểu thức nào KHÔNG tồn tại căn bậc hai số học?",
+      "generalfeedback": "Căn bậc hai số học \\(\\sqrt{a}\\) chỉ tồn tại khi \\(a \\ge 0\\). Do \\(-16 < 0\\) nên \\(\\sqrt{-16}\\) không tồn tại.",
+      "answers": [
+        {
+          "text": "\\(\\sqrt{-16}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\sqrt{0}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\sqrt{25}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\sqrt{0,36}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_024",
+      "questiontext": "Số [[1]] có đúng một căn bậc hai số học là [[2]].",
+      "generalfeedback": "Số 0 có đúng một căn bậc hai số học là 0.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "0"
+        },
+        {
+          "group": 1,
+          "text": "1"
+        },
+        {
+          "group": 1,
+          "text": "2"
+        },
+        {
+          "group": 1,
+          "text": "-1"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Tính căn bậc hai số học của một số chính phương",
+      "questiontext": "Hãy ghép mỗi căn bậc hai số học ở cột bên trái với giá trị đúng ở cột bên phải:",
+      "generalfeedback": "\\(\\sqrt{49} = 7\\); \\(\\sqrt{100} = 10\\); \\(\\sqrt{0,16} = 0,4\\).",
+      "subquestions": [
+        {
+          "question": "\\(\\sqrt{49}\\)",
+          "answer": "7"
+        },
+        {
+          "question": "\\(\\sqrt{100}\\)",
+          "answer": "10"
+        },
+        {
+          "question": "\\(\\sqrt{0,16}\\)",
+          "answer": "0,4"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết điều kiện tồn tại căn bậc hai",
+      "questiontext": "Để căn bậc hai số học \\(\\sqrt{x}\\) tồn tại thì số \\(x\\) phải thỏa mãn điều kiện gì đối với số 0?",
+      "generalfeedback": "Điều kiện để \\(\\sqrt{x}\\) tồn tại là \\(x\\) phải không âm (tức là \\(x \\ge 0\\)).",
+      "answers": [
+        {
+          "text": "không âm",
+          "fraction": 100
+        },
+        {
+          "text": "x >= 0",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Tính căn bậc hai số học của một số chính phương",
+      "questiontext": "Tính diện tích hình vuông (tính theo cm2) nếu biết độ dài cạnh của hình vuông là căn bậc hai số học của {a}. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Cạnh của hình vuông là x = \\(\\sqrt{\\{a\\}}\\). Diện tích hình vuông là \\(x^2 = (\\sqrt{\\{a\\}})^2 = \\{a\\}\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 100.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Kí hiệu căn bậc hai",
+      "questiontext": "Trong ký hiệu \\(\\sqrt{a}\\) , số [[1]] được gọi là số dưới dấu [[2]].",
+      "generalfeedback": "Trong ký hiệu \\(\\sqrt{a}\\), số \\(a\\) được gọi là số dưới dấu căn.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "a"
+        },
+        {
+          "group": 1,
+          "text": "căn"
+        },
+        {
+          "group": 1,
+          "text": "bậc"
+        },
+        {
+          "group": 1,
+          "text": "phẩy"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_024",
+      "questiontext": "Cho số chính phương \\(a = 144\\). Khẳng định nào sau đây là ĐÚNG về căn bậc hai số học của \\(a\\)?",
+      "generalfeedback": "Vì \\(12 \\ge 0\\) và \\(12^2 = 144\\) nên căn bậc hai số học của 144 là 12.",
+      "answers": [
+        {
+          "text": "Căn bậc hai số học của 144 là 12 vì \\(12 \\ge 0\\) và \\(12^2 = 144\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Căn bậc hai số học của 144 là -12 vì \\((-12)^2 = 144\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Căn bậc hai số học của 144 là cả 12 và -12",
+          "fraction": 0
+        },
+        {
+          "text": "Căn bậc hai số học của 144 không tồn tại",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm căn bậc hai số học của số không âm",
+      "questiontext": "Nếu \\(x \\ge 0\\) và \\(x^2 = 25\\) thì \\(x\\) được gọi là:",
+      "generalfeedback": "Vì \\(x \\ge 0\\) và \\(x^2 = 25\\) nên \\(x\\) là căn bậc hai số học của 25.",
+      "answers": [
+        {
+          "text": "Căn bậc hai số học của 25",
+          "fraction": 100
+        },
+        {
+          "text": "Số đối của 25",
+          "fraction": 0
+        },
+        {
+          "text": "Bình phương của 25",
+          "fraction": 0
+        },
+        {
+          "text": "Lũy thừa bậc hai của -25",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết điều kiện tồn tại căn bậc hai",
+      "questiontext": "Biểu thức \\(\\sqrt{0}\\) có giá trị bằng 0 và tồn tại căn bậc hai số học.",
+      "generalfeedback": "Đúng. Căn bậc hai số học của 0 là 0.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Tính căn bậc hai số học của một số chính phương",
+      "questiontext": "Tính giá trị của \\(\\sqrt{0,64}\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Vì \\(0,8 \\ge 0\\) và \\(0,8^2 = 0,64\\) nên \\(\\sqrt{0,64} = 0,8\\).",
+      "answers": [
+        {
+          "text": "0.8",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tính căn bậc hai số học của một số chính phương",
+      "questiontext": "Giá trị của biểu thức \\(A = \\sqrt{36} + \\sqrt{64}\\) là:",
+      "generalfeedback": "\\(\\sqrt{36} = 6\\) và \\(\\sqrt{64} = 8\\). Do đó \\(A = 6 + 8 = 14\\).",
+      "answers": [
+        {
+          "text": "14",
+          "fraction": 100
+        },
+        {
+          "text": "100",
+          "fraction": 0
+        },
+        {
+          "text": "10",
+          "fraction": 0
+        },
+        {
+          "text": "48",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Kí hiệu căn bậc hai",
+      "questiontext": "Trong toán học, phép toán tìm căn bậc hai số học của một số không âm gọi là phép lấy căn bậc hai hay phép gì?",
+      "generalfeedback": "Phép toán tìm căn bậc hai số học của một số không âm còn gọi là phép khai căn.",
+      "answers": [
+        {
+          "text": "khai căn",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Tính căn bậc hai số học của một số chính phương",
+      "questiontext": "Căn bậc hai số học của 16 là [[1]], còn căn bậc hai số học của 81 là [[2]].",
+      "generalfeedback": "\\(\\sqrt{16} = 4\\) và \\(\\sqrt{81} = 9\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "4"
+        },
+        {
+          "group": 1,
+          "text": "9"
+        },
+        {
+          "group": 1,
+          "text": "16"
+        },
+        {
+          "group": 1,
+          "text": "81"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm căn bậc hai số học của số không âm",
+      "questiontext": "Nối các số ở cột bên trái với căn bậc hai số học tương ứng ở cột bên phải:",
+      "generalfeedback": "\\(\\sqrt{1} = 1\\), \\(\\sqrt{4} = 2\\), \\(\\sqrt{9} = 3\\).",
+      "subquestions": [
+        {
+          "question": "Số 1",
+          "answer": "1"
+        },
+        {
+          "question": "Số 4",
+          "answer": "2"
+        },
+        {
+          "question": "Số 9",
+          "answer": "3"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết điều kiện tồn tại căn bậc hai",
+      "questiontext": "Biểu thức \\(\\sqrt{a}\\) xác định khi và chỉ khi \\(a\\) là số [[1]], nghĩa là \\(a\\) [[2]] 0.",
+      "generalfeedback": "\\(\\sqrt{a}\\) xác định (tồn tại) khi \\(a\\) không âm, tức \\(a \\ge 0\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "không âm"
+        },
+        {
+          "group": 1,
+          "text": "lớn hơn hoặc bằng"
+        },
+        {
+          "group": 1,
+          "text": "nhỏ hơn"
+        },
+        {
+          "group": 1,
+          "text": "âm"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Tính căn bậc hai số học của một số chính phương",
+      "questiontext": "Một hình vuông có diện tích là \\(121\\text{ cm}^2\\). Độ dài cạnh của hình vuông đó là:",
+      "generalfeedback": "Độ dài cạnh hình vuông là căn bậc hai số học của diện tích: \\(\\sqrt{121} = 11\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "\\(11\\text{ cm}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(121\\text{ cm}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(22\\text{ cm}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-11\\text{ cm}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Khi làm bài tập tìm căn bậc hai số học của một số lớn, bạn An gặp khó khăn. Thể hiện tính chăm chỉ trong học tập, bạn An nên làm gì?",
+      "generalfeedback": "Kiên trì phân tích số đó thành tích của các số chính phương để tìm căn bậc hai số học thể hiện tinh thần chăm chỉ, tự giác vượt khó.",
+      "answers": [
+        {
+          "text": "Kiên trì phân tích số đó thành tích các số chính phương nhỏ hơn để tìm ra kết quả chính xác.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua câu hỏi đó và chờ cô giáo chữa bài.",
+          "fraction": 0
+        },
+        {
+          "text": "Mượn ngay bài giải của bạn khác để chép cho xong.",
+          "fraction": 0
+        },
+        {
+          "text": "Điền đại một số bất kỳ để hoàn thành bài tập.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Trong giờ kiểm tra, khi tính \\(\\sqrt{169}\\), bạn Bình tính ra 13 nhưng thấy bạn bên cạnh ghi -13. Bình giữ nguyên kết quả đúng của mình thay vì chép theo bạn. Việc làm của Bình thể hiện tính trung thực trong học tập.",
+      "generalfeedback": "Đúng. Tự tin vào kết quả đúng do mình làm ra và không chép bài của người khác là biểu hiện của tính trung thực.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Để tự học hiệu quả khái niệm \"Căn bậc hai số học\" trong SGK, học sinh nên thực hiện quy trình tự học nào sau đây?",
+      "generalfeedback": "Đọc kĩ định nghĩa trong SGK, phân tích ví dụ minh họa và tự giải các bài tập luyện tập giúp phát triển năng lực tự chủ và tự học.",
+      "answers": [
+        {
+          "text": "Đọc kỹ định nghĩa trong SGK, phân tích ví dụ mẫu, sau đó tự làm bài tập Luyện tập và tự kiểm tra lại kết quả.",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ đọc phần tóm tắt cuối bài và thuộc lòng đáp án các bài tập.",
+          "fraction": 0
+        },
+        {
+          "text": "Chờ thầy cô giảng xong mới mở sách ra đọc.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép lại toàn bộ sách giáo khoa vào vở mà không cần làm bài tập.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_GIAOTIEP",
+      "questiontext": "Khi thảo luận nhóm về điều kiện để \\(\\sqrt{a}\\) tồn tại, bạn Mai giải thích cho cả nhóm: \"Biểu thức \\(\\sqrt{a}\\) chỉ tồn tại khi \\(a\\) [[1]], vì không có số nào bình phương lên ra số [[2]]\".",
+      "generalfeedback": "Giao tiếp toán học rõ ràng, dùng ngôn ngữ chính xác giúp bạn bè trong nhóm hiểu bài tốt hơn.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "không âm"
+        },
+        {
+          "group": 1,
+          "text": "âm"
+        },
+        {
+          "group": 1,
+          "text": "bằng 0"
+        },
+        {
+          "group": 1,
+          "text": "dương"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Bạn Minh lập luận: \"Vì \\(25 < 36\\) nên \\(\\sqrt{25} < \\sqrt{36}\\), suy ra \\(5 < 6\\)\". Lập luận của bạn Minh là đúng hay sai và dựa trên cơ sở toán học nào?",
+      "generalfeedback": "Với hai số không âm a và b, nếu a < b thì \\(\\sqrt{a} < \\sqrt{b}\\). Lập luận của Minh là chính xác.",
+      "answers": [
+        {
+          "text": "Đúng, vì với hai số không âm, số lớn hơn thì có căn bậc hai số học lớn hơn.",
+          "fraction": 100
+        },
+        {
+          "text": "Sai, vì căn bậc hai số học của mọi số đều bằng nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Sai, vì 25 và 36 không phải là hai số chính phương.",
+          "fraction": 0
+        },
+        {
+          "text": "Đúng, nhưng chỉ áp dụng cho các số lẻ.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "questiontext": "Một bức tranh tường hình vuông có diện tích \\(49\\text{ m}^2\\). Bác thợ cần tính độ dài cạnh bức tranh để mua nẹp gỗ xung quanh. Để giải quyết bài toán này, bác thợ nên sử dụng kiến thức nào?",
+      "generalfeedback": "Độ dài cạnh hình vuông có diện tích S là \\(\\sqrt{S}\\). Đây là bài toán thực tế áp dụng căn bậc hai số học.",
+      "answers": [
+        {
+          "text": "Tính căn bậc hai số học của 49, ta được độ dài cạnh là \\(\\sqrt{49} = 7\\text{ m}\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Chia 49 cho 4 để tìm độ dài cạnh bức tranh.",
+          "fraction": 0
+        },
+        {
+          "text": "Nhân 49 với 2 để tìm độ dài cạnh bức tranh.",
+          "fraction": 0
+        },
+        {
+          "text": "Bình phương 49 lên để tìm độ dài cạnh bức tranh.",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,448 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 16,
+    "metadata_used": {
+      "Hệ thống hóa kiến thức Chương VIII về phép thử và xác suất": 7,
+      "YCCD_TOAN9_127": 14,
+      "Giải các bài tập trắc nghiệm và tự luận tổng hợp Chương VIII": 9,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_TCTH_TUHOC_C2_04": 1,
+      "SUB_GQVD_DEXUAT_C2_02": 1,
+      "NLT_TOAN_C2_03_04": 1,
+      "NLT_TOAN_C2_03_05": 1,
+      "2.1TC2a_K9": 1,
+      "9.A3.1_2": 1
+    },
+    "types_used": {
+      "multichoice": 13,
+      "truefalse": 1,
+      "numerical": 1,
+      "matching": 1
+    },
+    "total": 16
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN9_127",
+        "reason": "Đo lường khả năng tính xác suất của biến cố bằng cách kiểm đếm số trường hợp có thể và số trường hợp thuận lợi trong mô hình xác suất đơn giản."
+      },
+      {
+        "metadata_code": "Hệ thống hóa kiến thức Chương VIII về phép thử và xác suất",
+        "reason": "Đo lường khả năng hệ thống hóa kiến thức Chương VIII về phép thử và xác suất."
+      },
+      {
+        "metadata_code": "Giải các bài tập trắc nghiệm và tự luận tổng hợp Chương VIII",
+        "reason": "Đo lường kỹ năng giải các bài tập trắc nghiệm và tự luận tổng hợp Chương VIII."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đo lường phẩm chất cố gắng vươn lên đạt kết quả tốt trong học tập qua tình huống rèn luyện phương pháp học tập."
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+        "reason": "Đo lường năng lực chung lưu giữ và tóm tắt thông tin theo quy trình."
+      },
+      {
+        "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+        "reason": "Đo lường năng lực chung đề xuất giải pháp tạo trò chơi công bằng."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_04",
+        "reason": "Đo lường năng lực đặc thù sử dụng kiến thức toán học về tính chẵn lẻ."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_05",
+        "reason": "Đo lường năng lực đặc thù sử dụng kỹ năng lập bảng 2 chiều."
+      },
+      {
+        "metadata_code": "2.1TC2a_K9",
+        "reason": "Đo lường năng lực số chọn lựa phần mềm bảng tính mô phỏng gieo xúc xắc."
+      },
+      {
+        "metadata_code": "9.A3.1_2",
+        "reason": "Đo lường năng lực AI tư duy phản biện đánh giá câu trả lời của Chatbot AI."
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống hóa kiến thức Chương VIII về phép thử và xác suất",
+      "questiontext": "Gieo đồng thời hai con xúc xắc cân đối, đồng chất. Số kết quả có thể xảy ra của phép thử này là:",
+      "generalfeedback": "Khi gieo hai con xúc xắc cân đối và đồng chất, mỗi con xúc xắc có 6 khả năng xuất hiện mặt từ 1 đến 6 chấm. Do đó, tổng số kết quả có thể xảy ra là \\(6 \\times 6 = 36\\).",
+      "answers": [
+        {
+          "text": "\\(12\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(36\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(24\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(18\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_127",
+      "questiontext": "Gieo đồng thời hai con xúc xắc cân đối, đồng chất. Số kết quả thuận lợi cho biến cố \"Tổng số chấm xuất hiện trên hai con xúc xắc lớn hơn hoặc bằng \\(10\\)\" là:",
+      "generalfeedback": "Các kết quả thuận lợi là các cặp số chấm \\((x, y)\\) sao cho \\(x + y \\ge 10\\), bao gồm: \\((4, 6)\\), \\((5, 5)\\), \\((5, 6)\\), \\((6, 4)\\), \\((6, 5)\\), \\((6, 6)\\). Có tất cả 6 kết quả thuận lợi.",
+      "answers": [
+        {
+          "text": "\\(4\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(5\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(6\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(7\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Giải các bài tập trắc nghiệm và tự luận tổng hợp Chương VIII",
+      "questiontext": "Gieo đồng thời hai con xúc xắc cân đối, đồng chất. Xác suất để \"Tổng số chấm xuất hiện trên hai con xúc xắc lớn hơn hoặc bằng \\(10\\)\" là:",
+      "generalfeedback": "Tổng số kết quả có thể là \\(36\\). Số kết quả thuận lợi cho biến cố là \\(6\\). Xác suất của biến cố là \\(\\frac{6}{36} = \\frac{1}{6}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{7}{36}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{2}{9}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{1}{6}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{5}{36}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_127",
+      "questiontext": "Có hai túi I và II. Túi I chứa 4 tấm thẻ, đánh số 1; 2; 3; 4. Túi II chứa 5 tấm thẻ, đánh số 1; 2; 3; 4; 5. Rút ngẫu nhiên một tấm thẻ từ mỗi túi I và II. Xác suất để cả hai tấm thẻ rút ra đều ghi số chẵn là:",
+      "generalfeedback": "Số kết quả có thể xảy ra khi rút thẻ từ hai túi là \\(4 \\times 5 = 20\\). Túi I có 2 thẻ chẵn (2; 4), túi II có 2 thẻ chẵn (2; 4). Số kết quả thuận lợi là \\(2 \\times 2 = 4\\). Xác suất cần tìm là \\(\\frac{4}{20} = \\frac{1}{5}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{1}{5}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{3}{20}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{1}{4}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{4}{21}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Giải các bài tập trắc nghiệm và tự luận tổng hợp Chương VIII",
+      "questiontext": "Một túi đựng 4 viên bi có cùng khối lượng và kích thước, được đánh số 1; 2; 3; 4. Lấy ngẫu nhiên hai viên bi từ trong túi. Xác suất để tích hai số ghi trên hai viên bi lớn hơn 3 là:",
+      "generalfeedback": "Số cách lấy ngẫu nhiên 2 viên bi từ 4 viên bi là \\(6\\) cặp: (1,2), (1,3), (1,4), (2,3), (2,4), (3,4). Các cặp có tích lớn hơn 3 là (1,4), (2,3), (2,4), (3,4), gồm 4 kết quả thuận lợi. Xác suất là \\(\\frac{4}{6} = \\frac{2}{3}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{5}{7}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{2}{3}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{3}{4}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{5}{6}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống hóa kiến thức Chương VIII về phép thử và xác suất",
+      "questiontext": "Xét phép thử rút ngẫu nhiên một tấm thẻ từ túi I (chứa 3 tấm thẻ 2; 3; 4) và một tấm thẻ từ túi II (chứa 2 tấm thẻ 5; 6). Tổng số kết quả có thể của phép thử này là \\(6\\).",
+      "generalfeedback": "Đúng. Mỗi kết quả là một cặp số \\((a, b)\\) với \\(a \\in \\{2, 3, 4\\}\\) và \\(b \\in \\{5, 6\\}\\). Tổng số kết quả có thể là \\(3 \\times 2 = 6\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_127",
+      "questiontext": "Có hai túi I và II. Túi I chứa 3 tấm thẻ đánh số 2; 3; 4. Túi II chứa 2 tấm thẻ đánh số 5; 6. Rút ngẫu nhiên từ mỗi túi một tấm thẻ. Xác suất của biến cố A: \"Hai số ghi trên hai tấm thẻ chênh nhau 2 đơn vị\" là:",
+      "generalfeedback": "Tổng số kết quả có thể là 6. Các cặp chênh nhau 2 đơn vị là (3, 5) và (4, 6), gồm 2 kết quả thuận lợi. Xác suất P(A) = 2/6 = 1/3.",
+      "answers": [
+        {
+          "text": "\\(\\frac{1}{3}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{1}{6}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{1}{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{2}{3}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_127",
+      "questiontext": "Gieo đồng thời hai con xúc xắc cân đối, đồng chất I và II. Tính xác suất của biến cố E: \"Tổng số chấm xuất hiện trên hai con xúc xắc bằng 11\". (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị, làm tròn đến 4 chữ số thập phân)",
+      "generalfeedback": "Các cặp có tổng bằng 11 là (5, 6) và (6, 5), gồm 2 kết quả thuận lợi. Tổng số kết quả có thể là 36. Xác suất P(E) = 2/36 = 1/18 ≈ 0.0556.",
+      "answers": [
+        {
+          "text": "0.0556",
+          "fraction": 100,
+          "tolerance": 0.0001
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Hệ thống hóa kiến thức Chương VIII về phép thử và xác suất",
+      "questiontext": "Khi gieo đồng thời hai con xúc xắc cân đối, đồng chất, hãy ghép mỗi biến cố sau với số kết quả thuận lợi tương ứng:",
+      "generalfeedback": "Biến cố \"Tổng số chấm bằng 11\" có 2 kết quả: (5,6), (6,5).\nBiến cố \"Tổng số chấm bằng 8 hoặc 9\" có 9 kết quả: (2,6), (3,5), (4,4), (5,3), (6,2), (3,6), (4,5), (5,4), (6,3).\nBiến cố \"Tổng số chấm nhỏ hơn 6\" có 10 kết quả: (1,1), (1,2), (2,1), (1,3), (2,2), (3,1), (1,4), (2,3), (3,2), (4,1).",
+      "subquestions": [
+        {
+          "question": "Tổng số chấm xuất hiện trên hai con xúc xắc bằng 11",
+          "answer": "2"
+        },
+        {
+          "question": "Tổng số chấm xuất hiện trên hai con xúc xắc bằng 8 hoặc 9",
+          "answer": "9"
+        },
+        {
+          "question": "Tổng số chấm xuất hiện trên hai con xúc xắc nhỏ hơn 6",
+          "answer": "10"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi làm bài tập tính xác suất của phép thử gieo hai con xúc xắc cân đối (Bài 8.16), bạn An gặp khó khăn trong việc tìm tất cả các kết quả thuận lợi cho biến cố 'Tổng số chấm nhỏ hơn 6' vì dễ bị sót trường hợp. Để thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập, bạn An nên thực hiện hành động nào sau đây?",
+      "generalfeedback": "Để đạt kết quả tốt trong học tập, học sinh cần thể hiện tính kiên trì, rèn luyện phương pháp học tập khoa học (lập bảng 2 chiều hoặc sơ đồ cây để kiểm đếm hệ thống) và chủ động hỏi thầy cô, bạn bè khi gặp vướng mắc chứ không bỏ qua hay chọn bừa.",
+      "answers": [
+        {
+          "text": "Kiên trì lập bảng kiểm đếm 2 chiều tất cả 36 trường hợp, rà soát cẩn thận từng cặp và trao đổi với bạn bè để hoàn thiện bài làm.",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ liệt kê một vài trường hợp nhẩm được rồi đoán chừng kết quả để tiết kiệm thời gian làm bài.",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua câu hỏi này vì cho rằng bài tập tính xác suất quá rắc rối và không cần thiết.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép ngay đáp án của bạn khác vào vở mà không cần hiểu cách liệt kê các kết quả thuận lợi.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Để lưu giữ thông tin có chọn lọc và tóm tắt quy trình giải bài toán tính xác suất của biến cố trong một mô hình xác suất đơn giản (như bài 8.13 rút thẻ từ hai túi), bảng tóm tắt nào sau đây thể hiện đúng và đầy đủ nhất các từ khóa cốt lõi theo trình tự?",
+      "generalfeedback": "Quy trình tóm tắt chuẩn gồm 3 bước cốt lõi: 1. Đếm tổng số kết quả có thể (không gian mẫu N); 2. Kiểm đếm số kết quả thuận lợi (n); 3. Tính xác suất P = n/N.",
+      "answers": [
+        {
+          "text": "Bước 1: Tính tổng số kết quả có thể \\(N\\) -> Bước 2: Liệt kê số kết quả thuận lợi \\(n\\) -> Bước 3: Tính xác suất \\(P = \\frac{n}{N}\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Bước 1: Tính xác suất \\(P\\) -> Bước 2: Liệt kê số kết quả thuận lợi \\(n\\) -> Bước 3: Đếm tổng số kết quả có thể \\(N\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Bước 1: Rút thẻ thử nghiệm -> Bước 2: Ghi lại kết quả -> Bước 3: Chọn đáp án lớn nhất.",
+          "fraction": 0
+        },
+        {
+          "text": "Bước 1: Đếm số thẻ túi I -> Bước 2: Đếm số thẻ túi II -> Bước 3: Cộng hai số thẻ lại.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Trong trò chơi chọn số ngẫu nhiên giữa Minh (chọn từ \\(\\{5; 6; 7; 8; 9; 10\\}\\)) và Huy (chọn từ \\(\\{4; 5; 7; 8; 9; 11\\}\\)), bạn Huy muốn đề xuất một giải pháp điều chỉnh tập hợp số của mình sao cho xác suất thắng của Huy bằng xác suất thắng của Minh (tạo ra trò chơi công bằng). Biết hiện tại xác suất Minh thắng là \\(\\frac{17}{36}\\), Huy thắng là \\(\\frac{15}{36}\\), hòa là \\(\\frac{4}{36}\\). Giải pháp nào sau đây là hợp lý nhất?",
+      "generalfeedback": "Để tạo ra trò chơi công bằng, xác suất thắng của hai bạn phải bằng nhau. Thay số 4 trong tập của Huy bằng số 6 sẽ giúp Huy có thêm các trường hợp thắng khi Minh chọn 5, nâng số trường hợp Huy thắng từ 15 lên 17, cân bằng xác suất thắng của hai người (cùng bằng 17/36).",
+      "answers": [
+        {
+          "text": "Thay phần tử \\(4\\) trong tập của Huy bằng phần tử \\(6\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Thay phần tử \\(11\\) trong tập của Huy bằng phần tử \\(3\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Giữ nguyên tập hợp và giảm số lần chọn của Minh xuống.",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ hẳn phần tử \\(5\\) khỏi tập hợp của Minh mà không thêm số mới.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_04",
+      "questiontext": "Để giải quyết vấn đề tìm xác suất biến cố C: 'Tích hai số ghi trên hai tấm thẻ là một số chẵn' trong Bài 8.15 (Túi I chứa \\(\\{2; 3; 4\\}\\), Túi II chứa \\(\\{5; 6\\}\\)), bạn Bình đã sử dụng kiến thức toán học về tính chẵn lẻ của tích hai số nguyên. Lập luận toán học nào sau đây là đúng để giải bài toán một cách nhanh nhất?",
+      "generalfeedback": "Tích của hai số nguyên là số lẻ khi và chỉ khi cả hai số đều là số lẻ. Trong phép thử, chỉ có duy nhất cặp (3, 5) cho tích lẻ (3 x 5 = 15). Vì tổng số kết quả có thể là 6, nên số kết quả cho tích chẵn là 6 - 1 = 5. Xác suất là 5/6.",
+      "answers": [
+        {
+          "text": "Tích hai số là số lẻ khi và chỉ khi cả hai số đều lẻ (chỉ có 1 cặp (3,5)), do đó số kết quả thuận lợi cho tích chẵn là \\(6 - 1 = 5\\), xác suất là \\(\\frac{5}{6}\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Tích hai số luôn là số chẵn nên cả 6 kết quả đều thuận lợi, xác suất là \\(1\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Tích hai số là chẵn khi cả hai số đều chẵn, có 2 cặp (2,6) và (4,6), xác suất là \\(\\frac{2}{6} = \\frac{1}{3}\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Tích hai số là chẵn khi có ít nhất một số lẻ, gồm 4 cặp, xác suất là \\(\\frac{4}{6} = \\frac{2}{3}\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Khi gieo đồng thời hai con xúc xắc cân đối, đồng chất (Bài 8.12 và 8.16), kỹ năng toán học nào sau đây giúp học sinh xác định chính xác và không bỏ sót tất cả các kết quả thuận lợi cho các biến cố về tổng số chấm?",
+      "generalfeedback": "Kỹ năng lập bảng hình vuông 2 chiều (6x6) hoặc sơ đồ cây liệt kê tọa độ (x, y) là kỹ năng toán học cốt lõi giúp hệ thống hóa toàn bộ 36 kết quả có thể và xác định chính xác tập hợp các kết quả thuận lợi.",
+      "answers": [
+        {
+          "text": "Lập bảng vuông \\(6 \\times 6\\) biểu diễn cặp số chấm \\((x, y)\\) xuất hiện trên hai con xúc xắc.",
+          "fraction": 100
+        },
+        {
+          "text": "Ước lượng ngẫu nhiên các tổng từ 2 đến 12 mà không cần liệt kê chi tiết.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ tính tổng của các mặt giống nhau như (1,1), (2,2), (3,3), (4,4), (5,5), (6,6).",
+          "fraction": 0
+        },
+        {
+          "text": "Cộng trực tiếp số chấm 6 + 6 = 12 rồi chia đôi.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "2.1TC2a_K9",
+      "questiontext": "Để thực hiện bài tập mô phỏng kiểm chứng xác suất lý thuyết của phép thử gieo hai con xúc xắc (Bài 8.12) qua 1000 lần gieo ngẫu nhiên, phần mềm/công nghệ số nào sau đây hỗ trợ học sinh tự thiết lập công thức tạo số ngẫu nhiên từ 1 đến 6 hiệu quả nhất?",
+      "generalfeedback": "Phần mềm bảng tính (như Microsoft Excel hay Google Sheets) cung cấp hàm RANDBETWEEN(1,6) để mô phỏng gieo xúc xắc và tự động thống kê tần suất, giúp học sinh thực hiện thực nghiệm quy mô lớn dễ dàng.",
+      "answers": [
+        {
+          "text": "Phần mềm bảng tính (Excel/Google Sheets) với hàm tạo số ngẫu nhiên \\(\\text{RANDBETWEEN}(1,6)\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Phần mềm trình chiếu Powerpoint để vẽ hình hai con xúc xắc.",
+          "fraction": 0
+        },
+        {
+          "text": "Phần mềm soạn thảo văn bản Word để gõ lại đề bài.",
+          "fraction": 0
+        },
+        {
+          "text": "Phần mềm xử lý chỉnh sửa ảnh Photoshop.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "9.A3.1_2",
+      "questiontext": "Một học sinh nhập câu hỏi Bài 8.14 vào công cụ Chatbot AI: 'Một túi đựng 4 viên bi đánh số 1, 2, 3, 4. Lấy ngẫu nhiên 2 viên bi. Tính xác suất tích hai số lớn hơn 3'. AI trả lời: 'Có 16 kết quả có thể xảy ra vì mỗi viên bi có 4 cách chọn'. Áp dụng tư duy phản biện khi tương tác với AI, em hãy đánh giá câu trả lời của AI và đưa ra nhận xét đúng?",
+      "generalfeedback": "Phát triển tư duy phản biện khi sử dụng AI giúp học sinh nhận ra lỗi sai của AI: Việc lấy đồng thời 2 viên bi từ túi không tính thứ tự và không hoàn lại, nên tổng số cách lấy 2 viên bi từ 4 viên là 6 cặp [(1,2), (1,3), (1,4), (2,3), (2,4), (3,4)], chứ không phải 16 như AI tính sai (AI đã nhầm sang phép thử lấy có hoàn lại và phân biệt thứ tự).",
+      "answers": [
+        {
+          "text": "AI đã trả lời sai vì lấy ngẫu nhiên đồng thời 2 viên bi thì không tính thứ tự và không lặp lại, tổng số kết quả đúng phải là \\(6\\) cặp.",
+          "fraction": 100
+        },
+        {
+          "text": "AI đã trả lời đúng vì \\(4 \\times 4 = 16\\) kết quả.",
+          "fraction": 0
+        },
+        {
+          "text": "AI trả lời đúng vì luôn chính xác trong các bài toán xác suất.",
+          "fraction": 0
+        },
+        {
+          "text": "AI trả lời sai vì tổng số kết quả phải là \\(4 + 4 = 8\\) kết quả.",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

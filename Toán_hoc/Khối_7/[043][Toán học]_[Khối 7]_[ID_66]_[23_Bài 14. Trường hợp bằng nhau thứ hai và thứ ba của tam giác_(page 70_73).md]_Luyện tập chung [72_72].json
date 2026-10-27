@@ -1,0 +1,630 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 25,
+    "metadata_used": {
+      "Dấu hiệu nhận biết và ứng dụng tam giác bằng nhau c.c.c": 4,
+      "YCCD_TOAN7_089": 4,
+      "Luyện tập chứng minh hai tam giác bằng nhau c.c.c và chứng minh hai góc bằng nhau": 8,
+      "YCCD_TOAN7_107": 4,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_TUCHUTUHOC": 1,
+      "NLC_GIAIQUYETVD": 1,
+      "NLT_TOAN_C2_01": 1,
+      "NLT_TOAN_C2_03": 1
+    },
+    "types_used": {
+      "multichoice": 10,
+      "truefalse": 2,
+      "shortanswer": 2,
+      "numerical": 2,
+      "matching": 2,
+      "gapselect": 2,
+      "ddwtos": 2,
+      "calculated": 2,
+      "calculatedsimple": 1
+    },
+    "total": 25
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "Dấu hiệu nhận biết và ứng dụng tam giác bằng nhau c.c.c",
+        "reason": "Đánh giá kiến thức về dấu hiệu nhận biết và ứng dụng tam giác bằng nhau c.c.c"
+      },
+      {
+        "metadata_code": "Luyện tập chứng minh hai tam giác bằng nhau c.c.c và chứng minh hai góc bằng nhau",
+        "reason": "Đánh giá kỹ năng chứng minh hai tam giác bằng nhau c.c.c và chứng minh hai góc bằng nhau"
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_089",
+        "reason": "Đánh giá khả năng giải thích các trường hợp bằng nhau của hai tam giác"
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_107",
+        "reason": "Đánh giá khả năng diễn đạt lập luận và chứng minh hình học trong trường hợp đơn giản"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N",
+        "reason": "Bài học thuần lý thuyết hình học tam giác bằng nhau, không chứa nội dung thực hành xử lý công nghệ hoặc công cụ số tự nhiên"
+      },
+      {
+        "metadata_code": "A",
+        "reason": "Bài học thuần lý thuyết hình học tam giác bằng nhau, không liên quan đến nguyên lý hay ứng dụng trí tuệ nhân tạo (AI)"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Dấu hiệu nhận biết và ứng dụng tam giác bằng nhau c.c.c",
+      "questiontext": "Trường hợp bằng nhau cạnh - cạnh - cạnh (c.c.c) của hai tam giác phát biểu rằng: Nếu ba cạnh của tam giác này bằng ba cạnh của tam giác kia thì:",
+      "generalfeedback": "Theo định lí trường hợp bằng nhau thứ nhất của tam giác (c.c.c), nếu ba cạnh của tam giác này bằng ba cạnh của tam giác kia thì hai tam giác đó bằng nhau.",
+      "answers": [
+        {
+          "text": "Hai tam giác đó bằng nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Hai tam giác đó đồng dạng nhưng không bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Chu vi của hai tam giác đó khác nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Diện tích của tam giác này gấp đôi tam giác kia",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_089",
+      "questiontext": "Nếu \\(\\triangle ABC\\) và \\(\\triangle MNP\\) có \\(AB = MN\\), \\(BC = NP\\), \\(AC = MP\\) thì \\(\\triangle ABC = \\triangle MNP\\) theo trường hợp cạnh - cạnh - cạnh (c.c.c). Đúng hay Sai?",
+      "generalfeedback": "Phát biểu trên là đúng vì hai tam giác có ba cặp cạnh tương ứng bằng nhau nên bằng nhau theo trường hợp c.c.c.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Luyện tập chứng minh hai tam giác bằng nhau c.c.c và chứng minh hai góc bằng nhau",
+      "questiontext": "Cho \\(\\triangle ABC\\) và \\(\\triangle DEF\\) có \\(AB = DE\\), \\(BC = EF\\), \\(AC = DF\\). Biết \\(\\widehat{A} = 60^{\\circ}\\). Tính số đo góc \\(D\\) theo đơn vị độ. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Vì \\(\\triangle ABC = \\triangle DEF\\) (c.c.c) nên hai góc tương ứng bằng nhau: \\(\\widehat{D} = \\widehat{A} = 60^{\\circ}\\).",
+      "answers": [
+        {
+          "text": "60",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Luyện tập chứng minh hai tam giác bằng nhau c.c.c và chứng minh hai góc bằng nhau",
+      "questiontext": "Cho \\(\\triangle ABC = \\triangle MNP\\) (c.c.c). Biết \\(AB = 5\\text{ cm}\\), \\(BC = 7\\text{ cm}\\), chu vi \\(\\triangle ABC\\) bằng \\(18\\text{ cm}\\). Tính độ dài cạnh \\(MP\\) theo đơn vị cm. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Độ dài cạnh \\(AC = 18 - 5 - 7 = 6\\text{ cm}\\). Vì \\(\\triangle ABC = \\triangle MNP\\) (c.c.c) nên \\(MP = AC = 6\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "6",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_107",
+      "questiontext": "Cho \\(\\triangle ABC\\) và \\(\\triangle ABD\\) có \\(AC = AD\\), \\(BC = BD\\), cạnh \\(AB\\) chung. Ghép mỗi ký hiệu/kết luận ở cột trái với diễn đạt lý do tương ứng ở cột phải:",
+      "generalfeedback": "Dựa vào phương pháp chứng minh hai tam giác bằng nhau theo trường hợp c.c.c và suy ra các góc tương ứng bằng nhau.",
+      "subquestions": [
+        {
+          "question": "\\(\\triangle ABC = \\triangle ABD\\)",
+          "answer": "Vì ba cặp cạnh tương ứng bằng nhau (c.c.c)"
+        },
+        {
+          "question": "\\(\\widehat{CAB} = \\widehat{DAB}\\)",
+          "answer": "Là hai góc tương ứng của hai tam giác bằng nhau"
+        },
+        {
+          "question": "\\(AB\\) là tia phân giác của \\(\\widehat{CAD}\\)",
+          "answer": "Do \\(\\widehat{CAB} = \\widehat{DAB}\\)"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Dấu hiệu nhận biết và ứng dụng tam giác bằng nhau c.c.c",
+      "questiontext": "Để chứng minh \\(\\triangle ABC = \\triangle A'B'C'\\) theo trường hợp c.c.c, ta cần chỉ ra ba cặp cạnh tương ứng bằng nhau là: \\(AB =\\) [[1]], \\(BC =\\) [[2]] và \\(AC = A'C'\\).",
+      "generalfeedback": "Hai tam giác bằng nhau c.c.c khi các cạnh tương ứng bằng nhau: \\(AB = A'B'\\), \\(BC = B'C'\\), \\(AC = A'C'\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "A'B'"
+        },
+        {
+          "group": 1,
+          "text": "B'C'"
+        },
+        {
+          "group": 1,
+          "text": "C'A'"
+        },
+        {
+          "group": 1,
+          "text": "A'C'"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_107",
+      "questiontext": "Hoàn thành lập luận chứng minh: Cho hai đoạn thẳng \\(AB\\) và \\(CD\\) cắt nhau tại trung điểm \\(O\\) của mỗi đoạn. Xét \\(\\triangle AOC\\) và \\(\\triangle BOD\\), nếu có \\(OA = OB\\), \\(OC = OD\\) và \\(AC = BD\\) thì \\(\\triangle AOC = \\triangle BOD\\) theo trường hợp [[1]]. Suy ra \\(\\widehat{ACO} =\\) [[2]] vì đây là hai góc tương ứng.",
+      "generalfeedback": "Do ba cạnh tương ứng bằng nhau nên hai tam giác bằng nhau (c.c.c), suy ra góc ACO bằng góc BDO.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "c.c.c"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\widehat{BDO}\\)"
+        },
+        {
+          "group": 1,
+          "text": "g.c.g"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\widehat{BOD}\\)"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Luyện tập chứng minh hai tam giác bằng nhau c.c.c và chứng minh hai góc bằng nhau",
+      "questiontext": "Cho \\(\\triangle ABC = \\triangle MNP\\) (c.c.c). Biết cạnh \\(AB = {a}\\) cm, \\(BC = {b}\\) cm và \\(AC = 8\\) cm. Hãy tính chu vi của \\(\\triangle MNP\\) theo cm. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Vì \\(\\triangle ABC = \\triangle MNP\\) (c.c.c) nên chu vi \\(\\triangle MNP\\) bằng chu vi \\(\\triangle ABC\\) = {a} + {b} + 8.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 3.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 4.0,
+          "max": 12.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}+{b}+8",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_089",
+      "questiontext": "Cho hình vẽ hai tam giác có các ký hiệu bằng nhau trên các cạnh. [img:_page_1_Picture_14.jpeg] Dựa vào hình vẽ (Hình 4.30), hai tam giác \\(\\triangle ABC\\) và \\(\\triangle ADC\\) bằng nhau theo trường hợp nào?",
+      "generalfeedback": "Xét \\(\\triangle ABC\\) và \\(\\triangle ADC\\) có \\(AB = AD\\), \\(\\widehat{BAC} = \\widehat{DAC}\\) và \\(AC\\) chung, do đó \\(\\triangle ABC = \\triangle ADC\\) (c.g.c).",
+      "imgs": [
+        "_page_1_Picture_14.jpeg"
+      ],
+      "answers": [
+        {
+          "text": "c.g.c (cạnh - góc - cạnh)",
+          "fraction": 100
+        },
+        {
+          "text": "c.c.c (cạnh - cạnh - cạnh)",
+          "fraction": 0
+        },
+        {
+          "text": "g.c.g (góc - cạnh - góc)",
+          "fraction": 0
+        },
+        {
+          "text": "g.g.g (góc - góc - góc)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Luyện tập chứng minh hai tam giác bằng nhau c.c.c và chứng minh hai góc bằng nhau",
+      "questiontext": "Cho \\(\\triangle ABC\\) có \\(AB = AC = {a}\\) cm. Gọi \\(M\\) là trung điểm của \\(BC\\) với \\(BM = MC = {b}\\) cm. Tính chu vi tam giác \\(ABM\\) biết \\(AM = 5\\) cm. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Chu vi \\(\\triangle ABM = AB + BM + AM = {a} + {b} + 5\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 6.0,
+          "max": 15.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 2.0,
+          "max": 8.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}+{b}+5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Dấu hiệu nhận biết và ứng dụng tam giác bằng nhau c.c.c",
+      "questiontext": "Cho \\(\\triangle ABC\\) và \\(\\triangle MNP\\) có \\(AB = MN\\), \\(BC = NP\\), \\(AC = MP\\). Phát biểu nào sau đây đúng về các cặp góc tương ứng bằng nhau?",
+      "generalfeedback": "Vì \\(\\triangle ABC = \\triangle MNP\\) (c.c.c) nên các cặp góc tương ứng bằng nhau là: \\(\\widehat{A} = \\widehat{M}\\), \\(\\widehat{B} = \\widehat{N}\\), \\(\\widehat{C} = \\widehat{P}\\).",
+      "answers": [
+        {
+          "text": "\\(\\widehat{A} = \\widehat{M}, \\widehat{B} = \\widehat{N}, \\widehat{C} = \\widehat{P}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\widehat{A} = \\widehat{N}, \\widehat{B} = \\widehat{M}, \\widehat{C} = \\widehat{P}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\widehat{A} = \\widehat{P}, \\widehat{B} = \\widehat{N}, \\widehat{C} = \\widehat{M}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\widehat{A} = \\widehat{B}, \\widehat{M} = \\widehat{N}, \\widehat{C} = \\widehat{P}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_089",
+      "questiontext": "Trong hai tam giác, nếu hai cạnh và một góc của tam giác này bằng hai cạnh và một góc của tam giác kia thì hai tam giác đó luôn bằng nhau. Đúng hay Sai?",
+      "generalfeedback": "Phát biểu này Sai vì góc phải là góc xen giữa hai cạnh đó (trường hợp c.g.c). Nếu góc không xen giữa thì hai tam giác chưa chắc bằng nhau.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Luyện tập chứng minh hai tam giác bằng nhau c.c.c và chứng minh hai góc bằng nhau",
+      "questiontext": "Cho tam giác \\(ABC\\) có \\(AB = AC\\). Gọi \\(M\\) là trung điểm của \\(BC\\). So sánh số đo góc \\(AMB\\) và góc \\(AMC\\). Nhập từ ngữ thích hợp (ví dụ: bằng nhau):",
+      "generalfeedback": "Xét \\(\\triangle AMB\\) và \\(\\triangle AMC\\) có \\(AB = AC\\), \\(MB = MC\\) (M là trung điểm BC), \\(AM\\) chung. Do đó \\(\\triangle AMB = \\triangle AMC\\) (c.c.c), suy ra \\(\\widehat{AMB} = \\widehat{AMC}\\).",
+      "answers": [
+        {
+          "text": "bằng nhau",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Luyện tập chứng minh hai tam giác bằng nhau c.c.c và chứng minh hai góc bằng nhau",
+      "questiontext": "Cho \\(\\triangle ABC = \\triangle DEF\\) (c.g.c). Biết \\(\\widehat{A} = 50^{\\circ}\\), \\(\\widehat{B} = 70^{\\circ}\\). Tính số đo góc \\(F\\) theo đơn vị độ. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Trong \\(\\triangle ABC\\), \\(\\widehat{C} = 180^{\\circ} - (50^{\\circ} + 70^{\\circ}) = 60^{\\circ}\\). Vì \\(\\triangle ABC = \\triangle DEF\\) nên góc tương ứng \\(\\widehat{F} = \\widehat{C} = 60^{\\circ}\\).",
+      "answers": [
+        {
+          "text": "60",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Dấu hiệu nhận biết và ứng dụng tam giác bằng nhau c.c.c",
+      "questiontext": "Ghép tên viết tắt các trường hợp bằng nhau của tam giác ở cột trái với tên đầy đủ tương ứng ở cột phải:",
+      "generalfeedback": "Ký hiệu c.c.c là Cạnh - Cạnh - Cạnh, c.g.c là Cạnh - Góc - Cạnh, g.c.g là Góc - Cạnh - Góc.",
+      "subquestions": [
+        {
+          "question": "c.c.c",
+          "answer": "Cạnh - Cạnh - Cạnh"
+        },
+        {
+          "question": "c.g.c",
+          "answer": "Cạnh - Góc - Cạnh"
+        },
+        {
+          "question": "g.c.g",
+          "answer": "Góc - Cạnh - Góc"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_107",
+      "questiontext": "Cho Hình 4.31 [img:_page_1_Picture_17.jpeg]. Xét hai tam giác \\(ABC\\) và \\(MNP\\), góc xen giữa hai cạnh \\(AB\\) và \\(BC\\) là [[1]], còn góc xen giữa hai cạnh \\(MN\\) và \\(NP\\) là [[2]].",
+      "generalfeedback": "Góc xen giữa hai cạnh AB và BC của tam giác ABC là góc B; góc xen giữa hai cạnh MN và NP của tam giác MNP là góc N.",
+      "imgs": [
+        "_page_1_Picture_17.jpeg"
+      ],
+      "choices": [
+        {
+          "group": 1,
+          "text": "góc B"
+        },
+        {
+          "group": 1,
+          "text": "góc N"
+        },
+        {
+          "group": 1,
+          "text": "góc A"
+        },
+        {
+          "group": 1,
+          "text": "góc M"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_089",
+      "questiontext": "Điền từ thích hợp vào chỗ trống: Định lý trường hợp bằng nhau góc - cạnh - góc (g.c.g) phát biểu rằng: Nếu một cạnh và hai góc [[1]] của tam giác này bằng một cạnh và hai góc [[2]] của tam giác kia thì hai tam giác đó bằng nhau.",
+      "generalfeedback": "Theo định lý trường hợp bằng nhau thứ ba (g.c.g), hai góc phải là hai góc kề với cạnh đó.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "kề"
+        },
+        {
+          "group": 1,
+          "text": "đối"
+        },
+        {
+          "group": 1,
+          "text": "so le"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Luyện tập chứng minh hai tam giác bằng nhau c.c.c và chứng minh hai góc bằng nhau",
+      "questiontext": "Cho tam giác \\(ABC\\) vuông tại \\(A\\) có \\(AB = {x}\\text{ cm}\\), \\(AC = {y}\\text{ cm}\\). Tam giác \\(A'B'C'\\) vuông tại \\(A'\\) có \\(A'B' = {x}\\text{ cm}\\), \\(A'C' = {y}\\text{ cm}\\). Tính tổng độ dài hai cạnh \\(BC\\) và \\(B'C'\\) biết \\(BC = 10\\text{ cm}\\). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Vì \\(\\triangle ABC = \\triangle A'B'C'\\) (c.g.c do \\(AB = A'B'\\), \\(\\widehat{A} = \\widehat{A'} = 90^{\\circ}\\), \\(AC = A'C'\\)) nên \\(B'C' = BC = 10\\text{ cm}\\). Tổng \\(BC + B'C' = 10 + 10 = 20\\).",
+      "wildcards": [
+        {
+          "name": "x",
+          "min": 3.0,
+          "max": 8.0,
+          "decimals": 0
+        },
+        {
+          "name": "y",
+          "min": 4.0,
+          "max": 9.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "20",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_107",
+      "questiontext": "Cho Hình 4.36 [img:_page_2_Picture_25.jpeg]. Xét hai tam giác \\(ABC\\) và \\(DEC\\). Lý do nào chứng minh \\(\\triangle ABC = \\triangle DEC\\) (g.c.g)?",
+      "generalfeedback": "Ta có \\(\\widehat{BAC} = \\widehat{EDC}\\), \\(AC = DC\\), và \\(\\widehat{BCA} = \\widehat{ECD}\\) (hai góc đối đỉnh). Do đó \\(\\triangle ABC = \\triangle DEC\\) (g.c.g).",
+      "imgs": [
+        "_page_2_Picture_25.jpeg"
+      ],
+      "answers": [
+        {
+          "text": "\\(\\widehat{BAC} = \\widehat{EDC}, AC = DC, \\widehat{BCA} = \\widehat{ECD}\\) (đối đỉnh)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(AB = DE, AC = DC, BC = EC\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(AB = DE, \\widehat{B} = \\widehat{E}, BC = EC\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\widehat{A} = \\widehat{D}, AB = DE, \\widehat{B} = \\widehat{E}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Trong giờ học ôn tập về hai tam giác bằng nhau (c.g.c và g.c.g), bạn An gặp một bài toán chứng minh hình học phức tạp với nhiều đường nối chồng chéo. Để thể hiện sự chăm chỉ và kiên trì trong học tập, bạn An nên lựa chọn hành động nào sau đây?",
+      "generalfeedback": "Thể hiện tinh thần chăm chỉ, kiên trì bằng cách chủ động vẽ lại hình rõ ràng, đánh dấu các dữ kiện bằng nhau và kiên nhẫn kiểm tra các điều kiện c.g.c hoặc g.c.g để tìm lời giải.",
+      "answers": [
+        {
+          "text": "Cẩn thận vẽ lại hình rõ ràng, đánh dấu các dữ kiện bằng nhau và kiên nhẫn kiểm tra các điều kiện c.g.c hoặc g.c.g để tìm lời giải",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua câu hỏi khó và chờ đến khi giáo viên chữa bài để chép vào vở",
+          "fraction": 0
+        },
+        {
+          "text": "Đo trực tiếp bằng thước trên hình vẽ rồi ghi luôn kết luận mà không cần lập luận chứng minh",
+          "fraction": 0
+        },
+        {
+          "text": "Chép ngay bài làm của bạn bên cạnh để nhanh chóng hoàn thành bài tập",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Khi làm bài kiểm tra chứng minh \\(\\triangle ABC = \\triangle DEF\\) theo trường hợp c.g.c, bạn Bình phát hiện mình đã nhầm lẫn góc xen giữa dẫn đến lập luận bị sai. Để thể hiện tính trung thực trong học tập, bạn Bình nên làm gì?",
+      "generalfeedback": "Tính trung thực thể hiện ở việc tự giác nhìn nhận lỗi sai, báo với thầy cô hoặc tự sửa lại lập luận chứng minh cho đúng với quy tắc góc xen giữa trong trường hợp c.g.c.",
+      "answers": [
+        {
+          "text": "Tự giác nhìn nhận lỗi sai và sửa lại lập luận chứng minh cho đúng giả thiết góc xen giữa",
+          "fraction": 100
+        },
+        {
+          "text": "Giữ nguyên bài làm sai và hy vọng thầy cô không phát hiện ra khi chấm bài",
+          "fraction": 0
+        },
+        {
+          "text": "Tự ý sửa lại đề bài trong vở cho phù hợp với lập luận sai của mình",
+          "fraction": 0
+        },
+        {
+          "text": "Cho rằng lỗi là do đề bài ra không rõ ràng nên không cần sửa",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Để tự học và hệ thống hóa kiến thức về hai trường hợp bằng nhau c.g.c và g.c.g của tam giác, bạn Mai lập bảng tóm tắt điều kiện. Cách trình bày nào sau đây thể hiện năng lực tự chủ, tự học và sắp xếp thông tin khoa học nhất?",
+      "generalfeedback": "Tóm tắt khoa học: c.g.c đòi hỏi 2 cạnh và góc xen giữa bằng nhau; g.c.g đòi hỏi 1 cạnh và 2 góc kề bằng nhau.",
+      "answers": [
+        {
+          "text": "Trường hợp c.g.c: 2 cạnh và góc xen giữa bằng nhau; Trường hợp g.c.g: 1 cạnh và 2 góc kề bằng nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Trường hợp c.g.c: 3 cạnh bằng nhau; Trường hợp g.c.g: 3 góc bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Trường hợp c.g.c: 2 góc và 1 cạnh bất kỳ; Trường hợp g.c.g: 2 cạnh và 1 góc bất kỳ",
+          "fraction": 0
+        },
+        {
+          "text": "Cả hai trường hợp c.g.c và g.c.g đều chỉ cần 2 yếu tố tương ứng bằng nhau là đủ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLC_GIAIQUYETVD",
+      "questiontext": "Một nhóm học sinh muốn đo chiều rộng của một ao nước từ vị trí \\(A\\) đến vị trí \\(B\\) mà không cần bơi qua ao. Các bạn chọn điểm \\(C\\) sao cho đo được \\(BC\\), đo các góc \\(\\widehat{B}\\) và \\(\\widehat{C}\\), sau đó cắm cọc dựng \\(\\triangle A'BC\\) trên mặt đất sao cho \\(\\widehat{A'BC} = \\widehat{ABC}\\) và \\(\\widehat{A'CB} = \\widehat{ACB}\\). Nhóm kết luận khoảng cách \\(AB = A'B\\). Giải pháp sáng tạo này dựa trên nguyên lý toán học nào?",
+      "generalfeedback": "Giải pháp vận dụng trường hợp bằng nhau góc - cạnh - góc (g.c.g) của tam giác: \\(\\triangle ABC = \\triangle A'BC\\) (g.c.g) nên hai cạnh tương ứng \\(AB = A'B\\).",
+      "answers": [
+        {
+          "text": "Chứng minh \\(\\triangle ABC = \\triangle A'BC\\) theo trường hợp góc - cạnh - góc (g.c.g) để suy ra \\(AB = A'B\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Chứng minh \\(\\triangle ABC = \\triangle A'BC\\) theo trường hợp cạnh - cạnh - cạnh (c.c.c)",
+          "fraction": 0
+        },
+        {
+          "text": "Sử dụng định lý Pi-ta-go trong tam giác vuông",
+          "fraction": 0
+        },
+        {
+          "text": "Đo gián tiếp bằng cách tính trung bình cộng hai góc \\(\\widehat{B}\\) và \\(\\widehat{C}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Cho \\(\\triangle ABC\\) và \\(\\triangle MNP\\) có \\(AB = MN\\), \\(AC = MP\\) và \\(\\widehat{A} = \\widehat{M} = 60^{\\circ}\\). Bạn Nam kết luận \\(\\triangle ABC = \\triangle MNP\\). Hãy đánh giá lập luận toán học của bạn Nam:",
+      "generalfeedback": "Lập luận đúng vì hai tam giác có hai cặp cạnh bằng nhau và góc \\(A, M\\) chính là góc xen giữa hai cạnh đó (trường hợp c.g.c).",
+      "answers": [
+        {
+          "text": "Lập luận đúng vì hai tam giác có hai cặp cạnh tương ứng bằng nhau và góc xen giữa hai cạnh đó bằng nhau (c.g.c)",
+          "fraction": 100
+        },
+        {
+          "text": "Lập luận sai vì phải có thêm điều kiện cạnh \\(BC = NP\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Lập luận sai vì hai góc \\(A\\) và \\(M\\) không phải là góc xen giữa hai cạnh đã cho",
+          "fraction": 0
+        },
+        {
+          "text": "Lập luận đúng nhưng kết luận theo trường hợp góc - cạnh - góc (g.c.g)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "questiontext": "Một thợ cơ khí cần gia công hai thanh sắt hình tam giác \\(ABC\\) và \\(A'B'C'\\) bằng nhau để làm khung mái nhà. Biết khung \\(ABC\\) có \\(AB = 2\\text{ m}\\), \\(BC = 3\\text{ m}\\) và góc xen giữa \\(\\widehat{B} = 50^{\\circ}\\). Để giải quyết bài toán gia công khung \\(A'B'C'\\) bằng đúng khung \\(ABC\\), người thợ cần cắt kim loại và đo góc \\(A'B'C'\\) theo các thông số nào?",
+      "generalfeedback": "Áp dụng trường hợp c.g.c: cần cắt hai thanh \\(A'B' = 2\\text{ m}\\), \\(B'C' = 3\\text{ m}\\) và uốn góc xen giữa \\(\\widehat{B'} = 50^{\\circ}\\).",
+      "answers": [
+        {
+          "text": "Đo \\(A'B' = 2\\text{ m}\\), \\(B'C' = 3\\text{ m}\\) và góc xen giữa \\(\\widehat{B'} = 50^{\\circ}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ cần đo hai thanh \\(A'B' = 2\\text{ m}\\) và \\(B'C' = 3\\text{ m}\\), góc \\(\\widehat{B'}\\) tùy ý",
+          "fraction": 0
+        },
+        {
+          "text": "Đo ba góc \\(\\widehat{A'} = 50^{\\circ}, \\widehat{B'} = 50^{\\circ}, \\widehat{C'} = 80^{\\circ}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Đo \\(A'B' = 2\\text{ m}\\) và hai góc \\(\\widehat{A'} = 50^{\\circ}, \\widehat{C'} = 50^{\\circ}\\)",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

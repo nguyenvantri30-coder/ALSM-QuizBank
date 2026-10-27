@@ -1,0 +1,349 @@
+{
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm Lãi kép",
+      "questiontext": "Thế nào là thể thức gửi tiết kiệm theo hình thức lãi kép theo định kỳ?",
+      "generalfeedback": "Lãi kép theo định kỳ là thể thức gửi tiết kiệm mà nếu đến kỳ hạn người gửi không rút lãi ra thì tiền lãi được cộng vào vốn của kỳ kế tiếp để tính lãi.",
+      "answers": [
+        {
+          "text": "Đến kỳ hạn người gửi không rút lãi ra thì tiền lãi được tính vào vốn của kỳ kế tiếp.",
+          "fraction": 100
+        },
+        {
+          "text": "Tiền lãi hàng tháng chỉ được tính dựa trên số tiền vốn gửi ban đầu.",
+          "fraction": 0
+        },
+        {
+          "text": "Tiền lãi của tất cả các kỳ đều được ngân hàng giữ lại và không tính lãi tiếp.",
+          "fraction": 0
+        },
+        {
+          "text": "Tiền gốc giảm dần sau mỗi kỳ gửi tiết kiệm.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm Lãi đơn",
+      "questiontext": "Trong hình thức gửi tiết kiệm lãi đơn, tiền lãi của kỳ này không được cộng vào tiền gốc để tính lãi cho kỳ tiếp theo. Đúng hay Sai?",
+      "generalfeedback": "Đúng. Trong lãi đơn, tiền lãi chỉ được tính trên số tiền gốc ban đầu, không cộng dồn tiền lãi vào gốc.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức tính lãi kép A = P(1 + r)^n",
+      "questiontext": "Nếu một khoản tiền gốc \\(P\\) được gửi tiết kiệm với lãi suất hàng năm \\(r\\) (dưới dạng số thập phân), được tính lãi \\(n\\) lần trong một năm, thì tổng số tiền \\(A\\) nhận được (cả gốc lẫn lãi) sau \\(N\\) kỳ gửi được tính theo công thức nào?",
+      "generalfeedback": "Công thức tính tổng số tiền nhận được khi gửi tiết kiệm với lãi suất hằng năm r, tính lãi n lần trong một năm sau N kỳ gửi là \\(A = P\\left(1 + \\frac{r}{n}\\right)^N\\).",
+      "answers": [
+        {
+          "text": "\\(A = P\\left(1 + \\frac{r}{n}\\right)^N\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(A = P(1 + r \\cdot n)^N\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(A = P\\left(1 + \\frac{n}{r}\\right)^N\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(A = P + r \\cdot n \\cdot N\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Tính số tiền lãi nhận được trong tài chính thực tế",
+      "questiontext": "Nêu công thức tính số tiền lãi nhận được khi biết tổng số tiền nhận được (cả vốn lẫn lãi) là \\(A\\) và số tiền gốc ban đầu là \\(P\\).",
+      "generalfeedback": "Số tiền lãi = Tổng số tiền nhận được - Số tiền gốc ban đầu (hay A - P).",
+      "answers": [
+        {
+          "text": "A - P",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính số tiền tích lũy thu được theo công thức lãi kép",
+      "questiontext": "Một người gửi tiết kiệm 100 triệu đồng với lãi suất 0.5% mỗi tháng theo hình thức lãi kép. Hỏi sau 2 tháng, tổng số tiền người đó nhận được (cả vốn lẫn lãi) là bao nhiêu triệu đồng? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Sau 1 tháng: \\(100 \\times (1 + 0.005) = 100.5\\) triệu đồng. Sau 2 tháng: \\(100.5 \\times (1 + 0.005) = 101.0025\\) triệu đồng.",
+      "answers": [
+        {
+          "text": "101.0025",
+          "fraction": 100,
+          "tolerance": 0.0001
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức tính lãi kép A = P(1 + r)^n",
+      "questiontext": "Ghép mỗi ký hiệu trong công thức lãi kép \\(A = P\\left(1 + \\frac{r}{n}\\right)^N\\) với ý nghĩa tương ứng:",
+      "generalfeedback": "Trong công thức lãi kép, P là số tiền gốc ban đầu, r là lãi suất năm, n là số lần tính lãi trong một năm, và N là tổng số kỳ gửi.",
+      "subquestions": [
+        {
+          "question": "Ký hiệu \\(P\\)",
+          "answer": "Số tiền gốc ban đầu"
+        },
+        {
+          "question": "Ký hiệu \\(r\\)",
+          "answer": "Lãi suất năm (dưới dạng số thập phân)"
+        },
+        {
+          "question": "Ký hiệu \\(N\\)",
+          "answer": "Tổng số kỳ gửi tiết kiệm"
+        },
+        {
+          "question": "Ký hiệu \\(A\\)",
+          "answer": "Tổng số tiền nhận được (cả gốc lẫn lãi)"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Tính số tiền tích lũy thu được theo công thức lãi kép",
+      "questiontext": "Bác Hưng gửi {P} triệu đồng vào ngân hàng với lãi suất hằng tháng là 0.005 (tức 0.5%/tháng) theo hình thức lãi kép. Tổng số tiền bác Hưng nhận được sau 2 tháng gửi là bao nhiêu triệu đồng? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Tổng số tiền thu được sau 2 tháng là \\(A = P \\times (1 + 0.005)^2 = P \\times 1.010025\\).",
+      "wildcards": [
+        {
+          "name": "P",
+          "min": 100.0,
+          "max": 500.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{P} * 1.010025",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_122",
+      "imgs": [
+        "_page_0_Picture_1.jpeg"
+      ],
+      "questiontext": "[img:_page_0_Picture_1.jpeg]\nNghiên cứu hình ảnh bài học 'Công thức lãi kép'. Bác Hương có 250 triệu đồng muốn gửi tiết kiệm trong 2 năm. Để số tiền lãi thu được sau 2 năm là lớn nhất, bác Hương nên lựa chọn phương án nào sau đây khi so sánh giữa các ngân hàng có cùng độ uy tín?",
+      "generalfeedback": "Để thu được tiền lãi lớn nhất sau 2 năm, bác Hương nên chọn ngân hàng có lãi suất công bố cho kỳ hạn tương ứng là cao nhất.",
+      "answers": [
+        {
+          "text": "Chọn ngân hàng công bố mức lãi suất cao nhất cho kỳ hạn gửi phù hợp.",
+          "fraction": 100
+        },
+        {
+          "text": "Chọn ngân hàng có mức lãi suất thấp nhất để đảm bảo an toàn.",
+          "fraction": 0
+        },
+        {
+          "text": "Chia đều số tiền gửi vào tất cả các ngân hàng không cần xem xét lãi suất.",
+          "fraction": 0
+        },
+        {
+          "text": "Rút toàn bộ tiền lãi hàng tháng ra tiêu xài thay vì tiếp tục gửi tích lũy.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm Lãi đơn",
+      "questiontext": "Lãi đơn là phương thức tính lãi suất dựa trên yếu tố nào sau đây?",
+      "generalfeedback": "Lãi đơn là hình thức tính lãi chỉ dựa trên số tiền gốc ban đầu, tiền lãi thu được ở mỗi kỳ không được cộng dồn vào gốc để tính lãi cho kỳ tiếp theo.",
+      "answers": [
+        {
+          "text": "Chỉ tính trên số tiền gốc ban đầu trong suốt toàn bộ kỳ hạn gửi.",
+          "fraction": 100
+        },
+        {
+          "text": "Tính trên tổng số tiền gốc và số tiền lãi tích lũy qua từng kỳ.",
+          "fraction": 0
+        },
+        {
+          "text": "Thay đổi theo tỷ lệ lạm phát thực tế của thị trường.",
+          "fraction": 0
+        },
+        {
+          "text": "Tự động cộng dồn tiền lãi vào gốc sau mỗi tháng.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Khái niệm Lãi kép",
+      "questiontext": "Nếu một người gửi tiết kiệm theo hình thức lãi kép có kỳ hạn 6 tháng, sau 6 tháng nếu người đó không rút tiền lãi thì tiền lãi sẽ được cộng vào tiền gốc để tính lãi cho 6 tháng tiếp theo. Đúng hay Sai?",
+      "generalfeedback": "Đúng. Theo thể thức lãi kép theo định kỳ, khi hết kỳ hạn người gửi không rút lãi ra thì tiền lãi được nhập vào gốc để tính lãi cho kỳ tiếp theo.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính số tiền lãi nhận được trong tài chính thực tế",
+      "questiontext": "Bác Hưng gửi tiết kiệm 300 triệu đồng với lãi suất 6%/năm (tương ứng 0.06/năm), kỳ hạn 12 tháng theo hình thức lãi kép. Hỏi sau 12 tháng (1 kỳ gửi), bác Hưng nhận được bao nhiêu triệu đồng tiền lãi? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Sau 12 tháng (1 kỳ gửi), tổng số tiền bác Hưng nhận được là \\(300 \\times (1 + 0.06) = 318\\) triệu đồng. Số tiền lãi thu được là \\(318 - 300 = 18\\) triệu đồng.",
+      "answers": [
+        {
+          "text": "18",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_121",
+      "questiontext": "Để xác định số tiền lãi thực nhận trên bản sao kê ngân hàng sau một kỳ gửi tiết kiệm, ta lấy tổng số tiền nhận được trừ đi số tiền gì?",
+      "generalfeedback": "Số tiền lãi = Tổng số tiền nhận được - Số tiền gốc ban đầu.",
+      "answers": [
+        {
+          "text": "tiền gốc ban đầu",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Tính số tiền tích lũy thu được theo công thức lãi kép",
+      "questiontext": "Một người gửi số tiền gốc \\(P = 100\\) triệu đồng với lãi suất hằng tháng \\(r = 0.01\\) (tức 1%/tháng) theo hình thức lãi kép. Ghép thời gian gửi với tổng số tiền thu được (cả gốc lẫn lãi) tương ứng:",
+      "generalfeedback": "Sau 1 tháng: \\(100 \\times 1.01 = 101\\) triệu đồng. Sau 2 tháng: \\(101 \\times 1.01 = 102.01\\) triệu đồng. Sau 3 tháng: \\(102.01 \\times 1.01 = 103.0301\\) triệu đồng.",
+      "subquestions": [
+        {
+          "question": "Sau 1 tháng",
+          "answer": "101 triệu đồng"
+        },
+        {
+          "question": "Sau 2 tháng",
+          "answer": "102.01 triệu đồng"
+        },
+        {
+          "question": "Sau 3 tháng",
+          "answer": "103.0301 triệu đồng"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Tính số tiền tích lũy thu được theo công thức lãi kép",
+      "questiontext": "Một khách hàng gửi tiết kiệm số tiền gốc {P} triệu đồng vào ngân hàng với lãi suất hằng năm là 0.06 (tức 6%/năm), tính lãi 1 lần mỗi năm (n = 1). Hỏi sau 1 năm gửi, tổng số tiền (cả gốc lẫn lãi) khách hàng nhận được là bao nhiêu triệu đồng? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Tổng số tiền nhận được sau 1 năm là \\(A = P \\times (1 + 0.06) = P \\times 1.06\\) triệu đồng.",
+      "wildcards": [
+        {
+          "name": "P",
+          "min": 50.0,
+          "max": 500.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{P} * 1.06",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "thong_hieu",
+      "metadata_code": "Công thức tính lãi kép A = P(1 + r)^n",
+      "questiontext": "Một người gửi tiền gốc {P} triệu đồng vào ngân hàng với lãi suất hằng tháng r = 0.01 theo hình thức lãi kép. Biểu thức nào sau đây biểu diễn tổng số tiền A (triệu đồng) nhận được sau {N} tháng?",
+      "generalfeedback": "Công thức tính tổng số tiền thu được sau {N} tháng với lãi suất hằng tháng 0.01 theo hình thức lãi kép là \\(A = P \\times (1 + 0.01)^N = P \\times 1.01^N\\).",
+      "wildcards": [
+        {
+          "name": "P",
+          "min": 10.0,
+          "max": 200.0,
+          "decimals": 0
+        },
+        {
+          "name": "N",
+          "min": 2.0,
+          "max": 12.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{P} * pow(1.01, {N})",
+          "fraction": 100
+        },
+        {
+          "text": "{P} * (1 + 0.01 * {N})",
+          "fraction": 0
+        },
+        {
+          "text": "{P} + 0.01 * {N}",
+          "fraction": 0
+        },
+        {
+          "text": "{P} * pow(0.01, {N})",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_119",
+      "questiontext": "Để lập kế hoạch tiết kiệm cá nhân hiệu quả từ thu nhập hàng tháng, hành động nào sau đây thể hiện việc quản lý tài chính thông minh?",
+      "generalfeedback": "Lập kế hoạch chi tiêu thông minh là trích một khoản cố định từ thu nhập gửi tiết kiệm tích lũy ngay từ đầu tháng để đảm bảo mục tiêu tài chính.",
+      "answers": [
+        {
+          "text": "Trích một phần cố định thu nhập gửi tiết kiệm định kỳ có kỳ hạn ngay khi nhận lương.",
+          "fraction": 100
+        },
+        {
+          "text": "Chi tiêu tự do toàn bộ thu nhập và chỉ gửi tiết kiệm nếu còn thừa tiền vào cuối tháng.",
+          "fraction": 0
+        },
+        {
+          "text": "Rút tiền tiết kiệm trước kỳ hạn liên tục để mua sắm hàng hóa không thiết yếu.",
+          "fraction": 0
+        },
+        {
+          "text": "Gửi toàn bộ tiền tiết kiệm vào các kênh không rõ nguồn gốc có cam kết lãi suất bất thường.",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

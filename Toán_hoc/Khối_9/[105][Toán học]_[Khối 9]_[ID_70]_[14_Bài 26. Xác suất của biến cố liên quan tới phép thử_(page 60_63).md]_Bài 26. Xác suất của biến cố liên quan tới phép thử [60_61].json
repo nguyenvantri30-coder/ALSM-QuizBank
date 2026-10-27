@@ -1,0 +1,716 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 28,
+    "metadata_used": {
+      "Khái niệm biến cố A": 3,
+      "Tập hợp kết quả thuận lợi cho biến cố A": 1,
+      "Xác định biến cố liên quan đến phép thử": 4,
+      "Liệt kê các kết quả thuận lợi cho biến cố A": 4,
+      "YCCD_TOAN9_127": 8,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_TCTH_TUHOC_C2_01": 1,
+      "SUB_GTHT_XACDINHMD_C2_03": 2,
+      "NLT_TOAN_C2_01_01": 2,
+      "NLT_TOAN_C2_04_12": 2
+    },
+    "types_used": {
+      "multichoice": 10,
+      "gapselect": 3,
+      "matching": 2,
+      "calculated": 1,
+      "truefalse": 3,
+      "shortanswer": 2,
+      "numerical": 2,
+      "ddwtos": 3,
+      "calculatedsimple": 1,
+      "calculatedmulti": 1
+    },
+    "total": 28
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "Khái niệm biến cố A",
+        "reason": "Đo lường mức độ nhận biết và hiểu khái niệm biến cố trong phép thử."
+      },
+      {
+        "metadata_code": "Tập hợp kết quả thuận lợi cho biến cố A",
+        "reason": "Đo lường nhận thức về tập hợp kết quả thuận lợi cho biến cố."
+      },
+      {
+        "metadata_code": "Xác định biến cố liên quan đến phép thử",
+        "reason": "Đo lường kỹ năng xác định biến cố và kiểm tra tính xảy ra của biến cố."
+      },
+      {
+        "metadata_code": "Liệt kê các kết quả thuận lợi cho biến cố A",
+        "reason": "Đo lường kỹ năng liệt kê và đếm số kết quả thuận lợi cho biến cố."
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_127",
+        "reason": "Đo lường năng lực tính xác suất của biến cố trong mô hình đồng khả năng."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đo lường thái độ kiên trì, vươn lên trong học tập môn Toán."
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+        "reason": "Đo lường năng lực tự đặt mục tiêu học tập và thực hiện."
+      },
+      {
+        "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+        "reason": "Đo lường năng lực tiếp nhận, đọc hiểu thông tin văn bản kết hợp sơ đồ, bảng số liệu."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_01",
+        "reason": "Đo lường năng lực thực hiện các thao tác tư duy (phân tích, so sánh, lập luận)."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_04_12",
+        "reason": "Đo lường năng lực sử dụng ngôn ngữ toán học kết hợp ngôn ngữ thông thường."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Nội dung bài học Tiết 1 - Bài 26 SGK Toán 9 không chứa yếu tố thực hành sử dụng phần mềm hay công cụ tin học/số."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học Tiết 1 - Bài 26 SGK Toán 9 thuần lý thuyết xác suất cơ bản, không có ngữ cảnh ứng dụng hay tương tác tự nhiên với Trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm biến cố A",
+      "questiontext": "Trong một phép thử \\(T\\), một sự kiện có thể xảy ra hoặc không xảy ra tuỳ thuộc vào kết quả của phép thử \\(T\\) được gọi là:",
+      "generalfeedback": "Theo SGK, sự kiện có thể xảy ra hoặc không xảy ra tuỳ thuộc vào kết quả của phép thử T được gọi là biến cố.",
+      "answers": [
+        {
+          "text": "Biến cố",
+          "fraction": 100
+        },
+        {
+          "text": "Không gian mẫu",
+          "fraction": 0
+        },
+        {
+          "text": "Kết quả thuận lợi",
+          "fraction": 0
+        },
+        {
+          "text": "Phép thử ngẫu nhiên",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Tập hợp kết quả thuận lợi cho biến cố A",
+      "questiontext": "Cho phép thử \\(T\\) và biến cố \\(E\\). Kết quả của phép thử \\(T\\) làm cho biến cố \\(E\\) xảy ra được gọi là [[1]] cho biến cố \\(E\\). Tập hợp các kết quả này là một tập con của [[2]] của phép thử.",
+      "generalfeedback": "Kết quả làm cho biến cố E xảy ra gọi là kết quả thuận lợi cho E. Tập hợp các kết quả thuận lợi là tập con của không gian mẫu.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "kết quả thuận lợi"
+        },
+        {
+          "group": 1,
+          "text": "không gian mẫu"
+        },
+        {
+          "group": 1,
+          "text": "kết quả không thể"
+        },
+        {
+          "group": 1,
+          "text": "biến cố chắc chắn"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Xác định biến cố liên quan đến phép thử",
+      "questiontext": "Bạn Tùng gieo một con xúc xắc cân đối liên tiếp hai lần. Lần thứ nhất xuất hiện mặt 2 chấm, lần thứ hai xuất hiện mặt 5 chấm. Xét biến cố \\(E\\): \"Cả hai lần gieo con xúc xắc đều xuất hiện mặt có số chấm là số nguyên tố\". Phát biểu nào sau đây là đúng?",
+      "generalfeedback": "Vì 2 và 5 đều là các số nguyên tố, nên kết quả (2, 5) làm cho biến cố E xảy ra.",
+      "answers": [
+        {
+          "text": "Biến cố \\(E\\) xảy ra vì cả 2 và 5 đều là số nguyên tố.",
+          "fraction": 100
+        },
+        {
+          "text": "Biến cố \\(E\\) không xảy ra vì 2 và 5 không phải là số nguyên tố.",
+          "fraction": 0
+        },
+        {
+          "text": "Biến cố \\(E\\) xảy ra vì tổng \\(2 + 5 = 7\\) là số nguyên tố.",
+          "fraction": 0
+        },
+        {
+          "text": "Biến cố \\(E\\) không xảy ra vì 2 là số chẵn.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Liệt kê các kết quả thuận lợi cho biến cố A",
+      "imgs": [
+        "_page_0_Figure_20.jpeg"
+      ],
+      "questiontext": "Bạn Tuấn quay một tấm bìa hình tròn chia thành 4 hình quạt bằng nhau đánh số 1, 2, 3, 4 hai lần [img:_page_0_Figure_20.jpeg]. Hãy ghép mỗi biến cố với tập hợp các kết quả thuận lợi tương ứng.",
+      "generalfeedback": "Kiểm tra các cặp (a, b) thỏa mãn từng điều kiện: tổng bằng 5 có 4 cặp; tích bằng 4 có 3 cặp; hai số bằng nhau có 4 cặp.",
+      "subquestions": [
+        {
+          "question": "Biến cố E: \"Tổng hai số ghi trên hai hình quạt bằng 5\"",
+          "answer": "{(1, 4); (2, 3); (3, 2); (4, 1)}"
+        },
+        {
+          "question": "Biến cố F: \"Tích hai số ghi trên hai hình quạt bằng 4\"",
+          "answer": "{(1, 4); (2, 2); (4, 1)}"
+        },
+        {
+          "question": "Biến cố G: \"Hai số ghi trên hai hình quạt bằng nhau\"",
+          "answer": "{(1, 1); (2, 2); (3, 3); (4, 4)}"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_127",
+      "questiontext": "Gieo đồng thời hai con xúc xắc cân đối và đồng chất. Có tất cả 36 kết quả có thể xảy ra. Xét biến cố \"Số chấm xuất hiện trên hai con xúc xắc bằng nhau\" có {x} kết quả thuận lợi. Xác suất của biến cố này được tính bằng công thức nào dưới đây?",
+      "generalfeedback": "Xác suất của biến cố bằng số kết quả thuận lợi chia cho tổng số kết quả có thể của không gian mẫu, tức là {x}/36.",
+      "wildcards": [
+        {
+          "name": "x",
+          "min": 1.0,
+          "max": 6.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{x}/36",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Xác định biến cố liên quan đến phép thử",
+      "questiontext": "Bạn Hoàng lấy ngẫu nhiên 1 quả cầu từ túi đựng 2 quả cầu (1 đen, 1 trắng). Bạn Hải rút ngẫu nhiên 1 tấm thẻ từ hộp đựng 3 tấm thẻ (A, B, C). Cặp kết quả (Đen, B) làm cho biến cố \"Bạn Hoàng lấy được quả cầu màu đen\" xảy ra. Phát biểu này đúng hay sai?",
+      "generalfeedback": "Trong cặp (Đen, B), bạn Hoàng lấy được quả cầu màu đen nên biến cố xảy ra. Phát biểu là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Liệt kê các kết quả thuận lợi cho biến cố A",
+      "questiontext": "Cho hai túi I và II, mỗi túi chứa 3 tấm thẻ được ghi các số 2; 3; 7. Rút ngẫu nhiên từ mỗi túi ra một tấm thẻ và ghép thành số có hai chữ số với chữ số trên tấm thẻ rút từ túi I là chữ số hàng chục. Có bao nhiêu kết quả thuận lợi cho biến cố \"Số tạo thành chia hết cho 2\"?",
+      "generalfeedback": "Các số tạo thành chia hết cho 2 phải có hàng đơn vị là 2. Các số đó là 22, 32, 72. Do đó có 3 kết quả thuận lợi.",
+      "answers": [
+        {
+          "text": "3",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_127",
+      "questiontext": "Gieo một con xúc xắc cân đối 6 mặt một lần. Tính xác suất để con xúc xắc xuất hiện mặt có số chấm là số chẵn. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Không gian mẫu có 6 phần tử. Các mặt chấm chẵn là 2, 4, 6 (3 kết quả thuận lợi). Xác suất P = 3/6 = 0.5.",
+      "answers": [
+        {
+          "text": "0.5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm biến cố A",
+      "questiontext": "Trong một phép thử, tập hợp tất cả các kết quả có thể xảy ra được gọi là [[1]]. Mỗi kết quả làm cho biến cố \\(A\\) xảy ra được gọi là một [[2]] cho biến cố \\(A\\).",
+      "generalfeedback": "Tập hợp tất cả các kết quả có thể xảy ra của phép thử gọi là không gian mẫu. Mỗi kết quả làm cho A xảy ra gọi là kết quả thuận lợi cho A.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "không gian mẫu"
+        },
+        {
+          "group": 1,
+          "text": "kết quả thuận lợi"
+        },
+        {
+          "group": 1,
+          "text": "biến cố không thể"
+        },
+        {
+          "group": 1,
+          "text": "xác suất"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_127",
+      "questiontext": "Chọn ngẫu nhiên một gia đình có hai con. Giả thiết rằng biến cố \"Sinh con trai\" và biến cố \"Sinh con gái\" là đồng khả năng. Xác suất của biến cố A: \"Gia đình đó có cả con trai và con gái\" bằng:",
+      "generalfeedback": "Không gian mẫu là \\(\\Omega = \\{TT, TG, GT, GG\\}\\) gồm 4 kết quả đồng khả năng. Biến cố A có 2 kết quả thuận lợi là TG và GT. Do đó \\(P(A) = \\frac{2}{4} = \\frac{1}{2}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{1}{2}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{1}{4}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{3}{4}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(1\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_127",
+      "questiontext": "Bạn An gieo một đồng xu cân đối và bạn Bình rút ngẫu nhiên một tấm thẻ từ hộp chứa 5 tấm thẻ ghi các số 1; 2; 3; 4; 5. Tính xác suất của biến cố \\(E\\): \"Rút được tấm thẻ ghi số lẻ\".",
+      "generalfeedback": "Không gian mẫu gồm \\(2 \\times 5 = 10\\) phần tử. Các kết quả thuận lợi cho biến cố \\(E\\) gồm các cặp mặt đồng xu đi kèm với các thẻ số lẻ 1, 3, 5, tổng cộng có \\(2 \\times 3 = 6\\) kết quả. Xác suất \\(P(E) = \\frac{6}{10} = \\frac{3}{5}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{3}{5}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{2}{5}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{1}{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{3}{10}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Liệt kê các kết quả thuận lợi cho biến cố A",
+      "questiontext": "Có hai túi I và II, mỗi túi chứa 4 tấm thẻ được đánh số 1; 2; 3; 4. Rút ngẫu nhiên từ mỗi túi ra một tấm thẻ và nhân hai số ghi trên hai tấm thẻ với nhau. Hỏi có bao nhiêu kết quả thuận lợi cho biến cố A: \"Kết quả là một số lẻ\"?",
+      "generalfeedback": "Để tích hai số là số lẻ thì cả hai số rút ra đều phải là số lẻ. Túi I có 2 thẻ lẻ (1, 3), Túi II có 2 thẻ lẻ (1, 3). Số kết quả thuận lợi là \\(2 \\times 2 = 4\\) kết quả: (1, 1), (1, 3), (3, 1), (3, 3).",
+      "answers": [
+        {
+          "text": "4",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_127",
+      "questiontext": "Chọn ngẫu nhiên một gia đình có hai con. Giả thiết rằng biến cố \"Sinh con trai\" và biến cố \"Sinh con gái\" là đồng khả năng. Tính xác suất của biến cố B: \"Gia đình đó có con trai\". (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Không gian mẫu \\(\\Omega = \\{TT, TG, GT, GG\\}\\) gồm 4 phần tử. Biến cố B \"Gia đình có con trai\" gồm các kết quả TT, TG, GT (3 kết quả thuận lợi). Xác suất \\(P(B) = \\frac{3}{4} = 0.75\\).",
+      "answers": [
+        {
+          "text": "0.75",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_127",
+      "questiontext": "Bạn Hoàng lấy ngẫu nhiên một quả cầu từ túi đựng 2 quả cầu (1 đen, 1 trắng). Bạn Hải rút ngẫu nhiên một tấm thẻ từ hộp đựng {a} tấm thẻ được ghi số từ 1 đến {a}. Số phần tử của không gian mẫu của phép thử này bằng bao nhiêu?",
+      "generalfeedback": "Mỗi kết quả của phép thử là một cặp (màu quả cầu, số trên thẻ). Vì có 2 màu quả cầu và {a} tấm thẻ nên số phần tử của không gian mẫu là \\(2 \\times {a}\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 3.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Xác định biến cố liên quan đến phép thử",
+      "questiontext": "Trở lại Ví dụ 3 về phép lai đậu Hà Lan với không gian mẫu \\(\\Omega\\) gồm 8 phần tử: \\(\\{(AA, BB); (AA, Bb); (AA, bB); (AA, bb); (Aa, BB); (Aa, Bb); (Aa, bB); (Aa, bb)\\}\\). Kết quả nào sau đây là kết quả thuận lợi cho biến cố \"Cây con có hạt vàng và nhăn\" (biết allele A quy định hạt vàng, allele b quy định hạt nhăn)?",
+      "generalfeedback": "Cây con có hạt vàng và nhăn nếu trong gene màu hạt có ít nhất một allele trội A và trong gene dạng hạt gồm hai allele lặn bb. Các kết quả thuận lợi là (AA, bb) và (Aa, bb).",
+      "answers": [
+        {
+          "text": "\\((AA, bb)\\) và \\((Aa, bb)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\((AA, BB)\\) và \\((Aa, BB)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((AA, Bb)\\) và \\((Aa, Bb)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((AA, bb)\\) và \\((aa, bb)\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm biến cố A",
+      "questiontext": "Gieo đồng thời hai con xúc xắc cân đối. Biến cố \"Tổng số chấm xuất hiện trên hai con xúc xắc lớn hơn 12\" là một biến cố không thể xảy ra. Phát biểu này đúng hay sai?",
+      "generalfeedback": "Vì số chấm lớn nhất trên mỗi con xúc xắc là 6 nên tổng số chấm lớn nhất là 12. Do đó tổng lớn hơn 12 không bao giờ xảy ra. Phát biểu là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Liệt kê các kết quả thuận lợi cho biến cố A",
+      "questiontext": "Ba bạn Bảo, Châu, Dương được xếp ngẫu nhiên ngồi trên một hàng ghế có 3 chỗ ngồi. Tập hợp tất cả các kết quả có thể xảy ra (không gian mẫu) có [[1]] phần tử. Biến cố \"Châu và Dương không ngồi cạnh nhau\" có [[2]] kết quả thuận lợi.",
+      "generalfeedback": "Không gian mẫu gồm 6 cách xếp {BCD, BDC, CBD, DBC, CDB, DCB}. Châu và Dương không ngồi cạnh nhau khi Bảo ngồi ở giữa, tức gồm 2 kết quả {CBD, DBC}.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "6"
+        },
+        {
+          "group": 1,
+          "text": "2"
+        },
+        {
+          "group": 1,
+          "text": "4"
+        },
+        {
+          "group": 1,
+          "text": "3"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Xác định biến cố liên quan đến phép thử",
+      "questiontext": "Cho hai túi I và II, mỗi túi chứa 3 tấm thẻ được ghi các số 2; 3; 7. Rút ngẫu nhiên từ mỗi túi ra một tấm thẻ và ghép thành số có hai chữ số. Phép thử ở đây là [[1]] từ mỗi túi ra một tấm thẻ và ghép thành số có hai chữ số. Biến cố \"Số tạo thành là số nguyên tố\" là biến cố có kết quả xảy ra [[2]] vào kết quả của phép thử.",
+      "generalfeedback": "Phép thử là hành động rút ngẫu nhiên mỗi túi 1 thẻ. Việc xảy ra hay không xảy ra của biến cố tùy thuộc vào kết quả của phép thử.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "rút ngẫu nhiên"
+        },
+        {
+          "group": 1,
+          "text": "tùy thuộc"
+        },
+        {
+          "group": 1,
+          "text": "không phụ thuộc"
+        },
+        {
+          "group": 1,
+          "text": "chắc chắn"
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_127",
+      "questiontext": "Gieo một con xúc xắc cân đối có {n} mặt được đánh số từ 1 đến {n}. Xác suất của biến cố \"Xuất hiện mặt ghi số chẵn\" (giả sử {n} là số chẵn) được tính theo công thức nào dưới đây?",
+      "generalfeedback": "Số mặt chẵn là {n}/2. Số phần tử của không gian mẫu là {n}. Do đó xác suất P = ({n}/2) / {n} = 0.5.",
+      "wildcards": [
+        {
+          "name": "n",
+          "min": 4.0,
+          "max": 20.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{n}/(2*{n})",
+          "fraction": 100
+        },
+        {
+          "text": "1/{n}",
+          "fraction": 0
+        },
+        {
+          "text": "2/{n}",
+          "fraction": 0
+        },
+        {
+          "text": "({n}-1)/{n}",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_127",
+      "questiontext": "Cho hai túi I và II, mỗi túi chứa 3 tấm thẻ được ghi các số 2; 3; 7. Rút ngẫu nhiên từ mỗi túi ra một tấm thẻ và ghép thành số có hai chữ số với chữ số trên tấm thẻ rút từ túi I là chữ số hàng chục. Xác suất của biến cố B: \"Số tạo thành là số nguyên tố\" bằng:",
+      "generalfeedback": "Không gian mẫu có \\(3 \\times 3 = 9\\) phần tử: \\(\\{22, 23, 27, 32, 33, 37, 72, 73, 77\\}\\). Các số nguyên tố là 23, 37, 73 (3 kết quả thuận lợi). Xác suất \\(P(B) = \\frac{3}{9} = \\frac{1}{3}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{1}{3}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{2}{9}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{4}{9}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{1}{9}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ học Toán về xác suất của biến cố, khi gặp một bài toán khó về đếm số kết quả thuận lợi chưa tìm ra ngay cách giải, hành động nào sau đây thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập?",
+      "generalfeedback": "Hành vi kiên trì phân tích, thử lại các trường hợp hoặc trao đổi với thầy cô, bạn bè thể hiện sự nỗ lực vươn lên trong học tập.",
+      "answers": [
+        {
+          "text": "Kiên trì phân tích lại đề bài, liệt kê từng trường hợp đơn giản hoặc chủ động hỏi thầy cô, bạn bè để tìm ra cách giải.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài toán khó đó ngay lập tức và chỉ làm các bài tập dễ.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép lại lời giải của bạn khác mà không cần hiểu lý do vì sao làm như vậy.",
+          "fraction": 0
+        },
+        {
+          "text": "Đổ lỗi cho đề bài quá khó và không tiếp tục suy nghĩ nữa.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Để nâng cao năng lực giải bài tập chương Xác suất, bạn An tự đặt mục tiêu: \"Mỗi ngày giải thành công 3 bài tập về liệt kê kết quả thuận lợi cho biến cố liên quan tới phép thử\". Việc làm này thể hiện năng lực nào sau đây?",
+      "generalfeedback": "Việc tự đề ra mục tiêu cụ thể để nỗ lực thực hiện thể hiện năng lực tự đặt mục tiêu học tập và phấn đấu hoàn thành.",
+      "answers": [
+        {
+          "text": "Tự đặt được mục tiêu học tập để nỗ lực phấn đấu thực hiện.",
+          "fraction": 100
+        },
+        {
+          "text": "Kỹ năng tính toán số học nâng cao.",
+          "fraction": 0
+        },
+        {
+          "text": "Khả năng làm việc nhóm thụ động.",
+          "fraction": 0
+        },
+        {
+          "text": "Năng lực sử dụng công cụ công nghệ thông tin.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "imgs": [
+        "_page_0_Figure_20.jpeg"
+      ],
+      "questiontext": "Quan sát sơ đồ quay tấm bìa hình tròn [img:_page_0_Figure_20.jpeg] và thông tin phép thử quay tấm bìa 2 lần. Hãy ghép mỗi thành phần biểu diễn ngôn ngữ/hình ảnh với nội dung ý nghĩa tương ứng.",
+      "generalfeedback": "Học sinh đọc hiểu thông tin kết hợp giữa hình ảnh sơ đồ tấm bìa và biểu diễn ngôn ngữ toán học.",
+      "subquestions": [
+        {
+          "question": "Hình quạt tròn chia làm 4 phần ghi số 1, 2, 3, 4",
+          "answer": "Cung cấp danh sách các kết quả có thể của mỗi lần quay"
+        },
+        {
+          "question": "Cặp số \\( (a, b) \\) trong bảng không gian mẫu",
+          "answer": "Biểu diễn số xuất hiện ở lần quay thứ nhất là \\( a \\) và lần thứ hai là \\( b \\)"
+        },
+        {
+          "question": "Tập hợp \\( \\Omega \\) gồm 16 phần tử",
+          "answer": "Tổng số kết quả có thể xảy ra của phép thử quay 2 lần"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "questiontext": "Theo dữ liệu bảng không gian mẫu phép thử quay tấm bìa 2 lần trong SGK, không gian mẫu \\( \\Omega \\) gồm 16 cặp số \\( (a, b) \\) với \\( a, b \\in \\{1, 2, 3, 4\\} \\). Bảng biểu diễn này giúp học sinh dễ dàng tra cứu và đếm chính xác số kết quả thuận lợi cho các biến cố. Khẳng định này đúng hay sai?",
+      "generalfeedback": "Bảng mô tả không gian mẫu giúp hệ thống hóa toàn bộ 16 kết quả có thể, hỗ trợ quan sát và đếm chính xác. Khẳng định là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Xét phép thử gieo hai con xúc xắc cân đối. Bạn Bình phân tích hai biến cố sau:\n- Biến cố \\( E \\): \"Tổng số chấm xuất hiện bằng 5\"\n- Biến cố \\( F \\): \"Tích số chấm xuất hiện bằng 4\"\nBằng thao tác tư duy phân tích và so sánh số kết quả thuận lợi, phát biểu nào sau đây là đúng?",
+      "generalfeedback": "Các kết quả thuận lợi cho E là (1,4), (2,3), (3,2), (4,1) -> 4 kết quả. Các kết quả thuận lợi cho F là (1,4), (2,2), (4,1) -> 3 kết quả. Do đó E có 4 kết quả thuận lợi, F có 3 kết quả thuận lợi.",
+      "answers": [
+        {
+          "text": "Biến cố \\( E \\) có 4 kết quả thuận lợi, biến cố \\( F \\) có 3 kết quả thuận lợi.",
+          "fraction": 100
+        },
+        {
+          "text": "Biến cố \\( E \\) có 3 kết quả thuận lợi, biến cố \\( F \\) có 4 kết quả thuận lợi.",
+          "fraction": 0
+        },
+        {
+          "text": "Cả hai biến cố \\( E \\) và \\( F \\) đều có 4 kết quả thuận lợi.",
+          "fraction": 0
+        },
+        {
+          "text": "Cả hai biến cố \\( E \\) và \\( F \\) đều có 2 kết quả thuận lợi.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Sử dụng thao tác tư duy lập luận toán học để hoàn thành nhận xét: Trong phép thử gieo con xúc xắc cân đối 6 mặt, tập hợp các kết quả thuận lợi cho một biến cố luôn là một [[1]] của không gian mẫu. Do đó, số kết quả thuận lợi luôn [[2]] số phần tử của không gian mẫu.",
+      "generalfeedback": "Tập hợp kết quả thuận lợi cho biến cố A là tập con của không gian mẫu \\( \\Omega \\), do đó số phần tử \\( n(A) \\le n(\\Omega) \\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "tập con"
+        },
+        {
+          "group": 1,
+          "text": "nhỏ hơn hoặc bằng"
+        },
+        {
+          "group": 1,
+          "text": "tập hợp cha"
+        },
+        {
+          "group": 1,
+          "text": "lớn hơn"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04_12",
+      "questiontext": "Trong toán học xác suất, phát biểu thông thường \"Gia đình có cả con trai và con gái\" khi chọn ngẫu nhiên một gia đình có 2 con (kí hiệu T là con trai, G là con gái) được biểu diễn chính xác dưới dạng tập hợp các kết quả thuận lợi bằng ngôn ngữ toán học là:",
+      "generalfeedback": "Phát biểu \"có cả con trai và con gái\" nghĩa là một con trai và một con gái, ứng với tập hợp kết quả \\( \\{TG; GT\\} \\).",
+      "answers": [
+        {
+          "text": "\\( \\{TG; GT\\} \\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\( \\{TT; GG\\} \\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\( \\{TT; TG; GT\\} \\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\( \\{TG\\} \\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04_12",
+      "questiontext": "Khi chuyển đổi giữa ngôn ngữ thông thường và ký hiệu toán học xác suất: Phát biểu \"Cả hai lần gieo đều xuất hiện mặt chẵn\" được dịch sang tập hợp kết quả thuận lợi là tập hợp các cặp số \\( (a, b) \\) trong đó cả \\( a \\) và \\( b \\) đều là [[1]]. Ký hiệu xác suất của biến cố \\( E \\) trong toán học là [[2]].",
+      "generalfeedback": "Mặt chẵn tương ứng với các số chẵn (2, 4, 6). Ký hiệu xác suất của biến cố E là P(E).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "số chẵn"
+        },
+        {
+          "group": 1,
+          "text": "P(E)"
+        },
+        {
+          "group": 1,
+          "text": "số lẻ"
+        },
+        {
+          "group": 1,
+          "text": "n(E)"
+        }
+      ]
+    }
+  ]
+}

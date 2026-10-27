@@ -1,0 +1,752 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 30,
+    "total": 30,
+    "types_used": {
+      "multichoice": 15,
+      "truefalse": 3,
+      "numerical": 5,
+      "ddwtos": 1,
+      "matching": 3,
+      "gapselect": 2,
+      "calculatedsimple": 1
+    },
+    "metadata_used": {
+      "YCCD_TOAN6_058": 5,
+      "YCCD_TOAN6_059": 6,
+      "Phương pháp so sánh phân số và hỗn số": 4,
+      "Sắp xếp các phân số theo thứ tự tăng dần hoặc giảm dần": 5,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_CHAMCHI_HAMHOC_C2_03": 2,
+      "SUB_TCTH_TUHOC_C2_01": 1,
+      "SUB_GQVD_DEXUAT_C2_01": 2,
+      "NLT_TOAN_C2_01_05": 2,
+      "NLT_TOAN_C2_03_04": 2
+    }
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN6_058",
+        "reason": "Đo lường khả năng nêu và vận dụng tính chất cơ bản của phân số"
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_059",
+        "reason": "Đo lường khả năng so sánh hai phân số cho trước"
+      },
+      {
+        "metadata_code": "Phương pháp so sánh phân số và hỗn số",
+        "reason": "Đo lường kiến thức về phương pháp so sánh phân số và hỗn số"
+      },
+      {
+        "metadata_code": "Sắp xếp các phân số theo thứ tự tăng dần hoặc giảm dần",
+        "reason": "Đo lường kỹ năng sắp xếp các phân số theo thứ tự tăng/giảm dần"
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đo lường tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập"
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_03",
+        "reason": "Đo lường ý thức vận dụng kiến thức toán học vào đời sống hằng ngày"
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+        "reason": "Đo lường khả năng tự đặt mục tiêu học tập để nỗ lực phấn đấu"
+      },
+      {
+        "metadata_code": "SUB_GQVD_DEXUAT_C2_01",
+        "reason": "Đo lường khả năng xác định và tìm hiểu các thông tin liên quan đến vấn đề"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_05",
+        "reason": "Đo lường khả năng thực hiện việc lập luận hợp lý khi giải quyết vấn đề"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_04",
+        "reason": "Đo lường khả năng sử dụng các kiến thức toán học tương thích để giải quyết vấn đề"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Nội dung bài học Luyện tập chung về phân số thuần lý thuyết và bài tập toán học, không chứa các yếu tố kỹ năng số/tin học tự nhiên."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học không đề cập hoặc có bối cảnh liên quan tự nhiên đến ứng dụng/nguyên lý của Trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_058",
+      "questiontext": "Theo tính chất cơ bản của phân số, khi nhân cả tử số và mẫu số của một phân số với cùng một số nguyên khác 0 thì ta được một phân số như thế nào với phân số đã cho?",
+      "generalfeedback": "Theo tính chất cơ bản của phân số, nếu ta nhân cả tử và mẫu của một phân số với cùng một số nguyên khác 0 thì ta được một phân số bằng phân số đã cho.",
+      "answers": [
+        {
+          "text": "Bằng phân số đã cho",
+          "fraction": 100
+        },
+        {
+          "text": "Lớn hơn phân số đã cho",
+          "fraction": 0
+        },
+        {
+          "text": "Nhỏ hơn phân số đã cho",
+          "fraction": 0
+        },
+        {
+          "text": "Gấp đôi phân số đã cho",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_058",
+      "questiontext": "Nếu chia cả tử số và mẫu số của một phân số cho cùng một ước chung của chúng thì ta được một phân số bằng phân số đã cho. Phát biểu này Đúng hay Sai?",
+      "generalfeedback": "Đây là phát biểu đúng thuộc tính chất cơ bản thứ hai của phân số: Chia cả tử và mẫu cho cùng một ước chung ta được phân số bằng phân số đã cho.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_059",
+      "questiontext": "Dùng tính chất cơ bản của phân số, hãy cho biết cặp phân số nào sau đây bằng nhau?",
+      "generalfeedback": "Ta có \\(\\frac{20}{30} = \\frac{20:10}{30:10} = \\frac{2}{3}\\) và \\(\\frac{30}{45} = \\frac{30:15}{45:15} = \\frac{2}{3}\\). Do đó \\(\\frac{20}{30} = \\frac{30}{45}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{20}{30}\\) và \\(\\frac{30}{45}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{20}{30}\\) và \\(\\frac{15}{45}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{20}{30}\\) và \\(\\frac{40}{45}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{20}{30}\\) và \\(\\frac{30}{60}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_059",
+      "questiontext": "Tìm số nguyên \\(x\\) thỏa mãn đẳng thức \\(\\frac{x}{10} = \\frac{-11}{5}\\). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Áp dụng quy tắc bằng nhau của hai phân số: \\(\\frac{x}{10} = \\frac{-11}{5} \\Rightarrow x \\cdot 5 = 10 \\cdot (-11) \\Rightarrow x = \\frac{-110}{5} = -22\\).",
+      "answers": [
+        {
+          "text": "-22",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Phương pháp so sánh phân số và hỗn số",
+      "questiontext": "Khi chuyển hỗn số \\(4\\frac{1}{13}\\) sang dạng phân số, ta thu được phân số nào sau đây?",
+      "generalfeedback": "Muốn viết hỗn số \\(4\\frac{1}{13}\\) dưới dạng phân số ta tính: tử số là \\(4 \\cdot 13 + 1 = 53\\), giữ nguyên mẫu số 13, ta được phân số \\(\\frac{53}{13}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{53}{13}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{52}{13}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{41}{13}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{17}{13}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Phương pháp so sánh phân số và hỗn số",
+      "questiontext": "Trong các phân số \\(\\frac{15}{8}\\), \\(\\frac{47}{4}\\), \\(\\frac{-3}{7}\\), phân số nào âm (nhỏ hơn 0)?",
+      "generalfeedback": "Phân số có tử và mẫu trái dấu là phân số âm. Do đó phân số nhỏ hơn 0 là \\(\\frac{-3}{7}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{-3}{7}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{15}{8}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{47}{4}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{3}{7}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "Sắp xếp các phân số theo thứ tự tăng dần hoặc giảm dần",
+      "questiontext": "Khi quy đồng mẫu các phân số \\(\\frac{1}{5}\\), \\(\\frac{1}{30}\\) và \\(\\frac{-5}{6}\\) với mẫu chung là 30, ta được các phân số tương ứng là [[1]], [[2]] và [[3]].",
+      "generalfeedback": "Ta có: \\(\\frac{1}{5} = \\frac{6}{30}\\); \\(\\frac{1}{30}\\) giữ nguyên; \\(\\frac{-5}{6} = \\frac{-25}{30}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(\\frac{6}{30}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{1}{30}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{-25}{30}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{-5}{30}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{25}{30}\\)"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Sắp xếp các phân số theo thứ tự tăng dần hoặc giảm dần",
+      "questiontext": "Hãy ghép mỗi hỗn số hoặc phân số ở cột bên trái với dạng chuyển đổi tương ứng ở cột bên phải:",
+      "generalfeedback": "Ta có: \\(4\\frac{1}{13} = \\frac{53}{13}\\); \\(2\\frac{2}{5} = \\frac{12}{5}\\); \\(\\frac{15}{8} = 1\\frac{7}{8}\\).",
+      "subquestions": [
+        {
+          "question": "Hỗn số \\(4\\frac{1}{13}\\)",
+          "answer": "Phân số \\(\\frac{53}{13}\\)"
+        },
+        {
+          "question": "Hỗn số \\(2\\frac{2}{5}\\)",
+          "answer": "Phân số \\(\\frac{12}{5}\\)"
+        },
+        {
+          "question": "Phân số \\(\\frac{15}{8}\\)",
+          "answer": "Hỗn số \\(1\\frac{7}{8}\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_059",
+      "questiontext": "[img:_page_0_Picture_19.jpeg] Bố dẫn Mai đi mua bút. Hộp 12 cái bút giá 75 nghìn đồng, hộp 15 cái bút giá 88 nghìn đồng. So sánh giá tiền một cái bút ở hai hộp, khẳng định nào sau đây là đúng?",
+      "imgs": [
+        "_page_0_Picture_19.jpeg"
+      ],
+      "generalfeedback": "Giá 1 bút hộp 12 cái là \\(\\frac{75}{12} = \\frac{375}{60}\\) nghìn đồng. Giá 1 bút hộp 15 cái là \\(\\frac{88}{15} = \\frac{352}{60}\\) nghìn đồng. Vì \\(\\frac{375}{60} > \\frac{352}{60}\\) nên giá bút mua hộp 15 cái rẻ hơn.",
+      "answers": [
+        {
+          "text": "Giá mỗi bút ở hộp 15 cái rẻ hơn hộp 12 cái",
+          "fraction": 100
+        },
+        {
+          "text": "Giá mỗi bút ở hộp 12 cái rẻ hơn hộp 15 cái",
+          "fraction": 0
+        },
+        {
+          "text": "Giá mỗi bút ở hai hộp bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Không đủ dữ kiện để so sánh",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Sắp xếp các phân số theo thứ tự tăng dần hoặc giảm dần",
+      "questiontext": "[img:_page_1_Picture_23.jpeg] Một bộ 5 chiếc cờ lê vặn được 5 loại ốc vít có đường kính lần lượt là: \\(\\frac{9}{10}\\) cm, \\(\\frac{4}{5}\\) cm, \\(\\frac{3}{2}\\) cm, \\(\\frac{6}{5}\\) cm, \\(\\frac{1}{2}\\) cm. Khi sắp xếp các kích thước này theo thứ tự từ lớn đến bé, thứ tự đúng là:",
+      "imgs": [
+        "_page_1_Picture_23.jpeg"
+      ],
+      "generalfeedback": "Quy đồng mẫu số chung là 10: \\(\\frac{3}{2} = \\frac{15}{10}\\); \\(\\frac{6}{5} = \\frac{12}{10}\\); \\(\\frac{9}{10}\\); \\(\\frac{4}{5} = \\frac{8}{10}\\); \\(\\frac{1}{2} = \\frac{5}{10}\\). Vì \\(15 > 12 > 9 > 8 > 5\\) nên thứ tự từ lớn đến bé là: \\(\\frac{3}{2}\\) cm; \\(\\frac{6}{5}\\) cm; \\(\\frac{9}{10}\\) cm; \\(\\frac{4}{5}\\) cm; \\(\\frac{1}{2}\\) cm.",
+      "answers": [
+        {
+          "text": "\\(\\frac{3}{2}\\) cm; \\(\\frac{6}{5}\\) cm; \\(\\frac{9}{10}\\) cm; \\(\\frac{4}{5}\\) cm; \\(\\frac{1}{2}\\) cm",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{1}{2}\\) cm; \\(\\frac{4}{5}\\) cm; \\(\\frac{9}{10}\\) cm; \\(\\frac{6}{5}\\) cm; \\(\\frac{3}{2}\\) cm",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{9}{10}\\) cm; \\(\\frac{4}{5}\\) cm; \\(\\frac{3}{2}\\) cm; \\(\\frac{6}{5}\\) cm; \\(\\frac{1}{2}\\) cm",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{3}{2}\\) cm; \\(\\frac{9}{10}\\) cm; \\(\\frac{6}{5}\\) cm; \\(\\frac{4}{5}\\) cm; \\(\\frac{1}{2}\\) cm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Sắp xếp các phân số theo thứ tự tăng dần hoặc giảm dần",
+      "questiontext": "Mẫu số chung nhỏ nhất (BCNN) của các mẫu số trong ba phân số \\(\\frac{5}{7}\\), \\(\\frac{-3}{21}\\) và \\(\\frac{-8}{15}\\) là bao nhiêu? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Ba mẫu số lần lượt là 7, 21 và 15. Ta có 21 = 3 * 7; 15 = 3 * 5. Mẫu số chung nhỏ nhất là BCNN(7, 21, 15) = 3 * 5 * 7 = 105.",
+      "answers": [
+        {
+          "text": "105",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_059",
+      "questiontext": "Tính đến ngày 31-12-2019, tổng diện tích đất có rừng trên toàn quốc là khoảng 14 600 000 ha, trong đó diện tích rừng tự nhiên khoảng 10 300 000 ha, còn lại là diện tích rừng trồng. Diện tích rừng trồng chiếm bao nhiêu phần của tổng diện tích đất có rừng trên toàn quốc?",
+      "generalfeedback": "Diện tích rừng trồng là: 14 600 000 - 10 300 000 = 4 300 000 (ha). Tỉ số diện tích rừng trồng so với tổng diện tích đất có rừng là: \\(\\frac{4 300 000}{14 600 000} = \\frac{43}{146}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{43}{146}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{103}{146}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{43}{103}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{103}{43}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_058",
+      "questiontext": "Hai phân số \\(\\frac{-25}{35}\\) và \\(\\frac{-55}{77}\\) bằng nhau vì khi rút gọn về phân số tối giản, cả hai phân số đều bằng \\(\\frac{-5}{7}\\). Phát biểu này Đúng hay Sai?",
+      "generalfeedback": "Rút gọn \\(\\frac{-25}{35} = \\frac{(-25):5}{35:5} = \\frac{-5}{7}\\) và \\(\\frac{-55}{77} = \\frac{(-55):11}{77:11} = \\frac{-5}{7}\\). Do đó hai phân số này bằng nhau.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Phương pháp so sánh phân số và hỗn số",
+      "questiontext": "Trong các phân số \\(\\frac{15}{8}\\), \\(\\frac{47}{4}\\), \\(\\frac{-3}{7}\\), phân số \\(\\frac{47}{4}\\) khi viết dưới dạng hỗn số là:",
+      "generalfeedback": "Thực hiện phép chia 47 cho 4 được thương là 11, số dư là 3. Do đó \\(\\frac{47}{4} = 11\\frac{3}{4}\\).",
+      "answers": [
+        {
+          "text": "\\(11\\frac{3}{4}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(11\\frac{1}{4}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(4\\frac{3}{11}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(12\\frac{1}{4}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Phương pháp so sánh phân số và hỗn số",
+      "questiontext": "Cho hỗn số \\(2\\frac{2}{5}\\). Khi đổi sang dạng phân số \\(\\frac{a}{5}\\), giá trị của tử số \\(a\\) là bao nhiêu? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Tử số \\(a = 2 \\cdot 5 + 2 = 12\\). Phân số tương ứng là \\(\\frac{12}{5}\\).",
+      "answers": [
+        {
+          "text": "12",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_059",
+      "questiontext": "Tìm số nguyên \\(x\\) thỏa mãn đẳng thức \\(\\frac{-6}{x} = \\frac{30}{60}\\). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Theo quy tắc bằng nhau của hai phân số, ta có \\(-6 \\cdot 60 = x \\cdot 30 \\Rightarrow -360 = 30x \\Rightarrow x = \\frac{-360}{30} = -12\\).",
+      "answers": [
+        {
+          "text": "-12",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_058",
+      "questiontext": "Rút gọn phân số \\(\\frac{-50}{60}\\) về dạng phân số tối giản có mẫu dương, ta thu được kết quả là phân số nào sau đây?",
+      "generalfeedback": "Chia cả tử và mẫu của phân số \\(\\frac{-50}{60}\\) cho ƯCLN(50, 60) = 10, ta được phân số tối giản \\(\\frac{-5}{6}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{-5}{6}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{5}{6}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{-5}{12}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{-25}{30}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_058",
+      "questiontext": "Để rút gọn phân số \\(\\frac{4}{120}\\) về phân số tối giản, ta chia cả tử và mẫu cho [[1]], thu được phân số tối giản là [[2]].",
+      "generalfeedback": "Ta có ƯCLN(4, 120) = 4. Chia cả tử và mẫu cho 4 ta được \\(\\frac{4:4}{120:4} = \\frac{1}{30}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "4"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{1}{30}\\)"
+        },
+        {
+          "group": 1,
+          "text": "10"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{1}{20}\\)"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_059",
+      "questiontext": "Tìm số nguyên x thỏa mãn đẳng thức phân số \\(x / \\) {a} \\(= 2 / 1\\). (Chỉ điền số nguyên)",
+      "generalfeedback": "Áp dụng quy tắc hai phân số bằng nhau: x * 1 = {a} * 2 suy ra x = 2 * {a}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Sắp xếp các phân số theo thứ tự tăng dần hoặc giảm dần",
+      "questiontext": "Nối mỗi phân số ở cột trái với dạng quy đồng tương ứng ở cột phải với mẫu số chung là 30:",
+      "generalfeedback": "Nối đúng: 1/5 -> 6/30; -5/6 -> -25/30; 1/30 -> 1/30.",
+      "subquestions": [
+        {
+          "question": "Phân số \\(\\frac{1}{5}\\)",
+          "answer": "Phân số \\(\\frac{6}{30}\\)"
+        },
+        {
+          "question": "Phân số \\(\\frac{-5}{6}\\)",
+          "answer": "Phân số \\(\\frac{-25}{30}\\)"
+        },
+        {
+          "question": "Phân số \\(\\frac{1}{30}\\)",
+          "answer": "Phân số \\(\\frac{1}{30}\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ ôn tập môn Toán chủ đề 'So sánh và quy đồng phân số', Mai gặp một bài toán phức tạp chưa tìm ra lời giải ngay. Để thể hiện tinh thần luôn cố gắng vươn lên trong học tập, Mai nên thực hiện hành động nào sau đây?",
+      "generalfeedback": "Thái độ tích cực, kiên trì suy nghĩ, tự rà soát lại các kiến thức cơ bản (như tính chất cơ bản của phân số, quy đồng mẫu số) và chủ động trao đổi với thầy cô, bạn bè khi gặp vướng mắc chính là biểu hiện của tinh thần luôn cố gắng vươn lên học tập tốt.",
+      "answers": [
+        {
+          "text": "Kiên trì rà soát lại kiến thức quy đồng mẫu số, thử nghiệm các cách giải khác nhau và chủ động hỏi thầy cô, bạn bè khi cần thiết",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài toán khó đó và chỉ làm những bài toán dễ đã biết làm",
+          "fraction": 0
+        },
+        {
+          "text": "Chờ đợi đến giờ sửa bài để chép đáp án của bạn khác vào vở",
+          "fraction": 0
+        },
+        {
+          "text": "Cho rằng bài toán quá sức với mình nên dừng hẳn việc học bài",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_03",
+      "questiontext": "Khi cùng mẹ đi siêu thị mua bánh mì, Nam thấy hai nhãn hàng bánh mì cùng loại: nhãn hàng A bán gói 400g giá 28 nghìn đồng, nhãn hàng B bán gói 500g giá 32 nghìn đồng. Nam muốn giúp mẹ chọn sản phẩm tiết kiệm hơn. Ý thức vận dụng kiến thức toán học đúng đắn của Nam được thể hiện qua hành động nào?",
+      "generalfeedback": "Ý thức vận dụng kiến thức toán học vào đời sống thể hiện ở việc biết đưa bài toán thực tế về bài toán so sánh đơn giá (chia giá tiền cho khối lượng để so sánh hai phân số/tỉ số đơn giá) trước khi đưa ra quyết định tiêu dùng thông minh.",
+      "answers": [
+        {
+          "text": "Tính đơn giá tiền trên mỗi gam bánh mì của từng nhãn hàng bằng phân số \\(\\frac{28}{400}\\) và \\(\\frac{32}{500}\\), sau đó quy đồng mẫu số để so sánh và tư vấn cho mẹ",
+          "fraction": 100
+        },
+        {
+          "text": "Chọn ngay gói bánh mì 500g vì cho rằng gói to hơn thì luôn rẻ hơn mà không cần tính toán",
+          "fraction": 0
+        },
+        {
+          "text": "Chọn gói bánh mì 28 nghìn đồng vì số tiền ít hơn mà không quan tâm đến khối lượng",
+          "fraction": 0
+        },
+        {
+          "text": "Cho rằng kiến thức phân số ở trường chỉ để đi thi, không liên quan đến việc mua sắm ở siêu thị",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Đầu tuần học chủ đề 'Luyện tập chung về phân số và hỗn số', Tuấn nhận thấy mình còn chậm khi thực hiện quy đồng mẫu số các phân số có mẫu số lớn. Để tự đặt mục tiêu học tập hợp lý và phấn đấu đạt kết quả tốt, Tuấn nên lập kế hoạch nào?",
+      "generalfeedback": "Tự đặt mục tiêu học tập cần đi kèm kế hoạch cụ thể, khả thi (như luyện tập tính BCNN, quy đồng mỗi ngày) và kiểm tra lại sự tiến bộ của bản thân.",
+      "answers": [
+        {
+          "text": "Đặt mục tiêu mỗi ngày dành 15 phút luyện tập tính BCNN và quy đồng mẫu số 3 bài tập, sau đó nhờ bạn kiểm tra giúp",
+          "fraction": 100
+        },
+        {
+          "text": "Mục tiêu chỉ cần đạt điểm trung bình nên không cần luyện tập thêm ở nhà",
+          "fraction": 0
+        },
+        {
+          "text": "Đặt mục tiêu học thuộc lòng tất cả các đáp án trong sách bài tập mà không cần hiểu cách làm",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua phần quy đồng mẫu số và chuyển sang học chủ đề khác",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_01",
+      "questiontext": "Khi làm bài tập thực tế: 'Hỏi diện tích rừng trồng chiếm bao nhiêu phần của tổng diện tích đất có rừng trên toàn quốc?', học sinh cần xác định và thu thập những thông tin cốt lõi nào từ dữ liệu để giải quyết bài toán?",
+      "generalfeedback": "Để giải quyết bài toán tìm phân số chỉ diện tích rừng trồng, học sinh cần xác định thông tin tổng diện tích đất có rừng và diện tích rừng tự nhiên, từ đó tìm diện tích rừng trồng và lập tỉ số.",
+      "answers": [
+        {
+          "text": "Tổng diện tích đất có rừng toàn quốc và diện tích rừng tự nhiên, từ đó tính diện tích rừng trồng rồi lập phân số so với tổng diện tích",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ cần tìm thông tin về tên trang web xuất bản số liệu mà không cần chú ý đến các con số diện tích",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ lấy diện tích rừng tự nhiên chia cho diện tích rừng trồng",
+          "fraction": 0
+        },
+        {
+          "text": "Thu thập thông tin về tất cả các loại cây trồng trong rừng trồng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_05",
+      "questiontext": "Để giải thích vì sao hai phân số \\(\\frac{20}{30}\\) và \\(\\frac{30}{45}\\) bằng nhau, bạn An lập luận theo các bước: (1) Rút gọn \\(\\frac{20}{30} = \\frac{20:10}{30:10} = \\frac{2}{3}\\); (2) Rút gọn \\(\\frac{30}{45} = \\frac{30:15}{45:15} = \\frac{2}{3}\\); (3) Kết luận \\(\\frac{20}{30} = \\frac{30}{45}\\) vì cùng bằng \\(\\frac{2}{3}\\). Em đánh giá lập luận của An như thế nào?",
+      "generalfeedback": "Lập luận của An hoàn toàn hợp lý và chính xác vì dựa trên tính chất cơ bản của phân số (rút gọn về cùng một phân số tối giản) để chứng minh hai phân số bằng nhau.",
+      "answers": [
+        {
+          "text": "Lập luận đúng và hợp lý vì đã sử dụng tính chất cơ bản của phân số để đưa hai phân số về cùng dạng tối giản \\(\\frac{2}{3}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Lập luận sai vì hai phân số có tử số và mẫu số khác nhau nên không thể bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Lập luận thiếu bước vì phải nhân chéo tử số phân số này với mẫu số phân số kia thì mới được kết luận",
+          "fraction": 0
+        },
+        {
+          "text": "Lập luận sai vì không quy đồng mẫu số chung là 1350",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_05",
+      "questiontext": "Hãy ghép mỗi bước lập luận giải toán ở cột bên trái với căn cứ logic tương ứng ở cột bên phải khi giải bài toán so sánh giá bút ở hai hộp (hộp 12 cái giá 75 nghìn, hộp 15 cái giá 88 nghìn):",
+      "generalfeedback": "Mỗi bước trong lập luận giải toán cần dựa trên căn cứ toán học xác thực: tính đơn giá bằng phân số, quy đồng mẫu số để so sánh hai phân số cùng mẫu, và rút ra kết luận dựa trên kết quả so sánh.",
+      "subquestions": [
+        {
+          "question": "Tính giá tiền 1 cái bút hộp 12 cái là \\(\\frac{75}{12}\\) và hộp 15 cái là \\(\\frac{88}{15}\\)",
+          "answer": "Đưa bài toán so sánh giá về bài toán so sánh hai phân số"
+        },
+        {
+          "question": "Quy đồng \\(\\frac{75}{12} = \\frac{375}{60}\\) và \\(\\frac{88}{15} = \\frac{352}{60}\\)",
+          "answer": "Biến đổi hai phân số về cùng mẫu số dương để so sánh tử số"
+        },
+        {
+          "question": "So sánh \\(375 > 352\\) nên \\(\\frac{75}{12} > \\frac{88}{15}\\)",
+          "answer": "So sánh hai phân số cùng mẫu số dương và rút ra kết luận hộp 15 cái rẻ hơn"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_04",
+      "questiontext": "[img:_page_1_Picture_23.jpeg] Để chọn đúng cờ lê vặn vừa ốc vít có đường kính lớn thứ hai trong bộ 5 chiếc cờ lê có kích thước: \\(\\frac{9}{10}\\) cm, \\(\\frac{4}{5}\\) cm, \\(\\frac{3}{2}\\) cm, \\(\\frac{6}{5}\\) cm, \\(\\frac{1}{2}\\) cm, học sinh đã sử dụng kiến thức toán học tương thích nào?",
+      "imgs": [
+        "_page_1_Picture_23.jpeg"
+      ],
+      "generalfeedback": "Để tìm kích thước lớn thứ hai, học sinh cần áp dụng kiến thức quy đồng mẫu số các phân số (mẫu chung là 10) để so sánh và sắp xếp thứ tự các phân số từ lớn đến bé: \\(\\frac{3}{2} > \\frac{6}{5} > \\frac{9}{10} > \\frac{4}{5} > \\frac{1}{2}\\). Kích thước lớn thứ hai là \\(\\frac{6}{5}\\) cm.",
+      "answers": [
+        {
+          "text": "Sử dụng kiến thức quy đồng mẫu số để so sánh các phân số, sắp xếp thứ tự giảm dần và xác định phân số lớn thứ hai là \\(\\frac{6}{5}\\) cm",
+          "fraction": 100
+        },
+        {
+          "text": "Sử dụng kiến thức cộng hai phân số cùng mẫu số",
+          "fraction": 0
+        },
+        {
+          "text": "Sử dụng kiến thức phép nhân phân số với số tự nhiên",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ quan sát hình ảnh và ước lượng cảm quan bằng mắt",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_04",
+      "questiontext": "Vận dụng quy tắc bằng nhau của hai phân số để giải bài toán tìm số nguyên \\(x\\) trong đẳng thức \\(\\frac{x}{10} = \\frac{-11}{5}\\). Giá trị số nguyên \\(x\\) tìm được là bao nhiêu? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Vận dụng kiến thức hai phân số bằng nhau: \\(\\frac{x}{10} = \\frac{-11}{5} \\Rightarrow x \\cdot 5 = 10 \\cdot (-11) \\Rightarrow x = -22\\).",
+      "answers": [
+        {
+          "text": "-22",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_03",
+      "questiontext": "Khi đọc báo thấy thông tin về diện tích rừng, việc chủ động sử dụng kiến thức phân số để tính tỉ số diện tích rừng tự nhiên hoặc rừng trồng so với tổng diện tích đất có rừng thể hiện ý thức vận dụng kiến thức toán học vào tìm hiểu thực tiễn đời sống. Phát biểu này Đúng hay Sai?",
+      "generalfeedback": "Phát biểu này Đúng vì thể hiện ý thức kết nối kiến thức toán học học ở nhà trường với các thông tin kinh tế - xã hội, môi trường trong sách báo.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_01",
+      "questiontext": "Để thực hiện yêu cầu so sánh giá bán của hai hộp bút (hộp 12 cái giá 75 nghìn đồng và hộp 15 cái giá 88 nghìn đồng), thông tin toán học cần tìm hiểu đầu tiên là [[1]] của mỗi hộp bút, sau đó đưa hai phân số thu được về [[2]] để so sánh.",
+      "generalfeedback": "Thông tin cần xác định là giá tiền của 1 cái bút (đơn giá) ở mỗi hộp, sau đó quy đồng mẫu số hai phân số chỉ đơn giá để so sánh.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "đơn giá tiền 1 cái bút"
+        },
+        {
+          "group": 1,
+          "text": "cùng mẫu số dương"
+        },
+        {
+          "group": 1,
+          "text": "tổng số bút trong hai hộp"
+        },
+        {
+          "group": 1,
+          "text": "cùng tử số âm"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,646 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 26,
+    "metadata_used": {
+      "Khái niệm tam giác cân, cạnh bên, cạnh đáy, góc ở đỉnh, góc ở đáy": 2,
+      "Tính chất hai góc ở đáy của tam giác cân": 1,
+      "Tam giác đều": 1,
+      "Nhận biết tam giác cân, tam giác đều": 1,
+      "Tính số đo các góc trong tam giác cân": 3,
+      "YCCD_TOAN7_091": 1,
+      "YCCD_TOAN7_092": 1
+    },
+    "types_used": {
+      "multichoice": 4,
+      "truefalse": 1,
+      "gapselect": 1,
+      "matching": 1,
+      "shortanswer": 1,
+      "numerical": 1,
+      "calculated": 1
+    },
+    "total": 26
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_091",
+        "reason": "Mô tả được khái niệm tam giác cân và tam giác vuông cân"
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_092",
+        "reason": "Giải thích được tính chất của tam giác cân"
+      },
+      {
+        "metadata_code": "Khái niệm tam giác cân, cạnh bên, cạnh đáy, góc ở đỉnh, góc ở đáy",
+        "reason": "Khái niệm tam giác cân, cạnh bên, cạnh đáy, góc ở đỉnh, góc ở đáy"
+      },
+      {
+        "metadata_code": "Tính chất hai góc ở đáy của tam giác cân",
+        "reason": "Tính chất hai góc ở đáy của tam giác cân"
+      },
+      {
+        "metadata_code": "Tam giác đều",
+        "reason": "Khái niệm và tính chất của tam giác đều"
+      },
+      {
+        "metadata_code": "Nhận biết tam giác cân, tam giác đều",
+        "reason": "Nhận biết tam giác cân, tam giác đều, tam giác vuông cân"
+      },
+      {
+        "metadata_code": "Tính số đo các góc trong tam giác cân",
+        "reason": "Tính số đo các góc trong tam giác cân"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N",
+        "reason": "Bài học thuộc Tiết 1 - Tam giác cân mang tính lý thuyết hình học thuần túy, không chứa nội dung thực hành hay ứng dụng công cụ số/phần mềm tin học."
+      },
+      {
+        "metadata_code": "A",
+        "reason": "Nội dung bài học không có mối liên hệ tự nhiên với các khái niệm hoặc ứng dụng của trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm tam giác cân, cạnh bên, cạnh đáy, góc ở đỉnh, góc ở đáy",
+      "questiontext": "Tam giác cân là tam giác có đặc điểm nào sau đây?",
+      "generalfeedback": "Theo định nghĩa trong SGK, tam giác cân là tam giác có hai cạnh bằng nhau.",
+      "answers": [
+        {
+          "text": "Có hai cạnh bằng nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Có ba cạnh bằng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Có một góc vuông",
+          "fraction": 0
+        },
+        {
+          "text": "Có ba góc nhọn bằng nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm tam giác cân, cạnh bên, cạnh đáy, góc ở đỉnh, góc ở đáy",
+      "questiontext": "Cho tam giác \\(ABC\\) cân tại \\(A\\). Hai cạnh \\(AB\\) và \\(AC\\) được gọi là:",
+      "generalfeedback": "Trong tam giác \\(ABC\\) cân tại \\(A\\), hai cạnh bằng nhau \\(AB\\) và \\(AC\\) được gọi là hai cạnh bên.",
+      "answers": [
+        {
+          "text": "Hai cạnh bên",
+          "fraction": 100
+        },
+        {
+          "text": "Cạnh đáy và cạnh bên",
+          "fraction": 0
+        },
+        {
+          "text": "Hai cạnh đáy",
+          "fraction": 0
+        },
+        {
+          "text": "Hai cạnh vuông góc",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Tính chất hai góc ở đáy của tam giác cân",
+      "questiontext": "Trong một tam giác cân, hai góc ở đáy luôn bằng nhau.",
+      "generalfeedback": "Theo tính chất tam giác cân, trong một tam giác cân, hai góc ở đáy bằng nhau.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Tam giác đều",
+      "questiontext": "Tam giác đều là tam giác có [[1]] cạnh bằng nhau và ba góc ở các đỉnh đều bằng [[2]].",
+      "generalfeedback": "Tam giác đều có ba cạnh bằng nhau và ba góc bằng nhau, mỗi góc bằng \\(60^\\circ\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "ba"
+        },
+        {
+          "group": 1,
+          "text": "hai"
+        },
+        {
+          "group": 1,
+          "text": "60 độ"
+        },
+        {
+          "group": 1,
+          "text": "45 độ"
+        },
+        {
+          "group": 1,
+          "text": "90 độ"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết tam giác cân, tam giác đều",
+      "questiontext": "Hãy ghép mỗi loại tam giác với đặc điểm nhận biết tương ứng của nó:",
+      "generalfeedback": "Ghép đúng các đặc điểm nhận biết của tam giác cân, tam giác đều và tam giác vuông cân.",
+      "subquestions": [
+        {
+          "question": "Tam giác cân tại \\(A\\)",
+          "answer": "Có \\(AB = AC\\) hoặc góc \\(B\\) bằng góc \\(C\\)"
+        },
+        {
+          "question": "Tam giác đều",
+          "answer": "Có ba cạnh bằng nhau hoặc ba góc bằng nhau"
+        },
+        {
+          "question": "Tam giác vuông cân tại \\(A\\)",
+          "answer": "Có góc \\(A\\) bằng \\(90^\\circ\\) và \\(AB = AC\\)"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Tính số đo các góc trong tam giác cân",
+      "questiontext": "Cho tam giác \\(ABC\\) cân tại \\(A\\) có góc ở đỉnh \\(\\widehat{A} = 80^\\circ\\). Số đo góc ở đáy \\(\\widehat{B}\\) bằng bao nhiêu độ? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Trong tam giác \\(ABC\\) cân tại \\(A\\), số đo góc ở đáy \\(\\widehat{B} = \\frac{180^\\circ - \\widehat{A}}{2} = \\frac{180^\\circ - 80^\\circ}{2} = 50^\\circ\\).",
+      "answers": [
+        {
+          "text": "50",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính số đo các góc trong tam giác cân",
+      "questiontext": "Cho tam giác \\(MNP\\) cân tại \\(P\\) có góc ở đáy \\(\\widehat{M} = 55^\\circ\\). Số đo góc ở đỉnh \\(\\widehat{P}\\) bằng bao nhiêu độ? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Tam giác \\(MNP\\) cân tại \\(P\\) nên \\(\\widehat{N} = \\widehat{M} = 55^\\circ\\). Góc ở đỉnh \\(\\widehat{P} = 180^\\circ - 2 \\times 55^\\circ = 70^\\circ\\).",
+      "answers": [
+        {
+          "text": "70",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Tính số đo các góc trong tam giác cân",
+      "questiontext": "Cho tam giác \\(ABC\\) cân tại \\(A\\) có số đo góc ở đỉnh \\(\\widehat A\\) bằng {a} độ. Hãy tính số đo góc ở đáy \\(\\widehat B\\) theo công thức. (Chỉ điền số)",
+      "generalfeedback": "Góc ở đáy \\(\\widehat B = \\frac{180^\\circ - \\widehat A}{2} = \\frac{180 - {a}}{2}\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 20.0,
+          "max": 80.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "(180-{a})/2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_091",
+      "questiontext": "Khẳng định nào sau đây mô tả ĐÚNG về tam giác vuông cân?",
+      "generalfeedback": "Theo SGK, tam giác vuông cân là tam giác vuông có hai cạnh bằng nhau (cân tại đỉnh góc vuông) và hai góc nhọn bằng \\(45^\\circ\\).",
+      "answers": [
+        {
+          "text": "Tam giác vuông cân là tam giác vuông có hai cạnh bằng nhau và hai góc nhọn bằng \\(45^\\circ\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Tam giác vuông cân là tam giác có ba góc bằng \\(60^\\circ\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Tam giác vuông cân là tam giác cân có góc ở đỉnh bằng \\(120^\\circ\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Tam giác vuông cân là tam giác vuông có một góc nhọn bằng \\(60^\\circ\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_092",
+      "questiontext": "Cho tam giác \\(ABC\\) có \\(\\widehat{B} = \\widehat{C} = 50^\\circ\\). Giải thích nào sau đây là ĐÚNG để kết luận tam giác \\(ABC\\) cân tại \\(A\\)?",
+      "generalfeedback": "Theo tính chất đảo của tam giác cân: Một tam giác có hai góc bằng nhau thì tam giác đó là tam giác cân.",
+      "answers": [
+        {
+          "text": "Tam giác \\(ABC\\) có hai góc ở đáy bằng nhau (\\(\\widehat{B} = \\widehat{C}\\)) nên theo tính chất đảo, tam giác \\(ABC\\) cân tại \\(A\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Tam giác \\(ABC\\) có hai góc nhọn nên là tam giác cân tại \\(A\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Tam giác \\(ABC\\) có tổng ba góc bằng \\(180^\\circ\\) nên cân tại \\(A\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Tam giác \\(ABC\\) có góc \\(\\widehat{A} = 80^\\circ\\) lớn hơn hai góc còn lại nên cân tại \\(A\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm tam giác cân, cạnh bên, cạnh đáy, góc ở đỉnh, góc ở đáy",
+      "questiontext": "Trong tam giác \\(ABC\\) cân tại \\(A\\), góc \\(\\widehat{A}\\) được gọi là gì?",
+      "generalfeedback": "Trong tam giác ABC cân tại A, góc A là góc tạo bởi hai cạnh bên AB và AC nên được gọi là góc ở đỉnh.",
+      "answers": [
+        {
+          "text": "Góc ở đỉnh",
+          "fraction": 100
+        },
+        {
+          "text": "Góc ở đáy",
+          "fraction": 0
+        },
+        {
+          "text": "Góc kề cạnh đáy",
+          "fraction": 0
+        },
+        {
+          "text": "Góc ngoài",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tính chất hai góc ở đáy của tam giác cân",
+      "questiontext": "Cho tam giác \\(XYZ\\) cân tại \\(X\\). Khẳng định nào sau đây là ĐÚNG?",
+      "generalfeedback": "Do tam giác XYZ cân tại X nên hai góc ở đáy Y và Z bằng nhau, tức là \\(\\widehat{Y} = \\widehat{Z}\\).",
+      "answers": [
+        {
+          "text": "\\(\\widehat{Y} = \\widehat{Z}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\widehat{X} = \\widehat{Y}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(XY = YZ\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\widehat{X} + \\widehat{Y} = 90^\\circ\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Tam giác đều",
+      "questiontext": "Tam giác đều là tam giác cân tại tất cả các đỉnh của nó.",
+      "generalfeedback": "Đúng. Tam giác đều có 3 cạnh bằng nhau nên nó cân tại cả 3 đỉnh.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Tính số đo các góc trong tam giác cân",
+      "questiontext": "Cho tam giác \\(DEF\\) cân tại \\(D\\) có góc ở đáy \\(\\widehat{E} = 65^\\circ\\). Số đo góc ở đỉnh \\(\\widehat{D}\\) bằng bao nhiêu độ? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Tam giác DEF cân tại D nên \\(\\widehat{F} = \\widehat{E} = 65^\\circ\\). Do đó \\(\\widehat{D} = 180^\\circ - 2 \\times 65^\\circ = 50^\\circ\\).",
+      "answers": [
+        {
+          "text": "50",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Tính số đo các góc trong tam giác cân",
+      "questiontext": "Một tam giác cân có góc ở đỉnh bằng \\(100^\\circ\\). Số đo của mỗi góc ở đáy bằng bao nhiêu độ? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Số đo mỗi góc ở đáy bằng \\((180^\\circ - 100^\\circ) / 2 = 40^\\circ\\).",
+      "answers": [
+        {
+          "text": "40",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết tam giác cân, tam giác đều",
+      "questiontext": "Cho tam giác \\(ABC\\) có độ dài ba cạnh tương ứng như dưới đây. Hãy ghép mỗi trường hợp với loại tam giác tương ứng:",
+      "generalfeedback": "Tam giác có 2 cạnh bằng nhau là tam giác cân; 3 cạnh bằng nhau là tam giác đều; 3 cạnh khác nhau là tam giác thường.",
+      "subquestions": [
+        {
+          "question": "\\(AB = 5\\text{ cm}, AC = 5\\text{ cm}, BC = 6\\text{ cm}\\)",
+          "answer": "Tam giác cân"
+        },
+        {
+          "question": "\\(AB = 4\\text{ cm}, AC = 4\\text{ cm}, BC = 4\\text{ cm}\\)",
+          "answer": "Tam giác đều"
+        },
+        {
+          "question": "\\(AB = 3\\text{ cm}, AC = 4\\text{ cm}, BC = 5\\text{ cm}\\)",
+          "answer": "Tam giác thường"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_091",
+      "questiontext": "Kéo thả từ thích hợp vào chỗ trống: Trong một tam giác cân, hai góc ở đáy [[1]]. Ngược lại, một tam giác có hai góc bằng nhau thì tam giác đó là tam giác [[2]].",
+      "generalfeedback": "Theo định lý tam giác cân: hai góc ở đáy bằng nhau và tam giác có hai góc bằng nhau là tam giác cân.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "bằng nhau"
+        },
+        {
+          "group": 1,
+          "text": "cân"
+        },
+        {
+          "group": 1,
+          "text": "vuông"
+        },
+        {
+          "group": 1,
+          "text": "khác nhau"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Tính số đo các góc trong tam giác cân",
+      "questiontext": "Cho tam giác \\(ABC\\) cân tại \\(A\\) có số đo góc ở đáy \\(\\widehat B\\) bằng {x} độ. Hãy tính số đo góc ở đỉnh \\(\\widehat A\\) theo biến {x}. (Chỉ điền số)",
+      "generalfeedback": "Góc ở đỉnh \\(\\widehat A = 180^\\circ - 2 \\times \\widehat B = 180 - 2*{x}\\).",
+      "wildcards": [
+        {
+          "name": "x",
+          "min": 30.0,
+          "max": 75.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "180-2*{x}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_092",
+      "questiontext": "Một tam giác cân có một góc bằng \\(60^\\circ\\) thì tam giác đó là tam giác gì?",
+      "generalfeedback": "Theo tính chất, tam giác cân có một góc bằng 60° là tam giác đều.",
+      "answers": [
+        {
+          "text": "Tam giác đều",
+          "fraction": 100
+        },
+        {
+          "text": "Tam giác vuông cân",
+          "fraction": 0
+        },
+        {
+          "text": "Tam giác tù",
+          "fraction": 0
+        },
+        {
+          "text": "Tam giác vuông thường",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Nhận biết tam giác cân, tam giác đều",
+      "questiontext": "Trong các khẳng định sau về tam giác vuông cân, khẳng định nào SAI?",
+      "generalfeedback": "Tam giác vuông cân chỉ có đúng 1 góc vuông (góc ở đỉnh). Khẳng định có 2 góc vuông là SAI vì tổng ba góc trong tam giác bằng 180°.",
+      "answers": [
+        {
+          "text": "Tam giác vuông cân có hai góc vuông",
+          "fraction": 100
+        },
+        {
+          "text": "Tam giác vuông cân cân tại đỉnh góc vuông",
+          "fraction": 0
+        },
+        {
+          "text": "Tam giác vuông cân có hai góc nhọn bằng \\(45^\\circ\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Tam giác vuông có một góc nhọn bằng \\(45^\\circ\\) là tam giác vuông cân",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Khi gặp một bài toán hình học về tính số đo các góc trong tam giác cân khá phức tạp, hành vi nào sau đây thể hiện phẩm chất chăm chỉ trong học tập?",
+      "generalfeedback": "Phẩm chất chăm chỉ thể hiện ở sự kiên trì, tự giác vượt khó để tìm lời giải cho bài toán thay vì bỏ cuộc hoặc chép bài.",
+      "answers": [
+        {
+          "text": "Kiên trì phân tích giả thiết, vẽ hình chính xác và thử áp dụng tính chất hai góc ở đáy để tìm ra lời giải",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài toán vì thấy phức tạp và chờ giáo viên chữa bài",
+          "fraction": 0
+        },
+        {
+          "text": "Chép luôn đáp án của bạn bên cạnh mà không cần suy nghĩ",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ làm các bài toán dễ và bỏ qua toàn bộ bài tập tam giác cân",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Trong giờ thực hành đo các góc ở đáy của một tam giác cân vẽ trên giấy, bạn Nam đo được hai góc lần lượt là \\(51^\\circ\\) và \\(49^\\circ\\) do sai số dụng cụ. Để thể hiện phẩm chất trung thực, Nam nên chọn hành động nào?",
+      "generalfeedback": "Trung thực trong học tập là ghi nhận đúng số đo thực tế đo được, không gian lận hay tự ý sửa chữa số liệu báo cáo.",
+      "answers": [
+        {
+          "text": "Ghi lại đúng số đo thực tế đo được, sau đó kiểm tra lại thao tác đo hoặc trao đổi với giáo viên về sai số",
+          "fraction": 100
+        },
+        {
+          "text": "Tự ý sửa kết quả trong báo cáo thành \\(50^\\circ\\) và \\(50^\\circ\\) để khớp với lý thuyết",
+          "fraction": 0
+        },
+        {
+          "text": "Chép số đo của bạn khác vào báo cáo của mình và coi như tự mình đo",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua không ghi số đo vào báo cáo",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Khi tự học bài 'Tam giác cân', để tóm tắt và ghi nhớ tốt nhất các khái niệm và tính chất, học sinh nên chủ động thực hiện sơ đồ tổ chức thông tin nào sau đây?",
+      "generalfeedback": "Tự chủ và tự học thể hiện ở việc chủ động hệ thống hóa, tổ chức thông tin kiến thức bằng sơ đồ cấu trúc logic.",
+      "answers": [
+        {
+          "text": "Lập sơ đồ tư duy gồm: Định nghĩa (2 cạnh bằng nhau) \\(\\rightarrow\\) Các yếu tố (cạnh bên, cạnh đáy, góc ở đỉnh, góc ở đáy) \\(\\rightarrow\\) Tính chất (2 góc ở đáy bằng nhau) \\(\\rightarrow\\) Dạng đặc biệt (tam giác đều, tam giác vuông cân)",
+          "fraction": 100
+        },
+        {
+          "text": "Chép lại nguyên văn từng dòng trong sách giáo khoa vào vở mà không phân loại",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ học thuộc lòng các công thức tính số đo góc mà bỏ qua định nghĩa và hình vẽ",
+          "fraction": 0
+        },
+        {
+          "text": "Đợi đến trước ngày kiểm tra mới đọc qua sách giáo khoa một lần",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_GIAOTIEP",
+      "questiontext": "Trong thảo luận nhóm về câu hỏi 'Vì sao tam giác có hai góc bằng nhau lại là tam giác cân?', hành vi nào sau đây thể hiện năng lực giao tiếp và hợp tác hiệu quả?",
+      "generalfeedback": "Giao tiếp và hợp tác đòi hỏi sự lắng nghe, tôn trọng, chủ động trao đổi và phối hợp nhóm để giải quyết nhiệm vụ học tập.",
+      "answers": [
+        {
+          "text": "Lắng nghe ý kiến của các bạn, chủ động trình bày lập luận dựa trên tính chất đối xứng/đường phân giác và thảo luận thống nhất lời giải chung",
+          "fraction": 100
+        },
+        {
+          "text": "Áp đặt ý kiến cá nhân và không cho các bạn khác phát biểu ý kiến",
+          "fraction": 0
+        },
+        {
+          "text": "Thụ động ngồi yên, không đóng góp ý kiến và mặc kệ các bạn trong nhóm",
+          "fraction": 0
+        },
+        {
+          "text": "Ngắt lời khi bạn khác đang phát biểu và chê bai ý kiến của bạn",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Cho tam giác \\(ABC\\) có \\(\\widehat{B} = 70^\\circ\\) và \\(\\widehat{C} = 70^\\circ\\). Lập luận toán học nào sau đây là ĐÚNG để chứng minh \\(ABC\\) là tam giác cân?",
+      "generalfeedback": "Do \\(\\widehat{B} = \\widehat{C} = 70^\\circ\\) nên hai góc ở đáy bằng nhau, suy ra tam giác \\(ABC\\) cân tại đỉnh \\(A\\) (đỉnh đối diện với cạnh đáy \\(BC\\)).",
+      "answers": [
+        {
+          "text": "Vì \\(\\widehat{B} = \\widehat{C} = 70^\\circ\\) nên tam giác \\(ABC\\) có hai góc bằng nhau, suy ra tam giác \\(ABC\\) cân tại đỉnh \\(A\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Vì \\(\\widehat{B} = \\widehat{C} = 70^\\circ\\) nên tam giác \\(ABC\\) cân tại đỉnh \\(B\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Vì \\(\\widehat{A} = 180^\\circ - (70^\\circ + 70^\\circ) = 40^\\circ\\) nên tam giác \\(ABC\\) cân tại đỉnh \\(C\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Vì cả ba góc đều nhọn nên tam giác \\(ABC\\) là tam giác đều",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04",
+      "questiontext": "Để diễn đạt mệnh đề 'Tam giác \\(DEF\\) cân tại \\(D\\)' bằng ngôn ngữ ký hiệu toán học chính xác, học sinh nên viết như thế nào?",
+      "generalfeedback": "Tam giác \\(DEF\\) cân tại \\(D\\) có hai cạnh bên bằng nhau là \\(DE = DF\\) và hai góc ở đáy bằng nhau là \\(\\widehat{E} = \\widehat{F}\\).",
+      "answers": [
+        {
+          "text": "Tam giác \\(DEF\\) có \\(DE = DF\\) (hoặc \\(\\widehat{E} = \\widehat{F}\\))",
+          "fraction": 100
+        },
+        {
+          "text": "Tam giác \\(DEF\\) có \\(DE = EF\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Tam giác \\(DEF\\) có \\(\\widehat{D} = \\widehat{E}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Tam giác \\(DEF\\) có \\(DF = EF\\)",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

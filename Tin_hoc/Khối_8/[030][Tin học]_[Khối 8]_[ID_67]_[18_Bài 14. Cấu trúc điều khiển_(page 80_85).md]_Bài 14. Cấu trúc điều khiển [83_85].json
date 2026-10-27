@@ -1,0 +1,492 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 20,
+    "metadata_used": {
+      "Kịch bản logic của trò chơi Đoán số": 4,
+      "Kĩ thuật kết hợp cấu trúc lặp và cấu trúc rẽ nhánh để kiểm tra điều kiện đoán": 3,
+      "YCCD_TH8_054": 2,
+      "YCCD_TH8_057": 2,
+      "YCCD_TH8_058": 2,
+      "Xây dựng thuật toán cho kịch bản trò chơi đơn giản": 2,
+      "Lập trình hoàn chỉnh trò chơi Đoán số sử dụng biến, rẽ nhánh và vòng lặp": 3,
+      "Chạy thử và tinh chỉnh kịch bản trò chơi": 2
+    },
+    "types_used": {
+      "multichoice": 7,
+      "truefalse": 3,
+      "gapselect": 2,
+      "shortanswer": 4,
+      "ddwtos": 2,
+      "matching": 2
+    },
+    "total": 20
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TH8_054",
+        "reason": "Đo lường khả năng tạo chương trình đơn giản trong môi trường lập trình trực quan Scratch."
+      },
+      {
+        "metadata_code": "YCCD_TH8_057",
+        "reason": "Đo lường khả năng thể hiện cấu trúc rẽ nhánh trong chương trình Scratch."
+      },
+      {
+        "metadata_code": "YCCD_TH8_058",
+        "reason": "Đo lường khả năng thể hiện cấu trúc lặp trong chương trình Scratch."
+      },
+      {
+        "metadata_code": "Kịch bản logic của trò chơi Đoán số",
+        "reason": "Đo lường kiến thức về kịch bản logic của trò chơi Đoán số."
+      },
+      {
+        "metadata_code": "Kĩ thuật kết hợp cấu trúc lặp và cấu trúc rẽ nhánh để kiểm tra điều kiện đoán",
+        "reason": "Đo lường kiến thức về kỹ thuật kết hợp cấu trúc lặp và rẽ nhánh để kiểm tra điều kiện đoán."
+      },
+      {
+        "metadata_code": "Xây dựng thuật toán cho kịch bản trò chơi đơn giản",
+        "reason": "Đo lường kỹ năng xây dựng thuật toán cho kịch bản trò chơi đơn giản."
+      },
+      {
+        "metadata_code": "Lập trình hoàn chỉnh trò chơi Đoán số sử dụng biến, rẽ nhánh và vòng lặp",
+        "reason": "Đo lường kỹ năng lập trình hoàn chỉnh trò chơi Đoán số sử dụng biến, rẽ nhánh và vòng lặp."
+      },
+      {
+        "metadata_code": "Chạy thử và tinh chỉnh kịch bản trò chơi",
+        "reason": "Đo lường kỹ năng chạy thử và tinh chỉnh kịch bản trò chơi."
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Kịch bản logic của trò chơi Đoán số",
+      "questiontext": "Trong trò chơi Đoán số (Tiết 2, Bài 14), biến nào sau đây được tạo ra để lưu trữ giá trị máy tính chọn ngẫu nhiên mà người chơi cần đoán?",
+      "generalfeedback": "Trong Hướng dẫn Bước 1, biến 'số bí mật' được tạo ra để lưu trữ số ngẫu nhiên do máy tính tạo ra (ví dụ lấy ngẫu nhiên từ 1 đến 100).",
+      "answers": [
+        {
+          "text": "số bí mật",
+          "fraction": 100
+        },
+        {
+          "text": "trả lời",
+          "fraction": 0
+        },
+        {
+          "text": "điểm số",
+          "fraction": 0
+        },
+        {
+          "text": "kết quả",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Kịch bản logic của trò chơi Đoán số",
+      "questiontext": "Trong trò chơi Đoán số, biến 'trả lời' là biến có sẵn trong nhóm lệnh 'Cảm biến' của môi trường lập trình Scratch.",
+      "generalfeedback": "Đúng. Theo Hướng dẫn Bước 1 trong SGK, biến 'trả lời' (answer) là biến tích hợp sẵn trong nhóm lệnh 'Cảm biến'.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Kĩ thuật kết hợp cấu trúc lặp và cấu trúc rẽ nhánh để kiểm tra điều kiện đoán",
+      "questiontext": "Để thực hiện kiểm tra điều kiện đoán trong trò chơi Đoán số, khối lệnh lặp [[1]] được kết hợp với khối lệnh rẽ nhánh [[2]] để kiểm tra nếu người chơi đoán chưa đúng thì đưa ra gợi ý.",
+      "generalfeedback": "Trong trò chơi Đoán số, khối lặp 'lặp lại cho đến khi' kết hợp với khối rẽ nhánh 'nếu ... thì ... không thì' để liên tục nhận câu trả lời và so sánh với 'số bí mật'.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "lặp lại cho đến khi"
+        },
+        {
+          "group": 1,
+          "text": "nếu ... thì ... không thì"
+        },
+        {
+          "group": 1,
+          "text": "mãi mãi"
+        },
+        {
+          "group": 1,
+          "text": "lặp lại 10 lần"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TH8_054",
+      "questiontext": "Trong Scratch, khối lệnh 'hỏi ... và chờ' thuộc nhóm lệnh nào?",
+      "generalfeedback": "Khối lệnh 'hỏi ... và chờ' thuộc nhóm lệnh 'Cảm biến' trong môi trường lập trình trực quan Scratch.",
+      "answers": [
+        {
+          "text": "Cảm biến",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TH8_057",
+      "questiontext": "Trong khối lệnh rẽ nhánh của trò chơi Đoán số, nếu điều kiện 'trả lời < số bí mật' là Đúng, nhân vật sẽ đưa ra phản hồi nào?",
+      "generalfeedback": "Nếu 'trả lời < số bí mật' là Đúng, nhân vật sẽ thông báo 'Bạn đoán nhỏ quá!' trong 2 giây.",
+      "answers": [
+        {
+          "text": "Nói 'Bạn đoán nhỏ quá!' trong 2 giây",
+          "fraction": 100
+        },
+        {
+          "text": "Nói 'Bạn đoán lớn quá!' trong 2 giây",
+          "fraction": 0
+        },
+        {
+          "text": "Nói 'Chúc mừng bạn đã đoán đúng!'",
+          "fraction": 0
+        },
+        {
+          "text": "Dừng toàn bộ kịch bản",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TH8_058",
+      "questiontext": "Trong vòng lặp 'lặp lại cho đến khi [[1]]', khi người chơi nhập câu trả lời trùng với số bí mật thì điều kiện trở thành [[2]] và vòng lặp sẽ kết thúc.",
+      "generalfeedback": "Vòng lặp sẽ kiểm tra điều kiện 'trả lời = số bí mật'. Khi điều kiện này Đúng, vòng lặp dừng lại.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "trả lời = số bí mật"
+        },
+        {
+          "group": 1,
+          "text": "Đúng"
+        },
+        {
+          "group": 1,
+          "text": "trả lời < số bí mật"
+        },
+        {
+          "group": 1,
+          "text": "Sai"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "Xây dựng thuật toán cho kịch bản trò chơi đơn giản",
+      "questiontext": "Hãy ghép mỗi bước xử lý trong kịch bản trò chơi Đoán số với khối lệnh Scratch tương ứng:",
+      "generalfeedback": "Mỗi bước xử lý trong kịch bản trò chơi Đoán số tương ứng với một khối lệnh Scratch phù hợp.",
+      "subquestions": [
+        {
+          "question": "Khởi tạo số bí mật ngẫu nhiên từ 1 đến 100",
+          "answer": "đặt số bí mật thành lấy ngẫu nhiên từ 1 đến 100"
+        },
+        {
+          "question": "Lặp lại việc hỏi câu trả lời cho đến khi đoán đúng",
+          "answer": "lặp lại cho đến khi trả lời = số bí mật"
+        },
+        {
+          "question": "Kiểm tra điều kiện câu trả lời nhỏ hơn số bí mật",
+          "answer": "nếu trả lời < số bí mật thì ... không thì ..."
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Lập trình hoàn chỉnh trò chơi Đoán số sử dụng biến, rẽ nhánh và vòng lặp",
+      "imgs": [
+        "_page_3_Picture_8.jpeg"
+      ],
+      "questiontext": "Quan sát Hình 14.5 [img:_page_3_Picture_8.jpeg] về Khung chương trình trò chơi Đoán số. Theo cấu trúc tuần tự, sau khi khối lệnh 'đặt số bí mật thành lấy ngẫu nhiên từ 1 đến 100' thực hiện xong, khối lệnh tiếp theo được thực hiện là gì?",
+      "generalfeedback": "Theo khung chương trình ở Hình 14.5, khối lệnh tiếp theo theo thứ tự từ trên xuống dưới là khối lặp 'lặp lại cho đến khi trả lời = số bí mật'.",
+      "answers": [
+        {
+          "text": "Khối lệnh 'lặp lại cho đến khi trả lời = số bí mật'",
+          "fraction": 100
+        },
+        {
+          "text": "Khối lệnh 'nói Chúc mừng! Bạn đã đoán đúng trong 2 giây'",
+          "fraction": 0
+        },
+        {
+          "text": "Khối lệnh 'hỏi Đoán số (từ 1 đến 100) và chờ'",
+          "fraction": 0
+        },
+        {
+          "text": "Khối lệnh 'nếu trả lời < số bí mật thì'",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "van_dung",
+      "metadata_code": "Chạy thử và tinh chỉnh kịch bản trò chơi",
+      "questiontext": "Khi chạy thử chương trình trò chơi Đoán số hoàn chỉnh (Hình 14.7), nếu người chơi nhập câu trả lời bằng đúng 'số bí mật' ngay ở lần đoán đầu tiên, vòng lặp 'lặp lại cho đến khi trả lời = số bí mật' sẽ thực hiện khối lệnh bên trong nó ít nhất 1 lần rồi mới kết thúc.",
+      "generalfeedback": "Sai. Vòng lặp 'lặp lại cho đến khi <điều kiện>' kiểm tra điều kiện trước. Nếu điều kiện 'trả lời = số bí mật' thỏa mãn ngay trước khi vào vòng lặp, vòng lặp dừng ngay lập tức mà không thực hiện các lệnh bên trong.",
+      "answers": [
+        {
+          "text": "Sai",
+          "fraction": 100
+        },
+        {
+          "text": "Đúng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Kĩ thuật kết hợp cấu trúc lặp và cấu trúc rẽ nhánh để kiểm tra điều kiện đoán",
+      "questiontext": "Trong chương trình hoàn chỉnh của trò chơi Đoán số, khối lệnh rẽ nhánh 'nếu ... thì ... không thì ...' được đặt ở vị trí nào so với vòng lặp 'lặp lại cho đến khi ...'?",
+      "generalfeedback": "Khối lệnh rẽ nhánh được đặt bên trong vòng lặp 'lặp lại cho đến khi ...' để kiểm tra câu trả lời sau mỗi lần người chơi nhập.",
+      "answers": [
+        {
+          "text": "bên trong vòng lặp",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TH8_054",
+      "questiontext": "Trong Scratch, khối lệnh nào sau đây được sử dụng để nhận dữ liệu nhập từ người chơi?",
+      "generalfeedback": "Khối lệnh 'hỏi ... và chờ' trong nhóm Cảm biến được dùng để nhận dữ liệu từ người dùng.",
+      "answers": [
+        {
+          "text": "hỏi ... và chờ",
+          "fraction": 100
+        },
+        {
+          "text": "nói ... trong 2 giây",
+          "fraction": 0
+        },
+        {
+          "text": "đặt ... thành ...",
+          "fraction": 0
+        },
+        {
+          "text": "lặp lại cho đến khi",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Kịch bản logic của trò chơi Đoán số",
+      "questiontext": "Trong kịch bản trò chơi Đoán số, khi người chơi nhập một số nhỏ hơn số bí mật, chương trình sẽ đưa ra phản hồi nào?",
+      "generalfeedback": "Theo kịch bản trò chơi Đoán số, nếu câu trả lời nhỏ hơn số bí mật, chương trình sẽ thông báo 'Bạn đoán nhỏ quá!'.",
+      "answers": [
+        {
+          "text": "Bạn đoán nhỏ quá!",
+          "fraction": 100
+        },
+        {
+          "text": "Bạn đoán lớn quá!",
+          "fraction": 0
+        },
+        {
+          "text": "Chúc mừng bạn!",
+          "fraction": 0
+        },
+        {
+          "text": "Chưa chính xác!",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TH8_057",
+      "questiontext": "Cấu trúc rẽ nhánh dạng thiếu trong Scratch chỉ thực hiện câu lệnh bên trong nếu điều kiện kiểm tra là Đúng, và không làm gì nếu điều kiện là Sai.",
+      "generalfeedback": "Đúng. Cấu trúc rẽ nhánh dạng thiếu (khối lệnh 'nếu ... thì') chỉ thực hiện các lệnh bên trong khi điều kiện thỏa mãn.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Kịch bản logic của trò chơi Đoán số",
+      "questiontext": "Trong trò chơi Đoán số, phép toán ngẫu nhiên lấy giá trị từ 1 đến bao nhiêu?",
+      "generalfeedback": "Theo Hướng dẫn Bước 3, biểu thức lấy ngẫu nhiên có phạm vi từ 1 đến 100.",
+      "answers": [
+        {
+          "text": "100",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "van_dung",
+      "metadata_code": "Lập trình hoàn chỉnh trò chơi Đoán số sử dụng biến, rẽ nhánh và vòng lặp",
+      "imgs": [
+        "_page_4_Figure_6.jpeg"
+      ],
+      "questiontext": "Quan sát Hình 14.7 [img:_page_4_Figure_6.jpeg]. Khối lệnh kiểm tra [[1]] được đặt trong phần điều kiện của khối rẽ nhánh. Nếu điều kiện này đúng, chương trình sẽ nói [[2]].",
+      "generalfeedback": "Điều kiện kiểm tra là 'trả lời < số bí mật', nếu đúng nhân vật sẽ nói 'Bạn đoán nhỏ quá! trong 2 giây'.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "trả lời < số bí mật"
+        },
+        {
+          "group": 1,
+          "text": "Bạn đoán nhỏ quá! trong 2 giây"
+        },
+        {
+          "group": 1,
+          "text": "trả lời = số bí mật"
+        },
+        {
+          "group": 1,
+          "text": "Bạn đoán lớn quá! trong 2 giây"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Kĩ thuật kết hợp cấu trúc lặp và cấu trúc rẽ nhánh để kiểm tra điều kiện đoán",
+      "questiontext": "Tại sao trong trò chơi Đoán số cần kết hợp khối lặp và khối rẽ nhánh?",
+      "generalfeedback": "Vòng lặp giúp duy trì việc hỏi cho đến khi người chơi đoán đúng, còn khối rẽ nhánh giúp kiểm tra từng lần đoán để đưa ra gợi ý phù hợp.",
+      "answers": [
+        {
+          "text": "Để lặp lại việc hỏi và kiểm tra gợi ý cho từng lần đoán cho đến khi đoán đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Để tạo nhiều số bí mật cùng một lúc",
+          "fraction": 0
+        },
+        {
+          "text": "Để dừng chương trình ngay khi vừa bắt đầu",
+          "fraction": 0
+        },
+        {
+          "text": "Để tính tổng số điểm của người chơi",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TH8_058",
+      "questiontext": "Ghép mỗi loại cấu trúc điều khiển với mô tả hoạt động tương ứng trong Scratch:",
+      "generalfeedback": "Mỗi cấu trúc điều khiển có đặc điểm thực hiện lệnh riêng biệt.",
+      "subquestions": [
+        {
+          "question": "Cấu trúc tuần tự",
+          "answer": "Thực hiện lần lượt từng khối lệnh từ trên xuống dưới"
+        },
+        {
+          "question": "Cấu trúc rẽ nhánh",
+          "answer": "Kiểm tra điều kiện để chọn thực hiện khối lệnh tương ứng"
+        },
+        {
+          "question": "Cấu trúc lặp",
+          "answer": "Thực hiện lặp lại khối lệnh khi/cho đến khi điều kiện thỏa mãn"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Chạy thử và tinh chỉnh kịch bản trò chơi",
+      "questiontext": "Nếu muốn thay đổi phạm vi số bí mật trong trò chơi Đoán số thành từ 1 đến 50, em cần chỉnh sửa giá trị ở nhóm lệnh nào?",
+      "generalfeedback": "Em cần chỉnh sửa giá trị trong khối lệnh 'lấy ngẫu nhiên từ 1 đến 50' thuộc nhóm lệnh 'Các phép toán'.",
+      "answers": [
+        {
+          "text": "Các phép toán",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "Xây dựng thuật toán cho kịch bản trò chơi đơn giản",
+      "questiontext": "Để xây dựng thuật toán trò chơi Đoán số, bước 1 là [[1]] số bí mật, bước 2 là [[2]] hỏi và kiểm tra câu trả lời.",
+      "generalfeedback": "Bước 1 khởi tạo giá trị số bí mật, bước 3/bước lặp là lặp lại việc hỏi và kiểm tra.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "khởi tạo"
+        },
+        {
+          "group": 1,
+          "text": "lặp lại"
+        },
+        {
+          "group": 1,
+          "text": "kết thúc"
+        },
+        {
+          "group": 1,
+          "text": "xóa"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Lập trình hoàn chỉnh trò chơi Đoán số sử dụng biến, rẽ nhánh và vòng lặp",
+      "imgs": [
+        "_page_3_Figure_15.jpeg"
+      ],
+      "questiontext": "Quan sát Hình 14.6a [img:_page_3_Figure_15.jpeg]. Biểu thức so sánh 'trả lời = số bí mật' được lắp vào vị trí nào trong khối lệnh lặp?",
+      "generalfeedback": "Biểu thức so sánh 'trả lời = số bí mật' được lắp vào ô điều kiện của khối lặp 'lặp lại cho đến khi ...'.",
+      "answers": [
+        {
+          "text": "Ô điều kiện của khối lặp 'lặp lại cho đến khi'",
+          "fraction": 100
+        },
+        {
+          "text": "Ô điều kiện của khối rẽ nhánh 'nếu ... thì'",
+          "fraction": 0
+        },
+        {
+          "text": "Bên trong khối lệnh 'hỏi và chờ'",
+          "fraction": 0
+        },
+        {
+          "text": "Phần hiển thị của khối lệnh 'nói'",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

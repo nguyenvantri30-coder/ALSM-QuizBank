@@ -1,0 +1,669 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 27,
+    "metadata_used": {
+      "Tổng hợp quy tắc khai căn một tích và khai căn một thương": 5,
+      "YCCD_TOAN9_006": 2,
+      "YCCD_TOAN9_007": 1,
+      "Giải bài tập tổng hợp củng cố kĩ năng thực hiện phép tính nhân và chia căn bậc hai": 6,
+      "YCCD_TOAN9_013": 4,
+      "YCCD_TOAN9_014": 2,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_GQVD_PHATHIEN_C2_01": 2,
+      "SUB_GQVD_DEXUAT_C2_02": 1,
+      "NLT_TOAN_C2_03_04": 1,
+      "NLT_TOAN_C2_03_05": 1
+    },
+    "types_used": {
+      "multichoice": 9,
+      "truefalse": 4,
+      "numerical": 2,
+      "shortanswer": 2,
+      "gapselect": 3,
+      "matching": 3,
+      "ddwtos": 1,
+      "calculated": 1,
+      "calculatedmulti": 1,
+      "calculatedsimple": 1
+    }
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN9_006",
+        "reason": "Thực hiện được phép tính căn bậc hai của một tích dựa trên ví dụ và bài tập SGK"
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_007",
+        "reason": "Thực hiện được phép tính căn bậc hai của một thương dựa trên ví dụ và bài tập SGK"
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_013",
+        "reason": "Thực hiện được phép biến đổi căn thức bậc hai của một tích dựa trên bài tập 3.12, 3.15"
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_014",
+        "reason": "Thực hiện được phép biến đổi căn thức bậc hai của một thương dựa trên bài tập 3.13b"
+      },
+      {
+        "metadata_code": "Tổng hợp quy tắc khai căn một tích và khai căn một thương",
+        "reason": "Tổng hợp quy tắc khai căn một tích, khai căn một thương và biểu thức liên hợp"
+      },
+      {
+        "metadata_code": "Giải bài tập tổng hợp củng cố kĩ năng thực hiện phép tính nhân và chia căn bậc hai",
+        "reason": "Giải bài tập tổng hợp củng cố kĩ năng thực hiện phép tính nhân và chia căn bậc hai"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học Luyện tập chung về biến đổi căn thức bậc hai không có nội dung thực tế hay bối cảnh tự nhiên liên quan đến việc ứng dụng kĩ năng hay công cụ tin học/số."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học là luyện tập biến đổi đại số cơ bản, không có cơ sở tự nhiên để tích hợp các khái niệm hay ứng dụng trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Tổng hợp quy tắc khai căn một tích và khai căn một thương",
+      "questiontext": "Quy tắc khai căn một tích \\(\\sqrt{a \\cdot b} = \\sqrt{a} \\cdot \\sqrt{b}\\) áp dụng với hai số \\(a\\) và \\(b\\) thỏa mãn điều kiện nào sau đây?",
+      "generalfeedback": "Quy tắc khai căn một tích \\(\\sqrt{a \\cdot b} = \\sqrt{a} \\cdot \\sqrt{b}\\) áp dụng với hai số không âm \\(a \\ge 0\\) và \\(b \\ge 0\\).",
+      "answers": [
+        {
+          "text": "\\(a \\ge 0\\) và \\(b \\ge 0\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(a > 0\\) và \\(b < 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a \\le 0\\) và \\(b \\le 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a\\) và \\(b\\) là hai số thực bất kỳ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Tổng hợp quy tắc khai căn một tích và khai căn một thương",
+      "questiontext": "Biểu thức liên hợp của biểu thức \\(\\sqrt{A} + \\sqrt{B}\\) (với \\(A, B \\ge 0\\)) là biểu thức nào sau đây?",
+      "generalfeedback": "Theo chú ý trong SGK, \\(\\sqrt{A} + \\sqrt{B}\\) và \\(\\sqrt{A} - \\sqrt{B}\\) là hai biểu thức liên hợp của nhau.",
+      "answers": [
+        {
+          "text": "\\(\\sqrt{A} - \\sqrt{B}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\sqrt{A} + B\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(A - \\sqrt{B}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-\\sqrt{A} - \\sqrt{B}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_006",
+      "questiontext": "Giá trị của phép tính khai căn một tích \\(\\sqrt{16 \\cdot 25}\\) bằng \\(20\\). Đúng hay Sai?",
+      "generalfeedback": "Ta có \\(\\sqrt{16 \\cdot 25} = \\sqrt{16} \\cdot \\sqrt{25} = 4 \\cdot 5 = 20\\). Do đó khẳng định trên là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_007",
+      "questiontext": "Tính giá trị của biểu thức \\(\\sqrt{\\frac{144}{25}}\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Ta có \\(\\sqrt{\\frac{144}{25}} = \\frac{\\sqrt{144}}{\\sqrt{25}} = \\frac{12}{5} = 2.4\\).",
+      "answers": [
+        {
+          "text": "2.4",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_006",
+      "questiontext": "Tính giá trị của tích \\(\\sqrt{3} \\cdot \\sqrt{12}\\).",
+      "generalfeedback": "Ta có \\(\\sqrt{3} \\cdot \\sqrt{12} = \\sqrt{3 \\cdot 12} = \\sqrt{36} = 6\\).",
+      "answers": [
+        {
+          "text": "6",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Tổng hợp quy tắc khai căn một tích và khai căn một thương",
+      "questiontext": "Cho các biểu thức \\(A, B\\) với \\(B \\ge 0\\). Tích của hai biểu thức liên hợp \\((A + \\sqrt{B})(A - \\sqrt{B})\\) bằng [[1]], còn tích \\((\\sqrt{A} + \\sqrt{B})(\\sqrt{A} - \\sqrt{B})\\) với \\(A, B \\ge 0\\) bằng [[2]].",
+      "generalfeedback": "Theo SGK: \\((A + \\sqrt{B})(A - \\sqrt{B}) = A^2 - B\\) và \\((\\sqrt{A} + \\sqrt{B})(\\sqrt{A} - \\sqrt{B}) = A - B\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(A^2 - B\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(A - B\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(A^2 + B\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(A + B\\)"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Giải bài tập tổng hợp củng cố kĩ năng thực hiện phép tính nhân và chia căn bậc hai",
+      "questiontext": "Hãy ghép mỗi phép tính ở cột bên trái với kết quả tương ứng ở cột bên phải.",
+      "generalfeedback": "Tính toán từng biểu thức: \\((2+\\sqrt{5})(2-\\sqrt{5}) = 4-5 = -1\\); \\((\\sqrt{5}+\\sqrt{2})(\\sqrt{5}-\\sqrt{2}) = 5-2 = 3\\); \\(\\sqrt{(\\sqrt{7}-3)^2} + \\sqrt{(\\sqrt{7}+3)^2} = 3-\\sqrt{7} + \\sqrt{7}+3 = 6\\).",
+      "subquestions": [
+        {
+          "question": "\\((2+\\sqrt{5})(2-\\sqrt{5})\\)",
+          "answer": "-1"
+        },
+        {
+          "question": "\\((\\sqrt{5}+\\sqrt{2})(\\sqrt{5}-\\sqrt{2})\\)",
+          "answer": "3"
+        },
+        {
+          "question": "\\(\\sqrt{(\\sqrt{7}-3)^2} + \\sqrt{(\\sqrt{7}+3)^2}\\)",
+          "answer": "6"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_013",
+      "questiontext": "Khai triển và rút gọn biểu thức \\(P = \\sqrt{3} \\cdot (\\sqrt{192} - \\sqrt{75})\\): Ta có \\(P = \\sqrt{3 \\cdot 192} - \\sqrt{3 \\cdot 75} = \\sqrt{576} - \\sqrt{225} =\\) [[1]] - [[2]] = [[3]].",
+      "generalfeedback": "Ta có \\(\\sqrt{576} = 24\\) và \\(\\sqrt{225} = 15\\). Do đó \\(P = 24 - 15 = 9\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "24"
+        },
+        {
+          "group": 1,
+          "text": "15"
+        },
+        {
+          "group": 1,
+          "text": "9"
+        },
+        {
+          "group": 1,
+          "text": "12"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Giải bài tập tổng hợp củng cố kĩ năng thực hiện phép tính nhân và chia căn bậc hai",
+      "questiontext": "Vận tốc (m/s) của một vật đang bay có khối lượng m kg và động năng {e} J được tính theo công thức v = sqrt(2*{e}/m). Hãy tính vận tốc bay của vật khi động năng là {e} J và khối lượng là m kg.",
+      "generalfeedback": "Thay số vào công thức v = sqrt(2*{e}/{m}) để tìm vận tốc của vật.",
+      "wildcards": [
+        {
+          "name": "m",
+          "min": 2.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "e",
+          "min": 100.0,
+          "max": 900.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "sqrt(2*{e}/{m})",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_014",
+      "questiontext": "Với hai số dương {a} và {b}, công thức tính căn bậc hai của thương {a}/{b} là công thức nào dưới đây?",
+      "generalfeedback": "Theo quy tắc khai căn một thương, với a >= 0 và b > 0 thì sqrt({a}/{b}) = sqrt({a})/sqrt({b}).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 50.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 1.0,
+          "max": 50.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "sqrt({a})/sqrt({b})",
+          "fraction": 100
+        },
+        {
+          "text": "sqrt({a})*sqrt({b})",
+          "fraction": 0
+        },
+        {
+          "text": "sqrt({a}+{b})",
+          "fraction": 0
+        },
+        {
+          "text": "sqrt({a}-{b})",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_013",
+      "questiontext": "Rút gọn biểu thức \\(A = \\sqrt{(1 - \\sqrt{3})^2} - \\sqrt{3}\\) ta được kết quả bằng bao nhiêu?",
+      "generalfeedback": "Ta có \\(A = |1 - \\sqrt{3}| - \\sqrt{3} = (\\sqrt{3} - 1) - \\sqrt{3} = -1\\) (vì \\(1 < \\sqrt{3}\\)).",
+      "answers": [
+        {
+          "text": "-1",
+          "fraction": 100
+        },
+        {
+          "text": "1",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2\\sqrt{3} - 1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-2\\sqrt{3} + 1\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Giải bài tập tổng hợp củng cố kĩ năng thực hiện phép tính nhân và chia căn bậc hai",
+      "questiontext": "Đẳng thức \\((\\sqrt{3} + \\sqrt{2})^2 = 5 + 2\\sqrt{6}\\) là đúng hay sai?",
+      "generalfeedback": "Khai triển hằng đẳng thức bình phương của một tổng: \\((\\sqrt{3} + \\sqrt{2})^2 = (\\sqrt{3})^2 + 2\\sqrt{3}\\cdot\\sqrt{2} + (\\sqrt{2})^2 = 3 + 2\\sqrt{6} + 2 = 5 + 2\\sqrt{6}\\). Do đó đẳng thức là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Giải bài tập tổng hợp củng cố kĩ năng thực hiện phép tính nhân và chia căn bậc hai",
+      "questiontext": "Tính vận tốc bay \\(v\\) (m/s) của một vật có khối lượng \\(m = 2,5\\) kg và động năng \\(E = 281,25\\) J theo công thức \\(v = \\sqrt{\\frac{2E}{m}}\\).",
+      "generalfeedback": "Thay \\(E = 281,25\\) và \\(m = 2,5\\) vào công thức: \\(v = \\sqrt{\\frac{2 \\cdot 281,25}{2,5}} = \\sqrt{\\frac{562,5}{2,5}} = \\sqrt{225} = 15\\) (m/s).",
+      "answers": [
+        {
+          "text": "15",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_014",
+      "questiontext": "Tính giá trị của biểu thức \\(B = \\frac{-3\\sqrt{18} + 5\\sqrt{50} - \\sqrt{128}}{7\\sqrt{2}}\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Biến đổi các căn thức: \\(\\sqrt{18} = 3\\sqrt{2}\\), \\(\\sqrt{50} = 5\\sqrt{2}\\), \\(\\sqrt{128} = 8\\sqrt{2}\\). Tử số là \\(-3(3\\sqrt{2}) + 5(5\\sqrt{2}) - 8\\sqrt{2} = (-9 + 25 - 8)\\sqrt{2} = 8\\sqrt{2}\\). Vậy \\(B = \\frac{8\\sqrt{2}}{7\\sqrt{2}} = \\frac{8}{7} \\approx 1.14\\).",
+      "answers": [
+        {
+          "text": "1.14",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_013",
+      "questiontext": "Rút gọn biểu thức \\(\\sqrt{x^2 - 4x + 4}\\) với \\(x \\ge 2\\): Ta có \\(\\sqrt{x^2 - 4x + 4} = \\sqrt{(x - 2)^2} = |x - 2|\\). Vì \\(x \\ge 2\\) nên \\(|x - 2|\\) bằng [[1]]. Khi đó biểu thức \\(\\sqrt{x - \\sqrt{x^2 - 4x + 4}}\\) trở thành \\(\\sqrt{x - (x - 2)} = \\sqrt{2}\\), có giá trị [[2]].",
+      "generalfeedback": "Với \\(x \\ge 2\\) thì \\(x - 2 \\ge 0\\) nên \\(|x - 2| = x - 2\\). Giá trị biểu thức \\(\\sqrt{2}\\) không phụ thuộc vào \\(x\\) (không đổi).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "x - 2"
+        },
+        {
+          "group": 1,
+          "text": "không đổi"
+        },
+        {
+          "group": 1,
+          "text": "2 - x"
+        },
+        {
+          "group": 1,
+          "text": "thay đổi"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Tổng hợp quy tắc khai căn một tích và khai căn một thương",
+      "questiontext": "Hãy ghép mỗi biểu thức ở cột bên trái với biểu thức liên hợp tương ứng ở cột bên phải.",
+      "generalfeedback": "Biểu thức liên hợp của \\(A + \\sqrt{B}\\) là \\(A - \\sqrt{B}\\); của \\(\\sqrt{A} + \\sqrt{B}\\) là \\(\\sqrt{A} - \\sqrt{B}\\); của \\(3 - \\sqrt{2}\\) là \\(3 + \\sqrt{2}\\).",
+      "subquestions": [
+        {
+          "question": "\\(A + \\sqrt{B}\\)",
+          "answer": "\\(A - \\sqrt{B}\\)"
+        },
+        {
+          "question": "\\(\\sqrt{A} + \\sqrt{B}\\)",
+          "answer": "\\(\\sqrt{A} - \\sqrt{B}\\)"
+        },
+        {
+          "question": "\\(3 - \\sqrt{2}\\)",
+          "answer": "\\(3 + \\sqrt{2}\\)"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Giải bài tập tổng hợp củng cố kĩ năng thực hiện phép tính nhân và chia căn bậc hai",
+      "questiontext": "Cho biểu thức \\(P = \\frac{x\\sqrt{x}+1}{x-\\sqrt{x}+1}-1\\) với \\(x \\ge 0\\). Sau khi rút gọn ta được \\(P = \\sqrt{x}\\). Hãy tính giá trị của \\(P\\) tại {x}.",
+      "generalfeedback": "Tại {x}, giá trị của P = sqrt({x}).",
+      "wildcards": [
+        {
+          "name": "x",
+          "min": 1.0,
+          "max": 100.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "sqrt({x})",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Tổng hợp quy tắc khai căn một tích và khai căn một thương",
+      "questiontext": "Điều kiện xác định của căn thức \\(\\sqrt{A}\\) là gì?",
+      "generalfeedback": "Căn thức \\(\\sqrt{A}\\) xác định (hay có nghĩa) khi và chỉ khi biểu thức dưới dấu căn không âm, tức là \\(A \\ge 0\\).",
+      "answers": [
+        {
+          "text": "\\(A \\ge 0\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(A > 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(A \\le 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(A \\ne 0\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_013",
+      "questiontext": "Căn thức \\(\\sqrt{x^2 - 4x + 4}\\) xác định với mọi giá trị của \\(x \\in \\mathbb{R}\\). Đúng hay Sai?",
+      "generalfeedback": "Ta có \\(x^2 - 4x + 4 = (x - 2)^2 \\ge 0\\) với mọi \\(x \\in \\mathbb{R}\\). Do đó căn thức xác định với mọi giá trị của \\(x\\). Khẳng định trên là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Giải bài tập tổng hợp củng cố kĩ năng thực hiện phép tính nhân và chia căn bậc hai",
+      "questiontext": "Rút gọn biểu thức \\(M = \\sqrt{(\\sqrt{3} - \\sqrt{2})^2} + \\sqrt{(1 - \\sqrt{2})^2}\\) ta được kết quả là:",
+      "generalfeedback": "Ta có \\(\\sqrt{(\\sqrt{3}-\\sqrt{2})^2} = |\\sqrt{3}-\\sqrt{2}| = \\sqrt{3}-\\sqrt{2}\\) (vì \\(\\sqrt{3} > \\sqrt{2}\\)) và \\(\\sqrt{(1-\\sqrt{2})^2} = |1-\\sqrt{2}| = \\sqrt{2}-1\\) (vì \\(1 < \\sqrt{2}\\)). Do đó \\(M = (\\sqrt{3}-\\sqrt{2}) + (\\sqrt{2}-1) = \\sqrt{3} - 1\\).",
+      "answers": [
+        {
+          "text": "\\(\\sqrt{3} - 1\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\sqrt{3} + 1 - 2\\sqrt{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\sqrt{3} + 1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(1 - \\sqrt{3}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ học Toán, khi gặp bài tập rút gọn biểu thức căn thức phức tạp \\(\\sqrt{x^2 - 4x + 4}\\), bạn An cảm thấy lúng túng và định bỏ qua. Bạn Bình khuyên An nên bình tĩnh xem lại hằng đẳng thức \\(\\sqrt{A^2} = |A|\\) để từng bước tháo gỡ. Hành động nào sau đây của An thể hiện thái độ luôn cố gắng vươn lên đạt kết quả tốt trong học tập?",
+      "generalfeedback": "Thái độ cố gắng vươn lên trong học tập thể hiện qua việc kiên trì, không nản lòng trước bài toán khó, sẵn sàng tiếp thu góp ý chân thành và tự mình nỗ lực xem lại lý thuyết để tự giải quyết bài tập.",
+      "answers": [
+        {
+          "text": "Lắng nghe lời khuyên, chủ động ôn lại hằng đẳng thức \\(\\sqrt{A^2} = |A|\\) và kiên trì thực hiện từng bước để hoàn thành bài tập.",
+          "fraction": 100
+        },
+        {
+          "text": "Đóng sách vở lại và chờ đến khi thầy cô chữa bài để chép đáp án.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép ngay bài làm của bạn Bình để nộp cho kịp giờ mà không cần hiểu cách làm.",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua bài tập này và chuyển sang làm việc riêng trong giờ học.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi gặp một bài toán tính căn thức liên hợp khó trong tiết Luyện tập chung, học sinh kiên trì thử nhiều phương pháp biến đổi khác nhau để tìm ra lời giải chính xác là thể hiện tinh thần luôn cố gắng vươn lên trong học tập. Khẳng định này Đúng hay Sai?",
+      "generalfeedback": "Nỗ lực thử nghiệm các phương pháp học tập và không nản chí trước bài tập khó là biểu hiện rõ nét của phẩm chất luôn cố gắng vươn lên đạt kết quả tốt trong học tập.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GQVD_PHATHIEN_C2_01",
+      "questiontext": "Khi giải bài toán rút gọn biểu thức \\(A = \\sqrt{(1 - \\sqrt{3})^2} - \\sqrt{3}\\), bạn Nam trình bày lời giải như sau:\nBước 1: \\(A = (1 - \\sqrt{3}) - \\sqrt{3}\\)\nBước 2: \\(A = 1 - 2\\sqrt{3}\\).\nEm hãy phân tích tình huống học tập trên và chỉ ra nhận xét đúng nhất về lời giải của Nam.",
+      "generalfeedback": "Vì \\(1 < \\sqrt{3}\\) nên \\(1 - \\sqrt{3} < 0\\). Do đó \\(\\sqrt{(1 - \\sqrt{3})^2} = |1 - \\sqrt{3}| = \\sqrt{3} - 1\\). Bạn Nam đã quên dùng dấu giá trị tuyệt đối ở Bước 1 nên dẫn đến kết quả sai.",
+      "answers": [
+        {
+          "text": "Nam mắc lỗi ở Bước 1 do quên áp dụng quy tắc \\(\\sqrt{A^2} = |A|\\); vì \\(1 < \\sqrt{3}\\) nên \\(\\sqrt{(1-\\sqrt{3})^2} = \\sqrt{3}-1\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Nam mắc lỗi ở Bước 2 vì thực hiện sai phép trừ \\((1-\\sqrt{3}) - \\sqrt{3}\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Nam đã giải đúng hoàn toàn, kết quả \\(1 - 2\\sqrt{3}\\) là chính xác.",
+          "fraction": 0
+        },
+        {
+          "text": "Nam mắc lỗi ở Bước 1 vì không thể khai căn biểu thức chứa dấu trừ.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GQVD_PHATHIEN_C2_01",
+      "questiontext": "Trong tình huống thảo luận nhóm về phép tính \\(P = \\sqrt{3}(\\sqrt{192} - \\sqrt{75})\\), bạn Hoa phân tích: 'Nên nhân phân phối \\(\\sqrt{3}\\) vào trong ngoặc trước'. Bạn Minh phân tích: 'Nên rút gọn các căn thức \\(\\sqrt{192}\\) và \\(\\sqrt{75}\\) trước'. Phân tích của Hoa dựa trên quy tắc [[1]], còn phân tích của Minh dựa trên quy tắc [[2]]. Cả hai cách đều dẫn đến kết quả đúng.",
+      "generalfeedback": "Nhân phân phối \\(\\sqrt{3}\\) dựa trên quy tắc nhân căn bậc hai (khai căn một tích), còn rút gọn từng căn thức trước dựa trên việc đưa thừa số ra ngoài dấu căn.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "nhân căn bậc hai"
+        },
+        {
+          "group": 1,
+          "text": "đưa thừa số ra ngoài dấu căn"
+        },
+        {
+          "group": 1,
+          "text": "khai căn một thương"
+        },
+        {
+          "group": 1,
+          "text": "trục căn thức ở mẫu"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Để tính nhanh giá trị của biểu thức \\(P = (\\sqrt{5} + \\sqrt{2})(\\sqrt{5} - \\sqrt{2})\\), hai bạn trong lớp đề xuất hai phương án giải quyết bài toán. Bạn nào đề xuất giải pháp tối ưu và chính xác nhất?",
+      "generalfeedback": "Giải pháp áp dụng hằng đẳng thức hiệu hai bình phương \\((\\sqrt{A}+\\sqrt{B})(\\sqrt{A}-\\sqrt{B}) = A - B\\) giúp tính nhẩm ngay \\(5 - 2 = 3\\) một cách ngắn gọn, tối ưu nhất.",
+      "answers": [
+        {
+          "text": "Sử dụng hằng đẳng thức hiệu hai bình phương \\((\\sqrt{A}+\\sqrt{B})(\\sqrt{A}-\\sqrt{B}) = A - B\\) để tính ngay \\(5 - 2 = 3\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Nhân lần lượt từng số hạng của hai ngoặc với nhau rồi khai căn từng kết quả.",
+          "fraction": 0
+        },
+        {
+          "text": "Dùng máy tính cầm tay bấm trực tiếp mà không cần ghi các bước biến đổi trung gian.",
+          "fraction": 0
+        },
+        {
+          "text": "Đặt ẩn phụ \\(t = \\sqrt{5}\\) rồi biến đổi thành phương trình bậc hai.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_04",
+      "questiontext": "Vận tốc bay \\(v\\) (m/s) của một vật được cho bởi công thức \\(v = \\sqrt{\\frac{2E}{m}}\\), trong đó \\(E\\) là động năng (J) và \\(m\\) là khối lượng (kg). Khi biết vật có khối lượng \\(m = 2,5\\) kg và động năng \\(E = 281,25\\) J, kiến thức toán học nào được sử dụng trực tiếp để giải quyết bài toán tính vận tốc?",
+      "generalfeedback": "Bài toán đòi hỏi thay số vào biểu thức \\(\\frac{2E}{m}\\) để tính \\(\\frac{562,5}{2,5} = 225\\), sau đó áp dụng kiến thức phép tính căn bậc hai của một số để tìm \\(v = \\sqrt{225} = 15\\) m/s.",
+      "answers": [
+        {
+          "text": "Thực hiện phép chia trong căn rồi tính căn bậc hai của số thu được.",
+          "fraction": 100
+        },
+        {
+          "text": "Sử dụng quy tắc cộng hai căn bậc hai đồng dạng.",
+          "fraction": 0
+        },
+        {
+          "text": "Áp dụng hằng đẳng thức lập phương của một tổng.",
+          "fraction": 0
+        },
+        {
+          "text": "Giải hệ phương trình bậc nhất hai ẩn.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Hãy ghép mỗi bài toán rút gọn căn thức ở cột bên trái với kĩ năng biến đổi toán học tương thích cần sử dụng ở cột bên phải.",
+      "generalfeedback": "Mỗi dạng bài đòi hỏi kĩ năng toán học đặc trưng: rút gọn căn bậc hai của bình phương cần dùng hằng đẳng thức \\(\\sqrt{A^2}=|A|\\); nhân hai căn thức cần dùng quy tắc khai căn một tích; tích biểu thức liên hợp cần dùng hằng đẳng thức hiệu hai bình phương.",
+      "subquestions": [
+        {
+          "question": "Rút gọn \\(\\sqrt{(\\sqrt{3}-\\sqrt{2})^2}\\)",
+          "answer": "Sử dụng hằng đẳng thức \\(\\sqrt{A^2} = |A|\\)"
+        },
+        {
+          "question": "Tính \\(\\sqrt{3} \\cdot \\sqrt{12}\\)",
+          "answer": "Áp dụng quy tắc nhân hai căn bậc hai"
+        },
+        {
+          "question": "Tính \\((2+\\sqrt{5})(2-\\sqrt{5})\\)",
+          "answer": "Áp dụng hằng đẳng thức hiệu hai bình phương"
+        }
+      ]
+    }
+  ]
+}

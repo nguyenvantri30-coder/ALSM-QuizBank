@@ -1,0 +1,416 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 15,
+    "metadata_used": {
+      "Khái niệm đa thức thu gọn": 3,
+      "Nhận biết đa thức đã thu gọn": 2,
+      "Khái niệm Bậc của đa thức": 2,
+      "Xác định bậc của đa thức nhiều biến": 6,
+      "Thực hiện thu gọn đa thức nhiều biến": 5,
+      "YCCD_TOAN8_005": 2,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_GQVD_PHATHIEN_C2_01": 1,
+      "NLT_TOAN_C2_01_01": 1,
+      "NLT_TOAN_C2_03_05": 2
+    },
+    "types_used": {
+      "multichoice": 10,
+      "truefalse": 2,
+      "shortanswer": 1,
+      "matching": 1,
+      "numerical": 1
+    },
+    "total": 15
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN8_005",
+        "reason": "Thực hiện được việc thu gọn đa thức."
+      },
+      {
+        "metadata_code": "Khái niệm đa thức thu gọn",
+        "reason": "Khái niệm đa thức thu gọn"
+      },
+      {
+        "metadata_code": "Khái niệm Bậc của đa thức",
+        "reason": "Khái niệm Bậc của đa thức"
+      },
+      {
+        "metadata_code": "Nhận biết đa thức đã thu gọn",
+        "reason": "Nhận biết đa thức đã thu gọn"
+      },
+      {
+        "metadata_code": "Thực hiện thu gọn đa thức nhiều biến",
+        "reason": "Thực hiện thu gọn đa thức nhiều biến"
+      },
+      {
+        "metadata_code": "Xác định bậc của đa thức nhiều biến",
+        "reason": "Xác định bậc của đa thức nhiều biến"
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Luôn cố gắng vươn lên đạt kết quả tốt trong học tập."
+      },
+      {
+        "metadata_code": "SUB_GQVD_PHATHIEN_C2_01",
+        "reason": "Phân tích được tình huống trong học tập"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_01",
+        "reason": "Thực hiện được các thao tác tư duy."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_05",
+        "reason": "Sử dụng được các kĩ năng toán học tương thích để giải quyết vấn đề."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Nội dung học về Đa thức thu gọn thuộc phạm vi Đại số lý thuyết, không tích hợp trực tiếp hoạt động thực hành công cụ/phần mềm tin học."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Bài học không chứa bối cảnh ứng dụng hoặc tương tác với các hệ thống trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm đa thức thu gọn",
+      "questiontext": "Thế nào là một đa thức thu gọn?",
+      "generalfeedback": "Đa thức thu gọn là đa thức không có hai hạng tử nào đồng dạng.",
+      "answers": [
+        {
+          "text": "Là đa thức không có hai hạng tử nào đồng dạng.",
+          "fraction": 100
+        },
+        {
+          "text": "Là đa thức chỉ có duy nhất một hạng tử.",
+          "fraction": 0
+        },
+        {
+          "text": "Là đa thức có tất cả các hệ số đều bằng 1.",
+          "fraction": 0
+        },
+        {
+          "text": "Là đa thức không chứa biến ở mẫu thức.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết đa thức đã thu gọn",
+      "questiontext": "Đa thức \\(A = x^3 - 3x^2y + 3xy^2 - y^3 + xy - 1\\) là một đa thức thu gọn.",
+      "generalfeedback": "Đa thức \\(A\\) không có hai hạng tử nào đồng dạng nên là đa thức thu gọn.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết đa thức đã thu gọn",
+      "questiontext": "Trong các đa thức sau, đa thức nào chưa là đa thức thu gọn?",
+      "generalfeedback": "Đa thức \\(B = 2x^2 - 3xy + x^2 - 3y^2 + 5xy\\) chứa các hạng tử đồng dạng \\(2x^2\\) và \\(x^2\\), \\(-3xy\\) và \\(5xy\\) nên chưa thu gọn.",
+      "answers": [
+        {
+          "text": "\\(B = 2x^2 - 3xy + x^2 - 3y^2 + 5xy\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(Q = 5x^2 - 7xy + 2,5y^2 + 2x - 8,3y + 1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(M = 4x^2y + 4xy^2 - 5xy + 2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(A = x^3 - 3x^2y + 3xy^2 - y^3\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm Bậc của đa thức",
+      "questiontext": "Bậc của một đa thức là bậc của hạng tử nào trong dạng thu gọn của đa thức đó?",
+      "generalfeedback": "Bậc của một đa thức là bậc của hạng tử có bậc cao nhất trong dạng thu gọn của đa thức đó.",
+      "answers": [
+        {
+          "text": "bậc cao nhất",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Xác định bậc của đa thức nhiều biến",
+      "questiontext": "Bậc của đa thức \\(Q = 5x^2 - 7xy + 2,5y^2 + 2x - 8,3y + 1\\) là bao nhiêu?",
+      "generalfeedback": "Các hạng tử bậc cao nhất của \\(Q\\) là \\(5x^2, -7xy, 2,5y^2\\) đều có bậc là 2. Vậy bậc của \\(Q\\) là 2.",
+      "answers": [
+        {
+          "text": "2",
+          "fraction": 100
+        },
+        {
+          "text": "1",
+          "fraction": 0
+        },
+        {
+          "text": "3",
+          "fraction": 0
+        },
+        {
+          "text": "5",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Xác định bậc của đa thức nhiều biến",
+      "questiontext": "Hãy ghép mỗi đa thức thu gọn ở cột bên trái với bậc tương ứng của nó ở cột bên phải:",
+      "generalfeedback": "Bậc của đa thức là bậc của hạng tử có bậc cao nhất.",
+      "subquestions": [
+        {
+          "question": "\\(x^2y - 5xy + 2\\)",
+          "answer": "3"
+        },
+        {
+          "question": "\\(4x^5 - 2x^3y + 1\\)",
+          "answer": "5"
+        },
+        {
+          "question": "\\(3x^2 + 2xy - 3y^2\\)",
+          "answer": "2"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_005",
+      "questiontext": "Thu gọn đa thức \\(M = \\frac{1}{3}x^2y + xy^2 - xy + \\frac{1}{2}xy^2 - 5xy - \\frac{1}{3}x^2y\\) rồi tính giá trị của \\(M\\) tại \\(x = 0,5\\) và \\(y = 1\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Thu gọn \\(M = 1,5xy^2 - 6xy\\). Thay \\(x = 0,5; y = 1\\) vào \\(M\\) ta được \\(M = 1,5 \\cdot 0,5 \\cdot 1^2 - 6 \\cdot 0,5 \\cdot 1 = 0,75 - 3 = -2,25\\).",
+      "answers": [
+        {
+          "text": "-2.25",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện thu gọn đa thức nhiều biến",
+      "questiontext": "Thu gọn đa thức \\(M = x^2y - 5xy + 7xy^2 + 3x^2y + xy^2 - 4xy^2 + 2\\) ta được kết quả là:",
+      "generalfeedback": "\\(M = (x^2y + 3x^2y) + (7xy^2 + xy^2 - 4xy^2) - 5xy + 2 = 4x^2y + 4xy^2 - 5xy + 2\\).",
+      "answers": [
+        {
+          "text": "\\(4x^2y + 4xy^2 - 5xy + 2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(3x^2y + 4xy^2 - 5xy + 2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(4x^2y + 3xy^2 - 5xy + 2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(4x^2y + 4xy^2 + 5xy + 2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Xác định bậc của đa thức nhiều biến",
+      "questiontext": "Cho đa thức \\(P = 3x^4 + \\frac{1}{3}xyz - 3x^4 - \\frac{4}{3}xyz + 2x^2y - 6z\\). Bậc của đa thức \\(P\\) là:",
+      "generalfeedback": "Thu gọn \\(P = -xyz + 2x^2y - 6z\\). Các hạng tử \\(-xyz\\) và \\(2x^2y\\) đều có bậc 3. Vậy bậc của đa thức \\(P\\) là 3.",
+      "answers": [
+        {
+          "text": "3",
+          "fraction": 100
+        },
+        {
+          "text": "4",
+          "fraction": 0
+        },
+        {
+          "text": "2",
+          "fraction": 0
+        },
+        {
+          "text": "1",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ học về thu gọn đa thức \\(B = 2x^2 - 3xy + x^2 - 3y^2 + 5xy\\), bạn Nam gặp khó khăn khi nhóm các hạng tử đồng dạng và có ý định chép bài của bạn bên cạnh để nộp cho thầy cô. Hành vi nào sau đây giúp bạn Nam thể hiện sự cố gắng vươn lên đạt kết quả tốt trong học tập?",
+      "generalfeedback": "Để thể hiện sự nỗ lực vươn lên, học sinh cần tự giác học hỏi, kiên trì tự suy nghĩ giải quyết khó khăn thay vì gian lận hoặc trông chờ vào người khác.",
+      "answers": [
+        {
+          "text": "Tự xem lại định nghĩa hạng tử đồng dạng để nhóm \\(2x^2 + x^2\\) và \\(-3xy + 5xy\\), sau đó tự hoàn thành bài tập.",
+          "fraction": 100
+        },
+        {
+          "text": "Nhanh chóng chép nguyên văn lời giải của bạn để kịp giờ thu bài.",
+          "fraction": 0
+        },
+        {
+          "text": "Gấp vở lại không làm nữa vì thấy việc thu gọn đa thức quá phức tạp.",
+          "fraction": 0
+        },
+        {
+          "text": "Nhờ bạn chép hộ bài vào vở của mình để có đủ bài nộp.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi giải bài tập tìm bậc của đa thức chưa thu gọn, bạn An đã quên không thu gọn trước nên làm sai. Bạn An quyết định chủ động tìm lại các bài tập tương tự để làm lại cho thành thạo. Việc làm của bạn An thể hiện tinh thần luôn cố gắng vươn lên trong học tập.",
+      "generalfeedback": "Đúng. Việc chủ động nhận ra lỗi sai và kiên trì làm lại bài tập để rút kinh nghiệm là biểu hiện rõ nét của tinh thần vượt khó, nỗ lực vươn lên trong học tập.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GQVD_PHATHIEN_C2_01",
+      "questiontext": "Trong buổi thảo luận nhóm về phương pháp thu gọn đa thức nhiều biến \\(M = x^2y - 5xy + 7xy^2 + 3x^2y + xy^2 - 4xy^2 + 2\\), các bước thực hiện bị sắp xếp xáo trộn như sau:\n(1) Thực hiện cộng, trừ các hệ số trong từng nhóm hạng tử đồng dạng.\n(2) Nhóm các hạng tử đồng dạng lại với nhau bằng dấu ngoặc.\n(3) Tìm và xác định các nhóm hạng tử đồng dạng trong đa thức.\nTrình tự phân tích logic giúp nhóm trình trình bày bài giải một cách khoa học nhất là:",
+      "generalfeedback": "Để thu gọn đa thức một cách khoa học, quy trình phân tích logic gồm: (3) Nhận diện các nhóm hạng tử đồng dạng -> (2) Nhóm chúng lại -> (1) Cộng trừ hệ số.",
+      "answers": [
+        {
+          "text": "(3) → (2) → (1)",
+          "fraction": 100
+        },
+        {
+          "text": "(1) → (2) → (3)",
+          "fraction": 0
+        },
+        {
+          "text": "(2) → (3) → (1)",
+          "fraction": 0
+        },
+        {
+          "text": "(3) → (1) → (2)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Cho đa thức chưa thu gọn \\(P = 3x^4 + \\frac{1}{3}xyz - 3x^4 - \\frac{4}{3}xyz + 2x^2y - 6z\\). Bạn Hoa khẳng định: 'Đa thức \\(P\\) có bậc bằng 4 vì chứa hạng tử \\(3x^4\\) có số mũ lớn nhất là 4'. Nhận xét nào sau đây phân tích đúng lập luận của bạn Hoa?",
+      "generalfeedback": "Lập luận của bạn Hoa sai vì muốn tìm bậc của đa thức, trước hết phải thu gọn đa thức đó. Sau khi thu gọn, hai hạng tử \\(3x^4\\) và \\(-3x^4\\) triệt tiêu nhau: \\(P = -xyz + 2x^2y - 6z\\), nên bậc thực sự của \\(P\\) là 3.",
+      "answers": [
+        {
+          "text": "Lập luận sai, vì chưa thu gọn đa thức trước khi tìm bậc; sau khi thu gọn thì hạng tử bậc 4 bị triệt tiêu và bậc của \\(P\\) là 3.",
+          "fraction": 100
+        },
+        {
+          "text": "Lập luận đúng, vì bậc của đa thức luôn được xác định bởi hạng tử có số mũ lớn nhất ban đầu.",
+          "fraction": 0
+        },
+        {
+          "text": "Lập luận sai, vì bậc của đa thức \\(P\\) phải là 1 do hạng tử \\(-6z\\) có bậc bé nhất.",
+          "fraction": 0
+        },
+        {
+          "text": "Lập luận đúng, vì hạng tử \\(3x^4\\) có hệ số bằng 3 khác 0.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Một mảng sân vườn được ghép bởi 3 thảm cỏ hình chữ nhật có diện tích lần lượt là \\(A = 2x^2y\\) \\((m^2)\\), \\(B = 5xy^2\\) \\((m^2)\\) và \\(C = 3x^2y - 2xy^2\\) \\((m^2)\\). Hãy sử dụng kĩ năng thu gọn đa thức để xác định biểu thức đại số biểu thị tổng diện tích của toàn bộ mảng sân vườn đó.",
+      "generalfeedback": "Tổng diện tích là \\(S = A + B + C = 2x^2y + 5xy^2 + 3x^2y - 2xy^2 = (2x^2y + 3x^2y) + (5xy^2 - 2xy^2) = 5x^2y + 3xy^2\\) \\((m^2)\\).",
+      "answers": [
+        {
+          "text": "\\(5x^2y + 3xy^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(5x^2y + 7xy^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(6x^2y + 3xy^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(5x^4y^2 + 3x^2y^4\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Cho hình vẽ [img:_page_0_Picture_14.jpeg] biểu thị một tam giác vuông có hai cạnh góc vuông độ dài \\(x\\) và \\(y\\), cùng hai hình vuông dựng trên hai cạnh góc vuông đó. Sử dụng kĩ năng toán học, hãy chọn biểu thức thu gọn biểu thị tổng diện tích của toàn bộ hình trên.",
+      "generalfeedback": "Diện tích tam giác vuông là \\(\\frac{1}{2}xy\\). Diện tích hai hình vuông lần lượt là \\(x^2\\) và \\(y^2\\). Tổng diện tích toàn bộ hình là \\(x^2 + y^2 + \\frac{1}{2}xy\\).",
+      "imgs": [
+        "_page_0_Picture_14.jpeg"
+      ],
+      "answers": [
+        {
+          "text": "\\(x^2 + y^2 + \\frac{1}{2}xy\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x^2 + y^2 + xy\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2x + 2y + \\frac{1}{2}xy\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x^2 + y^2 + 2xy\\)",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,659 @@
+{
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm ước chung",
+      "questiontext": "Ước chung của hai hay nhiều số là gì?",
+      "generalfeedback": "Theo SGK, ước chung của hai hay nhiều số là ước của tất cả các số đó.",
+      "answers": [
+        {
+          "text": "Ước của tất cả các số đó",
+          "fraction": 100
+        },
+        {
+          "text": "Bội của tất cả các số đó",
+          "fraction": 0
+        },
+        {
+          "text": "Số lớn nhất trong các ước của các số đó",
+          "fraction": 0
+        },
+        {
+          "text": "Số nhỏ nhất khác 0 trong các bội của các số đó",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm ước chung lớn nhất (ƯCLN)",
+      "questiontext": "Khẳng định sau đây Đúng hay Sai: \"Ước chung lớn nhất của hai hay nhiều số là số lớn nhất trong tập hợp các ước chung của các số đó.\"",
+      "generalfeedback": "Đúng. Theo định nghĩa SGK, ước chung lớn nhất của hai hay nhiều số là số lớn nhất trong tập hợp các ước chung của các số đó.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Kí hiệu ƯC(a, b) và ƯCLN(a, b)",
+      "questiontext": "Hãy ghép kí hiệu hoặc khái niệm ở cột bên trái với ý nghĩa tương ứng ở cột bên phải.",
+      "generalfeedback": "Kí hiệu \\(\\text{ƯC}(a, b)\\) chỉ tập hợp các ước chung của \\(a\\) và \\(b\\); \\(\\text{ƯCLN}(a, b)\\) chỉ ước chung lớn nhất của \\(a\\) và \\(b\\); \\(\\text{Ư}(a)\\) chỉ tập hợp các ước của \\(a\\).",
+      "subquestions": [
+        {
+          "question": "Kí hiệu \\(\\text{ƯC}(a, b)\\)",
+          "answer": "Tập hợp các ước chung của a và b"
+        },
+        {
+          "question": "Kí hiệu \\(\\text{ƯCLN}(a, b)\\)",
+          "answer": "Ước chung lớn nhất của a và b"
+        },
+        {
+          "question": "Kí hiệu \\(\\text{Ư}(a)\\)",
+          "answer": "Tập hợp các ước của a"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm tập hợp các ước chung của hai hoặc ba số",
+      "questiontext": "Cho tập hợp \\(\\text{Ư}(18) = \\{1; 2; 3; 6; 9; 18\\}\\) và \\(\\text{Ư}(30) = \\{1; 2; 3; 5; 6; 10; 15; 30\\}\\). Số lớn nhất trong tập hợp \\(\\text{ƯC}(18, 30)\\) là số nào?",
+      "generalfeedback": "Tập hợp ước chung \\(\\text{ƯC}(18, 30) = \\{1; 2; 3; 6\\}\\). Số lớn nhất trong tập hợp này là 6.",
+      "answers": [
+        {
+          "text": "6",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Kí hiệu ƯC(a, b) và ƯCLN(a, b)",
+      "questiontext": "Trong các kí hiệu toán học, [[1]] là một tập hợp, còn [[2]] là một số.",
+      "generalfeedback": "\\(\\text{ƯC}(a, b)\\) là tập hợp các ước chung của \\(a\\) và \\(b\\), còn \\(\\text{ƯCLN}(a, b)\\) là một số.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(\\text{ƯC}(a, b)\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\text{ƯCLN}(a, b)\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\text{BC}(a, b)\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\text{BCNN}(a, b)\\)"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm ƯCLN bằng cách liệt kê ước chung",
+      "questiontext": "Tìm ước chung lớn nhất của hai số 24 và 28, biết tập hợp ước chung của chúng là \\(\\text{ƯC}(24, 28) = \\{1; 2; 4\\}\\). (Chỉ điền số)",
+      "generalfeedback": "ƯCLN(24, 28) là số lớn nhất trong tập hợp \\(\\text{ƯC}(24, 28) = \\{1; 2; 4\\}\\), do đó \\(\\text{ƯCLN}(24, 28) = 4\\).",
+      "answers": [
+        {
+          "text": "4",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_029",
+      "questiontext": "Cho hai tập hợp \\(\\text{Ư}(12) = \\{1; 2; 3; 4; 6; 12\\}\\) và \\(\\text{Ư}(18) = \\{1; 2; 3; 6; 9; 18\\}\\). Tập hợp các ước chung là \\(\\text{ƯC}(12, 18) =\\) [[1]]. Số phần tử của tập hợp \\(\\text{ƯC}(12, 18)\\) là [[2]].",
+      "generalfeedback": "Các số vừa là ước của 12 vừa là ước của 18 là 1; 2; 3; 6. Do đó \\(\\text{ƯC}(12, 18) = \\{1; 2; 3; 6\\}\\), tập hợp này gồm 4 phần tử.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(\\{1; 2; 3; 6\\}\\)"
+        },
+        {
+          "group": 1,
+          "text": "4"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\{1; 2; 3; 4; 6; 12; 18\\}\\)"
+        },
+        {
+          "group": 1,
+          "text": "6"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm ƯCLN bằng cách liệt kê ước chung",
+      "questiontext": "Nếu số tự nhiên a chia hết cho số tự nhiên b (với b khác 0), thì ước chung lớn nhất của tích {a}*{b} và {b} bằng bao nhiêu? Hãy tính giá trị đó khi b = {b}.",
+      "generalfeedback": "Nếu a chia hết cho b thì ƯCLN(a, b) = b. Do đó ƯCLN({a}*{b}, {b}) = {b}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 5.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 3.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{b}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm ước chung",
+      "questiontext": "Khẳng định nào sau đây là đúng về ước chung của các số khác 0?",
+      "generalfeedback": "Theo chú ý trong SGK, ta chỉ xét ước chung của các số khác 0 và số 1 luôn là ước chung của mọi số tự nhiên.",
+      "answers": [
+        {
+          "text": "Số 1 luôn là ước chung của mọi số tự nhiên",
+          "fraction": 100
+        },
+        {
+          "text": "Số 0 luôn là ước chung của mọi số tự nhiên",
+          "fraction": 0
+        },
+        {
+          "text": "Ước chung của hai số tự nhiên luôn lớn hơn cả hai số đó",
+          "fraction": 0
+        },
+        {
+          "text": "Tập hợp các ước chung của hai số luôn là một tập hợp vô hạn",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_030",
+      "questiontext": "Khẳng định sau đây Đúng hay Sai: \"Vì 18 chia hết cho 6 nên \\(\\text{ƯCLN}(6, 18) = 6\\).\"",
+      "generalfeedback": "Đúng. Nhận xét SGK nêu: Trong các số đã cho, nếu số nhỏ nhất là ước của các số còn lại thì ƯCLN của các số đã cho chính là số nhỏ nhất ấy.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_029",
+      "questiontext": "Tập hợp các ước chung \\(\\text{ƯC}(24, 28)\\) gồm những số nào?",
+      "generalfeedback": "Ta có \\(\\text{Ư}(24) = \\{1; 2; 3; 4; 6; 8; 12; 24\\}\\) và \\(\\text{Ư}(28) = \\{1; 2; 4; 7; 14; 28\\}\\). Do đó \\(\\text{ƯC}(24, 28) = \\{1; 2; 4\\}\\).",
+      "answers": [
+        {
+          "text": "\\(\\{1; 2; 4\\}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\{1; 2; 4; 7\\}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\{1; 2; 3; 4\\}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\{2; 4\\}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_030",
+      "questiontext": "Tìm ước chung lớn nhất của 24 và 60, biết \\(\\text{ƯC}(24, 60) = \\{1; 2; 3; 4; 6; 12\\}\\). (Chỉ điền số)",
+      "generalfeedback": "ƯCLN(24, 60) là số lớn nhất trong tập hợp \\(\\text{ƯC}(24, 60)\\), do đó \\(\\text{ƯCLN}(24, 60) = 12\\).",
+      "answers": [
+        {
+          "text": "12",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Kí hiệu ƯC(a, b) và ƯCLN(a, b)",
+      "questiontext": "Khẳng định sau đây Đúng hay Sai: \"\\(\\text{ƯC}(a, b)\\) là một số, còn \\(\\text{ƯCLN}(a, b)\\) là một tập hợp.\"",
+      "generalfeedback": "Sai. Theo SGK, \\(\\text{ƯC}(a, b)\\) là một tập hợp, còn \\(\\text{ƯCLN}(a, b)\\) là một số.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm tập hợp các ước chung của hai hoặc ba số",
+      "questiontext": "Có bao nhiêu số tự nhiên vừa là ước của 12 vừa là ước của 20?",
+      "generalfeedback": "Tập hợp các ước chung \\(\\text{ƯC}(12, 20) = \\{1; 2; 4\\}\\). Tập hợp này gồm 3 phần tử.",
+      "answers": [
+        {
+          "text": "3",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_030",
+      "questiontext": "Nếu số tự nhiên \\(a\\) chia hết cho số tự nhiên \\(b\\) (với \\(b \\neq 0\\)) thì \\(\\text{ƯCLN}(a, b) =\\) [[1]]. Do đó, \\(\\text{ƯCLN}(6, 18) =\\) [[2]].",
+      "generalfeedback": "Vì \\(a \\vdots b\\) nên \\(\\text{ƯCLN}(a, b) = b\\). Vì \\(18 \\vdots 6\\) nên \\(\\text{ƯCLN}(6, 18) = 6\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "b"
+        },
+        {
+          "group": 1,
+          "text": "6"
+        },
+        {
+          "group": 1,
+          "text": "a"
+        },
+        {
+          "group": 1,
+          "text": "18"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Kí hiệu ƯC(a, b) và ƯCLN(a, b)",
+      "questiontext": "Cho số tự nhiên \\(a\\) khác 0. Ta có \\(\\text{ƯCLN}(a, 1) =\\) [[1]] và \\(\\text{ƯCLN}(a, a) =\\) [[2]].",
+      "generalfeedback": "Số 1 chỉ có một ước là 1 nên \\(\\text{ƯCLN}(a, 1) = 1\\). Mọi số tự nhiên \\(a\\) khác 0 đều chia hết cho chính nó nên \\(\\text{ƯCLN}(a, a) = a\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "1"
+        },
+        {
+          "group": 1,
+          "text": "a"
+        },
+        {
+          "group": 1,
+          "text": "0"
+        },
+        {
+          "group": 1,
+          "text": "a + 1"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm ƯCLN bằng cách liệt kê ước chung",
+      "questiontext": "Tính giá trị của \\(\\text{ƯCLN}({a}, 1)\\) với {a} là một số tự nhiên lớn hơn 0.",
+      "generalfeedback": "Với mọi số tự nhiên \\(a\\), ta luôn có \\(\\text{ƯCLN}(a, 1) = 1\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 100.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "1",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm ước chung lớn nhất (ƯCLN)",
+      "imgs": [
+        "_page_4_Picture_35.jpeg"
+      ],
+      "questiontext": "[img:_page_4_Picture_35.jpeg]\nHình ảnh trên là nhà toán học Euclid (Ơ-clít), người đã phát minh ra thuật toán thông dụng nổi tiếng dùng để làm gì?",
+      "generalfeedback": "Thuật toán Euclid là thuật toán thông dụng được dùng để tìm ước chung lớn nhất của hai số.",
+      "answers": [
+        {
+          "text": "Tìm ước chung lớn nhất của hai số",
+          "fraction": 100
+        },
+        {
+          "text": "Tìm bội chung nhỏ nhất của hai số",
+          "fraction": 0
+        },
+        {
+          "text": "Phân tích một số ra thừa số nguyên tố",
+          "fraction": 0
+        },
+        {
+          "text": "Rút gọn phân số về phân số tối giản ngay lập tức",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm tập hợp các ước chung của hai hoặc ba số",
+      "questiontext": "Hãy ghép mỗi cặp số ở cột bên trái với tập hợp các ước chung tương ứng ở cột bên phải.",
+      "generalfeedback": "ƯC(12, 18) = {1; 2; 3; 6}; ƯC(10, 15) = {1; 5}; ƯC(24, 28) = {1; 2; 4}.",
+      "subquestions": [
+        {
+          "question": "Cặp số 12 và 18",
+          "answer": "\\(\\{1; 2; 3; 6\\}\\)"
+        },
+        {
+          "question": "Cặp số 10 và 15",
+          "answer": "\\(\\{1; 5\\}\\)"
+        },
+        {
+          "question": "Cặp số 24 và 28",
+          "answer": "\\(\\{1; 2; 4\\}\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_029",
+      "questiontext": "Tập hợp các ước chung của ba số 12, 18 và 30 là:",
+      "generalfeedback": "Ta có \\(\\text{Ư}(12) = \\{1; 2; 3; 4; 6; 12\\}\\), \\(\\text{Ư}(18) = \\{1; 2; 3; 6; 9; 18\\}\\), \\(\\text{Ư}(30) = \\{1; 2; 3; 5; 6; 10; 15; 30\\}\\). Do đó \\(\\text{ƯC}(12, 18, 30) = \\{1; 2; 3; 6\\}\\).",
+      "answers": [
+        {
+          "text": "\\(\\{1; 2; 3; 6\\}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\{1; 2; 3; 6; 9\\}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\{1; 2; 3\\}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\{1; 2; 6\\}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ học Toán về Ước chung và Ước chung lớn nhất, Nam gặp một bài toán thực tế chia nhóm học sinh đi thu gom rác làm sạch bờ biển rất phức tạp. Nam nên chọn cách ứng xử nào sau đây để thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập?",
+      "generalfeedback": "Tinh thần cố gắng vươn lên đạt kết quả tốt thể hiện ở sự kiên trì suy nghĩ, áp dụng quy tắc tìm ƯCLN để giải quyết bài toán và trao đổi học hỏi khi gặp vướng mắc.",
+      "answers": [
+        {
+          "text": "Kiên trì phân tích đề bài, áp dụng kiến thức về ƯCLN để tìm số nhóm nhiều nhất và tham khảo sự hướng dẫn của thầy cô, bạn bè khi chưa hiểu.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài tập này vì cho rằng kiến thức ƯC và ƯCLN không quan trọng trong thực tế.",
+          "fraction": 0
+        },
+        {
+          "text": "Chờ đợi đáp án từ các bạn khác để chép vào vở cho đủ bài.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ làm các bài tập dễ và từ chối thử sức với các bài toán tình huống thực tế.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khẳng định sau đây Đúng hay Sai: \"Khi gặp bài toán áp dụng Ước chung lớn nhất vào thực tế khó, học sinh có tinh thần vươn lên trong học tập sẽ chủ động xem lại lý thuyết, luyện tập các ví dụ trong SGK để tự tìm ra cách giải.\"",
+      "generalfeedback": "Đúng. Tự giác xem lại lý thuyết và kiên trì luyện tập là biểu hiện của phẩm chất chăm chỉ, nỗ lực vươn lên.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Để lưu giữ thông tin có chọn lọc bằng sơ đồ tóm tắt kiến thức trọng tâm của bài \"Ước chung. Ước chung lớn nhất\", cách trình bày nào sau đây thể hiện tính khoa học và đầy đủ nhất?",
+      "generalfeedback": "Tóm tắt khoa học và chọn lọc cần nêu bật 2 khái niệm cốt lõi ƯC, ƯCLN, kí hiệu tương ứng và trường hợp đặc biệt.",
+      "answers": [
+        {
+          "text": "Ghi ngắn gọn định nghĩa ƯC, ƯCLN; các kí hiệu \\(\\text{ƯC}(a, b)\\), \\(\\text{ƯCLN}(a, b)\\) và nhận xét trường hợp đặc biệt \\(\\text{ƯCLN}(a, b) = b\\) nếu \\(a \\vdots b\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Chép lại toàn bộ các đoạn văn giải thích và lời giải ví dụ trong SGK.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ vẽ hình ảnh minh họa bác thợ mộc mà không ghi nội dung toán học.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ ghi số trang sách và tên đề bài.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Hãy ghép các nội dung tóm tắt ở cột bên trái với từ khóa/kí hiệu tương ứng ở cột bên phải để hoàn thiện bảng ghi nhớ kiến thức chọn lọc.",
+      "generalfeedback": "Tập hợp các ước chung kí hiệu là ƯC(a, b); Ước chung lớn nhất kí hiệu là ƯCLN(a, b); Trường hợp đặc biệt khi a chia hết cho b thì ƯCLN(a, b) = b.",
+      "subquestions": [
+        {
+          "question": "Tập hợp tất cả các số vừa là ước của a vừa là ước của b",
+          "answer": "\\(\\text{ƯC}(a, b)\\)"
+        },
+        {
+          "question": "Số lớn nhất trong tập hợp các ước chung của a và b",
+          "answer": "\\(\\text{ƯCLN}(a, b)\\)"
+        },
+        {
+          "question": "Giá trị của \\(\\text{ƯCLN}(a, b)\\) khi \\(a \\vdots b\\)",
+          "answer": "\\(b\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "questiontext": "Dựa vào bảng số tiền đóng góp mua vé tham quan Bảo tàng Dân tộc học trong SGK (Thứ Hai: 56 nghìn đồng, Thứ Ba: 28 nghìn đồng, Thứ Tư: 42 nghìn đồng, Thứ Năm: 98 nghìn đồng). Biết giá vé mua theo đơn vị nghìn đồng là một ước chung lớn hơn 2 của các số tiền trên. Giá tiền mỗi vé tham quan là bao nhiêu nghìn đồng?",
+      "generalfeedback": "Ta có các ước chung của 56, 28, 42, 98 là 1; 2; 7; 14. Vì giá vé lớn hơn 2 nghìn đồng nên giá vé có thể là 7 nghìn đồng hoặc 14 nghìn đồng. Trong các phương án cho sẵn, 7 nghìn đồng là đáp án đúng.",
+      "answers": [
+        {
+          "text": "7 nghìn đồng",
+          "fraction": 100
+        },
+        {
+          "text": "3 nghìn đồng",
+          "fraction": 0
+        },
+        {
+          "text": "5 nghìn đồng",
+          "fraction": 0
+        },
+        {
+          "text": "10 nghìn đồng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "questiontext": "Đọc bảng số liệu phân công học sinh thu gom rác: Lớp có 40 học sinh nữ và 36 học sinh nam. Nếu chia thành các nhóm sao cho số nam và số nữ ở mỗi nhóm bằng nhau thì số nhóm có thể chia là ước chung của [[1]] và [[2]]. Số nhóm nhiều nhất có thể chia là [[3]](40, 36).",
+      "generalfeedback": "Số nhóm là ước chung của 40 và 36. Số nhóm nhiều nhất là ƯCLN(40, 36).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "40"
+        },
+        {
+          "group": 1,
+          "text": "36"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\text{ƯCLN}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\text{BCNN}\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Thực hiện thao tác tư duy so sánh và phân tích: Điểm khác biệt căn bản giữa khái niệm \"Ước chung của hai số\" và \"Ước chung lớn nhất của hai số\" là gì?",
+      "generalfeedback": "Ước chung là tập hợp chứa tất cả các ước chung của hai số, còn Ước chung lớn nhất là một số duy nhất và là số lớn nhất trong tập hợp đó.",
+      "answers": [
+        {
+          "text": "Ước chung là một tập hợp các số, còn Ước chung lớn nhất là duy nhất một số lớn nhất trong tập hợp đó.",
+          "fraction": 100
+        },
+        {
+          "text": "Ước chung là một số, còn Ước chung lớn nhất là một tập hợp.",
+          "fraction": 0
+        },
+        {
+          "text": "Ước chung luôn nhỏ hơn 1, còn Ước chung lớn nhất luôn lớn hơn 100.",
+          "fraction": 0
+        },
+        {
+          "text": "Ước chung dùng cho phép nhân, còn Ước chung lớn nhất dùng cho phép chia.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Sử dụng thao tác tư duy tổng hợp: Để giải bài toán thực tế \"Cắt hai tấm gỗ dài 18 dm và 30 dm thành các thanh gỗ có cùng độ dài lớn nhất mà không thừa mẩu nào\", ta cần thực hiện suy luận toán học theo trình tự nào?",
+      "generalfeedback": "Độ dài thanh gỗ phải là ước chung của 18 và 30. Vì độ dài là lớn nhất nên độ dài đó chính là ƯCLN(18, 30).",
+      "answers": [
+        {
+          "text": "Xác định độ dài thanh gỗ là ước chung của 18 và 30 \\(\\rightarrow\\) Nhận diện yêu cầu \"lớn nhất\" \\(\\rightarrow\\) Quy về tìm \\(\\text{ƯCLN}(18, 30)\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Cộng hai độ dài 18 + 30 \\(\\rightarrow\\) Chia đôi kết quả.",
+          "fraction": 0
+        },
+        {
+          "text": "Tìm bội chung nhỏ nhất của 18 và 30 \\(\\rightarrow\\) Nhân với 2.",
+          "fraction": 0
+        },
+        {
+          "text": "Lấy 30 trừ đi 18 để ra độ dài thanh gỗ.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04_02",
+      "questiontext": "Đọc hiểu văn bản nhận xét toán học trong SGK: \"Trong các số đã cho, nếu số nhỏ nhất là ước của các số còn lại thì ƯCLN của các số đã cho chính là số nhỏ nhất ấy.\" Áp dụng thông tin trọng tâm này, hãy xác định \\(\\text{ƯCLN}(15, 45, 90)\\).",
+      "generalfeedback": "Vì 15 là số nhỏ nhất và 45 chia hết cho 15, 90 chia hết cho 15 nên ƯCLN(15, 45, 90) = 15.",
+      "answers": [
+        {
+          "text": "15",
+          "fraction": 100
+        },
+        {
+          "text": "45",
+          "fraction": 0
+        },
+        {
+          "text": "90",
+          "fraction": 0
+        },
+        {
+          "text": "1",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04_02",
+      "questiontext": "Dựa trên năng lực đọc hiểu văn bản toán học: Đoạn chú ý trong SGK ghi \"Ta chỉ xét ước chung của các số khác 0.\" Do đó, khi tìm \\(\\text{ƯC}(a, b)\\) ta luôn giả định các số \\(a\\) và \\(b\\) đều khác 0.",
+      "generalfeedback": "Đúng. SGK ghi rõ chú ý chỉ xét ước chung của các số khác 0.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

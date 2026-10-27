@@ -1,0 +1,916 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 37,
+    "metadata_used": {
+      "Hệ thống hóa kiến thức Chương I về phương trình và hệ phương trình bậc nhất hai ẩn": 6,
+      "Giải bài tập trắc nghiệm và tự luận tổng hợp Chương I": 10,
+      "YCCD_TOAN9_027": 6,
+      "YCCD_TOAN9_026": 8,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_TCTH_TUHOC_C2_04": 1,
+      "SUB_GQVD_DEXUAT_C2_02": 1,
+      "NLT_TOAN_C2_03_04": 1,
+      "NLT_TOAN_C2_03_05": 1,
+      "2.1TC2a_K9": 1,
+      "9.A3.1_2": 1
+    },
+    "types_used": {
+      "multichoice": 21,
+      "truefalse": 2,
+      "shortanswer": 3,
+      "numerical": 3,
+      "matching": 1,
+      "gapselect": 1,
+      "ddwtos": 2,
+      "calculated": 2,
+      "calculatedsimple": 2
+    }
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN9_026",
+        "reason": "Đo lường khả năng giải hệ hai phương trình bậc nhất hai ẩn qua các phương pháp thế, cộng đại số, biến đổi đại số."
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_027",
+        "reason": "Đo lường kỹ năng sử dụng máy tính cầm tay để tìm nghiệm hoặc kiểm tra nghiệm của hệ phương trình."
+      },
+      {
+        "metadata_code": "Hệ thống hóa kiến thức Chương I về phương trình và hệ phương trình bậc nhất hai ẩn",
+        "reason": "Đo lường mức độ hệ thống hóa kiến thức về số nghiệm, dạng đường thẳng biểu diễn và quy trình giải hệ phương trình."
+      },
+      {
+        "metadata_code": "Giải bài tập trắc nghiệm và tự luận tổng hợp Chương I",
+        "reason": "Đo lường kỹ năng giải bài tập trắc nghiệm và tự luận tổng hợp Chương I (bao gồm các bài toán lập hệ phương trình thực tế)."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đo lường phẩm chất kiên trì, nỗ lực vươn lên trong học tập môn Toán."
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+        "reason": "Đo lường năng lực tóm tắt và lưu giữ thông tin có chọn lọc bằng bảng."
+      },
+      {
+        "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+        "reason": "Đo lường năng lực đề xuất giải pháp giải quyết vấn đề toán thực tế."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_04",
+        "reason": "Đo lường năng lực sử dụng kiến thức toán học tương thích."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_05",
+        "reason": "Đo lường năng lực sử dụng kỹ năng toán học tương thích (đặt ẩn phụ)."
+      },
+      {
+        "metadata_code": "2.1TC2a_K9",
+        "reason": "Đo lường năng lực lựa chọn công cụ công nghệ số để hỗ trợ vẽ đồ thị và trực quan hóa."
+      },
+      {
+        "metadata_code": "9.A3.1_2",
+        "reason": "Đo lường năng lực tư duy phản biện phân tích và đánh giá thông tin/kết quả do AI cung cấp."
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống hóa kiến thức Chương I về phương trình và hệ phương trình bậc nhất hai ẩn",
+      "questiontext": "Cặp số \\((x; y)\\) nào sau đây là nghiệm của hệ phương trình \\(\\begin{cases} 5x + 7y = -1 \\\\ 3x + 2y = -5 \\end{cases}\\)?",
+      "generalfeedback": "Thay lần lượt các cặp số vào hệ phương trình. Với \\(x = -3, y = 2\\) ta có: \\(5(-3) + 7(2) = -1\\) và \\(3(-3) + 2(2) = -5\\) (thỏa mãn cả hai phương trình).",
+      "answers": [
+        {
+          "text": "\\((-3; 2)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\((-1; 1)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((2; -3)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((5; 5)\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Giải bài tập trắc nghiệm và tự luận tổng hợp Chương I",
+      "questiontext": "Trên mặt phẳng tọa độ \\(Oxy\\), đường thẳng \\(4x - 3y = -1\\) đi qua hai điểm nào trong các điểm đã cho: \\(A(1; 2)\\), \\(B(5; 6)\\), \\(C(2; 3)\\), \\(D(-1; -1)\\)?",
+      "generalfeedback": "Thay tọa độ các điểm vào phương trình \\(4x - 3y = -1\\):\n- Điểm \\(C(2; 3)\\): \\(4(2) - 3(3) = 8 - 9 = -1\\) (thỏa mãn).\n- Điểm \\(D(-1; -1)\\): \\(4(-1) - 3(-1) = -4 + 3 = -1\\) (thỏa mãn).\nVậy đường thẳng đi qua hai điểm \\(C\\) và \\(D\\).",
+      "answers": [
+        {
+          "text": "\\(C\\) và \\(D\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(A\\) và \\(B\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(B\\) và \\(C\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(D\\) và \\(A\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_027",
+      "questiontext": "Sử dụng máy tính cầm tay, nghiệm của hệ phương trình \\(\\begin{cases} 1,5x - 0,6y = 0,3 \\\\ -2x + y = -2 \\end{cases}\\) là:",
+      "generalfeedback": "Nhập các hệ số của hệ phương trình vào máy tính cầm tay, ta thu được kết quả nghiệm \\((x; y) = (-3; -8)\\).",
+      "answers": [
+        {
+          "text": "\\((-3; -8)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\((0; -0,5)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((1; 0)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Vô nghiệm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Hệ thống hóa kiến thức Chương I về phương trình và hệ phương trình bậc nhất hai ẩn",
+      "questiontext": "Số nghiệm của hệ phương trình \\(\\begin{cases} 0,6x + 0,3y = 1,8 \\\\ 2x + y = -6 \\end{cases}\\) là:",
+      "generalfeedback": "Xét tỉ số các hệ số: \\(\\frac{0,6}{2} = 0,3\\); \\(\\frac{0,3}{1} = 0,3\\); \\(\\frac{1,8}{-6} = -0,3\\). Do \\(\\frac{0,6}{2} = \\frac{0,3}{1} \\neq \\frac{1,8}{-6}\\) nên hai đường thẳng song song, hệ phương trình vô nghiệm.",
+      "answers": [
+        {
+          "text": "Vô nghiệm",
+          "fraction": 100
+        },
+        {
+          "text": "Có một nghiệm",
+          "fraction": 0
+        },
+        {
+          "text": "Có vô số nghiệm",
+          "fraction": 0
+        },
+        {
+          "text": "Có hai nghiệm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_026",
+      "questiontext": "Hệ phương trình \\(\\begin{cases} 3x + y = 5 \\\\ 0,2x + 0,1y = 0,3 \\end{cases}\\) có nghiệm là \\((x; y) = (2; -1)\\). Phát biểu này Đúng hay Sai?",
+      "generalfeedback": "Thay \\(x = 2, y = -1\\) vào phương trình đầu: \\(3(2) + (-1) = 5\\) (đúng). Thay vào phương trình thứ hai: \\(0,2(2) + 0,1(-1) = 0,3\\) (đúng). Phát biểu là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống hóa kiến thức Chương I về phương trình và hệ phương trình bậc nhất hai ẩn",
+      "questiontext": "Hệ phương trình \\(\\begin{cases} \\frac{3}{2}x - y = \\frac{1}{2} \\\\ 6x - 4y = 2 \\end{cases}\\) có vô số nghiệm. Phát biểu này Đúng hay Sai?",
+      "generalfeedback": "Nhân hai tế phương trình thứ nhất với 4 ta được \\(6x - 4y = 2\\), hoàn toàn trùng với phương trình thứ hai. Do đó hệ phương trình có vô số nghiệm. Phát biểu là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_026",
+      "questiontext": "Tìm giá trị của \\(x\\) trong nghiệm \\((x; y)\\) của hệ phương trình \\(\\begin{cases} 0,5x + 2y = -2,5 \\\\ 0,7x - 3y = 8,1 \\end{cases}\\).",
+      "generalfeedback": "Cộng đại số: Nhân phương trình thứ nhất với 3, phương trình thứ hai với 2 rồi cộng lại ta được \\(2,9x = 8,7 \\Rightarrow x = 3\\).",
+      "answers": [
+        {
+          "text": "3",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_027",
+      "questiontext": "Sử dụng máy tính cầm tay, hãy tính giá trị của \\(y\\) trong nghiệm \\((x; y)\\) của hệ phương trình \\(\\begin{cases} 5x - 3y = -2 \\\\ 14x + 8y = 19 \\end{cases}\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Sử dụng máy tính cầm tay giải hệ phương trình ta được nghiệm \\(x = 0,5\\) và \\(y = 1,5\\). Do đó giá trị của \\(y\\) là 1.5.",
+      "answers": [
+        {
+          "text": "1.5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Giải bài tập trắc nghiệm và tự luận tổng hợp Chương I",
+      "questiontext": "Hãy ghép mỗi hệ phương trình với số nghiệm tương ứng của hệ đó:",
+      "generalfeedback": "- Hệ \\(\\begin{cases} 0,5x + 2y = -2,5 \\\\ 0,7x - 3y = 8,1 \\end{cases}\\) có 1 nghiệm duy nhất \\((3; -2)\\).\n- Hệ \\(\\begin{cases} 0,6x + 0,3y = 1,8 \\\\ 2x + y = -6 \\end{cases}\\) vô nghiệm.\n- Hệ \\(\\begin{cases} \\frac{3}{2}x - y = \\frac{1}{2} \\\\ 6x - 4y = 2 \\end{cases}\\) có vô số nghiệm.",
+      "subquestions": [
+        {
+          "question": "\\(\\begin{cases} 0,5x + 2y = -2,5 \\\\ 0,7x - 3y = 8,1 \\end{cases}\\)",
+          "answer": "Có 1 nghiệm duy nhất"
+        },
+        {
+          "question": "\\(\\begin{cases} 0,6x + 0,3y = 1,8 \\\\ 2x + y = -6 \\end{cases}\\)",
+          "answer": "Vô nghiệm"
+        },
+        {
+          "question": "\\(\\begin{cases} \\frac{3}{2}x - y = \\frac{1}{2} \\\\ 6x - 4y = 2 \\end{cases}\\)",
+          "answer": "Có vô số nghiệm"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống hóa kiến thức Chương I về phương trình và hệ phương trình bậc nhất hai ẩn",
+      "questiontext": "Xét vị trí tương đối của hai đường thẳng biểu diễn các phương trình trong hệ: Nếu hai đường thẳng song song với nhau thì hệ phương trình [[1]]. Nếu hai đường thẳng cắt nhau thì hệ phương trình [[2]].",
+      "generalfeedback": "Hai đường thẳng song song ứng với hệ phương trình vô nghiệm. Hai đường thẳng cắt nhau ứng với hệ phương trình có một nghiệm duy nhất.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "vô nghiệm"
+        },
+        {
+          "group": 1,
+          "text": "có một nghiệm duy nhất"
+        },
+        {
+          "group": 1,
+          "text": "có vô số nghiệm"
+        },
+        {
+          "group": 1,
+          "text": "có hai nghiệm"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_026",
+      "questiontext": "Giải hệ phương trình \\(\\begin{cases} 2x + 5y = 10 \\\\ \\frac{2}{5}x + y = 1 \\end{cases}\\): Nhân hai vế của phương trình thứ hai với 5 ta được phương trình \\(2x + 5y = 5\\). Trừ từng vế hai phương trình ta được \\(0x + 0y =\\) [[1]]. Vậy hệ phương trình [[2]].",
+      "generalfeedback": "Biến đổi phương trình thứ hai: \\(5 \\cdot (\\frac{2}{5}x + y) = 5 \\cdot 1 \\Rightarrow 2x + 5y = 5\\). Ta có vế trái của hai phương trình bằng nhau nhưng vế phải khác nhau (10 khác 5), suy ra \\(0x + 0y = 5\\) (vô lý). Do đó hệ phương trình vô nghiệm.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "5"
+        },
+        {
+          "group": 1,
+          "text": "vô nghiệm"
+        },
+        {
+          "group": 1,
+          "text": "0"
+        },
+        {
+          "group": 1,
+          "text": "có vô số nghiệm"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_026",
+      "questiontext": "Nghiệm của hệ phương trình \\(\\begin{cases} 2(x-2) + 3(1+y) = -2 \\\\ 3(x-2) - 2(1+y) = -3 \\end{cases}\\) là cặp số \\((x; y)\\) bằng:",
+      "generalfeedback": "Đặt \\(u = x - 2\\), \\(v = 1 + y\\). Hệ trở thành \\(\\begin{cases} 2u + 3v = -2 \\\\ 3u - 2v = -3 \\end{cases}\\). Giải hệ tìm được \\(u = -1, v = 0\\). Từ đó \\(x - 2 = -1 \\Rightarrow x = 1\\) và \\(1 + y = 0 \\Rightarrow y = -1\\).",
+      "answers": [
+        {
+          "text": "\\((1; -1)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\((-1; 1)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((2; 3)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((0; 0)\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Giải bài tập trắc nghiệm và tự luận tổng hợp Chương I",
+      "questiontext": "Tìm số tự nhiên \\(n\\) có hai chữ số, biết rằng nếu viết thêm chữ số 3 vào giữa hai chữ số của số \\(n\\) thì được một số lớn hơn số \\(2n\\) là 585 đơn vị, và nếu viết hai chữ số của số \\(n\\) theo thứ tự ngược lại thì được một số nhỏ hơn số \\(n\\) là 18 đơn vị.",
+      "generalfeedback": "Gọi số cần tìm là \\(\\overline{ab} = 10a + b\\) (với \\(a, b \\in \\mathbb{N}, 1 \\le a \\le 9, 0 \\le b \\le 9\\)).\nTheo bài ra ta có hệ phương trình:\n\\(\\begin{cases} \\overline{a3b} - 2\\overline{ab} = 585 \\\\ \\overline{ab} - \\overline{ba} = 18 \\end{cases} \\Leftrightarrow \\begin{cases} (100a + 30 + b) - 2(10a + b) = 585 \\\\ (10a + b) - (10b + a) = 18 \\end{cases} \\Leftrightarrow \\begin{cases} 80a - b = 555 \\\\ 9a - 9b = 18 \\end{cases}\\).\nGiải hệ ta được \\(a = 7, b = 5\\). Vậy số cần tìm là 75.",
+      "answers": [
+        {
+          "text": "75",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Giải bài tập trắc nghiệm và tự luận tổng hợp Chương I",
+      "questiontext": "Một đơn vị sản xuất dành 60 ha cấy giống lúa mới và 100 ha cấy giống lúa cũ. Khi thu hoạch đối chứng, 7 ha lúa mới thu được nhiều hơn 8 ha lúa cũ là 2 tấn thóc. Tổng sản lượng cả vụ trên 160 ha là 860 tấn. Hỏi năng suất của giống lúa mới trên 1 ha là bao nhiêu tấn thóc? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Gọi năng suất lúa mới là \\(x\\) (tấn/ha) và lúa cũ là \\(y\\) (tấn/ha) (\\(x, y > 0\\)).\nTheo bài ra ta có hệ phương trình:\n\\(\\begin{cases} 7x - 8y = 2 \\\\ 60x + 100y = 860 \\end{cases}\\).\nGiải hệ ta được \\(x = 6\\) và \\(y = 5\\). Vậy năng suất giống lúa mới là 6 tấn/ha.",
+      "answers": [
+        {
+          "text": "6",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Giải bài tập trắc nghiệm và tự luận tổng hợp Chương I",
+      "questiontext": "Hai vật chuyển động đều trên một đường tròn chu vi \\(20\\pi\\) cm, xuất phát cùng một lúc từ cùng một điểm. Nếu chuyển động ngược chiều thì cứ sau 4 giây chúng lại gặp nhau. Nếu chuyển động cùng chiều thì cứ sau 20 giây chúng lại gặp nhau. Vận tốc của hai vật lần lượt là:",
+      "generalfeedback": "Gọi vận tốc hai vật là \\(x, y\\) (cm/s, \\(x > y > 0\\)).\nĐộ dài đường tròn là \\(C = 20\\pi\\) cm.\nKhi đi ngược chiều: \\(4(x + y) = 20\\pi \\Rightarrow x + y = 5\\pi\\).\nKhi đi cùng chiều: \\(20(x - y) = 20\\pi \\Rightarrow x - y = \\pi\\).\nGiải hệ ta được \\(x = 3\\pi\\) cm/s và \\(y = 2\\pi\\) cm/s.",
+      "answers": [
+        {
+          "text": "\\(3\\pi\\) cm/s và \\(2\\pi\\) cm/s",
+          "fraction": 100
+        },
+        {
+          "text": "\\(4\\pi\\) cm/s và \\(\\pi\\) cm/s",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2,5\\pi\\) cm/s và \\(2,5\\pi\\) cm/s",
+          "fraction": 0
+        },
+        {
+          "text": "\\(5\\pi\\) cm/s và \\(\\pi\\) cm/s",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Giải bài tập trắc nghiệm và tự luận tổng hợp Chương I",
+      "questiontext": "Một người mua hai loại hàng hết tổng cộng 21,7 triệu đồng bao gồm thuế VAT (10% đối với loại I, 8% đối với loại II). Nếu thuế VAT là 9% cho cả hai loại hàng thì người đó phải trả 21,8 triệu đồng. Hỏi nếu không tính thuế VAT thì giá tiền của loại hàng thứ nhất là bao nhiêu triệu đồng?",
+      "generalfeedback": "Gọi giá tiền chưa thuế của loại I là \\(x\\) triệu đồng, loại II là \\(y\\) triệu đồng (\\(x, y > 0\\)).\nTheo bài ra ta có hệ phương trình:\n\\(\\begin{cases} 1,1x + 1,08y = 21,7 \\\\ 1,09(x + y) = 21,8 \\end{cases} \\Leftrightarrow \\begin{cases} 1,1x + 1,08y = 21,7 \\\\ x + y = 20 \\end{cases}\\).\nGiải hệ ta được \\(x = 5\\) và \\(y = 15\\). Vậy giá tiền không tính thuế VAT của loại hàng thứ nhất là 5 triệu đồng.",
+      "answers": [
+        {
+          "text": "5 triệu đồng",
+          "fraction": 100
+        },
+        {
+          "text": "15 triệu đồng",
+          "fraction": 0
+        },
+        {
+          "text": "10 triệu đồng",
+          "fraction": 0
+        },
+        {
+          "text": "8 triệu đồng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_026",
+      "questiontext": "Cho hệ phương trình bậc nhất hai ẩn có hai phương trình lần lượt là x + y = {a} và x - y = {b}. Giá trị của \\(x\\) tính theo {a} và {b} là:",
+      "generalfeedback": "Cộng hai phương trình theo vế ta được \\(2x = {a} + {b} \\Rightarrow x = ({a} + {b}) / 2\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 20.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 2.0,
+          "max": 20.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "({a}+{b})/2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_027",
+      "questiontext": "Khi sử dụng máy tính cầm tay để giải hệ phương trình ax + y = 5 và 2x + y = 3 với a = {a}, hệ số \\(a_1\\) nhập vào máy tính cho phương trình thứ nhất là:",
+      "generalfeedback": "Phương trình thứ nhất có dạng \\(a_1 x + b_1 y = c_1\\), do đó hệ số \\(a_1\\) tương ứng là {a}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_027",
+      "questiontext": "Cú pháp bấm máy tính cầm tay (dòng máy FX-580VN X) để vào chức năng giải hệ hai phương trình bậc nhất hai ẩn là:",
+      "generalfeedback": "Trên máy tính FX-580VN X, ấn MENU -> 9 (Phương trình/Hệ phương trình) -> 1 (Hệ phương trình) -> 2 (Số ẩn là 2).",
+      "answers": [
+        {
+          "text": "MENU -> 9 -> 1 -> 2",
+          "fraction": 100
+        },
+        {
+          "text": "MENU -> 8 -> 1 -> 2",
+          "fraction": 0
+        },
+        {
+          "text": "MODE -> 5 -> 1",
+          "fraction": 0
+        },
+        {
+          "text": "SHIFT -> SOLVE",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Hệ thống hóa kiến thức Chương I về phương trình và hệ phương trình bậc nhất hai ẩn",
+      "questiontext": "Muốn giải hệ hai phương trình bậc nhất hai ẩn bằng phương pháp cộng đại số, ta thực hiện theo các bước nào sau đây?",
+      "generalfeedback": "Phương pháp cộng đại số gồm: Nhân hai vế của mỗi phương trình với một số thích hợp (nếu cần) sao cho các hệ số của một ẩn nào đó trong hai phương trình bằng nhau hoặc đối nhau; cộng hay trừ từng vế hai phương trình để được một phương trình một ẩn; giải phương trình đó rồi tìm nghiệm còn lại.",
+      "answers": [
+        {
+          "text": "Biến đổi hệ số của một ẩn bằng nhau hoặc đối nhau -> Cộng hoặc trừ từng vế hai phương trình -> Giải phương trình một ẩn thu được",
+          "fraction": 100
+        },
+        {
+          "text": "Rút một ẩn từ phương trình này rồi thế vào phương trình kia -> Giải phương trình một ẩn",
+          "fraction": 0
+        },
+        {
+          "text": "Vẽ hai đường thẳng trên mặt phẳng tọa độ -> Tìm giao điểm",
+          "fraction": 0
+        },
+        {
+          "text": "Nhập các hệ số vào máy tính cầm tay -> Đọc kết quả",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_026",
+      "questiontext": "Giải hệ phương trình \\(\\begin{cases} 2x + 5y = 10 \\\\ \\frac{2}{5}x + y = 1 \\end{cases}\\): Nhân hai vế của phương trình thứ hai với 5 ta được phương trình \\(2x + 5y = 5\\). Trừ từng vế hai phương trình ta được \\(0x + 0y =\\) [[1]]. Vậy hệ phương trình [[2]].",
+      "generalfeedback": "Biến đổi phương trình thứ hai: \\(5 \\cdot (\\frac{2}{5}x + y) = 5 \\cdot 1 \\Rightarrow 2x + 5y = 5\\). Ta có vế trái của hai phương trình bằng nhau nhưng vế phải khác nhau (10 khác 5), suy ra \\(0x + 0y = 5\\) (vô lý). Do đó hệ phương trình vô nghiệm.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "5"
+        },
+        {
+          "group": 1,
+          "text": "vô nghiệm"
+        },
+        {
+          "group": 1,
+          "text": "0"
+        },
+        {
+          "group": 1,
+          "text": "có vô số nghiệm"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_026",
+      "questiontext": "Nghiệm của hệ phương trình \\(\\begin{cases} 2(x-2) + 3(1+y) = -2 \\\\ 3(x-2) - 2(1+y) = -3 \\end{cases}\\) là cặp số \\((x; y)\\) bằng:",
+      "generalfeedback": "Đặt \\(u = x - 2\\), \\(v = 1 + y\\). Hệ trở thành \\(\\begin{cases} 2u + 3v = -2 \\\\ 3u - 2v = -3 \\end{cases}\\). Giải hệ tìm được \\(u = -1, v = 0\\). Từ đó \\(x - 2 = -1 \\Rightarrow x = 1\\) và \\(1 + y = 0 \\Rightarrow y = -1\\).",
+      "answers": [
+        {
+          "text": "\\((1; -1)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\((-1; 1)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((2; 3)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((0; 0)\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Giải bài tập trắc nghiệm và tự luận tổng hợp Chương I",
+      "questiontext": "Tìm số tự nhiên \\(n\\) có hai chữ số, biết rằng nếu viết thêm chữ số 3 vào giữa hai chữ số của số \\(n\\) thì được một số lớn hơn số \\(2n\\) là 585 đơn vị, và nếu viết hai chữ số của số \\(n\\) theo thứ tự ngược lại thì được một số nhỏ hơn số \\(n\\) là 18 đơn vị.",
+      "generalfeedback": "Gọi số cần tìm là \\(\\overline{ab} = 10a + b\\) (với \\(a, b \\in \\mathbb{N}, 1 \\le a \\le 9, 0 \\le b \\le 9\\)).\nTheo bài ra ta có hệ phương trình:\n\\(\\begin{cases} \\overline{a3b} - 2\\overline{ab} = 585 \\\\ \\overline{ab} - \\overline{ba} = 18 \\end{cases} \\Leftrightarrow \\begin{cases} (100a + 30 + b) - 2(10a + b) = 585 \\\\ (10a + b) - (10b + a) = 18 \\end{cases} \\Leftrightarrow \\begin{cases} 80a - b = 555 \\\\ 9a - 9b = 18 \\end{cases}\\).\nGiải hệ ta được \\(a = 7, b = 5\\). Vậy số cần tìm là 75.",
+      "answers": [
+        {
+          "text": "75",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Giải bài tập trắc nghiệm và tự luận tổng hợp Chương I",
+      "questiontext": "Một đơn vị sản xuất dành 60 ha cấy giống lúa mới và 100 ha cấy giống lúa cũ. Khi thu hoạch đối chứng, 7 ha lúa mới thu được nhiều hơn 8 ha lúa cũ là 2 tấn thóc. Tổng sản lượng cả vụ trên 160 ha là 860 tấn. Hỏi năng suất của giống lúa mới trên 1 ha là bao nhiêu tấn thóc? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Gọi năng suất lúa mới là \\(x\\) (tấn/ha) và lúa cũ là \\(y\\) (tấn/ha) (\\(x, y > 0\\)).\nTheo bài ra ta có hệ phương trình:\n\\(\\begin{cases} 7x - 8y = 2 \\\\ 60x + 100y = 860 \\end{cases}\\).\nGiải hệ ta được \\(x = 6\\) và \\(y = 5\\). Vậy năng suất giống lúa mới là 6 tấn/ha.",
+      "answers": [
+        {
+          "text": "6",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Giải bài tập trắc nghiệm và tự luận tổng hợp Chương I",
+      "questiontext": "Hai vật chuyển động đều trên một đường tròn chu vi \\(20\\pi\\) cm, xuất phát cùng một lúc từ cùng một điểm. Nếu chuyển động ngược chiều thì cứ sau 4 giây chúng lại gặp nhau. Nếu chuyển động cùng chiều thì cứ sau 20 giây chúng lại gặp nhau. Vận tốc của hai vật lần lượt là:",
+      "generalfeedback": "Gọi vận tốc hai vật là \\(x, y\\) (cm/s, \\(x > y > 0\\)).\nĐộ dài đường tròn là \\(C = 20\\pi\\) cm.\nKhi đi ngược chiều: \\(4(x + y) = 20\\pi \\Rightarrow x + y = 5\\pi\\).\nKhi đi cùng chiều: \\(20(x - y) = 20\\pi \\Rightarrow x - y = \\pi\\).\nGiải hệ ta được \\(x = 3\\pi\\) cm/s và \\(y = 2\\pi\\) cm/s.",
+      "answers": [
+        {
+          "text": "\\(3\\pi\\) cm/s và \\(2\\pi\\) cm/s",
+          "fraction": 100
+        },
+        {
+          "text": "\\(4\\pi\\) cm/s và \\(\\pi\\) cm/s",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2,5\\pi\\) cm/s và \\(2,5\\pi\\) cm/s",
+          "fraction": 0
+        },
+        {
+          "text": "\\(5\\pi\\) cm/s và \\(\\pi\\) cm/s",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Giải bài tập trắc nghiệm và tự luận tổng hợp Chương I",
+      "questiontext": "Một người mua hai loại hàng hết tổng cộng 21,7 triệu đồng bao gồm thuế VAT (10% đối với loại I, 8% đối với loại II). Nếu thuế VAT là 9% cho cả hai loại hàng thì người đó phải trả 21,8 triệu đồng. Hỏi nếu không tính thuế VAT thì giá tiền của loại hàng thứ nhất là bao nhiêu triệu đồng?",
+      "generalfeedback": "Gọi giá tiền chưa thuế của loại I là \\(x\\) triệu đồng, loại II là \\(y\\) triệu đồng (\\(x, y > 0\\)).\nTheo bài ra ta có hệ phương trình:\n\\(\\begin{cases} 1,1x + 1,08y = 21,7 \\\\ 1,09(x + y) = 21,8 \\end{cases} \\Leftrightarrow \\begin{cases} 1,1x + 1,08y = 21,7 \\\\ x + y = 20 \\end{cases}\\).\nGiải hệ ta được \\(x = 5\\) và \\(y = 15\\). Vậy giá tiền không tính thuế VAT của loại hàng thứ nhất là 5 triệu đồng.",
+      "answers": [
+        {
+          "text": "5 triệu đồng",
+          "fraction": 100
+        },
+        {
+          "text": "15 triệu đồng",
+          "fraction": 0
+        },
+        {
+          "text": "10 triệu đồng",
+          "fraction": 0
+        },
+        {
+          "text": "8 triệu đồng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_026",
+      "questiontext": "Cho hệ phương trình bậc nhất hai ẩn có hai phương trình lần lượt là x + y = {a} và x - y = {b}. Giá trị của \\(x\\) tính theo {a} và {b} là:",
+      "generalfeedback": "Cộng hai phương trình theo vế ta được \\(2x = {a} + {b} \\Rightarrow x = ({a} + {b}) / 2\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 20.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 2.0,
+          "max": 20.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "({a}+{b})/2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_027",
+      "questiontext": "Khi sử dụng máy tính cầm tay để giải hệ phương trình ax + y = 5 và 2x + y = 3 với a = {a}, hệ số \\(a_1\\) nhập vào máy tính cho phương trình thứ nhất là:",
+      "generalfeedback": "Phương trình thứ nhất có dạng \\(a_1 x + b_1 y = c_1\\), do đó hệ số \\(a_1\\) tương ứng là {a}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_027",
+      "questiontext": "Cú pháp bấm máy tính cầm tay (dòng máy FX-580VN X) để vào chức năng giải hệ hai phương trình bậc nhất hai ẩn là:",
+      "generalfeedback": "Trên máy tính FX-580VN X, ấn MENU -> 9 (Phương trình/Hệ phương trình) -> 1 (Hệ phương trình) -> 2 (Số ẩn là 2).",
+      "answers": [
+        {
+          "text": "MENU -> 9 -> 1 -> 2",
+          "fraction": 100
+        },
+        {
+          "text": "MENU -> 8 -> 1 -> 2",
+          "fraction": 0
+        },
+        {
+          "text": "MODE -> 5 -> 1",
+          "fraction": 0
+        },
+        {
+          "text": "SHIFT -> SOLVE",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Hệ thống hóa kiến thức Chương I về phương trình và hệ phương trình bậc nhất hai ẩn",
+      "questiontext": "Muốn giải hệ hai phương trình bậc nhất hai ẩn bằng phương pháp cộng đại số, ta thực hiện theo các bước nào sau đây?",
+      "generalfeedback": "Phương pháp cộng đại số gồm: Nhân hai vế của mỗi phương trình với một số thích hợp (nếu cần) sao cho các hệ số của một ẩn nào đó trong hai phương trình bằng nhau hoặc đối nhau; cộng hay trừ từng vế hai phương trình để được một phương trình một ẩn; giải phương trình đó rồi tìm nghiệm còn lại.",
+      "answers": [
+        {
+          "text": "Biến đổi hệ số của một ẩn bằng nhau hoặc đối nhau -> Cộng hoặc trừ từng vế hai phương trình -> Giải phương trình một ẩn thu được",
+          "fraction": 100
+        },
+        {
+          "text": "Rút một ẩn từ phương trình này rồi thế vào phương trình kia -> Giải phương trình một ẩn",
+          "fraction": 0
+        },
+        {
+          "text": "Vẽ hai đường thẳng trên mặt phẳng tọa độ -> Tìm giao điểm",
+          "fraction": 0
+        },
+        {
+          "text": "Nhập các hệ số vào máy tính cầm tay -> Đọc kết quả",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi gặp một bài toán thực tế phức tạp về lập hệ phương trình bậc nhất hai ẩn (như bài toán tìm số tự nhiên hay toán năng suất lúa), bạn Nam gặp khó khăn trong việc biến đổi đại số và muốn bỏ cuộc để chép đáp án. Để thể hiện phẩm chất luôn cố gắng vươn lên đạt kết quả tốt trong học tập, bạn Nam nên thực hiện hành động nào sau đây?",
+      "generalfeedback": "Thể hiện phẩm chất nỗ lực vươn lên trong học tập là khi gặp khó khăn, học sinh không bỏ cuộc hay gian lận mà chủ động phân tích lại lý thuyết, phương pháp lập hệ phương trình hoặc chủ động hỏi thầy cô, bạn bè để tự mình hiểu và giải bài toán.",
+      "answers": [
+        {
+          "text": "Tự kiên nhẫn kiểm tra lại các bước chọn ẩn, lập mối liên hệ giữa các đại lượng hoặc nhờ thầy cô, bạn bè hướng dẫn cách giải",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài toán khó và chép sẵn lời giải từ tài liệu trên mạng để nộp đúng hạn",
+          "fraction": 0
+        },
+        {
+          "text": "Nhờ bạn làm hộ toàn bộ bài tập rồi ghi tên mình vào",
+          "fraction": 0
+        },
+        {
+          "text": "Đề nghị giáo viên bỏ bớt các bài tập ứng dụng thực tế vì quá phức tạp",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Để lưu giữ và tóm tắt thông tin một cách có chọn lọc từ bài toán thực tế: 'Một người mua hai loại hàng hết tổng cộng 21,7 triệu đồng bao gồm thuế VAT (10% đối với loại I, 8% đối với loại II)...', cách tổ chức dữ liệu nào sau đây bằng bảng giúp việc lập hệ phương trình bậc nhất hai ẩn được rõ ràng nhất?",
+      "generalfeedback": "Lập bảng tóm tắt gồm các cột: 'Loại hàng', 'Giá chưa thuế (ẩn x, y)', 'Thế suất VAT (%)', và 'Tiền trả có thuế' sẽ giúp phân loại thông tin có chọn lọc, rõ ràng và trực tiếp dẫn đến hệ phương trình \\(\\begin{cases} 1,1x + 1,08y = 21,7 \\\\ 1,09(x + y) = 21,8 \\end{cases}\\).",
+      "answers": [
+        {
+          "text": "Lập bảng gồm các dòng ứng với Loại I, Loại II và các cột: Giá chưa thuế, Thuế suất VAT, Tổng tiền có thuế",
+          "fraction": 100
+        },
+        {
+          "text": "Ghi chép lại toàn bộ lời văn của bài toán thành một đoạn văn dài hơn",
+          "fraction": 0
+        },
+        {
+          "text": "Liệt kê các số 21,7; 10%; 8%; 9%; 21,8 thành một danh sách ngẫu nhiên",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ ghi lại đáp số cuối cùng mà không tóm tắt các đại lượng trung gian",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Đối với bài toán hai vật chuyển động đều trên đường tròn đường kính 20 cm, gặp nhau sau 4 giây khi đi ngược chiều và sau 20 giây khi đi cùng chiều (Bài 1.27), giải pháp tổng quát nào sau đây là hợp lý nhất để giải quyết vấn đề?",
+      "generalfeedback": "Giải pháp giải quyết vấn đề toán thực tế gồm các bước: Mô hình hóa toán học (tính chu vi, chọn ẩn là vận tốc, lập hệ phương trình dựa trên tổng/hiệu quãng đường), giải hệ phương trình và kết luận.",
+      "answers": [
+        {
+          "text": "Tính chu vi đường tròn \\(C = 20\\pi\\) cm, chọn ẩn là vận tốc hai vật, lập hệ phương trình theo tổng và hiệu quãng đường rồi giải hệ",
+          "fraction": 100
+        },
+        {
+          "text": "Đo trực tiếp tốc độ chuyển động của hai vật bằng thực nghiệm trong phòng thí nghiệm",
+          "fraction": 0
+        },
+        {
+          "text": "Đoán chừng vận tốc của hai vật rồi thử lại vào công thức tính quãng đường",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ xét trường hợp hai vật chuyển động ngược chiều và bỏ qua trường hợp cùng chiều",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_03_04",
+      "questiontext": "Để giải quyết bài toán tìm số tự nhiên \\(n\\) có hai chữ số (Bài 1.25), kiến thức toán học tương thích cốt lõi nào cần được sử dụng để chuyển bài toán về dạng đại số?",
+      "generalfeedback": "Kiến thức toán học tương thích ở đây là cấu tạo số trong hệ thập phân \\(\\overline{ab} = 10a + b\\) và \\(\\overline{a3b} = 100a + 30 + b\\), kết hợp với lập hệ hai phương trình bậc nhất hai ẩn.",
+      "answers": [
+        {
+          "text": "Biểu diễn số tự nhiên theo cấu tạo thập phân \\(\\overline{ab} = 10a + b\\) và lập hệ hai phương trình bậc nhất hai ẩn",
+          "fraction": 100
+        },
+        {
+          "text": "Công thức tính diện tích và chu vi hình chữ nhật",
+          "fraction": 0
+        },
+        {
+          "text": "Định lý Pythagore trong tam giác vuông",
+          "fraction": 0
+        },
+        {
+          "text": "Bất đẳng thức Tam giác",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Khi giải hệ phương trình \\(\\begin{cases} 2(x-2)+3(1+y)=-2 \\\\ 3(x-2)-2(1+y)=-3 \\end{cases}\\), kỹ năng toán học tương thích nào giúp thực hiện biến đổi và giải quyết vấn đề một cách tối ưu nhất?",
+      "generalfeedback": "Kỹ năng đặt ẩn phụ \\(u = x - 2\\) và \\(v = 1 + y\\) giúp đưa hệ phức tạp về hệ phương trình bậc nhất hai ẩn đơn giản \\(\\begin{cases} 2u + 3v = -2 \\\\ 3u - 2v = -3 \\end{cases}\\), giúp giải nhanh chóng và tránh sai sót biến đổi.",
+      "answers": [
+        {
+          "text": "Kỹ năng đặt ẩn phụ \\(u = x - 2\\) và \\(v = 1 + y\\) để đưa về hệ phương trình bậc nhất hai ẩn đơn giản",
+          "fraction": 100
+        },
+        {
+          "text": "Kỹ năng nhân khai triển toàn bộ các ngoặc rồi quy đồng mẫu thức các số hạng",
+          "fraction": 0
+        },
+        {
+          "text": "Kỹ năng đoán nghiệm và thử lại vào hai phương trình",
+          "fraction": 0
+        },
+        {
+          "text": "Kỹ năng biểu diễn nghiệm trên trục số thực",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "2.1TC2a_K9",
+      "questiontext": "Trong quá trình học tập bài Hệ hai phương trình bậc nhất hai ẩn, học sinh muốn sử dụng công nghệ số để vẽ đồ thị hai đường thẳng \\(y = f(x)\\) nhằm trực quan hóa giao điểm và xác định nghiệm của hệ. Công cụ công nghệ số nào sau đây là lựa chọn phù hợp nhất với nhu cầu này?",
+      "generalfeedback": "Phần mềm toán học hình học động (như GeoGebra) hoặc ứng dụng vẽ đồ thị là công nghệ số tương tác phù hợp nhất để dựng đường thẳng và tìm tọa độ giao điểm của hệ phương trình.",
+      "answers": [
+        {
+          "text": "Phần mềm hình học và đồ thị động (như GeoGebra hay Desmos)",
+          "fraction": 100
+        },
+        {
+          "text": "Phần mềm trình chiếu Powerpoint",
+          "fraction": 0
+        },
+        {
+          "text": "Phần mềm soạn thảo văn bản Word",
+          "fraction": 0
+        },
+        {
+          "text": "Phần mềm chỉnh sửa ảnh Photoshop",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "9.A3.1_2",
+      "questiontext": "Một học sinh nhập bài toán năng suất lúa (Bài 1.26) vào một công cụ AI trợ lý học tập. Công cụ AI trả về kết quả: 'Năng suất lúa mới là 60 tấn/ha và lúa cũ là 50 tấn/ha'. Thể hiện năng lực tư duy phản biện khi sử dụng thông tin do AI cung cấp, học sinh nên phân tích và đánh giá kết quả này như thế nào?",
+      "generalfeedback": "Năng lực AI đòi hỏi phát triển tư duy phản biện: nhận biết được năng suất lúa 60 tấn/ha là hoàn toàn phi thực tế trong thực tiễn nông nghiệp (thường chỉ khoảng 5-8 tấn/ha), từ đó phát hiện AI đã tính toán nhầm hoặc hiểu sai đơn vị, cần kiểm tra lại các bước giải.",
+      "answers": [
+        {
+          "text": "Nhận ra số liệu 60 tấn/ha là phi thực tế với nông nghiệp, phân tích được AI đã nhầm lẫn về số liệu và tự kiểm tra lại các bước giải",
+          "fraction": 100
+        },
+        {
+          "text": "Chấp nhận ngay kết quả của AI vì máy tính luôn giải chính xác hơn con người",
+          "fraction": 0
+        },
+        {
+          "text": "Khẳng định bài toán SGK bị sai đề vì kết quả AI ra quá lớn",
+          "fraction": 0
+        },
+        {
+          "text": "Chép ngay kết quả vào vở mà không cần suy nghĩ hay đánh giá tính thực tế",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

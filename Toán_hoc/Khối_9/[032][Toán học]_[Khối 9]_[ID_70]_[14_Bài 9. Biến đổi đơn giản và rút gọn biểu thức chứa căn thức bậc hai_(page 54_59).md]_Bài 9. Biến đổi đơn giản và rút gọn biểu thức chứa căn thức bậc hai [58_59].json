@@ -1,0 +1,766 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 32,
+    "metadata_used": {
+      "YCCD_TOAN9_008": 5,
+      "YCCD_TOAN9_009": 4,
+      "Khái niệm các căn thức bậc hai đồng dạng": 2,
+      "YCCD_TOAN9_015": 4,
+      "Rút gọn biểu thức chứa các căn thức đồng dạng": 2,
+      "Giải bài tập tổng hợp biến đổi đơn giản căn thức bậc hai": 3,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_GQVD_PHATHIEN_C2_01": 1,
+      "SUB_GQVD_DEXUAT_C2_02": 1,
+      "NLT_TOAN_C2_03_04": 1,
+      "NLT_TOAN_C2_03_05": 1
+    },
+    "types_used": {
+      "multichoice": 18,
+      "shortanswer": 3,
+      "truefalse": 3,
+      "matching": 3,
+      "numerical": 3,
+      "gapselect": 1,
+      "ddwtos": 1
+    },
+    "total": 32
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN9_008",
+        "reason": "Thực hiện được việc đưa thừa số ra ngoài dấu căn bậc hai."
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_009",
+        "reason": "Thực hiện được việc đưa thừa số vào trong dấu căn bậc hai."
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_015",
+        "reason": "Thực hiện được phép biến đổi trục căn thức ở mẫu."
+      },
+      {
+        "metadata_code": "Khái niệm các căn thức bậc hai đồng dạng",
+        "reason": "Khái niệm các căn thức bậc hai đồng dạng."
+      },
+      {
+        "metadata_code": "Rút gọn biểu thức chứa các căn thức đồng dạng",
+        "reason": "Rút gọn biểu thức chứa các căn thức đồng dạng."
+      },
+      {
+        "metadata_code": "Giải bài tập tổng hợp biến đổi đơn giản căn thức bậc hai",
+        "reason": "Giải bài tập tổng hợp biến đổi đơn giản căn thức bậc hai."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học thuần túy về biến đổi đại số căn thức bậc hai, không chứa nội dung hay bối cảnh ứng dụng công cụ tin học/số tự nhiên."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Bài học thuần túy về biến đổi đại số căn thức bậc hai, không chứa bối cảnh ứng dụng trí tuệ nhân tạo (AI) tự nhiên."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_008",
+      "questiontext": "Biết \\(a \\ge 0\\) và \\(b \\ge 0\\), khẳng định nào sau đây là đúng về phép biến đổi đưa thừa số ra ngoài dấu căn bậc hai?",
+      "generalfeedback": "Với hai số không âm \\(a\\) và \\(b\\), ta có \\(\\sqrt{a^2 b} = \\sqrt{a^2} \\cdot \\sqrt{b} = a\\sqrt{b}\\).",
+      "answers": [
+        {
+          "text": "\\(\\sqrt{a^2 b} = a\\sqrt{b}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\sqrt{a^2 b} = b\\sqrt{a}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\sqrt{a^2 b} = a^2\\sqrt{b}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\sqrt{a^2 b} = \\sqrt{a} \\cdot b\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_008",
+      "questiontext": "Đưa thừa số ra ngoài dấu căn bậc hai đối với biểu thức \\(\\sqrt{52}\\), ta được kết quả dạng \\(a\\sqrt{b}\\). Giá trị của biểu thức \\(a + b\\) bằng bao nhiêu?",
+      "generalfeedback": "Ta có \\(\\sqrt{52} = \\sqrt{4 \\cdot 13} = \\sqrt{2^2 \\cdot 13} = 2\\sqrt{13}\\). Do đó \\(a = 2\\) và \\(b = 13\\), suy ra \\(a + b = 2 + 13 = 15\\).",
+      "answers": [
+        {
+          "text": "15",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_009",
+      "questiontext": "Cho biểu thức \\(-2\\sqrt{7}\\). Khi đưa thừa số vào trong dấu căn, kết quả thu được là:",
+      "generalfeedback": "Vì \\(-2 < 0\\) và \\(7 \\ge 0\\) nên \\(-2\\sqrt{7} = -\\sqrt{(-2)^2 \\cdot 7} = -\\sqrt{4 \\cdot 7} = -\\sqrt{28}\\).",
+      "answers": [
+        {
+          "text": "-\\(\\sqrt{28}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\sqrt{28}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "-\\(\\sqrt{14}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\sqrt{14}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm các căn thức bậc hai đồng dạng",
+      "questiontext": "Hai căn thức bậc hai được gọi là đồng dạng nếu sau khi biến đổi đưa thừa số ra ngoài dấu căn, chúng có cùng biểu thức dưới dấu căn.",
+      "generalfeedback": "Đúng. Các căn thức bậc hai đồng dạng là các căn thức có cùng biểu thức dưới dấu căn sau khi đã đưa thừa số ra ngoài dấu căn.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_015",
+      "questiontext": "Nối mỗi biểu thức ở cột trái với kết quả trục căn thức ở mẫu tương ứng ở cột phải:",
+      "generalfeedback": "Ta có:\\n- \\(\\frac{4}{\\sqrt{5}} = \\frac{4\\sqrt{5}}{5}\\)\\n- \\(\\frac{1}{\\sqrt{5}-2} = \\sqrt{5}+2\\)\\n- \\(\\frac{\\sqrt{2}}{\\sqrt{3}+\\sqrt{2}} = \\sqrt{6}-2\\).",
+      "subquestions": [
+        {
+          "question": "\\(\\frac{4}{\\sqrt{5}}\\)",
+          "answer": "\\(\\frac{4\\sqrt{5}}{5}\\)"
+        },
+        {
+          "question": "\\(\\frac{1}{\\sqrt{5}-2}\\)",
+          "answer": "\\(\\sqrt{5}+2\\)"
+        },
+        {
+          "question": "\\(\\frac{\\sqrt{2}}{\\sqrt{3}+\\sqrt{2}}\\)",
+          "answer": "\\(\\sqrt{6}-2\\)"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Rút gọn biểu thức chứa các căn thức đồng dạng",
+      "questiontext": "Tính giá trị của biểu thức \\(P = \\frac{5\\sqrt{48} - 3\\sqrt{27} + 2\\sqrt{12}}{\\sqrt{3}}\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Ta có \\(5\\sqrt{48} = 20\\sqrt{3}\\), \\(3\\sqrt{27} = 9\\sqrt{3}\\), \\(2\\sqrt{12} = 4\\sqrt{3}\\). Khi đó \\(P = \\frac{(20 - 9 + 4)\\sqrt{3}}{\\sqrt{3}} = \\frac{15\\sqrt{3}}{\\sqrt{3}} = 15\\).",
+      "answers": [
+        {
+          "text": "15",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_009",
+      "questiontext": "Điền từ/biểu thức thích hợp vào chỗ trống:\\n- Khi đưa số không âm \\(a\\) vào trong dấu căn của \\(a\\sqrt{b}\\) (với \\(b \\ge 0\\)), ta được [[1]].\\n- Khi đưa số âm \\(a\\) vào trong dấu căn của \\(a\\sqrt{b}\\) (với \\(b \\ge 0\\)), ta được [[2]].",
+      "generalfeedback": "Nếu \\(a \\ge 0, b \\ge 0\\) thì \\(a\\sqrt{b} = \\sqrt{a^2 b}\\). Nếu \\(a < 0, b \\ge 0\\) thì \\(a\\sqrt{b} = -\\sqrt{a^2 b}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(\\sqrt{a^2 b}\\)"
+        },
+        {
+          "group": 1,
+          "text": "-\\(\\sqrt{a^2 b}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\sqrt{ab^2}\\)"
+        },
+        {
+          "group": 1,
+          "text": "-\\(\\sqrt{ab^2}\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Giải bài tập tổng hợp biến đổi đơn giản căn thức bậc hai",
+      "questiontext": "Rút gọn biểu thức \\(A = 2\\sqrt{3} - \\sqrt{75} + \\sqrt{(1-\\sqrt{3})^2}\\), ta được kết quả là:",
+      "generalfeedback": "Ta có \\(\\sqrt{75} = 5\\sqrt{3}\\) và \\(\\sqrt{(1-\\sqrt{3})^2} = |1-\\sqrt{3}| = \\sqrt{3}-1\\). Do đó \\(A = 2\\sqrt{3} - 5\\sqrt{3} + \\sqrt{3} - 1 = -1 - 2\\sqrt{3}\\).",
+      "answers": [
+        {
+          "text": "-1 - 2\\(\\sqrt{3}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "1 - 2\\(\\sqrt{3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "-1 + 2\\(\\sqrt{3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "-1 - 4\\(\\sqrt{3}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm các căn thức bậc hai đồng dạng",
+      "questiontext": "Trong các biểu thức sau: \\(2\\sqrt{3}\\), \\(5\\sqrt{2}\\), \\(-\\sqrt{3}\\), \\(\\sqrt{27}\\):\\n- Các căn thức đồng dạng với \\(\\sqrt{3}\\) là [[1]] và [[2]].",
+      "generalfeedback": "Ta có \\(\\sqrt{27} = 3\\sqrt{3}\\). Vậy các căn thức đồng dạng với \\(\\sqrt{3}\\) là \\(2\\sqrt{3}\\), \\(-\\sqrt{3}\\) và \\(\\sqrt{27}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(2\\sqrt{3}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\sqrt{27}\\)"
+        },
+        {
+          "group": 1,
+          "text": "5\\(\\sqrt{2}\\)"
+        },
+        {
+          "group": 1,
+          "text": "2\\(\\sqrt{5}\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_008",
+      "questiontext": "Khử mẫu của biểu thức lấy căn \\(\\sqrt{\\frac{3}{5}}\\), ta được kết quả là:",
+      "generalfeedback": "Ta có \\(\\sqrt{\\frac{3}{5}} = \\sqrt{\\frac{3 \\cdot 5}{5^2}} = \\frac{\\sqrt{15}}{5}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{\\sqrt{15}}{5}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{\\sqrt{3}}{5}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{3\\sqrt{5}}{5}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{\\sqrt{15}}{3}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_009",
+      "questiontext": "Đưa thừa số vào trong dấu căn đối với biểu thức \\(3\\sqrt{5}\\), ta được kết quả dưới dạng \\(\\sqrt{N}\\). Giá trị của N bằng bao nhiêu?",
+      "generalfeedback": "Ta có \\(3\\sqrt{5} = \\sqrt{3^2 \\cdot 5} = \\sqrt{9 \\cdot 5} = \\sqrt{45}\\). Do đó \\(N = 45\\).",
+      "answers": [
+        {
+          "text": "45",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_015",
+      "questiontext": "Kết quả trục căn thức ở mẫu của biểu thức \\(\\frac{2}{3\\sqrt{5}}\\) là \\(\\frac{2\\sqrt{5}}{15}\\).",
+      "generalfeedback": "Đúng. Nhân cả tử và mẫu với \\(\\sqrt{5}\\), ta được \\(\\frac{2\\sqrt{5}}{3 \\cdot 5} = \\frac{2\\sqrt{5}}{15}\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Rút gọn biểu thức chứa các căn thức đồng dạng",
+      "questiontext": "Khử mẫu của biểu thức lấy căn và rút gọn biểu thức \\(-3x \\cdot \\sqrt{\\frac{5}{x}}\\) (với \\(x > 0\\)), ta được kết quả là:",
+      "generalfeedback": "Với \\(x > 0\\), ta có \\(-3x \\cdot \\sqrt{\\frac{5}{x}} = -3x \\cdot \\frac{\\sqrt{5x}}{x} = -3\\sqrt{5x}\\).",
+      "answers": [
+        {
+          "text": "-3\\(\\sqrt{5x}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "3\\(\\sqrt{5x}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "-3x\\(\\sqrt{5}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "-\\(\\sqrt{15x}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Giải bài tập tổng hợp biến đổi đơn giản căn thức bậc hai",
+      "questiontext": "Tính giá trị rút gọn của biểu thức \\(P = \\frac{1}{3+2\\sqrt{2}} + \\frac{4\\sqrt{2}-4}{2-\\sqrt{2}}\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Ta có \\(\\frac{1}{3+2\\sqrt{2}} = 3-2\\sqrt{2}\\) và \\(\\frac{4\\sqrt{2}-4}{2-\\sqrt{2}} = \\frac{4(\\sqrt{2}-1)}{\\sqrt{2}(\\sqrt{2}-1)} = 2\\sqrt{2}\\). Do đó \\(P = (3-2\\sqrt{2}) + 2\\sqrt{2} = 3\\).",
+      "answers": [
+        {
+          "text": "3",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_015",
+      "questiontext": "Biểu thức liên hợp của mẫu trong biểu thức \\(\\frac{a}{3-2\\sqrt{2}}\\) là:",
+      "generalfeedback": "Biểu thức liên hợp của \\(3-2\\sqrt{2}\\) là \\(3+2\\sqrt{2}\\).",
+      "answers": [
+        {
+          "text": "3 + 2\\(\\sqrt{2}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "3 - 2\\(\\sqrt{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "-3 + 2\\(\\sqrt{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "-3 - 2\\(\\sqrt{2}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Giải bài tập tổng hợp biến đổi đơn giản căn thức bậc hai",
+      "questiontext": "Rút gọn biểu thức \\(P = \\left(\\frac{\\sqrt{22}-\\sqrt{11}}{1-\\sqrt{2}}+\\frac{\\sqrt{21}-\\sqrt{7}}{1-\\sqrt{3}}\\right)\\left(\\sqrt{7}-\\sqrt{11}\\right)\\), ta được kết quả là:",
+      "generalfeedback": "Ta có \\(\\frac{\\sqrt{22}-\\sqrt{11}}{1-\\sqrt{2}} = -\\sqrt{11}\\) và \\(\\frac{\\sqrt{21}-\\sqrt{7}}{1-\\sqrt{3}} = -\\sqrt{7}\\). Do đó \\(P = (-\\sqrt{11}-\\sqrt{7})(\\sqrt{7}-\\sqrt{11}) = -(\\sqrt{7}+\\sqrt{11})(\\sqrt{7}-\\sqrt{11}) = -(7-11) = 4\\).",
+      "answers": [
+        {
+          "text": "4",
+          "fraction": 100
+        },
+        {
+          "text": "-4",
+          "fraction": 0
+        },
+        {
+          "text": "2",
+          "fraction": 0
+        },
+        {
+          "text": "-2",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_008",
+      "questiontext": "Nối mỗi biểu thức ở cột trái với kết quả sau khi đưa thừa số ra ngoài dấu căn tương ứng ở cột phải:",
+      "generalfeedback": "Ta có:\\n- \\(\\sqrt{27a} = 3\\sqrt{3a}\\) (với \\(a \\ge 0\\))\\n- \\(3\\sqrt{27} = 9\\sqrt{3}\\)\\n- \\(5\\sqrt{48} = 20\\sqrt{3}\\).",
+      "subquestions": [
+        {
+          "question": "\\(\\sqrt{27a}\\) (với \\(a \\ge 0\\))",
+          "answer": "3\\(\\sqrt{3a}\\)"
+        },
+        {
+          "question": "3\\(\\sqrt{27}\\)",
+          "answer": "9\\(\\sqrt{3}\\)"
+        },
+        {
+          "question": "5\\(\\sqrt{48}\\)",
+          "answer": "20\\(\\sqrt{3}\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_015",
+      "questiontext": "Trục căn thức ở mẫu của biểu thức \\(\\frac{\\sqrt{2}}{\\sqrt{3}+\\sqrt{2}}\\), ta được kết quả là:",
+      "generalfeedback": "Ta có \\(\\frac{\\sqrt{2}}{\\sqrt{3}+\\sqrt{2}} = \\frac{\\sqrt{2}(\\sqrt{3}-\\sqrt{2})}{3-2} = \\sqrt{6} - 2\\).",
+      "answers": [
+        {
+          "text": "\\(\\sqrt{6} - 2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\sqrt{6} + 2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\sqrt{3} - 2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\sqrt{6} - 1\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_008",
+      "questiontext": "Khử mẫu của biểu thức lấy căn \\(\\sqrt{\\frac{3}{5}}\\), ta được kết quả là:",
+      "generalfeedback": "Ta có \\(\\sqrt{\\frac{3}{5}} = \\sqrt{\\frac{3 \\cdot 5}{5^2}} = \\frac{\\sqrt{15}}{5}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{\\sqrt{15}}{5}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{\\sqrt{3}}{5}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{3\\sqrt{5}}{5}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{\\sqrt{15}}{3}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_009",
+      "questiontext": "Đưa thừa số vào trong dấu căn đối với biểu thức \\(3\\sqrt{5}\\), ta được kết quả dưới dạng \\(\\sqrt{N}\\). Giá trị của N bằng bao nhiêu?",
+      "generalfeedback": "Ta có \\(3\\sqrt{5} = \\sqrt{3^2 \\cdot 5} = \\sqrt{9 \\cdot 5} = \\sqrt{45}\\). Do đó \\(N = 45\\).",
+      "answers": [
+        {
+          "text": "45",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_015",
+      "questiontext": "Kết quả trục căn thức ở mẫu của biểu thức \\(\\frac{2}{3\\sqrt{5}}\\) là \\(\\frac{2\\sqrt{5}}{15}\\).",
+      "generalfeedback": "Đúng. Nhân cả tử và mẫu với \\(\\sqrt{5}\\), ta được \\(\\frac{2\\sqrt{5}}{3 \\cdot 5} = \\frac{2\\sqrt{5}}{15}\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Rút gọn biểu thức chứa các căn thức đồng dạng",
+      "questiontext": "Khử mẫu của biểu thức lấy căn và rút gọn biểu thức \\(-3x \\cdot \\sqrt{\\frac{5}{x}}\\) (với \\(x > 0\\)), ta được kết quả là:",
+      "generalfeedback": "Với \\(x > 0\\), ta có \\(-3x \\cdot \\sqrt{\\frac{5}{x}} = -3x \\cdot \\frac{\\sqrt{5x}}{x} = -3\\sqrt{5x}\\).",
+      "answers": [
+        {
+          "text": "-3\\(\\sqrt{5x}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "3\\(\\sqrt{5x}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "-3x\\(\\sqrt{5}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "-\\(\\sqrt{15x}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Giải bài tập tổng hợp biến đổi đơn giản căn thức bậc hai",
+      "questiontext": "Tính giá trị rút gọn của biểu thức \\(P = \\frac{1}{3+2\\sqrt{2}} + \\frac{4\\sqrt{2}-4}{2-\\sqrt{2}}\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Ta có \\(\\frac{1}{3+2\\sqrt{2}} = 3-2\\sqrt{2}\\) và \\(\\frac{4\\sqrt{2}-4}{2-\\sqrt{2}} = \\frac{4(\\sqrt{2}-1)}{\\sqrt{2}(\\sqrt{2}-1)} = 2\\sqrt{2}\\). Do đó \\(P = (3-2\\sqrt{2}) + 2\\sqrt{2} = 3\\).",
+      "answers": [
+        {
+          "text": "3",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN9_015",
+      "questiontext": "Biểu thức liên hợp của mẫu trong biểu thức \\(\\frac{a}{3-2\\sqrt{2}}\\) là:",
+      "generalfeedback": "Biểu thức liên hợp của \\(3-2\\sqrt{2}\\) là \\(3+2\\sqrt{2}\\).",
+      "answers": [
+        {
+          "text": "3 + 2\\(\\sqrt{2}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "3 - 2\\(\\sqrt{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "-3 + 2\\(\\sqrt{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "-3 - 2\\(\\sqrt{2}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Giải bài tập tổng hợp biến đổi đơn giản căn thức bậc hai",
+      "questiontext": "Rút gọn biểu thức \\(P = \\left(\\frac{\\sqrt{22}-\\sqrt{11}}{1-\\sqrt{2}}+\\frac{\\sqrt{21}-\\sqrt{7}}{1-\\sqrt{3}}\\right)\\left(\\sqrt{7}-\\sqrt{11}\\right)\\), ta được kết quả là:",
+      "generalfeedback": "Ta có \\(\\frac{\\sqrt{22}-\\sqrt{11}}{1-\\sqrt{2}} = -\\sqrt{11}\\) và \\(\\frac{\\sqrt{21}-\\sqrt{7}}{1-\\sqrt{3}} = -\\sqrt{7}\\). Do đó \\(P = (-\\sqrt{11}-\\sqrt{7})(\\sqrt{7}-\\sqrt{11}) = -(\\sqrt{7}+\\sqrt{11})(\\sqrt{7}-\\sqrt{11}) = -(7-11) = 4\\).",
+      "answers": [
+        {
+          "text": "4",
+          "fraction": 100
+        },
+        {
+          "text": "-4",
+          "fraction": 0
+        },
+        {
+          "text": "2",
+          "fraction": 0
+        },
+        {
+          "text": "-2",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_008",
+      "questiontext": "Nối mỗi biểu thức ở cột trái với kết quả sau khi đưa thừa số ra ngoài dấu căn tương ứng ở cột phải:",
+      "generalfeedback": "Ta có:\\n- \\(\\sqrt{27a} = 3\\sqrt{3a}\\) (với \\(a \\ge 0\\))\\n- \\(3\\sqrt{27} = 9\\sqrt{3}\\)\\n- \\(5\\sqrt{48} = 20\\sqrt{3}\\).",
+      "subquestions": [
+        {
+          "question": "\\(\\sqrt{27a}\\) (với \\(a \\ge 0\\))",
+          "answer": "3\\(\\sqrt{3a}\\)"
+        },
+        {
+          "question": "3\\(\\sqrt{27}\\)",
+          "answer": "9\\(\\sqrt{3}\\)"
+        },
+        {
+          "question": "5\\(\\sqrt{48}\\)",
+          "answer": "20\\(\\sqrt{3}\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_015",
+      "questiontext": "Trục căn thức ở mẫu của biểu thức \\(\\frac{\\sqrt{2}}{\\sqrt{3}+\\sqrt{2}}\\), ta được kết quả là:",
+      "generalfeedback": "Ta có \\(\\frac{\\sqrt{2}}{\\sqrt{3}+\\sqrt{2}} = \\frac{\\sqrt{2}(\\sqrt{3}-\\sqrt{2})}{3-2} = \\sqrt{6} - 2\\).",
+      "answers": [
+        {
+          "text": "\\(\\sqrt{6} - 2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\sqrt{6} + 2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\sqrt{3} - 2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\sqrt{6} - 1\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi gặp bài toán rút gọn biểu thức chứa căn thức phức tạp \\(P = \\left(\\frac{\\sqrt{22}-\\sqrt{11}}{1-\\sqrt{2}}+\\frac{\\sqrt{21}-\\sqrt{7}}{1-\\sqrt{3}}\\right)\\left(\\sqrt{7}-\\sqrt{11}\\right)\\), bạn An làm lần đầu bị sai do nhầm dấu ở mẫu số. Để vươn lên đạt kết quả tốt trong học tập, hành động nào dưới đây thể hiện thái độ học tập tích cực và đúng đắn nhất của An?",
+      "generalfeedback": "Thái độ học tập tích cực, luôn cố gắng vươn lên đòi hỏi học sinh phải kiên trì, tự mình phân tích nguyên nhân sai sót để rút kinh nghiệm và sửa bài chứ không quay lưng với khó khăn hay đối phó.",
+      "answers": [
+        {
+          "text": "Kiên trì phân tích lại từng bước biến đổi, tự tìm ra lỗi sai ở phép đặt nhân tử chung và đổi dấu để sửa bài, rút kinh nghiệm cho lần sau.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài toán này và chép ngay đáp án của bạn khác để kịp nộp bài cho thầy cô.",
+          "fraction": 0
+        },
+        {
+          "text": "Cho rằng bài toán quá khó nằm ngoài khả năng nên kiến nghị thầy cô bỏ bớt các dạng bài tập rút gọn căn thức.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ học thuộc lòng kết quả cuối cùng mà không cần tìm hiểu nguyên nhân vì sao phép tính trước đó bị sai.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GQVD_PHATHIEN_C2_01",
+      "questiontext": "Trong giờ học Luyện tập về biến đổi căn thức, bạn Vuông thực hiện phép biến đổi đưa thừa số vào trong dấu căn như sau:\\n\\(-5\\sqrt{4} = \\sqrt{(-5)^2 \\cdot 4} = \\sqrt{25 \\cdot 4} = \\sqrt{100} = 10\\). [img:_page_1_Picture_12.jpeg]\\nEm hãy phân tích tình huống làm bài của Vuông và chỉ ra nguyên nhân dẫn đến kết quả sai lầm trên.",
+      "generalfeedback": "Khi đưa thừa số âm \\(a < 0\\) vào trong dấu căn của \\(a\\sqrt{b}\\) (với \\(b \\ge 0\\)), ta phải để lại dấu âm ở trước dấu căn: \\(a\\sqrt{b} = -\\sqrt{a^2b}\\). Bạn Vuông đã không để lại dấu âm nên làm sai.",
+      "imgs": [
+        "_page_1_Picture_12.jpeg"
+      ],
+      "answers": [
+        {
+          "text": "Vuông đã mắc sai lầm khi đưa thừa số âm (\\(-5\\)) vào trong dấu căn mà không giữ lại dấu âm ở trước dấu căn, vì với \\(a < 0\\) và \\(b \\ge 0\\) thì \\(a\\sqrt{b} = -\\sqrt{a^2b}\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Vuông tính sai \\((-5)^2\\) vì \\((-5)^2\\) phải bằng \\(-25\\) chứ không phải \\(25\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Vuông áp dụng đúng quy tắc đưa thừa số vào trong dấu căn nhưng tính nhầm \\(\\sqrt{100} = 10\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Vuông mắc sai lầm do không đổi dấu số \\(4\\) thành \\(-4\\) khi đưa thừa số \\(-5\\) vào trong dấu căn.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Nhóm học tập của Bình gặp bài toán yêu cầu trục căn thức ở mẫu của biểu thức \\(A = \\frac{6}{\\sqrt{5} - \\sqrt{2}}\\). Các bạn đang thảo luận để đề xuất giải pháp biến đổi hiệu quả và chính xác nhất. Giải pháp nào sau đây là tối ưu nhất?",
+      "generalfeedback": "Để trục căn thức ở mẫu có dạng \\(\\sqrt{A} - \\sqrt{B}\\), giải pháp tối ưu là nhân cả tử và mẫu với biểu thức liên hợp \\(\\sqrt{A} + \\sqrt{B}\\) để áp dụng hằng đẳng thức hiệu hai bình phương, biến mẫu thành số nguyên \\(A - B\\).",
+      "answers": [
+        {
+          "text": "Nhân cả tử và mẫu với biểu thức liên hợp \\(\\sqrt{5} + \\sqrt{2}\\) để mẫu trở thành \\((\\sqrt{5})^2 - (\\sqrt{2})^2 = 3\\), sau đó rút gọn với tử số \\(6\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Nhân cả tử và mẫu với chính biểu thức \\(\\sqrt{5} - \\sqrt{2}\\) để làm mất dấu căn ở mẫu.",
+          "fraction": 0
+        },
+        {
+          "text": "Bình phương cả tử và mẫu của biểu thức \\(A\\) để thu được phân thức mới không chứa căn ở mẫu.",
+          "fraction": 0
+        },
+        {
+          "text": "Sử dụng máy tính cầm tay tính giá trị gần đúng của \\(\\sqrt{5}\\) và \\(\\sqrt{2}\\) rồi thực hiện phép trừ ở mẫu.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_04",
+      "questiontext": "Trong vật lý đại cương, khối lượng \\(m\\) (kg) của một hạt chuyển động với vận tốc \\(v\\) (m/s) được cho bởi công thức \\(m = \\frac{m_0}{\\sqrt{1 - \\frac{v^2}{c^2}}}\\), trong đó \\(m_0\\) là khối lượng nghỉ và \\(c\\) là vận tốc ánh sáng. Để biến đổi công thức trên về dạng không chứa căn thức ở mẫu giúp thuận tiện cho việc tính toán đại số, kiến thức toán học nào sau đây cần được sử dụng?",
+      "generalfeedback": "Quy đồng mẫu thức trong dấu căn \\(\\sqrt{\\frac{c^2-v^2}{c^2}} = \\frac{\\sqrt{c^2-v^2}}{c}\\) rồi khai căn ở mẫu và thực hiện phép chia phân thức ta được \\(m = \\frac{m_0 \\cdot c}{\\sqrt{c^2-v^2}}\\). Tiếp tục trục căn thức ở mẫu bằng cách nhân cả tử và mẫu với \\(\\sqrt{c^2-v^2}\\) ta được \\(m = \\frac{m_0 \\cdot c \\sqrt{c^2-v^2}}{c^2-v^2}\\).",
+      "answers": [
+        {
+          "text": "Quy đồng mẫu thức trong dấu căn, đưa thừa số \\(c^2\\) ở mẫu ra ngoài dấu căn thành \\(c\\), sau đó nhân cả tử và mẫu với \\(\\sqrt{c^2 - v^2}\\) để trục căn thức ở mẫu.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ dấu căn ở mẫu để thu được công thức đơn giản \\(m = \\frac{m_0}{1 - \\frac{v}{c}}\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Bình phương hai vế của công thức để được \\(m^2 = \\frac{m_0^2}{1 - \\frac{v^2}{c^2}}\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Nhân cả tử và mẫu với \\(1 + \\frac{v^2}{c^2}\\) để triệt tiêu căn thức ở mẫu.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Để so sánh hai khoảng cách \\(d_1 = 3\\sqrt{2}\\) (m) và \\(d_2 = 2\\sqrt{3}\\) (m) mà không sử dụng máy tính cầm tay, kĩ năng biến đổi toán học nào dưới đây giúp giải quyết bài toán nhanh chóng và chính xác nhất?",
+      "generalfeedback": "Sử dụng kĩ năng đưa thừa số vào trong dấu căn: \\(3\\sqrt{2} = \\sqrt{3^2 \\cdot 2} = \\sqrt{18}\\) và \\(2\\sqrt{3} = \\sqrt{2^2 \\cdot 3} = \\sqrt{12}\\). Vì \\(18 > 12\\) nên \\(\\sqrt{18} > \\sqrt{12}\\), suy ra \\(d_1 > d_2\\).",
+      "answers": [
+        {
+          "text": "Sử dụng kĩ năng đưa thừa số vào trong dấu căn để biến đổi \\(d_1 = \\sqrt{18}\\) và \\(d_2 = \\sqrt{12}\\), từ đó so sánh hai biểu thức dưới dấu căn.",
+          "fraction": 100
+        },
+        {
+          "text": "Sử dụng kĩ năng trục căn thức ở mẫu bằng cách chia cả hai khoảng cách cho \\(\\sqrt{6}\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Sử dụng kĩ năng làm tròn số đối với các thừa số ngoài dấu căn để so sánh \\(3 > 2\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Lấy \\(d_1\\) trừ \\(d_2\\) thu được \\(1\\sqrt{-1}\\) rồi so sánh kết quả với \\(0\\).",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

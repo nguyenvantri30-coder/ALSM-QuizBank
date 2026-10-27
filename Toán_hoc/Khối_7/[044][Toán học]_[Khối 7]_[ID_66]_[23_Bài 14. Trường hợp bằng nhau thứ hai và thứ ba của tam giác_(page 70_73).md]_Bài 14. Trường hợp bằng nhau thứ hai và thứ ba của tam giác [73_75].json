@@ -1,0 +1,494 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 18,
+    "metadata_used": {
+      "Khái niệm góc xen giữa hai cạnh": 4,
+      "Nhận biết góc xen giữa hai cạnh": 3,
+      "Trường hợp bằng nhau Cạnh - Góc - Cạnh (c.g.c)": 3,
+      "Chứng minh hai tam giác bằng nhau theo trường hợp c.g.c": 6,
+      "YCCD_TOAN7_089": 4,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_TUCHUTUHOC": 1,
+      "NLC_GIAOTIEP": 1,
+      "NLT_TOAN_C2_01": 2,
+      "NLT_TOAN_C2_04": 2
+    },
+    "types_used": {
+      "multichoice": 8,
+      "truefalse": 3,
+      "gapselect": 3,
+      "matching": 2,
+      "shortanswer": 1,
+      "numerical": 1
+    },
+    "total": 18
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_089",
+        "reason": "Có đủ cơ sở SGK để thiết kế câu hỏi giải thích các trường hợp bằng nhau của tam giác"
+      },
+      {
+        "metadata_code": "Khái niệm góc xen giữa hai cạnh",
+        "reason": "Nội dung SGK định nghĩa rõ khái niệm góc xen giữa hai cạnh"
+      },
+      {
+        "metadata_code": "Trường hợp bằng nhau Cạnh - Góc - Cạnh (c.g.c)",
+        "reason": "Nội dung SGK trình bày định lý trường hợp bằng nhau c.g.c"
+      },
+      {
+        "metadata_code": "Nhận biết góc xen giữa hai cạnh",
+        "reason": "SGK cung cấp các hình vẽ và bài tập nhận biết góc xen giữa"
+      },
+      {
+        "metadata_code": "Chứng minh hai tam giác bằng nhau theo trường hợp c.g.c",
+        "reason": "SGK cung cấp ví dụ và bài tập chứng minh tam giác bằng nhau theo c.g.c"
+      },
+      {
+        "metadata_code": "PC_CHAMCHI",
+        "reason": "Tạo tình huống học đường rèn luyện tính kiên trì, tự giác làm bài tập hình học"
+      },
+      {
+        "metadata_code": "PC_TRUNGTHUC",
+        "reason": "Tạo tình huống tôn trọng sự thật và kết quả đo đạc thực tế"
+      },
+      {
+        "metadata_code": "NLC_TUCHUTUHOC",
+        "reason": "Tạo tình huống lập kế hoạch và quy trình tự học định lý và bài tập"
+      },
+      {
+        "metadata_code": "NLC_GIAOTIEP",
+        "reason": "Tạo tình huống thảo luận nhóm và góp ý lịch sự, tôn trọng trong học tập"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01",
+        "reason": "Tạo tình huống đánh giá lập luận toán học và ứng dụng suy luận hình học"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_04",
+        "reason": "Tạo tình huống thể hiện kĩ năng diễn đạt và trình bày lời giải toán học"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học thuộc phân môn Hình học 7 (Trường hợp bằng nhau c.g.c) không chứa nội dung hay công cụ thuộc lĩnh vực Năng lực Tin học / Số (N)."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Bài học thuần túy về lý thuyết và bài tập hình học phẳng cơ bản, không có cơ sở tự nhiên để lồng ghép Năng lực AI (A) mà không bị khiên cưỡng."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm góc xen giữa hai cạnh",
+      "questiontext": "Trong \\(\\triangle ABC\\), góc xen giữa hai cạnh \\(AB\\) và \\(AC\\) là góc nào?",
+      "generalfeedback": "Theo định nghĩa trong SGK, trong \\(\\triangle ABC\\), góc \\(BAC\\) (hay góc \\(A\\)) được gọi là góc xen giữa hai cạnh \\(AB\\) và \\(AC\\).",
+      "answers": [
+        {
+          "text": "Góc \\(A\\) (hay \\(\\widehat{BAC}\\))",
+          "fraction": 100
+        },
+        {
+          "text": "Góc \\(B\\) (hay \\(\\widehat{ABC}\\))",
+          "fraction": 0
+        },
+        {
+          "text": "Góc \\(C\\) (hay \\(\\widehat{ACB}\\))",
+          "fraction": 0
+        },
+        {
+          "text": "Góc ngoài tại đỉnh \\(A\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm góc xen giữa hai cạnh",
+      "questiontext": "Đúng hay Sai: Trong \\(\\triangle MNP\\), góc \\(N\\) (hay \\(\\widehat{MNP}\\)) là góc xen giữa hai cạnh \\(MN\\) và \\(NP\\).",
+      "generalfeedback": "Đúng. Góc \\(N\\) được tạo bởi hai cạnh \\(MN\\) và \\(NP\\) nên là góc xen giữa hai cạnh \\(MN\\) và \\(NP\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết góc xen giữa hai cạnh",
+      "questiontext": "Trong \\(\\triangle DEF\\), góc xen giữa hai cạnh \\(DE\\) và \\(DF\\) là [[1]], còn góc xen giữa hai cạnh \\(EF\\) và \\(ED\\) là [[2]].",
+      "generalfeedback": "Góc xen giữa hai cạnh chứa đỉnh chung của hai cạnh đó. Đỉnh chung của \\(DE\\) và \\(DF\\) là \\(D\\) (góc \\(D\\)); đỉnh chung của \\(EF\\) và \\(ED\\) là \\(E\\) (góc \\(E\\)).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "góc \\(D\\)"
+        },
+        {
+          "group": 1,
+          "text": "góc \\(E\\)"
+        },
+        {
+          "group": 1,
+          "text": "góc \\(F\\)"
+        },
+        {
+          "group": 1,
+          "text": "cạnh \\(EF\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Trường hợp bằng nhau Cạnh - Góc - Cạnh (c.g.c)",
+      "questiontext": "Phát biểu nào sau đây đúng về trường hợp bằng nhau cạnh - góc - cạnh (c.g.c) của hai tam giác?",
+      "generalfeedback": "Định lý ghi nhận: Nếu hai cạnh và góc xen giữa của tam giác này bằng hai cạnh và góc xen giữa của tam giác kia thì hai tam giác đó bằng nhau.",
+      "answers": [
+        {
+          "text": "Nếu hai cạnh và góc xen giữa của tam giác này bằng hai cạnh và góc xen giữa của tam giác kia thì hai tam giác đó bằng nhau.",
+          "fraction": 100
+        },
+        {
+          "text": "Nếu hai cạnh và một góc bất kỳ của tam giác này bằng hai cạnh và một góc của tam giác kia thì hai tam giác đó bằng nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Nếu ba góc của tam giác này bằng ba góc của tam giác kia thì hai tam giác đó bằng nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Nếu hai góc và một cạnh kề của tam giác này bằng hai góc và một cạnh của tam giác kia thì hai tam giác đó bằng nhau.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết góc xen giữa hai cạnh",
+      "questiontext": "Ghép cặp mỗi cặp cạnh của \\(\\triangle ABC\\) với góc xen giữa tương ứng của chúng:",
+      "generalfeedback": "Góc xen giữa hai cạnh là góc có đỉnh là điểm chung của hai cạnh đó.",
+      "subquestions": [
+        {
+          "question": "Cặp cạnh \\(AB\\) và \\(BC\\)",
+          "answer": "Góc \\(B\\)"
+        },
+        {
+          "question": "Cặp cạnh \\(BC\\) và \\(CA\\)",
+          "answer": "Góc \\(C\\)"
+        },
+        {
+          "question": "Cặp cạnh \\(CA\\) và \\(AB\\)",
+          "answer": "Góc \\(A\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh hai tam giác bằng nhau theo trường hợp c.g.c",
+      "questiontext": "Quan sát hình vẽ sau: [img:_page_1_Picture_14.jpeg]\nXét hai tam giác \\(ABC\\) và \\(ADC\\), điều kiện nào dưới đây cùng với \\(AB = AD\\) và \\(AC\\) là cạnh chung đủ để kết luận \\(\\triangle ABC = \\triangle ADC\\) (c.g.c)?",
+      "generalfeedback": "Để hai tam giác bằng nhau theo trường hợp c.g.c, góc bằng nhau phải là góc xen giữa hai cạnh bằng nhau. Với hai cạnh \\(AB=AD\\) và cạnh chung \\(AC\\), góc xen giữa tương ứng là \\(\\widehat{BAC}\\) và \\(\\widehat{DAC}\\).",
+      "imgs": [
+        "_page_1_Picture_14.jpeg"
+      ],
+      "answers": [
+        {
+          "text": "\\(\\widehat{BAC} = \\widehat{DAC}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\widehat{BCA} = \\widehat{DCA}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\widehat{ABC} = \\widehat{ADC}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(BC = CD\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_089",
+      "questiontext": "Đúng hay Sai: Cho hai tam giác \\(ABC\\) và \\(A'B'C'\\) có \\(AB = A'B'\\), \\(BC = B'C'\\) và \\(\\widehat{ABC} = \\widehat{A'B'C'}\\). Ta giải thích được \\(\\triangle ABC = \\triangle A'B'C'\\) theo trường hợp cạnh - góc - cạnh (c.g.c).",
+      "generalfeedback": "Đúng. Vì góc \\(B\\) là góc xen giữa \\(AB, BC\\) và góc \\(B'\\) là góc xen giữa \\(A'B', B'C'\\), nên hai tam giác bằng nhau theo c.g.c.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh hai tam giác bằng nhau theo trường hợp c.g.c",
+      "questiontext": "Quan sát hình vẽ sau: [img:_page_1_Picture_17.jpeg]\nHai tam giác \\(ABC\\) và \\(MNP\\) có bằng nhau không? Vì sao?",
+      "generalfeedback": "Trong \\(\\triangle ABC\\), góc xen giữa \\(AB\\) và \\(AC\\) là góc \\(A = 60^{\\circ}\\). Trong \\(\\triangle MNP\\), góc giữa \\(MN\\) và \\(MP\\) là góc \\(M = 60^{\\circ}\\). Vì \\(AB = MN = 3\\text{ cm}\\), \\(AC = MP = 2\\text{ cm}\\) và \\(\\widehat{A} = \\widehat{M} = 60^{\\circ}\\) nên \\(\\triangle ABC = \\triangle MNP\\) (c.g.c).",
+      "imgs": [
+        "_page_1_Picture_17.jpeg"
+      ],
+      "answers": [
+        {
+          "text": "Có, vì \\(AB = MN\\), \\(\\widehat{A} = \\widehat{M} = 60^{\\circ}\\) (góc xen giữa) và \\(AC = MP\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Không, vì các đỉnh không tương ứng.",
+          "fraction": 0
+        },
+        {
+          "text": "Không, vì không có đủ dữ kiện về cạnh \\(BC\\) và \\(NP\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Có, vì cả hai tam giác đều có một góc bằng \\(60^{\\circ}\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Chứng minh hai tam giác bằng nhau theo trường hợp c.g.c",
+      "questiontext": "Cho \\(\\triangle ABC\\) và \\(\\triangle MNP\\) có \\(AB = MN = 5\\text{ cm}\\), \\(AC = MP = 7\\text{ cm}\\). Để \\(\\triangle ABC = \\triangle MNP\\) theo trường hợp c.g.c thì cần thêm điều kiện góc \\(\\widehat{BAC}\\) bằng góc nào?",
+      "generalfeedback": "Góc xen giữa hai cạnh \\(AB\\) và \\(AC\\) là góc \\(BAC\\). Góc xen giữa hai cạnh tương ứng \\(MN\\) và \\(MP\\) là góc \\(NMP\\) (hoặc góc \\(M\\)).",
+      "answers": [
+        {
+          "text": "góc NMP",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Chứng minh hai tam giác bằng nhau theo trường hợp c.g.c",
+      "questiontext": "Quan sát hình vẽ sau: [img:_page_1_Picture_23.jpeg]\nCho \\(\\widehat{AOB} = \\widehat{DOC}\\), \\(OA = OD = 4\\text{ cm}\\), \\(OB = OC = 6\\text{ cm}\\). Cho biết độ dài đoạn thẳng \\(AB = 5\\text{ cm}\\). Tính độ dài đoạn thẳng \\(CD\\) theo cen-ti-mét.\n(Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Xét \\(\\triangle OAB\\) và \\(\\triangle ODC\\) có \\(OA = OD\\), \\(\\widehat{AOB} = \\widehat{DOC}\\) (góc xen giữa) và \\(OB = OC\\). Suy ra \\(\\triangle OAB = \\triangle ODC\\) (c.g.c), do đó \\(CD = AB = 5\\text{ cm}\\).",
+      "imgs": [
+        "_page_1_Picture_23.jpeg"
+      ],
+      "answers": [
+        {
+          "text": "5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Trong giờ học Toán bài 'Trường hợp bằng nhau thứ hai của tam giác (c.g.c)', bạn An thấy bài tập chứng minh hai tam giác bằng nhau trong SGK khá dài và khó. Để thể hiện phẩm chất chăm chỉ, bạn An nên thực hiện hành động nào sau đây?",
+      "generalfeedback": "Phẩm chất chăm chỉ thể hiện qua sự kiên trì, tự giác nỗ lực tìm tòi, xem lại lý thuyết về góc xen giữa và trường hợp c.g.c để từng bước hoàn thành bài tập thay vì bỏ cuộc hay chép lời giải.",
+      "answers": [
+        {
+          "text": "Kiên trì đọc lại định lý c.g.c, xem lại ví dụ mẫu trong SGK và tự mình suy luận từng bước để giải bài tập.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài tập khó và chờ đến khi giáo viên sửa bài trên lớp để chép vào vở.",
+          "fraction": 0
+        },
+        {
+          "text": "Sao chép ngay lời giải từ sách giải hoặc trên mạng mà không cần suy nghĩ.",
+          "fraction": 0
+        },
+        {
+          "text": "Nhờ bạn khác làm hộ toàn bộ bài tập để nộp cho xong nghĩa vụ.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Đúng hay Sai: Khi thực hành đo độ dài hai cạnh \\(AB, AC\\) và góc xen giữa \\(\\widehat{BAC}\\) của tam giác trên giấy, nếu kết quả đo góc bị lệch chút ít so với bài làm của bạn bên cạnh, hành vi trung thực là học sinh ghi nhận đúng số đo thực tế mình đo được và kiểm tra lại thao tác đo, thay vì tự ý sửa số liệu cho giống bài của bạn.",
+      "generalfeedback": "Đúng. Phẩm chất trung thực yêu cầu tôn trọng sự thật và kết quả thực nghiệm khách quan, chủ động kiểm tra kĩ thuật đo thay vì gian dối sửa số liệu.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Để tự học hiệu quả bài 'Trường hợp bằng nhau thứ hai của tam giác (c.g.c)', học sinh cần lập quy trình tự học gồm hai bước: Bước 1 là [[1]] để nắm vững điều kiện hai cạnh và góc xen giữa; Bước 2 là [[2]] để rèn luyện kỹ năng trình bày lời giải.",
+      "generalfeedback": "Năng lực tự chủ và tự học thể hiện qua việc chủ động phân chia giai đoạn học tập: đầu tiên là chủ động đọc SGK/định lý để hiểu kiến thức cốt lõi, sau đó tự giác vận dụng làm bài tập luyện tập.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "chủ động nghiên cứu định lý và ví dụ trong SGK"
+        },
+        {
+          "group": 1,
+          "text": "tự giác làm các bài tập luyện tập trong SGK"
+        },
+        {
+          "group": 1,
+          "text": "chờ giáo viên nhắc nhở mới mở sách"
+        },
+        {
+          "group": 1,
+          "text": "nhờ cha mẹ giải hộ toàn bộ bài tập"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_GIAOTIEP",
+      "questiontext": "Trong hoạt động thảo luận nhóm về chứng minh \\(\\triangle ABC = \\triangle ADC\\) (c.g.c) trong Ví dụ 1 SGK, bạn Bình phát biểu rằng góc \\(\\widehat{BCA} = \\widehat{DCA}\\) là góc xen giữa hai cạnh \\(AB\\) và \\(AC\\). Để giao tiếp và hợp tác hiệu quả, em nên góp ý với bạn Bình như thế nào?",
+      "generalfeedback": "Giao tiếp toán học và hợp tác tích cực yêu cầu lắng nghe, tôn trọng ý kiến của bạn, đồng thời giải thích rõ ràng, lịch sự bằng căn cứ kiến thức SGK rằng góc xen giữa hai cạnh AB và AC phải là góc BAC có đỉnh A là điểm chung.",
+      "answers": [
+        {
+          "text": "Lịch sự giải thích cho bạn rằng góc xen giữa hai cạnh \\(AB\\) và \\(AC\\) phải là \\(\\widehat{BAC}\\) vì đỉnh \\(A\\) là giao điểm của hai cạnh đó.",
+          "fraction": 100
+        },
+        {
+          "text": "Chê bai bạn không hiểu bài và không cho bạn tiếp tục tham gia thảo luận.",
+          "fraction": 0
+        },
+        {
+          "text": "Mặc kệ ý kiến của bạn và tự làm phần việc của mình không cần trao đổi.",
+          "fraction": 0
+        },
+        {
+          "text": "Đồng ý ngay với bạn để tránh tranh luận làm mất hòa khí trong nhóm.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Một học sinh lập luận để chứng minh \\(\\triangle ABC = \\triangle MNP\\) như sau: 'Có \\(AB = MN\\), \\(AC = MP\\) và \\(\\widehat{ABC} = \\widehat{MNP}\\) nên \\(\\triangle ABC = \\triangle MNP\\) (c.g.c)'. Sử dụng năng lực tư duy và lập luận toán học, em hãy đánh giá lập luận trên đúng hay sai và chỉ ra lý do.",
+      "generalfeedback": "Lập luận trên sai vì góc \\(\\widehat{ABC}\\) là góc xen giữa \\(AB\\) và \\(BC\\), không phải góc xen giữa \\(AB\\) và \\(AC\\). Do đó chưa đủ điều kiện áp dụng định lý c.g.c (phải cần góc \\(\\widehat{BAC} = \\widehat{NMP}\\)).",
+      "answers": [
+        {
+          "text": "Sai, vì \\(\\widehat{ABC}\\) không phải là góc xen giữa hai cạnh \\(AB\\) và \\(AC\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Đúng, vì đã có hai cặp cạnh bằng nhau và một cặp góc bằng nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Sai, vì hai tam giác này phải bằng nhau theo trường hợp c.c.c.",
+          "fraction": 0
+        },
+        {
+          "text": "Đúng, vì hai tam giác có độ dài các cạnh bằng nhau.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04",
+      "questiontext": "Để trình bày giao tiếp toán học một cách mạch lạc khi chứng minh hai tam giác bằng nhau theo trường hợp cạnh - góc - cạnh (c.g.c), hãy ghép mỗi bước lập luận ở cột trái với nội dung diễn đạt toán học tương ứng ở cột phải:",
+      "generalfeedback": "Trình bày toán học mạch lạc tuân theo cấu trúc: Xét hai tam giác -> Nêu 3 dữ kiện (cạnh - góc xen giữa - cạnh) -> Kết luận hai tam giác bằng nhau kèm mở ngoặc ký hiệu trường hợp (c.g.c).",
+      "subquestions": [
+        {
+          "question": "Mở đầu chứng minh",
+          "answer": "Xét \\(\\triangle ABC\\) và \\(\\triangle ADC\\) có:"
+        },
+        {
+          "question": "Liệt kê dữ kiện góc xen giữa",
+          "answer": "\\(\\widehat{BAC} = \\widehat{DAC}\\) (theo giả thiết)"
+        },
+        {
+          "question": "Kết luận hai tam giác bằng nhau",
+          "answer": "Vậy \\(\\triangle ABC = \\triangle ADC\\) (c.g.c)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Quan sát hình vẽ sau: [img:_page_1_Picture_23.jpeg]\nĐể chứng minh \\(AC = DB\\) trong bài toán Vận dụng (Hình 4.32), học sinh thực hiện các bước lập luận:\n- Bước 1: Chứng minh \\(\\triangle OAC = \\triangle ODB\\) (c.g.c).\n- Bước 2: Suy ra \\(AC = DB\\) (hai cạnh tương ứng).\nHành vi tư duy toán học nào đã được áp dụng trong quy trình lập luận trên?",
+      "generalfeedback": "Thao tác tư duy hình học ở đây là chuyển bài toán chứng minh hai đoạn thẳng bằng nhau về bài toán chứng minh hai tam giác chứa chúng bằng nhau (mô hình hóa / suy luận bắc cầu qua tam giác bằng nhau).",
+      "imgs": [
+        "_page_1_Picture_23.jpeg"
+      ],
+      "answers": [
+        {
+          "text": "Chuyển việc so sánh hai đoạn thẳng về việc chứng minh hai tam giác chứa chúng bằng nhau.",
+          "fraction": 100
+        },
+        {
+          "text": "Thực hiện phép đo trực tiếp bằng thước kẻ trên hình vẽ.",
+          "fraction": 0
+        },
+        {
+          "text": "Giả định hai đoạn thẳng bằng nhau rồi suy ra hai tam giác bằng nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Áp dụng công thức tính diện tích tam giác để so sánh.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04",
+      "questiontext": "Khi kí hiệu hai tam giác bằng nhau theo trường hợp c.g.c, việc viết đúng thứ tự các đỉnh tương ứng là kĩ năng giao tiếp toán học quan trọng. Nếu \\(\\triangle ABC = \\triangle MNP\\), đỉnh tương ứng với đỉnh \\(A\\) là [[1]], đỉnh tương ứng với đỉnh \\(B\\) là [[2]].",
+      "generalfeedback": "Quy ước giao tiếp toán học quy định các đỉnh tương ứng của hai tam giác bằng nhau phải được viết theo đúng thứ tự: A tương ứng với M, B tương ứng với N, C tương ứng với P.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "đỉnh \\(M\\)"
+        },
+        {
+          "group": 1,
+          "text": "đỉnh \\(N\\)"
+        },
+        {
+          "group": 1,
+          "text": "đỉnh \\(P\\)"
+        },
+        {
+          "group": 1,
+          "text": "đỉnh \\(C\\)"
+        }
+      ]
+    }
+  ]
+}

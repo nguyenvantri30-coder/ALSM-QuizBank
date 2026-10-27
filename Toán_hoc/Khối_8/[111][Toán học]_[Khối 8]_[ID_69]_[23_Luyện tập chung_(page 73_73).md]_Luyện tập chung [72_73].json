@@ -1,0 +1,881 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 38,
+    "metadata_used": {
+      "YCCD_TOAN8_114": 7,
+      "Tổng hợp phương pháp tính xác suất bằng tỉ số và ước lượng bằng xác suất thực nghiệm": 6,
+      "Thực hiện thành thạo kĩ năng đếm số kết quả thuận lợi và số kết quả có thể": 7,
+      "Tính xác suất biến cố trong bài tập tổng hợp": 10,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TUHOC_C2_02": 2,
+      "NLT_TOAN_C2_01_01": 2,
+      "NLT_TOAN_C2_03_05": 2
+    },
+    "types_used": {
+      "multichoice": 14,
+      "truefalse": 4,
+      "gapselect": 4,
+      "numerical": 3,
+      "matching": 4,
+      "calculatedsimple": 3,
+      "ddwtos": 3,
+      "shortanswer": 3
+    },
+    "total": 38
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN8_114",
+        "reason": "Sử dụng tỉ số mô tả xác suất biến cố đơn giản trong SGK"
+      },
+      {
+        "metadata_code": "Tổng hợp phương pháp tính xác suất bằng tỉ số và ước lượng bằng xác suất thực nghiệm",
+        "reason": "Củng cố phương pháp tính xác suất bằng tỉ số và ước lượng thực nghiệm"
+      },
+      {
+        "metadata_code": "Thực hiện thành thạo kĩ năng đếm số kết quả thuận lợi và số kết quả có thể",
+        "reason": "Đếm số kết quả thuận lợi và số kết quả có thể trong phép thử"
+      },
+      {
+        "metadata_code": "Tính xác suất biến cố trong bài tập tổng hợp",
+        "reason": "Tính xác suất biến cố trong bài tập tổng hợp"
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_114",
+      "questiontext": "Một hộp có 10 quả bóng gồm 3 quả màu đỏ và 7 quả màu xanh. Chọn ngẫu nhiên 1 quả bóng. Tỉ số nào sau đây mô tả xác suất của biến cố \"Chọn được quả bóng màu đỏ\"?",
+      "generalfeedback": "Xác suất chọn được quả bóng màu đỏ bằng tỉ số giữa số quả bóng màu đỏ và tổng số quả bóng trong hộp: \\(\\frac{3}{10}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{3}{10}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{7}{10}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{3}{7}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{7}{3}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_114",
+      "questiontext": "Gieo một con xúc xắc cân đối và đồng chất 6 mặt. Xác suất xuất hiện mặt 5 chấm được mô tả bởi tỉ số \\(\\frac{1}{6}\\). Phát biểu này đúng hay sai?",
+      "generalfeedback": "Đúng. Con xúc xắc có 6 mặt đồng khả năng, mặt 5 chấm là 1 kết quả thuận lợi nên xác suất là \\(\\frac{1}{6}\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Tổng hợp phương pháp tính xác suất bằng tỉ số và ước lượng bằng xác suất thực nghiệm",
+      "questiontext": "Khái niệm nào sau đây mô tả phương pháp ước lượng xác suất của một biến cố thông qua tỉ số giữa số lần biến cố đó xuất hiện và tổng số lần thực hiện thực nghiệm?",
+      "generalfeedback": "Xác suất thực nghiệm của một biến cố được ước lượng bằng tỉ số giữa số lần xuất hiện biến cố đó và tổng số lần thực hiện thực nghiệm.",
+      "answers": [
+        {
+          "text": "Xác suất thực nghiệm",
+          "fraction": 100
+        },
+        {
+          "text": "Xác suất lý thuyết",
+          "fraction": 0
+        },
+        {
+          "text": "Tần số tương đối tuyệt đối",
+          "fraction": 0
+        },
+        {
+          "text": "Biến cố chắc chắn",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Tổng hợp phương pháp tính xác suất bằng tỉ số và ước lượng bằng xác suất thực nghiệm",
+      "questiontext": "Để tính xác suất của biến cố bằng tỉ số trong mô hình đồng khả năng, ta lấy số kết quả [[1]] cho biến cố chia cho tổng số kết quả [[2]].",
+      "generalfeedback": "Công thức tính xác suất lý thuyết: \\(P(A) = \\frac{n(A)}{n(\\Omega)}\\), trong đó \\(n(A)\\) là số kết quả thuận lợi và \\(n(\\Omega)\\) là tổng số kết quả có thể.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "thuận lợi"
+        },
+        {
+          "group": 1,
+          "text": "có thể"
+        },
+        {
+          "group": 1,
+          "text": "đồng khả năng"
+        },
+        {
+          "group": 1,
+          "text": "không thuận lợi"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện thành thạo kĩ năng đếm số kết quả thuận lợi và số kết quả có thể",
+      "questiontext": "Rút ngẫu nhiên 1 lá bài từ bộ bài gồm 52 lá. Có bao nhiêu kết quả thuận lợi cho biến cố \"Rút được lá bài hình Ách (Ace)\"? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Bộ bài 52 lá có đúng 4 lá Ách (Ách cơ, Ách rô, Ách chuồn, Ách bích), do đó số kết quả thuận lợi là 4.",
+      "answers": [
+        {
+          "text": "4",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Thực hiện thành thạo kĩ năng đếm số kết quả thuận lợi và số kết quả có thể",
+      "questiontext": "Hãy ghép mỗi phép thử ngẫu nhiên sau với tổng số kết quả có thể xảy ra tương ứng:",
+      "generalfeedback": "Gieo 1 đồng xu có 2 kết quả (S, N). Gieo 1 con xúc xắc 6 mặt có 6 kết quả. Chọn 1 học sinh trong lớp có 35 học sinh có 35 kết quả.",
+      "subquestions": [
+        {
+          "question": "Gieo 1 đồng xu cân đối 1 lần",
+          "answer": "2"
+        },
+        {
+          "question": "Gieo 1 con xúc xắc 6 mặt cân đối 1 lần",
+          "answer": "6"
+        },
+        {
+          "question": "Chọn ngẫu nhiên 1 học sinh trong lớp có 35 học sinh",
+          "answer": "35"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Tính xác suất biến cố trong bài tập tổng hợp",
+      "questiontext": "Một túi chứa 5 viên bi xanh, 3 viên bi đỏ và 2 viên bi vàng có kích thước như nhau. Lấy ngẫu nhiên 1 viên bi. Tính xác suất để lấy được viên bi không phải màu đỏ.",
+      "generalfeedback": "Tổng số viên bi trong túi là \\(5 + 3 + 2 = 10\\). Số viên bi không phải màu đỏ (xanh hoặc vàng) là \\(5 + 2 = 7\\). Xác suất cần tính là \\(\\frac{7}{10}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{7}{10}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{3}{10}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{1}{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{2}{5}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Tính xác suất biến cố trong bài tập tổng hợp",
+      "questiontext": "Quay một tấm bìa hình tròn được chia làm 8 phần bằng nhau đánh số từ 1 đến 8. Tính xác suất của biến cố \"Mũi tên chỉ vào ô ghi số chẵn\" dưới dạng phân số tối giản.",
+      "generalfeedback": "Các số chẵn từ 1 đến 8 là 2, 4, 6, 8 (có 4 kết quả thuận lợi). Xác suất là \\(\\frac{4}{8} = \\frac{1}{2}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{1}{2}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{1}{4}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{3}{8}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{5}{8}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_114",
+      "questiontext": "Trong một hộp có {a} quả bóng màu vàng và 10 quả bóng màu xanh có kích thước giống nhau. Chọn ngẫu nhiên 1 quả bóng. Tỉ số mô tả tổng số quả bóng trong hộp là bao nhiêu? (Chỉ điền biểu thức)",
+      "generalfeedback": "Tổng số quả bóng trong hộp là tổng số quả bóng vàng và bóng xanh: {a} + 10.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 15.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}+10",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện thành thạo kĩ năng đếm số kết quả thuận lợi và số kết quả có thể",
+      "questiontext": "Khi gieo hai đồng xu cân đối đồng thời, số kết quả có thể là [[1]] và số kết quả thuận lợi cho biến cố \"Cả hai đồng xu đều xuất hiện mặt sấp\" là [[2]].",
+      "generalfeedback": "Các kết quả có thể khi gieo 2 đồng xu là (S,S), (S,N), (N,S), (N,N) -> tổng 4 kết quả. Kết quả cả 2 mặt sấp là (S,S) -> 1 kết quả.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "4"
+        },
+        {
+          "group": 1,
+          "text": "1"
+        },
+        {
+          "group": 1,
+          "text": "2"
+        },
+        {
+          "group": 1,
+          "text": "8"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_114",
+      "questiontext": "Một đĩa quay gồm 4 phần bằng nhau được tô các màu: Đỏ, Xanh, Vàng, Trắng. Quay đĩa 1 lần. Tỉ số mô tả xác suất của biến cố \"Mũi tên chỉ vào phần tô màu Vàng\" là bao nhiêu?",
+      "generalfeedback": "Đĩa quay có 4 phần bằng nhau đồng khả năng, trong đó có 1 phần màu Vàng. Do đó xác suất là \\(\\frac{1}{4}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{1}{4}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{1}{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{3}{4}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{1}{3}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Tổng hợp phương pháp tính xác suất bằng tỉ số và ước lượng bằng xác suất thực nghiệm",
+      "questiontext": "Nếu gieo một con xúc xắc cân đối nhiều lần, xác suất thực nghiệm của biến cố \"Mặt xuất hiện có số chấm là số chẵn\" luôn luôn bằng đúng \\(\\frac{1}{2}\\) trong mọi đợt thực nghiệm. Phát biểu này đúng hay sai?",
+      "generalfeedback": "Sai. Xác suất thực nghiệm phụ thuộc vào kết quả thực tế của từng đợt thực nghiệm và chỉ xấp xỉ xác suất lý thuyết \\(\\frac{1}{2}\\) khi số lần thực nghiệm rất lớn.",
+      "answers": [
+        {
+          "text": "Sai",
+          "fraction": 100
+        },
+        {
+          "text": "Đúng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện thành thạo kĩ năng đếm số kết quả thuận lợi và số kết quả có thể",
+      "questiontext": "Chọn ngẫu nhiên một số tự nhiên có một chữ số (từ 0 đến 9). Có bao nhiêu kết quả thuận lợi cho biến cố \"Số được chọn là số nguyên tố\"?",
+      "generalfeedback": "Các số tự nhiên có một chữ số là 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 (tổng 10 số). Các số nguyên tố là 2, 3, 5, 7. Có 4 kết quả thuận lợi.",
+      "answers": [
+        {
+          "text": "4",
+          "fraction": 100
+        },
+        {
+          "text": "5",
+          "fraction": 0
+        },
+        {
+          "text": "3",
+          "fraction": 0
+        },
+        {
+          "text": "10",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính xác suất biến cố trong bài tập tổng hợp",
+      "questiontext": "Một lớp học có 20 học sinh nam và 15 học sinh nữ. Chọn ngẫu nhiên 1 học sinh để làm lớp trưởng. Tính xác suất để chọn được một học sinh nữ dưới dạng số thập phân. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Tổng số học sinh của lớp là \\(20 + 15 = 35\\). Số học sinh nữ là 15. Xác suất chọn được học sinh nữ là \\(\\frac{15}{35} = \\frac{3}{7} \\approx 0.43\\) (hoặc chính xác tỉ số \\(\\frac{3}{7}\\)). Nếu tính tỉ số 15/35 = 0.43 (với sai số 0.01).",
+      "answers": [
+        {
+          "text": "0.43",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Thực hiện thành thạo kĩ năng đếm số kết quả thuận lợi và số kết quả có thể",
+      "questiontext": "Trong trò chơi gieo một con xúc xắc 6 mặt cân đối, số kết quả có thể xảy ra là [[1]] và số kết quả thuận lợi cho biến cố \"Số chấm xuất hiện chia hết cho 3\" là [[2]].",
+      "generalfeedback": "Con xúc xắc có 6 mặt nên có 6 kết quả có thể. Các số chấm chia hết cho 3 là 3 và 6 (có 2 kết quả thuận lợi).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "6"
+        },
+        {
+          "group": 1,
+          "text": "2"
+        },
+        {
+          "group": 1,
+          "text": "3"
+        },
+        {
+          "group": 1,
+          "text": "1"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "Tính xác suất biến cố trong bài tập tổng hợp",
+      "questiontext": "Một hộp chứa 10 thẻ được đánh số từ 1 đến 10. Ghép mỗi biến cố sau với xác suất xuất hiện tương ứng:",
+      "generalfeedback": "Các số chẵn là 2, 4, 6, 8, 10 (5 số -> xác suất 5/10 = 1/2). Số bé hơn 3 là 1, 2 (2 số -> xác suất 2/10 = 1/5). Số chia hết cho 5 là 5, 10 (2 số -> xác suất 2/10 = 1/5).",
+      "subquestions": [
+        {
+          "question": "Thẻ rút được ghi số chẵn",
+          "answer": "1/2"
+        },
+        {
+          "question": "Thẻ rút được ghi số bé hơn 3",
+          "answer": "1/5"
+        },
+        {
+          "question": "Thẻ rút được ghi số chia hết cho 10",
+          "answer": "1/10"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Tổng hợp phương pháp tính xác suất bằng tỉ số và ước lượng bằng xác suất thực nghiệm",
+      "questiontext": "Tỉ số giữa số kết quả thuận lợi cho biến cố A và tổng số kết quả có thể xảy ra trong một phép thử đồng khả năng gọi là xác suất gì của biến cố A?",
+      "generalfeedback": "Tỉ số đó gọi là xác suất lý thuyết (hoặc xác suất) của biến cố A.",
+      "answers": [
+        {
+          "text": "xác suất lý thuyết",
+          "fraction": 100
+        },
+        {
+          "text": "xác suất",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Tính xác suất biến cố trong bài tập tổng hợp",
+      "questiontext": "Một nhóm gồm {a} học sinh giỏi Toán và 6 học sinh giỏi Văn. Chọn ngẫu nhiên 1 học sinh trong nhóm. Tính tổng số kết quả có thể xảy ra của phép thử này. (Chỉ điền biểu thức)",
+      "generalfeedback": "Tổng số kết quả có thể là tổng số học sinh trong nhóm: {a} + 6.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 4.0,
+          "max": 20.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}+6",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_114",
+      "questiontext": "Gieo đồng thời hai đồng xu cân đối. Tỉ số nào dưới đây mô tả đúng xác suất của biến cố \"Có ít nhất một đồng xu xuất hiện mặt sấp\"?",
+      "generalfeedback": "Không gian mẫu: (S,S), (S,N), (N,S), (N,N) có 4 kết quả. Các kết quả có ít nhất 1 mặt sấp là (S,S), (S,N), (N,S) có 3 kết quả. Xác suất là \\(\\frac{3}{4}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{3}{4}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{1}{4}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{1}{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{2}{3}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "Tính xác suất biến cố trong bài tập tổng hợp",
+      "questiontext": "Rút ngẫu nhiên 1 lá bài từ bộ bài 52 lá. Xác suất rút được lá bài màu đỏ là [[1]] và xác suất rút được lá bài chất Cơ là [[2]].",
+      "generalfeedback": "Bộ bài 52 lá có 26 lá màu đỏ (Cơ, Rô) -> xác suất 26/52 = 1/2. Có 13 lá chất Cơ -> xác suất 13/52 = 1/4.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "1/2"
+        },
+        {
+          "group": 1,
+          "text": "1/4"
+        },
+        {
+          "group": 1,
+          "text": "3/4"
+        },
+        {
+          "group": 1,
+          "text": "1/13"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_114",
+      "questiontext": "Một đĩa quay gồm 4 phần bằng nhau được tô các màu: Đỏ, Xanh, Vàng, Trắng. Quay đĩa 1 lần. Tỉ số mô tả xác suất của biến cố \"Mũi tên chỉ vào phần tô màu Vàng\" là bao nhiêu?",
+      "generalfeedback": "Đĩa quay có 4 phần bằng nhau đồng khả năng, trong đó có 1 phần màu Vàng. Do đó xác suất là \\(\\frac{1}{4}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{1}{4}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{1}{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{3}{4}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{1}{3}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Tổng hợp phương pháp tính xác suất bằng tỉ số và ước lượng bằng xác suất thực nghiệm",
+      "questiontext": "Nếu gieo một con xúc xắc cân đối nhiều lần, xác suất thực nghiệm của biến cố \"Mặt xuất hiện có số chấm là số chẵn\" luôn luôn bằng đúng \\(\\frac{1}{2}\\) trong mọi đợt thực nghiệm. Phát biểu này đúng hay sai?",
+      "generalfeedback": "Sai. Xác suất thực nghiệm phụ thuộc vào kết quả thực tế của từng đợt thực nghiệm và chỉ xấp xỉ xác suất lý thuyết \\(\\frac{1}{2}\\) khi số lần thực nghiệm rất lớn.",
+      "answers": [
+        {
+          "text": "Sai",
+          "fraction": 100
+        },
+        {
+          "text": "Đúng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện thành thạo kĩ năng đếm số kết quả thuận lợi và số kết quả có thể",
+      "questiontext": "Chọn ngẫu nhiên một số tự nhiên có một chữ số (từ 0 đến 9). Có bao nhiêu kết quả thuận lợi cho biến cố \"Số được chọn là số nguyên tố\"?",
+      "generalfeedback": "Các số tự nhiên có một chữ số là 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 (tổng 10 số). Các số nguyên tố là 2, 3, 5, 7. Có 4 kết quả thuận lợi.",
+      "answers": [
+        {
+          "text": "4",
+          "fraction": 100
+        },
+        {
+          "text": "5",
+          "fraction": 0
+        },
+        {
+          "text": "3",
+          "fraction": 0
+        },
+        {
+          "text": "10",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính xác suất biến cố trong bài tập tổng hợp",
+      "questiontext": "Một lớp học có 20 học sinh nam và 15 học sinh nữ. Chọn ngẫu nhiên 1 học sinh để làm lớp trưởng. Tính xác suất để chọn được một học sinh nữ dưới dạng số thập phân. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Tổng số học sinh của lớp là \\(20 + 15 = 35\\). Số học sinh nữ là 15. Xác suất chọn được học sinh nữ là \\(\\frac{15}{35} = \\frac{3}{7} \\approx 0.43\\) (hoặc chính xác tỉ số \\(\\frac{3}{7}\\)). Nếu tính tỉ số 15/35 = 0.43 (với sai số 0.01).",
+      "answers": [
+        {
+          "text": "0.43",
+          "fraction": 100,
+          "tolerance": 0.01
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Thực hiện thành thạo kĩ năng đếm số kết quả thuận lợi và số kết quả có thể",
+      "questiontext": "Trong trò chơi gieo một con xúc xắc 6 mặt cân đối, số kết quả có thể xảy ra là [[1]] và số kết quả thuận lợi cho biến cố \"Số chấm xuất hiện chia hết cho 3\" là [[2]].",
+      "generalfeedback": "Con xúc xắc có 6 mặt nên có 6 kết quả có thể. Các số chấm chia hết cho 3 là 3 và 6 (có 2 kết quả thuận lợi).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "6"
+        },
+        {
+          "group": 1,
+          "text": "2"
+        },
+        {
+          "group": 1,
+          "text": "3"
+        },
+        {
+          "group": 1,
+          "text": "1"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "Tính xác suất biến cố trong bài tập tổng hợp",
+      "questiontext": "Một hộp chứa 10 thẻ được đánh số từ 1 đến 10. Ghép mỗi biến cố sau với xác suất xuất hiện tương ứng:",
+      "generalfeedback": "Các số chẵn là 2, 4, 6, 8, 10 (5 số -> xác suất 5/10 = 1/2). Số bé hơn 3 là 1, 2 (2 số -> xác suất 2/10 = 1/5). Số chia hết cho 5 là 5, 10 (2 số -> xác suất 2/10 = 1/5).",
+      "subquestions": [
+        {
+          "question": "Thẻ rút được ghi số chẵn",
+          "answer": "1/2"
+        },
+        {
+          "question": "Thẻ rút được ghi số bé hơn 3",
+          "answer": "1/5"
+        },
+        {
+          "question": "Thẻ rút được ghi số chia hết cho 10",
+          "answer": "1/10"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Tổng hợp phương pháp tính xác suất bằng tỉ số và ước lượng bằng xác suất thực nghiệm",
+      "questiontext": "Tỉ số giữa số kết quả thuận lợi cho biến cố A và tổng số kết quả có thể xảy ra trong một phép thử đồng khả năng gọi là xác suất gì của biến cố A?",
+      "generalfeedback": "Tỉ số đó gọi là xác suất lý thuyết (hoặc xác suất) của biến cố A.",
+      "answers": [
+        {
+          "text": "xác suất lý thuyết",
+          "fraction": 100
+        },
+        {
+          "text": "xác suất",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Tính xác suất biến cố trong bài tập tổng hợp",
+      "questiontext": "Một nhóm gồm {a} học sinh giỏi Toán và 6 học sinh giỏi Văn. Chọn ngẫu nhiên 1 học sinh trong nhóm. Tính tổng số kết quả có thể xảy ra của phép thử này. (Chỉ điền biểu thức)",
+      "generalfeedback": "Tổng số kết quả có thể là tổng số học sinh trong nhóm: {a} + 6.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 4.0,
+          "max": 20.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}+6",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_114",
+      "questiontext": "Gieo đồng thời hai đồng xu cân đối. Tỉ số nào dưới đây mô tả đúng xác suất của biến cố \"Có ít nhất một đồng xu xuất hiện mặt sấp\"?",
+      "generalfeedback": "Không gian mẫu: (S,S), (S,N), (N,S), (N,N) có 4 kết quả. Các kết quả có ít nhất 1 mặt sấp là (S,S), (S,N), (N,S) có 3 kết quả. Xác suất là \\(\\frac{3}{4}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{3}{4}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{1}{4}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{1}{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{2}{3}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "Tính xác suất biến cố trong bài tập tổng hợp",
+      "questiontext": "Rút ngẫu nhiên 1 lá bài từ bộ bài 52 lá. Xác suất rút được lá bài màu đỏ là [[1]] và xác suất rút được lá bài chất Cơ là [[2]].",
+      "generalfeedback": "Bộ bài 52 lá có 26 lá màu đỏ (Cơ, Rô) -> xác suất 26/52 = 1/2. Có 13 lá chất Cơ -> xác suất 13/52 = 1/4.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "1/2"
+        },
+        {
+          "group": 1,
+          "text": "1/4"
+        },
+        {
+          "group": 1,
+          "text": "3/4"
+        },
+        {
+          "group": 1,
+          "text": "1/13"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong đợt kiểm tra đầu tiên về chủ đề Xác suất, bạn An đạt điểm chưa như mong muốn. Để cải thiện kết quả học tập ở các bài kiểm tra sau, thái độ và hành động nào sau đây của An thể hiện tinh thần luôn cố gắng vươn lên?",
+      "generalfeedback": "Hành động chủ động phân tích lỗi sai, lập kế hoạch rèn luyện đếm số kết quả thuận lợi và tính tỉ số xác suất thể hiện tinh thần trách nhiệm và ý chí vươn lên trong học tập.",
+      "answers": [
+        {
+          "text": "Chủ động xem lại các bài làm sai, chủ động luyện tập lại kĩ năng đếm số kết quả thuận lợi và nhờ thầy cô, bạn bè giải đáp thắc mắc.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua các bài tập xác suất vì cho rằng môn Toán quá khó đối với bản thân.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ học thuộc lòng công thức tính xác suất mà không thực hành làm bài tập củng cố.",
+          "fraction": 0
+        },
+        {
+          "text": "Đổ lỗi cho các câu hỏi trong đề kiểm tra quá rắc rối và không cần ôn tập thêm.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi gặp một bài toán tính xác suất biến cố phức tạp trong bài tập tổng hợp, việc kiên trì phân tích từng kết quả có thể xảy ra thay vì bỏ cuộc thể hiện ý chí vươn lên đạt kết quả tốt trong học tập. Phát biểu này đúng hay sai?",
+      "generalfeedback": "Đúng. Kiên trì suy nghĩ và phân tích bài toán khó thể hiện tinh thần vượt khó và cố gắng vươn lên.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_02",
+      "questiontext": "Bạn Bình lập kế hoạch ôn tập chương Xác suất. Hãy ghép mỗi bước trong kế hoạch học tập của Bình với nội dung thực hiện tương ứng:",
+      "generalfeedback": "Lập kế hoạch học tập đòi hỏi sắp xếp quy trình logic từ xem lại lý thuyết, thực hành đếm số kết quả đến làm bài tập tổng hợp.",
+      "subquestions": [
+        {
+          "question": "Bước 1: Ôn tập lý thuyết nền tảng",
+          "answer": "Nắm vững định nghĩa xác suất bằng tỉ số và xác suất thực nghiệm"
+        },
+        {
+          "question": "Bước 2: Rèn luyện kĩ năng thành phần",
+          "answer": "Thực hành đếm chính xác số kết quả thuận lợi và số kết quả có thể"
+        },
+        {
+          "question": "Bước 3: Vận dụng tổng hợp",
+          "answer": "Giải các bài tập tính xác suất biến cố trong các tình huống thực tế"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_02",
+      "questiontext": "Để thực hiện hiệu quả kế hoạch tự học chủ đề Xác suất, học sinh cần trước hết [[1]] mục tiêu cụ thể cho từng tuần, sau đó [[2]] lịch làm bài tập củng cố và tự đánh giá kết quả.",
+      "generalfeedback": "Kế hoạch học tập hiệu quả yêu cầu đặt ra mục tiêu rõ ràng và tuân thủ lịch trình ôn tập.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "xác định"
+        },
+        {
+          "group": 1,
+          "text": "thực hiện"
+        },
+        {
+          "group": 1,
+          "text": "trì hoãn"
+        },
+        {
+          "group": 1,
+          "text": "bỏ qua"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Khi so sánh xác suất lý thuyết và xác suất thực nghiệm của biến cố \"Mặt sấp xuất hiện khi gieo đồng xu cân đối\", thao tác tư duy phân tích nào sau đây là chính xác?",
+      "generalfeedback": "Xác suất lý thuyết có giá trị cố định \\(\\frac{1}{2}\\), còn xác suất thực nghiệm thay đổi theo từng đợt thử và sẽ tiến dần về xác suất lý thuyết khi số lần gieo rất lớn.",
+      "answers": [
+        {
+          "text": "Xác suất lý thuyết cố định bằng \\(\\frac{1}{2}\\), còn xác suất thực nghiệm xấp xỉ \\(\\frac{1}{2}\\) khi số lần gieo đủ lớn.",
+          "fraction": 100
+        },
+        {
+          "text": "Xác suất thực nghiệm luôn luôn bằng đúng xác suất lý thuyết trong mọi đợt gieo.",
+          "fraction": 0
+        },
+        {
+          "text": "Xác suất lý thuyết phụ thuộc vào số lần gieo thực tế của người chơi.",
+          "fraction": 0
+        },
+        {
+          "text": "Xác suất thực nghiệm không có mối liên hệ nào với xác suất lý thuyết.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Phân tích phép thử gieo hai con xúc xắc cân đối 6 mặt. Để tìm xác suất của biến cố \"Tổng số chấm xuất hiện bằng 7\", thao tác tổng hợp số kết quả thuận lợi nào sau đây là đúng?",
+      "generalfeedback": "Các cặp kết quả thuận lợi có tổng bằng 7 là: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) -> Có 6 kết quả thuận lợi.",
+      "answers": [
+        {
+          "text": "Liệt kê các cặp (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) gồm 6 kết quả thuận lợi.",
+          "fraction": 100
+        },
+        {
+          "text": "Liệt kê các cặp (1,6), (2,5), (3,4) gồm 3 kết quả thuận lợi.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ có cặp (3,4) và (4,3) gồm 2 kết quả thuận lợi.",
+          "fraction": 0
+        },
+        {
+          "text": "Tất cả 36 kết quả có thể đều thuận lợi.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Trong một trò chơi tại hội chợ, bạn Nam rút ngẫu nhiên 1 lá thăm từ hộp chứa 20 lá thăm trong đó có 4 lá thăm trúng thưởng. Bạn Lan rút ngẫu nhiên 1 lá thăm từ hộp chứa 30 lá thăm trong đó có 9 lá thăm trúng thưởng. Áp dụng kĩ năng tính xác suất để giải quyết vấn đề, bạn nào có cơ hội trúng thưởng cao hơn?",
+      "generalfeedback": "Xác suất trúng thưởng của Nam là \\(\\frac{4}{20} = 0,2\\). Xác suất trúng thưởng của Lan là \\(\\frac{9}{30} = 0,3\\). Vì \\(0,3 > 0,2\\) nên Lan có cơ hội trúng thưởng cao hơn.",
+      "answers": [
+        {
+          "text": "Bạn Lan, vì xác suất trúng thưởng của Lan là \\(\\frac{9}{30} = 0,3\\) cao hơn của Nam là \\(\\frac{4}{20} = 0,2\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Bạn Nam, vì tổng số lá thăm trong hộp của Nam ít hơn.",
+          "fraction": 0
+        },
+        {
+          "text": "Cả hai bạn có cơ hội trúng thưởng như nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Bạn Nam, vì 4 lá trúng thưởng dễ rút hơn 9 lá.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Một xí nghiệp kiểm tra chất lượng 100 sản phẩm và phát hiện 5 sản phẩm lỗi. Sử dụng kĩ năng xác suất thực nghiệm để ước lượng số sản phẩm lỗi trong lô 1000 sản phẩm tiếp theo. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Xác suất thực nghiệm sản phẩm lỗi là \\(\\frac{5}{100} = 0,05\\). Trong 1000 sản phẩm, ước lượng số sản phẩm lỗi là \\(1000 \\times 0,05 = 50\\).",
+      "answers": [
+        {
+          "text": "50",
+          "fraction": 100
+        }
+      ]
+    }
+  ]
+}

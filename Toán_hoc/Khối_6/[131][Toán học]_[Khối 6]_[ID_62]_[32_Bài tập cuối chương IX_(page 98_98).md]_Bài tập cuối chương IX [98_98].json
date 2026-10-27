@@ -1,0 +1,1131 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 46,
+    "metadata_used": {
+      "YCCD_TOAN6_144": 4,
+      "YCCD_TOAN6_150": 5,
+      "Hệ thống kiến thức chương IX về thống kê và xác suất": 3,
+      "YCCD_TOAN6_147": 2,
+      "Giải bài toán tổng hợp chương IX": 3,
+      "YCCD_TOAN6_146": 3
+    },
+    "types_used": {
+      "multichoice": 19,
+      "shortanswer": 4,
+      "numerical": 4,
+      "gapselect": 5,
+      "matching": 1,
+      "truefalse": 5,
+      "ddwtos": 1,
+      "calculatedsimple": 1,
+      "calculated": 3,
+      "calculatedmulti": 3
+    },
+    "total": 46
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN6_144",
+        "reason": "Có dữ liệu bảng thống kê trong SGK (Bảng 9.11)"
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_146",
+        "reason": "Có dữ liệu lập/vẽ biểu đồ cột kép từ Bảng 9.11"
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_150",
+        "reason": "Có mô hình lấy bóng, lấy bi và tính xác suất thực nghiệm trong SGK"
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_147",
+        "reason": "Có các câu hỏi thu thập dữ liệu liên quan đến Địa lí và thực tiễn học đường"
+      },
+      {
+        "metadata_code": "Hệ thống kiến thức chương IX về thống kê và xác suất",
+        "reason": "Có hệ thống lý thuyết về thống kê, thu thập dữ liệu và xác suất thực nghiệm"
+      },
+      {
+        "metadata_code": "Giải bài toán tổng hợp chương IX",
+        "reason": "Có các bài tập tổng hợp kết hợp thống kê và xác suất"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học thuộc SGK Toán 6 Bài tập cuối chương IX không chứa nội dung dạy về phần mềm máy tính hay công cụ công nghệ số."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học không đề cập đến nguyên lý hay ứng dụng của trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_144",
+      "questiontext": "Cho Bảng 9.11 thống kê môn thể thao yêu thích của các bạn trong lớp:\n| Môn thể thao | Nữ | Nam |\n| Bóng đá | 3 | 6 |\n| Cầu lông | 5 | 5 |\n| Bơi lội | 7 | 2 |\n| Bóng rổ | 1 | 3 |\n| Khác | 0 | 2 |\nCó bao nhiêu bạn nữ yêu thích môn Bơi lội?",
+      "generalfeedback": "Dựa vào bảng thống kê, ở dòng 'Bơi lội', cột 'Nữ' có giá trị là 7.",
+      "answers": [
+        {
+          "text": "7",
+          "fraction": 100
+        },
+        {
+          "text": "2",
+          "fraction": 0
+        },
+        {
+          "text": "5",
+          "fraction": 0
+        },
+        {
+          "text": "3",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_144",
+      "questiontext": "Từ Bảng 9.11 về môn thể thao yêu thích của học sinh trong lớp, môn thể thao nào được các bạn nam yêu thích nhất?",
+      "generalfeedback": "Dựa vào cột 'Nam' trong Bảng 9.11: Bóng đá (6), Cầu lông (5), Bơi lội (2), Bóng rổ (3), Khác (2). Số bạn nam chọn Bóng đá là nhiều nhất (6 bạn).",
+      "answers": [
+        {
+          "text": "Bóng đá",
+          "fraction": 100
+        },
+        {
+          "text": "Cầu lông",
+          "fraction": 0
+        },
+        {
+          "text": "Bơi lội",
+          "fraction": 0
+        },
+        {
+          "text": "Bóng rổ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_144",
+      "questiontext": "Dựa vào Bảng 9.11, hãy tính tổng số học sinh (cả nam và nữ) đã tham gia khảo sát môn thể thao yêu thích.",
+      "generalfeedback": "Tổng số học sinh nam = 6 + 5 + 2 + 3 + 2 = 18. Tổng số học sinh nữ = 3 + 5 + 7 + 1 + 0 = 16. Tổng số học sinh = 18 + 16 = 34.",
+      "answers": [
+        {
+          "text": "34",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_150",
+      "questiontext": "Minh bỏ 7 viên bi đen và 3 viên bi trắng vào túi. Minh lấy ngẫu nhiên 1 viên bi, xem màu rồi bỏ lại vào túi. Thực hiện 100 lần, thấy có 58 lần lấy được bi đen. Tính xác suất thực nghiệm của sự kiện Minh lấy được viên bi màu đen. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Xác suất thực nghiệm lấy được bi đen là \\(\\frac{58}{100} = 0.58\\).",
+      "answers": [
+        {
+          "text": "0.58",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_150",
+      "imgs": [
+        "_page_0_Picture_11.jpeg"
+      ],
+      "questiontext": "Một túi đựng 2 quả bóng màu xanh, 4 quả bóng màu vàng và 1 quả bóng màu đỏ có cùng kích thước [img:_page_0_Picture_11.jpeg]. Nam lấy ngẫu nhiên một quả bóng mà không nhìn vào túi. Quả bóng Nam lấy ra không thể có màu nào sau đây?",
+      "generalfeedback": "Trong túi chỉ có các quả bóng màu xanh, vàng và đỏ. Do đó không thể lấy ra quả bóng màu tím.",
+      "answers": [
+        {
+          "text": "Màu tím",
+          "fraction": 100
+        },
+        {
+          "text": "Màu xanh",
+          "fraction": 0
+        },
+        {
+          "text": "Màu vàng",
+          "fraction": 0
+        },
+        {
+          "text": "Màu đỏ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống kiến thức chương IX về thống kê và xác suất",
+      "questiontext": "Xác suất thực nghiệm của một sự kiện bằng tỉ số giữa số lần sự kiện đó [[1]] và [[2]] lần thực hiện nghiệm thử.",
+      "generalfeedback": "Theo định nghĩa, xác suất thực nghiệm = (Số lần sự kiện xảy ra) / (Tổng số lần thực hiện).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "xảy ra"
+        },
+        {
+          "group": 1,
+          "text": "tổng số"
+        },
+        {
+          "group": 1,
+          "text": "không xảy ra"
+        },
+        {
+          "group": 1,
+          "text": "trung bình"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_147",
+      "questiontext": "Hãy ghép câu hỏi thu thập dữ liệu với phương pháp thu thập dữ liệu phù hợp nhất trong thực tiễn:",
+      "generalfeedback": "Tìm kiếm trên Internet phù hợp với thông tin diện tích quốc gia; quan sát/kiểm đếm trực tiếp phù hợp với đếm số học sinh có đồng hồ; thu thập từ tài liệu/sổ sách phù hợp với thống kê đi học muộn.",
+      "subquestions": [
+        {
+          "question": "Năm quốc gia nào có diện tích lớn nhất?",
+          "answer": "Tìm kiếm trên Internet hoặc tra cứu sách báo"
+        },
+        {
+          "question": "Có bao nhiêu bạn trong lớp có đồng hồ đeo tay?",
+          "answer": "Quan sát và kiểm đếm trực tiếp trong lớp"
+        },
+        {
+          "question": "Trong tuần trước, tổ nào có nhiều lượt đi học muộn nhất?",
+          "answer": "Thu thập dữ liệu từ sổ theo dõi hoặc sổ đầu bài"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Hệ thống kiến thức chương IX về thống kê và xác suất",
+      "questiontext": "Khi gieo một con xúc xắc cân đối nhiều lần, xác suất thực nghiệm của sự kiện xuất hiện mặt 6 chấm luôn luôn bằng đúng xác suất lý thuyết \\(\\frac{1}{6}\\) trong mọi đợt thực nghiệm ngắn.",
+      "generalfeedback": "Sai. Xác suất thực nghiệm phụ thuộc vào số lần lặp lại và kết quả của từng đợt thực nghiệm, chỉ khi số lần thực nghiệm rất lớn thì xác suất thực nghiệm mới tiến gần đến xác suất lý thuyết.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán tổng hợp chương IX",
+      "questiontext": "Trong hộp có 5 phần thưởng gồm 2 chiếc bút chì giống nhau và 3 chiếc bút bi cùng loại. Quỳnh chọn ngẫu nhiên hai phần thưởng trong hộp. Các loại kết quả có thể xảy ra về loại bút nhận được là: chọn được 2 chiếc [[1]], chọn được 2 chiếc [[2]], hoặc chọn được 1 chiếc bút chì và 1 chiếc bút bi.",
+      "generalfeedback": "Do trong hộp có bút chì và bút bi, nên khi lấy 2 phần thưởng, các khả năng gồm: 2 bút chì, 2 bút bi, hoặc 1 bút chì và 1 bút bi.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "bút chì"
+        },
+        {
+          "group": 1,
+          "text": "bút bi"
+        },
+        {
+          "group": 1,
+          "text": "thước kẻ"
+        },
+        {
+          "group": 1,
+          "text": "bút mực"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_150",
+      "questiontext": "Nam thực hiện lấy ngẫu nhiên 1 quả bóng từ túi chứa bóng nhiều lần, thu được {n} lần lấy bóng xanh trong tổng số 50 lần lấy. Xác suất thực nghiệm của sự kiện lấy được quả bóng màu xanh là bao nhiêu? (Nhập công thức tính dưới dạng phân số {n}/50)",
+      "generalfeedback": "Xác suất thực nghiệm = Số lần lấy được bóng xanh / Tổng số lần lấy bóng = {n}/50.",
+      "wildcards": [
+        {
+          "name": "n",
+          "min": 5.0,
+          "max": 25.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{n}/50",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_146",
+      "questiontext": "Cho Bảng 9.11 thống kê môn thể thao yêu thích của học sinh trong lớp (Nữ: Bóng đá 3, Cầu lông 5, Bơi lội 7, Bóng rổ 1, Khác 0; Nam: Bóng đá 6, Cầu lông 5, Bơi lội 2, Bóng rổ 3, Khác 2). Khi vẽ biểu đồ cột kép biểu diễn bảng thống kê này với trục ngang là các môn thể thao, tại mỗi môn thể thao sẽ có bao nhiêu cột?",
+      "generalfeedback": "Biểu đồ cột kép biểu diễn hai tập dữ liệu (Nam và Nữ) nên tại mỗi môn thể thao trên trục ngang sẽ có 2 cột.",
+      "answers": [
+        {
+          "text": "2 cột",
+          "fraction": 100
+        },
+        {
+          "text": "1 cột",
+          "fraction": 0
+        },
+        {
+          "text": "3 cột",
+          "fraction": 0
+        },
+        {
+          "text": "5 cột",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_146",
+      "questiontext": "Biểu đồ cột kép được sử dụng để biểu diễn và so sánh hai tập dữ liệu cùng loại.",
+      "generalfeedback": "Đúng. Biểu đồ cột kép dùng để biểu diễn và so sánh hai tập dữ liệu cùng loại.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_146",
+      "questiontext": "Dựa vào Bảng 9.11, môn thể thao nào có sự chênh lệch số lượng giữa bạn nữ và bạn nam yêu thích là lớn nhất?",
+      "generalfeedback": "Chênh lệch: Bóng đá |3-6|=3; Cầu lông |5-5|=0; Bơi lội |7-2|=5; Bóng rổ |1-3|=2; Khác |0-2|=2. Lớn nhất là Bơi lội (5 bạn).",
+      "answers": [
+        {
+          "text": "Bơi lội",
+          "fraction": 100
+        },
+        {
+          "text": "Bóng đá",
+          "fraction": 0
+        },
+        {
+          "text": "Cầu lông",
+          "fraction": 0
+        },
+        {
+          "text": "Bóng rổ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_150",
+      "questiontext": "Một túi đựng 2 quả bóng xanh, 4 quả bóng vàng và 1 quả bóng đỏ. Nam thực hiện đợt lấy bóng ngẫu nhiên {a} lần (mỗi lần lấy xem màu rồi trả lại) và thấy có {b} lần lấy được bóng màu vàng. Công thức tính xác suất thực nghiệm của sự kiện lấy được bóng vàng là:",
+      "generalfeedback": "Xác suất thực nghiệm = (Số lần lấy được bóng vàng) / (Tổng số lần thực hiện) = {b}/{a}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 20.0,
+          "max": 100.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 5.0,
+          "max": 19.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{b}/{a}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_150",
+      "questiontext": "Trong mô hình lấy bóng từ túi, sau {a} lần thực hiện nghiệm thử, Nam thấy có {b} lần quả bóng lấy ra có màu xanh. Lựa chọn biểu thức tính xác suất thực nghiệm của sự kiện lấy được quả bóng màu xanh:",
+      "generalfeedback": "Xác suất thực nghiệm = Số lần xuất hiện sự kiện / Tổng số lần nghiệm thử = {b}/{a}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 10.0,
+          "max": 50.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 1.0,
+          "max": 9.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{b}/{a}",
+          "fraction": 100
+        },
+        {
+          "text": "{a}/{b}",
+          "fraction": 0
+        },
+        {
+          "text": "{b}*{a}",
+          "fraction": 0
+        },
+        {
+          "text": "{a}-{b}",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống kiến thức chương IX về thống kê và xác suất",
+      "questiontext": "Để thu thập dữ liệu về 'Số lượt đi học muộn trong tuần trước của các tổ trong lớp', cách thu thập dữ liệu nào sau đây là phù hợp nhất?",
+      "generalfeedback": "Nên thu thập từ sổ theo dõi của lớp hoặc sổ đầu bài vì đây là dữ liệu đã ghi chép lại.",
+      "answers": [
+        {
+          "text": "Thu thập từ sổ theo dõi của lớp hoặc sổ đầu bài",
+          "fraction": 100
+        },
+        {
+          "text": "Làm thí nghiệm trong phòng thực hành",
+          "fraction": 0
+        },
+        {
+          "text": "Đo chiều cao của từng học sinh",
+          "fraction": 0
+        },
+        {
+          "text": "Phỏng vấn giáo viên trường khác",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Giải bài toán tổng hợp chương IX",
+      "questiontext": "Dựa vào Bảng 9.11, có bao nhiêu môn thể thao có số học sinh nữ và số học sinh nam yêu thích bằng nhau?",
+      "generalfeedback": "Môn Cầu lông có số bạn nữ (5) bằng số bạn nam (5). Các môn khác số lượng khác nhau. Vậy có 1 môn.",
+      "answers": [
+        {
+          "text": "1",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán tổng hợp chương IX",
+      "questiontext": "Minh bỏ 7 viên bi đen và 3 viên bi trắng vào túi. Minh lấy ra ngẫu nhiên 1 viên bi, xem màu rồi bỏ lại vào túi. Thực hiện 100 lần, thấy có 58 lần lấy được bi đen. Hỏi Minh đã lấy được viên bi màu trắng bao nhiêu lần? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Số lần lấy được bi trắng = Tổng số lần lấy - Số lần lấy bi đen = 100 - 58 = 42 lần.",
+      "answers": [
+        {
+          "text": "42",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_147",
+      "questiontext": "Khi Việt muốn tìm hiểu về đội bóng yêu thích của một số bạn nam trong lớp, cách làm nào giúp Việt thu thập dữ liệu phù hợp nhất?",
+      "generalfeedback": "Lập phiếu hỏi để thu thập thông tin trực tiếp từ các bạn nam trong lớp.",
+      "answers": [
+        {
+          "text": "Lập phiếu hỏi các bạn nam trong lớp",
+          "fraction": 100
+        },
+        {
+          "text": "Tra cứu bản đồ địa lí",
+          "fraction": 0
+        },
+        {
+          "text": "Đo nhiệt độ thời tiết hàng ngày",
+          "fraction": 0
+        },
+        {
+          "text": "Đếm số bàn ghế trong lớp học",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Hệ thống kiến thức chương IX về thống kê và xác suất",
+      "questiontext": "Dữ liệu thu thập được có thể là số (dữ liệu [[1]]) hoặc không phải là số (dữ liệu [[2]]).",
+      "generalfeedback": "Dữ liệu được phân thành hai loại: dữ liệu số (định lượng) và dữ liệu không là số (định tính).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "số"
+        },
+        {
+          "group": 1,
+          "text": "không là số"
+        },
+        {
+          "group": 1,
+          "text": "hình ảnh"
+        },
+        {
+          "group": 1,
+          "text": "ký hiệu"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_146",
+      "questiontext": "Cho Bảng 9.11 thống kê môn thể thao yêu thích của học sinh trong lớp (Nữ: Bóng đá 3, Cầu lông 5, Bơi lội 7, Bóng rổ 1, Khác 0; Nam: Bóng đá 6, Cầu lông 5, Bơi lội 2, Bóng rổ 3, Khác 2). Khi vẽ biểu đồ cột kép biểu diễn bảng thống kê này với trục ngang là các môn thể thao, tại mỗi môn thể thao sẽ có bao nhiêu cột?",
+      "generalfeedback": "Biểu đồ cột kép biểu diễn hai tập dữ liệu (Nam và Nữ) nên tại mỗi môn thể thao trên trục ngang sẽ có 2 cột.",
+      "answers": [
+        {
+          "text": "2 cột",
+          "fraction": 100
+        },
+        {
+          "text": "1 cột",
+          "fraction": 0
+        },
+        {
+          "text": "3 cột",
+          "fraction": 0
+        },
+        {
+          "text": "5 cột",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_146",
+      "questiontext": "Biểu đồ cột kép được sử dụng để biểu diễn và so sánh hai tập dữ liệu cùng loại.",
+      "generalfeedback": "Đúng. Biểu đồ cột kép dùng để biểu diễn và so sánh hai tập dữ liệu cùng loại.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_146",
+      "questiontext": "Dựa vào Bảng 9.11, môn thể thao nào có sự chênh lệch số lượng giữa bạn nữ và bạn nam yêu thích là lớn nhất?",
+      "generalfeedback": "Chênh lệch: Bóng đá |3-6|=3; Cầu lông |5-5|=0; Bơi lội |7-2|=5; Bóng rổ |1-3|=2; Khác |0-2|=2. Lớn nhất là Bơi lội (5 bạn).",
+      "answers": [
+        {
+          "text": "Bơi lội",
+          "fraction": 100
+        },
+        {
+          "text": "Bóng đá",
+          "fraction": 0
+        },
+        {
+          "text": "Cầu lông",
+          "fraction": 0
+        },
+        {
+          "text": "Bóng rổ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_150",
+      "questiontext": "Một túi đựng 2 quả bóng xanh, 4 quả bóng vàng và 1 quả bóng đỏ. Nam thực hiện đợt lấy bóng ngẫu nhiên {a} lần (mỗi lần lấy xem màu rồi trả lại) và thấy có {b} lần lấy được bóng màu vàng. Công thức tính xác suất thực nghiệm của sự kiện lấy được bóng vàng là:",
+      "generalfeedback": "Xác suất thực nghiệm = (Số lần lấy được bóng vàng) / (Tổng số lần thực hiện) = {b}/{a}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 20.0,
+          "max": 100.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 5.0,
+          "max": 19.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{b}/{a}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_150",
+      "questiontext": "Trong mô hình lấy bóng từ túi, sau {a} lần thực hiện nghiệm thử, Nam thấy có {b} lần quả bóng lấy ra có màu xanh. Lựa chọn biểu thức tính xác suất thực nghiệm của sự kiện lấy được quả bóng màu xanh:",
+      "generalfeedback": "Xác suất thực nghiệm = Số lần xuất hiện sự kiện / Tổng số lần nghiệm thử = {b}/{a}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 10.0,
+          "max": 50.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 1.0,
+          "max": 9.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{b}/{a}",
+          "fraction": 100
+        },
+        {
+          "text": "{a}/{b}",
+          "fraction": 0
+        },
+        {
+          "text": "{b}*{a}",
+          "fraction": 0
+        },
+        {
+          "text": "{a}-{b}",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống kiến thức chương IX về thống kê và xác suất",
+      "questiontext": "Để thu thập dữ liệu về 'Số lượt đi học muộn trong tuần trước của các tổ trong lớp', cách thu thập dữ liệu nào sau đây là phù hợp nhất?",
+      "generalfeedback": "Nên thu thập từ sổ theo dõi của lớp hoặc sổ đầu bài vì đây là dữ liệu đã ghi chép lại.",
+      "answers": [
+        {
+          "text": "Thu thập từ sổ theo dõi của lớp hoặc sổ đầu bài",
+          "fraction": 100
+        },
+        {
+          "text": "Làm thí nghiệm trong phòng thực hành",
+          "fraction": 0
+        },
+        {
+          "text": "Đo chiều cao của từng học sinh",
+          "fraction": 0
+        },
+        {
+          "text": "Phỏng vấn giáo viên trường khác",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Giải bài toán tổng hợp chương IX",
+      "questiontext": "Dựa vào Bảng 9.11, có bao nhiêu môn thể thao có số học sinh nữ và số học sinh nam yêu thích bằng nhau?",
+      "generalfeedback": "Môn Cầu lông có số bạn nữ (5) bằng số bạn nam (5). Các môn khác số lượng khác nhau. Vậy có 1 môn.",
+      "answers": [
+        {
+          "text": "1",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán tổng hợp chương IX",
+      "questiontext": "Minh bỏ 7 viên bi đen và 3 viên bi trắng vào túi. Minh lấy ra ngẫu nhiên 1 viên bi, xem màu rồi bỏ lại vào túi. Thực hiện 100 lần, thấy có 58 lần lấy được bi đen. Hỏi Minh đã lấy được viên bi màu trắng bao nhiêu lần? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Số lần lấy được bi trắng = Tổng số lần lấy - Số lần lấy bi đen = 100 - 58 = 42 lần.",
+      "answers": [
+        {
+          "text": "42",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_147",
+      "questiontext": "Khi Việt muốn tìm hiểu về đội bóng yêu thích của một số bạn nam trong lớp, cách làm nào giúp Việt thu thập dữ liệu phù hợp nhất?",
+      "generalfeedback": "Lập phiếu hỏi để thu thập thông tin trực tiếp từ các bạn nam trong lớp.",
+      "answers": [
+        {
+          "text": "Lập phiếu hỏi các bạn nam trong lớp",
+          "fraction": 100
+        },
+        {
+          "text": "Tra cứu bản đồ địa lí",
+          "fraction": 0
+        },
+        {
+          "text": "Đo nhiệt độ thời tiết hàng ngày",
+          "fraction": 0
+        },
+        {
+          "text": "Đếm số bàn ghế trong lớp học",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Hệ thống kiến thức chương IX về thống kê và xác suất",
+      "questiontext": "Dữ liệu thu thập được có thể là số (dữ liệu [[1]]) hoặc không phải là số (dữ liệu [[2]]).",
+      "generalfeedback": "Dữ liệu được phân thành hai loại: dữ liệu số (định lượng) và dữ liệu không là số (định tính).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "số"
+        },
+        {
+          "group": 1,
+          "text": "không là số"
+        },
+        {
+          "group": 1,
+          "text": "hình ảnh"
+        },
+        {
+          "group": 1,
+          "text": "ký hiệu"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_146",
+      "questiontext": "Cho Bảng 9.11 thống kê môn thể thao yêu thích của học sinh trong lớp (Nữ: Bóng đá 3, Cầu lông 5, Bơi lội 7, Bóng rổ 1, Khác 0; Nam: Bóng đá 6, Cầu lông 5, Bơi lội 2, Bóng rổ 3, Khác 2). Khi vẽ biểu đồ cột kép biểu diễn bảng thống kê này với trục ngang là các môn thể thao, tại mỗi môn thể thao sẽ có bao nhiêu cột?",
+      "generalfeedback": "Biểu đồ cột kép biểu diễn hai tập dữ liệu (Nam và Nữ) nên tại mỗi môn thể thao trên trục ngang sẽ có 2 cột.",
+      "answers": [
+        {
+          "text": "2 cột",
+          "fraction": 100
+        },
+        {
+          "text": "1 cột",
+          "fraction": 0
+        },
+        {
+          "text": "3 cột",
+          "fraction": 0
+        },
+        {
+          "text": "5 cột",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_146",
+      "questiontext": "Biểu đồ cột kép được sử dụng để biểu diễn và so sánh hai tập dữ liệu cùng loại.",
+      "generalfeedback": "Đúng. Biểu đồ cột kép dùng để biểu diễn và so sánh hai tập dữ liệu cùng loại.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_146",
+      "questiontext": "Dựa vào Bảng 9.11, môn thể thao nào có sự chênh lệch số lượng giữa bạn nữ và bạn nam yêu thích là lớn nhất?",
+      "generalfeedback": "Chênh lệch: Bóng đá |3-6|=3; Cầu lông |5-5|=0; Bơi lội |7-2|=5; Bóng rổ |1-3|=2; Khác |0-2|=2. Lớn nhất là Bơi lội (5 bạn).",
+      "answers": [
+        {
+          "text": "Bơi lội",
+          "fraction": 100
+        },
+        {
+          "text": "Bóng đá",
+          "fraction": 0
+        },
+        {
+          "text": "Cầu lông",
+          "fraction": 0
+        },
+        {
+          "text": "Bóng rổ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_150",
+      "questiontext": "Một túi đựng 2 quả bóng xanh, 4 quả bóng vàng và 1 quả bóng đỏ. Nam thực hiện đợt lấy bóng ngẫu nhiên {a} lần (mỗi lần lấy xem màu rồi trả lại) và thấy có {b} lần lấy được bóng màu vàng. Công thức tính xác suất thực nghiệm của sự kiện lấy được bóng vàng là:",
+      "generalfeedback": "Xác suất thực nghiệm = (Số lần lấy được bóng vàng) / (Tổng số lần thực hiện) = {b}/{a}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 20.0,
+          "max": 100.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 5.0,
+          "max": 19.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{b}/{a}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_150",
+      "questiontext": "Trong mô hình lấy bóng từ túi, sau {a} lần thực hiện nghiệm thử, Nam thấy có {b} lần quả bóng lấy ra có màu xanh. Lựa chọn biểu thức tính xác suất thực nghiệm của sự kiện lấy được quả bóng màu xanh:",
+      "generalfeedback": "Xác suất thực nghiệm = Số lần xuất hiện sự kiện / Tổng số lần nghiệm thử = {b}/{a}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 10.0,
+          "max": 50.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 1.0,
+          "max": 9.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{b}/{a}",
+          "fraction": 100
+        },
+        {
+          "text": "{a}/{b}",
+          "fraction": 0
+        },
+        {
+          "text": "{b}*{a}",
+          "fraction": 0
+        },
+        {
+          "text": "{a}-{b}",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Hệ thống kiến thức chương IX về thống kê và xác suất",
+      "questiontext": "Để thu thập dữ liệu về 'Số lượt đi học muộn trong tuần trước của các tổ trong lớp', cách thu thập dữ liệu nào sau đây là phù hợp nhất?",
+      "generalfeedback": "Nên thu thập từ sổ theo dõi của lớp hoặc sổ đầu bài vì đây là dữ liệu đã ghi chép lại.",
+      "answers": [
+        {
+          "text": "Thu thập từ sổ theo dõi của lớp hoặc sổ đầu bài",
+          "fraction": 100
+        },
+        {
+          "text": "Làm thí nghiệm trong phòng thực hành",
+          "fraction": 0
+        },
+        {
+          "text": "Đo chiều cao của từng học sinh",
+          "fraction": 0
+        },
+        {
+          "text": "Phỏng vấn giáo viên trường khác",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Giải bài toán tổng hợp chương IX",
+      "questiontext": "Dựa vào Bảng 9.11, có bao nhiêu môn thể thao có số học sinh nữ và số học sinh nam yêu thích bằng nhau?",
+      "generalfeedback": "Môn Cầu lông có số bạn nữ (5) bằng số bạn nam (5). Các môn khác số lượng khác nhau. Vậy có 1 môn.",
+      "answers": [
+        {
+          "text": "1",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán tổng hợp chương IX",
+      "questiontext": "Minh bỏ 7 viên bi đen và 3 viên bi trắng vào túi. Minh lấy ra ngẫu nhiên 1 viên bi, xem màu rồi bỏ lại vào túi. Thực hiện 100 lần, thấy có 58 lần lấy được bi đen. Hỏi Minh đã lấy được viên bi màu trắng bao nhiêu lần? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Số lần lấy được bi trắng = Tổng số lần lấy - Số lần lấy bi đen = 100 - 58 = 42 lần.",
+      "answers": [
+        {
+          "text": "42",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_147",
+      "questiontext": "Khi Việt muốn tìm hiểu về đội bóng yêu thích của một số bạn nam trong lớp, cách làm nào giúp Việt thu thập dữ liệu phù hợp nhất?",
+      "generalfeedback": "Lập phiếu hỏi để thu thập thông tin trực tiếp từ các bạn nam trong lớp.",
+      "answers": [
+        {
+          "text": "Lập phiếu hỏi các bạn nam trong lớp",
+          "fraction": 100
+        },
+        {
+          "text": "Tra cứu bản đồ địa lí",
+          "fraction": 0
+        },
+        {
+          "text": "Đo nhiệt độ thời tiết hàng ngày",
+          "fraction": 0
+        },
+        {
+          "text": "Đếm số bàn ghế trong lớp học",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Hệ thống kiến thức chương IX về thống kê và xác suất",
+      "questiontext": "Dữ liệu thu thập được có thể là số (dữ liệu [[1]]) hoặc không phải là số (dữ liệu [[2]]).",
+      "generalfeedback": "Dữ liệu được phân thành hai loại: dữ liệu số (định lượng) và dữ liệu không là số (định tính).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "số"
+        },
+        {
+          "group": 1,
+          "text": "không là số"
+        },
+        {
+          "group": 1,
+          "text": "hình ảnh"
+        },
+        {
+          "group": 1,
+          "text": "ký hiệu"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi tiến hành bài tập 9.35b (lấy một quả bóng từ túi 20 lần và ghi lại màu bóng), bạn Nam thực hiện đến lần thứ 5 thì thấy kết quả lấy ra chưa đúng như ý muốn và cảm thấy chán nản, định bỏ cuộc. Để thể hiện phẩm chất luôn cố gắng vươn lên đạt kết quả tốt trong học tập, Nam nên có hành động nào sau đây?",
+      "generalfeedback": "Để vươn lên đạt kết quả tốt trong học tập, Nam cần thể hiện sự kiên trì, vượt qua khó khăn, tiếp tục thực hiện đầy đủ các bước của bài tập thực nghiệm thay vì bỏ cuộc hay ghi chép sai sự thật.",
+      "answers": [
+        {
+          "text": "Kiên trì thực hiện tiếp đủ 20 lần lấy bóng và ghi chép trung thực kết quả thu được",
+          "fraction": 100
+        },
+        {
+          "text": "Dừng lại không làm nữa vì kết quả thực nghiệm không như mong muốn",
+          "fraction": 0
+        },
+        {
+          "text": "Tự ý điền số liệu giả định cho đủ 20 lần để nộp bài cho nhanh",
+          "fraction": 0
+        },
+        {
+          "text": "Nhờ bạn khác làm hộ toàn bộ bài tập rồi chép lại kết quả",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "van_dung",
+      "metadata_code": "SUB_TRUNGTHUC_CHUNG_C2_01",
+      "questiontext": "Trong bài tập khảo sát môn thể thao yêu thích của các bạn trong lớp (Bài 9.36), bạn Việt hứa với giáo viên sẽ tự mình hỏi trực tiếp từng bạn nam để lập phiếu hỏi trung thực. Tuy nhiên, vì ngại giao tiếp, Việt định tự bịa ra số liệu rồi báo cáo với cô giáo là đã khảo sát xong. Hành vi này của Việt là thể hiện sự thống nhất giữa lời nói với việc làm.",
+      "generalfeedback": "Sai. Hành vi hứa một đằng nhưng lại tự bịa số liệu không qua khảo sát thực tế là vi phạm sự trung thực và không thống nhất giữa lời nói với việc làm.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "questiontext": "Trong một bản báo cáo tổng kết môn học, tác giả đưa ra Bảng 9.11 thống kê môn thể thao yêu thích của học sinh lớp 6A (Nữ: Bóng đá 3, Cầu lông 5, Bơi lội 7, Bóng rổ 1, Khác 0; Nam: Bóng đá 6, Cầu lông 5, Bơi lội 2, Bóng rổ 3, Khác 2) kèm theo nhận xét: 'Học sinh nữ trong lớp yêu thích môn Bơi lội nhất, trong khi học sinh nam yêu thích môn Bóng đá nhất.' Khi tiếp nhận văn bản báo cáo kết hợp bảng số liệu này, em hãy đánh giá tính chính xác của nhận xét trên.",
+      "generalfeedback": "Nhận xét hoàn toàn chính xác vì ở cột Nữ, môn Bơi lội có số lượng cao nhất (7 bạn); ở cột Nam, môn Bóng đá có số lượng cao nhất (6 bạn).",
+      "answers": [
+        {
+          "text": "Nhận xét hoàn toàn chính xác dựa trên số liệu của Bảng 9.11",
+          "fraction": 100
+        },
+        {
+          "text": "Nhận xét sai vì môn Cầu lông mới được cả nam và nữ yêu thích nhất",
+          "fraction": 0
+        },
+        {
+          "text": "Nhận xét sai vì các bạn nam yêu thích môn Bơi lội nhiều nhất",
+          "fraction": 0
+        },
+        {
+          "text": "Nhận xét không thể kiểm chứng được từ Bảng 9.11",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_04",
+      "questiontext": "Để thảo luận và trình bày ý tưởng trước lớp về kết quả khảo sát môn thể thao yêu thích của các bạn nam và nữ trong Bảng 9.11, bạn Bình nên vẽ [[1]] biểu diễn song song hai tập dữ liệu, kết hợp với [[2]] để thảo luận và giải thích rõ ràng ý kiến của mình.",
+      "generalfeedback": "Sử dụng biểu đồ cột kép kết hợp với ngôn ngữ nói/viết giúp truyền tải thông tin so sánh số liệu trực quan và thuyết phục.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "biểu đồ cột kép"
+        },
+        {
+          "group": 1,
+          "text": "ngôn ngữ trình bày"
+        },
+        {
+          "group": 1,
+          "text": "sơ đồ tư duy"
+        },
+        {
+          "group": 1,
+          "text": "văn bản nghị luận"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_02_03",
+      "questiontext": "Ban cán sự lớp 6A muốn chọn ra 2 môn thể thao phù hợp nhất để đăng ký hội thao trường dựa trên nguyện vọng thực tế của cả nam và nữ trong lớp. Để mô tả tình huống thực tiễn này dưới dạng mô hình toán học trợ giúp cho việc đưa ra quyết định, ban cán sự lớp nên sử dụng mô hình nào?",
+      "generalfeedback": "Lập bảng thống kê số liệu hai chiều (Nam/Nữ) và vẽ biểu đồ cột kép là mô hình toán học phù hợp nhất để mô tả và so sánh dữ liệu thực tiễn.",
+      "answers": [
+        {
+          "text": "Lập bảng thống kê số liệu hai chiều (Nam/Nữ) và vẽ biểu đồ cột kép biểu diễn sự lựa chọn",
+          "fraction": 100
+        },
+        {
+          "text": "Vẽ hình học không gian biểu diễn danh sách môn thể thao",
+          "fraction": 0
+        },
+        {
+          "text": "Viết một biểu thức đại số chứa ẩn số không xác định",
+          "fraction": 0
+        },
+        {
+          "text": "Sử dụng thước đo độ để đo góc chọn của học sinh",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04_04",
+      "questiontext": "Cho đoạn văn bản từ Bài 9.37: 'Minh bỏ 7 viên bi đen và 3 viên bi trắng có cùng kích thước vào một cái túi. Mỗi lần Minh lấy ra ngẫu nhiên một viên bi từ túi, xem viên bi đó có màu gì rồi lại bỏ viên bi đó vào túi. Minh đã thực hiện 100 lần và thấy có 58 lần lấy được bi đen.' Hãy phân tích đoạn văn trên và cho biết thông tin toán học nào là dữ kiện trực tiếp cần thiết để tính xác suất thực nghiệm của sự kiện Minh lấy được viên bi màu đen?",
+      "generalfeedback": "Xác suất thực nghiệm = (Số lần lấy được bi đen) / (Tổng số lần lấy bi). Do đó hai thông tin cần thiết nhất là số lần xuất hiện bi đen (58 lần) và tổng số lần thực hiện (100 lần).",
+      "answers": [
+        {
+          "text": "Số lần lấy được bi đen (58 lần) và tổng số lần thực hiện nghiệm thử (100 lần)",
+          "fraction": 100
+        },
+        {
+          "text": "Số viên bi đen ban đầu (7 viên) và số viên bi trắng ban đầu (3 viên)",
+          "fraction": 0
+        },
+        {
+          "text": "Kích thước của các viên bi và chất liệu làm túi đựng bi",
+          "fraction": 0
+        },
+        {
+          "text": "Màu sắc của túi đựng bi và thời gian Minh thực hiện",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

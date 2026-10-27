@@ -1,0 +1,649 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 26,
+    "metadata_used": {
+      "Điều kiện S^2 >= 4P để tồn tại hai số": 4,
+      "Phương trình X^2 - SX + P = 0": 3,
+      "Tìm hai số khi biết tổng S và tích P của chúng": 6,
+      "YCCD_TOAN9_034": 5,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_TCTH_TUHOC_C2_01": 1,
+      "SUB_GQVD_DEXUAT_C2_02": 1,
+      "NLT_TOAN_C2_01_05": 2,
+      "NLT_TOAN_C2_03_05": 1
+    },
+    "types_used": {
+      "multichoice": 11,
+      "truefalse": 3,
+      "gapselect": 2,
+      "matching": 2,
+      "shortanswer": 2,
+      "numerical": 2,
+      "calculatedsimple": 2,
+      "ddwtos": 2
+    },
+    "total": 26
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "Điều kiện S^2 >= 4P để tồn tại hai số",
+        "reason": "Đo lường kiến thức về điều kiện S^2 >= 4P để tồn tại hai số khi biết tổng và tích"
+      },
+      {
+        "metadata_code": "Phương trình X^2 - SX + P = 0",
+        "reason": "Đo lường kiến thức về phương trình bậc hai X^2 - Sx + P = 0 nhận hai số làm nghiệm"
+      },
+      {
+        "metadata_code": "Tìm hai số khi biết tổng S và tích P của chúng",
+        "reason": "Đo lường kỹ năng tìm hai số khi biết tổng S và tích P của chúng"
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_034",
+        "reason": "Đo lường yêu cầu cần đạt về vận dụng định lí Viète để tìm hai số biết tổng và tích"
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đo lường phẩm chất luôn cố gắng vươn lên đạt kết quả tốt trong học tập trong bối cảnh học toán"
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+        "reason": "Đo lường năng lực tự đặt mục tiêu học tập và lập kế hoạch làm chủ dạng toán"
+      },
+      {
+        "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+        "reason": "Đo lường năng lực đề xuất giải pháp quy trình toán học giải quyết vấn đề thực tế"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_05",
+        "reason": "Đo lường năng lực thực hiện lập luận toán học hợp lý khi chứng minh tính tồn tại hai số"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_05",
+        "reason": "Đo lường năng lực sử dụng kĩ năng toán học tương thích trong phân tích đa thức thành nhân tử"
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Điều kiện S^2 >= 4P để tồn tại hai số",
+      "questiontext": "Để tồn tại hai số có tổng bằng \\(S\\) và tích bằng \\(P\\), điều kiện của \\(S\\) và \\(P\\) là gì?",
+      "generalfeedback": "Hai số có tổng bằng \\(S\\) và tích bằng \\(P\\) là hai nghiệm của phương trình \\(x^2 - Sx + P = 0\\). Phương trình này có nghiệm khi và chỉ khi \\(\\Delta = S^2 - 4P \\ge 0\\).",
+      "answers": [
+        {
+          "text": "\\(S^2 - 4P \\ge 0\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(S^2 - 4P < 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(S^2 - P \\ge 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(S^2 + 4P \\ge 0\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Điều kiện S^2 >= 4P để tồn tại hai số",
+      "questiontext": "Không tồn tại hai số thực nào có tổng \\(S = 2\\) và tích \\(P = 15\\). Khẳng định này đúng hay sai?",
+      "generalfeedback": "Ta có \\(S^2 - 4P = 2^2 - 4 \\cdot 15 = 4 - 60 = -56 < 0\\). Vì \\(S^2 - 4P < 0\\) nên không tồn tại hai số thỏa mãn. Do đó khẳng định trên là đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Phương trình X^2 - SX + P = 0",
+      "questiontext": "Nếu hai số có tổng bằng \\(S\\) và tích bằng \\(P\\) (với \\(S^2 - 4P \\ge 0\\)) thì hai số đó là hai nghiệm của phương trình nào sau đây?",
+      "generalfeedback": "Nếu hai số có tổng bằng \\(S\\) và tích bằng \\(P\\) thì chúng là hai nghiệm của phương trình bậc hai \\(x^2 - Sx + P = 0\\).",
+      "answers": [
+        {
+          "text": "\\(x^2 - Sx + P = 0\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x^2 + Sx + P = 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x^2 - Sx - P = 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x^2 + Sx - P = 0\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Phương trình X^2 - SX + P = 0",
+      "questiontext": "Nếu hai số có tổng bằng 9 và tích bằng 20 thì hai số đó là hai nghiệm của phương trình [[1]]. Biết phương trình có hai nghiệm là [[2]], vậy hai số cần tìm là 4 và 5.",
+      "generalfeedback": "Hai số có tổng \\(S = 9\\) và tích \\(P = 20\\) là nghiệm của phương trình \\(x^2 - 9x + 20 = 0\\). Giải phương trình ta được hai nghiệm là 4 và 5.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(x^2 - 9x + 20 = 0\\)"
+        },
+        {
+          "group": 1,
+          "text": "4 và 5"
+        },
+        {
+          "group": 1,
+          "text": "\\(x^2 + 9x + 20 = 0\\)"
+        },
+        {
+          "group": 1,
+          "text": "2 và 10"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "Tìm hai số khi biết tổng S và tích P của chúng",
+      "questiontext": "Hãy ghép mỗi cặp tổng \\(S\\) và tích \\(P\\) ở cột bên trái với hai số tương ứng ở cột bên phải.",
+      "generalfeedback": "Giải các phương trình \\(x^2 - Sx + P = 0\\):\n- Với \\(S=5, P=6\\): phương trình \\(x^2 - 5x + 6 = 0\\) có nghiệm là 2 và 3.\n- Với \\(S=9, P=20\\): phương trình \\(x^2 - 9x + 20 = 0\\) có nghiệm là 4 và 5.\n- Với \\(S=-11, P=28\\): phương trình \\(x^2 + 11x + 28 = 0\\) có nghiệm là -7 và -4.\n- Với \\(S=20, P=99\\): phương trình \\(x^2 - 20x + 99 = 0\\) có nghiệm là 9 và 11.",
+      "subquestions": [
+        {
+          "question": "Tổng \\(S = 5\\), tích \\(P = 6\\)",
+          "answer": "2 và 3"
+        },
+        {
+          "question": "Tổng \\(S = 9\\), tích \\(P = 20\\)",
+          "answer": "4 và 5"
+        },
+        {
+          "question": "Tổng \\(S = -11\\), tích \\(P = 28\\)",
+          "answer": "-7 và -4"
+        },
+        {
+          "question": "Tổng \\(S = 20\\), tích \\(P = 99\\)",
+          "answer": "9 và 11"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm hai số khi biết tổng S và tích P của chúng",
+      "questiontext": "Hai số có tổng bằng 20 và tích bằng 99 là hai số nào? (Viết hai số cách nhau bởi từ 'và', số nhỏ viết trước)",
+      "generalfeedback": "Hai số là nghiệm của phương trình \\(x^2 - 20x + 99 = 0\\). Ta có \\(\\Delta' = 100 - 99 = 1\\), hai nghiệm là \\(x_1 = 10 - 1 = 9\\) và \\(x_2 = 10 + 1 = 11\\).",
+      "answers": [
+        {
+          "text": "9 và 11",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tìm hai số khi biết tổng S và tích P của chúng",
+      "questiontext": "[img:_page_0_Picture_8.jpeg] Bác An muốn dùng 40 m hàng rào lưới thép để rào xung quanh một mảnh đất hình chữ nhật có diện tích 96 m². Tính chiều dài của mảnh vườn đó (tính bằng mét). (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Nửa chu vi (tổng chiều dài và chiều rộng) là \\(S = 40 : 2 = 20\\) m. Diện tích (tích chiều dài và chiều rộng) là \\(P = 96\\) m². Chiều dài và chiều rộng là hai nghiệm của phương trình \\(x^2 - 20x + 96 = 0\\). Phương trình có hai nghiệm \\(x_1 = 12\\) và \\(x_2 = 8\\). Vậy chiều dài của mảnh vườn là 12 m.",
+      "imgs": [
+        "_page_0_Picture_8.jpeg"
+      ],
+      "answers": [
+        {
+          "text": "12",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_034",
+      "questiontext": "Một bể bơi hình chữ nhật có diện tích 300 m² và chu vi là 74 m. Kích thước chiều dài và chiều rộng của bể bơi này lần lượt là bao nhiêu?",
+      "generalfeedback": "Nửa chu vi của bể bơi là \\(S = 74 : 2 = 37\\) m. Diện tích là \\(P = 300\\) m². Chiều dài và chiều rộng là nghiệm của phương trình \\(x^2 - 37x + 300 = 0\\). Ta có \\(\\Delta = (-37)^2 - 4 \\cdot 300 = 1369 - 1200 = 169 = 13^2\\). Hai nghiệm là \\(x_1 = \\frac{37 + 13}{2} = 25\\) m và \\(x_2 = \\frac{37 - 13}{2} = 12\\) m.",
+      "answers": [
+        {
+          "text": "25 m và 12 m",
+          "fraction": 100
+        },
+        {
+          "text": "20 m và 15 m",
+          "fraction": 0
+        },
+        {
+          "text": "30 m và 10 m",
+          "fraction": 0
+        },
+        {
+          "text": "24 m và 13 m",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "thong_hieu",
+      "metadata_code": "Điều kiện S^2 >= 4P để tồn tại hai số",
+      "questiontext": "Cho hai số có tổng S = {S} và tích P = 6. Để tồn tại hai số đó thì giá trị biểu thức \\(S^2 - 4P\\) phải lớn hơn hoặc bằng 0. Hãy tính giá trị của biểu thức \\(S^2 - 4 \\times 6\\) khi S = {S}.",
+      "generalfeedback": "Giá trị của biểu thức \\(S^2 - 4P\\) với \\(P = 6\\) là \\(S^2 - 24\\). Với S = {S}, giá trị tính được là pow({S},2)-24.",
+      "wildcards": [
+        {
+          "name": "S",
+          "min": 5.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "pow({S},2)-24",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_034",
+      "questiontext": "Để tìm hai số khi biết tổng \\(S\\) và tích \\(P\\), bước 1 ta kiểm tra điều kiện [[1]]. Nếu điều kiện thỏa mãn, hai số cần tìm là nghiệm của phương trình [[2]].",
+      "generalfeedback": "Để tồn tại hai số có tổng \\(S\\) và tích \\(P\\), điều kiện cần là \\(S^2 - 4P \\ge 0\\). Khi đó hai số là nghiệm của phương trình \\(x^2 - Sx + P = 0\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(S^2 - 4P \\ge 0\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(x^2 - Sx + P = 0\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(S^2 - 4P < 0\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(x^2 + Sx + P = 0\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm hai số khi biết tổng S và tích P của chúng",
+      "questiontext": "Tìm hai số biết tổng của chúng bằng \\( -11 \\) và tích của chúng bằng \\( 28 \\).",
+      "generalfeedback": "Hai số là nghiệm của phương trình \\( x^2 + 11x + 28 = 0 \\). Ta có \\( \\Delta = 11^2 - 4 \\cdot 28 = 121 - 112 = 9 > 0 \\). Hai nghiệm là \\( x_1 = \\frac{-11 - 3}{2} = -7 \\) và \\( x_2 = \\frac{-11 + 3}{2} = -4 \\). Vậy hai số cần tìm là -7 và -4.",
+      "answers": [
+        {
+          "text": "-7 và -4",
+          "fraction": 100
+        },
+        {
+          "text": "7 và 4",
+          "fraction": 0
+        },
+        {
+          "text": "-7 và 4",
+          "fraction": 0
+        },
+        {
+          "text": "7 và -4",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Điều kiện S^2 >= 4P để tồn tại hai số",
+      "questiontext": "Nếu \\( S^2 - 4P < 0 \\) thì không tồn tại hai số thực nào có tổng bằng \\( S \\) và tích bằng \\( P \\). Khẳng định này đúng hay sai?",
+      "generalfeedback": "Khẳng định này đúng vì điều kiện để tồn tại hai số có tổng \\( S \\) và tích \\( P \\) là \\( S^2 - 4P \\ge 0 \\). Do đó khi \\( S^2 - 4P < 0 \\) sẽ không tồn tại hai số thực thỏa mãn.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm hai số khi biết tổng S và tích P của chúng",
+      "questiontext": "Tìm hai số \\( u \\) và \\( v \\) biết \\( u + v = 2 \\) và \\( uv = 15 \\).",
+      "generalfeedback": "Ta có \\( S = 2, P = 15 \\). Tính \\( S^2 - 4P = 2^2 - 4 \\cdot 15 = -56 < 0 \\). Vì \\( S^2 - 4P < 0 \\) nên không tồn tại hai số \\( u \\) và \\( v \\) thỏa mãn.",
+      "answers": [
+        {
+          "text": "Không tồn tại",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_034",
+      "questiontext": "Áp dụng việc tìm hai số khi biết tổng và tích, kết quả phân tích đa thức \\( x^2 + 11x + 18 \\) thành nhân tử là gì?",
+      "generalfeedback": "Ta tìm hai số có tổng bằng -11 và tích bằng 18 (vì nghiệm của \\( x^2 + 11x + 18 = 0 \\) có tổng bằng -11, tích bằng 18). Hai số đó là -2 và -9. Do đó \\( x^2 + 11x + 18 = (x + 2)(x + 9) \\).",
+      "answers": [
+        {
+          "text": "\\( (x + 2)(x + 9) \\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\( (x - 2)(x - 9) \\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\( (x + 1)(x + 18) \\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\( (x - 1)(x - 18) \\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tìm hai số khi biết tổng S và tích P của chúng",
+      "questiontext": "Tìm số lớn hơn trong hai số biết tổng của chúng bằng 15 và tích của chúng bằng 50. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Hai số là nghiệm của phương trình \\( x^2 - 15x + 50 = 0 \\). Ta có \\( \\Delta = 15^2 - 4 \\cdot 50 = 225 - 200 = 25 \\), suy ra hai nghiệm là \\( x_1 = 10 \\) và \\( x_2 = 5 \\). Số lớn hơn trong hai số là 10.",
+      "answers": [
+        {
+          "text": "10",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Phương trình X^2 - SX + P = 0",
+      "questiontext": "Hai số \\( u \\) và \\( v \\) có tổng \\( u + v = -7 \\) và tích \\( uv = 12 \\) là hai nghiệm của phương trình [[1]]. Hai số đó là [[2]].",
+      "generalfeedback": "Hai số có tổng \\( S = -7 \\) và tích \\( P = 12 \\) là nghiệm của phương trình \\( x^2 - (-7)x + 12 = 0 \\), tức là \\( x^2 + 7x + 12 = 0 \\). Giải phương trình được hai nghiệm là -4 và -3.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\( x^2 + 7x + 12 = 0 \\)"
+        },
+        {
+          "group": 1,
+          "text": "-4 và -3"
+        },
+        {
+          "group": 1,
+          "text": "\\( x^2 - 7x + 12 = 0 \\)"
+        },
+        {
+          "group": 1,
+          "text": "3 và 4"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_034",
+      "questiontext": "Hãy ghép mỗi đa thức ở cột bên trái với dạng phân tích thành nhân tử tương ứng ở cột bên phải.",
+      "generalfeedback": "Sử dụng công thức \\( ax^2 + bx + c = a(x - x_1)(x - x_2) \\) với \\( x_1, x_2 \\) là các nghiệm của phương trình bậc hai tương ứng:\n- \\( x^2 - 7x + 12 = (x - 3)(x - 4) \\)\n- \\( x^2 + 11x + 18 = (x + 2)(x + 9) \\)\n- \\( 3x^2 + 5x - 2 = (x + 2)(3x - 1) \\)",
+      "subquestions": [
+        {
+          "question": "\\( x^2 - 7x + 12 \\)",
+          "answer": "\\( (x - 3)(x - 4) \\)"
+        },
+        {
+          "question": "\\( x^2 + 11x + 18 \\)",
+          "answer": "\\( (x + 2)(x + 9) \\)"
+        },
+        {
+          "question": "\\( 3x^2 + 5x - 2 \\)",
+          "answer": "\\( (x + 2)(3x - 1) \\)"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Tìm hai số khi biết tổng S và tích P của chúng",
+      "questiontext": "Cho hai số có tổng S = {a} và tích P = {b}. Hãy tính giá trị biệt thức \\( \\Delta = S^2 - 4P \\) của phương trình bậc hai nhận hai số đó làm nghiệm.",
+      "generalfeedback": "Biệt thức \\( \\Delta = S^2 - 4P \\). Với S = {a} và P = {b}, giá trị tính được là pow({a},2)-4*{b}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 6.0,
+          "max": 12.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 1.0,
+          "max": 5.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "pow({a},2)-4*{b}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_034",
+      "questiontext": "Cho phương trình bậc hai \\( x^2 - 6x + 8 = 0 \\). Hai nghiệm của phương trình này lần lượt là bao nhiêu?",
+      "generalfeedback": "Phương trình \\( x^2 - 6x + 8 = 0 \\) có tổng hai nghiệm \\( S = 6 \\) và tích hai nghiệm \\( P = 8 \\). Hai số có tổng bằng 6 và tích bằng 8 là 2 và 4.",
+      "answers": [
+        {
+          "text": "2 và 4",
+          "fraction": 100
+        },
+        {
+          "text": "-2 và -4",
+          "fraction": 0
+        },
+        {
+          "text": "1 và 8",
+          "fraction": 0
+        },
+        {
+          "text": "-1 và -8",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Phương trình X^2 - SX + P = 0",
+      "questiontext": "Cho hai số có tổng bằng \\( S \\) và tích bằng \\( P \\). Phương trình bậc hai nhận hai số đó làm nghiệm là [[1]]. Điều kiện để tồn tại hai số đó là [[2]].",
+      "generalfeedback": "Hai số có tổng \\( S \\) và tích \\( P \\) là hai nghiệm của phương trình \\( x^2 - Sx + P = 0 \\). Điều kiện để phương trình có nghiệm (tức là tồn tại hai số) là \\( S^2 - 4P \\ge 0 \\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\( x^2 - Sx + P = 0 \\)"
+        },
+        {
+          "group": 1,
+          "text": "\\( S^2 - 4P \\ge 0 \\)"
+        },
+        {
+          "group": 1,
+          "text": "\\( x^2 + Sx + P = 0 \\)"
+        },
+        {
+          "group": 1,
+          "text": "\\( S^2 - 4P < 0 \\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ ôn tập môn Toán, khi gặp bài toán 'Tìm hai số biết tổng bằng 9 và tích bằng 20', bạn An bị hổng kiến thức nên chưa nhớ cách lập phương trình. Để hiện thực hóa tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập, bạn An nên lựa chọn hành động nào sau đây?",
+      "generalfeedback": "Hành động chủ động tra cứu bài học Định lí Viète và ứng dụng (mục Tìm hai số khi biết tổng và tích), tự mình ôn lại điều kiện \\(S^2 - 4P \\ge 0\\) và cách lập phương trình \\(x^2 - Sx + P = 0\\) để giải bài toán thể hiện rõ sự nỗ lực vươn lên vượt qua khó khăn trong học tập.",
+      "answers": [
+        {
+          "text": "Chủ động mở SGK xem lại kiến thức về bài toán tìm hai số khi biết tổng \\(S\\) và tích \\(P\\), tự lập phương trình \\(x^2 - 9x + 20 = 0\\) để tìm hai số.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài toán vì cho rằng dạng bài này quá khó đối với bản thân.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép ngay đáp án của bạn bên cạnh mà không cần hiểu cách lập phương trình.",
+          "fraction": 0
+        },
+        {
+          "text": "Chờ thầy cô chữa bài rồi chép vào vở chứ không tự suy nghĩ.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Để tự đặt mục tiêu và kế hoạch cá nhân nhằm làm chủ dạng toán 'Tìm hai số khi biết tổng và tích', bạn Bình lập danh sách các mục tiêu cần hoàn thành. Thứ tự mục tiêu học tập nào sau đây là hợp lý và khoa học nhất?",
+      "generalfeedback": "Thứ tự học tập hiệu quả đi từ nắm chắc lý thuyết (điều kiện \\(S^2 - 4P \\ge 0\\) và dạng phương trình \\(x^2 - Sx + P = 0\\)), đến thực hành bài toán cơ bản, và cuối cùng là vận dụng vào bài toán thực tế (như bài toán diện tích, chu vi mảnh vườn).",
+      "answers": [
+        {
+          "text": "1. Hiểu điều kiện \\(S^2 - 4P \\ge 0\\); 2. Nắm vững phương trình \\(x^2 - Sx + P = 0\\); 3. Luyện tập bài toán tìm hai số đơn giản; 4. Vận dụng giải bài toán thực tế.",
+          "fraction": 100
+        },
+        {
+          "text": "1. Giải ngay các bài toán thực tế phức tạp; 2. Học thuộc lòng đáp án các bài tập; 3. Mới quay lại đọc điều kiện tồn tại hai số.",
+          "fraction": 0
+        },
+        {
+          "text": "1. Luyện tập làm bài tập trắc nghiệm; 2. Bỏ qua phần lý thuyết điều kiện \\(S^2 - 4P \\ge 0\\); 3. Chỉ nhớ công thức bấm máy tính.",
+          "fraction": 0
+        },
+        {
+          "text": "1. Đọc phần giải bài tập mẫu; 2. Chép lại lời giải; 3. Không cần tự làm lại các bài tập tương tự.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_DEXUAT_C2_02",
+      "questiontext": "Bác An muốn rào một mảnh vườn hình chữ nhật có chu vi 40 m và diện tích 96 m². Bạn Minh muốn đề xuất một quy trình toán học dựa trên Định lí Viète để giúp bác An tìm chiều dài và chiều rộng của mảnh vườn. Đề xuất nào sau đây là chính xác và tối ưu nhất?",
+      "generalfeedback": "Để tìm chiều dài và chiều rộng, quy trình tối ưu là: 1. Tính nửa chu vi (tổng \\(S = 40 : 2 = 20\\) m) và diện tích (tích \\(P = 96\\) m²); 2. Kiểm tra điều kiện \\(S^2 - 4P = 20^2 - 4 \\cdot 96 = 16 > 0\\); 3. Lập phương trình \\(x^2 - 20x + 96 = 0\\) và giải tìm nghiệm (8 m và 12 m).",
+      "answers": [
+        {
+          "text": "Tính nửa chu vi \\(S = 20\\) m và diện tích \\(P = 96\\) m², sau đó lập phương trình \\(x^2 - 20x + 96 = 0\\) để giải tìm hai kích thước.",
+          "fraction": 100
+        },
+        {
+          "text": "Thử chọn ngẫu nhiên từng cặp số có tích bằng 96 cho đến khi tìm được cặp số có tổng bằng 40.",
+          "fraction": 0
+        },
+        {
+          "text": "Tính chu vi \\(S = 40\\) m và diện tích \\(P = 96\\) m², sau đó lập phương trình \\(x^2 - 40x + 96 = 0\\) để tìm hai kích thước.",
+          "fraction": 0
+        },
+        {
+          "text": "Vẽ hình chữ nhật ra giấy rồi dùng thước đo trực tiếp để xác định chiều dài và chiều rộng.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_05",
+      "questiontext": "Để lập luận chứng minh rằng 'Không tồn tại hai số thực nào có tổng bằng 2 và tích bằng 15', chuỗi lập luận nào sau đây là logic và đầy đủ nhất?",
+      "generalfeedback": "Chuỗi lập luận chính xác: Giả sử tồn tại hai số có tổng \\(S = 2\\) và tích \\(P = 15\\). Theo lý thuyết, hai số đó phải là nghiệm của phương trình \\(x^2 - 2x + 15 = 0\\). Xét biệt thức \\(\\Delta' = (-1)^2 - 15 = -14 < 0\\) (hoặc \\(S^2 - 4P = 2^2 - 4 \\cdot 15 = -56 < 0\\)). Do phương trình vô nghiệm nên không tồn tại hai số thực thỏa mãn.",
+      "answers": [
+        {
+          "text": "Giả sử tồn tại hai số, chúng phải là nghiệm của \\(x^2 - 2x + 15 = 0\\). Ta có \\(S^2 - 4P = 2^2 - 4 \\cdot 15 = -56 < 0\\), phương trình vô nghiệm nên không tồn tại hai số thỏa mãn.",
+          "fraction": 100
+        },
+        {
+          "text": "Vì tổng 2 nhỏ hơn tích 15 nên không thể tìm được hai số thực thỏa mãn.",
+          "fraction": 0
+        },
+        {
+          "text": "Vì 15 không chia hết cho 2 nên không tồn tại hai số có tổng bằng 2 và tích bằng 15.",
+          "fraction": 0
+        },
+        {
+          "text": "Giả sử hai số là \\(u\\) và \\(v\\), vì \\(u + v = 2\\) nên \\(u\\) và \\(v\\) phải là hai số âm, mà tích hai số âm phải dương nên không thỏa mãn.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Khi phân tích đa thức \\(x^2 + 11x + 18\\) thành nhân tử, kĩ năng toán học dựa trên Định lí Viète nào được vận dụng tương thích nhất?",
+      "generalfeedback": "Kĩ năng tương thích nhất là biến đổi việc phân tích đa thức \\(x^2 + 11x + 18\\) thành bài toán tìm hai số \\(x_1, x_2\\) có tổng \\(S = -11\\) và tích \\(P = 18\\). Khi tìm được \\(x_1 = -2, x_2 = -9\\), đa thức được phân tích thành \\((x - x_1)(x - x_2) = (x + 2)(x + 9)\\).",
+      "answers": [
+        {
+          "text": "Tìm hai số có tổng bằng \\(-11\\) và tích bằng \\(18\\) để xác định các nghiệm \\(x_1 = -2, x_2 = -9\\), từ đó viết dạng nhân tử \\((x + 2)(x + 9)\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Đặt nhân tử chung \\(x\\) cho hai hạng tử đầu tiên \\(x(x + 11) + 18\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Sử dụng hằng đẳng thức bình phương của một tổng \\((x + 3)^2\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Tính tổng các hệ số \\(1 + 11 + 18 = 30\\) rồi chia cho 2.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_05",
+      "questiontext": "Xét lập luận sau: 'Để tìm hai số có tổng bằng \\(S\\) và tích bằng \\(P\\), ta luôn luôn giải được phương trình \\(x^2 - Sx + P = 0\\) để tìm hai số đó với mọi giá trị thực của \\(S\\) và \\(P\\).' Lập luận này ĐÚNG hay SAI?",
+      "generalfeedback": "Lập luận này SAI vì phương trình \\(x^2 - Sx + P = 0\\) chỉ có nghiệm (tức là tồn tại hai số) khi và chỉ khi biệt thức \\(\\Delta = S^2 - 4P \\ge 0\\). Nếu \\(S^2 - 4P < 0\\) thì phương trình vô nghiệm và không tồn tại hai số thực thỏa mãn.",
+      "answers": [
+        {
+          "text": "Sai",
+          "fraction": 100
+        },
+        {
+          "text": "Đúng",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

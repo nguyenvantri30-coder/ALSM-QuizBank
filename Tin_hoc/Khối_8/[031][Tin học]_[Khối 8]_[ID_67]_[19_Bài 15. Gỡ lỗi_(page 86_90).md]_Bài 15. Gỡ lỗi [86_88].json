@@ -1,0 +1,760 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 28,
+    "metadata_used": {
+      "Khái niệm kiểm thử chương trình và mục đích kiểm thử": 2,
+      "Khái niệm lỗi cú pháp/lắp ghép và lỗi lôgic": 3,
+      "Nguyên nhân dẫn đến lỗi lôgic trong chương trình": 1,
+      "Khái niệm bộ dữ liệu kiểm thử (Test cases)": 2,
+      "Phân biệt lỗi lắp ghép khối lệnh và lỗi lôgic": 2,
+      "Xây dựng bộ dữ liệu kiểm thử đơn giản để kiểm tra tính đúng đắn của chương trình": 2,
+      "Phát hiện vị trí khối lệnh gây ra lỗi lôgic trong chương trình": 2,
+      "YCCD_TH8_061": 2,
+      "YCCD_TH8_062": 2,
+      "YCCD_TH8_063": 2,
+      "SUB_TRUNGTHUC_CHUNG_C2_02": 1,
+      "SUB_TRUNGTHUC_CHUNG_C2_05": 1,
+      "SUB_GQVD_TUDUY_C2_03": 1,
+      "SUB_GQVD_PHATHIEN_C2_01": 1,
+      "NLT_TIN_TIN_C2_03_06": 1,
+      "NLT_TIN_TIN_C2_03_07": 1,
+      "5.1TC2a_K8": 1,
+      "5.1TC2b_K8": 1
+    },
+    "types_used": {
+      "multichoice": 15,
+      "truefalse": 3,
+      "gapselect": 3,
+      "shortanswer": 3,
+      "matching": 3,
+      "ddwtos": 1
+    },
+    "total": 28
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "Khái niệm kiểm thử chương trình và mục đích kiểm thử",
+        "reason": "Khái niệm kiểm thử chương trình và mục đích kiểm thử"
+      },
+      {
+        "metadata_code": "Khái niệm lỗi cú pháp/lắp ghép và lỗi lôgic",
+        "reason": "Khái niệm lỗi cú pháp/lắp ghép và lỗi lôgic"
+      },
+      {
+        "metadata_code": "Nguyên nhân dẫn đến lỗi lôgic trong chương trình",
+        "reason": "Nguyên nhân dẫn đến lỗi lôgic trong chương trình"
+      },
+      {
+        "metadata_code": "Khái niệm bộ dữ liệu kiểm thử (Test cases)",
+        "reason": "Khái niệm bộ dữ liệu kiểm thử (Test cases)"
+      },
+      {
+        "metadata_code": "Phân biệt lỗi lắp ghép khối lệnh và lỗi lôgic",
+        "reason": "Phân biệt lỗi lắp ghép khối lệnh và lỗi lôgic"
+      },
+      {
+        "metadata_code": "Xây dựng bộ dữ liệu kiểm thử đơn giản để kiểm tra tính đúng đắn của chương trình",
+        "reason": "Xây dựng bộ dữ liệu kiểm thử đơn giản để kiểm tra tính đúng đắn của chương trình"
+      },
+      {
+        "metadata_code": "Phát hiện vị trí khối lệnh gây ra lỗi lôgic trong chương trình",
+        "reason": "Phát hiện vị trí khối lệnh gây ra lỗi lôgic trong chương trình"
+      },
+      {
+        "metadata_code": "YCCD_TH8_061",
+        "reason": "Thực hiện được việc chạy thử chương trình"
+      },
+      {
+        "metadata_code": "YCCD_TH8_062",
+        "reason": "Thực hiện được việc tìm lỗi trong chương trình"
+      },
+      {
+        "metadata_code": "YCCD_TH8_063",
+        "reason": "Thực hiện được việc sửa lỗi cho chương trình"
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm kiểm thử chương trình và mục đích kiểm thử",
+      "questiontext": "Việc chạy thử chương trình để kiểm tra (kiểm thử) nhằm mục đích chính là gì?",
+      "generalfeedback": "Việc chạy thử chương trình để kiểm tra (còn gọi là kiểm thử) nhằm mục đích phát hiện những tình huống bất thường (lỗi) khi thực hiện chương trình.",
+      "answers": [
+        {
+          "text": "Phát hiện các tình huống bất thường (lỗi) khi thực hiện chương trình",
+          "fraction": 100
+        },
+        {
+          "text": "Tự động sửa tất cả các lỗi có trong mã nguồn chương trình",
+          "fraction": 0
+        },
+        {
+          "text": "Biến đổi câu lệnh thành ngôn ngữ máy để máy tính hiểu được",
+          "fraction": 0
+        },
+        {
+          "text": "Tăng tốc độ xử lý của phần cứng máy tính khi chạy lệnh",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm kiểm thử chương trình và mục đích kiểm thử",
+      "questiontext": "Phát biểu sau đây Đúng hay Sai: 'Các lỗi trong chương trình cần được loại bỏ trước khi chương trình được coi là sản phẩm hoàn chỉnh và có thể chia sẻ với người khác.'",
+      "generalfeedback": "Theo SGK Tin học 8: 'Các lỗi cần được loại bỏ trước khi chương trình được coi là sản phẩm hoàn chỉnh và có thể chia sẻ với người khác.'",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm lỗi cú pháp/lắp ghép và lỗi lôgic",
+      "questiontext": "Lỗi cú pháp trong lập trình xảy ra trong trường hợp nào sau đây?",
+      "generalfeedback": "Lỗi cú pháp xảy ra khi câu lệnh viết sai so với quy tắc của ngôn ngữ lập trình, làm cho chương trình không hoạt động được.",
+      "answers": [
+        {
+          "text": "Khi câu lệnh viết sai quy tắc của ngôn ngữ lập trình, làm cho chương trình không hoạt động",
+          "fraction": 100
+        },
+        {
+          "text": "Khi câu lệnh viết đúng quy tắc nhưng kết quả hiển thị sai so với kịch bản",
+          "fraction": 0
+        },
+        {
+          "text": "Khi máy tính bị mất kết nối mạng Internet trong lúc lập trình",
+          "fraction": 0
+        },
+        {
+          "text": "Khi người sử dụng nhập dữ liệu đầu vào không đúng định dạng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm lỗi cú pháp/lắp ghép và lỗi lôgic",
+      "questiontext": "Lỗi [[1]] là lỗi viết câu lệnh sai quy tắc làm chương trình không hoạt động. Lỗi [[2]] là lỗi câu lệnh tuy viết đúng quy tắc nhưng thực hiện sai so với kịch bản.",
+      "generalfeedback": "Theo SGK: Lỗi cú pháp là lỗi viết câu lệnh sai quy tắc làm cho chương trình không hoạt động. Lỗi lôgic là lỗi câu lệnh tuy viết đúng quy tắc nhưng thực hiện sai so với kịch bản.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "cú pháp"
+        },
+        {
+          "group": 1,
+          "text": "lôgic"
+        },
+        {
+          "group": 1,
+          "text": "phần cứng"
+        },
+        {
+          "group": 1,
+          "text": "hệ thống"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Nguyên nhân dẫn đến lỗi lôgic trong chương trình",
+      "imgs": [
+        "_page_0_Figure_15.jpeg"
+      ],
+      "questiontext": "Trong trò chơi Đoán số [img:_page_0_Figure_15.jpeg], nguyên nhân dẫn đến lỗi lôgic làm cho số lần đoán hiển thị luôn kém 1 đơn vị so với thực tế là gì?",
+      "generalfeedback": "Lỗi xảy ra do không có câu lệnh tăng biến 'số lần đoán' lên 1 đơn vị sau lần nhập giá trị đầu tiên của người chơi ở lệnh (4).",
+      "answers": [
+        {
+          "text": "Không có câu lệnh tăng biến 'số lần đoán' sau lần nhập số đầu tiên của người chơi",
+          "fraction": 100
+        },
+        {
+          "text": "Khởi tạo giá trị ban đầu của biến 'số lần đoán' bằng 1 thay vì 0",
+          "fraction": 0
+        },
+        {
+          "text": "Viết sai cú pháp ở khối lệnh 'hỏi và đợi' trong Scratch",
+          "fraction": 0
+        },
+        {
+          "text": "Khối lệnh lặp lại cho đến khi thực hiện sai điều kiện so sánh",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm lỗi cú pháp/lắp ghép và lỗi lôgic",
+      "questiontext": "Lỗi xảy ra khi các câu lệnh trong chương trình tuy được viết đúng quy tắc của ngôn ngữ lập trình nhưng thực hiện không đúng kịch bản được gọi là lỗi gì?",
+      "generalfeedback": "Lỗi câu lệnh tuy viết đúng quy tắc nhưng thực hiện sai so với kịch bản được gọi là lỗi lôgic (hoặc lỗi ngữ nghĩa).",
+      "answers": [
+        {
+          "text": "lỗi lôgic",
+          "fraction": 100
+        },
+        {
+          "text": "lôgic",
+          "fraction": 100
+        },
+        {
+          "text": "lỗi ngữ nghĩa",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm bộ dữ liệu kiểm thử (Test cases)",
+      "questiontext": "Để kiểm thử và phát hiện lỗi lôgic bằng cách chạy thử với dữ liệu mẫu, người lập trình cần chuẩn bị yếu tố nào?",
+      "generalfeedback": "Người lập trình cần chuẩn bị bộ dữ liệu kiểm thử (dữ liệu mẫu đầu vào) để kiểm tra hoạt động của chương trình và so sánh kết quả với kết quả tính toán thủ công.",
+      "answers": [
+        {
+          "text": "Bộ dữ liệu kiểm thử gồm các giá trị đầu vào dự kiến và kết quả mong đợi",
+          "fraction": 100
+        },
+        {
+          "text": "Một công cụ tự động phát sinh mã nguồn thay thế",
+          "fraction": 0
+        },
+        {
+          "text": "Bảng từ điển cú pháp đầy đủ của ngôn ngữ lập trình",
+          "fraction": 0
+        },
+        {
+          "text": "Cấu hình phần cứng tối tân cho hệ thống máy tính",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Khái niệm bộ dữ liệu kiểm thử (Test cases)",
+      "questiontext": "Hãy ghép nối phương pháp phát hiện lỗi lôgic với mô tả công việc tương ứng:",
+      "generalfeedback": "Dựa vào phân tích lôgic: tập trung khối lệnh liên quan và so sánh kịch bản. Chạy thử với dữ liệu mẫu: nhập đầu vào dự kiến và theo dõi biến. Chạy từng bước: chèn lệnh đợi để quan sát dữ liệu.",
+      "subquestions": [
+        {
+          "question": "Phân tích lôgic",
+          "answer": "Tập trung vào các khối lệnh liên quan và so sánh với kịch bản"
+        },
+        {
+          "question": "Chạy thử với dữ liệu mẫu",
+          "answer": "Nhập đầu vào dự kiến, cho hiện biến và kiểm tra kết quả"
+        },
+        {
+          "question": "Chạy chương trình từng bước",
+          "answer": "Chèn lệnh 'đợi... giây' vào những vị trí cần quan sát dữ liệu"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Phân biệt lỗi lắp ghép khối lệnh và lỗi lôgic",
+      "questiontext": "Trường hợp nào sau đây mô tả đúng về đặc điểm của lỗi cú pháp (lỗi lắp ghép) trong lập trình trực quan?",
+      "generalfeedback": "Lỗi cú pháp làm cho chương trình không hoạt động được. Lỗi lôgic thì chương trình vẫn hoạt động nhưng thực hiện không đúng kịch bản.",
+      "answers": [
+        {
+          "text": "Câu lệnh bị sai quy tắc làm cho chương trình không thể hoạt động được",
+          "fraction": 100
+        },
+        {
+          "text": "Chương trình vẫn hoạt động bình thường nhưng kết quả tính toán bị sai",
+          "fraction": 0
+        },
+        {
+          "text": "Nhân vật di chuyển sang phải thay vì di chuyển sang trái theo kịch bản",
+          "fraction": 0
+        },
+        {
+          "text": "Số lần đoán hiển thị trên màn hình bị thiếu 1 đơn vị so với thực tế",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Phân biệt lỗi lắp ghép khối lệnh và lỗi lôgic",
+      "questiontext": "Khi lập trình, nếu chương trình không hoạt động được do viết sai quy tắc thì đó là lỗi [[1]]. Nếu chương trình vẫn hoạt động nhưng kết quả không đúng kịch bản thì đó là lỗi [[2]].",
+      "generalfeedback": "Lỗi làm chương trình không hoạt động được là lỗi cú pháp. Lỗi chương trình vẫn chạy nhưng sai kịch bản là lỗi lôgic.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "cú pháp"
+        },
+        {
+          "group": 1,
+          "text": "lôgic"
+        },
+        {
+          "group": 1,
+          "text": "hệ thống"
+        },
+        {
+          "group": 1,
+          "text": "thiết bị"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Xây dựng bộ dữ liệu kiểm thử đơn giản để kiểm tra tính đúng đắn của chương trình",
+      "imgs": [
+        "_page_3_Figure_2.jpeg"
+      ],
+      "questiontext": "Khi kiểm thử chương trình kiểm tra một số \\(n\\) là chẵn hay lẻ [img:_page_3_Figure_2.jpeg], bộ dữ liệu kiểm thử nào sau đây là phù hợp nhất để kiểm tra tính đúng đắn của chương trình?",
+      "generalfeedback": "Bộ dữ liệu kiểm thử đơn giản nhưng đầy đủ cần chứa ít nhất một số chẵn và một số lẻ để kiểm tra cả hai nhánh của câu lệnh điều khiển.",
+      "answers": [
+        {
+          "text": "Một số chẵn (ví dụ: 4) và một số lẻ (ví dụ: 5)",
+          "fraction": 100
+        },
+        {
+          "text": "Hai số chẵn khác nhau (ví dụ: 2 và 4)",
+          "fraction": 0
+        },
+        {
+          "text": "Hai số lẻ khác nhau (ví dụ: 3 và 5)",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ duy nhất một số chẵn (ví dụ: 6)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Xây dựng bộ dữ liệu kiểm thử đơn giản để kiểm tra tính đúng đắn của chương trình",
+      "questiontext": "Để xây dựng bộ dữ liệu kiểm thử đơn giản cho chương trình so sánh hai số a và b, em cần chuẩn bị tối thiểu bao nhiêu trường hợp về mối quan hệ giữa a và b?",
+      "generalfeedback": "Bộ dữ liệu kiểm thử cần có tối thiểu 3 trường hợp: a lớn hơn b, a nhỏ hơn b, và a bằng b.",
+      "answers": [
+        {
+          "text": "3 trường hợp",
+          "fraction": 100
+        },
+        {
+          "text": "3",
+          "fraction": 100
+        },
+        {
+          "text": "ba trường hợp",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Phát hiện vị trí khối lệnh gây ra lỗi lôgic trong chương trình",
+      "imgs": [
+        "_page_0_Figure_15.jpeg"
+      ],
+      "questiontext": "Trong trò chơi Đoán số [img:_page_0_Figure_15.jpeg], vị trí khối lệnh nào thiếu dẫn đến việc số lần đoán hiển thị luôn thiếu 1 đơn vị?",
+      "generalfeedback": "Lỗi xảy ra do thiếu khối lệnh 'thay đổi số lần đoán một lượng 1' ở ngay sau khối lệnh (4) 'hỏi và đợi' đầu tiên.",
+      "answers": [
+        {
+          "text": "Ngay sau khối lệnh (4) hỏi và đợi đầu tiên",
+          "fraction": 100
+        },
+        {
+          "text": "Ngay trước khối lệnh (1) đặt số lần đoán thành 0",
+          "fraction": 0
+        },
+        {
+          "text": "Ngay sau khối lệnh (11) nói số lần đoán",
+          "fraction": 0
+        },
+        {
+          "text": "Bên trong khối lệnh (10) kết thúc chương trình",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "van_dung",
+      "metadata_code": "Phát hiện vị trí khối lệnh gây ra lỗi lôgic trong chương trình",
+      "imgs": [
+        "_page_3_Figure_2.jpeg"
+      ],
+      "questiontext": "Xét chương trình ở Hình 15.3 [img:_page_3_Figure_2.jpeg]. Trong điều khiển 'nếu... thì... nếu không thì...', nếu điều khiển kiểm tra \\(n \\bmod 2 = 0\\) đúng thì thông báo đúng phải là [[1]], nhưng khối lệnh hiện tại lại hiển thị [[2]].",
+      "generalfeedback": "Phép chia dư n cho 2 bằng 0 nghĩa là n chẵn. Do đó thông báo đúng phải là 'n là số chẵn', nhưng chương trình lại đặt nhầm thông báo 'n là số lẻ'.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "n là số chẵn"
+        },
+        {
+          "group": 1,
+          "text": "n là số lẻ"
+        },
+        {
+          "group": 1,
+          "text": "n là số 0"
+        },
+        {
+          "group": 1,
+          "text": "n không hợp lệ"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TH8_061",
+      "questiontext": "Thao tác nào sau đây thể hiện việc học sinh thực hiện chạy thử chương trình trong Scratch?",
+      "generalfeedback": "Chạy thử chương trình là nháy chuột vào nút Lá cờ xanh, nhập dữ liệu và quan sát kết quả thực thi.",
+      "answers": [
+        {
+          "text": "Nháy chuột vào biểu tượng Lá cờ xanh và nhập các dữ liệu thử nghiệm",
+          "fraction": 100
+        },
+        {
+          "text": "Lưu tệp bài làm vào thư mục trên máy tính",
+          "fraction": 0
+        },
+        {
+          "text": "Thay đổi tên của nhân vật và phông nền sân khấu",
+          "fraction": 0
+        },
+        {
+          "text": "Đổi ngôn ngữ hiển thị của phần mềm sang tiếng Việt",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TH8_061",
+      "questiontext": "Phát biểu sau đây Đúng hay Sai: 'Khi chạy thử chương trình để dò lỗi, người lập trình có thể đánh dấu chọn bên cạnh các biến số để hiển thị giá trị của chúng trên sân khấu.'",
+      "generalfeedback": "Theo SGK Tin học 8 (Hình 15.2a), người lập trình có thể cho hiện giá trị các biến số trên sân khấu bằng cách đánh dấu vào bên cạnh các biến đó.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TH8_062",
+      "questiontext": "Để thực hiện tìm lỗi lôgic bằng phương pháp chạy chương trình từng bước, người lập trình nên chèn khối lệnh nào vào vị trí cần theo dõi?",
+      "generalfeedback": "Theo SGK: Chương trình có thể chạy theo từng bước bằng cách chèn lệnh 'đợi... giây' vào những vị trí cần quan sát dữ liệu.",
+      "answers": [
+        {
+          "text": "Khối lệnh 'đợi ... giây'",
+          "fraction": 100
+        },
+        {
+          "text": "Khối lệnh 'lặp lại ... lần'",
+          "fraction": 0
+        },
+        {
+          "text": "Khối lệnh 'dừng lại tất cả'",
+          "fraction": 0
+        },
+        {
+          "text": "Khối lệnh 'xóa tất cả'",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TH8_062",
+      "questiontext": "Ghép nối kết quả chạy thử với kết luận tìm lỗi tương ứng:",
+      "generalfeedback": "Chương trình dừng chạy và báo lỗi cấu trúc -> Lỗi cú pháp. Chương trình chạy bình thường nhưng kết quả sai kịch bản -> Lỗi lôgic. Chương trình chạy đúng kịch bản -> Không có lỗi.",
+      "subquestions": [
+        {
+          "question": "Chương trình báo lỗi và dừng thực thi",
+          "answer": "Phát hiện lỗi cú pháp"
+        },
+        {
+          "question": "Chương trình chạy được nhưng cho kết quả sai kịch bản",
+          "answer": "Phát hiện lỗi lôgic"
+        },
+        {
+          "question": "Chương trình chạy mượt mà và kết quả đúng kịch bản",
+          "answer": "Chương trình không có lỗi"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TH8_063",
+      "imgs": [
+        "_page_0_Figure_15.jpeg"
+      ],
+      "questiontext": "Để sửa lỗi lôgic cho trò chơi Đoán số [img:_page_0_Figure_15.jpeg], em cần thực hiện thao tác nào sau đây?",
+      "generalfeedback": "Cần bổ sung lệnh (4a) 'thay đổi số lần đoán một lượng 1' vào ngay sau lệnh (4) để đếm đúng lần đoán đầu tiên.",
+      "answers": [
+        {
+          "text": "Bổ sung lệnh 'thay đổi số lần đoán một lượng 1' vào ngay sau khối lệnh (4)",
+          "fraction": 100
+        },
+        {
+          "text": "Đổi giá trị khởi tạo số lần đoán ở khối lệnh (1) thành 1",
+          "fraction": 0
+        },
+        {
+          "text": "Xóa khối lệnh (9) ra khỏi vòng lặp",
+          "fraction": 0
+        },
+        {
+          "text": "Đổi khối lệnh (11) thành nói câu 'Game Over'",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TH8_063",
+      "imgs": [
+        "_page_3_Figure_2.jpeg"
+      ],
+      "questiontext": "Để sửa lỗi cho chương trình ở Hình 15.3 [img:_page_3_Figure_2.jpeg], em cần hoán đổi vị trí của hai khối lệnh thông báo nào?",
+      "generalfeedback": "Cần hoán đổi vị trí hai khối lệnh thông báo 'n là số lẻ' và 'n là số chẵn' cho nhau.",
+      "answers": [
+        {
+          "text": "hai khối lệnh nói",
+          "fraction": 100
+        },
+        {
+          "text": "khối lệnh nói",
+          "fraction": 100
+        },
+        {
+          "text": "thông báo chẵn lẻ",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_TRUNGTHUC_CHUNG_C2_02",
+      "questiontext": "Khi chạy thử chương trình trò chơi do mình tự lập trình, An nhận thấy số lần đoán hiển thị bị sai so với thực tế. Hành vi nào sau đây thể hiện tinh thần trách nhiệm và nghiêm túc nhìn nhận khuyết điểm của An?",
+      "generalfeedback": "Nghiêm túc nhìn nhận khuyết điểm và chịu trách nhiệm thể hiện ở việc chủ động thừa nhận sản phẩm của mình có lỗi, tập trung tìm nguyên nhân và gỡ lỗi chứ không né tránh hay đổ lỗi cho hoàn cảnh.",
+      "answers": [
+        {
+          "text": "Thừa nhận chương trình của mình có lỗi lôgic, chủ động tìm nguyên nhân và sửa lỗi trước khi chia sẻ",
+          "fraction": 100
+        },
+        {
+          "text": "Đổ lỗi do phần mềm Scratch bị lỗi hệ thống nên không cần sửa",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua lỗi và cứ chia sẻ trò chơi cho các bạn vì nghĩ lỗi nhỏ không quan trọng",
+          "fraction": 0
+        },
+        {
+          "text": "Xóa toàn bộ chương trình và không tiếp tục thực hiện dự án nữa",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TRUNGTHUC_CHUNG_C2_05",
+      "questiontext": "Phát biểu sau đây Đúng hay Sai: 'Khi đánh giá bài lập trình của bạn học cùng lớp, học sinh cần căn cứ khách quan vào kết quả chạy thử với các bộ dữ liệu kiểm thử, không định kiến hay thiên vị.'",
+      "generalfeedback": "Thái độ khách quan, công bằng thể hiện ở việc nhận thức và đánh giá sự việc dựa trên chứng cứ thực tế (kết quả kiểm thử), không bị ảnh hưởng bởi tình cảm cá nhân.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GQVD_TUDUY_C2_03",
+      "imgs": [
+        "_page_2_Figure_12.jpeg"
+      ],
+      "questiontext": "Để có chứng cứ khách quan khi tìm lỗi lôgic trong chương trình Đoán số [img:_page_2_Figure_12.jpeg], học sinh nên thực hiện thao tác nào sau đây thay vì đoán mò?",
+      "generalfeedback": "Quan tâm đến chứng cứ trong nhận thức thể hiện ở việc bật hiển thị giá trị các biến số trên sân khấu và chạy từng bước để thu thập dữ liệu kiểm chứng thực tế.",
+      "answers": [
+        {
+          "text": "Đánh dấu chọn hiển thị các biến số trên sân khấu và theo dõi giá trị của chúng khi chạy thử",
+          "fraction": 100
+        },
+        {
+          "text": "Đoán vị trí lỗi dựa trên cảm quan cá nhân mà không cần chạy thử chương trình",
+          "fraction": 0
+        },
+        {
+          "text": "Thay đổi ngẫu nhiên các khối lệnh cho đến khi chương trình chạy không báo lỗi",
+          "fraction": 0
+        },
+        {
+          "text": "Hỏi ngay đáp án từ giáo viên mà không qua quá trình quan sát thực nghiệm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GQVD_PHATHIEN_C2_01",
+      "questiontext": "Hãy ghép nối tình huống gặp phải khi chạy chương trình với phân tích lôgic tương ứng để xử lý tình huống học tập:",
+      "generalfeedback": "Phân tích tình huống học tập đòi hỏi học sinh đối chiếu giữa hiện tượng quan sát được và nguyên nhân lôgic trong mã nguồn.",
+      "subquestions": [
+        {
+          "question": "Chương trình không chạy và báo lỗi cú pháp",
+          "answer": "Phân tích quy tắc viết câu lệnh trong ngôn ngữ lập trình"
+        },
+        {
+          "question": "Kết quả hiển thị luôn kém 1 đơn vị so với thực tế",
+          "answer": "Phân tích trình tự cập nhật biến số trong các khối lệnh"
+        },
+        {
+          "question": "Thông báo kết quả chẵn/lẻ bị ngược so với điều kiện",
+          "answer": "Phân tích logic nhánh điều kiện nếu... thì... nếu không thì"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TIN_TIN_C2_03_06",
+      "imgs": [
+        "_page_0_Figure_15.jpeg"
+      ],
+      "questiontext": "Trong môi trường Scratch [img:_page_0_Figure_15.jpeg], để thiết kế hệ thống điều khiển trò chơi Đoán số hoạt động chính xác, kiến trúc hệ thống khối lệnh cần đảm bảo nguyên tắc nào?",
+      "generalfeedback": "Tư duy thiết kế hệ thống trong lập trình trực quan đòi hỏi khởi tạo biến đầu vào, cập nhật biến đúng thời điểm trong luồng sự kiện và hiển thị kết quả đầu ra theo đúng kịch bản.",
+      "answers": [
+        {
+          "text": "Khởi tạo biến, cập nhật biến ngay sau mỗi lần người chơi nhập dữ liệu và hiển thị kết quả khi đạt điều kiện",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ cập nhật biến số một lần duy nhất khi kết thúc chương trình",
+          "fraction": 0
+        },
+        {
+          "text": "Hiển thị kết quả trước khi người chơi thực hiện nhập dữ liệu đoán",
+          "fraction": 0
+        },
+        {
+          "text": "Không cần khởi tạo giá trị ban đầu cho các biến số trong hệ thống",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TIN_TIN_C2_03_07",
+      "imgs": [
+        "_page_2_Figure_12.jpeg"
+      ],
+      "questiontext": "Thao tác nào trong phần mềm Scratch [img:_page_2_Figure_12.jpeg] giúp học sinh thể hiện tư duy điều khiển hệ thống khi theo dõi luồng thực thi từng bước của chương trình?",
+      "generalfeedback": "Tư duy điều khiển hệ thống thể hiện qua việc chèn khối lệnh 'đợi ... giây' để làm chậm tốc độ thực thi, giúp người điều khiển quan sát được sự thay đổi trạng thái của hệ thống.",
+      "answers": [
+        {
+          "text": "Chèn khối lệnh 'đợi ... giây' vào sau các khối lệnh cần quan sát để kiểm soát nhịp độ thực thi",
+          "fraction": 100
+        },
+        {
+          "text": "Tăng tốc độ xử lý của máy tính để chương trình hoàn thành tức thì",
+          "fraction": 0
+        },
+        {
+          "text": "Nháy liên tục vào nút Lá cờ xanh để bắt đầu lại hệ thống nhiều lần",
+          "fraction": 0
+        },
+        {
+          "text": "Ẩn tất cả các biến số trên sân khấu để màn hình gọn gàng hơn",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "5.1TC2a_K8",
+      "questiontext": "Khi vận hành chương trình trong môi trường số, học sinh phân biệt: Lỗi làm chương trình ngừng hoạt động là lỗi [[1]], còn lỗi chương trình vẫn vận hành nhưng kết quả sai kịch bản là lỗi [[2]].",
+      "generalfeedback": "Năng lực tin học giúp học sinh phân biệt rõ các sự cố kỹ thuật (cú pháp/kỹ thuật làm dừng chương trình) và lỗi lôgic trong phần mềm.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "cú pháp"
+        },
+        {
+          "group": 1,
+          "text": "lôgic"
+        },
+        {
+          "group": 1,
+          "text": "mạng"
+        },
+        {
+          "group": 1,
+          "text": "bộ nhớ"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "5.1TC2b_K8",
+      "questiontext": "Khi phát hiện chương trình Scratch chạy sai kết quả nhưng không báo lỗi cú pháp, giải pháp kỹ thuật nào trong môi trường số là hiệu quả nhất để tự giải quyết vấn đề?",
+      "generalfeedback": "Năng lực tự chọn giải pháp kỹ thuật thể hiện ở việc kết hợp công cụ theo dõi giá trị biến trên sân khấu và chạy chương trình từng bước để phát hiện vị trí lỗi lôgic.",
+      "answers": [
+        {
+          "text": "Hiển thị biến số trên sân khấu và chèn lệnh đợi để kiểm tra sự thay đổi dữ liệu theo từng bước",
+          "fraction": 100
+        },
+        {
+          "text": "Cài đặt lại phần mềm Scratch trên máy tính",
+          "fraction": 0
+        },
+        {
+          "text": "Thay đổi phần cứng máy tính đang sử dụng",
+          "fraction": 0
+        },
+        {
+          "text": "Khởi động lại hệ điều hành của máy tính",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

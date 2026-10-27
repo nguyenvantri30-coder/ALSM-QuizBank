@@ -1,0 +1,630 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 26,
+    "metadata_used": {
+      "Thứ tự thực hiện các phép tính (cộng": 5,
+      "Biến đổi rút gọn biểu thức phân thức tổng hợp": 7,
+      "Tính giá trị của biểu thức phân thức sau khi rút gọn": 6,
+      "YCCD_TOAN8_033": 2,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TUHOC_C2_06": 2,
+      "NLT_TOAN_C2_01_05": 2,
+      "NLT_TOAN_C2_03_05": 2
+    },
+    "types_used": {
+      "multichoice": 13,
+      "shortanswer": 2,
+      "numerical": 4,
+      "truefalse": 3,
+      "matching": 3,
+      "gapselect": 1
+    },
+    "total": 26
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN8_033",
+        "reason": "Có đủ cơ sở đo lường trong SGK"
+      },
+      {
+        "metadata_code": "Thứ tự thực hiện các phép tính (cộng",
+        "reason": "Có đủ cơ sở đo lường trong SGK"
+      },
+      {
+        "metadata_code": "Biến đổi rút gọn biểu thức phân thức tổng hợp",
+        "reason": "Có đủ cơ sở đo lường trong SGK"
+      },
+      {
+        "metadata_code": "Tính giá trị của biểu thức phân thức sau khi rút gọn",
+        "reason": "Có đủ cơ sở đo lường trong SGK"
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Có đủ cơ sở đo lường qua bối cảnh học đường và bài tập SGK"
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_06",
+        "reason": "Có đủ cơ sở đo lường qua kế hoạch học tập bài Luyện tập chung"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_05",
+        "reason": "Có đủ cơ sở đo lường qua các thao tác tư duy toán học"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_05",
+        "reason": "Có đủ cơ sở đo lường qua bài toán thực tế SGK"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Nội dung bài học Luyện tập chung đại số thuần túy không chứa yếu tố công nghệ/tin học tự nhiên"
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học không liên quan tự nhiên đến ứng dụng hay nguyên lý AI"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Thứ tự thực hiện các phép tính (cộng",
+      "questiontext": "Kết quả của phép chia đơn thức  \\(4x^3y^2\\)  cho đơn thức  \\(-2xy\\)  là:",
+      "generalfeedback": "Ta có  \\(4x^3y^2 : (-2xy) = [4 : (-2)] \\cdot (x^3 : x) \\cdot (y^2 : y) = -2x^2y\\) .",
+      "answers": [
+        {
+          "text": " \\(-2x^2y\\) ",
+          "fraction": 100
+        },
+        {
+          "text": " \\(2x^2y\\) ",
+          "fraction": 0
+        },
+        {
+          "text": " \\(-2xy^2\\) ",
+          "fraction": 0
+        },
+        {
+          "text": " \\(-2x^2\\) ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Biến đổi rút gọn biểu thức phân thức tổng hợp",
+      "questiontext": "Cho đẳng thức  \\(5xy^2 \\cdot C = 10x^3y^3\\) . Tìm đơn thức  \\(C\\) .",
+      "generalfeedback": "Ta có  \\(C = 10x^3y^3 : 5xy^2 = 2x^2y\\) .",
+      "answers": [
+        {
+          "text": "\\(2x^2y\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(-2x^2y\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(3x^2y\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(1x^2y\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Tính giá trị của biểu thức phân thức sau khi rút gọn",
+      "questiontext": "Rút gọn biểu thức  \\(T = (5xy - 4y^2)(3x^2 + 4xy) - 15xy(x + y)(x - y)\\) .",
+      "generalfeedback": "Thực hiện phép nhân đa thức và thu gọn ta được  \\(T = 8x^2y^2 - xy^3\\) .",
+      "answers": [
+        {
+          "text": " \\(8x^2y^2 - xy^3\\) ",
+          "fraction": 100
+        },
+        {
+          "text": " \\(8x^2y^2 + xy^3\\) ",
+          "fraction": 0
+        },
+        {
+          "text": " \\(15x^3y - xy^3\\) ",
+          "fraction": 0
+        },
+        {
+          "text": " \\(8x^3y - xy^2\\) ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Biến đổi rút gọn biểu thức phân thức tổng hợp",
+      "questiontext": "Cho biểu thức  \\(P = 5x(3x^2y - 2xy^2 + 1) - 3xy(5x^2 - 3xy) + x^2y^2\\) . Tìm giá trị của  \\(x\\)  sao cho  \\(P = 10\\) . (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Thu gọn  \\(P = 5x\\) . Khi  \\(P = 10\\)  thì  \\(5x = 10 \\Rightarrow x = 2\\) .",
+      "answers": [
+        {
+          "text": "2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_033",
+      "questiontext": "Cho biểu thức  \\(P = 5x(3x^2y - 2xy^2 + 1) - 3xy(5x^2 - 3xy) + x^2y^2\\) . Giá trị của biểu thức  \\(P\\)  chỉ phụ thuộc vào biến  \\(x\\)  mà không phụ thuộc vào biến  \\(y\\) .",
+      "generalfeedback": "Sau khi biến đổi và thu gọn, ta có  \\(P = 5x\\) , do đó giá trị của  \\(P\\)  chỉ phụ thuộc vào  \\(x\\)  mà không phụ thuộc vào  \\(y\\) . Khẳng định trên là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Tính giá trị của biểu thức phân thức sau khi rút gọn",
+      "questiontext": "Rút gọn biểu thức  \\((3x^2 - 5xy - 4y^2) \\cdot (2x^2 + y^2) + (2x^4y^2 + x^3y^3 + x^2y^4) : \\left(\\frac{1}{5}xy\\right)\\) .",
+      "generalfeedback": "Tích hai đa thức cho kết quả  \\(6x^4 - 10x^3y - 5x^2y^2 - 5xy^3 - 4y^4\\) . Thương của phép chia cho kết quả  \\(10x^3y + 5x^2y^2 + 5xy^3\\) . Cộng hai kết quả lại ta được  \\(6x^4 - 4y^4\\) .",
+      "answers": [
+        {
+          "text": " \\(6x^4 - 4y^4\\) ",
+          "fraction": 100
+        },
+        {
+          "text": " \\(6x^4 + 4y^4\\) ",
+          "fraction": 0
+        },
+        {
+          "text": " \\(6x^4 - 10x^3y - 4y^4\\) ",
+          "fraction": 0
+        },
+        {
+          "text": " \\(6x^4 + 10x^3y + 5x^2y^2\\) ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Thứ tự thực hiện các phép tính (cộng",
+      "questiontext": "Ghép mỗi phép tính ở cột bên trái với kết quả thu gọn tương ứng ở cột bên phải:",
+      "generalfeedback": "Áp dụng quy tắc nhân và chia đa thức cho đơn thức để tìm kết quả tương ứng.",
+      "subquestions": [
+        {
+          "question": " \\(4x^3y^2 : (-2xy)\\) ",
+          "answer": " \\(-2x^2y\\) "
+        },
+        {
+          "question": " \\((2x^2y^2 - 5xy^3) : (3xy^2)\\) ",
+          "answer": " \\(\\frac{2}{3}x - \\frac{5}{3}y\\) "
+        },
+        {
+          "question": " \\(5xy^2 \\cdot (2x^2y)\\) ",
+          "answer": " \\(10x^3y^3\\) "
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Biến đổi rút gọn biểu thức phân thức tổng hợp",
+      "questiontext": "Bà Khanh dự định mua  \\(x\\)  hộp sữa, mỗi hộp giá  \\(y\\)  đồng. Khi đến cửa hàng, giá sữa giảm 1 500 đồng mỗi hộp nên bà Khanh mua thêm 3 hộp nữa. Đa thức biểu thị tổng số tiền bà Khanh phải trả là:",
+      "generalfeedback": "Số hộp sữa thực tế bà Khanh mua là  \\(x + 3\\) . Giá tiền mỗi hộp sau khi giảm là  \\(y - 1500\\)  (đồng). Tổng số tiền phải trả là  \\((x + 3)(y - 1500)\\) .",
+      "answers": [
+        {
+          "text": " \\((x + 3)(y - 1500)\\) ",
+          "fraction": 100
+        },
+        {
+          "text": " \\((x - 3)(y + 1500)\\) ",
+          "fraction": 0
+        },
+        {
+          "text": " \\(xy - 1500\\) ",
+          "fraction": 0
+        },
+        {
+          "text": " \\((x + 3)(y + 1500)\\) ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính giá trị của biểu thức phân thức sau khi rút gọn",
+      "questiontext": "Thỏ chạy nhanh gấp 60 lần Rùa, nhưng chỉ sau  \\(t\\)  phút chạy, Thỏ dừng lại. Rùa vẫn chạy liên tục trong  \\(90t\\)  phút. Gọi  \\(v\\)  (m/phút) là vận tốc của Rùa. Hỏi quãng đường Rùa đã chạy dài gấp bao nhiêu lần quãng đường Thỏ đã chạy? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Quãng đường Thỏ đã chạy là  \\(60v \\cdot t = 60vt\\) . Quãng đường Rùa đã chạy là  \\(v \\cdot 90t = 90vt\\) . Tỷ số quãng đường Rùa và Thỏ là  \\(90vt : 60vt = 1.5\\) .",
+      "answers": [
+        {
+          "text": "1.5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Thứ tự thực hiện các phép tính (cộng",
+      "questiontext": "Cho đa thức  \\(A = 2x^2y^2 - 5xy^3\\)  và đơn thức  \\(B = 3x^my^2\\)  (với  \\(m \\in \\mathbb{N}\\) ). Tìm số nguyên dương  \\(m\\)  sao cho đa thức  \\(A\\)  chia hết cho đơn thức  \\(B\\) .",
+      "generalfeedback": "Để mọi hạng tử của đa thức  \\(A\\)  chia hết cho  \\(B\\) , ta cần số mũ của  \\(x\\)  trong  \\(B\\)  phải nhỏ hơn hoặc bằng số mũ của  \\(x\\)  trong mọi hạng tử của  \\(A\\) , tức là  \\(m \\le 2\\)  và  \\(m \\le 1\\) . Số nguyên dương  \\(m\\)  duy nhất thỏa mãn là  \\(m = 1\\) .",
+      "answers": [
+        {
+          "text": " \\(m = 1\\) ",
+          "fraction": 100
+        },
+        {
+          "text": " \\(m = 2\\) ",
+          "fraction": 0
+        },
+        {
+          "text": " \\(m = 3\\) ",
+          "fraction": 0
+        },
+        {
+          "text": " \\(m = 0\\) ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Tính giá trị của biểu thức phân thức sau khi rút gọn",
+      "questiontext": "Biết đơn thức  \\(B = -2xy\\) . Tìm đơn thức  \\(H\\)  sao cho  \\((4x^3y^2 - 3x^2y^3) : B = -2xy + H\\) .",
+      "generalfeedback": "Thực hiện phép chia đa thức cho đơn thức:  \\((4x^3y^2 - 3x^2y^3) : (-2xy) = 4x^3y^2 : (-2xy) - 3x^2y^3 : (-2xy) = -2x^2y + \\frac{3}{2}xy^2\\) . Do đó  \\(H = \\frac{3}{2}xy^2\\) .",
+      "answers": [
+        {
+          "text": " \\(\\frac{3}{2}xy^2\\) ",
+          "fraction": 100
+        },
+        {
+          "text": " \\(-\\frac{3}{2}xy^2\\) ",
+          "fraction": 0
+        },
+        {
+          "text": " \\(\\frac{3}{2}x^2y\\) ",
+          "fraction": 0
+        },
+        {
+          "text": " \\(3xy^2\\) ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Biến đổi rút gọn biểu thức phân thức tổng hợp",
+      "questiontext": "Cho hai đơn thức  \\(M = 15x^3y\\)  và  \\(N = 5x^2y\\) . Kết quả của phép chia  \\(M : N\\)  là đơn thức nào?",
+      "generalfeedback": "Ta có  \\(M : N = (15x^3y) : (5x^2y) = (15 : 5) \\cdot (x^3 : x^2) \\cdot (y : y) = 3x\\) .",
+      "answers": [
+        {
+          "text": "3x",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Thứ tự thực hiện các phép tính (cộng",
+      "questiontext": "Phép chia đa thức  \\(A\\)  cho đơn thức  \\(B\\)  (với  \\(B \\ne 0\\) ) thực hiện được khi mỗi hạng tử của  \\(A\\)  đều chia hết cho  \\(B\\) .",
+      "generalfeedback": "Theo quy tắc chia đa thức cho đơn thức, đa thức  \\(A\\)  chia hết cho đơn thức  \\(B\\)  khi tất cả các hạng tử của  \\(A\\)  đều chia hết cho  \\(B\\) . Khẳng định này là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính giá trị của biểu thức phân thức sau khi rút gọn",
+      "questiontext": "Cho đa thức  \\(T = 8x^2y^2 - xy^3\\)  và đơn thức  \\(D = 8x - y\\) . Tính giá trị của thương  \\(T : D\\)  tại  \\(x = 1\\)  và  \\(y = 2\\) . (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Ta có  \\(T = xy^2(8x - y) = D \\cdot xy^2\\) . Do đó  \\(T : D = xy^2\\) . Thay  \\(x = 1\\)  và  \\(y = 2\\)  vào  \\(xy^2\\) , ta được  \\(1 \\cdot 2^2 = 4\\) .",
+      "answers": [
+        {
+          "text": "4",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Biến đổi rút gọn biểu thức phân thức tổng hợp",
+      "questiontext": "Ghép mỗi phép chia đa thức cho đơn thức ở cột bên trái với kết quả thu gọn ở cột bên phải:",
+      "generalfeedback": "Áp dụng quy tắc chia đa thức cho đơn thức bằng cách chia từng hạng tử của đa thức cho đơn thức.",
+      "subquestions": [
+        {
+          "question": " \\((6x^4y - 9x^3y^2) : (3x^2y)\\) ",
+          "answer": " \\(2x^2 - 3xy\\) "
+        },
+        {
+          "question": " \\((10x^3y^3 - 5x^2y^2) : (5xy^2)\\) ",
+          "answer": " \\(2x^2y - x\\) "
+        },
+        {
+          "question": " \\((-8x^3y^2 + 4x^2y^3) : (-4xy^2)\\) ",
+          "answer": " \\(2x^2 - xy\\) "
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "van_dung",
+      "metadata_code": "Tính giá trị của biểu thức phân thức sau khi rút gọn",
+      "questiontext": "Trong bài toán Rùa và Thỏ, đơn thức biểu thị quãng đường Thỏ đã chạy là [[1]] (m) và đơn thức biểu thị quãng đường Rùa đã chạy là [[2]] (m), với  \\(v\\)  là vận tốc của Rùa và  \\(t\\)  là thời gian Thỏ chạy.",
+      "generalfeedback": "Vận tốc của Thỏ là  \\(60v\\) , chạy trong thời gian  \\(t\\)  nên quãng đường Thỏ chạy là  \\(60vt\\) . Rùa chạy với vận tốc  \\(v\\)  trong thời gian  \\(90t\\)  nên quãng đường Rùa chạy là  \\(90vt\\) .",
+      "choices": [
+        {
+          "group": 1,
+          "text": "60vt"
+        },
+        {
+          "group": 1,
+          "text": "90vt"
+        },
+        {
+          "group": 1,
+          "text": "30vt"
+        },
+        {
+          "group": 1,
+          "text": "150vt"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN8_033",
+      "questiontext": "Cho biểu thức  \\(A = (2x - y)(4x^2 + 2xy + y^2) - (2x + y)(4x^2 - 2xy + y^2)\\) . Rút gọn biểu thức  \\(A\\)  ta được kết quả là:",
+      "generalfeedback": "Sử dụng hằng đẳng thức hiệu hai lập phương và tổng hai lập phương:  \\(A = (8x^3 - y^3) - (8x^3 + y^3) = -2y^3\\) .",
+      "answers": [
+        {
+          "text": " \\(-2y^3\\) ",
+          "fraction": 100
+        },
+        {
+          "text": " \\(2y^3\\) ",
+          "fraction": 0
+        },
+        {
+          "text": " \\(16x^3\\) ",
+          "fraction": 0
+        },
+        {
+          "text": " \\(0\\) ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Biến đổi rút gọn biểu thức phân thức tổng hợp",
+      "questiontext": "Cho biết  \\((2x^2y^2 - 5xy^3) : (3xy^2) = \\frac{a}{3}x - \\frac{b}{3}y\\)  với  \\(a, b \\in \\mathbb{Z}\\) . Tính giá trị của tổng  \\(a + b\\) . (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Thực hiện phép chia:  \\((2x^2y^2 - 5xy^3) : (3xy^2) = \\frac{2}{3}x - \\frac{5}{3}y\\) . Suy ra  \\(a = 2\\)  và  \\(b = 5\\) , do đó  \\(a + b = 2 + 5 = 7\\) .",
+      "answers": [
+        {
+          "text": "7",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Thứ tự thực hiện các phép tính (cộng",
+      "questiontext": "Muốn chia đa thức  \\(A\\)  cho đơn thức  \\(B\\)  (trường hợp mỗi hạng tử của  \\(A\\)  đều chia hết cho  \\(B\\) ), ta thực hiện như thế nào?",
+      "generalfeedback": "Muốn chia đa thức  \\(A\\)  cho đơn thức  \\(B\\) , ta chia từng hạng tử của  \\(A\\)  cho  \\(B\\)  rồi cộng các kết quả với nhau.",
+      "answers": [
+        {
+          "text": "Chia từng hạng tử của  \\(A\\)  cho  \\(B\\)  rồi cộng các kết quả với nhau.",
+          "fraction": 100
+        },
+        {
+          "text": "Chia từng hạng tử của  \\(A\\)  cho  \\(B\\)  rồi nhân các kết quả với nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Nhân từng hạng tử của  \\(A\\)  với  \\(B\\)  rồi chia cho 2.",
+          "fraction": 0
+        },
+        {
+          "text": "Chia hạng tử đầu tiên của  \\(A\\)  cho  \\(B\\)  rồi cộng với các hạng tử còn lại.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi gặp một bài tập rút gọn biểu thức nhiều biến phức tạp trong bài Luyện tập chung như  \\(T = (5xy - 4y^2)(3x^2 + 4xy) - 15xy(x + y)(x - y)\\) , học sinh A cảm thấy rối và muốn bỏ qua. Để thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập, bạn A nên thực hiện hành động nào sau đây?",
+      "generalfeedback": "Thái độ cố gắng vươn lên trong học tập thể hiện ở việc kiên trì, không nản lòng trước bài tập khó, biết chia nhỏ quy trình tính toán (nhân đa thức, thu gọn từng nhóm hạng tử đồng dạng) và kiểm tra lại cẩn thận.",
+      "answers": [
+        {
+          "text": "Kiên trì phân tích biểu thức, thực hiện từng phép nhân đa thức, thu gọn các hạng tử đồng dạng và kiểm tra lại kết quả.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua câu hỏi này ngay lập tức để chuyển sang làm bài dễ hơn nhằm tiết kiệm thời gian.",
+          "fraction": 0
+        },
+        {
+          "text": "Sao chép nguyên văn lời giải của bạn bên cạnh mà không cần tìm hiểu các bước biến đổi.",
+          "fraction": 0
+        },
+        {
+          "text": "Đề nghị thầy cô bỏ bớt các bài tập rút gọn phức tạp ra khỏi chương trình học.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ học toán về chủ đề Luyện tập chung (nhân, chia đa thức), bạn Bình luôn chủ động hoàn thành các bài tập SGK, sau đó tự tìm thêm các dạng bài tập vận dụng thực tế (như bài toán Rùa và Thỏ) để luyện tập thêm. Hành vi của bạn Bình thể hiện phẩm chất luôn cố gắng vươn lên đạt kết quả tốt trong học tập.",
+      "generalfeedback": "Hành vi tự giác, chủ động luyện tập và tìm tòi các dạng bài mở rộng là minh chứng trực tiếp cho phẩm chất luôn cố gắng vươn lên trong học tập.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_06",
+      "questiontext": "Bạn Minh muốn lập kế hoạch ôn tập hiệu quả cho tiết học Luyện tập chung về nhân và chia đa thức. Kế hoạch nào sau đây thể hiện việc lập và thực hiện kế hoạch học tập có cấu trúc và khoa học nhất?",
+      "generalfeedback": "Một kế hoạch học tập khoa học cần đi từ việc củng cố lý thuyết/quy tắc cốt lõi, đến thực hành bài tập tính toán cơ bản và cuối cùng là vận dụng giải bài toán thực tế.",
+      "answers": [
+        {
+          "text": "Bước 1: Ôn lại quy tắc nhân đa thức và chia đa thức cho đơn thức; Bước 2: Luyện tập rút gọn biểu thức đại số; Bước 3: Giải các bài toán thực tế.",
+          "fraction": 100
+        },
+        {
+          "text": "Bước 1: Giải ngay các bài toán thực tế phức tạp; Bước 2: Xem lại lý thuyết nếu bị sai; Bước 3: Khép lại việc học.",
+          "fraction": 0
+        },
+        {
+          "text": "Bước 1: Đọc qua các bài giải mẫu; Bước 2: Học thuộc lòng kết quả của các bài tập trong SGK.",
+          "fraction": 0
+        },
+        {
+          "text": "Bước 1: Ôn tập cùng lúc tất cả các môn học; Bước 2: Bỏ qua phần tính toán đại số để học lý thuyết.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_06",
+      "questiontext": "Hãy ghép mỗi giai đoạn trong kế hoạch ôn tập bài Luyện tập chung (cột bên trái) với mục tiêu học tập tương ứng (cột bên phải):",
+      "generalfeedback": "Việc xác định rõ mục tiêu cho từng giai đoạn giúp học sinh thực hiện kế hoạch học tập một cách chủ động và hiệu quả.",
+      "subquestions": [
+        {
+          "question": "Giai đoạn 1: Ôn tập quy tắc tính",
+          "answer": "Nắm vững cách nhân đa thức và chia đa thức cho đơn thức"
+        },
+        {
+          "question": "Giai đoạn 2: Luyện tập kĩ năng",
+          "answer": "Thực hiện thành thạo việc rút gọn biểu thức và tìm biến"
+        },
+        {
+          "question": "Giai đoạn 3: Vận dụng thực tiễn",
+          "answer": "Giải quyết các bài toán có bối cảnh thực tế như mua sắm, chuyển động"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_05",
+      "questiontext": "Để rút gọn biểu thức  \\(T = (5xy - 4y^2)(3x^2 + 4xy) - 15xy(x + y)(x - y)\\)  và tìm đa thức  \\(D\\)  sao cho  \\(T : D = xy^2\\) , học sinh thực hiện chuỗi thao tác tư duy toán học nào?",
+      "generalfeedback": "Thao tác tư duy bao gồm: Phân tích (thực hiện phép nhân đa thức)  \\(\\rightarrow\\)  Tổng hợp/Thu gọn (nhóm các hạng tử đồng dạng)  \\(\\rightarrow\\)  Suy luận logic (chuyển đổi đẳng thức  \\(T : D = xy^2\\)  thành  \\(D = T : xy^2\\)  để tính  \\(D\\) ).",
+      "answers": [
+        {
+          "text": "Phân tích (nhân các tích đa thức)  \\(\\rightarrow\\)  Tổng hợp (thu gọn các hạng tử đồng dạng)  \\(\\rightarrow\\)  Suy luận (tìm D từ phép chia T cho  \\(xy^2\\) ).",
+          "fraction": 100
+        },
+        {
+          "text": "So sánh (so sánh hệ số)  \\(\\rightarrow\\)  Thử sai (thay số ngẫu nhiên)  \\(\\rightarrow\\)  Kết luận.",
+          "fraction": 0
+        },
+        {
+          "text": "Khái quát hóa (dùng công thức tổng quát)  \\(\\rightarrow\\)  Ước lượng (đo đạc thực tế)  \\(\\rightarrow\\)  Kiểm tra.",
+          "fraction": 0
+        },
+        {
+          "text": "Trực giác (đoán kết quả)  \\(\\rightarrow\\)  Kiểm tra thử bằng máy tính  \\(\\rightarrow\\)  Ghi đáp án.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Bà Khanh dự định mua  \\(x\\)  hộp sữa với giá  \\(y\\)  đồng/hộp. Khi giá giảm 1 500 đồng/hộp, bà mua thêm 3 hộp. Để giải quyết bài toán thực tế này bằng kĩ năng toán học, học sinh cần biểu diễn tổng số tiền qua các bước nào?",
+      "generalfeedback": "Học sinh sử dụng kĩ năng mô hình hóa toán học: xác định số hộp sữa thực tế  \\((x + 3)\\) , giá tiền thực tế  \\((y - 1500)\\) , sau đó lập tích hai đa thức  \\((x + 3)(y - 1500)\\)  để biểu thị tổng số tiền.",
+      "answers": [
+        {
+          "text": "Lập biểu thức số lượng hộp thực tế  \\((x + 3)\\) , giá mỗi hộp thực tế  \\((y - 1500)\\) , rồi lập tích  \\((x + 3)(y - 1500)\\) .",
+          "fraction": 100
+        },
+        {
+          "text": "Lập biểu thức số lượng hộp thực tế  \\((x - 3)\\) , giá mỗi hộp thực tế  \\((y + 1500)\\) , rồi lập tổng  \\((x - 3) + (y + 1500)\\) .",
+          "fraction": 0
+        },
+        {
+          "text": "Lấy tổng số tiền dự định  \\(xy\\)  trừ đi 1 500 đồng.",
+          "fraction": 0
+        },
+        {
+          "text": "Tính tổng số tiền bằng cách lấy  \\(x \\cdot y + 3 \\cdot 1500\\) .",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Trong bài toán 'Rùa chạy đua với Thỏ', Thỏ chạy với vận tốc  \\(60v\\)  (m/phút) trong  \\(t\\)  phút, Rùa chạy với vận tốc  \\(v\\)  (m/phút) trong  \\(90t\\)  phút. Kĩ năng toán học nào giúp giải quyết câu hỏi 'Quãng đường Rùa chạy gấp bao nhiêu lần quãng đường Thỏ chạy'?",
+      "generalfeedback": "Kĩ năng toán học tương thích là: Lập đơn thức quãng đường của Thỏ ( \\(60vt\\) ) và Rùa ( \\(90vt\\) ), sau đó chia hai đơn thức  \\(90vt : 60vt = 1.5\\) .",
+      "answers": [
+        {
+          "text": "Lập hai đơn thức biểu thị quãng đường  \\(60vt\\)  và  \\(90vt\\) , sau đó thực hiện phép chia hai đơn thức  \\(90vt : 60vt = 1.5\\) .",
+          "fraction": 100
+        },
+        {
+          "text": "Lấy thời gian của Rùa  \\(90t\\)  trừ thời gian của Thỏ  \\(t\\)  rồi chia cho 60.",
+          "fraction": 0
+        },
+        {
+          "text": "Cộng hai vận tốc  \\(60v + v = 61v\\)  rồi nhân với tổng thời gian  \\(91t\\) .",
+          "fraction": 0
+        },
+        {
+          "text": "Lập phương trình bậc nhất hai ẩn và giải hệ phương trình.",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

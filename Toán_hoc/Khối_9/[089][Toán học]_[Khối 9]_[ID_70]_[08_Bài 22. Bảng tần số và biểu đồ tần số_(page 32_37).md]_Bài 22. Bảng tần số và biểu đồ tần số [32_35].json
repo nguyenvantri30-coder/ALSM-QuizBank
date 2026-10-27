@@ -1,0 +1,472 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 16,
+    "metadata_used": {
+      "Khái niệm tần số n_i của một giá trị x_i": 1,
+      "Khái niệm kích thước mẫu N": 1,
+      "Cấu trúc bảng tần số": 2,
+      "Đếm số lần xuất hiện của các giá trị dữ liệu": 2,
+      "Thiết lập bảng tần số cho tập dữ liệu": 1,
+      "YCCD_TOAN9_110": 1,
+      "YCCD_TOAN9_111": 1,
+      "YCCD_TOAN9_114": 1,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_TRUNGTHUC_CHUNG_C2_05": 1,
+      "SUB_TCTH_TUHOC_C2_01": 1,
+      "SUB_GTHT_XACDINHMD_C2_03": 1,
+      "NLT_TOAN_C2_02_03": 1,
+      "NLT_TOAN_C2_04_06": 1
+    },
+    "types_used": {
+      "multichoice": 9,
+      "truefalse": 1,
+      "gapselect": 1,
+      "numerical": 1,
+      "matching": 1,
+      "ddwtos": 1,
+      "shortanswer": 1,
+      "calculated": 1
+    },
+    "total": 16
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "Khái niệm tần số n_i của một giá trị x_i",
+        "reason": "Đo lường khái niệm tần số của một giá trị trong mẫu dữ liệu"
+      },
+      {
+        "metadata_code": "Khái niệm kích thước mẫu N",
+        "reason": "Đo lường khái niệm cỡ mẫu (kích thước mẫu N)"
+      },
+      {
+        "metadata_code": "Cấu trúc bảng tần số",
+        "reason": "Đo lường hiểu biết về cấu trúc bảng tần số"
+      },
+      {
+        "metadata_code": "Đếm số lần xuất hiện của các giá trị dữ liệu",
+        "reason": "Đo lường kỹ năng đếm số lần xuất hiện của các giá trị"
+      },
+      {
+        "metadata_code": "Thiết lập bảng tần số cho tập dữ liệu",
+        "reason": "Đo lường kỹ năng thiết lập bảng tần số từ dữ liệu cho trước"
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_110",
+        "reason": "Đo lường khả năng xác định tần số của một giá trị cụ thể"
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_111",
+        "reason": "Đo lường YCCĐ về thiết lập bảng tần số"
+      },
+      {
+        "metadata_code": "YCCD_TOAN9_114",
+        "reason": "Đo lường YCCĐ về giải thích ý nghĩa và vai trò của tần số trong thực tiễn"
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Đo lường phẩm chất cố gắng vươn lên trong học tập thông qua tình huống phân tích thời gian tự học"
+      },
+      {
+        "metadata_code": "SUB_TRUNGTHUC_CHUNG_C2_05",
+        "reason": "Đo lường phẩm chất khách quan, công bằng qua việc xử lý số liệu khảo sát ý kiến"
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+        "reason": "Đo lường năng lực tự đặt mục tiêu học tập từ phân tích bảng tần số điểm tốt"
+      },
+      {
+        "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+        "reason": "Đo lường năng lực tiếp nhận thông tin từ bảng số liệu thiên tai"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_02_03",
+        "reason": "Đo lường năng lực sử dụng mô hình bảng tần số mô tả tình huống chọn mua cỡ áo"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_04_06",
+        "reason": "Đo lường năng lực trích xuất thông tin toán học từ đoạn văn bản khảo sát cỡ giày"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "1.1TC2a_K9",
+        "reason": "Nội dung bài học SGK Toán 9 (Bài 22 - Tiết 1) dạy lập bảng tần số thủ công, chưa có hoạt động thực hành tổ chức tìm kiếm dữ liệu trong môi trường số."
+      },
+      {
+        "metadata_code": "1.2TC2d_K9",
+        "reason": "Nội dung bài học tập trung vào khái niệm và kĩ năng thống kê cơ bản, chưa yêu cầu sử dụng công cụ/phần mềm số để phân tích dữ liệu."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm tần số n_i của một giá trị x_i",
+      "questiontext": "Tần số của một giá trị trong mẫu dữ liệu là gì?",
+      "generalfeedback": "Tần số của một giá trị là số lần xuất hiện giá trị đó trong mẫu dữ liệu.",
+      "answers": [
+        {
+          "text": "Số lần xuất hiện của giá trị đó trong mẫu dữ liệu",
+          "fraction": 100
+        },
+        {
+          "text": "Tổng tất cả các giá trị trong mẫu dữ liệu",
+          "fraction": 0
+        },
+        {
+          "text": "Số lượng các giá trị khác nhau trong mẫu dữ liệu",
+          "fraction": 0
+        },
+        {
+          "text": "Giá trị lớn nhất xuất hiện trong mẫu dữ liệu",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm kích thước mẫu N",
+      "questiontext": "Số giá trị của một mẫu dữ liệu được gọi là cỡ mẫu (hoặc kích thước mẫu \\(N\\)).",
+      "generalfeedback": "Khái niệm cỡ mẫu: Số giá trị của mẫu dữ liệu được gọi là cỡ mẫu (kích thước mẫu \\(N\\)).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Cấu trúc bảng tần số",
+      "questiontext": "Bảng tần số là bảng thống kê cho biết [[1]] của các giá trị trong mẫu dữ liệu. Trong bảng tần số dạng hàng ngang, hàng thứ nhất ghi các [[2]], hàng thứ hai ghi các tần số tương ứng.",
+      "generalfeedback": "Bảng tần số cho biết tần số của các giá trị trong mẫu dữ liệu. Dòng 1 ghi các giá trị khác nhau, dòng 2 ghi tần số.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "tần số"
+        },
+        {
+          "group": 1,
+          "text": "giá trị"
+        },
+        {
+          "group": 1,
+          "text": "kích thước mẫu"
+        },
+        {
+          "group": 1,
+          "text": "tần số tương đối"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Đếm số lần xuất hiện của các giá trị dữ liệu",
+      "questiontext": "Cho mẫu dữ liệu về cỡ giày của các bạn nam: 40, 36, 37, 36, 40, 38, 39, 38, 37, 36, 40, 39, 36, 38, 37, 38. Tần số của giá trị 36 trong mẫu dữ liệu trên là bao nhiêu? (Chỉ điền số)",
+      "generalfeedback": "Đếm số lần xuất hiện của giá trị 36: có 4 lần xuất hiện (ở các vị trí 2, 4, 10, 14), nên tần số của 36 là 4.",
+      "answers": [
+        {
+          "text": "4",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_110",
+      "questiontext": "Kết quả khảo sát ý kiến giữ gìn vệ sinh công cộng của học sinh thu được dãy dữ liệu: Tốt, Khá, Trung bình, Khá, Tốt, Khá, Trung bình, Tốt, Khá, Kém. Tần số của mức đánh giá \"Khá\" là bao nhiêu?",
+      "generalfeedback": "Mức \"Khá\" xuất hiện 4 lần trong dãy dữ liệu, do đó tần số của giá trị \"Khá\" là 4.",
+      "answers": [
+        {
+          "text": "4",
+          "fraction": 100
+        },
+        {
+          "text": "3",
+          "fraction": 0
+        },
+        {
+          "text": "2",
+          "fraction": 0
+        },
+        {
+          "text": "1",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Cấu trúc bảng tần số",
+      "questiontext": "Hãy ghép mỗi thuật ngữ/ký hiệu ở cột bên trái với ý nghĩa tương ứng ở cột bên phải.",
+      "generalfeedback": "Cỡ mẫu N là tổng số giá trị trong mẫu dữ liệu; tần số m_i là số lần xuất hiện của giá trị x_i; Bảng tần số là bảng thống kê tần số của các giá trị.",
+      "subquestions": [
+        {
+          "question": "Cỡ mẫu \\(N\\)",
+          "answer": "Tổng số giá trị trong mẫu dữ liệu"
+        },
+        {
+          "question": "Tần số \\(m_i\\)",
+          "answer": "Số lần xuất hiện của giá trị \\(x_i\\)"
+        },
+        {
+          "question": "Bảng tần số",
+          "answer": "Bảng thống kê cho biết tần số của các giá trị trong mẫu dữ liệu"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "Thiết lập bảng tần số cho tập dữ liệu",
+      "questiontext": "Cho dãy số liệu điểm kiểm tra môn Toán của 10 học sinh: 7, 8, 9, 7, 8, 10, 8, 7, 9, 8. Khi thiết lập bảng tần số, tần số tương ứng của điểm 7 là [[1]], của điểm 8 là [[2]], của điểm 9 là [[3]] và của điểm 10 là [[4]].",
+      "generalfeedback": "Đếm số lần xuất hiện: Điểm 7 xuất hiện 3 lần; điểm 8 xuất hiện 4 lần; điểm 9 xuất hiện 2 lần; điểm 10 xuất hiện 1 lần.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "3"
+        },
+        {
+          "group": 1,
+          "text": "4"
+        },
+        {
+          "group": 1,
+          "text": "2"
+        },
+        {
+          "group": 1,
+          "text": "1"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN9_114",
+      "questiontext": "Trong thực tiễn, việc xác định tần số của các giá trị trong một mẫu dữ liệu giúp chúng ta điều gì?",
+      "generalfeedback": "Ý nghĩa của tần số: Tần số cho biết giá trị đó xuất hiện nhiều hay ít, từ đó dễ dàng xác định giá trị xuất hiện nhiều nhất, ít nhất để phục vụ quyết định trong thực tiễn.",
+      "answers": [
+        {
+          "text": "Biết được giá trị nào xuất hiện nhiều nhất, ít nhất để đưa ra quyết định phù hợp",
+          "fraction": 100
+        },
+        {
+          "text": "Tính toán chính xác diện tích và chu vi của các hình hình học",
+          "fraction": 0
+        },
+        {
+          "text": "Thay đổi trực tiếp các giá trị dữ liệu ban đầu thu được",
+          "fraction": 0
+        },
+        {
+          "text": "Loại bỏ hoàn toàn các dữ liệu không mong muốn trong mẫu",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Đếm số lần xuất hiện của các giá trị dữ liệu",
+      "questiontext": "Một cửa hàng bán ra các cỡ áo trong ngày: S, M, L, M, XL, M, L, S, M, L. Tần số của cỡ áo M là bao nhiêu?",
+      "generalfeedback": "Cỡ áo M xuất hiện 4 lần trong dãy dữ liệu (ở các vị trí 2, 4, 6, 8), nên tần số của cỡ áo M là 4.",
+      "answers": [
+        {
+          "text": "4",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN9_111",
+      "questiontext": "Một mẫu dữ liệu có {a} giá trị nhận giá trị \\(x_1\\), {b} giá trị nhận giá trị \\(x_2\\) và 5 giá trị nhận giá trị \\(x_3\\). Tổng kích thước mẫu \\(N\\) khi lập bảng tần số là bao nhiêu?",
+      "generalfeedback": "Kích thước mẫu N bằng tổng tần số của tất cả các giá trị: N = {a} + {b} + 5.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 2.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}+{b}+5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Bạn An khảo sát thời gian tự học hàng ngày (giờ) của các bạn trong nhóm và thu được dãy dữ liệu: 0.5, 1, 0.5, 2, 1, 0.5, 1.5, 0.5. Khi lập bảng tần số, An nhận thấy tần số của mức 0.5 giờ chiếm đa số (4 bạn). Để thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập, bạn An nên chọn hành động nào dưới đây?",
+      "generalfeedback": "Thể hiện phẩm chất luôn cố gắng vươn lên trong học tập: An nên chủ động trao đổi, rủ các bạn lập kế hoạch tự học cùng nhau để nâng cao thời gian và hiệu quả học tập.",
+      "answers": [
+        {
+          "text": "Chủ động trao đổi với các bạn, rủ nhau lập nhóm và kế hoạch tự học để cùng nâng cao thời gian tự học",
+          "fraction": 100
+        },
+        {
+          "text": "Tự ý sửa các số liệu 0.5 thành 2 trong bảng tần số để báo cáo thành tích với giáo viên",
+          "fraction": 0
+        },
+        {
+          "text": "Chê trách các bạn học ít và không giao lưu với các bạn đó nữa",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua kết quả khảo sát và duy trì thói quen học tập cũ không cần cố gắng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_TRUNGTHUC_CHUNG_C2_05",
+      "questiontext": "Bạn Bình tiến hành khảo sát ý kiến của các bạn trong lớp về dự định sau khi tốt nghiệp THCS (theo HĐ1 SGK). Mặc dù Bình muốn tất cả các bạn đều chọn \"Học Trung học phổ thông\", nhưng kết quả thu được có nhiều bạn chọn \"Đi học nghề\". Để đảm bảo tính khách quan, công bằng trong nhận thức và ứng xử, bạn Bình nên làm gì?",
+      "generalfeedback": "Tính khách quan, công bằng đòi hỏi tôn trọng sự thật dữ liệu: Bình cần thống kê trung thực tất cả ý kiến thu được vào bảng tần số mà không tự ý loại bỏ hay chỉnh sửa.",
+      "answers": [
+        {
+          "text": "Tôn trọng và ghi nhận trung thực tất cả các ý kiến thu được để lập bảng tần số chính xác",
+          "fraction": 100
+        },
+        {
+          "text": "Loại bỏ các phiếu chọn \"Đi học nghề\" ra khỏi mẫu dữ liệu trước khi đếm tần số",
+          "fraction": 0
+        },
+        {
+          "text": "Tự ý cộng thêm tần số cho lựa chọn \"Học Trung học phổ thông\"",
+          "fraction": 0
+        },
+        {
+          "text": "Ép buộc các bạn chọn lại theo đúng ý muốn cá nhân của mình",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_01",
+      "questiontext": "Bạn Mai theo dõi số điểm tốt đạt được trong tuần của bản thân và lập bảng tần số: Thứ Hai (2), Thứ Ba (1), Thứ Tư (0), Thứ Năm (1), Thứ Sáu (1). Để thực hiện năng lực tự đặt mục tiêu học tập và nỗ lực phấn đấu, hành động phù hợp nhất của Mai là gì?",
+      "generalfeedback": "Năng lực G1 thể hiện ở việc biết đánh giá thực trạng từ số liệu bảng tần số, tự đặt mục tiêu cụ thể (ví dụ: đạt ít nhất 2 điểm tốt mỗi ngày) và lập kế hoạch nỗ lực thực hiện.",
+      "answers": [
+        {
+          "text": "Phân tích bảng tần số, đặt mục tiêu đạt ít nhất 2 điểm tốt mỗi ngày và chủ động chuẩn bị bài kĩ trước khi đến lớp",
+          "fraction": 100
+        },
+        {
+          "text": "Không cần đặt mục tiêu vì số điểm tốt phụ thuộc hoàn toàn vào sự may mắn",
+          "fraction": 0
+        },
+        {
+          "text": "Hạ thấp mục tiêu xuống 0 điểm tốt để không phải nỗ lực học tập",
+          "fraction": 0
+        },
+        {
+          "text": "Nhờ các bạn khác nhường điểm tốt cho mình để đạt mục tiêu đề ra",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "questiontext": "Dựa vào bảng thống kê số lượng thiên tai xảy ra tại Việt Nam giai đoạn 1990 - 2021 (Bài 7.5 SGK): Hạn hán (6), Bệnh dịch (9), Lũ lụt (71), Sạt lở đất (6), Bão (94). Khi tiếp nhận thông tin từ bảng số liệu này, khẳng định nào sau đây là đúng?",
+      "generalfeedback": "Trích xuất và tiếp nhận thông tin từ bảng số liệu: Bão (94 lần) và Lũ lụt (71 lần) có tần số xuất hiện cao vượt trội so với các loại thiên tai khác.",
+      "answers": [
+        {
+          "text": "Bão và Lũ lụt là hai loại thiên tai có tần số xuất hiện nhiều nhất trong giai đoạn 1990 - 2021",
+          "fraction": 100
+        },
+        {
+          "text": "Hạn hán là loại thiên tai có tần số xuất hiện lớn nhất",
+          "fraction": 0
+        },
+        {
+          "text": "Tần số xảy ra sạt lở đất lớn hơn tần số xảy ra bệnh dịch",
+          "fraction": 0
+        },
+        {
+          "text": "Tổng số lần xảy ra hạn hán và sạt lở đất nhiều hơn số lần xảy ra bão",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_02_03",
+      "questiontext": "Lớp trưởng thu thập cỡ áo thể thao của 20 học sinh trong lớp: M, S, M, L, M, S, L, M, XL, M, S, M, L, M, XL, M, L, S, M, L. Mô hình bảng tần số nào dưới đây mô tả chính xác tình huống thực tiễn này để giúp lớp trưởng đặt mua đúng số lượng áo?",
+      "generalfeedback": "Đếm tần số từng cỡ áo: S xuất hiện 4 lần; M xuất hiện 9 lần; L xuất hiện 5 lần; XL xuất hiện 2 lần. Cỡ mẫu N = 20.",
+      "answers": [
+        {
+          "text": "Cỡ áo: S, M, L, XL | Tần số: 4, 9, 5, 2",
+          "fraction": 100
+        },
+        {
+          "text": "Cỡ áo: S, M, L, XL | Tần số: 5, 8, 5, 2",
+          "fraction": 0
+        },
+        {
+          "text": "Cỡ áo: S, M, L, XL | Tần số: 4, 8, 6, 2",
+          "fraction": 0
+        },
+        {
+          "text": "Cỡ áo: S, M, L, XL | Tần số: 3, 9, 6, 2",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04_06",
+      "questiontext": "Đoạn văn bản sau ghi lại kết quả khảo sát cỡ giày của các bạn nam trong lớp (Ví dụ 1 SGK): \"40, 36, 37, 36, 40, 38, 39, 38, 37, 36, 40, 39, 36, 38, 37, 38, 38, 37, 38, 38, 38, 36\". Thông tin toán học nào được trích xuất chính xác từ văn bản trên?",
+      "generalfeedback": "Trích xuất thông tin toán học: Tổng số giá trị (cỡ mẫu) N = 22; cỡ giày 38 xuất hiện 8 lần (tần số lớn nhất).",
+      "answers": [
+        {
+          "text": "Mẫu dữ liệu có cỡ mẫu \\(N = 22\\) và cỡ giày 38 có tần số lớn nhất là 8",
+          "fraction": 100
+        },
+        {
+          "text": "Mẫu dữ liệu có cỡ mẫu \\(N = 5\\) và cỡ giày 36 có tần số lớn nhất là 8",
+          "fraction": 0
+        },
+        {
+          "text": "Mẫu dữ liệu có cỡ mẫu \\(N = 22\\) và cỡ giày 40 có tần số lớn nhất là 5",
+          "fraction": 0
+        },
+        {
+          "text": "Mẫu dữ liệu có cỡ mẫu \\(N = 20\\) và cỡ giày 37 có tần số lớn nhất là 4",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

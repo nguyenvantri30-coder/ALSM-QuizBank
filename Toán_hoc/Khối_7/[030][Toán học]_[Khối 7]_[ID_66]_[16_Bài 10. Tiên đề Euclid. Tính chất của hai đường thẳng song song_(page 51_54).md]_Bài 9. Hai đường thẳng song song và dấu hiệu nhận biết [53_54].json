@@ -1,0 +1,453 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 16,
+    "metadata_used": {
+      "YCCD_TOAN7_080": 10,
+      "YCCD_TOAN7_081": 2,
+      "YCCD_TOAN7_082": 1,
+      "Dấu hiệu nhận biết hai đường thẳng song song qua cặp góc so le trong hoặc đồng vị": 3,
+      "Chứng minh hai đường thẳng song song bằng dấu hiệu nhận biết góc": 4,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_TUCHUTUHOC": 1,
+      "NLC_GIAOTIEP": 1,
+      "NLT_TOAN_C2_01": 1,
+      "NLT_TOAN_C2_04": 1
+    },
+    "types_used": {
+      "multichoice": 9,
+      "truefalse": 1,
+      "gapselect": 1,
+      "numerical": 1,
+      "matching": 1,
+      "shortanswer": 1,
+      "ddwtos": 1,
+      "calculated": 1
+    },
+    "total": 16
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_080",
+        "reason": "Mô tả tính chất hai đường thẳng song song."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_081",
+        "reason": "Mô tả dấu hiệu song song qua cặp góc đồng vị."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_082",
+        "reason": "Mô tả dấu hiệu song song qua cặp góc so le trong."
+      },
+      {
+        "metadata_code": "Dấu hiệu nhận biết hai đường thẳng song song qua cặp góc so le trong hoặc đồng vị",
+        "reason": "Nhận biết dấu hiệu hai đường thẳng song song."
+      },
+      {
+        "metadata_code": "Chứng minh hai đường thẳng song song bằng dấu hiệu nhận biết góc",
+        "reason": "Chứng minh hai đường thẳng song song bằng dấu hiệu nhận biết góc."
+      },
+      {
+        "metadata_code": "PC_CHAMCHI",
+        "reason": "Đo lường phẩm chất chăm chỉ qua tình huống học tập."
+      },
+      {
+        "metadata_code": "PC_TRUNGTHUC",
+        "reason": "Đo lường phẩm chất trung thực trong kiểm tra đánh giá."
+      },
+      {
+        "metadata_code": "NLC_TUCHUTUHOC",
+        "reason": "Đo lường năng lực tự chủ và tự học qua việc chuẩn bị bài."
+      },
+      {
+        "metadata_code": "NLC_GIAOTIEP",
+        "reason": "Đo lường năng lực giao tiếp và hợp tác qua thảo luận nhóm."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01",
+        "reason": "Đo lường năng lực tư duy và lập luận toán học qua chuỗi suy luận."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_04",
+        "reason": "Đo lường năng lực giao tiếp toán học qua việc sử dụng ký hiệu toán học."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Nội dung bài học không tích hợp trực tiếp công cụ tin học/số."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học không ứng dụng trực tiếp công nghệ AI."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_080",
+      "questiontext": "Nếu một đường thẳng \\(c\\) cắt hai đường thẳng song song \\(a\\) và \\(b\\) thì hai góc so le trong tạo thành có tính chất gì?",
+      "generalfeedback": "Nếu một đường thẳng cắt hai đường thẳng song song thì hai góc so le trong bằng nhau.",
+      "answers": [
+        {
+          "text": "Bằng nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Bù nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Kề bù",
+          "fraction": 0
+        },
+        {
+          "text": "Phụ nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_081",
+      "questiontext": "Cho đường thẳng \\(c\\) cắt hai đường thẳng \\(a\\) và \\(b\\). Nếu trong các góc tạo thành có một cặp góc đồng vị bằng nhau thì \\(a // b\\). Phát biểu trên là đúng hay sai?",
+      "generalfeedback": "Đây là phát biểu đúng về dấu hiệu nhận biết hai đường thẳng song song qua cặp góc đồng vị.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_082",
+      "questiontext": "Cho đường thẳng \\(c\\) cắt hai đường thẳng \\(a\\) và \\(b\\) tại \\(A\\) và \\(B\\). Biết cặp góc so le trong \\(\\widehat{A_1} = 60^\\circ\\) và \\(\\widehat{B_1} = 60^\\circ\\). Kết luận nào sau đây là đúng?",
+      "generalfeedback": "Vì cặp góc so le trong bằng nhau (cùng bằng \\(60^\\circ\\)) nên hai đường thẳng \\(a\\) và \\(b\\) song song với nhau.",
+      "answers": [
+        {
+          "text": "Hai đường thẳng \\(a\\) và \\(b\\) song song với nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Hai đường thẳng \\(a\\) và \\(b\\) vuông góc với nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Hai đường thẳng \\(a\\) và \\(b\\) trùng nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Hai đường thẳng \\(a\\) và \\(b\\) cắt nhau",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Dấu hiệu nhận biết hai đường thẳng song song qua cặp góc so le trong hoặc đồng vị",
+      "questiontext": "Nếu đường thẳng \\(c\\) cắt hai đường thẳng \\(a, b\\) và trong các góc tạo thành có một cặp góc so le trong [[1]] hoặc một cặp góc đồng vị [[1]] thì \\(a\\) và \\(b\\) song song với nhau.",
+      "generalfeedback": "Dấu hiệu nhận biết hai đường thẳng song song: nếu có một cặp góc so le trong bằng nhau hoặc một cặp góc đồng vị bằng nhau thì hai đường thẳng song song.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "bằng nhau"
+        },
+        {
+          "group": 1,
+          "text": "bù nhau"
+        },
+        {
+          "group": 1,
+          "text": "kề bù"
+        },
+        {
+          "group": 1,
+          "text": "vuông góc"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_080",
+      "imgs": [
+        "_page_1_Figure_24.jpeg"
+      ],
+      "questiontext": "Cho [img:_page_1_Figure_24.jpeg], biết \\(xy // x'y'\\) và \\(\\widehat{BAy} = 50^\\circ\\). Tính số đo góc \\(ABx'\\) (chỉ điền số, không ghi đơn vị).",
+      "generalfeedback": "Vì \\(xy // x'y'\\) nên \\(\\widehat{ABx'} = \\widehat{BAy} = 50^\\circ\\) (hai góc so le trong).",
+      "answers": [
+        {
+          "text": "50",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Dấu hiệu nhận biết hai đường thẳng song song qua cặp góc so le trong hoặc đồng vị",
+      "questiontext": "Ghép mỗi điều kiện ở cột trái với kết luận phù hợp ở cột phải khi đường thẳng \\(c\\) cắt hai đường thẳng \\(a\\) và \\(b\\):",
+      "generalfeedback": "Các điều kiện trên đều là dấu hiệu nhận biết hai đường thẳng song song.",
+      "subquestions": [
+        {
+          "question": "Cặp góc so le trong bằng nhau",
+          "answer": "a song song với b"
+        },
+        {
+          "question": "Cặp góc đồng vị bằng nhau",
+          "answer": "a song song với b"
+        },
+        {
+          "question": "Hai đường thẳng a và b cùng vuông góc với c",
+          "answer": "a song song với b"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_080",
+      "questiontext": "Một đường thẳng vuông góc với một trong hai đường thẳng song song thì nó thế nào với đường thẳng còn lại?",
+      "generalfeedback": "Một đường thẳng vuông góc với một trong hai đường thẳng song song thì nó cũng vuông góc với đường thẳng kia.",
+      "answers": [
+        {
+          "text": "vuông góc",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh hai đường thẳng song song bằng dấu hiệu nhận biết góc",
+      "questiontext": "Để chứng minh hai đường thẳng \\(a\\) và \\(b\\) song song, ta có thể chỉ ra chúng có một cặp góc so le trong [[1]] hoặc một cặp góc đồng vị [[1]].",
+      "generalfeedback": "Áp dụng dấu hiệu nhận biết hai đường thẳng song song qua cặp góc so le trong hoặc đồng vị bằng nhau.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "bằng nhau"
+        },
+        {
+          "group": 1,
+          "text": "bù nhau"
+        },
+        {
+          "group": 1,
+          "text": "kề nhau"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Chứng minh hai đường thẳng song song bằng dấu hiệu nhận biết góc",
+      "questiontext": "Cho hai đường thẳng song song \\(a // b\\) bị cắt bởi đường thẳng \\(c\\). Biết một góc so le trong có số đo là {x} độ. Tính số đo góc đồng vị tương ứng (chỉ điền số).",
+      "generalfeedback": "Vì \\(a // b\\) nên góc đồng vị bằng góc so le trong, do đó số đo góc đồng vị bằng {x} độ.",
+      "wildcards": [
+        {
+          "name": "x",
+          "min": 30.0,
+          "max": 150.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{x}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Chứng minh hai đường thẳng song song bằng dấu hiệu nhận biết góc",
+      "imgs": [
+        "_page_2_Figure_7.jpeg"
+      ],
+      "questiontext": "Cho [img:_page_2_Figure_7.jpeg], biết rằng \\(xx' // yy'\\) và \\(zz' \\perp xx'\\). Khẳng định nào sau đây là ĐÚNG?",
+      "generalfeedback": "Vì một đường thẳng vuông góc với một trong hai đường thẳng song song thì nó cũng vuông góc với đường thẳng kia, nên \\(zz' \\perp yy'\\).",
+      "answers": [
+        {
+          "text": "\\(zz' \\perp yy'\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(zz' // yy'\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(zz'\\) trùng với \\(yy'\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(zz'\\) không cắt \\(yy'\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Khi làm bài tập về nhà hình học liên quan đến tính số đo các góc tạo bởi hai đường thẳng song song, bạn An kiên trì vẽ lại hình cẩn thận, đo và tính toán lại từng bước để kiểm tra kết quả tính số đo góc so le trong thay vì chép bài giải sẵn trên mạng. Hành vi của An thể hiện phẩm chất nào?",
+      "generalfeedback": "Hành vi kiên trì tự làm bài, vẽ hình cẩn thận và kiểm tra lại kết quả thay vì chép sẵn thể hiện phẩm chất chăm chỉ trong học tập.",
+      "answers": [
+        {
+          "text": "Chăm chỉ",
+          "fraction": 100
+        },
+        {
+          "text": "Trung thực",
+          "fraction": 0
+        },
+        {
+          "text": "Trách nhiệm",
+          "fraction": 0
+        },
+        {
+          "text": "Yêu nước",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Trong giờ kiểm tra Toán lớp 7, khi giải bài toán tính số đo góc so le trong của hai đường thẳng song song, bạn Bình thấy kết quả tính của mình là \\(50^\\circ\\) khác với kết quả \\(60^\\circ\\) của bạn bên cạnh. Bình đã kiểm tra lại lập luận tính chất hai đường thẳng song song của mình, khẳng định cách làm đúng và giữ nguyên kết quả bài làm mà không sửa theo bạn. Việc làm của Bình thể hiện phẩm chất nào?",
+      "generalfeedback": "Việc giữ nguyên kết quả bài làm đúng theo suy luận bản thân, không gian lận hay chép bài người khác thể hiện phẩm chất trung thực.",
+      "answers": [
+        {
+          "text": "Trung thực",
+          "fraction": 100
+        },
+        {
+          "text": "Chăm chỉ",
+          "fraction": 0
+        },
+        {
+          "text": "Nhân ái",
+          "fraction": 0
+        },
+        {
+          "text": "Yêu nước",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Để chuẩn bị cho tiết học 'Tiên đề Euclid và tính chất của hai đường thẳng song song', bạn Mai đã chủ động đọc trước SGK, tự tóm tắt các tính chất thành bảng hệ thống: 'Hai góc so le trong bằng nhau', 'Hai góc đồng vị bằng nhau', và ghi chép lại những chỗ chưa hiểu để hỏi giáo viên. Việc làm của Mai phản ánh rõ nhất năng lực nào?",
+      "generalfeedback": "Việc chủ động đọc trước bài, tự tóm tắt kiến thức và lập kế hoạch hỏi đáp thể hiện năng lực tự chủ và tự học.",
+      "answers": [
+        {
+          "text": "Năng lực tự chủ và tự học",
+          "fraction": 100
+        },
+        {
+          "text": "Năng lực giao tiếp và hợp tác",
+          "fraction": 0
+        },
+        {
+          "text": "Năng lực giải quyết vấn đề",
+          "fraction": 0
+        },
+        {
+          "text": "Năng lực tính toán",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_GIAOTIEP",
+      "questiontext": "Khi thảo luận nhóm để giải thích bài tập chứng minh \\(Am // By\\) dựa vào hai góc so le trong bằng nhau, bạn Nam lắng nghe ý kiến của các bạn trong nhóm, cùng trao đổi để thống nhất cách trình bày lời giải ngắn gọn và rõ ràng nhất trước lớp. Hành vi của Nam thể hiện năng lực nào?",
+      "generalfeedback": "Việc lắng nghe, trao đổi và thống nhất ý kiến cùng nhóm để trình bày bài toán phản ánh năng lực giao tiếp và hợp tác.",
+      "answers": [
+        {
+          "text": "Năng lực giao tiếp và hợp tác",
+          "fraction": 100
+        },
+        {
+          "text": "Năng lực tự chủ và tự học",
+          "fraction": 0
+        },
+        {
+          "text": "Năng lực thẩm mỹ",
+          "fraction": 0
+        },
+        {
+          "text": "Năng lực thể chất",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Cho đường thẳng \\(c\\) cắt hai đường thẳng \\(a\\) và \\(b\\) tại \\(A\\) và \\(B\\). Bạn Minh lập luận như sau:\n- Bước 1: Cho cặp góc so le trong \\(\\widehat{A_1} = \\widehat{B_1} = 60^\\circ\\).\n- Bước 2: Suy ra \\(a // b\\) (theo dấu hiệu nhận biết hai đường thẳng song song).\n- Bước 3: Từ \\(a // b\\), suy ra cặp góc đồng vị \\(\\widehat{A_2} = \\widehat{B_2} = 60^\\circ\\) (theo tính chất hai đường thẳng song song).\nLập luận của Minh thể hiện năng lực nào trong học toán?",
+      "generalfeedback": "Quá trình Minh liên kết từ giả thiết đến việc sử dụng dấu hiệu nhận biết và tính chất của hai đường thẳng song song để suy luận lôgic thể hiện năng lực tư duy và lập luận toán học.",
+      "answers": [
+        {
+          "text": "Năng lực tư duy và lập luận toán học",
+          "fraction": 100
+        },
+        {
+          "text": "Năng lực mô hình hóa toán học",
+          "fraction": 0
+        },
+        {
+          "text": "Năng lực sử dụng công cụ, phương tiện học toán",
+          "fraction": 0
+        },
+        {
+          "text": "Năng lực giao tiếp toán học",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04",
+      "questiontext": "Để diễn đạt phát biểu: 'Hai đường thẳng phân biệt cùng song song với một đường thẳng thứ ba thì chúng song song với nhau' bằng ngôn ngữ ký hiệu toán học chính xác nhất, bạn An nên viết như thế nào?",
+      "generalfeedback": "Cách diễn đạt ký hiệu toán học chuẩn xác cho nhận xét này là: Nếu \\(a // c\\) và \\(b // c\\) (với \\(a \\neq b\\)) thì \\(a // b\\).",
+      "answers": [
+        {
+          "text": "Nếu \\(a // c\\) và \\(b // c\\) (với \\(a \\neq b\\)) thì \\(a // b\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Nếu \\(a \\perp c\\) và \\(b \\perp c\\) thì \\(a \\perp b\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Nếu \\(a // b\\) và \\(b // c\\) thì \\(a \\perp c\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Nếu \\(a\\) cắt \\(c\\) và \\(b\\) cắt \\(c\\) thì \\(a // b\\)",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

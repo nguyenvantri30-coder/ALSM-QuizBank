@@ -1,0 +1,687 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 30,
+    "metadata_used": {
+      "Trường hợp đồng dạng có một góc nhọn bằng nhau của hai tam giác vuông": 2,
+      "Trường hợp đồng dạng có hai cạnh góc vuông tỉ lệ": 2,
+      "YCCD_TOAN8_089": 1,
+      "Nhận biết hai tam giác vuông đồng dạng theo góc nhọn hoặc hai cạnh góc vuông": 2,
+      "Chứng minh hai tam giác vuông đồng dạng": 1,
+      "Tính độ dài đoạn thẳng và số đo góc trong tam giác vuông": 2
+    },
+    "types_used": {
+      "multichoice": 3,
+      "truefalse": 2,
+      "shortanswer": 1,
+      "numerical": 1,
+      "matching": 1,
+      "gapselect": 1,
+      "ddwtos": 1
+    },
+    "total": 30
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN8_089",
+        "reason": "Đo lường khả năng giải thích các trường hợp đồng dạng của hai tam giác vuông."
+      },
+      {
+        "metadata_code": "Trường hợp đồng dạng có một góc nhọn bằng nhau của hai tam giác vuông",
+        "reason": "Đo lường kiến thức về trường hợp đồng dạng có một góc nhọn bằng nhau của hai tam giác vuông."
+      },
+      {
+        "metadata_code": "Trường hợp đồng dạng có hai cạnh góc vuông tỉ lệ",
+        "reason": "Đo lường kiến thức về trường hợp đồng dạng có hai cạnh góc vuông tỉ lệ."
+      },
+      {
+        "metadata_code": "Nhận biết hai tam giác vuông đồng dạng theo góc nhọn hoặc hai cạnh góc vuông",
+        "reason": "Đo lường kỹ năng nhận biết hai tam giác vuông đồng dạng theo góc nhọn hoặc hai cạnh góc vuông."
+      },
+      {
+        "metadata_code": "Chứng minh hai tam giác vuông đồng dạng",
+        "reason": "Đo lường kỹ năng chứng minh hai tam giác vuông đồng dạng."
+      },
+      {
+        "metadata_code": "Tính độ dài đoạn thẳng và số đo góc trong tam giác vuông",
+        "reason": "Đo lường kỹ năng tính độ dài đoạn thẳng và số đo góc trong tam giác vuông đồng dạng."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học thuộc lĩnh vực Hình học thuần túy (Tam giác vuông đồng dạng), không chứa nội dung tương tác công nghệ hay phần mềm số."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Bài học không chứa yếu tố về trí tuệ nhân tạo hay ứng dụng AI tự nhiên."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Trường hợp đồng dạng có một góc nhọn bằng nhau của hai tam giác vuông",
+      "questiontext": "Cho hai tam giác vuông \\(ABC\\) (vuông tại \\(A\\)) và \\(A'B'C'\\) (vuông tại \\(A'\\)). Điều kiện nào sau đây đảm bảo \\(\\triangle ABC \\sim \\triangle A'B'C'\\) theo trường hợp đồng dạng có một góc nhọn bằng nhau?",
+      "generalfeedback": "Hai tam giác vuông đồng dạng nếu chúng có một góc nhọn bằng nhau.",
+      "answers": [
+        {
+          "text": "\\(\\widehat{B} = \\widehat{B'}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\widehat{A} = \\widehat{B'}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\widehat{B} + \\widehat{C} = 90^\\circ\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\widehat{A} + \\widehat{A'} = 180^\\circ\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Trường hợp đồng dạng có hai cạnh góc vuông tỉ lệ",
+      "questiontext": "Cho hai tam giác vuông \\(ABC\\) tại \\(A\\) và \\(DEF\\) tại \\(D\\). Hai tam giác vuông này đồng dạng theo trường hợp hai cạnh góc vuông tỉ lệ khi:",
+      "generalfeedback": "Hai tam giác vuông đồng dạng nếu hai cạnh góc vuông của tam giác vuông này tỉ lệ với hai cạnh góc vuông của tam giác vuông kia.",
+      "answers": [
+        {
+          "text": "\\(\\frac{AB}{DE} = \\frac{AC}{DF}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{AB}{DE} = \\frac{BC}{EF}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{AC}{DF} = \\frac{BC}{EF}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(AB = DE\\) và \\(AC = DF\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN8_089",
+      "questiontext": "Nếu hai tam giác vuông có hai cạnh góc vuông của tam giác này bằng hai cạnh góc vuông của tam giác kia thì hai tam giác vuông đó đồng dạng với tỉ số đồng dạng \\(k = 1\\).",
+      "generalfeedback": "Phát biểu này là đúng vì hai cạnh góc vuông tỉ lệ bằng 1 nên hai tam giác vuông đồng dạng với tỉ số \\(k = 1\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết hai tam giác vuông đồng dạng theo góc nhọn hoặc hai cạnh góc vuông",
+      "questiontext": "Cho tam giác vuông \\(ABC\\) tại \\(A\\) có \\(\\widehat{B} = 35^\\circ\\) và tam giác vuông \\(MNP\\) tại \\(M\\) có \\(\\widehat{P} = 55^\\circ\\). Số đo góc \\(\\widehat{N}\\) của tam giác \\(MNP\\) bằng bao nhiêu độ? (Chỉ điền số)",
+      "generalfeedback": "Trong tam giác vuông \\(MNP\\) tại \\(M\\), ta có \\(\\widehat{N} = 90^\\circ - \\widehat{P} = 90^\\circ - 55^\\circ = 35^\\circ\\). Do đó \\(\\widehat{N} = 35^\\circ\\).",
+      "answers": [
+        {
+          "text": "35",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính độ dài đoạn thẳng và số đo góc trong tam giác vuông",
+      "questiontext": "Cho tam giác \\(ABC\\) vuông tại \\(A\\) có \\(AB = 6\\text{ cm}\\), \\(AC = 8\\text{ cm}\\). Đường cao \\(AH\\) (\\(H \\in BC\\)) tạo thành tam giác \\(HBA\\) vuông tại \\(H\\) đồng dạng với tam giác \\(ABC\\). Tính độ dài đoạn thẳng \\(AH\\) theo đơn vị cm. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Tính cạnh huyền \\(BC = \\sqrt{6^2 + 8^2} = 10\\text{ cm}\\). Vì \\(\\triangle HBA \\sim \\triangle ABC\\) nên \\(\\frac{AH}{AC} = \\frac{AB}{BC} \\Rightarrow AH = \\frac{AB \\cdot AC}{BC} = \\frac{6 \\cdot 8}{10} = 4.8\\).",
+      "answers": [
+        {
+          "text": "4.8",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết hai tam giác vuông đồng dạng theo góc nhọn hoặc hai cạnh góc vuông",
+      "questiontext": "Ghép mỗi điều kiện ở cột bên trái với kết luận đồng dạng tương ứng của hai tam giác vuông \\(ABC\\) (vuông tại \\(A\\)) và \\(A'B'C'\\) (vuông tại \\(A'\\)) ở cột bên phải:",
+      "generalfeedback": "Bám sát các trường hợp đồng dạng của hai tam giác vuông.",
+      "subquestions": [
+        {
+          "question": "Có \\(\\widehat{B} = \\widehat{B'}\\)",
+          "answer": "Đồng dạng theo trường hợp góc nhọn"
+        },
+        {
+          "question": "Có \\(\\frac{AB}{A'B'} = \\frac{AC}{A'C'}\\)",
+          "answer": "Đồng dạng theo trường hợp hai cạnh góc vuông"
+        },
+        {
+          "question": "Có \\(\\frac{AB}{A'B'} = \\frac{BC}{B'C'}\\)",
+          "answer": "Đồng dạng theo trường hợp cạnh huyền - cạnh góc vuông"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Trường hợp đồng dạng có một góc nhọn bằng nhau của hai tam giác vuông",
+      "questiontext": "Hai tam giác vuông đồng dạng nếu có một [[1]] bằng nhau hoặc hai [[2]] tỉ lệ.",
+      "generalfeedback": "Dựa vào dấu hiệu nhận biết hai tam giác vuông đồng dạng.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "góc nhọn"
+        },
+        {
+          "group": 1,
+          "text": "cạnh góc vuông"
+        },
+        {
+          "group": 1,
+          "text": "góc tù"
+        },
+        {
+          "group": 1,
+          "text": "đường cao"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh hai tam giác vuông đồng dạng",
+      "questiontext": "Để chứng minh \\(\\triangle ABC \\sim \\triangle A'B'C'\\) (vuông tại \\(A\\) và \\(A'\\)), ta có thể chứng minh tỉ số hai cạnh góc vuông [[1]] hoặc chứng minh một cặp góc nhọn [[2]].",
+      "generalfeedback": "Tỉ số hai cạnh góc vuông bằng nhau (tỉ lệ) hoặc một cặp góc nhọn bằng nhau.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "bằng nhau"
+        },
+        {
+          "group": 1,
+          "text": "khác nhau"
+        },
+        {
+          "group": 1,
+          "text": "bù nhau"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Tính độ dài đoạn thẳng và số đo góc trong tam giác vuông",
+      "questiontext": "Một cột đèn cao \\(6\\text{ m}\\) có bóng trên mặt đất dài \\(4\\text{ m}\\). Cùng thời điểm đó, một cọc sắt cắm vuông góc với mặt đất có bóng dài \\(1.5\\text{ m}\\). Chiều cao của cọc sắt là bao nhiêu mét?",
+      "generalfeedback": "Hai tam giác vuông tạo bởi vật thể và bóng của nó đồng dạng. Ta có tỉ số: \\(\\frac{h_{cọc}}{h_{đèn}} = \\frac{bóng_{cọc}}{bóng_{đèn}} \\Rightarrow \\frac{h}{6} = \\frac{1.5}{4} \\Rightarrow h = \\frac{6 \\cdot 1.5}{4} = 2.25\\text{ m}\\).",
+      "answers": [
+        {
+          "text": "\\(2.25\\text{ m}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(3.0\\text{ m}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(1.8\\text{ m}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2.5\\text{ m}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Trường hợp đồng dạng có hai cạnh góc vuông tỉ lệ",
+      "questiontext": "Hai tam giác vuông bất kỳ luôn đồng dạng với nhau.",
+      "generalfeedback": "Phát biểu này Sai vì hai tam giác vuông chỉ đồng dạng khi thỏa mãn điều kiện về góc nhọn hoặc về cạnh.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Trường hợp đồng dạng có một góc nhọn bằng nhau của hai tam giác vuông",
+      "questiontext": "Cho \\(\\triangle ABC\\) (vuông tại \\(A\\)) và \\(\\triangle DEF\\) (vuông tại \\(D\\)). Nếu \\(\\widehat{C} = 40^\\circ\\) và \\(\\widehat{E} = 50^\\circ\\), khẳng định nào sau đây đúng?",
+      "generalfeedback": "Trong \\(\\triangle DEF\\) vuông tại \\(D\\), góc nhọn \\(\\widehat{F} = 90^\\circ - 50^\\circ = 40^\\circ = \\widehat{C}\\). Do đó, \\(\\triangle ABC \\sim \\triangle DEF\\) (theo trường hợp góc nhọn).",
+      "answers": [
+        {
+          "text": "\\(\\triangle ABC \\sim \\triangle DEF\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\triangle ABC \\sim \\triangle FED\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Hai tam giác không đồng dạng",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\triangle ABC = \\triangle DEF\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Trường hợp đồng dạng có hai cạnh góc vuông tỉ lệ",
+      "questiontext": "Cho hai tam giác vuông \\(\\triangle ABC\\) (vuông tại \\(A\\)) có \\(AB = 3\\text{ cm}, AC = 4\\text{ cm}\\) và \\(\\triangle MNP\\) (vuông tại \\(M\\)) có \\(MN = 6\\text{ cm}, MP = 8\\text{ cm}\\). Tỉ số đồng dạng \\(k\\) của \\(\\triangle ABC\\) và \\(\\triangle MNP\\) là:",
+      "generalfeedback": "Ta có \\(\\frac{AB}{MN} = \\frac{3}{6} = \\frac{1}{2}\\) và \\(\\frac{AC}{MP} = \\frac{4}{8} = \\frac{1}{2}\\). Vậy \\(\\triangle ABC \\sim \\triangle MNP\\) với tỉ số đồng dạng \\(k = \\frac{1}{2}\\).",
+      "answers": [
+        {
+          "text": "\\(k = \\frac{1}{2}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(k = 2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(k = \\frac{3}{4}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(k = \\frac{2}{3}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh hai tam giác vuông đồng dạng",
+      "questiontext": "Cho tam giác \\(ABC\\) vuông tại \\(A\\), đường cao \\(AH\\) (\\(H \\in BC\\)). Hai tam giác vuông \\(HBA\\) và \\(HAC\\) đồng dạng với nhau.",
+      "generalfeedback": "Đúng vì \\(\\widehat{HBA} = \\widehat{HAC}\\) (cùng phụ với góc \\(\\widehat{C}\\)), do đó \\(\\triangle HBA \\sim \\triangle HAC\\) (theo trường hợp góc nhọn).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Tính độ dài đoạn thẳng và số đo góc trong tam giác vuông",
+      "questiontext": "Cho \\(\\triangle ABC \\sim \\triangle A'B'C'\\) (vuông tại \\(A\\) và \\(A'\\)) với tỉ số đồng dạng \\(k = \\frac{2}{3}\\). Biết \\(BC = 15\\text{ cm}\\), độ dài cạnh huyền \\(B'C'\\) của \\(\\triangle A'B'C'\\) bằng bao nhiêu cm? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Vì \\(\\triangle ABC \\sim \\triangle A'B'C'\\) với tỉ số \\(k = \\frac{2}{3}\\) nên \\(\\frac{BC}{B'C'} = \\frac{2}{3} \\Rightarrow B'C' = \\frac{15 \\cdot 3}{2} = 22.5\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "22.5",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính độ dài đoạn thẳng và số đo góc trong tam giác vuông",
+      "questiontext": "Cho \\(\\triangle ABC\\) vuông tại \\(A\\) có \\(AB = 6\\text{ cm}\\), \\(AC = 12\\text{ cm}\\). Một hình vuông \\(ADEF\\) có các đỉnh \\(D \\in AB\\), \\(E \\in BC\\), \\(F \\in AC\\). Tính độ dài cạnh của hình vuông \\(ADEF\\) theo đơn vị cm. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Vì \\(DE // AC\\) nên \\(\\triangle BDE \\sim \\triangle BAC\\). Suy ra \\(\\frac{BD}{BA} = \\frac{DE}{AC} \\Rightarrow \\frac{6-x}{6} = \\frac{x}{12} \\Rightarrow 2(6-x) = x \\Rightarrow 12 - 2x = x \\Rightarrow 3x = 12 \\Rightarrow x = 4\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "4",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Trường hợp đồng dạng có một góc nhọn bằng nhau của hai tam giác vuông",
+      "questiontext": "Ghép các cặp góc nhọn tương ứng bằng nhau ở cột bên trái với kết luận đồng dạng giữa hai tam giác vuông \\(\\triangle ABC\\) (vuông tại \\(A\\)) và \\(\\triangle MNP\\) (vuông tại \\(M\\)) ở cột bên phải:",
+      "generalfeedback": "Hai tam giác vuông đồng dạng khi các góc nhọn tương ứng bằng nhau.",
+      "subquestions": [
+        {
+          "question": "\\(\\widehat{B} = \\widehat{N}\\)",
+          "answer": "\\(\\triangle ABC \\sim \\triangle MNP\\)"
+        },
+        {
+          "question": "\\(\\widehat{B} = \\widehat{P}\\)",
+          "answer": "\\(\\triangle ABC \\sim \\triangle MPN\\)"
+        },
+        {
+          "question": "\\(\\widehat{C} = \\widehat{N}\\)",
+          "answer": "\\(\\triangle ACB \\sim \\triangle MNP\\)"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Trường hợp đồng dạng có hai cạnh góc vuông tỉ lệ",
+      "questiontext": "Cho hai tam giác vuông. Nếu độ dài hai cạnh góc vuông của tam giác vuông thứ nhất lần lượt là \\(6\\text{ cm}\\) và \\(8\\text{ cm}\\), độ dài hai cạnh góc vuông của tam giác vuông thứ hai là \\(9\\text{ cm}\\) và \\(12\\text{ cm}\\) thì hai tam giác vuông đó [[1]] với tỉ số đồng dạng \\(k =\\) [[2]].",
+      "generalfeedback": "Tỉ số giữa hai cạnh góc vuông tương ứng là \\(\\frac{6}{9} = \\frac{8}{12} = \\frac{2}{3}\\). Do đó hai tam giác vuông đồng dạng với tỉ số \\(k = \\frac{2}{3}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "đồng dạng"
+        },
+        {
+          "group": 1,
+          "text": "bằng nhau"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{2}{3}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{3}{4}\\)"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_089",
+      "questiontext": "Khi giải thích sự đồng dạng của hai tam giác vuông, ta có thể dựa vào trường hợp đồng dạng [[1]] nếu có một góc nhọn bằng nhau, hoặc dựa vào trường hợp đồng dạng [[2]] nếu hai cạnh góc vuông tỉ lệ.",
+      "generalfeedback": "Hai trường hợp đồng dạng đặc biệt của hai tam giác vuông là: có một góc nhọn bằng nhau (góc - góc) hoặc hai cạnh góc vuông tỉ lệ (cạnh - góc - cạnh).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "góc - góc"
+        },
+        {
+          "group": 1,
+          "text": "cạnh - góc - cạnh"
+        },
+        {
+          "group": 1,
+          "text": "cạnh - cạnh - cạnh"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Tính độ dài đoạn thẳng và số đo góc trong tam giác vuông",
+      "questiontext": "Cho tam giác \\(ABC\\) vuông tại \\(A\\) có cạnh góc vuông \\(AB =\\) {a} cm và \\(AC =\\) {b} cm. Tam giác \\(A'B'C'\\) vuông tại \\(A'\\) đồng dạng với \\(\\triangle ABC\\) với tỉ số đồng dạng \\(k = 2\\). Tính diện tích tam giác \\(A'B'C'\\) theo cm2. (Chỉ điền công thức)",
+      "generalfeedback": "Diện tích \\(\\triangle ABC\\) là \\(S = \\frac{1}{2}{a}{b}\\). Vì \\(\\triangle A'B'C' \\sim \\triangle ABC\\) với tỉ số \\(k = 2\\) nên tỉ số diện tích là \\(k^2 = 4\\). Do đó diện tích \\(\\triangle A'B'C'\\) là \\(4 \\cdot \\frac{1}{2}{a}{b} = 2*{a}*{b}\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 3.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "2*{a}*{b}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Chứng minh hai tam giác vuông đồng dạng",
+      "questiontext": "Cho tam giác \\(ABC\\) vuông tại \\(A\\). Lấy điểm \\(D\\) trên cạnh \\(AC\\), kẻ \\(DE \\perp BC\\) tại \\(E\\). Khẳng định nào sau đây là đúng?",
+      "generalfeedback": "Xét \\(\\triangle DEC\\) (vuông tại \\(E\\)) và \\(\\triangle ABC\\) (vuông tại \\(A\\)), ta có góc \\(\\widehat{C}\\) là góc chung. Do đó \\(\\triangle DEC \\sim \\triangle ABC\\) (theo trường hợp góc nhọn).",
+      "answers": [
+        {
+          "text": "\\(\\triangle DEC \\sim \\triangle ABC\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\triangle DEC \\sim \\triangle BAC\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\triangle CDE \\sim \\triangle ABC\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\triangle EDC \\sim \\triangle CAB\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ học Toán bài 'Các trường hợp đồng dạng của hai tam giác vuông', bạn An gặp một bài tập thực tế yêu cầu tính chiều cao của một cây xanh. Mặc dù ban đầu chưa tìm ra cách giải, An nên thể hiện ý chí vượt khó và tinh thần học tập như thế nào?",
+      "generalfeedback": "Ý chí vươn lên trong học tập biểu hiện qua việc không bỏ cuộc trước bài toán khó, kiên trì suy nghĩ và chủ động tìm kiếm sự hỗ trợ để hiểu bài.",
+      "answers": [
+        {
+          "text": "Chủ động xem lại điều kiện đồng dạng của hai tam giác vuông, kiên trì suy nghĩ và trao đổi với bạn bè hoặc giáo viên để tìm ra lời giải.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài tập đó vì nghĩ bài toán ứng dụng thực tế quá phức tạp.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép ngay đáp án của bạn bên cạnh mà không cần hiểu cách áp dụng tam giác vuông đồng dạng.",
+          "fraction": 0
+        },
+        {
+          "text": "Chờ thầy cô chữa bài rồi chép vào vở cho xong.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi làm bài tập về chứng minh hai tam giác vuông đồng dạng, nếu gặp hình vẽ phức tạp chưa chứng minh được ngay, hành vi thể hiện tinh thần luôn cố gắng vươn lên trong học tập là kiên trì phân tích các góc nhọn và tỉ số cạnh góc vuông thay vì bỏ dở bài tập.",
+      "generalfeedback": "Đúng. Đây là biểu hiện tích cực của phẩm chất luôn cố gắng vươn lên đạt kết quả tốt trong học tập.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TULUC_C2_01",
+      "questiontext": "Để tự học và ôn tập hiệu quả bài 'Các trường hợp đồng dạng của hai tam giác vuông', bạn Bình muốn tự lập bảng tóm tắt các dấu hiệu nhận biết. Bảng tóm tắt nào sau đây thể hiện sự chủ động, khoa học và chính xác nhất?",
+      "generalfeedback": "Tự lập bảng hệ thống hóa kiến thức gồm 2 trường hợp chính (góc nhọn bằng nhau và hai cạnh góc vuông tỉ lệ) là cách học chủ động, khoa học.",
+      "answers": [
+        {
+          "text": "Liệt kê rõ 2 trường hợp: (1) Hai tam giác vuông có một góc nhọn bằng nhau; (2) Hai tam giác vuông có hai cạnh góc vuông tỉ lệ.",
+          "fraction": 100
+        },
+        {
+          "text": "Ghi lại toàn bộ văn bản trong SGK mà không phân loại hay tóm tắt.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ học thuộc lòng công thức tính diện tích tam giác mà không ghi chép điều kiện đồng dạng.",
+          "fraction": 0
+        },
+        {
+          "text": "Chờ đến trước ngày kiểm tra mới mượn vở bạn để chép lại lý thuyết.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TULUC_C2_01",
+      "questiontext": "Bạn Mai chủ động phân loại các dạng bài tập tam giác vuông đồng dạng để lập kế hoạch tự luyện tập. Hãy ghép mỗi dạng bài tập ở cột bên trái với phương pháp xử lý chủ động tương ứng ở cột bên phải:",
+      "generalfeedback": "Sự chủ động thể hiện qua việc nhận diện đúng dạng bài và lựa chọn phương pháp giải phù hợp.",
+      "subquestions": [
+        {
+          "question": "Bài toán cho biết số đo một góc nhọn của mỗi tam giác vuông",
+          "answer": "Tính góc nhọn còn lại hoặc so sánh trực tiếp hai góc nhọn"
+        },
+        {
+          "question": "Bài toán cho biết độ dài các cạnh góc vuông",
+          "answer": "Lập tỉ số giữa các cạnh góc vuông tương ứng để kiểm tra"
+        },
+        {
+          "question": "Bài toán thực tế đo chiều cao vật bằng bóng nắng",
+          "answer": "Sử dụng mô hình hai tam giác vuông đồng dạng để lập tỉ lệ"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TULUC_C2_01",
+      "questiontext": "Để chủ động chuẩn bị cho tiết học 'Các trường hợp đồng dạng của hai tam giác vuông', học sinh nên chủ động [[1]] lại kiến thức về tam giác đồng dạng đã học và [[2]] các bài tập mẫu trong SGK.",
+      "generalfeedback": "Chủ động xem lại kiến thức cũ và xem trước bài mới là biểu hiện tích cực của năng lực tự học và tự chủ.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "ôn tập"
+        },
+        {
+          "group": 1,
+          "text": "xem trước"
+        },
+        {
+          "group": 1,
+          "text": "bỏ qua"
+        },
+        {
+          "group": 1,
+          "text": "chép phạt"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_03",
+      "questiontext": "So sánh trường hợp đồng dạng thứ hai của tam giác thường (cạnh - góc - cạnh) và trường hợp đồng dạng hai cạnh góc vuông của tam giác vuông, điểm tương đồng và khác biệt cốt lõi là gì?",
+      "generalfeedback": "Tương đồng: Đều cần tỉ số hai cặp cạnh tương ứng bằng nhau. Khác biệt: Ở tam giác vuông, góc kẹp giữa mặc định luôn là góc vuông (\\(90^\\circ\\)) nên không cần chứng minh góc kẹp giữa bằng nhau.",
+      "answers": [
+        {
+          "text": "Tương đồng là đều cần tỉ lệ hai cặp cạnh; khác biệt là ở tam giác vuông góc kẹp giữa mặc định bằng nhau (cùng bằng \\(90^\\circ\\)).",
+          "fraction": 100
+        },
+        {
+          "text": "Tương đồng là đều xét 3 cặp cạnh; khác biệt là tam giác vuông không cần cạnh nào tỉ lệ.",
+          "fraction": 0
+        },
+        {
+          "text": "Tương đồng là đều cần góc nhọn bằng nhau; khác biệt là tam giác thường không có góc vuông.",
+          "fraction": 0
+        },
+        {
+          "text": "Không có điểm tương đồng nào vì tam giác vuông là trường hợp hoàn toàn độc lập.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_03",
+      "questiontext": "Sự khác biệt giữa việc chứng minh hai tam giác thường đồng dạng (trường hợp góc - góc) và hai tam giác vuông đồng dạng (trường hợp góc nhọn) là đối với tam giác vuông chỉ cần chỉ ra 1 cặp góc nhọn bằng nhau thay vì 2 cặp góc như tam giác thường.",
+      "generalfeedback": "Đúng. Vì hai tam giác vuông đã có sẵn 1 cặp góc vuông bằng nhau (\\(90^\\circ\\)), nên chỉ cần thêm 1 cặp góc nhọn bằng nhau là đủ điều kiện góc - góc.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Một người muốn đo chiều cao \\(h\\) của một tòa nhà mà không thể đo trực tiếp. Người đó cắm một cọc thẳng đứng cao \\(2\\text{ m}\\) cách tòa nhà một khoảng và đo được bóng của tòa nhà trên mặt đất dài \\(15\\text{ m}\\), bóng của cọc dài \\(1.5\\text{ m}\\). Kỹ năng toán học nào đã được sử dụng để giải quyết vấn đề này?",
+      "generalfeedback": "Sử dụng kỹ năng mô hình hóa toán học: đưa bài toán thực tế về hai tam giác vuông đồng dạng (do các tia nắng song song tạo với mặt đất các góc bằng nhau), từ đó lập tỉ lệ cạnh để tính chiều cao.",
+      "answers": [
+        {
+          "text": "Mô hình hóa thực tế thành hai tam giác vuông đồng dạng và lập tỉ lệ cạnh tương ứng.",
+          "fraction": 100
+        },
+        {
+          "text": "Sử dụng định lý Thales cho tam giác tù bất kỳ.",
+          "fraction": 0
+        },
+        {
+          "text": "Đo trực tiếp góc bằng thước đo độ rồi vẽ lại trên giấy.",
+          "fraction": 0
+        },
+        {
+          "text": "Áp dụng công thức tính chu vi tam giác vuông.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Để tính khoảng cách giữa hai điểm \\(A\\) và \\(B\\) ở hai bên bờ sông, người ta dựng tam giác vuông \\(ABC\\) tại \\(A\\) với \\(AC = 20\\text{ m}\\) và tam giác vuông \\(A'B'C'\\) tại \\(A'\\) trên bờ sông của mình đồng dạng với \\(\\triangle ABC\\). Biết \\(A'B' = 2\\text{ m}\\), \\(A'C' = 4\\text{ m}\\). Sử dụng kỹ năng toán học về tam giác vuông đồng dạng, khoảng cách \\(AB\\) tính ra bằng bao nhiêu mét? (Chỉ điền số)",
+      "generalfeedback": "Vì \\(\\triangle ABC \\sim \\triangle A'B'C'\\) nên \\(\\frac{AB}{A'B'} = \\frac{AC}{A'C'} \\Rightarrow \\frac{AB}{2} = \\frac{20}{4} = 5 \\Rightarrow AB = 10\\text{ m}\\).",
+      "answers": [
+        {
+          "text": "10",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Một cột cờ cao \\(8\\text{ m}\\) đổ bóng dài \\(6\\text{ m}\\) trên mặt đất. Một học sinh đứng gần đó cao \\(1.6\\text{ m}\\). Áp dụng kỹ năng toán học về hai tam giác vuông đồng dạng, bóng của học sinh đó trên mặt đất dài bao nhiêu mét? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Tỉ số đồng dạng: \\(\\frac{h_{học sinh}}{h_{cột cờ}} = \\frac{bóng_{học sinh}}{bóng_{cột cờ}} \\Rightarrow \\frac{1.6}{8} = \\frac{x}{6} \\Rightarrow x = \\frac{1.6 \\cdot 6}{8} = 1.2\\text{ m}\\).",
+      "answers": [
+        {
+          "text": "1.2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    }
+  ]
+}

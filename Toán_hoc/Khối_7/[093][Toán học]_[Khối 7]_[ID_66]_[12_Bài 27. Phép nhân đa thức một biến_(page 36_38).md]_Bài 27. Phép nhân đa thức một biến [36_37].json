@@ -1,0 +1,690 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 26,
+    "metadata_used": {
+      "Quy tắc nhân đơn thức với đa thức một biến: a(b+c) = ab + ac": 5,
+      "Thực hiện phép nhân đơn thức với đa thức một biến": 7,
+      "YCCD_TOAN7_055": 3,
+      "YCCD_TOAN7_057": 5,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_TUCHUTUHOC": 1,
+      "NLC_GIAOTIEP": 1,
+      "NLT_TOAN_C2_01": 1,
+      "NLT_TOAN_C2_03": 1
+    },
+    "types_used": {
+      "multichoice": 20,
+      "truefalse": 2,
+      "gapselect": 1,
+      "shortanswer": 2,
+      "matching": 1
+    },
+    "total": 26
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "Quy tắc nhân đơn thức với đa thức một biến: a(b+c) = ab + ac",
+        "reason": "Đo lường kiến thức về quy tắc nhân đơn thức với đa thức một biến"
+      },
+      {
+        "metadata_code": "Thực hiện phép nhân đơn thức với đa thức một biến",
+        "reason": "Đo lường kỹ năng thực hiện phép nhân đơn thức với đa thức một biến"
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_055",
+        "reason": "Đo lường việc thực hiện phép nhân trong tập hợp các đa thức một biến"
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_057",
+        "reason": "Đo lường việc vận dụng tính chất của phép tính đa thức một biến trong tính toán"
+      },
+      {
+        "metadata_code": "PC_CHAMCHI",
+        "reason": "Đo lường phẩm chất chăm chỉ trong quá trình học tập và làm bài tập"
+      },
+      {
+        "metadata_code": "PC_TRUNGTHUC",
+        "reason": "Đo lường phẩm chất trung thực khi kiểm tra và làm bài tập"
+      },
+      {
+        "metadata_code": "NLC_TUCHUTUHOC",
+        "reason": "Đo lường năng lực tự chủ và tự học trong tiếp thu kiến thức mới"
+      },
+      {
+        "metadata_code": "NLC_GIAOTIEP",
+        "reason": "Đo lường năng lực giao tiếp và hợp tác khi thảo luận nhóm"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01",
+        "reason": "Đo lường năng lực tư duy và lập luận toán học"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03",
+        "reason": "Đo lường năng lực giải quyết vấn đề toán học"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N",
+        "reason": "Bài học thuộc Tiết 1 - Nhân đơn thức với đa thức mang bản chất đại số thuần túy, không chứa nội dung thực hành hay thao tác trên phần mềm tin học/công cụ số."
+      },
+      {
+        "metadata_code": "A",
+        "reason": "Nội dung bài học không tích hợp bối cảnh hay nguyên lý ứng dụng trí tuệ nhân tạo (AI) một cách tự nhiên."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc nhân đơn thức với đa thức một biến: a(b+c) = ab + ac",
+      "questiontext": "Muốn nhân một đơn thức với một đa thức, ta thực hiện như thế nào?",
+      "generalfeedback": "Muốn nhân một đơn thức với một đa thức, ta nhân đơn thức với từng hạng tử của đa thức rồi cộng các tích với nhau.",
+      "answers": [
+        {
+          "text": "Nhân đơn thức với từng hạng tử của đa thức rồi cộng các tích với nhau.",
+          "fraction": 100
+        },
+        {
+          "text": "Nhân đơn thức với hạng tử đầu tiên của đa thức rồi cộng các tích với nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Cộng đơn thức với từng hạng tử của đa thức rồi nhân các kết quả với nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Nhân đơn thức với từng hạng tử của đa thức rồi trừ các tích cho nhau.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc nhân đơn thức với đa thức một biến: a(b+c) = ab + ac",
+      "questiontext": "Công thức tổng quát của quy tắc nhân một đơn thức với một đa thức hai hạng tử có dạng \\(a(b + c) = ab + ac\\). Đúng hay sai?",
+      "generalfeedback": "Theo quy tắc nhân đơn thức với đa thức, ta có \\(a(b + c) = a \\cdot b + a \\cdot c = ab + ac\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc nhân đơn thức với đa thức một biến: a(b+c) = ab + ac",
+      "questiontext": "Muốn nhân một đơn thức với một đa thức, ta nhân đơn thức với [[1]] của đa thức rồi [[2]] các tích với nhau.",
+      "generalfeedback": "Muốn nhân một đơn thức với một đa thức, ta nhân đơn thức với từng hạng tử của đa thức rồi cộng các tích với nhau.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "từng hạng tử"
+        },
+        {
+          "group": 1,
+          "text": "hạng tử đầu tiên"
+        },
+        {
+          "group": 1,
+          "text": "cộng"
+        },
+        {
+          "group": 1,
+          "text": "trừ"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép nhân đơn thức với đa thức một biến",
+      "questiontext": "Kết quả của phép nhân hai đơn thức \\((12x^3) \\cdot (-5x^2)\\) là:",
+      "generalfeedback": "\\((12x^3) \\cdot (-5x^2) = [12 \\cdot (-5)] \\cdot (x^3 \\cdot x^2) = -60x^{3+2} = -60x^5\\).",
+      "answers": [
+        {
+          "text": "\\(-60x^5\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(-60x^6\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(7x^5\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(60x^5\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép nhân đơn thức với đa thức một biến",
+      "questiontext": "Khi thực hiện phép nhân đơn thức \\(2x\\) với đa thức \\(3x^2 - 8x + 1\\), tích nhận được sau khi nhân đơn thức với từng hạng tử là:",
+      "generalfeedback": "\\(2x \\cdot (3x^2 - 8x + 1) = 2x \\cdot (3x^2) + 2x \\cdot (-8x) + 2x \\cdot 1 = 6x^3 - 16x^2 + 2x\\).",
+      "answers": [
+        {
+          "text": "\\(6x^3 - 16x^2 + 2x\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(6x^3 - 8x^2 + 2x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(6x^2 - 16x + 2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(6x^3 + 16x^2 + 2x\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép nhân đơn thức với đa thức một biến",
+      "questiontext": "Khai triển phép nhân \\((-2x^3) \\cdot \\left(\\frac{1}{2}x^2 + 3x - 5\\right)\\) thu được đa thức nào sau đây?",
+      "generalfeedback": "\\((-2x^3) \\cdot \\left(\\frac{1}{2}x^2 + 3x - 5\\right) = (-2x^3) \\cdot \\left(\\frac{1}{2}x^2\\right) + (-2x^3) \\cdot (3x) + (-2x^3) \\cdot (-5) = -x^5 - 6x^4 + 10x^3\\).",
+      "answers": [
+        {
+          "text": "\\(-x^5 - 6x^4 + 10x^3\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(-x^5 + 6x^4 - 10x^3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-x^6 - 6x^4 + 10x^3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x^5 - 6x^4 + 10x^3\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép nhân đơn thức với đa thức một biến",
+      "questiontext": "Thực hiện phép tính \\((-2x^2) \\cdot (3x - 4x^3 + 7 - x^2)\\) rồi sắp xếp kết quả theo lũy thừa giảm dần của biến \\(x\\). Nhập hệ số của hạng tử có bậc cao nhất trong đa thức kết quả.",
+      "generalfeedback": "\\((-2x^2) \\cdot (3x - 4x^3 + 7 - x^2) = -6x^3 + 8x^5 - 14x^2 + 2x^4 = 8x^5 + 2x^4 - 6x^3 - 14x^2\\). Hạng tử bậc cao nhất là \\(8x^5\\), có hệ số là 8.",
+      "answers": [
+        {
+          "text": "8",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_055",
+      "questiontext": "Kết quả của phép nhân \\(6x^2 \\cdot (2x^3 - 3x^2 + 5x - 4)\\) là:",
+      "generalfeedback": "\\(6x^2 \\cdot (2x^3 - 3x^2 + 5x - 4) = 6x^2 \\cdot 2x^3 + 6x^2 \\cdot (-3x^2) + 6x^2 \\cdot 5x + 6x^2 \\cdot (-4) = 12x^5 - 18x^4 + 30x^3 - 24x^2\\).",
+      "answers": [
+        {
+          "text": "\\(12x^5 - 18x^4 + 30x^3 - 24x^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(12x^6 - 18x^4 + 30x^3 - 24x^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(12x^5 - 18x^3 + 30x^2 - 24x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(12x^5 + 18x^4 - 30x^3 + 24x^2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_055",
+      "questiontext": "Thực hiện phép nhân \\((-1.2x^2) \\cdot (2.5x^4 - 2x^3 + x^2 - 1.5)\\) ta được đa thức:",
+      "generalfeedback": "\\((-1.2x^2) \\cdot (2.5x^4 - 2x^3 + x^2 - 1.5) = (-1.2 \\cdot 2.5)x^6 + (-1.2 \\cdot (-2))x^5 + (-1.2 \\cdot 1)x^4 + (-1.2 \\cdot (-1.5))x^2 = -3x^6 + 2.4x^5 - 1.2x^4 + 1.8x^2\\).",
+      "answers": [
+        {
+          "text": "\\(-3x^6 + 2.4x^5 - 1.2x^4 + 1.8x^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(-3x^8 + 2.4x^6 - 1.2x^4 + 1.8x^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-3x^6 - 2.4x^5 + 1.2x^4 - 1.8x^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(3x^6 - 2.4x^5 + 1.2x^4 - 1.8x^2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_057",
+      "questiontext": "Rút gọn biểu thức \\(P(x) = 7x^2(x^2 - 5x + 2) - 5x(x^3 - 7x^2 + 3x)\\) ta được:",
+      "generalfeedback": "\\(P(x) = 7x^4 - 35x^3 + 14x^2 - (5x^4 - 35x^3 + 15x) = 7x^4 - 35x^3 + 14x^2 - 5x^4 + 35x^3 - 15x = 2x^4 + 14x^2 - 15x\\).",
+      "answers": [
+        {
+          "text": "\\(2x^4 + 14x^2 - 15x\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(2x^4 - 70x^3 + 14x^2 - 15x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(12x^4 + 14x^2 - 15x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2x^4 + 14x^2 + 15x\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_057",
+      "questiontext": "Tính giá trị của biểu thức \\(P(x) = 7x^2(x^2 - 5x + 2) - 5x(x^3 - 7x^2 + 3x)\\) khi \\(x = -\\frac{1}{2}\\).",
+      "generalfeedback": "Rút gọn \\(P(x) = 2x^4 + 14x^2 - 15x\\). Thay \\(x = -\\frac{1}{2}\\) vào \\(P(x)\\):\n\\(P\\left(-\\frac{1}{2}\\right) = 2\\left(-\\frac{1}{2}\\right)^4 + 14\\left(-\\frac{1}{2}\\right)^2 - 15\\left(-\\frac{1}{2}\\right) = 2 \\cdot \\frac{1}{16} + 14 \\cdot \\frac{1}{4} + \\frac{15}{2} = \\frac{1}{8} + \\frac{7}{2} + \\frac{15}{2} = \\frac{1}{8} + 11 = \\frac{89}{8}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{89}{8}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{87}{8}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{79}{8}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-\\frac{89}{8}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện phép nhân đơn thức với đa thức một biến",
+      "questiontext": "Rút gọn biểu thức trong phần Thử thách nhỏ: \\(x^3(x + 2) - x(x^3 + 2^3) - 2x(x^2 - 2^2)\\) ta được kết quả là:",
+      "generalfeedback": "Ta có:\n\\(x^3(x + 2) - x(x^3 + 8) - 2x(x^2 - 4) = x^4 + 2x^3 - x^4 - 8x - 2x^3 + 8x = 0\\).",
+      "answers": [
+        {
+          "text": "\\(0\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(2x^3\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-16x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2x^4\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_055",
+      "questiontext": "Rút gọn biểu thức \\(4x^2(5x^2 + 3) - 6x(3x^3 - 2x + 1) - 5x^3(2x - 1)\\) (Bài 7.24a SGK) ta được:",
+      "generalfeedback": "\\(4x^2(5x^2 + 3) - 6x(3x^3 - 2x + 1) - 5x^3(2x - 1) = 20x^4 + 12x^2 - (18x^4 - 12x^2 + 6x) - (10x^4 - 5x^3) = 20x^4 + 12x^2 - 18x^4 + 12x^2 - 6x - 10x^4 + 5x^3 = -8x^4 + 5x^3 + 24x^2 - 6x\\).",
+      "answers": [
+        {
+          "text": "\\(-8x^4 + 5x^3 + 24x^2 - 6x\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(8x^4 + 5x^3 + 24x^2 - 6x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-8x^4 - 5x^3 + 24x^2 - 6x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-8x^4 + 5x^3 + 12x^2 - 6x\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_057",
+      "questiontext": "Rút gọn biểu thức \\(\\frac{3}{2}x\\left(x^2 - \\frac{2}{3}x + 2\\right) - \\frac{5}{3}x^2\\left(x + \\frac{6}{5}\\right)\\) (Bài 7.24b SGK) ta được kết quả là:",
+      "generalfeedback": "\\(\\frac{3}{2}x\\left(x^2 - \\frac{2}{3}x + 2\\right) - \\frac{5}{3}x^2\\left(x + \\frac{6}{5}\\right) = \\frac{3}{2}x^3 - x^2 + 3x - \\frac{5}{3}x^3 - 2x^2 = \\left(\\frac{3}{2} - \\frac{5}{3}\\right)x^3 + (-1 - 2)x^2 + 3x = -\\frac{1}{6}x^3 - 3x^2 + 3x\\).",
+      "answers": [
+        {
+          "text": "\\(-\\frac{1}{6}x^3 - 3x^2 + 3x\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{1}{6}x^3 - 3x^2 + 3x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-\\frac{1}{6}x^3 + 3x^2 + 3x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-\\frac{1}{6}x^3 - 3x^2 - 3x\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép nhân đơn thức với đa thức một biến",
+      "questiontext": "Thực hiện phép nhân \\((0.2x^2 - 3x) \\cdot 5(x^2 - 7x + 3)\\) (Bài 7.25b SGK) ta thu được đa thức:",
+      "generalfeedback": "Ta có \\(5(0.2x^2 - 3x) = x^2 - 15x\\). Phép nhân trở thành \\((x^2 - 15x)(x^2 - 7x + 3) = x^2(x^2 - 7x + 3) - 15x(x^2 - 7x + 3) = x^4 - 7x^3 + 3x^2 - 15x^3 + 105x^2 - 45x = x^4 - 22x^3 + 108x^2 - 45x\\).",
+      "answers": [
+        {
+          "text": "\\(x^4 - 22x^3 + 108x^2 - 45x\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x^4 + 22x^3 + 108x^2 - 45x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x^4 - 22x^3 - 108x^2 - 45x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x^4 - 22x^3 + 108x^2 + 45x\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_057",
+      "questiontext": "Biết ba kích thước của một hình hộp chữ nhật lần lượt là \\(x\\); \\(x + 1\\); \\(x - 1\\) (cm) với \\(x > 1\\) (Bài 7.27 SGK). Tìm hệ số tự do của đa thức biểu thị thể tích (đơn vị: \\(\\text{cm}^3\\)) của hình hộp chữ nhật đó.",
+      "generalfeedback": "Thể tích hình hộp chữ nhật là \\(V = x(x + 1)(x - 1) = x(x^2 - 1) = x^3 - x\\). Đa thức \\(x^3 - x\\) có hệ số tự do bằng 0.",
+      "answers": [
+        {
+          "text": "0",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép nhân đơn thức với đa thức một biến",
+      "questiontext": "Ghép mỗi phép nhân đơn thức với đa thức ở cột bên trái với kết quả tương ứng ở cột bên phải:",
+      "generalfeedback": "Thực hiện phép nhân đơn thức với từng hạng tử của đa thức để tìm kết quả tương ứng.",
+      "subquestions": [
+        {
+          "question": "\\(3x \\cdot (x - 2)\\)",
+          "answer": "\\(3x^2 - 6x\\)"
+        },
+        {
+          "question": "\\(-2x^2 \\cdot (x + 3)\\)",
+          "answer": "\\(-2x^3 - 6x^2\\)"
+        },
+        {
+          "question": "\\(5x \\cdot (2x^2 - 1)\\)",
+          "answer": "\\(10x^3 - 5x\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_057",
+      "questiontext": "Gọi \\(x\\) là số cọc dùng để rào hết chiều rộng của một mảnh vườn hình chữ nhật. Biết rằng mỗi hai cọc liên tiếp cắm cách nhau \\(0{,}1\\text{ m}\\) và số cọc rào chiều dài nhiều hơn số cọc rào chiều rộng là 20 chiếc (Bài 7.29 SGK). Đa thức biểu thị diện tích (m²) của mảnh vườn đó là:",
+      "generalfeedback": "Chiều rộng mảnh vườn là \\(0{,}1x\\) (m). Số cọc rào chiều dài là \\(x + 20\\), nên chiều dài mảnh vườn là \\(0{,}1(x + 20) = 0{,}1x + 2\\) (m). Diện tích mảnh vườn là \\(S = 0{,}1x(0{,}1x + 2) = 0{,}01x^2 + 0{,}2x\\) (m²).",
+      "answers": [
+        {
+          "text": "\\(0{,}01x^2 + 0{,}2x\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(0{,}1x^2 + 2x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(0{,}01x^2 + 2x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(0{,}1x^2 + 0{,}2x\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc nhân đơn thức với đa thức một biến: a(b+c) = ab + ac",
+      "questiontext": "Khi nhân một đơn thức bậc \\(m\\) với một đa thức bậc \\(n\\) (với \\(m, n \\in \\mathbb{N}^*\\)), tích thu được luôn là một đa thức có bậc bằng \\(m + n\\). Đúng hay sai?",
+      "generalfeedback": "Hạng tử có bậc cao nhất trong tích là tích của đơn thức bậc \\(m\\) với hạng tử bậc cao nhất (bậc \\(n\\)) của đa thức, do đó có bậc là \\(m + n\\). Phát biểu trên là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc nhân đơn thức với đa thức một biến: a(b+c) = ab + ac",
+      "questiontext": "Hình ảnh minh họa dưới đây trong SGK Bài 27 thể hiện hoạt động mở đầu nào?\n[img:_page_0_Picture_8.jpeg]",
+      "imgs": [
+        "_page_0_Picture_8.jpeg"
+      ],
+      "generalfeedback": "Hình ảnh _page_0_Picture_8.jpeg minh họa trò chơi 'Bài toán đoán tuổi' ở đầu Bài 27.",
+      "answers": [
+        {
+          "text": "Bài toán đoán tuổi",
+          "fraction": 100
+        },
+        {
+          "text": "Tính diện tích mảnh vườn",
+          "fraction": 0
+        },
+        {
+          "text": "Tính thể tích hình hộp chữ nhật",
+          "fraction": 0
+        },
+        {
+          "text": "Rào cọc cho trang trại",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Khi gặp bài toán yêu cầu tính tích \\((-2x^3) \\cdot \\left(\\frac{1}{2}x^2 + 3x - 5\\right)\\) có hệ số phân số và số âm dễ nhầm lẫn, thái độ học tập nào sau đây thể hiện phẩm chất chăm chỉ?",
+      "generalfeedback": "Phẩm chất chăm chỉ thể hiện ở việc kiên nhẫn thực hiện đầy đủ từng bước nhân đơn thức với từng hạng tử, kiểm tra cẩn thận dấu và hệ số thay vì bỏ qua hay làm tắt dẫn đến sai sót.",
+      "answers": [
+        {
+          "text": "Kiên nhẫn thực hiện từng bước nhân đơn thức với từng hạng tử của đa thức, cẩn thận kiểm tra lại dấu và hệ số của kết quả.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua các bước trung gian, ghi ngay kết quả ước lượng để hoàn thành bài tập nhanh nhất.",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ không làm bài tập vì thấy có phân số và dấu âm phức tạp.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ làm phần dễ với số nguyên, bỏ lại phần phép tính chứa phân số.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Trong giờ kiểm tra, khi thực hiện phép nhân \\(6x^2 \\cdot (2x^3 - 3x^2 + 5x - 4)\\), bạn Nam phát hiện kết quả của mình khác với đáp án của bạn bên cạnh. Để thể hiện phẩm chất trung thực, Nam nên làm gì?",
+      "generalfeedback": "Thể hiện tính trung thực trong học tập là tự mình kiểm tra lại bài làm, không chép bài của người khác dù phát hiện kết quả khác nhau.",
+      "answers": [
+        {
+          "text": "Tự mình rà soát từng bước tính nhân đơn thức với từng hạng tử để tìm và sửa lỗi sai của bản thân.",
+          "fraction": 100
+        },
+        {
+          "text": "Sửa ngay kết quả của mình theo bài của bạn mà không cần kiểm tra lại.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép lại toàn bộ bài giải của bạn vào bài làm của mình.",
+          "fraction": 0
+        },
+        {
+          "text": "Nhìn bài bạn để sửa lại dấu của các hạng tử cho giống đáp án của bạn.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Để tự học và nắm vững quy tắc nhân đơn thức với đa thức một biến \\(a(b+c) = ab + ac\\) trước khi lên lớp, hành động nào sau đây thể hiện năng lực tự chủ và tự học hiệu quả?",
+      "generalfeedback": "Năng lực tự chủ và tự học thể hiện qua việc chủ động đọc SGK, phân tích các bước giải ở Ví dụ 1, tự giải Luyện tập 1 rồi đối chiếu kết quả.",
+      "answers": [
+        {
+          "text": "Chủ động đọc SGK, phân tích các bước giải ở Ví dụ 1, tự giải Luyện tập 1 rồi đối chiếu kết quả.",
+          "fraction": 100
+        },
+        {
+          "text": "Chờ đến giờ học trên lớp nghe thầy cô giảng rồi mới mở sách ra đọc.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép sẵn lời giải bài tập từ sách giải mà không cần đọc hiểu lý thuyết.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ học thuộc công thức \\(a(b+c) = ab + ac\\) mà không làm bất kỳ bài tập thực hành nào.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLC_GIAOTIEP",
+      "questiontext": "Khi thảo luận nhóm để giải bài toán Vận dụng 1: Rút gọn \\(P(x) = 7x^2(x^2 - 5x + 2) - 5x(x^3 - 7x^2 + 3x)\\), bạn An tính ra \\(2x^4 + 14x^2 - 15x\\) nhưng bạn Bình tính ra \\(2x^4 - 70x^3 + 14x^2 - 15x\\). Cách ứng xử nào thể hiện năng lực giao tiếp và hợp tác tốt?",
+      "generalfeedback": "Năng lực giao tiếp và hợp tác thể hiện qua thái độ tôn trọng, cùng nhau trình bày chi tiết từng bước nhân phân phối để tìm ra điểm nhầm lẫn (bạn Bình nhầm dấu khi tính \\(-7x^2 \\cdot (-5x)\\) và \\(-5x \\cdot (-7x^2)\\)).",
+      "answers": [
+        {
+          "text": "Lịch sự đề nghị hai bạn cùng trình bày chi tiết từng bước nhân phân phối và phá ngoặc để rà soát điểm khác nhau.",
+          "fraction": 100
+        },
+        {
+          "text": "Cho rằng ý kiến của mình luôn đúng và không cần xem lại bài giải của bạn.",
+          "fraction": 0
+        },
+        {
+          "text": "Chê bai bạn tính sai và yêu cầu bạn phải nghe theo kết quả của nhóm.",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua sự khác biệt và chọn ngẫu nhiên một trong hai kết quả để nộp.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Để giải thích bí mật của 'Bài toán đoán tuổi' ở phần mở đầu: Lấy tuổi \\(x\\) cộng 1 rồi bình phương \\((x+1)^2\\), lấy tuổi \\(x\\) trừ 1 rồi bình phương \\((x-1)^2\\), lấy kết quả thứ nhất trừ kết quả thứ hai được \\((x+1)^2 - (x-1)^2 = 4x\\). Lập luận toán học nào sau đây giải thích đúng cách anh Pi đoán được tuổi?",
+      "generalfeedback": "Tư duy và lập luận toán học: Hiệu hai bình phương rút gọn thành \\(4x\\) (với \\(x\\) là tuổi). Do đó, lấy kết quả nhận được chia cho 4 sẽ ra chính xác số tuổi \\(x\\).",
+      "answers": [
+        {
+          "text": "Biểu thức kết quả sau khi rút gọn bằng \\(4x\\), nên anh Pi chỉ cần lấy kết quả nhận được chia cho 4 là ra tuổi \\(x\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Biểu thức kết quả bằng \\(2x\\), nên anh Pi lấy kết quả chia cho 2 là ra tuổi \\(x\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Biểu thức kết quả bằng \\(x + 4\\), nên anh Pi lấy kết quả trừ đi 4 là ra tuổi \\(x\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Biểu thức kết quả luôn cố định bằng 100 không phụ thuộc vào tuổi \\(x\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "questiontext": "Bác An muốn rào một mảnh vườn hình chữ nhật. Biết số cọc rào chiều dài nhiều hơn chiều rộng 20 chiếc, hai cọc liên tiếp cách nhau \\(0{,}1\\text{ m}\\). Nếu gọi \\(x\\) là số cọc rào chiều rộng, bác An cần mô hình hóa diện tích mảnh vườn thành đa thức theo \\(x\\) để tính lượng cỏ giống cần gieo. Quy trình giải quyết vấn đề toán học này gồm các bước nào?",
+      "generalfeedback": "Quy trình giải quyết vấn đề toán học: (1) Biểu diễn chiều rộng \\(0{,}1x\\) và chiều dài \\(0{,}1x + 2\\); (2) Lập đa thức diện tích \\(S = 0{,}01x^2 + 0{,}2x\\) bằng phép nhân đơn thức với đa thức; (3) Dùng đa thức này để tính diện tích thực tế.",
+      "answers": [
+        {
+          "text": "Biểu diễn chiều rộng \\(0{,}1x\\) và chiều dài \\(0{,}1x + 2\\), lập đa thức diện tích \\(S = 0{,}01x^2 + 0{,}2x\\) bằng phép nhân đơn thức với đa thức.",
+          "fraction": 100
+        },
+        {
+          "text": "Cộng trực tiếp số cọc chiều dài và chiều rộng rồi nhân với \\(0{,}1\\) để ra diện tích.",
+          "fraction": 0
+        },
+        {
+          "text": "Lấy số cọc chiều rộng nhân với 20 rồi chia cho \\(0{,}1\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Cố định chiều rộng bằng \\(10\\text{ m}\\) mà không cần lập đa thức theo biến \\(x\\).",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

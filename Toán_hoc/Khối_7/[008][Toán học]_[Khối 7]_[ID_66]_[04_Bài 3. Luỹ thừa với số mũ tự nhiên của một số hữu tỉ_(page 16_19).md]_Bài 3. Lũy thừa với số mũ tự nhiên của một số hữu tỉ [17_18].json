@@ -1,0 +1,679 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 26,
+    "metadata_used": {
+      "Công thức nhân hai lũy thừa cùng cơ số": 2,
+      "Công thức chia hai lũy thừa cùng cơ số": 1,
+      "YCCD_TOAN7_013": 3,
+      "YCCD_TOAN7_014": 2,
+      "Thực hiện phép nhân hai lũy thừa cùng cơ số": 7,
+      "Thực hiện phép chia hai lũy thừa cùng cơ số": 3,
+      "YCCD_TOAN7_023": 2,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_TUCHUTUHOC": 1,
+      "NLC_GIAOTIEP": 1,
+      "NLT_TOAN_C2_01": 1,
+      "NLT_TOAN_C2_03": 1
+    },
+    "types_used": {
+      "multichoice": 14,
+      "truefalse": 3,
+      "gapselect": 2,
+      "shortanswer": 2,
+      "calculated": 1,
+      "numerical": 2,
+      "matching": 1,
+      "calculatedsimple": 1
+    }
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "Công thức nhân hai lũy thừa cùng cơ số",
+        "reason": "Đo lường việc nhận biết công thức nhân hai lũy thừa cùng cơ số."
+      },
+      {
+        "metadata_code": "Công thức chia hai lũy thừa cùng cơ số",
+        "reason": "Đo lường việc nhận biết công thức chia hai lũy thừa cùng cơ số."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_013",
+        "reason": "Đo lường việc mô tả tích hai lũy thừa cùng cơ số và lũy thừa của lũy thừa."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_014",
+        "reason": "Đo lường việc mô tả thương hai lũy thừa cùng cơ số."
+      },
+      {
+        "metadata_code": "Thực hiện phép nhân hai lũy thừa cùng cơ số",
+        "reason": "Đo lường kỹ năng thực hiện phép tính nhân hai lũy thừa cùng cơ số."
+      },
+      {
+        "metadata_code": "Thực hiện phép chia hai lũy thừa cùng cơ số",
+        "reason": "Đo lường kỹ năng thực hiện phép tính chia hai lũy thừa cùng cơ số."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_023",
+        "reason": "Đo lường việc giải quyết bài toán thực tiễn gắn với các phép tính lũy thừa số hữu tỉ."
+      },
+      {
+        "metadata_code": "PC_CHAMCHI",
+        "reason": "Đo lường phẩm chất chăm chỉ qua tình huống tự học kiên trì."
+      },
+      {
+        "metadata_code": "PC_TRUNGTHUC",
+        "reason": "Đo lường phẩm chất trung thực qua việc tự giác nhận lỗi sai."
+      },
+      {
+        "metadata_code": "NLC_TUCHUTUHOC",
+        "reason": "Đo lường năng lực tự chủ và tự học qua hành vi chuẩn bị bài."
+      },
+      {
+        "metadata_code": "NLC_GIAOTIEP",
+        "reason": "Đo lường năng lực giao tiếp và hợp tác qua thảo luận nhóm."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01",
+        "reason": "Đo lường năng lực tư duy và lập luận toán học qua giải thích quy tắc."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03",
+        "reason": "Đo lường năng lực giải quyết vấn đề toán học qua chuyển đổi mô hình bài toán."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học thuần lý thuyết và bài tập tính toán lũy thừa, không chứa nội dung ứng dụng công cụ phần mềm/máy tính tự nhiên"
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học không tích hợp bối cảnh tương tác hoặc ứng dụng trí tuệ nhân tạo (AI)"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức nhân hai lũy thừa cùng cơ số",
+      "questiontext": "Công thức đúng khi nhân hai lũy thừa cùng cơ số \\(x^{m} \\cdot x^{n}\\) (với \\(x \\in \\mathbb{Q}\\), \\(m, n \\in \\mathbb{N}\\)) là:",
+      "generalfeedback": "Khi nhân hai lũy thừa cùng cơ số, ta giữ nguyên cơ số và cộng các số mũ: \\(x^{m} \\cdot x^{n} = x^{m+n}\\).",
+      "answers": [
+        {
+          "text": "\\(x^{m+n}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x^{m-n}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x^{m \\cdot n}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((2x)^{m+n}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức chia hai lũy thừa cùng cơ số",
+      "questiontext": "Công thức đúng khi chia hai lũy thừa cùng cơ số \\(x^{m} : x^{n}\\) (với \\(x \\neq 0\\), \\(m, n \\in \\mathbb{N}\\), \\(m \\ge n\\)) là:",
+      "generalfeedback": "Khi chia hai lũy thừa cùng cơ số khác 0, ta giữ nguyên cơ số và lấy số mũ của lũy thừa bị chia trừ số mũ của lũy thừa chia: \\(x^{m} : x^{n} = x^{m-n}\\).",
+      "answers": [
+        {
+          "text": "\\(x^{m-n}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x^{m+n}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x^{m : n}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x^{m \\cdot n}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_013",
+      "questiontext": "Tích của hai lũy thừa cùng cơ số \\((-3)^2 \\cdot (-3)^4\\) bằng \\((-3)^6\\). Đúng hay sai?",
+      "generalfeedback": "Theo quy tắc nhân hai lũy thừa cùng cơ số: \\((-3)^2 \\cdot (-3)^4 = (-3)^{2+4} = (-3)^6\\). Khẳng định trên là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_014",
+      "questiontext": "Khi chia hai lũy thừa cùng cơ số khác 0, ta giữ nguyên [[1]] và lấy số mũ của lũy thừa bị chia [[2]] số mũ của lũy thừa chia.",
+      "generalfeedback": "Khi chia hai lũy thừa cùng cơ số khác 0, ta giữ nguyên cơ số và lấy số mũ của lũy thừa bị chia trừ số mũ của lũy thừa chia.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "cơ số"
+        },
+        {
+          "group": 1,
+          "text": "trừ"
+        },
+        {
+          "group": 1,
+          "text": "số mũ"
+        },
+        {
+          "group": 1,
+          "text": "cộng"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện phép nhân hai lũy thừa cùng cơ số",
+      "questiontext": "Kết quả của phép tính \\(\\left(\\frac{2}{3}\\right)^5 \\cdot \\left(\\frac{2}{3}\\right)^3\\) viết dưới dạng lũy thừa là:",
+      "generalfeedback": "Ta có \\(\\left(\\frac{2}{3}\\right)^5 \\cdot \\left(\\frac{2}{3}\\right)^3 = \\left(\\frac{2}{3}\\right)^{5+3} = \\left(\\frac{2}{3}\\right)^8\\).",
+      "answers": [
+        {
+          "text": "\\(\\left(\\frac{2}{3}\\right)^8\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\left(\\frac{2}{3}\\right)^{15}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\left(\\frac{4}{9}\\right)^8\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\left(\\frac{2}{3}\\right)^2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện phép chia hai lũy thừa cùng cơ số",
+      "questiontext": "Tính giá trị của biểu thức \\((-5)^5 : (-5)^5\\).",
+      "generalfeedback": "Ta có \\((-5)^5 : (-5)^5 = (-5)^{5-5} = (-5)^0 = 1\\).",
+      "answers": [
+        {
+          "text": "1",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện phép nhân hai lũy thừa cùng cơ số",
+      "questiontext": "Khi nhân hai lũy thừa cùng cơ số 0,25 có số mũ lần lượt là m và {n}, số mũ k của lũy thừa kết quả \\((0,25)^k\\) bằng bao nhiêu?",
+      "generalfeedback": "Số mũ k thu được khi nhân hai lũy thừa cùng cơ số là k = {m} + {n}.",
+      "wildcards": [
+        {
+          "name": "m",
+          "min": 2.0,
+          "max": 6.0,
+          "decimals": 0
+        },
+        {
+          "name": "n",
+          "min": 2.0,
+          "max": 6.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{m}+{n}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện phép chia hai lũy thừa cùng cơ số",
+      "questiontext": "Tìm số tự nhiên \\(x\\) thỏa mãn \\((0,25)^7 : (0,25)^3 = (0,25)^x\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Ta có \\((0,25)^7 : (0,25)^3 = (0,25)^{7-3} = (0,25)^4\\). Do đó \\(x = 4\\).",
+      "answers": [
+        {
+          "text": "4",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_013",
+      "questiontext": "Ghép mỗi phép tính lũy thừa ở cột bên trái với kết quả đúng dưới dạng lũy thừa ở cột bên phải:",
+      "generalfeedback": "Áp dụng quy tắc nhân và tính lũy thừa của lũy thừa:\n- \\((-2)^3 \\cdot (-2)^4 = (-2)^{3+4} = (-2)^7\\)\n- \\([(1/2)^2]^8 = (1/2)^{2 \\cdot 8} = (1/2)^{16}\\)\n- \\([(1/2)^3]^3 = (1/2)^{3 \\cdot 3} = (1/2)^9\\)",
+      "subquestions": [
+        {
+          "question": "Phép tính \\((-2)^3 \\cdot (-2)^4\\)",
+          "answer": "\\((-2)^7\\)"
+        },
+        {
+          "question": "Số \\(\\left(\\frac{1}{4}\\right)^8\\) dưới dạng lũy thừa cơ số \\(\\frac{1}{2}\\)",
+          "answer": "\\(\\left(\\frac{1}{2}\\right)^{16}\\)"
+        },
+        {
+          "question": "Số \\(\\left(\\frac{1}{8}\\right)^3\\) dưới dạng lũy thừa cơ số \\(\\frac{1}{2}\\)",
+          "answer": "\\(\\left(\\frac{1}{2}\\right)^9\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_023",
+      "questiontext": "Khoảng cách từ Trái Đất đến Mặt Trời bằng khoảng \\(1,5 \\cdot 10^8\\) km. Khoảng cách từ Mộc tinh đến Mặt Trời khoảng \\(7,78 \\cdot 10^8\\) km. Khoảng cách từ Mộc tinh đến Mặt Trời gấp khoảng bao nhiêu lần khoảng cách từ Trái Đất đến Mặt Trời? (Làm tròn đến chữ số hàng phần mười)",
+      "generalfeedback": "Tỉ số khoảng cách là: \\(\\frac{7,78 \\cdot 10^8}{1,5 \\cdot 10^8} = \\frac{7,78}{1,5} \\approx 5,1867... \\approx 5,2\\) lần.",
+      "answers": [
+        {
+          "text": "5,2 lần",
+          "fraction": 100
+        },
+        {
+          "text": "6,2 lần",
+          "fraction": 0
+        },
+        {
+          "text": "5,18 lần",
+          "fraction": 0
+        },
+        {
+          "text": "4,8 lần",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép nhân hai lũy thừa cùng cơ số",
+      "questiontext": "Số \\(\\left(\\frac{1}{9}\\right)^5\\) được viết dưới dạng lũy thừa cơ số \\(\\frac{1}{3}\\) là:",
+      "generalfeedback": "Ta có \\(\\frac{1}{9} = \\left(\\frac{1}{3}\\right)^2\\), nên \\(\\left(\\frac{1}{9}\\right)^5 = \\left[\\left(\\frac{1}{3}\\right)^2\\right]^5 = \\left(\\frac{1}{3}\\right)^{2 \\cdot 5} = \\left(\\frac{1}{3}\\right)^{10}\\).",
+      "answers": [
+        {
+          "text": "\\(\\left(\\frac{1}{3}\\right)^{10}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\left(\\frac{1}{3}\\right)^7\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\left(\\frac{1}{3}\\right)^{25}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\left(\\frac{1}{3}\\right)^3\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép nhân hai lũy thừa cùng cơ số",
+      "questiontext": "Số \\(\\left(\\frac{1}{27}\\right)^7\\) được viết dưới dạng lũy thừa cơ số \\(\\frac{1}{3}\\) là:",
+      "generalfeedback": "Ta có \\(\\frac{1}{27} = \\left(\\frac{1}{3}\\right)^3\\), do đó \\(\\left(\\frac{1}{27}\\right)^7 = \\left[\\left(\\frac{1}{3}\\right)^3\\right]^7 = \\left(\\frac{1}{3}\\right)^{3 \\cdot 7} = \\left(\\frac{1}{3}\\right)^{21}\\).",
+      "answers": [
+        {
+          "text": "\\(\\left(\\frac{1}{3}\\right)^{21}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\left(\\frac{1}{3}\\right)^{10}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\left(\\frac{1}{3}\\right)^{14}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\left(\\frac{1}{3}\\right)^{343}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện phép nhân hai lũy thừa cùng cơ số",
+      "questiontext": "Biết \\((-3)^7 = -2\\ 187\\). Giá trị của \\((-3)^8\\) bằng bao nhiêu? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Ta có \\((-3)^8 = (-3)^7 \\cdot (-3) = (-2\\ 187) \\cdot (-3) = 6\\ 561\\).",
+      "answers": [
+        {
+          "text": "6561",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép nhân hai lũy thừa cùng cơ số",
+      "questiontext": "Khi tính lũy thừa của một lũy thừa \\(\\left(x^m\\right)^n\\) (với \\(x \\in \\mathbb{Q}, m, n \\in \\mathbb{N}\\)), ta giữ nguyên cơ số và cộng hai số mũ. Phát biểu này Đúng hay Sai?",
+      "generalfeedback": "Phát biểu này Sai. Khi tính lũy thừa của một lũy thừa, ta giữ nguyên cơ số và NHÂN hai số mũ: \\(\\left(x^m\\right)^n = x^{m \\cdot n}\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép chia hai lũy thừa cùng cơ số",
+      "questiontext": "Thương của phép chia \\((0,6)^3 : (0,6)^2\\) viết dưới dạng lũy thừa là:",
+      "generalfeedback": "Theo quy tắc chia hai lũy thừa cùng cơ số: \\((0,6)^3 : (0,6)^2 = (0,6)^{3-2} = (0,6)^1 = 0,6\\).",
+      "answers": [
+        {
+          "text": "\\(0,6\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\((0,6)^5\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\((0,6)^6\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(1\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_013",
+      "questiontext": "Khi tính lũy thừa của một lũy thừa, ta giữ nguyên cơ số và [[1]] hai số mũ. Ví dụ: lũy thừa \\([(-5)^3]^7\\) có số mũ kết quả bằng [[2]].",
+      "generalfeedback": "Khi tính lũy thừa của một lũy thừa, ta giữ nguyên cơ số và nhân hai số mũ: \\(3 \\cdot 7 = 21\\). Do đó số mũ kết quả bằng 21.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "nhân"
+        },
+        {
+          "group": 1,
+          "text": "21"
+        },
+        {
+          "group": 1,
+          "text": "cộng"
+        },
+        {
+          "group": 1,
+          "text": "10"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_023",
+      "questiontext": "Cho bảng thống kê số lượt khách quốc tế đến thăm Việt Nam năm 2019: Hàn Quốc (\\(4,3 \\cdot 10^6\\)), Hoa Kỳ (\\(7,4 \\cdot 10^5\\)), Pháp (\\(2,9 \\cdot 10^5\\)), Ý (\\(7 \\cdot 10^4\\)). Danh sách các quốc gia xếp theo thứ tự số lượng khách đến thăm từ nhỏ đến lớn là:",
+      "generalfeedback": "Ta so sánh các số dưới dạng tích với lũy thừa của 10:\n- Ý: \\(7 \\cdot 10^4 = 70\\ 000\\)\n- Pháp: \\(2,9 \\cdot 10^5 = 290\\ 000\\)\n- Hoa Kỳ: \\(7,4 \\cdot 10^5 = 740\\ 000\\)\n- Hàn Quốc: \\(4,3 \\cdot 10^6 = 4\\ 300\\ 000\\)\nThứ tự từ nhỏ đến lớn là: Ý, Pháp, Hoa Kỳ, Hàn Quốc.",
+      "answers": [
+        {
+          "text": "Ý, Pháp, Hoa Kỳ, Hàn Quốc",
+          "fraction": 100
+        },
+        {
+          "text": "Hàn Quốc, Hoa Kỳ, Pháp, Ý",
+          "fraction": 0
+        },
+        {
+          "text": "Ý, Hoa Kỳ, Pháp, Hàn Quốc",
+          "fraction": 0
+        },
+        {
+          "text": "Pháp, Ý, Hoa Kỳ, Hàn Quốc",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện phép nhân hai lũy thừa cùng cơ số",
+      "questiontext": "Tính số mũ của lũy thừa kết quả khi tính lũy thừa của lũy thừa có cơ số -5 với hai số mũ lần lượt là {a} và {b}. Số mũ mới bằng bao nhiêu?",
+      "generalfeedback": "Theo quy tắc lũy thừa của lũy thừa: \\([(-5)^a]^b = (-5)^{a \\cdot b}\\). Số mũ mới là {a}*{b}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 5.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 2.0,
+          "max": 6.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*{b}",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Công thức nhân hai lũy thừa cùng cơ số",
+      "questiontext": "Điền từ thích hợp vào chỗ trống: \"Khi nhân hai lũy thừa cùng cơ số, ta giữ nguyên cơ số và ... hai số mũ.\"",
+      "generalfeedback": "Khi nhân hai lũy thừa cùng cơ số, ta giữ nguyên cơ số và cộng hai số mũ.",
+      "answers": [
+        {
+          "text": "cộng",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_014",
+      "questiontext": "Biểu thức mô tả đúng quy tắc chia hai lũy thừa cùng cơ số khác 0 là:",
+      "generalfeedback": "Quy tắc chia hai lũy thừa cùng cơ số khác 0 là \\(x^m : x^n = x^{m-n}\\)(với \\(x \\neq 0, m \\ge n\\)).",
+      "answers": [
+        {
+          "text": "\\(x^m : x^n = x^{m-n}\\) (với \\(x \\neq 0, m \\ge n\\))",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x^m : x^n = x^{m/n}\\) (với \\(x \\neq 0\\))",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x^m : x^n = x^{m+n}\\) (với \\(x \\neq 0\\))",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x^m : x^n = (x:x)^{m-n}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Trong giờ tự học, Nam gặp bài toán tìm \\(n \\in \\mathbb{N}\\) thỏa mãn \\((0,25)^n \\cdot 4^n = 1\\). Dù chưa làm ngay được, Nam vẫn kiên trì đọc lại quy tắc nhân hai lũy thừa và tự mình biến đổi \\((0,25 \\cdot 4)^n = 1^n = 1\\) để tìm ra câu trả lời. Hành vi của Nam thể hiện phẩm chất nào?",
+      "generalfeedback": "Nam đã kiên trì, không nản lòng trước bài toán khó và nỗ lực tự nghiên cứu lại kiến thức bài học để giải quyết bài tập, đây là biểu hiện tiêu biểu của phẩm chất Chăm chỉ.",
+      "answers": [
+        {
+          "text": "Chăm chỉ",
+          "fraction": 100
+        },
+        {
+          "text": "Trung thực",
+          "fraction": 0
+        },
+        {
+          "text": "Trách nhiệm",
+          "fraction": 0
+        },
+        {
+          "text": "Yêu nước",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Khi chấm chéo bài kiểm tra về nhân hai lũy thừa cùng cơ số, bạn An phát hiện mình tính nhầm \\((-2)^3 \\cdot (-2)^4 = (-2)^{12}\\). An đã chủ động nhận lỗi sai và sửa lại kiến thức cho đúng chứ không giấu lỗi hay sửa bài để lấy điểm. Việc làm của An thể hiện phẩm chất Trung thực. Đúng hay Sai?",
+      "generalfeedback": "Việc An tự giác nhận lỗi sai trong bài làm và học hỏi từ sai lầm thể hiện thái độ trung thực trong học tập. Khẳng định trên là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Để chuẩn bị cho tiết học \"Nhân và chia hai lũy thừa cùng cơ số\", bạn Hoa tự lập sơ đồ tư duy hệ thống lại hai công thức \\(x^m \\cdot x^n = x^{m+n}\\) và \\(x^m : x^n = x^{m-n}\\) (\\(x \\neq 0, m \\ge n\\)), đồng thời tự giải trước các bài tập ví dụ trong SGK. Hành động của Hoa thể hiện năng lực nào?",
+      "generalfeedback": "Hoa đã chủ động lập kế hoạch học tập, tự nghiên cứu SGK và hệ thống kiến thức trước khi đến lớp, thể hiện Năng lực tự chủ và tự học.",
+      "answers": [
+        {
+          "text": "Năng lực tự chủ và tự học",
+          "fraction": 100
+        },
+        {
+          "text": "Năng lực giao tiếp và hợp tác",
+          "fraction": 0
+        },
+        {
+          "text": "Năng lực ngôn ngữ",
+          "fraction": 0
+        },
+        {
+          "text": "Năng lực thẩm mỹ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_GIAOTIEP",
+      "questiontext": "Trong hoạt động nhóm khi giải bài tập viết \\(\\left(\\frac{1}{8}\\right)^3\\) dưới dạng lũy thừa cơ số \\(\\frac{1}{2}\\), bạn Bình ra kết quả \\(\\left(\\frac{1}{2}\\right)^6\\) còn bạn Chi ra \\(\\left(\\frac{1}{2}\\right)^9\\). Cách giải quyết nào sau đây thể hiện năng lực giao tiếp và hợp tác tốt nhất?",
+      "generalfeedback": "Năng lực giao tiếp và hợp tác đòi hỏi các thành viên biết lắng nghe, tôn trọng ý kiến của nhau, cùng đưa ra căn cứ toán học \\(\\frac{1}{8} = \\left(\\frac{1}{2}\\right)^3 \\Rightarrow \\left[\\left(\\frac{1}{2}\\right)^3\\right]^3 = \\left(\\frac{1}{2}\\right)^9\\) để đối chiếu và thống nhất.",
+      "answers": [
+        {
+          "text": "Hai bạn cùng trao đổi, trình bày căn cứ công thức lũy thừa của lũy thừa để thống nhất kết quả đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Bình bỏ qua ý kiến của Chi và tự nộp bài của mình",
+          "fraction": 0
+        },
+        {
+          "text": "Chi im lặng và chấp nhận kết quả của Bình mà không thảo luận",
+          "fraction": 0
+        },
+        {
+          "text": "Hai bạn tranh cãi và không nộp bài cho giáo viên",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Lập luận nào sau đây giải thích ĐÚNG tại sao \\((-5)^5 : (-5)^5 = 1\\)?",
+      "generalfeedback": "Theo quy tắc chia hai lũy thừa cùng cơ số \\(x^m : x^n = x^{m-n}\\), ta có \\((-5)^5 : (-5)^5 = (-5)^{5-5} = (-5)^0\\). Theo quy ước \\(x^0 = 1\\) (với \\(x \\neq 0\\)), kết quả bằng 1. Đây là lập luận toán học chặt chẽ.",
+      "answers": [
+        {
+          "text": "Vì theo quy tắc chia hai lũy thừa cùng cơ số ta có \\((-5)^5 : (-5)^5 = (-5)^{5-5} = (-5)^0 = 1\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Vì số âm chia cho số âm luôn ra số dương 1",
+          "fraction": 0
+        },
+        {
+          "text": "Vì lấy số mũ 5 chia cho số mũ 5 được 1",
+          "fraction": 0
+        },
+        {
+          "text": "Vì cơ số -5 triệt tiêu với -5 còn lại 1",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "questiontext": "Để giải bài toán thử thách điền lũy thừa của 2 vào bảng \\(3 \\times 3\\) sao cho tích các lũy thừa trên mỗi hàng, mỗi cột và đường chéo đều bằng nhau, bước chuyển đổi bài toán nào sau đây thể hiện Năng lực giải quyết vấn đề toán học?",
+      "generalfeedback": "Chuyển bài toán tích các lũy thừa cùng cơ số \\(2^a \\cdot 2^b \\cdot 2^c = 2^{a+b+c}\\) về bài toán tổng các số mũ \\(a + b + c\\) bằng nhau là bước chuyển đổi mô hình giúp giải quyết vấn đề hiệu quả.",
+      "answers": [
+        {
+          "text": "Chuyển bài toán tích các lũy thừa thành bài toán tìm tổng các số mũ trên mỗi hàng, cột, đường chéo bằng nhau",
+          "fraction": 100
+        },
+        {
+          "text": "Thử từng số ngẫu nhiên vào bảng cho đến khi đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Tính giá trị số cụ thể của tất cả các lũy thừa rồi nhân lại",
+          "fraction": 0
+        },
+        {
+          "text": "Bỏ qua các ô chứa số mũ lớn và chỉ điền các ô chứa số mũ nhỏ",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

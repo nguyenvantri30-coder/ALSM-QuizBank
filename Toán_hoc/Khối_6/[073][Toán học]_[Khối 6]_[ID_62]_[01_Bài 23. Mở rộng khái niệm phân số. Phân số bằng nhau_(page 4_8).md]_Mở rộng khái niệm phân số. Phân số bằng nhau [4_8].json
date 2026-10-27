@@ -1,0 +1,1098 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 47,
+    "metadata_used": {
+      "Khái niệm phân số a/b (a, b thuoc Z, b != 0)": 3,
+      "Nhận biết tử số và mẫu số nguyên": 3,
+      "YCCD_TOAN6_055": 3,
+      "Khái niệm hai phân số bằng nhau a/b = c/d khi a.d = b.c": 3,
+      "Kiểm tra hai phân số bằng nhau": 3,
+      "YCCD_TOAN6_056": 1,
+      "Tính chất cơ bản của phân số": 3,
+      "Vận dụng tính chất cơ bản của phân số": 5,
+      "YCCD_TOAN6_057": 3,
+      "YCCD_TOAN6_058": 3,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_TCTH_TUHOC_C2_04": 1,
+      "SUB_GTHT_XACDINHMD_C2_03": 1,
+      "NLT_TOAN_C2_01_01": 2,
+      "NLT_TOAN_C2_03_05": 2
+    },
+    "types_used": {
+      "multichoice": 19,
+      "shortanswer": 4,
+      "truefalse": 4,
+      "matching": 2,
+      "gapselect": 6,
+      "numerical": 8,
+      "ddwtos": 4
+    },
+    "total": 47
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN6_055",
+        "reason": "Bám sát YCCĐ Nhận biết được phân số với tử số hoặc mẫu số là số nguyên âm"
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_056",
+        "reason": "Bám sát YCCĐ Nhận biết được khái niệm hai phân số bằng nhau"
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_057",
+        "reason": "Bám sát YCCĐ Nhận biết được quy tắc bằng nhau của hai phân số"
+      },
+      {
+        "metadata_code": "YCCD_TOAN6_058",
+        "reason": "Bám sát YCCĐ Nêu được hai tính chất cơ bản của phân số"
+      },
+      {
+        "metadata_code": "Khái niệm phân số a/b (a, b thuoc Z, b != 0)",
+        "reason": "Bám sát kiến thức Khái niệm phân số a/b (a, b thuoc Z, b != 0)"
+      },
+      {
+        "metadata_code": "Khái niệm hai phân số bằng nhau a/b = c/d khi a.d = b.c",
+        "reason": "Bám sát kiến thức Khái niệm hai phân số bằng nhau a/b = c/d khi a.d = b.c"
+      },
+      {
+        "metadata_code": "Tính chất cơ bản của phân số",
+        "reason": "Bám sát kiến thức Tính chất cơ bản của phân số"
+      },
+      {
+        "metadata_code": "Nhận biết tử số và mẫu số nguyên",
+        "reason": "Bám sát kỹ năng Nhận biết tử số và mẫu số nguyên"
+      },
+      {
+        "metadata_code": "Kiểm tra hai phân số bằng nhau",
+        "reason": "Bám sát kỹ năng Kiểm tra hai phân số bằng nhau"
+      },
+      {
+        "metadata_code": "Vận dụng tính chất cơ bản của phân số",
+        "reason": "Bám sát kỹ năng Vận dụng tính chất cơ bản của phân số"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học thuộc chủ đề Số học (Phân số) thuần túy trong SGK Toán 6, không chứa nội dung thực hành phần mềm hay công nghệ thông tin."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học không tích hợp bối cảnh hay ứng dụng công cụ trí tuệ nhân tạo (AI) một cách tự nhiên."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm phân số a/b (a, b thuoc Z, b != 0)",
+      "questiontext": "Trong các cách viết sau, cách viết nào cho ta một phân số?",
+      "generalfeedback": "Phân số có dạng \\(\\frac{a}{b}\\) với \\(a, b \\in \\mathbb{Z}\\) và \\(b \\neq 0\\). Do đó \\(\\frac{-2}{5}\\) là phân số vì -2 và 5 đều là các số nguyên và mẫu số \\(5 \\neq 0\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{-2}{5}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{2,5}{-4}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{4}{0}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{3,5}{7}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết tử số và mẫu số nguyên",
+      "questiontext": "Xác định tử số của phân số \\(\\frac{5}{-9}\\).",
+      "generalfeedback": "Trong phân số \\(\\frac{a}{b}\\), a là tử số và b là mẫu số. Do đó tử số của phân số \\(\\frac{5}{-9}\\) là 5.",
+      "answers": [
+        {
+          "text": "5",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_055",
+      "questiontext": "Số \\(\\frac{-3}{4}\\) là một phân số có tử số là số nguyên âm và mẫu số là số nguyên dương.",
+      "generalfeedback": "Phân số \\(\\frac{-3}{4}\\) có tử số là -3 (số nguyên âm) và mẫu số là 4 (số nguyên dương).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm hai phân số bằng nhau a/b = c/d khi a.d = b.c",
+      "questiontext": "Theo quy tắc bằng nhau của hai phân số, hai phân số \\(\\frac{a}{b}\\) và \\(\\frac{c}{d}\\) (với \\(a, b, c, d \\in \\mathbb{Z}; b, d \\neq 0\\)) bằng nhau khi nào?",
+      "generalfeedback": "Hai phân số \\(\\frac{a}{b} = \\frac{c}{d}\\) nếu \\(a \\cdot d = b \\cdot c\\).",
+      "answers": [
+        {
+          "text": "\\(a \\cdot d = b \\cdot c\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(a \\cdot c = b \\cdot d\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a \\cdot b = c \\cdot d\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a + d = b + c\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Kiểm tra hai phân số bằng nhau",
+      "questiontext": "Ghép cặp phân số ở cột bên trái với khẳng định phù hợp ở cột bên phải:",
+      "generalfeedback": "Dùng quy tắc tích chéo \\(a \\cdot d = b \\cdot c\\) để kiểm tra tính bằng nhau của hai phân số \\(\\frac{a}{b}\\) và \\(\\frac{c}{d}\\).",
+      "subquestions": [
+        {
+          "question": "Cặp phân số \\(\\frac{-3}{5}\\) và \\(\\frac{9}{-15}\\)",
+          "answer": "Bằng nhau vì (-3).(-15) = 5.9 = 45"
+        },
+        {
+          "question": "Cặp phân số \\(\\frac{-1}{-4}\\) và \\(\\frac{1}{4}\\)",
+          "answer": "Bằng nhau vì (-1).4 = (-4).1 = -4"
+        },
+        {
+          "question": "Cặp phân số \\(\\frac{2}{5}\\) và \\(\\frac{3}{9}\\)",
+          "answer": "Không bằng nhau vì 2.9 != 5.3"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_056",
+      "imgs": [
+        "_page_1_Picture_26.jpeg"
+      ],
+      "questiontext": "Dựa vào hình vẽ [img:_page_1_Picture_26.jpeg], phân số biểu thị phần tô màu ở hình a là [[1]] và ở hình b là [[2]]. Hai phân số này [[3]] vì cùng biểu thị phần diện tích tô màu như nhau.",
+      "generalfeedback": "Hình a gồm 5 phần tô màu 2 phần nên phân số là \\(\\frac{2}{5}\\). Hình b gồm 10 phần tô màu 4 phần nên phân số là \\(\\frac{4}{10}\\). Vì diện tích phần tô màu bằng nhau nên \\(\\frac{2}{5} = \\frac{4}{10}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(\\frac{2}{5}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{4}{10}\\)"
+        },
+        {
+          "group": 1,
+          "text": "bằng nhau"
+        },
+        {
+          "group": 1,
+          "text": "không bằng nhau"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{1}{3}\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Tính chất cơ bản của phân số",
+      "questiontext": "Khẳng định nào sau đây phát biểu đúng về tính chất cơ bản của phân số (với \\(a, b \\in \\mathbb{Z}, b \\neq 0\\))?",
+      "generalfeedback": "Tính chất cơ bản của phân số: \\(\\frac{a}{b} = \\frac{a \\cdot m}{b \\cdot m}\\) (với \\(m \\in \\mathbb{Z}, m \\neq 0\\)) và \\(\\frac{a}{b} = \\frac{a:n}{b:n}\\) (với n là ước chung của a và b).",
+      "answers": [
+        {
+          "text": "Nếu nhân cả tử và mẫu với cùng số nguyên \\(m \\neq 0\\) hoặc chia cả tử và mẫu cho cùng một ước chung n của chúng thì được phân số bằng phân số đã cho.",
+          "fraction": 100
+        },
+        {
+          "text": "Nếu cộng cả tử và mẫu với cùng số nguyên m thì được phân số bằng phân số đã cho.",
+          "fraction": 0
+        },
+        {
+          "text": "Nếu trừ cả tử và mẫu cho cùng số nguyên m thì được phân số bằng phân số đã cho.",
+          "fraction": 0
+        },
+        {
+          "text": "Nếu nhân tử số với m và chia mẫu số cho m thì được phân số bằng phân số đã cho.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng tính chất cơ bản của phân số",
+      "questiontext": "Rút gọn phân số \\(\\frac{-28}{21}\\) về phân số tối giản có mẫu dương \\(\\frac{a}{b}\\). Tính giá trị của tử số a. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Chia cả tử và mẫu của phân số \\(\\frac{-28}{21}\\) cho ước chung 7, ta được \\(\\frac{-28:7}{21:7} = \\frac{-4}{3}\\). Do đó tử số a = -4.",
+      "answers": [
+        {
+          "text": "-4",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_057",
+      "questiontext": "Theo quy tắc bằng nhau của hai phân số, cặp phân số \\(\\frac{-9}{12}\\) và \\(\\frac{-3}{4}\\) bằng nhau vì tích chéo (-9) . 4 [[1]] với tích chéo (-3) . 12 và cùng bằng [[2]].",
+      "generalfeedback": "Ta có (-9) . 4 = -36 và (-3) . 12 = -36. Vì hai tích chéo bằng nhau và cùng bằng -36 nên \\(\\frac{-9}{12} = \\frac{-3}{4}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "bằng"
+        },
+        {
+          "group": 1,
+          "text": "-36"
+        },
+        {
+          "group": 1,
+          "text": "khác"
+        },
+        {
+          "group": 1,
+          "text": "36"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_058",
+      "questiontext": "Khi viết phân số \\(\\frac{3}{-4}\\) thành phân số bằng nó và có mẫu dương, ta nhân cả tử và mẫu với số [[1]] để được phân số [[2]].",
+      "generalfeedback": "Ta có \\(\\frac{3}{-4} = \\frac{3 \\cdot (-1)}{(-4) \\cdot (-1)} = \\frac{-3}{4}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "-1"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{-3}{4}\\)"
+        },
+        {
+          "group": 1,
+          "text": "1"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{3}{4}\\)"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết tử số và mẫu số nguyên",
+      "questiontext": "Xác định mẫu số của phân số \\(\\frac{8}{-3}\\).",
+      "generalfeedback": "Trong phân số \\(\\frac{a}{b}\\), a là tử số và b là mẫu số. Mẫu số của phân số \\(\\frac{8}{-3}\\) là -3.",
+      "answers": [
+        {
+          "text": "-3",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_055",
+      "questiontext": "Trong các phân số \\(\\frac{-3}{4}\\), \\(\\frac{5}{-9}\\), \\(\\frac{8}{3}\\), phân số nào có mẫu số là số nguyên âm?",
+      "generalfeedback": "Phân số \\(\\frac{5}{-9}\\) có mẫu số là -9 là một số nguyên âm.",
+      "answers": [
+        {
+          "text": "\\(\\frac{5}{-9}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{-3}{4}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{8}{3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Không có phân số nào",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Kiểm tra hai phân số bằng nhau",
+      "questiontext": "Cặp phân số \\(\\frac{-3}{5}\\) và \\(\\frac{9}{-15}\\) là hai phân số bằng nhau.",
+      "generalfeedback": "Ta có \\((-3) \\cdot (-15) = 45\\) và \\(5 \\cdot 9 = 45\\). Vì hai tích chéo bằng nhau nên hai phân số đó bằng nhau. Khẳng định trên là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_057",
+      "questiontext": "Tìm số nguyên x thỏa mãn \\(\\frac{x}{8} = \\frac{1}{2}\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Theo quy tắc bằng nhau của hai phân số, \\(\\frac{x}{8} = \\frac{1}{2}\\) suy ra \\(x \\cdot 2 = 8 \\cdot 1\\), do đó \\(2x = 8\\) nên \\(x = 4\\).",
+      "answers": [
+        {
+          "text": "4",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm phân số a/b (a, b thuoc Z, b != 0)",
+      "questiontext": "Cho phân số \\(\\frac{a}{b}\\). Điều kiện của b để \\(\\frac{a}{b}\\) là một phân số là gì?",
+      "generalfeedback": "Trong định nghĩa phân số \\(\\frac{a}{b}\\), \\(a, b \\in \\mathbb{Z}\\) và điều kiện bắt buộc của mẫu số là \\(b \\neq 0\\).",
+      "answers": [
+        {
+          "text": "\\(b \\in \\mathbb{Z}\\) và \\(b \\neq 0\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(b > 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(b \\in \\mathbb{N}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(b = 0\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Tính chất cơ bản của phân số",
+      "questiontext": "Nếu nhân cả tử và mẫu của phân số \\(\\frac{-3}{2}\\) với -5 thì ta được phân số [[1]]. Phân số này [[2]] phân số \\(\\frac{-3}{2}\\).",
+      "generalfeedback": "Ta có \\(\\frac{-3 \\cdot (-5)}{2 \\cdot (-5)} = \\frac{15}{-10}\\). Theo tính chất cơ bản của phân số, phân số \\(\\frac{15}{-10}\\) bằng phân số \\(\\frac{-3}{2}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(\\frac{15}{-10}\\)"
+        },
+        {
+          "group": 1,
+          "text": "bằng"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{-15}{10}\\)"
+        },
+        {
+          "group": 1,
+          "text": "không bằng"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Vận dụng tính chất cơ bản của phân số",
+      "questiontext": "Trong các phân số \\(\\frac{11}{23}\\) và \\(\\frac{-24}{15}\\), phân số nào là phân số tối giản?",
+      "generalfeedback": "Phân số \\(\\frac{11}{23}\\) có tử và mẫu không có ước chung nào khác 1 và -1 nên là phân số tối giản. Phân số \\(\\frac{-24}{15}\\) còn rút gọn được cho 3 nên chưa tối giản.",
+      "answers": [
+        {
+          "text": "\\(\\frac{11}{23}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{-24}{15}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Cả hai phân số đều tối giản",
+          "fraction": 0
+        },
+        {
+          "text": "Cả hai phân số đều chưa tối giản",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_058",
+      "questiontext": "Viết kết quả phép chia (-2) cho 7 dưới dạng phân số.",
+      "generalfeedback": "Phép chia -2 cho 7 được viết dưới dạng phân số là \\(\\frac{-2}{7}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{-2}{7}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{2}{7}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{-7}{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{2}{-7}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Khái niệm hai phân số bằng nhau a/b = c/d khi a.d = b.c",
+      "questiontext": "Hai phân số bằng nhau có cùng [[1]]. Chẳng hạn \\(\\frac{2}{5} = \\frac{4}{10}\\) vì hai tích chéo \\(2 \\cdot 10\\) và \\(5 \\cdot 4\\) đều bằng [[2]].",
+      "generalfeedback": "Nhận xét SGK: Hai phân số bằng nhau có cùng giá trị. Với \\(\\frac{2}{5} = \\frac{4}{10}\\), hai tích chéo cùng bằng 20.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "giá trị"
+        },
+        {
+          "group": 1,
+          "text": "20"
+        },
+        {
+          "group": 1,
+          "text": "mẫu số"
+        },
+        {
+          "group": 1,
+          "text": "10"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng tính chất cơ bản của phân số",
+      "questiontext": "Rút gọn phân số \\(\\frac{-24}{15}\\) bằng cách chia cả tử và mẫu cho 3. Tính tử số của phân số thu được. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Ta có \\(\\frac{-24:3}{15:3} = \\frac{-8}{5}\\). Tử số của phân số thu được là -8.",
+      "answers": [
+        {
+          "text": "-8",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết tử số và mẫu số nguyên",
+      "questiontext": "Xác định mẫu số của phân số \\(\\frac{8}{-3}\\).",
+      "generalfeedback": "Trong phân số \\(\\frac{a}{b}\\), a là tử số và b là mẫu số. Mẫu số của phân số \\(\\frac{8}{-3}\\) là -3.",
+      "answers": [
+        {
+          "text": "-3",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_055",
+      "questiontext": "Trong các phân số \\(\\frac{-3}{4}\\), \\(\\frac{5}{-9}\\), \\(\\frac{8}{3}\\), phân số nào có mẫu số là số nguyên âm?",
+      "generalfeedback": "Phân số \\(\\frac{5}{-9}\\) có mẫu số là -9 là một số nguyên âm.",
+      "answers": [
+        {
+          "text": "\\(\\frac{5}{-9}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{-3}{4}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{8}{3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Không có phân số nào",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Kiểm tra hai phân số bằng nhau",
+      "questiontext": "Cặp phân số \\(\\frac{-3}{5}\\) và \\(\\frac{9}{-15}\\) là hai phân số bằng nhau.",
+      "generalfeedback": "Ta có \\((-3) \\cdot (-15) = 45\\) và \\(5 \\cdot 9 = 45\\). Vì hai tích chéo bằng nhau nên hai phân số đó bằng nhau. Khẳng định trên là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_057",
+      "questiontext": "Tìm số nguyên x thỏa mãn \\(\\frac{x}{8} = \\frac{1}{2}\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Theo quy tắc bằng nhau của hai phân số, \\(\\frac{x}{8} = \\frac{1}{2}\\) suy ra \\(x \\cdot 2 = 8 \\cdot 1\\), do đó \\(2x = 8\\) nên \\(x = 4\\).",
+      "answers": [
+        {
+          "text": "4",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm phân số a/b (a, b thuoc Z, b != 0)",
+      "questiontext": "Cho phân số \\(\\frac{a}{b}\\). Điều kiện của b để \\(\\frac{a}{b}\\) là một phân số là gì?",
+      "generalfeedback": "Trong định nghĩa phân số \\(\\frac{a}{b}\\), \\(a, b \\in \\mathbb{Z}\\) và điều kiện bắt buộc của mẫu số là \\(b \\neq 0\\).",
+      "answers": [
+        {
+          "text": "\\(b \\in \\mathbb{Z}\\) và \\(b \\neq 0\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(b > 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(b \\in \\mathbb{N}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(b = 0\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Tính chất cơ bản của phân số",
+      "questiontext": "Nếu nhân cả tử và mẫu của phân số \\(\\frac{-3}{2}\\) với -5 thì ta được phân số [[1]]. Phân số này [[2]] phân số \\(\\frac{-3}{2}\\).",
+      "generalfeedback": "Ta có \\(\\frac{-3 \\cdot (-5)}{2 \\cdot (-5)} = \\frac{15}{-10}\\). Theo tính chất cơ bản của phân số, phân số \\(\\frac{15}{-10}\\) bằng phân số \\(\\frac{-3}{2}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(\\frac{15}{-10}\\)"
+        },
+        {
+          "group": 1,
+          "text": "bằng"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{-15}{10}\\)"
+        },
+        {
+          "group": 1,
+          "text": "không bằng"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Vận dụng tính chất cơ bản của phân số",
+      "questiontext": "Trong các phân số \\(\\frac{11}{23}\\) và \\(\\frac{-24}{15}\\), phân số nào là phân số tối giản?",
+      "generalfeedback": "Phân số \\(\\frac{11}{23}\\) có tử và mẫu không có ước chung nào khác 1 và -1 nên là phân số tối giản. Phân số \\(\\frac{-24}{15}\\) còn rút gọn được cho 3 nên chưa tối giản.",
+      "answers": [
+        {
+          "text": "\\(\\frac{11}{23}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{-24}{15}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Cả hai phân số đều tối giản",
+          "fraction": 0
+        },
+        {
+          "text": "Cả hai phân số đều chưa tối giản",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_058",
+      "questiontext": "Viết kết quả phép chia (-2) cho 7 dưới dạng phân số.",
+      "generalfeedback": "Phép chia -2 cho 7 được viết dưới dạng phân số là \\(\\frac{-2}{7}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{-2}{7}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{2}{7}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{-7}{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{2}{-7}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Khái niệm hai phân số bằng nhau a/b = c/d khi a.d = b.c",
+      "questiontext": "Hai phân số bằng nhau có cùng [[1]]. Chẳng hạn \\(\\frac{2}{5} = \\frac{4}{10}\\) vì hai tích chéo \\(2 \\cdot 10\\) và \\(5 \\cdot 4\\) đều bằng [[2]].",
+      "generalfeedback": "Nhận xét SGK: Hai phân số bằng nhau có cùng giá trị. Với \\(\\frac{2}{5} = \\frac{4}{10}\\), hai tích chéo cùng bằng 20.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "giá trị"
+        },
+        {
+          "group": 1,
+          "text": "20"
+        },
+        {
+          "group": 1,
+          "text": "mẫu số"
+        },
+        {
+          "group": 1,
+          "text": "10"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng tính chất cơ bản của phân số",
+      "questiontext": "Rút gọn phân số \\(\\frac{-24}{15}\\) bằng cách chia cả tử và mẫu cho 3. Tính tử số của phân số thu được. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Ta có \\(\\frac{-24:3}{15:3} = \\frac{-8}{5}\\). Tử số của phân số thu được là -8.",
+      "answers": [
+        {
+          "text": "-8",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết tử số và mẫu số nguyên",
+      "questiontext": "Xác định mẫu số của phân số \\(\\frac{8}{-3}\\).",
+      "generalfeedback": "Trong phân số \\(\\frac{a}{b}\\), a là tử số và b là mẫu số. Mẫu số của phân số \\(\\frac{8}{-3}\\) là -3.",
+      "answers": [
+        {
+          "text": "-3",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_055",
+      "questiontext": "Trong các phân số \\(\\frac{-3}{4}\\), \\(\\frac{5}{-9}\\), \\(\\frac{8}{3}\\), phân số nào có mẫu số là số nguyên âm?",
+      "generalfeedback": "Phân số \\(\\frac{5}{-9}\\) có mẫu số là -9 là một số nguyên âm.",
+      "answers": [
+        {
+          "text": "\\(\\frac{5}{-9}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{-3}{4}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{8}{3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Không có phân số nào",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Kiểm tra hai phân số bằng nhau",
+      "questiontext": "Cặp phân số \\(\\frac{-3}{5}\\) và \\(\\frac{9}{-15}\\) là hai phân số bằng nhau.",
+      "generalfeedback": "Ta có \\((-3) \\cdot (-15) = 45\\) và \\(5 \\cdot 9 = 45\\). Vì hai tích chéo bằng nhau nên hai phân số đó bằng nhau. Khẳng định trên là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_057",
+      "questiontext": "Tìm số nguyên x thỏa mãn \\(\\frac{x}{8} = \\frac{1}{2}\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Theo quy tắc bằng nhau của hai phân số, \\(\\frac{x}{8} = \\frac{1}{2}\\) suy ra \\(x \\cdot 2 = 8 \\cdot 1\\), do đó \\(2x = 8\\) nên \\(x = 4\\).",
+      "answers": [
+        {
+          "text": "4",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm phân số a/b (a, b thuoc Z, b != 0)",
+      "questiontext": "Cho phân số \\(\\frac{a}{b}\\). Điều kiện của b để \\(\\frac{a}{b}\\) là một phân số là gì?",
+      "generalfeedback": "Trong định nghĩa phân số \\(\\frac{a}{b}\\), \\(a, b \\in \\mathbb{Z}\\) và điều kiện bắt buộc của mẫu số là \\(b \\neq 0\\).",
+      "answers": [
+        {
+          "text": "\\(b \\in \\mathbb{Z}\\) và \\(b \\neq 0\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(b > 0\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(b \\in \\mathbb{N}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(b = 0\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Tính chất cơ bản của phân số",
+      "questiontext": "Nếu nhân cả tử và mẫu của phân số \\(\\frac{-3}{2}\\) với -5 thì ta được phân số [[1]]. Phân số này [[2]] phân số \\(\\frac{-3}{2}\\).",
+      "generalfeedback": "Ta có \\(\\frac{-3 \\cdot (-5)}{2 \\cdot (-5)} = \\frac{15}{-10}\\). Theo tính chất cơ bản của phân số, phân số \\(\\frac{15}{-10}\\) bằng phân số \\(\\frac{-3}{2}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(\\frac{15}{-10}\\)"
+        },
+        {
+          "group": 1,
+          "text": "bằng"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{-15}{10}\\)"
+        },
+        {
+          "group": 1,
+          "text": "không bằng"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Vận dụng tính chất cơ bản của phân số",
+      "questiontext": "Trong các phân số \\(\\frac{11}{23}\\) và \\(\\frac{-24}{15}\\), phân số nào là phân số tối giản?",
+      "generalfeedback": "Phân số \\(\\frac{11}{23}\\) có tử và mẫu không có ước chung nào khác 1 và -1 nên là phân số tối giản. Phân số \\(\\frac{-24}{15}\\) còn rút gọn được cho 3 nên chưa tối giản.",
+      "answers": [
+        {
+          "text": "\\(\\frac{11}{23}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{-24}{15}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Cả hai phân số đều tối giản",
+          "fraction": 0
+        },
+        {
+          "text": "Cả hai phân số đều chưa tối giản",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_058",
+      "questiontext": "Viết kết quả phép chia (-2) cho 7 dưới dạng phân số.",
+      "generalfeedback": "Phép chia -2 cho 7 được viết dưới dạng phân số là \\(\\frac{-2}{7}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{-2}{7}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{2}{7}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{-7}{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{2}{-7}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Khái niệm hai phân số bằng nhau a/b = c/d khi a.d = b.c",
+      "questiontext": "Hai phân số bằng nhau có cùng [[1]]. Chẳng hạn \\(\\frac{2}{5} = \\frac{4}{10}\\) vì hai tích chéo \\(2 \\cdot 10\\) và \\(5 \\cdot 4\\) đều bằng [[2]].",
+      "generalfeedback": "Nhận xét SGK: Hai phân số bằng nhau có cùng giá trị. Với \\(\\frac{2}{5} = \\frac{4}{10}\\), hai tích chéo cùng bằng 20.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "giá trị"
+        },
+        {
+          "group": 1,
+          "text": "20"
+        },
+        {
+          "group": 1,
+          "text": "mẫu số"
+        },
+        {
+          "group": 1,
+          "text": "10"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng tính chất cơ bản của phân số",
+      "questiontext": "Rút gọn phân số \\(\\frac{-24}{15}\\) bằng cách chia cả tử và mẫu cho 3. Tính tử số của phân số thu được. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Ta có \\(\\frac{-24:3}{15:3} = \\frac{-8}{5}\\). Tử số của phân số thu được là -8.",
+      "answers": [
+        {
+          "text": "-8",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi gặp một bài toán rút gọn phân số phức tạp như \\(\\frac{-28}{21}\\) hoặc trò chơi dò đường chứa các phân số bằng \\(\\frac{-3}{4}\\), thái độ học tập nào sau đây thể hiện sự cố gắng vươn lên đạt kết quả tốt?",
+      "generalfeedback": "Sự kiên trì, chủ động áp dụng tính chất cơ bản của phân số và quy tắc bằng nhau để từng bước tìm ra lời giải chính xác phản ánh thái độ luôn cố gắng vươn lên trong học tập.",
+      "answers": [
+        {
+          "text": "Kiên trì phân tích, sử dụng tính chất cơ bản của phân số để rút gọn và tìm ra đường đi đúng.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài toán ngay vì thấy có phân số mang dấu âm phức tạp.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép lại lời giải của bạn khác mà không tự suy nghĩ hay thử thực hành.",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ làm các câu hỏi dễ và bỏ trống toàn bộ các bài tập vận dụng.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Để lập bảng tóm tắt ghi nhớ kiến thức cốt lõi của Bài 23 'Mở rộng khái niệm phân số. Phân số bằng nhau', hãy ghép mỗi nội dung kiến thức ở cột bên trái với từ khóa/công thức tóm tắt tương ứng ở cột bên phải:",
+      "generalfeedback": "Tóm tắt thông tin bằng công thức và từ khóa giúp lưu giữ kiến thức một cách khoa học và chọn lọc.",
+      "subquestions": [
+        {
+          "question": "Khái niệm phân số",
+          "answer": "\\(\\frac{a}{b}\\) với \\(a, b \\in \\mathbb{Z}, b \\neq 0\\)"
+        },
+        {
+          "question": "Quy tắc hai phân số bằng nhau",
+          "answer": "\\(\\frac{a}{b} = \\frac{c}{d}\\) nếu \\(a \\cdot d = b \\cdot c\\)"
+        },
+        {
+          "question": "Tính chất nhân cả tử và mẫu",
+          "answer": "\\(\\frac{a}{b} = \\frac{a \\cdot m}{b \\cdot m}\\) với \\(m \\in \\mathbb{Z}, m \\neq 0\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "questiontext": "Đoạn văn mở đầu bài học cung cấp thông tin: 'Khoảng \\(\\frac{2}{5}\\) động vật có vú ở biển và \\(\\frac{11}{25}\\) các loài chim biển bị ảnh hưởng bởi ô nhiễm rác thải nhựa.' Dựa vào đoạn văn trên, thông tin nào sau đây là chính xác?",
+      "generalfeedback": "Phân số \\(\\frac{2}{5}\\) biểu thị tỷ lệ động vật có vú ở biển và \\(\\frac{11}{25}\\) biểu thị tỷ lệ các loài chim biển bị ảnh hưởng bởi rác thải nhựa ở biển.",
+      "answers": [
+        {
+          "text": "Phân số \\(\\frac{2}{5}\\) biểu thị tỷ lệ động vật có vú ở biển bị ảnh hưởng bởi rác thải nhựa.",
+          "fraction": 100
+        },
+        {
+          "text": "Phân số \\(\\frac{2}{5}\\) biểu thị tỷ lệ các loài chim biển bị ảnh hưởng bởi rác thải nhựa.",
+          "fraction": 0
+        },
+        {
+          "text": "Phân số \\(\\frac{11}{25}\\) biểu thị số lượng cá biển bị chết mỗi năm.",
+          "fraction": 0
+        },
+        {
+          "text": "Phân số \\(\\frac{11}{25}\\) biểu thị tỷ lệ động vật có vú ở biển bị ảnh hưởng.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Khi so sánh hai phân số \\(\\frac{-3}{5}\\) và \\(\\frac{9}{-15}\\), học sinh A thực hiện thao tác lập luận: 'Nhân tích chéo \\((-3) \\cdot (-15) = 45\\) và \\(5 \\cdot 9 = 45\\). Vì hai tích chéo bằng nhau nên hai phân số bằng nhau.' Em đánh giá lập luận của bạn A như thế nào?",
+      "generalfeedback": "Lập luận của bạn A hoàn toàn chính xác dựa trên quy tắc bằng nhau của hai phân số: \\(\\frac{a}{b} = \\frac{c}{d}\\) nếu \\(a \\cdot d = b \\cdot c\\).",
+      "answers": [
+        {
+          "text": "Lập luận đúng, vì đã áp dụng đúng quy tắc tích chéo của hai phân số bằng nhau.",
+          "fraction": 100
+        },
+        {
+          "text": "Lập luận sai, vì mẫu số -15 là số âm nên không thể nhân tích chéo.",
+          "fraction": 0
+        },
+        {
+          "text": "Lập luận sai, vì tích chéo phải ra kết quả bằng 0 hai phân số mới bằng nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Lập luận đúng, nhưng hai tích chéo phải bằng -45 mới chính xác.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Để giải thích tại sao phân số \\(\\frac{-9}{21}\\) bằng phân số \\(\\frac{-3}{7}\\), ta phân tích: Chia cả tử và mẫu của \\(\\frac{-9}{21}\\) cho ước chung [[1]] ta được phân số [[2]]. Thao tác tư duy này sử dụng tính chất [[3]] của phân số.",
+      "generalfeedback": "Ta có \\(\\frac{-9:3}{21:3} = \\frac{-3}{7}\\). Thao tác tư duy này dựa trên tính chất chia cả tử và mẫu cho cùng một ước chung khác 1 và -1 (rút gọn phân số).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "3"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{-3}{7}\\)"
+        },
+        {
+          "group": 1,
+          "text": "cơ bản thứ hai"
+        },
+        {
+          "group": 1,
+          "text": "-3"
+        },
+        {
+          "group": 1,
+          "text": "cơ bản thứ nhất"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Một vòi nước chảy vào một bể không có nước, sau 40 phút thì đầy bể. Hỏi sau 10 phút, lượng nước đã chảy chiếm bao nhiêu phần bể (viết dưới dạng phân số tối giản \\(\\frac{a}{b}\\))? Tính giá trị của mẫu số b. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Sau 10 phút lượng nước chảy chiếm \\(\\frac{10}{40}\\) bể. Rút gọn phân số: \\(\\frac{10}{40} = \\frac{10:10}{40:10} = \\frac{1}{4}\\). Mẫu số b = 4.",
+      "answers": [
+        {
+          "text": "4",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_05",
+      "questiontext": "Bạn Hà Linh nhận được tiền thưởng 200 000 đồng và mua quà tặng sinh nhật mẹ hết 80 000 đồng. Phân số tối giản biểu thị phần tiền thưởng Hà Linh đã tiêu là:",
+      "generalfeedback": "Phần tiền thưởng Hà Linh đã tiêu là \\(\\frac{80 000}{200 000} = \\frac{80}{200} = \\frac{80:40}{200:40} = \\frac{2}{5}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{2}{5}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{4}{10}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{8}{20}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{3}{5}\\)",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

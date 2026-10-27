@@ -1,0 +1,721 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 28,
+    "metadata_used": {
+      "Khái niệm số thập phân vô hạn không tuần hoàn": 4,
+      "Khái niệm số vô tỉ I": 4,
+      "YCCD_TOAN7_028": 4,
+      "Nhận biết số vô tỉ": 4,
+      "Phân biệt số hữu tỉ và số vô tỉ": 4,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_TUCHUTUHOC": 1,
+      "NLC_GIAOTIEP": 1,
+      "NLT_TOAN_C2_01": 2,
+      "NLT_TOAN_C2_03": 2
+    },
+    "types_used": {
+      "multichoice": 15,
+      "gapselect": 3,
+      "truefalse": 3,
+      "ddwtos": 1,
+      "numerical": 2,
+      "matching": 3,
+      "shortanswer": 1
+    },
+    "total": 28
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "Khái niệm số thập phân vô hạn không tuần hoàn",
+        "reason": "Được đo lường qua các câu hỏi về khái niệm và đặc điểm của số thập phân vô hạn không tuần hoàn."
+      },
+      {
+        "metadata_code": "Khái niệm số vô tỉ I",
+        "reason": "Được đo lường qua các câu hỏi về định nghĩa số vô tỉ và kí hiệu tập hợp số vô tỉ."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_028",
+        "reason": "Được đo lường qua các câu hỏi nhận biết số vô tỉ trong các ví dụ thực tế và số học."
+      },
+      {
+        "metadata_code": "Nhận biết số vô tỉ",
+        "reason": "Được đo lường qua kĩ năng nhận dạng số vô tỉ và làm tròn số thập phân vô hạn."
+      },
+      {
+        "metadata_code": "Phân biệt số hữu tỉ và số vô tỉ",
+        "reason": "Được đo lường qua kĩ năng phân biệt, phân loại số hữu tỉ và số vô tỉ."
+      },
+      {
+        "metadata_code": "PC_CHAMCHI",
+        "reason": "Được đo lường qua bài tập tình huống thể hiện phẩm chất chăm chỉ, kiên trì trong học tập."
+      },
+      {
+        "metadata_code": "PC_TRUNGTHUC",
+        "reason": "Được đo lường qua bài tập tình huống thể hiện phẩm chất trung thực trong kiểm tra."
+      },
+      {
+        "metadata_code": "NLC_TUCHUTUHOC",
+        "reason": "Được đo lường qua bài tập ghép nối tự hệ thống hóa kiến thức bằng sơ đồ tư duy."
+      },
+      {
+        "metadata_code": "NLC_GIAOTIEP",
+        "reason": "Được đo lường qua bài tập chọn phương án thể hiện năng lực giao tiếp và hợp tác nhóm."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01",
+        "reason": "Được đo lường qua câu hỏi phân tích logic chuỗi lập luận và bản chất số vô tỉ."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03",
+        "reason": "Được đo lường qua bài toán mô hình hóa toán học và giải quyết vấn đề thực tế."
+      }
+    ],
+    "not_measurable_metadata": []
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm số thập phân vô hạn không tuần hoàn",
+      "questiontext": "Số thập phân vô hạn không tuần hoàn là số thập phân có phần thập phân như thế nào?",
+      "generalfeedback": "Số thập phân vô hạn không tuần hoàn là số thập phân có phần thập phân kéo dài vô hạn và không tuần hoàn (không lặp lại theo chu kì).",
+      "answers": [
+        {
+          "text": "Kéo dài vô hạn và không có chu kì lặp lại",
+          "fraction": 100
+        },
+        {
+          "text": "Có số lượng chữ số ở phần thập phân là hữu hạn",
+          "fraction": 0
+        },
+        {
+          "text": "Kéo dài vô hạn và có một chu kì lặp đi lặp lại",
+          "fraction": 0
+        },
+        {
+          "text": "Kéo dài vô hạn và các chữ số sau dấu phẩy đều bằng 0",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm số thập phân vô hạn không tuần hoàn",
+      "questiontext": "Số vô tỉ là số viết được dưới dạng số thập phân [[1]] không [[2]].",
+      "generalfeedback": "Theo định nghĩa trong SGK, số vô tỉ là số viết được dưới dạng số thập phân vô hạn không tuần hoàn.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "vô hạn"
+        },
+        {
+          "group": 1,
+          "text": "tuần hoàn"
+        },
+        {
+          "group": 1,
+          "text": "hữu hạn"
+        },
+        {
+          "group": 1,
+          "text": "nguyên"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm số vô tỉ I",
+      "questiontext": "Trong toán học, tập hợp các số vô tỉ được kí hiệu là gì?",
+      "generalfeedback": "Tập hợp các số vô tỉ được kí hiệu là \\(I\\).",
+      "answers": [
+        {
+          "text": "\\(I\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\mathbb{Q}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\mathbb{Z}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\mathbb{N}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Khái niệm số vô tỉ I",
+      "questiontext": "Khẳng định sau đúng hay sai: \"Mọi số thập phân vô hạn đều là số vô tỉ.\"",
+      "generalfeedback": "Khẳng định trên là sai vì chỉ có số thập phân vô hạn KHÔNG tuần hoàn mới là số vô tỉ. Số thập phân vô hạn tuần hoàn là số hữu tỉ.",
+      "answers": [
+        {
+          "text": "Sai",
+          "fraction": 100
+        },
+        {
+          "text": "Đúng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_028",
+      "questiontext": "Số nào sau đây là một số vô tỉ?",
+      "generalfeedback": "Số \\(\\pi = 3,14159265358...\\) là số thập phân vô hạn không tuần hoàn nên \\(\\pi\\) là số vô tỉ. Các số còn lại đều là số hữu tỉ.",
+      "answers": [
+        {
+          "text": "\\(\\pi\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\dfrac{3}{4}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-2,5\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(0\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_028",
+      "questiontext": "Người ta đã chứng minh được rằng không có số [[1]] nào mà bình phương bằng 2. Số \\(x > 0\\) thỏa mãn \\(x^2 = 2\\) là một số [[2]].",
+      "generalfeedback": "SGK nêu rõ: Không có số hữu tỉ nào mà bình phương bằng 2. Số \\(x\\) có \\(x^2 = 2\\) là số thập phân vô hạn không tuần hoàn \\(x = 1,41421356...\\), do đó \\(x\\) là số vô tỉ.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "hữu tỉ"
+        },
+        {
+          "group": 1,
+          "text": "vô tỉ"
+        },
+        {
+          "group": 1,
+          "text": "tự nhiên"
+        },
+        {
+          "group": 1,
+          "text": "nguyên"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết số vô tỉ",
+      "questiontext": "Trong các số sau, số nào là số vô tỉ?",
+      "generalfeedback": "Số \\(-0,1010010001...\\) là số thập phân vô hạn không tuần hoàn nên là số vô tỉ. Các số còn lại là số thập phân hữu hạn, phân số hoặc số tự nhiên nên là số hữu tỉ.",
+      "answers": [
+        {
+          "text": "\\(-0,1010010001...\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(0,25\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-\\dfrac{1}{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(5\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Nhận biết số vô tỉ",
+      "questiontext": "Cho số vô tỉ \\(x = 1,41421356...\\) Hãy làm tròn số \\(x\\) đến chữ số thập phân thứ hai. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Chữ số sau hàng làm tròn (chữ số thập phân thứ ba) là 4 (< 5), nên ta giữ nguyên chữ số hàng phần trăm: \\(1,41421356... \\approx 1,41\\).",
+      "answers": [
+        {
+          "text": "1.41",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Phân biệt số hữu tỉ và số vô tỉ",
+      "questiontext": "Hãy ghép mỗi số ở cột bên trái với tập hợp số thích hợp ở cột bên phải.",
+      "generalfeedback": "\\(0,75\\) và \\(-\\dfrac{2}{5}\\) là các số hữu tỉ. \\(\\pi\\) và \\(0,1010010001...\\) là các số vô tỉ.",
+      "subquestions": [
+        {
+          "question": "Số \\(0,75\\)",
+          "answer": "Số hữu tỉ"
+        },
+        {
+          "question": "Số \\(\\pi\\)",
+          "answer": "Số vô tỉ"
+        },
+        {
+          "question": "Số \\(-\\dfrac{2}{5}\\)",
+          "answer": "Số hữu tỉ"
+        },
+        {
+          "question": "Số \\(0,1010010001...\\)",
+          "answer": "Số vô tỉ"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Phân biệt số hữu tỉ và số vô tỉ",
+      "questiontext": "Phát biểu nào sau đây phân biệt đúng giữa số hữu tỉ và số vô tỉ?",
+      "generalfeedback": "Số hữu tỉ viết được dưới dạng số thập phân hữu hạn hoặc vô hạn tuần hoàn. Số vô tỉ viết được dưới dạng số thập phân vô hạn không tuần hoàn.",
+      "answers": [
+        {
+          "text": "Số hữu tỉ biểu diễn được dưới dạng số thập phân hữu hạn hoặc vô hạn tuần hoàn, còn số vô tỉ biểu diễn dưới dạng số thập phân vô hạn không tuần hoàn",
+          "fraction": 100
+        },
+        {
+          "text": "Số hữu tỉ luôn là số dương, còn số vô tỉ luôn là số âm",
+          "fraction": 0
+        },
+        {
+          "text": "Số hữu tỉ biểu diễn dưới dạng số thập phân vô hạn không tuần hoàn, còn số vô tỉ là số thập phân hữu hạn",
+          "fraction": 0
+        },
+        {
+          "text": "Số hữu tỉ không viết được dưới dạng phân số, còn số vô tỉ luôn viết được dưới dạng phân số",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm số thập phân vô hạn không tuần hoàn",
+      "questiontext": "Khẳng định sau đúng hay sai: \"Số vô tỉ là số viết được dưới dạng số thập phân vô hạn không tuần hoàn.\"",
+      "generalfeedback": "Theo SGK, số vô tỉ là số viết được dưới dạng số thập phân vô hạn không tuần hoàn. Do đó khẳng định này là đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm số vô tỉ I",
+      "questiontext": "Tập hợp các số vô tỉ được kí hiệu bằng chữ cái in hoa nào?",
+      "generalfeedback": "Tập hợp các số vô tỉ được kí hiệu là I.",
+      "answers": [
+        {
+          "text": "I",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_028",
+      "questiontext": "Tỉ số giữa chu vi và đường kính của một đường tròn bất kì luôn bằng số nào sau đây?",
+      "generalfeedback": "Tỉ số giữa chu vi và đường kính của một đường tròn luôn bằng 3,14159265358... Đây là số vô tỉ \\(\\pi\\) (đọc là \"pi\").",
+      "answers": [
+        {
+          "text": "Số vô tỉ \\(\\pi\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Số hữu tỉ 3,14",
+          "fraction": 0
+        },
+        {
+          "text": "Số tự nhiên 3",
+          "fraction": 0
+        },
+        {
+          "text": "Phân số \\(\\dfrac{22}{7}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết số vô tỉ",
+      "questiontext": "Số \\(-0,1010010001...\\) (sau dấu phẩy viết liên tiếp các số 10; 100; 1 000; ...) là số [[1]] vì nó viết được dưới dạng số thập phân [[2]].",
+      "generalfeedback": "Số \\(-0,1010010001...\\) là số vô tỉ vì phần thập phân kéo dài vô hạn và không có chu kì lặp lại (số thập phân vô hạn không tuần hoàn).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "vô tỉ"
+        },
+        {
+          "group": 1,
+          "text": "vô hạn không tuần hoàn"
+        },
+        {
+          "group": 1,
+          "text": "hữu tỉ"
+        },
+        {
+          "group": 1,
+          "text": "vô hạn tuần hoàn"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Phân biệt số hữu tỉ và số vô tỉ",
+      "questiontext": "Cho các số sau: \\(1,25\\); \\(-\\dfrac{3}{4}\\); \\(\\pi\\); \\(0,(6)\\). Có bao nhiêu số vô tỉ trong các số đã cho?",
+      "generalfeedback": "Trong các số đã cho, \\(1,25\\) là số thập phân hữu hạn; \\(-\\dfrac{3}{4}\\) là phân số; \\(0,(6)\\) là số thập phân vô hạn tuần hoàn nên chúng đều là số hữu tỉ. Chỉ có \\(\\pi\\) là số vô tỉ. Vậy có đúng 1 số vô tỉ.",
+      "answers": [
+        {
+          "text": "1",
+          "fraction": 100
+        },
+        {
+          "text": "2",
+          "fraction": 0
+        },
+        {
+          "text": "3",
+          "fraction": 0
+        },
+        {
+          "text": "4",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Nhận biết số vô tỉ",
+      "questiontext": "Biết số \\(\\pi = 3,14159265...\\) Hãy làm tròn số \\(\\pi\\) đến chữ số thập phân thứ hai. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Chữ số sau hàng làm tròn (chữ số thập phân thứ ba) là 1 (< 5), nên ta giữ nguyên chữ số hàng làm tròn: \\(\\pi \\approx 3,14\\).",
+      "answers": [
+        {
+          "text": "3.14",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Khái niệm số thập phân vô hạn không tuần hoàn",
+      "questiontext": "Số nào dưới đây KHÔNG PHẢI là số thập phân vô hạn không tuần hoàn?",
+      "generalfeedback": "Số \\(0,(3) = 0,333...\\) là số thập phân vô hạn tuần hoàn với chu kì là 3 (là số hữu tỉ), không phải là số thập phân vô hạn không tuần hoàn.",
+      "answers": [
+        {
+          "text": "\\(0,(3)\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(1,41421356...\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(3,14159265...\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(0,1010010001...\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Khái niệm số vô tỉ I",
+      "questiontext": "Hãy ghép mỗi đặc điểm ở cột bên trái với khẳng định phù hợp ở cột bên phải.",
+      "generalfeedback": "Số viết được dưới dạng phân số hoặc số thập phân vô hạn tuần hoàn là số hữu tỉ. Số viết được dưới dạng số thập phân vô hạn không tuần hoàn là số vô tỉ.",
+      "subquestions": [
+        {
+          "question": "Số viết được dưới dạng phân số \\(\\dfrac{a}{b}\\) với \\(a, b \\in \\mathbb{Z}, b \\neq 0\\)",
+          "answer": "Là số hữu tỉ"
+        },
+        {
+          "question": "Số viết được dưới dạng số thập phân vô hạn không tuần hoàn",
+          "answer": "Là số vô tỉ"
+        },
+        {
+          "question": "Số biểu diễn được dưới dạng số thập phân vô hạn tuần hoàn",
+          "answer": "Là số hữu tỉ"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_028",
+      "questiontext": "Một hình vuông có diện tích bằng \\(2\\text{ dm}^2\\). Nếu gọi độ dài cạnh hình vuông đó là \\(x\\text{ (dm)}\\) (với \\(x > 0\\)) thì khẳng định nào sau đây đúng?",
+      "generalfeedback": "Diện tích hình vuông là \\(x^2 = 2\\). Theo SGK, không có số hữu tỉ nào mà bình phương bằng 2; số \\(x = 1,41421356...\\) là số thập phân vô hạn không tuần hoàn, tức là số vô tỉ.",
+      "answers": [
+        {
+          "text": "\\(x^2 = 2\\) và \\(x\\) là số vô tỉ",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x^2 = 2\\) và \\(x\\) là số hữu tỉ",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x = 1\\) và \\(x\\) là số tự nhiên",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x^2 = 4\\) và \\(x\\) là số vô tỉ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Phân biệt số hữu tỉ và số vô tỉ",
+      "questiontext": "Khẳng định sau đúng hay sai: \"Số 0 vừa là số hữu tỉ, vừa là số vô tỉ.\"",
+      "generalfeedback": "Khẳng định này sai vì số 0 là số hữu tỉ (viết được thành phân số \\(\\dfrac{0}{1}\\)), trong khi số vô tỉ là số thập phân vô hạn không tuần hoàn. Một số không thể vừa là số hữu tỉ vừa là số vô tỉ.",
+      "answers": [
+        {
+          "text": "Sai",
+          "fraction": 100
+        },
+        {
+          "text": "Đúng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Trong giờ học Toán về \"Số vô tỉ\", thầy giáo yêu cầu học sinh làm việc cá nhân: Cắt hình vuông cạnh \\(2\\text{ dm}\\) thành 4 tam giác vuông bằng nhau rồi ghép lại thành hình vuông mới có diện tích \\(2\\text{ dm}^2\\) để tìm độ dài cạnh (như Hình 2.2 trong SGK). Khi tính độ dài cạnh và thấy xuất hiện số thập phân vô hạn không tuần hoàn \\(x = 1,41421356...\\), bạn Nam cảm thấy khó hiểu và lúng túng. Để thể hiện phẩm chất chăm chỉ và kiên trì trong học tập, bạn Nam nên làm gì?",
+      "generalfeedback": "Hành động kiên trì đọc lại sách giáo khoa, tự tay thực hành lại các thao tác cắt ghép và chủ động tìm kiếm sự hướng dẫn của thầy cô khi gặp kiến thức mới, khó (như số vô tỉ) thể hiện rõ phẩm chất chăm chỉ, nỗ lực vượt khó trong học tập.",
+      "answers": [
+        {
+          "text": "Kiên trì đọc lại phần giải thích trong SGK, cẩn thận thực hiện lại các thao tác cắt ghép hình để hiểu rõ bản chất số vô tỉ và chủ động hỏi thầy cô phần chưa hiểu",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài thực hành cắt ghép vì cho rằng số vô tỉ quá trừu tượng và chỉ cần nhớ công thức",
+          "fraction": 0
+        },
+        {
+          "text": "Chờ bạn bên cạnh làm xong rồi chép ngay kết quả vào vở để hoàn thành nhiệm vụ nhanh nhất",
+          "fraction": 0
+        },
+        {
+          "text": "Gấp sách lại và chuyển sang làm việc khác vì bài toán không thể biểu diễn cạnh dưới dạng số hữu tỉ",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Trong bài kiểm tra 15 phút về số vô tỉ, đề bài có câu hỏi: \"Số \\(\\pi = 3,14159265358...\\) là số hữu tỉ hay số vô tỉ? Vì sao?\". Bạn Quân đang phân vân vì nhớ số \\(3,14\\) là số thập phân hữu hạn. Bạn ngồi bên cạnh vô tình để lộ bài làm với câu trả lời: \"Số \\(\\pi\\) là số hữu tỉ vì viết được là 3,14\". Để thể hiện phẩm chất trung thực trong kiểm tra và học tập, bạn Quân nên làm gì?",
+      "generalfeedback": "Phẩm chất trung thực trong học tập đòi hỏi học sinh phải tự giác, trung thực trong kiểm tra, tự mình làm bài dựa trên kiến thức đã học về số vô tỉ (\\(\\pi\\) là số thập phân vô hạn không tuần hoàn), không nhìn hay sao chép bài của bạn dù trong bất kỳ hoàn cảnh nào.",
+      "answers": [
+        {
+          "text": "Tự lực suy nghĩ dựa trên định nghĩa số vô tỉ (số thập phân vô hạn không tuần hoàn) để ghi câu trả lời của chính mình là số vô tỉ, không nhìn và không chép bài của bạn",
+          "fraction": 100
+        },
+        {
+          "text": "Chép lại đáp án \"số hữu tỉ\" của bạn vào bài của mình để kịp giờ nộp bài",
+          "fraction": 0
+        },
+        {
+          "text": "Thì thầm hỏi bạn bên cạnh để xin bạn giải thích thêm rồi mới quyết định có chép hay không",
+          "fraction": 0
+        },
+        {
+          "text": "Nhìn bài của bạn rồi chỉ sửa lại một vài từ ngữ cho khác bạn để tránh bị thầy cô phát hiện",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Để tự hệ thống hóa kiến thức tự học về bài \"Số vô tỉ\" vào sơ đồ tư duy (mindmap), bạn Linh cần phân loại các thông tin đã ghi chép được. Em hãy ghép mỗi nội dung ghi chú ở cột bên trái với nhánh chủ đề phù hợp ở cột bên phải.",
+      "generalfeedback": "Học sinh thể hiện năng lực tự chủ và tự học thông qua việc phân loại và sắp xếp các thông tin ghi chép được vào đúng các nhánh chủ đề của sơ đồ tư duy (Khái niệm, Kí hiệu tập hợp, Ví dụ tiêu biểu, Quy tắc làm tròn).",
+      "subquestions": [
+        {
+          "question": "Số vô tỉ là số viết được dưới dạng số thập phân vô hạn không tuần hoàn",
+          "answer": "Khái niệm"
+        },
+        {
+          "question": "Tập hợp các số vô tỉ được kí hiệu là \\(I\\)",
+          "answer": "Kí hiệu tập hợp"
+        },
+        {
+          "question": "Số \\(\\pi = 3,14159265...\\) và số \\(-0,1010010001...\\)",
+          "answer": "Ví dụ tiêu biểu"
+        },
+        {
+          "question": "Làm tròn số thập phân vô hạn tương tự như số thập phân hữu hạn",
+          "answer": "Quy tắc làm tròn"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_GIAOTIEP",
+      "questiontext": "Trong giờ học nhóm về mục Vận dụng 1 (tính số \\(\\pi\\) theo quy tắc cổ: \"quân bát, phát tam, tồn ngũ, quân nhị\"), nhóm của bạn Mai gồm 4 thành viên được giao nhiệm vụ tính toán và thuyết trình trước lớp. Khi phân công công việc và trao đổi, cách làm việc nào sau đây thể hiện tốt nhất năng lực giao tiếp và hợp tác?",
+      "generalfeedback": "Năng lực giao tiếp và hợp tác thể hiện ở việc các thành viên cùng tích cực trao đổi, phân công nhiệm vụ phù hợp với năng lực từng người, tôn trọng và tiếp thu ý kiến của nhau để cùng hoàn thành mục tiêu chung của nhóm.",
+      "answers": [
+        {
+          "text": "Cả nhóm cùng thảo luận làm rõ ý nghĩa của quy tắc cổ, phân công rõ người phụ trách tính toán, người vẽ sơ đồ minh họa, người thuyết trình, đồng thời lắng nghe và tôn trọng ý kiến đóng góp của từng thành viên",
+          "fraction": 100
+        },
+        {
+          "text": "Trưởng nhóm tự giải toàn bộ bài toán rồi yêu cầu các bạn khác chỉ ngồi nghe mà không cần phát biểu",
+          "fraction": 0
+        },
+        {
+          "text": "Mỗi thành viên tự làm một cách riêng biệt và nộp 4 bài làm khác nhau mà không cần thống nhất ý kiến chung",
+          "fraction": 0
+        },
+        {
+          "text": "Đùn đẩy nhiệm vụ thuyết trình cho bạn học giỏi nhất nhóm vì các thành viên còn lại ngại trình bày",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Bạn Tuấn đưa ra chuỗi lập luận sau để chứng minh một nhận định:\n\"Bước 1: Phân số \\(\\dfrac{22}{7}\\) khi viết dưới dạng số thập phân là số thập phân vô hạn tuần hoàn \\(3,(142857)\\), do đó \\(\\dfrac{22}{7}\\) là số hữu tỉ.\nBước 2: Trong nhiều sách thực hành, người ta thường lấy giá trị của \\(\\pi\\) xấp xỉ bằng \\(\\dfrac{22}{7}\\).\nBước 3: Vì \\(\\pi \\approx \\dfrac{22}{7}\\) và \\(\\dfrac{22}{7}\\) là số hữu tỉ, nên số \\(\\pi\\) cũng là một số hữu tỉ.\"\nHãy phân tích tính đúng đắn trong chuỗi lập luận của bạn Tuấn:",
+      "generalfeedback": "Học sinh thể hiện năng lực tư duy và lập luận toán học qua việc phân tích logic của chuỗi suy luận: Phân biệt được sự khác nhau căn bản giữa giá trị gần đúng (xấp xỉ) và giá trị chính xác. Việc \\(\\pi \\approx \\dfrac{22}{7}\\) chỉ mang ý nghĩa xấp xỉ thực hành, bản chất \\(\\pi\\) là số thập phân vô hạn không tuần hoàn nên \\(\\pi \\in I\\) (số vô tỉ), không thể suy diễn \\(\\pi\\) là số hữu tỉ.",
+      "answers": [
+        {
+          "text": "Lập luận bị sai ở Bước 3, vì quan hệ xấp xỉ không đồng nghĩa với bằng nhau; giá trị chính xác của \\(\\pi\\) là số thập phân vô hạn không tuần hoàn nên \\(\\pi\\) là số vô tỉ",
+          "fraction": 100
+        },
+        {
+          "text": "Lập luận của Tuấn hoàn toàn chính xác và chặt chẽ ở cả ba bước",
+          "fraction": 0
+        },
+        {
+          "text": "Lập luận bị sai ở Bước 1, vì \\(\\dfrac{22}{7}\\) là số thập phân hữu hạn chứ không phải tuần hoàn",
+          "fraction": 0
+        },
+        {
+          "text": "Lập luận bị sai ở Bước 2, vì trong thực tế không ai dùng \\(\\dfrac{22}{7}\\) để làm giá trị xấp xỉ của \\(\\pi\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Xem xét số \\(a = 0,12122122212222...\\) (sau mỗi chữ số 1, số lượng chữ số 2 tăng thêm một chữ số). Tuy phần thập phân chỉ gồm hai chữ số 1 và 2, nhưng số lượng chữ số 2 thay đổi liên tục nên phần thập phân không có [[1]] lặp lại cố định. Do đó, \\(a\\) là số thập phân vô hạn [[2]], tức là \\(a\\) là số [[3]].",
+      "generalfeedback": "Năng lực tư duy và lập luận toán học: Để một số thập phân vô hạn là tuần hoàn, phải tồn tại một chu kì lặp lại cố định. Ở số \\(a\\), số lượng chữ số 2 tăng dần vô hạn nên không có chu kì lặp lại. Vì vậy \\(a\\) là số thập phân vô hạn không tuần hoàn, tức là số vô tỉ.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "chu kì"
+        },
+        {
+          "group": 1,
+          "text": "không tuần hoàn"
+        },
+        {
+          "group": 1,
+          "text": "vô tỉ"
+        },
+        {
+          "group": 1,
+          "text": "hữu tỉ"
+        },
+        {
+          "group": 1,
+          "text": "tuần hoàn"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "questiontext": "Trong mục Vận dụng 1 (SGK), người xưa tính đường kính thân cây theo quy tắc: \"quân bát, phát tam, tồn ngũ, quân nhị\" (lấy chu vi thân cây chia làm 8 phần bằng nhau, bớt đi 3 phần, còn lại 5 phần rồi chia đôi kết quả). Gọi \\(C\\) là chu vi thân cây và \\(d\\) là đường kính thân cây tìm được theo quy tắc trên. Hãy lập mô hình toán học tính \\(d\\) theo \\(C\\) và xác định giá trị ước lượng của số \\(\\pi = \\dfrac{C}{d}\\) mà người xưa đã dùng.",
+      "generalfeedback": "Giải quyết vấn đề toán học:\n- Bước 1 (Mô hình hóa): Chu vi chia làm 8 phần là \\(\\dfrac{C}{8}\\); bớt 3 phần còn 5 phần là \\(5 \\times \\dfrac{C}{8} = \\dfrac{5}{8}C\\); chia đôi kết quả ta được đường kính: \\(d = \\dfrac{5}{8}C : 2 = \\dfrac{5}{16}C\\).\n- Bước 2 (Giải quyết): Tỉ số giữa chu vi và đường kính là \\(\\pi \\approx \\dfrac{C}{d} = \\dfrac{C}{\\frac{5}{16}C} = \\dfrac{16}{5} = 3,2\\).",
+      "answers": [
+        {
+          "text": "\\(d = \\dfrac{5}{16}C\\) và giá trị ước lượng của \\(\\pi\\) là \\(3,2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(d = \\dfrac{5}{8}C\\) và giá trị ước lượng của \\(\\pi\\) là \\(1,6\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(d = \\dfrac{3}{16}C\\) và giá trị ước lượng của \\(\\pi\\) là \\(5,33\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(d = \\dfrac{1}{4}C\\) và giá trị ước lượng của \\(\\pi\\) là \\(4\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "questiontext": "Bác thợ mộc cần làm một mặt bàn hình vuông có diện tích đúng bằng \\(2\\text{ m}^2\\). Bác muốn dùng thanh nẹp gỗ viền quanh 4 cạnh của mặt bàn. Biết rằng độ dài cạnh hình vuông có diện tích \\(2\\text{ m}^2\\) là số vô tỉ \\(x = 1,41421356...\\text{ m}\\). Để chuẩn bị chiều dài thanh nẹp gỗ đủ dùng trong thực tế với độ chính xác đến hàng phần trăm (sau đó nhân 4), bác thợ mộc nên làm tròn độ dài cạnh \\(x\\) đến chữ số thập phân thứ mấy và tổng chiều dài thanh nẹp xấp xỉ bằng bao nhiêu?",
+      "generalfeedback": "Giải quyết vấn đề thực tế bằng toán học: Trong thực tế sản xuất, với các kích thước là số vô tỉ (như cạnh hình vuông có diện tích 2), ta áp dụng quy tắc làm tròn số thập phân vô hạn để tính toán gần đúng. Làm tròn \\(x = 1,41421356...\\) đến hàng phần trăm (chữ số thập phân thứ hai) được \\(1,41\\text{ m}\\). Chu vi mặt bàn cần nẹp là \\(4 \\times 1,41 = 5,64\\text{ m}\\).",
+      "answers": [
+        {
+          "text": "Làm tròn cạnh đến chữ số thập phân thứ hai là \\(1,41\\text{ m}\\) và tổng chiều dài thanh nẹp xấp xỉ là \\(5,64\\text{ m}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Làm tròn cạnh đến hàng đơn vị là \\(1\\text{ m}\\) và tổng chiều dài thanh nẹp xấp xỉ là \\(4\\text{ m}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Làm tròn cạnh đến chữ số thập phân thứ nhất là \\(1,5\\text{ m}\\) và tổng chiều dài thanh nẹp xấp xỉ là \\(6\\text{ m}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Không thể tính được vì cạnh là số vô tỉ nên không thể làm tròn trong thực tế",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

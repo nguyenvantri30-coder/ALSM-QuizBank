@@ -1,0 +1,934 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 38,
+    "metadata_used": {
+      "Khái niệm đẳng thức": 3,
+      "YCCD_TOAN7_018": 3,
+      "Quy tắc chuyển vế trong đẳng thức": 4,
+      "Vận dụng quy tắc chuyển vế để tìm x": 6,
+      "Biến đổi đẳng thức số hữu tỉ": 2,
+      "YCCD_TOAN7_023": 2,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_TUCHUTUHOC": 1,
+      "NLC_GIAOTIEP": 1,
+      "NLT_TOAN_C2_01": 2,
+      "NLT_TOAN_C2_03": 2
+    },
+    "types_used": {
+      "multichoice": 15,
+      "truefalse": 4,
+      "numerical": 4,
+      "matching": 3,
+      "gapselect": 4,
+      "ddwtos": 3,
+      "calculated": 3,
+      "shortanswer": 2
+    },
+    "total": 38
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_018",
+        "reason": "Mô tả được quy tắc chuyển vế trong tập hợp số hữu tỉ"
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_023",
+        "reason": "Giải quyết được một số vấn đề thực tiễn gắn với các phép tính về số hữu tỉ"
+      },
+      {
+        "metadata_code": "Khái niệm đẳng thức",
+        "reason": "Khái niệm đẳng thức, vế trái, vế phải"
+      },
+      {
+        "metadata_code": "Quy tắc chuyển vế trong đẳng thức",
+        "reason": "Quy tắc chuyển vế trong đẳng thức"
+      },
+      {
+        "metadata_code": "Vận dụng quy tắc chuyển vế để tìm x",
+        "reason": "Vận dụng quy tắc chuyển vế để tìm x"
+      },
+      {
+        "metadata_code": "Biến đổi đẳng thức số hữu tỉ",
+        "reason": "Biến đổi đẳng thức số hữu tỉ"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Nội dung học về Quy tắc chuyển vế trong SGK Toán 7 thuần túy là lý thuyết và bài tập đại số, không chứa công cụ hoặc kỹ năng tin học/số để đánh giá tự nhiên."
+      },
+      {
+        "metadata_code": "N2",
+        "reason": "Nội dung bài học không liên quan trực tiếp đến ứng dụng công nghệ/phần mềm tin học."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học là kiến thức toán học cơ bản, không có ngữ cảnh tự nhiên gắn liền với nguyên lý hoặc ứng dụng Trí tuệ nhân tạo (AI)."
+      },
+      {
+        "metadata_code": "A2",
+        "reason": "Không có cơ sở để thiết kế câu hỏi đánh giá Năng lực AI một cách tự nhiên từ nội dung tiết học."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm đẳng thức",
+      "imgs": [
+        "_page_0_Picture_9.jpeg"
+      ],
+      "questiontext": "[img:_page_0_Picture_9.jpeg]\nBiết cân ở trạng thái cân bằng. Gọi \\(x\\) (kg) là cân nặng của quả bưởi. Ta có đẳng thức \\(5,1 + x = 7\\). Trong đẳng thức này, vế trái của đẳng thức là:",
+      "generalfeedback": "Trong đẳng thức \\(5,1 + x = 7\\), vế trái là biểu thức nằm ở bên trái dấu bằng, tức là \\(5,1 + x\\).",
+      "answers": [
+        {
+          "text": "\\(5,1 + x\\)",
+          "fraction": 100
+        },
+        {
+          "text": "7",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x = 7\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(5,1\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_018",
+      "questiontext": "Phát biểu nào sau đây là đúng về quy tắc chuyển vế trong một đẳng thức?",
+      "generalfeedback": "Theo quy tắc chuyển vế: Khi chuyển một số hạng từ vế này sang vế kia của một đẳng thức, ta phải đổi dấu số hạng đó: dấu '+' đổi thành dấu '-' và dấu '-' đổi thành dấu '+'.",
+      "answers": [
+        {
+          "text": "Khi chuyển một số hạng từ vế này sang vế kia của một đẳng thức, ta phải đổi dấu số hạng đó.",
+          "fraction": 100
+        },
+        {
+          "text": "Khi chuyển một số hạng từ vế này sang vế kia của một đẳng thức, ta giữ nguyên dấu của số hạng đó.",
+          "fraction": 0
+        },
+        {
+          "text": "Khi chuyển một số hạng từ vế này sang vế kia của một đẳng thức, ta luôn đổi dấu tất cả các số hạng ở vế kia.",
+          "fraction": 0
+        },
+        {
+          "text": "Khi chuyển một số hạng từ vế này sang vế kia của một đẳng thức, ta đổi vế trái thành vế phải.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc chuyển vế trong đẳng thức",
+      "questiontext": "Khẳng định sau đây Đúng hay Sai: 'Nếu \\(a + b = c\\) thì theo quy tắc chuyển vế ta có \\(a = c - b\\)'.",
+      "generalfeedback": "Theo quy tắc chuyển vế, khi chuyển số hạng \\(b\\) từ vế trái sang vế phải của đẳng thức \\(a + b = c\\), ta đổi dấu '+' thành dấu '-' nên thu được \\(a = c - b\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm đẳng thức",
+      "questiontext": "Cho đẳng thức \\(2 \\cdot (b + 1) = 2b + 2\\). Hãy cho biết vế phải của đẳng thức này là gì?",
+      "generalfeedback": "Trong đẳng thức \\(2 \\cdot (b + 1) = 2b + 2\\), vế phải là biểu thức nằm bên phải dấu bằng, tức là \\(2b + 2\\).",
+      "answers": [
+        {
+          "text": "\\(2b + 2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(2 \\cdot (b + 1)\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2b\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Vận dụng quy tắc chuyển vế để tìm x",
+      "questiontext": "Tìm \\(x\\), biết \\(x + 7,25 = 15,75\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Áp dụng quy tắc chuyển vế: \\(x + 7,25 = 15,75 \\Rightarrow x = 15,75 - 7,25 \\Rightarrow x = 8,5\\).",
+      "answers": [
+        {
+          "text": "8.5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Biến đổi đẳng thức số hữu tỉ",
+      "questiontext": "Ghép mỗi đẳng thức ở cột bên trái với đẳng thức tương ứng sau khi áp dụng quy tắc chuyển vế ở cột bên phải:",
+      "generalfeedback": "Khi chuyển một số hạng từ vế này sang vế kia, ta đổi dấu số hạng đó: dấu '+' chuyển thành '-' và dấu '-' chuyển thành '+'.",
+      "subquestions": [
+        {
+          "question": "\\(x + \\frac{1}{2} = -\\frac{6}{7}\\)",
+          "answer": "\\(x = -\\frac{6}{7} - \\frac{1}{2}\\)"
+        },
+        {
+          "question": "\\(x - \\frac{3}{4} = \\frac{9}{8}\\)",
+          "answer": "\\(x = \\frac{9}{8} + \\frac{3}{4}\\)"
+        },
+        {
+          "question": "\\(x + 0,25 = \\frac{1}{2}\\)",
+          "answer": "\\(x = \\frac{1}{2} - 0,25\\)"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_018",
+      "questiontext": "Khi chuyển một số hạng từ vế này sang vế kia của một đẳng thức, ta phải [[1]] dấu số hạng đó: dấu '+' đổi thành dấu [[2]] và dấu '-' đổi thành dấu '+'.",
+      "generalfeedback": "Phát biểu chính xác quy tắc chuyển vế: 'Khi chuyển một số hạng từ vế này sang vế kia của một đẳng thức, ta phải đổi dấu số hạng đó: dấu '+' đổi thành dấu '-' và dấu '-' đổi thành dấu '+'.'",
+      "choices": [
+        {
+          "group": 1,
+          "text": "đổi"
+        },
+        {
+          "group": 1,
+          "text": "-"
+        },
+        {
+          "group": 1,
+          "text": "giữ nguyên"
+        },
+        {
+          "group": 1,
+          "text": "+"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Quy tắc chuyển vế trong đẳng thức",
+      "questiontext": "Từ đẳng thức \\(a - b = c\\), áp dụng quy tắc chuyển vế ta chuyển số hạng \\(-b\\) sang vế phải thì thu được \\(a = c\\) [[1]] [[2]].",
+      "generalfeedback": "Khi chuyển số hạng \\(-b\\) từ vế trái sang vế phải, ta đổi dấu '-' thành '+' nên thu được \\(a = c + b\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "+"
+        },
+        {
+          "group": 1,
+          "text": "b"
+        },
+        {
+          "group": 1,
+          "text": "-"
+        },
+        {
+          "group": 1,
+          "text": "a"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Vận dụng quy tắc chuyển vế để tìm x",
+      "questiontext": "Tìm giá trị của x trong đẳng thức: x + {a} = {b}.",
+      "generalfeedback": "Áp dụng quy tắc chuyển vế, ta có x = {b} - {a}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 20.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 25.0,
+          "max": 50.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{b}-{a}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_023",
+      "imgs": [
+        "_page_2_Picture_15.jpeg"
+      ],
+      "questiontext": "[img:_page_2_Picture_15.jpeg]\nVào dịp Tết Nguyên đán, bà của An gói bánh chưng. Mỗi cái bánh chưng sau khi gói nặng khoảng 0,8 kg gồm 0,5 kg gạo nếp; 0,125 kg đậu xanh; 0,04 kg lá dong, còn lại là thịt. Gọi \\(x\\) (kg) là khối lượng thịt trong mỗi cái bánh chưng. Đẳng thức nào sau đây thể hiện mối quan hệ giữa các khối lượng thành phần của cái bánh chưng?",
+      "generalfeedback": "Tổng khối lượng gạo nếp, đậu xanh, lá dong và thịt bằng khối lượng của cái bánh chưng, do đó ta có đẳng thức: \\(0,5 + 0,125 + 0,04 + x = 0,8\\).",
+      "answers": [
+        {
+          "text": "\\(0,5 + 0,125 + 0,04 + x = 0,8\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(0,5 + 0,125 + 0,04 - x = 0,8\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(0,5 + 0,125 + 0,04 = 0,8 + x\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x = 0,8 + 0,5 + 0,125 + 0,04\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc chuyển vế trong đẳng thức",
+      "questiontext": "Cho đẳng thức \\(x - a = b\\). Khi chuyển số hạng \\(-a\\) sang vế phải, ta được đẳng thức nào sau đây?",
+      "generalfeedback": "Theo quy tắc chuyển vế, khi chuyển \\(-a\\) từ vế trái sang vế phải, ta đổi dấu \\(-\\) thành \\(+\\), nên ta được \\(x = b + a\\).",
+      "answers": [
+        {
+          "text": "\\(x = b + a\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x = b - a\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x = -b + a\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x = -b - a\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Vận dụng quy tắc chuyển vế để tìm x",
+      "questiontext": "Tìm \\(x\\), biết \\(x - \\frac{1}{3} = \\frac{2}{5}\\).",
+      "generalfeedback": "Chuyển \\(-\\frac{1}{3}\\) sang vế phải: \\(x = \\frac{2}{5} + \\frac{1}{3} = \\frac{6}{15} + \\frac{5}{15} = \\frac{11}{15}\\).",
+      "answers": [
+        {
+          "text": "\\(x = \\frac{11}{15}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x = \\frac{1}{15}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x = -\\frac{1}{15}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x = \\frac{3}{8}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Biến đổi đẳng thức số hữu tỉ",
+      "questiontext": "Đúng hay Sai: Để tìm \\(x\\) trong đẳng thức \\(\\frac{3}{4} - x = \\frac{1}{2}\\), ta có thể biến đổi thành \\(x = \\frac{3}{4} - \\frac{1}{2}\\).",
+      "generalfeedback": "Chuyển \\(-x\\) sang vế phải thành \\(+x\\) và \\(\\frac{1}{2}\\) sang vế trái thành \\(-\\frac{1}{2}\\), ta được \\(\\frac{3}{4} - \\frac{1}{2} = x\\) hay \\(x = \\frac{3}{4} - \\frac{1}{2}\\). Khẳng định này là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Vận dụng quy tắc chuyển vế để tìm x",
+      "questiontext": "Tìm số hữu tỉ \\(x\\) thỏa mãn \\(x + 1,5 = -2,5\\).",
+      "generalfeedback": "Chuyển \\(1,5\\) sang vế phải: \\(x = -2,5 - 1,5 = -4\\).",
+      "answers": [
+        {
+          "text": "-4",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_023",
+      "questiontext": "Một chiếc máy bay đang bay ở độ cao \\(h\\) (m). Sau khi giảm độ cao \\(120,5\\) m thì độ cao mới của máy bay là \\(8500\\) m. Hãy tính độ cao ban đầu \\(h\\) của máy bay. (Chỉ điền số thập phân/số nguyên)",
+      "generalfeedback": "Ta có đẳng thức \\(h - 120,5 = 8500\\). Chuyển vế: \\(h = 8500 + 120,5 = 8620,5\\) m.",
+      "answers": [
+        {
+          "text": "8620.5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Quy tắc chuyển vế trong đẳng thức",
+      "questiontext": "Cho đẳng thức \\(a + b = c + d\\). Nếu chuyển số hạng \\(b\\) sang vế phải và chuyển số hạng \\(d\\) sang vế trái, ta được đẳng thức nào?",
+      "generalfeedback": "Chuyển \\(b\\) sang vế phải thành \\(-b\\), chuyển \\(d\\) sang vế trái thành \\(-d\\), ta được \\(a - d = c - b\\).",
+      "answers": [
+        {
+          "text": "\\(a - d = c - b\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(a + d = c + b\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a - b = c - d\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a + c = b + d\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm đẳng thức",
+      "questiontext": "Nối mỗi đẳng thức với vế trái tương ứng của nó:",
+      "generalfeedback": "Vế trái là toàn bộ biểu thức nằm ở bên trái dấu bằng trong một đẳng thức.",
+      "subquestions": [
+        {
+          "question": "\\(3x - 5 = 10\\)",
+          "answer": "\\(3x - 5\\)"
+        },
+        {
+          "question": "\\(7 = 2x + 1\\)",
+          "answer": "7"
+        },
+        {
+          "question": "\\(\\frac{x}{2} + 3 = y\\)",
+          "answer": "\\(\\frac{x}{2} + 3\\)"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Vận dụng quy tắc chuyển vế để tìm x",
+      "questiontext": "Để tìm \\(x\\) trong đẳng thức \\(x - \\frac{2}{3} = -\\frac{1}{2}\\), ta chuyển \\(-\\frac{2}{3}\\) sang vế phải thành [[1]] và tính được \\(x =\\) [[3]].",
+      "generalfeedback": "Chuyển \\(-\\frac{2}{3}\\) sang vế phải đổi dấu thành \\(+\\frac{2}{3}\\). Khi đó \\(x = -\\frac{1}{2} + \\frac{2}{3} = -\\frac{3}{6} + \\frac{4}{6} = \\frac{1}{6}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "+\\frac{2}{3}"
+        },
+        {
+          "group": 1,
+          "text": "-\\frac{2}{3}"
+        },
+        {
+          "group": 2,
+          "text": "\\frac{1}{6}"
+        },
+        {
+          "group": 2,
+          "text": "-\\frac{7}{6}"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_018",
+      "questiontext": "Trong một đẳng thức, khi chuyển một số hạng từ vế trái sang vế phải, ta phải [[1]] dấu của số hạng đó. Ví dụ: số hạng \\(+a\\) sẽ đổi thành [[2]].",
+      "generalfeedback": "Theo quy tắc chuyển vế: Khi chuyển một số hạng từ vế này sang vế kia của đẳng thức, ta phải đổi dấu số hạng đó (+a thành -a).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "đổi"
+        },
+        {
+          "group": 1,
+          "text": "giữ nguyên"
+        },
+        {
+          "group": 1,
+          "text": "-a"
+        },
+        {
+          "group": 1,
+          "text": "+a"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "thong_hieu",
+      "metadata_code": "Vận dụng quy tắc chuyển vế để tìm x",
+      "questiontext": "Tìm x biết x - {a} = {b}.",
+      "generalfeedback": "Áp dụng quy tắc chuyển vế: \\(x - {a} = {b} \\Rightarrow x = {b} + {a}\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 15.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 5.0,
+          "max": 30.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{b}+{a}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc chuyển vế trong đẳng thức",
+      "questiontext": "Cho đẳng thức \\(x - a = b\\). Khi chuyển số hạng \\(-a\\) sang vế phải, ta được đẳng thức nào sau đây?",
+      "generalfeedback": "Theo quy tắc chuyển vế, khi chuyển \\(-a\\) từ vế trái sang vế phải, ta đổi dấu \\(-\\) thành \\(+\\), nên ta được \\(x = b + a\\).",
+      "answers": [
+        {
+          "text": "\\(x = b + a\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x = b - a\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x = -b + a\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x = -b - a\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Vận dụng quy tắc chuyển vế để tìm x",
+      "questiontext": "Tìm \\(x\\), biết \\(x - \\frac{1}{3} = \\frac{2}{5}\\).",
+      "generalfeedback": "Chuyển \\(-\\frac{1}{3}\\) sang vế phải: \\(x = \\frac{2}{5} + \\frac{1}{3} = \\frac{6}{15} + \\frac{5}{15} = \\frac{11}{15}\\).",
+      "answers": [
+        {
+          "text": "\\(x = \\frac{11}{15}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x = \\frac{1}{15}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x = -\\frac{1}{15}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x = \\frac{3}{8}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Biến đổi đẳng thức số hữu tỉ",
+      "questiontext": "Đúng hay Sai: Để tìm \\(x\\) trong đẳng thức \\(\\frac{3}{4} - x = \\frac{1}{2}\\), ta có thể biến đổi thành \\(x = \\frac{3}{4} - \\frac{1}{2}\\).",
+      "generalfeedback": "Chuyển \\(-x\\) sang vế phải thành \\(+x\\) và \\(\\frac{1}{2}\\) sang vế trái thành \\(-\\frac{1}{2}\\), ta được \\(\\frac{3}{4} - \\frac{1}{2} = x\\) hay \\(x = \\frac{3}{4} - \\frac{1}{2}\\). Khẳng định này là Đúng.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Vận dụng quy tắc chuyển vế để tìm x",
+      "questiontext": "Tìm số hữu tỉ \\(x\\) thỏa mãn \\(x + 1,5 = -2,5\\).",
+      "generalfeedback": "Chuyển \\(1,5\\) sang vế phải: \\(x = -2,5 - 1,5 = -4\\).",
+      "answers": [
+        {
+          "text": "-4",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_023",
+      "questiontext": "Một chiếc máy bay đang bay ở độ cao \\(h\\) (m). Sau khi giảm độ cao \\(120,5\\) m thì độ cao mới của máy bay là \\(8500\\) m. Hãy tính độ cao ban đầu \\(h\\) của máy bay. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Ta có đẳng thức \\(h - 120,5 = 8500\\). Chuyển vế: \\(h = 8500 + 120,5 = 8620,5\\) m.",
+      "answers": [
+        {
+          "text": "8620.5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Quy tắc chuyển vế trong đẳng thức",
+      "questiontext": "Cho đẳng thức \\(a + b = c + d\\). Nếu chuyển số hạng \\(b\\) sang vế phải và chuyển số hạng \\(d\\) sang vế trái, ta được đẳng thức nào?",
+      "generalfeedback": "Chuyển \\(b\\) sang vế phải thành \\(-b\\), chuyển \\(d\\) sang vế trái thành \\(-d\\), ta được \\(a - d = c - b\\).",
+      "answers": [
+        {
+          "text": "\\(a - d = c - b\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(a + d = c + b\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a - b = c - d\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a + c = b + d\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm đẳng thức",
+      "questiontext": "Nối mỗi đẳng thức với vế trái tương ứng của nó:",
+      "generalfeedback": "Vế trái là toàn bộ biểu thức nằm ở bên trái dấu bằng trong một đẳng thức.",
+      "subquestions": [
+        {
+          "question": "\\(3x - 5 = 10\\)",
+          "answer": "\\(3x - 5\\)"
+        },
+        {
+          "question": "\\(7 = 2x + 1\\)",
+          "answer": "7"
+        },
+        {
+          "question": "\\(\\frac{x}{2} + 3 = y\\)",
+          "answer": "\\(\\frac{x}{2} + 3\\)"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Vận dụng quy tắc chuyển vế để tìm x",
+      "questiontext": "Để tìm \\(x\\) trong đẳng thức \\(x - \\frac{2}{3} = -\\frac{1}{2}\\), ta chuyển \\(-\\frac{2}{3}\\) sang vế phải thành [[1]] và tính được \\(x =\\) [[3]].",
+      "generalfeedback": "Chuyển \\(-\\frac{2}{3}\\) sang vế phải đổi dấu thành \\(+\\frac{2}{3}\\). Khi đó \\(x = -\\frac{1}{2} + \\frac{2}{3} = -\\frac{3}{6} + \\frac{4}{6} = \\frac{1}{6}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "+\\frac{2}{3}"
+        },
+        {
+          "group": 1,
+          "text": "-\\frac{2}{3}"
+        },
+        {
+          "group": 2,
+          "text": "\\frac{1}{6}"
+        },
+        {
+          "group": 2,
+          "text": "-\\frac{7}{6}"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_018",
+      "questiontext": "Trong một đẳng thức, khi chuyển một số hạng từ vế trái sang vế phải, ta phải [[1]] dấu của số hạng đó. Ví dụ: số hạng \\(+a\\) sẽ đổi thành [[2]].",
+      "generalfeedback": "Theo quy tắc chuyển vế: Khi chuyển một số hạng từ vế này sang vế kia của đẳng thức, ta phải đổi dấu số hạng đó (+a thành -a).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "đổi"
+        },
+        {
+          "group": 1,
+          "text": "giữ nguyên"
+        },
+        {
+          "group": 1,
+          "text": "-a"
+        },
+        {
+          "group": 1,
+          "text": "+a"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "thong_hieu",
+      "metadata_code": "Vận dụng quy tắc chuyển vế để tìm x",
+      "questiontext": "Tìm x biết x - {a} = {b}.",
+      "generalfeedback": "Áp dụng quy tắc chuyển vế: \\(x - {a} = {b} \\Rightarrow x = {b} + {a}\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 15.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 5.0,
+          "max": 30.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{b}+{a}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Trong giờ học Toán về quy tắc chuyển vế, khi giải bài tập tìm \\(x\\) có nhiều số hạng mang dấu âm, bạn Nam đã làm xong trước cả lớp nhưng vẫn kiên nhẫn thử lại kết quả bằng cách thay \\(x\\) vào đẳng thức ban đầu để kiểm tra. Hành vi của bạn Nam thể hiện phẩm chất nào?",
+      "generalfeedback": "Hành vi cẩn thận, kiên nhẫn kiểm tra lại bài làm nhiều lần để đảm bảo chính xác là biểu hiện rõ nét của phẩm chất chăm chỉ trong học tập.",
+      "answers": [
+        {
+          "text": "Chăm chỉ và có ý thức trách nhiệm đối với kết quả học tập của bản thân.",
+          "fraction": 100
+        },
+        {
+          "text": "Trung thực khi không chép bài của bạn khác.",
+          "fraction": 0
+        },
+        {
+          "text": "Yêu nước và tự hào về môn Toán.",
+          "fraction": 0
+        },
+        {
+          "text": "Nhân ái khi luôn giúp đỡ bạn bè xung quanh.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Trong bài kiểm tra 15 phút, khi phát hiện mình tính sai quy tắc chuyển vế ở câu tìm \\(x\\) làm kết quả bị sai, nhưng giáo viên chưa chấm tới bài của mình, bạn Lan đã tự giác báo với cô giáo để nhận lỗi và rút kinh nghiệm thay vì tìm cách giấu lỗi. Khẳng định: 'Hành động của bạn Lan thể hiện phẩm chất trung thực trong học tập' là Đúng hay Sai?",
+      "generalfeedback": "Dám nhìn nhận sai sót trong quá trình làm bài và trung thực báo cáo với giáo viên thể hiện phẩm chất trung thực.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Để tự học hiệu quả quy tắc chuyển vế trong tập hợp số hữu tỉ, bạn Bình dự định lập sơ đồ tư duy tóm tắt kiến thức. Sơ đồ tư duy của Bình nên tổ chức các thông tin cốt lõi nào theo thứ tự hợp lý nhất?",
+      "generalfeedback": "Để thể hiện năng lực tự chủ và tự học, sơ đồ kiến thức cần logic: Khái niệm đẳng thức (vế trái, vế phải) -> Quy tắc chuyển vế (chuyển vế thì đổi dấu) -> Các bước vận dụng tìm x.",
+      "answers": [
+        {
+          "text": "Khái niệm đẳng thức (vế trái, vế phải) \\(\\rightarrow\\) Quy tắc chuyển vế (đổi dấu số hạng) \\(\\rightarrow\\) Các bước vận dụng tìm \\(x\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Cộng trừ số hữu tỉ \\(\\rightarrow\\) Nhân chia số hữu tỉ \\(\\rightarrow\\) Quy tắc dấu ngoặc.",
+          "fraction": 0
+        },
+        {
+          "text": "Quy tắc chuyển vế \\(\\rightarrow\\) Bảng cửu chương \\(\\rightarrow\\) So sánh hai số hữu tỉ.",
+          "fraction": 0
+        },
+        {
+          "text": "Khái niệm số hữu tỉ \\(\\rightarrow\\) Số biểu diễn trên trục số \\(\\rightarrow\\) Giá trị tuyệt đối.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_GIAOTIEP",
+      "questiontext": "Trong hoạt động thảo luận nhóm, bạn Mai muốn giải thích quy tắc chuyển vế cho các bạn trong nhóm hiểu rõ. Mai nói: 'Khi chuyển một số hạng từ vế này sang vế kia của một đẳng thức, ta phải [[1]] dấu của số hạng đó: dấu \\(+\\) đổi thành dấu [[2]] và dấu \\(-\\) đổi thành dấu \\(+\\).'",
+      "generalfeedback": "Năng lực giao tiếp toán học thể hiện qua việc diễn đạt chính xác quy tắc: đổi dấu số hạng, dấu '+' đổi thành dấu '-'.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "đổi"
+        },
+        {
+          "group": 1,
+          "text": "-"
+        },
+        {
+          "group": 1,
+          "text": "giữ nguyên"
+        },
+        {
+          "group": 1,
+          "text": "+"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Bạn Minh biến đổi đẳng thức \\(x - \\frac{3}{5} = -\\frac{1}{2}\\) như sau:\nBước 1: \\(x = -\\frac{1}{2} + \\frac{3}{5}\\)\nBước 2: \\(x = -\\frac{5}{10} + \\frac{6}{10}\\)\nBước 3: \\(x = \\frac{1}{10}\\)\nLập luận nào sau đây về lời giải của bạn Minh là chính xác?",
+      "generalfeedback": "Ở Bước 1, bạn Minh đã áp dụng đúng quy tắc chuyển vế: chuyển số hạng -3/5 từ vế trái sang vế phải đổi dấu thành +3/5. Bước 2 quy đồng mẫu số đúng và Bước 3 tính toán chính xác.",
+      "answers": [
+        {
+          "text": "Lời giải của Minh hoàn toàn đúng vì đã áp dụng chính xác quy tắc chuyển vế (chuyển \\(-\\frac{3}{5}\\) thành \\(+\\frac{3}{5}\\)) và tính toán đúng.",
+          "fraction": 100
+        },
+        {
+          "text": "Lời giải của Minh sai ở Bước 1 vì khi chuyển vế phải giữ nguyên dấu là \\(-\\frac{3}{5}\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Lời giải của Minh sai ở Bước 2 do quy đồng mẫu số sai.",
+          "fraction": 0
+        },
+        {
+          "text": "Lời giải của Minh sai ở Bước 3 vì \\(-\\frac{5}{10} + \\frac{6}{10} = -\\frac{1}{10}\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Cho hai đẳng thức \\(a + b = c\\) và \\(c - d = e\\). Bằng cách sử dụng tư duy lập luận toán học và quy tắc chuyển vế, đẳng thức nào sau đây diễn tả đúng mối quan hệ giữa \\(a, b, d\\) và \\(e\\)?",
+      "generalfeedback": "Từ \\(a + b = c\\), thay \\(c = a + b\\) vào đẳng thức \\(c - d = e\\), ta được \\(a + b - d = e\\). Chuyển \\(-d\\) sang vế phải ta được \\(a + b = e + d\\).",
+      "answers": [
+        {
+          "text": "\\(a + b = e + d\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(a - b = e - d\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a + b + d = -e\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(a + e = b + d\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "imgs": [
+        "_page_0_Picture_9.jpeg"
+      ],
+      "questiontext": "[img:_page_0_Picture_9.jpeg]\nMột chiếc cân đĩa đang ở trạng thái cân bằng. Vế trái gồm một quả sầu riêng nặng 5,1 kg và một quả bưởi nặng \\(x\\) kg. Vế phải là một quả mít nặng 7 kg. Mô hình hóa bài toán bằng đẳng thức và sử dụng quy tắc chuyển vế để giải quyết vấn đề thực tiễn: Quả bưởi nặng bao nhiêu kilôgam?",
+      "generalfeedback": "Mô hình hóa bằng đẳng thức \\(5,1 + x = 7\\). Áp dụng quy tắc chuyển vế: \\(x = 7 - 5,1 = 1,9\\) kg.",
+      "answers": [
+        {
+          "text": "1,9 kg",
+          "fraction": 100
+        },
+        {
+          "text": "2,1 kg",
+          "fraction": 0
+        },
+        {
+          "text": "12,1 kg",
+          "fraction": 0
+        },
+        {
+          "text": "1,8 kg",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "questiontext": "Để làm một cái bánh chưng nặng 0,8 kg, bà An dùng 0,5 kg gạo nếp; 0,125 kg đậu xanh; 0,04 kg lá dong và còn lại là thịt. Gọi \\(x\\) (kg) là khối lượng thịt. Thiết lập đẳng thức và vận dụng quy tắc chuyển vế để tìm khối lượng thịt \\(x\\) (kg). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Đẳng thức: \\(0,5 + 0,125 + 0,04 + x = 0,8 \\Rightarrow 0,665 + x = 0,8\\). Chuyển vế: \\(x = 0,8 - 0,665 = 0,135\\) kg.",
+      "answers": [
+        {
+          "text": "0.135",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    }
+  ]
+}

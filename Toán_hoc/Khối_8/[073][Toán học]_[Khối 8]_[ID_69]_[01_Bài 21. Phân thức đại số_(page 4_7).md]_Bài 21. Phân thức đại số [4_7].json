@@ -1,0 +1,596 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 23,
+    "metadata_used": {
+      "YCCD_TOAN8_023": 1,
+      "Khái niệm Phân thức đại số (dạng A/B với B khác 0)": 2,
+      "Nhận biết phân thức đại số": 3,
+      "YCCD_TOAN8_026": 1,
+      "Khái niệm Hai phân thức bằng nhau (A/B = C/D nếu A.D = B.C)": 1,
+      "Kiểm tra hai phân thức bằng nhau": 2,
+      "YCCD_TOAN8_024": 1,
+      "Điều kiện xác định của phân thức đại số": 1,
+      "Tìm điều kiện xác định của phân thức": 2,
+      "YCCD_TOAN8_025": 1,
+      "Giá trị của phân thức đại số": 1,
+      "Tính giá trị của phân thức tại giá trị cho trước của biến": 4,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 1,
+      "SUB_TCTH_TULUC_C2_01": 1,
+      "NLT_TOAN_C2_01_01": 1,
+      "NLT_TOAN_C2_04_12": 1
+    },
+    "types_used": {
+      "multichoice": 10,
+      "truefalse": 3,
+      "gapselect": 1,
+      "matching": 2,
+      "shortanswer": 3,
+      "ddwtos": 1,
+      "numerical": 2,
+      "calculatedsimple": 1
+    },
+    "total": 23
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN8_023",
+        "reason": "Có đủ cơ sở dữ liệu trong SGK để đo lường"
+      },
+      {
+        "metadata_code": "YCCD_TOAN8_024",
+        "reason": "Có đủ cơ sở dữ liệu trong SGK để đo lường"
+      },
+      {
+        "metadata_code": "YCCD_TOAN8_025",
+        "reason": "Có đủ cơ sở dữ liệu trong SGK để đo lường"
+      },
+      {
+        "metadata_code": "YCCD_TOAN8_026",
+        "reason": "Có đủ cơ sở dữ liệu trong SGK để đo lường"
+      },
+      {
+        "metadata_code": "Khái niệm Phân thức đại số (dạng A/B với B khác 0)",
+        "reason": "Có đủ cơ sở dữ liệu trong SGK để đo lường"
+      },
+      {
+        "metadata_code": "Khái niệm Hai phân thức bằng nhau (A/B = C/D nếu A.D = B.C)",
+        "reason": "Có đủ cơ sở dữ liệu trong SGK để đo lường"
+      },
+      {
+        "metadata_code": "Điều kiện xác định của phân thức đại số",
+        "reason": "Có đủ cơ sở dữ liệu trong SGK để đo lường"
+      },
+      {
+        "metadata_code": "Giá trị của phân thức đại số",
+        "reason": "Có đủ cơ sở dữ liệu trong SGK để đo lường"
+      },
+      {
+        "metadata_code": "Nhận biết phân thức đại số",
+        "reason": "Có đủ cơ sở dữ liệu trong SGK để đo lường"
+      },
+      {
+        "metadata_code": "Kiểm tra hai phân thức bằng nhau",
+        "reason": "Có đủ cơ sở dữ liệu trong SGK để đo lường"
+      },
+      {
+        "metadata_code": "Tìm điều kiện xác định của phân thức",
+        "reason": "Có đủ cơ sở dữ liệu trong SGK để đo lường"
+      },
+      {
+        "metadata_code": "Tính giá trị của phân thức tại giá trị cho trước của biến",
+        "reason": "Có đủ cơ sở dữ liệu trong SGK để đo lường"
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Thiết kế qua tình huống ứng dụng bài học trong ứng xử học đường"
+      },
+      {
+        "metadata_code": "SUB_TCTH_TULUC_C2_01",
+        "reason": "Thiết kế qua bài tập ghép nối lập kế hoạch tự học"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_01_01",
+        "reason": "Thiết kế qua so sánh tư duy toán học giữa phân số và phân thức"
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_04_12",
+        "reason": "Thiết kế qua diễn đạt ngôn ngữ toán học về điều kiện xác định"
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N",
+        "reason": "Bài học thuộc phân môn Đại số thuần lý thuyết/kỹ năng cơ bản, không có dữ liệu thực hành CNTT hay phần mềm chuyên dụng trong SGK."
+      },
+      {
+        "metadata_code": "A",
+        "reason": "Nội dung bài học không trực tiếp đề cập hay liên quan tự nhiên đến các nguyên lý hoặc công cụ Trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_023",
+      "questiontext": "Biểu thức nào sau đây là một phân thức đại số?",
+      "generalfeedback": "Một phân thức đại số là một biểu thức có dạng \\(\\frac{A}{B}\\), trong đó \\(A, B\\) là hai đa thức và \\(B\\) khác đa thức 0.",
+      "answers": [
+        {
+          "text": "\\(\\frac{2x - 1}{3y + 1}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{3 - 2x}{3 + \\frac{1}{x}}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{x + y}{0}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{\\sqrt{x}}{x - 1}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm Phân thức đại số (dạng A/B với B khác 0)",
+      "questiontext": "Mỗi đa thức cũng được coi là một phân thức đại số với mẫu thức bằng 1.",
+      "generalfeedback": "Theo nhận xét trong SGK, mỗi đa thức được coi là một phân thức đại số với mẫu thức bằng 1.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết phân thức đại số",
+      "questiontext": "Trong các cách viết sau, cách viết [[1]] cho ta một phân thức đại số, còn cách viết [[2]] không phải là phân thức đại số.",
+      "generalfeedback": "\\(\\frac{0}{x + 1}\\) là phân thức đại số vì tử và mẫu đều là đa thức, mẫu thức khác 0. Trong khi đó, \\(\\frac{y + z}{0}\\) có mẫu bằng 0 nên không phải phân thức.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(\\frac{0}{x + 1}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{y + z}{0}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{1}{0}\\)"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm Phân thức đại số (dạng A/B với B khác 0)",
+      "questiontext": "Hãy ghép mỗi phân thức đại số ở cột bên trái với mẫu thức tương ứng của nó ở cột bên phải.",
+      "generalfeedback": "Xác định mẫu thức của phân thức theo dạng \\(\\frac{A}{B}\\) với \\(B\\) là mẫu thức.",
+      "subquestions": [
+        {
+          "question": "Phân thức \\(\\frac{6y^3z}{x^2}\\)",
+          "answer": "\\(x^2\\)"
+        },
+        {
+          "question": "Phân thức \\(\\frac{xy + z}{-3}\\)",
+          "answer": "-3"
+        },
+        {
+          "question": "Phân thức \\(\\frac{0}{x + 1}\\)",
+          "answer": "\\(x + 1\\)"
+        },
+        {
+          "question": "Phân thức \\(x^3 - xy\\)",
+          "answer": "1"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_026",
+      "questiontext": "Hai phân thức \\(\\frac{A}{B}\\) và \\(\\frac{C}{D}\\) (với \\(B, D \\neq 0\\)) được gọi là bằng nhau nếu đẳng thức nào sau đây xảy ra?",
+      "generalfeedback": "Hai phân thức \\(\\frac{A}{B}\\) và \\(\\frac{C}{D}\\) bằng nhau nếu \\(A \\cdot D = B \\cdot C\\).",
+      "answers": [
+        {
+          "text": "\\(A \\cdot D = B \\cdot C\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(A \\cdot C = B \\cdot D\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(A \\cdot B = C \\cdot D\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(A + D = B + C\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm Hai phân thức bằng nhau (A/B = C/D nếu A.D = B.C)",
+      "questiontext": "Điền cụm từ thích hợp vào chỗ trống: Hai phân thức bằng nhau nếu các tích ... của chúng bằng nhau.",
+      "generalfeedback": "Hai phân thức bằng nhau nếu các tích chéo của chúng bằng nhau.",
+      "answers": [
+        {
+          "text": "chéo",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Kiểm tra hai phân thức bằng nhau",
+      "questiontext": "Khẳng định sau đúng hay sai: \\(\\frac{1 + x}{1 - x^2} = \\frac{1}{1 - x}\\) (với \\(x \\neq \\pm 1\\)).",
+      "generalfeedback": "Ta có \\((1 + x)(1 - x) = 1 - x^2 = (1 - x^2) \\cdot 1\\), do đó hai phân thức này bằng nhau.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_024",
+      "questiontext": "Điều kiện xác định của phân thức \\(\\frac{A}{B}\\) là điều kiện của biến để:",
+      "generalfeedback": "Điều kiện xác định của phân thức \\(\\frac{A}{B}\\) là điều kiện của biến để giá trị của mẫu thức \\(B\\) khác 0.",
+      "answers": [
+        {
+          "text": "Mẫu thức \\(B\\) khác 0",
+          "fraction": 100
+        },
+        {
+          "text": "Tử thức \\(A\\) khác 0",
+          "fraction": 0
+        },
+        {
+          "text": "Cả tử thức \\(A\\) và mẫu thức \\(B\\) đều khác 0",
+          "fraction": 0
+        },
+        {
+          "text": "Mẫu thức \\(B\\) bằng 0",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Điều kiện xác định của phân thức đại số",
+      "questiontext": "Điều kiện xác định của phân thức \\(\\frac{x - 3}{x + 2}\\) là [[1]], hay [[2]].",
+      "generalfeedback": "Mẫu thức của phân thức là \\(x + 2\\). Điều kiện xác định là \\(x + 2 \\neq 0\\) hay \\(x \\neq -2\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(x + 2 \\neq 0\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(x \\neq -2\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(x - 3 \\neq 0\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(x \\neq 2\\)"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Tìm điều kiện xác định của phân thức",
+      "questiontext": "Điều kiện xác định của phân thức \\(\\frac{x + 1}{x - 1}\\) là \\(x\\) khác giá trị nào?",
+      "generalfeedback": "Mẫu thức \\(x - 1 \\neq 0 \\Leftrightarrow x \\neq 1\\).",
+      "answers": [
+        {
+          "text": "1",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_025",
+      "questiontext": "Để tính giá trị của một phân thức đại số tại những giá trị cho trước của biến (thỏa mãn điều kiện xác định), ta làm như thế nào?",
+      "generalfeedback": "Để tính giá trị của phân thức tại những giá trị cho trước của biến ta thay các giá trị cho trước của biến vào phân thức đó rồi tính giá trị của biểu thức số nhận được.",
+      "answers": [
+        {
+          "text": "Thay các giá trị cho trước của biến vào phân thức đó rồi tính giá trị của biểu thức số nhận được.",
+          "fraction": 100
+        },
+        {
+          "text": "Thay các giá trị cho trước của biến vào tử thức rồi tính giá trị tử thức.",
+          "fraction": 0
+        },
+        {
+          "text": "Thay các giá trị cho trước của biến vào mẫu thức rồi tính giá trị mẫu thức.",
+          "fraction": 0
+        },
+        {
+          "text": "Cho mẫu thức bằng 0 rồi giải tìm giá trị của biến.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Giá trị của phân thức đại số",
+      "questiontext": "Giá trị của biểu thức số nhận được khi thay các biến trong phân thức đại số bằng các số (với mẫu số nhận được khác 0) được gọi là giá trị của phân thức tại các giá trị đã cho của biến.",
+      "generalfeedback": "Theo khái niệm trong SGK, giá trị của biểu thức số nhận được sau khi thay biến (mẫu khác 0) được gọi là giá trị của phân thức tại các giá trị đã cho của biến.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Tính giá trị của phân thức tại giá trị cho trước của biến",
+      "questiontext": "Tính giá trị của phân thức \\(\\frac{x^2 - x - 1}{x^2 + 3x}\\) tại \\(x = 2\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Thay \\(x = 2\\) vào phân thức: \\(\\frac{2^2 - 2 - 1}{2^2 + 3 \\cdot 2} = \\frac{1}{10} = 0.1\\).",
+      "answers": [
+        {
+          "text": "0.1",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "thong_hieu",
+      "metadata_code": "Tính giá trị của phân thức tại giá trị cho trước của biến",
+      "questiontext": "Cho phân thức \\(\\frac{x + a}{x - 1}\\) với hằng số a = {a}. Tính giá trị của phân thức tại \\(x = 2\\).",
+      "generalfeedback": "Thay \\(x = 2\\) vào phân thức ta được \\(\\frac{2 + {a}}{2 - 1} = 2 + {a}\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "2+{a}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết phân thức đại số",
+      "questiontext": "Biểu thức biểu thị tỉ số giữa chiều rộng và chiều dài của một hình chữ nhật có chiều rộng là \\(x\\) (cm) và chiều dài là \\(y\\) (cm) là phân thức nào?",
+      "generalfeedback": "Tỉ số giữa chiều rộng và chiều dài là \\(\\frac{x}{y}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{x}{y}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{y}{x}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x \\cdot y\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x + y\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Kiểm tra hai phân thức bằng nhau",
+      "questiontext": "Khẳng định nào sau đây là ĐÚNG về cặp phân thức \\(\\frac{-6}{-4y}\\) và \\(\\frac{3y}{2y^2}\\) (với \\(y \\neq 0\\))?",
+      "generalfeedback": "Ta có \\((-6) \\cdot (2y^2) = -12y^2\\) và \\((-4y) \\cdot (3y) = -12y^2\\). Vì hai tích chéo bằng nhau nên hai phân thức bằng nhau.",
+      "answers": [
+        {
+          "text": "\\(\\frac{-6}{-4y} = \\frac{3y}{2y^2}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{-6}{-4y} \\neq \\frac{3y}{2y^2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{-6}{-4y} < \\frac{3y}{2y^2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{-6}{-4y} > \\frac{3y}{2y^2}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "nhan_biet",
+      "metadata_code": "Tìm điều kiện xác định của phân thức",
+      "questiontext": "Viết giá trị của \\(x\\) làm cho mẫu thức của phân thức \\(\\frac{x^2 + x - 2}{x + 2}\\) bằng 0. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Mẫu thức \\(x + 2 = 0 \\Leftrightarrow x = -2\\). Do đó điều kiện xác định là \\(x \\neq -2\\).",
+      "answers": [
+        {
+          "text": "-2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết phân thức đại số",
+      "questiontext": "Trong cuộc đua xe đạp ở tình huống mở đầu, nếu vận tốc trung bình trên 36 km đường bằng phẳng là \\(x\\) (km/h) và vận tốc leo dốc kém vận tốc đường bằng phẳng 5 km/h, biểu thức biểu thị thời gian hoàn thành chặng leo dốc 9 km là:",
+      "generalfeedback": "Vận tốc leo dốc là \\(x - 5\\) (km/h). Thời gian chặng leo dốc là quãng đường chia cho vận tốc, tức là \\(\\frac{9}{x - 5}\\) (giờ).",
+      "answers": [
+        {
+          "text": "\\(\\frac{9}{x - 5}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{9}{x + 5}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{x - 5}{9}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{36}{x}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Tính giá trị của phân thức tại giá trị cho trước của biến",
+      "questiontext": "Tính giá trị của biểu thức \\(\\frac{120}{x}\\) tại \\(x = 60\\).",
+      "generalfeedback": "Thay \\(x = 60\\) vào biểu thức ta có \\(\\frac{120}{60} = 2\\).",
+      "answers": [
+        {
+          "text": "2",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ học Toán về phân thức đại số, Nam gặp bài toán tính giá trị của phân thức \\(\\frac{x^2 - 1}{x - 1}\\) tại \\(x = 1\\). Nhận thấy mẫu thức bằng 0 tại \\(x = 1\\) nên chưa tính được ngay. Để thể hiện sự nỗ lực vươn lên đạt kết quả tốt trong học tập, Nam nên chọn thái độ và hành động nào sau đây?",
+      "generalfeedback": "Thể hiện phẩm chất chăm chỉ, cố gắng vươn lên trong học tập: học sinh cần chủ động xem lại lý thuyết điều kiện xác định, kiên trì tìm hiểu nguyên do và trao đổi với thầy cô, bạn bè chứ không bỏ cuộc hay chép bài chống đối.",
+      "answers": [
+        {
+          "text": "Chủ động xem lại lý thuyết về điều kiện xác định của phân thức, kiên trì tìm hiểu lý do và hỏi thầy cô, bạn bè để hiểu rõ bản chất vấn đề.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua câu hỏi này và chép đáp án của bạn khác để nộp bài đúng giờ.",
+          "fraction": 0
+        },
+        {
+          "text": "Ghi đại một số bất kỳ vào bài làm để không bị để trống.",
+          "fraction": 0
+        },
+        {
+          "text": "Nản lòng, đóng sách vở lại và không tiếp tục làm các bài tập khác.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TULUC_C2_01",
+      "questiontext": "Bạn Mai lập kế hoạch tự học bài 'Phân thức đại số' ở nhà. Để thể hiện tính chủ động, tích cực trong học tập, Mai chia quy trình giải bài toán 'Tính giá trị của phân thức đại số tại giá trị cho trước của biến' thành các bước. Hãy ghép mỗi bước (ở cột bên trái) với hành động cụ thể tương ứng (ở cột bên phải).",
+      "generalfeedback": "Quy trình tự học chủ động gồm: Bước 1 tìm ĐKXĐ (mẫu khác 0), Bước 2 đối chiếu giá trị của biến với ĐKXĐ, Bước 3 thay số và tính toán nếu thỏa mãn.",
+      "subquestions": [
+        {
+          "question": "Bước 1: Tìm điều kiện xác định",
+          "answer": "Chủ động tìm các giá trị của biến làm cho mẫu thức khác 0"
+        },
+        {
+          "question": "Bước 2: Kiểm tra giá trị của biến",
+          "answer": "Tích cực đối chiếu giá trị cho trước của biến với điều kiện xác định"
+        },
+        {
+          "question": "Bước 3: Tính giá trị biểu thức",
+          "answer": "Thực hiện thay giá trị hợp lệ vào phân thức và tính ra kết quả số"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Thực hiện thao tác tư duy so sánh giữa tập hợp các 'phân số' (đã học ở lớp 6) và 'phân thức đại số' (học ở lớp 8), chọn phát biểu ĐÚNG nhất về điểm tương đồng cấu trúc giữa hai đối tượng này.",
+      "generalfeedback": "Thao tác tư duy so sánh giúp nhận ra điểm tương đồng cấu trúc: Cả phân số và phân thức đại số đều có dạng \\(\\frac{A}{B}\\) với điều kiện phần mẫu khác 0 (với phân số A, B là số nguyên; với phân thức A, B là đa thức).",
+      "answers": [
+        {
+          "text": "Cả hai đều có dạng biểu diễn \\(\\frac{A}{B}\\) với điều kiện phần ở mẫu (mẫu số hoặc mẫu thức) phải khác 0.",
+          "fraction": 100
+        },
+        {
+          "text": "Cả hai đều bắt buộc tử và mẫu phải là các số nguyên.",
+          "fraction": 0
+        },
+        {
+          "text": "Cả hai đều không đòi hỏi bất kỳ điều kiện xác định nào.",
+          "fraction": 0
+        },
+        {
+          "text": "Cả hai đều có tử thức là đa thức và mẫu thức là số nguyên.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04_12",
+      "questiontext": "Để kết hợp ngôn ngữ thông thường và ngôn ngữ toán học một cách chính xác khi diễn đạt điều kiện xác định của phân thức \\(\\frac{x - 3}{x + 2}\\), cách phát biểu nào sau đây là ĐÚNG nhất?",
+      "generalfeedback": "Năng lực biểu đạt ngôn ngữ toán học: Phân thức \\(\\frac{x - 3}{x + 2}\\) xác định khi và chỉ khi giá trị của mẫu thức \\(x + 2\\) khác 0, tức là \\(x \\neq -2\\).",
+      "answers": [
+        {
+          "text": "Phân thức \\(\\frac{x - 3}{x + 2}\\) xác định khi và chỉ khi mẫu thức \\(x + 2\\) khác 0, tức là \\(x \\neq -2\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Phân thức \\(\\frac{x - 3}{x + 2}\\) xác định khi và chỉ khi tử thức \\(x - 3\\) khác 0, tức là \\(x \\neq 3\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Phân thức \\(\\frac{x - 3}{x + 2}\\) xác định khi và chỉ khi cả tử thức và mẫu thức bằng 0.",
+          "fraction": 0
+        },
+        {
+          "text": "Phân thức \\(\\frac{x - 3}{x + 2}\\) luôn xác định với mọi giá trị của \\(x\\) mà không cần điều kiện.",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

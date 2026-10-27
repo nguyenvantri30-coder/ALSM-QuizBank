@@ -1,0 +1,663 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 28,
+    "metadata_used": {
+      "YCCD_TOAN8_087": 2,
+      "Khái niệm Hai tam giác đồng dạng (các góc tương ứng bằng nhau và các cạnh tương ứng tỉ lệ)": 3,
+      "Khái niệm Tỉ số đồng dạng k": 3,
+      "Kí hiệu đồng dạng": 2,
+      "Nhận biết hai tam giác đồng dạng": 2,
+      "Viết đúng kí hiệu đồng dạng theo thứ tự đỉnh tương ứng": 3,
+      "Tính tỉ số đồng dạng và tính độ dài cạnh, số đo góc tương ứng": 5,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TULUC_C2_01": 2,
+      "NLT_TOAN_C2_01_01": 2,
+      "NLT_TOAN_C2_04_12": 2
+    },
+    "types_used": {
+      "gapselect": 3,
+      "multichoice": 11,
+      "ddwtos": 1,
+      "truefalse": 5,
+      "shortanswer": 2,
+      "numerical": 3,
+      "matching": 3
+    },
+    "total": 28
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN8_087",
+        "reason": "Đo lường khả năng mô tả định nghĩa hai tam giác đồng dạng qua văn bản SGK."
+      },
+      {
+        "metadata_code": "Khái niệm Hai tam giác đồng dạng (các góc tương ứng bằng nhau và các cạnh tương ứng tỉ lệ)",
+        "reason": "Đo lường hiểu biết về khái niệm hai tam giác đồng dạng (góc tương ứng bằng nhau, cạnh tương ứng tỉ lệ)."
+      },
+      {
+        "metadata_code": "Khái niệm Tỉ số đồng dạng k",
+        "reason": "Đo lường kiến thức về tỉ số đồng dạng k và các tính chất nghịch đảo, bắc cầu."
+      },
+      {
+        "metadata_code": "Kí hiệu đồng dạng",
+        "reason": "Đo lường kiến thức về kí hiệu đồng dạng và quy ước viết đỉnh tương ứng."
+      },
+      {
+        "metadata_code": "Nhận biết hai tam giác đồng dạng",
+        "reason": "Đo lường kĩ năng nhận biết hai tam giác đồng dạng trong các trường hợp cụ thể."
+      },
+      {
+        "metadata_code": "Viết đúng kí hiệu đồng dạng theo thứ tự đỉnh tương ứng",
+        "reason": "Đo lường kĩ năng viết đúng kí hiệu đồng dạng theo thứ tự đỉnh tương ứng."
+      },
+      {
+        "metadata_code": "Tính tỉ số đồng dạng và tính độ dài cạnh, số đo góc tương ứng",
+        "reason": "Đo lường kĩ năng tính tỉ số đồng dạng, tính độ dài cạnh và số đo góc tương ứng."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N",
+        "reason": "Bài học Khái niệm hai tam giác đồng dạng (Tiết 1) tập trung vào lý thuyết và tính chất hình học phẳng cơ bản, không chứa nội dung thực hành công nghệ hay phần mềm số trong SGK."
+      },
+      {
+        "metadata_code": "A",
+        "reason": "Nội dung bài học là kiến thức hình học thuần túy, không có mối liên hệ tự nhiên trực tiếp với các mô hình hay ứng dụng trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_087",
+      "questiontext": "Điền từ thích hợp vào chỗ trống để hoàn thành định nghĩa: Tam giác \\(A'B'C'\\) gọi là đồng dạng với tam giác \\(ABC\\) nếu các góc tương ứng [[1]] và các cạnh tương ứng [[2]].",
+      "generalfeedback": "Theo định nghĩa SGK Toán 8: Tam giác \\(A'B'C'\\) gọi là đồng dạng với tam giác \\(ABC\\) nếu: \\(\\widehat{A'} = \\widehat{A}, \\widehat{B'} = \\widehat{B}, \\widehat{C'} = \\widehat{C}\\) (các góc tương ứng bằng nhau) và \\(\\frac{A'B'}{AB} = \\frac{B'C'}{BC} = \\frac{A'C'}{AC}\\) (các cạnh tương ứng tỉ lệ).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "bằng nhau"
+        },
+        {
+          "group": 1,
+          "text": "tỉ lệ"
+        },
+        {
+          "group": 1,
+          "text": "song song"
+        },
+        {
+          "group": 1,
+          "text": "vuông góc"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm Hai tam giác đồng dạng (các góc tương ứng bằng nhau và các cạnh tương ứng tỉ lệ)",
+      "questiontext": "Cho \\(\\Delta MNP \\sim \\Delta DEF\\). Khẳng định nào sau đây là đúng về các góc tương ứng?",
+      "generalfeedback": "Theo định nghĩa hai tam giác đồng dạng, hai tam giác đồng dạng thì các góc tương ứng bằng nhau: \\(\\widehat{M} = \\widehat{D}\\), \\(\\widehat{N} = \\widehat{E}\\), \\(\\widehat{P} = \\widehat{F}\\).",
+      "answers": [
+        {
+          "text": "\\(\\widehat{M} = \\widehat{D}, \\widehat{N} = \\widehat{E}, \\widehat{P} = \\widehat{F}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\widehat{M} = \\widehat{E}, \\widehat{N} = \\widehat{D}, \\widehat{P} = \\widehat{F}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\widehat{M} = \\widehat{F}, \\widehat{N} = \\widehat{E}, \\widehat{P} = \\widehat{D}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\widehat{M} + \\widehat{D} = 180^\\circ, \\widehat{N} + \\widehat{E} = 180^\\circ, \\widehat{P} + \\widehat{F} = 180^\\circ\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Khái niệm Hai tam giác đồng dạng (các góc tương ứng bằng nhau và các cạnh tương ứng tỉ lệ)",
+      "questiontext": "Kéo thả tên các cạnh thích hợp vào chỗ trống: Cho \\(\\Delta A'B'C' \\sim \\Delta ABC\\). Cạnh tương ứng với cạnh \\(A'B'\\) là cạnh [[1]], cạnh tương ứng với cạnh \\(B'C'\\) là cạnh [[2]], cạnh tương ứng với cạnh \\(A'C'\\) là cạnh [[3]].",
+      "generalfeedback": "Theo định nghĩa hai tam giác đồng dạng, các đỉnh tương ứng là \\(A'\\) với \\(A\\), \\(B'\\) với \\(B\\), \\(C'\\) với \\(C\\). Do đó các cạnh tương ứng là: \\(A'B'\\) tương ứng với \\(AB\\), \\(B'C'\\) tương ứng với \\(BC\\), \\(A'C'\\) tương ứng với \\(AC\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "AB"
+        },
+        {
+          "group": 1,
+          "text": "BC"
+        },
+        {
+          "group": 1,
+          "text": "AC"
+        },
+        {
+          "group": 1,
+          "text": "MN"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Khái niệm Tỉ số đồng dạng k",
+      "questiontext": "Nếu \\(\\Delta A'B'C' \\sim \\Delta ABC\\) với tỉ số đồng dạng \\(k = \\frac{2}{3}\\) thì \\(\\Delta ABC \\sim \\Delta A'B'C'\\) với tỉ số đồng dạng là bao nhiêu?",
+      "generalfeedback": "Theo phần Nhận xét trong SGK: Nếu \\(\\Delta A'B'C' \\sim \\Delta ABC\\) với tỉ số đồng dạng \\(k\\) thì \\(\\Delta ABC \\sim \\Delta A'B'C'\\) với tỉ số đồng dạng là \\(\\frac{1}{k}\\). Với \\(k = \\frac{2}{3}\\), tỉ số đồng dạng của \\(\\Delta ABC\\) với \\(\\Delta A'B'C'\\) là \\(\\frac{1}{\\frac{2}{3}} = \\frac{3}{2}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{3}{2}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{2}{3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "1",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{4}{9}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm Tỉ số đồng dạng k",
+      "questiontext": "Hai tam giác bằng nhau thì đồng dạng với nhau theo tỉ số đồng dạng \\(k = 1\\). Khẳng định này Đúng hay Sai?",
+      "generalfeedback": "Theo SGK Toán 8 phần Nhận xét: Hai tam giác bằng nhau thì đồng dạng với nhau theo tỉ số đồng dạng \\(k = 1\\). Đặc biệt, mọi tam giác đồng dạng với chính nó.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Kí hiệu đồng dạng",
+      "questiontext": "Kí hiệu nào sau đây được dùng để chỉ sự đồng dạng giữa hai tam giác?",
+      "generalfeedback": "Tam giác \\(A'B'C'\\) đồng dạng với tam giác \\(ABC\\) được kí hiệu là \\(\\Delta A'B'C' \\sim \\Delta ABC\\). Kí hiệu đồng dạng là \\(\\sim\\).",
+      "answers": [
+        {
+          "text": "\\(\\sim\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\cong\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\equiv\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\parallel\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết hai tam giác đồng dạng",
+      "questiontext": "Hai tam giác đều bất kì luôn đồng dạng với nhau. Khẳng định này Đúng hay Sai?",
+      "generalfeedback": "Đúng. Hai tam giác đều bất kì đều có ba góc bằng nhau (đều bằng \\(60^\\circ\\)) và các cạnh bằng nhau nên tỉ số các cạnh tương ứng luôn bằng nhau. Do đó hai tam giác đều bất kì luôn đồng dạng với nhau.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Viết đúng kí hiệu đồng dạng theo thứ tự đỉnh tương ứng",
+      "questiontext": "Cho \\(\\Delta ABC \\sim \\Delta MNP\\). Khi viết tam giác thứ nhất theo thứ tự đỉnh \\(\\Delta BCA\\), tam giác thứ hai đồng dạng tương ứng theo đúng thứ tự đỉnh là tam giác nào? (Chỉ viết ba chữ cái in hoa tên các đỉnh, ví dụ: MNP)",
+      "generalfeedback": "Vì \\(\\Delta ABC \\sim \\Delta MNP\\) nên đỉnh \\(A\\) tương ứng với \\(M\\), đỉnh \\(B\\) tương ứng với \\(N\\), đỉnh \\(C\\) tương ứng với \\(P\\). Khi viết theo thứ tự đỉnh \\(B - C - A\\), thứ tự tương ứng ở tam giác thứ hai là \\(N - P - M\\). Do đó \\(\\Delta BCA \\sim \\Delta NPM\\).",
+      "answers": [
+        {
+          "text": "NPM",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính tỉ số đồng dạng và tính độ dài cạnh, số đo góc tương ứng",
+      "questiontext": "Cho \\(\\Delta ABC \\sim \\Delta A'B'C'\\) với tỉ số đồng dạng \\(k = 2\\). Biết cạnh \\(A'B' = 5\\text{ cm}\\). Tính độ dài cạnh \\(AB\\) theo đơn vị xăng-ti-mét. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Vì \\(\\Delta ABC \\sim \\Delta A'B'C'\\) với tỉ số đồng dạng \\(k = \\frac{AB}{A'B'} = 2\\), suy ra độ dài cạnh \\(AB = 2 \\times A'B' = 2 \\times 5 = 10\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "10",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "Tính tỉ số đồng dạng và tính độ dài cạnh, số đo góc tương ứng",
+      "questiontext": "Ghép mỗi trường hợp ở cột bên trái với kết quả tính tương ứng ở cột bên phải:",
+      "generalfeedback": "Áp dụng định nghĩa và tính chất của hai tam giác đồng dạng: 1) Các góc tương ứng bằng nhau nên góc \\(A' = 50^\\circ\\). 2) Tỉ số \\(\\frac{B'C'}{BC} = k = 3\\) nên \\(B'C' = 3 \\times 4 = 12\\text{ cm}\\). 3) Theo tính chất bắc cầu, tỉ số đồng dạng tổng hợp bằng tích \\(k \\cdot m = 2 \\times 3 = 6\\).",
+      "subquestions": [
+        {
+          "question": "Cho \\(\\Delta A'B'C' \\sim \\Delta ABC\\) có \\(\\widehat{A} = 50^\\circ\\). Số đo của \\(\\widehat{A'}\\) là",
+          "answer": "\\(50^\\circ\\)"
+        },
+        {
+          "question": "Cho \\(\\Delta A'B'C' \\sim \\Delta ABC\\) với tỉ số \\(k = 3\\), biết \\(BC = 4\\text{ cm}\\). Độ dài \\(B'C'\\) là",
+          "answer": "\\(12\\text{ cm}\\)"
+        },
+        {
+          "question": "Cho \\(\\Delta A''B''C'' \\sim \\Delta A'B'C'\\) với tỉ số \\(k = 2\\) và \\(\\Delta A'B'C' \\sim \\Delta ABC\\) với tỉ số \\(m = 3\\). Tỉ số đồng dạng của \\(\\Delta A''B''C''\\) với \\(\\Delta ABC\\) là",
+          "answer": "6"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Viết đúng kí hiệu đồng dạng theo thứ tự đỉnh tương ứng",
+      "questiontext": "Cho \\(\\Delta ABC \\sim \\Delta MNP\\). Khẳng định nào sau đây là **sai**?",
+      "generalfeedback": "Vì \\(\\Delta ABC \\sim \\Delta MNP\\) nên các cặp đỉnh tương ứng là \\(A \\leftrightarrow M\\), \\(B \\leftrightarrow N\\), \\(C \\leftrightarrow P\\). Do đó: \\(\\Delta MNP \\sim \\Delta ABC\\), \\(\\Delta BCA \\sim \\Delta NPM\\), \\(\\Delta CAB \\sim \\Delta PMN\\) đều đúng. Khẳng định \\(\\Delta ACB \\sim \\Delta MNP\\) là sai vì thứ tự các đỉnh tương ứng phải là \\(\\Delta ACB \\sim \\Delta MPN\\).",
+      "answers": [
+        {
+          "text": "\\(\\Delta ACB \\sim \\Delta MNP\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\Delta MNP \\sim \\Delta ABC\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\Delta BCA \\sim \\Delta NPM\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\Delta CAB \\sim \\Delta PMN\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết hai tam giác đồng dạng",
+      "questiontext": "Khẳng định nào sau đây là đúng về tính chất của hai tam giác đồng dạng?",
+      "generalfeedback": "Theo SGK Toán 8: Hai tam giác bằng nhau thì luôn đồng dạng với nhau theo tỉ số \\(k = 1\\). Ngược lại, hai tam giác đồng dạng chưa chắc đã bằng nhau; hai tam giác vuông bất kì hoặc cân bất kì chưa chắc đồng dạng vì các góc tương ứng chưa chắc bằng nhau.",
+      "answers": [
+        {
+          "text": "Hai tam giác bằng nhau thì luôn đồng dạng với nhau.",
+          "fraction": 100
+        },
+        {
+          "text": "Hai tam giác đồng dạng thì luôn bằng nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Hai tam giác vuông bất kì luôn đồng dạng với nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Hai tam giác cân bất kì luôn đồng dạng với nhau.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "Khái niệm Tỉ số đồng dạng k",
+      "questiontext": "Nếu \\(\\Delta A''B''C'' \\sim \\Delta A'B'C'\\) với tỉ số đồng dạng \\(k\\) và \\(\\Delta A'B'C' \\sim \\Delta ABC\\) với tỉ số đồng dạng \\(m\\) thì \\(\\Delta A''B''C'' \\sim \\Delta ABC\\) với tỉ số đồng dạng là \\(k \\cdot m\\). Khẳng định này Đúng hay Sai?",
+      "generalfeedback": "Theo tính chất bắc cầu trong SGK: Nếu \\(\\Delta A''B''C'' \\sim \\Delta A'B'C'\\) với tỉ số đồng dạng \\(k\\) và \\(\\Delta A'B'C' \\sim \\Delta ABC\\) với tỉ số đồng dạng \\(m\\) thì \\(\\Delta A''B''C'' \\sim \\Delta ABC\\) với tỉ số đồng dạng là \\(k \\cdot m\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Khái niệm Hai tam giác đồng dạng (các góc tương ứng bằng nhau và các cạnh tương ứng tỉ lệ)",
+      "questiontext": "Cho \\(\\Delta ABC \\sim \\Delta MNP\\). Nếu tam giác \\(ABC\\) cân tại đỉnh \\(A\\) thì khẳng định nào sau đây chắc chắn đúng?",
+      "generalfeedback": "Vì \\(\\Delta ABC \\sim \\Delta MNP\\) nên các góc tương ứng bằng nhau: \\(\\widehat{A} = \\widehat{M}, \\widehat{B} = \\widehat{N}, \\widehat{C} = \\widehat{P}\\). Tam giác \\(ABC\\) cân tại đỉnh \\(A\\) nên \\(\\widehat{B} = \\widehat{C}\\), suy ra \\(\\widehat{N} = \\widehat{P}\\). Do đó tam giác \\(MNP\\) cân tại đỉnh \\(M\\).",
+      "answers": [
+        {
+          "text": "Tam giác \\(MNP\\) cân tại đỉnh \\(M\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Tam giác \\(MNP\\) cân tại đỉnh \\(N\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Tam giác \\(MNP\\) cân tại đỉnh \\(P\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Tam giác \\(MNP\\) là tam giác đều.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN8_087",
+      "questiontext": "Tam giác \\(A'B'C'\\) gọi là đồng dạng với tam giác \\(ABC\\) nếu các góc tương ứng bằng nhau và các cạnh tương ứng bằng nhau. Khẳng định này Đúng hay Sai?",
+      "generalfeedback": "Sai. Theo định nghĩa SGK: Tam giác \\(A'B'C'\\) gọi là đồng dạng với tam giác \\(ABC\\) nếu các góc tương ứng bằng nhau và các cạnh tương ứng tỉ lệ (không bắt buộc phải bằng nhau).",
+      "answers": [
+        {
+          "text": "Sai",
+          "fraction": 100
+        },
+        {
+          "text": "Đúng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Kí hiệu đồng dạng",
+      "questiontext": "Điền tên đỉnh thích hợp vào chỗ trống để thể hiện đúng quy ước kí hiệu đồng dạng: Cho \\(\\Delta ABC \\sim \\Delta DEF\\). Đỉnh \\(A\\) tương ứng với đỉnh [[1]], đỉnh \\(B\\) tương ứng với đỉnh [[2]], đỉnh \\(C\\) tương ứng với đỉnh [[3]].",
+      "generalfeedback": "Theo quy ước viết kí hiệu đồng dạng, tên các đỉnh của hai tam giác phải được viết theo đúng thứ tự cặp đỉnh tương ứng: đỉnh thứ nhất tương ứng với đỉnh thứ nhất, đỉnh thứ hai tương ứng với đỉnh thứ hai, đỉnh thứ ba tương ứng với đỉnh thứ ba. Do đó \\(A \\leftrightarrow D\\), \\(B \\leftrightarrow E\\), \\(C \\leftrightarrow F\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "D"
+        },
+        {
+          "group": 1,
+          "text": "E"
+        },
+        {
+          "group": 1,
+          "text": "F"
+        },
+        {
+          "group": 1,
+          "text": "M"
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "Tính tỉ số đồng dạng và tính độ dài cạnh, số đo góc tương ứng",
+      "questiontext": "Cho \\(\\Delta ABC \\sim \\Delta DEF\\). Biết \\(\\widehat{A} = 65^\\circ\\) và \\(\\widehat{B} = 75^\\circ\\). Tính số đo của góc \\(\\widehat{F}\\) theo đơn vị độ. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Tổng ba góc trong tam giác \\(ABC\\) bằng \\(180^\\circ\\), nên \\(\\widehat{C} = 180^\\circ - (65^\\circ + 75^\\circ) = 40^\\circ\\). Do \\(\\Delta ABC \\sim \\Delta DEF\\) nên góc tương ứng \\(\\widehat{F} = \\widehat{C} = 40^\\circ\\).",
+      "answers": [
+        {
+          "text": "40",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Tính tỉ số đồng dạng và tính độ dài cạnh, số đo góc tương ứng",
+      "questiontext": "Cho \\(\\Delta A'B'C' \\sim \\Delta ABC\\) với tỉ số đồng dạng \\(k = \\frac{3}{5}\\). Biết chu vi của tam giác \\(ABC\\) bằng \\(30\\text{ cm}\\). Tính chu vi của tam giác \\(A'B'C'\\) theo đơn vị xăng-ti-mét. (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Vì \\(\\Delta A'B'C' \\sim \\Delta ABC\\) với tỉ số đồng dạng \\(k = \\frac{3}{5}\\) nên \\(\\frac{A'B'}{AB} = \\frac{B'C'}{BC} = \\frac{A'C'}{AC} = \\frac{3}{5}\\). Theo tính chất dãy tỉ số bằng nhau, tỉ số chu vi của hai tam giác bằng tỉ số đồng dạng: \\(\\frac{C_{A'B'C'}}{C_{ABC}} = \\frac{3}{5} \\Rightarrow C_{A'B'C'} = 30 \\times \\frac{3}{5} = 18\\text{ cm}\\).",
+      "answers": [
+        {
+          "text": "18",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "Tính tỉ số đồng dạng và tính độ dài cạnh, số đo góc tương ứng",
+      "questiontext": "Cho \\(\\Delta ABC \\sim \\Delta A'B'C'\\) với tỉ số đồng dạng \\(k = \\frac{1}{2}\\). Biết độ dài các cạnh của tam giác \\(ABC\\) lần lượt là \\(AB = 6\\text{ cm}, BC = 8\\text{ cm}, CA = 10\\text{ cm}\\). Ghép mỗi cạnh của tam giác \\(A'B'C'\\) ở cột bên trái với độ dài tương ứng ở cột bên phải:",
+      "generalfeedback": "Vì \\(\\Delta ABC \\sim \\Delta A'B'C'\\) với tỉ số \\(k = \\frac{AB}{A'B'} = \\frac{BC}{B'C'} = \\frac{CA}{C'A'} = \\frac{1}{2}\\), suy ra độ dài các cạnh của \\(\\Delta A'B'C'\\) gấp 2 lần các cạnh tương ứng của \\(\\Delta ABC\\): \\(A'B' = 6 : \\frac{1}{2} = 12\\text{ cm}\\); \\(B'C' = 8 : \\frac{1}{2} = 16\\text{ cm}\\); \\(C'A' = 10 : \\frac{1}{2} = 20\\text{ cm}\\).",
+      "subquestions": [
+        {
+          "question": "Độ dài cạnh \\(A'B'\\) là",
+          "answer": "\\(12\\text{ cm}\\)"
+        },
+        {
+          "question": "Độ dài cạnh \\(B'C'\\) là",
+          "answer": "\\(16\\text{ cm}\\)"
+        },
+        {
+          "question": "Độ dài cạnh \\(C'A'\\) là",
+          "answer": "\\(20\\text{ cm}\\)"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Viết đúng kí hiệu đồng dạng theo thứ tự đỉnh tương ứng",
+      "questiontext": "Cho \\(\\Delta DEF \\sim \\Delta ABC\\) có các đỉnh tương ứng là \\(D \\leftrightarrow A, E \\leftrightarrow B, F \\leftrightarrow C\\). Khi viết tam giác thứ nhất theo thứ tự đỉnh \\(\\Delta FDE\\), tam giác thứ hai đồng dạng tương ứng theo đúng thứ tự đỉnh là tam giác nào? (Chỉ viết ba chữ cái in hoa tên các đỉnh, ví dụ: ABC)",
+      "generalfeedback": "Vì \\(D \\leftrightarrow A, E \\leftrightarrow B, F \\leftrightarrow C\\), nên khi viết đỉnh theo thứ tự \\(F - D - E\\), thứ tự tương ứng ở tam giác thứ hai là \\(C - A - B\\). Do đó \\(\\Delta FDE \\sim \\Delta CAB\\).",
+      "answers": [
+        {
+          "text": "CAB",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ học hình học về hai tam giác đồng dạng, khi làm bài tập xác định các góc tương ứng bằng nhau giữa hai tam giác \\(\\Delta ABC \\sim \\Delta MNP\\), bạn Dũng gặp khó khăn và liên tục chọn nhầm cặp góc. Hành động nào sau đây thể hiện tinh thần luôn cố gắng vươn lên đạt kết quả tốt trong học tập của Dũng?",
+      "generalfeedback": "Để thể hiện tinh thần luôn cố gắng vươn lên trong học tập (Q1), học sinh cần chủ động xem lại quy ước viết thứ tự đỉnh tương ứng của hai tam giác đồng dạng trong SGK, kiên trì tự vẽ hình và nhờ thầy cô, bạn bè góp ý để khắc phục lỗi sai thay vì nản lòng hay sao chép bài của bạn khác.",
+      "answers": [
+        {
+          "text": "Chủ động xem lại quy ước viết đỉnh tương ứng trong SGK, kiên trì luyện tập xác định lại các cặp góc và trao đổi với thầy cô, bạn bè khi gặp vướng mắc.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua các bài tập về tam giác đồng dạng và chỉ tập trung làm các bài tập dễ hơn để không bị điểm kém.",
+          "fraction": 0
+        },
+        {
+          "text": "Chép lại bài giải của bạn cùng bàn để hoàn thành bài tập kịp giờ nộp cho giáo viên.",
+          "fraction": 0
+        },
+        {
+          "text": "Đợi đến khi giáo viên sửa bài trên bảng rồi chép đáp án vào vở mà không cần tìm hiểu nguyên nhân mình làm sai.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi giải một bài toán thực tế áp dụng tam giác đồng dạng để tính chiều cao của cây nhưng kết quả tính ra chưa hợp lý, học sinh nên tự giác kiểm tra lại tỉ số đồng dạng và các phép đo số liệu thay vì vội vàng bỏ cuộc. Hành vi này thể hiện tinh thần cố gắng vươn lên trong học tập. Khẳng định này Đúng hay Sai?",
+      "generalfeedback": "Đúng. Tinh thần cố gắng vươn lên trong học tập (Q1) thể hiện qua việc kiên trì, không nản lòng trước bài toán khó hay kết quả chưa đúng, chủ động rà soát lại các bước suy luận và tính toán tỉ số đồng dạng để tìm ra nguyên nhân và giải pháp chính xác.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TULUC_C2_01",
+      "questiontext": "Để chuẩn bị bài học \"Hai tam giác đồng dạng\" trước khi đến lớp, bạn Mai muốn lập một sơ đồ tư duy tóm tắt kiến thức của bài học. Việc Mai chủ động hệ thống hóa các nội dung: định nghĩa (góc bằng nhau, cạnh tỉ lệ), kí hiệu đồng dạng, và các tính chất (tính chất nghịch đảo, bắc cầu) thể hiện năng lực nào sau đây?",
+      "generalfeedback": "Hành động chủ động chuẩn bị bài, tự giác hệ thống hóa kiến thức bài học bằng sơ đồ tư duy trước giờ học thể hiện năng lực tự chủ và tự học: biết chủ động, tích cực thực hiện những công việc của bản thân trong học tập (G1).",
+      "answers": [
+        {
+          "text": "Biết chủ động, tích cực lập kế hoạch và thực hiện nhiệm vụ tự học của bản thân.",
+          "fraction": 100
+        },
+        {
+          "text": "Năng lực tính toán độ dài cạnh và số đo góc trong tam giác.",
+          "fraction": 0
+        },
+        {
+          "text": "Năng lực vẽ hình trên giấy kẻ ô vuông.",
+          "fraction": 0
+        },
+        {
+          "text": "Năng lực giải quyết các bài toán đo đạc thực địa bằng cọc gỗ.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TULUC_C2_01",
+      "questiontext": "Trong hoạt động học tập nhóm về chủ đề \"Hai tam giác đồng dạng\", hãy ghép mỗi tình huống học tập ở cột bên trái với hành vi thể hiện sự chủ động, tích cực của học sinh ở cột bên phải:",
+      "generalfeedback": "Năng lực tự chủ và tự học (G1) thể hiện qua việc chủ động phân công nhiệm vụ, tích cực tìm kiếm và hệ thống hóa thông tin, cũng như lắng nghe và đóng góp ý kiến xây dựng trong học tập nhóm.",
+      "subquestions": [
+        {
+          "question": "Khi được giao chuẩn bị tài liệu tóm tắt lý thuyết hai tam giác đồng dạng",
+          "answer": "Chủ động tra cứu SGK, liệt kê đầy đủ định nghĩa, kí hiệu và các tính chất cơ bản"
+        },
+        {
+          "question": "Khi nhóm thảo luận về tỉ số đồng dạng và gặp ý kiến trái chiều",
+          "answer": "Tích cực lắng nghe, đối chiếu với công thức trong SGK và giải thích rõ ràng cho các bạn"
+        },
+        {
+          "question": "Sau khi hoàn thành bài tập nhóm về tam giác đồng dạng",
+          "answer": "Tự giác rà soát lại các bước chứng minh và thứ tự đỉnh tương ứng trước khi báo cáo"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Để so sánh hai khái niệm \"Hai tam giác bằng nhau\" và \"Hai tam giác đồng dạng\", một học sinh thực hiện các thao tác tư duy phân tích: xét điều kiện về các góc tương ứng và điều kiện về các cạnh tương ứng. Kết luận rút ra từ thao tác tư duy so sánh này là gì?",
+      "generalfeedback": "Qua thao tác tư duy phân tích và so sánh (D1): Hai tam giác bằng nhau có các góc tương ứng bằng nhau và các cạnh tương ứng bằng nhau (tỉ số bằng 1). Hai tam giác đồng dạng có các góc tương ứng bằng nhau nhưng các cạnh tương ứng tỉ lệ. Do đó, hai tam giác bằng nhau là trường hợp đặc biệt của hai tam giác đồng dạng (khi tỉ số đồng dạng k = 1).",
+      "answers": [
+        {
+          "text": "Hai tam giác bằng nhau là trường hợp đặc biệt của hai tam giác đồng dạng khi tỉ số đồng dạng \\(k = 1\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Hai khái niệm hoàn toàn độc lập và không có mối liên hệ nào với nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Hai tam giác đồng dạng thì luôn có các cạnh bằng nhau như hai tam giác bằng nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Mọi tam giác đồng dạng đều là hai tam giác bằng nhau.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Điền từ thích hợp vào chỗ trống để mô tả thao tác tư duy lập luận hình học: Khi chứng minh hai tam giác đồng dạng theo định nghĩa, ta cần thực hiện thao tác so sánh để chỉ ra các góc tương ứng [[1]] và lập tỉ số để chứng minh các cạnh tương ứng [[2]].",
+      "generalfeedback": "Thao tác tư duy hình học (D1) đòi hỏi học sinh phân tích cấu trúc hình học thành hai phần: so sánh các cặp góc tương ứng để thấy chúng bằng nhau, và lập các tỉ số cạnh tương ứng để thấy chúng tỉ lệ.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "bằng nhau"
+        },
+        {
+          "group": 1,
+          "text": "tỉ lệ"
+        },
+        {
+          "group": 1,
+          "text": "song song"
+        },
+        {
+          "group": 1,
+          "text": "bằng 1"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04_12",
+      "questiontext": "Khi thuyết trình trước lớp về kết quả giải bài toán, bạn Hùng muốn diễn đạt mệnh đề toán học \"\\(\\Delta A'B'C' \\sim \\Delta ABC\\) với tỉ số đồng dạng \\(k = 2\\)\" bằng ngôn ngữ thông thường. Cách diễn đạt nào sau đây kết hợp chính xác nhất giữa ngôn ngữ toán học và ngôn ngữ tự nhiên?",
+      "generalfeedback": "Năng lực D2 yêu cầu chuyển đổi chính xác giữa kí hiệu toán học và ngôn ngữ tự nhiên: Kí hiệu \\(\\Delta A'B'C' \\sim \\Delta ABC\\) với \\(k = 2\\) diễn đạt bằng lời là \"Tam giác \\(A'B'C'\\) đồng dạng với tam giác \\(ABC\\), độ dài mỗi cạnh của tam giác \\(A'B'C'\\) gấp 2 lần độ dài cạnh tương ứng của tam giác \\(ABC\\)\".",
+      "answers": [
+        {
+          "text": "Tam giác \\(A'B'C'\\) đồng dạng với tam giác \\(ABC\\), độ dài mỗi cạnh của tam giác \\(A'B'C'\\) gấp 2 lần độ dài cạnh tương ứng của tam giác \\(ABC\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Tam giác \\(ABC\\) có kích thước gấp đôi tam giác \\(A'B'C'\\) và các góc của nó cũng gấp đôi.",
+          "fraction": 0
+        },
+        {
+          "text": "Hai tam giác bằng nhau và diện tích tam giác này bằng 2 lần diện tích tam giác kia.",
+          "fraction": 0
+        },
+        {
+          "text": "Tam giác \\(A'B'C'\\) đồng dạng với tam giác \\(ABC\\) và số đo mỗi góc của tam giác \\(A'B'C'\\) gấp 2 lần góc tương ứng của tam giác \\(ABC\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04_12",
+      "questiontext": "Để diễn đạt bằng ngôn ngữ toán học mệnh đề: \"Tam giác \\(DEF\\) đồng dạng với tam giác \\(ABC\\) theo tỉ số đồng dạng bằng \\(\\frac{3}{2}\\)\", cách viết kí hiệu nào sau đây là hoàn toàn chính xác?",
+      "generalfeedback": "Sử dụng đúng ngôn ngữ toán học (D2): Quan hệ đồng dạng được viết bằng kí hiệu \\(\\sim\\) theo đúng thứ tự đỉnh tương ứng và tỉ số các cạnh tương ứng bằng nhau: \\(\\Delta DEF \\sim \\Delta ABC\\) với \\(k = \\frac{DE}{AB} = \\frac{EF}{BC} = \\frac{DF}{AC} = \\frac{3}{2}\\).",
+      "answers": [
+        {
+          "text": "\\(\\Delta DEF \\sim \\Delta ABC\\) với \\(k = \\frac{DE}{AB} = \\frac{EF}{BC} = \\frac{DF}{AC} = \\frac{3}{2}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\Delta DEF \\cong \\Delta ABC\\) với \\(k = \\frac{3}{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\Delta DEF = \\Delta ABC\\) với tỉ số \\(\\frac{3}{2}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\Delta DEF \\parallel \\Delta ABC\\) với \\(k = \\frac{3}{2}\\)",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

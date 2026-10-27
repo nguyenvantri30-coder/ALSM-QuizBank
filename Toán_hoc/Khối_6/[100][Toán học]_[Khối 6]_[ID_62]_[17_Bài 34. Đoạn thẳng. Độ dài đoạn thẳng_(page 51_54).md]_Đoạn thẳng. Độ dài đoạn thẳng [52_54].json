@@ -1,0 +1,767 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 28,
+    "metadata_used": {
+      "YCCD_TOAN6_121": 2,
+      "Khái niệm độ dài đoạn thẳng": 2,
+      "Đơn vị đo độ dài": 3,
+      "Đo độ dài đoạn thẳng bằng thước chia khoảng": 5,
+      "Quy tắc so sánh hai đoạn thẳng dựa vào độ dài": 2,
+      "So sánh độ dài hai đoạn thẳng": 6,
+      "SUB_CHAMCHI_HAMHOC_C2_01": 2,
+      "SUB_TCTH_TUHOC_C2_04": 1,
+      "SUB_GTHT_XACDINHMD_C2_03": 2,
+      "NLT_TOAN_C2_02_04": 1,
+      "NLT_TOAN_C2_03_04": 2
+    },
+    "types_used": {
+      "multichoice": 11,
+      "truefalse": 3,
+      "gapselect": 3,
+      "shortanswer": 2,
+      "matching": 3,
+      "numerical": 2,
+      "calculated": 1,
+      "calculatedsimple": 1,
+      "calculatedmulti": 1,
+      "ddwtos": 1
+    },
+    "total": 28
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN6_121",
+        "reason": "Nhận biết được khái niệm độ dài đoạn thẳng."
+      },
+      {
+        "metadata_code": "Khái niệm độ dài đoạn thẳng",
+        "reason": "Khái niệm độ dài đoạn thẳng."
+      },
+      {
+        "metadata_code": "Đơn vị đo độ dài",
+        "reason": "Đơn vị đo độ dài."
+      },
+      {
+        "metadata_code": "Quy tắc so sánh hai đoạn thẳng dựa vào độ dài",
+        "reason": "Quy tắc so sánh hai đoạn thẳng dựa vào độ dài."
+      },
+      {
+        "metadata_code": "Đo độ dài đoạn thẳng bằng thước chia khoảng",
+        "reason": "Đo độ dài đoạn thẳng bằng thước chia khoảng."
+      },
+      {
+        "metadata_code": "So sánh độ dài hai đoạn thẳng",
+        "reason": "So sánh độ dài hai đoạn thẳng."
+      },
+      {
+        "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+        "reason": "Luôn cố gắng vươn lên đạt kết quả tốt trong học tập."
+      },
+      {
+        "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+        "reason": "Lưu giữ thông tin có chọn lọc bằng ghi tóm tắt."
+      },
+      {
+        "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+        "reason": "Tiếp nhận văn bản có số liệu, biểu đồ."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_02_04",
+        "reason": "Sử dụng mô hình toán học để mô tả tình huống."
+      },
+      {
+        "metadata_code": "NLT_TOAN_C2_03_04",
+        "reason": "Sử dụng kiến thức toán học để giải quyết vấn đề."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học không chứa công cụ tin học/số tự nhiên."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Bài học không chứa nội dung liên quan AI tự nhiên."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_121",
+      "questiontext": "Mỗi đoạn thẳng có bao nhiêu độ dài khi đã chọn một đơn vị đo?",
+      "generalfeedback": "Khi chọn một đơn vị độ dài thì mỗi đoạn thẳng có duy nhất một độ dài biểu diễn bởi một số dương.",
+      "answers": [
+        {
+          "text": "Duy nhất một độ dài là một số dương",
+          "fraction": 100
+        },
+        {
+          "text": "Hai độ dài khác nhau",
+          "fraction": 0
+        },
+        {
+          "text": "Vô số độ dài tùy thuộc vào cách đo",
+          "fraction": 0
+        },
+        {
+          "text": "Một độ dài có thể là một số âm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm độ dài đoạn thẳng",
+      "questiontext": "Khoảng cách giữa hai điểm trùng nhau được quy ước bằng \\(0\\) (đơn vị). Phát biểu này đúng hay sai?",
+      "generalfeedback": "Theo quy ước trong SGK, khoảng cách giữa hai điểm trùng nhau bằng 0.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Đơn vị đo độ dài",
+      "questiontext": "Mở trang cuối sách giáo khoa thấy ghi khổ sách là \\(19 \\times 26{,}5\\text{ cm}\\). Thông tin đó cho biết chiều rộng của cuốn sách là [[1]] và chiều dài của cuốn sách là [[2]].",
+      "generalfeedback": "Khổ sách 19 x 26,5 cm có nghĩa chiều rộng là 19 cm và chiều dài là 26,5 cm.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "19 cm"
+        },
+        {
+          "group": 1,
+          "text": "26,5 cm"
+        },
+        {
+          "group": 1,
+          "text": "19 mm"
+        },
+        {
+          "group": 1,
+          "text": "26,5 mm"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Đo độ dài đoạn thẳng bằng thước chia khoảng",
+      "imgs": [
+        "_page_2_Figure_2.jpeg"
+      ],
+      "questiontext": "Quan sát hình ảnh dưới đây và cho biết độ dài của đoạn thẳng \\(AB\\) bằng bao nhiêu milimét?\n[img:_page_2_Figure_2.jpeg]",
+      "generalfeedback": "Đoạn thẳng AB trong hình dài 23 mm.",
+      "answers": [
+        {
+          "text": "23 mm",
+          "fraction": 100
+        },
+        {
+          "text": "23mm",
+          "fraction": 100
+        },
+        {
+          "text": "23",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc so sánh hai đoạn thẳng dựa vào độ dài",
+      "questiontext": "Ghép mỗi kí hiệu mối quan hệ độ dài giữa hai đoạn thẳng \\(AB\\) và \\(CD\\) với ý nghĩa tương ứng:",
+      "generalfeedback": "AB = CD nghĩa là hai đoạn thẳng bằng nhau; AB < CD nghĩa là AB ngắn hơn CD; AB > CD nghĩa là AB dài hơn CD.",
+      "subquestions": [
+        {
+          "question": "\\(AB = CD\\)",
+          "answer": "Đoạn thẳng \\(AB\\) bằng đoạn thẳng \\(CD\\)"
+        },
+        {
+          "question": "\\(AB < CD\\)",
+          "answer": "Đoạn thẳng \\(AB\\) ngắn hơn đoạn thẳng \\(CD\\)"
+        },
+        {
+          "question": "\\(AB > CD\\)",
+          "answer": "Đoạn thẳng \\(AB\\) dài hơn đoạn thẳng \\(CD\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "So sánh độ dài hai đoạn thẳng",
+      "imgs": [
+        "_page_2_Figure_2.jpeg",
+        "_page_2_Figure_4.jpeg"
+      ],
+      "questiontext": "Cho hai đoạn thẳng \\(AB = 23\\text{ mm}\\) [img:_page_2_Figure_2.jpeg] và \\(CD = 4\\text{ cm}\\) [img:_page_2_Figure_4.jpeg]. So sánh độ dài hai đoạn thẳng \\(AB\\) và \\(CD\\).",
+      "generalfeedback": "Đổi 4 cm = 40 mm. Vì 23 mm < 40 mm nên AB < CD.",
+      "answers": [
+        {
+          "text": "\\(AB < CD\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(AB = CD\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(AB > CD\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Không so sánh được",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Đo độ dài đoạn thẳng bằng thước chia khoảng",
+      "questiontext": "Việt dùng thước đo độ dài đoạn thẳng \\(AB\\). Do thước bị gãy mất một mẩu nên Việt đặt điểm \\(A\\) trùng với vạch \\(3\\text{ cm}\\) và điểm \\(B\\) trùng với vạch \\(12\\text{ cm}\\). Độ dài đoạn thẳng \\(AB\\) là bao nhiêu xentimét? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Độ dài đoạn thẳng AB là 12 - 3 = 9 cm.",
+      "answers": [
+        {
+          "text": "9",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "So sánh độ dài hai đoạn thẳng",
+      "questiontext": "Cho điểm \\(B\\) nằm giữa hai điểm \\(A\\) và \\(C\\). Biết độ dài \\(AB =\\) {a} cm và \\(BC =\\) {b} cm. Tính độ dài đoạn thẳng \\(AC\\) theo đơn vị cm.",
+      "generalfeedback": "Vì điểm B nằm giữa A và C nên AC = AB + BC = {a} + {b}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 2.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}+{b}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Đo độ dài đoạn thẳng bằng thước chia khoảng",
+      "questiontext": "Nam dùng bước chân để đo chiều dài lớp học. Nam bước được đúng {n} bước chân. Biết mỗi bước chân của Nam dài {d} m. Chiều dài lớp học tính theo mét là bao nhiêu? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Chiều dài lớp học bằng số bước chân nhân với độ dài mỗi bước: {n} * {d}.",
+      "wildcards": [
+        {
+          "name": "n",
+          "min": 15.0,
+          "max": 25.0,
+          "decimals": 0
+        },
+        {
+          "name": "d",
+          "min": 0.5,
+          "max": 0.8,
+          "decimals": 1
+        }
+      ],
+      "answers": [
+        {
+          "text": "{n}*{d}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "So sánh độ dài hai đoạn thẳng",
+      "questiontext": "Một cái cây đang mọc thẳng bị bão làm gãy phần ngọn. Biết phần ngọn bị gãy dài {a} m và phần thân còn lại dài {b} m. Chọn công thức tính chiều cao của cây trước khi bị gãy (theo đơn vị m):",
+      "generalfeedback": "Chiều cao ban đầu của cây là tổng độ dài phần thân còn lại và phần ngọn bị gãy: {a} + {b}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 3.0,
+          "decimals": 1
+        },
+        {
+          "name": "b",
+          "min": 2.0,
+          "max": 5.0,
+          "decimals": 1
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}+{b}",
+          "fraction": 100
+        },
+        {
+          "text": "{b}-{a}",
+          "fraction": 0
+        },
+        {
+          "text": "{a}*{b}",
+          "fraction": 0
+        },
+        {
+          "text": "{b}/{a}",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Khái niệm độ dài đoạn thẳng",
+      "questiontext": "Hình gồm hai điểm \\(A, B\\) và tất cả các điểm nằm giữa \\(A\\) và \\(B\\) được gọi là gì?",
+      "generalfeedback": "Đó là định nghĩa đoạn thẳng AB.",
+      "answers": [
+        {
+          "text": "Đoạn thẳng \\(AB\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Đường thẳng \\(AB\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Tia \\(AB\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Độ dài \\(AB\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Đơn vị đo độ dài",
+      "questiontext": "Đơn vị đo độ dài mm (milimét) nhỏ hơn đơn vị cm (xentimét). Phát biểu này đúng hay sai?",
+      "generalfeedback": "1 cm = 10 mm nên mm nhỏ hơn cm.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Quy tắc so sánh hai đoạn thẳng dựa vào độ dài",
+      "questiontext": "Cho đoạn thẳng \\(AB = 5\\text{ cm}\\) và đoạn thẳng \\(CD = 5\\text{ cm}\\). Ta nói đoạn thẳng \\(AB\\) [[1]] đoạn thẳng \\(CD\\) và viết \\(AB\\) [[2]] \\(CD\\).",
+      "generalfeedback": "Hai đoạn thẳng có cùng độ dài thì bằng nhau, viết AB = CD.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "bằng"
+        },
+        {
+          "group": 1,
+          "text": "="
+        },
+        {
+          "group": 1,
+          "text": "ngắn hơn"
+        },
+        {
+          "group": 1,
+          "text": "<"
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Đo độ dài đoạn thẳng bằng thước chia khoảng",
+      "imgs": [
+        "_page_2_Figure_4.jpeg"
+      ],
+      "questiontext": "Quan sát hình dưới đây và cho biết độ dài đoạn thẳng \\(CD\\) bằng bao nhiêu xentimét?\n[img:_page_2_Figure_4.jpeg]",
+      "generalfeedback": "Đoạn thẳng CD trong hình dài 4 cm.",
+      "answers": [
+        {
+          "text": "4 cm",
+          "fraction": 100
+        },
+        {
+          "text": "4cm",
+          "fraction": 100
+        },
+        {
+          "text": "4",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "So sánh độ dài hai đoạn thẳng",
+      "imgs": [
+        "_page_3_Picture_20.jpeg"
+      ],
+      "questiontext": "Quan sát Hình 8.34 [img:_page_3_Picture_20.jpeg] gồm các đoạn thẳng \\(AB, CD, EG\\). Hãy ghép mỗi đoạn thẳng với độ dài đo được tương ứng (đơn vị mm):",
+      "generalfeedback": "Đo độ dài các đoạn thẳng trong Hình 8.34 theo đơn vị mm.",
+      "subquestions": [
+        {
+          "question": "Đoạn thẳng \\(AB\\)",
+          "answer": "25 mm"
+        },
+        {
+          "question": "Đoạn thẳng \\(CD\\)",
+          "answer": "30 mm"
+        },
+        {
+          "question": "Đoạn thẳng \\(EG\\)",
+          "answer": "35 mm"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Đo độ dài đoạn thẳng bằng thước chia khoảng",
+      "questiontext": "Dùng compa vẽ đường tròn tâm \\(O\\) bán kính \\(2\\text{ cm}\\). Lấy hai điểm \\(M\\) và \\(N\\) tùy ý trên đường tròn đó. Khẳng định nào sau đây là đúng về hai đoạn thẳng \\(OM\\) và \\(ON\\)?",
+      "generalfeedback": "Vì M và N thuộc đường tròn tâm O bán kính 2 cm nên OM = 2 cm và ON = 2 cm, do đó OM = ON.",
+      "answers": [
+        {
+          "text": "\\(OM = ON\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(OM < ON\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(OM > ON\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Không so sánh được",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "So sánh độ dài hai đoạn thẳng",
+      "questiontext": "Cho ba điểm \\(A, B, C\\) thẳng hàng sao cho \\(B\\) nằm giữa \\(A\\) và \\(C\\). Biết \\(AB = 4\\text{ cm}\\) và \\(AC = 6\\text{ cm}\\). Độ dài đoạn thẳng \\(BC\\) bằng bao nhiêu xentimét? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Vì B nằm giữa A và C nên AB + BC = AC => BC = AC - AB = 6 - 4 = 2 cm.",
+      "answers": [
+        {
+          "text": "2",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN6_121",
+      "questiontext": "Khi chọn một đơn vị độ dài thì độ dài mỗi đoạn thẳng được biểu diễn bởi một số [[1]]. Độ dài đoạn thẳng \\(AB\\) còn gọi là [[2]] giữa hai điểm \\(A\\) và \\(B\\).",
+      "generalfeedback": "Độ dài biểu diễn bởi số dương, độ dài AB là khoảng cách giữa A và B.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "dương"
+        },
+        {
+          "group": 1,
+          "text": "khoảng cách"
+        },
+        {
+          "group": 1,
+          "text": "âm"
+        },
+        {
+          "group": 1,
+          "text": "trung điểm"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "So sánh độ dài hai đoạn thẳng",
+      "imgs": [
+        "_page_3_Figure_4.jpeg"
+      ],
+      "questiontext": "Quan sát Hình 8.32 [img:_page_3_Figure_4.jpeg] với điểm \\(B\\) nằm giữa \\(A\\) và \\(C\\). Biết \\(AB = 4\\text{ cm}, BC = 2\\text{ cm}, AC = 6\\text{ cm}\\). Khẳng định nào sau đây ĐÚNG?",
+      "generalfeedback": "Ta có AB + BC = 4 + 2 = 6 cm = AC, do đó AC = AB + BC.",
+      "answers": [
+        {
+          "text": "\\(AC = AB + BC\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(AC < AB + BC\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(AC > AB + BC\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(AB = AC + BC\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Đơn vị đo độ dài",
+      "questiontext": "Để đo độ dài các đoạn thẳng nhỏ trên giấy trong học tập, đơn vị đo phổ biến nhất là gì?",
+      "generalfeedback": "Các đơn vị đo độ dài phổ biến trên thước học sinh là xentimét (cm) và milimét (mm).",
+      "answers": [
+        {
+          "text": "Xentimét (cm) hoặc milimét (mm)",
+          "fraction": 100
+        },
+        {
+          "text": "Kilômét (km)",
+          "fraction": 0
+        },
+        {
+          "text": "Héctômét (hm)",
+          "fraction": 0
+        },
+        {
+          "text": "Hải lý",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ thực hành đo độ dài đoạn thẳng \\(AB\\), Nam đo lần đầu được \\(4{,}2\\text{ cm}\\), lần thứ hai đo được \\(4{,}0\\text{ cm}\\). Để đạt kết quả chính xác và vươn lên học tốt, Nam nên thực hiện hành động nào sau đây?",
+      "generalfeedback": "Thể hiện sự cố gắng, kiên trì và trách nhiệm trong học tập bằng cách cẩn thận đặt thước đo lại lần thứ ba và kiểm tra kỹ thao tác đo để tìm ra kết quả chính xác nhất.",
+      "answers": [
+        {
+          "text": "Cẩn thận kiểm tra lại cách đặt vạch \\(0\\) của thước, đo lại lần thứ ba để xác định chính xác độ dài đoạn thẳng \\(AB\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua lần đo thứ hai và lấy đại kết quả \\(4{,}2\\text{ cm}\\) để nộp bài cho nhanh",
+          "fraction": 0
+        },
+        {
+          "text": "Ghi ngay kết quả của bạn bên cạnh mà không cần tự mình đo lại",
+          "fraction": 0
+        },
+        {
+          "text": "Dừng làm bài và cho rằng thước đo bị hỏng nên không cần đo nữa",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Bạn An ghi tóm tắt kết quả đo độ dài các đoạn thẳng trong bài tập vào bảng ghi chú cá nhân. Hãy ghép mỗi đối tượng đo với cách ghi tóm tắt ngắn gọn, chọn lọc và đúng kí hiệu toán học nhất:",
+      "generalfeedback": "Ghi tóm tắt thông tin độ dài cần ngắn gọn, rõ ràng, sử dụng đúng kí hiệu tên đoạn thẳng và đơn vị đo.",
+      "subquestions": [
+        {
+          "question": "Đoạn thẳng \\(AB\\) dài \\(23\\text{ mm}\\)",
+          "answer": "\\(AB = 23\\text{ mm}\\)"
+        },
+        {
+          "question": "Đoạn thẳng \\(CD\\) dài \\(4\\text{ cm}\\)",
+          "answer": "\\(CD = 4\\text{ cm}\\)"
+        },
+        {
+          "question": "Khoảng cách giữa hai điểm \\(M\\) và \\(N\\) trùng nhau",
+          "answer": "\\(MN = 0\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "imgs": [
+        "_page_1_Picture_18.jpeg"
+      ],
+      "questiontext": "Đọc thông tin kết hợp hình ảnh sơ đồ mặt bàn học dưới đây:\n[img:_page_1_Picture_18.jpeg]\nTrong văn bản hướng dẫn SGK, khi chọn 1 gang tay (khoảng \\(15\\text{ cm}\\)) làm đơn vị đo, kết quả đo chiều dài mặt bàn học được gọi là gì?",
+      "generalfeedback": "Theo nhận xét trong SGK, gang tay được chọn làm đơn vị độ dài, và kết quả đo được gọi là số đo độ dài (hoặc độ dài) của mặt bàn học.",
+      "answers": [
+        {
+          "text": "Số đo độ dài (hoặc độ dài) của mặt bàn học",
+          "fraction": 100
+        },
+        {
+          "text": "Tên gọi của thước đo thẳng",
+          "fraction": 0
+        },
+        {
+          "text": "Diện tích của mặt bàn học",
+          "fraction": 0
+        },
+        {
+          "text": "Chu vi của chân bàn học",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_02_04",
+      "imgs": [
+        "_page_3_Figure_4.jpeg"
+      ],
+      "questiontext": "Một con đường thẳng đi từ vị trí \\(A\\) đến vị trí \\(C\\) qua vị trí \\(B\\) nằm ở giữa như Hình 8.32 [img:_page_3_Figure_4.jpeg]. Mô hình toán học nào sau đây mô tả đúng mối quan hệ giữa độ dài các quãng đường?",
+      "generalfeedback": "Sử dụng mô hình ba điểm thẳng hàng với B nằm giữa A và C, ta có công thức độ dài AC = AB + BC.",
+      "answers": [
+        {
+          "text": "Đoạn thẳng \\(AC\\) có độ dài bằng tổng độ dài hai đoạn thẳng \\(AB\\) và \\(BC\\) (tức \\(AC = AB + BC\\))",
+          "fraction": 100
+        },
+        {
+          "text": "Đoạn thẳng \\(AB\\) có độ dài bằng tổng độ dài hai đoạn thẳng \\(AC\\) và \\(BC\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Đoạn thẳng \\(AC\\) luôn có độ dài gấp đôi đoạn thẳng \\(AB\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Đoạn thẳng \\(BC\\) có độ dài lớn hơn đoạn thẳng \\(AC\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_04",
+      "questiontext": "Một cây tre mọc thẳng đứng bị bão làm gãy ngọn. Người ta đo được phần thân còn lại đứng thẳng dài \\(3\\text{ m}\\) và phần ngọn bị gãy rời dài \\(1{,}75\\text{ m}\\). Vận dụng kiến thức độ dài đoạn thẳng, hãy cho biết chiều cao của cây tre trước khi bị gãy là bao nhiêu?",
+      "generalfeedback": "Chiều cao ban đầu của cây tre bằng tổng độ dài phần thân còn đứng và phần ngọn bị gãy: 3 + 1,75 = 4,75 m.",
+      "answers": [
+        {
+          "text": "\\(4{,}75\\text{ m}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(1{,}25\\text{ m}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(5{,}25\\text{ m}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(3\\text{ m}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi làm bài tập đo chiều dài cây bút học sinh, bạn Bình thấy chiều dài cây bút ngắn hơn thước thẳng nên kết luận 'không thể đo được'. Phát biểu đánh giá hành vi của Bình: 'Bình chưa kiên trì suy nghĩ và chưa áp dụng đúng quy tắc đo độ dài đoạn thẳng' là ĐÚNG hay SAI?",
+      "generalfeedback": "Đúng, vì cây bút ngắn hơn thước thẳng hoàn toàn đo được dễ dàng bằng cách đặt vạch 0 trùng một đầu bút và đọc vạch ở đầu kia.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "questiontext": "Trong thông tin khổ sách SGK ghi \\(19 \\times 26{,}5\\text{ cm}\\), kí hiệu \\(\\text{cm}\\) là kí hiệu của đơn vị [[1]], con số \\(19\\) biểu thị [[2]] của cuốn sách.",
+      "generalfeedback": "cm là kí hiệu xentimét (đơn vị đo độ dài), 19 biểu thị chiều rộng cuốn sách.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "xentimét"
+        },
+        {
+          "group": 1,
+          "text": "chiều rộng"
+        },
+        {
+          "group": 1,
+          "text": "gam"
+        },
+        {
+          "group": 1,
+          "text": "chiều cao"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03_04",
+      "questiontext": "Bạn Nam bước từ mép tường đầu lớp đến mép tường cuối lớp được đúng \\(18\\) bước chân. Nếu mỗi bước chân của Nam dài khoảng \\(0{,}6\\text{ m}\\), hãy áp dụng kiến thức toán học để tính chiều dài lớp học.",
+      "generalfeedback": "Chiều dài lớp học ước tính là 18 x 0,6 = 10,8 m.",
+      "answers": [
+        {
+          "text": "\\(10{,}8\\text{ m}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(18{,}6\\text{ m}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(30\\text{ m}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(10{,}2\\text{ m}\\)",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

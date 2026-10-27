@@ -1,0 +1,655 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 26,
+    "metadata_used": {
+      "Vị trí điểm biểu diễn số hữu tỉ trên trục số": 1,
+      "Khoảng cách đến gốc O": 1,
+      "Biểu diễn chính xác các số hữu tỉ trên trục số": 1,
+      "YCCD_TOAN7_023": 2,
+      "YCCD_TOAN7_007": 2,
+      "YCCD_TOAN7_004": 1,
+      "YCCD_TOAN7_006": 1,
+      "So sánh và thứ tự các số hữu tỉ trong bài toán thực tế": 1
+    },
+    "types_used": {
+      "multichoice": 7,
+      "truefalse": 3,
+      "shortanswer": 3,
+      "numerical": 3,
+      "gapselect": 2,
+      "ddwtos": 2,
+      "matching": 2,
+      "calculated": 2,
+      "calculatedsimple": 1,
+      "calculatedmulti": 1
+    },
+    "total": 26
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_004",
+        "reason": "Biểu diễn được số hữu tỉ trên trục số qua chia đoạn đơn vị và xác định vị trí điểm."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_006",
+        "reason": "Nhận biết thứ tự trong tập hợp các số hữu tỉ trên trục số và qua dạng số thập phân."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_007",
+        "reason": "So sánh hai số hữu tỉ viết dưới dạng phân số và số thập phân."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_023",
+        "reason": "Giải quyết các bài toán thực tiễn liên quan đến điểm đông đặc, điểm sôi của khí hiếm và chênh lệch nhiệt độ."
+      },
+      {
+        "metadata_code": "Vị trí điểm biểu diễn số hữu tỉ trên trục số",
+        "reason": "Nắm vững vị trí của điểm biểu diễn số hữu tỉ âm và dương so với gốc O trên trục số."
+      },
+      {
+        "metadata_code": "Khoảng cách đến gốc O",
+        "reason": "Khái niệm khoảng cách từ điểm biểu diễn số hữu tỉ trên trục số đến gốc O."
+      },
+      {
+        "metadata_code": "Biểu diễn chính xác các số hữu tỉ trên trục số",
+        "reason": "Kỹ năng biểu diễn chính xác số hữu tỉ bằng cách chia đoạn đơn vị thành các phần bằng nhau."
+      },
+      {
+        "metadata_code": "So sánh và thứ tự các số hữu tỉ trong bài toán thực tế",
+        "reason": "Kỹ năng so sánh và sắp xếp thứ tự các số hữu tỉ trong bối cảnh dữ liệu thực tế."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học thuần túy về biểu diễn và so sánh số hữu tỉ trên giấy/trục số, không chứa nội dung hay hoạt động bắt buộc sử dụng phần mềm tin học/công cụ số."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Nội dung bài học luyện tập chung số hữu tỉ không liên quan tự nhiên đến các hệ thống hay ứng dụng Trí tuệ nhân tạo (AI)."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Vị trí điểm biểu diễn số hữu tỉ trên trục số",
+      "questiontext": "Trên trục số, điểm biểu diễn số hữu tỉ âm \\(-\\frac{5}{4}\\) nằm ở vị trí nào so với gốc \\(O\\)?",
+      "generalfeedback": "Số hữu tỉ âm luôn được biểu diễn bởi điểm nằm bên trái gốc \\(O\\) trên trục số nằm ngang.",
+      "answers": [
+        {
+          "text": "Bên trái gốc \\(O\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Bên phải gốc \\(O\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Trùng với gốc \\(O\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Không xác định được vị trí",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Khoảng cách đến gốc O",
+      "questiontext": "Khoảng cách từ điểm biểu diễn số hữu tỉ \\(-1,25\\) trên trục số đến gốc \\(O\\) bằng \\(1,25\\) đơn vị độ dài.",
+      "generalfeedback": "Đúng. Khoảng cách từ một điểm trên trục số đến gốc \\(O\\) luôn là một số không âm, bằng giá trị tuyệt đối của số đó: \\(|-1,25| = 1,25\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "Biểu diễn chính xác các số hữu tỉ trên trục số",
+      "questiontext": "Để biểu diễn số hữu tỉ \\(1,75\\) dưới dạng phân số tối giản \\(\\frac{7}{4}\\) trên trục số, ta cần chia đoạn thẳng đơn vị cũ thành bao nhiêu đoạn bằng nhau?",
+      "generalfeedback": "Vì mẫu số bằng \\(4\\) nên ta chia đoạn thẳng đơn vị thành \\(4\\) đoạn bằng nhau để lấy làm đơn vị mới.",
+      "answers": [
+        {
+          "text": "4 đoạn",
+          "fraction": 100
+        },
+        {
+          "text": "4",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_023",
+      "questiontext": "Nhiệt độ thấp nhất tại Sa Pa là \\(-0,7\\) °C và tại thành phố Lào Cai là \\(9,6\\) °C. Hỏi nhiệt độ tại thành phố Lào Cai cao hơn nhiệt độ tại Sa Pa bao nhiêu độ C? (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Chênh lệch nhiệt độ bằng: \\(9,6 - (-0,7) = 9,6 + 0,7 = 10,3\\) °C.",
+      "answers": [
+        {
+          "text": "10.3",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_007",
+      "imgs": [
+        "_page_0_Figure_13.jpeg"
+      ],
+      "questiontext": "Quan sát trục số Hình 1.10 [img:_page_0_Figure_13.jpeg], khẳng định nào sau đây về thứ tự của ba số hữu tỉ \\(-1,25\\); \\(\\frac{1}{4}\\); \\(1,75\\) là đúng?",
+      "generalfeedback": "Trên trục số nằm ngang, điểm nằm bên trái biểu diễn số nhỏ hơn điểm nằm bên phải. Do đó \\(-1,25 < \\frac{1}{4} < 1,75\\).",
+      "answers": [
+        {
+          "text": "\\(-1,25 < \\frac{1}{4} < 1,75\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(1,75 < \\frac{1}{4} < -1,25\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{1}{4} < -1,25 < 1,75\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-1,25 < 1,75 < \\frac{1}{4}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_004",
+      "questiontext": "Số hữu tỉ \\(1,75\\) viết dưới dạng phân số tối giản là [[1]], còn số hữu tỉ \\(-1,25\\) viết dưới dạng phân số tối giản là [[2]].",
+      "generalfeedback": "Ta có \\(1,75 = \\frac{175}{100} = \\frac{7}{4}\\) và \\(-1,25 = -\\frac{125}{100} = -\\frac{5}{4}\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(\\frac{7}{4}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(-\\frac{5}{4}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{5}{4}\\)"
+        },
+        {
+          "group": 1,
+          "text": "\\(-\\frac{7}{4}\\)"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_006",
+      "questiontext": "Khi so sánh hai số hữu tỉ âm \\(-\\frac{65}{9}\\) và \\(-7,125\\), ta đổi \\(-\\frac{65}{9} \\approx\\) [[1]] nên ta có kết quả \\(-\\frac{65}{9}\\) [[2]] \\(-7,125\\).",
+      "generalfeedback": "Ta có \\(-\\frac{65}{9} \\approx -7,222...\\) Vì \\(-7,222... < -7,125\\) nên \\(-\\frac{65}{9} < -7,125\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "-7,222"
+        },
+        {
+          "group": 1,
+          "text": "<"
+        },
+        {
+          "group": 1,
+          "text": ">"
+        },
+        {
+          "group": 1,
+          "text": "-7,125"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "van_dung",
+      "metadata_code": "So sánh và thứ tự các số hữu tỉ trong bài toán thực tế",
+      "questiontext": "Cho bảng số liệu về điểm đông đặc của một số khí hiếm: Helium (\\(-272,2\\) °C), Neon (\\(-248,67\\) °C), Argon (\\(-189,2\\) °C), Krypton (\\(-156,6\\) °C), Radon (\\(-71,0\\) °C). Hãy ghép mỗi yêu cầu so sánh với câu trả lời đúng tương ứng:",
+      "generalfeedback": "So sánh các số âm: số có giá trị tuyệt đối lớn hơn thì nhỏ hơn.",
+      "subquestions": [
+        {
+          "question": "Khí hiếm có điểm đông đặc thấp nhất (nhỏ nhất)",
+          "answer": "Helium (\\(-272,2\\) °C)"
+        },
+        {
+          "question": "Khí hiếm có điểm đông đặc cao nhất (lớn nhất)",
+          "answer": "Radon (\\(-71,0\\) °C)"
+        },
+        {
+          "question": "Khí hiếm có điểm đông đặc nhỏ hơn Krypton (\\(-156,6\\) °C) nhưng lớn hơn Neon (\\(-248,67\\) °C)",
+          "answer": "Argon (\\(-189,2\\) °C)"
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_007",
+      "questiontext": "Cho hai số thập phân {a} và {b}. Hãy tính hiệu giữa {a} và {b} (tức là {a} - {b}).",
+      "generalfeedback": "Tính hiệu của hai số: {a} - {b}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 10.0,
+          "max": 50.0,
+          "decimals": 1
+        },
+        {
+          "name": "b",
+          "min": 1.0,
+          "max": 9.0,
+          "decimals": 1
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}-{b}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_023",
+      "questiontext": "Nhiệt độ tại điểm A là -{a} °C và tại điểm B là {b} °C. Hỏi nhiệt độ tại điểm B cao hơn nhiệt độ tại điểm A bao nhiêu độ C?",
+      "generalfeedback": "Chênh lệch nhiệt độ bằng: {b} - (-{a}) = {b} + {a}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 1
+        },
+        {
+          "name": "b",
+          "min": 10.0,
+          "max": 25.0,
+          "decimals": 1
+        }
+      ],
+      "answers": [
+        {
+          "text": "{b}+{a}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_007",
+      "questiontext": "So sánh hai số hữu tỉ \\(\\frac{123}{7}\\) và \\(17,75\\). Khẳng định nào sau đây là đúng?",
+      "generalfeedback": "Ta có \\(\\frac{123}{7} = 17,5714...\\) Vì \\(17,5714... < 17,75\\) nên \\(\\frac{123}{7} < 17,75\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{123}{7} < 17,75\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{123}{7} > 17,75\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{123}{7} = 17,75\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{123}{7} \\ge 17,75\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_007",
+      "questiontext": "Số hữu tỉ \\(-\\frac{65}{9}\\) lớn hơn số hữu tỉ \\(-7,125\\).",
+      "generalfeedback": "Sai. Ta có \\(-\\frac{65}{9} \\approx -7,222\\). Vì \\(-7,222 < -7,125\\) nên \\(-\\frac{65}{9} < -7,125\\).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 0
+        },
+        {
+          "text": "Sai",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_023",
+      "questiontext": "Cho bảng điểm sôi của các khí hiếm: Argon (\\(-185,7\\) °C), Helium (\\(-268,6\\) °C), Neon (\\(-245,72\\) °C), Krypton (\\(-152,3\\) °C). Khí hiếm nào có điểm sôi lớn hơn điểm sôi của Argon?",
+      "generalfeedback": "Điểm sôi của Argon là \\(-185,7\\) °C. Số lớn hơn \\(-185,7\\) trong các số trên là \\(-152,3\\) °C (Krypton).",
+      "answers": [
+        {
+          "text": "Krypton",
+          "fraction": 100
+        },
+        {
+          "text": "Helium",
+          "fraction": 0
+        },
+        {
+          "text": "Neon",
+          "fraction": 0
+        },
+        {
+          "text": "Không có khí nào",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_023",
+      "questiontext": "Trong sơ đồ cây Hình 1.11, nếu ô hàng dưới thứ nhất là \\(-0,5\\) và ô hàng dưới thứ hai là \\(4\\), thì ô hàng trên kề với hai ô này có giá trị bằng bao nhiêu?",
+      "generalfeedback": "Số trong ô hàng trên bằng tích của hai số trong hai ô kề nó ở hàng dưới: \\((-0,5) \\times 4 = -2\\).",
+      "answers": [
+        {
+          "text": "-2",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "So sánh và thứ tự các số hữu tỉ trong bài toán thực tế",
+      "questiontext": "Tính giá trị của biểu thức \\(A = (7,4 + 2,5) + [(-0,7) + (-4,3)]\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Ta có \\(7,4 + 2,5 = 9,9\\) và \\((-0,7) + (-4,3) = -5\\). Do đó \\(A = 9,9 + (-5) = 4,9\\).",
+      "answers": [
+        {
+          "text": "4.9",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Biểu diễn chính xác các số hữu tỉ trên trục số",
+      "questiontext": "Khi biểu diễn các số hữu tỉ trên trục số, số hữu tỉ dương nằm ở bên [[1]] gốc \\(O\\), còn số hữu tỉ âm nằm ở bên [[2]] gốc \\(O\\).",
+      "generalfeedback": "Trên trục số nằm ngang, số dương nằm bên phải gốc \\(O\\) và số âm nằm bên trái gốc \\(O\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "phải"
+        },
+        {
+          "group": 1,
+          "text": "trái"
+        },
+        {
+          "group": 1,
+          "text": "trên"
+        },
+        {
+          "group": 1,
+          "text": "dưới"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "So sánh và thứ tự các số hữu tỉ trong bài toán thực tế",
+      "questiontext": "Khi tính giá trị biểu thức \\(B = \\frac{3}{2} \\cdot \\left(-\\frac{37}{10}\\right) + \\frac{17}{2} \\cdot \\left(-\\frac{37}{10}\\right)\\), ta áp dụng tính chất phân phối đặt [[1]] làm thừa số chung, thu được kết quả bằng [[2]].",
+      "generalfeedback": "Ta có \\(B = \\left(\\frac{3}{2} + \\frac{17}{2}\\right) \\cdot \\left(-\\frac{37}{10}\\right) = 10 \\cdot \\left(-\\frac{37}{10}\\right) = -37\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "\\(-\\frac{37}{10}\\)"
+        },
+        {
+          "group": 1,
+          "text": "-37"
+        },
+        {
+          "group": 1,
+          "text": "37"
+        },
+        {
+          "group": 1,
+          "text": "\\(\\frac{3}{2}\\)"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Vị trí điểm biểu diễn số hữu tỉ trên trục số",
+      "questiontext": "Ghép mỗi số hữu tỉ sau với dạng viết phân số tối giản tương ứng của nó:",
+      "generalfeedback": "Đổi số thập phân ra phân số tối giản.",
+      "subquestions": [
+        {
+          "question": "1,75",
+          "answer": "\\(\\frac{7}{4}\\)"
+        },
+        {
+          "question": "-1,25",
+          "answer": "\\(-\\frac{5}{4}\\)"
+        },
+        {
+          "question": "0,25",
+          "answer": "\\(\\frac{1}{4}\\)"
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_007",
+      "questiontext": "Cho biểu thức tính tổng hai số {a} và {b}. Công thức nào dưới đây biểu diễn đúng tổng của hai số này?",
+      "generalfeedback": "Tổng hai số {a} và {b} được tính bằng công thức {a}+{b}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 1.0,
+          "max": 10.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}+{b}",
+          "fraction": 100
+        },
+        {
+          "text": "{a}*{b}",
+          "fraction": 0
+        },
+        {
+          "text": "{a}-{b}",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_023",
+      "questiontext": "Tích của số {a} và số {b} bằng bao nhiêu?",
+      "generalfeedback": "Tích hai số bằng {a}*{b}.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 2.0,
+          "max": 9.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 2.0,
+          "max": 9.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{a}*{b}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Trong giờ bài tập Toán về so sánh hai số hữu tỉ \\(-\\frac{65}{9}\\) và \\(-7,125\\), bạn An gặp khó khăn vì hai số được viết ở hai dạng khác nhau (phân số và số thập phân). Để thể hiện tinh thần chăm chỉ và kiên trì trong học tập, bạn An nên thực hiện hành động nào sau đây?",
+      "generalfeedback": "Thể hiện tinh thần chăm chỉ, kiên trì là tự mình tìm tòi, kiên trì chuyển đổi các số về cùng một dạng (cùng phân số hoặc cùng số thập phân) để tự hoàn thành bài tập thay vì bỏ dở hoặc chép bài của người khác.",
+      "answers": [
+        {
+          "text": "Kiên trì tìm cách đổi phân số \\(-\\frac{65}{9}\\) sang số thập phân hoặc đổi \\(-7,125\\) sang phân số để so sánh.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài tập này vì thấy số liệu quá phức tạp và khó làm.",
+          "fraction": 0
+        },
+        {
+          "text": "Chờ đến giờ lên lớp chép ngay đáp án của bạn bên cạnh mà không cần suy nghĩ.",
+          "fraction": 0
+        },
+        {
+          "text": "Đoán mò kết quả để nộp bài cho nhanh.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Khi làm bài kiểm tra tính giá trị biểu thức \\(A = (7,4 + 2,5) + [(-0,7) + (-4,3)]\\), bạn Bình tính ra kết quả khác với các bạn xung quanh. Thể hiện tính trung thực trong học tập, bạn Bình nên giữ nguyên bài làm của mình nếu tự tin vào cách giải tính hợp lý của bản thân thay vì tẩy xóa để chép theo bạn.",
+      "generalfeedback": "Đúng. Trung thực trong học tập đòi hỏi học sinh trung thực với kết quả làm bài của chính mình, không gian lận hay chép bài của người khác.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Để tự học và hệ thống hóa kiến thức về so sánh các số hữu tỉ âm trong bảng số liệu thực tế (như điểm đông đặc, điểm sôi của các khí hiếm Argon, Helium, Neon...), bạn Cúc nên lập bảng tóm tắt quy trình thực hiện theo thứ tự các bước nào dưới đây?",
+      "generalfeedback": "Tự chủ và tự học thể hiện qua việc tự lập quy trình chuẩn: Thu thập/đọc dữ liệu -> Nhận diện các số âm -> So sánh giá trị tuyệt đối hoặc vị trí trên trục số -> Sắp xếp và rút ra kết luận.",
+      "answers": [
+        {
+          "text": "Bước 1: Trích xuất các số liệu âm; Bước 2: So sánh giá trị tuyệt đối của chúng; Bước 3: Đảo chiều thứ tự (số có giá trị tuyệt đối lớn hơn thì nhỏ hơn); Bước 4: Sắp xếp theo yêu cầu.",
+          "fraction": 100
+        },
+        {
+          "text": "Bước 1: Bỏ dấu âm; Bước 2: Sắp xếp các số dương; Bước 3: Giữ nguyên thứ tự đó cho các số âm.",
+          "fraction": 0
+        },
+        {
+          "text": "Bước 1: Chọn ngẫu nhiên hai số; Bước 2: So sánh; Bước 3: Điền vào bảng không cần kiểm tra lại.",
+          "fraction": 0
+        },
+        {
+          "text": "Bước 1: Nhờ người khác so sánh hộ; Bước 2: Ghi kết quả vào vở tự học.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "van_dung",
+      "metadata_code": "NLC_GIAIQUYETVD",
+      "questiontext": "Trong sơ đồ hình tháp (Hình 1.11), biết số trong mỗi ô hàng trên bằng tích hai số ở ô kề dưới. Để giải quyết bài toán tìm số ở ô đỉnh tháp khi hàng đáy là 0,01; -10; 10; -0,01, em hãy cho biết dấu của số ở ô đỉnh tháp là dấu gì? (Trả lời: \"Dương\" hoặc \"Âm\")",
+      "generalfeedback": "Hàng đáy có 2 số âm (tích hàng đáy gồm 2 dấu âm). Lên các hàng trên, tích các ô sẽ cho ra kết quả cuối cùng ở đỉnh tháp là một số dương.",
+      "answers": [
+        {
+          "text": "Dương",
+          "fraction": 100
+        },
+        {
+          "text": "dương",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Cho hai số hữu tỉ \\(a = -189,2\\) và \\(b = -156,6\\) (điểm đông đặc của Argon và Krypton). Hãy chọn lập luận toán học đúng nhất khi so sánh \\(a\\) và \\(b\\):",
+      "generalfeedback": "Lập luận toán học chặt chẽ: Vì \\(|a| = 189,2 > 156,6 = |b|\\) và cả \\(a, b\\) đều là số âm, nên \\(a < b\\) (trên trục số điểm \\(a\\) nằm bên trái điểm \\(b\\)).",
+      "answers": [
+        {
+          "text": "Vì \\(|-189,2| = 189,2 > 156,6 = |-156,6|\\) và cả hai là số âm nên \\(-189,2 < -156,6\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Vì \\(189,2 > 156,6\\) nên suy ra \\(-189,2 > -156,6\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Vì cả hai đều là số thập phân âm nên chúng luôn bằng nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Vì điểm \\(-189,2\\) nằm bên phải điểm \\(-156,6\\) trên trục số nên \\(-189,2 > -156,6\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_03",
+      "questiontext": "Mô hình hóa bài toán thực tế: Điểm đông đặc của Argon là \\(-189,2\\) °C và điểm sôi của Argon là \\(-185,7\\) °C. Hãy tính khoảng nhiệt độ mà Argon ở trạng thái lỏng (tức chênh lệch giữa điểm sôi và điểm đông đặc). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Khoảng nhiệt độ ở trạng thái lỏng = Điểm sôi - Điểm đông đặc = \\(-185,7 - (-189,2) = -185,7 + 189,2 = 3,5\\) °C.",
+      "answers": [
+        {
+          "text": "3.5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    }
+  ]
+}

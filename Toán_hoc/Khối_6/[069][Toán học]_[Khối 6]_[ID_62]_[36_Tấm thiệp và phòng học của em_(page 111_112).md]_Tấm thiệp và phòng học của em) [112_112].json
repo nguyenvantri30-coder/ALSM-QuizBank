@@ -1,0 +1,628 @@
+{
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Quy trình thiết kế thiệp và đo đạc kích thước phòng học",
+      "questiontext": "Trong quy trình làm tấm thiệp chúc mừng, bước đầu tiên cần thực hiện cắt hình gì từ tờ bìa A4?",
+      "generalfeedback": "Theo quy trình ở Bước 1, ta vẽ rồi cắt một hình vuông có cạnh 20 cm từ tờ bìa A4.",
+      "answers": [
+        {
+          "text": "Hình vuông cạnh 20 cm",
+          "fraction": 100
+        },
+        {
+          "text": "Hình chữ nhật kích thước 10 cm \\(\\times\\) 20 cm",
+          "fraction": 0
+        },
+        {
+          "text": "Hình tam giác đều cạnh 20 cm",
+          "fraction": 0
+        },
+        {
+          "text": "Hình thoi có hai đường chéo 20 cm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Quy trình thiết kế thiệp và đo đạc kích thước phòng học",
+      "imgs": [
+        "_page_0_Picture_18.jpeg"
+      ],
+      "questiontext": "Cho hình ảnh minh họa bước gấp thiệp: [img:_page_0_Picture_18.jpeg]. Khi gấp đôi hình vuông cạnh 20 cm thành hai hình chữ nhật chồng khít lên nhau, kích thước của mỗi hình chữ nhật nhận được là bao nhiêu?",
+      "generalfeedback": "Gấp đôi hình vuông cạnh 20 cm làm 2 phần bằng nhau sẽ tạo thành hình chữ nhật có chiều rộng 10 cm và chiều dài 20 cm.",
+      "answers": [
+        {
+          "text": "10 cm \\(\\times\\) 20 cm",
+          "fraction": 100
+        },
+        {
+          "text": "10 cm \\(\\times\\) 10 cm",
+          "fraction": 0
+        },
+        {
+          "text": "5 cm \\(\\times\\) 20 cm",
+          "fraction": 0
+        },
+        {
+          "text": "20 cm \\(\\times\\) 20 cm",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Thực hành cắt dán làm tấm thiệp chúc mừng",
+      "questiontext": "Để dán trang trí mặt trước tấm thiệp theo mẫu ở Hoạt động 1, ta cần chuẩn bị 9 tam giác đều cạnh 1,5 cm.",
+      "generalfeedback": "Theo Bước 3 của quy trình làm thiệp, ta cần cắt 9 tam giác đều cạnh 1,5 cm từ giấy màu.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_168",
+      "questiontext": "Tính tổng diện tích (theo \\(\\text{cm}^2\\)) của 2 hình chữ nhật kích thước 1 cm \\(\\times\\) 4 cm và 2 hình chữ nhật kích thước 1 cm \\(\\times\\) 3 cm dùng để cắt dán trang trí thiệp. (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Tổng diện tích = 2 \\(\\times\\) (1 \\(\\times\\) 4) + 2 \\(\\times\\) (1 \\(\\times\\) 3) = 8 + 6 = 14 \\(\\text{cm}^2\\).",
+      "answers": [
+        {
+          "text": "14",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculated",
+      "level": "van_dung",
+      "metadata_code": "Thực hành đo đạc diện tích phòng học",
+      "questiontext": "Một phòng học có diện tích nền là {s1} m^2 và tổng diện tích các cửa là {s2} m^2. Tính chỉ số mức ánh sáng A của phòng học đó theo công thức \\(A = (S_2 / S_1) \\cdot 100\\).",
+      "generalfeedback": "Chỉ số mức ánh sáng A được tính bằng công thức A = (S2 / S1) * 100.",
+      "wildcards": [
+        {
+          "name": "s1",
+          "min": 40.0,
+          "max": 60.0,
+          "decimals": 0
+        },
+        {
+          "name": "s2",
+          "min": 8.0,
+          "max": 15.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{s2}/{s1}*100",
+          "fraction": 100,
+          "tolerance": 0.1
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Quy trình thiết kế thiệp và đo đạc kích thước phòng học",
+      "questiontext": "Một gian phòng học đạt mức chuẩn về ánh sáng nếu chỉ số ánh sáng A [[1]] 20, nghĩa là diện tích các cửa không nhỏ hơn [[3]] diện tích nền nhà.",
+      "generalfeedback": "Phòng học đạt chuẩn về ánh sáng khi chỉ số A >= 20, tức diện tích các cửa không nhỏ hơn 20% diện tích nền.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "lớn hơn hoặc bằng"
+        },
+        {
+          "group": 1,
+          "text": "nhỏ hơn"
+        },
+        {
+          "group": 2,
+          "text": "20%"
+        },
+        {
+          "group": 2,
+          "text": "50%"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Thực hành đo đạc diện tích phòng học",
+      "questiontext": "Phòng học lớp 6A có diện tích nền nhà \\(S_1 = 50\\text{ m}^2\\) và tổng diện tích các cửa \\(S_2 = 12\\text{ m}^2\\). Chỉ số mức ánh sáng A của phòng học là bao nhiêu và phòng học có đạt chuẩn về ánh sáng không?",
+      "generalfeedback": "Chỉ số A = (12 / 50) * 100 = 24. Vì A = 24 >= 20 nên phòng học đạt chuẩn về ánh sáng.",
+      "answers": [
+        {
+          "text": "\\(A = 24\\); phòng học đạt chuẩn về ánh sáng.",
+          "fraction": 100
+        },
+        {
+          "text": "\\(A = 24\\); phòng học không đạt chuẩn về ánh sáng.",
+          "fraction": 0
+        },
+        {
+          "text": "\\(A = 12\\); phòng học không đạt chuẩn về ánh sáng.",
+          "fraction": 0
+        },
+        {
+          "text": "\\(A = 20\\); phòng học đạt chuẩn về ánh sáng.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Thực hành cắt dán làm tấm thiệp chúc mừng",
+      "questiontext": "Ghép các loại hình giấy màu cần cắt ở Bước 3 với số lượng tương ứng để làm thiệp:",
+      "generalfeedback": "Theo Bước 3: cắt 2 hình chữ nhật 1x4 cm, 2 hình chữ nhật 1x3 cm, 2 hình chữ nhật 1x2 cm và 9 tam giác đều cạnh 1,5 cm.",
+      "subquestions": [
+        {
+          "question": "Hình chữ nhật kích thước 1 cm \\(\\times\\) 4 cm",
+          "answer": "2 hình"
+        },
+        {
+          "question": "Hình chữ nhật kích thước 1 cm \\(\\times\\) 3 cm",
+          "answer": "2 hình"
+        },
+        {
+          "question": "Hình tam giác đều cạnh 1,5 cm",
+          "answer": "9 hình"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_168",
+      "questiontext": "Tờ bìa A4 ban đầu có chiều dài 29,7 cm và chiều rộng 21 cm. Học sinh cắt ra một hình vuông cạnh {a} cm. Diện tích phần bìa A4 còn lại (theo cm^2) là bao nhiêu?",
+      "generalfeedback": "Diện tích tờ bìa A4 = 21 * 29,7 = 623,7 cm2. Diện tích hình vuông cắt đi = a * a. Diện tích còn lại = 623,7 - a^2.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 10.0,
+          "max": 20.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "21*29.7-{a}*{a}",
+          "fraction": 100,
+          "tolerance": 0.1
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Quy trình thiết kế thiệp và đo đạc kích thước phòng học",
+      "questiontext": "Dụng cụ nào dùng để đo kích thước nền nhà và các cửa phòng học trong Hoạt động 2?",
+      "generalfeedback": "Theo phần Chuẩn bị của Hoạt động 2, dụng cụ để đo là thước dây.",
+      "answers": [
+        {
+          "text": "thước dây",
+          "fraction": 100
+        },
+        {
+          "text": "Thước dây",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Quy trình thiết kế thiệp và đo đạc kích thước phòng học",
+      "questiontext": "Trong Hoạt động 2, diện tích nền phòng học được ký hiệu là gì và diện tích các cửa được ký hiệu là gì?",
+      "generalfeedback": "Theo Hoạt động 2: diện tích nền của phòng học ký hiệu là \\(S_1\\), tổng diện tích các cửa ký hiệu là \\(S_2\\).",
+      "answers": [
+        {
+          "text": "Diện tích nền là \\(S_1\\), tổng diện tích các cửa là \\(S_2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Diện tích nền là \\(S_2\\), tổng diện tích các cửa là \\(S_1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Diện tích nền là A, tổng diện tích các cửa là \\(S_1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Diện tích nền là \\(S_1\\), tổng diện tích các cửa là A",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Quy trình thiết kế thiệp và đo đạc kích thước phòng học",
+      "imgs": [
+        "_page_1_Picture_6.jpeg"
+      ],
+      "questiontext": "Cho hình ảnh trang trí tấm thiệp: [img:_page_1_Picture_6.jpeg]. Mặt trước tấm thiệp được trang trí bằng hình dán có hình dạng tổng thể là hình gì?",
+      "generalfeedback": "Quan sát hình ảnh trang trí mặt trước tấm thiệp ở Bước 4, các mảnh giấy màu được ghép tạo thành hình cây thông (hoặc cây thông Noel).",
+      "answers": [
+        {
+          "text": "Hình cây thông",
+          "fraction": 100
+        },
+        {
+          "text": "Hình ngôi sao 5 cánh",
+          "fraction": 0
+        },
+        {
+          "text": "Hình chiếc ô tô",
+          "fraction": 0
+        },
+        {
+          "text": "Hình ngôi nhà",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Quy trình thiết kế thiệp và đo đạc kích thước phòng học",
+      "questiontext": "Nội dung chúc mừng của tấm thiệp được ghi ở mặt ngoài phía sau của thiệp.",
+      "generalfeedback": "Theo Bước 6 của hướng dẫn làm thiệp, ghi nội dung chúc mừng phù hợp vào mặt trong của thiệp.",
+      "answers": [
+        {
+          "text": "Sai",
+          "fraction": 100
+        },
+        {
+          "text": "Đúng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN6_168",
+      "questiontext": "Học sinh dùng một tờ bìa hình vuông cạnh 20 cm để làm thiệp. Diện tích của tờ bìa hình vuông đó là bao nhiêu \\(\\text{cm}^2\\)? (Chỉ điền số, không ghi đơn vị)",
+      "generalfeedback": "Diện tích hình vuông cạnh 20 cm là 20 \\(\\times\\) 20 = 400 \\(\\text{cm}^2\\).",
+      "answers": [
+        {
+          "text": "400",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "calculatedmulti",
+      "level": "van_dung",
+      "metadata_code": "Thực hành đo đạc diện tích phòng học",
+      "questiontext": "Một phòng học có diện tích nền S_1 = {a} m^2 và tổng diện tích các cửa S_2 = {b} m^2. Công thức tính đúng chỉ số ánh sáng A là công thức nào sau đây?",
+      "generalfeedback": "Công thức tính chỉ số ánh sáng A là A = (S2 / S1) * 100.",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 40.0,
+          "max": 60.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 8.0,
+          "max": 15.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{b}/{a}*100",
+          "fraction": 100
+        },
+        {
+          "text": "{a}/{b}*100",
+          "fraction": 0
+        },
+        {
+          "text": "{b}*{a}/100",
+          "fraction": 0
+        },
+        {
+          "text": "({a}+{b})*100",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "Thực hành cắt dán làm tấm thiệp chúc mừng",
+      "questiontext": "Ở Bước 3, học sinh cần cắt từ giấy màu 2 hình chữ nhật kích thước 1 cm \\(\\times\\) 4 cm, 2 hình chữ nhật kích thước 1 cm \\(\\times\\) 3 cm, 2 hình chữ nhật kích thước 1 cm \\(\\times\\) 2 cm và [[1]] tam giác đều cạnh [[3]] cm.",
+      "generalfeedback": "Theo Bước 3, cần cắt 9 tam giác đều cạnh 1,5 cm.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "9"
+        },
+        {
+          "group": 1,
+          "text": "6"
+        },
+        {
+          "group": 2,
+          "text": "1,5"
+        },
+        {
+          "group": 2,
+          "text": "2,0"
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Quy trình thiết kế thiệp và đo đạc kích thước phòng học",
+      "questiontext": "Nếu chỉ số mức ánh sáng A [[1]] 20 thì phòng học không đủ ánh sáng. Nếu chỉ số A [[2]] 20 thì phòng học đủ ánh sáng.",
+      "generalfeedback": "Theo Hoạt động 2: Nếu A < 20 thì không đủ ánh sáng; nếu A >= 20 thì đủ ánh sáng.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "<"
+        },
+        {
+          "group": 1,
+          "text": "≥"
+        },
+        {
+          "group": 1,
+          "text": "="
+        },
+        {
+          "group": 1,
+          "text": ">"
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Quy trình thiết kế thiệp và đo đạc kích thước phòng học",
+      "questiontext": "Ghép các bước làm thiệp với nội dung công việc tương ứng:",
+      "generalfeedback": "Ghép đúng các bước theo hướng dẫn ở Hoạt động 1.",
+      "subquestions": [
+        {
+          "question": "Bước 1",
+          "answer": "Vẽ rồi cắt một hình vuông có cạnh 20 cm từ tờ bìa A4"
+        },
+        {
+          "question": "Bước 2",
+          "answer": "Gấp đôi hình vuông thành hai hình chữ nhật chồng khít lên nhau"
+        },
+        {
+          "question": "Bước 6",
+          "answer": "Ghi nội dung chúc mừng phù hợp vào mặt trong của thiệp"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN6_168",
+      "imgs": [
+        "_page_0_Picture_16.jpeg"
+      ],
+      "questiontext": "Hình ảnh minh họa cắt hình vuông từ bìa A4: [img:_page_0_Picture_16.jpeg]. Tờ bìa A4 ban đầu có kích thước 21 cm \\(\\times\\) 29,7 cm. Sau khi cắt đi hình vuông cạnh 20 cm, diện tích phần bìa A4 còn thừa lại xấp xỉ là bao nhiêu?",
+      "generalfeedback": "Diện tích tờ bìa A4 = 21 \\(\\times\\) 29,7 = 623,7 \\(\\text{cm}^2\\). Diện tích hình vuông cắt đi = 20 \\(\\times\\) 20 = 400 \\(\\text{cm}^2\\). Diện tích còn thừa = 623,7 - 400 = 223,7 \\(\\text{cm}^2\\).",
+      "answers": [
+        {
+          "text": "223,7 \\(\\text{cm}^2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "400 \\(\\text{cm}^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "623,7 \\(\\text{cm}^2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "123,7 \\(\\text{cm}^2\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Thực hành đo đạc diện tích phòng học",
+      "questiontext": "Để thực hiện đo các kích thước phòng học trong Hoạt động 2, học sinh cần chuẩn bị loại thước nào?",
+      "generalfeedback": "Theo phần Chuẩn bị của Hoạt động 2, loại thước cần dùng là thước dây.",
+      "answers": [
+        {
+          "text": "Thước dây",
+          "fraction": 100
+        },
+        {
+          "text": "thước dây",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Trong giờ thực hành đo đạc ánh sáng phòng học, nhóm của Nam đo ra kết quả chỉ số ánh sáng \\(A = 18\\) (dưới mức chuẩn 20). Nam muốn sửa kết quả đo trong báo cáo thành \\(A = 20\\) để nhóm đạt điểm cao, nhưng Mai khuyên nên báo cáo trung thực kết quả đo và tìm nguyên nhân để đề xuất giải pháp. Em đồng ý với ý kiến của bạn nào?",
+      "generalfeedback": "Ý kiến của Mai thể hiện sự trung thực, nỗ lực vươn lên và có thái độ nghiêm túc trong học tập để đạt kết quả thực chất.",
+      "answers": [
+        {
+          "text": "Đồng ý với Mai, vì cần trung thực với kết quả đo đạc thực tế để rút kinh nghiệm và học tập tiến bộ.",
+          "fraction": 100
+        },
+        {
+          "text": "Đồng ý với Nam, vì đạt điểm cao trong bài báo cáo là mục tiêu quan trọng nhất.",
+          "fraction": 0
+        },
+        {
+          "text": "Đồng ý với Nam, vì chỉ số 18 rất gần 20 nên sửa lại cho đạt chuẩn cũng không sao.",
+          "fraction": 0
+        },
+        {
+          "text": "Không đồng ý với cả hai bạn vì việc đo đạc chỉ là bài tập phụ, không quan trọng.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_CHAMCHI_HAMHOC_C2_01",
+      "questiontext": "Khi cắt dán trang trí tấm thiệp chúc mừng, nếu mảnh giấy cắt ra chưa được thẳng hoặc chưa cân đối, học sinh kiên trì điều chỉnh và làm lại cẩn thận để sản phẩm hoàn thiện tốt nhất. Hành động đó thể hiện ý chí luôn cố gắng vươn lên đạt kết quả tốt trong học tập.",
+      "generalfeedback": "Sự kiên trì, không nản lòng khi gặp khó khăn trong bài thực hành dán thiệp là biểu hiện rõ nét của tinh thần luôn cố gắng vươn lên đạt kết quả tốt.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Để lưu giữ quy trình kiểm tra phòng học đạt chuẩn về ánh sáng dưới dạng sơ đồ tóm tắt ngắn gọn, thứ tự sắp xếp đúng của các bước là gì?",
+      "generalfeedback": "Sắp xếp thông tin tóm tắt theo tiến trình logic: (1) Đo đạc diện tích nền \\(S_1\\) và diện tích các cửa \\(S_2\\) -> (2) Tính chỉ số \\(A = \\frac{S_2}{S_1} \\cdot 100\\) -> (3) So sánh A với 20 để kết luận.",
+      "answers": [
+        {
+          "text": "Đo \\(S_1, S_2\\) \\(\\rightarrow\\) Tính \\(A = \\frac{S_2}{S_1} \\cdot 100\\) \\(\\rightarrow\\) So sánh A với 20 và kết luận.",
+          "fraction": 100
+        },
+        {
+          "text": "Tính \\(A = \\frac{S_2}{S_1} \\cdot 100\\) \\(\\rightarrow\\) Đo \\(S_1, S_2\\) \\(\\rightarrow\\) So sánh A với 20 và kết luận.",
+          "fraction": 0
+        },
+        {
+          "text": "So sánh A với 20 \\(\\rightarrow\\) Đo \\(S_1, S_2\\) \\(\\rightarrow\\) Tính \\(A = \\frac{S_2}{S_1} \\cdot 100\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Đo \\(S_1, S_2\\) \\(\\rightarrow\\) So sánh \\(S_1\\) với \\(S_2\\) \\(\\rightarrow\\) Kết luận phòng học đủ ánh sáng.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "SUB_TCTH_TUHOC_C2_04",
+      "questiontext": "Hãy ghép các thông tin dữ liệu về nguyên vật liệu làm thiệp ở Hoạt động 1 với phân loại từ khóa tóm tắt tương ứng:",
+      "generalfeedback": "Tóm tắt thông tin có chọn lọc giúp tổ chức kiến thức bài học hệ thống và dễ nhớ.",
+      "subquestions": [
+        {
+          "question": "Giấy bìa A4 màu",
+          "answer": "Dùng cắt hình vuông 20 cm làm nền thiệp"
+        },
+        {
+          "question": "Giấy màu các loại",
+          "answer": "Dùng cắt các hình chữ nhật và tam giác trang trí"
+        },
+        {
+          "question": "Thước dây",
+          "answer": "Dùng đo kích thước nền nhà và các cửa"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "SUB_GTHT_XACDINHMD_C2_03",
+      "questiontext": "Đọc bảng số liệu đo đạc chỉ số ánh sáng của 3 phòng học dưới đây:\n- Phòng 1: Diện tích nền \\(S_1 = 60\\text{ m}^2\\), Tổng diện tích cửa \\(S_2 = 15\\text{ m}^2\\)\n- Phòng 2: Diện tích nền \\(S_1 = 50\\text{ m}^2\\), Tổng diện tích cửa \\(S_2 = 9\\text{ m}^2\\)\n- Phòng 3: Diện tích nền \\(S_1 = 40\\text{ m}^2\\), Tổng diện tích cửa \\(S_2 = 8\\text{ m}^2\\)\nDựa vào công thức \\(A = \\frac{S_2}{S_1} \\cdot 100\\), phòng học nào ĐẠT mức chuẩn về ánh sáng (\\(A \\ge 20\\))?",
+      "generalfeedback": "Tính chỉ số ánh sáng từng phòng:\n- Phòng 1: \\(A = (15 / 60) \\cdot 100 = 25 \\ge 20\\) (Đạt chuẩn)\n- Phòng 2: \\(A = (9 / 50) \\cdot 100 = 18 < 20\\) (Không đạt)\n- Phòng 3: \\(A = (8 / 40) \\cdot 100 = 20 \\ge 20\\) (Đạt chuẩn)\nVậy Phòng 1 và Phòng 3 đạt chuẩn.",
+      "answers": [
+        {
+          "text": "Phòng 1 và Phòng 3",
+          "fraction": 100
+        },
+        {
+          "text": "Chỉ có Phòng 1",
+          "fraction": 0
+        },
+        {
+          "text": "Chỉ có Phòng 2",
+          "fraction": 0
+        },
+        {
+          "text": "Phòng 2 và Phòng 3",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01_01",
+      "questiontext": "Phân tích công thức tính chỉ số mức ánh sáng \\(A = \\frac{S_2}{S_1} \\cdot 100\\): Giả sử diện tích nền phòng học \\(S_1\\) không đổi. Nếu muốn tăng chỉ số ánh sáng A lên thì tổng diện tích các cửa \\(S_2\\) phải thay đổi như thế nào?",
+      "generalfeedback": "Theo công thức \\(A = \\frac{S_2}{S_1} \\cdot 100\\), khi \\(S_1\\) giữ nguyên thì A tỷ lệ thuận với \\(S_2\\). Do đó, để chỉ số A tăng lên thì tổng diện tích cửa \\(S_2\\) phải tăng lên.",
+      "answers": [
+        {
+          "text": "Tăng diện tích cửa \\(S_2\\)",
+          "fraction": 100
+        },
+        {
+          "text": "Giảm diện tích cửa \\(S_2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Giữ nguyên diện tích cửa \\(S_2\\)",
+          "fraction": 0
+        },
+        {
+          "text": "Giảm diện tích cửa \\(S_2\\) về 0",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04_02",
+      "questiontext": "Đọc hiểu thông tin trong bài học: \"Một gian phòng đạt mức chuẩn về ánh sáng nếu diện tích các cửa không nhỏ hơn 20% diện tích nền nhà.\" Khẳng định nào sau đây diễn đạt ĐÚNG mối quan hệ toán học giữa tổng diện tích các cửa \\(S_2\\) và diện tích nền nhà \\(S_1\\)?",
+      "generalfeedback": "Cụm từ 'không nhỏ hơn 20%' nghĩa là lớn hơn hoặc bằng 20%. Do đó \\(S_2 \\ge 20\\% \\cdot S_1\\) hay \\(S_2 \\ge 0,2 \\cdot S_1\\).",
+      "answers": [
+        {
+          "text": "\\(S_2 \\ge 0,2 \\cdot S_1\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(S_2 < 0,2 \\cdot S_1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(S_2 = 0,02 \\cdot S_1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(S_2 \\le 20 \\cdot S_1\\)",
+          "fraction": 0
+        }
+      ]
+    }
+  ]
+}

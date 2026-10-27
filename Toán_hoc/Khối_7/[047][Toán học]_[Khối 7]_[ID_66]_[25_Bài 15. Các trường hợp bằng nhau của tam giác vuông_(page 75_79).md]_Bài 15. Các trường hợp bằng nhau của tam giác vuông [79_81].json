@@ -1,0 +1,654 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 26,
+    "metadata_used": {
+      "YCCD_TOAN7_090": 4,
+      "Ba trường hợp bằng nhau cơ bản của tam giác vuông: hai cạnh góc vuông": 2,
+      "cạnh góc vuông - góc nhọn kề": 2,
+      "cạnh huyền - góc nhọn": 1,
+      "Nhận biết và chứng minh hai tam giác vuông bằng nhau theo các trường hợp cơ bản": 11,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_TUCHUTUHOC": 1,
+      "NLC_GIAOTIEP": 1,
+      "NLT_TOAN_C2_01": 1,
+      "NLT_TOAN_C2_04": 1
+    },
+    "types_used": {
+      "multichoice": 11,
+      "truefalse": 5,
+      "gapselect": 3,
+      "shortanswer": 2,
+      "matching": 3,
+      "ddwtos": 2
+    },
+    "total": 26
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_090",
+        "reason": "Đo lường khả năng giải thích các trường hợp bằng nhau của hai tam giác vuông."
+      },
+      {
+        "metadata_code": "Ba trường hợp bằng nhau cơ bản của tam giác vuông: hai cạnh góc vuông",
+        "reason": "Đo lường kiến thức về trường hợp hai cạnh góc vuông."
+      },
+      {
+        "metadata_code": "cạnh góc vuông - góc nhọn kề",
+        "reason": "Đo lường kiến thức về trường hợp cạnh góc vuông - góc nhọn kề."
+      },
+      {
+        "metadata_code": "cạnh huyền - góc nhọn",
+        "reason": "Đo lường kiến thức về trường hợp cạnh huyền - góc nhọn."
+      },
+      {
+        "metadata_code": "Nhận biết và chứng minh hai tam giác vuông bằng nhau theo các trường hợp cơ bản",
+        "reason": "Đo lường kỹ năng nhận biết và chứng minh hai tam giác vuông bằng nhau."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N1",
+        "reason": "Bài học thuần lý thuyết hình học tam giác vuông, không chứa nội dung tự nhiên liên quan đến công nghệ thông tin / năng lực số."
+      },
+      {
+        "metadata_code": "A1",
+        "reason": "Bài học thuần lý thuyết hình học tam giác vuông, không có ngữ cảnh phù hợp để đo lường năng lực AI một cách tự nhiên."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "Ba trường hợp bằng nhau cơ bản của tam giác vuông: hai cạnh góc vuông",
+      "questiontext": "Cho \\(\\triangle ABC\\) vuông tại \\(A\\) và \\(\\triangle A'B'C'\\) vuông tại \\(A'\\). Phát biểu nào sau đây đúng về trường hợp bằng nhau hai cạnh góc vuông?",
+      "generalfeedback": "Nếu hai cạnh góc vuông của tam giác vuông này lần lượt bằng hai cạnh góc vuông của tam giác vuông kia thì hai tam giác vuông đó bằng nhau.",
+      "answers": [
+        {
+          "text": "Nếu \\(AB = A'B'\\) và \\(AC = A'C'\\) thì \\(\\triangle ABC = \\triangle A'B'C'\\).",
+          "fraction": 100
+        },
+        {
+          "text": "Nếu \\(AB = A'B'\\) và \\(BC = B'C'\\) thì \\(\\triangle ABC = \\triangle A'B'C'\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Nếu \\(AC = A'C'\\) và \\(BC = B'C'\\) thì \\(\\triangle ABC = \\triangle A'B'C'\\).",
+          "fraction": 0
+        },
+        {
+          "text": "Nếu \\(\\widehat{B} = \\widehat{B'}\\) và \\(\\widehat{C} = \\widehat{C'}\\) thì \\(\\triangle ABC = \\triangle A'B'C'\\).",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "cạnh góc vuông - góc nhọn kề",
+      "questiontext": "Phát biểu sau đây đúng hay sai: \"Nếu một cạnh góc vuông và góc nhọn kề cạnh ấy của tam giác vuông này bằng một cạnh góc vuông và góc nhọn kề cạnh ấy của tam giác vuông kia thì hai tam giác vuông đó bằng nhau.\"",
+      "generalfeedback": "Đây là trường hợp bằng nhau cạnh góc vuông - góc nhọn kề của hai tam giác vuông.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "cạnh huyền - góc nhọn",
+      "questiontext": "Nếu [[1]] và một [[2]] của tam giác vuông này bằng [[1]] và một [[2]] của tam giác vuông kia thì hai tam giác vuông đó bằng nhau.",
+      "generalfeedback": "Theo phát biểu trường hợp bằng nhau cạnh huyền - góc nhọn của tam giác vuông.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "cạnh huyền"
+        },
+        {
+          "group": 1,
+          "text": "góc nhọn"
+        },
+        {
+          "group": 1,
+          "text": "cạnh góc vuông"
+        },
+        {
+          "group": 1,
+          "text": "góc vuông"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết và chứng minh hai tam giác vuông bằng nhau theo các trường hợp cơ bản",
+      "imgs": [
+        "_page_0_Figure_17.jpeg"
+      ],
+      "questiontext": "Cho Hình 4.45 [img:_page_0_Figure_17.jpeg]. Biết \\(\\triangle ABC\\) vuông tại \\(A\\) và \\(\\triangle A'B'C'\\) vuông tại \\(A'\\) có \\(AB = A'B'\\), \\(AC = A'C'\\). Hai tam giác bằng nhau theo trường hợp nào?",
+      "generalfeedback": "Hai tam giác vuông có hai cặp cạnh góc vuông bằng nhau nên bằng nhau theo trường hợp hai cạnh góc vuông (c-g-c).",
+      "answers": [
+        {
+          "text": "Hai cạnh góc vuông",
+          "fraction": 100
+        },
+        {
+          "text": "Cạnh góc vuông - góc nhọn kề",
+          "fraction": 0
+        },
+        {
+          "text": "Cạnh huyền - góc nhọn",
+          "fraction": 0
+        },
+        {
+          "text": "Góc - cạnh - góc",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_090",
+      "questiontext": "Cho \\(\\triangle MNP\\) vuông tại \\(M\\) và \\(\\triangle DEF\\) vuông tại \\(D\\) có \\(MN = DE\\) và \\(\\widehat{N} = \\widehat{E}\\). Hai tam giác bằng nhau theo trường hợp cạnh góc vuông và góc nhọn nào?",
+      "generalfeedback": "Vì \\(\\widehat{N}\\) kề với cạnh góc vuông \\(MN\\) và \\(\\widehat{E}\\) kề với cạnh góc vuông \\(DE\\), nên hai tam giác bằng nhau theo trường hợp cạnh góc vuông - góc nhọn kề.",
+      "answers": [
+        {
+          "text": "góc nhọn kề",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết và chứng minh hai tam giác vuông bằng nhau theo các trường hợp cơ bản",
+      "questiontext": "Hãy ghép mỗi điều kiện cho trước của hai tam giác vuông \\(\\triangle ABC\\) (vuông tại \\(A\\)) và \\(\\triangle A'B'C'\\) (vuông tại \\(A'\\)) với trường hợp bằng nhau tương ứng:",
+      "generalfeedback": "Đối chiếu các yếu tố bằng nhau của hai tam giác vuông với các trường hợp bằng nhau tương ứng.",
+      "subquestions": [
+        {
+          "question": "\\(AB = A'B'\\) và \\(AC = A'C'\\)",
+          "answer": "Hai cạnh góc vuông"
+        },
+        {
+          "question": "\\(AB = A'B'\\) và \\(\\widehat{B} = \\widehat{B'}\\)",
+          "answer": "Cạnh góc vuông - góc nhọn kề"
+        },
+        {
+          "question": "\\(BC = B'C'\\) và \\(\\widehat{B} = \\widehat{B'}\\)",
+          "answer": "Cạnh huyền - góc nhọn"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Nhận biết và chứng minh hai tam giác vuông bằng nhau theo các trường hợp cơ bản",
+      "imgs": [
+        "_page_2_Picture_7.jpeg"
+      ],
+      "questiontext": "Cho Hình 4.49 [img:_page_2_Picture_7.jpeg]. Biết \\(AB \\perp BC\\), \\(AD \\perp CD\\) và \\(\\widehat{BAC} = \\widehat{DAC}\\). Khẳng định nào sau đây là đúng?",
+      "generalfeedback": "\\(\\triangle BAC\\) vuông tại \\(B\\) và \\(\\triangle DAC\\) vuông tại \\(D\\) có cạnh huyền \\(AC\\) chung và \\(\\widehat{BAC} = \\widehat{DAC}\\) nên \\(\\triangle BAC = \\triangle DAC\\) (cạnh huyền - góc nhọn).",
+      "answers": [
+        {
+          "text": "\\(\\triangle BAC = \\triangle DAC\\) (cạnh huyền - góc nhọn)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\triangle BAC = \\triangle DAC\\) (hai cạnh góc vuông)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\triangle BAC = \\triangle DAC\\) (cạnh góc vuông - góc nhọn kề)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\triangle BAC = \\triangle DAC\\) (cạnh huyền - cạnh góc vuông)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_090",
+      "imgs": [
+        "_page_1_Figure_2.jpeg"
+      ],
+      "questiontext": "Cho Hình 4.46 [img:_page_1_Figure_2.jpeg]. Dựa vào trường hợp bằng nhau góc - cạnh - góc, ta có thể giải thích \\(\\triangle ABC = \\triangle A'B'C'\\) khi có \\(AB = A'B'\\), \\(\\widehat{A} = \\widehat{A'} = 90^\\circ\\) và \\(\\widehat{B} = \\widehat{B'}\\). Khẳng định này Đúng hay Sai?",
+      "generalfeedback": "Hai tam giác vuông có \\(\\widehat{A} = \\widehat{A'} = 90^\\circ\\), \\(AB = A'B'\\) và \\(\\widehat{B} = \\widehat{B'}\\) bằng nhau theo trường hợp g-c-g, đó chính là trường hợp cạnh góc vuông - góc nhọn kề.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "van_dung",
+      "metadata_code": "Nhận biết và chứng minh hai tam giác vuông bằng nhau theo các trường hợp cơ bản",
+      "imgs": [
+        "_page_2_Picture_21.jpeg"
+      ],
+      "questiontext": "Cho Hình 4.50 [img:_page_2_Picture_21.jpeg]. \\(Oz\\) là tia phân giác của góc \\(xOy\\), \\(M \\in Oz\\), \\(MA \\perp Ox\\), \\(MB \\perp Oy\\). Khi chứng minh \\(MA = MB\\), ta xét hai tam giác vuông \\(\\triangle OMA\\) và \\(\\triangle OMB\\) có cạnh huyền [[1]] chung và góc nhọn [[2]] bằng nhau.",
+      "generalfeedback": "\\(\\triangle OMA\\) và \\(\\triangle OMB\\) là hai tam giác vuông tại \\(A\\) và \\(B\\), có cạnh huyền \\(OM\\) chung và \\(\\widehat{AOM} = \\widehat{BOM}\\) (do \\(Oz\\) là tia phân giác).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "OM"
+        },
+        {
+          "group": 1,
+          "text": "AOM và BOM"
+        },
+        {
+          "group": 1,
+          "text": "MA và MB"
+        },
+        {
+          "group": 1,
+          "text": "AMO và BMO"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Nhận biết và chứng minh hai tam giác vuông bằng nhau theo các trường hợp cơ bản",
+      "imgs": [
+        "_page_4_Picture_17.jpeg"
+      ],
+      "questiontext": "Cho Hình 4.56 [img:_page_4_Picture_17.jpeg], biết \\(AB = CD\\), \\(\\widehat{BAC} = \\widehat{BDC} = 90^\\circ\\). Để chứng minh \\(\\triangle ABE = \\triangle DCE\\), ta áp dụng trường hợp bằng nhau nào?",
+      "generalfeedback": "\\(\\triangle ABE\\) vuông tại \\(A\\) và \\(\\triangle DCE\\) vuông tại \\(D\\) có \\(AB = CD\\) và \\(\\widehat{AEB} = \\widehat{DEC}\\) (hai góc đối đỉnh), nên \\(\\triangle ABE = \\triangle DCE\\) (cạnh góc vuông - góc nhọn kề).",
+      "answers": [
+        {
+          "text": "Cạnh góc vuông - góc nhọn kề",
+          "fraction": 100
+        },
+        {
+          "text": "Hai cạnh góc vuông",
+          "fraction": 0
+        },
+        {
+          "text": "Cạnh huyền - góc nhọn",
+          "fraction": 0
+        },
+        {
+          "text": "Cạnh huyền - cạnh góc vuông",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_090",
+      "questiontext": "Hai tam giác vuông \\(\\triangle ABC\\) (vuông tại \\(A\\)) và \\(\\triangle A'B'C'\\) (vuông tại \\(A'\\)) có \\(BC = B'C'\\) và \\(\\widehat{B} = \\widehat{B'}\\). Phát biểu nào sau đây giải thích đúng về sự bằng nhau của hai tam giác đó?",
+      "generalfeedback": "Hai tam giác vuông có cạnh huyền bằng nhau và một cặp góc nhọn bằng nhau thì bằng nhau theo trường hợp cạnh huyền - góc nhọn.",
+      "answers": [
+        {
+          "text": "\\(\\triangle ABC = \\triangle A'B'C'\\) (cạnh huyền - góc nhọn)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\triangle ABC = \\triangle A'B'C'\\) (cạnh góc vuông - góc nhọn kề)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\triangle ABC = \\triangle A'B'C'\\) (hai cạnh góc vuông)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\triangle ABC = \\triangle A'B'C'\\) (góc - cạnh - góc)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết và chứng minh hai tam giác vuông bằng nhau theo các trường hợp cơ bản",
+      "imgs": [
+        "_page_2_Picture_1.jpeg"
+      ],
+      "questiontext": "Quan sát Hình 4.48 [img:_page_2_Picture_1.jpeg]. Trong các hình đó, các cặp tam giác vuông được cho là bằng nhau theo các trường hợp bằng nhau cơ bản của tam giác vuông. Phát biểu này Đúng hay Sai?",
+      "generalfeedback": "Trong Hình 4.48, các cặp tam giác vuông đều bằng nhau theo các trường hợp bằng nhau đã học (hai cạnh góc vuông, cạnh góc vuông - góc nhọn kề, cạnh huyền - góc nhọn).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết và chứng minh hai tam giác vuông bằng nhau theo các trường hợp cơ bản",
+      "questiontext": "Cho tam giác \\(ABC\\) cân tại \\(A\\), kẻ \\(AH \\perp BC\\) tại \\(H\\). Khi đó \\(\\triangle ABH\\) và \\(\\triangle ACH\\) là hai tam giác vuông có cạnh huyền \\(AB = AC\\) và cạnh góc vuông [[1]] chung, do đó \\(\\triangle ABH = \\triangle ACH\\) theo trường hợp [[2]].",
+      "generalfeedback": "Hai tam giác vuông ABH và ACH có cạnh huyền AB = AC và cạnh góc vuông AH chung (hoặc góc nhọn B = C).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "AH"
+        },
+        {
+          "group": 1,
+          "text": "cạnh huyền - cạnh góc vuông"
+        },
+        {
+          "group": 1,
+          "text": "BC"
+        },
+        {
+          "group": 1,
+          "text": "hai cạnh góc vuông"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Ba trường hợp bằng nhau cơ bản của tam giác vuông: hai cạnh góc vuông",
+      "questiontext": "Cho hình chữ nhật \\(ABCD\\), gọi \\(M\\) là trung điểm của cạnh \\(BC\\). Hai tam giác vuông \\(\\triangle ABM\\) và \\(\\triangle DCM\\) bằng nhau theo trường hợp nào?",
+      "generalfeedback": "Hình chữ nhật ABCD có \\(AB = CD\\), \\(\\widehat{B} = \\widehat{C} = 90^\\circ\\). Vì \\(M\\) là trung điểm \\(BC\\) nên \\(BM = CM\\). Hai tam giác vuông \\(\\triangle ABM\\) và \\(\\triangle DCM\\) có \\(AB = DC\\) và \\(BM = CM\\) nên bằng nhau theo trường hợp hai cạnh góc vuông.",
+      "answers": [
+        {
+          "text": "Hai cạnh góc vuông",
+          "fraction": 100
+        },
+        {
+          "text": "Cạnh góc vuông - góc nhọn kề",
+          "fraction": 0
+        },
+        {
+          "text": "Cạnh huyền - góc nhọn",
+          "fraction": 0
+        },
+        {
+          "text": "Cạnh huyền - cạnh góc vuông",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "shortanswer",
+      "level": "nhan_biet",
+      "metadata_code": "Nhận biết và chứng minh hai tam giác vuông bằng nhau theo các trường hợp cơ bản",
+      "questiontext": "Cho hai tam giác vuông có một cặp cạnh góc vuông bằng nhau. Để hai tam giác vuông bằng nhau theo trường hợp cạnh góc vuông - góc nhọn kề, cần thêm điều kiện góc nào bằng nhau?",
+      "generalfeedback": "Cần thêm điều kiện góc nhọn kề với cạnh góc vuông đó của hai tam giác bằng nhau.",
+      "answers": [
+        {
+          "text": "góc nhọn kề",
+          "fraction": 100
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết và chứng minh hai tam giác vuông bằng nhau theo các trường hợp cơ bản",
+      "imgs": [
+        "_page_1_Picture_7.jpeg"
+      ],
+      "questiontext": "Cho Hình 4.47 [img:_page_1_Picture_7.jpeg] mô phỏng chiều dài và độ dốc của hai con dốc bởi các đoạn thẳng \\(BC, B'C'\\) và các góc \\(B, B'\\). Để so sánh độ cao \\(AC\\) và \\(A'C'\\) của hai con dốc, ta sử dụng sự bằng nhau của hai tam giác vuông \\(\\triangle ABC\\) và \\(\\triangle A'B'C'\\) theo trường hợp nào?",
+      "generalfeedback": "Hai tam giác vuông có cạnh huyền \\(BC = B'C'\\) và góc nhọn \\(\\widehat{B} = \\widehat{B'}\\) nên bằng nhau theo trường hợp cạnh huyền - góc nhọn. Từ đó suy ra \\(AC = A'C'\\).",
+      "answers": [
+        {
+          "text": "Cạnh huyền - góc nhọn",
+          "fraction": 100
+        },
+        {
+          "text": "Hai cạnh góc vuông",
+          "fraction": 0
+        },
+        {
+          "text": "Cạnh góc vuông - góc nhọn kề",
+          "fraction": 0
+        },
+        {
+          "text": "Góc - cạnh - góc",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "cạnh góc vuông - góc nhọn kề",
+      "questiontext": "Ghép từng yếu tố đã cho của tam giác vuông \\(\\triangle ABC\\) (vuông tại \\(A\\)) với yếu tố tương ứng của \\(\\triangle DEF\\) (vuông tại \\(D\\)) để hai tam giác vuông bằng nhau theo trường hợp cạnh góc vuông - góc nhọn kề:",
+      "generalfeedback": "Cạnh góc vuông bằng nhau và góc nhọn kề cạnh ấy phải bằng nhau.",
+      "subquestions": [
+        {
+          "question": "Cạnh góc vuông \\(AB = DE\\)",
+          "answer": "Góc nhọn kề \\(\\widehat{B} = \\widehat{E}\\)"
+        },
+        {
+          "question": "Cạnh góc vuông \\(AC = DF\\)",
+          "answer": "Góc nhọn kề \\(\\widehat{C} = \\widehat{F}\\)"
+        },
+        {
+          "question": "Cạnh góc vuông \\(AB = DF\\)",
+          "answer": "Góc nhọn kề \\(\\widehat{B} = \\widehat{F}\\)"
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_090",
+      "questiontext": "Đúng hay Sai: Nếu hai tam giác vuông có hai góc nhọn tương ứng bằng nhau thì hai tam giác vuông đó chắc chắn bằng nhau.",
+      "generalfeedback": "Sai. Hai tam giác vuông chỉ có các góc bằng nhau (đồng dạng) thì chưa đủ điều kiện bằng nhau, cần thêm ít nhất một điều kiện về cạnh.",
+      "answers": [
+        {
+          "text": "Sai",
+          "fraction": 100
+        },
+        {
+          "text": "Đúng",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Nhận biết và chứng minh hai tam giác vuông bằng nhau theo các trường hợp cơ bản",
+      "questiontext": "Trong một tam giác vuông, góc nhọn kề với cạnh góc vuông \\(AB\\) (vuông tại \\(A\\)) là góc [[1]], còn góc nhọn kề với cạnh góc vuông \\(AC\\) là góc [[2]].",
+      "generalfeedback": "Trong \\(\\triangle ABC\\) vuông tại \\(A\\), góc nhọn kề với \\(AB\\) là góc \\(B\\), góc nhọn kề với \\(AC\\) là góc \\(C\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "B"
+        },
+        {
+          "group": 1,
+          "text": "C"
+        },
+        {
+          "group": 1,
+          "text": "A"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_090",
+      "questiontext": "Trong Tiết 1 của Bài 15, có bao nhiêu trường hợp bằng nhau cơ bản của tam giác vuông được tìm hiểu?",
+      "generalfeedback": "Tiết 1 tìm hiểu ba trường hợp bằng nhau cơ bản: 1) Hai cạnh góc vuông; 2) Cạnh góc vuông - góc nhọn kề; 3) Cạnh huyền - góc nhọn.",
+      "answers": [
+        {
+          "text": "3 trường hợp",
+          "fraction": 100
+        },
+        {
+          "text": "2 trường hợp",
+          "fraction": 0
+        },
+        {
+          "text": "4 trường hợp",
+          "fraction": 0
+        },
+        {
+          "text": "1 trường hợp",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "PC_CHAMCHI",
+      "questiontext": "Khi làm bài tập chứng minh hai tam giác vuông bằng nhau, bạn Nam gặp một bài toán khó và chưa tìm ra cách giải ngay. Hành vi nào sau đây thể hiện phẩm chất chăm chỉ (Q1) của Nam?",
+      "generalfeedback": "Thái độ kiên trì, tự suy nghĩ, tìm hiểu lại kiến thức về các trường hợp bằng nhau của tam giác vuông trong SGK để giải bài tập thể hiện phẩm chất chăm chỉ.",
+      "answers": [
+        {
+          "text": "Kiên trì đọc lại các trường hợp bằng nhau của tam giác vuông trong SGK và tự suy nghĩ tìm lời giải.",
+          "fraction": 100
+        },
+        {
+          "text": "Bỏ qua bài toán và chép luôn lời giải của bạn khác mà không cần hiểu.",
+          "fraction": 0
+        },
+        {
+          "text": "Gập sách vở lại và nghỉ ngơi luôn vì cho rằng bài quá khó.",
+          "fraction": 0
+        },
+        {
+          "text": "Chờ đến giờ lên lớp để chép đáp án giáo viên chữa trên bảng.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "PC_TRUNGTHUC",
+      "questiontext": "Trong giờ kiểm tra Toán, bạn An vô tình phát hiện ra mình chứng minh sai hai tam giác vuông bằng nhau do áp dụng nhầm trường hợp góc - cạnh - góc (khi góc nhọn không kề với cạnh góc vuông đã cho). Bạn An quyết định sửa lại đúng sự thật dù sắp hết giờ. Hành động của An thể hiện phẩm chất trung thực (Q2). ĐÚNG hay SAI?",
+      "generalfeedback": "Hành động dũng cảm nhận sai sót và sửa lại đúng bản chất toán học thể hiện sự trung thực trong học tập.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLC_TUCHUTUHOC",
+      "questiontext": "Để tự học và ghi nhớ hiệu quả 3 trường hợp bằng nhau cơ bản của tam giác vuông (Tiết 1), em nên lập bảng hệ thống hóa kiến thức nào sau đây để thể hiện năng lực tự chủ và tự học (G1)?",
+      "generalfeedback": "Bảng hệ thống hóa so sánh rõ điều kiện về cạnh/góc và hình vẽ minh họa cho 3 trường hợp bằng nhau giúp việc tự học và ôn tập đạt hiệu quả cao.",
+      "answers": [
+        {
+          "text": "Bảng tóm tắt gồm 3 cột: Tên trường hợp bằng nhau, Điều kiện về cạnh/góc tương ứng, và Hình vẽ minh họa.",
+          "fraction": 100
+        },
+        {
+          "text": "Bảng chỉ chép lại toàn bộ lời giải của tất cả các bài tập trong SGK.",
+          "fraction": 0
+        },
+        {
+          "text": "Bảng liệt kê tên các bài tập nhưng không có nội dung điều kiện bằng nhau.",
+          "fraction": 0
+        },
+        {
+          "text": "Danh sách các công thức tính chu vi và diện tích tam giác.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "NLC_GIAOTIEP",
+      "questiontext": "Trong hoạt động nhóm thảo luận về các trường hợp bằng nhau của tam giác vuông, để thể hiện năng lực giao tiếp và hợp tác (G2), em hãy ghép từng tình huống trao đổi với cách ứng xử phù hợp:",
+      "generalfeedback": "Lắng nghe, phản hồi tôn trọng và giải thích rõ ràng căn cứ toán học là biểu hiện của năng lực giao tiếp và hợp tác.",
+      "subquestions": [
+        {
+          "question": "Khi bạn trong nhóm trình bày sai điều kiện bằng nhau",
+          "answer": "Lắng nghe hết ý bạn, sau đó nhẹ nhàng góp ý và chỉ ra chỗ chưa chính xác dựa vào SGK"
+        },
+        {
+          "question": "Khi được phân công trình bày kết quả thảo luận của nhóm",
+          "answer": "Trình bày rõ ràng, mạch lạc các bước chứng minh hai tam giác vuông bằng nhau"
+        },
+        {
+          "question": "Khi nhóm chưa thống nhất được trường hợp bằng nhau của hai tam giác",
+          "answer": "Cùng cả nhóm đối chiếu lại dữ kiện đề bài với 3 trường hợp trong SGK để thống nhất"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "NLT_TOAN_C2_01",
+      "questiontext": "Cho \\(\\triangle ABC\\) vuông tại \\(A\\) và \\(\\triangle A'B'C'\\) vuông tại \\(A'\\) có \\(AB = A'B'\\) và \\(\\widehat{B} = \\widehat{B'}\\). Bạn Bình lập luận: \"Vì \\(\\widehat{B} = \\widehat{B'}\\) nên \\(\\widehat{C} = \\widehat{C'}\\), do đó \\(\\triangle ABC = \\triangle A'B'C'\\) theo trường hợp cạnh góc vuông - góc nhọn kề\". Em hãy đánh giá lập luận của Bình dưới góc độ tư duy và lập luận toán học (D1):",
+      "generalfeedback": "Bình lập luận đúng vì \\(AB = A'B'\\) và góc \\(\\widehat{B}\\) kề với cạnh góc vuông \\(AB\\) nên hai tam giác vuông bằng nhau theo trường hợp cạnh góc vuông - góc nhọn kề.",
+      "answers": [
+        {
+          "text": "Lập luận đúng vì \\(AB = A'B'\\) và \\(\\widehat{B} = \\widehat{B'}\\) (với \\(\\widehat{B}\\) kề cạnh \\(AB\\)) đã đủ kết luận hai tam giác vuông bằng nhau theo trường hợp cạnh góc vuông - góc nhọn kề.",
+          "fraction": 100
+        },
+        {
+          "text": "Lập luận sai vì hai tam giác vuông không có trường hợp bằng nhau cạnh góc vuông - góc nhọn kề.",
+          "fraction": 0
+        },
+        {
+          "text": "Lập luận sai vì bắt buộc phải có cạnh huyền bằng nhau mới chứng minh được.",
+          "fraction": 0
+        },
+        {
+          "text": "Lập luận sai vì góc \\(\\widehat{B}\\) không phải góc nhọn.",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "NLT_TOAN_C2_04",
+      "questiontext": "Để trình bày bài giải bài toán chứng minh hai tam giác vuông bằng nhau một cách rõ ràng, chuẩn xác (Năng lực giao tiếp toán học D2), em cần hoàn thiện cấu trúc bài làm: Đầu tiên, chỉ ra hai tam giác vuông và [[1]] của chúng. Tiếp theo, nêu rõ các [[2]] tương ứng bằng nhau kèm theo giả thiết hoặc lý do. Cuối cùng, đưa ra kết luận hai tam giác bằng nhau và ghi rõ [[3]].",
+      "generalfeedback": "Trình bày bài chứng minh hình học cần đủ 3 phần: Đỉnh vuông/tên tam giác vuông, các cặp yếu tố bằng nhau kèm lý do, và kết luận kèm tên trường hợp bằng nhau.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "đỉnh vuông"
+        },
+        {
+          "group": 1,
+          "text": "cặp yếu tố (cạnh, góc)"
+        },
+        {
+          "group": 1,
+          "text": "kèm tên trường hợp bằng nhau"
+        },
+        {
+          "group": 1,
+          "text": "công thức tính diện tích"
+        }
+      ]
+    }
+  ]
+}

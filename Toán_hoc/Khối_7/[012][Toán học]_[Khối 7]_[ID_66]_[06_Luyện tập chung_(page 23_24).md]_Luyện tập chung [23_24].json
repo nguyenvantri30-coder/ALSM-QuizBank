@@ -1,0 +1,544 @@
+{
+  "AI_CONFIG": {
+    "total_generated": 20,
+    "metadata_used": {
+      "YCCD_TOAN7_016": 2,
+      "YCCD_TOAN7_017": 1,
+      "YCCD_TOAN7_018": 2,
+      "YCCD_TOAN7_022": 3,
+      "Thứ tự phép tính tổng hợp": 2,
+      "Quy tắc chuyển vế và bỏ ngoặc": 2,
+      "Giải bài toán tìm x bằng quy tắc chuyển vế": 5,
+      "Thực hiện biểu thức tính toán phức hợp": 3,
+      "PC_CHAMCHI": 1,
+      "PC_TRUNGTHUC": 1,
+      "NLC_TUCHUTUHOC": 1,
+      "NLC_GIAIQUYETVD": 1,
+      "NLT_TOAN_C2_01": 2,
+      "NLT_TOAN_C2_03": 2
+    },
+    "types_used": {
+      "multichoice": 8,
+      "truefalse": 2,
+      "gapselect": 2,
+      "matching": 2,
+      "numerical": 3,
+      "ddwtos": 2,
+      "calculatedsimple": 1
+    },
+    "total": 20
+  },
+  "TARGET_COVERAGE_REPORT": {
+    "measurable_metadata": [
+      {
+        "metadata_code": "YCCD_TOAN7_016",
+        "reason": "Mô tả được thứ tự thực hiện các phép tính trong tập hợp số hữu tỉ."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_017",
+        "reason": "Mô tả được quy tắc dấu ngoặc trong tập hợp số hữu tỉ."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_018",
+        "reason": "Mô tả được quy tắc chuyển vế trong tập hợp số hữu tỉ."
+      },
+      {
+        "metadata_code": "YCCD_TOAN7_022",
+        "reason": "Vận dụng được quy tắc dấu ngoặc với số hữu tỉ trong tính toán."
+      },
+      {
+        "metadata_code": "Thứ tự phép tính tổng hợp",
+        "reason": "Thứ tự phép tính tổng hợp."
+      },
+      {
+        "metadata_code": "Quy tắc chuyển vế và bỏ ngoặc",
+        "reason": "Quy tắc chuyển vế và bỏ ngoặc."
+      },
+      {
+        "metadata_code": "Giải bài toán tìm x bằng quy tắc chuyển vế",
+        "reason": "Giải bài toán tìm x bằng quy tắc chuyển vế."
+      },
+      {
+        "metadata_code": "Thực hiện biểu thức tính toán phức hợp",
+        "reason": "Thực hiện biểu thức tính toán phức hợp."
+      }
+    ],
+    "not_measurable_metadata": [
+      {
+        "metadata_code": "N",
+        "reason": "Bài học thuộc Tiết 1 - Luyện tập thứ tự thực hiện phép tính và quy tắc chuyển vế thuần túy về đại số cơ bản Lớp 7, không chứa nội dung hay bối cảnh thực hành công cụ tin học/số tự nhiên."
+      },
+      {
+        "metadata_code": "A",
+        "reason": "Bài học không liên quan trực tiếp đến nguyên lý hay ứng dụng của Trí tuệ nhân tạo (AI), việc lồng ghép AI vào bài học đại số này sẽ bị gượng ép và không đo lường tự nhiên."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "multichoice",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_016",
+      "questiontext": "Thứ tự thực hiện các phép tính đối với biểu thức không có dấu ngoặc gồm các phép tính cộng, trừ, nhân, chia, nâng lên lũy thừa trong tập hợp số hữu tỉ là:",
+      "generalfeedback": "Đối với biểu thức không có dấu ngoặc, ta thực hiện phép tính nâng lên lũy thừa trước, sau đó đến nhân và chia, cuối cùng đến cộng và trừ.",
+      "answers": [
+        {
+          "text": "Nâng lên lũy thừa \\(\\rightarrow\\) Nhân và chia \\(\\rightarrow\\) Cộng và trừ",
+          "fraction": 100
+        },
+        {
+          "text": "Cộng và trừ \\(\\rightarrow\\) Nhân và chia \\(\\rightarrow\\) Nâng lên lũy thừa",
+          "fraction": 0
+        },
+        {
+          "text": "Nhân và chia \\(\\rightarrow\\) Nâng lên lũy thừa \\(\\rightarrow\\) Cộng và trừ",
+          "fraction": 0
+        },
+        {
+          "text": "Nâng lên lũy thừa \\(\\rightarrow\\) Cộng và trừ \\(\\rightarrow\\) Nhân và chia",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_017",
+      "questiontext": "Khi bỏ dấu ngoặc có dấu \\(-\\) đằng trước, ta phải đổi dấu tất cả các số hạng trong dấu ngoặc: dấu \\(+\\) thành dấu \\(-\\) và dấu \\(-\\) thành dấu \\(+\\).",
+      "generalfeedback": "Theo quy tắc dấu ngoặc, khi bỏ dấu ngoặc có dấu trừ đằng trước, ta phải đổi dấu tất cả các số hạng trong ngoặc.",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "nhan_biet",
+      "metadata_code": "YCCD_TOAN7_018",
+      "questiontext": "Khi chuyển một số hạng từ vế này sang vế kia của một đẳng thức, ta phải [[1]] dấu của số hạng đó: dấu \\(+\\) đổi thành dấu [[2]] và dấu \\(-\\) đổi thành dấu [[3]].",
+      "generalfeedback": "Theo quy tắc chuyển vế: khi chuyển một số hạng từ vế này sang vế kia của một đẳng thức, ta phải đổi dấu số hạng đó (+ thành - và - thành +).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "đổi"
+        },
+        {
+          "group": 1,
+          "text": "giữ nguyên"
+        },
+        {
+          "group": 1,
+          "text": "trừ (-)"
+        },
+        {
+          "group": 1,
+          "text": "cộng (+)"
+        },
+        {
+          "group": 1,
+          "text": "nhân (\\(\\cdot\\))"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_022",
+      "questiontext": "Bỏ dấu ngoặc rồi tính giá trị của biểu thức \\(A = 32,125 - (6,325 + 12,125)\\) ta được kết quả là:",
+      "generalfeedback": "\\(A = 32,125 - 6,325 - 12,125 = (32,125 - 12,125) - 6,325 = 20 - 6,325 = 13,675\\).",
+      "answers": [
+        {
+          "text": "13,675",
+          "fraction": 100
+        },
+        {
+          "text": "37,925",
+          "fraction": 0
+        },
+        {
+          "text": "26,325",
+          "fraction": 0
+        },
+        {
+          "text": "-13,675",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "nhan_biet",
+      "metadata_code": "Thứ tự phép tính tổng hợp",
+      "questiontext": "Hãy ghép mỗi dạng biểu thức với thứ tự thực hiện phép tính tương ứng:",
+      "generalfeedback": "Biểu thức chỉ có cộng trừ (hoặc nhân chia) tính từ trái sang phải; có đủ phép tính thì lũy thừa trước, nhân chia sau, cộng trừ cuối; có ngoặc thì ngoặc tròn -> ngoặc vuông -> ngoặc nhọn.",
+      "subquestions": [
+        {
+          "question": "Biểu thức chỉ có phép cộng, trừ (hoặc nhân, chia)",
+          "answer": "Thực hiện từ trái sang phải"
+        },
+        {
+          "question": "Biểu thức có các phép tính cộng, trừ, nhân, chia, nâng lên lũy thừa",
+          "answer": "Lũy thừa \\(\\rightarrow\\) Nhân, chia \\(\\rightarrow\\) Cộng, trừ"
+        },
+        {
+          "question": "Biểu thức có chứa các dấu ngoặc tròn \\(()\\), ngoặc vuông \\([]\\), ngoặc nhọn \\(\\{\\}\\)",
+          "answer": "Tròn \\(()\\) \\(\\rightarrow\\) Vuông \\([]\\) \\(\\rightarrow\\) Nhọn \\(\\{\\}\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "thong_hieu",
+      "metadata_code": "Quy tắc chuyển vế và bỏ ngoặc",
+      "questiontext": "Khi bỏ dấu ngoặc trong biểu thức \\(-\\left(\\frac{1}{2} - \\frac{1}{3}\\right)\\), ta thu được biểu thức nào sau đây?",
+      "generalfeedback": "Khi bỏ dấu ngoặc có dấu trừ đằng trước, ta đổi dấu tất cả các số hạng trong ngoặc: \\(\\frac{1}{2}\\) thành \\(-\\frac{1}{2}\\) và \\(-\\frac{1}{3}\\) thành \\(+\\frac{1}{3}\\). Do đó ta thu được \\(-\\frac{1}{2} + \\frac{1}{3}\\).",
+      "answers": [
+        {
+          "text": "\\(-\\frac{1}{2} + \\frac{1}{3}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(\\frac{1}{2} - \\frac{1}{3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{1}{2} + \\frac{1}{3}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(-\\frac{1}{2} - \\frac{1}{3}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán tìm x bằng quy tắc chuyển vế",
+      "questiontext": "Tìm số hữu tỉ \\(x\\) biết: \\(x + 0,5 = \\frac{3}{4}\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Chuyển vế \\(0,5\\) sang vế phải: \\(x = \\frac{3}{4} - 0,5 = 0,75 - 0,5 = 0,25\\).",
+      "answers": [
+        {
+          "text": "0.25",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện biểu thức tính toán phức hợp",
+      "questiontext": "Tính giá trị của biểu thức \\(A = 12,4 \\cdot 6\\frac{1}{4} + (-12,4) \\cdot (-2,5)^2\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "\\(A = 12,4 \\cdot 6,25 + (-12,4) \\cdot 6,25 = [12,4 + (-12,4)] \\cdot 6,25 = 0 \\cdot 6,25 = 0\\).",
+      "answers": [
+        {
+          "text": "0",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "thong_hieu",
+      "metadata_code": "Quy tắc chuyển vế và bỏ ngoặc",
+      "questiontext": "Khi tính giá trị biểu thức \\(C = 2021,2345 \\cdot 2020,1234 + 2021,2345 \\cdot (-2020,1234)\\), ta đặt số [[1]] làm thừa số chung, bên trong ngoặc còn lại \\(2020,1234 + (\\) [[2]] \\()\\), thu được kết quả bằng [[3]].",
+      "generalfeedback": "Đặt \\(2021,2345\\) làm thừa số chung: \\(C = 2021,2345 \\cdot [2020,1234 + (-2020,1234)] = 2021,2345 \\cdot 0 = 0\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "2021,2345"
+        },
+        {
+          "group": 1,
+          "text": "-2020,1234"
+        },
+        {
+          "group": 1,
+          "text": "0"
+        },
+        {
+          "group": 1,
+          "text": "2020,1234"
+        },
+        {
+          "group": 1,
+          "text": "1"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_016",
+      "imgs": [
+        "_page_0_Picture_6.jpeg"
+      ],
+      "questiontext": "[img:_page_0_Picture_6.jpeg]\nBiết 1 năm ánh sáng khoảng \\(9,46 \\cdot 10^{12}\\) km và khoảng cách gần nhất từ Mộc tinh đến Trái Đất là \\(5,88 \\cdot 10^8\\) km. Biểu thức đúng để tính khoảng cách này theo đơn vị năm ánh sáng là:",
+      "generalfeedback": "Khoảng cách theo năm ánh sáng bằng khoảng cách tính theo km chia cho độ dài 1 năm ánh sáng (km): \\(\\frac{5,88 \\cdot 10^8}{9,46 \\cdot 10^{12}}\\).",
+      "answers": [
+        {
+          "text": "\\(\\frac{5,88 \\cdot 10^8}{9,46 \\cdot 10^{12}}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(5,88 \\cdot 10^8 \\times 9,46 \\cdot 10^{12}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(\\frac{9,46 \\cdot 10^{12}}{5,88 \\cdot 10^8}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(9,46 \\cdot 10^{12} - 5,88 \\cdot 10^8\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán tìm x bằng quy tắc chuyển vế",
+      "questiontext": "Tìm \\(x\\), biết: \\(2x + \\frac{1}{2} = \\frac{7}{9}\\).",
+      "generalfeedback": "Ta có: \\(2x = \\frac{7}{9} - \\frac{1}{2} = \\frac{14}{18} - \\frac{9}{18} = \\frac{5}{18}\\). Do đó \\(x = \\frac{5}{18} : 2 = \\frac{5}{36}\\).",
+      "answers": [
+        {
+          "text": "\\(x = \\frac{5}{36}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x = \\frac{23}{36}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x = \\frac{5}{18}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x = \\frac{13}{18}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "numerical",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán tìm x bằng quy tắc chuyển vế",
+      "questiontext": "Tìm số hữu tỉ \\(x\\) biết: \\(2x + \\frac{1}{2} = \\frac{7}{2}\\). (Chỉ điền số, sử dụng dấu chấm '.' cho số thập phân, không ghi đơn vị)",
+      "generalfeedback": "Chuyển vế: \\(2x = \\frac{7}{2} - \\frac{1}{2} = 3 \\Rightarrow x = 1,5\\).",
+      "answers": [
+        {
+          "text": "1.5",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "YCCD_TOAN7_022",
+      "questiontext": "Tính một cách hợp lí giá trị của biểu thức \\(A = 32,125 - (6,325 + 12,125) - (37 + 13,675)\\):",
+      "generalfeedback": "\\(A = 32,125 - 6,325 - 12,125 - 37 - 13,675 = (32,125 - 12,125) - (6,325 + 13,675) - 37 = 20 - 20 - 37 = -37\\).",
+      "answers": [
+        {
+          "text": "-37",
+          "fraction": 100
+        },
+        {
+          "text": "37",
+          "fraction": 0
+        },
+        {
+          "text": "-3,425",
+          "fraction": 0
+        },
+        {
+          "text": "0",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "truefalse",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_018",
+      "questiontext": "Đúng hay Sai: Khi chuyển số hạng \\(+\\frac{3}{4}\\) từ vế trái sang vế phải của đẳng thức \\(2x + \\frac{3}{4} = \\frac{7}{13}\\), số hạng đó trở thành \\(-\\frac{3}{4}\\).",
+      "generalfeedback": "Theo quy tắc chuyển vế, khi chuyển một số hạng từ vế này sang vế kia của đẳng thức, ta phải đổi dấu số hạng đó (+ đổi thành -).",
+      "answers": [
+        {
+          "text": "Đúng",
+          "fraction": 100
+        },
+        {
+          "text": "Sai",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán tìm x bằng quy tắc chuyển vế",
+      "questiontext": "Tìm số hữu tỉ \\(x\\) biết: \\(\\frac{3}{4} - x = \\frac{1}{4}\\).",
+      "generalfeedback": "\\(x = \\frac{3}{4} - \\frac{1}{4} = \\frac{2}{4} = \\frac{1}{2}\\).",
+      "answers": [
+        {
+          "text": "\\(x = \\frac{1}{2}\\)",
+          "fraction": 100
+        },
+        {
+          "text": "\\(x = \\frac{1}{4}\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x = 1\\)",
+          "fraction": 0
+        },
+        {
+          "text": "\\(x = -\\frac{1}{2}\\)",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "matching",
+      "level": "thong_hieu",
+      "metadata_code": "Thực hiện biểu thức tính toán phức hợp",
+      "questiontext": "Hãy ghép diện tích của mỗi hồ nước (đơn vị \\(m^2\\)) viết dưới dạng lũy thừa của 10 với giá trị tương ứng ở dạng số tự nhiên:",
+      "generalfeedback": "Dời dấu phẩy sang phải theo số mũ của 10: \\(3,17 \\cdot 10^{10} = 31\\,700\\,000\\,000\\); \\(8,21 \\cdot 10^{10} = 82\\,100\\,000\\,000\\); \\(8,264 \\cdot 10^9 = 8\\,264\\,000\\,000\\).",
+      "subquestions": [
+        {
+          "question": "Hồ Baikal: \\(3,17 \\cdot 10^{10}\\) \\(m^2\\)",
+          "answer": "31 700 000 000 \\(m^2\\)"
+        },
+        {
+          "question": "Hồ Superior: \\(8,21 \\cdot 10^{10}\\) \\(m^2\\)",
+          "answer": "82 100 000 000 \\(m^2\\)"
+        },
+        {
+          "question": "Hồ Nicaragua: \\(8,264 \\cdot 10^9\\) \\(m^2\\)",
+          "answer": "8 264 000 000 \\(m^2\\)"
+        }
+      ]
+    },
+    {
+      "type": "multichoice",
+      "level": "van_dung",
+      "metadata_code": "Thực hiện biểu thức tính toán phức hợp",
+      "questiontext": "Sắp xếp diện tích của 3 hồ nước sau theo thứ tự từ nhỏ đến lớn: Hồ Nicaragua (\\(8,264 \\cdot 10^9\\) \\(m^2\\)), Hồ Baikal (\\(3,17 \\cdot 10^{10}\\) \\(m^2\\)), Hồ Superior (\\(8,21 \\cdot 10^{10}\\) \\(m^2\\)).",
+      "generalfeedback": "Đổi về cùng lũy thừa \\(10^9\\) hoặc so sánh: \\(8,264 \\cdot 10^9 < 31,7 \\cdot 10^9 < 82,1 \\cdot 10^9\\). Thứ tự từ nhỏ đến lớn là: Nicaragua < Baikal < Superior.",
+      "answers": [
+        {
+          "text": "Nicaragua < Baikal < Superior",
+          "fraction": 100
+        },
+        {
+          "text": "Baikal < Nicaragua < Superior",
+          "fraction": 0
+        },
+        {
+          "text": "Superior < Baikal < Nicaragua",
+          "fraction": 0
+        },
+        {
+          "text": "Nicaragua < Superior < Baikal",
+          "fraction": 0
+        }
+      ]
+    },
+    {
+      "type": "ddwtos",
+      "level": "nhan_biet",
+      "metadata_code": "Thứ tự phép tính tổng hợp",
+      "questiontext": "Đối với biểu thức có chứa các dấu ngoặc, thứ tự thực hiện phép tính đúng là: thực hiện trong ngoặc tròn [[1]] trước, rồi đến ngoặc vuông [[2]], cuối cùng đến ngoặc nhọn [[3]].",
+      "generalfeedback": "Thứ tự thực hiện trong ngoặc: () -> [] -> {}.",
+      "choices": [
+        {
+          "group": 1,
+          "text": "()"
+        },
+        {
+          "group": 1,
+          "text": "[]"
+        },
+        {
+          "group": 1,
+          "text": "{}"
+        },
+        {
+          "group": 1,
+          "text": "<>"
+        },
+        {
+          "group": 1,
+          "text": "||"
+        }
+      ]
+    },
+    {
+      "type": "gapselect",
+      "level": "thong_hieu",
+      "metadata_code": "YCCD_TOAN7_022",
+      "questiontext": "Khi tính giá trị của biểu thức \\(B = 4,75 + \\left(-\\frac{1}{2}\\right)^3 + 0,5^2 - 3 \\cdot \\frac{-3}{8}\\), giá trị của \\(\\left(-\\frac{1}{2}\\right)^3\\) bằng [[1]] và giá trị của \\(0,5^2\\) bằng [[2]].",
+      "generalfeedback": "\\((-1/2)^3 = -1/8 = -0,125\\) và \\(0,5^2 = 0,25\\).",
+      "choices": [
+        {
+          "group": 1,
+          "text": "-0,125"
+        },
+        {
+          "group": 1,
+          "text": "0,25"
+        },
+        {
+          "group": 1,
+          "text": "0,125"
+        },
+        {
+          "group": 1,
+          "text": "-0,25"
+        },
+        {
+          "group": 1,
+          "text": "0,5"
+        }
+      ]
+    },
+    {
+      "type": "calculatedsimple",
+      "level": "van_dung",
+      "metadata_code": "Giải bài toán tìm x bằng quy tắc chuyển vế",
+      "questiontext": "Tìm số hữu tỉ \\(x\\) biết: \\(x +\\) {a} \\(=\\) {b}. (Chỉ điền số)",
+      "generalfeedback": "\\(x = {b} - {a}\\).",
+      "wildcards": [
+        {
+          "name": "a",
+          "min": 1.0,
+          "max": 5.0,
+          "decimals": 0
+        },
+        {
+          "name": "b",
+          "min": 6.0,
+          "max": 15.0,
+          "decimals": 0
+        }
+      ],
+      "answers": [
+        {
+          "text": "{b}-{a}",
+          "fraction": 100,
+          "tolerance": 0
+        }
+      ]
+    }
+  ]
+}
