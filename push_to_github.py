@@ -32,7 +32,8 @@ def main():
         sys.stdout.buffer.write(b"Git repository da ton tai.\n")
         
     sys.stdout.buffer.write(b"2. Them tat ca file vao commit...\n")
-    run_cmd("git add .")
+    run_cmd("git config core.longpaths true")
+    run_cmd("git add -A")
     
     msg = "Cap nhat QuizBank: 514 bai hoc, 13,061 cau hoi, 528 anh SGK"
     sys.stdout.buffer.write(b"3. Tao commit...\n")
@@ -41,7 +42,7 @@ def main():
     sys.stdout.buffer.write(b"\n4. Kiem tra Remote Origin...\n")
     res = subprocess.run("git remote get-url origin", shell=True, cwd=QUIZBANK_DIR, capture_output=True, text=True)
     if res.returncode != 0 or not res.stdout.strip():
-        repo_url = "https://github.com/nguyenvantri30/ALSM-QuizBank.git"
+        repo_url = "https://github.com/nguyenvantri30-coder/ALSM-QuizBank.git"
         sys.stdout.buffer.write(f"Dat remote mac dinh: {repo_url}\n".encode('utf-8'))
         run_cmd(f"git remote add origin {repo_url}")
     else:
